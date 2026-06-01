@@ -1,4 +1,4 @@
-name: Build and zip release
+name: Build e commit dello zip con l'exe
 
 on:
   push:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  build-and-commit:
     runs-on: windows-latest
 
     steps:
@@ -21,30 +21,33 @@ jobs:
       with:
         dotnet-version: '10.0.x'
 
-    - name: Publish app (folder structure)
-      run: |
-        dotnet publish LiveGardenTV+.csproj `
-          --configuration Release `
-          --runtime win-x64 `
-          --self-contained true `
-          -p:DebugType=none `
-          -p:DebugSymbols=false `
-          -o ./publish_folder
+    - name: Pubblica l'app
+      run: dotnet publish LiveGardenTV+.csproj --configuration Release --runtime win-x64 --self-contained true -p:PublishSingleFile=true -p:DebugType=none -p:DebugSymbols=false -o ./publish_exe --verbosity quiet -nowarn:CS8618,CS8602,CS8622,CS8625,CS8600,CS8601
+      working-directory: ./LiveGardenTV+  # <-- Questo è il comando che mancava
 
-    - name: Remove WebView2 cache folder (if any)
+    - name: Rimuove cartella WebView2 cache (se creata)
       run: |
-        if (Test-Path "./publish_folder/LiveGardenTV+.exe.WebView2") {
-          Remove-Item -Recurse -Force "./publish_folder/LiveGardenTV+.exe.WebView2"
+        if (Test-Path "./publish_exe/LiveGardenTV+.exe.WebView2") {
+          Remove-Item -Recurse -Force "./publish_exe/LiveGardenTV+.exe.WebView2"
         }
+      working-directory: ./LiveGardenTV+  # Operazione dentro la cartella del progetto
 
-    - name: Create ZIP of the whole publish folder
+    - name: Crea zip
       run: |
-        Compress-Archive -Path ./publish_folder/* -DestinationPath ./LiveGardenTVPlus.zip -Force
+        Compress-Archive -Path ./publish_exe/* -DestinationPath ./LiveGardenTVPlus.zip -Force
+      working-directory: ./LiveGardenTV+  # Crea lo zip dentro la cartella del progetto
 
-    - name: Commit and push ZIP
+    - name: Sposta lo zip nella root del repo per il commit
+      run: |
+        Move-Item -Path ./LiveGardenTV+/LiveGardenTVPlus.zip -Destination ./LiveGardenTVPlus.zip -Force
+
+    - name: Configura git
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
+
+    - name: Commit e push dello zip
+      run: |
         git add LiveGardenTVPlus.zip
-        git commit -m "Update build ${{ github.run_number }}" || echo "No changes"
+        git commit -m "Aggiorna build - ${{ github.run_number }}" || echo "Nessuna modifica"
         git push origin HEAD:main
