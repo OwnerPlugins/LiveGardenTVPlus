@@ -1,0 +1,50 @@
+name: Build and zip release
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Setup .NET SDK
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x'
+
+    - name: Publish app (folder structure)
+      run: |
+        dotnet publish LiveGardenTV+.csproj `
+          --configuration Release `
+          --runtime win-x64 `
+          --self-contained true `
+          -p:DebugType=none `
+          -p:DebugSymbols=false `
+          -o ./publish_folder
+
+    - name: Remove WebView2 cache folder (if any)
+      run: |
+        if (Test-Path "./publish_folder/LiveGardenTV+.exe.WebView2") {
+          Remove-Item -Recurse -Force "./publish_folder/LiveGardenTV+.exe.WebView2"
+        }
+
+    - name: Create ZIP of the whole publish folder
+      run: |
+        Compress-Archive -Path ./publish_folder/* -DestinationPath ./LiveGardenTVPlus.zip -Force
+
+    - name: Commit and push ZIP
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add LiveGardenTVPlus.zip
+        git commit -m "Update build ${{ github.run_number }}" || echo "No changes"
+        git push origin HEAD:main
