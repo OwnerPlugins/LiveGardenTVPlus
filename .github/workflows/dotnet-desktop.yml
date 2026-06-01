@@ -1,4 +1,4 @@
-name: Build and Create ZIP Artifact
+name: Build and Create ZIP
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
       with:
         dotnet-version: '10.0.x'
 
-    - name: Publish app (standalone, no single file)
+    - name: Publish app
       run: |
         dotnet publish LiveGardenTV+.csproj `
           --configuration Release `
@@ -26,29 +26,35 @@ jobs:
           --self-contained true `
           -p:DebugType=none `
           -p:DebugSymbols=false `
-          -o ./publish_temp
+          -p:PublishDir=./publish_output
       working-directory: ./LiveGardenTV+
 
-    - name: Remove WebView2 cache and unnecessary files
+    - name: Debug - Check what was published
       run: |
-        # Rimuovi cartelle WebView2 e cache grafica
-        Get-ChildItem -Path ./publish_temp -Directory | Where-Object { 
-          $_.Name -match "WebView2|Cache|Crashpad|GPUCache|GrShaderCache|Dawn|ShaderCache|Graphite" 
+        echo "Contenuto di publish_output:"
+        dir ./publish_output
+        echo "Contenuto di publish_output (ricorsivo):"
+        dir ./publish_output -Recurse
+      working-directory: ./LiveGardenTV+
+
+    - name: Clean up WebView2 cache
+      run: |
+        if (Test-Path "./publish_output/LiveGardenTV+.exe.WebView2") {
+          Remove-Item -Recurse -Force "./publish_output/LiveGardenTV+.exe.WebView2"
+        }
+        Get-ChildItem -Path ./publish_output -Directory | Where-Object { 
+          $_.Name -match "Cache|Crashpad|GPUCache|GrShaderCache|Dawn|ShaderCache|Graphite" 
         } | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
-        
-        # Rimuovi file .pdb, .xml, .log, .lock
-        Get-ChildItem -Path ./publish_temp -File | Where-Object { 
+        Get-ChildItem -Path ./publish_output -File | Where-Object { 
           $_.Extension -in ".pdb", ".xml", ".log", ".lock", ".tmp" 
         } | Remove-Item -Force -ErrorAction SilentlyContinue
-        
-        # Rimuovi runtimes non necessari (arm64, x86)
-        Remove-Item -Recurse -Force ./publish_temp/runtimes/win-arm64 -ErrorAction SilentlyContinue
-        Remove-Item -Recurse -Force ./publish_temp/runtimes/win-x86 -ErrorAction SilentlyContinue
+        Remove-Item -Recurse -Force ./publish_output/runtimes/win-arm64 -ErrorAction SilentlyContinue
+        Remove-Item -Recurse -Force ./publish_output/runtimes/win-x86 -ErrorAction SilentlyContinue
       working-directory: ./LiveGardenTV+
 
     - name: Create ZIP archive
       run: |
-        Compress-Archive -Path ./publish_temp/* -DestinationPath ./LiveGardenTVPlus.zip -Force
+        Compress-Archive -Path ./publish_output/* -DestinationPath ./LiveGardenTVPlus.zip -Force
       working-directory: ./LiveGardenTV+
 
     - name: Upload ZIP as artifact
