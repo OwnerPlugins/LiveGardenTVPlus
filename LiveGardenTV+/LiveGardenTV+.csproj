@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net10.0-windows</TargetFramework>
+        <RootNamespace>LiveGardenTVPlus</RootNamespace>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+        <ApplicationIcon>Themes\logo-garden.ico</ApplicationIcon>
+        <Copyright>@Lululla 2026</Copyright>
+        <StartupObject>LiveGardenTVPlus.App</StartupObject>
+        <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+        <Title>LiveGardenTVPlus</Title>
+        <AssemblyVersion>1.0</AssemblyVersion>
+        <FileVersion>1.0</FileVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <Compile Remove="Controls\**" />
+        <EmbeddedResource Remove="Controls\**" />
+        <None Remove="Controls\**" />
+        <Page Remove="Controls\**" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="Themes\logo-garden.ico" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="Languages\*.lng">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="GTranslate" Version="2.3.1" />
+        <PackageReference Include="MaterialDesignThemes" Version="5.3.2" />
+        <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3967.48" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="PlayerHost\player.html">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="README.md" />
+    </ItemGroup>
+</Project>
