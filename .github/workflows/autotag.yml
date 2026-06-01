@@ -20,10 +20,14 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Read version from file
+      - name: Read version from csproj
         id: get_version
         run: |
-          VERSION=$(grep -oP '(?<=AssemblyVersion\(")[^"]+' LiveGardenTV+/LiveGardenTV+.csproj)
+          VERSION=$(sed -n 's/.*<AssemblyVersion>\(.*\)<\/AssemblyVersion>.*/\1/p' LiveGardenTV+/LiveGardenTV+.csproj)
+          if [ -z "$VERSION" ]; then
+            echo "❌ Version not found in csproj"
+            exit 1
+          fi
           echo "version=$VERSION" >> $GITHUB_OUTPUT
           echo "Extracted version: $VERSION"
 
