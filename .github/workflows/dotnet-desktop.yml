@@ -18,14 +18,15 @@ jobs:
       with:
         dotnet-version: '10.0.x'
 
-    - name: Publish WPF app (self-contained, win-x64)
+    - name: Publish WPF app with diagnostics
       run: |
         dotnet publish "LiveGardenTV+/LiveGardenTV+.csproj" `
           --configuration Release `
           --framework net10.0-windows `
           --runtime win-x64 `
           --self-contained true `
-          --output publish_output
+          --output publish_output `
+          -v diag
 
     - name: Copy extra folders (Languages, Themes, PlayerHost)
       run: |
@@ -57,3 +58,12 @@ jobs:
         file_pattern: "LiveGardenTVPlus.zip"
         commit_user_name: "GitHub Actions"
         commit_user_email: "actions@github.com"
+
+    - name: List contents after publish
+      run: |
+        Get-ChildItem -Path publish_output -Recurse | Select-Object FullName, Length
+        if (-not (Test-Path "publish_output\*.exe")) {
+          Write-Error "Nessun file eseguibile trovato in publish_output!"
+          exit 1
+        }
+        
