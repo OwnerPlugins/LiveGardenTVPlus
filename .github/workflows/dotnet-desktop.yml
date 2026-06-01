@@ -1,4 +1,5 @@
 name: Build and Zip
+
 on:
   push:
     branches: [ main ]
@@ -8,7 +9,7 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
-    - name: Checkout repository
+    - name: Checkout
       uses: actions/checkout@v4
 
     - name: Setup .NET
@@ -16,87 +17,33 @@ jobs:
       with:
         dotnet-version: '10.0.x'
 
-    - name: Publish WPF app
-      id: publish
+    - name: Publish (framework-dependent)
       run: |
         dotnet publish "LiveGardenTV+/LiveGardenTV+.csproj" `
           --configuration Release `
           --framework net10.0-windows `
-          --runtime win-x64 `
-          --self-contained true `
           --output publish_output `
-          -v diag  # log di diagnostica
+          --self-contained false
 
-    - name: VERIFICA 1 - Contenuto di publish_output
+    - name: Copia cartelle extra (Languages, Themes, PlayerHost)
       run: |
-        if (Test-Path "publish_output") {
-          Write-Host "✅ publish_output esiste"
-          $fileCount = (Get-ChildItem "publish_output" -Recurse | Measure-Object).Count
-          Write-Host "📁 Trovati $fileCount file/directory in publish_output"
-          Get-ChildItem "publish_output" -Recurse | Select-Object FullName, Length
-        } else {
-          Write-Error "❌ publish_output NON esiste!"
-          exit 1
-        }
+        Copy-Item -Path "LiveGardenTV+/Languages" -Destination "publish_output/Languages" -Recurse -Force
+        Copy-Item -Path "LiveGardenTV+/Themes"   -Destination "publish_output/Themes"   -Recurse -Force
+        Copy-Item -Path "LiveGardenTV+/PlayerHost" -Destination "publish_output/PlayerHost" -Recurse -Force
 
-    - name: COPIA cartelle extra (Languages, Themes, PlayerHost)
+    - name: Pulizia estrema
       run: |
-        @('Languages','Themes','PlayerHost') | ForEach-Object {
-          $source = "LiveGardenTV+/$_"
-          $dest = "publish_output/$_"
-          if (Test-Path $source) {
-            Copy-Item -Path $source -Destination $dest -Recurse -Force
-            Write-Host "✅ Copiato $_"
-          } else {
-            Write-Warning "⚠️ Cartella sorgente non trovata: $source"
-          }
-        }
+        if (Test-Path "publish_output/runtimes") { Remove-Item "publish_output/runtimes" -Recurse -Force }
+        Get-ChildItem "publish_output" -Recurse -Include *.pdb, *.xml, *.config, *.deps.json, *.runtimeconfig.json, *.manifest, *.pri, *.json -Exclude "userprefs.json" | Remove-Item -Force
+        if (Test-Path "publish_output/WebView2") { Remove-Item "publish_output/WebView2" -Recurse -Force }
+        Write-Host "Dimensione finale: $([math]::Round((Get-ChildItem 'publish_output' -Recurse | Measure-Object Length -Sum).Sum / 1MB,2)) MB"
 
-    - name: PULIZIA file inutili
+    - name: Crea ZIP
       run: |
-        Get-ChildItem "publish_output" -Recurse -Include *.pdb, *.xml, *.config | Remove-Item -Force
-        if (Test-Path "publish_output/WebView2") {
-          Remove-Item "publish_output/WebView2" -Recurse -Force
-        }
+        Compress-Archive -Path "publish_output/*" -DestinationPath "LiveGardenTVPlus.zip" -Force
 
-    - name: VERIFICA 2 - Contenuto dopo copia/pulizia
-      run: |
-        $finalCount = (Get-ChildItem "publish_output" -Recurse | Measure-Object).Count
-        Write-Host "📁 Dopo copia/pulizia: $finalCount file/directory"
-        Get-ChildItem "publish_output" | Select-Object Name, Length
-
-    - name: CREA ZIP
-      run: |
-        $source = "${{ github.workspace }}\publish_output"
-        $destination = "${{ github.workspace }}\LiveGardenTVPlus.zip"
-        Compress-Archive -Path "$source\*" -DestinationPath $destination -Force
-        if (Test-Path $destination) {
-          Write-Host "✅ ZIP creato: $((Get-Item $destination).Length) bytes"
-        } else {
-          Write-Error "❌ Creazione ZIP fallita!"
-          exit 1
-        }
-
-    - name: VERIFICA 3 - Contenuto root e ZIP
-      run: |
-        Get-ChildItem -Path . -Name
-        if (Test-Path "LiveGardenTVPlus.zip") {
-          Write-Host "✅ ZIP trovato nella root: $((Get-Item 'LiveGardenTVPlus.zip').Length) bytes"
-        } else {
-          Write-Error "❌ ZIP non trovato nella root!"
-          exit 1
-        }
-
-    - name: Verifica stato git e aggiungi zip
-      run: |
-        git status
-        git add -f LiveGardenTVPlus.zip
-        git status
-
-    - name: Commit e push ZIP
+    - name: Commit e push
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: "Aggiunge LiveGardenTVPlus.zip [skip ci]"
+        commit_message: "Aggiunge LiveGardenTVPlus.zip pulito [skip ci]"
         file_pattern: "LiveGardenTVPlus.zip"
-        commit_user_name: "GitHub Actions"
-        commit_user_email: "actions@github.com"
