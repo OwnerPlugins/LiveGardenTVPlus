@@ -1,26 +1,24 @@
-name: Build and commit zip with exe
+name: Build and Create ZIP Artifact
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "main" ]
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   build:
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
-    - name: Setup .NET
+    - name: Setup .NET SDK
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: '10.0.x'
 
-    - name: Publish app
+    - name: Publish app (standalone, no single file)
       run: |
         dotnet publish LiveGardenTV+.csproj `
           --configuration Release `
@@ -31,43 +29,30 @@ jobs:
           -o ./publish_temp
       working-directory: ./LiveGardenTV+
 
-    - name: Clean up WebView2 cache and other unnecessary folders
+    - name: Remove WebView2 cache and unnecessary files
       run: |
+        # Rimuovi cartelle WebView2 e cache grafica
         Get-ChildItem -Path ./publish_temp -Directory | Where-Object { 
           $_.Name -match "WebView2|Cache|Crashpad|GPUCache|GrShaderCache|Dawn|ShaderCache|Graphite" 
         } | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
+        
+        # Rimuovi file .pdb, .xml, .log, .lock
         Get-ChildItem -Path ./publish_temp -File | Where-Object { 
           $_.Extension -in ".pdb", ".xml", ".log", ".lock", ".tmp" 
         } | Remove-Item -Force -ErrorAction SilentlyContinue
+        
+        # Rimuovi runtimes non necessari (arm64, x86)
         Remove-Item -Recurse -Force ./publish_temp/runtimes/win-arm64 -ErrorAction SilentlyContinue
         Remove-Item -Recurse -Force ./publish_temp/runtimes/win-x86 -ErrorAction SilentlyContinue
       working-directory: ./LiveGardenTV+
 
-    - name: Debug - show folder structure after publish
+    - name: Create ZIP archive
       run: |
-        Write-Host "Contenuto di ./LiveGardenTV+:"
-        Get-ChildItem -Path ./LiveGardenTV+ -Recurse -Depth 2
-      continue-on-error: true
+        Compress-Archive -Path ./publish_temp/* -DestinationPath ./LiveGardenTVPlus.zip -Force
+      working-directory: ./LiveGardenTV+
 
-    - name: Create ZIP
-      run: |
-        # Se la cartella publish_exe non esiste, prova a usare publish_temp
-        $publishPath = "./LiveGardenTV+/publish_exe"
-        if (-not (Test-Path $publishPath)) {
-          $publishPath = "./LiveGardenTV+/publish_temp"
-        }
-        if (-not (Test-Path $publishPath)) {
-          Write-Error "Nessuna cartella di pubblicazione trovata!"
-          exit 1
-        }
-        Write-Host "Compressione di: $publishPath"
-        Compress-Archive -Path "$publishPath/*" -DestinationPath "./LiveGardenTVPlus.zip" -Force
-
-    # --- Step per fare commit e push dello ZIP ---
-    - name: Commit and push ZIP to repository
-      uses: stefanzweifel/git-auto-commit-action@v5
+    - name: Upload ZIP as artifact
+      uses: actions/upload-artifact@v4
       with:
-        commit_message: "Aggiorna build - ${{ github.run_number }}"
-        file_pattern: "LiveGardenTVPlus.zip"
-        commit_user_name: "github-actions[bot]"
-        commit_user_email: "github-actions[bot]@users.noreply.github.com"
+        name: LiveGardenTVPlus
+        path: ./LiveGardenTV+/LiveGardenTVPlus.zip
