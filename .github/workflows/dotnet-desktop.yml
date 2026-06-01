@@ -43,16 +43,17 @@ jobs:
         Remove-Item -Recurse -Force ./publish_temp/runtimes/win-x86 -ErrorAction SilentlyContinue
       working-directory: ./LiveGardenTV+
 
-    - name: Create zip
+    - name: Create ZIP
       run: |
-        Compress-Archive -Path ./publish_temp/* -DestinationPath ./LiveGardenTVPlus.zip -Force
-        Move-Item -Path ./LiveGardenTVPlus.zip -Destination ${{ github.workspace }}/LiveGardenTVPlus.zip -Force
-      working-directory: ./LiveGardenTV+
+        # Lo ZIP verrà creato nella cartella corrente, che è la base del repositorio
+        Compress-Archive -Path ./LiveGardenTV+/publish_exe/* -DestinationPath ./LiveGardenTVPlus.zip -Force
+        Write-Host "ZIP creato in: ${{ github.workspace }}/LiveGardenTVPlus.zip"
 
-    - name: Commit and push zip
+    # --- Step per fare commit e push dello ZIP ---
+    - name: Commit and push ZIP to repository
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: "Update build - ${{ github.run_number }}"
+        commit_message: "Aggiorna build - ${{ github.run_number }}"
         file_pattern: "LiveGardenTVPlus.zip"
         commit_user_name: "github-actions[bot]"
         commit_user_email: "github-actions[bot]@users.noreply.github.com"
