@@ -43,11 +43,25 @@ jobs:
         Remove-Item -Recurse -Force ./publish_temp/runtimes/win-x86 -ErrorAction SilentlyContinue
       working-directory: ./LiveGardenTV+
 
+    - name: Debug - show folder structure after publish
+      run: |
+        Write-Host "Contenuto di ./LiveGardenTV+:"
+        Get-ChildItem -Path ./LiveGardenTV+ -Recurse -Depth 2
+      continue-on-error: true
+
     - name: Create ZIP
       run: |
-        # Lo ZIP verrà creato nella cartella corrente, che è la base del repositorio
-        Compress-Archive -Path ./LiveGardenTV+/publish_exe/* -DestinationPath ./LiveGardenTVPlus.zip -Force
-        Write-Host "ZIP creato in: ${{ github.workspace }}/LiveGardenTVPlus.zip"
+        # Se la cartella publish_exe non esiste, prova a usare publish_temp
+        $publishPath = "./LiveGardenTV+/publish_exe"
+        if (-not (Test-Path $publishPath)) {
+          $publishPath = "./LiveGardenTV+/publish_temp"
+        }
+        if (-not (Test-Path $publishPath)) {
+          Write-Error "Nessuna cartella di pubblicazione trovata!"
+          exit 1
+        }
+        Write-Host "Compressione di: $publishPath"
+        Compress-Archive -Path "$publishPath/*" -DestinationPath "./LiveGardenTVPlus.zip" -Force
 
     # --- Step per fare commit e push dello ZIP ---
     - name: Commit and push ZIP to repository
