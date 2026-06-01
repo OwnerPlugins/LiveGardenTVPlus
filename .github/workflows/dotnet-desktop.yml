@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: windows-latest
+
     steps:
     - name: Checkout
       uses: actions/checkout@v4
@@ -31,19 +32,20 @@ jobs:
         Copy-Item -Path "LiveGardenTV+/Themes"   -Destination "publish_output/Themes"   -Recurse -Force
         Copy-Item -Path "LiveGardenTV+/PlayerHost" -Destination "publish_output/PlayerHost" -Recurse -Force
 
-    - name: Pulizia estrema
+    - name: (Opzionale) Verifica contenuto prima dello zip
       run: |
-        if (Test-Path "publish_output/runtimes") { Remove-Item "publish_output/runtimes" -Recurse -Force }
-        Get-ChildItem "publish_output" -Recurse -Include *.pdb, *.xml, *.config, *.deps.json, *.runtimeconfig.json, *.manifest, *.pri, *.json -Exclude "userprefs.json" | Remove-Item -Force
-        if (Test-Path "publish_output/WebView2") { Remove-Item "publish_output/WebView2" -Recurse -Force }
-        Write-Host "Dimensione finale: $([math]::Round((Get-ChildItem 'publish_output' -Recurse | Measure-Object Length -Sum).Sum / 1MB,2)) MB"
+        Write-Host "Contenuto di publish_output:"
+        Get-ChildItem "publish_output" -Recurse | Select-Object FullName, Length
 
     - name: Crea ZIP
       run: |
         Compress-Archive -Path "publish_output/*" -DestinationPath "LiveGardenTVPlus.zip" -Force
+        Write-Host "✅ ZIP creato: $((Get-Item 'LiveGardenTVPlus.zip').Length) bytes"
 
-    - name: Commit e push
-      uses: stefanzweifel/git-auto-commit-action@v5
-      with:
-        commit_message: "Aggiunge LiveGardenTVPlus.zip pulito [skip ci]"
-        file_pattern: "LiveGardenTVPlus.zip"
+    - name: Forza aggiunta e commit ZIP
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git add -f LiveGardenTVPlus.zip
+        git commit -m "Aggiunge LiveGardenTVPlus.zip [skip ci]" || echo "Nessuna modifica da committare"
+        git push
