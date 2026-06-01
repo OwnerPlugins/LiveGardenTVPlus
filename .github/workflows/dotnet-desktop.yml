@@ -32,29 +32,29 @@ jobs:
           -o ./publish_temp
       working-directory: ./LiveGardenTV+
 
-    - name: Remove WebView2 cache and other unnecessary folders
+    - name: Clean up unnecessary files and folders
       run: |
-        # Elimina qualsiasi cartella che contiene "WebView2" o cache grafica
+        # Rimuovi qualsiasi cartella che contiene "WebView2" o cache grafica
         Get-ChildItem -Path ./publish_temp -Directory | Where-Object { 
           $_.Name -match "WebView2|Cache|Crashpad|GPUCache|GrShaderCache|Dawn|ShaderCache|Graphite" 
         } | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
         
-        # Elimina anche file .pdb, .xml, .log, .lock
+        # Rimuovi file .pdb, .xml, .log, .lock
         Get-ChildItem -Path ./publish_temp -File | Where-Object { 
           $_.Extension -in ".pdb", ".xml", ".log", ".lock", ".tmp" 
         } | Remove-Item -Force -ErrorAction SilentlyContinue
         
-        # Elimina sottocartelle runtime non necessarie (arm64, x86)
+        # Rimuovi runtimes non necessari (arm64, x86)
         Remove-Item -Recurse -Force ./publish_temp/runtimes/win-arm64 -ErrorAction SilentlyContinue
         Remove-Item -Recurse -Force ./publish_temp/runtimes/win-x86 -ErrorAction SilentlyContinue
       working-directory: ./LiveGardenTV+
 
-    - name: Create ZIP (only clean content)
+    - name: Create ZIP
       run: |
         Compress-Archive -Path ./publish_temp/* -DestinationPath "${{ github.workspace }}/LiveGardenTVPlus.zip" -Force
       working-directory: ./LiveGardenTV+
 
-    - name: Upload artifact (optional, for direct download)
+    - name: Upload artifact (optional)
       uses: actions/upload-artifact@v4
       with:
         name: LiveGardenTVPlus
