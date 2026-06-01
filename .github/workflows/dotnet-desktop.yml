@@ -35,19 +35,15 @@ jobs:
     - name: Crea zip
       run: |
         Compress-Archive -Path ./publish_exe/* -DestinationPath ./LiveGardenTVPlus.zip -Force
-      working-directory: ./LiveGardenTV+  # Crea lo zip dentro la cartella del progetto
-
-    - name: Sposta lo zip nella root del repo per il commit
-      run: |
-        Move-Item -Path ./LiveGardenTV+/LiveGardenTVPlus.zip -Destination ./LiveGardenTVPlus.zip -Force
-
-    - name: Configura git
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
+        # Sposta lo zip nella root del repo (dove viene checkout)
+        Move-Item -Path ./LiveGardenTVPlus.zip -Destination ${{ github.workspace }}/LiveGardenTVPlus.zip -Force
+      working-directory: ./LiveGardenTV+
 
     - name: Commit e push dello zip
       run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        cd ${{ github.workspace }}
         git add LiveGardenTVPlus.zip
         git commit -m "Aggiorna build - ${{ github.run_number }}" || echo "Nessuna modifica"
         git push origin HEAD:main
