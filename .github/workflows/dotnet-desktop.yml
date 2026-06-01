@@ -87,10 +87,11 @@ jobs:
           exit 1
         }
 
-    - name: Check git status
+    - name: Verifica stato git e aggiungi zip
       run: |
         git status
-        git ls-files --others --exclude-standard
+        git add -f LiveGardenTVPlus.zip
+        git status
 
     - name: Commit e push ZIP
       uses: stefanzweifel/git-auto-commit-action@v5
