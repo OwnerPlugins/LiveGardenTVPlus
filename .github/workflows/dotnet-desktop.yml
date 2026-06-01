@@ -22,27 +22,36 @@ jobs:
         dotnet-version: '10.0.x'
 
     - name: Pubblica l'app
-      run: dotnet publish LiveGardenTV+.csproj --configuration Release --runtime win-x64 --self-contained true -p:PublishSingleFile=true -p:DebugType=none -p:DebugSymbols=false -o ./publish_exe --verbosity quiet -nowarn:CS8618,CS8602,CS8622,CS8625,CS8600,CS8601
-      working-directory: ./LiveGardenTV+  # <-- Questo è il comando che mancava
-
-    - name: Rimuove cartella WebView2 cache (se creata)
-      run: |
-        if (Test-Path "./publish_exe/LiveGardenTV+.exe.WebView2") {
-          Remove-Item -Recurse -Force "./publish_exe/LiveGardenTV+.exe.WebView2"
-        }
-      working-directory: ./LiveGardenTV+  # Operazione dentro la cartella del progetto
-
-    - name: Crea zip
-      run: |
-        Compress-Archive -Path ./publish_exe/* -DestinationPath ./LiveGardenTVPlus.zip -Force
-        # Sposta lo zip nella root del repo (dove viene checkout)
-        Move-Item -Path ./LiveGardenTVPlus.zip -Destination ${{ github.workspace }}/LiveGardenTVPlus.zip -Force
+      run: dotnet publish LiveGardenTV+.csproj --configuration Release --runtime win-x64 --self-contained true -p:DebugType=none -p:DebugSymbols=false -o ./publish_exe --verbosity quiet -nowarn:CS8618,CS8602,CS8622,CS8625,CS8600,CS8601,CS1591
       working-directory: ./LiveGardenTV+
 
-    - name: Commit e push dello zip
+    - name: Debug - elenca file pubblicati
+      run: dir ./publish_exe
+      working-directory: ./LiveGardenTV+
+
+    - name: Rimuovi WebView2 cache (se esiste)
+      run: if (Test-Path "./publish_exe/LiveGardenTV+.exe.WebView2") { Remove-Item -Recurse -Force "./publish_exe/LiveGardenTV+.exe.WebView2" }
+      working-directory: ./LiveGardenTV+
+
+    - name: Crea zip nella root del repository
+      run: |
+        Compress-Archive -Path ./publish_exe/* -DestinationPath "${{ github.workspace }}/LiveGardenTVPlus.zip" -Force
+        Write-Host "ZIP creato in: ${{ github.workspace }}/LiveGardenTVPlus.zip"
+      working-directory: ./LiveGardenTV+
+
+    - name: Carica lo zip come artifact (opzionale, per debug)
+      uses: actions/upload-artifact@v4
+      with:
+        name: LiveGardenTVPlus
+        path: ${{ github.workspace }}/LiveGardenTVPlus.zip
+
+    - name: Configura git
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
+
+    - name: Commit e push dello zip
+      run: |
         cd ${{ github.workspace }}
         git add LiveGardenTVPlus.zip
         git commit -m "Aggiorna build - ${{ github.run_number }}" || echo "Nessuna modifica"
