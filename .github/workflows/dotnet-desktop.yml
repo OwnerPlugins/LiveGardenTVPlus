@@ -1,19 +1,21 @@
-name: Build and Create ZIP
+name: Build and commit zip with exe
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ main ]
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: windows-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+    - uses: actions/checkout@v4
 
-    - name: Setup .NET SDK
+    - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: '10.0.x'
@@ -26,39 +28,48 @@ jobs:
           --self-contained true `
           -p:DebugType=none `
           -p:DebugSymbols=false `
-          -p:PublishDir=./publish_output
+          -o ./publish_output
       working-directory: ./LiveGardenTV+
 
-    - name: Debug - Check what was published
+    - name: Copy additional resource folders (Languages, Themes, PlayerHost)
       run: |
-        echo "Contenuto di publish_output:"
-        dir ./publish_output
-        echo "Contenuto di publish_output (ricorsivo):"
-        dir ./publish_output -Recurse
+        # Copia le cartelle dalla source del progetto (che è nella cartella LiveGardenTV+)
+        Copy-Item -Path ./Languages -Destination ./publish_output/Languages -Recurse -Force
+        Copy-Item -Path ./Themes -Destination ./publish_output/Themes -Recurse -Force
+        Copy-Item -Path ./PlayerHost -Destination ./publish_output/PlayerHost -Recurse -Force
       working-directory: ./LiveGardenTV+
 
-    - name: Clean up WebView2 cache
+    - name: Remove WebView2 cache and other junk
       run: |
+        # Elimina qualsiasi cartella che contiene "WebView2" o "Cache" (case insensitive)
+        Get-ChildItem -Path ./publish_output -Directory | Where-Object { 
+          $_.Name -match "WebView2|Cache|Crashpad|GPUCache|GrShaderCache|Dawn|ShaderCache|Graphite|logs|temp" 
+        } | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
+        
+        # Elimina file spuri
+        Get-ChildItem -Path ./publish_output -File | Where-Object { 
+          $_.Extension -in ".pdb", ".xml", ".log", ".lock", ".tmp", ".db", ".json" 
+        } | Remove-Item -Force -ErrorAction SilentlyContinue
+        
+        # Elimina sottocartelle runtime inutili
+        Remove-Item -Recurse -Force ./publish_output/runtimes/win-arm64 -ErrorAction SilentlyContinue
+        Remove-Item -Recurse -Force ./publish_output/runtimes/win-x86 -ErrorAction SilentlyContinue
+        
+        # Se esiste ancora qualche cartella sospetta, la elimino con nome esatto
         if (Test-Path "./publish_output/LiveGardenTV+.exe.WebView2") {
           Remove-Item -Recurse -Force "./publish_output/LiveGardenTV+.exe.WebView2"
         }
-        Get-ChildItem -Path ./publish_output -Directory | Where-Object { 
-          $_.Name -match "Cache|Crashpad|GPUCache|GrShaderCache|Dawn|ShaderCache|Graphite" 
-        } | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
-        Get-ChildItem -Path ./publish_output -File | Where-Object { 
-          $_.Extension -in ".pdb", ".xml", ".log", ".lock", ".tmp" 
-        } | Remove-Item -Force -ErrorAction SilentlyContinue
-        Remove-Item -Recurse -Force ./publish_output/runtimes/win-arm64 -ErrorAction SilentlyContinue
-        Remove-Item -Recurse -Force ./publish_output/runtimes/win-x86 -ErrorAction SilentlyContinue
       working-directory: ./LiveGardenTV+
 
-    - name: Create ZIP archive
+    - name: Create zip in repository root
       run: |
-        Compress-Archive -Path ./publish_output/* -DestinationPath ./LiveGardenTVPlus.zip -Force
+        Compress-Archive -Path ./publish_output/* -DestinationPath ${{ github.workspace }}/LiveGardenTVPlus.zip -Force
       working-directory: ./LiveGardenTV+
 
-    - name: Upload ZIP as artifact
-      uses: actions/upload-artifact@v4
+    - name: Commit and push zip
+      uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        name: LiveGardenTVPlus
-        path: ./LiveGardenTV+/LiveGardenTVPlus.zip
+        commit_message: "Update build - ${{ github.run_number }}"
+        file_pattern: "LiveGardenTVPlus.zip"
+        commit_user_name: "github-actions[bot]"
+        commit_user_email: "github-actions[bot]@users.noreply.github.com"
