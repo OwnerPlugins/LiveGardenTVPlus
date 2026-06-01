@@ -1,4 +1,4 @@
-name: Build e commit dello zip con l'exe
+name: Build and zip release
 
 on:
   push:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  build-and-commit:
+  build:
     runs-on: windows-latest
 
     steps:
@@ -21,38 +21,49 @@ jobs:
       with:
         dotnet-version: '10.0.x'
 
-    - name: Pubblica l'app
-      run: dotnet publish LiveGardenTV+.csproj --configuration Release --runtime win-x64 --self-contained true -p:DebugType=none -p:DebugSymbols=false -o ./publish_exe --verbosity quiet -nowarn:CS8618,CS8602,CS8622,CS8625,CS8600,CS8601,CS1591
-      working-directory: ./LiveGardenTV+
-
-    - name: Debug - elenca file pubblicati
-      run: dir ./publish_exe
-      working-directory: ./LiveGardenTV+
-
-    - name: Rimuovi WebView2 cache (se esiste)
-      run: if (Test-Path "./publish_exe/LiveGardenTV+.exe.WebView2") { Remove-Item -Recurse -Force "./publish_exe/LiveGardenTV+.exe.WebView2" }
-      working-directory: ./LiveGardenTV+
-
-    - name: Crea zip nella root del repository
+    - name: Publish app (folder structure, no single file)
       run: |
-        Compress-Archive -Path ./publish_exe/* -DestinationPath "${{ github.workspace }}/LiveGardenTVPlus.zip" -Force
-        Write-Host "ZIP creato in: ${{ github.workspace }}/LiveGardenTVPlus.zip"
+        dotnet publish LiveGardenTV+.csproj `
+          --configuration Release `
+          --runtime win-x64 `
+          --self-contained true `
+          -p:DebugType=none `
+          -p:DebugSymbols=false `
+          -o ./publish_temp
       working-directory: ./LiveGardenTV+
 
-    - name: Carica lo zip come artifact (opzionale, per debug)
+    - name: Remove WebView2 cache and other unnecessary folders
+      run: |
+        # Elimina qualsiasi cartella che contiene "WebView2" o cache grafica
+        Get-ChildItem -Path ./publish_temp -Directory | Where-Object { 
+          $_.Name -match "WebView2|Cache|Crashpad|GPUCache|GrShaderCache|Dawn|ShaderCache|Graphite" 
+        } | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
+        
+        # Elimina anche file .pdb, .xml, .log, .lock
+        Get-ChildItem -Path ./publish_temp -File | Where-Object { 
+          $_.Extension -in ".pdb", ".xml", ".log", ".lock", ".tmp" 
+        } | Remove-Item -Force -ErrorAction SilentlyContinue
+        
+        # Elimina sottocartelle runtime non necessarie (arm64, x86)
+        Remove-Item -Recurse -Force ./publish_temp/runtimes/win-arm64 -ErrorAction SilentlyContinue
+        Remove-Item -Recurse -Force ./publish_temp/runtimes/win-x86 -ErrorAction SilentlyContinue
+      working-directory: ./LiveGardenTV+
+
+    - name: Create ZIP (only clean content)
+      run: |
+        Compress-Archive -Path ./publish_temp/* -DestinationPath "${{ github.workspace }}/LiveGardenTVPlus.zip" -Force
+      working-directory: ./LiveGardenTV+
+
+    - name: Upload artifact (optional, for direct download)
       uses: actions/upload-artifact@v4
       with:
         name: LiveGardenTVPlus
         path: ${{ github.workspace }}/LiveGardenTVPlus.zip
 
-    - name: Configura git
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-
-    - name: Commit e push dello zip
-      run: |
-        cd ${{ github.workspace }}
-        git add LiveGardenTVPlus.zip
-        git commit -m "Aggiorna build - ${{ github.run_number }}" || echo "Nessuna modifica"
-        git push origin HEAD:main
+    - name: Commit and push ZIP to repository
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Update build ${{ github.run_number }}"
+        file_pattern: "LiveGardenTVPlus.zip"
+        commit_user_name: "github-actions[bot]"
+        commit_user_email: "github-actions[bot]@users.noreply.github.com"
