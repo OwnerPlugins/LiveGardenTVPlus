@@ -31,31 +31,31 @@ jobs:
           -o ./publish_output
       working-directory: ./LiveGardenTV+
 
-    - name: Copy additional resource folders (Languages, Themes, PlayerHost)
+    - name: Copy resource folders (Languages, Themes, PlayerHost)
       run: |
-        # Copia le cartelle dalla source del progetto (che è nella cartella LiveGardenTV+)
+        # Copia le cartelle dalla cartella del progetto (LiveGardenTV+)
         Copy-Item -Path ./Languages -Destination ./publish_output/Languages -Recurse -Force
         Copy-Item -Path ./Themes -Destination ./publish_output/Themes -Recurse -Force
         Copy-Item -Path ./PlayerHost -Destination ./publish_output/PlayerHost -Recurse -Force
       working-directory: ./LiveGardenTV+
 
-    - name: Remove WebView2 cache and other junk
+    - name: Remove WebView2 cache and junk files
       run: |
-        # Elimina qualsiasi cartella che contiene "WebView2" o "Cache" (case insensitive)
+        # Elimina la cartella WebView2 se esiste (con qualsiasi nome)
         Get-ChildItem -Path ./publish_output -Directory | Where-Object { 
           $_.Name -match "WebView2|Cache|Crashpad|GPUCache|GrShaderCache|Dawn|ShaderCache|Graphite|logs|temp" 
         } | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
         
         # Elimina file spuri
         Get-ChildItem -Path ./publish_output -File | Where-Object { 
-          $_.Extension -in ".pdb", ".xml", ".log", ".lock", ".tmp", ".db", ".json" 
+          $_.Extension -in ".pdb", ".xml", ".log", ".lock", ".tmp", ".db" 
         } | Remove-Item -Force -ErrorAction SilentlyContinue
         
-        # Elimina sottocartelle runtime inutili
+        # Rimuovi runtime non necessari (arm64, x86)
         Remove-Item -Recurse -Force ./publish_output/runtimes/win-arm64 -ErrorAction SilentlyContinue
         Remove-Item -Recurse -Force ./publish_output/runtimes/win-x86 -ErrorAction SilentlyContinue
         
-        # Se esiste ancora qualche cartella sospetta, la elimino con nome esatto
+        # Eliminazione forzata anche con nome esatto
         if (Test-Path "./publish_output/LiveGardenTV+.exe.WebView2") {
           Remove-Item -Recurse -Force "./publish_output/LiveGardenTV+.exe.WebView2"
         }
