@@ -1,13 +1,22 @@
-﻿using LiveGardenTVPlus.Models;
+﻿using System;
+using LiveGardenTVPlus.Models;
 using LiveGardenTVPlus.Services;
 using LiveGardenTVPlus.Views;
 using MaterialDesignThemes.Wpf;
+using Microsoft.Web.WebView2.Wpf;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
+using System.IO.Compression;
 using System.IO;
+using System.Linq;
 using System.Net.Http;
-using System.Windows;
+using System.Reflection;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 using System.Windows.Controls;
 using System.Windows.Media;
+using System.Windows;
 
 namespace LiveGardenTVPlus
 {
@@ -18,7 +27,6 @@ namespace LiveGardenTVPlus
         private string _searchFilter = "";
         private bool _isDrillingIntoGroup = false;
         private string _drilledGroupName = "";
-
         private string _currentChannelName = "";
 
         public ObservableCollection<ChannelGroup> ChannelGroups { get; set; } = new ObservableCollection<ChannelGroup>();
@@ -31,6 +39,13 @@ namespace LiveGardenTVPlus
         public MainWindow()
         {
             InitializeComponent();
+
+            var version = Assembly.GetExecutingAssembly().GetName().Version;
+            string shortVersion = $"{version.Major}.{version.Minor}";
+            this.Title = $"TVGarden+ v{shortVersion}";
+            if (CheckUpdatesBtn != null)
+                CheckUpdatesBtn.ToolTip = $"Check for updates (current: {shortVersion})";
+
             ChannelTreeView.ItemsSource = ChannelGroups;
             var prefs = UserPreferences.Load();
             LanguageManager.LoadLanguage(prefs.Language);
@@ -47,6 +62,102 @@ namespace LiveGardenTVPlus
                     text.Text = $"{prefsLocal.BufferSeconds}s";
                 }
             };
+        }
+
+        private async Task CheckForUpdates()
+        {
+            string csprojUrl = "https://raw.githubusercontent.com/OwnerPlugins/LiveGardenTVPlus/main/LiveGardenTV+/LiveGardenTV+.csproj";
+            string zipUrl = "https://github.com/OwnerPlugins/LiveGardenTVPlus/raw/main/LiveGardenTVPlus.zip";
+            string tempZip = Path.Combine(Path.GetTempPath(), "LiveGardenTVPlus_update.zip");
+            string appDir = AppDomain.CurrentDomain.BaseDirectory;
+            string currentExe = Path.Combine(appDir, "LiveGardenTVPlus.exe");
+
+            try
+            {
+                // 1. Legge la versione corrente dall'assembly
+                Version currentVersion = Assembly.GetExecutingAssembly().GetName().Version;
+                if (currentVersion == null) currentVersion = new Version(1, 0);
+
+                using var client = new HttpClient();
+                client.DefaultRequestHeaders.UserAgent.ParseAdd("LiveGardenTVPlus");
+
+                // 2. Scarica il .csproj remoto e estrae la versione
+                string csprojContent = await client.GetStringAsync(csprojUrl);
+                var match = Regex.Match(csprojContent, @"<AssemblyVersion>([^<]+)</AssemblyVersion>");
+                if (!match.Success)
+                {
+                    MessageBox.Show(LanguageManager.GetTranslation("Unable to find version in remote project file."),
+                                    LanguageManager.GetTranslation("Update"),
+                                    MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+                Version remoteVersion = new Version(match.Groups[1].Value);
+
+                // 3. Confronto
+                if (remoteVersion <= currentVersion)
+                {
+                    string shortVersion = $"{currentVersion.Major}.{currentVersion.Minor}";
+                    string msg = LanguageManager.GetTranslation("No updates available.") + 
+                                 $" You are using version {shortVersion}.";
+                    MessageBox.Show(msg, LanguageManager.GetTranslation("Update"),
+                                    MessageBoxButton.OK, MessageBoxImage.Information);
+                    return;
+                }
+
+                // 4. Chiedi all'utente
+                MessageBoxResult result = MessageBox.Show(
+                    LanguageManager.GetTranslation("A new version is available. Do you want to update now?"),
+                    LanguageManager.GetTranslation("Update"),
+                    MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+                if (result != MessageBoxResult.Yes) return;
+
+                // 5. Scarica zip
+                using (var response = await client.GetAsync(zipUrl, HttpCompletionOption.ResponseHeadersRead))
+                using (var fs = new FileStream(tempZip, FileMode.Create, FileAccess.Write, FileShare.None))
+                    await response.Content.CopyToAsync(fs);
+
+                // 6. Batch di aggiornamento (come già avevi)
+                string batPath = Path.Combine(Path.GetTempPath(), "update_LiveGardenTVPlus.bat");
+                using (StreamWriter sw = new StreamWriter(batPath))
+                {
+                    sw.WriteLine("@echo off");
+                    sw.WriteLine("echo " + LanguageManager.GetTranslation("Waiting for LiveGardenTVPlus to close..."));
+                    sw.WriteLine("timeout /t 2 /nobreak > nul");
+                    sw.WriteLine(":loop");
+                    sw.WriteLine("tasklist /fi \"imagename eq LiveGardenTVPlus.exe\" 2>NUL | find /i /n \"LiveGardenTVPlus.exe\">NUL");
+                    sw.WriteLine("if \"%errorlevel%\"==\"0\" (");
+                    sw.WriteLine("    timeout /t 1 /nobreak > nul");
+                    sw.WriteLine("    goto loop");
+                    sw.WriteLine(")");
+                    sw.WriteLine("echo " + LanguageManager.GetTranslation("Extracting update..."));
+                    sw.WriteLine($"powershell -Command \"Expand-Archive -Path '{tempZip}' -DestinationPath '{appDir}' -Force\"");
+                    sw.WriteLine("if exist \"" + tempZip + "\" del \"" + tempZip + "\"");
+                    sw.WriteLine("echo " + LanguageManager.GetTranslation("Update complete. Restarting..."));
+                    sw.WriteLine($"start \"\" \"{currentExe}\"");
+                    sw.WriteLine("del \"%~f0\"");
+                }
+
+                ProcessStartInfo psi = new ProcessStartInfo
+                {
+                    FileName = batPath,
+                    UseShellExecute = true,
+                    CreateNoWindow = false
+                };
+                Process.Start(psi);
+                Application.Current.Shutdown();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(LanguageManager.GetTranslation("Update failed: ") + ex.Message,
+                                LanguageManager.GetTranslation("Error"),
+                                MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private async void CheckUpdatesBtn_Click(object sender, RoutedEventArgs e)
+        {
+            await CheckForUpdates();
         }
 
         public void ApplyLanguage()
@@ -403,11 +514,13 @@ namespace LiveGardenTVPlus
 
         private void HelpBtn_Click(object sender, RoutedEventArgs e)
         {
+            var version = Assembly.GetExecutingAssembly().GetName().Version;
+            string shortVersion = $"{version.Major}.{version.Minor}";
+
             string help = LanguageManager.GetTranslation("HelpText");
             if (string.IsNullOrEmpty(help) || help == "HelpText")
             {
-                // Fallback English help text (complete with credits)
-                help = @"LiveGardenTVPlus Help
+                help = $@"LiveGardenTVPlus Help - Version {shortVersion }
 
         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
         📁 PLAYLIST

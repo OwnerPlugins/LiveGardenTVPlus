@@ -7,7 +7,6 @@
 **LiveGardenTVPlus** is a desktop IPTV player for Windows (WPF / .NET 10) that plays HLS streams (m3u8) using **WebView2** and **hls.js**.  
 It loads local or online M3U playlists, organizes channels by groups, and provides a modern, themeable interface.
 
-<!-- ![Screenshot placeholder](screenshot.png) -->
 
 ## Screenshots
 
@@ -68,6 +67,30 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 ---
 ### Changelog
 
+## ✨ What's New in Version 1.1
+
+- **Auto‑update** – A new "Update" button (toolbar or Help menu) checks for a newer version on GitHub.  
+  If found, it downloads the ZIP, extracts it, and restarts the app after replacing files.
+
+- **Version display** – The current version (e.g., `1.0`) now appears in the main window title, in the Help dialog, and in the "No updates available" message.
+
+- **Improved installer (Inno Setup)**  
+  - Multi‑language selection at startup (English, Italian, Arabic, French, Turkish, Polish, German, Spanish, Dutch, Portuguese, Russian).  
+  - Donation page with QR codes (PayPal & Ko‑fi).  
+  - Optional .NET Runtime info page with a clickable download link.
+
+- **Cleaner distribution** – The ZIP and setup no longer include WebView2 cache or duplicate folders (`Languages\Languages`, `PlayerHost\PlayerHost`).
+
+- **Translations** – All update‑related messages now use `LanguageManager.GetTranslation()` for easier localization.
+
+## ⚠️ Known Issue
+
+- **Language selector** – The language setting in the Settings window currently does **not** fully update the GUI.  
+  Some texts may remain in the previously selected language. A complete UI refresh on language change is planned for a future release.
+
+---
+
+
 ## ✨ Features (Version 1.0)
 
 - **Playlist support** – Load M3U/M3U8 files from your PC or from a remote URL.
@@ -79,8 +102,6 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 - **Sidebar toggle** – Collapse the channel list to focus on video.
 - **Settings window** – Change buffer size, select online playlist (GitHub refresh), and choose UI language (see note below).
 - **Persistent preferences** – Saves last playlist URL, buffer, theme, and language (language not yet fully applied).
-
----
 
 ## ⚠️ Known limitation – Language translation
 
@@ -167,6 +188,12 @@ LiveGardenTVPlus/
    - `Fullscreen` hides all UI (press ESC to exit).  
    - Speed buttons change playback speed.  
    - Drag & drop a `.m3u` file onto the window.
+
+7. **Update the application**  
+   - Click the `Update` button (toolbar or Help menu).  
+   - The app checks for a newer version on GitHub.  
+   - If available, you'll be prompted to download and install it.  
+   - The app will close, replace its files, and restart automatically.
 
 ---
 

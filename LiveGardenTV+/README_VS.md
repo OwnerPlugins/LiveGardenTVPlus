@@ -11,6 +11,30 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 
 ---
 
+## ✨ What's New in Version 1.1
+
+- **Auto‑update** – A new "Update" button (toolbar or Help menu) checks for a newer version on GitHub.  
+  If found, it downloads the ZIP, extracts it, and restarts the app after replacing files.
+
+- **Version display** – The current version (e.g., `1.0`) now appears in the main window title, in the Help dialog, and in the "No updates available" message.
+
+- **Improved installer (Inno Setup)**  
+  - Multi‑language selection at startup (English, Italian, Arabic, French, Turkish, Polish, German, Spanish, Dutch, Portuguese, Russian).  
+  - Donation page with QR codes (PayPal & Ko‑fi).  
+  - Optional .NET Runtime info page with a clickable download link.
+
+- **Cleaner distribution** – The ZIP and setup no longer include WebView2 cache or duplicate folders (`Languages\Languages`, `PlayerHost\PlayerHost`).
+
+- **Translations** – All update‑related messages now use `LanguageManager.GetTranslation()` for easier localization.
+
+---
+
+## ⚠️ Known Issue
+
+- **Language selector** – The language setting in the Settings window currently does **not** fully update the GUI.  
+  Some texts may remain in the previously selected language. A complete UI refresh on language change is planned for a future release.
+
+
 ## ✨ Features (Version 1.0)
 
 - **Playlist support** – Load M3U/M3U8 files from your PC or from a remote URL.
