@@ -21,14 +21,24 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore "LiveGardenTV+/LiveGardenTV+.csproj"
 
-    - name: Publish WPF app (framework-dependent)
+    # - name: Publish WPF app (framework-dependent)
+      # run: |
+        # dotnet publish "LiveGardenTV+/LiveGardenTV+.csproj" `
+          # --configuration Release `
+          # --framework net10.0-windows `
+          # --output publish_output `
+          # --self-contained false `
+          # --no-restore
+
+    - name: Publish self-contained
       run: |
         dotnet publish "LiveGardenTV+/LiveGardenTV+.csproj" `
           --configuration Release `
           --framework net10.0-windows `
+          --runtime win-x64 `
+          --self-contained true `
           --output publish_output `
-          --self-contained false `
-          --no-restore
+          -p:DebugType=none
 
     - name: Copy extra folders (Languages, Themes, PlayerHost)
       run: |
