@@ -10,8 +10,19 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 ![Screenshot placeholder](screenshot.png)
 
 ---
+# ✨ What's New in Version 1.2
 
-## ✨ What's New in Version 1.1
+- **Auto‑update** – A new fix for "Update" and restarts the app after replacing files.
+
+## ⚠️ Known Issue
+
+- **Language selector** – The language setting in the Settings window currently does **not** fully update the GUI.  
+  Some texts may remain in the previously selected language. A complete UI refresh on language change is planned for a future release.
+
+---
+
+
+# ✨ What's New in Version 1.1
 
 - **Auto‑update** – A new "Update" button (toolbar or Help menu) checks for a newer version on GitHub.  
   If found, it downloads the ZIP, extracts it, and restarts the app after replacing files.
@@ -27,12 +38,13 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 
 - **Translations** – All update‑related messages now use `LanguageManager.GetTranslation()` for easier localization.
 
----
 
 ## ⚠️ Known Issue
 
 - **Language selector** – The language setting in the Settings window currently does **not** fully update the GUI.  
   Some texts may remain in the previously selected language. A complete UI refresh on language change is planned for a future release.
+
+---
 
 
 ## ✨ Features (Version 1.0)
@@ -47,7 +59,6 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 - **Settings window** – Change buffer size, select online playlist (GitHub refresh), and choose UI language (see note below).
 - **Persistent preferences** – Saves last playlist URL, buffer, theme, and language (language not yet fully applied).
 
----
 
 ## ⚠️ Known limitation – Language translation
 

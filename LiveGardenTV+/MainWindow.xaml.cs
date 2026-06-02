@@ -10,6 +10,7 @@ using System.Diagnostics;
 using System.IO.Compression;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Reflection;
 using System.Text.RegularExpressions;
@@ -64,24 +65,26 @@ namespace LiveGardenTVPlus
             };
         }
 
+        private async void CheckUpdatesBtn_Click(object sender, RoutedEventArgs e)
+        {
+            CheckForUpdates();
+        }
+
         private async Task CheckForUpdates()
         {
             string csprojUrl = "https://raw.githubusercontent.com/OwnerPlugins/LiveGardenTVPlus/main/LiveGardenTV+/LiveGardenTV+.csproj";
             string zipUrl = "https://github.com/OwnerPlugins/LiveGardenTVPlus/raw/main/LiveGardenTVPlus.zip";
             string tempZip = Path.Combine(Path.GetTempPath(), "LiveGardenTVPlus_update.zip");
             string appDir = AppDomain.CurrentDomain.BaseDirectory;
-            string currentExe = Path.Combine(appDir, "LiveGardenTVPlus.exe");
+            string currentExe = Path.Combine(appDir, "LiveGardenTV+.exe");
 
             try
             {
-                // 1. Legge la versione corrente dall'assembly
                 Version currentVersion = Assembly.GetExecutingAssembly().GetName().Version;
                 if (currentVersion == null) currentVersion = new Version(1, 0);
 
                 using var client = new HttpClient();
                 client.DefaultRequestHeaders.UserAgent.ParseAdd("LiveGardenTVPlus");
-
-                // 2. Scarica il .csproj remoto e estrae la versione
                 string csprojContent = await client.GetStringAsync(csprojUrl);
                 var match = Regex.Match(csprojContent, @"<AssemblyVersion>([^<]+)</AssemblyVersion>");
                 if (!match.Success)
@@ -93,7 +96,6 @@ namespace LiveGardenTVPlus
                 }
                 Version remoteVersion = new Version(match.Groups[1].Value);
 
-                // 3. Confronto
                 if (remoteVersion <= currentVersion)
                 {
                     string shortVersion = $"{currentVersion.Major}.{currentVersion.Minor}";
@@ -104,7 +106,6 @@ namespace LiveGardenTVPlus
                     return;
                 }
 
-                // 4. Chiedi all'utente
                 MessageBoxResult result = MessageBox.Show(
                     LanguageManager.GetTranslation("A new version is available. Do you want to update now?"),
                     LanguageManager.GetTranslation("Update"),
@@ -112,12 +113,10 @@ namespace LiveGardenTVPlus
 
                 if (result != MessageBoxResult.Yes) return;
 
-                // 5. Scarica zip
                 using (var response = await client.GetAsync(zipUrl, HttpCompletionOption.ResponseHeadersRead))
                 using (var fs = new FileStream(tempZip, FileMode.Create, FileAccess.Write, FileShare.None))
                     await response.Content.CopyToAsync(fs);
 
-                // 6. Batch di aggiornamento (come già avevi)
                 string batPath = Path.Combine(Path.GetTempPath(), "update_LiveGardenTVPlus.bat");
                 using (StreamWriter sw = new StreamWriter(batPath))
                 {
@@ -125,11 +124,12 @@ namespace LiveGardenTVPlus
                     sw.WriteLine("echo " + LanguageManager.GetTranslation("Waiting for LiveGardenTVPlus to close..."));
                     sw.WriteLine("timeout /t 2 /nobreak > nul");
                     sw.WriteLine(":loop");
-                    sw.WriteLine("tasklist /fi \"imagename eq LiveGardenTVPlus.exe\" 2>NUL | find /i /n \"LiveGardenTVPlus.exe\">NUL");
+                    sw.WriteLine("tasklist /fi \"imagename eq LiveGardenTVPlus.exe\" 2>NUL | find /i /n \"LiveGardenTV+.exe\">NUL");
                     sw.WriteLine("if \"%errorlevel%\"==\"0\" (");
                     sw.WriteLine("    timeout /t 1 /nobreak > nul");
                     sw.WriteLine("    goto loop");
                     sw.WriteLine(")");
+                    sw.WriteLine("taskkill /f /im LiveGardenTVPlus.exe 2>nul");
                     sw.WriteLine("echo " + LanguageManager.GetTranslation("Extracting update..."));
                     sw.WriteLine($"powershell -Command \"Expand-Archive -Path '{tempZip}' -DestinationPath '{appDir}' -Force\"");
                     sw.WriteLine("if exist \"" + tempZip + "\" del \"" + tempZip + "\"");
@@ -145,7 +145,14 @@ namespace LiveGardenTVPlus
                     CreateNoWindow = false
                 };
                 Process.Start(psi);
-                Application.Current.Shutdown();
+
+                if (WebPlayer?.CoreWebView2 != null)
+                {
+                    WebPlayer.CoreWebView2.Stop();
+                }
+                WebPlayer?.Dispose();
+
+                Environment.Exit(0);
             }
             catch (Exception ex)
             {
@@ -153,11 +160,6 @@ namespace LiveGardenTVPlus
                                 LanguageManager.GetTranslation("Error"),
                                 MessageBoxButton.OK, MessageBoxImage.Error);
             }
-        }
-
-        private async void CheckUpdatesBtn_Click(object sender, RoutedEventArgs e)
-        {
-            await CheckForUpdates();
         }
 
         public void ApplyLanguage()
@@ -522,50 +524,59 @@ namespace LiveGardenTVPlus
             {
                 help = $@"LiveGardenTVPlus Help - Version {shortVersion }
 
-        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        📁 PLAYLIST
-        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        • Load M3U   – Open a playlist file from your PC
-        • Online M3U – Enter URL of a remote playlist
-        • Settings   – Change buffer size, select online playlist (Refresh from GitHub)
-        • Drag & drop an M3U file directly onto the window
+            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+            📁 PLAYLIST
+            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+            • Load M3U   – Open a playlist file from your PC
+            • Online M3U – Enter URL of a remote playlist
+            • Settings   – Change buffer size, select online playlist (Refresh from GitHub)
+            • Drag & drop an M3U file directly onto the window
 
-        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        📺 CHANNEL VIEW
-        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        • Click a channel to start playback
-        • Click a group name → shows only channels of that group
-        • '← Back to all groups' returns to full list
-        • Search box → flat list of results (clear text to return)
-        • Favorites – right‑click or use the star icon; toggle 'Favorites only'
+            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+            📺 CHANNEL VIEW
+            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+            • Click a channel to start playback
+            • Click a group name → shows only channels of that group
+            • '← Back to all groups' returns to full list
+            • Search box → flat list of results (clear text to return)
+            • Favorites – right‑click or use the star icon; toggle 'Favorites only'
 
-        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        🎮 PLAYER CONTROLS
-        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        • Speed buttons: 0.5×, 1×, 2×
-        • Buffer slider: adjust HLS buffer (1–10 seconds)
-        • PIP – Picture‑in‑Picture mode
-        • Fullscreen – hides all UI (click again or press ESC to restore)
-        • Hide List – collapse the channel sidebar
+            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+            🎮 PLAYER CONTROLS
+            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+            • Speed buttons: 0.5×, 1×, 2×
+            • Buffer slider: adjust HLS buffer (1–10 seconds)
+            • PIP – Picture‑in‑Picture mode
+            • Fullscreen – hides all UI (click again or press ESC to restore)
+            • Hide List – collapse the channel sidebar
 
-        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        🎨 THEMES & LANGUAGE
-        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        • Theme picker – 16 colour themes + Light/Dark mode
-        • Language selector in Settings (⚠️ currently under development – translation not yet applied)
+            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+            🔄 UPDATER
+            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+            • Automatic update check on startup (or click the update button)
+            • If a new version is found, you will be prompted to download it
+            • The updater downloads the ZIP, replaces all files, and restarts the app
+            • Your settings and playlists are preserved
 
-        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        🙏 CREDITS
-        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        • Developer: Lululla
-        • Playlist repository: OwnerPlugins / TivuStreamList (Italian & international streams)
-        • HLS playback: hls.js (MIT license)
-        • UI components: MaterialDesignThemes.Wpf
-        • WebView2: Microsoft Edge WebView2
-        • Community & testing: CorvoBoys (corvoboys.org)
+            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+            🎨 THEMES & LANGUAGE
+            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+            • Theme picker – 16 colour themes + Light/Dark mode
+            • Language selector in Settings 
+              (⚠️ currently under development – translation not yet applied)
 
-        For more information, visit the GitHub repository.
-        ";
+            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+            🙏 CREDITS
+            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+            • Developer: Lululla
+            • Playlist repository: OwnerPlugins / TivuStreamList (Italian & international streams)
+            • HLS playback: hls.js (MIT license)
+            • UI components: MaterialDesignThemes.Wpf
+            • WebView2: Microsoft Edge WebView2
+            • Community & testing: CorvoBoys (corvoboys.org)
+
+            For more information, visit the GitHub repository.
+            ";
             }
             MessageBox.Show(help, LanguageManager.GetTranslation("Help"), MessageBoxButton.OK, MessageBoxImage.Information);
         }

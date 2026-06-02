@@ -67,6 +67,18 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 ---
 ### Changelog
 
+
+# ✨ What's New in Version 1.2
+
+- **Auto‑update** – A new fix for "Update" and restarts the app after replacing files.
+
+## ⚠️ Known Issue
+
+- **Language selector** – The language setting in the Settings window currently does **not** fully update the GUI.  
+  Some texts may remain in the previously selected language. A complete UI refresh on language change is planned for a future release.
+
+---
+
 ## ✨ What's New in Version 1.1
 
 - **Auto‑update** – A new "Update" button (toolbar or Help menu) checks for a newer version on GitHub.  
