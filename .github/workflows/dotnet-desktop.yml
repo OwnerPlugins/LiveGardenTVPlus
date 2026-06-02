@@ -78,6 +78,21 @@ jobs:
           }
         }
 
+    - name: Create version.txt
+      run: |
+        # Legge la versione dal file .csproj
+        $version = (Select-Xml -Path "LiveGardenTV+/LiveGardenTV+.csproj" -XPath "//AssemblyVersion").Node.InnerText
+        # Crea il file version.txt nella root
+        Write-Output $version | Out-File -FilePath version.txt -Encoding ascii
+        Write-Host "✅ Created version.txt with version $version"
+
+    - name: Commit version.txt
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Update version.txt"
+        file_pattern: "version.txt"
+        add_f: true
+
     - name: Create ZIP file
       run: |
         Compress-Archive -Path "publish_output/*" -DestinationPath "LiveGardenTVPlus.zip" -Force
