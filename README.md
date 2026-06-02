@@ -1,5 +1,6 @@
 # LiveGardenTVPlus – IPTV Player for Windows
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/OwnerPlugins/LiveGardenTVPlus)](https://github.com/OwnerPlugins/LiveGardenTVPlus/releases/latest)
 [![.NET](https://img.shields.io/badge/.NET-10.0-purple)](https://dotnet.microsoft.com/)
 [![WPF](https://img.shields.io/badge/UI-WPF-blue)](https://github.com/dotnet/wpf)
 [![WebView2](https://img.shields.io/badge/WebView2-hls.js-green)](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)
