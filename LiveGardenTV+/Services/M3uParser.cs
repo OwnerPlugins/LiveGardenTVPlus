@@ -1,21 +1,45 @@
 using LiveGardenTVPlus.Models;
 using System.IO;
 using System.Text.RegularExpressions;
+using System.Linq;
+
 
 namespace LiveGardenTVPlus.Services
 {
     public static class M3uParser
     {
+        public static string EpgUrl { get; private set; }
+
         public static List<Channel> Parse(string filePath)
         {
+            EpgUrl = null;
             var channels = new List<Channel>();
             var lines = File.ReadAllLines(filePath);
+
+            // Estrai EPG URL dalla prima riga se presente
+            if (lines.Length > 0 && lines[0].StartsWith("#EXTM3U"))
+            {
+                var match = Regex.Match(lines[0], @"x-tvg-url=""([^""]+)""");
+                if (match.Success)
+                    EpgUrl = match.Groups[1].Value;
+            }
+
             for (int i = 0; i < lines.Length; i++)
             {
                 if (lines[i].StartsWith("#EXTINF:"))
                 {
                     var extinf = lines[i];
-                    var url = (i + 1 < lines.Length) ? lines[i + 1] : "";
+                    string url = null;
+                    // Cerca URL saltando righe vuote o che iniziano con '#'
+                    for (int j = i + 1; j < lines.Length; j++)
+                    {
+                        string line = lines[j].Trim();
+                        if (string.IsNullOrEmpty(line)) continue;
+                        if (line.StartsWith("#")) continue;
+                        url = line;
+                        i = j; // avanziamo l'indice principale
+                        break;
+                    }
                     if (string.IsNullOrEmpty(url)) continue;
 
                     channels.Add(new Channel

@@ -12,23 +12,28 @@
         var hls = null;
         var video = document.getElementById('video');
         window.hls = hls;
-
         function playStream(url) {
+            console.log("playStream called with", url);
+            var video = document.getElementById('video');
+            if (hls) hls.destroy();
             if (Hls.isSupported()) {
-                if (hls) hls.destroy();
                 hls = new Hls();
                 window.hls = hls;
                 hls.loadSource(url);
                 hls.attachMedia(video);
-                hls.on(Hls.Events.MANIFEST_PARSED, function() { video.play(); });
+                hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                    video.muted = true;  // per aggirare il blocco autoplay
+                    video.play().catch(e => console.error("autoplay blocked", e));
+                });
             } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
                 video.src = url;
-                video.addEventListener('loadedmetadata', function() { video.play(); });
+                video.muted = true;
+                video.play().catch(e => console.error(e));
             }
         }
-
         function setVolume(vol) { video.volume = Math.min(1, Math.max(0, vol)); }
         function toggleMute() { video.muted = !video.muted; }
     </script>
 </body>
 </html>
+

@@ -7,6 +7,7 @@ namespace LiveGardenTVPlus.Services
     {
         public string Language { get; set; } = "English";
         public string PlaylistUrl { get; set; } = "";
+        public string EpgUrl { get; set; }
         public int BufferSeconds { get; set; } = 3;
         public string Theme { get; set; } = "LightTheme";
         public bool SortAlphabetically { get; set; } = false;

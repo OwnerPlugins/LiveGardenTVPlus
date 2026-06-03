@@ -7,9 +7,43 @@
 **LiveGardenTVPlus** is a desktop IPTV player for Windows (WPF / .NET 10) that plays HLS streams (m3u8) using **WebView2** and **hls.js**.  
 It loads local or online M3U playlists, organizes channels by groups, and provides a modern, themeable interface.
 
-![Screenshot placeholder](screenshot.png)
+
+## ✅ Changelog – Version 1.3
+
+### ✨ New Features & Improvements
+
+- **Electronic Program Guide (EPG) support**  
+  - EPG URL (`x-tvg-url`) is automatically extracted from the M3U playlist header.  
+  - Program data is downloaded in the background (supports `.gz` compressed XMLTV).  
+  - Current programme title, start and end times are displayed in the status bar, automatically converted to the user’s local timezone.  
+  - Timezone handling: supports UTC with explicit offset (e.g., `+0200`) or assumed UTC.
+
+- **Channel logos**  
+  - Channel icons (`tvg-logo`) are now displayed next to each channel in the TreeView.  
+  - Images are loaded from remote URLs with a fallback default icon when the logo is missing or fails to load.  
+  - Improved visual appearance with larger, adjustable icon sizes (32x32) and bigger font for channel names.
+
+### 🔧 Fixes
+
+- **M3U parser improvements**  
+  - The parser now correctly skips extra metadata lines (e.g., `#EXTSIZE`, `#EXTVLCOPT`) that were breaking URL extraction.  
+  - All channels, including those with additional tags, are now properly loaded.
+
+- **Streaming stability**  
+  - Restored reliable HLS playback that was temporarily affected by parser changes.  
+  - WebView2 player initialisation simplified to avoid race conditions.
+
+- **UI enhancements**  
+  - Added a draggable `GridSplitter` between channel list and player (resizable sidebar).  
+  - Toggle sidebar button now hides both the channel column and the splitter.  
+  - Channel list items (logos, folder icons, text) enlarged for better readability.
+
+### ⚠️ Known Issue
+
+- **Language selector** – Changing the language in the Settings window does **not** fully refresh the GUI. Some UI texts remain in the previously selected language. A complete dynamic UI refresh on language change is planned for a future release.
 
 ---
+
 # ✨ What's New in Version 1.2
 
 - **Auto‑update** – A new fix for "Update" and restarts the app after replacing files.

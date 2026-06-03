@@ -19,6 +19,7 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows;
 
+
 namespace LiveGardenTVPlus
 {
     public partial class MainWindow : Window
@@ -29,6 +30,9 @@ namespace LiveGardenTVPlus
         private bool _isDrillingIntoGroup = false;
         private string _drilledGroupName = "";
         private string _currentChannelName = "";
+        
+        private EpgService _epgService = new EpgService();
+        private bool _playerReady = false;
 
         public ObservableCollection<ChannelGroup> ChannelGroups { get; set; } = new ObservableCollection<ChannelGroup>();
 
@@ -193,6 +197,7 @@ namespace LiveGardenTVPlus
                     return;
                 }
 
+                //if (WebPlayer?.CoreWebView2 != null && _playerReady && !string.IsNullOrEmpty(selected.Url))
                 if (WebPlayer?.CoreWebView2 != null && !string.IsNullOrEmpty(selected.Url))
                 {
                     string js = $"playStream('{selected.Url.Replace("'", "\\'")}');";
@@ -201,6 +206,7 @@ namespace LiveGardenTVPlus
                     StreamNameStatus.Text = selected.Name;
                     _currentChannelName = selected.Name;
                 }
+
             }
             else if (e.NewValue is ChannelGroup group)
             {
@@ -208,26 +214,47 @@ namespace LiveGardenTVPlus
                 _drilledGroupName = group.GroupName ?? "General";
                 RefreshChannelsView();
             }
+
+            // Update EPG info for the selected channel
+            if (e.NewValue is Channel ch)
+            {
+                var program = _epgService.GetCurrentProgram(ch.TvgId, DateTime.UtcNow);
+                if (program != null)
+                {
+                    var startLocal = program.Start.ToLocalTime();
+                    var stopLocal = program.Stop.ToLocalTime();
+                    EpgInfoTextBlock.Text = $"{program.Title} | {startLocal:HH:mm} - {stopLocal:HH:mm}";
+                }
+                else
+                {
+                    EpgInfoTextBlock.Text = "No EPG data";
+                }
+            }
         }
 
         private async Task InitWebView()
         {
             await WebPlayer.EnsureCoreWebView2Async();
-            WebPlayer.CoreWebView2InitializationCompleted += (s, e) =>
-            {
-                var prefs = UserPreferences.Load();
-                WebPlayer.CoreWebView2.ExecuteScriptAsync($"if(window.hls) window.hls.config.maxBufferLength = {prefs.BufferSeconds};");
-                WebPlayer.CoreWebView2.ExecuteScriptAsync("video.playbackRate = 1;");
-            };
+            
             string htmlPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "PlayerHost", "player.html");
             if (File.Exists(htmlPath))
             {
                 string html = File.ReadAllText(htmlPath);
                 WebPlayer.CoreWebView2.NavigateToString(html);
                 StatusTextBlock.Text = LanguageManager.GetTranslation("Player ready.");
+                WebPlayer.CoreWebView2.NavigationCompleted += (s, e) =>
+                {
+                    var prefs = UserPreferences.Load();
+                    WebPlayer.CoreWebView2.ExecuteScriptAsync($"if(window.hls) window.hls.config.maxBufferLength = {prefs.BufferSeconds};");
+                    WebPlayer.CoreWebView2.ExecuteScriptAsync("video.playbackRate = 1;");
+                    _playerReady = true;
+                };
             }
             else
+            {
                 StatusTextBlock.Text = LanguageManager.GetTranslation("ERROR: player.html not found.");
+                _playerReady = false;
+            }
         }
 
         private void ExpandRootNode()
@@ -326,6 +353,27 @@ namespace LiveGardenTVPlus
             try
             {
                 var channels = M3uParser.Parse(filePath);
+
+                // EPG
+                
+                string epgUrl = M3uParser.EpgUrl;
+/*                 if (!string.IsNullOrEmpty(epgUrl))
+                {
+                    MessageBox.Show($"EPG URL found: {epgUrl}", "EPG Debug");
+                }
+                else
+                {
+                    MessageBox.Show("No EPG URL found in playlist.", "EPG Debug");
+                } */
+                 if (!string.IsNullOrEmpty(epgUrl))
+                {
+                    var prefs = UserPreferences.Load();
+                    prefs.EpgUrl = epgUrl;
+                    prefs.Save();
+                    _ = _epgService.LoadEpgAsync(epgUrl);
+                }
+               
+
                 if (channels.Count == 0) throw new Exception("No channels found.");
                 _allChannelsOriginal = channels;
                 _searchFilter = "";
@@ -347,7 +395,6 @@ namespace LiveGardenTVPlus
                 StatusTextBlock.Text = LanguageManager.GetTranslation("Invalid URL.");
                 return;
             }
-
             try
             {
                 StatusTextBlock.Text = LanguageManager.GetTranslation("Downloading playlist...");
@@ -365,6 +412,25 @@ namespace LiveGardenTVPlus
 
                     if (channels == null || channels.Count == 0)
                         throw new Exception("No channels found in playlist.");
+
+                    // EPG
+                    
+                    string epgUrl = M3uParser.EpgUrl;
+/*                     if (!string.IsNullOrEmpty(epgUrl))
+                    {
+                        MessageBox.Show($"EPG URL found: {epgUrl}", "EPG Debug");
+                    }
+                    else
+                    {
+                        MessageBox.Show("No EPG URL found in playlist.", "EPG Debug");
+                    } */
+                    if (!string.IsNullOrEmpty(epgUrl))
+                    {
+                        var prefs = UserPreferences.Load();
+                        prefs.EpgUrl = epgUrl;
+                        prefs.Save();
+                        _ = _epgService.LoadEpgAsync(epgUrl);
+                    }
 
                     _allChannelsOriginal = channels;
                     _searchFilter = "";
@@ -522,61 +588,57 @@ namespace LiveGardenTVPlus
             string help = LanguageManager.GetTranslation("HelpText");
             if (string.IsNullOrEmpty(help) || help == "HelpText")
             {
-                help = $@"LiveGardenTVPlus Help - Version {shortVersion }
+                help = $@"LiveGardenTVPlus Help - Version {shortVersion}
 
-            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-            📁 PLAYLIST
-            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-            • Load M3U   – Open a playlist file from your PC
-            • Online M3U – Enter URL of a remote playlist
-            • Settings   – Change buffer size, select online playlist (Refresh from GitHub)
-            • Drag & drop an M3U file directly onto the window
+        📁 PLAYLIST
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        • Load M3U   – Open a playlist file from your PC
+        • Online M3U – Enter URL of a remote playlist
+        • Settings   – Change buffer size, select online playlist (Refresh from GitHub)
+        • Drag & drop an M3U file directly onto the window
 
-            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-            📺 CHANNEL VIEW
-            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-            • Click a channel to start playback
-            • Click a group name → shows only channels of that group
-            • '← Back to all groups' returns to full list
-            • Search box → flat list of results (clear text to return)
-            • Favorites – right‑click or use the star icon; toggle 'Favorites only'
+        📺 CHANNEL VIEW
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        • EPG (current program info) and channel logos (tvg-logo)
+        • Resizable sidebar, improved M3U parser, and update system
+        • Click a channel to start playback
+        • Click a group name → shows only channels of that group
+        • '← Back to all groups' returns to full list
+        • Search box → flat list of results (clear text to return)
+        • Favorites – right‑click or use the star icon; toggle 'Favorites only'
 
-            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-            🎮 PLAYER CONTROLS
-            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-            • Speed buttons: 0.5×, 1×, 2×
-            • Buffer slider: adjust HLS buffer (1–10 seconds)
-            • PIP – Picture‑in‑Picture mode
-            • Fullscreen – hides all UI (click again or press ESC to restore)
-            • Hide List – collapse the channel sidebar
+        🎮 PLAYER CONTROLS
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        • Speed buttons: 0.5×, 1×, 2×
+        • Buffer slider: adjust HLS buffer (1–10 seconds)
+        • PIP – Picture‑in‑Picture mode
+        • Fullscreen – hides all UI (click again or press ESC to restore)
+        • Hide List – collapse the channel sidebar
 
-            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-            🔄 UPDATER
-            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-            • Automatic update check on startup (or click the update button)
-            • If a new version is found, you will be prompted to download it
-            • The updater downloads the ZIP, replaces all files, and restarts the app
-            • Your settings and playlists are preserved
+        🔄 UPDATER
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        • Automatic update check on startup (or click the update button)
+        • If a new version is found, you will be prompted to download it
+        • The updater downloads the ZIP, replaces all files, and restarts the app
+        • Your settings and playlists are preserved
 
-            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-            🎨 THEMES & LANGUAGE
-            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-            • Theme picker – 16 colour themes + Light/Dark mode
-            • Language selector in Settings 
-              (⚠️ currently under development – translation not yet applied)
+        🎨 THEMES & LANGUAGE
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        • Theme picker – 16 colour themes + Light/Dark mode
+        • Language selector in Settings 
+          (⚠️ currently under development – translation not yet applied)
 
-            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-            🙏 CREDITS
-            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-            • Developer: Lululla
-            • Playlist repository: OwnerPlugins / TivuStreamList (Italian & international streams)
-            • HLS playback: hls.js (MIT license)
-            • UI components: MaterialDesignThemes.Wpf
-            • WebView2: Microsoft Edge WebView2
-            • Community & testing: CorvoBoys (corvoboys.org)
+        🙏 CREDITS
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        • Developer: Lululla
+        • Playlist repository: OwnerPlugins / TivuStreamList (Italian & international streams)
+        • HLS playback: hls.js (MIT license)
+        • UI components: MaterialDesignThemes.Wpf
+        • WebView2: Microsoft Edge WebView2
+        • Community & testing: CorvoBoys (corvoboys.org)
 
-            For more information, visit the GitHub repository.
-            ";
+        For more information, visit the GitHub repository.
+        ";
             }
             MessageBox.Show(help, LanguageManager.GetTranslation("Help"), MessageBoxButton.OK, MessageBoxImage.Information);
         }
