@@ -1,6 +1,7 @@
 using LiveGardenTVPlus.Services;
 using System.Windows;
 using System.Windows.Controls;
+using System.Diagnostics;
 
 namespace LiveGardenTVPlus.Views
 {
@@ -118,22 +119,21 @@ namespace LiveGardenTVPlus.Views
             var prefs = UserPreferences.Load();
             prefs.BufferSeconds = (int)BufferSlider.Value;
             if (LangCombo.SelectedItem is ComboBoxItem selectedLang)
-                prefs.Language = selectedLang.Tag.ToString();
+            {
+                string newLang = selectedLang.Tag.ToString();
+                prefs.Language = newLang;
+            }
             if (PlaylistCombo.SelectedItem is ComboBoxItem selectedPlaylist && selectedPlaylist.Tag != null)
                 prefs.PlaylistUrl = selectedPlaylist.Tag.ToString();
             prefs.Save();
 
+            // Load the new language globally
             LanguageManager.LoadLanguage(prefs.Language);
-            if (Application.Current.MainWindow is MainWindow main)
-                main.ApplyLanguage();
 
-            if (!string.IsNullOrEmpty(prefs.PlaylistUrl))
-            {
-                _ = (Application.Current.MainWindow as MainWindow)?.LoadPlaylistFromUrl(prefs.PlaylistUrl);
-            }
-
-            DialogResult = true;
-            Close();
+            // Restart the main window
+            System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
+            Process.Start(Application.ResourceAssembly.Location);
+            Application.Current.Shutdown();
         }
 
         private void CancelBtn_Click(object sender, RoutedEventArgs e)

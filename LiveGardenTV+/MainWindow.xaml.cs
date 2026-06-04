@@ -52,9 +52,19 @@ namespace LiveGardenTVPlus
                 CheckUpdatesBtn.ToolTip = $"Check for updates (current: {shortVersion})";
 
             ChannelTreeView.ItemsSource = ChannelGroups;
+
+            // Subscribe to language change event
+            LanguageManager.LanguageChanged += OnLanguageChanged;
+
+            // Load saved language (default to English)
             var prefs = UserPreferences.Load();
-            LanguageManager.LoadLanguage(prefs.Language);
+            string savedLang = prefs.Language;
+            if (string.IsNullOrEmpty(savedLang))
+                savedLang = "English";
+
+            LanguageManager.LoadLanguage(savedLang);
             ApplyLanguage();
+
             Loaded += async (s, e) =>
             {
                 await InitWebView();
@@ -67,6 +77,23 @@ namespace LiveGardenTVPlus
                     text.Text = $"{prefsLocal.BufferSeconds}s";
                 }
             };
+        }
+
+        public void ApplyLanguage()
+        {
+            TranslationHelper.TranslateUI(this);
+            if (!string.IsNullOrEmpty(_currentChannelName))
+                StreamNameStatus.Text = _currentChannelName;
+            else
+                StreamNameStatus.Text = LanguageManager.GetTranslation("No stream");
+            var version = Assembly.GetExecutingAssembly().GetName().Version;
+            string shortVersion = $"{version.Major}.{version.Minor}";
+            this.Title = $"TVGarden+ v{shortVersion}";
+        }
+
+        private void OnLanguageChanged()
+        {
+            ApplyLanguage();
         }
 
         private async void CheckUpdatesBtn_Click(object sender, RoutedEventArgs e)
@@ -166,15 +193,6 @@ namespace LiveGardenTVPlus
             }
         }
 
-        public void ApplyLanguage()
-        {
-            TranslationHelper.TranslateUI(this);
-            if (!string.IsNullOrEmpty(_currentChannelName))
-                StreamNameStatus.Text = _currentChannelName;
-            else
-                StreamNameStatus.Text = LanguageManager.GetTranslation("No stream");
-        }
-
         protected override void OnPreviewKeyDown(System.Windows.Input.KeyEventArgs e)
         {
             if (e.Key == System.Windows.Input.Key.Escape && _isFullscreenUIActive)
@@ -197,7 +215,6 @@ namespace LiveGardenTVPlus
                     return;
                 }
 
-                //if (WebPlayer?.CoreWebView2 != null && _playerReady && !string.IsNullOrEmpty(selected.Url))
                 if (WebPlayer?.CoreWebView2 != null && !string.IsNullOrEmpty(selected.Url))
                 {
                     string js = $"playStream('{selected.Url.Replace("'", "\\'")}');";
@@ -355,16 +372,7 @@ namespace LiveGardenTVPlus
                 var channels = M3uParser.Parse(filePath);
 
                 // EPG
-                
                 string epgUrl = M3uParser.EpgUrl;
-/*                 if (!string.IsNullOrEmpty(epgUrl))
-                {
-                    MessageBox.Show($"EPG URL found: {epgUrl}", "EPG Debug");
-                }
-                else
-                {
-                    MessageBox.Show("No EPG URL found in playlist.", "EPG Debug");
-                } */
                  if (!string.IsNullOrEmpty(epgUrl))
                 {
                     var prefs = UserPreferences.Load();
@@ -414,16 +422,7 @@ namespace LiveGardenTVPlus
                         throw new Exception("No channels found in playlist.");
 
                     // EPG
-                    
                     string epgUrl = M3uParser.EpgUrl;
-/*                     if (!string.IsNullOrEmpty(epgUrl))
-                    {
-                        MessageBox.Show($"EPG URL found: {epgUrl}", "EPG Debug");
-                    }
-                    else
-                    {
-                        MessageBox.Show("No EPG URL found in playlist.", "EPG Debug");
-                    } */
                     if (!string.IsNullOrEmpty(epgUrl))
                     {
                         var prefs = UserPreferences.Load();
@@ -585,10 +584,7 @@ namespace LiveGardenTVPlus
             var version = Assembly.GetExecutingAssembly().GetName().Version;
             string shortVersion = $"{version.Major}.{version.Minor}";
 
-            string help = LanguageManager.GetTranslation("HelpText");
-            if (string.IsNullOrEmpty(help) || help == "HelpText")
-            {
-                help = $@"LiveGardenTVPlus Help - Version {shortVersion}
+            string help = $@"LiveGardenTVPlus Help - Version {shortVersion}
 
         📁 PLAYLIST
         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -596,6 +592,14 @@ namespace LiveGardenTVPlus
         • Online M3U – Enter URL of a remote playlist
         • Settings   – Change buffer size, select online playlist (Refresh from GitHub)
         • Drag & drop an M3U file directly onto the window
+
+        ⚙️ SETTINGS
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        • Language – Change UI language (dynamic translation)
+        • Buffer – Adjust HLS buffer (1–10 seconds)
+        • Online Playlist – Select a pre‑defined M3U from GitHub
+        • Refresh from GitHub – Update the list of available playlists
+        • Save – Save all settings and load the selected playlist
 
         📺 CHANNEL VIEW
         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -614,6 +618,7 @@ namespace LiveGardenTVPlus
         • PIP – Picture‑in‑Picture mode
         • Fullscreen – hides all UI (click again or press ESC to restore)
         • Hide List – collapse the channel sidebar
+        • Pause – Pause/Resume live stream (timeshift)
 
         🔄 UPDATER
         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -625,8 +630,7 @@ namespace LiveGardenTVPlus
         🎨 THEMES & LANGUAGE
         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
         • Theme picker – 16 colour themes + Light/Dark mode
-        • Language selector in Settings 
-          (⚠️ currently under development – translation not yet applied)
+        • Language selector in Settings (dynamic translation)
 
         🙏 CREDITS
         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -635,11 +639,10 @@ namespace LiveGardenTVPlus
         • HLS playback: hls.js (MIT license)
         • UI components: MaterialDesignThemes.Wpf
         • WebView2: Microsoft Edge WebView2
-        • Community & testing: CorvoBoys (corvoboys.org)
+        • Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 
-        For more information, visit the GitHub repository.
-        ";
-            }
+        For more information, visit the GitHub repository.";
+
             MessageBox.Show(help, LanguageManager.GetTranslation("Help"), MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
@@ -701,15 +704,23 @@ namespace LiveGardenTVPlus
             }
         }
 
-        private void CreditsTextBlock_MouseLeftButtonUp(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        private void CorvoBoysLink_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
             try
             {
-                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
-                {
-                    FileName = "https://www.corvoboys.org",
-                    UseShellExecute = true
-                });
+                Process.Start(new ProcessStartInfo { FileName = "https://www.corvoboys.org", UseShellExecute = true });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"{LanguageManager.GetTranslation("Cannot open browser")}: {ex.Message}");
+            }
+        }
+
+        private void LinuxSatLink_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            try
+            {
+                Process.Start(new ProcessStartInfo { FileName = "https://www.linuxsat-support.com", UseShellExecute = true });
             }
             catch (Exception ex)
             {

@@ -47,14 +47,14 @@
         <!-- Row 5: ComboBox + Refresh button -->
         <StackPanel Grid.Row="5" Margin="0,0,0,10">
             <ComboBox x:Name="PlaylistCombo" Height="30" Margin="0,0,0,5"/>
-            <Button x:Name="RefreshPlaylistsBtn" Content="Refresh from GitHub" Click="RefreshPlaylistsBtn_Click" Width="150" HorizontalAlignment="Left"/>
+            <Button x:Name="RefreshPlaylistsBtn" Content="Refresh from GitHub" Click="RefreshPlaylistsBtn_Click" Width="180" HorizontalAlignment="Left"/>
         </StackPanel>
 
         <!-- Row 6: LOAD, SAVE, CANCEL buttons -->
         <StackPanel Grid.Row="6" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
-            <Button x:Name="LoadPlaylistBtn" Click="LoadPlaylistBtn_Click" Width="80" Height="30" Margin="0,0,5,0" Content="LOAD"/>
-            <Button x:Name="SaveBtn" Click="SaveBtn_Click" Width="80" Height="30" Margin="0,0,5,0" Content="SAVE"/>
-            <Button x:Name="CancelBtn" Click="CancelBtn_Click" Width="80" Height="30" Content="CANCEL"/>
+            <Button x:Name="LoadPlaylistBtn" Click="LoadPlaylistBtn_Click" Width="100" Height="30" Margin="0,0,5,0" Content="LOAD"/>
+            <Button x:Name="SaveBtn" Click="SaveBtn_Click" Width="100" Height="30" Margin="0,0,5,0" Content="SAVE"/>
+            <Button x:Name="CancelBtn" Click="CancelBtn_Click" Width="100" Height="30" Content="CANCEL"/>
         </StackPanel>
     </Grid>
 </Window>

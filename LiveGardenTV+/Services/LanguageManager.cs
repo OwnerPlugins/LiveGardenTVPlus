@@ -1,9 +1,13 @@
+using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace LiveGardenTVPlus.Services
 {
     public static class LanguageManager
     {
+        public static event Action LanguageChanged;
         private static Dictionary<string, string> _dict = new Dictionary<string, string>();
 
         public static List<string> GetAvailableLanguages()
@@ -11,7 +15,6 @@ namespace LiveGardenTVPlus.Services
             string langDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Languages");
             if (!Directory.Exists(langDir))
                 return new List<string> { "English" };
-
             return Directory.GetFiles(langDir, "*.lng")
                             .Select(Path.GetFileNameWithoutExtension)
                             .ToList();
@@ -29,12 +32,29 @@ namespace LiveGardenTVPlus.Services
                 path = Path.Combine(langDir, "English.lng");
                 if (!File.Exists(path)) return;
             }
-            _dict = File.ReadAllLines(path)
-                .Where(l => !string.IsNullOrWhiteSpace(l) && l.Contains('='))
-                .Select(l => l.Split(new[] { '=' }, 2))
-                .ToDictionary(parts => parts[0].Trim(), parts => parts[1].Trim());
+
+            var lines = File.ReadAllLines(path);
+            var dict = new Dictionary<string, string>(); // <--- dichiarato qui
+            foreach (string line in lines)
+            {
+                string trimmed = line.Trim();
+                if (string.IsNullOrEmpty(trimmed)) continue;
+                int sepIndex = trimmed.IndexOfAny(new char[] { ':', '=' });
+                if (sepIndex > 0)
+                {
+                    string key = trimmed.Substring(0, sepIndex).Trim();
+                    string value = trimmed.Substring(sepIndex + 1).Trim();
+                    dict[key] = value;
+                }
+            }
+            _dict = dict; // <--- ora _dict esiste (dichiarato a livello di classe)
+            TranslationHelper.ResetCache();
+            LanguageChanged?.Invoke();
         }
 
-        public static string GetTranslation(string key) => _dict.TryGetValue(key, out string val) ? val : key;
+        public static string GetTranslation(string key)
+        {
+            return _dict.TryGetValue(key, out string val) ? val : key;
+        }
     }
 }

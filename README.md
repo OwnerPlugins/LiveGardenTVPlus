@@ -6,6 +6,7 @@
 [![WebView2](https://img.shields.io/badge/WebView2-hls.js-green)](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)
 
 [![Donate](https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://ko-fi.com/lululla)
+[![Donate](https://img.shields.io/badge/_-Donate-green.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://paypal.me/belfagor2005)
 
 **LiveGardenTVPlus** is a desktop IPTV player for Windows (WPF / .NET 10) that plays HLS streams (m3u8) using **WebView2** and **hls.js**.  
 It loads local or online M3U playlists, organizes channels by groups, and provides a modern, themeable interface.
@@ -72,12 +73,31 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 </table>
 
 ---
-### Changelog
+## Changelog
 
 
-# ✨ What's New in Version 1.3
+### 🆕 New Features & Improvements – Version 1.4
 
-### ✨ New Features & Improvements
+- **Full EPG Support** – Electronic Program Guide now fully functional with timezone handling. Current programme info displayed in the status bar.
+- **Channel Logos** – Logos (`tvg-logo`) are downloaded and shown next to each channel, with a fallback icon if missing.
+- **M3U8 Support** – Player now correctly plays `.m3u8` (HLS) streams via HLS.js integration.
+- **Improved M3U Parser** – Skips unknown tags (`#EXTSIZE`, `#EXTVLCOPT`, etc.) and extra comment lines, ensuring all channels load properly.
+- **Resizable Sidebar** – Added draggable `GridSplitter` between channel list and player.
+- **Larger UI Elements** – Increased icon and font sizes for better readability (logos 32x32, channel text 16px, status bar height 55px).
+- **Clickable Credits** – Split credits with separate clickable links for `CORVOBOYS.ORG` and `LINUXSAT-SUPPORT.COM`.
+- **Dynamic Language Switching** – UI updates instantly when changing language in Settings (no restart required).
+- **Stable Streaming** – Fixed issues that caused playback to fail after EPG and logos were added.
+
+### 🐛 Bug Fixes
+
+- Fixed playlist URL not loading correctly on startup.
+- Fixed language persistence and UI refresh.
+- Fixed parser bug where channels with extra metadata lines were skipped.
+- Fixed `Environment.Exit(0)` causing app to close instead of restart during update.
+
+---
+
+### ✨ New Features & Improvements – Version 1.3
 
 - **Electronic Program Guide (EPG) support**  
   - EPG URL (`x-tvg-url`) is automatically extracted from the M3U playlist header.  
@@ -105,24 +125,20 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
   - Toggle sidebar button now hides both the channel column and the splitter.  
   - Channel list items (logos, folder icons, text) enlarged for better readability.
 
-### ⚠️ Known Issue
-
-- **Language selector** – Changing the language in the Settings window does **not** fully refresh the GUI. Some UI texts remain in the previously selected language. A complete dynamic UI refresh on language change is planned for a future release.
-
 ---
 
 # ✨ What's New in Version 1.2
 
 - **Auto‑update** – A new fix for "Update" and restarts the app after replacing files.
 
-## ⚠️ Known Issue
+## ⚠️ Known limitation – Language translation
 
-- **Language selector** – The language setting in the Settings window currently does **not** fully update the GUI.  
-  Some texts may remain in the previously selected language. A complete UI refresh on language change is planned for a future release.
+The application includes over 90 language files (`.lng`) and a language selector in `SettingsWindow`, but **the UI does not actually translate** at this moment. This feature is under active development and will be fixed in a future release.
 
 ---
 
-## ✨ What's New in Version 1.1
+
+# ✨ What's New in Version 1.1
 
 - **Auto‑update** – A new "Update" button (toolbar or Help menu) checks for a newer version on GitHub.  
   If found, it downloads the ZIP, extracts it, and restarts the app after replacing files.
@@ -138,13 +154,7 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 
 - **Translations** – All update‑related messages now use `LanguageManager.GetTranslation()` for easier localization.
 
-## ⚠️ Known Issue
-
-- **Language selector** – The language setting in the Settings window currently does **not** fully update the GUI.  
-  Some texts may remain in the previously selected language. A complete UI refresh on language change is planned for a future release.
-
 ---
-
 
 ## ✨ Features (Version 1.0)
 
@@ -158,10 +168,6 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 - **Settings window** – Change buffer size, select online playlist (GitHub refresh), and choose UI language (see note below).
 - **Persistent preferences** – Saves last playlist URL, buffer, theme, and language (language not yet fully applied).
 
-## ⚠️ Known limitation – Language translation
-
-The application includes over 90 language files (`.lng`) and a language selector in `SettingsWindow`, but **the UI does not actually translate** at this moment. This feature is under active development and will be fixed in a future release.
-
 ---
 
 ## 🚀 Getting started
@@ -174,14 +180,14 @@ The application includes over 90 language files (`.lng`) and a language selector
 
 ### Download & run
 
-1. Go to the [Releases](https://github.com/YOUR_USERNAME/LiveGardenTVPlus/releases) page (or clone the repository).
+1. Go to the [Releases](https://github.com/OwnerPlugins/LiveGardenTVPlus/releases) page (or clone the repository).
 2. Download `LiveGardenTVPlus.exe` (standalone) or the installer.
 3. Run the application – no additional configuration required.
 
 ### Build from source
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/LiveGardenTVPlus.git
+git clone https://github.com/OwnerPlugins/LiveGardenTVPlus.git
 cd LiveGardenTVPlus
 dotnet build -c Release
 ```
@@ -199,6 +205,9 @@ LiveGardenTVPlus/
 ├── Views/
 │   ├── SettingsWindow.xaml / .cs
 │   └── ColorPickerWindow.xaml / .cs
+├── Converters/
+│   ├── StringToVisibilityConverter.cs
+│   └── UrlToImageConverter.cs
 ├── Services/
 │   ├── M3uParser.cs
 │   ├── FavoritesManager.cs
@@ -209,7 +218,11 @@ LiveGardenTVPlus/
 │   └── GitHubPlaylistFetcher.cs
 ├── Models/
 │   ├── Channel.cs
+│   ├── EpgModels.cs
+│   ├── EpgProgram.cs
 │   └── ChannelGroup.cs
+├── Updater/
+│   └── Updater.cs
 ├── Languages/              (92+ .lng files)
 ├── Themes/                 (16 .xaml theme files)
 └── PlayerHost/player.html  (hls.js wrapper)
@@ -244,22 +257,16 @@ LiveGardenTVPlus/
    - Speed buttons change playback speed.  
    - Drag & drop a `.m3u` file onto the window.
 
-7. **Update the application**  
-   - Click the `Update` button (toolbar or Help menu).  
-   - The app checks for a newer version on GitHub.  
-   - If available, you'll be prompted to download and install it.  
-   - The app will close, replace its files, and restart automatically.
-
 ---
 
 ## 🙏 Credits
 
-- **Development**: Lululla (original author) & community contributions.
+- **Development**: Beatrice (original author) & community contributions.
 - **Playlist repository**: [OwnerPlugins/TivuStreamList](https://github.com/OwnerPlugins/TivuStreamList) – massive collection of Italian and international M3U streams.
 - **HLS playback**: [hls.js](https://github.com/video-dev/hls.js) (MIT license)
 - **UI components**: [MaterialDesignThemes.Wpf](https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit)
 - **WebView2**: Microsoft Edge WebView2 (Microsoft)
-- **Inspiration and testing**: Corvo Boys community ([corvoboys.org](https://www.corvoboys.org))
+- **Inspiration and testing**: CorvoBoys community ([corvoboys.org](https://www.corvoboys.org)) | Linuxsat-Support community ([linuxsat-support.com](https://linuxsat-support.com))
 
 ---
 

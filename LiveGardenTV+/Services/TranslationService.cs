@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
@@ -6,38 +7,60 @@ namespace LiveGardenTVPlus.Services
 {
     public static class TranslationHelper
     {
+        private static readonly Dictionary<DependencyObject, string> _originalTexts = new Dictionary<DependencyObject, string>();
+
+        public static void ResetCache()
+        {
+            _originalTexts.Clear();
+        }
+
         public static void TranslateUI(DependencyObject parent)
         {
             if (parent == null) return;
 
-            // Skip dynamic controls that show runtime data
-            if (parent is FrameworkElement fe)
+            // Skip dynamic status controls
+            if (parent is FrameworkElement fe && (fe.Name == "StreamNameStatus" || fe.Name == "StatusTextBlock"))
+                return;
+
+            // Handle Button with StackPanel (MaterialDesign pattern)
+            if (parent is Button button && button.Content is StackPanel sp)
             {
-                if (fe.Name == "StreamNameStatus" || fe.Name == "StatusTextBlock")
-                    return;
+                foreach (var child in sp.Children)
+                {
+                    if (child is TextBlock tb && !string.IsNullOrEmpty(tb.Text))
+                    {
+                        string originalKey = GetOriginalKey(tb, tb.Text);
+                        string translated = LanguageManager.GetTranslation(originalKey);
+                        if (translated != originalKey)
+                            tb.Text = translated;
+                    }
+                }
             }
 
-            // Translate ContentControl (Button, Label, CheckBox...)
+            // Handle simple ContentControl
             if (parent is ContentControl contentControl && contentControl.Content is string text)
             {
-                string translated = LanguageManager.GetTranslation(text);
-                if (translated != text)
+                string originalKey = GetOriginalKey(contentControl, text);
+                string translated = LanguageManager.GetTranslation(originalKey);
+                if (translated != originalKey)
                     contentControl.Content = translated;
             }
 
-            // Translate TextBlock (only if not dynamic)
+            // Handle TextBlock
             if (parent is TextBlock textBlock && !string.IsNullOrEmpty(textBlock.Text))
             {
-                string translated = LanguageManager.GetTranslation(textBlock.Text);
-                if (translated != textBlock.Text)
+                string originalKey = GetOriginalKey(textBlock, textBlock.Text);
+                string translated = LanguageManager.GetTranslation(originalKey);
+                if (translated != originalKey)
                     textBlock.Text = translated;
             }
 
-            // Translate ToolTip
+            // Handle ToolTip
             if (parent is FrameworkElement element && element.ToolTip is string tooltip)
             {
-                string translated = LanguageManager.GetTranslation(tooltip);
-                if (translated != tooltip)
+                string originalKey = GetOriginalKey(element, tooltip);
+                string translated = LanguageManager.GetTranslation(originalKey);
+                if (translated != originalKey)
                     element.ToolTip = translated;
             }
 
@@ -48,6 +71,19 @@ namespace LiveGardenTVPlus.Services
                 var child = VisualTreeHelper.GetChild(parent, i);
                 TranslateUI(child);
             }
+        }
+
+        private static string GetOriginalKey(DependencyObject obj, string currentText)
+        {
+            // Use Name as key if available, otherwise fallback to stored text
+            if (obj is FrameworkElement fe && !string.IsNullOrEmpty(fe.Name))
+                return fe.Name;
+
+            if (_originalTexts.TryGetValue(obj, out string original))
+                return original;
+
+            _originalTexts[obj] = currentText;
+            return currentText;
         }
     }
 }

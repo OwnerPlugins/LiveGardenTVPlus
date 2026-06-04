@@ -35,53 +35,56 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/> <!-- ToolBar -->
-            <RowDefinition Height="*"/>     <!-- Player + Channels -->
-            <RowDefinition Height="Auto"/> <!-- StatusBar -->
+            <RowDefinition Height="Auto"/>
+            <!-- ToolBar -->
+            <RowDefinition Height="*"/>
+            <!-- Player + Channels -->
+            <RowDefinition Height="Auto"/>
+            <!-- StatusBar -->
         </Grid.RowDefinitions>
 
         <!-- Toolbar -->
         <ToolBar x:Name="MainToolBar" Grid.Row="0">
             <Button x:Name="LoadPlaylistBtn" Click="LoadPlaylistBtn_Click" ToolTip="Load M3U file from your computer">
                 <StackPanel Orientation="Horizontal">
-                    <material:PackIcon Kind="Folder" Width="18" Height="18" Margin="0,0,5,0"/>
+                    <material:PackIcon Kind="Folder" Width="20" Height="20" Margin="0,0,5,0"/>
                     <TextBlock x:Name="LoadPlaylistBtnText"/>
                 </StackPanel>
             </Button>
             <Button x:Name="LoadOnlineBtn" Click="LoadOnlineBtn_Click" ToolTip="Load M3U playlist from a web URL">
                 <StackPanel Orientation="Horizontal">
-                    <material:PackIcon Kind="CloudDownload" Width="18" Height="18" Margin="0,0,5,0"/>
+                    <material:PackIcon Kind="CloudDownload" Width="20" Height="20" Margin="0,0,5,0"/>
                     <TextBlock x:Name="LoadOnlineBtnText"/>
                 </StackPanel>
             </Button>
             <Button x:Name="ToggleSidebarBtn" Click="ToggleSidebarBtn_Click" ToolTip="Show or hide the channel list">
                 <StackPanel Orientation="Horizontal">
-                    <material:PackIcon x:Name="ToggleIcon" Kind="ArrowCollapseLeft" Width="18" Height="18" Margin="0,0,5,0"/>
+                    <material:PackIcon x:Name="ToggleIcon" Kind="ArrowCollapseLeft" Width="20" Height="20" Margin="0,0,5,0"/>
                     <TextBlock x:Name="ToggleText"/>
                 </StackPanel>
             </Button>
             <Button x:Name="SettingsBtn" Click="SettingsBtn_Click" ToolTip="Open settings window (language, buffer, online playlist)">
                 <StackPanel Orientation="Horizontal">
-                    <material:PackIcon Kind="Settings" Width="18" Height="18" Margin="0,0,5,0"/>
+                    <material:PackIcon Kind="Settings" Width="20" Height="20" Margin="0,0,5,0"/>
                     <TextBlock x:Name="SettingsBtnText"/>
                 </StackPanel>
             </Button>
             <Button x:Name="ThemePickerBtn" Click="ThemePickerBtn_Click" ToolTip="Change color theme">
                 <StackPanel Orientation="Horizontal">
-                    <material:PackIcon Kind="Palette" Width="18" Height="18" Margin="0,0,5,0"/>
+                    <material:PackIcon Kind="Palette" Width="20" Height="20" Margin="0,0,5,0"/>
                     <TextBlock x:Name="ThemePickerBtnText"/>
                 </StackPanel>
             </Button>
             <Button x:Name="HelpBtn" Click="HelpBtn_Click" ToolTip="Show help information">
                 <StackPanel Orientation="Horizontal">
-                    <material:PackIcon Kind="HelpCircle" Width="18" Height="18" Margin="0,0,5,0"/>
+                    <material:PackIcon Kind="HelpCircle" Width="20" Height="20" Margin="0,0,5,0"/>
                     <TextBlock x:Name="HelpBtnText"/>
                 </StackPanel>
             </Button>
             <Separator/>
             <Button x:Name="CheckUpdatesBtn" Click="CheckUpdatesBtn_Click" ToolTip="Check for updates">
                 <StackPanel Orientation="Horizontal">
-                    <material:PackIcon Kind="Update" Width="18" Height="18" Margin="0,0,5,0"/>
+                    <material:PackIcon Kind="Update" Width="20" Height="20" Margin="0,0,5,0"/>
                     <TextBlock Text="Update"/>
                 </StackPanel>
             </Button>
@@ -91,11 +94,17 @@
             <StackPanel Orientation="Horizontal">
                 <TextBox x:Name="SearchBox" Width="170" GotFocus="SearchBox_GotFocus" TextChanged="SearchBox_TextChanged" LostFocus="SearchBox_LostFocus" ToolTip="Search channels by name"/>
                 <Button x:Name="ClearSearchBtn" Width="22" Height="22" Margin="2,0,0,0" Click="ClearSearchBtn_Click" Visibility="Collapsed" ToolTip="Clear search text">
-                    <material:PackIcon Kind="Close" Width="14" Height="14"/>
+                    <material:PackIcon Kind="Close" Width="20" Height="20"/>
                 </Button>
                 <Separator/>
             </StackPanel>
-            <TextBlock x:Name="CreditsTextBlock" Text=" | by Lululla | 2026 | CORVOBOYS.ORG" Margin="8,0" VerticalAlignment="Center" Foreground="{DynamicResource ForegroundBrush}" FontSize="11" Cursor="Hand" MouseLeftButtonUp="CreditsTextBlock_MouseLeftButtonUp" ToolTip="Open corvoboys.org forum in browser"/>
+            <StackPanel Orientation="Horizontal" Margin="8,0" VerticalAlignment="Center">
+                <TextBlock Text=" | by Lululla | 2026 | " Foreground="{DynamicResource ForegroundBrush}" FontSize="14" VerticalAlignment="Center"/>
+                <TextBlock Text="CORVOBOYS.ORG" Foreground="{DynamicResource AccentBrush}" FontSize="14" Cursor="Hand" VerticalAlignment="Center" MouseLeftButtonUp="CorvoBoysLink_Click" ToolTip="Open corvoboys.org forum"/>
+                <TextBlock Text=" - " Foreground="{DynamicResource ForegroundBrush}" FontSize="14" VerticalAlignment="Center"/>
+                <TextBlock Text="LINUXSAT-SUPPORT.COM" Foreground="{DynamicResource AccentBrush}" FontSize="14" Cursor="Hand" VerticalAlignment="Center" MouseLeftButtonUp="LinuxSatLink_Click" ToolTip="Open linuxsat-support.com"/>
+            </StackPanel>
+        
         </ToolBar>
 
         <!-- Main content: Channel list + GridSplitter + WebPlayer -->
@@ -159,7 +168,7 @@
                                         <Setter TargetName="ItemIcon" Property="Visibility" Value="Visible"/>
                                         <Setter TargetName="ItemText" Property="FontWeight" Value="Bold"/>
                                         <Setter TargetName="ItemText" Property="Foreground" Value="#FF88CCFF"/>
-                                        <Setter TargetName="ItemText" Property="FontSize" Value="17"/>
+                                        <Setter TargetName="ItemText" Property="FontSize" Value="18"/>
                                     </DataTrigger>
                                     <!-- Show fallback icon when Logo is null or empty -->
                                     <DataTrigger Binding="{Binding Logo}" Value="{x:Null}">
@@ -186,7 +195,7 @@
         </Grid>
 
         <!-- Status bar -->
-        <StatusBar x:Name="MainStatusBar" Grid.Row="2">
+        <StatusBar x:Name="MainStatusBar" Grid.Row="2" Height="55" Padding="5,0">
             <StatusBar.ItemsPanel>
                 <ItemsPanelTemplate>
                     <DockPanel LastChildFill="True"/>
@@ -194,45 +203,45 @@
             </StatusBar.ItemsPanel>
             <StatusBarItem>
                 <StackPanel Orientation="Horizontal" Margin="5,0">
-                    <Button x:Name="SpeedSlowerBtn" Width="33" Height="24" Click="SpeedSlowerBtn_Click" ToolTip="Half speed (0.5x)">
-                        <material:PackIcon Kind="SpeedometerSlow" Width="16" Height="16"/>
+                    <Button x:Name="SpeedSlowerBtn" Width="36" Height="36" Click="SpeedSlowerBtn_Click" ToolTip="Half speed (0.5x)" Background="Transparent" BorderThickness="0">
+                        <material:PackIcon Kind="SpeedometerSlow" Width="28" Height="28"/>
                     </Button>
-                    <Button x:Name="SpeedNormalBtn" Width="33" Height="24" Click="SpeedNormalBtn_Click" ToolTip="Normal speed (1x)">
-                        <material:PackIcon Kind="SpeedometerMedium" Width="16" Height="16"/>
+                    <Button x:Name="SpeedNormalBtn" Width="36" Height="36" Click="SpeedNormalBtn_Click" ToolTip="Normal speed (1x)" Background="Transparent" BorderThickness="0">
+                        <material:PackIcon Kind="SpeedometerMedium" Width="28" Height="28"/>
                     </Button>
-                    <Button x:Name="SpeedFasterBtn" Width="33" Height="24" Click="SpeedFasterBtn_Click" ToolTip="Double speed (2x)">
-                        <material:PackIcon Kind="Speedometer" Width="16" Height="16"/>
+                    <Button x:Name="SpeedFasterBtn" Width="36" Height="36" Click="SpeedFasterBtn_Click" ToolTip="Double speed (2x)" Background="Transparent" BorderThickness="0">
+                        <material:PackIcon Kind="Speedometer" Width="28" Height="28"/>
                     </Button>
                 </StackPanel>
             </StatusBarItem>
             <StatusBarItem>
                 <StackPanel Orientation="Horizontal" Margin="10,0">
-                    <TextBlock x:Name="BufferLabel" Margin="0,0,5,0" VerticalAlignment="Center" ToolTip="HLS buffer length in seconds"/>
-                    <Slider x:Name="BufferSlider" Width="80" Minimum="1" Maximum="10" TickFrequency="1" IsSnapToTickEnabled="True" ValueChanged="BufferSlider_ValueChanged" ToolTip="Adjust buffer size (1-10 seconds)"/>
-                    <TextBlock x:Name="BufferValueText" Text="3s" Margin="5,0" VerticalAlignment="Center" Width="30"/>
+                    <TextBlock x:Name="BufferLabel" Margin="0,0,5,0" VerticalAlignment="Center" ToolTip="HLS buffer length in seconds" FontSize="14"/>
+                    <Slider x:Name="BufferSlider" Width="100" Minimum="1" Maximum="10" TickFrequency="1" IsSnapToTickEnabled="True" ValueChanged="BufferSlider_ValueChanged" ToolTip="Adjust buffer size (1-10 seconds)"/>
+                    <TextBlock x:Name="BufferValueText" Text="3s" Margin="5,0" VerticalAlignment="Center" Width="40" FontSize="14"/>
                 </StackPanel>
             </StatusBarItem>
             <StatusBarItem>
-                <Button x:Name="PipBtn" Width="24" Height="24" Click="PipBtn_Click" ToolTip="Picture-in-Picture mode">
-                    <material:PackIcon Kind="PictureInPictureTopRight" Width="16" Height="16"/>
+                <Button x:Name="PipBtn" Width="40" Height="40" Click="PipBtn_Click" ToolTip="Picture-in-Picture mode" Background="Transparent" BorderThickness="0">
+                    <material:PackIcon Kind="PictureInPictureTopRight" Width="32" Height="32"/>
                 </Button>
             </StatusBarItem>
             <StatusBarItem>
-                <Button x:Name="FullscreenUIBtn" Width="24" Height="24" Click="FullscreenUIBtn_Click" ToolTip="Fullscreen (hide UI) - press ESC to exit">
-                    <material:PackIcon Kind="Fullscreen" Width="16" Height="16"/>
+                <Button x:Name="FullscreenUIBtn" Width="40" Height="40" Click="FullscreenUIBtn_Click" ToolTip="Fullscreen (hide UI) - press ESC to exit" Background="Transparent" BorderThickness="0">
+                    <material:PackIcon Kind="Fullscreen" Width="32" Height="32"/>
                 </Button>
             </StatusBarItem>
             <StatusBarItem DockPanel.Dock="Right">
-                <TextBlock x:Name="StreamNameStatus" Margin="5,0" ToolTip="Currently playing channel"/>
+                <TextBlock x:Name="StreamNameStatus" Margin="5,0" ToolTip="Currently playing channel" FontSize="14"/>
             </StatusBarItem>
             <StatusBarItem DockPanel.Dock="Right">
                 <Separator Style="{StaticResource {x:Static StatusBar.SeparatorStyleKey}}" Margin="2,0"/>
             </StatusBarItem>
             <StatusBarItem DockPanel.Dock="Right">
-                <TextBlock x:Name="StatusTextBlock" ToolTip="Application status"/>
+                <TextBlock x:Name="StatusTextBlock" ToolTip="Application status" FontSize="14"/>
             </StatusBarItem>
             <StatusBarItem DockPanel.Dock="Right">
-                <TextBlock x:Name="EpgInfoTextBlock" Margin="5,0" Width="500" ToolTip="Current EPG info"/>
+                <TextBlock x:Name="EpgInfoTextBlock" Width="550" ToolTip="Current EPG info" FontSize="14"/>
             </StatusBarItem>
         </StatusBar>
     </Grid>
