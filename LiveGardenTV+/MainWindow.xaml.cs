@@ -79,6 +79,13 @@ namespace LiveGardenTVPlus
             };
         }
 
+        protected override void OnClosing(System.ComponentModel.CancelEventArgs e)
+        {
+            if (_allChannelsOriginal != null)
+                FavoritesManager.SaveFavorites(_allChannelsOriginal);
+            base.OnClosing(e);
+        }
+
         public void ApplyLanguage()
         {
             TranslationHelper.TranslateUI(this);
@@ -86,6 +93,12 @@ namespace LiveGardenTVPlus
                 StreamNameStatus.Text = _currentChannelName;
             else
                 StreamNameStatus.Text = LanguageManager.GetTranslation("No stream");
+
+            PauseResumeBtn.ToolTip = LanguageManager.GetTranslation("Pause/Resume live stream");
+            EditPlaylistBtnText.Text = LanguageManager.GetTranslation("Edit Playlist");
+            SavePlaylistBtnText.Text = LanguageManager.GetTranslation("Save Playlist");
+            ExportFavoritesBtnText.Text = LanguageManager.GetTranslation("Export Favorites");
+            AboutBtnText.Text = LanguageManager.GetTranslation("About");
             var version = Assembly.GetExecutingAssembly().GetName().Version;
             string shortVersion = $"{version.Major}.{version.Minor}";
             this.Title = $"TVGarden+ v{shortVersion}";
@@ -201,6 +214,25 @@ namespace LiveGardenTVPlus
                 e.Handled = true;
             }
             base.OnPreviewKeyDown(e);
+        }
+
+        private async void PauseResumeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (WebPlayer?.CoreWebView2 != null)
+            {
+                try
+                {
+                    // Execute JavaScript togglePause() and get the result
+                    var result = await WebPlayer.CoreWebView2.ExecuteScriptAsync("togglePause()");
+                    bool isPaused = result?.Replace("\"", "") == "true";
+                    // Update icon
+                    PauseIcon.Kind = isPaused ? PackIconKind.Play : PackIconKind.Pause;
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine($"Pause error: {ex.Message}");
+                }
+            }
         }
 
         private async void ChannelTreeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
@@ -390,7 +422,10 @@ namespace LiveGardenTVPlus
                 SearchBox.Text = LanguageManager.GetTranslation("Search channels...");
                 SearchBox.Foreground = Brushes.Gray;
                 ClearSearchBtn.Visibility = Visibility.Collapsed;
+
+                FavoritesManager.ApplyFavorites(_allChannelsOriginal);
                 RefreshChannelsView();
+
                 StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Loaded")} {channels.Count} {LanguageManager.GetTranslation("channels from")} {Path.GetFileName(filePath)}";
             }
             catch (Exception ex) { MessageBox.Show($"{LanguageManager.GetTranslation("Error")}: {ex.Message}"); }
@@ -438,7 +473,10 @@ namespace LiveGardenTVPlus
                     SearchBox.Text = LanguageManager.GetTranslation("Search channels...");
                     SearchBox.Foreground = Brushes.Gray;
                     ClearSearchBtn.Visibility = Visibility.Collapsed;
+
+                    FavoritesManager.ApplyFavorites(_allChannelsOriginal);
                     RefreshChannelsView();
+
                     StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Loaded")} {channels.Count} {LanguageManager.GetTranslation("channels from URL")}";
                 }
             }
@@ -453,6 +491,44 @@ namespace LiveGardenTVPlus
                 StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Error")}: {ex.Message}";
                 MessageBox.Show($"{LanguageManager.GetTranslation("Failed to load playlist")}\n{ex.Message}",
                                 LanguageManager.GetTranslation("Error"), MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void SavePlaylistBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (_allChannelsOriginal == null || _allChannelsOriginal.Count == 0)
+            {
+                MessageBox.Show(LanguageManager.GetTranslation("Load a playlist first."), 
+                                LanguageManager.GetTranslation("Info"), 
+                                MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+
+            var dialog = new Microsoft.Win32.SaveFileDialog
+            {
+                Filter = "M3U files|*.m3u",
+                DefaultExt = ".m3u",
+                FileName = "exported_playlist.m3u"
+            };
+            if (dialog.ShowDialog() == true)
+            {
+                ExportToM3u(dialog.FileName, _allChannelsOriginal);
+                MessageBox.Show($"Playlist saved to {dialog.FileName}", 
+                                LanguageManager.GetTranslation("Success"), 
+                                MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+        }
+
+        private void ExportToM3u(string filePath, List<Channel> channels)
+        {
+            using (var writer = new StreamWriter(filePath))
+            {
+                writer.WriteLine("#EXTM3U");
+                foreach (var ch in channels)
+                {
+                    writer.WriteLine($"#EXTINF:-1 group-title=\"{ch.Group}\" tvg-logo=\"{ch.Logo}\" tvg-id=\"{ch.TvgId}\",{ch.Name}");
+                    writer.WriteLine(ch.Url);
+                }
             }
         }
 
@@ -579,6 +655,135 @@ namespace LiveGardenTVPlus
             }
         }
 
+        private void EditPlaylistBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (_allChannelsOriginal == null || _allChannelsOriginal.Count == 0)
+            {
+                MessageBox.Show(LanguageManager.GetTranslation("Load a playlist first."), 
+                                LanguageManager.GetTranslation("Info"), 
+                                MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+            var editor = new Views.PlaylistEditorWindow(_allChannelsOriginal.ToList());
+            editor.Owner = this;
+            editor.ShowDialog();
+
+            if (editor.IsSaved && !string.IsNullOrEmpty(editor.SavedFilePath))
+            {
+                var result = MessageBox.Show(
+                    LanguageManager.GetTranslation("Do you want to load the edited playlist now?"),
+                    LanguageManager.GetTranslation("Apply changes"),
+                    MessageBoxButton.YesNo,
+                    MessageBoxImage.Question);
+                if (result == MessageBoxResult.Yes)
+                {
+                    LoadPlaylist(editor.SavedFilePath);
+                }
+            }
+        }
+
+        private void FavoriteStar_Click(object sender, RoutedEventArgs e)
+        {
+            var button = sender as Button;
+            var channel = button?.DataContext as Channel;
+            if (channel == null) return;
+
+            channel.IsFavorite = !channel.IsFavorite;
+            
+            FavoritesManager.SaveFavorites(_allChannelsOriginal);
+        }
+
+        private void ExportFavoritesBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var favorites = _allChannelsOriginal?.Where(c => c.IsFavorite).ToList();
+            if (favorites == null || favorites.Count == 0)
+            {
+                MessageBox.Show(LanguageManager.GetTranslation("No favorite channels to export."),
+                                LanguageManager.GetTranslation("Info"),
+                                MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+
+            var dialog = new Microsoft.Win32.SaveFileDialog
+            {
+                Filter = "M3U files|*.m3u",
+                DefaultExt = ".m3u",
+                FileName = "favorites_playlist.m3u"
+            };
+            if (dialog.ShowDialog() == true)
+            {
+                ExportToM3u(dialog.FileName, favorites);
+                MessageBox.Show($"{favorites.Count} favorite channels exported to {dialog.FileName}",
+                                LanguageManager.GetTranslation("Success"),
+                                MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+        }
+
+        private void ShowFavoritesOnly_Click(object sender, RoutedEventArgs e)
+        {
+            _showFavoritesOnly = ShowFavoritesOnlyCheckBox.IsChecked == true;
+            RefreshChannelsView();
+        }
+
+        private void SearchBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (SearchBox.Text == LanguageManager.GetTranslation("Search channels..."))
+            {
+                SearchBox.Text = "";
+                SearchBox.Foreground = Brushes.Black;
+            }
+            ClearSearchBtn.Visibility = Visibility.Visible;
+        }
+
+        private void SearchBox_LostFocus(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(SearchBox.Text))
+            {
+                SearchBox.Text = LanguageManager.GetTranslation("Search channels...");
+                SearchBox.Foreground = Brushes.Gray;
+                ClearSearchBtn.Visibility = Visibility.Collapsed;
+                if (_searchFilter != "")
+                {
+                    _searchFilter = "";
+                    RefreshChannelsView();
+                }
+            }
+        }
+
+        private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            _searchFilter = SearchBox.Text;
+            ClearSearchBtn.Visibility = (string.IsNullOrEmpty(_searchFilter) || _searchFilter == LanguageManager.GetTranslation("Search channels...")) ? Visibility.Collapsed : Visibility.Visible;
+            RefreshChannelsView();
+        }
+
+        private void ClearSearchBtn_Click(object sender, RoutedEventArgs e)
+        {
+            _searchFilter = "";
+            SearchBox.Text = LanguageManager.GetTranslation("Search channels...");
+            SearchBox.Foreground = Brushes.Gray;
+            ClearSearchBtn.Visibility = Visibility.Collapsed;
+            RefreshChannelsView();
+            SearchBox.Focus();
+        }
+
+        private void AboutBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var about = new LiveGardenTVPlus.Views.AboutWindow();
+            about.Owner = this;
+            about.ShowDialog();
+        }
+
+        private void Window_Drop(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.FileDrop))
+            {
+                var files = (string[])e.Data.GetData(DataFormats.FileDrop);
+                if (files.Length > 0 && (Path.GetExtension(files[0]).ToLower() == ".m3u" || Path.GetExtension(files[0]).ToLower() == ".m3u8"))
+                    LoadPlaylist(files[0]);
+            }
+        }
+
         private void HelpBtn_Click(object sender, RoutedEventArgs e)
         {
             var version = Assembly.GetExecutingAssembly().GetName().Version;
@@ -644,64 +849,6 @@ namespace LiveGardenTVPlus
         For more information, visit the GitHub repository.";
 
             MessageBox.Show(help, LanguageManager.GetTranslation("Help"), MessageBoxButton.OK, MessageBoxImage.Information);
-        }
-
-        private void ShowFavoritesOnly_Click(object sender, RoutedEventArgs e)
-        {
-            _showFavoritesOnly = ShowFavoritesOnlyCheckBox.IsChecked == true;
-            RefreshChannelsView();
-        }
-
-        private void SearchBox_GotFocus(object sender, RoutedEventArgs e)
-        {
-            if (SearchBox.Text == LanguageManager.GetTranslation("Search channels..."))
-            {
-                SearchBox.Text = "";
-                SearchBox.Foreground = Brushes.Black;
-            }
-            ClearSearchBtn.Visibility = Visibility.Visible;
-        }
-
-        private void SearchBox_LostFocus(object sender, RoutedEventArgs e)
-        {
-            if (string.IsNullOrWhiteSpace(SearchBox.Text))
-            {
-                SearchBox.Text = LanguageManager.GetTranslation("Search channels...");
-                SearchBox.Foreground = Brushes.Gray;
-                ClearSearchBtn.Visibility = Visibility.Collapsed;
-                if (_searchFilter != "")
-                {
-                    _searchFilter = "";
-                    RefreshChannelsView();
-                }
-            }
-        }
-
-        private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            _searchFilter = SearchBox.Text;
-            ClearSearchBtn.Visibility = (string.IsNullOrEmpty(_searchFilter) || _searchFilter == LanguageManager.GetTranslation("Search channels...")) ? Visibility.Collapsed : Visibility.Visible;
-            RefreshChannelsView();
-        }
-
-        private void ClearSearchBtn_Click(object sender, RoutedEventArgs e)
-        {
-            _searchFilter = "";
-            SearchBox.Text = LanguageManager.GetTranslation("Search channels...");
-            SearchBox.Foreground = Brushes.Gray;
-            ClearSearchBtn.Visibility = Visibility.Collapsed;
-            RefreshChannelsView();
-            SearchBox.Focus();
-        }
-
-        private void Window_Drop(object sender, DragEventArgs e)
-        {
-            if (e.Data.GetDataPresent(DataFormats.FileDrop))
-            {
-                var files = (string[])e.Data.GetData(DataFormats.FileDrop);
-                if (files.Length > 0 && (Path.GetExtension(files[0]).ToLower() == ".m3u" || Path.GetExtension(files[0]).ToLower() == ".m3u8"))
-                    LoadPlaylist(files[0]);
-            }
         }
 
         private void CorvoBoysLink_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)

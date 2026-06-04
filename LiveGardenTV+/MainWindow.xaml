@@ -4,11 +4,13 @@
         xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
         xmlns:material="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
         xmlns:converters="clr-namespace:LiveGardenTVPlus.Converters"
-        Title="TVGarden+" Height="720" Width="1280"
+        Title="TVGarden+" Height="720" Width="1350"
         WindowStartupLocation="CenterScreen" AllowDrop="True" Drop="Window_Drop">
 
     <Window.Resources>
         <converters:UrlToImageConverter x:Key="UrlToImageConverter" />
+        <converters:BoolToStarKindConverter x:Key="BoolToStarKindConverter"/>
+        <converters:BoolToStarColorConverter x:Key="BoolToStarColorConverter"/>
 
         <Style TargetType="TreeViewItem">
             <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
@@ -57,6 +59,24 @@
                     <TextBlock x:Name="LoadOnlineBtnText"/>
                 </StackPanel>
             </Button>
+            <Button x:Name="SavePlaylistBtn" Click="SavePlaylistBtn_Click" ToolTip="Save current playlist to a new M3U file">
+                <StackPanel Orientation="Horizontal">
+                    <material:PackIcon Kind="ContentSave" Width="20" Height="20" Margin="0,0,5,0"/>
+                    <TextBlock x:Name="SavePlaylistBtnText"/>
+                </StackPanel>
+            </Button>
+            <Button x:Name="EditPlaylistBtn" Click="EditPlaylistBtn_Click" ToolTip="Edit current playlist">
+                <StackPanel Orientation="Horizontal">
+                    <material:PackIcon Kind="PlaylistEdit" Width="20" Height="20" Margin="0,0,5,0"/>
+                    <TextBlock x:Name="EditPlaylistBtnText"/>
+                </StackPanel>
+            </Button>
+            <Button x:Name="ExportFavoritesBtn" Click="ExportFavoritesBtn_Click" ToolTip="Export only favorite channels to a new M3U file">
+                <StackPanel Orientation="Horizontal">
+                    <material:PackIcon Kind="Star" Width="20" Height="20" Margin="0,0,5,0"/>
+                    <TextBlock x:Name="ExportFavoritesBtnText"/>
+                </StackPanel>
+            </Button>
             <Button x:Name="ToggleSidebarBtn" Click="ToggleSidebarBtn_Click" ToolTip="Show or hide the channel list">
                 <StackPanel Orientation="Horizontal">
                     <material:PackIcon x:Name="ToggleIcon" Kind="ArrowCollapseLeft" Width="20" Height="20" Margin="0,0,5,0"/>
@@ -79,6 +99,13 @@
                 <StackPanel Orientation="Horizontal">
                     <material:PackIcon Kind="HelpCircle" Width="20" Height="20" Margin="0,0,5,0"/>
                     <TextBlock x:Name="HelpBtnText"/>
+                </StackPanel>
+            </Button>
+            <Separator/>
+            <Button x:Name="AboutBtn" Click="AboutBtn_Click" ToolTip="About TVGarden+">
+                <StackPanel Orientation="Horizontal">
+                    <material:PackIcon Kind="Information" Width="20" Height="20" Margin="0,0,5,0"/>
+                    <TextBlock x:Name="AboutBtnText"/>
                 </StackPanel>
             </Button>
             <Separator/>
@@ -110,7 +137,7 @@
         <!-- Main content: Channel list + GridSplitter + WebPlayer -->
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition x:Name="ChannelColumn" Width="280"/>
+                <ColumnDefinition x:Name="ChannelColumn" Width="320"/>
                 <ColumnDefinition x:Name="SplitterColumn" Width="5"/>
                 <ColumnDefinition x:Name="PlayerColumn" Width="*"/>
             </Grid.ColumnDefinitions>
@@ -142,24 +169,40 @@
                         <HierarchicalDataTemplate.ItemTemplate>
                             <DataTemplate>
                                 <Border x:Name="ItemBorder" Margin="0,2" Background="Transparent" CornerRadius="3">
-                                    <StackPanel Orientation="Horizontal">
-                                        <!-- Logo image (if available) -->
-                                        <Image Source="{Binding Logo, Converter={StaticResource UrlToImageConverter}}" 
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>   <!-- Logo/Fallback -->
+                                            <ColumnDefinition Width="*"/>      <!-- Nome canale -->
+                                            <ColumnDefinition Width="Auto"/>   <!-- Stella -->
+                                        </Grid.ColumnDefinitions>
+
+                                        <!-- Logo image -->
+                                        <Image Grid.Column="0" Source="{Binding Logo, Converter={StaticResource UrlToImageConverter}}" 
                                                Width="32" Height="32" Margin="0,0,8,0" 
                                                VerticalAlignment="Center" />
-                                        <!-- Fallback icon (shown when Logo is null or empty) -->
-                                        <material:PackIcon x:Name="ItemIcon" Kind="Television" 
+                                        <!-- Fallback icon (mostrato se Logo nullo) -->
+                                        <material:PackIcon x:Name="ItemIcon" Grid.Column="0" Kind="Television" 
                                                            Width="32" Height="32" Margin="0,0,8,0" 
                                                            Foreground="#FF88CCFF"
                                                            Visibility="Collapsed"/>
-                                        <!-- Channel name -->
-                                        <TextBlock x:Name="ItemText" Text="{Binding Name}" 
+                                        <!-- Nome canale (con ellissi se troppo lungo) -->
+                                        <TextBlock x:Name="ItemText" Grid.Column="1" Text="{Binding Name}" 
                                                    ToolTip="{Binding Url}" Foreground="{DynamicResource ForegroundBrush}"
-                                                   FontSize="16" VerticalAlignment="Center"/>
-                                    </StackPanel>
+                                                   FontSize="16" VerticalAlignment="Center"
+                                                   TextTrimming="CharacterEllipsis"/>
+                                        <Button x:Name="FavoriteStar" Grid.Column="2" Width="32" Height="32" 
+                                                Click="FavoriteStar_Click" Background="Transparent" 
+                                                BorderThickness="0" Cursor="Hand" Margin="4,0,0,0"
+                                                VerticalAlignment="Center" HorizontalAlignment="Right">
+                                            <material:PackIcon Kind="{Binding IsFavorite, Converter={StaticResource BoolToStarKindConverter}}" 
+                                                               Width="20" Height="20" 
+                                                               Foreground="{Binding IsFavorite, Converter={StaticResource BoolToStarColorConverter}}"/>
+                                        </Button>
+                                    </Grid>
                                 </Border>
+
                                 <DataTemplate.Triggers>
-                                    <!-- Special row: back to all groups -->
+                                    <!-- Riga speciale "← Back to all groups" -->
                                     <DataTrigger Binding="{Binding Name}" Value="← Back to all groups">
                                         <Setter TargetName="ItemBorder" Property="Background" Value="#FF555555"/>
                                         <Setter TargetName="ItemBorder" Property="Padding" Value="5,3"/>
@@ -170,7 +213,7 @@
                                         <Setter TargetName="ItemText" Property="Foreground" Value="#FF88CCFF"/>
                                         <Setter TargetName="ItemText" Property="FontSize" Value="18"/>
                                     </DataTrigger>
-                                    <!-- Show fallback icon when Logo is null or empty -->
+                                    <!-- Mostra l'icona di fallback se Logo è nullo o vuoto -->
                                     <DataTrigger Binding="{Binding Logo}" Value="{x:Null}">
                                         <Setter TargetName="ItemIcon" Property="Visibility" Value="Visible"/>
                                     </DataTrigger>
@@ -229,6 +272,11 @@
             <StatusBarItem>
                 <Button x:Name="FullscreenUIBtn" Width="40" Height="40" Click="FullscreenUIBtn_Click" ToolTip="Fullscreen (hide UI) - press ESC to exit" Background="Transparent" BorderThickness="0">
                     <material:PackIcon Kind="Fullscreen" Width="32" Height="32"/>
+                </Button>
+            </StatusBarItem>
+            <StatusBarItem>
+                <Button x:Name="PauseResumeBtn" Width="36" Height="36" Click="PauseResumeBtn_Click" ToolTip="Pause/Resume live stream" Background="Transparent" BorderThickness="0">
+                    <material:PackIcon x:Name="PauseIcon" Kind="Pause" Width="28" Height="28"/>
                 </Button>
             </StatusBarItem>
             <StatusBarItem DockPanel.Dock="Right">

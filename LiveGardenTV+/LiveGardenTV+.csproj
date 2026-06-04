@@ -12,8 +12,8 @@
         <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
         <GenerateDocumentationFile>True</GenerateDocumentationFile>
         <Title>LiveGardenTVPlus</Title>
-        <AssemblyVersion>1.4</AssemblyVersion>
-        <FileVersion>1.4</FileVersion>
+        <AssemblyVersion>1.5</AssemblyVersion>
+        <FileVersion>1.5</FileVersion>
         <RepositoryUrl>https://github.com/OwnerPlugins/LiveGardenTVPlus</RepositoryUrl>
         <NeutralLanguage>en</NeutralLanguage>
         <IncludeSymbols>False</IncludeSymbols>
@@ -26,7 +26,9 @@
         <Page Remove="Controls\**" />
     </ItemGroup>
     <ItemGroup>
-        <Content Include="Themes\logo-garden.ico" />
+        <Content Include="Themes\logo-garden.ico">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
     </ItemGroup>
     <ItemGroup>
         <Content Include="Languages\*.lng">
@@ -34,10 +36,18 @@
         </Content>
     </ItemGroup>
     <ItemGroup>
+      <None Remove="Themes\avatar.gif" />
+      <None Remove="Themes\folder.png" />
+      <None Remove="Themes\logo-garden.png" />
+      <None Remove="Views\avatar.gif" />
+      <None Remove="Views\logo-garden.png" />
+    </ItemGroup>
+    <ItemGroup>
         <PackageReference Include="GTranslate" Version="2.3.1" />
         <PackageReference Include="MaterialDesignThemes" Version="5.3.2" />
         <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3967.48" />
         <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+        <PackageReference Include="XamlAnimatedGif" Version="2.3.2" />
         <PackageReference Include="XmlTvSharp" Version="1.1.2" />
     </ItemGroup>
     <ItemGroup>
@@ -47,6 +57,19 @@
     </ItemGroup>
     <ItemGroup>
       <None Include="README.md" />
+    </ItemGroup>
+    <ItemGroup>
+      <Resource Include="Themes\avatar.gif">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Themes\folder.png">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Themes\logo-garden.png">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Views\avatar.gif" />
+      <Resource Include="Views\logo-garden.png" />
     </ItemGroup>
     <ItemGroup>
       <None Update="README_VS.md">

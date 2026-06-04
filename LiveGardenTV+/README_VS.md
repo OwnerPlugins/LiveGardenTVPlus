@@ -13,6 +13,33 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 
 ## Changelog
 
+### 🆕 New Features & Improvements – Version 1.5
+
+- **Playlist Editor** – Built‑in editor to modify channel names, URLs, logos, groups, tvg‑id, and favorites. Save changes as a new M3U file.
+- **Group Management** – Add, rename, or delete entire channel groups directly from the editor.
+- **URL Health Check** – Test all channel URLs (with GET + range header) and display status (OK/FAIL) in the editor.
+- **Export OK / FAIL Channels** – Export working or non‑working channels to separate CSV files for further inspection.
+- **Save Status Report** – Export complete channel list with status to a CSV file.
+- **Save Playlist As** – Button in main toolbar to save the current playlist (including any in‑memory edits) to a new M3U file.
+- **Export Favorites** – Export only favourite channels to a standalone M3U playlist.
+- **Persistent Favorites** – Favourites are saved in `favorites.json` and automatically restored when reloading the same playlist (URL‑based matching with normalisation).
+- **Timeshift (Pause Live)** – Pause/Resume button in status bar allows pausing live HLS streams (works within the buffer window).
+- **Improved About Window** - Dedicated about dialog with logo, animated avatar and a changelog that loads directly from the GitHub README (offline fallback included).
+- **Larger UI & Better Layout** - Bigger icons, larger fonts, a resizable sidebar (GridSplitter) and clickable credit links (CORVOBOYS.ORG / LINUXSAT‑SUPPORT.COM). Much more comfortable on modern screens.
+
+
+### 🐛 Bug Fixes
+- Fixed false negatives in URL health check (now uses GET with range header).
+- Fixed favourite star being cut off in the channel list (redesigned with a Grid layout).
+- Fixed groups collapsing after toggling favourites (no more full refresh).
+- Fixed playback starting with audio muted.
+- Fixed several XAML binding errors and improved TreeView performance.
+- Fixed image resources not showing in runtime (proper `pack://application` URIs).
+- Fixed `Environment.Exit(0)` causing the app to close instead of restarting during update.
+- Fixed missing `IsFavorite` column in the playlist editor.
+
+---
+
 ### 🆕 New Features & Improvements – Version 1.4
 
 - **Full EPG Support** – Electronic Program Guide now fully functional with timezone handling. Current programme info displayed in the status bar.

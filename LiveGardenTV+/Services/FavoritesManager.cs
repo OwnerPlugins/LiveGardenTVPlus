@@ -1,6 +1,7 @@
 using LiveGardenTVPlus.Models;
 using Newtonsoft.Json;
 using System.IO;
+using System.Diagnostics;
 
 namespace LiveGardenTVPlus.Services
 {
@@ -23,8 +24,25 @@ namespace LiveGardenTVPlus.Services
 
         public static void ApplyFavorites(IEnumerable<Channel> channels)
         {
-            var favs = LoadFavoriteUrls();
-            foreach (var c in channels) c.IsFavorite = favs.Contains(c.Url);
+            if (!File.Exists(FavoritesFile)) return;
+            var favUrls = LoadFavoriteUrls();
+            if (favUrls == null) return;
+
+            var normalizedFavs = favUrls.Select(u => NormalizeUrl(u)).ToHashSet();
+
+            foreach (var c in channels)
+            {
+                string normalizedChannelUrl = NormalizeUrl(c.Url);
+                c.IsFavorite = normalizedFavs.Contains(normalizedChannelUrl);
+            }
+        }
+
+        private static string NormalizeUrl(string url)
+        {
+            if (string.IsNullOrEmpty(url)) return url;
+            string result = url.ToLowerInvariant();
+            result = result.TrimEnd('/');
+            return result;
         }
     }
 }
