@@ -70,12 +70,21 @@ namespace LiveGardenTVPlus.Views
 
         private string ExtractChangelog(string readme)
         {
+            var match = Regex.Match(readme, @"## Changelog(.*?)(?=\n## Getting started|\z)", RegexOptions.Singleline);
+            if (!match.Success) return null;
+            string changelog = match.Groups[1].Value.Trim();
+            changelog = Regex.Replace(changelog, @"!\[.*?\]\(.*?\)", "");
+            return changelog;
+        }
+
+/*         private string ExtractChangelog(string readme)
+        {
             var match = Regex.Match(readme, @"## (Changelog|What's New)(.*?)(?=\n## |\z)", RegexOptions.Singleline);
             if (!match.Success) return null;
             string changelog = match.Groups[2].Value.Trim();
             changelog = Regex.Replace(changelog, @"!\[.*?\]\(.*?\)", "");
             return changelog;
-        }
+        } */
 
         private void CloseButton_Click(object sender, RoutedEventArgs e)
         {
