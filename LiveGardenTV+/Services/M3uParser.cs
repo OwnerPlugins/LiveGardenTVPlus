@@ -1,4 +1,4 @@
-using LiveGardenTVPlus.Models;
+﻿using LiveGardenTVPlus.Models;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Linq;
@@ -16,7 +16,7 @@ namespace LiveGardenTVPlus.Services
             var channels = new List<Channel>();
             var lines = File.ReadAllLines(filePath);
 
-            // Estrai EPG URL dalla prima riga se presente
+            // Extract EPG URL from first line if present
             if (lines.Length > 0 && lines[0].StartsWith("#EXTM3U"))
             {
                 var match = Regex.Match(lines[0], @"x-tvg-url=""([^""]+)""");
@@ -30,14 +30,14 @@ namespace LiveGardenTVPlus.Services
                 {
                     var extinf = lines[i];
                     string url = null;
-                    // Cerca URL saltando righe vuote o che iniziano con '#'
+                    // Search URLs skipping blank lines or lines starting with '#'
                     for (int j = i + 1; j < lines.Length; j++)
                     {
                         string line = lines[j].Trim();
                         if (string.IsNullOrEmpty(line)) continue;
                         if (line.StartsWith("#")) continue;
                         url = line;
-                        i = j; // avanziamo l'indice principale
+                        i = j; // we advance the main index
                         break;
                     }
                     if (string.IsNullOrEmpty(url)) continue;

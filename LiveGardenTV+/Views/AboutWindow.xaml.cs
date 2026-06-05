@@ -45,7 +45,8 @@ namespace LiveGardenTVPlus.Views
 • Playlist editor (edit channels, groups, favorites)
 • URL health check and export
 • Timeshift (pause live streams)
-• Export favorites to M3U
+• Import/Export favorites to M3U/json
+• Advanced List Editor
 • Auto‑updater";
             }
             ChangelogText.Text = changelog;
@@ -76,15 +77,6 @@ namespace LiveGardenTVPlus.Views
             changelog = Regex.Replace(changelog, @"!\[.*?\]\(.*?\)", "");
             return changelog;
         }
-
-/*         private string ExtractChangelog(string readme)
-        {
-            var match = Regex.Match(readme, @"## (Changelog|What's New)(.*?)(?=\n## |\z)", RegexOptions.Singleline);
-            if (!match.Success) return null;
-            string changelog = match.Groups[2].Value.Trim();
-            changelog = Regex.Replace(changelog, @"!\[.*?\]\(.*?\)", "");
-            return changelog;
-        } */
 
         private void CloseButton_Click(object sender, RoutedEventArgs e)
         {

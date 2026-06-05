@@ -11,25 +11,38 @@
     <script>
         var hls = null;
         var video = document.getElementById('video');
-        window.hls = hls;
 
         function playStream(url) {
             console.log("playStream called with", url);
-            if (hls) hls.destroy();
-            if (Hls.isSupported()) {
+
+            // 1) Direct video files (MP4, MKV, TS)
+            if (url.match(/\.(mp4|mkv|ts)$/i)) {
+                video.src = url;
+                video.play().catch(e => console.error("Native play error", e));
+                return;
+            }
+
+            // 2) HLS streams (.m3u8)
+            if (url.includes('.m3u8') && Hls.isSupported()) {
+                if (hls) hls.destroy();
                 hls = new Hls();
                 window.hls = hls;
                 hls.loadSource(url);
                 hls.attachMedia(video);
                 hls.on(Hls.Events.MANIFEST_PARSED, function() {
-                    // Remove or comment this line
-                    // video.muted = true;
-                    video.play().catch(e => console.error("autoplay blocked", e));
+                    video.play().catch(e => console.error("HLS autoplay error", e));
                 });
-            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-                video.src = url;
-                video.play().catch(e => console.error(e));
+                hls.on(Hls.Events.ERROR, function(event, data) {
+                    console.error("HLS error, falling back to native", data);
+                    video.src = url;
+                    video.play().catch(e => console.error("Fallback error", e));
+                });
+                return;
             }
+
+            // 3) Generic (try native)
+            video.src = url;
+            video.play().catch(e => console.error("Generic play error", e));
         }
 
         function togglePause() {
@@ -41,11 +54,7 @@
                 return true;
             }
         }
-
-        function isPaused() {
-            return video.paused;
-        }
-
+        function isPaused() { return video.paused; }
         function setVolume(vol) { video.volume = Math.min(1, Math.max(0, vol)); }
         function toggleMute() { video.muted = !video.muted; }
     </script>

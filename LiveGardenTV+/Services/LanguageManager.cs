@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -34,7 +34,7 @@ namespace LiveGardenTVPlus.Services
             }
 
             var lines = File.ReadAllLines(path);
-            var dict = new Dictionary<string, string>(); // <--- dichiarato qui
+            var dict = new Dictionary<string, string>();
             foreach (string line in lines)
             {
                 string trimmed = line.Trim();
@@ -47,7 +47,7 @@ namespace LiveGardenTVPlus.Services
                     dict[key] = value;
                 }
             }
-            _dict = dict; // <--- ora _dict esiste (dichiarato a livello di classe)
+            _dict = dict;
             TranslationHelper.ResetCache();
             LanguageChanged?.Invoke();
         }

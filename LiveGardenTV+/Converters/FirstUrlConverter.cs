@@ -1,15 +1,18 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
+using System.Linq;
 using System.Windows.Data;
-using System.Windows.Media;
 
 namespace LiveGardenTVPlus.Converters
 {
-    public class BoolToStarColorConverter : IValueConverter
+    public class FirstUrlConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            return (value is bool b && b) ? Brushes.Gold : Brushes.Gray;
+            if (value is List<string> urls && urls != null && urls.Count > 0)
+                return urls.First();
+            return string.Empty;
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

@@ -1,4 +1,4 @@
-using LiveGardenTVPlus.Models;
+﻿using LiveGardenTVPlus.Models;
 using Newtonsoft.Json;
 using System.IO;
 using System.Diagnostics;

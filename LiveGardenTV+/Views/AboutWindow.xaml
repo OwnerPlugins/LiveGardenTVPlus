@@ -16,7 +16,7 @@
             <Image gif:AnimationBehavior.SourceUri="pack://application:,,,/Themes/avatar.gif" 
                    Width="80" Height="80" Margin="0,10,0,0" Source="/Themes/avatar.gif" />
             <TextBlock Text="TVGarden+" FontSize="28" FontWeight="Bold" Margin="0,10,0,0" />
-            <TextBlock x:Name="VersionText" Text="Version 1.5" FontSize="14" Foreground="Gray" HorizontalAlignment="Center" />
+            <TextBlock x:Name="VersionText" Text="Version 1.6" FontSize="14" Foreground="Gray" HorizontalAlignment="Center" />
         </StackPanel>
 
         <StackPanel Grid.Column="1">

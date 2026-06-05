@@ -13,6 +13,83 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 
 ## Changelog
 
+
+### 🆕 New Features & Improvements – Version 1.6
+
+### Playlist Editor (`PlaylistEditorWindow`)
+
+- **Full channel view** in an editable `DataGrid` with columns:  
+  `Name`, `URL (primary)`, `Group`, `Logo`, `TvgId`, `Favorite`, `Country`, `GeoBlocked`, `Nanoid`, `Languages`, `Youtube URLs`, `Stream URLs`, `Status`.
+- **Inline editing** of all fields (except read‑only columns like `Languages` and `URLs` which display concatenated lists).
+- **Group management**:
+  - `Add Group` – assigns a new group to all channels without a group.
+  - `Rename Group` – renames the group of the selected channel (and all channels in that group).
+  - `Delete Group` – deletes all channels belonging to the selected group.
+- **URL check**:
+  - Tests all URLs in `stream_urls` and `youtube_urls`.
+  - Displays status in the `Status` column (e.g. `2/3 OK`, `No URLs`, `FAIL`).
+  - Shows a progress bar and completion message.
+- **Advanced filters** (above the DataGrid):
+  - Filters for every column (text, checkboxes) with placeholders and tooltips.
+  - `Apply Filter` and `Clear Filter` buttons.
+  - Dynamic counter `(n / total)` of currently visible channels.
+  - Visual border with the title `FILTERS`.
+- **Selective export**:
+  - `Export OK` – exports only channels with `OK` status to an M3U file.
+  - `Export Failed` – exports only channels with `FAIL` status to an M3U file.
+  - `Export Filtered M3U` – exports the currently filtered channels to an M3U file.
+  - `Export Filtered JSON` – exports the currently filtered channels to a JSON file (full format).
+  - `Export JSON` – exports the entire playlist to a JSON file (all fields).
+  - `Import JSON` – loads a playlist from a JSON file (replaces current data).
+- **Save**:
+  - `Save As M3U` – saves the current playlist (after edits) as an M3U file (standard fields only).
+- **Close** – button to exit the editor.
+
+### 📄 JSON format example (import/export)
+
+```json
+[
+  {
+    "nanoid": "A7FjWEoxfZfQRg",
+    "name": "BBC News Europe",
+    "stream_urls": [
+      "https://aegis-cloudfront-1.tubi.video/bb1fc6ad-9948-42ea-aaf3-20acfcdeecac/playlist.m3u8",
+      "https://amg00793-amg00793c6-firetv-us-4067.playouts.now.amagi.tv/playlist.m3u8",
+      "https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8",
+      "https://pb-zjy36qhp8e8cz.akamaized.net/BBC_Earth_US.m3u8"
+    ],
+    "youtube_urls": [],
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": true,
+    "logo_url": "https://example.com/logos/bbc.png",
+    "group": "International",
+    "tvg_id": "bbc.world",
+    "isFavorite": false
+  },
+  {
+    "nanoid": "il2nOFg4MhHcyB",
+    "name": "BBC Four",
+    "stream_urls": [
+      "https://streamer.nexyl.uk/48559ccd-6400-457d-8acc-06b9e24c2ed8.m3u8"
+    ],
+    "youtube_urls": [],
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": true,
+    "logo_url": "https://example.com/logos/bbc.png",
+    "group": "International",
+    "tvg_id": "bbc.world",
+    "isFavorite": false
+  }
+]
+```
+
+
 ### 🆕 New Features & Improvements – Version 1.5
 
 - **Playlist Editor** – Built‑in editor to modify channel names, URLs, logos, groups, tvg‑id, and favorites. Save changes as a new M3U file.
