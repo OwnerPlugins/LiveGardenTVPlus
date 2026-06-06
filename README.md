@@ -74,6 +74,17 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
       <img src="Screenshots/preview10.jpg?sanitize=true&raw=true" title="preview10" width="400"/><br/>
       <b>Preview 10</b>
     </td>
+    <td align="center">
+      <img src="Screenshots/preview11.jpg?sanitize=true&raw=true" title="preview11" width="400"/><br/>
+      <b>Preview 11</b>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img src="Screenshots/preview12.jpg?sanitize=true&raw=true" title="preview12" width="400"/><br/>
+      <b>Preview 12</b>
+    </td>
   </tr>
 
 </table>
