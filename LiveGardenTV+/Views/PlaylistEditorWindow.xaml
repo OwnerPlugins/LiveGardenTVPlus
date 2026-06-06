@@ -21,7 +21,7 @@
                     <StackPanel>
                         <TextBlock Text="Playlist &amp; Groups" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
                         <WrapPanel>
-                            <Button x:Name="NewPlaylistBtn" Content="New" Width="70" Margin="2,0" Click="NewPlaylistBtn_Click"/>
+                            <Button x:Name="NewPlaylistBtn" Content="New" Width="140" Margin="2,0" Click="NewPlaylistBtn_Click"/>
                             <Button x:Name="AddGroupBtn" Content="Add Group" Width="140" Margin="2,0" Click="AddGroupBtn_Click"/>
                             <Button x:Name="RenameGroupBtn" Content="Rename" Width="140" Margin="2,0" Click="RenameGroupBtn_Click"/>
                             <Button x:Name="DeleteGroupBtn" Content="Delete" Width="140" Margin="2,0" Click="DeleteGroupBtn_Click"/>
@@ -103,15 +103,15 @@
                         <StackPanel>
                             <TextBlock Text="Channel Info" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
                             <WrapPanel>
-                                <StackPanel Width="140" Margin="2">
+                                <StackPanel Width="150" Margin="2">
                                     <TextBlock Text="Name" FontSize="11" Foreground="Gray"/>
                                     <TextBox x:Name="FilterName" material:HintAssist.Hint="e.g., Rai" ToolTip="Filter by channel name"/>
                                 </StackPanel>
-                                <StackPanel Width="190" Margin="2">
+                                <StackPanel Width="150" Margin="2">
                                     <TextBlock Text="URL" FontSize="11" Foreground="Gray"/>
                                     <TextBox x:Name="FilterUrl" material:HintAssist.Hint="contains text"/>
                                 </StackPanel>
-                                <StackPanel Width="120" Margin="2">
+                                <StackPanel Width="150" Margin="2">
                                     <TextBlock Text="Group" FontSize="11" Foreground="Gray"/>
                                     <TextBox x:Name="FilterGroup"/>
                                 </StackPanel>
@@ -132,7 +132,7 @@
                                     <TextBlock Text="TvgId" FontSize="11" Foreground="Gray"/>
                                     <TextBox x:Name="FilterTvgId"/>
                                 </StackPanel>
-                                <StackPanel Width="100" Margin="2" VerticalAlignment="Center">
+                                <StackPanel Width="150" Margin="2" VerticalAlignment="Center">
                                     <CheckBox x:Name="FilterFavorite" Content="Favorite" VerticalAlignment="Center" Margin="0,15,0,0"/>
                                 </StackPanel>
                             </WrapPanel>
@@ -144,11 +144,11 @@
                         <StackPanel>
                             <TextBlock Text="Geo &amp; Country" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
                             <WrapPanel>
-                                <StackPanel Width="100" Margin="2">
+                                <StackPanel Width="120" Margin="2">
                                     <TextBlock Text="Country" FontSize="11" Foreground="Gray"/>
                                     <TextBox x:Name="FilterCountry"/>
                                 </StackPanel>
-                                <StackPanel Width="100" Margin="2" VerticalAlignment="Center">
+                                <StackPanel Width="120" Margin="2" VerticalAlignment="Center">
                                     <CheckBox x:Name="FilterGeoBlocked" Content="GeoBlocked" Margin="0,15,0,0"/>
                                 </StackPanel>
                             </WrapPanel>
@@ -197,8 +197,8 @@
 
                 <!-- Action buttons for filters (Apply / Clear) -->
                 <WrapPanel HorizontalAlignment="Center" Margin="0,10,0,0">
-                    <Button x:Name="ApplyFilterBtn" Content="Apply" Width="100" Margin="5,0" Click="ApplyFilterBtn_Click" ToolTip="Apply current filters"/>
-                    <Button x:Name="ClearFilterBtn" Content="Clear" Width="100" Margin="5,0" Click="ClearFilterBtn_Click" ToolTip="Clear all filters and show all channels"/>
+                    <Button x:Name="ApplyFilterBtn" Content="Apply" Width="150" Margin="5,0" Click="ApplyFilterBtn_Click" ToolTip="Apply current filters"/>
+                    <Button x:Name="ClearFilterBtn" Content="Clear" Width="150" Margin="5,0" Click="ClearFilterBtn_Click" ToolTip="Clear all filters and show all channels"/>
                 </WrapPanel>
             </StackPanel>
         </Border>
