@@ -6,86 +6,207 @@
         WindowStartupLocation="CenterOwner">
     <Grid Margin="10">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>   <!-- Toolbar -->
-            <RowDefinition Height="Auto"/>   <!-- Filtri -->
-            <RowDefinition Height="*"/>      <!-- DataGrid -->
-            <RowDefinition Height="Auto"/>   <!-- Bottom buttons -->
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <!-- Toolbar - pulsanti raggruppati -->
-        <Border Grid.Row="0" BorderBrush="Gray" BorderThickness="1" HorizontalAlignment="Center" Padding="5" Margin="0,0,0,5" CornerRadius="4">
-            <WrapPanel>
-                <!-- GROUP 1: Playlist & Gruppi -->
-                <StackPanel Orientation="Horizontal" Margin="0,0,10,0">
-                    <Button x:Name="NewPlaylistBtn" Content="New Playlist" Width="150" Margin="5,0,5,0" Click="NewPlaylistBtn_Click"/>
-                    <Button x:Name="AddGroupBtn" Content="Add Group" Width="150" Margin="0,0,5,0" Click="AddGroupBtn_Click"/>
-                    <Button x:Name="RenameGroupBtn" Content="Rename Group" Width="150" Margin="0,0,5,0" Click="RenameGroupBtn_Click"/>
-                    <Button x:Name="DeleteGroupBtn" Content="Delete Group" Width="150" Margin="0,0,5,0" Click="DeleteGroupBtn_Click"/>
-                </StackPanel>
-                <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="5,0" />
+        <!-- Outer border for the entire toolbar area -->
+        <Border Grid.Row="0" BorderBrush="Gray" BorderThickness="1" CornerRadius="4" Padding="5" Margin="0,0,0,5" Background="{DynamicResource ControlBackgroundBrush}">
+            <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center">
 
-                <!-- GROUP 2: URL Check -->
-                <StackPanel Orientation="Horizontal" Margin="10,0,10,0">
-                    <Button x:Name="CheckUrlsBtn" Content="Check URLs" Width="150" Margin="5,0,5,0" Click="CheckUrlsBtn_Click"/>
-                    <Button x:Name="SaveStatusBtn" Content="Save Status" Width="150" Margin="0,0,5,0" Click="SaveStatusBtn_Click"/>
-                    <Button x:Name="ExportOkBtn" Content="Export OK" Width="150" Margin="0,0,5,0" Click="ExportOkBtn_Click"/>
-                    <Button x:Name="ExportFailedBtn" Content="Export Failed" Width="150" Margin="0,0,5,0" Click="ExportFailedBtn_Click"/>
-                </StackPanel>
+                <!-- Group 1: Playlist & Groups -->
+                <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
+                    <StackPanel>
+                        <TextBlock Text="Playlist &amp; Groups" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                        <WrapPanel>
+                            <Button x:Name="NewPlaylistBtn" Content="New" Width="70" Margin="2,0" Click="NewPlaylistBtn_Click"/>
+                            <Button x:Name="AddGroupBtn" Content="Add Group" Width="140" Margin="2,0" Click="AddGroupBtn_Click"/>
+                            <Button x:Name="RenameGroupBtn" Content="Rename" Width="140" Margin="2,0" Click="RenameGroupBtn_Click"/>
+                            <Button x:Name="DeleteGroupBtn" Content="Delete" Width="140" Margin="2,0" Click="DeleteGroupBtn_Click"/>
+                        </WrapPanel>
+                    </StackPanel>
+                </Border>
 
-                <!-- GROUP 3: Import/Export JSON -->
-                <StackPanel Orientation="Horizontal" Margin="0,0,10,0">
-                    <Button x:Name="ImportJsonBtn" Content="Import JSON" Width="150" Margin="5,0,5,0" Click="ImportJsonBtn_Click"/>
-                    <Button x:Name="ExportJsonBtn" Content="Export JSON" Width="150" Margin="0,0,5,0" Click="ExportJsonBtn_Click"/>
-                </StackPanel>
-                <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="5,0" />
-                
-                <!-- GROUP 4: Export Filtered -->
-                <StackPanel Orientation="Horizontal" Margin="10,0,10,0">
-                    <Button x:Name="ExportFilteredM3uBtn" Content="Export Filtered M3U" Width="150" Margin="0,0,5,0" Click="ExportFilteredM3uBtn_Click"/>
-                    <Button x:Name="ExportFilteredJsonBtn" Content="Export Filtered JSON" Width="150" Margin="0,0,5,0" Click="ExportFilteredJsonBtn_Click"/>
-                </StackPanel>
-                <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="5,0" />
-                
-                <!-- GROUP 5: EPG Enrich -->
-                <Button x:Name="EnrichWithEpgBtn" Content="Enrich with EPG" Width="150" Margin="10,0,5,0" Click="EnrichWithEpgBtn_Click"/>
-                <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="5,0" />
-                
-                <StackPanel Orientation="Horizontal" Margin="10,0,10,0">
-                    <Button x:Name="SaveBtn" Content="Save As..." Width="150" Margin="0,0,5,0" Click="SaveBtn_Click"/>
-                    <Button x:Name="CloseBtn" Content="Close" Width="150" Click="CloseBtn_Click"/>
-                </StackPanel>
+                <!-- Group 2: URL Check & Export OK/FAIL -->
+                <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
+                    <StackPanel>
+                        <TextBlock Text="URL Check" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                        <WrapPanel>
+                            <Button x:Name="CheckUrlsBtn" Content="Check URLs" Width="140" Margin="2,0" Click="CheckUrlsBtn_Click"/>
+                            <Button x:Name="SaveStatusBtn" Content="Save Status" Width="140" Margin="2,0" Click="SaveStatusBtn_Click"/>
+                            <Button x:Name="ExportOkBtn" Content="Export OK" Width="140" Margin="2,0" Click="ExportOkBtn_Click"/>
+                            <Button x:Name="ExportFailedBtn" Content="Export Failed" Width="140" Margin="2,0" Click="ExportFailedBtn_Click"/>
+                        </WrapPanel>
+                    </StackPanel>
+                </Border>
+
+                <!-- Group 3: JSON -->
+                <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
+                    <StackPanel>
+                        <TextBlock Text="JSON" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                        <WrapPanel>
+                            <Button x:Name="ImportJsonBtn" Content="Import" Width="140" Margin="2,0" Click="ImportJsonBtn_Click"/>
+                            <Button x:Name="ExportJsonBtn" Content="Export" Width="140" Margin="2,0" Click="ExportJsonBtn_Click"/>
+                        </WrapPanel>
+                    </StackPanel>
+                </Border>
+
+                <!-- Group 4: Filtered Export -->
+                <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
+                    <StackPanel>
+                        <TextBlock Text="Filtered Export" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                        <WrapPanel>
+                            <Button x:Name="ExportFilteredM3uBtn" Content="M3U" Width="140" Margin="2,0" Click="ExportFilteredM3uBtn_Click"/>
+                            <Button x:Name="ExportFilteredJsonBtn" Content="JSON" Width="140" Margin="2,0" Click="ExportFilteredJsonBtn_Click"/>
+                        </WrapPanel>
+                    </StackPanel>
+                </Border>
+
+                <!-- Group 5: EPG Tools -->
+                <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
+                    <StackPanel>
+                        <TextBlock Text="EPG Tools" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                        <WrapPanel>
+                            <Button x:Name="EnrichWithEpgBtn" Content="Enrich" Width="140" Margin="2,0" Click="EnrichWithEpgBtn_Click"/>
+                        </WrapPanel>
+                    </StackPanel>
+                </Border>
+
+                <!-- Group 6: Actions (Save & Close) -->
+                <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
+                    <StackPanel>
+                        <TextBlock Text="Actions" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                        <WrapPanel>
+                            <Button x:Name="SaveBtn" Content="Save As..." Width="140" Margin="2,0" Click="SaveBtn_Click"/>
+                            <Button x:Name="CloseBtn" Content="Close" Width="140" Margin="2,0" Click="CloseBtn_Click"/>
+                        </WrapPanel>
+                    </StackPanel>
+                </Border>
+
             </WrapPanel>
         </Border>
 
-        <!-- Filtri (invariati) -->
-        <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="1" Padding="5" Margin="0,5,0,5" CornerRadius="4">
+        <!-- Filters -->
+        <!-- Filters with groups and labels above each field -->
+        <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="1" CornerRadius="4" Padding="5" Margin="0,5,0,5" Background="{DynamicResource ControlBackgroundBrush}">
             <StackPanel>
-                <TextBlock x:Name="FilterLabel" Text="FILTERS" FontWeight="Bold" FontSize="14" Margin="0,0,0,5" Foreground="DodgerBlue"/>
-                <WrapPanel>
-                    <TextBox x:Name="FilterName" Width="150" Margin="2" material:HintAssist.Hint="Name" ToolTip="Filter by channel name"/>
-                    <TextBox x:Name="FilterUrl" Width="200" Margin="2" material:HintAssist.Hint="URL" ToolTip="Filter by URL"/>
-                    <TextBox x:Name="FilterGroup" Width="120" Margin="2" material:HintAssist.Hint="Group"/>
-                    <TextBox x:Name="FilterLogo" Width="150" Margin="2" material:HintAssist.Hint="Logo URL"/>
-                    <TextBox x:Name="FilterTvgId" Width="150" Margin="2" material:HintAssist.Hint="TvgId"/>
-                    <CheckBox x:Name="FilterFavorite" VerticalAlignment="Center" Margin="2" Content="Favorite"/>
-                    <TextBox x:Name="FilterCountry" Width="150" Margin="2" material:HintAssist.Hint="Country"/>
-                    <CheckBox x:Name="FilterGeoBlocked" VerticalAlignment="Center" Margin="2" Content="GeoBlocked"/>
-                    <TextBox x:Name="FilterNanoid" Width="150" Margin="2" material:HintAssist.Hint="Nanoid"/>
-                    <TextBox x:Name="FilterLanguages" Width="150" Margin="2" material:HintAssist.Hint="Languages (comma)"/>
-                    <TextBox x:Name="FilterYoutube" Width="150" Margin="2" material:HintAssist.Hint="Youtube URL"/>
-                    <TextBox x:Name="FilterStream" Width="150" Margin="2" material:HintAssist.Hint="Stream URL"/>
-                    <TextBox x:Name="FilterStatus" Width="150" Margin="2" material:HintAssist.Hint="Status"/>
-                    <Button x:Name="ApplyFilterBtn" Content="Apply" Width="150" Margin="2" Click="ApplyFilterBtn_Click"/>
-                    <Button x:Name="ClearFilterBtn" Content="Clear" Width="150" Margin="2" Click="ClearFilterBtn_Click"/>
+                <!-- Centered FILTERS title -->
+                <TextBlock x:Name="FilterLabel" Text="FILTERS" FontWeight="Bold" FontSize="14" Foreground="DodgerBlue" HorizontalAlignment="Center" Margin="0,0,0,8"/>
+
+                <!-- WrapPanel containing all filter groups -->
+                <WrapPanel HorizontalAlignment="Center">
+
+                    <!-- Group: Channel Info -->
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
+                        <StackPanel>
+                            <TextBlock Text="Channel Info" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                            <WrapPanel>
+                                <StackPanel Width="140" Margin="2">
+                                    <TextBlock Text="Name" FontSize="11" Foreground="Gray"/>
+                                    <TextBox x:Name="FilterName" material:HintAssist.Hint="e.g., Rai" ToolTip="Filter by channel name"/>
+                                </StackPanel>
+                                <StackPanel Width="190" Margin="2">
+                                    <TextBlock Text="URL" FontSize="11" Foreground="Gray"/>
+                                    <TextBox x:Name="FilterUrl" material:HintAssist.Hint="contains text"/>
+                                </StackPanel>
+                                <StackPanel Width="120" Margin="2">
+                                    <TextBlock Text="Group" FontSize="11" Foreground="Gray"/>
+                                    <TextBox x:Name="FilterGroup"/>
+                                </StackPanel>
+                                <StackPanel Width="150" Margin="2">
+                                    <TextBlock Text="Logo URL" FontSize="11" Foreground="Gray"/>
+                                    <TextBox x:Name="FilterLogo"/>
+                                </StackPanel>
+                            </WrapPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Group: EPG & Favorites -->
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
+                        <StackPanel>
+                            <TextBlock Text="EPG &amp; Favorites" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                            <WrapPanel>
+                                <StackPanel Width="150" Margin="2">
+                                    <TextBlock Text="TvgId" FontSize="11" Foreground="Gray"/>
+                                    <TextBox x:Name="FilterTvgId"/>
+                                </StackPanel>
+                                <StackPanel Width="100" Margin="2" VerticalAlignment="Center">
+                                    <CheckBox x:Name="FilterFavorite" Content="Favorite" VerticalAlignment="Center" Margin="0,15,0,0"/>
+                                </StackPanel>
+                            </WrapPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Group: Geo & Country -->
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
+                        <StackPanel>
+                            <TextBlock Text="Geo &amp; Country" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                            <WrapPanel>
+                                <StackPanel Width="100" Margin="2">
+                                    <TextBlock Text="Country" FontSize="11" Foreground="Gray"/>
+                                    <TextBox x:Name="FilterCountry"/>
+                                </StackPanel>
+                                <StackPanel Width="100" Margin="2" VerticalAlignment="Center">
+                                    <CheckBox x:Name="FilterGeoBlocked" Content="GeoBlocked" Margin="0,15,0,0"/>
+                                </StackPanel>
+                            </WrapPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Group: Advanced Identifiers -->
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
+                        <StackPanel>
+                            <TextBlock Text="Advanced IDs" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                            <WrapPanel>
+                                <StackPanel Width="150" Margin="2">
+                                    <TextBlock Text="Nanoid" FontSize="11" Foreground="Gray"/>
+                                    <TextBox x:Name="FilterNanoid"/>
+                                </StackPanel>
+                                <StackPanel Width="150" Margin="2">
+                                    <TextBlock Text="Languages (comma)" FontSize="11" Foreground="Gray"/>
+                                    <TextBox x:Name="FilterLanguages"/>
+                                </StackPanel>
+                            </WrapPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Group: URLs & Status -->
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
+                        <StackPanel>
+                            <TextBlock Text="URLs &amp; Status" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                            <WrapPanel>
+                                <StackPanel Width="150" Margin="2">
+                                    <TextBlock Text="Youtube URL" FontSize="11" Foreground="Gray"/>
+                                    <TextBox x:Name="FilterYoutube"/>
+                                </StackPanel>
+                                <StackPanel Width="150" Margin="2">
+                                    <TextBlock Text="Stream URL" FontSize="11" Foreground="Gray"/>
+                                    <TextBox x:Name="FilterStream"/>
+                                </StackPanel>
+                                <StackPanel Width="150" Margin="2">
+                                    <TextBlock Text="Status" FontSize="11" Foreground="Gray"/>
+                                    <TextBox x:Name="FilterStatus"/>
+                                </StackPanel>
+                            </WrapPanel>
+                        </StackPanel>
+                    </Border>
+
+                </WrapPanel>
+
+                <!-- Action buttons for filters (Apply / Clear) -->
+                <WrapPanel HorizontalAlignment="Center" Margin="0,10,0,0">
+                    <Button x:Name="ApplyFilterBtn" Content="Apply" Width="100" Margin="5,0" Click="ApplyFilterBtn_Click" ToolTip="Apply current filters"/>
+                    <Button x:Name="ClearFilterBtn" Content="Clear" Width="100" Margin="5,0" Click="ClearFilterBtn_Click" ToolTip="Clear all filters and show all channels"/>
                 </WrapPanel>
             </StackPanel>
         </Border>
 
-        <!-- DataGrid (invariato) -->
+        <!-- DataGrid -->
         <DataGrid x:Name="ChannelsGrid" Grid.Row="2" AutoGenerateColumns="False" 
                   CanUserAddRows="False" CanUserDeleteRows="False"
                   SelectionMode="Extended" SelectionUnit="FullRow" RowHeight="32">
-            <!-- Colonne identiche a prima -->
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Name" Binding="{Binding name}" Width="2*"/>
                 <DataGridTemplateColumn Header="URL (primary)" Width="3*">
@@ -114,12 +235,11 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <!-- Bottom bar: progress, contatori, Save, Close -->
+        <!-- Bottom bar -->
         <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
-            <ProgressBar x:Name="CheckProgressBar" Height="20" Width="200" Margin="5,0" Visibility="Collapsed" IsIndeterminate="True"/>        
+            <ProgressBar x:Name="CheckProgressBar" Height="20" Width="200" Margin="5,0" Visibility="Collapsed" IsIndeterminate="True"/>
             <TextBlock x:Name="FilteredCountText" VerticalAlignment="Center" Margin="10,0,0,0" FontWeight="Bold" Foreground="DodgerBlue" ToolTip="Number of channels shown after filtering"/>
             <TextBlock x:Name="SelectedCountText" Margin="15,0,0,0" VerticalAlignment="Center" FontWeight="Bold" Foreground="Green" ToolTip="Number of selected channels"/>
-            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="10,0" />
         </StackPanel>
     </Grid>
 </Window>
