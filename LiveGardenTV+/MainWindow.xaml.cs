@@ -32,6 +32,9 @@ namespace LiveGardenTVPlus
         private string _drilledGroupName = "";
         private string _currentChannelName = "";
         
+        private System.Windows.Threading.DispatcherTimer _timeshiftTimer;
+        private bool _isLiveMode = true;
+                
         private EpgService _epgService = new EpgService();
         private bool _playerReady = false;
 
@@ -76,16 +79,24 @@ namespace LiveGardenTVPlus
                 var prefsLocal = UserPreferences.Load();
                 var slider = BufferSlider;
                 var text = BufferValueText;
+                if (!string.IsNullOrEmpty(prefsLocal.EpgUrl))
+                {
+                    await _epgService.LoadEpgAsync(prefsLocal.EpgUrl);
+                }
                 if (slider != null && text != null)
                 {
                     slider.Value = prefsLocal.BufferSeconds;
                     text.Text = $"{prefsLocal.BufferSeconds}s";
                 }
             };
+            _timeshiftTimer = new System.Windows.Threading.DispatcherTimer();
+            _timeshiftTimer.Interval = TimeSpan.FromSeconds(1);
+            _timeshiftTimer.Tick += OnTimeshiftTimerTick;
         }
 
         protected override void OnClosing(System.ComponentModel.CancelEventArgs e)
         {
+            _timeshiftTimer?.Stop();
             if (_allChannelsOriginal != null)
                 FavoritesManager.SaveFavorites(_allChannelsOriginal);
             base.OnClosing(e);
@@ -324,7 +335,7 @@ namespace LiveGardenTVPlus
             // --- EPG update ---
             if (e.NewValue is Channel ch)
             {
-                var program = _epgService.GetCurrentProgram(ch.TvgId, DateTime.UtcNow);
+                var program = _epgService.GetCurrentProgram(ch.Name, ch.TvgId, DateTime.UtcNow);
                 if (program != null)
                 {
                     var startLocal = program.Start.ToLocalTime();
@@ -357,6 +368,7 @@ namespace LiveGardenTVPlus
                     WebPlayer.CoreWebView2.ExecuteScriptAsync($"if(window.hls) window.hls.config.maxBufferLength = {prefs.BufferSeconds};");
                     WebPlayer.CoreWebView2.ExecuteScriptAsync("video.playbackRate = 1;");
                     _playerReady = true;
+                    _timeshiftTimer.Start();
                 };
             }
             else
@@ -508,20 +520,6 @@ namespace LiveGardenTVPlus
             {
                 ShowLoading(true);
                 StatusTextBlock.Text = LanguageManager.GetTranslation("Downloading playlist...");
-                /*
-                using (var client = new HttpClient())
-                {
-                    client.Timeout = TimeSpan.FromSeconds(30);
-                    var content = await client.GetStringAsync(url);
-                    if (string.IsNullOrWhiteSpace(content))
-                        throw new Exception("Empty response from server.");
-
-                    var tempFile = Path.GetTempFileName();
-                    await File.WriteAllTextAsync(tempFile, content);
-                    var channels = M3uParser.Parse(tempFile);
-                    File.Delete(tempFile);
-                */
-
                 using (var client = new HttpClient())
                 {
                     client.Timeout = TimeSpan.FromSeconds(60);
@@ -775,7 +773,7 @@ namespace LiveGardenTVPlus
         private void EditPlaylistBtn_Click(object sender, RoutedEventArgs e)
         {
             var channels = _allChannelsOriginal ?? new List<Channel>();
-            var editor = new Views.PlaylistEditorWindow(channels);
+            var editor = new Views.PlaylistEditorWindow(channels, _epgService);  // pass the EPG service
             editor.Owner = this;
             editor.ShowDialog();
 
@@ -877,6 +875,20 @@ namespace LiveGardenTVPlus
             SearchBox.Focus();
         }
 
+        private void EpgBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (_allChannelsOriginal == null || _allChannelsOriginal.Count == 0)
+            {
+                MessageBox.Show(LanguageManager.GetTranslation("Load a playlist first."), 
+                                LanguageManager.GetTranslation("Info"), 
+                                MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+            var epgWindow = new Views.EpgWindow(_epgService, _allChannelsOriginal);
+            epgWindow.Owner = this;
+            epgWindow.ShowDialog();
+        }
+
         private void AboutBtn_Click(object sender, RoutedEventArgs e)
         {
             var about = new LiveGardenTVPlus.Views.AboutWindow();
@@ -891,6 +903,68 @@ namespace LiveGardenTVPlus
                 var files = (string[])e.Data.GetData(DataFormats.FileDrop);
                 if (files.Length > 0 && (Path.GetExtension(files[0]).ToLower() == ".m3u" || Path.GetExtension(files[0]).ToLower() == ".m3u8"))
                     LoadPlaylist(files[0]);
+            }
+        }
+
+        private async void OnTimeshiftTimerTick(object sender, EventArgs e)
+        {
+            if (WebPlayer?.CoreWebView2 == null || !_playerReady) return;
+            try
+            {
+                var check = await WebPlayer.CoreWebView2.ExecuteScriptAsync("typeof getCurrentTime === 'function'");
+                if (check != "true") return;
+
+                var currentTimeStr = await WebPlayer.CoreWebView2.ExecuteScriptAsync("getCurrentTime()");
+                var bufferInfoStr = await WebPlayer.CoreWebView2.ExecuteScriptAsync("getBufferInfo()");
+
+                if (string.IsNullOrEmpty(currentTimeStr) || string.IsNullOrEmpty(bufferInfoStr)) return;
+
+                double current = double.Parse(currentTimeStr.Trim('"'), System.Globalization.CultureInfo.InvariantCulture);
+                dynamic buffer = Newtonsoft.Json.JsonConvert.DeserializeObject(bufferInfoStr);
+                double bufStart = (double)buffer.start;
+                double bufEnd = (double)buffer.end;
+                
+                await Dispatcher.InvokeAsync(() =>
+                {
+                    if (bufEnd > bufStart && bufEnd > 0)
+                    {
+                        TimeshiftSlider.Visibility = Visibility.Visible;
+                        LiveBtn.Visibility = Visibility.Visible;
+                        TimeshiftSlider.Minimum = bufStart;
+                        TimeshiftSlider.Maximum = bufEnd;
+                        TimeshiftSlider.Value = current;
+                        double liveThreshold = Math.Max(0, bufEnd - 3);
+                        _isLiveMode = (current >= liveThreshold);
+                    }
+                    else
+                    {
+                        TimeshiftSlider.Visibility = Visibility.Collapsed;
+                        LiveBtn.Visibility = Visibility.Collapsed;
+                    }
+                });
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Timeshift error: {ex.Message}");
+            }
+        }
+
+        private async void TimeshiftSlider_PreviewMouseLeftButtonUp(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            if (WebPlayer?.CoreWebView2 != null)
+            {
+                double newTime = TimeshiftSlider.Value;
+                await WebPlayer.CoreWebView2.ExecuteScriptAsync($"seekToTime({newTime})");
+                _isLiveMode = false;
+            }
+        }
+
+        private async void LiveBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (WebPlayer?.CoreWebView2 != null)
+            {
+                await WebPlayer.CoreWebView2.ExecuteScriptAsync("seekToLive()");
+                _isLiveMode = true;
             }
         }
 
@@ -912,28 +986,29 @@ namespace LiveGardenTVPlus
         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
         • Language – Change UI language (dynamic translation)
         • Buffer – Adjust HLS buffer (1–10 seconds)
-        • Online Playlist – Select a pre‑defined M3U from GitHub
-        • Refresh from GitHub – Update the list of available playlists
-        • Save – Save all settings and load the selected playlist
+        • Online Playlist – Select a pre‑defined M3U from GitHub (Refresh from GitHub)
+        • EPG Source – Choose a XMLTV file from epgshare01 or enter custom URL
+        • Save – Saves all settings (no full restart, just applies changes)
 
-        📺 CHANNEL VIEW
+        📺 CHANNEL VIEW & EDITOR
         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
         • EPG (current program info) and channel logos (tvg-logo)
-        • Resizable sidebar, improved M3U parser, and update system
-        • Click a channel to start playback
-        • Click a group name → shows only channels of that group
-        • '← Back to all groups' returns to full list
-        • Search box → flat list of results (clear text to return)
-        • Favorites – right‑click or use the star icon; toggle 'Favorites only'
+        • Resizable sidebar, improved M3U parser, automatic update system
+        • Click a channel to start playback; click a group name → shows only that group
+        • Search box → flat list of results; '← Back to all groups' returns to full list
+        • Favorites – star icon; toggle 'Favorites only'
+        • Playlist Editor – edit channels, groups, check URLs, import/export JSON
+        • Enrich with EPG – automatically adds missing tvg-id tags using fuzzy matching
 
         🎮 PLAYER CONTROLS
         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        • Speed buttons: 0.5×, 1×, 2×
-        • Buffer slider: adjust HLS buffer (1–10 seconds)
+        • Speed buttons: 0.5x, 1x, 2x
+        • Buffer slider: adjust HLS buffer (1-10 seconds)
         • PIP – Picture‑in‑Picture mode
         • Fullscreen – hides all UI (click again or press ESC to restore)
         • Hide List – collapse the channel sidebar
-        • Pause – Pause/Resume live stream (timeshift)
+        • Timeshift – pause live stream; drag slider to seek back; press 'Live' to return to live
+        • EPG Guide – click EPG button to see full TV guide; double‑click any program for details
 
         🔄 UPDATER
         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

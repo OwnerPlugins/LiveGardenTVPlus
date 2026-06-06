@@ -11,8 +11,47 @@
 **LiveGardenTVPlus** is a desktop IPTV player for Windows (WPF / .NET 10) that plays HLS streams (m3u8) using **WebView2** and **hls.js**.  
 It loads local or online M3U playlists, organizes channels by groups, and provides a modern, themeable interface.
 
+
+---
 ## Changelog
 
+
+### 🆕 New Features & Improvements – Version 1.7
+
+### 📺 EPG (Electronic Program Guide)
+- **Full TV Guide Window** – Dedicated EPG window accessible from the main toolbar.
+- **Program List** – Select a channel and view all programmes for the day (start/end time, title, description, category).
+- **Program Details** – Double‑click any programme (or use the "Details" button) to see the full description.
+- **Fuzzy Channel Matching** – Automatically matches M3U channels to XMLTV channels even when `tvg-id` is missing or differs (Levenshtein distance).
+- **Selectable EPG Source** – Choose from multiple XMLTV files (epgshare01) or enter a custom URL in Settings.
+- **XMLTV Support** – Parses `.xml` and `.gz` compressed files with timezone offset handling.
+- **Current Programme** – Status bar shows the current programme title and local time for the selected channel.
+- **Enrich M3U** – Editor button adds missing `tvg-id` tags to your playlist based on fuzzy matching.
+
+### ⏪ Timeshift (Live DVR)
+- **Pause / Resume** – Pause a live HLS stream and resume from the same point (circular buffer).
+- **Timeshift Slider** – Appears automatically when buffer is available; drag to seek backwards in the live stream.
+- **"Live" Button** – Instantly return to the most recent point of the live stream.
+- Works with HLS (`.m3u8`) and direct video files (`.mp4`, `.mkv`, `.ts`).
+
+### 🎨 Interface & Usability
+- **Channel Logos** – Logos (`tvg-logo`) are downloaded and shown next to each channel, with fallback icon.
+- **M3U8 Support** – Player correctly plays `.m3u8` (HLS) streams via HLS.js.
+- **Improved M3U Parser** – Skips unknown tags and extra comment lines, ensures all channels load.
+- **Resizable Sidebar** – Draggable `GridSplitter` between channel list and player.
+- **Larger UI Elements** – Logos 32x32, channel text 16px, status bar height 55px.
+- **Clickable Credits** – Links to `CORVOBOYS.ORG` and `LINUXSAT-SUPPORT.COM`.
+- **Dynamic Language Switching** – UI updates instantly (no restart required).
+- **Stable Streaming** – Fixed issues that caused playback to fail after EPG and logos were added.
+
+### 🐛 Bug Fixes
+- Fixed playlist URL not loading correctly on startup.
+- Fixed language persistence and UI refresh.
+- Fixed parser bug where channels with extra metadata lines were skipped.
+- Fixed thread safety issues in timeshift timer and EPG parsing.
+- Fixed settings dialog crashing on save (no more full restart).
+
+---
 
 ### 🆕 New Features & Improvements – Version 1.6
 
@@ -88,7 +127,7 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
   }
 ]
 ```
-
+---
 
 ### 🆕 New Features & Improvements – Version 1.5
 
@@ -117,7 +156,7 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 
 ---
 
-### 🆕 New Features & Improvements – Version 1.4
+## ✨ Features (Version 1.4
 
 - **Full EPG Support** – Electronic Program Guide now fully functional with timezone handling. Current programme info displayed in the status bar.
 - **Channel Logos** – Logos (`tvg-logo`) are downloaded and shown next to each channel, with a fallback icon if missing.
@@ -138,7 +177,7 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 
 ---
 
-### ✨ New Features & Improvements – Version 1.3
+## ✨ Features (Version 1.3
 
 - **Electronic Program Guide (EPG) support**  
   - EPG URL (`x-tvg-url`) is automatically extracted from the M3U playlist header.  
@@ -168,18 +207,13 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 
 ---
 
-# ✨ What's New in Version 1.2
+## ✨ Features (Version 1.2
 
 - **Auto‑update** – A new fix for "Update" and restarts the app after replacing files.
 
-## ⚠️ Known limitation – Language translation
-
-The application includes over 90 language files (`.lng`) and a language selector in `SettingsWindow`, but **the UI does not actually translate** at this moment. This feature is under active development and will be fixed in a future release.
-
 ---
 
-
-# ✨ What's New in Version 1.1
+## ✨ Features (Version 1.1
 
 - **Auto‑update** – A new "Update" button (toolbar or Help menu) checks for a newer version on GitHub.  
   If found, it downloads the ZIP, extracts it, and restarts the app after replacing files.
@@ -243,19 +277,25 @@ The executable will be in `bin/Release/net10.0-windows/`.
 LiveGardenTVPlus/
 ├── App.xaml / App.xaml.cs
 ├── MainWindow.xaml / MainWindow.xaml.cs
-├── Views/
-│   ├── SettingsWindow.xaml / .cs
-│   └── ColorPickerWindow.xaml / .cs
+├── Views/ logo, avatar.gif
+│   ├── SettingsWindow.xaml(.cs)
+│   ├── AboutWindow.xaml(.cs)
+│   ├── PlaylistEditorWindow.xaml(.cs)
+│   ├── ColorPickerWindow.xaml(.cs)
+│   └── XtreamLoginDialog.xaml(.cs)
 ├── Converters/
 │   ├── StringToVisibilityConverter.cs
-│   └── UrlToImageConverter.cs
+│   ├── UrlToImageConverter.cs
+│   ├── BoolToStarKindConverter.cs
+│   ├── BoolToStarColorConverter.cs
+│   └── FirstUrlConverter.cs
 ├── Services/
 │   ├── M3uParser.cs
+│   ├── LanguageManager.cs
+│   ├── TranslationHelper.cs
 │   ├── FavoritesManager.cs
 │   ├── UserPreferences.cs
 │   ├── ThemeManager.cs
-│   ├── LanguageManager.cs (translation not yet functional)
-│   ├── TranslationHelper.cs (currently ineffective)
 │   └── GitHubPlaylistFetcher.cs
 ├── Models/
 │   ├── Channel.cs

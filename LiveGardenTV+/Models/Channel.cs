@@ -21,12 +21,11 @@ namespace LiveGardenTVPlus.Models
         public string Logo { get => _logo; set { _logo = value; OnPropertyChanged(); } }
         public string Group { get => _group; set { _group = value; OnPropertyChanged(); } }
         public string TvgId { get => _tvgId; set { _tvgId = value; OnPropertyChanged(); } }
-        public bool IsFavorite { get => _isFavorite; set { _isFavorite = value; OnPropertyChanged(); } }
-        public string UrlStatus { get => _urlStatus; set { _urlStatus = value; OnPropertyChanged(); } }
         public List<string> YoutubeUrls { get => _youtubeUrls; set { _youtubeUrls = value; OnPropertyChanged(); } }
         public List<string> StreamUrls { get => _streamUrls; set { _streamUrls = value; OnPropertyChanged(); } }
-
         public event PropertyChangedEventHandler PropertyChanged;
+        public bool IsFavorite { get => _isFavorite; set { _isFavorite = value; OnPropertyChanged(); } }
+        public string UrlStatus { get => _urlStatus; set { _urlStatus = value; OnPropertyChanged(); } }
         protected void OnPropertyChanged([CallerMemberName] string name = null) =>
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
     }

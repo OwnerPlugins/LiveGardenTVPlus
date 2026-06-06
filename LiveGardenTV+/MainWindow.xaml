@@ -4,7 +4,7 @@
         xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
         xmlns:material="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
         xmlns:converters="clr-namespace:LiveGardenTVPlus.Converters"
-        Title="TVGarden+" Height="720" Width="1350"
+        Title="TVGarden+ by Lululla" Height="720" Width="1350"
         WindowStartupLocation="CenterScreen" AllowDrop="True" Drop="Window_Drop">
 
     <Window.Resources>
@@ -139,6 +139,12 @@
                     </StackPanel>
                 </Border>
             </Popup>
+            <Button x:Name="EpgBtn" Click="EpgBtn_Click" ToolTip="TV Guide (EPG)">
+                <StackPanel Orientation="Horizontal">
+                    <material:PackIcon Kind="TelevisionGuide" Width="20" Height="20" Margin="0,0,5,0"/>
+                    <TextBlock Text="EPG"/>
+                </StackPanel>
+            </Button>
             <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
             <Button x:Name="AboutBtn" Click="AboutBtn_Click" ToolTip="About TVGarden+">
                 <StackPanel Orientation="Horizontal">
@@ -147,7 +153,6 @@
                 </StackPanel>
             </Button>
             <Separator/>
-
             <CheckBox x:Name="ShowFavoritesOnlyCheckBox" Click="ShowFavoritesOnly_Click" ToolTip="Show only channels marked as favorites"/>
             <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
 
@@ -328,6 +333,16 @@
                 <Button x:Name="PauseResumeBtn" Width="36" Height="36" Click="PauseResumeBtn_Click" ToolTip="Pause/Resume live stream" Background="Transparent" BorderThickness="0">
                     <material:PackIcon x:Name="PauseIcon" Kind="Pause" Width="28" Height="28"/>
                 </Button>
+            </StatusBarItem>
+            <StatusBarItem>
+                <Button x:Name="LiveBtn" Width="50" Height="36" Click="LiveBtn_Click" ToolTip="Go back to live" Background="Transparent" BorderThickness="0">
+                    <material:PackIcon Kind="Television" Width="28" Height="28"/>
+                </Button>
+            </StatusBarItem>
+            <StatusBarItem>
+                <Slider x:Name="TimeshiftSlider" Width="200" Minimum="0" Maximum="100" 
+                        PreviewMouseLeftButtonUp="TimeshiftSlider_PreviewMouseLeftButtonUp"
+                        IsEnabled="True" ToolTip="Drag to seek back in buffer" Visibility="Collapsed"/>
             </StatusBarItem>
             <StatusBarItem>
                 <ProgressBar x:Name="LoadingProgressBar" Width="120" Height="16" IsIndeterminate="True" Visibility="Collapsed" Margin="5,0"/>

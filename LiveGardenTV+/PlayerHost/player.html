@@ -14,18 +14,14 @@
 
         function playStream(url) {
             console.log("playStream called with", url);
-
-            // 1) Direct video files (MP4, MKV, TS)
             if (url.match(/\.(mp4|mkv|ts)$/i)) {
                 video.src = url;
                 video.play().catch(e => console.error("Native play error", e));
                 return;
             }
-
-            // 2) HLS streams (.m3u8)
             if (url.includes('.m3u8') && Hls.isSupported()) {
                 if (hls) hls.destroy();
-                hls = new Hls();
+                hls = new Hls({ maxBufferLength: 10, liveSyncDurationCount: 3 });
                 window.hls = hls;
                 hls.loadSource(url);
                 hls.attachMedia(video);
@@ -39,8 +35,6 @@
                 });
                 return;
             }
-
-            // 3) Generic (try native)
             video.src = url;
             video.play().catch(e => console.error("Generic play error", e));
         }
@@ -57,6 +51,55 @@
         function isPaused() { return video.paused; }
         function setVolume(vol) { video.volume = Math.min(1, Math.max(0, vol)); }
         function toggleMute() { video.muted = !video.muted; }
+        // ---------- TIMESHIFT / DVR ----------
+        function getCurrentTime() {
+            return video.currentTime.toString();
+        }
+
+        function getBufferInfo() {
+            if (!video.buffered.length) return JSON.stringify({ start: 0, end: 0, current: video.currentTime });
+            var idx = 0;
+            for (var i = 0; i < video.buffered.length; i++) {
+                if (video.currentTime >= video.buffered.start(i) && video.currentTime <= video.buffered.end(i)) {
+                    idx = i; break;
+                }
+            }
+            var start = video.buffered.start(idx);
+            var end = video.buffered.end(idx);
+            return JSON.stringify({ start: start, end: end, current: video.currentTime });
+        }
+
+        function seekToTime(time) {
+            if (isFinite(time) && !isNaN(time)) {
+                video.currentTime = time;
+            }
+        }
+
+        function seekToLive() {
+            if (video.duration && isFinite(video.duration)) {
+                video.currentTime = video.duration - 1;
+            } else if (video.seekable && video.seekable.length) {
+                var end = video.seekable.end(video.seekable.length - 1);
+                video.currentTime = end - 1;
+            }
+        }
+        
+        function isLiveStream() {
+            return !!(hls && hls.config && hls.config.liveSyncDuration !== undefined) || (video.duration === Infinity);
+        }
+
+        function getBufferInfo() {
+            if (!video.buffered.length) return { start: 0, end: 0, current: 0, isLive: false };
+            var bufferedEnd = video.buffered.end(video.buffered.length - 1);
+            var isLive = !isFinite(video.duration) || Math.abs(video.duration - bufferedEnd) < 0.5;
+            return {
+                start: video.buffered.start(0),
+                end: bufferedEnd,
+                current: video.currentTime,
+                isLive: isLive,
+                duration: isLive ? bufferedEnd : video.duration
+            };
+        }
     </script>
 </body>
 </html>

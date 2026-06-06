@@ -1,27 +1,49 @@
-﻿A new version is available. Do you want to update now?: มีเวอร์ชันใหม่ให้ใช้งานแล้ว คุณต้องการอัปเดตตอนนี้หรือไม่?
+﻿(No description): (ไม่มีคำอธิบาย)
+A new version is available. Do you want to update now?: มีเวอร์ชันใหม่ให้ใช้งานแล้ว คุณต้องการอัปเดตตอนนี้หรือไม่?
 About: เกี่ยวกับ
+Add Group: เพิ่มกลุ่ม
+Apply: นำมาใช้
 Apply changes: ใช้การเปลี่ยนแปลง
 Buffer (seconds): บัฟเฟอร์ (วินาที)
 CANCEL: ยกเลิก
+Cannot Enrich: ไม่สามารถเพิ่มคุณค่าได้
 Cannot open browser: ไม่สามารถเปิดเบราว์เซอร์ได้
+Category: หมวดหมู่
+Channel:: ช่อง:
 channels from: ช่องทางจาก
 channels from URL: ช่องทางจาก URL
 Check for updates: ตรวจสอบการอัปเดต
+Check URLs: ตรวจสอบ URL
+Clear: ชัดเจน
+Close: ปิด
+Delete Group: ลบกลุ่ม
+Description: คำอธิบาย
+Details: รายละเอียด
 Do you want to load the edited playlist now?: คุณต้องการโหลดเพลย์ลิสต์ที่แก้ไขตอนนี้หรือไม่?
 Downloading playlist...: กำลังดาวน์โหลดเพลย์ลิสต์...
 Edit Playlist: แก้ไขเพลย์ลิสต์
+End (local): สิ้นสุด (ท้องถิ่น)
+Enrich with EPG: เติมเต็มด้วย EPG
 Enter M3U URL:: ป้อน URL M3U:
+EPG service is not available. Load a playlist with EPG data first.: บริการ EPG ไม่พร้อมใช้งาน โหลดเพลย์ลิสต์ที่มีข้อมูล EPG ก่อน
 Error: ข้อผิดพลาด
 Error loading: เกิดข้อผิดพลาดในการโหลด
 Error loading playlists: {0}: เกิดข้อผิดพลาดในการโหลดเพลย์ลิสต์: {0}
 ERROR: player.html not found.: ข้อผิดพลาด: ไม่พบ player.html
+Export Failed: การส่งออกล้มเหลว
 Export Favorites: ส่งออกรายการโปรด
+Export Filtered JSON: ส่งออก JSON ที่กรองแล้ว
+Export Filtered M3U: ส่งออก M3U ที่กรองแล้ว
+Export JSON: ส่งออก JSON
+Export OK: ส่งออกตกลง
 Extracting update...: กำลังแยกการอัปเดต...
 Failed to download playlist: ดาวน์โหลดเพลย์ลิสต์ไม่สำเร็จ
 Failed to load playlist: ไม่สามารถโหลดเพลย์ลิสต์
+FILTERS: ตัวกรอง
 GitHub Error: ข้อผิดพลาด GitHub
 Help: ช่วย
 Hide List: ซ่อนรายการ
+Import JSON: นำเข้า JSON
 Info: ข้อมูล
 Invalid playlist URL.: URL เพลย์ลิสต์ไม่ถูกต้อง
 Invalid URL.: URL ไม่ถูกต้อง
@@ -31,6 +53,7 @@ Load a playlist first.: โหลดเพลย์ลิสต์ก่อน
 Loaded: โหลดแล้ว
 Loading...: กำลังโหลด...
 Network error: ข้อผิดพลาดของเครือข่าย
+New Playlist: เพลย์ลิสต์ใหม่
 No .m3u files found on GitHub repository.: ไม่พบไฟล์ .m3u บนที่เก็บ GitHub
 No favorite channels to export.: ไม่มีช่องโปรดที่จะส่งออก
 No playlist found: ไม่พบเพลย์ลิสต์
@@ -40,17 +63,27 @@ Now playing: กำลังเล่นอยู่
 Online Playlist: เพลย์ลิสต์ออนไลน์
 Pause/Resume live stream: หยุดชั่วคราว / สตรีมสดต่อ
 Player ready.: ผู้เล่นพร้อมแล้ว
+Please select a program first.: กรุณาเลือกโปรแกรมก่อน
+Program Details: รายละเอียดโปรแกรม
+Refresh: รีเฟรช
 Refresh from GitHub: รีเฟรชจาก GitHub
+Rename Group: เปลี่ยนชื่อกลุ่ม
 SAVE: บันทึก
+Save As M3U: บันทึกเป็น M3U
 Save Playlist: บันทึกเพลย์ลิสต์
+Save Status: บันทึกสถานะ
 Search channels...: ค้นหาช่อง...
 Select a playlist first.: เลือกเพลย์ลิสต์ก่อน
 Select Theme: เลือกธีม
 Settings: การตั้งค่า
 Show List: แสดงรายการ
+Start (local): เริ่มต้น (ท้องถิ่น)
 Success: ความสำเร็จ
 Theme picker: เครื่องมือเลือกธีม
+Time: เวลา
+Title: ชื่อ
 Tools: เครื่องมือ
+TV Guide (EPG): ทีวีไกด์ (EPG)
 Unable to find version in remote project file.: ไม่พบเวอร์ชันในไฟล์โครงการระยะไกล
 Update: อัปเดต
 Update complete. Restarting...: การอัปเดตเสร็จสมบูรณ์ กำลังรีสตาร์ท...

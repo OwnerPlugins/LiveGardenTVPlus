@@ -9,6 +9,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Xml;
 using LiveGardenTVPlus.Models;
+using System.Text.RegularExpressions;
 
 namespace LiveGardenTVPlus.Services
 {
@@ -16,6 +17,8 @@ namespace LiveGardenTVPlus.Services
     {
         private readonly HttpClient _httpClient = new HttpClient();
         private List<EpgChannel> _channels = new List<EpgChannel>();
+        private Dictionary<string, string> _channelMapping = new Dictionary<string, string>(); // M3U channel name -> EPG channel Id
+        public bool HasAnyChannel() => _channels.Count > 0;
 
         public async Task LoadEpgAsync(string epgUrl)
         {
@@ -112,6 +115,27 @@ namespace LiveGardenTVPlus.Services
             {
                 Debug.WriteLine($"EPG load error: {ex.Message}");
             }
+            
+
+        }
+
+        public bool HasChannel(string channelId)
+        {
+            return _channels.Any(c => c.Id == channelId);
+        }
+
+         public string GetMappedEpgId(string channelName)
+        {
+            return GetBestMatchingEpgChannel(channelName);
+        }
+
+        public async Task<List<EpgProgramme>> GetProgramsForChannelAsync(string channelId, DateTime startUtc, DateTime endUtc)
+        {
+            var channel = _channels.FirstOrDefault(c => c.Id == channelId);
+            if (channel == null) return new List<EpgProgramme>();
+            return channel.Programmes
+                .Where(p => p.Start < endUtc && p.Stop > startUtc)
+                .ToList();
         }
 
         private DateTime ParseEpgDate(string dateStr)
@@ -152,11 +176,84 @@ namespace LiveGardenTVPlus.Services
             }
         }
 
-        public EpgProgramme GetCurrentProgram(string tvgId, DateTime nowUtc)
+        public EpgProgramme GetCurrentProgram(string channelName, string tvgId, DateTime nowUtc)
         {
-            var channel = _channels.FirstOrDefault(c => c.Id == tvgId);
-            if (channel == null) return null;
-            return channel.Programmes.FirstOrDefault(p => p.Start <= nowUtc && p.Stop > nowUtc);
+            // Try first by tvgId
+            if (!string.IsNullOrEmpty(tvgId))
+            {
+                var channel = _channels.FirstOrDefault(c => c.Id == tvgId);
+                if (channel != null)
+                    return channel.Programmes.FirstOrDefault(p => p.Start <= nowUtc && p.Stop > nowUtc);
+            }
+
+            // Try fuzzy matching by channel name
+            string epgChannelId = GetBestMatchingEpgChannel(channelName);
+            if (!string.IsNullOrEmpty(epgChannelId))
+            {
+                var channel = _channels.FirstOrDefault(c => c.Id == epgChannelId);
+                if (channel != null)
+                    return channel.Programmes.FirstOrDefault(p => p.Start <= nowUtc && p.Stop > nowUtc);
+            }
+
+            return null;
+        }
+
+        private string GetBestMatchingEpgChannel(string channelName)
+        {
+            if (string.IsNullOrEmpty(channelName)) return null;
+
+            // Check cache
+            if (_channelMapping.TryGetValue(channelName, out var cached))
+                return cached;
+
+            // Fuzzy matching logic
+            var bestMatch = _channels
+                .Select(c => new { Channel = c, Similarity = ComputeSimilarity(channelName, c.DisplayName) })
+                .Where(x => x.Similarity > 0.6) // threshold
+                .OrderByDescending(x => x.Similarity)
+                .FirstOrDefault();
+
+            if (bestMatch != null)
+            {
+                _channelMapping[channelName] = bestMatch.Channel.Id;
+                return bestMatch.Channel.Id;
+            }
+
+            return null;
+        }
+
+        private double ComputeSimilarity(string source, string target)
+        {
+            if (string.IsNullOrEmpty(source) || string.IsNullOrEmpty(target)) return 0;
+            source = source.ToLowerInvariant();
+            target = target.ToLowerInvariant();
+
+            // Remove common prefixes/suffixes (e.g., "Rai 1" vs "Rai1")
+            source = Regex.Replace(source, @"[^\w]", "");
+            target = Regex.Replace(target, @"[^\w]", "");
+
+            // Levenshtein distance based similarity
+            int maxLen = Math.Max(source.Length, target.Length);
+            if (maxLen == 0) return 1;
+            int distance = LevenshteinDistance(source, target);
+            return 1.0 - (double)distance / maxLen;
+        }
+
+        private int LevenshteinDistance(string s, string t)
+        {
+            int n = s.Length, m = t.Length;
+            int[,] d = new int[n + 1, m + 1];
+            if (n == 0) return m;
+            if (m == 0) return n;
+            for (int i = 0; i <= n; d[i, 0] = i++) ;
+            for (int j = 0; j <= m; d[0, j] = j++) ;
+            for (int i = 1; i <= n; i++)
+                for (int j = 1; j <= m; j++)
+                {
+                    int cost = (s[i - 1] == t[j - 1]) ? 0 : 1;
+                    d[i, j] = Math.Min(Math.Min(d[i - 1, j] + 1, d[i, j - 1] + 1), d[i - 1, j - 1] + cost);
+                }
+            return d[n, m];
         }
     }
 }

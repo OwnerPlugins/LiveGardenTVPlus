@@ -1,7 +1,7 @@
 ﻿<Window x:Class="LiveGardenTVPlus.Views.SettingsWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Settings" Height="450" Width="500"
+        Title="Settings by Lululla" Height="450" Width="500"
         WindowStartupLocation="CenterOwner">
 
     <Grid Margin="10,10,10,10">
@@ -50,6 +50,11 @@
             <ComboBox x:Name="PlaylistCombo" Height="30" Margin="0,0,0,5"/>
             <Button x:Name="RefreshPlaylistsBtn" Content="Refresh from GitHub" Click="RefreshPlaylistsBtn_Click" Width="180" />
             <Button x:Name="LoadPlaylistBtn" Content="LOAD" Click="LoadPlaylistBtn_Click" Width="180"/>
+            <TextBlock x:Name="EpgLabel" FontWeight="Bold" Grid.Row="6" Margin="0,10,0,5"/>
+            <ComboBox x:Name="EpgCombo" Grid.Row="7" Margin="0,5,0,5" 
+                      IsEditable="True" 
+                      ToolTip="Select EPG source or enter custom URL"/>
+            <Button x:Name="RefreshEpgBtn" Grid.Row="8" Content="Refresh EPG List" Click="RefreshEpgBtn_Click" Width="150" Margin="0,0,0,10"/>        
         </StackPanel>
 
         <!-- Row 6: SAVE, CANCEL buttons -->
