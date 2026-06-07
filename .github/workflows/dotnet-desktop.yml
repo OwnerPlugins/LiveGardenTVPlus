@@ -42,20 +42,10 @@ jobs:
 
     - name: Copy extra folders (Languages, Themes, PlayerHost)
       run: |
-        # Remove existing destination folders to avoid nesting
-        $destFolders = @("Languages", "Themes", "PlayerHost")
-        foreach ($folder in $destFolders) {
-          $destPath = Join-Path "publish_output" $folder
-          if (Test-Path $destPath) {
-            Remove-Item -Path $destPath -Recurse -Force
-            Write-Host "Removed existing $destPath"
-          }
-        }
-        # Now copy fresh
-        Copy-Item -Path "LiveGardenTV+/Languages" -Destination "publish_output/Languages" -Recurse
-        Copy-Item -Path "LiveGardenTV+/Themes"   -Destination "publish_output/Themes"   -Recurse
-        Copy-Item -Path "LiveGardenTV+/PlayerHost" -Destination "publish_output/PlayerHost" -Recurse
-        Write-Host "Copied Languages, Themes, PlayerHost to publish_output"
+        robocopy "LiveGardenTV+/Languages" "publish_output/Languages" /E /IS /IT /NJH /NJS /NP
+        robocopy "LiveGardenTV+/Themes"   "publish_output/Themes"   /E /IS /IT /NJH /NJS /NP
+        robocopy "LiveGardenTV+/PlayerHost" "publish_output/PlayerHost" /E /IS /IT /NJH /NJS /NP
+        exit 0
 
     - name: Add WebView2Loader.dll for all architectures
       run: |
