@@ -1,49 +1,35 @@
 ﻿(No description): (Pas de description)
 A new version is available. Do you want to update now?: Une nouvelle version est disponible. Voulez-vous mettre à jour maintenant ?
 About: À propos
-Add Group: Ajouter un groupe
-Apply: Appliquer
 Apply changes: Appliquer les modifications
 Buffer (seconds): Tampon (secondes)
 CANCEL: ANNULER
-Cannot Enrich: Impossible d'enrichir
 Cannot open browser: Impossible d'ouvrir le navigateur
 Category: Catégorie
 Channel:: Canal:
 channels from: chaînes de
 channels from URL: chaînes à partir de l'URL
 Check for updates: Vérifier les mises à jour
-Check URLs: Vérifier les URL
-Clear: Clair
-Close: Fermer
-Delete Group: Supprimer le groupe
 Description: Description
 Details: Détails
 Do you want to load the edited playlist now?: Voulez-vous charger la playlist modifiée maintenant ?
 Downloading playlist...: Téléchargement de la liste de lecture...
 Edit Playlist: Modifier la liste de lecture
 End (local): Fin (locale)
-Enrich with EPG: Enrichir avec EPG
 Enter M3U URL:: Saisissez l'URL M3U :
-EPG service is not available. Load a playlist with EPG data first.: Le service EPG n’est pas disponible. Chargez d'abord une liste de lecture avec des données EPG.
+EPG Matching Threshold: Seuil de correspondance EPG
+EPG Source: Source EPG
 Error: Erreur
 Error loading: Erreur de chargement
 Error loading playlists: {0}: Erreur lors du chargement des playlists : {0}
 ERROR: player.html not found.: ERREUR : player.html introuvable.
-Export Failed: Échec de l'exportation
 Export Favorites: Exporter les favoris
-Export Filtered JSON: Exporter du JSON filtré
-Export Filtered M3U: Exporter M3U filtré
-Export JSON: Exporter JSON
-Export OK: Exporter OK
 Extracting update...: Extraction de la mise à jour...
 Failed to download playlist: Échec du téléchargement de la playlist
 Failed to load playlist: Échec du chargement de la playlist
-FILTERS: FILTRES
 GitHub Error: Erreur GitHub
 Help: Aide
 Hide List: Masquer la liste
-Import JSON: Importer du JSON
 Info: Informations
 Invalid playlist URL.: URL de playlist non valide.
 Invalid URL.: URL invalide.
@@ -52,8 +38,10 @@ LOAD: CHARGER
 Load a playlist first.: Chargez d'abord une liste de lecture.
 Loaded: Chargé
 Loading...: Chargement...
+Logos Matching Threshold: Seuil de correspondance des logos
+Logos Source: Source des logos
+Logos Subfolder: Sous-dossier Logos
 Network error: Erreur réseau
-New Playlist: Nouvelle liste de lecture
 No .m3u files found on GitHub repository.: Aucun fichier .m3u trouvé sur le référentiel GitHub.
 No favorite channels to export.: Aucune chaîne favorite à exporter.
 No playlist found: Aucune playlist trouvée
@@ -66,12 +54,10 @@ Player ready.: Joueur prêt.
 Please select a program first.: Veuillez d'abord sélectionner un programme.
 Program Details: Détails du programme
 Refresh: Rafraîchir
+Refresh EPG List: Actualiser la liste EPG
 Refresh from GitHub: Actualiser depuis GitHub
-Rename Group: Renommer le groupe
 SAVE: SAUVEGARDER
-Save As M3U: Enregistrer sous M3U
 Save Playlist: Enregistrer la liste de lecture
-Save Status: Enregistrer le statut
 Search channels...: Rechercher des chaînes...
 Select a playlist first.: Sélectionnez d'abord une liste de lecture.
 Select Theme: Sélectionnez un thème

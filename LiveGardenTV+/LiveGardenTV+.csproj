@@ -12,8 +12,8 @@
         <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
         <GenerateDocumentationFile>True</GenerateDocumentationFile>
         <Title>LiveGardenTVPlus</Title>
-        <AssemblyVersion>1.7</AssemblyVersion>
-        <FileVersion>1.7</FileVersion>
+        <AssemblyVersion>1.8</AssemblyVersion>
+        <FileVersion>1.8</FileVersion>
         <RepositoryUrl>https://github.com/OwnerPlugins/LiveGardenTVPlus</RepositoryUrl>
         <NeutralLanguage>en</NeutralLanguage>
         <IncludeSymbols>False</IncludeSymbols>
@@ -80,5 +80,10 @@
         <Pack>True</Pack>
         <PackagePath>\</PackagePath>
       </None>
+    </ItemGroup>
+    <ItemGroup>
+      <Page Update="Views\LogoPickerWindow.xaml">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      </Page>
     </ItemGroup>
 </Project>

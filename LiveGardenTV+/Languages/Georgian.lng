@@ -1,49 +1,35 @@
 ﻿(No description): (აღწერის გარეშე)
 A new version is available. Do you want to update now?: ხელმისაწვდომია ახალი ვერსია. გსურთ განახლება ახლა?
 About: შესახებ
-Add Group: ჯგუფის დამატება
-Apply: მიმართეთ
 Apply changes: ცვლილებების გამოყენება
 Buffer (seconds): ბუფერი (წამი)
 CANCEL: გაუქმება
-Cannot Enrich: გამდიდრება არ შეიძლება
 Cannot open browser: ბრაუზერის გახსნა შეუძლებელია
 Category: კატეგორია
 Channel:: არხი:
 channels from: არხებიდან
 channels from URL: არხები URL-დან
 Check for updates: შეამოწმეთ განახლებები
-Check URLs: შეამოწმეთ URL-ები
-Clear: წმინდა
-Close: დახურვა
-Delete Group: ჯგუფის წაშლა
 Description: აღწერა
 Details: დეტალები
 Do you want to load the edited playlist now?: გსურთ ახლა ჩატვირთოთ რედაქტირებული დასაკრავი სია?
 Downloading playlist...: მიმდინარეობს დასაკრავი სიის ჩამოტვირთვა...
 Edit Playlist: დასაკრავი სიის რედაქტირება
 End (local): დასასრული (ადგილობრივი)
-Enrich with EPG: გამდიდრდით EPG-ით
 Enter M3U URL:: შეიყვანეთ M3U URL:
-EPG service is not available. Load a playlist with EPG data first.: EPG სერვისი მიუწვდომელია. ჯერ ჩატვირთეთ დასაკრავი სია EPG მონაცემებით.
+EPG Matching Threshold: EPG შესატყვისი ბარიერი
+EPG Source: EPG წყარო
 Error: შეცდომა
 Error loading: შეცდომა ჩატვირთვისას
 Error loading playlists: {0}: შეცდომა დასაკრავი სიების ჩატვირთვისას: {0}
 ERROR: player.html not found.: შეცდომა: player.html ვერ მოიძებნა.
-Export Failed: ექსპორტი ვერ მოხერხდა
 Export Favorites: რჩეულების ექსპორტი
-Export Filtered JSON: გაფილტრული JSON ექსპორტი
-Export Filtered M3U: გაფილტრული M3U ექსპორტი
-Export JSON: JSON-ის ექსპორტი
-Export OK: ექსპორტი OK
 Extracting update...: მიმდინარეობს განახლების ამოღება...
 Failed to download playlist: დასაკრავი სიის ჩამოტვირთვა ვერ მოხერხდა
 Failed to load playlist: დასაკრავი სიის ჩატვირთვა ვერ მოხერხდა
-FILTERS: ფილტრები
 GitHub Error: GitHub შეცდომა
 Help: დახმარება
 Hide List: სიის დამალვა
-Import JSON: JSON იმპორტი
 Info: ინფორმაცია
 Invalid playlist URL.: დასაკრავი სიის URL არასწორია.
 Invalid URL.: არასწორი URL.
@@ -52,8 +38,10 @@ LOAD: LOAD
 Load a playlist first.: ჯერ ჩატვირთეთ დასაკრავი სია.
 Loaded: დატვირთული
 Loading...: იტვირთება...
+Logos Matching Threshold: ლოგოს შესატყვისი ბარიერი
+Logos Source: ლოგოს წყარო
+Logos Subfolder: ლოგოს ქვესაქაღალდე
 Network error: ქსელის შეცდომა
-New Playlist: ახალი დასაკრავი სია
 No .m3u files found on GitHub repository.: GitHub საცავში .m3u ფაილები არ მოიძებნა.
 No favorite channels to export.: არ არის საყვარელი არხები ექსპორტისთვის.
 No playlist found: დასაკრავი სია ვერ მოიძებნა
@@ -66,12 +54,10 @@ Player ready.: მოთამაშე მზადაა.
 Please select a program first.: გთხოვთ, ჯერ აირჩიოთ პროგრამა.
 Program Details: პროგრამის დეტალები
 Refresh: განაახლეთ
+Refresh EPG List: განაახლეთ EPG სია
 Refresh from GitHub: განაახლეთ GitHub-დან
-Rename Group: ჯგუფის გადარქმევა
 SAVE: შენახვა
-Save As M3U: შენახვა როგორც M3U
 Save Playlist: დასაკრავი სიის შენახვა
-Save Status: სტატუსის შენახვა
 Search channels...: არხების ძიება...
 Select a playlist first.: ჯერ აირჩიეთ დასაკრავი სია.
 Select Theme: აირჩიეთ თემა

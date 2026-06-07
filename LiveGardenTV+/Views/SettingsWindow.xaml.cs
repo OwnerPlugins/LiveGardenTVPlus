@@ -5,8 +5,8 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Diagnostics;
 using LiveGardenTVPlus.Services;
+using LiveGardenTVPlus.Models;
 
 namespace LiveGardenTVPlus.Views
 {
@@ -22,11 +22,42 @@ namespace LiveGardenTVPlus.Views
             ApplyLanguage();
             LoadSettings();
             BufferSlider.ValueChanged += (s, e) => BufferValue.Text = $"{e.NewValue:F0} sec";
+            this.Loaded += (s, e) => LoadThresholds();
             _ = LoadPlaylistsFromGitHubAsync();
-            _ = LoadEpgSources();   // Load EPG sources from epgshare01
+            _ = LoadEpgSources();
         }
 
-        // Load available EPG sources from epgshare01 website
+        // ------------------------------------------------------------------
+        // Language & UI
+        // ------------------------------------------------------------------
+        private void ApplyLanguage()
+        {
+            LanguageLabel.Text = LanguageManager.GetTranslation("Language");
+            BufferLabel.Text = LanguageManager.GetTranslation("Buffer (seconds)");
+            OnlinePlaylistLabel.Text = LanguageManager.GetTranslation("Online Playlist");
+            RefreshPlaylistsBtn.Content = LanguageManager.GetTranslation("Refresh from GitHub");
+            LoadPlaylistBtn.Content = LanguageManager.GetTranslation("LOAD");
+            EpgLabel.Text = LanguageManager.GetTranslation("EPG Source");
+            RefreshEpgBtn.Content = LanguageManager.GetTranslation("Refresh EPG List");
+            LogosLabel.Text = LanguageManager.GetTranslation("Logos Source");
+            LogosSubFolderLabel.Text = LanguageManager.GetTranslation("Logos Subfolder");
+            SaveBtn.Content = LanguageManager.GetTranslation("SAVE");
+            CancelBtn.Content = LanguageManager.GetTranslation("CANCEL");
+            Title = LanguageManager.GetTranslation("Settings");
+
+            // Threshold labels (ensure they have x:Name in XAML)
+            var epgThresholdLabel = FindName("EpgThresholdLabel") as TextBlock;
+            if (epgThresholdLabel != null)
+                epgThresholdLabel.Text = LanguageManager.GetTranslation("EPG Matching Threshold");
+
+            var logosThresholdLabel = FindName("LogosThresholdLabel") as TextBlock;
+            if (logosThresholdLabel != null)
+                logosThresholdLabel.Text = LanguageManager.GetTranslation("Logos Matching Threshold");
+        }
+
+        // ------------------------------------------------------------------
+        // EPG Sources
+        // ------------------------------------------------------------------
         private async Task LoadEpgSources()
         {
             try
@@ -49,7 +80,6 @@ namespace LiveGardenTVPlus.Views
                 EpgCombo.DisplayMemberPath = "Key";
                 EpgCombo.SelectedValuePath = "Value";
 
-                // Load saved EPG URL from preferences
                 var prefs = UserPreferences.Load();
                 if (!string.IsNullOrEmpty(prefs.EpgUrl))
                 {
@@ -76,6 +106,9 @@ namespace LiveGardenTVPlus.Views
             await LoadEpgSources();
         }
 
+        // ------------------------------------------------------------------
+        // GitHub Playlists
+        // ------------------------------------------------------------------
         private async Task LoadPlaylistsFromGitHubAsync()
         {
             try
@@ -171,53 +204,95 @@ namespace LiveGardenTVPlus.Views
             }
         }
 
+        // ------------------------------------------------------------------
+        // Threshold sliders
+        // ------------------------------------------------------------------
+        private void EpgThresholdSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (EpgThresholdValue != null)
+                EpgThresholdValue.Text = e.NewValue.ToString("F2");
+        }
+
+        private void LogoThresholdSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (LogoThresholdValue != null)
+                LogoThresholdValue.Text = e.NewValue.ToString("F2");
+        }
+
+        private void LoadThresholds()
+        {
+            var prefs = UserPreferences.Load();
+            LogoThresholdSlider.Value = prefs.LogoMatchingThreshold;
+            EpgThresholdSlider.Value = prefs.EpgMatchingThreshold;
+        }
+
+        // ------------------------------------------------------------------
+        // Save & Cancel
+        // ------------------------------------------------------------------
         private void SaveBtn_Click(object sender, RoutedEventArgs e)
         {
             var prefs = UserPreferences.Load();
 
-            // Save buffer
+            // Buffer
             prefs.BufferSeconds = (int)BufferSlider.Value;
 
-            // Save language
+            // Language
             if (LangCombo.SelectedItem is ComboBoxItem selectedLang)
             {
                 prefs.Language = selectedLang.Tag.ToString();
             }
 
+            // Playlist URL
             string newPlaylistUrl = null;
-            // Save playlist URL if selected
             if (PlaylistCombo.SelectedItem is ComboBoxItem selectedPlaylist && selectedPlaylist.Tag != null)
             {
                 newPlaylistUrl = selectedPlaylist.Tag.ToString();
                 prefs.PlaylistUrl = newPlaylistUrl;
             }
 
-            // Save EPG URL
+            // Matching thresholds
+            prefs.LogoMatchingThreshold = LogoThresholdSlider.Value;
+            prefs.EpgMatchingThreshold = EpgThresholdSlider.Value;
+
+            // EPG URL
             if (EpgCombo.SelectedItem is KeyValuePair<string, string> selectedEpg)
                 prefs.EpgUrl = selectedEpg.Value;
             else if (!string.IsNullOrEmpty(EpgCombo.Text))
                 prefs.EpgUrl = EpgCombo.Text;
+
+            // Logos repository source
+            if (LogosCombo.SelectedItem is ComboBoxItem selectedLogoSource && selectedLogoSource.Tag != null)
+            {
+                string[] parts = selectedLogoSource.Tag.ToString().Split('|');
+                if (parts.Length == 3)
+                {
+                    prefs.LogosRepositoryOwner = parts[0];
+                    prefs.LogosRepositoryRepo = parts[1];
+                    prefs.LogosRepositoryPath = parts[2];
+                }
+            }
+
+            // Logos subfolder
+            if (LogosSubFolderCombo.SelectedItem is ComboBoxItem selectedSubFolder && selectedSubFolder.Tag != null)
+            {
+                prefs.LogosSubFolder = selectedSubFolder.Tag.ToString();
+            }
 
             prefs.Save();
 
             // Apply language change globally
             LanguageManager.LoadLanguage(prefs.Language);
 
-            // Find MainWindow instance
+            // Update main window
             if (Application.Current.MainWindow is MainWindow main)
             {
-                // Apply language to main window
                 main.ApplyLanguage();
-
-                // If playlist URL changed, reload it
-                if (!string.IsNullOrEmpty(newPlaylistUrl) && newPlaylistUrl != prefs.PlaylistUrl)
+                if (!string.IsNullOrEmpty(newPlaylistUrl))
                 {
                     _ = main.LoadPlaylistFromUrl(newPlaylistUrl);
                 }
-                // Note: buffer is already applied via slider event in MainWindow
             }
 
-            // Close settings dialog
             DialogResult = true;
             Close();
         }
@@ -228,6 +303,9 @@ namespace LiveGardenTVPlus.Views
             Close();
         }
 
+        // ------------------------------------------------------------------
+        // Language combo & settings loading
+        // ------------------------------------------------------------------
         private void PopulateLanguageCombo()
         {
             LangCombo.Items.Clear();
@@ -235,30 +313,48 @@ namespace LiveGardenTVPlus.Views
                 LangCombo.Items.Add(new ComboBoxItem { Content = lang, Tag = lang });
         }
 
-        private void ApplyLanguage()
-        {
-            LanguageLabel.Text = LanguageManager.GetTranslation("Language");
-            BufferLabel.Text = LanguageManager.GetTranslation("Buffer (seconds)");
-            OnlinePlaylistLabel.Text = LanguageManager.GetTranslation("Online Playlist");
-            LoadPlaylistBtn.Content = LanguageManager.GetTranslation("LOAD");
-            SaveBtn.Content = LanguageManager.GetTranslation("SAVE");
-            CancelBtn.Content = LanguageManager.GetTranslation("CANCEL");
-            RefreshPlaylistsBtn.Content = LanguageManager.GetTranslation("Refresh from GitHub");
-            Title = LanguageManager.GetTranslation("Settings");
-        }
-
         private void LoadSettings()
         {
             var prefs = UserPreferences.Load();
+
+            // Thresholds
+            LogoThresholdSlider.Value = prefs.LogoMatchingThreshold;
+            LogoThresholdValue.Text = prefs.LogoMatchingThreshold.ToString("F2");
+            EpgThresholdSlider.Value = prefs.EpgMatchingThreshold;
+            EpgThresholdValue.Text = prefs.EpgMatchingThreshold.ToString("F2");
+
+            // Buffer
             BufferSlider.Value = prefs.BufferSeconds;
             BufferValue.Text = $"{prefs.BufferSeconds} sec";
 
+            // Language
             string savedLang = prefs.Language;
             foreach (ComboBoxItem item in LangCombo.Items)
             {
                 if (item.Tag.ToString() == savedLang)
                 {
                     LangCombo.SelectedItem = item;
+                    break;
+                }
+            }
+
+            // Logos repository
+            string savedLogoKey = $"{prefs.LogosRepositoryOwner}|{prefs.LogosRepositoryRepo}|{prefs.LogosRepositoryPath}";
+            foreach (ComboBoxItem item in LogosCombo.Items)
+            {
+                if (item.Tag != null && item.Tag.ToString() == savedLogoKey)
+                {
+                    LogosCombo.SelectedItem = item;
+                    break;
+                }
+            }
+
+            // Logos subfolder
+            foreach (ComboBoxItem item in LogosSubFolderCombo.Items)
+            {
+                if (item.Tag != null && item.Tag.ToString() == prefs.LogosSubFolder)
+                {
+                    LogosSubFolderCombo.SelectedItem = item;
                     break;
                 }
             }

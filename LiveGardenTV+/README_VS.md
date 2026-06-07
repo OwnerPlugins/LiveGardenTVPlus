@@ -15,6 +15,41 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 ---
 ## Changelog
 
+### 🆕 New Features & Improvements – Version 1.8
+
+### 🖼️ Remote Logos Management
+- **Logo Source Selector** – Choose from predefined repositories (OwnerPlugins/logos, picons/picons) or enter a custom URL in Settings.
+- **Subfolder Filtering** – Limit logos to specific folders (SNP, PROVIDER, ALL) for faster matching.
+- **Fetch Logos** – Automatically assign logos to playlist channels using fuzzy matching (Levenshtein distance) with adjustable threshold.
+- **Logo Picker Window** – Browse available logos with search, thumbnails (on/off toggle), and double‑click selection. Virtualized list for performance.
+- **Manual Logo Assignment** – Click the “...” button in the Logo cell to open the picker and assign a logo manually.
+- **Persistent Cache** – Logos index and thumbnails are cached locally. First load is slower; subsequent loads are instant.
+
+### 📺 EPG (Electronic Program Guide)
+- **Adjustable Matching Threshold** – Slider in Settings (0.5 – 1.0) controls how strictly channel names are matched to EPG ids. Lower = more matches, higher = exact or very similar names.
+- **EPG Source Selector** – Choose from multiple XMLTV files (epgshare01) or enter a custom URL (already present, now with threshold control).
+
+### 🛠️ Playlist Editor Enhancements
+- **Unified Save As** – Export playlist to M3U, JSON, or CSV from a single dialog.
+- **New Playlist Button** – Create an empty playlist directly from the editor.
+- **Reorganized Toolbar** – Buttons grouped into bordered sections (Playlist & Groups, URL Check, JSON, Filtered Export, EPG & LOGOS, Actions) for clarity.
+- **Enhanced Filters Section** – Each filter group has its own border and label; each field has a descriptive label above it.
+- **Improved Export Logic** – Channels without a valid URL are skipped when saving M3U (avoids empty entries).
+- **Group Management** – Add, rename, delete groups with multi‑select support; new group creates an empty channel row.
+
+### 🎨 Interface & Usability
+- **Dynamic Theme Support** – All UI elements (ComboBoxes, filter labels, etc.) now respect the selected theme. Added fallback brushes to prevent black backgrounds.
+- **Progress Feedback** – Deterministic progress bar during “Fetch Logos” (channel‑by‑channel) and indeterminate progress while downloading the logos index.
+- **Localization** – All new texts (threshold labels, logos picker, editor buttons, filter labels) are translatable via LanguageManager.
+
+### 🐛 Bug Fixes
+- Fixed `NullReferenceException` in LogoPickerWindow and SettingsWindow (added null checks and Loaded event initialization).
+- Fixed M3U export – URLs are no longer missing; channels without a valid URL are skipped.
+- Fixed PlaylistEditorWindow constructor – removed erroneous line that caused compile errors.
+- Fixed theme colors in SettingsWindow (ComboBoxes and labels now follow the selected theme).
+- Fixed filter section colors in PlaylistEditorWindow (text boxes and labels use dynamic resources).
+
+---
 
 ### 🆕 New Features & Improvements – Version 1.7
 

@@ -1,49 +1,35 @@
 ﻿(No description): (تفصیل نشته)
 A new version is available. Do you want to update now?: یوه نوې نسخه شتون لري. ایا تاسو اوس تازه کول غواړئ؟
 About: په اړه
-Add Group: ګروپ اضافه کړئ
-Apply: درخواست وکړئ
 Apply changes: بدلونونه پلي کړئ
 Buffer (seconds): بفر (ثانوي)
-CANCEL: فسخه کول
-Cannot Enrich: بډایه نشي کولی
+CANCEL: لغوه کول
 Cannot open browser: براوزر نشي خلاصولی
 Category: کټګوري
 Channel:: چینل:
 channels from: له چینلونو څخه
 channels from URL: د URL څخه چینلونه
 Check for updates: د تازه معلوماتو لپاره وګورئ
-Check URLs: URLs چیک کړئ
-Clear: روښانه
-Close: تړل
-Delete Group: ګروپ ړنګ کړئ
 Description: تفصیل
 Details: جزیات
 Do you want to load the edited playlist now?: ایا تاسو غواړئ چې ترمیم شوی پلی لیست اوس پورته کړئ؟
 Downloading playlist...: د پلی لیست ډاونلوډ کول...
 Edit Playlist: پلی لیست سمول
 End (local): پای (محلي)
-Enrich with EPG: د EPG سره بډایه کړئ
 Enter M3U URL:: M3U URL داخل کړئ:
-EPG service is not available. Load a playlist with EPG data first.: د EPG خدمت شتون نلري. لومړی د EPG ډیټا سره یو پلی لیست پورته کړئ.
+EPG Matching Threshold: د EPG میچ کولو حد
+EPG Source: د EPG سرچینه
 Error: تېروتنه
 Error loading: په بارولو کې تېروتنه
 Error loading playlists: {0}: د پلی لیستونو په پورته کولو کې تېروتنه: {0}
 ERROR: player.html not found.: تېروتنه: player.html ونه موندل شو.
-Export Failed: صادرات ناکام شول
 Export Favorites: د خوښې صادرول
-Export Filtered JSON: فلټر شوي JSON صادر کړئ
-Export Filtered M3U: فلټر شوي M3U صادر کړئ
-Export JSON: JSON صادر کړئ
-Export OK: سم صادر کړئ
 Extracting update...: تازه استخراج...
 Failed to download playlist: د پلی لیست ډاونلوډ کولو کې پاتې راغلی
 Failed to load playlist: د پلی لیست په پورته کولو کې پاتې راغلی
-FILTERS: فلټرونه
 GitHub Error: د GitHub تېروتنه
 Help: مرسته
 Hide List: لیست پټ کړئ
-Import JSON: JSON وارد کړئ
 Info: معلومات
 Invalid playlist URL.: ناسم پلی لیست URL.
 Invalid URL.: ناسم URL.
@@ -52,8 +38,10 @@ LOAD: لوډ
 Load a playlist first.: لومړی یو پلی لیست پورته کړئ.
 Loaded: بار شوی
 Loading...: بار کول...
+Logos Matching Threshold: د لوګو سره سمون خوري
+Logos Source: د لوګو سرچینه
+Logos Subfolder: د لوګو فرعي فولډر
 Network error: د شبکې تېروتنه
-New Playlist: نوی پلی لیست
 No .m3u files found on GitHub repository.: په GitHub ذخیره کې هیڅ .m3u فایلونه ندي موندل شوي.
 No favorite channels to export.: د صادرولو لپاره هیڅ غوره چینل نشته.
 No playlist found: هیڅ پلی لیست ونه موندل شو
@@ -66,12 +54,10 @@ Player ready.: لوبغاړی چمتو دی.
 Please select a program first.: مهرباني وکړئ لومړی یو برنامه غوره کړئ.
 Program Details: د پروګرام جزئیات
 Refresh: تازه کړئ
+Refresh EPG List: د EPG لیست تازه کړئ
 Refresh from GitHub: له GitHub څخه تازه کړئ
-Rename Group: د ګروپ نوم بدل کړئ
 SAVE: خوندي کړئ
-Save As M3U: د M3U په توګه خوندي کړئ
 Save Playlist: د پلی لیست خوندي کړئ
-Save Status: د وضعیت خوندي کول
 Search channels...: چینلونه وپلټئ...
 Select a playlist first.: لومړی یو پلی لیست غوره کړئ.
 Select Theme: موضوع غوره کړئ

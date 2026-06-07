@@ -1,49 +1,35 @@
 ﻿(No description): (Ingen beskrivelse)
 A new version is available. Do you want to update now?: En ny version er tilgængelig. Vil du opdatere nu?
 About: Om
-Add Group: Tilføj gruppe
-Apply: Anvende
 Apply changes: Anvend ændringer
 Buffer (seconds): Buffer (sekunder)
 CANCEL: OPHÆVE
-Cannot Enrich: Kan ikke berige
 Cannot open browser: Kan ikke åbne browseren
 Category: Kategori
 Channel:: Kanal:
 channels from: kanaler fra
 channels from URL: kanaler fra URL
 Check for updates: Se efter opdateringer
-Check URLs: Tjek URL'er
-Clear: Klar
-Close: Tæt
-Delete Group: Slet gruppe
 Description: Beskrivelse
 Details: Detaljer
 Do you want to load the edited playlist now?: Vil du indlæse den redigerede afspilningsliste nu?
 Downloading playlist...: Downloader afspilningsliste...
 Edit Playlist: Rediger afspilningsliste
 End (local): Slut (lokal)
-Enrich with EPG: Berig med EPG
 Enter M3U URL:: Indtast M3U URL:
-EPG service is not available. Load a playlist with EPG data first.: EPG-tjeneste er ikke tilgængelig. Indlæs en afspilningsliste med EPG-data først.
+EPG Matching Threshold: EPG Matching Threshold
+EPG Source: EPG-kilde
 Error: Fejl
 Error loading: Fejl ved indlæsning
 Error loading playlists: {0}: Fejl ved indlæsning af afspilningslister: {0}
 ERROR: player.html not found.: FEJL: player.html ikke fundet.
-Export Failed: Eksport mislykkedes
 Export Favorites: Eksporter favoritter
-Export Filtered JSON: Eksporter filtreret JSON
-Export Filtered M3U: Eksporter filtreret M3U
-Export JSON: Eksporter JSON
-Export OK: Eksporter OK
 Extracting update...: Udpakker opdatering...
 Failed to download playlist: Afspilningslisten kunne ikke downloades
 Failed to load playlist: Afspilningslisten kunne ikke indlæses
-FILTERS: FILTRE
 GitHub Error: GitHub-fejl
 Help: Hjælp
 Hide List: Skjul liste
-Import JSON: Importer JSON
 Info: Info
 Invalid playlist URL.: Ugyldig afspilningsliste-URL.
 Invalid URL.: Ugyldig URL.
@@ -52,8 +38,10 @@ LOAD: LÆS
 Load a playlist first.: Indlæs en afspilningsliste først.
 Loaded: Indlæst
 Loading...: Indlæser...
+Logos Matching Threshold: Logos matchende tærskel
+Logos Source: Logos kilde
+Logos Subfolder: Logoer undermappe
 Network error: Netværksfejl
-New Playlist: Ny afspilningsliste
 No .m3u files found on GitHub repository.: Ingen .m3u-filer fundet på GitHub-lageret.
 No favorite channels to export.: Ingen favoritkanaler at eksportere.
 No playlist found: Ingen afspilningsliste fundet
@@ -66,12 +54,10 @@ Player ready.: Spiller klar.
 Please select a program first.: Vælg venligst et program først.
 Program Details: Program detaljer
 Refresh: Opfriske
+Refresh EPG List: Opdater EPG-listen
 Refresh from GitHub: Opdater fra GitHub
-Rename Group: Omdøb gruppe
 SAVE: SPARE
-Save As M3U: Gem som M3U
 Save Playlist: Gem afspilningsliste
-Save Status: Gem status
 Search channels...: Søg efter kanaler...
 Select a playlist first.: Vælg først en afspilningsliste.
 Select Theme: Vælg tema

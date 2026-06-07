@@ -1,49 +1,35 @@
 ﻿(No description): (គ្មានការពិពណ៌នា)
 A new version is available. Do you want to update now?: កំណែថ្មីអាចរកបាន។ តើអ្នកចង់អាប់ដេតឥឡូវនេះទេ?
 About: អំពី
-Add Group: បន្ថែមក្រុម
-Apply: អនុវត្ត
 Apply changes: អនុវត្តការផ្លាស់ប្តូរ
 Buffer (seconds): សតិបណ្ដោះអាសន្ន (វិនាទី)
 CANCEL: បោះបង់
-Cannot Enrich: មិនអាចបង្កើន
 Cannot open browser: មិនអាចបើកកម្មវិធីរុករកបានទេ។
 Category: ប្រភេទ
 Channel:: ឆានែល៖
 channels from: ឆានែលពី
 channels from URL: ឆានែលពី URL
 Check for updates: ពិនិត្យមើលបច្ចុប្បន្នភាព
-Check URLs: ពិនិត្យ URLs
-Clear: ច្បាស់
-Close: បិទ
-Delete Group: លុបក្រុម
 Description: ការពិពណ៌នា
 Details: ព័ត៌មានលម្អិត
 Do you want to load the edited playlist now?: តើអ្នកចង់ផ្ទុកបញ្ជីចាក់ដែលបានកែសម្រួលឥឡូវនេះទេ?
 Downloading playlist...: កំពុងទាញយកបញ្ជីចាក់...
 Edit Playlist: កែសម្រួលបញ្ជីចាក់
 End (local): បញ្ចប់ (ក្នុងស្រុក)
-Enrich with EPG: ពង្រឹងជាមួយ EPG
 Enter M3U URL:: បញ្ចូល M3U URL៖
-EPG service is not available. Load a playlist with EPG data first.: សេវាកម្ម EPG មិនមានទេ។ ផ្ទុកបញ្ជីចាក់ជាមួយទិន្នន័យ EPG ជាមុនសិន។
+EPG Matching Threshold: កម្រិតនៃការផ្គូផ្គង EPG
+EPG Source: ប្រភព EPG
 Error: កំហុស
 Error loading: កំហុសក្នុងការផ្ទុក
 Error loading playlists: {0}: មាន​បញ្ហា​ក្នុង​ការ​ផ្ទុក​បញ្ជី​ចាក់៖ {0}
 ERROR: player.html not found.: កំហុស៖ player.html រកមិនឃើញទេ។
-Export Failed: ការនាំចេញបរាជ័យ
 Export Favorites: នាំចេញចំណូលចិត្ត
-Export Filtered JSON: នាំចេញ JSON ដែលបានត្រង
-Export Filtered M3U: នាំចេញ M3U ដែលបានត្រង
-Export JSON: នាំចេញ JSON
-Export OK: នាំចេញយល់ព្រម
 Extracting update...: កំពុងទាញយកបច្ចុប្បន្នភាព...
 Failed to download playlist: បានបរាជ័យក្នុងការទាញយកបញ្ជីចាក់
 Failed to load playlist: បានបរាជ័យក្នុងការផ្ទុកបញ្ជីចាក់
-FILTERS: តម្រង
 GitHub Error: កំហុស GitHub
 Help: ជំនួយ
 Hide List: លាក់បញ្ជី
-Import JSON: នាំចូល JSON
 Info: ព័ត៌មាន
 Invalid playlist URL.: URL បញ្ជីចាក់មិនត្រឹមត្រូវ។
 Invalid URL.: URL មិនត្រឹមត្រូវ។
@@ -52,8 +38,10 @@ LOAD: ផ្ទុក
 Load a playlist first.: ផ្ទុកបញ្ជីចាក់ជាមុនសិន។
 Loaded: ផ្ទុក
 Loading...: កំពុង​ផ្ទុក...
+Logos Matching Threshold: កម្រិតនៃការផ្គូផ្គងរូបសញ្ញា
+Logos Source: ប្រភពឡូហ្គោស
+Logos Subfolder: ថតរងឡូហ្គោ
 Network error: កំហុសបណ្តាញ
-New Playlist: បញ្ជីចាក់ថ្មី។
 No .m3u files found on GitHub repository.: រកមិនឃើញឯកសារ .m3u នៅលើឃ្លាំង GitHub ទេ។
 No favorite channels to export.: គ្មានបណ្តាញដែលចូលចិត្តដើម្បីនាំចេញទេ។
 No playlist found: រកមិនឃើញបញ្ជីចាក់ទេ។
@@ -66,12 +54,10 @@ Player ready.: អ្នកលេងរួចរាល់។
 Please select a program first.: សូមជ្រើសរើសកម្មវិធីជាមុនសិន។
 Program Details: ព័ត៌មានលម្អិតអំពីកម្មវិធី
 Refresh: ធ្វើឱ្យស្រស់
+Refresh EPG List: ធ្វើឱ្យបញ្ជី EPG ឡើងវិញ
 Refresh from GitHub: ផ្ទុកឡើងវិញពី GitHub
-Rename Group: ប្តូរឈ្មោះក្រុម
 SAVE: រក្សាទុក
-Save As M3U: រក្សាទុកជា M3U
 Save Playlist: រក្សាទុកបញ្ជីចាក់
-Save Status: រក្សាទុកស្ថានភាព
 Search channels...: ស្វែងរកប៉ុស្តិ៍...
 Select a playlist first.: ជ្រើសរើសបញ្ជីចាក់ជាមុនសិន។
 Select Theme: ជ្រើសរើសប្រធានបទ

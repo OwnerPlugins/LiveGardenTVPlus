@@ -1,49 +1,35 @@
 ﻿(No description): (brez opisa)
 A new version is available. Do you want to update now?: Na voljo je nova različica. Ali želite posodobiti zdaj?
 About: O tem
-Add Group: Dodaj skupino
-Apply: Prijavite se
 Apply changes: Uporabi spremembe
 Buffer (seconds): Medpomnilnik (sekunde)
 CANCEL: PREKLIC
-Cannot Enrich: Ne morem obogatiti
 Cannot open browser: Brskalnika ni mogoče odpreti
 Category: Kategorija
 Channel:: Kanal:
 channels from: kanali iz
 channels from URL: kanalov iz naslova URL
 Check for updates: Preverite posodobitve
-Check URLs: Preverite URL-je
-Clear: jasno
-Close: Zapri
-Delete Group: Izbriši skupino
 Description: Opis
 Details: Podrobnosti
 Do you want to load the edited playlist now?: Ali želite zdaj naložiti urejen seznam predvajanja?
 Downloading playlist...: Prenašanje seznama predvajanja ...
 Edit Playlist: Uredi seznam predvajanja
 End (local): Konec (lokalno)
-Enrich with EPG: Obogatite z EPG
 Enter M3U URL:: Vnesite URL M3U:
-EPG service is not available. Load a playlist with EPG data first.: Storitev EPG ni na voljo. Najprej naložite seznam predvajanja s podatki EPG.
+EPG Matching Threshold: Prag ujemanja EPG
+EPG Source: Vir EPG
 Error: Napaka
 Error loading: Napaka pri nalaganju
 Error loading playlists: {0}: Napaka pri nalaganju seznamov predvajanja: {0}
 ERROR: player.html not found.: NAPAKA: player.html ni najden.
-Export Failed: Izvoz ni uspel
 Export Favorites: Izvoz priljubljenih
-Export Filtered JSON: Izvozi filtriran JSON
-Export Filtered M3U: Izvoz filtriranega M3U
-Export JSON: Izvoz JSON
-Export OK: Izvoz OK
 Extracting update...: Ekstrahiranje posodobitve ...
 Failed to download playlist: Prenos seznama predvajanja ni uspel
 Failed to load playlist: Seznama predvajanja ni bilo mogoče naložiti
-FILTERS: FILTRI
 GitHub Error: Napaka GitHub
 Help: pomoč
 Hide List: Skrij seznam
-Import JSON: Uvoz JSON
 Info: Informacije
 Invalid playlist URL.: Neveljaven URL seznama predvajanja.
 Invalid URL.: Neveljaven URL.
@@ -52,8 +38,10 @@ LOAD: NALOŽITEV
 Load a playlist first.: Najprej naložite seznam predvajanja.
 Loaded: Naloženo
 Loading...: Nalaganje...
+Logos Matching Threshold: Prag ujemanja logotipov
+Logos Source: Izvor logotipov
+Logos Subfolder: Podmapa Logotipi
 Network error: Omrežna napaka
-New Playlist: Nov seznam predvajanja
 No .m3u files found on GitHub repository.: V repozitoriju GitHub ni bilo mogoče najti datotek .m3u.
 No favorite channels to export.: Ni priljubljenih kanalov za izvoz.
 No playlist found: Ni seznama predvajanja
@@ -66,12 +54,10 @@ Player ready.: Igralec pripravljen.
 Please select a program first.: Najprej izberite program.
 Program Details: Podrobnosti programa
 Refresh: Osveži
+Refresh EPG List: Osveži seznam EPG
 Refresh from GitHub: Osveži iz GitHub
-Rename Group: Preimenuj skupino
 SAVE: SHRANI
-Save As M3U: Shrani kot M3U
 Save Playlist: Shrani seznam predvajanja
-Save Status: Shrani stanje
 Search channels...: Iskanje kanalov ...
 Select a playlist first.: Najprej izberite seznam predvajanja.
 Select Theme: Izberite Tema

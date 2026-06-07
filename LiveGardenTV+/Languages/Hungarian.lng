@@ -1,49 +1,35 @@
 ﻿(No description): (Nincs leírás)
 A new version is available. Do you want to update now?: Új verzió érhető el. Szeretné most frissíteni?
 About: Körülbelül
-Add Group: Csoport hozzáadása lehetőségre
-Apply: Alkalmazni
 Apply changes: Alkalmazza a változtatásokat
 Buffer (seconds): Puffer (másodperc)
 CANCEL: MÉGSEM
-Cannot Enrich: Nem lehet gazdagítani
 Cannot open browser: A böngészőt nem lehet megnyitni
 Category: Kategória
 Channel:: Csatorna:
 channels from: csatornák innen
 channels from URL: csatornák az URL-ből
 Check for updates: Ellenőrizze a frissítéseket
-Check URLs: Ellenőrizze az URL-eket
-Clear: Világos
-Close: Közeli
-Delete Group: Csoport törlése
 Description: Leírás
 Details: Részletek
 Do you want to load the edited playlist now?: Szeretné most betölteni a szerkesztett lejátszási listát?
 Downloading playlist...: Lejátszási lista letöltése...
 Edit Playlist: Lejátszási lista szerkesztése
 End (local): Vége (helyi)
-Enrich with EPG: Gazdagítsa EPG-vel
 Enter M3U URL:: Írja be az M3U URL-t:
-EPG service is not available. Load a playlist with EPG data first.: Az EPG szolgáltatás nem elérhető. Először töltsön be egy lejátszási listát az EPG-adatokkal.
+EPG Matching Threshold: EPG egyezési küszöb
+EPG Source: EPG forrás
 Error: Hiba
 Error loading: Hiba a betöltés során
 Error loading playlists: {0}: Hiba a lejátszási listák betöltésekor: {0}
 ERROR: player.html not found.: HIBA: player.html nem található.
-Export Failed: Az exportálás sikertelen
 Export Favorites: Kedvencek exportálása
-Export Filtered JSON: Szűrt JSON exportálása
-Export Filtered M3U: Szűrt M3U exportálása
-Export JSON: JSON exportálása
-Export OK: Export OK
 Extracting update...: Frissítés kicsomagolása...
 Failed to download playlist: Nem sikerült letölteni a lejátszási listát
 Failed to load playlist: Nem sikerült betölteni a lejátszási listát
-FILTERS: SZŰRŐK
 GitHub Error: GitHub hiba
 Help: Segítség
 Hide List: Lista elrejtése
-Import JSON: JSON importálása
 Info: Info
 Invalid playlist URL.: Érvénytelen lejátszási lista URL-je.
 Invalid URL.: Érvénytelen URL.
@@ -52,8 +38,10 @@ LOAD: TERHELÉS
 Load a playlist first.: Először töltsön be egy lejátszási listát.
 Loaded: Töltött
 Loading...: Terhelés...
+Logos Matching Threshold: Logók egyezési küszöbértéke
+Logos Source: Logók forrása
+Logos Subfolder: Logók almappa
 Network error: Hálózati hiba
-New Playlist: Új lejátszási lista
 No .m3u files found on GitHub repository.: Nem található .m3u fájl a GitHub tárhelyen.
 No favorite channels to export.: Nincsenek exportálható kedvenc csatornák.
 No playlist found: Nem található lejátszási lista
@@ -66,12 +54,10 @@ Player ready.: A lejátszó készen áll.
 Please select a program first.: Kérjük, először válasszon programot.
 Program Details: Program részletei
 Refresh: Frissítés
+Refresh EPG List: EPG-lista frissítése
 Refresh from GitHub: Frissítés a GitHubról
-Rename Group: Csoport átnevezése
 SAVE: MEGTAKARÍTÁS
-Save As M3U: Mentés M3U néven
 Save Playlist: Lejátszási lista mentése
-Save Status: Állapot mentése
 Search channels...: Csatornák keresése...
 Select a playlist first.: Először válasszon ki egy lejátszási listát.
 Select Theme: Válassza a Témát

@@ -115,7 +115,7 @@ namespace LiveGardenTVPlus.Services
             {
                 Debug.WriteLine($"EPG load error: {ex.Message}");
             }
-            
+
 
         }
 
@@ -124,7 +124,7 @@ namespace LiveGardenTVPlus.Services
             return _channels.Any(c => c.Id == channelId);
         }
 
-         public string GetMappedEpgId(string channelName)
+        public string GetMappedEpgId(string channelName)
         {
             return GetBestMatchingEpgChannel(channelName);
         }
@@ -198,8 +198,9 @@ namespace LiveGardenTVPlus.Services
             return null;
         }
 
-        private string GetBestMatchingEpgChannel(string channelName)
+        private string GetBestMatchingEpgChannel(string channelName, double? threshold = null)
         {
+            double actualThreshold = threshold ?? UserPreferences.Load().EpgMatchingThreshold;
             if (string.IsNullOrEmpty(channelName)) return null;
 
             // Check cache

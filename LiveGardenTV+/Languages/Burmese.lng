@@ -1,49 +1,35 @@
 ﻿(No description): (ဖော်ပြချက်မရှိပါ)
 A new version is available. Do you want to update now?: ဗားရှင်းအသစ်တစ်ခု ရပါပြီ။ ယခု အပ်ဒိတ်လုပ်လိုပါသလား။
 About: အကြောင်း
-Add Group: အုပ်စုထည့်ပါ။
-Apply: လျှောက်ထားပါ။
 Apply changes: အပြောင်းအလဲများကို အသုံးချပါ။
 Buffer (seconds): ကြားခံ (စက္ကန့်)
 CANCEL: မလုပ်တော့ပါ။
-Cannot Enrich: မကြွယ်ဝနိုင်ပါ။
 Cannot open browser: ဘရောက်ဆာကို ဖွင့်၍မရပါ။
 Category: အမျိုးအစား
 Channel:: ချန်နယ်-
 channels from: ချန်နယ်များမှ
 channels from URL: URL မှ ချန်နယ်များ
 Check for updates: အပ်ဒိတ်များအတွက် စစ်ဆေးပါ။
-Check URLs: URL များကို စစ်ဆေးပါ။
-Clear: ရှင်းပါတယ်။
-Close: ပိတ်လိုက်
-Delete Group: အဖွဲ့ကိုဖျက်ပါ။
 Description: ဖော်ပြချက်
 Details: အသေးစိတ်
 Do you want to load the edited playlist now?: တည်းဖြတ်ထားသော အစီအစဉ်ကို ယခုဖွင့်လိုပါသလား။
 Downloading playlist...: အစီအစဉ်ကို ဒေါင်းလုဒ်လုပ်နေသည်...
 Edit Playlist: အစီအစဉ်ကို တည်းဖြတ်ပါ။
 End (local): အဆုံး (ပြည်တွင်း)
-Enrich with EPG: EPG ဖြင့် ကြွယ်ဝစေပါသည်။
-Enter M3U URL:: M3U URL ကို ထည့်ပါ
-EPG service is not available. Load a playlist with EPG data first.: EPG ဝန်ဆောင်မှုကို မရရှိနိုင်ပါ။ ပထမဦးစွာ EPG ဒေတာဖြင့် ပြသရန်စာရင်းကို ရယူပါ။
+Enter M3U URL:: M3U URL ထည့်ပါ
+EPG Matching Threshold: EPG Matching Threshold
+EPG Source: EPG အရင်းအမြစ်
 Error: အမှား
 Error loading: တင်ရာတွင် အမှားအယွင်းရှိသည်။
 Error loading playlists: {0}: အစီအစဉ်များကို တင်ရာတွင် အမှားအယွင်းရှိပါသည်- {0}
 ERROR: player.html not found.: အမှား- player.html မတွေ့ပါ။
-Export Failed: တင်ပို့မှု မအောင်မြင်ပါ။
 Export Favorites: စိတ်ကြိုက်များကို တင်ပို့ပါ။
-Export Filtered JSON: စစ်ထုတ်ထားသော JSON ကို ထုတ်ယူပါ။
-Export Filtered M3U: စစ်ထုတ်ထားသော M3U ကို ထုတ်ယူပါ။
-Export JSON: JSON ကို ထုတ်ယူပါ။
-Export OK: Export OK
 Extracting update...: အပ်ဒိတ်ကို ထုတ်ယူနေသည်...
 Failed to download playlist: အစီအစဉ်ကို ဒေါင်းလုဒ်လုပ်ရန် မအောင်မြင်ပါ။
 Failed to load playlist: အစီအစဉ်ကို ဖွင့်၍မရပါ။
-FILTERS: စစ်ထုတ်မှုများ
 GitHub Error: GitHub အမှား
 Help: ကူညီကြပါ
 Hide List: စာရင်းဖျောက်ပါ။
-Import JSON: JSON ကို ထည့်သွင်းပါ။
 Info: အချက်အလက်
 Invalid playlist URL.: မမှန်ကန်သော အစီအစဉ် URL။
 Invalid URL.: မမှန်ကန်သော URL
@@ -52,8 +38,10 @@ LOAD: Load လုပ်ပါ။
 Load a playlist first.: အစီအစဉ်တစ်ခုကို ဦးစွာဖွင့်ပါ။
 Loaded: ဘဝတူ
 Loading...: ဖွင့်နေသည်...
+Logos Matching Threshold: Logos ကိုက်ညီမှုအဆင့်
+Logos Source: Logos အရင်းအမြစ်
+Logos Subfolder: Logos ဖိုင်တွဲခွဲ
 Network error: ကွန်ရက် အမှားအယွင်း
-New Playlist: အစီအစဉ်အသစ်
 No .m3u files found on GitHub repository.: GitHub repository တွင် .m3u ဖိုင်များကိုမတွေ့ပါ။
 No favorite channels to export.: တင်ပို့ရန် အကြိုက်ဆုံးချန်နယ်များ မရှိပါ။
 No playlist found: ပြသစာရင်းမတွေ့ပါ။
@@ -66,12 +54,10 @@ Player ready.: ကစားသမား အဆင်သင့်ဖြစ်န�
 Please select a program first.: ပရိုဂရမ်တစ်ခုကို ဦးစွာရွေးချယ်ပါ။
 Program Details: အစီအစဉ်အသေးစိတ်
 Refresh: ပြန်လည်စတင်ပါ။
+Refresh EPG List: EPG စာရင်းကို ပြန်လည်စတင်ပါ။
 Refresh from GitHub: GitHub မှ ပြန်လည်စတင်ပါ။
-Rename Group: အဖွဲ့အမည်ပြောင်းပါ။
 SAVE: သိမ်းဆည်းပါ။
-Save As M3U: M3U အဖြစ် သိမ်းဆည်းပါ။
 Save Playlist: အစီအစဉ်ကို သိမ်းဆည်းပါ။
-Save Status: အဆင့်အတန်းကို သိမ်းဆည်းပါ။
 Search channels...: ချန်နယ်များကို ရှာဖွေပါ...
 Select a playlist first.: အစီအစဉ်တစ်ခုကို ဦးစွာရွေးချယ်ပါ။
 Select Theme: Theme ကို ရွေးပါ။

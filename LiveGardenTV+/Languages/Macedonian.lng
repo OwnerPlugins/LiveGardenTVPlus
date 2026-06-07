@@ -1,49 +1,35 @@
 ﻿(No description): (Без опис)
 A new version is available. Do you want to update now?: Достапна е нова верзија. Дали сакате да ажурирате сега?
 About: За
-Add Group: Додај група
-Apply: Пријавете се
 Apply changes: Примени промени
 Buffer (seconds): Бафер (секунди)
 CANCEL: ОТКАЖИ
-Cannot Enrich: Не може да се збогати
 Cannot open browser: Не може да се отвори прелистувачот
 Category: Категорија
 Channel:: Канал:
 channels from: канали од
 channels from URL: канали од URL
 Check for updates: Проверете дали има ажурирања
-Check URLs: Проверете ги URL-адресите
-Clear: Јасно
-Close: Затвори
-Delete Group: Избриши група
 Description: Опис
 Details: Детали
 Do you want to load the edited playlist now?: Дали сакате да ја вчитате изменетата плејлиста сега?
 Downloading playlist...: Се презема плејлиста...
 Edit Playlist: Уреди плејлиста
 End (local): Крај (локално)
-Enrich with EPG: Збогатете се со EPG
 Enter M3U URL:: Внесете URL на M3U:
-EPG service is not available. Load a playlist with EPG data first.: Услугата EPG не е достапна. Прво вчитајте плејлиста со EPG податоци.
+EPG Matching Threshold: Праг за совпаѓање на EPG
+EPG Source: EPG Извор
 Error: Грешка
 Error loading: Грешка при вчитување
 Error loading playlists: {0}: Грешка при вчитување плејлисти: {0}
 ERROR: player.html not found.: ГРЕШКА: player.html не е пронајден.
-Export Failed: Извозот не успеа
 Export Favorites: Извезете ги омилените
-Export Filtered JSON: Извези филтриран JSON
-Export Filtered M3U: Извези филтриран M3U
-Export JSON: Извезете JSON
-Export OK: Извези во ред
 Extracting update...: Се извлекува ажурирање...
 Failed to download playlist: Не успеа да се преземе плејлистата
 Failed to load playlist: Не успеа да се вчита плејлистата
-FILTERS: ФИЛТРИ
 GitHub Error: Грешка во GitHub
 Help: Помош
 Hide List: Скриј список
-Import JSON: Увезете JSON
 Info: Инфо
 Invalid playlist URL.: Неважечка URL-адреса на плејлистата.
 Invalid URL.: Неважечка URL-адреса.
@@ -52,8 +38,10 @@ LOAD: LOAD
 Load a playlist first.: Прво вчитајте плејлиста.
 Loaded: Вчитано
 Loading...: Се вчитува...
+Logos Matching Threshold: Праг за совпаѓање на логоа
+Logos Source: Извор на логоа
+Logos Subfolder: Подпапка со логоа
 Network error: Мрежна грешка
-New Playlist: Нова плејлиста
 No .m3u files found on GitHub repository.: Не се пронајдени датотеки .m3u на складиштето на GitHub.
 No favorite channels to export.: Нема омилени канали за извоз.
 No playlist found: Не е пронајдена плејлиста
@@ -66,12 +54,10 @@ Player ready.: Играчот е подготвен.
 Please select a program first.: Прво изберете програма.
 Program Details: Детали за програмата
 Refresh: Освежи
+Refresh EPG List: Освежете ја листата на EPG
 Refresh from GitHub: Освежете се од GitHub
-Rename Group: Преименувај група
 SAVE: ЗАЧУВАЈ
-Save As M3U: Зачувај како M3U
 Save Playlist: Зачувај плејлиста
-Save Status: Зачувај статус
 Search channels...: Пребарувајте канали...
 Select a playlist first.: Прво изберете плејлиста.
 Select Theme: Изберете Тема

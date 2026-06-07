@@ -1,49 +1,35 @@
 ﻿(No description): (Тодорхойлолт байхгүй)
 A new version is available. Do you want to update now?: Шинэ хувилбар гарсан байна. Та одоо шинэчлэхийг хүсч байна уу?
 About: тухай
-Add Group: Бүлэг нэмэх
-Apply: Өргөдөл гаргах
 Apply changes: Өөрчлөлтийг хэрэгжүүлэх
 Buffer (seconds): Буфер (секунд)
 CANCEL: Цуцлах
-Cannot Enrich: Баяжуулах боломжгүй
 Cannot open browser: Хөтөчийг нээж чадахгүй байна
 Category: Ангилал
 Channel:: Суваг:
 channels from: сувгууд
 channels from URL: URL-аас суваг
 Check for updates: Шинэчлэлт байгаа эсэхийг шалгана уу
-Check URLs: URL хаягуудыг шалгана уу
-Clear: Тодорхой
-Close: Хаах
-Delete Group: Бүлгийг устгах
 Description: Тодорхойлолт
 Details: Дэлгэрэнгүй мэдээлэл
 Do you want to load the edited playlist now?: Та засварласан тоглуулах жагсаалтыг одоо ачаалмаар байна уу?
 Downloading playlist...: Тоглуулах жагсаалтыг татаж байна...
 Edit Playlist: Тоглуулах жагсаалтыг засах
 End (local): Төгсгөл (орон нутгийн)
-Enrich with EPG: EPG-ээр баяжуулна
 Enter M3U URL:: M3U URL-г оруулна уу:
-EPG service is not available. Load a playlist with EPG data first.: EPG үйлчилгээ байхгүй байна. Эхлээд EPG өгөгдөл бүхий тоглуулах жагсаалтыг ачаална уу.
+EPG Matching Threshold: EPG тохирох босго
+EPG Source: EPG эх сурвалж
 Error: Алдаа
 Error loading: Ачаалахад алдаа гарлаа
 Error loading playlists: {0}: Тоглуулах жагсаалтыг ачаалахад алдаа гарсан: {0}
-ERROR: player.html not found.: АЛДАА: player.html олдсонгүй.
-Export Failed: Экспорт амжилтгүй боллоо
+ERROR: player.html not found.: ERROR: player.html not found.
 Export Favorites: Дуртай зүйлсийг экспортлох
-Export Filtered JSON: Шүүгдсэн JSON-г экспортлох
-Export Filtered M3U: Шүүлтүүртэй M3U экспортлох
-Export JSON: JSON экспортлох
-Export OK: Экспорт OK
 Extracting update...: Шинэчлэлтийг задалж байна...
 Failed to download playlist: Тоглуулах жагсаалтыг татаж авч чадсангүй
 Failed to load playlist: Тоглуулах жагсаалтыг ачаалж чадсангүй
-FILTERS: ШҮҮГҮҮР
 GitHub Error: GitHub алдаа
 Help: Туслаач
 Hide List: Жагсаалтыг нуух
-Import JSON: JSON импортлох
 Info: Мэдээлэл
 Invalid playlist URL.: Тоглуулах жагсаалтын URL буруу байна.
 Invalid URL.: Хүчингүй URL.
@@ -52,8 +38,10 @@ LOAD: Ачаалах
 Load a playlist first.: Эхлээд тоглуулах жагсаалтыг ачаална уу.
 Loaded: Ачаалагдсан
 Loading...: Ачааж байна...
+Logos Matching Threshold: Лого тохирох босго
+Logos Source: Логоны эх сурвалж
+Logos Subfolder: Логоны дэд хавтас
 Network error: Сүлжээний алдаа
-New Playlist: Шинэ тоглуулах жагсаалт
 No .m3u files found on GitHub repository.: GitHub репозитор дээр .m3u файл олдсонгүй.
 No favorite channels to export.: Экспортлох дуртай суваг алга.
 No playlist found: Тоглуулах жагсаалт олдсонгүй
@@ -66,12 +54,10 @@ Player ready.: Тоглогч бэлэн.
 Please select a program first.: Эхлээд програмаа сонгоно уу.
 Program Details: Хөтөлбөрийн дэлгэрэнгүй мэдээлэл
 Refresh: Сэргээх
+Refresh EPG List: EPG жагсаалтыг шинэчлэх
 Refresh from GitHub: GitHub-с сэргээнэ үү
-Rename Group: Бүлгийн нэрийг өөрчлөх
 SAVE: ХАДГАЛАХ
-Save As M3U: M3U хэлбэрээр хадгалах
 Save Playlist: Тоглуулах жагсаалтыг хадгалах
-Save Status: Статусыг хадгалах
 Search channels...: Сувгууд хайх...
 Select a playlist first.: Эхлээд тоглуулах жагсаалтыг сонгоно уу.
 Select Theme: Сэдвийг сонгоно уу

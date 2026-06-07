@@ -1,49 +1,35 @@
 ﻿(No description): (Deskribapenik ez)
 A new version is available. Do you want to update now?: Bertsio berri bat dago eskuragarri. Orain eguneratu nahi duzu?
 About: Buruz
-Add Group: Gehitu taldea
-Apply: Aplikatu
 Apply changes: Aplikatu aldaketak
 Buffer (seconds): Buffer (segundoak)
 CANCEL: Utzi
-Cannot Enrich: Ezin Aberastu
 Cannot open browser: Ezin da arakatzailea ireki
 Category: Kategoria
 Channel:: Kanala:
 channels from: kanalak
 channels from URL: URLtik kanalak
 Check for updates: Egiaztatu eguneratzeak
-Check URLs: Egiaztatu URLak
-Clear: Garbi
-Close: Itxi
-Delete Group: Ezabatu taldea
 Description: Deskribapena
 Details: Xehetasunak
 Do you want to load the edited playlist now?: Editatutako erreprodukzio-zerrenda kargatu nahi duzu orain?
 Downloading playlist...: Erreprodukzio zerrenda deskargatzen...
 Edit Playlist: Editatu erreprodukzio zerrenda
 End (local): Amaiera (tokikoa)
-Enrich with EPG: EPGarekin aberastu
 Enter M3U URL:: Sartu M3U URLa:
-EPG service is not available. Load a playlist with EPG data first.: EPG zerbitzua ez dago erabilgarri. Kargatu lehenik EPG datuekin erreprodukzio-zerrenda bat.
+EPG Matching Threshold: EPG bat datorren atalasea
+EPG Source: EPG iturria
 Error: Errorea
 Error loading: Errore bat gertatu da kargatzean
 Error loading playlists: {0}: Errore bat gertatu da erreprodukzio-zerrendak kargatzean: {0}
 ERROR: player.html not found.: ERROREA: player.html ez da aurkitu.
-Export Failed: Esportatu huts egin du
 Export Favorites: Esportatu gogokoak
-Export Filtered JSON: Esportatu iragazitako JSON
-Export Filtered M3U: Esportatu iragazitako M3U
-Export JSON: Esportatu JSON
-Export OK: Esportatu OK
 Extracting update...: Eguneraketa ateratzen...
 Failed to download playlist: Ezin izan da deskargatu erreprodukzio-zerrenda
 Failed to load playlist: Ezin izan da kargatu erreprodukzio-zerrenda
-FILTERS: IRAGAZKIAK
 GitHub Error: GitHub errorea
 Help: Laguntza
 Hide List: Ezkutatu Zerrenda
-Import JSON: Inportatu JSON
 Info: Info
 Invalid playlist URL.: Erreprodukzio-zerrendaren URL baliogabea.
 Invalid URL.: URL baliogabea.
@@ -52,8 +38,10 @@ LOAD: ZARGA
 Load a playlist first.: Kargatu erreprodukzio-zerrenda bat lehenik.
 Loaded: Kargatu
 Loading...: Kargatzen...
+Logos Matching Threshold: Logotipoak bat datozen atalasea
+Logos Source: Logotipoen iturria
+Logos Subfolder: Logotipoen azpikarpeta
 Network error: Sareko errorea
-New Playlist: Erreprodukzio zerrenda berria
 No .m3u files found on GitHub repository.: Ez da .m3u fitxategirik aurkitu GitHub biltegian.
 No favorite channels to export.: Ez dago esportatzeko gogoko kanalik.
 No playlist found: Ez da aurkitu erreprodukzio zerrenda
@@ -66,12 +54,10 @@ Player ready.: Jokalari prest.
 Please select a program first.: Mesedez, hautatu programa bat lehenik.
 Program Details: Programaren xehetasunak
 Refresh: Freskatu
+Refresh EPG List: Freskatu EPG zerrenda
 Refresh from GitHub: Freskatu GitHub-etik
-Rename Group: Aldatu taldeari
 SAVE: GORDE
-Save As M3U: Gorde M3U gisa
 Save Playlist: Gorde erreprodukzio zerrenda
-Save Status: Gorde egoera
 Search channels...: Bilatu kanalak...
 Select a playlist first.: Hautatu erreprodukzio-zerrenda bat lehenik.
 Select Theme: Hautatu Gaia

@@ -85,13 +85,76 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
       <img src="Screenshots/preview12.jpg?sanitize=true&raw=true" title="preview12" width="400"/><br/>
       <b>Preview 12</b>
     </td>
+    <td align="center">
+      <img src="Screenshots/preview13.jpg?sanitize=true&raw=true" title="preview13" width="400"/><br/>
+      <b>Preview 13</b>
+    </td>
   </tr>
 
+  <tr>
+    <td align="center">
+      <img src="Screenshots/preview14.jpg?sanitize=true&raw=true" title="preview14" width="400"/><br/>
+      <b>Preview 14</b>
+    </td>
+  </tr>
 </table>
 
 ---
 
 ## Changelog
+
+# LiveGardenTVPlus – IPTV Player for Windows
+
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/OwnerPlugins/LiveGardenTVPlus)](https://github.com/OwnerPlugins/LiveGardenTVPlus/releases/latest)
+[![.NET](https://img.shields.io/badge/.NET-10.0-purple)](https://dotnet.microsoft.com/)
+[![WPF](https://img.shields.io/badge/UI-WPF-blue)](https://github.com/dotnet/wpf)
+[![WebView2](https://img.shields.io/badge/WebView2-hls.js-green)](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)
+
+[![Donate](https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://ko-fi.com/lululla)
+[![Donate](https://img.shields.io/badge/_-Donate-green.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://paypal.me/belfagor2005)
+
+**LiveGardenTVPlus** is a desktop IPTV player for Windows (WPF / .NET 10) that plays HLS streams (m3u8) using **WebView2** and **hls.js**.  
+It loads local or online M3U playlists, organizes channels by groups, and provides a modern, themeable interface.
+
+
+---
+## Changelog
+
+### 🆕 New Features & Improvements – Version 1.8
+
+### 🖼️ Remote Logos Management
+- **Logo Source Selector** – Choose from predefined repositories (OwnerPlugins/logos, picons/picons) or enter a custom URL in Settings.
+- **Subfolder Filtering** – Limit logos to specific folders (SNP, PROVIDER, ALL) for faster matching.
+- **Fetch Logos** – Automatically assign logos to playlist channels using fuzzy matching (Levenshtein distance) with adjustable threshold.
+- **Logo Picker Window** – Browse available logos with search, thumbnails (on/off toggle), and double‑click selection. Virtualized list for performance.
+- **Manual Logo Assignment** – Click the “...” button in the Logo cell to open the picker and assign a logo manually.
+- **Persistent Cache** – Logos index and thumbnails are cached locally. First load is slower; subsequent loads are instant.
+
+### 📺 EPG (Electronic Program Guide)
+- **Adjustable Matching Threshold** – Slider in Settings (0.5 – 1.0) controls how strictly channel names are matched to EPG ids. Lower = more matches, higher = exact or very similar names.
+- **EPG Source Selector** – Choose from multiple XMLTV files (epgshare01) or enter a custom URL (already present, now with threshold control).
+
+### 🛠️ Playlist Editor Enhancements
+- **Unified Save As** – Export playlist to M3U, JSON, or CSV from a single dialog.
+- **New Playlist Button** – Create an empty playlist directly from the editor.
+- **Reorganized Toolbar** – Buttons grouped into bordered sections (Playlist & Groups, URL Check, JSON, Filtered Export, EPG & LOGOS, Actions) for clarity.
+- **Enhanced Filters Section** – Each filter group has its own border and label; each field has a descriptive label above it.
+- **Improved Export Logic** – Channels without a valid URL are skipped when saving M3U (avoids empty entries).
+- **Group Management** – Add, rename, delete groups with multi‑select support; new group creates an empty channel row.
+
+### 🎨 Interface & Usability
+- **Dynamic Theme Support** – All UI elements (ComboBoxes, filter labels, etc.) now respect the selected theme. Added fallback brushes to prevent black backgrounds.
+- **Progress Feedback** – Deterministic progress bar during “Fetch Logos” (channel‑by‑channel) and indeterminate progress while downloading the logos index.
+- **Localization** – All new texts (threshold labels, logos picker, editor buttons, filter labels) are translatable via LanguageManager.
+
+### 🐛 Bug Fixes
+- Fixed `NullReferenceException` in LogoPickerWindow and SettingsWindow (added null checks and Loaded event initialization).
+- Fixed M3U export – URLs are no longer missing; channels without a valid URL are skipped.
+- Fixed PlaylistEditorWindow constructor – removed erroneous line that caused compile errors.
+- Fixed theme colors in SettingsWindow (ComboBoxes and labels now follow the selected theme).
+- Fixed filter section colors in PlaylistEditorWindow (text boxes and labels use dynamic resources).
+
+---
 
 ### 🆕 New Features & Improvements – Version 1.7
 
@@ -354,31 +417,39 @@ The executable will be in `bin/Release/net10.0-windows/`.
 LiveGardenTVPlus/
 ├── App.xaml / App.xaml.cs
 ├── MainWindow.xaml / MainWindow.xaml.cs
-├── Views/ logo, avatar.gif
+├── Views/
 │   ├── SettingsWindow.xaml(.cs)
 │   ├── AboutWindow.xaml(.cs)
 │   ├── PlaylistEditorWindow.xaml(.cs)
 │   ├── ColorPickerWindow.xaml(.cs)
-│   └── XtreamLoginDialog.xaml(.cs)
+│   ├── XtreamLoginDialog.xaml(.cs)
+│   ├── EpgWindow.xaml(.cs)
+│   └── LogoPickerWindow.xaml(.cs)
 ├── Converters/
 │   ├── StringToVisibilityConverter.cs
 │   ├── UrlToImageConverter.cs
 │   ├── BoolToStarKindConverter.cs
 │   ├── BoolToStarColorConverter.cs
+│   ├── BoolToVisibilityConverter.cs
 │   └── FirstUrlConverter.cs
 ├── Services/
 │   ├── M3uParser.cs
 │   ├── LanguageManager.cs
-│   ├── TranslationHelper.cs
+│   ├── TranslationHelper.cs (o TranslationService.cs)
 │   ├── FavoritesManager.cs
 │   ├── UserPreferences.cs
 │   ├── ThemeManager.cs
-│   └── GitHubPlaylistFetcher.cs
+│   ├── GitHubPlaylistFetcher.cs
+│   ├── EpgService.cs
+│   ├── LogoService.cs
+│   └── ImageCache.cs
 ├── Models/
 │   ├── Channel.cs
-│   ├── EpgModels.cs
+│   ├── EpgModels.cs (EpgChannel, EpgProgramme)
 │   ├── EpgProgram.cs
-│   └── ChannelGroup.cs
+│   ├── ChannelGroup.cs
+│   ├── ChannelJson.cs
+│   └── LogoInfo.cs
 ├── Updater/
 │   └── Updater.cs
 ├── Languages/              (92+ .lng files)

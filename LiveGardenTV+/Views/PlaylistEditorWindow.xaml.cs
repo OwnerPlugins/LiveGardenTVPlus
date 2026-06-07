@@ -6,11 +6,12 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 using LiveGardenTVPlus.Models;
 using LiveGardenTVPlus.Services;
 using Newtonsoft.Json;
-using System.Text.RegularExpressions;
-using System.Windows.Controls;
+using System.Windows.Input;
+using System.Windows.Threading;
 
 namespace LiveGardenTVPlus.Views
 {
@@ -19,21 +20,41 @@ namespace LiveGardenTVPlus.Views
         public ObservableCollection<ChannelJson> Channels { get; set; }
         public bool IsSaved { get; private set; }
         public string SavedFilePath { get; private set; }
-        private EpgService _epgService; 
+        private EpgService _epgService;
+        private List<LogoInfo> _cachedLogos;
+        private bool _isFetchingLogos = false;
+        private System.Windows.Threading.DispatcherTimer _progressTimer;
+        private DateTime _logoDownloadStartTime;
+
+        private void NewPlaylistBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (Channels.Count > 0)
+            {
+                var result = MessageBox.Show("This will clear the current playlist. Continue?", "New Playlist",
+                                              MessageBoxButton.YesNo, MessageBoxImage.Question);
+                if (result != MessageBoxResult.Yes) return;
+            }
+
+            Channels.Clear();
+            ClearFilterBtn_Click(null, null);
+            UpdateFilteredCount();
+            IsSaved = false;
+            SavedFilePath = null;
+            MessageBox.Show("New empty playlist created. Use 'Add Group' to create groups and then edit cells to add channels.",
+                            "Playlist Ready", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
 
         public PlaylistEditorWindow(List<Channel> channels, EpgService epgService = null)
         {
             InitializeComponent();
             DataContext = this;
             _epgService = epgService;
-            LanguageManager.LanguageChanged += OnLanguageChanged;
-            ApplyLanguage();
 
             // Convert Channel list to ChannelJson with safe initialization
             var editable = channels.Select(c => new ChannelJson
             {
                 name = c.Name,
-                stream_urls = new List<string> { c.Url },
+                stream_urls = string.IsNullOrEmpty(c.Url) ? new List<string>() : new List<string> { c.Url },
                 logo_url = c.Logo,
                 group = c.Group,
                 tvg_id = c.TvgId,
@@ -48,10 +69,10 @@ namespace LiveGardenTVPlus.Views
 
             Channels = new ObservableCollection<ChannelJson>(editable);
             ChannelsGrid.ItemsSource = Channels;
-
             UpdateFilteredCount();
             IsSaved = false;
             SavedFilePath = null;
+
             ChannelsGrid.SelectionChanged += (s, e) =>
             {
                 int count = ChannelsGrid.SelectedItems.Count;
@@ -59,30 +80,9 @@ namespace LiveGardenTVPlus.Views
             };
         }
 
-        private void OnLanguageChanged() => ApplyLanguage();
-
-        private void ApplyLanguage()
-        {
-            AddGroupBtn.Content = LanguageManager.GetTranslation("Add Group");
-            NewPlaylistBtn.Content = LanguageManager.GetTranslation("New Playlist");
-            RenameGroupBtn.Content = LanguageManager.GetTranslation("Rename Group");
-            DeleteGroupBtn.Content = LanguageManager.GetTranslation("Delete Group");
-            CheckUrlsBtn.Content = LanguageManager.GetTranslation("Check URLs");
-            SaveStatusBtn.Content = LanguageManager.GetTranslation("Save Status");
-            ImportJsonBtn.Content = LanguageManager.GetTranslation("Import JSON");
-            ExportJsonBtn.Content = LanguageManager.GetTranslation("Export JSON");
-            ExportOkBtn.Content = LanguageManager.GetTranslation("Export OK");
-            ExportFailedBtn.Content = LanguageManager.GetTranslation("Export Failed");
-            ExportFilteredM3uBtn.Content = LanguageManager.GetTranslation("Export Filtered M3U");
-            ExportFilteredJsonBtn.Content = LanguageManager.GetTranslation("Export Filtered JSON");
-            EnrichWithEpgBtn.Content = LanguageManager.GetTranslation("Enrich with EPG");
-            SaveBtn.Content = LanguageManager.GetTranslation("Save As M3U");
-            CloseBtn.Content = LanguageManager.GetTranslation("Close");
-            FilterLabel.Text = LanguageManager.GetTranslation("FILTERS");
-            ApplyFilterBtn.Content = LanguageManager.GetTranslation("Apply");
-            ClearFilterBtn.Content = LanguageManager.GetTranslation("Clear");
-        }
-
+        // ------------------------------------------------------------------
+        // Filtering
+        // ------------------------------------------------------------------
         private void UpdateFilteredCount()
         {
             var visible = ChannelsGrid.ItemsSource as IEnumerable<ChannelJson>;
@@ -138,6 +138,7 @@ namespace LiveGardenTVPlus.Views
         }
 
         private void ApplyFilterBtn_Click(object sender, RoutedEventArgs e) => ApplyFilter();
+
         private void ClearFilterBtn_Click(object sender, RoutedEventArgs e)
         {
             FilterName.Text = FilterUrl.Text = FilterGroup.Text = FilterLogo.Text = FilterTvgId.Text =
@@ -147,25 +148,9 @@ namespace LiveGardenTVPlus.Views
             ApplyFilter();
         }
 
-        // -------------------- Group Management with safety --------------------
-        private void NewPlaylistBtn_Click(object sender, RoutedEventArgs e)
-        {
-            if (Channels.Count > 0)
-            {
-                var result = MessageBox.Show("This will clear the current playlist. Continue?", "New Playlist", 
-                                              MessageBoxButton.YesNo, MessageBoxImage.Question);
-                if (result != MessageBoxResult.Yes) return;
-            }
-            
-            Channels.Clear();
-            ClearFilterBtn_Click(null, null);
-            UpdateFilteredCount();
-            IsSaved = false;
-            SavedFilePath = null;
-            MessageBox.Show("New empty playlist created. Use 'Add Group' to create groups and then edit cells to add channels.", 
-                            "Playlist Ready", MessageBoxButton.OK, MessageBoxImage.Information);
-        }
-
+        // ------------------------------------------------------------------
+        // Group management
+        // ------------------------------------------------------------------
         private void AddGroupBtn_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -189,7 +174,6 @@ namespace LiveGardenTVPlus.Views
                     UrlStatus = ""
                 };
                 Channels.Add(newChannel);
-                // Reset all filters to ensure the new channel is visible
                 ClearFilterBtn_Click(null, null);
                 MessageBox.Show($"Group '{newGroupName}' created with an empty channel.", "Group added", MessageBoxButton.OK, MessageBoxImage.Information);
             }
@@ -206,8 +190,7 @@ namespace LiveGardenTVPlus.Views
                 var selected = ChannelsGrid.SelectedItem as ChannelJson;
                 if (selected == null)
                 {
-                    MessageBox.Show("Select a channel from the group you want to rename.",
-                                    "No selection", MessageBoxButton.OK, MessageBoxImage.Information);
+                    MessageBox.Show("Select a channel from the group you want to rename.", "No selection", MessageBoxButton.OK, MessageBoxImage.Information);
                     return;
                 }
                 string oldGroup = selected.group ?? "";
@@ -234,8 +217,7 @@ namespace LiveGardenTVPlus.Views
                 var selected = ChannelsGrid.SelectedItem as ChannelJson;
                 if (selected == null)
                 {
-                    MessageBox.Show("Select a channel from the group you want to delete.",
-                                    "No selection", MessageBoxButton.OK, MessageBoxImage.Information);
+                    MessageBox.Show("Select a channel from the group you want to delete.", "No selection", MessageBoxButton.OK, MessageBoxImage.Information);
                     return;
                 }
                 string groupToDelete = selected.group ?? "";
@@ -248,8 +230,7 @@ namespace LiveGardenTVPlus.Views
                     Channels.Remove(ch);
 
                 UpdateFilteredCount();
-                MessageBox.Show($"Deleted {toRemove.Count} channel(s) from group '{groupToDelete}'.",
-                                "Group deleted", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show($"Deleted {toRemove.Count} channel(s) from group '{groupToDelete}'.", "Group deleted", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             catch (Exception ex)
             {
@@ -257,7 +238,9 @@ namespace LiveGardenTVPlus.Views
             }
         }
 
-        // -------------------- URL Check (unchanged but safe) --------------------
+        // ------------------------------------------------------------------
+        // URL check (only on visible/filtered channels)
+        // ------------------------------------------------------------------
         private async void CheckUrlsBtn_Click(object sender, RoutedEventArgs e)
         {
             var visibleChannels = ChannelsGrid.ItemsSource as IEnumerable<ChannelJson>;
@@ -279,8 +262,7 @@ namespace LiveGardenTVPlus.Views
         private void UpdateUrlStatus(KeyValuePair<ChannelJson, string> result)
         {
             result.Key.UrlStatus = result.Value;
-            // Refresh only the affected row
-            ChannelsGrid.Items.Refresh();
+            Dispatcher.Invoke(() => ChannelsGrid.Items.Refresh());
         }
 
         private void CheckAllUrls(List<ChannelJson> channelsToCheck, IProgress<KeyValuePair<ChannelJson, string>> progress)
@@ -324,83 +306,40 @@ namespace LiveGardenTVPlus.Views
             }
         }
 
-        private async void EnrichWithEpgBtn_Click(object sender, RoutedEventArgs e)
+        private void SaveStatusBtn_Click(object sender, RoutedEventArgs e)
         {
-            if (_epgService == null)
+            var visibleChannels = ChannelsGrid.ItemsSource as IEnumerable<ChannelJson>;
+            if (visibleChannels == null || !visibleChannels.Any())
             {
-                MessageBox.Show(LanguageManager.GetTranslation("EPG service is not available. Load a playlist with EPG data first."),
-                                LanguageManager.GetTranslation("Cannot Enrich"), MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("No channels to export (filters active but no results).", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
 
-            int enrichedCount = 0;
-            int alreadyHadCount = 0;
-
-            foreach (var ch in Channels)
+            var dialog = new Microsoft.Win32.SaveFileDialog
             {
-                if (!string.IsNullOrEmpty(ch.tvg_id))
-                {
-                    alreadyHadCount++;
-                    continue;
-                }
-
-                string epgId = _epgService.GetMappedEpgId(ch.name);
-                if (!string.IsNullOrEmpty(epgId))
-                {
-                    ch.tvg_id = epgId;
-                    enrichedCount++;
-                }
-            }
-
-        ChannelsGrid.Items.Refresh();
-
-        string message = $"Enrichment completed.\n" +
-                         $"- Channels already with tvg-id: {alreadyHadCount}\n" +
-                         $"- Newly enriched with EPG id: {enrichedCount}\n" +
-                         $"- Remaining without EPG: {Channels.Count - alreadyHadCount - enrichedCount}\n\n" +
-                         "Do you want to save the enriched playlist now?";
-
-        var result = MessageBox.Show(message, "Enrich M3U with EPG", MessageBoxButton.YesNo, MessageBoxImage.Question);
-
-        if (result == MessageBoxResult.Yes)
+                Filter = "CSV files|*.csv",
+                DefaultExt = ".csv",
+                FileName = "channel_status.csv"
+            };
+            if (dialog.ShowDialog() == true)
             {
-                // Open Save As dialog with multiple formats
-                var dialog = new Microsoft.Win32.SaveFileDialog
+                using (var writer = new StreamWriter(dialog.FileName))
                 {
-                    Filter = "M3U files|*.m3u|JSON files|*.json|CSV files|*.csv",
-                    DefaultExt = ".m3u",
-                    FileName = "enriched_playlist"
-                };
-
-                if (dialog.ShowDialog() == true)
-                {
-                    string filePath = dialog.FileName;
-                    string extension = System.IO.Path.GetExtension(filePath).ToLower();
-
-                    switch (extension)
+                    writer.WriteLine("Name,Group,URL,Status");
+                    foreach (var ch in visibleChannels)
                     {
-                        case ".m3u":
-                            ExportToM3u(filePath, Channels.ToList());
-                            break;
-                        case ".json":
-                            ExportToJson(filePath, Channels.ToList());
-                            break;
-                        case ".csv":
-                            ExportToCsv(filePath, Channels.ToList());
-                            break;
-                        default:
-                            MessageBox.Show("Unsupported file format.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                            return;
+                        string url = ch.stream_urls?.FirstOrDefault() ?? "";
+                        if (string.IsNullOrEmpty(url)) continue;
+                        writer.WriteLine($"\"{ch.name}\",\"{ch.group}\",\"{url}\",{ch.UrlStatus}");
                     }
-
-                    MessageBox.Show($"Enriched playlist saved to {filePath}", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
-                    SavedFilePath = filePath;
-                    IsSaved = true;
                 }
+                MessageBox.Show($"Status of {visibleChannels.Count()} channels saved to {dialog.FileName}", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
-        // -------------------- Export methods --------------------
+        // ------------------------------------------------------------------
+        // Export helpers (M3U, JSON, CSV)
+        // ------------------------------------------------------------------
         private void ExportOkBtn_Click(object sender, RoutedEventArgs e)
         {
             var visibleChannels = ChannelsGrid.ItemsSource as IEnumerable<ChannelJson>;
@@ -433,30 +372,6 @@ namespace LiveGardenTVPlus.Views
                 return;
             }
             ExportChannelsToM3u(failed, "failed_channels.m3u");
-        }
-
-        private void ExportChannelsToM3u(List<ChannelJson> channels, string defaultFileName)
-        {
-            var dialog = new Microsoft.Win32.SaveFileDialog
-            {
-                Filter = "M3U files|*.m3u",
-                DefaultExt = ".m3u",
-                FileName = defaultFileName
-            };
-            if (dialog.ShowDialog() == true)
-            {
-                using (var writer = new StreamWriter(dialog.FileName))
-                {
-                    writer.WriteLine("#EXTM3U");
-                    foreach (var ch in channels)
-                    {
-                        string url = ch.stream_urls?.FirstOrDefault() ?? "";
-                        writer.WriteLine($"#EXTINF:-1 group-title=\"{ch.group}\" tvg-logo=\"{ch.logo_url}\" tvg-id=\"{ch.tvg_id}\",{ch.name}");
-                        writer.WriteLine(url);
-                    }
-                }
-                MessageBox.Show($"Exported {channels.Count} channels to {dialog.FileName}", "Export", MessageBoxButton.OK, MessageBoxImage.Information);
-            }
         }
 
         private void ExportFilteredM3uBtn_Click(object sender, RoutedEventArgs e)
@@ -499,37 +414,36 @@ namespace LiveGardenTVPlus.Views
             }
         }
 
-        private void SaveStatusBtn_Click(object sender, RoutedEventArgs e)
+        private void ExportChannelsToM3u(List<ChannelJson> channels, string defaultFileName)
         {
-            var visibleChannels = ChannelsGrid.ItemsSource as IEnumerable<ChannelJson>;
-            if (visibleChannels == null || !visibleChannels.Any())
-            {
-                MessageBox.Show("No channels to export (filters active but no results).", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
-                return;
-            }
-
             var dialog = new Microsoft.Win32.SaveFileDialog
             {
-                Filter = "CSV files|*.csv",
-                DefaultExt = ".csv",
-                FileName = "channel_status.csv"
+                Filter = "M3U files|*.m3u",
+                DefaultExt = ".m3u",
+                FileName = defaultFileName
             };
             if (dialog.ShowDialog() == true)
             {
                 using (var writer = new StreamWriter(dialog.FileName))
                 {
-                    writer.WriteLine("Name,Group,URL,Status");
-                    foreach (var ch in visibleChannels)
+                    writer.WriteLine("#EXTM3U");
+                    foreach (var ch in channels)
                     {
                         string url = ch.stream_urls?.FirstOrDefault() ?? "";
-                        writer.WriteLine($"\"{ch.name}\",\"{ch.group}\",\"{url}\",{ch.UrlStatus}");
+                        if (string.IsNullOrEmpty(url)) continue;
+                        string logoAttr = string.IsNullOrEmpty(ch.logo_url) ? "" : $" tvg-logo=\"{ch.logo_url}\"";
+                        string tvgIdAttr = string.IsNullOrEmpty(ch.tvg_id) ? "" : $" tvg-id=\"{ch.tvg_id}\"";
+                        writer.WriteLine($"#EXTINF:-1 group-title=\"{ch.group}\"{logoAttr}{tvgIdAttr},{ch.name}");
+                        writer.WriteLine(url);
                     }
                 }
-                MessageBox.Show($"Status of {visibleChannels.Count()} channels saved to {dialog.FileName}", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show($"Exported {channels.Count} channels to {dialog.FileName}", "Export", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
-        // -------------------- JSON Import/Export --------------------
+        // ------------------------------------------------------------------
+        // JSON Import / Export (full playlist)
+        // ------------------------------------------------------------------
         private async void ImportJsonBtn_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new Microsoft.Win32.OpenFileDialog
@@ -546,7 +460,6 @@ namespace LiveGardenTVPlus.Views
                     if (imported == null || imported.Count == 0)
                         throw new Exception("No channels found in JSON file.");
 
-                    // Ensure no null collections
                     foreach (var ch in imported)
                     {
                         if (ch.stream_urls == null) ch.stream_urls = new List<string>();
@@ -590,6 +503,178 @@ namespace LiveGardenTVPlus.Views
             }
         }
 
+        // ------------------------------------------------------------------
+        // Enrich with EPG (fuzzy matching)
+        // ------------------------------------------------------------------
+        private void EnrichWithEpgBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (_epgService == null)
+            {
+                MessageBox.Show("EPG service is not available. Load a playlist with EPG data first.",
+                                "Cannot Enrich", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            int enrichedCount = 0;
+            int alreadyHadCount = 0;
+
+            foreach (var ch in Channels)
+            {
+                if (!string.IsNullOrEmpty(ch.tvg_id))
+                {
+                    alreadyHadCount++;
+                    continue;
+                }
+
+                string epgId = _epgService.GetMappedEpgId(ch.name);
+                if (!string.IsNullOrEmpty(epgId))
+                {
+                    ch.tvg_id = epgId;
+                    enrichedCount++;
+                }
+            }
+
+            ChannelsGrid.Items.Refresh();
+
+            string message = $"Enrichment completed.\n" +
+                             $"- Channels already with tvg-id: {alreadyHadCount}\n" +
+                             $"- Newly enriched with EPG id: {enrichedCount}\n" +
+                             $"- Remaining without EPG: {Channels.Count - alreadyHadCount - enrichedCount}\n\n" +
+                             "Do you want to save the enriched playlist now?";
+
+            var result = MessageBox.Show(message, "Enrich M3U with EPG", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (result == MessageBoxResult.Yes)
+            {
+                SaveBtn_Click(sender, e);
+            }
+        }
+
+        // ------------------------------------------------------------------
+        // Fetch Logos from remote index (logos.txt)
+        // ------------------------------------------------------------------
+        private async void FetchLogosBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (_isFetchingLogos) return;
+            _isFetchingLogos = true;
+            this.Cursor = Cursors.Wait;
+            FetchLogosBtn.IsEnabled = false;
+            StartLogoProgress();
+
+            try
+            {
+                var prefs = UserPreferences.Load();
+                var logoService = new LogoService();
+                string indexUrl = "https://raw.githubusercontent.com/OwnerPlugins/logos/main/txt/logos.txt";
+                bool loaded = await logoService.LoadLogosFromIndex(indexUrl, prefs.LogosSubFolder);
+                if (!loaded)
+                {
+                    MessageBox.Show("Failed to load logos index.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
+                }
+
+                StopLogoProgress();
+                CheckProgressBar.Visibility = Visibility.Visible;
+                CheckProgressBar.IsIndeterminate = false;
+                CheckProgressBar.Minimum = 0;
+                CheckProgressBar.Maximum = Channels.Count;
+                CheckProgressBar.Value = 0;
+
+                int assigned = 0;
+                int index = 0;
+                foreach (var ch in Channels)
+                {
+                    index++;
+                    CheckProgressBar.Value = index;
+                    CheckProgressBar.ToolTip = $"Processing {index}/{Channels.Count}...";
+
+                    if (!string.IsNullOrEmpty(ch.logo_url)) continue;
+                    string logoUrl = logoService.FindBestMatch(ch.name, ch.tvg_id);
+                    if (!string.IsNullOrEmpty(logoUrl) && !logoUrl.EndsWith("/.png") && logoUrl.Contains(".png"))
+                    {
+                        ch.logo_url = logoUrl;
+                        assigned++;
+                    }
+
+                    // Allow UI to update (small delay if needed, but not necessary)
+                    // await Task.Delay(1);
+                }
+
+                ChannelsGrid.Items.Refresh();
+                MessageBox.Show($"Assigned {assigned} logos out of {Channels.Count} channels.", "Logos Fetch", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            finally
+            {
+                StopLogoProgress();
+                this.Cursor = Cursors.Arrow;
+                FetchLogosBtn.IsEnabled = true;
+                _isFetchingLogos = false;
+            }
+        }
+
+        private async void PickLogo_Click(object sender, RoutedEventArgs e)
+        {
+            var btn = sender as Button;
+            var channel = btn?.Tag as ChannelJson;
+            if (channel == null) return;
+
+            if (_isFetchingLogos) return;
+            _isFetchingLogos = true;
+            this.Cursor = System.Windows.Input.Cursors.Wait;
+            try
+            {
+                if (_cachedLogos == null)
+                {
+                    var prefs = UserPreferences.Load();
+                    var logoService = new LogoService();
+                    string indexUrl = "https://raw.githubusercontent.com/OwnerPlugins/logos/main/txt/logos.txt";
+                    bool loaded = await logoService.LoadLogosFromIndex(indexUrl, prefs.LogosSubFolder);
+                    if (!loaded) throw new Exception("Failed to load logos.");
+                    _cachedLogos = logoService.GetAllLogos();
+                }
+
+                if (_cachedLogos == null || _cachedLogos.Count == 0)
+                {
+                    MessageBox.Show("No logos available.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                    return;
+                }
+
+                var picker = new LogoPickerWindow(_cachedLogos);
+                picker.Owner = this;
+                if (picker.ShowDialog() == true)
+                {
+                    channel.logo_url = picker.SelectedLogoUrl;
+                    ChannelsGrid.Items.Refresh();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error loading logos: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            finally
+            {
+                this.Cursor = System.Windows.Input.Cursors.Arrow;
+                _isFetchingLogos = false;
+            }
+        }
+
+        private void StartLogoProgress()
+        {
+            CheckProgressBar.Visibility = Visibility.Visible;
+            CheckProgressBar.IsIndeterminate = true;
+            CheckProgressBar.ToolTip = "Downloading logos (first time only)…";
+        }
+
+        private void StopLogoProgress()
+        {
+            CheckProgressBar.Visibility = Visibility.Collapsed;
+            CheckProgressBar.IsIndeterminate = false;
+            CheckProgressBar.Value = 0;
+            CheckProgressBar.ToolTip = null;
+        }
+
+        // ------------------------------------------------------------------
+        // Save As (multi-format) & Close
+        // ------------------------------------------------------------------
         private void SaveBtn_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new Microsoft.Win32.SaveFileDialog
@@ -626,7 +711,6 @@ namespace LiveGardenTVPlus.Views
             }
         }
 
-        // Helper method for M3U export (reuse existing logic)
         private void ExportToM3u(string filePath, List<ChannelJson> channels)
         {
             using (var writer = new StreamWriter(filePath))
@@ -635,37 +719,36 @@ namespace LiveGardenTVPlus.Views
                 foreach (var ch in channels)
                 {
                     string url = ch.stream_urls?.FirstOrDefault() ?? "";
-                    writer.WriteLine($"#EXTINF:-1 group-title=\"{ch.group}\" tvg-logo=\"{ch.logo_url}\" tvg-id=\"{ch.tvg_id}\",{ch.name}");
+                    if (string.IsNullOrEmpty(url)) continue;
+                    string logoAttr = string.IsNullOrEmpty(ch.logo_url) ? "" : $" tvg-logo=\"{ch.logo_url}\"";
+                    string tvgIdAttr = string.IsNullOrEmpty(ch.tvg_id) ? "" : $" tvg-id=\"{ch.tvg_id}\"";
+                    writer.WriteLine($"#EXTINF:-1 group-title=\"{ch.group}\"{logoAttr}{tvgIdAttr},{ch.name}");
                     writer.WriteLine(url);
                 }
             }
         }
 
-        // Helper method for JSON export
         private void ExportToJson(string filePath, List<ChannelJson> channels)
         {
             string json = JsonConvert.SerializeObject(channels, Formatting.Indented);
             File.WriteAllText(filePath, json);
         }
 
-        // Helper method for CSV export (simple format: name, group, url, tvg_id, logo)
         private void ExportToCsv(string filePath, List<ChannelJson> channels)
         {
             using (var writer = new StreamWriter(filePath))
             {
-                // Write header
                 writer.WriteLine("\"Name\",\"Group\",\"URL\",\"TvgId\",\"Logo\",\"Favorite\",\"Country\",\"GeoBlocked\",\"Languages\",\"Status\"");
-                
                 foreach (var ch in channels)
                 {
                     string url = ch.stream_urls?.FirstOrDefault() ?? "";
+                    if (string.IsNullOrEmpty(url)) continue;
                     string languages = ch.languages != null ? string.Join(";", ch.languages) : "";
                     writer.WriteLine($"\"{EscapeCsv(ch.name)}\",\"{EscapeCsv(ch.group)}\",\"{EscapeCsv(url)}\",\"{EscapeCsv(ch.tvg_id)}\",\"{EscapeCsv(ch.logo_url)}\",{ch.isFavorite},\"{EscapeCsv(ch.country)}\",{ch.isGeoBlocked},\"{EscapeCsv(languages)}\",\"{EscapeCsv(ch.UrlStatus)}\"");
                 }
             }
         }
 
-        // Helper to escape double quotes in CSV fields
         private string EscapeCsv(string field)
         {
             if (string.IsNullOrEmpty(field)) return "";

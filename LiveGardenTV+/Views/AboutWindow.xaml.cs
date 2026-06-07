@@ -42,12 +42,13 @@ namespace LiveGardenTVPlus.Views
 • M3U8 / HLS playback
 • Resizable sidebar
 • Dynamic language switching
-• Playlist editor (edit channels, groups, favorites)
+• Playlist editor (edit channels, groups, favorites, epg, logos)
 • URL health check and export
 • Timeshift (pause live streams)
 • Import/Export favorites to M3U/json
 • Advanced List Editor
-• Auto‑updater";
+• Auto‑updater
+• Auto-assign logos";
             }
             ChangelogText.Text = changelog;
         }

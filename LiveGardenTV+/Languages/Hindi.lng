@@ -1,49 +1,35 @@
 ﻿(No description): (कोई विवरण नहीं)
 A new version is available. Do you want to update now?: एक नया संस्करण उपलब्ध है. क्या आप अभी अपडेट करना चाहते हैं?
 About: के बारे में
-Add Group: समूह जोड़ें
-Apply: आवेदन करना
 Apply changes: परिवर्तनों को लागू करें
 Buffer (seconds): बफ़र (सेकंड)
 CANCEL: रद्द करना
-Cannot Enrich: समृद्ध नहीं कर सकते
 Cannot open browser: ब्राउज़र नहीं खुल सकता
 Category: वर्ग
 Channel:: चैनल:
 channels from: से चैनल
 channels from URL: यूआरएल से चैनल
 Check for updates: अद्यतन के लिए जाँच
-Check URLs: यूआरएल जांचें
-Clear: स्पष्ट
-Close: बंद करना
-Delete Group: समूह हटाएँ
 Description: विवरण
 Details: विवरण
 Do you want to load the edited playlist now?: क्या आप संपादित प्लेलिस्ट अभी लोड करना चाहते हैं?
 Downloading playlist...: प्लेलिस्ट डाउनलोड हो रही है...
 Edit Playlist: प्लेलिस्ट संपादित करें
 End (local): अंत (स्थानीय)
-Enrich with EPG: ईपीजी से समृद्ध करें
 Enter M3U URL:: M3U URL दर्ज करें:
-EPG service is not available. Load a playlist with EPG data first.: ईपीजी सेवा उपलब्ध नहीं है. पहले ईपीजी डेटा के साथ एक प्लेलिस्ट लोड करें।
+EPG Matching Threshold: ईपीजी मिलान सीमा
+EPG Source: ईपीजी स्रोत
 Error: गलती
 Error loading: लोड होने मे त्रुटि
 Error loading playlists: {0}: प्लेलिस्ट लोड करने में त्रुटि: {0}
 ERROR: player.html not found.: त्रुटि: प्लेयर.एचटीएमएल नहीं मिला।
-Export Failed: निर्यात विफल
 Export Favorites: पसंदीदा निर्यात करें
-Export Filtered JSON: फ़िल्टर किया गया JSON निर्यात करें
-Export Filtered M3U: फ़िल्टर किए गए M3U निर्यात करें
-Export JSON: JSON निर्यात करें
-Export OK: निर्यात ठीक है
 Extracting update...: अद्यतन निकाला जा रहा है...
 Failed to download playlist: प्लेलिस्ट डाउनलोड करने में विफल
 Failed to load playlist: प्लेलिस्ट लोड करने में विफल
-FILTERS: फिल्टर
 GitHub Error: गिटहब त्रुटि
 Help: मदद
 Hide List: सूची छिपाएँ
-Import JSON: JSON आयात करें
 Info: जानकारी
 Invalid playlist URL.: अमान्य प्लेलिस्ट यूआरएल.
 Invalid URL.: असामान्य यूआरएल।
@@ -52,8 +38,10 @@ LOAD: भार
 Load a playlist first.: पहले एक प्लेलिस्ट लोड करें.
 Loaded: लदा हुआ
 Loading...: लोड हो रहा है...
+Logos Matching Threshold: लोगो मिलान सीमा
+Logos Source: लोगो स्रोत
+Logos Subfolder: लोगो सबफ़ोल्डर
 Network error: नेटवर्क त्रुटि
-New Playlist: नई प्लेलिस्ट
 No .m3u files found on GitHub repository.: GitHub रिपॉजिटरी पर कोई .m3u फ़ाइलें नहीं मिलीं।
 No favorite channels to export.: निर्यात करने के लिए कोई पसंदीदा चैनल नहीं.
 No playlist found: कोई प्लेलिस्ट नहीं मिली
@@ -66,12 +54,10 @@ Player ready.: खिलाड़ी तैयार.
 Please select a program first.: कृपया पहले एक प्रोग्राम चुनें.
 Program Details: कार्यक्रम विवरण
 Refresh: ताज़ा करना
+Refresh EPG List: ईपीजी सूची ताज़ा करें
 Refresh from GitHub: GitHub से ताज़ा करें
-Rename Group: समूह का नाम बदलें
 SAVE: बचाना
-Save As M3U: M3U के रूप में सहेजें
 Save Playlist: प्लेलिस्ट सहेजें
-Save Status: स्थिति सहेजें
 Search channels...: चैनल खोजें...
 Select a playlist first.: पहले एक प्लेलिस्ट चुनें.
 Select Theme: थीम चुनें

@@ -28,5 +28,12 @@ namespace LiveGardenTVPlus.Models
         public string UrlStatus { get => _urlStatus; set { _urlStatus = value; OnPropertyChanged(); } }
         protected void OnPropertyChanged([CallerMemberName] string name = null) =>
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+
+        private string _logoUrl;
+        public string logo_url
+        {
+            get => _logoUrl;
+            set => _logoUrl = string.IsNullOrEmpty(value) ? null : value;
+        }
     }
 }
