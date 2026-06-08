@@ -142,22 +142,32 @@ namespace LiveGardenTVPlus.Views
 
         private void SaveBtn_Click(object sender, RoutedEventArgs e)
         {
-            // Sync UI values
-            _workingCopy.name = NameBox.Text;
-            _workingCopy.stream_urls = new List<string> { UrlBox.Text };
-            _workingCopy.group = GroupBox.Text;
-            _workingCopy.logo_url = LogoBox.Text;
-            _workingCopy.tvg_id = TvgIdBox.Text;
-            _workingCopy.isFavorite = FavoriteBox.IsChecked == true;
-            _workingCopy.country = CountryBox.Text;
-            _workingCopy.isGeoBlocked = GeoBlockedBox.IsChecked == true;
-            _workingCopy.languages = LanguagesBox.Text.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries)
-                                                .Select(l => l.Trim())
-                                                .ToList();
+            try
+            {
+                _workingCopy.name = NameBox.Text ?? "";
+                _workingCopy.stream_urls = new List<string> { UrlBox.Text ?? "" };
+                _workingCopy.group = GroupBox.Text ?? "";
+                _workingCopy.logo_url = LogoBox.Text ?? "";
+                _workingCopy.tvg_id = TvgIdBox.Text ?? "";
+                _workingCopy.isFavorite = FavoriteBox.IsChecked == true;
+                _workingCopy.country = CountryBox.Text ?? "";
+                _workingCopy.isGeoBlocked = GeoBlockedBox.IsChecked == true;
+                string langText = LanguagesBox.Text ?? "";
+                _workingCopy.languages = langText.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries)
+                                                 .Select(l => l.Trim())
+                                                 .Where(l => !string.IsNullOrEmpty(l))
+                                                 .ToList();
 
-            SaveCurrentToOriginal();
-            DialogResult = true;
-            Close();
+                SaveCurrentToOriginal();
+                DialogResult = true;
+                Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error saving channel details: {ex.Message}\n\n{ex.StackTrace}",
+                                "Save Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                DialogResult = false;
+            }
         }
 
         private void CancelBtn_Click(object sender, RoutedEventArgs e)

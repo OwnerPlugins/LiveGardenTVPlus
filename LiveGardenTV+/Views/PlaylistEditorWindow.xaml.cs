@@ -773,11 +773,16 @@ namespace LiveGardenTVPlus.Views
 
         private void OpenDetailsWindow(ChannelJson channel)
         {
+            // Commit or cancel any pending edit
+            ChannelsGrid.CommitEdit(DataGridEditingUnit.Row, true);
+            // or ChannelsGrid.CancelEdit(DataGridEditingUnit.Row);
+
             int index = Channels.IndexOf(channel);
             var detailsWindow = new ChannelDetailsWindow(Channels, index);
             detailsWindow.Owner = this;
             if (detailsWindow.ShowDialog() == true)
             {
+                ChannelsGrid.CommitEdit(DataGridEditingUnit.Row, true); // again to be safe
                 ChannelsGrid.Items.Refresh();
             }
         }

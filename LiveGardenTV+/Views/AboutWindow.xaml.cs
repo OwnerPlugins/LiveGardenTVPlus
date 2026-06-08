@@ -22,6 +22,7 @@ namespace LiveGardenTVPlus.Views
         {
             Title = LanguageManager.GetTranslation("About") + " - TVGarden+";
             VersionText.Text = $"{LanguageManager.GetTranslation("Version")} {GetVersion()}";
+            SupportButton.Content = LanguageManager.GetTranslation("Support");
         }
 
         private string GetVersion()
