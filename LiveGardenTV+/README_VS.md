@@ -15,6 +15,35 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 ---
 ## Changelog
 
+
+## 🚀 LiveGardenTVPlus – Changelog (v1.9)
+
+### 🛠️ Playlist Editor Enhancements
+- **URL Check** – Tests only filtered channels; shows deterministic progress bar. Channels with zero working URLs get status "FAIL".
+- **Export OK / FAIL** – Export only working or failed channels (based on URL check).
+- **Enrich with EPG** – Adds missing `tvg-id` tags using fuzzy matching.
+- **Check Duplicates** – Detects duplicate URLs across channels.
+- **Multiple URLs per channel** – Comma‑separated URLs in cell edit mode; stored as list in JSON.
+- **Channel Details Window** – Double‑click row or click edit button to open a dedicated window with full channel details (name, URL, group, logo, tvg-id, favorite, country, geoblocked, languages, logo preview). Includes **Previous / Next** navigation through playlist and live logo preview update.
+- **Icon column** – Small logo preview before channel name in the grid.
+
+### 🎨 Interface & Usability
+- **Dynamic Theme Support** – All windows respect the selected theme (16 themes + Light/Dark). Standard brush keys (`WindowBackgroundBrush`, `ForegroundBrush`, `ControlBackgroundBrush`, `BorderBrush`, `AccentBrush`, `AlternateRowBackgroundBrush`) unified across all theme files.
+- **Localization** – All UI texts (EPG, logos, editor, settings, detail window, URL editor) translatable via `LanguageManager`. Added language change event handling to all windows.
+- **Progress Feedback** – Indeterminate progress while downloading logos index; deterministic progress during Fetch Logos.
+- **Resizable Sidebar** – Draggable `GridSplitter` between channel list and player.
+- **Clickable Credits** – Links to CORVOBOYS.ORG and LINUXSAT-SUPPORT.COM.
+
+### 🐛 Bug Fixes
+- Fixed thread safety issues in timeshift timer and EPG parsing.
+- Fixed export OK/FAIL after URL check – channels with zero working URLs now get "FAIL" status.
+- Fixed theme colors in SettingsWindow and PlaylistEditorWindow (all controls now use `DynamicResource`).
+- Fixed `UrlToImageConverter` and other converters (syntax errors removed).
+- Fixed window background being black – added fallback brushes in App.xaml and unified theme keys across all theme files.
+- Fixed language change event subscription (use `LanguageManager.LanguageChanged += ApplyLanguage` without parameters).
+- Fixed channel details window counter positioning (moved below buttons, centered).
+
+
 ### 🆕 New Features & Improvements – Version 1.8
 
 ### 🖼️ Remote Logos Management
@@ -46,7 +75,6 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 - Fixed `NullReferenceException` in LogoPickerWindow and SettingsWindow (added null checks and Loaded event initialization).
 - Fixed M3U export – URLs are no longer missing; channels without a valid URL are skipped.
 - Fixed PlaylistEditorWindow constructor – removed erroneous line that caused compile errors.
-- Fixed theme colors in SettingsWindow (ComboBoxes and labels now follow the selected theme).
 - Fixed filter section colors in PlaylistEditorWindow (text boxes and labels use dynamic resources).
 
 ---
@@ -312,18 +340,22 @@ The executable will be in `bin/Release/net10.0-windows/`.
 LiveGardenTVPlus/
 ├── App.xaml / App.xaml.cs
 ├── MainWindow.xaml / MainWindow.xaml.cs
-├── Views/ logo, avatar.gif
+├── Views/
 │   ├── SettingsWindow.xaml(.cs)
 │   ├── AboutWindow.xaml(.cs)
 │   ├── PlaylistEditorWindow.xaml(.cs)
 │   ├── ColorPickerWindow.xaml(.cs)
-│   └── XtreamLoginDialog.xaml(.cs)
+│   ├── XtreamLoginDialog.xaml(.cs)
+│   ├── EpgWindow.xaml(.cs)
+│   ├── LogoPickerWindow.xaml(.cs)
+│   ├── ChannelDetailsWindow.xaml(.cs)
+│   └── UrlListEditorWindow.xaml(.cs)
 ├── Converters/
-│   ├── StringToVisibilityConverter.cs
 │   ├── UrlToImageConverter.cs
 │   ├── BoolToStarKindConverter.cs
 │   ├── BoolToStarColorConverter.cs
-│   └── FirstUrlConverter.cs
+│   ├── BoolToVisibilityConverter.cs
+│   └── ...
 ├── Services/
 │   ├── M3uParser.cs
 │   ├── LanguageManager.cs
@@ -331,17 +363,20 @@ LiveGardenTVPlus/
 │   ├── FavoritesManager.cs
 │   ├── UserPreferences.cs
 │   ├── ThemeManager.cs
-│   └── GitHubPlaylistFetcher.cs
+│   ├── GitHubPlaylistFetcher.cs
+│   ├── EpgService.cs
+│   ├── LogoService.cs
+│   └── ImageCache.cs
 ├── Models/
 │   ├── Channel.cs
+│   ├── ChannelJson.cs
 │   ├── EpgModels.cs
-│   ├── EpgProgram.cs
-│   └── ChannelGroup.cs
-├── Updater/
-│   └── Updater.cs
-├── Languages/              (92+ .lng files)
-├── Themes/                 (16 .xaml theme files)
-└── PlayerHost/player.html  (hls.js wrapper)
+│   ├── LogoInfo.cs
+│   └── ...
+├── Languages/ (92+ .lng files)
+├── Themes/ (16 .xaml theme files)
+├── PlayerHost/player.html
+└── Updater/Updater.cs
 ```
 
 ---

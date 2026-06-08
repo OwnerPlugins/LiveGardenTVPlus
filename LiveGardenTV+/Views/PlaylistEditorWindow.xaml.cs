@@ -26,6 +26,81 @@ namespace LiveGardenTVPlus.Views
         private System.Windows.Threading.DispatcherTimer _progressTimer;
         private DateTime _logoDownloadStartTime;
 
+        private void OnLanguageChanged()
+        {
+            ApplyLanguage();
+        }
+
+        private void ApplyLanguage()
+        {
+            // Toolbar buttons
+            NewPlaylistBtn.Content = LanguageManager.GetTranslation("New Playlist");
+            AddGroupBtn.Content = LanguageManager.GetTranslation("Add Group");
+            RenameGroupBtn.Content = LanguageManager.GetTranslation("Rename Group");
+            DeleteGroupBtn.Content = LanguageManager.GetTranslation("Delete Group");
+            CheckUrlsBtn.Content = LanguageManager.GetTranslation("Check URLs");
+            SaveStatusBtn.Content = LanguageManager.GetTranslation("Save Status");
+            ImportJsonBtn.Content = LanguageManager.GetTranslation("Import JSON");
+            ExportJsonBtn.Content = LanguageManager.GetTranslation("Export JSON");
+            ExportOkBtn.Content = LanguageManager.GetTranslation("Export OK");
+            ExportFailedBtn.Content = LanguageManager.GetTranslation("Export Failed");
+            ExportFilteredM3uBtn.Content = LanguageManager.GetTranslation("Export Filtered M3U");
+            ExportFilteredJsonBtn.Content = LanguageManager.GetTranslation("Export Filtered JSON");
+            EnrichWithEpgBtn.Content = LanguageManager.GetTranslation("Enrich with EPG");
+            FetchLogosBtn.Content = LanguageManager.GetTranslation("Fetch Logos");
+            CheckDuplicatesBtn.Content = LanguageManager.GetTranslation("Check Duplicates");
+            SaveBtn.Content = LanguageManager.GetTranslation("Save As...");
+            CloseBtn.Content = LanguageManager.GetTranslation("Close");
+
+            // Filter section
+            FilterLabel.Text = LanguageManager.GetTranslation("FILTERS");
+            ApplyFilterBtn.Content = LanguageManager.GetTranslation("Apply");
+            ClearFilterBtn.Content = LanguageManager.GetTranslation("Clear");
+
+            // Group headers inside filters (static, but you can translate if you want)
+            var channelInfoLabel = FindName("ChannelInfoLabel") as TextBlock;
+            if (channelInfoLabel != null) channelInfoLabel.Text = LanguageManager.GetTranslation("Channel Info");
+            var epgFavLabel = FindName("EpgFavLabel") as TextBlock;
+            if (epgFavLabel != null) epgFavLabel.Text = LanguageManager.GetTranslation("EPG & Favorites");
+            var geoCountryLabel = FindName("GeoCountryLabel") as TextBlock;
+            if (geoCountryLabel != null) geoCountryLabel.Text = LanguageManager.GetTranslation("Geo & Country");
+            var advancedIdsLabel = FindName("AdvancedIdsLabel") as TextBlock;
+            if (advancedIdsLabel != null) advancedIdsLabel.Text = LanguageManager.GetTranslation("Advanced IDs");
+            var urlsStatusLabel = FindName("UrlsStatusLabel") as TextBlock;
+            if (urlsStatusLabel != null) urlsStatusLabel.Text = LanguageManager.GetTranslation("URLs & Status");
+
+            // Field labels inside filters (they are TextBlocks with x:Name)
+            var nameFieldLabel = FindName("NameFieldLabel") as TextBlock;
+            if (nameFieldLabel != null) nameFieldLabel.Text = LanguageManager.GetTranslation("Name");
+            var urlFieldLabel = FindName("UrlFieldLabel") as TextBlock;
+            if (urlFieldLabel != null) urlFieldLabel.Text = LanguageManager.GetTranslation("URL");
+            var groupFieldLabel = FindName("GroupFieldLabel") as TextBlock;
+            if (groupFieldLabel != null) groupFieldLabel.Text = LanguageManager.GetTranslation("Group");
+            var logoFieldLabel = FindName("LogoFieldLabel") as TextBlock;
+            if (logoFieldLabel != null) logoFieldLabel.Text = LanguageManager.GetTranslation("Logo URL");
+            var tvgIdFieldLabel = FindName("TvgIdFieldLabel") as TextBlock;
+            if (tvgIdFieldLabel != null) tvgIdFieldLabel.Text = LanguageManager.GetTranslation("TvgId");
+            var countryFieldLabel = FindName("CountryFieldLabel") as TextBlock;
+            if (countryFieldLabel != null) countryFieldLabel.Text = LanguageManager.GetTranslation("Country");
+            var nanoidFieldLabel = FindName("NanoidFieldLabel") as TextBlock;
+            if (nanoidFieldLabel != null) nanoidFieldLabel.Text = LanguageManager.GetTranslation("Nanoid");
+            var languagesFieldLabel = FindName("LanguagesFieldLabel") as TextBlock;
+            if (languagesFieldLabel != null) languagesFieldLabel.Text = LanguageManager.GetTranslation("Languages (comma)");
+            var youtubeFieldLabel = FindName("YoutubeFieldLabel") as TextBlock;
+            if (youtubeFieldLabel != null) youtubeFieldLabel.Text = LanguageManager.GetTranslation("Youtube URL");
+            var streamFieldLabel = FindName("StreamFieldLabel") as TextBlock;
+            if (streamFieldLabel != null) streamFieldLabel.Text = LanguageManager.GetTranslation("Stream URL");
+            var statusFieldLabel = FindName("StatusFieldLabel") as TextBlock;
+            if (statusFieldLabel != null) statusFieldLabel.Text = LanguageManager.GetTranslation("Status");
+
+            // CheckBoxes
+            FilterFavorite.Content = LanguageManager.GetTranslation("Favorite");
+            FilterGeoBlocked.Content = LanguageManager.GetTranslation("GeoBlocked");
+
+            // Window title
+            Title = LanguageManager.GetTranslation("Playlist Editor");
+        }
+
         private void NewPlaylistBtn_Click(object sender, RoutedEventArgs e)
         {
             if (Channels.Count > 0)
@@ -72,12 +147,30 @@ namespace LiveGardenTVPlus.Views
             UpdateFilteredCount();
             IsSaved = false;
             SavedFilePath = null;
+            LanguageManager.LanguageChanged += ApplyLanguage;
+            ApplyLanguage();
 
             ChannelsGrid.SelectionChanged += (s, e) =>
             {
                 int count = ChannelsGrid.SelectedItems.Count;
                 SelectedCountText.Text = count > 0 ? $"{count} selected" : "";
             };
+        }
+
+        private void EditUrlsButton_Click(object sender, RoutedEventArgs e)
+        {
+            var btn = sender as Button;
+            var channel = btn?.Tag as ChannelJson;
+            if (channel == null) return;
+
+            var dialog = new UrlListEditorWindow(channel.stream_urls ?? new List<string>());
+            dialog.Owner = this;
+            if (dialog.ShowDialog() == true)
+            {
+                channel.stream_urls = dialog.Urls;
+                ChannelsGrid.Items.Refresh();
+                // Aggiorna anche la visualizzazione nella cella
+            }
         }
 
         // ------------------------------------------------------------------
@@ -300,7 +393,13 @@ namespace LiveGardenTVPlus.Views
                         catch { isOk = false; }
                         if (isOk) okCount++;
                     }
-                    string status = $"{okCount}/{allUrls.Count} OK";
+                    string status;
+                    if (allUrls.Count == 0)
+                        status = "No URLs";
+                    else if (okCount > 0)
+                        status = $"{okCount}/{allUrls.Count} OK";
+                    else
+                        status = "FAIL";
                     progress.Report(new KeyValuePair<ChannelJson, string>(channel, status));
                 }
             }
@@ -655,6 +754,65 @@ namespace LiveGardenTVPlus.Views
                 this.Cursor = System.Windows.Input.Cursors.Arrow;
                 _isFetchingLogos = false;
             }
+        }
+
+        private void ChannelsGrid_MouseDoubleClick(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            var channel = ChannelsGrid.SelectedItem as ChannelJson;
+            if (channel == null) return;
+            OpenDetailsWindow(channel);
+        }
+
+        private void EditButton_Click(object sender, RoutedEventArgs e)
+        {
+            var button = sender as Button;
+            var channel = button?.Tag as ChannelJson;
+            if (channel == null) return;
+            OpenDetailsWindow(channel);
+        }
+
+        private void OpenDetailsWindow(ChannelJson channel)
+        {
+            int index = Channels.IndexOf(channel);
+            var detailsWindow = new ChannelDetailsWindow(Channels, index);
+            detailsWindow.Owner = this;
+            if (detailsWindow.ShowDialog() == true)
+            {
+                ChannelsGrid.Items.Refresh();
+            }
+        }
+
+        private void CheckDuplicatesBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var urlToChannels = new Dictionary<string, List<string>>();
+            foreach (var ch in Channels)
+            {
+                if (ch.stream_urls == null) continue;
+                foreach (var url in ch.stream_urls)
+                {
+                    if (string.IsNullOrWhiteSpace(url)) continue;
+                    if (!urlToChannels.ContainsKey(url))
+                        urlToChannels[url] = new List<string>();
+                    urlToChannels[url].Add(ch.name);
+                }
+            }
+
+            var duplicates = urlToChannels.Where(kvp => kvp.Value.Count > 1).ToList();
+            if (!duplicates.Any())
+            {
+                MessageBox.Show(LanguageManager.GetTranslation("No duplicate URLs found."),
+                                LanguageManager.GetTranslation("Info"),
+                                MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+
+            var message = LanguageManager.GetTranslation("Duplicate URLs found:\n\n");
+            foreach (var dup in duplicates)
+            {
+                message += $"{dup.Key}\n  → {string.Join(", ", dup.Value)}\n";
+            }
+            MessageBox.Show(message, LanguageManager.GetTranslation("Warning"),
+                            MessageBoxButton.OK, MessageBoxImage.Warning);
         }
 
         private void StartLogoProgress()

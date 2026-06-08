@@ -1,4 +1,14 @@
-﻿<Window x:Class="LiveGardenTVPlus.Views.AboutWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:material="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:gif="https://github.com/XamlAnimatedGif/XamlAnimatedGif" Title="About TVGarden+ by Lululla" Height="550" Width="700" WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+﻿<Window 
+        x:Class="LiveGardenTVPlus.Views.AboutWindow" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:material="http://materialdesigninxaml.net/winfx/xaml/themes" 
+        xmlns:gif="https://github.com/XamlAnimatedGif/XamlAnimatedGif" 
+        Title="About TVGarden+ by Lululla" Height="Auto" Width="Auto" 
+        Background="{DynamicResource WindowBackgroundBrush}"
+        Foreground="{DynamicResource ForegroundBrush}"
+        WindowStartupLocation="CenterOwner" 
+        ResizeMode="NoResize">
     <Grid Margin="20">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
@@ -19,12 +29,13 @@
             <Separator Margin="0,5,0,10"/>
             <TextBlock Text="📋 Changelog" FontWeight="Bold" Margin="0,0,0,5"/>
             <ScrollViewer MaxHeight="280" VerticalScrollBarVisibility="Auto">
-                <TextBlock x:Name="ChangelogText" TextWrapping="Wrap"/>
+                <TextBlock x:Name="ChangelogText" TextWrapping="Wrap" Margin="0,0,0,90"/>
             </ScrollViewer>
             <Separator Margin="0,10,0,10"/>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                <Button x:Name="CloseButton" Content="Close" Width="80" Height="30" Click="CloseButton_Click" IsDefault="True"/>
+                <Button x:Name="SupportButton" Content="Support" Width="80" Height="30" Margin="10,0,0,0" Click="SupportButton_Click"/>
                 <Button x:Name="GitHubButton" Content="GitHub" Width="80" Height="30" Margin="10,0,0,0" Click="GitHubButton_Click"/>
+                <Button x:Name="CloseButton" Content="Close" Width="80" Height="30" Click="CloseButton_Click" IsDefault="True"/>
             </StackPanel>
         </StackPanel>
     </Grid>

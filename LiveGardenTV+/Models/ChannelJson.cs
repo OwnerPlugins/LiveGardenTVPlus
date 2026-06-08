@@ -117,5 +117,35 @@ namespace LiveGardenTVPlus.Models
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged(string propertyName) =>
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
+        [JsonIgnore]
+        public string PrimaryUrl
+        {
+            get => stream_urls != null && stream_urls.Count > 0 ? stream_urls[0] : "";
+            set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                {
+                    stream_urls = new List<string>();
+                }
+                else if (value.Contains(','))
+                {
+                    var urls = value.Split(',')
+                                    .Select(u => u.Trim())
+                                    .Where(u => !string.IsNullOrEmpty(u))
+                                    .Distinct()  // evita duplicati nella stessa cella
+                                    .ToList();
+                    stream_urls = urls;
+                }
+                else
+                {
+                    stream_urls = new List<string> { value };
+                }
+                OnPropertyChanged(nameof(PrimaryUrl));
+                OnPropertyChanged(nameof(StreamUrlsDisplay));
+            }
+        }
     }
 }
+
+

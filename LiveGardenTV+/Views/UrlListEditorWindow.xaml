@@ -1,0 +1,33 @@
+﻿<Window x:Class="LiveGardenTVPlus.Views.UrlListEditorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:material="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
+        Title="Edit URLs by Lululla" Height="Auto" Width="Auto"
+        WindowStartupLocation="CenterOwner"
+        Background="{DynamicResource WindowBackgroundBrush}"
+        Foreground="{DynamicResource ForegroundBrush}">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <TextBlock x:Name="LabelText" Text="URL list (one per line)" FontWeight="Bold" Margin="0,0,0,5"
+                   Foreground="{DynamicResource ForegroundBrush}"/>
+        
+        <TextBox x:Name="UrlsTextBox" Grid.Row="1" AcceptsReturn="True" 
+                 VerticalScrollBarVisibility="Auto"
+                 Background="{DynamicResource ControlBackgroundBrush}"
+                 Foreground="{DynamicResource ForegroundBrush}"/>
+        
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+            <Button x:Name="OkBtn" Content="OK" Click="OkBtn_Click" Width="80" Margin="0,0,10,0"
+                    Background="{DynamicResource ControlBackgroundBrush}"
+                    Foreground="{DynamicResource ForegroundBrush}"/>
+            <Button x:Name="CancelBtn" Content="Cancel" Click="CancelBtn_Click" Width="80"
+                    Background="{DynamicResource ControlBackgroundBrush}"
+                    Foreground="{DynamicResource ForegroundBrush}"/>
+        </StackPanel>
+    </Grid>
+</Window>

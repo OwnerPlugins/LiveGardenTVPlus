@@ -99,5 +99,21 @@ namespace LiveGardenTVPlus.Views
                 MessageBox.Show($"Cannot open browser: {ex.Message}");
             }
         }
+
+        private void SupportButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = "https://www.corvoboys.org",
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Cannot open browser: {ex.Message}");
+            }
+        }
     }
 }

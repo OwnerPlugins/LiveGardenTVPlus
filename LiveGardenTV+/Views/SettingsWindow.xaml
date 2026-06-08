@@ -1,17 +1,12 @@
 ﻿<Window x:Class="LiveGardenTVPlus.Views.SettingsWindow" 
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
-        Title="Settings by Lululla" 
-        Height="700" Width="700" 
+        Title="Settings by Lululla" Height="Auto" Width="Auto"
         WindowStartupLocation="CenterOwner" 
-        Background="{DynamicResource WindowBackgroundBrush}">
+        Background="{DynamicResource WindowBackgroundBrush}"
+        Foreground="{DynamicResource ForegroundBrush}">
     <Window.Resources>
         <!-- FALLBACK BRUSHES: vengono usati solo se il tema non li definisce -->
-        <SolidColorBrush x:Key="WindowBackgroundBrush" Color="White"/>
-        <SolidColorBrush x:Key="ForegroundBrush" Color="Black"/>
-        <SolidColorBrush x:Key="ControlBackgroundBrush" Color="#F5F5F5"/>
-        <SolidColorBrush x:Key="AccentBrush" Color="DodgerBlue"/>
-        <SolidColorBrush x:Key="BorderBrush" Color="#CCCCCC"/>
     </Window.Resources>
     <Grid Margin="10">
         <Grid.RowDefinitions>

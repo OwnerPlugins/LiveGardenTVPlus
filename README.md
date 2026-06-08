@@ -96,12 +96,21 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
       <img src="Screenshots/preview14.jpg?sanitize=true&raw=true" title="preview14" width="400"/><br/>
       <b>Preview 14</b>
     </td>
+    <td align="center">
+      <img src="Screenshots/preview15.jpg?sanitize=true&raw=true" title="preview15" width="400"/><br/>
+      <b>Preview 15</b>
+    </td>
   </tr>
+
+  <tr>
+    <td align="center">
+      <img src="Screenshots/preview16.jpg?sanitize=true&raw=true" title="preview16" width="400"/><br/>
+      <b>Preview 16</b>
+    </td>
+  
 </table>
 
 ---
-
-## Changelog
 
 # LiveGardenTVPlus – IPTV Player for Windows
 
@@ -119,6 +128,35 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 
 ---
 ## Changelog
+
+## 🚀 LiveGardenTVPlus – Changelog (v1.9)
+
+### 🛠️ Playlist Editor Enhancements
+- **URL Check** – Tests only filtered channels; shows deterministic progress bar. Channels with zero working URLs get status "FAIL".
+- **Export OK / FAIL** – Export only working or failed channels (based on URL check).
+- **Enrich with EPG** – Adds missing `tvg-id` tags using fuzzy matching.
+- **Check Duplicates** – Detects duplicate URLs across channels.
+- **Multiple URLs per channel** – Comma‑separated URLs in cell edit mode; stored as list in JSON.
+- **Channel Details Window** – Double‑click row or click edit button to open a dedicated window with full channel details (name, URL, group, logo, tvg-id, favorite, country, geoblocked, languages, logo preview). Includes **Previous / Next** navigation through playlist and live logo preview update.
+- **Icon column** – Small logo preview before channel name in the grid.
+
+### 🎨 Interface & Usability
+- **Dynamic Theme Support** – All windows respect the selected theme (16 themes + Light/Dark). Standard brush keys (`WindowBackgroundBrush`, `ForegroundBrush`, `ControlBackgroundBrush`, `BorderBrush`, `AccentBrush`, `AlternateRowBackgroundBrush`) unified across all theme files.
+- **Localization** – All UI texts (EPG, logos, editor, settings, detail window, URL editor) translatable via `LanguageManager`. Added language change event handling to all windows.
+- **Progress Feedback** – Indeterminate progress while downloading logos index; deterministic progress during Fetch Logos.
+- **Resizable Sidebar** – Draggable `GridSplitter` between channel list and player.
+- **Clickable Credits** – Links to CORVOBOYS.ORG and LINUXSAT-SUPPORT.COM.
+
+### 🐛 Bug Fixes
+- Fixed thread safety issues in timeshift timer and EPG parsing.
+- Fixed export OK/FAIL after URL check – channels with zero working URLs now get "FAIL" status.
+- Fixed theme colors in SettingsWindow and PlaylistEditorWindow (all controls now use `DynamicResource`).
+- Fixed `UrlToImageConverter` and other converters (syntax errors removed).
+- Fixed window background being black – added fallback brushes in App.xaml and unified theme keys across all theme files.
+- Fixed language change event subscription (use `LanguageManager.LanguageChanged += ApplyLanguage` without parameters).
+- Fixed channel details window counter positioning (moved below buttons, centered).
+
+---
 
 ### 🆕 New Features & Improvements – Version 1.8
 
