@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Yeni versiya mövcuddur.
 About: Haqqında
 About TVGarden+: TVGarden+ haqqında
 Add Group: Qrup əlavə edin
+Add Mapping: Xəritəçəkmə əlavə edin
 Advanced IDs: Qabaqcıl identifikatorlar
-Apply: Müraciət edin
 Apply changes: Dəyişiklikləri tətbiq edin
+Apply Filters: Filtrləri tətbiq edin
+Auto-detect: Avtomatik aşkarlama
 Buffer (seconds): Bufer (saniyələr)
 Cancel: Ləğv et
 CANCEL: LƏĞV EDİN
@@ -15,12 +17,12 @@ Channel Details: Kanal Detalları
 Channel Info: Kanal Məlumatı
 Channel:: Kanal:
 channels from: -dan kanallar
+channels from JSON URL: JSON URL-dən kanallar
 channels from URL: URL-dən kanallar
 Check Duplicates: Dublikatları yoxlayın
 Check for updates: Yeniləmələri yoxlayın
 Check URLs: URL-ləri yoxlayın
-Clear: Təmiz
-Close: Bağlayın
+Clear Filters: Filtrləri təmizləyin
 Country: ölkə
 Delete Group: Qrupu Sil
 Description: Təsvir
@@ -32,7 +34,8 @@ Edit Playlist: Pleylistə düzəliş edin
 Edit URLs: URL-ləri redaktə edin
 End (local): Son (yerli)
 Enrich with EPG: EPG ilə zənginləşdirin
-Enter M3U URL:: M3U URL daxil edin:
+Enter JSON URL:: JSON URL daxil edin:
+Enter playlist URL (M3U or JSON):: Pleylist URL-ni daxil edin (M3U və ya JSON):
 EPG: EPG
 EPG & Favorites: EPG və Sevimlilər
 EPG Matching Threshold: EPG Uyğunluq Həddi
@@ -41,11 +44,12 @@ Error: Xəta
 Error loading: Yükləmə xətası
 Error loading playlists: {0}: Pleylistləri yükləmə xətası: {0}
 ERROR: player.html not found.: XƏTA: player.html tapılmadı.
-Export Failed: İxrac edilmədi
+Exit: Çıx
 Export Favorites: Sevimliləri ixrac edin
 Export Filtered JSON: Filtrlənmiş JSON-u ixrac edin
 Export Filtered M3U: Filtrlənmiş M3U-nu ixrac edin
 Export JSON: JSON ixrac edin
+Export KO: İxrac KO
 Export OK: İxrac OK
 Extracting update...: Güncəlləmə çıxarılır...
 Failed to download playlist: Pleylisti endirmək alınmadı
@@ -59,18 +63,27 @@ GitHub Error: GitHub xətası
 Group: Qrup
 Help: Kömək edin
 Hide List: Siyahını gizlədin
+Import: İdxal
+Import error: {0}: Import xətası: {0}
+Import from URL: URL-dən idxal edin
 Import JSON: JSON idxal edin
+Import JSON from URL: URL-dən JSON-u idxal edin
+Import Local: Yerli idxal
+Imported {0} channels from JSON.: JSON-dan {0} kanal import edildi.
+Imported {0} channels from URL.: URL-dən {0} kanal import edildi.
 Info: Məlumat
+Invalid JSON: {0}: Yanlış JSON: {0}
 Invalid playlist URL.: Yanlış pleylist URL.
 Invalid URL.: Yanlış URL.
+JSON Property: JSON Mülkiyyəti
 Language: Dil
 Languages (comma): Dillər (vergül)
 LOAD: YÜKLƏ
 Load a playlist first.: Əvvəlcə pleylist yükləyin.
-Load M3U: M3U yükləyin
-Load M3U file from your computer: M3U faylını kompüterinizdən yükləyin
-Load M3U playlist from a web URL: M3U pleylistini veb URL-dən yükləyin
+Load File: Faylı yükləyin
 Load Online: Onlayn Yüklə
+Load playlist file (M3U/JSON) from your computer: Pleylist faylını (M3U/JSON) kompüterinizdən yükləyin
+Load playlist from web URL (M3U or JSON): Pleylistini veb URL-dən yükləyin (M3U və ya JSON)
 Loaded: Yükləndi
 Loading...: Yüklənir...
 Logo Preview: Loqo önizləmə
@@ -78,12 +91,16 @@ Logo URL: Logo URL
 Logos Matching Threshold: Loqoların Uyğunluq Həddi
 Logos Source: Loqolar Mənbə
 Logos Subfolder: Loqolar alt qovluğu
+Map JSON properties to channel fields:: JSON xassələrini kanal sahələrinə uyğunlaşdırın:
+Mapping saved for future imports of this file.: Xəritəçəkmə bu faylın gələcək idxalı üçün yadda saxlanıldı.
 Name: ad
 Nanoid: Nanoid
 Network error: Şəbəkə xətası
 New Playlist: Yeni Pleylist
 Next ▶: Növbəti ▶
 No .m3u files found on GitHub repository.: GitHub repozitoriyada heç bir .m3u faylı tapılmadı.
+No channels could be mapped. Check your mapping rules.: Heç bir kanal xəritələşdirilə bilmədi. Xəritəçəkmə qaydalarınızı yoxlayın.
+No channels mapped: Heç bir kanal xəritələnməyib
 No duplicate URLs found.: Heç bir dublikat URL tapılmadı.
 No favorite channels to export.: Eksport etmək üçün sevimli kanal yoxdur.
 No playlist found: Heç bir pleylist tapılmadı
@@ -96,6 +113,8 @@ Pause/Resume live stream: Canlı yayımı dayandırın/davam edin
 Player ready.: Oyunçu hazırdır.
 Playlist Editor: Pleylist redaktoru
 Please select a program first.: Əvvəlcə proqramı seçin.
+Preview (first 5 channels): Önizləmə (ilk 5 kanal)
+Preview error: {0}: Önizləmə xətası: {0}
 Program Details: Proqram təfərrüatları
 Recent: Son
 Recent playlists: Son pleylistlər
@@ -103,11 +122,14 @@ Refresh: Yeniləyin
 Refresh EPG List: EPG Siyahısını yeniləyin
 Refresh from GitHub: GitHub-dan yeniləyin
 Rename Group: Qrupun adını dəyişdirin
+Reset Order: Sifarişi Sıfırlayın
 Save: Saxla
 SAVE: SAXLAYIN
-Save As...: Fərqli Saxla...
+Save as...: kimi yadda saxlayın...
+Save Mapping: Xəritəçəkməni yadda saxla
 Save Playlist: Pleylistini yadda saxla
 Save Status: Status Saxla
+Saved: Saxlandı
 Search channels...: Kanalları axtarın...
 Select a playlist first.: Əvvəlcə pleylist seçin.
 Select Theme: Mövzu seçin
@@ -119,12 +141,12 @@ Status: Vəziyyət
 Stream URL: Yayım URL
 Success: Uğur
 Support: Dəstək
+Target Field: Hədəf Sahəsi
 Theme picker: Mövzu seçici
 Time: Vaxt
 Title: Başlıq
 Tools: Alətlər
 TV Guide (EPG): TV Bələdçisi (EPG)
-TVGarden+: TV bağçası+
 TvgId: TvgId
 Unable to find version in remote project file.: Uzaqdan layihə faylında versiya tapmaq mümkün deyil.
 Update: Yeniləyin

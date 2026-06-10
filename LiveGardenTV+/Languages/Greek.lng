@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Μια νέα έκδοσ
 About: Για
 About TVGarden+: Σχετικά με το TVGarden+
 Add Group: Προσθήκη ομάδας
+Add Mapping: Προσθήκη χαρτογράφησης
 Advanced IDs: Προηγμένα αναγνωριστικά
-Apply: Εφαρμόζω
 Apply changes: Εφαρμόστε αλλαγές
+Apply Filters: Εφαρμογή φίλτρων
+Auto-detect: Αυτόματος εντοπισμός
 Buffer (seconds): Buffer (δευτερόλεπτα)
 Cancel: Ματαίωση
 CANCEL: ΜΑΤΑΙΩΣΗ
@@ -15,12 +17,12 @@ Channel Details: Λεπτομέρειες καναλιού
 Channel Info: Πληροφορίες καναλιού
 Channel:: Κανάλι:
 channels from: κανάλια από
+channels from JSON URL: κανάλια από JSON URL
 channels from URL: κανάλια από τη διεύθυνση URL
 Check Duplicates: Ελέγξτε τα διπλότυπα
 Check for updates: Ελέγξτε για ενημερώσεις
 Check URLs: Ελέγξτε τις διευθύνσεις URL
-Clear: Σαφής
-Close: Κοντά
+Clear Filters: Διαγραφή φίλτρων
 Country: Χώρα
 Delete Group: Διαγραφή ομάδας
 Description: Περιγραφή
@@ -32,7 +34,8 @@ Edit Playlist: Επεξεργασία λίστας αναπαραγωγής
 Edit URLs: Επεξεργασία διευθύνσεων URL
 End (local): Τέλος (τοπικό)
 Enrich with EPG: Εμπλουτίστε με EPG
-Enter M3U URL:: Εισαγάγετε τη διεύθυνση URL M3U:
+Enter JSON URL:: Εισαγάγετε τη διεύθυνση URL JSON:
+Enter playlist URL (M3U or JSON):: Εισαγάγετε τη διεύθυνση URL της λίστας αναπαραγωγής (M3U ή JSON):
 EPG: EPG
 EPG & Favorites: EPG & Αγαπημένα
 EPG Matching Threshold: Κατώφλι αντιστοίχισης EPG
@@ -41,11 +44,12 @@ Error: Σφάλμα
 Error loading: Σφάλμα κατά τη φόρτωση
 Error loading playlists: {0}: Σφάλμα κατά τη φόρτωση λιστών αναπαραγωγής: {0}
 ERROR: player.html not found.: ΣΦΑΛΜΑ: το player.html δεν βρέθηκε.
-Export Failed: Η εξαγωγή απέτυχε
+Exit: Εξοδος
 Export Favorites: Εξαγωγή αγαπημένων
 Export Filtered JSON: Εξαγωγή φιλτραρισμένου JSON
 Export Filtered M3U: Εξαγωγή φιλτραρισμένου M3U
 Export JSON: Εξαγωγή JSON
+Export KO: Εξαγωγή ΚΟ
 Export OK: Εξαγωγή ΟΚ
 Extracting update...: Εξαγωγή ενημέρωσης...
 Failed to download playlist: Η λήψη της λίστας αναπαραγωγής απέτυχε
@@ -59,18 +63,27 @@ GitHub Error: Σφάλμα GitHub
 Group: Ομάδα
 Help: Βοήθεια
 Hide List: Απόκρυψη λίστας
+Import: Εισαγωγή
+Import error: {0}: Σφάλμα εισαγωγής: {0}
+Import from URL: Εισαγωγή από τη διεύθυνση URL
 Import JSON: Εισαγωγή JSON
+Import JSON from URL: Εισαγωγή JSON από τη διεύθυνση URL
+Import Local: Εισαγωγή Τοπικού
+Imported {0} channels from JSON.: Έγινε εισαγωγή {0} καναλιών από JSON.
+Imported {0} channels from URL.: Έγινε εισαγωγή {0} καναλιών από τη διεύθυνση URL.
 Info: Πληροφορίες
+Invalid JSON: {0}: Μη έγκυρο JSON: {0}
 Invalid playlist URL.: Μη έγκυρη διεύθυνση URL λίστας αναπαραγωγής.
 Invalid URL.: Μη έγκυρη διεύθυνση URL.
+JSON Property: Ιδιότητα JSON
 Language: Γλώσσα
 Languages (comma): Γλώσσες (κόμμα)
 LOAD: ΦΟΡΤΙΟ
 Load a playlist first.: Φορτώστε πρώτα μια λίστα αναπαραγωγής.
-Load M3U: Φόρτωση M3U
-Load M3U file from your computer: Φορτώστε το αρχείο M3U από τον υπολογιστή σας
-Load M3U playlist from a web URL: Φόρτωση λίστας αναπαραγωγής M3U από μια διεύθυνση URL ιστού
+Load File: Φόρτωση αρχείου
 Load Online: Φόρτωση Online
+Load playlist file (M3U/JSON) from your computer: Φορτώστε το αρχείο λίστας αναπαραγωγής (M3U/JSON) από τον υπολογιστή σας
+Load playlist from web URL (M3U or JSON): Φόρτωση λίστας αναπαραγωγής από τη διεύθυνση URL ιστού (M3U ή JSON)
 Loaded: Φορτωμένος
 Loading...: Φόρτωση...
 Logo Preview: Προεπισκόπηση λογότυπου
@@ -78,12 +91,16 @@ Logo URL: URL λογότυπου
 Logos Matching Threshold: Όριο αντιστοίχισης λογότυπων
 Logos Source: Πηγή λογότυπων
 Logos Subfolder: Υποφάκελος Logos
+Map JSON properties to channel fields:: Αντιστοίχιση ιδιοτήτων JSON σε πεδία καναλιού:
+Mapping saved for future imports of this file.: Η αντιστοίχιση αποθηκεύτηκε για μελλοντικές εισαγωγές αυτού του αρχείου.
 Name: Ονομα
 Nanoid: Νανοειδές
 Network error: Σφάλμα δικτύου
 New Playlist: Νέα λίστα αναπαραγωγής
 Next ▶: Επόμενο ▶
 No .m3u files found on GitHub repository.: Δεν βρέθηκαν αρχεία .m3u στο αποθετήριο GitHub.
+No channels could be mapped. Check your mapping rules.: Δεν ήταν δυνατή η χαρτογράφηση καναλιών. Ελέγξτε τους κανόνες χαρτογράφησης.
+No channels mapped: Δεν έχουν χαρτογραφηθεί κανάλια
 No duplicate URLs found.: Δεν βρέθηκαν διπλότυπα URL.
 No favorite channels to export.: Δεν υπάρχουν αγαπημένα κανάλια για εξαγωγή.
 No playlist found: Δεν βρέθηκε λίστα αναπαραγωγής
@@ -96,6 +113,8 @@ Pause/Resume live stream: Παύση/Συνέχιση ζωντανής ροής
 Player ready.: Έτοιμος ο παίκτης.
 Playlist Editor: Επεξεργαστής λίστας αναπαραγωγής
 Please select a program first.: Επιλέξτε πρώτα ένα πρόγραμμα.
+Preview (first 5 channels): Προεπισκόπηση (πρώτα 5 κανάλια)
+Preview error: {0}: Σφάλμα προεπισκόπησης: {0}
 Program Details: Λεπτομέρειες προγράμματος
 Recent: Πρόσφατος
 Recent playlists: Πρόσφατες λίστες αναπαραγωγής
@@ -103,11 +122,14 @@ Refresh: Φρεσκάρω
 Refresh EPG List: Ανανέωση λίστας EPG
 Refresh from GitHub: Ανανέωση από το GitHub
 Rename Group: Μετονομασία ομάδας
+Reset Order: Επαναφορά παραγγελίας
 Save: Εκτός
 SAVE: ΕΚΤΟΣ
-Save As...: Αποθήκευση ως...
+Save as...: Αποθήκευση ως...
+Save Mapping: Αποθήκευση χαρτογράφησης
 Save Playlist: Αποθήκευση λίστας αναπαραγωγής
 Save Status: Αποθήκευση κατάστασης
+Saved: Αποθηκεύτηκε
 Search channels...: Αναζήτηση καναλιών...
 Select a playlist first.: Επιλέξτε πρώτα μια λίστα αναπαραγωγής.
 Select Theme: Επιλέξτε Θέμα
@@ -119,12 +141,12 @@ Status: Κατάσταση
 Stream URL: URL ροής
 Success: Επιτυχία
 Support: Υποστήριξη
+Target Field: Πεδίο Στόχου
 Theme picker: Επιλογέας θέματος
 Time: Φορά
 Title: Τίτλος
 Tools: Εργαλεία
 TV Guide (EPG): Οδηγός τηλεόρασης (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Δεν είναι δυνατή η εύρεση της έκδοσης σε απομακρυσμένο αρχείο έργου.
 Update: Εκσυγχρονίζω

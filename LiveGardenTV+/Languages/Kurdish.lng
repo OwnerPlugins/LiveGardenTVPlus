@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Guhertoyek nû heye. Ma 
 About: Ji dor
 About TVGarden+: Der barê TVGarden +
 Add Group: Komê lê zêde bike
+Add Mapping: Nexşeyê zêde bikin
 Advanced IDs: Nasnameyên pêşketî
-Apply: Bikaranîn
 Apply changes: Guhertinan bicîh bikin
+Apply Filters: Parzûnan sepînin
+Auto-detect: Oto-teşhîs
 Buffer (seconds): Tampon (çirk)
 Cancel: Bişûndekirin
 CANCEL: BIŞÛNDEKIRIN
@@ -15,12 +17,12 @@ Channel Details: Details Channel
 Channel Info: Agahdariya kanalê
 Channel:: Qenal:
 channels from: kanalên ji
+channels from JSON URL: kanalên ji JSON URL
 channels from URL: kanalên ji URL
 Check Duplicates: Duplicates kontrol bikin
 Check for updates: Ji bo nûvekirinan kontrol bikin
 Check URLs: URLan kontrol bikin
-Clear: Zelal
-Close: Nêzîkî
+Clear Filters: Parzûnên Paqij bikin
 Country: Welat
 Delete Group: Komê jêbirin
 Description: Terîf
@@ -32,7 +34,8 @@ Edit Playlist: Lîsteya lîstikê biguherîne
 Edit URLs: URLan biguherînin
 End (local): Dawî (herêmî)
 Enrich with EPG: Bi EPG dewlemend bikin
-Enter M3U URL:: URL-ya M3U binivîse:
+Enter JSON URL:: JSON URL binivîse:
+Enter playlist URL (M3U or JSON):: URL-ya lîsteya lîstikê binivîse (M3U an JSON):
 EPG: EPG
 EPG & Favorites: EPG & Favorites
 EPG Matching Threshold: Tîrêjê Hevberdana EPG
@@ -41,11 +44,12 @@ Error: Şaşî
 Error loading: Di barkirinê de çewtî
 Error loading playlists: {0}: Di barkirina lîsteyên lîstikê de çewtî: {0}
 ERROR: player.html not found.: ÇEWT: player.html nehat dîtin.
-Export Failed: Export Biserneket
+Exit: Derî
 Export Favorites: Export Favorites
 Export Filtered JSON: JSON Parzûnkirî derxînin
 Export Filtered M3U: Export Parzûnkirî M3U
 Export JSON: JSON derxînin
+Export KO: Export KO
 Export OK: Export OK
 Extracting update...: Derxistina nûvekirinê...
 Failed to download playlist: Daxistina lîsteya lîstikê bi ser neket
@@ -59,18 +63,27 @@ GitHub Error: Çewtiya GitHub
 Group: Kom
 Help: Alîkarî
 Hide List: Lîsteya Veşêre
+Import: Anîn
+Import error: {0}: Çewtiya têxê: {0}
+Import from URL: Ji URL-ê derxînin
 Import JSON: JSON derxînin
+Import JSON from URL: JSON ji URL-ê derxînin
+Import Local: Import Local
+Imported {0} channels from JSON.: Ji JSON'ê {0} kanal hatin importkirin.
+Imported {0} channels from URL.: Ji URL-ê {0} kanal hatin importkirin.
 Info: Info
+Invalid JSON: {0}: JSON nederbasdar: {0}
 Invalid playlist URL.: URL lîsteya lîstikê nederbasdar e.
 Invalid URL.: URL nederbasdar.
+JSON Property: Taybetmendiya JSON
 Language: Ziman
 Languages (comma): Ziman (komma)
 LOAD: DAWETKIRIN
 Load a playlist first.: Pêşî lîsteya lîstikê bar bikin.
-Load M3U: Barkirina M3U
-Load M3U file from your computer: Pelê M3U ji komputera xwe bar bikin
-Load M3U playlist from a web URL: Lîsteya lîstika M3U ji URLek webê bar bikin
+Load File: Pelê barkirin
 Load Online: Load Online
+Load playlist file (M3U/JSON) from your computer: Pelê lîsteya lîstikê (M3U/JSON) ji komputera xwe bar bikin
+Load playlist from web URL (M3U or JSON): Lîsteya lîstikê ji URL-a malperê bar bike (M3U an JSON)
 Loaded: Barkirin
 Loading...: Barkirin...
 Logo Preview: Pêşdîtina Logoyê
@@ -78,12 +91,16 @@ Logo URL: Logo URL
 Logos Matching Threshold: Logos Match Threshold
 Logos Source: Çavkanî Logos
 Logos Subfolder: Logos Subfolder
+Map JSON properties to channel fields:: Nexşeya taybetmendiyên JSON li qadên kanalê:
+Mapping saved for future imports of this file.: Nexşe ji bo îthalata pêşerojê ya vê pelê hate tomarkirin.
 Name: Nav
 Nanoid: Nanoid
 Network error: Çewtiya torê
 New Playlist: Lîsteya nû ya lîstikê
 Next ▶: Next ▶
 No .m3u files found on GitHub repository.: Li ser depoya GitHub pelên .m3u nehatin dîtin.
+No channels could be mapped. Check your mapping rules.: Tu kanal nehate nexşandin. Rêgezên nexşeya xwe kontrol bikin.
+No channels mapped: Tu kanalên nexşeyê ne
 No duplicate URLs found.: URLên dubare nehatin dîtin.
 No favorite channels to export.: Ji bo hinardekirinê kanalên bijare tune.
 No playlist found: Lîsteya lîstikê nehat dîtin
@@ -96,6 +113,8 @@ Pause/Resume live stream: Weşana zindî rawestîne/Dezîne
 Player ready.: Player amade ye.
 Playlist Editor: Edîtorê lîsteya lîstikê
 Please select a program first.: Ji kerema xwe pêşî bernameyek hilbijêrin.
+Preview (first 5 channels): Pêşdîtin (5 kanalên yekem)
+Preview error: {0}: Çewtiya pêşdîtinê: {0}
 Program Details: Agahiyên Bernameyê
 Recent: Demek berê
 Recent playlists: Lîsteyên lîstikê yên dawî
@@ -103,11 +122,14 @@ Refresh: Hênikkirin
 Refresh EPG List: Lîsteya EPG-ê nûve bikin
 Refresh from GitHub: Ji GitHub nûve bikin
 Rename Group: Biguherîne Koma
+Reset Order: Reset Order
 Save: Rizgarkirin
 SAVE: RIZGARKIRIN
-Save As...: Save Wek...
+Save as...: Wek tomar bike...
+Save Mapping: Save Mapping
 Save Playlist: Lîsteya lîstikê tomar bike
 Save Status: Save Status
+Saved: Saved
 Search channels...: Li kanalan bigerin...
 Select a playlist first.: Pêşî lîsteya lîstikê hilbijêre.
 Select Theme: Mijar Hilbijêre
@@ -119,12 +141,12 @@ Status: Cî
 Stream URL: Stream URL
 Success: Serketinî
 Support: Alîkarî
+Target Field: Target Field
 Theme picker: Hilbijêra mijarê
 Time: Dem
 Title: Nav
 Tools: Amûrên
 TV Guide (EPG): Rêberê TV (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Di pelê projeya dûr de guhertoya nayê dîtin.
 Update: Nûvekirin

@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: ਇੱਕ ਨਵਾਂ �
 About: ਬਾਰੇ
 About TVGarden+: TVGarden+ ਬਾਰੇ
 Add Group: ਗਰੁੱਪ ਸ਼ਾਮਲ ਕਰੋ
+Add Mapping: ਮੈਪਿੰਗ ਸ਼ਾਮਲ ਕਰੋ
 Advanced IDs: ਉੱਨਤ ਆਈ.ਡੀ
-Apply: ਲਾਗੂ ਕਰੋ
 Apply changes: ਤਬਦੀਲੀਆਂ ਲਾਗੂ ਕਰੋ
+Apply Filters: ਫਿਲਟਰ ਲਾਗੂ ਕਰੋ
+Auto-detect: ਸਵੈ-ਖੋਜ
 Buffer (seconds): ਬਫਰ (ਸਕਿੰਟ)
 Cancel: ਰੱਦ ਕਰੋ
 CANCEL: ਰੱਦ ਕਰੋ
@@ -15,12 +17,12 @@ Channel Details: ਚੈਨਲ ਦੇ ਵੇਰਵੇ
 Channel Info: ਚੈਨਲ ਦੀ ਜਾਣਕਾਰੀ
 Channel:: ਚੈਨਲ:
 channels from: ਚੈਨਲਾਂ ਤੋਂ
+channels from JSON URL: JSON URL ਤੋਂ ਚੈਨਲ
 channels from URL: URL ਤੋਂ ਚੈਨਲ
 Check Duplicates: ਡੁਪਲੀਕੇਟਸ ਦੀ ਜਾਂਚ ਕਰੋ
 Check for updates: ਅੱਪਡੇਟ ਲਈ ਚੈੱਕ ਕਰੋ
 Check URLs: URL ਦੀ ਜਾਂਚ ਕਰੋ
-Clear: ਸਾਫ਼
-Close: ਬੰਦ ਕਰੋ
+Clear Filters: ਫਿਲਟਰ ਸਾਫ਼ ਕਰੋ
 Country: ਦੇਸ਼
 Delete Group: ਗਰੁੱਪ ਮਿਟਾਓ
 Description: ਵਰਣਨ
@@ -32,7 +34,8 @@ Edit Playlist: ਪਲੇਲਿਸਟ ਦਾ ਸੰਪਾਦਨ ਕਰੋ
 Edit URLs: URL ਦਾ ਸੰਪਾਦਨ ਕਰੋ
 End (local): ਅੰਤ (ਸਥਾਨਕ)
 Enrich with EPG: ਈਪੀਜੀ ਨਾਲ ਭਰਪੂਰ ਕਰੋ
-Enter M3U URL:: M3U URL ਦਾਖਲ ਕਰੋ:
+Enter JSON URL:: JSON URL ਦਾਖਲ ਕਰੋ:
+Enter playlist URL (M3U or JSON):: ਪਲੇਲਿਸਟ URL (M3U ਜਾਂ JSON) ਦਾਖਲ ਕਰੋ:
 EPG: ਈ.ਪੀ.ਜੀ
 EPG & Favorites: EPG ਅਤੇ ਮਨਪਸੰਦ
 EPG Matching Threshold: EPG ਮੈਚਿੰਗ ਥ੍ਰੈਸ਼ਹੋਲਡ
@@ -41,11 +44,12 @@ Error: ਗਲਤੀ
 Error loading: ਲੋਡ ਕਰਨ ਵਿੱਚ ਤਰੁੱਟੀ
 Error loading playlists: {0}: ਪਲੇਲਿਸਟਸ ਲੋਡ ਕਰਨ ਵਿੱਚ ਤਰੁੱਟੀ: {0}
 ERROR: player.html not found.: ਗਲਤੀ: player.html ਨਹੀਂ ਮਿਲਿਆ।
-Export Failed: ਨਿਰਯਾਤ ਅਸਫਲ ਰਿਹਾ
+Exit: ਨਿਕਾਸ
 Export Favorites: ਮਨਪਸੰਦ ਨਿਰਯਾਤ ਕਰੋ
 Export Filtered JSON: ਫਿਲਟਰ ਕੀਤੇ JSON ਨੂੰ ਨਿਰਯਾਤ ਕਰੋ
 Export Filtered M3U: ਫਿਲਟਰ ਕੀਤੇ M3U ਨੂੰ ਨਿਰਯਾਤ ਕਰੋ
 Export JSON: JSON ਨੂੰ ਨਿਰਯਾਤ ਕਰੋ
+Export KO: KO ਨੂੰ ਨਿਰਯਾਤ ਕਰੋ
 Export OK: ਨਿਰਯਾਤ ਠੀਕ ਹੈ
 Extracting update...: ਅੱਪਡੇਟ ਐਕਸਟਰੈਕਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...
 Failed to download playlist: ਪਲੇਲਿਸਟ ਨੂੰ ਡਾਊਨਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ
@@ -59,18 +63,27 @@ GitHub Error: GitHub ਗੜਬੜ
 Group: ਸਮੂਹ
 Help: ਮਦਦ ਕਰੋ
 Hide List: ਸੂਚੀ ਲੁਕਾਓ
+Import: ਆਯਾਤ ਕਰੋ
+Import error: {0}: ਆਯਾਤ ਗਲਤੀ: {0}
+Import from URL: URL ਤੋਂ ਆਯਾਤ ਕਰੋ
 Import JSON: JSON ਆਯਾਤ ਕਰੋ
+Import JSON from URL: URL ਤੋਂ JSON ਆਯਾਤ ਕਰੋ
+Import Local: ਸਥਾਨਕ ਆਯਾਤ ਕਰੋ
+Imported {0} channels from JSON.: JSON ਤੋਂ {0} ਚੈਨਲ ਆਯਾਤ ਕੀਤੇ।
+Imported {0} channels from URL.: URL ਤੋਂ {0} ਚੈਨਲ ਆਯਾਤ ਕੀਤੇ।
 Info: ਜਾਣਕਾਰੀ
+Invalid JSON: {0}: ਅਵੈਧ JSON: {0}
 Invalid playlist URL.: ਅਵੈਧ ਪਲੇਲਿਸਟ URL।
 Invalid URL.: ਅਵੈਧ URL।
+JSON Property: JSON ਸੰਪੱਤੀ
 Language: ਭਾਸ਼ਾ
 Languages (comma): ਭਾਸ਼ਾਵਾਂ (ਕੌਮਾ)
 LOAD: ਲੋਡ ਕਰੋ
 Load a playlist first.: ਪਹਿਲਾਂ ਇੱਕ ਪਲੇਲਿਸਟ ਲੋਡ ਕਰੋ।
-Load M3U: M3U ਲੋਡ ਕਰੋ
-Load M3U file from your computer: ਆਪਣੇ ਕੰਪਿਊਟਰ ਤੋਂ M3U ਫਾਈਲ ਲੋਡ ਕਰੋ
-Load M3U playlist from a web URL: ਇੱਕ ਵੈੱਬ URL ਤੋਂ M3U ਪਲੇਲਿਸਟ ਲੋਡ ਕਰੋ
+Load File: ਫਾਈਲ ਲੋਡ ਕਰੋ
 Load Online: ਔਨਲਾਈਨ ਲੋਡ ਕਰੋ
+Load playlist file (M3U/JSON) from your computer: ਆਪਣੇ ਕੰਪਿਊਟਰ ਤੋਂ ਪਲੇਲਿਸਟ ਫਾਈਲ (M3U/JSON) ਲੋਡ ਕਰੋ
+Load playlist from web URL (M3U or JSON): ਵੈੱਬ URL (M3U ਜਾਂ JSON) ਤੋਂ ਪਲੇਲਿਸਟ ਲੋਡ ਕਰੋ
 Loaded: ਲੋਡ ਕੀਤਾ
 Loading...: ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...
 Logo Preview: ਲੋਗੋ ਪ੍ਰੀਵਿਊ
@@ -78,12 +91,16 @@ Logo URL: ਲੋਗੋ URL
 Logos Matching Threshold: ਲੋਗੋ ਮੈਚਿੰਗ ਥ੍ਰੈਸ਼ਹੋਲਡ
 Logos Source: ਲੋਗੋ ਸਰੋਤ
 Logos Subfolder: ਲੋਗੋ ਸਬਫੋਲਡਰ
+Map JSON properties to channel fields:: ਚੈਨਲ ਖੇਤਰਾਂ ਲਈ JSON ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਾ ਨਕਸ਼ਾ:
+Mapping saved for future imports of this file.: ਇਸ ਫ਼ਾਈਲ ਦੇ ਭਵਿੱਖੀ ਆਯਾਤ ਲਈ ਮੈਪਿੰਗ ਸੁਰੱਖਿਅਤ ਕੀਤੀ ਗਈ ਹੈ।
 Name: ਨਾਮ
 Nanoid: ਨੈਨੋਇਡ
 Network error: ਨੈੱਟਵਰਕ ਗੜਬੜ
 New Playlist: ਨਵੀਂ ਪਲੇਲਿਸਟ
 Next ▶: ਅੱਗੇ ▶
 No .m3u files found on GitHub repository.: GitHub ਰਿਪੋਜ਼ਟਰੀ 'ਤੇ ਕੋਈ .m3u ਫਾਈਲਾਂ ਨਹੀਂ ਮਿਲੀਆਂ।
+No channels could be mapped. Check your mapping rules.: ਕੋਈ ਚੈਨਲ ਮੈਪ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ। ਆਪਣੇ ਮੈਪਿੰਗ ਨਿਯਮਾਂ ਦੀ ਜਾਂਚ ਕਰੋ।
+No channels mapped: ਕੋਈ ਚੈਨਲ ਮੈਪ ਨਹੀਂ ਕੀਤੇ ਗਏ
 No duplicate URLs found.: ਕੋਈ ਡੁਪਲੀਕੇਟ URL ਨਹੀਂ ਮਿਲੇ।
 No favorite channels to export.: ਨਿਰਯਾਤ ਕਰਨ ਲਈ ਕੋਈ ਮਨਪਸੰਦ ਚੈਨਲ ਨਹੀਂ ਹਨ।
 No playlist found: ਕੋਈ ਪਲੇਲਿਸਟ ਨਹੀਂ ਮਿਲੀ
@@ -96,6 +113,8 @@ Pause/Resume live stream: ਲਾਈਵ ਸਟ੍ਰੀਮ ਨੂੰ ਰੋਕੋ
 Player ready.: ਖਿਡਾਰੀ ਤਿਆਰ ਹੈ।
 Playlist Editor: ਪਲੇਲਿਸਟ ਸੰਪਾਦਕ
 Please select a program first.: ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਇੱਕ ਪ੍ਰੋਗਰਾਮ ਚੁਣੋ।
+Preview (first 5 channels): ਪੂਰਵਦਰਸ਼ਨ (ਪਹਿਲੇ 5 ਚੈਨਲ)
+Preview error: {0}: ਝਲਕ ਗਲਤੀ: {0}
 Program Details: ਪ੍ਰੋਗਰਾਮ ਦੇ ਵੇਰਵੇ
 Recent: ਹਾਲੀਆ
 Recent playlists: ਹਾਲੀਆ ਪਲੇਲਿਸਟਸ
@@ -103,11 +122,14 @@ Refresh: ਤਾਜ਼ਾ ਕਰੋ
 Refresh EPG List: EPG ਸੂਚੀ ਨੂੰ ਤਾਜ਼ਾ ਕਰੋ
 Refresh from GitHub: GitHub ਤੋਂ ਤਾਜ਼ਾ ਕਰੋ
 Rename Group: ਗਰੁੱਪ ਦਾ ਨਾਮ ਬਦਲੋ
+Reset Order: ਆਰਡਰ ਰੀਸੈਟ ਕਰੋ
 Save: ਸੇਵ ਕਰੋ
 SAVE: ਸੇਵ ਕਰੋ
-Save As...: ਇਸ ਤੌਰ 'ਤੇ ਸੁਰੱਖਿਅਤ ਕਰੋ...
+Save as...: ਇਸ ਤੌਰ 'ਤੇ ਸੁਰੱਖਿਅਤ ਕਰੋ...
+Save Mapping: ਮੈਪਿੰਗ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ
 Save Playlist: ਪਲੇਲਿਸਟ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ
 Save Status: ਸਥਿਤੀ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ
+Saved: ਸੰਭਾਲਿਆ
 Search channels...: ਚੈਨਲ ਖੋਜੋ...
 Select a playlist first.: ਪਹਿਲਾਂ ਇੱਕ ਪਲੇਲਿਸਟ ਚੁਣੋ।
 Select Theme: ਥੀਮ ਚੁਣੋ
@@ -119,12 +141,12 @@ Status: ਸਥਿਤੀ
 Stream URL: ਸਟ੍ਰੀਮ URL
 Success: ਸਫਲਤਾ
 Support: ਸਪੋਰਟ
+Target Field: ਟੀਚਾ ਖੇਤਰ
 Theme picker: ਥੀਮ ਚੋਣਕਾਰ
 Time: ਸਮਾਂ
 Title: ਸਿਰਲੇਖ
 Tools: ਸੰਦ
 TV Guide (EPG): ਟੀਵੀ ਗਾਈਡ (EPG)
-TVGarden+: ਟੀਵੀ ਗਾਰਡਨ+
 TvgId: ਟੀਵੀਜੀਆਈਡੀ
 Unable to find version in remote project file.: ਰਿਮੋਟ ਪ੍ਰੋਜੈਕਟ ਫਾਈਲ ਵਿੱਚ ਸੰਸਕਰਣ ਲੱਭਣ ਵਿੱਚ ਅਸਮਰੱਥ।
 Update: ਅੱਪਡੇਟ ਕਰੋ

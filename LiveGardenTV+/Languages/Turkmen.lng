@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Täze wersiýasy bar. In
 About: Takmynan
 About TVGarden+: TVGarden + hakda
 Add Group: Topar goşuň
+Add Mapping: Kartalaşdyrmak goşuň
 Advanced IDs: Giňişleýin şahsyýetnamalar
-Apply: Giriş
 Apply changes: Üýtgeşmeleri ulanyň
+Apply Filters: Süzgüçleri ulanyň
+Auto-detect: Awto-kesgitlemek
 Buffer (seconds): Bufer (sekunt)
 Cancel: Elatyr
 CANCEL: ANCATY ..
@@ -15,12 +17,12 @@ Channel Details: Kanal maglumatlary
 Channel Info: Kanal maglumatlary
 Channel:: Kanal:
 channels from: kanallaryndan
+channels from JSON URL: JSON URL-den kanallar
 channels from URL: URL-den kanallar
 Check Duplicates: Göçürmeleri barlaň
 Check for updates: Täzelenmeleri barlaň
 Check URLs: URL-leri barlaň
-Clear: Arassala
-Close: .Akyn
+Clear Filters: Süzgüçleri arassalaň
 Country: Countryurt
 Delete Group: Topary poz
 Description: Düşündiriş
@@ -32,7 +34,8 @@ Edit Playlist: Sanaw sanawyny redaktirläň
 Edit URLs: URL-leri redaktirläň
 End (local): Ahyry (ýerli)
 Enrich with EPG: EPG bilen baýlaşdyryň
-Enter M3U URL:: M3U URL giriziň:
+Enter JSON URL:: JSON URL giriziň:
+Enter playlist URL (M3U or JSON):: Aýdym sanawynyň URL-sini giriziň (M3U ýa-da JSON):
 EPG: EPG
 EPG & Favorites: EPG we halanýanlar
 EPG Matching Threshold: EPG deňeşdirme bosagasy
@@ -41,11 +44,12 @@ Error: Roralňyşlyk
 Error loading: Adingüklemekde säwlik
 Error loading playlists: {0}: Sanaw sanawlaryny ýüklemekde säwlik: {0}
 ERROR: player.html not found.: RAL .YŞLYK: player.html tapylmady
-Export Failed: Eksport şowsuz
+Exit: Çyk
 Export Favorites: Halanýanlary eksport ediň
 Export Filtered JSON: Filtrlenen JSON eksport ediň
 Export Filtered M3U: Filtrlenen M3U eksport ediň
 Export JSON: JSON eksport ediň
+Export KO: KO eksport ediň
 Export OK: Eksport Bolýar
 Extracting update...: Täzelenme çykarmak ...
 Failed to download playlist: Aýdym sanawyny göçürip alyp bilmedi
@@ -59,18 +63,27 @@ GitHub Error: GitHub ýalňyşlygy
 Group: Topar
 Help: Kömek
 Hide List: Sanawy gizläň
+Import: Import
+Import error: {0}: Import ýalňyşlygy: {0}
+Import from URL: URL-den import
 Import JSON: JSON import ediň
+Import JSON from URL: JSON-ny URL-den import ediň
+Import Local: Localerli import ediň
+Imported {0} channels from JSON.: JSON-dan {0} kanallary import etdi.
+Imported {0} channels from URL.: URL-den {0} kanallary import edildi.
 Info: Maglumat
+Invalid JSON: {0}: Nädogry JSON: {0}
 Invalid playlist URL.: Nädogry sanaw sanawy URL.
 Invalid URL.: Nädogry URL.
+JSON Property: JSON emläk
 Language: Dil
 Languages (comma): Diller (vergi)
 LOAD: Oük
 Load a playlist first.: Ilki bilen pleýlist ýükläň.
-Load M3U: M3U ýükläň
-Load M3U file from your computer: M3U faýly kompýuteriňizden ýükläň
-Load M3U playlist from a web URL: Web URL-den M3U pleýlistini ýükläň
+Load File: Faýl ýükläň
 Load Online: Onlaýn ýükläň
+Load playlist file (M3U/JSON) from your computer: Pleýlist faýlyny (M3U / JSON) kompýuteriňizden ýükläň
+Load playlist from web URL (M3U or JSON): Web sanawyndan pleýlist ýükläň (M3U ýa-da JSON)
 Loaded: Adedüklenen
 Loading...: Adingüklenýär ...
 Logo Preview: Logotipiň deslapky syn
@@ -78,12 +91,16 @@ Logo URL: Logotip URL
 Logos Matching Threshold: Logotipleriň gabat gelýän bosagasy
 Logos Source: Logotip çeşmesi
 Logos Subfolder: Logotip bukjasy
+Map JSON properties to channel fields:: JSON häsiýetlerini kanal meýdanlaryna karta ediň:
+Mapping saved for future imports of this file.: Bu faýlyň geljekki importlary üçin kartalaşdyryldy.
 Name: Ady
 Nanoid: Nanoid
 Network error: Tor ýalňyşlygy
 New Playlist: Täze sanaw sanawy
 Next ▶: Indiki ▶
 No .m3u files found on GitHub repository.: GitHub ammarynda ýok .m3u faýllary.
+No channels could be mapped. Check your mapping rules.: Hiç bir kanal kartalaşdyrylyp bilinmedi. Kartalaşdyrmak düzgünleriňizi barlaň.
+No channels mapped: Hiç hili kanal kartasy ýok
 No duplicate URLs found.: Dublikat URL tapylmady.
 No favorite channels to export.: Eksport etmek üçin halanýan kanallar ýok.
 No playlist found: Aýdym sanawy tapylmady
@@ -96,6 +113,8 @@ Pause/Resume live stream: Göni ýaýlymy duruzyň / dowam etdiriň
 Player ready.: Pleýer taýýar.
 Playlist Editor: Sanaw sanawynyň redaktory
 Please select a program first.: Ilki bilen bir programma saýlaň.
+Preview (first 5 channels): Öňünden syn (ilkinji 5 kanal)
+Preview error: {0}: Öňünden görüş säwligi: {0}
 Program Details: Programma maglumatlary
 Recent: Soňky
 Recent playlists: Soňky sanawlar
@@ -103,11 +122,14 @@ Refresh: Täzele
 Refresh EPG List: EPG sanawyny täzeläň
 Refresh from GitHub: GitHub-dan täzeläň
 Rename Group: Toparyň adyny üýtgetmek
+Reset Order: Sargydy täzeden düzmek
 Save: Saklaň
 SAVE: Tygşytlaň
-Save As...: Saklaň ...
+Save as...: Saklaň ...
+Save Mapping: Kartany saklaň
 Save Playlist: Sanawy ýazdyr
 Save Status: Status saklaň
+Saved: Saklandy
 Search channels...: Gözleg kanallary ...
 Select a playlist first.: Ilki pleýlist saýlaň.
 Select Theme: Tema saýlaň
@@ -119,12 +141,12 @@ Status: .Agdaý
 Stream URL: Akym URL
 Success: Üstünlik
 Support: Goldaw
+Target Field: Maksat meýdany
 Theme picker: Tema saýlaýjy
 Time: Wagt
 Title: Ady
 Tools: Gurallar
 TV Guide (EPG): Telewizion gollanma (EPG)
-TVGarden+: Telewizor bagy +
 TvgId: TvgId
 Unable to find version in remote project file.: Uzakdaky taslama faýlynda wersiýa tapyp bolmaýar.
 Update: Täzelen

@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: En ny version er tilgæn
 About: Om
 About TVGarden+: Om TVGarden+
 Add Group: Tilføj gruppe
+Add Mapping: Tilføj kortlægning
 Advanced IDs: Avancerede ID'er
-Apply: Anvende
 Apply changes: Anvend ændringer
+Apply Filters: Anvend filtre
+Auto-detect: Automatisk registrering
 Buffer (seconds): Buffer (sekunder)
 Cancel: Ophæve
 CANCEL: OPHÆVE
@@ -15,12 +17,12 @@ Channel Details: Kanaldetaljer
 Channel Info: Kanalinfo
 Channel:: Kanal:
 channels from: kanaler fra
+channels from JSON URL: kanaler fra JSON URL
 channels from URL: kanaler fra URL
 Check Duplicates: Tjek dubletter
 Check for updates: Se efter opdateringer
 Check URLs: Tjek URL'er
-Clear: Klar
-Close: Tæt
+Clear Filters: Ryd filtre
 Country: Land
 Delete Group: Slet gruppe
 Description: Beskrivelse
@@ -32,7 +34,8 @@ Edit Playlist: Rediger afspilningsliste
 Edit URLs: Rediger URL'er
 End (local): Slut (lokal)
 Enrich with EPG: Berig med EPG
-Enter M3U URL:: Indtast M3U URL:
+Enter JSON URL:: Indtast JSON URL:
+Enter playlist URL (M3U or JSON):: Indtast afspilningsliste-URL (M3U eller JSON):
 EPG: EPG
 EPG & Favorites: EPG og favoritter
 EPG Matching Threshold: EPG Matching Threshold
@@ -41,11 +44,12 @@ Error: Fejl
 Error loading: Fejl ved indlæsning
 Error loading playlists: {0}: Fejl ved indlæsning af afspilningslister: {0}
 ERROR: player.html not found.: FEJL: player.html ikke fundet.
-Export Failed: Eksport mislykkedes
+Exit: Udgang
 Export Favorites: Eksporter favoritter
 Export Filtered JSON: Eksporter filtreret JSON
 Export Filtered M3U: Eksporter filtreret M3U
 Export JSON: Eksporter JSON
+Export KO: Eksport KO
 Export OK: Eksporter OK
 Extracting update...: Udpakker opdatering...
 Failed to download playlist: Afspilningslisten kunne ikke downloades
@@ -59,18 +63,27 @@ GitHub Error: GitHub-fejl
 Group: Gruppe
 Help: Hjælp
 Hide List: Skjul liste
+Import: Importere
+Import error: {0}: Importfejl: {0}
+Import from URL: Importer fra URL
 Import JSON: Importer JSON
+Import JSON from URL: Importer JSON fra URL
+Import Local: Importer lokalt
+Imported {0} channels from JSON.: Importerede {0} kanaler fra JSON.
+Imported {0} channels from URL.: Importerede {0} kanaler fra URL.
 Info: Info
+Invalid JSON: {0}: Ugyldig JSON: {0}
 Invalid playlist URL.: Ugyldig afspilningsliste-URL.
 Invalid URL.: Ugyldig URL.
+JSON Property: JSON-ejendom
 Language: Sprog
 Languages (comma): Sprog (komma)
 LOAD: LÆS
 Load a playlist first.: Indlæs en afspilningsliste først.
-Load M3U: Indlæs M3U
-Load M3U file from your computer: Indlæs M3U-fil fra din computer
-Load M3U playlist from a web URL: Indlæs M3U-afspilningsliste fra en web-URL
+Load File: Indlæs fil
 Load Online: Indlæs online
+Load playlist file (M3U/JSON) from your computer: Indlæs afspilningslistefil (M3U/JSON) fra din computer
+Load playlist from web URL (M3U or JSON): Indlæs afspilningsliste fra web-URL (M3U eller JSON)
 Loaded: Indlæst
 Loading...: Indlæser...
 Logo Preview: Forhåndsvisning af logo
@@ -78,12 +91,16 @@ Logo URL: Logo URL
 Logos Matching Threshold: Logos matchende tærskel
 Logos Source: Logos kilde
 Logos Subfolder: Logoer undermappe
+Map JSON properties to channel fields:: Knyt JSON-egenskaber til kanalfelter:
+Mapping saved for future imports of this file.: Kortlægning gemt til fremtidig import af denne fil.
 Name: Navn
 Nanoid: Nanoid
 Network error: Netværksfejl
 New Playlist: Ny afspilningsliste
 Next ▶: Næste ▶
 No .m3u files found on GitHub repository.: Ingen .m3u-filer fundet på GitHub-lageret.
+No channels could be mapped. Check your mapping rules.: Ingen kanaler kunne kortlægges. Tjek dine kortlægningsregler.
+No channels mapped: Ingen kanaler er kortlagt
 No duplicate URLs found.: Ingen duplikerede URL'er fundet.
 No favorite channels to export.: Ingen favoritkanaler at eksportere.
 No playlist found: Ingen afspilningsliste fundet
@@ -96,6 +113,8 @@ Pause/Resume live stream: Sæt livestream på pause/genoptag
 Player ready.: Spiller klar.
 Playlist Editor: Afspilningslisteeditor
 Please select a program first.: Vælg venligst et program først.
+Preview (first 5 channels): Forhåndsvisning (første 5 kanaler)
+Preview error: {0}: Eksempelfejl: {0}
 Program Details: Program detaljer
 Recent: Nylig
 Recent playlists: Seneste afspilningslister
@@ -103,11 +122,14 @@ Refresh: Opfriske
 Refresh EPG List: Opdater EPG-listen
 Refresh from GitHub: Opdater fra GitHub
 Rename Group: Omdøb gruppe
+Reset Order: Nulstil ordre
 Save: Spare
 SAVE: SPARE
-Save As...: Gem som...
+Save as...: Gem som...
+Save Mapping: Gem kortlægning
 Save Playlist: Gem afspilningsliste
 Save Status: Gem status
+Saved: Gemt
 Search channels...: Søg efter kanaler...
 Select a playlist first.: Vælg først en afspilningsliste.
 Select Theme: Vælg tema
@@ -119,12 +141,12 @@ Status: Status
 Stream URL: Stream URL
 Success: Succes
 Support: Støtte
+Target Field: Målfelt
 Theme picker: Temavælger
 Time: Tid
 Title: Titel
 Tools: Værktøjer
 TV Guide (EPG): TV-guide (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Kan ikke finde version i fjernprojektfil.
 Update: Opdatering

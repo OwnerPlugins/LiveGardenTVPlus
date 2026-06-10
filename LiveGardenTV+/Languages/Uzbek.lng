@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Yangi versiya mavjud. Ho
 About: Haqida
 About TVGarden+: TVGarden+ haqida
 Add Group: Guruh qo'shish
+Add Mapping: Xarita qo'shish
 Advanced IDs: Kengaytirilgan identifikatorlar
-Apply: Murojaat qiling
 Apply changes: O'zgarishlarni qo'llash
+Apply Filters: Filtrlarni qo'llash
+Auto-detect: Avtomatik aniqlash
 Buffer (seconds): Bufer (soniyalar)
 Cancel: Bekor qilish
 CANCEL: BEKOR
@@ -15,12 +17,12 @@ Channel Details: Kanal tafsilotlari
 Channel Info: Kanal haqida ma'lumot
 Channel:: Kanal:
 channels from: dan kanallar
+channels from JSON URL: JSON URL dan kanallar
 channels from URL: URL dan kanallar
 Check Duplicates: Dublikatlarni tekshiring
 Check for updates: Yangilanishlarni tekshiring
 Check URLs: URL manzillarini tekshiring
-Clear: Toza
-Close: Yopish
+Clear Filters: Filtrlarni tozalash
 Country: Mamlakat
 Delete Group: Guruhni o'chirish
 Description: Tavsif
@@ -32,7 +34,8 @@ Edit Playlist: Pleylistni tahrirlash
 Edit URLs: URL manzillarini tahrirlash
 End (local): Oxiri (mahalliy)
 Enrich with EPG: EPG bilan boyiting
-Enter M3U URL:: M3U URL manzilini kiriting:
+Enter JSON URL:: JSON URL manzilini kiriting:
+Enter playlist URL (M3U or JSON):: Pleylist URL manzilini kiriting (M3U yoki JSON):
 EPG: EPG
 EPG & Favorites: EPG va Sevimlilar
 EPG Matching Threshold: EPG moslashish chegarasi
@@ -41,11 +44,12 @@ Error: Xato
 Error loading: Yuklashda xato
 Error loading playlists: {0}: Pleylistlarni yuklashda xatolik: {0}
 ERROR: player.html not found.: XATO: player.html topilmadi.
-Export Failed: Eksport amalga oshmadi
+Exit: Chiqish
 Export Favorites: Sevimlilarni eksport qilish
 Export Filtered JSON: Filtrlangan JSONni eksport qiling
 Export Filtered M3U: Filtrlangan M3U eksporti
 Export JSON: JSON-ni eksport qiling
+Export KO: Eksport KO
 Export OK: Eksport OK
 Extracting update...: Yangilanish chiqarilmoqda...
 Failed to download playlist: Pleylist yuklab olinmadi
@@ -59,18 +63,27 @@ GitHub Error: GitHub xatosi
 Group: Guruh
 Help: Yordam
 Hide List: Roʻyxatni yashirish
+Import: Import
+Import error: {0}: Import xatosi: {0}
+Import from URL: URL manzilidan import qilish
 Import JSON: JSON-ni import qiling
+Import JSON from URL: URL manzilidan JSON-ni import qiling
+Import Local: Mahalliy import
+Imported {0} channels from JSON.: JSON’dan {0} ta kanal import qilindi.
+Imported {0} channels from URL.: URL manzilidan {0} ta kanal import qilindi.
 Info: Ma'lumot
+Invalid JSON: {0}: Yaroqsiz JSON: {0}
 Invalid playlist URL.: Yaroqsiz pleylist URL.
 Invalid URL.: URL noto‘g‘ri.
+JSON Property: JSON mulki
 Language: Til
 Languages (comma): Tillar (vergul)
 LOAD: YUKLASH
 Load a playlist first.: Avval pleylistni yuklang.
-Load M3U: M3U-ni yuklang
-Load M3U file from your computer: M3U faylini kompyuteringizdan yuklang
-Load M3U playlist from a web URL: M3U pleylistini veb-url-dan yuklang
+Load File: Faylni yuklash
 Load Online: Onlayn yuklash
+Load playlist file (M3U/JSON) from your computer: Pleylist faylini (M3U/JSON) kompyuteringizdan yuklang
+Load playlist from web URL (M3U or JSON): Pleylistni veb-urldan yuklash (M3U yoki JSON)
 Loaded: Yuklangan
 Loading...: Yuklanmoqda...
 Logo Preview: Logotipni ko'rib chiqish
@@ -78,12 +91,16 @@ Logo URL: Logotip URL
 Logos Matching Threshold: Logotiplarning mos keladigan chegarasi
 Logos Source: Logotiplar manbai
 Logos Subfolder: Logotiplar pastki papkasi
+Map JSON properties to channel fields:: JSON xususiyatlarini kanal maydonlariga xaritalash:
+Mapping saved for future imports of this file.: Ushbu faylni kelajakda import qilish uchun xaritalash saqlangan.
 Name: Ism
 Nanoid: Nanoid
 Network error: Tarmoq xatosi
 New Playlist: Yangi pleylist
 Next ▶: Keyingi ▶
 No .m3u files found on GitHub repository.: GitHub omborida .m3u fayl topilmadi.
+No channels could be mapped. Check your mapping rules.: Hech qanday kanalni xaritalash mumkin emas. Xarita tuzish qoidalarini tekshiring.
+No channels mapped: Hech qanday kanal xaritalanmagan
 No duplicate URLs found.: Hech qanday takroriy URL topilmadi.
 No favorite channels to export.: Eksport qilinadigan sevimli kanallar yoʻq.
 No playlist found: Hech qanday pleylist topilmadi
@@ -96,6 +113,8 @@ Pause/Resume live stream: Jonli translatsiyani to‘xtatib turish/davom etish
 Player ready.: O'yinchi tayyor.
 Playlist Editor: Pleylist muharriri
 Please select a program first.: Iltimos, avval dasturni tanlang.
+Preview (first 5 channels): Ko‘rib chiqish (birinchi 5 ta kanal)
+Preview error: {0}: Ko‘rib chiqish xatosi: {0}
 Program Details: Dastur tafsilotlari
 Recent: Yaqinda
 Recent playlists: Oxirgi pleylistlar
@@ -103,11 +122,14 @@ Refresh: Yangilash
 Refresh EPG List: EPG roʻyxatini yangilang
 Refresh from GitHub: GitHub dan yangilang
 Rename Group: Guruh nomini o'zgartirish
+Reset Order: Buyurtmani tiklash
 Save: Saqlash
 SAVE: SAQLASH
-Save As...: Boshqa saqlash...
+Save as...: Saqlash...
+Save Mapping: Xaritani saqlash
 Save Playlist: Pleylistni saqlash
 Save Status: Holatni saqlash
+Saved: Saqlangan
 Search channels...: Kanallarni qidirish...
 Select a playlist first.: Avval pleylistni tanlang.
 Select Theme: Mavzuni tanlang
@@ -119,12 +141,12 @@ Status: Status
 Stream URL: Strim URL
 Success: Muvaffaqiyat
 Support: Qo'llab-quvvatlash
+Target Field: Maqsadli maydon
 Theme picker: Mavzu tanlash
 Time: Vaqt
 Title: Sarlavha
 Tools: Asboblar
 TV Guide (EPG): Televizion qoʻllanma (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Masofaviy loyiha faylida versiya topilmadi.
 Update: Yangilash

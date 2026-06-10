@@ -20,6 +20,9 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows;
 using System.ComponentModel;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+
 
 namespace LiveGardenTVPlus
 {
@@ -119,13 +122,13 @@ namespace LiveGardenTVPlus
             PopupSettingsText.Text = LanguageManager.GetTranslation("Settings");
             PopupThemeText.Text = LanguageManager.GetTranslation("Theme picker");
             PopupHelpText.Text = LanguageManager.GetTranslation("Help");
-            PopupAboutText.Text = LanguageManager.GetTranslation("About");
+            PopupAboutText.Text = LanguageManager.GetTranslation("About TVGarden+");
             PopupUpdateText.Text = LanguageManager.GetTranslation("Check for updates");
 
             // Toolbar buttons
-            LoadPlaylistBtnText.Text = LanguageManager.GetTranslation("Load M3U");
+            LoadPlaylistBtnText.Text = LanguageManager.GetTranslation("Load File");
             LoadOnlineBtnText.Text = LanguageManager.GetTranslation("Load Online");
-            AboutBtnText.Text = LanguageManager.GetTranslation("About");
+            AboutBtnText.Text = LanguageManager.GetTranslation("About TVGarden+");
             ToggleText.Text = LanguageManager.GetTranslation("Hide List");
             EpgTextBlock.Text = LanguageManager.GetTranslation("EPG");
             RecentTextBlock.Text = LanguageManager.GetTranslation("Recent");
@@ -134,19 +137,14 @@ namespace LiveGardenTVPlus
             BufferLabel.Text = LanguageManager.GetTranslation("Buffer (seconds)");
 
             // Tooltips
-            LoadPlaylistBtn.ToolTip = LanguageManager.GetTranslation("Load M3U file from your computer");
-            LoadOnlineBtn.ToolTip = LanguageManager.GetTranslation("Load M3U playlist from a web URL");
+            LoadPlaylistBtn.ToolTip = LanguageManager.GetTranslation("Load playlist file (M3U/JSON) from your computer");
+            LoadOnlineBtn.ToolTip = LanguageManager.GetTranslation("Load playlist from web URL (M3U or JSON)");
             AboutBtn.ToolTip = LanguageManager.GetTranslation("About TVGarden+");
             ToggleSidebarBtn.ToolTip = LanguageManager.GetTranslation("Show or hide the channel list");
             EpgBtn.ToolTip = LanguageManager.GetTranslation("TV Guide (EPG)");
             RecentBtn.ToolTip = LanguageManager.GetTranslation("Recent playlists");
 
             // Window title
-            /*
-            var version = Assembly.GetExecutingAssembly().GetName().Version;
-            string shortVersion = $"{version.Major}.{version.Minor}";
-            this.Title = $"{LanguageManager.GetTranslation("TVGarden+")} v{shortVersion}";
-            */
             var version = Assembly.GetExecutingAssembly().GetName().Version;
             string shortVersion = $"{version.Major}.{version.Minor}";
             this.Title = $"TVGarden+ v{shortVersion} - by Lululla | CORVOBOYS.ORG | LINUXSAT-SUPPORT.COM";
@@ -325,6 +323,22 @@ namespace LiveGardenTVPlus
                     Debug.WriteLine($"Pause error: {ex.Message}");
                 }
             }
+        }
+
+        private List<Channel> ConvertJsonToChannels(List<ChannelJson> jsonChannels)
+        {
+            return jsonChannels.Select(ch => new Channel
+            {
+                Name = ch.name,
+                Url = ch.stream_urls?.FirstOrDefault() ?? "",
+                Logo = ch.logo_url,
+                Group = ch.group ?? "General",
+                TvgId = ch.tvg_id,
+                IsFavorite = ch.isFavorite,
+                StreamUrls = ch.stream_urls ?? new List<string>(),
+                YoutubeUrls = ch.youtube_urls ?? new List<string>(),
+                UrlStatus = ch.UrlStatus
+            }).ToList();
         }
 
         private async void ChannelTreeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
@@ -509,36 +523,89 @@ namespace LiveGardenTVPlus
             try
             {
                 ShowLoading(true);
-                var channels = M3uParser.Parse(filePath);
+                string extension = System.IO.Path.GetExtension(filePath).ToLower();
+                bool isJson = extension == ".json";
 
-                // EPG
-                string epgUrl = M3uParser.EpgUrl;
-                 if (!string.IsNullOrEmpty(epgUrl))
+                if (isJson)
                 {
-                    var prefs = UserPreferences.Load();
-                    prefs.EpgUrl = epgUrl;
-                    prefs.Save();
-                    _ = _epgService.LoadEpgAsync(epgUrl);
+                    // Load as JSON
+                    string jsonContent = File.ReadAllText(filePath);
+                    var jsonChannels = JsonConvert.DeserializeObject<List<ChannelJson>>(jsonContent);
+                    if (jsonChannels == null || jsonChannels.Count == 0)
+                        throw new Exception("No channels found in JSON file.");
+
+                    // Ensure required fields are initialized
+                    foreach (var ch in jsonChannels)
+                    {
+                        ch.stream_urls ??= new List<string>();
+                        ch.youtube_urls ??= new List<string>();
+                        ch.languages ??= new List<string>();
+                        ch.group ??= "";
+                        ch.tvg_id ??= "";
+                        ch.country ??= "";
+                        ch.nanoid ??= "";
+                        ch.logo_url ??= "";
+                    }
+
+                    var channels = jsonChannels.Select(ch => new Channel
+                    {
+                        Name = ch.name,
+                        Url = ch.stream_urls?.FirstOrDefault() ?? "",
+                        Logo = ch.logo_url,
+                        Group = ch.group ?? "General",
+                        TvgId = ch.tvg_id,
+                        IsFavorite = ch.isFavorite,
+                        StreamUrls = ch.stream_urls ?? new List<string>(),
+                        YoutubeUrls = ch.youtube_urls ?? new List<string>()
+                    }).ToList();
+
+                    _allChannelsOriginal = channels;
+                    _searchFilter = "";
+                    _isDrillingIntoGroup = false;
+                    _drilledGroupName = "";
+                    SearchBox.Text = LanguageManager.GetTranslation("Search channels...");
+                    SearchBox.Foreground = Brushes.Gray;
+                    ClearSearchBtn.Visibility = Visibility.Collapsed;
+
+                    FavoritesManager.ApplyFavorites(_allChannelsOriginal);
+                    RefreshChannelsView();
+
+                    StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Loaded")} {channels.Count} {LanguageManager.GetTranslation("channels from")} {Path.GetFileName(filePath)}";
                 }
-               
+                else
+                {
+                    // Load as M3U (existing logic)
+                    var channels = M3uParser.Parse(filePath);
 
-                if (channels.Count == 0) throw new Exception("No channels found.");
-                _allChannelsOriginal = channels;
-                _searchFilter = "";
-                _isDrillingIntoGroup = false;
-                _drilledGroupName = "";
-                SearchBox.Text = LanguageManager.GetTranslation("Search channels...");
-                SearchBox.Foreground = Brushes.Gray;
-                ClearSearchBtn.Visibility = Visibility.Collapsed;
+                    string epgUrl = M3uParser.EpgUrl;
+                    if (!string.IsNullOrEmpty(epgUrl))
+                    {
+                        var prefs = UserPreferences.Load();
+                        prefs.EpgUrl = epgUrl;
+                        prefs.Save();
+                        _ = _epgService.LoadEpgAsync(epgUrl);
+                    }
 
-                FavoritesManager.ApplyFavorites(_allChannelsOriginal);
-                RefreshChannelsView();
+                    if (channels.Count == 0) throw new Exception("No channels found.");
+                    _allChannelsOriginal = channels;
+                    _searchFilter = "";
+                    _isDrillingIntoGroup = false;
+                    _drilledGroupName = "";
+                    SearchBox.Text = LanguageManager.GetTranslation("Search channels...");
+                    SearchBox.Foreground = Brushes.Gray;
+                    ClearSearchBtn.Visibility = Visibility.Collapsed;
+
+                    FavoritesManager.ApplyFavorites(_allChannelsOriginal);
+                    RefreshChannelsView();
+
+                    StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Loaded")} {channels.Count} {LanguageManager.GetTranslation("channels from")} {Path.GetFileName(filePath)}";
+                }
 
                 AddToRecent(filePath);
-
-                StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Loaded")} {channels.Count} {LanguageManager.GetTranslation("channels from")} {Path.GetFileName(filePath)}";
             }
-            catch (Exception ex) { MessageBox.Show($"{LanguageManager.GetTranslation("Error")}: {ex.Message}");
+            catch (Exception ex) 
+            { 
+                MessageBox.Show($"{LanguageManager.GetTranslation("Error")}: {ex.Message}"); 
             }
             finally
             {
@@ -562,46 +629,158 @@ namespace LiveGardenTVPlus
                     client.Timeout = TimeSpan.FromSeconds(60);
                     client.DefaultRequestHeaders.Add("User-Agent", "HbbTV/1.6.1");
                     string content = await client.GetStringAsync(url);
-                    if (string.IsNullOrWhiteSpace(content))
-                        throw new Exception("Empty response from server.");
 
-                    // Parsing in background
-                    List<Channel> channels = null;
-                    await Task.Run(() =>
+                    // Remove BOM if present
+                    if (content.StartsWith("\uFEFF"))
+                        content = content.Substring(1);
+                    content = content.Trim();
+
+                    // Detect JSON vs M3U
+                    bool isJson = (content.StartsWith("{") || content.StartsWith("[")) && !content.StartsWith("#EXTM3U");
+
+                    if (isJson)
                     {
-                        string tempFile = Path.GetTempFileName();
-                        File.WriteAllText(tempFile, content);
-                        channels = M3uParser.Parse(tempFile);
-                        File.Delete(tempFile);
-                    });
+                        // --- JSON handling with robust parsing ---
+                        JToken root;
+                        try
+                        {
+                            root = JToken.Parse(content);
+                        }
+                        catch (JsonReaderException)
+                        {
+                            // Try to wrap in array if it's multiple objects without brackets
+                            if (content.StartsWith("{") && !content.StartsWith("["))
+                                content = "[" + content + "]";
+                            root = JToken.Parse(content);
+                        }
 
-                    if (channels == null || channels.Count == 0)
-                        throw new Exception("No channels found in playlist.");
+                        JArray array = null;
+                        if (root.Type == JTokenType.Array)
+                            array = (JArray)root;
+                        else if (root.Type == JTokenType.Object)
+                        {
+                            foreach (var prop in ((JObject)root).Properties())
+                            {
+                                if (prop.Value.Type == JTokenType.Array)
+                                {
+                                    array = (JArray)prop.Value;
+                                    break;
+                                }
+                            }
+                        }
 
-                    // EPG
-                    string epgUrl = M3uParser.EpgUrl;
-                    if (!string.IsNullOrEmpty(epgUrl))
-                    {
-                        var prefs = UserPreferences.Load();
-                        prefs.EpgUrl = epgUrl;
-                        prefs.Save();
-                        _ = _epgService.LoadEpgAsync(epgUrl);
+                        if (array == null)
+                            throw new Exception("No array found in JSON response.");
+
+                        var jsonChannels = new List<ChannelJson>();
+                        foreach (JObject obj in array)
+                        {
+                            var ch = new ChannelJson();
+                            ch.name = obj["name"]?.ToString() ?? "";
+                            ch.logo_url = obj["logo_url"]?.ToString() ?? "";
+                            ch.group = obj["group"]?.ToString() ?? "";
+                            ch.tvg_id = obj["tvg_id"]?.ToString() ?? "";
+                            ch.isFavorite = obj["isFavorite"]?.Value<bool>() ?? false;
+                            ch.country = obj["country"]?.ToString() ?? "";
+                            ch.nanoid = obj["nanoid"]?.ToString() ?? "";
+                            ch.isGeoBlocked = obj["isGeoBlocked"]?.Value<bool>() ?? false;
+
+                            // Handle stream_urls (array or single string)
+                            var streamUrlsToken = obj["stream_urls"];
+                            if (streamUrlsToken != null && streamUrlsToken.Type == JTokenType.Array)
+                                ch.stream_urls = streamUrlsToken.Select(t => t.ToString()).ToList();
+                            else
+                                ch.stream_urls = new List<string>();
+
+                            // Fallback for single "url" property
+                            if ((ch.stream_urls == null || ch.stream_urls.Count == 0) && obj["url"] != null)
+                            {
+                                string urlStr = obj["url"].ToString();
+                                if (!string.IsNullOrEmpty(urlStr))
+                                    ch.stream_urls = new List<string> { urlStr };
+                            }
+
+                            ch.youtube_urls = obj["youtube_urls"]?.Type == JTokenType.Array
+                                ? obj["youtube_urls"].Select(t => t.ToString()).ToList()
+                                : new List<string>();
+                            ch.languages = obj["languages"]?.Type == JTokenType.Array
+                                ? obj["languages"].Select(t => t.ToString()).ToList()
+                                : new List<string>();
+
+                            // Normalize null collections
+                            ch.stream_urls ??= new List<string>();
+                            ch.youtube_urls ??= new List<string>();
+                            ch.languages ??= new List<string>();
+
+                            jsonChannels.Add(ch);
+                        }
+
+                        if (jsonChannels.Count == 0)
+                            throw new Exception("No channels found in JSON.");
+
+                        // Convert to Channel list for main window
+                        var channels = jsonChannels.Select(jch => new Channel
+                        {
+                            Name = jch.name,
+                            Url = jch.stream_urls.FirstOrDefault() ?? "",
+                            Logo = jch.logo_url,
+                            Group = jch.group,
+                            TvgId = jch.tvg_id,
+                            IsFavorite = jch.isFavorite,
+                            StreamUrls = jch.stream_urls,
+                            YoutubeUrls = jch.youtube_urls
+                        }).ToList();
+
+                        _allChannelsOriginal = channels;
+                        _searchFilter = "";
+                        _isDrillingIntoGroup = false;
+                        _drilledGroupName = "";
+                        SearchBox.Text = LanguageManager.GetTranslation("Search channels...");
+                        SearchBox.Foreground = Brushes.Gray;
+                        ClearSearchBtn.Visibility = Visibility.Collapsed;
+
+                        FavoritesManager.ApplyFavorites(_allChannelsOriginal);
+                        await Dispatcher.InvokeAsync(() =>
+                        {
+                            RefreshChannelsView();
+                            StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Loaded")} {channels.Count} {LanguageManager.GetTranslation("channels from JSON URL")}";
+                        });
                     }
-
-                    _allChannelsOriginal = channels;
-                    _searchFilter = "";
-                    _isDrillingIntoGroup = false;
-                    _drilledGroupName = "";
-                    SearchBox.Text = LanguageManager.GetTranslation("Search channels...");
-                    SearchBox.Foreground = Brushes.Gray;
-                    ClearSearchBtn.Visibility = Visibility.Collapsed;
-
-                    FavoritesManager.ApplyFavorites(_allChannelsOriginal);
-                    await Dispatcher.InvokeAsync(() =>
+                    else
                     {
-                        RefreshChannelsView();
-                        StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Loaded")} {channels.Count} {LanguageManager.GetTranslation("channels from URL")}";
-                    });
+                        // --- M3U handling (existing code) ---
+                        string tempFile = Path.GetTempFileName();
+                        await File.WriteAllTextAsync(tempFile, content);
+                        var channels = M3uParser.Parse(tempFile);
+                        File.Delete(tempFile);
+
+                        if (channels == null || channels.Count == 0)
+                            throw new Exception("No channels found in playlist.");
+
+                        string epgUrl = M3uParser.EpgUrl;
+                        if (!string.IsNullOrEmpty(epgUrl))
+                        {
+                            var prefs = UserPreferences.Load();
+                            prefs.EpgUrl = epgUrl;
+                            prefs.Save();
+                            _ = _epgService.LoadEpgAsync(epgUrl);
+                        }
+
+                        _allChannelsOriginal = channels;
+                        _searchFilter = "";
+                        _isDrillingIntoGroup = false;
+                        _drilledGroupName = "";
+                        SearchBox.Text = LanguageManager.GetTranslation("Search channels...");
+                        SearchBox.Foreground = Brushes.Gray;
+                        ClearSearchBtn.Visibility = Visibility.Collapsed;
+
+                        FavoritesManager.ApplyFavorites(_allChannelsOriginal);
+                        await Dispatcher.InvokeAsync(() =>
+                        {
+                            RefreshChannelsView();
+                            StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Loaded")} {channels.Count} {LanguageManager.GetTranslation("channels from URL")}";
+                        });
+                    }
                 }
             }
             catch (HttpRequestException ex)
@@ -756,7 +935,11 @@ namespace LiveGardenTVPlus
 
         private void LoadPlaylistBtn_Click(object sender, RoutedEventArgs e)
         {
-            var dlg = new Microsoft.Win32.OpenFileDialog { Filter = "M3U|*.m3u;*.m3u8" };
+            var dlg = new Microsoft.Win32.OpenFileDialog 
+            { 
+                Filter = "Playlist files|*.m3u;*.m3u8;*.json|M3U files|*.m3u;*.m3u8|JSON files|*.json",
+                DefaultExt = ".m3u"
+            };
             if (dlg.ShowDialog() == true)
                 LoadPlaylist(dlg.FileName);
         }
@@ -810,7 +993,10 @@ namespace LiveGardenTVPlus
 
         private async void LoadOnlineBtn_Click(object sender, RoutedEventArgs e)
         {
-            string url = Microsoft.VisualBasic.Interaction.InputBox(LanguageManager.GetTranslation("Enter M3U URL:"), LanguageManager.GetTranslation("Online Playlist"), "");
+            string url = Microsoft.VisualBasic.Interaction.InputBox(
+                LanguageManager.GetTranslation("Enter playlist URL (M3U or JSON):"),
+                LanguageManager.GetTranslation("Online Playlist"),
+                "");
             if (!string.IsNullOrEmpty(url))
                 await LoadPlaylistFromUrl(url);
         }

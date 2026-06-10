@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: ഒരു പുതി�
 About: കുറിച്ച്
 About TVGarden+: TVGarden+ നെ കുറിച്ച്
 Add Group: ഗ്രൂപ്പ് ചേർക്കുക
+Add Mapping: മാപ്പിംഗ് ചേർക്കുക
 Advanced IDs: വിപുലമായ ഐഡികൾ
-Apply: അപേക്ഷിക്കുക
 Apply changes: മാറ്റങ്ങൾ പ്രയോഗിക്കുക
+Apply Filters: ഫിൽട്ടറുകൾ പ്രയോഗിക്കുക
+Auto-detect: സ്വയമേവ കണ്ടെത്തുക
 Buffer (seconds): ബഫർ (സെക്കൻഡ്)
 Cancel: റദ്ദാക്കുക
 CANCEL: റദ്ദാക്കുക
@@ -15,12 +17,12 @@ Channel Details: ചാനൽ വിശദാംശങ്ങൾ
 Channel Info: ചാനൽ വിവരം
 Channel:: ചാനൽ:
 channels from: നിന്നുള്ള ചാനലുകൾ
+channels from JSON URL: JSON URL-ൽ നിന്നുള്ള ചാനലുകൾ
 channels from URL: URL-ൽ നിന്നുള്ള ചാനലുകൾ
 Check Duplicates: തനിപ്പകർപ്പുകൾ പരിശോധിക്കുക
 Check for updates: അപ്ഡേറ്റുകൾക്കായി പരിശോധിക്കുക
 Check URLs: URL-കൾ പരിശോധിക്കുക
-Clear: ക്ലിയർ
-Close: അടയ്ക്കുക
+Clear Filters: ഫിൽട്ടറുകൾ മായ്ക്കുക
 Country: രാജ്യം
 Delete Group: ഗ്രൂപ്പ് ഇല്ലാതാക്കുക
 Description: വിവരണം
@@ -32,7 +34,8 @@ Edit Playlist: പ്ലേലിസ്റ്റ് എഡിറ്റ് ചെ
 Edit URLs: URL-കൾ എഡിറ്റ് ചെയ്യുക
 End (local): അവസാനം (പ്രാദേശികം)
 Enrich with EPG: EPG ഉപയോഗിച്ച് സമ്പുഷ്ടമാക്കുക
-Enter M3U URL:: M3U URL നൽകുക:
+Enter JSON URL:: JSON URL നൽകുക:
+Enter playlist URL (M3U or JSON):: പ്ലേലിസ്റ്റ് URL നൽകുക (M3U അല്ലെങ്കിൽ JSON):
 EPG: ഇ.പി.ജി
 EPG & Favorites: EPG & പ്രിയപ്പെട്ടവ
 EPG Matching Threshold: EPG മാച്ചിംഗ് ത്രെഷോൾഡ്
@@ -41,11 +44,12 @@ Error: പിശക്
 Error loading: ലോഡ് ചെയ്യുന്നതിൽ പിശക്
 Error loading playlists: {0}: പ്ലേലിസ്റ്റുകൾ ലോഡ് ചെയ്യുന്നതിൽ പിശക്: {0}
 ERROR: player.html not found.: പിശക്: player.html കണ്ടെത്തിയില്ല.
-Export Failed: കയറ്റുമതി പരാജയപ്പെട്ടു
+Exit: പുറത്ത്
 Export Favorites: പ്രിയപ്പെട്ടവ കയറ്റുമതി ചെയ്യുക
 Export Filtered JSON: ഫിൽട്ടർ ചെയ്ത JSON കയറ്റുമതി ചെയ്യുക
 Export Filtered M3U: ഫിൽട്ടർ ചെയ്ത M3U കയറ്റുമതി ചെയ്യുക
 Export JSON: JSON കയറ്റുമതി ചെയ്യുക
+Export KO: KO കയറ്റുമതി ചെയ്യുക
 Export OK: കയറ്റുമതി ശരി
 Extracting update...: അപ്‌ഡേറ്റ് എക്‌സ്‌ട്രാക്‌റ്റുചെയ്യുന്നു...
 Failed to download playlist: പ്ലേലിസ്റ്റ് ഡൗൺലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു
@@ -59,18 +63,27 @@ GitHub Error: GitHub പിശക്
 Group: ഗ്രൂപ്പ്
 Help: സഹായം
 Hide List: ലിസ്റ്റ് മറയ്ക്കുക
+Import: ഇറക്കുമതി ചെയ്യുക
+Import error: {0}: ഇറക്കുമതി പിശക്: {0}
+Import from URL: URL-ൽ നിന്ന് ഇറക്കുമതി ചെയ്യുക
 Import JSON: JSON ഇറക്കുമതി ചെയ്യുക
+Import JSON from URL: URL-ൽ നിന്ന് JSON ഇറക്കുമതി ചെയ്യുക
+Import Local: പ്രാദേശികമായി ഇറക്കുമതി ചെയ്യുക
+Imported {0} channels from JSON.: JSON-ൽ നിന്ന് {0} ചാനലുകൾ ഇറക്കുമതി ചെയ്തു.
+Imported {0} channels from URL.: URL-ൽ നിന്ന് {0} ചാനലുകൾ ഇറക്കുമതി ചെയ്തു.
 Info: വിവരം
+Invalid JSON: {0}: അസാധുവായ JSON: {0}
 Invalid playlist URL.: അസാധുവായ പ്ലേലിസ്റ്റ് URL.
 Invalid URL.: അസാധുവായ URL.
+JSON Property: JSON പ്രോപ്പർട്ടി
 Language: ഭാഷ
 Languages (comma): ഭാഷകൾ (കോമ)
 LOAD: ലോഡ് ചെയ്യുക
 Load a playlist first.: ആദ്യം ഒരു പ്ലേലിസ്റ്റ് ലോഡ് ചെയ്യുക.
-Load M3U: M3U ലോഡ് ചെയ്യുക
-Load M3U file from your computer: നിങ്ങളുടെ കമ്പ്യൂട്ടറിൽ നിന്ന് M3U ഫയൽ ലോഡ് ചെയ്യുക
-Load M3U playlist from a web URL: ഒരു വെബ് URL-ൽ നിന്ന് M3U പ്ലേലിസ്റ്റ് ലോഡുചെയ്യുക
+Load File: ഫയൽ ലോഡ് ചെയ്യുക
 Load Online: ഓൺലൈനിൽ ലോഡ് ചെയ്യുക
+Load playlist file (M3U/JSON) from your computer: നിങ്ങളുടെ കമ്പ്യൂട്ടറിൽ നിന്ന് പ്ലേലിസ്റ്റ് ഫയൽ (M3U/JSON) ലോഡ് ചെയ്യുക
+Load playlist from web URL (M3U or JSON): വെബ് URL-ൽ നിന്ന് പ്ലേലിസ്റ്റ് ലോഡുചെയ്യുക (M3U അല്ലെങ്കിൽ JSON)
 Loaded: ലോഡ് ചെയ്തു
 Loading...: ലോഡ് ചെയ്യുന്നു...
 Logo Preview: ലോഗോ പ്രിവ്യൂ
@@ -78,12 +91,16 @@ Logo URL: ലോഗോ URL
 Logos Matching Threshold: ലോഗോകൾ പൊരുത്തപ്പെടുന്ന പരിധി
 Logos Source: ലോഗോകളുടെ ഉറവിടം
 Logos Subfolder: ലോഗോ സബ്ഫോൾഡർ
+Map JSON properties to channel fields:: ചാനൽ ഫീൽഡുകളിലേക്ക് JSON പ്രോപ്പർട്ടികൾ മാപ്പ് ചെയ്യുക:
+Mapping saved for future imports of this file.: ഈ ഫയലിൻ്റെ ഭാവി ഇറക്കുമതികൾക്കായി മാപ്പിംഗ് സംരക്ഷിച്ചു.
 Name: പേര്
 Nanoid: നാനോയിഡ്
 Network error: നെറ്റ്‌വർക്ക് പിശക്
 New Playlist: പുതിയ പ്ലേലിസ്റ്റ്
 Next ▶: അടുത്തത് ▶
 No .m3u files found on GitHub repository.: GitHub റിപ്പോസിറ്ററിയിൽ .m3u ഫയലുകളൊന്നും കണ്ടെത്തിയില്ല.
+No channels could be mapped. Check your mapping rules.: ചാനലുകളൊന്നും മാപ്പ് ചെയ്യാൻ കഴിഞ്ഞില്ല. നിങ്ങളുടെ മാപ്പിംഗ് നിയമങ്ങൾ പരിശോധിക്കുക.
+No channels mapped: ചാനലുകളൊന്നും മാപ്പ് ചെയ്‌തിട്ടില്ല
 No duplicate URLs found.: തനിപ്പകർപ്പ് URL-കളൊന്നും കണ്ടെത്തിയില്ല.
 No favorite channels to export.: കയറ്റുമതി ചെയ്യാൻ പ്രിയപ്പെട്ട ചാനലുകളൊന്നുമില്ല.
 No playlist found: പ്ലേലിസ്റ്റൊന്നും കണ്ടെത്തിയില്ല
@@ -96,6 +113,8 @@ Pause/Resume live stream: തത്സമയ സ്ട്രീം താൽക�
 Player ready.: പ്ലെയർ തയ്യാറാണ്.
 Playlist Editor: പ്ലേലിസ്റ്റ് എഡിറ്റർ
 Please select a program first.: ദയവായി ആദ്യം ഒരു പ്രോഗ്രാം തിരഞ്ഞെടുക്കുക.
+Preview (first 5 channels): പ്രിവ്യൂ (ആദ്യത്തെ 5 ചാനലുകൾ)
+Preview error: {0}: പ്രിവ്യൂ പിശക്: {0}
 Program Details: പ്രോഗ്രാം വിശദാംശങ്ങൾ
 Recent: അടുത്തിടെ
 Recent playlists: സമീപകാല പ്ലേലിസ്റ്റുകൾ
@@ -103,11 +122,14 @@ Refresh: പുതുക്കുക
 Refresh EPG List: EPG ലിസ്റ്റ് പുതുക്കുക
 Refresh from GitHub: GitHub-ൽ നിന്ന് പുതുക്കുക
 Rename Group: ഗ്രൂപ്പിൻ്റെ പേര് മാറ്റുക
+Reset Order: ഓർഡർ പുനഃസജ്ജമാക്കുക
 Save: സംരക്ഷിക്കുക
 SAVE: സംരക്ഷിക്കുക
-Save As...: ഇതായി സംരക്ഷിക്കുക...
+Save as...: ഇതായി സംരക്ഷിക്കുക...
+Save Mapping: മാപ്പിംഗ് സംരക്ഷിക്കുക
 Save Playlist: പ്ലേലിസ്റ്റ് സംരക്ഷിക്കുക
 Save Status: നില സംരക്ഷിക്കുക
+Saved: സംരക്ഷിച്ചു
 Search channels...: ചാനലുകൾ തിരയുക...
 Select a playlist first.: ആദ്യം ഒരു പ്ലേലിസ്റ്റ് തിരഞ്ഞെടുക്കുക.
 Select Theme: തീം തിരഞ്ഞെടുക്കുക
@@ -119,12 +141,12 @@ Status: നില
 Stream URL: സ്ട്രീം URL
 Success: വിജയം
 Support: പിന്തുണ
+Target Field: ടാർഗെറ്റ് ഫീൽഡ്
 Theme picker: തീം പിക്കർ
 Time: സമയം
 Title: തലക്കെട്ട്
 Tools: ഉപകരണങ്ങൾ
 TV Guide (EPG): ടിവി ഗൈഡ് (ഇപിജി)
-TVGarden+: ടിവി ഗാർഡൻ+
 TvgId: TvgId
 Unable to find version in remote project file.: റിമോട്ട് പ്രോജക്റ്റ് ഫയലിൽ പതിപ്പ് കണ്ടെത്താനായില്ല.
 Update: അപ്ഡേറ്റ്

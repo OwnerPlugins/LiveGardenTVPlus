@@ -47,12 +47,13 @@
 
         <!-- Toolbar -->
         <ToolBar x:Name="MainToolBar" Grid.Row="0">
-            <Button x:Name="LoadPlaylistBtn" Click="LoadPlaylistBtn_Click" ToolTip="Load M3U file from your computer">
-                <StackPanel Orientation="Horizontal">
-                    <material:PackIcon Kind="Folder" Width="20" Height="20" Margin="0,0,5,0"/>
-                    <TextBlock x:Name="LoadPlaylistBtnText"/>
-                </StackPanel>
-            </Button>
+        <Button x:Name="LoadPlaylistBtn" Click="LoadPlaylistBtn_Click" ToolTip="Load playlist file (M3U/JSON) from your computer">
+            <StackPanel Orientation="Horizontal">
+                <material:PackIcon Kind="Folder" Width="20" Height="20" Margin="0,0,5,0"/>
+                <TextBlock x:Name="LoadPlaylistBtnText"/>
+            </StackPanel>
+        </Button>
+            <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
             <!-- Button Recent with popup -->
             <Button x:Name="RecentBtn" ToolTip="Recent playlists" Click="RecentBtn_Click">
                 <StackPanel Orientation="Horizontal">
@@ -67,18 +68,21 @@
                              DisplayMemberPath="DisplayName" Tag="FilePath"/>
                 </Border>
             </Popup>
+            <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
             <Button x:Name="SavePlaylistBtn" Click="SavePlaylistBtn_Click" ToolTip="Save current playlist to a new M3U file">
                 <StackPanel Orientation="Horizontal">
                     <material:PackIcon Kind="ContentSave" Width="20" Height="20" Margin="0,0,5,0"/>
                     <TextBlock x:Name="SavePlaylistBtnText"/>
                 </StackPanel>
             </Button>
-            <Button x:Name="LoadOnlineBtn" Click="LoadOnlineBtn_Click" ToolTip="Load M3U playlist from a web URL">
+            <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
+            <Button x:Name="LoadOnlineBtn" Click="LoadOnlineBtn_Click" ToolTip="Load playlist from web URL (M3U or JSON)">
                 <StackPanel Orientation="Horizontal">
                     <material:PackIcon Kind="CloudDownload" Width="20" Height="20" Margin="0,0,5,0"/>
                     <TextBlock x:Name="LoadOnlineBtnText"/>
                 </StackPanel>
             </Button>
+            <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
             <Button x:Name="ExportFavoritesBtn" Click="ExportFavoritesBtn_Click" ToolTip="Export only favorite channels to a new M3U file">
                 <StackPanel Orientation="Horizontal">
                     <material:PackIcon Kind="Star" Width="20" Height="20" Margin="0,0,5,0"/>
@@ -92,6 +96,13 @@
                     <TextBlock x:Name="EditPlaylistBtnText"/>
                 </StackPanel>
             </Button>
+            <Button x:Name="EpgBtn" Click="EpgBtn_Click" ToolTip="TV Guide (EPG)">
+                <StackPanel Orientation="Horizontal">
+                    <material:PackIcon Kind="TelevisionGuide" Width="20" Height="20" Margin="0,0,5,0"/>
+                    <TextBlock x:Name="EpgTextBlock" Text="EPG"/>
+                </StackPanel>
+            </Button>
+            <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
             <Button x:Name="ToolsBtn" Click="ToolsBtn_Click" ToolTip="Tools">
                 <StackPanel Orientation="Horizontal">
                     <material:PackIcon Kind="DotsVertical" Width="20" Height="20" Margin="0,0,5,0"/>
@@ -153,12 +164,6 @@
                     </StackPanel>
                 </Border>
             </Popup>
-            <Button x:Name="EpgBtn" Click="EpgBtn_Click" ToolTip="TV Guide (EPG)">
-                <StackPanel Orientation="Horizontal">
-                    <material:PackIcon Kind="TelevisionGuide" Width="20" Height="20" Margin="0,0,5,0"/>
-                    <TextBlock x:Name="EpgTextBlock" Text="EPG"/>
-                </StackPanel>
-            </Button>
             <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
             <Button x:Name="AboutBtn" Click="AboutBtn_Click" ToolTip="About TVGarden+">
                 <StackPanel Orientation="Horizontal">
@@ -167,6 +172,7 @@
                 </StackPanel>
             </Button>
             <Separator/>
+
             <CheckBox x:Name="ShowFavoritesOnlyCheckBox" Click="ShowFavoritesOnly_Click" ToolTip="Show only channels marked as favorites"/>
             <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
 

@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: 新しいバージョン
 About: について
 About TVGarden+: TVGarden+について
 Add Group: グループの追加
+Add Mapping: マッピングの追加
 Advanced IDs: アドバンストID
-Apply: 適用する
 Apply changes: 変更を適用する
+Apply Filters: フィルターを適用する
+Auto-detect: 自動検出
 Buffer (seconds): バッファ (秒)
 Cancel: キャンセル
 CANCEL: キャンセル
@@ -15,12 +17,12 @@ Channel Details: チャンネルの詳細
 Channel Info: チャンネル情報
 Channel:: チャネル：
 channels from: からのチャンネル
+channels from JSON URL: JSON URLからのチャンネル
 channels from URL: URLからのチャンネル
 Check Duplicates: 重複のチェック
 Check for updates: アップデートを確認する
 Check URLs: URLを確認する
-Clear: クリア
-Close: 近い
+Clear Filters: フィルターをクリアする
 Country: 国
 Delete Group: グループの削除
 Description: 説明
@@ -32,7 +34,8 @@ Edit Playlist: プレイリストの編集
 Edit URLs: URLを編集する
 End (local): 終了（ローカル）
 Enrich with EPG: EPG で充実させる
-Enter M3U URL:: M3U URL を入力してください:
+Enter JSON URL:: JSON URL を入力してください:
+Enter playlist URL (M3U or JSON):: プレイリスト URL (M3U または JSON) を入力してください:
 EPG: EPG
 EPG & Favorites: EPG とお気に入り
 EPG Matching Threshold: EPG マッチングしきい値
@@ -41,11 +44,12 @@ Error: エラー
 Error loading: 読み込みエラー
 Error loading playlists: {0}: プレイリストの読み込みエラー: {0}
 ERROR: player.html not found.: エラー: player.html が見つかりません。
-Export Failed: エクスポートに失敗しました
+Exit: 出口
 Export Favorites: お気に入りをエクスポート
 Export Filtered JSON: フィルタリングされた JSON をエクスポートする
 Export Filtered M3U: フィルタリングされた M3U をエクスポート
 Export JSON: JSONのエクスポート
+Export KO: 輸出KO
 Export OK: エクスポートOK
 Extracting update...: アップデートを抽出しています...
 Failed to download playlist: プレイリストのダウンロードに失敗しました
@@ -59,18 +63,27 @@ GitHub Error: GitHub エラー
 Group: グループ
 Help: ヘルプ
 Hide List: リストを非表示にする
+Import: 輸入
+Import error: {0}: インポートエラー: {0}
+Import from URL: URLからインポート
 Import JSON: JSONをインポートする
+Import JSON from URL: URLからJSONをインポート
+Import Local: ローカルをインポート
+Imported {0} channels from JSON.: JSON から {0} チャネルをインポートしました。
+Imported {0} channels from URL.: URL から {0} チャンネルをインポートしました。
 Info: 情報
+Invalid JSON: {0}: 無効な JSON: {0}
 Invalid playlist URL.: プレイリストの URL が無効です。
 Invalid URL.: URLが無効です。
+JSON Property: JSON プロパティ
 Language: 言語
 Languages (comma): 言語 (カンマ)
 LOAD: 負荷
 Load a playlist first.: まずプレイリストをロードします。
-Load M3U: M3Uをロードする
-Load M3U file from your computer: コンピューターから M3U ファイルをロードします
-Load M3U playlist from a web URL: Web URLからM3Uプレイリストをロード
+Load File: ファイルのロード
 Load Online: オンラインでロードする
+Load playlist file (M3U/JSON) from your computer: プレイリストファイル（M3U/JSON）をコンピューターからロードします
+Load playlist from web URL (M3U or JSON): Web URL (M3U または JSON) からプレイリストをロードします
 Loaded: ロード済み
 Loading...: 読み込み中...
 Logo Preview: ロゴのプレビュー
@@ -78,12 +91,16 @@ Logo URL: ロゴのURL
 Logos Matching Threshold: ロゴ一致のしきい値
 Logos Source: ロゴソース
 Logos Subfolder: ロゴサブフォルダー
+Map JSON properties to channel fields:: JSON プロパティをチャネル フィールドにマップします。
+Mapping saved for future imports of this file.: このファイルを今後インポートするためにマッピングが保存されました。
 Name: 名前
 Nanoid: ナノイド
 Network error: ネットワークエラー
 New Playlist: 新しいプレイリスト
 Next ▶: 次へ ▶
 No .m3u files found on GitHub repository.: GitHub リポジトリに .m3u ファイルが見つかりません。
+No channels could be mapped. Check your mapping rules.: チャネルをマッピングできませんでした。マッピング ルールを確認してください。
+No channels mapped: チャンネルがマッピングされていません
 No duplicate URLs found.: 重複する URL は見つかりませんでした。
 No favorite channels to export.: エクスポートするお気に入りのチャンネルがありません。
 No playlist found: プレイリストが見つかりません
@@ -96,6 +113,8 @@ Pause/Resume live stream: ライブストリームの一時停止/再開
 Player ready.: プレーヤーの準備ができました。
 Playlist Editor: プレイリストエディター
 Please select a program first.: 最初にプログラムを選択してください。
+Preview (first 5 channels): プレビュー (最初の 5 チャンネル)
+Preview error: {0}: プレビュー エラー: {0}
 Program Details: プログラム詳細
 Recent: 最近の
 Recent playlists: 最近のプレイリスト
@@ -103,11 +122,14 @@ Refresh: リフレッシュ
 Refresh EPG List: EPG リストを更新
 Refresh from GitHub: GitHub から更新する
 Rename Group: グループ名の変更
+Reset Order: 順序をリセットする
 Save: 保存
 SAVE: 保存
-Save As...: 名前を付けて保存...
+Save as...: 名前を付けて保存...
+Save Mapping: マッピングの保存
 Save Playlist: プレイリストの保存
 Save Status: ステータスの保存
+Saved: 保存されました
 Search channels...: チャンネルを検索...
 Select a playlist first.: 最初にプレイリストを選択します。
 Select Theme: テーマの選択
@@ -119,12 +141,12 @@ Status: 状態
 Stream URL: ストリームURL
 Success: 成功
 Support: サポート
+Target Field: 対象分野
 Theme picker: テーマピッカー
 Time: 時間
 Title: タイトル
 Tools: ツール
 TV Guide (EPG): テレビガイド (EPG)
-TVGarden+: テレビガーデン+
 TvgId: テレビID
 Unable to find version in remote project file.: リモート プロジェクト ファイルにバージョンが見つかりません。
 Update: アップデート

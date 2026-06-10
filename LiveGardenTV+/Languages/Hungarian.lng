@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Új verzió érhető el.
 About: Körülbelül
 About TVGarden+: A TVGarden+-ról
 Add Group: Csoport hozzáadása lehetőségre
+Add Mapping: Leképezés hozzáadása
 Advanced IDs: Speciális azonosítók
-Apply: Alkalmazni
 Apply changes: Módosítások alkalmazása
+Apply Filters: Szűrők alkalmazása
+Auto-detect: Automatikus felismerés
 Buffer (seconds): Puffer (másodperc)
 Cancel: Mégsem
 CANCEL: MÉGSEM
@@ -15,12 +17,12 @@ Channel Details: Csatorna részletei
 Channel Info: Csatorna Info
 Channel:: Csatorna:
 channels from: csatornák innen
+channels from JSON URL: csatornák a JSON URL-ből
 channels from URL: csatornák az URL-ből
 Check Duplicates: Ellenőrizze az ismétlődéseket
 Check for updates: Ellenőrizze a frissítéseket
 Check URLs: Ellenőrizze az URL-eket
-Clear: Világos
-Close: Közeli
+Clear Filters: Szűrők törlése
 Country: Ország
 Delete Group: Csoport törlése
 Description: Leírás
@@ -32,7 +34,8 @@ Edit Playlist: Lejátszási lista szerkesztése
 Edit URLs: URL-ek szerkesztése
 End (local): Vége (helyi)
 Enrich with EPG: Gazdagítsa EPG-vel
-Enter M3U URL:: Írja be az M3U URL-t:
+Enter JSON URL:: Írja be a JSON URL-t:
+Enter playlist URL (M3U or JSON):: Írja be a lejátszási lista URL-jét (M3U vagy JSON):
 EPG: EPG
 EPG & Favorites: EPG és kedvencek
 EPG Matching Threshold: EPG egyezési küszöb
@@ -41,11 +44,12 @@ Error: Hiba
 Error loading: Hiba a betöltés során
 Error loading playlists: {0}: Hiba a lejátszási listák betöltésekor: {0}
 ERROR: player.html not found.: HIBA: player.html nem található.
-Export Failed: Az exportálás sikertelen
+Exit: Kijárat
 Export Favorites: Kedvencek exportálása
 Export Filtered JSON: Szűrt JSON exportálása
 Export Filtered M3U: Szűrt M3U exportálása
 Export JSON: JSON exportálása
+Export KO: KO exportálása
 Export OK: Export OK
 Extracting update...: Frissítés kicsomagolása...
 Failed to download playlist: Nem sikerült letölteni a lejátszási listát
@@ -59,18 +63,27 @@ GitHub Error: GitHub hiba
 Group: Csoport
 Help: Segítség
 Hide List: Lista elrejtése
+Import: Importálás
+Import error: {0}: Importálási hiba: {0}
+Import from URL: Importálás az URL-ről
 Import JSON: JSON importálása
+Import JSON from URL: JSON importálása az URL-ből
+Import Local: Helyi importálás
+Imported {0} channels from JSON.: {0} csatorna importálva JSON-ból.
+Imported {0} channels from URL.: {0} csatorna importálva az URL-ről.
 Info: Info
+Invalid JSON: {0}: Érvénytelen JSON: {0}
 Invalid playlist URL.: Érvénytelen lejátszási lista URL-je.
 Invalid URL.: Érvénytelen URL.
+JSON Property: JSON-tulajdon
 Language: Nyelv
 Languages (comma): Nyelvek (vessző)
 LOAD: TERHELÉS
 Load a playlist first.: Először töltsön be egy lejátszási listát.
-Load M3U: Töltse be az M3U-t
-Load M3U file from your computer: Töltse le az M3U fájlt a számítógépéről
-Load M3U playlist from a web URL: M3U lejátszási lista betöltése web URL-ről
+Load File: Fájl betöltése
 Load Online: Betöltés Online
+Load playlist file (M3U/JSON) from your computer: Töltse le a lejátszási lista fájlt (M3U/JSON) a számítógépéről
+Load playlist from web URL (M3U or JSON): Lejátszási lista betöltése webes URL-ről (M3U vagy JSON)
 Loaded: Töltött
 Loading...: Terhelés...
 Logo Preview: Logo előnézet
@@ -78,12 +91,16 @@ Logo URL: Logo URL
 Logos Matching Threshold: Logók egyezési küszöbértéke
 Logos Source: Logók forrása
 Logos Subfolder: Logók almappa
+Map JSON properties to channel fields:: JSON-tulajdonságok hozzárendelése csatornamezőkhöz:
+Mapping saved for future imports of this file.: A leképezés mentve a fájl jövőbeli importálásához.
 Name: Név
 Nanoid: Nanoid
 Network error: Hálózati hiba
 New Playlist: Új lejátszási lista
 Next ▶: Következő ▶
 No .m3u files found on GitHub repository.: Nem található .m3u fájl a GitHub tárhelyen.
+No channels could be mapped. Check your mapping rules.: Egyetlen csatornát sem lehetett feltérképezni. Ellenőrizze a leképezési szabályokat.
+No channels mapped: Nincs csatorna hozzárendelve
 No duplicate URLs found.: Nem található ismétlődő URL.
 No favorite channels to export.: Nincsenek exportálható kedvenc csatornák.
 No playlist found: Nem található lejátszási lista
@@ -96,6 +113,8 @@ Pause/Resume live stream: Élő közvetítés szüneteltetése/folytatása
 Player ready.: A lejátszó készen áll.
 Playlist Editor: Lejátszási lista szerkesztő
 Please select a program first.: Kérjük, először válasszon programot.
+Preview (first 5 channels): Előnézet (első 5 csatorna)
+Preview error: {0}: Előnézeti hiba: {0}
 Program Details: Program részletei
 Recent: Legutóbbi
 Recent playlists: Legutóbbi lejátszási listák
@@ -103,11 +122,14 @@ Refresh: Frissítés
 Refresh EPG List: EPG-lista frissítése
 Refresh from GitHub: Frissítés a GitHubról
 Rename Group: Csoport átnevezése
+Reset Order: Rendelés visszaállítása
 Save: Megtakarítás
 SAVE: MEGTAKARÍTÁS
-Save As...: Mentés másként...
+Save as...: Mentés másként...
+Save Mapping: Leképezés mentése
 Save Playlist: Lejátszási lista mentése
 Save Status: Állapot mentése
+Saved: Mentve
 Search channels...: Csatornák keresése...
 Select a playlist first.: Először válasszon ki egy lejátszási listát.
 Select Theme: Válassza a Témát
@@ -119,12 +141,12 @@ Status: Állapot
 Stream URL: Stream URL
 Success: Siker
 Support: Támogatás
+Target Field: Célmező
 Theme picker: Témaválasztó
 Time: Idő
 Title: Cím
 Tools: Eszközök
 TV Guide (EPG): TV-műsorfüzet (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Nem található verzió a távoli projektfájlban.
 Update: Frissítés

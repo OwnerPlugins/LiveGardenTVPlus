@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: มีเวอร์ช
 About: เกี่ยวกับ
 About TVGarden+: เกี่ยวกับ ทีวีการ์เด้น+
 Add Group: เพิ่มกลุ่ม
+Add Mapping: เพิ่มการทำแผนที่
 Advanced IDs: รหัสขั้นสูง
-Apply: นำมาใช้
 Apply changes: ใช้การเปลี่ยนแปลง
+Apply Filters: ใช้ตัวกรอง
+Auto-detect: ตรวจจับอัตโนมัติ
 Buffer (seconds): บัฟเฟอร์ (วินาที)
 Cancel: ยกเลิก
 CANCEL: ยกเลิก
@@ -15,12 +17,12 @@ Channel Details: รายละเอียดช่อง
 Channel Info: ข้อมูลช่อง
 Channel:: ช่อง:
 channels from: ช่องทางจาก
+channels from JSON URL: ช่องจาก JSON URL
 channels from URL: ช่องทางจาก URL
 Check Duplicates: ตรวจสอบรายการที่ซ้ำกัน
 Check for updates: ตรวจสอบการอัปเดต
 Check URLs: ตรวจสอบ URL
-Clear: ชัดเจน
-Close: ปิด
+Clear Filters: ล้างตัวกรอง
 Country: ประเทศ
 Delete Group: ลบกลุ่ม
 Description: คำอธิบาย
@@ -32,7 +34,8 @@ Edit Playlist: แก้ไขเพลย์ลิสต์
 Edit URLs: แก้ไข URL
 End (local): สิ้นสุด (ท้องถิ่น)
 Enrich with EPG: เติมเต็มด้วย EPG
-Enter M3U URL:: ป้อน URL M3U:
+Enter JSON URL:: ป้อน URL JSON:
+Enter playlist URL (M3U or JSON):: ป้อน URL เพลย์ลิสต์ (M3U หรือ JSON):
 EPG: อีพีจี
 EPG & Favorites: EPG และรายการโปรด
 EPG Matching Threshold: เกณฑ์การจับคู่ EPG
@@ -41,11 +44,12 @@ Error: ข้อผิดพลาด
 Error loading: เกิดข้อผิดพลาดในการโหลด
 Error loading playlists: {0}: เกิดข้อผิดพลาดในการโหลดเพลย์ลิสต์: {0}
 ERROR: player.html not found.: ข้อผิดพลาด: ไม่พบ player.html
-Export Failed: การส่งออกล้มเหลว
+Exit: ออก
 Export Favorites: ส่งออกรายการโปรด
 Export Filtered JSON: ส่งออก JSON ที่กรองแล้ว
 Export Filtered M3U: ส่งออก M3U ที่กรองแล้ว
 Export JSON: ส่งออก JSON
+Export KO: ส่งออกเกาะ
 Export OK: ส่งออกตกลง
 Extracting update...: กำลังแยกการอัปเดต...
 Failed to download playlist: ดาวน์โหลดเพลย์ลิสต์ไม่สำเร็จ
@@ -59,18 +63,27 @@ GitHub Error: ข้อผิดพลาด GitHub
 Group: กลุ่ม
 Help: ช่วย
 Hide List: ซ่อนรายการ
+Import: นำเข้า
+Import error: {0}: ข้อผิดพลาดในการนำเข้า: {0}
+Import from URL: นำเข้าจาก URL
 Import JSON: นำเข้า JSON
+Import JSON from URL: นำเข้า JSON จาก URL
+Import Local: นำเข้าท้องถิ่น
+Imported {0} channels from JSON.: นำเข้า {0} ช่องจาก JSON
+Imported {0} channels from URL.: นำเข้า {0} ช่องจาก URL
 Info: ข้อมูล
+Invalid JSON: {0}: JSON ไม่ถูกต้อง: {0}
 Invalid playlist URL.: URL เพลย์ลิสต์ไม่ถูกต้อง
 Invalid URL.: URL ไม่ถูกต้อง
+JSON Property: คุณสมบัติ JSON
 Language: ภาษา
 Languages (comma): ภาษา (ลูกน้ำ)
 LOAD: โหลด
 Load a playlist first.: โหลดเพลย์ลิสต์ก่อน
-Load M3U: โหลด M3U
-Load M3U file from your computer: โหลดไฟล์ M3U จากคอมพิวเตอร์ของคุณ
-Load M3U playlist from a web URL: โหลดเพลย์ลิสต์ M3U จาก URL ของเว็บ
+Load File: โหลดไฟล์
 Load Online: โหลดออนไลน์
+Load playlist file (M3U/JSON) from your computer: โหลดไฟล์เพลย์ลิสต์ (M3U/JSON) จากคอมพิวเตอร์ของคุณ
+Load playlist from web URL (M3U or JSON): โหลดเพลย์ลิสต์จาก URL ของเว็บ (M3U หรือ JSON)
 Loaded: โหลดแล้ว
 Loading...: กำลังโหลด...
 Logo Preview: ดูตัวอย่างโลโก้
@@ -78,12 +91,16 @@ Logo URL: URL โลโก้
 Logos Matching Threshold: เกณฑ์การจับคู่โลโก้
 Logos Source: ที่มาของโลโก้
 Logos Subfolder: โฟลเดอร์ย่อยโลโก้
+Map JSON properties to channel fields:: แมปคุณสมบัติ JSON กับช่องช่อง:
+Mapping saved for future imports of this file.: การแมปที่บันทึกไว้สำหรับการนำเข้าไฟล์นี้ในอนาคต
 Name: ชื่อ
 Nanoid: นาโนอยด์
 Network error: ข้อผิดพลาดของเครือข่าย
 New Playlist: เพลย์ลิสต์ใหม่
 Next ▶: ถัดไป ▶
 No .m3u files found on GitHub repository.: ไม่พบไฟล์ .m3u บนที่เก็บ GitHub
+No channels could be mapped. Check your mapping rules.: ไม่สามารถแมปช่องได้ ตรวจสอบกฎการทำแผนที่ของคุณ
+No channels mapped: ไม่มีการแมปช่อง
 No duplicate URLs found.: ไม่พบ URL ที่ซ้ำกัน
 No favorite channels to export.: ไม่มีช่องโปรดที่จะส่งออก
 No playlist found: ไม่พบเพลย์ลิสต์
@@ -96,6 +113,8 @@ Pause/Resume live stream: หยุดชั่วคราว / สตรีม
 Player ready.: ผู้เล่นพร้อมแล้ว
 Playlist Editor: ตัวแก้ไขเพลย์ลิสต์
 Please select a program first.: กรุณาเลือกโปรแกรมก่อน
+Preview (first 5 channels): ดูตัวอย่าง (5 ช่องแรก)
+Preview error: {0}: ข้อผิดพลาดในการดูตัวอย่าง: {0}
 Program Details: รายละเอียดโปรแกรม
 Recent: ล่าสุด
 Recent playlists: เพลย์ลิสต์ล่าสุด
@@ -103,11 +122,14 @@ Refresh: รีเฟรช
 Refresh EPG List: รีเฟรชรายการ EPG
 Refresh from GitHub: รีเฟรชจาก GitHub
 Rename Group: เปลี่ยนชื่อกลุ่ม
+Reset Order: รีเซ็ตคำสั่งซื้อ
 Save: บันทึก
 SAVE: บันทึก
-Save As...: บันทึกเป็น...
+Save as...: บันทึกเป็น...
+Save Mapping: บันทึกการทำแผนที่
 Save Playlist: บันทึกเพลย์ลิสต์
 Save Status: บันทึกสถานะ
+Saved: บันทึกแล้ว
 Search channels...: ค้นหาช่อง...
 Select a playlist first.: เลือกเพลย์ลิสต์ก่อน
 Select Theme: เลือกธีม
@@ -119,12 +141,12 @@ Status: สถานะ
 Stream URL: URL สตรีม
 Success: ความสำเร็จ
 Support: สนับสนุน
+Target Field: สนามเป้าหมาย
 Theme picker: เครื่องมือเลือกธีม
 Time: เวลา
 Title: ชื่อ
 Tools: เครื่องมือ
 TV Guide (EPG): ทีวีไกด์ (EPG)
-TVGarden+: ทีวี การ์เด้น+
 TvgId: TvgId
 Unable to find version in remote project file.: ไม่พบเวอร์ชันในไฟล์โครงการระยะไกล
 Update: อัปเดต

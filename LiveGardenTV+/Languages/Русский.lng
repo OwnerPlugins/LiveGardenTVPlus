@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Доступна нов�
 About: О
 About TVGarden+: О ТВСад+
 Add Group: Добавить группу
+Add Mapping: Добавить сопоставление
 Advanced IDs: Расширенные идентификаторы
-Apply: Применять
 Apply changes: Применить изменения
+Apply Filters: Применить фильтры
+Auto-detect: Автообнаружение
 Buffer (seconds): Буфер (секунды)
 Cancel: Отмена
 CANCEL: ОТМЕНА
@@ -15,12 +17,12 @@ Channel Details: Подробности о канале
 Channel Info: Информация о канале
 Channel:: Канал:
 channels from: каналы из
+channels from JSON URL: каналы из URL-адреса JSON
 channels from URL: каналы из URL
 Check Duplicates: Проверьте дубликаты
 Check for updates: Проверьте наличие обновлений
 Check URLs: Проверить URL-адреса
-Clear: Прозрачный
-Close: Закрывать
+Clear Filters: Очистить фильтры
 Country: Страна
 Delete Group: Удалить группу
 Description: Описание
@@ -32,7 +34,8 @@ Edit Playlist: Редактировать плейлист
 Edit URLs: Редактировать URL-адреса
 End (local): Конец (локальный)
 Enrich with EPG: Обогатите EPG
-Enter M3U URL:: Введите URL-адрес M3U:
+Enter JSON URL:: Введите URL-адрес JSON:
+Enter playlist URL (M3U or JSON):: Введите URL-адрес плейлиста (M3U или JSON):
 EPG: электронная программа передач
 EPG & Favorites: EPG и избранное
 EPG Matching Threshold: Порог соответствия EPG
@@ -41,11 +44,12 @@ Error: Ошибка
 Error loading: Ошибка загрузки
 Error loading playlists: {0}: Ошибка загрузки плейлистов: {0}
 ERROR: player.html not found.: ОШИБКА: player.html не найден.
-Export Failed: Экспорт не выполнен
+Exit: Выход
 Export Favorites: Экспортировать избранное
 Export Filtered JSON: Экспорт отфильтрованного JSON
 Export Filtered M3U: Экспорт отфильтрованного M3U
 Export JSON: Экспорт JSON
+Export KO: Экспорт КО
 Export OK: Экспортировать ОК
 Extracting update...: Извлечение обновления...
 Failed to download playlist: Не удалось загрузить плейлист
@@ -59,18 +63,27 @@ GitHub Error: Ошибка GitHub
 Group: Группа
 Help: Помощь
 Hide List: Скрыть список
+Import: Импорт
+Import error: {0}: Ошибка импорта: {0}
+Import from URL: Импортировать с URL-адреса
 Import JSON: Импортировать JSON
+Import JSON from URL: Импортировать JSON из URL
+Import Local: Импортировать локально
+Imported {0} channels from JSON.: Импортировано {0} каналов из JSON.
+Imported {0} channels from URL.: Импортировано {0} каналов по URL.
 Info: Информация
+Invalid JSON: {0}: Неверный JSON: {0}
 Invalid playlist URL.: Неверный URL-адрес плейлиста.
 Invalid URL.: Неверный URL-адрес.
+JSON Property: Свойство JSON
 Language: Язык
 Languages (comma): Языки (запятая)
 LOAD: НАГРУЗКА
 Load a playlist first.: Сначала загрузите плейлист.
-Load M3U: Загрузить M3U
-Load M3U file from your computer: Загрузите файл M3U со своего компьютера
-Load M3U playlist from a web URL: Загрузить плейлист M3U с веб-URL
+Load File: Загрузить файл
 Load Online: Загрузить онлайн
+Load playlist file (M3U/JSON) from your computer: Загрузите файл списка воспроизведения (M3U/JSON) со своего компьютера.
+Load playlist from web URL (M3U or JSON): Загрузить плейлист из веб-URL (M3U или JSON)
 Loaded: Загружено
 Loading...: Загрузка...
 Logo Preview: Предварительный просмотр логотипа
@@ -78,12 +91,16 @@ Logo URL: URL-адрес логотипа
 Logos Matching Threshold: Порог соответствия логотипов
 Logos Source: Источник логотипов
 Logos Subfolder: Подпапка «Логотипы»
+Map JSON properties to channel fields:: Сопоставьте свойства JSON с полями канала:
+Mapping saved for future imports of this file.: Сопоставление сохранено для будущего импорта этого файла.
 Name: Имя
 Nanoid: Наноид
 Network error: Ошибка сети
 New Playlist: Новый плейлист
 Next ▶: Далее ▶
 No .m3u files found on GitHub repository.: В репозитории GitHub не найдены файлы .m3u.
+No channels could be mapped. Check your mapping rules.: Не удалось сопоставить каналы. Проверьте правила сопоставления.
+No channels mapped: Каналы не сопоставлены
 No duplicate URLs found.: Повторяющихся URL-адресов не обнаружено.
 No favorite channels to export.: Нет любимых каналов для экспорта.
 No playlist found: Плейлист не найден
@@ -96,6 +113,8 @@ Pause/Resume live stream: Пауза/возобновление прямой т�
 Player ready.: Игрок готов.
 Playlist Editor: Редактор плейлистов
 Please select a program first.: Пожалуйста, сначала выберите программу.
+Preview (first 5 channels): Предварительный просмотр (первые 5 каналов)
+Preview error: {0}: Ошибка предварительного просмотра: {0}
 Program Details: Детали программы
 Recent: Недавний
 Recent playlists: Последние плейлисты
@@ -103,11 +122,14 @@ Refresh: Обновить
 Refresh EPG List: Обновить список EPG
 Refresh from GitHub: Обновить с GitHub
 Rename Group: Переименовать группу
+Reset Order: Сбросить заказ
 Save: Сохранять
 SAVE: СОХРАНЯТЬ
-Save As...: Сохранить как...
+Save as...: Сохранить как...
+Save Mapping: Сохранить картографию
 Save Playlist: Сохранить плейлист
 Save Status: Сохранить статус
+Saved: Сохранено
 Search channels...: Поиск каналов...
 Select a playlist first.: Сначала выберите плейлист.
 Select Theme: Выберите тему
@@ -119,12 +141,12 @@ Status: Статус
 Stream URL: URL-адрес потока
 Success: Успех
 Support: Поддерживать
+Target Field: Целевое поле
 Theme picker: Выбор темы
 Time: Время
 Title: Заголовок
 Tools: Инструменты
 TV Guide (EPG): Телегид (EPG)
-TVGarden+: ТВ Сад+
 TvgId: твгид
 Unable to find version in remote project file.: Невозможно найти версию в файле удаленного проекта.
 Update: Обновлять

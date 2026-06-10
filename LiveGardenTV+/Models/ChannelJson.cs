@@ -31,7 +31,13 @@ namespace LiveGardenTVPlus.Models
         public List<string> stream_urls
         {
             get => _streamUrls ??= new List<string>();
-            set { _streamUrls = value; OnPropertyChanged(nameof(stream_urls)); OnPropertyChanged(nameof(StreamUrlsDisplay)); }
+            set 
+            { 
+                _streamUrls = value; 
+                OnPropertyChanged(nameof(stream_urls)); 
+                OnPropertyChanged(nameof(StreamUrlsDisplay));
+                OnPropertyChanged(nameof(PrimaryUrl));
+            }
         }
 
         [JsonProperty("logo_url")]
@@ -45,7 +51,7 @@ namespace LiveGardenTVPlus.Models
         public string group
         {
             get => _group;
-            set { _group = value; OnPropertyChanged(nameof(group)); }
+            set { _group = value ?? ""; OnPropertyChanged(nameof(group)); }
         }
 
         [JsonProperty("tvg_id")]
@@ -98,14 +104,6 @@ namespace LiveGardenTVPlus.Models
         }
 
         [JsonIgnore]
-        public string UrlStatus
-        {
-            get => _urlStatus;
-            set { _urlStatus = value; OnPropertyChanged(nameof(UrlStatus)); }
-        }
-
-        // Display properties for DataGrid
-        [JsonIgnore]
         public string LanguagesDisplay => languages != null ? string.Join(", ", languages) : "";
 
         [JsonIgnore]
@@ -113,6 +111,13 @@ namespace LiveGardenTVPlus.Models
 
         [JsonIgnore]
         public string StreamUrlsDisplay => stream_urls != null ? string.Join(", ", stream_urls) : "";
+
+        [JsonIgnore]
+        public string UrlStatus
+        {
+            get => _urlStatus;
+            set { _urlStatus = value; OnPropertyChanged(nameof(UrlStatus)); }
+        }
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged(string propertyName) =>

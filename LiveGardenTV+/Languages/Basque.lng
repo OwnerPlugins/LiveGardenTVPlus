@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Bertsio berri bat dago e
 About: Buruz
 About TVGarden+: TVGarden+-i buruz
 Add Group: Gehitu taldea
+Add Mapping: Gehitu mapak
 Advanced IDs: ID aurreratuak
-Apply: Aplikatu
 Apply changes: Aplikatu aldaketak
+Apply Filters: Aplikatu iragazkiak
+Auto-detect: Auto-detektatu
 Buffer (seconds): Buffer (segundoak)
 Cancel: Utzi
 CANCEL: Utzi
@@ -15,12 +17,12 @@ Channel Details: Kanalaren xehetasunak
 Channel Info: Kanalaren informazioa
 Channel:: Kanala:
 channels from: kanalak
+channels from JSON URL: kanalak JSON URLtik
 channels from URL: URLtik kanalak
 Check Duplicates: Egiaztatu Bikoiztuak
 Check for updates: Egiaztatu eguneratzeak
 Check URLs: Egiaztatu URLak
-Clear: Garbi
-Close: Itxi
+Clear Filters: Garbitu iragazkiak
 Country: Herrialdea
 Delete Group: Ezabatu taldea
 Description: Deskribapena
@@ -32,7 +34,8 @@ Edit Playlist: Editatu erreprodukzio zerrenda
 Edit URLs: Editatu URLak
 End (local): Amaiera (tokikoa)
 Enrich with EPG: EPGarekin aberastu
-Enter M3U URL:: Sartu M3U URLa:
+Enter JSON URL:: Sartu JSON URLa:
+Enter playlist URL (M3U or JSON):: Sartu erreprodukzio-zerrendaren URLa (M3U edo JSON):
 EPG: EPG
 EPG & Favorites: EPG eta gogokoak
 EPG Matching Threshold: EPG bat datorren atalasea
@@ -41,11 +44,12 @@ Error: Errorea
 Error loading: Errore bat gertatu da kargatzean
 Error loading playlists: {0}: Errore bat gertatu da erreprodukzio-zerrendak kargatzean: {0}
 ERROR: player.html not found.: ERROREA: player.html ez da aurkitu.
-Export Failed: Esportatu huts egin du
+Exit: Irten
 Export Favorites: Esportatu gogokoak
 Export Filtered JSON: Esportatu iragazitako JSON
 Export Filtered M3U: Esportatu iragazitako M3U
 Export JSON: Esportatu JSON
+Export KO: Esportatu KO
 Export OK: Esportatu OK
 Extracting update...: Eguneraketa ateratzen...
 Failed to download playlist: Ezin izan da deskargatu erreprodukzio-zerrenda
@@ -59,18 +63,27 @@ GitHub Error: GitHub errorea
 Group: Taldea
 Help: Laguntza
 Hide List: Ezkutatu Zerrenda
+Import: Inportatu
+Import error: {0}: Inportazio-errorea: {0}
+Import from URL: Inportatu URLtik
 Import JSON: Inportatu JSON
+Import JSON from URL: Inportatu JSON URLtik
+Import Local: Inportatu lokala
+Imported {0} channels from JSON.: {0} kanal inportatu dira JSONetik.
+Imported {0} channels from URL.: {0} kanal inportatu dira URLtik.
 Info: Info
+Invalid JSON: {0}: JSON baliogabea: {0}
 Invalid playlist URL.: Erreprodukzio-zerrendaren URL baliogabea.
 Invalid URL.: URL baliogabea.
+JSON Property: JSON propietatea
 Language: Hizkuntza
 Languages (comma): Hizkuntzak (koma)
 LOAD: ZARGA
 Load a playlist first.: Kargatu erreprodukzio-zerrenda bat lehenik.
-Load M3U: Kargatu M3U
-Load M3U file from your computer: Kargatu M3U fitxategia zure ordenagailutik
-Load M3U playlist from a web URL: Kargatu M3U erreprodukzio zerrenda web URL batetik
+Load File: Kargatu fitxategia
 Load Online: Kargatu linean
+Load playlist file (M3U/JSON) from your computer: Kargatu erreprodukzio zerrendaren fitxategia (M3U/JSON) ordenagailutik
+Load playlist from web URL (M3U or JSON): Kargatu erreprodukzio zerrenda web URLtik (M3U edo JSON)
 Loaded: Kargatu
 Loading...: Kargatzen...
 Logo Preview: Logotipoaren aurrebista
@@ -78,12 +91,16 @@ Logo URL: Logotipoaren URLa
 Logos Matching Threshold: Logotipoak bat datozen atalasea
 Logos Source: Logotipoen iturria
 Logos Subfolder: Logotipoen azpikarpeta
+Map JSON properties to channel fields:: Mapeatu JSON propietateak kanal-eremuetara:
+Mapping saved for future imports of this file.: Fitxategi honen etorkizuneko inportazioetarako mapak gorde dira.
 Name: Izena
 Nanoid: Nanoidea
 Network error: Sareko errorea
 New Playlist: Erreprodukzio zerrenda berria
 Next ▶: Hurrengoa ▶
 No .m3u files found on GitHub repository.: Ez da .m3u fitxategirik aurkitu GitHub biltegian.
+No channels could be mapped. Check your mapping rules.: Ezin izan da kanalik mapatu. Egiaztatu zure mapa-arauak.
+No channels mapped: Ez dago kanalik mapatu
 No duplicate URLs found.: Ez da bikoiztutako URLrik aurkitu.
 No favorite channels to export.: Ez dago esportatzeko gogoko kanalik.
 No playlist found: Ez da aurkitu erreprodukzio zerrenda
@@ -96,6 +113,8 @@ Pause/Resume live stream: Pausatu/Berrekin zuzeneko igorpena
 Player ready.: Jokalari prest.
 Playlist Editor: Erreprodukzio-zerrenden editorea
 Please select a program first.: Mesedez, hautatu programa bat lehenik.
+Preview (first 5 channels): Aurrebista (lehen 5 kanalak)
+Preview error: {0}: Aurrebista errorea: {0}
 Program Details: Programaren xehetasunak
 Recent: Duela gutxi
 Recent playlists: Azken erreprodukzio-zerrendak
@@ -103,11 +122,14 @@ Refresh: Freskatu
 Refresh EPG List: Freskatu EPG zerrenda
 Refresh from GitHub: Freskatu GitHub-etik
 Rename Group: Aldatu taldeari
+Reset Order: Berrezarri ordena
 Save: Gorde
 SAVE: GORDE
-Save As...: Gorde honela...
+Save as...: Gorde honela...
+Save Mapping: Gorde mapak
 Save Playlist: Gorde erreprodukzio zerrenda
 Save Status: Gorde egoera
+Saved: Gorde
 Search channels...: Bilatu kanalak...
 Select a playlist first.: Hautatu erreprodukzio-zerrenda bat lehenik.
 Select Theme: Hautatu Gaia
@@ -119,12 +141,12 @@ Status: Egoera
 Stream URL: Korrontearen URLa
 Success: Arrakasta
 Support: Laguntza
+Target Field: Helburu-eremua
 Theme picker: Gai-hautatzailea
 Time: Denbora
 Title: Izenburua
 Tools: Tresnak
 TV Guide (EPG): Telebistako Gida (EPG)
-TVGarden+: TVGarden+
 TvgId: TvgId
 Unable to find version in remote project file.: Ezin da bertsioa aurkitu urruneko proiektuaren fitxategian.
 Update: Eguneratu

@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: גרסה חדשה זמי
 About: אוֹדוֹת
 About TVGarden+: על TVGarden+
 Add Group: הוסף קבוצה
+Add Mapping: הוסף מיפוי
 Advanced IDs: תעודות זהות מתקדמות
-Apply: לִפְנוֹת
 Apply changes: החל שינויים
+Apply Filters: החל מסננים
+Auto-detect: זיהוי אוטומטי
 Buffer (seconds): מאגר (שניות)
 Cancel: לְבַטֵל
 CANCEL: לְבַטֵל
@@ -15,12 +17,12 @@ Channel Details: פרטי הערוץ
 Channel Info: מידע על הערוץ
 Channel:: עָרוּץ:
 channels from: ערוצים מ
+channels from JSON URL: ערוצים מ-URL של JSON
 channels from URL: ערוצים מ-URL
 Check Duplicates: סמן כפילויות
 Check for updates: בדוק אם יש עדכונים
 Check URLs: בדוק כתובות אתרים
-Clear: בָּרוּר
-Close: לִסְגוֹר
+Clear Filters: נקה מסננים
 Country: מְדִינָה
 Delete Group: מחק קבוצה
 Description: תֵאוּר
@@ -32,7 +34,8 @@ Edit Playlist: ערוך רשימת השמעה
 Edit URLs: ערוך כתובות אתרים
 End (local): סוף (מקומי)
 Enrich with EPG: העשרה ב-EPG
-Enter M3U URL:: הזן כתובת URL של M3U:
+Enter JSON URL:: הזן כתובת URL של JSON:
+Enter playlist URL (M3U or JSON):: הזן כתובת אתר של רשימת השמעה (M3U או JSON):
 EPG: EPG
 EPG & Favorites: EPG ומועדפים
 EPG Matching Threshold: סף התאמת EPG
@@ -41,11 +44,12 @@ Error: שְׁגִיאָה
 Error loading: שגיאה בטעינה
 Error loading playlists: {0}: שגיאה בטעינת רשימות השמעה: {0}
 ERROR: player.html not found.: שגיאה: player.html לא נמצא.
-Export Failed: הייצוא נכשל
+Exit: יְצִיאָה
 Export Favorites: ייצא מועדפים
 Export Filtered JSON: ייצא JSON מסונן
 Export Filtered M3U: ייצוא מסונן M3U
 Export JSON: ייצא JSON
+Export KO: ייצוא KO
 Export OK: ייצוא אישור
 Extracting update...: מחלץ עדכון...
 Failed to download playlist: הורדת הפלייליסט נכשלה
@@ -59,18 +63,27 @@ GitHub Error: שגיאת GitHub
 Group: קְבוּצָה
 Help: עֶזרָה
 Hide List: הסתר רשימה
+Import: יְבוּא
+Import error: {0}: שגיאת ייבוא: {0}
+Import from URL: ייבא מ-URL
 Import JSON: ייבוא ​​JSON
+Import JSON from URL: ייבא JSON מ-URL
+Import Local: ייבוא ​​מקומי
+Imported {0} channels from JSON.: ייבאו {0} ערוצים מ-JSON.
+Imported {0} channels from URL.: ייבאו {0} ערוצים מ-URL.
 Info: מידע
+Invalid JSON: {0}: JSON לא חוקי: {0}
 Invalid playlist URL.: כתובת אתר לא חוקית של פלייליסט.
 Invalid URL.: כתובת אתר לא חוקית.
+JSON Property: נכס JSON
 Language: שָׂפָה
 Languages (comma): שפות (פסיק)
 LOAD: לִטעוֹן
 Load a playlist first.: טען תחילה רשימת השמעה.
-Load M3U: טען M3U
-Load M3U file from your computer: טען קובץ M3U מהמחשב שלך
-Load M3U playlist from a web URL: טען רשימת השמעה M3U מכתובת אתר אינטרנט
+Load File: טען קובץ
 Load Online: טען באינטרנט
+Load playlist file (M3U/JSON) from your computer: טען קובץ רשימת השמעה (M3U/JSON) מהמחשב שלך
+Load playlist from web URL (M3U or JSON): טען רשימת השמעה מכתובת אתר אינטרנט (M3U או JSON)
 Loaded: טָעוּן
 Loading...: טְעִינָה...
 Logo Preview: תצוגה מקדימה של לוגו
@@ -78,12 +91,16 @@ Logo URL: כתובת אתר של לוגו
 Logos Matching Threshold: סף התאמת לוגו
 Logos Source: מקור לוגו
 Logos Subfolder: תיקיית משנה לוגו
+Map JSON properties to channel fields:: מיפוי מאפייני JSON לשדות ערוצים:
+Mapping saved for future imports of this file.: המיפוי נשמר עבור ייבוא ​​עתידי של קובץ זה.
 Name: שֵׁם
 Nanoid: ננואיד
 Network error: שגיאת רשת
 New Playlist: רשימת השמעה חדשה
 Next ▶: הבא ▶
 No .m3u files found on GitHub repository.: לא נמצאו קבצי .m3u במאגר GitHub.
+No channels could be mapped. Check your mapping rules.: לא ניתן היה למפות ערוצים. בדוק את כללי המיפוי שלך.
+No channels mapped: לא מופו ערוצים
 No duplicate URLs found.: לא נמצאו כתובות URL כפולות.
 No favorite channels to export.: אין ערוצים מועדפים לייצוא.
 No playlist found: לא נמצא רשימת השמעה
@@ -96,6 +113,8 @@ Pause/Resume live stream: השהה/המשך שידור חי
 Player ready.: שחקן מוכן.
 Playlist Editor: עורך רשימות השמעה
 Please select a program first.: אנא בחר תחילה תוכנית.
+Preview (first 5 channels): תצוגה מקדימה (5 הערוצים הראשונים)
+Preview error: {0}: שגיאת תצוגה מקדימה: {0}
 Program Details: פרטי התוכנית
 Recent: לאחרונה
 Recent playlists: רשימות השמעה אחרונות
@@ -103,11 +122,14 @@ Refresh: לְרַעֲנֵן
 Refresh EPG List: רענן את רשימת ה-EPG
 Refresh from GitHub: רענן מ-GitHub
 Rename Group: שנה את שם הקבוצה
+Reset Order: אפס סדר
 Save: לְהַצִיל
 SAVE: לְהַצִיל
-Save As...: שמור בשם...
+Save as...: שמור בשם...
+Save Mapping: שמור מיפוי
 Save Playlist: שמור רשימת השמעה
 Save Status: שמור סטטוס
+Saved: נשמר
 Search channels...: חפש ערוצים...
 Select a playlist first.: תחילה בחר רשימת השמעה.
 Select Theme: בחר ערכת נושא
@@ -119,12 +141,12 @@ Status: סטָטוּס
 Stream URL: כתובת אתר של זרם
 Success: הַצלָחָה
 Support: תְמִיכָה
+Target Field: שדה היעד
 Theme picker: בוחר נושאים
 Time: זְמַן
 Title: כּוֹתֶרֶת
 Tools: כְּלֵי עֲבוֹדָה
 TV Guide (EPG): מדריך טלוויזיה (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: לא ניתן למצוא גרסה בקובץ הפרויקט המרוחק.
 Update: לְעַדְכֵּן

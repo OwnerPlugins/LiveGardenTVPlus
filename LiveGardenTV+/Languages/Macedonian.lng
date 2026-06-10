@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Достапна е но
 About: За
 About TVGarden+: За TVGarden+
 Add Group: Додај група
+Add Mapping: Додадете мапирање
 Advanced IDs: Напредни лични карти
-Apply: Пријавете се
 Apply changes: Примени промени
+Apply Filters: Примени филтри
+Auto-detect: Автоматско откривање
 Buffer (seconds): Бафер (секунди)
 Cancel: Откажи
 CANCEL: ОТКАЖИ
@@ -15,12 +17,12 @@ Channel Details: Детали за каналот
 Channel Info: Информации за каналот
 Channel:: Канал:
 channels from: канали од
+channels from JSON URL: канали од JSON URL
 channels from URL: канали од URL
 Check Duplicates: Проверете ги дупликатите
 Check for updates: Проверете дали има ажурирања
 Check URLs: Проверете ги URL-адресите
-Clear: Јасно
-Close: Затвори
+Clear Filters: Исчистете ги филтрите
 Country: Земја
 Delete Group: Избриши група
 Description: Опис
@@ -32,7 +34,8 @@ Edit Playlist: Уреди плејлиста
 Edit URLs: Уреди URL-адреси
 End (local): Крај (локално)
 Enrich with EPG: Збогатете се со EPG
-Enter M3U URL:: Внесете URL на M3U:
+Enter JSON URL:: Внесете JSON URL:
+Enter playlist URL (M3U or JSON):: Внесете URL на плејлистата (M3U или JSON):
 EPG: EPG
 EPG & Favorites: EPG и омилени
 EPG Matching Threshold: Праг за совпаѓање на EPG
@@ -41,11 +44,12 @@ Error: Грешка
 Error loading: Грешка при вчитување
 Error loading playlists: {0}: Грешка при вчитување плејлисти: {0}
 ERROR: player.html not found.: ГРЕШКА: player.html не е пронајден.
-Export Failed: Извозот не успеа
+Exit: Излезете
 Export Favorites: Извезете ги омилените
 Export Filtered JSON: Извези филтриран JSON
 Export Filtered M3U: Извези филтриран M3U
 Export JSON: Извезете JSON
+Export KO: Извоз КО
 Export OK: Извези во ред
 Extracting update...: Се вади ажурирање...
 Failed to download playlist: Не успеа да се преземе плејлистата
@@ -59,18 +63,27 @@ GitHub Error: Грешка во GitHub
 Group: Група
 Help: Помош
 Hide List: Скриј список
+Import: Увоз
+Import error: {0}: Грешка при увоз: {0}
+Import from URL: Увезете од URL
 Import JSON: Увезете JSON
+Import JSON from URL: Увезете JSON од URL
+Import Local: Увези локално
+Imported {0} channels from JSON.: Увезени се {0} канали од JSON.
+Imported {0} channels from URL.: Увезени се {0} канали од URL-то.
 Info: Инфо
+Invalid JSON: {0}: Неважечки JSON: {0}
 Invalid playlist URL.: Неважечка URL-адреса на плејлистата.
 Invalid URL.: Неважечка URL-адреса.
+JSON Property: Својство на JSON
 Language: Јазик
 Languages (comma): Јазици (запирка)
 LOAD: LOAD
 Load a playlist first.: Прво вчитајте плејлиста.
-Load M3U: Вчитај M3U
-Load M3U file from your computer: Вчитајте датотека M3U од вашиот компјутер
-Load M3U playlist from a web URL: Вчитајте ја плејлистата M3U од веб-URL
+Load File: Вчитај датотека
 Load Online: Вчитај онлајн
+Load playlist file (M3U/JSON) from your computer: Вчитајте датотека со плејлиста (M3U/JSON) од вашиот компјутер
+Load playlist from web URL (M3U or JSON): Вчитај плејлиста од веб-URL (M3U или JSON)
 Loaded: Вчитано
 Loading...: Се вчитува...
 Logo Preview: Преглед на логото
@@ -78,12 +91,16 @@ Logo URL: URL на логото
 Logos Matching Threshold: Праг за совпаѓање на логоа
 Logos Source: Извор на логоа
 Logos Subfolder: Подпапка со логоа
+Map JSON properties to channel fields:: Картирај ги својствата на JSON во полињата за канали:
+Mapping saved for future imports of this file.: Мапирањето е зачувано за идно увоз на оваа датотека.
 Name: Име
 Nanoid: Наноид
 Network error: Мрежна грешка
 New Playlist: Нова плејлиста
 Next ▶: Следно ▶
 No .m3u files found on GitHub repository.: Не се пронајдени датотеки .m3u на складиштето на GitHub.
+No channels could be mapped. Check your mapping rules.: Ниту еден канал не можеше да се мапира. Проверете ги вашите правила за мапирање.
+No channels mapped: Нема мапирани канали
 No duplicate URLs found.: Не се најдени дупликат URL-адреси.
 No favorite channels to export.: Нема омилени канали за извоз.
 No playlist found: Не е пронајдена плејлиста
@@ -96,6 +113,8 @@ Pause/Resume live stream: Паузирајте/продолжете со пре�
 Player ready.: Играчот е подготвен.
 Playlist Editor: Уредувач на плејлисти
 Please select a program first.: Прво изберете програма.
+Preview (first 5 channels): Преглед (првите 5 канали)
+Preview error: {0}: Грешка во прегледот: {0}
 Program Details: Детали за програмата
 Recent: Неодамнешни
 Recent playlists: Неодамнешни плејлисти
@@ -103,11 +122,14 @@ Refresh: Освежи
 Refresh EPG List: Освежете ја листата на EPG
 Refresh from GitHub: Освежете се од GitHub
 Rename Group: Преименувај група
+Reset Order: Ресетирај нарачка
 Save: Зачувај
 SAVE: ЗАЧУВАЈ
-Save As...: Зачувај како...
+Save as...: Зачувај како...
+Save Mapping: Зачувај мапирање
 Save Playlist: Зачувај плејлиста
 Save Status: Зачувај статус
+Saved: Зачувано
 Search channels...: Пребарувајте канали...
 Select a playlist first.: Прво изберете плејлиста.
 Select Theme: Изберете Тема
@@ -119,12 +141,12 @@ Status: Статус
 Stream URL: УРЛ на пренос
 Success: Успех
 Support: Поддршка
+Target Field: Целно поле
 Theme picker: Избирач на тема
 Time: Време
 Title: Наслов
 Tools: Алатки
 TV Guide (EPG): ТВ водич (EPG)
-TVGarden+: ТВ градина +
 TvgId: TvgId
 Unable to find version in remote project file.: Не може да се најде верзија во оддалечената проектна датотека.
 Update: Ажурирање

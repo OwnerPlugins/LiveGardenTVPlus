@@ -16,6 +16,114 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 ## Changelog
 
 
+## 📋 LiveGardenTVPlus – Changelog (v2.1)
+
+#### 📁 Flexible JSON Import
+- **Import Local JSON** – New button `Import Local` in the playlist editor.  
+  Opens a mapping window that allows associating any JSON property with internal fields (`name`, `stream_urls`, `logo_url`, `group`, `tvg_id`, etc.).  
+  - Auto‑detect properties using common heuristics.  
+  - Save mapping for reuse with similar files.  
+  - Preview first 5 channels before import.
+
+- **Import JSON from URL** – New button `Import from URL` in the playlist editor.  
+  Enter a remote (raw) JSON URL, download content and apply the same mapping procedure.
+
+#### 🔄 JSON Support in Main Loaders
+- **"Load File" button** (ex "Load M3U"): now filters both `.m3u`/`.m3u8` and `.json` files.  
+  Auto‑detects format and directly imports JSON structured like the internal model (no mapping needed for compatible files).
+
+- **"Load Online" button**: now accepts both M3U and JSON URLs.  
+  Content is analysed and handled accordingly.  
+  Tooltip and button label updated to reflect dual support.
+
+#### 🖥️ Playlist Editor UI Improvements
+- Added **`Name` column** to the DataGrid (previously missing).  
+  Channel names are now visible immediately.
+- JSON group buttons renamed for clarity:  
+  `Import Local`, `Import from URL`, `Export JSON`.
+- All labels are fully translatable via `LanguageManager`.
+- **Column sorting** enabled for all columns, including template columns (URL primary, Logo, etc.).  
+- **Reset Order** button added to restore original channel order after sorting.
+
+#### 🐛 Fixes & Technical Improvements
+- Fixed `PrimaryUrl` property change notification in `ChannelJson`.  
+  The main URL now appears correctly in the grid right after import.
+- Robust handling of `null` values for `group`, `tvg_id`, `country`, `nanoid`, `logo_url` during JSON import.
+- JSON import now supports:
+  - Root arrays `[...]`
+  - Objects containing arrays e.g., `{"channels":[...]}`
+  - Comma‑separated objects `{...},{...}` (automatic wrapping into array).
+- Import no longer appends to existing list – it replaces the current playlist.
+- Added debug output for easier troubleshooting.
+
+### 🌐 New Translations
+- All new strings added to language files (e.g., `Load File`, `Import Local`, `Import from URL`, `Export JSON`, `Enter playlist URL (M3U or JSON):`, etc.).
+
+### 📝 Notes for Users
+- JSON files imported from a remote URL must be publicly accessible and in **raw** format (e.g., `raw.githubusercontent.com`).
+- The mapping window is available only from the playlist editor; direct loading via `Load File` or `Load Online` assumes the JSON already matches the `ChannelJson` model (avoids manual mapping for already compatible streams).
+- Click any column header to sort; use `Reset Order` button to revert to original order.
+
+## Help
+
+### Loading an M3U playlist from a URL
+
+1. Click the **"Load Online"** button on the main toolbar.
+2. Enter the full URL of the remote M3U playlist.
+3. The app will automatically detect the format and load the channels.
+
+**Example M3U URL (Italian channels):**  
+`https://raw.githubusercontent.com/OwnerPlugins/TivuStreamList/refs/heads/list/ios/playlist.m3u`
+
+### Loading a JSON playlist from a URL
+
+1. Click **"Load Online"** on the main toolbar.
+2. Paste the URL pointing to a raw JSON file.
+3. The app will recognise the JSON format and import the channels (structure must match the `ChannelJson` model).
+
+**Example JSON URL (Italian channels):**  
+`https://raw.githubusercontent.com/OwnerPlugins/famelack-data/main/tv/raw/countries/it.json`
+
+### Importing local JSON files with mapping
+
+1. Open the **Playlist Editor** (`Edit Playlist` button).
+2. Click **"Import Local"** (JSON group).
+3. Select a JSON file from your computer.
+4. A mapping window will appear – use **"Auto-detect"** to suggest field mappings or manually assign JSON properties to internal fields.
+5. Click **"Import"** to add the channels.
+
+### Importing JSON from a remote URL (with mapping)
+
+1. In the **Playlist Editor**, click **"Import from URL"**.
+2. Enter the raw JSON URL.
+3. Map the fields (auto‑detect helps) and import.
+
+### Supported JSON structures
+
+- Root array: `[ {...}, {...} ]`
+- Object containing an array: `{ "channels": [...] }`
+- Comma‑separated objects: `{...},{...}` (automatically wrapped into an array)
+
+### Sorting and resetting order
+
+- Click any column header to sort channels by that field.
+- Click **"Reset Order"** (in the editor’s Action group) to revert to the original channel order.
+
+### Need more help?
+
+Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
+
+---
+
+✅ **Status**: Completed and tested.  
+📌 **Next steps (optional)**:  
+- Xtream Codes support (external player).  
+- Local EPG cache.  
+- Subtitles support.
+
+Let me know if you need any changes.
+---
+
 ## 🚀 LiveGardenTVPlus – Changelog (v2.0)
 
 ### 🕘 Recent Playlists

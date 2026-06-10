@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: En ny version finns till
 About: Om
 About TVGarden+: Om TVGarden+
 Add Group: Lägg till grupp
+Add Mapping: Lägg till mappning
 Advanced IDs: Avancerade ID:n
-Apply: Tillämpas
 Apply changes: Tillämpa ändringar
+Apply Filters: Använd filter
+Auto-detect: Automatisk upptäckt
 Buffer (seconds): Buffert (sekunder)
 Cancel: Avboka
 CANCEL: AVBOKA
@@ -15,12 +17,12 @@ Channel Details: Kanaldetaljer
 Channel Info: Kanalinfo
 Channel:: Kanal:
 channels from: kanaler från
+channels from JSON URL: kanaler från JSON URL
 channels from URL: kanaler från URL
 Check Duplicates: Kontrollera dubbletter
 Check for updates: Sök efter uppdateringar
 Check URLs: Kontrollera webbadresser
-Clear: Rensa
-Close: Nära
+Clear Filters: Rensa filter
 Country: Land
 Delete Group: Ta bort grupp
 Description: Beskrivning
@@ -32,7 +34,8 @@ Edit Playlist: Redigera spellista
 Edit URLs: Redigera webbadresser
 End (local): Slut (lokalt)
 Enrich with EPG: Berika med EPG
-Enter M3U URL:: Ange M3U URL:
+Enter JSON URL:: Ange JSON URL:
+Enter playlist URL (M3U or JSON):: Ange spellistans URL (M3U eller JSON):
 EPG: EPG
 EPG & Favorites: EPG och favoriter
 EPG Matching Threshold: EPG-matchningströskel
@@ -41,11 +44,12 @@ Error: Fel
 Error loading: Fel vid laddning
 Error loading playlists: {0}: Det gick inte att läsa in spellistor: {0}
 ERROR: player.html not found.: FEL: player.html hittades inte.
-Export Failed: Exporten misslyckades
+Exit: Utgång
 Export Favorites: Exportera favoriter
 Export Filtered JSON: Exportera filtrerad JSON
 Export Filtered M3U: Exportera filtrerad M3U
 Export JSON: Exportera JSON
+Export KO: Exportera KO
 Export OK: Exportera OK
 Extracting update...: Extraherar uppdatering...
 Failed to download playlist: Det gick inte att ladda ner spellistan
@@ -59,18 +63,27 @@ GitHub Error: GitHub-fel
 Group: Grupp
 Help: Hjälp
 Hide List: Göm lista
+Import: Importera
+Import error: {0}: Importfel: {0}
+Import from URL: Importera från URL
 Import JSON: Importera JSON
+Import JSON from URL: Importera JSON från URL
+Import Local: Importera lokalt
+Imported {0} channels from JSON.: Importerade {0} kanaler från JSON.
+Imported {0} channels from URL.: Importerade {0} kanaler från URL.
 Info: Info
+Invalid JSON: {0}: Ogiltig JSON: {0}
 Invalid playlist URL.: Ogiltig webbadress för spellistan.
 Invalid URL.: Ogiltig webbadress.
+JSON Property: JSON-egendom
 Language: Språk
 Languages (comma): Språk (komma)
 LOAD: LADDA
 Load a playlist first.: Ladda en spellista först.
-Load M3U: Ladda M3U
-Load M3U file from your computer: Ladda M3U-fil från din dator
-Load M3U playlist from a web URL: Ladda M3U-spellista från en webbadress
+Load File: Ladda fil
 Load Online: Ladda online
+Load playlist file (M3U/JSON) from your computer: Ladda spellistfil (M3U/JSON) från din dator
+Load playlist from web URL (M3U or JSON): Ladda spellista från webbadressen (M3U eller JSON)
 Loaded: Lastad
 Loading...: Belastning...
 Logo Preview: Förhandsvisning av logotyp
@@ -78,12 +91,16 @@ Logo URL: Logotyp URL
 Logos Matching Threshold: Matchande tröskel för logotyper
 Logos Source: Logotyper källa
 Logos Subfolder: Logotyper undermapp
+Map JSON properties to channel fields:: Mappa JSON-egenskaper till kanalfält:
+Mapping saved for future imports of this file.: Mappningen har sparats för framtida importer av den här filen.
 Name: Namn
 Nanoid: Nanoid
 Network error: Nätverksfel
 New Playlist: Ny spellista
 Next ▶: Nästa ▶
 No .m3u files found on GitHub repository.: Inga .m3u-filer hittades på GitHub-arkivet.
+No channels could be mapped. Check your mapping rules.: Inga kanaler kunde kartläggas. Kontrollera dina kartläggningsregler.
+No channels mapped: Inga kanaler mappade
 No duplicate URLs found.: Inga dubbletter av webbadresser hittades.
 No favorite channels to export.: Inga favoritkanaler att exportera.
 No playlist found: Ingen spellista hittades
@@ -96,6 +113,8 @@ Pause/Resume live stream: Pausa/återuppta livestream
 Player ready.: Spelaren redo.
 Playlist Editor: Spellista Editor
 Please select a program first.: Välj ett program först.
+Preview (first 5 channels): Förhandsvisning (första 5 kanaler)
+Preview error: {0}: Förhandsgranskningsfel: {0}
 Program Details: Programinformation
 Recent: Ny
 Recent playlists: Senaste spellistor
@@ -103,11 +122,14 @@ Refresh: Uppdatera
 Refresh EPG List: Uppdatera EPG-listan
 Refresh from GitHub: Uppdatera från GitHub
 Rename Group: Byt namn på grupp
+Reset Order: Återställ ordning
 Save: Spara
 SAVE: SPARA
-Save As...: Spara som...
+Save as...: Spara som...
+Save Mapping: Spara mappning
 Save Playlist: Spara spellista
 Save Status: Spara status
+Saved: Sparad
 Search channels...: Sök kanaler...
 Select a playlist first.: Välj en spellista först.
 Select Theme: Välj Tema
@@ -119,12 +141,12 @@ Status: Status
 Stream URL: Streama URL
 Success: Framgång
 Support: Stöd
+Target Field: Målfält
 Theme picker: Temaväljare
 Time: Tid
 Title: Titel
 Tools: Verktyg
 TV Guide (EPG): TV-guide (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Det gick inte att hitta version i fjärrprojektfil.
 Update: Uppdatera

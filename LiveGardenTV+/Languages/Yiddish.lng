@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: א נייַע ווערס
 About: וועגן
 About TVGarden+: וועגן TVGarden+
 Add Group: לייג גרופע
+Add Mapping: לייג מאַפּינג
 Advanced IDs: אַוואַנסירטע IDs
-Apply: צולייגן
 Apply changes: צולייגן ענדערונגען
+Apply Filters: צולייגן פילטערס
+Auto-detect: אַוטאָ-דעטעקט
 Buffer (seconds): באַפער (סעקונדן)
 Cancel: באָטל מאַכן
 CANCEL: באָטל מאַכן
@@ -15,12 +17,12 @@ Channel Details: קאַנאַל דעטאַילס
 Channel Info: קאַנאַל אינפֿאָרמאַציע
 Channel:: קאַנאַל:
 channels from: טשאַנאַלז פון
+channels from JSON URL: טשאַנאַלז פֿון JSON URL
 channels from URL: טשאַנאַלז פֿון URL
 Check Duplicates: קוק די דופּליקאַטן
 Check for updates: קוק פֿאַר דערהייַנטיקונגען
 Check URLs: קוק URL ס
-Clear: קלאָר
-Close: נאָענט
+Clear Filters: קלאָר פילטערס
 Country: לאַנד
 Delete Group: ויסמעקן גרופע
 Description: באַשרייַבונג
@@ -32,7 +34,8 @@ Edit Playlist: רעדאַגירן פּלייַליסט
 Edit URLs: רעדאַגירן URL ס
 End (local): סוף (לאקאלע)
 Enrich with EPG: באַרייַכערן מיט EPG
-Enter M3U URL:: אַרייַן M3U URL:
+Enter JSON URL:: אַרייַן JSON URL:
+Enter playlist URL (M3U or JSON):: אַרייַן פּלייַליסט URL (M3U אָדער JSON):
 EPG: EPG
 EPG & Favorites: עפּג & פאַוואָריטעס
 EPG Matching Threshold: EPG Matching Threshold
@@ -41,11 +44,12 @@ Error: טעות
 Error loading: טעות לאָודינג
 Error loading playlists: {0}: טעות לאָודינג פּלייַליסץ: {0}
 ERROR: player.html not found.: טעות: player.html ניט געפֿונען.
-Export Failed: עקספּאָרט ניט אַנדערש
+Exit: אַרויסגאַנג
 Export Favorites: עקספּאָרט פאַוואָריטעס
 Export Filtered JSON: עקספּאָרט פילטערד JSON
 Export Filtered M3U: עקספּאָרט פילטערד מ3ו
 Export JSON: עקספּאָרט דזשסאָן
+Export KO: עקספּאָרט KO
 Export OK: עקספּאָרט גוט
 Extracting update...: עקסטראַקטינג דערהייַנטיקן ...
 Failed to download playlist: ניט אַנדערש צו אָפּלאָדירן פּלייַליסט
@@ -59,18 +63,27 @@ GitHub Error: GitHub טעות
 Group: גרופע
 Help: הילף
 Hide List: באַהאַלטן רשימה
+Import: אַרייַנפיר
+Import error: {0}: אימפארט טעות: {0}
+Import from URL: אַרייַנפיר פֿון URL
 Import JSON: אַרייַנפיר JSON
+Import JSON from URL: אַרייַנפיר JSON פֿון URL
+Import Local: אַרייַנפיר לאקאלע
+Imported {0} channels from JSON.: ימפּאָרטיד {0} טשאַנאַלז פון JSON.
+Imported {0} channels from URL.: ימפּאָרטיד {0} טשאַנאַלז פון URL.
 Info: אינפֿאָרמאַציע
+Invalid JSON: {0}: אומגילטיק דזשסאָן: {0}
 Invalid playlist URL.: אומגילטיק URL פון פּלייַליסט.
 Invalid URL.: אומגילטיק URL.
+JSON Property: JSON פאַרמאָג
 Language: שפּראַך
 Languages (comma): שפּראַכן (קאָממאַ)
 LOAD: LOAD
 Load a playlist first.: לאָדן אַ פּלייַליסט ערשטער.
-Load M3U: לאָדן M3U
-Load M3U file from your computer: לאָדן די M3U טעקע פֿון דיין קאָמפּיוטער
-Load M3U playlist from a web URL: לאָדן M3U פּלייַליסט פֿון אַ וועב URL
+Load File: לאָדן טעקע
 Load Online: לאָדן אָנליין
+Load playlist file (M3U/JSON) from your computer: לאָדן פּלייַליסט טעקע (M3U/JSON) פֿון דיין קאָמפּיוטער
+Load playlist from web URL (M3U or JSON): לאָדן פּלייַליסט פֿון וועב URL (M3U אָדער JSON)
 Loaded: לאָודיד
 Loading...: לאָדן...
 Logo Preview: לאָגאָ פּריוויו
@@ -78,12 +91,16 @@ Logo URL: לאָגאָ URL
 Logos Matching Threshold: לאָגאָס וואָס ריכטן שוועל
 Logos Source: לאָגאָס מקור
 Logos Subfolder: לאָגאָס סובפאָלדער
+Map JSON properties to channel fields:: מאַפּע JSON פּראָפּערטיעס צו קאַנאַל פעלדער:
+Mapping saved for future imports of this file.: מאַפּינג געראטעוועט פֿאַר צוקונפֿט ימפּאָרץ פון דעם טעקע.
 Name: נאָמען
 Nanoid: נאַנאָיד
 Network error: נעץ טעות
 New Playlist: ניו פּלייַליסט
 Next ▶: ווייַטער ▶
 No .m3u files found on GitHub repository.: ניט קיין .מ3ו טעקעס געפֿונען אויף GitHub ריפּאַזאַטאָרי.
+No channels could be mapped. Check your mapping rules.: קיין טשאַנאַלז קען זיין מאַפּט. קוק דיין מאַפּינג כּללים.
+No channels mapped: קיין טשאַנאַלז מאַפּט
 No duplicate URLs found.: קיין דופּליקאַט URL ס געפֿונען.
 No favorite channels to export.: ניט קיין באַליבסטע טשאַנאַלז צו אַרויספירן.
 No playlist found: קיין פּלייַליסט געפונען
@@ -96,6 +113,8 @@ Pause/Resume live stream: פּויזע / נעמענ זיכ ווידער לעבן
 Player ready.: שפּילער גרייט.
 Playlist Editor: פּלייַליסט עדיטאָר
 Please select a program first.: ביטע אויסקלייַבן אַ פּראָגראַם ערשטער.
+Preview (first 5 channels): פאָרויסיקע ווייַזונג (ערשטער 5 טשאַנאַלז)
+Preview error: {0}: פאָרויסיקע ווייַזונג טעות: {0}
 Program Details: פּראָגראַם דעטאַילס
 Recent: לעצטע
 Recent playlists: לעצטע פּלייַליסץ
@@ -103,11 +122,14 @@ Refresh: דערפרישן
 Refresh EPG List: דערפרישן די EPG רשימה
 Refresh from GitHub: דערפרישן פֿון GitHub
 Rename Group: רענאַמע גרופע
+Reset Order: באַשטעטיק סדר
 Save: היט
 SAVE: SAVE
-Save As...: היט ווי ...
+Save as...: היט ווי ...
+Save Mapping: היט מאַפּינג
 Save Playlist: היט פּלייַליסט
 Save Status: היט סטאַטוס
+Saved: געראטעוועט
 Search channels...: זוך טשאַנאַלז ...
 Select a playlist first.: אויסקלייַבן אַ פּלייַליסט ערשטער.
 Select Theme: אויסקלייַבן טעמע
@@ -119,12 +141,12 @@ Status: סטאַטוס
 Stream URL: סטרים URL
 Success: הצלחה
 Support: שטיצן
+Target Field: ציל פעלד
 Theme picker: טעמע פּיקער
 Time: צייט
 Title: טיטל
 Tools: מכשירים
 TV Guide (EPG): טעלעוויזיע גייד (EPG)
-TVGarden+: טעלעוויזיע גאַרדאַן +
 TvgId: TvgId
 Unable to find version in remote project file.: ניט געקענט געפֿינען ווערסיע אין ווייַט פּרויעקט טעקע.
 Update: דערהייַנטיקן

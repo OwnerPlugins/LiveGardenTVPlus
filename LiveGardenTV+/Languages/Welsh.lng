@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Mae fersiwn newydd ar ga
 About: Ynghylch
 About TVGarden+: Ynglŷn â TVGarden+
 Add Group: Ychwanegu Grŵp
+Add Mapping: Ychwanegu Mapio
 Advanced IDs: IDau uwch
-Apply: Ymgeisiwch
 Apply changes: Cymhwyso newidiadau
+Apply Filters: Cymhwyso Hidlau
+Auto-detect: Auto-canfod
 Buffer (seconds): byffer (eiliadau)
 Cancel: Canslo
 CANCEL: CANSLO
@@ -15,12 +17,12 @@ Channel Details: Manylion Sianel
 Channel Info: Gwybodaeth Sianel
 Channel:: Sianel:
 channels from: sianeli o
+channels from JSON URL: sianeli o URL JSON
 channels from URL: sianeli o URL
 Check Duplicates: Gwiriwch Dyblygiadau
 Check for updates: Gwiriwch am ddiweddariadau
 Check URLs: Gwiriwch URLs
-Clear: Clir
-Close: Cau
+Clear Filters: Hidlau clir
 Country: Gwlad
 Delete Group: Dileu Grŵp
 Description: Disgrifiad
@@ -32,7 +34,8 @@ Edit Playlist: Golygu Rhestr Chwarae
 Edit URLs: Golygu URLs
 End (local): Diwedd (lleol)
 Enrich with EPG: Cyfoethogi gyda EPG
-Enter M3U URL:: Rhowch URL M3U:
+Enter JSON URL:: Rhowch URL JSON:
+Enter playlist URL (M3U or JSON):: Rhowch URL rhestr chwarae (M3U neu JSON):
 EPG: EPG
 EPG & Favorites: EPG a Ffefrynnau
 EPG Matching Threshold: Trothwy Cyfatebol EPG
@@ -41,11 +44,12 @@ Error: Gwall
 Error loading: Gwall wrth lwytho
 Error loading playlists: {0}: Gwall wrth lwytho rhestri chwarae: {0}
 ERROR: player.html not found.: GWALL: ni chanfuwyd player.html.
-Export Failed: Methwyd Allforio
+Exit: Ymadael
 Export Favorites: Ffefrynnau Allforio
 Export Filtered JSON: Allforio JSON Hidlo
 Export Filtered M3U: Allforio Hidlo M3U
 Export JSON: Allforio JSON
+Export KO: Allforio KO
 Export OK: Allforio Iawn
 Extracting update...: Wrthi'n echdynnu diweddariad...
 Failed to download playlist: Wedi methu lawrlwytho rhestr chwarae
@@ -59,18 +63,27 @@ GitHub Error: Gwall GitHub
 Group: Grwp
 Help: Help
 Hide List: Cuddio Rhestr
+Import: Mewnforio
+Import error: {0}: Gwall mewnforio: {0}
+Import from URL: Mewnforio o URL
 Import JSON: Mewnforio JSON
+Import JSON from URL: Mewnforio JSON o URL
+Import Local: Mewnforio Lleol
+Imported {0} channels from JSON.: Wedi mewnforio {0} sianel o JSON.
+Imported {0} channels from URL.: Wedi mewnforio {0} sianel o URL.
 Info: Gwybodaeth
+Invalid JSON: {0}: JSON annilys: {0}
 Invalid playlist URL.: URL rhestr chwarae annilys.
 Invalid URL.: URL annilys.
+JSON Property: JSON Eiddo
 Language: Iaith
 Languages (comma): Ieithoedd (comma)
 LOAD: LLWYTH
 Load a playlist first.: Llwythwch restr chwarae yn gyntaf.
-Load M3U: Llwyth M3U
-Load M3U file from your computer: Llwythwch ffeil M3U o'ch cyfrifiadur
-Load M3U playlist from a web URL: Llwythwch restr chwarae M3U o URL gwe
+Load File: Llwytho Ffeil
 Load Online: Llwytho Ar-lein
+Load playlist file (M3U/JSON) from your computer: Llwythwch ffeil rhestr chwarae (M3U/JSON) o'ch cyfrifiadur
+Load playlist from web URL (M3U or JSON): Llwytho rhestr chwarae o URL gwe (M3U neu JSON)
 Loaded: Wedi'i lwytho
 Loading...: Wrthi'n llwytho...
 Logo Preview: Rhagolwg Logo
@@ -78,12 +91,16 @@ Logo URL: URL logo
 Logos Matching Threshold: Trothwy Cyfatebol Logos
 Logos Source: Ffynhonnell Logos
 Logos Subfolder: Is-ffolder Logos
+Map JSON properties to channel fields:: Mapio priodweddau JSON i feysydd sianel:
+Mapping saved for future imports of this file.: Mae mapiau wedi'u cadw ar gyfer mewnforio'r ffeil hon yn y dyfodol.
 Name: Enw
 Nanoid: Nanoid
 Network error: Gwall rhwydwaith
 New Playlist: Rhestr Chwarae Newydd
 Next ▶: Nesaf ▶
 No .m3u files found on GitHub repository.: Ni ddarganfuwyd unrhyw ffeiliau .m3u ar ystorfa GitHub.
+No channels could be mapped. Check your mapping rules.: Nid oedd modd mapio unrhyw sianeli. Gwiriwch eich rheolau mapio.
+No channels mapped: Dim sianeli wedi'u mapio
 No duplicate URLs found.: Ni chanfuwyd URLau dyblyg.
 No favorite channels to export.: Dim hoff sianeli i'w hallforio.
 No playlist found: Heb ganfod rhestr chwarae
@@ -96,6 +113,8 @@ Pause/Resume live stream: Saib/Ailgychwyn ffrwd fyw
 Player ready.: Chwaraewr yn barod.
 Playlist Editor: Golygydd Rhestr Chwarae
 Please select a program first.: Dewiswch raglen yn gyntaf.
+Preview (first 5 channels): Rhagolwg (5 sianel gyntaf)
+Preview error: {0}: Gwall rhagolwg: {0}
 Program Details: Manylion y Rhaglen
 Recent: diweddar
 Recent playlists: Rhestrau chwarae diweddar
@@ -103,11 +122,14 @@ Refresh: Adnewyddu
 Refresh EPG List: Adnewyddu'r Rhestr EPG
 Refresh from GitHub: Adnewyddu o GitHub
 Rename Group: Ailenwi Grŵp
+Reset Order: Gorchymyn Ailosod
 Save: Arbed
 SAVE: ARBED
-Save As...: Arbed Fel...
+Save as...: Arbedwch fel...
+Save Mapping: Cadw Mapio
 Save Playlist: Cadw Rhestr Chwarae
 Save Status: Cadw Statws
+Saved: Cadwedig
 Search channels...: Chwilio sianeli...
 Select a playlist first.: Dewiswch restr chwarae yn gyntaf.
 Select Theme: Dewiswch Thema
@@ -119,12 +141,12 @@ Status: Statws
 Stream URL: Ffrydio URL
 Success: Llwyddiant
 Support: Cefnogaeth
+Target Field: Maes Targed
 Theme picker: Dewisydd thema
 Time: Amser
 Title: Teitl
 Tools: Offer
 TV Guide (EPG): Canllaw Teledu (EPG)
-TVGarden+: Gardd Deledu+
 TvgId: TvgId
 Unable to find version in remote project file.: Methu dod o hyd i fersiwn mewn ffeil prosiect anghysbell.
 Update: Diweddariad

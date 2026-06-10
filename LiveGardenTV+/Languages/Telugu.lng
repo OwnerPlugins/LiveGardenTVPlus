@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: కొత్త వె�
 About: గురించి
 About TVGarden+: TVGarden+ గురించి
 Add Group: సమూహాన్ని జోడించండి
+Add Mapping: మ్యాపింగ్‌ని జోడించండి
 Advanced IDs: అధునాతన IDలు
-Apply: దరఖాస్తు చేసుకోండి
 Apply changes: మార్పులను వర్తింపజేయండి
+Apply Filters: ఫిల్టర్‌లను వర్తింపజేయండి
+Auto-detect: స్వయంచాలకంగా గుర్తించండి
 Buffer (seconds): బఫర్ (సెకన్లు)
 Cancel: రద్దు చేయి
 CANCEL: రద్దు చేయి
@@ -15,12 +17,12 @@ Channel Details: ఛానెల్ వివరాలు
 Channel Info: ఛానెల్ సమాచారం
 Channel:: ఛానెల్:
 channels from: నుండి ఛానెల్‌లు
+channels from JSON URL: JSON URL నుండి ఛానెల్‌లు
 channels from URL: URL నుండి ఛానెల్‌లు
 Check Duplicates: నకిలీలను తనిఖీ చేయండి
 Check for updates: నవీకరణల కోసం తనిఖీ చేయండి
 Check URLs: URLలను తనిఖీ చేయండి
-Clear: క్లియర్
-Close: మూసివేయి
+Clear Filters: ఫిల్టర్‌లను క్లియర్ చేయండి
 Country: దేశం
 Delete Group: సమూహాన్ని తొలగించండి
 Description: వివరణ
@@ -32,7 +34,8 @@ Edit Playlist: ప్లేజాబితాను సవరించండి
 Edit URLs: URLలను సవరించండి
 End (local): ముగింపు (స్థానికం)
 Enrich with EPG: EPGతో మెరుగుపరచండి
-Enter M3U URL:: M3U URLని నమోదు చేయండి:
+Enter JSON URL:: JSON URLని నమోదు చేయండి:
+Enter playlist URL (M3U or JSON):: ప్లేజాబితా URL (M3U లేదా JSON) నమోదు చేయండి:
 EPG: EPG
 EPG & Favorites: EPG & ఇష్టమైనవి
 EPG Matching Threshold: EPG మ్యాచింగ్ థ్రెషోల్డ్
@@ -41,11 +44,12 @@ Error: లోపం
 Error loading: లోడ్ చేయడంలో లోపం
 Error loading playlists: {0}: ప్లేజాబితాలను లోడ్ చేయడంలో లోపం: {0}
 ERROR: player.html not found.: లోపం: player.html కనుగొనబడలేదు.
-Export Failed: ఎగుమతి విఫలమైంది
+Exit: నిష్క్రమించు
 Export Favorites: ఇష్టమైనవి ఎగుమతి చేయండి
 Export Filtered JSON: ఫిల్టర్ చేసిన JSONని ఎగుమతి చేయండి
 Export Filtered M3U: ఫిల్టర్ చేసిన M3Uని ఎగుమతి చేయండి
 Export JSON: JSONని ఎగుమతి చేయండి
+Export KO: ఎగుమతి KO
 Export OK: ఎగుమతి సరే
 Extracting update...: నవీకరణను సంగ్రహిస్తోంది...
 Failed to download playlist: ప్లేజాబితాను డౌన్‌లోడ్ చేయడంలో విఫలమైంది
@@ -59,18 +63,27 @@ GitHub Error: GitHub లోపం
 Group: సమూహం
 Help: సహాయం
 Hide List: జాబితాను దాచు
+Import: దిగుమతి
+Import error: {0}: దిగుమతి లోపం: {0}
+Import from URL: URL నుండి దిగుమతి చేయండి
 Import JSON: JSONని దిగుమతి చేయండి
+Import JSON from URL: URL నుండి JSONని దిగుమతి చేయండి
+Import Local: స్థానికంగా దిగుమతి చేసుకోండి
+Imported {0} channels from JSON.: JSON నుండి {0} ఛానెల్‌లు దిగుమతి చేయబడ్డాయి.
+Imported {0} channels from URL.: URL నుండి {0} ఛానెల్‌లు దిగుమతి చేయబడ్డాయి.
 Info: సమాచారం
+Invalid JSON: {0}: చెల్లని JSON: {0}
 Invalid playlist URL.: చెల్లని ప్లేజాబితా URL.
 Invalid URL.: చెల్లని URL.
+JSON Property: JSON ఆస్తి
 Language: భాష
 Languages (comma): భాషలు (కామా)
 LOAD: లోడ్ చేయండి
 Load a playlist first.: ముందుగా ప్లేజాబితాను లోడ్ చేయండి.
-Load M3U: M3Uని లోడ్ చేయండి
-Load M3U file from your computer: మీ కంప్యూటర్ నుండి M3U ఫైల్‌ను లోడ్ చేయండి
-Load M3U playlist from a web URL: వెబ్ URL నుండి M3U ప్లేజాబితాను లోడ్ చేయండి
+Load File: ఫైల్‌ని లోడ్ చేయండి
 Load Online: ఆన్‌లైన్‌లో లోడ్ చేయండి
+Load playlist file (M3U/JSON) from your computer: మీ కంప్యూటర్ నుండి ప్లేజాబితా ఫైల్ (M3U/JSON) లోడ్ చేయండి
+Load playlist from web URL (M3U or JSON): వెబ్ URL (M3U లేదా JSON) నుండి ప్లేజాబితాను లోడ్ చేయండి
 Loaded: లోడ్ చేయబడింది
 Loading...: లోడ్ అవుతోంది...
 Logo Preview: లోగో ప్రివ్యూ
@@ -78,12 +91,16 @@ Logo URL: లోగో URL
 Logos Matching Threshold: లోగోలు సరిపోలే థ్రెషోల్డ్
 Logos Source: లోగోల మూలం
 Logos Subfolder: లోగోలు సబ్‌ఫోల్డర్
+Map JSON properties to channel fields:: JSON లక్షణాలను ఛానెల్ ఫీల్డ్‌లకు మ్యాప్ చేయండి:
+Mapping saved for future imports of this file.: ఈ ఫైల్ యొక్క భవిష్యత్తు దిగుమతుల కోసం మ్యాపింగ్ సేవ్ చేయబడింది.
 Name: పేరు
 Nanoid: నానోయిడ్
 Network error: నెట్‌వర్క్ లోపం
 New Playlist: కొత్త ప్లేజాబితా
 Next ▶: తదుపరి ▶
 No .m3u files found on GitHub repository.: GitHub రిపోజిటరీలో .m3u ఫైల్‌లు ఏవీ కనుగొనబడలేదు.
+No channels could be mapped. Check your mapping rules.: ఛానెల్‌లు ఏవీ మ్యాప్ చేయబడవు. మీ మ్యాపింగ్ నియమాలను తనిఖీ చేయండి.
+No channels mapped: ఛానెల్‌లు ఏవీ మ్యాప్ చేయబడలేదు
 No duplicate URLs found.: నకిలీ URLలు ఏవీ కనుగొనబడలేదు.
 No favorite channels to export.: ఎగుమతి చేయడానికి ఇష్టమైన ఛానెల్‌లు లేవు.
 No playlist found: ప్లేజాబితా ఏదీ కనుగొనబడలేదు
@@ -96,6 +113,8 @@ Pause/Resume live stream: ప్రత్యక్ష ప్రసారాన�
 Player ready.: ప్లేయర్ సిద్ధంగా ఉంది.
 Playlist Editor: ప్లేజాబితా ఎడిటర్
 Please select a program first.: దయచేసి ముందుగా ఒక ప్రోగ్రామ్‌ను ఎంచుకోండి.
+Preview (first 5 channels): ప్రివ్యూ (మొదటి 5 ఛానెల్‌లు)
+Preview error: {0}: ప్రివ్యూ లోపం: {0}
 Program Details: ప్రోగ్రామ్ వివరాలు
 Recent: ఇటీవలి
 Recent playlists: ఇటీవలి ప్లేజాబితాలు
@@ -103,11 +122,14 @@ Refresh: రిఫ్రెష్ చేయండి
 Refresh EPG List: EPG జాబితాను రిఫ్రెష్ చేయండి
 Refresh from GitHub: GitHub నుండి రిఫ్రెష్ చేయండి
 Rename Group: గ్రూప్ పేరు మార్చండి
+Reset Order: ఆర్డర్‌ని రీసెట్ చేయండి
 Save: సేవ్ చేయండి
 SAVE: సేవ్ చేయండి
-Save As...: ఇలా సేవ్ చేయి...
+Save as...: ఇలా సేవ్ చేయి...
+Save Mapping: మ్యాపింగ్‌ను సేవ్ చేయండి
 Save Playlist: ప్లేజాబితాను సేవ్ చేయండి
 Save Status: స్థితిని సేవ్ చేయండి
+Saved: సేవ్ చేయబడింది
 Search channels...: ఛానెల్‌లను శోధించండి...
 Select a playlist first.: ముందుగా ప్లేజాబితాను ఎంచుకోండి.
 Select Theme: థీమ్‌ని ఎంచుకోండి
@@ -119,12 +141,12 @@ Status: స్థితి
 Stream URL: స్ట్రీమ్ URL
 Success: విజయం
 Support: మద్దతు
+Target Field: టార్గెట్ ఫీల్డ్
 Theme picker: థీమ్ పికర్
 Time: సమయం
 Title: శీర్షిక
 Tools: ఉపకరణాలు
 TV Guide (EPG): టీవీ గైడ్ (EPG)
-TVGarden+: TV గార్డెన్+
 TvgId: TvgId
 Unable to find version in remote project file.: రిమోట్ ప్రాజెక్ట్ ఫైల్‌లో సంస్కరణను కనుగొనడం సాధ్యపడలేదు.
 Update: నవీకరించు

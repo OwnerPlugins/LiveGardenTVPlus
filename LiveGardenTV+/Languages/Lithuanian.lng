@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Yra nauja versija. Ar no
 About: Apie
 About TVGarden+: Apie TVGarden+
 Add Group: Pridėti grupę
+Add Mapping: Pridėti žemėlapius
 Advanced IDs: Išplėstiniai ID
-Apply: Taikyti
 Apply changes: Taikyti pakeitimus
+Apply Filters: Taikyti filtrus
+Auto-detect: Automatinis aptikimas
 Buffer (seconds): Buferis (sekundėmis)
 Cancel: Atšaukti
 CANCEL: ATŠAUKTI
@@ -15,12 +17,12 @@ Channel Details: Išsami kanalo informacija
 Channel Info: Kanalo informacija
 Channel:: Kanalas:
 channels from: kanalai iš
+channels from JSON URL: kanalai iš JSON URL
 channels from URL: kanalai iš URL
 Check Duplicates: Patikrinkite dublikatus
 Check for updates: Patikrinkite, ar nėra atnaujinimų
 Check URLs: Patikrinkite URL adresus
-Clear: Aišku
-Close: Uždaryti
+Clear Filters: Išvalyti filtrus
 Country: Šalis
 Delete Group: Ištrinti grupę
 Description: Aprašymas
@@ -32,7 +34,8 @@ Edit Playlist: Redaguoti grojaraštį
 Edit URLs: Redaguoti URL
 End (local): Pabaiga (vietinė)
 Enrich with EPG: Praturtinkite EPG
-Enter M3U URL:: Įveskite M3U URL:
+Enter JSON URL:: Įveskite JSON URL:
+Enter playlist URL (M3U or JSON):: Įveskite grojaraščio URL (M3U arba JSON):
 EPG: EPG
 EPG & Favorites: EPG ir mėgstamiausi
 EPG Matching Threshold: EPG atitikimo slenkstis
@@ -41,11 +44,12 @@ Error: Klaida
 Error loading: Įkeliant įvyko klaida
 Error loading playlists: {0}: Klaida įkeliant grojaraščius: {0}
 ERROR: player.html not found.: KLAIDA: player.html nerastas.
-Export Failed: Eksportuoti nepavyko
+Exit: Išeiti
 Export Favorites: Eksportuoti parankinius
 Export Filtered JSON: Eksportuoti filtruotą JSON
 Export Filtered M3U: Eksportuokite filtruotą M3U
 Export JSON: Eksportuoti JSON
+Export KO: Eksportuoti KO
 Export OK: Eksportuoti gerai
 Extracting update...: Išskleidžiamas naujinys...
 Failed to download playlist: Nepavyko atsisiųsti grojaraščio
@@ -59,18 +63,27 @@ GitHub Error: „GitHub“ klaida
 Group: Grupė
 Help: Pagalba
 Hide List: Slėpti sąrašą
+Import: Importuoti
+Import error: {0}: Importavimo klaida: {0}
+Import from URL: Importuoti iš URL
 Import JSON: Importuoti JSON
+Import JSON from URL: Importuokite JSON iš URL
+Import Local: Importuoti vietinį
+Imported {0} channels from JSON.: Importuoti {0} kanalai iš JSON.
+Imported {0} channels from URL.: Importuoti {0} kanalai iš URL.
 Info: Informacija
+Invalid JSON: {0}: Neteisingas JSON: {0}
 Invalid playlist URL.: Netinkamas grojaraščio URL.
 Invalid URL.: Netinkamas URL.
+JSON Property: JSON nuosavybė
 Language: Kalba
 Languages (comma): Kalbos (kablelis)
 LOAD: Įkelti
 Load a playlist first.: Pirmiausia įkelkite grojaraštį.
-Load M3U: Įkelti M3U
-Load M3U file from your computer: Įkelkite M3U failą iš savo kompiuterio
-Load M3U playlist from a web URL: Įkelti M3U grojaraštį iš žiniatinklio URL
+Load File: Įkelti failą
 Load Online: Įkelti internetu
+Load playlist file (M3U/JSON) from your computer: Įkelkite grojaraščio failą (M3U/JSON) iš savo kompiuterio
+Load playlist from web URL (M3U or JSON): Įkelti grojaraštį iš žiniatinklio URL (M3U arba JSON)
 Loaded: Pakrauta
 Loading...: Įkeliama...
 Logo Preview: Logotipo peržiūra
@@ -78,12 +91,16 @@ Logo URL: Logotipo URL
 Logos Matching Threshold: Logotipų atitikimo slenkstis
 Logos Source: Logotipo šaltinis
 Logos Subfolder: Logotipų poaplankis
+Map JSON properties to channel fields:: Susieti JSON ypatybes su kanalo laukais:
+Mapping saved for future imports of this file.: Atvaizdas išsaugotas, kad ateityje būtų galima importuoti šį failą.
 Name: Vardas
 Nanoid: Nanoidinis
 Network error: Tinklo klaida
 New Playlist: Naujas grojaraštis
 Next ▶: Kitas ▶
 No .m3u files found on GitHub repository.: „GitHub“ saugykloje nerasta .m3u failų.
+No channels could be mapped. Check your mapping rules.: Nepavyko susieti jokių kanalų. Patikrinkite žemėlapių sudarymo taisykles.
+No channels mapped: Nėra susietų kanalų
 No duplicate URLs found.: Pasikartojančių URL nerasta.
 No favorite channels to export.: Nėra mėgstamų kanalų, kuriuos būtų galima eksportuoti.
 No playlist found: Grojaraščio nerasta
@@ -96,6 +113,8 @@ Pause/Resume live stream: Pristabdyti / tęsti tiesioginį srautą
 Player ready.: Žaidėjas paruoštas.
 Playlist Editor: Grojaraščio redaktorius
 Please select a program first.: Pirmiausia pasirinkite programą.
+Preview (first 5 channels): Peržiūra (pirmieji 5 kanalai)
+Preview error: {0}: Peržiūros klaida: {0}
 Program Details: Programos informacija
 Recent: Neseniai
 Recent playlists: Naujausi grojaraščiai
@@ -103,11 +122,14 @@ Refresh: Atnaujinti
 Refresh EPG List: Atnaujinkite EPG sąrašą
 Refresh from GitHub: Atnaujinkite iš „GitHub“.
 Rename Group: Pervardyti grupę
+Reset Order: Iš naujo nustatyti užsakymą
 Save: Išsaugoti
 SAVE: IŠSAUGOTI
-Save As...: Išsaugoti kaip...
+Save as...: Išsaugoti kaip...
+Save Mapping: Išsaugoti žemėlapius
 Save Playlist: Išsaugoti grojaraštį
 Save Status: Išsaugoti būseną
+Saved: Išsaugota
 Search channels...: Ieškoti kanalų...
 Select a playlist first.: Pirmiausia pasirinkite grojaraštį.
 Select Theme: Pasirinkite temą
@@ -119,12 +141,12 @@ Status: Būsena
 Stream URL: Srauto URL
 Success: Sėkmės
 Support: Palaikymas
+Target Field: Tikslinis laukas
 Theme picker: Temos rinkiklis
 Time: Laikas
 Title: Pavadinimas
 Tools: Įrankiai
 TV Guide (EPG): TV vadovas (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Neįmanoma rasti versijos nuotolinio projekto faile.
 Update: Atnaujinti

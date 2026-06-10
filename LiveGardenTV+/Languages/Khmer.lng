@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: កំណែថ្មី
 About: អំពី
 About TVGarden+: អំពី TVGarden+
 Add Group: បន្ថែមក្រុម
+Add Mapping: បន្ថែមការធ្វើផែនទី
 Advanced IDs: លេខសម្គាល់កម្រិតខ្ពស់
-Apply: អនុវត្ត
 Apply changes: អនុវត្តការផ្លាស់ប្តូរ
+Apply Filters: អនុវត្តតម្រង
+Auto-detect: រកឃើញដោយស្វ័យប្រវត្តិ
 Buffer (seconds): សតិបណ្ដោះអាសន្ន (វិនាទី)
 Cancel: បោះបង់
 CANCEL: បោះបង់
@@ -15,12 +17,12 @@ Channel Details: ព័ត៌មានលម្អិតរបស់ប៉ុស
 Channel Info: ព័ត៌មានឆានែល
 Channel:: ឆានែល៖
 channels from: ឆានែលពី
+channels from JSON URL: ឆានែលពី JSON URL
 channels from URL: ឆានែលពី URL
 Check Duplicates: ពិនិត្យមើលស្ទួន
 Check for updates: ពិនិត្យមើលបច្ចុប្បន្នភាព
 Check URLs: ពិនិត្យ URLs
-Clear: ច្បាស់
-Close: បិទ
+Clear Filters: ជម្រះតម្រង
 Country: ប្រទេស
 Delete Group: លុបក្រុម
 Description: ការពិពណ៌នា
@@ -32,7 +34,8 @@ Edit Playlist: កែសម្រួលបញ្ជីចាក់
 Edit URLs: កែសម្រួល URLs
 End (local): បញ្ចប់ (ក្នុងស្រុក)
 Enrich with EPG: ពង្រឹងជាមួយ EPG
-Enter M3U URL:: បញ្ចូល M3U URL៖
+Enter JSON URL:: បញ្ចូល JSON URL៖
+Enter playlist URL (M3U or JSON):: បញ្ចូល URL បញ្ជីចាក់ (M3U ឬ JSON)៖
 EPG: EPG
 EPG & Favorites: EPG & ចំណូលចិត្ត
 EPG Matching Threshold: កម្រិតនៃការផ្គូផ្គង EPG
@@ -41,11 +44,12 @@ Error: កំហុស
 Error loading: កំហុសក្នុងការផ្ទុក
 Error loading playlists: {0}: មាន​បញ្ហា​ក្នុង​ការ​ផ្ទុក​បញ្ជី​ចាក់៖ {0}
 ERROR: player.html not found.: កំហុស៖ player.html រកមិនឃើញទេ។
-Export Failed: ការនាំចេញបរាជ័យ
+Exit: ចេញ
 Export Favorites: នាំចេញចំណូលចិត្ត
 Export Filtered JSON: នាំចេញ JSON ដែលបានត្រង
 Export Filtered M3U: នាំចេញ M3U ដែលបានត្រង
 Export JSON: នាំចេញ JSON
+Export KO: នាំចេញ KO
 Export OK: នាំចេញយល់ព្រម
 Extracting update...: កំពុងទាញយកបច្ចុប្បន្នភាព...
 Failed to download playlist: បានបរាជ័យក្នុងការទាញយកបញ្ជីចាក់
@@ -59,18 +63,27 @@ GitHub Error: កំហុស GitHub
 Group: ក្រុម
 Help: ជំនួយ
 Hide List: លាក់បញ្ជី
+Import: នាំចូល
+Import error: {0}: កំហុសក្នុងការនាំចូល៖ {0}
+Import from URL: នាំចូលពី URL
 Import JSON: នាំចូល JSON
+Import JSON from URL: នាំចូល JSON ពី URL
+Import Local: នាំចូលក្នុងស្រុក
+Imported {0} channels from JSON.: បាន​នាំចូល​ឆានែល {0} ពី JSON ។
+Imported {0} channels from URL.: បាន​នាំចូល​ឆានែល {0} ពី URL ។
 Info: ព័ត៌មាន
+Invalid JSON: {0}: JSON មិនត្រឹមត្រូវ៖ {0}
 Invalid playlist URL.: URL បញ្ជីចាក់មិនត្រឹមត្រូវ។
 Invalid URL.: URL មិនត្រឹមត្រូវ។
+JSON Property: អចលនទ្រព្យ JSON
 Language: ភាសា
 Languages (comma): ភាសា (សញ្ញាក្បៀស)
 LOAD: ផ្ទុក
 Load a playlist first.: ផ្ទុកបញ្ជីចាក់ជាមុនសិន។
-Load M3U: ផ្ទុក M3U
-Load M3U file from your computer: ផ្ទុកឯកសារ M3U ពីកុំព្យូទ័ររបស់អ្នក។
-Load M3U playlist from a web URL: ផ្ទុកបញ្ជីចាក់ M3U ពី URL គេហទំព័រ
+Load File: ផ្ទុកឯកសារ
 Load Online: ផ្ទុកលើអ៊ីនធឺណិត
+Load playlist file (M3U/JSON) from your computer: ផ្ទុកឯកសារបញ្ជីចាក់ (M3U/JSON) ពីកុំព្យូទ័ររបស់អ្នក។
+Load playlist from web URL (M3U or JSON): ផ្ទុកបញ្ជីចាក់ពី URL គេហទំព័រ (M3U ឬ JSON)
 Loaded: ផ្ទុក
 Loading...: កំពុង​ផ្ទុក...
 Logo Preview: ការមើលរូបសញ្ញាជាមុន
@@ -78,12 +91,16 @@ Logo URL: និមិត្តសញ្ញា URL
 Logos Matching Threshold: កម្រិតនៃការផ្គូផ្គងរូបសញ្ញា
 Logos Source: ប្រភពឡូហ្គោស
 Logos Subfolder: ថតរងឡូហ្គោ
+Map JSON properties to channel fields:: ផែនទី​លក្ខណៈ​សម្បត្តិ JSON ទៅកាន់​វាល​ឆានែល៖
+Mapping saved for future imports of this file.: ផែនទីត្រូវបានរក្សាទុកសម្រាប់ការនាំចូលឯកសារនេះនាពេលអនាគត។
 Name: ឈ្មោះ
 Nanoid: ណាណូយ
 Network error: កំហុសបណ្តាញ
 New Playlist: បញ្ជីចាក់ថ្មី។
 Next ▶: បន្ទាប់ ▶
 No .m3u files found on GitHub repository.: រកមិនឃើញឯកសារ .m3u នៅលើឃ្លាំង GitHub ទេ។
+No channels could be mapped. Check your mapping rules.: គ្មាន​ប៉ុស្តិ៍​អាច​ត្រូវ​បាន​គូស​ផែនទី​ទេ។ ពិនិត្យមើលច្បាប់ផែនទីរបស់អ្នក។
+No channels mapped: គ្មាន​ប៉ុស្តិ៍​ត្រូវ​បាន​ធ្វើ​ផែនទី
 No duplicate URLs found.: រកមិនឃើញ URL ស្ទួនទេ។
 No favorite channels to export.: គ្មានបណ្តាញដែលចូលចិត្តដើម្បីនាំចេញទេ។
 No playlist found: រកមិនឃើញបញ្ជីចាក់ទេ។
@@ -96,6 +113,8 @@ Pause/Resume live stream: ផ្អាក/បន្តការផ្សាយ�
 Player ready.: អ្នកលេងរួចរាល់។
 Playlist Editor: កម្មវិធីនិពន្ធបញ្ជីចាក់
 Please select a program first.: សូមជ្រើសរើសកម្មវិធីជាមុនសិន។
+Preview (first 5 channels): មើលជាមុន (5 ប៉ុស្តិ៍ដំបូង)
+Preview error: {0}: កំហុសក្នុងការមើលជាមុន៖ {0}
 Program Details: ព័ត៌មានលម្អិតអំពីកម្មវិធី
 Recent: ថ្មីៗ
 Recent playlists: បញ្ជីចាក់ថ្មីៗ
@@ -103,11 +122,14 @@ Refresh: ធ្វើឱ្យស្រស់
 Refresh EPG List: ធ្វើឱ្យបញ្ជី EPG ឡើងវិញ
 Refresh from GitHub: ផ្ទុកឡើងវិញពី GitHub
 Rename Group: ប្តូរឈ្មោះក្រុម
+Reset Order: កំណត់លំដាប់ឡើងវិញ
 Save: រក្សាទុក
 SAVE: រក្សាទុក
-Save As...: រក្សាទុកជា...
+Save as...: រក្សាទុកជា...
+Save Mapping: រក្សាទុកការធ្វើផែនទី
 Save Playlist: រក្សាទុកបញ្ជីចាក់
 Save Status: រក្សាទុកស្ថានភាព
+Saved: បានរក្សាទុក
 Search channels...: ស្វែងរកប៉ុស្តិ៍...
 Select a playlist first.: ជ្រើសរើសបញ្ជីចាក់ជាមុនសិន។
 Select Theme: ជ្រើសរើសប្រធានបទ
@@ -119,12 +141,12 @@ Status: ស្ថានភាព
 Stream URL: URL ស្ទ្រីម
 Success: ជោគជ័យ
 Support: គាំទ្រ
+Target Field: វាលគោលដៅ
 Theme picker: កម្មវិធីជ្រើសរើសប្រធានបទ
 Time: ពេលវេលា
 Title: ចំណងជើង
 Tools: ឧបករណ៍
 TV Guide (EPG): មគ្គុទ្ទេសក៍ទូរទស្សន៍ (EPG)
-TVGarden+: សួនទូរទស្សន៍+
 TvgId: TvgId
 Unable to find version in remote project file.: មិនអាចស្វែងរកកំណែនៅក្នុងឯកសារគម្រោងពីចម្ងាយបានទេ។
 Update: ធ្វើបច្ចុប្បន្នភាព

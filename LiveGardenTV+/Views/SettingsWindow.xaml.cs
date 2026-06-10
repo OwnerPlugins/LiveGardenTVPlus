@@ -242,12 +242,10 @@ namespace LiveGardenTVPlus.Views
                 prefs.Language = selectedLang.Tag.ToString();
             }
 
-            // Playlist URL
-            string newPlaylistUrl = null;
+            // Playlist URL (salvata, ma non caricata automaticamente)
             if (PlaylistCombo.SelectedItem is ComboBoxItem selectedPlaylist && selectedPlaylist.Tag != null)
             {
-                newPlaylistUrl = selectedPlaylist.Tag.ToString();
-                prefs.PlaylistUrl = newPlaylistUrl;
+                prefs.PlaylistUrl = selectedPlaylist.Tag.ToString();
             }
 
             // Matching thresholds
@@ -283,14 +281,12 @@ namespace LiveGardenTVPlus.Views
             // Apply language change globally
             LanguageManager.LoadLanguage(prefs.Language);
 
-            // Update main window
+            // Update main window UI only (do not load playlist automatically)
             if (Application.Current.MainWindow is MainWindow main)
             {
                 main.ApplyLanguage();
-                if (!string.IsNullOrEmpty(newPlaylistUrl))
-                {
-                    _ = main.LoadPlaylistFromUrl(newPlaylistUrl);
-                }
+                // Remove the automatic playlist loading from here
+                // _ = main.LoadPlaylistFromUrl(...);   // <-- DELETE THIS LINE
             }
 
             DialogResult = true;

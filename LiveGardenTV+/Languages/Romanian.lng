@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Este disponibilă o nou�
 About: Despre
 About TVGarden+: Despre TVGarden+
 Add Group: Adăugați grup
+Add Mapping: Adăugați cartografiere
 Advanced IDs: ID-uri avansate
-Apply: Aplicați
 Apply changes: Aplicați modificări
+Apply Filters: Aplicați filtre
+Auto-detect: Detectare automată
 Buffer (seconds): Buffer (secunde)
 Cancel: Anula
 CANCEL: ANULA
@@ -15,12 +17,12 @@ Channel Details: Detalii canal
 Channel Info: Informații despre canal
 Channel:: Canal:
 channels from: canale de la
+channels from JSON URL: canale de la adresa URL JSON
 channels from URL: canale de la URL
 Check Duplicates: Verificați duplicatele
 Check for updates: Verificați actualizările
 Check URLs: Verificați adresele URL
-Clear: Clar
-Close: Aproape
+Clear Filters: Ștergeți filtrele
 Country: Ţară
 Delete Group: Șterge grupul
 Description: Descriere
@@ -32,7 +34,8 @@ Edit Playlist: Editați lista de redare
 Edit URLs: Editați adresele URL
 End (local): Sfârșit (local)
 Enrich with EPG: Îmbogățiți cu EPG
-Enter M3U URL:: Introduceți adresa URL M3U:
+Enter JSON URL:: Introduceți adresa URL JSON:
+Enter playlist URL (M3U or JSON):: Introduceți adresa URL a listei de redare (M3U sau JSON):
 EPG: EPG
 EPG & Favorites: EPG și Favorite
 EPG Matching Threshold: Pragul de potrivire EPG
@@ -41,11 +44,12 @@ Error: Eroare
 Error loading: Eroare la încărcare
 Error loading playlists: {0}: Eroare la încărcarea listelor de redare: {0}
 ERROR: player.html not found.: EROARE: player.html nu a fost găsit.
-Export Failed: Export eșuat
+Exit: Ieșire
 Export Favorites: Exportați Favorite
 Export Filtered JSON: Exportați JSON filtrat
 Export Filtered M3U: Export M3U filtrat
 Export JSON: Exportați JSON
+Export KO: Export KO
 Export OK: Export OK
 Extracting update...: Se extrage actualizarea...
 Failed to download playlist: Nu s-a putut descărca lista de redare
@@ -59,18 +63,27 @@ GitHub Error: Eroare GitHub
 Group: Grup
 Help: Ajutor
 Hide List: Ascunde lista
+Import: Import
+Import error: {0}: Eroare de import: {0}
+Import from URL: Import de la URL
 Import JSON: Importați JSON
+Import JSON from URL: Importați JSON din URL
+Import Local: Import local
+Imported {0} channels from JSON.: S-au importat {0} canale din JSON.
+Imported {0} channels from URL.: S-au importat {0} canale din URL.
 Info: Info
+Invalid JSON: {0}: JSON nevalid: {0}
 Invalid playlist URL.: Adresa URL a listei de redare nevalidă.
 Invalid URL.: Adresă URL nevalidă.
+JSON Property: Proprietate JSON
 Language: Limbă
 Languages (comma): Limbi (virgulă)
 LOAD: ÎNCĂRCA
 Load a playlist first.: Încărcați mai întâi o listă de redare.
-Load M3U: Încărcați M3U
-Load M3U file from your computer: Încărcați fișierul M3U de pe computer
-Load M3U playlist from a web URL: Încărcați lista de redare M3U de la o adresă URL web
+Load File: Încărcați fișierul
 Load Online: Încărcați online
+Load playlist file (M3U/JSON) from your computer: Încărcați fișierul playlist (M3U/JSON) de pe computer
+Load playlist from web URL (M3U or JSON): Încărcați lista de redare de la adresa URL web (M3U sau JSON)
 Loaded: Încărcat
 Loading...: Încărcare...
 Logo Preview: Previzualizare logo
@@ -78,12 +91,16 @@ Logo URL: Adresa URL a siglei
 Logos Matching Threshold: Pragul de potrivire a siglelor
 Logos Source: Sursa siglelor
 Logos Subfolder: Subfolder sigle
+Map JSON properties to channel fields:: Mapați proprietățile JSON la câmpurile de canal:
+Mapping saved for future imports of this file.: Maparea a fost salvată pentru importurile viitoare ale acestui fișier.
 Name: Nume
 Nanoid: Nanoid
 Network error: Eroare de rețea
 New Playlist: Playlist nou
 Next ▶: Următorul ▶
 No .m3u files found on GitHub repository.: Nu s-au găsit fișiere .m3u în depozitul GitHub.
+No channels could be mapped. Check your mapping rules.: Niciun canal nu a putut fi mapat. Verificați regulile de cartografiere.
+No channels mapped: Niciun canal mapat
 No duplicate URLs found.: Nu s-au găsit adrese URL duplicat.
 No favorite channels to export.: Nu există canale preferate de exportat.
 No playlist found: Nu a fost găsit nicio listă de redare
@@ -96,6 +113,8 @@ Pause/Resume live stream: Întrerupeți/Reluați fluxul live
 Player ready.: Jucătorul gata.
 Playlist Editor: Editor de liste de redare
 Please select a program first.: Vă rugăm să selectați mai întâi un program.
+Preview (first 5 channels): Previzualizare (primele 5 canale)
+Preview error: {0}: Eroare de previzualizare: {0}
 Program Details: Detalii program
 Recent: Recent
 Recent playlists: Liste de redare recente
@@ -103,11 +122,14 @@ Refresh: Reîmprospăta
 Refresh EPG List: Actualizează lista EPG
 Refresh from GitHub: Actualizează din GitHub
 Rename Group: Redenumiți grupul
+Reset Order: Resetați comanda
 Save: Salva
 SAVE: SALVA
-Save As...: Salvați ca...
+Save as...: Salvați ca...
+Save Mapping: Salvați cartografierea
 Save Playlist: Salvați lista de redare
 Save Status: Salvare stare
+Saved: Salvat
 Search channels...: Caută canale...
 Select a playlist first.: Selectați mai întâi o listă de redare.
 Select Theme: Selectați Tema
@@ -119,12 +141,12 @@ Status: Stare
 Stream URL: Adresa URL a fluxului
 Success: Succes
 Support: Sprijin
+Target Field: Câmpul țintă
 Theme picker: Selector de teme
 Time: Timp
 Title: Titlu
 Tools: Instrumente
 TV Guide (EPG): Ghid TV (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Nu se poate găsi versiunea în fișierul de proiect de la distanță.
 Update: Actualizare

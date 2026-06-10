@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Даступная но�
 About: Аб
 About TVGarden+: Пра TVGarden+
 Add Group: Дадаць групу
+Add Mapping: Дадаць адлюстраванне
 Advanced IDs: Пашыраныя ідэнтыфікатары
-Apply: Ужыць
 Apply changes: Прымяніць змены
+Apply Filters: Ужыць фільтры
+Auto-detect: Аўтаматычнае вызначэнне
 Buffer (seconds): Буфер (секунды)
 Cancel: Адмяніць
 CANCEL: СКАСАВАЦЬ
@@ -15,12 +17,12 @@ Channel Details: Падрабязнасці канала
 Channel Info: Інфармацыя пра канал
 Channel:: канал:
 channels from: каналы з
+channels from JSON URL: каналы з JSON URL
 channels from URL: каналы з URL
 Check Duplicates: Праверце дублікаты
 Check for updates: Праверце наяўнасць абнаўленняў
 Check URLs: Праверце URL-адрасы
-Clear: Ясна
-Close: Блізка
+Clear Filters: Ачысціць фільтры
 Country: Краіна
 Delete Group: Выдаліць групу
 Description: Апісанне
@@ -32,7 +34,8 @@ Edit Playlist: Рэдагаваць спіс прайгравання
 Edit URLs: Рэдагаваць URL-адрасы
 End (local): Канец (лакальны)
 Enrich with EPG: Узбагаціць EPG
-Enter M3U URL:: Увядзіце URL M3U:
+Enter JSON URL:: Увядзіце JSON URL:
+Enter playlist URL (M3U or JSON):: Увядзіце URL-адрас спісу прайгравання (M3U або JSON):
 EPG: EPG
 EPG & Favorites: EPG і абранае
 EPG Matching Threshold: Парог адпаведнасці EPG
@@ -41,11 +44,12 @@ Error: Памылка
 Error loading: Памылка загрузкі
 Error loading playlists: {0}: Памылка загрузкі плэйлістоў: {0}
 ERROR: player.html not found.: ПАМЫЛКА: player.html не знойдзены.
-Export Failed: Збой экспарту
+Exit: Выхад
 Export Favorites: Экспарт абранага
 Export Filtered JSON: Экспарт адфільтраванага JSON
 Export Filtered M3U: Экспарт M3U з фільтрам
 Export JSON: Экспарт JSON
+Export KO: Экспарт KO
 Export OK: Экспарт нармальна
 Extracting update...: Выманне абнаўлення...
 Failed to download playlist: Не ўдалося спампаваць плэйліст
@@ -59,18 +63,27 @@ GitHub Error: Памылка GitHub
 Group: Група
 Help: Даведка
 Hide List: Схаваць спіс
+Import: Імпарт
+Import error: {0}: Памылка імпарту: {0}
+Import from URL: Імпарт з URL
 Import JSON: Імпарт JSON
+Import JSON from URL: Імпартаваць JSON з URL
+Import Local: Мясцовы імпарт
+Imported {0} channels from JSON.: Імпартавана {0} каналаў з JSON.
+Imported {0} channels from URL.: Імпартавана {0} каналаў з URL.
 Info: Інфармацыя
+Invalid JSON: {0}: Няправільны JSON: {0}
 Invalid playlist URL.: Няправільны URL плэйліста.
 Invalid URL.: Няправільны URL.
+JSON Property: Уласцівасць JSON
 Language: мова
 Languages (comma): Мовы (коска)
 LOAD: ЗАГРУЗІЦЬ
 Load a playlist first.: Спачатку загрузіце спіс прайгравання.
-Load M3U: Загрузіце M3U
-Load M3U file from your computer: Загрузіце файл M3U з кампутара
-Load M3U playlist from a web URL: Загрузіце спіс прайгравання M3U з вэб-адраса
+Load File: Загрузіць файл
 Load Online: Загрузіць онлайн
+Load playlist file (M3U/JSON) from your computer: Загрузіце файл спісу прайгравання (M3U/JSON) са свайго кампутара
+Load playlist from web URL (M3U or JSON): Загрузіць спіс прайгравання з вэб-адраса (M3U або JSON)
 Loaded: Загружана
 Loading...: Загрузка...
 Logo Preview: Папярэдні прагляд лагатыпа
@@ -78,12 +91,16 @@ Logo URL: URL лагатыпа
 Logos Matching Threshold: Парог адпаведнасці лагатыпаў
 Logos Source: Крыніца лагатыпаў
 Logos Subfolder: Падпапка з лагатыпамі
+Map JSON properties to channel fields:: Адлюструйце ўласцівасці JSON да палёў канала:
+Mapping saved for future imports of this file.: Адлюстраванне захавана для будучага імпарту гэтага файла.
 Name: Імя
 Nanoid: Нанаід
 Network error: Памылка сеткі
 New Playlist: Новы спіс прайгравання
 Next ▶: Далей ▶
 No .m3u files found on GitHub repository.: Файлы .m3u не знойдзены ў рэпазітары GitHub.
+No channels could be mapped. Check your mapping rules.: Немагчыма адлюстраваць каналы. Праверце свае правілы адлюстравання.
+No channels mapped: Каналы не адлюстраваны
 No duplicate URLs found.: Дублікаты URL не знойдзены.
 No favorite channels to export.: Няма выбраных каналаў для экспарту.
 No playlist found: Плэйліст не знойдзены
@@ -96,6 +113,8 @@ Pause/Resume live stream: Прыпыніць/узнавіць жывую тра�
 Player ready.: Гулец гатовы.
 Playlist Editor: Рэдактар ​​плэйлістоў
 Please select a program first.: Спачатку абярыце праграму.
+Preview (first 5 channels): Папярэдні прагляд (першыя 5 каналаў)
+Preview error: {0}: Памылка папярэдняга прагляду: {0}
 Program Details: Падрабязнасці праграмы
 Recent: Апошнія
 Recent playlists: Апошнія плэйлісты
@@ -103,11 +122,14 @@ Refresh: Абнавіць
 Refresh EPG List: Абнавіць спіс EPG
 Refresh from GitHub: Абнавіць з GitHub
 Rename Group: Перайменаваць групу
+Reset Order: Скінуць парадак
 Save: Захаваць
 SAVE: ЗАХАВАЦЬ
-Save As...: Захаваць як...
+Save as...: Захаваць як...
+Save Mapping: Захаваць карту
 Save Playlist: Захаваць спіс прайгравання
 Save Status: Захаваць статус
+Saved: Захавана
 Search channels...: Шукаць каналы...
 Select a playlist first.: Спачатку абярыце спіс прайгравання.
 Select Theme: Выберыце Тэма
@@ -119,12 +141,12 @@ Status: Статус
 Stream URL: URL патоку
 Success: Поспех
 Support: Падтрымка
+Target Field: Мэтавае поле
 Theme picker: Выбар тэмы
 Time: Час
 Title: Назва
 Tools: інструменты
 TV Guide (EPG): Тэлегід (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Немагчыма знайсці версію ў аддаленым файле праекта.
 Update: Абнаўленне

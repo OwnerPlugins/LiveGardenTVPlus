@@ -47,6 +47,10 @@ namespace LiveGardenTVPlus.Views
                 case "PurpleTheme": return Brushes.Purple;
                 case "RedTheme": return Brushes.Red;
                 case "TealTheme": return Brushes.Teal;
+                case "PinkTheme": return new SolidColorBrush(Color.FromRgb(255, 105, 180)); // HotPink
+                case "CyanTheme": return Brushes.Cyan;
+                case "LimeTheme": return Brushes.LimeGreen;
+                case "IndigoTheme": return new SolidColorBrush(Color.FromRgb(75, 0, 130)); // Indigo
                 default: return Brushes.White;
             }
         }

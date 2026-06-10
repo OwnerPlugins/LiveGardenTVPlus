@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Доступна нов�
 About: про
 About TVGarden+: Про TVGarden+
 Add Group: Додати групу
+Add Mapping: Додати відображення
 Advanced IDs: Розширені ідентифікатори
-Apply: Застосувати
 Apply changes: Застосувати зміни
+Apply Filters: Застосувати фільтри
+Auto-detect: Автоматичне визначення
 Buffer (seconds): Буфер (секунди)
 Cancel: Скасувати
 CANCEL: СКАСУВАТИ
@@ -15,12 +17,12 @@ Channel Details: Деталі каналу
 Channel Info: Інформація про канал
 Channel:: канал:
 channels from: канали з
+channels from JSON URL: канали з JSON URL
 channels from URL: канали з URL
 Check Duplicates: Перевірте дублікати
 Check for updates: Перевірте наявність оновлень
 Check URLs: Перевірте URL-адреси
-Clear: ясно
-Close: Закрити
+Clear Filters: Очистити фільтри
 Country: Країна
 Delete Group: Видалити групу
 Description: опис
@@ -32,7 +34,8 @@ Edit Playlist: Редагувати список відтворення
 Edit URLs: Редагувати URL-адреси
 End (local): Кінець (локальний)
 Enrich with EPG: Збагатити EPG
-Enter M3U URL:: Введіть URL-адресу M3U:
+Enter JSON URL:: Введіть JSON URL:
+Enter playlist URL (M3U or JSON):: Введіть URL-адресу списку відтворення (M3U або JSON):
 EPG: EPG
 EPG & Favorites: EPG і вибране
 EPG Matching Threshold: Поріг відповідності EPG
@@ -41,11 +44,12 @@ Error: Помилка
 Error loading: Помилка завантаження
 Error loading playlists: {0}: Помилка завантаження списків відтворення: {0}
 ERROR: player.html not found.: ПОМИЛКА: player.html не знайдено.
-Export Failed: Помилка експорту
+Exit: Вихід
 Export Favorites: Експорт уподобань
 Export Filtered JSON: Експорт відфільтрованого JSON
 Export Filtered M3U: Експорт відфільтрованого M3U
 Export JSON: Експорт JSON
+Export KO: Експорт KO
 Export OK: Експорт OK
 Extracting update...: Витяг оновлення...
 Failed to download playlist: Не вдалося завантажити список відтворення
@@ -59,18 +63,27 @@ GitHub Error: Помилка GitHub
 Group: Група
 Help: Довідка
 Hide List: Приховати список
+Import: Імпорт
+Import error: {0}: Помилка імпорту: {0}
+Import from URL: Імпортувати з URL
 Import JSON: Імпорт JSON
+Import JSON from URL: Імпорт JSON з URL
+Import Local: Імпорт локального
+Imported {0} channels from JSON.: Імпортовано {0} каналів із JSON.
+Imported {0} channels from URL.: Імпортовано {0} каналів із URL.
 Info: Інформація
+Invalid JSON: {0}: Недійсний JSON: {0}
 Invalid playlist URL.: Недійсна URL-адреса списку відтворення.
 Invalid URL.: Недійсний URL.
+JSON Property: Властивість JSON
 Language: Мова
 Languages (comma): Мови (кома)
 LOAD: НАВАНТАЖЕННЯ
 Load a playlist first.: Спочатку завантажте список відтворення.
-Load M3U: Завантажити M3U
-Load M3U file from your computer: Завантажте файл M3U зі свого комп’ютера
-Load M3U playlist from a web URL: Завантажте список відтворення M3U з веб-URL
+Load File: Завантажити файл
 Load Online: Завантажити онлайн
+Load playlist file (M3U/JSON) from your computer: Завантажте файл списку відтворення (M3U/JSON) зі свого комп’ютера
+Load playlist from web URL (M3U or JSON): Завантажити список відтворення з веб-адреси (M3U або JSON)
 Loaded: Завантажено
 Loading...: Завантаження...
 Logo Preview: Попередній перегляд логотипу
@@ -78,12 +91,16 @@ Logo URL: URL-адреса логотипу
 Logos Matching Threshold: Порогове значення відповідності логотипів
 Logos Source: Джерело логотипів
 Logos Subfolder: Підпапка логотипів
+Map JSON properties to channel fields:: Зіставте властивості JSON на поля каналу:
+Mapping saved for future imports of this file.: Зіставлення збережено для майбутнього імпорту цього файлу.
 Name: Ім'я
 Nanoid: Наноїд
 Network error: Помилка мережі
 New Playlist: Новий список відтворення
 Next ▶: Далі ▶
 No .m3u files found on GitHub repository.: У сховищі GitHub не знайдено файлів .m3u.
+No channels could be mapped. Check your mapping rules.: Не вдалося зіставити канали. Перевірте свої правила відображення.
+No channels mapped: Канали не зіставлено
 No duplicate URLs found.: Повторюваних URL-адрес не знайдено.
 No favorite channels to export.: Немає обраних каналів для експорту.
 No playlist found: Список відтворення не знайдено
@@ -96,6 +113,8 @@ Pause/Resume live stream: Призупинити/відновити пряму �
 Player ready.: Гравець готовий.
 Playlist Editor: Редактор списків відтворення
 Please select a program first.: Спочатку виберіть програму.
+Preview (first 5 channels): Попередній перегляд (перші 5 каналів)
+Preview error: {0}: Помилка попереднього перегляду: {0}
 Program Details: Деталі програми
 Recent: Останні
 Recent playlists: Останні списки відтворення
@@ -103,11 +122,14 @@ Refresh: Оновити
 Refresh EPG List: Оновити список EPG
 Refresh from GitHub: Оновити з GitHub
 Rename Group: Перейменувати групу
+Reset Order: Скинути замовлення
 Save: зберегти
 SAVE: ЗБЕРЕГТИ
-Save As...: Зберегти як...
+Save as...: Зберегти як...
+Save Mapping: Зберегти відображення
 Save Playlist: Зберегти список відтворення
 Save Status: Зберегти статус
+Saved: Збережено
 Search channels...: Пошук каналів...
 Select a playlist first.: Спочатку виберіть список відтворення.
 Select Theme: Виберіть тему
@@ -119,12 +141,12 @@ Status: Статус
 Stream URL: URL-адреса потоку
 Success: Успіх
 Support: Підтримка
+Target Field: Цільове поле
 Theme picker: Вибір теми
 Time: час
 Title: Назва
 Tools: Інструменти
 TV Guide (EPG): Телегід (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Не вдалося знайти версію у віддаленому файлі проекту.
 Update: оновлення

@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Шинэ хувилба�
 About: тухай
 About TVGarden+: TVGarden+-ийн тухай
 Add Group: Бүлэг нэмэх
+Add Mapping: Газрын зураг нэмэх
 Advanced IDs: Нарийвчилсан ID
-Apply: Өргөдөл гаргах
 Apply changes: Өөрчлөлтийг хэрэгжүүлэх
+Apply Filters: Шүүлтүүр хэрэглэх
+Auto-detect: Автоматаар илрүүлэх
 Buffer (seconds): Буфер (секунд)
 Cancel: Цуцлах
 CANCEL: Цуцлах
@@ -15,12 +17,12 @@ Channel Details: Сувгийн дэлгэрэнгүй мэдээлэл
 Channel Info: Сувгийн мэдээлэл
 Channel:: Суваг:
 channels from: сувгууд
+channels from JSON URL: JSON URL-с сувгууд
 channels from URL: URL-аас суваг
 Check Duplicates: Давхардсан зүйлсийг шалгана уу
 Check for updates: Шинэчлэлт байгаа эсэхийг шалгана уу
 Check URLs: URL хаягуудыг шалгана уу
-Clear: Тодорхой
-Close: Хаах
+Clear Filters: Шүүлтүүрийг арилгах
 Country: Улс
 Delete Group: Бүлгийг устгах
 Description: Тодорхойлолт
@@ -32,7 +34,8 @@ Edit Playlist: Тоглуулах жагсаалтыг засах
 Edit URLs: URL-уудыг засах
 End (local): Төгсгөл (орон нутгийн)
 Enrich with EPG: EPG-ээр баяжуулна
-Enter M3U URL:: M3U URL-г оруулна уу:
+Enter JSON URL:: JSON URL-г оруулна уу:
+Enter playlist URL (M3U or JSON):: Тоглуулах жагсаалтын URL (M3U эсвэл JSON) оруулна уу:
 EPG: EPG
 EPG & Favorites: EPG ба дуртай зүйлс
 EPG Matching Threshold: EPG тохирох босго
@@ -41,11 +44,12 @@ Error: Алдаа
 Error loading: Ачаалахад алдаа гарлаа
 Error loading playlists: {0}: Тоглуулах жагсаалтыг ачаалахад алдаа гарсан: {0}
 ERROR: player.html not found.: АЛДАА: player.html олдсонгүй.
-Export Failed: Экспорт амжилтгүй боллоо
+Exit: Гарах
 Export Favorites: Дуртай зүйлсийг экспортлох
 Export Filtered JSON: Шүүгдсэн JSON-г экспортлох
 Export Filtered M3U: Экспортын шүүсэн M3U
 Export JSON: JSON экспортлох
+Export KO: КО экспортлох
 Export OK: Экспорт OK
 Extracting update...: Шинэчлэлтийг задалж байна...
 Failed to download playlist: Тоглуулах жагсаалтыг татаж авч чадсангүй
@@ -59,18 +63,27 @@ GitHub Error: GitHub алдаа
 Group: Бүлэг
 Help: Туслаач
 Hide List: Жагсаалтыг нуух
+Import: Импорт
+Import error: {0}: Импортын алдаа: {0}
+Import from URL: URL-аас импортлох
 Import JSON: JSON импортлох
+Import JSON from URL: URL-аас JSON импортлох
+Import Local: Орон нутгийн импорт
+Imported {0} channels from JSON.: JSON-с {0} суваг импортолсон.
+Imported {0} channels from URL.: URL-аас {0} суваг импортолсон.
 Info: Мэдээлэл
+Invalid JSON: {0}: Буруу JSON: {0}
 Invalid playlist URL.: Тоглуулах жагсаалтын URL буруу байна.
 Invalid URL.: Хүчингүй URL.
+JSON Property: JSON өмч
 Language: Хэл
 Languages (comma): Хэл (таслал)
 LOAD: Ачаалах
 Load a playlist first.: Эхлээд тоглуулах жагсаалтыг ачаална уу.
-Load M3U: M3U ачаалах
-Load M3U file from your computer: M3U файлыг компьютерээсээ ачаална уу
-Load M3U playlist from a web URL: M3U тоглуулах жагсаалтыг вэб URL-аас ачаална уу
+Load File: Файл ачаалах
 Load Online: Онлайнаар ачаалах
+Load playlist file (M3U/JSON) from your computer: Тоглуулах жагсаалтын файлыг (M3U/JSON) компьютерээсээ ачаална уу
+Load playlist from web URL (M3U or JSON): Вэб URL-аас тоглуулах жагсаалтыг ачаалах (M3U эсвэл JSON)
 Loaded: Ачаалагдсан
 Loading...: Ачааж байна...
 Logo Preview: Логог урьдчилан харах
@@ -78,12 +91,16 @@ Logo URL: Лого URL
 Logos Matching Threshold: Лого тохирох босго
 Logos Source: Логоны эх сурвалж
 Logos Subfolder: Логоны дэд хавтас
+Map JSON properties to channel fields:: JSON шинж чанарыг сувгийн талбарт буулгах:
+Mapping saved for future imports of this file.: Энэ файлын цаашдын импортын зураглалыг хадгалсан.
 Name: Нэр
 Nanoid: Наноид
 Network error: Сүлжээний алдаа
 New Playlist: Шинэ тоглуулах жагсаалт
 Next ▶: Дараагийн ▶
 No .m3u files found on GitHub repository.: GitHub репозитор дээр .m3u файл олдсонгүй.
+No channels could be mapped. Check your mapping rules.: Ямар ч сувгийг зураглаж чадсангүй. Газрын зургийн дүрмээ шалгана уу.
+No channels mapped: Ямар ч суваг зураглаагүй
 No duplicate URLs found.: Давхардсан URL олдсонгүй.
 No favorite channels to export.: Экспортлох дуртай суваг алга.
 No playlist found: Тоглуулах жагсаалт олдсонгүй
@@ -96,6 +113,8 @@ Pause/Resume live stream: Шууд дамжуулалтыг түр зогсоо�
 Player ready.: Тоглогч бэлэн байна.
 Playlist Editor: Тоглуулах жагсаалт засварлагч
 Please select a program first.: Эхлээд програмаа сонгоно уу.
+Preview (first 5 channels): Урьдчилан үзэх (эхний 5 суваг)
+Preview error: {0}: Урьдчилан үзэх алдаа: {0}
 Program Details: Хөтөлбөрийн дэлгэрэнгүй мэдээлэл
 Recent: Саяхан
 Recent playlists: Сүүлийн үеийн тоглуулах жагсаалтууд
@@ -103,11 +122,14 @@ Refresh: Сэргээх
 Refresh EPG List: EPG жагсаалтыг шинэчлэх
 Refresh from GitHub: GitHub-с сэргээнэ үү
 Rename Group: Бүлгийн нэрийг өөрчлөх
+Reset Order: Захиалгыг дахин тохируулах
 Save: Хадгалах
 SAVE: ХАДГАЛАХ
-Save As...: Хадгалах...
+Save as...: Хадгалах...
+Save Mapping: Газрын зураг хадгалах
 Save Playlist: Тоглуулах жагсаалтыг хадгалах
 Save Status: Статусыг хадгалах
+Saved: Хадгалсан
 Search channels...: Сувгууд хайх...
 Select a playlist first.: Эхлээд тоглуулах жагсаалтыг сонгоно уу.
 Select Theme: Сэдвийг сонгоно уу
@@ -119,12 +141,12 @@ Status: Статус
 Stream URL: Урсгал URL
 Success: Амжилт
 Support: Дэмжлэг
+Target Field: Зорилтот талбар
 Theme picker: Сэдэв сонгогч
 Time: Цаг хугацаа
 Title: Гарчиг
 Tools: Багаж хэрэгсэл
 TV Guide (EPG): ТВ хөтөч (EPG)
-TVGarden+: ТВ цэцэрлэг+
 TvgId: TvgId
 Unable to find version in remote project file.: Алсын төслийн файлаас хувилбарыг олох боломжгүй байна.
 Update: Шинэчлэх

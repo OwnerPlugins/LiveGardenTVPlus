@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Një version i ri ësht�
 About: Rreth
 About TVGarden+: Rreth TVGarden+
 Add Group: Shto grup
+Add Mapping: Shto hartën
 Advanced IDs: ID të avancuara
-Apply: Aplikoni
 Apply changes: Aplikoni ndryshimet
+Apply Filters: Aplikoni filtrat
+Auto-detect: Zbulimi automatik
 Buffer (seconds): Buffer (sekonda)
 Cancel: Anulo
 CANCEL: ANULON
@@ -15,12 +17,12 @@ Channel Details: Detajet e kanalit
 Channel Info: Informacioni i kanalit
 Channel:: Kanali:
 channels from: kanale nga
+channels from JSON URL: kanale nga JSON URL
 channels from URL: kanale nga URL
 Check Duplicates: Kontrolloni Dublikatat
 Check for updates: Kontrolloni për përditësime
 Check URLs: Kontrolloni URL-të
-Clear: E qartë
-Close: Mbylle
+Clear Filters: Pastro filtrat
 Country: Vendi
 Delete Group: Fshi grupin
 Description: Përshkrimi
@@ -32,7 +34,8 @@ Edit Playlist: Redakto listën e luajtjes
 Edit URLs: Redakto URL-të
 End (local): Fundi (lokal)
 Enrich with EPG: Pasurohuni me EPG
-Enter M3U URL:: Fut URL-në M3U:
+Enter JSON URL:: Fut URL-në JSON:
+Enter playlist URL (M3U or JSON):: Fut URL-në e listës së luajtjes (M3U ose JSON):
 EPG: EPG
 EPG & Favorites: EPG dhe të preferuarat
 EPG Matching Threshold: Pragu i përputhjes së EPG
@@ -41,11 +44,12 @@ Error: Gabim
 Error loading: Gabim në ngarkim
 Error loading playlists: {0}: Gabim gjatë ngarkimit të listave për luajtje: {0}
 ERROR: player.html not found.: GABIM: lojtari.html nuk u gjet.
-Export Failed: Eksporti dështoi
+Exit: Dilni
 Export Favorites: Eksporto të preferuarat
 Export Filtered JSON: Eksporto JSON të filtruar
 Export Filtered M3U: Eksporto M3U të filtruar
 Export JSON: Eksporto JSON
+Export KO: Eksporti KO
 Export OK: Eksporto OK
 Extracting update...: Po nxjerr përditësimin...
 Failed to download playlist: Shkarkimi i listës së luajtjes dështoi
@@ -59,18 +63,27 @@ GitHub Error: Gabim GitHub
 Group: Grupi
 Help: Ndihmë
 Hide List: Fshih listën
+Import: Importi
+Import error: {0}: Gabim importi: {0}
+Import from URL: Importo nga URL
 Import JSON: Importo JSON
+Import JSON from URL: Importo JSON nga URL
+Import Local: Import Local
+Imported {0} channels from JSON.: U importuan {0} kanale nga JSON.
+Imported {0} channels from URL.: U importuan {0} kanale nga URL.
 Info: Informacion
+Invalid JSON: {0}: JSON i pavlefshëm: {0}
 Invalid playlist URL.: URL e pavlefshme e listës për luajtje.
 Invalid URL.: URL e pavlefshme.
+JSON Property: Pronë JSON
 Language: Gjuha
 Languages (comma): Gjuhët (presje)
 LOAD: NGARKOJE
 Load a playlist first.: Ngarkoni së pari një listë për luajtje.
-Load M3U: Ngarko M3U
-Load M3U file from your computer: Ngarkoni skedarin M3U nga kompjuteri juaj
-Load M3U playlist from a web URL: Ngarko listën e luajtjes M3U nga një URL ueb
+Load File: Ngarko skedarin
 Load Online: Ngarko Online
+Load playlist file (M3U/JSON) from your computer: Ngarko skedarin e listës së luajtjes (M3U/JSON) nga kompjuteri juaj
+Load playlist from web URL (M3U or JSON): Ngarko listën e luajtjes nga URL-ja e uebit (M3U ose JSON)
 Loaded: Ngarkuar
 Loading...: Po ngarkohet...
 Logo Preview: Pamja paraprake e logos
@@ -78,12 +91,16 @@ Logo URL: URL e logos
 Logos Matching Threshold: Pragu i përputhjes së logove
 Logos Source: Burimi i logos
 Logos Subfolder: Nëndosja e logos
+Map JSON properties to channel fields:: Harto vetitë JSON në fushat e kanalit:
+Mapping saved for future imports of this file.: Harta u ruajt për importet e ardhshme të këtij skedari.
 Name: Emri
 Nanoid: Nanoide
 Network error: Gabim rrjeti
 New Playlist: Lista e re e luajtjes
 Next ▶: Tjetra ▶
 No .m3u files found on GitHub repository.: Nuk u gjet asnjë skedar .m3u në depon e GitHub.
+No channels could be mapped. Check your mapping rules.: Asnjë kanal nuk mund të hartohej. Kontrolloni rregullat tuaja të hartës.
+No channels mapped: Nuk ka kanale të hartuara
 No duplicate URLs found.: Nuk u gjetën URL dublikate.
 No favorite channels to export.: Nuk ka kanale të preferuara për eksport.
 No playlist found: Nuk u gjet asnjë listë për luajtje
@@ -96,6 +113,8 @@ Pause/Resume live stream: Ndalo/Rifill transmetimin e drejtpërdrejtë
 Player ready.: Lojtari gati.
 Playlist Editor: Redaktori i listës së luajtjes
 Please select a program first.: Ju lutemi së pari zgjidhni një program.
+Preview (first 5 channels): Pamja paraprake (5 kanalet e para)
+Preview error: {0}: Gabim paraprak: {0}
 Program Details: Detajet e programit
 Recent: E fundit
 Recent playlists: Listat e fundit të luajtjes
@@ -103,11 +122,14 @@ Refresh: Rifresko
 Refresh EPG List: Rifresko listën EPG
 Refresh from GitHub: Rifresko nga GitHub
 Rename Group: Riemërto grupin
+Reset Order: Rivendos porosinë
 Save: Ruaj
 SAVE: RUAJ
-Save As...: Ruaj si...
+Save as...: Ruaje si...
+Save Mapping: Ruaj hartën
 Save Playlist: Ruaj listën e luajtjes
 Save Status: Ruaj statusin
+Saved: U ruajt
 Search channels...: Kërko kanale...
 Select a playlist first.: Së pari zgjidhni një listë dëgjimi.
 Select Theme: Zgjidhni Temë
@@ -119,12 +141,12 @@ Status: Statusi
 Stream URL: URL-ja e transmetimit
 Success: Suksese
 Support: Mbështetje
+Target Field: Fusha e synuar
 Theme picker: Zgjedhësi i temës
 Time: Koha
 Title: Titulli
 Tools: Mjetet
 TV Guide (EPG): Udhëzues TV (EPG)
-TVGarden+: TV Garden +
 TvgId: TvgId
 Unable to find version in remote project file.: Nuk mund të gjendet versioni në skedarin e projektit në distancë.
 Update: Përditëso

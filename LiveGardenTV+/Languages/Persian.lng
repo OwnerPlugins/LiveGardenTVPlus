@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: نسخه جدید موج
 About: درباره
 About TVGarden+: درباره TVGarden+
 Add Group: افزودن گروه
+Add Mapping: نقشه برداری را اضافه کنید
 Advanced IDs: شناسه های پیشرفته
-Apply: درخواست کنید
 Apply changes: اعمال تغییرات
+Apply Filters: اعمال فیلترها
+Auto-detect: تشخیص خودکار
 Buffer (seconds): بافر (ثانیه)
 Cancel: لغو کنید
 CANCEL: لغو
@@ -15,12 +17,12 @@ Channel Details: جزئیات کانال
 Channel Info: اطلاعات کانال
 Channel:: کانال:
 channels from: کانال ها از
+channels from JSON URL: کانال ها از JSON URL
 channels from URL: کانال ها از URL
 Check Duplicates: موارد تکراری را بررسی کنید
 Check for updates: به روز رسانی را بررسی کنید
 Check URLs: URL ها را بررسی کنید
-Clear: پاک کردن
-Close: بستن
+Clear Filters: پاک کردن فیلترها
 Country: کشور
 Delete Group: حذف گروه
 Description: توضیحات
@@ -32,7 +34,8 @@ Edit Playlist: ویرایش لیست پخش
 Edit URLs: ویرایش URL ها
 End (local): پایان (محلی)
 Enrich with EPG: غنی سازی با EPG
-Enter M3U URL:: URL M3U را وارد کنید:
+Enter JSON URL:: URL JSON را وارد کنید:
+Enter playlist URL (M3U or JSON):: URL لیست پخش (M3U یا JSON) را وارد کنید:
 EPG: EPG
 EPG & Favorites: EPG و موارد دلخواه
 EPG Matching Threshold: آستانه تطبیق EPG
@@ -41,11 +44,12 @@ Error: خطا
 Error loading: خطا در بارگیری
 Error loading playlists: {0}: خطا در بارگیری لیست‌های پخش: {0}
 ERROR: player.html not found.: خطا: player.html یافت نشد.
-Export Failed: صادرات انجام نشد
+Exit: خارج شوید
 Export Favorites: صادرات موارد دلخواه
 Export Filtered JSON: صادر کردن JSON فیلتر شده
 Export Filtered M3U: صادرات M3U فیلتر شده
 Export JSON: صادرات JSON
+Export KO: صادرات KO
 Export OK: صادرات OK
 Extracting update...: در حال استخراج به روز رسانی...
 Failed to download playlist: لیست پخش دانلود نشد
@@ -59,18 +63,27 @@ GitHub Error: خطای GitHub
 Group: گروه
 Help: کمک کنید
 Hide List: پنهان کردن لیست
+Import: واردات
+Import error: {0}: خطای وارد کردن: {0}
+Import from URL: وارد کردن از URL
 Import JSON: JSON را وارد کنید
+Import JSON from URL: JSON را از URL وارد کنید
+Import Local: واردات محلی
+Imported {0} channels from JSON.: {0} کانال از JSON وارد شد.
+Imported {0} channels from URL.: {0} کانال از URL وارد شد.
 Info: اطلاعات
+Invalid JSON: {0}: JSON نامعتبر: {0}
 Invalid playlist URL.: URL لیست پخش نامعتبر است.
 Invalid URL.: URL نامعتبر است.
+JSON Property: ویژگی JSON
 Language: زبان
 Languages (comma): زبان ها (کاما)
 LOAD: LOAD
 Load a playlist first.: ابتدا یک لیست پخش بارگیری کنید.
-Load M3U: M3U را بارگیری کنید
-Load M3U file from your computer: فایل M3U را از رایانه خود بارگیری کنید
-Load M3U playlist from a web URL: لیست پخش M3U را از یک URL وب بارگیری کنید
+Load File: بارگذاری فایل
 Load Online: بارگذاری آنلاین
+Load playlist file (M3U/JSON) from your computer: فایل لیست پخش (M3U/JSON) را از رایانه خود بارگیری کنید
+Load playlist from web URL (M3U or JSON): بارگیری لیست پخش از URL وب (M3U یا JSON)
 Loaded: بارگیری شد
 Loading...: در حال بارگیری...
 Logo Preview: پیش نمایش لوگو
@@ -78,12 +91,16 @@ Logo URL: نشانی وب لوگو
 Logos Matching Threshold: آستانه تطبیق آرم ها
 Logos Source: منبع لوگوها
 Logos Subfolder: زیر پوشه لوگو
+Map JSON properties to channel fields:: نگاشت ویژگی های JSON به فیلدهای کانال:
+Mapping saved for future imports of this file.: نقشه برداری برای واردات آینده این فایل ذخیره شد.
 Name: نام
 Nanoid: نانووئید
 Network error: خطای شبکه
 New Playlist: لیست پخش جدید
 Next ▶: بعدی ▶
 No .m3u files found on GitHub repository.: هیچ فایل .m3u در مخزن GitHub یافت نشد.
+No channels could be mapped. Check your mapping rules.: هیچ کانالی نمی تواند نقشه برداری شود. قوانین نقشه برداری خود را بررسی کنید.
+No channels mapped: هیچ کانالی نقشه برداری نشده است
 No duplicate URLs found.: هیچ URL تکراری یافت نشد.
 No favorite channels to export.: کانال مورد علاقه برای صادرات وجود ندارد.
 No playlist found: لیست پخشی پیدا نشد
@@ -96,6 +113,8 @@ Pause/Resume live stream: توقف/ازسرگیری پخش زنده
 Player ready.: بازیکن آماده است.
 Playlist Editor: ویرایشگر لیست پخش
 Please select a program first.: لطفا ابتدا یک برنامه را انتخاب کنید.
+Preview (first 5 channels): پیش نمایش (5 کانال اول)
+Preview error: {0}: خطای پیش نمایش: {0}
 Program Details: جزئیات برنامه
 Recent: اخیر
 Recent playlists: لیست های پخش اخیر
@@ -103,11 +122,14 @@ Refresh: تازه کردن
 Refresh EPG List: فهرست EPG را بازخوانی کنید
 Refresh from GitHub: بازخوانی از GitHub
 Rename Group: تغییر نام گروه
+Reset Order: بازنشانی سفارش
 Save: ذخیره کنید
 SAVE: ذخیره کنید
-Save As...: ذخیره به عنوان...
+Save as...: ذخیره به عنوان...
+Save Mapping: ذخیره نقشه
 Save Playlist: ذخیره لیست پخش
 Save Status: ذخیره وضعیت
+Saved: ذخیره شد
 Search channels...: جستجو در کانال ها...
 Select a playlist first.: ابتدا یک لیست پخش انتخاب کنید.
 Select Theme: تم را انتخاب کنید
@@ -119,12 +141,12 @@ Status: وضعیت
 Stream URL: URL جریان
 Success: موفقیت
 Support: پشتیبانی کنید
+Target Field: میدان هدف
 Theme picker: انتخاب کننده تم
 Time: زمان
 Title: عنوان
 Tools: ابزار
 TV Guide (EPG): راهنمای تلویزیون (EPG)
-TVGarden+: باغ تلویزیون +
 TvgId: TvgId
 Unable to find version in remote project file.: نسخه در فایل پروژه راه دور پیدا نشد.
 Update: به روز رسانی

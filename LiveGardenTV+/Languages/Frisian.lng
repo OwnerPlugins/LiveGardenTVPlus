@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: In nije ferzje is beskik
 About: Oer
 About TVGarden+: Oer TVGarden+
 Add Group: Add Group
+Add Mapping: Mapping tafoegje
 Advanced IDs: Avansearre IDs
-Apply: Tapasse
 Apply changes: Feroarings tapasse
+Apply Filters: Filters tapasse
+Auto-detect: Auto-detect
 Buffer (seconds): Buffer (sekonden)
 Cancel: Ofbrekke
 CANCEL: CANCEL
@@ -15,12 +17,12 @@ Channel Details: Channel Details
 Channel Info: Channel Info
 Channel:: Kanaal:
 channels from: kanalen út
+channels from JSON URL: kanalen fan JSON URL
 channels from URL: kanalen fan URL
 Check Duplicates: Kontrolearje Duplikaten
 Check for updates: Kontrolearje op updates
 Check URLs: Kontrolearje URL's
-Clear: Klear
-Close: Slute
+Clear Filters: Filters wiskje
 Country: Lân
 Delete Group: Groep wiskje
 Description: Beskriuwing
@@ -32,7 +34,8 @@ Edit Playlist: Playlist bewurkje
 Edit URLs: URLs bewurkje
 End (local): Ein (lokaal)
 Enrich with EPG: Ferrykje mei EPG
-Enter M3U URL:: Fier M3U URL yn:
+Enter JSON URL:: Fier JSON URL yn:
+Enter playlist URL (M3U or JSON):: Fier de playlist-URL yn (M3U of JSON):
 EPG: EPG
 EPG & Favorites: EPG & Favorites
 EPG Matching Threshold: EPG Matching Threshold
@@ -41,11 +44,12 @@ Error: Fersin
 Error loading: Flater by it laden
 Error loading playlists: {0}: Flater by it laden fan playlists: {0}
 ERROR: player.html not found.: FOUT: player.html net fûn.
-Export Failed: Eksportearje mislearre
+Exit: Útgong
 Export Favorites: Eksportearje Favorites
 Export Filtered JSON: Eksportearje Filtered JSON
 Export Filtered M3U: Eksportearje Filtered M3U
 Export JSON: JSON eksportearje
+Export KO: Eksportearje KO
 Export OK: Eksportearje OK
 Extracting update...: Update útpakke...
 Failed to download playlist: It downloaden fan playlist is mislearre
@@ -59,18 +63,27 @@ GitHub Error: GitHub flater
 Group: Groep
 Help: Help
 Hide List: Ferbergje List
+Import: Ymport
+Import error: {0}: Ymportflater: {0}
+Import from URL: Ymportearje fan URL
 Import JSON: Ymportearje JSON
+Import JSON from URL: Ymportearje JSON fan URL
+Import Local: Ymportearje Lokaal
+Imported {0} channels from JSON.: Ymporteare {0} kanalen fan JSON.
+Imported {0} channels from URL.: Ymporteare {0} kanalen fan URL.
 Info: Info
+Invalid JSON: {0}: Unjildige JSON: {0}
 Invalid playlist URL.: Unjildige playlist-URL.
 Invalid URL.: Unjildige URL.
+JSON Property: JSON Eigenskip
 Language: Taal
 Languages (comma): Talen (komma)
 LOAD: LADE
 Load a playlist first.: Laad earst in playlist.
-Load M3U: Laad M3U
-Load M3U file from your computer: Laad M3U triem fan jo kompjûter
-Load M3U playlist from a web URL: Laad M3U-playlist fan in web-URL
+Load File: Laad Triem
 Load Online: Online laden
+Load playlist file (M3U/JSON) from your computer: Laad playlistbestân (M3U/JSON) fan jo kompjûter
+Load playlist from web URL (M3U or JSON): Laad playlist fan web-URL (M3U of JSON)
 Loaded: Loaded
 Loading...: Loading...
 Logo Preview: Logofoarbyld
@@ -78,12 +91,16 @@ Logo URL: Logo URL
 Logos Matching Threshold: Logos Matching Threshold
 Logos Source: Logos Boarne
 Logos Subfolder: Logos Submap
+Map JSON properties to channel fields:: Map JSON-eigenskippen oan kanaalfjilden:
+Mapping saved for future imports of this file.: Mapping bewarre foar takomstige ymporten fan dit bestân.
 Name: Namme
 Nanoid: Nanoïde
 Network error: Netwurk flater
 New Playlist: Nije playlist
 Next ▶: Folgjende ▶
 No .m3u files found on GitHub repository.: Gjin .m3u triemmen fûn op GitHub repository.
+No channels could be mapped. Check your mapping rules.: Gjin kanalen koene wurde yn kaart brocht. Kontrolearje jo mapping regels.
+No channels mapped: Gjin kanalen yn kaart brocht
 No duplicate URLs found.: Gjin dûbele URL's fûn.
 No favorite channels to export.: Gjin favorite kanalen om te eksportearjen.
 No playlist found: Gjin playlist fûn
@@ -96,6 +113,8 @@ Pause/Resume live stream: Pause / Ferfetsje live stream
 Player ready.: Spiler klear.
 Playlist Editor: Playlist Editor
 Please select a program first.: Selektearje asjebleaft earst in programma.
+Preview (first 5 channels): Foarbyld (earste 5 kanalen)
+Preview error: {0}: Foarbyldflater: {0}
 Program Details: Program Details
 Recent: Resint
 Recent playlists: Resinte playlists
@@ -103,11 +122,14 @@ Refresh: Ferfarskje
 Refresh EPG List: Ferfarskje EPG List
 Refresh from GitHub: Ferfarskje fan GitHub
 Rename Group: Rename Group
+Reset Order: Oarder weromsette
 Save: Rêde
 SAVE: RÊDE
-Save As...: Bewarje as...
+Save as...: Bewarje as...
+Save Mapping: Mapping bewarje
 Save Playlist: Bewarje Playlist
 Save Status: Bewarje Status
+Saved: Opslein
 Search channels...: Sykje kanalen...
 Select a playlist first.: Selektearje earst in playlist.
 Select Theme: Selektearje Tema
@@ -119,12 +141,12 @@ Status: Status
 Stream URL: Stream URL
 Success: Sukses
 Support: Stypje
+Target Field: Doelfjild
 Theme picker: Tema picker
 Time: Tiid
 Title: Titel
 Tools: Tools
 TV Guide (EPG): TV Guide (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Ferzje kin net fûn wurde yn projektbestân op ôfstân.
 Update: Update

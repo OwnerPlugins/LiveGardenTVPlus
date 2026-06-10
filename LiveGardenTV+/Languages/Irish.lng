@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Tá leagan nua ar fáil.
 About: Maidir
 About TVGarden+: Maidir le TVGarden+
 Add Group: Cuir Grúpa leis
+Add Mapping: Cuir Mapáil leis
 Advanced IDs: Ardaitheantais
-Apply: Cuir iarratas isteach
 Apply changes: Cuir athruithe i bhfeidhm
+Apply Filters: Cuir Scagairí i bhFeidhm
+Auto-detect: Auto-bhrath
 Buffer (seconds): Maolán (soicindí)
 Cancel: Cealaigh
 CANCEL: CEAL
@@ -15,12 +17,12 @@ Channel Details: Sonraí Cainéal
 Channel Info: Eolas Cainéal
 Channel:: Cainéal:
 channels from: cainéil ó
+channels from JSON URL: cainéil ó JSON URL
 channels from URL: cainéil ó URL
 Check Duplicates: Seiceáil Dúblaigh
 Check for updates: Seiceáil le haghaidh nuashonruithe
 Check URLs: Seiceáil URLanna
-Clear: Glan
-Close: Dún
+Clear Filters: Scagairí Glan
 Country: Tír
 Delete Group: Scrios Grúpa
 Description: Cur síos
@@ -32,7 +34,8 @@ Edit Playlist: Cuir Seinmliosta in Eagar
 Edit URLs: Cuir URLanna in eagar
 End (local): Críoch (áitiúil)
 Enrich with EPG: Saibhriú le EPG
-Enter M3U URL:: Cuir isteach URL M3U:
+Enter JSON URL:: Cuir isteach URL JSON:
+Enter playlist URL (M3U or JSON):: Cuir isteach URL seinmliosta (M3U nó JSON):
 EPG: EPG
 EPG & Favorites: EPG & Ceanáin
 EPG Matching Threshold: Tairseach Meaitseála EPG
@@ -41,11 +44,12 @@ Error: Earráid
 Error loading: Earráid á lódáil
 Error loading playlists: {0}: Earráid agus seinmliostaí á lódáil: {0}
 ERROR: player.html not found.: EARRÁID: níor aimsíodh player.html.
-Export Failed: Theip ar Easpórtáil
+Exit: Scoir
 Export Favorites: Easpórtáil Ceanáin
 Export Filtered JSON: Easpórtáil JSON Scagtha
 Export Filtered M3U: Easpórtáil M3U Scagtha
 Export JSON: Easpórtáil JSON
+Export KO: Easpórtáil KO
 Export OK: Easpórtáil OK
 Extracting update...: Nuashonrú á bhaint...
 Failed to download playlist: Theip ar an seinmliosta a íoslódáil
@@ -59,18 +63,27 @@ GitHub Error: Earráid GitHub
 Group: Grúpa
 Help: Cabhrú
 Hide List: Folaigh Liosta
+Import: Iompórtáil
+Import error: {0}: Earráid iompórtála: {0}
+Import from URL: Iompórtáil ó URL
 Import JSON: Iompórtáil JSON
+Import JSON from URL: Iompórtáil JSON ón URL
+Import Local: Iompórtáil Áitiúil
+Imported {0} channels from JSON.: Iompórtáladh {0} cainéal ó JSON.
+Imported {0} channels from URL.: Iompórtáladh {0} cainéal ó URL.
 Info: Eolas
+Invalid JSON: {0}: JSON neamhbhailí: {0}
 Invalid playlist URL.: URL seinmliosta neamhbhailí.
 Invalid URL.: URL neamhbhailí.
+JSON Property: Maoin JSON
 Language: Teanga
 Languages (comma): Teangacha (camóg)
 LOAD: Ualach
 Load a playlist first.: Íosluchtaigh playlist ar dtús.
-Load M3U: Íosluchtaigh M3U
-Load M3U file from your computer: Íosluchtaigh m3u comhaid ar do ríomhaire
-Load M3U playlist from a web URL: Luchtaigh seinmliosta M3U ó URL gréasáin
+Load File: Luchtaigh Comhad
 Load Online: Luchtaigh Ar Líne
+Load playlist file (M3U/JSON) from your computer: Luchtaigh comhad seinmliosta (M3U/JSON) ó do ríomhaire
+Load playlist from web URL (M3U or JSON): Luchtaigh seinmliosta ó URL Gréasáin (M3U nó JSON)
 Loaded: Luchtaithe
 Loading...: Á lódáil...
 Logo Preview: Lógó Réamhamhairc
@@ -78,12 +91,16 @@ Logo URL: URL an lógó
 Logos Matching Threshold: Lógónna Tairseach Meaitseála
 Logos Source: Foinse Logos
 Logos Subfolder: Fofhillteán Logos
+Map JSON properties to channel fields:: Mapáil airíonna JSON chuig réimsí cainéil:
+Mapping saved for future imports of this file.: Sábháiltear an léarscáiliú le haghaidh iompórtáil an chomhaid seo amach anseo.
 Name: Ainm
 Nanoid: Nainoid
 Network error: Earráid líonra
 New Playlist: Seinmliosta Nua
 Next ▶: Ar aghaidh ▶
 No .m3u files found on GitHub repository.: Níor aimsíodh aon chomhaid .m3u ar stór GitHub.
+No channels could be mapped. Check your mapping rules.: Níorbh fhéidir aon chainéil a mhapáil. Seiceáil do rialacha mapála.
+No channels mapped: Níl aon chainéil mapáilte
 No duplicate URLs found.: Níor aimsíodh URLanna dúblacha.
 No favorite channels to export.: Níl aon chainéil is fearr leat le heaspórtáil.
 No playlist found: Níor aimsíodh aon seinnliosta
@@ -96,6 +113,8 @@ Pause/Resume live stream: Cuir ar sos/atosú sruth beo
 Player ready.: Imreoir réidh.
 Playlist Editor: Eagarthóir playlist
 Please select a program first.: Roghnaigh clár ar dtús.
+Preview (first 5 channels): Réamhamharc (an chéad 5 chainéal)
+Preview error: {0}: Earráid réamhamhairc: {0}
 Program Details: Sonraí an Chláir
 Recent: le déanaí
 Recent playlists: Seinmliostaí le déanaí
@@ -103,11 +122,14 @@ Refresh: Athnuaigh
 Refresh EPG List: Athnuaigh an liosta EPG
 Refresh from GitHub: Athnuaigh ó GitHub
 Rename Group: Athainmnigh an Grúpa
+Reset Order: Ordú Athshocraigh
 Save: Sábháil
 SAVE: SAVE
-Save As...: Sábháil Mar...
+Save as...: Sábháil mar...
+Save Mapping: Sábháil Mapáil
 Save Playlist: Sábháil Seinmliosta
 Save Status: Sábháil Stádas
+Saved: Shábháil
 Search channels...: Cuardach cainéil...
 Select a playlist first.: Roghnaigh seinmliosta ar dtús.
 Select Theme: Roghnaigh Téama
@@ -119,12 +141,12 @@ Status: Stádas
 Stream URL: Sruth URL
 Success: Rath
 Support: Tacaíocht
+Target Field: Réimse Sprioc
 Theme picker: Roghnóir téamaí
 Time: Am
 Title: Teideal
 Tools: Uirlisí
 TV Guide (EPG): Treoir Teilifíse (EPG)
-TVGarden+: Gairdín Teilifíse+
 TvgId: TvgId
 Unable to find version in remote project file.: Ní féidir an leagan a aimsiú sa chianchomhad tionscadail.
 Update: Nuashonrú

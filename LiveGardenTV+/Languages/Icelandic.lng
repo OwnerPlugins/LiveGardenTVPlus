@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Ný útgáfa er fáanleg
 About: Um
 About TVGarden+: Um TVGarden+
 Add Group: Bæta við hópi
+Add Mapping: Bæta við kortlagningu
 Advanced IDs: Ítarleg skilríki
-Apply: Sækja um
 Apply changes: Notaðu breytingar
+Apply Filters: Notaðu síur
+Auto-detect: Sjálfvirk skynjun
 Buffer (seconds): Buffer (sekúndur)
 Cancel: Hætta við
 CANCEL: HÆTTA við
@@ -15,12 +17,12 @@ Channel Details: Rásarupplýsingar
 Channel Info: Rásupplýsingar
 Channel:: Rás:
 channels from: rásir frá
+channels from JSON URL: rásir frá JSON vefslóð
 channels from URL: rásir frá URL
 Check Duplicates: Athugaðu afrit
 Check for updates: Leitaðu að uppfærslum
 Check URLs: Athugaðu vefslóðir
-Clear: Hreinsa
-Close: Loka
+Clear Filters: Hreinsaðu síur
 Country: Land
 Delete Group: Eyða hópi
 Description: Lýsing
@@ -32,7 +34,8 @@ Edit Playlist: Breyta lagalista
 Edit URLs: Breyta vefslóðum
 End (local): Lok (staðbundið)
 Enrich with EPG: Auðgaðu með EPG
-Enter M3U URL:: Sláðu inn M3U vefslóð:
+Enter JSON URL:: Sláðu inn JSON vefslóð:
+Enter playlist URL (M3U or JSON):: Sláðu inn vefslóð lagalista (M3U eða JSON):
 EPG: EPG
 EPG & Favorites: EPG og eftirlæti
 EPG Matching Threshold: EPG samsvarandi þröskuldur
@@ -41,11 +44,12 @@ Error: Villa
 Error loading: Villa við hleðslu
 Error loading playlists: {0}: Villa við að hlaða spilunarlista: {0}
 ERROR: player.html not found.: VILLA: player.html fannst ekki.
-Export Failed: Útflutningur mistókst
+Exit: Hætta
 Export Favorites: Flytja út eftirlæti
 Export Filtered JSON: Flytja út síað JSON
 Export Filtered M3U: Flytja út síað M3U
 Export JSON: Flytja út JSON
+Export KO: Flytja út KO
 Export OK: Flytja út í lagi
 Extracting update...: Tekur út uppfærslu...
 Failed to download playlist: Mistókst að hlaða niður lagalista
@@ -59,18 +63,27 @@ GitHub Error: GitHub Villa
 Group: Hópur
 Help: Hjálp
 Hide List: Fela lista
+Import: Innflutningur
+Import error: {0}: Innflutningsvilla: {0}
+Import from URL: Flytja inn af vefslóð
 Import JSON: Flytja inn JSON
+Import JSON from URL: Flytja inn JSON frá URL
+Import Local: Flytja inn á staðnum
+Imported {0} channels from JSON.: Flutti inn {0} rásir frá JSON.
+Imported {0} channels from URL.: Innfluttar {0} rásir frá URL.
 Info: Upplýsingar
+Invalid JSON: {0}: Ógilt JSON: {0}
 Invalid playlist URL.: Ógild vefslóð spilunarlista.
 Invalid URL.: Ógild vefslóð.
+JSON Property: JSON eign
 Language: Tungumál
 Languages (comma): Tungumál (komma)
 LOAD: HLAÐA
 Load a playlist first.: Hlaða spilunarlista fyrst.
-Load M3U: Hlaða M3U
-Load M3U file from your computer: Hladdu M3U skrá úr tölvunni þinni
-Load M3U playlist from a web URL: Hlaða M3U lagalista frá vefslóð
+Load File: Hlaða skrá
 Load Online: Hlaða á netinu
+Load playlist file (M3U/JSON) from your computer: Hladdu lagalistaskrá (M3U/JSON) úr tölvunni þinni
+Load playlist from web URL (M3U or JSON): Hlaða spilunarlista frá vefslóð (M3U eða JSON)
 Loaded: Hlaðinn
 Loading...: Hleður...
 Logo Preview: Forskoðun lógó
@@ -78,12 +91,16 @@ Logo URL: Vefslóð lógós
 Logos Matching Threshold: Samsvörunarþröskuldur lógóa
 Logos Source: Uppruni lógóa
 Logos Subfolder: Logos undirmöppu
+Map JSON properties to channel fields:: Kortaðu JSON eiginleika við rásareiti:
+Mapping saved for future imports of this file.: Kortlagning vistuð fyrir framtíðarinnflutning á þessari skrá.
 Name: Nafn
 Nanoid: Nanóíð
 Network error: Netvilla
 New Playlist: Nýr lagalisti
 Next ▶: Næst ▶
 No .m3u files found on GitHub repository.: Engar .m3u skrár fundust á GitHub geymslunni.
+No channels could be mapped. Check your mapping rules.: Ekki var hægt að kortleggja neinar rásir. Athugaðu kortlagningarreglurnar þínar.
+No channels mapped: Engar rásir kortlagðar
 No duplicate URLs found.: Engar tvíteknar vefslóðir fundust.
 No favorite channels to export.: Engar uppáhaldsrásir til að flytja út.
 No playlist found: Enginn spilunarlisti fannst
@@ -96,6 +113,8 @@ Pause/Resume live stream: Gera hlé á/halda áfram straumi í beinni
 Player ready.: Leikmaður tilbúinn.
 Playlist Editor: Lagalista ritstjóri
 Please select a program first.: Vinsamlegast veldu forrit fyrst.
+Preview (first 5 channels): Forskoðun (fyrstu 5 rásirnar)
+Preview error: {0}: Forskoðunarvilla: {0}
 Program Details: Dagskrá Upplýsingar
 Recent: Nýleg
 Recent playlists: Nýlegir lagalistar
@@ -103,11 +122,14 @@ Refresh: Endurnýja
 Refresh EPG List: Endurnýja EPG lista
 Refresh from GitHub: Endurnýjaðu frá GitHub
 Rename Group: Endurnefna hóp
+Reset Order: Endurstilla pöntun
 Save: Vista
 SAVE: SPARA
-Save As...: Vista sem...
+Save as...: Vista sem...
+Save Mapping: Vista kortlagning
 Save Playlist: Vista lagalista
 Save Status: Vista stöðu
+Saved: Vistað
 Search channels...: Leita að rásum...
 Select a playlist first.: Veldu spilunarlista fyrst.
 Select Theme: Veldu Þema
@@ -119,12 +141,12 @@ Status: Staða
 Stream URL: Slóð á streymi
 Success: Árangur
 Support: Stuðningur
+Target Field: Markreitur
 Theme picker: Þemavalari
 Time: Tími
 Title: Titill
 Tools: Verkfæri
 TV Guide (EPG): TV Guide (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Ekki er hægt að finna útgáfu í ytri verkefnaskrá.
 Update: Uppfærsla

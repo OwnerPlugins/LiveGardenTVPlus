@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Saadaval on uus versioon
 About: Umbes
 About TVGarden+: Teave TVGarden+ kohta
 Add Group: Lisa rühm
+Add Mapping: Lisa kaardistus
 Advanced IDs: Täpsemad ID-d
-Apply: Rakenda
 Apply changes: Rakenda muudatused
+Apply Filters: Rakenda filtreid
+Auto-detect: Automaatne tuvastamine
 Buffer (seconds): Puhver (sekundites)
 Cancel: Tühista
 CANCEL: TÜHISTA
@@ -15,12 +17,12 @@ Channel Details: Kanali üksikasjad
 Channel Info: Kanali teave
 Channel:: Kanal:
 channels from: kanalid alates
+channels from JSON URL: kanalid JSON-i URL-ist
 channels from URL: kanalid URL-ist
 Check Duplicates: Kontrollige duplikaate
 Check for updates: Kontrollige värskendusi
 Check URLs: Kontrollige URL-e
-Clear: Selge
-Close: Sule
+Clear Filters: Tühjenda filtrid
 Country: Riik
 Delete Group: Kustuta grupp
 Description: Kirjeldus
@@ -32,7 +34,8 @@ Edit Playlist: Redigeeri esitusloendit
 Edit URLs: Muutke URL-e
 End (local): Lõpp (kohalik)
 Enrich with EPG: Rikastage EPG-ga
-Enter M3U URL:: Sisestage M3U URL:
+Enter JSON URL:: Sisestage JSON-i URL:
+Enter playlist URL (M3U or JSON):: Sisestage esitusloendi URL (M3U või JSON):
 EPG: EPG
 EPG & Favorites: EPG ja lemmikud
 EPG Matching Threshold: EPG vastavuslävi
@@ -41,11 +44,12 @@ Error: Viga
 Error loading: Viga laadimisel
 Error loading playlists: {0}: Viga esitusloendite laadimisel: {0}
 ERROR: player.html not found.: VIGA: player.html ei leitud.
-Export Failed: Eksport ebaõnnestus
+Exit: Välju
 Export Favorites: Ekspordi lemmikud
 Export Filtered JSON: Ekspordi filtreeritud JSON
 Export Filtered M3U: Ekspordi filtreeritud M3U
 Export JSON: Ekspordi JSON
+Export KO: Ekspordi KO
 Export OK: Ekspordi OK
 Extracting update...: Värskenduse ekstraktimine...
 Failed to download playlist: Esitusloendi allalaadimine ebaõnnestus
@@ -59,18 +63,27 @@ GitHub Error: GitHubi viga
 Group: Grupp
 Help: Abi
 Hide List: Peida loend
+Import: Import
+Import error: {0}: Impordi viga: {0}
+Import from URL: Import URL-ist
 Import JSON: Importige JSON
+Import JSON from URL: Importige JSON URL-ist
+Import Local: Import Local
+Imported {0} channels from JSON.: Imporditi JSON-ist {0} kanalit.
+Imported {0} channels from URL.: Imporditi URL-ist {0} kanalit.
 Info: Info
+Invalid JSON: {0}: Kehtetu JSON: {0}
 Invalid playlist URL.: Vigane esitusloendi URL.
 Invalid URL.: Kehtetu URL.
+JSON Property: JSON-vara
 Language: Keel
 Languages (comma): Keeled (koma)
 LOAD: LAADI
 Load a playlist first.: Laadige esmalt esitusloend.
-Load M3U: Laadige M3U
-Load M3U file from your computer: Laadige arvutist M3U-fail
-Load M3U playlist from a web URL: Laadige M3U esitusloend veebi URL-ist
+Load File: Laadi fail
 Load Online: Laadige võrgus
+Load playlist file (M3U/JSON) from your computer: Laadige oma arvutist esitusloendi fail (M3U/JSON).
+Load playlist from web URL (M3U or JSON): Laadi esitusloend veebi URL-ist (M3U või JSON)
 Loaded: Laaditud
 Loading...: Laadimine...
 Logo Preview: Logo eelvaade
@@ -78,12 +91,16 @@ Logo URL: Logo URL
 Logos Matching Threshold: Logode sobivuslävi
 Logos Source: Logode allikas
 Logos Subfolder: Logode alamkaust
+Map JSON properties to channel fields:: JSON-i atribuutide vastendamine kanaliväljadega:
+Mapping saved for future imports of this file.: Kaardistamine on salvestatud selle faili tulevaseks importimiseks.
 Name: Nimi
 Nanoid: Nanoid
 Network error: Võrgu viga
 New Playlist: Uus esitusloend
 Next ▶: Järgmine ▶
 No .m3u files found on GitHub repository.: GitHubi hoidlast ei leitud m3u-faile.
+No channels could be mapped. Check your mapping rules.: Ühtegi kanalit ei saanud kaardistada. Kontrollige oma kaardistamise reegleid.
+No channels mapped: Ühtegi kanalit pole kaardistatud
 No duplicate URLs found.: Dubleerivaid URL-e ei leitud.
 No favorite channels to export.: Lemmikkanaleid pole eksportimiseks.
 No playlist found: Esitusloendit ei leitud
@@ -96,6 +113,8 @@ Pause/Resume live stream: Peatage/jätkake otseülekanne
 Player ready.: Mängija valmis.
 Playlist Editor: Esitusloendite redaktor
 Please select a program first.: Palun valige esmalt programm.
+Preview (first 5 channels): Eelvaade (esimesed 5 kanalit)
+Preview error: {0}: Eelvaate viga: {0}
 Program Details: Programmi üksikasjad
 Recent: Viimased
 Recent playlists: Viimased esitusloendid
@@ -103,11 +122,14 @@ Refresh: Värskenda
 Refresh EPG List: Värskenda EPG-loendit
 Refresh from GitHub: Värskendage GitHubist
 Rename Group: Nimeta grupp ümber
+Reset Order: Lähtesta tellimus
 Save: Salvesta
 SAVE: SALVESTA
-Save As...: Salvesta kui...
+Save as...: Salvesta kui...
+Save Mapping: Salvesta kaardistus
 Save Playlist: Salvesta esitusloend
 Save Status: Salvesta olek
+Saved: Salvestatud
 Search channels...: Otsi kanaleid...
 Select a playlist first.: Valige esmalt esitusloend.
 Select Theme: Valige Teema
@@ -119,12 +141,12 @@ Status: Olek
 Stream URL: Voo URL
 Success: Edu
 Support: Toetus
+Target Field: Sihtväli
 Theme picker: Teema valija
 Time: Aeg
 Title: Pealkiri
 Tools: Tööriistad
 TV Guide (EPG): Telekava (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Kaugprojekti failist ei leitud versiooni.
 Update: Värskenda

@@ -1,0 +1,57 @@
+﻿<Window x:Class="LiveGardenTVPlus.Views.JsonImportMappingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Import JSON by Lululla" Height="550" Width="700"
+        WindowStartupLocation="CenterOwner">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="InstructionText" Text="Map JSON properties to channel fields:" FontWeight="Bold" Margin="0,0,0,10"/>
+
+        <!-- Mapping grid -->
+        <DataGrid x:Name="MappingsGrid" Grid.Row="1" AutoGenerateColumns="False" CanUserAddRows="True" CanUserDeleteRows="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="JSON Property" Binding="{Binding SourcePropertyName, UpdateSourceTrigger=PropertyChanged}" Width="2*"/>
+                <DataGridComboBoxColumn Header="Target Field" SelectedItemBinding="{Binding TargetField}" Width="2*">
+                    <DataGridComboBoxColumn.ItemsSource>
+                        <x:Array Type="sys:String" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+                            <sys:String>name</sys:String>
+                            <sys:String>stream_urls</sys:String>
+                            <sys:String>logo_url</sys:String>
+                            <sys:String>group</sys:String>
+                            <sys:String>tvg_id</sys:String>
+                            <sys:String>isFavorite</sys:String>
+                            <sys:String>country</sys:String>
+                            <sys:String>languages</sys:String>
+                            <sys:String>youtube_urls</sys:String>
+                            <sys:String>nanoid</sys:String>
+                            <sys:String>isGeoBlocked</sys:String>
+                        </x:Array>
+                    </DataGridComboBoxColumn.ItemsSource>
+                </DataGridComboBoxColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Preview expander -->
+        <Expander x:Name="PreviewExpander" Grid.Row="2" Margin="0,10,0,0" IsExpanded="False">
+            <Expander.Header>
+                <TextBlock x:Name="PreviewHeaderText" Text="Preview (first 5 channels)"/>
+            </Expander.Header>
+            <ListView x:Name="PreviewListBox" Height="150" Margin="0,5,0,0"/>
+        </Expander>
+
+        <!-- Buttons -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Row="3" Margin="0,15,0,0">
+            <Button x:Name="AutoDetectBtn" Content="Auto-detect" Margin="0,0,10,0" Click="AutoDetectBtn_Click"/>
+            <Button x:Name="AddMappingBtn" Content="Add Mapping" Margin="0,0,10,0" Click="AddMappingBtn_Click"/>
+            <Button x:Name="SaveMappingBtn" Content="Save Mapping" Margin="0,0,10,0" Click="SaveMappingBtn_Click"/>
+            <Button x:Name="ImportBtn" Content="Import" IsDefault="True" Click="ImportBtn_Click"/>
+            <Button x:Name="CancelBtn" Content="Cancel" IsCancel="True" Margin="10,0,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>

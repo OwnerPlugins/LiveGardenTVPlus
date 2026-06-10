@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Una nova versió està d
 About: Sobre
 About TVGarden+: Sobre TVGarden+
 Add Group: Afegeix un grup
+Add Mapping: Afegeix mapeig
 Advanced IDs: Identificadors avançats
-Apply: Aplicar
 Apply changes: Aplicar canvis
+Apply Filters: Aplicar filtres
+Auto-detect: Detecció automàtica
 Buffer (seconds): Buffer (segons)
 Cancel: Cancel·la
 CANCEL: CANCEL·LA
@@ -15,12 +17,12 @@ Channel Details: Detalls del canal
 Channel Info: Informació del canal
 Channel:: Canal:
 channels from: canals de
+channels from JSON URL: canals des de l'URL JSON
 channels from URL: canals des de l'URL
 Check Duplicates: Comproveu els duplicats
 Check for updates: Comproveu si hi ha actualitzacions
 Check URLs: Comproveu els URL
-Clear: Clar
-Close: Tancar
+Clear Filters: Esborra els filtres
 Country: País
 Delete Group: Suprimeix el grup
 Description: Descripció
@@ -32,7 +34,8 @@ Edit Playlist: Edita la llista de reproducció
 Edit URLs: Editeu els URL
 End (local): Final (local)
 Enrich with EPG: Enriquir amb EPG
-Enter M3U URL:: Introduïu l'URL M3U:
+Enter JSON URL:: Introduïu l'URL JSON:
+Enter playlist URL (M3U or JSON):: Introduïu l'URL de la llista de reproducció (M3U o JSON):
 EPG: EPG
 EPG & Favorites: EPG i Preferits
 EPG Matching Threshold: Llindar de concordança EPG
@@ -41,11 +44,12 @@ Error: Error
 Error loading: Error en carregar
 Error loading playlists: {0}: Error en carregar les llistes de reproducció: {0}
 ERROR: player.html not found.: ERROR: player.html no s'ha trobat.
-Export Failed: Ha fallat l'exportació
+Exit: Sortida
 Export Favorites: Exporta els preferits
 Export Filtered JSON: Exporta JSON filtrat
 Export Filtered M3U: Exporta M3U filtrat
 Export JSON: Exporta JSON
+Export KO: Exporta KO
 Export OK: Exporta bé
 Extracting update...: S'està extraient l'actualització...
 Failed to download playlist: No s'ha pogut baixar la llista de reproducció
@@ -59,18 +63,27 @@ GitHub Error: Error de GitHub
 Group: Grup
 Help: Ajuda
 Hide List: Amaga la llista
+Import: Importar
+Import error: {0}: Error d'importació: {0}
+Import from URL: Importa des de l'URL
 Import JSON: Importa JSON
+Import JSON from URL: Importa JSON des de l'URL
+Import Local: Importa local
+Imported {0} channels from JSON.: S'han importat {0} canals de JSON.
+Imported {0} channels from URL.: S'han importat {0} canals des de l'URL.
 Info: Informació
+Invalid JSON: {0}: JSON no vàlid: {0}
 Invalid playlist URL.: L'URL de la llista de reproducció no és vàlid.
 Invalid URL.: URL no vàlid.
+JSON Property: Propietat JSON
 Language: Llengua
 Languages (comma): Idiomes (coma)
 LOAD: CÀRREGA
 Load a playlist first.: Carrega primer una llista de reproducció.
-Load M3U: Carregueu M3U
-Load M3U file from your computer: Carregueu el fitxer M3U des del vostre ordinador
-Load M3U playlist from a web URL: Carregueu la llista de reproducció M3U des d'una URL web
+Load File: Carrega el fitxer
 Load Online: Carrega en línia
+Load playlist file (M3U/JSON) from your computer: Carregueu el fitxer de llista de reproducció (M3U/JSON) des del vostre ordinador
+Load playlist from web URL (M3U or JSON): Carrega la llista de reproducció des de l'URL web (M3U o JSON)
 Loaded: Carregat
 Loading...: Carregant...
 Logo Preview: Vista prèvia del logotip
@@ -78,12 +91,16 @@ Logo URL: Logo URL
 Logos Matching Threshold: Llindar de concordança de logotips
 Logos Source: Font de logotips
 Logos Subfolder: Subcarpeta de logotips
+Map JSON properties to channel fields:: Assigna propietats JSON als camps del canal:
+Mapping saved for future imports of this file.: Mapatge desat per a futures importacions d'aquest fitxer.
 Name: Nom
 Nanoid: Nanoide
 Network error: Error de xarxa
 New Playlist: Nova llista de reproducció
 Next ▶: Següent ▶
 No .m3u files found on GitHub repository.: No s'han trobat fitxers .m3u al repositori de GitHub.
+No channels could be mapped. Check your mapping rules.: No s'ha pogut mapejar cap canal. Comproveu les vostres regles de mapes.
+No channels mapped: No s'ha assignat cap canal
 No duplicate URLs found.: No s'han trobat URL duplicats.
 No favorite channels to export.: No hi ha canals preferits per exportar.
 No playlist found: No s'ha trobat cap llista de reproducció
@@ -96,6 +113,8 @@ Pause/Resume live stream: Posa en pausa/reprèn la reproducció en directe
 Player ready.: Jugador preparat.
 Playlist Editor: Editor de llistes de reproducció
 Please select a program first.: Seleccioneu primer un programa.
+Preview (first 5 channels): Vista prèvia (5 primers canals)
+Preview error: {0}: Error de previsualització: {0}
 Program Details: Detalls del programa
 Recent: Recent
 Recent playlists: Llistes de reproducció recents
@@ -103,11 +122,14 @@ Refresh: Actualitza
 Refresh EPG List: Actualitza la llista EPG
 Refresh from GitHub: Actualitza des de GitHub
 Rename Group: Canvia el nom del grup
+Reset Order: Restableix l'ordre
 Save: Desa
 SAVE: DESA
-Save As...: Desa com a...
+Save as...: Desa com a...
+Save Mapping: Desa la cartografia
 Save Playlist: Desa la llista de reproducció
 Save Status: Desa l'estat
+Saved: Desat
 Search channels...: Cerca canals...
 Select a playlist first.: Seleccioneu primer una llista de reproducció.
 Select Theme: Seleccioneu el tema
@@ -119,12 +141,12 @@ Status: Estat
 Stream URL: URL del flux
 Success: Èxit
 Support: Suport
+Target Field: Camp objectiu
 Theme picker: Selector de temes
 Time: Temps
 Title: Títol
 Tools: Eines
 TV Guide (EPG): Guia de televisió (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: No es pot trobar la versió al fitxer de projecte remot.
 Update: Actualització

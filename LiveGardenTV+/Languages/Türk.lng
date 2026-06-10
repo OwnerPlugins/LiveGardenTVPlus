@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Yeni bir sürüm mevcut.
 About: Hakkında
 About TVGarden+: TVGarden+ Hakkında
 Add Group: Grup Ekle
+Add Mapping: Eşleme Ekle
 Advanced IDs: Gelişmiş Kimlikler
-Apply: Uygula
 Apply changes: Değişiklikleri uygula
+Apply Filters: Filtreleri Uygula
+Auto-detect: Otomatik algılama
 Buffer (seconds): Tampon (saniye)
 Cancel: İptal etmek
 CANCEL: İPTAL ETMEK
@@ -15,12 +17,12 @@ Channel Details: Kanal Detayları
 Channel Info: Kanal Bilgisi
 Channel:: Kanal:
 channels from: gelen kanallar
+channels from JSON URL: JSON URL'sinden kanallar
 channels from URL: URL'den kanallar
 Check Duplicates: Kopyaları Kontrol Et
 Check for updates: Güncellemeleri kontrol edin
 Check URLs: URL'leri kontrol edin
-Clear: Temizlemek
-Close: Kapalı
+Clear Filters: Filtreleri Temizle
 Country: Ülke
 Delete Group: Grubu Sil
 Description: Tanım
@@ -32,7 +34,8 @@ Edit Playlist: Oynatma Listesini Düzenle
 Edit URLs: URL'leri düzenleyin
 End (local): Bitiş (yerel)
 Enrich with EPG: EPG ile zenginleştirin
-Enter M3U URL:: M3U URL'sini girin:
+Enter JSON URL:: JSON URL'sini girin:
+Enter playlist URL (M3U or JSON):: Çalma listesi URL'sini girin (M3U veya JSON):
 EPG: EPG
 EPG & Favorites: EPG ve Favoriler
 EPG Matching Threshold: EPG Eşleştirme Eşiği
@@ -41,11 +44,12 @@ Error: Hata
 Error loading: Yükleme hatası
 Error loading playlists: {0}: Oynatma listeleri yüklenirken hata oluştu: {0}
 ERROR: player.html not found.: HATA: player.html bulunamadı.
-Export Failed: Dışa Aktarma Başarısız
+Exit: Çıkış
 Export Favorites: Favorileri Dışa Aktar
 Export Filtered JSON: Filtrelenmiş JSON'u Dışa Aktar
 Export Filtered M3U: Dışa Aktarma Filtreli M3U
 Export JSON: JSON'u dışa aktar
+Export KO: KO'yu dışa aktar
 Export OK: Dışa aktar Tamam
 Extracting update...: Güncelleme çıkarılıyor...
 Failed to download playlist: Oynatma listesi indirilemedi
@@ -59,18 +63,27 @@ GitHub Error: GitHub Hatası
 Group: Grup
 Help: Yardım
 Hide List: Listeyi Gizle
+Import: İçe aktarmak
+Import error: {0}: İçe aktarma hatası: {0}
+Import from URL: URL'den içe aktar
 Import JSON: JSON'u içe aktar
+Import JSON from URL: JSON'u URL'den içe aktar
+Import Local: Yerel İçe Aktar
+Imported {0} channels from JSON.: {0} kanal JSON'dan içe aktarıldı.
+Imported {0} channels from URL.: {0} kanal URL'den içe aktarıldı.
 Info: Bilgi
+Invalid JSON: {0}: Geçersiz JSON: {0}
 Invalid playlist URL.: Geçersiz oynatma listesi URL'si.
 Invalid URL.: Geçersiz URL.
+JSON Property: JSON Özelliği
 Language: Dil
 Languages (comma): Diller (virgül)
 LOAD: YÜK
 Load a playlist first.: Önce bir çalma listesi yükleyin.
-Load M3U: M3U'yu yükle
-Load M3U file from your computer: M3U dosyasını bilgisayarınızdan yükleyin
-Load M3U playlist from a web URL: M3U çalma listesini bir web URL'sinden yükleyin
+Load File: Dosya Yükle
 Load Online: Çevrimiçi Yükle
+Load playlist file (M3U/JSON) from your computer: Çalma listesi dosyasını (M3U/JSON) bilgisayarınızdan yükleyin
+Load playlist from web URL (M3U or JSON): Çalma listesini web URL'sinden yükleyin (M3U veya JSON)
 Loaded: Yüklendi
 Loading...: Yükleniyor...
 Logo Preview: Logo Önizlemesi
@@ -78,12 +91,16 @@ Logo URL: Logo URL'si
 Logos Matching Threshold: Logo Eşleştirme Eşiği
 Logos Source: Logo Kaynağı
 Logos Subfolder: Logolar Alt Klasörü
+Map JSON properties to channel fields:: JSON özelliklerini kanal alanlarıyla eşleyin:
+Mapping saved for future imports of this file.: Eşleme, bu dosyanın gelecekte içe aktarılması için kaydedildi.
 Name: İsim
 Nanoid: Nanoid
 Network error: Ağ hatası
 New Playlist: Yeni Oynatma Listesi
 Next ▶: Sonraki ▶
 No .m3u files found on GitHub repository.: GitHub deposunda .m3u dosyası bulunamadı.
+No channels could be mapped. Check your mapping rules.: Hiçbir kanal eşleştirilemedi. Eşleme kurallarınızı kontrol edin.
+No channels mapped: Eşlenen kanal yok
 No duplicate URLs found.: Yinelenen URL bulunamadı.
 No favorite channels to export.: Dışa aktarılacak favori kanal yok.
 No playlist found: Oynatma listesi bulunamadı
@@ -96,6 +113,8 @@ Pause/Resume live stream: Canlı yayını duraklatın/devam ettirin
 Player ready.: Oyuncu hazır.
 Playlist Editor: Çalma Listesi Düzenleyicisi
 Please select a program first.: Lütfen önce bir program seçin.
+Preview (first 5 channels): Önizleme (ilk 5 kanal)
+Preview error: {0}: Önizleme hatası: {0}
 Program Details: Program Detayları
 Recent: Son
 Recent playlists: Son oynatma listeleri
@@ -103,11 +122,14 @@ Refresh: Yenile
 Refresh EPG List: EPG Listesini Yenile
 Refresh from GitHub: GitHub'dan yenile
 Rename Group: Grubu Yeniden Adlandır
+Reset Order: Siparişi Sıfırla
 Save: Kaydetmek
 SAVE: KAYDETMEK
-Save As...: Farklı Kaydet...
+Save as...: Farklı kaydet...
+Save Mapping: Eşlemeyi Kaydet
 Save Playlist: Oynatma Listesini Kaydet
 Save Status: Durumu Kaydet
+Saved: Kaydedildi
 Search channels...: Kanal ara...
 Select a playlist first.: Önce bir çalma listesi seçin.
 Select Theme: Tema Seç
@@ -119,12 +141,12 @@ Status: Durum
 Stream URL: Akış URL'si
 Success: Başarı
 Support: Destek
+Target Field: Hedef Alanı
 Theme picker: Tema seçici
 Time: Zaman
 Title: Başlık
 Tools: Aletler
 TV Guide (EPG): TV Rehberi (EPG)
-TVGarden+: TV Bahçesi+
 TvgId: TvgID
 Unable to find version in remote project file.: Uzak proje dosyasında sürüm bulunamıyor.
 Update: Güncelleme

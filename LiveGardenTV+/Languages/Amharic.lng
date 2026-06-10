@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: አዲስ ስሪት አ�
 About: ስለ
 About TVGarden+: ስለ TVGarden+
 Add Group: ቡድን አክል
+Add Mapping: ካርታ ስራን ጨምር
 Advanced IDs: የላቁ መታወቂያዎች
-Apply: ያመልክቱ
 Apply changes: ለውጦችን ይተግብሩ
+Apply Filters: ማጣሪያዎችን ተግብር
+Auto-detect: በራስ-አግኝ
 Buffer (seconds): መያዣ (ሰከንዶች)
 Cancel: ሰርዝ
 CANCEL: ሰርዝ
@@ -15,12 +17,12 @@ Channel Details: የሰርጥ ዝርዝሮች
 Channel Info: የሰርጥ መረጃ
 Channel:: ቻናል፡
 channels from: ቻናሎች ከ
+channels from JSON URL: ቻናሎች ከJSON URL
 channels from URL: ቻናሎች ከዩአርኤል
 Check Duplicates: ብዜቶችን ያረጋግጡ
 Check for updates: ዝማኔዎችን ይመልከቱ
 Check URLs: ዩአርኤሎችን ያረጋግጡ
-Clear: ግልጽ
-Close: ገጠመ
+Clear Filters: ማጣሪያዎችን አጽዳ
 Country: ሀገር
 Delete Group: ቡድንን ሰርዝ
 Description: መግለጫ
@@ -32,7 +34,8 @@ Edit Playlist: አጫዋች ዝርዝር ያርትዑ
 Edit URLs: URLs አርትዕ
 End (local): መጨረሻ (አካባቢያዊ)
 Enrich with EPG: በ EPG ያበልጽጉ
-Enter M3U URL:: M3U URL አስገባ፡
+Enter JSON URL:: JSON URL አስገባ፡
+Enter playlist URL (M3U or JSON):: አጫዋች ዝርዝር URL (M3U ወይም JSON) አስገባ፡
 EPG: ኢ.ፒ.ጂ
 EPG & Favorites: EPG እና ተወዳጆች
 EPG Matching Threshold: EPG ተዛማጅ ገደብ
@@ -41,11 +44,12 @@ Error: ስህተት
 Error loading: በመጫን ላይ ስህተት
 Error loading playlists: {0}: አጫዋች ዝርዝሮችን መጫን ላይ ስህተት: {0}
 ERROR: player.html not found.: ስህተት፡ player.html አልተገኘም።
-Export Failed: ወደ ውጭ መላክ አልተሳካም።
+Exit: ውጣ
 Export Favorites: ተወዳጆችን ወደ ውጪ ላክ
 Export Filtered JSON: የተጣራ JSON ወደ ውጭ ላክ
 Export Filtered M3U: የተጣራ M3U ወደ ውጪ ላክ
 Export JSON: JSON ወደ ውጪ ላክ
+Export KO: KO ወደ ውጭ ላክ
 Export OK: እሺ ወደ ውጭ ላክ
 Extracting update...: ዝማኔን በማውጣት ላይ...
 Failed to download playlist: አጫዋች ዝርዝርን ማውረድ አልተሳካም።
@@ -59,18 +63,27 @@ GitHub Error: GitHub ስህተት
 Group: ቡድን
 Help: እገዛ
 Hide List: ዝርዝር ደብቅ
+Import: አስመጣ
+Import error: {0}: የማስመጣት ስህተት፡ {0}
+Import from URL: ከዩአርኤል አስመጣ
 Import JSON: JSON አስመጣ
+Import JSON from URL: JSON ከዩአርኤል አስመጣ
+Import Local: አካባቢያዊ አስመጣ
+Imported {0} channels from JSON.: ከJSON የመጡ {0} ሰርጦች።
+Imported {0} channels from URL.: ከዩአርኤል የመጡ {0} ሰርጦች።
 Info: መረጃ
+Invalid JSON: {0}: ልክ ያልሆነ JSON፡ {0}
 Invalid playlist URL.: ልክ ያልሆነ የአጫዋች ዝርዝር URL።
 Invalid URL.: ልክ ያልሆነ URL
+JSON Property: JSON ንብረት
 Language: ቋንቋ
 Languages (comma): ቋንቋዎች (ነጠላ ሰረዝ)
 LOAD: ጫን
 Load a playlist first.: መጀመሪያ አጫዋች ዝርዝር ይጫኑ።
-Load M3U: M3U ን ጫን
-Load M3U file from your computer: M3U ፋይልን ከኮምፒዩተርዎ ይጫኑ
-Load M3U playlist from a web URL: M3U አጫዋች ዝርዝርን ከድር ዩአርኤል ጫን
+Load File: ፋይል ጫን
 Load Online: በመስመር ላይ ጫን
+Load playlist file (M3U/JSON) from your computer: አጫዋች ዝርዝር ፋይል (M3U/JSON) ከኮምፒዩተርዎ ይጫኑ
+Load playlist from web URL (M3U or JSON): አጫዋች ዝርዝር ከድር ዩአርኤል (M3U ወይም JSON) ጫን
 Loaded: ተጭኗል
 Loading...: በመጫን ላይ...
 Logo Preview: የአርማ ቅድመ እይታ
@@ -78,12 +91,16 @@ Logo URL: አርማ URL
 Logos Matching Threshold: የሎጎስ ተዛማጅ ገደብ
 Logos Source: የሎጎስ ምንጭ
 Logos Subfolder: የሎጎስ ንዑስ አቃፊ
+Map JSON properties to channel fields:: የJSON ንብረቶችን ወደ ሰርጥ መስኮች ካርታ ያውጡ፡
+Mapping saved for future imports of this file.: ለወደፊቱ የዚህ ፋይል ማስመጣት ካርታ ተቀምጧል።
 Name: ስም
 Nanoid: ናኖይድ
 Network error: የአውታረ መረብ ስህተት
 New Playlist: አዲስ አጫዋች ዝርዝር
 Next ▶: ቀጣይ ▶
 No .m3u files found on GitHub repository.: በ GitHub ማከማቻ ላይ ምንም .m3u ፋይሎች አልተገኙም።
+No channels could be mapped. Check your mapping rules.: ምንም ቻናል ሊቀረጽ አልቻለም። የካርታ ስራ ህጎችዎን ያረጋግጡ።
+No channels mapped: ምንም ካርታ አልተሰራም።
 No duplicate URLs found.: ምንም የተባዙ ዩአርኤሎች አልተገኙም።
 No favorite channels to export.: ወደ ውጭ የሚላኩ ተወዳጅ ቻናሎች የሉም።
 No playlist found: ምንም አጫዋች ዝርዝር አልተገኘም።
@@ -96,6 +113,8 @@ Pause/Resume live stream: የቀጥታ ስርጭት ባለበት አቁም/ከ�
 Player ready.: ተጫዋች ዝግጁ ነው።
 Playlist Editor: የአጫዋች ዝርዝር አርታዒ
 Please select a program first.: እባክዎ መጀመሪያ ፕሮግራም ይምረጡ።
+Preview (first 5 channels): ቅድመ እይታ (የመጀመሪያዎቹ 5 ቻናሎች)
+Preview error: {0}: የቅድመ እይታ ስህተት፡ {0}
 Program Details: የፕሮግራም ዝርዝሮች
 Recent: የቅርብ ጊዜ
 Recent playlists: የቅርብ ጊዜ አጫዋች ዝርዝሮች
@@ -103,11 +122,14 @@ Refresh: አድስ
 Refresh EPG List: የ EPG ዝርዝርን አድስ
 Refresh from GitHub: ከGitHub አድስ
 Rename Group: ቡድን እንደገና ይሰይሙ
+Reset Order: ትዕዛዙን ዳግም አስጀምር
 Save: አስቀምጥ
 SAVE: አስቀምጥ
-Save As...: አስቀምጥ እንደ...
+Save as...: አስቀምጥ እንደ...
+Save Mapping: ካርታ ስራን አስቀምጥ
 Save Playlist: አጫዋች ዝርዝር ያስቀምጡ
 Save Status: ሁኔታን አስቀምጥ
+Saved: ተቀምጧል
 Search channels...: ቻናሎችን ፈልግ...
 Select a playlist first.: መጀመሪያ አጫዋች ዝርዝር ይምረጡ።
 Select Theme: ገጽታ ይምረጡ
@@ -119,12 +141,12 @@ Status: ሁኔታ
 Stream URL: የዥረት URL
 Success: ስኬት
 Support: ድጋፍ
+Target Field: የዒላማ መስክ
 Theme picker: ጭብጥ መራጭ
 Time: ጊዜ
 Title: ርዕስ
 Tools: መሳሪያዎች
 TV Guide (EPG): የቲቪ መመሪያ (EPG)
-TVGarden+: የቲቪ የአትክልት ስፍራ+
 TvgId: TvgId
 Unable to find version in remote project file.: በርቀት የፕሮጀክት ፋይል ውስጥ ስሪት ማግኘት አልተቻለም።
 Update: አዘምን

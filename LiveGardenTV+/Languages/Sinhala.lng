@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: නව අනුවා�
 About: ගැන
 About TVGarden+: TVGarden+ ගැන
 Add Group: කණ්ඩායම එකතු කරන්න
+Add Mapping: සිතියම්කරණය එකතු කරන්න
 Advanced IDs: උසස් හැඳුනුම්පත්
-Apply: අයදුම් කරන්න
 Apply changes: වෙනස්කම් යොදන්න
+Apply Filters: පෙරහන් යොදන්න
+Auto-detect: ස්වයං-අනාවරණය
 Buffer (seconds): බෆරය (තත්පර)
 Cancel: අවලංගු කරන්න
 CANCEL: අවලංගු කරන්න
@@ -15,12 +17,12 @@ Channel Details: නාලිකා විස්තර
 Channel Info: නාලිකා තොරතුරු
 Channel:: නාලිකාව:
 channels from: සිට නාලිකා
+channels from JSON URL: JSON URL වෙතින් නාලිකා
 channels from URL: URL වෙතින් නාලිකා
 Check Duplicates: අනුපිටපත් පරීක්ෂා කරන්න
 Check for updates: යාවත්කාලීන සඳහා පරීක්ෂා කරන්න
 Check URLs: URL පරීක්ෂා කරන්න
-Clear: පැහැදිලියි
-Close: වසන්න
+Clear Filters: පෙරහන් හිස් කරන්න
 Country: රට
 Delete Group: සමූහය මකන්න
 Description: විස්තරය
@@ -32,7 +34,8 @@ Edit Playlist: ධාවන ලැයිස්තුව සංස්කරණය
 Edit URLs: URL සංස්කරණය කරන්න
 End (local): අවසානය (දේශීය)
 Enrich with EPG: EPG සමඟ පොහොසත් කරන්න
-Enter M3U URL:: M3U URL ඇතුලත් කරන්න:
+Enter JSON URL:: JSON URL ඇතුලත් කරන්න:
+Enter playlist URL (M3U or JSON):: ධාවන ලැයිස්තු URL ඇතුලත් කරන්න (M3U හෝ JSON):
 EPG: ඊ.පී.ජී
 EPG & Favorites: EPG සහ ප්රියතම
 EPG Matching Threshold: EPG ගැළපෙන සීමාව
@@ -41,11 +44,12 @@ Error: දෝෂයකි
 Error loading: පූරණය කිරීමේ දෝෂයකි
 Error loading playlists: {0}: ධාවන ලැයිස්තු පූරණය කිරීමේ දෝෂයකි: {0}
 ERROR: player.html not found.: දෝෂය: player.html හමු නොවීය.
-Export Failed: අපනයනය අසාර්ථක විය
+Exit: පිටවීම
 Export Favorites: ප්‍රියතමයන් අපනයනය කරන්න
 Export Filtered JSON: පෙරූ JSON අපනයනය කරන්න
 Export Filtered M3U: පෙරූ M3U අපනයනය කරන්න
 Export JSON: JSON අපනයනය කරන්න
+Export KO: KO අපනයනය කරන්න
 Export OK: අපනයනය හරි
 Extracting update...: යාවත්කාලීනය උපුටා ගනිමින්...
 Failed to download playlist: ධාවන ලැයිස්තුව බාගැනීම අසාර්ථක විය
@@ -59,18 +63,27 @@ GitHub Error: GitHub දෝෂය
 Group: කණ්ඩායම
 Help: උදව්
 Hide List: ලැයිස්තුව සඟවන්න
+Import: ආනයනය කරන්න
+Import error: {0}: ආයාත දෝෂය: {0}
+Import from URL: URL වෙතින් ආයාත කරන්න
 Import JSON: JSON ආයාත කරන්න
+Import JSON from URL: URL වෙතින් JSON ආයාත කරන්න
+Import Local: දේශීය ආනයනය කරන්න
+Imported {0} channels from JSON.: JSON වෙතින් නාලිකා {0}ක් ආයාත කරන ලදී.
+Imported {0} channels from URL.: URL වෙතින් නාලිකා {0}ක් ආයාත කරන ලදී.
 Info: තොරතුරු
+Invalid JSON: {0}: වලංගු නොවන JSON: {0}
 Invalid playlist URL.: වලංගු නොවන ධාවන ලැයිස්තු URL.
 Invalid URL.: වලංගු නොවන URL.
+JSON Property: JSON දේපල
 Language: භාෂාව
 Languages (comma): භාෂා (කොමාව)
 LOAD: පැටවීම
 Load a playlist first.: පළමුව ධාවන ලැයිස්තුවක් පූරණය කරන්න.
-Load M3U: M3U පූරණය කරන්න
-Load M3U file from your computer: ඔබේ පරිගණකයෙන් M3U ගොනුව පූරණය කරන්න
-Load M3U playlist from a web URL: වෙබ් URL එකකින් M3U ධාවන ලැයිස්තුව පූරණය කරන්න
+Load File: ගොනුව පූරණය කරන්න
 Load Online: ඔන්ලයින් ලෝඩ් කරන්න
+Load playlist file (M3U/JSON) from your computer: ඔබගේ පරිගණකයෙන් ධාවන ලැයිස්තු ගොනුව (M3U/JSON) පූරණය කරන්න
+Load playlist from web URL (M3U or JSON): වෙබ් URL (M3U හෝ JSON) වෙතින් ධාවන ලැයිස්තුව පූරණය කරන්න
 Loaded: පටවා ඇත
 Loading...: පූරණය වෙමින්...
 Logo Preview: ලාංඡන පෙරදසුන
@@ -78,12 +91,16 @@ Logo URL: ලාංඡනය URL
 Logos Matching Threshold: ලාංඡන ගැළපෙන එළිපත්ත
 Logos Source: ලාංඡන මූලාශ්රය
 Logos Subfolder: ලාංඡන උප ෆෝල්ඩරය
+Map JSON properties to channel fields:: JSON ගුණාංග නාලිකා ක්ෂේත්‍ර වෙත සිතියම්ගත කරන්න:
+Mapping saved for future imports of this file.: මෙම ගොනුවේ අනාගත ආයාත කිරීම් සඳහා සිතියම්ගත කිරීම සුරකින ලදී.
 Name: නම
 Nanoid: නැනොයිඩ්
 Network error: ජාල දෝෂයකි
 New Playlist: නව ධාවන ලැයිස්තුව
 Next ▶: ඊළඟ ▶
 No .m3u files found on GitHub repository.: GitHub ගබඩාවේ .m3u ගොනු හමු නොවීය.
+No channels could be mapped. Check your mapping rules.: නාලිකා සිතියම්ගත කළ නොහැක. ඔබගේ සිතියම්කරණ රීති පරීක්ෂා කරන්න.
+No channels mapped: සිතියම්ගත කළ නාලිකා නොමැත
 No duplicate URLs found.: අනුපිටපත් URL හමු නොවීය.
 No favorite channels to export.: නිර්යාත කිරීමට ප්‍රියතම නාලිකා නැත.
 No playlist found: ධාවන ලැයිස්තුවක් හමු නොවීය
@@ -96,6 +113,8 @@ Pause/Resume live stream: සජීවී ප්‍රවාහය විරා�
 Player ready.: ක්රීඩකයා සූදානම්.
 Playlist Editor: ධාවන ලැයිස්තු සංස්කාරකය
 Please select a program first.: කරුණාකර පළමුව වැඩසටහනක් තෝරන්න.
+Preview (first 5 channels): පෙරදසුන (පළමු නාලිකා 5)
+Preview error: {0}: පෙරදසුන් දෝෂය: {0}
 Program Details: වැඩසටහන් විස්තර
 Recent: මෑත
 Recent playlists: මෑත ධාවන ලැයිස්තු
@@ -103,11 +122,14 @@ Refresh: නැවුම් කරන්න
 Refresh EPG List: EPG ලැයිස්තුව නැවුම් කරන්න
 Refresh from GitHub: GitHub වෙතින් නැවුම් කරන්න
 Rename Group: සමූහය නැවත නම් කරන්න
+Reset Order: ඇණවුම නැවත සකසන්න
 Save: සුරකින්න
 SAVE: සුරකින්න
-Save As...: ලෙස සුරකින්න...
+Save as...: ලෙස සුරකින්න...
+Save Mapping: සිතියම්කරණය සුරකින්න
 Save Playlist: ධාවන ලැයිස්තුව සුරකින්න
 Save Status: තත්ත්වය සුරකින්න
+Saved: සුරකින ලදී
 Search channels...: නාලිකා සොයන්න...
 Select a playlist first.: පළමුව ධාවන ලැයිස්තුවක් තෝරන්න.
 Select Theme: තේමාව තෝරන්න
@@ -119,12 +141,12 @@ Status: තත්ත්වය
 Stream URL: ප්‍රවාහ URL
 Success: සාර්ථකත්වය
 Support: සහාය
+Target Field: ඉලක්ක ක්ෂේත්රය
 Theme picker: තේමා තේරීම
 Time: කාලය
 Title: මාතෘකාව
 Tools: මෙවලම්
 TV Guide (EPG): රූපවාහිනී මාර්ගෝපදේශය (EPG)
-TVGarden+: රූපවාහිනී උද්‍යානය +
 TvgId: TvgId
 Unable to find version in remote project file.: දුරස්ථ ව්‍යාපෘති ගොනුවේ අනුවාදය සොයා ගැනීමට නොහැක.
 Update: යාවත්කාලීන කරන්න

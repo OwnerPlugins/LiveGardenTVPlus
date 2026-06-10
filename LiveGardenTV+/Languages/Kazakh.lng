@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Жаңа нұсқасы 
 About: туралы
 About TVGarden+: TVGarden+ туралы
 Add Group: Топ қосу
+Add Mapping: Карталауды қосу
 Advanced IDs: Жетілдірілген идентификаторлар
-Apply: Қолдану
 Apply changes: Өзгерістерді қолдану
+Apply Filters: Сүзгілерді қолдану
+Auto-detect: Автоматты анықтау
 Buffer (seconds): Буфер (секунд)
 Cancel: Болдырмау
 CANCEL: БАС ТАРТУ
@@ -15,12 +17,12 @@ Channel Details: Арна мәліметтері
 Channel Info: Арна ақпараты
 Channel:: Арна:
 channels from: бастап арналар
+channels from JSON URL: JSON URL мекенжайынан арналар
 channels from URL: URL мекенжайынан арналар
 Check Duplicates: Көшірмелерді тексеріңіз
 Check for updates: Жаңартуларды тексеріңіз
 Check URLs: URL мекенжайларын тексеріңіз
-Clear: Таза
-Close: Жабу
+Clear Filters: Сүзгілерді тазалау
 Country: Ел
 Delete Group: Топты жою
 Description: Сипаттама
@@ -32,7 +34,8 @@ Edit Playlist: Ойнату тізімін өңдеу
 Edit URLs: URL мекенжайларын өңдеу
 End (local): Соңы (жергілікті)
 Enrich with EPG: EPG-мен байытыңыз
-Enter M3U URL:: M3U URL мекенжайын енгізіңіз:
+Enter JSON URL:: JSON URL мекенжайын енгізіңіз:
+Enter playlist URL (M3U or JSON):: Ойнату тізімінің URL мекенжайын енгізіңіз (M3U немесе JSON):
 EPG: EPG
 EPG & Favorites: EPG және таңдаулылар
 EPG Matching Threshold: EPG сәйкестік шегі
@@ -41,11 +44,12 @@ Error: Қате
 Error loading: Жүктеу қатесі
 Error loading playlists: {0}: Ойнату тізімдерін жүктеу қатесі: {0}
 ERROR: player.html not found.: ҚАТЕ: player.html табылмады.
-Export Failed: Экспорттау орындалмады
+Exit: Шығу
 Export Favorites: Таңдаулыларды экспорттау
 Export Filtered JSON: Сүзілген JSON экспорттау
 Export Filtered M3U: Фильтрленген M3U экспорттау
 Export JSON: JSON экспорттау
+Export KO: КО экспорттау
 Export OK: Экспорт жарайды
 Extracting update...: Жаңарту шығарылуда...
 Failed to download playlist: Ойнату тізімі жүктелмеді
@@ -59,18 +63,27 @@ GitHub Error: GitHub қатесі
 Group: Топ
 Help: Көмек
 Hide List: Тізімді жасыру
+Import: Импорттау
+Import error: {0}: Импорт қатесі: {0}
+Import from URL: URL мекенжайынан импорттау
 Import JSON: JSON импорттау
+Import JSON from URL: URL мекенжайынан JSON импорттау
+Import Local: Жергілікті импорттау
+Imported {0} channels from JSON.: JSON ішінен {0} арна импортталды.
+Imported {0} channels from URL.: URL мекенжайынан {0} арна импортталды.
 Info: Ақпарат
+Invalid JSON: {0}: Жарамсыз JSON: {0}
 Invalid playlist URL.: Жарамсыз ойнату тізімінің URL мекенжайы.
 Invalid URL.: Жарамсыз URL.
+JSON Property: JSON қасиеті
 Language: Тіл
 Languages (comma): Тілдер (үтір)
 LOAD: ЖҮКТЕМЕ
 Load a playlist first.: Алдымен ойнату тізімін жүктеңіз.
-Load M3U: M3U жүктеңіз
-Load M3U file from your computer: M3U файлын компьютерден жүктеңіз
-Load M3U playlist from a web URL: M3U ойнату тізімін веб-URL мекенжайынан жүктеңіз
+Load File: Файлды жүктеу
 Load Online: Онлайн жүктеңіз
+Load playlist file (M3U/JSON) from your computer: Ойнату тізімі файлын (M3U/JSON) компьютерден жүктеңіз
+Load playlist from web URL (M3U or JSON): Ойнату тізімін веб URL мекенжайынан жүктеңіз (M3U немесе JSON)
 Loaded: Жүктелді
 Loading...: Жүктелуде...
 Logo Preview: Логотипті алдын ала қарау
@@ -78,12 +91,16 @@ Logo URL: Логотип URL
 Logos Matching Threshold: Логотиптердің сәйкес келу шегі
 Logos Source: Логотиптер көзі
 Logos Subfolder: Логотиптер ішкі қалтасы
+Map JSON properties to channel fields:: JSON сипаттарын арна өрістеріне салыстыру:
+Mapping saved for future imports of this file.: Бұл файлды болашақ импорттау үшін салыстыру сақталды.
 Name: Аты
 Nanoid: Наноид
 Network error: Желі қатесі
 New Playlist: Жаңа ойнату тізімі
 Next ▶: Келесі ▶
 No .m3u files found on GitHub repository.: GitHub репозиторийінде .m3u файлдары табылмады.
+No channels could be mapped. Check your mapping rules.: Ешбір арнаны салыстыру мүмкін болмады. Карта жасау ережелерін тексеріңіз.
+No channels mapped: Ешбір арна картаға салынбаған
 No duplicate URLs found.: Қайталанатын URL мекенжайлары табылмады.
 No favorite channels to export.: Экспортталатын таңдаулы арналар жоқ.
 No playlist found: Ойнату тізімі табылмады
@@ -96,6 +113,8 @@ Pause/Resume live stream: Тікелей трансляцияны кідірту
 Player ready.: Ойыншы дайын.
 Playlist Editor: Ойнату тізімі редакторы
 Please select a program first.: Алдымен бағдарламаны таңдаңыз.
+Preview (first 5 channels): Алдын ала қарау (алғашқы 5 арна)
+Preview error: {0}: Алдын ала қарау қатесі: {0}
 Program Details: Бағдарлама мәліметтері
 Recent: Соңғы
 Recent playlists: Соңғы ойнату тізімдері
@@ -103,11 +122,14 @@ Refresh: Жаңарту
 Refresh EPG List: EPG тізімін жаңарту
 Refresh from GitHub: GitHub жүйесінен жаңартыңыз
 Rename Group: Топтың атын өзгерту
+Reset Order: Тапсырысты қалпына келтіру
 Save: Сақтау
 SAVE: САҚТАУ
-Save As...: Басқаша сақтау...
+Save as...: Басқаша сақтау...
+Save Mapping: Карталарды сақтау
 Save Playlist: Ойнату тізімін сақтау
 Save Status: Күйді сақтау
+Saved: Сақталды
 Search channels...: Арналарды іздеу...
 Select a playlist first.: Алдымен ойнату тізімін таңдаңыз.
 Select Theme: Тақырыпты таңдаңыз
@@ -119,12 +141,12 @@ Status: Күй
 Stream URL: Ағын URL
 Success: Сәттілік
 Support: Қолдау
+Target Field: Мақсатты өріс
 Theme picker: Тақырып таңдаушы
 Time: Уақыт
 Title: Тақырып
 Tools: Құралдар
 TV Guide (EPG): Теледидар нұсқаулығы (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Қашықтағы жоба файлында нұсқаны табу мүмкін емес.
 Update: Жаңарту

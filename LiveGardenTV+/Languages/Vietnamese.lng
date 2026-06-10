@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Một phiên bản mới
 About: Về
 About TVGarden+: Giới thiệu về TVGarden+
 Add Group: Thêm nhóm
+Add Mapping: Thêm bản đồ
 Advanced IDs: ID nâng cao
-Apply: Áp dụng
 Apply changes: Áp dụng thay đổi
+Apply Filters: Áp dụng bộ lọc
+Auto-detect: Tự động phát hiện
 Buffer (seconds): Bộ đệm (giây)
 Cancel: Hủy bỏ
 CANCEL: HỦY BỎ
@@ -15,12 +17,12 @@ Channel Details: Chi tiết kênh
 Channel Info: Thông tin kênh
 Channel:: Kênh:
 channels from: kênh từ
+channels from JSON URL: kênh từ URL JSON
 channels from URL: kênh từ URL
 Check Duplicates: Kiểm tra trùng lặp
 Check for updates: Kiểm tra các bản cập nhật
 Check URLs: Kiểm tra URL
-Clear: Thông thoáng
-Close: Đóng
+Clear Filters: Xóa bộ lọc
 Country: Quốc gia
 Delete Group: Xóa nhóm
 Description: Sự miêu tả
@@ -32,7 +34,8 @@ Edit Playlist: Chỉnh sửa danh sách phát
 Edit URLs: Chỉnh sửa URL
 End (local): Kết thúc (địa phương)
 Enrich with EPG: Làm giàu với EPG
-Enter M3U URL:: Nhập URL M3U:
+Enter JSON URL:: Nhập URL JSON:
+Enter playlist URL (M3U or JSON):: Nhập URL danh sách phát (M3U hoặc JSON):
 EPG: EPG
 EPG & Favorites: EPG & Mục yêu thích
 EPG Matching Threshold: Ngưỡng phù hợp EPG
@@ -41,11 +44,12 @@ Error: Lỗi
 Error loading: Lỗi tải
 Error loading playlists: {0}: Lỗi tải danh sách phát: {0}
 ERROR: player.html not found.: LỖI: không tìm thấy player.html.
-Export Failed: Xuất không thành công
+Exit: Ra
 Export Favorites: Xuất mục yêu thích
 Export Filtered JSON: Xuất JSON đã lọc
 Export Filtered M3U: Xuất M3U đã lọc
 Export JSON: Xuất JSON
+Export KO: Xuất khẩu KO
 Export OK: Xuất được rồi
 Extracting update...: Đang trích xuất bản cập nhật...
 Failed to download playlist: Không tải được danh sách phát xuống
@@ -59,18 +63,27 @@ GitHub Error: Lỗi GitHub
 Group: Nhóm
 Help: Giúp đỡ
 Hide List: Ẩn danh sách
+Import: Nhập khẩu
+Import error: {0}: Lỗi nhập: {0}
+Import from URL: Nhập từ URL
 Import JSON: Nhập JSON
+Import JSON from URL: Nhập JSON từ URL
+Import Local: Nhập địa phương
+Imported {0} channels from JSON.: Đã nhập {0} kênh từ JSON.
+Imported {0} channels from URL.: Đã nhập {0} kênh từ URL.
 Info: Thông tin
+Invalid JSON: {0}: JSON không hợp lệ: {0}
 Invalid playlist URL.: URL danh sách phát không hợp lệ.
 Invalid URL.: URL không hợp lệ.
+JSON Property: Thuộc tính JSON
 Language: Ngôn ngữ
 Languages (comma): Ngôn ngữ (dấu phẩy)
 LOAD: TRỌNG TẢI
 Load a playlist first.: Tải danh sách phát trước.
-Load M3U: Tải M3U
-Load M3U file from your computer: Tải tệp M3U từ máy tính của bạn
-Load M3U playlist from a web URL: Tải danh sách phát M3U từ URL web
+Load File: Tải tập tin
 Load Online: Tải trực tuyến
+Load playlist file (M3U/JSON) from your computer: Tải tệp danh sách phát (M3U/JSON) từ máy tính của bạn
+Load playlist from web URL (M3U or JSON): Tải danh sách phát từ URL web (M3U hoặc JSON)
 Loaded: Đã tải
 Loading...: Đang tải...
 Logo Preview: Xem trước biểu trưng
@@ -78,12 +91,16 @@ Logo URL: URL biểu tượng
 Logos Matching Threshold: Ngưỡng phù hợp với biểu tượng
 Logos Source: Nguồn logo
 Logos Subfolder: Thư mục con Logos
+Map JSON properties to channel fields:: Ánh xạ các thuộc tính JSON vào các trường kênh:
+Mapping saved for future imports of this file.: Bản đồ được lưu để nhập tệp này trong tương lai.
 Name: Tên
 Nanoid: Nanoid
 Network error: Lỗi mạng
 New Playlist: Danh sách phát mới
 Next ▶: Tiếp theo ►
 No .m3u files found on GitHub repository.: Không tìm thấy tệp .m3u trên kho GitHub.
+No channels could be mapped. Check your mapping rules.: Không có kênh nào có thể được ánh xạ. Kiểm tra quy tắc lập bản đồ của bạn.
+No channels mapped: Không có kênh nào được ánh xạ
 No duplicate URLs found.: Không tìm thấy URL trùng lặp.
 No favorite channels to export.: Không có kênh yêu thích nào để xuất.
 No playlist found: Không tìm thấy danh sách phát nào
@@ -96,6 +113,8 @@ Pause/Resume live stream: Tạm dừng/Tiếp tục phát trực tiếp
 Player ready.: Người chơi đã sẵn sàng.
 Playlist Editor: Trình chỉnh sửa danh sách phát
 Please select a program first.: Vui lòng chọn một chương trình đầu tiên.
+Preview (first 5 channels): Xem trước (5 kênh đầu tiên)
+Preview error: {0}: Lỗi xem trước: {0}
 Program Details: Chi tiết chương trình
 Recent: Gần đây
 Recent playlists: Danh sách phát gần đây
@@ -103,11 +122,14 @@ Refresh: Làm cho khỏe lại
 Refresh EPG List: Làm mới danh sách EPG
 Refresh from GitHub: Làm mới từ GitHub
 Rename Group: Đổi tên nhóm
+Reset Order: Đặt lại thứ tự
 Save: Cứu
 SAVE: CỨU
-Save As...: Lưu dưới dạng...
+Save as...: Lưu dưới dạng...
+Save Mapping: Lưu bản đồ
 Save Playlist: Lưu danh sách phát
 Save Status: Lưu trạng thái
+Saved: Đã lưu
 Search channels...: Tìm kiếm kênh...
 Select a playlist first.: Chọn danh sách phát trước.
 Select Theme: Chọn chủ đề
@@ -119,12 +141,12 @@ Status: Trạng thái
 Stream URL: URL luồng
 Success: Thành công
 Support: Ủng hộ
+Target Field: Trường mục tiêu
 Theme picker: Bộ chọn chủ đề
 Time: Thời gian
 Title: Tiêu đề
 Tools: Công cụ
 TV Guide (EPG): Hướng dẫn truyền hình (EPG)
-TVGarden+: Vườn TV+
 TvgId: Id Tvg
 Unable to find version in remote project file.: Không thể tìm thấy phiên bản trong tệp dự án từ xa.
 Update: Cập nhật

@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: K dispozícii je nová v
 About: O
 About TVGarden+: O TVGarden+
 Add Group: Pridať skupinu
+Add Mapping: Pridať mapovanie
 Advanced IDs: Rozšírené ID
-Apply: Použiť
 Apply changes: Použiť zmeny
+Apply Filters: Použiť filtre
+Auto-detect: Automatická detekcia
 Buffer (seconds): Vyrovnávacia pamäť (sekundy)
 Cancel: Zrušiť
 CANCEL: ZRUŠIŤ
@@ -15,12 +17,12 @@ Channel Details: Podrobnosti kanála
 Channel Info: Informácie o kanáli
 Channel:: kanál:
 channels from: kanály z
+channels from JSON URL: kanály z adresy URL JSON
 channels from URL: kanálov z adresy URL
 Check Duplicates: Začiarknite políčko Duplikáty
 Check for updates: Skontrolujte aktualizácie
 Check URLs: Skontrolujte adresy URL
-Clear: Jasné
-Close: Zavrieť
+Clear Filters: Vymazať filtre
 Country: Krajina
 Delete Group: Odstrániť skupinu
 Description: Popis
@@ -32,7 +34,8 @@ Edit Playlist: Upraviť zoznam skladieb
 Edit URLs: Upravte adresy URL
 End (local): Koniec (miestne)
 Enrich with EPG: Obohaťte o EPG
-Enter M3U URL:: Zadajte adresu URL M3U:
+Enter JSON URL:: Zadajte webovú adresu JSON:
+Enter playlist URL (M3U or JSON):: Zadajte webovú adresu zoznamu videí (M3U alebo JSON):
 EPG: EPG
 EPG & Favorites: EPG a obľúbené
 EPG Matching Threshold: EPG Matching Threshold
@@ -41,11 +44,12 @@ Error: Chyba
 Error loading: Chyba pri načítavaní
 Error loading playlists: {0}: Chyba pri načítavaní zoznamov skladieb: {0}
 ERROR: player.html not found.: CHYBA: player.html sa nenašiel.
-Export Failed: Export zlyhal
+Exit: VÝCHOD
 Export Favorites: Exportovať obľúbené položky
 Export Filtered JSON: Exportujte filtrovaný JSON
 Export Filtered M3U: Exportovať filtrované M3U
 Export JSON: Exportujte JSON
+Export KO: Vývoz KO
 Export OK: Export OK
 Extracting update...: Extrahuje sa aktualizácia...
 Failed to download playlist: Sťahovanie zoznamu skladieb zlyhalo
@@ -59,18 +63,27 @@ GitHub Error: Chyba GitHub
 Group: Skupina
 Help: Pomoc
 Hide List: Skryť zoznam
+Import: Importovať
+Import error: {0}: Chyba importu: {0}
+Import from URL: Importovať z adresy URL
 Import JSON: Importujte JSON
+Import JSON from URL: Importujte JSON z adresy URL
+Import Local: Importovať miestne
+Imported {0} channels from JSON.: Importované kanály ({0}) z JSON.
+Imported {0} channels from URL.: Počet importovaných kanálov z adresy URL: {0}.
 Info: Info
+Invalid JSON: {0}: Neplatný JSON: {0}
 Invalid playlist URL.: Neplatná adresa URL zoznamu videí.
 Invalid URL.: Neplatná adresa URL.
+JSON Property: Vlastnosť JSON
 Language: Jazyk
 Languages (comma): jazyky (čiarka)
 LOAD: LOAD
 Load a playlist first.: Najprv načítajte zoznam skladieb.
-Load M3U: Načítať M3U
-Load M3U file from your computer: Načítajte súbor M3U z počítača
-Load M3U playlist from a web URL: Načítajte zoznam skladieb M3U z webovej adresy URL
+Load File: Načítať súbor
 Load Online: Načítať online
+Load playlist file (M3U/JSON) from your computer: Načítajte súbor zoznamu skladieb (M3U/JSON) z počítača
+Load playlist from web URL (M3U or JSON): Načítať zoznam skladieb z webovej adresy URL (M3U alebo JSON)
 Loaded: Nabité
 Loading...: Načítava sa...
 Logo Preview: Ukážka loga
@@ -78,12 +91,16 @@ Logo URL: Adresa URL loga
 Logos Matching Threshold: Logos Matching Threshold
 Logos Source: Zdroj loga
 Logos Subfolder: Podpriečinok Logos
+Map JSON properties to channel fields:: Mapujte vlastnosti JSON na polia kanála:
+Mapping saved for future imports of this file.: Mapovanie uložené pre budúce importy tohto súboru.
 Name: Meno
 Nanoid: Nanoid
 Network error: Chyba siete
 New Playlist: Nový zoznam skladieb
 Next ▶: Ďalej ▶
 No .m3u files found on GitHub repository.: V úložisku GitHub sa nenašli žiadne súbory .m3u.
+No channels could be mapped. Check your mapping rules.: Nepodarilo sa namapovať žiadne kanály. Skontrolujte svoje pravidlá mapovania.
+No channels mapped: Nie sú namapované žiadne kanály
 No duplicate URLs found.: Nenašli sa žiadne duplicitné adresy URL.
 No favorite channels to export.: Žiadne obľúbené kanály na export.
 No playlist found: Nenašli sa žiadne zoznamy skladieb
@@ -96,6 +113,8 @@ Pause/Resume live stream: Pozastaviť/obnoviť priamy prenos
 Player ready.: Hráč pripravený.
 Playlist Editor: Editor zoznamu skladieb
 Please select a program first.: Najprv vyberte program.
+Preview (first 5 channels): Ukážka (prvých 5 kanálov)
+Preview error: {0}: Chyba ukážky: {0}
 Program Details: Podrobnosti o programe
 Recent: Nedávne
 Recent playlists: Nedávne zoznamy skladieb
@@ -103,11 +122,14 @@ Refresh: Obnoviť
 Refresh EPG List: Obnoviť zoznam EPG
 Refresh from GitHub: Obnoviť z GitHub
 Rename Group: Premenovať skupinu
+Reset Order: Obnoviť objednávku
 Save: Uložiť
 SAVE: ULOŽIŤ
-Save As...: Uložiť ako...
+Save as...: Uložiť ako...
+Save Mapping: Uložiť mapovanie
 Save Playlist: Uložiť zoznam skladieb
 Save Status: Uložiť stav
+Saved: Uložené
 Search channels...: Hľadať kanály...
 Select a playlist first.: Najprv vyberte zoznam skladieb.
 Select Theme: Vyberte tému
@@ -119,12 +141,12 @@ Status: Stav
 Stream URL: Webová adresa streamu
 Success: Úspech
 Support: Podpora
+Target Field: Cieľové pole
 Theme picker: Výber tém
 Time: Čas
 Title: Názov
 Tools: Nástroje
 TV Guide (EPG): TV sprievodca (EPG)
-TVGarden+: TV Záhrada+
 TvgId: TvgId
 Unable to find version in remote project file.: Nie je možné nájsť verziu vo vzdialenom súbore projektu.
 Update: Aktualizovať

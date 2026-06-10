@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: ხელმისაწ
 About: შესახებ
 About TVGarden+: TVGarden+-ის შესახებ
 Add Group: ჯგუფის დამატება
+Add Mapping: რუკების დამატება
 Advanced IDs: გაფართოებული პირადობის მოწმობები
-Apply: მიმართეთ
 Apply changes: ცვლილებების გამოყენება
+Apply Filters: ფილტრების გამოყენება
+Auto-detect: ავტომატური ამოცნობა
 Buffer (seconds): ბუფერი (წამი)
 Cancel: გაუქმება
 CANCEL: გაუქმება
@@ -15,12 +17,12 @@ Channel Details: არხის დეტალები
 Channel Info: არხის ინფორმაცია
 Channel:: არხი:
 channels from: არხებიდან
+channels from JSON URL: არხები JSON URL-დან
 channels from URL: არხები URL-დან
 Check Duplicates: შეამოწმეთ დუბლიკატები
 Check for updates: შეამოწმეთ განახლებები
 Check URLs: შეამოწმეთ URL-ები
-Clear: წმინდა
-Close: დახურვა
+Clear Filters: ფილტრების გასუფთავება
 Country: ქვეყანა
 Delete Group: ჯგუფის წაშლა
 Description: აღწერა
@@ -32,7 +34,8 @@ Edit Playlist: დასაკრავი სიის რედაქტირ
 Edit URLs: URL-ების რედაქტირება
 End (local): დასასრული (ადგილობრივი)
 Enrich with EPG: გამდიდრდით EPG-ით
-Enter M3U URL:: შეიყვანეთ M3U URL:
+Enter JSON URL:: შეიყვანეთ JSON URL:
+Enter playlist URL (M3U or JSON):: შეიყვანეთ დასაკრავი სიის URL (M3U ან JSON):
 EPG: EPG
 EPG & Favorites: EPG და ფავორიტები
 EPG Matching Threshold: EPG შესატყვისი ბარიერი
@@ -41,11 +44,12 @@ Error: შეცდომა
 Error loading: შეცდომა ჩატვირთვისას
 Error loading playlists: {0}: შეცდომა დასაკრავი სიების ჩატვირთვისას: {0}
 ERROR: player.html not found.: შეცდომა: player.html ვერ მოიძებნა.
-Export Failed: ექსპორტი ვერ მოხერხდა
+Exit: გასვლა
 Export Favorites: რჩეულების ექსპორტი
 Export Filtered JSON: გაფილტრული JSON-ის ექსპორტი
 Export Filtered M3U: გაფილტრული M3U ექსპორტი
 Export JSON: JSON-ის ექსპორტი
+Export KO: ექსპორტი KO
 Export OK: ექსპორტი OK
 Extracting update...: მიმდინარეობს განახლების ამოღება...
 Failed to download playlist: დასაკრავი სიის ჩამოტვირთვა ვერ მოხერხდა
@@ -59,18 +63,27 @@ GitHub Error: GitHub შეცდომა
 Group: ჯგუფი
 Help: დახმარება
 Hide List: სიის დამალვა
+Import: იმპორტი
+Import error: {0}: იმპორტის შეცდომა: {0}
+Import from URL: URL-დან იმპორტი
 Import JSON: JSON იმპორტი
+Import JSON from URL: JSON-ის იმპორტი URL-დან
+Import Local: ადგილობრივი იმპორტი
+Imported {0} channels from JSON.: იმპორტირებულია {0} არხი JSON-დან.
+Imported {0} channels from URL.: იმპორტირებულია {0} არხი URL-დან.
 Info: ინფორმაცია
+Invalid JSON: {0}: არასწორი JSON: {0}
 Invalid playlist URL.: დასაკრავი სიის URL არასწორია.
 Invalid URL.: არასწორი URL.
+JSON Property: JSON საკუთრება
 Language: ენა
 Languages (comma): ენები (მძიმით)
 LOAD: LOAD
 Load a playlist first.: ჯერ ჩატვირთეთ დასაკრავი სია.
-Load M3U: ჩატვირთეთ M3U
-Load M3U file from your computer: ჩატვირთეთ M3U ფაილი თქვენი კომპიუტერიდან
-Load M3U playlist from a web URL: ჩატვირთეთ M3U დასაკრავი სია ვებ URL-დან
+Load File: Load File
 Load Online: ჩატვირთეთ ონლაინ
+Load playlist file (M3U/JSON) from your computer: ჩატვირთეთ დასაკრავი სიის ფაილი (M3U/JSON) თქვენი კომპიუტერიდან
+Load playlist from web URL (M3U or JSON): დასაკრავი სიის ჩატვირთვა ვებ URL-დან (M3U ან JSON)
 Loaded: დატვირთული
 Loading...: იტვირთება...
 Logo Preview: ლოგოს გადახედვა
@@ -78,12 +91,16 @@ Logo URL: ლოგოს URL
 Logos Matching Threshold: ლოგოს შესატყვისი ბარიერი
 Logos Source: ლოგოს წყარო
 Logos Subfolder: ლოგოს ქვესაქაღალდე
+Map JSON properties to channel fields:: JSON-ის თვისებების არხის ველებზე მორგება:
+Mapping saved for future imports of this file.: რუკა შენახულია ამ ფაილის მომავალი იმპორტისთვის.
 Name: სახელი
 Nanoid: ნანოიდი
 Network error: ქსელის შეცდომა
 New Playlist: ახალი დასაკრავი სია
 Next ▶: შემდეგი ▶
 No .m3u files found on GitHub repository.: GitHub საცავში .m3u ფაილები არ მოიძებნა.
+No channels could be mapped. Check your mapping rules.: ვერცერთი არხი ვერ მოხერხდა. შეამოწმეთ თქვენი რუკების წესები.
+No channels mapped: არხები არ არის მითითებული
 No duplicate URLs found.: დუბლიკატი URL ვერ მოიძებნა.
 No favorite channels to export.: არ არის საყვარელი არხები ექსპორტისთვის.
 No playlist found: დასაკრავი სია ვერ მოიძებნა
@@ -96,6 +113,8 @@ Pause/Resume live stream: პირდაპირი სტრიმინგ�
 Player ready.: მოთამაშე მზადაა.
 Playlist Editor: დასაკრავი სიის რედაქტორი
 Please select a program first.: გთხოვთ, ჯერ აირჩიოთ პროგრამა.
+Preview (first 5 channels): გადახედვა (პირველი 5 არხი)
+Preview error: {0}: გადახედვის შეცდომა: {0}
 Program Details: პროგრამის დეტალები
 Recent: ბოლო
 Recent playlists: ბოლო დასაკრავი სიები
@@ -103,11 +122,14 @@ Refresh: განაახლეთ
 Refresh EPG List: განაახლეთ EPG სია
 Refresh from GitHub: განახლება GitHub-დან
 Rename Group: ჯგუფის გადარქმევა
+Reset Order: შეკვეთის გადატვირთვა
 Save: შენახვა
 SAVE: შენახვა
-Save As...: შენახვა როგორც...
+Save as...: შენახვა როგორც...
+Save Mapping: რუკების შენახვა
 Save Playlist: დასაკრავი სიის შენახვა
 Save Status: სტატუსის შენახვა
+Saved: შენახულია
 Search channels...: არხების ძიება...
 Select a playlist first.: ჯერ აირჩიეთ დასაკრავი სია.
 Select Theme: აირჩიეთ თემა
@@ -119,12 +141,12 @@ Status: სტატუსი
 Stream URL: ნაკადის URL
 Success: წარმატებები
 Support: მხარდაჭერა
+Target Field: სამიზნე ველი
 Theme picker: თემის ამომრჩევი
 Time: დრო
 Title: სათაური
 Tools: ხელსაწყოები
 TV Guide (EPG): სატელევიზიო გზამკვლევი (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: დისტანციური პროექტის ფაილში ვერსიის პოვნა შეუძლებელია.
 Update: განახლება

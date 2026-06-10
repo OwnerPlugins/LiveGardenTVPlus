@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: یوه نوې نسخه �
 About: په اړه
 About TVGarden+: د TVGarden+ په اړه
 Add Group: ګروپ اضافه کړئ
+Add Mapping: نقشه اضافه کړئ
 Advanced IDs: پرمختللي IDs
-Apply: درخواست وکړئ
 Apply changes: بدلونونه پلي کړئ
+Apply Filters: فلټرونه پلي کړئ
+Auto-detect: په اتوماتيک ډول کشف
 Buffer (seconds): بفر (ثانوي)
 Cancel: لغوه کړئ
 CANCEL: لغوه کول
@@ -15,12 +17,12 @@ Channel Details: د چینل تفصیلات
 Channel Info: د چینل معلومات
 Channel:: چینل:
 channels from: له چینلونو څخه
+channels from JSON URL: د JSON URL څخه چینلونه
 channels from URL: د URL څخه چینلونه
 Check Duplicates: نقلونه چیک کړئ
 Check for updates: د تازه معلوماتو لپاره وګورئ
 Check URLs: URLs چیک کړئ
-Clear: روښانه
-Close: تړل
+Clear Filters: فلټرونه پاک کړئ
 Country: هیواد
 Delete Group: ګروپ ړنګ کړئ
 Description: تفصیل
@@ -32,7 +34,8 @@ Edit Playlist: پلی لیست سمول
 Edit URLs: URLs ایډیټ کړئ
 End (local): پای (محلي)
 Enrich with EPG: د EPG سره بډایه کړئ
-Enter M3U URL:: M3U URL داخل کړئ:
+Enter JSON URL:: د JSON URL داخل کړئ:
+Enter playlist URL (M3U or JSON):: د پلی لیست URL داخل کړئ (M3U یا JSON):
 EPG: EPG
 EPG & Favorites: EPG او د خوښې وړ
 EPG Matching Threshold: د EPG میچ کولو حد
@@ -41,11 +44,12 @@ Error: تېروتنه
 Error loading: په بارولو کې تېروتنه
 Error loading playlists: {0}: د پلی لیستونو په پورته کولو کې تېروتنه: {0}
 ERROR: player.html not found.: تېروتنه: player.html ونه موندل شو.
-Export Failed: صادرات ناکام شول
+Exit: وتل
 Export Favorites: د خوښې صادرول
 Export Filtered JSON: فلټر شوي JSON صادر کړئ
 Export Filtered M3U: فلټر شوي M3U صادر کړئ
 Export JSON: JSON صادر کړئ
+Export KO: صادرات KO
 Export OK: سم صادر کړئ
 Extracting update...: تازه استخراج...
 Failed to download playlist: د پلی لیست ډاونلوډ کولو کې پاتې راغلی
@@ -59,18 +63,27 @@ GitHub Error: د GitHub تېروتنه
 Group: ګروپ
 Help: مرسته
 Hide List: لیست پټ کړئ
+Import: واردول
+Import error: {0}: د واردولو تېروتنه: {0}
+Import from URL: له URL څخه وارد کړئ
 Import JSON: JSON وارد کړئ
+Import JSON from URL: له URL څخه JSON وارد کړئ
+Import Local: محلي وارد کړئ
+Imported {0} channels from JSON.: له JSON څخه {0} چینلونه وارد شوي.
+Imported {0} channels from URL.: له URL څخه {0} چینلونه وارد شوي.
 Info: معلومات
+Invalid JSON: {0}: ناسم JSON: {0}
 Invalid playlist URL.: ناسم پلی لیست URL.
 Invalid URL.: ناسم URL.
+JSON Property: د JSON ملکیت
 Language: ژبه
 Languages (comma): ژبې (کوما)
 LOAD: لوډ
 Load a playlist first.: لومړی یو پلی لیست پورته کړئ.
-Load M3U: M3U پورته کړئ
-Load M3U file from your computer: د خپل کمپیوټر څخه M3U فایل پورته کړئ
-Load M3U playlist from a web URL: د ویب URL څخه M3U پلی لیست پورته کړئ
+Load File: فایل پورته کړئ
 Load Online: آنلاین بار کړئ
+Load playlist file (M3U/JSON) from your computer: د خپل کمپیوټر څخه د پلی لیست فایل (M3U/JSON) پورته کړئ
+Load playlist from web URL (M3U or JSON): د ویب URL (M3U یا JSON) څخه پلی لیست پورته کړئ
 Loaded: بار شوی
 Loading...: بار کول...
 Logo Preview: د لوګو مخکتنه
@@ -78,12 +91,16 @@ Logo URL: د لوګو URL
 Logos Matching Threshold: د لوګو سره سمون خوري
 Logos Source: د لوګو سرچینه
 Logos Subfolder: د لوګو فرعي فولډر
+Map JSON properties to channel fields:: د چینل ساحو ته د JSON ملکیتونه نقشه کړئ:
+Mapping saved for future imports of this file.: نقشه د دې فایل راتلونکي واردولو لپاره خوندي شوې.
 Name: نوم
 Nanoid: nanoid
 Network error: د شبکې تېروتنه
 New Playlist: نوی پلی لیست
 Next ▶: بل ▶
 No .m3u files found on GitHub repository.: په GitHub ذخیره کې هیڅ .m3u فایلونه ندي موندل شوي.
+No channels could be mapped. Check your mapping rules.: هیڅ چینلونه نقشه نشي کیدی. خپل د نقشه کولو قواعد چیک کړئ.
+No channels mapped: هیڅ چینل نقشه شوی نه دی
 No duplicate URLs found.: هیڅ نقل شوي URLs ونه موندل شول.
 No favorite channels to export.: د صادرولو لپاره هیڅ غوره چینل نشته.
 No playlist found: هیڅ پلی لیست ونه موندل شو
@@ -96,6 +113,8 @@ Pause/Resume live stream: ژوندی جریان ودروئ / بیا پیل کړ�
 Player ready.: لوبغاړی چمتو دی.
 Playlist Editor: د پلی لیست مدیر
 Please select a program first.: مهرباني وکړئ لومړی یو برنامه غوره کړئ.
+Preview (first 5 channels): مخکتنه (لومړی 5 چینلونه)
+Preview error: {0}: د مخکتنې تېروتنه: {0}
 Program Details: د پروګرام جزئیات
 Recent: وروستي
 Recent playlists: وروستي پلی لیستونه
@@ -103,11 +122,14 @@ Refresh: تازه کړئ
 Refresh EPG List: د EPG لیست تازه کړئ
 Refresh from GitHub: له GitHub څخه تازه کړئ
 Rename Group: د ګروپ نوم بدل کړئ
+Reset Order: ترتیب بیا تنظیم کړئ
 Save: خوندي کړئ
 SAVE: خوندي کړئ
-Save As...: په توګه خوندي کړئ ...
+Save as...: په توګه خوندي کړئ...
+Save Mapping: نقشه خوندي کړئ
 Save Playlist: د پلی لیست خوندي کړئ
 Save Status: د وضعیت خوندي کول
+Saved: خوندي شوی
 Search channels...: چینلونه وپلټئ...
 Select a playlist first.: لومړی یو پلی لیست غوره کړئ.
 Select Theme: موضوع غوره کړئ
@@ -119,12 +141,12 @@ Status: حالت
 Stream URL: د جریان URL
 Success: بریالیتوب
 Support: ملاتړ
+Target Field: د هدف ساحه
 Theme picker: د موضوع غوره کوونکی
 Time: وخت
 Title: عنوان
 Tools: وسیلې
 TV Guide (EPG): د تلویزیون لارښود (EPG)
-TVGarden+: د تلویزیون باغ +
 TvgId: TvgId
 Unable to find version in remote project file.: د ریموټ پروژې فایل کې نسخه موندلو توان نلري.
 Update: تازه کول

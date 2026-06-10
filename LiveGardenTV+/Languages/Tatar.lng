@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Яңа версия ба
 About: Турында
 About TVGarden+: TVGarden турында
 Add Group: Төркем өстәү
+Add Mapping: Картаны өстәгез
 Advanced IDs: Алга киткән таныклыклар
-Apply: Кулланыгыз
 Apply changes: Changesзгәрешләр кулланыгыз
+Apply Filters: Фильтрлар кулланыгыз
+Auto-detect: Авто-ачыклау
 Buffer (seconds): Буфер (секундлар)
 Cancel: Баш тарту
 CANCEL: БАСТЫРУ
@@ -15,12 +17,12 @@ Channel Details: Канал детальләре
 Channel Info: Канал турында мәгълүмат
 Channel:: Канал:
 channels from: каналлары
+channels from JSON URL: JSON URL каналлары
 channels from URL: URL-дан каналлар
 Check Duplicates: Күчермәләрне тикшерегез
 Check for updates: Яңартуларны тикшерегез
 Check URLs: URL'ларны тикшерегез
-Clear: Чиста
-Close: Ябу
+Clear Filters: Фильтрларны чистарту
 Country: Ил
 Delete Group: Төркемне бетерү
 Description: Тасвирлау
@@ -32,7 +34,8 @@ Edit Playlist: Плейлистны үзгәртү
 Edit URLs: URL'ларны үзгәртү
 End (local): Ахыр (җирле)
 Enrich with EPG: EPG белән баету
-Enter M3U URL:: M3U URL кертегез:
+Enter JSON URL:: JSON URL кертегез:
+Enter playlist URL (M3U or JSON):: Плейлист URL кертегез (M3U яки JSON):
 EPG: EPG
 EPG & Favorites: EPG & Фаворитлар
 EPG Matching Threshold: EPG туры килү бусагасы
@@ -41,11 +44,12 @@ Error: Хата
 Error loading: Йөкләүдә хата
 Error loading playlists: {0}: Плейлистларны йөкләүдә хата: {0}
 ERROR: player.html not found.: Хата: player.html табылмады.
-Export Failed: Экспорт уңышсыз
+Exit: Чык
 Export Favorites: Фаворитларны экспортлау
 Export Filtered JSON: Фильтрланган JSON экспорт
 Export Filtered M3U: Фильтрланган M3U экспорт
 Export JSON: JSON экспортлау
+Export KO: Экспорт КО
 Export OK: Экспорт ярый
 Extracting update...: Яңартуны чыгару ...
 Failed to download playlist: Плейлистны йөкли алмады
@@ -59,18 +63,27 @@ GitHub Error: GitHub хата
 Group: Төркем
 Help: Ярдәм
 Hide List: Исемлекне яшер
+Import: Импорт
+Import error: {0}: Импорт хата: {0}
+Import from URL: URL'дан импорт
 Import JSON: JSON импортлау
+Import JSON from URL: JSON-ны URL-тан импортлагыз
+Import Local: Localирле импорт
+Imported {0} channels from JSON.: JSONдан {0} каналлар импортланган.
+Imported {0} channels from URL.: URL'дан {0} каналлар кертелгән.
 Info: Мәгълүмат
+Invalid JSON: {0}: Яраксыз JSON: {0}
 Invalid playlist URL.: Яраксыз плейлист URL.
 Invalid URL.: Яраксыз URL.
+JSON Property: JSON милеге
 Language: Тел
 Languages (comma): Телләр (үтем)
 LOAD: ЙОК
 Load a playlist first.: Башта плейлистны йөкләгез.
-Load M3U: M3U йөкләү
-Load M3U file from your computer: M3U файлын санактан йөкләгез
-Load M3U playlist from a web URL: Веб URLдан M3U плейлистын йөкләгез
+Load File: Файлны йөкләү
 Load Online: Онлайн йөкләү
+Load playlist file (M3U/JSON) from your computer: Компьютердан плейлист файлын (M3U / JSON) йөкләгез
+Load playlist from web URL (M3U or JSON): Веб URLдан плейлистны йөкләгез (M3U яки JSON)
 Loaded: Йөкләнгән
 Loading...: Йөкләү ...
 Logo Preview: Логотип Алдан карау
@@ -78,12 +91,16 @@ Logo URL: Логотип URL
 Logos Matching Threshold: Логотиплар бусагасы
 Logos Source: Логос чыганагы
 Logos Subfolder: Логотиплар
+Map JSON properties to channel fields:: JSON үзлекләрен канал кырларына карта:
+Mapping saved for future imports of this file.: Бу файлның киләчәк импортлары өчен сакланган карта.
 Name: Исем
 Nanoid: Наноид
 Network error: Челтәр хата
 New Playlist: Яңа плейлист
 Next ▶: Киләсе ▶
 No .m3u files found on GitHub repository.: GitHub складында .m3u файллары табылмады.
+No channels could be mapped. Check your mapping rules.: Бер каналны да ясап булмый. Карта ясау кагыйдәләрен тикшерегез.
+No channels mapped: Бер канал да ясалмаган
 No duplicate URLs found.: Бер-бер артлы URL табылмады.
 No favorite channels to export.: Экспортка яраткан каналлар юк.
 No playlist found: Плейлист табылмады
@@ -96,6 +113,8 @@ Pause/Resume live stream: Пауза / Тере агымны дәвам итү
 Player ready.: Плеер әзер.
 Playlist Editor: Плейлист редакторы
 Please select a program first.: Зинһар, башта программаны сайлагыз.
+Preview (first 5 channels): Алдан карау (беренче 5 канал)
+Preview error: {0}: Алдан карау хата: {0}
 Program Details: Программа детальләре
 Recent: Соңгы
 Recent playlists: Соңгы плейлистлар
@@ -103,11 +122,14 @@ Refresh: Яңарту
 Refresh EPG List: EPG исемлеген яңарту
 Refresh from GitHub: GitHub'тан яңарту
 Rename Group: Төркемнең исемен үзгәртү
+Reset Order: Заказны яңадан урнаштыру
 Save: Саклагыз
 SAVE: Саклагыз
-Save As...: Саклагыз ...
+Save as...: Саклагыз ...
+Save Mapping: Картаны саклагыз
 Save Playlist: Плейлистны саклагыз
 Save Status: Статусны саклагыз
+Saved: Сакланган
 Search channels...: Каналларны эзләү ...
 Select a playlist first.: Башта плейлистны сайлагыз.
 Select Theme: Теманы сайлагыз
@@ -119,12 +141,12 @@ Status: Статус
 Stream URL: Агым URL
 Success: Уңыш
 Support: Ярдәм
+Target Field: Максат кыры
 Theme picker: Тема сайлаучы
 Time: Вакыт
 Title: Титул
 Tools: Кораллар
 TV Guide (EPG): Телевидение күрсәтмәсе (EPG)
-TVGarden+: ТВ бакчасы +
 TvgId: TvgId
 Unable to find version in remote project file.: Ерак проект файлында версия таба алмый.
 Update: Яңарту

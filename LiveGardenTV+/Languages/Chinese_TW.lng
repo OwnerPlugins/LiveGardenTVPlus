@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: 有新版本可用。您
 About: 關於
 About TVGarden+: 關於電視花園+
 Add Group: 新增群組
+Add Mapping: 新增映射
 Advanced IDs: 進階 ID
-Apply: 申請
 Apply changes: 應用程式變更
+Apply Filters: 應用過濾器
+Auto-detect: 自動偵測
 Buffer (seconds): 緩衝區（秒）
 Cancel: 取消
 CANCEL: 取消
@@ -15,12 +17,12 @@ Channel Details: 頻道詳情
 Channel Info: 頻道資訊
 Channel:: 通路：
 channels from: 頻道來自
+channels from JSON URL: 來自 JSON URL 的頻道
 channels from URL: 來自 URL 的頻道
 Check Duplicates: 檢查重複項
 Check for updates: 檢查更新
 Check URLs: 檢查網址
-Clear: 清除
-Close: 關閉
+Clear Filters: 清除過濾器
 Country: 國家
 Delete Group: 刪除群組
 Description: 描述
@@ -32,7 +34,8 @@ Edit Playlist: 編輯播放清單
 Edit URLs: 編輯網址
 End (local): 結束（本地）
 Enrich with EPG: 透過 EPG 豐富內容
-Enter M3U URL:: 輸入 M3U 網址：
+Enter JSON URL:: 輸入 JSON 網址：
+Enter playlist URL (M3U or JSON):: 輸入播放清單 URL（M3U 或 JSON）：
 EPG: 電子節目指南
 EPG & Favorites: 電子節目指南和收藏夾
 EPG Matching Threshold: EPG匹配閾值
@@ -41,11 +44,12 @@ Error: 錯誤
 Error loading: 載入錯誤
 Error loading playlists: {0}: 載入播放清單時發生錯誤：{0}
 ERROR: player.html not found.: 錯誤：找不到player.html。
-Export Failed: 匯出失敗
+Exit: 出口
 Export Favorites: 匯出收藏夾
 Export Filtered JSON: 匯出過濾後的 JSON
 Export Filtered M3U: 匯出過濾後的 M3U
 Export JSON: 導出 JSON
+Export KO: 出口KO
 Export OK: 導出確定
 Extracting update...: 正在提取更新...
 Failed to download playlist: 下載播放清單失敗
@@ -59,18 +63,27 @@ GitHub Error: GitHub 錯誤
 Group: 團體
 Help: 幫助
 Hide List: 隱藏清單
+Import: 進口
+Import error: {0}: 導入錯誤：{0}
+Import from URL: 從 URL 匯入
 Import JSON: 導入 JSON
+Import JSON from URL: 從 URL 匯入 JSON
+Import Local: 導入本地
+Imported {0} channels from JSON.: 已從 JSON 匯入 {0} 個頻道。
+Imported {0} channels from URL.: 已從 URL 匯入 {0} 個頻道。
 Info: 資訊
+Invalid JSON: {0}: JSON 無效：{0}
 Invalid playlist URL.: 播放清單 URL 無效。
 Invalid URL.: 無效網址。
+JSON Property: JSON 屬性
 Language: 語言
 Languages (comma): 語言（逗號）
 LOAD: 載入
 Load a playlist first.: 首先載入播放清單。
-Load M3U: 載入M3U
-Load M3U file from your computer: 從您的電腦載入 M3U 文件
-Load M3U playlist from a web URL: 從 Web URL 載入 M3U 播放列表
+Load File: 載入文件
 Load Online: 在線加載
+Load playlist file (M3U/JSON) from your computer: 從您的電腦載入播放清單檔案 (M3U/JSON)
+Load playlist from web URL (M3U or JSON): 從 Web URL（M3U 或 JSON）載入播放列表
 Loaded: 已載入
 Loading...: 載入中...
 Logo Preview: 標誌預覽
@@ -78,12 +91,16 @@ Logo URL: 標誌網址
 Logos Matching Threshold: 徽標匹配閾值
 Logos Source: 標誌來源
 Logos Subfolder: 標誌子資料夾
+Map JSON properties to channel fields:: 將 JSON 屬性對應到通道欄位：
+Mapping saved for future imports of this file.: 儲存映射以供將來匯入該文件。
 Name: 姓名
 Nanoid: 奈米機器人
 Network error: 網路錯誤
 New Playlist: 新播放列表
 Next ▶: 下一頁 ▶
 No .m3u files found on GitHub repository.: 在 GitHub 儲存庫上找不到 .m3u 檔案。
+No channels could be mapped. Check your mapping rules.: 無法映射任何頻道。檢查您的映射規則。
+No channels mapped: 沒有映射頻道
 No duplicate URLs found.: 未發現重複的 URL。
 No favorite channels to export.: 沒有可匯出的喜愛頻道。
 No playlist found: 未找到播放列表
@@ -96,6 +113,8 @@ Pause/Resume live stream: 暫停/恢復直播
 Player ready.: 玩家準備好了。
 Playlist Editor: 播放清單編輯器
 Please select a program first.: 請先選擇一個程序。
+Preview (first 5 channels): 預覽（前 5 個頻道）
+Preview error: {0}: 預覽錯誤：{0}
 Program Details: 計劃詳情
 Recent: 最近的
 Recent playlists: 最近的播放清單
@@ -103,11 +122,14 @@ Refresh: 重新整理
 Refresh EPG List: 刷新EPG列表
 Refresh from GitHub: 從 GitHub 刷新
 Rename Group: 重新命名群組
+Reset Order: 重置訂單
 Save: 節省
 SAVE: 節省
-Save As...: 另存為...
+Save as...: 另存為...
+Save Mapping: 儲存映射
 Save Playlist: 儲存播放列表
 Save Status: 保存狀態
+Saved: 已儲存
 Search channels...: 搜尋頻道...
 Select a playlist first.: 首先選擇一個播放清單。
 Select Theme: 選擇主題
@@ -119,12 +141,12 @@ Status: 地位
 Stream URL: 串流網址
 Success: 成功
 Support: 支援
+Target Field: 目標領域
 Theme picker: 主題選擇器
 Time: 時間
 Title: 標題
 Tools: 工具
 TV Guide (EPG): 電視指南 (EPG)
-TVGarden+: 電視花園+
 TvgId: 電視識別符
 Unable to find version in remote project file.: 無法在遠端專案文件中找到版本。
 Update: 更新

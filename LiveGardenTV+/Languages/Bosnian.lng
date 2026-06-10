@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Dostupna je nova verzija
 About: O
 About TVGarden+: O TVGarden+
 Add Group: Dodaj grupu
+Add Mapping: Dodaj mapiranje
 Advanced IDs: Napredni ID-ovi
-Apply: Prijavite se
 Apply changes: Primijenite promjene
+Apply Filters: Primijenite filtere
+Auto-detect: Auto-detect
 Buffer (seconds): Međuspremnik (sekunde)
 Cancel: Otkaži
 CANCEL: OTKAZI
@@ -15,12 +17,12 @@ Channel Details: Channel Details
 Channel Info: Informacije o kanalu
 Channel:: Kanal:
 channels from: kanala iz
+channels from JSON URL: kanala iz JSON URL-a
 channels from URL: kanala sa URL-a
 Check Duplicates: Označite duplikate
 Check for updates: Provjerite ima li ažuriranja
 Check URLs: Provjerite URL-ove
-Clear: Jasno
-Close: Zatvori
+Clear Filters: Obriši filtere
 Country: Država
 Delete Group: Izbriši grupu
 Description: Opis
@@ -32,7 +34,8 @@ Edit Playlist: Uredi plejlistu
 Edit URLs: Uredite URL-ove
 End (local): Kraj (lokalno)
 Enrich with EPG: Obogatite EPG-om
-Enter M3U URL:: Unesite M3U URL:
+Enter JSON URL:: Unesite JSON URL:
+Enter playlist URL (M3U or JSON):: Unesite URL plejliste (M3U ili JSON):
 EPG: EPG
 EPG & Favorites: EPG & Favoriti
 EPG Matching Threshold: EPG Matching Threshold
@@ -41,11 +44,12 @@ Error: Greška
 Error loading: Greška pri učitavanju
 Error loading playlists: {0}: Greška pri učitavanju plejlista: {0}
 ERROR: player.html not found.: GREŠKA: player.html nije pronađen.
-Export Failed: Izvoz nije uspio
+Exit: Izađi
 Export Favorites: Izvezi favorite
 Export Filtered JSON: Izvezi filtrirani JSON
 Export Filtered M3U: Izvoz filtriranog M3U
 Export JSON: Izvezi JSON
+Export KO: Izvoz KO
 Export OK: Izvoz OK
 Extracting update...: Izdvajanje ažuriranja...
 Failed to download playlist: Preuzimanje plejliste nije uspjelo
@@ -59,18 +63,27 @@ GitHub Error: GitHub Greška
 Group: Grupa
 Help: Upomoć
 Hide List: Sakrij listu
+Import: Uvoz
+Import error: {0}: Greška pri uvozu: {0}
+Import from URL: Uvezi iz URL-a
 Import JSON: Uvezi JSON
+Import JSON from URL: Uvezite JSON sa URL-a
+Import Local: Uvezi lokalno
+Imported {0} channels from JSON.: Uvezeno {0} kanala iz JSON-a.
+Imported {0} channels from URL.: Uvezeno {0} kanala sa URL-a.
 Info: Info
+Invalid JSON: {0}: Nevažeći JSON: {0}
 Invalid playlist URL.: Nevažeći URL plejliste.
 Invalid URL.: Nevažeći URL.
+JSON Property: JSON Property
 Language: Jezik
 Languages (comma): Jezici (zarez)
 LOAD: LOAD
 Load a playlist first.: Prvo učitajte listu za reprodukciju.
-Load M3U: Učitajte M3U
-Load M3U file from your computer: Učitajte M3U fajl sa svog računara
-Load M3U playlist from a web URL: Učitajte M3U playlistu sa web URL-a
+Load File: Učitaj datoteku
 Load Online: Load Online
+Load playlist file (M3U/JSON) from your computer: Učitajte fajl liste pesama (M3U/JSON) sa svog računara
+Load playlist from web URL (M3U or JSON): Učitaj plejlistu sa web URL-a (M3U ili JSON)
 Loaded: Loaded
 Loading...: Učitavanje...
 Logo Preview: Pregled logotipa
@@ -78,12 +91,16 @@ Logo URL: URL logotipa
 Logos Matching Threshold: Prag podudaranja logotipa
 Logos Source: Logos Source
 Logos Subfolder: Logos Subfolder
+Map JSON properties to channel fields:: Mapirajte JSON svojstva u polja kanala:
+Mapping saved for future imports of this file.: Mapiranje je sačuvano za buduće uvoze ove datoteke.
 Name: Ime
 Nanoid: Nanoid
 Network error: Mrežna greška
 New Playlist: Nova lista za reprodukciju
 Next ▶: Sljedeći ▶
 No .m3u files found on GitHub repository.: Na GitHub repozitorijumu nisu pronađeni .m3u fajlovi.
+No channels could be mapped. Check your mapping rules.: Nijedan kanal nije mogao biti mapiran. Provjerite pravila mapiranja.
+No channels mapped: Nema mapiranih kanala
 No duplicate URLs found.: Nije pronađen nijedan duplikat URL-a.
 No favorite channels to export.: Nema omiljenih kanala za izvoz.
 No playlist found: Plejlista nije pronađena
@@ -96,6 +113,8 @@ Pause/Resume live stream: Pauziraj/nastavi prijenos uživo
 Player ready.: Igrač spreman.
 Playlist Editor: Playlist Editor
 Please select a program first.: Prvo odaberite program.
+Preview (first 5 channels): Pregled (prvih 5 kanala)
+Preview error: {0}: Greška pregleda: {0}
 Program Details: Detalji programa
 Recent: Nedavno
 Recent playlists: Nedavne plejliste
@@ -103,11 +122,14 @@ Refresh: Osvježi
 Refresh EPG List: Osvježite EPG listu
 Refresh from GitHub: Osvježite sa GitHub-a
 Rename Group: Preimenuj grupu
+Reset Order: Resetiraj redoslijed
 Save: Sačuvaj
 SAVE: SAVE
-Save As...: Sačuvaj kao...
+Save as...: Sačuvaj kao...
+Save Mapping: Sačuvaj mapiranje
 Save Playlist: Sačuvaj listu za reprodukciju
 Save Status: Sačuvaj status
+Saved: Sačuvano
 Search channels...: Pretraži kanale...
 Select a playlist first.: Prvo odaberite listu za reprodukciju.
 Select Theme: Odaberite Tema
@@ -119,12 +141,12 @@ Status: Status
 Stream URL: Stream URL
 Success: Uspjeh
 Support: Podrška
+Target Field: Target Field
 Theme picker: Birač tema
 Time: Vrijeme
 Title: Naslov
 Tools: Alati
 TV Guide (EPG): TV vodič (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Nije moguće pronaći verziju u datoteci udaljenog projekta.
 Update: Ažuriraj

@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Nova versio disponeblas.
 About: Pri
 About TVGarden+: Pri TVGarden+
 Add Group: Aldoni Grupon
+Add Mapping: Aldonu Mapadon
 Advanced IDs: Altnivelaj identigiloj
-Apply: Apliki
 Apply changes: Apliki ŝanĝojn
+Apply Filters: Apliki Filtrilojn
+Auto-detect: Aŭtomate detekti
 Buffer (seconds): Bufro (sekundoj)
 Cancel: Nuligi
 CANCEL: NULIGI
@@ -15,12 +17,12 @@ Channel Details: Kanalaj Detaloj
 Channel Info: Informoj pri kanalo
 Channel:: Kanalo:
 channels from: kanaloj de
+channels from JSON URL: kanaloj de JSON URL
 channels from URL: kanaloj de URL
 Check Duplicates: Kontrolu Duplikatojn
 Check for updates: Kontrolu ĝisdatigojn
 Check URLs: Kontrolu URLojn
-Clear: Klara
-Close: Fermu
+Clear Filters: Forigi Filtrilojn
 Country: Lando
 Delete Group: Forigi Grupon
 Description: Priskribo
@@ -32,7 +34,8 @@ Edit Playlist: Redaktu Ludliston
 Edit URLs: Redaktu URL-ojn
 End (local): Fino (loka)
 Enrich with EPG: Riĉigu per EPG
-Enter M3U URL:: Enigu M3U-URL:
+Enter JSON URL:: Enigu JSON-URL:
+Enter playlist URL (M3U or JSON):: Enigu la URL-listo (M3U aŭ JSON):
 EPG: EPG
 EPG & Favorites: EPG & Favoritoj
 EPG Matching Threshold: EPG Kongrua Sojlo
@@ -41,11 +44,12 @@ Error: Eraro
 Error loading: Eraro dum ŝarĝo
 Error loading playlists: {0}: Eraro dum ŝarĝo de ludlistoj: {0}
 ERROR: player.html not found.: ERARO: player.html ne trovita.
-Export Failed: Eksporto Malsukcesis
+Exit: Eliro
 Export Favorites: Eksporti Favoritojn
 Export Filtered JSON: Eksportu Filtritan JSON
 Export Filtered M3U: Eksporti Filtritan M3U
 Export JSON: Eksportu JSON
+Export KO: Eksporti KO
 Export OK: Eksportu bone
 Extracting update...: Eltiranta ĝisdatigon...
 Failed to download playlist: Malsukcesis elŝuti ludliston
@@ -59,18 +63,27 @@ GitHub Error: GitHub Eraro
 Group: Grupo
 Help: Helpu
 Hide List: Kaŝi Listo
+Import: Importi
+Import error: {0}: Importa eraro: {0}
+Import from URL: Importi el URL
 Import JSON: Importu JSON
+Import JSON from URL: Importu JSON el URL
+Import Local: Importu Loka
+Imported {0} channels from JSON.: Importitaj {0} kanaloj el JSON.
+Imported {0} channels from URL.: Importitaj {0} kanaloj el URL.
 Info: Info
+Invalid JSON: {0}: Nevalida JSON: {0}
 Invalid playlist URL.: Nevalida URL de ludlisto.
 Invalid URL.: Nevalida URL.
+JSON Property: JSON-posedaĵo
 Language: Lingvo
 Languages (comma): Lingvoj (komo)
 LOAD: ŜARĜO
 Load a playlist first.: Ŝarĝu ludliston unue.
-Load M3U: Ŝarĝu M3U
-Load M3U file from your computer: Ŝarĝu M3U-dosieron de via komputilo
-Load M3U playlist from a web URL: Ŝarĝu M3U-ludliston de reta URL
+Load File: Ŝarĝu Dosiero
 Load Online: Ŝargi Interrete
+Load playlist file (M3U/JSON) from your computer: Ŝarĝu ludlistdosieron (M3U/JSON) el via komputilo
+Load playlist from web URL (M3U or JSON): Ŝarĝu ludliston de reta URL (M3U aŭ JSON)
 Loaded: Ŝarĝita
 Loading...: Ŝargante...
 Logo Preview: Logo Antaŭrigardo
@@ -78,12 +91,16 @@ Logo URL: Logo URL
 Logos Matching Threshold: Logos Kongrua Sojlo
 Logos Source: Logos Fonto
 Logos Subfolder: Logos Subdosierujo
+Map JSON properties to channel fields:: Mapu JSON-ecojn al kanalaj kampoj:
+Mapping saved for future imports of this file.: Mapado konservita por estontaj importadoj de ĉi tiu dosiero.
 Name: Nomo
 Nanoid: Nanoido
 Network error: Reta eraro
 New Playlist: Nova Ludlisto
 Next ▶: Sekva ▶
 No .m3u files found on GitHub repository.: Neniuj .m3u dosieroj trovitaj en GitHub-deponejo.
+No channels could be mapped. Check your mapping rules.: Neniuj kanaloj povus esti mapitaj. Kontrolu viajn mapajn regulojn.
+No channels mapped: Neniuj kanaloj mapitaj
 No duplicate URLs found.: Neniuj duplikataj URL-oj trovitaj.
 No favorite channels to export.: Neniuj plej ŝatataj kanaloj por eksporti.
 No playlist found: Neniu ludlisto trovita
@@ -96,6 +113,8 @@ Pause/Resume live stream: Paŭzi/Rekomenci la rektan fluon
 Player ready.: Ludanto preta.
 Playlist Editor: Redaktilo de Ludlisto
 Please select a program first.: Bonvolu unue elekti programon.
+Preview (first 5 channels): Antaŭrigardo (unuaj 5 kanaloj)
+Preview error: {0}: Antaŭrigarda eraro: {0}
 Program Details: Programo Detaloj
 Recent: Lastatempa
 Recent playlists: Lastatempaj ludlistoj
@@ -103,11 +122,14 @@ Refresh: Refreŝigi
 Refresh EPG List: Refreŝigi EPG-Liston
 Refresh from GitHub: Refreŝigu de GitHub
 Rename Group: Alinomigi Grupon
+Reset Order: Restarigi Ordon
 Save: Konservu
 SAVE: SAVE
-Save As...: Konservu kiel...
+Save as...: Konservu kiel...
+Save Mapping: Konservu Mapadon
 Save Playlist: Konservu Ludliston
 Save Status: Konservu Statuson
+Saved: Savita
 Search channels...: Serĉu kanalojn...
 Select a playlist first.: Unue elektu ludliston.
 Select Theme: Elektu Temon
@@ -119,12 +141,12 @@ Status: Statuso
 Stream URL: Flua URL
 Success: Sukceso
 Support: Subteno
+Target Field: Cela Kampo
 Theme picker: Temo-elektilo
 Time: Tempo
 Title: Titolo
 Tools: Iloj
 TV Guide (EPG): Televida Gvidilo (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Ne eblas trovi version en fora projektdosiero.
 Update: Ĝisdatigo

@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: A new version is availab
 About: About
 About TVGarden+: About TVGarden+
 Add Group: Add Group
+Add Mapping: Add Mapping
 Advanced IDs: Advanced IDs
-Apply: Apply
 Apply changes: Apply changes
+Apply Filters: Apply Filters
+Auto-detect: Auto-detect
 Buffer (seconds): Buffer (seconds)
 Cancel: Cancel
 CANCEL: CANCEL
@@ -15,12 +17,12 @@ Channel Details: Channel Details
 Channel Info: Channel Info
 Channel:: Channel:
 channels from: channels from
+channels from JSON URL: channels from JSON URL
 channels from URL: channels from URL
 Check Duplicates: Check Duplicates
 Check for updates: Check for updates
 Check URLs: Check URLs
-Clear: Clear
-Close: Close
+Clear Filters: Clear Filters
 Country: Country
 Delete Group: Delete Group
 Description: Description
@@ -32,7 +34,8 @@ Edit Playlist: Edit Playlist
 Edit URLs: Edit URLs
 End (local): End (local)
 Enrich with EPG: Enrich with EPG
-Enter M3U URL:: Enter M3U URL:
+Enter JSON URL:: Enter JSON URL:
+Enter playlist URL (M3U or JSON):: Enter playlist URL (M3U or JSON):
 EPG: EPG
 EPG & Favorites: EPG & Favorites
 EPG Matching Threshold: EPG Matching Threshold
@@ -41,11 +44,12 @@ Error: Error
 Error loading: Error loading
 Error loading playlists: {0}: Error loading playlists: {0}
 ERROR: player.html not found.: ERROR: player.html not found.
-Export Failed: Export Failed
+Exit: Exit
 Export Favorites: Export Favorites
 Export Filtered JSON: Export Filtered JSON
 Export Filtered M3U: Export Filtered M3U
 Export JSON: Export JSON
+Export KO: Export KO
 Export OK: Export OK
 Extracting update...: Extracting update...
 Failed to download playlist: Failed to download playlist
@@ -59,18 +63,27 @@ GitHub Error: GitHub Error
 Group: Group
 Help: Help
 Hide List: Hide List
+Import: Import
+Import error: {0}: Import error: {0}
+Import from URL: Import from URL
 Import JSON: Import JSON
+Import JSON from URL: Import JSON from URL
+Import Local: Import Local
+Imported {0} channels from JSON.: Imported {0} channels from JSON.
+Imported {0} channels from URL.: Imported {0} channels from URL.
 Info: Info
+Invalid JSON: {0}: Invalid JSON: {0}
 Invalid playlist URL.: Invalid playlist URL.
 Invalid URL.: Invalid URL.
+JSON Property: JSON Property
 Language: Language
 Languages (comma): Languages (comma)
 LOAD: LOAD
 Load a playlist first.: Load a playlist first.
-Load M3U: Load M3U
-Load M3U file from your computer: Load M3U file from your computer
-Load M3U playlist from a web URL: Load M3U playlist from a web URL
+Load File: Load File
 Load Online: Load Online
+Load playlist file (M3U/JSON) from your computer: Load playlist file (M3U/JSON) from your computer
+Load playlist from web URL (M3U or JSON): Load playlist from web URL (M3U or JSON)
 Loaded: Loaded
 Loading...: Loading...
 Logo Preview: Logo Preview
@@ -78,12 +91,16 @@ Logo URL: Logo URL
 Logos Matching Threshold: Logos Matching Threshold
 Logos Source: Logos Source
 Logos Subfolder: Logos Subfolder
+Map JSON properties to channel fields:: Map JSON properties to channel fields:
+Mapping saved for future imports of this file.: Mapping saved for future imports of this file.
 Name: Name
 Nanoid: Nanoid
 Network error: Network error
 New Playlist: New Playlist
 Next ▶: Next ▶
 No .m3u files found on GitHub repository.: No .m3u files found on GitHub repository.
+No channels could be mapped. Check your mapping rules.: No channels could be mapped. Check your mapping rules.
+No channels mapped: No channels mapped
 No duplicate URLs found.: No duplicate URLs found.
 No favorite channels to export.: No favorite channels to export.
 No playlist found: No playlist found
@@ -96,6 +113,8 @@ Pause/Resume live stream: Pause/Resume live stream
 Player ready.: Player ready.
 Playlist Editor: Playlist Editor
 Please select a program first.: Please select a program first.
+Preview (first 5 channels): Preview (first 5 channels)
+Preview error: {0}: Preview error: {0}
 Program Details: Program Details
 Recent: Recent
 Recent playlists: Recent playlists
@@ -103,11 +122,14 @@ Refresh: Refresh
 Refresh EPG List: Refresh EPG List
 Refresh from GitHub: Refresh from GitHub
 Rename Group: Rename Group
+Reset Order: Reset Order
 Save: Save
 SAVE: SAVE
-Save As...: Save As...
+Save as...: Save as...
+Save Mapping: Save Mapping
 Save Playlist: Save Playlist
 Save Status: Save Status
+Saved: Saved
 Search channels...: Search channels...
 Select a playlist first.: Select a playlist first.
 Select Theme: Select Theme
@@ -119,12 +141,12 @@ Status: Status
 Stream URL: Stream URL
 Success: Success
 Support: Support
+Target Field: Target Field
 Theme picker: Theme picker
 Time: Time
 Title: Title
 Tools: Tools
 TV Guide (EPG): TV Guide (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Unable to find version in remote project file.
 Update: Update

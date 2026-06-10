@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: नयाँ संस�
 About: बारे
 About TVGarden+: TVGarden+ को बारेमा
 Add Group: समूह थप्नुहोस्
+Add Mapping: म्यापिङ थप्नुहोस्
 Advanced IDs: उन्नत आईडीहरू
-Apply: आवेदन दिनुहोस्
 Apply changes: परिवर्तनहरू लागू गर्नुहोस्
+Apply Filters: फिल्टरहरू लागू गर्नुहोस्
+Auto-detect: स्वतः पत्ता लगाउनुहोस्
 Buffer (seconds): बफर (सेकेन्ड)
 Cancel: रद्द गर्नुहोस्
 CANCEL: रद्द गर्नुहोस्
@@ -15,12 +17,12 @@ Channel Details: च्यानल विवरणहरू
 Channel Info: च्यानल जानकारी
 Channel:: च्यानल:
 channels from: बाट च्यानलहरू
+channels from JSON URL: JSON URL बाट च्यानलहरू
 channels from URL: URL बाट च्यानलहरू
 Check Duplicates: डुप्लिकेटहरू जाँच गर्नुहोस्
 Check for updates: अपडेटहरूको लागि जाँच गर्नुहोस्
 Check URLs: URL हरू जाँच गर्नुहोस्
-Clear: खाली गर्नुहोस्
-Close: बन्द गर्नुहोस्
+Clear Filters: फिल्टरहरू खाली गर्नुहोस्
 Country: देश
 Delete Group: समूह मेटाउनुहोस्
 Description: विवरण
@@ -32,7 +34,8 @@ Edit Playlist: प्लेलिस्ट सम्पादन गर्नु
 Edit URLs: URL सम्पादन गर्नुहोस्
 End (local): अन्त्य (स्थानीय)
 Enrich with EPG: EPG संग समृद्ध
-Enter M3U URL:: M3U URL प्रविष्ट गर्नुहोस्:
+Enter JSON URL:: JSON URL प्रविष्ट गर्नुहोस्:
+Enter playlist URL (M3U or JSON):: प्लेलिस्ट URL प्रविष्ट गर्नुहोस् (M3U वा JSON):
 EPG: EPG
 EPG & Favorites: EPG र मनपर्नेहरू
 EPG Matching Threshold: EPG मिलान थ्रेसहोल्ड
@@ -41,11 +44,12 @@ Error: त्रुटि
 Error loading: लोड गर्दा त्रुटि भयो
 Error loading playlists: {0}: प्लेलिस्टहरू लोड गर्दा त्रुटि: {0}
 ERROR: player.html not found.: त्रुटि: player.html फेला परेन।
-Export Failed: निर्यात असफल भयो
+Exit: बाहिर निस्कनुहोस्
 Export Favorites: मनपर्ने निर्यात गर्नुहोस्
 Export Filtered JSON: फिल्टर गरिएको JSON निर्यात गर्नुहोस्
 Export Filtered M3U: फिल्टर गरिएको M3U निर्यात गर्नुहोस्
 Export JSON: JSON निर्यात गर्नुहोस्
+Export KO: KO निर्यात गर्नुहोस्
 Export OK: निर्यात ठीक छ
 Extracting update...: अद्यावधिक निकाल्दै...
 Failed to download playlist: प्लेलिस्ट डाउनलोड गर्न असफल भयो
@@ -59,18 +63,27 @@ GitHub Error: GitHub त्रुटि
 Group: समूह
 Help: मद्दत गर्नुहोस्
 Hide List: सूची लुकाउनुहोस्
+Import: आयात गर्नुहोस्
+Import error: {0}: आयात त्रुटि: {0}
+Import from URL: URL बाट आयात गर्नुहोस्
 Import JSON: JSON आयात गर्नुहोस्
+Import JSON from URL: URL बाट JSON आयात गर्नुहोस्
+Import Local: स्थानीय आयात गर्नुहोस्
+Imported {0} channels from JSON.: JSON बाट {0} च्यानलहरू आयात गरियो।
+Imported {0} channels from URL.: URL बाट {0} च्यानलहरू आयात गरियो।
 Info: जानकारी
+Invalid JSON: {0}: अमान्य JSON: {0}
 Invalid playlist URL.: अमान्य प्लेलिस्ट URL।
 Invalid URL.: अमान्य URL।
+JSON Property: JSON सम्पत्ति
 Language: भाषा
 Languages (comma): भाषाहरू (अल्पविराम)
 LOAD: लोड
 Load a playlist first.: पहिले एउटा प्लेलिस्ट लोड गर्नुहोस्।
-Load M3U: M3U लोड गर्नुहोस्
-Load M3U file from your computer: तपाईको कम्प्युटरबाट M3U फाइल लोड गर्नुहोस्
-Load M3U playlist from a web URL: वेब URL बाट M3U प्लेलिस्ट लोड गर्नुहोस्
+Load File: फाइल लोड गर्नुहोस्
 Load Online: अनलाइन लोड गर्नुहोस्
+Load playlist file (M3U/JSON) from your computer: आफ्नो कम्प्युटरबाट प्लेलिस्ट फाइल (M3U/JSON) लोड गर्नुहोस्
+Load playlist from web URL (M3U or JSON): वेब URL बाट प्लेलिस्ट लोड गर्नुहोस् (M3U वा JSON)
 Loaded: लोड गरियो
 Loading...: लोड गर्दै...
 Logo Preview: लोगो पूर्वावलोकन
@@ -78,12 +91,16 @@ Logo URL: लोगो URL
 Logos Matching Threshold: लोगो मिल्दो थ्रेसहोल्ड
 Logos Source: लोगो स्रोत
 Logos Subfolder: लोगो सबफोल्डर
+Map JSON properties to channel fields:: च्यानल क्षेत्रहरूमा JSON गुणहरू नक्सा गर्नुहोस्:
+Mapping saved for future imports of this file.: यस फाइलको भविष्यको आयातको लागि म्यापिङ सुरक्षित गरियो।
 Name: नाम
 Nanoid: नानोइड
 Network error: नेटवर्क त्रुटि
 New Playlist: नयाँ प्लेलिस्ट
 Next ▶: अर्को ▶
 No .m3u files found on GitHub repository.: GitHub भण्डारमा कुनै .m3u फाइलहरू फेला परेनन्।
+No channels could be mapped. Check your mapping rules.: कुनै च्यानलहरू म्याप गर्न सकिएन। आफ्नो म्यापिङ नियमहरू जाँच गर्नुहोस्।
+No channels mapped: कुनै च्यानल म्याप गरिएको छैन
 No duplicate URLs found.: कुनै डुप्लिकेट URL फेला परेन।
 No favorite channels to export.: निर्यात गर्न मनपर्ने च्यानलहरू छैनन्।
 No playlist found: कुनै प्लेलिस्ट फेला परेन
@@ -96,6 +113,8 @@ Pause/Resume live stream: पज/लाइभ स्ट्रिम पुन: �
 Player ready.: खेलाडी तयार।
 Playlist Editor: प्लेलिस्ट सम्पादक
 Please select a program first.: कृपया पहिले एउटा कार्यक्रम चयन गर्नुहोस्।
+Preview (first 5 channels): पूर्वावलोकन (पहिलो ५ च्यानलहरू)
+Preview error: {0}: पूर्वावलोकन त्रुटि: {0}
 Program Details: कार्यक्रम विवरण
 Recent: हालको
 Recent playlists: हालैका प्लेलिस्टहरू
@@ -103,11 +122,14 @@ Refresh: रिफ्रेस गर्नुहोस्
 Refresh EPG List: EPG सूची ताजा गर्नुहोस्
 Refresh from GitHub: GitHub बाट ताजा गर्नुहोस्
 Rename Group: समूह पुन: नामाकरण गर्नुहोस्
+Reset Order: आदेश रिसेट गर्नुहोस्
 Save: बचत गर्नुहोस्
 SAVE: बचत गर्नुहोस्
-Save As...: यस रूपमा बचत गर्नुहोस्...
+Save as...: यस रूपमा बचत गर्नुहोस्...
+Save Mapping: म्यापिङ बचत गर्नुहोस्
 Save Playlist: प्लेलिस्ट बचत गर्नुहोस्
 Save Status: स्थिति बचत गर्नुहोस्
+Saved: सुरक्षित गरियो
 Search channels...: च्यानलहरू खोज्नुहोस्...
 Select a playlist first.: पहिले एउटा प्लेलिस्ट चयन गर्नुहोस्।
 Select Theme: विषयवस्तु चयन गर्नुहोस्
@@ -119,12 +141,12 @@ Status: स्थिति
 Stream URL: स्ट्रिम URL
 Success: सफलता
 Support: समर्थन
+Target Field: लक्ष्य क्षेत्र
 Theme picker: विषयवस्तु चयनकर्ता
 Time: समय
 Title: शीर्षक
 Tools: उपकरणहरू
 TV Guide (EPG): टिभी गाइड (EPG)
-TVGarden+: टिभी गार्डेन+
 TvgId: TvgId
 Unable to find version in remote project file.: रिमोट प्रोजेक्ट फाइलमा संस्करण फेला पार्न असमर्थ।
 Update: अपडेट गर्नुहोस्

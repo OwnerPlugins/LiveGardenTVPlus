@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: একটি নতু�
 About: সম্পর্কে
 About TVGarden+: TVGarden+ সম্পর্কে
 Add Group: গ্রুপ যোগ করুন
+Add Mapping: ম্যাপিং যোগ করুন
 Advanced IDs: উন্নত আইডি
-Apply: আবেদন করুন
 Apply changes: পরিবর্তনগুলি প্রয়োগ করুন
+Apply Filters: ফিল্টার প্রয়োগ করুন
+Auto-detect: স্বয়ংক্রিয়ভাবে সনাক্ত করুন
 Buffer (seconds): বাফার (সেকেন্ড)
 Cancel: বাতিল করুন
 CANCEL: বাতিল করুন
@@ -15,12 +17,12 @@ Channel Details: চ্যানেলের বিবরণ
 Channel Info: চ্যানেল তথ্য
 Channel:: চ্যানেল:
 channels from: থেকে চ্যানেল
+channels from JSON URL: JSON URL থেকে চ্যানেল
 channels from URL: URL থেকে চ্যানেল
 Check Duplicates: ডুপ্লিকেট চেক করুন
 Check for updates: আপডেটের জন্য চেক করুন
 Check URLs: ইউআরএল চেক করুন
-Clear: পরিষ্কার
-Close: বন্ধ
+Clear Filters: ফিল্টার সাফ করুন
 Country: দেশ
 Delete Group: গ্রুপ মুছুন
 Description: বর্ণনা
@@ -32,7 +34,8 @@ Edit Playlist: প্লেলিস্ট সম্পাদনা করুন
 Edit URLs: ইউআরএল এডিট করুন
 End (local): শেষ (স্থানীয়)
 Enrich with EPG: ইপিজি দিয়ে সমৃদ্ধ করুন
-Enter M3U URL:: M3U URL লিখুন:
+Enter JSON URL:: JSON URL লিখুন:
+Enter playlist URL (M3U or JSON):: প্লেলিস্ট URL লিখুন (M3U বা JSON):
 EPG: ইপিজি
 EPG & Favorites: ইপিজি এবং ফেভারিট
 EPG Matching Threshold: EPG ম্যাচিং থ্রেশহোল্ড
@@ -41,11 +44,12 @@ Error: ত্রুটি
 Error loading: লোড করার সময় ত্রুটি৷
 Error loading playlists: {0}: প্লেলিস্ট লোড করার সময় ত্রুটি: {0}
 ERROR: player.html not found.: ত্রুটি: player.html পাওয়া যায়নি।
-Export Failed: রপ্তানি ব্যর্থ হয়েছে৷
+Exit: প্রস্থান করুন
 Export Favorites: রপ্তানি প্রিয়
 Export Filtered JSON: ফিল্টার করা JSON রপ্তানি করুন
 Export Filtered M3U: ফিল্টার করা M3U রপ্তানি করুন
 Export JSON: JSON রপ্তানি করুন
+Export KO: KO রপ্তানি করুন
 Export OK: রপ্তানি ঠিক আছে
 Extracting update...: আপডেট বের করা হচ্ছে...
 Failed to download playlist: প্লেলিস্ট ডাউনলোড করতে ব্যর্থ হয়েছে৷
@@ -59,18 +63,27 @@ GitHub Error: গিটহাব ত্রুটি
 Group: গ্রুপ
 Help: সাহায্য
 Hide List: তালিকা লুকান
+Import: আমদানি
+Import error: {0}: আমদানি ত্রুটি: {0}
+Import from URL: URL থেকে আমদানি করুন
 Import JSON: JSON আমদানি করুন
+Import JSON from URL: URL থেকে JSON আমদানি করুন
+Import Local: স্থানীয় আমদানি করুন
+Imported {0} channels from JSON.: JSON থেকে {0}টি চ্যানেল আমদানি করা হয়েছে।
+Imported {0} channels from URL.: URL থেকে {0}টি চ্যানেল আমদানি করা হয়েছে।
 Info: তথ্য
+Invalid JSON: {0}: অবৈধ JSON: {0}
 Invalid playlist URL.: অবৈধ প্লেলিস্ট URL৷
 Invalid URL.: অবৈধ URL
+JSON Property: JSON সম্পত্তি
 Language: ভাষা
 Languages (comma): ভাষা (কমা)
 LOAD: লোড
 Load a playlist first.: প্রথমে একটি প্লেলিস্ট লোড করুন।
-Load M3U: M3U লোড করুন
-Load M3U file from your computer: আপনার কম্পিউটার থেকে M3U ফাইল লোড করুন
-Load M3U playlist from a web URL: একটি ওয়েব URL থেকে M3U প্লেলিস্ট লোড করুন
+Load File: ফাইল লোড করুন
 Load Online: অনলাইনে লোড করুন
+Load playlist file (M3U/JSON) from your computer: আপনার কম্পিউটার থেকে প্লেলিস্ট ফাইল (M3U/JSON) লোড করুন
+Load playlist from web URL (M3U or JSON): ওয়েব URL থেকে প্লেলিস্ট লোড করুন (M3U বা JSON)
 Loaded: লোড করা হয়েছে
 Loading...: লোড হচ্ছে...
 Logo Preview: লোগো প্রিভিউ
@@ -78,12 +91,16 @@ Logo URL: লোগো URL
 Logos Matching Threshold: লোগো ম্যাচিং থ্রেশহোল্ড
 Logos Source: লোগো উৎস
 Logos Subfolder: লোগো সাবফোল্ডার
+Map JSON properties to channel fields:: চ্যানেল ফিল্ডে JSON বৈশিষ্ট্য ম্যাপ করুন:
+Mapping saved for future imports of this file.: এই ফাইলের ভবিষ্যতের আমদানির জন্য ম্যাপিং সংরক্ষণ করা হয়েছে৷
 Name: নাম
 Nanoid: ন্যানোয়েড
 Network error: নেটওয়ার্ক ত্রুটি
 New Playlist: নতুন প্লেলিস্ট
 Next ▶: পরবর্তী ▶
 No .m3u files found on GitHub repository.: GitHub সংগ্রহস্থলে কোনো .m3u ফাইল পাওয়া যায়নি।
+No channels could be mapped. Check your mapping rules.: কোন চ্যানেল ম্যাপ করা যায়নি. আপনার ম্যাপিং নিয়ম পরীক্ষা করুন.
+No channels mapped: কোনো চ্যানেল ম্যাপ করা হয়নি
 No duplicate URLs found.: কোনো ডুপ্লিকেট URL পাওয়া যায়নি।
 No favorite channels to export.: রপ্তানি করার জন্য কোন প্রিয় চ্যানেল নেই।
 No playlist found: কোনো প্লেলিস্ট পাওয়া যায়নি
@@ -96,6 +113,8 @@ Pause/Resume live stream: লাইভ স্ট্রিম বিরতি/প
 Player ready.: প্লেয়ার প্রস্তুত।
 Playlist Editor: প্লেলিস্ট সম্পাদক
 Please select a program first.: প্রথমে একটি প্রোগ্রাম নির্বাচন করুন.
+Preview (first 5 channels): পূর্বরূপ (প্রথম 5টি চ্যানেল)
+Preview error: {0}: পূর্বরূপ ত্রুটি: {0}
 Program Details: প্রোগ্রামের বিবরণ
 Recent: সাম্প্রতিক
 Recent playlists: সাম্প্রতিক প্লেলিস্ট
@@ -103,11 +122,14 @@ Refresh: রিফ্রেশ
 Refresh EPG List: ইপিজি তালিকা রিফ্রেশ করুন
 Refresh from GitHub: GitHub থেকে রিফ্রেশ করুন
 Rename Group: গ্রুপের নাম পরিবর্তন করুন
+Reset Order: অর্ডার রিসেট করুন
 Save: সংরক্ষণ করুন
 SAVE: সংরক্ষণ করুন
-Save As...: হিসাবে সংরক্ষণ করুন...
+Save as...: হিসাবে সংরক্ষণ করুন...
+Save Mapping: ম্যাপিং সংরক্ষণ করুন
 Save Playlist: প্লেলিস্ট সংরক্ষণ করুন
 Save Status: স্থিতি সংরক্ষণ করুন
+Saved: সংরক্ষিত
 Search channels...: চ্যানেল অনুসন্ধান করুন...
 Select a playlist first.: প্রথমে একটি প্লেলিস্ট নির্বাচন করুন।
 Select Theme: থিম নির্বাচন করুন
@@ -119,12 +141,12 @@ Status: স্ট্যাটাস
 Stream URL: স্ট্রিম URL
 Success: সফলতা
 Support: সমর্থন
+Target Field: লক্ষ্য ক্ষেত্র
 Theme picker: থিম বাছাইকারী
 Time: সময়
 Title: শিরোনাম
 Tools: টুলস
 TV Guide (EPG): টিভি গাইড (EPG)
-TVGarden+: টিভি গার্ডেন+
 TvgId: টিভিজিআইডি
 Unable to find version in remote project file.: দূরবর্তী প্রকল্প ফাইলে সংস্করণ খুঁজে পাওয়া যায়নি.
 Update: আপডেট

@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Available ang isang bago
 About: Tungkol sa
 About TVGarden+: Tungkol sa TVGarden+
 Add Group: Magdagdag ng Grupo
+Add Mapping: Magdagdag ng Mapping
 Advanced IDs: Mga advanced na ID
-Apply: Mag-apply
 Apply changes: Ilapat ang mga pagbabago
+Apply Filters: Ilapat ang Mga Filter
+Auto-detect: Auto-detect
 Buffer (seconds): Buffer (segundo)
 Cancel: Kanselahin
 CANCEL: KANSELAHIN
@@ -15,12 +17,12 @@ Channel Details: Mga Detalye ng Channel
 Channel Info: Impormasyon ng Channel
 Channel:: Channel:
 channels from: mga channel mula sa
+channels from JSON URL: mga channel mula sa JSON URL
 channels from URL: mga channel mula sa URL
 Check Duplicates: Suriin ang Mga Duplicate
 Check for updates: Tingnan ang mga update
 Check URLs: Suriin ang mga URL
-Clear: Maaliwalas
-Close: Isara
+Clear Filters: I-clear ang Mga Filter
 Country: Bansa
 Delete Group: Tanggalin ang Grupo
 Description: Paglalarawan
@@ -32,7 +34,8 @@ Edit Playlist: I-edit ang Playlist
 Edit URLs: I-edit ang mga URL
 End (local): Wakas (lokal)
 Enrich with EPG: Pagyamanin gamit ang EPG
-Enter M3U URL:: Ilagay ang M3U URL:
+Enter JSON URL:: Ilagay ang JSON URL:
+Enter playlist URL (M3U or JSON):: Ilagay ang URL ng playlist (M3U o JSON):
 EPG: EPG
 EPG & Favorites: EPG at Mga Paborito
 EPG Matching Threshold: EPG Matching Threshold
@@ -41,11 +44,12 @@ Error: Error
 Error loading: Error sa paglo-load
 Error loading playlists: {0}: Error sa paglo-load ng mga playlist: {0}
 ERROR: player.html not found.: ERROR: hindi nahanap ang player.html.
-Export Failed: Nabigo ang pag-export
+Exit: Lumabas
 Export Favorites: I-export ang Mga Paborito
 Export Filtered JSON: I-export ang Naka-filter na JSON
 Export Filtered M3U: I-export ang Na-filter na M3U
 Export JSON: I-export ang JSON
+Export KO: I-export ang KO
 Export OK: I-export ang OK
 Extracting update...: Kinukuha ang update...
 Failed to download playlist: Nabigong i-download ang playlist
@@ -59,18 +63,27 @@ GitHub Error: Error sa GitHub
 Group: Grupo
 Help: Tulong
 Hide List: Itago ang Listahan
+Import: Mag-import
+Import error: {0}: Error sa pag-import: {0}
+Import from URL: Mag-import mula sa URL
 Import JSON: Mag-import ng JSON
+Import JSON from URL: Mag-import ng JSON mula sa URL
+Import Local: Mag-import ng Lokal
+Imported {0} channels from JSON.: Nag-import ng {0} (na) channel mula sa JSON.
+Imported {0} channels from URL.: Nag-import ng {0} (na) channel mula sa URL.
 Info: Impormasyon
+Invalid JSON: {0}: Di-wastong JSON: {0}
 Invalid playlist URL.: Di-wastong URL ng playlist.
 Invalid URL.: Di-wastong URL.
+JSON Property: JSON Property
 Language: Wika
 Languages (comma): Mga wika (kuwit)
 LOAD: LOAD
 Load a playlist first.: Mag-load muna ng playlist.
-Load M3U: Mag-load ng M3U
-Load M3U file from your computer: Mag-load ng M3U file mula sa iyong computer
-Load M3U playlist from a web URL: Mag-load ng M3U playlist mula sa isang web URL
+Load File: Mag-load ng File
 Load Online: Mag-load Online
+Load playlist file (M3U/JSON) from your computer: I-load ang playlist file (M3U/JSON) mula sa iyong computer
+Load playlist from web URL (M3U or JSON): Mag-load ng playlist mula sa web URL (M3U o JSON)
 Loaded: Na-load
 Loading...: Naglo-load...
 Logo Preview: Preview ng Logo
@@ -78,12 +91,16 @@ Logo URL: URL ng logo
 Logos Matching Threshold: Mga Logo na Tugma sa Threshold
 Logos Source: Pinagmulan ng Logo
 Logos Subfolder: Logos Subfolder
+Map JSON properties to channel fields:: Imapa ang mga katangian ng JSON sa mga field ng channel:
+Mapping saved for future imports of this file.: Na-save ang pagmamapa para sa hinaharap na pag-import ng file na ito.
 Name: Pangalan
 Nanoid: Nanoid
 Network error: Error sa network
 New Playlist: Bagong Playlist
 Next ▶: Susunod ▶
 No .m3u files found on GitHub repository.: Walang nakitang .m3u file sa GitHub repository.
+No channels could be mapped. Check your mapping rules.: Walang mga channel ang ma-mapa. Suriin ang iyong mga panuntunan sa pagmamapa.
+No channels mapped: Walang mga channel na nakamapa
 No duplicate URLs found.: Walang nakitang duplicate na URL.
 No favorite channels to export.: Walang paboritong channel na ie-export.
 No playlist found: Walang nahanap na playlist
@@ -96,6 +113,8 @@ Pause/Resume live stream: I-pause/Ipagpatuloy ang live stream
 Player ready.: Handa ang manlalaro.
 Playlist Editor: Editor ng Playlist
 Please select a program first.: Mangyaring pumili muna ng isang programa.
+Preview (first 5 channels): Preview (unang 5 channel)
+Preview error: {0}: Error sa pag-preview: {0}
 Program Details: Mga Detalye ng Programa
 Recent: Kamakailan
 Recent playlists: Mga kamakailang playlist
@@ -103,11 +122,14 @@ Refresh: I-refresh
 Refresh EPG List: I-refresh ang Listahan ng EPG
 Refresh from GitHub: I-refresh mula sa GitHub
 Rename Group: Palitan ang pangalan ng Grupo
+Reset Order: I-reset ang Order
 Save: I-save
 SAVE: MAGTIPID
-Save As...: I-save Bilang...
+Save as...: I-save bilang...
+Save Mapping: I-save ang Mapping
 Save Playlist: I-save ang Playlist
 Save Status: I-save ang Katayuan
+Saved: Nai-save
 Search channels...: Maghanap ng mga channel...
 Select a playlist first.: Pumili muna ng playlist.
 Select Theme: Piliin ang Tema
@@ -119,12 +141,12 @@ Status: Katayuan
 Stream URL: URL ng stream
 Success: Tagumpay
 Support: Suporta
+Target Field: Target na Patlang
 Theme picker: Tagapili ng tema
 Time: Oras
 Title: Pamagat
 Tools: Mga gamit
 TV Guide (EPG): Gabay sa TV (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Hindi mahanap ang bersyon sa malayuang file ng proyekto.
 Update: Update

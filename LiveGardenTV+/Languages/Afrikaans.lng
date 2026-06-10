@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: 'n Nuwe weergawe is besk
 About: Oor
 About TVGarden+: Oor TVGarden+
 Add Group: Voeg groep by
+Add Mapping: Voeg kartering by
 Advanced IDs: Gevorderde ID's
-Apply: Doen aansoek
 Apply changes: Pas veranderinge toe
+Apply Filters: Pas filters toe
+Auto-detect: Outo-bespeur
 Buffer (seconds): Buffer (sekondes)
 Cancel: Kanselleer
 CANCEL: KANSELLEER
@@ -15,12 +17,12 @@ Channel Details: Kanaalbesonderhede
 Channel Info: Kanaalinligting
 Channel:: Kanaal:
 channels from: kanale van
+channels from JSON URL: kanale vanaf JSON URL
 channels from URL: kanale vanaf URL
 Check Duplicates: Kontroleer Duplikate
 Check for updates: Kyk vir opdaterings
 Check URLs: Gaan URL's na
-Clear: Duidelik
-Close: Maak toe
+Clear Filters: Vee filters uit
 Country: Land
 Delete Group: Vee groep uit
 Description: Beskrywing
@@ -32,7 +34,8 @@ Edit Playlist: Wysig snitlys
 Edit URLs: Wysig URL's
 End (local): Einde (plaaslik)
 Enrich with EPG: Verryk met EPG
-Enter M3U URL:: Voer M3U URL in:
+Enter JSON URL:: Voer JSON URL in:
+Enter playlist URL (M3U or JSON):: Voer snitlys-URL in (M3U of JSON):
 EPG: EPG
 EPG & Favorites: EPG en gunstelinge
 EPG Matching Threshold: EPG-passingsdrempel
@@ -41,11 +44,12 @@ Error: Fout
 Error loading: Kon nie laai nie
 Error loading playlists: {0}: Kon nie snitlyste laai nie: {0}
 ERROR: player.html not found.: FOUT: player.html nie gevind nie.
-Export Failed: Uitvoer het misluk
+Exit: Verlaat
 Export Favorites: Voer gunstelinge uit
 Export Filtered JSON: Voer gefiltreerde JSON uit
 Export Filtered M3U: Voer gefiltreerde M3U uit
 Export JSON: Voer JSON uit
+Export KO: Voer KO uit
 Export OK: Uitvoer OK
 Extracting update...: Onttrek tans opdatering …
 Failed to download playlist: Kon nie snitlys aflaai nie
@@ -59,18 +63,27 @@ GitHub Error: GitHub-fout
 Group: Groep
 Help: Help
 Hide List: Versteek lys
+Import: Invoer
+Import error: {0}: Invoerfout: {0}
+Import from URL: Voer in vanaf URL
 Import JSON: Voer JSON in
+Import JSON from URL: Voer JSON vanaf URL in
+Import Local: Plaaslik invoer
+Imported {0} channels from JSON.: Het {0} kanale vanaf JSON ingevoer.
+Imported {0} channels from URL.: Het {0} kanale vanaf URL ingevoer.
 Info: Inligting
+Invalid JSON: {0}: Ongeldige JSON: {0}
 Invalid playlist URL.: Ongeldige snitlys-URL.
 Invalid URL.: Ongeldige URL.
+JSON Property: JSON eiendom
 Language: Taal
 Languages (comma): Tale (komma)
 LOAD: LAAI
 Load a playlist first.: Laai eers 'n snitlys.
-Load M3U: Laai M3U
-Load M3U file from your computer: Laai M3U-lêer vanaf jou rekenaar
-Load M3U playlist from a web URL: Laai M3U-snitlys vanaf 'n web-URL
+Load File: Laai lêer
 Load Online: Laai aanlyn
+Load playlist file (M3U/JSON) from your computer: Laai snitlyslêer (M3U/JSON) van jou rekenaar af
+Load playlist from web URL (M3U or JSON): Laai snitlys vanaf web-URL (M3U of JSON)
 Loaded: Gelaai
 Loading...: Laai tans...
 Logo Preview: Logovoorskou
@@ -78,12 +91,16 @@ Logo URL: Logo URL
 Logos Matching Threshold: Logos bypassende drempel
 Logos Source: Logos Bron
 Logos Subfolder: Logos subgids
+Map JSON properties to channel fields:: Kaart JSON-eienskappe na kanaalvelde:
+Mapping saved for future imports of this file.: Kartering gestoor vir toekomstige invoere van hierdie lêer.
 Name: Naam
 Nanoid: Nanoïed
 Network error: Netwerkfout
 New Playlist: Nuwe snitlys
 Next ▶: Volgende ▶
 No .m3u files found on GitHub repository.: Geen .m3u-lêers gevind op GitHub-bewaarplek nie.
+No channels could be mapped. Check your mapping rules.: Geen kanale kon gekarteer word nie. Gaan jou karteringreëls na.
+No channels mapped: Geen kanale gekarteer nie
 No duplicate URLs found.: Geen duplikaat-URL'e gevind nie.
 No favorite channels to export.: Geen gunsteling kanale om uit te voer nie.
 No playlist found: Geen snitlys gevind nie
@@ -96,6 +113,8 @@ Pause/Resume live stream: Onderbreek/Hervat regstreekse stroom
 Player ready.: Speler gereed.
 Playlist Editor: Playlist Editor
 Please select a program first.: Kies asseblief eers 'n program.
+Preview (first 5 channels): Voorskou (eerste 5 kanale)
+Preview error: {0}: Voorskoufout: {0}
 Program Details: Programbesonderhede
 Recent: Onlangs
 Recent playlists: Onlangse snitlyste
@@ -103,11 +122,14 @@ Refresh: Verfris
 Refresh EPG List: Herlaai EPG-lys
 Refresh from GitHub: Verfris vanaf GitHub
 Rename Group: Hernoem groep
+Reset Order: Stel bestelling terug
 Save: Stoor
 SAVE: SPAAR
-Save As...: Stoor as...
+Save as...: Stoor as...
+Save Mapping: Stoor kartering
 Save Playlist: Stoor snitlys
 Save Status: Stoor status
+Saved: Gestoor
 Search channels...: Soek kanale...
 Select a playlist first.: Kies eers 'n snitlys.
 Select Theme: Kies Tema
@@ -119,12 +141,12 @@ Status: Status
 Stream URL: Stroom URL
 Success: Sukses
 Support: Ondersteuning
+Target Field: Teikenveld
 Theme picker: Temakieser
 Time: Tyd
 Title: Titel
 Tools: Gereedskap
 TV Guide (EPG): TV-gids (EPG)
-TVGarden+: TV Tuin+
 TvgId: TvgId
 Unable to find version in remote project file.: Kan nie weergawe in afgeleë projeklêer vind nie.
 Update: Dateer op

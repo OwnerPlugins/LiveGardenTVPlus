@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Une nouvelle version est
 About: À propos
 About TVGarden+: À propos de TVGarden+
 Add Group: Ajouter un groupe
+Add Mapping: Ajouter un mappage
 Advanced IDs: Identifiants avancés
-Apply: Appliquer
 Apply changes: Appliquer les modifications
+Apply Filters: Appliquer des filtres
+Auto-detect: Détection automatique
 Buffer (seconds): Tampon (secondes)
 Cancel: Annuler
 CANCEL: ANNULER
@@ -15,12 +17,12 @@ Channel Details: Détails de la chaîne
 Channel Info: Informations sur la chaîne
 Channel:: Canal:
 channels from: chaînes de
+channels from JSON URL: canaux à partir de l'URL JSON
 channels from URL: chaînes à partir de l'URL
 Check Duplicates: Vérifier les doublons
 Check for updates: Vérifier les mises à jour
 Check URLs: Vérifier les URL
-Clear: Clair
-Close: Fermer
+Clear Filters: Effacer les filtres
 Country: Pays
 Delete Group: Supprimer le groupe
 Description: Description
@@ -32,7 +34,8 @@ Edit Playlist: Modifier la liste de lecture
 Edit URLs: Modifier les URL
 End (local): Fin (locale)
 Enrich with EPG: Enrichir avec EPG
-Enter M3U URL:: Saisissez l'URL M3U :
+Enter JSON URL:: Saisissez l'URL JSON :
+Enter playlist URL (M3U or JSON):: Saisissez l'URL de la playlist (M3U ou JSON) :
 EPG: EPG
 EPG & Favorites: EPG et favoris
 EPG Matching Threshold: Seuil de correspondance EPG
@@ -41,11 +44,12 @@ Error: Erreur
 Error loading: Erreur de chargement
 Error loading playlists: {0}: Erreur lors du chargement des playlists : {0}
 ERROR: player.html not found.: ERREUR : player.html introuvable.
-Export Failed: Échec de l'exportation
+Exit: Sortie
 Export Favorites: Exporter les favoris
 Export Filtered JSON: Exporter du JSON filtré
 Export Filtered M3U: Exporter M3U filtré
 Export JSON: Exporter JSON
+Export KO: Exporter KO
 Export OK: Exporter OK
 Extracting update...: Extraction de la mise à jour...
 Failed to download playlist: Échec du téléchargement de la playlist
@@ -59,18 +63,27 @@ GitHub Error: Erreur GitHub
 Group: Groupe
 Help: Aide
 Hide List: Masquer la liste
+Import: Importer
+Import error: {0}: Erreur d'importation : {0}
+Import from URL: Importer depuis l'URL
 Import JSON: Importer du JSON
+Import JSON from URL: Importer JSON à partir d'une URL
+Import Local: Importer local
+Imported {0} channels from JSON.: {0} chaînes importées depuis JSON.
+Imported {0} channels from URL.: {0} chaînes importées à partir de l'URL.
 Info: Informations
+Invalid JSON: {0}: JSON non valide : {0}
 Invalid playlist URL.: URL de playlist non valide.
 Invalid URL.: URL invalide.
+JSON Property: Propriété JSON
 Language: Langue
 Languages (comma): Langues (virgule)
 LOAD: CHARGER
 Load a playlist first.: Chargez d'abord une liste de lecture.
-Load M3U: Charger M3U
-Load M3U file from your computer: Charger le fichier M3U depuis votre ordinateur
-Load M3U playlist from a web URL: Charger une playlist M3U à partir d'une URL Web
+Load File: Charger le fichier
 Load Online: Charger en ligne
+Load playlist file (M3U/JSON) from your computer: Charger le fichier de playlist (M3U/JSON) depuis votre ordinateur
+Load playlist from web URL (M3U or JSON): Charger une playlist à partir d'une URL Web (M3U ou JSON)
 Loaded: Chargé
 Loading...: Chargement...
 Logo Preview: Aperçu du logo
@@ -78,12 +91,16 @@ Logo URL: URL du logo
 Logos Matching Threshold: Seuil de correspondance des logos
 Logos Source: Source des logos
 Logos Subfolder: Sous-dossier Logos
+Map JSON properties to channel fields:: Mappez les propriétés JSON aux champs de canal :
+Mapping saved for future imports of this file.: Mappage enregistré pour les futures importations de ce fichier.
 Name: Nom
 Nanoid: Nanoide
 Network error: Erreur réseau
 New Playlist: Nouvelle liste de lecture
 Next ▶: Suivant ▶
 No .m3u files found on GitHub repository.: Aucun fichier .m3u trouvé sur le référentiel GitHub.
+No channels could be mapped. Check your mapping rules.: Aucun canal n'a pu être mappé. Vérifiez vos règles de mappage.
+No channels mapped: Aucune chaîne mappée
 No duplicate URLs found.: Aucune URL en double trouvée.
 No favorite channels to export.: Aucune chaîne favorite à exporter.
 No playlist found: Aucune playlist trouvée
@@ -96,6 +113,8 @@ Pause/Resume live stream: Pause/Reprise de la diffusion en direct
 Player ready.: Joueur prêt.
 Playlist Editor: Éditeur de liste de lecture
 Please select a program first.: Veuillez d'abord sélectionner un programme.
+Preview (first 5 channels): Aperçu (5 premières chaînes)
+Preview error: {0}: Erreur d'aperçu : {0}
 Program Details: Détails du programme
 Recent: Récent
 Recent playlists: Listes de lecture récentes
@@ -103,11 +122,14 @@ Refresh: Rafraîchir
 Refresh EPG List: Actualiser la liste EPG
 Refresh from GitHub: Actualiser depuis GitHub
 Rename Group: Renommer le groupe
+Reset Order: Réinitialiser la commande
 Save: Sauvegarder
 SAVE: SAUVEGARDER
-Save As...: Enregistrer sous...
+Save as...: Enregistrer sous...
+Save Mapping: Enregistrer le mappage
 Save Playlist: Enregistrer la liste de lecture
 Save Status: Enregistrer le statut
+Saved: Enregistré
 Search channels...: Rechercher des chaînes...
 Select a playlist first.: Sélectionnez d'abord une liste de lecture.
 Select Theme: Sélectionnez un thème
@@ -119,12 +141,12 @@ Status: Statut
 Stream URL: URL du flux
 Success: Succès
 Support: Soutien
+Target Field: Champ cible
 Theme picker: Sélecteur de thème
 Time: Temps
 Title: Titre
 Tools: Outils
 TV Guide (EPG): Guide télé (EPG)
-TVGarden+: Télévision Jardin+
 TvgId: TvgId
 Unable to find version in remote project file.: Impossible de trouver la version dans le fichier de projet distant.
 Update: Mise à jour

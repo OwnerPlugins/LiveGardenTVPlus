@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Ir pieejama jauna versij
 About: Par
 About TVGarden+: Par TVGarden+
 Add Group: Pievienot grupu
+Add Mapping: Pievienot kartēšanu
 Advanced IDs: Papildu ID
-Apply: Pieteikties
 Apply changes: Lietot izmaiņas
+Apply Filters: Lietot filtrus
+Auto-detect: Automātiska noteikšana
 Buffer (seconds): Buferis (sekundēs)
 Cancel: Atcelt
 CANCEL: ATCELT
@@ -15,12 +17,12 @@ Channel Details: Kanāla informācija
 Channel Info: Informācija par kanālu
 Channel:: Kanāls:
 channels from: kanāli no
+channels from JSON URL: kanāli no JSON URL
 channels from URL: kanāli no URL
 Check Duplicates: Pārbaudiet dublikātus
 Check for updates: Pārbaudiet, vai nav atjauninājumu
 Check URLs: Pārbaudiet URL
-Clear: Skaidrs
-Close: Aizvērt
+Clear Filters: Notīrīt filtrus
 Country: Valsts
 Delete Group: Dzēst grupu
 Description: Apraksts
@@ -32,7 +34,8 @@ Edit Playlist: Rediģēt atskaņošanas sarakstu
 Edit URLs: Rediģēt URL
 End (local): Beigas (vietējais)
 Enrich with EPG: Bagātināt ar EPG
-Enter M3U URL:: Ievadiet M3U URL:
+Enter JSON URL:: Ievadiet JSON URL:
+Enter playlist URL (M3U or JSON):: Ievadiet atskaņošanas saraksta URL (M3U vai JSON):
 EPG: EPG
 EPG & Favorites: EPG un izlase
 EPG Matching Threshold: EPG atbilstības slieksnis
@@ -41,11 +44,12 @@ Error: Kļūda
 Error loading: Ielādējot, radās kļūda
 Error loading playlists: {0}: Ielādējot atskaņošanas sarakstus, radās kļūda: {0}
 ERROR: player.html not found.: KĻŪDA: player.html nav atrasts.
-Export Failed: Eksportēšana neizdevās
+Exit: Iziet
 Export Favorites: Eksportēt izlasi
 Export Filtered JSON: Eksportēt filtrēto JSON
 Export Filtered M3U: Eksportēt filtrēto M3U
 Export JSON: Eksportēt JSON
+Export KO: Eksportēt KO
 Export OK: Eksportēt OK
 Extracting update...: Notiek atjauninājuma izvilkšana...
 Failed to download playlist: Neizdevās lejupielādēt atskaņošanas sarakstu
@@ -59,18 +63,27 @@ GitHub Error: GitHub kļūda
 Group: Grupa
 Help: Palīdzība
 Hide List: Slēpt sarakstu
+Import: Importēt
+Import error: {0}: Importēšanas kļūda: {0}
+Import from URL: Importēt no URL
 Import JSON: Importēt JSON
+Import JSON from URL: Importējiet JSON no URL
+Import Local: Importēt vietējos
+Imported {0} channels from JSON.: Importēti {0} kanāli no JSON.
+Imported {0} channels from URL.: Importēti {0} kanāli no URL.
 Info: Informācija
+Invalid JSON: {0}: Nederīgs JSON: {0}
 Invalid playlist URL.: Nederīgs atskaņošanas saraksta URL.
 Invalid URL.: Nederīgs URL.
+JSON Property: JSON īpašums
 Language: Valoda
 Languages (comma): Valodas (komats)
 LOAD: LOAD
 Load a playlist first.: Vispirms ielādējiet atskaņošanas sarakstu.
-Load M3U: Ielādēt M3U
-Load M3U file from your computer: Ielādējiet M3U failu no sava datora
-Load M3U playlist from a web URL: Ielādējiet M3U atskaņošanas sarakstu no tīmekļa URL
+Load File: Ielādēt failu
 Load Online: Ielādēt tiešsaistē
+Load playlist file (M3U/JSON) from your computer: Ielādējiet atskaņošanas saraksta failu (M3U/JSON) no sava datora
+Load playlist from web URL (M3U or JSON): Ielādēt atskaņošanas sarakstu no tīmekļa URL (M3U vai JSON)
 Loaded: Ielādēts
 Loading...: Notiek ielāde...
 Logo Preview: Logotipa priekšskatījums
@@ -78,12 +91,16 @@ Logo URL: Logotipa URL
 Logos Matching Threshold: Logotipu atbilstības slieksnis
 Logos Source: Logotipu avots
 Logos Subfolder: Logotipu apakšmape
+Map JSON properties to channel fields:: Kartēt JSON rekvizītus ar kanāla laukiem:
+Mapping saved for future imports of this file.: Kartēšana saglabāta turpmākai šī faila importēšanai.
 Name: Vārds
 Nanoid: Nanoīds
 Network error: Tīkla kļūda
 New Playlist: Jauns atskaņošanas saraksts
 Next ▶: Nākamais ▶
 No .m3u files found on GitHub repository.: GitHub repozitorijā netika atrasts neviens .m3u fails.
+No channels could be mapped. Check your mapping rules.: Nevarēja kartēt nevienu kanālu. Pārbaudiet savus kartēšanas noteikumus.
+No channels mapped: Nav kartētu kanālu
 No duplicate URLs found.: Nav atrasti dublikāti URL.
 No favorite channels to export.: Nav iecienītu kanālu, ko eksportēt.
 No playlist found: Nav atrasts neviens atskaņošanas saraksts
@@ -96,6 +113,8 @@ Pause/Resume live stream: Apturēt/atsākt tiešraides straumi
 Player ready.: Spēlētājs gatavs.
 Playlist Editor: Atskaņošanas sarakstu redaktors
 Please select a program first.: Lūdzu, vispirms atlasiet programmu.
+Preview (first 5 channels): Priekšskatījums (pirmie 5 kanāli)
+Preview error: {0}: Priekšskatījuma kļūda: {0}
 Program Details: Programmas informācija
 Recent: Nesen
 Recent playlists: Jaunākie atskaņošanas saraksti
@@ -103,11 +122,14 @@ Refresh: Atsvaidzināt
 Refresh EPG List: Atsvaidziniet EPG sarakstu
 Refresh from GitHub: Atsvaidziniet no GitHub
 Rename Group: Pārdēvēt grupu
+Reset Order: Atiestatīt pasūtījumu
 Save: Saglabāt
 SAVE: SAGLABĀT
-Save As...: Saglabāt kā...
+Save as...: Saglabāt kā...
+Save Mapping: Saglabāt kartēšanu
 Save Playlist: Saglabāt atskaņošanas sarakstu
 Save Status: Saglabāt statusu
+Saved: Saglabāts
 Search channels...: Meklēt kanālus...
 Select a playlist first.: Vispirms atlasiet atskaņošanas sarakstu.
 Select Theme: Izvēlieties Motīvu
@@ -119,12 +141,12 @@ Status: Statuss
 Stream URL: Straumes URL
 Success: Panākumi
 Support: Atbalsts
+Target Field: Mērķa lauks
 Theme picker: Motīvu atlasītājs
 Time: Laiks
 Title: Nosaukums
 Tools: Rīki
 TV Guide (EPG): TV ceļvedis (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Attālā projekta failā nevar atrast versiju.
 Update: Atjaunināt

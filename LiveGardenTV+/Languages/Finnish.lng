@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Uusi versio on saatavill
 About: Noin
 About TVGarden+: Tietoja TVGarden+:sta
 Add Group: Lisää ryhmä
+Add Mapping: Lisää kartoitus
 Advanced IDs: Edistyneet tunnukset
-Apply: Käytä
 Apply changes: Ota muutokset käyttöön
+Apply Filters: Käytä suodattimia
+Auto-detect: Automaattinen tunnistus
 Buffer (seconds): Puskuri (sekuntia)
 Cancel: Peruuttaa
 CANCEL: PERUUTTAA
@@ -15,12 +17,12 @@ Channel Details: Kanavan tiedot
 Channel Info: Kanavan tiedot
 Channel:: Kanava:
 channels from: kanavat alkaen
+channels from JSON URL: kanavat JSON-osoitteesta
 channels from URL: kanavia URL-osoitteesta
 Check Duplicates: Tarkista kaksoiskappaleet
 Check for updates: Tarkista päivitykset
 Check URLs: Tarkista URL-osoitteet
-Clear: Selkeä
-Close: Lähellä
+Clear Filters: Tyhjennä suodattimet
 Country: Maa
 Delete Group: Poista ryhmä
 Description: Kuvaus
@@ -32,7 +34,8 @@ Edit Playlist: Muokkaa soittolistaa
 Edit URLs: Muokkaa URL-osoitteita
 End (local): Loppu (paikallinen)
 Enrich with EPG: Rikastuta EPG:llä
-Enter M3U URL:: Anna M3U:n URL-osoite:
+Enter JSON URL:: Anna JSON-URL-osoite:
+Enter playlist URL (M3U or JSON):: Anna soittolistan URL-osoite (M3U tai JSON):
 EPG: EPG
 EPG & Favorites: EPG ja suosikit
 EPG Matching Threshold: EPG-vastaavuuskynnys
@@ -41,11 +44,12 @@ Error: Virhe
 Error loading: Virhe latauksessa
 Error loading playlists: {0}: Virhe soittolistojen lataamisessa: {0}
 ERROR: player.html not found.: VIRHE: player.html ei löydy.
-Export Failed: Vienti epäonnistui
+Exit: Poistu
 Export Favorites: Vie suosikit
 Export Filtered JSON: Vie suodatettu JSON
 Export Filtered M3U: Vie suodatettu M3U
 Export JSON: Vie JSON
+Export KO: Vie KO
 Export OK: Vie OK
 Extracting update...: Poimitaan päivitystä...
 Failed to download playlist: Soittolistan lataaminen epäonnistui
@@ -59,18 +63,27 @@ GitHub Error: GitHub-virhe
 Group: ryhmä
 Help: Auttaa
 Hide List: Piilota luettelo
+Import: Tuoda
+Import error: {0}: Tuontivirhe: {0}
+Import from URL: Tuo URL-osoitteesta
 Import JSON: Tuo JSON
+Import JSON from URL: Tuo JSON URL-osoitteesta
+Import Local: Tuo paikallinen
+Imported {0} channels from JSON.: Tuotu {0} kanavaa JSONista.
+Imported {0} channels from URL.: Tuotiin {0} kanavaa URL-osoitteesta.
 Info: Tiedot
+Invalid JSON: {0}: Virheellinen JSON: {0}
 Invalid playlist URL.: Virheellinen soittolistan URL-osoite.
 Invalid URL.: Virheellinen URL-osoite.
+JSON Property: JSON-omaisuus
 Language: Kieli
 Languages (comma): Kielet (pilkku)
 LOAD: LADATA
 Load a playlist first.: Lataa ensin soittolista.
-Load M3U: Lataa M3U
-Load M3U file from your computer: Lataa M3U-tiedosto tietokoneeltasi
-Load M3U playlist from a web URL: Lataa M3U-soittolista web-URL-osoitteesta
+Load File: Lataa tiedosto
 Load Online: Lataa verkossa
+Load playlist file (M3U/JSON) from your computer: Lataa soittolistatiedosto (M3U/JSON) tietokoneeltasi
+Load playlist from web URL (M3U or JSON): Lataa soittolista verkko-URL-osoitteesta (M3U tai JSON)
 Loaded: Ladattu
 Loading...: Ladataan...
 Logo Preview: Logon esikatselu
@@ -78,12 +91,16 @@ Logo URL: Logon URL-osoite
 Logos Matching Threshold: Logojen vastaavuuskynnys
 Logos Source: Logon lähde
 Logos Subfolder: Logot-alikansio
+Map JSON properties to channel fields:: Yhdistä JSON-ominaisuudet kanavakenttiin:
+Mapping saved for future imports of this file.: Kartta on tallennettu tämän tiedoston tulevaa tuontia varten.
 Name: Nimi
 Nanoid: Nanoidi
 Network error: Verkkovirhe
 New Playlist: Uusi soittolista
 Next ▶: Seuraava ▶
 No .m3u files found on GitHub repository.: GitHub-tietovarastosta ei löytynyt .m3u-tiedostoja.
+No channels could be mapped. Check your mapping rules.: Kanavia ei voitu kartoittaa. Tarkista karttasäännöt.
+No channels mapped: Ei kartoitettuja kanavia
 No duplicate URLs found.: Päällekkäisiä URL-osoitteita ei löytynyt.
 No favorite channels to export.: Ei suosikkikanavia vietäväksi.
 No playlist found: Soittolistaa ei löydy
@@ -96,6 +113,8 @@ Pause/Resume live stream: Keskeytä/Jatka suoratoistoa
 Player ready.: Pelaaja valmis.
 Playlist Editor: Soittolistaeditori
 Please select a program first.: Valitse ensin ohjelma.
+Preview (first 5 channels): Esikatselu (ensimmäiset 5 kanavaa)
+Preview error: {0}: Esikatseluvirhe: {0}
 Program Details: Ohjelman tiedot
 Recent: Viimeaikaiset
 Recent playlists: Viimeaikaiset soittolistat
@@ -103,11 +122,14 @@ Refresh: Päivitä
 Refresh EPG List: Päivitä EPG-luettelo
 Refresh from GitHub: Päivitä GitHubista
 Rename Group: Nimeä ryhmä uudelleen
+Reset Order: Nollaa tilaus
 Save: Tallentaa
 SAVE: TALLENTAA
-Save As...: Tallenna nimellä...
+Save as...: Tallenna nimellä...
+Save Mapping: Tallenna kartoitus
 Save Playlist: Tallenna soittolista
 Save Status: Tallenna tila
+Saved: Tallennettu
 Search channels...: Hae kanavia...
 Select a playlist first.: Valitse ensin soittolista.
 Select Theme: Valitse Teema
@@ -119,12 +141,12 @@ Status: Status
 Stream URL: Striimin URL-osoite
 Success: Menestys
 Support: Tukea
+Target Field: Kohdekenttä
 Theme picker: Teemanvalitsin
 Time: Aika
 Title: Otsikko
 Tools: Työkalut
 TV Guide (EPG): TV-opas (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Versiota ei löydy etäprojektitiedostosta.
 Update: Päivittää

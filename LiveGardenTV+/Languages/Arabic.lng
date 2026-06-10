@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: نسخة جديدة مت
 About: عن
 About TVGarden+: حول TVGarden+
 Add Group: أضف مجموعة
+Add Mapping: إضافة رسم الخرائط
 Advanced IDs: معرفات متقدمة
-Apply: يتقدم
 Apply changes: تطبيق التغييرات
+Apply Filters: تطبيق المرشحات
+Auto-detect: الكشف التلقائي
 Buffer (seconds): المخزن المؤقت (ثواني)
 Cancel: يلغي
 CANCEL: يلغي
@@ -15,12 +17,12 @@ Channel Details: تفاصيل القناة
 Channel Info: معلومات القناة
 Channel:: قناة:
 channels from: القنوات من
+channels from JSON URL: القنوات من JSON URL
 channels from URL: القنوات من URL
 Check Duplicates: التحقق من التكرارات
 Check for updates: التحقق من وجود تحديثات
 Check URLs: تحقق من عناوين URL
-Clear: واضح
-Close: يغلق
+Clear Filters: مسح المرشحات
 Country: دولة
 Delete Group: حذف المجموعة
 Description: وصف
@@ -32,7 +34,8 @@ Edit Playlist: تحرير قائمة التشغيل
 Edit URLs: تحرير عناوين URL
 End (local): النهاية (محلي)
 Enrich with EPG: إثراء مع دليل البرامج الإلكتروني
-Enter M3U URL:: أدخل عنوان URL لـ M3U:
+Enter JSON URL:: أدخل عنوان URL لـ JSON:
+Enter playlist URL (M3U or JSON):: أدخل عنوان URL لقائمة التشغيل (M3U أو JSON):
 EPG: دليل البرامج الإلكتروني
 EPG & Favorites: دليل البرامج الإلكتروني والمفضلة
 EPG Matching Threshold: عتبة مطابقة EPG
@@ -41,11 +44,12 @@ Error: خطأ
 Error loading: حدث خطأ أثناء التحميل
 Error loading playlists: {0}: حدث خطأ أثناء تحميل قوائم التشغيل: {0}
 ERROR: player.html not found.: خطأ: لم يتم العثور على player.html.
-Export Failed: فشل التصدير
+Exit: مخرج
 Export Favorites: تصدير المفضلة
 Export Filtered JSON: تصدير JSON التي تمت تصفيتها
 Export Filtered M3U: تصدير M3U التي تمت تصفيتها
 Export JSON: تصدير JSON
+Export KO: تصدير كو
 Export OK: تصدير موافق
 Extracting update...: جارٍ استخراج التحديث...
 Failed to download playlist: فشل تنزيل قائمة التشغيل
@@ -59,18 +63,27 @@ GitHub Error: خطأ جيثب
 Group: مجموعة
 Help: يساعد
 Hide List: إخفاء القائمة
+Import: يستورد
+Import error: {0}: خطأ في الاستيراد: {0}
+Import from URL: استيراد من URL
 Import JSON: استيراد جسون
+Import JSON from URL: استيراد JSON من URL
+Import Local: استيراد محلي
+Imported {0} channels from JSON.: تم استيراد {0} قناة من JSON.
+Imported {0} channels from URL.: تم استيراد {0} قناة من عنوان URL.
 Info: معلومات
+Invalid JSON: {0}: JSON غير صالح: {0}
 Invalid playlist URL.: عنوان URL لقائمة التشغيل غير صالح.
 Invalid URL.: عنوان URL غير صالح.
+JSON Property: خاصية جيسون
 Language: لغة
 Languages (comma): اللغات (فاصلة)
 LOAD: حمولة
 Load a playlist first.: قم بتحميل قائمة التشغيل أولاً.
-Load M3U: تحميل M3U
-Load M3U file from your computer: قم بتحميل ملف M3U من جهاز الكمبيوتر الخاص بك
-Load M3U playlist from a web URL: قم بتحميل قائمة تشغيل M3U من عنوان URL على الويب
+Load File: تحميل الملف
 Load Online: تحميل على الانترنت
+Load playlist file (M3U/JSON) from your computer: قم بتحميل ملف قائمة التشغيل (M3U/JSON) من جهاز الكمبيوتر الخاص بك
+Load playlist from web URL (M3U or JSON): تحميل قائمة التشغيل من عنوان URL على الويب (M3U أو JSON)
 Loaded: محملة
 Loading...: تحميل...
 Logo Preview: معاينة الشعار
@@ -78,12 +91,16 @@ Logo URL: عنوان URL للشعار
 Logos Matching Threshold: عتبة مطابقة الشعارات
 Logos Source: مصدر الشعارات
 Logos Subfolder: الشعارات المجلد الفرعي
+Map JSON properties to channel fields:: قم بتعيين خصائص JSON لحقول القناة:
+Mapping saved for future imports of this file.: تم حفظ التعيين لعمليات الاستيراد المستقبلية لهذا الملف.
 Name: اسم
 Nanoid: نانويد
 Network error: خطأ في الشبكة
 New Playlist: قائمة تشغيل جديدة
 Next ▶: التالي ◀
 No .m3u files found on GitHub repository.: لم يتم العثور على ملفات .m3u في مستودع GitHub.
+No channels could be mapped. Check your mapping rules.: لا يمكن تعيين أي قنوات. تحقق من قواعد رسم الخرائط الخاصة بك.
+No channels mapped: لم يتم تعيين أي قنوات
 No duplicate URLs found.: لم يتم العثور على عناوين URL مكررة.
 No favorite channels to export.: لا توجد قنوات مفضلة للتصدير.
 No playlist found: لم يتم العثور على قائمة تشغيل
@@ -96,6 +113,8 @@ Pause/Resume live stream: إيقاف مؤقت/استئناف البث المبا
 Player ready.: اللاعب جاهز.
 Playlist Editor: محرر قائمة التشغيل
 Please select a program first.: الرجاء تحديد البرنامج أولاً.
+Preview (first 5 channels): معاينة (أول 5 قنوات)
+Preview error: {0}: خطأ في المعاينة: {0}
 Program Details: تفاصيل البرنامج
 Recent: مؤخرًا
 Recent playlists: قوائم التشغيل الأخيرة
@@ -103,11 +122,14 @@ Refresh: ينعش
 Refresh EPG List: قم بتحديث قائمة EPG
 Refresh from GitHub: قم بالتحديث من جيثب
 Rename Group: إعادة تسمية المجموعة
+Reset Order: إعادة تعيين الطلب
 Save: يحفظ
 SAVE: يحفظ
-Save As...: حفظ باسم...
+Save as...: حفظ باسم...
+Save Mapping: حفظ رسم الخرائط
 Save Playlist: حفظ قائمة التشغيل
 Save Status: حفظ الحالة
+Saved: أنقذ
 Search channels...: بحث في القنوات...
 Select a playlist first.: حدد قائمة التشغيل أولاً.
 Select Theme: حدد الموضوع
@@ -119,12 +141,12 @@ Status: حالة
 Stream URL: عنوان URL للدفق
 Success: نجاح
 Support: يدعم
+Target Field: مجال الهدف
 Theme picker: منتقي الموضوع
 Time: وقت
 Title: عنوان
 Tools: أدوات
 TV Guide (EPG): دليل التلفاز (EPG)
-TVGarden+: حديقة التلفاز+
 TvgId: معرف التلفزيون
 Unable to find version in remote project file.: غير قادر على العثور على الإصدار في ملف المشروع البعيد.
 Update: تحديث

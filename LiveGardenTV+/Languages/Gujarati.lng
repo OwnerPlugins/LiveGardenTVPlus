@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: નવું સંસ�
 About: વિશે
 About TVGarden+: TVGarden+ વિશે
 Add Group: જૂથ ઉમેરો
+Add Mapping: મેપિંગ ઉમેરો
 Advanced IDs: અદ્યતન IDs
-Apply: અરજી કરો
 Apply changes: ફેરફારો લાગુ કરો
+Apply Filters: ફિલ્ટર્સ લાગુ કરો
+Auto-detect: સ્વતઃ શોધ
 Buffer (seconds): બફર (સેકન્ડ)
 Cancel: રદ કરો
 CANCEL: રદ કરો
@@ -15,12 +17,12 @@ Channel Details: ચેનલ વિગતો
 Channel Info: ચેનલ માહિતી
 Channel:: ચેનલ:
 channels from: માંથી ચેનલો
+channels from JSON URL: JSON URL માંથી ચેનલો
 channels from URL: URL માંથી ચેનલો
 Check Duplicates: ડુપ્લિકેટ્સ તપાસો
 Check for updates: અપડેટ્સ માટે તપાસો
 Check URLs: URL ને તપાસો
-Clear: સાફ કરો
-Close: બંધ કરો
+Clear Filters: ફિલ્ટર્સ સાફ કરો
 Country: દેશ
 Delete Group: જૂથ કાઢી નાખો
 Description: વર્ણન
@@ -32,7 +34,8 @@ Edit Playlist: પ્લેલિસ્ટ સંપાદિત કરો
 Edit URLs: URL ને સંપાદિત કરો
 End (local): અંત (સ્થાનિક)
 Enrich with EPG: EPG સાથે સમૃદ્ધ બનાવો
-Enter M3U URL:: M3U URL દાખલ કરો:
+Enter JSON URL:: JSON URL દાખલ કરો:
+Enter playlist URL (M3U or JSON):: પ્લેલિસ્ટ URL દાખલ કરો (M3U અથવા JSON):
 EPG: ઇપીજી
 EPG & Favorites: EPG અને મનપસંદ
 EPG Matching Threshold: EPG મેચિંગ થ્રેશોલ્ડ
@@ -41,11 +44,12 @@ Error: ભૂલ
 Error loading: લોડ કરવામાં ભૂલ
 Error loading playlists: {0}: પ્લેલિસ્ટ લોડ કરવામાં ભૂલ: {0}
 ERROR: player.html not found.: ભૂલ: player.html મળ્યું નથી.
-Export Failed: નિકાસ નિષ્ફળ
+Exit: બહાર નીકળો
 Export Favorites: નિકાસ મનપસંદ
 Export Filtered JSON: ફિલ્ટર કરેલ JSON નિકાસ કરો
 Export Filtered M3U: ફિલ્ટર કરેલ M3U નિકાસ કરો
 Export JSON: JSON નિકાસ કરો
+Export KO: KO નિકાસ કરો
 Export OK: નિકાસ બરાબર
 Extracting update...: અપડેટ એક્સટ્રેક્ટ કરી રહ્યાં છીએ...
 Failed to download playlist: પ્લેલિસ્ટ ડાઉનલોડ કરવામાં નિષ્ફળ
@@ -59,18 +63,27 @@ GitHub Error: GitHub ભૂલ
 Group: સમૂહ
 Help: મદદ
 Hide List: સૂચિ છુપાવો
+Import: આયાત કરો
+Import error: {0}: આયાત ભૂલ: {0}
+Import from URL: URL થી આયાત કરો
 Import JSON: JSON આયાત કરો
+Import JSON from URL: URL થી JSON આયાત કરો
+Import Local: સ્થાનિક આયાત કરો
+Imported {0} channels from JSON.: JSON માંથી {0} ચેનલ્સ આયાત કરી.
+Imported {0} channels from URL.: URL માંથી {0} ચેનલો આયાત કરી.
 Info: માહિતી
+Invalid JSON: {0}: અમાન્ય JSON: {0}
 Invalid playlist URL.: અમાન્ય પ્લેલિસ્ટ URL.
 Invalid URL.: અમાન્ય URL.
+JSON Property: JSON પ્રોપર્ટી
 Language: ભાષા
 Languages (comma): ભાષાઓ (અલ્પવિરામ)
 LOAD: લોડ
 Load a playlist first.: પહેલા પ્લેલિસ્ટ લોડ કરો.
-Load M3U: M3U લોડ કરો
-Load M3U file from your computer: તમારા કમ્પ્યુટરથી M3U ફાઇલ લોડ કરો
-Load M3U playlist from a web URL: વેબ URL થી M3U પ્લેલિસ્ટ લોડ કરો
+Load File: ફાઇલ લોડ કરો
 Load Online: ઓનલાઈન લોડ કરો
+Load playlist file (M3U/JSON) from your computer: તમારા કમ્પ્યુટરથી પ્લેલિસ્ટ ફાઇલ (M3U/JSON) લોડ કરો
+Load playlist from web URL (M3U or JSON): વેબ URL (M3U અથવા JSON) માંથી પ્લેલિસ્ટ લોડ કરો
 Loaded: લોડ
 Loading...: લોડ કરી રહ્યું છે...
 Logo Preview: લોગો પૂર્વાવલોકન
@@ -78,12 +91,16 @@ Logo URL: લોગો URL
 Logos Matching Threshold: લોગો મેચિંગ થ્રેશોલ્ડ
 Logos Source: લોગો સ્ત્રોત
 Logos Subfolder: લોગો સબફોલ્ડર
+Map JSON properties to channel fields:: ચેનલ ફીલ્ડમાં JSON ગુણધર્મોને નકશો કરો:
+Mapping saved for future imports of this file.: આ ફાઇલના ભાવિ આયાત માટે મેપિંગ સાચવવામાં આવ્યું છે.
 Name: નામ
 Nanoid: નેનોઇડ
 Network error: નેટવર્ક ભૂલ
 New Playlist: નવી પ્લેલિસ્ટ
 Next ▶: આગળ ▶
 No .m3u files found on GitHub repository.: GitHub રિપોઝીટરી પર કોઈ .m3u ફાઇલો મળી નથી.
+No channels could be mapped. Check your mapping rules.: કોઈ ચેનલો મેપ કરી શકાઈ નથી. તમારા મેપિંગ નિયમો તપાસો.
+No channels mapped: કોઈ ચેનલો મેપ કરેલી નથી
 No duplicate URLs found.: કોઈ ડુપ્લિકેટ URL મળ્યાં નથી.
 No favorite channels to export.: નિકાસ કરવા માટે કોઈ મનપસંદ ચેનલો નથી.
 No playlist found: કોઈ પ્લેલિસ્ટ મળ્યું નથી
@@ -96,6 +113,8 @@ Pause/Resume live stream: લાઇવ સ્ટ્રીમને થોભા�
 Player ready.: પ્લેયર તૈયાર છે.
 Playlist Editor: પ્લેલિસ્ટ એડિટર
 Please select a program first.: કૃપા કરીને પહેલા પ્રોગ્રામ પસંદ કરો.
+Preview (first 5 channels): પૂર્વાવલોકન (પ્રથમ 5 ચેનલો)
+Preview error: {0}: પૂર્વાવલોકન ભૂલ: {0}
 Program Details: પ્રોગ્રામ વિગતો
 Recent: તાજેતરના
 Recent playlists: તાજેતરની પ્લેલિસ્ટ્સ
@@ -103,11 +122,14 @@ Refresh: તાજું કરો
 Refresh EPG List: EPG સૂચિ તાજી કરો
 Refresh from GitHub: GitHub થી તાજું કરો
 Rename Group: જૂથનું નામ બદલો
+Reset Order: ઓર્ડર રીસેટ કરો
 Save: સાચવો
 SAVE: સાચવો
-Save As...: આ રીતે સાચવો...
+Save as...: તરીકે સાચવો...
+Save Mapping: મેપિંગ સાચવો
 Save Playlist: પ્લેલિસ્ટ સાચવો
 Save Status: સ્ટેટસ સાચવો
+Saved: સાચવેલ
 Search channels...: ચેનલો શોધો...
 Select a playlist first.: પહેલા પ્લેલિસ્ટ પસંદ કરો.
 Select Theme: થીમ પસંદ કરો
@@ -119,12 +141,12 @@ Status: સ્થિતિ
 Stream URL: સ્ટ્રીમ URL
 Success: સફળતા
 Support: આધાર
+Target Field: લક્ષ્ય ક્ષેત્ર
 Theme picker: થીમ પીકર
 Time: સમય
 Title: શીર્ષક
 Tools: સાધનો
 TV Guide (EPG): ટીવી માર્ગદર્શિકા (EPG)
-TVGarden+: ટીવી ગાર્ડન+
 TvgId: TvgId
 Unable to find version in remote project file.: રિમોટ પ્રોજેક્ટ ફાઇલમાં સંસ્કરણ શોધવામાં અસમર્થ.
 Update: અપડેટ કરો

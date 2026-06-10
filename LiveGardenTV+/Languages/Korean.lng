@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: 새 버전을 사용할 
 About: 에 대한
 About TVGarden+: TVGarden+ 소개
 Add Group: 그룹 추가
+Add Mapping: 매핑 추가
 Advanced IDs: 고급 ID
-Apply: 적용하다
 Apply changes: 변경사항 적용
+Apply Filters: 필터 적용
+Auto-detect: 자동 감지
 Buffer (seconds): 버퍼(초)
 Cancel: 취소
 CANCEL: 취소
@@ -15,12 +17,12 @@ Channel Details: 채널 세부정보
 Channel Info: 채널 정보
 Channel:: 채널:
 channels from: 채널
+channels from JSON URL: JSON URL의 채널
 channels from URL: URL의 채널
 Check Duplicates: 중복 확인
 Check for updates: 업데이트 확인
 Check URLs: URL 확인
-Clear: 분명한
-Close: 닫다
+Clear Filters: 필터 지우기
 Country: 국가
 Delete Group: 그룹 삭제
 Description: 설명
@@ -32,7 +34,8 @@ Edit Playlist: 재생목록 편집
 Edit URLs: URL 편집
 End (local): 종료(로컬)
 Enrich with EPG: EPG로 풍요롭게 하세요
-Enter M3U URL:: M3U URL을 입력하세요:
+Enter JSON URL:: JSON URL을 입력하세요:
+Enter playlist URL (M3U or JSON):: 재생목록 URL 입력(M3U 또는 JSON):
 EPG: EPG
 EPG & Favorites: EPG 및 즐겨찾기
 EPG Matching Threshold: EPG 일치 임계값
@@ -41,11 +44,12 @@ Error: 오류
 Error loading: 로드 중 오류 발생
 Error loading playlists: {0}: 재생목록 로드 중 오류 발생: {0}
 ERROR: player.html not found.: 오류: player.html을 찾을 수 없습니다.
-Export Failed: 내보내기 실패
+Exit: 출구
 Export Favorites: 즐겨찾기 내보내기
 Export Filtered JSON: 필터링된 JSON 내보내기
 Export Filtered M3U: 필터링된 M3U 내보내기
 Export JSON: JSON 내보내기
+Export KO: 수출 KO
 Export OK: 수출 OK
 Extracting update...: 업데이트 추출 중...
 Failed to download playlist: 재생목록을 다운로드하지 못했습니다.
@@ -59,18 +63,27 @@ GitHub Error: GitHub 오류
 Group: 그룹
 Help: 돕다
 Hide List: 목록 숨기기
+Import: 수입
+Import error: {0}: 가져오기 오류: {0}
+Import from URL: URL에서 가져오기
 Import JSON: JSON 가져오기
+Import JSON from URL: URL에서 JSON 가져오기
+Import Local: 로컬 가져오기
+Imported {0} channels from JSON.: JSON에서 {0}개의 채널을 가져왔습니다.
+Imported {0} channels from URL.: URL에서 {0}개의 채널을 가져왔습니다.
 Info: 정보
+Invalid JSON: {0}: 잘못된 JSON: {0}
 Invalid playlist URL.: 재생목록 URL이 잘못되었습니다.
 Invalid URL.: URL이 잘못되었습니다.
+JSON Property: JSON 속성
 Language: 언어
 Languages (comma): 언어(쉼표)
 LOAD: 짐
 Load a playlist first.: 먼저 재생목록을 로드하세요.
-Load M3U: M3U 로드
-Load M3U file from your computer: 컴퓨터에서 M3U 파일 로드
-Load M3U playlist from a web URL: 웹 URL에서 M3U 재생 목록 로드
+Load File: 파일 로드
 Load Online: 온라인으로 로드
+Load playlist file (M3U/JSON) from your computer: 컴퓨터에서 재생 목록 파일(M3U/JSON) 로드
+Load playlist from web URL (M3U or JSON): 웹 URL(M3U 또는 JSON)에서 재생목록 로드
 Loaded: 짐을 실은
 Loading...: 로드 중...
 Logo Preview: 로고 미리보기
@@ -78,12 +91,16 @@ Logo URL: 로고 URL
 Logos Matching Threshold: 로고 일치 임계값
 Logos Source: 로고 소스
 Logos Subfolder: 로고 하위 폴더
+Map JSON properties to channel fields:: JSON 속성을 채널 필드에 매핑합니다.
+Mapping saved for future imports of this file.: 나중에 이 파일을 가져올 수 있도록 매핑이 저장되었습니다.
 Name: 이름
 Nanoid: 나노이드
 Network error: 네트워크 오류
 New Playlist: 새 재생목록
 Next ▶: 다음 ▶
 No .m3u files found on GitHub repository.: GitHub 저장소에서 .m3u 파일을 찾을 수 없습니다.
+No channels could be mapped. Check your mapping rules.: 채널을 매핑할 수 없습니다. 매핑 규칙을 확인하세요.
+No channels mapped: 매핑된 채널이 없습니다.
 No duplicate URLs found.: 중복된 URL이 없습니다.
 No favorite channels to export.: 내보낼 즐겨찾는 채널이 없습니다.
 No playlist found: 재생목록을 찾을 수 없습니다.
@@ -96,6 +113,8 @@ Pause/Resume live stream: 라이브 스트림 일시중지/재개
 Player ready.: 플레이어가 준비되었습니다.
 Playlist Editor: 재생목록 편집기
 Please select a program first.: 먼저 프로그램을 선택해주세요.
+Preview (first 5 channels): 미리보기(처음 5개 채널)
+Preview error: {0}: 미리보기 오류: {0}
 Program Details: 프로그램 세부정보
 Recent: 최근의
 Recent playlists: 최근 재생목록
@@ -103,11 +122,14 @@ Refresh: 새로 고치다
 Refresh EPG List: EPG 목록 새로 고침
 Refresh from GitHub: GitHub에서 새로 고침
 Rename Group: 그룹 이름 바꾸기
+Reset Order: 주문 재설정
 Save: 구하다
 SAVE: 구하다
-Save As...: 다른 이름으로 저장...
+Save as...: 다른 이름으로 저장...
+Save Mapping: 매핑 저장
 Save Playlist: 재생목록 저장
 Save Status: 상태 저장
+Saved: 저장됨
 Search channels...: 채널 검색...
 Select a playlist first.: 먼저 재생목록을 선택하세요.
 Select Theme: 테마 선택
@@ -119,12 +141,12 @@ Status: 상태
 Stream URL: 스트림 URL
 Success: 성공
 Support: 지원하다
+Target Field: 대상분야
 Theme picker: 테마 선택기
 Time: 시간
 Title: 제목
 Tools: 도구
 TV Guide (EPG): TV 가이드(EPG)
-TVGarden+: TV가든+
 TvgId: TvgId
 Unable to find version in remote project file.: 원격 프로젝트 파일에서 버전을 찾을 수 없습니다.
 Update: 업데이트

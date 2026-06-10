@@ -4,9 +4,11 @@ A new version is available. Do you want to update now?: Verżjoni ġdida hija di
 About: Dwar
 About TVGarden+: Dwar TVGarden+
 Add Group: Żid Grupp
+Add Mapping: Żid Mapping
 Advanced IDs: IDs Avvanzati
-Apply: Applika
 Apply changes: Applika bidliet
+Apply Filters: Applika Filtri
+Auto-detect: Issib awtomatikament
 Buffer (seconds): Buffer (sekondi)
 Cancel: Ikkanċella
 CANCEL: IKANNELLA
@@ -15,12 +17,12 @@ Channel Details: Dettalji tal-Kanal
 Channel Info: Informazzjoni dwar il-Kanal
 Channel:: Kanal:
 channels from: kanali minn
+channels from JSON URL: kanali mill-URL JSON
 channels from URL: kanali mill-URL
 Check Duplicates: Iċċekkja Duplikati
 Check for updates: Iċċekkja għal aġġornamenti
 Check URLs: Iċċekkja l-URLs
-Clear: Ċara
-Close: Agħlaq
+Clear Filters: Filtri ċari
 Country: Pajjiż
 Delete Group: Ħassar Grupp
 Description: Deskrizzjoni
@@ -32,7 +34,8 @@ Edit Playlist: Editja Playlist
 Edit URLs: Editja l-URLs
 End (local): Tmiem (lokali)
 Enrich with EPG: Tarrikkixxi bl-EPG
-Enter M3U URL:: Daħħal URL M3U:
+Enter JSON URL:: Daħħal JSON URL:
+Enter playlist URL (M3U or JSON):: Daħħal l-URL tal-playlist (M3U jew JSON):
 EPG: EPG
 EPG & Favorites: EPG & Favoriti
 EPG Matching Threshold: Limitu ta' Tqabbil EPG
@@ -41,11 +44,12 @@ Error: Żball
 Error loading: Żball fit-tagħbija
 Error loading playlists: {0}: Żball fit-tagħbija tal-playlists: {0}
 ERROR: player.html not found.: ŻBALL: player.html ma nstabx.
-Export Failed: Esportazzjoni Falliet
+Exit: Ħruġ
 Export Favorites: Esportazzjoni Favoriti
 Export Filtered JSON: Esportazzjoni Iffiltrat JSON
 Export Filtered M3U: Esportazzjoni Iffiltrat M3U
 Export JSON: Esportazzjoni JSON
+Export KO: Esportazzjoni KO
 Export OK: Esportazzjoni OK
 Extracting update...: Qed jiġi estratt aġġornament...
 Failed to download playlist: Naqas milli tniżżel playlist
@@ -59,18 +63,27 @@ GitHub Error: Żball GitHub
 Group: Grupp
 Help: Għajnuna
 Hide List: Aħbi Lista
+Import: Importazzjoni
+Import error: {0}: Żball fl-importazzjoni: {0}
+Import from URL: Importa mill-URL
 Import JSON: Importa JSON
+Import JSON from URL: Importa JSON mill-URL
+Import Local: Importazzjoni Lokali
+Imported {0} channels from JSON.: Importati {0} kanali minn JSON.
+Imported {0} channels from URL.: Importati {0} kanali mill-URL.
 Info: Info
+Invalid JSON: {0}: JSON mhux validu: {0}
 Invalid playlist URL.: URL tal-playlist mhux validu.
 Invalid URL.: URL invalidu.
+JSON Property: Proprjetà JSON
 Language: Lingwa
 Languages (comma): Lingwi (virgola)
 LOAD: TAGĦBIJA
 Load a playlist first.: L-ewwel tagħbija playlist.
-Load M3U: Tagħbija M3U
-Load M3U file from your computer: Tagħbija fajl M3U mill-kompjuter tiegħek
-Load M3U playlist from a web URL: Tagħbija playlist M3U minn URL tal-web
+Load File: Tagħbija Fajl
 Load Online: Tagħbija Online
+Load playlist file (M3U/JSON) from your computer: Tagħbija l-fajl tal-playlist (M3U/JSON) mill-kompjuter tiegħek
+Load playlist from web URL (M3U or JSON): Tagħbija playlist mill-URL tal-web (M3U jew JSON)
 Loaded: Mgħobbija
 Loading...: Tagħbija...
 Logo Preview: Preview tal-logo
@@ -78,12 +91,16 @@ Logo URL: URL tal-logo
 Logos Matching Threshold: Limitu ta' Tqabbil tal-Logos
 Logos Source: Sors Logos
 Logos Subfolder: Subfolder tal-logos
+Map JSON properties to channel fields:: Ippjana proprjetajiet JSON għal oqsma tal-kanali:
+Mapping saved for future imports of this file.: Immappjar salvat għal importazzjonijiet futuri ta' dan il-fajl.
 Name: Isem
 Nanoid: Nanojdi
 Network error: Żball tan-netwerk
 New Playlist: Playlist ġdida
 Next ▶: Li jmiss ▶
 No .m3u files found on GitHub repository.: L-ebda fajl .m3u misjub fuq ir-repożitorju GitHub.
+No channels could be mapped. Check your mapping rules.: L-ebda kanali ma setgħu jiġu mmappjati. Iċċekkja r-regoli tal-mapping tiegħek.
+No channels mapped: Ebda kanali mmappjati
 No duplicate URLs found.: Ma nstab l-ebda URL duplikat.
 No favorite channels to export.: Ebda kanali favoriti għall-esportazzjoni.
 No playlist found: Ma nstabet l-ebda playlist
@@ -96,6 +113,8 @@ Pause/Resume live stream: Waqfa/Ibda live stream
 Player ready.: Player lest.
 Playlist Editor: Editur tal-Playlist
 Please select a program first.: Jekk jogħġbok agħżel programm l-ewwel.
+Preview (first 5 channels): Preview (l-ewwel 5 kanali)
+Preview error: {0}: Żball ta' preview: {0}
 Program Details: Dettalji tal-Programm
 Recent: Riċenti
 Recent playlists: Playlists riċenti
@@ -103,11 +122,14 @@ Refresh: Aġġorna
 Refresh EPG List: Aġġorna l-Lista EPG
 Refresh from GitHub: Aġġorna minn GitHub
 Rename Group: Semmi mill-ġdid tal-Grupp
+Reset Order: Irrisettja l-Ordni
 Save: Ħlief
 SAVE: SAVE
-Save As...: Ħlief bħala...
+Save as...: Ħlief bħala...
+Save Mapping: Ħlief Mapping
 Save Playlist: Ħlief Playlist
 Save Status: Issejvja l-Istatus
+Saved: Salvat
 Search channels...: Fittex kanali...
 Select a playlist first.: Agħżel playlist l-ewwel.
 Select Theme: Agħżel Tema
@@ -119,12 +141,12 @@ Status: Status
 Stream URL: Stream URL
 Success: Suċċess
 Support: Appoġġ
+Target Field: Target Field
 Theme picker: Picker tat-tema
 Time: Ħin
 Title: Titolu
 Tools: Għodda
 TV Guide (EPG): Gwida tat-TV (EPG)
-TVGarden+: TV Garden+
 TvgId: TvgId
 Unable to find version in remote project file.: Ma tistax issib verżjoni fil-fajl tal-proġett remot.
 Update: Aġġornament
