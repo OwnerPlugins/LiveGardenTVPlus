@@ -1245,31 +1245,33 @@ namespace LiveGardenTVPlus
 
             string help = $@"LiveGardenTVPlus Help - Version {shortVersion}
 
-        📁 PLAYLIST
+        📁 PLAYLIST LOADING
         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        • Load M3U   – Open a playlist file from your PC
-        • Online M3U – Enter URL of a remote playlist
-        • Recent     – Show last 5 opened playlists (click to reload)
-        • Settings   – Change buffer size, select online playlist (Refresh from GitHub)
-        • Drag & drop an M3U file directly onto the window
+        • Load File – Open a local M3U/JSON file (filter includes both formats)
+        • Load Online – Enter a remote URL (supports M3U and JSON, auto-detected)
+        • Recent – Show last 5 opened files (click to reload)
+        • Drag & drop an M3U/JSON file directly onto the main window
 
         ⚙️ SETTINGS
         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
         • Language – Change UI language (dynamic translation)
         • Buffer – Adjust HLS buffer (1–10 seconds)
         • Online Playlist – Select a pre‑defined M3U from GitHub (Refresh from GitHub)
-        • EPG Source – Choose a XMLTV file from epgshare01 or enter custom URL
-        • Save – Saves all settings (no full restart, just applies changes)
+        • EPG Source – Choose XMLTV file from epgshare01 or enter custom URL
+        • Logos Source – Select logos repository and subfolder (SNP/PROVIDER/ALL)
+        • Matching thresholds – Set fuzzy matching for EPG and logos
+        • Save – Saves all settings without reloading the current playlist
 
         📺 CHANNEL VIEW & EDITOR
         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        • EPG (current program info) and channel logos (tvg-logo)
-        • Resizable sidebar, improved M3U parser, automatic update system
-        • Click a channel to start playback; click a group name → shows only that group
-        • Search box → flat list of results; '← Back to all groups' returns to full list
+        • Click a channel to play; click a group name to show only that group
         • Favorites – star icon; toggle 'Favorites only'
-        • Playlist Editor – edit channels, groups, check URLs, import/export JSON
+        • Search box – flat list of results; '← Back to all groups' returns to full list
+        • Playlist Editor – Edit channels, groups, URLs, check duplicates, import/export
+        • JSON Import – Import local or remote JSON with flexible field mapping (auto‑detect, save mapping)
         • Enrich with EPG – automatically adds missing tvg-id tags using fuzzy matching
+        • Fetch Logos – Download logos from remote repository for all channels
+        • Column sorting – Click any column header to sort; use 'Reset Order' to revert
 
         🎮 PLAYER CONTROLS
         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1284,8 +1286,7 @@ namespace LiveGardenTVPlus
         🔄 UPDATER
         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
         • Automatic update check on startup (or click the update button)
-        • If a new version is found, you will be prompted to download it
-        • The updater downloads the ZIP, replaces all files, and restarts the app
+        • Downloads ZIP, replaces files, and restarts the app
         • Your settings and playlists are preserved
 
         🎨 THEMES & LANGUAGE
