@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Prejšnja
 A new version is available. Do you want to update now?: Na voljo je nova različica. Ali želite posodobiti zdaj?
 About: O tem
+About TVGarden+: O TVGarden+
 Add Group: Dodaj skupino
 Advanced IDs: Napredni ID-ji
 Apply: Prijavite se
@@ -9,7 +10,6 @@ Apply changes: Uporabi spremembe
 Buffer (seconds): Medpomnilnik (sekunde)
 Cancel: Prekliči
 CANCEL: PREKLIC
-Cannot open browser: Brskalnika ni mogoče odpreti
 Category: Kategorija
 Channel Details: Podrobnosti kanala
 Channel Info: Informacije o kanalu
@@ -21,8 +21,7 @@ Check for updates: Preverite posodobitve
 Check URLs: Preverite URL-je
 Clear: jasno
 Close: Zapri
-Country: : država:
-Country:: država:
+Country: Država
 Delete Group: Izbriši skupino
 Description: Opis
 Details: Podrobnosti
@@ -34,6 +33,7 @@ Edit URLs: Uredite URL-je
 End (local): Konec (lokalno)
 Enrich with EPG: Obogatite z EPG
 Enter M3U URL:: Vnesite URL M3U:
+EPG: EPG
 EPG & Favorites: EPG & Priljubljene
 EPG Matching Threshold: Prag ujemanja EPG
 EPG Source: Vir EPG
@@ -56,8 +56,7 @@ FILTERS: FILTRI
 Geo & Country: Geo in država
 GeoBlocked: GeoBlocked
 GitHub Error: Napaka GitHub
-Group: : Skupina:
-Group:: Skupina:
+Group: skupina
 Help: pomoč
 Hide List: Skrij seznam
 Import JSON: Uvoz JSON
@@ -65,20 +64,21 @@ Info: Informacije
 Invalid playlist URL.: Neveljaven URL seznama predvajanja.
 Invalid URL.: Neveljaven URL.
 Language: Jezik
-Languages (comma): : Jeziki (vejica):
-Languages (comma):: Jeziki (vejica):
+Languages (comma): Jeziki (vejica)
 LOAD: NALOŽITEV
 Load a playlist first.: Najprej naložite seznam predvajanja.
+Load M3U: Naložite M3U
+Load M3U file from your computer: Naložite datoteko M3U iz računalnika
+Load M3U playlist from a web URL: Naloži seznam predvajanja M3U s spletnega URL-ja
+Load Online: Naloži na spletu
 Loaded: Naloženo
 Loading...: Nalaganje...
-Logo Preview:: Predogled logotipa:
-Logo URL: : URL logotipa:
-Logo URL:: URL logotipa:
+Logo Preview: Predogled logotipa
+Logo URL: URL logotipa
 Logos Matching Threshold: Prag ujemanja logotipov
 Logos Source: Izvor logotipov
 Logos Subfolder: Podmapa Logotipi
-Name: : ime:
-Name:: ime:
+Name: Ime
 Nanoid: Nanoid
 Network error: Omrežna napaka
 New Playlist: Nov seznam predvajanja
@@ -97,6 +97,8 @@ Player ready.: Igralec pripravljen.
 Playlist Editor: Urejevalnik seznamov predvajanja
 Please select a program first.: Najprej izberite program.
 Program Details: Podrobnosti programa
+Recent: Nedavno
+Recent playlists: Nedavni seznami predvajanja
 Refresh: Osveži
 Refresh EPG List: Osveži seznam EPG
 Refresh from GitHub: Osveži iz GitHub
@@ -111,6 +113,7 @@ Select a playlist first.: Najprej izberite seznam predvajanja.
 Select Theme: Izberite Tema
 Settings: nastavitve
 Show List: Pokaži seznam
+Show or hide the channel list: Prikaži ali skrij seznam kanalov
 Start (local): Začetek (lokalno)
 Status: Stanje
 Stream URL: URL toka
@@ -121,14 +124,14 @@ Time: Čas
 Title: Naslov
 Tools: Orodja
 TV Guide (EPG): TV-vodnik (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: TV Garden+
+TvgId: TvgId
 Unable to find version in remote project file.: Ni mogoče najti različice v datoteki oddaljenega projekta.
 Update: posodobitev
 Update complete. Restarting...: Posodobitev končana. Ponovni zagon ...
 Update failed: : Posodobitev ni uspela:
 URL: URL
-URL (primary):: URL (primarni):
+URL (primary): URL (primarni)
 URL list (one per line): Seznam URL-jev (eden na vrstico)
 URLs & Status: URL-ji in stanje
 Version: Različica

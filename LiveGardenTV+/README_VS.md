@@ -16,6 +16,20 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 ## Changelog
 
 
+## 🚀 LiveGardenTVPlus – Changelog (v2.0)
+
+### 🕘 Recent Playlists
+- **Recent files button** – New button in the main toolbar (clock icon + “Recent”) that shows a popup list of the last 5 opened M3U files.
+- **Persistent list** – The list of recent playlists is saved between sessions and updated each time you load a local M3U file.
+- **Quick access** – Click any entry in the popup to reload the playlist immediately.
+- **Popup alignment** – Both the “Recent” and “Tools” popups are now properly aligned to the left side of their respective buttons.
+
+### 🎨 Interface & Usability
+- **Localization** – All UI texts (EPG, logos, editor, settings, detail window, URL editor) translatable via `LanguageManager`. Added language change event handling to all windows.
+- **Clickable Credits** – Links to CORVOBOYS.ORG and LINUXSAT-SUPPORT.COM.
+
+---
+
 ## 🚀 LiveGardenTVPlus – Changelog (v1.9)
 
 ### 🛠️ Playlist Editor Enhancements
@@ -29,10 +43,8 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 
 ### 🎨 Interface & Usability
 - **Dynamic Theme Support** – All windows respect the selected theme (16 themes + Light/Dark). Standard brush keys (`WindowBackgroundBrush`, `ForegroundBrush`, `ControlBackgroundBrush`, `BorderBrush`, `AccentBrush`, `AlternateRowBackgroundBrush`) unified across all theme files.
-- **Localization** – All UI texts (EPG, logos, editor, settings, detail window, URL editor) translatable via `LanguageManager`. Added language change event handling to all windows.
 - **Progress Feedback** – Indeterminate progress while downloading logos index; deterministic progress during Fetch Logos.
 - **Resizable Sidebar** – Draggable `GridSplitter` between channel list and player.
-- **Clickable Credits** – Links to CORVOBOYS.ORG and LINUXSAT-SUPPORT.COM.
 
 ### 🐛 Bug Fixes
 - Fixed thread safety issues in timeshift timer and EPG parsing.
@@ -43,6 +55,7 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 - Fixed language change event subscription (use `LanguageManager.LanguageChanged += ApplyLanguage` without parameters).
 - Fixed channel details window counter positioning (moved below buttons, centered).
 
+---
 
 ### 🆕 New Features & Improvements – Version 1.8
 

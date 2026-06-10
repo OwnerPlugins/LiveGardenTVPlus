@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Prethodno
 A new version is available. Do you want to update now?: Dostupna je nova verzija. Želite li ažurirati sada?
 About: O
+About TVGarden+: O TVGarden+
 Add Group: Dodaj grupu
 Advanced IDs: Napredni ID-ovi
 Apply: Prijavite se
@@ -9,7 +10,6 @@ Apply changes: Primijenite promjene
 Buffer (seconds): Međuspremnik (sekunde)
 Cancel: Otkaži
 CANCEL: OTKAZI
-Cannot open browser: Nije moguće otvoriti pretraživač
 Category: Kategorija
 Channel Details: Channel Details
 Channel Info: Informacije o kanalu
@@ -21,12 +21,11 @@ Check for updates: Provjerite ima li ažuriranja
 Check URLs: Provjerite URL-ove
 Clear: Jasno
 Close: Zatvori
-Country: : Država:
-Country:: Država:
+Country: Država
 Delete Group: Izbriši grupu
 Description: Opis
 Details: Detalji
-Do you want to load the edited playlist now?: Želite li sada učitati uređenu playlistu?
+Do you want to load the edited playlist now?: Želite li sada učitati uređenu listu za reprodukciju?
 Downloading playlist...: Preuzimanje plejliste...
 Duplicate URLs found:\n\n: Pronađeni dupli URL-ovi:\n\n
 Edit Playlist: Uredi plejlistu
@@ -34,6 +33,7 @@ Edit URLs: Uredite URL-ove
 End (local): Kraj (lokalno)
 Enrich with EPG: Obogatite EPG-om
 Enter M3U URL:: Unesite M3U URL:
+EPG: EPG
 EPG & Favorites: EPG & Favoriti
 EPG Matching Threshold: EPG Matching Threshold
 EPG Source: EPG izvor
@@ -55,9 +55,8 @@ Fetch Logos: Dohvati logotipe
 FILTERS: FILTERI
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
-GitHub Error: GitHub greška
-Group: : Grupa:
-Group:: Grupa:
+GitHub Error: GitHub Greška
+Group: Grupa
 Help: Upomoć
 Hide List: Sakrij listu
 Import JSON: Uvezi JSON
@@ -65,20 +64,21 @@ Info: Info
 Invalid playlist URL.: Nevažeći URL plejliste.
 Invalid URL.: Nevažeći URL.
 Language: Jezik
-Languages (comma): : Jezici (zarez):
-Languages (comma):: Jezici (zarez):
+Languages (comma): Jezici (zarez)
 LOAD: LOAD
 Load a playlist first.: Prvo učitajte listu za reprodukciju.
+Load M3U: Učitajte M3U
+Load M3U file from your computer: Učitajte M3U fajl sa svog računara
+Load M3U playlist from a web URL: Učitajte M3U playlistu sa web URL-a
+Load Online: Load Online
 Loaded: Loaded
 Loading...: Učitavanje...
-Logo Preview:: Pregled logotipa:
-Logo URL: : URL logotipa:
-Logo URL:: URL logotipa:
+Logo Preview: Pregled logotipa
+Logo URL: URL logotipa
 Logos Matching Threshold: Prag podudaranja logotipa
 Logos Source: Logos Source
 Logos Subfolder: Logos Subfolder
-Name: : ime:
-Name:: ime:
+Name: Ime
 Nanoid: Nanoid
 Network error: Mrežna greška
 New Playlist: Nova lista za reprodukciju
@@ -95,8 +95,10 @@ Online Playlist: Online playlist
 Pause/Resume live stream: Pauziraj/nastavi prijenos uživo
 Player ready.: Igrač spreman.
 Playlist Editor: Playlist Editor
-Please select a program first.: Molimo prvo odaberite program.
-Program Details: Program Details
+Please select a program first.: Prvo odaberite program.
+Program Details: Detalji programa
+Recent: Nedavno
+Recent playlists: Nedavne plejliste
 Refresh: Osvježi
 Refresh EPG List: Osvježite EPG listu
 Refresh from GitHub: Osvježite sa GitHub-a
@@ -111,6 +113,7 @@ Select a playlist first.: Prvo odaberite listu za reprodukciju.
 Select Theme: Odaberite Tema
 Settings: Postavke
 Show List: Prikaži listu
+Show or hide the channel list: Prikažite ili sakrijte listu kanala
 Start (local): Početak (lokalno)
 Status: Status
 Stream URL: Stream URL
@@ -121,14 +124,14 @@ Time: Vrijeme
 Title: Naslov
 Tools: Alati
 TV Guide (EPG): TV vodič (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: TV Garden+
+TvgId: TvgId
 Unable to find version in remote project file.: Nije moguće pronaći verziju u datoteci udaljenog projekta.
 Update: Ažuriraj
 Update complete. Restarting...: Ažuriranje je završeno. Ponovno pokretanje...
 Update failed: : Ažuriranje nije uspjelo:
 URL: URL
-URL (primary):: URL (primarni):
+URL (primary): URL (primarni)
 URL list (one per line): Lista URL-ova (jedan po redu)
 URLs & Status: URL-ovi i status
 Version: Verzija

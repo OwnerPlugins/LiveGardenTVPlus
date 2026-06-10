@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Алдыңғы
 A new version is available. Do you want to update now?: Жаңа нұсқасы қолжетімді. Қазір жаңартқыңыз келе ме?
 About: туралы
+About TVGarden+: TVGarden+ туралы
 Add Group: Топ қосу
 Advanced IDs: Жетілдірілген идентификаторлар
 Apply: Қолдану
@@ -9,7 +10,6 @@ Apply changes: Өзгерістерді қолдану
 Buffer (seconds): Буфер (секунд)
 Cancel: Болдырмау
 CANCEL: БАС ТАРТУ
-Cannot open browser: Браузерді ашу мүмкін емес
 Category: Санат
 Channel Details: Арна мәліметтері
 Channel Info: Арна ақпараты
@@ -21,8 +21,7 @@ Check for updates: Жаңартуларды тексеріңіз
 Check URLs: URL мекенжайларын тексеріңіз
 Clear: Таза
 Close: Жабу
-Country: : Ел:
-Country:: Ел:
+Country: Ел
 Delete Group: Топты жою
 Description: Сипаттама
 Details: Мәліметтер
@@ -34,6 +33,7 @@ Edit URLs: URL мекенжайларын өңдеу
 End (local): Соңы (жергілікті)
 Enrich with EPG: EPG-мен байытыңыз
 Enter M3U URL:: M3U URL мекенжайын енгізіңіз:
+EPG: EPG
 EPG & Favorites: EPG және таңдаулылар
 EPG Matching Threshold: EPG сәйкестік шегі
 EPG Source: EPG көзі
@@ -56,8 +56,7 @@ FILTERS: СҮЗГІЛЕР
 Geo & Country: Гео және ел
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub қатесі
-Group: : Топ:
-Group:: Топ:
+Group: Топ
 Help: Көмек
 Hide List: Тізімді жасыру
 Import JSON: JSON импорттау
@@ -65,20 +64,21 @@ Info: Ақпарат
 Invalid playlist URL.: Жарамсыз ойнату тізімінің URL мекенжайы.
 Invalid URL.: Жарамсыз URL.
 Language: Тіл
-Languages (comma): : Тілдер (үтір):
-Languages (comma):: Тілдер (үтір):
+Languages (comma): Тілдер (үтір)
 LOAD: ЖҮКТЕМЕ
 Load a playlist first.: Алдымен ойнату тізімін жүктеңіз.
+Load M3U: M3U жүктеңіз
+Load M3U file from your computer: M3U файлын компьютерден жүктеңіз
+Load M3U playlist from a web URL: M3U ойнату тізімін веб-URL мекенжайынан жүктеңіз
+Load Online: Онлайн жүктеңіз
 Loaded: Жүктелді
 Loading...: Жүктелуде...
-Logo Preview:: Логотипті алдын ала қарау:
-Logo URL: : Логотип URL:
-Logo URL:: Логотип URL:
+Logo Preview: Логотипті алдын ала қарау
+Logo URL: Логотип URL
 Logos Matching Threshold: Логотиптердің сәйкес келу шегі
 Logos Source: Логотиптер көзі
 Logos Subfolder: Логотиптер ішкі қалтасы
-Name: : Аты:
-Name:: Аты:
+Name: Аты
 Nanoid: Наноид
 Network error: Желі қатесі
 New Playlist: Жаңа ойнату тізімі
@@ -97,6 +97,8 @@ Player ready.: Ойыншы дайын.
 Playlist Editor: Ойнату тізімі редакторы
 Please select a program first.: Алдымен бағдарламаны таңдаңыз.
 Program Details: Бағдарлама мәліметтері
+Recent: Соңғы
+Recent playlists: Соңғы ойнату тізімдері
 Refresh: Жаңарту
 Refresh EPG List: EPG тізімін жаңарту
 Refresh from GitHub: GitHub жүйесінен жаңартыңыз
@@ -111,6 +113,7 @@ Select a playlist first.: Алдымен ойнату тізімін таңда�
 Select Theme: Тақырыпты таңдаңыз
 Settings: Параметрлер
 Show List: Тізімді көрсету
+Show or hide the channel list: Арналар тізімін көрсету немесе жасыру
 Start (local): Бастау (жергілікті)
 Status: Күй
 Stream URL: Ағын URL
@@ -121,14 +124,14 @@ Time: Уақыт
 Title: Тақырып
 Tools: Құралдар
 TV Guide (EPG): Теледидар нұсқаулығы (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: TV Garden+
+TvgId: TvgId
 Unable to find version in remote project file.: Қашықтағы жоба файлында нұсқаны табу мүмкін емес.
 Update: Жаңарту
 Update complete. Restarting...: Жаңарту аяқталды. Қайта іске қосылуда...
 Update failed: : Жаңарту сәтсіз аяқталды:
 URL: URL
-URL (primary):: URL (негізгі):
+URL (primary): URL (негізгі)
 URL list (one per line): URL тізімі (әр жолға бір)
 URLs & Status: URL мекенжайлары және күй
 Version: Нұсқа

@@ -2,6 +2,7 @@
 ◀ Previous: ◀ മുമ്പത്തെ
 A new version is available. Do you want to update now?: ഒരു പുതിയ പതിപ്പ് ലഭ്യമാണ്. നിങ്ങൾക്ക് ഇപ്പോൾ അപ്ഡേറ്റ് ചെയ്യണോ?
 About: കുറിച്ച്
+About TVGarden+: TVGarden+ നെ കുറിച്ച്
 Add Group: ഗ്രൂപ്പ് ചേർക്കുക
 Advanced IDs: വിപുലമായ ഐഡികൾ
 Apply: അപേക്ഷിക്കുക
@@ -9,7 +10,6 @@ Apply changes: മാറ്റങ്ങൾ പ്രയോഗിക്കുക
 Buffer (seconds): ബഫർ (സെക്കൻഡ്)
 Cancel: റദ്ദാക്കുക
 CANCEL: റദ്ദാക്കുക
-Cannot open browser: ബ്രൗസർ തുറക്കാൻ കഴിയില്ല
 Category: വിഭാഗം
 Channel Details: ചാനൽ വിശദാംശങ്ങൾ
 Channel Info: ചാനൽ വിവരം
@@ -21,8 +21,7 @@ Check for updates: അപ്ഡേറ്റുകൾക്കായി പരി
 Check URLs: URL-കൾ പരിശോധിക്കുക
 Clear: ക്ലിയർ
 Close: അടയ്ക്കുക
-Country: : രാജ്യം:
-Country:: രാജ്യം:
+Country: രാജ്യം
 Delete Group: ഗ്രൂപ്പ് ഇല്ലാതാക്കുക
 Description: വിവരണം
 Details: വിശദാംശങ്ങൾ
@@ -34,6 +33,7 @@ Edit URLs: URL-കൾ എഡിറ്റ് ചെയ്യുക
 End (local): അവസാനം (പ്രാദേശികം)
 Enrich with EPG: EPG ഉപയോഗിച്ച് സമ്പുഷ്ടമാക്കുക
 Enter M3U URL:: M3U URL നൽകുക:
+EPG: ഇ.പി.ജി
 EPG & Favorites: EPG & പ്രിയപ്പെട്ടവ
 EPG Matching Threshold: EPG മാച്ചിംഗ് ത്രെഷോൾഡ്
 EPG Source: EPG ഉറവിടം
@@ -49,15 +49,14 @@ Export JSON: JSON കയറ്റുമതി ചെയ്യുക
 Export OK: കയറ്റുമതി ശരി
 Extracting update...: അപ്‌ഡേറ്റ് എക്‌സ്‌ട്രാക്‌റ്റുചെയ്യുന്നു...
 Failed to download playlist: പ്ലേലിസ്റ്റ് ഡൗൺലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു
-Failed to load playlist: പ്ലേലിസ്റ്റ് ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു
+Failed to load playlist: പ്ലേലിസ്റ്റ് ലോഡുചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു
 Favorite: പ്രിയപ്പെട്ടത്
 Fetch Logos: ലോഗോകൾ ലഭ്യമാക്കുക
 FILTERS: ഫിൽട്ടറുകൾ
 Geo & Country: ജിയോ & രാജ്യം
 GeoBlocked: ജിയോബ്ലോക്ക് ചെയ്തു
 GitHub Error: GitHub പിശക്
-Group: : ഗ്രൂപ്പ്:
-Group:: ഗ്രൂപ്പ്:
+Group: ഗ്രൂപ്പ്
 Help: സഹായം
 Hide List: ലിസ്റ്റ് മറയ്ക്കുക
 Import JSON: JSON ഇറക്കുമതി ചെയ്യുക
@@ -65,20 +64,21 @@ Info: വിവരം
 Invalid playlist URL.: അസാധുവായ പ്ലേലിസ്റ്റ് URL.
 Invalid URL.: അസാധുവായ URL.
 Language: ഭാഷ
-Languages (comma): : ഭാഷകൾ (കോമ):
-Languages (comma):: ഭാഷകൾ (കോമ):
+Languages (comma): ഭാഷകൾ (കോമ)
 LOAD: ലോഡ് ചെയ്യുക
 Load a playlist first.: ആദ്യം ഒരു പ്ലേലിസ്റ്റ് ലോഡ് ചെയ്യുക.
+Load M3U: M3U ലോഡ് ചെയ്യുക
+Load M3U file from your computer: നിങ്ങളുടെ കമ്പ്യൂട്ടറിൽ നിന്ന് M3U ഫയൽ ലോഡ് ചെയ്യുക
+Load M3U playlist from a web URL: ഒരു വെബ് URL-ൽ നിന്ന് M3U പ്ലേലിസ്റ്റ് ലോഡുചെയ്യുക
+Load Online: ഓൺലൈനിൽ ലോഡ് ചെയ്യുക
 Loaded: ലോഡ് ചെയ്തു
 Loading...: ലോഡ് ചെയ്യുന്നു...
-Logo Preview:: ലോഗോ പ്രിവ്യൂ:
-Logo URL: : ലോഗോ URL:
-Logo URL:: ലോഗോ URL:
+Logo Preview: ലോഗോ പ്രിവ്യൂ
+Logo URL: ലോഗോ URL
 Logos Matching Threshold: ലോഗോകൾ പൊരുത്തപ്പെടുന്ന പരിധി
 Logos Source: ലോഗോകളുടെ ഉറവിടം
 Logos Subfolder: ലോഗോ സബ്ഫോൾഡർ
-Name: : പേര്:
-Name:: പേര്:
+Name: പേര്
 Nanoid: നാനോയിഡ്
 Network error: നെറ്റ്‌വർക്ക് പിശക്
 New Playlist: പുതിയ പ്ലേലിസ്റ്റ്
@@ -97,6 +97,8 @@ Player ready.: പ്ലെയർ തയ്യാറാണ്.
 Playlist Editor: പ്ലേലിസ്റ്റ് എഡിറ്റർ
 Please select a program first.: ദയവായി ആദ്യം ഒരു പ്രോഗ്രാം തിരഞ്ഞെടുക്കുക.
 Program Details: പ്രോഗ്രാം വിശദാംശങ്ങൾ
+Recent: അടുത്തിടെ
+Recent playlists: സമീപകാല പ്ലേലിസ്റ്റുകൾ
 Refresh: പുതുക്കുക
 Refresh EPG List: EPG ലിസ്റ്റ് പുതുക്കുക
 Refresh from GitHub: GitHub-ൽ നിന്ന് പുതുക്കുക
@@ -111,6 +113,7 @@ Select a playlist first.: ആദ്യം ഒരു പ്ലേലിസ്റ�
 Select Theme: തീം തിരഞ്ഞെടുക്കുക
 Settings: ക്രമീകരണങ്ങൾ
 Show List: പട്ടിക കാണിക്കുക
+Show or hide the channel list: ചാനൽ ലിസ്റ്റ് കാണിക്കുക അല്ലെങ്കിൽ മറയ്ക്കുക
 Start (local): ആരംഭിക്കുക (പ്രാദേശികം)
 Status: നില
 Stream URL: സ്ട്രീം URL
@@ -121,14 +124,14 @@ Time: സമയം
 Title: തലക്കെട്ട്
 Tools: ഉപകരണങ്ങൾ
 TV Guide (EPG): ടിവി ഗൈഡ് (ഇപിജി)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: ടിവി ഗാർഡൻ+
+TvgId: TvgId
 Unable to find version in remote project file.: റിമോട്ട് പ്രോജക്റ്റ് ഫയലിൽ പതിപ്പ് കണ്ടെത്താനായില്ല.
 Update: അപ്ഡേറ്റ്
 Update complete. Restarting...: അപ്ഡേറ്റ് പൂർത്തിയായി. പുനരാരംഭിക്കുന്നു...
 Update failed: : അപ്‌ഡേറ്റ് പരാജയപ്പെട്ടു:
 URL: URL
-URL (primary):: URL (പ്രാഥമികം):
+URL (primary): URL (പ്രാഥമിക)
 URL list (one per line): URL ലിസ്റ്റ് (ഒരു വരിയിൽ ഒന്ന്)
 URLs & Status: URL-കളും സ്റ്റാറ്റസും
 Version: പതിപ്പ്

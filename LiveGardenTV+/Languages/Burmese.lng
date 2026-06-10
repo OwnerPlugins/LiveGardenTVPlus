@@ -2,6 +2,7 @@
 ◀ Previous: ◀ ယခင်
 A new version is available. Do you want to update now?: ဗားရှင်းအသစ်တစ်ခု ရပါပြီ။ ယခု အပ်ဒိတ်လုပ်လိုပါသလား။
 About: အကြောင်း
+About TVGarden+: TVGarden+ အကြောင်း
 Add Group: အုပ်စုထည့်ပါ။
 Advanced IDs: အဆင့်မြင့် ID များ
 Apply: လျှောက်ထားပါ။
@@ -9,7 +10,6 @@ Apply changes: အပြောင်းအလဲများကို အသု�
 Buffer (seconds): ကြားခံ (စက္ကန့်)
 Cancel: မလုပ်တော့
 CANCEL: မလုပ်တော့ပါ။
-Cannot open browser: ဘရောက်ဆာကို ဖွင့်၍မရပါ။
 Category: အမျိုးအစား
 Channel Details: ချန်နယ်အသေးစိတ်
 Channel Info: ချန်နယ်အချက်အလက်
@@ -21,8 +21,7 @@ Check for updates: အပ်ဒိတ်များအတွက် စစ်ဆ
 Check URLs: URL များကို စစ်ဆေးပါ။
 Clear: ရှင်းပါတယ်။
 Close: ပိတ်လိုက်
-Country: : နိုင်ငံ-
-Country:: နိုင်ငံ-
+Country: တိုင်းပြည်
 Delete Group: အဖွဲ့ကိုဖျက်ပါ။
 Description: ဖော်ပြချက်
 Details: အသေးစိတ်
@@ -34,6 +33,7 @@ Edit URLs: URL များကို တည်းဖြတ်ပါ။
 End (local): အဆုံး (ပြည်တွင်း)
 Enrich with EPG: EPG ဖြင့် ကြွယ်ဝစေပါသည်။
 Enter M3U URL:: M3U URL ထည့်ပါ
+EPG: EPG
 EPG & Favorites: EPG နှင့် အကြိုက်ဆုံးများ
 EPG Matching Threshold: EPG Matching Threshold
 EPG Source: EPG အရင်းအမြစ်
@@ -56,8 +56,7 @@ FILTERS: စစ်ထုတ်မှုများ
 Geo & Country: ဘူမိနှင့်နိုင်ငံ
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub အမှား
-Group: : အဖွဲ့-
-Group:: အဖွဲ့-
+Group: အဖွဲ့
 Help: ကူညီကြပါ
 Hide List: စာရင်းဖျောက်ပါ။
 Import JSON: JSON ကို ထည့်သွင်းပါ။
@@ -65,20 +64,21 @@ Info: အချက်အလက်
 Invalid playlist URL.: မမှန်ကန်သော အစီအစဉ် URL။
 Invalid URL.: မမှန်ကန်သော URL
 Language: ဘာသာစကား
-Languages (comma): : ဘာသာစကားများ (ကော်မာ):
-Languages (comma):: ဘာသာစကားများ (ကော်မာ):
+Languages (comma): ဘာသာစကားများ (ကော်မာ)
 LOAD: Load လုပ်ပါ။
 Load a playlist first.: အစီအစဉ်တစ်ခုကို ဦးစွာဖွင့်ပါ။
+Load M3U: M3U ကို တင်ပါ။
+Load M3U file from your computer: သင်၏ကွန်ပျူတာမှ M3U ဖိုင်ကိုတင်ပါ။
+Load M3U playlist from a web URL: ဝဘ် URL တစ်ခုမှ M3U အစီအစဉ်ကို တင်ပါ။
+Load Online: အွန်လိုင်းပေါ်တင်ပါ။
 Loaded: ဘဝတူ
 Loading...: ဖွင့်နေသည်...
-Logo Preview:: လိုဂို အစမ်းကြည့်ရှုခြင်း-
-Logo URL: : လိုဂို URL-
-Logo URL:: လိုဂို URL-
+Logo Preview: လိုဂို အစမ်းကြည့်ရှုခြင်း။
+Logo URL: လိုဂို URL
 Logos Matching Threshold: Logos ကိုက်ညီမှုအဆင့်
 Logos Source: Logos အရင်းအမြစ်
 Logos Subfolder: Logos ဖိုင်တွဲခွဲ
-Name: : အမည်-
-Name:: အမည်-
+Name: နာမည်
 Nanoid: နာနွိုက်
 Network error: ကွန်ရက် အမှားအယွင်း
 New Playlist: အစီအစဉ်အသစ်
@@ -97,6 +97,8 @@ Player ready.: ကစားသမား အဆင်သင့်ဖြစ်န�
 Playlist Editor: အစီအစဉ်တည်းဖြတ်သူ
 Please select a program first.: ပရိုဂရမ်တစ်ခုကို ဦးစွာရွေးချယ်ပါ။
 Program Details: အစီအစဉ်အသေးစိတ်
+Recent: မကြာမှီ
+Recent playlists: လတ်တလော အစီအစဉ်များ
 Refresh: ပြန်လည်စတင်ပါ။
 Refresh EPG List: EPG စာရင်းကို ပြန်လည်စတင်ပါ။
 Refresh from GitHub: GitHub မှ ပြန်လည်စတင်ပါ။
@@ -111,6 +113,7 @@ Select a playlist first.: အစီအစဉ်တစ်ခုကို ဦး�
 Select Theme: Theme ကို ရွေးပါ။
 Settings: ဆက်တင်များ
 Show List: စာရင်းပြပါ။
+Show or hide the channel list: ချန်နယ်စာရင်းကို ပြပါ သို့မဟုတ် ဝှက်ပါ။
 Start (local): စတင် (ပြည်တွင်း)
 Status: အဆင့်အတန်း
 Stream URL: တိုက်ရိုက်လွှင့် URL
@@ -121,14 +124,14 @@ Time: အချိန်
 Title: ခေါင်းစဉ်
 Tools: ကိရိယာများ
 TV Guide (EPG): တီဗီလမ်းညွှန် (EPG)
-TvgId: : TvgId-
-TvgId:: TvgId-
+TVGarden+: TV Garden+
+TvgId: TvgId
 Unable to find version in remote project file.: အဝေးထိန်းပရောဂျက်ဖိုင်တွင် ဗားရှင်းကို ရှာမတွေ့ပါ။
-Update: မွမ်းမံ
+Update: အပ်ဒိတ်
 Update complete. Restarting...: အပ်ဒိတ် ပြီးပါပြီ။ ပြန်လည်စတင်နေသည်...
 Update failed: : အပ်ဒိတ် မအောင်မြင်ပါ
 URL: URL
-URL (primary):: URL (မူလတန်း):
+URL (primary): URL (မူလတန်း)
 URL list (one per line): URL စာရင်း (တစ်ကြောင်းလျှင် တစ်ခု)
 URLs & Status: URL များနှင့် အခြေအနေ
 Version: ဗားရှင်း

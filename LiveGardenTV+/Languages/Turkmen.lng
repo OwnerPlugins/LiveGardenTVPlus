@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Öňki
 A new version is available. Do you want to update now?: Täze wersiýasy bar. Indi täzelenmek isleýärsiňizmi?
 About: Takmynan
+About TVGarden+: TVGarden + hakda
 Add Group: Topar goşuň
 Advanced IDs: Giňişleýin şahsyýetnamalar
 Apply: Giriş
@@ -9,7 +10,6 @@ Apply changes: Üýtgeşmeleri ulanyň
 Buffer (seconds): Bufer (sekunt)
 Cancel: Elatyr
 CANCEL: ANCATY ..
-Cannot open browser: Brauzeri açyp bolmaýar
 Category: Kategoriýa
 Channel Details: Kanal maglumatlary
 Channel Info: Kanal maglumatlary
@@ -21,8 +21,7 @@ Check for updates: Täzelenmeleri barlaň
 Check URLs: URL-leri barlaň
 Clear: Arassala
 Close: .Akyn
-Country: : : Urt:
-Country:: : Urt:
+Country: Countryurt
 Delete Group: Topary poz
 Description: Düşündiriş
 Details: Jikme-jiklikler
@@ -34,6 +33,7 @@ Edit URLs: URL-leri redaktirläň
 End (local): Ahyry (ýerli)
 Enrich with EPG: EPG bilen baýlaşdyryň
 Enter M3U URL:: M3U URL giriziň:
+EPG: EPG
 EPG & Favorites: EPG we halanýanlar
 EPG Matching Threshold: EPG deňeşdirme bosagasy
 EPG Source: EPG çeşmesi
@@ -47,7 +47,7 @@ Export Filtered JSON: Filtrlenen JSON eksport ediň
 Export Filtered M3U: Filtrlenen M3U eksport ediň
 Export JSON: JSON eksport ediň
 Export OK: Eksport Bolýar
-Extracting update...: Täzelenme ...
+Extracting update...: Täzelenme çykarmak ...
 Failed to download playlist: Aýdym sanawyny göçürip alyp bilmedi
 Failed to load playlist: Aýdym sanawyny ýükläp bilmedi
 Favorite: Halaýan
@@ -56,8 +56,7 @@ FILTERS: Filtrler
 Geo & Country: Geo we ýurt
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub ýalňyşlygy
-Group: : Topar:
-Group:: Topar:
+Group: Topar
 Help: Kömek
 Hide List: Sanawy gizläň
 Import JSON: JSON import ediň
@@ -65,20 +64,21 @@ Info: Maglumat
 Invalid playlist URL.: Nädogry sanaw sanawy URL.
 Invalid URL.: Nädogry URL.
 Language: Dil
-Languages (comma): : Diller (vergi):
-Languages (comma):: Diller (vergi):
+Languages (comma): Diller (vergi)
 LOAD: Oük
 Load a playlist first.: Ilki bilen pleýlist ýükläň.
+Load M3U: M3U ýükläň
+Load M3U file from your computer: M3U faýly kompýuteriňizden ýükläň
+Load M3U playlist from a web URL: Web URL-den M3U pleýlistini ýükläň
+Load Online: Onlaýn ýükläň
 Loaded: Adedüklenen
 Loading...: Adingüklenýär ...
-Logo Preview:: Logotipiň deslapky syn:
-Logo URL: : Logotip URL:
-Logo URL:: Logotip URL:
+Logo Preview: Logotipiň deslapky syn
+Logo URL: Logotip URL
 Logos Matching Threshold: Logotipleriň gabat gelýän bosagasy
 Logos Source: Logotip çeşmesi
 Logos Subfolder: Logotip bukjasy
-Name: : Ady:
-Name:: Ady:
+Name: Ady
 Nanoid: Nanoid
 Network error: Tor ýalňyşlygy
 New Playlist: Täze sanaw sanawy
@@ -97,6 +97,8 @@ Player ready.: Pleýer taýýar.
 Playlist Editor: Sanaw sanawynyň redaktory
 Please select a program first.: Ilki bilen bir programma saýlaň.
 Program Details: Programma maglumatlary
+Recent: Soňky
+Recent playlists: Soňky sanawlar
 Refresh: Täzele
 Refresh EPG List: EPG sanawyny täzeläň
 Refresh from GitHub: GitHub-dan täzeläň
@@ -111,6 +113,7 @@ Select a playlist first.: Ilki pleýlist saýlaň.
 Select Theme: Tema saýlaň
 Settings: Sazlamalar
 Show List: Sanawy görkez
+Show or hide the channel list: Kanal sanawyny görkeziň ýa-da gizläň
 Start (local): Başlamak (ýerli)
 Status: .Agdaý
 Stream URL: Akym URL
@@ -120,15 +123,15 @@ Theme picker: Tema saýlaýjy
 Time: Wagt
 Title: Ady
 Tools: Gurallar
-TV Guide (EPG): Teleýaýlym gollanmasy (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TV Guide (EPG): Telewizion gollanma (EPG)
+TVGarden+: Telewizor bagy +
+TvgId: TvgId
 Unable to find version in remote project file.: Uzakdaky taslama faýlynda wersiýa tapyp bolmaýar.
 Update: Täzelen
 Update complete. Restarting...: Täzelenme tamamlandy. Başlamak ...
 Update failed: : Täzelenme şowsuz boldy:
 URL: URL
-URL (primary):: URL (başlangyç):
+URL (primary): URL (başlangyç)
 URL list (one per line): URL sanawy (her setirde biri)
 URLs & Status: URL-ler we ýagdaý
 Version: Wersiýa

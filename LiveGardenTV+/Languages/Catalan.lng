@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Anterior
 A new version is available. Do you want to update now?: Una nova versió està disponible. Vols actualitzar ara?
 About: Sobre
+About TVGarden+: Sobre TVGarden+
 Add Group: Afegeix un grup
 Advanced IDs: Identificadors avançats
 Apply: Aplicar
@@ -9,7 +10,6 @@ Apply changes: Aplicar canvis
 Buffer (seconds): Buffer (segons)
 Cancel: Cancel·la
 CANCEL: CANCEL·LA
-Cannot open browser: No es pot obrir el navegador
 Category: Categoria
 Channel Details: Detalls del canal
 Channel Info: Informació del canal
@@ -21,12 +21,11 @@ Check for updates: Comproveu si hi ha actualitzacions
 Check URLs: Comproveu els URL
 Clear: Clar
 Close: Tancar
-Country: : País:
-Country:: País:
+Country: País
 Delete Group: Suprimeix el grup
 Description: Descripció
 Details: Detalls
-Do you want to load the edited playlist now?: Vols carregar ara la llista de reproducció editada?
+Do you want to load the edited playlist now?: Vols carregar la llista de reproducció editada ara?
 Downloading playlist...: S'està baixant la llista de reproducció...
 Duplicate URLs found:\n\n: S'han trobat URL duplicats:\n\n
 Edit Playlist: Edita la llista de reproducció
@@ -34,6 +33,7 @@ Edit URLs: Editeu els URL
 End (local): Final (local)
 Enrich with EPG: Enriquir amb EPG
 Enter M3U URL:: Introduïu l'URL M3U:
+EPG: EPG
 EPG & Favorites: EPG i Preferits
 EPG Matching Threshold: Llindar de concordança EPG
 EPG Source: Font EPG
@@ -56,8 +56,7 @@ FILTERS: FILTRES
 Geo & Country: Geo i país
 GeoBlocked: GeoBlocked
 GitHub Error: Error de GitHub
-Group: : Grup:
-Group:: Grup:
+Group: Grup
 Help: Ajuda
 Hide List: Amaga la llista
 Import JSON: Importa JSON
@@ -65,20 +64,21 @@ Info: Informació
 Invalid playlist URL.: L'URL de la llista de reproducció no és vàlid.
 Invalid URL.: URL no vàlid.
 Language: Llengua
-Languages (comma): : Idiomes (coma):
-Languages (comma):: Idiomes (coma):
+Languages (comma): Idiomes (coma)
 LOAD: CÀRREGA
 Load a playlist first.: Carrega primer una llista de reproducció.
+Load M3U: Carregueu M3U
+Load M3U file from your computer: Carregueu el fitxer M3U des del vostre ordinador
+Load M3U playlist from a web URL: Carregueu la llista de reproducció M3U des d'una URL web
+Load Online: Carrega en línia
 Loaded: Carregat
 Loading...: Carregant...
-Logo Preview:: Vista prèvia del logotip:
-Logo URL: : Logo URL:
-Logo URL:: Logo URL:
+Logo Preview: Vista prèvia del logotip
+Logo URL: Logo URL
 Logos Matching Threshold: Llindar de concordança de logotips
 Logos Source: Font de logotips
 Logos Subfolder: Subcarpeta de logotips
-Name: : Nom:
-Name:: Nom:
+Name: Nom
 Nanoid: Nanoide
 Network error: Error de xarxa
 New Playlist: Nova llista de reproducció
@@ -97,7 +97,9 @@ Player ready.: Jugador preparat.
 Playlist Editor: Editor de llistes de reproducció
 Please select a program first.: Seleccioneu primer un programa.
 Program Details: Detalls del programa
-Refresh: Actualitzar
+Recent: Recent
+Recent playlists: Llistes de reproducció recents
+Refresh: Actualitza
 Refresh EPG List: Actualitza la llista EPG
 Refresh from GitHub: Actualitza des de GitHub
 Rename Group: Canvia el nom del grup
@@ -111,6 +113,7 @@ Select a playlist first.: Seleccioneu primer una llista de reproducció.
 Select Theme: Seleccioneu el tema
 Settings: Configuració
 Show List: Mostra la llista
+Show or hide the channel list: Mostra o amaga la llista de canals
 Start (local): Inici (local)
 Status: Estat
 Stream URL: URL del flux
@@ -121,14 +124,14 @@ Time: Temps
 Title: Títol
 Tools: Eines
 TV Guide (EPG): Guia de televisió (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: TV Garden+
+TvgId: TvgId
 Unable to find version in remote project file.: No es pot trobar la versió al fitxer de projecte remot.
 Update: Actualització
 Update complete. Restarting...: Actualització completa. S'està reiniciant...
 Update failed: : L'actualització ha fallat:
 URL: URL
-URL (primary):: URL (principal):
+URL (primary): URL (principal)
 URL list (one per line): Llista d'URL (un per línia)
 URLs & Status: URL i estat
 Version: Versió

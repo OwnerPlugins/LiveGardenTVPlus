@@ -38,14 +38,14 @@ namespace LiveGardenTVPlus.Views
         private void ApplyLanguage()
         {
             Title = LanguageManager.GetTranslation("Channel Details");
-            NameLabel.Text = LanguageManager.GetTranslation("Name:");
-            UrlLabel.Text = LanguageManager.GetTranslation("URL (primary):");
-            GroupLabel.Text = LanguageManager.GetTranslation("Group:");
-            LogoLabel.Text = LanguageManager.GetTranslation("Logo URL:");
-            TvgIdLabel.Text = LanguageManager.GetTranslation("TvgId:");
-            CountryLabel.Text = LanguageManager.GetTranslation("Country:");
-            LanguagesLabel.Text = LanguageManager.GetTranslation("Languages (comma):");
-            PreviewLabel.Text = LanguageManager.GetTranslation("Logo Preview:");
+            NameLabel.Text = LanguageManager.GetTranslation("Name");
+            UrlLabel.Text = LanguageManager.GetTranslation("URL (primary)");
+            GroupLabel.Text = LanguageManager.GetTranslation("Group");
+            LogoLabel.Text = LanguageManager.GetTranslation("Logo URL");
+            TvgIdLabel.Text = LanguageManager.GetTranslation("TvgId");
+            CountryLabel.Text = LanguageManager.GetTranslation("Country");
+            LanguagesLabel.Text = LanguageManager.GetTranslation("Languages (comma)");
+            PreviewLabel.Text = LanguageManager.GetTranslation("Logo Preview");
             FavoriteBox.Content = LanguageManager.GetTranslation("Favorite");
             GeoBlockedBox.Content = LanguageManager.GetTranslation("GeoBlocked");
             PrevBtn.Content = LanguageManager.GetTranslation("◀ Previous");

@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Trước đó
 A new version is available. Do you want to update now?: Một phiên bản mới có sẵn. Bạn có muốn cập nhật ngay bây giờ không?
 About: Về
+About TVGarden+: Giới thiệu về TVGarden+
 Add Group: Thêm nhóm
 Advanced IDs: ID nâng cao
 Apply: Áp dụng
@@ -9,7 +10,6 @@ Apply changes: Áp dụng thay đổi
 Buffer (seconds): Bộ đệm (giây)
 Cancel: Hủy bỏ
 CANCEL: HỦY BỎ
-Cannot open browser: Không thể mở trình duyệt
 Category: Loại
 Channel Details: Chi tiết kênh
 Channel Info: Thông tin kênh
@@ -21,8 +21,7 @@ Check for updates: Kiểm tra các bản cập nhật
 Check URLs: Kiểm tra URL
 Clear: Thông thoáng
 Close: Đóng
-Country: : Quốc gia:
-Country:: Quốc gia:
+Country: Quốc gia
 Delete Group: Xóa nhóm
 Description: Sự miêu tả
 Details: Chi tiết
@@ -34,6 +33,7 @@ Edit URLs: Chỉnh sửa URL
 End (local): Kết thúc (địa phương)
 Enrich with EPG: Làm giàu với EPG
 Enter M3U URL:: Nhập URL M3U:
+EPG: EPG
 EPG & Favorites: EPG & Mục yêu thích
 EPG Matching Threshold: Ngưỡng phù hợp EPG
 EPG Source: Nguồn EPG
@@ -56,8 +56,7 @@ FILTERS: LỌC
 Geo & Country: Địa lý & Quốc gia
 GeoBlocked: Bị chặn địa lý
 GitHub Error: Lỗi GitHub
-Group: : Nhóm:
-Group:: Nhóm:
+Group: Nhóm
 Help: Giúp đỡ
 Hide List: Ẩn danh sách
 Import JSON: Nhập JSON
@@ -65,20 +64,21 @@ Info: Thông tin
 Invalid playlist URL.: URL danh sách phát không hợp lệ.
 Invalid URL.: URL không hợp lệ.
 Language: Ngôn ngữ
-Languages (comma): : Ngôn ngữ (dấu phẩy):
-Languages (comma):: Ngôn ngữ (dấu phẩy):
+Languages (comma): Ngôn ngữ (dấu phẩy)
 LOAD: TRỌNG TẢI
 Load a playlist first.: Tải danh sách phát trước.
+Load M3U: Tải M3U
+Load M3U file from your computer: Tải tệp M3U từ máy tính của bạn
+Load M3U playlist from a web URL: Tải danh sách phát M3U từ URL web
+Load Online: Tải trực tuyến
 Loaded: Đã tải
 Loading...: Đang tải...
-Logo Preview:: Xem trước biểu trưng:
-Logo URL: : URL biểu tượng:
-Logo URL:: URL biểu tượng:
+Logo Preview: Xem trước biểu trưng
+Logo URL: URL biểu tượng
 Logos Matching Threshold: Ngưỡng phù hợp với biểu tượng
 Logos Source: Nguồn logo
 Logos Subfolder: Thư mục con Logos
-Name: : Tên:
-Name:: Tên:
+Name: Tên
 Nanoid: Nanoid
 Network error: Lỗi mạng
 New Playlist: Danh sách phát mới
@@ -97,6 +97,8 @@ Player ready.: Người chơi đã sẵn sàng.
 Playlist Editor: Trình chỉnh sửa danh sách phát
 Please select a program first.: Vui lòng chọn một chương trình đầu tiên.
 Program Details: Chi tiết chương trình
+Recent: Gần đây
+Recent playlists: Danh sách phát gần đây
 Refresh: Làm cho khỏe lại
 Refresh EPG List: Làm mới danh sách EPG
 Refresh from GitHub: Làm mới từ GitHub
@@ -111,6 +113,7 @@ Select a playlist first.: Chọn danh sách phát trước.
 Select Theme: Chọn chủ đề
 Settings: Cài đặt
 Show List: Hiển thị danh sách
+Show or hide the channel list: Hiển thị hoặc ẩn danh sách kênh
 Start (local): Bắt đầu (địa phương)
 Status: Trạng thái
 Stream URL: URL luồng
@@ -121,14 +124,14 @@ Time: Thời gian
 Title: Tiêu đề
 Tools: Công cụ
 TV Guide (EPG): Hướng dẫn truyền hình (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: Vườn TV+
+TvgId: Id Tvg
 Unable to find version in remote project file.: Không thể tìm thấy phiên bản trong tệp dự án từ xa.
 Update: Cập nhật
 Update complete. Restarting...: Cập nhật hoàn tất. Đang khởi động lại...
 Update failed: : Cập nhật không thành công:
 URL: URL
-URL (primary):: URL (chính):
+URL (primary): URL (chính)
 URL list (one per line): Danh sách URL (một trên mỗi dòng)
 URLs & Status: URL & Trạng thái
 Version: Phiên bản

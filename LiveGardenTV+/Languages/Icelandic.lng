@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Fyrri
 A new version is available. Do you want to update now?: Ný útgáfa er fáanleg. Viltu uppfæra núna?
 About: Um
+About TVGarden+: Um TVGarden+
 Add Group: Bæta við hópi
 Advanced IDs: Ítarleg skilríki
 Apply: Sækja um
@@ -9,7 +10,6 @@ Apply changes: Notaðu breytingar
 Buffer (seconds): Buffer (sekúndur)
 Cancel: Hætta við
 CANCEL: HÆTTA við
-Cannot open browser: Get ekki opnað vafra
 Category: Flokkur
 Channel Details: Rásarupplýsingar
 Channel Info: Rásupplýsingar
@@ -21,8 +21,7 @@ Check for updates: Leitaðu að uppfærslum
 Check URLs: Athugaðu vefslóðir
 Clear: Hreinsa
 Close: Loka
-Country: : Land:
-Country:: Land:
+Country: Land
 Delete Group: Eyða hópi
 Description: Lýsing
 Details: Upplýsingar
@@ -34,6 +33,7 @@ Edit URLs: Breyta vefslóðum
 End (local): Lok (staðbundið)
 Enrich with EPG: Auðgaðu með EPG
 Enter M3U URL:: Sláðu inn M3U vefslóð:
+EPG: EPG
 EPG & Favorites: EPG og eftirlæti
 EPG Matching Threshold: EPG samsvarandi þröskuldur
 EPG Source: EPG uppspretta
@@ -56,8 +56,7 @@ FILTERS: SÍUR
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub Villa
-Group: : Hópur:
-Group:: Hópur:
+Group: Hópur
 Help: Hjálp
 Hide List: Fela lista
 Import JSON: Flytja inn JSON
@@ -65,20 +64,21 @@ Info: Upplýsingar
 Invalid playlist URL.: Ógild vefslóð spilunarlista.
 Invalid URL.: Ógild vefslóð.
 Language: Tungumál
-Languages (comma): : Tungumál (komma):
-Languages (comma):: Tungumál (komma):
+Languages (comma): Tungumál (komma)
 LOAD: HLAÐA
 Load a playlist first.: Hlaða spilunarlista fyrst.
+Load M3U: Hlaða M3U
+Load M3U file from your computer: Hladdu M3U skrá úr tölvunni þinni
+Load M3U playlist from a web URL: Hlaða M3U lagalista frá vefslóð
+Load Online: Hlaða á netinu
 Loaded: Hlaðinn
 Loading...: Hleður...
-Logo Preview:: Forskoðun lógós:
-Logo URL: : Vefslóð lógós:
-Logo URL:: Vefslóð lógós:
+Logo Preview: Forskoðun lógó
+Logo URL: Vefslóð lógós
 Logos Matching Threshold: Samsvörunarþröskuldur lógóa
 Logos Source: Uppruni lógóa
 Logos Subfolder: Logos undirmöppu
-Name: : Nafn:
-Name:: Nafn:
+Name: Nafn
 Nanoid: Nanóíð
 Network error: Netvilla
 New Playlist: Nýr lagalisti
@@ -97,6 +97,8 @@ Player ready.: Leikmaður tilbúinn.
 Playlist Editor: Lagalista ritstjóri
 Please select a program first.: Vinsamlegast veldu forrit fyrst.
 Program Details: Dagskrá Upplýsingar
+Recent: Nýleg
+Recent playlists: Nýlegir lagalistar
 Refresh: Endurnýja
 Refresh EPG List: Endurnýja EPG lista
 Refresh from GitHub: Endurnýjaðu frá GitHub
@@ -111,6 +113,7 @@ Select a playlist first.: Veldu spilunarlista fyrst.
 Select Theme: Veldu Þema
 Settings: Stillingar
 Show List: Sýna lista
+Show or hide the channel list: Sýna eða fela ráslistann
 Start (local): Byrja (staðbundið)
 Status: Staða
 Stream URL: Slóð á streymi
@@ -121,14 +124,14 @@ Time: Tími
 Title: Titill
 Tools: Verkfæri
 TV Guide (EPG): TV Guide (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: TV Garden+
+TvgId: TvgId
 Unable to find version in remote project file.: Ekki er hægt að finna útgáfu í ytri verkefnaskrá.
 Update: Uppfærsla
 Update complete. Restarting...: Uppfærslu lokið. Endurræsir...
 Update failed: : Uppfærsla mistókst:
 URL: URL
-URL (primary):: URL (aðal):
+URL (primary): URL (aðal)
 URL list (one per line): Vefslóðalisti (ein í hverja línu)
 URLs & Status: Vefslóðir og staða
 Version: Útgáfa

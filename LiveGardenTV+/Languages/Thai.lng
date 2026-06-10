@@ -2,6 +2,7 @@
 ◀ Previous: ◀ ก่อนหน้า
 A new version is available. Do you want to update now?: มีเวอร์ชันใหม่ให้ใช้งานแล้ว คุณต้องการอัปเดตตอนนี้หรือไม่?
 About: เกี่ยวกับ
+About TVGarden+: เกี่ยวกับ ทีวีการ์เด้น+
 Add Group: เพิ่มกลุ่ม
 Advanced IDs: รหัสขั้นสูง
 Apply: นำมาใช้
@@ -9,7 +10,6 @@ Apply changes: ใช้การเปลี่ยนแปลง
 Buffer (seconds): บัฟเฟอร์ (วินาที)
 Cancel: ยกเลิก
 CANCEL: ยกเลิก
-Cannot open browser: ไม่สามารถเปิดเบราว์เซอร์ได้
 Category: หมวดหมู่
 Channel Details: รายละเอียดช่อง
 Channel Info: ข้อมูลช่อง
@@ -21,8 +21,7 @@ Check for updates: ตรวจสอบการอัปเดต
 Check URLs: ตรวจสอบ URL
 Clear: ชัดเจน
 Close: ปิด
-Country: : ประเทศ:
-Country:: ประเทศ:
+Country: ประเทศ
 Delete Group: ลบกลุ่ม
 Description: คำอธิบาย
 Details: รายละเอียด
@@ -34,6 +33,7 @@ Edit URLs: แก้ไข URL
 End (local): สิ้นสุด (ท้องถิ่น)
 Enrich with EPG: เติมเต็มด้วย EPG
 Enter M3U URL:: ป้อน URL M3U:
+EPG: อีพีจี
 EPG & Favorites: EPG และรายการโปรด
 EPG Matching Threshold: เกณฑ์การจับคู่ EPG
 EPG Source: ที่มา อีพีจี
@@ -56,8 +56,7 @@ FILTERS: ตัวกรอง
 Geo & Country: ภูมิศาสตร์และประเทศ
 GeoBlocked: ภูมิศาสตร์ที่ถูกบล็อก
 GitHub Error: ข้อผิดพลาด GitHub
-Group: : กลุ่ม:
-Group:: กลุ่ม:
+Group: กลุ่ม
 Help: ช่วย
 Hide List: ซ่อนรายการ
 Import JSON: นำเข้า JSON
@@ -65,20 +64,21 @@ Info: ข้อมูล
 Invalid playlist URL.: URL เพลย์ลิสต์ไม่ถูกต้อง
 Invalid URL.: URL ไม่ถูกต้อง
 Language: ภาษา
-Languages (comma): : ภาษา (ลูกน้ำ):
-Languages (comma):: ภาษา (ลูกน้ำ):
+Languages (comma): ภาษา (ลูกน้ำ)
 LOAD: โหลด
 Load a playlist first.: โหลดเพลย์ลิสต์ก่อน
+Load M3U: โหลด M3U
+Load M3U file from your computer: โหลดไฟล์ M3U จากคอมพิวเตอร์ของคุณ
+Load M3U playlist from a web URL: โหลดเพลย์ลิสต์ M3U จาก URL ของเว็บ
+Load Online: โหลดออนไลน์
 Loaded: โหลดแล้ว
 Loading...: กำลังโหลด...
-Logo Preview:: ตัวอย่างโลโก้:
-Logo URL: : URL โลโก้:
-Logo URL:: URL โลโก้:
+Logo Preview: ดูตัวอย่างโลโก้
+Logo URL: URL โลโก้
 Logos Matching Threshold: เกณฑ์การจับคู่โลโก้
 Logos Source: ที่มาของโลโก้
 Logos Subfolder: โฟลเดอร์ย่อยโลโก้
-Name: : ชื่อ:
-Name:: ชื่อ:
+Name: ชื่อ
 Nanoid: นาโนอยด์
 Network error: ข้อผิดพลาดของเครือข่าย
 New Playlist: เพลย์ลิสต์ใหม่
@@ -97,6 +97,8 @@ Player ready.: ผู้เล่นพร้อมแล้ว
 Playlist Editor: ตัวแก้ไขเพลย์ลิสต์
 Please select a program first.: กรุณาเลือกโปรแกรมก่อน
 Program Details: รายละเอียดโปรแกรม
+Recent: ล่าสุด
+Recent playlists: เพลย์ลิสต์ล่าสุด
 Refresh: รีเฟรช
 Refresh EPG List: รีเฟรชรายการ EPG
 Refresh from GitHub: รีเฟรชจาก GitHub
@@ -111,6 +113,7 @@ Select a playlist first.: เลือกเพลย์ลิสต์ก่อ
 Select Theme: เลือกธีม
 Settings: การตั้งค่า
 Show List: แสดงรายการ
+Show or hide the channel list: แสดงหรือซ่อนรายการช่อง
 Start (local): เริ่มต้น (ท้องถิ่น)
 Status: สถานะ
 Stream URL: URL สตรีม
@@ -121,14 +124,14 @@ Time: เวลา
 Title: ชื่อ
 Tools: เครื่องมือ
 TV Guide (EPG): ทีวีไกด์ (EPG)
-TvgId: : รหัสทีวี:
-TvgId:: รหัสทีวี:
+TVGarden+: ทีวี การ์เด้น+
+TvgId: TvgId
 Unable to find version in remote project file.: ไม่พบเวอร์ชันในไฟล์โครงการระยะไกล
 Update: อัปเดต
 Update complete. Restarting...: การอัปเดตเสร็จสมบูรณ์ กำลังรีสตาร์ท...
 Update failed: : การอัปเดตล้มเหลว:
 URL: URL
-URL (primary):: URL (หลัก):
+URL (primary): URL (หลัก)
 URL list (one per line): รายการ URL (หนึ่งรายการต่อบรรทัด)
 URLs & Status: URL และสถานะ
 Version: เวอร์ชัน

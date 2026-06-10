@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Sebelumnya
 A new version is available. Do you want to update now?: Versi baru telah tersedia. Apakah Anda ingin memperbarui sekarang?
 About: Tentang
+About TVGarden+: Tentang TVGarden+
 Add Group: Tambahkan Grup
 Advanced IDs: ID lanjutan
 Apply: Menerapkan
@@ -9,7 +10,6 @@ Apply changes: Terapkan perubahan
 Buffer (seconds): Penyangga (detik)
 Cancel: Membatalkan
 CANCEL: MEMBATALKAN
-Cannot open browser: Tidak dapat membuka peramban
 Category: Kategori
 Channel Details: Detail Saluran
 Channel Info: Info Saluran
@@ -21,8 +21,7 @@ Check for updates: Periksa pembaruan
 Check URLs: Periksa URL
 Clear: Jernih
 Close: Menutup
-Country: : Negara:
-Country:: Negara:
+Country: Negara
 Delete Group: Hapus Grup
 Description: Keterangan
 Details: Detail
@@ -34,6 +33,7 @@ Edit URLs: Sunting URL
 End (local): Akhir (lokal)
 Enrich with EPG: Perkaya dengan EPG
 Enter M3U URL:: Masukkan URL M3U:
+EPG: EPG
 EPG & Favorites: EPG & Favorit
 EPG Matching Threshold: Ambang Pencocokan EPG
 EPG Source: Sumber EPG
@@ -56,8 +56,7 @@ FILTERS: FILTER
 Geo & Country: Geo & Negara
 GeoBlocked: Diblokir secara geografis
 GitHub Error: Kesalahan GitHub
-Group: : Kelompok:
-Group:: Kelompok:
+Group: Kelompok
 Help: Membantu
 Hide List: Sembunyikan Daftar
 Import JSON: Impor JSON
@@ -65,20 +64,21 @@ Info: Informasi
 Invalid playlist URL.: URL daftar putar tidak valid.
 Invalid URL.: URL tidak valid.
 Language: Bahasa
-Languages (comma): : Bahasa (koma):
-Languages (comma):: Bahasa (koma):
+Languages (comma): Bahasa (koma)
 LOAD: MEMUAT
 Load a playlist first.: Muat daftar putar terlebih dahulu.
+Load M3U: Muat M3U
+Load M3U file from your computer: Muat file M3U dari komputer Anda
+Load M3U playlist from a web URL: Muat daftar putar M3U dari URL web
+Load Online: Muat Daring
 Loaded: Sarat
 Loading...: Memuat...
-Logo Preview:: Pratinjau Logo:
-Logo URL: : URL Logo:
-Logo URL:: URL Logo:
+Logo Preview: Pratinjau Logo
+Logo URL: URL logo
 Logos Matching Threshold: Ambang Pencocokan Logo
 Logos Source: Sumber Logo
 Logos Subfolder: Subfolder Logo
-Name: : Nama:
-Name:: Nama:
+Name: Nama
 Nanoid: nanoid
 Network error: Kesalahan jaringan
 New Playlist: Daftar Putar Baru
@@ -97,6 +97,8 @@ Player ready.: Pemain siap.
 Playlist Editor: Editor Daftar Putar
 Please select a program first.: Silakan pilih program terlebih dahulu.
 Program Details: Detail Program
+Recent: Terkini
+Recent playlists: Daftar putar terbaru
 Refresh: Menyegarkan
 Refresh EPG List: Segarkan Daftar EPG
 Refresh from GitHub: Segarkan dari GitHub
@@ -111,6 +113,7 @@ Select a playlist first.: Pilih daftar putar terlebih dahulu.
 Select Theme: Pilih Tema
 Settings: Pengaturan
 Show List: Tampilkan Daftar
+Show or hide the channel list: Menampilkan atau menyembunyikan daftar saluran
 Start (local): Mulai (lokal)
 Status: Status
 Stream URL: URL streaming
@@ -121,14 +124,14 @@ Time: Waktu
 Title: Judul
 Tools: Peralatan
 TV Guide (EPG): Panduan TV (EPG)
-TvgId: : Id TV:
-TvgId:: Id TV:
+TVGarden+: Taman TV+
+TvgId: TVgId
 Unable to find version in remote project file.: Tidak dapat menemukan versi dalam file proyek jarak jauh.
 Update: Memperbarui
 Update complete. Restarting...: Pembaruan selesai. Memulai ulang...
 Update failed: : Pembaruan gagal:
 URL: URL
-URL (primary):: URL (utama):
+URL (primary): URL (utama)
 URL list (one per line): Daftar URL (satu per baris)
 URLs & Status: URL & Status
 Version: Versi

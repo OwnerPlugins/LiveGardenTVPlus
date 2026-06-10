@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Eelmine
 A new version is available. Do you want to update now?: Saadaval on uus versioon. Kas soovite kohe värskendada?
 About: Umbes
+About TVGarden+: Teave TVGarden+ kohta
 Add Group: Lisa rühm
 Advanced IDs: Täpsemad ID-d
 Apply: Rakenda
@@ -9,7 +10,6 @@ Apply changes: Rakenda muudatused
 Buffer (seconds): Puhver (sekundites)
 Cancel: Tühista
 CANCEL: TÜHISTA
-Cannot open browser: Brauserit ei saa avada
 Category: Kategooria
 Channel Details: Kanali üksikasjad
 Channel Info: Kanali teave
@@ -21,8 +21,7 @@ Check for updates: Kontrollige värskendusi
 Check URLs: Kontrollige URL-e
 Clear: Selge
 Close: Sule
-Country: : Riik:
-Country:: Riik:
+Country: Riik
 Delete Group: Kustuta grupp
 Description: Kirjeldus
 Details: Üksikasjad
@@ -34,6 +33,7 @@ Edit URLs: Muutke URL-e
 End (local): Lõpp (kohalik)
 Enrich with EPG: Rikastage EPG-ga
 Enter M3U URL:: Sisestage M3U URL:
+EPG: EPG
 EPG & Favorites: EPG ja lemmikud
 EPG Matching Threshold: EPG vastavuslävi
 EPG Source: EPG allikas
@@ -56,8 +56,7 @@ FILTERS: FILTRID
 Geo & Country: Geo ja riik
 GeoBlocked: Geoblokeeritud
 GitHub Error: GitHubi viga
-Group: : Grupp:
-Group:: Grupp:
+Group: Grupp
 Help: Abi
 Hide List: Peida loend
 Import JSON: Importige JSON
@@ -65,20 +64,21 @@ Info: Info
 Invalid playlist URL.: Vigane esitusloendi URL.
 Invalid URL.: Kehtetu URL.
 Language: Keel
-Languages (comma): : Keeled (koma):
-Languages (comma):: Keeled (koma):
+Languages (comma): Keeled (koma)
 LOAD: LAADI
 Load a playlist first.: Laadige esmalt esitusloend.
+Load M3U: Laadige M3U
+Load M3U file from your computer: Laadige arvutist M3U-fail
+Load M3U playlist from a web URL: Laadige M3U esitusloend veebi URL-ist
+Load Online: Laadige võrgus
 Loaded: Laaditud
 Loading...: Laadimine...
-Logo Preview:: Logo eelvaade:
-Logo URL: : Logo URL:
-Logo URL:: Logo URL:
+Logo Preview: Logo eelvaade
+Logo URL: Logo URL
 Logos Matching Threshold: Logode sobivuslävi
 Logos Source: Logode allikas
 Logos Subfolder: Logode alamkaust
-Name: : Nimi:
-Name:: Nimi:
+Name: Nimi
 Nanoid: Nanoid
 Network error: Võrgu viga
 New Playlist: Uus esitusloend
@@ -97,6 +97,8 @@ Player ready.: Mängija valmis.
 Playlist Editor: Esitusloendite redaktor
 Please select a program first.: Palun valige esmalt programm.
 Program Details: Programmi üksikasjad
+Recent: Viimased
+Recent playlists: Viimased esitusloendid
 Refresh: Värskenda
 Refresh EPG List: Värskenda EPG-loendit
 Refresh from GitHub: Värskendage GitHubist
@@ -111,6 +113,7 @@ Select a playlist first.: Valige esmalt esitusloend.
 Select Theme: Valige Teema
 Settings: Seaded
 Show List: Näita loendit
+Show or hide the channel list: Kanalite loendi kuvamine või peitmine
 Start (local): Algus (kohalik)
 Status: Olek
 Stream URL: Voo URL
@@ -121,14 +124,14 @@ Time: Aeg
 Title: Pealkiri
 Tools: Tööriistad
 TV Guide (EPG): Telekava (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: TV Garden+
+TvgId: TvgId
 Unable to find version in remote project file.: Kaugprojekti failist ei leitud versiooni.
 Update: Värskenda
 Update complete. Restarting...: Värskendus on lõpetatud. Taaskäivitamine...
 Update failed: : Värskendus ebaõnnestus:
 URL: URL
-URL (primary):: URL (peamine):
+URL (primary): URL (esmane)
 URL list (one per line): URL-ide loend (üks rea kohta)
 URLs & Status: URL-id ja olek
 Version: Versioon

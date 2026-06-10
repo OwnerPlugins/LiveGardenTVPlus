@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Iepriekšējais
 A new version is available. Do you want to update now?: Ir pieejama jauna versija. Vai vēlaties atjaunināt tagad?
 About: Par
+About TVGarden+: Par TVGarden+
 Add Group: Pievienot grupu
 Advanced IDs: Papildu ID
 Apply: Pieteikties
@@ -9,7 +10,6 @@ Apply changes: Lietot izmaiņas
 Buffer (seconds): Buferis (sekundēs)
 Cancel: Atcelt
 CANCEL: ATCELT
-Cannot open browser: Nevar atvērt pārlūkprogrammu
 Category: Kategorija
 Channel Details: Kanāla informācija
 Channel Info: Informācija par kanālu
@@ -21,8 +21,7 @@ Check for updates: Pārbaudiet, vai nav atjauninājumu
 Check URLs: Pārbaudiet URL
 Clear: Skaidrs
 Close: Aizvērt
-Country: : Valsts:
-Country:: Valsts:
+Country: Valsts
 Delete Group: Dzēst grupu
 Description: Apraksts
 Details: Sīkāka informācija
@@ -34,6 +33,7 @@ Edit URLs: Rediģēt URL
 End (local): Beigas (vietējais)
 Enrich with EPG: Bagātināt ar EPG
 Enter M3U URL:: Ievadiet M3U URL:
+EPG: EPG
 EPG & Favorites: EPG un izlase
 EPG Matching Threshold: EPG atbilstības slieksnis
 EPG Source: EPG avots
@@ -56,8 +56,7 @@ FILTERS: FILTRI
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub kļūda
-Group: : Grupa:
-Group:: Grupa:
+Group: Grupa
 Help: Palīdzība
 Hide List: Slēpt sarakstu
 Import JSON: Importēt JSON
@@ -65,20 +64,21 @@ Info: Informācija
 Invalid playlist URL.: Nederīgs atskaņošanas saraksta URL.
 Invalid URL.: Nederīgs URL.
 Language: Valoda
-Languages (comma): : Valodas (komats):
-Languages (comma):: Valodas (komats):
+Languages (comma): Valodas (komats)
 LOAD: LOAD
 Load a playlist first.: Vispirms ielādējiet atskaņošanas sarakstu.
+Load M3U: Ielādēt M3U
+Load M3U file from your computer: Ielādējiet M3U failu no sava datora
+Load M3U playlist from a web URL: Ielādējiet M3U atskaņošanas sarakstu no tīmekļa URL
+Load Online: Ielādēt tiešsaistē
 Loaded: Ielādēts
 Loading...: Notiek ielāde...
-Logo Preview:: Logotipa priekšskatījums:
-Logo URL: : Logotipa URL:
-Logo URL:: Logotipa URL:
+Logo Preview: Logotipa priekšskatījums
+Logo URL: Logotipa URL
 Logos Matching Threshold: Logotipu atbilstības slieksnis
 Logos Source: Logotipu avots
 Logos Subfolder: Logotipu apakšmape
-Name: : Vārds:
-Name:: Vārds:
+Name: Vārds
 Nanoid: Nanoīds
 Network error: Tīkla kļūda
 New Playlist: Jauns atskaņošanas saraksts
@@ -97,6 +97,8 @@ Player ready.: Spēlētājs gatavs.
 Playlist Editor: Atskaņošanas sarakstu redaktors
 Please select a program first.: Lūdzu, vispirms atlasiet programmu.
 Program Details: Programmas informācija
+Recent: Nesen
+Recent playlists: Jaunākie atskaņošanas saraksti
 Refresh: Atsvaidzināt
 Refresh EPG List: Atsvaidziniet EPG sarakstu
 Refresh from GitHub: Atsvaidziniet no GitHub
@@ -111,6 +113,7 @@ Select a playlist first.: Vispirms atlasiet atskaņošanas sarakstu.
 Select Theme: Izvēlieties Motīvu
 Settings: Iestatījumi
 Show List: Rādīt sarakstu
+Show or hide the channel list: Rādīt vai paslēpt kanālu sarakstu
 Start (local): Sākums (vietējais)
 Status: Statuss
 Stream URL: Straumes URL
@@ -121,14 +124,14 @@ Time: Laiks
 Title: Nosaukums
 Tools: Rīki
 TV Guide (EPG): TV ceļvedis (EPG)
-TvgId: : TV ID:
-TvgId:: TV ID:
+TVGarden+: TV Garden+
+TvgId: TvgId
 Unable to find version in remote project file.: Attālā projekta failā nevar atrast versiju.
 Update: Atjaunināt
-Update complete. Restarting...: Update complete. Restarting...
+Update complete. Restarting...: Atjaunināšana pabeigta. Notiek restartēšana...
 Update failed: : Atjaunināšana neizdevās:
 URL: URL
-URL (primary):: URL (galvenais):
+URL (primary): URL (galvenais)
 URL list (one per line): URL saraksts (viens katrā rindā)
 URLs & Status: URL un statuss
 Version: Versija

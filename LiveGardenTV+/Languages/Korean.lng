@@ -2,6 +2,7 @@
 ◀ Previous: ◀ 이전
 A new version is available. Do you want to update now?: 새 버전을 사용할 수 있습니다. 지금 업데이트하시겠습니까?
 About: 에 대한
+About TVGarden+: TVGarden+ 소개
 Add Group: 그룹 추가
 Advanced IDs: 고급 ID
 Apply: 적용하다
@@ -9,7 +10,6 @@ Apply changes: 변경사항 적용
 Buffer (seconds): 버퍼(초)
 Cancel: 취소
 CANCEL: 취소
-Cannot open browser: 브라우저를 열 수 없습니다
 Category: 범주
 Channel Details: 채널 세부정보
 Channel Info: 채널 정보
@@ -21,8 +21,7 @@ Check for updates: 업데이트 확인
 Check URLs: URL 확인
 Clear: 분명한
 Close: 닫다
-Country: : 국가:
-Country:: 국가:
+Country: 국가
 Delete Group: 그룹 삭제
 Description: 설명
 Details: 세부
@@ -34,6 +33,7 @@ Edit URLs: URL 편집
 End (local): 종료(로컬)
 Enrich with EPG: EPG로 풍요롭게 하세요
 Enter M3U URL:: M3U URL을 입력하세요:
+EPG: EPG
 EPG & Favorites: EPG 및 즐겨찾기
 EPG Matching Threshold: EPG 일치 임계값
 EPG Source: EPG 소스
@@ -56,8 +56,7 @@ FILTERS: 필터
 Geo & Country: 지역 및 국가
 GeoBlocked: 지리적으로 차단됨
 GitHub Error: GitHub 오류
-Group: : 그룹:
-Group:: 그룹:
+Group: 그룹
 Help: 돕다
 Hide List: 목록 숨기기
 Import JSON: JSON 가져오기
@@ -65,20 +64,21 @@ Info: 정보
 Invalid playlist URL.: 재생목록 URL이 잘못되었습니다.
 Invalid URL.: URL이 잘못되었습니다.
 Language: 언어
-Languages (comma): : 언어(쉼표):
-Languages (comma):: 언어(쉼표):
+Languages (comma): 언어(쉼표)
 LOAD: 짐
 Load a playlist first.: 먼저 재생목록을 로드하세요.
+Load M3U: M3U 로드
+Load M3U file from your computer: 컴퓨터에서 M3U 파일 로드
+Load M3U playlist from a web URL: 웹 URL에서 M3U 재생 목록 로드
+Load Online: 온라인으로 로드
 Loaded: 짐을 실은
 Loading...: 로드 중...
-Logo Preview:: 로고 미리보기:
-Logo URL: : 로고 URL:
-Logo URL:: 로고 URL:
+Logo Preview: 로고 미리보기
+Logo URL: 로고 URL
 Logos Matching Threshold: 로고 일치 임계값
 Logos Source: 로고 소스
 Logos Subfolder: 로고 하위 폴더
-Name: : 이름:
-Name:: 이름:
+Name: 이름
 Nanoid: 나노이드
 Network error: 네트워크 오류
 New Playlist: 새 재생목록
@@ -97,6 +97,8 @@ Player ready.: 플레이어가 준비되었습니다.
 Playlist Editor: 재생목록 편집기
 Please select a program first.: 먼저 프로그램을 선택해주세요.
 Program Details: 프로그램 세부정보
+Recent: 최근의
+Recent playlists: 최근 재생목록
 Refresh: 새로 고치다
 Refresh EPG List: EPG 목록 새로 고침
 Refresh from GitHub: GitHub에서 새로 고침
@@ -111,6 +113,7 @@ Select a playlist first.: 먼저 재생목록을 선택하세요.
 Select Theme: 테마 선택
 Settings: 설정
 Show List: 목록 표시
+Show or hide the channel list: 채널 목록 표시 또는 숨기기
 Start (local): 시작(로컬)
 Status: 상태
 Stream URL: 스트림 URL
@@ -121,14 +124,14 @@ Time: 시간
 Title: 제목
 Tools: 도구
 TV Guide (EPG): TV 가이드(EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: TV가든+
+TvgId: TvgId
 Unable to find version in remote project file.: 원격 프로젝트 파일에서 버전을 찾을 수 없습니다.
 Update: 업데이트
 Update complete. Restarting...: 업데이트가 완료되었습니다. 다시 시작하는 중...
 Update failed: : 업데이트 실패:
 URL: URL
-URL (primary):: URL(기본):
+URL (primary): URL(기본)
 URL list (one per line): URL 목록(한 줄에 하나씩)
 URLs & Status: URL 및 상태
 Version: 버전

@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Мурунку
 A new version is available. Do you want to update now?: Жаңы версиясы бар. Азыр жаңырткыңыз келеби?
 About: Жөнүндө
+About TVGarden+: TVGarden+ жөнүндө
 Add Group: Топ кошуу
 Advanced IDs: Өркүндөтүлгөн ID'лер
 Apply: Колдонуу
@@ -9,7 +10,6 @@ Apply changes: Өзгөртүүлөрдү колдонуу
 Buffer (seconds): Буфер (секунд)
 Cancel: Жокко чыгаруу
 CANCEL: ЖОК КЫЛУУ
-Cannot open browser: Браузерди ачуу мүмкүн эмес
 Category: Категория
 Channel Details: Канал чоо-жайы
 Channel Info: Канал маалыматы
@@ -21,12 +21,11 @@ Check for updates: Жаңыртууларды текшериңиз
 Check URLs: URL'дерди текшерүү
 Clear: Таза
 Close: Жабуу
-Country: : Өлкө:
-Country:: Өлкө:
+Country: Өлкө
 Delete Group: Топту жок кылуу
 Description: Description
 Details: Толук маалымат
-Do you want to load the edited playlist now?: Түзөтүлгөн ойнотмо тизмени азыр жүктөгүңүз келеби?
+Do you want to load the edited playlist now?: Түзөтүлгөн ойнотмо тизмесин азыр жүктөгүңүз келеби?
 Downloading playlist...: Ойнотмо тизме жүктөлүүдө...
 Duplicate URLs found:\n\n: Кайталанма URL'дер табылды:\n\n
 Edit Playlist: Ойнотмо тизмени түзөтүү
@@ -34,6 +33,7 @@ Edit URLs: URL'дерди түзөтүү
 End (local): Аяктоо (жергиликтүү)
 Enrich with EPG: EPG менен байытуу
 Enter M3U URL:: M3U URL киргизиңиз:
+EPG: EPG
 EPG & Favorites: EPG & Favorites
 EPG Matching Threshold: EPG дал келүү босогосу
 EPG Source: EPG булагы
@@ -56,8 +56,7 @@ FILTERS: ФИЛТРЛЕР
 Geo & Country: Гео жана өлкө
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub катасы
-Group: : Топ:
-Group:: Топ:
+Group: Топ
 Help: Жардам
 Hide List: Тизмени жашыруу
 Import JSON: JSON импорттоо
@@ -65,20 +64,21 @@ Info: Маалымат
 Invalid playlist URL.: Жараксыз ойнотмо тизме URL.
 Invalid URL.: Жараксыз URL.
 Language: Тил
-Languages (comma): : Тилдер (үтүр):
-Languages (comma):: Тилдер (үтүр):
+Languages (comma): Тилдер (үтүр)
 LOAD: LOAD
 Load a playlist first.: Алгач ойнотмо тизмени жүктөңүз.
+Load M3U: M3U жүктөө
+Load M3U file from your computer: M3U файлын компьютериңизден жүктөңүз
+Load M3U playlist from a web URL: M3U ойнотмо тизмесин веб URL'ден жүктөңүз
+Load Online: Онлайн жүктөө
 Loaded: Жүктөлдү
 Loading...: Жүктөлүүдө...
-Logo Preview:: Логотипти алдын ала көрүү:
-Logo URL: : Логотип URL:
-Logo URL:: Логотип URL:
+Logo Preview: Логотипти алдын ала көрүү
+Logo URL: Логотип URL
 Logos Matching Threshold: Логотиптердин дал келүүчү босогосу
 Logos Source: Logos Source
 Logos Subfolder: Логотиптердин ички папкасы
-Name: : Аты-жөнү:
-Name:: Аты-жөнү:
+Name: аты
 Nanoid: Наноид
 Network error: Тармак катасы
 New Playlist: Жаңы ойнотмо тизме
@@ -97,6 +97,8 @@ Player ready.: Оюнчу даяр.
 Playlist Editor: Ойнотмо тизме редактору
 Please select a program first.: Адегенде программаны тандаңыз.
 Program Details: Программанын чоо-жайы
+Recent: Акыркы
+Recent playlists: Акыркы ойнотмо тизмелер
 Refresh: Жаңылоо
 Refresh EPG List: EPG тизмесин жаңыртуу
 Refresh from GitHub: GitHub'дан жаңыртуу
@@ -107,10 +109,11 @@ Save As...: Башкача сактоо...
 Save Playlist: Ойнотмо тизмени сактоо
 Save Status: Статусту сактоо
 Search channels...: Каналдарды издөө...
-Select a playlist first.: Алгач ойнотмо тизмесин тандаңыз.
+Select a playlist first.: Биринчи ойнотмо тизмесин тандаңыз.
 Select Theme: Теманы тандаңыз
 Settings: Орнотуулар
 Show List: Тизмени көрсөтүү
+Show or hide the channel list: Канал тизмесин көрсөтүү же жашыруу
 Start (local): Баштоо (жергиликтүү)
 Status: Статус
 Stream URL: Агым URL
@@ -121,14 +124,14 @@ Time: Убакыт
 Title: Title
 Tools: Куралдар
 TV Guide (EPG): TV гид (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: TV Garden+
+TvgId: TvgId
 Unable to find version in remote project file.: Алыскы долбоордун файлында версия табылбай жатат.
 Update: Жаңыртуу
 Update complete. Restarting...: Жаңыртуу аяктады. Кайра иштетилүүдө...
 Update failed: : Жаңыртылган жок:
 URL: URL
-URL (primary):: URL (негизги):
+URL (primary): URL (негизги)
 URL list (one per line): URL тизмеси (ар бир сапка бирден)
 URLs & Status: URL'дер жана Статус
 Version: Версия

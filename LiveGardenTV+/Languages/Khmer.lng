@@ -2,6 +2,7 @@
 ◀ Previous: ◀ មុន។
 A new version is available. Do you want to update now?: កំណែថ្មីអាចរកបាន។ តើអ្នកចង់អាប់ដេតឥឡូវនេះទេ?
 About: អំពី
+About TVGarden+: អំពី TVGarden+
 Add Group: បន្ថែមក្រុម
 Advanced IDs: លេខសម្គាល់កម្រិតខ្ពស់
 Apply: អនុវត្ត
@@ -9,7 +10,6 @@ Apply changes: អនុវត្តការផ្លាស់ប្តូរ
 Buffer (seconds): សតិបណ្ដោះអាសន្ន (វិនាទី)
 Cancel: បោះបង់
 CANCEL: បោះបង់
-Cannot open browser: មិនអាចបើកកម្មវិធីរុករកបានទេ។
 Category: ប្រភេទ
 Channel Details: ព័ត៌មានលម្អិតរបស់ប៉ុស្តិ៍
 Channel Info: ព័ត៌មានឆានែល
@@ -21,8 +21,7 @@ Check for updates: ពិនិត្យមើលបច្ចុប្បន្�
 Check URLs: ពិនិត្យ URLs
 Clear: ច្បាស់
 Close: បិទ
-Country: : ប្រទេស៖
-Country:: ប្រទេស៖
+Country: ប្រទេស
 Delete Group: លុបក្រុម
 Description: ការពិពណ៌នា
 Details: ព័ត៌មានលម្អិត
@@ -34,6 +33,7 @@ Edit URLs: កែសម្រួល URLs
 End (local): បញ្ចប់ (ក្នុងស្រុក)
 Enrich with EPG: ពង្រឹងជាមួយ EPG
 Enter M3U URL:: បញ្ចូល M3U URL៖
+EPG: EPG
 EPG & Favorites: EPG & ចំណូលចិត្ត
 EPG Matching Threshold: កម្រិតនៃការផ្គូផ្គង EPG
 EPG Source: ប្រភព EPG
@@ -56,8 +56,7 @@ FILTERS: តម្រង
 Geo & Country: ភូមិសាស្ត្រ និងប្រទេស
 GeoBlocked: GeoBlocked
 GitHub Error: កំហុស GitHub
-Group: : ក្រុម៖
-Group:: ក្រុម៖
+Group: ក្រុម
 Help: ជំនួយ
 Hide List: លាក់បញ្ជី
 Import JSON: នាំចូល JSON
@@ -65,20 +64,21 @@ Info: ព័ត៌មាន
 Invalid playlist URL.: URL បញ្ជីចាក់មិនត្រឹមត្រូវ។
 Invalid URL.: URL មិនត្រឹមត្រូវ។
 Language: ភាសា
-Languages (comma): : ភាសា (សញ្ញាក្បៀស)៖
-Languages (comma):: ភាសា (សញ្ញាក្បៀស)៖
+Languages (comma): ភាសា (សញ្ញាក្បៀស)
 LOAD: ផ្ទុក
 Load a playlist first.: ផ្ទុកបញ្ជីចាក់ជាមុនសិន។
+Load M3U: ផ្ទុក M3U
+Load M3U file from your computer: ផ្ទុកឯកសារ M3U ពីកុំព្យូទ័ររបស់អ្នក។
+Load M3U playlist from a web URL: ផ្ទុកបញ្ជីចាក់ M3U ពី URL គេហទំព័រ
+Load Online: ផ្ទុកលើអ៊ីនធឺណិត
 Loaded: ផ្ទុក
 Loading...: កំពុង​ផ្ទុក...
-Logo Preview:: ការមើលរូបសញ្ញាជាមុន៖
-Logo URL: : និមិត្តសញ្ញា URL៖
-Logo URL:: និមិត្តសញ្ញា URL៖
+Logo Preview: ការមើលរូបសញ្ញាជាមុន
+Logo URL: និមិត្តសញ្ញា URL
 Logos Matching Threshold: កម្រិតនៃការផ្គូផ្គងរូបសញ្ញា
 Logos Source: ប្រភពឡូហ្គោស
 Logos Subfolder: ថតរងឡូហ្គោ
-Name: : ឈ្មោះ៖
-Name:: ឈ្មោះ៖
+Name: ឈ្មោះ
 Nanoid: ណាណូយ
 Network error: កំហុសបណ្តាញ
 New Playlist: បញ្ជីចាក់ថ្មី។
@@ -97,6 +97,8 @@ Player ready.: អ្នកលេងរួចរាល់។
 Playlist Editor: កម្មវិធីនិពន្ធបញ្ជីចាក់
 Please select a program first.: សូមជ្រើសរើសកម្មវិធីជាមុនសិន។
 Program Details: ព័ត៌មានលម្អិតអំពីកម្មវិធី
+Recent: ថ្មីៗ
+Recent playlists: បញ្ជីចាក់ថ្មីៗ
 Refresh: ធ្វើឱ្យស្រស់
 Refresh EPG List: ធ្វើឱ្យបញ្ជី EPG ឡើងវិញ
 Refresh from GitHub: ផ្ទុកឡើងវិញពី GitHub
@@ -111,6 +113,7 @@ Select a playlist first.: ជ្រើសរើសបញ្ជីចាក់ជ
 Select Theme: ជ្រើសរើសប្រធានបទ
 Settings: ការកំណត់
 Show List: បង្ហាញបញ្ជី
+Show or hide the channel list: បង្ហាញ ឬលាក់បញ្ជីឆានែល
 Start (local): ចាប់ផ្តើម (ក្នុងស្រុក)
 Status: ស្ថានភាព
 Stream URL: URL ស្ទ្រីម
@@ -121,14 +124,14 @@ Time: ពេលវេលា
 Title: ចំណងជើង
 Tools: ឧបករណ៍
 TV Guide (EPG): មគ្គុទ្ទេសក៍ទូរទស្សន៍ (EPG)
-TvgId: : TvgId៖
-TvgId:: TvgId៖
+TVGarden+: សួនទូរទស្សន៍+
+TvgId: TvgId
 Unable to find version in remote project file.: មិនអាចស្វែងរកកំណែនៅក្នុងឯកសារគម្រោងពីចម្ងាយបានទេ។
 Update: ធ្វើបច្ចុប្បន្នភាព
 Update complete. Restarting...: ការធ្វើបច្ចុប្បន្នភាពបានបញ្ចប់។ កំពុងចាប់ផ្តើមឡើងវិញ...
 Update failed: : ការអាប់ដេតបានបរាជ័យ៖
 URL: URL
-URL (primary):: URL (បឋម)៖
+URL (primary): URL (បឋម)
 URL list (one per line): បញ្ជី URL (មួយក្នុងមួយជួរ)
 URLs & Status: URLs & ស្ថានភាព
 Version: កំណែ

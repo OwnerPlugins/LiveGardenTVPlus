@@ -2,6 +2,7 @@
 ◀ Previous: ◀ قبلی
 A new version is available. Do you want to update now?: نسخه جدید موجود است. آیا می خواهید اکنون به روز رسانی کنید؟
 About: درباره
+About TVGarden+: درباره TVGarden+
 Add Group: افزودن گروه
 Advanced IDs: شناسه های پیشرفته
 Apply: درخواست کنید
@@ -9,7 +10,6 @@ Apply changes: اعمال تغییرات
 Buffer (seconds): بافر (ثانیه)
 Cancel: لغو کنید
 CANCEL: لغو
-Cannot open browser: مرورگر باز نمیشه
 Category: دسته بندی
 Channel Details: جزئیات کانال
 Channel Info: اطلاعات کانال
@@ -21,8 +21,7 @@ Check for updates: به روز رسانی را بررسی کنید
 Check URLs: URL ها را بررسی کنید
 Clear: پاک کردن
 Close: بستن
-Country: : کشور:
-Country:: کشور:
+Country: کشور
 Delete Group: حذف گروه
 Description: توضیحات
 Details: جزئیات
@@ -34,6 +33,7 @@ Edit URLs: ویرایش URL ها
 End (local): پایان (محلی)
 Enrich with EPG: غنی سازی با EPG
 Enter M3U URL:: URL M3U را وارد کنید:
+EPG: EPG
 EPG & Favorites: EPG و موارد دلخواه
 EPG Matching Threshold: آستانه تطبیق EPG
 EPG Source: منبع EPG
@@ -56,8 +56,7 @@ FILTERS: فیلترها
 Geo & Country: جغرافیا و کشور
 GeoBlocked: GeoBlocked
 GitHub Error: خطای GitHub
-Group: : گروه:
-Group:: گروه:
+Group: گروه
 Help: کمک کنید
 Hide List: پنهان کردن لیست
 Import JSON: JSON را وارد کنید
@@ -65,20 +64,21 @@ Info: اطلاعات
 Invalid playlist URL.: URL لیست پخش نامعتبر است.
 Invalid URL.: URL نامعتبر است.
 Language: زبان
-Languages (comma): : زبان ها (کاما):
-Languages (comma):: زبان ها (کاما):
+Languages (comma): زبان ها (کاما)
 LOAD: LOAD
 Load a playlist first.: ابتدا یک لیست پخش بارگیری کنید.
+Load M3U: M3U را بارگیری کنید
+Load M3U file from your computer: فایل M3U را از رایانه خود بارگیری کنید
+Load M3U playlist from a web URL: لیست پخش M3U را از یک URL وب بارگیری کنید
+Load Online: بارگذاری آنلاین
 Loaded: بارگیری شد
 Loading...: در حال بارگیری...
-Logo Preview:: پیش نمایش لوگو:
-Logo URL: : آدرس لوگو:
-Logo URL:: آدرس لوگو:
+Logo Preview: پیش نمایش لوگو
+Logo URL: نشانی وب لوگو
 Logos Matching Threshold: آستانه تطبیق آرم ها
 Logos Source: منبع لوگوها
 Logos Subfolder: زیر پوشه لوگو
-Name: : نام:
-Name:: نام:
+Name: نام
 Nanoid: نانووئید
 Network error: خطای شبکه
 New Playlist: لیست پخش جدید
@@ -97,6 +97,8 @@ Player ready.: بازیکن آماده است.
 Playlist Editor: ویرایشگر لیست پخش
 Please select a program first.: لطفا ابتدا یک برنامه را انتخاب کنید.
 Program Details: جزئیات برنامه
+Recent: اخیر
+Recent playlists: لیست های پخش اخیر
 Refresh: تازه کردن
 Refresh EPG List: فهرست EPG را بازخوانی کنید
 Refresh from GitHub: بازخوانی از GitHub
@@ -106,11 +108,12 @@ SAVE: ذخیره کنید
 Save As...: ذخیره به عنوان...
 Save Playlist: ذخیره لیست پخش
 Save Status: ذخیره وضعیت
-Search channels...: جستجوی کانال ها...
+Search channels...: جستجو در کانال ها...
 Select a playlist first.: ابتدا یک لیست پخش انتخاب کنید.
 Select Theme: تم را انتخاب کنید
 Settings: تنظیمات
 Show List: نمایش لیست
+Show or hide the channel list: نمایش یا پنهان کردن لیست کانال
 Start (local): شروع (محلی)
 Status: وضعیت
 Stream URL: URL جریان
@@ -121,14 +124,14 @@ Time: زمان
 Title: عنوان
 Tools: ابزار
 TV Guide (EPG): راهنمای تلویزیون (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: باغ تلویزیون +
+TvgId: TvgId
 Unable to find version in remote project file.: نسخه در فایل پروژه راه دور پیدا نشد.
 Update: به روز رسانی
 Update complete. Restarting...: به روز رسانی کامل شد. شروع مجدد...
 Update failed: : به روز رسانی انجام نشد:
 URL: URL
-URL (primary):: URL (اولیه):
+URL (primary): URL (اولیه)
 URL list (one per line): فهرست URL (یکی در هر خط)
 URLs & Status: آدرس ها و وضعیت
 Version: نسخه

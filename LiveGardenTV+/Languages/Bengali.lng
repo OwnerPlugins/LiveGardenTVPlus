@@ -2,6 +2,7 @@
 ◀ Previous: ◀ আগের
 A new version is available. Do you want to update now?: একটি নতুন সংস্করণ উপলব্ধ. আপনি কি এখন আপডেট করতে চান?
 About: সম্পর্কে
+About TVGarden+: TVGarden+ সম্পর্কে
 Add Group: গ্রুপ যোগ করুন
 Advanced IDs: উন্নত আইডি
 Apply: আবেদন করুন
@@ -9,7 +10,6 @@ Apply changes: পরিবর্তনগুলি প্রয়োগ কর
 Buffer (seconds): বাফার (সেকেন্ড)
 Cancel: বাতিল করুন
 CANCEL: বাতিল করুন
-Cannot open browser: ব্রাউজার খুলতে পারে না
 Category: শ্রেণী
 Channel Details: চ্যানেলের বিবরণ
 Channel Info: চ্যানেল তথ্য
@@ -21,8 +21,7 @@ Check for updates: আপডেটের জন্য চেক করুন
 Check URLs: ইউআরএল চেক করুন
 Clear: পরিষ্কার
 Close: বন্ধ
-Country: : দেশ:
-Country:: দেশ:
+Country: দেশ
 Delete Group: গ্রুপ মুছুন
 Description: বর্ণনা
 Details: বিস্তারিত
@@ -34,6 +33,7 @@ Edit URLs: ইউআরএল এডিট করুন
 End (local): শেষ (স্থানীয়)
 Enrich with EPG: ইপিজি দিয়ে সমৃদ্ধ করুন
 Enter M3U URL:: M3U URL লিখুন:
+EPG: ইপিজি
 EPG & Favorites: ইপিজি এবং ফেভারিট
 EPG Matching Threshold: EPG ম্যাচিং থ্রেশহোল্ড
 EPG Source: ইপিজি উৎস
@@ -56,8 +56,7 @@ FILTERS: ফিল্টার
 Geo & Country: জিও এবং দেশ
 GeoBlocked: জিওব্লক করা হয়েছে
 GitHub Error: গিটহাব ত্রুটি
-Group: : গ্রুপ:
-Group:: গ্রুপ:
+Group: গ্রুপ
 Help: সাহায্য
 Hide List: তালিকা লুকান
 Import JSON: JSON আমদানি করুন
@@ -65,20 +64,21 @@ Info: তথ্য
 Invalid playlist URL.: অবৈধ প্লেলিস্ট URL৷
 Invalid URL.: অবৈধ URL
 Language: ভাষা
-Languages (comma): : ভাষা (কমা):
-Languages (comma):: ভাষা (কমা):
+Languages (comma): ভাষা (কমা)
 LOAD: লোড
 Load a playlist first.: প্রথমে একটি প্লেলিস্ট লোড করুন।
+Load M3U: M3U লোড করুন
+Load M3U file from your computer: আপনার কম্পিউটার থেকে M3U ফাইল লোড করুন
+Load M3U playlist from a web URL: একটি ওয়েব URL থেকে M3U প্লেলিস্ট লোড করুন
+Load Online: অনলাইনে লোড করুন
 Loaded: লোড করা হয়েছে
 Loading...: লোড হচ্ছে...
-Logo Preview:: লোগো পূর্বরূপ:
-Logo URL: : লোগো URL:
-Logo URL:: লোগো URL:
+Logo Preview: লোগো প্রিভিউ
+Logo URL: লোগো URL
 Logos Matching Threshold: লোগো ম্যাচিং থ্রেশহোল্ড
 Logos Source: লোগো উৎস
 Logos Subfolder: লোগো সাবফোল্ডার
-Name: : নাম:
-Name:: নাম:
+Name: নাম
 Nanoid: ন্যানোয়েড
 Network error: নেটওয়ার্ক ত্রুটি
 New Playlist: নতুন প্লেলিস্ট
@@ -97,6 +97,8 @@ Player ready.: প্লেয়ার প্রস্তুত।
 Playlist Editor: প্লেলিস্ট সম্পাদক
 Please select a program first.: প্রথমে একটি প্রোগ্রাম নির্বাচন করুন.
 Program Details: প্রোগ্রামের বিবরণ
+Recent: সাম্প্রতিক
+Recent playlists: সাম্প্রতিক প্লেলিস্ট
 Refresh: রিফ্রেশ
 Refresh EPG List: ইপিজি তালিকা রিফ্রেশ করুন
 Refresh from GitHub: GitHub থেকে রিফ্রেশ করুন
@@ -111,6 +113,7 @@ Select a playlist first.: প্রথমে একটি প্লেলিস�
 Select Theme: থিম নির্বাচন করুন
 Settings: সেটিংস
 Show List: তালিকা দেখান
+Show or hide the channel list: চ্যানেল তালিকা দেখান বা লুকান
 Start (local): শুরু (স্থানীয়)
 Status: স্ট্যাটাস
 Stream URL: স্ট্রিম URL
@@ -121,14 +124,14 @@ Time: সময়
 Title: শিরোনাম
 Tools: টুলস
 TV Guide (EPG): টিভি গাইড (EPG)
-TvgId: : টিভিজিআইডি:
-TvgId:: টিভিজিআইডি:
+TVGarden+: টিভি গার্ডেন+
+TvgId: টিভিজিআইডি
 Unable to find version in remote project file.: দূরবর্তী প্রকল্প ফাইলে সংস্করণ খুঁজে পাওয়া যায়নি.
 Update: আপডেট
 Update complete. Restarting...: আপডেট সম্পূর্ণ। রিস্টার্ট হচ্ছে...
 Update failed: : আপডেট ব্যর্থ হয়েছে:
 URL: URL
-URL (primary):: URL (প্রাথমিক):
+URL (primary): URL (প্রাথমিক)
 URL list (one per line): URL তালিকা (প্রতি লাইনে একটি)
 URLs & Status: URL এবং স্থিতি
 Version: সংস্করণ

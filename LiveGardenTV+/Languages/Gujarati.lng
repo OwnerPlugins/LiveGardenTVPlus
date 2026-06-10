@@ -2,6 +2,7 @@
 ◀ Previous: ◀ પહેલાનું
 A new version is available. Do you want to update now?: નવું સંસ્કરણ ઉપલબ્ધ છે. શું તમે હમણાં અપડેટ કરવા માંગો છો?
 About: વિશે
+About TVGarden+: TVGarden+ વિશે
 Add Group: જૂથ ઉમેરો
 Advanced IDs: અદ્યતન IDs
 Apply: અરજી કરો
@@ -9,7 +10,6 @@ Apply changes: ફેરફારો લાગુ કરો
 Buffer (seconds): બફર (સેકન્ડ)
 Cancel: રદ કરો
 CANCEL: રદ કરો
-Cannot open browser: બ્રાઉઝર ખોલી શકાતું નથી
 Category: શ્રેણી
 Channel Details: ચેનલ વિગતો
 Channel Info: ચેનલ માહિતી
@@ -21,8 +21,7 @@ Check for updates: અપડેટ્સ માટે તપાસો
 Check URLs: URL ને તપાસો
 Clear: સાફ કરો
 Close: બંધ કરો
-Country: : દેશ:
-Country:: દેશ:
+Country: દેશ
 Delete Group: જૂથ કાઢી નાખો
 Description: વર્ણન
 Details: વિગતો
@@ -34,6 +33,7 @@ Edit URLs: URL ને સંપાદિત કરો
 End (local): અંત (સ્થાનિક)
 Enrich with EPG: EPG સાથે સમૃદ્ધ બનાવો
 Enter M3U URL:: M3U URL દાખલ કરો:
+EPG: ઇપીજી
 EPG & Favorites: EPG અને મનપસંદ
 EPG Matching Threshold: EPG મેચિંગ થ્રેશોલ્ડ
 EPG Source: EPG સ્ત્રોત
@@ -56,8 +56,7 @@ FILTERS: ફિલ્ટર્સ
 Geo & Country: જીઓ અને દેશ
 GeoBlocked: જીઓબ્લોક કરેલ
 GitHub Error: GitHub ભૂલ
-Group: : જૂથ:
-Group:: જૂથ:
+Group: સમૂહ
 Help: મદદ
 Hide List: સૂચિ છુપાવો
 Import JSON: JSON આયાત કરો
@@ -65,20 +64,21 @@ Info: માહિતી
 Invalid playlist URL.: અમાન્ય પ્લેલિસ્ટ URL.
 Invalid URL.: અમાન્ય URL.
 Language: ભાષા
-Languages (comma): : ભાષાઓ (અલ્પવિરામ):
-Languages (comma):: ભાષાઓ (અલ્પવિરામ):
+Languages (comma): ભાષાઓ (અલ્પવિરામ)
 LOAD: લોડ
 Load a playlist first.: પહેલા પ્લેલિસ્ટ લોડ કરો.
+Load M3U: M3U લોડ કરો
+Load M3U file from your computer: તમારા કમ્પ્યુટરથી M3U ફાઇલ લોડ કરો
+Load M3U playlist from a web URL: વેબ URL થી M3U પ્લેલિસ્ટ લોડ કરો
+Load Online: ઓનલાઈન લોડ કરો
 Loaded: લોડ
 Loading...: લોડ કરી રહ્યું છે...
-Logo Preview:: લોગો પૂર્વાવલોકન:
-Logo URL: : લોગો URL:
-Logo URL:: લોગો URL:
+Logo Preview: લોગો પૂર્વાવલોકન
+Logo URL: લોગો URL
 Logos Matching Threshold: લોગો મેચિંગ થ્રેશોલ્ડ
 Logos Source: લોગો સ્ત્રોત
 Logos Subfolder: લોગો સબફોલ્ડર
-Name: : નામ:
-Name:: નામ:
+Name: નામ
 Nanoid: નેનોઇડ
 Network error: નેટવર્ક ભૂલ
 New Playlist: નવી પ્લેલિસ્ટ
@@ -97,6 +97,8 @@ Player ready.: પ્લેયર તૈયાર છે.
 Playlist Editor: પ્લેલિસ્ટ એડિટર
 Please select a program first.: કૃપા કરીને પહેલા પ્રોગ્રામ પસંદ કરો.
 Program Details: પ્રોગ્રામ વિગતો
+Recent: તાજેતરના
+Recent playlists: તાજેતરની પ્લેલિસ્ટ્સ
 Refresh: તાજું કરો
 Refresh EPG List: EPG સૂચિ તાજી કરો
 Refresh from GitHub: GitHub થી તાજું કરો
@@ -111,6 +113,7 @@ Select a playlist first.: પહેલા પ્લેલિસ્ટ પસં�
 Select Theme: થીમ પસંદ કરો
 Settings: સેટિંગ્સ
 Show List: સૂચિ બતાવો
+Show or hide the channel list: ચેનલ સૂચિ બતાવો અથવા છુપાવો
 Start (local): પ્રારંભ (સ્થાનિક)
 Status: સ્થિતિ
 Stream URL: સ્ટ્રીમ URL
@@ -121,14 +124,14 @@ Time: સમય
 Title: શીર્ષક
 Tools: સાધનો
 TV Guide (EPG): ટીવી માર્ગદર્શિકા (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: ટીવી ગાર્ડન+
+TvgId: TvgId
 Unable to find version in remote project file.: રિમોટ પ્રોજેક્ટ ફાઇલમાં સંસ્કરણ શોધવામાં અસમર્થ.
 Update: અપડેટ કરો
 Update complete. Restarting...: અપડેટ પૂર્ણ થયું. પુનઃપ્રારંભ કરી રહ્યું છે...
 Update failed: : અપડેટ નિષ્ફળ થયું:
 URL: URL
-URL (primary):: URL (પ્રાથમિક):
+URL (primary): URL (પ્રાથમિક)
 URL list (one per line): URL સૂચિ (રેખા દીઠ એક)
 URLs & Status: URLs અને સ્થિતિ
 Version: સંસ્કરણ

@@ -2,6 +2,7 @@
 ◀ Previous: ◀ السابق
 A new version is available. Do you want to update now?: نسخة جديدة متاحة. هل تريد التحديث الآن؟
 About: عن
+About TVGarden+: حول TVGarden+
 Add Group: أضف مجموعة
 Advanced IDs: معرفات متقدمة
 Apply: يتقدم
@@ -9,7 +10,6 @@ Apply changes: تطبيق التغييرات
 Buffer (seconds): المخزن المؤقت (ثواني)
 Cancel: يلغي
 CANCEL: يلغي
-Cannot open browser: لا يمكن فتح المتصفح
 Category: فئة
 Channel Details: تفاصيل القناة
 Channel Info: معلومات القناة
@@ -21,8 +21,7 @@ Check for updates: التحقق من وجود تحديثات
 Check URLs: تحقق من عناوين URL
 Clear: واضح
 Close: يغلق
-Country: : دولة:
-Country:: دولة:
+Country: دولة
 Delete Group: حذف المجموعة
 Description: وصف
 Details: تفاصيل
@@ -34,6 +33,7 @@ Edit URLs: تحرير عناوين URL
 End (local): النهاية (محلي)
 Enrich with EPG: إثراء مع دليل البرامج الإلكتروني
 Enter M3U URL:: أدخل عنوان URL لـ M3U:
+EPG: دليل البرامج الإلكتروني
 EPG & Favorites: دليل البرامج الإلكتروني والمفضلة
 EPG Matching Threshold: عتبة مطابقة EPG
 EPG Source: مصدر دليل البرامج الإلكتروني
@@ -56,8 +56,7 @@ FILTERS: المرشحات
 Geo & Country: الجغرافيا والبلد
 GeoBlocked: محظور جغرافيًا
 GitHub Error: خطأ جيثب
-Group: : مجموعة:
-Group:: مجموعة:
+Group: مجموعة
 Help: يساعد
 Hide List: إخفاء القائمة
 Import JSON: استيراد جسون
@@ -65,20 +64,21 @@ Info: معلومات
 Invalid playlist URL.: عنوان URL لقائمة التشغيل غير صالح.
 Invalid URL.: عنوان URL غير صالح.
 Language: لغة
-Languages (comma): : اللغات (فاصلة):
-Languages (comma):: اللغات (فاصلة):
+Languages (comma): اللغات (فاصلة)
 LOAD: حمولة
 Load a playlist first.: قم بتحميل قائمة التشغيل أولاً.
+Load M3U: تحميل M3U
+Load M3U file from your computer: قم بتحميل ملف M3U من جهاز الكمبيوتر الخاص بك
+Load M3U playlist from a web URL: قم بتحميل قائمة تشغيل M3U من عنوان URL على الويب
+Load Online: تحميل على الانترنت
 Loaded: محملة
 Loading...: تحميل...
-Logo Preview:: معاينة الشعار:
-Logo URL: : عنوان URL للشعار:
-Logo URL:: عنوان URL للشعار:
+Logo Preview: معاينة الشعار
+Logo URL: عنوان URL للشعار
 Logos Matching Threshold: عتبة مطابقة الشعارات
 Logos Source: مصدر الشعارات
 Logos Subfolder: الشعارات المجلد الفرعي
-Name: : اسم:
-Name:: اسم:
+Name: اسم
 Nanoid: نانويد
 Network error: خطأ في الشبكة
 New Playlist: قائمة تشغيل جديدة
@@ -97,6 +97,8 @@ Player ready.: اللاعب جاهز.
 Playlist Editor: محرر قائمة التشغيل
 Please select a program first.: الرجاء تحديد البرنامج أولاً.
 Program Details: تفاصيل البرنامج
+Recent: مؤخرًا
+Recent playlists: قوائم التشغيل الأخيرة
 Refresh: ينعش
 Refresh EPG List: قم بتحديث قائمة EPG
 Refresh from GitHub: قم بالتحديث من جيثب
@@ -111,6 +113,7 @@ Select a playlist first.: حدد قائمة التشغيل أولاً.
 Select Theme: حدد الموضوع
 Settings: إعدادات
 Show List: عرض القائمة
+Show or hide the channel list: إظهار أو إخفاء قائمة القنوات
 Start (local): البدء (محلي)
 Status: حالة
 Stream URL: عنوان URL للدفق
@@ -121,14 +124,14 @@ Time: وقت
 Title: عنوان
 Tools: أدوات
 TV Guide (EPG): دليل التلفاز (EPG)
-TvgId: : معرف التلفزيون:
-TvgId:: معرف التلفزيون:
+TVGarden+: حديقة التلفاز+
+TvgId: معرف التلفزيون
 Unable to find version in remote project file.: غير قادر على العثور على الإصدار في ملف المشروع البعيد.
 Update: تحديث
 Update complete. Restarting...: اكتمل التحديث. جارٍ إعادة التشغيل...
 Update failed: : فشل التحديث:
 URL: عنوان URL
-URL (primary):: عنوان URL (أساسي):
+URL (primary): عنوان URL (أساسي)
 URL list (one per line): قائمة عناوين URL (واحدة لكل سطر)
 URLs & Status: عناوين URL والحالة
 Version: إصدار

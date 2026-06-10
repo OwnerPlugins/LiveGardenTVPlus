@@ -53,6 +53,20 @@
                     <TextBlock x:Name="LoadPlaylistBtnText"/>
                 </StackPanel>
             </Button>
+            <!-- Button Recent with popup -->
+            <Button x:Name="RecentBtn" ToolTip="Recent playlists" Click="RecentBtn_Click">
+                <StackPanel Orientation="Horizontal">
+                    <material:PackIcon Kind="ClockOutline" Width="20" Height="20" Margin="0,0,5,0"/>
+                    <TextBlock x:Name="RecentTextBlock" Text="Recent"/>
+                    <material:PackIcon Kind="MenuDown" Width="16" Height="16" Margin="5,0,0,0"/>
+                </StackPanel>
+            </Button>
+            <Popup x:Name="RecentPopup" Placement="Absolute" StaysOpen="False" AllowsTransparency="True">
+                <Border Background="{DynamicResource ControlBackgroundBrush}" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1" Padding="4">
+                    <ListBox x:Name="RecentListBox" MinWidth="200" MaxHeight="200" SelectionChanged="RecentListBox_SelectionChanged"
+                             DisplayMemberPath="DisplayName" Tag="FilePath"/>
+                </Border>
+            </Popup>
             <Button x:Name="SavePlaylistBtn" Click="SavePlaylistBtn_Click" ToolTip="Save current playlist to a new M3U file">
                 <StackPanel Orientation="Horizontal">
                     <material:PackIcon Kind="ContentSave" Width="20" Height="20" Margin="0,0,5,0"/>
@@ -84,7 +98,7 @@
                     <TextBlock x:Name="ToolsBtnText" Text="Tools"/>
                 </StackPanel>
             </Button>
-            <Popup x:Name="ToolsPopup" PlacementTarget="{Binding ElementName=ToolsBtn}" Placement="Bottom" StaysOpen="False">
+            <Popup x:Name="ToolsPopup" Placement="Absolute" StaysOpen="False" AllowsTransparency="True">
                 <Border Background="{DynamicResource ControlBackgroundBrush}" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1" Padding="4,2" MinWidth="160">
                     <StackPanel>
                         <Button x:Name="PopupSettingsBtn" Click="PopupSettingsBtn_Click" 
@@ -142,7 +156,7 @@
             <Button x:Name="EpgBtn" Click="EpgBtn_Click" ToolTip="TV Guide (EPG)">
                 <StackPanel Orientation="Horizontal">
                     <material:PackIcon Kind="TelevisionGuide" Width="20" Height="20" Margin="0,0,5,0"/>
-                    <TextBlock Text="EPG"/>
+                    <TextBlock x:Name="EpgTextBlock" Text="EPG"/>
                 </StackPanel>
             </Button>
             <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
@@ -169,13 +183,6 @@
                 <Button x:Name="ClearSearchBtn" Width="22" Height="22" Margin="2,0,0,0" Click="ClearSearchBtn_Click" Visibility="Collapsed" ToolTip="Clear search text">
                     <material:PackIcon Kind="Close" Width="20" Height="20"/>
                 </Button>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal" Margin="8,0" VerticalAlignment="Center" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5" Cursor="Hand">
-
-                <TextBlock Text=" by Lululla | 2026 | " Foreground="{DynamicResource ForegroundBrush}" FontSize="14" VerticalAlignment="Center"/>
-                <TextBlock Text="CORVOBOYS.ORG" Foreground="{DynamicResource AccentBrush}" FontSize="14" Cursor="Hand" VerticalAlignment="Center" MouseLeftButtonUp="CorvoBoysLink_Click" ToolTip="Open corvoboys.org forum"/>
-                <TextBlock Text=" - " Foreground="{DynamicResource ForegroundBrush}" FontSize="14" VerticalAlignment="Center"/>
-                <TextBlock Text="LINUXSAT-SUPPORT.COM" Foreground="{DynamicResource AccentBrush}" FontSize="14" Cursor="Hand" VerticalAlignment="Center" MouseLeftButtonUp="LinuxSatLink_Click" ToolTip="Open linuxsat-support.com"/>
             </StackPanel>
         </ToolBar>
 

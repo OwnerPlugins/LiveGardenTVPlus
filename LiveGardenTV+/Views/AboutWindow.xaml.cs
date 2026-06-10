@@ -31,6 +31,40 @@ namespace LiveGardenTVPlus.Views
             return $"{version.Major}.{version.Minor}.{version.Build}";
         }
 
+        private void CorvoBoysLink_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            try
+            {
+                Process.Start(new ProcessStartInfo { FileName = "https://www.corvoboys.org", UseShellExecute = true });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Cannot open browser: {ex.Message}");
+            }
+        }
+
+        private void LinuxSatLink_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            try
+            {
+                Process.Start(new ProcessStartInfo { FileName = "https://www.linuxsat-support.com", UseShellExecute = true });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Cannot open browser: {ex.Message}");
+            }
+        }
+        private void GitHubProfileLink_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            try
+            {
+                Process.Start(new ProcessStartInfo { FileName = "https://github.com/OwnerPlugins", UseShellExecute = true });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Cannot open browser: {ex.Message}");
+            }
+        }
         private async Task LoadChangelogAsync()
         {
             string changelog = await FetchChangelogFromReadmeAsync();

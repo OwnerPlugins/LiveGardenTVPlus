@@ -90,7 +90,6 @@
             </WrapPanel>
         </Border>
         <!-- Filters -->
-        <!-- Filters with groups and labels above each field -->
         <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="1" CornerRadius="4" Padding="5" Margin="0,5,0,5" Background="{DynamicResource ControlBackgroundBrush}">
             <StackPanel>
                 <!-- Centered FILTERS title -->
@@ -100,22 +99,22 @@
                     <!-- Group: Channel Info -->
                     <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
                         <StackPanel>
-                            <TextBlock Text="Channel Info" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                            <TextBlock x:Name="ChannelInfoLabel" Text="Channel Info" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
                             <WrapPanel>
                                 <StackPanel Width="150" Margin="2">
-                                    <TextBlock Text="Name" FontSize="11" Foreground="Gray"/>
+                                    <TextBlock x:Name="NameFieldLabel" Text="Name" FontSize="11" Foreground="Gray"/>
                                     <TextBox x:Name="FilterName" material:HintAssist.Hint="e.g., Rai" ToolTip="Filter by channel name"/>
                                 </StackPanel>
                                 <StackPanel Width="150" Margin="2">
-                                    <TextBlock Text="URL" FontSize="11" Foreground="Gray"/>
+                                    <TextBlock x:Name="UrlFieldLabel" Text="URL" FontSize="11" Foreground="Gray"/>
                                     <TextBox x:Name="FilterUrl" material:HintAssist.Hint="contains text"/>
                                 </StackPanel>
                                 <StackPanel Width="150" Margin="2">
-                                    <TextBlock Text="Group" FontSize="11" Foreground="Gray"/>
+                                    <TextBlock x:Name="GroupFieldLabel" Text="Group" FontSize="11" Foreground="Gray"/>
                                     <TextBox x:Name="FilterGroup"/>
                                 </StackPanel>
                                 <StackPanel Width="150" Margin="2">
-                                    <TextBlock Text="Logo URL" FontSize="11" Foreground="Gray"/>
+                                    <TextBlock x:Name="LogoFieldLabel" Text="Logo URL" FontSize="11" Foreground="Gray"/>
                                     <TextBox x:Name="FilterLogo"/>
                                 </StackPanel>
                             </WrapPanel>
@@ -124,10 +123,10 @@
                     <!-- Group: EPG & Favorites -->
                     <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
                         <StackPanel>
-                            <TextBlock Text="EPG &amp; Favorites" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                            <TextBlock x:Name="EpgFavLabel" Text="EPG &amp; Favorites" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
                             <WrapPanel>
                                 <StackPanel Width="150" Margin="2">
-                                    <TextBlock Text="TvgId" FontSize="11" Foreground="Gray"/>
+                                    <TextBlock x:Name="TvgIdFieldLabel" Text="TvgId" FontSize="11" Foreground="Gray"/>
                                     <TextBox x:Name="FilterTvgId"/>
                                 </StackPanel>
                                 <StackPanel Width="150" Margin="2" VerticalAlignment="Center">
@@ -139,10 +138,10 @@
                     <!-- Group: Geo & Country -->
                     <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
                         <StackPanel>
-                            <TextBlock Text="Geo &amp; Country" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                            <TextBlock x:Name="GeoCountryLabel" Text="Geo &amp; Country" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
                             <WrapPanel>
                                 <StackPanel Width="120" Margin="2">
-                                    <TextBlock Text="Country" FontSize="11" Foreground="Gray"/>
+                                    <TextBlock x:Name="CountryFieldLabel" Text="Country" FontSize="11" Foreground="Gray"/>
                                     <TextBox x:Name="FilterCountry"/>
                                 </StackPanel>
                                 <StackPanel Width="120" Margin="2" VerticalAlignment="Center">
@@ -154,14 +153,14 @@
                     <!-- Group: Advanced Identifiers -->
                     <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
                         <StackPanel>
-                            <TextBlock Text="Advanced IDs" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                            <TextBlock x:Name="AdvancedIdsLabel" Text="Advanced IDs" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
                             <WrapPanel>
                                 <StackPanel Width="150" Margin="2">
-                                    <TextBlock Text="Nanoid" FontSize="11" Foreground="Gray"/>
+                                    <TextBlock x:Name="NanoidFieldLabel" Text="Nanoid" FontSize="11" Foreground="Gray"/>
                                     <TextBox x:Name="FilterNanoid"/>
                                 </StackPanel>
                                 <StackPanel Width="150" Margin="2">
-                                    <TextBlock Text="Languages (comma)" FontSize="11" Foreground="Gray"/>
+                                    <TextBlock x:Name="LanguagesFieldLabel" Text="Languages (comma)" FontSize="11" Foreground="Gray"/>
                                     <TextBox x:Name="FilterLanguages"/>
                                 </StackPanel>
                             </WrapPanel>
@@ -170,18 +169,18 @@
                     <!-- Group: URLs & Status -->
                     <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
                         <StackPanel>
-                            <TextBlock Text="URLs &amp; Status" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                            <TextBlock x:Name="UrlsStatusLabel" Text="URLs &amp; Status" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
                             <WrapPanel>
                                 <StackPanel Width="150" Margin="2">
-                                    <TextBlock Text="Youtube URL" FontSize="11" Foreground="Gray"/>
+                                    <TextBlock x:Name="YoutubeFieldLabel" Text="Youtube URL" FontSize="11" Foreground="Gray"/>
                                     <TextBox x:Name="FilterYoutube"/>
                                 </StackPanel>
                                 <StackPanel Width="150" Margin="2">
-                                    <TextBlock Text="Stream URL" FontSize="11" Foreground="Gray"/>
+                                    <TextBlock x:Name="StreamFieldLabel" Text="Stream URL" FontSize="11" Foreground="Gray"/>
                                     <TextBox x:Name="FilterStream"/>
                                 </StackPanel>
                                 <StackPanel Width="150" Margin="2">
-                                    <TextBlock Text="Status" FontSize="11" Foreground="Gray"/>
+                                    <TextBlock x:Name="StatusFieldLabel" Text="Status" FontSize="11" Foreground="Gray"/>
                                     <TextBox x:Name="FilterStatus"/>
                                 </StackPanel>
                             </WrapPanel>

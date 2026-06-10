@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Önceki
 A new version is available. Do you want to update now?: Yeni bir sürüm mevcut. Şimdi güncellemek istiyor musunuz?
 About: Hakkında
+About TVGarden+: TVGarden+ Hakkında
 Add Group: Grup Ekle
 Advanced IDs: Gelişmiş Kimlikler
 Apply: Uygula
@@ -9,7 +10,6 @@ Apply changes: Değişiklikleri uygula
 Buffer (seconds): Tampon (saniye)
 Cancel: İptal etmek
 CANCEL: İPTAL ETMEK
-Cannot open browser: Tarayıcı açılamıyor
 Category: Kategori
 Channel Details: Kanal Detayları
 Channel Info: Kanal Bilgisi
@@ -21,8 +21,7 @@ Check for updates: Güncellemeleri kontrol edin
 Check URLs: URL'leri kontrol edin
 Clear: Temizlemek
 Close: Kapalı
-Country: : Ülke:
-Country:: Ülke:
+Country: Ülke
 Delete Group: Grubu Sil
 Description: Tanım
 Details: Detaylar
@@ -34,6 +33,7 @@ Edit URLs: URL'leri düzenleyin
 End (local): Bitiş (yerel)
 Enrich with EPG: EPG ile zenginleştirin
 Enter M3U URL:: M3U URL'sini girin:
+EPG: EPG
 EPG & Favorites: EPG ve Favoriler
 EPG Matching Threshold: EPG Eşleştirme Eşiği
 EPG Source: EPG Kaynağı
@@ -56,8 +56,7 @@ FILTERS: FİLTRELER
 Geo & Country: Coğrafya ve Ülke
 GeoBlocked: Coğrafi Engelleme
 GitHub Error: GitHub Hatası
-Group: : Grup:
-Group:: Grup:
+Group: Grup
 Help: Yardım
 Hide List: Listeyi Gizle
 Import JSON: JSON'u içe aktar
@@ -65,20 +64,21 @@ Info: Bilgi
 Invalid playlist URL.: Geçersiz oynatma listesi URL'si.
 Invalid URL.: Geçersiz URL.
 Language: Dil
-Languages (comma): : Diller (virgül):
-Languages (comma):: Diller (virgül):
+Languages (comma): Diller (virgül)
 LOAD: YÜK
 Load a playlist first.: Önce bir çalma listesi yükleyin.
+Load M3U: M3U'yu yükle
+Load M3U file from your computer: M3U dosyasını bilgisayarınızdan yükleyin
+Load M3U playlist from a web URL: M3U çalma listesini bir web URL'sinden yükleyin
+Load Online: Çevrimiçi Yükle
 Loaded: Yüklendi
 Loading...: Yükleniyor...
-Logo Preview:: Logo Önizlemesi:
-Logo URL: : Logo URL'si:
-Logo URL:: Logo URL'si:
+Logo Preview: Logo Önizlemesi
+Logo URL: Logo URL'si
 Logos Matching Threshold: Logo Eşleştirme Eşiği
 Logos Source: Logo Kaynağı
 Logos Subfolder: Logolar Alt Klasörü
-Name: : İsim:
-Name:: İsim:
+Name: İsim
 Nanoid: Nanoid
 Network error: Ağ hatası
 New Playlist: Yeni Oynatma Listesi
@@ -97,6 +97,8 @@ Player ready.: Oyuncu hazır.
 Playlist Editor: Çalma Listesi Düzenleyicisi
 Please select a program first.: Lütfen önce bir program seçin.
 Program Details: Program Detayları
+Recent: Son
+Recent playlists: Son oynatma listeleri
 Refresh: Yenile
 Refresh EPG List: EPG Listesini Yenile
 Refresh from GitHub: GitHub'dan yenile
@@ -111,6 +113,7 @@ Select a playlist first.: Önce bir çalma listesi seçin.
 Select Theme: Tema Seç
 Settings: Ayarlar
 Show List: Listeyi Göster
+Show or hide the channel list: Kanal listesini göster veya gizle
 Start (local): Başlat (yerel)
 Status: Durum
 Stream URL: Akış URL'si
@@ -121,14 +124,14 @@ Time: Zaman
 Title: Başlık
 Tools: Aletler
 TV Guide (EPG): TV Rehberi (EPG)
-TvgId: : TvgID:
-TvgId:: TvgID:
+TVGarden+: TV Bahçesi+
+TvgId: TvgID
 Unable to find version in remote project file.: Uzak proje dosyasında sürüm bulunamıyor.
 Update: Güncelleme
 Update complete. Restarting...: Güncelleme tamamlandı. Yeniden başlatılıyor...
 Update failed: : Güncelleme başarısız oldu:
 URL: URL'si
-URL (primary):: URL (birincil):
+URL (primary): URL (birincil)
 URL list (one per line): URL listesi (her satıra bir tane)
 URLs & Status: URL'ler ve Durum
 Version: Sürüm

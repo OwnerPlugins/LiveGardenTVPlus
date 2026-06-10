@@ -2,6 +2,7 @@
 ◀ Previous: ◀ ਪਿਛਲਾ
 A new version is available. Do you want to update now?: ਇੱਕ ਨਵਾਂ ਸੰਸਕਰਣ ਉਪਲਬਧ ਹੈ। ਕੀ ਤੁਸੀਂ ਹੁਣੇ ਅੱਪਡੇਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?
 About: ਬਾਰੇ
+About TVGarden+: TVGarden+ ਬਾਰੇ
 Add Group: ਗਰੁੱਪ ਸ਼ਾਮਲ ਕਰੋ
 Advanced IDs: ਉੱਨਤ ਆਈ.ਡੀ
 Apply: ਲਾਗੂ ਕਰੋ
@@ -9,7 +10,6 @@ Apply changes: ਤਬਦੀਲੀਆਂ ਲਾਗੂ ਕਰੋ
 Buffer (seconds): ਬਫਰ (ਸਕਿੰਟ)
 Cancel: ਰੱਦ ਕਰੋ
 CANCEL: ਰੱਦ ਕਰੋ
-Cannot open browser: ਬ੍ਰਾਊਜ਼ਰ ਖੋਲ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ
 Category: ਸ਼੍ਰੇਣੀ
 Channel Details: ਚੈਨਲ ਦੇ ਵੇਰਵੇ
 Channel Info: ਚੈਨਲ ਦੀ ਜਾਣਕਾਰੀ
@@ -21,8 +21,7 @@ Check for updates: ਅੱਪਡੇਟ ਲਈ ਚੈੱਕ ਕਰੋ
 Check URLs: URL ਦੀ ਜਾਂਚ ਕਰੋ
 Clear: ਸਾਫ਼
 Close: ਬੰਦ ਕਰੋ
-Country: : ਦੇਸ਼:
-Country:: ਦੇਸ਼:
+Country: ਦੇਸ਼
 Delete Group: ਗਰੁੱਪ ਮਿਟਾਓ
 Description: ਵਰਣਨ
 Details: ਵੇਰਵੇ
@@ -34,6 +33,7 @@ Edit URLs: URL ਦਾ ਸੰਪਾਦਨ ਕਰੋ
 End (local): ਅੰਤ (ਸਥਾਨਕ)
 Enrich with EPG: ਈਪੀਜੀ ਨਾਲ ਭਰਪੂਰ ਕਰੋ
 Enter M3U URL:: M3U URL ਦਾਖਲ ਕਰੋ:
+EPG: ਈ.ਪੀ.ਜੀ
 EPG & Favorites: EPG ਅਤੇ ਮਨਪਸੰਦ
 EPG Matching Threshold: EPG ਮੈਚਿੰਗ ਥ੍ਰੈਸ਼ਹੋਲਡ
 EPG Source: EPG ਸਰੋਤ
@@ -56,8 +56,7 @@ FILTERS: ਫਿਲਟਰ
 Geo & Country: ਜੀਓ ਅਤੇ ਦੇਸ਼
 GeoBlocked: ਜੀਓਬਲਾਕ ਕੀਤਾ ਗਿਆ
 GitHub Error: GitHub ਗੜਬੜ
-Group: : ਸਮੂਹ:
-Group:: ਸਮੂਹ:
+Group: ਸਮੂਹ
 Help: ਮਦਦ ਕਰੋ
 Hide List: ਸੂਚੀ ਲੁਕਾਓ
 Import JSON: JSON ਆਯਾਤ ਕਰੋ
@@ -65,20 +64,21 @@ Info: ਜਾਣਕਾਰੀ
 Invalid playlist URL.: ਅਵੈਧ ਪਲੇਲਿਸਟ URL।
 Invalid URL.: ਅਵੈਧ URL।
 Language: ਭਾਸ਼ਾ
-Languages (comma): : ਭਾਸ਼ਾਵਾਂ (ਕਾਮਾ):
-Languages (comma):: ਭਾਸ਼ਾਵਾਂ (ਕਾਮਾ):
+Languages (comma): ਭਾਸ਼ਾਵਾਂ (ਕੌਮਾ)
 LOAD: ਲੋਡ ਕਰੋ
 Load a playlist first.: ਪਹਿਲਾਂ ਇੱਕ ਪਲੇਲਿਸਟ ਲੋਡ ਕਰੋ।
+Load M3U: M3U ਲੋਡ ਕਰੋ
+Load M3U file from your computer: ਆਪਣੇ ਕੰਪਿਊਟਰ ਤੋਂ M3U ਫਾਈਲ ਲੋਡ ਕਰੋ
+Load M3U playlist from a web URL: ਇੱਕ ਵੈੱਬ URL ਤੋਂ M3U ਪਲੇਲਿਸਟ ਲੋਡ ਕਰੋ
+Load Online: ਔਨਲਾਈਨ ਲੋਡ ਕਰੋ
 Loaded: ਲੋਡ ਕੀਤਾ
 Loading...: ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...
-Logo Preview:: ਲੋਗੋ ਝਲਕ:
-Logo URL: : ਲੋਗੋ URL:
-Logo URL:: ਲੋਗੋ URL:
+Logo Preview: ਲੋਗੋ ਪ੍ਰੀਵਿਊ
+Logo URL: ਲੋਗੋ URL
 Logos Matching Threshold: ਲੋਗੋ ਮੈਚਿੰਗ ਥ੍ਰੈਸ਼ਹੋਲਡ
 Logos Source: ਲੋਗੋ ਸਰੋਤ
 Logos Subfolder: ਲੋਗੋ ਸਬਫੋਲਡਰ
-Name: : ਨਾਮ:
-Name:: ਨਾਮ:
+Name: ਨਾਮ
 Nanoid: ਨੈਨੋਇਡ
 Network error: ਨੈੱਟਵਰਕ ਗੜਬੜ
 New Playlist: ਨਵੀਂ ਪਲੇਲਿਸਟ
@@ -87,7 +87,7 @@ No .m3u files found on GitHub repository.: GitHub ਰਿਪੋਜ਼ਟਰੀ '�
 No duplicate URLs found.: ਕੋਈ ਡੁਪਲੀਕੇਟ URL ਨਹੀਂ ਮਿਲੇ।
 No favorite channels to export.: ਨਿਰਯਾਤ ਕਰਨ ਲਈ ਕੋਈ ਮਨਪਸੰਦ ਚੈਨਲ ਨਹੀਂ ਹਨ।
 No playlist found: ਕੋਈ ਪਲੇਲਿਸਟ ਨਹੀਂ ਮਿਲੀ
-No stream: ਕੋਈ ਧਾਰਾ ਨਹੀਂ
+No stream: ਕੋਈ ਸਟ੍ਰੀਮ ਨਹੀਂ
 No updates available.: ਕੋਈ ਅੱਪਡੇਟ ਉਪਲਬਧ ਨਹੀਂ ਹਨ।
 Now playing: ਹੁਣ ਖੇਡ ਰਿਹਾ ਹੈ
 OK: ਠੀਕ ਹੈ
@@ -97,6 +97,8 @@ Player ready.: ਖਿਡਾਰੀ ਤਿਆਰ ਹੈ।
 Playlist Editor: ਪਲੇਲਿਸਟ ਸੰਪਾਦਕ
 Please select a program first.: ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਇੱਕ ਪ੍ਰੋਗਰਾਮ ਚੁਣੋ।
 Program Details: ਪ੍ਰੋਗਰਾਮ ਦੇ ਵੇਰਵੇ
+Recent: ਹਾਲੀਆ
+Recent playlists: ਹਾਲੀਆ ਪਲੇਲਿਸਟਸ
 Refresh: ਤਾਜ਼ਾ ਕਰੋ
 Refresh EPG List: EPG ਸੂਚੀ ਨੂੰ ਤਾਜ਼ਾ ਕਰੋ
 Refresh from GitHub: GitHub ਤੋਂ ਤਾਜ਼ਾ ਕਰੋ
@@ -111,6 +113,7 @@ Select a playlist first.: ਪਹਿਲਾਂ ਇੱਕ ਪਲੇਲਿਸਟ ਚ
 Select Theme: ਥੀਮ ਚੁਣੋ
 Settings: ਸੈਟਿੰਗਾਂ
 Show List: ਸੂਚੀ ਦਿਖਾਓ
+Show or hide the channel list: ਚੈਨਲ ਸੂਚੀ ਦਿਖਾਓ ਜਾਂ ਲੁਕਾਓ
 Start (local): ਸ਼ੁਰੂ ਕਰੋ (ਸਥਾਨਕ)
 Status: ਸਥਿਤੀ
 Stream URL: ਸਟ੍ਰੀਮ URL
@@ -121,14 +124,14 @@ Time: ਸਮਾਂ
 Title: ਸਿਰਲੇਖ
 Tools: ਸੰਦ
 TV Guide (EPG): ਟੀਵੀ ਗਾਈਡ (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: ਟੀਵੀ ਗਾਰਡਨ+
+TvgId: ਟੀਵੀਜੀਆਈਡੀ
 Unable to find version in remote project file.: ਰਿਮੋਟ ਪ੍ਰੋਜੈਕਟ ਫਾਈਲ ਵਿੱਚ ਸੰਸਕਰਣ ਲੱਭਣ ਵਿੱਚ ਅਸਮਰੱਥ।
 Update: ਅੱਪਡੇਟ ਕਰੋ
 Update complete. Restarting...: ਅੱਪਡੇਟ ਪੂਰਾ ਹੋਇਆ। ਰੀਸਟਾਰਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...
 Update failed: : ਅੱਪਡੇਟ ਅਸਫਲ:
 URL: URL
-URL (primary):: URL (ਪ੍ਰਾਇਮਰੀ):
+URL (primary): URL (ਪ੍ਰਾਇਮਰੀ)
 URL list (one per line): URL ਸੂਚੀ (ਇੱਕ ਪ੍ਰਤੀ ਲਾਈਨ)
 URLs & Status: URLs ਅਤੇ ਸਥਿਤੀ
 Version: ਸੰਸਕਰਣ

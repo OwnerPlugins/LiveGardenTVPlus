@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Пешина
 A new version is available. Do you want to update now?: Версияи нав дастрас аст. Мехоҳед ҳоло навсозӣ кунед?
 About: Дар бораи
+About TVGarden+: Дар бораи TVGarden+
 Add Group: Илова кардани гурӯҳ
 Advanced IDs: ID-ҳои пешрафта
 Apply: Муроҷиат кунед
@@ -9,7 +10,6 @@ Apply changes: Тағиротро татбиқ кунед
 Buffer (seconds): Буфер (сонияҳо)
 Cancel: Бекор кардан
 CANCEL: БАТЪ КАРДАН
-Cannot open browser: Браузер кушода намешавад
 Category: Категория
 Channel Details: Тафсилоти канал
 Channel Info: Маълумот дар бораи канал
@@ -21,8 +21,7 @@ Check for updates: Барои навсозиҳо санҷед
 Check URLs: URL-ҳоро санҷед
 Clear: Тоза
 Close: Пӯшед
-Country: : Кишвар:
-Country:: Кишвар:
+Country: кишвар
 Delete Group: Гурӯҳро нест кунед
 Description: Тавсифи
 Details: Тафсилот
@@ -34,6 +33,7 @@ Edit URLs: URL-ҳоро таҳрир кунед
 End (local): Анҷом (маҳаллӣ)
 Enrich with EPG: Бо EPG бой кунед
 Enter M3U URL:: URL-и M3U-ро ворид кунед:
+EPG: EPG
 EPG & Favorites: EPG ва дӯстдоштаҳо
 EPG Matching Threshold: Ҳадди мувофиқати EPG
 EPG Source: Манбаи EPG
@@ -56,8 +56,7 @@ FILTERS: Филтрҳо
 Geo & Country: Гео ва кишвар
 GeoBlocked: GeoBlocked
 GitHub Error: Хатогии GitHub
-Group: : Гурӯҳ:
-Group:: Гурӯҳ:
+Group: Гурӯҳ
 Help: Кӯмак
 Hide List: Рӯйхатро пинҳон кунед
 Import JSON: JSON ворид кунед
@@ -65,20 +64,21 @@ Info: Маълумот
 Invalid playlist URL.: URL-и рӯйхати навозиш нодуруст.
 Invalid URL.: URL нодуруст.
 Language: Забон
-Languages (comma): : Забонҳо (вергул):
-Languages (comma):: Забонҳо (вергул):
+Languages (comma): Забонҳо (вергул)
 LOAD: БОР
 Load a playlist first.: Аввал рӯйхати навозишро бор кунед.
+Load M3U: M3U-ро бор кунед
+Load M3U file from your computer: Файли M3U-ро аз компютери худ бор кунед
+Load M3U playlist from a web URL: Рӯйхати навозиш M3U-ро аз URL-и веб бор кунед
+Load Online: Онлайн бор кунед
 Loaded: Бор карда шуд
 Loading...: Loading...
-Logo Preview:: Пешнамоиши логотип:
-Logo URL: : URL логотип:
-Logo URL:: URL логотип:
+Logo Preview: Пешнамоиши логотип
+Logo URL: URL логотип
 Logos Matching Threshold: Ҳадди мувофиқати Logos
 Logos Source: Манбаи Logos
 Logos Subfolder: Зерпапкаи Logos
-Name: : Ном:
-Name:: Ном:
+Name: Ном
 Nanoid: Наноид
 Network error: Хатогии шабака
 New Playlist: Рӯйхати навозиш
@@ -97,6 +97,8 @@ Player ready.: Бозингар омода аст.
 Playlist Editor: Муҳаррири рӯйхати навозиш
 Please select a program first.: Лутфан аввал барномаеро интихоб кунед.
 Program Details: Тафсилоти барнома
+Recent: Ба наздикӣ
+Recent playlists: Рӯйхати навозишҳои охирин
 Refresh: Навсозӣ
 Refresh EPG List: Рӯйхати EPG-ро нав кунед
 Refresh from GitHub: Аз GitHub навсозӣ кунед
@@ -111,6 +113,7 @@ Select a playlist first.: Аввал рӯйхати навозишро инти�
 Select Theme: Мавзӯъро интихоб кунед
 Settings: Танзимотҳо
 Show List: Нишон додани рӯйхат
+Show or hide the channel list: Рӯйхати каналҳоро нишон диҳед ё пинҳон кунед
 Start (local): Оғоз (маҳаллӣ)
 Status: Статус
 Stream URL: URL-и ҷараён
@@ -121,14 +124,14 @@ Time: Вақт
 Title: Унвон
 Tools: Воситаҳо
 TV Guide (EPG): Дастури телевизионӣ (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: Боғи телевизионӣ+
+TvgId: TvgId
 Unable to find version in remote project file.: Дар файли лоиҳаи дурдаст версия ёфтан ғайриимкон аст.
 Update: Навсозӣ
 Update complete. Restarting...: Навсозӣ анҷом ёфт. Аз нав оғоз карда мешавад...
 Update failed: : Навсозӣ ноком шуд:
 URL: URL
-URL (primary):: URL (асосӣ):
+URL (primary): URL (асосӣ)
 URL list (one per line): Рӯйхати URL (як сатр)
 URLs & Status: URL-ҳо ва Статус
 Version: Версия

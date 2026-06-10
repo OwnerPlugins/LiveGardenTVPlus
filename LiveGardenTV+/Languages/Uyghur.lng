@@ -2,6 +2,7 @@
 ◀ Previous: ◀ ئالدىنقى
 A new version is available. Do you want to update now?: يېڭى نەشرى بار. ھازىر يېڭىلاشنى خالامسىز؟
 About: ھەققىدە
+About TVGarden+: TVGarden + ھەققىدە
 Add Group: گۇرۇپپا قوشۇڭ
 Advanced IDs: ئىلغار كىملىك
 Apply: ئىلتىماس قىلىڭ
@@ -9,7 +10,6 @@ Apply changes: ئۆزگەرتىشلەرنى ئىشلىتىڭ
 Buffer (seconds): Buffer (سېكۇنت)
 Cancel: بىكار قىلىش
 CANCEL: CANCEL
-Cannot open browser: توركۆرگۈنى ئاچقىلى بولمايدۇ
 Category: سەھىپە
 Channel Details: Channel Details
 Channel Info: Channel Info
@@ -21,8 +21,7 @@ Check for updates: يېڭىلانمىلارنى تەكشۈرۈڭ
 Check URLs: URL نى تەكشۈرۈڭ
 Clear: Clear
 Close: تاقاش
-Country: : دۆلەت:
-Country:: دۆلەت:
+Country: دۆلەت
 Delete Group: گۇرۇپپىنى ئۆچۈرۈش
 Description: چۈشەندۈرۈش
 Details: تەپسىلاتى
@@ -34,6 +33,7 @@ Edit URLs: URL نى تەھرىرلەڭ
 End (local): ئاخىرلىشىش (يەرلىك)
 Enrich with EPG: EPG بىلەن بېيىتىش
 Enter M3U URL:: M3U URL نى كىرگۈزۈڭ:
+EPG: EPG
 EPG & Favorites: EPG & Favorites
 EPG Matching Threshold: EPG ماسلاشتۇرۇش چېكى
 EPG Source: EPG Source
@@ -47,7 +47,7 @@ Export Filtered JSON: سۈزۈلگەن JSON نى چىقىرىش
 Export Filtered M3U: سۈزۈلگەن M3U نى چىقىرىش
 Export JSON: JSON نى چىقىرىش
 Export OK: Export OK
-Extracting update...: يېڭىلاشنى چىقىرىش ...
+Extracting update...: يېڭىلاش يېڭىلاش ...
 Failed to download playlist: قويۇش تىزىملىكى چۈشۈرۈلمىدى
 Failed to load playlist: قويۇش تىزىملىكى يۈكلەنمىدى
 Favorite: ئامراق
@@ -56,8 +56,7 @@ FILTERS: FILTERS
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub خاتالىقى
-Group: : گۇرۇپپا:
-Group:: گۇرۇپپا:
+Group: گۇرۇپپا
 Help: ياردەم
 Hide List: تىزىملىكنى يوشۇرۇش
 Import JSON: JSON نى ئەكىرىڭ
@@ -65,25 +64,26 @@ Info: ئۇچۇر
 Invalid playlist URL.: ئىناۋەتسىز تىزىملىك ​​URL.
 Invalid URL.: ئىناۋەتسىز URL.
 Language: تىل
-Languages (comma): : تىللار (پەش):
-Languages (comma):: تىللار (پەش):
+Languages (comma): تىللار (پەش)
 LOAD: LOAD
 Load a playlist first.: ئالدى بىلەن قويۇش تىزىملىكىنى يۈكلەڭ.
+Load M3U: M3U نى يۈكلەڭ
+Load M3U file from your computer: كومپيۇتېرىڭىزدىن M3U ھۆججىتىنى يۈكلەڭ
+Load M3U playlist from a web URL: تور ئادرېسىدىن M3U قويۇش تىزىملىكىنى يۈكلەڭ
+Load Online: توردا يۈكلەڭ
 Loaded: يۈكلەندى
 Loading...: Loading ...
-Logo Preview:: Logo Preview:
-Logo URL: : Logo URL:
-Logo URL:: Logo URL:
+Logo Preview: Logo Preview
+Logo URL: Logo URL
 Logos Matching Threshold: بەلگە ماس كېلىدىغان چەك چېكى
 Logos Source: Logos Source
 Logos Subfolder: Logos Subfolder
-Name: : ئىسمى:
-Name:: ئىسمى:
+Name: ئىسمى
 Nanoid: Nanoid
 Network error: تور خاتالىقى
 New Playlist: يېڭى قويۇش تىزىملىكى
 Next ▶: كېيىنكى ▶
-No .m3u files found on GitHub repository.: GitHub ئامبىرىدا .m3u ھۆججىتى تېپىلمىدى.
+No .m3u files found on GitHub repository.: GitHub ئامبىرىدا تېپىلمىغان .m3u ھۆججىتى يوق.
 No duplicate URLs found.: كۆپەيتىلگەن URL تېپىلمىدى.
 No favorite channels to export.: ئېكسپورت قىلىشقا ئامراق قانال يوق.
 No playlist found: قويۇش تىزىملىكى تېپىلمىدى
@@ -97,6 +97,8 @@ Player ready.: قويغۇچ تەييار.
 Playlist Editor: قويۇش تىزىملىكى تەھرىرلىگۈچى
 Please select a program first.: ئالدى بىلەن بىر پروگراممىنى تاللاڭ.
 Program Details: پروگرامما تەپسىلاتلىرى
+Recent: يېقىنقى
+Recent playlists: يېقىنقى قويۇش تىزىملىكى
 Refresh: يېڭىلاش
 Refresh EPG List: EPG تىزىملىكىنى يېڭىلاڭ
 Refresh from GitHub: GitHub دىن يېڭىلاڭ
@@ -111,6 +113,7 @@ Select a playlist first.: ئالدى بىلەن قويۇش تىزىملىكىن�
 Select Theme: باشتېمىنى تاللاڭ
 Settings: تەڭشەك
 Show List: تىزىملىكنى كۆرسىتىش
+Show or hide the channel list: قانال تىزىملىكىنى كۆرسىتىش ياكى يوشۇرۇش
 Start (local): باشلاش (يەرلىك)
 Status: ھالەت
 Stream URL: Stream URL
@@ -121,14 +124,14 @@ Time: ۋاقىت
 Title: ماۋزۇ
 Tools: قوراللار
 TV Guide (EPG): TV Guide (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: TV Garden +
+TvgId: TvgId
 Unable to find version in remote project file.: يىراقتىكى ھۆججەت ھۆججىتىدىن نەشرىنى تاپالمىدى.
 Update: يېڭىلاش
 Update complete. Restarting...: يېڭىلاش تاماملاندى. قايتا قوزغىتىش ...
 Update failed: : يېڭىلاش مەغلۇپ بولدى:
 URL: URL
-URL (primary):: URL (دەسلەپكى):
+URL (primary): URL (دەسلەپكى)
 URL list (one per line): URL تىزىملىكى (ھەر بىر قۇر)
 URLs & Status: URL ۋە ھالەت
 Version: نەشرى

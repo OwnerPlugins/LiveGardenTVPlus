@@ -2,6 +2,7 @@
 ◀ Previous: ◀ 上一页
 A new version is available. Do you want to update now?: 有新版本可用。您想现在更新吗？
 About: 关于
+About TVGarden+: 关于电视花园+
 Add Group: 添加组
 Advanced IDs: 高级 ID
 Apply: 申请
@@ -9,7 +10,6 @@ Apply changes: 应用更改
 Buffer (seconds): 缓冲区（秒）
 Cancel: 取消
 CANCEL: 取消
-Cannot open browser: 无法打开浏览器
 Category: 类别
 Channel Details: 频道详情
 Channel Info: 频道信息
@@ -21,8 +21,7 @@ Check for updates: 检查更新
 Check URLs: 检查网址
 Clear: 清除
 Close: 关闭
-Country: : 国家：
-Country:: 国家：
+Country: 国家
 Delete Group: 删除组
 Description: 描述
 Details: 细节
@@ -34,6 +33,7 @@ Edit URLs: 编辑网址
 End (local): 结束（本地）
 Enrich with EPG: 通过 EPG 丰富内容
 Enter M3U URL:: 输入 M3U 网址：
+EPG: 电子节目指南
 EPG & Favorites: 电子节目指南和收藏夹
 EPG Matching Threshold: EPG匹配阈值
 EPG Source: 电子节目指南来源
@@ -56,8 +56,7 @@ FILTERS: 过滤器
 Geo & Country: 地理和国家
 GeoBlocked: 地理封锁
 GitHub Error: GitHub 错误
-Group: : 团体：
-Group:: 团体：
+Group: 团体
 Help: 帮助
 Hide List: 隐藏列表
 Import JSON: 导入 JSON
@@ -65,20 +64,21 @@ Info: 信息
 Invalid playlist URL.: 播放列表 URL 无效。
 Invalid URL.: 无效网址。
 Language: 语言
-Languages (comma): : 语言（逗号）：
-Languages (comma):: 语言（逗号）：
+Languages (comma): 语言（逗号）
 LOAD: 加载
 Load a playlist first.: 首先加载播放列表。
+Load M3U: 加载M3U
+Load M3U file from your computer: 从您的计算机加载 M3U 文件
+Load M3U playlist from a web URL: 从 Web URL 加载 M3U 播放列表
+Load Online: 在线加载
 Loaded: 已加载
 Loading...: 加载中...
-Logo Preview:: 标志预览：
-Logo URL: : 标志网址：
-Logo URL:: 标志网址：
+Logo Preview: 标志预览
+Logo URL: 标志网址
 Logos Matching Threshold: 徽标匹配阈值
 Logos Source: 标志来源
 Logos Subfolder: 徽标子文件夹
-Name: : 姓名：
-Name:: 姓名：
+Name: 姓名
 Nanoid: 纳米机器人
 Network error: 网络错误
 New Playlist: 新播放列表
@@ -97,6 +97,8 @@ Player ready.: 玩家准备好了。
 Playlist Editor: 播放列表编辑器
 Please select a program first.: 请先选择一个程序。
 Program Details: 计划详情
+Recent: 最近的
+Recent playlists: 最近的播放列表
 Refresh: 刷新
 Refresh EPG List: 刷新EPG列表
 Refresh from GitHub: 从 GitHub 刷新
@@ -111,6 +113,7 @@ Select a playlist first.: 首先选择一个播放列表。
 Select Theme: 选择主题
 Settings: 设置
 Show List: 显示列表
+Show or hide the channel list: 显示或隐藏频道列表
 Start (local): 启动（本地）
 Status: 地位
 Stream URL: 串流网址
@@ -121,14 +124,14 @@ Time: 时间
 Title: 标题
 Tools: 工具
 TV Guide (EPG): 电视指南 (EPG)
-TvgId: : 电视ID：
-TvgId:: 电视ID：
+TVGarden+: 电视花园+
+TvgId: 电视标识符
 Unable to find version in remote project file.: 无法在远程项目文件中找到版本。
 Update: 更新
 Update complete. Restarting...: 更新完成。正在重新启动...
 Update failed: : 更新失败：
 URL: 网址
-URL (primary):: 网址（主要）：
+URL (primary): 网址（主要）
 URL list (one per line): URL 列表（每行一个）
 URLs & Status: URL 和状态
 Version: 版本

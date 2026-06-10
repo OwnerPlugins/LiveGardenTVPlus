@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Föregående
 A new version is available. Do you want to update now?: En ny version finns tillgänglig. Vill du uppdatera nu?
 About: Om
+About TVGarden+: Om TVGarden+
 Add Group: Lägg till grupp
 Advanced IDs: Avancerade ID:n
 Apply: Tillämpas
@@ -9,7 +10,6 @@ Apply changes: Tillämpa ändringar
 Buffer (seconds): Buffert (sekunder)
 Cancel: Avboka
 CANCEL: AVBOKA
-Cannot open browser: Kan inte öppna webbläsaren
 Category: Kategori
 Channel Details: Kanaldetaljer
 Channel Info: Kanalinfo
@@ -21,8 +21,7 @@ Check for updates: Sök efter uppdateringar
 Check URLs: Kontrollera webbadresser
 Clear: Rensa
 Close: Nära
-Country: : Land:
-Country:: Land:
+Country: Land
 Delete Group: Ta bort grupp
 Description: Beskrivning
 Details: Detaljer
@@ -34,6 +33,7 @@ Edit URLs: Redigera webbadresser
 End (local): Slut (lokalt)
 Enrich with EPG: Berika med EPG
 Enter M3U URL:: Ange M3U URL:
+EPG: EPG
 EPG & Favorites: EPG och favoriter
 EPG Matching Threshold: EPG-matchningströskel
 EPG Source: EPG-källa
@@ -49,15 +49,14 @@ Export JSON: Exportera JSON
 Export OK: Exportera OK
 Extracting update...: Extraherar uppdatering...
 Failed to download playlist: Det gick inte att ladda ner spellistan
-Failed to load playlist: Det gick inte att ladda spellistan
+Failed to load playlist: Det gick inte att läsa in spellistan
 Favorite: Favorit
 Fetch Logos: Hämta logotyper
 FILTERS: FILTER
 Geo & Country: Geo & Country
 GeoBlocked: Geoblockerad
 GitHub Error: GitHub-fel
-Group: : Grupp:
-Group:: Grupp:
+Group: Grupp
 Help: Hjälp
 Hide List: Göm lista
 Import JSON: Importera JSON
@@ -65,20 +64,21 @@ Info: Info
 Invalid playlist URL.: Ogiltig webbadress för spellistan.
 Invalid URL.: Ogiltig webbadress.
 Language: Språk
-Languages (comma): : Språk (komma):
-Languages (comma):: Språk (komma):
+Languages (comma): Språk (komma)
 LOAD: LADDA
 Load a playlist first.: Ladda en spellista först.
+Load M3U: Ladda M3U
+Load M3U file from your computer: Ladda M3U-fil från din dator
+Load M3U playlist from a web URL: Ladda M3U-spellista från en webbadress
+Load Online: Ladda online
 Loaded: Lastad
 Loading...: Belastning...
-Logo Preview:: Förhandsgranskning av logotyp:
-Logo URL: : Logotyp URL:
-Logo URL:: Logotyp URL:
+Logo Preview: Förhandsvisning av logotyp
+Logo URL: Logotyp URL
 Logos Matching Threshold: Matchande tröskel för logotyper
 Logos Source: Logotyper källa
 Logos Subfolder: Logotyper undermapp
-Name: : Namn:
-Name:: Namn:
+Name: Namn
 Nanoid: Nanoid
 Network error: Nätverksfel
 New Playlist: Ny spellista
@@ -97,20 +97,23 @@ Player ready.: Spelaren redo.
 Playlist Editor: Spellista Editor
 Please select a program first.: Välj ett program först.
 Program Details: Programinformation
+Recent: Ny
+Recent playlists: Senaste spellistor
 Refresh: Uppdatera
 Refresh EPG List: Uppdatera EPG-listan
 Refresh from GitHub: Uppdatera från GitHub
-Rename Group: Rename Group
+Rename Group: Byt namn på grupp
 Save: Spara
 SAVE: SPARA
 Save As...: Spara som...
 Save Playlist: Spara spellista
-Save Status: Save Status
+Save Status: Spara status
 Search channels...: Sök kanaler...
 Select a playlist first.: Välj en spellista först.
 Select Theme: Välj Tema
 Settings: Inställningar
 Show List: Visa lista
+Show or hide the channel list: Visa eller dölj kanallistan
 Start (local): Start (lokal)
 Status: Status
 Stream URL: Streama URL
@@ -121,14 +124,14 @@ Time: Tid
 Title: Titel
 Tools: Verktyg
 TV Guide (EPG): TV-guide (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: TV Garden+
+TvgId: TvgId
 Unable to find version in remote project file.: Det gick inte att hitta version i fjärrprojektfil.
 Update: Uppdatera
 Update complete. Restarting...: Uppdateringen slutförd. Startar om...
 Update failed: : Uppdatering misslyckades:
 URL: URL
-URL (primary):: URL (primär):
+URL (primary): URL (primär)
 URL list (one per line): URL-lista (en per rad)
 URLs & Status: URL:er och status
 Version: Version

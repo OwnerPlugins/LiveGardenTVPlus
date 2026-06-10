@@ -50,6 +50,7 @@ namespace LiveGardenTVPlus
         public MainWindow()
         {
             InitializeComponent();
+            UpdateRecentPopup();
 
             var version = Assembly.GetExecutingAssembly().GetName().Version;
             string shortVersion = $"{version.Major}.{version.Minor}";
@@ -114,16 +115,41 @@ namespace LiveGardenTVPlus
             EditPlaylistBtnText.Text = LanguageManager.GetTranslation("Edit Playlist");
             SavePlaylistBtnText.Text = LanguageManager.GetTranslation("Save Playlist");
             ExportFavoritesBtnText.Text = LanguageManager.GetTranslation("Export Favorites");
-            /* AboutBtnText.Text = LanguageManager.GetTranslation("About"); */
             ToolsBtnText.Text = LanguageManager.GetTranslation("Tools");
             PopupSettingsText.Text = LanguageManager.GetTranslation("Settings");
             PopupThemeText.Text = LanguageManager.GetTranslation("Theme picker");
             PopupHelpText.Text = LanguageManager.GetTranslation("Help");
             PopupAboutText.Text = LanguageManager.GetTranslation("About");
             PopupUpdateText.Text = LanguageManager.GetTranslation("Check for updates");
+
+            // Toolbar buttons
+            LoadPlaylistBtnText.Text = LanguageManager.GetTranslation("Load M3U");
+            LoadOnlineBtnText.Text = LanguageManager.GetTranslation("Load Online");
+            AboutBtnText.Text = LanguageManager.GetTranslation("About");
+            ToggleText.Text = LanguageManager.GetTranslation("Hide List");
+            EpgTextBlock.Text = LanguageManager.GetTranslation("EPG");
+            RecentTextBlock.Text = LanguageManager.GetTranslation("Recent");
+
+            // Status bar
+            BufferLabel.Text = LanguageManager.GetTranslation("Buffer (seconds)");
+
+            // Tooltips
+            LoadPlaylistBtn.ToolTip = LanguageManager.GetTranslation("Load M3U file from your computer");
+            LoadOnlineBtn.ToolTip = LanguageManager.GetTranslation("Load M3U playlist from a web URL");
+            AboutBtn.ToolTip = LanguageManager.GetTranslation("About TVGarden+");
+            ToggleSidebarBtn.ToolTip = LanguageManager.GetTranslation("Show or hide the channel list");
+            EpgBtn.ToolTip = LanguageManager.GetTranslation("TV Guide (EPG)");
+            RecentBtn.ToolTip = LanguageManager.GetTranslation("Recent playlists");
+
+            // Window title
+            /*
             var version = Assembly.GetExecutingAssembly().GetName().Version;
             string shortVersion = $"{version.Major}.{version.Minor}";
-            this.Title = $"TVGarden+ v{shortVersion}";
+            this.Title = $"{LanguageManager.GetTranslation("TVGarden+")} v{shortVersion}";
+            */
+            var version = Assembly.GetExecutingAssembly().GetName().Version;
+            string shortVersion = $"{version.Major}.{version.Minor}";
+            this.Title = $"TVGarden+ v{shortVersion} - by Lululla | CORVOBOYS.ORG | LINUXSAT-SUPPORT.COM";
         }
 
         private void OnLanguageChanged()
@@ -133,7 +159,16 @@ namespace LiveGardenTVPlus
 
         private void ToolsBtn_Click(object sender, RoutedEventArgs e)
         {
-            ToolsPopup.IsOpen = !ToolsPopup.IsOpen;
+            if (ToolsPopup.IsOpen)
+            {
+                ToolsPopup.IsOpen = false;
+                return;
+            }
+            var btn = ToolsBtn;
+            var point = btn.PointToScreen(new Point(0, btn.ActualHeight));
+            ToolsPopup.HorizontalOffset = point.X;
+            ToolsPopup.VerticalOffset = point.Y;
+            ToolsPopup.IsOpen = true;
         }
 
         private void PopupSettingsBtn_Click(object sender, RoutedEventArgs e)
@@ -499,6 +534,8 @@ namespace LiveGardenTVPlus
                 FavoritesManager.ApplyFavorites(_allChannelsOriginal);
                 RefreshChannelsView();
 
+                AddToRecent(filePath);
+
                 StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Loaded")} {channels.Count} {LanguageManager.GetTranslation("channels from")} {Path.GetFileName(filePath)}";
             }
             catch (Exception ex) { MessageBox.Show($"{LanguageManager.GetTranslation("Error")}: {ex.Message}");
@@ -722,6 +759,53 @@ namespace LiveGardenTVPlus
             var dlg = new Microsoft.Win32.OpenFileDialog { Filter = "M3U|*.m3u;*.m3u8" };
             if (dlg.ShowDialog() == true)
                 LoadPlaylist(dlg.FileName);
+        }
+
+        private void UpdateRecentPopup()
+        {
+            var prefs = UserPreferences.Load();
+            var items = prefs.RecentPlaylists
+                .Where(File.Exists)
+                .Select(path => new { DisplayName = System.IO.Path.GetFileName(path), FilePath = path })
+                .ToList();
+            RecentListBox.ItemsSource = items;
+        }
+
+        private void AddToRecent(string filePath)
+        {
+            if (string.IsNullOrEmpty(filePath) || !File.Exists(filePath))
+                return;
+            var prefs = UserPreferences.Load();
+            var list = prefs.RecentPlaylists;
+            list.Remove(filePath);
+            list.Insert(0, filePath);
+            while (list.Count > 5)
+                list.RemoveAt(list.Count - 1);
+            prefs.Save();
+            UpdateRecentPopup();
+        }
+
+        private void RecentBtn_Click(object sender, RoutedEventArgs e)
+        {
+            UpdateRecentPopup();
+            var btn = RecentBtn;
+            var point = btn.PointToScreen(new Point(0, btn.ActualHeight));
+            RecentPopup.HorizontalOffset = point.X;
+            RecentPopup.VerticalOffset = point.Y;
+            RecentPopup.IsOpen = true;
+        }
+
+        private void RecentListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (RecentListBox.SelectedItem == null) return;
+            dynamic selected = RecentListBox.SelectedItem;
+            string path = selected.FilePath;
+            RecentPopup.IsOpen = false;
+            if (File.Exists(path))
+                LoadPlaylist(path);
+            else
+                MessageBox.Show("File not found.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            RecentListBox.SelectedItem = null;
         }
 
         private async void LoadOnlineBtn_Click(object sender, RoutedEventArgs e)
@@ -979,6 +1063,7 @@ namespace LiveGardenTVPlus
         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
         • Load M3U   – Open a playlist file from your PC
         • Online M3U – Enter URL of a remote playlist
+        • Recent     – Show last 5 opened playlists (click to reload)
         • Settings   – Change buffer size, select online playlist (Refresh from GitHub)
         • Drag & drop an M3U file directly onto the window
 
@@ -1034,30 +1119,6 @@ namespace LiveGardenTVPlus
         For more information, visit the GitHub repository.";
 
             MessageBox.Show(help, LanguageManager.GetTranslation("Help"), MessageBoxButton.OK, MessageBoxImage.Information);
-        }
-
-        private void CorvoBoysLink_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
-        {
-            try
-            {
-                Process.Start(new ProcessStartInfo { FileName = "https://www.corvoboys.org", UseShellExecute = true });
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"{LanguageManager.GetTranslation("Cannot open browser")}: {ex.Message}");
-            }
-        }
-
-        private void LinuxSatLink_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
-        {
-            try
-            {
-                Process.Start(new ProcessStartInfo { FileName = "https://www.linuxsat-support.com", UseShellExecute = true });
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"{LanguageManager.GetTranslation("Cannot open browser")}: {ex.Message}");
-            }
         }
     }
 }

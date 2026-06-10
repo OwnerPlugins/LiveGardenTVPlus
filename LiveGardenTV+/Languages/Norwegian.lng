@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Forrige
 A new version is available. Do you want to update now?: En ny versjon er tilgjengelig. Vil du oppdatere nå?
 About: Om
+About TVGarden+: Om TVGarden+
 Add Group: Legg til gruppe
 Advanced IDs: Avanserte IDer
 Apply: Søke
@@ -9,7 +10,6 @@ Apply changes: Bruk endringer
 Buffer (seconds): Buffer (sekunder)
 Cancel: Kansellere
 CANCEL: KANSELLERE
-Cannot open browser: Kan ikke åpne nettleseren
 Category: Kategori
 Channel Details: Kanaldetaljer
 Channel Info: Kanalinfo
@@ -21,8 +21,7 @@ Check for updates: Se etter oppdateringer
 Check URLs: Sjekk URL-er
 Clear: Klar
 Close: Lukke
-Country: : Land:
-Country:: Land:
+Country: Land
 Delete Group: Slett gruppe
 Description: Beskrivelse
 Details: Detaljer
@@ -34,6 +33,7 @@ Edit URLs: Rediger nettadresser
 End (local): Slutt (lokalt)
 Enrich with EPG: Berik med EPG
 Enter M3U URL:: Skriv inn M3U URL:
+EPG: EPG
 EPG & Favorites: EPG og favoritter
 EPG Matching Threshold: EPG Matching Threshold
 EPG Source: EPG-kilde
@@ -56,8 +56,7 @@ FILTERS: FILTRE
 Geo & Country: Geo og land
 GeoBlocked: Geoblokkert
 GitHub Error: GitHub-feil
-Group: : Gruppe:
-Group:: Gruppe:
+Group: Gruppe
 Help: Hjelp
 Hide List: Skjul liste
 Import JSON: Importer JSON
@@ -65,20 +64,21 @@ Info: Info
 Invalid playlist URL.: Ugyldig nettadresse for spilleliste.
 Invalid URL.: Ugyldig URL.
 Language: Språk
-Languages (comma): : Språk (komma):
-Languages (comma):: Språk (komma):
+Languages (comma): Språk (komma)
 LOAD: LASTE
 Load a playlist first.: Last inn en spilleliste først.
+Load M3U: Last inn M3U
+Load M3U file from your computer: Last M3U-filen fra datamaskinen
+Load M3U playlist from a web URL: Last inn M3U-spilleliste fra en nettadresse
+Load Online: Last ned online
 Loaded: Lastet
 Loading...: Laster inn...
-Logo Preview:: Logoforhåndsvisning:
-Logo URL: : Logo URL:
-Logo URL:: Logo URL:
+Logo Preview: Forhåndsvisning av logo
+Logo URL: Logo URL
 Logos Matching Threshold: Matchende terskel for logoer
 Logos Source: Logoer Kilde
 Logos Subfolder: Logoer undermappe
-Name: : Navn:
-Name:: Navn:
+Name: Navn
 Nanoid: Nanoid
 Network error: Nettverksfeil
 New Playlist: Ny spilleliste
@@ -86,7 +86,7 @@ Next ▶: Neste ▶
 No .m3u files found on GitHub repository.: Ingen .m3u-filer funnet på GitHub-depotet.
 No duplicate URLs found.: Fant ingen dupliserte nettadresser.
 No favorite channels to export.: Ingen favorittkanaler å eksportere.
-No playlist found: Ingen spilleliste funnet
+No playlist found: Finner ingen spilleliste
 No stream: Ingen strøm
 No updates available.: Ingen tilgjengelige oppdateringer.
 Now playing: Spiller nå
@@ -97,6 +97,8 @@ Player ready.: Spiller klar.
 Playlist Editor: Spillelisteredigering
 Please select a program first.: Velg et program først.
 Program Details: Programdetaljer
+Recent: Nylig
+Recent playlists: Nylige spillelister
 Refresh: Forfriske
 Refresh EPG List: Oppdater EPG-listen
 Refresh from GitHub: Oppdater fra GitHub
@@ -111,6 +113,7 @@ Select a playlist first.: Velg en spilleliste først.
 Select Theme: Velg Tema
 Settings: Innstillinger
 Show List: Vis liste
+Show or hide the channel list: Vis eller skjul kanallisten
 Start (local): Start (lokal)
 Status: Status
 Stream URL: Strøm URL
@@ -121,14 +124,14 @@ Time: Tid
 Title: Tittel
 Tools: Verktøy
 TV Guide (EPG): TV Guide (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: TV Garden+
+TvgId: TvgId
 Unable to find version in remote project file.: Kan ikke finne versjon i ekstern prosjektfil.
 Update: Oppdater
 Update complete. Restarting...: Oppdatering fullført. Starter på nytt...
 Update failed: : Oppdatering mislyktes:
 URL: URL
-URL (primary):: URL (primær):
+URL (primary): URL (primær)
 URL list (one per line): URL-liste (én per linje)
 URLs & Status: URLer og status
 Version: Versjon

@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Προηγούμενο
 A new version is available. Do you want to update now?: Μια νέα έκδοση είναι διαθέσιμη. Θέλετε να ενημερώσετε τώρα;
 About: Για
+About TVGarden+: Σχετικά με το TVGarden+
 Add Group: Προσθήκη ομάδας
 Advanced IDs: Προηγμένα αναγνωριστικά
 Apply: Εφαρμόζω
@@ -9,7 +10,6 @@ Apply changes: Εφαρμόστε αλλαγές
 Buffer (seconds): Buffer (δευτερόλεπτα)
 Cancel: Ματαίωση
 CANCEL: ΜΑΤΑΙΩΣΗ
-Cannot open browser: Δεν είναι δυνατό το άνοιγμα του προγράμματος περιήγησης
 Category: Κατηγορία
 Channel Details: Λεπτομέρειες καναλιού
 Channel Info: Πληροφορίες καναλιού
@@ -21,8 +21,7 @@ Check for updates: Ελέγξτε για ενημερώσεις
 Check URLs: Ελέγξτε τις διευθύνσεις URL
 Clear: Σαφής
 Close: Κοντά
-Country: : Χώρα:
-Country:: Χώρα:
+Country: Χώρα
 Delete Group: Διαγραφή ομάδας
 Description: Περιγραφή
 Details: Καθέκαστα
@@ -34,6 +33,7 @@ Edit URLs: Επεξεργασία διευθύνσεων URL
 End (local): Τέλος (τοπικό)
 Enrich with EPG: Εμπλουτίστε με EPG
 Enter M3U URL:: Εισαγάγετε τη διεύθυνση URL M3U:
+EPG: EPG
 EPG & Favorites: EPG & Αγαπημένα
 EPG Matching Threshold: Κατώφλι αντιστοίχισης EPG
 EPG Source: Πηγή EPG
@@ -56,8 +56,7 @@ FILTERS: ΦΙΛΤΡΑ
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
 GitHub Error: Σφάλμα GitHub
-Group: : Ομάδα:
-Group:: Ομάδα:
+Group: Ομάδα
 Help: Βοήθεια
 Hide List: Απόκρυψη λίστας
 Import JSON: Εισαγωγή JSON
@@ -65,20 +64,21 @@ Info: Πληροφορίες
 Invalid playlist URL.: Μη έγκυρη διεύθυνση URL λίστας αναπαραγωγής.
 Invalid URL.: Μη έγκυρη διεύθυνση URL.
 Language: Γλώσσα
-Languages (comma): : Γλώσσες (κόμμα):
-Languages (comma):: Γλώσσες (κόμμα):
+Languages (comma): Γλώσσες (κόμμα)
 LOAD: ΦΟΡΤΙΟ
 Load a playlist first.: Φορτώστε πρώτα μια λίστα αναπαραγωγής.
+Load M3U: Φόρτωση M3U
+Load M3U file from your computer: Φορτώστε το αρχείο M3U από τον υπολογιστή σας
+Load M3U playlist from a web URL: Φόρτωση λίστας αναπαραγωγής M3U από μια διεύθυνση URL ιστού
+Load Online: Φόρτωση Online
 Loaded: Φορτωμένος
 Loading...: Φόρτωση...
-Logo Preview:: Προεπισκόπηση λογότυπου:
-Logo URL: : URL λογότυπου:
-Logo URL:: URL λογότυπου:
+Logo Preview: Προεπισκόπηση λογότυπου
+Logo URL: URL λογότυπου
 Logos Matching Threshold: Όριο αντιστοίχισης λογότυπων
 Logos Source: Πηγή λογότυπων
 Logos Subfolder: Υποφάκελος Logos
-Name: : Ονομα:
-Name:: Ονομα:
+Name: Ονομα
 Nanoid: Νανοειδές
 Network error: Σφάλμα δικτύου
 New Playlist: Νέα λίστα αναπαραγωγής
@@ -97,6 +97,8 @@ Player ready.: Έτοιμος ο παίκτης.
 Playlist Editor: Επεξεργαστής λίστας αναπαραγωγής
 Please select a program first.: Επιλέξτε πρώτα ένα πρόγραμμα.
 Program Details: Λεπτομέρειες προγράμματος
+Recent: Πρόσφατος
+Recent playlists: Πρόσφατες λίστες αναπαραγωγής
 Refresh: Φρεσκάρω
 Refresh EPG List: Ανανέωση λίστας EPG
 Refresh from GitHub: Ανανέωση από το GitHub
@@ -111,6 +113,7 @@ Select a playlist first.: Επιλέξτε πρώτα μια λίστα αναπ
 Select Theme: Επιλέξτε Θέμα
 Settings: Ρυθμίσεις
 Show List: Εμφάνιση λίστας
+Show or hide the channel list: Εμφάνιση ή απόκρυψη της λίστας καναλιών
 Start (local): Έναρξη (τοπικό)
 Status: Κατάσταση
 Stream URL: URL ροής
@@ -121,14 +124,14 @@ Time: Φορά
 Title: Τίτλος
 Tools: Εργαλεία
 TV Guide (EPG): Οδηγός τηλεόρασης (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: TV Garden+
+TvgId: TvgId
 Unable to find version in remote project file.: Δεν είναι δυνατή η εύρεση της έκδοσης σε απομακρυσμένο αρχείο έργου.
 Update: Εκσυγχρονίζω
 Update complete. Restarting...: Η ενημέρωση ολοκληρώθηκε. Επανεκκίνηση…
 Update failed: : Η ενημέρωση απέτυχε:
 URL: URL
-URL (primary):: URL (κύριο):
+URL (primary): URL (κύριος)
 URL list (one per line): Λίστα URL (ένα ανά γραμμή)
 URLs & Status: URL & Κατάσταση
 Version: Εκδοχή

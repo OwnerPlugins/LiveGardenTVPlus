@@ -2,6 +2,7 @@
 ◀ Previous: ◀ முந்தைய
 A new version is available. Do you want to update now?: புதிய பதிப்பு கிடைக்கிறது. இப்போது புதுப்பிக்க வேண்டுமா?
 About: பற்றி
+About TVGarden+: TVGarden+ பற்றி
 Add Group: குழுவைச் சேர்க்கவும்
 Advanced IDs: மேம்பட்ட ஐடிகள்
 Apply: விண்ணப்பிக்கவும்
@@ -9,7 +10,6 @@ Apply changes: மாற்றங்களைப் பயன்படுத்�
 Buffer (seconds): இடையக (வினாடிகள்)
 Cancel: ரத்து செய்
 CANCEL: ரத்துசெய்
-Cannot open browser: உலாவியைத் திறக்க முடியவில்லை
 Category: வகை
 Channel Details: சேனல் விவரங்கள்
 Channel Info: சேனல் தகவல்
@@ -21,8 +21,7 @@ Check for updates: புதுப்பிப்புகளைச் சரி
 Check URLs: URLகளை சரிபார்க்கவும்
 Clear: தெளிவு
 Close: மூடு
-Country: : நாடு:
-Country:: நாடு:
+Country: நாடு
 Delete Group: குழுவை நீக்கு
 Description: விளக்கம்
 Details: விவரங்கள்
@@ -34,6 +33,7 @@ Edit URLs: URLகளைத் திருத்தவும்
 End (local): முடிவு (உள்ளூர்)
 Enrich with EPG: EPG மூலம் வளப்படுத்தவும்
 Enter M3U URL:: M3U URL ஐ உள்ளிடவும்:
+EPG: EPG
 EPG & Favorites: EPG & பிடித்தவை
 EPG Matching Threshold: EPG மேட்சிங் த்ரெஷோல்ட்
 EPG Source: EPG ஆதாரம்
@@ -56,8 +56,7 @@ FILTERS: வடிகட்டிகள்
 Geo & Country: ஜியோ & நாடு
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub பிழை
-Group: : குழு:
-Group:: குழு:
+Group: குழு
 Help: உதவி
 Hide List: பட்டியலை மறை
 Import JSON: JSON ஐ இறக்குமதி செய்
@@ -65,20 +64,21 @@ Info: தகவல்
 Invalid playlist URL.: தவறான பிளேலிஸ்ட் URL.
 Invalid URL.: தவறான URL.
 Language: மொழி
-Languages (comma): : மொழிகள் (காற்புள்ளி):
-Languages (comma):: மொழிகள் (காற்புள்ளி):
+Languages (comma): மொழிகள் (காற்புள்ளி)
 LOAD: ஏற்றவும்
 Load a playlist first.: முதலில் ஒரு பிளேலிஸ்ட்டை ஏற்றவும்.
+Load M3U: M3U ஐ ஏற்றவும்
+Load M3U file from your computer: உங்கள் கணினியிலிருந்து M3U கோப்பை ஏற்றவும்
+Load M3U playlist from a web URL: இணைய URL இலிருந்து M3U பிளேலிஸ்ட்டை ஏற்றவும்
+Load Online: ஆன்லைனில் ஏற்றவும்
 Loaded: ஏற்றப்பட்டது
 Loading...: ஏற்றுகிறது...
-Logo Preview:: லோகோ முன்னோட்டம்:
-Logo URL: : லோகோ URL:
-Logo URL:: லோகோ URL:
+Logo Preview: லோகோ முன்னோட்டம்
+Logo URL: லோகோ URL
 Logos Matching Threshold: லோகோஸ் மேட்சிங் த்ரெஷோல்ட்
 Logos Source: லோகோஸ் ஆதாரம்
 Logos Subfolder: லோகோஸ் துணைக் கோப்புறை
-Name: : பெயர்:
-Name:: பெயர்:
+Name: பெயர்
 Nanoid: நானோயிட்
 Network error: நெட்வொர்க் பிழை
 New Playlist: புதிய பிளேலிஸ்ட்
@@ -97,6 +97,8 @@ Player ready.: பிளேயர் தயார்.
 Playlist Editor: பிளேலிஸ்ட் எடிட்டர்
 Please select a program first.: முதலில் ஒரு நிரலைத் தேர்ந்தெடுக்கவும்.
 Program Details: நிரல் விவரங்கள்
+Recent: சமீபத்திய
+Recent playlists: சமீபத்திய பிளேலிஸ்ட்கள்
 Refresh: புதுப்பிக்கவும்
 Refresh EPG List: EPG பட்டியலைப் புதுப்பிக்கவும்
 Refresh from GitHub: GitHub இலிருந்து புதுப்பிக்கவும்
@@ -111,6 +113,7 @@ Select a playlist first.: முதலில் பிளேலிஸ்ட்�
 Select Theme: தீம் தேர்ந்தெடுக்கவும்
 Settings: அமைப்புகள்
 Show List: பட்டியலைக் காட்டு
+Show or hide the channel list: சேனல் பட்டியலைக் காட்டு அல்லது மறைக்கவும்
 Start (local): தொடங்கு (உள்ளூர்)
 Status: நிலை
 Stream URL: ஸ்ட்ரீம் URL
@@ -121,14 +124,14 @@ Time: நேரம்
 Title: தலைப்பு
 Tools: கருவிகள்
 TV Guide (EPG): டிவி கையேடு (EPG)
-TvgId: : டிவிஜிஐடி:
-TvgId:: டிவிஜிஐடி:
+TVGarden+: டிவி கார்டன்+
+TvgId: TvgId
 Unable to find version in remote project file.: ரிமோட் திட்டக் கோப்பில் பதிப்பைக் கண்டறிய முடியவில்லை.
 Update: புதுப்பிக்கவும்
 Update complete. Restarting...: புதுப்பிப்பு முடிந்தது. மீண்டும் தொடங்குகிறது...
 Update failed: : புதுப்பிப்பு தோல்வியடைந்தது:
 URL: URL
-URL (primary):: URL (முதன்மை):
+URL (primary): URL (முதன்மை)
 URL list (one per line): URL பட்டியல் (ஒரு வரிக்கு ஒன்று)
 URLs & Status: URLகள் & நிலை
 Version: பதிப்பு

@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Roimhe
 A new version is available. Do you want to update now?: Tha dreach ùr ri fhaighinn. A bheil thu airson ùrachadh a-nis?
 About: Mu dheidhinn
+About TVGarden+: Mu dheidhinn TVGarden+
 Add Group: Cuir Buidheann ris
 Advanced IDs: IDan adhartach
 Apply: Cuir a-steach
@@ -9,7 +10,6 @@ Apply changes: Cuir atharrachaidhean an sàs
 Buffer (seconds): Bufair (diogan)
 Cancel: Sguir dheth
 CANCEL: A CHUR
-Cannot open browser: Chan urrainn dhuinn am brabhsair fhosgladh
 Category: Roinn-seòrsa
 Channel Details: Mion-fhiosrachadh sianal
 Channel Info: Fiosrachadh sianal
@@ -21,8 +21,7 @@ Check for updates: Thoir sùil airson ùrachaidhean
 Check URLs: Thoir sùil air URLan
 Clear: Soilleir
 Close: Dùin
-Country: : Dùthaich:
-Country:: Dùthaich:
+Country: Dùthaich
 Delete Group: Sguab às Buidheann
 Description: Tuairisgeul
 Details: Mion-fhiosrachadh
@@ -34,6 +33,7 @@ Edit URLs: Deasaich URLan
 End (local): Deireadh (ionadail)
 Enrich with EPG: Dèan beairteas le EPG
 Enter M3U URL:: Cuir a-steach URL M3U:
+EPG: EPG
 EPG & Favorites: EPG & Favorites
 EPG Matching Threshold: Ìre EPG Co-fhreagairt
 EPG Source: Stòr EPG
@@ -47,7 +47,7 @@ Export Filtered JSON: Às-phortaich JSON air a chriathradh
 Export Filtered M3U: Às-mhalairt M3U air a chriathradh
 Export JSON: Às-phortaich JSON
 Export OK: Às-mhalairt OK
-Extracting update...: A’ tarraing ùrachadh...
+Extracting update...: A’ toirt a-mach ùrachadh...
 Failed to download playlist: Dh'fhàillig luchdadh a-nuas an liosta-cluiche
 Failed to load playlist: Dh'fhàillig luchdadh an liosta-cluiche
 Favorite: As fheàrr leotha
@@ -56,8 +56,7 @@ FILTERS: FILEACH
 Geo & Country: Geo & Dùthaich
 GeoBlocked: GeoBlocked
 GitHub Error: Mearachd GitHub
-Group: : Buidheann:
-Group:: Buidheann:
+Group: Buidheann
 Help: Cuideachadh
 Hide List: Falaich Liosta
 Import JSON: Ion-phortaich JSON
@@ -65,20 +64,21 @@ Info: Fiosrachadh
 Invalid playlist URL.: URL liosta-cluiche mì-dhligheach.
 Invalid URL.: URL mì-dhligheach.
 Language: Cànain
-Languages (comma): : Cànanan (coma):
-Languages (comma):: Cànanan (coma):
+Languages (comma): Cànanan (coma)
 LOAD: LAOIDH
 Load a playlist first.: Luchdaich a-nuas an clàr-ciùil an toiseach.
+Load M3U: Luchdaich a-nuas M3U
+Load M3U file from your computer: Luchdaich a-nuas am faidhle m3u air a 'choimpiutair' na
+Load M3U playlist from a web URL: Luchdaich liosta-cluiche M3U bho URL lìn
+Load Online: Air-loidhne a luchdadh a-nuas
 Loaded: Air a luchdachadh
 Loading...: A' luchdachadh...
-Logo Preview:: Ro-shealladh Logo:
-Logo URL: : URL an t-suaicheantas:
-Logo URL:: URL an t-suaicheantas:
+Logo Preview: Suaicheantas Preview
+Logo URL: URL an t-suaicheantas
 Logos Matching Threshold: Logos Matching Threshold
 Logos Source: Stòr Logos
 Logos Subfolder: Fo-phasgan suaicheantasan
-Name: : Ainm:
-Name:: Ainm:
+Name: Ainm
 Nanoid: Nanoid
 Network error: Mearachd lìonraidh
 New Playlist: Liosta-chluiche Ùr
@@ -97,6 +97,8 @@ Player ready.: Cluicheadair deiseil.
 Playlist Editor: Deasaiche liosta-chluiche
 Please select a program first.: Feuch an tagh thu prògram an toiseach.
 Program Details: Mion-fhiosrachadh mun phrògram
+Recent: O chionn ghoirid
+Recent playlists: Clàran-ciùil o chionn ghoirid
 Refresh: Ùraich
 Refresh EPG List: Luchdaich a-nuas an clàr EPG
 Refresh from GitHub: Ùraich bho GitHub
@@ -111,6 +113,7 @@ Select a playlist first.: Tagh liosta-cluiche an toiseach.
 Select Theme: Tagh Cuspair
 Settings: Suidhichidhean
 Show List: Seall Liosta
+Show or hide the channel list: Seall no falaich liosta nan seanalan
 Start (local): Tòisich (ionadail)
 Status: Inbhe
 Stream URL: Sruth URL
@@ -121,14 +124,14 @@ Time: Uair
 Title: Tiotal
 Tools: Innealan
 TV Guide (EPG): Leabhar-iùil Tbh (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
-Unable to find version in remote project file.: Cha ghabh an tionndadh a lorg ann am faidhle pròiseict iomallach.
+TVGarden+: Gàrradh Tbh+
+TvgId: TvgId
+Unable to find version in remote project file.: Cha b' urrainn dhuinn dreach a lorg ann am faidhle pròiseict iomallach.
 Update: Ùraich
 Update complete. Restarting...: Ùrachadh crìochnaichte. Ag ath-thòiseachadh...
 Update failed: : Dh'fhàillig an t-ùrachadh:
 URL: URL
-URL (primary):: URL (bun-sgoil):
+URL (primary): URL (bun-sgoil)
 URL list (one per line): Liosta URL (aon airson gach loidhne)
 URLs & Status: URLan & Inbhe
 Version: Tionndadh

@@ -2,6 +2,7 @@
 ◀ Previous: ◀ ያለፈው
 A new version is available. Do you want to update now?: አዲስ ስሪት አለ። አሁን ማዘመን ይፈልጋሉ?
 About: ስለ
+About TVGarden+: ስለ TVGarden+
 Add Group: ቡድን አክል
 Advanced IDs: የላቁ መታወቂያዎች
 Apply: ያመልክቱ
@@ -9,7 +10,6 @@ Apply changes: ለውጦችን ይተግብሩ
 Buffer (seconds): መያዣ (ሰከንዶች)
 Cancel: ሰርዝ
 CANCEL: ሰርዝ
-Cannot open browser: አሳሽ መክፈት አልተቻለም
 Category: ምድብ
 Channel Details: የሰርጥ ዝርዝሮች
 Channel Info: የሰርጥ መረጃ
@@ -21,8 +21,7 @@ Check for updates: ዝማኔዎችን ይመልከቱ
 Check URLs: ዩአርኤሎችን ያረጋግጡ
 Clear: ግልጽ
 Close: ገጠመ
-Country: : ሀገር፡
-Country:: ሀገር፡
+Country: ሀገር
 Delete Group: ቡድንን ሰርዝ
 Description: መግለጫ
 Details: ዝርዝሮች
@@ -34,6 +33,7 @@ Edit URLs: URLs አርትዕ
 End (local): መጨረሻ (አካባቢያዊ)
 Enrich with EPG: በ EPG ያበልጽጉ
 Enter M3U URL:: M3U URL አስገባ፡
+EPG: ኢ.ፒ.ጂ
 EPG & Favorites: EPG እና ተወዳጆች
 EPG Matching Threshold: EPG ተዛማጅ ገደብ
 EPG Source: EPG ምንጭ
@@ -56,8 +56,7 @@ FILTERS: ማጣሪያዎች
 Geo & Country: ጂኦ እና ሀገር
 GeoBlocked: ጂኦ ታግዷል
 GitHub Error: GitHub ስህተት
-Group: : ቡድን፡
-Group:: ቡድን፡
+Group: ቡድን
 Help: እገዛ
 Hide List: ዝርዝር ደብቅ
 Import JSON: JSON አስመጣ
@@ -65,20 +64,21 @@ Info: መረጃ
 Invalid playlist URL.: ልክ ያልሆነ የአጫዋች ዝርዝር URL።
 Invalid URL.: ልክ ያልሆነ URL
 Language: ቋንቋ
-Languages (comma): : ቋንቋዎች (ነጠላ ሰረዝ)
-Languages (comma):: ቋንቋዎች (ነጠላ ሰረዝ)
+Languages (comma): ቋንቋዎች (ነጠላ ሰረዝ)
 LOAD: ጫን
 Load a playlist first.: መጀመሪያ አጫዋች ዝርዝር ይጫኑ።
+Load M3U: M3U ን ጫን
+Load M3U file from your computer: M3U ፋይልን ከኮምፒዩተርዎ ይጫኑ
+Load M3U playlist from a web URL: M3U አጫዋች ዝርዝርን ከድር ዩአርኤል ጫን
+Load Online: በመስመር ላይ ጫን
 Loaded: ተጭኗል
 Loading...: በመጫን ላይ...
-Logo Preview:: የአርማ ቅድመ እይታ፡
-Logo URL: : አርማ URL
-Logo URL:: አርማ URL
+Logo Preview: የአርማ ቅድመ እይታ
+Logo URL: አርማ URL
 Logos Matching Threshold: የሎጎስ ተዛማጅ ገደብ
 Logos Source: የሎጎስ ምንጭ
 Logos Subfolder: የሎጎስ ንዑስ አቃፊ
-Name: : ስም፡
-Name:: ስም፡
+Name: ስም
 Nanoid: ናኖይድ
 Network error: የአውታረ መረብ ስህተት
 New Playlist: አዲስ አጫዋች ዝርዝር
@@ -97,6 +97,8 @@ Player ready.: ተጫዋች ዝግጁ ነው።
 Playlist Editor: የአጫዋች ዝርዝር አርታዒ
 Please select a program first.: እባክዎ መጀመሪያ ፕሮግራም ይምረጡ።
 Program Details: የፕሮግራም ዝርዝሮች
+Recent: የቅርብ ጊዜ
+Recent playlists: የቅርብ ጊዜ አጫዋች ዝርዝሮች
 Refresh: አድስ
 Refresh EPG List: የ EPG ዝርዝርን አድስ
 Refresh from GitHub: ከGitHub አድስ
@@ -111,6 +113,7 @@ Select a playlist first.: መጀመሪያ አጫዋች ዝርዝር ይምረጡ
 Select Theme: ገጽታ ይምረጡ
 Settings: ቅንብሮች
 Show List: ዝርዝር አሳይ
+Show or hide the channel list: የሰርጡን ዝርዝር አሳይ ወይም ደብቅ
 Start (local): ጀምር (አካባቢያዊ)
 Status: ሁኔታ
 Stream URL: የዥረት URL
@@ -121,14 +124,14 @@ Time: ጊዜ
 Title: ርዕስ
 Tools: መሳሪያዎች
 TV Guide (EPG): የቲቪ መመሪያ (EPG)
-TvgId: : TvgId፡
-TvgId:: TvgId፡
+TVGarden+: የቲቪ የአትክልት ስፍራ+
+TvgId: TvgId
 Unable to find version in remote project file.: በርቀት የፕሮጀክት ፋይል ውስጥ ስሪት ማግኘት አልተቻለም።
 Update: አዘምን
 Update complete. Restarting...: ማዘመን ተጠናቅቋል። እንደገና በመጀመር ላይ...
 Update failed: : ማዘመን አልተሳካም፦
 URL: URL
-URL (primary):: URL (ዋና)፡
+URL (primary): ዩአርኤል (ዋና)
 URL list (one per line): የዩአርኤል ዝርዝር (በአንድ መስመር አንድ)
 URLs & Status: ዩአርኤሎች እና ሁኔታ
 Version: ሥሪት

@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Предыдущий
 A new version is available. Do you want to update now?: Доступна новая версия. Хотите обновить сейчас?
 About: О
+About TVGarden+: О ТВСад+
 Add Group: Добавить группу
 Advanced IDs: Расширенные идентификаторы
 Apply: Применять
@@ -9,7 +10,6 @@ Apply changes: Применить изменения
 Buffer (seconds): Буфер (секунды)
 Cancel: Отмена
 CANCEL: ОТМЕНА
-Cannot open browser: Не могу открыть браузер
 Category: Категория
 Channel Details: Подробности о канале
 Channel Info: Информация о канале
@@ -21,8 +21,7 @@ Check for updates: Проверьте наличие обновлений
 Check URLs: Проверить URL-адреса
 Clear: Прозрачный
 Close: Закрывать
-Country: : Страна:
-Country:: Страна:
+Country: Страна
 Delete Group: Удалить группу
 Description: Описание
 Details: Подробности
@@ -34,6 +33,7 @@ Edit URLs: Редактировать URL-адреса
 End (local): Конец (локальный)
 Enrich with EPG: Обогатите EPG
 Enter M3U URL:: Введите URL-адрес M3U:
+EPG: электронная программа передач
 EPG & Favorites: EPG и избранное
 EPG Matching Threshold: Порог соответствия EPG
 EPG Source: Источник электронного телегида
@@ -56,8 +56,7 @@ FILTERS: ФИЛЬТРЫ
 Geo & Country: Гео и страна
 GeoBlocked: Геоблокировка
 GitHub Error: Ошибка GitHub
-Group: : Группа:
-Group:: Группа:
+Group: Группа
 Help: Помощь
 Hide List: Скрыть список
 Import JSON: Импортировать JSON
@@ -65,20 +64,21 @@ Info: Информация
 Invalid playlist URL.: Неверный URL-адрес плейлиста.
 Invalid URL.: Неверный URL-адрес.
 Language: Язык
-Languages (comma): : Языки (запятая):
-Languages (comma):: Языки (запятая):
+Languages (comma): Языки (запятая)
 LOAD: НАГРУЗКА
 Load a playlist first.: Сначала загрузите плейлист.
+Load M3U: Загрузить M3U
+Load M3U file from your computer: Загрузите файл M3U со своего компьютера
+Load M3U playlist from a web URL: Загрузить плейлист M3U с веб-URL
+Load Online: Загрузить онлайн
 Loaded: Загружено
 Loading...: Загрузка...
-Logo Preview:: Предварительный просмотр логотипа:
-Logo URL: : URL-адрес логотипа:
-Logo URL:: URL-адрес логотипа:
+Logo Preview: Предварительный просмотр логотипа
+Logo URL: URL-адрес логотипа
 Logos Matching Threshold: Порог соответствия логотипов
 Logos Source: Источник логотипов
 Logos Subfolder: Подпапка «Логотипы»
-Name: : Имя:
-Name:: Имя:
+Name: Имя
 Nanoid: Наноид
 Network error: Ошибка сети
 New Playlist: Новый плейлист
@@ -97,6 +97,8 @@ Player ready.: Игрок готов.
 Playlist Editor: Редактор плейлистов
 Please select a program first.: Пожалуйста, сначала выберите программу.
 Program Details: Детали программы
+Recent: Недавний
+Recent playlists: Последние плейлисты
 Refresh: Обновить
 Refresh EPG List: Обновить список EPG
 Refresh from GitHub: Обновить с GitHub
@@ -111,6 +113,7 @@ Select a playlist first.: Сначала выберите плейлист.
 Select Theme: Выберите тему
 Settings: Настройки
 Show List: Показать список
+Show or hide the channel list: Показать или скрыть список каналов
 Start (local): Старт (локальный)
 Status: Статус
 Stream URL: URL-адрес потока
@@ -121,14 +124,14 @@ Time: Время
 Title: Заголовок
 Tools: Инструменты
 TV Guide (EPG): Телегид (EPG)
-TvgId: : Твгид:
-TvgId:: Твгид:
+TVGarden+: ТВ Сад+
+TvgId: твгид
 Unable to find version in remote project file.: Невозможно найти версию в файле удаленного проекта.
 Update: Обновлять
 Update complete. Restarting...: Обновление завершено. Перезапуск...
 Update failed: : Обновление не удалось:
 URL: URL-адрес
-URL (primary):: URL-адрес (основной):
+URL (primary): URL-адрес (основной)
 URL list (one per line): Список URL-адресов (по одному в строке)
 URLs & Status: URL-адреса и статус
 Version: Версия

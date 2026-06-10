@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Roimhe seo
 A new version is available. Do you want to update now?: Tá leagan nua ar fáil. Ar mhaith leat nuashonrú anois?
 About: Maidir
+About TVGarden+: Maidir le TVGarden+
 Add Group: Cuir Grúpa leis
 Advanced IDs: Ardaitheantais
 Apply: Cuir iarratas isteach
@@ -9,7 +10,6 @@ Apply changes: Cuir athruithe i bhfeidhm
 Buffer (seconds): Maolán (soicindí)
 Cancel: Cealaigh
 CANCEL: CEAL
-Cannot open browser: Ní féidir brabhsálaí a oscailt
 Category: Catagóir
 Channel Details: Sonraí Cainéal
 Channel Info: Eolas Cainéal
@@ -21,8 +21,7 @@ Check for updates: Seiceáil le haghaidh nuashonruithe
 Check URLs: Seiceáil URLanna
 Clear: Glan
 Close: Dún
-Country: : Tír:
-Country:: Tír:
+Country: Tír
 Delete Group: Scrios Grúpa
 Description: Cur síos
 Details: Sonraí
@@ -34,6 +33,7 @@ Edit URLs: Cuir URLanna in eagar
 End (local): Críoch (áitiúil)
 Enrich with EPG: Saibhriú le EPG
 Enter M3U URL:: Cuir isteach URL M3U:
+EPG: EPG
 EPG & Favorites: EPG & Ceanáin
 EPG Matching Threshold: Tairseach Meaitseála EPG
 EPG Source: Foinse EPG
@@ -56,8 +56,7 @@ FILTERS: scagairí
 Geo & Country: Geo & Tír
 GeoBlocked: Geobhlocáilte
 GitHub Error: Earráid GitHub
-Group: : Grúpa:
-Group:: Grúpa:
+Group: Grúpa
 Help: Cabhrú
 Hide List: Folaigh Liosta
 Import JSON: Iompórtáil JSON
@@ -65,20 +64,21 @@ Info: Eolas
 Invalid playlist URL.: URL seinmliosta neamhbhailí.
 Invalid URL.: URL neamhbhailí.
 Language: Teanga
-Languages (comma): : Teangacha (comma):
-Languages (comma):: Teangacha (comma):
+Languages (comma): Teangacha (camóg)
 LOAD: Ualach
 Load a playlist first.: Íosluchtaigh playlist ar dtús.
+Load M3U: Íosluchtaigh M3U
+Load M3U file from your computer: Íosluchtaigh m3u comhaid ar do ríomhaire
+Load M3U playlist from a web URL: Luchtaigh seinmliosta M3U ó URL gréasáin
+Load Online: Luchtaigh Ar Líne
 Loaded: Luchtaithe
 Loading...: Á lódáil...
-Logo Preview:: Réamhamharc Lógó:
-Logo URL: : URL an lógó:
-Logo URL:: URL an lógó:
+Logo Preview: Lógó Réamhamhairc
+Logo URL: URL an lógó
 Logos Matching Threshold: Lógónna Tairseach Meaitseála
 Logos Source: Foinse Logos
 Logos Subfolder: Fofhillteán Logos
-Name: : Ainm:
-Name:: Ainm:
+Name: Ainm
 Nanoid: Nainoid
 Network error: Earráid líonra
 New Playlist: Seinmliosta Nua
@@ -97,6 +97,8 @@ Player ready.: Imreoir réidh.
 Playlist Editor: Eagarthóir playlist
 Please select a program first.: Roghnaigh clár ar dtús.
 Program Details: Sonraí an Chláir
+Recent: le déanaí
+Recent playlists: Seinmliostaí le déanaí
 Refresh: Athnuaigh
 Refresh EPG List: Athnuaigh an liosta EPG
 Refresh from GitHub: Athnuaigh ó GitHub
@@ -106,11 +108,12 @@ SAVE: SAVE
 Save As...: Sábháil Mar...
 Save Playlist: Sábháil Seinmliosta
 Save Status: Sábháil Stádas
-Search channels...: Cuardaigh cainéil...
+Search channels...: Cuardach cainéil...
 Select a playlist first.: Roghnaigh seinmliosta ar dtús.
 Select Theme: Roghnaigh Téama
 Settings: Socruithe
 Show List: Taispeáin Liosta
+Show or hide the channel list: Taispeáin nó folaigh an liosta cainéal
 Start (local): Tosaigh (áitiúil)
 Status: Stádas
 Stream URL: Sruth URL
@@ -121,14 +124,14 @@ Time: Am
 Title: Teideal
 Tools: Uirlisí
 TV Guide (EPG): Treoir Teilifíse (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: Gairdín Teilifíse+
+TvgId: TvgId
 Unable to find version in remote project file.: Ní féidir an leagan a aimsiú sa chianchomhad tionscadail.
 Update: Nuashonrú
 Update complete. Restarting...: Nuashonrú críochnaithe. Á atosú...
 Update failed: : Theip ar an nuashonrú:
 URL: URL
-URL (primary):: URL (bunscoile):
+URL (primary): URL (bunscoile)
 URL list (one per line): Liosta URL (ceann in aghaidh an líne)
 URLs & Status: URLanna & Stádas
 Version: Leagan

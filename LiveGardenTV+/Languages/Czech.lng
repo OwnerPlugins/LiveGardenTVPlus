@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Předchozí
 A new version is available. Do you want to update now?: K dispozici je nová verze. Chcete provést aktualizaci nyní?
 About: O
+About TVGarden+: O TVGarden+
 Add Group: Přidat skupinu
 Advanced IDs: Pokročilá ID
 Apply: Použít
@@ -9,7 +10,6 @@ Apply changes: Použít změny
 Buffer (seconds): Vyrovnávací paměť (sekundy)
 Cancel: Zrušit
 CANCEL: ZRUŠIT
-Cannot open browser: Nelze otevřít prohlížeč
 Category: Kategorie
 Channel Details: Podrobnosti kanálu
 Channel Info: Informace o kanálu
@@ -21,8 +21,7 @@ Check for updates: Zkontrolujte aktualizace
 Check URLs: Zkontrolujte adresy URL
 Clear: Jasný
 Close: Blízko
-Country: : Země:
-Country:: Země:
+Country: Země
 Delete Group: Smazat skupinu
 Description: Popis
 Details: Podrobnosti
@@ -34,6 +33,7 @@ Edit URLs: Upravit adresy URL
 End (local): Konec (místní)
 Enrich with EPG: Obohaťte se o EPG
 Enter M3U URL:: Zadejte adresu URL M3U:
+EPG: EPG
 EPG & Favorites: EPG a oblíbené
 EPG Matching Threshold: EPG Matching Threshold
 EPG Source: Zdroj EPG
@@ -56,8 +56,7 @@ FILTERS: FILTRY
 Geo & Country: Zeměpis a země
 GeoBlocked: GeoBlocked
 GitHub Error: Chyba GitHubu
-Group: : Skupina:
-Group:: Skupina:
+Group: Skupina
 Help: Pomoc
 Hide List: Skrýt seznam
 Import JSON: Importujte JSON
@@ -65,20 +64,21 @@ Info: Info
 Invalid playlist URL.: Neplatná adresa URL seznamu videí.
 Invalid URL.: Neplatná adresa URL.
 Language: Jazyk
-Languages (comma): : Jazyky (čárka):
-Languages (comma):: Jazyky (čárka):
+Languages (comma): jazyky (čárka)
 LOAD: ZATÍŽENÍ
 Load a playlist first.: Nejprve načtěte seznam skladeb.
+Load M3U: Načíst M3U
+Load M3U file from your computer: Načtěte soubor M3U z počítače
+Load M3U playlist from a web URL: Načtěte seznam skladeb M3U z webové adresy URL
+Load Online: Načíst online
 Loaded: Nabito
 Loading...: Načítání...
-Logo Preview:: Náhled loga:
-Logo URL: : Adresa URL loga:
-Logo URL:: Adresa URL loga:
+Logo Preview: Náhled loga
+Logo URL: Adresa URL loga
 Logos Matching Threshold: Logos Matching Threshold
 Logos Source: Zdroj loga
 Logos Subfolder: Podsložka loga
-Name: : Jméno:
-Name:: Jméno:
+Name: Jméno
 Nanoid: Nanoid
 Network error: Chyba sítě
 New Playlist: Nový seznam skladeb
@@ -97,6 +97,8 @@ Player ready.: Hráč připraven.
 Playlist Editor: Editor seznamu skladeb
 Please select a program first.: Nejprve prosím vyberte program.
 Program Details: Podrobnosti o programu
+Recent: Nedávné
+Recent playlists: Nedávné seznamy skladeb
 Refresh: Obnovit
 Refresh EPG List: Obnovit seznam EPG
 Refresh from GitHub: Obnovit z GitHubu
@@ -111,6 +113,7 @@ Select a playlist first.: Nejprve vyberte seznam skladeb.
 Select Theme: Vyberte téma
 Settings: Nastavení
 Show List: Zobrazit seznam
+Show or hide the channel list: Zobrazit nebo skrýt seznam kanálů
 Start (local): Start (místní)
 Status: Postavení
 Stream URL: Adresa URL streamu
@@ -121,14 +124,14 @@ Time: Čas
 Title: Titul
 Tools: Nástroje
 TV Guide (EPG): TV průvodce (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: TV Zahrada+
+TvgId: TvgId
 Unable to find version in remote project file.: Verzi nelze najít ve vzdáleném souboru projektu.
 Update: Aktualizovat
 Update complete. Restarting...: Aktualizace dokončena. Restartování...
 Update failed: : Aktualizace se nezdařila:
 URL: URL
-URL (primary):: URL (primární):
+URL (primary): URL (primární)
 URL list (one per line): Seznam adres URL (jedna na řádek)
 URLs & Status: URL a stav
 Version: Verze

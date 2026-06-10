@@ -2,6 +2,7 @@
 ◀ Previous: ◀ پخوانۍ
 A new version is available. Do you want to update now?: یوه نوې نسخه شتون لري. ایا تاسو اوس تازه کول غواړئ؟
 About: په اړه
+About TVGarden+: د TVGarden+ په اړه
 Add Group: ګروپ اضافه کړئ
 Advanced IDs: پرمختللي IDs
 Apply: درخواست وکړئ
@@ -9,7 +10,6 @@ Apply changes: بدلونونه پلي کړئ
 Buffer (seconds): بفر (ثانوي)
 Cancel: لغوه کړئ
 CANCEL: لغوه کول
-Cannot open browser: براوزر نشي خلاصولی
 Category: کټګوري
 Channel Details: د چینل تفصیلات
 Channel Info: د چینل معلومات
@@ -21,8 +21,7 @@ Check for updates: د تازه معلوماتو لپاره وګورئ
 Check URLs: URLs چیک کړئ
 Clear: روښانه
 Close: تړل
-Country: : هیواد:
-Country:: هیواد:
+Country: هیواد
 Delete Group: ګروپ ړنګ کړئ
 Description: تفصیل
 Details: جزیات
@@ -34,6 +33,7 @@ Edit URLs: URLs ایډیټ کړئ
 End (local): پای (محلي)
 Enrich with EPG: د EPG سره بډایه کړئ
 Enter M3U URL:: M3U URL داخل کړئ:
+EPG: EPG
 EPG & Favorites: EPG او د خوښې وړ
 EPG Matching Threshold: د EPG میچ کولو حد
 EPG Source: د EPG سرچینه
@@ -56,8 +56,7 @@ FILTERS: فلټرونه
 Geo & Country: جیو او هیواد
 GeoBlocked: جیو بلاک شوی
 GitHub Error: د GitHub تېروتنه
-Group: : ډله:
-Group:: ډله:
+Group: ګروپ
 Help: مرسته
 Hide List: لیست پټ کړئ
 Import JSON: JSON وارد کړئ
@@ -65,20 +64,21 @@ Info: معلومات
 Invalid playlist URL.: ناسم پلی لیست URL.
 Invalid URL.: ناسم URL.
 Language: ژبه
-Languages (comma): : ژبې (کوما):
-Languages (comma):: ژبې (کوما):
+Languages (comma): ژبې (کوما)
 LOAD: لوډ
 Load a playlist first.: لومړی یو پلی لیست پورته کړئ.
+Load M3U: M3U پورته کړئ
+Load M3U file from your computer: د خپل کمپیوټر څخه M3U فایل پورته کړئ
+Load M3U playlist from a web URL: د ویب URL څخه M3U پلی لیست پورته کړئ
+Load Online: آنلاین بار کړئ
 Loaded: بار شوی
 Loading...: بار کول...
-Logo Preview:: د لوګو مخکتنه:
-Logo URL: : د لوګو URL:
-Logo URL:: د لوګو URL:
+Logo Preview: د لوګو مخکتنه
+Logo URL: د لوګو URL
 Logos Matching Threshold: د لوګو سره سمون خوري
 Logos Source: د لوګو سرچینه
 Logos Subfolder: د لوګو فرعي فولډر
-Name: : نوم:
-Name:: نوم:
+Name: نوم
 Nanoid: nanoid
 Network error: د شبکې تېروتنه
 New Playlist: نوی پلی لیست
@@ -97,6 +97,8 @@ Player ready.: لوبغاړی چمتو دی.
 Playlist Editor: د پلی لیست مدیر
 Please select a program first.: مهرباني وکړئ لومړی یو برنامه غوره کړئ.
 Program Details: د پروګرام جزئیات
+Recent: وروستي
+Recent playlists: وروستي پلی لیستونه
 Refresh: تازه کړئ
 Refresh EPG List: د EPG لیست تازه کړئ
 Refresh from GitHub: له GitHub څخه تازه کړئ
@@ -111,24 +113,25 @@ Select a playlist first.: لومړی یو پلی لیست غوره کړئ.
 Select Theme: موضوع غوره کړئ
 Settings: ترتیبات
 Show List: لیست ښکاره کړئ
+Show or hide the channel list: د چینل لیست ښکاره یا پټ کړئ
 Start (local): پیل (سیمه ایز)
 Status: حالت
 Stream URL: د جریان URL
 Success: بریالیتوب
 Support: ملاتړ
-Theme picker: د موضوع انتخاب
+Theme picker: د موضوع غوره کوونکی
 Time: وخت
 Title: عنوان
 Tools: وسیلې
 TV Guide (EPG): د تلویزیون لارښود (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: د تلویزیون باغ +
+TvgId: TvgId
 Unable to find version in remote project file.: د ریموټ پروژې فایل کې نسخه موندلو توان نلري.
 Update: تازه کول
-Update complete. Restarting...: تازه کول بشپړ شول. بیا پیل کول...
+Update complete. Restarting...: تازه کول بشپړ شول. Restarting...
 Update failed: : تازه کول ناکام شول:
 URL: URL
-URL (primary):: URL (لومړنی):
+URL (primary): URL (لومړنی)
 URL list (one per line): د URL لیست (په هره کرښه کې یو)
 URLs & Status: URLs او حالت
 Version: نسخه

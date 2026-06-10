@@ -2,6 +2,7 @@
 ◀ Previous: ◀ 上一頁
 A new version is available. Do you want to update now?: 有新版本可用。您想現在更新嗎？
 About: 關於
+About TVGarden+: 關於電視花園+
 Add Group: 新增群組
 Advanced IDs: 進階 ID
 Apply: 申請
@@ -9,7 +10,6 @@ Apply changes: 應用程式變更
 Buffer (seconds): 緩衝區（秒）
 Cancel: 取消
 CANCEL: 取消
-Cannot open browser: 無法開啟瀏覽器
 Category: 類別
 Channel Details: 頻道詳情
 Channel Info: 頻道資訊
@@ -21,12 +21,11 @@ Check for updates: 檢查更新
 Check URLs: 檢查網址
 Clear: 清除
 Close: 關閉
-Country: : 國家：
-Country:: 國家：
+Country: 國家
 Delete Group: 刪除群組
 Description: 描述
 Details: 細節
-Do you want to load the edited playlist now?: Do you want to load the edited playlist now?
+Do you want to load the edited playlist now?: 您想立即載入編輯後的播放清單嗎？
 Downloading playlist...: 正在下載播放清單...
 Duplicate URLs found:\n\n: 發現重複的 URL:\n\n
 Edit Playlist: 編輯播放清單
@@ -34,6 +33,7 @@ Edit URLs: 編輯網址
 End (local): 結束（本地）
 Enrich with EPG: 透過 EPG 豐富內容
 Enter M3U URL:: 輸入 M3U 網址：
+EPG: 電子節目指南
 EPG & Favorites: 電子節目指南和收藏夾
 EPG Matching Threshold: EPG匹配閾值
 EPG Source: 電子節目指南來源
@@ -56,8 +56,7 @@ FILTERS: 過濾器
 Geo & Country: 地理和國家
 GeoBlocked: 地理封鎖
 GitHub Error: GitHub 錯誤
-Group: : 團體：
-Group:: 團體：
+Group: 團體
 Help: 幫助
 Hide List: 隱藏清單
 Import JSON: 導入 JSON
@@ -65,20 +64,21 @@ Info: 資訊
 Invalid playlist URL.: 播放清單 URL 無效。
 Invalid URL.: 無效網址。
 Language: 語言
-Languages (comma): : 語言（逗號）：
-Languages (comma):: 語言（逗號）：
+Languages (comma): 語言（逗號）
 LOAD: 載入
 Load a playlist first.: 首先載入播放清單。
+Load M3U: 載入M3U
+Load M3U file from your computer: 從您的電腦載入 M3U 文件
+Load M3U playlist from a web URL: 從 Web URL 載入 M3U 播放列表
+Load Online: 在線加載
 Loaded: 已載入
 Loading...: 載入中...
-Logo Preview:: 標誌預覽：
-Logo URL: : 標誌網址：
-Logo URL:: 標誌網址：
+Logo Preview: 標誌預覽
+Logo URL: 標誌網址
 Logos Matching Threshold: 徽標匹配閾值
 Logos Source: 標誌來源
 Logos Subfolder: 標誌子資料夾
-Name: : 姓名：
-Name:: 姓名：
+Name: 姓名
 Nanoid: 奈米機器人
 Network error: 網路錯誤
 New Playlist: 新播放列表
@@ -97,6 +97,8 @@ Player ready.: 玩家準備好了。
 Playlist Editor: 播放清單編輯器
 Please select a program first.: 請先選擇一個程序。
 Program Details: 計劃詳情
+Recent: 最近的
+Recent playlists: 最近的播放清單
 Refresh: 重新整理
 Refresh EPG List: 刷新EPG列表
 Refresh from GitHub: 從 GitHub 刷新
@@ -111,6 +113,7 @@ Select a playlist first.: 首先選擇一個播放清單。
 Select Theme: 選擇主題
 Settings: 設定
 Show List: 顯示清單
+Show or hide the channel list: 顯示或隱藏頻道列表
 Start (local): 啟動（本地）
 Status: 地位
 Stream URL: 串流網址
@@ -121,14 +124,14 @@ Time: 時間
 Title: 標題
 Tools: 工具
 TV Guide (EPG): 電視指南 (EPG)
-TvgId: : 電視ID：
-TvgId:: 電視ID：
+TVGarden+: 電視花園+
+TvgId: 電視識別符
 Unable to find version in remote project file.: 無法在遠端專案文件中找到版本。
 Update: 更新
 Update complete. Restarting...: 更新完成。正在重新啟動...
 Update failed: : 更新失敗：
 URL: 網址
-URL (primary):: 網址（主要）：
+URL (primary): 網址（主要）
 URL list (one per line): URL 清單（每行一個）
 URLs & Status: URL 和狀態
 Version: 版本

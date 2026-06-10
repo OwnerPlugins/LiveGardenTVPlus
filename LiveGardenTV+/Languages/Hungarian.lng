@@ -2,14 +2,14 @@
 ◀ Previous: ◀ Előző
 A new version is available. Do you want to update now?: Új verzió érhető el. Szeretné most frissíteni?
 About: Körülbelül
+About TVGarden+: A TVGarden+-ról
 Add Group: Csoport hozzáadása lehetőségre
 Advanced IDs: Speciális azonosítók
 Apply: Alkalmazni
-Apply changes: Alkalmazza a változtatásokat
+Apply changes: Módosítások alkalmazása
 Buffer (seconds): Puffer (másodperc)
 Cancel: Mégsem
 CANCEL: MÉGSEM
-Cannot open browser: A böngészőt nem lehet megnyitni
 Category: Kategória
 Channel Details: Csatorna részletei
 Channel Info: Csatorna Info
@@ -21,8 +21,7 @@ Check for updates: Ellenőrizze a frissítéseket
 Check URLs: Ellenőrizze az URL-eket
 Clear: Világos
 Close: Közeli
-Country: : Ország:
-Country:: Ország:
+Country: Ország
 Delete Group: Csoport törlése
 Description: Leírás
 Details: Részletek
@@ -34,6 +33,7 @@ Edit URLs: URL-ek szerkesztése
 End (local): Vége (helyi)
 Enrich with EPG: Gazdagítsa EPG-vel
 Enter M3U URL:: Írja be az M3U URL-t:
+EPG: EPG
 EPG & Favorites: EPG és kedvencek
 EPG Matching Threshold: EPG egyezési küszöb
 EPG Source: EPG forrás
@@ -56,8 +56,7 @@ FILTERS: SZŰRŐK
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub hiba
-Group: : Csoport:
-Group:: Csoport:
+Group: Csoport
 Help: Segítség
 Hide List: Lista elrejtése
 Import JSON: JSON importálása
@@ -65,20 +64,21 @@ Info: Info
 Invalid playlist URL.: Érvénytelen lejátszási lista URL-je.
 Invalid URL.: Érvénytelen URL.
 Language: Nyelv
-Languages (comma): : Nyelvek (vessző):
-Languages (comma):: Nyelvek (vessző):
+Languages (comma): Nyelvek (vessző)
 LOAD: TERHELÉS
 Load a playlist first.: Először töltsön be egy lejátszási listát.
+Load M3U: Töltse be az M3U-t
+Load M3U file from your computer: Töltse le az M3U fájlt a számítógépéről
+Load M3U playlist from a web URL: M3U lejátszási lista betöltése web URL-ről
+Load Online: Betöltés Online
 Loaded: Töltött
 Loading...: Terhelés...
-Logo Preview:: Embléma előnézet:
-Logo URL: : Logo URL:
-Logo URL:: Logo URL:
+Logo Preview: Logo előnézet
+Logo URL: Logo URL
 Logos Matching Threshold: Logók egyezési küszöbértéke
 Logos Source: Logók forrása
 Logos Subfolder: Logók almappa
-Name: : Név:
-Name:: Név:
+Name: Név
 Nanoid: Nanoid
 Network error: Hálózati hiba
 New Playlist: Új lejátszási lista
@@ -97,6 +97,8 @@ Player ready.: A lejátszó készen áll.
 Playlist Editor: Lejátszási lista szerkesztő
 Please select a program first.: Kérjük, először válasszon programot.
 Program Details: Program részletei
+Recent: Legutóbbi
+Recent playlists: Legutóbbi lejátszási listák
 Refresh: Frissítés
 Refresh EPG List: EPG-lista frissítése
 Refresh from GitHub: Frissítés a GitHubról
@@ -111,6 +113,7 @@ Select a playlist first.: Először válasszon ki egy lejátszási listát.
 Select Theme: Válassza a Témát
 Settings: Beállítások elemre
 Show List: Lista megjelenítése
+Show or hide the channel list: A csatornalista megjelenítése vagy elrejtése
 Start (local): Kezdés (helyi)
 Status: Állapot
 Stream URL: Stream URL
@@ -121,14 +124,14 @@ Time: Idő
 Title: Cím
 Tools: Eszközök
 TV Guide (EPG): TV-műsorfüzet (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: TV Garden+
+TvgId: TvgId
 Unable to find version in remote project file.: Nem található verzió a távoli projektfájlban.
 Update: Frissítés
 Update complete. Restarting...: Frissítés kész. Újraindítás...
 Update failed: : A frissítés nem sikerült:
 URL: URL
-URL (primary):: URL (elsődleges):
+URL (primary): URL (elsődleges)
 URL list (one per line): URL-lista (soronként egy)
 URLs & Status: URL-ek és állapot
 Version: Változat

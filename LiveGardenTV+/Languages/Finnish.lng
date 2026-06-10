@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Edellinen
 A new version is available. Do you want to update now?: Uusi versio on saatavilla. Haluatko päivittää nyt?
 About: Noin
+About TVGarden+: Tietoja TVGarden+:sta
 Add Group: Lisää ryhmä
 Advanced IDs: Edistyneet tunnukset
 Apply: Käytä
@@ -9,7 +10,6 @@ Apply changes: Ota muutokset käyttöön
 Buffer (seconds): Puskuri (sekuntia)
 Cancel: Peruuttaa
 CANCEL: PERUUTTAA
-Cannot open browser: Selainta ei voi avata
 Category: Luokka
 Channel Details: Kanavan tiedot
 Channel Info: Kanavan tiedot
@@ -21,8 +21,7 @@ Check for updates: Tarkista päivitykset
 Check URLs: Tarkista URL-osoitteet
 Clear: Selkeä
 Close: Lähellä
-Country: : Maa:
-Country:: Maa:
+Country: Maa
 Delete Group: Poista ryhmä
 Description: Kuvaus
 Details: Yksityiskohdat
@@ -34,6 +33,7 @@ Edit URLs: Muokkaa URL-osoitteita
 End (local): Loppu (paikallinen)
 Enrich with EPG: Rikastuta EPG:llä
 Enter M3U URL:: Anna M3U:n URL-osoite:
+EPG: EPG
 EPG & Favorites: EPG ja suosikit
 EPG Matching Threshold: EPG-vastaavuuskynnys
 EPG Source: EPG lähde
@@ -56,8 +56,7 @@ FILTERS: SUODATTIMET
 Geo & Country: Maantieteellinen sijainti ja maa
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub-virhe
-Group: : Ryhmä:
-Group:: Ryhmä:
+Group: ryhmä
 Help: Auttaa
 Hide List: Piilota luettelo
 Import JSON: Tuo JSON
@@ -65,20 +64,21 @@ Info: Tiedot
 Invalid playlist URL.: Virheellinen soittolistan URL-osoite.
 Invalid URL.: Virheellinen URL-osoite.
 Language: Kieli
-Languages (comma): : Kielet (pilkku):
-Languages (comma):: Kielet (pilkku):
+Languages (comma): Kielet (pilkku)
 LOAD: LADATA
 Load a playlist first.: Lataa ensin soittolista.
+Load M3U: Lataa M3U
+Load M3U file from your computer: Lataa M3U-tiedosto tietokoneeltasi
+Load M3U playlist from a web URL: Lataa M3U-soittolista web-URL-osoitteesta
+Load Online: Lataa verkossa
 Loaded: Ladattu
 Loading...: Ladataan...
-Logo Preview:: Logon esikatselu:
-Logo URL: : Logon URL-osoite:
-Logo URL:: Logon URL-osoite:
+Logo Preview: Logon esikatselu
+Logo URL: Logon URL-osoite
 Logos Matching Threshold: Logojen vastaavuuskynnys
 Logos Source: Logon lähde
 Logos Subfolder: Logot-alikansio
-Name: : Nimi:
-Name:: Nimi:
+Name: Nimi
 Nanoid: Nanoidi
 Network error: Verkkovirhe
 New Playlist: Uusi soittolista
@@ -97,6 +97,8 @@ Player ready.: Pelaaja valmis.
 Playlist Editor: Soittolistaeditori
 Please select a program first.: Valitse ensin ohjelma.
 Program Details: Ohjelman tiedot
+Recent: Viimeaikaiset
+Recent playlists: Viimeaikaiset soittolistat
 Refresh: Päivitä
 Refresh EPG List: Päivitä EPG-luettelo
 Refresh from GitHub: Päivitä GitHubista
@@ -111,6 +113,7 @@ Select a playlist first.: Valitse ensin soittolista.
 Select Theme: Valitse Teema
 Settings: Asetukset
 Show List: Näytä luettelo
+Show or hide the channel list: Näytä tai piilota kanavaluettelo
 Start (local): Aloita (paikallinen)
 Status: Status
 Stream URL: Striimin URL-osoite
@@ -121,14 +124,14 @@ Time: Aika
 Title: Otsikko
 Tools: Työkalut
 TV Guide (EPG): TV-opas (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: TV Garden+
+TvgId: TvgId
 Unable to find version in remote project file.: Versiota ei löydy etäprojektitiedostosta.
 Update: Päivittää
 Update complete. Restarting...: Päivitys valmis. Käynnistetään uudelleen...
 Update failed: : Päivitys epäonnistui:
 URL: URL-osoite
-URL (primary):: URL (ensisijainen):
+URL (primary): URL (ensisijainen)
 URL list (one per line): URL-luettelo (yksi per rivi)
 URLs & Status: URL-osoitteet ja tila
 Version: Versio

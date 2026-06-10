@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Oldingi
 A new version is available. Do you want to update now?: Yangi versiya mavjud. Hozir yangilashni xohlaysizmi?
 About: Haqida
+About TVGarden+: TVGarden+ haqida
 Add Group: Guruh qo'shish
 Advanced IDs: Kengaytirilgan identifikatorlar
 Apply: Murojaat qiling
@@ -9,7 +10,6 @@ Apply changes: O'zgarishlarni qo'llash
 Buffer (seconds): Bufer (soniyalar)
 Cancel: Bekor qilish
 CANCEL: BEKOR
-Cannot open browser: Brauzerni ochib bo'lmadi
 Category: Turkum
 Channel Details: Kanal tafsilotlari
 Channel Info: Kanal haqida ma'lumot
@@ -21,8 +21,7 @@ Check for updates: Yangilanishlarni tekshiring
 Check URLs: URL manzillarini tekshiring
 Clear: Toza
 Close: Yopish
-Country: : Mamlakat:
-Country:: Mamlakat:
+Country: Mamlakat
 Delete Group: Guruhni o'chirish
 Description: Tavsif
 Details: Tafsilotlar
@@ -34,6 +33,7 @@ Edit URLs: URL manzillarini tahrirlash
 End (local): Oxiri (mahalliy)
 Enrich with EPG: EPG bilan boyiting
 Enter M3U URL:: M3U URL manzilini kiriting:
+EPG: EPG
 EPG & Favorites: EPG va Sevimlilar
 EPG Matching Threshold: EPG moslashish chegarasi
 EPG Source: EPG manbasi
@@ -48,7 +48,7 @@ Export Filtered M3U: Filtrlangan M3U eksporti
 Export JSON: JSON-ni eksport qiling
 Export OK: Eksport OK
 Extracting update...: Yangilanish chiqarilmoqda...
-Failed to download playlist: Pleylistni yuklab bo‘lmadi
+Failed to download playlist: Pleylist yuklab olinmadi
 Failed to load playlist: Pleylist yuklanmadi
 Favorite: Sevimli
 Fetch Logos: Logotiplarni olish
@@ -56,8 +56,7 @@ FILTERS: FILTRLAR
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub xatosi
-Group: : Guruh:
-Group:: Guruh:
+Group: Guruh
 Help: Yordam
 Hide List: Roʻyxatni yashirish
 Import JSON: JSON-ni import qiling
@@ -65,20 +64,21 @@ Info: Ma'lumot
 Invalid playlist URL.: Yaroqsiz pleylist URL.
 Invalid URL.: URL noto‘g‘ri.
 Language: Til
-Languages (comma): : Tillar (vergul):
-Languages (comma):: Tillar (vergul):
+Languages (comma): Tillar (vergul)
 LOAD: YUKLASH
 Load a playlist first.: Avval pleylistni yuklang.
+Load M3U: M3U-ni yuklang
+Load M3U file from your computer: M3U faylini kompyuteringizdan yuklang
+Load M3U playlist from a web URL: M3U pleylistini veb-url-dan yuklang
+Load Online: Onlayn yuklash
 Loaded: Yuklangan
 Loading...: Yuklanmoqda...
-Logo Preview:: Logotipni ko‘rib chiqish:
-Logo URL: : Logotip URL:
-Logo URL:: Logotip URL:
+Logo Preview: Logotipni ko'rib chiqish
+Logo URL: Logotip URL
 Logos Matching Threshold: Logotiplarning mos keladigan chegarasi
 Logos Source: Logotiplar manbai
 Logos Subfolder: Logotiplar pastki papkasi
-Name: : Nomi:
-Name:: Nomi:
+Name: Ism
 Nanoid: Nanoid
 Network error: Tarmoq xatosi
 New Playlist: Yangi pleylist
@@ -97,6 +97,8 @@ Player ready.: O'yinchi tayyor.
 Playlist Editor: Pleylist muharriri
 Please select a program first.: Iltimos, avval dasturni tanlang.
 Program Details: Dastur tafsilotlari
+Recent: Yaqinda
+Recent playlists: Oxirgi pleylistlar
 Refresh: Yangilash
 Refresh EPG List: EPG roʻyxatini yangilang
 Refresh from GitHub: GitHub dan yangilang
@@ -111,6 +113,7 @@ Select a playlist first.: Avval pleylistni tanlang.
 Select Theme: Mavzuni tanlang
 Settings: Sozlamalar
 Show List: Roʻyxatni koʻrsatish
+Show or hide the channel list: Kanallar roʻyxatini koʻrsatish yoki yashirish
 Start (local): Boshlash (mahalliy)
 Status: Status
 Stream URL: Strim URL
@@ -121,14 +124,14 @@ Time: Vaqt
 Title: Sarlavha
 Tools: Asboblar
 TV Guide (EPG): Televizion qoʻllanma (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: TV Garden+
+TvgId: TvgId
 Unable to find version in remote project file.: Masofaviy loyiha faylida versiya topilmadi.
 Update: Yangilash
 Update complete. Restarting...: Yangilash tugallandi. Qayta ishga tushirilmoqda...
 Update failed: : Yangilash amalga oshmadi:
 URL: URL
-URL (primary):: URL (asosiy):
+URL (primary): URL (asosiy)
 URL list (one per line): URL roʻyxati (har bir satrda bittadan)
 URLs & Status: URL manzillar va holat
 Version: Versiya

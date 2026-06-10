@@ -2,6 +2,7 @@
 ◀ Previous: ◀ మునుపటి
 A new version is available. Do you want to update now?: కొత్త వెర్షన్ అందుబాటులో ఉంది. మీరు ఇప్పుడు అప్‌డేట్ చేయాలనుకుంటున్నారా?
 About: గురించి
+About TVGarden+: TVGarden+ గురించి
 Add Group: సమూహాన్ని జోడించండి
 Advanced IDs: అధునాతన IDలు
 Apply: దరఖాస్తు చేసుకోండి
@@ -9,7 +10,6 @@ Apply changes: మార్పులను వర్తింపజేయండ�
 Buffer (seconds): బఫర్ (సెకన్లు)
 Cancel: రద్దు చేయి
 CANCEL: రద్దు చేయి
-Cannot open browser: బ్రౌజర్‌ని తెరవడం సాధ్యం కాదు
 Category: వర్గం
 Channel Details: ఛానెల్ వివరాలు
 Channel Info: ఛానెల్ సమాచారం
@@ -21,8 +21,7 @@ Check for updates: నవీకరణల కోసం తనిఖీ చేయ�
 Check URLs: URLలను తనిఖీ చేయండి
 Clear: క్లియర్
 Close: మూసివేయి
-Country: : దేశం:
-Country:: దేశం:
+Country: దేశం
 Delete Group: సమూహాన్ని తొలగించండి
 Description: వివరణ
 Details: వివరాలు
@@ -34,6 +33,7 @@ Edit URLs: URLలను సవరించండి
 End (local): ముగింపు (స్థానికం)
 Enrich with EPG: EPGతో మెరుగుపరచండి
 Enter M3U URL:: M3U URLని నమోదు చేయండి:
+EPG: EPG
 EPG & Favorites: EPG & ఇష్టమైనవి
 EPG Matching Threshold: EPG మ్యాచింగ్ థ్రెషోల్డ్
 EPG Source: EPG మూలం
@@ -56,8 +56,7 @@ FILTERS: ఫిల్టర్లు
 Geo & Country: జియో & దేశం
 GeoBlocked: జియోబ్లాక్ చేయబడింది
 GitHub Error: GitHub లోపం
-Group: : సమూహం:
-Group:: సమూహం:
+Group: సమూహం
 Help: సహాయం
 Hide List: జాబితాను దాచు
 Import JSON: JSONని దిగుమతి చేయండి
@@ -65,20 +64,21 @@ Info: సమాచారం
 Invalid playlist URL.: చెల్లని ప్లేజాబితా URL.
 Invalid URL.: చెల్లని URL.
 Language: భాష
-Languages (comma): : భాషలు (కామా):
-Languages (comma):: భాషలు (కామా):
+Languages (comma): భాషలు (కామా)
 LOAD: లోడ్ చేయండి
 Load a playlist first.: ముందుగా ప్లేజాబితాను లోడ్ చేయండి.
+Load M3U: M3Uని లోడ్ చేయండి
+Load M3U file from your computer: మీ కంప్యూటర్ నుండి M3U ఫైల్‌ను లోడ్ చేయండి
+Load M3U playlist from a web URL: వెబ్ URL నుండి M3U ప్లేజాబితాను లోడ్ చేయండి
+Load Online: ఆన్‌లైన్‌లో లోడ్ చేయండి
 Loaded: లోడ్ చేయబడింది
 Loading...: లోడ్ అవుతోంది...
-Logo Preview:: లోగో ప్రివ్యూ:
-Logo URL: : లోగో URL:
-Logo URL:: లోగో URL:
+Logo Preview: లోగో ప్రివ్యూ
+Logo URL: లోగో URL
 Logos Matching Threshold: లోగోలు సరిపోలే థ్రెషోల్డ్
 Logos Source: లోగోల మూలం
 Logos Subfolder: లోగోలు సబ్‌ఫోల్డర్
-Name: : పేరు:
-Name:: పేరు:
+Name: పేరు
 Nanoid: నానోయిడ్
 Network error: నెట్‌వర్క్ లోపం
 New Playlist: కొత్త ప్లేజాబితా
@@ -92,11 +92,13 @@ No updates available.: అప్‌డేట్‌లు ఏవీ అందు�
 Now playing: ఇప్పుడు ఆడుతోంది
 OK: సరే
 Online Playlist: ఆన్‌లైన్ ప్లేజాబితా
-Pause/Resume live stream: లైవ్ స్ట్రీమ్‌ను పాజ్/రెజ్యూమ్ చేయండి
+Pause/Resume live stream: ప్రత్యక్ష ప్రసారాన్ని పాజ్/రెస్యూమ్ చేయండి
 Player ready.: ప్లేయర్ సిద్ధంగా ఉంది.
 Playlist Editor: ప్లేజాబితా ఎడిటర్
 Please select a program first.: దయచేసి ముందుగా ఒక ప్రోగ్రామ్‌ను ఎంచుకోండి.
 Program Details: ప్రోగ్రామ్ వివరాలు
+Recent: ఇటీవలి
+Recent playlists: ఇటీవలి ప్లేజాబితాలు
 Refresh: రిఫ్రెష్ చేయండి
 Refresh EPG List: EPG జాబితాను రిఫ్రెష్ చేయండి
 Refresh from GitHub: GitHub నుండి రిఫ్రెష్ చేయండి
@@ -111,6 +113,7 @@ Select a playlist first.: ముందుగా ప్లేజాబితా�
 Select Theme: థీమ్‌ని ఎంచుకోండి
 Settings: సెట్టింగ్‌లు
 Show List: జాబితా చూపించు
+Show or hide the channel list: ఛానెల్ జాబితాను చూపండి లేదా దాచండి
 Start (local): ప్రారంభం (స్థానికం)
 Status: స్థితి
 Stream URL: స్ట్రీమ్ URL
@@ -121,14 +124,14 @@ Time: సమయం
 Title: శీర్షిక
 Tools: ఉపకరణాలు
 TV Guide (EPG): టీవీ గైడ్ (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: TV గార్డెన్+
+TvgId: TvgId
 Unable to find version in remote project file.: రిమోట్ ప్రాజెక్ట్ ఫైల్‌లో సంస్కరణను కనుగొనడం సాధ్యపడలేదు.
 Update: నవీకరించు
 Update complete. Restarting...: నవీకరణ పూర్తయింది. పునఃప్రారంభిస్తోంది...
 Update failed: : నవీకరణ విఫలమైంది:
 URL: URL
-URL (primary):: URL (ప్రాధమిక):
+URL (primary): URL (ప్రాథమిక)
 URL list (one per line): URL జాబితా (పంక్తికి ఒకటి)
 URLs & Status: URLలు & స్థితి
 Version: వెర్షన్

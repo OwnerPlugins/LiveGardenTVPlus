@@ -2,6 +2,7 @@
 ◀ Previous: ◀ წინა
 A new version is available. Do you want to update now?: ხელმისაწვდომია ახალი ვერსია. გსურთ განახლება ახლა?
 About: შესახებ
+About TVGarden+: TVGarden+-ის შესახებ
 Add Group: ჯგუფის დამატება
 Advanced IDs: გაფართოებული პირადობის მოწმობები
 Apply: მიმართეთ
@@ -9,7 +10,6 @@ Apply changes: ცვლილებების გამოყენება
 Buffer (seconds): ბუფერი (წამი)
 Cancel: გაუქმება
 CANCEL: გაუქმება
-Cannot open browser: ბრაუზერის გახსნა შეუძლებელია
 Category: კატეგორია
 Channel Details: არხის დეტალები
 Channel Info: არხის ინფორმაცია
@@ -21,8 +21,7 @@ Check for updates: შეამოწმეთ განახლებები
 Check URLs: შეამოწმეთ URL-ები
 Clear: წმინდა
 Close: დახურვა
-Country: : ქვეყანა:
-Country:: ქვეყანა:
+Country: ქვეყანა
 Delete Group: ჯგუფის წაშლა
 Description: აღწერა
 Details: დეტალები
@@ -34,6 +33,7 @@ Edit URLs: URL-ების რედაქტირება
 End (local): დასასრული (ადგილობრივი)
 Enrich with EPG: გამდიდრდით EPG-ით
 Enter M3U URL:: შეიყვანეთ M3U URL:
+EPG: EPG
 EPG & Favorites: EPG და ფავორიტები
 EPG Matching Threshold: EPG შესატყვისი ბარიერი
 EPG Source: EPG წყარო
@@ -56,8 +56,7 @@ FILTERS: ფილტრები
 Geo & Country: გეო და ქვეყანა
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub შეცდომა
-Group: : ჯგუფი:
-Group:: ჯგუფი:
+Group: ჯგუფი
 Help: დახმარება
 Hide List: სიის დამალვა
 Import JSON: JSON იმპორტი
@@ -65,20 +64,21 @@ Info: ინფორმაცია
 Invalid playlist URL.: დასაკრავი სიის URL არასწორია.
 Invalid URL.: არასწორი URL.
 Language: ენა
-Languages (comma): : ენები (მძიმით):
-Languages (comma):: ენები (მძიმით):
+Languages (comma): ენები (მძიმით)
 LOAD: LOAD
 Load a playlist first.: ჯერ ჩატვირთეთ დასაკრავი სია.
+Load M3U: ჩატვირთეთ M3U
+Load M3U file from your computer: ჩატვირთეთ M3U ფაილი თქვენი კომპიუტერიდან
+Load M3U playlist from a web URL: ჩატვირთეთ M3U დასაკრავი სია ვებ URL-დან
+Load Online: ჩატვირთეთ ონლაინ
 Loaded: დატვირთული
 Loading...: იტვირთება...
-Logo Preview:: ლოგოს გადახედვა:
-Logo URL: : ლოგოს URL:
-Logo URL:: ლოგოს URL:
+Logo Preview: ლოგოს გადახედვა
+Logo URL: ლოგოს URL
 Logos Matching Threshold: ლოგოს შესატყვისი ბარიერი
 Logos Source: ლოგოს წყარო
 Logos Subfolder: ლოგოს ქვესაქაღალდე
-Name: : სახელი:
-Name:: სახელი:
+Name: სახელი
 Nanoid: ნანოიდი
 Network error: ქსელის შეცდომა
 New Playlist: ახალი დასაკრავი სია
@@ -97,9 +97,11 @@ Player ready.: მოთამაშე მზადაა.
 Playlist Editor: დასაკრავი სიის რედაქტორი
 Please select a program first.: გთხოვთ, ჯერ აირჩიოთ პროგრამა.
 Program Details: პროგრამის დეტალები
+Recent: ბოლო
+Recent playlists: ბოლო დასაკრავი სიები
 Refresh: განაახლეთ
 Refresh EPG List: განაახლეთ EPG სია
-Refresh from GitHub: განაახლეთ GitHub-დან
+Refresh from GitHub: განახლება GitHub-დან
 Rename Group: ჯგუფის გადარქმევა
 Save: შენახვა
 SAVE: შენახვა
@@ -111,6 +113,7 @@ Select a playlist first.: ჯერ აირჩიეთ დასაკრა�
 Select Theme: აირჩიეთ თემა
 Settings: პარამეტრები
 Show List: სიის ჩვენება
+Show or hide the channel list: არხების სიის ჩვენება ან დამალვა
 Start (local): დაწყება (ადგილობრივი)
 Status: სტატუსი
 Stream URL: ნაკადის URL
@@ -121,14 +124,14 @@ Time: დრო
 Title: სათაური
 Tools: ხელსაწყოები
 TV Guide (EPG): სატელევიზიო გზამკვლევი (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: TV Garden+
+TvgId: TvgId
 Unable to find version in remote project file.: დისტანციური პროექტის ფაილში ვერსიის პოვნა შეუძლებელია.
 Update: განახლება
 Update complete. Restarting...: განახლება დასრულდა. გადატვირთვა...
 Update failed: : განახლება ვერ მოხერხდა:
 URL: URL
-URL (primary):: URL (ძირითადი):
+URL (primary): URL (ძირითადი)
 URL list (one per line): URL სია (თითო სტრიქონზე)
 URLs & Status: URL და სტატუსი
 Version: ვერსია

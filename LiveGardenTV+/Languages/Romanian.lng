@@ -2,6 +2,7 @@
 ◀ Previous: ◀ Anterior
 A new version is available. Do you want to update now?: Este disponibilă o nouă versiune. Doriți să actualizați acum?
 About: Despre
+About TVGarden+: Despre TVGarden+
 Add Group: Adăugați grup
 Advanced IDs: ID-uri avansate
 Apply: Aplicați
@@ -9,7 +10,6 @@ Apply changes: Aplicați modificări
 Buffer (seconds): Buffer (secunde)
 Cancel: Anula
 CANCEL: ANULA
-Cannot open browser: Nu se poate deschide browserul
 Category: Categorie
 Channel Details: Detalii canal
 Channel Info: Informații despre canal
@@ -21,8 +21,7 @@ Check for updates: Verificați actualizările
 Check URLs: Verificați adresele URL
 Clear: Clar
 Close: Aproape
-Country: : Ţară:
-Country:: Ţară:
+Country: Ţară
 Delete Group: Șterge grupul
 Description: Descriere
 Details: Detalii
@@ -34,6 +33,7 @@ Edit URLs: Editați adresele URL
 End (local): Sfârșit (local)
 Enrich with EPG: Îmbogățiți cu EPG
 Enter M3U URL:: Introduceți adresa URL M3U:
+EPG: EPG
 EPG & Favorites: EPG și Favorite
 EPG Matching Threshold: Pragul de potrivire EPG
 EPG Source: Sursa EPG
@@ -56,8 +56,7 @@ FILTERS: FILTRE
 Geo & Country: Geo și țară
 GeoBlocked: GeoBlocked
 GitHub Error: Eroare GitHub
-Group: : Grup:
-Group:: Grup:
+Group: Grup
 Help: Ajutor
 Hide List: Ascunde lista
 Import JSON: Importați JSON
@@ -65,20 +64,21 @@ Info: Info
 Invalid playlist URL.: Adresa URL a listei de redare nevalidă.
 Invalid URL.: Adresă URL nevalidă.
 Language: Limbă
-Languages (comma): : Limbi (virgulă):
-Languages (comma):: Limbi (virgulă):
+Languages (comma): Limbi (virgulă)
 LOAD: ÎNCĂRCA
 Load a playlist first.: Încărcați mai întâi o listă de redare.
+Load M3U: Încărcați M3U
+Load M3U file from your computer: Încărcați fișierul M3U de pe computer
+Load M3U playlist from a web URL: Încărcați lista de redare M3U de la o adresă URL web
+Load Online: Încărcați online
 Loaded: Încărcat
 Loading...: Încărcare...
-Logo Preview:: Previzualizare logo:
-Logo URL: : Adresa URL a siglei:
-Logo URL:: Adresa URL a siglei:
+Logo Preview: Previzualizare logo
+Logo URL: Adresa URL a siglei
 Logos Matching Threshold: Pragul de potrivire a siglelor
 Logos Source: Sursa siglelor
 Logos Subfolder: Subfolder sigle
-Name: : Nume:
-Name:: Nume:
+Name: Nume
 Nanoid: Nanoid
 Network error: Eroare de rețea
 New Playlist: Playlist nou
@@ -86,8 +86,8 @@ Next ▶: Următorul ▶
 No .m3u files found on GitHub repository.: Nu s-au găsit fișiere .m3u în depozitul GitHub.
 No duplicate URLs found.: Nu s-au găsit adrese URL duplicat.
 No favorite channels to export.: Nu există canale preferate de exportat.
-No playlist found: Nu s-a găsit nicio listă de redare
-No stream: Nici un flux
+No playlist found: Nu a fost găsit nicio listă de redare
+No stream: Fără flux
 No updates available.: Nu există actualizări disponibile.
 Now playing: Acum joacă
 OK: Bine
@@ -97,6 +97,8 @@ Player ready.: Jucătorul gata.
 Playlist Editor: Editor de liste de redare
 Please select a program first.: Vă rugăm să selectați mai întâi un program.
 Program Details: Detalii program
+Recent: Recent
+Recent playlists: Liste de redare recente
 Refresh: Reîmprospăta
 Refresh EPG List: Actualizează lista EPG
 Refresh from GitHub: Actualizează din GitHub
@@ -111,6 +113,7 @@ Select a playlist first.: Selectați mai întâi o listă de redare.
 Select Theme: Selectați Tema
 Settings: Setări
 Show List: Afișează lista
+Show or hide the channel list: Afișează sau ascunde lista de canale
 Start (local): Start (local)
 Status: Stare
 Stream URL: Adresa URL a fluxului
@@ -121,14 +124,14 @@ Time: Timp
 Title: Titlu
 Tools: Instrumente
 TV Guide (EPG): Ghid TV (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: TV Garden+
+TvgId: TvgId
 Unable to find version in remote project file.: Nu se poate găsi versiunea în fișierul de proiect de la distanță.
 Update: Actualizare
 Update complete. Restarting...: Actualizare finalizată. Se repornește...
 Update failed: : Actualizarea a eșuat:
 URL: URL
-URL (primary):: URL (principal):
+URL (primary): URL (principal)
 URL list (one per line): Lista de adrese URL (una pe linie)
 URLs & Status: Adrese URL și stare
 Version: Versiune

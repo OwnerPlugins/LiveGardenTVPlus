@@ -2,6 +2,7 @@
 ◀ Previous: ◀ පෙර
 A new version is available. Do you want to update now?: නව අනුවාදයක් තිබේ. ඔබට දැන් යාවත්කාලීන කිරීමට අවශ්‍යද?
 About: ගැන
+About TVGarden+: TVGarden+ ගැන
 Add Group: කණ්ඩායම එකතු කරන්න
 Advanced IDs: උසස් හැඳුනුම්පත්
 Apply: අයදුම් කරන්න
@@ -9,7 +10,6 @@ Apply changes: වෙනස්කම් යොදන්න
 Buffer (seconds): බෆරය (තත්පර)
 Cancel: අවලංගු කරන්න
 CANCEL: අවලංගු කරන්න
-Cannot open browser: බ්රවුසරය විවෘත කළ නොහැක
 Category: ප්රවර්ගය
 Channel Details: නාලිකා විස්තර
 Channel Info: නාලිකා තොරතුරු
@@ -21,8 +21,7 @@ Check for updates: යාවත්කාලීන සඳහා පරීක්�
 Check URLs: URL පරීක්ෂා කරන්න
 Clear: පැහැදිලියි
 Close: වසන්න
-Country: : රට:
-Country:: රට:
+Country: රට
 Delete Group: සමූහය මකන්න
 Description: විස්තරය
 Details: විස්තර
@@ -34,6 +33,7 @@ Edit URLs: URL සංස්කරණය කරන්න
 End (local): අවසානය (දේශීය)
 Enrich with EPG: EPG සමඟ පොහොසත් කරන්න
 Enter M3U URL:: M3U URL ඇතුලත් කරන්න:
+EPG: ඊ.පී.ජී
 EPG & Favorites: EPG සහ ප්රියතම
 EPG Matching Threshold: EPG ගැළපෙන සීමාව
 EPG Source: EPG මූලාශ්රය
@@ -56,8 +56,7 @@ FILTERS: පෙරහන්
 Geo & Country: භූ සහ රට
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub දෝෂය
-Group: : කණ්ඩායම:
-Group:: කණ්ඩායම:
+Group: කණ්ඩායම
 Help: උදව්
 Hide List: ලැයිස්තුව සඟවන්න
 Import JSON: JSON ආයාත කරන්න
@@ -65,20 +64,21 @@ Info: තොරතුරු
 Invalid playlist URL.: වලංගු නොවන ධාවන ලැයිස්තු URL.
 Invalid URL.: වලංගු නොවන URL.
 Language: භාෂාව
-Languages (comma): : භාෂා (කොමාව):
-Languages (comma):: භාෂා (කොමාව):
+Languages (comma): භාෂා (කොමාව)
 LOAD: පැටවීම
 Load a playlist first.: පළමුව ධාවන ලැයිස්තුවක් පූරණය කරන්න.
+Load M3U: M3U පූරණය කරන්න
+Load M3U file from your computer: ඔබේ පරිගණකයෙන් M3U ගොනුව පූරණය කරන්න
+Load M3U playlist from a web URL: වෙබ් URL එකකින් M3U ධාවන ලැයිස්තුව පූරණය කරන්න
+Load Online: ඔන්ලයින් ලෝඩ් කරන්න
 Loaded: පටවා ඇත
 Loading...: පූරණය වෙමින්...
-Logo Preview:: ලාංඡන පෙරදසුන:
-Logo URL: : ලාංඡන URL:
-Logo URL:: ලාංඡන URL:
+Logo Preview: ලාංඡන පෙරදසුන
+Logo URL: ලාංඡනය URL
 Logos Matching Threshold: ලාංඡන ගැළපෙන එළිපත්ත
 Logos Source: ලාංඡන මූලාශ්රය
 Logos Subfolder: ලාංඡන උප ෆෝල්ඩරය
-Name: : නම:
-Name:: නම:
+Name: නම
 Nanoid: නැනොයිඩ්
 Network error: ජාල දෝෂයකි
 New Playlist: නව ධාවන ලැයිස්තුව
@@ -97,6 +97,8 @@ Player ready.: ක්රීඩකයා සූදානම්.
 Playlist Editor: ධාවන ලැයිස්තු සංස්කාරකය
 Please select a program first.: කරුණාකර පළමුව වැඩසටහනක් තෝරන්න.
 Program Details: වැඩසටහන් විස්තර
+Recent: මෑත
+Recent playlists: මෑත ධාවන ලැයිස්තු
 Refresh: නැවුම් කරන්න
 Refresh EPG List: EPG ලැයිස්තුව නැවුම් කරන්න
 Refresh from GitHub: GitHub වෙතින් නැවුම් කරන්න
@@ -111,6 +113,7 @@ Select a playlist first.: පළමුව ධාවන ලැයිස්තු�
 Select Theme: තේමාව තෝරන්න
 Settings: සැකසීම්
 Show List: ලැයිස්තුව පෙන්වන්න
+Show or hide the channel list: නාලිකා ලැයිස්තුව පෙන්වන්න හෝ සඟවන්න
 Start (local): ආරම්භය (දේශීය)
 Status: තත්ත්වය
 Stream URL: ප්‍රවාහ URL
@@ -121,14 +124,14 @@ Time: කාලය
 Title: මාතෘකාව
 Tools: මෙවලම්
 TV Guide (EPG): රූපවාහිනී මාර්ගෝපදේශය (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TVGarden+: රූපවාහිනී උද්‍යානය +
+TvgId: TvgId
 Unable to find version in remote project file.: දුරස්ථ ව්‍යාපෘති ගොනුවේ අනුවාදය සොයා ගැනීමට නොහැක.
 Update: යාවත්කාලීන කරන්න
 Update complete. Restarting...: යාවත්කාලීන කිරීම සම්පූර්ණයි. නැවත ආරම්භ කරමින්...
 Update failed: : යාවත්කාලීන කිරීම අසාර්ථක විය:
 URL: URL
-URL (primary):: URL (ප්‍රාථමික):
+URL (primary): URL (ප්‍රාථමික)
 URL list (one per line): URL ලැයිස්තුව (පේළියකට එකක්)
 URLs & Status: URL සහ තත්ත්වය
 Version: අනුවාදය

@@ -2,6 +2,7 @@
 ◀ Previous: ◀ E mëparshme
 A new version is available. Do you want to update now?: Një version i ri është në dispozicion. Dëshiron ta përditësosh tani?
 About: Rreth
+About TVGarden+: Rreth TVGarden+
 Add Group: Shto grup
 Advanced IDs: ID të avancuara
 Apply: Aplikoni
@@ -9,7 +10,6 @@ Apply changes: Aplikoni ndryshimet
 Buffer (seconds): Buffer (sekonda)
 Cancel: Anulo
 CANCEL: ANULON
-Cannot open browser: Shfletuesi nuk mund të hapet
 Category: Kategoria
 Channel Details: Detajet e kanalit
 Channel Info: Informacioni i kanalit
@@ -21,8 +21,7 @@ Check for updates: Kontrolloni për përditësime
 Check URLs: Kontrolloni URL-të
 Clear: E qartë
 Close: Mbylle
-Country: : Shteti:
-Country:: Shteti:
+Country: Vendi
 Delete Group: Fshi grupin
 Description: Përshkrimi
 Details: Detajet
@@ -34,6 +33,7 @@ Edit URLs: Redakto URL-të
 End (local): Fundi (lokal)
 Enrich with EPG: Pasurohuni me EPG
 Enter M3U URL:: Fut URL-në M3U:
+EPG: EPG
 EPG & Favorites: EPG dhe të preferuarat
 EPG Matching Threshold: Pragu i përputhjes së EPG
 EPG Source: Burimi EPG
@@ -56,8 +56,7 @@ FILTERS: FILTRAT
 Geo & Country: Gjeo & Vendi
 GeoBlocked: GeoBlocked
 GitHub Error: Gabim GitHub
-Group: : Grupi:
-Group:: Grupi:
+Group: Grupi
 Help: Ndihmë
 Hide List: Fshih listën
 Import JSON: Importo JSON
@@ -65,20 +64,21 @@ Info: Informacion
 Invalid playlist URL.: URL e pavlefshme e listës për luajtje.
 Invalid URL.: URL e pavlefshme.
 Language: Gjuha
-Languages (comma): : Gjuhët (presje):
-Languages (comma):: Gjuhët (presje):
+Languages (comma): Gjuhët (presje)
 LOAD: NGARKOJE
 Load a playlist first.: Ngarkoni së pari një listë për luajtje.
+Load M3U: Ngarko M3U
+Load M3U file from your computer: Ngarkoni skedarin M3U nga kompjuteri juaj
+Load M3U playlist from a web URL: Ngarko listën e luajtjes M3U nga një URL ueb
+Load Online: Ngarko Online
 Loaded: Ngarkuar
 Loading...: Po ngarkohet...
-Logo Preview:: Pamja paraprake e logos:
-Logo URL: : URL e logos:
-Logo URL:: URL e logos:
+Logo Preview: Pamja paraprake e logos
+Logo URL: URL e logos
 Logos Matching Threshold: Pragu i përputhjes së logove
 Logos Source: Burimi i logos
 Logos Subfolder: Nëndosja e logos
-Name: : Emri:
-Name:: Emri:
+Name: Emri
 Nanoid: Nanoide
 Network error: Gabim rrjeti
 New Playlist: Lista e re e luajtjes
@@ -97,6 +97,8 @@ Player ready.: Lojtari gati.
 Playlist Editor: Redaktori i listës së luajtjes
 Please select a program first.: Ju lutemi së pari zgjidhni një program.
 Program Details: Detajet e programit
+Recent: E fundit
+Recent playlists: Listat e fundit të luajtjes
 Refresh: Rifresko
 Refresh EPG List: Rifresko listën EPG
 Refresh from GitHub: Rifresko nga GitHub
@@ -111,6 +113,7 @@ Select a playlist first.: Së pari zgjidhni një listë dëgjimi.
 Select Theme: Zgjidhni Temë
 Settings: Cilësimet
 Show List: Shfaq listën
+Show or hide the channel list: Shfaq ose fshih listën e kanaleve
 Start (local): Fillimi (lokal)
 Status: Statusi
 Stream URL: URL-ja e transmetimit
@@ -120,15 +123,15 @@ Theme picker: Zgjedhësi i temës
 Time: Koha
 Title: Titulli
 Tools: Mjetet
-TV Guide (EPG): Udhëzues televiziv (EPG)
-TvgId: : TvgId:
-TvgId:: TvgId:
+TV Guide (EPG): Udhëzues TV (EPG)
+TVGarden+: TV Garden +
+TvgId: TvgId
 Unable to find version in remote project file.: Nuk mund të gjendet versioni në skedarin e projektit në distancë.
 Update: Përditëso
 Update complete. Restarting...: Përditësimi përfundoi. Po riniset...
 Update failed: : Përditësimi dështoi:
 URL: URL
-URL (primary):: URL (primare):
+URL (primary): URL (primare)
 URL list (one per line): Lista e URL-ve (një për rresht)
 URLs & Status: URL-të dhe statusi
 Version: Versioni

@@ -2,6 +2,7 @@
 ◀ Previous: ◀ ಹಿಂದಿನ
 A new version is available. Do you want to update now?: ಹೊಸ ಆವೃತ್ತಿ ಲಭ್ಯವಿದೆ. ನೀವು ಇದೀಗ ನವೀಕರಿಸಲು ಬಯಸುವಿರಾ?
 About: ಬಗ್ಗೆ
+About TVGarden+: TVGarden+ ಕುರಿತು
 Add Group: ಗುಂಪು ಸೇರಿಸಿ
 Advanced IDs: ಸುಧಾರಿತ ಐಡಿಗಳು
 Apply: ಅನ್ವಯಿಸು
@@ -9,7 +10,6 @@ Apply changes: ಬದಲಾವಣೆಗಳನ್ನು ಅನ್ವಯಿಸಿ
 Buffer (seconds): ಬಫರ್ (ಸೆಕೆಂಡ್‌ಗಳು)
 Cancel: ರದ್ದುಮಾಡಿ
 CANCEL: ರದ್ದುಮಾಡು
-Cannot open browser: ಬ್ರೌಸರ್ ತೆರೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ
 Category: ವರ್ಗ
 Channel Details: ಚಾನಲ್ ವಿವರಗಳು
 Channel Info: ಚಾನಲ್ ಮಾಹಿತಿ
@@ -21,8 +21,7 @@ Check for updates: ನವೀಕರಣಗಳಿಗಾಗಿ ಪರಿಶೀಲಿ
 Check URLs: URL ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ
 Clear: ತೆರವುಗೊಳಿಸಿ
 Close: ಮುಚ್ಚಿ
-Country: : ದೇಶ:
-Country:: ದೇಶ:
+Country: ದೇಶ
 Delete Group: ಗುಂಪನ್ನು ಅಳಿಸಿ
 Description: ವಿವರಣೆ
 Details: ವಿವರಗಳು
@@ -34,6 +33,7 @@ Edit URLs: URL ಗಳನ್ನು ಸಂಪಾದಿಸಿ
 End (local): ಅಂತ್ಯ (ಸ್ಥಳೀಯ)
 Enrich with EPG: EPG ಯೊಂದಿಗೆ ಸಮೃದ್ಧಗೊಳಿಸಿ
 Enter M3U URL:: M3U URL ನಮೂದಿಸಿ:
+EPG: EPG
 EPG & Favorites: EPG ಮತ್ತು ಮೆಚ್ಚಿನವುಗಳು
 EPG Matching Threshold: EPG ಹೊಂದಾಣಿಕೆಯ ಮಿತಿ
 EPG Source: EPG ಮೂಲ
@@ -56,8 +56,7 @@ FILTERS: ಫಿಲ್ಟರ್‌ಗಳು
 Geo & Country: ಜಿಯೋ ಮತ್ತು ದೇಶ
 GeoBlocked: ಜಿಯೋಬ್ಲಾಕ್ ಮಾಡಲಾಗಿದೆ
 GitHub Error: GitHub ದೋಷ
-Group: : ಗುಂಪು:
-Group:: ಗುಂಪು:
+Group: ಗುಂಪು
 Help: ಸಹಾಯ
 Hide List: ಪಟ್ಟಿಯನ್ನು ಮರೆಮಾಡಿ
 Import JSON: JSON ಆಮದು ಮಾಡಿ
@@ -65,20 +64,21 @@ Info: ಮಾಹಿತಿ
 Invalid playlist URL.: ಅಮಾನ್ಯ ಪ್ಲೇಪಟ್ಟಿ URL.
 Invalid URL.: ಅಮಾನ್ಯ URL.
 Language: ಭಾಷೆ
-Languages (comma): : ಭಾಷೆಗಳು (ಅಲ್ಪವಿರಾಮ):
-Languages (comma):: ಭಾಷೆಗಳು (ಅಲ್ಪವಿರಾಮ):
+Languages (comma): ಭಾಷೆಗಳು (ಅಲ್ಪವಿರಾಮ)
 LOAD: ಲೋಡ್ ಮಾಡಿ
 Load a playlist first.: ಮೊದಲು ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಿ.
+Load M3U: M3U ಅನ್ನು ಲೋಡ್ ಮಾಡಿ
+Load M3U file from your computer: ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್‌ನಿಂದ M3U ಫೈಲ್ ಅನ್ನು ಲೋಡ್ ಮಾಡಿ
+Load M3U playlist from a web URL: ವೆಬ್ URL ನಿಂದ M3U ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಿ
+Load Online: ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಲೋಡ್ ಮಾಡಿ
 Loaded: ಲೋಡ್ ಮಾಡಲಾಗಿದೆ
 Loading...: ಲೋಡ್ ಆಗುತ್ತಿದೆ...
-Logo Preview:: ಲೋಗೋ ಪೂರ್ವವೀಕ್ಷಣೆ:
-Logo URL: : ಲೋಗೋ URL:
-Logo URL:: ಲೋಗೋ URL:
+Logo Preview: ಲೋಗೋ ಪೂರ್ವವೀಕ್ಷಣೆ
+Logo URL: ಲೋಗೋ URL
 Logos Matching Threshold: ಲೋಗೋಗಳ ಹೊಂದಾಣಿಕೆಯ ಮಿತಿ
 Logos Source: ಲೋಗೋಗಳ ಮೂಲ
 Logos Subfolder: ಲೋಗೋಗಳ ಉಪಫೋಲ್ಡರ್
-Name: : ಹೆಸರು:
-Name:: ಹೆಸರು:
+Name: ಹೆಸರು
 Nanoid: ನ್ಯಾನಾಯ್ಡ್
 Network error: ನೆಟ್‌ವರ್ಕ್ ದೋಷ
 New Playlist: ಹೊಸ ಪ್ಲೇಪಟ್ಟಿ
@@ -97,6 +97,8 @@ Player ready.: ಪ್ಲೇಯರ್ ಸಿದ್ಧವಾಗಿದೆ.
 Playlist Editor: ಪ್ಲೇಪಟ್ಟಿ ಸಂಪಾದಕ
 Please select a program first.: ದಯವಿಟ್ಟು ಮೊದಲು ಪ್ರೋಗ್ರಾಂ ಆಯ್ಕೆಮಾಡಿ.
 Program Details: ಕಾರ್ಯಕ್ರಮದ ವಿವರಗಳು
+Recent: ಇತ್ತೀಚಿನ
+Recent playlists: ಇತ್ತೀಚಿನ ಪ್ಲೇಪಟ್ಟಿಗಳು
 Refresh: ರಿಫ್ರೆಶ್ ಮಾಡಿ
 Refresh EPG List: EPG ಪಟ್ಟಿಯನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ
 Refresh from GitHub: GitHub ನಿಂದ ರಿಫ್ರೆಶ್ ಮಾಡಿ
@@ -111,24 +113,25 @@ Select a playlist first.: ಮೊದಲು ಪ್ಲೇಪಟ್ಟಿಯನ್�
 Select Theme: ಥೀಮ್ ಆಯ್ಕೆಮಾಡಿ
 Settings: ಸೆಟ್ಟಿಂಗ್‌ಗಳು
 Show List: ಪಟ್ಟಿಯನ್ನು ತೋರಿಸು
+Show or hide the channel list: ಚಾನಲ್ ಪಟ್ಟಿಯನ್ನು ತೋರಿಸಿ ಅಥವಾ ಮರೆಮಾಡಿ
 Start (local): ಪ್ರಾರಂಭ (ಸ್ಥಳೀಯ)
 Status: ಸ್ಥಿತಿ
 Stream URL: ಸ್ಟ್ರೀಮ್ URL
 Success: ಯಶಸ್ಸು
 Support: ಬೆಂಬಲ
-Theme picker: ಥೀಮ್ ಪಿಕರ್
+Theme picker: ಥೀಮ್ ಪಿಕ್ಕರ್
 Time: ಸಮಯ
 Title: ಶೀರ್ಷಿಕೆ
 Tools: ಪರಿಕರಗಳು
 TV Guide (EPG): ಟಿವಿ ಮಾರ್ಗದರ್ಶಿ (EPG)
-TvgId: : ಟಿವಿಜಿಐಡಿ:
-TvgId:: ಟಿವಿಜಿಐಡಿ:
+TVGarden+: ಟಿವಿ ಗಾರ್ಡನ್+
+TvgId: ಟಿವಿಜಿಐಡಿ
 Unable to find version in remote project file.: ರಿಮೋಟ್ ಪ್ರಾಜೆಕ್ಟ್ ಫೈಲ್‌ನಲ್ಲಿ ಆವೃತ್ತಿಯನ್ನು ಹುಡುಕಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.
 Update: ನವೀಕರಿಸಿ
 Update complete. Restarting...: ನವೀಕರಣ ಪೂರ್ಣಗೊಂಡಿದೆ. ಮರುಪ್ರಾರಂಭಿಸಲಾಗುತ್ತಿದೆ...
 Update failed: : ನವೀಕರಣ ವಿಫಲವಾಗಿದೆ:
 URL: URL
-URL (primary):: URL (ಪ್ರಾಥಮಿಕ):
+URL (primary): URL (ಪ್ರಾಥಮಿಕ)
 URL list (one per line): URL ಪಟ್ಟಿ (ಪ್ರತಿ ಸಾಲಿಗೆ ಒಂದು)
 URLs & Status: URL ಗಳು ಮತ್ತು ಸ್ಥಿತಿ
 Version: ಆವೃತ್ತಿ

@@ -2,6 +2,7 @@
 ◀ Previous: ◀ 前へ
 A new version is available. Do you want to update now?: 新しいバージョンが利用可能です。今すぐ更新しますか?
 About: について
+About TVGarden+: TVGarden+について
 Add Group: グループの追加
 Advanced IDs: アドバンストID
 Apply: 適用する
@@ -9,7 +10,6 @@ Apply changes: 変更を適用する
 Buffer (seconds): バッファ (秒)
 Cancel: キャンセル
 CANCEL: キャンセル
-Cannot open browser: ブラウザを開けません
 Category: カテゴリ
 Channel Details: チャンネルの詳細
 Channel Info: チャンネル情報
@@ -17,12 +17,11 @@ Channel:: チャネル：
 channels from: からのチャンネル
 channels from URL: URLからのチャンネル
 Check Duplicates: 重複のチェック
-Check for updates: アップデートをチェックする
+Check for updates: アップデートを確認する
 Check URLs: URLを確認する
 Clear: クリア
 Close: 近い
-Country: : 国：
-Country:: 国：
+Country: 国
 Delete Group: グループの削除
 Description: 説明
 Details: 詳細
@@ -34,6 +33,7 @@ Edit URLs: URLを編集する
 End (local): 終了（ローカル）
 Enrich with EPG: EPG で充実させる
 Enter M3U URL:: M3U URL を入力してください:
+EPG: EPG
 EPG & Favorites: EPG とお気に入り
 EPG Matching Threshold: EPG マッチングしきい値
 EPG Source: EPG ソース
@@ -56,8 +56,7 @@ FILTERS: フィルター
 Geo & Country: 地域と国
 GeoBlocked: 地理的にブロックされています
 GitHub Error: GitHub エラー
-Group: : グループ：
-Group:: グループ：
+Group: グループ
 Help: ヘルプ
 Hide List: リストを非表示にする
 Import JSON: JSONをインポートする
@@ -65,20 +64,21 @@ Info: 情報
 Invalid playlist URL.: プレイリストの URL が無効です。
 Invalid URL.: URLが無効です。
 Language: 言語
-Languages (comma): : 言語 (カンマ):
-Languages (comma):: 言語 (カンマ):
+Languages (comma): 言語 (カンマ)
 LOAD: 負荷
 Load a playlist first.: まずプレイリストをロードします。
+Load M3U: M3Uをロードする
+Load M3U file from your computer: コンピューターから M3U ファイルをロードします
+Load M3U playlist from a web URL: Web URLからM3Uプレイリストをロード
+Load Online: オンラインでロードする
 Loaded: ロード済み
 Loading...: 読み込み中...
-Logo Preview:: ロゴのプレビュー:
-Logo URL: : ロゴのURL:
-Logo URL:: ロゴのURL:
+Logo Preview: ロゴのプレビュー
+Logo URL: ロゴのURL
 Logos Matching Threshold: ロゴ一致のしきい値
 Logos Source: ロゴソース
 Logos Subfolder: ロゴサブフォルダー
-Name: : 名前：
-Name:: 名前：
+Name: 名前
 Nanoid: ナノイド
 Network error: ネットワークエラー
 New Playlist: 新しいプレイリスト
@@ -97,6 +97,8 @@ Player ready.: プレーヤーの準備ができました。
 Playlist Editor: プレイリストエディター
 Please select a program first.: 最初にプログラムを選択してください。
 Program Details: プログラム詳細
+Recent: 最近の
+Recent playlists: 最近のプレイリスト
 Refresh: リフレッシュ
 Refresh EPG List: EPG リストを更新
 Refresh from GitHub: GitHub から更新する
@@ -111,6 +113,7 @@ Select a playlist first.: 最初にプレイリストを選択します。
 Select Theme: テーマの選択
 Settings: 設定
 Show List: ショーリスト
+Show or hide the channel list: チャンネルリストの表示/非表示を切り替える
 Start (local): 開始（ローカル）
 Status: 状態
 Stream URL: ストリームURL
@@ -121,14 +124,14 @@ Time: 時間
 Title: タイトル
 Tools: ツール
 TV Guide (EPG): テレビガイド (EPG)
-TvgId: : テレビID:
-TvgId:: テレビID:
+TVGarden+: テレビガーデン+
+TvgId: テレビID
 Unable to find version in remote project file.: リモート プロジェクト ファイルにバージョンが見つかりません。
 Update: アップデート
 Update complete. Restarting...: アップデートが完了しました。再起動中...
 Update failed: : 更新に失敗しました:
 URL: URL
-URL (primary):: URL (プライマリ):
+URL (primary): URL（プライマリ）
 URL list (one per line): URL リスト (1 行に 1 つ)
 URLs & Status: URLとステータス
 Version: バージョン
