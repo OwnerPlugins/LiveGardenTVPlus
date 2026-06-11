@@ -3,10 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:converters="clr-namespace:LiveGardenTVPlus.Converters"
         Title="Channel Details by Lululla" Height="Auto" Width="Auto"
-        WindowStartupLocation="CenterOwner"
         Background="{DynamicResource WindowBackgroundBrush}"
         Foreground="{DynamicResource ForegroundBrush}"
-        SizeToContent="Height">
+        SizeToContent="Height"
+        WindowStartupLocation="CenterOwner">
     <Window.Resources>
         <converters:UrlToImageConverter x:Key="UrlToImageConverter"/>
     </Window.Resources>
@@ -89,7 +89,7 @@
         <!-- Navigation buttons and counter -->
         <StackPanel Grid.Row="18" Orientation="Vertical" HorizontalAlignment="Center" Margin="0,10,0,15">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                <Button x:Name="PrevBtn" Content="◀ Previous" Width="100" Height="32" Margin="0,0,10,0" 
+                <Button x:Name="PrevBtn" Content="◀ Previous" Width="100" Height="32" Margin="10,0,10,0" 
                         Click="PrevBtn_Click"
                         Background="{DynamicResource ControlBackgroundBrush}"
                         Foreground="{DynamicResource ForegroundBrush}"/>
@@ -99,7 +99,7 @@
                         Foreground="{DynamicResource ForegroundBrush}"/>
                 <Button x:Name="SaveBtn" Content="Save" Click="SaveBtn_Click" Width="100" Height="32" Margin="0,0,10,0"
                         Background="{DynamicResource AccentBrush}" Foreground="White"/>
-                <Button x:Name="CancelBtn" Content="Cancel" Click="CancelBtn_Click" Width="100" Height="32"
+                <Button x:Name="CancelBtn" Content="Cancel" Click="CancelBtn_Click" Width="100" Height="32" Margin="0,0,10,0"
                         Background="{DynamicResource ControlBackgroundBrush}" Foreground="{DynamicResource ForegroundBrush}"/>
             </StackPanel>
             <TextBlock Text="{Binding CurrentIndexInfo}" Margin="0,10,0,0" 

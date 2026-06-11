@@ -1,18 +1,41 @@
-﻿(No description): (Açıklama yok)
+﻿(Completely voluntary – no features are blocked): (Tamamen isteğe bağlıdır – hiçbir özellik engellenmez)
+(No description): (Açıklama yok)
+• Add / rename / delete groups.: • Grupları ekleyin / yeniden adlandırın / silin.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Tampon kaydırıcısı: HLS arabelleğini ayarlayın (1‑10 saniye).
+• Check URL availability (only visible channels).: • URL kullanılabilirliğini kontrol edin (yalnızca görünür kanallar).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Kanal adlarını, grupları, URL'leri, logoları, tvg kimliğini, ülkeyi, dilleri, favorileri düzenleyin.
+• Edit multiple URLs per channel (popup window).: • Kanal başına birden fazla URL'yi düzenleyin (açılır pencere).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG ile zenginleştirin: bulanık eşleştirmeyi kullanarak eksik tvg kimliğini ekler.
+• EPG info displayed in status bar for current channel.: • Geçerli kanal için durum çubuğunda görüntülenen EPG bilgisi.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • OK / FAIL / filtrelenmiş listeleri M3U veya JSON olarak dışa aktarın.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Uzak depodan logoları alın (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Tam ekran kullanıcı arayüzü: kenar çubuğunu ve durum çubuğunu gizler (çıkış için ESC).
+• Hide/Show channel list button.: • Kanal listesini Gizle/Göster düğmesi.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Esnek alan eşleme (otomatik algılama, eşlemeyi kaydetme) ile JSON'u (yerel veya URL) içe aktarın.
+• Picture‑in‑Picture (PIP) button.: • Resim İçinde Resim (PIP) düğmesi.
+• Playback speed: 0.5x, 1x, 2x buttons.: • Oynatma hızı: 0,5x, 1x, 2x düğmeleri.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Başlığa tıklayarak herhangi bir sütunu sıralayın; Orijinal sıraya geri dönmek için 'Siparişi Sıfırla'yı kullanın.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: canlı akışı duraklatın; geri aramak için kaydırıcıyı sürükleyin; geri dönmek için 'Canlı'ya basın.
 ◀ Previous: ◀ Önceki
+16 colour themes + Light/Dark variants.: 16 renk teması + Açık/Koyu çeşitleri.
 A new version is available. Do you want to update now?: Yeni bir sürüm mevcut. Şimdi güncellemek istiyor musunuz?
-About: Hakkında
-About TVGarden+: TVGarden+ Hakkında
+Access via 'Edit Playlist' button on main toolbar.: Ana araç çubuğundaki 'Oynatma Listesini Düzenle' düğmesiyle erişim.
+Actions: Eylemler
 Add Group: Grup Ekle
 Add Mapping: Eşleme Ekle
+Adjust buffer size (1-10 seconds): Tampon boyutunu ayarlayın (1-10 saniye)
 Advanced IDs: Gelişmiş Kimlikler
+Application status: Başvuru durumu
 Apply changes: Değişiklikleri uygula
 Apply Filters: Filtreleri Uygula
 Auto-detect: Otomatik algılama
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Başlangıçta otomatik kontrol – veya Araçlar menüsünde 'Güncellemeleri kontrol et' seçeneğini tıklayın.
 Buffer (seconds): Tampon (saniye)
+Buffer size – adjust HLS buffer seconds.: Arabellek boyutu – HLS arabellek saniyelerini ayarlayın.
 Cancel: İptal etmek
 CANCEL: İPTAL ETMEK
 Category: Kategori
+Changelog: Değişiklik günlüğü
 Channel Details: Kanal Detayları
 Channel Info: Kanal Bilgisi
 Channel:: Kanal:
@@ -23,12 +46,22 @@ Check Duplicates: Kopyaları Kontrol Et
 Check for updates: Güncellemeleri kontrol edin
 Check URLs: URL'leri kontrol edin
 Clear Filters: Filtreleri Temizle
+Clear search: Aramayı temizle
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Topluluk ve test: CorvoBoys (corvoboys.org) ve LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Ülke
+Credits: Kredi
 Delete Group: Grubu Sil
 Description: Tanım
 Details: Detaylar
-Do you want to load the edited playlist now?: Düzenlenen çalma listesini şimdi yüklemek istiyor musunuz?
+Developed by Lululla: Lululla tarafından geliştirildi
+Developer: Lululla: Geliştirici: Lululla
+Do you want to load this edited playlist now?: Düzenlenen bu oynatma listesini şimdi yüklemek istiyor musunuz?
+Double speed (2x): Çift hız (2x)
 Downloading playlist...: Oynatma listesi indiriliyor...
+Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP'i indirir, dosyaları değiştirir, uygulamayı yeniden başlatır; ayarlar korunur.
+Drag & drop – drop M3U or JSON files directly onto main window.: Sürükle ve bırak – M3U veya JSON dosyalarını doğrudan ana pencereye bırakın.
+Drag to seek back in buffer: Ara bellekte geri aramak için sürükleyin
 Duplicate URLs found:\n\n: Yinelenen URL'ler bulundu:\n\n
 Edit Playlist: Oynatma Listesini Düzenle
 Edit URLs: URL'leri düzenleyin
@@ -37,12 +70,19 @@ Enrich with EPG: EPG ile zenginleştirin
 Enter JSON URL:: JSON URL'sini girin:
 Enter playlist URL (M3U or JSON):: Çalma listesi URL'sini girin (M3U veya JSON):
 EPG: EPG
-EPG & Favorites: EPG ve Favoriler
+Epg & Favorites: Epg ve Favoriler
+Epg & Logos: Epg ve Logolar
+EPG & Logos: EPG ve Logolar
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Kılavuzu – ana araç çubuğundaki düğme, program ayrıntılarını içeren tam tabloyu gösterir (bilgi için çift tıklayın).
 EPG Matching Threshold: EPG Eşleştirme Eşiği
 EPG Source: EPG Kaynağı
+EPG source – can be set in Settings (epgshare01 or custom URL).: EPG kaynağı – Ayarlar'da ayarlanabilir (epgshare01 veya özel URL).
+EPG source – choose XMLTV file or enter custom URL.: EPG kaynağı – XMLTV dosyasını seçin veya özel URL girin.
 Error: Hata
 Error loading: Yükleme hatası
+Error loading file: {0}: Dosya yüklenirken hata oluştu: {0}
 Error loading playlists: {0}: Oynatma listeleri yüklenirken hata oluştu: {0}
+Error loading URL: {0}: URL yüklenirken hata oluştu: {0}
 ERROR: player.html not found.: HATA: player.html bulunamadı.
 Exit: Çıkış
 Export Favorites: Favorileri Dışa Aktar
@@ -51,18 +91,25 @@ Export Filtered M3U: Dışa Aktarma Filtreli M3U
 Export JSON: JSON'u dışa aktar
 Export KO: KO'yu dışa aktar
 Export OK: Dışa aktar Tamam
+Export only favorite channels to a new M3U file: Yalnızca favori kanalları yeni bir M3U dosyasına aktarın
 Extracting update...: Güncelleme çıkarılıyor...
 Failed to download playlist: Oynatma listesi indirilemedi
 Failed to load playlist: Oynatma listesi yüklenemedi
 Favorite: Favori
+Favorites only: Yalnızca favoriler
 Fetch Logos: Logoları Getir
-FILTERS: FİLTRELER
+Filters: Filtreler
+Fullscreen (hide UI) - press ESC to exit: Tam ekran (kullanıcı arayüzünü gizle) - çıkmak için ESC tuşuna basın
 Geo & Country: Coğrafya ve Ülke
 GeoBlocked: Coğrafi Engelleme
 GitHub Error: GitHub Hatası
+Go back to live: Yaşamaya geri dön
 Group: Grup
+Half speed (0.5x): Yarım hız (0,5x)
 Help: Yardım
 Hide List: Listeyi Gizle
+HLS playback: hls.js (MIT license): HLS oynatma: hls.js (MIT lisansı)
+Image: Resim
 Import: İçe aktarmak
 Import error: {0}: İçe aktarma hatası: {0}
 Import from URL: URL'den içe aktar
@@ -72,27 +119,43 @@ Import Local: Yerel İçe Aktar
 Imported {0} channels from JSON.: {0} kanal JSON'dan içe aktarıldı.
 Imported {0} channels from URL.: {0} kanal URL'den içe aktarıldı.
 Info: Bilgi
+Info on: Hakkında bilgi
 Invalid JSON: {0}: Geçersiz JSON: {0}
 Invalid playlist URL.: Geçersiz oynatma listesi URL'si.
 Invalid URL.: Geçersiz URL.
+Json: Json
 JSON Property: JSON Özelliği
+Ko-fi: Kahve
 Language: Dil
+Language – change UI language dynamically (translations in Languages folder).: Dil – kullanıcı arayüzü dilini dinamik olarak değiştirin (Diller klasöründeki çeviriler).
+Languages: Diller
 Languages (comma): Diller (virgül)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: Lululla'dan LiveGardenTVPlus Yardımı
 LOAD: YÜK
 Load a playlist first.: Önce bir çalma listesi yükleyin.
 Load File: Dosya Yükle
-Load Online: Çevrimiçi Yükle
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Yerel M3U/JSON dosyasını yükleyin – 'Dosya Yükle' düğmesi (araç çubuğu) veya düzenleyicideki 'Dosyayı Aç' aracılığıyla.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Çevrimiçi M3U/JSON URL'sini yükleyin – Düzenleyicide 'Çevrimiçi Yükle' düğmesi (araç çubuğu) veya 'URL'den aç'.
 Load playlist file (M3U/JSON) from your computer: Çalma listesi dosyasını (M3U/JSON) bilgisayarınızdan yükleyin
-Load playlist from web URL (M3U or JSON): Çalma listesini web URL'sinden yükleyin (M3U veya JSON)
 Loaded: Yüklendi
+Loaded {0} channels from JSON file.: JSON dosyasından {0} kanal yüklendi.
+Loaded {0} channels from JSON URL.: JSON URL'sinden {0} kanal yüklendi.
+Loaded {0} channels from M3U file.: M3U dosyasından {0} kanal yüklendi.
+Loaded {0} channels from M3U URL.: M3U URL'sinden {0} kanal yüklendi.
 Loading...: Yükleniyor...
+Logo: Logo
+Logo Picker – in editor, click '...' to choose logo from gallery.: Logo Seçici – düzenleyicide, galeriden logo seçmek için '...' seçeneğini tıklayın.
 Logo Preview: Logo Önizlemesi
 Logo URL: Logo URL'si
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Logolar – GitHub deposundan otomatik olarak indirilir (Ayarlar → Logo Kaynağı).
 Logos Matching Threshold: Logo Eşleştirme Eşiği
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logo deposu – sahip/repo/yolu seçin (varsayılan OwnerPlugins/logos).
 Logos Source: Logo Kaynağı
 Logos Subfolder: Logolar Alt Klasörü
 Map JSON properties to channel fields:: JSON özelliklerini kanal alanlarıyla eşleyin:
 Mapping saved for future imports of this file.: Eşleme, bu dosyanın gelecekte içe aktarılması için kaydedildi.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Eşleştirme eşikleri – EPG ve logolar için bulanık eşleşme hassasiyetini ayarlayın.
 Name: İsim
 Nanoid: Nanoid
 Network error: Ağ hatası
@@ -106,57 +169,90 @@ No favorite channels to export.: Dışa aktarılacak favori kanal yok.
 No playlist found: Oynatma listesi bulunamadı
 No stream: Akış yok
 No updates available.: Güncelleme mevcut değil.
-Now playing: Şimdi oynatılıyor
+Normal speed (1x): Normal hız (1x)
+Now: Şimdi
 OK: TAMAM
 Online Playlist: Çevrimiçi Oynatma Listesi
+Online playlist – select from GitHub repository (auto‑refresh).: Çevrimiçi oynatma listesi – GitHub deposundan seçim yapın (otomatik yenileme).
+Open File...: Dosyayı Aç...
+Open from URL: URL'den aç
+Open Playlist: Oynatma Listesini Aç
 Pause/Resume live stream: Canlı yayını duraklatın/devam ettirin
-Player ready.: Oyuncu hazır.
+Paused: Duraklatıldı
+PayPal: PayPal
+Picture-in-Picture mode: Resim içinde Resim modu
+Player Control: Oyuncu Kontrolü
+Playlist & Groups: Çalma Listesi ve Gruplar
 Playlist Editor: Çalma Listesi Düzenleyicisi
+Playlist Loading: Çalma Listesi Yükleniyor
+Playlist Management: Oynatma Listesi Yönetimi
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Oynatma listesi deposu: OwnerPlugins/TivuStreamList (İtalyanca ve uluslararası akışlar)
 Please select a program first.: Lütfen önce bir program seçin.
 Preview (first 5 channels): Önizleme (ilk 5 kanal)
 Preview error: {0}: Önizleme hatası: {0}
 Program Details: Program Detayları
+Ready.: Hazır.
 Recent: Son
+Recent files – quick access to last 5 opened playlists.: Son dosyalar – açılan son 5 çalma listesine hızlı erişim.
 Recent playlists: Son oynatma listeleri
 Refresh: Yenile
 Refresh EPG List: EPG Listesini Yenile
 Refresh from GitHub: GitHub'dan yenile
 Rename Group: Grubu Yeniden Adlandır
+Repository: Depo
 Reset Order: Siparişi Sıfırla
 Save: Kaydetmek
 SAVE: KAYDETMEK
+Save – persists all settings without reloading current playlist.: Kaydet – geçerli çalma listesini yeniden yüklemeden tüm ayarları korur.
 Save as...: Farklı kaydet...
+Save current playlist to a new M3U file: Mevcut çalma listesini yeni bir M3U dosyasına kaydet
 Save Mapping: Eşlemeyi Kaydet
 Save Playlist: Oynatma Listesini Kaydet
 Save Status: Durumu Kaydet
 Saved: Kaydedildi
+Search channels by name: Kanalları ada göre arayın
 Search channels...: Kanal ara...
 Select a playlist first.: Önce bir çalma listesi seçin.
 Select Theme: Tema Seç
+Selected theme is saved and applied on restart.: Seçilen tema kaydedilir ve yeniden başlatıldığında uygulanır.
 Settings: Ayarlar
 Show List: Listeyi Göster
+Show only channels marked as favorites: Yalnızca favori olarak işaretlenen kanalları göster
 Show or hide the channel list: Kanal listesini göster veya gizle
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Test ve destek için CORVOBOYS ve LinuxSat-Destek topluluklarına özellikle teşekkür ederiz.
 Start (local): Başlat (yerel)
 Status: Durum
 Stream URL: Akış URL'si
+Stream URLs: Akış URL'leri
 Success: Başarı
 Support: Destek
+Support the developer: Geliştiriciyi destekleyin
 Target Field: Hedef Alanı
+Thanks to: Sayesinde
 Theme picker: Tema seçici
+Theme picker – accessible via Tools menu on main toolbar.: Tema seçici – ana araç çubuğundaki Araçlar menüsünden erişilebilir.
+Themes: Temalar
 Time: Zaman
 Title: Başlık
 Tools: Aletler
+Total: Toplam
+Total channels in loaded playlist: Yüklenen oynatma listesindeki toplam kanallar
 TV Guide (EPG): TV Rehberi (EPG)
 TvgId: TvgID
+UI: MaterialDesignThemes.Wpf: Kullanıcı Arayüzü: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Uzak proje dosyasında sürüm bulunamıyor.
 Update: Güncelleme
 Update complete. Restarting...: Güncelleme tamamlandı. Yeniden başlatılıyor...
 Update failed: : Güncelleme başarısız oldu:
+Updates: Güncellemeler
 URL: URL'si
 URL (primary): URL (birincil)
+URL Check: URL Kontrolü
 URL list (one per line): URL listesi (her satıra bir tane)
 URLs & Status: URL'ler ve Durum
 Version: Sürüm
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus'ın kapanması bekleniyor...
 Warning: Uyarı
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: Youtube URL'si
+Youtube URLs: Youtube URL'leri

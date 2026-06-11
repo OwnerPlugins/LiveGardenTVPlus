@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace LiveGardenTVPlus.Models
+﻿namespace LiveGardenTVPlus.Models
 {
     public class ChannelEditable : Channel
     {

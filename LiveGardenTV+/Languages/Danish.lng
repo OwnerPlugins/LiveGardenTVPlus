@@ -1,18 +1,41 @@
-﻿(No description): (Ingen beskrivelse)
+﻿(Completely voluntary – no features are blocked): (Fuldstændig frivillig – ingen funktioner er blokeret)
+(No description): (Ingen beskrivelse)
+• Add / rename / delete groups.: • Tilføj/omdøb/slet grupper.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Bufferskyder: Juster HLS buffer (1-10 sekunder).
+• Check URL availability (only visible channels).: • Tjek URL-tilgængelighed (kun synlige kanaler).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Rediger kanalnavne, grupper, URL'er, logoer, tvg-id, land, sprog, favoritter.
+• Edit multiple URLs per channel (popup window).: • Rediger flere URL'er pr. kanal (pop op-vindue).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Berig med EPG: tilføjer manglende tvg-id ved hjælp af fuzzy matching.
+• EPG info displayed in status bar for current channel.: • EPG-info vist i statuslinjen for den aktuelle kanal.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • Eksporter OK / FAIL / filtrerede lister som M3U eller JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Hent logoer fra fjernlager (OwnerPlugins/logoer).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Fuldskærms UI: skjuler sidebjælke og statuslinje (ESC for at afslutte).
+• Hide/Show channel list button.: • Knappen Skjul/Vis kanalliste.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Importer JSON (lokal eller URL) med fleksibel felttilknytning (automatisk registrering, gem kortlægning).
+• Picture‑in‑Picture (PIP) button.: • Picture-in-Picture (PIP)-knap.
+• Playback speed: 0.5x, 1x, 2x buttons.: • Afspilningshastighed: 0,5x, 1x, 2x knapper.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sorter en kolonne ved at klikke på overskriften; brug 'Nulstil ordre' for at vende tilbage til den oprindelige ordre.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: pause livestream; træk skyderen for at søge tilbage; tryk på 'Live' for at vende tilbage.
 ◀ Previous: ◀ Forrige
+16 colour themes + Light/Dark variants.: 16 farvetemaer + Lys/Mørke varianter.
 A new version is available. Do you want to update now?: En ny version er tilgængelig. Vil du opdatere nu?
-About: Om
-About TVGarden+: Om TVGarden+
+Access via 'Edit Playlist' button on main toolbar.: Adgang via knappen 'Rediger afspilningsliste' på hovedværktøjslinjen.
+Actions: Handlinger
 Add Group: Tilføj gruppe
 Add Mapping: Tilføj kortlægning
+Adjust buffer size (1-10 seconds): Juster bufferstørrelse (1-10 sekunder)
 Advanced IDs: Avancerede ID'er
+Application status: Ansøgningsstatus
 Apply changes: Anvend ændringer
 Apply Filters: Anvend filtre
 Auto-detect: Automatisk registrering
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatisk kontrol ved opstart – eller klik på 'Søg efter opdateringer' i menuen Værktøjer.
 Buffer (seconds): Buffer (sekunder)
+Buffer size – adjust HLS buffer seconds.: Bufferstørrelse – juster HLS-buffersekunder.
 Cancel: Ophæve
 CANCEL: OPHÆVE
 Category: Kategori
+Changelog: Ændringslog
 Channel Details: Kanaldetaljer
 Channel Info: Kanalinfo
 Channel:: Kanal:
@@ -23,12 +46,22 @@ Check Duplicates: Tjek dubletter
 Check for updates: Se efter opdateringer
 Check URLs: Tjek URL'er
 Clear Filters: Ryd filtre
+Clear search: Ryd søgning
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Fællesskab og test: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Land
+Credits: Credits
 Delete Group: Slet gruppe
 Description: Beskrivelse
 Details: Detaljer
-Do you want to load the edited playlist now?: Vil du indlæse den redigerede afspilningsliste nu?
+Developed by Lululla: Udviklet af Lululla
+Developer: Lululla: Udvikler: Lululla
+Do you want to load this edited playlist now?: Vil du indlæse denne redigerede afspilningsliste nu?
+Double speed (2x): Dobbelt hastighed (2x)
 Downloading playlist...: Downloader afspilningsliste...
+Downloads ZIP, replaces files, restarts app – settings preserved.: Downloader ZIP, erstatter filer, genstarter app - indstillinger bevares.
+Drag & drop – drop M3U or JSON files directly onto main window.: Træk og slip – slip M3U- eller JSON-filer direkte på hovedvinduet.
+Drag to seek back in buffer: Træk for at søge tilbage i buffer
 Duplicate URLs found:\n\n: Duplikerede webadresser fundet:\n\n
 Edit Playlist: Rediger afspilningsliste
 Edit URLs: Rediger URL'er
@@ -37,12 +70,19 @@ Enrich with EPG: Berig med EPG
 Enter JSON URL:: Indtast JSON URL:
 Enter playlist URL (M3U or JSON):: Indtast afspilningsliste-URL (M3U eller JSON):
 EPG: EPG
-EPG & Favorites: EPG og favoritter
+Epg & Favorites: Epg og favoritter
+Epg & Logos: EPG og logoer
+EPG & Logos: EPG og logoer
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Guide – knappen på hovedværktøjslinjen viser hele gitteret med programdetaljer (dobbeltklik for info).
 EPG Matching Threshold: EPG Matching Threshold
 EPG Source: EPG-kilde
+EPG source – can be set in Settings (epgshare01 or custom URL).: EPG-kilde – kan indstilles i Indstillinger (epgshare01 eller brugerdefineret URL).
+EPG source – choose XMLTV file or enter custom URL.: EPG-kilde – vælg XMLTV-fil, eller indtast brugerdefineret URL.
 Error: Fejl
 Error loading: Fejl ved indlæsning
+Error loading file: {0}: Fejl ved indlæsning af fil: {0}
 Error loading playlists: {0}: Fejl ved indlæsning af afspilningslister: {0}
+Error loading URL: {0}: Fejl ved indlæsning af webadresse: {0}
 ERROR: player.html not found.: FEJL: player.html ikke fundet.
 Exit: Udgang
 Export Favorites: Eksporter favoritter
@@ -51,18 +91,25 @@ Export Filtered M3U: Eksporter filtreret M3U
 Export JSON: Eksporter JSON
 Export KO: Eksport KO
 Export OK: Eksporter OK
+Export only favorite channels to a new M3U file: Eksporter kun favoritkanaler til en ny M3U-fil
 Extracting update...: Udpakker opdatering...
 Failed to download playlist: Afspilningslisten kunne ikke downloades
 Failed to load playlist: Afspilningslisten kunne ikke indlæses
 Favorite: Favorit
+Favorites only: Kun favoritter
 Fetch Logos: Hent logoer
-FILTERS: FILTRE
-Geo & Country: Geo og land
+Filters: Filtre
+Fullscreen (hide UI) - press ESC to exit: Fuld skærm (skjul UI) - tryk på ESC for at afslutte
+Geo & Country: Geo & Land
 GeoBlocked: Geoblokeret
 GitHub Error: GitHub-fejl
+Go back to live: Gå tilbage for at leve
 Group: Gruppe
+Half speed (0.5x): Halv hastighed (0,5x)
 Help: Hjælp
 Hide List: Skjul liste
+HLS playback: hls.js (MIT license): HLS-afspilning: hls.js (MIT-licens)
+Image: Billede
 Import: Importere
 Import error: {0}: Importfejl: {0}
 Import from URL: Importer fra URL
@@ -72,27 +119,43 @@ Import Local: Importer lokalt
 Imported {0} channels from JSON.: Importerede {0} kanaler fra JSON.
 Imported {0} channels from URL.: Importerede {0} kanaler fra URL.
 Info: Info
+Info on: Info vedr
 Invalid JSON: {0}: Ugyldig JSON: {0}
 Invalid playlist URL.: Ugyldig afspilningsliste-URL.
 Invalid URL.: Ugyldig URL.
+Json: Json
 JSON Property: JSON-ejendom
+Ko-fi: Kaffe
 Language: Sprog
+Language – change UI language dynamically (translations in Languages folder).: Sprog – skift UI-sprog dynamisk (oversættelser i mappen Sprog).
+Languages: Sprog
 Languages (comma): Sprog (komma)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Hjælp af Lululla
 LOAD: LÆS
 Load a playlist first.: Indlæs en afspilningsliste først.
 Load File: Indlæs fil
-Load Online: Indlæs online
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Indlæs lokal M3U/JSON-fil – via knappen 'Load File' (værktøjslinje) eller 'Åbn fil' i editoren.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Indlæs online M3U/JSON URL – knappen 'Load Online' (værktøjslinje) eller 'Åbn fra URL' i editoren.
 Load playlist file (M3U/JSON) from your computer: Indlæs afspilningslistefil (M3U/JSON) fra din computer
-Load playlist from web URL (M3U or JSON): Indlæs afspilningsliste fra web-URL (M3U eller JSON)
 Loaded: Indlæst
+Loaded {0} channels from JSON file.: Indlæste {0} kanaler fra JSON-fil.
+Loaded {0} channels from JSON URL.: Indlæste {0} kanaler fra JSON URL.
+Loaded {0} channels from M3U file.: Indlæste {0} kanaler fra M3U-fil.
+Loaded {0} channels from M3U URL.: Indlæste {0} kanaler fra M3U URL.
 Loading...: Indlæser...
+Logo: Logo
+Logo Picker – in editor, click '...' to choose logo from gallery.: Logovælger – i editoren, klik på '...' for at vælge logo fra galleriet.
 Logo Preview: Forhåndsvisning af logo
 Logo URL: Logo URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Logoer – download automatisk fra GitHub-lageret (Indstillinger → Logos Kilde).
 Logos Matching Threshold: Logos matchende tærskel
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logolager – vælg ejer/repo/sti (standard OwnerPlugins/logoer).
 Logos Source: Logos kilde
 Logos Subfolder: Logoer undermappe
 Map JSON properties to channel fields:: Knyt JSON-egenskaber til kanalfelter:
 Mapping saved for future imports of this file.: Kortlægning gemt til fremtidig import af denne fil.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Matchende tærskler – indstil fuzzy match-følsomhed for EPG og logoer.
 Name: Navn
 Nanoid: Nanoid
 Network error: Netværksfejl
@@ -106,57 +169,90 @@ No favorite channels to export.: Ingen favoritkanaler at eksportere.
 No playlist found: Ingen afspilningsliste fundet
 No stream: Ingen strøm
 No updates available.: Ingen tilgængelige opdateringer.
-Now playing: Spiller nu
+Normal speed (1x): Normal hastighed (1x)
+Now: Nu
 OK: OK
 Online Playlist: Online afspilningsliste
+Online playlist – select from GitHub repository (auto‑refresh).: Online afspilningsliste – vælg fra GitHub-lageret (automatisk opdatering).
+Open File...: Åbn fil...
+Open from URL: Åbn fra URL
+Open Playlist: Åbn afspilningsliste
 Pause/Resume live stream: Sæt livestream på pause/genoptag
-Player ready.: Spiller klar.
+Paused: Pause
+PayPal: PayPal
+Picture-in-Picture mode: Billede-i-billede-tilstand
+Player Control: Spiller kontrol
+Playlist & Groups: Afspilningsliste og grupper
 Playlist Editor: Afspilningslisteeditor
+Playlist Loading: Afspilningsliste indlæses
+Playlist Management: Afspilningslistehåndtering
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Afspilningslistelager: OwnerPlugins/TivuStreamList (italienske og internationale streams)
 Please select a program first.: Vælg venligst et program først.
 Preview (first 5 channels): Forhåndsvisning (første 5 kanaler)
 Preview error: {0}: Eksempelfejl: {0}
 Program Details: Program detaljer
+Ready.: Parat.
 Recent: Nylig
+Recent files – quick access to last 5 opened playlists.: Seneste filer – hurtig adgang til de sidste 5 åbnede afspilningslister.
 Recent playlists: Seneste afspilningslister
 Refresh: Opfriske
 Refresh EPG List: Opdater EPG-listen
 Refresh from GitHub: Opdater fra GitHub
 Rename Group: Omdøb gruppe
+Repository: Depot
 Reset Order: Nulstil ordre
 Save: Spare
 SAVE: SPARE
+Save – persists all settings without reloading current playlist.: Gem – bevarer alle indstillinger uden at genindlæse den aktuelle afspilningsliste.
 Save as...: Gem som...
+Save current playlist to a new M3U file: Gem den aktuelle afspilningsliste til en ny M3U-fil
 Save Mapping: Gem kortlægning
 Save Playlist: Gem afspilningsliste
 Save Status: Gem status
 Saved: Gemt
+Search channels by name: Søg efter kanaler efter navn
 Search channels...: Søg efter kanaler...
 Select a playlist first.: Vælg først en afspilningsliste.
 Select Theme: Vælg tema
+Selected theme is saved and applied on restart.: Det valgte tema gemmes og anvendes ved genstart.
 Settings: Indstillinger
 Show List: Vis liste
+Show only channels marked as favorites: Vis kun kanaler, der er markeret som favoritter
 Show or hide the channel list: Vis eller skjul kanallisten
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Særlig tak til CORVOBOYS & LinuxSat-Support-fællesskaberne for test og support.
 Start (local): Start (lokal)
 Status: Status
 Stream URL: Stream URL
+Stream URLs: Stream URL'er
 Success: Succes
 Support: Støtte
+Support the developer: Støt udvikleren
 Target Field: Målfelt
+Thanks to: Tak til
 Theme picker: Temavælger
+Theme picker – accessible via Tools menu on main toolbar.: Temavælger – tilgængelig via menuen Værktøjer på hovedværktøjslinjen.
+Themes: Temaer
 Time: Tid
 Title: Titel
 Tools: Værktøjer
+Total: Total
+Total channels in loaded playlist: Samlet antal kanaler i indlæst afspilningsliste
 TV Guide (EPG): TV-guide (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Kan ikke finde version i fjernprojektfil.
 Update: Opdatering
 Update complete. Restarting...: Opdatering fuldført. Genstarter...
 Update failed: : Opdatering mislykkedes:
+Updates: Opdateringer
 URL: URL
 URL (primary): URL (primær)
+URL Check: URL-tjek
 URL list (one per line): URL-liste (én pr. linje)
 URLs & Status: URL'er og status
 Version: Version
 Waiting for LiveGardenTVPlus to close...: Venter på, at LiveGardenTVPlus lukker...
 Warning: Advarsel
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: Youtube URL
+Youtube URLs: Youtube URL'er

@@ -1,18 +1,41 @@
-﻿(No description): (Тодорхойлолт байхгүй)
+﻿(Completely voluntary – no features are blocked): (Бүрэн сайн дурын - ямар ч функцийг хориглоогүй)
+(No description): (Тодорхойлолт байхгүй)
+• Add / rename / delete groups.: • Бүлгүүдийг нэмэх / нэрийг өөрчлөх / устгах.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Буфер гулсагч: HLS буферийг тохируулах (1‑10 секунд).
+• Check URL availability (only visible channels).: • URL байгаа эсэхийг шалгах (зөвхөн харагдах сувгууд).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Сувгийн нэр, бүлгэм, URL, лого, tvg-id, улс, хэл, дуртай зүйлсийг засварлана.
+• Edit multiple URLs per channel (popup window).: • Нэг суваг бүрт олон URL засварлах (попап цонх).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG-ээр баяжуулах: тодорхой бус тохирохыг ашиглан алга болсон tvg-id-г нэмнэ.
+• EPG info displayed in status bar for current channel.: • Одоогийн сувгийн статус талбарт EPG-ийн мэдээлэл харагдана.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • OK / FAIL / шүүсэн жагсаалтыг M3U эсвэл JSON болгон экспортлох.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Алсын агуулахаас лого татах (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Бүтэн дэлгэцийн UI: хажуугийн хэсэг болон төлөвийн мөрийг нууна (гарахын тулд ESC).
+• Hide/Show channel list button.: • Сувгийн жагсаалтыг нуух/ харуулах товч.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Хээрийн уян хатан зураглал бүхий JSON (орон нутгийн эсвэл URL) импортлох (автоматаар илрүүлэх, зураглалыг хадгалах).
+• Picture‑in‑Picture (PIP) button.: • Зураг доторх зураг (PIP) товчлуур.
+• Playback speed: 0.5x, 1x, 2x buttons.: • Тоглуулах хурд: 0.5x, 1x, 2x товчлуурууд.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Толгой хэсэгт дарж дурын баганыг эрэмбэлэх; Анхны дараалал руу буцахын тулд "Захиалга дахин тохируулах"-г ашиглана уу.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: шууд дамжуулалтыг түр зогсоох; буцаж хайхын тулд гулсагчийг чирнэ үү; Буцахын тулд "Шууд" дээр дарна уу.
 ◀ Previous: ◀ Өмнөх
+16 colour themes + Light/Dark variants.: 16 өнгөт загвар + Гэрэл/Харанхуй хувилбарууд.
 A new version is available. Do you want to update now?: Шинэ хувилбар гарсан байна. Та одоо шинэчлэхийг хүсч байна уу?
-About: тухай
-About TVGarden+: TVGarden+-ийн тухай
+Access via 'Edit Playlist' button on main toolbar.: Үндсэн хэрэгслийн самбар дээрх 'Тоглуулах жагсаалтыг засах' товчоор хандана уу.
+Actions: Үйлдлүүд
 Add Group: Бүлэг нэмэх
 Add Mapping: Газрын зураг нэмэх
+Adjust buffer size (1-10 seconds): Буферийн хэмжээг тохируулах (1-10 секунд)
 Advanced IDs: Нарийвчилсан ID
+Application status: Өргөдлийн статус
 Apply changes: Өөрчлөлтийг хэрэгжүүлэх
 Apply Filters: Шүүлтүүр хэрэглэх
 Auto-detect: Автоматаар илрүүлэх
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Ачаалах үед автоматаар шалгах - эсвэл Tools цэсний "Шинэчлэлтүүдийг шалгах" дээр дарна уу.
 Buffer (seconds): Буфер (секунд)
+Buffer size – adjust HLS buffer seconds.: Буферийн хэмжээ – HLS буфер секундийг тохируулна уу.
 Cancel: Цуцлах
 CANCEL: Цуцлах
 Category: Ангилал
+Changelog: Өөрчлөлтийн бүртгэл
 Channel Details: Сувгийн дэлгэрэнгүй мэдээлэл
 Channel Info: Сувгийн мэдээлэл
 Channel:: Суваг:
@@ -23,12 +46,22 @@ Check Duplicates: Давхардсан зүйлсийг шалгана уу
 Check for updates: Шинэчлэлт байгаа эсэхийг шалгана уу
 Check URLs: URL хаягуудыг шалгана уу
 Clear Filters: Шүүлтүүрийг арилгах
+Clear search: Хайлтыг арилгах
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Нийгэмлэг ба туршилт: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Улс
+Credits: Зээл
 Delete Group: Бүлгийг устгах
 Description: Тодорхойлолт
 Details: Дэлгэрэнгүй мэдээлэл
-Do you want to load the edited playlist now?: Та засварласан тоглуулах жагсаалтыг одоо ачаалмаар байна уу?
+Developed by Lululla: Лулулла боловсруулсан
+Developer: Lululla: Хөгжүүлэгч: Лулулла
+Do you want to load this edited playlist now?: Та энэ засварласан тоглуулах жагсаалтыг одоо ачаалмаар байна уу?
+Double speed (2x): Давхар хурд (2x)
 Downloading playlist...: Тоглуулах жагсаалтыг татаж байна...
+Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP файлыг татаж, файлыг сольж, програмыг дахин эхлүүлж - тохиргоог хадгалсан.
+Drag & drop – drop M3U or JSON files directly onto main window.: Чирэх, буулгах - M3U эсвэл JSON файлуудыг үндсэн цонх руу шууд буулгана.
+Drag to seek back in buffer: Буфер дотроос буцаж хайхын тулд чирнэ үү
 Duplicate URLs found:\n\n: Давхардсан URL олдсон:\n\n
 Edit Playlist: Тоглуулах жагсаалтыг засах
 Edit URLs: URL-уудыг засах
@@ -37,32 +70,46 @@ Enrich with EPG: EPG-ээр баяжуулна
 Enter JSON URL:: JSON URL-г оруулна уу:
 Enter playlist URL (M3U or JSON):: Тоглуулах жагсаалтын URL (M3U эсвэл JSON) оруулна уу:
 EPG: EPG
-EPG & Favorites: EPG ба дуртай зүйлс
+Epg & Favorites: Epg & Дуртай
+Epg & Logos: Epg ба лого
+EPG & Logos: EPG ба лого
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Guide – үндсэн хэрэгслийн самбар дээрх товчлуур нь програмын дэлгэрэнгүй мэдээлэл бүхий бүтэн сүлжээг харуулдаг (мэдээлэл авахыг хүсвэл давхар товшино уу).
 EPG Matching Threshold: EPG тохирох босго
 EPG Source: EPG эх сурвалж
+EPG source – can be set in Settings (epgshare01 or custom URL).: EPG эх үүсвэрийг Тохиргоо дотроос (epgshare01 эсвэл захиалгат URL) тохируулж болно.
+EPG source – choose XMLTV file or enter custom URL.: EPG эх сурвалж - XMLTV файлыг сонгох эсвэл тусгай URL оруулна уу.
 Error: Алдаа
 Error loading: Ачаалахад алдаа гарлаа
+Error loading file: {0}: Файлыг ачаалахад алдаа гарсан: {0}
 Error loading playlists: {0}: Тоглуулах жагсаалтыг ачаалахад алдаа гарсан: {0}
+Error loading URL: {0}: URL ачаалахад алдаа гарлаа: {0}
 ERROR: player.html not found.: АЛДАА: player.html олдсонгүй.
 Exit: Гарах
 Export Favorites: Дуртай зүйлсийг экспортлох
 Export Filtered JSON: Шүүгдсэн JSON-г экспортлох
-Export Filtered M3U: Экспортын шүүсэн M3U
+Export Filtered M3U: Экспорт шүүсэн M3U
 Export JSON: JSON экспортлох
 Export KO: КО экспортлох
 Export OK: Экспорт OK
+Export only favorite channels to a new M3U file: Зөвхөн дуртай сувгуудыг шинэ M3U файл руу экспортлох
 Extracting update...: Шинэчлэлтийг задалж байна...
 Failed to download playlist: Тоглуулах жагсаалтыг татаж авч чадсангүй
 Failed to load playlist: Тоглуулах жагсаалтыг ачаалж чадсангүй
 Favorite: Дуртай
+Favorites only: Зөвхөн дуртай
 Fetch Logos: Лого татах
-FILTERS: ШҮҮГҮҮР
+Filters: Шүүлтүүр
+Fullscreen (hide UI) - press ESC to exit: Бүтэн дэлгэц (UI нуух) - гарахын тулд ESC товчийг дарна уу
 Geo & Country: Гео ба улс
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub алдаа
+Go back to live: Буцаад амьдар
 Group: Бүлэг
+Half speed (0.5x): Хагас хурд (0.5x)
 Help: Туслаач
 Hide List: Жагсаалтыг нуух
+HLS playback: hls.js (MIT license): HLS тоглуулах: hls.js (MIT лиценз)
+Image: Зураг
 Import: Импорт
 Import error: {0}: Импортын алдаа: {0}
 Import from URL: URL-аас импортлох
@@ -72,27 +119,43 @@ Import Local: Орон нутгийн импорт
 Imported {0} channels from JSON.: JSON-с {0} суваг импортолсон.
 Imported {0} channels from URL.: URL-аас {0} суваг импортолсон.
 Info: Мэдээлэл
+Info on: Мэдээлэл
 Invalid JSON: {0}: Буруу JSON: {0}
 Invalid playlist URL.: Тоглуулах жагсаалтын URL буруу байна.
 Invalid URL.: Хүчингүй URL.
+Json: Жсон
 JSON Property: JSON өмч
+Ko-fi: Кофе
 Language: Хэл
+Language – change UI language dynamically (translations in Languages folder).: Хэл – UI хэлийг динамикаар өөрчлөх (хэлний хавтсанд байгаа орчуулгууд).
+Languages: Хэлнүүд
 Languages (comma): Хэл (таслал)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: Лулуллагийн LiveGardenTVPlus тусламж
 LOAD: Ачаалах
 Load a playlist first.: Эхлээд тоглуулах жагсаалтыг ачаална уу.
 Load File: Файл ачаалах
-Load Online: Онлайнаар ачаалах
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Орон нутгийн M3U/JSON файлыг 'Файл ачаалах' товчлуур (хэрэгслийн самбар) эсвэл засварлагчийн 'Файлыг нээх'-ээр ачаална уу.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: M3U/JSON URL-г онлайнаар ачаалах – "Онлайнаар ачаалах" товч (хэрэгслийн самбар) эсвэл "URL-аас нээх".
 Load playlist file (M3U/JSON) from your computer: Тоглуулах жагсаалтын файлыг (M3U/JSON) компьютерээсээ ачаална уу
-Load playlist from web URL (M3U or JSON): Вэб URL-аас тоглуулах жагсаалтыг ачаалах (M3U эсвэл JSON)
 Loaded: Ачаалагдсан
+Loaded {0} channels from JSON file.: JSON файлаас {0} сувгийг ачаалсан.
+Loaded {0} channels from JSON URL.: JSON URL-с {0} сувгийг ачаалсан.
+Loaded {0} channels from M3U file.: M3U файлаас {0} сувгийг ачаалсан.
+Loaded {0} channels from M3U URL.: M3U URL-аас {0} сувгийг ачаалсан.
 Loading...: Ачааж байна...
+Logo: Лого
+Logo Picker – in editor, click '...' to choose logo from gallery.: Лого сонгогч – засварлагчийн '...' дээр дарж галерейгаас логог сонгоно уу.
 Logo Preview: Логог урьдчилан харах
 Logo URL: Лого URL
-Logos Matching Threshold: Лого тохирох босго
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Лого – GitHub репозитороос автоматаар татаж авах (Тохиргоо → Логоны эх сурвалж).
+Logos Matching Threshold: Лого таарах босго
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Логоны агуулах – эзэмшигч/репо/замыг сонгоно уу (өгөгдмөл OwnerPlugins/logos).
 Logos Source: Логоны эх сурвалж
 Logos Subfolder: Логоны дэд хавтас
 Map JSON properties to channel fields:: JSON шинж чанарыг сувгийн талбарт буулгах:
 Mapping saved for future imports of this file.: Энэ файлын цаашдын импортын зураглалыг хадгалсан.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Тохирох босго – EPG болон логоны бүдэг бадаг тааруулах мэдрэмжийг тохируулна.
 Name: Нэр
 Nanoid: Наноид
 Network error: Сүлжээний алдаа
@@ -106,57 +169,90 @@ No favorite channels to export.: Экспортлох дуртай суваг а
 No playlist found: Тоглуулах жагсаалт олдсонгүй
 No stream: Дамжуулалт байхгүй
 No updates available.: Шинэчлэлт байхгүй.
-Now playing: Одоо тоглож байна
+Normal speed (1x): Ердийн хурд (1x)
+Now: Одоо
 OK: OK
 Online Playlist: Онлайн тоглуулах жагсаалт
+Online playlist – select from GitHub repository (auto‑refresh).: Онлайн тоглуулах жагсаалт – GitHub репозитороос сонгоно уу (автоматаар шинэчлэх).
+Open File...: Файл нээх...
+Open from URL: URL-аас нээх
+Open Playlist: Тоглуулах жагсаалтыг нээх
 Pause/Resume live stream: Шууд дамжуулалтыг түр зогсоох/үргэлжлүүлэх
-Player ready.: Тоглогч бэлэн байна.
+Paused: Түр зогсоосон
+PayPal: PayPal
+Picture-in-Picture mode: Зураг доторх горим
+Player Control: Тоглогчийн хяналт
+Playlist & Groups: Тоглуулах жагсаалт ба бүлгүүд
 Playlist Editor: Тоглуулах жагсаалт засварлагч
+Playlist Loading: Тоглуулах жагсаалтыг ачаалж байна
+Playlist Management: Тоглуулах жагсаалтын менежмент
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Тоглуулах жагсаалтын хадгалах газар: OwnerPlugins/TivuStreamList (Итали ба олон улсын дамжуулалт)
 Please select a program first.: Эхлээд програмаа сонгоно уу.
 Preview (first 5 channels): Урьдчилан үзэх (эхний 5 суваг)
 Preview error: {0}: Урьдчилан үзэх алдаа: {0}
 Program Details: Хөтөлбөрийн дэлгэрэнгүй мэдээлэл
+Ready.: Бэлэн.
 Recent: Саяхан
+Recent files – quick access to last 5 opened playlists.: Сүүлийн үеийн файлууд - сүүлийн 5 нээсэн тоглуулах жагсаалт руу хурдан нэвтрэх.
 Recent playlists: Сүүлийн үеийн тоглуулах жагсаалтууд
 Refresh: Сэргээх
 Refresh EPG List: EPG жагсаалтыг шинэчлэх
 Refresh from GitHub: GitHub-с сэргээнэ үү
 Rename Group: Бүлгийн нэрийг өөрчлөх
+Repository: Хадгалах газар
 Reset Order: Захиалгыг дахин тохируулах
 Save: Хадгалах
 SAVE: ХАДГАЛАХ
+Save – persists all settings without reloading current playlist.: Хадгалах - одоогийн тоглуулах жагсаалтыг дахин ачаалахгүйгээр бүх тохиргоог хадгалах.
 Save as...: Хадгалах...
+Save current playlist to a new M3U file: Одоогийн тоглуулах жагсаалтыг шинэ M3U файлд хадгална уу
 Save Mapping: Газрын зураг хадгалах
 Save Playlist: Тоглуулах жагсаалтыг хадгалах
 Save Status: Статусыг хадгалах
 Saved: Хадгалсан
+Search channels by name: Сувгуудыг нэрээр нь хайх
 Search channels...: Сувгууд хайх...
 Select a playlist first.: Эхлээд тоглуулах жагсаалтыг сонгоно уу.
 Select Theme: Сэдвийг сонгоно уу
+Selected theme is saved and applied on restart.: Сонгосон загвар хадгалагдаж, дахин эхлүүлэх үед хэрэгжинэ.
 Settings: Тохиргоо
 Show List: Жагсаалтыг харуулах
+Show only channels marked as favorites: Зөвхөн дуртай гэж тэмдэглэсэн сувгуудыг харуулах
 Show or hide the channel list: Сувгийн жагсаалтыг харуулах эсвэл нуух
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Туршилт, дэмжлэг үзүүлсэн CORVOBOYS & LinuxSat-Дэмжлэгийн нийгэмлэгүүдэд онцгой талархал илэрхийлье.
 Start (local): Эхлэх (орон нутгийн)
 Status: Статус
 Stream URL: Урсгал URL
+Stream URLs: Урсгал URL-ууд
 Success: Амжилт
 Support: Дэмжлэг
+Support the developer: Хөгжүүлэгчийг дэмжинэ үү
 Target Field: Зорилтот талбар
+Thanks to: -д баярлалаа
 Theme picker: Сэдэв сонгогч
+Theme picker – accessible via Tools menu on main toolbar.: Загвар сонгогч – үндсэн хэрэгслийн самбар дээрх Tools цэсээр дамжуулан хандах боломжтой.
+Themes: Сэдвүүд
 Time: Цаг хугацаа
 Title: Гарчиг
 Tools: Багаж хэрэгсэл
+Total: Нийт
+Total channels in loaded playlist: Ачаалагдсан тоглуулах жагсаалт дахь нийт сувгууд
 TV Guide (EPG): ТВ хөтөч (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Алсын төслийн файлаас хувилбарыг олох боломжгүй байна.
 Update: Шинэчлэх
 Update complete. Restarting...: Шинэчлэлт дууссан. Дахин эхлүүлж байна...
 Update failed: : Шинэчлэлт амжилтгүй болсон:
+Updates: Шинэчлэлтүүд
 URL: URL
 URL (primary): URL (үндсэн)
+URL Check: URL шалгах
 URL list (one per line): URL жагсаалт (мөр тутамд нэг)
 URLs & Status: URL болон статус
 Version: Хувилбар
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus хаагдахыг хүлээж байна...
 Warning: Анхааруулга
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: Youtube URL
+Youtube URLs: Youtube URL-ууд

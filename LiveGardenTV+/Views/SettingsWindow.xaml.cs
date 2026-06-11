@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using LiveGardenTVPlus.Services;
 using System.Net.Http;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using LiveGardenTVPlus.Services;
-using LiveGardenTVPlus.Models;
 
 namespace LiveGardenTVPlus.Views
 {

@@ -1,18 +1,41 @@
-﻿(No description): (Không có mô tả)
+﻿(Completely voluntary – no features are blocked): (Hoàn toàn tự nguyện – không có tính năng nào bị chặn)
+(No description): (Không có mô tả)
+• Add / rename / delete groups.: • Thêm/đổi tên/xóa nhóm.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Thanh trượt bộ đệm: điều chỉnh bộ đệm HLS (1‑10 giây).
+• Check URL availability (only visible channels).: • Kiểm tra tính khả dụng của URL (chỉ các kênh hiển thị).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Chỉnh sửa tên kênh, nhóm, URL, logo, tvg-id, quốc gia, ngôn ngữ, mục yêu thích.
+• Edit multiple URLs per channel (popup window).: • Chỉnh sửa nhiều URL cho mỗi kênh (cửa sổ bật lên).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Làm giàu bằng EPG: thêm tvg-id bị thiếu bằng cách sử dụng kết hợp mờ.
+• EPG info displayed in status bar for current channel.: • Thông tin EPG hiển thị trên thanh trạng thái của kênh hiện tại.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • Xuất danh sách OK/FAIL/đã lọc dưới dạng M3U hoặc JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Tìm nạp logo từ kho lưu trữ từ xa (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Giao diện người dùng toàn màn hình: ẩn thanh bên và thanh trạng thái (ESC để thoát).
+• Hide/Show channel list button.: • Nút Ẩn/Hiển thị danh sách kênh.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Nhập JSON (cục bộ hoặc URL) với ánh xạ trường linh hoạt (tự động phát hiện, lưu ánh xạ).
+• Picture‑in‑Picture (PIP) button.: • Nút Ảnh trong ảnh (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.: • Tốc độ phát lại: các nút 0,5x, 1x, 2x.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sắp xếp bất kỳ cột nào bằng cách nhấp vào tiêu đề; sử dụng 'Đặt lại thứ tự' để trở lại thứ tự ban đầu.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: tạm dừng phát trực tiếp; kéo thanh trượt để tìm lại; nhấn 'Trực tiếp' để quay lại.
 ◀ Previous: ◀ Trước đó
+16 colour themes + Light/Dark variants.: 16 chủ đề màu sắc + các biến thể Sáng/Tối.
 A new version is available. Do you want to update now?: Một phiên bản mới có sẵn. Bạn có muốn cập nhật ngay bây giờ không?
-About: Về
-About TVGarden+: Giới thiệu về TVGarden+
+Access via 'Edit Playlist' button on main toolbar.: Truy cập thông qua nút 'Chỉnh sửa danh sách phát' trên thanh công cụ chính.
+Actions: hành động
 Add Group: Thêm nhóm
 Add Mapping: Thêm bản đồ
+Adjust buffer size (1-10 seconds): Điều chỉnh kích thước bộ đệm (1-10 giây)
 Advanced IDs: ID nâng cao
+Application status: Trạng thái đơn đăng ký
 Apply changes: Áp dụng thay đổi
 Apply Filters: Áp dụng bộ lọc
 Auto-detect: Tự động phát hiện
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Tự động kiểm tra khi khởi động – hoặc nhấp vào 'Kiểm tra bản cập nhật' trong menu Công cụ.
 Buffer (seconds): Bộ đệm (giây)
+Buffer size – adjust HLS buffer seconds.: Kích thước bộ đệm – điều chỉnh số giây bộ đệm HLS.
 Cancel: Hủy bỏ
 CANCEL: HỦY BỎ
 Category: Loại
+Changelog: Nhật ký thay đổi
 Channel Details: Chi tiết kênh
 Channel Info: Thông tin kênh
 Channel:: Kênh:
@@ -23,12 +46,22 @@ Check Duplicates: Kiểm tra trùng lặp
 Check for updates: Kiểm tra các bản cập nhật
 Check URLs: Kiểm tra URL
 Clear Filters: Xóa bộ lọc
+Clear search: Xóa tìm kiếm
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Cộng đồng và thử nghiệm: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Quốc gia
+Credits: Tín dụng
 Delete Group: Xóa nhóm
 Description: Sự miêu tả
 Details: Chi tiết
-Do you want to load the edited playlist now?: Bạn có muốn tải danh sách phát đã chỉnh sửa ngay bây giờ không?
+Developed by Lululla: Được phát triển bởi Lululla
+Developer: Lululla: Nhà phát triển: Lululla
+Do you want to load this edited playlist now?: Bạn có muốn tải danh sách phát đã chỉnh sửa này ngay bây giờ không?
+Double speed (2x): Tốc độ gấp đôi (2x)
 Downloading playlist...: Đang tải xuống danh sách phát...
+Downloads ZIP, replaces files, restarts app – settings preserved.: Tải xuống ZIP, thay thế tệp, khởi động lại ứng dụng – cài đặt được giữ nguyên.
+Drag & drop – drop M3U or JSON files directly onto main window.: Kéo và thả – thả tệp M3U hoặc JSON trực tiếp vào cửa sổ chính.
+Drag to seek back in buffer: Kéo để tìm lại trong bộ đệm
 Duplicate URLs found:\n\n: Đã tìm thấy các URL trùng lặp:\n\n
 Edit Playlist: Chỉnh sửa danh sách phát
 Edit URLs: Chỉnh sửa URL
@@ -37,12 +70,19 @@ Enrich with EPG: Làm giàu với EPG
 Enter JSON URL:: Nhập URL JSON:
 Enter playlist URL (M3U or JSON):: Nhập URL danh sách phát (M3U hoặc JSON):
 EPG: EPG
-EPG & Favorites: EPG & Mục yêu thích
+Epg & Favorites: Epg & Yêu thích
+Epg & Logos: Epg & Logo
+EPG & Logos: EPG & Logo
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Hướng dẫn EPG – nút trên thanh công cụ chính hiển thị lưới đầy đủ với chi tiết chương trình (nhấp đúp để biết thông tin).
 EPG Matching Threshold: Ngưỡng phù hợp EPG
 EPG Source: Nguồn EPG
+EPG source – can be set in Settings (epgshare01 or custom URL).: Nguồn EPG - có thể được đặt trong Cài đặt (epgshare01 hoặc URL tùy chỉnh).
+EPG source – choose XMLTV file or enter custom URL.: Nguồn EPG – chọn tệp XMLTV hoặc nhập URL tùy chỉnh.
 Error: Lỗi
 Error loading: Lỗi tải
+Error loading file: {0}: Lỗi tải tệp: {0}
 Error loading playlists: {0}: Lỗi tải danh sách phát: {0}
+Error loading URL: {0}: Lỗi tải URL: {0}
 ERROR: player.html not found.: LỖI: không tìm thấy player.html.
 Exit: Ra
 Export Favorites: Xuất mục yêu thích
@@ -51,18 +91,25 @@ Export Filtered M3U: Xuất M3U đã lọc
 Export JSON: Xuất JSON
 Export KO: Xuất khẩu KO
 Export OK: Xuất được rồi
+Export only favorite channels to a new M3U file: Chỉ xuất các kênh yêu thích sang tệp M3U mới
 Extracting update...: Đang trích xuất bản cập nhật...
 Failed to download playlist: Không tải được danh sách phát xuống
 Failed to load playlist: Không tải được danh sách phát
 Favorite: Yêu thích
+Favorites only: Chỉ mục yêu thích
 Fetch Logos: Tìm nạp Logo
-FILTERS: LỌC
+Filters: Bộ lọc
+Fullscreen (hide UI) - press ESC to exit: Toàn màn hình (ẩn UI) - nhấn ESC để thoát
 Geo & Country: Địa lý & Quốc gia
 GeoBlocked: Bị chặn địa lý
 GitHub Error: Lỗi GitHub
+Go back to live: Quay trở lại để sống
 Group: Nhóm
+Half speed (0.5x): Một nửa tốc độ (0,5x)
 Help: Giúp đỡ
 Hide List: Ẩn danh sách
+HLS playback: hls.js (MIT license): Phát lại HLS: hls.js (giấy phép MIT)
+Image: Hình ảnh
 Import: Nhập khẩu
 Import error: {0}: Lỗi nhập: {0}
 Import from URL: Nhập từ URL
@@ -72,27 +119,43 @@ Import Local: Nhập địa phương
 Imported {0} channels from JSON.: Đã nhập {0} kênh từ JSON.
 Imported {0} channels from URL.: Đã nhập {0} kênh từ URL.
 Info: Thông tin
+Info on: Thông tin trên
 Invalid JSON: {0}: JSON không hợp lệ: {0}
 Invalid playlist URL.: URL danh sách phát không hợp lệ.
 Invalid URL.: URL không hợp lệ.
+Json: JSON
 JSON Property: Thuộc tính JSON
+Ko-fi: Cà phê
 Language: Ngôn ngữ
+Language – change UI language dynamically (translations in Languages folder).: Ngôn ngữ – thay đổi ngôn ngữ giao diện người dùng một cách linh hoạt (bản dịch trong thư mục Ngôn ngữ).
+Languages: Ngôn ngữ
 Languages (comma): Ngôn ngữ (dấu phẩy)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Trợ giúp bởi Lululla
 LOAD: TRỌNG TẢI
 Load a playlist first.: Tải danh sách phát trước.
 Load File: Tải tập tin
-Load Online: Tải trực tuyến
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Tải tệp M3U/JSON cục bộ – thông qua nút 'Tải tệp' (thanh công cụ) hoặc 'Mở tệp' trong trình chỉnh sửa.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Tải URL M3U/JSON trực tuyến – nút 'Tải trực tuyến' (thanh công cụ) hoặc 'Mở từ URL' trong trình chỉnh sửa.
 Load playlist file (M3U/JSON) from your computer: Tải tệp danh sách phát (M3U/JSON) từ máy tính của bạn
-Load playlist from web URL (M3U or JSON): Tải danh sách phát từ URL web (M3U hoặc JSON)
 Loaded: Đã tải
+Loaded {0} channels from JSON file.: Đã tải {0} kênh từ tệp JSON.
+Loaded {0} channels from JSON URL.: Đã tải {0} kênh từ URL JSON.
+Loaded {0} channels from M3U file.: Đã tải {0} kênh từ tệp M3U.
+Loaded {0} channels from M3U URL.: Đã tải {0} kênh từ URL M3U.
 Loading...: Đang tải...
+Logo: biểu tượng
+Logo Picker – in editor, click '...' to choose logo from gallery.: Bộ chọn Logo – trong trình chỉnh sửa, nhấp vào '...' để chọn logo từ thư viện.
 Logo Preview: Xem trước biểu trưng
 Logo URL: URL biểu tượng
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Logo – tự động tải xuống từ kho lưu trữ GitHub (Cài đặt → Nguồn Logo).
 Logos Matching Threshold: Ngưỡng phù hợp với biểu tượng
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Kho lưu trữ logo – chọn chủ sở hữu/repo/đường dẫn (mặc định OwnerPlugins/logo).
 Logos Source: Nguồn logo
 Logos Subfolder: Thư mục con Logos
 Map JSON properties to channel fields:: Ánh xạ các thuộc tính JSON vào các trường kênh:
 Mapping saved for future imports of this file.: Bản đồ được lưu để nhập tệp này trong tương lai.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Ngưỡng phù hợp – đặt độ nhạy khớp mờ cho EPG và logo.
 Name: Tên
 Nanoid: Nanoid
 Network error: Lỗi mạng
@@ -106,57 +169,90 @@ No favorite channels to export.: Không có kênh yêu thích nào để xuất.
 No playlist found: Không tìm thấy danh sách phát nào
 No stream: Không có luồng
 No updates available.: Không có bản cập nhật có sẵn.
-Now playing: Đang chơi
+Normal speed (1x): Tốc độ bình thường (1x)
+Now: Hiện nay
 OK: ĐƯỢC RỒI
 Online Playlist: Danh sách phát trực tuyến
+Online playlist – select from GitHub repository (auto‑refresh).: Danh sách phát trực tuyến – chọn từ kho lưu trữ GitHub (tự động làm mới).
+Open File...: Mở tệp...
+Open from URL: Mở từ URL
+Open Playlist: Mở danh sách phát
 Pause/Resume live stream: Tạm dừng/Tiếp tục phát trực tiếp
-Player ready.: Người chơi đã sẵn sàng.
+Paused: Đã tạm dừng
+PayPal: PayPal
+Picture-in-Picture mode: Chế độ ảnh trong ảnh
+Player Control: Kiểm soát người chơi
+Playlist & Groups: Danh sách phát & Nhóm
 Playlist Editor: Trình chỉnh sửa danh sách phát
+Playlist Loading: Đang tải danh sách phát
+Playlist Management: Quản lý danh sách phát
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Kho danh sách phát: OwnerPlugins/TivuStreamList (luồng Ý và quốc tế)
 Please select a program first.: Vui lòng chọn một chương trình đầu tiên.
 Preview (first 5 channels): Xem trước (5 kênh đầu tiên)
 Preview error: {0}: Lỗi xem trước: {0}
 Program Details: Chi tiết chương trình
+Ready.: Sẵn sàng.
 Recent: Gần đây
+Recent files – quick access to last 5 opened playlists.: Các tập tin gần đây - truy cập nhanh vào 5 danh sách phát đã mở gần đây nhất.
 Recent playlists: Danh sách phát gần đây
 Refresh: Làm cho khỏe lại
 Refresh EPG List: Làm mới danh sách EPG
 Refresh from GitHub: Làm mới từ GitHub
 Rename Group: Đổi tên nhóm
+Repository: Kho lưu trữ
 Reset Order: Đặt lại thứ tự
 Save: Cứu
 SAVE: CỨU
+Save – persists all settings without reloading current playlist.: Lưu - duy trì tất cả cài đặt mà không cần tải lại danh sách phát hiện tại.
 Save as...: Lưu dưới dạng...
+Save current playlist to a new M3U file: Lưu danh sách phát hiện tại vào tệp M3U mới
 Save Mapping: Lưu bản đồ
 Save Playlist: Lưu danh sách phát
 Save Status: Lưu trạng thái
 Saved: Đã lưu
+Search channels by name: Tìm kiếm kênh theo tên
 Search channels...: Tìm kiếm kênh...
 Select a playlist first.: Chọn danh sách phát trước.
 Select Theme: Chọn chủ đề
+Selected theme is saved and applied on restart.: Chủ đề đã chọn sẽ được lưu và áp dụng khi khởi động lại.
 Settings: Cài đặt
 Show List: Hiển thị danh sách
+Show only channels marked as favorites: Chỉ hiển thị các kênh được đánh dấu là yêu thích
 Show or hide the channel list: Hiển thị hoặc ẩn danh sách kênh
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Đặc biệt cảm ơn cộng đồng CORVOBOYS & LinuxSat-Support đã thử nghiệm và hỗ trợ.
 Start (local): Bắt đầu (địa phương)
 Status: Trạng thái
 Stream URL: URL luồng
+Stream URLs: Truyền phát URL
 Success: Thành công
 Support: Ủng hộ
+Support the developer: Hỗ trợ nhà phát triển
 Target Field: Trường mục tiêu
+Thanks to: Nhờ có
 Theme picker: Bộ chọn chủ đề
+Theme picker – accessible via Tools menu on main toolbar.: Bộ chọn chủ đề – có thể truy cập qua menu Công cụ trên thanh công cụ chính.
+Themes: Chủ đề
 Time: Thời gian
 Title: Tiêu đề
 Tools: Công cụ
+Total: Tổng cộng
+Total channels in loaded playlist: Tổng số kênh trong danh sách phát đã tải
 TV Guide (EPG): Hướng dẫn truyền hình (EPG)
 TvgId: Id Tvg
+UI: MaterialDesignThemes.Wpf: Giao diện người dùng: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Không thể tìm thấy phiên bản trong tệp dự án từ xa.
 Update: Cập nhật
 Update complete. Restarting...: Cập nhật hoàn tất. Đang khởi động lại...
 Update failed: : Cập nhật không thành công:
+Updates: Cập nhật
 URL: URL
 URL (primary): URL (chính)
+URL Check: Kiểm tra URL
 URL list (one per line): Danh sách URL (một trên mỗi dòng)
 URLs & Status: URL & Trạng thái
 Version: Phiên bản
 Waiting for LiveGardenTVPlus to close...: Đang chờ LiveGardenTVPlus đóng...
 Warning: Cảnh báo
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: URL Youtube
+Youtube URLs: URL Youtube

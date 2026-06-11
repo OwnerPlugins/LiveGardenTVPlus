@@ -1,18 +1,41 @@
-﻿(No description): (Dim disgrifiad)
+﻿(Completely voluntary – no features are blocked): (Yn gwbl wirfoddol - nid oes unrhyw nodweddion wedi'u rhwystro)
+(No description): (Dim disgrifiad)
+• Add / rename / delete groups.: • Ychwanegu / ailenwi / dileu grwpiau.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Llithrydd clustogi: addasu byffer HLS (1-10 eiliad).
+• Check URL availability (only visible channels).: • Gwiriwch argaeledd URL (sianeli gweladwy yn unig).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Golygu enwau sianeli, grwpiau, URLs, logos, tvg-id, gwlad, ieithoedd, ffefrynnau.
+• Edit multiple URLs per channel (popup window).: • Golygu URLs lluosog fesul sianel (ffenestr naid).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Cyfoethogi gydag EPG: yn ychwanegu tvg-id coll gan ddefnyddio paru niwlog.
+• EPG info displayed in status bar for current channel.: • Gwybodaeth EPG wedi'i harddangos yn y bar statws ar gyfer y sianel gyfredol.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • Allforio OK / METHU / rhestrau hidlo fel M3U neu JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Nôl logos o gadwrfa bell (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • UI sgrin lawn: yn cuddio bar ochr a bar statws (ESC i ymadael).
+• Hide/Show channel list button.: • Cuddio/Dangos botwm rhestr sianeli.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Mewnforio JSON (lleol neu URL) gyda mapio maes hyblyg (awto-ganfod, arbed mapiau).
+• Picture‑in‑Picture (PIP) button.: • Botwm Llun-mewn-Llun (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.: • Cyflymder chwarae: botymau 0.5x, 1x, 2x.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Trefnwch unrhyw golofn trwy glicio ar y pennawd; defnyddiwch 'Archeb Ailosod' i ddychwelyd i'r archeb wreiddiol.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Newid amser: saib y llif byw; llusgo llithrydd i chwilio yn ôl; pwyswch 'Live' i ddychwelyd.
 ◀ Previous: ◀ Blaenorol
+16 colour themes + Light/Dark variants.: 16 thema lliw + amrywiadau Golau / Tywyll.
 A new version is available. Do you want to update now?: Mae fersiwn newydd ar gael. Ydych chi eisiau diweddaru nawr?
-About: Ynghylch
-About TVGarden+: Ynglŷn â TVGarden+
+Access via 'Edit Playlist' button on main toolbar.: Mynediad trwy'r botwm 'Golygu Rhestr Chwarae' ar y prif far offer.
+Actions: Gweithredoedd
 Add Group: Ychwanegu Grŵp
 Add Mapping: Ychwanegu Mapio
+Adjust buffer size (1-10 seconds): Addasu maint byffer (1-10 eiliad)
 Advanced IDs: IDau uwch
+Application status: Statws cais
 Apply changes: Cymhwyso newidiadau
 Apply Filters: Cymhwyso Hidlau
 Auto-detect: Auto-canfod
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Gwiriad awtomatig wrth gychwyn - neu cliciwch ar 'Gwirio am ddiweddariadau' yn newislen Tools.
 Buffer (seconds): byffer (eiliadau)
+Buffer size – adjust HLS buffer seconds.: Maint byffer - addasu eiliadau byffer HLS.
 Cancel: Canslo
 CANCEL: CANSLO
 Category: Categori
+Changelog: Newidlog
 Channel Details: Manylion Sianel
 Channel Info: Gwybodaeth Sianel
 Channel:: Sianel:
@@ -23,12 +46,22 @@ Check Duplicates: Gwiriwch Dyblygiadau
 Check for updates: Gwiriwch am ddiweddariadau
 Check URLs: Gwiriwch URLs
 Clear Filters: Hidlau clir
+Clear search: Chwiliad clir
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Cymuned a phrofi: CorvoBoys (corvoboys.org) a LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Gwlad
+Credits: Credydau
 Delete Group: Dileu Grŵp
 Description: Disgrifiad
 Details: Manylion
-Do you want to load the edited playlist now?: Ydych chi am lwytho'r rhestr chwarae olygedig nawr?
+Developed by Lululla: Datblygwyd gan Lululla
+Developer: Lululla: Datblygwr: Lululla
+Do you want to load this edited playlist now?: Ydych chi am lwytho'r rhestr chwarae hon sydd wedi'i golygu nawr?
+Double speed (2x): Cyflymder dwbl (2x)
 Downloading playlist...: Wrthi'n lawrlwytho rhestr chwarae...
+Downloads ZIP, replaces files, restarts app – settings preserved.: Yn lawrlwytho ZIP, yn disodli ffeiliau, yn ailgychwyn ap - gosodiadau wedi'u cadw.
+Drag & drop – drop M3U or JSON files directly onto main window.: Llusgo a gollwng - gollwng ffeiliau M3U neu JSON yn uniongyrchol i'r brif ffenestr.
+Drag to seek back in buffer: Llusgwch i chwilio yn ôl yn y byffer
 Duplicate URLs found:\n\n: Wedi canfod URLau dyblyg:\n\n
 Edit Playlist: Golygu Rhestr Chwarae
 Edit URLs: Golygu URLs
@@ -37,32 +70,46 @@ Enrich with EPG: Cyfoethogi gyda EPG
 Enter JSON URL:: Rhowch URL JSON:
 Enter playlist URL (M3U or JSON):: Rhowch URL rhestr chwarae (M3U neu JSON):
 EPG: EPG
-EPG & Favorites: EPG a Ffefrynnau
+Epg & Favorites: Epg & Ffefrynnau
+Epg & Logos: Epg & Logos
+EPG & Logos: EPG a Logos
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Canllaw EPG – mae botwm ar y prif far offer yn dangos y grid llawn gyda manylion y rhaglen (cliciwch ddwywaith am wybodaeth).
 EPG Matching Threshold: Trothwy Cyfatebol EPG
 EPG Source: Ffynhonnell EPG
+EPG source – can be set in Settings (epgshare01 or custom URL).: Ffynhonnell EPG - gellir ei gosod yn y Gosodiadau (epgshare01 neu URL arferol).
+EPG source – choose XMLTV file or enter custom URL.: Ffynhonnell EPG - dewiswch ffeil XMLTV neu rhowch URL wedi'i deilwra.
 Error: Gwall
 Error loading: Gwall wrth lwytho
+Error loading file: {0}: Gwall wrth lwytho ffeil: {0}
 Error loading playlists: {0}: Gwall wrth lwytho rhestri chwarae: {0}
+Error loading URL: {0}: Gwall wrth lwytho URL: {0}
 ERROR: player.html not found.: GWALL: ni chanfuwyd player.html.
 Exit: Ymadael
 Export Favorites: Ffefrynnau Allforio
 Export Filtered JSON: Allforio JSON Hidlo
 Export Filtered M3U: Allforio Hidlo M3U
-Export JSON: Allforio JSON
+Export JSON: Export JSON
 Export KO: Allforio KO
 Export OK: Allforio Iawn
+Export only favorite channels to a new M3U file: Allforio hoff sianeli yn unig i ffeil M3U newydd
 Extracting update...: Wrthi'n echdynnu diweddariad...
 Failed to download playlist: Wedi methu lawrlwytho rhestr chwarae
 Failed to load playlist: Wedi methu llwytho rhestr chwarae
 Favorite: Hoff
+Favorites only: Ffefrynnau yn unig
 Fetch Logos: Nôl Logos
-FILTERS: FFILWYR
+Filters: Hidlau
+Fullscreen (hide UI) - press ESC to exit: Sgrin lawn (cuddio UI) - pwyswch ESC i adael
 Geo & Country: Geo & Gwlad
 GeoBlocked: GeoBlocked
 GitHub Error: Gwall GitHub
+Go back to live: Ewch yn ôl i fyw
 Group: Grwp
+Half speed (0.5x): Hanner cyflymder (0.5x)
 Help: Help
 Hide List: Cuddio Rhestr
+HLS playback: hls.js (MIT license): Chwarae HLS: hls.js (trwydded MIT)
+Image: Delwedd
 Import: Mewnforio
 Import error: {0}: Gwall mewnforio: {0}
 Import from URL: Mewnforio o URL
@@ -72,27 +119,43 @@ Import Local: Mewnforio Lleol
 Imported {0} channels from JSON.: Wedi mewnforio {0} sianel o JSON.
 Imported {0} channels from URL.: Wedi mewnforio {0} sianel o URL.
 Info: Gwybodaeth
+Info on: Gwybodaeth ar
 Invalid JSON: {0}: JSON annilys: {0}
 Invalid playlist URL.: URL rhestr chwarae annilys.
 Invalid URL.: URL annilys.
+Json: Json
 JSON Property: JSON Eiddo
+Ko-fi: Coffi
 Language: Iaith
+Language – change UI language dynamically (translations in Languages folder).: Iaith - newid iaith UI yn ddeinamig (cyfieithiadau yn y ffolder Ieithoedd).
+Languages: Ieithoedd
 Languages (comma): Ieithoedd (comma)
+LINUXSAT-SUPPORT.COM: LINUXSAT-CEFNOGAETH.COM
+LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Help gan Lululla
 LOAD: LLWYTH
 Load a playlist first.: Llwythwch restr chwarae yn gyntaf.
 Load File: Llwytho Ffeil
-Load Online: Llwytho Ar-lein
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Llwythwch ffeil M3U/JSON leol – trwy fotwm 'Llwytho Ffeil' (bar offer) neu 'Open File' yn y golygydd.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Llwythwch URL M3U/JSON ar-lein - botwm 'Llwytho Ar-lein' (bar offer) neu 'Open from URL' yn y golygydd.
 Load playlist file (M3U/JSON) from your computer: Llwythwch ffeil rhestr chwarae (M3U/JSON) o'ch cyfrifiadur
-Load playlist from web URL (M3U or JSON): Llwytho rhestr chwarae o URL gwe (M3U neu JSON)
 Loaded: Wedi'i lwytho
+Loaded {0} channels from JSON file.: Llwythwyd {0} sianel o ffeil JSON.
+Loaded {0} channels from JSON URL.: Wedi llwytho {0} sianel o URL JSON.
+Loaded {0} channels from M3U file.: Wedi llwytho {0} sianel o ffeil M3U.
+Loaded {0} channels from M3U URL.: Wedi llwytho {0} sianel o URL M3U.
 Loading...: Wrthi'n llwytho...
+Logo: Logo
+Logo Picker – in editor, click '...' to choose logo from gallery.: Dewiswr Logo – yn y golygydd, cliciwch ar '...' i ddewis logo o'r oriel.
 Logo Preview: Rhagolwg Logo
 Logo URL: URL logo
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Logos - lawrlwythwch yn awtomatig o ystorfa GitHub (Gosodiadau → Ffynhonnell Logos).
 Logos Matching Threshold: Trothwy Cyfatebol Logos
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Ystorfa logos – dewiswch perchennog/repo/llwybr (PerchennogPlugins/logos diofyn).
 Logos Source: Ffynhonnell Logos
 Logos Subfolder: Is-ffolder Logos
 Map JSON properties to channel fields:: Mapio priodweddau JSON i feysydd sianel:
 Mapping saved for future imports of this file.: Mae mapiau wedi'u cadw ar gyfer mewnforio'r ffeil hon yn y dyfodol.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Trothwyon cyfatebol – gosodwch sensitifrwydd paru niwlog ar gyfer EPG a logos.
 Name: Enw
 Nanoid: Nanoid
 Network error: Gwall rhwydwaith
@@ -106,57 +169,90 @@ No favorite channels to export.: Dim hoff sianeli i'w hallforio.
 No playlist found: Heb ganfod rhestr chwarae
 No stream: Dim ffrwd
 No updates available.: Dim diweddariadau ar gael.
-Now playing: Nawr yn chwarae
+Normal speed (1x): Cyflymder arferol (1x)
+Now: Yn awr
 OK: iawn
 Online Playlist: Rhestr Chwarae Ar-lein
+Online playlist – select from GitHub repository (auto‑refresh).: Rhestr chwarae ar-lein - dewiswch o ystorfa GitHub (adnewyddu awtomatig).
+Open File...: Agor Ffeil...
+Open from URL: Agor o URL
+Open Playlist: Agor Rhestr Chwarae
 Pause/Resume live stream: Saib/Ailgychwyn ffrwd fyw
-Player ready.: Chwaraewr yn barod.
+Paused: Wedi seibio
+PayPal: PayPal
+Picture-in-Picture mode: Modd Llun-mewn-Llun
+Player Control: Rheoli Chwaraewr
+Playlist & Groups: Rhestr Chwarae a Grwpiau
 Playlist Editor: Golygydd Rhestr Chwarae
+Playlist Loading: Rhestr Chwarae Llwytho
+Playlist Management: Rheoli Rhestr Chwarae
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Storfa rhestr chwarae: OwnerPlugins/TivuStreamList (nentydd Eidalaidd a rhyngwladol)
 Please select a program first.: Dewiswch raglen yn gyntaf.
 Preview (first 5 channels): Rhagolwg (5 sianel gyntaf)
 Preview error: {0}: Gwall rhagolwg: {0}
 Program Details: Manylion y Rhaglen
+Ready.: Yn barod.
 Recent: diweddar
+Recent files – quick access to last 5 opened playlists.: Ffeiliau diweddar - mynediad cyflym i'r 5 rhestr chwarae ddiwethaf a agorwyd.
 Recent playlists: Rhestrau chwarae diweddar
 Refresh: Adnewyddu
 Refresh EPG List: Adnewyddu'r Rhestr EPG
 Refresh from GitHub: Adnewyddu o GitHub
-Rename Group: Ailenwi Grŵp
+Rename Group: Ailenwi'r Grŵp
+Repository: Ystorfa
 Reset Order: Gorchymyn Ailosod
 Save: Arbed
 SAVE: ARBED
+Save – persists all settings without reloading current playlist.: Cadw - yn parhau pob gosodiad heb ail-lwytho'r rhestr chwarae gyfredol.
 Save as...: Arbedwch fel...
+Save current playlist to a new M3U file: Cadw rhestr chwarae gyfredol i ffeil M3U newydd
 Save Mapping: Cadw Mapio
 Save Playlist: Cadw Rhestr Chwarae
 Save Status: Cadw Statws
 Saved: Cadwedig
+Search channels by name: Chwilio sianeli yn ôl enw
 Search channels...: Chwilio sianeli...
 Select a playlist first.: Dewiswch restr chwarae yn gyntaf.
 Select Theme: Dewiswch Thema
+Selected theme is saved and applied on restart.: Mae'r thema a ddewiswyd yn cael ei chadw a'i chymhwyso wrth ailgychwyn.
 Settings: Gosodiadau
 Show List: Dangos Rhestr
+Show only channels marked as favorites: Dangos sianeli sydd wedi'u marcio fel ffefrynnau yn unig
 Show or hide the channel list: Dangos neu guddio'r rhestr sianeli
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Diolch yn arbennig i gymunedau CORVOBOYS & LinuxSat-Support am brofi a chefnogi.
 Start (local): Dechrau (lleol)
 Status: Statws
 Stream URL: Ffrydio URL
+Stream URLs: Ffrydio URLs
 Success: Llwyddiant
 Support: Cefnogaeth
+Support the developer: Cefnogwch y datblygwr
 Target Field: Maes Targed
+Thanks to: Diolch i
 Theme picker: Dewisydd thema
+Theme picker – accessible via Tools menu on main toolbar.: Dewiswr thema - ar gael trwy ddewislen Tools ar y prif far offer.
+Themes: Themâu
 Time: Amser
 Title: Teitl
 Tools: Offer
+Total: Cyfanswm
+Total channels in loaded playlist: Cyfanswm y sianeli yn y rhestr chwarae wedi'i llwytho
 TV Guide (EPG): Canllaw Teledu (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Methu dod o hyd i fersiwn mewn ffeil prosiect anghysbell.
 Update: Diweddariad
 Update complete. Restarting...: Diweddariad wedi'i gwblhau. Wrthi'n ailgychwyn...
 Update failed: : Diweddariad wedi methu:
+Updates: Diweddariadau
 URL: URL
 URL (primary): URL (cynradd)
+URL Check: Gwirio URL
 URL list (one per line): Rhestr URL (un i bob llinell)
 URLs & Status: URLs a Statws
 Version: Fersiwn
 Waiting for LiveGardenTVPlus to close...: Aros i LiveGardenTVPlus gau...
 Warning: Rhybudd
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: URL YouTube
+Youtube URLs: URLs Youtube

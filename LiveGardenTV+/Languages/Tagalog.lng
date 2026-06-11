@@ -1,18 +1,41 @@
-﻿(No description): (Walang paglalarawan)
+﻿(Completely voluntary – no features are blocked): (Ganap na boluntaryo - walang mga tampok na naka-block)
+(No description): (Walang paglalarawan)
+• Add / rename / delete groups.: • Magdagdag / palitan ang pangalan / tanggalin ang mga grupo.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffer slider: ayusin ang HLS buffer (1‑10 segundo).
+• Check URL availability (only visible channels).: • Suriin ang availability ng URL (mga nakikitang channel lamang).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • I-edit ang mga pangalan ng channel, grupo, URL, logo, tvg-id, bansa, wika, paborito.
+• Edit multiple URLs per channel (popup window).: • Mag-edit ng maramihang mga URL sa bawat channel (popup window).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Pagyamanin gamit ang EPG: nagdaragdag ng nawawalang tvg-id gamit ang fuzzy matching.
+• EPG info displayed in status bar for current channel.: • Ang impormasyon ng EPG ay ipinapakita sa status bar para sa kasalukuyang channel.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • I-export ang OK / FAIL / na-filter na mga listahan bilang M3U o JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Kumuha ng mga logo mula sa malayong imbakan (OwnerPlugins/logo).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Fullscreen UI: itinatago ang sidebar at status bar (ESC para lumabas).
+• Hide/Show channel list button.: • Itago/Ipakita ang pindutan ng listahan ng channel.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Mag-import ng JSON (lokal o URL) na may flexible field mapping (auto-detect, save mapping).
+• Picture‑in‑Picture (PIP) button.: • Button na Picture-in-Picture (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.: • Bilis ng pag-playback: 0.5x, 1x, 2x na button.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Pagbukud-bukurin ang anumang column sa pamamagitan ng pag-click sa header; gamitin ang 'I-reset ang Order' upang bumalik sa orihinal na pagkakasunud-sunod.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: i-pause ang live stream; i-drag ang slider upang maghanap pabalik; pindutin ang 'Live' upang bumalik.
 ◀ Previous: ◀ Nakaraan
+16 colour themes + Light/Dark variants.: 16 na tema ng kulay + Light/Dark na variant.
 A new version is available. Do you want to update now?: Available ang isang bagong bersyon. Gusto mo bang mag-update ngayon?
-About: Tungkol sa
-About TVGarden+: Tungkol sa TVGarden+
+Access via 'Edit Playlist' button on main toolbar.: I-access sa pamamagitan ng button na 'I-edit ang Playlist' sa pangunahing toolbar.
+Actions: Mga aksyon
 Add Group: Magdagdag ng Grupo
 Add Mapping: Magdagdag ng Mapping
+Adjust buffer size (1-10 seconds): Ayusin ang laki ng buffer (1-10 segundo)
 Advanced IDs: Mga advanced na ID
+Application status: Katayuan ng aplikasyon
 Apply changes: Ilapat ang mga pagbabago
 Apply Filters: Ilapat ang Mga Filter
 Auto-detect: Auto-detect
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Awtomatikong pagsusuri sa startup – o i-click ang 'Tingnan para sa mga update' sa Tools menu.
 Buffer (seconds): Buffer (segundo)
+Buffer size – adjust HLS buffer seconds.: Laki ng buffer – ayusin ang mga segundo ng buffer ng HLS.
 Cancel: Kanselahin
 CANCEL: KANSELAHIN
 Category: Kategorya
+Changelog: Changelog
 Channel Details: Mga Detalye ng Channel
 Channel Info: Impormasyon ng Channel
 Channel:: Channel:
@@ -23,12 +46,22 @@ Check Duplicates: Suriin ang Mga Duplicate
 Check for updates: Tingnan ang mga update
 Check URLs: Suriin ang mga URL
 Clear Filters: I-clear ang Mga Filter
+Clear search: I-clear ang paghahanap
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunidad at pagsubok: CorvoBoys (corvoboys.org) at LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Bansa
+Credits: Mga kredito
 Delete Group: Tanggalin ang Grupo
 Description: Paglalarawan
 Details: Mga Detalye
-Do you want to load the edited playlist now?: Gusto mo bang i-load ang na-edit na playlist ngayon?
+Developed by Lululla: Binuo ni Lululla
+Developer: Lululla: Nag-develop: Lululla
+Do you want to load this edited playlist now?: Gusto mo bang i-load ang na-edit na playlist ngayon?
+Double speed (2x): Dobleng bilis (2x)
 Downloading playlist...: Dina-download ang playlist...
+Downloads ZIP, replaces files, restarts app – settings preserved.: Nagda-download ng ZIP, nagpapalit ng mga file, nagre-restart ng app – napanatili ang mga setting.
+Drag & drop – drop M3U or JSON files directly onto main window.: I-drag at i-drop – i-drop ang mga M3U o JSON file nang direkta sa pangunahing window.
+Drag to seek back in buffer: I-drag upang maghanap pabalik sa buffer
 Duplicate URLs found:\n\n: May nakitang mga duplicate na URL:\n\n
 Edit Playlist: I-edit ang Playlist
 Edit URLs: I-edit ang mga URL
@@ -37,12 +70,19 @@ Enrich with EPG: Pagyamanin gamit ang EPG
 Enter JSON URL:: Ilagay ang JSON URL:
 Enter playlist URL (M3U or JSON):: Ilagay ang URL ng playlist (M3U o JSON):
 EPG: EPG
-EPG & Favorites: EPG at Mga Paborito
+Epg & Favorites: Epg at Mga Paborito
+Epg & Logos: Epg at Mga Logo
+EPG & Logos: EPG at Mga Logo
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Gabay sa EPG – ang button sa pangunahing toolbar ay nagpapakita ng buong grid na may mga detalye ng programa (double-click para sa impormasyon).
 EPG Matching Threshold: EPG Matching Threshold
 EPG Source: Pinagmulan ng EPG
+EPG source – can be set in Settings (epgshare01 or custom URL).: EPG source – maaaring itakda sa Mga Setting (epgshare01 o custom na URL).
+EPG source – choose XMLTV file or enter custom URL.: EPG source – piliin ang XMLTV file o ilagay ang custom na URL.
 Error: Error
 Error loading: Error sa paglo-load
-Error loading playlists: {0}: Error sa paglo-load ng mga playlist: {0}
+Error loading file: {0}: Error sa paglo-load ng file: {0}
+Error loading playlists: {0}: Error sa pag-load ng mga playlist: {0}
+Error loading URL: {0}: Error sa paglo-load ng URL: {0}
 ERROR: player.html not found.: ERROR: hindi nahanap ang player.html.
 Exit: Lumabas
 Export Favorites: I-export ang Mga Paborito
@@ -51,18 +91,25 @@ Export Filtered M3U: I-export ang Na-filter na M3U
 Export JSON: I-export ang JSON
 Export KO: I-export ang KO
 Export OK: I-export ang OK
+Export only favorite channels to a new M3U file: I-export lamang ang mga paboritong channel sa isang bagong M3U file
 Extracting update...: Kinukuha ang update...
 Failed to download playlist: Nabigong i-download ang playlist
 Failed to load playlist: Nabigong i-load ang playlist
 Favorite: Paborito
+Favorites only: Mga paborito lang
 Fetch Logos: Kunin ang Mga Logo
-FILTERS: MGA FILTER
+Filters: Mga filter
+Fullscreen (hide UI) - press ESC to exit: Fullscreen (itago ang UI) - pindutin ang ESC upang lumabas
 Geo & Country: Geo at Bansa
 GeoBlocked: GeoBlocked
 GitHub Error: Error sa GitHub
+Go back to live: Bumalik upang mabuhay
 Group: Grupo
+Half speed (0.5x): Kalahating bilis (0.5x)
 Help: Tulong
 Hide List: Itago ang Listahan
+HLS playback: hls.js (MIT license): HLS playback: hls.js (MIT lisensya)
+Image: Imahe
 Import: Mag-import
 Import error: {0}: Error sa pag-import: {0}
 Import from URL: Mag-import mula sa URL
@@ -72,27 +119,43 @@ Import Local: Mag-import ng Lokal
 Imported {0} channels from JSON.: Nag-import ng {0} (na) channel mula sa JSON.
 Imported {0} channels from URL.: Nag-import ng {0} (na) channel mula sa URL.
 Info: Impormasyon
+Info on: Impormasyon sa
 Invalid JSON: {0}: Di-wastong JSON: {0}
 Invalid playlist URL.: Di-wastong URL ng playlist.
 Invalid URL.: Di-wastong URL.
+Json: Json
 JSON Property: JSON Property
+Ko-fi: kape
 Language: Wika
+Language – change UI language dynamically (translations in Languages folder).: Wika – dynamic na baguhin ang wika ng UI (mga pagsasalin sa folder ng Mga Wika).
+Languages: Mga wika
 Languages (comma): Mga wika (kuwit)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Tulong ni Lululla
 LOAD: LOAD
 Load a playlist first.: Mag-load muna ng playlist.
 Load File: Mag-load ng File
-Load Online: Mag-load Online
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Mag-load ng lokal na M3U/JSON file – sa pamamagitan ng 'Load File' na button (toolbar) o 'Open File' sa editor.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: I-load ang online M3U/JSON URL – button na 'I-load ang Online' (toolbar) o 'Buksan mula sa URL' sa editor.
 Load playlist file (M3U/JSON) from your computer: I-load ang playlist file (M3U/JSON) mula sa iyong computer
-Load playlist from web URL (M3U or JSON): Mag-load ng playlist mula sa web URL (M3U o JSON)
 Loaded: Na-load
+Loaded {0} channels from JSON file.: Nag-load ng {0} (na) channel mula sa JSON file.
+Loaded {0} channels from JSON URL.: Nag-load ng {0} (na) channel mula sa JSON URL.
+Loaded {0} channels from M3U file.: Nag-load ng {0} (na) channel mula sa M3U file.
+Loaded {0} channels from M3U URL.: Nag-load ng {0} (na) channel mula sa M3U URL.
 Loading...: Naglo-load...
+Logo: Logo
+Logo Picker – in editor, click '...' to choose logo from gallery.: Tagapili ng Logo – sa editor, i-click ang '...' upang pumili ng logo mula sa gallery.
 Logo Preview: Preview ng Logo
 Logo URL: URL ng logo
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Mga Logo – awtomatikong i-download mula sa imbakan ng GitHub (Mga Setting → Pinagmulan ng Logo).
 Logos Matching Threshold: Mga Logo na Tugma sa Threshold
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Imbakan ng mga logo – pumili ng may-ari/repo/path (default OwnerPlugins/logo).
 Logos Source: Pinagmulan ng Logo
 Logos Subfolder: Logos Subfolder
 Map JSON properties to channel fields:: Imapa ang mga katangian ng JSON sa mga field ng channel:
 Mapping saved for future imports of this file.: Na-save ang pagmamapa para sa hinaharap na pag-import ng file na ito.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Pagtutugma ng mga threshold – magtakda ng malabo na tugma sensitivity para sa EPG at mga logo.
 Name: Pangalan
 Nanoid: Nanoid
 Network error: Error sa network
@@ -106,57 +169,90 @@ No favorite channels to export.: Walang paboritong channel na ie-export.
 No playlist found: Walang nahanap na playlist
 No stream: Walang stream
 No updates available.: Walang available na update.
-Now playing: Naglalaro ngayon
+Normal speed (1x): Normal na bilis (1x)
+Now: Ngayon
 OK: OK
 Online Playlist: Online na Playlist
+Online playlist – select from GitHub repository (auto‑refresh).: Online na playlist – pumili mula sa GitHub repository (auto-refresh).
+Open File...: Buksan ang File...
+Open from URL: Buksan mula sa URL
+Open Playlist: Buksan ang Playlist
 Pause/Resume live stream: I-pause/Ipagpatuloy ang live stream
-Player ready.: Handa ang manlalaro.
+Paused: Naka-pause
+PayPal: PayPal
+Picture-in-Picture mode: Picture-in-Picture mode
+Player Control: Kontrol ng Manlalaro
+Playlist & Groups: Playlist at Mga Grupo
 Playlist Editor: Editor ng Playlist
+Playlist Loading: Naglo-load ang Playlist
+Playlist Management: Pamamahala ng Playlist
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Imbakan ng playlist: OwnerPlugins/TivuStreamList (Italian at international stream)
 Please select a program first.: Mangyaring pumili muna ng isang programa.
 Preview (first 5 channels): Preview (unang 5 channel)
 Preview error: {0}: Error sa pag-preview: {0}
 Program Details: Mga Detalye ng Programa
+Ready.: handa na.
 Recent: Kamakailan
+Recent files – quick access to last 5 opened playlists.: Kamakailang mga file – mabilis na pag-access sa huling 5 binuksang playlist.
 Recent playlists: Mga kamakailang playlist
 Refresh: I-refresh
 Refresh EPG List: I-refresh ang Listahan ng EPG
 Refresh from GitHub: I-refresh mula sa GitHub
 Rename Group: Palitan ang pangalan ng Grupo
+Repository: Imbakan
 Reset Order: I-reset ang Order
 Save: I-save
 SAVE: MAGTIPID
+Save – persists all settings without reloading current playlist.: I-save – nagpapatuloy ang lahat ng mga setting nang hindi nire-reload ang kasalukuyang playlist.
 Save as...: I-save bilang...
+Save current playlist to a new M3U file: I-save ang kasalukuyang playlist sa isang bagong M3U file
 Save Mapping: I-save ang Mapping
 Save Playlist: I-save ang Playlist
 Save Status: I-save ang Katayuan
 Saved: Nai-save
+Search channels by name: Maghanap ng mga channel ayon sa pangalan
 Search channels...: Maghanap ng mga channel...
 Select a playlist first.: Pumili muna ng playlist.
 Select Theme: Piliin ang Tema
+Selected theme is saved and applied on restart.: Ang napiling tema ay nai-save at inilapat sa pag-restart.
 Settings: Mga setting
 Show List: Ipakita ang Listahan
+Show only channels marked as favorites: Ipakita lamang ang mga channel na minarkahan bilang mga paborito
 Show or hide the channel list: Ipakita o itago ang listahan ng channel
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Espesyal na salamat sa mga komunidad ng CORVOBOYS at LinuxSat-Support para sa pagsubok at suporta.
 Start (local): Magsimula (lokal)
 Status: Katayuan
 Stream URL: URL ng stream
+Stream URLs: Mga URL ng stream
 Success: Tagumpay
 Support: Suporta
+Support the developer: Suportahan ang developer
 Target Field: Target na Patlang
+Thanks to: Salamat sa
 Theme picker: Tagapili ng tema
+Theme picker – accessible via Tools menu on main toolbar.: Tagapili ng tema – naa-access sa pamamagitan ng menu ng Mga Tool sa pangunahing toolbar.
+Themes: Mga tema
 Time: Oras
 Title: Pamagat
 Tools: Mga gamit
+Total: Kabuuan
+Total channels in loaded playlist: Kabuuang mga channel sa na-load na playlist
 TV Guide (EPG): Gabay sa TV (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Hindi mahanap ang bersyon sa malayuang file ng proyekto.
 Update: Update
 Update complete. Restarting...: Kumpleto na ang pag-update. Nagsisimula muli...
 Update failed: : Nabigo ang pag-update:
+Updates: Mga update
 URL: URL
 URL (primary): URL (pangunahin)
+URL Check: Suriin ang URL
 URL list (one per line): Listahan ng URL (isa bawat linya)
 URLs & Status: Mga URL at Katayuan
 Version: Bersyon
 Waiting for LiveGardenTVPlus to close...: Hinihintay na magsara ang LiveGardenTVPlus...
 Warning: Babala
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: URL ng Youtube
+Youtube URLs: Mga URL sa Youtube

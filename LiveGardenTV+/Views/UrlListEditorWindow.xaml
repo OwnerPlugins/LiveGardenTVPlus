@@ -3,9 +3,13 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:material="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
         Title="Edit URLs by Lululla" Height="Auto" Width="Auto"
-        WindowStartupLocation="CenterOwner"
         Background="{DynamicResource WindowBackgroundBrush}"
-        Foreground="{DynamicResource ForegroundBrush}">
+        Foreground="{DynamicResource ForegroundBrush}"
+        WindowStartupLocation="CenterOwner">
+
+    <Window.Resources>
+        <!-- FALLBACK BRUSHES: These are used only if the theme does not define them. -->
+    </Window.Resources>
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>

@@ -5,7 +5,8 @@
         xmlns:material="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
         xmlns:converters="clr-namespace:LiveGardenTVPlus.Converters"
         Title="TVGarden+ by Lululla" Height="720" Width="1350"
-        WindowStartupLocation="CenterScreen" AllowDrop="True" Drop="Window_Drop">
+        WindowStartupLocation="CenterScreen"
+        AllowDrop="True" Drop="Window_Drop">
 
     <Window.Resources>
         <converters:UrlToImageConverter x:Key="UrlToImageConverter"/>
@@ -76,12 +77,17 @@
                 </StackPanel>
             </Button>
             <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
-            <Button x:Name="LoadOnlineBtn" Click="LoadOnlineBtn_Click" ToolTip="Load playlist from web URL (M3U or JSON)">
+            <ToggleButton x:Name="ShowFavoritesOnlyToggle" 
+                          Click="ShowFavoritesOnly_Click" 
+                          ToolTip="Show only channels marked as favorites" 
+                          Margin="5,0">
                 <StackPanel Orientation="Horizontal">
-                    <material:PackIcon Kind="CloudDownload" Width="20" Height="20" Margin="0,0,5,0"/>
-                    <TextBlock x:Name="LoadOnlineBtnText"/>
+                    <material:PackIcon Kind="Star" 
+                                       Width="20" Height="20" 
+                                       Margin="0,0,5,0"/>
+                    <TextBlock x:Name="FavoritesOnlyText" Text="Favorites only"/>
                 </StackPanel>
-            </Button>
+            </ToggleButton>
             <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
             <Button x:Name="ExportFavoritesBtn" Click="ExportFavoritesBtn_Click" ToolTip="Export only favorite channels to a new M3U file">
                 <StackPanel Orientation="Horizontal">
@@ -90,16 +96,17 @@
                 </StackPanel>
             </Button>
             <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
-            <Button x:Name="EditPlaylistBtn" Click="EditPlaylistBtn_Click" ToolTip="Edit current playlist">
-                <StackPanel Orientation="Horizontal">
-                    <material:PackIcon Kind="PlaylistEdit" Width="20" Height="20" Margin="0,0,5,0"/>
-                    <TextBlock x:Name="EditPlaylistBtnText"/>
-                </StackPanel>
-            </Button>
             <Button x:Name="EpgBtn" Click="EpgBtn_Click" ToolTip="TV Guide (EPG)">
                 <StackPanel Orientation="Horizontal">
                     <material:PackIcon Kind="TelevisionGuide" Width="20" Height="20" Margin="0,0,5,0"/>
                     <TextBlock x:Name="EpgTextBlock" Text="EPG"/>
+                </StackPanel>
+            </Button>
+            <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
+            <Button x:Name="EditPlaylistBtn" Click="EditPlaylistBtn_Click" ToolTip="Playlist Managment">
+                <StackPanel Orientation="Horizontal">
+                    <material:PackIcon Kind="PlaylistEdit" Width="20" Height="20" Margin="0,0,5,0"/>
+                    <TextBlock x:Name="EditPlaylistBtnText"/>
                 </StackPanel>
             </Button>
             <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
@@ -148,7 +155,7 @@
                                 HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">
                             <StackPanel Orientation="Horizontal">
                                 <material:PackIcon Kind="Information" Width="20" Height="20" Margin="0,0,8,0" Foreground="{DynamicResource ForegroundBrush}"/>
-                                <TextBlock x:Name="PopupAboutText" Text="About" Foreground="{DynamicResource ForegroundBrush}"/>
+                                <TextBlock x:Name="PopupAboutText" Text="Info on" Foreground="{DynamicResource ForegroundBrush}"/>
                             </StackPanel>
                         </Button>
                         <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
@@ -165,15 +172,21 @@
                 </Border>
             </Popup>
             <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
-            <Button x:Name="AboutBtn" Click="AboutBtn_Click" ToolTip="About TVGarden+">
+            <Button x:Name="AboutBtn" Click="AboutBtn_Click" ToolTip="Info on">
                 <StackPanel Orientation="Horizontal">
                     <material:PackIcon Kind="Information" Width="20" Height="20" Margin="0,0,5,0"/>
                     <TextBlock x:Name="AboutBtnText"/>
                 </StackPanel>
             </Button>
             <Separator/>
+            <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
 
-            <CheckBox x:Name="ShowFavoritesOnlyCheckBox" Click="ShowFavoritesOnly_Click" ToolTip="Show only channels marked as favorites"/>
+            <Button x:Name="HelpBtn" Click="HelpBtn_Click" ToolTip="Help">
+                <StackPanel Orientation="Horizontal">
+                    <material:PackIcon Kind="Help" Width="20" Height="20" Margin="0,0,5,0"/>
+                    <TextBlock x:Name="HelpBtnText" Text="Help"/>
+                </StackPanel>
+            </Button>
             <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
 
             <Button x:Name="ToggleSidebarBtn" Click="ToggleSidebarBtn_Click" ToolTip="Show or hide the channel list">
@@ -185,9 +198,28 @@
 
             <Separator Margin="10" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
             <StackPanel Orientation="Horizontal">
-                <TextBox x:Name="SearchBox" Width="170" GotFocus="SearchBox_GotFocus" TextChanged="SearchBox_TextChanged" LostFocus="SearchBox_LostFocus" ToolTip="Search channels by name"/>
-                <Button x:Name="ClearSearchBtn" Width="22" Height="22" Margin="2,0,0,0" Click="ClearSearchBtn_Click" Visibility="Collapsed" ToolTip="Clear search text">
-                    <material:PackIcon Kind="Close" Width="20" Height="20"/>
+                <TextBox x:Name="SearchBox" Width="170" 
+                         GotFocus="SearchBox_GotFocus" 
+                         TextChanged="SearchBox_TextChanged" 
+                         LostFocus="SearchBox_LostFocus" 
+                         ToolTip="Search channels by name"
+                         VerticalAlignment="Center"/>
+                <Button x:Name="ClearSearchBtn" Width="Auto" Height="Auto" 
+                        Margin="4,0,0,0" 
+                        Click="ClearSearchBtn_Click" 
+                        ToolTip="Clear search" 
+                        Background="Transparent" 
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Visibility="Visible">
+                    <Border Width="20" Height="20" CornerRadius="10" Background="{DynamicResource BorderBrush}">
+                        <TextBlock Text="✕" 
+                                   FontSize="12" 
+                                   Foreground="{DynamicResource ForegroundBrush}" 
+                                   HorizontalAlignment="Center" 
+                                   VerticalAlignment="Center"
+                                   FontWeight="Bold"/>
+                    </Border>
                 </Button>
             </StackPanel>
         </ToolBar>
@@ -312,6 +344,11 @@
                     <DockPanel LastChildFill="True"/>
                 </ItemsPanelTemplate>
             </StatusBar.ItemsPanel>
+
+            <StatusBarItem>
+                <TextBlock x:Name="TotalChannelsText" ToolTip="Total channels in loaded playlist" FontSize="18"/>
+            </StatusBarItem>
+
             <StatusBarItem>
                 <StackPanel Orientation="Horizontal" Margin="5,0">
                     <Button x:Name="SpeedSlowerBtn" Width="36" Height="36" Click="SpeedSlowerBtn_Click" ToolTip="Half speed (0.5x)" Background="Transparent" BorderThickness="0">
@@ -325,6 +362,8 @@
                     </Button>
                 </StackPanel>
             </StatusBarItem>
+
+
             <StatusBarItem>
                 <StackPanel Orientation="Horizontal" Margin="10,0">
                     <TextBlock x:Name="BufferLabel" Margin="0,0,5,0" VerticalAlignment="Center" ToolTip="HLS buffer length in seconds" FontSize="14"/>

@@ -1,14 +1,9 @@
 ﻿using LiveGardenTVPlus.Converters;
 using LiveGardenTVPlus.Models;
 using LiveGardenTVPlus.Services;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 
 namespace LiveGardenTVPlus.Views

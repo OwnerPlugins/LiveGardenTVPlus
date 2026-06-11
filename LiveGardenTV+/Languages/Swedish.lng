@@ -1,18 +1,41 @@
-﻿(No description): (Ingen beskrivning)
+﻿(Completely voluntary – no features are blocked): (Helt frivilligt – inga funktioner är blockerade)
+(No description): (Ingen beskrivning)
+• Add / rename / delete groups.: • Lägg till / byt namn på / ta bort grupper.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffertreglage: justera HLS-buffert (1–10 sekunder).
+• Check URL availability (only visible channels).: • Kontrollera URL-tillgänglighet (endast synliga kanaler).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Redigera kanalnamn, grupper, webbadresser, logotyper, tvg-id, land, språk, favoriter.
+• Edit multiple URLs per channel (popup window).: • Redigera flera webbadresser per kanal (popup-fönster).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Berika med EPG: lägger till saknat tvg-id med fuzzy matchning.
+• EPG info displayed in status bar for current channel.: • EPG-information visas i statusfältet för aktuell kanal.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • Exportera OK / FAIL / filtrerade listor som M3U eller JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Hämta logotyper från fjärrlager (OwnerPlugins/logotyper).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Helskärmsgränssnitt: döljer sidofältet och statusfältet (ESC för att avsluta).
+• Hide/Show channel list button.: • Knappen Dölj/Visa kanallista.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Importera JSON (lokal eller URL) med flexibel fältmappning (upptäck automatiskt, spara mappning).
+• Picture‑in‑Picture (PIP) button.: • Bild-i-bild-knapp (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.: • Uppspelningshastighet: 0,5x, 1x, 2x knappar.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sortera valfri kolumn genom att klicka på rubriken; använd 'Återställ beställning' för att återgå till den ursprungliga beställningen.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: pausa livestream; dra reglaget för att söka tillbaka; tryck på "Live" för att gå tillbaka.
 ◀ Previous: ◀ Föregående
+16 colour themes + Light/Dark variants.: 16 färgteman + ljus/mörk varianter.
 A new version is available. Do you want to update now?: En ny version finns tillgänglig. Vill du uppdatera nu?
-About: Om
-About TVGarden+: Om TVGarden+
+Access via 'Edit Playlist' button on main toolbar.: Åtkomst via knappen "Redigera spellista" på huvudverktygsfältet.
+Actions: Åtgärder
 Add Group: Lägg till grupp
 Add Mapping: Lägg till mappning
+Adjust buffer size (1-10 seconds): Justera buffertstorleken (1-10 sekunder)
 Advanced IDs: Avancerade ID:n
+Application status: Ansökningsstatus
 Apply changes: Tillämpa ändringar
 Apply Filters: Använd filter
 Auto-detect: Automatisk upptäckt
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatisk kontroll vid start – eller klicka på "Sök efter uppdateringar" i Verktyg-menyn.
 Buffer (seconds): Buffert (sekunder)
+Buffer size – adjust HLS buffer seconds.: Buffertstorlek – justera HLS buffertsekunder.
 Cancel: Avboka
 CANCEL: AVBOKA
 Category: Kategori
+Changelog: Ändringslogg
 Channel Details: Kanaldetaljer
 Channel Info: Kanalinfo
 Channel:: Kanal:
@@ -23,12 +46,22 @@ Check Duplicates: Kontrollera dubbletter
 Check for updates: Sök efter uppdateringar
 Check URLs: Kontrollera webbadresser
 Clear Filters: Rensa filter
+Clear search: Rensa sökning
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Community och testning: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Land
+Credits: Krediter
 Delete Group: Ta bort grupp
 Description: Beskrivning
 Details: Detaljer
-Do you want to load the edited playlist now?: Vill du ladda den redigerade spellistan nu?
+Developed by Lululla: Utvecklad av Lululla
+Developer: Lululla: Utvecklare: Lululla
+Do you want to load this edited playlist now?: Vill du ladda den här redigerade spellistan nu?
+Double speed (2x): Dubbel hastighet (2x)
 Downloading playlist...: Laddar ned spellista...
+Downloads ZIP, replaces files, restarts app – settings preserved.: Laddar ner ZIP, ersätter filer, startar om appen – inställningarna bevarade.
+Drag & drop – drop M3U or JSON files directly onto main window.: Dra och släpp – släpp M3U- eller JSON-filer direkt till huvudfönstret.
+Drag to seek back in buffer: Dra för att söka tillbaka i bufferten
 Duplicate URLs found:\n\n: Dubblettadresser hittades:\n\n
 Edit Playlist: Redigera spellista
 Edit URLs: Redigera webbadresser
@@ -37,12 +70,19 @@ Enrich with EPG: Berika med EPG
 Enter JSON URL:: Ange JSON URL:
 Enter playlist URL (M3U or JSON):: Ange spellistans URL (M3U eller JSON):
 EPG: EPG
-EPG & Favorites: EPG och favoriter
+Epg & Favorites: Epg & Favoriter
+Epg & Logos: Epg & logotyper
+EPG & Logos: EPG och logotyper
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG-guide – knappen på huvudverktygsfältet visar hela rutnätet med programdetaljer (dubbelklicka för info).
 EPG Matching Threshold: EPG-matchningströskel
 EPG Source: EPG-källa
+EPG source – can be set in Settings (epgshare01 or custom URL).: EPG-källa – kan ställas in i Inställningar (epgshare01 eller anpassad URL).
+EPG source – choose XMLTV file or enter custom URL.: EPG-källa – välj XMLTV-fil eller ange anpassad URL.
 Error: Fel
 Error loading: Fel vid laddning
+Error loading file: {0}: Det gick inte att läsa in filen: {0}
 Error loading playlists: {0}: Det gick inte att läsa in spellistor: {0}
+Error loading URL: {0}: Det gick inte att läsa in webbadressen: {0}
 ERROR: player.html not found.: FEL: player.html hittades inte.
 Exit: Utgång
 Export Favorites: Exportera favoriter
@@ -51,18 +91,25 @@ Export Filtered M3U: Exportera filtrerad M3U
 Export JSON: Exportera JSON
 Export KO: Exportera KO
 Export OK: Exportera OK
+Export only favorite channels to a new M3U file: Exportera endast favoritkanaler till en ny M3U-fil
 Extracting update...: Extraherar uppdatering...
 Failed to download playlist: Det gick inte att ladda ner spellistan
 Failed to load playlist: Det gick inte att läsa in spellistan
 Favorite: Favorit
+Favorites only: Endast favoriter
 Fetch Logos: Hämta logotyper
-FILTERS: FILTER
+Filters: Filter
+Fullscreen (hide UI) - press ESC to exit: Helskärm (dölj UI) - tryck på ESC för att avsluta
 Geo & Country: Geo & Country
 GeoBlocked: Geoblockerad
 GitHub Error: GitHub-fel
+Go back to live: Gå tillbaka till livet
 Group: Grupp
+Half speed (0.5x): Halv hastighet (0,5x)
 Help: Hjälp
 Hide List: Göm lista
+HLS playback: hls.js (MIT license): HLS-uppspelning: hls.js (MIT-licens)
+Image: Bild
 Import: Importera
 Import error: {0}: Importfel: {0}
 Import from URL: Importera från URL
@@ -72,27 +119,43 @@ Import Local: Importera lokalt
 Imported {0} channels from JSON.: Importerade {0} kanaler från JSON.
 Imported {0} channels from URL.: Importerade {0} kanaler från URL.
 Info: Info
+Info on: Info om
 Invalid JSON: {0}: Ogiltig JSON: {0}
 Invalid playlist URL.: Ogiltig webbadress för spellistan.
 Invalid URL.: Ogiltig webbadress.
+Json: Json
 JSON Property: JSON-egendom
+Ko-fi: Kaffe
 Language: Språk
+Language – change UI language dynamically (translations in Languages folder).: Språk – ändra UI-språk dynamiskt (översättningar i mappen Språk).
+Languages: Språk
 Languages (comma): Språk (komma)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Hjälp av Lululla
 LOAD: LADDA
 Load a playlist first.: Ladda en spellista först.
 Load File: Ladda fil
-Load Online: Ladda online
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Ladda lokal M3U/JSON-fil – via knappen "Ladda fil" (verktygsfält) eller "Öppna fil" i editorn.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Ladda online M3U/JSON URL – knappen 'Ladda online' (verktygsfält) eller 'Öppna från URL' i editorn.
 Load playlist file (M3U/JSON) from your computer: Ladda spellistfil (M3U/JSON) från din dator
-Load playlist from web URL (M3U or JSON): Ladda spellista från webbadressen (M3U eller JSON)
 Loaded: Lastad
+Loaded {0} channels from JSON file.: Laddade {0} kanaler från JSON-fil.
+Loaded {0} channels from JSON URL.: Laddade {0} kanaler från JSON URL.
+Loaded {0} channels from M3U file.: Laddade {0} kanaler från M3U-fil.
+Loaded {0} channels from M3U URL.: Laddade {0} kanaler från M3U URL.
 Loading...: Belastning...
+Logo: Logotyp
+Logo Picker – in editor, click '...' to choose logo from gallery.: Logotypväljare – i redigeraren, klicka på '...' för att välja logotyp från galleriet.
 Logo Preview: Förhandsvisning av logotyp
 Logo URL: Logotyp URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Logotyper – ladda ner automatiskt från GitHub-förvaret (Inställningar → Logotypers källa).
 Logos Matching Threshold: Matchande tröskel för logotyper
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logotyper – välj ägare/repo/sökväg (standard OwnerPlugins/logotyper).
 Logos Source: Logotyper källa
 Logos Subfolder: Logotyper undermapp
 Map JSON properties to channel fields:: Mappa JSON-egenskaper till kanalfält:
 Mapping saved for future imports of this file.: Mappningen har sparats för framtida importer av den här filen.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Matchande trösklar – ställ in otydlig matchningskänslighet för EPG och logotyper.
 Name: Namn
 Nanoid: Nanoid
 Network error: Nätverksfel
@@ -106,57 +169,90 @@ No favorite channels to export.: Inga favoritkanaler att exportera.
 No playlist found: Ingen spellista hittades
 No stream: Ingen ström
 No updates available.: Inga uppdateringar tillgängliga.
-Now playing: Spelar nu
+Normal speed (1x): Normal hastighet (1x)
+Now: Nu
 OK: OK
 Online Playlist: Spellista online
+Online playlist – select from GitHub repository (auto‑refresh).: Onlinespellista – välj från GitHub-förrådet (automatisk uppdatering).
+Open File...: Öppna fil...
+Open from URL: Öppna från URL
+Open Playlist: Öppna spellistan
 Pause/Resume live stream: Pausa/återuppta livestream
-Player ready.: Spelaren redo.
+Paused: Pausad
+PayPal: PayPal
+Picture-in-Picture mode: Bild-i-bild-läge
+Player Control: Spelarkontroll
+Playlist & Groups: Spellista och grupper
 Playlist Editor: Spellista Editor
+Playlist Loading: Spellista laddas
+Playlist Management: Hantering av spellistor
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Spellistförråd: OwnerPlugins/TivuStreamList (italienska och internationella strömmar)
 Please select a program first.: Välj ett program först.
 Preview (first 5 channels): Förhandsvisning (första 5 kanaler)
 Preview error: {0}: Förhandsgranskningsfel: {0}
 Program Details: Programinformation
+Ready.: Redo.
 Recent: Ny
+Recent files – quick access to last 5 opened playlists.: Senaste filer – snabb åtkomst till de 5 senaste öppnade spellistorna.
 Recent playlists: Senaste spellistor
 Refresh: Uppdatera
 Refresh EPG List: Uppdatera EPG-listan
 Refresh from GitHub: Uppdatera från GitHub
 Rename Group: Byt namn på grupp
+Repository: Förvar
 Reset Order: Återställ ordning
 Save: Spara
 SAVE: SPARA
+Save – persists all settings without reloading current playlist.: Spara – behåller alla inställningar utan att ladda om aktuell spellista.
 Save as...: Spara som...
+Save current playlist to a new M3U file: Spara aktuell spellista till en ny M3U-fil
 Save Mapping: Spara mappning
 Save Playlist: Spara spellista
 Save Status: Spara status
 Saved: Sparad
+Search channels by name: Sök kanaler efter namn
 Search channels...: Sök kanaler...
 Select a playlist first.: Välj en spellista först.
 Select Theme: Välj Tema
+Selected theme is saved and applied on restart.: Det valda temat sparas och tillämpas vid omstart.
 Settings: Inställningar
 Show List: Visa lista
+Show only channels marked as favorites: Visa endast kanaler markerade som favoriter
 Show or hide the channel list: Visa eller dölj kanallistan
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Särskilt tack till CORVOBOYS & LinuxSat-Support-gemenskaperna för testning och support.
 Start (local): Start (lokal)
 Status: Status
 Stream URL: Streama URL
+Stream URLs: Streama webbadresser
 Success: Framgång
 Support: Stöd
+Support the developer: Stöd utvecklaren
 Target Field: Målfält
+Thanks to: Tack vare
 Theme picker: Temaväljare
+Theme picker – accessible via Tools menu on main toolbar.: Temaväljare – tillgänglig via Verktyg-menyn i huvudverktygsfältet.
+Themes: teman
 Time: Tid
 Title: Titel
 Tools: Verktyg
+Total: Total
+Total channels in loaded playlist: Totalt antal kanaler i laddad spellista
 TV Guide (EPG): TV-guide (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Det gick inte att hitta version i fjärrprojektfil.
 Update: Uppdatera
 Update complete. Restarting...: Uppdateringen slutförd. Startar om...
 Update failed: : Uppdatering misslyckades:
+Updates: Uppdateringar
 URL: URL
 URL (primary): URL (primär)
+URL Check: URL-kontroll
 URL list (one per line): URL-lista (en per rad)
 URLs & Status: URL:er och status
 Version: Version
 Waiting for LiveGardenTVPlus to close...: Väntar på att LiveGardenTVPlus ska stänga...
 Warning: Varning
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: Youtube URL
+Youtube URLs: Youtube webbadresser

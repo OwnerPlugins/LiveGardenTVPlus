@@ -1,18 +1,41 @@
-﻿(No description): (Engin lýsing)
+﻿(Completely voluntary – no features are blocked): (Algjörlega valfrjálst - engir eiginleikar eru lokaðir)
+(No description): (Engin lýsing)
+• Add / rename / delete groups.: • Bæta við / endurnefna / eyða hópum.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffer renna: stilla HLS biðminni (1-10 sekúndur).
+• Check URL availability (only visible channels).: • Athugaðu framboð vefslóða (aðeins sýnilegar rásir).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Breyta rásarheitum, hópum, vefslóðum, lógóum, tvg-auðkenni, landi, tungumálum, eftirlæti.
+• Edit multiple URLs per channel (popup window).: • Breyta mörgum vefslóðum á hverja rás (sprettigluggi).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Auðgaðu með EPG: bætir við tvg-id sem vantar með því að nota óljós samsvörun.
+• EPG info displayed in status bar for current channel.: • EPG upplýsingar birtar á stöðustikunni fyrir núverandi rás.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • Flytja út OK / FAIL / síaðir listar sem M3U eða JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Sæktu lógó úr fjarlægri geymslu (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Viðmót á fullum skjá: felur hliðarstikuna og stöðustikuna (ESC til að hætta).
+• Hide/Show channel list button.: • Fela/Sýna ráslistahnappur.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Flytja inn JSON (staðbundið eða vefslóð) með sveigjanlegri reitakortlagningu (sjálfvirkt greina, vista kortlagningu).
+• Picture‑in‑Picture (PIP) button.: • Picture-in-Picture (PIP) hnappur.
+• Playback speed: 0.5x, 1x, 2x buttons.: • Spilunarhraði: 0,5x, 1x, 2x takkar.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Raða hvaða dálki sem er með því að smella á haus; notaðu 'Endurstilla pöntun' til að fara aftur í upprunalega pöntun.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Tímaskipti: gera hlé á straumi í beinni; dragðu sleðann til að leita til baka; ýttu á 'Live' til að fara aftur.
 ◀ Previous: ◀ Fyrri
+16 colour themes + Light/Dark variants.: 16 litaþemu + ljós/dökk afbrigði.
 A new version is available. Do you want to update now?: Ný útgáfa er fáanleg. Viltu uppfæra núna?
-About: Um
-About TVGarden+: Um TVGarden+
+Access via 'Edit Playlist' button on main toolbar.: Aðgangur með hnappnum „Breyta spilunarlista“ á aðaltækjastikunni.
+Actions: Aðgerðir
 Add Group: Bæta við hópi
 Add Mapping: Bæta við kortlagningu
+Adjust buffer size (1-10 seconds): Stilla biðminni (1-10 sekúndur)
 Advanced IDs: Ítarleg skilríki
+Application status: Staða umsóknar
 Apply changes: Notaðu breytingar
 Apply Filters: Notaðu síur
 Auto-detect: Sjálfvirk skynjun
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Sjálfvirk athugun við ræsingu - eða smelltu á 'Athuga að uppfærslum' í valmyndinni Verkfæri.
 Buffer (seconds): Buffer (sekúndur)
+Buffer size – adjust HLS buffer seconds.: Stærð biðminni – stilltu HLS biðminni sekúndur.
 Cancel: Hætta við
 CANCEL: HÆTTA við
 Category: Flokkur
+Changelog: Breytingaskrá
 Channel Details: Rásarupplýsingar
 Channel Info: Rásupplýsingar
 Channel:: Rás:
@@ -23,12 +46,22 @@ Check Duplicates: Athugaðu afrit
 Check for updates: Leitaðu að uppfærslum
 Check URLs: Athugaðu vefslóðir
 Clear Filters: Hreinsaðu síur
+Clear search: Hreinsa leit
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Samfélag og prófanir: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Land
+Credits: Inneign
 Delete Group: Eyða hópi
 Description: Lýsing
 Details: Upplýsingar
-Do you want to load the edited playlist now?: Viltu hlaða breytta lagalistanum núna?
+Developed by Lululla: Hannað af Lululla
+Developer: Lululla: Hönnuður: Lululla
+Do you want to load this edited playlist now?: Viltu hlaða þessum breytta lagalista núna?
+Double speed (2x): Tvöfaldur hraði (2x)
 Downloading playlist...: Sækir spilunarlista...
+Downloads ZIP, replaces files, restarts app – settings preserved.: Niðurhalar ZIP, skiptir um skrár, endurræsir app – stillingar varðveittar.
+Drag & drop – drop M3U or JSON files directly onto main window.: Dragðu og slepptu – slepptu M3U eða JSON skrám beint á aðalgluggann.
+Drag to seek back in buffer: Dragðu til að leita aftur í biðminni
 Duplicate URLs found:\n\n: Tvíteknar vefslóðir fundust:\n\n
 Edit Playlist: Breyta lagalista
 Edit URLs: Breyta vefslóðum
@@ -37,12 +70,19 @@ Enrich with EPG: Auðgaðu með EPG
 Enter JSON URL:: Sláðu inn JSON vefslóð:
 Enter playlist URL (M3U or JSON):: Sláðu inn vefslóð lagalista (M3U eða JSON):
 EPG: EPG
-EPG & Favorites: EPG og eftirlæti
+Epg & Favorites: Epg & Uppáhalds
+Epg & Logos: Epg & lógó
+EPG & Logos: EPG og lógó
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Guide – hnappur á aðaltækjastikunni sýnir fullt rist með forritaupplýsingum (tvísmelltu til að fá upplýsingar).
 EPG Matching Threshold: EPG samsvarandi þröskuldur
 EPG Source: EPG uppspretta
+EPG source – can be set in Settings (epgshare01 or custom URL).: EPG uppspretta – hægt að stilla í stillingum (epgshare01 eða sérsniðin vefslóð).
+EPG source – choose XMLTV file or enter custom URL.: EPG uppspretta - veldu XMLTV skrá eða sláðu inn sérsniðna vefslóð.
 Error: Villa
 Error loading: Villa við hleðslu
+Error loading file: {0}: Villa við að hlaða skrá: {0}
 Error loading playlists: {0}: Villa við að hlaða spilunarlista: {0}
+Error loading URL: {0}: Villa við að hlaða vefslóð: {0}
 ERROR: player.html not found.: VILLA: player.html fannst ekki.
 Exit: Hætta
 Export Favorites: Flytja út eftirlæti
@@ -51,18 +91,25 @@ Export Filtered M3U: Flytja út síað M3U
 Export JSON: Flytja út JSON
 Export KO: Flytja út KO
 Export OK: Flytja út í lagi
+Export only favorite channels to a new M3U file: Flyttu aðeins út uppáhaldsrásir í nýja M3U skrá
 Extracting update...: Tekur út uppfærslu...
 Failed to download playlist: Mistókst að hlaða niður lagalista
 Failed to load playlist: Mistókst að hlaða spilunarlista
 Favorite: Uppáhalds
+Favorites only: Aðeins eftirlæti
 Fetch Logos: Sækja lógó
-FILTERS: SÍUR
+Filters: Síur
+Fullscreen (hide UI) - press ESC to exit: Fullskjár (fela notendaviðmót) - ýttu á ESC til að hætta
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub Villa
+Go back to live: Farðu aftur til að lifa
 Group: Hópur
+Half speed (0.5x): Hálfhraði (0,5x)
 Help: Hjálp
 Hide List: Fela lista
+HLS playback: hls.js (MIT license): HLS spilun: hls.js (MIT leyfi)
+Image: Mynd
 Import: Innflutningur
 Import error: {0}: Innflutningsvilla: {0}
 Import from URL: Flytja inn af vefslóð
@@ -72,27 +119,43 @@ Import Local: Flytja inn á staðnum
 Imported {0} channels from JSON.: Flutti inn {0} rásir frá JSON.
 Imported {0} channels from URL.: Innfluttar {0} rásir frá URL.
 Info: Upplýsingar
+Info on: Upplýsingar um
 Invalid JSON: {0}: Ógilt JSON: {0}
 Invalid playlist URL.: Ógild vefslóð spilunarlista.
 Invalid URL.: Ógild vefslóð.
+Json: Json
 JSON Property: JSON eign
+Ko-fi: Kaffi
 Language: Tungumál
+Language – change UI language dynamically (translations in Languages folder).: Tungumál – breyttu tungumáli viðmótsins á virkan hátt (þýðingar í tungumálamöppunni).
+Languages: Tungumál
 Languages (comma): Tungumál (komma)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus hjálp eftir Lululla
 LOAD: HLAÐA
 Load a playlist first.: Hlaða spilunarlista fyrst.
 Load File: Hlaða skrá
-Load Online: Hlaða á netinu
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Hladdu inn staðbundinni M3U/JSON skrá - með 'Load File' hnappinn (tækjastiku) eða 'Open File' í ritlinum.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Hlaða M3U/JSON vefslóð á netinu – „Hlaða á netinu“ hnappinn (tækjastiku) eða „Opna frá vefslóð“ í ritlinum.
 Load playlist file (M3U/JSON) from your computer: Hladdu lagalistaskrá (M3U/JSON) úr tölvunni þinni
-Load playlist from web URL (M3U or JSON): Hlaða spilunarlista frá vefslóð (M3U eða JSON)
 Loaded: Hlaðinn
+Loaded {0} channels from JSON file.: Hlaðið {0} rásir úr JSON skrá.
+Loaded {0} channels from JSON URL.: Hlaðið {0} rásir frá JSON vefslóð.
+Loaded {0} channels from M3U file.: Hlaðið {0} rásir úr M3U skrá.
+Loaded {0} channels from M3U URL.: Hlaðið {0} rásir frá M3U vefslóð.
 Loading...: Hleður...
+Logo: Merki
+Logo Picker – in editor, click '...' to choose logo from gallery.: Merkjavalur – í ritlinum, smelltu á '...' til að velja lógó úr myndasafni.
 Logo Preview: Forskoðun lógó
-Logo URL: Vefslóð lógós
+Logo URL: Logo URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Logos – hlaðið niður sjálfkrafa úr GitHub geymslunni (Stillingar → Logos Source).
 Logos Matching Threshold: Samsvörunarþröskuldur lógóa
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logos geymsla – veldu eiganda/repo/path (sjálfgefin OwnerPlugins/logos).
 Logos Source: Uppruni lógóa
 Logos Subfolder: Logos undirmöppu
 Map JSON properties to channel fields:: Kortaðu JSON eiginleika við rásareiti:
 Mapping saved for future imports of this file.: Kortlagning vistuð fyrir framtíðarinnflutning á þessari skrá.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Samsvarandi þröskuldar – stilltu óljós samsvörunarnæmi fyrir EPG og lógó.
 Name: Nafn
 Nanoid: Nanóíð
 Network error: Netvilla
@@ -106,57 +169,90 @@ No favorite channels to export.: Engar uppáhaldsrásir til að flytja út.
 No playlist found: Enginn spilunarlisti fannst
 No stream: Enginn straumur
 No updates available.: Engar uppfærslur í boði.
-Now playing: Nú spilar
+Normal speed (1x): Venjulegur hraði (1x)
+Now: Nú
 OK: Allt í lagi
 Online Playlist: Lagalisti á netinu
+Online playlist – select from GitHub repository (auto‑refresh).: Spilunarlisti á netinu – veldu úr GitHub geymslu (sjálfvirk endurnýjun).
+Open File...: Opna skrá...
+Open from URL: Opna frá URL
+Open Playlist: Opnaðu lagalista
 Pause/Resume live stream: Gera hlé á/halda áfram straumi í beinni
-Player ready.: Leikmaður tilbúinn.
+Paused: Gert hlé
+PayPal: PayPal
+Picture-in-Picture mode: Mynd-í-mynd stilling
+Player Control: Leikmannastýring
+Playlist & Groups: Lagalisti og hópar
 Playlist Editor: Lagalista ritstjóri
+Playlist Loading: Lagalisti Hleður
+Playlist Management: Stjórnun lagalista
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Lagalistageymsla: OwnerPlugins/TivuStreamList (ítalskir og alþjóðlegir straumar)
 Please select a program first.: Vinsamlegast veldu forrit fyrst.
 Preview (first 5 channels): Forskoðun (fyrstu 5 rásirnar)
 Preview error: {0}: Forskoðunarvilla: {0}
 Program Details: Dagskrá Upplýsingar
+Ready.: Tilbúið.
 Recent: Nýleg
+Recent files – quick access to last 5 opened playlists.: Nýlegar skrár – skjótur aðgangur að síðustu 5 opnuðu spilunarlistum.
 Recent playlists: Nýlegir lagalistar
 Refresh: Endurnýja
 Refresh EPG List: Endurnýja EPG lista
 Refresh from GitHub: Endurnýjaðu frá GitHub
 Rename Group: Endurnefna hóp
+Repository: Geymsla
 Reset Order: Endurstilla pöntun
 Save: Vista
 SAVE: SPARA
+Save – persists all settings without reloading current playlist.: Vista – viðheldur öllum stillingum án þess að endurhlaða núverandi lagalista.
 Save as...: Vista sem...
+Save current playlist to a new M3U file: Vistaðu núverandi lagalista í nýja M3U skrá
 Save Mapping: Vista kortlagning
 Save Playlist: Vista lagalista
 Save Status: Vista stöðu
 Saved: Vistað
+Search channels by name: Leitaðu að rásum eftir nafni
 Search channels...: Leita að rásum...
 Select a playlist first.: Veldu spilunarlista fyrst.
 Select Theme: Veldu Þema
+Selected theme is saved and applied on restart.: Valið þema er vistað og notað við endurræsingu.
 Settings: Stillingar
 Show List: Sýna lista
+Show only channels marked as favorites: Sýna aðeins rásir merktar sem eftirlæti
 Show or hide the channel list: Sýna eða fela ráslistann
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Sérstakar þakkir til CORVOBOYS & LinuxSat-Support samfélagsins fyrir prófun og stuðning.
 Start (local): Byrja (staðbundið)
 Status: Staða
 Stream URL: Slóð á streymi
+Stream URLs: Streyma vefslóðir
 Success: Árangur
 Support: Stuðningur
+Support the developer: Styðjið verktaki
 Target Field: Markreitur
+Thanks to: Þökk sé
 Theme picker: Þemavalari
+Theme picker – accessible via Tools menu on main toolbar.: Þemavalur – aðgengilegur í verkfæravalmyndinni á aðaltækjastikunni.
+Themes: Þemu
 Time: Tími
 Title: Titill
 Tools: Verkfæri
+Total: Samtals
+Total channels in loaded playlist: Heildarrásir á hlaðnum lagalista
 TV Guide (EPG): TV Guide (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Ekki er hægt að finna útgáfu í ytri verkefnaskrá.
 Update: Uppfærsla
 Update complete. Restarting...: Uppfærslu lokið. Endurræsir...
 Update failed: : Uppfærsla mistókst:
+Updates: Uppfærslur
 URL: URL
 URL (primary): URL (aðal)
-URL list (one per line): Vefslóðalisti (ein í hverja línu)
+URL Check: URL Athugun
+URL list (one per line): Vefslóðalisti (ein í hverri línu)
 URLs & Status: Vefslóðir og staða
 Version: Útgáfa
 Waiting for LiveGardenTVPlus to close...: Bíð eftir að LiveGardenTVPlus loki...
 Warning: Viðvörun
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: Youtube vefslóð
+Youtube URLs: Youtube vefslóðir

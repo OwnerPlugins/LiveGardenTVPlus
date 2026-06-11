@@ -1,18 +1,41 @@
-﻿(No description): (Pas de descripcion)
+﻿(Completely voluntary – no features are blocked): (Totalament volontari – cap de foncionalitat es pas blocada)
+(No description): (Pas de descripcion)
+• Add / rename / delete groups.: • Apondre / renomenar / suprimir de grops.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Cursor de tampon: ajustar lo tampon HLS (1-10 segondas).
+• Check URL availability (only visible channels).: • Verificatz la disponibilitat d'URL (sonque los canals visibles).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Modificar los noms de canals, los grops, las URL, los lògos, l'id de tvg, lo país, las lengas, los favorits.
+• Edit multiple URLs per channel (popup window).: • Modificar divèrsas URL per canal (fenèstra emergenta).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Enriquir amb EPG : apond un tvg-id mancant en utilizant la correspondéncia difusa.
+• EPG info displayed in status bar for current channel.: • Informacions EPG afichadas dins la barra d'estat del canal actual.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • Exportar de listas OK / FAIL / filtradas coma M3U o JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Recuperar de lògos dempuèi un depaus distant (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Interfàcia d'interfàcia d'ecran complet : amaga la barra laterala e la barra d'estat (ESC per sortir).
+• Hide/Show channel list button.: • Boton Amagar/Afichar la lista de canals.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Importar JSON (local o URL) amb un mapatge de camp flexible (autodeteccion, enregistrament de mapatge).
+• Picture‑in‑Picture (PIP) button.: • Boton Imatge dins Imatge (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.: • Velocitat de reproduccion: 0,5x, 1x, 2x botons.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Triar quina colomna que siá en clicant sus l'entèsta; utilizatz 'Reïnicializar l'òrdre' per tornar a l'òrdre original.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Cambi de temps: pausar la difusion en dirècte; arrossegar lo cursor per cercar enrè; quichatz sus 'En dirècte' per tornar.
 ◀ Previous: ◀ Anterior
+16 colour themes + Light/Dark variants.: 16 tèmas de colors + variantas Clara/Escura.
 A new version is available. Do you want to update now?: Una novèla version es disponibla. Volètz metre a jorn ara?
-About: A prepaus
-About TVGarden+: A prepaus de TVGarden+
+Access via 'Edit Playlist' button on main toolbar.: Accedir via lo boton 'Modificar la lista de lectura' sus la barra d'aisinas principala.
+Actions: Accions
 Add Group: Apondre un grop
 Add Mapping: Apondre la mapatge
+Adjust buffer size (1-10 seconds): Ajustar la talha del tampon (1-10 segondas)
 Advanced IDs: IDs avançats
+Application status: Estat de la demanda
 Apply changes: Aplicar las modificacions
 Apply Filters: Aplicar de filtres
 Auto-detect: Autodeteccion
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Verificacion automatica a l'aviada – o clicatz sus 'Verificar las mesas a jorn' dins lo menú Aisinas.
 Buffer (seconds): Tampon (segondas)
+Buffer size – adjust HLS buffer seconds.: Talha del tampon – ajustar las segondas del tampon HLS.
 Cancel: Anullar
 CANCEL: ANULLAR
 Category: Categoria
+Changelog: Jornal de cambiaments
 Channel Details: Detalhs del canal
 Channel Info: Informacions del canal
 Channel:: Canal:
@@ -23,12 +46,22 @@ Check Duplicates: Verificar los dobles
 Check for updates: Verificatz las mesas a jorn
 Check URLs: Verificar las URL
 Clear Filters: Suprimir los filtres
+Clear search: Suprimir la recèrca
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Comunautat & tèst: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: País
+Credits: Crèdits
 Delete Group: Suprimir lo grop
 Description: Descripcion
 Details: Detalhs
-Do you want to load the edited playlist now?: Volètz cargar la lista de lectura modificada ara ?
+Developed by Lululla: Desvolopat per Lululla
+Developer: Lululla: Desvolopaire: Lululla
+Do you want to load this edited playlist now?: Volètz cargar aquesta lista de lectura modificada ara ?
+Double speed (2x): Dobla velocitat (2x)
 Downloading playlist...: En telecargament de la lista de lectura...
+Downloads ZIP, replaces files, restarts app – settings preserved.: Telecarga ZIP, remplaça los fichièrs, reavia l'aplicacion – los paramètres conservats.
+Drag & drop – drop M3U or JSON files directly onto main window.: Arrossegar e daissar tombar – daissar tombar los fichièrs M3U o JSON dirèctament sus la fenèstra principala.
+Drag to seek back in buffer: Arrossegatz per recercar dins lo tampon
 Duplicate URLs found:\n\n: URLs en doble trobadas:\n\n
 Edit Playlist: Modificar la lista de lectura
 Edit URLs: Modificar las URL
@@ -37,12 +70,19 @@ Enrich with EPG: Enriquir amb EPG
 Enter JSON URL:: Picatz l'URL JSON :
 Enter playlist URL (M3U or JSON):: Picatz l'URL de la lista de lectura (M3U o JSON):
 EPG: EPG
-EPG & Favorites: EPG & Favorits
+Epg & Favorites: Epg & Favorits
+Epg & Logos: Epg & Logos
+EPG & Logos: EPG & Logos
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Guida EPG – lo boton sus la barra d'aisinas principala mòstra la grasilha completa amb los detalhs del programa (clic doble per l'informacion).
 EPG Matching Threshold: Lindal de correspondéncia EPG
 EPG Source: Font EPG
+EPG source – can be set in Settings (epgshare01 or custom URL).: Font EPG – pòt èsser definida dins los Paramètres (epgshare01 o URL personalizat).
+EPG source – choose XMLTV file or enter custom URL.: Font EPG – causissètz lo fichièr XMLTV o picatz una URL personalizada.
 Error: Error
 Error loading: Error al moment de cargament
+Error loading file: {0}: Error al moment de cargament del fichièr : {0}
 Error loading playlists: {0}: Error al moment de cargament de las listas de lectura : {0}
+Error loading URL: {0}: Error al moment de cargament d'URL : {0}
 ERROR: player.html not found.: ERROR : player.html pas trobat.
 Exit: Sortida
 Export Favorites: Exportar los favorits
@@ -51,18 +91,25 @@ Export Filtered M3U: Exportar M3U filtrat
 Export JSON: Exportar JSON
 Export KO: KO d'exportacion
 Export OK: Exportar d'acòrdi
+Export only favorite channels to a new M3U file: Exportar pas que los canals favorits dins un fichièr M3U novèl
 Extracting update...: Extraire la mesa a jorn...
 Failed to download playlist: Fracàs al telecargament de la lista de lectura
 Failed to load playlist: Fracàs al cargament de la lista de lectura
 Favorite: Favorit
+Favorites only: Los favorits solament
 Fetch Logos: Recuperar de lògos
-FILTERS: FILTRES
+Filters: Filtres
+Fullscreen (hide UI) - press ESC to exit: Ecran complet (amagar l'interfàcia utilizaire) - quichatz sus ESC per sortir
 Geo & Country: Geo & País
 GeoBlocked: GeoBlocat
 GitHub Error: Error de GitHub
+Go back to live: Torna viure
 Group: Grop
+Half speed (0.5x): Mièja velocitat (0,5x)
 Help: Ajudar
 Hide List: Amagar la lista
+HLS playback: hls.js (MIT license): Reproduccion HLS: hls.js (licéncia MIT)
+Image: Imatge
 Import: Importar
 Import error: {0}: Error d'importacion : {0}
 Import from URL: Importar dempuèi l'URL
@@ -72,27 +119,43 @@ Import Local: Importar Local
 Imported {0} channels from JSON.: {0} canals importats dempuèi JSON.
 Imported {0} channels from URL.: {0} canals importats dempuèi l'URL.
 Info: Informacions
+Info on: Informacions sus
 Invalid JSON: {0}: JSON invalid: {0}
 Invalid playlist URL.: URL de la lista de lectura invalida.
 Invalid URL.: URL invalida.
+Json: Json
 JSON Property: Proprietat JSON
+Ko-fi: Cafè
 Language: Lenga
+Language – change UI language dynamically (translations in Languages folder).: Lenga – cambiar la lenga de l'IU de manièra dinamica (traduccions dins lo dorsièr Lengas).
+Languages: Lengas
 Languages (comma): Lengas (virgula)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Ajuda de Lululla
 LOAD: CARGAR
 Load a playlist first.: Cargatz d'en primièr una lista de lectura.
 Load File: Cargar lo fichièr
-Load Online: Cargar en linha
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Cargar lo fichièr M3U/JSON local – via lo boton 'Cargar lo fichièr' (barra d'aisinas) o 'Dobrir lo fichièr' dins l'editor.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Cargar en linha M3U/JSON URL – boton 'Cargar en linha' (barra d'aisinas) o 'Dobrir dempuèi l'URL' dins l'editor.
 Load playlist file (M3U/JSON) from your computer: Cargatz lo fichièr de lista de lectura (M3U/JSON) dempuèi vòstre ordenador
-Load playlist from web URL (M3U or JSON): Cargar la lista de lectura dempuèi l'URL del web (M3U o JSON)
 Loaded: Cargat
+Loaded {0} channels from JSON file.: {0} canals cargats dempuèi lo fichièr JSON.
+Loaded {0} channels from JSON URL.: {0} canals cargats dempuèi l'URL JSON.
+Loaded {0} channels from M3U file.: {0} canals cargats dempuèi lo fichièr M3U.
+Loaded {0} channels from M3U URL.: {0} canals cargats dempuèi l'URL M3U.
 Loading...: En cargament...
+Logo: Logotip
+Logo Picker – in editor, click '...' to choose logo from gallery.: Selector de lògo – dins l'editor, clicatz sus '...' per causir lo lògo dins la galariá.
 Logo Preview: Apercebut del lògo
 Logo URL: URL del lògo
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Logos – telecargar automaticament dempuèi lo depaus GitHub (Paramètres → Font de logos).
 Logos Matching Threshold: Lindal de correspondéncia de lògos
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Depaus de logos – causissètz proprietari/depaus/camin (Plugins/logos de proprietari per defaut).
 Logos Source: Logos Font
 Logos Subfolder: Sosdorsièr de lògos
 Map JSON properties to channel fields:: Mapar las proprietats JSON als camps de canal :
 Mapping saved for future imports of this file.: Mapatge enregistrat per d'importacions futuras d'aqueste fichièr.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Lindals de correspondéncia – definir la sensibilitat de correspondéncia difusa per EPG e logos.
 Name: Nom
 Nanoid: Nanoïde
 Network error: Error de ret
@@ -106,57 +169,90 @@ No favorite channels to export.: Pas de canal favorit d'exportar.
 No playlist found: Cap de lista de lectura pas trobada
 No stream: Pas de flux
 No updates available.: Cap de mesa a jorn pas disponibla.
-Now playing: Ara en jogant
+Normal speed (1x): Velocitat normala (1x)
+Now: Ara
 OK: ÒC BEN
 Online Playlist: Lista de reproduccion en linha
+Online playlist – select from GitHub repository (auto‑refresh).: Lista de lectura en linha – seleccionatz dins lo depaus GitHub (auto-actualizacion).
+Open File...: Dobrir lo fichièr...
+Open from URL: Dobrir dempuèi l'URL
+Open Playlist: Dobrir la lista de lectura
 Pause/Resume live stream: Pausa/Reprene la difusion en dirècte
-Player ready.: Jogaire prèst.
+Paused: Pausada
+PayPal: PayPal
+Picture-in-Picture mode: Mòde Imatge dins Imatge
+Player Control: Contròl del jogaire
+Playlist & Groups: Lista de lectura e grops
 Playlist Editor: Editor de listas de lectura
+Playlist Loading: La lista de reproduccion en carga
+Playlist Management: Gestion de la lista de lectura
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Depaus de listas de lectura: OwnerPlugins/TivuStreamList (fluxes italians e internacionals)
 Please select a program first.: Seleccionatz d'en primièr un programa.
 Preview (first 5 channels): Apercebut (5 primièrs canals)
 Preview error: {0}: Error d'apercebut : {0}
 Program Details: Detalhs del programa
+Ready.: Prèst.
 Recent: Recent
+Recent files – quick access to last 5 opened playlists.: Fichièrs recents – accès rapid a las 5 darrièras listas de lectura dobèrtas.
 Recent playlists: Listas de lectura recentas
 Refresh: Actualizar
 Refresh EPG List: Actualizar la lista EPG
 Refresh from GitHub: Actualizar dempuèi GitHub
 Rename Group: Renomenar lo grop
+Repository: Depaus
 Reset Order: Reïnicializar l'òrdre
 Save: Salvar
 SAVE: SALVAR
+Save – persists all settings without reloading current playlist.: Enregistrar – persistís totes los paramètres sens tornar cargar la lista de lectura actuala.
 Save as...: Enregistrar coma...
+Save current playlist to a new M3U file: Enregistrar la lista de lectura actuala dins un fichièr M3U novèl
 Save Mapping: Enregistrar la mapatge
 Save Playlist: Enregistrar la lista de lectura
 Save Status: Enregistrar l'estat
 Saved: Enregistrat
+Search channels by name: Cercar de canals per nom
 Search channels...: Cercar de canals...
 Select a playlist first.: Seleccionatz d'en primièr una lista de lectura.
 Select Theme: Seleccionar lo tèma
+Selected theme is saved and applied on restart.: Lo tèma seleccionat es enregistrat e aplicat al reaviada.
 Settings: Paramètres
 Show List: Afichar la lista
+Show only channels marked as favorites: Afichar sonque los canals marcats coma favorits
 Show or hide the channel list: Afichar o amagar la lista dels canals
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Mercés especials a las comunautats CORVOBOYS & LinuxSat-Support pels tèsts e lo sosten.
 Start (local): Començar (local)
 Status: Estatut
 Stream URL: URL del flux
+Stream URLs: URLs de flux
 Success: Succès
 Support: Sosten
+Support the developer: Supòrta lo desvolopaire
 Target Field: Camp cibla
+Thanks to: Mercés a
 Theme picker: Seleccionaire de tèma
+Theme picker – accessible via Tools menu on main toolbar.: Selector de tèmas – accessible via lo menú Aisinas sus la barra d'aisinas principala.
+Themes: Tèmas
 Time: Temps
 Title: Títol
 Tools: Aisinas
+Total: Total
+Total channels in loaded playlist: Total de canals dins la lista de lectura cargada
 TV Guide (EPG): Guida de television (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: UI: Temas de Dessenh de Materials.Wpf
 Unable to find version in remote project file.: Impossible de trobar la version dins lo fichièr de projècte distant.
 Update: Metre al jorn
 Update complete. Restarting...: Mesa a jorn completada. Reaviada...
 Update failed: : La mesa a jorn a fracassat :
+Updates: Mesas a jorn
 URL: URL
 URL (primary): URL (primària)
+URL Check: Verificacion d'URL
 URL list (one per line): Lista d'URL (una per linha)
 URLs & Status: URLs e estatut
 Version: Version
 Waiting for LiveGardenTVPlus to close...: Espèra que LiveGardenTVPlus se barra...
 Warning: Avertiment
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: URL de Youtube
+Youtube URLs: URLs de Youtube

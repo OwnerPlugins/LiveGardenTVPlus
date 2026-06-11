@@ -1,18 +1,41 @@
-﻿(No description): (Düşündiriş ýok)
+﻿(Completely voluntary – no features are blocked): (Doly meýletin - hiç hili aýratynlyk petiklenmeýär)
+(No description): (Düşündiriş ýok)
+• Add / rename / delete groups.: • Toparlary goşuň / adyny üýtgediň / pozuň.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Bufer slaýderi: HLS buferini sazlaň (1-10 sekunt).
+• Check URL availability (only visible channels).: • URL-iň elýeterliligini barlaň (diňe görünýän kanallar).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Kanalyň atlaryny, toparlaryny, URL-lerini, logotiplerini, tvg-id, ýurt, diller, halanýanlary redaktirläň.
+• Edit multiple URLs per channel (popup window).: • Her kanalda birnäçe URL-ni redaktirläň (çykýan penjire).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG bilen baýlaşdyryň: bulaşyk gabat gelmek arkaly ýiten tvg-id goşýar.
+• EPG info displayed in status bar for current channel.: • Häzirki kanal üçin ýagdaý setirinde görkezilen EPG maglumatlary.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • OK / FAIL / süzülen sanawlary M3U ýa-da JSON hökmünde eksport ediň.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Uzakdaky ammardan logotipleri alyň (OwnerPlugins / logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Doly ekran UI: gapdal paneli we ýagdaý setirini gizleýär (çykmak üçin ESC).
+• Hide/Show channel list button.: • Kanal sanawynyň düwmesini gizläň / görkeziň.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Çeýe meýdan kartasy bilen JSON (ýerli ýa-da URL) import ediň (awtomatik kesgitläň, kartany saklaň).
+• Picture‑in‑Picture (PIP) button.: • Surat - - Surat (PIP) düwmesinde.
+• Playback speed: 0.5x, 1x, 2x buttons.: • Aýtdyrmak tizligi: 0,5x, 1x, 2x düwmeler.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sözbaşy basyp islendik sütüni tertipläň; Asyl tertibe gaýdyp gelmek üçin 'Sargyt täzeden düzmek' ulanyň.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: göni ýaýlymy duruzyň; yzyna gözlemek üçin süýşürijini süýräň; dolanmak üçin 'Live' basyň.
 ◀ Previous: ◀ Öňki
+16 colour themes + Light/Dark variants.: 16 reňk mowzugy + Lightagty / Garaňky görnüşler.
 A new version is available. Do you want to update now?: Täze wersiýasy bar. Indi täzelenmek isleýärsiňizmi?
-About: Takmynan
-About TVGarden+: TVGarden + hakda
+Access via 'Edit Playlist' button on main toolbar.: Esasy gurallar panelindäki 'Pleýlisti redaktirlemek' düwmesine giriň.
+Actions: Hereketler
 Add Group: Topar goşuň
 Add Mapping: Kartalaşdyrmak goşuň
+Adjust buffer size (1-10 seconds): Bufer ölçegini sazlaň (1-10 sekunt)
 Advanced IDs: Giňişleýin şahsyýetnamalar
+Application status: Arza ýagdaýy
 Apply changes: Üýtgeşmeleri ulanyň
 Apply Filters: Süzgüçleri ulanyň
 Auto-detect: Awto-kesgitlemek
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Başlangyjy awtomatiki barlamak - ýa-da Gurallar menýusynda 'Täzelenmeleri barlamak' düwmesine basyň.
 Buffer (seconds): Bufer (sekunt)
+Buffer size – adjust HLS buffer seconds.: Bufer ölçegi - HLS bufer sekuntlaryny sazlaň.
 Cancel: Elatyr
 CANCEL: ANCATY ..
 Category: Kategoriýa
+Changelog: Çangelog
 Channel Details: Kanal maglumatlary
 Channel Info: Kanal maglumatlary
 Channel:: Kanal:
@@ -23,12 +46,22 @@ Check Duplicates: Göçürmeleri barlaň
 Check for updates: Täzelenmeleri barlaň
 Check URLs: URL-leri barlaň
 Clear Filters: Süzgüçleri arassalaň
+Clear search: Gözleg arassala
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Jemgyýet we synag: CorvoBoys (corvoboys.org) we LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Countryurt
+Credits: Karzlar
 Delete Group: Topary poz
 Description: Düşündiriş
 Details: Jikme-jiklikler
-Do you want to load the edited playlist now?: Redaktirlenen pleýist sanawyny indi ýüklemek isleýärsiňizmi?
+Developed by Lululla: Lululla tarapyndan işlenip düzüldi
+Developer: Lululla: Öndüriji: Lululla
+Do you want to load this edited playlist now?: Bu redaktirlenen pleýist sanawyny indi ýüklemek isleýärsiňizmi?
+Double speed (2x): Iki gezek tizlik (2x)
 Downloading playlist...: Aýdym sanawyny göçürip almak ...
+Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP ýükleýär, faýllary çalyşýar, programmany täzeden açýar - saklanan sazlamalar.
+Drag & drop – drop M3U or JSON files directly onto main window.: Süýräň we taşlaň - M3U ýa-da JSON faýllaryny göni penjire taşlaň.
+Drag to seek back in buffer: Buferde gözlemek üçin süýräň
 Duplicate URLs found:\n\n: Tapylan URL-ler: \ n \ n
 Edit Playlist: Sanaw sanawyny redaktirläň
 Edit URLs: URL-leri redaktirläň
@@ -37,12 +70,19 @@ Enrich with EPG: EPG bilen baýlaşdyryň
 Enter JSON URL:: JSON URL giriziň:
 Enter playlist URL (M3U or JSON):: Aýdym sanawynyň URL-sini giriziň (M3U ýa-da JSON):
 EPG: EPG
-EPG & Favorites: EPG we halanýanlar
+Epg & Favorites: Epg & Halanýanlar
+Epg & Logos: Epg & Logos
+EPG & Logos: EPG we bellikler
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Gollanma - esasy gurallar panelindäki düwme programma jikme-jiklikleri bilen doly gözenegi görkezýär (maglumat üçin iki gezek basyň).
 EPG Matching Threshold: EPG deňeşdirme bosagasy
 EPG Source: EPG çeşmesi
+EPG source – can be set in Settings (epgshare01 or custom URL).: EPG çeşmesi - Sazlamalarda (epgshare01 ýa-da ýörite URL) düzülip bilner.
+EPG source – choose XMLTV file or enter custom URL.: EPG çeşmesi - XMLTV faýly saýlaň ýa-da ýörite URL giriziň.
 Error: Roralňyşlyk
 Error loading: Adingüklemekde säwlik
+Error loading file: {0}: Faýly ýüklemekde säwlik: {0}
 Error loading playlists: {0}: Sanaw sanawlaryny ýüklemekde säwlik: {0}
+Error loading URL: {0}: URL ýüklemekde säwlik: {0}
 ERROR: player.html not found.: RAL .YŞLYK: player.html tapylmady
 Exit: Çyk
 Export Favorites: Halanýanlary eksport ediň
@@ -50,19 +90,26 @@ Export Filtered JSON: Filtrlenen JSON eksport ediň
 Export Filtered M3U: Filtrlenen M3U eksport ediň
 Export JSON: JSON eksport ediň
 Export KO: KO eksport ediň
-Export OK: Eksport Bolýar
+Export OK: Eksport etmek gowy
+Export only favorite channels to a new M3U file: Diňe halaýan kanallary täze M3U faýlyna eksport ediň
 Extracting update...: Täzelenme çykarmak ...
 Failed to download playlist: Aýdym sanawyny göçürip alyp bilmedi
 Failed to load playlist: Aýdym sanawyny ýükläp bilmedi
 Favorite: Halaýan
+Favorites only: Diňe halanýanlar
 Fetch Logos: Logotipleri al
-FILTERS: Filtrler
+Filters: Süzgüçler
+Fullscreen (hide UI) - press ESC to exit: Doly ekran (UI gizläň) - çykmak üçin ESC basyň
 Geo & Country: Geo we ýurt
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub ýalňyşlygy
+Go back to live: Liveaşamak üçin dolan
 Group: Topar
+Half speed (0.5x): Speedarym tizlik (0,5x)
 Help: Kömek
 Hide List: Sanawy gizläň
+HLS playback: hls.js (MIT license): HLS oýnamak: hls.js (MIT ygtyýarnamasy)
+Image: Surat
 Import: Import
 Import error: {0}: Import ýalňyşlygy: {0}
 Import from URL: URL-den import
@@ -72,27 +119,43 @@ Import Local: Localerli import ediň
 Imported {0} channels from JSON.: JSON-dan {0} kanallary import etdi.
 Imported {0} channels from URL.: URL-den {0} kanallary import edildi.
 Info: Maglumat
+Info on: Maglumat
 Invalid JSON: {0}: Nädogry JSON: {0}
 Invalid playlist URL.: Nädogry sanaw sanawy URL.
 Invalid URL.: Nädogry URL.
+Json: Json
 JSON Property: JSON emläk
+Ko-fi: Kofe
 Language: Dil
+Language – change UI language dynamically (translations in Languages folder).: Dil - UI dilini dinamiki üýtgediň (Diller bukjasyndaky terjimeler).
+Languages: Diller
 Languages (comma): Diller (vergi)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Lulullanyň kömegi
 LOAD: Oük
 Load a playlist first.: Ilki bilen pleýlist ýükläň.
 Load File: Faýl ýükläň
-Load Online: Onlaýn ýükläň
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Localerli M3U / JSON faýly ýükläň - 'Fileükleme faýly' düwmesi (gurallar paneli) ýa-da redaktorda 'Açyk faýl'.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Onlaýn M3U / JSON URL-ni ýükläň - 'Onlaýn ýüklemek' düwmesi (gurallar paneli) ýa-da redaktorda 'URL-den aç'.
 Load playlist file (M3U/JSON) from your computer: Pleýlist faýlyny (M3U / JSON) kompýuteriňizden ýükläň
-Load playlist from web URL (M3U or JSON): Web sanawyndan pleýlist ýükläň (M3U ýa-da JSON)
 Loaded: Adedüklenen
+Loaded {0} channels from JSON file.: JSON faýlyndan {0} kanallar ýüklendi.
+Loaded {0} channels from JSON URL.: JSON URL-den {0} kanallar ýüklendi.
+Loaded {0} channels from M3U file.: M3U faýlyndan {0} kanallar ýüklendi.
+Loaded {0} channels from M3U URL.: M3U URL-den {0} kanallar ýüklendi.
 Loading...: Adingüklenýär ...
+Logo: Logotip
+Logo Picker – in editor, click '...' to choose logo from gallery.: Logotip saýlaýjy - redaktorda, galereýadan logotip saýlamak üçin '...' düwmesine basyň.
 Logo Preview: Logotipiň deslapky syn
 Logo URL: Logotip URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Logotipler - GitHub ammaryndan awtomatiki usulda göçürip alyň (Sazlamalar → Logos çeşmesi).
 Logos Matching Threshold: Logotipleriň gabat gelýän bosagasy
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logos ammary - eýesini / repo / ýoly saýlaň (default OwnerPlugins / logos).
 Logos Source: Logotip çeşmesi
 Logos Subfolder: Logotip bukjasy
 Map JSON properties to channel fields:: JSON häsiýetlerini kanal meýdanlaryna karta ediň:
 Mapping saved for future imports of this file.: Bu faýlyň geljekki importlary üçin kartalaşdyryldy.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Gabat gelýän çäkler - EPG we logotipler üçin çylşyrymly gabat gelýän duýgurlygy düzüň.
 Name: Ady
 Nanoid: Nanoid
 Network error: Tor ýalňyşlygy
@@ -106,57 +169,90 @@ No favorite channels to export.: Eksport etmek üçin halanýan kanallar ýok.
 No playlist found: Aýdym sanawy tapylmady
 No stream: Akym ýok
 No updates available.: Täzelenmeler ýok.
-Now playing: Indi oýnaýaryn
+Normal speed (1x): Adaty tizlik (1x)
+Now: Indi
 OK: Bolýar
 Online Playlist: Onlaýn sanaw sanawy
+Online playlist – select from GitHub repository (auto‑refresh).: Onlaýn pleýlist - GitHub ammaryndan saýlaň (awtomatik täzeläň).
+Open File...: Faýly aç ...
+Open from URL: URL-den açyň
+Open Playlist: Sanawy açyň
 Pause/Resume live stream: Göni ýaýlymy duruzyň / dowam etdiriň
-Player ready.: Pleýer taýýar.
+Paused: Saklandy
+PayPal: PayPal
+Picture-in-Picture mode: Suratda-surat re modeimi
+Player Control: Pleýer dolandyryşy
+Playlist & Groups: Aýdym sanawy we toparlary
 Playlist Editor: Sanaw sanawynyň redaktory
+Playlist Loading: Aýdym sanawy ýüklenýär
+Playlist Management: Sanaw sanawyny dolandyrmak
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Sanaw sanawy ammary: OwnerPlugins / TivuStreamList (Italiýa we halkara akymlar)
 Please select a program first.: Ilki bilen bir programma saýlaň.
 Preview (first 5 channels): Öňünden syn (ilkinji 5 kanal)
 Preview error: {0}: Öňünden görüş säwligi: {0}
 Program Details: Programma maglumatlary
+Ready.: Taýýar.
 Recent: Soňky
+Recent files – quick access to last 5 opened playlists.: Soňky faýllar - soňky 5 açylan sanaw sanawyna çalt girmek.
 Recent playlists: Soňky sanawlar
 Refresh: Täzele
 Refresh EPG List: EPG sanawyny täzeläň
 Refresh from GitHub: GitHub-dan täzeläň
 Rename Group: Toparyň adyny üýtgetmek
+Repository: Ammar
 Reset Order: Sargydy täzeden düzmek
 Save: Saklaň
 SAVE: Tygşytlaň
+Save – persists all settings without reloading current playlist.: Saklamak - häzirki pleýist sanawyny täzeden ýüklemezden ähli sazlamalary dowam etdirýär.
 Save as...: Saklaň ...
+Save current playlist to a new M3U file: Häzirki pleýist sanawyny täze M3U faýlyna ýazdyryň
 Save Mapping: Kartany saklaň
 Save Playlist: Sanawy ýazdyr
 Save Status: Status saklaň
 Saved: Saklandy
+Search channels by name: Kanallary ady boýunça gözläň
 Search channels...: Gözleg kanallary ...
 Select a playlist first.: Ilki pleýlist saýlaň.
 Select Theme: Tema saýlaň
+Selected theme is saved and applied on restart.: Saýlanan tema ýazdyrylýar we täzeden başlamak üçin ulanylýar.
 Settings: Sazlamalar
 Show List: Sanawy görkez
+Show only channels marked as favorites: Diňe halanýanlar hökmünde bellenen kanallary görkeziň
 Show or hide the channel list: Kanal sanawyny görkeziň ýa-da gizläň
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Synag we goldaw üçin CORVOBOYS & LinuxSat-Goldaw jemgyýetlerine aýratyn minnetdarlyk bildirýärin.
 Start (local): Başlamak (ýerli)
 Status: .Agdaý
 Stream URL: Akym URL
+Stream URLs: Akym URL-leri
 Success: Üstünlik
 Support: Goldaw
+Support the developer: Öndürijini goldaň
 Target Field: Maksat meýdany
+Thanks to: Sag boluň
 Theme picker: Tema saýlaýjy
+Theme picker – accessible via Tools menu on main toolbar.: Mowzuk saýlaýjy - esasy gurallar panelindäki Gurallar menýusy arkaly girip bolýar.
+Themes: Mowzuklar
 Time: Wagt
 Title: Ady
 Tools: Gurallar
+Total: Jemi
+Total channels in loaded playlist: Edüklenen sanawdaky jemi kanallar
 TV Guide (EPG): Telewizion gollanma (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Uzakdaky taslama faýlynda wersiýa tapyp bolmaýar.
 Update: Täzelen
 Update complete. Restarting...: Täzelenme tamamlandy. Başlamak ...
 Update failed: : Täzelenme şowsuz boldy:
+Updates: Täzelenmeler
 URL: URL
 URL (primary): URL (başlangyç)
+URL Check: URL barlaň
 URL list (one per line): URL sanawy (her setirde biri)
 URLs & Status: URL-ler we ýagdaý
 Version: Wersiýa
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus-yň ýapylmagyna garaşýarys ...
 Warning: Duýduryş
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: Youtube URL
+Youtube URLs: Youtube URL-leri

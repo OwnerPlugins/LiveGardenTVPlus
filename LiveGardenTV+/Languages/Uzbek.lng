@@ -1,18 +1,41 @@
-﻿(No description): (Ta'rif yo'q)
+﻿(Completely voluntary – no features are blocked): (To'liq ixtiyoriy - hech qanday xususiyat bloklanmagan)
+(No description): (Ta'rif yo'q)
+• Add / rename / delete groups.: • Guruhlarni qo‘shish/nomini o‘zgartirish/o‘chirish.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Bufer slayderi: HLS buferini sozlash (1‑10 soniya).
+• Check URL availability (only visible channels).: • URL mavjudligini tekshiring (faqat ko'rinadigan kanallar).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Kanal nomlarini, guruhlarni, URL manzillarini, logotiplarni, tvg-identifikatorini, mamlakatni, tillarni, sevimlilarni tahrirlash.
+• Edit multiple URLs per channel (popup window).: • Har bir kanal uchun bir nechta URL manzillarini tahrirlash (qalqib chiquvchi oyna).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG bilan boyitish: noaniq moslik yordamida etishmayotgan tvg-identifikatorini qo'shadi.
+• EPG info displayed in status bar for current channel.: • Joriy kanal uchun holat satrida ko'rsatilgan EPG ma'lumotlari.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • OK / FAIL / filtrlangan roʻyxatlarni M3U yoki JSON sifatida eksport qiling.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Logotiplarni masofaviy ombordan oling (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • To‘liq ekranli UI: yon panel va holat panelini yashiradi (chiqish uchun ESC).
+• Hide/Show channel list button.: • Kanallar ro‘yxatini yashirish/ko‘rsatish tugmasi.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • JSON (mahalliy yoki URL)ni moslashuvchan maydon xaritasi bilan import qiling (avtomatik aniqlash, xaritani saqlash).
+• Picture‑in‑Picture (PIP) button.: • Tasvir ichidagi rasm (PIP) tugmasi.
+• Playback speed: 0.5x, 1x, 2x buttons.: • Ijro qilish tezligi: 0,5x, 1x, 2x tugmalari.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sarlavhani bosish orqali istalgan ustunni saralash; asl tartibni qaytarish uchun "Buyurtmani tiklash" dan foydalaning.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: jonli translatsiyani to‘xtatib turish; orqaga qaytish uchun slayderni torting; qaytish uchun "Jonli" tugmasini bosing.
 ◀ Previous: ◀ Oldingi
+16 colour themes + Light/Dark variants.: 16 ta rangli mavzular + Ochiq/qora variantlar.
 A new version is available. Do you want to update now?: Yangi versiya mavjud. Hozir yangilashni xohlaysizmi?
-About: Haqida
-About TVGarden+: TVGarden+ haqida
+Access via 'Edit Playlist' button on main toolbar.: Asosiy asboblar panelidagi “Pleylistni tahrirlash” tugmasi orqali kiring.
+Actions: Harakatlar
 Add Group: Guruh qo'shish
 Add Mapping: Xarita qo'shish
+Adjust buffer size (1-10 seconds): Bufer hajmini sozlash (1-10 soniya)
 Advanced IDs: Kengaytirilgan identifikatorlar
+Application status: Ilova holati
 Apply changes: O'zgarishlarni qo'llash
 Apply Filters: Filtrlarni qo'llash
 Auto-detect: Avtomatik aniqlash
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Ishga tushganda avtomatik tekshirish - yoki Asboblar menyusidagi "Yangilanishlarni tekshirish" tugmasini bosing.
 Buffer (seconds): Bufer (soniyalar)
+Buffer size – adjust HLS buffer seconds.: Bufer hajmi - HLS bufer soniyalarini sozlang.
 Cancel: Bekor qilish
 CANCEL: BEKOR
 Category: Turkum
+Changelog: O'zgarishlar jurnali
 Channel Details: Kanal tafsilotlari
 Channel Info: Kanal haqida ma'lumot
 Channel:: Kanal:
@@ -23,12 +46,22 @@ Check Duplicates: Dublikatlarni tekshiring
 Check for updates: Yangilanishlarni tekshiring
 Check URLs: URL manzillarini tekshiring
 Clear Filters: Filtrlarni tozalash
+Clear search: Qidiruvni tozalash
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Hamjamiyat va test: CorvoBoys (corvoboys.org) va LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Mamlakat
+Credits: Kreditlar
 Delete Group: Guruhni o'chirish
 Description: Tavsif
 Details: Tafsilotlar
-Do you want to load the edited playlist now?: Tahrirlangan pleylistni hozir yuklamoqchimisiz?
+Developed by Lululla: Lululla tomonidan ishlab chiqilgan
+Developer: Lululla: Tuzuvchi: Lululla
+Do you want to load this edited playlist now?: Ushbu tahrirlangan pleylistni hozir yuklamoqchimisiz?
+Double speed (2x): Ikki marta tezlik (2x)
 Downloading playlist...: Pleylist yuklab olinmoqda...
+Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP faylini yuklaydi, fayllarni almashtiradi, ilovani qayta ishga tushiradi – sozlamalar saqlanib qolgan.
+Drag & drop – drop M3U or JSON files directly onto main window.: Drag & drop - M3U yoki JSON fayllarini to'g'ridan-to'g'ri asosiy oynaga tashlang.
+Drag to seek back in buffer: Buferda orqaga qidirish uchun torting
 Duplicate URLs found:\n\n: Takroriy URL manzillar topildi:\n\n
 Edit Playlist: Pleylistni tahrirlash
 Edit URLs: URL manzillarini tahrirlash
@@ -37,12 +70,19 @@ Enrich with EPG: EPG bilan boyiting
 Enter JSON URL:: JSON URL manzilini kiriting:
 Enter playlist URL (M3U or JSON):: Pleylist URL manzilini kiriting (M3U yoki JSON):
 EPG: EPG
-EPG & Favorites: EPG va Sevimlilar
+Epg & Favorites: Epg va Sevimlilar
+Epg & Logos: Epg va logotiplar
+EPG & Logos: EPG va logotiplar
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Guide - asosiy asboblar panelidagi tugma dastur tafsilotlari bilan to'liq panjarani ko'rsatadi (ma'lumot uchun ikki marta bosing).
 EPG Matching Threshold: EPG moslashish chegarasi
 EPG Source: EPG manbasi
+EPG source – can be set in Settings (epgshare01 or custom URL).: EPG manbasi - Sozlamalarda o'rnatilishi mumkin (epgshare01 yoki maxsus URL).
+EPG source – choose XMLTV file or enter custom URL.: EPG manbai - XMLTV faylini tanlang yoki maxsus URL manzilini kiriting.
 Error: Xato
 Error loading: Yuklashda xato
+Error loading file: {0}: Faylni yuklashda xatolik: {0}
 Error loading playlists: {0}: Pleylistlarni yuklashda xatolik: {0}
+Error loading URL: {0}: URLni yuklashda xatolik yuz berdi: {0}
 ERROR: player.html not found.: XATO: player.html topilmadi.
 Exit: Chiqish
 Export Favorites: Sevimlilarni eksport qilish
@@ -51,18 +91,25 @@ Export Filtered M3U: Filtrlangan M3U eksporti
 Export JSON: JSON-ni eksport qiling
 Export KO: Eksport KO
 Export OK: Eksport OK
+Export only favorite channels to a new M3U file: Yangi M3U fayliga faqat sevimli kanallarni eksport qiling
 Extracting update...: Yangilanish chiqarilmoqda...
 Failed to download playlist: Pleylist yuklab olinmadi
 Failed to load playlist: Pleylist yuklanmadi
 Favorite: Sevimli
+Favorites only: Faqat sevimlilar
 Fetch Logos: Logotiplarni olish
-FILTERS: FILTRLAR
+Filters: Filtrlar
+Fullscreen (hide UI) - press ESC to exit: To'liq ekran (UI yashirish) - chiqish uchun ESC tugmasini bosing
 Geo & Country: Geo & Country
-GeoBlocked: GeoBlocked
+GeoBlocked: Geoblocked
 GitHub Error: GitHub xatosi
+Go back to live: Hayotga qayting
 Group: Guruh
+Half speed (0.5x): Yarim tezlik (0,5x)
 Help: Yordam
 Hide List: Roʻyxatni yashirish
+HLS playback: hls.js (MIT license): HLS ijrosi: hls.js (MIT litsenziyasi)
+Image: Rasm
 Import: Import
 Import error: {0}: Import xatosi: {0}
 Import from URL: URL manzilidan import qilish
@@ -72,27 +119,43 @@ Import Local: Mahalliy import
 Imported {0} channels from JSON.: JSON’dan {0} ta kanal import qilindi.
 Imported {0} channels from URL.: URL manzilidan {0} ta kanal import qilindi.
 Info: Ma'lumot
+Info on: Ma'lumot haqida
 Invalid JSON: {0}: Yaroqsiz JSON: {0}
 Invalid playlist URL.: Yaroqsiz pleylist URL.
 Invalid URL.: URL noto‘g‘ri.
+Json: Json
 JSON Property: JSON mulki
+Ko-fi: Kofe
 Language: Til
+Language – change UI language dynamically (translations in Languages folder).: Til - UI tilini dinamik ravishda o'zgartirish (Tillar papkasida tarjimalar).
+Languages: Tillar
 Languages (comma): Tillar (vergul)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: Lululla tomonidan LiveGardenTVPlus yordami
 LOAD: YUKLASH
 Load a playlist first.: Avval pleylistni yuklang.
 Load File: Faylni yuklash
-Load Online: Onlayn yuklash
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Mahalliy M3U/JSON faylini yuklang – “Faylni yuklash” tugmasi (asboblar paneli) yoki muharrirdagi “Faylni ochish” orqali.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: M3U/JSON URL-manzilini onlayn yuklash – muharrirda “Onlayn yuklash” tugmasi (asboblar paneli) yoki “URL manzilidan ochish”.
 Load playlist file (M3U/JSON) from your computer: Pleylist faylini (M3U/JSON) kompyuteringizdan yuklang
-Load playlist from web URL (M3U or JSON): Pleylistni veb-urldan yuklash (M3U yoki JSON)
 Loaded: Yuklangan
+Loaded {0} channels from JSON file.: JSON faylidan {0} ta kanal yuklandi.
+Loaded {0} channels from JSON URL.: JSON URL manzilidan {0} ta kanal yuklandi.
+Loaded {0} channels from M3U file.: M3U faylidan {0} ta kanal yuklandi.
+Loaded {0} channels from M3U URL.: M3U URL manzilidan {0} ta kanal yuklandi.
 Loading...: Yuklanmoqda...
+Logo: Logotip
+Logo Picker – in editor, click '...' to choose logo from gallery.: Logotip tanlash – muharrirda galereyadan logotip tanlash uchun “...” tugmasini bosing.
 Logo Preview: Logotipni ko'rib chiqish
 Logo URL: Logotip URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Logotiplar - GitHub omboridan avtomatik ravishda yuklab oling (Sozlamalar → Logos manbasi).
 Logos Matching Threshold: Logotiplarning mos keladigan chegarasi
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logotiplar ombori - egasini/repo/yo'lni tanlang (standart OwnerPlugins/logotiplar).
 Logos Source: Logotiplar manbai
 Logos Subfolder: Logotiplar pastki papkasi
 Map JSON properties to channel fields:: JSON xususiyatlarini kanal maydonlariga xaritalash:
 Mapping saved for future imports of this file.: Ushbu faylni kelajakda import qilish uchun xaritalash saqlangan.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Mos keladigan chegaralar - EPG va logotiplar uchun noaniq moslik sezgirligini o'rnating.
 Name: Ism
 Nanoid: Nanoid
 Network error: Tarmoq xatosi
@@ -106,57 +169,90 @@ No favorite channels to export.: Eksport qilinadigan sevimli kanallar yoʻq.
 No playlist found: Hech qanday pleylist topilmadi
 No stream: Oqim yo‘q
 No updates available.: Hech qanday yangilanish mavjud emas.
-Now playing: Hozir oʻynayapti
+Normal speed (1x): Oddiy tezlik (1x)
+Now: Hozir
 OK: KELISHDIKMI
 Online Playlist: Onlayn pleylist
+Online playlist – select from GitHub repository (auto‑refresh).: Onlayn pleylist - GitHub omboridan tanlang (avtomatik yangilash).
+Open File...: Faylni ochish...
+Open from URL: URL manzilidan oching
+Open Playlist: Pleylistni oching
 Pause/Resume live stream: Jonli translatsiyani to‘xtatib turish/davom etish
-Player ready.: O'yinchi tayyor.
+Paused: Pauza qilingan
+PayPal: PayPal
+Picture-in-Picture mode: Tasvir ichidagi rasm rejimi
+Player Control: O'yinchi nazorati
+Playlist & Groups: Pleylist va guruhlar
 Playlist Editor: Pleylist muharriri
+Playlist Loading: Pleylist yuklanmoqda
+Playlist Management: Pleylist boshqaruvi
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Pleylistlar ombori: OwnerPlugins/TivuStreamList (Italiya va xalqaro oqimlar)
 Please select a program first.: Iltimos, avval dasturni tanlang.
 Preview (first 5 channels): Ko‘rib chiqish (birinchi 5 ta kanal)
 Preview error: {0}: Ko‘rib chiqish xatosi: {0}
 Program Details: Dastur tafsilotlari
+Ready.: Tayyor.
 Recent: Yaqinda
+Recent files – quick access to last 5 opened playlists.: Oxirgi fayllar - oxirgi 5 ochilgan pleylistga tezkor kirish.
 Recent playlists: Oxirgi pleylistlar
 Refresh: Yangilash
 Refresh EPG List: EPG roʻyxatini yangilang
 Refresh from GitHub: GitHub dan yangilang
 Rename Group: Guruh nomini o'zgartirish
+Repository: Repozitariy
 Reset Order: Buyurtmani tiklash
 Save: Saqlash
 SAVE: SAQLASH
+Save – persists all settings without reloading current playlist.: Saqlash - joriy pleylistni qayta yuklamasdan barcha sozlamalarni saqlaydi.
 Save as...: Saqlash...
+Save current playlist to a new M3U file: Joriy pleylistni yangi M3U fayliga saqlang
 Save Mapping: Xaritani saqlash
 Save Playlist: Pleylistni saqlash
 Save Status: Holatni saqlash
 Saved: Saqlangan
+Search channels by name: Kanallarni nomi bo'yicha qidiring
 Search channels...: Kanallarni qidirish...
 Select a playlist first.: Avval pleylistni tanlang.
 Select Theme: Mavzuni tanlang
+Selected theme is saved and applied on restart.: Tanlangan mavzu saqlanadi va qayta ishga tushirilganda qo'llaniladi.
 Settings: Sozlamalar
 Show List: Roʻyxatni koʻrsatish
+Show only channels marked as favorites: Faqat sevimlilar sifatida belgilangan kanallarni ko'rsatish
 Show or hide the channel list: Kanallar roʻyxatini koʻrsatish yoki yashirish
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Sinov va qo'llab-quvvatlash uchun CORVOBOYS & LinuxSat-Support hamjamiyatlariga alohida rahmat.
 Start (local): Boshlash (mahalliy)
 Status: Status
 Stream URL: Strim URL
+Stream URLs: Oqim URL manzillari
 Success: Muvaffaqiyat
 Support: Qo'llab-quvvatlash
+Support the developer: Ishlab chiquvchini qo'llab-quvvatlang
 Target Field: Maqsadli maydon
+Thanks to: rahmat
 Theme picker: Mavzu tanlash
+Theme picker – accessible via Tools menu on main toolbar.: Mavzuni tanlash vositasi - asosiy asboblar panelidagi Asboblar menyusi orqali kirish mumkin.
+Themes: Mavzular
 Time: Vaqt
 Title: Sarlavha
 Tools: Asboblar
+Total: Jami
+Total channels in loaded playlist: Yuklangan pleylistdagi jami kanallar
 TV Guide (EPG): Televizion qoʻllanma (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Masofaviy loyiha faylida versiya topilmadi.
 Update: Yangilash
 Update complete. Restarting...: Yangilash tugallandi. Qayta ishga tushirilmoqda...
 Update failed: : Yangilash amalga oshmadi:
+Updates: Yangilanishlar
 URL: URL
 URL (primary): URL (asosiy)
+URL Check: URL tekshiruvi
 URL list (one per line): URL roʻyxati (har bir satrda bittadan)
 URLs & Status: URL manzillar va holat
 Version: Versiya
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus yopilishini kutmoqda...
 Warning: Ogohlantirish
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: Youtube URL
+Youtube URLs: Youtube URL manzillari

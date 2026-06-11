@@ -1,18 +1,41 @@
-﻿(No description): (설명 없음)
+﻿(Completely voluntary – no features are blocked): (완전히 자발적 – 차단된 기능 없음)
+(No description): (설명 없음)
+• Add / rename / delete groups.: • 그룹을 추가/이름 바꾸기/삭제합니다.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • 버퍼 슬라이더: HLS 버퍼를 조정합니다(1~10초).
+• Check URL availability (only visible channels).: • URL 가용성을 확인하십시오(표시되는 채널만 해당).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • 채널 이름, 그룹, URL, 로고, tvg-id, 국가, 언어, 즐겨찾기를 편집합니다.
+• Edit multiple URLs per channel (popup window).: • 채널당 여러 URL을 편집합니다(팝업 창).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG로 강화: 퍼지 일치를 사용하여 누락된 tvg-id를 추가합니다.
+• EPG info displayed in status bar for current channel.: • 현재 채널의 상태 표시줄에 EPG 정보가 표시됩니다.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • OK/FAIL/필터링된 목록을 M3U 또는 JSON으로 내보냅니다.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • 원격 저장소(OwnerPlugins/logos)에서 로고를 가져옵니다.
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • 전체 화면 UI: 사이드바 및 상태 표시줄을 숨깁니다(종료하려면 ESC).
+• Hide/Show channel list button.: • 채널 목록 숨기기/표시 버튼.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • 유연한 필드 매핑(자동 감지, 매핑 저장)을 통해 JSON(로컬 또는 URL)을 가져옵니다.
+• Picture‑in‑Picture (PIP) button.: • PIP(Picture-in-Picture) 버튼.
+• Playback speed: 0.5x, 1x, 2x buttons.: • 재생 속도: 0.5x, 1x, 2x 버튼.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • 헤더를 클릭하여 열을 정렬합니다. 원래 순서로 되돌리려면 '순서 재설정'을 사용하세요.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • 타임시프트: 라이브 스트림을 일시중지합니다. 뒤로 탐색하려면 슬라이더를 드래그하세요. 돌아가려면 '라이브'를 누르세요.
 ◀ Previous: ◀ 이전
+16 colour themes + Light/Dark variants.: 16가지 색상 테마 + 밝은/어두운 변형.
 A new version is available. Do you want to update now?: 새 버전을 사용할 수 있습니다. 지금 업데이트하시겠습니까?
-About: 에 대한
-About TVGarden+: TVGarden+ 소개
+Access via 'Edit Playlist' button on main toolbar.: 메인 도구 모음의 '재생 목록 편집' 버튼을 통해 액세스합니다.
+Actions: 행위
 Add Group: 그룹 추가
 Add Mapping: 매핑 추가
+Adjust buffer size (1-10 seconds): 버퍼 크기 조정(1~10초)
 Advanced IDs: 고급 ID
+Application status: 신청현황
 Apply changes: 변경사항 적용
 Apply Filters: 필터 적용
 Auto-detect: 자동 감지
+Automatic check on startup – or click 'Check for updates' in Tools menu.: 시작 시 자동 확인 - 또는 도구 메뉴에서 '업데이트 확인'을 클릭하세요.
 Buffer (seconds): 버퍼(초)
+Buffer size – adjust HLS buffer seconds.: 버퍼 크기 – HLS 버퍼 초를 조정합니다.
 Cancel: 취소
 CANCEL: 취소
 Category: 범주
+Changelog: 변경 내역
 Channel Details: 채널 세부정보
 Channel Info: 채널 정보
 Channel:: 채널:
@@ -23,12 +46,22 @@ Check Duplicates: 중복 확인
 Check for updates: 업데이트 확인
 Check URLs: URL 확인
 Clear Filters: 필터 지우기
+Clear search: 검색 지우기
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: 커뮤니티 및 테스트: CorvoBoys(corvoboys.org) 및 LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: 국가
+Credits: 크레딧
 Delete Group: 그룹 삭제
 Description: 설명
 Details: 세부
-Do you want to load the edited playlist now?: 지금 편집된 재생목록을 로드하시겠습니까?
+Developed by Lululla: 룰루라(Lululla)에서 개발한
+Developer: Lululla: 개발자: Lululla
+Do you want to load this edited playlist now?: 편집된 재생목록을 지금 로드하시겠습니까?
+Double speed (2x): 2배속(2x)
 Downloading playlist...: 재생목록 다운로드 중...
+Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP을 다운로드하고, 파일을 교체하고, 앱을 다시 시작합니다. 설정은 유지됩니다.
+Drag & drop – drop M3U or JSON files directly onto main window.: 드래그 앤 드롭 – M3U 또는 JSON 파일을 메인 창에 직접 드롭합니다.
+Drag to seek back in buffer: 드래그하여 버퍼에서 다시 탐색
 Duplicate URLs found:\n\n: 중복된 URL이 발견되었습니다.\n\n
 Edit Playlist: 재생목록 편집
 Edit URLs: URL 편집
@@ -37,12 +70,19 @@ Enrich with EPG: EPG로 풍요롭게 하세요
 Enter JSON URL:: JSON URL을 입력하세요:
 Enter playlist URL (M3U or JSON):: 재생목록 URL 입력(M3U 또는 JSON):
 EPG: EPG
-EPG & Favorites: EPG 및 즐겨찾기
+Epg & Favorites: Epg 및 즐겨찾기
+Epg & Logos: Epg 및 로고
+EPG & Logos: EPG 및 로고
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG 가이드 – 메인 도구 모음의 버튼은 프로그램 세부 정보가 포함된 전체 그리드를 표시합니다(정보를 보려면 두 번 클릭).
 EPG Matching Threshold: EPG 일치 임계값
 EPG Source: EPG 소스
+EPG source – can be set in Settings (epgshare01 or custom URL).: EPG 소스 – 설정(epgshare01 또는 사용자 정의 URL)에서 설정할 수 있습니다.
+EPG source – choose XMLTV file or enter custom URL.: EPG 소스 – XMLTV 파일을 선택하거나 사용자 정의 URL을 입력합니다.
 Error: 오류
 Error loading: 로드 중 오류 발생
+Error loading file: {0}: 파일 로드 중 오류 발생: {0}
 Error loading playlists: {0}: 재생목록 로드 중 오류 발생: {0}
+Error loading URL: {0}: URL 로드 중 오류 발생: {0}
 ERROR: player.html not found.: 오류: player.html을 찾을 수 없습니다.
 Exit: 출구
 Export Favorites: 즐겨찾기 내보내기
@@ -51,18 +91,25 @@ Export Filtered M3U: 필터링된 M3U 내보내기
 Export JSON: JSON 내보내기
 Export KO: 수출 KO
 Export OK: 수출 OK
+Export only favorite channels to a new M3U file: 즐겨찾는 채널만 새 M3U 파일로 내보내기
 Extracting update...: 업데이트 추출 중...
 Failed to download playlist: 재생목록을 다운로드하지 못했습니다.
 Failed to load playlist: 재생목록을 로드하지 못했습니다.
 Favorite: 가장 좋아하는
+Favorites only: 즐겨찾기만
 Fetch Logos: 로고 가져오기
-FILTERS: 필터
+Filters: 필터
+Fullscreen (hide UI) - press ESC to exit: 전체 화면(UI 숨기기) - 종료하려면 ESC를 누르세요.
 Geo & Country: 지역 및 국가
 GeoBlocked: 지리적으로 차단됨
 GitHub Error: GitHub 오류
+Go back to live: 라이브로 돌아가기
 Group: 그룹
+Half speed (0.5x): 절반 속도(0.5x)
 Help: 돕다
 Hide List: 목록 숨기기
+HLS playback: hls.js (MIT license): HLS 재생: hls.js(MIT 라이센스)
+Image: 영상
 Import: 수입
 Import error: {0}: 가져오기 오류: {0}
 Import from URL: URL에서 가져오기
@@ -72,27 +119,43 @@ Import Local: 로컬 가져오기
 Imported {0} channels from JSON.: JSON에서 {0}개의 채널을 가져왔습니다.
 Imported {0} channels from URL.: URL에서 {0}개의 채널을 가져왔습니다.
 Info: 정보
+Info on: 정보
 Invalid JSON: {0}: 잘못된 JSON: {0}
 Invalid playlist URL.: 재생목록 URL이 잘못되었습니다.
 Invalid URL.: URL이 잘못되었습니다.
+Json: 제이슨
 JSON Property: JSON 속성
+Ko-fi: 커피
 Language: 언어
+Language – change UI language dynamically (translations in Languages folder).: 언어 – UI 언어를 동적으로 변경합니다(언어 폴더의 번역).
+Languages: 언어
 Languages (comma): 언어(쉼표)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: Lululla의 LiveGardenTVPlus 도움말
 LOAD: 짐
 Load a playlist first.: 먼저 재생목록을 로드하세요.
 Load File: 파일 로드
-Load Online: 온라인으로 로드
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: 로컬 M3U/JSON 파일 로드 – '파일 로드' 버튼(도구 모음) 또는 편집기의 '파일 열기'를 통해.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: 온라인 M3U/JSON URL 로드 - 편집기에서 '온라인 로드' 버튼(도구 모음) 또는 'URL에서 열기'.
 Load playlist file (M3U/JSON) from your computer: 컴퓨터에서 재생 목록 파일(M3U/JSON) 로드
-Load playlist from web URL (M3U or JSON): 웹 URL(M3U 또는 JSON)에서 재생목록 로드
 Loaded: 짐을 실은
+Loaded {0} channels from JSON file.: JSON 파일에서 {0} 채널을 로드했습니다.
+Loaded {0} channels from JSON URL.: JSON URL에서 {0}개의 채널을 로드했습니다.
+Loaded {0} channels from M3U file.: M3U 파일에서 {0}개의 채널을 로드했습니다.
+Loaded {0} channels from M3U URL.: M3U URL에서 {0}개의 채널을 로드했습니다.
 Loading...: 로드 중...
+Logo: 심벌 마크
+Logo Picker – in editor, click '...' to choose logo from gallery.: 로고 선택기 – 편집기에서 '...'을 클릭하여 갤러리에서 로고를 선택합니다.
 Logo Preview: 로고 미리보기
 Logo URL: 로고 URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).: 로고 – GitHub 저장소(설정 → 로고 소스)에서 자동으로 다운로드됩니다.
 Logos Matching Threshold: 로고 일치 임계값
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: 로고 저장소 – 소유자/저장소/경로(기본 소유자 플러그인/로고)를 선택합니다.
 Logos Source: 로고 소스
 Logos Subfolder: 로고 하위 폴더
 Map JSON properties to channel fields:: JSON 속성을 채널 필드에 매핑합니다.
 Mapping saved for future imports of this file.: 나중에 이 파일을 가져올 수 있도록 매핑이 저장되었습니다.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: 일치 임계값 – EPG 및 로고에 대한 퍼지 일치 민감도를 설정합니다.
 Name: 이름
 Nanoid: 나노이드
 Network error: 네트워크 오류
@@ -106,57 +169,90 @@ No favorite channels to export.: 내보낼 즐겨찾는 채널이 없습니다.
 No playlist found: 재생목록을 찾을 수 없습니다.
 No stream: 스트림 없음
 No updates available.: 사용 가능한 업데이트가 없습니다.
-Now playing: 지금 재생 중
+Normal speed (1x): 일반 속도(1x)
+Now: 지금
 OK: 좋아요
 Online Playlist: 온라인 재생목록
+Online playlist – select from GitHub repository (auto‑refresh).: 온라인 재생 목록 – GitHub 저장소에서 선택합니다(자동 새로 고침).
+Open File...: 파일 열기...
+Open from URL: URL에서 열기
+Open Playlist: 재생목록 열기
 Pause/Resume live stream: 라이브 스트림 일시중지/재개
-Player ready.: 플레이어가 준비되었습니다.
+Paused: 일시중지됨
+PayPal: 페이팔
+Picture-in-Picture mode: PIP(Picture-in-Picture) 모드
+Player Control: 플레이어 제어
+Playlist & Groups: 재생목록 및 그룹
 Playlist Editor: 재생목록 편집기
+Playlist Loading: 재생목록 로드 중
+Playlist Management: 재생목록 관리
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): 재생 목록 저장소: OwnerPlugins/TivuStreamList(이탈리아어 및 국제 스트림)
 Please select a program first.: 먼저 프로그램을 선택해주세요.
 Preview (first 5 channels): 미리보기(처음 5개 채널)
 Preview error: {0}: 미리보기 오류: {0}
 Program Details: 프로그램 세부정보
+Ready.: 준비가 된.
 Recent: 최근의
+Recent files – quick access to last 5 opened playlists.: 최근 파일 - 최근에 열었던 5개의 재생 목록에 빠르게 액세스할 수 있습니다.
 Recent playlists: 최근 재생목록
 Refresh: 새로 고치다
 Refresh EPG List: EPG 목록 새로 고침
 Refresh from GitHub: GitHub에서 새로 고침
 Rename Group: 그룹 이름 바꾸기
+Repository: 저장소
 Reset Order: 주문 재설정
 Save: 구하다
 SAVE: 구하다
+Save – persists all settings without reloading current playlist.: 저장 – 현재 재생 목록을 다시 로드하지 않고 모든 설정을 유지합니다.
 Save as...: 다른 이름으로 저장...
+Save current playlist to a new M3U file: 현재 재생 목록을 새 M3U 파일에 저장
 Save Mapping: 매핑 저장
 Save Playlist: 재생목록 저장
 Save Status: 상태 저장
 Saved: 저장됨
+Search channels by name: 이름으로 채널 검색
 Search channels...: 채널 검색...
 Select a playlist first.: 먼저 재생목록을 선택하세요.
 Select Theme: 테마 선택
+Selected theme is saved and applied on restart.: 선택한 테마는 저장되어 재시작 시 적용됩니다.
 Settings: 설정
 Show List: 목록 표시
+Show only channels marked as favorites: 즐겨찾기로 표시된 채널만 표시
 Show or hide the channel list: 채널 목록 표시 또는 숨기기
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: 테스트 및 지원을 해주신 CORVOBOYS 및 LinuxSat 지원 커뮤니티에 특별히 감사드립니다.
 Start (local): 시작(로컬)
 Status: 상태
 Stream URL: 스트림 URL
+Stream URLs: 스트림 URL
 Success: 성공
 Support: 지원하다
+Support the developer: 개발자 지원
 Target Field: 대상분야
+Thanks to: 덕분에
 Theme picker: 테마 선택기
+Theme picker – accessible via Tools menu on main toolbar.: 테마 선택기 – 기본 도구 모음의 도구 메뉴를 통해 액세스할 수 있습니다.
+Themes: 테마
 Time: 시간
 Title: 제목
 Tools: 도구
+Total: 총
+Total channels in loaded playlist: 로드된 재생목록의 총 채널
 TV Guide (EPG): TV 가이드(EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: 원격 프로젝트 파일에서 버전을 찾을 수 없습니다.
 Update: 업데이트
 Update complete. Restarting...: 업데이트가 완료되었습니다. 다시 시작하는 중...
 Update failed: : 업데이트 실패:
+Updates: 업데이트
 URL: URL
 URL (primary): URL(기본)
+URL Check: URL 확인
 URL list (one per line): URL 목록(한 줄에 하나씩)
 URLs & Status: URL 및 상태
 Version: 버전
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus가 종료되기를 기다리는 중...
 Warning: 경고
+WebView2: Microsoft Edge WebView2: WebView2: 마이크로소프트 엣지 WebView2
 Youtube URL: 유튜브 URL
+Youtube URLs: 유튜브 URL

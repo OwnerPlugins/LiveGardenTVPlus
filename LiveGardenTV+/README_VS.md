@@ -8,45 +8,81 @@
 [![Donate](https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://ko-fi.com/lululla)
 [![Donate](https://img.shields.io/badge/_-Donate-green.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://paypal.me/belfagor2005)
 
-**LiveGardenTVPlus** is a desktop IPTV player for Windows (WPF / .NET 10) that plays HLS streams (m3u8) using **WebView2** and **hls.js**.  
+**LiveGardenTVPlus** is a desktop IPTV player for Windows (WPF / .NET 10) that plays HLS streams (m3u8) using **WebView2** and **hls.js**.
 It loads local or online M3U playlists, organizes channels by groups, and provides a modern, themeable interface.
 
-
 ---
+
 ## Changelog
 
+## 📋 LiveGardenTVPlus – Changelog (v2.2)
+
+### 🆕 New Features
+
+- **Modern Help Window** – Replaced old MessageBox help with a fully translatable, expandable `HelpWindow`.
+  Includes sections: Playlist Loading, Playlist Editor, Player Controls, EPG & Logos, Settings, Themes, Updates, Credits.
+  Accessible via new `Help` button in main toolbar.
+
+- **Total Channels Counter** – Added `TotalChannelsText` in status bar (leftmost).
+  Shows number of real channels (excludes "← Back to all groups" and other navigation items).
+  Updates dynamically when filtering (favorites only, search, drill‑down).
+
+- **Favorites Only Toggle** – Replaced old checkbox with a `ToggleButton` styled uniformly with other toolbar buttons (icon + text).
+  Shows star icon and fully translatable text.
+
+- **AboutWindow Full Translation** – Added `x:Name` to all labels and buttons; now fully localizable via `LanguageManager`.
+  Avatar GIF displays correctly (removed duplicate `Source` attribute).
+
+### 🐛 Fixes
+
+- **M3U online loading crash** – Restored `Task.Run` for playlist parsing (v1.6 behaviour).
+  Eliminated crash when loading remote M3U playlists.
+
+- **Total counter correction** – Fixed total count to exclude pseudo‑groups and navigation items.
+
+- **Theme picker colors** – Added proper colors for Pink, Cyan, Lime, Indigo themes in `ColorPickerWindow`.
+
+- **Ambiguous `Channel` reference** – Removed `using System.Threading.Channels` conflict.
+
+- **UI translations** – Completed all missing translations in toolbar, status bar, and context menus.
+
+### Need more help?
+
+Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
+
+---
 
 ## 📋 LiveGardenTVPlus – Changelog (v2.1)
 
 #### 📁 Flexible JSON Import
-- **Import Local JSON** – New button `Import Local` in the playlist editor.  
-  Opens a mapping window that allows associating any JSON property with internal fields (`name`, `stream_urls`, `logo_url`, `group`, `tvg_id`, etc.).  
-  - Auto‑detect properties using common heuristics.  
-  - Save mapping for reuse with similar files.  
+- **Import Local JSON** – New button `Import Local` in the playlist editor.
+  Opens a mapping window that allows associating any JSON property with internal fields (`name`, `stream_urls`, `logo_url`, `group`, `tvg_id`, etc.).
+  - Auto‑detect properties using common heuristics.
+  - Save mapping for reuse with similar files.
   - Preview first 5 channels before import.
 
-- **Import JSON from URL** – New button `Import from URL` in the playlist editor.  
+- **Import JSON from URL** – New button `Import from URL` in the playlist editor.
   Enter a remote (raw) JSON URL, download content and apply the same mapping procedure.
 
 #### 🔄 JSON Support in Main Loaders
-- **"Load File" button** (ex "Load M3U"): now filters both `.m3u`/`.m3u8` and `.json` files.  
+- **"Load File" button** (ex "Load M3U"): now filters both `.m3u`/`.m3u8` and `.json` files.
   Auto‑detects format and directly imports JSON structured like the internal model (no mapping needed for compatible files).
 
-- **"Load Online" button**: now accepts both M3U and JSON URLs.  
-  Content is analysed and handled accordingly.  
+- **"Load Online" button**: now accepts both M3U and JSON URLs.
+  Content is analysed and handled accordingly.
   Tooltip and button label updated to reflect dual support.
 
 #### 🖥️ Playlist Editor UI Improvements
-- Added **`Name` column** to the DataGrid (previously missing).  
+- Added **`Name` column** to the DataGrid (previously missing).
   Channel names are now visible immediately.
-- JSON group buttons renamed for clarity:  
+- JSON group buttons renamed for clarity:
   `Import Local`, `Import from URL`, `Export JSON`.
 - All labels are fully translatable via `LanguageManager`.
-- **Column sorting** enabled for all columns, including template columns (URL primary, Logo, etc.).  
+- **Column sorting** enabled for all columns, including template columns (URL primary, Logo, etc.).
 - **Reset Order** button added to restore original channel order after sorting.
 
 #### 🐛 Fixes & Technical Improvements
-- Fixed `PrimaryUrl` property change notification in `ChannelJson`.  
+- Fixed `PrimaryUrl` property change notification in `ChannelJson`.
   The main URL now appears correctly in the grid right after import.
 - Robust handling of `null` values for `group`, `tvg_id`, `country`, `nanoid`, `logo_url` during JSON import.
 - JSON import now supports:
@@ -72,7 +108,7 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 2. Enter the full URL of the remote M3U playlist.
 3. The app will automatically detect the format and load the channels.
 
-**Example M3U URL (Italian channels):**  
+**Example M3U URL (Italian channels):**
 `https://raw.githubusercontent.com/OwnerPlugins/TivuStreamList/refs/heads/list/ios/playlist.m3u`
 
 ### Loading a JSON playlist from a URL
@@ -81,7 +117,7 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 2. Paste the URL pointing to a raw JSON file.
 3. The app will recognise the JSON format and import the channels (structure must match the `ChannelJson` model).
 
-**Example JSON URL (Italian channels):**  
+**Example JSON URL (Italian channels):**
 `https://raw.githubusercontent.com/OwnerPlugins/famelack-data/main/tv/raw/countries/it.json`
 
 ### Importing local JSON files with mapping
@@ -109,19 +145,6 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 - Click any column header to sort channels by that field.
 - Click **"Reset Order"** (in the editor’s Action group) to revert to the original channel order.
 
-### Need more help?
-
-Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
-
----
-
-✅ **Status**: Completed and tested.  
-📌 **Next steps (optional)**:  
-- Xtream Codes support (external player).  
-- Local EPG cache.  
-- Subtitles support.
-
-Let me know if you need any changes.
 ---
 
 ## 🚀 LiveGardenTVPlus – Changelog (v2.0)
@@ -241,7 +264,7 @@ Let me know if you need any changes.
 
 ### Playlist Editor (`PlaylistEditorWindow`)
 
-- **Full channel view** in an editable `DataGrid` with columns:  
+- **Full channel view** in an editable `DataGrid` with columns:
   `Name`, `URL (primary)`, `Group`, `Logo`, `TvgId`, `Favorite`, `Country`, `GeoBlocked`, `Nanoid`, `Languages`, `Youtube URLs`, `Stream URLs`, `Status`.
 - **Inline editing** of all fields (except read‑only columns like `Languages` and `URLs` which display concatenated lists).
 - **Group management**:
@@ -363,30 +386,30 @@ Let me know if you need any changes.
 
 ## ✨ Features (Version 1.3
 
-- **Electronic Program Guide (EPG) support**  
-  - EPG URL (`x-tvg-url`) is automatically extracted from the M3U playlist header.  
-  - Program data is downloaded in the background (supports `.gz` compressed XMLTV).  
-  - Current programme title, start and end times are displayed in the status bar, automatically converted to the user’s local timezone.  
+- **Electronic Program Guide (EPG) support**
+  - EPG URL (`x-tvg-url`) is automatically extracted from the M3U playlist header.
+  - Program data is downloaded in the background (supports `.gz` compressed XMLTV).
+  - Current programme title, start and end times are displayed in the status bar, automatically converted to the user’s local timezone.
   - Timezone handling: supports UTC with explicit offset (e.g., `+0200`) or assumed UTC.
 
-- **Channel logos**  
-  - Channel icons (`tvg-logo`) are now displayed next to each channel in the TreeView.  
-  - Images are loaded from remote URLs with a fallback default icon when the logo is missing or fails to load.  
+- **Channel logos**
+  - Channel icons (`tvg-logo`) are now displayed next to each channel in the TreeView.
+  - Images are loaded from remote URLs with a fallback default icon when the logo is missing or fails to load.
   - Improved visual appearance with larger, adjustable icon sizes (32x32) and bigger font for channel names.
 
 ### 🔧 Fixes
 
-- **M3U parser improvements**  
-  - The parser now correctly skips extra metadata lines (e.g., `#EXTSIZE`, `#EXTVLCOPT`) that were breaking URL extraction.  
+- **M3U parser improvements**
+  - The parser now correctly skips extra metadata lines (e.g., `#EXTSIZE`, `#EXTVLCOPT`) that were breaking URL extraction.
   - All channels, including those with additional tags, are now properly loaded.
 
-- **Streaming stability**  
-  - Restored reliable HLS playback that was temporarily affected by parser changes.  
+- **Streaming stability**
+  - Restored reliable HLS playback that was temporarily affected by parser changes.
   - WebView2 player initialisation simplified to avoid race conditions.
 
-- **UI enhancements**  
-  - Added a draggable `GridSplitter` between channel list and player (resizable sidebar).  
-  - Toggle sidebar button now hides both the channel column and the splitter.  
+- **UI enhancements**
+  - Added a draggable `GridSplitter` between channel list and player (resizable sidebar).
+  - Toggle sidebar button now hides both the channel column and the splitter.
   - Channel list items (logos, folder icons, text) enlarged for better readability.
 
 ---
@@ -399,14 +422,14 @@ Let me know if you need any changes.
 
 ## ✨ Features (Version 1.1
 
-- **Auto‑update** – A new "Update" button (toolbar or Help menu) checks for a newer version on GitHub.  
+- **Auto‑update** – A new "Update" button (toolbar or Help menu) checks for a newer version on GitHub.
   If found, it downloads the ZIP, extracts it, and restarts the app after replacing files.
 
 - **Version display** – The current version (e.g., `1.0`) now appears in the main window title, in the Help dialog, and in the "No updates available" message.
 
-- **Improved installer (Inno Setup)**  
-  - Multi‑language selection at startup (English, Italian, Arabic, French, Turkish, Polish, German, Spanish, Dutch, Portuguese, Russian).  
-  - Donation page with QR codes (PayPal & Ko‑fi).  
+- **Improved installer (Inno Setup)**
+  - Multi‑language selection at startup (English, Italian, Arabic, French, Turkish, Polish, German, Spanish, Dutch, Portuguese, Russian).
+  - Donation page with QR codes (PayPal & Ko‑fi).
   - Optional .NET Runtime info page with a clickable download link.
 
 - **Cleaner distribution** – The ZIP and setup no longer include WebView2 cache or duplicate folders (`Languages\Languages`, `PlayerHost\PlayerHost`).
@@ -504,29 +527,29 @@ LiveGardenTVPlus/
 
 ## 🛠️ Usage
 
-1. **Load a playlist**  
-   - Click `Load M3U` (local file) or `Online M3U` (enter raw URL).  
+1. **Load a playlist**
+   - Click `Load M3U` (local file) or `Online M3U` (enter raw URL).
    - Or go to `Settings` → `Refresh from GitHub` → select a playlist → press `LOAD` or `SAVE`.
 
-2. **Play a channel**  
+2. **Play a channel**
    - Click any channel in the tree view. The video starts automatically.
 
-3. **Manage groups**  
-   - Click a group name to see only its channels.  
+3. **Manage groups**
+   - Click a group name to see only its channels.
    - Click `← Back to all groups` to return.
 
-4. **Favorites**  
-   - Right‑click a channel (or use the star icon) to add/remove favorites.  
+4. **Favorites**
+   - Right‑click a channel (or use the star icon) to add/remove favorites.
    - Toggle the `⭐ Favorites only` checkbox.
 
-5. **Search**  
+5. **Search**
    - Type in the search box to filter channels (flat result list).
 
-6. **Theme & UI**  
-   - Use the palette icon to choose a color theme.  
-   - `Hide List` collapses the sidebar.  
-   - `Fullscreen` hides all UI (press ESC to exit).  
-   - Speed buttons change playback speed.  
+6. **Theme & UI**
+   - Use the palette icon to choose a color theme.
+   - `Hide List` collapses the sidebar.
+   - `Fullscreen` hides all UI (press ESC to exit).
+   - Speed buttons change playback speed.
    - Drag & drop a `.m3u` file onto the window.
 
 ---
@@ -550,7 +573,7 @@ This project is released under the **MIT License** – see [LICENSE](LICENSE) fi
 
 ## 🤝 Contributing
 
-Bug reports and pull requests are welcome. Please open an issue first to discuss major changes.  
+Bug reports and pull requests are welcome. Please open an issue first to discuss major changes.
 For language translation fixes (the current limitation), any help is highly appreciated!
 
 ---

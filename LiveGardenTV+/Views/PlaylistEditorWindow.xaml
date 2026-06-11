@@ -1,17 +1,15 @@
-﻿<Window x:Class="LiveGardenTVPlus.Views.PlaylistEditorWindow" 
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+﻿<Window x:Class="LiveGardenTVPlus.Views.PlaylistEditorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:converters="clr-namespace:LiveGardenTVPlus.Converters"
-        xmlns:material="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf" 
-        Title="Playlist Editor by Lululla" Height="Auto" Width="Auto"
+        xmlns:material="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
+        Title="Playlist Management by Lululla" Height="Auto" Width="Auto"
         Background="{DynamicResource WindowBackgroundBrush}"
         Foreground="{DynamicResource ForegroundBrush}"
         WindowStartupLocation="CenterOwner">
-
-        <Window.Resources>
-            <converters:UrlToImageConverter x:Key="UrlToImageConverter"/>
-        </Window.Resources>
-
+    <Window.Resources>
+        <converters:UrlToImageConverter x:Key="UrlToImageConverter"/>
+    </Window.Resources>
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -25,7 +23,7 @@
                 <!-- Group 1: Playlist & Groups -->
                 <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
                     <StackPanel>
-                        <TextBlock Text="Playlist &amp; Groups" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                        <TextBlock x:Name="PlaylistGroups" Text="Playlist &amp; Groups" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
                         <WrapPanel>
                             <Button x:Name="NewPlaylistBtn" Content="New" Width="140" Margin="2,0" Click="NewPlaylistBtn_Click"/>
                             <Button x:Name="AddGroupBtn" Content="Add Group" Width="140" Margin="2,0" Click="AddGroupBtn_Click"/>
@@ -34,10 +32,41 @@
                         </WrapPanel>
                     </StackPanel>
                 </Border>
-                <!-- Group 2: URL Check & Export OK/FAIL -->
+                <!-- Group 2: EPG Tools -->
                 <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
                     <StackPanel>
-                        <TextBlock Text="URL Check" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                        <TextBlock x:Name="EpgLogos" Text="Epg &amp; Logos" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                        <WrapPanel>
+                            <Button x:Name="EnrichWithEpgBtn" Content="Enrich" Width="140" Margin="2,0" Click="EnrichWithEpgBtn_Click"/>
+                            <Button x:Name="FetchLogosBtn" Content="Fetch Logos" Width="140" Margin="2,0" Click="FetchLogosBtn_Click"/>
+                        </WrapPanel>
+                    </StackPanel>
+                </Border>
+                <!-- Group 3: Open Playlist (local and remote) -->
+                <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
+                    <StackPanel>
+                        <TextBlock x:Name="OpenPlaylist" Text="Open Playlist" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                        <WrapPanel>
+                            <Button x:Name="OpenFileBtn" Content="Open File..." Width="140" Margin="2,0" Click="OpenFileBtn_Click"/>
+                            <Button x:Name="OpenUrlBtn" Content="Open from URL" Width="140" Margin="2,0" Click="OpenUrlBtn_Click"/>
+                        </WrapPanel>
+                    </StackPanel>
+                </Border>
+                <!-- Group 4: JSON -->
+                <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
+                    <StackPanel>
+                        <TextBlock x:Name="JsonGroup" Text="Json" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                        <WrapPanel>
+                            <Button x:Name="ImportJsonBtn" Content="Import Local" Width="140" Margin="2,0" Click="ImportJsonBtn_Click"/>
+                            <Button x:Name="ImportJsonUrlBtn" Content="Import from URL" Width="140" Margin="2,0" Click="ImportJsonUrlBtn_Click"/>
+                            <Button x:Name="ExportJsonBtn" Content="Export JSON" Width="140" Margin="2,0" Click="ExportJsonBtn_Click"/>
+                        </WrapPanel>
+                    </StackPanel>
+                </Border>
+                <!-- Group 5: URL Check & Export OK/FAIL -->
+                <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
+                    <StackPanel>
+                        <TextBlock x:Name="URLCheck" Text="URL Check" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
                         <WrapPanel>
                             <Button x:Name="CheckUrlsBtn" Content="Check URLs" Width="140" Margin="2,0" Click="CheckUrlsBtn_Click"/>
                             <Button x:Name="CheckDuplicatesBtn" Content="Check Duplicates" Width="140" Margin="2,0" Click="CheckDuplicatesBtn_Click"/>
@@ -47,42 +76,10 @@
                         </WrapPanel>
                     </StackPanel>
                 </Border>
-                <!-- Group 3: JSON -->
-                <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
-                    <StackPanel>
-                        <TextBlock Text="JSON" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
-                        <WrapPanel>
-                            <Button x:Name="ImportJsonBtn" Content="Import Local" Width="140" Margin="2,0" Click="ImportJsonBtn_Click"/>
-                            <Button x:Name="ImportJsonUrlBtn" Content="Import from URL" Width="140" Margin="2,0" Click="ImportJsonUrlBtn_Click"/>
-                            <Button x:Name="ExportJsonBtn" Content="Export JSON" Width="140" Margin="2,0" Click="ExportJsonBtn_Click"/>
-                        </WrapPanel>
-                    </StackPanel>
-                </Border>
-              
-                <!-- Group 4: Filtered Export -->
-                <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
-                    <StackPanel>
-                        <TextBlock Text="Filtered Export" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
-                        <WrapPanel>
-                            <Button x:Name="ExportFilteredM3uBtn" Content="M3U" Width="140" Margin="2,0" Click="ExportFilteredM3uBtn_Click"/>
-                            <Button x:Name="ExportFilteredJsonBtn" Content="JSON" Width="140" Margin="2,0" Click="ExportFilteredJsonBtn_Click"/>
-                        </WrapPanel>
-                    </StackPanel>
-                </Border>
-                <!-- Group 5: EPG Tools -->
-                <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
-                    <StackPanel>
-                        <TextBlock Text="EPG &amp; LOGOS" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
-                        <WrapPanel>
-                            <Button x:Name="EnrichWithEpgBtn" Content="Enrich" Width="140" Margin="2,0" Click="EnrichWithEpgBtn_Click"/>
-                            <Button x:Name="FetchLogosBtn" Content="Fetch Logos" Width="140" Margin="2,0" Click="FetchLogosBtn_Click"/>
-                        </WrapPanel>
-                    </StackPanel>
-                </Border>
                 <!-- Group 6: Actions (Save & Close) -->
                 <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="6" Margin="5,2" Padding="8,4" Background="{DynamicResource ControlBackgroundBrush}">
                     <StackPanel>
-                        <TextBlock Text="Actions" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                        <TextBlock x:Name="ActionsButtons" Text="Actions" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
                         <WrapPanel>
                             <Button x:Name="ResetOrderBtn" Content="Reset Order" Width="140" Margin="2,0" Click="ResetOrderBtn_Click"/>
                             <Button x:Name="SaveBtn" Content="Save as..." Width="140" Margin="2,0" Click="SaveBtn_Click"/>
@@ -96,7 +93,7 @@
         <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="1" CornerRadius="4" Padding="5" Margin="0,5,0,5" Background="{DynamicResource ControlBackgroundBrush}">
             <StackPanel>
                 <!-- Centered FILTERS title -->
-                <TextBlock x:Name="FilterLabel" Text="FILTERS" FontWeight="Bold" FontSize="14" Foreground="{DynamicResource ForegroundBrush}" HorizontalAlignment="Center" Margin="0,0,0,8"/>
+                <TextBlock x:Name="FilterLabel" Text="Filters" FontWeight="Bold" FontSize="14" Foreground="{DynamicResource ForegroundBrush}" HorizontalAlignment="Center" Margin="0,0,0,8"/>
                 <!-- WrapPanel containing all filter groups -->
                 <WrapPanel HorizontalAlignment="Center">
                     <!-- Group: Channel Info -->
@@ -194,76 +191,74 @@
                 <WrapPanel HorizontalAlignment="Center" Margin="0,10,0,0">
                     <Button x:Name="ApplyFilterBtn" Content="Apply Filters" Width="150" Margin="5,0" Click="ApplyFilterBtn_Click" ToolTip="Apply current filters"/>
                     <Button x:Name="ClearFilterBtn" Content="Clear Filters" Width="150" Margin="5,0" Click="ClearFilterBtn_Click" ToolTip="Clear all filters and show all channels"/>
+                    <Button x:Name="ExportFilteredM3uBtn" Content="Export Filtered M3U" Width="150" Margin="2,0" Click="ExportFilteredM3uBtn_Click"/>
+                    <Button x:Name="ExportFilteredJsonBtn" Content="Export Filtered JSON" Width="150" Margin="2,0" Click="ExportFilteredJsonBtn_Click"/>
                 </WrapPanel>
             </StackPanel>
         </Border>
         <!-- DataGrid -->
-        <DataGrid x:Name="ChannelsGrid" Grid.Row="2" AutoGenerateColumns="False" 
-                  CanUserAddRows="False" CanUserDeleteRows="False" 
-                  SelectionMode="Single" SelectionUnit="FullRow" RowHeight="32" 
-                  MouseDoubleClick="ChannelsGrid_MouseDoubleClick"
-                  Sorting="ChannelsGrid_Sorting"> 
-                  
+        <DataGrid x:Name="ChannelsGrid" Grid.Row="2" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" SelectionUnit="FullRow" RowHeight="32" MouseDoubleClick="ChannelsGrid_MouseDoubleClick" Sorting="ChannelsGrid_Sorting">
             <DataGrid.Columns>
-                <!-- Colonna unica con icona e pulsante edit -->
-                <DataGridTemplateColumn Header="PNG" Width="65" SortMemberPath="logo_url">
+                <!-- Picons column with icon and edit button -->
+                <DataGridTemplateColumn x:Name="colPicons" Header="Image" Width="65" SortMemberPath="logo_url">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                <Image Source="{Binding logo_url, Converter={StaticResource UrlToImageConverter}}" 
-                                       Width="24" Height="24" Stretch="Uniform" Margin="2"/>
-                                <Button Content="✎" Width="25" Height="25" Margin="5,0,0,0" 
-                                        Click="EditButton_Click" Tag="{Binding}"
-                                        ToolTip="Edit channel details"/>
+                                <Image Source="{Binding logo_url, Converter={StaticResource UrlToImageConverter}}" Width="24" Height="24" Stretch="Uniform" Margin="2"/>
+                                <Button Content="✎" Width="25" Height="25" Margin="5,0,0,0" Click="EditButton_Click" Tag="{Binding}" ToolTip="Edit channel details"/>
                             </StackPanel>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
-                <DataGridTextColumn Header="Name" Binding="{Binding name}" Width="2*" IsReadOnly="False"/>
-                <DataGridTemplateColumn Header="URL (primary)" Width="3*" SortMemberPath="stream_urls[0]">
+                <!-- Name -->
+                <DataGridTextColumn x:Name="colName" Header="Name" Binding="{Binding name}" Width="2*" IsReadOnly="False"/>
+                <!-- URL (primary) -->
+                <DataGridTemplateColumn x:Name="colUrlPrimary" Header="URL (primary)" Width="3*" SortMemberPath="stream_urls[0]">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal">
-                                <Button Content="✎" Width="25" Height="25" Margin="0,0,5,0" 
-                                        Click="EditUrlsButton_Click" Tag="{Binding}"
-                                        ToolTip="Edit multiple URLs"/>
-                                <TextBlock Text="{Binding PrimaryUrl, FallbackValue=''}" VerticalAlignment="Center" 
-                                           TextTrimming="CharacterEllipsis" MaxWidth="200"/>
+                                <Button Content="✎" Width="25" Height="25" Margin="0,0,5,0" Click="EditUrlsButton_Click" Tag="{Binding}" ToolTip="Edit multiple URLs"/>
+                                <TextBlock Text="{Binding PrimaryUrl, FallbackValue=''}" VerticalAlignment="Center" TextTrimming="CharacterEllipsis" MaxWidth="200"/>
                             </StackPanel>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                     <DataGridTemplateColumn.CellEditingTemplate>
                         <DataTemplate>
-                            <TextBox Text="{Binding PrimaryUrl, UpdateSourceTrigger=PropertyChanged, FallbackValue=''}" />
+                            <TextBox Text="{Binding PrimaryUrl, UpdateSourceTrigger=PropertyChanged, FallbackValue=''}"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellEditingTemplate>
                 </DataGridTemplateColumn>
-
-                <DataGridTextColumn Header="Group" Binding="{Binding group}" Width="1.5*"/>
-
-                <DataGridTemplateColumn Header="Logo" Width="2*">
+                <!-- Group -->
+                <DataGridTextColumn x:Name="colGroup" Header="Group" Binding="{Binding group}" Width="1.5*"/>
+                <!-- Logo -->
+                <DataGridTemplateColumn x:Name="colLogo" Header="Logo" Width="2*">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal">
-                                <Button Content="..." Width="30" Margin="0,0,5,0" 
-                                        Click="PickLogo_Click" Tag="{Binding}" 
-                                        ToolTip="Choose logo from gallery"/>
-                                <TextBox Text="{Binding logo_url, UpdateSourceTrigger=PropertyChanged, FallbackValue=''}" 
-                                         VerticalAlignment="Center" MinWidth="150" TextWrapping="NoWrap"/>
+                                <Button Content="..." Width="30" Margin="0,0,5,0" Click="PickLogo_Click" Tag="{Binding}" ToolTip="Choose logo from gallery"/>
+                                <TextBox Text="{Binding logo_url, UpdateSourceTrigger=PropertyChanged, FallbackValue=''}" VerticalAlignment="Center" MinWidth="150" TextWrapping="NoWrap"/>
                             </StackPanel>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
-
-                <DataGridTextColumn Header="TvgId" Binding="{Binding tvg_id}" Width="2*"/>
-                <DataGridCheckBoxColumn Header="Favorite" Binding="{Binding isFavorite}" Width="Auto"/>
-                <DataGridTextColumn Header="Country" Binding="{Binding country}" Width="Auto"/>
-                <DataGridCheckBoxColumn Header="GeoBlocked" Binding="{Binding isGeoBlocked}" Width="Auto"/>
-                <DataGridTextColumn Header="Nanoid" Binding="{Binding nanoid}" Width="Auto"/>
-                <DataGridTextColumn Header="Languages" Binding="{Binding LanguagesDisplay, Mode=OneWay}" IsReadOnly="True" Width="Auto"/>
-                <DataGridTextColumn Header="Youtube URLs" Binding="{Binding YoutubeUrlsDisplay, Mode=OneWay}" IsReadOnly="True" Width="Auto"/>
-                <DataGridTextColumn Header="Stream URLs" Binding="{Binding StreamUrlsDisplay, Mode=OneWay}" IsReadOnly="True" Width="Auto"/>
-                <DataGridTextColumn Header="Status" Binding="{Binding UrlStatus}" Width="Auto" IsReadOnly="True"/>
+                <!-- TvgId -->
+                <DataGridTextColumn x:Name="colTvgId" Header="TvgId" Binding="{Binding tvg_id}" Width="2*"/>
+                <!-- Favorite -->
+                <DataGridCheckBoxColumn x:Name="colFavorite" Header="Favorite" Binding="{Binding isFavorite}" Width="Auto"/>
+                <!-- Country -->
+                <DataGridTextColumn x:Name="colCountry" Header="Country" Binding="{Binding country}" Width="Auto"/>
+                <!-- GeoBlocked -->
+                <DataGridCheckBoxColumn x:Name="colGeoBlocked" Header="GeoBlocked" Binding="{Binding isGeoBlocked}" Width="Auto"/>
+                <!-- Nanoid -->
+                <DataGridTextColumn x:Name="colNanoid" Header="Nanoid" Binding="{Binding nanoid}" Width="Auto"/>
+                <!-- Languages -->
+                <DataGridTextColumn x:Name="colLanguages" Header="Languages" Binding="{Binding LanguagesDisplay, Mode=OneWay}" IsReadOnly="True" Width="Auto"/>
+                <!-- Youtube URLs -->
+                <DataGridTextColumn x:Name="colYoutube" Header="Youtube URLs" Binding="{Binding YoutubeUrlsDisplay, Mode=OneWay}" IsReadOnly="True" Width="Auto"/>
+                <!-- Stream URLs -->
+                <DataGridTextColumn x:Name="colStreamUrls" Header="Stream URLs" Binding="{Binding StreamUrlsDisplay, Mode=OneWay}" IsReadOnly="True" Width="Auto"/>
+                <!-- Status -->
+                <DataGridTextColumn x:Name="colStatus" Header="Status" Binding="{Binding UrlStatus}" Width="Auto" IsReadOnly="True"/>
             </DataGrid.Columns>
         </DataGrid>
         <!-- Bottom bar -->

@@ -1,18 +1,41 @@
-﻿(No description): (Bez popisu)
+﻿(Completely voluntary – no features are blocked): (Úplne dobrovoľné – nie sú blokované žiadne funkcie)
+(No description): (Bez popisu)
+• Add / rename / delete groups.: • Pridať/premenovať/vymazať skupiny.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Posuvník vyrovnávacej pamäte: úprava vyrovnávacej pamäte HLS (1–10 sekúnd).
+• Check URL availability (only visible channels).: • Skontrolujte dostupnosť URL (len viditeľné kanály).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Upravte názvy kanálov, skupiny, adresy URL, logá, tvg-id, krajinu, jazyky, obľúbené položky.
+• Edit multiple URLs per channel (popup window).: • Upraviť viacero adries URL na kanál (vyskakovacie okno).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Obohatiť o EPG: pridá chýbajúce tvg-id pomocou fuzzy párovania.
+• EPG info displayed in status bar for current channel.: • Informácie EPG zobrazené v stavovom riadku pre aktuálny kanál.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • Exportujte OK / FAIL / filtrované zoznamy ako M3U alebo JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Získajte logá zo vzdialeného úložiska (OwnerPlugins/logá).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Používateľské rozhranie na celú obrazovku: skryje bočný panel a stavový riadok (ukončíte klávesom ESC).
+• Hide/Show channel list button.: • Tlačidlo Skryť/Zobraziť zoznam kanálov.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Importujte JSON (lokálny alebo URL) s flexibilným mapovaním polí (automatická detekcia, uloženie mapovania).
+• Picture‑in‑Picture (PIP) button.: • Tlačidlo obraz v obraze (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.: • Rýchlosť prehrávania: 0,5x, 1x, 2x tlačidlá.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Zoradiť ľubovoľný stĺpec kliknutím na hlavičku; pomocou „Obnoviť objednávku“ sa vrátite k pôvodnej objednávke.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: pozastavenie živého vysielania; potiahnutím posúvača prejdete späť; pre návrat stlačte 'Live'.
 ◀ Previous: ◀ Predchádzajúce
+16 colour themes + Light/Dark variants.: 16 farebných motívov + svetlé/tmavé varianty.
 A new version is available. Do you want to update now?: K dispozícii je nová verzia. Chcete aktualizovať teraz?
-About: O
-About TVGarden+: O TVGarden+
+Access via 'Edit Playlist' button on main toolbar.: Prístup cez tlačidlo „Upraviť zoznam skladieb“ na hlavnom paneli nástrojov.
+Actions: Akcie
 Add Group: Pridať skupinu
 Add Mapping: Pridať mapovanie
+Adjust buffer size (1-10 seconds): Úprava veľkosti vyrovnávacej pamäte (1 – 10 sekúnd)
 Advanced IDs: Rozšírené ID
+Application status: Stav aplikácie
 Apply changes: Použiť zmeny
 Apply Filters: Použiť filtre
 Auto-detect: Automatická detekcia
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatická kontrola pri spustení – alebo kliknite na „Skontrolovať aktualizácie“ v ponuke Nástroje.
 Buffer (seconds): Vyrovnávacia pamäť (sekundy)
+Buffer size – adjust HLS buffer seconds.: Veľkosť vyrovnávacej pamäte – nastavenie sekúnd vyrovnávacej pamäte HLS.
 Cancel: Zrušiť
 CANCEL: ZRUŠIŤ
 Category: Kategória
+Changelog: Denník zmien
 Channel Details: Podrobnosti kanála
 Channel Info: Informácie o kanáli
 Channel:: kanál:
@@ -23,12 +46,22 @@ Check Duplicates: Začiarknite políčko Duplikáty
 Check for updates: Skontrolujte aktualizácie
 Check URLs: Skontrolujte adresy URL
 Clear Filters: Vymazať filtre
+Clear search: Vymazať vyhľadávanie
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunita a testovanie: CorvoBoys (corvoboys.org) a LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Krajina
+Credits: Kredity
 Delete Group: Odstrániť skupinu
 Description: Popis
 Details: Podrobnosti
-Do you want to load the edited playlist now?: Chcete teraz načítať upravený zoznam skladieb?
+Developed by Lululla: Vyvinutý Lulullou
+Developer: Lululla: Vývojár: Lululla
+Do you want to load this edited playlist now?: Chcete teraz načítať tento upravený zoznam skladieb?
+Double speed (2x): Dvojitá rýchlosť (2x)
 Downloading playlist...: Sťahuje sa zoznam skladieb...
+Downloads ZIP, replaces files, restarts app – settings preserved.: Stiahne ZIP, nahradí súbory, reštartuje aplikáciu – nastavenia sa zachovajú.
+Drag & drop – drop M3U or JSON files directly onto main window.: Drag & drop – presuňte súbory M3U alebo JSON priamo do hlavného okna.
+Drag to seek back in buffer: Potiahnutím prejdete späť do vyrovnávacej pamäte
 Duplicate URLs found:\n\n: Našli sa duplicitné adresy URL:\n\n
 Edit Playlist: Upraviť zoznam skladieb
 Edit URLs: Upravte adresy URL
@@ -37,12 +70,19 @@ Enrich with EPG: Obohaťte o EPG
 Enter JSON URL:: Zadajte webovú adresu JSON:
 Enter playlist URL (M3U or JSON):: Zadajte webovú adresu zoznamu videí (M3U alebo JSON):
 EPG: EPG
-EPG & Favorites: EPG a obľúbené
+Epg & Favorites: Epg a obľúbené
+Epg & Logos: Epg a logá
+EPG & Logos: EPG a logá
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Sprievodca EPG – tlačidlo na hlavnom paneli nástrojov zobrazuje celú mriežku s podrobnosťami o programe (informácie získate dvojitým kliknutím).
 EPG Matching Threshold: EPG Matching Threshold
 EPG Source: Zdroj EPG
+EPG source – can be set in Settings (epgshare01 or custom URL).: Zdroj EPG – dá sa nastaviť v Nastaveniach (epgshare01 alebo vlastná URL).
+EPG source – choose XMLTV file or enter custom URL.: Zdroj EPG – vyberte súbor XMLTV alebo zadajte vlastnú URL.
 Error: Chyba
 Error loading: Chyba pri načítavaní
+Error loading file: {0}: Chyba pri načítavaní súboru: {0}
 Error loading playlists: {0}: Chyba pri načítavaní zoznamov skladieb: {0}
+Error loading URL: {0}: Chyba pri načítavaní adresy URL: {0}
 ERROR: player.html not found.: CHYBA: player.html sa nenašiel.
 Exit: VÝCHOD
 Export Favorites: Exportovať obľúbené položky
@@ -51,18 +91,25 @@ Export Filtered M3U: Exportovať filtrované M3U
 Export JSON: Exportujte JSON
 Export KO: Vývoz KO
 Export OK: Export OK
+Export only favorite channels to a new M3U file: Exportujte iba obľúbené kanály do nového súboru M3U
 Extracting update...: Extrahuje sa aktualizácia...
 Failed to download playlist: Sťahovanie zoznamu skladieb zlyhalo
 Failed to load playlist: Nepodarilo sa načítať zoznam skladieb
 Favorite: Obľúbené
+Favorites only: Iba obľúbené
 Fetch Logos: Načítať logá
-FILTERS: FILTRE
+Filters: Filtre
+Fullscreen (hide UI) - press ESC to exit: Celá obrazovka (skryť používateľské rozhranie) – pre ukončenie stlačte ESC
 Geo & Country: Geografické údaje a krajina
 GeoBlocked: GeoBlocked
 GitHub Error: Chyba GitHub
+Go back to live: Vráťte sa žiť
 Group: Skupina
+Half speed (0.5x): Polovičná rýchlosť (0,5x)
 Help: Pomoc
 Hide List: Skryť zoznam
+HLS playback: hls.js (MIT license): Prehrávanie HLS: hls.js (licencia MIT)
+Image: Obrázok
 Import: Importovať
 Import error: {0}: Chyba importu: {0}
 Import from URL: Importovať z adresy URL
@@ -72,27 +119,43 @@ Import Local: Importovať miestne
 Imported {0} channels from JSON.: Importované kanály ({0}) z JSON.
 Imported {0} channels from URL.: Počet importovaných kanálov z adresy URL: {0}.
 Info: Info
+Info on: Info na
 Invalid JSON: {0}: Neplatný JSON: {0}
 Invalid playlist URL.: Neplatná adresa URL zoznamu videí.
 Invalid URL.: Neplatná adresa URL.
+Json: Json
 JSON Property: Vlastnosť JSON
+Ko-fi: Káva
 Language: Jazyk
+Language – change UI language dynamically (translations in Languages folder).: Jazyk – dynamická zmena jazyka používateľského rozhrania (preklady v priečinku Jazyky).
+Languages: Jazyky
 Languages (comma): jazyky (čiarka)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Pomoc od Lulully
 LOAD: LOAD
 Load a playlist first.: Najprv načítajte zoznam skladieb.
 Load File: Načítať súbor
-Load Online: Načítať online
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Načítajte lokálny súbor M3U/JSON – pomocou tlačidla „Načítať súbor“ (panel nástrojov) alebo „Otvoriť súbor“ v editore.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Načítať online M3U/JSON URL – tlačidlo „Načítať online“ (panel nástrojov) alebo „Otvoriť z URL“ v editore.
 Load playlist file (M3U/JSON) from your computer: Načítajte súbor zoznamu skladieb (M3U/JSON) z počítača
-Load playlist from web URL (M3U or JSON): Načítať zoznam skladieb z webovej adresy URL (M3U alebo JSON)
 Loaded: Nabité
+Loaded {0} channels from JSON file.: Načítalo sa {0} kanálov zo súboru JSON.
+Loaded {0} channels from JSON URL.: Načítalo sa {0} kanálov z adresy URL JSON.
+Loaded {0} channels from M3U file.: Načítalo sa {0} kanálov zo súboru M3U.
+Loaded {0} channels from M3U URL.: Počet načítaných kanálov z adresy URL M3U: {0}.
 Loading...: Načítava sa...
+Logo: Logo
+Logo Picker – in editor, click '...' to choose logo from gallery.: Logo Picker – v editore kliknite na '...' pre výber loga z galérie.
 Logo Preview: Ukážka loga
 Logo URL: Adresa URL loga
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Logá – automaticky sa sťahujú z úložiska GitHub (Nastavenia → Zdroj loga).
 Logos Matching Threshold: Logos Matching Threshold
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Úložisko log – vyberte vlastníka/úložisko/cestu (predvolené OwnerPlugins/logá).
 Logos Source: Zdroj loga
 Logos Subfolder: Podpriečinok Logos
 Map JSON properties to channel fields:: Mapujte vlastnosti JSON na polia kanála:
 Mapping saved for future imports of this file.: Mapovanie uložené pre budúce importy tohto súboru.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Prahové hodnoty zhody – nastavte citlivosť fuzzy zhody pre EPG a logá.
 Name: Meno
 Nanoid: Nanoid
 Network error: Chyba siete
@@ -106,57 +169,90 @@ No favorite channels to export.: Žiadne obľúbené kanály na export.
 No playlist found: Nenašli sa žiadne zoznamy skladieb
 No stream: Žiadny stream
 No updates available.: Nie sú k dispozícii žiadne aktualizácie.
-Now playing: Teraz sa hrá
+Normal speed (1x): Normálna rýchlosť (1x)
+Now: Teraz
 OK: OK
 Online Playlist: Online zoznam skladieb
+Online playlist – select from GitHub repository (auto‑refresh).: Online zoznam skladieb – vyberte si z úložiska GitHub (automatické obnovenie).
+Open File...: Otvoriť súbor...
+Open from URL: Otvoriť z adresy URL
+Open Playlist: Otvorte zoznam skladieb
 Pause/Resume live stream: Pozastaviť/obnoviť priamy prenos
-Player ready.: Hráč pripravený.
+Paused: Pozastavené
+PayPal: PayPal
+Picture-in-Picture mode: Režim obrazu v obraze
+Player Control: Ovládanie prehrávača
+Playlist & Groups: Zoznam skladieb a skupiny
 Playlist Editor: Editor zoznamu skladieb
+Playlist Loading: Načítava sa zoznam skladieb
+Playlist Management: Správa zoznamu skladieb
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Úložisko zoznamov skladieb: OwnerPlugins/TivuStreamList (talianske a medzinárodné streamy)
 Please select a program first.: Najprv vyberte program.
 Preview (first 5 channels): Ukážka (prvých 5 kanálov)
 Preview error: {0}: Chyba ukážky: {0}
 Program Details: Podrobnosti o programe
+Ready.: Pripravený.
 Recent: Nedávne
+Recent files – quick access to last 5 opened playlists.: Nedávne súbory – rýchly prístup k posledným 5 otvoreným zoznamom skladieb.
 Recent playlists: Nedávne zoznamy skladieb
 Refresh: Obnoviť
 Refresh EPG List: Obnoviť zoznam EPG
 Refresh from GitHub: Obnoviť z GitHub
 Rename Group: Premenovať skupinu
+Repository: Úložisko
 Reset Order: Obnoviť objednávku
 Save: Uložiť
 SAVE: ULOŽIŤ
+Save – persists all settings without reloading current playlist.: Uložiť – zachová všetky nastavenia bez opätovného načítania aktuálneho zoznamu skladieb.
 Save as...: Uložiť ako...
+Save current playlist to a new M3U file: Uložte aktuálny zoznam skladieb do nového súboru M3U
 Save Mapping: Uložiť mapovanie
 Save Playlist: Uložiť zoznam skladieb
 Save Status: Uložiť stav
 Saved: Uložené
+Search channels by name: Vyhľadajte kanály podľa názvu
 Search channels...: Hľadať kanály...
 Select a playlist first.: Najprv vyberte zoznam skladieb.
 Select Theme: Vyberte tému
+Selected theme is saved and applied on restart.: Vybraná téma sa uloží a použije pri reštarte.
 Settings: Nastavenia
 Show List: Zobraziť zoznam
+Show only channels marked as favorites: Zobraziť iba kanály označené ako obľúbené
 Show or hide the channel list: Zobrazenie alebo skrytie zoznamu kanálov
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Špeciálne poďakovanie patrí komunitám CORVOBOYS & LinuxSat-Support za testovanie a podporu.
 Start (local): Štart (miestne)
 Status: Stav
 Stream URL: Webová adresa streamu
+Stream URLs: Streamovať adresy URL
 Success: Úspech
 Support: Podpora
+Support the developer: Podporte vývojára
 Target Field: Cieľové pole
+Thanks to: Vďaka
 Theme picker: Výber tém
+Theme picker – accessible via Tools menu on main toolbar.: Výber témy – prístupný cez ponuku Nástroje na hlavnom paneli nástrojov.
+Themes: Témy
 Time: Čas
 Title: Názov
 Tools: Nástroje
+Total: Celkom
+Total channels in loaded playlist: Celkový počet kanálov v načítanom zozname skladieb
 TV Guide (EPG): TV sprievodca (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: Používateľské rozhranie: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Nie je možné nájsť verziu vo vzdialenom súbore projektu.
 Update: Aktualizovať
 Update complete. Restarting...: Aktualizácia dokončená. Reštartuje sa...
 Update failed: : Aktualizácia zlyhala:
+Updates: Aktualizácie
 URL: URL
 URL (primary): URL (primárna)
+URL Check: Kontrola adresy URL
 URL list (one per line): zoznam adries URL (jedna na riadok)
 URLs & Status: URL a stav
 Version: Verzia
 Waiting for LiveGardenTVPlus to close...: Čaká sa na zatvorenie LiveGardenTVPlus...
 Warning: POZOR
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: Adresa URL služby YouTube
+Youtube URLs: URL na YouTube

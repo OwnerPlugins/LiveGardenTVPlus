@@ -1,18 +1,41 @@
-﻿(No description): (ไม่มีคำอธิบาย)
+﻿(Completely voluntary – no features are blocked): (สมัครใจโดยสมบูรณ์ – ไม่มีการปิดกั้นคุณสมบัติ)
+(No description): (ไม่มีคำอธิบาย)
+• Add / rename / delete groups.: • เพิ่ม / เปลี่ยนชื่อ / ลบกลุ่ม
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • ตัวเลื่อนบัฟเฟอร์: ปรับบัฟเฟอร์ HLS (1-10 วินาที)
+• Check URL availability (only visible channels).: • ตรวจสอบความพร้อมของ URL (เฉพาะช่องทางที่มองเห็นได้)
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • แก้ไขชื่อช่อง กลุ่ม URL โลโก้ tvg-id ประเทศ ภาษา รายการโปรด
+• Edit multiple URLs per channel (popup window).: • แก้ไข URL หลายรายการต่อช่อง (หน้าต่างป๊อปอัป)
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • เติมเต็มด้วย EPG: เพิ่ม tvg-id ที่ขาดหายไปโดยใช้การจับคู่แบบคลุมเครือ
+• EPG info displayed in status bar for current channel.: • ข้อมูล EPG แสดงในแถบสถานะสำหรับช่องปัจจุบัน
+• Export OK / FAIL / filtered lists as M3U or JSON.: • ส่งออกรายการตกลง / ล้มเหลว / กรองเป็น M3U หรือ JSON
+• Fetch logos from remote repository (OwnerPlugins/logos).: • ดึงโลโก้จากพื้นที่เก็บข้อมูลระยะไกล (OwnerPlugins/โลโก้)
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • UI แบบเต็มหน้าจอ: ซ่อนแถบด้านข้างและแถบสถานะ (ESC เพื่อออก)
+• Hide/Show channel list button.: • ปุ่มซ่อน/แสดงรายการช่อง
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • นำเข้า JSON (ท้องถิ่นหรือ URL) ด้วยการแมปฟิลด์ที่ยืดหยุ่น (ตรวจจับอัตโนมัติ บันทึกการแมป)
+• Picture‑in‑Picture (PIP) button.: • ปุ่มภาพซ้อนภาพ (PIP)
+• Playback speed: 0.5x, 1x, 2x buttons.: • ความเร็วในการเล่น: ปุ่ม 0.5x, 1x, 2x
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • จัดเรียงคอลัมน์ใด ๆ โดยการคลิกส่วนหัว; ใช้ 'รีเซ็ตคำสั่งซื้อ' เพื่อเปลี่ยนกลับเป็นคำสั่งซื้อเดิม
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • ไทม์ชิฟท์: หยุดสตรีมสดชั่วคราว; ลากแถบเลื่อนเพื่อค้นหากลับ กด 'สด' เพื่อกลับ
 ◀ Previous: ◀ ก่อนหน้า
+16 colour themes + Light/Dark variants.: ธีมสี 16 สี + ธีมสีอ่อน/เข้ม
 A new version is available. Do you want to update now?: มีเวอร์ชันใหม่ให้ใช้งานแล้ว คุณต้องการอัปเดตตอนนี้หรือไม่?
-About: เกี่ยวกับ
-About TVGarden+: เกี่ยวกับ ทีวีการ์เด้น+
+Access via 'Edit Playlist' button on main toolbar.: เข้าถึงได้ผ่านปุ่ม 'แก้ไขเพลย์ลิสต์' บนแถบเครื่องมือหลัก
+Actions: การดำเนินการ
 Add Group: เพิ่มกลุ่ม
 Add Mapping: เพิ่มการทำแผนที่
+Adjust buffer size (1-10 seconds): ปรับขนาดบัฟเฟอร์ (1-10 วินาที)
 Advanced IDs: รหัสขั้นสูง
+Application status: สถานะการสมัคร
 Apply changes: ใช้การเปลี่ยนแปลง
 Apply Filters: ใช้ตัวกรอง
 Auto-detect: ตรวจจับอัตโนมัติ
+Automatic check on startup – or click 'Check for updates' in Tools menu.: ตรวจสอบอัตโนมัติเมื่อเริ่มต้น – หรือคลิก 'ตรวจสอบการอัปเดต' ในเมนูเครื่องมือ
 Buffer (seconds): บัฟเฟอร์ (วินาที)
+Buffer size – adjust HLS buffer seconds.: ขนาดบัฟเฟอร์ - ปรับวินาทีบัฟเฟอร์ HLS
 Cancel: ยกเลิก
 CANCEL: ยกเลิก
 Category: หมวดหมู่
+Changelog: บันทึกการเปลี่ยนแปลง
 Channel Details: รายละเอียดช่อง
 Channel Info: ข้อมูลช่อง
 Channel:: ช่อง:
@@ -23,12 +46,22 @@ Check Duplicates: ตรวจสอบรายการที่ซ้ำก�
 Check for updates: ตรวจสอบการอัปเดต
 Check URLs: ตรวจสอบ URL
 Clear Filters: ล้างตัวกรอง
+Clear search: ล้างการค้นหา
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ชุมชนและการทดสอบ: CorvoBoys (corvoboys.org) และ LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: ประเทศ
+Credits: เครดิต
 Delete Group: ลบกลุ่ม
 Description: คำอธิบาย
 Details: รายละเอียด
-Do you want to load the edited playlist now?: คุณต้องการโหลดเพลย์ลิสต์ที่แก้ไขตอนนี้หรือไม่?
+Developed by Lululla: พัฒนาโดย Lululla
+Developer: Lululla: ผู้พัฒนา: Lululla
+Do you want to load this edited playlist now?: คุณต้องการโหลดเพลย์ลิสต์ที่แก้ไขนี้ตอนนี้หรือไม่
+Double speed (2x): ความเร็วสองเท่า (2x)
 Downloading playlist...: กำลังดาวน์โหลดเพลย์ลิสต์...
+Downloads ZIP, replaces files, restarts app – settings preserved.: ดาวน์โหลด ZIP แทนที่ไฟล์ รีสตาร์ทแอป – การตั้งค่ายังคงอยู่
+Drag & drop – drop M3U or JSON files directly onto main window.: ลากและวาง – วางไฟล์ M3U หรือ JSON ลงบนหน้าต่างหลักโดยตรง
+Drag to seek back in buffer: ลากเพื่อค้นหากลับในบัฟเฟอร์
 Duplicate URLs found:\n\n: พบ URL ที่ซ้ำกัน:\n\n
 Edit Playlist: แก้ไขเพลย์ลิสต์
 Edit URLs: แก้ไข URL
@@ -37,12 +70,19 @@ Enrich with EPG: เติมเต็มด้วย EPG
 Enter JSON URL:: ป้อน URL JSON:
 Enter playlist URL (M3U or JSON):: ป้อน URL เพลย์ลิสต์ (M3U หรือ JSON):
 EPG: อีพีจี
-EPG & Favorites: EPG และรายการโปรด
+Epg & Favorites: Epg และรายการโปรด
+Epg & Logos: Epg และโลโก้
+EPG & Logos: EPG และโลโก้
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: คู่มือ EPG – ปุ่มบนแถบเครื่องมือหลักจะแสดงตารางทั้งหมดพร้อมรายละเอียดของโปรแกรม (ดับเบิลคลิกเพื่อดูข้อมูล)
 EPG Matching Threshold: เกณฑ์การจับคู่ EPG
 EPG Source: ที่มา อีพีจี
+EPG source – can be set in Settings (epgshare01 or custom URL).: แหล่งที่มา EPG – สามารถตั้งค่าได้ในการตั้งค่า (epgshare01 หรือ URL ที่กำหนดเอง)
+EPG source – choose XMLTV file or enter custom URL.: แหล่งที่มา EPG – เลือกไฟล์ XMLTV หรือป้อน URL ที่กำหนดเอง
 Error: ข้อผิดพลาด
 Error loading: เกิดข้อผิดพลาดในการโหลด
+Error loading file: {0}: เกิดข้อผิดพลาดในการโหลดไฟล์: {0}
 Error loading playlists: {0}: เกิดข้อผิดพลาดในการโหลดเพลย์ลิสต์: {0}
+Error loading URL: {0}: เกิดข้อผิดพลาดในการโหลด URL: {0}
 ERROR: player.html not found.: ข้อผิดพลาด: ไม่พบ player.html
 Exit: ออก
 Export Favorites: ส่งออกรายการโปรด
@@ -51,18 +91,25 @@ Export Filtered M3U: ส่งออก M3U ที่กรองแล้ว
 Export JSON: ส่งออก JSON
 Export KO: ส่งออกเกาะ
 Export OK: ส่งออกตกลง
+Export only favorite channels to a new M3U file: ส่งออกเฉพาะช่องโปรดไปยังไฟล์ M3U ใหม่
 Extracting update...: กำลังแยกการอัปเดต...
 Failed to download playlist: ดาวน์โหลดเพลย์ลิสต์ไม่สำเร็จ
 Failed to load playlist: ไม่สามารถโหลดเพลย์ลิสต์
 Favorite: ที่ชื่นชอบ
+Favorites only: รายการโปรดเท่านั้น
 Fetch Logos: ดึงโลโก้
-FILTERS: ตัวกรอง
+Filters: ตัวกรอง
+Fullscreen (hide UI) - press ESC to exit: เต็มหน้าจอ (ซ่อน UI) - กด ESC เพื่อออก
 Geo & Country: ภูมิศาสตร์และประเทศ
 GeoBlocked: ภูมิศาสตร์ที่ถูกบล็อก
 GitHub Error: ข้อผิดพลาด GitHub
+Go back to live: กลับไปใช้ชีวิต
 Group: กลุ่ม
+Half speed (0.5x): ความเร็วครึ่งหนึ่ง (0.5x)
 Help: ช่วย
 Hide List: ซ่อนรายการ
+HLS playback: hls.js (MIT license): การเล่น HLS: hls.js (ใบอนุญาต MIT)
+Image: ภาพ
 Import: นำเข้า
 Import error: {0}: ข้อผิดพลาดในการนำเข้า: {0}
 Import from URL: นำเข้าจาก URL
@@ -72,27 +119,43 @@ Import Local: นำเข้าท้องถิ่น
 Imported {0} channels from JSON.: นำเข้า {0} ช่องจาก JSON
 Imported {0} channels from URL.: นำเข้า {0} ช่องจาก URL
 Info: ข้อมูล
+Info on: ข้อมูลบน
 Invalid JSON: {0}: JSON ไม่ถูกต้อง: {0}
 Invalid playlist URL.: URL เพลย์ลิสต์ไม่ถูกต้อง
 Invalid URL.: URL ไม่ถูกต้อง
+Json: เจสัน
 JSON Property: คุณสมบัติ JSON
+Ko-fi: กาแฟ
 Language: ภาษา
+Language – change UI language dynamically (translations in Languages folder).: ภาษา – เปลี่ยนภาษา UI แบบไดนามิก (การแปลในโฟลเดอร์ภาษา)
+Languages: ภาษา
 Languages (comma): ภาษา (ลูกน้ำ)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: ความช่วยเหลือ LiveGardenTVPlus โดย Lululla
 LOAD: โหลด
 Load a playlist first.: โหลดเพลย์ลิสต์ก่อน
 Load File: โหลดไฟล์
-Load Online: โหลดออนไลน์
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: โหลดไฟล์ M3U/JSON ในเครื่อง – ผ่านปุ่ม 'โหลดไฟล์' (แถบเครื่องมือ) หรือ 'เปิดไฟล์' ในตัวแก้ไข
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: โหลด URL M3U/JSON ออนไลน์ – ปุ่ม 'โหลดออนไลน์' (แถบเครื่องมือ) หรือ 'เปิดจาก URL' ในตัวแก้ไข
 Load playlist file (M3U/JSON) from your computer: โหลดไฟล์เพลย์ลิสต์ (M3U/JSON) จากคอมพิวเตอร์ของคุณ
-Load playlist from web URL (M3U or JSON): โหลดเพลย์ลิสต์จาก URL ของเว็บ (M3U หรือ JSON)
 Loaded: โหลดแล้ว
+Loaded {0} channels from JSON file.: โหลด {0} ช่องจากไฟล์ JSON
+Loaded {0} channels from JSON URL.: โหลด {0} ช่องจาก JSON URL
+Loaded {0} channels from M3U file.: โหลด {0} ช่องจากไฟล์ M3U
+Loaded {0} channels from M3U URL.: โหลด {0} ช่องจาก M3U URL
 Loading...: กำลังโหลด...
+Logo: โลโก้
+Logo Picker – in editor, click '...' to choose logo from gallery.: เครื่องมือเลือกโลโก้ – ในเครื่องมือแก้ไข คลิก '...' เพื่อเลือกโลโก้จากแกลเลอรี
 Logo Preview: ดูตัวอย่างโลโก้
 Logo URL: URL โลโก้
+Logos – automatically download from GitHub repository (Settings → Logos Source).: โลโก้ – ดาวน์โหลดโดยอัตโนมัติจากพื้นที่เก็บข้อมูล GitHub (การตั้งค่า → แหล่งที่มาของโลโก้)
 Logos Matching Threshold: เกณฑ์การจับคู่โลโก้
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: พื้นที่เก็บข้อมูลโลโก้ – เลือกเจ้าของ/repo/เส้นทาง (ค่าเริ่มต้น OwnerPlugins/โลโก้)
 Logos Source: ที่มาของโลโก้
 Logos Subfolder: โฟลเดอร์ย่อยโลโก้
 Map JSON properties to channel fields:: แมปคุณสมบัติ JSON กับช่องช่อง:
 Mapping saved for future imports of this file.: การแมปที่บันทึกไว้สำหรับการนำเข้าไฟล์นี้ในอนาคต
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: เกณฑ์การจับคู่ - ตั้งค่าความไวของการจับคู่แบบคลุมเครือสำหรับ EPG และโลโก้
 Name: ชื่อ
 Nanoid: นาโนอยด์
 Network error: ข้อผิดพลาดของเครือข่าย
@@ -106,57 +169,90 @@ No favorite channels to export.: ไม่มีช่องโปรดที�
 No playlist found: ไม่พบเพลย์ลิสต์
 No stream: ไม่มีสตรีม
 No updates available.: ไม่มีการอัปเดต
-Now playing: กำลังเล่นอยู่
+Normal speed (1x): ความเร็วปกติ (1x)
+Now: ตอนนี้
 OK: ตกลง
 Online Playlist: เพลย์ลิสต์ออนไลน์
+Online playlist – select from GitHub repository (auto‑refresh).: เพลย์ลิสต์ออนไลน์ – เลือกจากพื้นที่เก็บข้อมูล GitHub (รีเฟรชอัตโนมัติ)
+Open File...: เปิดไฟล์...
+Open from URL: เปิดจาก URL
+Open Playlist: เปิดเพลย์ลิสต์
 Pause/Resume live stream: หยุดชั่วคราว / สตรีมสดต่อ
-Player ready.: ผู้เล่นพร้อมแล้ว
+Paused: หยุดชั่วคราว
+PayPal: เพย์พาล
+Picture-in-Picture mode: โหมดภาพซ้อนภาพ
+Player Control: การควบคุมผู้เล่น
+Playlist & Groups: เพลย์ลิสต์และกลุ่ม
 Playlist Editor: ตัวแก้ไขเพลย์ลิสต์
+Playlist Loading: กำลังโหลดเพลย์ลิสต์
+Playlist Management: การจัดการเพลย์ลิสต์
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): พื้นที่เก็บข้อมูลเพลย์ลิสต์: OwnerPlugins/TivuStreamList (สตรีมภาษาอิตาลีและต่างประเทศ)
 Please select a program first.: กรุณาเลือกโปรแกรมก่อน
 Preview (first 5 channels): ดูตัวอย่าง (5 ช่องแรก)
 Preview error: {0}: ข้อผิดพลาดในการดูตัวอย่าง: {0}
 Program Details: รายละเอียดโปรแกรม
+Ready.: พร้อม.
 Recent: ล่าสุด
+Recent files – quick access to last 5 opened playlists.: ไฟล์ล่าสุด - เข้าถึงเพลย์ลิสต์ที่เปิดล่าสุด 5 รายการอย่างรวดเร็ว
 Recent playlists: เพลย์ลิสต์ล่าสุด
 Refresh: รีเฟรช
 Refresh EPG List: รีเฟรชรายการ EPG
 Refresh from GitHub: รีเฟรชจาก GitHub
 Rename Group: เปลี่ยนชื่อกลุ่ม
+Repository: พื้นที่เก็บข้อมูล
 Reset Order: รีเซ็ตคำสั่งซื้อ
 Save: บันทึก
 SAVE: บันทึก
+Save – persists all settings without reloading current playlist.: บันทึก – คงการตั้งค่าทั้งหมดไว้โดยไม่ต้องโหลดเพลย์ลิสต์ปัจจุบันซ้ำ
 Save as...: บันทึกเป็น...
+Save current playlist to a new M3U file: บันทึกเพลย์ลิสต์ปัจจุบันเป็นไฟล์ M3U ใหม่
 Save Mapping: บันทึกการทำแผนที่
 Save Playlist: บันทึกเพลย์ลิสต์
 Save Status: บันทึกสถานะ
 Saved: บันทึกแล้ว
+Search channels by name: ค้นหาช่องตามชื่อ
 Search channels...: ค้นหาช่อง...
 Select a playlist first.: เลือกเพลย์ลิสต์ก่อน
 Select Theme: เลือกธีม
+Selected theme is saved and applied on restart.: ธีมที่เลือกจะถูกบันทึกและนำไปใช้เมื่อรีสตาร์ท
 Settings: การตั้งค่า
 Show List: แสดงรายการ
+Show only channels marked as favorites: แสดงเฉพาะช่องที่ทำเครื่องหมายว่าเป็นรายการโปรด
 Show or hide the channel list: แสดงหรือซ่อนรายการช่อง
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: ขอขอบคุณเป็นพิเศษสำหรับชุมชน CORVOBOYS & LinuxSat-Support สำหรับการทดสอบและการสนับสนุน
 Start (local): เริ่มต้น (ท้องถิ่น)
 Status: สถานะ
 Stream URL: URL สตรีม
+Stream URLs: สตรีม URL
 Success: ความสำเร็จ
 Support: สนับสนุน
+Support the developer: สนับสนุนนักพัฒนา
 Target Field: สนามเป้าหมาย
+Thanks to: ขอบคุณ
 Theme picker: เครื่องมือเลือกธีม
+Theme picker – accessible via Tools menu on main toolbar.: ตัวเลือกธีม – เข้าถึงได้จากเมนูเครื่องมือบนแถบเครื่องมือหลัก
+Themes: ธีมส์
 Time: เวลา
 Title: ชื่อ
 Tools: เครื่องมือ
+Total: ทั้งหมด
+Total channels in loaded playlist: ช่องทั้งหมดในเพลย์ลิสต์ที่โหลด
 TV Guide (EPG): ทีวีไกด์ (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: ไม่พบเวอร์ชันในไฟล์โครงการระยะไกล
 Update: อัปเดต
 Update complete. Restarting...: การอัปเดตเสร็จสมบูรณ์ กำลังรีสตาร์ท...
 Update failed: : การอัปเดตล้มเหลว:
+Updates: อัพเดท
 URL: URL
 URL (primary): URL (หลัก)
+URL Check: ตรวจสอบ URL
 URL list (one per line): รายการ URL (หนึ่งรายการต่อบรรทัด)
 URLs & Status: URL และสถานะ
 Version: เวอร์ชัน
 Waiting for LiveGardenTVPlus to close...: กำลังรอ LiveGardenTVPlus ปิด...
 Warning: คำเตือน
+WebView2: Microsoft Edge WebView2: WebView2: ไมโครซอฟต์ขอบ WebView2
 Youtube URL: URL ยูทูป
+Youtube URLs: URL ของ YouTube

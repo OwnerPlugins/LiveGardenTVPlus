@@ -1,28 +1,20 @@
-﻿using System;
-using LiveGardenTVPlus.Models;
+﻿using LiveGardenTVPlus.Models;
 using LiveGardenTVPlus.Services;
 using LiveGardenTVPlus.Views;
 using MaterialDesignThemes.Wpf;
-using Microsoft.Web.WebView2.Wpf;
 using Microsoft.Web.WebView2.Core;
-using System.Collections.Generic;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
-using System.IO.Compression;
 using System.IO;
-using System.Linq;
-using System.Net;
 using System.Net.Http;
 using System.Reflection;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
-using System.Windows;
-using System.ComponentModel;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-
+using System.Windows.Controls.Primitives;
 
 namespace LiveGardenTVPlus
 {
@@ -58,10 +50,9 @@ namespace LiveGardenTVPlus
             var version = Assembly.GetExecutingAssembly().GetName().Version;
             string shortVersion = $"{version.Major}.{version.Minor}";
             this.Title = $"TVGarden+ v{shortVersion}";
-            /*
-            if (CheckUpdatesBtn != null)
-                CheckUpdatesBtn.ToolTip = $"Check for updates (current: {shortVersion})";
-            */
+
+            ShowFavoritesOnlyToggle.IsChecked = false;
+            _showFavoritesOnly = false;
 
             ChannelTreeView.ItemsSource = ChannelGroups;
 
@@ -109,40 +100,77 @@ namespace LiveGardenTVPlus
         public void ApplyLanguage()
         {
             TranslationHelper.TranslateUI(this);
+            
+            // Status Bar
             if (!string.IsNullOrEmpty(_currentChannelName))
                 StreamNameStatus.Text = _currentChannelName;
             else
                 StreamNameStatus.Text = LanguageManager.GetTranslation("No stream");
 
-            PauseResumeBtn.ToolTip = LanguageManager.GetTranslation("Pause/Resume live stream");
-            EditPlaylistBtnText.Text = LanguageManager.GetTranslation("Edit Playlist");
+            StatusTextBlock.Text = LanguageManager.GetTranslation("Application status");
+
+            int total = _allChannelsOriginal?.Count ?? 0;
+            TotalChannelsText.Text = $"{LanguageManager.GetTranslation("Total")}: {total}";
+            TotalChannelsText.ToolTip = LanguageManager.GetTranslation("Total channels in loaded playlist");
+            TotalChannelsText.Foreground = (Brush)FindResource("ForegroundBrush");
+            
+            // Toolbar buttons and tooltips
+            LoadPlaylistBtnText.Text = LanguageManager.GetTranslation("Load File");
+            LoadPlaylistBtn.ToolTip = LanguageManager.GetTranslation("Load playlist file (M3U/JSON) from your computer");
+            
+            RecentTextBlock.Text = LanguageManager.GetTranslation("Recent");
+            RecentBtn.ToolTip = LanguageManager.GetTranslation("Recent playlists");
+            
             SavePlaylistBtnText.Text = LanguageManager.GetTranslation("Save Playlist");
+            SavePlaylistBtn.ToolTip = LanguageManager.GetTranslation("Save current playlist to a new M3U file");
+            
             ExportFavoritesBtnText.Text = LanguageManager.GetTranslation("Export Favorites");
+            ExportFavoritesBtn.ToolTip = LanguageManager.GetTranslation("Export only favorite channels to a new M3U file");
+            
+            EditPlaylistBtnText.Text = LanguageManager.GetTranslation("Edit Playlist");
+            EditPlaylistBtn.ToolTip = LanguageManager.GetTranslation("Playlist Management");
+            
+            EpgTextBlock.Text = LanguageManager.GetTranslation("EPG");
+            EpgBtn.ToolTip = LanguageManager.GetTranslation("TV Guide (EPG)");
+            
             ToolsBtnText.Text = LanguageManager.GetTranslation("Tools");
+            ToolsBtn.ToolTip = LanguageManager.GetTranslation("Tools");
+            
+            AboutBtnText.Text = LanguageManager.GetTranslation("Info");
+            AboutBtn.ToolTip = LanguageManager.GetTranslation("Info on");
+            
+            HelpBtnText.Text = LanguageManager.GetTranslation("Help");
+            HelpBtn.ToolTip = LanguageManager.GetTranslation("Help");
+
+            FavoritesOnlyText.Text = LanguageManager.GetTranslation("Favorites only");
+            ShowFavoritesOnlyToggle.ToolTip = LanguageManager.GetTranslation("Show only channels marked as favorites");
+
+            ToggleText.Text = (ChannelColumn.Width.Value > 0) ? LanguageManager.GetTranslation("Hide List") : LanguageManager.GetTranslation("Show List");
+            ToggleSidebarBtn.ToolTip = LanguageManager.GetTranslation("Show or hide the channel list");
+            
+            SearchBox.ToolTip = LanguageManager.GetTranslation("Search channels by name");
+            ClearSearchBtn.ToolTip = LanguageManager.GetTranslation("Clear search");
+            
+            // Popup menu items
             PopupSettingsText.Text = LanguageManager.GetTranslation("Settings");
             PopupThemeText.Text = LanguageManager.GetTranslation("Theme picker");
             PopupHelpText.Text = LanguageManager.GetTranslation("Help");
-            PopupAboutText.Text = LanguageManager.GetTranslation("About TVGarden+");
+            PopupAboutText.Text = LanguageManager.GetTranslation("Info");
             PopupUpdateText.Text = LanguageManager.GetTranslation("Check for updates");
-
-            // Toolbar buttons
-            LoadPlaylistBtnText.Text = LanguageManager.GetTranslation("Load File");
-            LoadOnlineBtnText.Text = LanguageManager.GetTranslation("Load Online");
-            AboutBtnText.Text = LanguageManager.GetTranslation("About TVGarden+");
-            ToggleText.Text = LanguageManager.GetTranslation("Hide List");
-            EpgTextBlock.Text = LanguageManager.GetTranslation("EPG");
-            RecentTextBlock.Text = LanguageManager.GetTranslation("Recent");
-
-            // Status bar
+            
+            // Status bar controls
             BufferLabel.Text = LanguageManager.GetTranslation("Buffer (seconds)");
-
-            // Tooltips
-            LoadPlaylistBtn.ToolTip = LanguageManager.GetTranslation("Load playlist file (M3U/JSON) from your computer");
-            LoadOnlineBtn.ToolTip = LanguageManager.GetTranslation("Load playlist from web URL (M3U or JSON)");
-            AboutBtn.ToolTip = LanguageManager.GetTranslation("About TVGarden+");
-            ToggleSidebarBtn.ToolTip = LanguageManager.GetTranslation("Show or hide the channel list");
-            EpgBtn.ToolTip = LanguageManager.GetTranslation("TV Guide (EPG)");
-            RecentBtn.ToolTip = LanguageManager.GetTranslation("Recent playlists");
+            BufferSlider.ToolTip = LanguageManager.GetTranslation("Adjust buffer size (1-10 seconds)");
+            
+            PipBtn.ToolTip = LanguageManager.GetTranslation("Picture-in-Picture mode");
+            FullscreenUIBtn.ToolTip = LanguageManager.GetTranslation("Fullscreen (hide UI) - press ESC to exit");
+            PauseResumeBtn.ToolTip = LanguageManager.GetTranslation("Pause/Resume live stream");
+            LiveBtn.ToolTip = LanguageManager.GetTranslation("Go back to live");
+            TimeshiftSlider.ToolTip = LanguageManager.GetTranslation("Drag to seek back in buffer");
+            
+            SpeedSlowerBtn.ToolTip = LanguageManager.GetTranslation("Half speed (0.5x)");
+            SpeedNormalBtn.ToolTip = LanguageManager.GetTranslation("Normal speed (1x)");
+            SpeedFasterBtn.ToolTip = LanguageManager.GetTranslation("Double speed (2x)");
 
             // Window title
             var version = Assembly.GetExecutingAssembly().GetName().Version;
@@ -312,11 +340,14 @@ namespace LiveGardenTVPlus
             {
                 try
                 {
-                    // Execute JavaScript togglePause() and get the result
                     var result = await WebPlayer.CoreWebView2.ExecuteScriptAsync("togglePause()");
                     bool isPaused = result?.Replace("\"", "") == "true";
-                    // Update icon
                     PauseIcon.Kind = isPaused ? PackIconKind.Play : PackIconKind.Pause;
+
+                    if (isPaused)
+                        StatusTextBlock.Text = LanguageManager.GetTranslation("Paused");
+                    else
+                        StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Now")}: {_currentChannelName}";
                 }
                 catch (Exception ex)
                 {
@@ -369,7 +400,7 @@ namespace LiveGardenTVPlus
                     string js = $"playStream('{selected.Url.Replace("'", "\\'")}');";
                     await WebPlayer.CoreWebView2.ExecuteScriptAsync(js);
                     Debug.WriteLine($"Playing URL: {selected.Url}");
-                    StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Now playing")}: {selected.Name}";
+                    StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Now")}: {selected.Name}";
                     StreamNameStatus.Text = selected.Name;
                     _currentChannelName = selected.Name;
                 }
@@ -410,7 +441,7 @@ namespace LiveGardenTVPlus
                 await WebPlayer.EnsureCoreWebView2Async(env);
                 
                 WebPlayer.CoreWebView2.NavigateToString(html);
-                StatusTextBlock.Text = LanguageManager.GetTranslation("Player ready.");
+                StatusTextBlock.Text = LanguageManager.GetTranslation("Ready.");
                 WebPlayer.CoreWebView2.NavigationCompleted += (s, e) =>
                 {
                     var prefs = UserPreferences.Load();
@@ -459,7 +490,10 @@ namespace LiveGardenTVPlus
             ChannelGroups.Clear();
 
             if (_allChannelsOriginal == null || _allChannelsOriginal.Count == 0)
+            {
+                TotalChannelsText.Text = $"{LanguageManager.GetTranslation("Total")}: 0";
                 return;
+            }
 
             var query = _allChannelsOriginal.AsEnumerable();
 
@@ -479,6 +513,7 @@ namespace LiveGardenTVPlus
                     Channels = new ObservableCollection<Channel>(results)
                 };
                 ChannelGroups.Add(flatGroup);
+                TotalChannelsText.Text = $"{LanguageManager.GetTranslation("Total")}: {results.Count}";
                 return;
             }
 
@@ -502,6 +537,8 @@ namespace LiveGardenTVPlus
                     fakeGroup.Channels.Add(ch);
                 ChannelGroups.Add(fakeGroup);
                 ExpandRootNode();
+                // Total = only the actual channels in the group, excluding the navigation row
+                TotalChannelsText.Text = $"{LanguageManager.GetTranslation("Total")}: {groupChannels.Count}";
                 return;
             }
 
@@ -516,6 +553,10 @@ namespace LiveGardenTVPlus
 
             foreach (var group in groups)
                 ChannelGroups.Add(group);
+
+            // Total = sum of channels of all groups (no dummy elements)
+            int total = groups.Sum(g => g.Channels.Count);
+            TotalChannelsText.Text = $"{LanguageManager.GetTranslation("Total")}: {total}";
         }
 
         private void LoadPlaylist(string filePath)
@@ -559,7 +600,10 @@ namespace LiveGardenTVPlus
                         YoutubeUrls = ch.youtube_urls ?? new List<string>()
                     }).ToList();
 
+
                     _allChannelsOriginal = channels;
+                    _showFavoritesOnly = false;
+                    ShowFavoritesOnlyToggle.IsChecked = false;
                     _searchFilter = "";
                     _isDrillingIntoGroup = false;
                     _drilledGroupName = "";
@@ -588,6 +632,8 @@ namespace LiveGardenTVPlus
 
                     if (channels.Count == 0) throw new Exception("No channels found.");
                     _allChannelsOriginal = channels;
+                    _showFavoritesOnly = false;
+                    ShowFavoritesOnlyToggle.IsChecked = false;
                     _searchFilter = "";
                     _isDrillingIntoGroup = false;
                     _drilledGroupName = "";
@@ -611,6 +657,7 @@ namespace LiveGardenTVPlus
             {
                 ShowLoading(false);
             }
+            TotalChannelsText.Text = $"{LanguageManager.GetTranslation("Total")}: {_allChannelsOriginal.Count}";
         }
 
         public async Task LoadPlaylistFromUrl(string url)
@@ -732,6 +779,8 @@ namespace LiveGardenTVPlus
                         }).ToList();
 
                         _allChannelsOriginal = channels;
+                        _showFavoritesOnly = false;
+                        ShowFavoritesOnlyToggle.IsChecked = false;
                         _searchFilter = "";
                         _isDrillingIntoGroup = false;
                         _drilledGroupName = "";
@@ -767,6 +816,8 @@ namespace LiveGardenTVPlus
                         }
 
                         _allChannelsOriginal = channels;
+                        _showFavoritesOnly = false;
+                        ShowFavoritesOnlyToggle.IsChecked = false;
                         _searchFilter = "";
                         _isDrillingIntoGroup = false;
                         _drilledGroupName = "";
@@ -799,6 +850,7 @@ namespace LiveGardenTVPlus
             {
                 ShowLoading(false);
             }
+            TotalChannelsText.Text = $"{LanguageManager.GetTranslation("Total")}: {_allChannelsOriginal.Count}";
         }
 
         private void SavePlaylistBtn_Click(object sender, RoutedEventArgs e)
@@ -832,13 +884,11 @@ namespace LiveGardenTVPlus
             {
                 LoadingProgressBar.Visibility = show ? Visibility.Visible : Visibility.Collapsed;
                 LoadPlaylistBtn.IsEnabled = !show;
-                LoadOnlineBtn.IsEnabled = !show;
                 EditPlaylistBtn.IsEnabled = !show;
                 SavePlaylistBtn.IsEnabled = !show;
                 ExportFavoritesBtn.IsEnabled = !show;
                 ToggleSidebarBtn.IsEnabled = !show;
                 ToolsBtn.IsEnabled = !show;
-                ShowFavoritesOnlyCheckBox.IsEnabled = !show;
                 SearchBox.IsEnabled = !show;
                 PauseResumeBtn.IsEnabled = !show;
                 SpeedSlowerBtn.IsEnabled = !show;
@@ -991,16 +1041,6 @@ namespace LiveGardenTVPlus
             RecentListBox.SelectedItem = null;
         }
 
-        private async void LoadOnlineBtn_Click(object sender, RoutedEventArgs e)
-        {
-            string url = Microsoft.VisualBasic.Interaction.InputBox(
-                LanguageManager.GetTranslation("Enter playlist URL (M3U or JSON):"),
-                LanguageManager.GetTranslation("Online Playlist"),
-                "");
-            if (!string.IsNullOrEmpty(url))
-                await LoadPlaylistFromUrl(url);
-        }
-
         private async void SettingsBtn_Click(object sender, RoutedEventArgs e)
         {
             var win = new SettingsWindow();
@@ -1050,7 +1090,7 @@ namespace LiveGardenTVPlus
             if (editor.IsSaved && !string.IsNullOrEmpty(editor.SavedFilePath))
             {
                 var result = MessageBox.Show(
-                    LanguageManager.GetTranslation("Do you want to load the edited playlist now?"),
+                    LanguageManager.GetTranslation("Do you want to load this edited playlist now?"),
                     LanguageManager.GetTranslation("Apply changes"),
                     MessageBoxButton.YesNo,
                     MessageBoxImage.Question);
@@ -1099,7 +1139,9 @@ namespace LiveGardenTVPlus
 
         private void ShowFavoritesOnly_Click(object sender, RoutedEventArgs e)
         {
-            _showFavoritesOnly = ShowFavoritesOnlyCheckBox.IsChecked == true;
+            var toggle = sender as ToggleButton;
+            if (toggle != null)
+                _showFavoritesOnly = toggle.IsChecked == true;
             RefreshChannelsView();
         }
 
@@ -1128,21 +1170,21 @@ namespace LiveGardenTVPlus
             }
         }
 
-        private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            _searchFilter = SearchBox.Text;
-            ClearSearchBtn.Visibility = (string.IsNullOrEmpty(_searchFilter) || _searchFilter == LanguageManager.GetTranslation("Search channels...")) ? Visibility.Collapsed : Visibility.Visible;
-            RefreshChannelsView();
-        }
-
         private void ClearSearchBtn_Click(object sender, RoutedEventArgs e)
         {
             _searchFilter = "";
-            SearchBox.Text = LanguageManager.GetTranslation("Search channels...");
-            SearchBox.Foreground = Brushes.Gray;
-            ClearSearchBtn.Visibility = Visibility.Collapsed;
+            SearchBox.Text = "";
+            SearchBox.Foreground = Brushes.Black;
             RefreshChannelsView();
             SearchBox.Focus();
+            ClearSearchBtn.IsEnabled = false; // disable when empty
+        }
+
+        private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            _searchFilter = SearchBox.Text;
+            ClearSearchBtn.IsEnabled = !string.IsNullOrEmpty(SearchBox.Text) && SearchBox.Text != LanguageManager.GetTranslation("Search channels...");
+            RefreshChannelsView();
         }
 
         private void EpgBtn_Click(object sender, RoutedEventArgs e)
@@ -1240,72 +1282,9 @@ namespace LiveGardenTVPlus
 
         private void HelpBtn_Click(object sender, RoutedEventArgs e)
         {
-            var version = Assembly.GetExecutingAssembly().GetName().Version;
-            string shortVersion = $"{version.Major}.{version.Minor}";
-
-            string help = $@"LiveGardenTVPlus Help - Version {shortVersion}
-
-        📁 PLAYLIST LOADING
-        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        • Load File – Open a local M3U/JSON file (filter includes both formats)
-        • Load Online – Enter a remote URL (supports M3U and JSON, auto-detected)
-        • Recent – Show last 5 opened files (click to reload)
-        • Drag & drop an M3U/JSON file directly onto the main window
-
-        ⚙️ SETTINGS
-        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        • Language – Change UI language (dynamic translation)
-        • Buffer – Adjust HLS buffer (1–10 seconds)
-        • Online Playlist – Select a pre‑defined M3U from GitHub (Refresh from GitHub)
-        • EPG Source – Choose XMLTV file from epgshare01 or enter custom URL
-        • Logos Source – Select logos repository and subfolder (SNP/PROVIDER/ALL)
-        • Matching thresholds – Set fuzzy matching for EPG and logos
-        • Save – Saves all settings without reloading the current playlist
-
-        📺 CHANNEL VIEW & EDITOR
-        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        • Click a channel to play; click a group name to show only that group
-        • Favorites – star icon; toggle 'Favorites only'
-        • Search box – flat list of results; '← Back to all groups' returns to full list
-        • Playlist Editor – Edit channels, groups, URLs, check duplicates, import/export
-        • JSON Import – Import local or remote JSON with flexible field mapping (auto‑detect, save mapping)
-        • Enrich with EPG – automatically adds missing tvg-id tags using fuzzy matching
-        • Fetch Logos – Download logos from remote repository for all channels
-        • Column sorting – Click any column header to sort; use 'Reset Order' to revert
-
-        🎮 PLAYER CONTROLS
-        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        • Speed buttons: 0.5x, 1x, 2x
-        • Buffer slider: adjust HLS buffer (1-10 seconds)
-        • PIP – Picture‑in‑Picture mode
-        • Fullscreen – hides all UI (click again or press ESC to restore)
-        • Hide List – collapse the channel sidebar
-        • Timeshift – pause live stream; drag slider to seek back; press 'Live' to return to live
-        • EPG Guide – click EPG button to see full TV guide; double‑click any program for details
-
-        🔄 UPDATER
-        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        • Automatic update check on startup (or click the update button)
-        • Downloads ZIP, replaces files, and restarts the app
-        • Your settings and playlists are preserved
-
-        🎨 THEMES & LANGUAGE
-        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        • Theme picker – 16 colour themes + Light/Dark mode
-        • Language selector in Settings (dynamic translation)
-
-        🙏 CREDITS
-        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        • Developer: Lululla
-        • Playlist repository: OwnerPlugins / TivuStreamList (Italian & international streams)
-        • HLS playback: hls.js (MIT license)
-        • UI components: MaterialDesignThemes.Wpf
-        • WebView2: Microsoft Edge WebView2
-        • Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
-
-        For more information, visit the GitHub repository.";
-
-            MessageBox.Show(help, LanguageManager.GetTranslation("Help"), MessageBoxButton.OK, MessageBoxImage.Information);
+            var helpWindow = new Views.HelpWindow();
+            helpWindow.Owner = this;
+            helpWindow.ShowDialog();
         }
     }
 }

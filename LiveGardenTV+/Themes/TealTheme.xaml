@@ -1,5 +1,6 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Standard keys used by all windows -->
     <SolidColorBrush x:Key="WindowBackgroundBrush" Color="#FCE4EC"/>
     <SolidColorBrush x:Key="ForegroundBrush" Color="#880E4F"/>
     <SolidColorBrush x:Key="ControlBackgroundBrush" Color="#F8BBD0"/>
@@ -7,6 +8,7 @@
     <SolidColorBrush x:Key="AccentBrush" Color="#C2185B"/>
     <SolidColorBrush x:Key="AlternateRowBackgroundBrush" Color="#F8BBD0"/>
 
+    <!-- Styles -->
     <Style x:Key="{x:Static ToolBar.ButtonStyleKey}" TargetType="Button">
         <Setter Property="Foreground" Value="{DynamicResource ForegroundBrush}"/>
     </Style>

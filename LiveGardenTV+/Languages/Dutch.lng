@@ -1,18 +1,41 @@
-﻿(No description): (Geen beschrijving)
+﻿(Completely voluntary – no features are blocked): (Volledig vrijwillig – er worden geen functies geblokkeerd)
+(No description): (Geen beschrijving)
+• Add / rename / delete groups.: • Groepen toevoegen/hernoemen/verwijderen.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Bufferschuifregelaar: HLS-buffer aanpassen (1-10 seconden).
+• Check URL availability (only visible channels).: • Controleer URL-beschikbaarheid (alleen zichtbare kanalen).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Bewerk kanaalnamen, groepen, URL's, logo's, tvg-id, land, talen, favorieten.
+• Edit multiple URLs per channel (popup window).: • Bewerk meerdere URL's per kanaal (pop-upvenster).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Verrijken met EPG: voegt ontbrekende tvg-id toe met behulp van fuzzy matching.
+• EPG info displayed in status bar for current channel.: • EPG-info weergegeven in de statusbalk voor het huidige kanaal.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • Exporteer OK / FAIL / gefilterde lijsten als M3U of JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Logo's ophalen uit een externe opslagplaats (OwnerPlugins/logo's).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Gebruikersinterface op volledig scherm: verbergt de zijbalk en statusbalk (ESC om af te sluiten).
+• Hide/Show channel list button.: • Knop Kanalenlijst verbergen/tonen.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Importeer JSON (lokaal of URL) met flexibele veldtoewijzing (automatische detectie, toewijzing opslaan).
+• Picture‑in‑Picture (PIP) button.: • Picture-in-Picture (PIP)-knop.
+• Playback speed: 0.5x, 1x, 2x buttons.: • Afspeelsnelheid: 0,5x, 1x, 2x knoppen.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sorteer elke kolom door op de kop te klikken; gebruik 'Reset Order' om terug te keren naar de oorspronkelijke bestelling.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: livestream pauzeren; sleep de schuifregelaar om terug te zoeken; druk op 'Live' om terug te keren.
 ◀ Previous: ◀ Vorige
+16 colour themes + Light/Dark variants.: 16 kleurenthema's + licht/donker varianten.
 A new version is available. Do you want to update now?: Er is een nieuwe versie beschikbaar. Wil je nu updaten?
-About: Over
-About TVGarden+: Over TVGarden+
+Access via 'Edit Playlist' button on main toolbar.: Toegang via de knop 'Afspeellijst bewerken' op de hoofdwerkbalk.
+Actions: Acties
 Add Group: Groep toevoegen
 Add Mapping: Voeg toewijzing toe
+Adjust buffer size (1-10 seconds): Buffergrootte aanpassen (1-10 seconden)
 Advanced IDs: Geavanceerde ID's
+Application status: Applicatiestatus
 Apply changes: Wijzigingen toepassen
 Apply Filters: Filters toepassen
 Auto-detect: Automatische detectie
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatische controle bij opstarten – of klik op 'Controleren op updates' in het menu Extra.
 Buffer (seconds): Buffer (seconden)
+Buffer size – adjust HLS buffer seconds.: Buffergrootte – pas HLS-bufferseconden aan.
 Cancel: Annuleren
 CANCEL: ANNULEREN
 Category: Categorie
+Changelog: Wijzigingslog
 Channel Details: Kanaaldetails
 Channel Info: Kanaalinformatie
 Channel:: Kanaal:
@@ -23,12 +46,22 @@ Check Duplicates: Controleer duplicaten
 Check for updates: Controleer op updates
 Check URLs: Controleer URL's
 Clear Filters: Filters wissen
+Clear search: Duidelijke zoekopdracht
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Community en testen: CorvoBoys (corvoboys.org) en LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Land
+Credits: Kredieten
 Delete Group: Groep verwijderen
 Description: Beschrijving
 Details: Details
-Do you want to load the edited playlist now?: Wil je de bewerkte afspeellijst nu laden?
+Developed by Lululla: Ontwikkeld door Lululla
+Developer: Lululla: Ontwikkelaar: Lululla
+Do you want to load this edited playlist now?: Wil je deze bewerkte afspeellijst nu laden?
+Double speed (2x): Dubbele snelheid (2x)
 Downloading playlist...: Afspeellijst downloaden...
+Downloads ZIP, replaces files, restarts app – settings preserved.: Downloadt ZIP, vervangt bestanden, start app opnieuw – instellingen blijven behouden.
+Drag & drop – drop M3U or JSON files directly onto main window.: Drag & drop – zet M3U- of JSON-bestanden rechtstreeks neer op het hoofdvenster.
+Drag to seek back in buffer: Sleep om terug te zoeken in de buffer
 Duplicate URLs found:\n\n: Dubbele URL's gevonden:\n\n
 Edit Playlist: Bewerk afspeellijst
 Edit URLs: URL's bewerken
@@ -37,12 +70,19 @@ Enrich with EPG: Verrijk met EPG
 Enter JSON URL:: Voer JSON-URL in:
 Enter playlist URL (M3U or JSON):: Voer de URL van de afspeellijst in (M3U of JSON):
 EPG: EPG
-EPG & Favorites: EPG en favorieten
+Epg & Favorites: Epg en favorieten
+Epg & Logos: Epg en logo's
+EPG & Logos: EPG en logo's
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG-gids – knop op de hoofdwerkbalk toont een volledig raster met programmadetails (dubbelklik voor info).
 EPG Matching Threshold: EPG-overeenstemmingsdrempel
 EPG Source: EPG-bron
+EPG source – can be set in Settings (epgshare01 or custom URL).: EPG-bron – kan worden ingesteld in Instellingen (epgshare01 of aangepaste URL).
+EPG source – choose XMLTV file or enter custom URL.: EPG-bron – kies een XMLTV-bestand of voer een aangepaste URL in.
 Error: Fout
 Error loading: Fout bij laden
+Error loading file: {0}: Fout bij laden van bestand: {0}
 Error loading playlists: {0}: Fout bij het laden van afspeellijsten: {0}
+Error loading URL: {0}: Fout bij laden van URL: {0}
 ERROR: player.html not found.: FOUT: player.html niet gevonden.
 Exit: Uitgang
 Export Favorites: Favorieten exporteren
@@ -51,18 +91,25 @@ Export Filtered M3U: Exporteer gefilterde M3U
 Export JSON: JSON exporteren
 Export KO: KO exporteren
 Export OK: Exporteren oké
+Export only favorite channels to a new M3U file: Exporteer alleen favoriete kanalen naar een nieuw M3U-bestand
 Extracting update...: Update uitpakken...
 Failed to download playlist: Kan de afspeellijst niet downloaden
 Failed to load playlist: Kan afspeellijst niet laden
 Favorite: Favoriet
+Favorites only: Alleen favorieten
 Fetch Logos: Logo's ophalen
-FILTERS: FILTERS
+Filters: Filters
+Fullscreen (hide UI) - press ESC to exit: Volledig scherm (gebruikersinterface verbergen) - druk op ESC om af te sluiten
 Geo & Country: Geo & Land
 GeoBlocked: Geogeblokkeerd
 GitHub Error: GitHub-fout
+Go back to live: Ga weer leven
 Group: Groep
+Half speed (0.5x): Halve snelheid (0,5x)
 Help: Hulp
 Hide List: Lijst verbergen
+HLS playback: hls.js (MIT license): HLS afspelen: hls.js (MIT-licentie)
+Image: Afbeelding
 Import: Importeren
 Import error: {0}: Importfout: {0}
 Import from URL: Importeren vanaf URL
@@ -72,27 +119,43 @@ Import Local: Lokaal importeren
 Imported {0} channels from JSON.: {0} kanalen geïmporteerd uit JSON.
 Imported {0} channels from URL.: {0} kanalen geïmporteerd uit URL.
 Info: Info
+Info on: Info over
 Invalid JSON: {0}: Ongeldige JSON: {0}
 Invalid playlist URL.: Ongeldige afspeellijst-URL.
 Invalid URL.: Ongeldige URL.
+Json: Json
 JSON Property: JSON-eigenschap
+Ko-fi: Koffie
 Language: Taal
+Language – change UI language dynamically (translations in Languages folder).: Taal – wijzig de UI-taal dynamisch (vertalingen in de map Talen).
+Languages: Talen
 Languages (comma): Talen (komma)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Help by Lululla
 LOAD: LADEN
 Load a playlist first.: Laad eerst een afspeellijst.
 Load File: Bestand laden
-Load Online: Online laden
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Lokaal M3U/JSON-bestand laden – via de knop 'Bestand laden' (werkbalk) of 'Bestand openen' in de editor.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Online M3U/JSON-URL laden – knop 'Online laden' (werkbalk) of 'Openen vanaf URL' in de editor.
 Load playlist file (M3U/JSON) from your computer: Laad het afspeellijstbestand (M3U/JSON) vanaf uw computer
-Load playlist from web URL (M3U or JSON): Afspeellijst laden vanaf web-URL (M3U of JSON)
 Loaded: Geladen
+Loaded {0} channels from JSON file.: {0} kanalen geladen uit JSON-bestand.
+Loaded {0} channels from JSON URL.: {0} kanalen geladen via JSON-URL.
+Loaded {0} channels from M3U file.: {0} kanalen geladen uit M3U-bestand.
+Loaded {0} channels from M3U URL.: {0} kanalen geladen via de M3U-URL.
 Loading...: Laden...
+Logo: Logo
+Logo Picker – in editor, click '...' to choose logo from gallery.: Logokiezer – klik in de editor op '...' om een ​​logo uit de galerij te kiezen.
 Logo Preview: Logovoorbeeld
 Logo URL: Logo-URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Logo's – automatisch downloaden uit de GitHub-repository (Instellingen → Logobron).
 Logos Matching Threshold: Logo's die overeenkomen met de drempel
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logoopslagplaats – kies eigenaar/repository/pad (standaard OwnerPlugins/logo's).
 Logos Source: Logo's Bron
 Logos Subfolder: Submap Logo's
 Map JSON properties to channel fields:: Wijs JSON-eigenschappen toe aan kanaalvelden:
 Mapping saved for future imports of this file.: Toewijzing opgeslagen voor toekomstige import van dit bestand.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Overeenkomende drempels – stel de gevoeligheid voor vage overeenkomsten in voor EPG en logo's.
 Name: Naam
 Nanoid: Nanooïde
 Network error: Netwerkfout
@@ -106,57 +169,90 @@ No favorite channels to export.: Geen favoriete kanalen om te exporteren.
 No playlist found: Geen afspeellijst gevonden
 No stream: Geen stroom
 No updates available.: Geen updates beschikbaar.
-Now playing: Nu aan het spelen
+Normal speed (1x): Normale snelheid (1x)
+Now: Nu
 OK: OK
 Online Playlist: Online-afspeellijst
+Online playlist – select from GitHub repository (auto‑refresh).: Online afspeellijst – selecteer uit de GitHub-repository (automatisch vernieuwen).
+Open File...: Bestand openen...
+Open from URL: Openen vanaf URL
+Open Playlist: Afspeellijst openen
 Pause/Resume live stream: Livestream pauzeren/hervatten
-Player ready.: Speler klaar.
+Paused: Gepauzeerd
+PayPal: PayPal
+Picture-in-Picture mode: Picture-in-Picture-modus
+Player Control: Spelercontrole
+Playlist & Groups: Afspeellijst en groepen
 Playlist Editor: Afspeellijst-editor
+Playlist Loading: Afspeellijst wordt geladen
+Playlist Management: Beheer van afspeellijsten
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repository voor afspeellijsten: OwnerPlugins/TivuStreamList (Italiaanse en internationale streams)
 Please select a program first.: Selecteer eerst een programma.
 Preview (first 5 channels): Preview (eerste 5 kanalen)
 Preview error: {0}: Voorbeeldfout: {0}
 Program Details: Programmadetails
+Ready.: Klaar.
 Recent: Recent
+Recent files – quick access to last 5 opened playlists.: Recente bestanden – snelle toegang tot de laatste 5 geopende afspeellijsten.
 Recent playlists: Recente afspeellijsten
 Refresh: Vernieuwen
 Refresh EPG List: EPG-lijst vernieuwen
 Refresh from GitHub: Vernieuwen vanuit GitHub
 Rename Group: Groep hernoemen
+Repository: Opslagplaats
 Reset Order: Bestelling opnieuw instellen
 Save: Redden
 SAVE: REDDEN
+Save – persists all settings without reloading current playlist.: Opslaan – bewaart alle instellingen zonder de huidige afspeellijst opnieuw te laden.
 Save as...: Opslaan als...
+Save current playlist to a new M3U file: Sla de huidige afspeellijst op in een nieuw M3U-bestand
 Save Mapping: Mapping opslaan
 Save Playlist: Afspeellijst opslaan
 Save Status: Status opslaan
 Saved: Opgeslagen
+Search channels by name: Zoek kanalen op naam
 Search channels...: Zenders zoeken...
 Select a playlist first.: Selecteer eerst een afspeellijst.
 Select Theme: Selecteer Thema
+Selected theme is saved and applied on restart.: Het geselecteerde thema wordt opgeslagen en toegepast bij opnieuw opstarten.
 Settings: Instellingen
 Show List: Toon lijst
+Show only channels marked as favorites: Toon alleen kanalen die als favoriet zijn gemarkeerd
 Show or hide the channel list: Toon of verberg de zenderlijst
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Speciale dank aan de CORVOBOYS & LinuxSat-Support-gemeenschappen voor testen en ondersteuning.
 Start (local): Begin (lokaal)
 Status: Status
 Stream URL: Stream-URL
+Stream URLs: Stream-URL's
 Success: Succes
 Support: Steun
+Support the developer: Ondersteun de ontwikkelaar
 Target Field: Doelveld
+Thanks to: Dankzij
 Theme picker: Themakiezer
+Theme picker – accessible via Tools menu on main toolbar.: Themakiezer – toegankelijk via het menu Extra op de hoofdwerkbalk.
+Themes: Thema's
 Time: Tijd
 Title: Titel
 Tools: Hulpmiddelen
+Total: Totaal
+Total channels in loaded playlist: Totaal aantal kanalen in geladen afspeellijst
 TV Guide (EPG): TV-gids (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: Gebruikersinterface: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Kan de versie niet vinden in het externe projectbestand.
 Update: Update
 Update complete. Restarting...: Update voltooid. Opnieuw opstarten...
 Update failed: : Update mislukt:
+Updates: Updates
 URL: URL
 URL (primary): URL (primair)
+URL Check: URL-controle
 URL list (one per line): URL-lijst (één per regel)
 URLs & Status: URL's en status
 Version: Versie
 Waiting for LiveGardenTVPlus to close...: Wachten tot LiveGardenTVPlus sluit...
 Warning: Waarschuwing
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: Youtube-URL
+Youtube URLs: YouTube-URL's

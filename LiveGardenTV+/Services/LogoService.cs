@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using LiveGardenTVPlus.Models;
 using System.IO;
-using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
-using System.Threading;
-using System.Threading.Tasks;
-using LiveGardenTVPlus.Models;
 
 namespace LiveGardenTVPlus.Services
 {

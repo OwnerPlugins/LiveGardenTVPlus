@@ -1,12 +1,9 @@
 ﻿/* example from: https://raw.githubusercontent.com/SHAJON-404/iptv/refs/heads/main/app/data/channels.json */
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Windows;
 using LiveGardenTVPlus.Models;
 using LiveGardenTVPlus.Services;
 using Newtonsoft.Json.Linq;
+using System.Collections.ObjectModel;
+using System.Windows;
 
 namespace LiveGardenTVPlus.Views
 {

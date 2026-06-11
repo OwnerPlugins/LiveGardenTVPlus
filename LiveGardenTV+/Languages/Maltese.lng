@@ -1,18 +1,41 @@
-﻿(No description): (L-ebda deskrizzjoni)
+﻿(Completely voluntary – no features are blocked): (Completament volontarju - l-ebda karatteristika mhi mblukkata)
+(No description): (L-ebda deskrizzjoni)
+• Add / rename / delete groups.: • Żid / semmi mill-ġdid / ħassar gruppi.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffer slider: aġġusta l-buffer HLS (1-10 sekondi).
+• Check URL availability (only visible channels).: • Iċċekkja d-disponibbiltà tal-URL (kanali viżibbli biss).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Editja l-ismijiet tal-kanali, gruppi, URLs, logos, tvg-id, pajjiż, lingwi, favoriti.
+• Edit multiple URLs per channel (popup window).: • Editja URLs multipli għal kull kanal (tieqa popup).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Tarrikkixxi bl-EPG: iżid tvg-id nieqes bl-użu ta' tqabbil fuzzy.
+• EPG info displayed in status bar for current channel.: • Informazzjoni EPG murija fil-bar tal-istatus għall-kanal kurrenti.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • Esportazzjoni OK / FAIL / listi ffiltrati bħala M3U jew JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Iġbed logos minn repożitorju remot (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Fullscreen UI: taħbi sidebar u status bar (ESC biex toħroġ).
+• Hide/Show channel list button.: • Aħbi/Uri buttuna tal-lista tal-kanali.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Importa JSON (lokali jew URL) b'mapping tal-kamp flessibbli (awto-detect, ħlief mapping).
+• Picture‑in‑Picture (PIP) button.: • Buttuna Picture-in-Picture (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.: • Veloċità tal-qari: 0.5x, 1x, 2x buttuni.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Issortja kwalunkwe kolonna billi tikklikkja header; uża 'Reset Order' biex terġa' lura għall-ordni oriġinali.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: nieqaf live stream; drag slider biex tfittex lura; agħfas 'Live' biex tirritorna.
 ◀ Previous: ◀ Preċedenti
+16 colour themes + Light/Dark variants.: 16-il tema tal-kulur + varjanti Dawl/Dlam.
 A new version is available. Do you want to update now?: Verżjoni ġdida hija disponibbli. Trid taġġorna issa?
-About: Dwar
-About TVGarden+: Dwar TVGarden+
+Access via 'Edit Playlist' button on main toolbar.: Aċċess permezz tal-buttuna 'Editja Playlist' fuq il-bar tal-għodda prinċipali.
+Actions: Azzjonijiet
 Add Group: Żid Grupp
 Add Mapping: Żid Mapping
+Adjust buffer size (1-10 seconds): Aġġusta d-daqs tal-buffer (1-10 sekondi)
 Advanced IDs: IDs Avvanzati
+Application status: Status tal-applikazzjoni
 Apply changes: Applika bidliet
 Apply Filters: Applika Filtri
 Auto-detect: Issib awtomatikament
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Iċċekkja awtomatika mal-istartjar – jew ikklikkja 'Iċċekkja għal aġġornamenti' fil-menu tal-Għodda.
 Buffer (seconds): Buffer (sekondi)
+Buffer size – adjust HLS buffer seconds.: Daqs tal-buffer – aġġusta sekondi tal-buffer HLS.
 Cancel: Ikkanċella
 CANCEL: IKANNELLA
 Category: Kategorija
+Changelog: Changelog
 Channel Details: Dettalji tal-Kanal
 Channel Info: Informazzjoni dwar il-Kanal
 Channel:: Kanal:
@@ -23,12 +46,22 @@ Check Duplicates: Iċċekkja Duplikati
 Check for updates: Iċċekkja għal aġġornamenti
 Check URLs: Iċċekkja l-URLs
 Clear Filters: Filtri ċari
+Clear search: Tiftix ċar
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunità u ttestjar: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Pajjiż
+Credits: Krediti
 Delete Group: Ħassar Grupp
 Description: Deskrizzjoni
 Details: Dettalji
-Do you want to load the edited playlist now?: Trid tagħbija l-playlist editjata issa?
+Developed by Lululla: Żviluppat minn Lululla
+Developer: Lululla: Żviluppatur: Lululla
+Do you want to load this edited playlist now?: Trid tagħbija din il-playlist editjata issa?
+Double speed (2x): Veloċità doppja (2x)
 Downloading playlist...: Niżżel il-playlist...
+Downloads ZIP, replaces files, restarts app – settings preserved.: Jniżżel ZIP, jissostitwixxi l-fajls, jerġa 'jibda l-app - issettjar ippreservat.
+Drag & drop – drop M3U or JSON files directly onto main window.: Iddreggja u qatra – qiegħed fajls M3U jew JSON direttament fuq it-tieqa prinċipali.
+Drag to seek back in buffer: Iddreggja biex tfittex lura fil-buffer
 Duplicate URLs found:\n\n: URLs duplikati misjuba:\n\n
 Edit Playlist: Editja Playlist
 Edit URLs: Editja l-URLs
@@ -37,12 +70,19 @@ Enrich with EPG: Tarrikkixxi bl-EPG
 Enter JSON URL:: Daħħal JSON URL:
 Enter playlist URL (M3U or JSON):: Daħħal l-URL tal-playlist (M3U jew JSON):
 EPG: EPG
-EPG & Favorites: EPG & Favoriti
+Epg & Favorites: Epg & Favoriti
+Epg & Logos: Epg & Logos
+EPG & Logos: EPG & Logos
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Gwida EPG – buttuna fuq il-bar tal-għodda prinċipali turi grilja sħiħa bid-dettalji tal-programm (ikklikkja darbtejn għall-informazzjoni).
 EPG Matching Threshold: Limitu ta' Tqabbil EPG
 EPG Source: Sors EPG
+EPG source – can be set in Settings (epgshare01 or custom URL).: Sors EPG - jista 'jiġi ssettjat f'Settings (epgshare01 jew URL personalizzat).
+EPG source – choose XMLTV file or enter custom URL.: Sors EPG - agħżel fajl XMLTV jew daħħal URL personalizzat.
 Error: Żball
 Error loading: Żball fit-tagħbija
+Error loading file: {0}: Żball fit-tagħbija tal-fajl: {0}
 Error loading playlists: {0}: Żball fit-tagħbija tal-playlists: {0}
+Error loading URL: {0}: Żball fit-tagħbija tal-URL: {0}
 ERROR: player.html not found.: ŻBALL: player.html ma nstabx.
 Exit: Ħruġ
 Export Favorites: Esportazzjoni Favoriti
@@ -51,18 +91,25 @@ Export Filtered M3U: Esportazzjoni Iffiltrat M3U
 Export JSON: Esportazzjoni JSON
 Export KO: Esportazzjoni KO
 Export OK: Esportazzjoni OK
+Export only favorite channels to a new M3U file: Esportazzjoni biss kanali favoriti għal fajl M3U ġdid
 Extracting update...: Qed jiġi estratt aġġornament...
 Failed to download playlist: Naqas milli tniżżel playlist
 Failed to load playlist: Naqas milli tagħbija playlist
 Favorite: Favorit
+Favorites only: Favourites biss
 Fetch Logos: Iġbed Logos
-FILTERS: FILTRI
+Filters: Filtri
+Fullscreen (hide UI) - press ESC to exit: Skrin sħiħ (aħbi UI) - agħfas ESC biex toħroġ
 Geo & Country: Ġeo & Pajjiż
 GeoBlocked: ĠeoBlocked
 GitHub Error: Żball GitHub
+Go back to live: Mur lura biex tgħix
 Group: Grupp
+Half speed (0.5x): Nofs il-veloċità (0.5x)
 Help: Għajnuna
 Hide List: Aħbi Lista
+HLS playback: hls.js (MIT license): Daqq HLS: hls.js (liċenzja MIT)
+Image: Immaġni
 Import: Importazzjoni
 Import error: {0}: Żball fl-importazzjoni: {0}
 Import from URL: Importa mill-URL
@@ -72,27 +119,43 @@ Import Local: Importazzjoni Lokali
 Imported {0} channels from JSON.: Importati {0} kanali minn JSON.
 Imported {0} channels from URL.: Importati {0} kanali mill-URL.
 Info: Info
+Info on: Informazzjoni fuq
 Invalid JSON: {0}: JSON mhux validu: {0}
 Invalid playlist URL.: URL tal-playlist mhux validu.
 Invalid URL.: URL invalidu.
+Json: Json
 JSON Property: Proprjetà JSON
+Ko-fi: Kafè
 Language: Lingwa
+Language – change UI language dynamically (translations in Languages folder).: Lingwa – ibdel il-lingwa tal-UI b'mod dinamiku (traduzzjonijiet fil-folder tal-Lingwi).
+Languages: Lingwi
 Languages (comma): Lingwi (virgola)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: Għajnuna LiveGardenTVPlus minn Lululla
 LOAD: TAGĦBIJA
 Load a playlist first.: L-ewwel tagħbija playlist.
 Load File: Tagħbija Fajl
-Load Online: Tagħbija Online
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Tagħbija fajl M3U/JSON lokali – permezz tal-buttuna 'Load File' (toolbar) jew 'Open File' fl-editur.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Tagħbija online M3U/JSON URL – buttuna 'Tagħbija Online' (toolbar) jew 'Open from URL' fl-editur.
 Load playlist file (M3U/JSON) from your computer: Tagħbija l-fajl tal-playlist (M3U/JSON) mill-kompjuter tiegħek
-Load playlist from web URL (M3U or JSON): Tagħbija playlist mill-URL tal-web (M3U jew JSON)
 Loaded: Mgħobbija
+Loaded {0} channels from JSON file.: {0} kanali mgħobbija minn fajl JSON.
+Loaded {0} channels from JSON URL.: {0} kanali mgħobbija mill-URL JSON.
+Loaded {0} channels from M3U file.: {0} kanali mgħobbija mill-fajl M3U.
+Loaded {0} channels from M3U URL.: {0} kanali mgħobbija mill-URL M3U.
 Loading...: Tagħbija...
+Logo: Logo
+Logo Picker – in editor, click '...' to choose logo from gallery.: Logo Picker – fl-editur, ikklikkja '...' biex tagħżel il-logo mill-gallerija.
 Logo Preview: Preview tal-logo
 Logo URL: URL tal-logo
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Logos – niżżel awtomatikament mir-repożitorju ta’ GitHub (Settings → Sors tal-Logos).
 Logos Matching Threshold: Limitu ta' Tqabbil tal-Logos
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Repożitorju tal-logos - agħżel sid/repo/mogħdija (default OwnerPlugins/logos).
 Logos Source: Sors Logos
 Logos Subfolder: Subfolder tal-logos
 Map JSON properties to channel fields:: Ippjana proprjetajiet JSON għal oqsma tal-kanali:
 Mapping saved for future imports of this file.: Immappjar salvat għal importazzjonijiet futuri ta' dan il-fajl.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Limiti ta' tqabbil – issettja sensittività ta' taqbila fuzzy għal EPG u logos.
 Name: Isem
 Nanoid: Nanojdi
 Network error: Żball tan-netwerk
@@ -106,57 +169,90 @@ No favorite channels to export.: Ebda kanali favoriti għall-esportazzjoni.
 No playlist found: Ma nstabet l-ebda playlist
 No stream: L-ebda nixxiegħa
 No updates available.: Ebda aġġornamenti disponibbli.
-Now playing: Issa qed jilgħab
+Normal speed (1x): Veloċità normali (1x)
+Now: Issa
 OK: OK
 Online Playlist: Playlist Online
+Online playlist – select from GitHub repository (auto‑refresh).: Playlist onlajn – agħżel mir-repożitorju ta' GitHub (aġġornament awtomatiku).
+Open File...: Iftaħ Fajl...
+Open from URL: Iftaħ mill-URL
+Open Playlist: Iftaħ Playlist
 Pause/Resume live stream: Waqfa/Ibda live stream
-Player ready.: Player lest.
+Paused: Waqfa qasira
+PayPal: PayPal
+Picture-in-Picture mode: Modalità Picture-in-Picture
+Player Control: Kontroll tal-Plejer
+Playlist & Groups: Playlist u Gruppi
 Playlist Editor: Editur tal-Playlist
+Playlist Loading: Tagħbija tal-Playlist
+Playlist Management: Ġestjoni tal-Playlist
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repożitorju tal-playlist: OwnerPlugins/TivuStreamList (flussi Taljani u internazzjonali)
 Please select a program first.: Jekk jogħġbok agħżel programm l-ewwel.
 Preview (first 5 channels): Preview (l-ewwel 5 kanali)
 Preview error: {0}: Żball ta' preview: {0}
 Program Details: Dettalji tal-Programm
+Ready.: Lest.
 Recent: Riċenti
+Recent files – quick access to last 5 opened playlists.: Fajls riċenti - aċċess rapidu għall-aħħar 5 playlists miftuħa.
 Recent playlists: Playlists riċenti
 Refresh: Aġġorna
 Refresh EPG List: Aġġorna l-Lista EPG
 Refresh from GitHub: Aġġorna minn GitHub
 Rename Group: Semmi mill-ġdid tal-Grupp
+Repository: Repożitorju
 Reset Order: Irrisettja l-Ordni
 Save: Ħlief
 SAVE: SAVE
+Save – persists all settings without reloading current playlist.: Issejvja – jippersisti l-issettjar kollha mingħajr ma terġa’ tgħabbi l-playlist attwali.
 Save as...: Ħlief bħala...
+Save current playlist to a new M3U file: Issejvja playlist attwali għal fajl M3U ġdid
 Save Mapping: Ħlief Mapping
 Save Playlist: Ħlief Playlist
 Save Status: Issejvja l-Istatus
 Saved: Salvat
+Search channels by name: Fittex kanali bl-isem
 Search channels...: Fittex kanali...
 Select a playlist first.: Agħżel playlist l-ewwel.
 Select Theme: Agħżel Tema
+Selected theme is saved and applied on restart.: It-tema magħżula tiġi ssejvjata u applikata mal-bidu mill-ġdid.
 Settings: Settings
 Show List: Uri Lista
+Show only channels marked as favorites: Uri biss kanali mmarkati bħala favoriti
 Show or hide the channel list: Uri jew aħbi l-lista tal-kanali
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Grazzi speċjali lill-komunitajiet CORVOBOYS & LinuxSat-Support għall-ittestjar u l-appoġġ.
 Start (local): Ibda (lokali)
 Status: Status
 Stream URL: Stream URL
+Stream URLs: Stream URLs
 Success: Suċċess
 Support: Appoġġ
+Support the developer: Appoġġ lill-iżviluppatur
 Target Field: Target Field
+Thanks to: Grazzi lil
 Theme picker: Picker tat-tema
+Theme picker – accessible via Tools menu on main toolbar.: Picker tat-tema - aċċessibbli permezz tal-menu tal-Għodda fuq il-bar tal-għodda prinċipali.
+Themes: Temi
 Time: Ħin
 Title: Titolu
 Tools: Għodda
+Total: Total
+Total channels in loaded playlist: Stazzjonijiet totali fil-playlist mgħobbija
 TV Guide (EPG): Gwida tat-TV (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Ma tistax issib verżjoni fil-fajl tal-proġett remot.
 Update: Aġġornament
 Update complete. Restarting...: Aġġornament komplut. Nibda mill-ġdid...
 Update failed: : Aġġornament falla:
+Updates: Aġġornamenti
 URL: URL
 URL (primary): URL (primarja)
+URL Check: Iċċekkja l-URL
 URL list (one per line): Lista tal-URL (wieħed għal kull linja)
 URLs & Status: URLs & Status
 Version: Verżjoni
 Waiting for LiveGardenTVPlus to close...: Nistennew li LiveGardenTVPlus jagħlaq...
 Warning: Twissija
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: Youtube URL
+Youtube URLs: URLs tal-Youtube

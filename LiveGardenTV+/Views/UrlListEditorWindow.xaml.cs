@@ -1,7 +1,5 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using LiveGardenTVPlus.Services;
 using System.Windows;
-using LiveGardenTVPlus.Services;
 
 namespace LiveGardenTVPlus.Views
 {

@@ -1,18 +1,41 @@
-﻿(No description): (No description)
+﻿(Completely voluntary – no features are blocked): (Completely voluntary – no features are blocked)
+(No description): (No description)
+• Add / rename / delete groups.: • Add / rename / delete groups.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffer slider: adjust HLS buffer (1‑10 seconds).
+• Check URL availability (only visible channels).: • Check URL availability (only visible channels).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.
+• Edit multiple URLs per channel (popup window).: • Edit multiple URLs per channel (popup window).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Enrich with EPG: adds missing tvg-id using fuzzy matching.
+• EPG info displayed in status bar for current channel.: • EPG info displayed in status bar for current channel.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • Export OK / FAIL / filtered lists as M3U or JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Fetch logos from remote repository (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Fullscreen UI: hides sidebar and status bar (ESC to exit).
+• Hide/Show channel list button.: • Hide/Show channel list button.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).
+• Picture‑in‑Picture (PIP) button.: • Picture‑in‑Picture (PIP) button.
+• Playback speed: 0.5x, 1x, 2x buttons.: • Playback speed: 0.5x, 1x, 2x buttons.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sort any column by clicking header; use 'Reset Order' to revert to original order.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.
 ◀ Previous: ◀ Previous
+16 colour themes + Light/Dark variants.: 16 colour themes + Light/Dark variants.
 A new version is available. Do you want to update now?: A new version is available. Do you want to update now?
-About: About
-About TVGarden+: About TVGarden+
+Access via 'Edit Playlist' button on main toolbar.: Access via 'Edit Playlist' button on main toolbar.
+Actions: Actions
 Add Group: Add Group
 Add Mapping: Add Mapping
+Adjust buffer size (1-10 seconds): Adjust buffer size (1-10 seconds)
 Advanced IDs: Advanced IDs
+Application status: Application status
 Apply changes: Apply changes
 Apply Filters: Apply Filters
 Auto-detect: Auto-detect
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatic check on startup – or click 'Check for updates' in Tools menu.
 Buffer (seconds): Buffer (seconds)
+Buffer size – adjust HLS buffer seconds.: Buffer size – adjust HLS buffer seconds.
 Cancel: Cancel
 CANCEL: CANCEL
 Category: Category
+Changelog: Changelog
 Channel Details: Channel Details
 Channel Info: Channel Info
 Channel:: Channel:
@@ -23,12 +46,22 @@ Check Duplicates: Check Duplicates
 Check for updates: Check for updates
 Check URLs: Check URLs
 Clear Filters: Clear Filters
+Clear search: Clear search
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Country
+Credits: Credits
 Delete Group: Delete Group
 Description: Description
 Details: Details
-Do you want to load the edited playlist now?: Do you want to load the edited playlist now?
+Developed by Lululla: Developed by Lululla
+Developer: Lululla: Developer: Lululla
+Do you want to load this edited playlist now?: Do you want to load this edited playlist now?
+Double speed (2x): Double speed (2x)
 Downloading playlist...: Downloading playlist...
+Downloads ZIP, replaces files, restarts app – settings preserved.: Downloads ZIP, replaces files, restarts app – settings preserved.
+Drag & drop – drop M3U or JSON files directly onto main window.: Drag & drop – drop M3U or JSON files directly onto main window.
+Drag to seek back in buffer: Drag to seek back in buffer
 Duplicate URLs found:\n\n: Duplicate URLs found:\n\n
 Edit Playlist: Edit Playlist
 Edit URLs: Edit URLs
@@ -37,12 +70,19 @@ Enrich with EPG: Enrich with EPG
 Enter JSON URL:: Enter JSON URL:
 Enter playlist URL (M3U or JSON):: Enter playlist URL (M3U or JSON):
 EPG: EPG
-EPG & Favorites: EPG & Favorites
+Epg & Favorites: Epg & Favorites
+Epg & Logos: Epg & Logos
+EPG & Logos: EPG & Logos
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).
 EPG Matching Threshold: EPG Matching Threshold
 EPG Source: EPG Source
+EPG source – can be set in Settings (epgshare01 or custom URL).: EPG source – can be set in Settings (epgshare01 or custom URL).
+EPG source – choose XMLTV file or enter custom URL.: EPG source – choose XMLTV file or enter custom URL.
 Error: Error
 Error loading: Error loading
+Error loading file: {0}: Error loading file: {0}
 Error loading playlists: {0}: Error loading playlists: {0}
+Error loading URL: {0}: Error loading URL: {0}
 ERROR: player.html not found.: ERROR: player.html not found.
 Exit: Exit
 Export Favorites: Export Favorites
@@ -51,18 +91,25 @@ Export Filtered M3U: Export Filtered M3U
 Export JSON: Export JSON
 Export KO: Export KO
 Export OK: Export OK
+Export only favorite channels to a new M3U file: Export only favorite channels to a new M3U file
 Extracting update...: Extracting update...
 Failed to download playlist: Failed to download playlist
 Failed to load playlist: Failed to load playlist
 Favorite: Favorite
+Favorites only: Favorites only
 Fetch Logos: Fetch Logos
-FILTERS: FILTERS
+Filters: Filters
+Fullscreen (hide UI) - press ESC to exit: Fullscreen (hide UI) - press ESC to exit
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub Error
+Go back to live: Go back to live
 Group: Group
+Half speed (0.5x): Half speed (0.5x)
 Help: Help
 Hide List: Hide List
+HLS playback: hls.js (MIT license): HLS playback: hls.js (MIT license)
+Image: Image
 Import: Import
 Import error: {0}: Import error: {0}
 Import from URL: Import from URL
@@ -72,27 +119,43 @@ Import Local: Import Local
 Imported {0} channels from JSON.: Imported {0} channels from JSON.
 Imported {0} channels from URL.: Imported {0} channels from URL.
 Info: Info
+Info on: Info on
 Invalid JSON: {0}: Invalid JSON: {0}
 Invalid playlist URL.: Invalid playlist URL.
 Invalid URL.: Invalid URL.
+Json: Json
 JSON Property: JSON Property
+Ko-fi: Coffee
 Language: Language
+Language – change UI language dynamically (translations in Languages folder).: Language – change UI language dynamically (translations in Languages folder).
+Languages: Languages
 Languages (comma): Languages (comma)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Help by Lululla
 LOAD: LOAD
 Load a playlist first.: Load a playlist first.
 Load File: Load File
-Load Online: Load Online
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.
 Load playlist file (M3U/JSON) from your computer: Load playlist file (M3U/JSON) from your computer
-Load playlist from web URL (M3U or JSON): Load playlist from web URL (M3U or JSON)
 Loaded: Loaded
+Loaded {0} channels from JSON file.: Loaded {0} channels from JSON file.
+Loaded {0} channels from JSON URL.: Loaded {0} channels from JSON URL.
+Loaded {0} channels from M3U file.: Loaded {0} channels from M3U file.
+Loaded {0} channels from M3U URL.: Loaded {0} channels from M3U URL.
 Loading...: Loading...
+Logo: Logo
+Logo Picker – in editor, click '...' to choose logo from gallery.: Logo Picker – in editor, click '...' to choose logo from gallery.
 Logo Preview: Logo Preview
 Logo URL: Logo URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Logos – automatically download from GitHub repository (Settings → Logos Source).
 Logos Matching Threshold: Logos Matching Threshold
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logos repository – choose owner/repo/path (default OwnerPlugins/logos).
 Logos Source: Logos Source
 Logos Subfolder: Logos Subfolder
 Map JSON properties to channel fields:: Map JSON properties to channel fields:
 Mapping saved for future imports of this file.: Mapping saved for future imports of this file.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Matching thresholds – set fuzzy match sensitivity for EPG and logos.
 Name: Name
 Nanoid: Nanoid
 Network error: Network error
@@ -106,57 +169,90 @@ No favorite channels to export.: No favorite channels to export.
 No playlist found: No playlist found
 No stream: No stream
 No updates available.: No updates available.
-Now playing: Now playing
+Normal speed (1x): Normal speed (1x)
+Now: Now
 OK: OK
 Online Playlist: Online Playlist
+Online playlist – select from GitHub repository (auto‑refresh).: Online playlist – select from GitHub repository (auto‑refresh).
+Open File...: Open File...
+Open from URL: Open from URL
+Open Playlist: Open Playlist
 Pause/Resume live stream: Pause/Resume live stream
-Player ready.: Player ready.
+Paused: Paused
+PayPal: PayPal
+Picture-in-Picture mode: Picture-in-Picture mode
+Player Control: Player Control
+Playlist & Groups: Playlist & Groups
 Playlist Editor: Playlist Editor
+Playlist Loading: Playlist Loading
+Playlist Management: Playlist Management
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)
 Please select a program first.: Please select a program first.
 Preview (first 5 channels): Preview (first 5 channels)
 Preview error: {0}: Preview error: {0}
 Program Details: Program Details
+Ready.: Ready.
 Recent: Recent
+Recent files – quick access to last 5 opened playlists.: Recent files – quick access to last 5 opened playlists.
 Recent playlists: Recent playlists
 Refresh: Refresh
 Refresh EPG List: Refresh EPG List
 Refresh from GitHub: Refresh from GitHub
 Rename Group: Rename Group
+Repository: Repository
 Reset Order: Reset Order
 Save: Save
 SAVE: SAVE
+Save – persists all settings without reloading current playlist.: Save – persists all settings without reloading current playlist.
 Save as...: Save as...
+Save current playlist to a new M3U file: Save current playlist to a new M3U file
 Save Mapping: Save Mapping
 Save Playlist: Save Playlist
 Save Status: Save Status
 Saved: Saved
+Search channels by name: Search channels by name
 Search channels...: Search channels...
 Select a playlist first.: Select a playlist first.
 Select Theme: Select Theme
+Selected theme is saved and applied on restart.: Selected theme is saved and applied on restart.
 Settings: Settings
 Show List: Show List
+Show only channels marked as favorites: Show only channels marked as favorites
 Show or hide the channel list: Show or hide the channel list
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.
 Start (local): Start (local)
 Status: Status
 Stream URL: Stream URL
+Stream URLs: Stream URLs
 Success: Success
 Support: Support
+Support the developer: Support the developer
 Target Field: Target Field
+Thanks to: Thanks to
 Theme picker: Theme picker
+Theme picker – accessible via Tools menu on main toolbar.: Theme picker – accessible via Tools menu on main toolbar.
+Themes: Themes
 Time: Time
 Title: Title
 Tools: Tools
+Total: Total
+Total channels in loaded playlist: Total channels in loaded playlist
 TV Guide (EPG): TV Guide (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Unable to find version in remote project file.
 Update: Update
 Update complete. Restarting...: Update complete. Restarting...
 Update failed: : Update failed:
+Updates: Updates
 URL: URL
 URL (primary): URL (primary)
+URL Check: URL Check
 URL list (one per line): URL list (one per line)
 URLs & Status: URLs & Status
 Version: Version
 Waiting for LiveGardenTVPlus to close...: Waiting for LiveGardenTVPlus to close...
 Warning: Warning
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: Youtube URL
+Youtube URLs: Youtube URLs

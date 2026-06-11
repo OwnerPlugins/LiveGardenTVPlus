@@ -1,18 +1,41 @@
-﻿(No description): (Sen descrición)
+﻿(Completely voluntary – no features are blocked): (Completamente voluntario: ningunha función está bloqueada)
+(No description): (Sen descrición)
+• Add / rename / delete groups.: • Engadir / renomear / eliminar grupos.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Control deslizante do búfer: axusta o búfer HLS (1-10 segundos).
+• Check URL availability (only visible channels).: • Comproba a dispoñibilidade de URL (só canles visibles).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Edita nomes de canles, grupos, URL, logotipos, tvg-id, país, idiomas, favoritos.
+• Edit multiple URLs per channel (popup window).: • Edite varios URL por canle (xanela emerxente).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Enriquecer con EPG: engade tvg-id que falta mediante coincidencias difusas.
+• EPG info displayed in status bar for current channel.: • A información EPG móstrase na barra de estado da canle actual.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • Exportar OK / FAIL / listas filtradas como M3U ou JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Obter logotipos do repositorio remoto (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • IU de pantalla completa: oculta a barra lateral e a barra de estado (ESC para saír).
+• Hide/Show channel list button.: • Botón Ocultar/Mostrar a lista de canles.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Importar JSON (local ou URL) con asignación de campos flexible (detección automática, gardar mapeo).
+• Picture‑in‑Picture (PIP) button.: • Botón Picture-in-Picture (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.: • Velocidade de reprodución: botóns 0,5x, 1x, 2x.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Ordena calquera columna facendo clic na cabeceira; use "Restablecer orde" para volver á orde orixinal.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: pausa a emisión en directo; arrastra o control deslizante para buscar atrás; preme "En directo" para volver.
 ◀ Previous: ◀ Anterior
+16 colour themes + Light/Dark variants.: 16 temas de cores + variantes claras/escuras.
 A new version is available. Do you want to update now?: Hai unha nova versión dispoñible. Queres actualizar agora?
-About: Sobre
-About TVGarden+: Sobre TVGarden+
+Access via 'Edit Playlist' button on main toolbar.: Acceda a través do botón "Editar lista de reprodución" na barra de ferramentas principal.
+Actions: Accións
 Add Group: Engadir grupo
 Add Mapping: Engadir mapeo
+Adjust buffer size (1-10 seconds): Axustar o tamaño do búfer (1-10 segundos)
 Advanced IDs: ID avanzados
+Application status: Estado da solicitude
 Apply changes: Aplicar cambios
 Apply Filters: Aplicar filtros
 Auto-detect: Detección automática
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Comprobación automática ao inicio ou fai clic en "Buscar actualizacións" no menú Ferramentas.
 Buffer (seconds): Buffer (segundos)
+Buffer size – adjust HLS buffer seconds.: Tamaño do búfer: axusta os segundos do búfer HLS.
 Cancel: Cancelar
 CANCEL: CANCELAR
 Category: Categoría
+Changelog: Rexistro de cambios
 Channel Details: Detalles da canle
 Channel Info: Información da canle
 Channel:: Canle:
@@ -23,12 +46,22 @@ Check Duplicates: Comprobar duplicados
 Check for updates: Comproba se hai actualizacións
 Check URLs: Comproba os URL
 Clear Filters: Borrar filtros
+Clear search: Limpar a busca
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Comunidade e probas: CorvoBoys (corvoboys.org) e LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: País
+Credits: Créditos
 Delete Group: Eliminar grupo
 Description: Descrición
 Details: Detalles
-Do you want to load the edited playlist now?: Queres cargar agora a lista de reprodución editada?
+Developed by Lululla: Desenvolvido por Lululla
+Developer: Lululla: Desenvolvedor: Lululla
+Do you want to load this edited playlist now?: Queres cargar esta lista de reprodución editada agora?
+Double speed (2x): Dobre velocidade (2x)
 Downloading playlist...: Descargando lista de reprodución...
+Downloads ZIP, replaces files, restarts app – settings preserved.: Descarga o ZIP, substitúe ficheiros, reinicia a aplicación: consérvase a configuración.
+Drag & drop – drop M3U or JSON files directly onto main window.: Arrastrar e soltar: solta os ficheiros M3U ou JSON directamente na xanela principal.
+Drag to seek back in buffer: Arrastra para buscar de novo no búfer
 Duplicate URLs found:\n\n: URL duplicados atopados:\n\n
 Edit Playlist: Editar lista de reprodución
 Edit URLs: Editar URL
@@ -37,12 +70,19 @@ Enrich with EPG: Enriquecer con EPG
 Enter JSON URL:: Introduza o URL JSON:
 Enter playlist URL (M3U or JSON):: Introduce o URL da lista de reprodución (M3U ou JSON):
 EPG: EPG
-EPG & Favorites: EPG e favoritos
+Epg & Favorites: Epg & Favoritos
+Epg & Logos: Epg e logotipos
+EPG & Logos: EPG e logotipos
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Guía EPG: o botón da barra de ferramentas principal mostra a cuadrícula completa cos detalles do programa (faga dobre clic para obter información).
 EPG Matching Threshold: Limiar de coincidencia EPG
 EPG Source: Fonte EPG
+EPG source – can be set in Settings (epgshare01 or custom URL).: Fonte EPG: pódese configurar en Configuración (epgshare01 ou URL personalizado).
+EPG source – choose XMLTV file or enter custom URL.: Fonte EPG: escolla o ficheiro XMLTV ou introduza un URL personalizado.
 Error: Erro
 Error loading: Erro ao cargar
+Error loading file: {0}: Erro ao cargar o ficheiro: {0}
 Error loading playlists: {0}: Erro ao cargar as listas de reprodución: {0}
+Error loading URL: {0}: Erro ao cargar o URL: {0}
 ERROR: player.html not found.: ERRO: player.html non atopado.
 Exit: Saír
 Export Favorites: Exportar favoritos
@@ -51,18 +91,25 @@ Export Filtered M3U: Exportar M3U filtrado
 Export JSON: Exportar JSON
 Export KO: Exportar KO
 Export OK: Exportar OK
+Export only favorite channels to a new M3U file: Exporta só as canles favoritas a un novo ficheiro M3U
 Extracting update...: Extraendo actualización...
 Failed to download playlist: Produciuse un erro ao descargar a lista de reprodución
 Failed to load playlist: Produciuse un erro ao cargar a lista de reprodución
 Favorite: Favorito
+Favorites only: Só favoritos
 Fetch Logos: Obter logotipos
-FILTERS: FILTROS
+Filters: Filtros
+Fullscreen (hide UI) - press ESC to exit: Pantalla completa (ocultar IU): preme ESC para saír
 Geo & Country: Xeo e país
 GeoBlocked: Xeobloqueado
 GitHub Error: Erro de GitHub
+Go back to live: Volver a vivir
 Group: Grupo
+Half speed (0.5x): Velocidade media (0,5x)
 Help: Axuda
 Hide List: Ocultar a lista
+HLS playback: hls.js (MIT license): Reprodución HLS: hls.js (licenza MIT)
+Image: Imaxe
 Import: Importar
 Import error: {0}: Erro de importación: {0}
 Import from URL: Importar desde URL
@@ -72,27 +119,43 @@ Import Local: Importar local
 Imported {0} channels from JSON.: Importáronse {0} canles de JSON.
 Imported {0} channels from URL.: Importáronse {0} canles desde o URL.
 Info: Información
+Info on: Información sobre
 Invalid JSON: {0}: JSON non válido: {0}
 Invalid playlist URL.: O URL da lista de reprodución non é válido.
 Invalid URL.: URL non válido.
+Json: Json
 JSON Property: Propiedade JSON
+Ko-fi: Café
 Language: Linguaxe
+Language – change UI language dynamically (translations in Languages folder).: Idioma: cambia o idioma da IU de forma dinámica (traducións no cartafol Idiomas).
+Languages: Linguas
 Languages (comma): Idiomas (coma)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Axuda de Lululla
 LOAD: CARGA
 Load a playlist first.: Carga primeiro unha lista de reprodución.
 Load File: Cargar ficheiro
-Load Online: Cargar en liña
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Cargue o ficheiro M3U/JSON local: a través do botón "Cargar ficheiro" (barra de ferramentas) ou "Abrir ficheiro" no editor.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Cargar URL M3U/JSON en liña: botón "Cargar en liña" (barra de ferramentas) ou "Abrir desde URL" no editor.
 Load playlist file (M3U/JSON) from your computer: Carga o ficheiro da lista de reprodución (M3U/JSON) desde o teu ordenador
-Load playlist from web URL (M3U or JSON): Cargar lista de reprodución desde o URL web (M3U ou JSON)
 Loaded: Cargado
+Loaded {0} channels from JSON file.: Cargáronse {0} canles do ficheiro JSON.
+Loaded {0} channels from JSON URL.: Cargáronse {0} canles desde o URL JSON.
+Loaded {0} channels from M3U file.: Cargáronse {0} canles do ficheiro M3U.
+Loaded {0} channels from M3U URL.: Cargáronse {0} canles desde o URL M3U.
 Loading...: Cargando...
+Logo: Logotipo
+Logo Picker – in editor, click '...' to choose logo from gallery.: Selector de logotipos: no editor, faga clic en '...' para escoller o logotipo da galería.
 Logo Preview: Vista previa do logotipo
 Logo URL: URL do logotipo
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Logos: descarga automaticamente desde o repositorio de GitHub (Configuración → Fonte de logotipos).
 Logos Matching Threshold: Limiar de coincidencia de logotipos
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Repositorio de logotipos: escolla propietario/repositorio/ruta (OwnerPlugins/logotipos predeterminados).
 Logos Source: Fonte de logotipos
 Logos Subfolder: Subcarpeta Logotipos
 Map JSON properties to channel fields:: Asignar propiedades JSON aos campos da canle:
 Mapping saved for future imports of this file.: A cartografía gardouse para futuras importacións deste ficheiro.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Limiares de coincidencia: establece a sensibilidade de coincidencia difusa para EPG e logotipos.
 Name: Nome
 Nanoid: Nanoide
 Network error: Erro de rede
@@ -106,57 +169,90 @@ No favorite channels to export.: Non hai canles favoritas para exportar.
 No playlist found: Non se atopou ningunha lista de reprodución
 No stream: Sen fluxo
 No updates available.: Non hai actualizacións dispoñibles.
-Now playing: Agora xogando
+Normal speed (1x): Velocidade normal (1x)
+Now: Agora
 OK: OK
 Online Playlist: Lista de reprodución en liña
+Online playlist – select from GitHub repository (auto‑refresh).: Lista de reprodución en liña: selecciona desde o repositorio de GitHub (actualización automática).
+Open File...: Abrir ficheiro...
+Open from URL: Abrir desde o URL
+Open Playlist: Abre a lista de reprodución
 Pause/Resume live stream: Pausa/Retoma a emisión en directo
-Player ready.: Xogador listo.
+Paused: En pausa
+PayPal: PayPal
+Picture-in-Picture mode: Modo Picture-in-Picture
+Player Control: Control do xogador
+Playlist & Groups: Lista de reprodución e grupos
 Playlist Editor: Editor de listas de reprodución
+Playlist Loading: Cargando lista de reprodución
+Playlist Management: Xestión de listas de reprodución
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repositorio de listas de reprodución: OwnerPlugins/TivuStreamList (emisións italianas e internacionais)
 Please select a program first.: Seleccione primeiro un programa.
 Preview (first 5 channels): Vista previa (5 primeiras canles)
 Preview error: {0}: Erro de vista previa: {0}
 Program Details: Detalles do programa
+Ready.: Listo.
 Recent: Recente
+Recent files – quick access to last 5 opened playlists.: Ficheiros recentes: acceso rápido ás últimas 5 listas de reprodución abertas.
 Recent playlists: Listas de reprodución recentes
 Refresh: Actualizar
 Refresh EPG List: Actualizar a lista EPG
 Refresh from GitHub: Actualizar desde GitHub
 Rename Group: Cambiar o nome do grupo
+Repository: Repositorio
 Reset Order: Restablecer orde
 Save: Gardar
 SAVE: GARDAR
+Save – persists all settings without reloading current playlist.: Gardar: mantén todas as configuracións sen volver cargar a lista de reprodución actual.
 Save as...: Gardar como...
+Save current playlist to a new M3U file: Garda a lista de reprodución actual nun novo ficheiro M3U
 Save Mapping: Gardar cartografía
 Save Playlist: Gardar lista de reprodución
 Save Status: Gardar estado
 Saved: Gardado
+Search channels by name: Busca canles polo nome
 Search channels...: Busca canles...
 Select a playlist first.: Seleccione primeiro unha lista de reprodución.
 Select Theme: Seleccione Tema
+Selected theme is saved and applied on restart.: O tema seleccionado gárdase e aplícase ao reiniciar.
 Settings: Configuración
 Show List: Mostrar a lista
+Show only channels marked as favorites: Mostra só as canles marcadas como favoritas
 Show or hide the channel list: Mostra ou oculta a lista de canles
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Agradecemento especial ás comunidades de soporte de CORVOBOYS e LinuxSat polas probas e soporte.
 Start (local): Inicio (local)
 Status: Estado
-Stream URL: URL de transmisión
+Stream URL: URL do fluxo
+Stream URLs: URL de transmisión
 Success: Éxito
 Support: Apoio
+Support the developer: Apoiar o programador
 Target Field: Campo de destino
+Thanks to: Grazas a
 Theme picker: Selector de temas
+Theme picker – accessible via Tools menu on main toolbar.: Selector de temas: accesible a través do menú Ferramentas da barra de ferramentas principal.
+Themes: Temas
 Time: Tempo
 Title: Título
 Tools: Ferramentas
+Total: Total
+Total channels in loaded playlist: Canles totais na lista de reprodución cargada
 TV Guide (EPG): Guía de TV (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: IU: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Non se puido atopar a versión no ficheiro do proxecto remoto.
 Update: Actualizar
 Update complete. Restarting...: Actualización completada. Reiniciando...
 Update failed: : Fallou a actualización:
+Updates: Actualizacións
 URL: URL
 URL (primary): URL (principal)
+URL Check: Comprobación de URL
 URL list (one per line): Lista de URL (unha por liña)
 URLs & Status: URL e estado
 Version: Versión
 Waiting for LiveGardenTVPlus to close...: Agardando ao peche de LiveGardenTVPlus...
 Warning: Aviso
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: URL de Youtube
+Youtube URLs: URL de Youtube

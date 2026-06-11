@@ -1,18 +1,41 @@
-﻿(No description): (без описа)
+﻿(Completely voluntary – no features are blocked): (Потпуно добровољно – ниједна функција није блокирана)
+(No description): (без описа)
+• Add / rename / delete groups.: • Додај / преименуј / избриши групе.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Клизач бафера: подесите ХЛС бафер (1-10 секунди).
+• Check URL availability (only visible channels).: • Проверите доступност УРЛ адресе (само видљиви канали).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Уредите називе канала, групе, УРЛ адресе, логотипе, твг-ид, земљу, језике, фаворите.
+• Edit multiple URLs per channel (popup window).: • Уредите више УРЛ адреса по каналу (искачући прозор).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Обогати ЕПГ-ом: додаје недостајући твг-ид користећи нејасно подударање.
+• EPG info displayed in status bar for current channel.: • ЕПГ информације приказане у статусној траци за тренутни канал.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • Извезите ОК / ФАИЛ / филтриране листе као М3У или ЈСОН.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Преузмите логотипе из удаљеног спремишта (ОвнерПлугинс/логотипи).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • УИ преко целог екрана: сакрива бочну траку и статусну траку (ЕСЦ за излаз).
+• Hide/Show channel list button.: • Дугме Сакриј/Прикажи листу канала.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Увезите ЈСОН (локални или УРЛ) са флексибилним мапирањем поља (аутоматско откривање, чување мапирања).
+• Picture‑in‑Picture (PIP) button.: • Дугме Слика у слици (ПИП).
+• Playback speed: 0.5x, 1x, 2x buttons.: • Брзина репродукције: дугмад 0,5к, 1к, 2к.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Сортирајте било коју колону кликом на заглавље; користите 'Ресет Ордер' да бисте се вратили на првобитни редослед.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Тимесхифт: паузирајте пренос уживо; превуците клизач да бисте се вратили назад; притисните 'Уживо' да се вратите.
 ◀ Previous: ◀ Претходно
+16 colour themes + Light/Dark variants.: 16 тема боја + светле/тамне варијанте.
 A new version is available. Do you want to update now?: Доступна је нова верзија. Да ли желите да ажурирате сада?
-About: Абоут
-About TVGarden+: О ТВГарден+
+Access via 'Edit Playlist' button on main toolbar.: Приступите преко дугмета „Уреди плејлисту“ на главној траци са алаткама.
+Actions: Акције
 Add Group: Додај групу
 Add Mapping: Додај мапирање
+Adjust buffer size (1-10 seconds): Подесите величину бафера (1-10 секунди)
 Advanced IDs: Напредни ИД-ови
+Application status: Статус апликације
 Apply changes: Примени промене
 Apply Filters: Примени филтере
 Auto-detect: Ауто-детецт
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Аутоматска провера при покретању – или кликните на „Провери ажурирања“ у менију Алатке.
 Buffer (seconds): бафер (секунде)
+Buffer size – adjust HLS buffer seconds.: Величина бафера – подесите секунде ХЛС бафера.
 Cancel: Откажи
 CANCEL: ЦАНЦЕЛ
 Category: Категорија
+Changelog: Цхангелог
 Channel Details: Детаљи о каналу
 Channel Info: Информације о каналу
 Channel:: канал:
@@ -21,15 +44,25 @@ channels from JSON URL: канала из ЈСОН УРЛ-а
 channels from URL: канала са УРЛ-а
 Check Duplicates: Проверите дупликате
 Check for updates: Проверите ажурирања
-Check URLs: Проверите УРЛ адресе
+Check URLs: Проверите УРЛ-ове
 Clear Filters: Обриши филтере
+Clear search: Обриши претрагу
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Заједница и тестирање: ЦорвоБоис (цорвобоис.орг) & ЛинукСат-Суппорт.цом
+CORVOBOYS.ORG: ЦОРВОБОИС.ОРГ
 Country: Држава
+Credits: Цредитс
 Delete Group: Избриши групу
 Description: Опис
 Details: Детаљи
-Do you want to load the edited playlist now?: Да ли желите да сада учитате уређену плејлисту?
+Developed by Lululla: Развио Лулулла
+Developer: Lululla: Програмер: Лулулла
+Do you want to load this edited playlist now?: Да ли желите да сада учитате ову уређену плејлисту?
+Double speed (2x): Двострука брзина (2к)
 Downloading playlist...: Преузимање плејлисте...
-Duplicate URLs found:\n\n: Пронађени дупликати УРЛ-ова:\н\н
+Downloads ZIP, replaces files, restarts app – settings preserved.: Преузима ЗИП, замењује датотеке, поново покреће апликацију – подешавања су сачувана.
+Drag & drop – drop M3U or JSON files directly onto main window.: Превуците и испустите – испустите М3У или ЈСОН датотеке директно у главни прозор.
+Drag to seek back in buffer: Превуците да бисте тражили назад у баферу
+Duplicate URLs found:\n\n: Пронађени су дупликати УРЛ-ова:\н\н
 Edit Playlist: Уреди плејлисту
 Edit URLs: Измените УРЛ адресе
 End (local): Крај (локално)
@@ -37,12 +70,19 @@ Enrich with EPG: Обогатите ЕПГ-ом
 Enter JSON URL:: Унесите ЈСОН УРЛ:
 Enter playlist URL (M3U or JSON):: Унесите УРЛ плејлисте (М3У или ЈСОН):
 EPG: ЕПГ
-EPG & Favorites: ЕПГ & Фаворити
+Epg & Favorites: Епг & Фаворитес
+Epg & Logos: Епг & Логос
+EPG & Logos: ЕПГ & Логос
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: ЕПГ водич – дугме на главној траци са алаткама приказује пуну мрежу са детаљима програма (двапут кликните за информације).
 EPG Matching Threshold: ЕПГ Матцхинг Тхресхолд
 EPG Source: ЕПГ Соурце
+EPG source – can be set in Settings (epgshare01 or custom URL).: ЕПГ извор – може се подесити у подешавањима (епгсхаре01 или прилагођени УРЛ).
+EPG source – choose XMLTV file or enter custom URL.: ЕПГ извор – изаберите КСМЛТВ датотеку или унесите прилагођени УРЛ.
 Error: Грешка
 Error loading: Грешка при учитавању
+Error loading file: {0}: Грешка при учитавању датотеке: {0}
 Error loading playlists: {0}: Грешка при учитавању плејлиста: {0}
+Error loading URL: {0}: Грешка при учитавању УРЛ адресе: {0}
 ERROR: player.html not found.: ГРЕШКА: плаиер.хтмл није пронађен.
 Exit: Изађи
 Export Favorites: Извези фаворите
@@ -51,18 +91,25 @@ Export Filtered M3U: Експорт Филтриран М3У
 Export JSON: Извези ЈСОН
 Export KO: Извоз КО
 Export OK: Извези ОК
+Export only favorite channels to a new M3U file: Извезите само омиљене канале у нову М3У датотеку
 Extracting update...: Издвајање ажурирања...
 Failed to download playlist: Преузимање плејлисте није успело
 Failed to load playlist: Учитавање плејлисте није успело
 Favorite: Фаворите
+Favorites only: Само омиљени
 Fetch Logos: Дохвати логотипе
-FILTERS: ФИЛТЕРИ
+Filters: Филтери
+Fullscreen (hide UI) - press ESC to exit: Цео екран (сакриј кориснички интерфејс) - притисните ЕСЦ да изађете
 Geo & Country: Гео & Цоунтри
 GeoBlocked: ГеоБлоцкед
 GitHub Error: ГитХуб грешка
+Go back to live: Врати се да живиш
 Group: Група
+Half speed (0.5x): Пола брзине (0,5к)
 Help: Помоћ
 Hide List: Сакриј листу
+HLS playback: hls.js (MIT license): ХЛС репродукција: хлс.јс (МИТ лиценца)
+Image: Слика
 Import: Увоз
 Import error: {0}: Грешка при увозу: {0}
 Import from URL: Увези са УРЛ-а
@@ -72,27 +119,43 @@ Import Local: Увези локално
 Imported {0} channels from JSON.: Увезено {0} канала из ЈСОН-а.
 Imported {0} channels from URL.: Увезено {0} канала са УРЛ-а.
 Info: Инфо
+Info on: Инфо он
 Invalid JSON: {0}: Неважећи ЈСОН: {0}
 Invalid playlist URL.: Неважећи УРЛ плејлисте.
 Invalid URL.: Неважећи УРЛ.
+Json: Јсон
 JSON Property: ЈСОН својство
+Ko-fi: кафу
 Language: Језик
+Language – change UI language dynamically (translations in Languages folder).: Језик – промените језик корисничког интерфејса динамички (преводи у фолдеру Језици).
+Languages: Језици
 Languages (comma): Језици (зарез)
+LINUXSAT-SUPPORT.COM: ЛИНУКССАТ-СУППОРТ.ЦОМ
+LiveGardenTVPlus Help by Lululla: ЛивеГарденТВПлус Хелп би Лулулла
 LOAD: ЛОАД
 Load a playlist first.: Прво учитајте листу за репродукцију.
 Load File: Учитај датотеку
-Load Online: Лоад Онлине
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Учитајте локалну М3У/ЈСОН датотеку – преко дугмета 'Учитај датотеку' (трака са алаткама) или 'Отвори датотеку' у уређивачу.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Учитај онлајн М3У/ЈСОН УРЛ – дугме 'Учитај на мрежи' (трака са алаткама) или 'Отвори са УРЛ-а' у уређивачу.
 Load playlist file (M3U/JSON) from your computer: Учитајте датотеку листе песама (М3У/ЈСОН) са рачунара
-Load playlist from web URL (M3U or JSON): Учитајте плејлисту са веб УРЛ адресе (М3У или ЈСОН)
 Loaded: Лоадед
+Loaded {0} channels from JSON file.: Учитано {0} канала из ЈСОН датотеке.
+Loaded {0} channels from JSON URL.: Учитано је {0} канала са ЈСОН УРЛ-а.
+Loaded {0} channels from M3U file.: Учитано {0} канала из М3У датотеке.
+Loaded {0} channels from M3U URL.: Учитано {0} канала са М3У УРЛ-а.
 Loading...: Учитавање...
+Logo: Лого
+Logo Picker – in editor, click '...' to choose logo from gallery.: Бирач логотипа – у уређивачу кликните на '...' да одаберете лого из галерије.
 Logo Preview: Преглед логотипа
 Logo URL: УРЛ логотипа
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Логотипи – аутоматски се преузимају из ГитХуб спремишта (Подешавања → Извор логотипа).
 Logos Matching Threshold: Праг подударања логотипа
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Складиште логотипа – изаберите власника/репо/путању (подразумевано ОвнерПлугинс/логотипи).
 Logos Source: Логос Соурце
 Logos Subfolder: Логос Субфолдер
 Map JSON properties to channel fields:: Мапирајте ЈСОН својства у поља канала:
 Mapping saved for future imports of this file.: Мапирање је сачувано за будуће увозе ове датотеке.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Прагови подударања – подесите осетљивост на нејасно подударање за ЕПГ и логотипе.
 Name: Име
 Nanoid: Наноид
 Network error: Мрежна грешка
@@ -106,57 +169,90 @@ No favorite channels to export.: Нема омиљених канала за и�
 No playlist found: Плејлиста није пронађена
 No stream: Нема стрима
 No updates available.: Нема доступних ажурирања.
-Now playing: Сада свирам
+Normal speed (1x): Нормална брзина (1к)
+Now: Сада
 OK: ОК
 Online Playlist: Онлине Плаилист
+Online playlist – select from GitHub repository (auto‑refresh).: Листа за репродукцију на мрежи – изаберите из ГитХуб спремишта (аутоматско освежавање).
+Open File...: Отвори датотеку...
+Open from URL: Отвори са УРЛ-а
+Open Playlist: Отворите листу за репродукцију
 Pause/Resume live stream: Паузирај/настави стрим уживо
-Player ready.: Играч спреман.
+Paused: Паузирано
+PayPal: ПаиПал
+Picture-in-Picture mode: Режим слика у слици
+Player Control: Контрола играча
+Playlist & Groups: Плејлиста и групе
 Playlist Editor: Уређивач плејлисте
+Playlist Loading: Плејлиста се учитава
+Playlist Management: Управљање плејлистом
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Складиште плејлисте: ОвнерПлугинс/ТивуСтреамЛист (италијански и међународни стримови)
 Please select a program first.: Прво изаберите програм.
 Preview (first 5 channels): Преглед (првих 5 канала)
 Preview error: {0}: Грешка прегледа: {0}
 Program Details: Детаљи програма
+Ready.: Спреман.
 Recent: Недавно
+Recent files – quick access to last 5 opened playlists.: Недавни фајлови – брз приступ последњих 5 отворених листа песама.
 Recent playlists: Недавне плејлисте
 Refresh: Освежи
 Refresh EPG List: Освежите ЕПГ листу
 Refresh from GitHub: Освежите са ГитХуб-а
 Rename Group: Преименуј групу
+Repository: Репозиторијум
 Reset Order: Ресетуј редослед
 Save: Сачувај
 SAVE: САВЕ
+Save – persists all settings without reloading current playlist.: Сачувај – задржава сва подешавања без поновног учитавања тренутне листе песама.
 Save as...: Сачувај као...
+Save current playlist to a new M3U file: Сачувајте тренутну листу песама у нову М3У датотеку
 Save Mapping: Сачувај мапирање
 Save Playlist: Сачувај листу за репродукцију
 Save Status: Сачувај статус
 Saved: Сачувано
+Search channels by name: Претражујте канале по имену
 Search channels...: Претражи канале...
 Select a playlist first.: Прво изаберите листу песама.
 Select Theme: Изаберите Тема
+Selected theme is saved and applied on restart.: Изабрана тема се чува и примењује при поновном покретању.
 Settings: Подешавања
 Show List: Прикажи листу
+Show only channels marked as favorites: Прикажи само канале означене као омиљени
 Show or hide the channel list: Прикажите или сакријте листу канала
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Посебно захваљујемо ЦОРВОБОИС & ЛинукСат-Суппорт заједницама на тестирању и подршци.
 Start (local): Почетак (локално)
 Status: Статус
 Stream URL: УРЛ стрима
+Stream URLs: УРЛ-ови стрима
 Success: Успех
 Support: Подршка
+Support the developer: Подржите програмера
 Target Field: Таргет Фиелд
+Thanks to: Хвала на
 Theme picker: Бирач тема
+Theme picker – accessible via Tools menu on main toolbar.: Бирач тема – доступан преко менија Алатке на главној траци са алаткама.
+Themes: Теме
 Time: Време
 Title: Наслов
 Tools: Алати
+Total: Укупно
+Total channels in loaded playlist: Укупан број канала на учитаној плејлисти
 TV Guide (EPG): ТВ водич (ЕПГ)
 TvgId: ТвгИд
+UI: MaterialDesignThemes.Wpf: УИ: МатериалДесигнТхемес.Впф
 Unable to find version in remote project file.: Није могуће пронаћи верзију у датотеци удаљеног пројекта.
 Update: Ажурирај
 Update complete. Restarting...: Ажурирање је завршено. Поновно покретање...
 Update failed: : Ажурирање није успело:
+Updates: Ажурирања
 URL: УРЛ
 URL (primary): УРЛ (примарни)
+URL Check: Провера УРЛ-а
 URL list (one per line): Листа УРЛ адреса (једна по реду)
 URLs & Status: УРЛ адресе и статус
-Version: Версион
+Version: Верзија
 Waiting for LiveGardenTVPlus to close...: Чека се да се ЛивеГарденТВПлус затвори...
 Warning: Упозорење
+WebView2: Microsoft Edge WebView2: ВебВиев2: Мицрософт Едге ВебВиев2
 Youtube URL: Иоутубе УРЛ
+Youtube URLs: Иоутубе УРЛ-ови

@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using LiveGardenTVPlus.Models;
 using System.Diagnostics;
-using System.Globalization;
 using System.IO;
 using System.IO.Compression;
-using System.Linq;
 using System.Net.Http;
-using System.Threading.Tasks;
-using System.Xml;
-using LiveGardenTVPlus.Models;
 using System.Text.RegularExpressions;
+using System.Xml;
 
 namespace LiveGardenTVPlus.Services
 {

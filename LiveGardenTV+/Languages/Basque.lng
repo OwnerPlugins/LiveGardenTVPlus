@@ -1,18 +1,41 @@
-﻿(No description): (Deskribapenik ez)
+﻿(Completely voluntary – no features are blocked): (Guztiz borondatezkoa - ez dago funtziorik blokeatuta)
+(No description): (Deskribapenik ez)
+• Add / rename / delete groups.: • Gehitu / aldatu izena / ezabatu taldeak.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffer graduatzailea: egokitu HLS buffer (1-10 segundo).
+• Check URL availability (only visible channels).: • Egiaztatu URL erabilgarritasuna (kanal ikusgaiak soilik).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Editatu kanalen izenak, taldeak, URLak, logotipoak, tvg-id, herrialdea, hizkuntzak, gogokoak.
+• Edit multiple URLs per channel (popup window).: • Editatu hainbat URL kanal bakoitzeko (laster-leihoa).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPGarekin aberastu: falta den tvg-id gehitzen du parekatze lausoa erabiliz.
+• EPG info displayed in status bar for current channel.: • Uneko kanalaren egoera-barran bistaratuko den EPG informazioa.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • Esportatu OK / FAIL / iragazitako zerrendak M3U edo JSON gisa.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Lortu logotipoak urruneko biltegitik (OwnerPlugins/logotipoak).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Pantaila osoko interfazea: alboko barra eta egoera barra ezkutatzen ditu (ESC irteteko).
+• Hide/Show channel list button.: • Ezkutatu/Erakutsi kanal-zerrenda botoia.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Inportatu JSON (lokala edo URLa) eremu-mapa malguarekin (auto-detektatu, gorde mapak).
+• Picture‑in‑Picture (PIP) button.: • Picture-in-Picture (PIP) botoia.
+• Playback speed: 0.5x, 1x, 2x buttons.: • Erreprodukzio abiadura: 0,5x, 1x, 2x botoiak.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Ordenatu edozein zutabe goiburuan klik eginez; erabili 'Berrezarri ordena' jatorrizko ordenara itzultzeko.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: zuzeneko igorpena pausatu; arrastatu graduatzailea atzera bilatzeko; sakatu 'Zuzenean' itzultzeko.
 ◀ Previous: ◀ Aurrekoa
+16 colour themes + Light/Dark variants.: 16 kolore-gai + Argia/Iluna aldaera.
 A new version is available. Do you want to update now?: Bertsio berri bat dago eskuragarri. Orain eguneratu nahi duzu?
-About: Buruz
-About TVGarden+: TVGarden+-i buruz
+Access via 'Edit Playlist' button on main toolbar.: Sartu tresna-barra nagusiko 'Editatu erreprodukzio zerrenda' botoiaren bidez.
+Actions: Ekintzak
 Add Group: Gehitu taldea
 Add Mapping: Gehitu mapak
+Adjust buffer size (1-10 seconds): Doitu buffer tamaina (1-10 segundo)
 Advanced IDs: ID aurreratuak
+Application status: Aplikazioaren egoera
 Apply changes: Aplikatu aldaketak
 Apply Filters: Aplikatu iragazkiak
 Auto-detect: Auto-detektatu
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Egiaztapen automatikoa abiaraztean, edo egin klik Tresnak menuko 'Begiratu eguneratzeak'.
 Buffer (seconds): Buffer (segundoak)
+Buffer size – adjust HLS buffer seconds.: Buffer tamaina - egokitu HLS buffer segundoak.
 Cancel: Utzi
 CANCEL: Utzi
 Category: Kategoria
+Changelog: Aldaketen erregistroa
 Channel Details: Kanalaren xehetasunak
 Channel Info: Kanalaren informazioa
 Channel:: Kanala:
@@ -23,12 +46,22 @@ Check Duplicates: Egiaztatu Bikoiztuak
 Check for updates: Egiaztatu eguneratzeak
 Check URLs: Egiaztatu URLak
 Clear Filters: Garbitu iragazkiak
+Clear search: Garbitu bilaketa
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunitatea eta probak: CorvoBoys (corvoboys.org) eta LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Herrialdea
+Credits: Kredituak
 Delete Group: Ezabatu taldea
 Description: Deskribapena
 Details: Xehetasunak
-Do you want to load the edited playlist now?: Editatutako erreprodukzio-zerrenda kargatu nahi duzu orain?
+Developed by Lululla: Lulullak garatua
+Developer: Lululla: Garatzailea: Lululla
+Do you want to load this edited playlist now?: Editatutako erreprodukzio-zerrenda hau kargatu nahi duzu orain?
+Double speed (2x): Abiadura bikoitza (2x)
 Downloading playlist...: Erreprodukzio zerrenda deskargatzen...
+Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP deskargatzen du, fitxategiak ordezkatzen ditu, aplikazioa berrabiarazten du - ezarpenak gordeta.
+Drag & drop – drop M3U or JSON files directly onto main window.: Arrastatu eta jaregin - jaregin M3U edo JSON fitxategiak zuzenean leiho nagusira.
+Drag to seek back in buffer: Arrastatu bufferean berriro bilatzeko
 Duplicate URLs found:\n\n: URL bikoiztuak aurkitu dira:\n\n
 Edit Playlist: Editatu erreprodukzio zerrenda
 Edit URLs: Editatu URLak
@@ -37,12 +70,19 @@ Enrich with EPG: EPGarekin aberastu
 Enter JSON URL:: Sartu JSON URLa:
 Enter playlist URL (M3U or JSON):: Sartu erreprodukzio-zerrendaren URLa (M3U edo JSON):
 EPG: EPG
-EPG & Favorites: EPG eta gogokoak
+Epg & Favorites: Epg eta gogokoak
+Epg & Logos: Epg eta logotipoak
+EPG & Logos: EPG eta logotipoak
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Gida: tresna-barra nagusiko botoiak sare osoa erakusten du programaren xehetasunekin (informaziorako egin klik bikoitza).
 EPG Matching Threshold: EPG bat datorren atalasea
 EPG Source: EPG iturria
+EPG source – can be set in Settings (epgshare01 or custom URL).: EPG iturria - Ezarpenak atalean ezar daiteke (epgshare01 edo URL pertsonalizatua).
+EPG source – choose XMLTV file or enter custom URL.: EPG iturria: aukeratu XMLTV fitxategia edo sartu URL pertsonalizatua.
 Error: Errorea
 Error loading: Errore bat gertatu da kargatzean
+Error loading file: {0}: Errore bat gertatu da fitxategia kargatzean: {0}
 Error loading playlists: {0}: Errore bat gertatu da erreprodukzio-zerrendak kargatzean: {0}
+Error loading URL: {0}: Errore bat gertatu da URLa kargatzean: {0}
 ERROR: player.html not found.: ERROREA: player.html ez da aurkitu.
 Exit: Irten
 Export Favorites: Esportatu gogokoak
@@ -51,18 +91,25 @@ Export Filtered M3U: Esportatu iragazitako M3U
 Export JSON: Esportatu JSON
 Export KO: Esportatu KO
 Export OK: Esportatu OK
+Export only favorite channels to a new M3U file: Esportatu gogoko kanalak soilik M3U fitxategi berri batera
 Extracting update...: Eguneraketa ateratzen...
 Failed to download playlist: Ezin izan da deskargatu erreprodukzio-zerrenda
 Failed to load playlist: Ezin izan da kargatu erreprodukzio-zerrenda
 Favorite: Gogokoena
+Favorites only: Gogokoak bakarrik
 Fetch Logos: Lortu logotipoak
-FILTERS: IRAGAZKIAK
+Filters: Iragazkiak
+Fullscreen (hide UI) - press ESC to exit: Pantaila osoa (ezkutatu UI) - sakatu ESC irteteko
 Geo & Country: Geo eta Herrialdea
 GeoBlocked: Geoblokeatua
 GitHub Error: GitHub errorea
+Go back to live: Itzuli bizitzera
 Group: Taldea
+Half speed (0.5x): Abiadura erdia (0,5x)
 Help: Laguntza
 Hide List: Ezkutatu Zerrenda
+HLS playback: hls.js (MIT license): HLS erreprodukzioa: hls.js (MIT lizentzia)
+Image: Irudia
 Import: Inportatu
 Import error: {0}: Inportazio-errorea: {0}
 Import from URL: Inportatu URLtik
@@ -72,27 +119,43 @@ Import Local: Inportatu lokala
 Imported {0} channels from JSON.: {0} kanal inportatu dira JSONetik.
 Imported {0} channels from URL.: {0} kanal inportatu dira URLtik.
 Info: Info
+Info on: Informazioa
 Invalid JSON: {0}: JSON baliogabea: {0}
 Invalid playlist URL.: Erreprodukzio-zerrendaren URL baliogabea.
 Invalid URL.: URL baliogabea.
+Json: Json
 JSON Property: JSON propietatea
+Ko-fi: Kafea
 Language: Hizkuntza
+Language – change UI language dynamically (translations in Languages folder).: Hizkuntza: aldatu UI hizkuntza dinamikoki (itzulpenak Hizkuntzak karpetan).
+Languages: Hizkuntzak
 Languages (comma): Hizkuntzak (koma)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Lululla-ren laguntza
 LOAD: ZARGA
 Load a playlist first.: Kargatu erreprodukzio-zerrenda bat lehenik.
 Load File: Kargatu fitxategia
-Load Online: Kargatu linean
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Kargatu M3U/JSON fitxategi lokala - 'Kargatu fitxategia' botoiaren (tresna-barra) edo 'Ireki fitxategia' editorean.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Kargatu online M3U/JSON URL - 'Kargatu linean' botoia (tresna-barra) edo 'Ireki URLtik' editorean.
 Load playlist file (M3U/JSON) from your computer: Kargatu erreprodukzio zerrendaren fitxategia (M3U/JSON) ordenagailutik
-Load playlist from web URL (M3U or JSON): Kargatu erreprodukzio zerrenda web URLtik (M3U edo JSON)
 Loaded: Kargatu
+Loaded {0} channels from JSON file.: {0} kanal kargatu dira JSON fitxategitik.
+Loaded {0} channels from JSON URL.: {0} kanal kargatu dira JSON URLtik.
+Loaded {0} channels from M3U file.: {0} kanal kargatu dira M3U fitxategitik.
+Loaded {0} channels from M3U URL.: {0} kanal kargatu dira M3U URLtik.
 Loading...: Kargatzen...
+Logo: Logotipoa
+Logo Picker – in editor, click '...' to choose logo from gallery.: Logo hautatzailea: editorean, egin klik '...' galeriako logotipoa aukeratzeko.
 Logo Preview: Logotipoaren aurrebista
 Logo URL: Logotipoaren URLa
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Logotipoak - automatikoki deskargatu GitHub biltegitik (Ezarpenak → Logotipoen iturria).
 Logos Matching Threshold: Logotipoak bat datozen atalasea
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logotipoen biltegia - aukeratu jabea/errepo/bidea (jabe-pluginak/logotipoak lehenetsiak).
 Logos Source: Logotipoen iturria
 Logos Subfolder: Logotipoen azpikarpeta
 Map JSON properties to channel fields:: Mapeatu JSON propietateak kanal-eremuetara:
 Mapping saved for future imports of this file.: Fitxategi honen etorkizuneko inportazioetarako mapak gorde dira.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Bat etortzen diren atalaseak: ezarri partida lausoen sentikortasuna EPG eta logotipoetarako.
 Name: Izena
 Nanoid: Nanoidea
 Network error: Sareko errorea
@@ -106,57 +169,90 @@ No favorite channels to export.: Ez dago esportatzeko gogoko kanalik.
 No playlist found: Ez da aurkitu erreprodukzio zerrenda
 No stream: Ez dago korronterik
 No updates available.: Ez dago eguneratzerik eskuragarri.
-Now playing: Orain jolasten
+Normal speed (1x): Abiadura normala (1x)
+Now: Orain
 OK: Ados
 Online Playlist: Lineako erreprodukzio zerrenda
+Online playlist – select from GitHub repository (auto‑refresh).: Lineako erreprodukzio-zerrenda: hautatu GitHub biltegitik (auto-freskatu).
+Open File...: Ireki fitxategia...
+Open from URL: Ireki URLtik
+Open Playlist: Ireki Erreprodukzio zerrenda
 Pause/Resume live stream: Pausatu/Berrekin zuzeneko igorpena
-Player ready.: Jokalari prest.
+Paused: Pausatuta
+PayPal: PayPal
+Picture-in-Picture mode: Irudian-Picture modua
+Player Control: Jokalari Kontrola
+Playlist & Groups: Erreprodukzio zerrenda eta taldeak
 Playlist Editor: Erreprodukzio-zerrenden editorea
+Playlist Loading: Erreprodukzio-zerrenda kargatzen
+Playlist Management: Erreprodukzio-zerrenden kudeaketa
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Erreprodukzio-zerrenden biltegia: OwnerPlugins/TivuStreamList (Italiako eta nazioarteko korronteak)
 Please select a program first.: Mesedez, hautatu programa bat lehenik.
 Preview (first 5 channels): Aurrebista (lehen 5 kanalak)
 Preview error: {0}: Aurrebista errorea: {0}
 Program Details: Programaren xehetasunak
+Ready.: Prest.
 Recent: Duela gutxi
+Recent files – quick access to last 5 opened playlists.: Azken fitxategiak: sarbide azkarra irekitako azken 5 erreprodukzio-zerrendetara.
 Recent playlists: Azken erreprodukzio-zerrendak
 Refresh: Freskatu
 Refresh EPG List: Freskatu EPG zerrenda
 Refresh from GitHub: Freskatu GitHub-etik
 Rename Group: Aldatu taldeari
+Repository: Biltegia
 Reset Order: Berrezarri ordena
 Save: Gorde
 SAVE: GORDE
+Save – persists all settings without reloading current playlist.: Gorde: ezarpen guztiak mantentzen ditu uneko erreprodukzio-zerrenda berriro kargatu gabe.
 Save as...: Gorde honela...
+Save current playlist to a new M3U file: Gorde uneko erreprodukzio zerrenda M3U fitxategi berri batean
 Save Mapping: Gorde mapak
 Save Playlist: Gorde erreprodukzio zerrenda
 Save Status: Gorde egoera
 Saved: Gorde
+Search channels by name: Bilatu kanalak izenaren arabera
 Search channels...: Bilatu kanalak...
 Select a playlist first.: Hautatu erreprodukzio-zerrenda bat lehenik.
 Select Theme: Hautatu Gaia
+Selected theme is saved and applied on restart.: Hautatutako gaia gordetzen da eta berrabiarazi orduko aplikatzen da.
 Settings: Ezarpenak
 Show List: Erakutsi zerrenda
+Show only channels marked as favorites: Erakutsi gogoko gisa markatutako kanalak soilik
 Show or hide the channel list: Erakutsi edo ezkutatu kanalen zerrenda
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Esker bereziak CORVOBOYS eta LinuxSat-Support komunitateei probak eta laguntzagatik.
 Start (local): Hasi (tokikoa)
 Status: Egoera
 Stream URL: Korrontearen URLa
+Stream URLs: Igorri URLak
 Success: Arrakasta
 Support: Laguntza
+Support the developer: Garatzaileari lagundu
 Target Field: Helburu-eremua
+Thanks to: Eskerrak
 Theme picker: Gai-hautatzailea
+Theme picker – accessible via Tools menu on main toolbar.: Gai-hautatzailea: tresna-barra nagusiko Tresnak menuaren bidez eskuragarri dago.
+Themes: Gaiak
 Time: Denbora
 Title: Izenburua
 Tools: Tresnak
+Total: Guztira
+Total channels in loaded playlist: Kargatutako erreprodukzio zerrendako kanalak guztira
 TV Guide (EPG): Telebistako Gida (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Ezin da bertsioa aurkitu urruneko proiektuaren fitxategian.
 Update: Eguneratu
 Update complete. Restarting...: Eguneratzea osatu da. Berrabiarazten...
-Update failed: : Huts egin du eguneratzeak:
+Update failed: : Eguneratzea huts egin du:
+Updates: Eguneraketak
 URL: URLa
 URL (primary): URLa (nagusia)
+URL Check: URL egiaztatzea
 URL list (one per line): URL zerrenda (lerro bakoitzeko bat)
 URLs & Status: URLak eta egoera
 Version: Bertsioa
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus ixteko zain...
 Warning: Abisua
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: Youtubeko URLa
+Youtube URLs: Youtubeko URLak

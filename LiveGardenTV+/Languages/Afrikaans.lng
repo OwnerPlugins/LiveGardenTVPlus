@@ -1,18 +1,41 @@
-﻿(No description): (Geen beskrywing)
+﻿(Completely voluntary – no features are blocked): (Heeltemaal vrywillig – geen kenmerke word geblokkeer nie)
+(No description): (Geen beskrywing)
+• Add / rename / delete groups.: • Voeg by / hernoem / skrap groepe.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Bufferglyer: verstel HLS-buffer (1-10 sekondes).
+• Check URL availability (only visible channels).: • Gaan URL-beskikbaarheid na (slegs sigbare kanale).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Wysig kanaalname, groepe, URL's, logo's, tvg-ID, land, tale, gunstelinge.
+• Edit multiple URLs per channel (popup window).: • Wysig verskeie URL's per kanaal (opspringvenster).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Verryk met EPG: voeg ontbrekende tvg-ID by deur fuzzy passing te gebruik.
+• EPG info displayed in status bar for current channel.: • EPG-inligting vertoon in statusbalk vir huidige kanaal.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • Voer OK / FAIL / gefiltreerde lyste uit as M3U of JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Haal logo's van afgeleë bewaarplek (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Volskerm-UI: versteek sybalk en statusbalk (ESC om uit te gaan).
+• Hide/Show channel list button.: • Versteek/Wys kanaallys-knoppie.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Voer JSON (plaaslik of URL) in met buigsame veldkartering (outo-bespeur, stoor kartering).
+• Picture‑in‑Picture (PIP) button.: • Prent-in-prent (PIP)-knoppie.
+• Playback speed: 0.5x, 1x, 2x buttons.: • Terugspeelspoed: 0,5x, 1x, 2x knoppies.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sorteer enige kolom deur op kop te klik; gebruik 'Herstel bestelling' om terug te keer na oorspronklike bestelling.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Tydverskuiwing: onderbreek regstreekse stroom; sleep skuifbalk om terug te soek; druk 'Live' om terug te keer.
 ◀ Previous: ◀ Vorige
+16 colour themes + Light/Dark variants.: 16 kleurtemas + Lig/donker variante.
 A new version is available. Do you want to update now?: 'n Nuwe weergawe is beskikbaar. Wil jy nou opdateer?
-About: Oor
-About TVGarden+: Oor TVGarden+
+Access via 'Edit Playlist' button on main toolbar.: Toegang via 'Redigeer snitlys'-knoppie op die hoofnutsbalk.
+Actions: Aksies
 Add Group: Voeg groep by
 Add Mapping: Voeg kartering by
+Adjust buffer size (1-10 seconds): Pas buffergrootte aan (1-10 sekondes)
 Advanced IDs: Gevorderde ID's
+Application status: Aansoekstatus
 Apply changes: Pas veranderinge toe
 Apply Filters: Pas filters toe
 Auto-detect: Outo-bespeur
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Kontroleer outomaties by opstart – of klik 'Kyk vir opdaterings' in die Tools-kieslys.
 Buffer (seconds): Buffer (sekondes)
+Buffer size – adjust HLS buffer seconds.: Buffergrootte – pas HLS buffer sekondes aan.
 Cancel: Kanselleer
 CANCEL: KANSELLEER
 Category: Kategorie
+Changelog: Veranderlogboek
 Channel Details: Kanaalbesonderhede
 Channel Info: Kanaalinligting
 Channel:: Kanaal:
@@ -23,12 +46,22 @@ Check Duplicates: Kontroleer Duplikate
 Check for updates: Kyk vir opdaterings
 Check URLs: Gaan URL's na
 Clear Filters: Vee filters uit
+Clear search: Vee soektog uit
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Gemeenskap en toetsing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Land
+Credits: Krediete
 Delete Group: Vee groep uit
 Description: Beskrywing
 Details: Besonderhede
-Do you want to load the edited playlist now?: Wil jy die geredigeerde snitlys nou laai?
+Developed by Lululla: Ontwikkel deur Lululla
+Developer: Lululla: Ontwikkelaar: Lululla
+Do you want to load this edited playlist now?: Wil jy hierdie geredigeerde snitlys nou laai?
+Double speed (2x): Dubbelspoed (2x)
 Downloading playlist...: Laai tans snitlys af …
+Downloads ZIP, replaces files, restarts app – settings preserved.: Laai zip af, vervang lêers, herbegin app – instellings behoue.
+Drag & drop – drop M3U or JSON files directly onto main window.: Sleep & drop – laat val M3U- of JSON-lêers direk na die hoofvenster.
+Drag to seek back in buffer: Sleep om terug te soek in buffer
 Duplicate URLs found:\n\n: Duplikaat URL'e gevind:\n\n
 Edit Playlist: Wysig snitlys
 Edit URLs: Wysig URL's
@@ -37,12 +70,19 @@ Enrich with EPG: Verryk met EPG
 Enter JSON URL:: Voer JSON URL in:
 Enter playlist URL (M3U or JSON):: Voer snitlys-URL in (M3U of JSON):
 EPG: EPG
-EPG & Favorites: EPG en gunstelinge
+Epg & Favorites: Epg & Gunstelinge
+Epg & Logos: Epg & Logos
+EPG & Logos: EPG en logo's
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG-gids – knoppie op hoofnutsbalk wys volledige rooster met programbesonderhede (dubbelklik vir inligting).
 EPG Matching Threshold: EPG-passingsdrempel
 EPG Source: EPG Bron
+EPG source – can be set in Settings (epgshare01 or custom URL).: EPG-bron – kan in Instellings gestel word (epgshare01 of pasgemaakte URL).
+EPG source – choose XMLTV file or enter custom URL.: EPG-bron – kies XMLTV-lêer of voer persoonlike URL in.
 Error: Fout
 Error loading: Kon nie laai nie
+Error loading file: {0}: Kon nie lêer laai nie: {0}
 Error loading playlists: {0}: Kon nie snitlyste laai nie: {0}
+Error loading URL: {0}: Kon nie URL laai nie: {0}
 ERROR: player.html not found.: FOUT: player.html nie gevind nie.
 Exit: Verlaat
 Export Favorites: Voer gunstelinge uit
@@ -51,18 +91,25 @@ Export Filtered M3U: Voer gefiltreerde M3U uit
 Export JSON: Voer JSON uit
 Export KO: Voer KO uit
 Export OK: Uitvoer OK
+Export only favorite channels to a new M3U file: Voer slegs gunstelingkanale uit na 'n nuwe M3U-lêer
 Extracting update...: Onttrek tans opdatering …
 Failed to download playlist: Kon nie snitlys aflaai nie
 Failed to load playlist: Kon nie snitlys laai nie
 Favorite: Gunsteling
+Favorites only: Slegs gunstelinge
 Fetch Logos: Haal logo's
-FILTERS: FILTERS
+Filters: Filters
+Fullscreen (hide UI) - press ESC to exit: Volskerm (versteek UI) - druk ESC om uit te gaan
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub-fout
+Go back to live: Gaan terug om te lewe
 Group: Groep
+Half speed (0.5x): Halfspoed (0,5x)
 Help: Help
 Hide List: Versteek lys
+HLS playback: hls.js (MIT license): HLS-terugspeel: hls.js (MIT-lisensie)
+Image: Beeld
 Import: Invoer
 Import error: {0}: Invoerfout: {0}
 Import from URL: Voer in vanaf URL
@@ -72,27 +119,43 @@ Import Local: Plaaslik invoer
 Imported {0} channels from JSON.: Het {0} kanale vanaf JSON ingevoer.
 Imported {0} channels from URL.: Het {0} kanale vanaf URL ingevoer.
 Info: Inligting
+Info on: Inligting oor
 Invalid JSON: {0}: Ongeldige JSON: {0}
 Invalid playlist URL.: Ongeldige snitlys-URL.
 Invalid URL.: Ongeldige URL.
+Json: Json
 JSON Property: JSON eiendom
+Ko-fi: Koffie
 Language: Taal
+Language – change UI language dynamically (translations in Languages folder).: Taal – verander UI-taal dinamies (vertalings in Tale-lêergids).
+Languages: Tale
 Languages (comma): Tale (komma)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Hulp deur Lululla
 LOAD: LAAI
 Load a playlist first.: Laai eers 'n snitlys.
 Load File: Laai lêer
-Load Online: Laai aanlyn
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Laai plaaslike M3U/JSON-lêer – via 'Laai lêer'-knoppie (nutsbalk) of 'Maak lêer oop' in redigeerder.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Laai aanlyn M3U/JSON URL – 'Laai aanlyn'-knoppie (nutsbalk) of 'Maak oop vanaf URL' in redigeerder.
 Load playlist file (M3U/JSON) from your computer: Laai snitlyslêer (M3U/JSON) van jou rekenaar af
-Load playlist from web URL (M3U or JSON): Laai snitlys vanaf web-URL (M3U of JSON)
 Loaded: Gelaai
+Loaded {0} channels from JSON file.: Het {0} kanale vanaf JSON-lêer gelaai.
+Loaded {0} channels from JSON URL.: Het {0} kanale vanaf JSON URL gelaai.
+Loaded {0} channels from M3U file.: Het {0} kanale vanaf M3U-lêer gelaai.
+Loaded {0} channels from M3U URL.: Het {0} kanale vanaf M3U URL gelaai.
 Loading...: Laai tans...
+Logo: Logo
+Logo Picker – in editor, click '...' to choose logo from gallery.: Logokieser – in redigeerder, klik '...' om logo uit gallery te kies.
 Logo Preview: Logovoorskou
 Logo URL: Logo URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Logos – laai outomaties af vanaf GitHub-bewaarplek (Instellings → Logos-bron).
 Logos Matching Threshold: Logos bypassende drempel
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logos-bewaarplek – kies eienaar/repo/pad (verstek OwnerPlugins/logos).
 Logos Source: Logos Bron
 Logos Subfolder: Logos subgids
 Map JSON properties to channel fields:: Kaart JSON-eienskappe na kanaalvelde:
 Mapping saved for future imports of this file.: Kartering gestoor vir toekomstige invoere van hierdie lêer.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Bypassende drempels – stel fuzzy match sensitiwiteit vir EPG en logo's.
 Name: Naam
 Nanoid: Nanoïed
 Network error: Netwerkfout
@@ -106,57 +169,90 @@ No favorite channels to export.: Geen gunsteling kanale om uit te voer nie.
 No playlist found: Geen snitlys gevind nie
 No stream: Geen stroom nie
 No updates available.: Geen opdaterings beskikbaar nie.
-Now playing: Speel nou
+Normal speed (1x): Normale spoed (1x)
+Now: Nou
 OK: OK
 Online Playlist: Aanlyn snitlys
+Online playlist – select from GitHub repository (auto‑refresh).: Aanlyn snitlys – kies uit GitHub-bewaarplek (outo-herlaai).
+Open File...: Maak lêer oop...
+Open from URL: Maak oop vanaf URL
+Open Playlist: Maak snitlys oop
 Pause/Resume live stream: Onderbreek/Hervat regstreekse stroom
-Player ready.: Speler gereed.
+Paused: Onderbreek
+PayPal: PayPal
+Picture-in-Picture mode: Prent-in-prent-modus
+Player Control: Speler beheer
+Playlist & Groups: Snitlys en groepe
 Playlist Editor: Playlist Editor
+Playlist Loading: Snitlys laai
+Playlist Management: Snitlysbestuur
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Snitlysbewaarplek: OwnerPlugins/TivuStreamList (Italiaanse en internasionale strome)
 Please select a program first.: Kies asseblief eers 'n program.
 Preview (first 5 channels): Voorskou (eerste 5 kanale)
 Preview error: {0}: Voorskoufout: {0}
 Program Details: Programbesonderhede
+Ready.: Gereed.
 Recent: Onlangs
+Recent files – quick access to last 5 opened playlists.: Onlangse lêers – vinnige toegang tot laaste 5 oopgemaakte snitlyste.
 Recent playlists: Onlangse snitlyste
 Refresh: Verfris
 Refresh EPG List: Herlaai EPG-lys
 Refresh from GitHub: Verfris vanaf GitHub
 Rename Group: Hernoem groep
+Repository: Bewaarplek
 Reset Order: Stel bestelling terug
 Save: Stoor
 SAVE: SPAAR
+Save – persists all settings without reloading current playlist.: Stoor – hou alle instellings voort sonder om huidige snitlys te herlaai.
 Save as...: Stoor as...
+Save current playlist to a new M3U file: Stoor huidige snitlys na 'n nuwe M3U-lêer
 Save Mapping: Stoor kartering
 Save Playlist: Stoor snitlys
 Save Status: Stoor status
 Saved: Gestoor
+Search channels by name: Soek kanale op naam
 Search channels...: Soek kanale...
 Select a playlist first.: Kies eers 'n snitlys.
 Select Theme: Kies Tema
+Selected theme is saved and applied on restart.: Geselekteerde tema word gestoor en toegepas met herbegin.
 Settings: Instellings
 Show List: Wys lys
+Show only channels marked as favorites: Wys slegs kanale wat as gunstelinge gemerk is
 Show or hide the channel list: Wys of versteek die kanaallys
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Spesiale dank aan die CORVOBOYS & LinuxSat-Support gemeenskappe vir toetsing en ondersteuning.
 Start (local): Begin (plaaslik)
 Status: Status
 Stream URL: Stroom URL
+Stream URLs: Stroom URL's
 Success: Sukses
 Support: Ondersteuning
+Support the developer: Ondersteun die ontwikkelaar
 Target Field: Teikenveld
+Thanks to: Danksy
 Theme picker: Temakieser
+Theme picker – accessible via Tools menu on main toolbar.: Temakieser – toeganklik via Tools-kieslys op die hoofnutsbalk.
+Themes: Temas
 Time: Tyd
 Title: Titel
 Tools: Gereedskap
+Total: Totaal
+Total channels in loaded playlist: Totale kanale in gelaaide snitlys
 TV Guide (EPG): TV-gids (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Kan nie weergawe in afgeleë projeklêer vind nie.
 Update: Dateer op
 Update complete. Restarting...: Opdatering voltooi. Herbegin tans …
 Update failed: : Opdatering het misluk:
+Updates: Opdaterings
 URL: URL
 URL (primary): URL (primêr)
+URL Check: URL Kontroleer
 URL list (one per line): URL-lys (een per reël)
 URLs & Status: URL's en status
 Version: Weergawe
 Waiting for LiveGardenTVPlus to close...: Wag tans vir LiveGardenTVPlus om te sluit...
 Warning: Waarskuwing
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: Youtube URL
+Youtube URLs: Youtube URL's

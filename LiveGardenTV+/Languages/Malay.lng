@@ -1,18 +1,41 @@
-﻿(No description): (Tiada penerangan)
+﻿(Completely voluntary – no features are blocked): (Sepenuhnya sukarela – tiada ciri disekat)
+(No description): (Tiada penerangan)
+• Add / rename / delete groups.: • Tambah / namakan semula / padam kumpulan.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Gelangsar penimbal: laraskan penimbal HLS (1‑10 saat).
+• Check URL availability (only visible channels).: • Semak ketersediaan URL (hanya saluran yang boleh dilihat).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Edit nama saluran, kumpulan, URL, logo, tvg-id, negara, bahasa, kegemaran.
+• Edit multiple URLs per channel (popup window).: • Edit berbilang URL setiap saluran (tetingkap timbul).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Perkaya dengan EPG: menambah tvg-id yang hilang menggunakan padanan kabur.
+• EPG info displayed in status bar for current channel.: • Maklumat EPG dipaparkan dalam bar status untuk saluran semasa.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • Eksport OK / FAIL / senarai ditapis sebagai M3U atau JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Ambil logo dari repositori jauh (OwnerPlugins/logo).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • UI skrin penuh: menyembunyikan bar sisi dan bar status (ESC untuk keluar).
+• Hide/Show channel list button.: • Sembunyikan/Tunjukkan butang senarai saluran.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Import JSON (tempatan atau URL) dengan pemetaan medan fleksibel (auto-kesan, simpan pemetaan).
+• Picture‑in‑Picture (PIP) button.: • Butang Picture-in-Picture (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.: • Kelajuan main balik: butang 0.5x, 1x, 2x.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Isih mana-mana lajur dengan mengklik pengepala; gunakan 'Reset Order' untuk kembali kepada susunan asal.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Anjakan masa: jeda strim langsung; seret gelangsar untuk mencari kembali; tekan 'Live' untuk kembali.
 ◀ Previous: ◀ Sebelumnya
+16 colour themes + Light/Dark variants.: 16 tema warna + varian Terang/Gelap.
 A new version is available. Do you want to update now?: Versi baharu tersedia. Adakah anda mahu mengemas kini sekarang?
-About: Tentang
-About TVGarden+: Mengenai TVGarden+
+Access via 'Edit Playlist' button on main toolbar.: Akses melalui butang 'Edit Senarai Main' pada bar alat utama.
+Actions: Tindakan
 Add Group: Tambah Kumpulan
 Add Mapping: Tambah Pemetaan
+Adjust buffer size (1-10 seconds): Laraskan saiz penimbal (1-10 saat)
 Advanced IDs: ID lanjutan
+Application status: Status permohonan
 Apply changes: Gunakan perubahan
 Apply Filters: Gunakan Penapis
 Auto-detect: Auto-kesan
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Semakan automatik pada permulaan – atau klik 'Semak kemas kini' dalam menu Alat.
 Buffer (seconds): Penampan (saat)
+Buffer size – adjust HLS buffer seconds.: Saiz penimbal – laraskan saat penimbal HLS.
 Cancel: Batal
 CANCEL: BATALKAN
 Category: kategori
+Changelog: Changelog
 Channel Details: Butiran Saluran
 Channel Info: Maklumat Saluran
 Channel:: Saluran:
@@ -23,12 +46,22 @@ Check Duplicates: Semak Pendua
 Check for updates: Semak kemas kini
 Check URLs: Semak URL
 Clear Filters: Kosongkan Penapis
+Clear search: Kosongkan carian
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komuniti & ujian: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Negara
+Credits: Kredit
 Delete Group: Padamkan Kumpulan
 Description: Penerangan
 Details: Butiran
-Do you want to load the edited playlist now?: Adakah anda mahu memuatkan senarai main yang diedit sekarang?
+Developed by Lululla: Dibangunkan oleh Lululla
+Developer: Lululla: Pemaju: Lululla
+Do you want to load this edited playlist now?: Adakah anda mahu memuatkan senarai main yang diedit ini sekarang?
+Double speed (2x): Kelajuan dua kali ganda (2x)
 Downloading playlist...: Memuat turun senarai main...
+Downloads ZIP, replaces files, restarts app – settings preserved.: Muat turun ZIP, menggantikan fail, mulakan semula apl – tetapan dikekalkan.
+Drag & drop – drop M3U or JSON files directly onto main window.: Seret & lepas – lepaskan fail M3U atau JSON terus ke tetingkap utama.
+Drag to seek back in buffer: Seret untuk mencari kembali dalam penimbal
 Duplicate URLs found:\n\n: URL pendua ditemui:\n\n
 Edit Playlist: Edit Senarai Main
 Edit URLs: Edit URL
@@ -37,32 +70,46 @@ Enrich with EPG: Perkaya dengan EPG
 Enter JSON URL:: Masukkan URL JSON:
 Enter playlist URL (M3U or JSON):: Masukkan URL senarai main (M3U atau JSON):
 EPG: EPG
-EPG & Favorites: EPG & Kegemaran
+Epg & Favorites: Epg & Kegemaran
+Epg & Logos: Epg & Logo
+EPG & Logos: EPG & Logo
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Panduan EPG – butang pada bar alat utama menunjukkan grid penuh dengan butiran program (klik dua kali untuk mendapatkan maklumat).
 EPG Matching Threshold: Ambang Padanan EPG
 EPG Source: Sumber EPG
+EPG source – can be set in Settings (epgshare01 or custom URL).: Sumber EPG – boleh ditetapkan dalam Tetapan (epgshare01 atau URL tersuai).
+EPG source – choose XMLTV file or enter custom URL.: Sumber EPG – pilih fail XMLTV atau masukkan URL tersuai.
 Error: ralat
 Error loading: Ralat memuatkan
+Error loading file: {0}: Ralat memuatkan fail: {0}
 Error loading playlists: {0}: Ralat memuatkan senarai main: {0}
+Error loading URL: {0}: Ralat memuatkan URL: {0}
 ERROR: player.html not found.: RALAT: player.html tidak ditemui.
 Exit: Keluar
 Export Favorites: Eksport Kegemaran
 Export Filtered JSON: Eksport JSON yang Ditapis
-Export Filtered M3U: Eksport M3U Ditapis
+Export Filtered M3U: Eksport M3U yang Ditapis
 Export JSON: Eksport JSON
 Export KO: Eksport KO
 Export OK: Eksport OK
+Export only favorite channels to a new M3U file: Eksport hanya saluran kegemaran ke fail M3U baharu
 Extracting update...: Mengeluarkan kemas kini...
 Failed to download playlist: Gagal memuat turun senarai main
 Failed to load playlist: Gagal memuatkan senarai main
 Favorite: Kegemaran
+Favorites only: Kegemaran sahaja
 Fetch Logos: Ambil Logo
-FILTERS: PENAPIS
+Filters: Penapis
+Fullscreen (hide UI) - press ESC to exit: Skrin penuh (sembunyikan UI) - tekan ESC untuk keluar
 Geo & Country: Geo & Negara
 GeoBlocked: GeoBlocked
 GitHub Error: Ralat GitHub
+Go back to live: Kembali untuk hidup
 Group: Kumpulan
+Half speed (0.5x): Separuh kelajuan (0.5x)
 Help: Tolong
 Hide List: Sembunyikan Senarai
+HLS playback: hls.js (MIT license): Main balik HLS: hls.js (lesen MIT)
+Image: Imej
 Import: Import
 Import error: {0}: Ralat import: {0}
 Import from URL: Import daripada URL
@@ -72,27 +119,43 @@ Import Local: Import Tempatan
 Imported {0} channels from JSON.: Mengimport {0} saluran daripada JSON.
 Imported {0} channels from URL.: Mengimport {0} saluran daripada URL.
 Info: info
+Info on: Maklumat mengenai
 Invalid JSON: {0}: JSON tidak sah: {0}
 Invalid playlist URL.: URL senarai main tidak sah.
 Invalid URL.: URL tidak sah.
+Json: Json
 JSON Property: Harta JSON
+Ko-fi: Kopi
 Language: Bahasa
+Language – change UI language dynamically (translations in Languages folder).: Bahasa – tukar bahasa UI secara dinamik (terjemahan dalam folder Bahasa).
+Languages: Bahasa
 Languages (comma): Bahasa (koma)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: Bantuan LiveGardenTVPlus oleh Lululla
 LOAD: MUAT
 Load a playlist first.: Muatkan senarai main dahulu.
 Load File: Muatkan Fail
-Load Online: Muatkan Dalam Talian
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Muatkan fail M3U/JSON setempat – melalui butang 'Muat Fail' (bar alat) atau 'Buka Fail' dalam editor.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Muatkan URL M3U/JSON dalam talian – butang 'Muat Dalam Talian' (bar alat) atau 'Buka dari URL' dalam editor.
 Load playlist file (M3U/JSON) from your computer: Muatkan fail senarai main (M3U/JSON) dari komputer anda
-Load playlist from web URL (M3U or JSON): Muatkan senarai main dari URL web (M3U atau JSON)
 Loaded: dimuatkan
+Loaded {0} channels from JSON file.: Memuatkan {0} saluran daripada fail JSON.
+Loaded {0} channels from JSON URL.: Memuatkan {0} saluran daripada URL JSON.
+Loaded {0} channels from M3U file.: Memuatkan {0} saluran daripada fail M3U.
+Loaded {0} channels from M3U URL.: Memuatkan {0} saluran daripada URL M3U.
 Loading...: Memuatkan...
+Logo: Logo
+Logo Picker – in editor, click '...' to choose logo from gallery.: Pemilih Logo – dalam editor, klik '...' untuk memilih logo daripada galeri.
 Logo Preview: Pratonton Logo
 Logo URL: URL logo
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Logo – muat turun secara automatik dari repositori GitHub (Tetapan → Sumber Logo).
 Logos Matching Threshold: Ambang Padanan Logo
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Repositori logo – pilih pemilik/repo/laluan (pemilikPlugins/logo lalai).
 Logos Source: Sumber Logo
 Logos Subfolder: Subfolder Logo
 Map JSON properties to channel fields:: Petakan sifat JSON ke medan saluran:
 Mapping saved for future imports of this file.: Pemetaan disimpan untuk import masa hadapan fail ini.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Ambang padan – tetapkan sensitiviti padanan kabur untuk EPG dan logo.
 Name: Nama
 Nanoid: Nanoid
 Network error: Ralat rangkaian
@@ -106,57 +169,90 @@ No favorite channels to export.: Tiada saluran kegemaran untuk dieksport.
 No playlist found: Tiada senarai main ditemui
 No stream: Tiada aliran
 No updates available.: Tiada kemas kini tersedia.
-Now playing: Sekarang bermain
+Normal speed (1x): Kelajuan biasa (1x)
+Now: Sekarang
 OK: OK
 Online Playlist: Senarai Main Dalam Talian
+Online playlist – select from GitHub repository (auto‑refresh).: Senarai main dalam talian – pilih daripada repositori GitHub (auto-refresh).
+Open File...: Buka Fail...
+Open from URL: Buka daripada URL
+Open Playlist: Buka Senarai Main
 Pause/Resume live stream: Jeda/Sambung semula strim langsung
-Player ready.: Pemain sedia.
+Paused: Dijeda
+PayPal: PayPal
+Picture-in-Picture mode: Mod Gambar dalam Gambar
+Player Control: Kawalan Pemain
+Playlist & Groups: Senarai main & Kumpulan
 Playlist Editor: Editor Senarai main
+Playlist Loading: Memuatkan Senarai Main
+Playlist Management: Pengurusan Senarai Main
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repositori senarai main: OwnerPlugins/TivuStreamList (strim Itali & antarabangsa)
 Please select a program first.: Sila pilih program dahulu.
 Preview (first 5 channels): Pratonton (5 saluran pertama)
 Preview error: {0}: Ralat pratonton: {0}
 Program Details: Butiran Program
+Ready.: sedia.
 Recent: Baru-baru ini
+Recent files – quick access to last 5 opened playlists.: Fail terbaharu – akses pantas kepada 5 senarai main terakhir yang dibuka.
 Recent playlists: Senarai main terkini
 Refresh: Segarkan semula
 Refresh EPG List: Muat semula Senarai EPG
 Refresh from GitHub: Muat semula daripada GitHub
 Rename Group: Namakan semula Kumpulan
+Repository: Repositori
 Reset Order: Tetapkan Semula Pesanan
 Save: Jimat
 SAVE: JIMAT
+Save – persists all settings without reloading current playlist.: Simpan – mengekalkan semua tetapan tanpa memuatkan semula senarai main semasa.
 Save as...: Simpan sebagai...
+Save current playlist to a new M3U file: Simpan senarai main semasa ke fail M3U baharu
 Save Mapping: Simpan Pemetaan
 Save Playlist: Simpan Senarai Main
 Save Status: Simpan Status
 Saved: Disimpan
+Search channels by name: Cari saluran mengikut nama
 Search channels...: Cari saluran...
 Select a playlist first.: Pilih senarai main dahulu.
 Select Theme: Pilih Tema
+Selected theme is saved and applied on restart.: Tema yang dipilih disimpan dan digunakan semasa dimulakan semula.
 Settings: tetapan
 Show List: Tunjukkan Senarai
+Show only channels marked as favorites: Tunjukkan hanya saluran yang ditandakan sebagai kegemaran
 Show or hide the channel list: Tunjukkan atau sembunyikan senarai saluran
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Terima kasih khas kepada komuniti CORVOBOYS & LinuxSat-Support atas ujian dan sokongan.
 Start (local): Mula (tempatan)
 Status: Status
 Stream URL: URL strim
+Stream URLs: Strim URL
 Success: Kejayaan
 Support: Sokongan
+Support the developer: Sokong pemaju
 Target Field: Medan Sasaran
+Thanks to: Terima kasih kepada
 Theme picker: Pemilih tema
+Theme picker – accessible via Tools menu on main toolbar.: Pemilih tema – boleh diakses melalui menu Alat pada bar alat utama.
+Themes: Tema
 Time: Masa
 Title: Tajuk
 Tools: Alatan
+Total: Jumlah
+Total channels in loaded playlist: Jumlah saluran dalam senarai main yang dimuatkan
 TV Guide (EPG): Panduan TV (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Tidak dapat mencari versi dalam fail projek jauh.
 Update: Kemas kini
 Update complete. Restarting...: Kemas kini selesai. Memulakan semula...
 Update failed: : Kemas kini gagal:
+Updates: Kemas kini
 URL: URL
 URL (primary): URL (utama)
+URL Check: Semakan URL
 URL list (one per line): Senarai URL (satu setiap baris)
 URLs & Status: URL & Status
 Version: Versi
 Waiting for LiveGardenTVPlus to close...: Menunggu LiveGardenTVPlus ditutup...
 Warning: Amaran
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: URL Youtube
+Youtube URLs: URL Youtube

@@ -1,18 +1,41 @@
-﻿(No description): (Bê şirove)
+﻿(Completely voluntary – no features are blocked): (Bi tevahî dilxwazî ​​- tu taybetmendî nayên asteng kirin)
+(No description): (Bê şirove)
+• Add / rename / delete groups.: • Koman lê zêde bikin / binav bikin / jêbirin.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Slider tampon: tampon HLS eyar bike (1-10 çirk).
+• Check URL availability (only visible channels).: • Hebûna URL-ê kontrol bikin (tenê kanalên xuyayî).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Navên kanal, kom, URL, logo, tvg-id, welat, ziman, bijare biguherînin.
+• Edit multiple URLs per channel (popup window).: • Di her kanalê de çend URLan biguherînin (paceya popupê).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Bi EPG-ê dewlemend bikin: tvg-id-a wenda bi karanîna hevberdana fuzzy zêde dike.
+• EPG info displayed in status bar for current channel.: • Agahdariya EPG ji bo kanala heyî di barika statûyê de tê xuyang kirin.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • Lîsteyên OK / FAIL / fîlterkirî wekî M3U an JSON derxînin.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Logoyan ji depoya dûr (OwnerPlugins/logos) bistînin.
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • UI-ya Fullscreen: barika kêlekê û statûyê vedişêre (ji bo derketina ESC).
+• Hide/Show channel list button.: • Bişkojka lîsteya kanalê veşêre/nîşan bide.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • JSON (herêmî an URL) bi nexşeya zeviyê ya maqûl (oto-teşhîskirin, nexşe hilanînê) derxînin.
+• Picture‑in‑Picture (PIP) button.: • Bişkoka Wêne-di-Wêne (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.: • Leza lêdanê: bişkokên 0.5x, 1x, 2x.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Her stûnek bi tikandina sernivîsê bi rêz bike; Ji bo vegerandina fermana orîjînal 'Sirê Vegere' bikar bînin.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: weşana zindî rawestîne; slider kaş bikin to search back; ji bo vegerê 'Zindî' bitikîne.
 ◀ Previous: ◀ Berê
+16 colour themes + Light/Dark variants.: 16 mijarên rengîn + Guhertoyên Ronahî/Tar.
 A new version is available. Do you want to update now?: Guhertoyek nû heye. Ma hûn dixwazin niha nûve bikin?
-About: Ji dor
-About TVGarden+: Der barê TVGarden +
+Access via 'Edit Playlist' button on main toolbar.: Gihîştina bişkojka 'Lîsteya Lîstika Biguherîne' ya li darika amûrê ya sereke.
+Actions: Actions
 Add Group: Komê lê zêde bike
 Add Mapping: Nexşeyê zêde bikin
+Adjust buffer size (1-10 seconds): Mezinahiya tamponê eyar bikin (1-10 çirke)
 Advanced IDs: Nasnameyên pêşketî
+Application status: Rewşa serîlêdanê
 Apply changes: Guhertinan bicîh bikin
 Apply Filters: Parzûnan sepînin
 Auto-detect: Oto-teşhîs
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Di destpêkê de kontrolkirina otomatîkî - an jî di menuya Amûran de 'Ji bo nûvekirinan kontrol bikin' bikirtînin.
 Buffer (seconds): Tampon (çirk)
+Buffer size – adjust HLS buffer seconds.: Mezinahiya tampon - HLS çirkeyên tampon eyar bikin.
 Cancel: Bişûndekirin
 CANCEL: BIŞÛNDEKIRIN
 Category: Liq
+Changelog: Changelog
 Channel Details: Details Channel
 Channel Info: Agahdariya kanalê
 Channel:: Qenal:
@@ -23,12 +46,22 @@ Check Duplicates: Duplicates kontrol bikin
 Check for updates: Ji bo nûvekirinan kontrol bikin
 Check URLs: URLan kontrol bikin
 Clear Filters: Parzûnên Paqij bikin
+Clear search: Lêgerînê paqij bike
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Civat û ceribandin: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Welat
+Credits: Credits
 Delete Group: Komê jêbirin
 Description: Terîf
 Details: Details
-Do you want to load the edited playlist now?: Ma hûn dixwazin niha lîsteya lîstika hatî guherandin bar bikin?
+Developed by Lululla: Ji hêla Lululla ve hatî pêşve xistin
+Developer: Lululla: Pêşvebir: Lululla
+Do you want to load this edited playlist now?: Ma hûn dixwazin niha vê lîsteya lîstikê ya hatî guherandin bar bikin?
+Double speed (2x): Leza ducarî (2x)
 Downloading playlist...: Lîsteya lîstikê tê daxistin...
+Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP dadixe, pelan diguhezîne, sepanê ji nû ve dide destpêkirin - mîhengan parast.
+Drag & drop – drop M3U or JSON files directly onto main window.: Kaş bikin û daxin - pelên M3U an JSON rasterast li ser pencereya sereke davêjin.
+Drag to seek back in buffer: Kaş bikin da ku li tamponê vegere
 Duplicate URLs found:\n\n: URLên dubare hatin dîtin:\n\n
 Edit Playlist: Lîsteya lîstikê biguherîne
 Edit URLs: URLan biguherînin
@@ -37,32 +70,46 @@ Enrich with EPG: Bi EPG dewlemend bikin
 Enter JSON URL:: JSON URL binivîse:
 Enter playlist URL (M3U or JSON):: URL-ya lîsteya lîstikê binivîse (M3U an JSON):
 EPG: EPG
-EPG & Favorites: EPG & Favorites
+Epg & Favorites: Epg & Favorites
+Epg & Logos: Epg & Logos
+EPG & Logos: EPG & Logos
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Rêbernameya EPG - bişkojka li darika amûrê ya sereke tevna tevna bernameyê nîşan dide (ji bo agahiyê du caran bikirtînin).
 EPG Matching Threshold: Tîrêjê Hevberdana EPG
 EPG Source: Çavkaniya EPG
+EPG source – can be set in Settings (epgshare01 or custom URL).: Çavkaniya EPG - dikare di Mîhengan de (epgshare01 an URL-ya xwerû) were danîn.
+EPG source – choose XMLTV file or enter custom URL.: Çavkaniya EPG - pelê XMLTV hilbijêrin an URL-ya xwerû binivîsin.
 Error: Şaşî
 Error loading: Di barkirinê de çewtî
+Error loading file: {0}: Di barkirina pelê de çewtî: {0}
 Error loading playlists: {0}: Di barkirina lîsteyên lîstikê de çewtî: {0}
+Error loading URL: {0}: Di barkirina URL de çewtî: {0}
 ERROR: player.html not found.: ÇEWT: player.html nehat dîtin.
 Exit: Derî
 Export Favorites: Export Favorites
 Export Filtered JSON: JSON Parzûnkirî derxînin
-Export Filtered M3U: Export Parzûnkirî M3U
+Export Filtered M3U: Export Filtered M3U
 Export JSON: JSON derxînin
 Export KO: Export KO
 Export OK: Export OK
+Export only favorite channels to a new M3U file: Tenê kanalên bijare ji pelek nû ya M3U re derxînin
 Extracting update...: Derxistina nûvekirinê...
 Failed to download playlist: Daxistina lîsteya lîstikê bi ser neket
 Failed to load playlist: Barkirina lîsteya lîstikê bi ser neket
 Favorite: Hezkirî
+Favorites only: Favorites tenê
 Fetch Logos: Logoyan bistînin
-FILTERS: FILTERS
+Filters: Parzûnên
+Fullscreen (hide UI) - press ESC to exit: Fullscreen (UI veşêre) - ESC bikirtînin da ku derkevin
 Geo & Country: Erdnîgarî & Welat
 GeoBlocked: GeoBlocked
 GitHub Error: Çewtiya GitHub
+Go back to live: Vegere bijî
 Group: Kom
+Half speed (0.5x): Nîv leza (0,5x)
 Help: Alîkarî
 Hide List: Lîsteya Veşêre
+HLS playback: hls.js (MIT license): Lîstika HLS: hls.js (lîsansa MIT)
+Image: Wêne
 Import: Anîn
 Import error: {0}: Çewtiya têxê: {0}
 Import from URL: Ji URL-ê derxînin
@@ -72,27 +119,43 @@ Import Local: Import Local
 Imported {0} channels from JSON.: Ji JSON'ê {0} kanal hatin importkirin.
 Imported {0} channels from URL.: Ji URL-ê {0} kanal hatin importkirin.
 Info: Info
+Info on: Agahî li ser
 Invalid JSON: {0}: JSON nederbasdar: {0}
 Invalid playlist URL.: URL lîsteya lîstikê nederbasdar e.
 Invalid URL.: URL nederbasdar.
+Json: Json
 JSON Property: Taybetmendiya JSON
+Ko-fi: Qehwe
 Language: Ziman
+Language – change UI language dynamically (translations in Languages folder).: Ziman - zimanê UI bi dînamîk biguhezînin (wergerên di peldanka Zimanan de).
+Languages: Languages
 Languages (comma): Ziman (komma)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: Alîkariya LiveGardenTVPlus ji hêla Lululla ve
 LOAD: DAWETKIRIN
 Load a playlist first.: Pêşî lîsteya lîstikê bar bikin.
 Load File: Pelê barkirin
-Load Online: Load Online
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Pelê herêmî M3U/JSON bar bikin - bi bişkoka 'Pelê Barkirin' (barika amûran) an 'Pelê Vekirina' di edîtorê de.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: URL-ya M3U/JSON-ya serhêl bar bikin - Bişkojka 'Berhêl Barkirin' (barika amûran) an 'Ji URL-ê veke' di edîtorê de.
 Load playlist file (M3U/JSON) from your computer: Pelê lîsteya lîstikê (M3U/JSON) ji komputera xwe bar bikin
-Load playlist from web URL (M3U or JSON): Lîsteya lîstikê ji URL-a malperê bar bike (M3U an JSON)
 Loaded: Barkirin
+Loaded {0} channels from JSON file.: Ji pelê JSON {0} kanal barkirin.
+Loaded {0} channels from JSON URL.: Ji JSON URL-ê {0} kanal barkirin.
+Loaded {0} channels from M3U file.: Ji pelê M3U {0} kanal barkirin.
+Loaded {0} channels from M3U URL.: Ji URL-ya M3U {0} kanal barkirin.
 Loading...: Barkirin...
+Logo: Logo
+Logo Picker – in editor, click '...' to choose logo from gallery.: Logo Picker - di edîtorê de, bikirtînin '...' da ku logo ji galeriyê hilbijêrin.
 Logo Preview: Pêşdîtina Logoyê
 Logo URL: Logo URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Logos - bixweber ji depoya GitHub dakêşin (Mîheng → Çavkaniya Logos).
 Logos Matching Threshold: Logos Match Threshold
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Depoya logos - xwedan / repo / rê hilbijêrin (XwedîPlugins / logoyên xwerû).
 Logos Source: Çavkanî Logos
 Logos Subfolder: Logos Subfolder
 Map JSON properties to channel fields:: Nexşeya taybetmendiyên JSON li qadên kanalê:
 Mapping saved for future imports of this file.: Nexşe ji bo îthalata pêşerojê ya vê pelê hate tomarkirin.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Bendavên hevberdanê - ji bo EPG û logoyan hesasiyeta maça fuzzy saz bikin.
 Name: Nav
 Nanoid: Nanoid
 Network error: Çewtiya torê
@@ -106,57 +169,90 @@ No favorite channels to export.: Ji bo hinardekirinê kanalên bijare tune.
 No playlist found: Lîsteya lîstikê nehat dîtin
 No stream: No stream
 No updates available.: Nûvekirin tune.
-Now playing: Niha dilîze
+Normal speed (1x): Leza normal (1x)
+Now: Niha
 OK: OK
 Online Playlist: Lîsteya lîstikê ya serhêl
+Online playlist – select from GitHub repository (auto‑refresh).: Lîsteya lîstika serhêl - ji depoya GitHub hilbijêrin (xweber nûvekirina).
+Open File...: Pelê veke...
+Open from URL: Ji URL vekin
+Open Playlist: Lîsteya lîstikê vekin
 Pause/Resume live stream: Weşana zindî rawestîne/Dezîne
-Player ready.: Player amade ye.
+Paused: Rawestiyan
+PayPal: PayPal
+Picture-in-Picture mode: Moda Wêne-di-Wêne
+Player Control: Player Control
+Playlist & Groups: Lîsteya lîstikê & Kom
 Playlist Editor: Edîtorê lîsteya lîstikê
+Playlist Loading: Lîsteya lîstikê tê barkirin
+Playlist Management: Rêvebiriya Lîsteya Lîstinê
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Depoya lîsteya lîstikê: OwnerPlugins/TivuStreamList (navçeyên Îtalî û navneteweyî)
 Please select a program first.: Ji kerema xwe pêşî bernameyek hilbijêrin.
 Preview (first 5 channels): Pêşdîtin (5 kanalên yekem)
 Preview error: {0}: Çewtiya pêşdîtinê: {0}
 Program Details: Agahiyên Bernameyê
+Ready.: Amade.
 Recent: Demek berê
+Recent files – quick access to last 5 opened playlists.: Pelên dawî - gihîştina bilez a 5 lîsteyên lîstokên paşîn ên vekirî.
 Recent playlists: Lîsteyên lîstikê yên dawî
 Refresh: Hênikkirin
 Refresh EPG List: Lîsteya EPG-ê nûve bikin
 Refresh from GitHub: Ji GitHub nûve bikin
-Rename Group: Biguherîne Koma
+Rename Group: Navê Komê Biguherîne
+Repository: Depo
 Reset Order: Reset Order
 Save: Rizgarkirin
 SAVE: RIZGARKIRIN
+Save – persists all settings without reloading current playlist.: Save - hemî mîhengan bêyî barkirina lîsteya lîstika heyî berdewam dike.
 Save as...: Wek tomar bike...
+Save current playlist to a new M3U file: Lîsteya lîstika heyî li pelek nû ya M3U hilînin
 Save Mapping: Save Mapping
 Save Playlist: Lîsteya lîstikê tomar bike
 Save Status: Save Status
 Saved: Saved
+Search channels by name: Li kanalan bi navê xwe bigerin
 Search channels...: Li kanalan bigerin...
 Select a playlist first.: Pêşî lîsteya lîstikê hilbijêre.
 Select Theme: Mijar Hilbijêre
+Selected theme is saved and applied on restart.: Mijara hilbijartî tê hilanîn û di destpêkirina nû de tê sepandin.
 Settings: Settings
 Show List: Lîsteya nîşan bide
+Show only channels marked as favorites: Tenê kanalên ku wekî bijare hatine nîşankirin nîşan bidin
 Show or hide the channel list: Lîsteya kanalê nîşan bide an veşêre
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Ji bo ceribandin û piştgiriyê spasiyên taybetî ji civakên CORVOBOYS & LinuxSat-Piştgiriyê re.
 Start (local): Destpêk (herêmî)
 Status: Cî
 Stream URL: Stream URL
+Stream URLs: URLên Stream
 Success: Serketinî
 Support: Alîkarî
+Support the developer: Piştgiriya bipêşvebir
 Target Field: Target Field
+Thanks to: Bi saya
 Theme picker: Hilbijêra mijarê
+Theme picker – accessible via Tools menu on main toolbar.: Hilbijêra mijarê - bi menuya Amûran a li darika amûrê ya sereke ve tê gihîştin.
+Themes: Themes
 Time: Dem
 Title: Nav
 Tools: Amûrên
+Total: Hemî
+Total channels in loaded playlist: Tevahiya kanalên di lîsteya lîstika barkirî de
 TV Guide (EPG): Rêberê TV (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Di pelê projeya dûr de guhertoya nayê dîtin.
 Update: Nûvekirin
 Update complete. Restarting...: Nûvekirin qediya. Ji nû ve dest pê dike...
 Update failed: : Nûvekirin bi ser neket:
+Updates: Updates
 URL: URL
 URL (primary): URL (sereke)
+URL Check: URL Check
 URL list (one per line): Lîsteya URL (ji her rêzê yek)
 URLs & Status: URL & Rewş
 Version: Awa
 Waiting for LiveGardenTVPlus to close...: Li benda girtina LiveGardenTVPlus...
 Warning: Gazî
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: URL ya Youtube
+Youtube URLs: URLên Youtube

@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace LiveGardenTVPlus.Models
+﻿namespace LiveGardenTVPlus.Models
 {
     /// <summary>
     /// Represents a single mapping from a JSON property to a ChannelJson field.

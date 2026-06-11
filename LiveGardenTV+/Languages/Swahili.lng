@@ -1,18 +1,41 @@
-﻿(No description): (Hakuna maelezo)
+﻿(Completely voluntary – no features are blocked): (Kwa hiari kabisa - hakuna vipengele vilivyozuiwa)
+(No description): (Hakuna maelezo)
+• Add / rename / delete groups.: • Ongeza / badilisha jina / futa vikundi.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Kitelezi cha bafa: rekebisha bafa ya HLS (sekunde 1-10).
+• Check URL availability (only visible channels).: • Angalia upatikanaji wa URL (njia zinazoonekana pekee).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Hariri majina ya vituo, vikundi, URL, nembo, tvg-id, nchi, lugha, vipendwa.
+• Edit multiple URLs per channel (popup window).: • Hariri URL nyingi kwa kila kituo (dirisha ibukizi).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Boresha ukitumia EPG: huongeza tvg-id inayokosekana kwa kutumia ulinganishaji wa fuzzy.
+• EPG info displayed in status bar for current channel.: • Maelezo ya EPG yanaonyeshwa kwenye upau wa hali ya kituo cha sasa.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • Hamisha OK / FAIL / orodha zilizochujwa kama M3U au JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Leta nembo kutoka kwa hazina ya mbali (OwnerPlugins/nembo).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • UI ya skrini nzima: huficha utepe na upau wa hali (ESC ili kuondoka).
+• Hide/Show channel list button.: • Ficha/Onyesha kitufe cha orodha ya kituo.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Leta JSON (ya ndani au URL) kwa kutumia ramani ya sehemu inayonyumbulika (gundua kiotomatiki, hifadhi ramani).
+• Picture‑in‑Picture (PIP) button.: • Kitufe cha Picha-ndani-Picha (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.: • Kasi ya kucheza: vitufe 0.5x, 1x, 2x.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Panga safu wima yoyote kwa kubofya kichwa; tumia 'Weka Upya Agizo' ili kurejesha agizo asili.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: sitisha mtiririko wa moja kwa moja; buruta kitelezi kutafuta nyuma; bonyeza 'Live' ili kurudi.
 ◀ Previous: ◀ Iliyotangulia
+16 colour themes + Light/Dark variants.: Mandhari 16 ya rangi + Nyepesi/Vibadala vya Giza.
 A new version is available. Do you want to update now?: Toleo jipya linapatikana. Je, ungependa kusasisha sasa?
-About: Kuhusu
-About TVGarden+: Kuhusu TVGarden+
+Access via 'Edit Playlist' button on main toolbar.: Fikia kupitia kitufe cha 'Hariri Orodha ya kucheza' kwenye upau wa vidhibiti kuu.
+Actions: Vitendo
 Add Group: Ongeza Kikundi
 Add Mapping: Ongeza Ramani
+Adjust buffer size (1-10 seconds): Rekebisha ukubwa wa bafa (sekunde 1-10)
 Advanced IDs: Vitambulisho vya hali ya juu
+Application status: Hali ya maombi
 Apply changes: Tekeleza mabadiliko
 Apply Filters: Weka Vichujio
 Auto-detect: Gundua kiotomatiki
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Angalia kiotomatiki unapoanzisha - au ubofye 'Angalia masasisho' kwenye menyu ya Zana.
 Buffer (seconds): Bafa (sekunde)
+Buffer size – adjust HLS buffer seconds.: Ukubwa wa bafa - rekebisha sekunde za HLS.
 Cancel: Ghairi
 CANCEL: GHAIRI
 Category: Kategoria
+Changelog: Changelog
 Channel Details: Maelezo ya Kituo
 Channel Info: Maelezo ya Kituo
 Channel:: Kituo:
@@ -23,12 +46,22 @@ Check Duplicates: Angalia Nakala
 Check for updates: Angalia masasisho
 Check URLs: Angalia URLs
 Clear Filters: Futa Vichujio
+Clear search: Futa utafutaji
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Jumuiya na majaribio: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Nchi
+Credits: Mikopo
 Delete Group: Futa Kikundi
 Description: Maelezo
 Details: Maelezo
-Do you want to load the edited playlist now?: Je, unataka kupakia orodha ya kucheza iliyohaririwa sasa?
+Developed by Lululla: Imeandaliwa na Lululla
+Developer: Lululla: Msanidi programu: Lululla
+Do you want to load this edited playlist now?: Je, ungependa kupakia orodha hii ya kucheza iliyohaririwa sasa?
+Double speed (2x): Kasi mara mbili (2x)
 Downloading playlist...: Inapakua orodha ya kucheza...
+Downloads ZIP, replaces files, restarts app – settings preserved.: Inapakua ZIP, kubadilisha faili, kuanzisha upya programu - mipangilio imehifadhiwa.
+Drag & drop – drop M3U or JSON files directly onto main window.: Buruta na uangushe - dondosha faili za M3U au JSON moja kwa moja kwenye dirisha kuu.
+Drag to seek back in buffer: Buruta kutafuta nyuma katika bafa
 Duplicate URLs found:\n\n: Nakala za URL zimepatikana:\n\n
 Edit Playlist: Hariri Orodha ya Kucheza
 Edit URLs: Badilisha URL
@@ -37,12 +70,19 @@ Enrich with EPG: Kuboresha na EPG
 Enter JSON URL:: Weka URL ya JSON:
 Enter playlist URL (M3U or JSON):: Weka URL ya orodha ya kucheza (M3U au JSON):
 EPG: EPG
-EPG & Favorites: EPG & Vipendwa
+Epg & Favorites: Epg & Vipendwa
+Epg & Logos: EPG & Nembo
+EPG & Logos: EPG & Nembo
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Mwongozo wa EPG - kitufe kwenye upau wa vidhibiti huonyesha gridi kamili yenye maelezo ya mpango (bofya mara mbili kwa maelezo).
 EPG Matching Threshold: Kizingiti cha Kulingana cha EPG
 EPG Source: Chanzo cha EPG
+EPG source – can be set in Settings (epgshare01 or custom URL).: Chanzo cha EPG - kinaweza kuwekwa katika Mipangilio (epgshare01 au URL maalum).
+EPG source – choose XMLTV file or enter custom URL.: Chanzo cha EPG - chagua faili ya XMLTV au ingiza URL maalum.
 Error: Hitilafu
 Error loading: Hitilafu katika upakiaji
+Error loading file: {0}: Hitilafu katika kupakia faili: {0}
 Error loading playlists: {0}: Hitilafu katika kupakia orodha za kucheza: {0}
+Error loading URL: {0}: Hitilafu katika kupakia URL: {0}
 ERROR: player.html not found.: HITILAFU: player.html haipatikani.
 Exit: Utgång
 Export Favorites: Hamisha Vipendwa
@@ -51,18 +91,25 @@ Export Filtered M3U: Hamisha M3U Iliyochujwa
 Export JSON: Hamisha JSON
 Export KO: Hamisha KO
 Export OK: Hamisha Sawa
+Export only favorite channels to a new M3U file: Hamisha chaneli uzipendazo pekee kwa faili mpya ya M3U
 Extracting update...: Inatoa sasisho...
 Failed to download playlist: Imeshindwa kupakua orodha ya kucheza
 Failed to load playlist: Imeshindwa kupakia orodha ya kucheza
 Favorite: Kipendwa
+Favorites only: Vipendwa pekee
 Fetch Logos: Leta Nembo
-FILTERS: VICHUJIO
+Filters: Vichujio
+Fullscreen (hide UI) - press ESC to exit: Skrini nzima (ficha UI) - bonyeza ESC ili kuondoka
 Geo & Country: Jiografia na Nchi
 GeoBlocked: GeoBlocked
 GitHub Error: Hitilafu ya GitHub
+Go back to live: Rudi uishi
 Group: Kikundi
+Half speed (0.5x): Nusu kasi (0.5x)
 Help: Msaada
 Hide List: Ficha Orodha
+HLS playback: hls.js (MIT license): Uchezaji wa HLS: hls.js (leseni ya MIT)
+Image: Picha
 Import: Ingiza
 Import error: {0}: Hitilafu ya kuleta: {0}
 Import from URL: Ingiza kutoka kwa URL
@@ -72,27 +119,43 @@ Import Local: Ingiza Ndani
 Imported {0} channels from JSON.: Imeingiza vituo {0} kutoka JSON.
 Imported {0} channels from URL.: Imeingiza vituo {0} kutoka kwa URL.
 Info: Habari
+Info on: Taarifa juu
 Invalid JSON: {0}: JSON batili: {0}
 Invalid playlist URL.: URL ya orodha ya kucheza si sahihi.
 Invalid URL.: URL batili.
+Json: Json
 JSON Property: Mali ya JSON
+Ko-fi: Kahawa
 Language: Lugha
+Language – change UI language dynamically (translations in Languages folder).: Lugha - Badilisha lugha ya UI kwa nguvu (tafsiri katika folda ya Lugha).
+Languages: Lugha
 Languages (comma): Lugha (koma)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Usaidizi kutoka kwa Lululla
 LOAD: MZIGO
 Load a playlist first.: Pakia orodha ya kucheza kwanza.
 Load File: Pakia Faili
-Load Online: Pakia Mtandaoni
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Pakia faili ya ndani ya M3U/JSON - kupitia kitufe cha 'Pakia Faili' (upau wa vidhibiti) au 'Fungua Faili' kwenye kihariri.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Pakia URL ya M3U/JSON mtandaoni - kitufe cha 'Pakia Mtandaoni' (upau wa vidhibiti) au 'Fungua kutoka kwa URL' katika kihariri.
 Load playlist file (M3U/JSON) from your computer: Pakia faili ya orodha ya kucheza (M3U/JSON) kutoka kwa kompyuta yako
-Load playlist from web URL (M3U or JSON): Pakia orodha ya kucheza kutoka URL ya wavuti (M3U au JSON)
 Loaded: Imepakiwa
+Loaded {0} channels from JSON file.: Imepakia vituo {0} kutoka faili ya JSON.
+Loaded {0} channels from JSON URL.: Imepakia vituo {0} kutoka kwa JSON URL.
+Loaded {0} channels from M3U file.: Imepakia chaneli {0} kutoka faili ya M3U.
+Loaded {0} channels from M3U URL.: Imepakia chaneli {0} kutoka URL ya M3U.
 Loading...: Inapakia...
+Logo: Nembo
+Logo Picker – in editor, click '...' to choose logo from gallery.: Kichagua Nembo - katika kihariri, bofya '...' ili kuchagua nembo kutoka kwenye ghala.
 Logo Preview: Hakiki ya Nembo
 Logo URL: URL ya nembo
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Nembo - pakua kiotomatiki kutoka kwa hazina ya GitHub (Mipangilio → Chanzo cha Nembo).
 Logos Matching Threshold: Nembo Kulingana Kizingiti
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Hazina ya nembo - chagua mmiliki/repo/njia (default OwnerPlugins/nembo).
 Logos Source: Chanzo cha Nembo
 Logos Subfolder: Folda Ndogo ya Nembo
 Map JSON properties to channel fields:: Ramani ya sifa za JSON kwa sehemu za vituo:
 Mapping saved for future imports of this file.: Upangaji ramani umehifadhiwa kwa uagizaji wa baadaye wa faili hii.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Viwango vinavyolingana - weka hisia zisizoeleweka za mechi kwa EPG na nembo.
 Name: Jina
 Nanoid: Nanoid
 Network error: Hitilafu ya mtandao
@@ -106,57 +169,90 @@ No favorite channels to export.: Hakuna vituo unavyovipenda vya kusafirisha.
 No playlist found: Hakuna orodha ya kucheza iliyopatikana
 No stream: Hakuna mkondo
 No updates available.: Hakuna masasisho yanayopatikana.
-Now playing: Sasa inacheza
+Normal speed (1x): Kasi ya kawaida (1x)
+Now: Sasa
 OK: Sawa
 Online Playlist: Orodha ya kucheza mtandaoni
+Online playlist – select from GitHub repository (auto‑refresh).: Orodha ya kucheza ya mtandaoni - chagua kutoka kwa hazina ya GitHub (onyesha upya kiotomatiki).
+Open File...: Fungua Faili...
+Open from URL: Fungua kutoka kwa URL
+Open Playlist: Fungua Orodha ya kucheza
 Pause/Resume live stream: Sitisha/Rejesha mtiririko wa moja kwa moja
-Player ready.: Mchezaji tayari.
+Paused: Imesitishwa
+PayPal: PayPal
+Picture-in-Picture mode: Hali ya Picha-ndani-Picha
+Player Control: Udhibiti wa Mchezaji
+Playlist & Groups: Orodha ya kucheza na Vikundi
 Playlist Editor: Kihariri cha Orodha ya kucheza
+Playlist Loading: Orodha ya kucheza Inapakia
+Playlist Management: Usimamizi wa Orodha ya kucheza
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Hazina ya orodha ya kucheza: OwnerPlugins/TivuStreamList (mitiririko ya Kiitaliano na kimataifa)
 Please select a program first.: Tafadhali chagua programu kwanza.
 Preview (first 5 channels): Hakiki (vituo 5 vya kwanza)
 Preview error: {0}: Hitilafu ya onyesho la kukagua: {0}
 Program Details: Maelezo ya Programu
+Ready.: Tayari.
 Recent: Hivi karibuni
+Recent files – quick access to last 5 opened playlists.: Faili za hivi majuzi - ufikiaji wa haraka wa orodha 5 za kucheza zilizofunguliwa mwisho.
 Recent playlists: Orodha za kucheza za hivi majuzi
 Refresh: Onyesha upya
 Refresh EPG List: Onyesha upya Orodha ya EPG
 Refresh from GitHub: Onyesha upya kutoka GitHub
 Rename Group: Badilisha Kikundi jina
+Repository: Hifadhi
 Reset Order: Weka upya Agizo
 Save: Hifadhi
 SAVE: HIFADHI
+Save – persists all settings without reloading current playlist.: Hifadhi - hudumisha mipangilio yote bila kupakia upya orodha ya kucheza ya sasa.
 Save as...: Hifadhi kama...
+Save current playlist to a new M3U file: Hifadhi orodha ya kucheza ya sasa kwenye faili mpya ya M3U
 Save Mapping: Hifadhi Ramani
 Save Playlist: Hifadhi Orodha ya Kucheza
 Save Status: Hifadhi Hali
 Saved: Imehifadhiwa
+Search channels by name: Tafuta vituo kwa majina
 Search channels...: Tafuta vituo...
 Select a playlist first.: Chagua orodha ya kucheza kwanza.
 Select Theme: Chagua Mandhari
+Selected theme is saved and applied on restart.: Mandhari yaliyochaguliwa yanahifadhiwa na kutumika wakati wa kuwasha upya.
 Settings: Mipangilio
 Show List: Onyesha Orodha
+Show only channels marked as favorites: Onyesha vituo vilivyotiwa alama kuwa vipendwa pekee
 Show or hide the channel list: Onyesha au ufiche orodha ya vituo
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Shukrani za pekee kwa jumuiya za CORVOBOYS & LinuxSat-Support kwa majaribio na usaidizi.
 Start (local): Anza (ndani)
 Status: Hali
 Stream URL: Tiririsha URL
+Stream URLs: Tiririsha URL
 Success: Mafanikio
 Support: Msaada
+Support the developer: Saidia msanidi programu
 Target Field: Sehemu Lengwa
+Thanks to: Shukrani kwa
 Theme picker: Kiteua mada
-Time: Muda
+Theme picker – accessible via Tools menu on main toolbar.: Kiteua mandhari - kinapatikana kupitia menyu ya Zana kwenye upau wa vidhibiti kuu.
+Themes: Mandhari
+Time: Wakati
 Title: Kichwa
 Tools: Zana
+Total: Jumla
+Total channels in loaded playlist: Jumla ya vituo katika orodha ya kucheza iliyopakiwa
 TV Guide (EPG): Mwongozo wa TV (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: UI:MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Haijaweza kupata toleo katika faili ya mradi wa mbali.
 Update: Sasisha
 Update complete. Restarting...: Usasishaji umekamilika. Inaanza upya...
 Update failed: : Imeshindwa kusasisha:
+Updates: Sasisho
 URL: URL
 URL (primary): URL (ya msingi)
+URL Check: Angalia URL
 URL list (one per line): Orodha ya URL (moja kwa kila mstari)
 URLs & Status: URLs na Hali
 Version: Toleo
 Waiting for LiveGardenTVPlus to close...: Inasubiri LiveGardenTVPlus kufunga...
 Warning: Onyo
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: URL ya Youtube
+Youtube URLs: URL za Youtube

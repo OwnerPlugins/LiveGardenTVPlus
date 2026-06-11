@@ -1,18 +1,41 @@
-﻿(No description): (Neniu priskribo)
+﻿(Completely voluntary – no features are blocked): (Tute libervola - neniuj funkcioj estas blokitaj)
+(No description): (Neniu priskribo)
+• Add / rename / delete groups.: • Aldoni / renomi / forigi grupojn.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffer-glitilo: ĝustigu HLS-bufferon (1-10 sekundojn).
+• Check URL availability (only visible channels).: • Kontrolu URL haveblecon (nur videblaj kanaloj).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Redaktu kanalajn nomojn, grupojn, URLojn, emblemojn, tvg-id, landon, lingvojn, plej ŝatatajn.
+• Edit multiple URLs per channel (popup window).: • Redaktu plurajn URL-ojn per kanalo (ŝprucfenestro).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Riĉigu per EPG: aldonas mankantan tvg-id uzante malklarkongruon.
+• EPG info displayed in status bar for current channel.: • EPG-informoj montriĝas en statusbreto por nuna kanalo.
+• Export OK / FAIL / filtered lists as M3U or JSON.: • Eksportu OK / FAIL / filtritajn listojn kiel M3U aŭ JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).: • Prenu emblemojn el fora deponejo (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Plenekrana UI: kaŝas flankbreton kaj statusbreton (ESC por eliri).
+• Hide/Show channel list button.: • Kaŝi/Montri kanallisto butonon.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Importu JSON (loka aŭ URL) kun fleksebla kampomapado (aŭtomata detekti, konservi mapadon).
+• Picture‑in‑Picture (PIP) button.: • Butono Picture-in-Picture (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.: • Reprodukta rapido: 0.5x, 1x, 2x butonoj.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Ordigi ajnan kolumnon klakante kaplinion; uzu 'Restarigi Ordon' por reveni al originala ordo.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: paŭzi vivan rivereton; trenu glitilon por serĉi reen; premu 'Live' por reveni.
 ◀ Previous: ◀ Antaŭa
+16 colour themes + Light/Dark variants.: 16 koloraj temoj + Lumaj/Malhelaj variantoj.
 A new version is available. Do you want to update now?: Nova versio disponeblas. Ĉu vi volas ĝisdatigi nun?
-About: Pri
-About TVGarden+: Pri TVGarden+
+Access via 'Edit Playlist' button on main toolbar.: Aliro per la butono 'Redakti Ludliston' sur la ĉefa ilobreto.
+Actions: Agoj
 Add Group: Aldoni Grupon
 Add Mapping: Aldonu Mapadon
+Adjust buffer size (1-10 seconds): Alĝustigu bufran grandecon (1-10 sekundoj)
 Advanced IDs: Altnivelaj identigiloj
+Application status: Aplika stato
 Apply changes: Apliki ŝanĝojn
 Apply Filters: Apliki Filtrilojn
 Auto-detect: Aŭtomate detekti
+Automatic check on startup – or click 'Check for updates' in Tools menu.: Aŭtomata kontrolo ĉe ekfunkciigo – aŭ alklaku 'Kontrolu ĝisdatigojn' en la menuo Iloj.
 Buffer (seconds): Bufro (sekundoj)
+Buffer size – adjust HLS buffer seconds.: Bufrgrandeco - ĝustigu HLS-bufrsekundojn.
 Cancel: Nuligi
 CANCEL: NULIGI
 Category: Kategorio
+Changelog: Ŝanĝprotokolo
 Channel Details: Kanalaj Detaloj
 Channel Info: Informoj pri kanalo
 Channel:: Kanalo:
@@ -23,12 +46,22 @@ Check Duplicates: Kontrolu Duplikatojn
 Check for updates: Kontrolu ĝisdatigojn
 Check URLs: Kontrolu URLojn
 Clear Filters: Forigi Filtrilojn
+Clear search: Klara serĉo
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunumo & testado: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Lando
+Credits: Kreditoj
 Delete Group: Forigi Grupon
 Description: Priskribo
 Details: Detaloj
-Do you want to load the edited playlist now?: Ĉu vi volas ŝargi la redaktitan ludliston nun?
+Developed by Lululla: Evoluigite fare de Lululla
+Developer: Lululla: Ellaboranto: Lululla
+Do you want to load this edited playlist now?: Ĉu vi volas ŝargi ĉi tiun redaktitan ludliston nun?
+Double speed (2x): Duobla rapido (2x)
 Downloading playlist...: Elŝutante ludliston...
+Downloads ZIP, replaces files, restarts app – settings preserved.: Elŝutas ZIP, anstataŭigas dosierojn, rekomencas aplikaĵon - agordoj konservitaj.
+Drag & drop – drop M3U or JSON files directly onto main window.: Trenu kaj faligi - faligi M3U aŭ JSON-dosierojn rekte sur la ĉefan fenestron.
+Drag to seek back in buffer: Trenu por serĉi reen en bufro
 Duplicate URLs found:\n\n: Duoblaj URL-oj trovitaj:\n\n
 Edit Playlist: Redaktu Ludliston
 Edit URLs: Redaktu URL-ojn
@@ -37,12 +70,19 @@ Enrich with EPG: Riĉigu per EPG
 Enter JSON URL:: Enigu JSON-URL:
 Enter playlist URL (M3U or JSON):: Enigu la URL-listo (M3U aŭ JSON):
 EPG: EPG
-EPG & Favorites: EPG & Favoritoj
+Epg & Favorites: Epg & Favoritoj
+Epg & Logos: Epg & Logos
+EPG & Logos: EPG & Logos
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG-Gvidilo - butono sur ĉefa ilobreto montras plenan kradon kun programdetaloj (duoble alklaku por informoj).
 EPG Matching Threshold: EPG Kongrua Sojlo
 EPG Source: EPG Fonto
+EPG source – can be set in Settings (epgshare01 or custom URL).: EPG-fonto - povas esti agordita en Agordoj (epgshare01 aŭ kutima URL).
+EPG source – choose XMLTV file or enter custom URL.: EPG-fonto - elektu XMLTV-dosieron aŭ enigu propran URL.
 Error: Eraro
 Error loading: Eraro dum ŝarĝo
+Error loading file: {0}: Eraro dum ŝarĝo de dosiero: {0}
 Error loading playlists: {0}: Eraro dum ŝarĝo de ludlistoj: {0}
+Error loading URL: {0}: Eraro dum ŝarĝo de URL: {0}
 ERROR: player.html not found.: ERARO: player.html ne trovita.
 Exit: Eliro
 Export Favorites: Eksporti Favoritojn
@@ -51,18 +91,25 @@ Export Filtered M3U: Eksporti Filtritan M3U
 Export JSON: Eksportu JSON
 Export KO: Eksporti KO
 Export OK: Eksportu bone
+Export only favorite channels to a new M3U file: Eksportu nur plej ŝatatajn kanalojn al nova M3U-dosiero
 Extracting update...: Eltiranta ĝisdatigon...
 Failed to download playlist: Malsukcesis elŝuti ludliston
 Failed to load playlist: Malsukcesis ŝargi ludliston
 Favorite: Plej ŝatata
+Favorites only: Plej ŝatataj nur
 Fetch Logos: Prenu Logos
-FILTERS: FILTRILOJ
+Filters: Filtriloj
+Fullscreen (hide UI) - press ESC to exit: Plenekrano (kaŝi UI) - premu ESC por eliri
 Geo & Country: Geo & Lando
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub Eraro
+Go back to live: Reiru por vivi
 Group: Grupo
+Half speed (0.5x): Duona rapido (0.5x)
 Help: Helpu
 Hide List: Kaŝi Listo
+HLS playback: hls.js (MIT license): HLS-reproduktado: hls.js (MIT-licenco)
+Image: Bildo
 Import: Importi
 Import error: {0}: Importa eraro: {0}
 Import from URL: Importi el URL
@@ -72,27 +119,43 @@ Import Local: Importu Loka
 Imported {0} channels from JSON.: Importitaj {0} kanaloj el JSON.
 Imported {0} channels from URL.: Importitaj {0} kanaloj el URL.
 Info: Info
+Info on: Informoj pri
 Invalid JSON: {0}: Nevalida JSON: {0}
 Invalid playlist URL.: Nevalida URL de ludlisto.
 Invalid URL.: Nevalida URL.
+Json: Json
 JSON Property: JSON-posedaĵo
+Ko-fi: Kafo
 Language: Lingvo
+Language – change UI language dynamically (translations in Languages folder).: Lingvo - ŝanĝu UI-lingvon dinamike (tradukoj en Lingvo-dosierujo).
+Languages: Lingvoj
 Languages (comma): Lingvoj (komo)
+LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Helpo de Lululla
 LOAD: ŜARĜO
 Load a playlist first.: Ŝarĝu ludliston unue.
 Load File: Ŝarĝu Dosiero
-Load Online: Ŝargi Interrete
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Ŝarĝu lokan M3U/JSON-dosieron - per butono "Ŝargi Dosiero" (ilbreto) aŭ "Malfermu Dosiero" en redaktilo.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Ŝarĝu interretan URL M3U/JSON - butonon 'Ŝargi Interrete' (ilbreto) aŭ 'Malfermu de URL' en redaktilo.
 Load playlist file (M3U/JSON) from your computer: Ŝarĝu ludlistdosieron (M3U/JSON) el via komputilo
-Load playlist from web URL (M3U or JSON): Ŝarĝu ludliston de reta URL (M3U aŭ JSON)
 Loaded: Ŝarĝita
+Loaded {0} channels from JSON file.: Ŝargis {0} kanalojn el JSON-dosiero.
+Loaded {0} channels from JSON URL.: Ŝargis {0} kanalojn el JSON-URL.
+Loaded {0} channels from M3U file.: Ŝargis {0} kanalojn el M3U-dosiero.
+Loaded {0} channels from M3U URL.: Ŝargis {0} kanalojn de M3U URL.
 Loading...: Ŝargante...
+Logo: Logo
+Logo Picker – in editor, click '...' to choose logo from gallery.: Logo Picker - en redaktilo, alklaku '...' por elekti emblemon el galerio.
 Logo Preview: Logo Antaŭrigardo
 Logo URL: Logo URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).: Logos - aŭtomate elŝutu el GitHub-deponejo (Agordoj → Logos Fonto).
 Logos Matching Threshold: Logos Kongrua Sojlo
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logos-deponejo - elektu posedanton/repo/padon (defaŭlte OwnerPlugins/logos).
 Logos Source: Logos Fonto
 Logos Subfolder: Logos Subdosierujo
 Map JSON properties to channel fields:: Mapu JSON-ecojn al kanalaj kampoj:
 Mapping saved for future imports of this file.: Mapado konservita por estontaj importadoj de ĉi tiu dosiero.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Kongruaj sojloj - agordu neklaran matĉosentemon por EPG kaj emblemoj.
 Name: Nomo
 Nanoid: Nanoido
 Network error: Reta eraro
@@ -106,57 +169,90 @@ No favorite channels to export.: Neniuj plej ŝatataj kanaloj por eksporti.
 No playlist found: Neniu ludlisto trovita
 No stream: Neniu rivereto
 No updates available.: Neniuj ĝisdatigoj haveblaj.
-Now playing: Nun ludas
+Normal speed (1x): Normala rapido (1x)
+Now: Nun
 OK: Bone
 Online Playlist: Enreta Ludlisto
+Online playlist – select from GitHub repository (auto‑refresh).: Interreta ludlisto - elektu el GitHub-deponejo (aŭtomata refreŝigo).
+Open File...: Malfermu Dosieron...
+Open from URL: Malfermu de URL
+Open Playlist: Malfermu Ludliston
 Pause/Resume live stream: Paŭzi/Rekomenci la rektan fluon
-Player ready.: Ludanto preta.
+Paused: Paŭzita
+PayPal: PayPal
+Picture-in-Picture mode: Bildo-en-bilda reĝimo
+Player Control: Ludanta Kontrolo
+Playlist & Groups: Ludlisto & Grupoj
 Playlist Editor: Redaktilo de Ludlisto
+Playlist Loading: Ludlisto Ŝarĝante
+Playlist Management: Administrado de Ludlisto
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Deponejo de Ludlisto: OwnerPlugins/TivuStreamList (italaj kaj internaciaj fluoj)
 Please select a program first.: Bonvolu unue elekti programon.
 Preview (first 5 channels): Antaŭrigardo (unuaj 5 kanaloj)
 Preview error: {0}: Antaŭrigarda eraro: {0}
 Program Details: Programo Detaloj
+Ready.: Preta.
 Recent: Lastatempa
+Recent files – quick access to last 5 opened playlists.: Lastatempaj dosieroj - rapida aliro al la lastaj 5 malfermitaj ludlistoj.
 Recent playlists: Lastatempaj ludlistoj
 Refresh: Refreŝigi
 Refresh EPG List: Refreŝigi EPG-Liston
 Refresh from GitHub: Refreŝigu de GitHub
 Rename Group: Alinomigi Grupon
+Repository: Deponejo
 Reset Order: Restarigi Ordon
 Save: Konservu
 SAVE: SAVE
+Save – persists all settings without reloading current playlist.: Konservi - persistas ĉiujn agordojn sen reŝargi nunan ludliston.
 Save as...: Konservu kiel...
+Save current playlist to a new M3U file: Konservu nunan ludliston al nova M3U-dosiero
 Save Mapping: Konservu Mapadon
 Save Playlist: Konservu Ludliston
 Save Status: Konservu Statuson
 Saved: Savita
+Search channels by name: Serĉu kanalojn laŭ nomo
 Search channels...: Serĉu kanalojn...
 Select a playlist first.: Unue elektu ludliston.
 Select Theme: Elektu Temon
+Selected theme is saved and applied on restart.: Elektita temo estas konservita kaj aplikata ĉe rekomenco.
 Settings: Agordoj
 Show List: Montru Liston
+Show only channels marked as favorites: Montru nur kanalojn markitajn kiel plej ŝatatajn
 Show or hide the channel list: Montru aŭ kaŝu la liston de kanaloj
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Specialan dankon al la komunumoj CORVOBOYS & LinuxSat-Support pro testado kaj subteno.
 Start (local): Komenco (loka)
 Status: Statuso
 Stream URL: Flua URL
+Stream URLs: Flui URL-ojn
 Success: Sukceso
 Support: Subteno
+Support the developer: Subtenu la programiston
 Target Field: Cela Kampo
+Thanks to: Dankon al
 Theme picker: Temo-elektilo
+Theme picker – accessible via Tools menu on main toolbar.: Temo-elektilo - alirebla per Iloj-menuo sur ĉefa ilobreto.
+Themes: Temoj
 Time: Tempo
 Title: Titolo
 Tools: Iloj
+Total: Entute
+Total channels in loaded playlist: Totalaj kanaloj en ŝarĝita ludlisto
 TV Guide (EPG): Televida Gvidilo (EPG)
 TvgId: TvgId
+UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Ne eblas trovi version en fora projektdosiero.
 Update: Ĝisdatigo
 Update complete. Restarting...: Ĝisdatigo kompleta. Rekomencante...
 Update failed: : Ĝisdatigo malsukcesis:
+Updates: Ĝisdatigoj
 URL: URL
 URL (primary): URL (ĉefa)
+URL Check: URL Kontrolo
 URL list (one per line): URL-listo (unu per linio)
 URLs & Status: URLoj kaj Statuso
 Version: Versio
 Waiting for LiveGardenTVPlus to close...: Atendante la fermon de LiveGardenTVPlus...
 Warning: Averto
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: Youtube URL
+Youtube URLs: Youtube-URL-oj

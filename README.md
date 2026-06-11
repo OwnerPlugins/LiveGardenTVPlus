@@ -108,12 +108,30 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
       <img src="Screenshots/preview16.jpg?sanitize=true&raw=true" title="preview16" width="400"/><br/>
       <b>Preview 16</b>
     </td>
+  </tr>
+
+  <tr>
     <td align="center">
       <img src="Screenshots/preview17.jpg?sanitize=true&raw=true" title="preview17" width="400"/><br/>
       <b>Preview 17</b>
     </td>
+    <td align="center">
+      <img src="Screenshots/preview18.jpg?sanitize=true&raw=true" title="preview18" width="400"/><br/>
+      <b>Preview 18</b>
+    </td>
   </tr>
-  
+
+  <tr>
+    <td align="center">
+      <img src="Screenshots/preview19.jpg?sanitize=true&raw=true" title="preview19" width="400"/><br/>
+      <b>Preview 19</b>
+    </td>
+    <td align="center">
+      <img src="Screenshots/preview20.jpg?sanitize=true&raw=true" title="preview20" width="400"/><br/>
+      <b>Preview 20</b>
+    </td>
+  </tr>
+
 </table>
 
 ---
@@ -133,39 +151,77 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 
 
 ---
+
 ## Changelog
+
+## 📋 LiveGardenTVPlus – Changelog (v2.2)
+
+### 🆕 New Features
+
+- **Modern Help Window** – Replaced old MessageBox help with a fully translatable, expandable `HelpWindow`.
+  Includes sections: Playlist Loading, Playlist Editor, Player Controls, EPG & Logos, Settings, Themes, Updates, Credits.
+  Accessible via new `Help` button in main toolbar.
+
+- **Total Channels Counter** – Added `TotalChannelsText` in status bar (leftmost).
+  Shows number of real channels (excludes "← Back to all groups" and other navigation items).
+  Updates dynamically when filtering (favorites only, search, drill‑down).
+
+- **Favorites Only Toggle** – Replaced old checkbox with a `ToggleButton` styled uniformly with other toolbar buttons (icon + text).
+  Shows star icon and fully translatable text.
+
+- **AboutWindow Full Translation** – Added `x:Name` to all labels and buttons; now fully localizable via `LanguageManager`.
+  Avatar GIF displays correctly (removed duplicate `Source` attribute).
+
+### 🐛 Fixes
+
+- **M3U online loading crash** – Restored `Task.Run` for playlist parsing (v1.6 behaviour).
+  Eliminated crash when loading remote M3U playlists.
+
+- **Total counter correction** – Fixed total count to exclude pseudo‑groups and navigation items.
+
+- **Theme picker colors** – Added proper colors for Pink, Cyan, Lime, Indigo themes in `ColorPickerWindow`.
+
+- **Ambiguous `Channel` reference** – Removed `using System.Threading.Channels` conflict.
+
+- **UI translations** – Completed all missing translations in toolbar, status bar, and context menus.
+
+### Need more help?
+
+Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
+
+---
 
 ## 📋 LiveGardenTVPlus – Changelog (v2.1)
 
 #### 📁 Flexible JSON Import
-- **Import Local JSON** – New button `Import Local` in the playlist editor.  
-  Opens a mapping window that allows associating any JSON property with internal fields (`name`, `stream_urls`, `logo_url`, `group`, `tvg_id`, etc.).  
-  - Auto‑detect properties using common heuristics.  
-  - Save mapping for reuse with similar files.  
+- **Import Local JSON** – New button `Import Local` in the playlist editor.
+  Opens a mapping window that allows associating any JSON property with internal fields (`name`, `stream_urls`, `logo_url`, `group`, `tvg_id`, etc.).
+  - Auto‑detect properties using common heuristics.
+  - Save mapping for reuse with similar files.
   - Preview first 5 channels before import.
 
-- **Import JSON from URL** – New button `Import from URL` in the playlist editor.  
+- **Import JSON from URL** – New button `Import from URL` in the playlist editor.
   Enter a remote (raw) JSON URL, download content and apply the same mapping procedure.
 
 #### 🔄 JSON Support in Main Loaders
-- **"Load File" button** (ex "Load M3U"): now filters both `.m3u`/`.m3u8` and `.json` files.  
+- **"Load File" button** (ex "Load M3U"): now filters both `.m3u`/`.m3u8` and `.json` files.
   Auto‑detects format and directly imports JSON structured like the internal model (no mapping needed for compatible files).
 
-- **"Load Online" button**: now accepts both M3U and JSON URLs.  
-  Content is analysed and handled accordingly.  
+- **"Load Online" button**: now accepts both M3U and JSON URLs.
+  Content is analysed and handled accordingly.
   Tooltip and button label updated to reflect dual support.
 
 #### 🖥️ Playlist Editor UI Improvements
-- Added **`Name` column** to the DataGrid (previously missing).  
+- Added **`Name` column** to the DataGrid (previously missing).
   Channel names are now visible immediately.
-- JSON group buttons renamed for clarity:  
+- JSON group buttons renamed for clarity:
   `Import Local`, `Import from URL`, `Export JSON`.
 - All labels are fully translatable via `LanguageManager`.
-- **Column sorting** enabled for all columns, including template columns (URL primary, Logo, etc.).  
+- **Column sorting** enabled for all columns, including template columns (URL primary, Logo, etc.).
 - **Reset Order** button added to restore original channel order after sorting.
 
 #### 🐛 Fixes & Technical Improvements
-- Fixed `PrimaryUrl` property change notification in `ChannelJson`.  
+- Fixed `PrimaryUrl` property change notification in `ChannelJson`.
   The main URL now appears correctly in the grid right after import.
 - Robust handling of `null` values for `group`, `tvg_id`, `country`, `nanoid`, `logo_url` during JSON import.
 - JSON import now supports:
@@ -191,7 +247,7 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 2. Enter the full URL of the remote M3U playlist.
 3. The app will automatically detect the format and load the channels.
 
-**Example M3U URL (Italian channels):**  
+**Example M3U URL (Italian channels):**
 `https://raw.githubusercontent.com/OwnerPlugins/TivuStreamList/refs/heads/list/ios/playlist.m3u`
 
 ### Loading a JSON playlist from a URL
@@ -200,7 +256,7 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 2. Paste the URL pointing to a raw JSON file.
 3. The app will recognise the JSON format and import the channels (structure must match the `ChannelJson` model).
 
-**Example JSON URL (Italian channels):**  
+**Example JSON URL (Italian channels):**
 `https://raw.githubusercontent.com/OwnerPlugins/famelack-data/main/tv/raw/countries/it.json`
 
 ### Importing local JSON files with mapping
@@ -227,10 +283,6 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 
 - Click any column header to sort channels by that field.
 - Click **"Reset Order"** (in the editor’s Action group) to revert to the original channel order.
-
-### Need more help?
-
-Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
 
 ---
 
@@ -573,43 +625,51 @@ LiveGardenTVPlus/
 ├── App.xaml / App.xaml.cs
 ├── MainWindow.xaml / MainWindow.xaml.cs
 ├── Views/
-│   ├── SettingsWindow.xaml(.cs)
 │   ├── AboutWindow.xaml(.cs)
-│   ├── PlaylistEditorWindow.xaml(.cs)
+│   ├── ChannelDetailsWindow.xaml(.cs)
 │   ├── ColorPickerWindow.xaml(.cs)
-│   ├── XtreamLoginDialog.xaml(.cs)
 │   ├── EpgWindow.xaml(.cs)
-│   └── LogoPickerWindow.xaml(.cs)
+│   ├── HelpWindow.xaml(.cs)
+│   ├── JsonImportMappingWindow.xaml(.cs)
+│   ├── LogoPickerWindow.xaml(.cs)
+│   ├── PlaylistEditorWindow.xaml(.cs)
+│   ├── SettingsWindow.xaml(.cs)
+│   ├── UrlListEditorWindow.xaml(.cs)
+│   └── XtreamLoginDialog.xaml(.cs)          (placeholder)
 ├── Converters/
-│   ├── StringToVisibilityConverter.cs
-│   ├── UrlToImageConverter.cs
-│   ├── BoolToStarKindConverter.cs
 │   ├── BoolToStarColorConverter.cs
+│   ├── BoolToStarKindConverter.cs
 │   ├── BoolToVisibilityConverter.cs
-│   └── FirstUrlConverter.cs
+│   ├── FirstUrlConverter.cs
+│   ├── StringToVisibilityConverter.cs
+│   └── UrlToImageConverter.cs
 ├── Services/
-│   ├── M3uParser.cs
-│   ├── LanguageManager.cs
-│   ├── TranslationHelper.cs (o TranslationService.cs)
-│   ├── FavoritesManager.cs
-│   ├── UserPreferences.cs
-│   ├── ThemeManager.cs
-│   ├── GitHubPlaylistFetcher.cs
 │   ├── EpgService.cs
+│   ├── FavoritesManager.cs
+│   ├── GitHubPlaylistFetcher.cs
+│   ├── ImageCache.cs
+│   ├── JsonMapper.cs
+│   ├── LanguageManager.cs
 │   ├── LogoService.cs
-│   └── ImageCache.cs
+│   ├── M3uParser.cs
+│   ├── ThemeManager.cs
+│   ├── TranslationHelper.cs                 (or TranslationService.cs)
+│   └── UserPreferences.cs
 ├── Models/
 │   ├── Channel.cs
-│   ├── EpgModels.cs (EpgChannel, EpgProgramme)
-│   ├── EpgProgram.cs
+│   ├── ChannelEditable.cs
 │   ├── ChannelGroup.cs
 │   ├── ChannelJson.cs
-│   └── LogoInfo.cs
+│   ├── EpgModels.cs
+│   ├── EpgProgram.cs
+│   ├── LogoInfo.cs
+│   └── MappingConfig.cs
 ├── Updater/
 │   └── Updater.cs
-├── Languages/              (92+ .lng files)
-├── Themes/                 (16 .xaml theme files)
-└── PlayerHost/player.html  (hls.js wrapper)
+├── Languages/                               (92+ .lng files)
+├── Themes/                                  (16 .xaml theme files + logo-garden.png, avatar.gif)
+└── PlayerHost/
+    └── player.html
 ```
 
 ---
