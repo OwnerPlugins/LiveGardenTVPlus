@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Doly meýletin - hiç hili aýratynlyk petiklenmeýär)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Keş bukjasy:% TEMP% \\ LiveGardenTVPlus \\ epg_cache)
+(Completely voluntary – no features are blocked): (Doly meýletin - hiç hili aýratynlyk petiklenmeýär)
 (No description): (Düşündiriş ýok)
 • Add / rename / delete groups.: • Toparlary goşuň / adyny üýtgediň / pozuň.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Bufer slaýderi: HLS buferini sazlaň (1-10 sekunt).
@@ -32,21 +33,24 @@ Auto-detect: Awto-kesgitlemek
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Başlangyjy awtomatiki barlamak - ýa-da Gurallar menýusynda 'Täzelenmeleri barlamak' düwmesine basyň.
 Buffer (seconds): Bufer (sekunt)
 Buffer size – adjust HLS buffer seconds.: Bufer ölçegi - HLS bufer sekuntlaryny sazlaň.
+Cache: Keş
 Cancel: Elatyr
 CANCEL: ANCATY ..
 Category: Kategoriýa
 Changelog: Çangelog
 Channel Details: Kanal maglumatlary
 Channel Info: Kanal maglumatlary
-Channel:: Kanal:
 channels from: kanallaryndan
 channels from JSON URL: JSON URL-den kanallar
 channels from URL: URL-den kanallar
 Check Duplicates: Göçürmeleri barlaň
 Check for updates: Täzelenmeleri barlaň
 Check URLs: URL-leri barlaň
+Clear EPG Cache: EPG keşini arassalaň
 Clear Filters: Süzgüçleri arassalaň
 Clear search: Gözleg arassala
+Click for details: Jikme-jiklikler üçin basyň
+Close: .Akyn
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Jemgyýet we synag: CorvoBoys (corvoboys.org) we LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Countryurt
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Buferde gözlemek üçin süýräň
 Duplicate URLs found:\n\n: Tapylan URL-ler: \ n \ n
 Edit Playlist: Sanaw sanawyny redaktirläň
 Edit URLs: URL-leri redaktirläň
-End (local): Ahyry (ýerli)
+End: Ahyrzaman
 Enrich with EPG: EPG bilen baýlaşdyryň
 Enter JSON URL:: JSON URL giriziň:
 Enter playlist URL (M3U or JSON):: Aýdym sanawynyň URL-sini giriziň (M3U ýa-da JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Halanýanlar
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG we bellikler
+EPG cache cleared successfully.: EPG keş keşi üstünlikli arassalandy.
+EPG Details: EPG Jikme-jiklikleri
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Gollanma - esasy gurallar panelindäki düwme programma jikme-jiklikleri bilen doly gözenegi görkezýär (maglumat üçin iki gezek basyň).
 EPG Matching Threshold: EPG deňeşdirme bosagasy
-EPG Source: EPG çeşmesi
+EPG Source: : EPG Çeşmesi:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG çeşmesi - Sazlamalarda (epgshare01 ýa-da ýörite URL) düzülip bilner.
 EPG source – choose XMLTV file or enter custom URL.: EPG çeşmesi - XMLTV faýly saýlaň ýa-da ýörite URL giriziň.
+EPG Source Missing: EPG çeşmesi ýitdi
 Error: Roralňyşlyk
+Error clearing cache: Keş arassalamakda säwlik
 Error loading: Adingüklemekde säwlik
 Error loading file: {0}: Faýly ýüklemekde säwlik: {0}
 Error loading playlists: {0}: Sanaw sanawlaryny ýüklemekde säwlik: {0}
@@ -160,14 +168,19 @@ Name: Ady
 Nanoid: Nanoid
 Network error: Tor ýalňyşlygy
 New Playlist: Täze sanaw sanawy
+Next: Indiki
 Next ▶: Indiki ▶
 No .m3u files found on GitHub repository.: GitHub ammarynda ýok .m3u faýllary.
+No cache folder found.: Keş bukjasy tapylmady
 No channels could be mapped. Check your mapping rules.: Hiç bir kanal kartalaşdyrylyp bilinmedi. Kartalaşdyrmak düzgünleriňizi barlaň.
 No channels mapped: Hiç hili kanal kartasy ýok
 No duplicate URLs found.: Dublikat URL tapylmady.
+No EPG data: EPG maglumatlary ýok
+No EPG information available for this channel.: Bu kanal üçin EPG maglumaty ýok.
+No EPG source configured. Please select one from the combo or go to Settings.: EPG çeşmesi düzülmedi. Çekişden birini saýlaň ýa-da Sazlamalara gidiň.
+No EPG source configured. Would you like to open settings to select one?: EPG çeşmesi düzülmedi. Birini saýlamak üçin sazlamalary açmak isleýärsiňizmi?
 No favorite channels to export.: Eksport etmek üçin halanýan kanallar ýok.
 No playlist found: Aýdym sanawy tapylmady
-No stream: Akym ýok
 No updates available.: Täzelenmeler ýok.
 Normal speed (1x): Adaty tizlik (1x)
 Now: Indi
@@ -195,9 +208,10 @@ Ready.: Taýýar.
 Recent: Soňky
 Recent files – quick access to last 5 opened playlists.: Soňky faýllar - soňky 5 açylan sanaw sanawyna çalt girmek.
 Recent playlists: Soňky sanawlar
-Refresh: Täzele
+Refresh EPG: EPG-ni täzeläň
 Refresh EPG List: EPG sanawyny täzeläň
 Refresh from GitHub: GitHub-dan täzeläň
+Refresh List: Sanawy täzele
 Rename Group: Toparyň adyny üýtgetmek
 Repository: Ammar
 Reset Order: Sargydy täzeden düzmek
@@ -210,6 +224,7 @@ Save Mapping: Kartany saklaň
 Save Playlist: Sanawy ýazdyr
 Save Status: Status saklaň
 Saved: Saklandy
+Search channel: : Gözleg kanaly:
 Search channels by name: Kanallary ady boýunça gözläň
 Search channels...: Gözleg kanallary ...
 Select a playlist first.: Ilki pleýlist saýlaň.
@@ -220,7 +235,7 @@ Show List: Sanawy görkez
 Show only channels marked as favorites: Diňe halanýanlar hökmünde bellenen kanallary görkeziň
 Show or hide the channel list: Kanal sanawyny görkeziň ýa-da gizläň
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Synag we goldaw üçin CORVOBOYS & LinuxSat-Goldaw jemgyýetlerine aýratyn minnetdarlyk bildirýärin.
-Start (local): Başlamak (ýerli)
+Start: Başla
 Status: .Agdaý
 Stream URL: Akym URL
 Stream URLs: Akym URL-leri
@@ -239,6 +254,7 @@ Total: Jemi
 Total channels in loaded playlist: Edüklenen sanawdaky jemi kanallar
 TV Guide (EPG): Telewizion gollanma (EPG)
 TvgId: TvgId
+Type channel name to filter: Süzmek üçin kanalyň adyny ýazyň
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Uzakdaky taslama faýlynda wersiýa tapyp bolmaýar.
 Update: Täzelen

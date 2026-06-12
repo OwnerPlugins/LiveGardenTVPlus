@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Completamente voluntario: no se bloquea ninguna función)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Carpeta de caché: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Completamente voluntario: no se bloquea ninguna función)
 (No description): (Sin descripción)
 • Add / rename / delete groups.: • Agregar/renombrar/eliminar grupos.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Control deslizante del búfer: ajusta el búfer HLS (de 1 a 10 segundos).
@@ -32,21 +33,24 @@ Auto-detect: Detección automática
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Comprobación automática al iniciar, o haga clic en 'Buscar actualizaciones' en el menú Herramientas.
 Buffer (seconds): Búfer (segundos)
 Buffer size – adjust HLS buffer seconds.: Tamaño del búfer: ajuste los segundos del búfer HLS.
+Cache: Cache
 Cancel: Cancelar
 CANCEL: CANCELAR
 Category: Categoría
 Changelog: Registro de cambios
 Channel Details: Detalles del canal
 Channel Info: Información del canal
-Channel:: Canal:
 channels from: canales de
 channels from JSON URL: canales desde JSON URL
 channels from URL: canales desde URL
 Check Duplicates: Verificar duplicados
 Check for updates: Buscar actualizaciones
 Check URLs: Comprobar URL
+Clear EPG Cache: Borrar caché de EPG
 Clear Filters: Borrar filtros
 Clear search: Borrar búsqueda
+Click for details: Haga clic para obtener más detalles
+Close: Cerca
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Comunidad y pruebas: CorvoBoys (corvoboys.org) y LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: País
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Arrastre para buscar en el búfer
 Duplicate URLs found:\n\n: URL duplicadas encontradas:\n\n
 Edit Playlist: Editar lista de reproducción
 Edit URLs: Editar URL
-End (local): Fin (local)
+End: Fin
 Enrich with EPG: Enriquecer con EPG
 Enter JSON URL:: Ingrese la URL JSON:
 Enter playlist URL (M3U or JSON):: Ingrese la URL de la lista de reproducción (M3U o JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg y favoritos
 Epg & Logos: Epg y logotipos
 EPG & Logos: EPG y logotipos
+EPG cache cleared successfully.: La caché de EPG se borró correctamente.
+EPG Details: Detalles de la EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Guía EPG: el botón en la barra de herramientas principal muestra la cuadrícula completa con detalles del programa (haga doble clic para obtener información).
 EPG Matching Threshold: Umbral de coincidencia de EPG
-EPG Source: Fuente EPG
+EPG Source: : Fuente EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Fuente EPG: se puede configurar en Configuración (epgshare01 o URL personalizada).
 EPG source – choose XMLTV file or enter custom URL.: Fuente EPG: elija el archivo XMLTV o ingrese una URL personalizada.
+EPG Source Missing: Falta la fuente EPG
 Error: Error
+Error clearing cache: Error al borrar caché
 Error loading: Error al cargar
 Error loading file: {0}: Error al cargar el archivo: {0}
 Error loading playlists: {0}: Error al cargar listas de reproducción: {0}
@@ -160,14 +168,19 @@ Name: Nombre
 Nanoid: Nanoide
 Network error: error de red
 New Playlist: Nueva lista de reproducción
+Next: Próximo
 Next ▶: Siguiente ▶
 No .m3u files found on GitHub repository.: No se encontraron archivos .m3u en el repositorio de GitHub.
+No cache folder found.: No se encontró ninguna carpeta de caché.
 No channels could be mapped. Check your mapping rules.: No se pudo asignar ningún canal. Verifique sus reglas de mapeo.
 No channels mapped: No hay canales asignados
 No duplicate URLs found.: No se encontraron URL duplicadas.
+No EPG data: Sin datos EPG
+No EPG information available for this channel.: No hay información de EPG disponible para este canal.
+No EPG source configured. Please select one from the combo or go to Settings.: No hay ninguna fuente EPG configurada. Seleccione uno del combo o vaya a Configuración.
+No EPG source configured. Would you like to open settings to select one?: No hay ninguna fuente EPG configurada. ¿Quieres abrir la configuración para seleccionar una?
 No favorite channels to export.: No hay canales favoritos para exportar.
 No playlist found: No se encontró ninguna lista de reproducción
-No stream: Sin transmisión
 No updates available.: No hay actualizaciones disponibles.
 Normal speed (1x): Velocidad normal (1x)
 Now: Ahora
@@ -195,9 +208,10 @@ Ready.: Listo.
 Recent: Reciente
 Recent files – quick access to last 5 opened playlists.: Archivos recientes: acceso rápido a las últimas 5 listas de reproducción abiertas.
 Recent playlists: Listas de reproducción recientes
-Refresh: Refrescar
+Refresh EPG: Actualizar EPG
 Refresh EPG List: Actualizar lista EPG
 Refresh from GitHub: Actualizar desde GitHub
+Refresh List: Actualizar lista
 Rename Group: Cambiar nombre de grupo
 Repository: Repositorio
 Reset Order: Restablecer orden
@@ -210,6 +224,7 @@ Save Mapping: Guardar mapeo
 Save Playlist: Guardar lista de reproducción
 Save Status: Guardar estado
 Saved: Guardado
+Search channel: : Canal de búsqueda:
 Search channels by name: Buscar canales por nombre
 Search channels...: Buscar canales...
 Select a playlist first.: Seleccione una lista de reproducción primero.
@@ -220,7 +235,7 @@ Show List: Mostrar lista
 Show only channels marked as favorites: Mostrar solo los canales marcados como favoritos
 Show or hide the channel list: Mostrar u ocultar la lista de canales
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Un agradecimiento especial a las comunidades CORVOBOYS y LinuxSat-Support por las pruebas y el soporte.
-Start (local): Inicio (local)
+Start: Comenzar
 Status: Estado
 Stream URL: URL de transmisión
 Stream URLs: URL de transmisión
@@ -239,6 +254,7 @@ Total: Total
 Total channels in loaded playlist: Canales totales en la lista de reproducción cargada
 TV Guide (EPG): Guía de televisión (EPG)
 TvgId: IdTvg
+Type channel name to filter: Escribe el nombre del canal para filtrar
 UI: MaterialDesignThemes.Wpf: Interfaz de usuario: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: No se puede encontrar la versión en el archivo del proyecto remoto.
 Update: Actualizar

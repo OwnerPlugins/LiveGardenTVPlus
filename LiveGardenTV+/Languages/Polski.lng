@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Całkowicie dobrowolne – żadne funkcje nie są blokowane)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Folder pamięci podręcznej: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Całkowicie dobrowolne – żadne funkcje nie są blokowane)
 (No description): (Brak opisu)
 • Add / rename / delete groups.: • Dodaj / zmień nazwę / usuń grupy.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Suwak bufora: dostosuj bufor HLS (1–10 sekund).
@@ -32,21 +33,24 @@ Auto-detect: Automatyczne wykrywanie
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatyczne sprawdzanie przy uruchomieniu — lub kliknij opcję „Sprawdź dostępność aktualizacji” w menu Narzędzia.
 Buffer (seconds): Bufor (sekundy)
 Buffer size – adjust HLS buffer seconds.: Rozmiar bufora – dostosuj sekundy bufora HLS.
+Cache: Kryjówka
 Cancel: Anulować
 CANCEL: ANULOWAĆ
 Category: Kategoria
 Changelog: Dziennik zmian
 Channel Details: Szczegóły kanału
 Channel Info: Informacje o kanale
-Channel:: Kanał:
 channels from: kanały z
 channels from JSON URL: kanały z adresu URL JSON
 channels from URL: kanały z adresu URL
 Check Duplicates: Sprawdź duplikaty
 Check for updates: Sprawdź aktualizacje
 Check URLs: Sprawdź adresy URL
+Clear EPG Cache: Wyczyść pamięć podręczną EPG
 Clear Filters: Wyczyść filtry
 Clear search: Wyczyść wyszukiwanie
+Click for details: Kliknij po szczegóły
+Close: Zamknąć
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Społeczność i testowanie: CorvoBoys (corvoboys.org) i LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Kraj
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Przeciągnij, aby wyszukać ponownie w buforze
 Duplicate URLs found:\n\n: Znaleziono zduplikowane adresy URL:\n\n
 Edit Playlist: Edytuj playlistę
 Edit URLs: Edytuj adresy URL
-End (local): Koniec (lokalny)
+End: Koniec
 Enrich with EPG: Wzbogać o EPG
 Enter JSON URL:: Wpisz adres URL JSON:
 Enter playlist URL (M3U or JSON):: Wpisz adres URL playlisty (M3U lub JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: EPG i Ulubione
 Epg & Logos: EPG i logo
 EPG & Logos: EPG i logo
+EPG cache cleared successfully.: Pamięć podręczna EPG została pomyślnie wyczyszczona.
+EPG Details: Szczegóły EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Przewodnik EPG – przycisk na głównym pasku narzędzi wyświetla pełną siatkę ze szczegółami programu (kliknij dwukrotnie, aby uzyskać informacje).
 EPG Matching Threshold: Próg dopasowania EPG
-EPG Source: Źródło EPG
+EPG Source: : Źródło EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Źródło EPG – można ustawić w Ustawieniach (epgshare01 lub niestandardowy adres URL).
 EPG source – choose XMLTV file or enter custom URL.: Źródło EPG – wybierz plik XMLTV lub wprowadź własny adres URL.
+EPG Source Missing: Brak źródła EPG
 Error: Błąd
+Error clearing cache: Błąd podczas czyszczenia pamięci podręcznej
 Error loading: Błąd ładowania
 Error loading file: {0}: Błąd podczas ładowania pliku: {0}
 Error loading playlists: {0}: Błąd podczas ładowania playlist: {0}
@@ -160,14 +168,19 @@ Name: Nazwa
 Nanoid: Nanoid
 Network error: Błąd sieci
 New Playlist: Nowa playlista
+Next: Następny
 Next ▶: Dalej ▶
 No .m3u files found on GitHub repository.: W repozytorium GitHub nie znaleziono plików .m3u.
+No cache folder found.: Nie znaleziono folderu pamięci podręcznej.
 No channels could be mapped. Check your mapping rules.: Nie można zmapować żadnych kanałów. Sprawdź zasady mapowania.
 No channels mapped: Brak mapowanych kanałów
 No duplicate URLs found.: Nie znaleziono zduplikowanych adresów URL.
+No EPG data: Brak danych EPG
+No EPG information available for this channel.: Brak informacji EPG dla tego kanału.
+No EPG source configured. Please select one from the combo or go to Settings.: Nie skonfigurowano źródła EPG. Wybierz jedną z kombinacji lub przejdź do Ustawień.
+No EPG source configured. Would you like to open settings to select one?: Nie skonfigurowano źródła EPG. Czy chcesz otworzyć ustawienia i wybrać jedno?
 No favorite channels to export.: Brak ulubionych kanałów do wyeksportowania.
 No playlist found: Nie znaleziono playlisty
-No stream: Brak strumienia
 No updates available.: Brak dostępnych aktualizacji.
 Normal speed (1x): Normalna prędkość (1x)
 Now: Teraz
@@ -195,9 +208,10 @@ Ready.: Gotowy.
 Recent: Ostatni
 Recent files – quick access to last 5 opened playlists.: Ostatnie pliki – szybki dostęp do 5 ostatnio otwartych list odtwarzania.
 Recent playlists: Najnowsze playlisty
-Refresh: Odświeżać
+Refresh EPG: Odśwież EPG
 Refresh EPG List: Odśwież listę EPG
 Refresh from GitHub: Odśwież z GitHuba
+Refresh List: Odśwież listę
 Rename Group: Zmień nazwę grupy
 Repository: Magazyn
 Reset Order: Zresetuj zamówienie
@@ -210,6 +224,7 @@ Save Mapping: Zapisz mapowanie
 Save Playlist: Zapisz listę odtwarzania
 Save Status: Zapisz stan
 Saved: Zapisano
+Search channel: : Wyszukaj kanał:
 Search channels by name: Wyszukaj kanały według nazwy
 Search channels...: Wyszukaj kanały...
 Select a playlist first.: Najpierw wybierz playlistę.
@@ -220,7 +235,7 @@ Show List: Pokaż listę
 Show only channels marked as favorites: Pokaż tylko kanały oznaczone jako ulubione
 Show or hide the channel list: Pokaż lub ukryj listę kanałów
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Specjalne podziękowania dla społeczności CORVOBOYS i LinuxSat-Support za testowanie i wsparcie.
-Start (local): Rozpocznij (lokalnie)
+Start: Start
 Status: Status
 Stream URL: Adres URL strumienia
 Stream URLs: Adresy URL strumienia
@@ -239,6 +254,7 @@ Total: Całkowity
 Total channels in loaded playlist: Całkowita liczba kanałów na załadowanej liście odtwarzania
 TV Guide (EPG): Przewodnik telewizyjny (EPG)
 TvgId: TvgId
+Type channel name to filter: Wpisz nazwę kanału, który chcesz filtrować
 UI: MaterialDesignThemes.Wpf: Interfejs użytkownika: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Nie można znaleźć wersji w zdalnym pliku projektu.
 Update: Aktualizacja

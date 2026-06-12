@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Täiesti vabatahtlik – ükski funktsioon pole blokeeritud)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Vahemälu kaust: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Täiesti vabatahtlik – ükski funktsioon pole blokeeritud)
 (No description): (kirjeldus puudub)
 • Add / rename / delete groups.: • Lisa/nimeta ümber/kustuta rühmi.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Puhvri liugur: reguleerige HLS-puhvrit (1–10 sekundit).
@@ -32,21 +33,24 @@ Auto-detect: Automaatne tuvastamine
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automaatne kontrollimine käivitamisel – või klõpsake menüüs Tööriistad nuppu „Otsi värskendusi”.
 Buffer (seconds): Puhver (sekundites)
 Buffer size – adjust HLS buffer seconds.: Puhvri suurus – reguleerige HLS-i puhvri sekundeid.
+Cache: Vahemälu
 Cancel: Tühista
 CANCEL: TÜHISTA
 Category: Kategooria
 Changelog: Muudatuste logi
 Channel Details: Kanali üksikasjad
 Channel Info: Kanali teave
-Channel:: Kanal:
 channels from: kanalid alates
 channels from JSON URL: kanalid JSON-i URL-ist
 channels from URL: kanalid URL-ist
 Check Duplicates: Kontrollige duplikaate
 Check for updates: Kontrollige värskendusi
 Check URLs: Kontrollige URL-e
+Clear EPG Cache: Tühjendage EPG vahemälu
 Clear Filters: Tühjenda filtrid
 Clear search: Tühjenda otsing
+Click for details: Üksikasjade vaatamiseks klõpsake
+Close: Sule
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Kogukond ja testimine: CorvoBoys (corvoboys.org) ja LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Riik
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Puhvris tagasi otsimiseks lohistage
 Duplicate URLs found:\n\n: Leiti dubleerivad URL-id:\n\n
 Edit Playlist: Redigeeri esitusloendit
 Edit URLs: Muutke URL-e
-End (local): Lõpp (kohalik)
+End: Lõpp
 Enrich with EPG: Rikastage EPG-ga
 Enter JSON URL:: Sisestage JSON-i URL:
 Enter playlist URL (M3U or JSON):: Sisestage esitusloendi URL (M3U või JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg ja lemmikud
 Epg & Logos: Epg ja logod
 EPG & Logos: EPG ja logod
+EPG cache cleared successfully.: EPG vahemälu tühjendamine õnnestus.
+EPG Details: EPG üksikasjad
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG juhend – peamise tööriistariba nupp näitab täielikku ruudustikku koos programmi üksikasjadega (teabe saamiseks topeltklõpsake).
 EPG Matching Threshold: EPG vastavuslävi
-EPG Source: EPG allikas
+EPG Source: : EPG allikas:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG allikas – saab määrata seadetes (epgshare01 või kohandatud URL).
 EPG source – choose XMLTV file or enter custom URL.: EPG allikas – valige XMLTV-fail või sisestage kohandatud URL.
+EPG Source Missing: EPG allikas puudub
 Error: Viga
+Error clearing cache: Viga vahemälu tühjendamisel
 Error loading: Viga laadimisel
 Error loading file: {0}: Viga faili laadimisel: {0}
 Error loading playlists: {0}: Viga esitusloendite laadimisel: {0}
@@ -160,14 +168,19 @@ Name: Nimi
 Nanoid: Nanoid
 Network error: Võrgu viga
 New Playlist: Uus esitusloend
+Next: Edasi
 Next ▶: Järgmine ▶
 No .m3u files found on GitHub repository.: GitHubi hoidlast ei leitud m3u-faile.
+No cache folder found.: Vahemälu kausta ei leitud.
 No channels could be mapped. Check your mapping rules.: Ühtegi kanalit ei saanud kaardistada. Kontrollige oma kaardistamise reegleid.
 No channels mapped: Ühtegi kanalit pole kaardistatud
 No duplicate URLs found.: Dubleerivaid URL-e ei leitud.
+No EPG data: EPG andmed puuduvad
+No EPG information available for this channel.: Selle kanali EPG-teave pole saadaval.
+No EPG source configured. Please select one from the combo or go to Settings.: EPG allikat pole konfigureeritud. Valige kombinatsioonist üks või avage seaded.
+No EPG source configured. Would you like to open settings to select one?: EPG allikat pole konfigureeritud. Kas soovite seadete valimiseks avada?
 No favorite channels to export.: Lemmikkanaleid pole eksportimiseks.
 No playlist found: Esitusloendit ei leitud
-No stream: Ei mingit voogu
 No updates available.: Värskendusi pole saadaval.
 Normal speed (1x): Tavaline kiirus (1x)
 Now: Nüüd
@@ -195,9 +208,10 @@ Ready.: Valmis.
 Recent: Viimased
 Recent files – quick access to last 5 opened playlists.: Viimased failid – kiire juurdepääs viimati avatud esitusloendile.
 Recent playlists: Viimased esitusloendid
-Refresh: Värskenda
+Refresh EPG: Värskenda EPG-d
 Refresh EPG List: Värskenda EPG-loendit
 Refresh from GitHub: Värskendage GitHubist
+Refresh List: Värskenda loendit
 Rename Group: Nimeta grupp ümber
 Repository: Hoidla
 Reset Order: Lähtesta tellimus
@@ -210,6 +224,7 @@ Save Mapping: Salvesta kaardistus
 Save Playlist: Salvesta esitusloend
 Save Status: Salvesta olek
 Saved: Salvestatud
+Search channel: : Otsi kanalit:
 Search channels by name: Otsige kanaleid nime järgi
 Search channels...: Otsi kanaleid...
 Select a playlist first.: Valige esmalt esitusloend.
@@ -220,7 +235,7 @@ Show List: Näita loendit
 Show only channels marked as favorites: Kuva ainult lemmikuteks märgitud kanalid
 Show or hide the channel list: Kanalite loendi kuvamine või peitmine
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Eriline tänu CORVOBOYSi ja LinuxSat-Supporti kogukondadele testimise ja toe eest.
-Start (local): Algus (kohalik)
+Start: Alusta
 Status: Olek
 Stream URL: Voo URL
 Stream URLs: Voog URL-id
@@ -239,6 +254,7 @@ Total: Kokku
 Total channels in loaded playlist: Laaditud esitusloendis olevad kanalid kokku
 TV Guide (EPG): Telekava (EPG)
 TvgId: TvgId
+Type channel name to filter: Tippige filtreerimiseks kanali nimi
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Kaugprojekti failist ei leitud versiooni.
 Update: Värskenda

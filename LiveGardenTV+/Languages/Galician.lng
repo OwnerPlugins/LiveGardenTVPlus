@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Completamente voluntario: ningunha función está bloqueada)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cartafol da caché: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Completamente voluntario: ningunha función está bloqueada)
 (No description): (Sen descrición)
 • Add / rename / delete groups.: • Engadir / renomear / eliminar grupos.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Control deslizante do búfer: axusta o búfer HLS (1-10 segundos).
@@ -32,21 +33,24 @@ Auto-detect: Detección automática
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Comprobación automática ao inicio ou fai clic en "Buscar actualizacións" no menú Ferramentas.
 Buffer (seconds): Buffer (segundos)
 Buffer size – adjust HLS buffer seconds.: Tamaño do búfer: axusta os segundos do búfer HLS.
+Cache: Caché
 Cancel: Cancelar
 CANCEL: CANCELAR
 Category: Categoría
 Changelog: Rexistro de cambios
 Channel Details: Detalles da canle
 Channel Info: Información da canle
-Channel:: Canle:
 channels from: canles de
 channels from JSON URL: canles desde o URL JSON
 channels from URL: canles desde URL
 Check Duplicates: Comprobar duplicados
 Check for updates: Comproba se hai actualizacións
 Check URLs: Comproba os URL
+Clear EPG Cache: Borrar caché EPG
 Clear Filters: Borrar filtros
 Clear search: Limpar a busca
+Click for details: Fai clic para ver os detalles
+Close: Pechar
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Comunidade e probas: CorvoBoys (corvoboys.org) e LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: País
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Arrastra para buscar de novo no búfer
 Duplicate URLs found:\n\n: URL duplicados atopados:\n\n
 Edit Playlist: Editar lista de reprodución
 Edit URLs: Editar URL
-End (local): Fin (local)
+End: Fin
 Enrich with EPG: Enriquecer con EPG
 Enter JSON URL:: Introduza o URL JSON:
 Enter playlist URL (M3U or JSON):: Introduce o URL da lista de reprodución (M3U ou JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Favoritos
 Epg & Logos: Epg e logotipos
 EPG & Logos: EPG e logotipos
+EPG cache cleared successfully.: A caché EPG borrouse correctamente.
+EPG Details: Detalles EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Guía EPG: o botón da barra de ferramentas principal mostra a cuadrícula completa cos detalles do programa (faga dobre clic para obter información).
 EPG Matching Threshold: Limiar de coincidencia EPG
-EPG Source: Fonte EPG
+EPG Source: : Fonte EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Fonte EPG: pódese configurar en Configuración (epgshare01 ou URL personalizado).
 EPG source – choose XMLTV file or enter custom URL.: Fonte EPG: escolla o ficheiro XMLTV ou introduza un URL personalizado.
+EPG Source Missing: Falta a fonte EPG
 Error: Erro
+Error clearing cache: Produciuse un erro ao limpar a caché
 Error loading: Erro ao cargar
 Error loading file: {0}: Erro ao cargar o ficheiro: {0}
 Error loading playlists: {0}: Erro ao cargar as listas de reprodución: {0}
@@ -160,14 +168,19 @@ Name: Nome
 Nanoid: Nanoide
 Network error: Erro de rede
 New Playlist: Nova lista de reprodución
+Next: A continuación
 Next ▶: Seguinte ▶
 No .m3u files found on GitHub repository.: Non se atoparon ficheiros .m3u no repositorio de GitHub.
+No cache folder found.: Non se atopou ningún cartafol da caché.
 No channels could be mapped. Check your mapping rules.: Non se puido mapear ningunha canle. Comproba as túas regras de cartografía.
 No channels mapped: Non hai canles mapeadas
 No duplicate URLs found.: Non se atoparon URL duplicados.
+No EPG data: Non hai datos EPG
+No EPG information available for this channel.: Non hai información de EPG dispoñible para esta canle.
+No EPG source configured. Please select one from the combo or go to Settings.: Non se configura ningunha fonte EPG. Selecciona un da combinación ou vai a Configuración.
+No EPG source configured. Would you like to open settings to select one?: Non se configura ningunha fonte EPG. Queres abrir a configuración para seleccionar un?
 No favorite channels to export.: Non hai canles favoritas para exportar.
 No playlist found: Non se atopou ningunha lista de reprodución
-No stream: Sen fluxo
 No updates available.: Non hai actualizacións dispoñibles.
 Normal speed (1x): Velocidade normal (1x)
 Now: Agora
@@ -195,9 +208,10 @@ Ready.: Listo.
 Recent: Recente
 Recent files – quick access to last 5 opened playlists.: Ficheiros recentes: acceso rápido ás últimas 5 listas de reprodución abertas.
 Recent playlists: Listas de reprodución recentes
-Refresh: Actualizar
+Refresh EPG: Actualizar EPG
 Refresh EPG List: Actualizar a lista EPG
 Refresh from GitHub: Actualizar desde GitHub
+Refresh List: Lista de actualización
 Rename Group: Cambiar o nome do grupo
 Repository: Repositorio
 Reset Order: Restablecer orde
@@ -210,6 +224,7 @@ Save Mapping: Gardar cartografía
 Save Playlist: Gardar lista de reprodución
 Save Status: Gardar estado
 Saved: Gardado
+Search channel: : Canle de busca:
 Search channels by name: Busca canles polo nome
 Search channels...: Busca canles...
 Select a playlist first.: Seleccione primeiro unha lista de reprodución.
@@ -220,7 +235,7 @@ Show List: Mostrar a lista
 Show only channels marked as favorites: Mostra só as canles marcadas como favoritas
 Show or hide the channel list: Mostra ou oculta a lista de canles
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Agradecemento especial ás comunidades de soporte de CORVOBOYS e LinuxSat polas probas e soporte.
-Start (local): Inicio (local)
+Start: Comeza
 Status: Estado
 Stream URL: URL do fluxo
 Stream URLs: URL de transmisión
@@ -239,6 +254,7 @@ Total: Total
 Total channels in loaded playlist: Canles totais na lista de reprodución cargada
 TV Guide (EPG): Guía de TV (EPG)
 TvgId: TvgId
+Type channel name to filter: Escribe o nome da canle para filtrar
 UI: MaterialDesignThemes.Wpf: IU: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Non se puido atopar a versión no ficheiro do proxecto remoto.
 Update: Actualizar

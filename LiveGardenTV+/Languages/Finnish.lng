@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Täysin vapaaehtoista – mitään ominaisuuksia ei ole estetty)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Välimuistikansio: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Täysin vapaaehtoista – mitään ominaisuuksia ei ole estetty)
 (No description): (Ei kuvausta)
 • Add / rename / delete groups.: • Lisää/nimeä uudelleen/poista ryhmiä.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Puskurin liukusäädin: säädä HLS-puskuria (1–10 sekuntia).
@@ -32,21 +33,24 @@ Auto-detect: Automaattinen tunnistus
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automaattinen tarkistus käynnistyksen yhteydessä – tai napsauta "Tarkista päivitykset" Työkalut-valikosta.
 Buffer (seconds): Puskuri (sekuntia)
 Buffer size – adjust HLS buffer seconds.: Puskurin koko – säädä HLS-puskurin sekunteja.
+Cache: Välimuisti
 Cancel: Peruuttaa
 CANCEL: PERUUTTAA
 Category: Luokka
 Changelog: Muutosloki
 Channel Details: Kanavan tiedot
 Channel Info: Kanavan tiedot
-Channel:: Kanava:
 channels from: kanavat alkaen
 channels from JSON URL: kanavat JSON-osoitteesta
 channels from URL: kanavia URL-osoitteesta
 Check Duplicates: Tarkista kaksoiskappaleet
 Check for updates: Tarkista päivitykset
 Check URLs: Tarkista URL-osoitteet
+Clear EPG Cache: Tyhjennä EPG-välimuisti
 Clear Filters: Tyhjennä suodattimet
 Clear search: Tyhjennä haku
+Click for details: Napsauta saadaksesi lisätietoja
+Close: Lähellä
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Yhteisö ja testaus: CorvoBoys (corvoboys.org) ja LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Maa
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Vedä hakeaksesi takaisin puskuriin
 Duplicate URLs found:\n\n: Päällekkäisiä URL-osoitteita löydetty:\n\n
 Edit Playlist: Muokkaa soittolistaa
 Edit URLs: Muokkaa URL-osoitteita
-End (local): Loppu (paikallinen)
+End: Loppu
 Enrich with EPG: Rikastuta EPG:llä
 Enter JSON URL:: Anna JSON-URL-osoite:
 Enter playlist URL (M3U or JSON):: Anna soittolistan URL-osoite (M3U tai JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg ja suosikit
 Epg & Logos: Epg ja logot
 EPG & Logos: EPG ja logot
+EPG cache cleared successfully.: EPG-välimuisti tyhjennetty onnistuneesti.
+EPG Details: EPG:n tiedot
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG-opas – päätyökalurivin painike näyttää koko ruudukon ohjelman tiedoineen (kaksoisnapsauta lisätietoja).
 EPG Matching Threshold: EPG-vastaavuuskynnys
-EPG Source: EPG lähde
+EPG Source: : EPG lähde:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG-lähde – voidaan asettaa asetuksista (epgshare01 tai mukautettu URL-osoite).
 EPG source – choose XMLTV file or enter custom URL.: EPG-lähde – valitse XMLTV-tiedosto tai anna mukautettu URL-osoite.
+EPG Source Missing: EPG-lähde puuttuu
 Error: Virhe
+Error clearing cache: Virhe välimuistin tyhjentämisessä
 Error loading: Virhe latauksessa
 Error loading file: {0}: Virhe ladattaessa tiedostoa: {0}
 Error loading playlists: {0}: Virhe soittolistojen lataamisessa: {0}
@@ -160,14 +168,19 @@ Name: Nimi
 Nanoid: Nanoidi
 Network error: Verkkovirhe
 New Playlist: Uusi soittolista
+Next: Seuraavaksi
 Next ▶: Seuraava ▶
 No .m3u files found on GitHub repository.: GitHub-tietovarastosta ei löytynyt .m3u-tiedostoja.
+No cache folder found.: Välimuistikansiota ei löytynyt.
 No channels could be mapped. Check your mapping rules.: Kanavia ei voitu kartoittaa. Tarkista karttasäännöt.
 No channels mapped: Ei kartoitettuja kanavia
 No duplicate URLs found.: Päällekkäisiä URL-osoitteita ei löytynyt.
+No EPG data: Ei EPG-tietoja
+No EPG information available for this channel.: Tälle kanavalle ei ole saatavilla EPG-tietoja.
+No EPG source configured. Please select one from the combo or go to Settings.: EPG-lähdettä ei ole määritetty. Valitse jokin yhdistelmästä tai mene Asetuksiin.
+No EPG source configured. Would you like to open settings to select one?: EPG-lähdettä ei ole määritetty. Haluatko avata asetukset valitaksesi yhden?
 No favorite channels to export.: Ei suosikkikanavia vietäväksi.
 No playlist found: Soittolistaa ei löydy
-No stream: Ei virtaa
 No updates available.: Päivityksiä ei ole saatavilla.
 Normal speed (1x): Normaali nopeus (1x)
 Now: Nyt
@@ -195,9 +208,10 @@ Ready.: Valmis.
 Recent: Viimeaikaiset
 Recent files – quick access to last 5 opened playlists.: Viimeisimmät tiedostot – nopea pääsy viiteen viimeiseen avattuun soittolistaan.
 Recent playlists: Viimeaikaiset soittolistat
-Refresh: Päivitä
+Refresh EPG: Päivitä EPG
 Refresh EPG List: Päivitä EPG-luettelo
 Refresh from GitHub: Päivitä GitHubista
+Refresh List: Päivitä luettelo
 Rename Group: Nimeä ryhmä uudelleen
 Repository: Arkisto
 Reset Order: Nollaa tilaus
@@ -210,6 +224,7 @@ Save Mapping: Tallenna kartoitus
 Save Playlist: Tallenna soittolista
 Save Status: Tallenna tila
 Saved: Tallennettu
+Search channel: : Hae kanavaa:
 Search channels by name: Hae kanavia nimellä
 Search channels...: Hae kanavia...
 Select a playlist first.: Valitse ensin soittolista.
@@ -220,7 +235,7 @@ Show List: Näytä luettelo
 Show only channels marked as favorites: Näytä vain suosikeiksi merkityt kanavat
 Show or hide the channel list: Näytä tai piilota kanavaluettelo
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Erityiset kiitokset CORVOBOYS & LinuxSat-Support -yhteisöille testauksesta ja tuesta.
-Start (local): Aloita (paikallinen)
+Start: Aloita
 Status: Status
 Stream URL: Striimin URL-osoite
 Stream URLs: Striimaa URL-osoitteita
@@ -239,6 +254,7 @@ Total: Kokonais
 Total channels in loaded playlist: Kanavien kokonaismäärä ladatussa soittolistassa
 TV Guide (EPG): TV-opas (EPG)
 TvgId: TvgId
+Type channel name to filter: Kirjoita suodattavan kanavan nimi
 UI: MaterialDesignThemes.Wpf: Käyttöliittymä: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Versiota ei löydy etäprojektitiedostosta.
 Update: Päivittää

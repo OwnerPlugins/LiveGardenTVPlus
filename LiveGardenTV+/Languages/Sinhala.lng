@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (සම්පූර්ණයෙන්ම ස්වේච්ඡාවෙන් - විශේෂාංග කිසිවක් අවහිර කර නැත)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (හැඹිලි ෆෝල්ඩරය: %TEMP% \\ LiveGardenTVPlus \\epg_cache)
+(Completely voluntary – no features are blocked): (සම්පූර්ණයෙන්ම ස්වේච්ඡාවෙන් - විශේෂාංග කිසිවක් අවහිර කර නැත)
 (No description): (විස්තරයක් නැත)
 • Add / rename / delete groups.: • කණ්ඩායම් එකතු කරන්න / නැවත නම් කරන්න / මකන්න.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • බෆර් ස්ලයිඩරය: HLS බෆරය සකසන්න (තත්පර 1-10).
@@ -32,21 +33,24 @@ Auto-detect: ස්වයං-අනාවරණය
 Automatic check on startup – or click 'Check for updates' in Tools menu.: ආරම්භයේදී ස්වයංක්‍රීයව පරීක්ෂා කරන්න - නැතහොත් මෙවලම් මෙනුවේ 'යාවත්කාලීන කිරීම් සඳහා පරීක්ෂා කරන්න' ක්ලික් කරන්න.
 Buffer (seconds): බෆරය (තත්පර)
 Buffer size – adjust HLS buffer seconds.: බෆර ප්‍රමාණය - HLS බෆර තත්පර සකසන්න.
+Cache: හැඹිලිය
 Cancel: අවලංගු කරන්න
 CANCEL: අවලංගු කරන්න
 Category: ප්රවර්ගය
 Changelog: චේන්ජ්ලොග්
 Channel Details: නාලිකා විස්තර
 Channel Info: නාලිකා තොරතුරු
-Channel:: නාලිකාව:
 channels from: සිට නාලිකා
 channels from JSON URL: JSON URL වෙතින් නාලිකා
 channels from URL: URL වෙතින් නාලිකා
 Check Duplicates: අනුපිටපත් පරීක්ෂා කරන්න
 Check for updates: යාවත්කාලීන සඳහා පරීක්ෂා කරන්න
 Check URLs: URL පරීක්ෂා කරන්න
+Clear EPG Cache: EPG හැඹිලිය හිස් කරන්න
 Clear Filters: පෙරහන් හිස් කරන්න
 Clear search: සෙවීම පැහැදිලි කරන්න
+Click for details: විස්තර සඳහා ක්ලික් කරන්න
+Close: වසන්න
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ප්‍රජා සහ පරීක්ෂණ: CorvoBoys (corvoboys.org) සහ LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOYS.ORG
 Country: රට
@@ -65,7 +69,7 @@ Drag to seek back in buffer: බෆරයේ ආපසු සෙවීමට අ
 Duplicate URLs found:\n\n: අනුපිටපත් URL හමු විය:\n\n
 Edit Playlist: ධාවන ලැයිස්තුව සංස්කරණය කරන්න
 Edit URLs: URL සංස්කරණය කරන්න
-End (local): අවසානය (දේශීය)
+End: අවසානය
 Enrich with EPG: EPG සමඟ පොහොසත් කරන්න
 Enter JSON URL:: JSON URL ඇතුලත් කරන්න:
 Enter playlist URL (M3U or JSON):: ධාවන ලැයිස්තු URL ඇතුලත් කරන්න (M3U හෝ JSON):
@@ -73,12 +77,16 @@ EPG: ඊ.පී.ජී
 Epg & Favorites: බිත්තර සහ ප්රියතම
 Epg & Logos: Epg සහ ලාංඡන
 EPG & Logos: EPG සහ ලාංඡන
+EPG cache cleared successfully.: EPG හැඹිලිය සාර්ථකව හිස් කරන ලදී.
+EPG Details: EPG විස්තර
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG මාර්ගෝපදේශය - ප්‍රධාන මෙවලම් තීරුවේ බොත්තම වැඩසටහන් විස්තර සහිත සම්පූර්ණ ජාලකය පෙන්වයි (තොරතුරු සඳහා ද්වි-ක්ලික් කරන්න).
 EPG Matching Threshold: EPG ගැළපෙන සීමාව
-EPG Source: EPG මූලාශ්රය
+EPG Source: : EPG මූලාශ්රය:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG මූලාශ්‍රය - සැකසීම් (epgshare01 හෝ අභිරුචි URL) තුළ සැකසිය හැක.
 EPG source – choose XMLTV file or enter custom URL.: EPG මූලාශ්‍රය - XMLTV ගොනුව තෝරන්න හෝ අභිරුචි URL ඇතුළත් කරන්න.
+EPG Source Missing: EPG මූලාශ්‍රය අතුරුදහන්
 Error: දෝෂයකි
+Error clearing cache: හැඹිලිය හිස් කිරීමේ දෝෂයකි
 Error loading: පූරණය කිරීමේ දෝෂයකි
 Error loading file: {0}: ගොනුව පූරණය කිරීමේ දෝෂයකි: {0}
 Error loading playlists: {0}: ධාවන ලැයිස්තු පූරණය කිරීමේ දෝෂයකි: {0}
@@ -160,14 +168,19 @@ Name: නම
 Nanoid: නැනොයිඩ්
 Network error: ජාල දෝෂයකි
 New Playlist: නව ධාවන ලැයිස්තුව
+Next: ඊළඟ
 Next ▶: ඊළඟ ▶
 No .m3u files found on GitHub repository.: GitHub ගබඩාවේ .m3u ගොනු හමු නොවීය.
+No cache folder found.: හැඹිලි ෆෝල්ඩරයක් හමු නොවීය.
 No channels could be mapped. Check your mapping rules.: නාලිකා සිතියම්ගත කළ නොහැක. ඔබගේ සිතියම්කරණ රීති පරීක්ෂා කරන්න.
 No channels mapped: සිතියම්ගත කළ නාලිකා නොමැත
 No duplicate URLs found.: අනුපිටපත් URL හමු නොවීය.
+No EPG data: EPG දත්ත නැත
+No EPG information available for this channel.: මෙම නාලිකාව සඳහා EPG තොරතුරු නොමැත.
+No EPG source configured. Please select one from the combo or go to Settings.: EPG මූලාශ්‍රයක් වින්‍යාස කර නැත. කරුණාකර සංයෝජනයෙන් එකක් තෝරන්න නැතහොත් සැකසීම් වෙත යන්න.
+No EPG source configured. Would you like to open settings to select one?: EPG මූලාශ්‍රයක් වින්‍යාස කර නැත. එකක් තේරීමට සැකසීම් විවෘත කිරීමට ඔබ කැමතිද?
 No favorite channels to export.: නිර්යාත කිරීමට ප්‍රියතම නාලිකා නැත.
 No playlist found: ධාවන ලැයිස්තුවක් හමු නොවීය
-No stream: ධාරාවක් නැත
 No updates available.: යාවත්කාලීන නොමැත.
 Normal speed (1x): සාමාන්‍ය වේගය (1x)
 Now: දැන්
@@ -195,9 +208,10 @@ Ready.: සූදානම්.
 Recent: මෑත
 Recent files – quick access to last 5 opened playlists.: මෑත ගොනු - අවසන් විවෘත ධාවන ලැයිස්තු 5 වෙත ඉක්මන් ප්‍රවේශය.
 Recent playlists: මෑත ධාවන ලැයිස්තු
-Refresh: නැවුම් කරන්න
+Refresh EPG: EPG නැවුම් කරන්න
 Refresh EPG List: EPG ලැයිස්තුව නැවුම් කරන්න
 Refresh from GitHub: GitHub වෙතින් නැවුම් කරන්න
+Refresh List: ලැයිස්තුව නැවුම් කරන්න
 Rename Group: සමූහය නැවත නම් කරන්න
 Repository: ගබඩාව
 Reset Order: ඇණවුම නැවත සකසන්න
@@ -210,6 +224,7 @@ Save Mapping: සිතියම්කරණය සුරකින්න
 Save Playlist: ධාවන ලැයිස්තුව සුරකින්න
 Save Status: තත්ත්වය සුරකින්න
 Saved: සුරකින ලදී
+Search channel: : නාලිකාව සොයන්න:
 Search channels by name: නමින් නාලිකා සොයන්න
 Search channels...: නාලිකා සොයන්න...
 Select a playlist first.: පළමුව ධාවන ලැයිස්තුවක් තෝරන්න.
@@ -220,7 +235,7 @@ Show List: ලැයිස්තුව පෙන්වන්න
 Show only channels marked as favorites: ප්‍රියතමයන් ලෙස සලකුණු කර ඇති නාලිකා පමණක් පෙන්වන්න
 Show or hide the channel list: නාලිකා ලැයිස්තුව පෙන්වන්න හෝ සඟවන්න
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: පරීක්ෂණ සහ සහාය සඳහා CORVOBOYS සහ LinuxSat-සහාය ප්‍රජාවන්ට විශේෂ ස්තුතිය.
-Start (local): ආරම්භය (දේශීය)
+Start: ආරම්භ කරන්න
 Status: තත්ත්වය
 Stream URL: ප්‍රවාහ URL
 Stream URLs: ප්‍රවාහ URL
@@ -239,6 +254,7 @@ Total: මුළු
 Total channels in loaded playlist: පූරණය කළ ධාවන ලැයිස්තුවේ මුළු නාලිකා
 TV Guide (EPG): රූපවාහිනී මාර්ගෝපදේශය (EPG)
 TvgId: TvgId
+Type channel name to filter: පෙරීමට නාලිකා නම ටයිප් කරන්න
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: දුරස්ථ ව්‍යාපෘති ගොනුවේ අනුවාදය සොයා ගැනීමට නොහැක.
 Update: යාවත්කාලීන කරන්න

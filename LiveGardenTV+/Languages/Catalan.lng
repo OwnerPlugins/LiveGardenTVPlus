@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Completament voluntari: cap funció està bloquejada)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Carpeta de la memòria cau: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Completament voluntari: cap funció està bloquejada)
 (No description): (Sense descripció)
 • Add / rename / delete groups.: • Afegir/canviar el nom/suprimir grups.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Control lliscant de la memòria intermèdia: ajusteu la memòria intermèdia HLS (1-10 segons).
@@ -32,21 +33,24 @@ Auto-detect: Detecció automàtica
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Comprovació automàtica a l'inici o feu clic a "Comprova si hi ha actualitzacions" al menú Eines.
 Buffer (seconds): Buffer (segons)
 Buffer size – adjust HLS buffer seconds.: Mida de la memòria intermèdia: ajusteu els segons de la memòria intermèdia HLS.
+Cache: Memòria cau
 Cancel: Cancel·la
 CANCEL: CANCEL·LA
 Category: Categoria
 Changelog: Registre de canvis
 Channel Details: Detalls del canal
 Channel Info: Informació del canal
-Channel:: Canal:
 channels from: canals de
 channels from JSON URL: canals des de l'URL JSON
 channels from URL: canals des de l'URL
 Check Duplicates: Comproveu els duplicats
 Check for updates: Comproveu si hi ha actualitzacions
 Check URLs: Comproveu els URL
+Clear EPG Cache: Esborra la memòria cau EPG
 Clear Filters: Esborra els filtres
 Clear search: Esborra la cerca
+Click for details: Feu clic per obtenir més informació
+Close: Tancar
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Comunitat i proves: CorvoBoys (corvoboys.org) i LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: País
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Arrossegueu per tornar a cercar a la memòria inter
 Duplicate URLs found:\n\n: S'han trobat URL duplicats:\n\n
 Edit Playlist: Edita la llista de reproducció
 Edit URLs: Editeu els URL
-End (local): Final (local)
+End: Final
 Enrich with EPG: Enriquir amb EPG
 Enter JSON URL:: Introduïu l'URL JSON:
 Enter playlist URL (M3U or JSON):: Introduïu l'URL de la llista de reproducció (M3U o JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg i Preferits
 Epg & Logos: Epg i logotips
 EPG & Logos: EPG i logotips
+EPG cache cleared successfully.: La memòria cau EPG s'ha esborrat correctament.
+EPG Details: Detalls de l'EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Guia EPG: el botó de la barra d'eines principal mostra la graella completa amb els detalls del programa (feu doble clic per obtenir informació).
 EPG Matching Threshold: Llindar de concordança EPG
-EPG Source: Font EPG
+EPG Source: : Font de l'EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Font EPG: es pot configurar a Configuració (epgshare01 o URL personalitzat).
 EPG source – choose XMLTV file or enter custom URL.: Font EPG: trieu el fitxer XMLTV o introduïu l'URL personalitzat.
+EPG Source Missing: Falta la font EPG
 Error: Error
+Error clearing cache: S'ha produït un error en esborrar la memòria cau
 Error loading: Error en carregar
 Error loading file: {0}: Error en carregar el fitxer: {0}
 Error loading playlists: {0}: Error en carregar les llistes de reproducció: {0}
@@ -160,14 +168,19 @@ Name: Nom
 Nanoid: Nanoide
 Network error: Error de xarxa
 New Playlist: Nova llista de reproducció
+Next: A continuació
 Next ▶: Següent ▶
 No .m3u files found on GitHub repository.: No s'han trobat fitxers .m3u al repositori de GitHub.
+No cache folder found.: No s'ha trobat cap carpeta de memòria cau.
 No channels could be mapped. Check your mapping rules.: No s'ha pogut mapejar cap canal. Comproveu les vostres regles de mapes.
 No channels mapped: No s'ha assignat cap canal
 No duplicate URLs found.: No s'han trobat URL duplicats.
+No EPG data: No hi ha dades EPG
+No EPG information available for this channel.: No hi ha informació d'EPG disponible per a aquest canal.
+No EPG source configured. Please select one from the combo or go to Settings.: No s'ha configurat cap font EPG. Seleccioneu-ne un de la combinació o aneu a Configuració.
+No EPG source configured. Would you like to open settings to select one?: No s'ha configurat cap font EPG. Voleu obrir la configuració per seleccionar-ne una?
 No favorite channels to export.: No hi ha canals preferits per exportar.
 No playlist found: No s'ha trobat cap llista de reproducció
-No stream: Cap corrent
 No updates available.: No hi ha actualitzacions disponibles.
 Normal speed (1x): Velocitat normal (1x)
 Now: Ara
@@ -195,9 +208,10 @@ Ready.: A punt.
 Recent: Recent
 Recent files – quick access to last 5 opened playlists.: Fitxers recents: accés ràpid a les 5 últimes llistes de reproducció obertes.
 Recent playlists: Llistes de reproducció recents
-Refresh: Actualitza
+Refresh EPG: Actualitza l'EPG
 Refresh EPG List: Actualitza la llista EPG
 Refresh from GitHub: Actualitza des de GitHub
+Refresh List: Actualitza la llista
 Rename Group: Canvia el nom del grup
 Repository: Repositori
 Reset Order: Restableix l'ordre
@@ -210,6 +224,7 @@ Save Mapping: Desa la cartografia
 Save Playlist: Desa la llista de reproducció
 Save Status: Desa l'estat
 Saved: Desat
+Search channel: : Cerca canal:
 Search channels by name: Cerca canals per nom
 Search channels...: Cerca canals...
 Select a playlist first.: Seleccioneu primer una llista de reproducció.
@@ -220,7 +235,7 @@ Show List: Mostra la llista
 Show only channels marked as favorites: Mostra només els canals marcats com a preferits
 Show or hide the channel list: Mostra o amaga la llista de canals
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Agraïment especial a les comunitats CORVOBOYS i LinuxSat-Support per les proves i el suport.
-Start (local): Inici (local)
+Start: Comença
 Status: Estat
 Stream URL: URL del flux
 Stream URLs: URL de flux
@@ -239,6 +254,7 @@ Total: Total
 Total channels in loaded playlist: Total de canals a la llista de reproducció carregada
 TV Guide (EPG): Guia de televisió (EPG)
 TvgId: TvgId
+Type channel name to filter: Escriu el nom del canal per filtrar
 UI: MaterialDesignThemes.Wpf: Interfície d'usuari: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: No es pot trobar la versió al fitxer de projecte remot.
 Update: Actualització

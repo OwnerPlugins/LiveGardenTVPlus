@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (ሙሉ በሙሉ በፈቃደኝነት - ምንም ባህሪያት አልተከለከሉም)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (የመሸጎጫ አቃፊ፡ %TEMP%\\ LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (ሙሉ በሙሉ በፈቃደኝነት - ምንም ባህሪያት አልተከለከሉም)
 (No description): (ምንም መግለጫ የለም)
 • Add / rename / delete groups.: • ቡድኖችን ያክሉ/ እንደገና ይሰይሙ/ ይሰርዙ።
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • የቋት ተንሸራታች፡ HLS ቋት ያስተካክሉ (1-10 ሰከንድ)።
@@ -32,21 +33,24 @@ Auto-detect: በራስ-አግኝ
 Automatic check on startup – or click 'Check for updates' in Tools menu.: ጅምር ላይ ራስ-ሰር ፍተሻ - ወይም በመሳሪያዎች ምናሌ ውስጥ 'ዝማኔዎችን ፈልግ' የሚለውን ጠቅ ያድርጉ።
 Buffer (seconds): መያዣ (ሰከንዶች)
 Buffer size – adjust HLS buffer seconds.: የቋት መጠን - የ HLS ቋት ሰከንዶችን ያስተካክሉ።
+Cache: መሸጎጫ
 Cancel: ሰርዝ
 CANCEL: ሰርዝ
 Category: ምድብ
 Changelog: ለውጥ ሎግ
 Channel Details: የሰርጥ ዝርዝሮች
 Channel Info: የሰርጥ መረጃ
-Channel:: ቻናል፡
 channels from: ቻናሎች ከ
 channels from JSON URL: ቻናሎች ከJSON URL
 channels from URL: ቻናሎች ከዩአርኤል
 Check Duplicates: ብዜቶችን ያረጋግጡ
 Check for updates: ዝማኔዎችን ይመልከቱ
 Check URLs: ዩአርኤሎችን ያረጋግጡ
+Clear EPG Cache: የ EPG መሸጎጫ ያጽዱ
 Clear Filters: ማጣሪያዎችን አጽዳ
 Clear search: ፍለጋን አጽዳ
+Click for details: ለዝርዝሩ ጠቅ ያድርጉ
+Close: ገጠመ
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ማህበረሰብ እና ሙከራ፡ CorvoBoys (corvoboys.org) እና LinuxSat-Support.com
 CORVOBOYS.ORG: ኮርቮቦይስ.ኦርጂ
 Country: ሀገር
@@ -65,7 +69,7 @@ Drag to seek back in buffer: በቋት ውስጥ መልሶ ለመፈለግ ይ�
 Duplicate URLs found:\n\n: የተባዙ ዩአርኤሎች ተገኝተዋል፡\n\n
 Edit Playlist: አጫዋች ዝርዝር ያርትዑ
 Edit URLs: URLs አርትዕ
-End (local): መጨረሻ (አካባቢያዊ)
+End: መጨረሻ
 Enrich with EPG: በ EPG ያበልጽጉ
 Enter JSON URL:: JSON URL አስገባ፡
 Enter playlist URL (M3U or JSON):: አጫዋች ዝርዝር URL (M3U ወይም JSON) አስገባ፡
@@ -73,12 +77,16 @@ EPG: ኢ.ፒ.ጂ
 Epg & Favorites: Epg እና ተወዳጆች
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG እና ሎጎስ
+EPG cache cleared successfully.: EPG መሸጎጫ በተሳካ ሁኔታ ጸድቷል።
+EPG Details: የ EPG ዝርዝሮች
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: የ EPG መመሪያ - በዋናው የመሳሪያ አሞሌ ላይ ያለው አዝራር ሙሉ ፍርግርግ ከፕሮግራም ዝርዝሮች ጋር ያሳያል (ለመረጃ ሁለቴ ጠቅ ያድርጉ)።
 EPG Matching Threshold: EPG ተዛማጅ ገደብ
-EPG Source: EPG ምንጭ
+EPG Source: : EPG ምንጭ፡-
 EPG source – can be set in Settings (epgshare01 or custom URL).: የ EPG ምንጭ - በቅንብሮች (epgshare01 ወይም ብጁ ዩአርኤል) ውስጥ ሊዋቀር ይችላል።
 EPG source – choose XMLTV file or enter custom URL.: የ EPG ምንጭ - የ XMLTV ፋይልን ይምረጡ ወይም ብጁ ዩአርኤል ያስገቡ።
+EPG Source Missing: EPG ምንጭ ጠፍቷል
 Error: ስህተት
+Error clearing cache: መሸጎጫ በማጽዳት ላይ ስህተት
 Error loading: በመጫን ላይ ስህተት
 Error loading file: {0}: ፋይል መጫን ላይ ስህተት፦ {0}
 Error loading playlists: {0}: አጫዋች ዝርዝሮችን መጫን ላይ ስህተት: {0}
@@ -160,14 +168,19 @@ Name: ስም
 Nanoid: ናኖይድ
 Network error: የአውታረ መረብ ስህተት
 New Playlist: አዲስ አጫዋች ዝርዝር
+Next: ቀጥሎ
 Next ▶: ቀጣይ ▶
 No .m3u files found on GitHub repository.: በ GitHub ማከማቻ ላይ ምንም .m3u ፋይሎች አልተገኙም።
+No cache folder found.: ምንም መሸጎጫ አቃፊ አልተገኘም።
 No channels could be mapped. Check your mapping rules.: ምንም ቻናል ሊቀረጽ አልቻለም። የካርታ ስራ ህጎችዎን ያረጋግጡ።
 No channels mapped: ምንም ካርታ አልተሰራም።
 No duplicate URLs found.: ምንም የተባዙ ዩአርኤሎች አልተገኙም።
+No EPG data: ምንም የ EPG ውሂብ የለም።
+No EPG information available for this channel.: ለዚህ ቻናል ምንም የ EPG መረጃ የለም።
+No EPG source configured. Please select one from the combo or go to Settings.: ምንም የ EPG ምንጭ አልተዋቀረም። እባክዎ ከጥምር ውስጥ አንዱን ይምረጡ ወይም ወደ ቅንብሮች ይሂዱ።
+No EPG source configured. Would you like to open settings to select one?: ምንም የ EPG ምንጭ አልተዋቀረም። አንዱን ለመምረጥ ቅንብሮችን መክፈት ይፈልጋሉ?
 No favorite channels to export.: ወደ ውጭ የሚላኩ ተወዳጅ ቻናሎች የሉም።
 No playlist found: ምንም አጫዋች ዝርዝር አልተገኘም።
-No stream: ምንም ዥረት የለም።
 No updates available.: ምንም ዝመናዎች አይገኙም።
 Normal speed (1x): መደበኛ ፍጥነት (1x)
 Now: አሁን
@@ -195,9 +208,10 @@ Ready.: ዝግጁ።
 Recent: የቅርብ ጊዜ
 Recent files – quick access to last 5 opened playlists.: የቅርብ ጊዜ ፋይሎች - የመጨረሻዎቹ 5 የተከፈቱ አጫዋች ዝርዝሮች ፈጣን መዳረሻ።
 Recent playlists: የቅርብ ጊዜ አጫዋች ዝርዝሮች
-Refresh: አድስ
+Refresh EPG: EPG አድስ
 Refresh EPG List: የ EPG ዝርዝርን አድስ
 Refresh from GitHub: ከGitHub አድስ
+Refresh List: ዝርዝር አድስ
 Rename Group: ቡድን እንደገና ይሰይሙ
 Repository: ማከማቻ
 Reset Order: ትዕዛዙን ዳግም አስጀምር
@@ -210,6 +224,7 @@ Save Mapping: ካርታ ስራን አስቀምጥ
 Save Playlist: አጫዋች ዝርዝር ያስቀምጡ
 Save Status: ሁኔታን አስቀምጥ
 Saved: ተቀምጧል
+Search channel: : ቻናል ፈልግ፡
 Search channels by name: ቻናሎችን በስም ይፈልጉ
 Search channels...: ቻናሎችን ፈልግ...
 Select a playlist first.: መጀመሪያ አጫዋች ዝርዝር ይምረጡ።
@@ -220,7 +235,7 @@ Show List: ዝርዝር አሳይ
 Show only channels marked as favorites: እንደ ተወዳጆች ምልክት የተደረገባቸውን ቻናሎች ብቻ አሳይ
 Show or hide the channel list: የሰርጡን ዝርዝር አሳይ ወይም ደብቅ
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: ለሙከራ እና ድጋፍ ለ CORVOBOYS እና LinuxSat-Support ማህበረሰቦች ልዩ ምስጋና።
-Start (local): ጀምር (አካባቢያዊ)
+Start: ጀምር
 Status: ሁኔታ
 Stream URL: የዥረት URL
 Stream URLs: የዥረት ዩአርኤሎች
@@ -239,6 +254,7 @@ Total: ጠቅላላ
 Total channels in loaded playlist: በተጫነ አጫዋች ዝርዝር ውስጥ ያሉ አጠቃላይ ቻናሎች
 TV Guide (EPG): የቲቪ መመሪያ (EPG)
 TvgId: TvgId
+Type channel name to filter: ለማጣራት የሰርጥ ስም ይተይቡ
 UI: MaterialDesignThemes.Wpf: UI፡ MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: በርቀት የፕሮጀክት ፋይል ውስጥ ስሪት ማግኘት አልተቻለም።
 Update: አዘምን

@@ -95,6 +95,7 @@
                     <TextBlock x:Name="ExportFavoritesBtnText"/>
                 </StackPanel>
             </Button>
+
             <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
             <Button x:Name="EpgBtn" Click="EpgBtn_Click" ToolTip="TV Guide (EPG)">
                 <StackPanel Orientation="Horizontal">
@@ -102,6 +103,7 @@
                     <TextBlock x:Name="EpgTextBlock" Text="EPG"/>
                 </StackPanel>
             </Button>
+            
             <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
             <Button x:Name="EditPlaylistBtn" Click="EditPlaylistBtn_Click" ToolTip="Playlist Managment">
                 <StackPanel Orientation="Horizontal">
@@ -233,7 +235,6 @@
             </Grid.ColumnDefinitions>
 
             <!-- Channel TreeView with logos -->
-            <!-- <TreeView x:Name="ChannelTreeView" Grid.Column="0" Background="{DynamicResource ControlBackgroundBrush}" Foreground="{DynamicResource ForegroundBrush}" SelectedItemChanged="ChannelTreeView_SelectedItemChanged"> -->
             <TreeView x:Name="ChannelTreeView" Grid.Column="0" 
                       Background="{DynamicResource ControlBackgroundBrush}" 
                       Foreground="{DynamicResource ForegroundBrush}" 
@@ -280,12 +281,12 @@
                                         <Image Grid.Column="0" Source="{Binding Logo, Converter={StaticResource UrlToImageConverter}}" 
                                                Width="32" Height="32" Margin="0,0,8,0" 
                                                VerticalAlignment="Center" />
-                                        <!-- Fallback icon (mostrato se Logo nullo) -->
+                                        <!-- Fallback icon (shown if Logo is null) -->
                                         <material:PackIcon x:Name="ItemIcon" Grid.Column="0" Kind="Television" 
                                                            Width="32" Height="32" Margin="0,0,8,0" 
                                                            Foreground="#FF88CCFF"
                                                            Visibility="Collapsed"/>
-                                        <!-- Nome canale (con ellissi se troppo lungo) -->
+                                        <!-- Channel name (with ellipses if too long) -->
                                         <TextBlock x:Name="ItemText" Grid.Column="1" Text="{Binding Name}" 
                                                    ToolTip="{Binding Url}" Foreground="{DynamicResource ForegroundBrush}"
                                                    FontSize="16" VerticalAlignment="Center"
@@ -302,7 +303,7 @@
                                 </Border>
 
                                 <DataTemplate.Triggers>
-                                    <!-- Riga speciale "← Back to all groups" -->
+                                    <!-- Special line "← Back to all groups" -->
                                     <DataTrigger Binding="{Binding Name}" Value="← Back to all groups">
                                         <Setter TargetName="ItemBorder" Property="Background" Value="#FF555555"/>
                                         <Setter TargetName="ItemBorder" Property="Padding" Value="5,3"/>
@@ -313,7 +314,7 @@
                                         <Setter TargetName="ItemText" Property="Foreground" Value="#FF88CCFF"/>
                                         <Setter TargetName="ItemText" Property="FontSize" Value="18"/>
                                     </DataTrigger>
-                                    <!-- Mostra l'icona di fallback se Logo è nullo o vuoto -->
+                                    <!-- Show fallback icon if Logo is null or empty -->
                                     <DataTrigger Binding="{Binding Logo}" Value="{x:Null}">
                                         <Setter TargetName="ItemIcon" Property="Visibility" Value="Visible"/>
                                     </DataTrigger>
@@ -363,7 +364,6 @@
                 </StackPanel>
             </StatusBarItem>
 
-
             <StatusBarItem>
                 <StackPanel Orientation="Horizontal" Margin="10,0">
                     <TextBlock x:Name="BufferLabel" Margin="0,0,5,0" VerticalAlignment="Center" ToolTip="HLS buffer length in seconds" FontSize="14"/>
@@ -399,9 +399,11 @@
             <StatusBarItem>
                 <ProgressBar x:Name="LoadingProgressBar" Width="120" Height="16" IsIndeterminate="True" Visibility="Collapsed" Margin="5,0"/>
             </StatusBarItem>
+            <!--
             <StatusBarItem DockPanel.Dock="Right">
                 <TextBlock x:Name="StreamNameStatus" Margin="5,0" ToolTip="Currently playing channel" FontSize="14"/>
             </StatusBarItem>
+            -->
             <StatusBarItem DockPanel.Dock="Right">
                 <Separator Style="{StaticResource {x:Static StatusBar.SeparatorStyleKey}}" Margin="2,0"/>
             </StatusBarItem>
@@ -409,7 +411,10 @@
                 <TextBlock x:Name="StatusTextBlock" ToolTip="Application status" FontSize="14"/>
             </StatusBarItem>
             <StatusBarItem DockPanel.Dock="Right">
-                <TextBlock x:Name="EpgInfoTextBlock" Width="550" ToolTip="Current EPG info" FontSize="14"/>
+                <StackPanel Orientation="Horizontal" Cursor="Hand" MouseLeftButtonUp="EpgInfoPanel_MouseLeftButtonUp">
+                    <material:PackIcon x:Name="EpgIcon" Kind="TelevisionGuide" Width="16" Height="16" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                    <TextBlock x:Name="EpgInfoTextBlock" Width="550" ToolTip="Click for details" FontSize="14" TextTrimming="CharacterEllipsis"/>
+                </StackPanel>
             </StatusBarItem>
         </StatusBar>
     </Grid>

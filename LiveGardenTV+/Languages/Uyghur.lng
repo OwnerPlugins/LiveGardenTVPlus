@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (پۈتۈنلەي ئىختىيارىي - ھېچقانداق ئىقتىدار توسۇلمايدۇ)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (غەملەك قىسقۇچ:% TEMP% \\ LiveGardenTVPlus \\ epg_cache)
+(Completely voluntary – no features are blocked): (پۈتۈنلەي ئىختىيارىي - ھېچقانداق ئىقتىدار توسۇلمايدۇ)
 (No description): (چۈشەندۈرۈش يوق)
 • Add / rename / delete groups.: گۇرۇپپىلارنى قوشۇش / ئۆزگەرتىش / ئۆچۈرۈش.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: بۇففېر سىيرىلغۇچ: HLS بۇففېرنى تەڭشەڭ (1-10 سېكۇنت).
@@ -32,21 +33,24 @@ Auto-detect: ئاپتوماتىك بايقاش
 Automatic check on startup – or click 'Check for updates' in Tools menu.: قوزغىتىشنى ئاپتوماتىك تەكشۈرۈش - ياكى قوراللار تىزىملىكىدىكى «يېڭىلانمىلارنى تەكشۈرۈش» نى چېكىڭ.
 Buffer (seconds): Buffer (سېكۇنت)
 Buffer size – adjust HLS buffer seconds.: بۇففېرنىڭ چوڭلۇقى - HLS بۇففېر سېكۇنتنى تەڭشەڭ.
+Cache: Cache
 Cancel: بىكار قىلىش
 CANCEL: CANCEL
 Category: سەھىپە
 Changelog: Changelog
 Channel Details: Channel Details
 Channel Info: Channel Info
-Channel:: Channel:
 channels from: channels from
 channels from JSON URL: JSON URL دىن كەلگەن قاناللار
 channels from URL: URL دىن كەلگەن قاناللار
 Check Duplicates: كۆپەيتىلگەن نۇسخىسىنى تەكشۈرۈڭ
 Check for updates: يېڭىلانمىلارنى تەكشۈرۈڭ
 Check URLs: URL نى تەكشۈرۈڭ
+Clear EPG Cache: EPG Cache نى تازىلاڭ
 Clear Filters: سۈزگۈچنى تازىلاش
 Clear search: ئىزدەشنى تازىلاش
+Click for details: تەپسىلاتىنى چېكىڭ
+Close: تاقاش
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: مەھەللە ۋە سىناق: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: دۆلەت
@@ -65,7 +69,7 @@ Drag to seek back in buffer: بۇففېردىن قايتا ئىزدەڭ
 Duplicate URLs found:\n\n: كۆپەيتىلگەن URL لار تېپىلدى: \ n \ n
 Edit Playlist: قويۇش تىزىملىكىنى تەھرىرلەش
 Edit URLs: URL نى تەھرىرلەڭ
-End (local): ئاخىرلىشىش (يەرلىك)
+End: ئاخىر
 Enrich with EPG: EPG بىلەن بېيىتىش
 Enter JSON URL:: JSON URL نى كىرگۈزۈڭ:
 Enter playlist URL (M3U or JSON):: قويۇش تىزىملىكى URL (M3U ياكى JSON) نى كىرگۈزۈڭ:
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Favorites
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
+EPG cache cleared successfully.: EPG غەملەك مۇۋەپپەقىيەتلىك تازىلاندى.
+EPG Details: EPG تەپسىلاتى
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG قوللانمىسى - ئاساسلىق قورالبالدىقىدىكى كۇنۇپكا پروگرامما تەپسىلاتلىرى بىلەن تولۇق تورنى كۆرسىتىدۇ (ئۇچۇرنى قوش - چېكىڭ).
 EPG Matching Threshold: EPG ماسلاشتۇرۇش چېكى
-EPG Source: EPG Source
+EPG Source: : EPG مەنبە:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG مەنبە - تەڭشەك (epgshare01 ياكى ئىختىيارى URL) دا تەڭشىگىلى بولىدۇ.
 EPG source – choose XMLTV file or enter custom URL.: EPG مەنبەسى - XMLTV ھۆججىتىنى تاللاڭ ياكى ئىختىيارى URL نى كىرگۈزۈڭ.
+EPG Source Missing: EPG مەنبە يوقاپ كەتتى
 Error: خاتالىق
+Error clearing cache: كەش تازىلاش
 Error loading: يۈكلەشتە خاتالىق
 Error loading file: {0}: ھۆججەت يۈكلەشتە خاتالىق: {0}
 Error loading playlists: {0}: قويۇش تىزىملىكىنى يۈكلەشتە خاتالىق: {0}
@@ -160,14 +168,19 @@ Name: ئىسمى
 Nanoid: Nanoid
 Network error: تور خاتالىقى
 New Playlist: يېڭى قويۇش تىزىملىكى
+Next: كېيىنكى
 Next ▶: كېيىنكى ▶
 No .m3u files found on GitHub repository.: GitHub ئامبىرىدا تېپىلمىغان .m3u ھۆججىتى يوق.
+No cache folder found.: غەملەك ھۆججەت قىسقۇچى تېپىلمىدى.
 No channels could be mapped. Check your mapping rules.: ھېچقانداق قانالنى سىزىشقا بولمايدۇ. خەرىتە قائىدىلىرىڭىزنى تەكشۈرۈڭ.
 No channels mapped: ھېچقانداق قانال خەرىتىسى يوق
 No duplicate URLs found.: كۆپەيتىلگەن URL تېپىلمىدى.
+No EPG data: EPG سانلىق مەلۇماتى يوق
+No EPG information available for this channel.: بۇ قانال ئۈچۈن EPG ئۇچۇرى يوق.
+No EPG source configured. Please select one from the combo or go to Settings.: EPG مەنبەسى سەپلەنمىدى. Combo دىن بىرنى تاللاڭ ياكى تەڭشەكلەرگە كىرىڭ.
+No EPG source configured. Would you like to open settings to select one?: EPG مەنبەسى سەپلەنمىدى. بىرنى تاللاش ئۈچۈن تەڭشەكلەرنى ئاچامسىز؟
 No favorite channels to export.: ئېكسپورت قىلىشقا ئامراق قانال يوق.
 No playlist found: قويۇش تىزىملىكى تېپىلمىدى
-No stream: ئېقىن يوق
 No updates available.: ھېچقانداق يېڭىلاش يوق.
 Normal speed (1x): نورمال سۈرئەت (1x)
 Now: ھازىر
@@ -195,9 +208,10 @@ Ready.: تەييار.
 Recent: يېقىنقى
 Recent files – quick access to last 5 opened playlists.: يېقىنقى ھۆججەتلەر - ئاخىرقى 5 ئېچىلغان قويۇش تىزىملىكىنى تېز زىيارەت قىلىش.
 Recent playlists: يېقىنقى قويۇش تىزىملىكى
-Refresh: يېڭىلاش
+Refresh EPG: EPG نى يېڭىلاڭ
 Refresh EPG List: EPG تىزىملىكىنى يېڭىلاڭ
 Refresh from GitHub: GitHub دىن يېڭىلاڭ
+Refresh List: تىزىملىكنى يېڭىلاش
 Rename Group: گۇرۇپپىنىڭ نامىنى ئۆزگەرتىش
 Repository: ئامبار
 Reset Order: تەرتىپنى ئەسلىگە كەلتۈرۈش
@@ -210,6 +224,7 @@ Save Mapping: خەرىتە ساقلاش
 Save Playlist: Playlist نى ساقلاش
 Save Status: ھالەتنى ساقلاش
 Saved: ساقلاندى
+Search channel: : ئىزدەش قانىلى:
 Search channels by name: ئىسىملارنى ئىزدەڭ
 Search channels...: ئىزدەش قاناللىرى ...
 Select a playlist first.: ئالدى بىلەن قويۇش تىزىملىكىنى تاللاڭ.
@@ -220,7 +235,7 @@ Show List: تىزىملىكنى كۆرسىتىش
 Show only channels marked as favorites: پەقەت ياقتۇرىدىغان دەپ بەلگە قويۇلغان قاناللارنىلا كۆرسىتىڭ
 Show or hide the channel list: قانال تىزىملىكىنى كۆرسىتىش ياكى يوشۇرۇش
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: CORVOBOYS & LinuxSat- قوللاش مەھەللىلىرىنىڭ سىناق ۋە قوللىغانلىقىغا ئالاھىدە رەھمەت.
-Start (local): باشلاش (يەرلىك)
+Start: باشلاش
 Status: ھالەت
 Stream URL: Stream URL
 Stream URLs: Stream URLs
@@ -239,6 +254,7 @@ Total: ئومۇمىي
 Total channels in loaded playlist: يۈكلەنگەن تىزىملىكتىكى ئومۇمىي قانال
 TV Guide (EPG): TV Guide (EPG)
 TvgId: TvgId
+Type channel name to filter: سۈزۈش ئۈچۈن قانال نامىنى كىرگۈزۈڭ
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: يىراقتىكى ھۆججەت ھۆججىتىدىن نەشرىنى تاپالمىدى.
 Update: يېڭىلاش

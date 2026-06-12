@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (पूर्ण रूपमा स्वैच्छिक - कुनै पनि सुविधाहरू अवरुद्ध छैनन्)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (क्यास फोल्डर: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (पूर्ण रूपमा स्वैच्छिक - कुनै पनि सुविधाहरू अवरुद्ध छैनन्)
 (No description): (कुनै विवरण छैन)
 • Add / rename / delete groups.: • समूहहरू थप्नुहोस् / पुन: नामाकरण गर्नुहोस् / मेटाउनुहोस्।
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • बफर स्लाइडर: HLS बफर समायोजन गर्नुहोस् (१-१० सेकेन्ड)।
@@ -32,21 +33,24 @@ Auto-detect: स्वतः पत्ता लगाउनुहोस्
 Automatic check on startup – or click 'Check for updates' in Tools menu.: स्टार्टअपमा स्वचालित जाँच - वा उपकरण मेनुमा 'अद्यावधिकहरूको लागि जाँच गर्नुहोस्' क्लिक गर्नुहोस्।
 Buffer (seconds): बफर (सेकेन्ड)
 Buffer size – adjust HLS buffer seconds.: बफर साइज - HLS बफर सेकेन्ड समायोजन गर्नुहोस्।
+Cache: क्यास
 Cancel: रद्द गर्नुहोस्
 CANCEL: रद्द गर्नुहोस्
 Category: श्रेणी
 Changelog: Changelog
 Channel Details: च्यानल विवरणहरू
 Channel Info: च्यानल जानकारी
-Channel:: च्यानल:
 channels from: बाट च्यानलहरू
 channels from JSON URL: JSON URL बाट च्यानलहरू
 channels from URL: URL बाट च्यानलहरू
 Check Duplicates: डुप्लिकेटहरू जाँच गर्नुहोस्
 Check for updates: अपडेटहरूको लागि जाँच गर्नुहोस्
 Check URLs: URL हरू जाँच गर्नुहोस्
+Clear EPG Cache: EPG क्यास खाली गर्नुहोस्
 Clear Filters: फिल्टरहरू खाली गर्नुहोस्
 Clear search: खोज खाली गर्नुहोस्
+Click for details: विवरणहरूको लागि क्लिक गर्नुहोस्
+Close: बन्द गर्नुहोस्
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: समुदाय र परीक्षण: CorvoBoys (corvoboys.org) र LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: देश
@@ -65,7 +69,7 @@ Drag to seek back in buffer: बफरमा फिर्ता खोज्न 
 Duplicate URLs found:\n\n: डुप्लिकेट URL फेला पर्यो:\n\n
 Edit Playlist: प्लेलिस्ट सम्पादन गर्नुहोस्
 Edit URLs: URL सम्पादन गर्नुहोस्
-End (local): अन्त्य (स्थानीय)
+End: अन्त्य
 Enrich with EPG: EPG संग समृद्ध
 Enter JSON URL:: JSON URL प्रविष्ट गर्नुहोस्:
 Enter playlist URL (M3U or JSON):: प्लेलिस्ट URL प्रविष्ट गर्नुहोस् (M3U वा JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg र मनपर्नेहरू
 Epg & Logos: Epg र लोगो
 EPG & Logos: EPG र लोगो
+EPG cache cleared successfully.: EPG क्यास सफलतापूर्वक खाली गरियो।
+EPG Details: EPG विवरण
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG गाइड - मुख्य उपकरणपट्टीमा रहेको बटनले कार्यक्रम विवरणहरू सहितको पूर्ण ग्रिड देखाउँछ (जानकारीको लागि डबल-क्लिक गर्नुहोस्)।
 EPG Matching Threshold: EPG मिलान थ्रेसहोल्ड
-EPG Source: EPG स्रोत
+EPG Source: : EPG स्रोत:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG स्रोत - सेटिङहरूमा सेट गर्न सकिन्छ (epgshare01 वा अनुकूलन URL)।
 EPG source – choose XMLTV file or enter custom URL.: EPG स्रोत - XMLTV फाइल छनौट गर्नुहोस् वा अनुकूलन URL प्रविष्ट गर्नुहोस्।
+EPG Source Missing: EPG स्रोत हराइरहेको छ
 Error: त्रुटि
+Error clearing cache: क्यास खाली गर्दा त्रुटि
 Error loading: लोड गर्दा त्रुटि भयो
 Error loading file: {0}: फाइल लोड गर्दा त्रुटि: {0}
 Error loading playlists: {0}: प्लेलिस्टहरू लोड गर्दा त्रुटि: {0}
@@ -160,14 +168,19 @@ Name: नाम
 Nanoid: नानोइड
 Network error: नेटवर्क त्रुटि
 New Playlist: नयाँ प्लेलिस्ट
+Next: अर्को
 Next ▶: अर्को ▶
 No .m3u files found on GitHub repository.: GitHub भण्डारमा कुनै .m3u फाइलहरू फेला परेनन्।
+No cache folder found.: कुनै क्यास फोल्डर फेला परेन।
 No channels could be mapped. Check your mapping rules.: कुनै च्यानलहरू म्याप गर्न सकिएन। आफ्नो म्यापिङ नियमहरू जाँच गर्नुहोस्।
 No channels mapped: कुनै च्यानल म्याप गरिएको छैन
 No duplicate URLs found.: कुनै डुप्लिकेट URL फेला परेन।
+No EPG data: कुनै EPG डाटा छैन
+No EPG information available for this channel.: यस च्यानलको लागि कुनै EPG जानकारी उपलब्ध छैन।
+No EPG source configured. Please select one from the combo or go to Settings.: कुनै EPG स्रोत कन्फिगर गरिएको छैन। कृपया कम्बोबाट एउटा चयन गर्नुहोस् वा सेटिङहरूमा जानुहोस्।
+No EPG source configured. Would you like to open settings to select one?: कुनै EPG स्रोत कन्फिगर गरिएको छैन। तपाईं एउटा चयन गर्न सेटिङहरू खोल्न चाहनुहुन्छ?
 No favorite channels to export.: निर्यात गर्न मनपर्ने च्यानलहरू छैनन्।
 No playlist found: कुनै प्लेलिस्ट फेला परेन
-No stream: कुनै स्ट्रिम छैन
 No updates available.: कुनै अद्यावधिक उपलब्ध छैन।
 Normal speed (1x): सामान्य गति (1x)
 Now: अब
@@ -195,9 +208,10 @@ Ready.: तयार।
 Recent: हालको
 Recent files – quick access to last 5 opened playlists.: भर्खरका फाइलहरू - अन्तिम 5 खोलिएका प्लेलिस्टहरूमा द्रुत पहुँच।
 Recent playlists: हालैका प्लेलिस्टहरू
-Refresh: रिफ्रेस गर्नुहोस्
+Refresh EPG: EPG रिफ्रेस गर्नुहोस्
 Refresh EPG List: EPG सूची ताजा गर्नुहोस्
 Refresh from GitHub: GitHub बाट ताजा गर्नुहोस्
+Refresh List: सूची ताजा गर्नुहोस्
 Rename Group: समूह पुन: नामाकरण गर्नुहोस्
 Repository: भण्डार
 Reset Order: आदेश रिसेट गर्नुहोस्
@@ -210,6 +224,7 @@ Save Mapping: म्यापिङ बचत गर्नुहोस्
 Save Playlist: प्लेलिस्ट बचत गर्नुहोस्
 Save Status: स्थिति बचत गर्नुहोस्
 Saved: सुरक्षित गरियो
+Search channel: : च्यानल खोज्नुहोस्:
 Search channels by name: नामद्वारा च्यानलहरू खोज्नुहोस्
 Search channels...: च्यानलहरू खोज्नुहोस्...
 Select a playlist first.: पहिले एउटा प्लेलिस्ट चयन गर्नुहोस्।
@@ -220,7 +235,7 @@ Show List: सूची देखाउनुहोस्
 Show only channels marked as favorites: मनपर्ने रूपमा चिन्ह लगाइएका च्यानलहरू मात्र देखाउनुहोस्
 Show or hide the channel list: च्यानल सूची देखाउनुहोस् वा लुकाउनुहोस्
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: परीक्षण र समर्थनका लागि CORVOBOYS र LinuxSat-Support समुदायहरूलाई विशेष धन्यवाद।
-Start (local): सुरु (स्थानीय)
+Start: सुरु गर्नुहोस्
 Status: स्थिति
 Stream URL: स्ट्रिम URL
 Stream URLs: स्ट्रिम URL हरू
@@ -239,6 +254,7 @@ Total: कुल
 Total channels in loaded playlist: लोड गरिएको प्लेलिस्टमा कुल च्यानलहरू
 TV Guide (EPG): टिभी गाइड (EPG)
 TvgId: TvgId
+Type channel name to filter: फिल्टर गर्न च्यानल नाम टाइप गर्नुहोस्
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: रिमोट प्रोजेक्ट फाइलमा संस्करण फेला पार्न असमर्थ।
 Update: अपडेट गर्नुहोस्

@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Εντελώς εθελοντικό – κανένα χαρακτηριστικό δεν είναι αποκλεισμένο)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Φάκελος προσωρινής μνήμης: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Εντελώς εθελοντικό – κανένα χαρακτηριστικό δεν είναι αποκλεισμένο)
 (No description): (Χωρίς περιγραφή)
 • Add / rename / delete groups.: • Προσθήκη / μετονομασία / διαγραφή ομάδων.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Ρυθμιστικό buffer: προσαρμογή προσωρινής μνήμης HLS (1-10 δευτερόλεπτα).
@@ -32,21 +33,24 @@ Auto-detect: Αυτόματος εντοπισμός
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Αυτόματος έλεγχος κατά την εκκίνηση – ή κάντε κλικ στο «Έλεγχος για ενημερώσεις» στο μενού Εργαλεία.
 Buffer (seconds): Buffer (δευτερόλεπτα)
 Buffer size – adjust HLS buffer seconds.: Μέγεθος buffer – προσαρμόστε τα δευτερόλεπτα buffer HLS.
+Cache: Κρύπτη
 Cancel: Ματαίωση
 CANCEL: ΜΑΤΑΙΩΣΗ
 Category: Κατηγορία
 Changelog: Καταγραφή αλλαγών
 Channel Details: Λεπτομέρειες καναλιού
 Channel Info: Πληροφορίες καναλιού
-Channel:: Κανάλι:
 channels from: κανάλια από
 channels from JSON URL: κανάλια από JSON URL
 channels from URL: κανάλια από τη διεύθυνση URL
 Check Duplicates: Ελέγξτε τα διπλότυπα
 Check for updates: Ελέγξτε για ενημερώσεις
 Check URLs: Ελέγξτε τις διευθύνσεις URL
+Clear EPG Cache: Εκκαθάριση προσωρινής μνήμης EPG
 Clear Filters: Διαγραφή φίλτρων
 Clear search: Εκκαθάριση αναζήτησης
+Click for details: Κάντε κλικ για λεπτομέρειες
+Close: Κοντά
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Κοινότητα και δοκιμές: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Χώρα
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Σύρετε για αναζήτηση στο buffe
 Duplicate URLs found:\n\n: Βρέθηκαν διπλότυπες διευθύνσεις URL:\n\n
 Edit Playlist: Επεξεργασία λίστας αναπαραγωγής
 Edit URLs: Επεξεργασία διευθύνσεων URL
-End (local): Τέλος (τοπικό)
+End: Τέλος
 Enrich with EPG: Εμπλουτίστε με EPG
 Enter JSON URL:: Εισαγάγετε τη διεύθυνση URL JSON:
 Enter playlist URL (M3U or JSON):: Εισαγάγετε τη διεύθυνση URL της λίστας αναπαραγωγής (M3U ή JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Αγαπημένα
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Λογότυπα
+EPG cache cleared successfully.: Η προσωρινή μνήμη EPG διαγράφηκε με επιτυχία.
+EPG Details: Στοιχεία EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Οδηγός EPG – το κουμπί στην κύρια γραμμή εργαλείων εμφανίζει πλήρες πλέγμα με λεπτομέρειες προγράμματος (κάντε διπλό κλικ για πληροφορίες).
 EPG Matching Threshold: Κατώφλι αντιστοίχισης EPG
-EPG Source: Πηγή EPG
+EPG Source: : Πηγή EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Πηγή EPG – μπορεί να οριστεί στις Ρυθμίσεις (epgshare01 ή προσαρμοσμένη διεύθυνση URL).
 EPG source – choose XMLTV file or enter custom URL.: Πηγή EPG – επιλέξτε αρχείο XMLTV ή εισαγάγετε προσαρμοσμένη διεύθυνση URL.
+EPG Source Missing: Λείπει η πηγή EPG
 Error: Σφάλμα
+Error clearing cache: Σφάλμα κατά την εκκαθάριση της προσωρινής μνήμης
 Error loading: Σφάλμα κατά τη φόρτωση
 Error loading file: {0}: Σφάλμα κατά τη φόρτωση του αρχείου: {0}
 Error loading playlists: {0}: Σφάλμα κατά τη φόρτωση λιστών αναπαραγωγής: {0}
@@ -160,14 +168,19 @@ Name: Ονομα
 Nanoid: Νανοειδές
 Network error: Σφάλμα δικτύου
 New Playlist: Νέα λίστα αναπαραγωγής
+Next: Επόμενος
 Next ▶: Επόμενο ▶
 No .m3u files found on GitHub repository.: Δεν βρέθηκαν αρχεία .m3u στο αποθετήριο GitHub.
+No cache folder found.: Δεν βρέθηκε φάκελος κρυφής μνήμης.
 No channels could be mapped. Check your mapping rules.: Δεν ήταν δυνατή η χαρτογράφηση καναλιών. Ελέγξτε τους κανόνες χαρτογράφησης.
 No channels mapped: Δεν έχουν χαρτογραφηθεί κανάλια
 No duplicate URLs found.: Δεν βρέθηκαν διπλότυπες διευθύνσεις URL.
+No EPG data: Δεν υπάρχουν δεδομένα EPG
+No EPG information available for this channel.: Δεν υπάρχουν διαθέσιμες πληροφορίες EPG για αυτό το κανάλι.
+No EPG source configured. Please select one from the combo or go to Settings.: Δεν έχει διαμορφωθεί πηγή EPG. Επιλέξτε ένα από τον συνδυασμό ή μεταβείτε στις Ρυθμίσεις.
+No EPG source configured. Would you like to open settings to select one?: Δεν έχει διαμορφωθεί πηγή EPG. Θέλετε να ανοίξετε τις ρυθμίσεις για να επιλέξετε μία;
 No favorite channels to export.: Δεν υπάρχουν αγαπημένα κανάλια για εξαγωγή.
 No playlist found: Δεν βρέθηκε λίστα αναπαραγωγής
-No stream: Χωρίς ροή
 No updates available.: Δεν υπάρχουν διαθέσιμες ενημερώσεις.
 Normal speed (1x): Κανονική ταχύτητα (1x)
 Now: Τώρα
@@ -195,9 +208,10 @@ Ready.: Ετοιμος.
 Recent: Πρόσφατος
 Recent files – quick access to last 5 opened playlists.: Πρόσφατα αρχεία – γρήγορη πρόσβαση στις τελευταίες 5 ανοιγμένες λίστες αναπαραγωγής.
 Recent playlists: Πρόσφατες λίστες αναπαραγωγής
-Refresh: Φρεσκάρω
+Refresh EPG: Ανανέωση EPG
 Refresh EPG List: Ανανέωση λίστας EPG
 Refresh from GitHub: Ανανέωση από το GitHub
+Refresh List: Ανανέωση λίστας
 Rename Group: Μετονομασία ομάδας
 Repository: Αποθήκη
 Reset Order: Επαναφορά παραγγελίας
@@ -210,6 +224,7 @@ Save Mapping: Αποθήκευση χαρτογράφησης
 Save Playlist: Αποθήκευση λίστας αναπαραγωγής
 Save Status: Αποθήκευση κατάστασης
 Saved: Αποθηκεύτηκε
+Search channel: : Αναζήτηση καναλιού:
 Search channels by name: Αναζήτηση καναλιών με το όνομα
 Search channels...: Αναζήτηση καναλιών...
 Select a playlist first.: Επιλέξτε πρώτα μια λίστα αναπαραγωγής.
@@ -220,7 +235,7 @@ Show List: Εμφάνιση λίστας
 Show only channels marked as favorites: Εμφάνιση μόνο καναλιών που έχουν επισημανθεί ως αγαπημένα
 Show or hide the channel list: Εμφάνιση ή απόκρυψη της λίστας καναλιών
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Ιδιαίτερες ευχαριστίες στις κοινότητες CORVOBOYS & LinuxSat-Support για τη δοκιμή και την υποστήριξη.
-Start (local): Έναρξη (τοπικό)
+Start: Αρχή
 Status: Κατάσταση
 Stream URL: URL ροής
 Stream URLs: URL ροής
@@ -239,6 +254,7 @@ Total: Σύνολο
 Total channels in loaded playlist: Σύνολο καναλιών στη φορτωμένη λίστα αναπαραγωγής
 TV Guide (EPG): Οδηγός τηλεόρασης (EPG)
 TvgId: TvgId
+Type channel name to filter: Πληκτρολογήστε το όνομα του καναλιού για να φιλτράρετε
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Δεν είναι δυνατή η εύρεση της έκδοσης σε απομακρυσμένο αρχείο έργου.
 Update: Εκσυγχρονίζω

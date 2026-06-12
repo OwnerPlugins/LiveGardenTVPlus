@@ -1,7 +1,10 @@
 ﻿using LiveGardenTVPlus.Models;
 using LiveGardenTVPlus.Services;
+using System.Net.Http;
+using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Threading;
 
 namespace LiveGardenTVPlus.Views
 {
@@ -9,6 +12,9 @@ namespace LiveGardenTVPlus.Views
     {
         private EpgService _epgService;
         private List<Channel> _channels;
+        private List<EpgChannelDisplay> _allChannelDisplays;
+        private DispatcherTimer _searchTimer;
+        private List<KeyValuePair<string, string>> _epgSources = new List<KeyValuePair<string, string>>();
 
         public EpgWindow(EpgService epgService, List<Channel> channels)
         {
@@ -16,84 +22,201 @@ namespace LiveGardenTVPlus.Views
             _epgService = epgService;
             _channels = channels;
 
-            // Subscribe to language changes
+            // Load EPG sources list (non-blocking, but no UI interaction yet)
+            _ = LoadEpgSourcesAsync();
+
+            // Build channel display list (without EPG info initially)
+            _allChannelDisplays = _channels.Select(ch => new EpgChannelDisplay
+            {
+                Channel = ch,
+                DisplayName = ch.Name,
+                EpgId = null
+            }).OrderBy(x => x.DisplayName).ToList();
+
+            FilterChannelList();
+
+            // Setup search debouncer
+            _searchTimer = new DispatcherTimer { Interval = TimeSpan.FromMilliseconds(200) };
+            _searchTimer.Tick += (s, e) => { _searchTimer.Stop(); FilterChannelList(); };
+
             LanguageManager.LanguageChanged += OnLanguageChanged;
             ApplyLanguage();
 
-            var epgChannels = _channels.Select(ch => new
-            {
-                Channel = ch,
-                EpgId = GetEpgChannelId(ch)
-            })
-            .Select(x => new EpgChannelDisplay
-            {
-                DisplayName = x.EpgId != null ? x.Channel.Name : x.Channel.Name + " (No EPG)",
-                EpgId = x.EpgId
-            })
-            .OrderBy(x => x.DisplayName)
-            .ToList();
-
-            ChannelCombo.ItemsSource = epgChannels;
-            if (ChannelCombo.Items.Count > 0)
-                ChannelCombo.SelectedIndex = 0;
+            // Defer EPG source check and dialog opening until after window is loaded
+            this.Loaded += async (s, e) => await CheckAndLoadEpgAsync();
         }
 
-        private void OnLanguageChanged()
+        private async Task CheckAndLoadEpgAsync()
         {
-            ApplyLanguage();
+            var prefs = UserPreferences.Load();
+            if (string.IsNullOrEmpty(prefs.EpgUrl))
+            {
+                var result = MessageBox.Show(
+                    LanguageManager.GetTranslation("No EPG source configured. Would you like to open settings to select one?"),
+                    LanguageManager.GetTranslation("EPG Source Missing"),
+                    MessageBoxButton.YesNo,
+                    MessageBoxImage.Question);
+                if (result == MessageBoxResult.Yes)
+                {
+                    var settings = new SettingsWindow();
+                    settings.Owner = this;
+                    settings.ShowDialog();
+                    // Reload EPG if now configured
+                    if (!string.IsNullOrEmpty(UserPreferences.Load().EpgUrl))
+                        await RefreshEpgData();
+                }
+                // If user chooses No, continue without EPG (channel list works)
+            }
+            else
+            {
+                await RefreshEpgData();
+            }
         }
+
+        private async Task LoadEpgSourcesAsync()
+        {
+            try
+            {
+                RefreshEpgListBtn.IsEnabled = false;
+                RefreshEpgListBtn.Content = LanguageManager.GetTranslation("Loading...");
+                string baseUrl = "https://epgshare01.online/epgshare01/";
+                using var client = new HttpClient();
+                string html = await client.GetStringAsync(baseUrl);
+                var matches = Regex.Matches(html, "<a href=\"([^\"]+\\.xml\\.gz)\"");
+                _epgSources.Clear();
+                foreach (Match m in matches)
+                {
+                    string fileName = m.Groups[1].Value;
+                    string fullUrl = baseUrl + fileName;
+                    string displayName = fileName.Replace("epg_ripper_", "").Replace(".xml.gz", "").ToUpper();
+                    _epgSources.Add(new KeyValuePair<string, string>(displayName, fullUrl));
+                }
+                EpgSourceCombo.ItemsSource = _epgSources;
+                EpgSourceCombo.DisplayMemberPath = "Key";
+                EpgSourceCombo.SelectedValuePath = "Value";
+
+                var prefs = UserPreferences.Load();
+                if (!string.IsNullOrEmpty(prefs.EpgUrl))
+                {
+                    var existing = _epgSources.Find(x => x.Value == prefs.EpgUrl);
+                    if (existing.Key != null)
+                        EpgSourceCombo.SelectedItem = existing;
+                    else
+                        EpgSourceCombo.Text = prefs.EpgUrl;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error loading EPG list: {ex.Message}");
+            }
+            finally
+            {
+                RefreshEpgListBtn.IsEnabled = true;
+                RefreshEpgListBtn.Content = LanguageManager.GetTranslation("Refresh List");
+            }
+        }
+
+        private async void EpgSourceCombo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (EpgSourceCombo.SelectedItem is KeyValuePair<string, string> selected)
+            {
+                var prefs = UserPreferences.Load();
+                prefs.EpgUrl = selected.Value;
+                prefs.Save();
+                await RefreshEpgData();
+            }
+        }
+
+        private async Task RefreshEpgData()
+        {
+            var prefs = UserPreferences.Load();
+            if (string.IsNullOrEmpty(prefs.EpgUrl))
+            {
+                MessageBox.Show(LanguageManager.GetTranslation("No EPG source configured. Please select one from the combo or go to Settings."),
+                                LanguageManager.GetTranslation("Info"), MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+
+            await _epgService.LoadEpgAsync(prefs.EpgUrl);
+
+            // Update EPG IDs for all channels
+            foreach (var item in _allChannelDisplays)
+            {
+                var epgId = GetEpgChannelId(item.Channel);
+                item.EpgId = epgId;
+                item.DisplayName = epgId != null ? item.Channel.Name : item.Channel.Name + " (No EPG)";
+            }
+            FilterChannelList();
+        }
+
+        private void OnLanguageChanged() => ApplyLanguage();
 
         private void ApplyLanguage()
         {
-            // Translate window title
-            this.Title = LanguageManager.GetTranslation("TV Guide (EPG)");
-
-            // Translate static controls
-            var channelLabel = FindName("ChannelLabel") as TextBlock;
-            if (channelLabel != null) channelLabel.Text = LanguageManager.GetTranslation("Channel:");
-
-            RefreshBtn.Content = LanguageManager.GetTranslation("Refresh");
+            Title = LanguageManager.GetTranslation("TV Guide (EPG)");
+            EpgSourceLabel.Text = LanguageManager.GetTranslation("EPG Source");
+            RefreshEpgListBtn.Content = LanguageManager.GetTranslation("Refresh List");
+            SearchLabel.Text = LanguageManager.GetTranslation("Search channel");
+            SearchBox.ToolTip = LanguageManager.GetTranslation("Type channel name to filter");
+            ClearSearchBtn.ToolTip = LanguageManager.GetTranslation("Clear search");
+            RefreshBtn.Content = LanguageManager.GetTranslation("Refresh EPG");
             DetailsBtn.Content = LanguageManager.GetTranslation("Details");
 
-            // Update DataGrid column headers
-            var startColumn = ProgramsGrid.Columns.FirstOrDefault(c => c.Header?.ToString() == "Start (local)");
-            if (startColumn != null) startColumn.Header = LanguageManager.GetTranslation("Start (local)");
-
-            var endColumn = ProgramsGrid.Columns.FirstOrDefault(c => c.Header?.ToString() == "End (local)");
-            if (endColumn != null) endColumn.Header = LanguageManager.GetTranslation("End (local)");
-
+            // Update DataGrid columns
+            var startColumn = ProgramsGrid.Columns.FirstOrDefault(c => c.Header?.ToString() == "Start");
+            if (startColumn != null) startColumn.Header = LanguageManager.GetTranslation("Start");
+            var endColumn = ProgramsGrid.Columns.FirstOrDefault(c => c.Header?.ToString() == "End");
+            if (endColumn != null) endColumn.Header = LanguageManager.GetTranslation("End");
             var titleColumn = ProgramsGrid.Columns.FirstOrDefault(c => c.Header?.ToString() == "Title");
             if (titleColumn != null) titleColumn.Header = LanguageManager.GetTranslation("Title");
-
             var descColumn = ProgramsGrid.Columns.FirstOrDefault(c => c.Header?.ToString() == "Description");
             if (descColumn != null) descColumn.Header = LanguageManager.GetTranslation("Description");
-
             var catColumn = ProgramsGrid.Columns.FirstOrDefault(c => c.Header?.ToString() == "Category");
             if (catColumn != null) catColumn.Header = LanguageManager.GetTranslation("Category");
         }
 
         private string GetEpgChannelId(Channel ch)
         {
-            // First try by tvgId
             if (!string.IsNullOrEmpty(ch.TvgId) && _epgService.HasChannel(ch.TvgId))
                 return ch.TvgId;
-
-            // Then try fuzzy match by name
-            var program = _epgService.GetCurrentProgram(ch.Name, ch.TvgId, DateTime.UtcNow);
-            if (program != null)
-            {
-                return _epgService.GetMappedEpgId(ch.Name);
-            }
-
-            // Return null but we will still show the channel in the list with "no EPG"
+            // Try fuzzy matching
+            var epgId = _epgService.GetMappedEpgId(ch.Name);
+            if (!string.IsNullOrEmpty(epgId))
+                return epgId;
             return null;
         }
 
-        private async void ChannelCombo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if (ChannelCombo.SelectedItem is EpgChannelDisplay selected)
+            _searchTimer.Stop();
+            _searchTimer.Start();
+        }
+
+        private void ClearSearchBtn_Click(object sender, RoutedEventArgs e)
+        {
+            SearchBox.Text = "";
+            FilterChannelList();
+            SearchBox.Focus();
+        }
+
+        private void FilterChannelList()
+        {
+            string filter = SearchBox.Text?.Trim() ?? "";
+            if (string.IsNullOrEmpty(filter))
+                ChannelListBox.ItemsSource = _allChannelDisplays;
+            else
             {
-                // Load programs for this EPG channel
+                var filtered = _allChannelDisplays
+                    .Where(c => c.DisplayName.IndexOf(filter, StringComparison.OrdinalIgnoreCase) >= 0)
+                    .ToList();
+                ChannelListBox.ItemsSource = filtered;
+            }
+        }
+
+        private async void ChannelListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (ChannelListBox.SelectedItem is EpgChannelDisplay selected && selected.EpgId != null)
+            {
                 var programs = await _epgService.GetProgramsForChannelAsync(selected.EpgId, DateTime.Today, DateTime.Today.AddDays(1));
                 var list = programs.Select(p => new EpgProgramDisplay
                 {
@@ -105,21 +228,22 @@ namespace LiveGardenTVPlus.Views
                 }).OrderBy(p => p.StartLocal).ToList();
                 ProgramsGrid.ItemsSource = list;
             }
+            else
+            {
+                ProgramsGrid.ItemsSource = null;
+            }
         }
 
         private async void RefreshBtn_Click(object sender, RoutedEventArgs e)
         {
-            // Reload EPG data
-            var prefs = UserPreferences.Load();
-            if (!string.IsNullOrEmpty(prefs.EpgUrl))
-            {
-                await _epgService.LoadEpgAsync(prefs.EpgUrl);
-                // Refresh current selection
-                ChannelCombo_SelectionChanged(null, null);
-            }
+            await RefreshEpgData();
         }
 
-        // Show details for the selected program (same as double-click)
+        private async void RefreshEpgListBtn_Click(object sender, RoutedEventArgs e)
+        {
+            await LoadEpgSourcesAsync();
+        }
+
         private void DetailsBtn_Click(object sender, RoutedEventArgs e)
         {
             var program = ProgramsGrid.SelectedItem as EpgProgramDisplay;
@@ -133,7 +257,6 @@ namespace LiveGardenTVPlus.Views
             ShowProgramDetails(program);
         }
 
-        // Extract the detail window logic into a separate method
         private void ShowProgramDetails(EpgProgramDisplay program)
         {
             var detailWindow = new Window
@@ -163,7 +286,6 @@ namespace LiveGardenTVPlus.Views
             detailWindow.ShowDialog();
         }
 
-        // double-click handler
         private void ProgramsGrid_MouseDoubleClick(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
             var program = ProgramsGrid.SelectedItem as EpgProgramDisplay;
@@ -173,6 +295,7 @@ namespace LiveGardenTVPlus.Views
 
         public class EpgChannelDisplay
         {
+            public Channel Channel { get; set; }
             public string DisplayName { get; set; }
             public string EpgId { get; set; }
         }

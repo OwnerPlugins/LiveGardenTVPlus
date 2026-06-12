@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (완전히 자발적 – 차단된 기능 없음)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (캐시 폴더: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (완전히 자발적 – 차단된 기능 없음)
 (No description): (설명 없음)
 • Add / rename / delete groups.: • 그룹을 추가/이름 바꾸기/삭제합니다.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • 버퍼 슬라이더: HLS 버퍼를 조정합니다(1~10초).
@@ -32,21 +33,24 @@ Auto-detect: 자동 감지
 Automatic check on startup – or click 'Check for updates' in Tools menu.: 시작 시 자동 확인 - 또는 도구 메뉴에서 '업데이트 확인'을 클릭하세요.
 Buffer (seconds): 버퍼(초)
 Buffer size – adjust HLS buffer seconds.: 버퍼 크기 – HLS 버퍼 초를 조정합니다.
+Cache: 은닉처
 Cancel: 취소
 CANCEL: 취소
 Category: 범주
 Changelog: 변경 내역
 Channel Details: 채널 세부정보
 Channel Info: 채널 정보
-Channel:: 채널:
 channels from: 채널
 channels from JSON URL: JSON URL의 채널
 channels from URL: URL의 채널
 Check Duplicates: 중복 확인
 Check for updates: 업데이트 확인
 Check URLs: URL 확인
+Clear EPG Cache: EPG 캐시 지우기
 Clear Filters: 필터 지우기
 Clear search: 검색 지우기
+Click for details: 자세한 내용을 보려면 클릭하세요.
+Close: 닫다
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: 커뮤니티 및 테스트: CorvoBoys(corvoboys.org) 및 LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: 국가
@@ -65,7 +69,7 @@ Drag to seek back in buffer: 드래그하여 버퍼에서 다시 탐색
 Duplicate URLs found:\n\n: 중복된 URL이 발견되었습니다.\n\n
 Edit Playlist: 재생목록 편집
 Edit URLs: URL 편집
-End (local): 종료(로컬)
+End: 끝
 Enrich with EPG: EPG로 풍요롭게 하세요
 Enter JSON URL:: JSON URL을 입력하세요:
 Enter playlist URL (M3U or JSON):: 재생목록 URL 입력(M3U 또는 JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg 및 즐겨찾기
 Epg & Logos: Epg 및 로고
 EPG & Logos: EPG 및 로고
+EPG cache cleared successfully.: EPG 캐시가 성공적으로 지워졌습니다.
+EPG Details: EPG 세부정보
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG 가이드 – 메인 도구 모음의 버튼은 프로그램 세부 정보가 포함된 전체 그리드를 표시합니다(정보를 보려면 두 번 클릭).
 EPG Matching Threshold: EPG 일치 임계값
-EPG Source: EPG 소스
+EPG Source: : EPG 소스:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG 소스 – 설정(epgshare01 또는 사용자 정의 URL)에서 설정할 수 있습니다.
 EPG source – choose XMLTV file or enter custom URL.: EPG 소스 – XMLTV 파일을 선택하거나 사용자 정의 URL을 입력합니다.
+EPG Source Missing: EPG 소스 누락
 Error: 오류
+Error clearing cache: 캐시를 지우는 중에 오류가 발생했습니다.
 Error loading: 로드 중 오류 발생
 Error loading file: {0}: 파일 로드 중 오류 발생: {0}
 Error loading playlists: {0}: 재생목록 로드 중 오류 발생: {0}
@@ -160,14 +168,19 @@ Name: 이름
 Nanoid: 나노이드
 Network error: 네트워크 오류
 New Playlist: 새 재생목록
+Next: 다음
 Next ▶: 다음 ▶
 No .m3u files found on GitHub repository.: GitHub 저장소에서 .m3u 파일을 찾을 수 없습니다.
+No cache folder found.: 캐시 폴더를 찾을 수 없습니다.
 No channels could be mapped. Check your mapping rules.: 채널을 매핑할 수 없습니다. 매핑 규칙을 확인하세요.
 No channels mapped: 매핑된 채널이 없습니다.
 No duplicate URLs found.: 중복된 URL이 없습니다.
+No EPG data: EPG 데이터 없음
+No EPG information available for this channel.: 이 채널에 사용할 수 있는 EPG 정보가 없습니다.
+No EPG source configured. Please select one from the combo or go to Settings.: 구성된 EPG 소스가 없습니다. 콤보에서 하나를 선택하거나 설정으로 이동하세요.
+No EPG source configured. Would you like to open settings to select one?: 구성된 EPG 소스가 없습니다. 설정을 열어서 하나를 선택하시겠습니까?
 No favorite channels to export.: 내보낼 즐겨찾는 채널이 없습니다.
 No playlist found: 재생목록을 찾을 수 없습니다.
-No stream: 스트림 없음
 No updates available.: 사용 가능한 업데이트가 없습니다.
 Normal speed (1x): 일반 속도(1x)
 Now: 지금
@@ -195,9 +208,10 @@ Ready.: 준비가 된.
 Recent: 최근의
 Recent files – quick access to last 5 opened playlists.: 최근 파일 - 최근에 열었던 5개의 재생 목록에 빠르게 액세스할 수 있습니다.
 Recent playlists: 최근 재생목록
-Refresh: 새로 고치다
+Refresh EPG: EPG 새로 고침
 Refresh EPG List: EPG 목록 새로 고침
 Refresh from GitHub: GitHub에서 새로 고침
+Refresh List: 목록 새로고침
 Rename Group: 그룹 이름 바꾸기
 Repository: 저장소
 Reset Order: 주문 재설정
@@ -210,6 +224,7 @@ Save Mapping: 매핑 저장
 Save Playlist: 재생목록 저장
 Save Status: 상태 저장
 Saved: 저장됨
+Search channel: : 검색 채널:
 Search channels by name: 이름으로 채널 검색
 Search channels...: 채널 검색...
 Select a playlist first.: 먼저 재생목록을 선택하세요.
@@ -220,7 +235,7 @@ Show List: 목록 표시
 Show only channels marked as favorites: 즐겨찾기로 표시된 채널만 표시
 Show or hide the channel list: 채널 목록 표시 또는 숨기기
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: 테스트 및 지원을 해주신 CORVOBOYS 및 LinuxSat 지원 커뮤니티에 특별히 감사드립니다.
-Start (local): 시작(로컬)
+Start: 시작
 Status: 상태
 Stream URL: 스트림 URL
 Stream URLs: 스트림 URL
@@ -239,6 +254,7 @@ Total: 총
 Total channels in loaded playlist: 로드된 재생목록의 총 채널
 TV Guide (EPG): TV 가이드(EPG)
 TvgId: TvgId
+Type channel name to filter: 필터링할 채널 이름을 입력하세요.
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: 원격 프로젝트 파일에서 버전을 찾을 수 없습니다.
 Update: 업데이트

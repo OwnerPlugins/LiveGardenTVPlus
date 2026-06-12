@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Zcela dobrovolné – žádné funkce nejsou blokovány)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Složka mezipaměti: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Zcela dobrovolné – žádné funkce nejsou blokovány)
 (No description): (Bez popisu)
 • Add / rename / delete groups.: • Přidat / přejmenovat / odstranit skupiny.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Posuvník vyrovnávací paměti: úprava vyrovnávací paměti HLS (1–10 sekund).
@@ -32,21 +33,24 @@ Auto-detect: Automatická detekce
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatická kontrola při spuštění – nebo klikněte na „Zkontrolovat aktualizace“ v nabídce Nástroje.
 Buffer (seconds): Vyrovnávací paměť (sekundy)
 Buffer size – adjust HLS buffer seconds.: Velikost vyrovnávací paměti – nastavení sekund vyrovnávací paměti HLS.
+Cache: Cache
 Cancel: Zrušit
 CANCEL: ZRUŠIT
 Category: Kategorie
 Changelog: Seznam změn
 Channel Details: Podrobnosti kanálu
 Channel Info: Informace o kanálu
-Channel:: Kanál:
 channels from: kanály z
 channels from JSON URL: kanály z adresy URL JSON
 channels from URL: kanály z adresy URL
 Check Duplicates: Zaškrtněte Duplikáty
 Check for updates: Zkontrolujte aktualizace
 Check URLs: Zkontrolujte adresy URL
+Clear EPG Cache: Vymazat mezipaměť EPG
 Clear Filters: Vymazat filtry
 Clear search: Vymazat vyhledávání
+Click for details: Kliknutím zobrazíte podrobnosti
+Close: Blízko
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunita a testování: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Země
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Přetažením vyhledáte zpět ve vyrovnávací pam
 Duplicate URLs found:\n\n: Nalezeny duplicitní adresy URL:\n\n
 Edit Playlist: Upravit seznam skladeb
 Edit URLs: Upravit adresy URL
-End (local): Konec (místní)
+End: Konec
 Enrich with EPG: Obohaťte se o EPG
 Enter JSON URL:: Zadejte adresu URL JSON:
 Enter playlist URL (M3U or JSON):: Zadejte adresu URL seznamu videí (M3U nebo JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg a oblíbené
 Epg & Logos: Epg a loga
 EPG & Logos: EPG a loga
+EPG cache cleared successfully.: Mezipaměť EPG byla úspěšně vymazána.
+EPG Details: Podrobnosti EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Průvodce EPG – tlačítko na hlavním panelu nástrojů zobrazí celou mřížku s podrobnostmi o programu (informace získáte dvojitým kliknutím).
 EPG Matching Threshold: EPG Matching Threshold
-EPG Source: Zdroj EPG
+EPG Source: : Zdroj EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Zdroj EPG – lze nastavit v Nastavení (epgshare01 nebo vlastní URL).
 EPG source – choose XMLTV file or enter custom URL.: Zdroj EPG – vyberte soubor XMLTV nebo zadejte vlastní URL.
+EPG Source Missing: Chybí zdroj EPG
 Error: Chyba
+Error clearing cache: Chyba při mazání mezipaměti
 Error loading: Chyba při načítání
 Error loading file: {0}: Chyba při načítání souboru: {0}
 Error loading playlists: {0}: Chyba při načítání seznamů videí: {0}
@@ -160,14 +168,19 @@ Name: Jméno
 Nanoid: Nanoid
 Network error: Chyba sítě
 New Playlist: Nový seznam skladeb
+Next: Další
 Next ▶: Další ▶
 No .m3u files found on GitHub repository.: V úložišti GitHub nebyly nalezeny žádné soubory .m3u.
+No cache folder found.: Nebyla nalezena žádná složka mezipaměti.
 No channels could be mapped. Check your mapping rules.: Nebyly namapovány žádné kanály. Zkontrolujte svá pravidla mapování.
 No channels mapped: Nejsou namapovány žádné kanály
 No duplicate URLs found.: Nebyly nalezeny žádné duplicitní adresy URL.
+No EPG data: Žádná data EPG
+No EPG information available for this channel.: Pro tento kanál nejsou k dispozici žádné informace EPG.
+No EPG source configured. Please select one from the combo or go to Settings.: Není nakonfigurován žádný zdroj EPG. Vyberte jednu ze seznamu nebo přejděte do Nastavení.
+No EPG source configured. Would you like to open settings to select one?: Není nakonfigurován žádný zdroj EPG. Chcete otevřít nastavení a vybrat jedno?
 No favorite channels to export.: Žádné oblíbené kanály k exportu.
 No playlist found: Nebyl nalezen žádný seznam skladeb
-No stream: Žádný stream
 No updates available.: Nejsou k dispozici žádné aktualizace.
 Normal speed (1x): Normální rychlost (1x)
 Now: Teď
@@ -195,9 +208,10 @@ Ready.: Připraveno.
 Recent: Nedávné
 Recent files – quick access to last 5 opened playlists.: Poslední soubory – rychlý přístup k posledním 5 otevřeným seznamům skladeb.
 Recent playlists: Nedávné seznamy skladeb
-Refresh: Obnovit
+Refresh EPG: Obnovit EPG
 Refresh EPG List: Obnovit seznam EPG
 Refresh from GitHub: Obnovit z GitHubu
+Refresh List: Obnovit seznam
 Rename Group: Přejmenovat skupinu
 Repository: Úložiště
 Reset Order: Obnovit objednávku
@@ -210,6 +224,7 @@ Save Mapping: Uložit mapování
 Save Playlist: Uložit seznam skladeb
 Save Status: Uložit stav
 Saved: Uloženo
+Search channel: : Vyhledat kanál:
 Search channels by name: Vyhledávejte kanály podle názvu
 Search channels...: Hledat kanály...
 Select a playlist first.: Nejprve vyberte seznam skladeb.
@@ -220,7 +235,7 @@ Show List: Zobrazit seznam
 Show only channels marked as favorites: Zobrazit pouze kanály označené jako oblíbené
 Show or hide the channel list: Zobrazit nebo skrýt seznam kanálů
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Zvláštní poděkování patří komunitám CORVOBOYS & LinuxSat-Support za testování a podporu.
-Start (local): Start (místní)
+Start: Start
 Status: Postavení
 Stream URL: Adresa URL streamu
 Stream URLs: Streamovat adresy URL
@@ -239,6 +254,7 @@ Total: Celkový
 Total channels in loaded playlist: Celkový počet kanálů v načteném seznamu stop
 TV Guide (EPG): TV průvodce (EPG)
 TvgId: TvgId
+Type channel name to filter: Zadejte název kanálu, který chcete filtrovat
 UI: MaterialDesignThemes.Wpf: Uživatelské rozhraní: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Verzi nelze najít ve vzdáleném souboru projektu.
 Update: Aktualizovat

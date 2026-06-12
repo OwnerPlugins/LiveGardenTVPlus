@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Yn gwbl wirfoddol - nid oes unrhyw nodweddion wedi'u rhwystro)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Plygell storfa: % TEMP% \ LiveGardenTVPlus \ epg_cache)
+(Completely voluntary – no features are blocked): (Yn gwbl wirfoddol - nid oes unrhyw nodweddion wedi'u rhwystro)
 (No description): (Dim disgrifiad)
 • Add / rename / delete groups.: • Ychwanegu / ailenwi / dileu grwpiau.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Llithrydd clustogi: addasu byffer HLS (1-10 eiliad).
@@ -32,21 +33,24 @@ Auto-detect: Auto-canfod
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Gwiriad awtomatig wrth gychwyn - neu cliciwch ar 'Gwirio am ddiweddariadau' yn newislen Tools.
 Buffer (seconds): byffer (eiliadau)
 Buffer size – adjust HLS buffer seconds.: Maint byffer - addasu eiliadau byffer HLS.
+Cache: Cache
 Cancel: Canslo
 CANCEL: CANSLO
 Category: Categori
 Changelog: Newidlog
 Channel Details: Manylion Sianel
 Channel Info: Gwybodaeth Sianel
-Channel:: Sianel:
 channels from: sianeli o
 channels from JSON URL: sianeli o URL JSON
 channels from URL: sianeli o URL
 Check Duplicates: Gwiriwch Dyblygiadau
 Check for updates: Gwiriwch am ddiweddariadau
 Check URLs: Gwiriwch URLs
+Clear EPG Cache: Clirio EPG Cache
 Clear Filters: Hidlau clir
 Clear search: Chwiliad clir
+Click for details: Cliciwch am fanylion
+Close: Cau
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Cymuned a phrofi: CorvoBoys (corvoboys.org) a LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Gwlad
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Llusgwch i chwilio yn ôl yn y byffer
 Duplicate URLs found:\n\n: Wedi canfod URLau dyblyg:\n\n
 Edit Playlist: Golygu Rhestr Chwarae
 Edit URLs: Golygu URLs
-End (local): Diwedd (lleol)
+End: Diwedd
 Enrich with EPG: Cyfoethogi gyda EPG
 Enter JSON URL:: Rhowch URL JSON:
 Enter playlist URL (M3U or JSON):: Rhowch URL rhestr chwarae (M3U neu JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Ffefrynnau
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG a Logos
+EPG cache cleared successfully.: Clirio storfa EPG yn llwyddiannus.
+EPG Details: Manylion EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Canllaw EPG – mae botwm ar y prif far offer yn dangos y grid llawn gyda manylion y rhaglen (cliciwch ddwywaith am wybodaeth).
 EPG Matching Threshold: Trothwy Cyfatebol EPG
-EPG Source: Ffynhonnell EPG
+EPG Source: : Ffynhonnell EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Ffynhonnell EPG - gellir ei gosod yn y Gosodiadau (epgshare01 neu URL arferol).
 EPG source – choose XMLTV file or enter custom URL.: Ffynhonnell EPG - dewiswch ffeil XMLTV neu rhowch URL wedi'i deilwra.
+EPG Source Missing: Ffynhonnell EPG Ar Goll
 Error: Gwall
+Error clearing cache: Gwall wrth glirio'r storfa
 Error loading: Gwall wrth lwytho
 Error loading file: {0}: Gwall wrth lwytho ffeil: {0}
 Error loading playlists: {0}: Gwall wrth lwytho rhestri chwarae: {0}
@@ -88,7 +96,7 @@ Exit: Ymadael
 Export Favorites: Ffefrynnau Allforio
 Export Filtered JSON: Allforio JSON Hidlo
 Export Filtered M3U: Allforio Hidlo M3U
-Export JSON: Export JSON
+Export JSON: Allforio JSON
 Export KO: Allforio KO
 Export OK: Allforio Iawn
 Export only favorite channels to a new M3U file: Allforio hoff sianeli yn unig i ffeil M3U newydd
@@ -160,14 +168,19 @@ Name: Enw
 Nanoid: Nanoid
 Network error: Gwall rhwydwaith
 New Playlist: Rhestr Chwarae Newydd
+Next: Nesaf
 Next ▶: Nesaf ▶
 No .m3u files found on GitHub repository.: Ni ddarganfuwyd unrhyw ffeiliau .m3u ar ystorfa GitHub.
+No cache folder found.: Ni chanfuwyd ffolder storfa.
 No channels could be mapped. Check your mapping rules.: Nid oedd modd mapio unrhyw sianeli. Gwiriwch eich rheolau mapio.
 No channels mapped: Dim sianeli wedi'u mapio
 No duplicate URLs found.: Ni chanfuwyd URLau dyblyg.
+No EPG data: Dim data EPG
+No EPG information available for this channel.: Dim gwybodaeth EPG ar gael ar gyfer y sianel hon.
+No EPG source configured. Please select one from the combo or go to Settings.: Dim ffynhonnell EPG wedi'i ffurfweddu. Dewiswch un o'r combo neu ewch i Gosodiadau.
+No EPG source configured. Would you like to open settings to select one?: Dim ffynhonnell EPG wedi'i ffurfweddu. Hoffech chi agor gosodiadau i ddewis un?
 No favorite channels to export.: Dim hoff sianeli i'w hallforio.
 No playlist found: Heb ganfod rhestr chwarae
-No stream: Dim ffrwd
 No updates available.: Dim diweddariadau ar gael.
 Normal speed (1x): Cyflymder arferol (1x)
 Now: Yn awr
@@ -195,9 +208,10 @@ Ready.: Yn barod.
 Recent: diweddar
 Recent files – quick access to last 5 opened playlists.: Ffeiliau diweddar - mynediad cyflym i'r 5 rhestr chwarae ddiwethaf a agorwyd.
 Recent playlists: Rhestrau chwarae diweddar
-Refresh: Adnewyddu
+Refresh EPG: Adnewyddu EPG
 Refresh EPG List: Adnewyddu'r Rhestr EPG
 Refresh from GitHub: Adnewyddu o GitHub
+Refresh List: Rhestr Adnewyddu
 Rename Group: Ailenwi'r Grŵp
 Repository: Ystorfa
 Reset Order: Gorchymyn Ailosod
@@ -210,6 +224,7 @@ Save Mapping: Cadw Mapio
 Save Playlist: Cadw Rhestr Chwarae
 Save Status: Cadw Statws
 Saved: Cadwedig
+Search channel: : Chwilio sianel:
 Search channels by name: Chwilio sianeli yn ôl enw
 Search channels...: Chwilio sianeli...
 Select a playlist first.: Dewiswch restr chwarae yn gyntaf.
@@ -220,7 +235,7 @@ Show List: Dangos Rhestr
 Show only channels marked as favorites: Dangos sianeli sydd wedi'u marcio fel ffefrynnau yn unig
 Show or hide the channel list: Dangos neu guddio'r rhestr sianeli
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Diolch yn arbennig i gymunedau CORVOBOYS & LinuxSat-Support am brofi a chefnogi.
-Start (local): Dechrau (lleol)
+Start: Cychwyn
 Status: Statws
 Stream URL: Ffrydio URL
 Stream URLs: Ffrydio URLs
@@ -239,6 +254,7 @@ Total: Cyfanswm
 Total channels in loaded playlist: Cyfanswm y sianeli yn y rhestr chwarae wedi'i llwytho
 TV Guide (EPG): Canllaw Teledu (EPG)
 TvgId: TvgId
+Type channel name to filter: Teipiwch enw sianel i hidlo
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Methu dod o hyd i fersiwn mewn ffeil prosiect anghysbell.
 Update: Diweddariad

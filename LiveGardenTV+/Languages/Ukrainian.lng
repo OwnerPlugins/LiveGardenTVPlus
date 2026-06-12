@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Цілком добровільно – жодні функції не блокуються)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Папка кешу: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Цілком добровільно – жодні функції не блокуються)
 (No description): (Без опису)
 • Add / rename / delete groups.: • Додати / перейменувати / видалити групи.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Повзунок буфера: налаштуйте буфер HLS (1–10 секунд).
@@ -32,21 +33,24 @@ Auto-detect: Автоматичне визначення
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Автоматична перевірка під час запуску – або натисніть «Перевірити наявність оновлень» у меню «Інструменти».
 Buffer (seconds): Буфер (секунди)
 Buffer size – adjust HLS buffer seconds.: Розмір буфера – налаштування секунд буфера HLS.
+Cache: Кеш
 Cancel: Скасувати
 CANCEL: СКАСУВАТИ
 Category: Категорія
 Changelog: Журнал змін
 Channel Details: Деталі каналу
 Channel Info: Інформація про канал
-Channel:: канал:
 channels from: канали з
 channels from JSON URL: канали з JSON URL
 channels from URL: канали з URL
 Check Duplicates: Перевірте дублікати
 Check for updates: Перевірте наявність оновлень
 Check URLs: Перевірте URL-адреси
+Clear EPG Cache: Очистити кеш EPG
 Clear Filters: Очистити фільтри
 Clear search: Очистити пошук
+Click for details: Натисніть, щоб дізнатися більше
+Close: Закрити
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Спільнота та тестування: CorvoBoys (corvoboys.org) і LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Країна
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Перетягніть, щоб повернутис
 Duplicate URLs found:\n\n: Знайдено повторювані URL-адреси:\n\n
 Edit Playlist: Редагувати список відтворення
 Edit URLs: Редагувати URL-адреси
-End (local): Кінець (локальний)
+End: Кінець
 Enrich with EPG: Збагатити EPG
 Enter JSON URL:: Введіть JSON URL:
 Enter playlist URL (M3U or JSON):: Введіть URL-адресу списку відтворення (M3U або JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: EPG і вибране
 Epg & Logos: EPG і логотипи
 EPG & Logos: EPG і логотипи
+EPG cache cleared successfully.: Кеш EPG успішно очищено.
+EPG Details: Деталі EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Guide – кнопка на головній панелі інструментів показує повну сітку з деталями програми (двічі клацніть, щоб отримати інформацію).
 EPG Matching Threshold: Поріг відповідності EPG
-EPG Source: Джерело EPG
+EPG Source: : Джерело EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Джерело EPG – можна встановити в налаштуваннях (epgshare01 або спеціальна URL-адреса).
 EPG source – choose XMLTV file or enter custom URL.: Джерело EPG – виберіть файл XMLTV або введіть спеціальну URL-адресу.
+EPG Source Missing: Відсутнє джерело EPG
 Error: Помилка
+Error clearing cache: Помилка очищення кешу
 Error loading: Помилка завантаження
 Error loading file: {0}: Помилка завантаження файлу: {0}
 Error loading playlists: {0}: Помилка завантаження списків відтворення: {0}
@@ -160,14 +168,19 @@ Name: Ім'я
 Nanoid: Наноїд
 Network error: Помилка мережі
 New Playlist: Новий список відтворення
+Next: Далі
 Next ▶: Далі ▶
 No .m3u files found on GitHub repository.: У сховищі GitHub не знайдено файлів .m3u.
+No cache folder found.: Папка кешу не знайдена.
 No channels could be mapped. Check your mapping rules.: Не вдалося зіставити канали. Перевірте свої правила відображення.
 No channels mapped: Канали не зіставлено
 No duplicate URLs found.: Повторюваних URL-адрес не знайдено.
+No EPG data: Немає даних EPG
+No EPG information available for this channel.: Для цього каналу немає інформації EPG.
+No EPG source configured. Please select one from the combo or go to Settings.: Джерело EPG не налаштовано. Будь ласка, виберіть один із комбо або перейдіть до налаштувань.
+No EPG source configured. Would you like to open settings to select one?: Джерело EPG не налаштовано. Бажаєте відкрити налаштування, щоб вибрати один?
 No favorite channels to export.: Немає обраних каналів для експорту.
 No playlist found: Список відтворення не знайдено
-No stream: Немає потоку
 No updates available.: Немає оновлень.
 Normal speed (1x): Нормальна швидкість (1x)
 Now: Зараз
@@ -195,9 +208,10 @@ Ready.: Готовий.
 Recent: Останні
 Recent files – quick access to last 5 opened playlists.: Останні файли – швидкий доступ до останніх 5 відкритих списків відтворення.
 Recent playlists: Останні списки відтворення
-Refresh: Оновити
+Refresh EPG: Оновити EPG
 Refresh EPG List: Оновити список EPG
 Refresh from GitHub: Оновити з GitHub
+Refresh List: Оновити список
 Rename Group: Перейменувати групу
 Repository: Репозиторій
 Reset Order: Скинути замовлення
@@ -210,6 +224,7 @@ Save Mapping: Зберегти відображення
 Save Playlist: Зберегти список відтворення
 Save Status: Зберегти статус
 Saved: Збережено
+Search channel: : Шукати канал:
 Search channels by name: Пошук каналів за назвою
 Search channels...: Пошук каналів...
 Select a playlist first.: Спочатку виберіть список відтворення.
@@ -220,7 +235,7 @@ Show List: Показати список
 Show only channels marked as favorites: Показувати лише канали, позначені як вибрані
 Show or hide the channel list: Показати або приховати список каналів
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Особлива подяка спільнотам CORVOBOYS і LinuxSat-Support за тестування та підтримку.
-Start (local): Початок (локальний)
+Start: старт
 Status: Статус
 Stream URL: URL-адреса потоку
 Stream URLs: URL-адреси потоків
@@ -239,6 +254,7 @@ Total: Всього
 Total channels in loaded playlist: Загальна кількість каналів у завантаженому списку відтворення
 TV Guide (EPG): Телегід (EPG)
 TvgId: TvgId
+Type channel name to filter: Введіть назву каналу для фільтрування
 UI: MaterialDesignThemes.Wpf: Інтерфейс користувача: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Не вдалося знайти версію у віддаленому файлі проекту.
 Update: оновлення

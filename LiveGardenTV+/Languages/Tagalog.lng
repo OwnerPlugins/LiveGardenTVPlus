@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Ganap na boluntaryo - walang mga tampok na naka-block)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Ganap na boluntaryo - walang mga tampok na naka-block)
 (No description): (Walang paglalarawan)
 • Add / rename / delete groups.: • Magdagdag / palitan ang pangalan / tanggalin ang mga grupo.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffer slider: ayusin ang HLS buffer (1‑10 segundo).
@@ -32,21 +33,24 @@ Auto-detect: Auto-detect
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Awtomatikong pagsusuri sa startup – o i-click ang 'Tingnan para sa mga update' sa Tools menu.
 Buffer (seconds): Buffer (segundo)
 Buffer size – adjust HLS buffer seconds.: Laki ng buffer – ayusin ang mga segundo ng buffer ng HLS.
+Cache: Cache
 Cancel: Kanselahin
 CANCEL: KANSELAHIN
 Category: Kategorya
 Changelog: Changelog
 Channel Details: Mga Detalye ng Channel
 Channel Info: Impormasyon ng Channel
-Channel:: Channel:
 channels from: mga channel mula sa
 channels from JSON URL: mga channel mula sa JSON URL
 channels from URL: mga channel mula sa URL
 Check Duplicates: Suriin ang Mga Duplicate
 Check for updates: Tingnan ang mga update
 Check URLs: Suriin ang mga URL
+Clear EPG Cache: I-clear ang EPG Cache
 Clear Filters: I-clear ang Mga Filter
 Clear search: I-clear ang paghahanap
+Click for details: I-click para sa mga detalye
+Close: Isara
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunidad at pagsubok: CorvoBoys (corvoboys.org) at LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Bansa
@@ -65,7 +69,7 @@ Drag to seek back in buffer: I-drag upang maghanap pabalik sa buffer
 Duplicate URLs found:\n\n: May nakitang mga duplicate na URL:\n\n
 Edit Playlist: I-edit ang Playlist
 Edit URLs: I-edit ang mga URL
-End (local): Wakas (lokal)
+End: Tapusin
 Enrich with EPG: Pagyamanin gamit ang EPG
 Enter JSON URL:: Ilagay ang JSON URL:
 Enter playlist URL (M3U or JSON):: Ilagay ang URL ng playlist (M3U o JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg at Mga Paborito
 Epg & Logos: Epg at Mga Logo
 EPG & Logos: EPG at Mga Logo
+EPG cache cleared successfully.: Matagumpay na na-clear ang cache ng EPG.
+EPG Details: Mga Detalye ng EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Gabay sa EPG – ang button sa pangunahing toolbar ay nagpapakita ng buong grid na may mga detalye ng programa (double-click para sa impormasyon).
 EPG Matching Threshold: EPG Matching Threshold
-EPG Source: Pinagmulan ng EPG
+EPG Source: : Pinagmulan ng EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG source – maaaring itakda sa Mga Setting (epgshare01 o custom na URL).
 EPG source – choose XMLTV file or enter custom URL.: EPG source – piliin ang XMLTV file o ilagay ang custom na URL.
+EPG Source Missing: Nawawala ang Pinagmulan ng EPG
 Error: Error
+Error clearing cache: Error sa pag-clear ng cache
 Error loading: Error sa paglo-load
 Error loading file: {0}: Error sa paglo-load ng file: {0}
 Error loading playlists: {0}: Error sa pag-load ng mga playlist: {0}
@@ -160,14 +168,19 @@ Name: Pangalan
 Nanoid: Nanoid
 Network error: Error sa network
 New Playlist: Bagong Playlist
+Next: Susunod
 Next ▶: Susunod ▶
 No .m3u files found on GitHub repository.: Walang nakitang .m3u file sa GitHub repository.
+No cache folder found.: Walang nakitang folder ng cache.
 No channels could be mapped. Check your mapping rules.: Walang mga channel ang ma-mapa. Suriin ang iyong mga panuntunan sa pagmamapa.
 No channels mapped: Walang mga channel na nakamapa
 No duplicate URLs found.: Walang nakitang duplicate na URL.
+No EPG data: Walang data ng EPG
+No EPG information available for this channel.: Walang available na impormasyon sa EPG para sa channel na ito.
+No EPG source configured. Please select one from the combo or go to Settings.: Walang EPG source na na-configure. Mangyaring pumili ng isa mula sa combo o pumunta sa Mga Setting.
+No EPG source configured. Would you like to open settings to select one?: Walang EPG source na na-configure. Gusto mo bang buksan ang mga setting para pumili ng isa?
 No favorite channels to export.: Walang paboritong channel na ie-export.
 No playlist found: Walang nahanap na playlist
-No stream: Walang stream
 No updates available.: Walang available na update.
 Normal speed (1x): Normal na bilis (1x)
 Now: Ngayon
@@ -195,9 +208,10 @@ Ready.: handa na.
 Recent: Kamakailan
 Recent files – quick access to last 5 opened playlists.: Kamakailang mga file – mabilis na pag-access sa huling 5 binuksang playlist.
 Recent playlists: Mga kamakailang playlist
-Refresh: I-refresh
+Refresh EPG: I-refresh ang EPG
 Refresh EPG List: I-refresh ang Listahan ng EPG
 Refresh from GitHub: I-refresh mula sa GitHub
+Refresh List: I-refresh ang Listahan
 Rename Group: Palitan ang pangalan ng Grupo
 Repository: Imbakan
 Reset Order: I-reset ang Order
@@ -210,6 +224,7 @@ Save Mapping: I-save ang Mapping
 Save Playlist: I-save ang Playlist
 Save Status: I-save ang Katayuan
 Saved: Nai-save
+Search channel: : Maghanap ng channel:
 Search channels by name: Maghanap ng mga channel ayon sa pangalan
 Search channels...: Maghanap ng mga channel...
 Select a playlist first.: Pumili muna ng playlist.
@@ -220,7 +235,7 @@ Show List: Ipakita ang Listahan
 Show only channels marked as favorites: Ipakita lamang ang mga channel na minarkahan bilang mga paborito
 Show or hide the channel list: Ipakita o itago ang listahan ng channel
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Espesyal na salamat sa mga komunidad ng CORVOBOYS at LinuxSat-Support para sa pagsubok at suporta.
-Start (local): Magsimula (lokal)
+Start: Magsimula
 Status: Katayuan
 Stream URL: URL ng stream
 Stream URLs: Mga URL ng stream
@@ -239,6 +254,7 @@ Total: Kabuuan
 Total channels in loaded playlist: Kabuuang mga channel sa na-load na playlist
 TV Guide (EPG): Gabay sa TV (EPG)
 TvgId: TvgId
+Type channel name to filter: I-type ang pangalan ng channel upang i-filter
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Hindi mahanap ang bersyon sa malayuang file ng proyekto.
 Update: Update

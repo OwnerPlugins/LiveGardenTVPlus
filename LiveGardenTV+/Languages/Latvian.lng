@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Pilnīgi brīvprātīgi — neviena funkcija nav bloķēta)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Kešatmiņas mape: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Pilnīgi brīvprātīgi — neviena funkcija nav bloķēta)
 (No description): (Bez apraksta)
 • Add / rename / delete groups.: • Pievienot/pārdēvēt/dzēst grupas.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Bufera slīdnis: pielāgojiet HLS buferi (1–10 sekundes).
@@ -32,21 +33,24 @@ Auto-detect: Automātiska noteikšana
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automātiska palaišanas pārbaude — vai izvēlnē Rīki noklikšķiniet uz 'Pārbaudīt atjauninājumus'.
 Buffer (seconds): Buferis (sekundēs)
 Buffer size – adjust HLS buffer seconds.: Bufera lielums — pielāgojiet HLS bufera sekundes.
+Cache: Kešatmiņa
 Cancel: Atcelt
 CANCEL: ATCELT
 Category: Kategorija
 Changelog: Izmaiņu žurnāls
 Channel Details: Kanāla informācija
 Channel Info: Informācija par kanālu
-Channel:: Kanāls:
 channels from: kanāli no
 channels from JSON URL: kanāli no JSON URL
 channels from URL: kanāli no URL
 Check Duplicates: Pārbaudiet dublikātus
 Check for updates: Pārbaudiet, vai nav atjauninājumu
 Check URLs: Pārbaudiet URL
+Clear EPG Cache: Notīrīt EPG kešatmiņu
 Clear Filters: Notīrīt filtrus
 Clear search: Notīrīt meklēšanu
+Click for details: Noklikšķiniet, lai iegūtu sīkāku informāciju
+Close: Aizvērt
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Kopiena un testēšana: CorvoBoys (corvoboys.org) un LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Valsts
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Velciet, lai atgrieztos buferī
 Duplicate URLs found:\n\n: Atrasti vietrāžu URL dublikāti:\n\n
 Edit Playlist: Rediģēt atskaņošanas sarakstu
 Edit URLs: Rediģēt URL
-End (local): Beigas (vietējais)
+End: Beigas
 Enrich with EPG: Bagātināt ar EPG
 Enter JSON URL:: Ievadiet JSON URL:
 Enter playlist URL (M3U or JSON):: Ievadiet atskaņošanas saraksta URL (M3U vai JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg un izlase
 Epg & Logos: Epg un logotipi
 EPG & Logos: EPG un logotipi
+EPG cache cleared successfully.: EPG kešatmiņa ir veiksmīgi notīrīta.
+EPG Details: EPG detaļas
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG ceļvedis — poga galvenajā rīkjoslā parāda pilnu režģi ar informāciju par programmu (lai iegūtu informāciju, veiciet dubultklikšķi).
 EPG Matching Threshold: EPG atbilstības slieksnis
-EPG Source: EPG avots
+EPG Source: : EPG avots:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG avots — var iestatīt iestatījumos (epgshare01 vai pielāgots URL).
 EPG source – choose XMLTV file or enter custom URL.: EPG avots – izvēlieties XMLTV failu vai ievadiet pielāgotu URL.
+EPG Source Missing: Trūkst EPG avota
 Error: Kļūda
+Error clearing cache: Kļūda, notīrot kešatmiņu
 Error loading: Ielādējot, radās kļūda
 Error loading file: {0}: Ielādējot failu, radās kļūda: {0}
 Error loading playlists: {0}: Ielādējot atskaņošanas sarakstus, radās kļūda: {0}
@@ -160,14 +168,19 @@ Name: Vārds
 Nanoid: Nanoīds
 Network error: Tīkla kļūda
 New Playlist: Jauns atskaņošanas saraksts
+Next: Tālāk
 Next ▶: Nākamais ▶
 No .m3u files found on GitHub repository.: GitHub repozitorijā netika atrasts neviens .m3u fails.
+No cache folder found.: Kešatmiņas mape nav atrasta.
 No channels could be mapped. Check your mapping rules.: Nevarēja kartēt nevienu kanālu. Pārbaudiet savus kartēšanas noteikumus.
 No channels mapped: Nav kartētu kanālu
 No duplicate URLs found.: Nav atrasti dublikāti URL.
+No EPG data: Nav EPG datu
+No EPG information available for this channel.: Šim kanālam nav pieejama EPG informācija.
+No EPG source configured. Please select one from the combo or go to Settings.: Nav konfigurēts neviens EPG avots. Lūdzu, atlasiet vienu no kombinācijas vai atveriet sadaļu Iestatījumi.
+No EPG source configured. Would you like to open settings to select one?: Nav konfigurēts neviens EPG avots. Vai vēlaties atvērt iestatījumus, lai atlasītu vienu?
 No favorite channels to export.: Nav iecienītu kanālu, ko eksportēt.
 No playlist found: Nav atrasts neviens atskaņošanas saraksts
-No stream: Nav straumes
 No updates available.: Nav pieejami atjauninājumi.
 Normal speed (1x): Normāls ātrums (1x)
 Now: Tagad
@@ -195,9 +208,10 @@ Ready.: Gatavs.
 Recent: Nesen
 Recent files – quick access to last 5 opened playlists.: Jaunākie faili — ātra piekļuve pēdējiem 5 atvērtajiem atskaņošanas sarakstiem.
 Recent playlists: Jaunākie atskaņošanas saraksti
-Refresh: Atsvaidzināt
+Refresh EPG: Atsvaidziniet EPG
 Refresh EPG List: Atsvaidziniet EPG sarakstu
 Refresh from GitHub: Atsvaidziniet no GitHub
+Refresh List: Atsvaidzināt sarakstu
 Rename Group: Pārdēvēt grupu
 Repository: Repozitorijs
 Reset Order: Atiestatīt pasūtījumu
@@ -210,6 +224,7 @@ Save Mapping: Saglabāt kartēšanu
 Save Playlist: Saglabāt atskaņošanas sarakstu
 Save Status: Saglabāt statusu
 Saved: Saglabāts
+Search channel: : Meklēt kanālu:
 Search channels by name: Meklējiet kanālus pēc nosaukuma
 Search channels...: Meklēt kanālus...
 Select a playlist first.: Vispirms atlasiet atskaņošanas sarakstu.
@@ -220,7 +235,7 @@ Show List: Rādīt sarakstu
 Show only channels marked as favorites: Rādīt tikai kanālus, kas atzīmēti kā iecienītākie
 Show or hide the channel list: Rādīt vai paslēpt kanālu sarakstu
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Īpašs paldies CORVOBOYS un LinuxSat-Support kopienām par testēšanu un atbalstu.
-Start (local): Sākums (vietējais)
+Start: Sākt
 Status: Statuss
 Stream URL: Straumes URL
 Stream URLs: Straumējiet URL
@@ -239,6 +254,7 @@ Total: Kopā
 Total channels in loaded playlist: Kopējais kanālu skaits ielādētajā atskaņošanas sarakstā
 TV Guide (EPG): TV ceļvedis (EPG)
 TvgId: TvgId
+Type channel name to filter: Ievadiet filtrējamā kanāla nosaukumu
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Attālā projekta failā nevar atrast versiju.
 Update: Atjaunināt

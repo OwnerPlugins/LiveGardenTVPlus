@@ -584,6 +584,7 @@ namespace LiveGardenTVPlus.Views
                 else
                 {
                     // M3U handling: use background thread exactly as in v1.6
+                    /*
                     List<Channel> m3uChannels = null;
                     await Task.Run(() =>
                     {
@@ -591,7 +592,12 @@ namespace LiveGardenTVPlus.Views
                         File.WriteAllText(tempFile, content);
                         m3uChannels = M3uParser.Parse(tempFile);
                         File.Delete(tempFile);
-                    });
+                    }); */
+
+                    string tempFile = Path.GetTempFileName();
+                    await File.WriteAllTextAsync(tempFile, content);
+                    var m3uChannels = M3uParser.Parse(tempFile);
+                    File.Delete(tempFile);
 
                     if (m3uChannels == null || m3uChannels.Count == 0)
                         throw new Exception("No channels found in M3U.");

@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Потпуно добровољно – ниједна функција није блокирана)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Фасцикла кеш меморије: %ТЕМП%\\ЛивеГарденТВПлус\\епг_цацхе)
+(Completely voluntary – no features are blocked): (Потпуно добровољно – ниједна функција није блокирана)
 (No description): (без описа)
 • Add / rename / delete groups.: • Додај / преименуј / избриши групе.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Клизач бафера: подесите ХЛС бафер (1-10 секунди).
@@ -32,21 +33,24 @@ Auto-detect: Ауто-детецт
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Аутоматска провера при покретању – или кликните на „Провери ажурирања“ у менију Алатке.
 Buffer (seconds): бафер (секунде)
 Buffer size – adjust HLS buffer seconds.: Величина бафера – подесите секунде ХЛС бафера.
+Cache: Цацхе
 Cancel: Откажи
 CANCEL: ЦАНЦЕЛ
 Category: Категорија
 Changelog: Цхангелог
 Channel Details: Детаљи о каналу
 Channel Info: Информације о каналу
-Channel:: канал:
 channels from: канала из
 channels from JSON URL: канала из ЈСОН УРЛ-а
 channels from URL: канала са УРЛ-а
 Check Duplicates: Проверите дупликате
 Check for updates: Проверите ажурирања
 Check URLs: Проверите УРЛ-ове
+Clear EPG Cache: Обришите ЕПГ кеш меморију
 Clear Filters: Обриши филтере
 Clear search: Обриши претрагу
+Click for details: Кликните за детаље
+Close: Затвори
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Заједница и тестирање: ЦорвоБоис (цорвобоис.орг) & ЛинукСат-Суппорт.цом
 CORVOBOYS.ORG: ЦОРВОБОИС.ОРГ
 Country: Држава
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Превуците да бисте тражили �
 Duplicate URLs found:\n\n: Пронађени су дупликати УРЛ-ова:\н\н
 Edit Playlist: Уреди плејлисту
 Edit URLs: Измените УРЛ адресе
-End (local): Крај (локално)
+End: Крај
 Enrich with EPG: Обогатите ЕПГ-ом
 Enter JSON URL:: Унесите ЈСОН УРЛ:
 Enter playlist URL (M3U or JSON):: Унесите УРЛ плејлисте (М3У или ЈСОН):
@@ -73,12 +77,16 @@ EPG: ЕПГ
 Epg & Favorites: Епг & Фаворитес
 Epg & Logos: Епг & Логос
 EPG & Logos: ЕПГ & Логос
+EPG cache cleared successfully.: ЕПГ кеш је успешно обрисан.
+EPG Details: ЕПГ Детаљи
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: ЕПГ водич – дугме на главној траци са алаткама приказује пуну мрежу са детаљима програма (двапут кликните за информације).
 EPG Matching Threshold: ЕПГ Матцхинг Тхресхолд
-EPG Source: ЕПГ Соурце
+EPG Source: : ЕПГ Извор:
 EPG source – can be set in Settings (epgshare01 or custom URL).: ЕПГ извор – може се подесити у подешавањима (епгсхаре01 или прилагођени УРЛ).
 EPG source – choose XMLTV file or enter custom URL.: ЕПГ извор – изаберите КСМЛТВ датотеку или унесите прилагођени УРЛ.
+EPG Source Missing: ЕПГ извор недостаје
 Error: Грешка
+Error clearing cache: Грешка при чишћењу кеша
 Error loading: Грешка при учитавању
 Error loading file: {0}: Грешка при учитавању датотеке: {0}
 Error loading playlists: {0}: Грешка при учитавању плејлиста: {0}
@@ -160,14 +168,19 @@ Name: Име
 Nanoid: Наноид
 Network error: Мрежна грешка
 New Playlist: Нова листа за репродукцију
+Next: Следеће
 Next ▶: Следећи ▶
 No .m3u files found on GitHub repository.: У ГитХуб спремишту нису пронађене .м3у датотеке.
+No cache folder found.: Није пронађен ниједан кеш фолдер.
 No channels could be mapped. Check your mapping rules.: Ниједан канал није могао бити мапиран. Проверите правила мапирања.
 No channels mapped: Нема мапираних канала
 No duplicate URLs found.: Није пронађен ниједан дупликат УРЛ-а.
+No EPG data: Нема ЕПГ података
+No EPG information available for this channel.: Нема доступних ЕПГ информација за овај канал.
+No EPG source configured. Please select one from the combo or go to Settings.: Није конфигурисан ЕПГ извор. Изаберите једну из комбинације или идите на Подешавања.
+No EPG source configured. Would you like to open settings to select one?: Није конфигурисан ЕПГ извор. Да ли желите да отворите подешавања да бисте изабрали једно?
 No favorite channels to export.: Нема омиљених канала за извоз.
 No playlist found: Плејлиста није пронађена
-No stream: Нема стрима
 No updates available.: Нема доступних ажурирања.
 Normal speed (1x): Нормална брзина (1к)
 Now: Сада
@@ -195,9 +208,10 @@ Ready.: Спреман.
 Recent: Недавно
 Recent files – quick access to last 5 opened playlists.: Недавни фајлови – брз приступ последњих 5 отворених листа песама.
 Recent playlists: Недавне плејлисте
-Refresh: Освежи
+Refresh EPG: Освежите ЕПГ
 Refresh EPG List: Освежите ЕПГ листу
 Refresh from GitHub: Освежите са ГитХуб-а
+Refresh List: Освежите листу
 Rename Group: Преименуј групу
 Repository: Репозиторијум
 Reset Order: Ресетуј редослед
@@ -210,6 +224,7 @@ Save Mapping: Сачувај мапирање
 Save Playlist: Сачувај листу за репродукцију
 Save Status: Сачувај статус
 Saved: Сачувано
+Search channel: : Претражи канал:
 Search channels by name: Претражујте канале по имену
 Search channels...: Претражи канале...
 Select a playlist first.: Прво изаберите листу песама.
@@ -220,7 +235,7 @@ Show List: Прикажи листу
 Show only channels marked as favorites: Прикажи само канале означене као омиљени
 Show or hide the channel list: Прикажите или сакријте листу канала
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Посебно захваљујемо ЦОРВОБОИС & ЛинукСат-Суппорт заједницама на тестирању и подршци.
-Start (local): Почетак (локално)
+Start: Почни
 Status: Статус
 Stream URL: УРЛ стрима
 Stream URLs: УРЛ-ови стрима
@@ -239,6 +254,7 @@ Total: Укупно
 Total channels in loaded playlist: Укупан број канала на учитаној плејлисти
 TV Guide (EPG): ТВ водич (ЕПГ)
 TvgId: ТвгИд
+Type channel name to filter: Унесите назив канала да бисте филтрирали
 UI: MaterialDesignThemes.Wpf: УИ: МатериалДесигнТхемес.Впф
 Unable to find version in remote project file.: Није могуће пронаћи верзију у датотеци удаљеног пројекта.
 Update: Ажурирај

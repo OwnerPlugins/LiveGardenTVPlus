@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (முற்றிலும் தன்னார்வ - எந்த அம்சங்களும் தடுக்கப்படவில்லை)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (கேச் கோப்புறை: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (முற்றிலும் தன்னார்வ - எந்த அம்சங்களும் தடுக்கப்படவில்லை)
 (No description): (விளக்கம் இல்லை)
 • Add / rename / delete groups.: • குழுக்களைச் சேர்க்கவும் / மறுபெயரிடவும் / நீக்கவும்.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • பஃபர் ஸ்லைடர்: HLS இடையகத்தைச் சரிசெய்யவும் (1-10 வினாடிகள்).
@@ -32,21 +33,24 @@ Auto-detect: தானாக கண்டறிதல்
 Automatic check on startup – or click 'Check for updates' in Tools menu.: தொடக்கத்தில் தானியங்கி சரிபார்ப்பு - அல்லது கருவிகள் மெனுவில் 'புதுப்பிப்புகளைச் சரிபார்க்கவும்' என்பதைக் கிளிக் செய்யவும்.
 Buffer (seconds): இடையக (வினாடிகள்)
 Buffer size – adjust HLS buffer seconds.: இடையக அளவு - HLS இடையக வினாடிகளை சரிசெய்யவும்.
+Cache: தற்காலிக சேமிப்பு
 Cancel: ரத்து செய்
 CANCEL: ரத்துசெய்
 Category: வகை
 Changelog: சேஞ்ச்லாக்
 Channel Details: சேனல் விவரங்கள்
 Channel Info: சேனல் தகவல்
-Channel:: சேனல்:
 channels from: இருந்து சேனல்கள்
 channels from JSON URL: JSON URL இலிருந்து சேனல்கள்
 channels from URL: URL இலிருந்து சேனல்கள்
 Check Duplicates: நகல்களை சரிபார்க்கவும்
 Check for updates: புதுப்பிப்புகளைச் சரிபார்க்கவும்
 Check URLs: URLகளை சரிபார்க்கவும்
+Clear EPG Cache: EPG தற்காலிக சேமிப்பை அழிக்கவும்
 Clear Filters: வடிகட்டிகளை அழி
 Clear search: தெளிவான தேடல்
+Click for details: விவரங்களுக்கு கிளிக் செய்யவும்
+Close: மூடு
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: சமூகம் மற்றும் சோதனை: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOYS.ORG
 Country: நாடு
@@ -65,7 +69,7 @@ Drag to seek back in buffer: இடையகத்தில் மீண்ட�
 Duplicate URLs found:\n\n: நகல் URLகள் கண்டறியப்பட்டன:\n\n
 Edit Playlist: பிளேலிஸ்ட்டைத் திருத்து
 Edit URLs: URLகளைத் திருத்தவும்
-End (local): முடிவு (உள்ளூர்)
+End: முடிவு
 Enrich with EPG: EPG மூலம் வளப்படுத்தவும்
 Enter JSON URL:: JSON URL ஐ உள்ளிடவும்:
 Enter playlist URL (M3U or JSON):: பிளேலிஸ்ட் URL ஐ உள்ளிடவும் (M3U அல்லது JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: முட்டை & பிடித்தவை
 Epg & Logos: Epg & லோகோக்கள்
 EPG & Logos: EPG & லோகோக்கள்
+EPG cache cleared successfully.: EPG தற்காலிக சேமிப்பு வெற்றிகரமாக அழிக்கப்பட்டது.
+EPG Details: EPG விவரங்கள்
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG வழிகாட்டி - பிரதான கருவிப்பட்டியில் உள்ள பொத்தான் நிரல் விவரங்களுடன் முழு கட்டத்தையும் காட்டுகிறது (தகவலுக்கு இருமுறை கிளிக் செய்யவும்).
 EPG Matching Threshold: EPG மேட்சிங் த்ரெஷோல்ட்
-EPG Source: EPG ஆதாரம்
+EPG Source: : EPG ஆதாரம்:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG மூலம் - அமைப்புகளில் அமைக்கலாம் (epgshare01 அல்லது தனிப்பயன் URL).
 EPG source – choose XMLTV file or enter custom URL.: EPG மூலம் - XMLTV கோப்பைத் தேர்வு செய்யவும் அல்லது தனிப்பயன் URL ஐ உள்ளிடவும்.
+EPG Source Missing: EPG ஆதாரம் இல்லை
 Error: பிழை
+Error clearing cache: தற்காலிக சேமிப்பை அழிப்பதில் பிழை
 Error loading: ஏற்றுவதில் பிழை
 Error loading file: {0}: கோப்பை ஏற்றுவதில் பிழை: {0}
 Error loading playlists: {0}: பிளேலிஸ்ட்களை ஏற்றுவதில் பிழை: {0}
@@ -160,14 +168,19 @@ Name: பெயர்
 Nanoid: நானாய்டு
 Network error: நெட்வொர்க் பிழை
 New Playlist: புதிய பிளேலிஸ்ட்
+Next: அடுத்து
 Next ▶: அடுத்து ▶
 No .m3u files found on GitHub repository.: GitHub களஞ்சியத்தில் .m3u கோப்புகள் இல்லை.
+No cache folder found.: கேச் கோப்புறை இல்லை.
 No channels could be mapped. Check your mapping rules.: எந்த சேனல்களையும் வரைபடமாக்க முடியவில்லை. உங்கள் மேப்பிங் விதிகளைச் சரிபார்க்கவும்.
 No channels mapped: எந்த சேனல்களும் வரைபடமாக்கப்படவில்லை
 No duplicate URLs found.: நகல் URLகள் எதுவும் இல்லை.
+No EPG data: EPG தரவு இல்லை
+No EPG information available for this channel.: இந்த சேனலுக்கான EPG தகவல் இல்லை.
+No EPG source configured. Please select one from the combo or go to Settings.: EPG ஆதாரம் எதுவும் கட்டமைக்கப்படவில்லை. காம்போவிலிருந்து ஒன்றைத் தேர்ந்தெடுக்கவும் அல்லது அமைப்புகளுக்குச் செல்லவும்.
+No EPG source configured. Would you like to open settings to select one?: EPG ஆதாரம் எதுவும் கட்டமைக்கப்படவில்லை. ஒன்றைத் தேர்ந்தெடுக்க, அமைப்புகளைத் திறக்க விரும்புகிறீர்களா?
 No favorite channels to export.: ஏற்றுமதி செய்ய பிடித்த சேனல்கள் இல்லை.
 No playlist found: பிளேலிஸ்ட் எதுவும் இல்லை
-No stream: ஸ்ட்ரீம் இல்லை
 No updates available.: புதுப்பிப்புகள் எதுவும் இல்லை.
 Normal speed (1x): இயல்பான வேகம் (1x)
 Now: இப்போது
@@ -195,9 +208,10 @@ Ready.: தயார்.
 Recent: சமீபத்திய
 Recent files – quick access to last 5 opened playlists.: சமீபத்திய கோப்புகள் - கடைசியாக திறக்கப்பட்ட 5 பிளேலிஸ்ட்களுக்கான விரைவான அணுகல்.
 Recent playlists: சமீபத்திய பிளேலிஸ்ட்கள்
-Refresh: புதுப்பிக்கவும்
+Refresh EPG: EPG ஐப் புதுப்பிக்கவும்
 Refresh EPG List: EPG பட்டியலைப் புதுப்பிக்கவும்
 Refresh from GitHub: GitHub இலிருந்து புதுப்பிக்கவும்
+Refresh List: பட்டியலைப் புதுப்பிக்கவும்
 Rename Group: குழுவை மறுபெயரிடவும்
 Repository: களஞ்சியம்
 Reset Order: ஆர்டரை மீட்டமைக்கவும்
@@ -210,6 +224,7 @@ Save Mapping: மேப்பிங்கைச் சேமிக்கவு�
 Save Playlist: பிளேலிஸ்ட்டை சேமிக்கவும்
 Save Status: நிலையை சேமிக்கவும்
 Saved: சேமிக்கப்பட்டது
+Search channel: : சேனலைத் தேடுங்கள்:
 Search channels by name: பெயர் மூலம் சேனல்களைத் தேடுங்கள்
 Search channels...: சேனல்களைத் தேடு...
 Select a playlist first.: முதலில் பிளேலிஸ்ட்டைத் தேர்ந்தெடுக்கவும்.
@@ -220,7 +235,7 @@ Show List: பட்டியலைக் காட்டு
 Show only channels marked as favorites: பிடித்தவை எனக் குறிக்கப்பட்ட சேனல்களை மட்டும் காட்டு
 Show or hide the channel list: சேனல் பட்டியலைக் காட்டு அல்லது மறைக்கவும்
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: சோதனை மற்றும் ஆதரவிற்காக CORVOBOYS & LinuxSat-ஆதரவு சமூகங்களுக்கு சிறப்பு நன்றி.
-Start (local): தொடங்கு (உள்ளூர்)
+Start: தொடங்கு
 Status: நிலை
 Stream URL: ஸ்ட்ரீம் URL
 Stream URLs: ஸ்ட்ரீம் URLகள்
@@ -239,6 +254,7 @@ Total: மொத்தம்
 Total channels in loaded playlist: ஏற்றப்பட்ட பிளேலிஸ்ட்டில் மொத்த சேனல்கள்
 TV Guide (EPG): டிவி கையேடு (EPG)
 TvgId: TvgId
+Type channel name to filter: வடிகட்ட சேனல் பெயரை உள்ளிடவும்
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: ரிமோட் திட்டக் கோப்பில் பதிப்பைக் கண்டறிய முடியவில்லை.
 Update: புதுப்பிக்கவும்

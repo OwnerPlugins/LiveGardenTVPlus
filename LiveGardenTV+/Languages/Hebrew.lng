@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (התנדבותית לחלוטין - אין תכונות חסומות)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (תיקיית מטמון: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (התנדבותית לחלוטין - אין תכונות חסומות)
 (No description): (אין תיאור)
 • Add / rename / delete groups.: • הוסף / שנה שם / מחק קבוצות.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • מחוון מאגר: כוונן מאגר HLS (1-10 שניות).
@@ -32,21 +33,24 @@ Auto-detect: זיהוי אוטומטי
 Automatic check on startup – or click 'Check for updates' in Tools menu.: בדיקה אוטומטית בעת האתחול - או לחץ על 'חפש עדכונים' בתפריט כלים.
 Buffer (seconds): מאגר (שניות)
 Buffer size – adjust HLS buffer seconds.: גודל מאגר - התאם שניות חיץ של HLS.
+Cache: מטמון
 Cancel: לְבַטֵל
 CANCEL: לְבַטֵל
 Category: קָטֵגוֹרִיָה
 Changelog: יומן שינויים
 Channel Details: פרטי הערוץ
 Channel Info: מידע על הערוץ
-Channel:: עָרוּץ:
 channels from: ערוצים מ
 channels from JSON URL: ערוצים מ-URL של JSON
 channels from URL: ערוצים מ-URL
 Check Duplicates: סמן כפילויות
 Check for updates: בדוק אם יש עדכונים
 Check URLs: בדוק כתובות אתרים
+Clear EPG Cache: נקה מטמון EPG
 Clear Filters: נקה מסננים
 Clear search: נקה חיפוש
+Click for details: לחץ לפרטים
+Close: לִסְגוֹר
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: קהילה ובדיקות: CorvoBoys (corvoboys.org) ו-LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: מְדִינָה
@@ -65,7 +69,7 @@ Drag to seek back in buffer: גרור כדי לחפש בחזרה במאגר
 Duplicate URLs found:\n\n: נמצאו כתובות אתרים כפולות:\n\n
 Edit Playlist: ערוך רשימת השמעה
 Edit URLs: ערוך כתובות אתרים
-End (local): סוף (מקומי)
+End: סוֹף
 Enrich with EPG: העשרה ב-EPG
 Enter JSON URL:: הזן כתובת URL של JSON:
 Enter playlist URL (M3U or JSON):: הזן כתובת אתר של רשימת השמעה (M3U או JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: EPG ומועדפים
 Epg & Logos: EPG ולוגו
 EPG & Logos: EPG ולוגו
+EPG cache cleared successfully.: מטמון ה-EPG נוקה בהצלחה.
+EPG Details: פרטי EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: מדריך EPG - כפתור בסרגל הכלים הראשי מציג רשת מלאה עם פרטי תוכנית (לחץ פעמיים למידע).
 EPG Matching Threshold: סף התאמת EPG
-EPG Source: מקור EPG
+EPG Source: : מקור EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: מקור EPG - ניתן להגדיר בהגדרות (epgshare01 או כתובת URL מותאמת אישית).
 EPG source – choose XMLTV file or enter custom URL.: מקור EPG - בחר קובץ XMLTV או הזן כתובת אתר מותאמת אישית.
+EPG Source Missing: חסר מקור EPG
 Error: שְׁגִיאָה
+Error clearing cache: שגיאה בניקוי המטמון
 Error loading: שגיאה בטעינה
 Error loading file: {0}: שגיאה בטעינת הקובץ: {0}
 Error loading playlists: {0}: שגיאה בטעינת רשימות השמעה: {0}
@@ -160,14 +168,19 @@ Name: שֵׁם
 Nanoid: ננואיד
 Network error: שגיאת רשת
 New Playlist: רשימת השמעה חדשה
+Next: הַבָּא
 Next ▶: הבא ▶
 No .m3u files found on GitHub repository.: לא נמצאו קבצי .m3u במאגר GitHub.
+No cache folder found.: לא נמצאה תיקיית מטמון.
 No channels could be mapped. Check your mapping rules.: לא ניתן היה למפות ערוצים. בדוק את כללי המיפוי שלך.
 No channels mapped: לא מופו ערוצים
 No duplicate URLs found.: לא נמצאו כתובות URL כפולות.
+No EPG data: אין נתוני EPG
+No EPG information available for this channel.: אין מידע על EPG זמין עבור ערוץ זה.
+No EPG source configured. Please select one from the combo or go to Settings.: לא הוגדר מקור EPG. אנא בחר אחד מהשילוב או עבור אל הגדרות.
+No EPG source configured. Would you like to open settings to select one?: לא הוגדר מקור EPG. האם תרצה לפתוח הגדרות כדי לבחור אחת?
 No favorite channels to export.: אין ערוצים מועדפים לייצוא.
 No playlist found: לא נמצא רשימת השמעה
-No stream: אין זרם
 No updates available.: אין עדכונים זמינים.
 Normal speed (1x): מהירות רגילה (1x)
 Now: עַכשָׁיו
@@ -195,9 +208,10 @@ Ready.: מוּכָן.
 Recent: לאחרונה
 Recent files – quick access to last 5 opened playlists.: קבצים אחרונים - גישה מהירה ל-5 הפלייליסטים האחרונים שנפתחו.
 Recent playlists: רשימות השמעה אחרונות
-Refresh: לְרַעֲנֵן
+Refresh EPG: רענן את ה-EPG
 Refresh EPG List: רענן את רשימת ה-EPG
 Refresh from GitHub: רענן מ-GitHub
+Refresh List: רענן רשימה
 Rename Group: שנה את שם הקבוצה
 Repository: מאגר
 Reset Order: אפס סדר
@@ -210,6 +224,7 @@ Save Mapping: שמור מיפוי
 Save Playlist: שמור רשימת השמעה
 Save Status: שמור סטטוס
 Saved: נשמר
+Search channel: : חיפוש ערוץ:
 Search channels by name: חפש ערוצים לפי שם
 Search channels...: חפש ערוצים...
 Select a playlist first.: תחילה בחר רשימת השמעה.
@@ -220,7 +235,7 @@ Show List: הצג רשימה
 Show only channels marked as favorites: הצג רק ערוצים המסומנים כמועדפים
 Show or hide the channel list: הצג או הסתר את רשימת הערוצים
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: תודה מיוחדת לקהילות התמיכה של CORVOBOYS ו-LinuxSat על הבדיקות והתמיכה.
-Start (local): התחל (מקומי)
+Start: הַתחָלָה
 Status: סטָטוּס
 Stream URL: כתובת אתר של זרם
 Stream URLs: הזרם כתובות אתרים
@@ -239,6 +254,7 @@ Total: סַך הַכֹּל
 Total channels in loaded playlist: סה"כ ערוצים בפלייליסט שנטען
 TV Guide (EPG): מדריך טלוויזיה (EPG)
 TvgId: TvgId
+Type channel name to filter: הקלד את שם הערוץ לסינון
 UI: MaterialDesignThemes.Wpf: ממשק משתמש: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: לא ניתן למצוא גרסה בקובץ הפרויקט המרוחק.
 Update: לְעַדְכֵּן

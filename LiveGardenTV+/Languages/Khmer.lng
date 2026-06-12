@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (ស្ម័គ្រចិត្តទាំងស្រុង - គ្មានលក្ខណៈពិសេសណាមួយត្រូវបានរារាំង)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (ថតឃ្លាំងសម្ងាត់៖ %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (ស្ម័គ្រចិត្តទាំងស្រុង - គ្មានលក្ខណៈពិសេសណាមួយត្រូវបានរារាំង)
 (No description): (គ្មានការពិពណ៌នា)
 • Add / rename / delete groups.: • បន្ថែម/ប្តូរឈ្មោះ/លុបក្រុម។
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • គ្រាប់រំកិលសតិបណ្ដោះអាសន្ន៖ កែតម្រូវសតិបណ្ដោះអាសន្ន HLS (1-10 វិនាទី)។
@@ -32,21 +33,24 @@ Auto-detect: រកឃើញដោយស្វ័យប្រវត្តិ
 Automatic check on startup – or click 'Check for updates' in Tools menu.: ពិនិត្យដោយស្វ័យប្រវត្តិនៅពេលចាប់ផ្តើម - ឬចុច 'ពិនិត្យមើលការអាប់ដេត' នៅក្នុងម៉ឺនុយឧបករណ៍។
 Buffer (seconds): សតិបណ្ដោះអាសន្ន (វិនាទី)
 Buffer size – adjust HLS buffer seconds.: ទំហំសតិបណ្ដោះអាសន្ន – កែតម្រូវ HLS buffer វិនាទី។
+Cache: ឃ្លាំងសម្ងាត់
 Cancel: បោះបង់
 CANCEL: បោះបង់
 Category: ប្រភេទ
 Changelog: កំណត់ហេតុផ្លាស់ប្តូរ
 Channel Details: ព័ត៌មានលំអិតរបស់ប៉ុស្តិ៍
 Channel Info: ព័ត៌មានឆានែល
-Channel:: ឆានែល៖
 channels from: ឆានែលពី
 channels from JSON URL: ឆានែលពី JSON URL
 channels from URL: ឆានែលពី URL
 Check Duplicates: ពិនិត្យមើលស្ទួន
 Check for updates: ពិនិត្យមើលបច្ចុប្បន្នភាព
 Check URLs: ពិនិត្យ URLs
+Clear EPG Cache: សម្អាតឃ្លាំងសម្ងាត់ EPG
 Clear Filters: ជម្រះតម្រង
 Clear search: ជម្រះការស្វែងរក
+Click for details: សូមចុចសម្រាប់ព័ត៌មានលម្អិត
+Close: បិទ
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: សហគមន៍ និងការធ្វើតេស្ត៖ CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: ប្រទេស
@@ -65,7 +69,7 @@ Drag to seek back in buffer: អូសដើម្បីស្វែងរកត
 Duplicate URLs found:\n\n: បានរកឃើញ URL ស្ទួន៖\n\n
 Edit Playlist: កែសម្រួលបញ្ជីចាក់
 Edit URLs: កែសម្រួល URLs
-End (local): បញ្ចប់ (ក្នុងស្រុក)
+End: ចប់
 Enrich with EPG: ពង្រឹងជាមួយ EPG
 Enter JSON URL:: បញ្ចូល JSON URL៖
 Enter playlist URL (M3U or JSON):: បញ្ចូល URL បញ្ជីចាក់ (M3U ឬ JSON)៖
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & ចំណូលចិត្ត
 Epg & Logos: Epg & ឡូហ្គោ
 EPG & Logos: EPG & ឡូហ្គោ
+EPG cache cleared successfully.: ឃ្លាំងសម្ងាត់ EPG ត្រូវបានសម្អាតដោយជោគជ័យ។
+EPG Details: ព័ត៌មានលម្អិត EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: មគ្គុទ្ទេសក៍ EPG – ប៊ូតុងនៅលើរបារឧបករណ៍សំខាន់បង្ហាញក្រឡាចត្រង្គពេញលេញជាមួយនឹងព័ត៌មានលម្អិតអំពីកម្មវិធី (ចុចពីរដងសម្រាប់ព័ត៌មាន)។
 EPG Matching Threshold: កម្រិតនៃការផ្គូផ្គង EPG
-EPG Source: ប្រភព EPG
+EPG Source: : ប្រភព EPG៖
 EPG source – can be set in Settings (epgshare01 or custom URL).: ប្រភព EPG - អាចត្រូវបានកំណត់នៅក្នុងការកំណត់ (epgshare01 ឬ URL ផ្ទាល់ខ្លួន) ។
 EPG source – choose XMLTV file or enter custom URL.: ប្រភព EPG - ជ្រើសរើសឯកសារ XMLTV ឬបញ្ចូល URL ផ្ទាល់ខ្លួន។
+EPG Source Missing: ប្រភព EPG បាត់
 Error: កំហុស
+Error clearing cache: កំហុសក្នុងការសម្អាតឃ្លាំងសម្ងាត់
 Error loading: កំហុសក្នុងការផ្ទុក
 Error loading file: {0}: កំហុសក្នុងការផ្ទុកឯកសារ៖ {0}
 Error loading playlists: {0}: មាន​បញ្ហា​ក្នុង​ការ​ផ្ទុក​បញ្ជី​ចាក់៖ {0}
@@ -160,14 +168,19 @@ Name: ឈ្មោះ
 Nanoid: ណាណូយ
 Network error: កំហុសបណ្តាញ
 New Playlist: បញ្ជីចាក់ថ្មី។
+Next: បន្ទាប់
 Next ▶: បន្ទាប់ ▶
 No .m3u files found on GitHub repository.: រកមិនឃើញឯកសារ .m3u នៅលើឃ្លាំង GitHub ទេ។
+No cache folder found.: រកមិនឃើញថតឃ្លាំងសម្ងាត់ទេ។
 No channels could be mapped. Check your mapping rules.: គ្មាន​ប៉ុស្តិ៍​អាច​ត្រូវ​បាន​គូស​ផែនទី​ទេ។ ពិនិត្យមើលច្បាប់ផែនទីរបស់អ្នក។
 No channels mapped: គ្មាន​ប៉ុស្តិ៍​ត្រូវ​បាន​ធ្វើ​ផែនទី
 No duplicate URLs found.: រកមិនឃើញ URL ស្ទួនទេ។
+No EPG data: មិនមានទិន្នន័យ EPG ទេ។
+No EPG information available for this channel.: មិនមានព័ត៌មាន EPG សម្រាប់ឆានែលនេះទេ។
+No EPG source configured. Please select one from the combo or go to Settings.: មិនមានប្រភព EPG ត្រូវបានកំណត់រចនាសម្ព័ន្ធទេ។ សូមជ្រើសរើសមួយពីបន្សំ ឬចូលទៅកាន់ការកំណត់។
+No EPG source configured. Would you like to open settings to select one?: មិនមានប្រភព EPG ត្រូវបានកំណត់រចនាសម្ព័ន្ធទេ។ តើអ្នកចង់បើកការកំណត់ដើម្បីជ្រើសរើសមួយទេ?
 No favorite channels to export.: គ្មានបណ្តាញដែលចូលចិត្តដើម្បីនាំចេញទេ។
 No playlist found: រកមិនឃើញបញ្ជីចាក់ទេ។
-No stream: គ្មានស្ទ្រីមទេ។
 No updates available.: មិនមានការអាប់ដេតទេ។
 Normal speed (1x): ល្បឿនធម្មតា (1x)
 Now: ឥឡូវនេះ
@@ -195,9 +208,10 @@ Ready.: រួចរាល់។
 Recent: ថ្មីៗ
 Recent files – quick access to last 5 opened playlists.: ឯកសារថ្មីៗ – ការចូលប្រើរហ័សទៅកាន់បញ្ជីចាក់ដែលបានបើក 5 ចុងក្រោយ។
 Recent playlists: បញ្ជីចាក់ថ្មីៗ
-Refresh: ធ្វើឱ្យស្រស់
+Refresh EPG: ធ្វើឱ្យ EPG ឡើងវិញ
 Refresh EPG List: ធ្វើឱ្យបញ្ជី EPG ឡើងវិញ
 Refresh from GitHub: ផ្ទុកឡើងវិញពី GitHub
+Refresh List: ធ្វើឱ្យបញ្ជីឡើងវិញ
 Rename Group: ប្តូរឈ្មោះក្រុម
 Repository: ឃ្លាំង
 Reset Order: កំណត់លំដាប់ឡើងវិញ
@@ -210,6 +224,7 @@ Save Mapping: រក្សាទុកការធ្វើផែនទី
 Save Playlist: រក្សាទុកបញ្ជីចាក់
 Save Status: រក្សាទុកស្ថានភាព
 Saved: បានរក្សាទុក
+Search channel: : ឆានែលស្វែងរក៖
 Search channels by name: ស្វែងរកឆានែលតាមឈ្មោះ
 Search channels...: ស្វែងរកប៉ុស្តិ៍...
 Select a playlist first.: ជ្រើសរើសបញ្ជីចាក់ជាមុនសិន។
@@ -220,7 +235,7 @@ Show List: បង្ហាញបញ្ជី
 Show only channels marked as favorites: បង្ហាញតែប៉ុស្តិ៍ដែលត្រូវបានសម្គាល់ថាជាចំណូលចិត្តប៉ុណ្ណោះ។
 Show or hide the channel list: បង្ហាញ ឬលាក់បញ្ជីឆានែល
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: សូមអរគុណជាពិសេសចំពោះសហគមន៍ CORVOBOYS & LinuxSat-Support សម្រាប់ការធ្វើតេស្ត និងការគាំទ្រ។
-Start (local): ចាប់ផ្តើម (ក្នុងស្រុក)
+Start: ចាប់ផ្តើម
 Status: ស្ថានភាព
 Stream URL: URL ស្ទ្រីម
 Stream URLs: ស្ទ្រីម URLs
@@ -239,6 +254,7 @@ Total: សរុប
 Total channels in loaded playlist: ប៉ុស្តិ៍សរុបនៅក្នុងបញ្ជីចាក់ដែលបានផ្ទុក
 TV Guide (EPG): មគ្គុទ្ទេសក៍ទូរទស្សន៍ (EPG)
 TvgId: TvgId
+Type channel name to filter: វាយឈ្មោះឆានែលដើម្បីត្រង
 UI: MaterialDesignThemes.Wpf: UI៖ MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: មិនអាចស្វែងរកកំណែនៅក្នុងឯកសារគម្រោងពីចម្ងាយបានទេ។
 Update: ធ្វើបច្ចុប្បន្នភាព

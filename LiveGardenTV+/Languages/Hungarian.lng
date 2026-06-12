@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Teljesen önkéntes – egyetlen funkció sem blokkolva)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Gyorsítótár mappa: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Teljesen önkéntes – egyetlen funkció sem blokkolva)
 (No description): (Nincs leírás)
 • Add / rename / delete groups.: • Csoportok hozzáadása/átnevezése/törlése.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Puffer csúszka: a HLS puffer beállítása (1-10 másodperc).
@@ -32,21 +33,24 @@ Auto-detect: Automatikus felismerés
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatikus ellenőrzés indításkor – vagy kattintson a "Frissítések keresése" gombra az Eszközök menüben.
 Buffer (seconds): Puffer (másodperc)
 Buffer size – adjust HLS buffer seconds.: Pufferméret – a HLS puffer másodperceinek beállítása.
+Cache: Gyorsítótár
 Cancel: Mégse
 CANCEL: MÉGSEM
 Category: Kategória
 Changelog: Változásnapló
 Channel Details: Csatorna részletei
 Channel Info: Csatorna Info
-Channel:: Csatorna:
 channels from: csatornák innen
 channels from JSON URL: csatornák a JSON URL-ből
 channels from URL: csatornák az URL-ből
 Check Duplicates: Ellenőrizze az ismétlődéseket
 Check for updates: Ellenőrizze a frissítéseket
 Check URLs: Ellenőrizze az URL-eket
+Clear EPG Cache: EPG gyorsítótár törlése
 Clear Filters: Szűrők törlése
 Clear search: Keresés törlése
+Click for details: Kattintson a részletekért
+Close: Közeli
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Közösség és tesztelés: CorvoBoys (corvoboys.org) és LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Ország
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Húzza vissza a pufferbe
 Duplicate URLs found:\n\n: Ismétlődő URL-ek találhatók:\n\n
 Edit Playlist: Lejátszási lista szerkesztése
 Edit URLs: URL-ek szerkesztése
-End (local): Vége (helyi)
+End: Vége
 Enrich with EPG: Gazdagítsa EPG-vel
 Enter JSON URL:: Írja be a JSON URL-t:
 Enter playlist URL (M3U or JSON):: Írja be a lejátszási lista URL-jét (M3U vagy JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Kedvencek
 Epg & Logos: Epg és logók
 EPG & Logos: EPG és logók
+EPG cache cleared successfully.: Az EPG gyorsítótár sikeresen törölve.
+EPG Details: EPG részletek
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG útmutató – a fő eszköztár gombja a teljes rácsot mutatja a program részleteivel (információkért kattintson duplán).
 EPG Matching Threshold: EPG egyezési küszöb
-EPG Source: EPG forrás
+EPG Source: : EPG forrás:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG forrás – a Beállításokban állítható be (epgshare01 vagy egyéni URL).
 EPG source – choose XMLTV file or enter custom URL.: EPG-forrás – válassza ki az XMLTV-fájlt, vagy írjon be egyéni URL-t.
+EPG Source Missing: Az EPG forrás hiányzik
 Error: Hiba
+Error clearing cache: Hiba a gyorsítótár törlésekor
 Error loading: Hiba a betöltés során
 Error loading file: {0}: Hiba a fájl betöltésekor: {0}
 Error loading playlists: {0}: Hiba a lejátszási listák betöltésekor: {0}
@@ -160,14 +168,19 @@ Name: Név
 Nanoid: Nanoid
 Network error: Hálózati hiba
 New Playlist: Új lejátszási lista
+Next: Következő
 Next ▶: Következő ▶
 No .m3u files found on GitHub repository.: Nem található .m3u fájl a GitHub tárhelyen.
+No cache folder found.: Nem található gyorsítótár mappa.
 No channels could be mapped. Check your mapping rules.: Egyetlen csatornát sem lehetett feltérképezni. Ellenőrizze a leképezési szabályokat.
 No channels mapped: Nincs csatorna hozzárendelve
 No duplicate URLs found.: Nem található ismétlődő URL.
+No EPG data: Nincsenek EPG adatok
+No EPG information available for this channel.: Ehhez a csatornához nem áll rendelkezésre EPG információ.
+No EPG source configured. Please select one from the combo or go to Settings.: Nincs konfigurálva EPG-forrás. Kérjük, válasszon egyet a kombinációból, vagy lépjen a Beállításokba.
+No EPG source configured. Would you like to open settings to select one?: Nincs konfigurálva EPG-forrás. Szeretné megnyitni a beállításokat egy kiválasztásához?
 No favorite channels to export.: Nincsenek exportálható kedvenc csatornák.
 No playlist found: Nem található lejátszási lista
-No stream: Nincs patak
 No updates available.: Nincsenek frissítések.
 Normal speed (1x): Normál sebesség (1x)
 Now: Jelenleg
@@ -195,9 +208,10 @@ Ready.: Kész.
 Recent: Legutóbbi
 Recent files – quick access to last 5 opened playlists.: Legutóbbi fájlok – gyors hozzáférés az utolsó 5 megnyitott lejátszási listához.
 Recent playlists: Legutóbbi lejátszási listák
-Refresh: Frissítés
+Refresh EPG: EPG frissítése
 Refresh EPG List: EPG-lista frissítése
 Refresh from GitHub: Frissítés a GitHubról
+Refresh List: Lista frissítése
 Rename Group: Csoport átnevezése
 Repository: Adattár
 Reset Order: Rendelés visszaállítása
@@ -210,6 +224,7 @@ Save Mapping: Leképezés mentése
 Save Playlist: Lejátszási lista mentése
 Save Status: Állapot mentése
 Saved: Mentve
+Search channel: : Csatorna keresése:
 Search channels by name: Csatornák keresése név szerint
 Search channels...: Csatornák keresése...
 Select a playlist first.: Először válasszon ki egy lejátszási listát.
@@ -220,7 +235,7 @@ Show List: Lista megjelenítése
 Show only channels marked as favorites: Csak a kedvencként megjelölt csatornák megjelenítése
 Show or hide the channel list: A csatornalista megjelenítése vagy elrejtése
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Külön köszönet a CORVOBOYS és a LinuxSat-Support közösségeknek a tesztelésért és támogatásért.
-Start (local): Kezdés (helyi)
+Start: Indul
 Status: Állapot
 Stream URL: Stream URL
 Stream URLs: Stream URL-ek
@@ -239,6 +254,7 @@ Total: Teljes
 Total channels in loaded playlist: Összes csatorna a betöltött lejátszási listában
 TV Guide (EPG): TV-műsorfüzet (EPG)
 TvgId: TvgId
+Type channel name to filter: Írja be a csatorna nevét a szűréshez
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Nem található verzió a távoli projektfájlban.
 Update: Frissítés

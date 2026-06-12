@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Целосно доброволно - ниедна функција не е блокирана)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Кеш папка: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Целосно доброволно - ниедна функција не е блокирана)
 (No description): (Без опис)
 • Add / rename / delete groups.: • Додавање / преименување / бришење групи.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Лизгач за бафер: прилагодете го тампон HLS (1-10 секунди).
@@ -32,21 +33,24 @@ Auto-detect: Автоматско откривање
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Автоматска проверка при стартување – или кликнете на „Провери за ажурирања“ во менито Алатки.
 Buffer (seconds): Бафер (секунди)
 Buffer size – adjust HLS buffer seconds.: Големина на тампон – прилагодете HLS тампон секунди.
+Cache: Кеш
 Cancel: Откажи
 CANCEL: ОТКАЖИ
 Category: Категорија
 Changelog: Промена
 Channel Details: Детали за каналот
 Channel Info: Информации за каналот
-Channel:: Канал:
 channels from: канали од
 channels from JSON URL: канали од JSON URL
 channels from URL: канали од URL
 Check Duplicates: Проверете ги дупликатите
 Check for updates: Проверете дали има ажурирања
 Check URLs: Проверете ги URL-адресите
+Clear EPG Cache: Исчистете го кешот на EPG
 Clear Filters: Исчистете ги филтрите
 Clear search: Исчистете го пребарувањето
+Click for details: Кликнете за детали
+Close: Затвори
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Заедница и тестирање: CorvoBoys (corvoboys.org) и LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Земја
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Повлечете за да побарате на�
 Duplicate URLs found:\n\n: Пронајдени се дупликат URL-адреси:\n\n
 Edit Playlist: Уреди плејлиста
 Edit URLs: Уреди URL-адреси
-End (local): Крај (локално)
+End: Крај
 Enrich with EPG: Збогатете се со EPG
 Enter JSON URL:: Внесете JSON URL:
 Enter playlist URL (M3U or JSON):: Внесете URL на плејлистата (M3U или JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Омилени
 Epg & Logos: ЕПГ и логоа
 EPG & Logos: EPG и логоа
+EPG cache cleared successfully.: Кешот на EPG е успешно исчистен.
+EPG Details: Детали за EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Guide – копчето на главната лента со алатки ја прикажува целосната мрежа со детали за програмата (кликнете двапати за информации).
 EPG Matching Threshold: Праг за совпаѓање на EPG
-EPG Source: EPG Извор
+EPG Source: : EPG Извор:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Извор на EPG – може да се постави во Поставки (epgshare01 или прилагодено URL).
 EPG source – choose XMLTV file or enter custom URL.: EPG извор - изберете XMLTV-датотека или внесете сопствена URL-адреса.
+EPG Source Missing: Недостасува извор на EPG
 Error: Грешка
+Error clearing cache: Грешка при чистење на кешот
 Error loading: Грешка при вчитување
 Error loading file: {0}: Грешка при вчитување на датотеката: {0}
 Error loading playlists: {0}: Грешка при вчитување плејлисти: {0}
@@ -160,14 +168,19 @@ Name: Име
 Nanoid: Наноид
 Network error: Мрежна грешка
 New Playlist: Нова плејлиста
+Next: Следно
 Next ▶: Следно ▶
 No .m3u files found on GitHub repository.: Не се пронајдени датотеки .m3u на складиштето на GitHub.
+No cache folder found.: Не е пронајдена папка за кеш.
 No channels could be mapped. Check your mapping rules.: Ниту еден канал не можеше да се мапира. Проверете ги вашите правила за мапирање.
 No channels mapped: Нема мапирани канали
 No duplicate URLs found.: Не се пронајдени дупликат URL-адреси.
+No EPG data: Нема податоци за EPG
+No EPG information available for this channel.: Нема достапни информации за EPG за овој канал.
+No EPG source configured. Please select one from the combo or go to Settings.: Не е конфигуриран извор на EPG. Изберете една од комбинацијата или одете во Поставки.
+No EPG source configured. Would you like to open settings to select one?: Не е конфигуриран извор на EPG. Дали сакате да ги отворите поставките за да изберете една?
 No favorite channels to export.: Нема омилени канали за извоз.
 No playlist found: Не е пронајдена плејлиста
-No stream: Нема поток
 No updates available.: Нема достапни ажурирања.
 Normal speed (1x): Нормална брзина (1x)
 Now: Сега
@@ -195,9 +208,10 @@ Ready.: Подготвени.
 Recent: Неодамнешни
 Recent files – quick access to last 5 opened playlists.: Неодамнешни датотеки - брз пристап до последните 5 отворени листи за репродукција.
 Recent playlists: Неодамнешни плејлисти
-Refresh: Освежи
+Refresh EPG: Освежете го EPG
 Refresh EPG List: Освежете ја листата на EPG
 Refresh from GitHub: Освежете се од GitHub
+Refresh List: Освежи список
 Rename Group: Преименувај група
 Repository: Репозиториум
 Reset Order: Ресетирај нарачка
@@ -210,6 +224,7 @@ Save Mapping: Зачувај мапирање
 Save Playlist: Зачувај плејлиста
 Save Status: Зачувај статус
 Saved: Зачувано
+Search channel: : Пребарај канал:
 Search channels by name: Пребарувајте канали по име
 Search channels...: Пребарувајте канали...
 Select a playlist first.: Прво изберете плејлиста.
@@ -220,7 +235,7 @@ Show List: Прикажи список
 Show only channels marked as favorites: Прикажи само канали означени како омилени
 Show or hide the channel list: Прикажи или сокриј го списокот со канали
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Посебна благодарност до заедниците CORVOBOYS и LinuxSat-Support за тестирањето и поддршката.
-Start (local): Почеток (локално)
+Start: Започнете
 Status: Статус
 Stream URL: УРЛ на пренос
 Stream URLs: УРЛ-адреси за пренос
@@ -239,6 +254,7 @@ Total: Вкупно
 Total channels in loaded playlist: Вкупно канали во вчитаната плејлиста
 TV Guide (EPG): ТВ водич (EPG)
 TvgId: TvgId
+Type channel name to filter: Внесете име на канал за филтрирање
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Не може да се најде верзија во оддалечената проектна датотека.
 Update: Ажурирање

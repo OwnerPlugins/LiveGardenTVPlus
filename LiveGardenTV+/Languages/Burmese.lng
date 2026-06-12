@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (ဆန္ဒအရ - အင်္ဂါရပ်များကို ပိတ်ဆို့ထားခြင်း မရှိပါ)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (ကက်ရှ်ဖိုင်တွဲ- %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (ဆန္ဒအရ - အင်္ဂါရပ်များကို ပိတ်ဆို့ထားခြင်း မရှိပါ)
 (No description): (ဖော်ပြချက်မရှိပါ)
 • Add / rename / delete groups.: • အဖွဲ့များကို ထည့်/အမည်ပြောင်း/ဖျက်ပါ။
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffer slider- HLS ကြားခံကို ချိန်ညှိပါ (1-10 စက္ကန့်)။
@@ -32,21 +33,24 @@ Auto-detect: အလိုအလျောက် သိရှိနိုင်သ
 Automatic check on startup – or click 'Check for updates' in Tools menu.: စတင်ခြင်းတွင် အလိုအလျောက်စစ်ဆေးခြင်း – သို့မဟုတ် Tools မီနူးရှိ 'မွမ်းမံမှုများကို စစ်ဆေးပါ' ကိုနှိပ်ပါ။
 Buffer (seconds): ကြားခံ (စက္ကန့်)
 Buffer size – adjust HLS buffer seconds.: ကြားခံအရွယ်အစား - HLS ကြားခံစက္ကန့်ကို ချိန်ညှိပါ။
+Cache: ကက်ရှ်
 Cancel: မလုပ်တော့
 CANCEL: မလုပ်တော့ပါ။
 Category: အမျိုးအစား
 Changelog: ပြောင်းလဲမှုမှတ်တမ်း
 Channel Details: ချန်နယ်အသေးစိတ်
 Channel Info: ချန်နယ်အချက်အလက်
-Channel:: ချန်နယ်-
 channels from: ချန်နယ်များမှ
 channels from JSON URL: JSON URL မှ ချန်နယ်များ
 channels from URL: URL မှ ချန်နယ်များ
 Check Duplicates: ပွားများစစ်ဆေးပါ။
 Check for updates: အပ်ဒိတ်များအတွက် စစ်ဆေးပါ။
 Check URLs: URL များကို စစ်ဆေးပါ။
+Clear EPG Cache: EPG Cache ကိုရှင်းလင်းပါ။
 Clear Filters: စစ်ထုတ်မှုများကို ရှင်းလင်းပါ။
 Clear search: ရှာဖွေမှုကို ရှင်းလင်းပါ။
+Click for details: အသေးစိတ်ကို နှိပ်ပါ။
+Close: ပိတ်လိုက်
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: အသိုင်းအဝိုင်းနှင့် စမ်းသပ်ခြင်း- CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: တိုင်းပြည်
@@ -65,7 +69,7 @@ Drag to seek back in buffer: ကြားခံတွင် ပြန်ရှ�
 Duplicate URLs found:\n\n: ပွားနေသည့် URL များကို တွေ့ရှိသည်-\n\n
 Edit Playlist: အစီအစဉ်ကို တည်းဖြတ်ပါ။
 Edit URLs: URL များကို တည်းဖြတ်ပါ။
-End (local): အဆုံး (ပြည်တွင်း)
+End: အဆုံး
 Enrich with EPG: EPG ဖြင့် ကြွယ်ဝစေပါသည်။
 Enter JSON URL:: JSON URL ထည့်ပါ-
 Enter playlist URL (M3U or JSON):: အစီအစဉ် URL (M3U သို့မဟုတ် JSON) ထည့်ပါ-
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & အကြိုက်ဆုံးများ
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG နှင့် Logos
+EPG cache cleared successfully.: EPG ကက်ရှ်ကို အောင်မြင်စွာ ရှင်းလင်းလိုက်ပါပြီ။
+EPG Details: EPG အသေးစိတ်
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG လမ်းညွှန် – ပင်မကိရိယာဘားပေါ်ရှိ ခလုတ်သည် ပရိုဂရမ်အသေးစိတ်အချက်အလက်များနှင့်အတူ ဇယားကွက်အပြည့်အစုံကိုပြသသည် (အချက်အလက်အတွက် နှစ်ချက်နှိပ်ပါ)။
 EPG Matching Threshold: EPG Matching Threshold
-EPG Source: EPG အရင်းအမြစ်
+EPG Source: : EPG အရင်းအမြစ်-
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG အရင်းအမြစ် - ဆက်တင်များ (epgshare01 သို့မဟုတ် စိတ်ကြိုက် URL) တွင် သတ်မှတ်နိုင်သည်။
 EPG source – choose XMLTV file or enter custom URL.: EPG အရင်းအမြစ် - XMLTV ဖိုင်ကိုရွေးချယ်ပါ သို့မဟုတ် စိတ်ကြိုက် URL ကိုထည့်ပါ။
+EPG Source Missing: EPG ရင်းမြစ် ပျောက်ဆုံးနေသည်။
 Error: အမှား
+Error clearing cache: ကက်ရှ်ကို ရှင်းလင်းရာတွင် အမှားအယွင်းရှိနေသည်။
 Error loading: တင်ရာတွင် အမှားအယွင်းရှိသည်။
 Error loading file: {0}: ဖိုင်ကိုဖွင့်ရာတွင် အမှားအယွင်းရှိနေသည်- {0}
 Error loading playlists: {0}: အစီအစဉ်များကို တင်ရာတွင် အမှားအယွင်းရှိပါသည်- {0}
@@ -160,14 +168,19 @@ Name: နာမည်
 Nanoid: နာနွိုက်
 Network error: ကွန်ရက် အမှားအယွင်း
 New Playlist: အစီအစဉ်အသစ်
+Next: နောက်တစ်ခု
 Next ▶: နောက်တစ်ခု ▶
 No .m3u files found on GitHub repository.: GitHub repository တွင် .m3u ဖိုင်များကိုမတွေ့ပါ။
+No cache folder found.: ကက်ရှ်ဖိုင်တွဲကို ရှာမတွေ့ပါ။
 No channels could be mapped. Check your mapping rules.: ချန်နယ်များကို မြေပုံဆွဲ၍မရပါ။ သင်၏မြေပုံစည်းမျဉ်းများကိုစစ်ဆေးပါ။
 No channels mapped: မြေပုံဆွဲထားသော ချန်နယ်မရှိပါ။
 No duplicate URLs found.: ထပ်နေသည့် URL များကိုမတွေ့ပါ။
+No EPG data: EPG ဒေတာမရှိပါ။
+No EPG information available for this channel.: ဤချန်နယ်အတွက် EPG အချက်အလက် မရရှိနိုင်ပါ။
+No EPG source configured. Please select one from the combo or go to Settings.: EPG အရင်းအမြစ်ကို ပြင်ဆင်သတ်မှတ်ထားခြင်းမရှိပါ။ ကျေးဇူးပြု၍ ပေါင်းစပ်မှုမှ တစ်ခုကို ရွေးပါ သို့မဟုတ် ဆက်တင်များသို့ သွားပါ။
+No EPG source configured. Would you like to open settings to select one?: EPG အရင်းအမြစ်ကို ပြင်ဆင်သတ်မှတ်ထားခြင်းမရှိပါ။ တစ်ခုရွေးရန် ဆက်တင်များကိုဖွင့်လိုပါသလား။
 No favorite channels to export.: တင်ပို့ရန် အကြိုက်ဆုံးချန်နယ်များ မရှိပါ။
 No playlist found: ပြသစာရင်းမတွေ့ပါ။
-No stream: စမ်းချောင်းမရှိ။
 No updates available.: အပ်ဒိတ်များ မရရှိနိုင်ပါ။
 Normal speed (1x): ပုံမှန်အမြန်နှုန်း (1x)
 Now: ကဲ
@@ -195,9 +208,10 @@ Ready.: အဆင်သင့်။
 Recent: မကြာမှီ
 Recent files – quick access to last 5 opened playlists.: လတ်တလောဖိုင်များ - နောက်ဆုံးဖွင့်ထားသော အစီအစဉ် 5 ခုသို့ အမြန်ဝင်ရောက်ပါ။
 Recent playlists: လတ်တလော အစီအစဉ်များ
-Refresh: ပြန်လည်စတင်ပါ။
+Refresh EPG: EPG ကို ပြန်လည်စတင်ပါ။
 Refresh EPG List: EPG စာရင်းကို ပြန်လည်စတင်ပါ။
 Refresh from GitHub: GitHub မှ ပြန်လည်စတင်ပါ။
+Refresh List: စာရင်းကို ပြန်လည်စတင်ပါ။
 Rename Group: အဖွဲ့အမည်ပြောင်းပါ။
 Repository: Repository
 Reset Order: မှာယူမှုကို ပြန်လည်သတ်မှတ်ပါ။
@@ -210,6 +224,7 @@ Save Mapping: မြေပုံဆွဲခြင်းကို သိမ်�
 Save Playlist: အစီအစဉ်ကို သိမ်းဆည်းပါ။
 Save Status: အဆင့်အတန်းကို သိမ်းဆည်းပါ။
 Saved: သိမ်းဆည်းထားသည်။
+Search channel: : ချန်နယ်ရှာရန်-
 Search channels by name: အမည်ဖြင့် ချန်နယ်များကို ရှာဖွေပါ။
 Search channels...: ချန်နယ်များကို ရှာဖွေပါ...
 Select a playlist first.: အစီအစဉ်တစ်ခုကို ဦးစွာရွေးချယ်ပါ။
@@ -220,7 +235,7 @@ Show List: စာရင်းပြပါ။
 Show only channels marked as favorites: စိတ်ကြိုက်များအဖြစ် အမှတ်အသားပြုထားသော ချန်နယ်များကိုသာ ပြသပါ။
 Show or hide the channel list: ချန်နယ်စာရင်းကို ပြပါ သို့မဟုတ် ဝှက်ပါ။
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: စမ်းသပ်ခြင်းနှင့် ပံ့ပိုးမှုအတွက် CORVOBOYS & LinuxSat-Support အသိုင်းအဝိုင်းများကို အထူးကျေးဇူးတင်ရှိပါသည်။
-Start (local): စတင် (ပြည်တွင်း)
+Start: စတင်ပါ။
 Status: အဆင့်အတန်း
 Stream URL: တိုက်ရိုက်လွှင့် URL
 Stream URLs: တိုက်ရိုက် URL များ
@@ -239,6 +254,7 @@ Total: စုစုပေါင်း
 Total channels in loaded playlist: တင်ထားသော အစီအစဉ်တွင် စုစုပေါင်းချန်နယ်များ
 TV Guide (EPG): တီဗီလမ်းညွှန် (EPG)
 TvgId: TvgId
+Type channel name to filter: စစ်ထုတ်ရန် ချန်နယ်အမည်ကို ရိုက်ထည့်ပါ။
 UI: MaterialDesignThemes.Wpf: UI- MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: အဝေးထိန်းပရောဂျက်ဖိုင်တွင် ဗားရှင်းကို ရှာမတွေ့ပါ။
 Update: အပ်ဒိတ်

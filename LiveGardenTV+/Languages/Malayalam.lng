@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (പൂർണ്ണമായും സ്വമേധയാ - ഫീച്ചറുകളൊന്നും തടഞ്ഞിട്ടില്ല)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (കാഷെ ഫോൾഡർ: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (പൂർണ്ണമായും സ്വമേധയാ - ഫീച്ചറുകളൊന്നും തടഞ്ഞിട്ടില്ല)
 (No description): (വിവരണമില്ല)
 • Add / rename / delete groups.: • ഗ്രൂപ്പുകൾ ചേർക്കുക / പേരുമാറ്റുക / ഇല്ലാതാക്കുക.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • ബഫർ സ്ലൈഡർ: HLS ബഫർ ക്രമീകരിക്കുക (1‑10 സെക്കൻഡ്).
@@ -32,21 +33,24 @@ Auto-detect: സ്വയമേവ കണ്ടെത്തുക
 Automatic check on startup – or click 'Check for updates' in Tools menu.: സ്റ്റാർട്ടപ്പിൽ സ്വയമേവയുള്ള പരിശോധന - അല്ലെങ്കിൽ ടൂൾസ് മെനുവിലെ 'അപ്‌ഡേറ്റുകൾക്കായി പരിശോധിക്കുക' ക്ലിക്ക് ചെയ്യുക.
 Buffer (seconds): ബഫർ (സെക്കൻഡ്)
 Buffer size – adjust HLS buffer seconds.: ബഫർ വലുപ്പം - HLS ബഫർ സെക്കൻഡുകൾ ക്രമീകരിക്കുക.
+Cache: കാഷെ
 Cancel: റദ്ദാക്കുക
 CANCEL: റദ്ദാക്കുക
 Category: വിഭാഗം
 Changelog: ചേഞ്ച്ലോഗ്
 Channel Details: ചാനൽ വിശദാംശങ്ങൾ
 Channel Info: ചാനൽ വിവരം
-Channel:: ചാനൽ:
 channels from: നിന്നുള്ള ചാനലുകൾ
 channels from JSON URL: JSON URL-ൽ നിന്നുള്ള ചാനലുകൾ
 channels from URL: URL-ൽ നിന്നുള്ള ചാനലുകൾ
 Check Duplicates: തനിപ്പകർപ്പുകൾ പരിശോധിക്കുക
 Check for updates: അപ്ഡേറ്റുകൾക്കായി പരിശോധിക്കുക
 Check URLs: URL-കൾ പരിശോധിക്കുക
+Clear EPG Cache: EPG കാഷെ മായ്‌ക്കുക
 Clear Filters: ഫിൽട്ടറുകൾ മായ്ക്കുക
 Clear search: തിരയൽ മായ്‌ക്കുക
+Click for details: വിശദാംശങ്ങൾക്ക് ക്ലിക്ക് ചെയ്യുക
+Close: അടയ്ക്കുക
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: കമ്മ്യൂണിറ്റിയും ടെസ്റ്റിംഗും: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOYS.ORG
 Country: രാജ്യം
@@ -65,7 +69,7 @@ Drag to seek back in buffer: ബഫറിൽ തിരികെ തിരയാ�
 Duplicate URLs found:\n\n: ഡ്യൂപ്ലിക്കേറ്റ് URL-കൾ കണ്ടെത്തി:\n\n
 Edit Playlist: പ്ലേലിസ്റ്റ് എഡിറ്റ് ചെയ്യുക
 Edit URLs: URL-കൾ എഡിറ്റ് ചെയ്യുക
-End (local): അവസാനം (പ്രാദേശികം)
+End: അവസാനിക്കുന്നു
 Enrich with EPG: EPG ഉപയോഗിച്ച് സമ്പുഷ്ടമാക്കുക
 Enter JSON URL:: JSON URL നൽകുക:
 Enter playlist URL (M3U or JSON):: പ്ലേലിസ്റ്റ് URL നൽകുക (M3U അല്ലെങ്കിൽ JSON):
@@ -73,12 +77,16 @@ EPG: ഇ.പി.ജി
 Epg & Favorites: Epg & പ്രിയപ്പെട്ടവ
 Epg & Logos: Epg & ലോഗോകൾ
 EPG & Logos: EPG & ലോഗോകൾ
+EPG cache cleared successfully.: EPG കാഷെ വിജയകരമായി മായ്ച്ചു.
+EPG Details: EPG വിശദാംശങ്ങൾ
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG ഗൈഡ് - പ്രധാന ടൂൾബാറിലെ ബട്ടൺ പ്രോഗ്രാം വിശദാംശങ്ങളുള്ള മുഴുവൻ ഗ്രിഡും കാണിക്കുന്നു (വിവരങ്ങൾക്ക് ഇരട്ട-ക്ലിക്ക് ചെയ്യുക).
 EPG Matching Threshold: EPG മാച്ചിംഗ് ത്രെഷോൾഡ്
-EPG Source: EPG ഉറവിടം
+EPG Source: : EPG ഉറവിടം:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG ഉറവിടം - ക്രമീകരണങ്ങളിൽ (epgshare01 അല്ലെങ്കിൽ ഇഷ്‌ടാനുസൃത URL) സജ്ജമാക്കാൻ കഴിയും.
 EPG source – choose XMLTV file or enter custom URL.: EPG ഉറവിടം - XMLTV ഫയൽ തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ ഇഷ്‌ടാനുസൃത URL നൽകുക.
+EPG Source Missing: EPG ഉറവിടം കാണുന്നില്ല
 Error: പിശക്
+Error clearing cache: കാഷെ മായ്‌ക്കുന്നതിൽ പിശക്
 Error loading: ലോഡ് ചെയ്യുന്നതിൽ പിശക്
 Error loading file: {0}: ഫയൽ ലോഡ് ചെയ്യുന്നതിൽ പിശക്: {0}
 Error loading playlists: {0}: പ്ലേലിസ്റ്റുകൾ ലോഡ് ചെയ്യുന്നതിൽ പിശക്: {0}
@@ -160,14 +168,19 @@ Name: പേര്
 Nanoid: നാനോയിഡ്
 Network error: നെറ്റ്‌വർക്ക് പിശക്
 New Playlist: പുതിയ പ്ലേലിസ്റ്റ്
+Next: അടുത്തത്
 Next ▶: അടുത്തത് ▶
 No .m3u files found on GitHub repository.: GitHub റിപ്പോസിറ്ററിയിൽ .m3u ഫയലുകളൊന്നും കണ്ടെത്തിയില്ല.
+No cache folder found.: കാഷെ ഫോൾഡറൊന്നും കണ്ടെത്തിയില്ല.
 No channels could be mapped. Check your mapping rules.: ചാനലുകളൊന്നും മാപ്പ് ചെയ്യാൻ കഴിഞ്ഞില്ല. നിങ്ങളുടെ മാപ്പിംഗ് നിയമങ്ങൾ പരിശോധിക്കുക.
 No channels mapped: ചാനലുകളൊന്നും മാപ്പ് ചെയ്‌തിട്ടില്ല
 No duplicate URLs found.: തനിപ്പകർപ്പ് URL-കളൊന്നും കണ്ടെത്തിയില്ല.
+No EPG data: EPG ഡാറ്റ ഇല്ല
+No EPG information available for this channel.: ഈ ചാനലിന് EPG വിവരങ്ങളൊന്നും ലഭ്യമല്ല.
+No EPG source configured. Please select one from the combo or go to Settings.: EPG ഉറവിടങ്ങളൊന്നും കോൺഫിഗർ ചെയ്തിട്ടില്ല. കോമ്പോയിൽ നിന്ന് ഒന്ന് തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ ക്രമീകരണത്തിലേക്ക് പോകുക.
+No EPG source configured. Would you like to open settings to select one?: EPG ഉറവിടങ്ങളൊന്നും കോൺഫിഗർ ചെയ്തിട്ടില്ല. ഒന്ന് തിരഞ്ഞെടുക്കാൻ നിങ്ങൾക്ക് ക്രമീകരണം തുറക്കണോ?
 No favorite channels to export.: കയറ്റുമതി ചെയ്യാൻ പ്രിയപ്പെട്ട ചാനലുകളൊന്നുമില്ല.
 No playlist found: പ്ലേലിസ്റ്റൊന്നും കണ്ടെത്തിയില്ല
-No stream: സ്ട്രീം ഇല്ല
 No updates available.: അപ്‌ഡേറ്റുകളൊന്നും ലഭ്യമല്ല.
 Normal speed (1x): സാധാരണ വേഗത (1x)
 Now: ഇപ്പോൾ
@@ -195,9 +208,10 @@ Ready.: തയ്യാറാണ്.
 Recent: അടുത്തിടെ
 Recent files – quick access to last 5 opened playlists.: സമീപകാല ഫയലുകൾ - അവസാനം തുറന്ന 5 പ്ലേലിസ്റ്റുകളിലേക്കുള്ള ദ്രുത ആക്സസ്.
 Recent playlists: സമീപകാല പ്ലേലിസ്റ്റുകൾ
-Refresh: പുതുക്കുക
+Refresh EPG: EPG പുതുക്കുക
 Refresh EPG List: EPG ലിസ്റ്റ് പുതുക്കുക
 Refresh from GitHub: GitHub-ൽ നിന്ന് പുതുക്കുക
+Refresh List: ലിസ്റ്റ് പുതുക്കുക
 Rename Group: ഗ്രൂപ്പിൻ്റെ പേര് മാറ്റുക
 Repository: ശേഖരം
 Reset Order: ഓർഡർ പുനഃസജ്ജമാക്കുക
@@ -210,6 +224,7 @@ Save Mapping: മാപ്പിംഗ് സംരക്ഷിക്കുക
 Save Playlist: പ്ലേലിസ്റ്റ് സംരക്ഷിക്കുക
 Save Status: നില സംരക്ഷിക്കുക
 Saved: സംരക്ഷിച്ചു
+Search channel: : ചാനൽ തിരയുക:
 Search channels by name: പേര് പ്രകാരം ചാനലുകൾ തിരയുക
 Search channels...: ചാനലുകൾ തിരയുക...
 Select a playlist first.: ആദ്യം ഒരു പ്ലേലിസ്റ്റ് തിരഞ്ഞെടുക്കുക.
@@ -220,7 +235,7 @@ Show List: പട്ടിക കാണിക്കുക
 Show only channels marked as favorites: പ്രിയപ്പെട്ടതായി അടയാളപ്പെടുത്തിയ ചാനലുകൾ മാത്രം കാണിക്കുക
 Show or hide the channel list: ചാനൽ ലിസ്റ്റ് കാണിക്കുക അല്ലെങ്കിൽ മറയ്ക്കുക
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: പരിശോധനയ്ക്കും പിന്തുണയ്ക്കും CORVOBOYS & LinuxSat-പിന്തുണ കമ്മ്യൂണിറ്റികൾക്ക് പ്രത്യേക നന്ദി.
-Start (local): ആരംഭിക്കുക (പ്രാദേശികം)
+Start: ആരംഭിക്കുക
 Status: നില
 Stream URL: സ്ട്രീം URL
 Stream URLs: സ്ട്രീം URL-കൾ
@@ -239,6 +254,7 @@ Total: ആകെ
 Total channels in loaded playlist: ലോഡ് ചെയ്ത പ്ലേലിസ്റ്റിലെ മൊത്തം ചാനലുകൾ
 TV Guide (EPG): ടിവി ഗൈഡ് (ഇപിജി)
 TvgId: TvgId
+Type channel name to filter: ഫിൽട്ടർ ചെയ്യാൻ ചാനലിൻ്റെ പേര് ടൈപ്പ് ചെയ്യുക
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: റിമോട്ട് പ്രോജക്റ്റ് ഫയലിൽ പതിപ്പ് കണ്ടെത്താനായില്ല.
 Update: അപ്ഡേറ്റ്

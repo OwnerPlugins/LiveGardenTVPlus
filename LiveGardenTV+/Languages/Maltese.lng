@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Completament volontarju - l-ebda karatteristika mhi mblukkata)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Folder tal-cache: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Completament volontarju - l-ebda karatteristika mhi mblukkata)
 (No description): (L-ebda deskrizzjoni)
 • Add / rename / delete groups.: • Żid / semmi mill-ġdid / ħassar gruppi.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffer slider: aġġusta l-buffer HLS (1-10 sekondi).
@@ -32,21 +33,24 @@ Auto-detect: Issib awtomatikament
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Iċċekkja awtomatika mal-istartjar – jew ikklikkja 'Iċċekkja għal aġġornamenti' fil-menu tal-Għodda.
 Buffer (seconds): Buffer (sekondi)
 Buffer size – adjust HLS buffer seconds.: Daqs tal-buffer – aġġusta sekondi tal-buffer HLS.
+Cache: Cache
 Cancel: Ikkanċella
 CANCEL: IKANNELLA
 Category: Kategorija
 Changelog: Changelog
 Channel Details: Dettalji tal-Kanal
 Channel Info: Informazzjoni dwar il-Kanal
-Channel:: Kanal:
 channels from: kanali minn
 channels from JSON URL: kanali mill-URL JSON
 channels from URL: kanali mill-URL
 Check Duplicates: Iċċekkja Duplikati
 Check for updates: Iċċekkja għal aġġornamenti
 Check URLs: Iċċekkja l-URLs
+Clear EPG Cache: Ċar EPG Cache
 Clear Filters: Filtri ċari
 Clear search: Tiftix ċar
+Click for details: Ikklikkja għad-dettalji
+Close: Agħlaq
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunità u ttestjar: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Pajjiż
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Iddreggja biex tfittex lura fil-buffer
 Duplicate URLs found:\n\n: URLs duplikati misjuba:\n\n
 Edit Playlist: Editja Playlist
 Edit URLs: Editja l-URLs
-End (local): Tmiem (lokali)
+End: Tmiem
 Enrich with EPG: Tarrikkixxi bl-EPG
 Enter JSON URL:: Daħħal JSON URL:
 Enter playlist URL (M3U or JSON):: Daħħal l-URL tal-playlist (M3U jew JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Favoriti
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
+EPG cache cleared successfully.: Il-cache tal-EPG ikklerjat b'suċċess.
+EPG Details: Dettalji EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Gwida EPG – buttuna fuq il-bar tal-għodda prinċipali turi grilja sħiħa bid-dettalji tal-programm (ikklikkja darbtejn għall-informazzjoni).
 EPG Matching Threshold: Limitu ta' Tqabbil EPG
-EPG Source: Sors EPG
+EPG Source: : Sors EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Sors EPG - jista 'jiġi ssettjat f'Settings (epgshare01 jew URL personalizzat).
 EPG source – choose XMLTV file or enter custom URL.: Sors EPG - agħżel fajl XMLTV jew daħħal URL personalizzat.
+EPG Source Missing: Sors EPG Nieqes
 Error: Żball
+Error clearing cache: Żball fl-ikklerjar tal-cache
 Error loading: Żball fit-tagħbija
 Error loading file: {0}: Żball fit-tagħbija tal-fajl: {0}
 Error loading playlists: {0}: Żball fit-tagħbija tal-playlists: {0}
@@ -160,14 +168,19 @@ Name: Isem
 Nanoid: Nanojdi
 Network error: Żball tan-netwerk
 New Playlist: Playlist ġdida
+Next: Li jmiss
 Next ▶: Li jmiss ▶
 No .m3u files found on GitHub repository.: L-ebda fajl .m3u misjub fuq ir-repożitorju GitHub.
+No cache folder found.: Ma nstab l-ebda folder tal-cache.
 No channels could be mapped. Check your mapping rules.: L-ebda kanali ma setgħu jiġu mmappjati. Iċċekkja r-regoli tal-mapping tiegħek.
 No channels mapped: Ebda kanali mmappjati
 No duplicate URLs found.: Ma nstab l-ebda URL duplikat.
+No EPG data: Ebda data EPG
+No EPG information available for this channel.: L-ebda informazzjoni EPG disponibbli għal dan il-kanal.
+No EPG source configured. Please select one from the combo or go to Settings.: Ebda sors EPG konfigurat. Jekk jogħġbok agħżel waħda mill-combo jew mur Settings.
+No EPG source configured. Would you like to open settings to select one?: Ebda sors EPG konfigurat. Tixtieq tiftaħ settings biex tagħżel waħda?
 No favorite channels to export.: Ebda kanali favoriti għall-esportazzjoni.
 No playlist found: Ma nstabet l-ebda playlist
-No stream: L-ebda nixxiegħa
 No updates available.: Ebda aġġornamenti disponibbli.
 Normal speed (1x): Veloċità normali (1x)
 Now: Issa
@@ -195,9 +208,10 @@ Ready.: Lest.
 Recent: Riċenti
 Recent files – quick access to last 5 opened playlists.: Fajls riċenti - aċċess rapidu għall-aħħar 5 playlists miftuħa.
 Recent playlists: Playlists riċenti
-Refresh: Aġġorna
+Refresh EPG: Aġġorna l-EPG
 Refresh EPG List: Aġġorna l-Lista EPG
 Refresh from GitHub: Aġġorna minn GitHub
+Refresh List: Aġġorna l-Lista
 Rename Group: Semmi mill-ġdid tal-Grupp
 Repository: Repożitorju
 Reset Order: Irrisettja l-Ordni
@@ -210,6 +224,7 @@ Save Mapping: Ħlief Mapping
 Save Playlist: Ħlief Playlist
 Save Status: Issejvja l-Istatus
 Saved: Salvat
+Search channel: : Fittex kanal:
 Search channels by name: Fittex kanali bl-isem
 Search channels...: Fittex kanali...
 Select a playlist first.: Agħżel playlist l-ewwel.
@@ -220,7 +235,7 @@ Show List: Uri Lista
 Show only channels marked as favorites: Uri biss kanali mmarkati bħala favoriti
 Show or hide the channel list: Uri jew aħbi l-lista tal-kanali
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Grazzi speċjali lill-komunitajiet CORVOBOYS & LinuxSat-Support għall-ittestjar u l-appoġġ.
-Start (local): Ibda (lokali)
+Start: Ibda
 Status: Status
 Stream URL: Stream URL
 Stream URLs: Stream URLs
@@ -239,6 +254,7 @@ Total: Total
 Total channels in loaded playlist: Stazzjonijiet totali fil-playlist mgħobbija
 TV Guide (EPG): Gwida tat-TV (EPG)
 TvgId: TvgId
+Type channel name to filter: Ittajpja l-isem tal-kanal biex tiffiltra
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Ma tistax issib verżjoni fil-fajl tal-proġett remot.
 Update: Aġġornament

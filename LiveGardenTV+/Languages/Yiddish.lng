@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (גאָר וואַלאַנטערי - קיין פֿעיִקייטן זענען אפגעשטעלט)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (קאַש טעקע: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (גאָר וואַלאַנטערי - קיין פֿעיִקייטן זענען אפגעשטעלט)
 (No description): (קיין באַשרייַבונג)
 • Add / rename / delete groups.: • לייג / רענאַמע / ויסמעקן גרופּעס.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • באַפער סליידער: סטרויערן HLS באַפער (1-10 סעקונדעס).
@@ -32,21 +33,24 @@ Auto-detect: אַוטאָ-דעטעקט
 Automatic check on startup – or click 'Check for updates' in Tools menu.: אָטאַמאַטיק טשעק אויף סטאַרטאַפּ - אָדער גיט 'טשעק פֿאַר דערהייַנטיקונגען' אין מכשירים מעניו.
 Buffer (seconds): באַפער (סעקונדן)
 Buffer size – adjust HLS buffer seconds.: באַפער גרייס - סטרויערן HLS באַפער סעקונדעס.
+Cache: קאַש
 Cancel: באָטל מאַכן
 CANCEL: באָטל מאַכן
 Category: קאַטעגאָריע
 Changelog: טשאַנגעלאָג
 Channel Details: קאַנאַל דעטאַילס
 Channel Info: קאַנאַל אינפֿאָרמאַציע
-Channel:: קאַנאַל:
 channels from: טשאַנאַלז פון
 channels from JSON URL: טשאַנאַלז פֿון JSON URL
 channels from URL: טשאַנאַלז פֿון URL
 Check Duplicates: קוק די דופּליקאַטן
 Check for updates: קוק פֿאַר דערהייַנטיקונגען
 Check URLs: קוק URL ס
+Clear EPG Cache: ויסמעקן EPG קאַש
 Clear Filters: קלאָר פילטערס
 Clear search: קלאָר זוכן
+Click for details: דריקט פֿאַר פרטים
+Close: נאָענט
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: קהל און טעסטינג: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: לאַנד
@@ -65,7 +69,7 @@ Drag to seek back in buffer: שלעפּן צו זוכן צוריק אין באַ
 Duplicate URLs found:\n\n: דופּליקאַט URL ס געפֿונען:\n\n
 Edit Playlist: רעדאַגירן פּלייַליסט
 Edit URLs: רעדאַגירן URL ס
-End (local): סוף (לאקאלע)
+End: סוף
 Enrich with EPG: באַרייַכערן מיט EPG
 Enter JSON URL:: אַרייַן JSON URL:
 Enter playlist URL (M3U or JSON):: אַרייַן פּלייַליסט URL (M3U אָדער JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: עפּג & פאַוואָריטעס
 Epg & Logos: עפּג & לאָגאָס
 EPG & Logos: עפּג & לאָגאָס
+EPG cache cleared successfully.: EPG קאַש קלירד הצלחה.
+EPG Details: עפּג דעטאַילס
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG גייד - קנעפּל אויף די הויפּט מכשיר ווייזן פול גריד מיט פּראָגראַם דעטאַילס (טאָפּל גיט פֿאַר אינפֿאָרמאַציע).
 EPG Matching Threshold: EPG Matching Threshold
-EPG Source: EPG מקור
+EPG Source: : EPG מקור:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG מקור - קענען זיין שטעלן אין סעטטינגס (epgshare01 אָדער מנהג URL).
 EPG source – choose XMLTV file or enter custom URL.: EPG מקור - קלייַבן XMLTV טעקע אָדער אַרייַן אַ מנהג URL.
+EPG Source Missing: EPG מקור פעלנדיק
 Error: טעות
+Error clearing cache: טעות אין ויסמעקן קאַש
 Error loading: טעות לאָודינג
 Error loading file: {0}: טעות לאָודינג טעקע: {0}
 Error loading playlists: {0}: טעות לאָודינג פּלייַליסץ: {0}
@@ -160,14 +168,19 @@ Name: נאָמען
 Nanoid: נאַנאָיד
 Network error: נעץ טעות
 New Playlist: ניו פּלייַליסט
+Next: ווייַטער
 Next ▶: ווייַטער ▶
 No .m3u files found on GitHub repository.: ניט קיין .מ3ו טעקעס געפֿונען אויף GitHub ריפּאַזאַטאָרי.
+No cache folder found.: קיין קאַש טעקע געפונען.
 No channels could be mapped. Check your mapping rules.: קיין טשאַנאַלז קען זיין מאַפּט. קוק דיין מאַפּינג כּללים.
 No channels mapped: קיין טשאַנאַלז מאַפּט
 No duplicate URLs found.: קיין דופּליקאַט URL ס געפֿונען.
+No EPG data: קיין EPG דאַטן
+No EPG information available for this channel.: קיין EPG אינפֿאָרמאַציע בנימצא פֿאַר דעם קאַנאַל.
+No EPG source configured. Please select one from the combo or go to Settings.: קיין EPG מקור קאַנפיגיערד. ביטע אויסקלייַבן איינער פון די קאָמבאָ אָדער גיין צו סעטטינגס.
+No EPG source configured. Would you like to open settings to select one?: קיין EPG מקור קאַנפיגיערד. וואָלט איר ווי צו עפענען סעטטינגס צו אויסקלייַבן איינער?
 No favorite channels to export.: ניט קיין באַליבסטע טשאַנאַלז צו אַרויספירן.
 No playlist found: קיין פּלייַליסט געפונען
-No stream: קיין טייַך
 No updates available.: קיין דערהייַנטיקונגען בנימצא.
 Normal speed (1x): נאָרמאַל גיכקייַט (1x)
 Now: איצט
@@ -195,11 +208,12 @@ Ready.: גרייט.
 Recent: לעצטע
 Recent files – quick access to last 5 opened playlists.: לעצטע טעקעס - שנעל אַקסעס צו די לעצטע 5 געעפנט פּלייַליסץ.
 Recent playlists: לעצטע פּלייַליסץ
-Refresh: דערפרישן
+Refresh EPG: דערפרישן EPG
 Refresh EPG List: דערפרישן די EPG רשימה
 Refresh from GitHub: דערפרישן פֿון GitHub
+Refresh List: דערפרישן רשימה
 Rename Group: רענאַמע גרופע
-Repository: https://github.com/OwnerPlugins/LiveGardenTVPlus: ריפּאַזאַטאָרי: https://github.com/OwnerPlugins/LiveGardenTVPlus
+Repository: ריפּאַזאַטאָרי
 Reset Order: באַשטעטיק סדר
 Save: היט
 SAVE: SAVE
@@ -210,6 +224,7 @@ Save Mapping: היט מאַפּינג
 Save Playlist: היט פּלייַליסט
 Save Status: היט סטאַטוס
 Saved: געראטעוועט
+Search channel: : זוכן קאַנאַל:
 Search channels by name: זוכן טשאַנאַלז דורך נאָמען
 Search channels...: זוך טשאַנאַלז ...
 Select a playlist first.: אויסקלייַבן אַ פּלייַליסט ערשטער.
@@ -220,7 +235,7 @@ Show List: ווייַזן רשימה
 Show only channels marked as favorites: ווייַזן בלויז טשאַנאַלז אנגעצייכנט ווי פאַוואָריטעס
 Show or hide the channel list: ווייַזן אָדער באַהאַלטן די קאַנאַל רשימה
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: ספּעציעלע דאַנקען צו די CORVOBOYS & LinuxSat-סופּפּאָרט קהילות פֿאַר טעסטינג און שטיצן.
-Start (local): אָנהייב (לאקאלע)
+Start: אָנהייב
 Status: סטאַטוס
 Stream URL: סטרים URL
 Stream URLs: סטרים URL ס
@@ -239,6 +254,7 @@ Total: גאַנץ
 Total channels in loaded playlist: גאַנץ טשאַנאַלז אין לאָודיד פּלייַליסט
 TV Guide (EPG): טעלעוויזיע גייד (EPG)
 TvgId: TvgId
+Type channel name to filter: טיפּ קאַנאַל נאָמען צו פילטער
 UI: MaterialDesignThemes.Wpf: וי: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: ניט געקענט געפֿינען ווערסיע אין ווייַט פּרויעקט טעקע.
 Update: דערהייַנטיקן

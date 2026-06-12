@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (To'liq ixtiyoriy - hech qanday xususiyat bloklanmagan)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Kesh jildi: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (To'liq ixtiyoriy - hech qanday xususiyat bloklanmagan)
 (No description): (Ta'rif yo'q)
 • Add / rename / delete groups.: • Guruhlarni qo‘shish/nomini o‘zgartirish/o‘chirish.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Bufer slayderi: HLS buferini sozlash (1‑10 soniya).
@@ -32,21 +33,24 @@ Auto-detect: Avtomatik aniqlash
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Ishga tushganda avtomatik tekshirish - yoki Asboblar menyusidagi "Yangilanishlarni tekshirish" tugmasini bosing.
 Buffer (seconds): Bufer (soniyalar)
 Buffer size – adjust HLS buffer seconds.: Bufer hajmi - HLS bufer soniyalarini sozlang.
+Cache: Kesh
 Cancel: Bekor qilish
 CANCEL: BEKOR
 Category: Turkum
 Changelog: O'zgarishlar jurnali
 Channel Details: Kanal tafsilotlari
 Channel Info: Kanal haqida ma'lumot
-Channel:: Kanal:
 channels from: dan kanallar
 channels from JSON URL: JSON URL dan kanallar
 channels from URL: URL dan kanallar
 Check Duplicates: Dublikatlarni tekshiring
 Check for updates: Yangilanishlarni tekshiring
 Check URLs: URL manzillarini tekshiring
+Clear EPG Cache: EPG keshini tozalang
 Clear Filters: Filtrlarni tozalash
 Clear search: Qidiruvni tozalash
+Click for details: Tafsilotlar uchun bosing
+Close: Yopish
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Hamjamiyat va test: CorvoBoys (corvoboys.org) va LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Mamlakat
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Buferda orqaga qidirish uchun torting
 Duplicate URLs found:\n\n: Takroriy URL manzillar topildi:\n\n
 Edit Playlist: Pleylistni tahrirlash
 Edit URLs: URL manzillarini tahrirlash
-End (local): Oxiri (mahalliy)
+End: Oxiri
 Enrich with EPG: EPG bilan boyiting
 Enter JSON URL:: JSON URL manzilini kiriting:
 Enter playlist URL (M3U or JSON):: Pleylist URL manzilini kiriting (M3U yoki JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg va Sevimlilar
 Epg & Logos: Epg va logotiplar
 EPG & Logos: EPG va logotiplar
+EPG cache cleared successfully.: EPG keshi muvaffaqiyatli tozalandi.
+EPG Details: EPG tafsilotlari
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Guide - asosiy asboblar panelidagi tugma dastur tafsilotlari bilan to'liq panjarani ko'rsatadi (ma'lumot uchun ikki marta bosing).
 EPG Matching Threshold: EPG moslashish chegarasi
-EPG Source: EPG manbasi
+EPG Source: : EPG manbasi:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG manbasi - Sozlamalarda o'rnatilishi mumkin (epgshare01 yoki maxsus URL).
 EPG source – choose XMLTV file or enter custom URL.: EPG manbai - XMLTV faylini tanlang yoki maxsus URL manzilini kiriting.
+EPG Source Missing: EPG manbasi yoʻq
 Error: Xato
+Error clearing cache: Keshni tozalashda xatolik yuz berdi
 Error loading: Yuklashda xato
 Error loading file: {0}: Faylni yuklashda xatolik: {0}
 Error loading playlists: {0}: Pleylistlarni yuklashda xatolik: {0}
@@ -160,14 +168,19 @@ Name: Ism
 Nanoid: Nanoid
 Network error: Tarmoq xatosi
 New Playlist: Yangi pleylist
+Next: Keyingisi
 Next ▶: Keyingi ▶
 No .m3u files found on GitHub repository.: GitHub omborida .m3u fayl topilmadi.
+No cache folder found.: Hech qanday kesh jild topilmadi.
 No channels could be mapped. Check your mapping rules.: Hech qanday kanalni xaritalash mumkin emas. Xarita tuzish qoidalarini tekshiring.
 No channels mapped: Hech qanday kanal xaritalanmagan
 No duplicate URLs found.: Hech qanday takroriy URL topilmadi.
+No EPG data: EPG maʼlumotlari yoʻq
+No EPG information available for this channel.: Bu kanal uchun EPG maʼlumoti mavjud emas.
+No EPG source configured. Please select one from the combo or go to Settings.: Hech qanday EPG manbai sozlanmagan. Kombodan birini tanlang yoki Sozlamalarga o'ting.
+No EPG source configured. Would you like to open settings to select one?: Hech qanday EPG manbai sozlanmagan. Birini tanlash uchun sozlamalarni ochmoqchimisiz?
 No favorite channels to export.: Eksport qilinadigan sevimli kanallar yoʻq.
 No playlist found: Hech qanday pleylist topilmadi
-No stream: Oqim yo‘q
 No updates available.: Hech qanday yangilanish mavjud emas.
 Normal speed (1x): Oddiy tezlik (1x)
 Now: Hozir
@@ -195,9 +208,10 @@ Ready.: Tayyor.
 Recent: Yaqinda
 Recent files – quick access to last 5 opened playlists.: Oxirgi fayllar - oxirgi 5 ochilgan pleylistga tezkor kirish.
 Recent playlists: Oxirgi pleylistlar
-Refresh: Yangilash
+Refresh EPG: EPGni yangilang
 Refresh EPG List: EPG roʻyxatini yangilang
 Refresh from GitHub: GitHub dan yangilang
+Refresh List: Roʻyxatni yangilash
 Rename Group: Guruh nomini o'zgartirish
 Repository: Repozitariy
 Reset Order: Buyurtmani tiklash
@@ -210,6 +224,7 @@ Save Mapping: Xaritani saqlash
 Save Playlist: Pleylistni saqlash
 Save Status: Holatni saqlash
 Saved: Saqlangan
+Search channel: : Kanalni qidirish:
 Search channels by name: Kanallarni nomi bo'yicha qidiring
 Search channels...: Kanallarni qidirish...
 Select a playlist first.: Avval pleylistni tanlang.
@@ -220,7 +235,7 @@ Show List: Roʻyxatni koʻrsatish
 Show only channels marked as favorites: Faqat sevimlilar sifatida belgilangan kanallarni ko'rsatish
 Show or hide the channel list: Kanallar roʻyxatini koʻrsatish yoki yashirish
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Sinov va qo'llab-quvvatlash uchun CORVOBOYS & LinuxSat-Support hamjamiyatlariga alohida rahmat.
-Start (local): Boshlash (mahalliy)
+Start: Boshlash
 Status: Status
 Stream URL: Strim URL
 Stream URLs: Oqim URL manzillari
@@ -239,6 +254,7 @@ Total: Jami
 Total channels in loaded playlist: Yuklangan pleylistdagi jami kanallar
 TV Guide (EPG): Televizion qoʻllanma (EPG)
 TvgId: TvgId
+Type channel name to filter: Filtrlash uchun kanal nomini kiriting
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Masofaviy loyiha faylida versiya topilmadi.
 Update: Yangilash

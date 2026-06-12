@@ -15,6 +15,20 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 
 ## Changelog
 
+## 📋 LiveGardenTVPlus – Changelog (v2.3)
+- **Local EPG Cache** – EPG data is cached for 24 hours (saved in %TEMP%\LiveGardenTVPlus\epg_cache). Reduces repeated downloads.
+- **Clear Cache Button** – Added to Settings window with a helpful tooltip showing the cache folder location.
+- **Status Bar EPG Indicator** – Dynamic icon (TelevisionGuide) and text color: green when EPG data exists, gray when none. Clicking opens detailed EPG window.
+- **Detailed EPG Window** – Shows current and next program (title, time, category, description). Auto‑sized layout, clean typography, channel name prominent.
+- **Performance** – Replaced slow combo box with searchable, virtualized channel list (debounced search). Built‑in EPG source selector.
+- **Translations** – All EPG related strings are fully localizable via LanguageManager.
+
+### Need more help?
+
+Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
+
+---
+
 ## 📋 LiveGardenTVPlus – Changelog (v2.2)
 
 ### 🆕 New Features
@@ -45,10 +59,6 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 - **Ambiguous `Channel` reference** – Removed `using System.Threading.Channels` conflict.
 
 - **UI translations** – Completed all missing translations in toolbar, status bar, and context menus.
-
-### Need more help?
-
-Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
 
 ---
 

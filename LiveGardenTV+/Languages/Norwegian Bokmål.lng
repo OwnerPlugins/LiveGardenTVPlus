@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Helt frivillig – ingen funksjoner er blokkert)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache-mappe: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Helt frivillig – ingen funksjoner er blokkert)
 (No description): (Ingen beskrivelse)
 • Add / rename / delete groups.: • Legg til / gi nytt navn / slett grupper.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffer-glidebryter: Juster HLS-buffer (1-10 sekunder).
@@ -32,21 +33,24 @@ Auto-detect: Automatisk gjenkjenning
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatisk sjekk ved oppstart – eller klikk "Se etter oppdateringer" i Verktøy-menyen.
 Buffer (seconds): Buffer (sekunder)
 Buffer size – adjust HLS buffer seconds.: Bufferstørrelse – juster HLS-buffersekunder.
+Cache: Cache
 Cancel: Kansellere
 CANCEL: KANSELLERE
 Category: Kategori
 Changelog: Endringslogg
 Channel Details: Kanaldetaljer
 Channel Info: Kanalinfo
-Channel:: Kanal:
 channels from: kanaler fra
 channels from JSON URL: kanaler fra JSON URL
 channels from URL: kanaler fra URL
 Check Duplicates: Sjekk duplikater
 Check for updates: Se etter oppdateringer
 Check URLs: Sjekk URL-er
+Clear EPG Cache: Tøm EPG Cache
 Clear Filters: Tøm filtre
 Clear search: Tøm søk
+Click for details: Klikk for detaljer
+Close: Lukke
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Fellesskap og testing: CorvoBoys (corvoboys.org) og LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Land
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Dra for å søke tilbake i buffer
 Duplicate URLs found:\n\n: Fant dupliserte nettadresser:\n\n
 Edit Playlist: Rediger spilleliste
 Edit URLs: Rediger nettadresser
-End (local): Slutt (lokalt)
+End: Slutt
 Enrich with EPG: Berik med EPG
 Enter JSON URL:: Skriv inn JSON URL:
 Enter playlist URL (M3U or JSON):: Skriv inn spilleliste-URL (M3U eller JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg og favoritter
 Epg & Logos: Epg og logoer
 EPG & Logos: EPG og logoer
+EPG cache cleared successfully.: EPG-bufferen ble tømt.
+EPG Details: EPG-detaljer
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG-guide – knappen på hovedverktøylinjen viser hele rutenettet med programdetaljer (dobbeltklikk for info).
 EPG Matching Threshold: EPG Matching Threshold
-EPG Source: EPG-kilde
+EPG Source: : EPG-kilde:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG-kilde – kan angis i Innstillinger (epgshare01 eller egendefinert URL).
 EPG source – choose XMLTV file or enter custom URL.: EPG-kilde – velg XMLTV-fil eller skriv inn egendefinert URL.
+EPG Source Missing: EPG-kilde mangler
 Error: Feil
+Error clearing cache: Feil ved tømning av buffer
 Error loading: Feil ved innlasting
 Error loading file: {0}: Feil ved lasting av fil: {0}
 Error loading playlists: {0}: Feil ved lasting av spillelister: {0}
@@ -160,14 +168,19 @@ Name: Navn
 Nanoid: Nanoid
 Network error: Nettverksfeil
 New Playlist: Ny spilleliste
+Next: Neste
 Next ▶: Neste ▶
 No .m3u files found on GitHub repository.: Ingen .m3u-filer funnet på GitHub-depotet.
+No cache folder found.: Finner ingen cache-mappe.
 No channels could be mapped. Check your mapping rules.: Ingen kanaler kunne kartlegges. Sjekk kartreglene dine.
 No channels mapped: Ingen kanaler er kartlagt
 No duplicate URLs found.: Fant ingen dupliserte nettadresser.
+No EPG data: Ingen EPG-data
+No EPG information available for this channel.: Ingen EPG-informasjon tilgjengelig for denne kanalen.
+No EPG source configured. Please select one from the combo or go to Settings.: Ingen EPG-kilde konfigurert. Velg en fra kombinasjonen eller gå til Innstillinger.
+No EPG source configured. Would you like to open settings to select one?: Ingen EPG-kilde konfigurert. Vil du åpne innstillingene for å velge en?
 No favorite channels to export.: Ingen favorittkanaler å eksportere.
 No playlist found: Finner ingen spilleliste
-No stream: Ingen strøm
 No updates available.: Ingen tilgjengelige oppdateringer.
 Normal speed (1x): Normal hastighet (1x)
 Now: Nå
@@ -195,9 +208,10 @@ Ready.: Ferdig.
 Recent: Nylig
 Recent files – quick access to last 5 opened playlists.: Nylige filer – rask tilgang til de siste 5 åpne spillelistene.
 Recent playlists: Nylige spillelister
-Refresh: Forfriske
+Refresh EPG: Oppdater EPG
 Refresh EPG List: Oppdater EPG-listen
 Refresh from GitHub: Oppdater fra GitHub
+Refresh List: Oppdater liste
 Rename Group: Gi nytt navn til gruppe
 Repository: Depot
 Reset Order: Tilbakestill rekkefølge
@@ -210,6 +224,7 @@ Save Mapping: Lagre kartlegging
 Save Playlist: Lagre spilleliste
 Save Status: Lagre status
 Saved: Lagret
+Search channel: : Søk kanal:
 Search channels by name: Søk etter kanaler etter navn
 Search channels...: Søk etter kanaler...
 Select a playlist first.: Velg en spilleliste først.
@@ -220,7 +235,7 @@ Show List: Vis liste
 Show only channels marked as favorites: Vis kun kanaler merket som favoritter
 Show or hide the channel list: Vis eller skjul kanallisten
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Spesiell takk til CORVOBOYS & LinuxSat-Support-miljøene for testing og støtte.
-Start (local): Start (lokal)
+Start: Start
 Status: Status
 Stream URL: Strøm URL
 Stream URLs: Strøm nettadresser
@@ -239,6 +254,7 @@ Total: Total
 Total channels in loaded playlist: Totalt antall kanaler i innlastet spilleliste
 TV Guide (EPG): TV Guide (EPG)
 TvgId: TvgId
+Type channel name to filter: Skriv inn kanalnavnet for å filtrere
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Kan ikke finne versjon i ekstern prosjektfil.
 Update: Oppdater

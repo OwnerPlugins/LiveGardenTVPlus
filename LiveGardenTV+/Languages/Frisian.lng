@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Folslein frijwillich - gjin funksjes wurde blokkearre)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache map: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Folslein frijwillich - gjin funksjes wurde blokkearre)
 (No description): (Gjin beskriuwing)
 • Add / rename / delete groups.: • Add / omneame / wiskje groepen.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffer slider: oanpasse HLS buffer (1-10 sekonden).
@@ -32,21 +33,24 @@ Auto-detect: Auto-detect
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatyske kontrôle by opstarten - of klik op 'Kontrolearje op updates' yn it menu Tools.
 Buffer (seconds): Buffer (sekonden)
 Buffer size – adjust HLS buffer seconds.: Buffergrutte - oanpasse HLS buffer sekonden.
+Cache: Cache
 Cancel: Ofbrekke
 CANCEL: CANCEL
 Category: Kategory
 Changelog: Feroaringslog
 Channel Details: Channel Details
 Channel Info: Channel Info
-Channel:: Kanaal:
 channels from: kanalen út
 channels from JSON URL: kanalen fan JSON URL
 channels from URL: kanalen fan URL
 Check Duplicates: Kontrolearje Duplikaten
 Check for updates: Kontrolearje op updates
 Check URLs: Kontrolearje URL's
+Clear EPG Cache: EPG-cache wiskje
 Clear Filters: Filters wiskje
 Clear search: Wiskje sykjen
+Click for details: Klik foar details
+Close: Slute
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Mienskip en testen: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Lân
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Sleep om werom te sykjen yn buffer
 Duplicate URLs found:\n\n: Dûbele URL's fûn:\n\n
 Edit Playlist: Playlist bewurkje
 Edit URLs: URLs bewurkje
-End (local): Ein (lokaal)
+End: Ein
 Enrich with EPG: Ferrykje mei EPG
 Enter JSON URL:: Fier JSON URL yn:
 Enter playlist URL (M3U or JSON):: Fier de playlist-URL yn (M3U of JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Favorites
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
+EPG cache cleared successfully.: EPG-cache mei sukses wiske.
+EPG Details: EPG Details
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG-gids - knop op 'e haadarkbalke toant folslein raster mei programmadetails (dûbelklik foar ynfo).
 EPG Matching Threshold: EPG Matching Threshold
-EPG Source: EPG Boarne
+EPG Source: : EPG Boarne:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG-boarne - kin ynsteld wurde yn Ynstellings (epgshare01 as oanpaste URL).
 EPG source – choose XMLTV file or enter custom URL.: EPG-boarne - kies XMLTV-bestân of fier in oanpaste URL yn.
+EPG Source Missing: EPG Boarne Missing
 Error: Fersin
+Error clearing cache: Flater by it wiskjen fan cache
 Error loading: Flater by it laden
 Error loading file: {0}: Flater by it laden fan triem: {0}
 Error loading playlists: {0}: Flater by it laden fan playlists: {0}
@@ -160,14 +168,19 @@ Name: Namme
 Nanoid: Nanoïde
 Network error: Netwurk flater
 New Playlist: Nije playlist
+Next: Folgjende
 Next ▶: Folgjende ▶
 No .m3u files found on GitHub repository.: Gjin .m3u triemmen fûn op GitHub repository.
+No cache folder found.: Gjin cache-map fûn.
 No channels could be mapped. Check your mapping rules.: Gjin kanalen koene wurde yn kaart brocht. Kontrolearje jo mapping regels.
 No channels mapped: Gjin kanalen yn kaart brocht
 No duplicate URLs found.: Gjin dûbele URL's fûn.
+No EPG data: Gjin EPG-gegevens
+No EPG information available for this channel.: Gjin EPG-ynformaasje beskikber foar dit kanaal.
+No EPG source configured. Please select one from the combo or go to Settings.: Gjin EPG-boarne ynsteld. Selektearje asjebleaft ien út 'e kombinaasje of gean nei Ynstellings.
+No EPG source configured. Would you like to open settings to select one?: Gjin EPG-boarne ynsteld. Wolle jo ynstellings iepenje om ien te selektearjen?
 No favorite channels to export.: Gjin favorite kanalen om te eksportearjen.
 No playlist found: Gjin playlist fûn
-No stream: Gjin stream
 No updates available.: Gjin updates beskikber.
 Normal speed (1x): Normale snelheid (1x)
 Now: No
@@ -195,9 +208,10 @@ Ready.: Klear.
 Recent: Resint
 Recent files – quick access to last 5 opened playlists.: Resinte bestannen - rappe tagong ta de lêste 5 iepene playlists.
 Recent playlists: Resinte playlists
-Refresh: Ferfarskje
+Refresh EPG: Ferfarskje EPG
 Refresh EPG List: Ferfarskje EPG List
 Refresh from GitHub: Ferfarskje fan GitHub
+Refresh List: Ferfarskje List
 Rename Group: Rename Group
 Repository: Repository
 Reset Order: Oarder weromsette
@@ -210,6 +224,7 @@ Save Mapping: Mapping bewarje
 Save Playlist: Bewarje Playlist
 Save Status: Bewarje Status
 Saved: Opslein
+Search channel: : Sykje kanaal:
 Search channels by name: Sykje kanalen op namme
 Search channels...: Sykje kanalen...
 Select a playlist first.: Selektearje earst in playlist.
@@ -220,7 +235,7 @@ Show List: List sjen litte
 Show only channels marked as favorites: Lit allinich kanalen sjen markearre as favoriten
 Show or hide the channel list: De kanaallist sjen litte of ferbergje
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Spesjale tank oan 'e CORVOBOYS & LinuxSat-Support-mienskippen foar testen en stipe.
-Start (local): Start (lokaal)
+Start: Start
 Status: Status
 Stream URL: Stream URL
 Stream URLs: Stream URL's
@@ -239,6 +254,7 @@ Total: Totaal
 Total channels in loaded playlist: Totaal kanalen yn laden playlist
 TV Guide (EPG): TV Guide (EPG)
 TvgId: TvgId
+Type channel name to filter: Typ kanaalnamme om te filterjen
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Ferzje kin net fûn wurde yn projektbestân op ôfstân.
 Update: Update

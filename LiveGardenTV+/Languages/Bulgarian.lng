@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Напълно доброволно – никакви функции не са блокирани)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Папка за кеша: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Напълно доброволно – никакви функции не са блокирани)
 (No description): (Без описание)
 • Add / rename / delete groups.: • Добавяне / преименуване / изтриване на групи.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Плъзгач за буфер: регулира HLS буфера (1-10 секунди).
@@ -32,21 +33,24 @@ Auto-detect: Автоматично откриване
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Автоматична проверка при стартиране – или щракнете върху „Проверка за актуализации“ в менюто Инструменти.
 Buffer (seconds): Буфер (секунди)
 Buffer size – adjust HLS buffer seconds.: Размер на буфера – настройте HLS буферните секунди.
+Cache: Кеш памет
 Cancel: Отказ
 CANCEL: ОТМЕНЯНЕ
 Category: Категория
 Changelog: Дневник на промените
 Channel Details: Подробности за канала
 Channel Info: Информация за канала
-Channel:: канал:
 channels from: канали от
 channels from JSON URL: канали от JSON URL
 channels from URL: канали от URL
 Check Duplicates: Проверете дубликати
 Check for updates: Проверете за актуализации
 Check URLs: Проверете URL адресите
+Clear EPG Cache: Изчистване на EPG кеша
 Clear Filters: Изчистване на филтри
 Clear search: Изчистете търсенето
+Click for details: Кликнете за подробности
+Close: затвори
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Общност и тестване: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: държава
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Плъзнете, за да търсите наза
 Duplicate URLs found:\n\n: Намерени дублирани URL адреси:\n\n
 Edit Playlist: Редактиране на плейлист
 Edit URLs: Редактиране на URL адреси
-End (local): Край (локален)
+End: Край
 Enrich with EPG: Обогатете с EPG
 Enter JSON URL:: Въведете JSON URL:
 Enter playlist URL (M3U or JSON):: Въведете URL адреса на плейлиста (M3U или JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: EPG и любими
 Epg & Logos: EPG и лога
 EPG & Logos: EPG и лога
+EPG cache cleared successfully.: EPG кешът е изчистен успешно.
+EPG Details: Подробности за EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Ръководство за EPG – бутон на главната лента с инструменти показва пълна мрежа с подробности за програмата (щракнете два пъти за информация).
 EPG Matching Threshold: Праг за съвпадение на EPG
-EPG Source: EPG източник
+EPG Source: : EPG източник:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG източник – може да се зададе в Настройки (epgshare01 или потребителски URL).
 EPG source – choose XMLTV file or enter custom URL.: EPG източник – изберете XMLTV файл или въведете потребителски URL.
+EPG Source Missing: Липсва EPG източник
 Error: Грешка
+Error clearing cache: Грешка при изчистване на кеша
 Error loading: Грешка при зареждане
 Error loading file: {0}: Грешка при зареждането на файла: {0}
 Error loading playlists: {0}: Грешка при зареждане на плейлисти: {0}
@@ -160,14 +168,19 @@ Name: Име
 Nanoid: Наноид
 Network error: Мрежова грешка
 New Playlist: Нов плейлист
+Next: Следваща
 Next ▶: Напред ▶
 No .m3u files found on GitHub repository.: Няма намерени .m3u файлове в хранилището на GitHub.
+No cache folder found.: Не е намерена кеш папка.
 No channels could be mapped. Check your mapping rules.: Няма канали, които могат да бъдат картографирани. Проверете вашите правила за картографиране.
 No channels mapped: Няма картографирани канали
 No duplicate URLs found.: Няма намерени дублирани URL адреси.
+No EPG data: Няма EPG данни
+No EPG information available for this channel.: Няма налична EPG информация за този канал.
+No EPG source configured. Please select one from the combo or go to Settings.: Няма конфигуриран източник на EPG. Моля, изберете един от комбинацията или отидете в Настройки.
+No EPG source configured. Would you like to open settings to select one?: Няма конфигуриран източник на EPG. Искате ли да отворите настройките, за да изберете един?
 No favorite channels to export.: Няма любими канали за експортиране.
 No playlist found: Няма намерен плейлист
-No stream: Няма поток
 No updates available.: Няма налични актуализации.
 Normal speed (1x): Нормална скорост (1x)
 Now: Сега
@@ -195,9 +208,10 @@ Ready.: Готови.
 Recent: Скорошни
 Recent files – quick access to last 5 opened playlists.: Скорошни файлове – бърз достъп до последните 5 отворени плейлиста.
 Recent playlists: Скорошни плейлисти
-Refresh: Опресняване
+Refresh EPG: Опресняване на EPG
 Refresh EPG List: Обновяване на EPG списъка
 Refresh from GitHub: Опресняване от GitHub
+Refresh List: Опресняване на списъка
 Rename Group: Преименуване на група
 Repository: Хранилище
 Reset Order: Нулиране на поръчката
@@ -210,6 +224,7 @@ Save Mapping: Запазване на картографирането
 Save Playlist: Запазване на плейлиста
 Save Status: Запазване на състоянието
 Saved: Запазено
+Search channel: : Търсене на канал:
 Search channels by name: Търсене на канали по име
 Search channels...: Търсене на канали...
 Select a playlist first.: Първо изберете плейлист.
@@ -220,7 +235,7 @@ Show List: Показване на списък
 Show only channels marked as favorites: Показване само на канали, маркирани като любими
 Show or hide the channel list: Показване или скриване на списъка с канали
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Специални благодарности на общностите за поддръжка на CORVOBOYS и LinuxSat за тестване и поддръжка.
-Start (local): Старт (локално)
+Start: Започнете
 Status: Статус
 Stream URL: URL адрес на потока
 Stream URLs: Поток URL адреси
@@ -239,6 +254,7 @@ Total: Общо
 Total channels in loaded playlist: Общ брой канали в заредения плейлист
 TV Guide (EPG): Телевизионен справочник (EPG)
 TvgId: TvgId
+Type channel name to filter: Въведете име на канал за филтриране
 UI: MaterialDesignThemes.Wpf: Потребителски интерфейс: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Не може да се намери версия във файла на отдалечения проект.
 Update: Актуализация

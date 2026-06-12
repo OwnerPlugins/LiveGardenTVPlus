@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Толығымен ерікті – ешбір мүмкіндік блокталмаған)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Кэш қалтасы: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Толығымен ерікті – ешбір мүмкіндік блокталмаған)
 (No description): (Сипаттамасы жоқ)
 • Add / rename / delete groups.: • Топтарды қосу / атын өзгерту / жою.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Буфер сырғытпасы: HLS буферін реттеңіз (1‑10 секунд).
@@ -32,21 +33,24 @@ Auto-detect: Автоматты анықтау
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Іске қосу кезінде автоматты тексеру – немесе Құралдар мәзіріндегі «Жаңартуларды тексеру» түймесін басыңыз.
 Buffer (seconds): Буфер (секунд)
 Buffer size – adjust HLS buffer seconds.: Буфер өлшемі – HLS буферінің секундтарын реттеңіз.
+Cache: Кэш
 Cancel: Болдырмау
 CANCEL: БАС ТАРТУ
 Category: Санат
 Changelog: Өзгеріс журналы
 Channel Details: Арна мәліметтері
 Channel Info: Арна ақпараты
-Channel:: Арна:
 channels from: бастап арналар
 channels from JSON URL: JSON URL мекенжайынан арналар
 channels from URL: URL мекенжайынан арналар
 Check Duplicates: Көшірмелерді тексеріңіз
 Check for updates: Жаңартуларды тексеріңіз
 Check URLs: URL мекенжайларын тексеріңіз
+Clear EPG Cache: EPG кэшін тазалау
 Clear Filters: Сүзгілерді тазалау
 Clear search: Іздеуді тазалау
+Click for details: Толық ақпарат алу үшін басыңыз
+Close: Жабу
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Қауымдастық және тестілеу: CorvoBoys (corvoboys.org) және LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Ел
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Буферде кері іздеу үшін сүй�
 Duplicate URLs found:\n\n: Қайталанатын URL мекенжайлары табылды:\n\n
 Edit Playlist: Ойнату тізімін өңдеу
 Edit URLs: URL мекенжайларын өңдеу
-End (local): Соңы (жергілікті)
+End: Соңы
 Enrich with EPG: EPG-мен байытыңыз
 Enter JSON URL:: JSON URL мекенжайын енгізіңіз:
 Enter playlist URL (M3U or JSON):: Ойнату тізімінің URL мекенжайын енгізіңіз (M3U немесе JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg және таңдаулылар
 Epg & Logos: Epg және логотиптер
 EPG & Logos: EPG және логотиптер
+EPG cache cleared successfully.: EPG кэші сәтті тазаланды.
+EPG Details: EPG мәліметтері
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Guide – негізгі құралдар тақтасындағы түйме бағдарлама мәліметтері бар толық торды көрсетеді (ақпарат алу үшін екі рет басыңыз).
 EPG Matching Threshold: EPG сәйкестік шегі
-EPG Source: EPG көзі
+EPG Source: : EPG көзі:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG көзі – Параметрлерде (epgshare01 немесе пайдаланушы URL) орнатуға болады.
 EPG source – choose XMLTV file or enter custom URL.: EPG көзі – XMLTV файлын таңдаңыз немесе пайдаланушы URL мекенжайын енгізіңіз.
+EPG Source Missing: EPG көзі жоқ
 Error: Қате
+Error clearing cache: Кэшті тазалау қатесі
 Error loading: Жүктеу қатесі
 Error loading file: {0}: Файлды жүктеу қатесі: {0}
 Error loading playlists: {0}: Ойнату тізімдерін жүктеу қатесі: {0}
@@ -160,14 +168,19 @@ Name: Аты
 Nanoid: Наноид
 Network error: Желі қатесі
 New Playlist: Жаңа ойнату тізімі
+Next: Келесі
 Next ▶: Келесі ▶
 No .m3u files found on GitHub repository.: GitHub репозиторийінде .m3u файлдары табылмады.
+No cache folder found.: Кэш қалтасы табылмады.
 No channels could be mapped. Check your mapping rules.: Ешбір арнаны салыстыру мүмкін болмады. Карта жасау ережелерін тексеріңіз.
 No channels mapped: Ешбір арна картаға салынбаған
 No duplicate URLs found.: Қайталанатын URL мекенжайлары табылмады.
+No EPG data: EPG деректері жоқ
+No EPG information available for this channel.: Бұл арна үшін EPG ақпараты жоқ.
+No EPG source configured. Please select one from the combo or go to Settings.: EPG көзі конфигурацияланбаған. Комбодан біреуін таңдаңыз немесе «Параметрлер» бөліміне өтіңіз.
+No EPG source configured. Would you like to open settings to select one?: EPG көзі конфигурацияланбаған. Біреуін таңдау үшін параметрлерді ашқыңыз келе ме?
 No favorite channels to export.: Экспортталатын таңдаулы арналар жоқ.
 No playlist found: Ойнату тізімі табылмады
-No stream: Ағын жоқ
 No updates available.: Жаңартулар жоқ.
 Normal speed (1x): Қалыпты жылдамдық (1x)
 Now: Қазір
@@ -195,9 +208,10 @@ Ready.: Дайын.
 Recent: Соңғы
 Recent files – quick access to last 5 opened playlists.: Соңғы файлдар – соңғы 5 ашылған ойнату тізіміне жылдам қол жеткізу.
 Recent playlists: Соңғы ойнату тізімдері
-Refresh: Жаңарту
+Refresh EPG: EPG жаңарту
 Refresh EPG List: EPG тізімін жаңарту
 Refresh from GitHub: GitHub жүйесінен жаңартыңыз
+Refresh List: Тізімді жаңарту
 Rename Group: Топтың атын өзгерту
 Repository: Репозиторий
 Reset Order: Тапсырысты қалпына келтіру
@@ -210,6 +224,7 @@ Save Mapping: Карталарды сақтау
 Save Playlist: Ойнату тізімін сақтау
 Save Status: Күйді сақтау
 Saved: Сақталды
+Search channel: : Арнаны іздеу:
 Search channels by name: Арналарды аты бойынша іздеңіз
 Search channels...: Арналарды іздеу...
 Select a playlist first.: Алдымен ойнату тізімін таңдаңыз.
@@ -220,7 +235,7 @@ Show List: Тізімді көрсету
 Show only channels marked as favorites: Таңдаулылар ретінде белгіленген арналарды ғана көрсету
 Show or hide the channel list: Арналар тізімін көрсету немесе жасыру
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Сынақ пен қолдау үшін CORVOBOYS & LinuxSat-қолдау қауымдастықтарына ерекше алғыс айтамыз.
-Start (local): Бастау (жергілікті)
+Start: Бастау
 Status: Күй
 Stream URL: Ағын URL
 Stream URLs: Ағын URL мекенжайлары
@@ -239,6 +254,7 @@ Total: Барлығы
 Total channels in loaded playlist: Жүктелген ойнату тізіміндегі жалпы арналар
 TV Guide (EPG): Теледидар нұсқаулығы (EPG)
 TvgId: TvgId
+Type channel name to filter: Сүзу үшін арна атауын теріңіз
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Қашықтағы жоба файлында нұсқаны табу мүмкін емес.
 Update: Жаңарту

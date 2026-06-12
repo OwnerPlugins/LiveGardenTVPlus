@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Completely voluntary – no features are blocked)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Completely voluntary – no features are blocked)
 (No description): (No description)
 • Add / rename / delete groups.: • Add / rename / delete groups.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffer slider: adjust HLS buffer (1‑10 seconds).
@@ -32,21 +33,24 @@ Auto-detect: Auto-detect
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatic check on startup – or click 'Check for updates' in Tools menu.
 Buffer (seconds): Buffer (seconds)
 Buffer size – adjust HLS buffer seconds.: Buffer size – adjust HLS buffer seconds.
+Cache: Cache
 Cancel: Cancel
 CANCEL: CANCEL
 Category: Category
 Changelog: Changelog
 Channel Details: Channel Details
 Channel Info: Channel Info
-Channel:: Channel:
 channels from: channels from
 channels from JSON URL: channels from JSON URL
 channels from URL: channels from URL
 Check Duplicates: Check Duplicates
 Check for updates: Check for updates
 Check URLs: Check URLs
+Clear EPG Cache: Clear EPG Cache
 Clear Filters: Clear Filters
 Clear search: Clear search
+Click for details: Click for details
+Close: Close
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Country
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Drag to seek back in buffer
 Duplicate URLs found:\n\n: Duplicate URLs found:\n\n
 Edit Playlist: Edit Playlist
 Edit URLs: Edit URLs
-End (local): End (local)
+End: End
 Enrich with EPG: Enrich with EPG
 Enter JSON URL:: Enter JSON URL:
 Enter playlist URL (M3U or JSON):: Enter playlist URL (M3U or JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Favorites
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
+EPG cache cleared successfully.: EPG cache cleared successfully.
+EPG Details: EPG Details
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).
 EPG Matching Threshold: EPG Matching Threshold
-EPG Source: EPG Source
+EPG Source: : EPG Source:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG source – can be set in Settings (epgshare01 or custom URL).
 EPG source – choose XMLTV file or enter custom URL.: EPG source – choose XMLTV file or enter custom URL.
+EPG Source Missing: EPG Source Missing
 Error: Error
+Error clearing cache: Error clearing cache
 Error loading: Error loading
 Error loading file: {0}: Error loading file: {0}
 Error loading playlists: {0}: Error loading playlists: {0}
@@ -160,14 +168,19 @@ Name: Name
 Nanoid: Nanoid
 Network error: Network error
 New Playlist: New Playlist
+Next: Next
 Next ▶: Next ▶
 No .m3u files found on GitHub repository.: No .m3u files found on GitHub repository.
+No cache folder found.: No cache folder found.
 No channels could be mapped. Check your mapping rules.: No channels could be mapped. Check your mapping rules.
 No channels mapped: No channels mapped
 No duplicate URLs found.: No duplicate URLs found.
+No EPG data: No EPG data
+No EPG information available for this channel.: No EPG information available for this channel.
+No EPG source configured. Please select one from the combo or go to Settings.: No EPG source configured. Please select one from the combo or go to Settings.
+No EPG source configured. Would you like to open settings to select one?: No EPG source configured. Would you like to open settings to select one?
 No favorite channels to export.: No favorite channels to export.
 No playlist found: No playlist found
-No stream: No stream
 No updates available.: No updates available.
 Normal speed (1x): Normal speed (1x)
 Now: Now
@@ -195,9 +208,10 @@ Ready.: Ready.
 Recent: Recent
 Recent files – quick access to last 5 opened playlists.: Recent files – quick access to last 5 opened playlists.
 Recent playlists: Recent playlists
-Refresh: Refresh
+Refresh EPG: Refresh EPG
 Refresh EPG List: Refresh EPG List
 Refresh from GitHub: Refresh from GitHub
+Refresh List: Refresh List
 Rename Group: Rename Group
 Repository: Repository
 Reset Order: Reset Order
@@ -210,6 +224,7 @@ Save Mapping: Save Mapping
 Save Playlist: Save Playlist
 Save Status: Save Status
 Saved: Saved
+Search channel: : Search channel:
 Search channels by name: Search channels by name
 Search channels...: Search channels...
 Select a playlist first.: Select a playlist first.
@@ -220,7 +235,7 @@ Show List: Show List
 Show only channels marked as favorites: Show only channels marked as favorites
 Show or hide the channel list: Show or hide the channel list
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.
-Start (local): Start (local)
+Start: Start
 Status: Status
 Stream URL: Stream URL
 Stream URLs: Stream URLs
@@ -239,6 +254,7 @@ Total: Total
 Total channels in loaded playlist: Total channels in loaded playlist
 TV Guide (EPG): TV Guide (EPG)
 TvgId: TvgId
+Type channel name to filter: Type channel name to filter
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Unable to find version in remote project file.
 Update: Update

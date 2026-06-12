@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (ସଂପୂର୍ଣ୍ଣ ସ୍ବେଚ୍ଛାକୃତ - କ features ଣସି ବ features ଶିଷ୍ଟ୍ୟ ଅବରୋଧିତ ନୁହେଁ)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (କ୍ୟାଚ୍ ଫୋଲ୍ଡର:% TEMP% \\ LiveGardenTVPlus \\ epg_cache)
+(Completely voluntary – no features are blocked): (ସଂପୂର୍ଣ୍ଣ ସ୍ବେଚ୍ଛାକୃତ - କ features ଣସି ବ features ଶିଷ୍ଟ୍ୟ ଅବରୋଧିତ ନୁହେଁ)
 (No description): (କ description ଣସି ବର୍ଣ୍ଣନା ନାହିଁ)
 • Add / rename / delete groups.: ଗୋଷ୍ଠୀ ଯୋଡନ୍ତୁ / ପୁନ ame ନାମ / ବିଲୋପ କରନ୍ତୁ |
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • ବଫର୍ ସ୍ଲାଇଡର୍: HLS ବଫର୍ (1-10 ସେକେଣ୍ଡ୍) ଆଡଜଷ୍ଟ୍ କରନ୍ତୁ |
@@ -32,21 +33,24 @@ Auto-detect: ଅଟୋ-ଡିଟେକ୍ଟ |
 Automatic check on startup – or click 'Check for updates' in Tools menu.: ଷ୍ଟାର୍ଟଅପ୍ ଉପରେ ସ୍ୱୟଂଚାଳିତ ଯାଞ୍ଚ - କିମ୍ବା ଉପକରଣ ତାଲିକାରେ 'ଅଦ୍ୟତନଗୁଡିକ ଯାଞ୍ଚ କରନ୍ତୁ' କ୍ଲିକ୍ କରନ୍ତୁ |
 Buffer (seconds): ବଫର୍ (ସେକେଣ୍ଡ୍)
 Buffer size – adjust HLS buffer seconds.: ବଫର୍ ସାଇଜ୍ - HLS ବଫର୍ ସେକେଣ୍ଡ୍ ଆଡଜଷ୍ଟ୍ କରନ୍ତୁ |
+Cache: କ୍ୟାଚ୍
 Cancel: ବାତିଲ୍ କରନ୍ତୁ |
 CANCEL: ବାତିଲ୍
 Category: ବର୍ଗ
 Changelog: ଚାଙ୍ଗେଲଗ୍ |
 Channel Details: ଚ୍ୟାନେଲ ବିବରଣୀ
 Channel Info: ଚ୍ୟାନେଲ ସୂଚନା
-Channel:: ଚ୍ୟାନେଲ:
 channels from: ରୁ ଚ୍ୟାନେଲଗୁଡିକ
 channels from JSON URL: JSON URL ରୁ ଚ୍ୟାନେଲଗୁଡିକ |
 channels from URL: URL ରୁ ଚ୍ୟାନେଲଗୁଡିକ |
 Check Duplicates: ନକଲ ଯାଞ୍ଚ କରନ୍ତୁ |
 Check for updates: ଅଦ୍ୟତନ ପାଇଁ ଯାଞ୍ଚ କରନ୍ତୁ |
 Check URLs: URL ଗୁଡିକ ଯାଞ୍ଚ କରନ୍ତୁ |
+Clear EPG Cache: EPG କ୍ୟାଚ୍ ସଫା କରନ୍ତୁ |
 Clear Filters: ଫିଲ୍ଟର୍ ସଫା କରନ୍ତୁ |
 Clear search: ସନ୍ଧାନ ସଫା କରନ୍ତୁ |
+Click for details: ବିବରଣୀ ପାଇଁ କ୍ଲିକ୍ କରନ୍ତୁ |
+Close: ବନ୍ଦ
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ସମ୍ପ୍ରଦାୟ ଏବଂ ପରୀକ୍ଷଣ: CorvoBoys (corvoboys.org) ଏବଂ LinuxSat-Support.com |
 CORVOBOYS.ORG: CORVOBOYS.ORG |
 Country: ଦେଶ
@@ -65,7 +69,7 @@ Drag to seek back in buffer: ବଫର୍ ରେ ଖୋଜିବାକୁ ଡ୍
 Duplicate URLs found:\n\n: ନକଲ URL ଗୁଡିକ ମିଳିଲା: \ n \ n |
 Edit Playlist: ପ୍ଲେଲିଷ୍ଟ ସଂପାଦନ କରନ୍ତୁ |
 Edit URLs: URL ଗୁଡିକ ସଂପାଦନ କରନ୍ତୁ |
-End (local): ଶେଷ (ସ୍ଥାନୀୟ)
+End: ଶେଷ
 Enrich with EPG: EPG ସହିତ ସମୃଦ୍ଧ କରନ୍ତୁ |
 Enter JSON URL:: JSON URL ପ୍ରବେଶ କରନ୍ତୁ:
 Enter playlist URL (M3U or JSON):: ପ୍ଲେଲିଷ୍ଟ URL (M3U କିମ୍ବା JSON) ପ୍ରବେଶ କରନ୍ତୁ:
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & ପ୍ରିୟ |
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG ଏବଂ Logos
+EPG cache cleared successfully.: EPG କ୍ୟାଚ୍ ସଫଳତାର ସହିତ ସଫା ହେଲା |
+EPG Details: EPG ବିବରଣୀ
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG ଗାଇଡ୍ - ମୁଖ୍ୟ ଟୁଲ୍ ବାର୍ ରେ ଥିବା ବଟନ୍ ପ୍ରୋଗ୍ରାମ ବିବରଣୀ ସହିତ ପୂର୍ଣ୍ଣ ଗ୍ରୀଡ୍ ଦେଖାଏ (ସୂଚନା ପାଇଁ ଦୁଇଥର କ୍ଲିକ୍ କରନ୍ତୁ) |
 EPG Matching Threshold: ଇପିଜି ମ୍ୟାଚ୍ ଥ୍ରେସହୋଲ୍ଡ |
-EPG Source: EPG ଉତ୍ସ |
+EPG Source: : EPG ଉତ୍ସ:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG ଉତ୍ସ - ସେଟିଂସମୂହ (epgshare01 କିମ୍ବା କଷ୍ଟମ୍ URL) ରେ ସେଟ୍ ହୋଇପାରିବ |
 EPG source – choose XMLTV file or enter custom URL.: EPG ଉତ୍ସ - XMLTV ଫାଇଲ୍ ବାଛନ୍ତୁ କିମ୍ବା କଷ୍ଟମ୍ URL ପ୍ରବେଶ କରନ୍ତୁ |
+EPG Source Missing: EPG ଉତ୍ସ ନିଖୋଜ |
 Error: ତ୍ରୁଟି |
+Error clearing cache: କ୍ୟାଚ୍ ସଫା କରିବାରେ ତ୍ରୁଟି |
 Error loading: ଲୋଡିଂରେ ତ୍ରୁଟି |
 Error loading file: {0}: ଫାଇଲ ଧାରଣ କରିବାରେ ତ୍ରୁଟି: {0}
 Error loading playlists: {0}: ପ୍ଲେଲିଷ୍ଟଗୁଡ଼ିକୁ ଧାରଣ କରିବାରେ ତ୍ରୁଟି: {0}
@@ -160,14 +168,19 @@ Name: ନାମ
 Nanoid: ନାନୋଏଡ୍ |
 Network error: ନେଟୱର୍କ ତ୍ରୁଟି |
 New Playlist: ନୂତନ ପ୍ଲେଲିଷ୍ଟ |
+Next: ପରବର୍ତ୍ତୀ
 Next ▶: ପରବର୍ତ୍ତୀ ▶
 No .m3u files found on GitHub repository.: GitHub ରେପୋଜିଟୋରୀରେ No .m3u ଫାଇଲଗୁଡ଼ିକ ମିଳିଲା |
+No cache folder found.: କ c ଣସି କ୍ୟାଚ୍ ଫୋଲ୍ଡର ମିଳିଲା ନାହିଁ |
 No channels could be mapped. Check your mapping rules.: କ channels ଣସି ଚ୍ୟାନେଲ ମ୍ୟାପ୍ ହୋଇପାରିବ ନାହିଁ | ଆପଣଙ୍କର ମ୍ୟାପିଂ ନିୟମ ଯାଞ୍ଚ କରନ୍ତୁ |
 No channels mapped: କ channels ଣସି ଚ୍ୟାନେଲ ମ୍ୟାପ୍ ହୋଇନାହିଁ |
 No duplicate URLs found.: କ No ଣସି ନକଲ URL ମିଳିଲା ନାହିଁ |
+No EPG data: କ P ଣସି EPG ତଥ୍ୟ ନାହିଁ |
+No EPG information available for this channel.: ଏହି ଚ୍ୟାନେଲ ପାଇଁ କ P ଣସି EPG ସୂଚନା ଉପଲବ୍ଧ ନାହିଁ |
+No EPG source configured. Please select one from the combo or go to Settings.: କ No ଣସି EPG ଉତ୍ସ ବିନ୍ୟାସ ହୋଇନାହିଁ | ଦୟାକରି କମ୍ବୋରୁ ଗୋଟିଏ ବାଛନ୍ତୁ କିମ୍ବା ସେଟିଂସମୂହକୁ ଯାଆନ୍ତୁ |
+No EPG source configured. Would you like to open settings to select one?: କ No ଣସି EPG ଉତ୍ସ ବିନ୍ୟାସ ହୋଇନାହିଁ | ଗୋଟିଏ ବାଛିବା ପାଇଁ ଆପଣ ସେଟିଂସମୂହ ଖୋଲିବାକୁ ଚାହୁଁଛନ୍ତି କି?
 No favorite channels to export.: ରପ୍ତାନି କରିବାକୁ କ favorite ଣସି ପ୍ରିୟ ଚ୍ୟାନେଲ ନାହିଁ |
 No playlist found: କ play ଣସି ପ୍ଲେଲିଷ୍ଟ ମିଳିଲା ନାହିଁ |
-No stream: କ stream ଣସି ଷ୍ଟ୍ରିମ୍ ନାହିଁ |
 No updates available.: କ updates ଣସି ଅଦ୍ୟତନ ଉପଲବ୍ଧ ନାହିଁ |
 Normal speed (1x): ସାଧାରଣ ଗତି (1x)
 Now: ବର୍ତ୍ତମାନ
@@ -195,9 +208,10 @@ Ready.: ପ୍ରସ୍ତୁତ |
 Recent: ସମ୍ପ୍ରତି
 Recent files – quick access to last 5 opened playlists.: ସାମ୍ପ୍ରତିକ ଫାଇଲଗୁଡିକ - ଶେଷ 5 ଖୋଲାଯାଇଥିବା ପ୍ଲେଲିଷ୍ଟକୁ ଶୀଘ୍ର ପ୍ରବେଶ |
 Recent playlists: ସାମ୍ପ୍ରତିକ ପ୍ଲେଲିଷ୍ଟଗୁଡିକ |
-Refresh: ସତେଜ କରନ୍ତୁ |
+Refresh EPG: EPG ସତେଜ କରନ୍ତୁ |
 Refresh EPG List: EPG ତାଲିକା ସତେଜ କରନ୍ତୁ |
 Refresh from GitHub: GitHub ରୁ ସତେଜ |
+Refresh List: ତାଲିକା ସତେଜ କରନ୍ତୁ |
 Rename Group: ଗୋଷ୍ଠୀ ପୁନ ame ନାମ କରନ୍ତୁ |
 Repository: ସଂଗ୍ରହାଳୟ
 Reset Order: ଅର୍ଡର ପୁନ Res ସେଟ୍ କରନ୍ତୁ |
@@ -210,6 +224,7 @@ Save Mapping: ମ୍ୟାପିଂ ସେଭ୍ କରନ୍ତୁ |
 Save Playlist: ପ୍ଲେ ଲିଷ୍ଟ ସେଭ୍ କରନ୍ତୁ |
 Save Status: ସ୍ଥିତି ସଞ୍ଚୟ କରନ୍ତୁ |
 Saved: ସଞ୍ଚୟ ହୋଇଛି |
+Search channel: : ସନ୍ଧାନ ଚ୍ୟାନେଲ:
 Search channels by name: ନାମରେ ଚ୍ୟାନେଲଗୁଡିକ ସନ୍ଧାନ କରନ୍ତୁ |
 Search channels...: ଚ୍ୟାନେଲଗୁଡିକ ଖୋଜ ...
 Select a playlist first.: ପ୍ରଥମେ ଏକ ପ୍ଲେଲିଷ୍ଟ ଚୟନ କରନ୍ତୁ |
@@ -220,7 +235,7 @@ Show List: ତାଲିକା ଦେଖାନ୍ତୁ |
 Show only channels marked as favorites: କେବଳ ପସନ୍ଦଗୁଡିକ ଭାବରେ ଚିହ୍ନିତ ଚ୍ୟାନେଲଗୁଡିକ ଦେଖାନ୍ତୁ |
 Show or hide the channel list: ଚ୍ୟାନେଲ ତାଲିକା ଦେଖାନ୍ତୁ କିମ୍ବା ଲୁଚାନ୍ତୁ |
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: ପରୀକ୍ଷା ଏବଂ ସମର୍ଥନ ପାଇଁ CORVOBOYS ଏବଂ LinuxSat-Support ସମ୍ପ୍ରଦାୟକୁ ବିଶେଷ ଧନ୍ୟବାଦ |
-Start (local): ଆରମ୍ଭ (ସ୍ଥାନୀୟ)
+Start: ଆରମ୍ଭ କରନ୍ତୁ |
 Status: ସ୍ଥିତି
 Stream URL: ଷ୍ଟ୍ରିମ୍ URL |
 Stream URLs: ଷ୍ଟ୍ରିମ୍ URL ଗୁଡିକ |
@@ -239,6 +254,7 @@ Total: ସମୁଦାୟ
 Total channels in loaded playlist: ଲୋଡ୍ ପ୍ଲେଲିଷ୍ଟରେ ସମୁଦାୟ ଚ୍ୟାନେଲ୍ |
 TV Guide (EPG): ଟିଭି ଗାଇଡ୍ (EPG)
 TvgId: TvgId
+Type channel name to filter: ଫିଲ୍ଟର୍ କରିବାକୁ ଚ୍ୟାନେଲ୍ ନାମ ଟାଇପ୍ କରନ୍ତୁ |
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: ସୁଦୂର ପ୍ରୋଜେକ୍ଟ ଫାଇଲରେ ସଂସ୍କରଣ ଖୋଜିବାରେ ଅସମର୍ଥ |
 Update: ଅଦ୍ୟତନ କରନ୍ତୁ |

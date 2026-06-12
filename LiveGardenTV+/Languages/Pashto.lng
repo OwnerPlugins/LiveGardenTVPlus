@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (په بشپړه توګه داوطلبانه - هیڅ ځانګړتیاوې نه دي بند شوي)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (د کیچ فولډر: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (په بشپړه توګه داوطلبانه - هیڅ ځانګړتیاوې نه دي بند شوي)
 (No description): (تفصیل نشته)
 • Add / rename / delete groups.: • ګروپونه اضافه کړئ / نوم بدل کړئ / حذف کړئ.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • د بفر سلائیڈر: د HLS بفر تنظیم کړئ (1-10 ثانیې).
@@ -32,21 +33,24 @@ Auto-detect: په اتوماتيک ډول کشف
 Automatic check on startup – or click 'Check for updates' in Tools menu.: په پیل کې اتوماتیک چیک - یا د وسیلو مینو کې 'د تازه معلوماتو لپاره چیک وکړئ' کلیک وکړئ.
 Buffer (seconds): بفر (ثانوي)
 Buffer size – adjust HLS buffer seconds.: د بفر اندازه - د HLS بفر ثانیې تنظیم کړئ.
+Cache: کیچ
 Cancel: لغوه کړئ
 CANCEL: فسخه کول
 Category: کټګوري
 Changelog: بدلون
 Channel Details: د چینل تفصیلات
 Channel Info: د چینل معلومات
-Channel:: چینل:
 channels from: له چینلونو څخه
 channels from JSON URL: د JSON URL څخه چینلونه
 channels from URL: د URL څخه چینلونه
 Check Duplicates: نقلونه چیک کړئ
 Check for updates: د تازه معلوماتو لپاره وګورئ
 Check URLs: URLs چیک کړئ
+Clear EPG Cache: د EPG کیچ پاک کړئ
 Clear Filters: فلټرونه پاک کړئ
 Clear search: پاک لټون
+Click for details: د جزیاتو لپاره کلیک وکړئ
+Close: تړل
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ټولنه او ازموینه: CorvoBoys (corvoboys.org) او LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: هیواد
@@ -65,7 +69,7 @@ Drag to seek back in buffer: په بفر کې د بیرته لټولو لپار�
 Duplicate URLs found:\n\n: نقل شوي URLs وموندل:\n\n
 Edit Playlist: پلی لیست سمول
 Edit URLs: URLs ایډیټ کړئ
-End (local): پای (محلي)
+End: پای
 Enrich with EPG: د EPG سره بډایه کړئ
 Enter JSON URL:: د JSON URL داخل کړئ:
 Enter playlist URL (M3U or JSON):: د پلی لیست URL داخل کړئ (M3U یا JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg او د خوښې وړ
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG او لوګو
+EPG cache cleared successfully.: د EPG زیرمه په بریالیتوب سره پاکه شوه.
+EPG Details: د EPG توضیحات
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: د EPG لارښود - په اصلي اوزار بار کې تڼۍ د برنامه توضیحاتو سره بشپړ گرډ ښیې (د معلوماتو لپاره دوه ځله کلیک وکړئ).
 EPG Matching Threshold: د EPG میچ کولو حد
-EPG Source: د EPG سرچینه
+EPG Source: : د EPG سرچینه:
 EPG source – can be set in Settings (epgshare01 or custom URL).: د EPG سرچینه - په ترتیباتو کې تنظیم کیدی شي (epgshare01 یا دودیز URL).
 EPG source – choose XMLTV file or enter custom URL.: د EPG سرچینه - د XMLTV فایل غوره کړئ یا دودیز URL داخل کړئ.
+EPG Source Missing: د EPG سرچینه ورکه ده
 Error: تېروتنه
+Error clearing cache: د کیچ پاکولو تېروتنه
 Error loading: په بارولو کې تېروتنه
 Error loading file: {0}: د دوتنې په پورته کولو کې تېروتنه: {0}
 Error loading playlists: {0}: د پلی لیستونو په پورته کولو کې تېروتنه: {0}
@@ -160,14 +168,19 @@ Name: نوم
 Nanoid: nanoid
 Network error: د شبکې تېروتنه
 New Playlist: نوی پلی لیست
+Next: بل
 Next ▶: بل ▶
 No .m3u files found on GitHub repository.: په GitHub ذخیره کې هیڅ .m3u فایلونه ندي موندل شوي.
+No cache folder found.: هیڅ کیچ فولډر ونه موندل شو.
 No channels could be mapped. Check your mapping rules.: هیڅ چینلونه نقشه نشي کیدی. خپل د نقشه کولو قواعد چیک کړئ.
 No channels mapped: هیڅ چینل نقشه شوی نه دی
 No duplicate URLs found.: هیڅ نقل شوي URLs ونه موندل شول.
+No EPG data: د EPG ډاټا نشته
+No EPG information available for this channel.: د دې چینل لپاره د EPG هیڅ معلومات شتون نلري.
+No EPG source configured. Please select one from the combo or go to Settings.: د EPG سرچینه نه ده ترتیب شوې. مهرباني وکړئ له کومبو څخه یو غوره کړئ یا ترتیبات ته لاړشئ.
+No EPG source configured. Would you like to open settings to select one?: د EPG سرچینه نه ده ترتیب شوې. ایا تاسو غواړئ د یو غوره کولو لپاره تنظیمات خلاص کړئ؟
 No favorite channels to export.: د صادرولو لپاره هیڅ غوره چینل نشته.
 No playlist found: هیڅ پلی لیست ونه موندل شو
-No stream: جریان نشته
 No updates available.: هیڅ تازه معلومات شتون نلري.
 Normal speed (1x): نورمال سرعت (1x)
 Now: اوس
@@ -195,9 +208,10 @@ Ready.: چمتو.
 Recent: وروستي
 Recent files – quick access to last 5 opened playlists.: وروستي فایلونه - وروستي 5 خلاص شوي پلی لیستونو ته ګړندي لاسرسی.
 Recent playlists: وروستي پلی لیستونه
-Refresh: تازه کړئ
+Refresh EPG: EPG تازه کړئ
 Refresh EPG List: د EPG لیست تازه کړئ
 Refresh from GitHub: له GitHub څخه تازه کړئ
+Refresh List: لیست تازه کړئ
 Rename Group: د ګروپ نوم بدل کړئ
 Repository: ذخیره
 Reset Order: ترتیب بیا تنظیم کړئ
@@ -210,6 +224,7 @@ Save Mapping: نقشه خوندي کړئ
 Save Playlist: د پلی لیست خوندي کړئ
 Save Status: د وضعیت خوندي کول
 Saved: خوندي شوی
+Search channel: : لټون چینل:
 Search channels by name: د نوم په واسطه چینلونه وپلټئ
 Search channels...: چینلونه وپلټئ...
 Select a playlist first.: لومړی یو پلی لیست غوره کړئ.
@@ -220,7 +235,7 @@ Show List: لیست ښکاره کړئ
 Show only channels marked as favorites: یوازې هغه چینلونه وښایاست چې د خوښې په توګه نښه شوي
 Show or hide the channel list: د چینل لیست ښکاره یا پټ کړئ
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: د ازموینې او ملاتړ لپاره د CORVOBOYS او LinuxSat-Support ټولنو څخه ځانګړې مننه.
-Start (local): پیل (سیمه ایز)
+Start: پیل
 Status: حالت
 Stream URL: د جریان URL
 Stream URLs: د جریان URLs
@@ -239,6 +254,7 @@ Total: ټول
 Total channels in loaded playlist: په بار شوي پلی لیست کې ټول چینلونه
 TV Guide (EPG): د تلویزیون لارښود (EPG)
 TvgId: TvgId
+Type channel name to filter: د فلټر کولو لپاره د چینل نوم ولیکئ
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: د ریموټ پروژې فایل کې نسخه موندلو توان نلري.
 Update: تازه کول

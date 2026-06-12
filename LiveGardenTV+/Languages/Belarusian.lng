@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Цалкам добраахвотна - ніякія функцыі не блакуюцца)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Папка кэша: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Цалкам добраахвотна - ніякія функцыі не блакуюцца)
 (No description): (Без апісання)
 • Add / rename / delete groups.: • Даданне / перайменаванне / выдаленне груп.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Паўзунок буфера: рэгуляванне буфера HLS (1-10 секунд).
@@ -32,21 +33,24 @@ Auto-detect: Аўтаматычнае вызначэнне
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Аўтаматычная праверка пры запуску або націсніце "Праверыць наяўнасць абнаўленняў" у меню "Інструменты".
 Buffer (seconds): Буфер (секунды)
 Buffer size – adjust HLS buffer seconds.: Памер буфера - рэгуляванне секунд буфера HLS.
+Cache: Кэш
 Cancel: Адмяніць
 CANCEL: СКАСАВАЦЬ
 Category: Катэгорыя
 Changelog: Журнал змяненняў
 Channel Details: Падрабязнасці канала
 Channel Info: Інфармацыя пра канал
-Channel:: канал:
 channels from: каналы з
 channels from JSON URL: каналы з JSON URL
 channels from URL: каналы з URL
 Check Duplicates: Праверце дублікаты
 Check for updates: Праверце наяўнасць абнаўленняў
 Check URLs: Праверце URL-адрасы
+Clear EPG Cache: Ачысціць кэш EPG
 Clear Filters: Ачысціць фільтры
 Clear search: Выразны пошук
+Click for details: Націсніце, каб даведацца падрабязнасці
+Close: Блізка
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Супольнасць і тэставанне: CorvoBoys (corvoboys.org) і LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Краіна
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Перацягніце, каб перайсці н�
 Duplicate URLs found:\n\n: Знойдзены дублікаты URL:\n\n
 Edit Playlist: Рэдагаваць спіс прайгравання
 Edit URLs: Рэдагаваць URL-адрасы
-End (local): Канец (лакальны)
+End: Канец
 Enrich with EPG: Узбагаціць EPG
 Enter JSON URL:: Увядзіце JSON URL:
 Enter playlist URL (M3U or JSON):: Увядзіце URL-адрас спісу прайгравання (M3U або JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: EPG і абранае
 Epg & Logos: EPG і лагатыпы
 EPG & Logos: EPG і лагатыпы
+EPG cache cleared successfully.: Кэш EPG паспяхова ачышчаны.
+EPG Details: Падрабязнасці EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Guide – кнопка на галоўнай панэлі інструментаў паказвае поўную табліцу з дэталямі праграмы (двойчы пстрыкніце для атрымання інфармацыі).
 EPG Matching Threshold: Парог адпаведнасці EPG
-EPG Source: Крыніца EPG
+EPG Source: : Крыніца EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Крыніца EPG – можна ўсталяваць у наладах (epgshare01 або карыстальніцкі URL).
 EPG source – choose XMLTV file or enter custom URL.: Крыніца EPG - выберыце файл XMLTV або ўвядзіце карыстальніцкі URL.
+EPG Source Missing: Адсутнічае крыніца EPG
 Error: Памылка
+Error clearing cache: Памылка ачысткі кэша
 Error loading: Памылка загрузкі
 Error loading file: {0}: Памылка загрузкі файла: {0}
 Error loading playlists: {0}: Памылка загрузкі плэйлістоў: {0}
@@ -160,14 +168,19 @@ Name: Імя
 Nanoid: Нанаід
 Network error: Памылка сеткі
 New Playlist: Новы спіс прайгравання
+Next: Далей
 Next ▶: Далей ▶
 No .m3u files found on GitHub repository.: Файлы .m3u не знойдзены ў рэпазітары GitHub.
+No cache folder found.: Тэчка кэша не знойдзена.
 No channels could be mapped. Check your mapping rules.: Немагчыма адлюстраваць каналы. Праверце свае правілы адлюстравання.
 No channels mapped: Каналы не адлюстраваны
 No duplicate URLs found.: Дублікаты URL не знойдзены.
+No EPG data: Няма дадзеных EPG
+No EPG information available for this channel.: Для гэтага канала няма даступнай інфармацыі EPG.
+No EPG source configured. Please select one from the combo or go to Settings.: Крыніца EPG не наладжана. Выберыце адзін з камбінацыі або перайдзіце ў Налады.
+No EPG source configured. Would you like to open settings to select one?: Крыніца EPG не наладжана. Адкрыць налады, каб выбраць адзін?
 No favorite channels to export.: Няма выбраных каналаў для экспарту.
 No playlist found: Плэйліст не знойдзены
-No stream: Няма патоку
 No updates available.: Няма даступных абнаўленняў.
 Normal speed (1x): Звычайная хуткасць (1x)
 Now: зараз
@@ -195,9 +208,10 @@ Ready.: Гатовы.
 Recent: Апошнія
 Recent files – quick access to last 5 opened playlists.: Апошнія файлы – хуткі доступ да апошніх 5 адкрытых спісаў прайгравання.
 Recent playlists: Апошнія плэйлісты
-Refresh: Абнавіць
+Refresh EPG: Абнавіць EPG
 Refresh EPG List: Абнавіць спіс EPG
 Refresh from GitHub: Абнавіць з GitHub
+Refresh List: Абнавіць спіс
 Rename Group: Перайменаваць групу
 Repository: Сховішча
 Reset Order: Скінуць парадак
@@ -210,6 +224,7 @@ Save Mapping: Захаваць карту
 Save Playlist: Захаваць спіс прайгравання
 Save Status: Захаваць статус
 Saved: Захавана
+Search channel: : Пошук па каналах:
 Search channels by name: Пошук каналаў па імені
 Search channels...: Шукаць каналы...
 Select a playlist first.: Спачатку абярыце спіс прайгравання.
@@ -220,7 +235,7 @@ Show List: Паказаць спіс
 Show only channels marked as favorites: Паказваць толькі каналы, пазначаныя як абраныя
 Show or hide the channel list: Паказаць або схаваць спіс каналаў
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Асаблівая падзяка суполкам CORVOBOYS і LinuxSat-Support за тэсціраванне і падтрымку.
-Start (local): Пачатак (лакальны)
+Start: Пачаць
 Status: Статус
 Stream URL: URL патоку
 Stream URLs: URL-адрасы патокаў
@@ -239,6 +254,7 @@ Total: Усяго
 Total channels in loaded playlist: Усяго каналаў у загружаным спісе прайгравання
 TV Guide (EPG): Тэлегід (EPG)
 TvgId: TvgId
+Type channel name to filter: Увядзіце назву канала для фільтрацыі
 UI: MaterialDesignThemes.Wpf: Карыстацкі інтэрфейс: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Немагчыма знайсці версію ў аддаленым файле праекта.
 Update: Абнаўленне

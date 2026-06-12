@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): （完全自愿 - 没有任何功能被阻止）
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): （缓存文件夹：%TEMP%\\LiveGardenTVPlus\\epg_cache）
+(Completely voluntary – no features are blocked): （完全自愿 - 没有任何功能被阻止）
 (No description): （无描述）
 • Add / rename / delete groups.: • 添加/重命名/删除组。
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • 缓冲区滑块：调整HLS 缓冲区（1-10 秒）。
@@ -32,21 +33,24 @@ Auto-detect: 自动检测
 Automatic check on startup – or click 'Check for updates' in Tools menu.: 启动时自动检查 – 或单击“工具”菜单中的“检查更新”。
 Buffer (seconds): 缓冲区（秒）
 Buffer size – adjust HLS buffer seconds.: 缓冲区大小 – 调整 HLS 缓冲区秒数。
+Cache: 缓存
 Cancel: 取消
 CANCEL: 取消
 Category: 类别
 Changelog: 变更日志
 Channel Details: 频道详情
 Channel Info: 频道信息
-Channel:: 渠道：
 channels from: 频道来自
 channels from JSON URL: 来自 JSON URL 的频道
 channels from URL: 来自 URL 的频道
 Check Duplicates: 检查重复项
 Check for updates: 检查更新
 Check URLs: 检查网址
+Clear EPG Cache: 清除 EPG 缓存
 Clear Filters: 清除过滤器
 Clear search: 清除搜索
+Click for details: 点击查看详情
+Close: 关闭
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: 社区和测试：CorvoBoys (corvoboys.org) 和 LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: 国家
@@ -65,7 +69,7 @@ Drag to seek back in buffer: 拖动以在缓冲区中向后查找
 Duplicate URLs found:\n\n: 发现重复的 URL:\n\n
 Edit Playlist: 编辑播放列表
 Edit URLs: 编辑网址
-End (local): 结束（本地）
+End: 结尾
 Enrich with EPG: 通过 EPG 丰富内容
 Enter JSON URL:: 输入 JSON 网址：
 Enter playlist URL (M3U or JSON):: 输入播放列表 URL（M3U 或 JSON）：
@@ -73,12 +77,16 @@ EPG: 电子节目指南
 Epg & Favorites: EPG 和收藏夹
 Epg & Logos: EPG 和徽标
 EPG & Logos: 电子节目指南和徽标
+EPG cache cleared successfully.: EPG 缓存清除成功。
+EPG Details: 电子节目指南详情
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG 指南 – 主工具栏上的按钮显示包含节目详细信息的完整网格（双击查看信息）。
 EPG Matching Threshold: EPG匹配阈值
-EPG Source: 电子节目指南来源
+EPG Source: : 电子节目指南来源：
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG 源 – 可以在“设置”中设置（epgshare01 或自定义 URL）。
 EPG source – choose XMLTV file or enter custom URL.: EPG 源 – 选择 XMLTV 文件或输入自定义 URL。
+EPG Source Missing: EPG 源丢失
 Error: 错误
+Error clearing cache: 清除缓存时出错
 Error loading: 加载错误
 Error loading file: {0}: 加载文件时出错：{0}
 Error loading playlists: {0}: 加载播放列表时出错：{0}
@@ -160,14 +168,19 @@ Name: 姓名
 Nanoid: 纳米机器人
 Network error: 网络错误
 New Playlist: 新播放列表
+Next: 下一个
 Next ▶: 下一页 ▶
 No .m3u files found on GitHub repository.: 在 GitHub 存储库上找不到 .m3u 文件。
+No cache folder found.: 未找到缓存文件夹。
 No channels could be mapped. Check your mapping rules.: 无法映射任何频道。检查您的映射规则。
 No channels mapped: 没有映射频道
 No duplicate URLs found.: 未发现重复的 URL。
+No EPG data: 无 EPG 数据
+No EPG information available for this channel.: 该频道没有可用的 EPG 信息。
+No EPG source configured. Please select one from the combo or go to Settings.: 未配置 EPG 源。请从组合中选择一项或前往“设置”。
+No EPG source configured. Would you like to open settings to select one?: 未配置 EPG 源。您想打开设置来选择一项吗？
 No favorite channels to export.: 没有可导出的喜爱频道。
 No playlist found: 未找到播放列表
-No stream: 无流
 No updates available.: 没有可用的更新。
 Normal speed (1x): 正常速度 (1x)
 Now: 现在
@@ -195,9 +208,10 @@ Ready.: 准备好。
 Recent: 最近的
 Recent files – quick access to last 5 opened playlists.: 最近的文件 – 快速访问最近打开的 5 个播放列表。
 Recent playlists: 最近的播放列表
-Refresh: 刷新
+Refresh EPG: 刷新电子节目表
 Refresh EPG List: 刷新EPG列表
 Refresh from GitHub: 从 GitHub 刷新
+Refresh List: 刷新列表
 Rename Group: 重命名组
 Repository: 存储库
 Reset Order: 重置订单
@@ -210,6 +224,7 @@ Save Mapping: 保存映射
 Save Playlist: 保存播放列表
 Save Status: 保存状态
 Saved: 已保存
+Search channel: : 搜索频道：
 Search channels by name: 按名称搜索频道
 Search channels...: 搜索频道...
 Select a playlist first.: 首先选择一个播放列表。
@@ -220,7 +235,7 @@ Show List: 显示列表
 Show only channels marked as favorites: 仅显示标记为收藏的频道
 Show or hide the channel list: 显示或隐藏频道列表
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: 特别感谢 CORVOBOYS 和 LinuxSat 支持社区的测试和支持。
-Start (local): 启动（本地）
+Start: 开始
 Status: 地位
 Stream URL: 串流网址
 Stream URLs: 流媒体 URL
@@ -239,6 +254,7 @@ Total: 全部的
 Total channels in loaded playlist: 加载的播放列表中的频道总数
 TV Guide (EPG): 电视指南 (EPG)
 TvgId: 电视标识符
+Type channel name to filter: 输入要过滤的频道名称
 UI: MaterialDesignThemes.Wpf: 用户界面：MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: 无法在远程项目文件中找到版本。
 Update: 更新

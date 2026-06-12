@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (طوعي تمامًا - لا توجد ميزات محظورة)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (مجلد ذاكرة التخزين المؤقت: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (طوعي تمامًا - لا توجد ميزات محظورة)
 (No description): (بدون وصف)
 • Add / rename / delete groups.: • إضافة / إعادة تسمية / حذف المجموعات.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • منزلق المخزن المؤقت: اضبط المخزن المؤقت HLS (من 1 إلى 10 ثوانٍ).
@@ -32,21 +33,24 @@ Auto-detect: الكشف التلقائي
 Automatic check on startup – or click 'Check for updates' in Tools menu.: التحقق التلقائي عند بدء التشغيل - أو انقر فوق "التحقق من وجود تحديثات" في قائمة "الأدوات".
 Buffer (seconds): المخزن المؤقت (ثواني)
 Buffer size – adjust HLS buffer seconds.: حجم المخزن المؤقت - ضبط ثواني المخزن المؤقت لـ HLS.
+Cache: مخبأ
 Cancel: يلغي
 CANCEL: يلغي
 Category: فئة
 Changelog: سجل التغيير
 Channel Details: تفاصيل القناة
 Channel Info: معلومات القناة
-Channel:: قناة:
 channels from: القنوات من
 channels from JSON URL: القنوات من JSON URL
 channels from URL: القنوات من URL
 Check Duplicates: التحقق من التكرارات
 Check for updates: التحقق من وجود تحديثات
 Check URLs: تحقق من عناوين URL
+Clear EPG Cache: مسح ذاكرة التخزين المؤقت لـ EPG
 Clear Filters: مسح المرشحات
 Clear search: مسح البحث
+Click for details: انقر للحصول على التفاصيل
+Close: يغلق
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: المجتمع والاختبار: CorvoBoys (corvoboys.org) وLinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: دولة
@@ -65,7 +69,7 @@ Drag to seek back in buffer: اسحب للبحث مرة أخرى في المخز
 Duplicate URLs found:\n\n: تم العثور على عناوين URL مكررة:\n\n
 Edit Playlist: تحرير قائمة التشغيل
 Edit URLs: تحرير عناوين URL
-End (local): النهاية (محلي)
+End: نهاية
 Enrich with EPG: إثراء مع دليل البرامج الإلكتروني
 Enter JSON URL:: أدخل عنوان URL لـ JSON:
 Enter playlist URL (M3U or JSON):: أدخل عنوان URL لقائمة التشغيل (M3U أو JSON):
@@ -73,12 +77,16 @@ EPG: دليل البرامج الإلكتروني
 Epg & Favorites: Epg والمفضلة
 Epg & Logos: Epg والشعارات
 EPG & Logos: دليل البرامج الإلكتروني والشعارات
+EPG cache cleared successfully.: تم مسح ذاكرة التخزين المؤقت لـ EPG بنجاح.
+EPG Details: تفاصيل دليل البرامج الإلكتروني
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: دليل EPG - يعرض الزر الموجود على شريط الأدوات الرئيسي شبكة كاملة مع تفاصيل البرنامج (انقر نقرًا مزدوجًا للحصول على معلومات).
 EPG Matching Threshold: عتبة مطابقة EPG
-EPG Source: مصدر دليل البرامج الإلكتروني
+EPG Source: : مصدر دليل البرامج الإلكتروني:
 EPG source – can be set in Settings (epgshare01 or custom URL).: مصدر EPG - يمكن ضبطه في الإعدادات (epgshare01 أو عنوان URL المخصص).
 EPG source – choose XMLTV file or enter custom URL.: مصدر EPG - اختر ملف XMLTV أو أدخل عنوان URL المخصص.
+EPG Source Missing: مصدر دليل البرامج الإلكتروني مفقود
 Error: خطأ
+Error clearing cache: خطأ في مسح ذاكرة التخزين المؤقت
 Error loading: حدث خطأ أثناء التحميل
 Error loading file: {0}: خطأ في تحميل الملف: {0}
 Error loading playlists: {0}: حدث خطأ أثناء تحميل قوائم التشغيل: {0}
@@ -160,14 +168,19 @@ Name: اسم
 Nanoid: نانويد
 Network error: خطأ في الشبكة
 New Playlist: قائمة تشغيل جديدة
+Next: التالي
 Next ▶: التالي ◀
 No .m3u files found on GitHub repository.: لم يتم العثور على ملفات .m3u في مستودع GitHub.
+No cache folder found.: لم يتم العثور على مجلد ذاكرة التخزين المؤقت.
 No channels could be mapped. Check your mapping rules.: لا يمكن تعيين أي قنوات. تحقق من قواعد رسم الخرائط الخاصة بك.
 No channels mapped: لم يتم تعيين أي قنوات
 No duplicate URLs found.: لم يتم العثور على عناوين URL مكررة.
+No EPG data: لا توجد بيانات دليل البرامج الإلكتروني
+No EPG information available for this channel.: لا تتوفر معلومات EPG لهذه القناة.
+No EPG source configured. Please select one from the combo or go to Settings.: لم يتم تكوين مصدر EPG. الرجاء اختيار واحد من التحرير والسرد أو الذهاب إلى الإعدادات.
+No EPG source configured. Would you like to open settings to select one?: لم يتم تكوين مصدر EPG. هل ترغب في فتح الإعدادات لاختيار واحد؟
 No favorite channels to export.: لا توجد قنوات مفضلة للتصدير.
 No playlist found: لم يتم العثور على قائمة تشغيل
-No stream: لا تيار
 No updates available.: لا توجد تحديثات متاحة.
 Normal speed (1x): السرعة العادية (1x)
 Now: الآن
@@ -195,9 +208,10 @@ Ready.: مستعد.
 Recent: مؤخرًا
 Recent files – quick access to last 5 opened playlists.: الملفات الأخيرة - الوصول السريع إلى آخر 5 قوائم تشغيل مفتوحة.
 Recent playlists: قوائم التشغيل الأخيرة
-Refresh: ينعش
+Refresh EPG: قم بتحديث دليل البرامج الإلكتروني
 Refresh EPG List: قم بتحديث قائمة EPG
 Refresh from GitHub: قم بالتحديث من جيثب
+Refresh List: تحديث القائمة
 Rename Group: إعادة تسمية المجموعة
 Repository: مستودع
 Reset Order: إعادة تعيين الطلب
@@ -210,6 +224,7 @@ Save Mapping: حفظ رسم الخرائط
 Save Playlist: حفظ قائمة التشغيل
 Save Status: حفظ الحالة
 Saved: أنقذ
+Search channel: : قناة البحث:
 Search channels by name: البحث عن القنوات بالاسم
 Search channels...: بحث في القنوات...
 Select a playlist first.: حدد قائمة التشغيل أولاً.
@@ -220,7 +235,7 @@ Show List: عرض القائمة
 Show only channels marked as favorites: عرض القنوات التي تم وضع علامة عليها كمفضلة فقط
 Show or hide the channel list: إظهار أو إخفاء قائمة القنوات
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: شكر خاص لمجتمعات CORVOBOYS وLinuxSat-Support على الاختبار والدعم.
-Start (local): البدء (محلي)
+Start: يبدأ
 Status: حالة
 Stream URL: عنوان URL للدفق
 Stream URLs: دفق عناوين URL
@@ -239,6 +254,7 @@ Total: المجموع
 Total channels in loaded playlist: إجمالي القنوات في قائمة التشغيل المحملة
 TV Guide (EPG): دليل التلفاز (EPG)
 TvgId: معرف التلفزيون
+Type channel name to filter: اكتب اسم القناة للتصفية
 UI: MaterialDesignThemes.Wpf: واجهة المستخدم: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: غير قادر على العثور على الإصدار في ملف المشروع البعيد.
 Update: تحديث

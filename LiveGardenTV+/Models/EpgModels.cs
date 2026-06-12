@@ -1,4 +1,7 @@
-﻿namespace LiveGardenTVPlus.Models
+﻿using System;
+using System.Collections.Generic;
+
+namespace LiveGardenTVPlus.Models
 {
     public class EpgChannel
     {

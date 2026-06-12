@@ -3,6 +3,7 @@ using System.Net.Http;
 using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
+using System.IO;
 
 namespace LiveGardenTVPlus.Views
 {
@@ -35,6 +36,8 @@ namespace LiveGardenTVPlus.Views
             LoadPlaylistBtn.Content = LanguageManager.GetTranslation("LOAD");
             EpgLabel.Text = LanguageManager.GetTranslation("EPG Source");
             RefreshEpgBtn.Content = LanguageManager.GetTranslation("Refresh EPG List");
+            ClearEpgCacheBtn.Content = LanguageManager.GetTranslation("Clear EPG Cache");
+            CacheInfoText.Text = LanguageManager.GetTranslation("(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache)");
             LogosLabel.Text = LanguageManager.GetTranslation("Logos Source");
             LogosSubFolderLabel.Text = LanguageManager.GetTranslation("Logos Subfolder");
             SaveBtn.Content = LanguageManager.GetTranslation("SAVE");
@@ -174,6 +177,30 @@ namespace LiveGardenTVPlus.Views
         private async void RefreshPlaylistsBtn_Click(object sender, RoutedEventArgs e)
         {
             await LoadPlaylistsFromGitHubAsync();
+        }
+
+        private void ClearEpgCacheBtn_Click(object sender, RoutedEventArgs e)
+        {
+            string cacheDir = Path.Combine(Path.GetTempPath(), "LiveGardenTVPlus", "epg_cache");
+            if (Directory.Exists(cacheDir))
+            {
+                try
+                {
+                    Directory.Delete(cacheDir, true);
+                    MessageBox.Show(LanguageManager.GetTranslation("EPG cache cleared successfully."),
+                                    LanguageManager.GetTranslation("Cache"), MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"{LanguageManager.GetTranslation("Error clearing cache")}: {ex.Message}",
+                                    LanguageManager.GetTranslation("Error"), MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show(LanguageManager.GetTranslation("No cache folder found."),
+                                LanguageManager.GetTranslation("Cache"), MessageBoxButton.OK, MessageBoxImage.Information);
+            }
         }
 
         private void LoadPlaylistBtn_Click(object sender, RoutedEventArgs e)

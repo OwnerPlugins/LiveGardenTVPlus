@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Gu tur saor-thoileach - chan eil feartan air am bacadh)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Pasgan tasgadan: % TEMP% \ LiveGardenTVPlus \ epg_cache)
+(Completely voluntary – no features are blocked): (Gu tur saor-thoileach - chan eil feartan air am bacadh)
 (No description): (Gun tuairisgeul)
 • Add / rename / delete groups.: • Cuir ris / ath-ainmich / cuir às do bhuidhnean.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Sleamhnag bufair: atharraich bufair HLS (1-10 diogan).
@@ -32,21 +33,24 @@ Auto-detect: Lorg gu fèin-obrachail
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Dèan sgrùdadh fèin-ghluasadach air tòiseachadh - no cliog air ‘Thoir sùil airson ùrachaidhean’ ann an clàr Innealan.
 Buffer (seconds): Bufair (diogan)
 Buffer size – adjust HLS buffer seconds.: Meud bufair - atharraich diogan bufair HLS.
+Cache: Tasgadh
 Cancel: Sguir dheth
 CANCEL: A CHUR
 Category: Roinn-seòrsa
 Changelog: Clàr-atharrachaidh
 Channel Details: Mion-fhiosrachadh sianal
 Channel Info: Fiosrachadh sianal
-Channel:: Seanail:
 channels from: sianalan bho
 channels from JSON URL: seanalan bho URL JSON
 channels from URL: sianalan bho URL
 Check Duplicates: Thoir sùil air Duplicates
 Check for updates: Thoir sùil airson ùrachaidhean
 Check URLs: Thoir sùil air URLan
+Clear EPG Cache: Glan tasgadan EPG
 Clear Filters: Filters soilleir
 Clear search: Glan lorg
+Click for details: Cliog airson mion-fhiosrachadh
+Close: Dùin
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Coimhearsnachd & deuchainn: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Dùthaich
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Slaod gus a shireadh air ais ann am bufair
 Duplicate URLs found:\n\n: URLan dùblaichte air an lorg:\n\n
 Edit Playlist: Deasaich Liosta-cluiche
 Edit URLs: Deasaich URLan
-End (local): Deireadh (ionadail)
+End: Crìochnaich
 Enrich with EPG: Dèan beairteas le EPG
 Enter JSON URL:: Cuir a-steach URL JSON:
 Enter playlist URL (M3U or JSON):: Cuir a-steach URL liosta-cluiche (M3U no JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Favorites
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
+EPG cache cleared successfully.: Chaidh tasgadan EPG a ghlanadh gu soirbheachail.
+EPG Details: Mion-fhiosrachadh EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Iùl EPG - tha putan air a’ phrìomh bhàr-inneal a’ sealltainn a’ ghriod slàn le mion-fhiosrachadh mun phrògram (cliog dùbailte airson fiosrachadh).
 EPG Matching Threshold: Ìre EPG Co-fhreagairt
-EPG Source: Stòr EPG
+EPG Source: : Stòr EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Stòr EPG - faodar a shuidheachadh ann an Roghainnean (epgshare01 no URL àbhaisteach).
 EPG source – choose XMLTV file or enter custom URL.: Stòr EPG - tagh faidhle XMLTV no cuir a-steach URL àbhaisteach.
+EPG Source Missing: Stòr EPG a dhìth
 Error: Mearachd
+Error clearing cache: Thachair mearachd le glanadh tasgadan
 Error loading: Thachair mearachd le luchdachadh
 Error loading file: {0}: Thachair mearachd le luchdachadh an fhaidhle: {0}
 Error loading playlists: {0}: Mearachd a' luchdadh chlàran-cluiche: {0}
@@ -160,14 +168,19 @@ Name: Ainm
 Nanoid: Nanoid
 Network error: Mearachd lìonraidh
 New Playlist: Liosta-chluiche Ùr
+Next: Air adhart
 Next ▶: Air adhart ▶
 No .m3u files found on GitHub repository.: Cha deach faidhlichean .m3u a lorg air stòr GitHub.
+No cache folder found.: Cha deach pasgan tasgadan a lorg.
 No channels could be mapped. Check your mapping rules.: Cha b’ urrainnear seanalan sam bith a mhapadh. Thoir sùil air na riaghailtean mapaidh agad.
 No channels mapped: Chan eil sianalan air am mapadh
 No duplicate URLs found.: Cha deach URLan dùblaichte a lorg.
+No EPG data: Chan eil dàta EPG ann
+No EPG information available for this channel.: Chan eil fiosrachadh EPG ri fhaighinn airson an t-seanail seo.
+No EPG source configured. Please select one from the combo or go to Settings.: Chan eil stòr EPG air a rèiteachadh. Feuch an tagh thu fear bhon chombo no rach gu Settings.
+No EPG source configured. Would you like to open settings to select one?: Chan eil stòr EPG air a rèiteachadh. Am bu toil leat roghainnean fhosgladh gus fear a thaghadh?
 No favorite channels to export.: Chan eil na seanalan as fheàrr leotha airson às-mhalairt.
 No playlist found: Cha deach liosta-cluiche a lorg
-No stream: Gun sruth
 No updates available.: Chan eil ùrachaidhean ri fhaighinn.
 Normal speed (1x): Astar àbhaisteach (1x)
 Now: Nise
@@ -195,9 +208,10 @@ Ready.: Ready.
 Recent: O chionn ghoirid
 Recent files – quick access to last 5 opened playlists.: Faidhlichean o chionn ghoirid - ruigsinneachd luath gu na 5 liostaichean-cluiche mu dheireadh a chaidh fhosgladh.
 Recent playlists: Clàran-ciùil o chionn ghoirid
-Refresh: Ùraich
+Refresh EPG: Luchdaich a-nuas an leabhar EPG
 Refresh EPG List: Luchdaich a-nuas an clàr EPG
 Refresh from GitHub: Ùraich bho GitHub
+Refresh List: Clàr Ath-nuadhachadh
 Rename Group: Ath-ainmich Buidheann
 Repository: Tasgaidh
 Reset Order: Òrdugh ath-shuidheachadh
@@ -210,6 +224,7 @@ Save Mapping: Sàbhail Mapadh
 Save Playlist: Sàbhail Liosta-cluiche
 Save Status: Sàbhail Inbhe
 Saved: Air a shàbhaladh
+Search channel: : Lorg sianal:
 Search channels by name: Rannsaich sianalan a rèir ainm
 Search channels...: Lorg sianalan...
 Select a playlist first.: Tagh liosta-cluiche an toiseach.
@@ -220,7 +235,7 @@ Show List: Seall Liosta
 Show only channels marked as favorites: Seall na seanailean a-mhàin air an comharrachadh mar roghainnean
 Show or hide the channel list: Seall no falaich liosta nan seanalan
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Taing shònraichte dha na coimhearsnachdan CORVOBOYS & LinuxSat-Support airson deuchainn agus taic.
-Start (local): Tòisich (ionadail)
+Start: Tòisich
 Status: Inbhe
 Stream URL: Sruth URL
 Stream URLs: Sruth URLan
@@ -239,6 +254,7 @@ Total: Iomlan
 Total channels in loaded playlist: Sianal iomlan ann an liosta-cluiche luchdaichte
 TV Guide (EPG): Leabhar-iùil Tbh (EPG)
 TvgId: TvgId
+Type channel name to filter: Taidhp ainm an t-seanail airson a chriathradh
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Cha b' urrainn dhuinn dreach a lorg ann am faidhle pròiseict iomallach.
 Update: Ùraich

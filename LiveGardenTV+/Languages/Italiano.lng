@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Completamente volontario – nessuna funzionalità è bloccata)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cartella cache: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Completamente volontario – nessuna funzionalità è bloccata)
 (No description): (Nessuna descrizione)
 • Add / rename / delete groups.: • Aggiungere/rinominare/eliminare gruppi.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Cursore buffer: regola il buffer HLS (1‑10 secondi).
@@ -32,21 +33,24 @@ Auto-detect: Rilevamento automatico
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Controllo automatico all'avvio oppure fai clic su "Verifica aggiornamenti" nel menu Strumenti.
 Buffer (seconds): Buffer (secondi)
 Buffer size – adjust HLS buffer seconds.: Dimensione buffer: regola i secondi del buffer HLS.
+Cache: Cache
 Cancel: Cancellare
 CANCEL: CANCELLARE
 Category: Categoria
 Changelog: Registro delle modifiche
 Channel Details: Dettagli del canale
 Channel Info: Informazioni sul canale
-Channel:: Canale:
 channels from: canali da
 channels from JSON URL: canali dall'URL JSON
 channels from URL: canali dall'URL
 Check Duplicates: Controlla i duplicati
 Check for updates: Controlla gli aggiornamenti
 Check URLs: Controlla gli URL
+Clear EPG Cache: Cancella cache EPG
 Clear Filters: Cancella filtri
 Clear search: Cancella ricerca
+Click for details: Fare clic per i dettagli
+Close: Vicino
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Comunità e test: CorvoBoys (corvoboys.org) e LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Paese
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Trascina per tornare indietro nel buffer
 Duplicate URLs found:\n\n: URL duplicati trovati:\n\n
 Edit Playlist: Modifica playlist
 Edit URLs: Modifica URL
-End (local): Fine (locale)
+End: FINE
 Enrich with EPG: Arricchisci con EPG
 Enter JSON URL:: Inserisci l'URL JSON:
 Enter playlist URL (M3U or JSON):: Inserisci l'URL della playlist (M3U o JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: EPG e Preferiti
 Epg & Logos: Epg e loghi
 EPG & Logos: EPG e loghi
+EPG cache cleared successfully.: La cache EPG è stata cancellata correttamente.
+EPG Details: Dettagli EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Guida EPG: il pulsante sulla barra degli strumenti principale mostra la griglia completa con i dettagli del programma (fare doppio clic per informazioni).
 EPG Matching Threshold: Soglia di corrispondenza EPG
 EPG Source: Sorgente EPG
 EPG source – can be set in Settings (epgshare01 or custom URL).: Sorgente EPG: può essere impostata in Impostazioni (epgshare01 o URL personalizzato).
 EPG source – choose XMLTV file or enter custom URL.: Sorgente EPG: scegli il file XMLTV o inserisci un URL personalizzato.
+EPG Source Missing: Sorgente EPG mancante
 Error: Errore
+Error clearing cache: Errore durante lo svuotamento della cache
 Error loading: Errore durante il caricamento
 Error loading file: {0}: Errore durante il caricamento del file: {0}
 Error loading playlists: {0}: Errore durante il caricamento delle playlist: {0}
@@ -160,14 +168,19 @@ Name: Nome
 Nanoid: Nanoide
 Network error: Errore di rete
 New Playlist: Nuova playlist
+Next: Prossimo
 Next ▶: Avanti ▶
 No .m3u files found on GitHub repository.: Nessun file .m3u trovato nel repository GitHub.
+No cache folder found.: Nessuna cartella cache trovata.
 No channels could be mapped. Check your mapping rules.: Nessun canale può essere mappato. Controlla le regole di mappatura.
 No channels mapped: Nessun canale mappato
 No duplicate URLs found.: Nessun URL duplicato trovato.
+No EPG data: Nessun dato EPG
+No EPG information available for this channel.: Nessuna informazione EPG disponibile per questo canale.
+No EPG source configured. Please select one from the combo or go to Settings.: Nessuna sorgente EPG configurata. Selezionane uno dalla combinazione o vai su Impostazioni.
+No EPG source configured. Would you like to open settings to select one?: Nessuna sorgente EPG configurata. Vuoi aprire le impostazioni per selezionarne uno?
 No favorite channels to export.: Nessun canale preferito da esportare.
 No playlist found: Nessuna playlist trovata
-No stream: Nessun flusso
 No updates available.: Nessun aggiornamento disponibile.
 Normal speed (1x): Velocità normale (1x)
 Now: Ora
@@ -195,9 +208,10 @@ Ready.: Pronto.
 Recent: Recente
 Recent files – quick access to last 5 opened playlists.: File recenti: accesso rapido alle ultime 5 playlist aperte.
 Recent playlists: Playlist recenti
-Refresh: Aggiorna
+Refresh EPG: Aggiorna l'EPG
 Refresh EPG List: Aggiorna l'elenco EPG
 Refresh from GitHub: Aggiorna da GitHub
+Refresh List: Aggiorna elenco
 Rename Group: Rinomina gruppo
 Repository: Deposito
 Reset Order: Reimposta ordine
@@ -210,6 +224,7 @@ Save Mapping: Salva mappatura
 Save Playlist: Salva playlist
 Save Status: Salva stato
 Saved: Salvato
+Search channel: Cerca canale
 Search channels by name: Cerca i canali per nome
 Search channels...: Cerca canali...
 Select a playlist first.: Seleziona prima una playlist.
@@ -220,7 +235,7 @@ Show List: Mostra elenco
 Show only channels marked as favorites: Mostra solo i canali contrassegnati come preferiti
 Show or hide the channel list: Mostra o nasconde l'elenco dei canali
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Un ringraziamento speciale alle comunità CORVOBOYS e LinuxSat-Support per i test e il supporto.
-Start (local): Inizio (locale)
+Start: Inizio
 Status: Stato
 Stream URL: URL dello streaming
 Stream URLs: URL dello streaming
@@ -239,6 +254,7 @@ Total: Totale
 Total channels in loaded playlist: Canali totali nella playlist caricata
 TV Guide (EPG): Guida TV (EPG)
 TvgId: TvgId
+Type channel name to filter: Digita il nome del canale da filtrare
 UI: MaterialDesignThemes.Wpf: Interfaccia utente: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Impossibile trovare la versione nel file di progetto remoto.
 Update: Aggiornamento

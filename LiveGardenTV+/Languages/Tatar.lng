@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Бөтенләй ирекле - бернинди үзенчәлекләр дә блокланмаган)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Кэш папкасы:% TEMP% \\ LiveGardenTVPlus \\ epg_cache)
+(Completely voluntary – no features are blocked): (Бөтенләй ирекле - бернинди үзенчәлекләр дә блокланмаган)
 (No description): (Тасвирлама юк)
 • Add / rename / delete groups.: • Төркемнәрне өстәү / үзгәртү / бетерү.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Буфер слайдер: HLS буферын көйләгез (1-10 секунд).
@@ -32,21 +33,24 @@ Auto-detect: Авто-ачыклау
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Стартны автоматик тикшерү - яки Кораллар менюсындагы 'Яңартуларны тикшерү' төймәсенә басыгыз.
 Buffer (seconds): Буфер (секундлар)
 Buffer size – adjust HLS buffer seconds.: Буфер зурлыгы - HLS буфер секундларын көйләгез.
+Cache: Кэш
 Cancel: Баш тарту
 CANCEL: БАСТЫРУ
 Category: Төркем
 Changelog: Чангелог
 Channel Details: Канал детальләре
 Channel Info: Канал турында мәгълүмат
-Channel:: Канал:
 channels from: каналлары
 channels from JSON URL: JSON URL каналлары
 channels from URL: URL-дан каналлар
 Check Duplicates: Күчермәләрне тикшерегез
 Check for updates: Яңартуларны тикшерегез
 Check URLs: URL'ларны тикшерегез
+Clear EPG Cache: EPG Кэшын чистарту
 Clear Filters: Фильтрларны чистарту
 Clear search: Эзләү
+Click for details: Детальләр өчен басыгыз
+Close: Ябу
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Communityәмгыять һәм тест: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Ил
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Буферда эзләү өчен сөйрәгез
 Duplicate URLs found:\n\n: Күрсәтелгән URL'лар: \ n \ n
 Edit Playlist: Плейлистны үзгәртү
 Edit URLs: URL'ларны үзгәртү
-End (local): Ахыр (җирле)
+End: Ахыр
 Enrich with EPG: EPG белән баету
 Enter JSON URL:: JSON URL кертегез:
 Enter playlist URL (M3U or JSON):: Плейлист URL кертегез (M3U яки JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Favorites
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
+EPG cache cleared successfully.: EPG кэш уңышлы чистартылды.
+EPG Details: EPG детальләре
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG кулланмасы - төп кораллар аскысындагы төймә программа детальләре белән тулы челтәрне күрсәтә (информациягә икеләтә басыгыз).
 EPG Matching Threshold: EPG туры килү бусагасы
-EPG Source: EPG чыганагы
+EPG Source: : EPG чыганагы:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG чыганагы - көйләүләрдә (epgshare01 яки махсус URL) урнаштырырга мөмкин.
 EPG source – choose XMLTV file or enter custom URL.: EPG чыганагы - XMLTV файлын сайлагыз яки махсус URL кертегез.
+EPG Source Missing: EPG чыганагы юк
 Error: Хата
+Error clearing cache: Кэшны чистартуда хата
 Error loading: Йөкләүдә хата
 Error loading file: {0}: Файлны йөкләүдә хата: {0}
 Error loading playlists: {0}: Плейлистларны йөкләүдә хата: {0}
@@ -160,14 +168,19 @@ Name: Исем
 Nanoid: Наноид
 Network error: Челтәр хата
 New Playlist: Яңа плейлист
+Next: Киләсе
 Next ▶: Киләсе ▶
 No .m3u files found on GitHub repository.: GitHub складында .m3u файллары табылмады.
+No cache folder found.: Кэш папкасы табылмады.
 No channels could be mapped. Check your mapping rules.: Бер каналны да ясап булмый. Карта ясау кагыйдәләрен тикшерегез.
 No channels mapped: Бер канал да ясалмаган
 No duplicate URLs found.: Бер-бер артлы URL табылмады.
+No EPG data: EPG мәгълүматлары юк
+No EPG information available for this channel.: Бу канал өчен EPG турында мәгълүмат юк.
+No EPG source configured. Please select one from the combo or go to Settings.: EPG чыганагы конфигурацияләнмәгән. Зинһар, комбинаттан берсен сайлагыз яки көйләүләргә керегез.
+No EPG source configured. Would you like to open settings to select one?: EPG чыганагы конфигурацияләнмәгән. Берсен сайлау өчен көйләүләрне ачасыгыз киләме?
 No favorite channels to export.: Экспортка яраткан каналлар юк.
 No playlist found: Плейлист табылмады
-No stream: Агым юк
 No updates available.: Яңартулар юк.
 Normal speed (1x): Нормаль тизлек (1х)
 Now: Хәзер
@@ -195,9 +208,10 @@ Ready.: Әзер.
 Recent: Соңгы
 Recent files – quick access to last 5 opened playlists.: Соңгы файллар - соңгы 5 ачылган плейлистка тиз керү.
 Recent playlists: Соңгы плейлистлар
-Refresh: Яңарту
+Refresh EPG: EPG яңарту
 Refresh EPG List: EPG исемлеген яңарту
 Refresh from GitHub: GitHub'тан яңарту
+Refresh List: Исемлекне яңарту
 Rename Group: Төркемнең исемен үзгәртү
 Repository: Склад
 Reset Order: Заказны яңадан урнаштыру
@@ -210,6 +224,7 @@ Save Mapping: Картаны саклагыз
 Save Playlist: Плейлистны саклагыз
 Save Status: Статусны саклагыз
 Saved: Сакланган
+Search channel: : Эзләү каналы:
 Search channels by name: Каналларны исем буенча эзләү
 Search channels...: Каналларны эзләү ...
 Select a playlist first.: Башта плейлистны сайлагыз.
@@ -220,7 +235,7 @@ Show List: Исемлекне күрсәтү
 Show only channels marked as favorites: Фаворит дип билгеләнгән каналларны гына күрсәтегез
 Show or hide the channel list: Канал исемлеген күрсәтегез яки яшерегез
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Сынау һәм ярдәм өчен CORVOBOYS & LinuxSat-Ярдәм җәмгыятьләренә аерым рәхмәт.
-Start (local): Башлау (җирле)
+Start: Башлау
 Status: Статус
 Stream URL: Агым URL
 Stream URLs: Агым URLлары
@@ -239,6 +254,7 @@ Total: Барлыгы
 Total channels in loaded playlist: Йөкләнгән плейлисттагы гомуми каналлар
 TV Guide (EPG): Телевидение күрсәтмәсе (EPG)
 TvgId: TvgId
+Type channel name to filter: Фильтр өчен канал исемен языгыз
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Ерак проект файлында версия таба алмый.
 Update: Яңарту

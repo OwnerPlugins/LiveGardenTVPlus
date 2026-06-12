@@ -6,34 +6,58 @@
         Foreground="{DynamicResource ForegroundBrush}"
         WindowStartupLocation="CenterOwner">
 
-    <Window.Resources>
-        <!-- FALLBACK BRUSHES: These are used only if the theme does not define them. -->
-    </Window.Resources>
-
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+
         <!-- Toolbar -->
         <Border Grid.Row="0" Background="{DynamicResource ControlBackgroundBrush}" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,0,0,1" Padding="10,5" Margin="0,0,0,10" CornerRadius="4">
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                <TextBlock x:Name="ChannelLabel" Text="Channel:" VerticalAlignment="Center" Margin="0,0,5,0" Foreground="{DynamicResource ForegroundBrush}"/>
-                <ComboBox x:Name="ChannelCombo" Width="250" DisplayMemberPath="DisplayName" Background="{DynamicResource ControlBackgroundBrush}" Foreground="{DynamicResource ForegroundBrush}" SelectionChanged="ChannelCombo_SelectionChanged"/>
-                <Button x:Name="RefreshBtn" Content="Refresh" Margin="10,0,5,0" Click="RefreshBtn_Click"/>
-                <Button x:Name="DetailsBtn" Content="Details" Click="DetailsBtn_Click"/>
+            <StackPanel>
+                <!-- First row: EPG source selector -->
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                    <TextBlock x:Name="EpgSourceLabel" Text="EPG Source" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                    <ComboBox x:Name="EpgSourceCombo" Width="300" DisplayMemberPath="Key" SelectedValuePath="Value"
+                              SelectionChanged="EpgSourceCombo_SelectionChanged" Background="{DynamicResource ControlBackgroundBrush}"/>
+                    <Button x:Name="RefreshEpgListBtn" Content="Refresh List" Margin="10,0,0,0" Click="RefreshEpgListBtn_Click"/>
+                </StackPanel>
+
+                <!-- Second row: channel search -->
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <TextBlock x:Name="SearchLabel" Text="Search channel:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                    <TextBox x:Name="SearchBox" Width="180" TextChanged="SearchBox_TextChanged" VerticalAlignment="Center"/>
+                    <Button x:Name="ClearSearchBtn" Width="40" Height="30" Margin="0,0,0,0" Click="ClearSearchBtn_Click" ToolTip="Clear search" 
+                            Background="Transparent" BorderThickness="0" Cursor="Hand">
+                        <Border Height="20" Width="20" Background="{DynamicResource BorderBrush}" CornerRadius="10">
+                            <TextBlock Text="✕" Height="Auto" Width="Auto" FontSize="14" Foreground="{DynamicResource ForegroundBrush}" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+                        </Border>
+                    </Button>
+                    <Button x:Name="RefreshBtn" Content="Refresh EPG" Margin="10,0,5,0" Click="RefreshBtn_Click"/>
+                    <Button x:Name="DetailsBtn" Content="Details" Click="DetailsBtn_Click"/>
+                </StackPanel>
+
+                <!-- Channel list -->
+                <ListBox x:Name="ChannelListBox" Height="180" Margin="0,5,0,0" DisplayMemberPath="DisplayName" SelectionChanged="ChannelListBox_SelectionChanged"
+                         VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Recycling"/>
             </StackPanel>
         </Border>
-        <!-- DataGrid -->
-        <DataGrid x:Name="ProgramsGrid" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True" Background="{DynamicResource ControlBackgroundBrush}" Foreground="{DynamicResource ForegroundBrush}" RowBackground="{DynamicResource ControlBackgroundBrush}" AlternatingRowBackground="{DynamicResource AlternateRowBackgroundBrush}" BorderBrush="{DynamicResource BorderBrush}" GridLinesVisibility="Horizontal" MouseDoubleClick="ProgramsGrid_MouseDoubleClick">
+
+        <!-- DataGrid for programs -->
+        <DataGrid x:Name="ProgramsGrid" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True" 
+                  Background="{DynamicResource ControlBackgroundBrush}" Foreground="{DynamicResource ForegroundBrush}" 
+                  RowBackground="{DynamicResource ControlBackgroundBrush}" AlternatingRowBackground="{DynamicResource AlternateRowBackgroundBrush}" 
+                  BorderBrush="{DynamicResource BorderBrush}" GridLinesVisibility="Horizontal" 
+                  MouseDoubleClick="ProgramsGrid_MouseDoubleClick"
+                  VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Recycling">
             <DataGrid.Resources>
                 <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="{DynamicResource AccentColor}"/>
                 <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}" Color="White"/>
             </DataGrid.Resources>
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Start (local)" Binding="{Binding StartLocal, StringFormat=HH:mm}" Width="80"/>
-                <DataGridTextColumn Header="End (local)" Binding="{Binding StopLocal, StringFormat=HH:mm}" Width="80"/>
-                <DataGridTextColumn Header="Title" Binding="{Binding Title}" Width="2*"/>
+                <DataGridTextColumn Header="Start" Binding="{Binding StartLocal, StringFormat=dd/MM HH:mm}" Width="100"/>
+                <DataGridTextColumn Header="End" Binding="{Binding StopLocal, StringFormat=dd/MM HH:mm}" Width="100"/>
+                <DataGridTextColumn Header="Title" Binding="{Binding Title}" Width="Auto"/>
                 <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="3*"/>
                 <DataGridTextColumn Header="Category" Binding="{Binding Category}" Width="Auto"/>
             </DataGrid.Columns>

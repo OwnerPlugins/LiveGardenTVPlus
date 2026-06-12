@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Толугу менен ыктыярдуу – эч кандай функция бөгөттөлгөн эмес)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Кэш папкасы: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Толугу менен ыктыярдуу – эч кандай функция бөгөттөлгөн эмес)
 (No description): (Сыпаттама жок)
 • Add / rename / delete groups.: • Топторду кошуу / атын өзгөртүү / жок кылуу.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Буфер сыдыргычы: HLS буферин тууралоо (1‑10 секунд).
@@ -32,21 +33,24 @@ Auto-detect: Автоматтык аныктоо
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Ишке киргенде автоматтык түрдө текшерүү – же Куралдар менюсунан "Жаңыртууну текшерүү" баскычын чыкылдатыңыз.
 Buffer (seconds): Буфер (секунд)
 Buffer size – adjust HLS buffer seconds.: Буфер өлчөмү – HLS буферинин секундасын тууралаңыз.
+Cache: Кэш
 Cancel: Жокко чыгаруу
 CANCEL: ЖОК КАЛУУ
 Category: Категория
 Changelog: Changelog
 Channel Details: Канал чоо-жайы
 Channel Info: Канал маалыматы
-Channel:: Канал:
 channels from: каналдарынан
 channels from JSON URL: каналдар JSON URL
 channels from URL: URL'ден каналдар
 Check Duplicates: Дубликаттарды текшерүү
 Check for updates: Жаңыртууларды текшериңиз
 Check URLs: URL'дерди текшерүү
+Clear EPG Cache: EPG кэшин тазалоо
 Clear Filters: Чыпкаларды тазалоо
 Clear search: Издөөнү тазалоо
+Click for details: чоо-жайын билүү үчүн басыңыз
+Close: Жабуу
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Коомчулук жана тестирлөө: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Өлкө
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Буферде кайра издөө үчүн сү�
 Duplicate URLs found:\n\n: Кайталанма URL'дер табылды:\n\n
 Edit Playlist: Ойнотмо тизмени түзөтүү
 Edit URLs: URL'дерди түзөтүү
-End (local): Аяктоо (жергиликтүү)
+End: Аягы
 Enrich with EPG: EPG менен байытуу
 Enter JSON URL:: JSON URL киргизиңиз:
 Enter playlist URL (M3U or JSON):: Ойнотмо тизменин URL'ин киргизиңиз (M3U же JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Favorites
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Логотиптер
+EPG cache cleared successfully.: EPG кэши ийгиликтүү тазаланды.
+EPG Details: EPG чоо-жайы
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Guide – негизги куралдар панелиндеги баскыч программанын чоо-жайы менен толук торду көрсөтөт (маалымат үчүн эки жолу чыкылдатыңыз).
 EPG Matching Threshold: EPG дал келүү босогосу
-EPG Source: EPG булагы
+EPG Source: : EPG булагы:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG булагы – Жөндөөлөрдөн (epgshare01 же ыңгайлаштырылган URL) орнотсо болот.
 EPG source – choose XMLTV file or enter custom URL.: EPG булагы – XMLTV файлын тандаңыз же жеке URL киргизиңиз.
+EPG Source Missing: EPG булагы жок
 Error: Ката
+Error clearing cache: Кэшти тазалоо катасы
 Error loading: Жүктөө катасы
 Error loading file: {0}: Файлды жүктөө катасы: {0}
 Error loading playlists: {0}: Ойнотмо тизмелерди жүктөө катасы: {0}
@@ -160,14 +168,19 @@ Name: аты
 Nanoid: Наноид
 Network error: Тармак катасы
 New Playlist: Жаңы ойнотмо тизме
+Next: Кийинки
 Next ▶: Кийинки ▶
 No .m3u files found on GitHub repository.: GitHub репозиторийинде .m3u файлдары табылган жок.
+No cache folder found.: Кэш папка табылган жок.
 No channels could be mapped. Check your mapping rules.: Бир дагы каналды картага түшүрүү мүмкүн эмес. Карта түзүү эрежелериңизди текшериңиз.
 No channels mapped: Эч канал картага түшүрүлгөн
 No duplicate URLs found.: Кайталанма URL'дер табылган жок.
+No EPG data: EPG дайындары жок
+No EPG information available for this channel.: Бул канал үчүн EPG маалымат жок.
+No EPG source configured. Please select one from the combo or go to Settings.: Конфигурацияланган EPG булагы жок. Сураныч, айкалыштыруудан бирин тандаңыз же Жөндөөлөргө өтүңүз.
+No EPG source configured. Would you like to open settings to select one?: Конфигурацияланган EPG булагы жок. Бирөөнү тандоо үчүн жөндөөлөрдү ачкыңыз келеби?
 No favorite channels to export.: Экспорттоо үчүн сүйүктүү каналдар жок.
 No playlist found: Ойнотмо тизме табылган жок
-No stream: Агым жок
 No updates available.: Жаңыртуулар жок.
 Normal speed (1x): Кадимки ылдамдык (1x)
 Now: Азыр
@@ -195,9 +208,10 @@ Ready.: Даяр.
 Recent: Акыркы
 Recent files – quick access to last 5 opened playlists.: Акыркы файлдар – акыркы 5 ачылган ойнотмо тизмеге тез жетүү.
 Recent playlists: Акыркы ойнотмо тизмелер
-Refresh: Жаңылоо
+Refresh EPG: EPG жаңыртуу
 Refresh EPG List: EPG тизмесин жаңыртуу
 Refresh from GitHub: GitHub'дан жаңыртуу
+Refresh List: Тизмени жаңыртуу
 Rename Group: Топтун атын өзгөртүү
 Repository: Репозиторий
 Reset Order: Тартипти калыбына келтирүү
@@ -210,6 +224,7 @@ Save Mapping: Карталарды сактоо
 Save Playlist: Ойнотмо тизмени сактоо
 Save Status: Статусту сактоо
 Saved: Сакталган
+Search channel: : Канал издөө:
 Search channels by name: Каналдарды аты боюнча издөө
 Search channels...: Каналдарды издөө...
 Select a playlist first.: Биринчи ойнотмо тизмесин тандаңыз.
@@ -220,7 +235,7 @@ Show List: Тизмени көрсөтүү
 Show only channels marked as favorites: Сүйүктүү катары белгиленген каналдарды гана көрсөтүү
 Show or hide the channel list: Канал тизмесин көрсөтүү же жашыруу
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Сыноо жана колдоо үчүн CORVOBOYS & LinuxSat-колдоо жамааттарына өзгөчө ыраазычылык билдиребиз.
-Start (local): Баштоо (жергиликтүү)
+Start: Баштоо
 Status: Статус
 Stream URL: Агым URL
 Stream URLs: Агым URL'дери
@@ -239,6 +254,7 @@ Total: Бардыгы
 Total channels in loaded playlist: Жүктөлгөн ойнотмо тизмедеги жалпы каналдар
 TV Guide (EPG): TV гид (EPG)
 TvgId: TvgId
+Type channel name to filter: Чыпкалоо үчүн каналдын атын териңиз
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Алыскы долбоордун файлында версия табылбай жатат.
 Update: Жаңыртуу

@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (ಸಂಪೂರ್ಣವಾಗಿ ಸ್ವಯಂಪ್ರೇರಿತ - ಯಾವುದೇ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿಲ್ಲ)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (ಸಂಗ್ರಹ ಫೋಲ್ಡರ್: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (ಸಂಪೂರ್ಣವಾಗಿ ಸ್ವಯಂಪ್ರೇರಿತ - ಯಾವುದೇ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿಲ್ಲ)
 (No description): (ವಿವರಣೆ ಇಲ್ಲ)
 • Add / rename / delete groups.: • ಗುಂಪುಗಳನ್ನು ಸೇರಿಸಿ / ಮರುಹೆಸರಿಸಿ / ಅಳಿಸಿ.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • ಬಫರ್ ಸ್ಲೈಡರ್: HLS ಬಫರ್ ಅನ್ನು ಹೊಂದಿಸಿ (1-10 ಸೆಕೆಂಡುಗಳು).
@@ -32,21 +33,24 @@ Auto-detect: ಸ್ವಯಂ ಪತ್ತೆ
 Automatic check on startup – or click 'Check for updates' in Tools menu.: ಪ್ರಾರಂಭದಲ್ಲಿ ಸ್ವಯಂಚಾಲಿತ ಪರಿಶೀಲನೆ - ಅಥವಾ ಪರಿಕರಗಳ ಮೆನುವಿನಲ್ಲಿ 'ನವೀಕರಣಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಿ' ಕ್ಲಿಕ್ ಮಾಡಿ.
 Buffer (seconds): ಬಫರ್ (ಸೆಕೆಂಡ್‌ಗಳು)
 Buffer size – adjust HLS buffer seconds.: ಬಫರ್ ಗಾತ್ರ - HLS ಬಫರ್ ಸೆಕೆಂಡುಗಳನ್ನು ಹೊಂದಿಸಿ.
+Cache: ಸಂಗ್ರಹ
 Cancel: ರದ್ದುಮಾಡು
 CANCEL: ರದ್ದುಮಾಡು
 Category: ವರ್ಗ
 Changelog: ಚೇಂಜ್ಲಾಗ್
 Channel Details: ಚಾನಲ್ ವಿವರಗಳು
 Channel Info: ಚಾನಲ್ ಮಾಹಿತಿ
-Channel:: ಚಾನಲ್:
 channels from: ನಿಂದ ಚಾನಲ್‌ಗಳು
 channels from JSON URL: JSON URL ನಿಂದ ಚಾನಲ್‌ಗಳು
 channels from URL: URL ನಿಂದ ಚಾನಲ್‌ಗಳು
 Check Duplicates: ನಕಲುಗಳನ್ನು ಪರಿಶೀಲಿಸಿ
 Check for updates: ನವೀಕರಣಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಿ
 Check URLs: URL ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ
+Clear EPG Cache: EPG ಸಂಗ್ರಹವನ್ನು ತೆರವುಗೊಳಿಸಿ
 Clear Filters: ಫಿಲ್ಟರ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ
 Clear search: ಹುಡುಕಾಟವನ್ನು ತೆರವುಗೊಳಿಸಿ
+Click for details: ವಿವರಗಳಿಗಾಗಿ ಕ್ಲಿಕ್ ಮಾಡಿ
+Close: ಮುಚ್ಚಿ
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ಸಮುದಾಯ ಮತ್ತು ಪರೀಕ್ಷೆ: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOYS.ORG
 Country: ದೇಶ
@@ -65,7 +69,7 @@ Drag to seek back in buffer: ಬಫರ್‌ನಲ್ಲಿ ಹಿಂತಿರ�
 Duplicate URLs found:\n\n: ನಕಲಿ URL ಗಳು ಕಂಡುಬಂದಿವೆ:\n\n
 Edit Playlist: ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಸಂಪಾದಿಸಿ
 Edit URLs: URL ಗಳನ್ನು ಸಂಪಾದಿಸಿ
-End (local): ಅಂತ್ಯ (ಸ್ಥಳೀಯ)
+End: ಅಂತ್ಯ
 Enrich with EPG: EPG ಯೊಂದಿಗೆ ಸಮೃದ್ಧಗೊಳಿಸಿ
 Enter JSON URL:: JSON URL ನಮೂದಿಸಿ:
 Enter playlist URL (M3U or JSON):: ಪ್ಲೇಪಟ್ಟಿ URL ನಮೂದಿಸಿ (M3U ಅಥವಾ JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: ಎಪಿಜಿ ಮತ್ತು ಮೆಚ್ಚಿನವುಗಳು
 Epg & Logos: ಎಪಿಜಿ ಮತ್ತು ಲೋಗೋಗಳು
 EPG & Logos: EPG ಮತ್ತು ಲೋಗೋಗಳು
+EPG cache cleared successfully.: EPG ಸಂಗ್ರಹವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ತೆರವುಗೊಳಿಸಲಾಗಿದೆ.
+EPG Details: EPG ವಿವರಗಳು
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG ಗೈಡ್ - ಮುಖ್ಯ ಟೂಲ್‌ಬಾರ್‌ನಲ್ಲಿರುವ ಬಟನ್ ಪ್ರೋಗ್ರಾಂ ವಿವರಗಳೊಂದಿಗೆ ಪೂರ್ಣ ಗ್ರಿಡ್ ಅನ್ನು ತೋರಿಸುತ್ತದೆ (ಮಾಹಿತಿಗಾಗಿ ಡಬಲ್-ಕ್ಲಿಕ್ ಮಾಡಿ).
 EPG Matching Threshold: EPG ಹೊಂದಾಣಿಕೆಯ ಮಿತಿ
-EPG Source: EPG ಮೂಲ
+EPG Source: : EPG ಮೂಲ:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG ಮೂಲ - ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಹೊಂದಿಸಬಹುದು (epgshare01 ಅಥವಾ ಕಸ್ಟಮ್ URL).
 EPG source – choose XMLTV file or enter custom URL.: EPG ಮೂಲ - XMLTV ಫೈಲ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ ಅಥವಾ ಕಸ್ಟಮ್ URL ಅನ್ನು ನಮೂದಿಸಿ.
+EPG Source Missing: EPG ಮೂಲ ಕಾಣೆಯಾಗಿದೆ
 Error: ದೋಷ
+Error clearing cache: ಸಂಗ್ರಹವನ್ನು ತೆರವುಗೊಳಿಸುವಲ್ಲಿ ದೋಷ
 Error loading: ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ
 Error loading file: {0}: ಫೈಲ್ ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ: {0}
 Error loading playlists: {0}: ಪ್ಲೇಪಟ್ಟಿಗಳನ್ನು ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ: {0}
@@ -160,14 +168,19 @@ Name: ಹೆಸರು
 Nanoid: ನ್ಯಾನಾಯ್ಡ್
 Network error: ನೆಟ್‌ವರ್ಕ್ ದೋಷ
 New Playlist: ಹೊಸ ಪ್ಲೇಪಟ್ಟಿ
+Next: ಮುಂದೆ
 Next ▶: ಮುಂದೆ ▶
 No .m3u files found on GitHub repository.: GitHub ರೆಪೊಸಿಟರಿಯಲ್ಲಿ ಯಾವುದೇ .m3u ಫೈಲ್‌ಗಳು ಕಂಡುಬಂದಿಲ್ಲ.
+No cache folder found.: ಯಾವುದೇ ಸಂಗ್ರಹ ಫೋಲ್ಡರ್ ಕಂಡುಬಂದಿಲ್ಲ.
 No channels could be mapped. Check your mapping rules.: ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಮ್ಯಾಪ್ ಮಾಡಲಾಗಲಿಲ್ಲ. ನಿಮ್ಮ ಮ್ಯಾಪಿಂಗ್ ನಿಯಮಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.
 No channels mapped: ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಮ್ಯಾಪ್ ಮಾಡಲಾಗಿಲ್ಲ
 No duplicate URLs found.: ಯಾವುದೇ ನಕಲಿ URL ಗಳು ಕಂಡುಬಂದಿಲ್ಲ.
+No EPG data: ಇಪಿಜಿ ಡೇಟಾ ಇಲ್ಲ
+No EPG information available for this channel.: ಈ ಚಾನಲ್‌ಗೆ ಯಾವುದೇ EPG ಮಾಹಿತಿ ಲಭ್ಯವಿಲ್ಲ.
+No EPG source configured. Please select one from the combo or go to Settings.: ಯಾವುದೇ EPG ಮೂಲವನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿಲ್ಲ. ಕಾಂಬೊದಿಂದ ಒಂದನ್ನು ಆಯ್ಕೆಮಾಡಿ ಅಥವಾ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಹೋಗಿ.
+No EPG source configured. Would you like to open settings to select one?: ಯಾವುದೇ EPG ಮೂಲವನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿಲ್ಲ. ಒಂದನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೀವು ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಲು ಬಯಸುವಿರಾ?
 No favorite channels to export.: ರಫ್ತು ಮಾಡಲು ಯಾವುದೇ ನೆಚ್ಚಿನ ಚಾನಲ್‌ಗಳಿಲ್ಲ.
 No playlist found: ಯಾವುದೇ ಪ್ಲೇಪಟ್ಟಿ ಕಂಡುಬಂದಿಲ್ಲ
-No stream: ಸ್ಟ್ರೀಮ್ ಇಲ್ಲ
 No updates available.: ಯಾವುದೇ ನವೀಕರಣಗಳು ಲಭ್ಯವಿಲ್ಲ.
 Normal speed (1x): ಸಾಮಾನ್ಯ ವೇಗ (1x)
 Now: ಈಗ
@@ -195,9 +208,10 @@ Ready.: ಸಿದ್ಧವಾಗಿದೆ.
 Recent: ಇತ್ತೀಚಿನ
 Recent files – quick access to last 5 opened playlists.: ಇತ್ತೀಚಿನ ಫೈಲ್‌ಗಳು - ಕೊನೆಯ 5 ತೆರೆದ ಪ್ಲೇಪಟ್ಟಿಗಳಿಗೆ ತ್ವರಿತ ಪ್ರವೇಶ.
 Recent playlists: ಇತ್ತೀಚಿನ ಪ್ಲೇಪಟ್ಟಿಗಳು
-Refresh: ರಿಫ್ರೆಶ್ ಮಾಡಿ
+Refresh EPG: EPG ಅನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ
 Refresh EPG List: EPG ಪಟ್ಟಿಯನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ
 Refresh from GitHub: GitHub ನಿಂದ ರಿಫ್ರೆಶ್ ಮಾಡಿ
+Refresh List: ಪಟ್ಟಿಯನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ
 Rename Group: ಗುಂಪನ್ನು ಮರುಹೆಸರಿಸಿ
 Repository: ಭಂಡಾರ
 Reset Order: ಆದೇಶವನ್ನು ಮರುಹೊಂದಿಸಿ
@@ -210,6 +224,7 @@ Save Mapping: ಮ್ಯಾಪಿಂಗ್ ಅನ್ನು ಉಳಿಸಿ
 Save Playlist: ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಉಳಿಸಿ
 Save Status: ಸ್ಥಿತಿಯನ್ನು ಉಳಿಸಿ
 Saved: ಉಳಿಸಲಾಗಿದೆ
+Search channel: : ಹುಡುಕಾಟ ಚಾನಲ್:
 Search channels by name: ಹೆಸರಿನ ಮೂಲಕ ಚಾನಲ್‌ಗಳನ್ನು ಹುಡುಕಿ
 Search channels...: ಚಾನಲ್‌ಗಳನ್ನು ಹುಡುಕಿ...
 Select a playlist first.: ಮೊದಲು ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.
@@ -220,7 +235,7 @@ Show List: ಪಟ್ಟಿಯನ್ನು ತೋರಿಸು
 Show only channels marked as favorites: ಮೆಚ್ಚಿನವುಗಳೆಂದು ಗುರುತಿಸಲಾದ ಚಾನಲ್‌ಗಳನ್ನು ಮಾತ್ರ ತೋರಿಸಿ
 Show or hide the channel list: ಚಾನಲ್ ಪಟ್ಟಿಯನ್ನು ತೋರಿಸಿ ಅಥವಾ ಮರೆಮಾಡಿ
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: ಪರೀಕ್ಷೆ ಮತ್ತು ಬೆಂಬಲಕ್ಕಾಗಿ CORVOBOYS ಮತ್ತು LinuxSat-ಬೆಂಬಲ ಸಮುದಾಯಗಳಿಗೆ ವಿಶೇಷ ಧನ್ಯವಾದಗಳು.
-Start (local): ಪ್ರಾರಂಭ (ಸ್ಥಳೀಯ)
+Start: ಪ್ರಾರಂಭಿಸಿ
 Status: ಸ್ಥಿತಿ
 Stream URL: ಸ್ಟ್ರೀಮ್ URL
 Stream URLs: ಸ್ಟ್ರೀಮ್ URL ಗಳು
@@ -239,6 +254,7 @@ Total: ಒಟ್ಟು
 Total channels in loaded playlist: ಲೋಡ್ ಮಾಡಲಾದ ಪ್ಲೇಪಟ್ಟಿಯಲ್ಲಿ ಒಟ್ಟು ಚಾನಲ್‌ಗಳು
 TV Guide (EPG): ಟಿವಿ ಮಾರ್ಗದರ್ಶಿ (EPG)
 TvgId: ಟಿವಿಜಿಐಡಿ
+Type channel name to filter: ಫಿಲ್ಟರ್ ಮಾಡಲು ಚಾನಲ್ ಹೆಸರನ್ನು ಟೈಪ್ ಮಾಡಿ
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: ರಿಮೋಟ್ ಪ್ರಾಜೆಕ್ಟ್ ಫೈಲ್‌ನಲ್ಲಿ ಆವೃತ್ತಿಯನ್ನು ಹುಡುಕಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.
 Update: ನವೀಕರಿಸಿ

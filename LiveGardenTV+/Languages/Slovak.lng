@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Úplne dobrovoľné – nie sú blokované žiadne funkcie)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Priečinok vyrovnávacej pamäte: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Úplne dobrovoľné – nie sú blokované žiadne funkcie)
 (No description): (Bez popisu)
 • Add / rename / delete groups.: • Pridať/premenovať/vymazať skupiny.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Posuvník vyrovnávacej pamäte: úprava vyrovnávacej pamäte HLS (1–10 sekúnd).
@@ -32,21 +33,24 @@ Auto-detect: Automatická detekcia
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatická kontrola pri spustení – alebo kliknite na „Skontrolovať aktualizácie“ v ponuke Nástroje.
 Buffer (seconds): Vyrovnávacia pamäť (sekundy)
 Buffer size – adjust HLS buffer seconds.: Veľkosť vyrovnávacej pamäte – nastavenie sekúnd vyrovnávacej pamäte HLS.
+Cache: Cache
 Cancel: Zrušiť
 CANCEL: ZRUŠIŤ
 Category: Kategória
 Changelog: Denník zmien
 Channel Details: Podrobnosti kanála
 Channel Info: Informácie o kanáli
-Channel:: kanál:
 channels from: kanály z
 channels from JSON URL: kanály z adresy URL JSON
 channels from URL: kanálov z adresy URL
 Check Duplicates: Začiarknite políčko Duplikáty
 Check for updates: Skontrolujte aktualizácie
 Check URLs: Skontrolujte adresy URL
+Clear EPG Cache: Vymazať vyrovnávaciu pamäť EPG
 Clear Filters: Vymazať filtre
 Clear search: Vymazať vyhľadávanie
+Click for details: Kliknutím zobrazíte podrobnosti
+Close: Zavrieť
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunita a testovanie: CorvoBoys (corvoboys.org) a LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Krajina
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Potiahnutím prejdete späť do vyrovnávacej pamä
 Duplicate URLs found:\n\n: Našli sa duplicitné adresy URL:\n\n
 Edit Playlist: Upraviť zoznam skladieb
 Edit URLs: Upravte adresy URL
-End (local): Koniec (miestne)
+End: Koniec
 Enrich with EPG: Obohaťte o EPG
 Enter JSON URL:: Zadajte webovú adresu JSON:
 Enter playlist URL (M3U or JSON):: Zadajte webovú adresu zoznamu videí (M3U alebo JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg a obľúbené
 Epg & Logos: Epg a logá
 EPG & Logos: EPG a logá
+EPG cache cleared successfully.: Vyrovnávacia pamäť EPG bola úspešne vymazaná.
+EPG Details: Podrobnosti EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Sprievodca EPG – tlačidlo na hlavnom paneli nástrojov zobrazuje celú mriežku s podrobnosťami o programe (informácie získate dvojitým kliknutím).
 EPG Matching Threshold: EPG Matching Threshold
-EPG Source: Zdroj EPG
+EPG Source: : Zdroj EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Zdroj EPG – dá sa nastaviť v Nastaveniach (epgshare01 alebo vlastná URL).
 EPG source – choose XMLTV file or enter custom URL.: Zdroj EPG – vyberte súbor XMLTV alebo zadajte vlastnú URL.
+EPG Source Missing: Chýba zdroj EPG
 Error: Chyba
+Error clearing cache: Chyba pri vymazávaní vyrovnávacej pamäte
 Error loading: Chyba pri načítavaní
 Error loading file: {0}: Chyba pri načítavaní súboru: {0}
 Error loading playlists: {0}: Chyba pri načítavaní zoznamov skladieb: {0}
@@ -160,14 +168,19 @@ Name: Meno
 Nanoid: Nanoid
 Network error: Chyba siete
 New Playlist: Nový zoznam skladieb
+Next: Ďalej
 Next ▶: Ďalej ▶
 No .m3u files found on GitHub repository.: V úložisku GitHub sa nenašli žiadne súbory .m3u.
+No cache folder found.: Nenašiel sa žiadny priečinok vyrovnávacej pamäte.
 No channels could be mapped. Check your mapping rules.: Nepodarilo sa namapovať žiadne kanály. Skontrolujte svoje pravidlá mapovania.
 No channels mapped: Nie sú namapované žiadne kanály
 No duplicate URLs found.: Nenašli sa žiadne duplicitné adresy URL.
+No EPG data: Žiadne údaje EPG
+No EPG information available for this channel.: Pre tento kanál nie sú k dispozícii žiadne informácie EPG.
+No EPG source configured. Please select one from the combo or go to Settings.: Nie je nakonfigurovaný žiadny zdroj EPG. Vyberte si jednu z kombinácií alebo prejdite na Nastavenia.
+No EPG source configured. Would you like to open settings to select one?: Nie je nakonfigurovaný žiadny zdroj EPG. Chcete otvoriť nastavenia a vybrať jedno?
 No favorite channels to export.: Žiadne obľúbené kanály na export.
 No playlist found: Nenašli sa žiadne zoznamy skladieb
-No stream: Žiadny stream
 No updates available.: Nie sú k dispozícii žiadne aktualizácie.
 Normal speed (1x): Normálna rýchlosť (1x)
 Now: Teraz
@@ -195,9 +208,10 @@ Ready.: Pripravený.
 Recent: Nedávne
 Recent files – quick access to last 5 opened playlists.: Nedávne súbory – rýchly prístup k posledným 5 otvoreným zoznamom skladieb.
 Recent playlists: Nedávne zoznamy skladieb
-Refresh: Obnoviť
+Refresh EPG: Obnoviť EPG
 Refresh EPG List: Obnoviť zoznam EPG
 Refresh from GitHub: Obnoviť z GitHub
+Refresh List: Obnoviť zoznam
 Rename Group: Premenovať skupinu
 Repository: Úložisko
 Reset Order: Obnoviť objednávku
@@ -210,6 +224,7 @@ Save Mapping: Uložiť mapovanie
 Save Playlist: Uložiť zoznam skladieb
 Save Status: Uložiť stav
 Saved: Uložené
+Search channel: : Hľadať kanál:
 Search channels by name: Vyhľadajte kanály podľa názvu
 Search channels...: Hľadať kanály...
 Select a playlist first.: Najprv vyberte zoznam skladieb.
@@ -220,7 +235,7 @@ Show List: Zobraziť zoznam
 Show only channels marked as favorites: Zobraziť iba kanály označené ako obľúbené
 Show or hide the channel list: Zobrazenie alebo skrytie zoznamu kanálov
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Špeciálne poďakovanie patrí komunitám CORVOBOYS & LinuxSat-Support za testovanie a podporu.
-Start (local): Štart (miestne)
+Start: Štart
 Status: Stav
 Stream URL: Webová adresa streamu
 Stream URLs: Streamovať adresy URL
@@ -239,6 +254,7 @@ Total: Celkom
 Total channels in loaded playlist: Celkový počet kanálov v načítanom zozname skladieb
 TV Guide (EPG): TV sprievodca (EPG)
 TvgId: TvgId
+Type channel name to filter: Zadajte názov kanála, ktorý chcete filtrovať
 UI: MaterialDesignThemes.Wpf: Používateľské rozhranie: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Nie je možné nájsť verziu vo vzdialenom súbore projektu.
 Update: Aktualizovať

@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (სრულიად ნებაყოფლობითი - არცერთი ფუნქცია არ არის დაბლოკილი)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (ქეშის საქაღალდე: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (სრულიად ნებაყოფლობითი - არცერთი ფუნქცია არ არის დაბლოკილი)
 (No description): (აღწერის გარეშე)
 • Add / rename / delete groups.: • ჯგუფების დამატება / გადარქმევა / წაშლა.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • ბუფერული სლაიდერი: HLS ბუფერის კორექტირება (1-10 წამი).
@@ -32,21 +33,24 @@ Auto-detect: ავტომატური ამოცნობა
 Automatic check on startup – or click 'Check for updates' in Tools menu.: ავტომატური შემოწმება გაშვებისას – ან დააწკაპუნეთ „განახლებების შემოწმება“ Tools მენიუში.
 Buffer (seconds): ბუფერი (წამი)
 Buffer size – adjust HLS buffer seconds.: ბუფერის ზომა – HLS ბუფერული წამების კორექტირება.
+Cache: ქეში
 Cancel: გაუქმება
 CANCEL: გაუქმება
 Category: კატეგორია
 Changelog: ცვლილებების ჟურნალი
 Channel Details: არხის დეტალები
 Channel Info: არხის ინფორმაცია
-Channel:: არხი:
 channels from: არხებიდან
 channels from JSON URL: არხები JSON URL-დან
 channels from URL: არხები URL-დან
 Check Duplicates: შეამოწმეთ დუბლიკატები
 Check for updates: შეამოწმეთ განახლებები
 Check URLs: შეამოწმეთ URL-ები
+Clear EPG Cache: EPG ქეშის გასუფთავება
 Clear Filters: ფილტრების გასუფთავება
 Clear search: ძიების გასუფთავება
+Click for details: დააწკაპუნეთ დეტალებისთვის
+Close: დახურვა
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: საზოგადოება და ტესტირება: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: ქვეყანა
@@ -65,7 +69,7 @@ Drag to seek back in buffer: გადაიტანეთ ბუფერშ�
 Duplicate URLs found:\n\n: ნაპოვნია დუბლიკატი URL:\n\n
 Edit Playlist: დასაკრავი სიის რედაქტირება
 Edit URLs: URL-ების რედაქტირება
-End (local): დასასრული (ადგილობრივი)
+End: დასასრული
 Enrich with EPG: გამდიდრდით EPG-ით
 Enter JSON URL:: შეიყვანეთ JSON URL:
 Enter playlist URL (M3U or JSON):: შეიყვანეთ დასაკრავი სიის URL (M3U ან JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Favorites
 Epg & Logos: EPG & ლოგოები
 EPG & Logos: EPG და ლოგოები
+EPG cache cleared successfully.: EPG ქეში წარმატებით გაიწმინდა.
+EPG Details: EPG დეტალები
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG გზამკვლევი – მთავარ ინსტრუმენტთა პანელზე ღილაკი აჩვენებს სრულ ბადეს პროგრამის დეტალებით (დააწკაპუნეთ ორჯერ ინფორმაციისთვის).
 EPG Matching Threshold: EPG შესატყვისი ბარიერი
-EPG Source: EPG წყარო
+EPG Source: : EPG წყარო:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG წყარო – შეიძლება დაყენდეს პარამეტრებში (epgshare01 ან მორგებული URL).
 EPG source – choose XMLTV file or enter custom URL.: EPG წყარო – აირჩიეთ XMLTV ფაილი ან შეიყვანეთ მორგებული URL.
+EPG Source Missing: EPG წყარო დაკარგულია
 Error: შეცდომა
+Error clearing cache: ქეშის გასუფთავების შეცდომა
 Error loading: შეცდომა ჩატვირთვისას
 Error loading file: {0}: შეცდომა ფაილის ჩატვირთვისას: {0}
 Error loading playlists: {0}: შეცდომა დასაკრავი სიების ჩატვირთვისას: {0}
@@ -160,14 +168,19 @@ Name: სახელი
 Nanoid: ნანოიდი
 Network error: ქსელის შეცდომა
 New Playlist: ახალი დასაკრავი სია
+Next: შემდეგი
 Next ▶: შემდეგი ▶
 No .m3u files found on GitHub repository.: GitHub საცავში .m3u ფაილები არ მოიძებნა.
+No cache folder found.: ქეშის საქაღალდე ვერ მოიძებნა.
 No channels could be mapped. Check your mapping rules.: ვერცერთი არხი ვერ მოხერხდა. შეამოწმეთ თქვენი რუკების წესები.
 No channels mapped: არხები არ არის მითითებული
 No duplicate URLs found.: დუბლიკატი URL ვერ მოიძებნა.
+No EPG data: EPG მონაცემები არ არის
+No EPG information available for this channel.: ამ არხისთვის EPG ინფორმაცია არ არის ხელმისაწვდომი.
+No EPG source configured. Please select one from the combo or go to Settings.: EPG წყარო არ არის კონფიგურირებული. გთხოვთ, აირჩიოთ ერთი კომბინაციიდან ან გადადით პარამეტრებში.
+No EPG source configured. Would you like to open settings to select one?: EPG წყარო არ არის კონფიგურირებული. გსურთ გახსნათ პარამეტრები ერთის ასარჩევად?
 No favorite channels to export.: არ არის საყვარელი არხები ექსპორტისთვის.
 No playlist found: დასაკრავი სია ვერ მოიძებნა
-No stream: ნაკადი არ არის
 No updates available.: განახლებები არ არის ხელმისაწვდომი.
 Normal speed (1x): ნორმალური სიჩქარე (1x)
 Now: ახლა
@@ -195,9 +208,10 @@ Ready.: მზადაა.
 Recent: ბოლო
 Recent files – quick access to last 5 opened playlists.: ბოლო ფაილები – სწრაფი წვდომა ბოლო 5 გახსნილ დასაკრავ სიაზე.
 Recent playlists: ბოლო დასაკრავი სიები
-Refresh: განაახლეთ
+Refresh EPG: განაახლეთ EPG
 Refresh EPG List: განაახლეთ EPG სია
 Refresh from GitHub: განახლება GitHub-დან
+Refresh List: სიის განახლება
 Rename Group: ჯგუფის გადარქმევა
 Repository: საცავი
 Reset Order: შეკვეთის გადატვირთვა
@@ -210,6 +224,7 @@ Save Mapping: რუკების შენახვა
 Save Playlist: დასაკრავი სიის შენახვა
 Save Status: სტატუსის შენახვა
 Saved: შენახულია
+Search channel: : არხის ძიება:
 Search channels by name: მოძებნეთ არხები სახელით
 Search channels...: არხების ძიება...
 Select a playlist first.: ჯერ აირჩიეთ დასაკრავი სია.
@@ -220,7 +235,7 @@ Show List: სიის ჩვენება
 Show only channels marked as favorites: აჩვენეთ მხოლოდ ფავორიტად მონიშნული არხები
 Show or hide the channel list: არხების სიის ჩვენება ან დამალვა
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: განსაკუთრებული მადლობა CORVOBOYS & LinuxSat-Support საზოგადოებებს ტესტირებისა და მხარდაჭერისთვის.
-Start (local): დაწყება (ადგილობრივი)
+Start: დაწყება
 Status: სტატუსი
 Stream URL: ნაკადის URL
 Stream URLs: სტრიმინგის URL-ები
@@ -239,6 +254,7 @@ Total: სულ
 Total channels in loaded playlist: სულ არხები ჩატვირთულ დასაკრავ სიაში
 TV Guide (EPG): სატელევიზიო გზამკვლევი (EPG)
 TvgId: TvgId
+Type channel name to filter: ჩაწერეთ არხის სახელი გასაფილტრად
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: დისტანციური პროექტის ფაილში ვერსიის პოვნა შეუძლებელია.
 Update: განახლება

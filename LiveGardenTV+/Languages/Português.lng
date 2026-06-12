@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Totalmente voluntário – nenhum recurso é bloqueado)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Pasta de cache: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Totalmente voluntário – nenhum recurso é bloqueado)
 (No description): (Sem descrição)
 • Add / rename / delete groups.: • Adicionar/renomear/excluir grupos.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Controle deslizante Buffer: ajuste o buffer HLS (1‑10 segundos).
@@ -32,21 +33,24 @@ Auto-detect: Detecção automática
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Verificação automática na inicialização – ou clique em 'Verificar atualizações' no menu Ferramentas.
 Buffer (seconds): Buffer (segundos)
 Buffer size – adjust HLS buffer seconds.: Tamanho do buffer – ajuste os segundos do buffer HLS.
+Cache: Cache
 Cancel: Cancelar
 CANCEL: CANCELAR
 Category: Categoria
 Changelog: Registro de alterações
 Channel Details: Detalhes do canal
 Channel Info: Informações do canal
-Channel:: Canal:
 channels from: canais de
 channels from JSON URL: canais do URL JSON
 channels from URL: canais do URL
 Check Duplicates: Verifique duplicatas
 Check for updates: Verifique se há atualizações
 Check URLs: Verifique URLs
+Clear EPG Cache: Limpar cache EPG
 Clear Filters: Limpar filtros
 Clear search: Limpar pesquisa
+Click for details: Clique para detalhes
+Close: Fechar
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Comunidade e testes: CorvoBoys (corvoboys.org) e LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: País
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Arraste para buscar de volta no buffer
 Duplicate URLs found:\n\n: URLs duplicados encontrados:\n\n
 Edit Playlist: Editar lista de reprodução
 Edit URLs: Editar URLs
-End (local): Fim (local)
+End: Fim
 Enrich with EPG: Enriqueça com EPG
 Enter JSON URL:: Insira o URL JSON:
 Enter playlist URL (M3U or JSON):: Insira o URL da lista de reprodução (M3U ou JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg e Favoritos
 Epg & Logos: Epg e logotipos
 EPG & Logos: EPG e logotipos
+EPG cache cleared successfully.: Cache EPG limpo com sucesso.
+EPG Details: Detalhes do EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Guia EPG – botão na barra de ferramentas principal mostra a grade completa com detalhes do programa (clique duas vezes para obter informações).
 EPG Matching Threshold: Limite de correspondência EPG
-EPG Source: Fonte EPG
+EPG Source: : Fonte EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Fonte EPG – pode ser definida em Configurações (epgshare01 ou URL personalizado).
 EPG source – choose XMLTV file or enter custom URL.: Fonte EPG – escolha o arquivo XMLTV ou insira o URL personalizado.
+EPG Source Missing: Fonte EPG ausente
 Error: Erro
+Error clearing cache: Erro ao limpar o cache
 Error loading: Erro ao carregar
 Error loading file: {0}: Erro ao carregar arquivo: {0}
 Error loading playlists: {0}: Erro ao carregar playlists: {0}
@@ -160,14 +168,19 @@ Name: Nome
 Nanoid: Nanóide
 Network error: Erro de rede
 New Playlist: Nova lista de reprodução
+Next: Próximo
 Next ▶: Próximo ▶
 No .m3u files found on GitHub repository.: Nenhum arquivo .m3u encontrado no repositório GitHub.
+No cache folder found.: Nenhuma pasta de cache encontrada.
 No channels could be mapped. Check your mapping rules.: Nenhum canal pôde ser mapeado. Verifique suas regras de mapeamento.
 No channels mapped: Nenhum canal mapeado
 No duplicate URLs found.: Nenhum URL duplicado encontrado.
+No EPG data: Sem dados EPG
+No EPG information available for this channel.: Nenhuma informação EPG disponível para este canal.
+No EPG source configured. Please select one from the combo or go to Settings.: Nenhuma fonte EPG configurada. Selecione um do combo ou vá para Configurações.
+No EPG source configured. Would you like to open settings to select one?: Nenhuma fonte EPG configurada. Gostaria de abrir as configurações para selecionar uma?
 No favorite channels to export.: Nenhum canal favorito para exportar.
 No playlist found: Nenhuma lista de reprodução encontrada
-No stream: Sem transmissão
 No updates available.: Nenhuma atualização disponível.
 Normal speed (1x): Velocidade normal (1x)
 Now: Agora
@@ -195,9 +208,10 @@ Ready.: Preparar.
 Recent: Recente
 Recent files – quick access to last 5 opened playlists.: Arquivos recentes – acesso rápido às últimas 5 playlists abertas.
 Recent playlists: Playlists recentes
-Refresh: Atualizar
+Refresh EPG: Atualizar EPG
 Refresh EPG List: Atualizar lista EPG
 Refresh from GitHub: Atualizar do GitHub
+Refresh List: Atualizar lista
 Rename Group: Renomear grupo
 Repository: Repositório
 Reset Order: Redefinir pedido
@@ -210,6 +224,7 @@ Save Mapping: Salvar mapeamento
 Save Playlist: Salvar lista de reprodução
 Save Status: Salvar status
 Saved: Salvo
+Search channel: : Canal de pesquisa:
 Search channels by name: Pesquise canais por nome
 Search channels...: Pesquisar canais...
 Select a playlist first.: Selecione uma lista de reprodução primeiro.
@@ -220,7 +235,7 @@ Show List: Mostrar lista
 Show only channels marked as favorites: Mostrar apenas canais marcados como favoritos
 Show or hide the channel list: Mostrar ou ocultar a lista de canais
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Agradecimentos especiais às comunidades CORVOBOYS e LinuxSat-Support pelos testes e suporte.
-Start (local): Iniciar (local)
+Start: Começar
 Status: Status
 Stream URL: URL de transmissão
 Stream URLs: URLs de transmissão
@@ -239,6 +254,7 @@ Total: Total
 Total channels in loaded playlist: Total de canais na playlist carregada
 TV Guide (EPG): Guia de TV (EPG)
 TvgId: TvgID
+Type channel name to filter: Digite o nome do canal para filtrar
 UI: MaterialDesignThemes.Wpf: IU: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Não foi possível encontrar a versão no arquivo do projeto remoto.
 Update: Atualizar

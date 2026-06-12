@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Լիովին կամավոր. ոչ մի գործառույթ արգելափակված չէ)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Քեշի թղթապանակ՝ %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Լիովին կամավոր. ոչ մի գործառույթ արգելափակված չէ)
 (No description): (առանց նկարագրության)
 • Add / rename / delete groups.: • Ավելացնել / վերանվանել / ջնջել խմբեր:
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Բուֆերային սահիչ. կարգավորել HLS բուֆերը (1-10 վայրկյան):
@@ -32,21 +33,24 @@ Auto-detect: Ավտոմատ հայտնաբերում
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Գործարկման ժամանակ ավտոմատ ստուգում կամ կտտացրեք «Ստուգեք թարմացումների համար» Գործիքների ցանկում:
 Buffer (seconds): Բուֆեր (վայրկյան)
 Buffer size – adjust HLS buffer seconds.: Բուֆերի չափը – կարգավորեք HLS բուֆերային վայրկյանները:
+Cache: Քեշ
 Cancel: Չեղարկել
 CANCEL: ՉԵՂԱՐԿԵԼ
 Category: Կարգավիճակ
 Changelog: Փոփոխություններ
 Channel Details: Ալիքի մանրամասները
 Channel Info: Channel Info
-Channel:: Ալիք՝
 channels from: ալիքներից
 channels from JSON URL: ալիքներ JSON URL-ից
 channels from URL: ալիքներ URL-ից
 Check Duplicates: Ստուգեք կրկնօրինակները
 Check for updates: Ստուգեք թարմացումների համար
 Check URLs: Ստուգեք URL-ները
+Clear EPG Cache: Մաքրել EPG քեշը
 Clear Filters: Մաքրել զտիչները
 Clear search: Մաքրել որոնումը
+Click for details: Սեղմեք մանրամասների համար
+Close: Փակել
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Համայնք և փորձարկում՝ CorvoBoys (corvoboys.org) և LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Երկիր
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Քաշեք՝ բուֆերում հետ որոնել
 Duplicate URLs found:\n\n: Գտնվել են կրկնօրինակ URL-ներ.\n\n
 Edit Playlist: Խմբագրել երգացանկը
 Edit URLs: Խմբագրել URL-ները
-End (local): Ավարտ (տեղական)
+End: Վերջ
 Enrich with EPG: Հարստացրեք EPG-ով
 Enter JSON URL:: Մուտքագրեք JSON URL:
 Enter playlist URL (M3U or JSON):: Մուտքագրեք երգացանկի URL (M3U կամ JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Favorites
 Epg & Logos: EPG & Logos
 EPG & Logos: EPG և լոգոներ
+EPG cache cleared successfully.: EPG քեշը հաջողությամբ մաքրվեց:
+EPG Details: EPG Մանրամասներ
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG ուղեցույց – հիմնական գործիքագոտու կոճակը ցույց է տալիս ամբողջական ցանցը՝ ծրագրի մանրամասներով (կրկնակի սեղմեք տեղեկատվության համար):
 EPG Matching Threshold: EPG-ի համապատասխանության շեմը
-EPG Source: EPG Աղբյուր
+EPG Source: : EPG Աղբյուր.
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG աղբյուր – կարող է սահմանվել Կարգավորումներում (epgshare01 կամ հատուկ URL):
 EPG source – choose XMLTV file or enter custom URL.: EPG աղբյուր – ընտրեք XMLTV ֆայլ կամ մուտքագրեք հատուկ URL:
+EPG Source Missing: EPG աղբյուրը բացակայում է
 Error: Սխալ
+Error clearing cache: Սխալ՝ քեշը մաքրելիս
 Error loading: Սխալ բեռնելիս
 Error loading file: {0}: Սխալ՝ ֆայլը բեռնելիս՝ {0}
 Error loading playlists: {0}: Չհաջողվեց բեռնել երգացանկերը՝ {0}
@@ -160,14 +168,19 @@ Name: Անուն
 Nanoid: Նանոիդ
 Network error: Ցանցի սխալ
 New Playlist: Նոր երգացանկ
+Next: Հաջորդը
 Next ▶: Հաջորդը ▶
 No .m3u files found on GitHub repository.: GitHub պահոցում .m3u ֆայլեր չեն գտնվել:
+No cache folder found.: Քեշի թղթապանակ չի գտնվել:
 No channels could be mapped. Check your mapping rules.: Ոչ մի ալիք հնարավոր չէ քարտեզագրել: Ստուգեք ձեր քարտեզագրման կանոնները:
 No channels mapped: Չկան քարտեզագրված ալիքներ
 No duplicate URLs found.: Կրկնվող URL-ներ չեն գտնվել:
+No EPG data: EPG տվյալներ չկան
+No EPG information available for this channel.: Այս ալիքի համար EPG տեղեկություններ չկան:
+No EPG source configured. Please select one from the combo or go to Settings.: EPG աղբյուր չկա կազմաձևված: Խնդրում ենք ընտրել մեկը կոմբից կամ գնացեք Կարգավորումներ:
+No EPG source configured. Would you like to open settings to select one?: EPG աղբյուր չկա կազմաձևված: Ցանկանու՞մ եք բացել կարգավորումները՝ մեկն ընտրելու համար:
 No favorite channels to export.: Արտահանման սիրված ալիքներ չկան:
 No playlist found: Երգացանկ չի գտնվել
-No stream: Ոչ մի հոսք
 No updates available.: Թարմացումներ չկան:
 Normal speed (1x): Նորմալ արագություն (1x)
 Now: Հիմա
@@ -195,9 +208,10 @@ Ready.: Պատրաստ.
 Recent: Վերջերս
 Recent files – quick access to last 5 opened playlists.: Վերջին ֆայլեր – արագ մուտք դեպի վերջին 5 բացված երգացանկ:
 Recent playlists: Վերջին երգացանկերը
-Refresh: Թարմացնել
+Refresh EPG: Թարմացրեք EPG-ն
 Refresh EPG List: Թարմացրեք EPG ցուցակը
 Refresh from GitHub: Թարմացրեք GitHub-ից
+Refresh List: Թարմացնել ցանկը
 Rename Group: Վերանվանել խումբը
 Repository: Պահեստարան
 Reset Order: Վերականգնել Պատվերը
@@ -210,6 +224,7 @@ Save Mapping: Պահպանել քարտեզագրումը
 Save Playlist: Պահպանել երգացանկը
 Save Status: Պահպանել կարգավիճակը
 Saved: Պահպանված է
+Search channel: : Որոնել ալիք.
 Search channels by name: Որոնեք ալիքները անունով
 Search channels...: Որոնել ալիքներ...
 Select a playlist first.: Նախ ընտրեք երգացանկ:
@@ -220,7 +235,7 @@ Show List: Ցուցադրել ցուցակը
 Show only channels marked as favorites: Ցուցադրել միայն նախընտրած ալիքները
 Show or hide the channel list: Ցույց տալ կամ թաքցնել ալիքների ցանկը
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Հատուկ շնորհակալություն CORVOBOYS և LinuxSat-Support համայնքներին թեստավորման և աջակցության համար:
-Start (local): Սկիզբ (տեղական)
+Start: Սկսել
 Status: Կարգավիճակ
 Stream URL: Հոսքի URL
 Stream URLs: Հոսքի URL-ներ
@@ -239,6 +254,7 @@ Total: Ընդամենը
 Total channels in loaded playlist: Ընդհանուր ալիքները բեռնված երգացանկում
 TV Guide (EPG): Հեռուստատեսային ուղեցույց (EPG)
 TvgId: TvgId
+Type channel name to filter: Մուտքագրեք ալիքի անունը զտելու համար
 UI: MaterialDesignThemes.Wpf: UI՝ MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Հնարավոր չէ գտնել տարբերակը հեռավոր նախագծի ֆայլում:
 Update: Թարմացնել

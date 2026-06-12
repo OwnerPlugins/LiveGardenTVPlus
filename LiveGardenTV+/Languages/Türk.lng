@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Tamamen isteğe bağlıdır – hiçbir özellik engellenmez)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Önbellek klasörü: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Tamamen isteğe bağlıdır – hiçbir özellik engellenmez)
 (No description): (Açıklama yok)
 • Add / rename / delete groups.: • Grupları ekleyin / yeniden adlandırın / silin.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Tampon kaydırıcısı: HLS arabelleğini ayarlayın (1‑10 saniye).
@@ -32,21 +33,24 @@ Auto-detect: Otomatik algılama
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Başlangıçta otomatik kontrol – veya Araçlar menüsünde 'Güncellemeleri kontrol et' seçeneğini tıklayın.
 Buffer (seconds): Tampon (saniye)
 Buffer size – adjust HLS buffer seconds.: Arabellek boyutu – HLS arabellek saniyelerini ayarlayın.
+Cache: Önbellek
 Cancel: İptal etmek
 CANCEL: İPTAL ETMEK
 Category: Kategori
 Changelog: Değişiklik günlüğü
 Channel Details: Kanal Detayları
 Channel Info: Kanal Bilgisi
-Channel:: Kanal:
 channels from: gelen kanallar
 channels from JSON URL: JSON URL'sinden kanallar
 channels from URL: URL'den kanallar
 Check Duplicates: Kopyaları Kontrol Et
 Check for updates: Güncellemeleri kontrol edin
 Check URLs: URL'leri kontrol edin
+Clear EPG Cache: EPG Önbelleğini Temizle
 Clear Filters: Filtreleri Temizle
 Clear search: Aramayı temizle
+Click for details: Ayrıntılar için tıklayın
+Close: Kapalı
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Topluluk ve test: CorvoBoys (corvoboys.org) ve LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Ülke
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Ara bellekte geri aramak için sürükleyin
 Duplicate URLs found:\n\n: Yinelenen URL'ler bulundu:\n\n
 Edit Playlist: Oynatma Listesini Düzenle
 Edit URLs: URL'leri düzenleyin
-End (local): Bitiş (yerel)
+End: Son
 Enrich with EPG: EPG ile zenginleştirin
 Enter JSON URL:: JSON URL'sini girin:
 Enter playlist URL (M3U or JSON):: Çalma listesi URL'sini girin (M3U veya JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg ve Favoriler
 Epg & Logos: Epg ve Logolar
 EPG & Logos: EPG ve Logolar
+EPG cache cleared successfully.: EPG önbelleği başarıyla temizlendi.
+EPG Details: EPG Ayrıntıları
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Kılavuzu – ana araç çubuğundaki düğme, program ayrıntılarını içeren tam tabloyu gösterir (bilgi için çift tıklayın).
 EPG Matching Threshold: EPG Eşleştirme Eşiği
-EPG Source: EPG Kaynağı
+EPG Source: : EPG Kaynağı:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG kaynağı – Ayarlar'da ayarlanabilir (epgshare01 veya özel URL).
 EPG source – choose XMLTV file or enter custom URL.: EPG kaynağı – XMLTV dosyasını seçin veya özel URL girin.
+EPG Source Missing: EPG Kaynağı Eksik
 Error: Hata
+Error clearing cache: Önbellek temizlenirken hata oluştu
 Error loading: Yükleme hatası
 Error loading file: {0}: Dosya yüklenirken hata oluştu: {0}
 Error loading playlists: {0}: Oynatma listeleri yüklenirken hata oluştu: {0}
@@ -160,14 +168,19 @@ Name: İsim
 Nanoid: Nanoid
 Network error: Ağ hatası
 New Playlist: Yeni Oynatma Listesi
+Next: Sonraki
 Next ▶: Sonraki ▶
 No .m3u files found on GitHub repository.: GitHub deposunda .m3u dosyası bulunamadı.
+No cache folder found.: Önbellek klasörü bulunamadı.
 No channels could be mapped. Check your mapping rules.: Hiçbir kanal eşleştirilemedi. Eşleme kurallarınızı kontrol edin.
 No channels mapped: Eşlenen kanal yok
 No duplicate URLs found.: Yinelenen URL bulunamadı.
+No EPG data: EPG verisi yok
+No EPG information available for this channel.: Bu kanal için EPG bilgisi mevcut değil.
+No EPG source configured. Please select one from the combo or go to Settings.: Yapılandırılmış EPG kaynağı yok. Lütfen kombinasyondan birini seçin veya Ayarlar'a gidin.
+No EPG source configured. Would you like to open settings to select one?: Yapılandırılmış EPG kaynağı yok. Birini seçmek için ayarları açmak ister misiniz?
 No favorite channels to export.: Dışa aktarılacak favori kanal yok.
 No playlist found: Oynatma listesi bulunamadı
-No stream: Akış yok
 No updates available.: Güncelleme mevcut değil.
 Normal speed (1x): Normal hız (1x)
 Now: Şimdi
@@ -195,9 +208,10 @@ Ready.: Hazır.
 Recent: Son
 Recent files – quick access to last 5 opened playlists.: Son dosyalar – açılan son 5 çalma listesine hızlı erişim.
 Recent playlists: Son oynatma listeleri
-Refresh: Yenile
+Refresh EPG: EPG'yi yenile
 Refresh EPG List: EPG Listesini Yenile
 Refresh from GitHub: GitHub'dan yenile
+Refresh List: Listeyi Yenile
 Rename Group: Grubu Yeniden Adlandır
 Repository: Depo
 Reset Order: Siparişi Sıfırla
@@ -210,6 +224,7 @@ Save Mapping: Eşlemeyi Kaydet
 Save Playlist: Oynatma Listesini Kaydet
 Save Status: Durumu Kaydet
 Saved: Kaydedildi
+Search channel: : Arama kanalı:
 Search channels by name: Kanalları ada göre arayın
 Search channels...: Kanal ara...
 Select a playlist first.: Önce bir çalma listesi seçin.
@@ -220,7 +235,7 @@ Show List: Listeyi Göster
 Show only channels marked as favorites: Yalnızca favori olarak işaretlenen kanalları göster
 Show or hide the channel list: Kanal listesini göster veya gizle
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Test ve destek için CORVOBOYS ve LinuxSat-Destek topluluklarına özellikle teşekkür ederiz.
-Start (local): Başlat (yerel)
+Start: Başlangıç
 Status: Durum
 Stream URL: Akış URL'si
 Stream URLs: Akış URL'leri
@@ -239,6 +254,7 @@ Total: Toplam
 Total channels in loaded playlist: Yüklenen oynatma listesindeki toplam kanallar
 TV Guide (EPG): TV Rehberi (EPG)
 TvgId: TvgID
+Type channel name to filter: Filtrelenecek kanal adını yazın
 UI: MaterialDesignThemes.Wpf: Kullanıcı Arayüzü: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Uzak proje dosyasında sürüm bulunamıyor.
 Update: Güncelleme

@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Plotësisht vullnetare - asnjë veçori nuk është e bllokuar)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Dosja e memories: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Plotësisht vullnetare - asnjë veçori nuk është e bllokuar)
 (No description): (Pa përshkrim)
 • Add / rename / delete groups.: • Shtoni / riemërtoni / fshini grupet.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Rrëshqitësi i tamponit: rregulloni buferin HLS (1-10 sekonda).
@@ -32,21 +33,24 @@ Auto-detect: Zbulimi automatik
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Kontroll automatik gjatë nisjes – ose kliko 'Kontrollo për përditësime' në menynë e Veglave.
 Buffer (seconds): Buffer (sekonda)
 Buffer size – adjust HLS buffer seconds.: Madhësia e tamponit – rregulloni sekondat e tamponit HLS.
+Cache: Cache
 Cancel: Anulo
 CANCEL: ANULON
 Category: Kategoria
 Changelog: Ndryshim
 Channel Details: Detajet e kanalit
 Channel Info: Informacioni i kanalit
-Channel:: Kanali:
 channels from: kanale nga
 channels from JSON URL: kanale nga JSON URL
 channels from URL: kanale nga URL
 Check Duplicates: Kontrolloni Dublikatat
 Check for updates: Kontrolloni për përditësime
 Check URLs: Kontrolloni URL-të
+Clear EPG Cache: Pastro cache EPG
 Clear Filters: Pastro filtrat
 Clear search: Pastro kërkimin
+Click for details: Klikoni për detaje
+Close: Mbylle
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komuniteti dhe testimi: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Vendi
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Zvarriteni për të kërkuar përsëri në tampon
 Duplicate URLs found:\n\n: U gjetën URL dublikate:\n\n
 Edit Playlist: Redakto listën e luajtjes
 Edit URLs: Redakto URL-të
-End (local): Fundi (lokal)
+End: fund
 Enrich with EPG: Pasurohuni me EPG
 Enter JSON URL:: Fut URL-në JSON:
 Enter playlist URL (M3U or JSON):: Fut URL-në e listës së luajtjes (M3U ose JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Favoritet
 Epg & Logos: EPG & logot
 EPG & Logos: EPG & logot
+EPG cache cleared successfully.: Cache EPG u pastrua me sukses.
+EPG Details: Detajet EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Udhëzuesi EPG – butoni në shiritin kryesor të veglave tregon rrjetin e plotë me detajet e programit (kliko dy herë për informacion).
 EPG Matching Threshold: Pragu i përputhjes së EPG
-EPG Source: Burimi EPG
+EPG Source: : Burimi EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Burimi EPG – mund të vendoset te Cilësimet (epgshare01 ose URL e personalizuar).
 EPG source – choose XMLTV file or enter custom URL.: Burimi EPG – zgjidhni skedarin XMLTV ose futni URL-në e personalizuar.
+EPG Source Missing: Mungon burimi EPG
 Error: Gabim
+Error clearing cache: Gabim gjatë pastrimit të memories së memories
 Error loading: Gabim në ngarkim
 Error loading file: {0}: Gabim gjatë ngarkimit të skedarit: {0}
 Error loading playlists: {0}: Gabim gjatë ngarkimit të listave për luajtje: {0}
@@ -160,14 +168,19 @@ Name: Emri
 Nanoid: Nanoide
 Network error: Gabim rrjeti
 New Playlist: Lista e re e luajtjes
+Next: Tjetra
 Next ▶: Tjetra ▶
 No .m3u files found on GitHub repository.: Nuk u gjet asnjë skedar .m3u në depon e GitHub.
+No cache folder found.: Nuk u gjet asnjë dosje memorie.
 No channels could be mapped. Check your mapping rules.: Asnjë kanal nuk mund të hartohej. Kontrolloni rregullat tuaja të hartës.
 No channels mapped: Nuk ka kanale të hartuara
 No duplicate URLs found.: Nuk u gjetën URL dublikate.
+No EPG data: Nuk ka të dhëna EPG
+No EPG information available for this channel.: Nuk disponohet asnjë informacion EPG për këtë kanal.
+No EPG source configured. Please select one from the combo or go to Settings.: Nuk është konfiguruar asnjë burim EPG. Ju lutemi zgjidhni një nga kombinimi ose shkoni te "Cilësimet".
+No EPG source configured. Would you like to open settings to select one?: Nuk është konfiguruar asnjë burim EPG. Dëshironi të hapni cilësimet për të zgjedhur një?
 No favorite channels to export.: Nuk ka kanale të preferuara për eksport.
 No playlist found: Nuk u gjet asnjë listë për luajtje
-No stream: Asnjë rrymë
 No updates available.: Nuk ka përditësime të disponueshme.
 Normal speed (1x): Shpejtësia normale (1x)
 Now: Tani
@@ -195,9 +208,10 @@ Ready.: Gati.
 Recent: E fundit
 Recent files – quick access to last 5 opened playlists.: Skedarët e fundit – qasje e shpejtë në 5 listat e fundit të dëgjimit të hapura.
 Recent playlists: Listat e fundit të luajtjes
-Refresh: Rifresko
+Refresh EPG: Rifresko EPG
 Refresh EPG List: Rifresko listën EPG
 Refresh from GitHub: Rifresko nga GitHub
+Refresh List: Rifresko listën
 Rename Group: Riemërto grupin
 Repository: Depoja
 Reset Order: Rivendos porosinë
@@ -210,6 +224,7 @@ Save Mapping: Ruaj hartën
 Save Playlist: Ruaj listën e luajtjes
 Save Status: Ruaj statusin
 Saved: U ruajt
+Search channel: : Kërko kanal:
 Search channels by name: Kërkoni kanale sipas emrit
 Search channels...: Kërko kanale...
 Select a playlist first.: Së pari zgjidhni një listë dëgjimi.
@@ -220,7 +235,7 @@ Show List: Shfaq listën
 Show only channels marked as favorites: Shfaq vetëm kanalet e shënuara si të preferuara
 Show or hide the channel list: Shfaq ose fshih listën e kanaleve
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Falënderime të veçanta për komunitetet CORVOBOYS & LinuxSat-Support për testimin dhe mbështetjen.
-Start (local): Fillimi (lokal)
+Start: Filloni
 Status: Statusi
 Stream URL: URL-ja e transmetimit
 Stream URLs: Transmetoni URL-të
@@ -239,6 +254,7 @@ Total: Gjithsej
 Total channels in loaded playlist: Totali i kanaleve në listën e ngarkuar të luajtjes
 TV Guide (EPG): Udhëzues TV (EPG)
 TvgId: TvgId
+Type channel name to filter: Shkruani emrin e kanalit për të filtruar
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Nuk mund të gjendet versioni në skedarin e projektit në distancë.
 Update: Përditëso

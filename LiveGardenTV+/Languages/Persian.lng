@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (کاملاً داوطلبانه - هیچ ویژگی مسدود نیست)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (پوشه کش: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (کاملاً داوطلبانه - هیچ ویژگی مسدود نیست)
 (No description): (بدون شرح)
 • Add / rename / delete groups.: • افزودن / تغییر نام / حذف گروه ها.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • لغزنده بافر: بافر HLS را تنظیم کنید (1 تا 10 ثانیه).
@@ -32,21 +33,24 @@ Auto-detect: تشخیص خودکار
 Automatic check on startup – or click 'Check for updates' in Tools menu.: بررسی خودکار هنگام راه‌اندازی – یا روی «بررسی به‌روزرسانی‌ها» در منوی ابزار کلیک کنید.
 Buffer (seconds): بافر (ثانیه)
 Buffer size – adjust HLS buffer seconds.: اندازه بافر - ثانیه بافر HLS را تنظیم کنید.
+Cache: حافظه پنهان
 Cancel: لغو کنید
 CANCEL: لغو
 Category: دسته بندی
 Changelog: تغییرات
 Channel Details: جزئیات کانال
 Channel Info: اطلاعات کانال
-Channel:: کانال:
 channels from: کانال ها از
 channels from JSON URL: کانال ها از JSON URL
 channels from URL: کانال ها از URL
 Check Duplicates: موارد تکراری را بررسی کنید
 Check for updates: به روز رسانی را بررسی کنید
 Check URLs: URL ها را بررسی کنید
+Clear EPG Cache: کش EPG را پاک کنید
 Clear Filters: پاک کردن فیلترها
 Clear search: جستجو را پاک کنید
+Click for details: برای جزئیات کلیک کنید
+Close: بستن
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: انجمن و آزمایش: CorvoBoys (corvoboys.org) و LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: کشور
@@ -65,7 +69,7 @@ Drag to seek back in buffer: برای جستجوی مجدد در بافر بکش
 Duplicate URLs found:\n\n: نشانی‌های اینترنتی تکراری پیدا شد:\n\n
 Edit Playlist: ویرایش لیست پخش
 Edit URLs: ویرایش URL ها
-End (local): پایان (محلی)
+End: پایان
 Enrich with EPG: غنی سازی با EPG
 Enter JSON URL:: URL JSON را وارد کنید:
 Enter playlist URL (M3U or JSON):: URL لیست پخش (M3U یا JSON) را وارد کنید:
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: EPG و موارد دلخواه
 Epg & Logos: EPG و لوگوها
 EPG & Logos: EPG و لوگوها
+EPG cache cleared successfully.: کش EPG با موفقیت پاک شد.
+EPG Details: جزئیات EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: راهنمای EPG - دکمه روی نوار ابزار اصلی شبکه کامل را با جزئیات برنامه نشان می دهد (برای اطلاعات دوبار کلیک کنید).
 EPG Matching Threshold: آستانه تطبیق EPG
-EPG Source: منبع EPG
+EPG Source: : منبع EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: منبع EPG - را می توان در تنظیمات (epgshare01 یا URL سفارشی) تنظیم کرد.
 EPG source – choose XMLTV file or enter custom URL.: منبع EPG - فایل XMLTV را انتخاب کنید یا URL سفارشی را وارد کنید.
+EPG Source Missing: منبع EPG گم شده است
 Error: خطا
+Error clearing cache: خطا در پاک کردن حافظه پنهان
 Error loading: خطا در بارگیری
 Error loading file: {0}: خطا در بارگیری فایل: {0}
 Error loading playlists: {0}: خطا در بارگیری لیست‌های پخش: {0}
@@ -160,14 +168,19 @@ Name: نام
 Nanoid: نانویی
 Network error: خطای شبکه
 New Playlist: لیست پخش جدید
+Next: بعدی
 Next ▶: بعدی ▶
 No .m3u files found on GitHub repository.: هیچ فایل .m3u در مخزن GitHub یافت نشد.
+No cache folder found.: پوشه کش پیدا نشد.
 No channels could be mapped. Check your mapping rules.: هیچ کانالی نمی تواند نقشه برداری شود. قوانین نقشه برداری خود را بررسی کنید.
 No channels mapped: هیچ کانالی نقشه برداری نشده است
 No duplicate URLs found.: هیچ URL تکراری یافت نشد.
+No EPG data: داده های EPG وجود ندارد
+No EPG information available for this channel.: هیچ اطلاعات EPG برای این کانال موجود نیست.
+No EPG source configured. Please select one from the combo or go to Settings.: هیچ منبع EPG پیکربندی نشده است. لطفاً یکی از ترکیب را انتخاب کنید یا به تنظیمات بروید.
+No EPG source configured. Would you like to open settings to select one?: هیچ منبع EPG پیکربندی نشده است. آیا می خواهید تنظیمات را برای انتخاب یکی باز کنید؟
 No favorite channels to export.: کانال مورد علاقه برای صادرات وجود ندارد.
 No playlist found: لیست پخشی پیدا نشد
-No stream: بدون جریان
 No updates available.: به روز رسانی در دسترس نیست.
 Normal speed (1x): سرعت معمولی (1x)
 Now: در حال حاضر
@@ -195,9 +208,10 @@ Ready.: آماده است.
 Recent: اخیر
 Recent files – quick access to last 5 opened playlists.: فایل های اخیر – دسترسی سریع به آخرین 5 لیست پخش باز شده.
 Recent playlists: لیست های پخش اخیر
-Refresh: تازه کردن
+Refresh EPG: EPG را تازه کنید
 Refresh EPG List: فهرست EPG را بازخوانی کنید
 Refresh from GitHub: بازخوانی از GitHub
+Refresh List: فهرست بازخوانی کنید
 Rename Group: تغییر نام گروه
 Repository: مخزن
 Reset Order: بازنشانی سفارش
@@ -210,6 +224,7 @@ Save Mapping: ذخیره نقشه
 Save Playlist: ذخیره لیست پخش
 Save Status: ذخیره وضعیت
 Saved: ذخیره شد
+Search channel: : جستجوی کانال:
 Search channels by name: کانال ها را بر اساس نام جستجو کنید
 Search channels...: جستجو در کانال ها...
 Select a playlist first.: ابتدا یک لیست پخش انتخاب کنید.
@@ -220,7 +235,7 @@ Show List: نمایش لیست
 Show only channels marked as favorites: فقط کانال هایی را که به عنوان موارد دلخواه علامت گذاری شده اند نشان دهید
 Show or hide the channel list: نمایش یا پنهان کردن لیست کانال
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: تشکر ویژه از انجمن های CORVOBOYS و LinuxSat-Support برای آزمایش و پشتیبانی.
-Start (local): شروع (محلی)
+Start: شروع کنید
 Status: وضعیت
 Stream URL: URL جریان
 Stream URLs: URL های جریانی
@@ -239,6 +254,7 @@ Total: مجموع
 Total channels in loaded playlist: مجموع کانال ها در لیست پخش بارگذاری شده
 TV Guide (EPG): راهنمای تلویزیون (EPG)
 TvgId: TvgId
+Type channel name to filter: نام کانال را برای فیلتر تایپ کنید
 UI: MaterialDesignThemes.Wpf: رابط کاربری: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: نسخه در فایل پروژه راه دور پیدا نشد.
 Update: به روز رسانی

@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Volledig vrijwillig – er worden geen functies geblokkeerd)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Volledig vrijwillig – er worden geen functies geblokkeerd)
 (No description): (Geen beschrijving)
 • Add / rename / delete groups.: • Groepen toevoegen/hernoemen/verwijderen.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Bufferschuifregelaar: HLS-buffer aanpassen (1-10 seconden).
@@ -32,21 +33,24 @@ Auto-detect: Automatische detectie
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatische controle bij opstarten – of klik op 'Controleren op updates' in het menu Extra.
 Buffer (seconds): Buffer (seconden)
 Buffer size – adjust HLS buffer seconds.: Buffergrootte – pas HLS-bufferseconden aan.
+Cache: Cache
 Cancel: Annuleren
 CANCEL: ANNULEREN
 Category: Categorie
 Changelog: Wijzigingslog
 Channel Details: Kanaaldetails
 Channel Info: Kanaalinformatie
-Channel:: Kanaal:
 channels from: kanalen van
 channels from JSON URL: kanalen van JSON-URL
 channels from URL: kanalen van URL
 Check Duplicates: Controleer duplicaten
 Check for updates: Controleer op updates
 Check URLs: Controleer URL's
+Clear EPG Cache: EPG-cache wissen
 Clear Filters: Filters wissen
 Clear search: Duidelijke zoekopdracht
+Click for details: Klik voor details
+Close: Dichtbij
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Community en testen: CorvoBoys (corvoboys.org) en LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Land
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Sleep om terug te zoeken in de buffer
 Duplicate URLs found:\n\n: Dubbele URL's gevonden:\n\n
 Edit Playlist: Bewerk afspeellijst
 Edit URLs: URL's bewerken
-End (local): Einde (lokaal)
+End: Einde
 Enrich with EPG: Verrijk met EPG
 Enter JSON URL:: Voer JSON-URL in:
 Enter playlist URL (M3U or JSON):: Voer de URL van de afspeellijst in (M3U of JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg en favorieten
 Epg & Logos: Epg en logo's
 EPG & Logos: EPG en logo's
+EPG cache cleared successfully.: EPG-cache is succesvol gewist.
+EPG Details: EPG-details
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG-gids – knop op de hoofdwerkbalk toont een volledig raster met programmadetails (dubbelklik voor info).
 EPG Matching Threshold: EPG-overeenstemmingsdrempel
-EPG Source: EPG-bron
+EPG Source: : EPG-bron:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG-bron – kan worden ingesteld in Instellingen (epgshare01 of aangepaste URL).
 EPG source – choose XMLTV file or enter custom URL.: EPG-bron – kies een XMLTV-bestand of voer een aangepaste URL in.
+EPG Source Missing: EPG-bron ontbreekt
 Error: Fout
+Error clearing cache: Fout bij het wissen van de cache
 Error loading: Fout bij laden
 Error loading file: {0}: Fout bij laden van bestand: {0}
 Error loading playlists: {0}: Fout bij het laden van afspeellijsten: {0}
@@ -160,14 +168,19 @@ Name: Naam
 Nanoid: Nanooïde
 Network error: Netwerkfout
 New Playlist: Nieuwe afspeellijst
+Next: Volgende
 Next ▶: Volgende ▶
 No .m3u files found on GitHub repository.: Er zijn geen .m3u-bestanden gevonden in de GitHub-repository.
+No cache folder found.: Geen cachemap gevonden.
 No channels could be mapped. Check your mapping rules.: Er konden geen kanalen in kaart worden gebracht. Controleer uw mappingregels.
 No channels mapped: Geen kanalen toegewezen
 No duplicate URLs found.: Geen dubbele URL's gevonden.
+No EPG data: Geen EPG-gegevens
+No EPG information available for this channel.: Er is geen EPG-informatie beschikbaar voor deze zender.
+No EPG source configured. Please select one from the combo or go to Settings.: Geen EPG-bron geconfigureerd. Selecteer er een uit de combinatie of ga naar Instellingen.
+No EPG source configured. Would you like to open settings to select one?: Geen EPG-bron geconfigureerd. Wilt u de instellingen openen om er een te selecteren?
 No favorite channels to export.: Geen favoriete kanalen om te exporteren.
 No playlist found: Geen afspeellijst gevonden
-No stream: Geen stroom
 No updates available.: Geen updates beschikbaar.
 Normal speed (1x): Normale snelheid (1x)
 Now: Nu
@@ -195,9 +208,10 @@ Ready.: Klaar.
 Recent: Recent
 Recent files – quick access to last 5 opened playlists.: Recente bestanden – snelle toegang tot de laatste 5 geopende afspeellijsten.
 Recent playlists: Recente afspeellijsten
-Refresh: Vernieuwen
+Refresh EPG: EPG vernieuwen
 Refresh EPG List: EPG-lijst vernieuwen
 Refresh from GitHub: Vernieuwen vanuit GitHub
+Refresh List: Lijst vernieuwen
 Rename Group: Groep hernoemen
 Repository: Opslagplaats
 Reset Order: Bestelling opnieuw instellen
@@ -210,6 +224,7 @@ Save Mapping: Mapping opslaan
 Save Playlist: Afspeellijst opslaan
 Save Status: Status opslaan
 Saved: Opgeslagen
+Search channel: : Kanaal zoeken:
 Search channels by name: Zoek kanalen op naam
 Search channels...: Zenders zoeken...
 Select a playlist first.: Selecteer eerst een afspeellijst.
@@ -220,7 +235,7 @@ Show List: Toon lijst
 Show only channels marked as favorites: Toon alleen kanalen die als favoriet zijn gemarkeerd
 Show or hide the channel list: Toon of verberg de zenderlijst
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Speciale dank aan de CORVOBOYS & LinuxSat-Support-gemeenschappen voor testen en ondersteuning.
-Start (local): Begin (lokaal)
+Start: Begin
 Status: Status
 Stream URL: Stream-URL
 Stream URLs: Stream-URL's
@@ -239,6 +254,7 @@ Total: Totaal
 Total channels in loaded playlist: Totaal aantal kanalen in geladen afspeellijst
 TV Guide (EPG): TV-gids (EPG)
 TvgId: TvgId
+Type channel name to filter: Typ de kanaalnaam om te filteren
 UI: MaterialDesignThemes.Wpf: Gebruikersinterface: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Kan de versie niet vinden in het externe projectbestand.
 Update: Update

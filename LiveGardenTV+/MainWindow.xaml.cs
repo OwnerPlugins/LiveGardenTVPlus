@@ -32,6 +32,8 @@ namespace LiveGardenTVPlus
                 
         private EpgService _epgService = new EpgService();
         private bool _playerReady = false;
+        
+        private Window _currentEpgDetailsWindow = null;
 
         public ObservableCollection<ChannelGroup> ChannelGroups { get; set; } = new ObservableCollection<ChannelGroup>();
         public List<string> YoutubeUrls { get; set; } = new List<string>();
@@ -102,11 +104,6 @@ namespace LiveGardenTVPlus
             TranslationHelper.TranslateUI(this);
             
             // Status Bar
-            if (!string.IsNullOrEmpty(_currentChannelName))
-                StreamNameStatus.Text = _currentChannelName;
-            else
-                StreamNameStatus.Text = LanguageManager.GetTranslation("No stream");
-
             StatusTextBlock.Text = LanguageManager.GetTranslation("Application status");
 
             int total = _allChannelsOriginal?.Count ?? 0;
@@ -132,10 +129,10 @@ namespace LiveGardenTVPlus
             
             EpgTextBlock.Text = LanguageManager.GetTranslation("EPG");
             EpgBtn.ToolTip = LanguageManager.GetTranslation("TV Guide (EPG)");
-            
+
             ToolsBtnText.Text = LanguageManager.GetTranslation("Tools");
             ToolsBtn.ToolTip = LanguageManager.GetTranslation("Tools");
-            
+
             AboutBtnText.Text = LanguageManager.GetTranslation("Info");
             AboutBtn.ToolTip = LanguageManager.GetTranslation("Info on");
             
@@ -167,7 +164,9 @@ namespace LiveGardenTVPlus
             PauseResumeBtn.ToolTip = LanguageManager.GetTranslation("Pause/Resume live stream");
             LiveBtn.ToolTip = LanguageManager.GetTranslation("Go back to live");
             TimeshiftSlider.ToolTip = LanguageManager.GetTranslation("Drag to seek back in buffer");
-            
+
+            EpgInfoTextBlock.Text = LanguageManager.GetTranslation("Click for details");
+
             SpeedSlowerBtn.ToolTip = LanguageManager.GetTranslation("Half speed (0.5x)");
             SpeedNormalBtn.ToolTip = LanguageManager.GetTranslation("Normal speed (1x)");
             SpeedFasterBtn.ToolTip = LanguageManager.GetTranslation("Double speed (2x)");
@@ -401,7 +400,7 @@ namespace LiveGardenTVPlus
                     await WebPlayer.CoreWebView2.ExecuteScriptAsync(js);
                     Debug.WriteLine($"Playing URL: {selected.Url}");
                     StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Now")}: {selected.Name}";
-                    StreamNameStatus.Text = selected.Name;
+                    /* StreamNameStatus.Text = selected.Name; */
                     _currentChannelName = selected.Name;
                 }
             }
@@ -421,12 +420,201 @@ namespace LiveGardenTVPlus
                     var startLocal = program.Start.ToLocalTime();
                     var stopLocal = program.Stop.ToLocalTime();
                     EpgInfoTextBlock.Text = $"{program.Title} | {startLocal:HH:mm} - {stopLocal:HH:mm}";
+                    EpgInfoTextBlock.Foreground = (Brush)FindResource("ForegroundBrush");
+                    EpgIcon.Foreground = Brushes.LightGreen;
                 }
                 else
                 {
-                    EpgInfoTextBlock.Text = "No EPG data";
+                    EpgInfoTextBlock.Text = LanguageManager.GetTranslation("No EPG data");
+                    EpgInfoTextBlock.Foreground = Brushes.Gray;
+                    EpgIcon.Foreground = Brushes.Gray;
                 }
             }
+        }
+
+        private async void EpgInfoPanel_MouseLeftButtonUp(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            e.Handled = true;
+
+            var currentChannel = ChannelTreeView.SelectedItem as Channel;
+            if (currentChannel == null) return;
+
+            var now = DateTime.UtcNow;
+            var currentProgram = _epgService.GetCurrentProgram(currentChannel.Name, currentChannel.TvgId, now);
+            if (currentProgram == null)
+            {
+                MessageBox.Show(
+                    LanguageManager.GetTranslation("No EPG information available for this channel."),
+                    LanguageManager.GetTranslation("Info"),
+                    MessageBoxButton.OK,
+                    MessageBoxImage.Information);
+                return;
+            }
+
+            // Trova il programma successivo
+            string epgChannelId = currentChannel.TvgId ?? _epgService.GetMappedEpgId(currentChannel.Name);
+            var epgChannel = _epgService.GetChannelById(epgChannelId);
+            EpgProgramme nextProgram = null;
+            if (epgChannel != null)
+            {
+                nextProgram = epgChannel.Programmes
+                    .Where(p => p.Start > currentProgram.Stop)
+                    .OrderBy(p => p.Start)
+                    .FirstOrDefault();
+            }
+
+            ShowEpgDetailsWindow(currentChannel, currentProgram, nextProgram);
+        }
+
+        private void ShowEpgDetailsWindow(Channel channel, EpgProgramme current, EpgProgramme next)
+        {
+            // Prevent multiple windows
+            if (_currentEpgDetailsWindow != null && _currentEpgDetailsWindow.IsVisible)
+            {
+                _currentEpgDetailsWindow.Focus();
+                return;
+            }
+
+            var win = new Window
+            {
+                Title = LanguageManager.GetTranslation("EPG Details"),
+                Width = 450,  // double.NaN, // Auto
+                Height = double.NaN,         // Auto
+                WindowStartupLocation = WindowStartupLocation.CenterOwner,
+                Owner = this,
+                Background = (Brush)FindResource("WindowBackgroundBrush"),
+                Foreground = (Brush)FindResource("ForegroundBrush")
+            };
+
+            var grid = new Grid { Margin = new Thickness(15) };
+            grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+            grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+            grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+            grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+            grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+            grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto }); // per next description
+
+            // Channel name
+            var channelNameBlock = new TextBlock
+            {
+                Text = channel.Name,
+                FontSize = 20,
+                FontWeight = FontWeights.Bold,
+                Margin = new Thickness(0, 0, 0, 10),
+                Foreground = (Brush)FindResource("AccentBrush")
+            };
+            Grid.SetRow(channelNameBlock, 0);
+            grid.Children.Add(channelNameBlock);
+
+            // Current program
+            var nowLocal = current.Start.ToLocalTime();
+            var stopLocal = current.Stop.ToLocalTime();
+            var currentBlock = new TextBlock
+            {
+                Text = $"{LanguageManager.GetTranslation("Now")}: {current.Title}\n{nowLocal:HH:mm} - {stopLocal:HH:mm}",
+                TextWrapping = TextWrapping.Wrap,
+                Margin = new Thickness(0, 0, 0, 10),
+                Foreground = (Brush)FindResource("ForegroundBrush")
+            };
+            Grid.SetRow(currentBlock, 1);
+            grid.Children.Add(currentBlock);
+
+            // Current program description (italic)
+            if (!string.IsNullOrEmpty(current.Description))
+            {
+                var descBlock = new TextBlock
+                {
+                    Text = current.Description,
+                    TextWrapping = TextWrapping.Wrap,
+                    Margin = new Thickness(0, 0, 0, 15),
+                    FontStyle = FontStyles.Italic,
+                    Foreground = (Brush)FindResource("ForegroundBrush")
+                };
+                Grid.SetRow(descBlock, 2);
+                grid.Children.Add(descBlock);
+            }
+
+            // Next program (if exists)
+            if (next != null)
+            {
+                var nextStartLocal = next.Start.ToLocalTime();
+                var nextStopLocal = next.Stop.ToLocalTime();
+                var nextBlock = new TextBlock
+                {
+                    Text = $"{LanguageManager.GetTranslation("Next")}: {next.Title}\n{nextStartLocal:HH:mm} - {nextStopLocal:HH:mm}",
+                    TextWrapping = TextWrapping.Wrap,
+                    Margin = new Thickness(0, 0, 0, 10),
+                    Foreground = (Brush)FindResource("ForegroundBrush")
+                };
+                Grid.SetRow(nextBlock, 3);
+                grid.Children.Add(nextBlock);
+
+                // Next program description (italic)
+                if (!string.IsNullOrEmpty(next.Description))
+                {
+                    var nextDescBlock = new TextBlock
+                    {
+                        Text = next.Description,
+                        TextWrapping = TextWrapping.Wrap,
+                        Margin = new Thickness(0, 0, 0, 15),
+                        FontStyle = FontStyles.Italic,
+                        Foreground = (Brush)FindResource("ForegroundBrush")
+                    };
+                    Grid.SetRow(nextDescBlock, 4);
+                    grid.Children.Add(nextDescBlock);
+                }
+            }
+
+            // Close button
+            var closeBtn = new Button
+            {
+                Content = LanguageManager.GetTranslation("Close"),
+                Width = 80,
+                Height = 30,
+                HorizontalAlignment = HorizontalAlignment.Right,
+                Margin = new Thickness(0, 10, 0, 0)
+            };
+            closeBtn.Click += (s, args) => win.Close();
+            Grid.SetRow(closeBtn, 5);
+            grid.Children.Add(closeBtn);
+
+            win.Content = grid;
+            _currentEpgDetailsWindow = win;
+            win.Closed += (s, e) => _currentEpgDetailsWindow = null;
+            win.ShowDialog();
+        }
+        private void AddProgramDetails(StackPanel parent, EpgProgramme prog)
+        {
+            var startLocal = prog.Start.ToLocalTime();
+            var stopLocal = prog.Stop.ToLocalTime();
+            parent.Children.Add(new TextBlock
+            {
+                Text = $"{LanguageManager.GetTranslation("Title")}: {prog.Title}",
+                Margin = new Thickness(0, 0, 0, 5)
+            });
+            parent.Children.Add(new TextBlock
+            {
+                Text = $"{LanguageManager.GetTranslation("Time")}: {startLocal:dd/MM HH:mm} - {stopLocal:HH:mm}",
+                Margin = new Thickness(0, 0, 0, 5)
+            });
+            if (!string.IsNullOrEmpty(prog.Category))
+                parent.Children.Add(new TextBlock
+                {
+                    Text = $"{LanguageManager.GetTranslation("Category")}: {prog.Category}",
+                    Margin = new Thickness(0, 0, 0, 5)
+                });
+            parent.Children.Add(new TextBlock
+            {
+                Text = $"{LanguageManager.GetTranslation("Description")}:",
+                FontWeight = FontWeights.Bold,
+                Margin = new Thickness(0, 10, 0, 5)
+            });
+            parent.Children.Add(new TextBlock
+            {
+                Text = prog.Description ?? LanguageManager.GetTranslation("(No description)"),
+                TextWrapping = TextWrapping.Wrap,
+                Margin = new Thickness(0, 0, 0, 10)
+            });
         }
 
         private async Task InitWebView()

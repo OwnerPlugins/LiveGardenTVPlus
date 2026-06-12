@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Бүрэн сайн дурын - ямар ч функцийг хориглоогүй)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Кэш хавтас: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Бүрэн сайн дурын - ямар ч функцийг хориглоогүй)
 (No description): (Тодорхойлолт байхгүй)
 • Add / rename / delete groups.: • Бүлгүүдийг нэмэх / нэрийг өөрчлөх / устгах.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Буфер гулсагч: HLS буферийг тохируулах (1‑10 секунд).
@@ -32,21 +33,24 @@ Auto-detect: Автоматаар илрүүлэх
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Ачаалах үед автоматаар шалгах - эсвэл Tools цэсний "Шинэчлэлтүүдийг шалгах" дээр дарна уу.
 Buffer (seconds): Буфер (секунд)
 Buffer size – adjust HLS buffer seconds.: Буферийн хэмжээ – HLS буфер секундийг тохируулна уу.
+Cache: Кэш
 Cancel: Цуцлах
 CANCEL: Цуцлах
 Category: Ангилал
 Changelog: Өөрчлөлтийн бүртгэл
 Channel Details: Сувгийн дэлгэрэнгүй мэдээлэл
 Channel Info: Сувгийн мэдээлэл
-Channel:: Суваг:
 channels from: сувгууд
 channels from JSON URL: JSON URL-с сувгууд
 channels from URL: URL-аас суваг
 Check Duplicates: Давхардсан зүйлсийг шалгана уу
 Check for updates: Шинэчлэлт байгаа эсэхийг шалгана уу
 Check URLs: URL хаягуудыг шалгана уу
+Clear EPG Cache: EPG кэшийг цэвэрлэх
 Clear Filters: Шүүлтүүрийг арилгах
 Clear search: Хайлтыг арилгах
+Click for details: Дэлгэрэнгүйг дарж үзнэ үү
+Close: Хаах
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Нийгэмлэг ба туршилт: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Улс
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Буфер дотроос буцаж хайхын �
 Duplicate URLs found:\n\n: Давхардсан URL олдсон:\n\n
 Edit Playlist: Тоглуулах жагсаалтыг засах
 Edit URLs: URL-уудыг засах
-End (local): Төгсгөл (орон нутгийн)
+End: Төгсгөл
 Enrich with EPG: EPG-ээр баяжуулна
 Enter JSON URL:: JSON URL-г оруулна уу:
 Enter playlist URL (M3U or JSON):: Тоглуулах жагсаалтын URL (M3U эсвэл JSON) оруулна уу:
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Дуртай
 Epg & Logos: Epg ба лого
 EPG & Logos: EPG ба лого
+EPG cache cleared successfully.: EPG кэш амжилттай арилсан.
+EPG Details: EPG-ийн дэлгэрэнгүй мэдээлэл
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Guide – үндсэн хэрэгслийн самбар дээрх товчлуур нь програмын дэлгэрэнгүй мэдээлэл бүхий бүтэн сүлжээг харуулдаг (мэдээлэл авахыг хүсвэл давхар товшино уу).
 EPG Matching Threshold: EPG тохирох босго
-EPG Source: EPG эх сурвалж
+EPG Source: : EPG Эх сурвалж:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG эх үүсвэрийг Тохиргоо дотроос (epgshare01 эсвэл захиалгат URL) тохируулж болно.
 EPG source – choose XMLTV file or enter custom URL.: EPG эх сурвалж - XMLTV файлыг сонгох эсвэл тусгай URL оруулна уу.
+EPG Source Missing: EPG эх үүсвэр алга
 Error: Алдаа
+Error clearing cache: Кэшийг цэвэрлэхэд алдаа гарлаа
 Error loading: Ачаалахад алдаа гарлаа
 Error loading file: {0}: Файлыг ачаалахад алдаа гарсан: {0}
 Error loading playlists: {0}: Тоглуулах жагсаалтыг ачаалахад алдаа гарсан: {0}
@@ -160,14 +168,19 @@ Name: Нэр
 Nanoid: Наноид
 Network error: Сүлжээний алдаа
 New Playlist: Шинэ тоглуулах жагсаалт
+Next: Дараа нь
 Next ▶: Дараагийн ▶
 No .m3u files found on GitHub repository.: GitHub репозитор дээр .m3u файл олдсонгүй.
+No cache folder found.: Кэш хавтас олдсонгүй.
 No channels could be mapped. Check your mapping rules.: Ямар ч сувгийг зураглаж чадсангүй. Газрын зургийн дүрмээ шалгана уу.
 No channels mapped: Ямар ч суваг зураглаагүй
 No duplicate URLs found.: Давхардсан URL олдсонгүй.
+No EPG data: EPG өгөгдөл байхгүй
+No EPG information available for this channel.: Энэ сувагт EPG мэдээлэл байхгүй байна.
+No EPG source configured. Please select one from the combo or go to Settings.: EPG эх үүсвэрийг тохируулаагүй байна. Комбоноос нэгийг нь сонгох эсвэл Тохиргоо руу очно уу.
+No EPG source configured. Would you like to open settings to select one?: EPG эх үүсвэрийг тохируулаагүй байна. Та нэгийг сонгохын тулд тохиргоог нээхийг хүсэж байна уу?
 No favorite channels to export.: Экспортлох дуртай суваг алга.
 No playlist found: Тоглуулах жагсаалт олдсонгүй
-No stream: Дамжуулалт байхгүй
 No updates available.: Шинэчлэлт байхгүй.
 Normal speed (1x): Ердийн хурд (1x)
 Now: Одоо
@@ -195,9 +208,10 @@ Ready.: Бэлэн.
 Recent: Саяхан
 Recent files – quick access to last 5 opened playlists.: Сүүлийн үеийн файлууд - сүүлийн 5 нээсэн тоглуулах жагсаалт руу хурдан нэвтрэх.
 Recent playlists: Сүүлийн үеийн тоглуулах жагсаалтууд
-Refresh: Сэргээх
+Refresh EPG: EPG-г сэргээх
 Refresh EPG List: EPG жагсаалтыг шинэчлэх
 Refresh from GitHub: GitHub-с сэргээнэ үү
+Refresh List: Жагсаалтыг шинэчлэх
 Rename Group: Бүлгийн нэрийг өөрчлөх
 Repository: Хадгалах газар
 Reset Order: Захиалгыг дахин тохируулах
@@ -210,6 +224,7 @@ Save Mapping: Газрын зураг хадгалах
 Save Playlist: Тоглуулах жагсаалтыг хадгалах
 Save Status: Статусыг хадгалах
 Saved: Хадгалсан
+Search channel: : Хайлтын суваг:
 Search channels by name: Сувгуудыг нэрээр нь хайх
 Search channels...: Сувгууд хайх...
 Select a playlist first.: Эхлээд тоглуулах жагсаалтыг сонгоно уу.
@@ -220,7 +235,7 @@ Show List: Жагсаалтыг харуулах
 Show only channels marked as favorites: Зөвхөн дуртай гэж тэмдэглэсэн сувгуудыг харуулах
 Show or hide the channel list: Сувгийн жагсаалтыг харуулах эсвэл нуух
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Туршилт, дэмжлэг үзүүлсэн CORVOBOYS & LinuxSat-Дэмжлэгийн нийгэмлэгүүдэд онцгой талархал илэрхийлье.
-Start (local): Эхлэх (орон нутгийн)
+Start: Эхлэх
 Status: Статус
 Stream URL: Урсгал URL
 Stream URLs: Урсгал URL-ууд
@@ -239,6 +254,7 @@ Total: Нийт
 Total channels in loaded playlist: Ачаалагдсан тоглуулах жагсаалт дахь нийт сувгууд
 TV Guide (EPG): ТВ хөтөч (EPG)
 TvgId: TvgId
+Type channel name to filter: Шүүлгэхийн тулд сувгийн нэрийг бичнэ үү
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Алсын төслийн файлаас хувилбарыг олох боломжгүй байна.
 Update: Шинэчлэх

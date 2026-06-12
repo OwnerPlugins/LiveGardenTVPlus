@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Heeltemaal vrywillig – geen kenmerke word geblokkeer nie)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache-lêergids: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Heeltemaal vrywillig – geen kenmerke word geblokkeer nie)
 (No description): (Geen beskrywing)
 • Add / rename / delete groups.: • Voeg by / hernoem / skrap groepe.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Bufferglyer: verstel HLS-buffer (1-10 sekondes).
@@ -32,21 +33,24 @@ Auto-detect: Outo-bespeur
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Kontroleer outomaties by opstart – of klik 'Kyk vir opdaterings' in die Tools-kieslys.
 Buffer (seconds): Buffer (sekondes)
 Buffer size – adjust HLS buffer seconds.: Buffergrootte – pas HLS buffer sekondes aan.
+Cache: Kas
 Cancel: Kanselleer
 CANCEL: KANSELLEER
 Category: Kategorie
 Changelog: Veranderlogboek
 Channel Details: Kanaalbesonderhede
 Channel Info: Kanaalinligting
-Channel:: Kanaal:
 channels from: kanale van
 channels from JSON URL: kanale vanaf JSON URL
 channels from URL: kanale vanaf URL
 Check Duplicates: Kontroleer Duplikate
 Check for updates: Kyk vir opdaterings
 Check URLs: Gaan URL's na
+Clear EPG Cache: Vee EPG-kas uit
 Clear Filters: Vee filters uit
 Clear search: Vee soektog uit
+Click for details: Klik vir besonderhede
+Close: Maak toe
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Gemeenskap en toetsing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Land
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Sleep om terug te soek in buffer
 Duplicate URLs found:\n\n: Duplikaat URL'e gevind:\n\n
 Edit Playlist: Wysig snitlys
 Edit URLs: Wysig URL's
-End (local): Einde (plaaslik)
+End: Einde
 Enrich with EPG: Verryk met EPG
 Enter JSON URL:: Voer JSON URL in:
 Enter playlist URL (M3U or JSON):: Voer snitlys-URL in (M3U of JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Gunstelinge
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG en logo's
+EPG cache cleared successfully.: EPG-kas suksesvol skoongemaak.
+EPG Details: EPG Besonderhede
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG-gids – knoppie op hoofnutsbalk wys volledige rooster met programbesonderhede (dubbelklik vir inligting).
 EPG Matching Threshold: EPG-passingsdrempel
-EPG Source: EPG Bron
+EPG Source: : EPG Bron:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG-bron – kan in Instellings gestel word (epgshare01 of pasgemaakte URL).
 EPG source – choose XMLTV file or enter custom URL.: EPG-bron – kies XMLTV-lêer of voer persoonlike URL in.
+EPG Source Missing: EPG-bron ontbreek
 Error: Fout
+Error clearing cache: Kon nie kas skoonmaak nie
 Error loading: Kon nie laai nie
 Error loading file: {0}: Kon nie lêer laai nie: {0}
 Error loading playlists: {0}: Kon nie snitlyste laai nie: {0}
@@ -160,14 +168,19 @@ Name: Naam
 Nanoid: Nanoïed
 Network error: Netwerkfout
 New Playlist: Nuwe snitlys
+Next: Volgende
 Next ▶: Volgende ▶
 No .m3u files found on GitHub repository.: Geen .m3u-lêers gevind op GitHub-bewaarplek nie.
+No cache folder found.: Geen kasvouer gevind nie.
 No channels could be mapped. Check your mapping rules.: Geen kanale kon gekarteer word nie. Gaan jou karteringreëls na.
 No channels mapped: Geen kanale gekarteer nie
 No duplicate URLs found.: Geen duplikaat-URL'e gevind nie.
+No EPG data: Geen EPG-data nie
+No EPG information available for this channel.: Geen EPG-inligting beskikbaar vir hierdie kanaal nie.
+No EPG source configured. Please select one from the combo or go to Settings.: Geen EPG-bron is opgestel nie. Kies asseblief een uit die kombinasie of gaan na Instellings.
+No EPG source configured. Would you like to open settings to select one?: Geen EPG-bron is opgestel nie. Wil jy instellings oopmaak om een ​​te kies?
 No favorite channels to export.: Geen gunsteling kanale om uit te voer nie.
 No playlist found: Geen snitlys gevind nie
-No stream: Geen stroom nie
 No updates available.: Geen opdaterings beskikbaar nie.
 Normal speed (1x): Normale spoed (1x)
 Now: Nou
@@ -195,9 +208,10 @@ Ready.: Gereed.
 Recent: Onlangs
 Recent files – quick access to last 5 opened playlists.: Onlangse lêers – vinnige toegang tot laaste 5 oopgemaakte snitlyste.
 Recent playlists: Onlangse snitlyste
-Refresh: Verfris
+Refresh EPG: Herlaai EPG
 Refresh EPG List: Herlaai EPG-lys
 Refresh from GitHub: Verfris vanaf GitHub
+Refresh List: Herlaai lys
 Rename Group: Hernoem groep
 Repository: Bewaarplek
 Reset Order: Stel bestelling terug
@@ -210,6 +224,7 @@ Save Mapping: Stoor kartering
 Save Playlist: Stoor snitlys
 Save Status: Stoor status
 Saved: Gestoor
+Search channel: : Soek kanaal:
 Search channels by name: Soek kanale op naam
 Search channels...: Soek kanale...
 Select a playlist first.: Kies eers 'n snitlys.
@@ -220,7 +235,7 @@ Show List: Wys lys
 Show only channels marked as favorites: Wys slegs kanale wat as gunstelinge gemerk is
 Show or hide the channel list: Wys of versteek die kanaallys
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Spesiale dank aan die CORVOBOYS & LinuxSat-Support gemeenskappe vir toetsing en ondersteuning.
-Start (local): Begin (plaaslik)
+Start: Begin
 Status: Status
 Stream URL: Stroom URL
 Stream URLs: Stroom URL's
@@ -239,6 +254,7 @@ Total: Totaal
 Total channels in loaded playlist: Totale kanale in gelaaide snitlys
 TV Guide (EPG): TV-gids (EPG)
 TvgId: TvgId
+Type channel name to filter: Tik kanaalnaam om te filter
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Kan nie weergawe in afgeleë projeklêer vind nie.
 Update: Dateer op

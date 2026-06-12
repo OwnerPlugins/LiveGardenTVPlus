@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Tute libervola - neniuj funkcioj estas blokitaj)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Kaŝmemordosierujo: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Tute libervola - neniuj funkcioj estas blokitaj)
 (No description): (Neniu priskribo)
 • Add / rename / delete groups.: • Aldoni / renomi / forigi grupojn.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffer-glitilo: ĝustigu HLS-bufferon (1-10 sekundojn).
@@ -32,21 +33,24 @@ Auto-detect: Aŭtomate detekti
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Aŭtomata kontrolo ĉe ekfunkciigo – aŭ alklaku 'Kontrolu ĝisdatigojn' en la menuo Iloj.
 Buffer (seconds): Bufro (sekundoj)
 Buffer size – adjust HLS buffer seconds.: Bufrgrandeco - ĝustigu HLS-bufrsekundojn.
+Cache: Deponejo
 Cancel: Nuligi
 CANCEL: NULIGI
 Category: Kategorio
 Changelog: Ŝanĝprotokolo
 Channel Details: Kanalaj Detaloj
 Channel Info: Informoj pri kanalo
-Channel:: Kanalo:
 channels from: kanaloj de
 channels from JSON URL: kanaloj de JSON URL
 channels from URL: kanaloj de URL
 Check Duplicates: Kontrolu Duplikatojn
 Check for updates: Kontrolu ĝisdatigojn
 Check URLs: Kontrolu URLojn
+Clear EPG Cache: Forigi EPG-Kaŝmemoron
 Clear Filters: Forigi Filtrilojn
 Clear search: Klara serĉo
+Click for details: Klaku por detaloj
+Close: Fermu
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunumo & testado: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Lando
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Trenu por serĉi reen en bufro
 Duplicate URLs found:\n\n: Duoblaj URL-oj trovitaj:\n\n
 Edit Playlist: Redaktu Ludliston
 Edit URLs: Redaktu URL-ojn
-End (local): Fino (loka)
+End: Fino
 Enrich with EPG: Riĉigu per EPG
 Enter JSON URL:: Enigu JSON-URL:
 Enter playlist URL (M3U or JSON):: Enigu la URL-listo (M3U aŭ JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Favoritoj
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
+EPG cache cleared successfully.: EPG-kaŝmemoro sukcese malplenigita.
+EPG Details: EPG-detaloj
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG-Gvidilo - butono sur ĉefa ilobreto montras plenan kradon kun programdetaloj (duoble alklaku por informoj).
 EPG Matching Threshold: EPG Kongrua Sojlo
-EPG Source: EPG Fonto
+EPG Source: : EPG Fonto:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG-fonto - povas esti agordita en Agordoj (epgshare01 aŭ kutima URL).
 EPG source – choose XMLTV file or enter custom URL.: EPG-fonto - elektu XMLTV-dosieron aŭ enigu propran URL.
+EPG Source Missing: EPG Fonto Mankas
 Error: Eraro
+Error clearing cache: Eraro forvigante kaŝmemoron
 Error loading: Eraro dum ŝarĝo
 Error loading file: {0}: Eraro dum ŝarĝo de dosiero: {0}
 Error loading playlists: {0}: Eraro dum ŝarĝo de ludlistoj: {0}
@@ -160,14 +168,19 @@ Name: Nomo
 Nanoid: Nanoido
 Network error: Reta eraro
 New Playlist: Nova Ludlisto
+Next: Poste
 Next ▶: Sekva ▶
 No .m3u files found on GitHub repository.: Neniuj .m3u dosieroj trovitaj en GitHub-deponejo.
+No cache folder found.: Neniu kaŝmemoro dosierujo trovita.
 No channels could be mapped. Check your mapping rules.: Neniuj kanaloj povus esti mapitaj. Kontrolu viajn mapajn regulojn.
 No channels mapped: Neniuj kanaloj mapitaj
 No duplicate URLs found.: Neniuj duplikataj URL-oj trovitaj.
+No EPG data: Neniuj EPG-datumoj
+No EPG information available for this channel.: Neniuj EPG-informoj haveblaj por ĉi tiu kanalo.
+No EPG source configured. Please select one from the combo or go to Settings.: Neniu EPG-fonto agordita. Bonvolu elekti unu el la kombo aŭ iri al Agordoj.
+No EPG source configured. Would you like to open settings to select one?: Neniu EPG-fonto agordita. Ĉu vi ŝatus malfermi agordojn por elekti unu?
 No favorite channels to export.: Neniuj plej ŝatataj kanaloj por eksporti.
 No playlist found: Neniu ludlisto trovita
-No stream: Neniu rivereto
 No updates available.: Neniuj ĝisdatigoj haveblaj.
 Normal speed (1x): Normala rapido (1x)
 Now: Nun
@@ -195,9 +208,10 @@ Ready.: Preta.
 Recent: Lastatempa
 Recent files – quick access to last 5 opened playlists.: Lastatempaj dosieroj - rapida aliro al la lastaj 5 malfermitaj ludlistoj.
 Recent playlists: Lastatempaj ludlistoj
-Refresh: Refreŝigi
+Refresh EPG: Refreŝigu EPG
 Refresh EPG List: Refreŝigi EPG-Liston
 Refresh from GitHub: Refreŝigu de GitHub
+Refresh List: Refreŝigi Listo
 Rename Group: Alinomigi Grupon
 Repository: Deponejo
 Reset Order: Restarigi Ordon
@@ -210,6 +224,7 @@ Save Mapping: Konservu Mapadon
 Save Playlist: Konservu Ludliston
 Save Status: Konservu Statuson
 Saved: Savita
+Search channel: : Serĉu kanalon:
 Search channels by name: Serĉu kanalojn laŭ nomo
 Search channels...: Serĉu kanalojn...
 Select a playlist first.: Unue elektu ludliston.
@@ -220,7 +235,7 @@ Show List: Montru Liston
 Show only channels marked as favorites: Montru nur kanalojn markitajn kiel plej ŝatatajn
 Show or hide the channel list: Montru aŭ kaŝu la liston de kanaloj
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Specialan dankon al la komunumoj CORVOBOYS & LinuxSat-Support pro testado kaj subteno.
-Start (local): Komenco (loka)
+Start: Komencu
 Status: Statuso
 Stream URL: Flua URL
 Stream URLs: Flui URL-ojn
@@ -239,6 +254,7 @@ Total: Entute
 Total channels in loaded playlist: Totalaj kanaloj en ŝarĝita ludlisto
 TV Guide (EPG): Televida Gvidilo (EPG)
 TvgId: TvgId
+Type channel name to filter: Tajpu kanalan nomon por filtri
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Ne eblas trovi version en fora projektdosiero.
 Update: Ĝisdatigo

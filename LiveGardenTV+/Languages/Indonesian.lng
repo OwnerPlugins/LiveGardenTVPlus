@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Sepenuhnya sukarela – tidak ada fitur yang diblokir)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Folder cache: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Sepenuhnya sukarela – tidak ada fitur yang diblokir)
 (No description): (Tidak ada deskripsi)
 • Add / rename / delete groups.: • Menambah/mengganti nama/menghapus grup.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Penggeser buffer: menyesuaikan buffer HLS (1‑10 detik).
@@ -32,21 +33,24 @@ Auto-detect: Deteksi otomatis
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Pemeriksaan otomatis saat startup – atau klik 'Periksa pembaruan' di menu Alat.
 Buffer (seconds): Penyangga (detik)
 Buffer size – adjust HLS buffer seconds.: Ukuran buffer – sesuaikan detik buffer HLS.
+Cache: Cache
 Cancel: Membatalkan
 CANCEL: MEMBATALKAN
 Category: Kategori
 Changelog: log perubahan
 Channel Details: Detail Saluran
 Channel Info: Info Saluran
-Channel:: Saluran:
 channels from: saluran dari
 channels from JSON URL: saluran dari URL JSON
 channels from URL: saluran dari URL
 Check Duplicates: Periksa Duplikat
 Check for updates: Periksa pembaruan
 Check URLs: Periksa URL
+Clear EPG Cache: Hapus Cache EPG
 Clear Filters: Hapus Filter
 Clear search: Hapus pencarian
+Click for details: Klik untuk detailnya
+Close: Menutup
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunitas & pengujian: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Negara
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Tarik untuk mencari kembali di buffer
 Duplicate URLs found:\n\n: URL duplikat ditemukan:\n\n
 Edit Playlist: Sunting Daftar Putar
 Edit URLs: Sunting URL
-End (local): Akhir (lokal)
+End: Akhir
 Enrich with EPG: Perkaya dengan EPG
 Enter JSON URL:: Masukkan URL JSON:
 Enter playlist URL (M3U or JSON):: Masukkan URL daftar putar (M3U atau JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Favorit
 Epg & Logos: Epg & Logo
 EPG & Logos: EPG & Logo
+EPG cache cleared successfully.: Cache EPG berhasil dibersihkan.
+EPG Details: Detail EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Panduan EPG – tombol pada toolbar utama menampilkan grid penuh dengan rincian program (klik dua kali untuk info).
 EPG Matching Threshold: Ambang Pencocokan EPG
-EPG Source: Sumber EPG
+EPG Source: : Sumber EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Sumber EPG – dapat diatur di Pengaturan (epgshare01 atau URL khusus).
 EPG source – choose XMLTV file or enter custom URL.: Sumber EPG – pilih file XMLTV atau masukkan URL khusus.
+EPG Source Missing: Sumber EPG Hilang
 Error: Kesalahan
+Error clearing cache: Terjadi kesalahan saat membersihkan cache
 Error loading: Terjadi kesalahan saat memuat
 Error loading file: {0}: Terjadi kesalahan saat memuat berkas: {0}
 Error loading playlists: {0}: Terjadi kesalahan saat memuat daftar putar: {0}
@@ -160,14 +168,19 @@ Name: Nama
 Nanoid: nanoid
 Network error: Kesalahan jaringan
 New Playlist: Daftar Putar Baru
+Next: Berikutnya
 Next ▶: Selanjutnya ▶
 No .m3u files found on GitHub repository.: Tidak ada file .m3u yang ditemukan di repositori GitHub.
+No cache folder found.: Tidak ditemukan folder cache.
 No channels could be mapped. Check your mapping rules.: Tidak ada saluran yang dapat dipetakan. Periksa aturan pemetaan Anda.
 No channels mapped: Tidak ada saluran yang dipetakan
 No duplicate URLs found.: Tidak ditemukan URL duplikat.
+No EPG data: Tidak ada data EPG
+No EPG information available for this channel.: Tidak ada informasi EPG yang tersedia untuk saluran ini.
+No EPG source configured. Please select one from the combo or go to Settings.: Tidak ada sumber EPG yang dikonfigurasi. Silakan pilih salah satu dari kombo atau buka Pengaturan.
+No EPG source configured. Would you like to open settings to select one?: Tidak ada sumber EPG yang dikonfigurasi. Apakah Anda ingin membuka pengaturan untuk memilih salah satu?
 No favorite channels to export.: Tidak ada saluran favorit untuk diekspor.
 No playlist found: Daftar putar tidak ditemukan
-No stream: Tidak ada aliran
 No updates available.: Tidak ada pembaruan yang tersedia.
 Normal speed (1x): Kecepatan normal (1x)
 Now: Sekarang
@@ -195,9 +208,10 @@ Ready.: Siap.
 Recent: Terkini
 Recent files – quick access to last 5 opened playlists.: File terbaru – akses cepat ke 5 playlist terakhir yang dibuka.
 Recent playlists: Daftar putar terbaru
-Refresh: Menyegarkan
+Refresh EPG: Segarkan EPG
 Refresh EPG List: Segarkan Daftar EPG
 Refresh from GitHub: Segarkan dari GitHub
+Refresh List: Segarkan Daftar
 Rename Group: Ganti Nama Grup
 Repository: Gudang
 Reset Order: Atur Ulang Pesanan
@@ -210,6 +224,7 @@ Save Mapping: Simpan Pemetaan
 Save Playlist: Simpan Daftar Putar
 Save Status: Simpan Status
 Saved: Disimpan
+Search channel: : Saluran pencarian:
 Search channels by name: Cari saluran berdasarkan nama
 Search channels...: Cari saluran...
 Select a playlist first.: Pilih daftar putar terlebih dahulu.
@@ -220,7 +235,7 @@ Show List: Tampilkan Daftar
 Show only channels marked as favorites: Hanya tampilkan saluran yang ditandai sebagai favorit
 Show or hide the channel list: Menampilkan atau menyembunyikan daftar saluran
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Terima kasih khusus kepada komunitas CORVOBOYS & LinuxSat-Support untuk pengujian dan dukungan.
-Start (local): Mulai (lokal)
+Start: Awal
 Status: Status
 Stream URL: URL streaming
 Stream URLs: URL streaming
@@ -239,6 +254,7 @@ Total: Total
 Total channels in loaded playlist: Total saluran dalam daftar putar yang dimuat
 TV Guide (EPG): Panduan TV (EPG)
 TvgId: TVgId
+Type channel name to filter: Ketikkan nama saluran untuk difilter
 UI: MaterialDesignThemes.Wpf: UI: Tema Desain Material.Wpf
 Unable to find version in remote project file.: Tidak dapat menemukan versi dalam file proyek jarak jauh.
 Update: Memperbarui

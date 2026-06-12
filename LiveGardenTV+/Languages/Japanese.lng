@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (完全に任意 – ブロックされる機能はありません)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (キャッシュフォルダー: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (完全に任意 – ブロックされる機能はありません)
 (No description): (説明なし)
 • Add / rename / delete groups.: • グループの追加/名前変更/削除。
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • バッファー スライダー: HLS バッファーを調整します (1 ～ 10 秒)。
@@ -32,21 +33,24 @@ Auto-detect: 自動検出
 Automatic check on startup – or click 'Check for updates' in Tools menu.: 起動時の自動チェック – または、[ツール] メニューの [アップデートのチェック] をクリックします。
 Buffer (seconds): バッファ (秒)
 Buffer size – adjust HLS buffer seconds.: バッファ サイズ – HLS バッファの秒数を調整します。
+Cache: キャッシュ
 Cancel: キャンセル
 CANCEL: キャンセル
 Category: カテゴリ
 Changelog: 変更履歴
 Channel Details: チャンネルの詳細
 Channel Info: チャンネル情報
-Channel:: チャネル：
 channels from: からのチャンネル
 channels from JSON URL: JSON URLからのチャンネル
 channels from URL: URLからのチャンネル
 Check Duplicates: 重複のチェック
 Check for updates: アップデートを確認する
 Check URLs: URLを確認する
+Clear EPG Cache: EPG キャッシュのクリア
 Clear Filters: フィルターをクリアする
 Clear search: 検索をクリア
+Click for details: クリックすると詳細が表示されます
+Close: 近い
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: コミュニティとテスト: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: コルボボーイズ.ORG
 Country: 国
@@ -65,7 +69,7 @@ Drag to seek back in buffer: ドラッグしてバッファ内をシークバッ
 Duplicate URLs found:\n\n: 重複する URL が見つかりました:\n\n
 Edit Playlist: プレイリストの編集
 Edit URLs: URLを編集する
-End (local): 終了（ローカル）
+End: 終わり
 Enrich with EPG: EPG で充実させる
 Enter JSON URL:: JSON URL を入力してください:
 Enter playlist URL (M3U or JSON):: プレイリスト URL (M3U または JSON) を入力してください:
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: EPG とお気に入り
 Epg & Logos: EPG とロゴ
 EPG & Logos: EPG とロゴ
+EPG cache cleared successfully.: EPG キャッシュが正常にクリアされました。
+EPG Details: EPGの詳細
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG ガイド – メイン ツールバーのボタンには、プログラムの詳細を含む完全なグリッドが表示されます (ダブルクリックすると情報が表示されます)。
 EPG Matching Threshold: EPG マッチングしきい値
-EPG Source: EPG ソース
+EPG Source: : EPG ソース:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG ソース – 設定で設定できます (epgshare01 またはカスタム URL)。
 EPG source – choose XMLTV file or enter custom URL.: EPG ソース – XMLTV ファイルを選択するか、カスタム URL を入力します。
+EPG Source Missing: EPG ソースがありません
 Error: エラー
+Error clearing cache: キャッシュクリアエラー
 Error loading: 読み込みエラー
 Error loading file: {0}: ファイルの読み込みエラー: {0}
 Error loading playlists: {0}: プレイリストの読み込みエラー: {0}
@@ -160,14 +168,19 @@ Name: 名前
 Nanoid: ナノイド
 Network error: ネットワークエラー
 New Playlist: 新しいプレイリスト
+Next: 次
 Next ▶: 次へ ▶
 No .m3u files found on GitHub repository.: GitHub リポジトリに .m3u ファイルが見つかりません。
+No cache folder found.: キャッシュフォルダーが見つかりません。
 No channels could be mapped. Check your mapping rules.: チャネルをマッピングできませんでした。マッピング ルールを確認してください。
 No channels mapped: チャンネルがマッピングされていません
 No duplicate URLs found.: 重複する URL は見つかりませんでした。
+No EPG data: EPGデータがありません
+No EPG information available for this channel.: このチャンネルには EPG 情報がありません。
+No EPG source configured. Please select one from the combo or go to Settings.: EPG ソースが設定されていません。コンボから 1 つを選択するか、[設定] に移動してください。
+No EPG source configured. Would you like to open settings to select one?: EPG ソースが設定されていません。設定を開いて選択しますか?
 No favorite channels to export.: エクスポートするお気に入りのチャンネルがありません。
 No playlist found: プレイリストが見つかりません
-No stream: ストリームなし
 No updates available.: 利用可能なアップデートはありません。
 Normal speed (1x): 通常速度（1倍速）
 Now: 今
@@ -195,9 +208,10 @@ Ready.: 準備ができて。
 Recent: 最近の
 Recent files – quick access to last 5 opened playlists.: 最近のファイル – 最後に開いた 5 つのプレイリストに簡単にアクセスします。
 Recent playlists: 最近のプレイリスト
-Refresh: リフレッシュ
+Refresh EPG: EPGを更新
 Refresh EPG List: EPG リストを更新
 Refresh from GitHub: GitHub から更新する
+Refresh List: リストを更新
 Rename Group: グループ名の変更
 Repository: リポジトリ
 Reset Order: 順序をリセットする
@@ -210,6 +224,7 @@ Save Mapping: マッピングの保存
 Save Playlist: プレイリストの保存
 Save Status: ステータスの保存
 Saved: 保存されました
+Search channel: : 検索チャンネル:
 Search channels by name: チャンネルを名前で検索する
 Search channels...: チャンネルを検索...
 Select a playlist first.: 最初にプレイリストを選択します。
@@ -220,7 +235,7 @@ Show List: ショーリスト
 Show only channels marked as favorites: お気に入りとしてマークされたチャンネルのみを表示する
 Show or hide the channel list: チャンネルリストの表示/非表示を切り替える
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: テストとサポートをしていただいた CORVOBOYS および LinuxSat-Support コミュニティに心より感謝いたします。
-Start (local): 開始（ローカル）
+Start: 始める
 Status: 状態
 Stream URL: ストリームURL
 Stream URLs: ストリームURL
@@ -239,6 +254,7 @@ Total: 合計
 Total channels in loaded playlist: ロードされたプレイリスト内の総チャンネル数
 TV Guide (EPG): テレビガイド (EPG)
 TvgId: テレビID
+Type channel name to filter: フィルターするチャンネル名を入力します
 UI: MaterialDesignThemes.Wpf: UI:マテリアルデザインテーマ.Wpf
 Unable to find version in remote project file.: リモート プロジェクト ファイルにバージョンが見つかりません。
 Update: アップデート

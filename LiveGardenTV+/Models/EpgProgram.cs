@@ -5,6 +5,9 @@ using System.IO.Compression;
 using System.Net.Http;
 using System.Text.RegularExpressions;
 using System.Xml;
+using System.Text;
+using System.Security.Cryptography;
+
 
 namespace LiveGardenTVPlus.Services
 {
@@ -22,6 +25,17 @@ namespace LiveGardenTVPlus.Services
 
             Debug.WriteLine($"EPG loading started for {epgUrl}");
 
+            string cachedXmlPath = GetCachedEpgPath(epgUrl);
+            bool useCache = File.Exists(cachedXmlPath) && (DateTime.Now - File.GetLastWriteTime(cachedXmlPath)).TotalHours < 24;
+
+            if (useCache)
+            {
+                Debug.WriteLine($"Using cached EPG: {cachedXmlPath}");
+                ParseEpgFile(cachedXmlPath);
+                return;
+            }
+
+            // Download fresh EPG
             try
             {
                 using var client = new HttpClient();
@@ -32,6 +46,7 @@ namespace LiveGardenTVPlus.Services
                 Debug.WriteLine($"EPG downloaded, content length: {response.Content.Headers.ContentLength}");
 
                 string tempFile = Path.Combine(Path.GetTempPath(), "epg_test.xml");
+                /* string tempFile = Path.GetTempFileName(); */
                 using (var contentStream = await response.Content.ReadAsStreamAsync())
                 using (var fileStream = File.Create(tempFile))
                 {
@@ -47,10 +62,59 @@ namespace LiveGardenTVPlus.Services
                 }
                 Debug.WriteLine($"EPG saved to {tempFile}");
 
-                // Parse the saved file
-                var settings = new XmlReaderSettings { DtdProcessing = DtdProcessing.Ignore };
-                using (var fileStream = File.OpenRead(tempFile))
-                using (var reader = XmlReader.Create(fileStream, settings))
+                // Copy to cache
+                File.Copy(tempFile, cachedXmlPath, true);
+                File.Delete(tempFile);
+                Debug.WriteLine($"EPG cached to {cachedXmlPath}");
+
+                ParseEpgFile(cachedXmlPath);
+                Debug.WriteLine("EPG parsing completed successfully");
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"EPG load error: {ex.Message}");
+            }
+        }
+
+        private string GetCachedEpgPath(string epgUrl)
+        {
+            string cacheDir = Path.Combine(Path.GetTempPath(), "LiveGardenTVPlus", "epg_cache");
+            Directory.CreateDirectory(cacheDir);
+            byte[] hashBytes = MD5.HashData(Encoding.UTF8.GetBytes(epgUrl));
+            string urlHash = Convert.ToBase64String(hashBytes).Replace('/', '_').Replace('+', '-').TrimEnd('=');
+            return Path.Combine(cacheDir, $"{urlHash}.xml");
+        }
+
+        public bool HasChannel(string channelId)
+        {
+            return _channels.Any(c => c.Id == channelId);
+        }
+
+        public string GetMappedEpgId(string channelName)
+        {
+            return GetBestMatchingEpgChannel(channelName);
+        }
+
+        public EpgChannel GetChannelById(string channelId)
+        {
+            return _channels.FirstOrDefault(c => c.Id == channelId);
+        }
+
+        public async Task<List<EpgProgramme>> GetProgramsForChannelAsync(string channelId, DateTime startUtc, DateTime endUtc)
+        {
+            var channel = _channels.FirstOrDefault(c => c.Id == channelId);
+            if (channel == null) return new List<EpgProgramme>();
+            return channel.Programmes
+                .Where(p => p.Start < endUtc && p.Stop > startUtc)
+                .ToList();
+        }
+
+        private void ParseEpgFile(string xmlPath)
+        {
+            _channels.Clear();
+            var settings = new XmlReaderSettings { DtdProcessing = DtdProcessing.Ignore };
+            using (var fileStream = File.OpenRead(xmlPath))
+            using (var reader = XmlReader.Create(fileStream, settings))
                 {
                     EpgChannel currentChannel = null;
                     EpgProgramme currentProgram = null;
@@ -103,34 +167,6 @@ namespace LiveGardenTVPlus.Services
                         }
                     }
                 }
-
-                Debug.WriteLine("EPG parsing completed successfully");
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine($"EPG load error: {ex.Message}");
-            }
-
-
-        }
-
-        public bool HasChannel(string channelId)
-        {
-            return _channels.Any(c => c.Id == channelId);
-        }
-
-        public string GetMappedEpgId(string channelName)
-        {
-            return GetBestMatchingEpgChannel(channelName);
-        }
-
-        public async Task<List<EpgProgramme>> GetProgramsForChannelAsync(string channelId, DateTime startUtc, DateTime endUtc)
-        {
-            var channel = _channels.FirstOrDefault(c => c.Id == channelId);
-            if (channel == null) return new List<EpgProgramme>();
-            return channel.Programmes
-                .Where(p => p.Start < endUtc && p.Stop > startUtc)
-                .ToList();
         }
 
         private DateTime ParseEpgDate(string dateStr)

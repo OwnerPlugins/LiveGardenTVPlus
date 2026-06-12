@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Kwa hiari kabisa - hakuna vipengele vilivyozuiwa)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Folda ya akiba: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Kwa hiari kabisa - hakuna vipengele vilivyozuiwa)
 (No description): (Hakuna maelezo)
 • Add / rename / delete groups.: • Ongeza / badilisha jina / futa vikundi.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Kitelezi cha bafa: rekebisha bafa ya HLS (sekunde 1-10).
@@ -32,21 +33,24 @@ Auto-detect: Gundua kiotomatiki
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Angalia kiotomatiki unapoanzisha - au ubofye 'Angalia masasisho' kwenye menyu ya Zana.
 Buffer (seconds): Bafa (sekunde)
 Buffer size – adjust HLS buffer seconds.: Ukubwa wa bafa - rekebisha sekunde za HLS.
+Cache: Akiba
 Cancel: Ghairi
 CANCEL: GHAIRI
 Category: Kategoria
 Changelog: Changelog
 Channel Details: Maelezo ya Kituo
 Channel Info: Maelezo ya Kituo
-Channel:: Kituo:
 channels from: njia kutoka
 channels from JSON URL: chaneli kutoka kwa JSON URL
 channels from URL: chaneli kutoka kwa URL
 Check Duplicates: Angalia Nakala
 Check for updates: Angalia masasisho
 Check URLs: Angalia URLs
+Clear EPG Cache: Futa Akiba ya EPG
 Clear Filters: Futa Vichujio
 Clear search: Futa utafutaji
+Click for details: Bofya kwa maelezo
+Close: Funga
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Jumuiya na majaribio: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Nchi
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Buruta kutafuta nyuma katika bafa
 Duplicate URLs found:\n\n: Nakala za URL zimepatikana:\n\n
 Edit Playlist: Hariri Orodha ya Kucheza
 Edit URLs: Badilisha URL
-End (local): Mwisho (ndani)
+End: Mwisho
 Enrich with EPG: Kuboresha na EPG
 Enter JSON URL:: Weka URL ya JSON:
 Enter playlist URL (M3U or JSON):: Weka URL ya orodha ya kucheza (M3U au JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Vipendwa
 Epg & Logos: EPG & Nembo
 EPG & Logos: EPG & Nembo
+EPG cache cleared successfully.: Akiba ya EPG imefutwa.
+EPG Details: Maelezo ya EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Mwongozo wa EPG - kitufe kwenye upau wa vidhibiti huonyesha gridi kamili yenye maelezo ya mpango (bofya mara mbili kwa maelezo).
 EPG Matching Threshold: Kizingiti cha Kulingana cha EPG
-EPG Source: Chanzo cha EPG
+EPG Source: : Chanzo cha EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Chanzo cha EPG - kinaweza kuwekwa katika Mipangilio (epgshare01 au URL maalum).
 EPG source – choose XMLTV file or enter custom URL.: Chanzo cha EPG - chagua faili ya XMLTV au ingiza URL maalum.
+EPG Source Missing: Chanzo cha EPG Kimekosekana
 Error: Hitilafu
+Error clearing cache: Hitilafu katika kufuta akiba
 Error loading: Hitilafu katika upakiaji
 Error loading file: {0}: Hitilafu katika kupakia faili: {0}
 Error loading playlists: {0}: Hitilafu katika kupakia orodha za kucheza: {0}
@@ -160,14 +168,19 @@ Name: Jina
 Nanoid: Nanoid
 Network error: Hitilafu ya mtandao
 New Playlist: Orodha Mpya ya Kucheza
+Next: Inayofuata
 Next ▶: Inayofuata ▶
 No .m3u files found on GitHub repository.: Hakuna faili za .m3u zilizopatikana kwenye hazina ya GitHub.
+No cache folder found.: Hakuna folda ya akiba iliyopatikana.
 No channels could be mapped. Check your mapping rules.: Hakuna vituo vinavyoweza kuchorwa. Angalia sheria zako za uchoraji ramani.
 No channels mapped: Hakuna vituo vilivyopangwa
 No duplicate URLs found.: Hakuna nakala za URL zilizopatikana.
+No EPG data: Hakuna data ya EPG
+No EPG information available for this channel.: Hakuna maelezo ya EPG yanayopatikana kwa kituo hiki.
+No EPG source configured. Please select one from the combo or go to Settings.: Hakuna chanzo cha EPG kilichosanidiwa. Tafadhali chagua moja kutoka kwa mchanganyiko au nenda kwa Mipangilio.
+No EPG source configured. Would you like to open settings to select one?: Hakuna chanzo cha EPG kilichosanidiwa. Je, ungependa kufungua mipangilio ili kuchagua moja?
 No favorite channels to export.: Hakuna vituo unavyovipenda vya kusafirisha.
 No playlist found: Hakuna orodha ya kucheza iliyopatikana
-No stream: Hakuna mkondo
 No updates available.: Hakuna masasisho yanayopatikana.
 Normal speed (1x): Kasi ya kawaida (1x)
 Now: Sasa
@@ -195,9 +208,10 @@ Ready.: Tayari.
 Recent: Hivi karibuni
 Recent files – quick access to last 5 opened playlists.: Faili za hivi majuzi - ufikiaji wa haraka wa orodha 5 za kucheza zilizofunguliwa mwisho.
 Recent playlists: Orodha za kucheza za hivi majuzi
-Refresh: Onyesha upya
+Refresh EPG: Onyesha upya EPG
 Refresh EPG List: Onyesha upya Orodha ya EPG
 Refresh from GitHub: Onyesha upya kutoka GitHub
+Refresh List: Onyesha upya Orodha
 Rename Group: Badilisha Kikundi jina
 Repository: Hifadhi
 Reset Order: Weka upya Agizo
@@ -210,6 +224,7 @@ Save Mapping: Hifadhi Ramani
 Save Playlist: Hifadhi Orodha ya Kucheza
 Save Status: Hifadhi Hali
 Saved: Imehifadhiwa
+Search channel: : Tafuta kituo:
 Search channels by name: Tafuta vituo kwa majina
 Search channels...: Tafuta vituo...
 Select a playlist first.: Chagua orodha ya kucheza kwanza.
@@ -220,7 +235,7 @@ Show List: Onyesha Orodha
 Show only channels marked as favorites: Onyesha vituo vilivyotiwa alama kuwa vipendwa pekee
 Show or hide the channel list: Onyesha au ufiche orodha ya vituo
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Shukrani za pekee kwa jumuiya za CORVOBOYS & LinuxSat-Support kwa majaribio na usaidizi.
-Start (local): Anza (ndani)
+Start: Anza
 Status: Hali
 Stream URL: Tiririsha URL
 Stream URLs: Tiririsha URL
@@ -239,6 +254,7 @@ Total: Jumla
 Total channels in loaded playlist: Jumla ya vituo katika orodha ya kucheza iliyopakiwa
 TV Guide (EPG): Mwongozo wa TV (EPG)
 TvgId: TvgId
+Type channel name to filter: Andika jina la kituo ili kuchuja
 UI: MaterialDesignThemes.Wpf: UI:MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Haijaweza kupata toleo katika faili ya mradi wa mbali.
 Update: Sasisha

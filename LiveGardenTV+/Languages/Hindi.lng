@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (पूरी तरह से स्वैच्छिक - कोई भी सुविधा अवरुद्ध नहीं है)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (कैश फ़ोल्डर: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (पूरी तरह से स्वैच्छिक - कोई भी सुविधा अवरुद्ध नहीं है)
 (No description): (कोई विवरण नहीं)
 • Add / rename / delete groups.: • समूह जोड़ें/नाम बदलें/हटाएं।
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • बफ़र स्लाइडर: एचएलएस बफ़र समायोजित करें (1‑10 सेकंड)।
@@ -32,21 +33,24 @@ Auto-detect: ऑटो का पता लगाने
 Automatic check on startup – or click 'Check for updates' in Tools menu.: स्टार्टअप पर स्वचालित जांच - या टूल मेनू में 'अपडेट की जांच करें' पर क्लिक करें।
 Buffer (seconds): बफ़र (सेकंड)
 Buffer size – adjust HLS buffer seconds.: बफ़र आकार - एचएलएस बफ़र सेकंड समायोजित करें।
+Cache: कैश
 Cancel: रद्द करना
 CANCEL: रद्द करना
 Category: वर्ग
 Changelog: बदलाव का
 Channel Details: चैनल विवरण
 Channel Info: चैनल की जानकारी
-Channel:: चैनल:
 channels from: से चैनल
 channels from JSON URL: JSON URL से चैनल
 channels from URL: यूआरएल से चैनल
 Check Duplicates: डुप्लिकेट की जाँच करें
 Check for updates: अद्यतन के लिए जाँच
 Check URLs: यूआरएल जांचें
+Clear EPG Cache: ईपीजी कैश साफ़ करें
 Clear Filters: फ़िल्टर साफ़ करें
 Clear search: स्पष्ट खोज
+Click for details: विवरण के लिए क्लिक करें
+Close: बंद करना
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: समुदाय और परीक्षण: CorvoBoys (corvoboys.org) और LinuxSat-Support.com
 CORVOBOYS.ORG: Corvoboys.org
 Country: देश
@@ -65,7 +69,7 @@ Drag to seek back in buffer: बफ़र में वापस खोजने
 Duplicate URLs found:\n\n: डुप्लिकेट URL मिले:\n\n
 Edit Playlist: प्लेलिस्ट संपादित करें
 Edit URLs: यूआरएल संपादित करें
-End (local): अंत (स्थानीय)
+End: अंत
 Enrich with EPG: ईपीजी से समृद्ध करें
 Enter JSON URL:: JSON URL दर्ज करें:
 Enter playlist URL (M3U or JSON):: प्लेलिस्ट URL दर्ज करें (M3U या JSON):
@@ -73,12 +77,16 @@ EPG: ईपीजी
 Epg & Favorites: ईपीजी और पसंदीदा
 Epg & Logos: ईपीजी और लोगो
 EPG & Logos: ईपीजी और लोगो
+EPG cache cleared successfully.: ईपीजी कैश सफलतापूर्वक साफ़ हो गया।
+EPG Details: ईपीजी विवरण
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: ईपीजी गाइड - मुख्य टूलबार पर बटन प्रोग्राम विवरण के साथ पूर्ण ग्रिड दिखाता है (जानकारी के लिए डबल-क्लिक करें)।
 EPG Matching Threshold: ईपीजी मिलान सीमा
-EPG Source: ईपीजी स्रोत
+EPG Source: : ईपीजी स्रोत:
 EPG source – can be set in Settings (epgshare01 or custom URL).: ईपीजी स्रोत - सेटिंग्स (epgshare01 या कस्टम यूआरएल) में सेट किया जा सकता है।
 EPG source – choose XMLTV file or enter custom URL.: ईपीजी स्रोत - एक्सएमएलटीवी फ़ाइल चुनें या कस्टम यूआरएल दर्ज करें।
+EPG Source Missing: ईपीजी स्रोत गायब है
 Error: गलती
+Error clearing cache: कैश साफ़ करने में त्रुटि
 Error loading: लोड होने मे त्रुटि
 Error loading file: {0}: फ़ाइल लोड करने में त्रुटि: {0}
 Error loading playlists: {0}: प्लेलिस्ट लोड करने में त्रुटि: {0}
@@ -160,14 +168,19 @@ Name: नाम
 Nanoid: नैनोइड
 Network error: नेटवर्क त्रुटि
 New Playlist: नई प्लेलिस्ट
+Next: अगला
 Next ▶: अगला ▶
 No .m3u files found on GitHub repository.: GitHub रिपॉजिटरी पर कोई .m3u फ़ाइलें नहीं मिलीं।
+No cache folder found.: कोई कैश फ़ोल्डर नहीं मिला.
 No channels could be mapped. Check your mapping rules.: कोई भी चैनल मैप नहीं किया जा सका. अपने मैपिंग नियम जांचें.
 No channels mapped: कोई चैनल मैप नहीं किया गया
 No duplicate URLs found.: कोई डुप्लिकेट यूआरएल नहीं मिला.
+No EPG data: कोई ईपीजी डेटा नहीं
+No EPG information available for this channel.: इस चैनल के लिए कोई ईपीजी जानकारी उपलब्ध नहीं है।
+No EPG source configured. Please select one from the combo or go to Settings.: कोई ईपीजी स्रोत कॉन्फ़िगर नहीं किया गया. कृपया कॉम्बो में से एक का चयन करें या सेटिंग्स पर जाएं।
+No EPG source configured. Would you like to open settings to select one?: कोई ईपीजी स्रोत कॉन्फ़िगर नहीं किया गया. क्या आप किसी एक को चुनने के लिए सेटिंग्स खोलना चाहेंगे?
 No favorite channels to export.: निर्यात करने के लिए कोई पसंदीदा चैनल नहीं.
 No playlist found: कोई प्लेलिस्ट नहीं मिली
-No stream: कोई धारा नहीं
 No updates available.: कोई अपडेट उपलब्ध नहीं।
 Normal speed (1x): सामान्य गति (1x)
 Now: अब
@@ -195,9 +208,10 @@ Ready.: तैयार।
 Recent: हाल ही का
 Recent files – quick access to last 5 opened playlists.: हाल की फ़ाइलें - अंतिम 5 खोली गई प्लेलिस्ट तक त्वरित पहुंच।
 Recent playlists: हाल की प्लेलिस्ट
-Refresh: ताज़ा करना
+Refresh EPG: ईपीजी ताज़ा करें
 Refresh EPG List: ईपीजी सूची ताज़ा करें
 Refresh from GitHub: GitHub से ताज़ा करें
+Refresh List: सूची रीफ़्रेश करें
 Rename Group: समूह का नाम बदलें
 Repository: कोष
 Reset Order: आदेश रीसेट करें
@@ -210,6 +224,7 @@ Save Mapping: मैपिंग सहेजें
 Save Playlist: प्लेलिस्ट सहेजें
 Save Status: स्थिति सहेजें
 Saved: सहेजा गया
+Search channel: : चैनल खोजें:
 Search channels by name: नाम से चैनल खोजें
 Search channels...: चैनल खोजें...
 Select a playlist first.: पहले एक प्लेलिस्ट चुनें.
@@ -220,7 +235,7 @@ Show List: सूची दिखाएँ
 Show only channels marked as favorites: केवल पसंदीदा के रूप में चिह्नित चैनल दिखाएं
 Show or hide the channel list: चैनल सूची दिखाएँ या छिपाएँ
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: परीक्षण और समर्थन के लिए CORVOBOYS और LinuxSat-सपोर्ट समुदायों को विशेष धन्यवाद।
-Start (local): प्रारंभ (स्थानीय)
+Start: शुरू
 Status: स्थिति
 Stream URL: स्ट्रीम यूआरएल
 Stream URLs: स्ट्रीम यूआरएल
@@ -239,6 +254,7 @@ Total: कुल
 Total channels in loaded playlist: लोड की गई प्लेलिस्ट में कुल चैनल
 TV Guide (EPG): टीवी गाइड (ईपीजी)
 TvgId: टीवीजीआईडी
+Type channel name to filter: फ़िल्टर करने के लिए चैनल का नाम टाइप करें
 UI: MaterialDesignThemes.Wpf: यूआई: मटेरियलडिज़ाइनथीम्स.डब्ल्यूपीएफ
 Unable to find version in remote project file.: दूरस्थ प्रोजेक्ट फ़ाइल में संस्करण ढूंढने में असमर्थ.
 Update: अद्यतन

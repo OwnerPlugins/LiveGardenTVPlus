@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Totalament volontari – cap de foncionalitat es pas blocada)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Dorsièr de cache: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Totalament volontari – cap de foncionalitat es pas blocada)
 (No description): (Pas de descripcion)
 • Add / rename / delete groups.: • Apondre / renomenar / suprimir de grops.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Cursor de tampon: ajustar lo tampon HLS (1-10 segondas).
@@ -32,21 +33,24 @@ Auto-detect: Autodeteccion
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Verificacion automatica a l'aviada – o clicatz sus 'Verificar las mesas a jorn' dins lo menú Aisinas.
 Buffer (seconds): Tampon (segondas)
 Buffer size – adjust HLS buffer seconds.: Talha del tampon – ajustar las segondas del tampon HLS.
+Cache: Cache
 Cancel: Anullar
 CANCEL: ANULLAR
 Category: Categoria
 Changelog: Jornal de cambiaments
 Channel Details: Detalhs del canal
 Channel Info: Informacions del canal
-Channel:: Canal:
 channels from: canals de
 channels from JSON URL: canals dempuèi l'URL JSON
 channels from URL: canals dempuèi l'URL
 Check Duplicates: Verificar los dobles
 Check for updates: Verificatz las mesas a jorn
 Check URLs: Verificar las URL
+Clear EPG Cache: Escafar l'escobilhièr EPG
 Clear Filters: Suprimir los filtres
 Clear search: Suprimir la recèrca
+Click for details: Clicatz pels detalhs
+Close: Barrar
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Comunautat & tèst: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: País
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Arrossegatz per recercar dins lo tampon
 Duplicate URLs found:\n\n: URLs en doble trobadas:\n\n
 Edit Playlist: Modificar la lista de lectura
 Edit URLs: Modificar las URL
-End (local): Fin (local)
+End: Fin
 Enrich with EPG: Enriquir amb EPG
 Enter JSON URL:: Picatz l'URL JSON :
 Enter playlist URL (M3U or JSON):: Picatz l'URL de la lista de lectura (M3U o JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Favorits
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
+EPG cache cleared successfully.: Cache EPG escafat amb succès.
+EPG Details: Detalhs de l'EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Guida EPG – lo boton sus la barra d'aisinas principala mòstra la grasilha completa amb los detalhs del programa (clic doble per l'informacion).
 EPG Matching Threshold: Lindal de correspondéncia EPG
-EPG Source: Font EPG
+EPG Source: : EPG Font:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Font EPG – pòt èsser definida dins los Paramètres (epgshare01 o URL personalizat).
 EPG source – choose XMLTV file or enter custom URL.: Font EPG – causissètz lo fichièr XMLTV o picatz una URL personalizada.
+EPG Source Missing: Font EPG mancanta
 Error: Error
+Error clearing cache: Error al moment de netejar l'escobilhièr
 Error loading: Error al moment de cargament
 Error loading file: {0}: Error al moment de cargament del fichièr : {0}
 Error loading playlists: {0}: Error al moment de cargament de las listas de lectura : {0}
@@ -160,14 +168,19 @@ Name: Nom
 Nanoid: Nanoïde
 Network error: Error de ret
 New Playlist: Novèla lista de lectura
+Next: Venent
 Next ▶: Seguent ▶
 No .m3u files found on GitHub repository.: Cap de fichièr .m3u trobat sul depaus GitHub.
+No cache folder found.: Cap de dorsièr cache pas trobat.
 No channels could be mapped. Check your mapping rules.: Cap de canal poguèt pas èsser mapat. Verificatz vòstras règlas de mapatge.
 No channels mapped: Cap de canal mapat
 No duplicate URLs found.: Cap d'URL en doble pas trobat.
+No EPG data: Pas de donadas EPG
+No EPG information available for this channel.: Cap d'informacion EPG disponibla per aqueste canal.
+No EPG source configured. Please select one from the combo or go to Settings.: Pas cap de font EPG configurada. Mercés de ne seleccionar un dins la combinason o d'anar a Paramètres.
+No EPG source configured. Would you like to open settings to select one?: Pas cap de font EPG configurada. Volètz dobrir los paramètres per ne seleccionar un ?
 No favorite channels to export.: Pas de canal favorit d'exportar.
 No playlist found: Cap de lista de lectura pas trobada
-No stream: Pas de flux
 No updates available.: Cap de mesa a jorn pas disponibla.
 Normal speed (1x): Velocitat normala (1x)
 Now: Ara
@@ -195,9 +208,10 @@ Ready.: Prèst.
 Recent: Recent
 Recent files – quick access to last 5 opened playlists.: Fichièrs recents – accès rapid a las 5 darrièras listas de lectura dobèrtas.
 Recent playlists: Listas de lectura recentas
-Refresh: Actualizar
+Refresh EPG: Actualizar EPG
 Refresh EPG List: Actualizar la lista EPG
 Refresh from GitHub: Actualizar dempuèi GitHub
+Refresh List: Actualizar la lista
 Rename Group: Renomenar lo grop
 Repository: Depaus
 Reset Order: Reïnicializar l'òrdre
@@ -210,6 +224,7 @@ Save Mapping: Enregistrar la mapatge
 Save Playlist: Enregistrar la lista de lectura
 Save Status: Enregistrar l'estat
 Saved: Enregistrat
+Search channel: : Canal de recèrca:
 Search channels by name: Cercar de canals per nom
 Search channels...: Cercar de canals...
 Select a playlist first.: Seleccionatz d'en primièr una lista de lectura.
@@ -220,7 +235,7 @@ Show List: Afichar la lista
 Show only channels marked as favorites: Afichar sonque los canals marcats coma favorits
 Show or hide the channel list: Afichar o amagar la lista dels canals
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Mercés especials a las comunautats CORVOBOYS & LinuxSat-Support pels tèsts e lo sosten.
-Start (local): Començar (local)
+Start: Començar
 Status: Estatut
 Stream URL: URL del flux
 Stream URLs: URLs de flux
@@ -239,6 +254,7 @@ Total: Total
 Total channels in loaded playlist: Total de canals dins la lista de lectura cargada
 TV Guide (EPG): Guida de television (EPG)
 TvgId: TvgId
+Type channel name to filter: Picatz lo nom de canal per filtrar
 UI: MaterialDesignThemes.Wpf: UI: Temas de Dessenh de Materials.Wpf
 Unable to find version in remote project file.: Impossible de trobar la version dins lo fichièr de projècte distant.
 Update: Metre al jorn

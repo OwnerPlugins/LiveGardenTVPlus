@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Guztiz borondatezkoa - ez dago funtziorik blokeatuta)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache karpeta: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Guztiz borondatezkoa - ez dago funtziorik blokeatuta)
 (No description): (Deskribapenik ez)
 • Add / rename / delete groups.: • Gehitu / aldatu izena / ezabatu taldeak.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffer graduatzailea: egokitu HLS buffer (1-10 segundo).
@@ -32,21 +33,24 @@ Auto-detect: Auto-detektatu
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Egiaztapen automatikoa abiaraztean, edo egin klik Tresnak menuko 'Begiratu eguneratzeak'.
 Buffer (seconds): Buffer (segundoak)
 Buffer size – adjust HLS buffer seconds.: Buffer tamaina - egokitu HLS buffer segundoak.
+Cache: Cachea
 Cancel: Utzi
 CANCEL: Utzi
 Category: Kategoria
 Changelog: Aldaketen erregistroa
 Channel Details: Kanalaren xehetasunak
 Channel Info: Kanalaren informazioa
-Channel:: Kanala:
 channels from: kanalak
 channels from JSON URL: kanalak JSON URLtik
 channels from URL: URLtik kanalak
 Check Duplicates: Egiaztatu Bikoiztuak
 Check for updates: Egiaztatu eguneratzeak
 Check URLs: Egiaztatu URLak
+Clear EPG Cache: Garbitu EPG cachea
 Clear Filters: Garbitu iragazkiak
 Clear search: Garbitu bilaketa
+Click for details: Sakatu xehetasunak ikusteko
+Close: Itxi
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunitatea eta probak: CorvoBoys (corvoboys.org) eta LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Herrialdea
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Arrastatu bufferean berriro bilatzeko
 Duplicate URLs found:\n\n: URL bikoiztuak aurkitu dira:\n\n
 Edit Playlist: Editatu erreprodukzio zerrenda
 Edit URLs: Editatu URLak
-End (local): Amaiera (tokikoa)
+End: Amaiera
 Enrich with EPG: EPGarekin aberastu
 Enter JSON URL:: Sartu JSON URLa:
 Enter playlist URL (M3U or JSON):: Sartu erreprodukzio-zerrendaren URLa (M3U edo JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg eta gogokoak
 Epg & Logos: Epg eta logotipoak
 EPG & Logos: EPG eta logotipoak
+EPG cache cleared successfully.: EPG cachea ondo garbitu da.
+EPG Details: EPG xehetasunak
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Gida: tresna-barra nagusiko botoiak sare osoa erakusten du programaren xehetasunekin (informaziorako egin klik bikoitza).
 EPG Matching Threshold: EPG bat datorren atalasea
-EPG Source: EPG iturria
+EPG Source: : EPG iturria:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG iturria - Ezarpenak atalean ezar daiteke (epgshare01 edo URL pertsonalizatua).
 EPG source – choose XMLTV file or enter custom URL.: EPG iturria: aukeratu XMLTV fitxategia edo sartu URL pertsonalizatua.
+EPG Source Missing: EPG iturria falta da
 Error: Errorea
+Error clearing cache: Errore bat gertatu da cachea garbitzean
 Error loading: Errore bat gertatu da kargatzean
 Error loading file: {0}: Errore bat gertatu da fitxategia kargatzean: {0}
 Error loading playlists: {0}: Errore bat gertatu da erreprodukzio-zerrendak kargatzean: {0}
@@ -160,14 +168,19 @@ Name: Izena
 Nanoid: Nanoidea
 Network error: Sareko errorea
 New Playlist: Erreprodukzio zerrenda berria
+Next: Hurrengoa
 Next ▶: Hurrengoa ▶
 No .m3u files found on GitHub repository.: Ez da .m3u fitxategirik aurkitu GitHub biltegian.
+No cache folder found.: Ez da aurkitu cache karpetarik.
 No channels could be mapped. Check your mapping rules.: Ezin izan da kanalik mapatu. Egiaztatu zure mapa-arauak.
 No channels mapped: Ez dago kanalik mapatu
 No duplicate URLs found.: Ez da bikoiztutako URLrik aurkitu.
+No EPG data: Ez dago EPG daturik
+No EPG information available for this channel.: Ez dago EPG informaziorik kanal honetarako.
+No EPG source configured. Please select one from the combo or go to Settings.: Ez da konfiguratu EPG iturririk. Mesedez, hautatu bat konbinaziotik edo joan Ezarpenak atalera.
+No EPG source configured. Would you like to open settings to select one?: Ez da konfiguratu EPG iturririk. Ezarpenak ireki nahi dituzu bat hautatzeko?
 No favorite channels to export.: Ez dago esportatzeko gogoko kanalik.
 No playlist found: Ez da aurkitu erreprodukzio zerrenda
-No stream: Ez dago korronterik
 No updates available.: Ez dago eguneratzerik eskuragarri.
 Normal speed (1x): Abiadura normala (1x)
 Now: Orain
@@ -195,9 +208,10 @@ Ready.: Prest.
 Recent: Duela gutxi
 Recent files – quick access to last 5 opened playlists.: Azken fitxategiak: sarbide azkarra irekitako azken 5 erreprodukzio-zerrendetara.
 Recent playlists: Azken erreprodukzio-zerrendak
-Refresh: Freskatu
+Refresh EPG: Freskatu EPG
 Refresh EPG List: Freskatu EPG zerrenda
 Refresh from GitHub: Freskatu GitHub-etik
+Refresh List: Freskatu zerrenda
 Rename Group: Aldatu taldeari
 Repository: Biltegia
 Reset Order: Berrezarri ordena
@@ -210,6 +224,7 @@ Save Mapping: Gorde mapak
 Save Playlist: Gorde erreprodukzio zerrenda
 Save Status: Gorde egoera
 Saved: Gorde
+Search channel: : Bilatu kanala:
 Search channels by name: Bilatu kanalak izenaren arabera
 Search channels...: Bilatu kanalak...
 Select a playlist first.: Hautatu erreprodukzio-zerrenda bat lehenik.
@@ -220,7 +235,7 @@ Show List: Erakutsi zerrenda
 Show only channels marked as favorites: Erakutsi gogoko gisa markatutako kanalak soilik
 Show or hide the channel list: Erakutsi edo ezkutatu kanalen zerrenda
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Esker bereziak CORVOBOYS eta LinuxSat-Support komunitateei probak eta laguntzagatik.
-Start (local): Hasi (tokikoa)
+Start: Hasi
 Status: Egoera
 Stream URL: Korrontearen URLa
 Stream URLs: Igorri URLak
@@ -239,6 +254,7 @@ Total: Guztira
 Total channels in loaded playlist: Kargatutako erreprodukzio zerrendako kanalak guztira
 TV Guide (EPG): Telebistako Gida (EPG)
 TvgId: TvgId
+Type channel name to filter: Idatzi kanalaren izena iragazteko
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Ezin da bertsioa aurkitu urruneko proiektuaren fitxategian.
 Update: Eguneratu

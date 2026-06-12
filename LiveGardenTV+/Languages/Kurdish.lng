@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Bi tevahî dilxwazî ​​- tu taybetmendî nayên asteng kirin)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Peldanka cache: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Bi tevahî dilxwazî ​​- tu taybetmendî nayên asteng kirin)
 (No description): (Bê şirove)
 • Add / rename / delete groups.: • Koman lê zêde bikin / binav bikin / jêbirin.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Slider tampon: tampon HLS eyar bike (1-10 çirk).
@@ -32,21 +33,24 @@ Auto-detect: Oto-teşhîs
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Di destpêkê de kontrolkirina otomatîkî - an jî di menuya Amûran de 'Ji bo nûvekirinan kontrol bikin' bikirtînin.
 Buffer (seconds): Tampon (çirk)
 Buffer size – adjust HLS buffer seconds.: Mezinahiya tampon - HLS çirkeyên tampon eyar bikin.
+Cache: Cache
 Cancel: Bişûndekirin
 CANCEL: BIŞÛNDEKIRIN
 Category: Liq
 Changelog: Changelog
 Channel Details: Details Channel
 Channel Info: Agahdariya kanalê
-Channel:: Qenal:
 channels from: kanalên ji
 channels from JSON URL: kanalên ji JSON URL
 channels from URL: kanalên ji URL
 Check Duplicates: Duplicates kontrol bikin
 Check for updates: Ji bo nûvekirinan kontrol bikin
 Check URLs: URLan kontrol bikin
+Clear EPG Cache: EPG Cache paqij bikin
 Clear Filters: Parzûnên Paqij bikin
 Clear search: Lêgerînê paqij bike
+Click for details: Ji bo hûragahiyan bikirtînin
+Close: Nêzîkî
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Civat û ceribandin: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Welat
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Kaş bikin da ku li tamponê vegere
 Duplicate URLs found:\n\n: URLên dubare hatin dîtin:\n\n
 Edit Playlist: Lîsteya lîstikê biguherîne
 Edit URLs: URLan biguherînin
-End (local): Dawî (herêmî)
+End: Dawî
 Enrich with EPG: Bi EPG dewlemend bikin
 Enter JSON URL:: JSON URL binivîse:
 Enter playlist URL (M3U or JSON):: URL-ya lîsteya lîstikê binivîse (M3U an JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Favorites
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
+EPG cache cleared successfully.: Cache EPG bi serkeftî hate paqij kirin.
+EPG Details: Agahiyên EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Rêbernameya EPG - bişkojka li darika amûrê ya sereke tevna tevna bernameyê nîşan dide (ji bo agahiyê du caran bikirtînin).
 EPG Matching Threshold: Tîrêjê Hevberdana EPG
-EPG Source: Çavkaniya EPG
+EPG Source: : Çavkaniya EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Çavkaniya EPG - dikare di Mîhengan de (epgshare01 an URL-ya xwerû) were danîn.
 EPG source – choose XMLTV file or enter custom URL.: Çavkaniya EPG - pelê XMLTV hilbijêrin an URL-ya xwerû binivîsin.
+EPG Source Missing: Çavkaniya EPG winda ye
 Error: Şaşî
+Error clearing cache: Di paqijkirina cache de çewtî
 Error loading: Di barkirinê de çewtî
 Error loading file: {0}: Di barkirina pelê de çewtî: {0}
 Error loading playlists: {0}: Di barkirina lîsteyên lîstikê de çewtî: {0}
@@ -160,14 +168,19 @@ Name: Nav
 Nanoid: Nanoid
 Network error: Çewtiya torê
 New Playlist: Lîsteya nû ya lîstikê
+Next: Piştî
 Next ▶: Next ▶
 No .m3u files found on GitHub repository.: Li ser depoya GitHub pelên .m3u nehatin dîtin.
+No cache folder found.: Peldanka cache nehat dîtin.
 No channels could be mapped. Check your mapping rules.: Tu kanal nehate nexşandin. Rêgezên nexşeya xwe kontrol bikin.
 No channels mapped: Tu kanalên nexşeyê ne
 No duplicate URLs found.: URLên dubare nehatin dîtin.
+No EPG data: Daneyên EPG tune
+No EPG information available for this channel.: Ji bo vê kanalê agahdariya EPG tune.
+No EPG source configured. Please select one from the combo or go to Settings.: Çavkaniyek EPG-ê nehatiye mîheng kirin. Ji kerema xwe yek ji hevokê hilbijêrin an biçin Mîhengan.
+No EPG source configured. Would you like to open settings to select one?: Çavkaniyek EPG-ê nehatiye mîheng kirin. Ma hûn dixwazin mîhengan vekin da ku yek hilbijêrin?
 No favorite channels to export.: Ji bo hinardekirinê kanalên bijare tune.
 No playlist found: Lîsteya lîstikê nehat dîtin
-No stream: No stream
 No updates available.: Nûvekirin tune.
 Normal speed (1x): Leza normal (1x)
 Now: Niha
@@ -195,9 +208,10 @@ Ready.: Amade.
 Recent: Demek berê
 Recent files – quick access to last 5 opened playlists.: Pelên dawî - gihîştina bilez a 5 lîsteyên lîstokên paşîn ên vekirî.
 Recent playlists: Lîsteyên lîstikê yên dawî
-Refresh: Hênikkirin
+Refresh EPG: EPG nûve bikin
 Refresh EPG List: Lîsteya EPG-ê nûve bikin
 Refresh from GitHub: Ji GitHub nûve bikin
+Refresh List: Refresh List
 Rename Group: Navê Komê Biguherîne
 Repository: Depo
 Reset Order: Reset Order
@@ -210,6 +224,7 @@ Save Mapping: Save Mapping
 Save Playlist: Lîsteya lîstikê tomar bike
 Save Status: Save Status
 Saved: Saved
+Search channel: : Kanala lêgerînê:
 Search channels by name: Li kanalan bi navê xwe bigerin
 Search channels...: Li kanalan bigerin...
 Select a playlist first.: Pêşî lîsteya lîstikê hilbijêre.
@@ -220,7 +235,7 @@ Show List: Lîsteya nîşan bide
 Show only channels marked as favorites: Tenê kanalên ku wekî bijare hatine nîşankirin nîşan bidin
 Show or hide the channel list: Lîsteya kanalê nîşan bide an veşêre
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Ji bo ceribandin û piştgiriyê spasiyên taybetî ji civakên CORVOBOYS & LinuxSat-Piştgiriyê re.
-Start (local): Destpêk (herêmî)
+Start: Destpêkirin
 Status: Cî
 Stream URL: Stream URL
 Stream URLs: URLên Stream
@@ -239,6 +254,7 @@ Total: Hemî
 Total channels in loaded playlist: Tevahiya kanalên di lîsteya lîstika barkirî de
 TV Guide (EPG): Rêberê TV (EPG)
 TvgId: TvgId
+Type channel name to filter: Navê kanalê binivîse ku fîlter bike
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Di pelê projeya dûr de guhertoya nayê dîtin.
 Update: Nûvekirin

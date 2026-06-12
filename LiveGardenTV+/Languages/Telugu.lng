@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (పూర్తిగా స్వచ్ఛందంగా - ఏ ఫీచర్లూ బ్లాక్ చేయబడవు)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (కాష్ ఫోల్డర్: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (పూర్తిగా స్వచ్ఛందంగా - ఏ ఫీచర్లూ బ్లాక్ చేయబడవు)
 (No description): (వివరణ లేదు)
 • Add / rename / delete groups.: • సమూహాలను జోడించండి / పేరు మార్చండి / తొలగించండి.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • బఫర్ స్లయిడర్: HLS బఫర్‌ని సర్దుబాటు చేయండి (1-10 సెకన్లు).
@@ -32,21 +33,24 @@ Auto-detect: స్వయంచాలకంగా గుర్తించండ
 Automatic check on startup – or click 'Check for updates' in Tools menu.: స్టార్టప్‌లో ఆటోమేటిక్ చెక్ - లేదా టూల్స్ మెనులో 'నవీకరణల కోసం తనిఖీ చేయి' క్లిక్ చేయండి.
 Buffer (seconds): బఫర్ (సెకన్లు)
 Buffer size – adjust HLS buffer seconds.: బఫర్ పరిమాణం - HLS బఫర్ సెకన్లను సర్దుబాటు చేయండి.
+Cache: కాష్
 Cancel: రద్దు చేయి
 CANCEL: రద్దు చేయి
 Category: వర్గం
 Changelog: చేంజ్లాగ్
 Channel Details: ఛానెల్ వివరాలు
 Channel Info: ఛానెల్ సమాచారం
-Channel:: ఛానెల్:
 channels from: నుండి ఛానెల్‌లు
 channels from JSON URL: JSON URL నుండి ఛానెల్‌లు
 channels from URL: URL నుండి ఛానెల్‌లు
 Check Duplicates: నకిలీలను తనిఖీ చేయండి
 Check for updates: నవీకరణల కోసం తనిఖీ చేయండి
 Check URLs: URLలను తనిఖీ చేయండి
+Clear EPG Cache: EPG కాష్‌ని క్లియర్ చేయండి
 Clear Filters: ఫిల్టర్‌లను క్లియర్ చేయండి
 Clear search: శోధనను క్లియర్ చేయండి
+Click for details: వివరాల కోసం క్లిక్ చేయండి
+Close: మూసివేయి
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: సంఘం & పరీక్ష: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOYS.ORG
 Country: దేశం
@@ -65,7 +69,7 @@ Drag to seek back in buffer: బఫర్‌లో తిరిగి వెత�
 Duplicate URLs found:\n\n: నకిలీ URLలు కనుగొనబడ్డాయి:\n\n
 Edit Playlist: ప్లేజాబితాను సవరించండి
 Edit URLs: URLలను సవరించండి
-End (local): ముగింపు (స్థానికం)
+End: ముగింపు
 Enrich with EPG: EPGతో మెరుగుపరచండి
 Enter JSON URL:: JSON URLని నమోదు చేయండి:
 Enter playlist URL (M3U or JSON):: ప్లేజాబితా URL (M3U లేదా JSON) నమోదు చేయండి:
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & ఇష్టమైనవి
 Epg & Logos: Epg & లోగోలు
 EPG & Logos: EPG & లోగోలు
+EPG cache cleared successfully.: EPG కాష్ విజయవంతంగా క్లియర్ చేయబడింది.
+EPG Details: EPG వివరాలు
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG గైడ్ – మెయిన్ టూల్‌బార్‌లోని బటన్ ప్రోగ్రామ్ వివరాలతో పూర్తి గ్రిడ్‌ను చూపుతుంది (సమాచారం కోసం డబుల్-క్లిక్ చేయండి).
 EPG Matching Threshold: EPG మ్యాచింగ్ థ్రెషోల్డ్
-EPG Source: EPG మూలం
+EPG Source: : EPG మూలం:
 EPG source – can be set in Settings (epgshare01 or custom URL).: EPG మూలం - సెట్టింగ్‌లలో సెట్ చేయవచ్చు (epgshare01 లేదా అనుకూల URL).
 EPG source – choose XMLTV file or enter custom URL.: EPG మూలం – XMLTV ఫైల్‌ని ఎంచుకోండి లేదా అనుకూల URLని నమోదు చేయండి.
+EPG Source Missing: EPG మూలం లేదు
 Error: లోపం
+Error clearing cache: కాష్‌ని క్లియర్ చేయడంలో లోపం ఏర్పడింది
 Error loading: లోడ్ చేయడంలో లోపం
 Error loading file: {0}: ఫైల్‌ని లోడ్ చేయడంలో లోపం: {0}
 Error loading playlists: {0}: ప్లేజాబితాలను లోడ్ చేయడంలో లోపం: {0}
@@ -160,14 +168,19 @@ Name: పేరు
 Nanoid: నానోయిడ్
 Network error: నెట్‌వర్క్ లోపం
 New Playlist: కొత్త ప్లేజాబితా
+Next: తదుపరి
 Next ▶: తదుపరి ▶
 No .m3u files found on GitHub repository.: GitHub రిపోజిటరీలో .m3u ఫైల్‌లు ఏవీ కనుగొనబడలేదు.
+No cache folder found.: కాష్ ఫోల్డర్ కనుగొనబడలేదు.
 No channels could be mapped. Check your mapping rules.: ఛానెల్‌లు ఏవీ మ్యాప్ చేయబడవు. మీ మ్యాపింగ్ నియమాలను తనిఖీ చేయండి.
 No channels mapped: ఛానెల్‌లు ఏవీ మ్యాప్ చేయబడలేదు
 No duplicate URLs found.: నకిలీ URLలు ఏవీ కనుగొనబడలేదు.
+No EPG data: EPG డేటా లేదు
+No EPG information available for this channel.: ఈ ఛానెల్ కోసం EPG సమాచారం అందుబాటులో లేదు.
+No EPG source configured. Please select one from the combo or go to Settings.: EPG సోర్స్ ఏదీ కాన్ఫిగర్ చేయబడలేదు. దయచేసి కాంబో నుండి ఒకదాన్ని ఎంచుకోండి లేదా సెట్టింగ్‌లకు వెళ్లండి.
+No EPG source configured. Would you like to open settings to select one?: EPG సోర్స్ ఏదీ కాన్ఫిగర్ చేయబడలేదు. మీరు ఒకదాన్ని ఎంచుకోవడానికి సెట్టింగ్‌లను తెరవాలనుకుంటున్నారా?
 No favorite channels to export.: ఎగుమతి చేయడానికి ఇష్టమైన ఛానెల్‌లు లేవు.
 No playlist found: ప్లేజాబితా ఏదీ కనుగొనబడలేదు
-No stream: స్ట్రీమ్ లేదు
 No updates available.: అప్‌డేట్‌లు ఏవీ అందుబాటులో లేవు.
 Normal speed (1x): సాధారణ వేగం (1x)
 Now: ఇప్పుడు
@@ -195,9 +208,10 @@ Ready.: సిద్ధంగా ఉంది.
 Recent: ఇటీవలి
 Recent files – quick access to last 5 opened playlists.: ఇటీవలి ఫైల్‌లు – చివరిగా తెరిచిన 5 ప్లేజాబితాలకు శీఘ్ర ప్రాప్యత.
 Recent playlists: ఇటీవలి ప్లేజాబితాలు
-Refresh: రిఫ్రెష్ చేయండి
+Refresh EPG: EPGని రిఫ్రెష్ చేయండి
 Refresh EPG List: EPG జాబితాను రిఫ్రెష్ చేయండి
 Refresh from GitHub: GitHub నుండి రిఫ్రెష్ చేయండి
+Refresh List: జాబితాను రిఫ్రెష్ చేయండి
 Rename Group: గ్రూప్ పేరు మార్చండి
 Repository: రిపోజిటరీ
 Reset Order: ఆర్డర్‌ని రీసెట్ చేయండి
@@ -210,6 +224,7 @@ Save Mapping: మ్యాపింగ్‌ను సేవ్ చేయండ�
 Save Playlist: ప్లేజాబితాను సేవ్ చేయండి
 Save Status: స్థితిని సేవ్ చేయండి
 Saved: సేవ్ చేయబడింది
+Search channel: : శోధన ఛానెల్:
 Search channels by name: పేరుతో ఛానెల్‌లను శోధించండి
 Search channels...: ఛానెల్‌లను శోధించండి...
 Select a playlist first.: ముందుగా ప్లేజాబితాను ఎంచుకోండి.
@@ -220,7 +235,7 @@ Show List: జాబితా చూపించు
 Show only channels marked as favorites: ఇష్టమైనవిగా గుర్తించబడిన ఛానెల్‌లను మాత్రమే చూపండి
 Show or hide the channel list: ఛానెల్ జాబితాను చూపండి లేదా దాచండి
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: పరీక్ష మరియు మద్దతు కోసం CORVOBOYS & LinuxSat-సపోర్ట్ కమ్యూనిటీలకు ప్రత్యేక ధన్యవాదాలు.
-Start (local): ప్రారంభం (స్థానికం)
+Start: ప్రారంభించండి
 Status: స్థితి
 Stream URL: స్ట్రీమ్ URL
 Stream URLs: స్ట్రీమ్ URLలు
@@ -239,6 +254,7 @@ Total: మొత్తం
 Total channels in loaded playlist: లోడ్ చేయబడిన ప్లేజాబితాలో మొత్తం ఛానెల్‌లు
 TV Guide (EPG): టీవీ గైడ్ (EPG)
 TvgId: TvgId
+Type channel name to filter: ఫిల్టర్ చేయడానికి ఛానెల్ పేరును టైప్ చేయండి
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: రిమోట్ ప్రాజెక్ట్ ఫైల్‌లో సంస్కరణను కనుగొనడం సాధ్యపడలేదు.
 Update: నవీకరించు

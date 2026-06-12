@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Hoàn toàn tự nguyện – không có tính năng nào bị chặn)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Thư mục bộ đệm: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Completely voluntary – no features are blocked): (Hoàn toàn tự nguyện – không có tính năng nào bị chặn)
 (No description): (Không có mô tả)
 • Add / rename / delete groups.: • Thêm/đổi tên/xóa nhóm.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Thanh trượt bộ đệm: điều chỉnh bộ đệm HLS (1‑10 giây).
@@ -32,21 +33,24 @@ Auto-detect: Tự động phát hiện
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Tự động kiểm tra khi khởi động – hoặc nhấp vào 'Kiểm tra bản cập nhật' trong menu Công cụ.
 Buffer (seconds): Bộ đệm (giây)
 Buffer size – adjust HLS buffer seconds.: Kích thước bộ đệm – điều chỉnh số giây bộ đệm HLS.
+Cache: Bộ nhớ đệm
 Cancel: Hủy bỏ
 CANCEL: HỦY BỎ
 Category: Loại
 Changelog: Nhật ký thay đổi
 Channel Details: Chi tiết kênh
 Channel Info: Thông tin kênh
-Channel:: Kênh:
 channels from: kênh từ
 channels from JSON URL: kênh từ URL JSON
 channels from URL: kênh từ URL
 Check Duplicates: Kiểm tra trùng lặp
 Check for updates: Kiểm tra các bản cập nhật
 Check URLs: Kiểm tra URL
+Clear EPG Cache: Xóa bộ đệm EPG
 Clear Filters: Xóa bộ lọc
 Clear search: Xóa tìm kiếm
+Click for details: Bấm để biết chi tiết
+Close: Đóng
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Cộng đồng và thử nghiệm: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Quốc gia
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Kéo để tìm lại trong bộ đệm
 Duplicate URLs found:\n\n: Đã tìm thấy các URL trùng lặp:\n\n
 Edit Playlist: Chỉnh sửa danh sách phát
 Edit URLs: Chỉnh sửa URL
-End (local): Kết thúc (địa phương)
+End: Kết thúc
 Enrich with EPG: Làm giàu với EPG
 Enter JSON URL:: Nhập URL JSON:
 Enter playlist URL (M3U or JSON):: Nhập URL danh sách phát (M3U hoặc JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Yêu thích
 Epg & Logos: Epg & Logo
 EPG & Logos: EPG & Logo
+EPG cache cleared successfully.: Đã xóa bộ nhớ đệm EPG thành công.
+EPG Details: Chi tiết EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Hướng dẫn EPG – nút trên thanh công cụ chính hiển thị lưới đầy đủ với chi tiết chương trình (nhấp đúp để biết thông tin).
 EPG Matching Threshold: Ngưỡng phù hợp EPG
-EPG Source: Nguồn EPG
+EPG Source: : Nguồn EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Nguồn EPG - có thể được đặt trong Cài đặt (epgshare01 hoặc URL tùy chỉnh).
 EPG source – choose XMLTV file or enter custom URL.: Nguồn EPG – chọn tệp XMLTV hoặc nhập URL tùy chỉnh.
+EPG Source Missing: Thiếu nguồn EPG
 Error: Lỗi
+Error clearing cache: Lỗi xóa bộ nhớ đệm
 Error loading: Lỗi tải
 Error loading file: {0}: Lỗi tải tệp: {0}
 Error loading playlists: {0}: Lỗi tải danh sách phát: {0}
@@ -160,14 +168,19 @@ Name: Tên
 Nanoid: Nanoid
 Network error: Lỗi mạng
 New Playlist: Danh sách phát mới
+Next: Kế tiếp
 Next ▶: Tiếp theo ►
 No .m3u files found on GitHub repository.: Không tìm thấy tệp .m3u trên kho GitHub.
+No cache folder found.: Không tìm thấy thư mục bộ đệm.
 No channels could be mapped. Check your mapping rules.: Không có kênh nào có thể được ánh xạ. Kiểm tra quy tắc lập bản đồ của bạn.
 No channels mapped: Không có kênh nào được ánh xạ
 No duplicate URLs found.: Không tìm thấy URL trùng lặp.
+No EPG data: Không có dữ liệu EPG
+No EPG information available for this channel.: Không có thông tin EPG cho kênh này.
+No EPG source configured. Please select one from the combo or go to Settings.: Không có nguồn EPG nào được định cấu hình. Vui lòng chọn một từ kết hợp hoặc đi tới Cài đặt.
+No EPG source configured. Would you like to open settings to select one?: Không có nguồn EPG nào được định cấu hình. Bạn có muốn mở cài đặt để chọn một cài đặt không?
 No favorite channels to export.: Không có kênh yêu thích nào để xuất.
 No playlist found: Không tìm thấy danh sách phát nào
-No stream: Không có luồng
 No updates available.: Không có bản cập nhật có sẵn.
 Normal speed (1x): Tốc độ bình thường (1x)
 Now: Hiện nay
@@ -195,9 +208,10 @@ Ready.: Sẵn sàng.
 Recent: Gần đây
 Recent files – quick access to last 5 opened playlists.: Các tập tin gần đây - truy cập nhanh vào 5 danh sách phát đã mở gần đây nhất.
 Recent playlists: Danh sách phát gần đây
-Refresh: Làm cho khỏe lại
+Refresh EPG: Làm mới EPG
 Refresh EPG List: Làm mới danh sách EPG
 Refresh from GitHub: Làm mới từ GitHub
+Refresh List: Làm mới danh sách
 Rename Group: Đổi tên nhóm
 Repository: Kho lưu trữ
 Reset Order: Đặt lại thứ tự
@@ -210,6 +224,7 @@ Save Mapping: Lưu bản đồ
 Save Playlist: Lưu danh sách phát
 Save Status: Lưu trạng thái
 Saved: Đã lưu
+Search channel: : Kênh tìm kiếm:
 Search channels by name: Tìm kiếm kênh theo tên
 Search channels...: Tìm kiếm kênh...
 Select a playlist first.: Chọn danh sách phát trước.
@@ -220,7 +235,7 @@ Show List: Hiển thị danh sách
 Show only channels marked as favorites: Chỉ hiển thị các kênh được đánh dấu là yêu thích
 Show or hide the channel list: Hiển thị hoặc ẩn danh sách kênh
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Đặc biệt cảm ơn cộng đồng CORVOBOYS & LinuxSat-Support đã thử nghiệm và hỗ trợ.
-Start (local): Bắt đầu (địa phương)
+Start: Bắt đầu
 Status: Trạng thái
 Stream URL: URL luồng
 Stream URLs: Truyền phát URL
@@ -239,6 +254,7 @@ Total: Tổng cộng
 Total channels in loaded playlist: Tổng số kênh trong danh sách phát đã tải
 TV Guide (EPG): Hướng dẫn truyền hình (EPG)
 TvgId: Id Tvg
+Type channel name to filter: Nhập tên kênh để lọc
 UI: MaterialDesignThemes.Wpf: Giao diện người dùng: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Không thể tìm thấy phiên bản trong tệp dự án từ xa.
 Update: Cập nhật

@@ -1,4 +1,5 @@
-﻿(Completely voluntary – no features are blocked): (Go hiomlán deonach - níl aon ghnéithe bacáilte)
+﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Fillteán taisce: % TEMP% \ LiveGardenTVPlus \ epg_cache)
+(Completely voluntary – no features are blocked): (Go hiomlán deonach - níl aon ghnéithe bacáilte)
 (No description): (Gan tuairisc)
 • Add / rename / delete groups.: • Cuir leis / athainmnigh / scrios grúpaí.
 • Buffer slider: adjust HLS buffer (1‑10 seconds).: • Sleamhnán maolánach: coigeartaigh maolán HLS (1-10 soicind).
@@ -32,21 +33,24 @@ Auto-detect: Auto-bhrath
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Seiceáil uathoibríoch ar am tosaithe - nó cliceáil ar 'Seiceáil le haghaidh nuashonruithe' sa roghchlár Uirlisí.
 Buffer (seconds): Maolán (soicindí)
 Buffer size – adjust HLS buffer seconds.: Méid maoláin – coigeartaigh soicind maolánacha HLS.
+Cache: Taisce
 Cancel: Cealaigh
 CANCEL: CEAL
 Category: Catagóir
 Changelog: Loga athrú
 Channel Details: Sonraí Cainéal
 Channel Info: Eolas Cainéal
-Channel:: Cainéal:
 channels from: cainéil ó
 channels from JSON URL: cainéil ó JSON URL
 channels from URL: cainéil ó URL
 Check Duplicates: Seiceáil Dúblaigh
 Check for updates: Seiceáil le haghaidh nuashonruithe
 Check URLs: Seiceáil URLanna
+Clear EPG Cache: Glan Taisce EPG
 Clear Filters: Scagairí Glan
 Clear search: Glan cuardach
+Click for details: Cliceáil le haghaidh sonraí
+Close: Dún
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Pobal & tástáil: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Tír
@@ -65,7 +69,7 @@ Drag to seek back in buffer: Tarraing a lorg ar ais i maolán
 Duplicate URLs found:\n\n: URLanna dúblacha aimsithe:\n\n
 Edit Playlist: Cuir Seinmliosta in Eagar
 Edit URLs: Cuir URLanna in eagar
-End (local): Críoch (áitiúil)
+End: Deireadh
 Enrich with EPG: Saibhriú le EPG
 Enter JSON URL:: Cuir isteach URL JSON:
 Enter playlist URL (M3U or JSON):: Cuir isteach URL seinmliosta (M3U nó JSON):
@@ -73,12 +77,16 @@ EPG: EPG
 Epg & Favorites: Epg & Ceanáin
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
+EPG cache cleared successfully.: Glanadh taisce EPG go rathúil.
+EPG Details: Sonraí EPG
 EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Guide – Taispeánann an cnaipe ar an bpríomhbharra uirlisí greille iomlán le sonraí an chláir (cliceáil faoi dhó le haghaidh faisnéise).
 EPG Matching Threshold: Tairseach Meaitseála EPG
-EPG Source: Foinse EPG
+EPG Source: : Foinse EPG:
 EPG source – can be set in Settings (epgshare01 or custom URL).: Foinse EPG - is féidir é a shocrú i Socruithe (epgshare01 nó URL saincheaptha).
 EPG source – choose XMLTV file or enter custom URL.: Foinse EPG - roghnaigh comhad XMLTV nó cuir isteach URL saincheaptha.
+EPG Source Missing: Foinse EPG ar Iarraidh
 Error: Earráid
+Error clearing cache: Earráid agus taisce á ghlanadh
 Error loading: Earráid á lódáil
 Error loading file: {0}: Earráid agus comhad á lódáil: {0}
 Error loading playlists: {0}: Earráid agus seinmliostaí á lódáil: {0}
@@ -160,14 +168,19 @@ Name: Ainm
 Nanoid: Nainoid
 Network error: Earráid líonra
 New Playlist: Seinmliosta Nua
+Next: Ar aghaidh
 Next ▶: Ar aghaidh ▶
 No .m3u files found on GitHub repository.: Níor aimsíodh aon chomhaid .m3u ar stór GitHub.
+No cache folder found.: Níor aimsíodh aon fhillteán taisce.
 No channels could be mapped. Check your mapping rules.: Níorbh fhéidir aon chainéil a mhapáil. Seiceáil do rialacha mapála.
 No channels mapped: Níl aon chainéil mapáilte
 No duplicate URLs found.: Níor aimsíodh URLanna dúblacha.
+No EPG data: Gan sonraí EPG
+No EPG information available for this channel.: Níl aon fhaisnéis EPG ar fáil don chainéal seo.
+No EPG source configured. Please select one from the combo or go to Settings.: Níl aon fhoinse EPG cumraithe. Roghnaigh ceann ón teaglama nó téigh go Socruithe.
+No EPG source configured. Would you like to open settings to select one?: Níl aon fhoinse EPG cumraithe. Ar mhaith leat socruithe a oscailt chun ceann a roghnú?
 No favorite channels to export.: Níl aon chainéil is fearr leat le heaspórtáil.
 No playlist found: Níor aimsíodh aon seinnliosta
-No stream: Gan sruth
 No updates available.: Níl aon nuashonruithe ar fáil.
 Normal speed (1x): Gnáthluas (1x)
 Now: Anois
@@ -195,9 +208,10 @@ Ready.: Réidh.
 Recent: le déanaí
 Recent files – quick access to last 5 opened playlists.: Comhaid le déanaí – rochtain thapa ar na 5 seinnliosta deiridh a osclaíodh.
 Recent playlists: Seinmliostaí le déanaí
-Refresh: Athnuaigh
+Refresh EPG: EPG a athnuachan
 Refresh EPG List: Athnuaigh an liosta EPG
 Refresh from GitHub: Athnuaigh ó GitHub
+Refresh List: Liosta Athnuaigh
 Rename Group: Athainmnigh an Grúpa
 Repository: Stór
 Reset Order: Ordú Athshocraigh
@@ -210,6 +224,7 @@ Save Mapping: Sábháil Mapáil
 Save Playlist: Sábháil Seinmliosta
 Save Status: Sábháil Stádas
 Saved: Shábháil
+Search channel: : Cuardach cainéal:
 Search channels by name: Cuardaigh cainéil de réir ainm
 Search channels...: Cuardach cainéil...
 Select a playlist first.: Roghnaigh seinmliosta ar dtús.
@@ -220,7 +235,7 @@ Show List: Taispeáin Liosta
 Show only channels marked as favorites: Ná taispeáin ach cainéil atá marcáilte mar cheanáin
 Show or hide the channel list: Taispeáin nó folaigh an liosta cainéal
 Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Buíochas ar leith do phobail CORVOBOYS & LinuxSat-Support as tástáil agus tacaíocht.
-Start (local): Tosaigh (áitiúil)
+Start: Tosaigh
 Status: Stádas
 Stream URL: Sruth URL
 Stream URLs: Sruth URLanna
@@ -239,6 +254,7 @@ Total: Iomlán
 Total channels in loaded playlist: Iomlán na gcainéal sa seinmliosta luchtaithe
 TV Guide (EPG): Treoir Teilifíse (EPG)
 TvgId: TvgId
+Type channel name to filter: Clóscríobh ainm an chainéil le scagadh
 UI: MaterialDesignThemes.Wpf: Chomhéadain: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Ní féidir an leagan a aimsiú sa chianchomhad tionscadail.
 Update: Nuashonrú
