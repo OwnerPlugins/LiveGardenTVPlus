@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: גרסה חדשה זמינה. רוצה לעדכן עכשיו?
 Access via 'Edit Playlist' button on main toolbar.: גישה דרך כפתור 'ערוך רשימת השמעה' בסרגל הכלים הראשי.
 Actions: פעולות
+Add Command: הוסף פקודה
 Add Group: הוסף קבוצה
 Add Mapping: הוסף מיפוי
 Adjust buffer size (1-10 seconds): התאם את גודל המאגר (1-10 שניות)
@@ -29,8 +30,11 @@ Advanced IDs: תעודות זהות מתקדמות
 Application status: סטטוס הבקשה
 Apply changes: החל שינויים
 Apply Filters: החל מסננים
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: האם אתה בטוח שברצונך לטעון מחדש את ה-Enigma2 GUI?\n\nהממשק יופעל מחדש (מסך שחור למשך מספר שניות).
 Auto-detect: זיהוי אוטומטי
 Automatic check on startup – or click 'Check for updates' in Tools menu.: בדיקה אוטומטית בעת האתחול - או לחץ על 'חפש עדכונים' בתפריט כלים.
+Bouquet Name: שם זר
+Bouquet sent and Enigma2 channel list reloaded.: זר נשלח ורשימת הערוצים של Enigma2 נטענה מחדש.
 Buffer (seconds): מאגר (שניות)
 Buffer size – adjust HLS buffer seconds.: גודל מאגר - התאם שניות חיץ של HLS.
 Cache: מטמון
@@ -51,7 +55,11 @@ Clear Filters: נקה מסננים
 Clear search: נקה חיפוש
 Click for details: לחץ לפרטים
 Close: לִסְגוֹר
+Command name:: שם הפקודה:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: קהילה ובדיקות: CorvoBoys (corvoboys.org) ו-LinuxSat-Support.com
+Confirm Reload: אשר טען מחדש
+Connect: לְחַבֵּר
+Connected: מְחוּבָּר
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: מְדִינָה
 Credits: קרדיטים
@@ -60,6 +68,8 @@ Description: תֵאוּר
 Details: פרטים
 Developed by Lululla: פותח על ידי Lululla
 Developer: Lululla: מפתח: Lululla
+Disconnect: לְנַתֵק
+Disconnected: מְנוּתָק
 Do you want to load this edited playlist now?: האם אתה רוצה לטעון את הפלייליסט הערוך הזה עכשיו?
 Double speed (2x): מהירות כפולה (2x)
 Downloading playlist...: מוריד רשימת השמעה...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: מוריד 
 Drag & drop – drop M3U or JSON files directly onto main window.: גרור ושחרר - שחרר קבצי M3U או JSON ישירות לחלון הראשי.
 Drag to seek back in buffer: גרור כדי לחפש בחזרה במאגר
 Duplicate URLs found:\n\n: נמצאו כתובות אתרים כפולות:\n\n
+Edit Command: ערוך פקודה
+Edit command name:: ערוך שם פקודה:
 Edit Playlist: ערוך רשימת השמעה
+Edit telnet command:: ערוך פקודת telnet:
 Edit URLs: ערוך כתובות אתרים
 End: סוֹף
 Enrich with EPG: העשרה ב-EPG
+Enter bouquet name (without spaces):: הזן שם זר (ללא רווחים):
 Enter JSON URL:: הזן כתובת URL של JSON:
 Enter playlist URL (M3U or JSON):: הזן כתובת אתר של רשימת השמעה (M3U או JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: ייצא רק ערוצים מו
 Extracting update...: מחלץ עדכון...
 Failed to download playlist: הורדת הפלייליסט נכשלה
 Failed to load playlist: טעינת הפלייליסט נכשלה
+Failed to update bouquets.tv.: עדכון bouquets.tv נכשל.
+Failed to upload bouquet.: העלאת זר פרחים נכשלה.
 Favorite: מוּעֲדָף
 Favorites only: מועדפים בלבד
 Fetch Logos: אחזר לוגו
+File {0} already exists. Overwrite?: הקובץ {0} כבר קיים. להחליף?
+File exists: הקובץ קיים
 Filters: מסננים
 Fullscreen (hide UI) - press ESC to exit: מסך מלא (הסתר ממשק משתמש) - לחץ על ESC כדי לצאת
 Geo & Country: Geo & Country
@@ -183,6 +201,7 @@ No favorite channels to export.: אין ערוצים מועדפים לייצוא
 No playlist found: לא נמצא רשימת השמעה
 No updates available.: אין עדכונים זמינים.
 Normal speed (1x): מהירות רגילה (1x)
+Not connected to the box.: לא מחובר לקופסה.
 Now: עַכשָׁיו
 OK: בְּסֵדֶר
 Online Playlist: רשימת השמעה מקוונת
@@ -212,6 +231,8 @@ Refresh EPG: רענן את ה-EPG
 Refresh EPG List: רענן את רשימת ה-EPG
 Refresh from GitHub: רענן מ-GitHub
 Refresh List: רענן רשימה
+Reload GUI: טען מחדש את ה-GUI
+Remove Command: הסר פקודה
 Rename Group: שנה את שם הקבוצה
 Repository: מאגר
 Reset Order: אפס סדר
@@ -230,6 +251,9 @@ Search channels...: חפש ערוצים...
 Select a playlist first.: תחילה בחר רשימת השמעה.
 Select Theme: בחר ערכת נושא
 Selected theme is saved and applied on restart.: ערכת הנושא שנבחרה נשמרת ומוחלת בהפעלה מחדש.
+Send: לִשְׁלוֹחַ
+Send playlist to Enigma2 decoder: שלח רשימת השמעה למפענח Enigma2
+Send to Enigma2: שלח לאניגמה2
 Settings: הגדרות
 Show List: הצג רשימה
 Show only channels marked as favorites: הצג רק ערוצים המסומנים כמועדפים
@@ -243,6 +267,10 @@ Success: הַצלָחָה
 Support: תְמִיכָה
 Support the developer: תמכו במפתח
 Target Field: שדה היעד
+Telnet command:: פקודת Telnet:
+Telnet Commander: מפקד טלנט
+Telnet Console: קונסולת Telnet
+Telnet not configured. Please set it in Settings.: Telnet לא מוגדר. נא להגדיר זאת בהגדרות.
 Thanks to: בזכות
 Theme picker: בוחר נושאים
 Theme picker – accessible via Tools menu on main toolbar.: בוחר ערכות נושא - נגיש דרך תפריט כלים בסרגל הכלים הראשי.

@@ -9,8 +9,23 @@
 [![Donate](https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://ko-fi.com/lululla)
 [![Donate](https://img.shields.io/badge/_-Donate-green.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://paypal.me/belfagor2005)
 
-**LiveGardenTVPlus** is a desktop IPTV player for Windows (WPF / .NET 10) that plays HLS streams (m3u8) using **WebView2** and **hls.js**.  
-It loads local or online M3U playlists, organizes channels by groups, and provides a modern, themeable interface.
+**LiveGardenTVPlus** is a modern, feature‑rich IPTV player for Windows.
+It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, playlist editing, Telnet console for Enigma2, and much more.
+
+## ✨ Key Features
+
+- 📺 **Play & manage IPTV channels** (M3U / JSON / remote URLs)
+- 📡 **Full EPG support** with fuzzy matching, timezone handling, **local cache (24h)** and source selector
+- 🖼️ **Channel logos** – auto‑fetch from remote repository (`OwnerPlugins/logos`)
+- ⏱️ **Timeshift** – pause and seek back in live HLS streams
+- ✏️ **Powerful playlist editor** – edit names, groups, URLs, logos, EPG ids, favorites, etc.
+- 🧩 **JSON import** with flexible field mapping (auto‑detect, save profiles)
+- 🔍 **Filter & search** channels, check URL status, export results
+- 🌍 **Dynamic language switching** (English, Italian, and more)
+- 🎨 **16 colour themes** + Light/Dark variants
+- 🔄 **Auto‑updater** – checks for new versions and updates seamlessly
+- ❤️ **Favorites** – star channels and export only favourites
+- 🖥️ **Modern UI** – resizable sidebar, WebView2 player, HLS.js playback
 
 
 ## Screenshots
@@ -136,23 +151,33 @@ It loads local or online M3U playlists, organizes channels by groups, and provid
 
 ---
 
-# LiveGardenTVPlus – IPTV Player for Windows
+## Changelog
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/OwnerPlugins/LiveGardenTVPlus)](https://github.com/OwnerPlugins/LiveGardenTVPlus/releases/latest)
-[![.NET](https://img.shields.io/badge/.NET-10.0-purple)](https://dotnet.microsoft.com/)
-[![WPF](https://img.shields.io/badge/UI-WPF-blue)](https://github.com/dotnet/wpf)
-[![WebView2](https://img.shields.io/badge/WebView2-hls.js-green)](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)
+## 📋 LiveGardenTVPlus – Changelog (v2.4)
 
-[![Donate](https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://ko-fi.com/lululla)
-[![Donate](https://img.shields.io/badge/_-Donate-green.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://paypal.me/belfagor2005)
+# 🚀 Telnet & Enigma2 Integration
 
-**LiveGardenTVPlus** is a desktop IPTV player for Windows (WPF / .NET 10) that plays HLS streams (m3u8) using **WebView2** and **hls.js**.  
-It loads local or online M3U playlists, organizes channels by groups, and provides a modern, themeable interface.
+- **Telnet Console** – Full terminal window to connect and send commands to your Enigma2 decoder.
+  - Persistent connection settings (host, port, username, password).
+  - Quick‑command list loaded from a JSON file (or editable XML), with categories for easy management.
+  - Command output displayed in real time.
 
+- **Send playlist to Enigma2** – One‑click button in main toolbar.
+  - Converts the loaded playlist (M3U/JSON) into a valid Enigma2 bouquet (`userbouquet.name.tv`).
+  - Uploads the bouquet via FTP, automatically updates `/etc/enigma2/bouquets.tv` and reloads the channel list via Enigma2 web interface.
+  - Asks for a custom bouquet name and warns if the file already exists (option to overwrite).
+
+- **EPG Enhancements**
+  - Local cache (24 hours) to avoid repeated downloads.
+  – EPG source selector directly in the EPG window.
+  – Date and time displayed in program grid.
+  – Search‑as‑you‑type with debouncing.
+
+### Need more help?
+
+Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
 
 ---
-
-## Changelog
 
 ## 📋 LiveGardenTVPlus – Changelog (v2.3)
 - **Local EPG Cache** – EPG data is cached for 24 hours (saved in %TEMP%\LiveGardenTVPlus\epg_cache). Reduces repeated downloads.
@@ -198,10 +223,6 @@ Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) 
 - **Ambiguous `Channel` reference** – Removed `using System.Threading.Channels` conflict.
 
 - **UI translations** – Completed all missing translations in toolbar, status bar, and context menus.
-
-### Need more help?
-
-Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
 
 ---
 
@@ -418,7 +439,7 @@ Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) 
 
 ### Playlist Editor (`PlaylistEditorWindow`)
 
-- **Full channel view** in an editable `DataGrid` with columns:  
+- **Full channel view** in an editable `DataGrid` with columns:
   `Name`, `URL (primary)`, `Group`, `Logo`, `TvgId`, `Favorite`, `Country`, `GeoBlocked`, `Nanoid`, `Languages`, `Youtube URLs`, `Stream URLs`, `Status`.
 - **Inline editing** of all fields (except read‑only columns like `Languages` and `URLs` which display concatenated lists).
 - **Group management**:
@@ -540,30 +561,30 @@ Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) 
 
 ## ✨ Features (Version 1.3
 
-- **Electronic Program Guide (EPG) support**  
-  - EPG URL (`x-tvg-url`) is automatically extracted from the M3U playlist header.  
-  - Program data is downloaded in the background (supports `.gz` compressed XMLTV).  
-  - Current programme title, start and end times are displayed in the status bar, automatically converted to the user’s local timezone.  
+- **Electronic Program Guide (EPG) support**
+  - EPG URL (`x-tvg-url`) is automatically extracted from the M3U playlist header.
+  - Program data is downloaded in the background (supports `.gz` compressed XMLTV).
+  - Current programme title, start and end times are displayed in the status bar, automatically converted to the user’s local timezone.
   - Timezone handling: supports UTC with explicit offset (e.g., `+0200`) or assumed UTC.
 
-- **Channel logos**  
-  - Channel icons (`tvg-logo`) are now displayed next to each channel in the TreeView.  
-  - Images are loaded from remote URLs with a fallback default icon when the logo is missing or fails to load.  
+- **Channel logos**
+  - Channel icons (`tvg-logo`) are now displayed next to each channel in the TreeView.
+  - Images are loaded from remote URLs with a fallback default icon when the logo is missing or fails to load.
   - Improved visual appearance with larger, adjustable icon sizes (32x32) and bigger font for channel names.
 
 ### 🔧 Fixes
 
-- **M3U parser improvements**  
-  - The parser now correctly skips extra metadata lines (e.g., `#EXTSIZE`, `#EXTVLCOPT`) that were breaking URL extraction.  
+- **M3U parser improvements**
+  - The parser now correctly skips extra metadata lines (e.g., `#EXTSIZE`, `#EXTVLCOPT`) that were breaking URL extraction.
   - All channels, including those with additional tags, are now properly loaded.
 
-- **Streaming stability**  
-  - Restored reliable HLS playback that was temporarily affected by parser changes.  
+- **Streaming stability**
+  - Restored reliable HLS playback that was temporarily affected by parser changes.
   - WebView2 player initialisation simplified to avoid race conditions.
 
-- **UI enhancements**  
-  - Added a draggable `GridSplitter` between channel list and player (resizable sidebar).  
-  - Toggle sidebar button now hides both the channel column and the splitter.  
+- **UI enhancements**
+  - Added a draggable `GridSplitter` between channel list and player (resizable sidebar).
+  - Toggle sidebar button now hides both the channel column and the splitter.
   - Channel list items (logos, folder icons, text) enlarged for better readability.
 
 ---
@@ -576,14 +597,14 @@ Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) 
 
 ## ✨ Features (Version 1.1
 
-- **Auto‑update** – A new "Update" button (toolbar or Help menu) checks for a newer version on GitHub.  
+- **Auto‑update** – A new "Update" button (toolbar or Help menu) checks for a newer version on GitHub.
   If found, it downloads the ZIP, extracts it, and restarts the app after replacing files.
 
 - **Version display** – The current version (e.g., `1.0`) now appears in the main window title, in the Help dialog, and in the "No updates available" message.
 
-- **Improved installer (Inno Setup)**  
-  - Multi‑language selection at startup (English, Italian, Arabic, French, Turkish, Polish, German, Spanish, Dutch, Portuguese, Russian).  
-  - Donation page with QR codes (PayPal & Ko‑fi).  
+- **Improved installer (Inno Setup)**
+  - Multi‑language selection at startup (English, Italian, Arabic, French, Turkish, Polish, German, Spanish, Dutch, Portuguese, Russian).
+  - Donation page with QR codes (PayPal & Ko‑fi).
   - Optional .NET Runtime info page with a clickable download link.
 
 - **Cleaner distribution** – The ZIP and setup no longer include WebView2 cache or duplicate folders (`Languages\Languages`, `PlayerHost\PlayerHost`).
@@ -639,80 +660,83 @@ LiveGardenTVPlus/
 ├── App.xaml / App.xaml.cs
 ├── MainWindow.xaml / MainWindow.xaml.cs
 ├── Views/
-│   ├── AboutWindow.xaml(.cs)
-│   ├── ChannelDetailsWindow.xaml(.cs)
-│   ├── ColorPickerWindow.xaml(.cs)
-│   ├── EpgWindow.xaml(.cs)
-│   ├── HelpWindow.xaml(.cs)
-│   ├── JsonImportMappingWindow.xaml(.cs)
-│   ├── LogoPickerWindow.xaml(.cs)
-│   ├── PlaylistEditorWindow.xaml(.cs)
-│   ├── SettingsWindow.xaml(.cs)
-│   ├── UrlListEditorWindow.xaml(.cs)
-│   └── XtreamLoginDialog.xaml(.cs)          (placeholder)
+│ ├── AboutWindow.xaml(.cs)
+│ ├── ChannelDetailsWindow.xaml(.cs)
+│ ├── ColorPickerWindow.xaml(.cs)
+│ ├── EpgWindow.xaml(.cs)
+│ ├── HelpWindow.xaml(.cs)
+│ ├── JsonImportMappingWindow.xaml(.cs)
+│ ├── LogoPickerWindow.xaml(.cs)
+│ ├── PlaylistEditorWindow.xaml(.cs)
+│ ├── SettingsWindow.xaml(.cs)
+│ ├── TelnetConfigWindow.xaml(.cs)
+│ ├── TelnetConsoleWindow.xaml(.cs)
+│ ├── UrlListEditorWindow.xaml(.cs)
+│ └── XtreamLoginDialog.xaml(.cs) (placeholder)
 ├── Converters/
-│   ├── BoolToStarColorConverter.cs
-│   ├── BoolToStarKindConverter.cs
-│   ├── BoolToVisibilityConverter.cs
-│   ├── FirstUrlConverter.cs
-│   ├── StringToVisibilityConverter.cs
-│   └── UrlToImageConverter.cs
+│ ├── BoolToStarColorConverter.cs
+│ ├── BoolToStarKindConverter.cs
+│ ├── BoolToVisibilityConverter.cs
+│ ├── FirstUrlConverter.cs
+│ ├── StringToVisibilityConverter.cs
+│ └── UrlToImageConverter.cs
 ├── Services/
-│   ├── EpgService.cs
-│   ├── FavoritesManager.cs
-│   ├── GitHubPlaylistFetcher.cs
-│   ├── ImageCache.cs
-│   ├── JsonMapper.cs
-│   ├── LanguageManager.cs
-│   ├── LogoService.cs
-│   ├── M3uParser.cs
-│   ├── ThemeManager.cs
-│   ├── TranslationHelper.cs                 (or TranslationService.cs)
-│   └── UserPreferences.cs
+│ ├── EpgService.cs
+│ ├── FavoritesManager.cs
+│ ├── GitHubPlaylistFetcher.cs
+│ ├── ImageCache.cs
+│ ├── JsonMapper.cs
+│ ├── LanguageManager.cs
+│ ├── LogoService.cs
+│ ├── M3uParser.cs
+│ ├── TelnetClient.cs
+│ ├── ThemeManager.cs
+│ ├── TranslationHelper.cs
+│ └── UserPreferences.cs
 ├── Models/
-│   ├── Channel.cs
-│   ├── ChannelEditable.cs
-│   ├── ChannelGroup.cs
-│   ├── ChannelJson.cs
-│   ├── EpgModels.cs
-│   ├── EpgProgram.cs
-│   ├── LogoInfo.cs
-│   └── MappingConfig.cs
+│ ├── Channel.cs
+│ ├── ChannelEditable.cs
+│ ├── ChannelGroup.cs
+│ ├── ChannelJson.cs
+│ ├── EpgModels.cs
+│ ├── EpgProgram.cs
+│ ├── LogoInfo.cs
+│ └── MappingConfig.cs
 ├── Updater/
-│   └── Updater.cs
-├── Languages/                               (92+ .lng files)
-├── Themes/                                  (16 .xaml theme files + logo-garden.png, avatar.gif)
+│ └── Updater.cs
+├── Languages/ (92+ .lng files)
+├── Themes/ (16 .xaml theme files + logo-garden.png, avatar.gif)
 └── PlayerHost/
-    └── player.html
+  └── player.html
 ```
 
 ---
 
 ## 🛠️ Usage
 
-1. **Load a playlist**  
-   - Click `Load M3U` (local file) or `Online M3U` (enter raw URL).  
+1. **Load a playlist**
+   - Click `Load M3U` (local file) or `Online M3U` (enter raw URL).
    - Or go to `Settings` → `Refresh from GitHub` → select a playlist → press `LOAD` or `SAVE`.
 
-2. **Play a channel**  
+2. **Play a channel**
    - Click any channel in the tree view. The video starts automatically.
 
-3. **Manage groups**  
-   - Click a group name to see only its channels.  
+3. **Manage groups**
+   - Click a group name to see only its channels.
    - Click `← Back to all groups` to return.
 
-4. **Favorites**  
-   - Right‑click a channel (or use the star icon) to add/remove favorites.  
+4. **Favorites**
+   - Right‑click a channel (or use the star icon) to add/remove favorites.
    - Toggle the `⭐ Favorites only` checkbox.
 
-5. **Search**  
+5. **Search**
    - Type in the search box to filter channels (flat result list).
 
-6. **Theme & UI**  
-   - Use the palette icon to choose a color theme.  
-   - `Hide List` collapses the sidebar.  
-   - `Fullscreen` hides all UI (press ESC to exit).  
-   - Speed buttons change playback speed.  
+6. **Theme & UI**
+   - Use the palette icon to choose a color theme.
+   - `Hide List` collapses the sidebar.
+   - `Fullscreen` hides all UI (press ESC to exit).
+   - Speed buttons change playback speed.
    - Drag & drop a `.m3u` file onto the window.
 
 ---
@@ -736,7 +760,7 @@ This project is released under the **MIT License** – see [LICENSE](LICENSE) fi
 
 ## 🤝 Contributing
 
-Bug reports and pull requests are welcome. Please open an issue first to discuss major changes.  
+Bug reports and pull requests are welcome. Please open an issue first to discuss major changes.
 For language translation fixes (the current limitation), any help is highly appreciated!
 
 ---

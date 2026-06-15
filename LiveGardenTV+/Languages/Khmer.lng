@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: កំណែថ្មីអាចរកបាន។ តើអ្នកចង់អាប់ដេតឥឡូវនេះទេ?
 Access via 'Edit Playlist' button on main toolbar.: ការចូលប្រើតាមរយៈប៊ូតុង 'កែសម្រួលបញ្ជីចាក់' នៅលើរបារឧបករណ៍សំខាន់។
 Actions: សកម្មភាព
+Add Command: បន្ថែមពាក្យបញ្ជា
 Add Group: បន្ថែមក្រុម
 Add Mapping: បន្ថែមការធ្វើផែនទី
 Adjust buffer size (1-10 seconds): លៃតម្រូវទំហំសតិបណ្ដោះអាសន្ន (1-10 វិនាទី)
@@ -29,8 +30,11 @@ Advanced IDs: លេខសម្គាល់កម្រិតខ្ពស់
 Application status: ស្ថានភាពកម្មវិធី
 Apply changes: អនុវត្តការផ្លាស់ប្តូរ
 Apply Filters: អនុវត្តតម្រង
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: តើអ្នកប្រាកដថាចង់ផ្ទុក Enigma2 GUI ឡើងវិញទេ?\n\nចំណុចប្រទាក់នឹងចាប់ផ្តើមឡើងវិញ (អេក្រង់ខ្មៅរយៈពេលពីរបីវិនាទី)។
 Auto-detect: រកឃើញដោយស្វ័យប្រវត្តិ
 Automatic check on startup – or click 'Check for updates' in Tools menu.: ពិនិត្យដោយស្វ័យប្រវត្តិនៅពេលចាប់ផ្តើម - ឬចុច 'ពិនិត្យមើលការអាប់ដេត' នៅក្នុងម៉ឺនុយឧបករណ៍។
+Bouquet Name: ឈ្មោះភួង
+Bouquet sent and Enigma2 channel list reloaded.: ភួងបានផ្ញើហើយបញ្ជីឆានែល Enigma2 ត្រូវបានផ្ទុកឡើងវិញ។
 Buffer (seconds): សតិបណ្ដោះអាសន្ន (វិនាទី)
 Buffer size – adjust HLS buffer seconds.: ទំហំសតិបណ្ដោះអាសន្ន – កែតម្រូវ HLS buffer វិនាទី។
 Cache: ឃ្លាំងសម្ងាត់
@@ -51,7 +55,11 @@ Clear Filters: ជម្រះតម្រង
 Clear search: ជម្រះការស្វែងរក
 Click for details: សូមចុចសម្រាប់ព័ត៌មានលម្អិត
 Close: បិទ
+Command name:: ឈ្មោះពាក្យបញ្ជា៖
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: សហគមន៍ និងការធ្វើតេស្ត៖ CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: បញ្ជាក់ផ្ទុកឡើងវិញ
+Connect: ភ្ជាប់
+Connected: បានភ្ជាប់
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: ប្រទេស
 Credits: ឥណទាន
@@ -60,6 +68,8 @@ Description: ការពិពណ៌នា
 Details: ព័ត៌មានលម្អិត
 Developed by Lululla: បង្កើតឡើងដោយ Lululla
 Developer: Lululla: អ្នកអភិវឌ្ឍន៍៖ លូលូឡា
+Disconnect: ផ្តាច់
+Disconnected: បានផ្ដាច់
 Do you want to load this edited playlist now?: តើអ្នកចង់ផ្ទុកបញ្ជីចាក់ដែលបានកែសម្រួលនេះឥឡូវនេះទេ?
 Double speed (2x): ល្បឿនទ្វេដង (2x)
 Downloading playlist...: កំពុងទាញយកបញ្ជីចាក់...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: ទាញ�
 Drag & drop – drop M3U or JSON files directly onto main window.: អូស និងទម្លាក់ – ទម្លាក់ឯកសារ M3U ឬ JSON ដោយផ្ទាល់ទៅលើបង្អួចមេ។
 Drag to seek back in buffer: អូសដើម្បីស្វែងរកត្រឡប់មកវិញនៅក្នុងសតិបណ្ដោះអាសន្ន
 Duplicate URLs found:\n\n: បានរកឃើញ URL ស្ទួន៖\n\n
+Edit Command: កែសម្រួលពាក្យបញ្ជា
+Edit command name:: កែសម្រួលឈ្មោះពាក្យបញ្ជា៖
 Edit Playlist: កែសម្រួលបញ្ជីចាក់
+Edit telnet command:: កែសម្រួលពាក្យបញ្ជា telnet៖
 Edit URLs: កែសម្រួល URLs
 End: ចប់
 Enrich with EPG: ពង្រឹងជាមួយ EPG
+Enter bouquet name (without spaces):: បញ្ចូលឈ្មោះភួង (ដោយគ្មានចន្លោះ)៖
 Enter JSON URL:: បញ្ចូល JSON URL៖
 Enter playlist URL (M3U or JSON):: បញ្ចូល URL បញ្ជីចាក់ (M3U ឬ JSON)៖
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: នាំចេញតែឆា�
 Extracting update...: កំពុងទាញយកបច្ចុប្បន្នភាព...
 Failed to download playlist: បានបរាជ័យក្នុងការទាញយកបញ្ជីចាក់
 Failed to load playlist: បានបរាជ័យក្នុងការផ្ទុកបញ្ជីចាក់
+Failed to update bouquets.tv.: បានបរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាព bouquets.tv ។
+Failed to upload bouquet.: បរាជ័យក្នុងការបង្ហោះភួង។
 Favorite: សំណព្វ
 Favorites only: ចំណូលចិត្តតែប៉ុណ្ណោះ
 Fetch Logos: យកឡូហ្គោ
+File {0} already exists. Overwrite?: ឯកសារ {0} មានរួចហើយ។ សរសេរជាន់លើ?
+File exists: មានឯកសារ
 Filters: តម្រង
 Fullscreen (hide UI) - press ESC to exit: ពេញអេក្រង់ (លាក់ UI) - ចុច ESC ដើម្បីចេញ
 Geo & Country: ភូមិសាស្ត្រ និងប្រទេស
@@ -183,6 +201,7 @@ No favorite channels to export.: គ្មានបណ្តាញដែលច�
 No playlist found: រកមិនឃើញបញ្ជីចាក់ទេ។
 No updates available.: មិនមានការអាប់ដេតទេ។
 Normal speed (1x): ល្បឿនធម្មតា (1x)
+Not connected to the box.: មិនបានភ្ជាប់ទៅប្រអប់។
 Now: ឥឡូវនេះ
 OK: យល់ព្រម
 Online Playlist: បញ្ជីចាក់តាមអ៊ីនធឺណិត
@@ -212,6 +231,8 @@ Refresh EPG: ធ្វើឱ្យ EPG ឡើងវិញ
 Refresh EPG List: ធ្វើឱ្យបញ្ជី EPG ឡើងវិញ
 Refresh from GitHub: ផ្ទុកឡើងវិញពី GitHub
 Refresh List: ធ្វើឱ្យបញ្ជីឡើងវិញ
+Reload GUI: ផ្ទុក GUI ឡើងវិញ
+Remove Command: លុបពាក្យបញ្ជា
 Rename Group: ប្តូរឈ្មោះក្រុម
 Repository: ឃ្លាំង
 Reset Order: កំណត់លំដាប់ឡើងវិញ
@@ -230,6 +251,9 @@ Search channels...: ស្វែងរកប៉ុស្តិ៍...
 Select a playlist first.: ជ្រើសរើសបញ្ជីចាក់ជាមុនសិន។
 Select Theme: ជ្រើសរើសប្រធានបទ
 Selected theme is saved and applied on restart.: រចនាប័ទ្មដែលបានជ្រើសរើសត្រូវបានរក្សាទុក និងអនុវត្តនៅពេលចាប់ផ្តើមឡើងវិញ។
+Send: ផ្ញើ
+Send playlist to Enigma2 decoder: ផ្ញើបញ្ជីចាក់ទៅឧបករណ៍ឌិកូដ Enigma2
+Send to Enigma2: ផ្ញើទៅ Enigma2
 Settings: ការកំណត់
 Show List: បង្ហាញបញ្ជី
 Show only channels marked as favorites: បង្ហាញតែប៉ុស្តិ៍ដែលត្រូវបានសម្គាល់ថាជាចំណូលចិត្តប៉ុណ្ណោះ។
@@ -243,6 +267,10 @@ Success: ជោគជ័យ
 Support: គាំទ្រ
 Support the developer: គាំទ្រអ្នកអភិវឌ្ឍន៍
 Target Field: វាលគោលដៅ
+Telnet command:: ពាក្យបញ្ជា Telnet៖
+Telnet Commander: មេបញ្ជាការ Telnet
+Telnet Console: កុងសូល Telnet
+Telnet not configured. Please set it in Settings.: Telnet មិនបានកំណត់រចនាសម្ព័ន្ធទេ។ សូមកំណត់វានៅក្នុងការកំណត់។
 Thanks to: សូមអរគុណដល់
 Theme picker: កម្មវិធីជ្រើសរើសប្រធានបទ
 Theme picker – accessible via Tools menu on main toolbar.: ឧបករណ៍ជ្រើសរើសស្បែក - អាចចូលប្រើបានតាមរយៈម៉ឺនុយឧបករណ៍នៅលើរបារឧបករណ៍សំខាន់។

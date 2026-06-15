@@ -8,13 +8,16 @@ using Newtonsoft.Json.Linq;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.IO;
+using System.Net;
 using System.Net.Http;
 using System.Reflection;
+using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Media;
 using System.Windows.Controls.Primitives;
+using System.Windows.Media;
+using System.Net.Sockets;
 
 namespace LiveGardenTVPlus
 {
@@ -123,7 +126,11 @@ namespace LiveGardenTVPlus
             
             ExportFavoritesBtnText.Text = LanguageManager.GetTranslation("Export Favorites");
             ExportFavoritesBtn.ToolTip = LanguageManager.GetTranslation("Export only favorite channels to a new M3U file");
-            
+
+            SendToEnigmaText.Text = LanguageManager.GetTranslation("Send to Enigma2");
+            SendToEnigmaBtn.ToolTip = LanguageManager.GetTranslation("Send playlist to Enigma2 decoder");
+            PopupTelnetConsoleText.Text = LanguageManager.GetTranslation("Telnet Console");
+
             EditPlaylistBtnText.Text = LanguageManager.GetTranslation("Edit Playlist");
             EditPlaylistBtn.ToolTip = LanguageManager.GetTranslation("Playlist Management");
             
@@ -1331,6 +1338,258 @@ namespace LiveGardenTVPlus
             if (toggle != null)
                 _showFavoritesOnly = toggle.IsChecked == true;
             RefreshChannelsView();
+        }
+
+        private async void SendToEnigmaBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Debug.WriteLine("=== SendToEnigmaBtn_Click START ===");
+            if (_allChannelsOriginal == null || _allChannelsOriginal.Count == 0)
+            {
+                Debug.WriteLine("No playlist loaded.");
+                MessageBox.Show(LanguageManager.GetTranslation("Load a playlist first."));
+                return;
+            }
+            Debug.WriteLine($"Playlist loaded: {_allChannelsOriginal.Count} channels");
+
+            var prefs = UserPreferences.Load();
+            if (string.IsNullOrEmpty(prefs.TelnetHost))
+            {
+                Debug.WriteLine("Telnet not configured.");
+                MessageBox.Show(LanguageManager.GetTranslation("Telnet not configured. Please set it in Settings."));
+                return;
+            }
+            Debug.WriteLine($"Telnet host: {prefs.TelnetHost}");
+
+            string bouquetName = Microsoft.VisualBasic.Interaction.InputBox(
+                LanguageManager.GetTranslation("Enter bouquet name (without spaces):"),
+                LanguageManager.GetTranslation("Bouquet Name"),
+                "LiveGardenTV+");
+            if (string.IsNullOrWhiteSpace(bouquetName)) return;
+            Debug.WriteLine($"Bouquet name: {bouquetName}");
+
+            string remoteFile = $"/etc/enigma2/userbouquet.{bouquetName}.tv";
+            Debug.WriteLine($"Remote file: {remoteFile}");
+
+            bool exists = await FileExistsOnFtp(remoteFile);
+            Debug.WriteLine($"File exists on FTP: {exists}");
+            if (exists)
+            {
+                var result = MessageBox.Show(
+                    string.Format(LanguageManager.GetTranslation("File {0} already exists. Overwrite?"), remoteFile),
+                    LanguageManager.GetTranslation("File exists"),
+                    MessageBoxButton.YesNo, MessageBoxImage.Question);
+                if (result != MessageBoxResult.Yes) return;
+            }
+
+            string content = GenerateEnigma2Bouquet(bouquetName);
+            Debug.WriteLine($"Bouquet generated, length: {content.Length} chars");
+
+            Debug.WriteLine("Uploading bouquet via FTP...");
+            bool uploaded = await UploadBouquetViaFtp(content, remoteFile);
+            Debug.WriteLine($"Upload result: {(uploaded ? "SUCCESS" : "FAILURE")}");
+            if (!uploaded)
+            {
+                MessageBox.Show(LanguageManager.GetTranslation("Failed to upload bouquet."));
+                return;
+            }
+
+            Debug.WriteLine("Updating bouquets.tv reference...");
+            bool refUpdated = await UpdateBouquetsTv(bouquetName);
+            Debug.WriteLine($"Update bouquets.tv result: {(refUpdated ? "SUCCESS" : "FAILURE")}");
+            if (!refUpdated)
+            {
+                MessageBox.Show(LanguageManager.GetTranslation("Failed to update bouquets.tv."));
+                return;
+            }
+
+            Debug.WriteLine("Reloading Enigma2 channel list via telnet...");
+            await ReloadEnigma2Channels();
+            Debug.WriteLine("Reload command sent.");
+
+            MessageBox.Show(LanguageManager.GetTranslation("Bouquet sent and Enigma2 channel list reloaded."));
+            Debug.WriteLine("=== SendToEnigmaBtn_Click END (SUCCESS) ===");
+        }
+
+        private async Task<bool> FileExistsOnFtp(string remotePath)
+        {
+            var prefs = UserPreferences.Load();
+            string ftpUrl = $"ftp://{prefs.TelnetHost}/{remotePath}";
+            try
+            {
+                var request = (FtpWebRequest)WebRequest.Create(ftpUrl);
+                request.Method = WebRequestMethods.Ftp.GetFileSize;
+                request.Credentials = new NetworkCredential(prefs.TelnetUser, prefs.TelnetPass);
+                using (var response = (FtpWebResponse)await request.GetResponseAsync())
+                    return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"FileExists check: {ex.Message}");
+                return false;
+            }
+        }
+
+        private string GenerateEnigma2Bouquet(string bouquetName)
+        {
+            var sb = new StringBuilder();
+            sb.AppendLine($"#NAME {bouquetName}");
+            foreach (var ch in _allChannelsOriginal)
+            {
+                if (string.IsNullOrEmpty(ch.Url)) continue;
+                string encodedUrl = ch.Url.Replace(":", "%3a");
+                sb.AppendLine($"#SERVICE 4097:0:1:0:0:0:0:0:0:0:{encodedUrl}");
+                sb.AppendLine($"#DESCRIPTION {ch.Name}");
+            }
+            return sb.ToString();
+        }
+
+        private async Task<bool> UpdateBouquetsTv(string bouquetName)
+        {
+            var prefs = UserPreferences.Load();
+            string remoteBouquets = "/etc/enigma2/bouquets.tv";
+            string localTemp = Path.GetTempFileName();
+            string content = "";
+
+            bool exists = await FileExistsOnFtp(remoteBouquets);
+            if (exists)
+            {
+                try
+                {
+                    var request = (FtpWebRequest)WebRequest.Create($"ftp://{prefs.TelnetHost}/{remoteBouquets}");
+                    request.Method = WebRequestMethods.Ftp.DownloadFile;
+                    request.Credentials = new NetworkCredential(prefs.TelnetUser, prefs.TelnetPass);
+                    using (var response = await request.GetResponseAsync())
+                    using (var stream = response.GetResponseStream())
+                    using (var reader = new StreamReader(stream))
+                        content = await reader.ReadToEndAsync();
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine($"Download bouquets.tv error: {ex.Message}");
+                    return false;
+                }
+            }
+
+            // Split lines, remove empty ones
+            var lines = content.Split(new[] { "\r\n", "\n" }, StringSplitOptions.RemoveEmptyEntries);
+            var nonEmptyLines = lines.Where(l => !string.IsNullOrWhiteSpace(l)).ToList();
+            string referenceLine = $"#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET \"userbouquet.{bouquetName}.tv\" ORDER BY bouquet";
+
+            // If already present, return true
+            if (nonEmptyLines.Any(l => l.Contains($"userbouquet.{bouquetName}.tv")))
+                return true;
+
+            // Add to the end
+            nonEmptyLines.Add(referenceLine);
+            string newContent = string.Join("\n", nonEmptyLines) + "\n";
+
+            return await UploadBouquetViaFtp(newContent, remoteBouquets);
+        }
+
+        private async Task<bool> UploadBouquetViaFtp(string content, string remotePath)
+        {
+            var prefs = UserPreferences.Load();
+            string ftpUrl = $"ftp://{prefs.TelnetHost}/{remotePath}";
+            try
+            {
+                var request = (FtpWebRequest)WebRequest.Create(ftpUrl);
+                request.Method = WebRequestMethods.Ftp.UploadFile;
+                request.Credentials = new NetworkCredential(prefs.TelnetUser, prefs.TelnetPass);
+                request.UseBinary = true;
+                byte[] data = Encoding.UTF8.GetBytes(content);
+                request.ContentLength = data.Length;
+                using (var stream = await request.GetRequestStreamAsync())
+                    await stream.WriteAsync(data, 0, data.Length);
+                using (var response = (FtpWebResponse)await request.GetResponseAsync())
+                {
+                    // Accept both 226 (ClosingData) and 226 (FileActionOK)
+                    bool success = response.StatusCode == FtpStatusCode.FileActionOK ||
+                                   response.StatusCode == FtpStatusCode.ClosingData;
+                    Debug.WriteLine($"FTP response: {response.StatusCode} - {response.StatusDescription}");
+                    return success;
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"FTP upload error: {ex.Message}");
+                return false;
+            }
+        }
+
+        private async Task ReloadEnigma2Channels()
+        {
+            var prefs = UserPreferences.Load();
+            string url = $"http://{prefs.TelnetHost}/web/servicelistreload?mode=0";
+            try
+            {
+                using (var client = new HttpClient())
+                {
+                    client.Timeout = TimeSpan.FromSeconds(5);
+                    var response = await client.GetAsync(url);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        Debug.WriteLine($"Reload HTTP OK: {response.StatusCode}");
+                    }
+                    else
+                    {
+                        Debug.WriteLine($"Reload HTTP failed: {response.StatusCode}");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Reload HTTP exception: {ex.Message}");
+            }
+        }
+
+        private async Task ReloadEnigma2Channels2()
+        {
+            var prefs = UserPreferences.Load();
+            using (var client = new TcpClient())
+            {
+                await client.ConnectAsync(prefs.TelnetHost, prefs.TelnetPort);
+                using (var stream = client.GetStream())
+                {
+                    // Login sequence
+                    byte[] buffer = Encoding.ASCII.GetBytes(prefs.TelnetUser + "\r\n");
+                    await stream.WriteAsync(buffer, 0, buffer.Length);
+                    await Task.Delay(200);
+                    buffer = Encoding.ASCII.GetBytes(prefs.TelnetPass + "\r\n");
+                    await stream.WriteAsync(buffer, 0, buffer.Length);
+                    await Task.Delay(500);
+                    // Send reload command
+                    buffer = Encoding.ASCII.GetBytes("wget -qO- http://127.0.0.1/web/servicelistreload?mode=0\r\n");
+                    await stream.WriteAsync(buffer, 0, buffer.Length);
+                    await Task.Delay(2000);
+                    // No need to read response
+                }
+            }
+        }
+
+        private async Task<bool> DownloadFileViaFtp(string remotePath, string localPath)
+        {
+            var prefs = UserPreferences.Load();
+            string ftpUrl = $"ftp://{prefs.TelnetHost}/{remotePath}";
+            try
+            {
+                var request = (System.Net.FtpWebRequest)System.Net.WebRequest.Create(ftpUrl);
+                request.Method = System.Net.WebRequestMethods.Ftp.DownloadFile;
+                request.Credentials = new System.Net.NetworkCredential(prefs.TelnetUser, prefs.TelnetPass);
+                using (var response = await request.GetResponseAsync())
+                using (var stream = response.GetResponseStream())
+                using (var file = File.Create(localPath))
+                    await stream.CopyToAsync(file);
+                return true;
+            }
+            catch { return false; }
+        }
+
+        private void PopupTelnetConsoleBtn_Click(object sender, RoutedEventArgs e)
+        {
+            ToolsPopup.IsOpen = false;
+            var telnetConsole = new TelnetConsoleWindow();
+            telnetConsole.Owner = this;
+            telnetConsole.ShowDialog();
         }
 
         private void SearchBox_GotFocus(object sender, RoutedEventArgs e)

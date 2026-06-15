@@ -25,5 +25,9 @@ namespace LiveGardenTVPlus.Services
         private static string PrefsFile => Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "userprefs.json");
         public void Save() => File.WriteAllText(PrefsFile, JsonConvert.SerializeObject(this, Formatting.Indented));
         public Dictionary<string, string> JsonMappings { get; set; } = new Dictionary<string, string>();
+        public string TelnetHost { get; set; } = "192.168.1.78";
+        public int TelnetPort { get; set; } = 23;
+        public string TelnetUser { get; set; } = "root";
+        public string TelnetPass { get; set; } = "";
     }
 }

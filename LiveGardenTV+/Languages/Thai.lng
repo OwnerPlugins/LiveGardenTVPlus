@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: มีเวอร์ชันใหม่ให้ใช้งานแล้ว คุณต้องการอัปเดตตอนนี้หรือไม่?
 Access via 'Edit Playlist' button on main toolbar.: เข้าถึงได้ผ่านปุ่ม 'แก้ไขเพลย์ลิสต์' บนแถบเครื่องมือหลัก
 Actions: การดำเนินการ
+Add Command: เพิ่มคำสั่ง
 Add Group: เพิ่มกลุ่ม
 Add Mapping: เพิ่มการทำแผนที่
 Adjust buffer size (1-10 seconds): ปรับขนาดบัฟเฟอร์ (1-10 วินาที)
@@ -29,8 +30,11 @@ Advanced IDs: รหัสขั้นสูง
 Application status: สถานะการสมัคร
 Apply changes: ใช้การเปลี่ยนแปลง
 Apply Filters: ใช้ตัวกรอง
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: คุณแน่ใจหรือไม่ว่าต้องการโหลด Enigma2 GUI ใหม่\n\nอินเทอร์เฟซจะรีสตาร์ท (หน้าจอสีดำไม่กี่วินาที)
 Auto-detect: ตรวจจับอัตโนมัติ
 Automatic check on startup – or click 'Check for updates' in Tools menu.: ตรวจสอบอัตโนมัติเมื่อเริ่มต้น – หรือคลิก 'ตรวจสอบการอัปเดต' ในเมนูเครื่องมือ
+Bouquet Name: ชื่อช่อดอกไม้
+Bouquet sent and Enigma2 channel list reloaded.: Bouquet ส่งไปแล้วและรายการช่อง Enigma2 รีโหลดแล้ว
 Buffer (seconds): บัฟเฟอร์ (วินาที)
 Buffer size – adjust HLS buffer seconds.: ขนาดบัฟเฟอร์ - ปรับวินาทีบัฟเฟอร์ HLS
 Cache: แคช
@@ -51,7 +55,11 @@ Clear Filters: ล้างตัวกรอง
 Clear search: ล้างการค้นหา
 Click for details: คลิกเพื่อดูรายละเอียด
 Close: ปิด
+Command name:: ชื่อคำสั่ง:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ชุมชนและการทดสอบ: CorvoBoys (corvoboys.org) และ LinuxSat-Support.com
+Confirm Reload: ยืนยันการโหลดซ้ำ
+Connect: เชื่อมต่อ
+Connected: เชื่อมต่อแล้ว
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: ประเทศ
 Credits: เครดิต
@@ -60,6 +68,8 @@ Description: คำอธิบาย
 Details: รายละเอียด
 Developed by Lululla: พัฒนาโดย Lululla
 Developer: Lululla: ผู้พัฒนา: Lululla
+Disconnect: ตัดการเชื่อมต่อ
+Disconnected: ตัดการเชื่อมต่อแล้ว
 Do you want to load this edited playlist now?: คุณต้องการโหลดเพลย์ลิสต์ที่แก้ไขนี้ตอนนี้หรือไม่
 Double speed (2x): ความเร็วสองเท่า (2x)
 Downloading playlist...: กำลังดาวน์โหลดเพลย์ลิสต์...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: ดาว�
 Drag & drop – drop M3U or JSON files directly onto main window.: ลากและวาง – วางไฟล์ M3U หรือ JSON ลงบนหน้าต่างหลักโดยตรง
 Drag to seek back in buffer: ลากเพื่อค้นหากลับในบัฟเฟอร์
 Duplicate URLs found:\n\n: พบ URL ที่ซ้ำกัน:\n\n
+Edit Command: แก้ไขคำสั่ง
+Edit command name:: แก้ไขชื่อคำสั่ง:
 Edit Playlist: แก้ไขเพลย์ลิสต์
+Edit telnet command:: แก้ไขคำสั่ง telnet:
 Edit URLs: แก้ไข URL
 End: จบ
 Enrich with EPG: เติมเต็มด้วย EPG
+Enter bouquet name (without spaces):: ใส่ชื่อช่อดอกไม้ (ไม่ต้องเว้นวรรค):
 Enter JSON URL:: ป้อน URL JSON:
 Enter playlist URL (M3U or JSON):: ป้อน URL เพลย์ลิสต์ (M3U หรือ JSON):
 EPG: อีพีจี
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: ส่งออกเฉพา�
 Extracting update...: กำลังแยกการอัปเดต...
 Failed to download playlist: ดาวน์โหลดเพลย์ลิสต์ไม่สำเร็จ
 Failed to load playlist: ไม่สามารถโหลดเพลย์ลิสต์
+Failed to update bouquets.tv.: อัปเดต Bouquets.tv ไม่สำเร็จ
+Failed to upload bouquet.: อัปโหลดช่อดอกไม้ไม่สำเร็จ
 Favorite: ที่ชื่นชอบ
 Favorites only: รายการโปรดเท่านั้น
 Fetch Logos: ดึงโลโก้
+File {0} already exists. Overwrite?: ไฟล์ {0} มีอยู่แล้ว เขียนทับ?
+File exists: มีไฟล์อยู่
 Filters: ตัวกรอง
 Fullscreen (hide UI) - press ESC to exit: เต็มหน้าจอ (ซ่อน UI) - กด ESC เพื่อออก
 Geo & Country: ภูมิศาสตร์และประเทศ
@@ -183,6 +201,7 @@ No favorite channels to export.: ไม่มีช่องโปรดที�
 No playlist found: ไม่พบเพลย์ลิสต์
 No updates available.: ไม่มีการอัปเดต
 Normal speed (1x): ความเร็วปกติ (1x)
+Not connected to the box.: ไม่ได้เชื่อมต่อกับกล่อง
 Now: ตอนนี้
 OK: ตกลง
 Online Playlist: เพลย์ลิสต์ออนไลน์
@@ -212,6 +231,8 @@ Refresh EPG: รีเฟรช EPG
 Refresh EPG List: รีเฟรชรายการ EPG
 Refresh from GitHub: รีเฟรชจาก GitHub
 Refresh List: รีเฟรชรายการ
+Reload GUI: โหลด GUI อีกครั้ง
+Remove Command: ลบคำสั่ง
 Rename Group: เปลี่ยนชื่อกลุ่ม
 Repository: พื้นที่เก็บข้อมูล
 Reset Order: รีเซ็ตคำสั่งซื้อ
@@ -230,6 +251,9 @@ Search channels...: ค้นหาช่อง...
 Select a playlist first.: เลือกเพลย์ลิสต์ก่อน
 Select Theme: เลือกธีม
 Selected theme is saved and applied on restart.: ธีมที่เลือกจะถูกบันทึกและนำไปใช้เมื่อรีสตาร์ท
+Send: ส่ง
+Send playlist to Enigma2 decoder: ส่งเพลย์ลิสต์ไปยังตัวถอดรหัส Enigma2
+Send to Enigma2: ส่งไปที่ Enigma2
 Settings: การตั้งค่า
 Show List: แสดงรายการ
 Show only channels marked as favorites: แสดงเฉพาะช่องที่ทำเครื่องหมายว่าเป็นรายการโปรด
@@ -243,6 +267,10 @@ Success: ความสำเร็จ
 Support: สนับสนุน
 Support the developer: สนับสนุนนักพัฒนา
 Target Field: สนามเป้าหมาย
+Telnet command:: คำสั่งเทลเน็ต:
+Telnet Commander: ผู้บัญชาการเทลเน็ต
+Telnet Console: คอนโซลเทลเน็ต
+Telnet not configured. Please set it in Settings.: ไม่ได้กำหนดค่า Telnet กรุณาตั้งค่าในการตั้งค่า
 Thanks to: ขอบคุณ
 Theme picker: เครื่องมือเลือกธีม
 Theme picker – accessible via Tools menu on main toolbar.: ตัวเลือกธีม – เข้าถึงได้จากเมนูเครื่องมือบนแถบเครื่องมือหลัก

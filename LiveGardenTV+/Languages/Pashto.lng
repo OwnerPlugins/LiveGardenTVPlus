@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: یوه نوې نسخه شتون لري. ایا تاسو اوس تازه کول غواړئ؟
 Access via 'Edit Playlist' button on main toolbar.: په اصلي اوزار بار کې د 'پلی لیست ترمیم' تڼۍ له لارې لاسرسی.
 Actions: کړنې
+Add Command: کمانډ اضافه کړئ
 Add Group: ګروپ اضافه کړئ
 Add Mapping: نقشه اضافه کړئ
 Adjust buffer size (1-10 seconds): د بفر اندازه تنظیم کړئ (1-10 ثانیې)
@@ -29,8 +30,11 @@ Advanced IDs: پرمختللي IDs
 Application status: د غوښتنلیک حالت
 Apply changes: بدلونونه پلي کړئ
 Apply Filters: فلټرونه پلي کړئ
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: ایا تاسو ډاډه یاست چې د Enigma2 GUI بیا پورته کول غواړئ؟\n\nانټرفیس به بیا پیل شي (د څو ثانیو لپاره تور سکرین).
 Auto-detect: په اتوماتيک ډول کشف
 Automatic check on startup – or click 'Check for updates' in Tools menu.: په پیل کې اتوماتیک چیک - یا د وسیلو مینو کې 'د تازه معلوماتو لپاره چیک وکړئ' کلیک وکړئ.
+Bouquet Name: د ګلدان نوم
+Bouquet sent and Enigma2 channel list reloaded.: ګلدستې لیږل شوي او د Enigma2 چینل لیست بیا پورته شوی.
 Buffer (seconds): بفر (ثانوي)
 Buffer size – adjust HLS buffer seconds.: د بفر اندازه - د HLS بفر ثانیې تنظیم کړئ.
 Cache: کیچ
@@ -51,7 +55,11 @@ Clear Filters: فلټرونه پاک کړئ
 Clear search: پاک لټون
 Click for details: د جزیاتو لپاره کلیک وکړئ
 Close: تړل
+Command name:: د قوماندې نوم:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ټولنه او ازموینه: CorvoBoys (corvoboys.org) او LinuxSat-Support.com
+Confirm Reload: بیا پورته کول تایید کړئ
+Connect: نښلول
+Connected: نښلول شوی
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: هیواد
 Credits: کریډیټ
@@ -60,6 +68,8 @@ Description: تفصیل
 Details: جزیات
 Developed by Lululla: د لولولا لخوا رامینځته شوی
 Developer: Lululla: پرمخ وړونکی: لولا
+Disconnect: منحل کول
+Disconnected: منحل شوی
 Do you want to load this edited playlist now?: ایا تاسو غواړئ دا ترمیم شوی پلی لیست اوس پورته کړئ؟
 Double speed (2x): دوه برابره سرعت (2x)
 Downloading playlist...: د پلی لیست ډاونلوډ کول...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: زپ ډاو
 Drag & drop – drop M3U or JSON files directly onto main window.: ډریګ او ډراپ - د M3U یا JSON فایلونه مستقیم اصلي کړکۍ ته وغورځوئ.
 Drag to seek back in buffer: په بفر کې د بیرته لټولو لپاره کش کړئ
 Duplicate URLs found:\n\n: نقل شوي URLs وموندل:\n\n
+Edit Command: د سمون امر
+Edit command name:: د قوماندې نوم سمول:
 Edit Playlist: پلی لیست سمول
+Edit telnet command:: د ټیلنټ کمانډ ایډیټ کړئ:
 Edit URLs: URLs ایډیټ کړئ
 End: پای
 Enrich with EPG: د EPG سره بډایه کړئ
+Enter bouquet name (without spaces):: د ګلدان نوم دننه کړئ (پرته له ځای څخه):
 Enter JSON URL:: د JSON URL داخل کړئ:
 Enter playlist URL (M3U or JSON):: د پلی لیست URL داخل کړئ (M3U یا JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: یوازې د خوښې چینل
 Extracting update...: تازه استخراج...
 Failed to download playlist: د پلی لیست ډاونلوډ کولو کې پاتې راغلی
 Failed to load playlist: د پلی لیست په پورته کولو کې پاتې راغلی
+Failed to update bouquets.tv.: د bouquets.tv په تازه کولو کې پاتې راغلی.
+Failed to upload bouquet.: د ګلدستې په پورته کولو کې پاتې راغلی.
 Favorite: د خوښې وړ
 Favorites only: یوازې د خوښې وړ
 Fetch Logos: لوګو ترلاسه کړئ
+File {0} already exists. Overwrite?: دوتنې {0} لا دمخه شتون لري. بیا لیکل؟
+File exists: دوتنه شتون لري
 Filters: فلټرونه
 Fullscreen (hide UI) - press ESC to exit: بشپړ سکرین (UI پټ کړئ) - د وتلو لپاره ESC فشار ورکړئ
 Geo & Country: جیو او هیواد
@@ -183,6 +201,7 @@ No favorite channels to export.: د صادرولو لپاره هیڅ غوره چ
 No playlist found: هیڅ پلی لیست ونه موندل شو
 No updates available.: هیڅ تازه معلومات شتون نلري.
 Normal speed (1x): نورمال سرعت (1x)
+Not connected to the box.: د بکس سره تړلی نه دی.
 Now: اوس
 OK: سمه ده
 Online Playlist: آنلاین پلی لیست
@@ -212,6 +231,8 @@ Refresh EPG: EPG تازه کړئ
 Refresh EPG List: د EPG لیست تازه کړئ
 Refresh from GitHub: له GitHub څخه تازه کړئ
 Refresh List: لیست تازه کړئ
+Reload GUI: GUI بیا پورته کړئ
+Remove Command: کمانډ لرې کړئ
 Rename Group: د ګروپ نوم بدل کړئ
 Repository: ذخیره
 Reset Order: ترتیب بیا تنظیم کړئ
@@ -230,6 +251,9 @@ Search channels...: چینلونه وپلټئ...
 Select a playlist first.: لومړی یو پلی لیست غوره کړئ.
 Select Theme: موضوع غوره کړئ
 Selected theme is saved and applied on restart.: ټاکل شوې موضوع خوندي شوې او په بیا پیلولو کې پلي کیږي.
+Send: لیږل
+Send playlist to Enigma2 decoder: د پلې لیست Enigma2 ډیکوډر ته واستوئ
+Send to Enigma2: Enigma2 ته واستوئ
 Settings: ترتیبات
 Show List: لیست ښکاره کړئ
 Show only channels marked as favorites: یوازې هغه چینلونه وښایاست چې د خوښې په توګه نښه شوي
@@ -243,6 +267,10 @@ Success: بریالیتوب
 Support: ملاتړ
 Support the developer: د پراختیا کونکي ملاتړ وکړئ
 Target Field: د هدف ساحه
+Telnet command:: د Telnet قومانده:
+Telnet Commander: د ټیلنټ قوماندان
+Telnet Console: د ټیلنیټ کنسول
+Telnet not configured. Please set it in Settings.: Telnet نه دی ترتیب شوی. مهرباني وکړئ دا په ترتیباتو کې تنظیم کړئ.
 Thanks to: مننه
 Theme picker: د موضوع غوره کوونکی
 Theme picker – accessible via Tools menu on main toolbar.: د موضوع غوره کونکی - په اصلي وسیلې بار کې د اوزار مینو له لارې د لاسرسي وړ.

@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Mae fersiwn newydd ar gael. Ydych chi eisiau diweddaru nawr?
 Access via 'Edit Playlist' button on main toolbar.: Mynediad trwy'r botwm 'Golygu Rhestr Chwarae' ar y prif far offer.
 Actions: Gweithredoedd
+Add Command: Ychwanegu Gorchymyn
 Add Group: Ychwanegu Grŵp
 Add Mapping: Ychwanegu Mapio
 Adjust buffer size (1-10 seconds): Addasu maint byffer (1-10 eiliad)
@@ -29,8 +30,11 @@ Advanced IDs: IDau uwch
 Application status: Statws cais
 Apply changes: Cymhwyso newidiadau
 Apply Filters: Cymhwyso Hidlau
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ydych chi'n siŵr eich bod am ail-lwytho GUI Enigma2?\n\nBydd y rhyngwyneb yn ailgychwyn (sgrin ddu am ychydig eiliadau).
 Auto-detect: Auto-canfod
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Gwiriad awtomatig wrth gychwyn - neu cliciwch ar 'Gwirio am ddiweddariadau' yn newislen Tools.
+Bouquet Name: Enw Bouquet
+Bouquet sent and Enigma2 channel list reloaded.: Anfonwyd Bouquet a rhestr sianel Enigma2 wedi'i hail-lwytho.
 Buffer (seconds): byffer (eiliadau)
 Buffer size – adjust HLS buffer seconds.: Maint byffer - addasu eiliadau byffer HLS.
 Cache: Cache
@@ -51,7 +55,11 @@ Clear Filters: Hidlau clir
 Clear search: Chwiliad clir
 Click for details: Cliciwch am fanylion
 Close: Cau
+Command name:: Enw gorchymyn:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Cymuned a phrofi: CorvoBoys (corvoboys.org) a LinuxSat-Support.com
+Confirm Reload: Cadarnhau Ail-lwytho
+Connect: Cyswllt
+Connected: Wedi'i gysylltu
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Gwlad
 Credits: Credydau
@@ -60,6 +68,8 @@ Description: Disgrifiad
 Details: Manylion
 Developed by Lululla: Datblygwyd gan Lululla
 Developer: Lululla: Datblygwr: Lululla
+Disconnect: Datgysylltu
+Disconnected: Wedi'i ddatgysylltu
 Do you want to load this edited playlist now?: Ydych chi am lwytho'r rhestr chwarae hon sydd wedi'i golygu nawr?
 Double speed (2x): Cyflymder dwbl (2x)
 Downloading playlist...: Wrthi'n lawrlwytho rhestr chwarae...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Yn lawrlwyt
 Drag & drop – drop M3U or JSON files directly onto main window.: Llusgo a gollwng - gollwng ffeiliau M3U neu JSON yn uniongyrchol i'r brif ffenestr.
 Drag to seek back in buffer: Llusgwch i chwilio yn ôl yn y byffer
 Duplicate URLs found:\n\n: Wedi canfod URLau dyblyg:\n\n
+Edit Command: Golygu Gorchymyn
+Edit command name:: Golygu enw'r gorchymyn:
 Edit Playlist: Golygu Rhestr Chwarae
+Edit telnet command:: Golygu gorchymyn telnet:
 Edit URLs: Golygu URLs
 End: Diwedd
 Enrich with EPG: Cyfoethogi gyda EPG
+Enter bouquet name (without spaces):: Rhowch enw tusw (heb fylchau):
 Enter JSON URL:: Rhowch URL JSON:
 Enter playlist URL (M3U or JSON):: Rhowch URL rhestr chwarae (M3U neu JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Allforio hoff sianeli yn unig i
 Extracting update...: Wrthi'n echdynnu diweddariad...
 Failed to download playlist: Wedi methu lawrlwytho rhestr chwarae
 Failed to load playlist: Wedi methu llwytho rhestr chwarae
+Failed to update bouquets.tv.: Wedi methu â diweddaru bouquets.tv.
+Failed to upload bouquet.: Wedi methu ag uwchlwytho tusw.
 Favorite: Hoff
 Favorites only: Ffefrynnau yn unig
 Fetch Logos: Nôl Logos
+File {0} already exists. Overwrite?: Mae ffeil {0} eisoes yn bodoli. Trosysgrifo?
+File exists: Ffeil yn bodoli
 Filters: Hidlau
 Fullscreen (hide UI) - press ESC to exit: Sgrin lawn (cuddio UI) - pwyswch ESC i adael
 Geo & Country: Geo & Gwlad
@@ -183,6 +201,7 @@ No favorite channels to export.: Dim hoff sianeli i'w hallforio.
 No playlist found: Heb ganfod rhestr chwarae
 No updates available.: Dim diweddariadau ar gael.
 Normal speed (1x): Cyflymder arferol (1x)
+Not connected to the box.: Heb ei gysylltu â'r blwch.
 Now: Yn awr
 OK: iawn
 Online Playlist: Rhestr Chwarae Ar-lein
@@ -212,6 +231,8 @@ Refresh EPG: Adnewyddu EPG
 Refresh EPG List: Adnewyddu'r Rhestr EPG
 Refresh from GitHub: Adnewyddu o GitHub
 Refresh List: Rhestr Adnewyddu
+Reload GUI: Ail-lwytho GUI
+Remove Command: Dileu Gorchymyn
 Rename Group: Ailenwi'r Grŵp
 Repository: Ystorfa
 Reset Order: Gorchymyn Ailosod
@@ -230,6 +251,9 @@ Search channels...: Chwilio sianeli...
 Select a playlist first.: Dewiswch restr chwarae yn gyntaf.
 Select Theme: Dewiswch Thema
 Selected theme is saved and applied on restart.: Mae'r thema a ddewiswyd yn cael ei chadw a'i chymhwyso wrth ailgychwyn.
+Send: Anfon
+Send playlist to Enigma2 decoder: Anfon rhestr chwarae i ddatgodiwr Enigma2
+Send to Enigma2: Anfonwch i Enigma2
 Settings: Gosodiadau
 Show List: Dangos Rhestr
 Show only channels marked as favorites: Dangos sianeli sydd wedi'u marcio fel ffefrynnau yn unig
@@ -243,6 +267,10 @@ Success: Llwyddiant
 Support: Cefnogaeth
 Support the developer: Cefnogwch y datblygwr
 Target Field: Maes Targed
+Telnet command:: Gorchymyn Telnet:
+Telnet Commander: Comander Telnet
+Telnet Console: Consol Telnet
+Telnet not configured. Please set it in Settings.: Telnet heb ei ffurfweddu. Gosodwch ef yn y Gosodiadau.
 Thanks to: Diolch i
 Theme picker: Dewisydd thema
 Theme picker – accessible via Tools menu on main toolbar.: Dewiswr thema - ar gael trwy ddewislen Tools ar y prif far offer.

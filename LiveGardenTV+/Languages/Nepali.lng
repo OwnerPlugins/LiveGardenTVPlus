@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: नयाँ संस्करण उपलब्ध छ। के तपाई अहिले अपडेट गर्न चाहनुहुन्छ?
 Access via 'Edit Playlist' button on main toolbar.: मुख्य उपकरणपट्टीमा 'प्लेलिस्ट सम्पादन गर्नुहोस्' बटन मार्फत पहुँच गर्नुहोस्।
 Actions: कार्यहरू
+Add Command: आदेश थप्नुहोस्
 Add Group: समूह थप्नुहोस्
 Add Mapping: म्यापिङ थप्नुहोस्
 Adjust buffer size (1-10 seconds): बफर साइज समायोजन गर्नुहोस् (१-१० सेकेन्ड)
@@ -29,8 +30,11 @@ Advanced IDs: उन्नत आईडीहरू
 Application status: आवेदन स्थिति
 Apply changes: परिवर्तनहरू लागू गर्नुहोस्
 Apply Filters: फिल्टरहरू लागू गर्नुहोस्
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: के तपाइँ निश्चित हुनुहुन्छ कि तपाइँ Enigma2 GUI पुन: लोड गर्न चाहनुहुन्छ?\n\nइन्टरफेस पुन: सुरु हुनेछ (केहि सेकेन्डको लागि कालो स्क्रिन)।
 Auto-detect: स्वतः पत्ता लगाउनुहोस्
 Automatic check on startup – or click 'Check for updates' in Tools menu.: स्टार्टअपमा स्वचालित जाँच - वा उपकरण मेनुमा 'अद्यावधिकहरूको लागि जाँच गर्नुहोस्' क्लिक गर्नुहोस्।
+Bouquet Name: गुलदस्ता नाम
+Bouquet sent and Enigma2 channel list reloaded.: गुलदस्ता पठाइयो र Enigma2 च्यानल सूची पुन: लोड गरियो।
 Buffer (seconds): बफर (सेकेन्ड)
 Buffer size – adjust HLS buffer seconds.: बफर साइज - HLS बफर सेकेन्ड समायोजन गर्नुहोस्।
 Cache: क्यास
@@ -51,7 +55,11 @@ Clear Filters: फिल्टरहरू खाली गर्नुहोस
 Clear search: खोज खाली गर्नुहोस्
 Click for details: विवरणहरूको लागि क्लिक गर्नुहोस्
 Close: बन्द गर्नुहोस्
+Command name:: आदेश नाम:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: समुदाय र परीक्षण: CorvoBoys (corvoboys.org) र LinuxSat-Support.com
+Confirm Reload: पुन: लोड पुष्टि गर्नुहोस्
+Connect: जडान गर्नुहोस्
+Connected: जडान भयो
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: देश
 Credits: क्रेडिटहरू
@@ -60,6 +68,8 @@ Description: विवरण
 Details: विवरणहरू
 Developed by Lululla: लुलुल्ला द्वारा विकसित
 Developer: Lululla: विकासकर्ता: लुलुल्ला
+Disconnect: जडान विच्छेद गर्नुहोस्
+Disconnected: विच्छेद भयो
 Do you want to load this edited playlist now?: के तपाई अहिले यो सम्पादन गरिएको प्लेलिस्ट लोड गर्न चाहनुहुन्छ?
 Double speed (2x): दोब्बर गति (2x)
 Downloading playlist...: प्लेलिस्ट डाउनलोड गर्दै...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: जिप �
 Drag & drop – drop M3U or JSON files directly onto main window.: तान्नुहोस् र छोड्नुहोस् - M3U वा JSON फाइलहरू सीधा मुख्य विन्डोमा छोड्नुहोस्।
 Drag to seek back in buffer: बफरमा फिर्ता खोज्न तान्नुहोस्
 Duplicate URLs found:\n\n: डुप्लिकेट URL फेला पर्यो:\n\n
+Edit Command: आदेश सम्पादन गर्नुहोस्
+Edit command name:: आदेश नाम सम्पादन गर्नुहोस्:
 Edit Playlist: प्लेलिस्ट सम्पादन गर्नुहोस्
+Edit telnet command:: टेलनेट आदेश सम्पादन गर्नुहोस्:
 Edit URLs: URL सम्पादन गर्नुहोस्
 End: अन्त्य
 Enrich with EPG: EPG संग समृद्ध
+Enter bouquet name (without spaces):: गुलदस्ता नाम प्रविष्ट गर्नुहोस् (स्पेस बिना):
 Enter JSON URL:: JSON URL प्रविष्ट गर्नुहोस्:
 Enter playlist URL (M3U or JSON):: प्लेलिस्ट URL प्रविष्ट गर्नुहोस् (M3U वा JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: नयाँ M3U फाइल�
 Extracting update...: अद्यावधिक निकाल्दै...
 Failed to download playlist: प्लेलिस्ट डाउनलोड गर्न असफल भयो
 Failed to load playlist: प्लेलिस्ट लोड गर्न असफल भयो
+Failed to update bouquets.tv.: bouquets.tv अपडेट गर्न सकिएन।
+Failed to upload bouquet.: गुलदस्ता अपलोड गर्न सकिएन।
 Favorite: मनपर्ने
 Favorites only: मनपर्नेहरू मात्र
 Fetch Logos: लोगोहरू ल्याउनुहोस्
+File {0} already exists. Overwrite?: फाइल {0} पहिले नै अवस्थित छ। अधिलेखन गर्ने?
+File exists: फाइल अवस्थित छ
 Filters: फिल्टरहरू
 Fullscreen (hide UI) - press ESC to exit: फुलस्क्रिन (UI लुकाउनुहोस्) - बाहिर निस्कन ESC थिच्नुहोस्
 Geo & Country: भू र देश
@@ -183,6 +201,7 @@ No favorite channels to export.: निर्यात गर्न मनपर
 No playlist found: कुनै प्लेलिस्ट फेला परेन
 No updates available.: कुनै अद्यावधिक उपलब्ध छैन।
 Normal speed (1x): सामान्य गति (1x)
+Not connected to the box.: बक्समा जोडिएको छैन।
 Now: अब
 OK: ठीक छ
 Online Playlist: अनलाइन प्लेलिस्ट
@@ -212,6 +231,8 @@ Refresh EPG: EPG रिफ्रेस गर्नुहोस्
 Refresh EPG List: EPG सूची ताजा गर्नुहोस्
 Refresh from GitHub: GitHub बाट ताजा गर्नुहोस्
 Refresh List: सूची ताजा गर्नुहोस्
+Reload GUI: GUI पुन: लोड गर्नुहोस्
+Remove Command: आदेश हटाउनुहोस्
 Rename Group: समूह पुन: नामाकरण गर्नुहोस्
 Repository: भण्डार
 Reset Order: आदेश रिसेट गर्नुहोस्
@@ -230,6 +251,9 @@ Search channels...: च्यानलहरू खोज्नुहोस्..
 Select a playlist first.: पहिले एउटा प्लेलिस्ट चयन गर्नुहोस्।
 Select Theme: विषयवस्तु चयन गर्नुहोस्
 Selected theme is saved and applied on restart.: चयन गरिएको विषयवस्तु सुरक्षित र पुन: सुरु गर्दा लागू हुन्छ।
+Send: पठाउनुहोस्
+Send playlist to Enigma2 decoder: Enigma2 डिकोडरमा प्लेलिस्ट पठाउनुहोस्
+Send to Enigma2: Enigma2 मा पठाउनुहोस्
 Settings: सेटिङहरू
 Show List: सूची देखाउनुहोस्
 Show only channels marked as favorites: मनपर्ने रूपमा चिन्ह लगाइएका च्यानलहरू मात्र देखाउनुहोस्
@@ -243,6 +267,10 @@ Success: सफलता
 Support: समर्थन
 Support the developer: विकासकर्तालाई समर्थन गर्नुहोस्
 Target Field: लक्ष्य क्षेत्र
+Telnet command:: टेलनेट आदेश:
+Telnet Commander: टेलनेट कमाण्डर
+Telnet Console: टेलनेट कन्सोल
+Telnet not configured. Please set it in Settings.: टेलनेट कन्फिगर गरिएको छैन। कृपया यसलाई सेटिङहरूमा सेट गर्नुहोस्।
 Thanks to: लाई धन्यवाद
 Theme picker: विषयवस्तु चयनकर्ता
 Theme picker – accessible via Tools menu on main toolbar.: विषयवस्तु चयनकर्ता - मुख्य उपकरणपट्टीमा उपकरण मेनु मार्फत पहुँचयोग्य।

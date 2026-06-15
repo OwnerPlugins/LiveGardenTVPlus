@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: يېڭى نەشرى بار. ھازىر يېڭىلاشنى خالامسىز؟
 Access via 'Edit Playlist' button on main toolbar.: ئاساسلىق قورالبالدىقىدىكى «قويۇش تىزىملىكىنى تەھرىرلەش» كۇنۇپكىسى ئارقىلىق زىيارەت قىلىڭ.
 Actions: ھەرىكەتلەر
+Add Command: بۇيرۇق قوشۇڭ
 Add Group: گۇرۇپپا قوشۇڭ
 Add Mapping: خەرىتە قوشۇش
 Adjust buffer size (1-10 seconds): بۇففېرنىڭ چوڭ-كىچىكلىكىنى تەڭشەش (1-10 سېكۇنت)
@@ -29,8 +30,11 @@ Advanced IDs: ئىلغار كىملىك
 Application status: ئىلتىماس ھالىتى
 Apply changes: ئۆزگەرتىشلەرنى ئىشلىتىڭ
 Apply Filters: سۈزگۈچ ئىشلىتىڭ
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI نى قايتا يۈكلىمەكچىمۇ؟ \ n \ n كۆرۈنمە يۈزى قايتا قوزغىتىلىدۇ (قارا ئېكران بىر نەچچە سېكۇنت).
 Auto-detect: ئاپتوماتىك بايقاش
 Automatic check on startup – or click 'Check for updates' in Tools menu.: قوزغىتىشنى ئاپتوماتىك تەكشۈرۈش - ياكى قوراللار تىزىملىكىدىكى «يېڭىلانمىلارنى تەكشۈرۈش» نى چېكىڭ.
+Bouquet Name: گۈللۈك ئىسمى
+Bouquet sent and Enigma2 channel list reloaded.: Bouquet ئەۋەتىلدى ۋە Enigma2 قانىلى تىزىملىكى قايتا يۈكلەندى.
 Buffer (seconds): Buffer (سېكۇنت)
 Buffer size – adjust HLS buffer seconds.: بۇففېرنىڭ چوڭلۇقى - HLS بۇففېر سېكۇنتنى تەڭشەڭ.
 Cache: Cache
@@ -51,7 +55,11 @@ Clear Filters: سۈزگۈچنى تازىلاش
 Clear search: ئىزدەشنى تازىلاش
 Click for details: تەپسىلاتىنى چېكىڭ
 Close: تاقاش
+Command name:: بۇيرۇق ئىسمى:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: مەھەللە ۋە سىناق: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: قايتا يۈكلەشنى جەزملەشتۈرۈڭ
+Connect: ئۇلاڭ
+Connected: ئۇلاندى
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: دۆلەت
 Credits: Credits
@@ -60,6 +68,8 @@ Description: چۈشەندۈرۈش
 Details: تەپسىلاتى
 Developed by Lululla: Lululla تەرىپىدىن ئىجاد قىلىنغان
 Developer: Lululla: ئاچقۇچى: Lululla
+Disconnect: ئۈزۈڭ
+Disconnected: ئۈزۈلۈپ قالدى
 Do you want to load this edited playlist now?: بۇ تەھرىرلەنگەن قويۇش تىزىملىكىنى ھازىر يۈكلىمەكچىمۇ؟
 Double speed (2x): قوش سۈرئەت (2x)
 Downloading playlist...: قويۇش تىزىملىكى چۈشۈرۈش ...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP نى چ
 Drag & drop – drop M3U or JSON files directly onto main window.: سۆرەپ تاشلاش - M3U ياكى JSON ھۆججەتلىرىنى بىۋاسىتە كۆزنەككە تاشلاڭ.
 Drag to seek back in buffer: بۇففېردىن قايتا ئىزدەڭ
 Duplicate URLs found:\n\n: كۆپەيتىلگەن URL لار تېپىلدى: \ n \ n
+Edit Command: بۇيرۇقنى تەھرىرلەش
+Edit command name:: بۇيرۇق نامىنى تەھرىرلەش:
 Edit Playlist: قويۇش تىزىملىكىنى تەھرىرلەش
+Edit telnet command:: تېلېگراف بۇيرۇقىنى تەھرىرلەش:
 Edit URLs: URL نى تەھرىرلەڭ
 End: ئاخىر
 Enrich with EPG: EPG بىلەن بېيىتىش
+Enter bouquet name (without spaces):: گۈلچەمبىرەك نامىنى كىرگۈزۈڭ (بوشلۇقسىز):
 Enter JSON URL:: JSON URL نى كىرگۈزۈڭ:
 Enter playlist URL (M3U or JSON):: قويۇش تىزىملىكى URL (M3U ياكى JSON) نى كىرگۈزۈڭ:
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: ئەڭ ياخشى كۆرىدى�
 Extracting update...: يېڭىلاش يېڭىلاش ...
 Failed to download playlist: قويۇش تىزىملىكى چۈشۈرۈلمىدى
 Failed to load playlist: قويۇش تىزىملىكى يۈكلەنمىدى
+Failed to update bouquets.tv.: Bouquets.tv نى يېڭىلاش مەغلۇب بولدى.
+Failed to upload bouquet.: گۈلچەمبىرەك يۈكلەنمىدى.
 Favorite: ئامراق
 Favorites only: پەقەت ياخشى كۆرىدىغانلار
 Fetch Logos: Fetch Logos
+File {0} already exists. Overwrite?: ھۆججەت {0} مەۋجۇت. Overwrite?
+File exists: ھۆججەت مەۋجۇت
 Filters: سۈزگۈچ
 Fullscreen (hide UI) - press ESC to exit: پۈتۈن ئېكران (UI نى يوشۇرۇش) - چېكىنىش ئۈچۈن ESC نى بېسىڭ
 Geo & Country: Geo & Country
@@ -183,6 +201,7 @@ No favorite channels to export.: ئېكسپورت قىلىشقا ئامراق ق
 No playlist found: قويۇش تىزىملىكى تېپىلمىدى
 No updates available.: ھېچقانداق يېڭىلاش يوق.
 Normal speed (1x): نورمال سۈرئەت (1x)
+Not connected to the box.: ساندۇققا ئۇلانمىدى.
 Now: ھازىر
 OK: ماقۇل
 Online Playlist: توردىكى تىزىملىك
@@ -212,6 +231,8 @@ Refresh EPG: EPG نى يېڭىلاڭ
 Refresh EPG List: EPG تىزىملىكىنى يېڭىلاڭ
 Refresh from GitHub: GitHub دىن يېڭىلاڭ
 Refresh List: تىزىملىكنى يېڭىلاش
+Reload GUI: GUI نى قايتا يۈكلەڭ
+Remove Command: بۇيرۇقنى ئۆچۈرۈڭ
 Rename Group: گۇرۇپپىنىڭ نامىنى ئۆزگەرتىش
 Repository: ئامبار
 Reset Order: تەرتىپنى ئەسلىگە كەلتۈرۈش
@@ -230,6 +251,9 @@ Search channels...: ئىزدەش قاناللىرى ...
 Select a playlist first.: ئالدى بىلەن قويۇش تىزىملىكىنى تاللاڭ.
 Select Theme: باشتېمىنى تاللاڭ
 Selected theme is saved and applied on restart.: تاللانغان باشتېما ساقلىنىپ قايتا قوزغىتىلىدۇ.
+Send: ئەۋەتىڭ
+Send playlist to Enigma2 decoder: Enigma2 كود يەشكۈچكە قويۇش تىزىملىكى ئەۋەتىڭ
+Send to Enigma2: Enigma2 غا ئەۋەتىڭ
 Settings: تەڭشەك
 Show List: تىزىملىكنى كۆرسىتىش
 Show only channels marked as favorites: پەقەت ياقتۇرىدىغان دەپ بەلگە قويۇلغان قاناللارنىلا كۆرسىتىڭ
@@ -243,6 +267,10 @@ Success: مۇۋەپپەقىيەت
 Support: قوللاش
 Support the developer: ئاچقۇچىنى قوللاڭ
 Target Field: نىشان مەيدانى
+Telnet command:: Telnet بۇيرۇقى:
+Telnet Commander: تېلېگراف قوماندانى
+Telnet Console: Telnet Console
+Telnet not configured. Please set it in Settings.: Telnet سەپلەنمىگەن. ئۇنى تەڭشەكلەرگە تەڭشەڭ.
 Thanks to: رەھمەت
 Theme picker: تېما تاللىغۇچ
 Theme picker – accessible via Tools menu on main toolbar.: باشتېما تاللىغۇچ - ئاساسلىق قورالبالدىقىدىكى قوراللار تىزىملىكى ئارقىلىق زىيارەت قىلغىلى بولىدۇ.

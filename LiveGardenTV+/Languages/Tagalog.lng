@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Available ang isang bagong bersyon. Gusto mo bang mag-update ngayon?
 Access via 'Edit Playlist' button on main toolbar.: I-access sa pamamagitan ng button na 'I-edit ang Playlist' sa pangunahing toolbar.
 Actions: Mga aksyon
+Add Command: Magdagdag ng Command
 Add Group: Magdagdag ng Grupo
 Add Mapping: Magdagdag ng Mapping
 Adjust buffer size (1-10 seconds): Ayusin ang laki ng buffer (1-10 segundo)
@@ -29,8 +30,11 @@ Advanced IDs: Mga advanced na ID
 Application status: Katayuan ng aplikasyon
 Apply changes: Ilapat ang mga pagbabago
 Apply Filters: Ilapat ang Mga Filter
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Sigurado ka bang gusto mong i-reload ang Enigma2 GUI?\n\nMagre-restart ang interface (itim na screen sa loob ng ilang segundo).
 Auto-detect: Auto-detect
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Awtomatikong pagsusuri sa startup – o i-click ang 'Tingnan para sa mga update' sa Tools menu.
+Bouquet Name: Pangalan ng Bouquet
+Bouquet sent and Enigma2 channel list reloaded.: Ipinadala ang bouquet at na-reload ang listahan ng channel ng Enigma2.
 Buffer (seconds): Buffer (segundo)
 Buffer size – adjust HLS buffer seconds.: Laki ng buffer – ayusin ang mga segundo ng buffer ng HLS.
 Cache: Cache
@@ -51,7 +55,11 @@ Clear Filters: I-clear ang Mga Filter
 Clear search: I-clear ang paghahanap
 Click for details: I-click para sa mga detalye
 Close: Isara
+Command name:: Pangalan ng command:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunidad at pagsubok: CorvoBoys (corvoboys.org) at LinuxSat-Support.com
+Confirm Reload: Kumpirmahin ang I-reload
+Connect: Kumonekta
+Connected: Nakakonekta
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Bansa
 Credits: Mga kredito
@@ -60,6 +68,8 @@ Description: Paglalarawan
 Details: Mga Detalye
 Developed by Lululla: Binuo ni Lululla
 Developer: Lululla: Nag-develop: Lululla
+Disconnect: Idiskonekta
+Disconnected: Nadiskonekta
 Do you want to load this edited playlist now?: Gusto mo bang i-load ang na-edit na playlist ngayon?
 Double speed (2x): Dobleng bilis (2x)
 Downloading playlist...: Dina-download ang playlist...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Nagda-downl
 Drag & drop – drop M3U or JSON files directly onto main window.: I-drag at i-drop – i-drop ang mga M3U o JSON file nang direkta sa pangunahing window.
 Drag to seek back in buffer: I-drag upang maghanap pabalik sa buffer
 Duplicate URLs found:\n\n: May nakitang mga duplicate na URL:\n\n
+Edit Command: I-edit ang Command
+Edit command name:: I-edit ang pangalan ng command:
 Edit Playlist: I-edit ang Playlist
+Edit telnet command:: I-edit ang utos ng telnet:
 Edit URLs: I-edit ang mga URL
 End: Tapusin
 Enrich with EPG: Pagyamanin gamit ang EPG
+Enter bouquet name (without spaces):: Ilagay ang pangalan ng bouquet (walang mga puwang):
 Enter JSON URL:: Ilagay ang JSON URL:
 Enter playlist URL (M3U or JSON):: Ilagay ang URL ng playlist (M3U o JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: I-export lamang ang mga paborit
 Extracting update...: Kinukuha ang update...
 Failed to download playlist: Nabigong i-download ang playlist
 Failed to load playlist: Nabigong i-load ang playlist
+Failed to update bouquets.tv.: Nabigong i-update ang bouquets.tv.
+Failed to upload bouquet.: Nabigong mag-upload ng bouquet.
 Favorite: Paborito
 Favorites only: Mga paborito lang
 Fetch Logos: Kunin ang Mga Logo
+File {0} already exists. Overwrite?: Umiiral na ang file na {0}. I-overwrite?
+File exists: May file
 Filters: Mga filter
 Fullscreen (hide UI) - press ESC to exit: Fullscreen (itago ang UI) - pindutin ang ESC upang lumabas
 Geo & Country: Geo at Bansa
@@ -183,6 +201,7 @@ No favorite channels to export.: Walang paboritong channel na ie-export.
 No playlist found: Walang nahanap na playlist
 No updates available.: Walang available na update.
 Normal speed (1x): Normal na bilis (1x)
+Not connected to the box.: Hindi konektado sa kahon.
 Now: Ngayon
 OK: OK
 Online Playlist: Online na Playlist
@@ -212,6 +231,8 @@ Refresh EPG: I-refresh ang EPG
 Refresh EPG List: I-refresh ang Listahan ng EPG
 Refresh from GitHub: I-refresh mula sa GitHub
 Refresh List: I-refresh ang Listahan
+Reload GUI: I-reload ang GUI
+Remove Command: Alisin ang Command
 Rename Group: Palitan ang pangalan ng Grupo
 Repository: Imbakan
 Reset Order: I-reset ang Order
@@ -230,6 +251,9 @@ Search channels...: Maghanap ng mga channel...
 Select a playlist first.: Pumili muna ng playlist.
 Select Theme: Piliin ang Tema
 Selected theme is saved and applied on restart.: Ang napiling tema ay nai-save at inilapat sa pag-restart.
+Send: Ipadala
+Send playlist to Enigma2 decoder: Magpadala ng playlist sa Enigma2 decoder
+Send to Enigma2: Ipadala sa Enigma2
 Settings: Mga setting
 Show List: Ipakita ang Listahan
 Show only channels marked as favorites: Ipakita lamang ang mga channel na minarkahan bilang mga paborito
@@ -243,6 +267,10 @@ Success: Tagumpay
 Support: Suporta
 Support the developer: Suportahan ang developer
 Target Field: Target na Patlang
+Telnet command:: Utos ng Telnet:
+Telnet Commander: Komandante ng Telnet
+Telnet Console: Telnet Console
+Telnet not configured. Please set it in Settings.: Hindi na-configure ang Telnet. Mangyaring itakda ito sa Mga Setting.
 Thanks to: Salamat sa
 Theme picker: Tagapili ng tema
 Theme picker – accessible via Tools menu on main toolbar.: Tagapili ng tema – naa-access sa pamamagitan ng menu ng Mga Tool sa pangunahing toolbar.

@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Достапна е нова верзија. Дали сакате да ажурирате сега?
 Access via 'Edit Playlist' button on main toolbar.: Пристап преку копчето „Уреди плејлиста“ на главната лента со алатки.
 Actions: Акции
+Add Command: Додадете команда
 Add Group: Додај група
 Add Mapping: Додадете мапирање
 Adjust buffer size (1-10 seconds): Прилагодете ја големината на баферот (1-10 секунди)
@@ -29,8 +30,11 @@ Advanced IDs: Напредни лични карти
 Application status: Статус на апликацијата
 Apply changes: Примени промени
 Apply Filters: Примени филтри
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Дали сте сигурни дека сакате повторно да го вчитате Enigma2 GUI?\n\nИнтерфејсот ќе се рестартира (црн екран неколку секунди).
 Auto-detect: Автоматско откривање
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Автоматска проверка при стартување – или кликнете на „Провери за ажурирања“ во менито Алатки.
+Bouquet Name: Име на букет
+Bouquet sent and Enigma2 channel list reloaded.: Букетот е испратен и списокот со канали Enigma2 е повторно вчитан.
 Buffer (seconds): Бафер (секунди)
 Buffer size – adjust HLS buffer seconds.: Големина на тампон – прилагодете HLS тампон секунди.
 Cache: Кеш
@@ -51,7 +55,11 @@ Clear Filters: Исчистете ги филтрите
 Clear search: Исчистете го пребарувањето
 Click for details: Кликнете за детали
 Close: Затвори
+Command name:: Име на командата:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Заедница и тестирање: CorvoBoys (corvoboys.org) и LinuxSat-Support.com
+Confirm Reload: Потврдете повторно вчитај
+Connect: Поврзете се
+Connected: Поврзан
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Земја
 Credits: Кредити
@@ -60,6 +68,8 @@ Description: Опис
 Details: Детали
 Developed by Lululla: Развиено од Лулула
 Developer: Lululla: Развивач: Lululla
+Disconnect: Исклучете се
+Disconnected: Исклучено
 Do you want to load this edited playlist now?: Дали сакате да ја вчитате оваа изменета плејлиста сега?
 Double speed (2x): Двојна брзина (2x)
 Downloading playlist...: Се презема плејлиста...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Презе�
 Drag & drop – drop M3U or JSON files directly onto main window.: Влечете и спуштете – спуштете ги датотеките M3U или JSON директно на главниот прозорец.
 Drag to seek back in buffer: Повлечете за да побарате назад во тампон
 Duplicate URLs found:\n\n: Пронајдени се дупликат URL-адреси:\n\n
+Edit Command: Наредба за уредување
+Edit command name:: Уреди име на команда:
 Edit Playlist: Уреди плејлиста
+Edit telnet command:: Уреди телнет команда:
 Edit URLs: Уреди URL-адреси
 End: Крај
 Enrich with EPG: Збогатете се со EPG
+Enter bouquet name (without spaces):: Внесете го името на букетот (без празни места):
 Enter JSON URL:: Внесете JSON URL:
 Enter playlist URL (M3U or JSON):: Внесете URL на плејлистата (M3U или JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Извезете ги само 
 Extracting update...: Се вади ажурирање...
 Failed to download playlist: Не успеа да се преземе плејлистата
 Failed to load playlist: Не успеа да се вчита плејлистата
+Failed to update bouquets.tv.: Не успеа да се ажурира bouquets.tv.
+Failed to upload bouquet.: Не успеа да се постави букет.
 Favorite: Омилен
 Favorites only: Само омилени
 Fetch Logos: Преземи логоа
+File {0} already exists. Overwrite?: Датотеката {0} веќе постои. Презапишете?
+File exists: Датотеката постои
 Filters: Филтри
 Fullscreen (hide UI) - press ESC to exit: Цел екран (сокриј UI) - притиснете ESC за да излезете
 Geo & Country: Гео и земја
@@ -183,6 +201,7 @@ No favorite channels to export.: Нема омилени канали за из�
 No playlist found: Не е пронајдена плејлиста
 No updates available.: Нема достапни ажурирања.
 Normal speed (1x): Нормална брзина (1x)
+Not connected to the box.: Не е поврзан со кутијата.
 Now: Сега
 OK: Во ред
 Online Playlist: Онлајн плејлиста
@@ -212,6 +231,8 @@ Refresh EPG: Освежете го EPG
 Refresh EPG List: Освежете ја листата на EPG
 Refresh from GitHub: Освежете се од GitHub
 Refresh List: Освежи список
+Reload GUI: Вчитај повторно GUI
+Remove Command: Отстрани команда
 Rename Group: Преименувај група
 Repository: Репозиториум
 Reset Order: Ресетирај нарачка
@@ -230,6 +251,9 @@ Search channels...: Пребарувајте канали...
 Select a playlist first.: Прво изберете плејлиста.
 Select Theme: Изберете Тема
 Selected theme is saved and applied on restart.: Избраната тема се зачувува и се применува при рестартирање.
+Send: Испрати
+Send playlist to Enigma2 decoder: Испратете плејлиста до декодерот Enigma2
+Send to Enigma2: Испрати до Enigma2
 Settings: Поставки
 Show List: Прикажи список
 Show only channels marked as favorites: Прикажи само канали означени како омилени
@@ -243,6 +267,10 @@ Success: Успех
 Support: Поддршка
 Support the developer: Поддржете го развивачот
 Target Field: Целно поле
+Telnet command:: Телнет команда:
+Telnet Commander: Командант на телнет
+Telnet Console: Телнет конзола
+Telnet not configured. Please set it in Settings.: Телнет не е конфигуриран. Поставете го во Поставки.
 Thanks to: Благодарение на
 Theme picker: Избирач на тема
 Theme picker – accessible via Tools menu on main toolbar.: Избирач на теми – достапно преку менито Алатки на главната лента со алатки.

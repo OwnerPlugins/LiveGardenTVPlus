@@ -1,0 +1,297 @@
+{
+    "⚙️ Process Management": [
+        [
+            "ps aux",
+            "Process list"
+        ],
+        [
+            "ps | grep enigma2",
+            "Enigma2 processes"
+        ],
+        [
+            "killall -9 enigma2",
+            "Kill Enigma2 (restart GUI)"
+        ],
+        [
+            "killall -9 python",
+            "Kill all Python processes"
+        ],
+        [
+            "killall -INT ffmpeg",
+            "Stop ffmpeg"
+        ],
+        [
+            "top -n 1 -b",
+            "Real-time processes (one shot)"
+        ],
+        [
+            "lsof | wc -l",
+            "Count open files"
+        ]
+    ],
+    "🌐 Network": [
+        [
+            "ifconfig",
+            "Network configuration"
+        ],
+        [
+            "ip link",
+            "Network interfaces"
+        ],
+        [
+            "ip route | grep default",
+            "Default gateway"
+        ],
+        [
+            "netstat -tulpn",
+            "Listening ports"
+        ],
+        [
+            "ping -c 1 8.8.8.8",
+            "Ping Google DNS"
+        ],
+        [
+            "wget -q -T 1 -t 1 --spider http://www.google.com",
+            "HTTP connectivity test"
+        ],
+        [
+            "arp -n",
+            "ARP table"
+        ],
+        [
+            "hostname -I",
+            "Local IP addresses"
+        ]
+    ],
+    "🎬 Media/Streaming": [
+        [
+            "ffmpeg -version | head -1",
+            "FFmpeg version"
+        ],
+        [
+            "ffmpeg -i /media/hdd/movie/recording.ts -frames:v 1 screenshot.jpg",
+            "Extract screenshot from video"
+        ],
+        [
+            "showiframe /usr/share/enigma2/backdrop.mvi",
+            "Show MVI bootlogo"
+        ],
+        [
+            "killall -INT ffmpeg",
+            "Stop running ffmpeg"
+        ]
+    ],
+    "📁 System Info": [
+        [
+            "uname -a",
+            "Kernel information"
+        ],
+        [
+            "uptime",
+            "System uptime"
+        ],
+        [
+            "free -m",
+            "Free memory (MB)"
+        ],
+        [
+            "cat /proc/meminfo",
+            "Memory details"
+        ],
+        [
+            "df -h",
+            "Disk space usage"
+        ],
+        [
+            "df -aTh",
+            "Disk space with FS type"
+        ],
+        [
+            "blkid",
+            "Block device UUIDs"
+        ],
+        [
+            "cat /proc/cpuinfo",
+            "CPU info"
+        ],
+        [
+            "cat /proc/version",
+            "Kernel version"
+        ],
+        [
+            "hostname",
+            "Hostname"
+        ],
+        [
+            "who -a",
+            "Logged users"
+        ],
+        [
+            "lsof",
+            "Open files (may take time)"
+        ]
+    ],
+    "📂 Filesystem": [
+        [
+            "ls -la /etc/enigma2/",
+            "Content of /etc/enigma2"
+        ],
+        [
+            "pwd",
+            "Current directory"
+        ],
+        [
+            "cd /tmp && ls -la",
+            "Content of /tmp"
+        ],
+        [
+            "find /etc/enigma2 -name '*.tv'",
+            "Find TV bouquets"
+        ],
+        [
+            "du -shc /home/root 2>/dev/null",
+            "Space used by /home/root"
+        ],
+        [
+            "mount",
+            "Mount points"
+        ],
+        [
+            "cat /etc/fstab",
+            "Filesystem table"
+        ],
+        [
+            "lsattr -d /etc",
+            "Attributes of /etc"
+        ]
+    ],
+    "📦 Package Management": [
+        [
+            "opkg update",
+            "Update package list (opkg)"
+        ],
+        [
+            "opkg list-installed",
+            "Installed packages (opkg)"
+        ],
+        [
+            "opkg list | head -20",
+            "First 20 available packages"
+        ],
+        [
+            "opkg install <name>",
+            "Install package (replace <name>)"
+        ],
+        [
+            "opkg remove <name>",
+            "Remove package"
+        ],
+        [
+            "apt-get update",
+            "Update (apt)"
+        ],
+        [
+            "apt list --installed | head -20",
+            "Installed apt packages"
+        ],
+        [
+            "dpkg -l | head -20",
+            "dpkg list"
+        ]
+    ],
+    "📦 Package Search (opkg)": [
+        [
+            "opkg update",
+            "Update package list"
+        ]
+    ],
+    "📸 Screenshot": [
+        [
+            "grab -q -s jpg > /tmp/screenshot.jpg",
+            "Screenshot JPG"
+        ],
+        [
+            "grab -p -s png > /tmp/screenshot.png",
+            "Screenshot PNG"
+        ],
+        [
+            "dreamboxctl screenshot -f /tmp/screen.png",
+            "Screenshot using dreamboxctl"
+        ]
+    ],
+    "🔗 Symlink & Architecture": [
+        [
+            "ln -sf /usr/lib/enigma2/python/Plugins/Extensions/ /",
+            "Create Extensions symlink"
+        ],
+        [
+            "ln -sf /usr/share/enigma2/ /",
+            "Create share symlink"
+        ],
+        [
+            "TARGET=$(find /media -maxdepth 1 -type d ! -name 'media' -exec mountpoint -q {} \\; -print | head -n 1) && [ -n \"$TARGET\" ] && ln -sf \"$TARGET\" /hdd && ln -sf \"$TARGET/picon\" /usr/share/enigma2/picon && ln -sf \"$TARGET/picon\" /picon && echo \"Created for: $TARGET\"",
+            "Automatically create HDD/picon symlinks"
+        ],
+        [
+            "dpkg --print-architecture | grep -iE 'arm|aarch64|mips|cortex|sh4|sh_4'",
+            "Box architecture (dpkg)"
+        ],
+        [
+            "opkg print-architecture | grep -iE 'arm|aarch64|mips|cortex|h4|sh_4'",
+            "Box architecture (opkg)"
+        ]
+    ],
+    "🕹️ Enigma2 Specific": [
+        [
+            "wget -qO- http://127.0.0.1/web/servicelistreload?mode=0",
+            "Reload channel list (webif)"
+        ],
+        [
+            "init 3",
+            "Restart GUI (alternative)"
+        ],
+        [
+            "systemctl restart enigma2",
+            "Restart GUI (systemd)"
+        ],
+        [
+            "grep -i 'error' /home/root/.enigma2/enigma2.log | tail -20",
+            "Last Enigma2 errors"
+        ]
+    ],
+
+    "🛠️ Utilities": [
+        [
+            "date",
+            "Date and time"
+        ],
+        [
+            "date -s '2025-01-01 12:00:00'",
+            "Set date/time (example)"
+        ],
+        [
+            "hwclock --systohc",
+            "Sync hardware clock"
+        ],
+        [
+            "md5sum /etc/enigma2/settings",
+            "MD5 of settings file"
+        ],
+        [
+            "sha256sum /etc/enigma2/settings",
+            "SHA256 of settings file"
+        ],
+        [
+            "which python",
+            "Python path"
+        ],
+        [
+            "echo -e 'Hello\\nWorld'",
+            "Test echo with escape"
+        ],
+        [
+            "sync",
+            "Sync disk buffers"
+        ]
+    ]
+}

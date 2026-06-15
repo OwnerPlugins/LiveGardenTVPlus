@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: 'n Nuwe weergawe is beskikbaar. Wil jy nou opdateer?
 Access via 'Edit Playlist' button on main toolbar.: Toegang via 'Redigeer snitlys'-knoppie op die hoofnutsbalk.
 Actions: Aksies
+Add Command: Voeg opdrag by
 Add Group: Voeg groep by
 Add Mapping: Voeg kartering by
 Adjust buffer size (1-10 seconds): Pas buffergrootte aan (1-10 sekondes)
@@ -29,8 +30,11 @@ Advanced IDs: Gevorderde ID's
 Application status: Aansoekstatus
 Apply changes: Pas veranderinge toe
 Apply Filters: Pas filters toe
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Is jy seker jy wil die Enigma2 GUI herlaai?\n\nDie koppelvlak sal herbegin (swart skerm vir 'n paar sekondes).
 Auto-detect: Outo-bespeur
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Kontroleer outomaties by opstart – of klik 'Kyk vir opdaterings' in die Tools-kieslys.
+Bouquet Name: Boeket Naam
+Bouquet sent and Enigma2 channel list reloaded.: Boeket gestuur en Enigma2-kanaallys is herlaai.
 Buffer (seconds): Buffer (sekondes)
 Buffer size – adjust HLS buffer seconds.: Buffergrootte – pas HLS buffer sekondes aan.
 Cache: Kas
@@ -51,7 +55,11 @@ Clear Filters: Vee filters uit
 Clear search: Vee soektog uit
 Click for details: Klik vir besonderhede
 Close: Maak toe
+Command name:: Opdrag naam:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Gemeenskap en toetsing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Bevestig herlaai
+Connect: Koppel
+Connected: Gekoppel
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Land
 Credits: Krediete
@@ -60,6 +68,8 @@ Description: Beskrywing
 Details: Besonderhede
 Developed by Lululla: Ontwikkel deur Lululla
 Developer: Lululla: Ontwikkelaar: Lululla
+Disconnect: Ontkoppel
+Disconnected: Ontkoppel
 Do you want to load this edited playlist now?: Wil jy hierdie geredigeerde snitlys nou laai?
 Double speed (2x): Dubbelspoed (2x)
 Downloading playlist...: Laai tans snitlys af …
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Laai zip af
 Drag & drop – drop M3U or JSON files directly onto main window.: Sleep & drop – laat val M3U- of JSON-lêers direk na die hoofvenster.
 Drag to seek back in buffer: Sleep om terug te soek in buffer
 Duplicate URLs found:\n\n: Duplikaat URL'e gevind:\n\n
+Edit Command: Wysig opdrag
+Edit command name:: Wysig opdragnaam:
 Edit Playlist: Wysig snitlys
+Edit telnet command:: Wysig telnet-opdrag:
 Edit URLs: Wysig URL's
 End: Einde
 Enrich with EPG: Verryk met EPG
+Enter bouquet name (without spaces):: Voer boeketnaam in (sonder spasies):
 Enter JSON URL:: Voer JSON URL in:
 Enter playlist URL (M3U or JSON):: Voer snitlys-URL in (M3U of JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Voer slegs gunstelingkanale uit
 Extracting update...: Onttrek tans opdatering …
 Failed to download playlist: Kon nie snitlys aflaai nie
 Failed to load playlist: Kon nie snitlys laai nie
+Failed to update bouquets.tv.: Kon nie bouquets.tv opdateer nie.
+Failed to upload bouquet.: Kon nie boeket oplaai nie.
 Favorite: Gunsteling
 Favorites only: Slegs gunstelinge
 Fetch Logos: Haal logo's
+File {0} already exists. Overwrite?: Lêer {0} bestaan ​​reeds. Oorskryf?
+File exists: Lêer bestaan
 Filters: Filters
 Fullscreen (hide UI) - press ESC to exit: Volskerm (versteek UI) - druk ESC om uit te gaan
 Geo & Country: Geo & Country
@@ -183,6 +201,7 @@ No favorite channels to export.: Geen gunsteling kanale om uit te voer nie.
 No playlist found: Geen snitlys gevind nie
 No updates available.: Geen opdaterings beskikbaar nie.
 Normal speed (1x): Normale spoed (1x)
+Not connected to the box.: Nie aan die boks gekoppel nie.
 Now: Nou
 OK: OK
 Online Playlist: Aanlyn snitlys
@@ -212,6 +231,8 @@ Refresh EPG: Herlaai EPG
 Refresh EPG List: Herlaai EPG-lys
 Refresh from GitHub: Verfris vanaf GitHub
 Refresh List: Herlaai lys
+Reload GUI: Herlaai GUI
+Remove Command: Verwyder opdrag
 Rename Group: Hernoem groep
 Repository: Bewaarplek
 Reset Order: Stel bestelling terug
@@ -230,6 +251,9 @@ Search channels...: Soek kanale...
 Select a playlist first.: Kies eers 'n snitlys.
 Select Theme: Kies Tema
 Selected theme is saved and applied on restart.: Geselekteerde tema word gestoor en toegepas met herbegin.
+Send: Stuur
+Send playlist to Enigma2 decoder: Stuur snitlys na Enigma2-dekodeerder
+Send to Enigma2: Stuur na Enigma2
 Settings: Instellings
 Show List: Wys lys
 Show only channels marked as favorites: Wys slegs kanale wat as gunstelinge gemerk is
@@ -243,6 +267,10 @@ Success: Sukses
 Support: Ondersteuning
 Support the developer: Ondersteun die ontwikkelaar
 Target Field: Teikenveld
+Telnet command:: Telnet opdrag:
+Telnet Commander: Telnet bevelvoerder
+Telnet Console: Telnet-konsole
+Telnet not configured. Please set it in Settings.: Telnet nie opgestel nie. Stel dit asseblief in Instellings.
 Thanks to: Danksy
 Theme picker: Temakieser
 Theme picker – accessible via Tools menu on main toolbar.: Temakieser – toeganklik via Tools-kieslys op die hoofnutsbalk.

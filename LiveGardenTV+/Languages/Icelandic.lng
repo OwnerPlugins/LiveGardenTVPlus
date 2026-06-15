@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Ný útgáfa er fáanleg. Viltu uppfæra núna?
 Access via 'Edit Playlist' button on main toolbar.: Aðgangur með hnappnum „Breyta spilunarlista“ á aðaltækjastikunni.
 Actions: Aðgerðir
+Add Command: Bæta við skipun
 Add Group: Bæta við hópi
 Add Mapping: Bæta við kortlagningu
 Adjust buffer size (1-10 seconds): Stilla biðminni (1-10 sekúndur)
@@ -29,8 +30,11 @@ Advanced IDs: Ítarleg skilríki
 Application status: Staða umsóknar
 Apply changes: Notaðu breytingar
 Apply Filters: Notaðu síur
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ertu viss um að þú viljir endurhlaða Enigma2 GUI?\n\nViðmótið mun endurræsast (svartur skjár í nokkrar sekúndur).
 Auto-detect: Sjálfvirk skynjun
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Sjálfvirk athugun við ræsingu - eða smelltu á 'Athuga að uppfærslum' í valmyndinni Verkfæri.
+Bouquet Name: Nafn vönds
+Bouquet sent and Enigma2 channel list reloaded.: Vöndur sendur og Enigma2 rásalisti endurhlaðinn.
 Buffer (seconds): Buffer (sekúndur)
 Buffer size – adjust HLS buffer seconds.: Stærð biðminni – stilltu HLS biðminni sekúndur.
 Cache: Skyndiminni
@@ -51,7 +55,11 @@ Clear Filters: Hreinsaðu síur
 Clear search: Hreinsa leit
 Click for details: Smelltu til að fá upplýsingar
 Close: Loka
+Command name:: Skipunarheiti:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Samfélag og prófanir: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Staðfestu endurhleðslu
+Connect: Tengdu
+Connected: Tengdur
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Land
 Credits: Inneign
@@ -60,6 +68,8 @@ Description: Lýsing
 Details: Upplýsingar
 Developed by Lululla: Hannað af Lululla
 Developer: Lululla: Hönnuður: Lululla
+Disconnect: Aftengjast
+Disconnected: Ótengdur
 Do you want to load this edited playlist now?: Viltu hlaða þessum breytta lagalista núna?
 Double speed (2x): Tvöfaldur hraði (2x)
 Downloading playlist...: Sækir spilunarlista...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Niðurhalar
 Drag & drop – drop M3U or JSON files directly onto main window.: Dragðu og slepptu – slepptu M3U eða JSON skrám beint á aðalgluggann.
 Drag to seek back in buffer: Dragðu til að leita aftur í biðminni
 Duplicate URLs found:\n\n: Tvíteknar vefslóðir fundust:\n\n
+Edit Command: Breyta skipun
+Edit command name:: Breyta heiti skipunar:
 Edit Playlist: Breyta lagalista
+Edit telnet command:: Breyta telnet skipun:
 Edit URLs: Breyta vefslóðum
 End: Enda
 Enrich with EPG: Auðgaðu með EPG
+Enter bouquet name (without spaces):: Sláðu inn nafn vönds (án bils):
 Enter JSON URL:: Sláðu inn JSON vefslóð:
 Enter playlist URL (M3U or JSON):: Sláðu inn vefslóð lagalista (M3U eða JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Flyttu aðeins út uppáhaldsr�
 Extracting update...: Tekur út uppfærslu...
 Failed to download playlist: Mistókst að hlaða niður lagalista
 Failed to load playlist: Mistókst að hlaða spilunarlista
+Failed to update bouquets.tv.: Mistókst að uppfæra bouquets.tv.
+Failed to upload bouquet.: Mistókst að hlaða upp vönd.
 Favorite: Uppáhalds
 Favorites only: Aðeins eftirlæti
 Fetch Logos: Sækja lógó
+File {0} already exists. Overwrite?: Skrá {0} er þegar til. Skrifa yfir?
+File exists: Skrá er til
 Filters: Síur
 Fullscreen (hide UI) - press ESC to exit: Fullskjár (fela notendaviðmót) - ýttu á ESC til að hætta
 Geo & Country: Geo & Country
@@ -183,6 +201,7 @@ No favorite channels to export.: Engar uppáhaldsrásir til að flytja út.
 No playlist found: Enginn spilunarlisti fannst
 No updates available.: Engar uppfærslur í boði.
 Normal speed (1x): Venjulegur hraði (1x)
+Not connected to the box.: Ekki tengdur við kassann.
 Now: Nú
 OK: Allt í lagi
 Online Playlist: Lagalisti á netinu
@@ -212,6 +231,8 @@ Refresh EPG: Endurnýjaðu EPG
 Refresh EPG List: Endurnýja EPG lista
 Refresh from GitHub: Endurnýjaðu frá GitHub
 Refresh List: Endurnýja lista
+Reload GUI: Endurhlaða GUI
+Remove Command: Fjarlægja skipun
 Rename Group: Endurnefna hóp
 Repository: Geymsla
 Reset Order: Endurstilla pöntun
@@ -230,6 +251,9 @@ Search channels...: Leita að rásum...
 Select a playlist first.: Veldu spilunarlista fyrst.
 Select Theme: Veldu Þema
 Selected theme is saved and applied on restart.: Valið þema er vistað og notað við endurræsingu.
+Send: Senda
+Send playlist to Enigma2 decoder: Sendu lagalista til Enigma2 afkóðara
+Send to Enigma2: Sendu til Enigma2
 Settings: Stillingar
 Show List: Sýna lista
 Show only channels marked as favorites: Sýna aðeins rásir merktar sem eftirlæti
@@ -243,6 +267,10 @@ Success: Árangur
 Support: Stuðningur
 Support the developer: Styðjið verktaki
 Target Field: Markreitur
+Telnet command:: Telnet skipun:
+Telnet Commander: Telnet yfirmaður
+Telnet Console: Telnet stjórnborð
+Telnet not configured. Please set it in Settings.: Telnet ekki stillt. Vinsamlegast stilltu það í stillingum.
 Thanks to: Þökk sé
 Theme picker: Þemavalari
 Theme picker – accessible via Tools menu on main toolbar.: Þemavalur – aðgengilegur í verkfæravalmyndinni á aðaltækjastikunni.

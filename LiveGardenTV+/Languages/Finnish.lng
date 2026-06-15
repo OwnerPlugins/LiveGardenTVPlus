@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Uusi versio on saatavilla. Haluatko päivittää nyt?
 Access via 'Edit Playlist' button on main toolbar.: Käytä päätyökalupalkin Muokkaa soittolistaa -painiketta.
 Actions: Toiminnot
+Add Command: Lisää komento
 Add Group: Lisää ryhmä
 Add Mapping: Lisää kartoitus
 Adjust buffer size (1-10 seconds): Säädä puskurin kokoa (1-10 sekuntia)
@@ -29,8 +30,11 @@ Advanced IDs: Edistyneet tunnukset
 Application status: Sovelluksen tila
 Apply changes: Ota muutokset käyttöön
 Apply Filters: Käytä suodattimia
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Haluatko varmasti ladata Enigma2 GUI:n uudelleen?\n\nKäyttöliittymä käynnistyy uudelleen (musta näyttö muutaman sekunnin ajan).
 Auto-detect: Automaattinen tunnistus
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automaattinen tarkistus käynnistyksen yhteydessä – tai napsauta "Tarkista päivitykset" Työkalut-valikosta.
+Bouquet Name: Kimpun nimi
+Bouquet sent and Enigma2 channel list reloaded.: Kimppu lähetetty ja Enigma2-kanavaluettelo ladattu uudelleen.
 Buffer (seconds): Puskuri (sekuntia)
 Buffer size – adjust HLS buffer seconds.: Puskurin koko – säädä HLS-puskurin sekunteja.
 Cache: Välimuisti
@@ -51,7 +55,11 @@ Clear Filters: Tyhjennä suodattimet
 Clear search: Tyhjennä haku
 Click for details: Napsauta saadaksesi lisätietoja
 Close: Lähellä
+Command name:: Komennon nimi:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Yhteisö ja testaus: CorvoBoys (corvoboys.org) ja LinuxSat-Support.com
+Confirm Reload: Vahvista uudelleenlataus
+Connect: Yhdistä
+Connected: Yhdistetty
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Maa
 Credits: Krediitit
@@ -60,6 +68,8 @@ Description: Kuvaus
 Details: Yksityiskohdat
 Developed by Lululla: Kehittäjä Lululla
 Developer: Lululla: Kehittäjä: Lululla
+Disconnect: Katkaise yhteys
+Disconnected: Yhteys katkaistu
 Do you want to load this edited playlist now?: Haluatko ladata tämän muokatun soittolistan nyt?
 Double speed (2x): Tuplanopeus (2x)
 Downloading playlist...: Ladataan soittolistaa...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Lataa ZIP, 
 Drag & drop – drop M3U or JSON files directly onto main window.: Vedä ja pudota – pudota M3U- tai JSON-tiedostot suoraan pääikkunaan.
 Drag to seek back in buffer: Vedä hakeaksesi takaisin puskuriin
 Duplicate URLs found:\n\n: Päällekkäisiä URL-osoitteita löydetty:\n\n
+Edit Command: Muokkaa komentoa
+Edit command name:: Muokkaa komennon nimeä:
 Edit Playlist: Muokkaa soittolistaa
+Edit telnet command:: Muokkaa telnet-komentoa:
 Edit URLs: Muokkaa URL-osoitteita
 End: Loppu
 Enrich with EPG: Rikastuta EPG:llä
+Enter bouquet name (without spaces):: Anna kimpun nimi (ilman välilyöntejä):
 Enter JSON URL:: Anna JSON-URL-osoite:
 Enter playlist URL (M3U or JSON):: Anna soittolistan URL-osoite (M3U tai JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Vie vain suosikkikanavat uuteen
 Extracting update...: Poimitaan päivitystä...
 Failed to download playlist: Soittolistan lataaminen epäonnistui
 Failed to load playlist: Soittolistan lataaminen epäonnistui
+Failed to update bouquets.tv.: bouquets.tv:n päivitys epäonnistui.
+Failed to upload bouquet.: Kimpun lataaminen epäonnistui.
 Favorite: Suosikki
 Favorites only: Vain suosikit
 Fetch Logos: Hae logot
+File {0} already exists. Overwrite?: Tiedosto {0} on jo olemassa. Korvataanko?
+File exists: Tiedosto on olemassa
 Filters: Suodattimet
 Fullscreen (hide UI) - press ESC to exit: Koko näyttö (piilota käyttöliittymä) - paina ESC poistuaksesi
 Geo & Country: Maantieteellinen sijainti ja maa
@@ -183,6 +201,7 @@ No favorite channels to export.: Ei suosikkikanavia vietäväksi.
 No playlist found: Soittolistaa ei löydy
 No updates available.: Päivityksiä ei ole saatavilla.
 Normal speed (1x): Normaali nopeus (1x)
+Not connected to the box.: Ei kytketty laatikkoon.
 Now: Nyt
 OK: OK
 Online Playlist: Online-soittolista
@@ -212,6 +231,8 @@ Refresh EPG: Päivitä EPG
 Refresh EPG List: Päivitä EPG-luettelo
 Refresh from GitHub: Päivitä GitHubista
 Refresh List: Päivitä luettelo
+Reload GUI: Lataa GUI uudelleen
+Remove Command: Poista komento
 Rename Group: Nimeä ryhmä uudelleen
 Repository: Arkisto
 Reset Order: Nollaa tilaus
@@ -230,6 +251,9 @@ Search channels...: Hae kanavia...
 Select a playlist first.: Valitse ensin soittolista.
 Select Theme: Valitse Teema
 Selected theme is saved and applied on restart.: Valittu teema tallennetaan ja otetaan käyttöön uudelleenkäynnistyksen yhteydessä.
+Send: Lähetä
+Send playlist to Enigma2 decoder: Lähetä soittolista Enigma2-dekooderiin
+Send to Enigma2: Lähetä Enigma2:een
 Settings: Asetukset
 Show List: Näytä luettelo
 Show only channels marked as favorites: Näytä vain suosikeiksi merkityt kanavat
@@ -243,6 +267,10 @@ Success: Menestys
 Support: Tukea
 Support the developer: Tue kehittäjää
 Target Field: Kohdekenttä
+Telnet command:: Telnet-komento:
+Telnet Commander: Telnetin komentaja
+Telnet Console: Telnet-konsoli
+Telnet not configured. Please set it in Settings.: Telnet ei ole määritetty. Aseta se asetuksissa.
 Thanks to: Ansiosta
 Theme picker: Teemanvalitsin
 Theme picker – accessible via Tools menu on main toolbar.: Teemanvalitsin – käytettävissä päätyökalupalkin Työkalut-valikon kautta.

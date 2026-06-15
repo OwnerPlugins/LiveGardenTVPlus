@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: نسخة جديدة متاحة. هل تريد التحديث الآن؟
 Access via 'Edit Playlist' button on main toolbar.: الوصول عبر زر "تحرير قائمة التشغيل" الموجود على شريط الأدوات الرئيسي.
 Actions: الإجراءات
+Add Command: إضافة أمر
 Add Group: أضف مجموعة
 Add Mapping: إضافة رسم الخرائط
 Adjust buffer size (1-10 seconds): ضبط حجم المخزن المؤقت (1-10 ثواني)
@@ -29,8 +30,11 @@ Advanced IDs: معرفات متقدمة
 Application status: حالة التطبيق
 Apply changes: تطبيق التغييرات
 Apply Filters: تطبيق المرشحات
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: هل أنت متأكد أنك تريد إعادة تحميل واجهة المستخدم الرسومية Enigma2؟\n\nستتم إعادة تشغيل الواجهة (شاشة سوداء لبضع ثوان).
 Auto-detect: الكشف التلقائي
 Automatic check on startup – or click 'Check for updates' in Tools menu.: التحقق التلقائي عند بدء التشغيل - أو انقر فوق "التحقق من وجود تحديثات" في قائمة "الأدوات".
+Bouquet Name: اسم الباقة
+Bouquet sent and Enigma2 channel list reloaded.: تم إرسال الباقة وتم إعادة تحميل قائمة قنوات Enigma2.
 Buffer (seconds): المخزن المؤقت (ثواني)
 Buffer size – adjust HLS buffer seconds.: حجم المخزن المؤقت - ضبط ثواني المخزن المؤقت لـ HLS.
 Cache: مخبأ
@@ -51,7 +55,11 @@ Clear Filters: مسح المرشحات
 Clear search: مسح البحث
 Click for details: انقر للحصول على التفاصيل
 Close: يغلق
+Command name:: اسم الأمر:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: المجتمع والاختبار: CorvoBoys (corvoboys.org) وLinuxSat-Support.com
+Confirm Reload: تأكيد إعادة التحميل
+Connect: يتصل
+Connected: متصل
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: دولة
 Credits: الاعتمادات
@@ -60,6 +68,8 @@ Description: وصف
 Details: تفاصيل
 Developed by Lululla: تم تطويره بواسطة Lululla
 Developer: Lululla: المطور: Lululla
+Disconnect: قطع الاتصال
+Disconnected: غير متصل
 Do you want to load this edited playlist now?: هل تريد تحميل قائمة التشغيل المعدلة هذه الآن؟
 Double speed (2x): سرعة مزدوجة (2x)
 Downloading playlist...: جارٍ تنزيل قائمة التشغيل...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: يقوم ب
 Drag & drop – drop M3U or JSON files directly onto main window.: السحب والإسقاط – قم بإسقاط ملفات M3U أو JSON مباشرة على النافذة الرئيسية.
 Drag to seek back in buffer: اسحب للبحث مرة أخرى في المخزن المؤقت
 Duplicate URLs found:\n\n: تم العثور على عناوين URL مكررة:\n\n
+Edit Command: تحرير الأمر
+Edit command name:: تعديل اسم الأمر:
 Edit Playlist: تحرير قائمة التشغيل
+Edit telnet command:: تحرير أمر التلنت:
 Edit URLs: تحرير عناوين URL
 End: نهاية
 Enrich with EPG: إثراء مع دليل البرامج الإلكتروني
+Enter bouquet name (without spaces):: أدخل اسم الباقة (بدون مسافات):
 Enter JSON URL:: أدخل عنوان URL لـ JSON:
 Enter playlist URL (M3U or JSON):: أدخل عنوان URL لقائمة التشغيل (M3U أو JSON):
 EPG: دليل البرامج الإلكتروني
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: قم بتصدير القنوا�
 Extracting update...: جارٍ استخراج التحديث...
 Failed to download playlist: فشل تنزيل قائمة التشغيل
 Failed to load playlist: فشل تحميل قائمة التشغيل
+Failed to update bouquets.tv.: فشل تحديث باقات.tv.
+Failed to upload bouquet.: فشل تحميل الباقة.
 Favorite: مفضل
 Favorites only: المفضلة فقط
 Fetch Logos: جلب الشعارات
+File {0} already exists. Overwrite?: الملف {0} موجود بالفعل. الكتابة الفوقية؟
+File exists: الملف موجود
 Filters: المرشحات
 Fullscreen (hide UI) - press ESC to exit: ملء الشاشة (إخفاء واجهة المستخدم) - اضغط على ESC للخروج
 Geo & Country: الجغرافيا والبلد
@@ -183,6 +201,7 @@ No favorite channels to export.: لا توجد قنوات مفضلة للتصد�
 No playlist found: لم يتم العثور على قائمة تشغيل
 No updates available.: لا توجد تحديثات متاحة.
 Normal speed (1x): السرعة العادية (1x)
+Not connected to the box.: غير متصل بالمربع.
 Now: الآن
 OK: نعم
 Online Playlist: قائمة التشغيل على الانترنت
@@ -212,6 +231,8 @@ Refresh EPG: قم بتحديث دليل البرامج الإلكتروني
 Refresh EPG List: قم بتحديث قائمة EPG
 Refresh from GitHub: قم بالتحديث من جيثب
 Refresh List: تحديث القائمة
+Reload GUI: إعادة تحميل واجهة المستخدم الرسومية
+Remove Command: إزالة الأمر
 Rename Group: إعادة تسمية المجموعة
 Repository: مستودع
 Reset Order: إعادة تعيين الطلب
@@ -230,6 +251,9 @@ Search channels...: بحث في القنوات...
 Select a playlist first.: حدد قائمة التشغيل أولاً.
 Select Theme: حدد الموضوع
 Selected theme is saved and applied on restart.: يتم حفظ السمة المحددة وتطبيقها عند إعادة التشغيل.
+Send: يرسل
+Send playlist to Enigma2 decoder: إرسال قائمة التشغيل إلى وحدة فك ترميز Enigma2
+Send to Enigma2: أرسل إلى Enigma2
 Settings: إعدادات
 Show List: عرض القائمة
 Show only channels marked as favorites: عرض القنوات التي تم وضع علامة عليها كمفضلة فقط
@@ -243,6 +267,10 @@ Success: نجاح
 Support: يدعم
 Support the developer: دعم المطور
 Target Field: مجال الهدف
+Telnet command:: أمر التلنت:
+Telnet Commander: قائد التلنت
+Telnet Console: وحدة تحكم التلنت
+Telnet not configured. Please set it in Settings.: لم يتم تكوين Telnet. يرجى ضبطه في الإعدادات.
 Thanks to: شكرا ل
 Theme picker: منتقي الموضوع
 Theme picker – accessible via Tools menu on main toolbar.: منتقي السمات – يمكن الوصول إليه عبر قائمة الأدوات على شريط الأدوات الرئيسي.

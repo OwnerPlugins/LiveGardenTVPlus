@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Доступна новая версия. Хотите обновить сейчас?
 Access via 'Edit Playlist' button on main toolbar.: Доступ через кнопку «Редактировать список воспроизведения» на главной панели инструментов.
 Actions: Действия
+Add Command: Добавить команду
 Add Group: Добавить группу
 Add Mapping: Добавить сопоставление
 Adjust buffer size (1-10 seconds): Отрегулируйте размер буфера (1–10 секунд)
@@ -29,8 +30,11 @@ Advanced IDs: Расширенные идентификаторы
 Application status: Статус заявки
 Apply changes: Применить изменения
 Apply Filters: Применить фильтры
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Вы уверены, что хотите перезагрузить графический интерфейс Enigma2?\n\nИнтерфейс перезапустится (черный экран в течение нескольких секунд).
 Auto-detect: Автообнаружение
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Автоматическая проверка при запуске — или нажмите «Проверить наличие обновлений» в меню «Инструменты».
+Bouquet Name: Название букета
+Bouquet sent and Enigma2 channel list reloaded.: Букет отправлен, список каналов Enigma2 перезагружен.
 Buffer (seconds): Буфер (секунды)
 Buffer size – adjust HLS buffer seconds.: Размер буфера — отрегулируйте секунды буфера HLS.
 Cache: Кэш
@@ -51,7 +55,11 @@ Clear Filters: Очистить фильтры
 Clear search: Очистить поиск
 Click for details: Нажмите, чтобы узнать подробности
 Close: Закрывать
+Command name:: Имя команды:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Сообщество и тестирование: CorvoBoys (corvoboys.org) и LinuxSat-Support.com.
+Confirm Reload: Подтвердить перезагрузку
+Connect: Соединять
+Connected: Подключено
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Страна
 Credits: Кредиты
@@ -60,6 +68,8 @@ Description: Описание
 Details: Подробности
 Developed by Lululla: Разработано Лулуллой
 Developer: Lululla: Разработчик: Лулулла
+Disconnect: Отключить
+Disconnected: Отключено
 Do you want to load this edited playlist now?: Хотите загрузить этот отредактированный плейлист сейчас?
 Double speed (2x): Двойная скорость (2x)
 Downloading playlist...: Скачивание плейлиста...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Скачи�
 Drag & drop – drop M3U or JSON files directly onto main window.: Перетаскивание – перетаскивайте файлы M3U или JSON прямо в главное окно.
 Drag to seek back in buffer: Перетащите, чтобы вернуться в буфер
 Duplicate URLs found:\n\n: Обнаружены повторяющиеся URL-адреса:\n\n
+Edit Command: Редактировать команду
+Edit command name:: Изменить имя команды:
 Edit Playlist: Редактировать плейлист
+Edit telnet command:: Отредактируйте команду Telnet:
 Edit URLs: Редактировать URL-адреса
 End: Конец
 Enrich with EPG: Обогатите EPG
+Enter bouquet name (without spaces):: Введите название букета (без пробелов):
 Enter JSON URL:: Введите URL-адрес JSON:
 Enter playlist URL (M3U or JSON):: Введите URL-адрес плейлиста (M3U или JSON):
 EPG: электронная программа передач
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Экспортируйте то
 Extracting update...: Извлечение обновления...
 Failed to download playlist: Не удалось загрузить плейлист
 Failed to load playlist: Не удалось загрузить плейлист
+Failed to update bouquets.tv.: Не удалось обновить букеты.tv.
+Failed to upload bouquet.: Не удалось загрузить букет.
 Favorite: Любимый
 Favorites only: Только избранное
 Fetch Logos: Получить логотипы
+File {0} already exists. Overwrite?: Файл {0} уже существует. Перезаписать?
+File exists: Файл существует
 Filters: Фильтры
 Fullscreen (hide UI) - press ESC to exit: Полноэкранный режим (скрыть пользовательский интерфейс) — нажмите ESC, чтобы выйти
 Geo & Country: Гео и страна
@@ -183,6 +201,7 @@ No favorite channels to export.: Нет любимых каналов для э�
 No playlist found: Плейлист не найден
 No updates available.: Нет доступных обновлений.
 Normal speed (1x): Нормальная скорость (1x)
+Not connected to the box.: Не подключен к коробке.
 Now: Сейчас
 OK: ХОРОШО
 Online Playlist: Онлайн-плейлист
@@ -212,6 +231,8 @@ Refresh EPG: Обновить EPG
 Refresh EPG List: Обновить список EPG
 Refresh from GitHub: Обновить с GitHub
 Refresh List: Обновить список
+Reload GUI: Перезагрузить графический интерфейс
+Remove Command: Удалить команду
 Rename Group: Переименовать группу
 Repository: Репозиторий
 Reset Order: Сбросить заказ
@@ -230,6 +251,9 @@ Search channels...: Поиск каналов...
 Select a playlist first.: Сначала выберите плейлист.
 Select Theme: Выберите тему
 Selected theme is saved and applied on restart.: Выбранная тема сохраняется и применяется при перезапуске.
+Send: Отправлять
+Send playlist to Enigma2 decoder: Отправить плейлист в декодер Enigma2
+Send to Enigma2: Отправить в Энигму2
 Settings: Настройки
 Show List: Показать список
 Show only channels marked as favorites: Показывать только каналы, отмеченные как избранные
@@ -243,6 +267,10 @@ Success: Успех
 Support: Поддерживать
 Support the developer: Поддержите разработчика
 Target Field: Целевое поле
+Telnet command:: Телнет-команда:
+Telnet Commander: Telnet-командир
+Telnet Console: Telnet-консоль
+Telnet not configured. Please set it in Settings.: Телнет не настроен. Пожалуйста, установите его в настройках.
 Thanks to: Благодаря
 Theme picker: Выбор темы
 Theme picker – accessible via Tools menu on main toolbar.: Выбор темы – доступен через меню «Инструменты» на главной панели инструментов.

@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Yeni bir sürüm mevcut. Şimdi güncellemek istiyor musunuz?
 Access via 'Edit Playlist' button on main toolbar.: Ana araç çubuğundaki 'Oynatma Listesini Düzenle' düğmesiyle erişim.
 Actions: Eylemler
+Add Command: Komut Ekle
 Add Group: Grup Ekle
 Add Mapping: Eşleme Ekle
 Adjust buffer size (1-10 seconds): Tampon boyutunu ayarlayın (1-10 saniye)
@@ -29,8 +30,11 @@ Advanced IDs: Gelişmiş Kimlikler
 Application status: Başvuru durumu
 Apply changes: Değişiklikleri uygula
 Apply Filters: Filtreleri Uygula
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI'sini yeniden yüklemek istediğinizden emin misiniz?\n\nArayüz yeniden başlatılacak (birkaç saniye boyunca siyah ekran).
 Auto-detect: Otomatik algılama
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Başlangıçta otomatik kontrol – veya Araçlar menüsünde 'Güncellemeleri kontrol et' seçeneğini tıklayın.
+Bouquet Name: Buket Adı
+Bouquet sent and Enigma2 channel list reloaded.: Buket gönderildi ve Enigma2 kanal listesi yeniden yüklendi.
 Buffer (seconds): Tampon (saniye)
 Buffer size – adjust HLS buffer seconds.: Arabellek boyutu – HLS arabellek saniyelerini ayarlayın.
 Cache: Önbellek
@@ -51,7 +55,11 @@ Clear Filters: Filtreleri Temizle
 Clear search: Aramayı temizle
 Click for details: Ayrıntılar için tıklayın
 Close: Kapalı
+Command name:: Komut adı:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Topluluk ve test: CorvoBoys (corvoboys.org) ve LinuxSat-Support.com
+Confirm Reload: Yeniden Yüklemeyi Onayla
+Connect: Bağlamak
+Connected: Bağlı
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Ülke
 Credits: Kredi
@@ -60,6 +68,8 @@ Description: Tanım
 Details: Detaylar
 Developed by Lululla: Lululla tarafından geliştirildi
 Developer: Lululla: Geliştirici: Lululla
+Disconnect: Bağlantıyı kes
+Disconnected: Bağlantı kesildi
 Do you want to load this edited playlist now?: Düzenlenen bu oynatma listesini şimdi yüklemek istiyor musunuz?
 Double speed (2x): Çift hız (2x)
 Downloading playlist...: Oynatma listesi indiriliyor...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP'i indir
 Drag & drop – drop M3U or JSON files directly onto main window.: Sürükle ve bırak – M3U veya JSON dosyalarını doğrudan ana pencereye bırakın.
 Drag to seek back in buffer: Ara bellekte geri aramak için sürükleyin
 Duplicate URLs found:\n\n: Yinelenen URL'ler bulundu:\n\n
+Edit Command: Komutu Düzenle
+Edit command name:: Komut adını düzenleyin:
 Edit Playlist: Oynatma Listesini Düzenle
+Edit telnet command:: Telnet komutunu düzenleyin:
 Edit URLs: URL'leri düzenleyin
 End: Son
 Enrich with EPG: EPG ile zenginleştirin
+Enter bouquet name (without spaces):: Buket adını girin (boşluksuz):
 Enter JSON URL:: JSON URL'sini girin:
 Enter playlist URL (M3U or JSON):: Çalma listesi URL'sini girin (M3U veya JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Yalnızca favori kanalları yen
 Extracting update...: Güncelleme çıkarılıyor...
 Failed to download playlist: Oynatma listesi indirilemedi
 Failed to load playlist: Oynatma listesi yüklenemedi
+Failed to update bouquets.tv.: Buketler.tv güncellenemedi.
+Failed to upload bouquet.: Buket yüklenemedi.
 Favorite: Favori
 Favorites only: Yalnızca favoriler
 Fetch Logos: Logoları Getir
+File {0} already exists. Overwrite?: {0} dosyası zaten mevcut. Üzerine yazılsın mı?
+File exists: Dosya mevcut
 Filters: Filtreler
 Fullscreen (hide UI) - press ESC to exit: Tam ekran (kullanıcı arayüzünü gizle) - çıkmak için ESC tuşuna basın
 Geo & Country: Coğrafya ve Ülke
@@ -183,6 +201,7 @@ No favorite channels to export.: Dışa aktarılacak favori kanal yok.
 No playlist found: Oynatma listesi bulunamadı
 No updates available.: Güncelleme mevcut değil.
 Normal speed (1x): Normal hız (1x)
+Not connected to the box.: Kutuya bağlı değil.
 Now: Şimdi
 OK: TAMAM
 Online Playlist: Çevrimiçi Oynatma Listesi
@@ -212,6 +231,8 @@ Refresh EPG: EPG'yi yenile
 Refresh EPG List: EPG Listesini Yenile
 Refresh from GitHub: GitHub'dan yenile
 Refresh List: Listeyi Yenile
+Reload GUI: GUI'yi yeniden yükle
+Remove Command: Komutu Kaldır
 Rename Group: Grubu Yeniden Adlandır
 Repository: Depo
 Reset Order: Siparişi Sıfırla
@@ -230,6 +251,9 @@ Search channels...: Kanal ara...
 Select a playlist first.: Önce bir çalma listesi seçin.
 Select Theme: Tema Seç
 Selected theme is saved and applied on restart.: Seçilen tema kaydedilir ve yeniden başlatıldığında uygulanır.
+Send: Göndermek
+Send playlist to Enigma2 decoder: Çalma listesini Enigma2 kod çözücüye gönder
+Send to Enigma2: Enigma2'ye gönder
 Settings: Ayarlar
 Show List: Listeyi Göster
 Show only channels marked as favorites: Yalnızca favori olarak işaretlenen kanalları göster
@@ -243,6 +267,10 @@ Success: Başarı
 Support: Destek
 Support the developer: Geliştiriciyi destekleyin
 Target Field: Hedef Alanı
+Telnet command:: Telnet komutu:
+Telnet Commander: Telnet Komutanı
+Telnet Console: Telnet Konsolu
+Telnet not configured. Please set it in Settings.: Telnet yapılandırılmadı. Lütfen Ayarlar'da ayarlayın.
 Thanks to: Sayesinde
 Theme picker: Tema seçici
 Theme picker – accessible via Tools menu on main toolbar.: Tema seçici – ana araç çubuğundaki Araçlar menüsünden erişilebilir.

@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Μια νέα έκδοση είναι διαθέσιμη. Θέλετε να ενημερώσετε τώρα;
 Access via 'Edit Playlist' button on main toolbar.: Πρόσβαση μέσω του κουμπιού «Επεξεργασία λίστας αναπαραγωγής» στην κύρια γραμμή εργαλείων.
 Actions: Δράσεις
+Add Command: Προσθήκη εντολής
 Add Group: Προσθήκη ομάδας
 Add Mapping: Προσθήκη χαρτογράφησης
 Adjust buffer size (1-10 seconds): Προσαρμογή μεγέθους buffer (1-10 δευτερόλεπτα)
@@ -29,8 +30,11 @@ Advanced IDs: Προηγμένα αναγνωριστικά
 Application status: Κατάσταση εφαρμογής
 Apply changes: Εφαρμόστε αλλαγές
 Apply Filters: Εφαρμογή φίλτρων
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Είστε βέβαιοι ότι θέλετε να επαναφορτώσετε το Enigma2 GUI;\n\nΗ διεπαφή θα επανεκκινηθεί (μαύρη οθόνη για λίγα δευτερόλεπτα).
 Auto-detect: Αυτόματος εντοπισμός
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Αυτόματος έλεγχος κατά την εκκίνηση – ή κάντε κλικ στο «Έλεγχος για ενημερώσεις» στο μενού Εργαλεία.
+Bouquet Name: Όνομα ανθοδέσμης
+Bouquet sent and Enigma2 channel list reloaded.: Το μπουκέτο στάλθηκε και η λίστα καναλιών Enigma2 φορτώθηκε ξανά.
 Buffer (seconds): Buffer (δευτερόλεπτα)
 Buffer size – adjust HLS buffer seconds.: Μέγεθος buffer – προσαρμόστε τα δευτερόλεπτα buffer HLS.
 Cache: Κρύπτη
@@ -51,7 +55,11 @@ Clear Filters: Διαγραφή φίλτρων
 Clear search: Εκκαθάριση αναζήτησης
 Click for details: Κάντε κλικ για λεπτομέρειες
 Close: Κοντά
+Command name:: Όνομα εντολής:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Κοινότητα και δοκιμές: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Επιβεβαίωση επαναφόρτωσης
+Connect: Συνδέω
+Connected: Συνδεδεμένος
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Χώρα
 Credits: Πιστώσεις
@@ -60,6 +68,8 @@ Description: Περιγραφή
 Details: Καθέκαστα
 Developed by Lululla: Αναπτύχθηκε από την Lululla
 Developer: Lululla: Κατασκευαστής: Lululla
+Disconnect: Αποσυνδέω
+Disconnected: Ασύνδετος
 Do you want to load this edited playlist now?: Θέλετε να φορτώσετε αυτήν την επεξεργασμένη λίστα αναπαραγωγής τώρα;
 Double speed (2x): Διπλή ταχύτητα (2x)
 Downloading playlist...: Λήψη λίστας αναπαραγωγής...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Λήψη ZI
 Drag & drop – drop M3U or JSON files directly onto main window.: Σύρετε και αποθέστε – αποθέστε αρχεία M3U ή JSON απευθείας στο κύριο παράθυρο.
 Drag to seek back in buffer: Σύρετε για αναζήτηση στο buffer
 Duplicate URLs found:\n\n: Βρέθηκαν διπλότυπες διευθύνσεις URL:\n\n
+Edit Command: Εντολή επεξεργασίας
+Edit command name:: Επεξεργασία ονόματος εντολής:
 Edit Playlist: Επεξεργασία λίστας αναπαραγωγής
+Edit telnet command:: Επεξεργασία εντολής telnet:
 Edit URLs: Επεξεργασία διευθύνσεων URL
 End: Τέλος
 Enrich with EPG: Εμπλουτίστε με EPG
+Enter bouquet name (without spaces):: Εισαγάγετε το όνομα της ανθοδέσμης (χωρίς κενά):
 Enter JSON URL:: Εισαγάγετε τη διεύθυνση URL JSON:
 Enter playlist URL (M3U or JSON):: Εισαγάγετε τη διεύθυνση URL της λίστας αναπαραγωγής (M3U ή JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Εξαγωγή μόνο αγα�
 Extracting update...: Εξαγωγή ενημέρωσης...
 Failed to download playlist: Η λήψη της λίστας αναπαραγωγής απέτυχε
 Failed to load playlist: Η φόρτωση της λίστας αναπαραγωγής απέτυχε
+Failed to update bouquets.tv.: Η ενημέρωση του bouquets.tv απέτυχε.
+Failed to upload bouquet.: Αποτυχία μεταφόρτωσης μπουκέτου.
 Favorite: Ευνοούμενος
 Favorites only: Μόνο τα αγαπημένα
 Fetch Logos: Λήψη λογότυπων
+File {0} already exists. Overwrite?: Το αρχείο {0} υπάρχει ήδη. Αντικατάσταση;
+File exists: Το αρχείο υπάρχει
 Filters: Φίλτρα
 Fullscreen (hide UI) - press ESC to exit: Πλήρης οθόνη (απόκρυψη διεπαφής χρήστη) - πατήστε ESC για έξοδο
 Geo & Country: Geo & Country
@@ -183,6 +201,7 @@ No favorite channels to export.: Δεν υπάρχουν αγαπημένα κα
 No playlist found: Δεν βρέθηκε λίστα αναπαραγωγής
 No updates available.: Δεν υπάρχουν διαθέσιμες ενημερώσεις.
 Normal speed (1x): Κανονική ταχύτητα (1x)
+Not connected to the box.: Δεν συνδέεται με το κουτί.
 Now: Τώρα
 OK: ΕΝΤΑΞΕΙ
 Online Playlist: Online Playlist
@@ -212,6 +231,8 @@ Refresh EPG: Ανανέωση EPG
 Refresh EPG List: Ανανέωση λίστας EPG
 Refresh from GitHub: Ανανέωση από το GitHub
 Refresh List: Ανανέωση λίστας
+Reload GUI: Επαναφόρτωση GUI
+Remove Command: Κατάργηση εντολής
 Rename Group: Μετονομασία ομάδας
 Repository: Αποθήκη
 Reset Order: Επαναφορά παραγγελίας
@@ -230,6 +251,9 @@ Search channels...: Αναζήτηση καναλιών...
 Select a playlist first.: Επιλέξτε πρώτα μια λίστα αναπαραγωγής.
 Select Theme: Επιλέξτε Θέμα
 Selected theme is saved and applied on restart.: Το επιλεγμένο θέμα αποθηκεύεται και εφαρμόζεται κατά την επανεκκίνηση.
+Send: Στέλνω
+Send playlist to Enigma2 decoder: Αποστολή λίστας αναπαραγωγής στον αποκωδικοποιητή Enigma2
+Send to Enigma2: Αποστολή στο Enigma2
 Settings: Ρυθμίσεις
 Show List: Εμφάνιση λίστας
 Show only channels marked as favorites: Εμφάνιση μόνο καναλιών που έχουν επισημανθεί ως αγαπημένα
@@ -243,6 +267,10 @@ Success: Επιτυχία
 Support: Υποστήριξη
 Support the developer: Υποστηρίξτε τον προγραμματιστή
 Target Field: Πεδίο Στόχου
+Telnet command:: Εντολή Telnet:
+Telnet Commander: Διοικητής Telnet
+Telnet Console: Κονσόλα Telnet
+Telnet not configured. Please set it in Settings.: Το Telnet δεν έχει ρυθμιστεί. Ρυθμίστε το στις Ρυθμίσεις.
 Thanks to: Χάρις σε
 Theme picker: Επιλογέας θέματος
 Theme picker – accessible via Tools menu on main toolbar.: Επιλογέας θέματος – προσβάσιμο μέσω του μενού Εργαλεία στην κύρια γραμμή εργαλείων.

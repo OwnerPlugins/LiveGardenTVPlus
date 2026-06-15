@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Verżjoni ġdida hija disponibbli. Trid taġġorna issa?
 Access via 'Edit Playlist' button on main toolbar.: Aċċess permezz tal-buttuna 'Editja Playlist' fuq il-bar tal-għodda prinċipali.
 Actions: Azzjonijiet
+Add Command: Żid Kmand
 Add Group: Żid Grupp
 Add Mapping: Żid Mapping
 Adjust buffer size (1-10 seconds): Aġġusta d-daqs tal-buffer (1-10 sekondi)
@@ -29,8 +30,11 @@ Advanced IDs: IDs Avvanzati
 Application status: Status tal-applikazzjoni
 Apply changes: Applika bidliet
 Apply Filters: Applika Filtri
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Int żgur li trid terġa' ttella' l-GUI ta' Enigma2?\n\nL-interface terġa' tibda (iskrin iswed għal ftit sekondi).
 Auto-detect: Issib awtomatikament
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Iċċekkja awtomatika mal-istartjar – jew ikklikkja 'Iċċekkja għal aġġornamenti' fil-menu tal-Għodda.
+Bouquet Name: Isem Bukkett
+Bouquet sent and Enigma2 channel list reloaded.: Bukkett mibgħut u l-lista tal-kanali Enigma2 ikkargata mill-ġdid.
 Buffer (seconds): Buffer (sekondi)
 Buffer size – adjust HLS buffer seconds.: Daqs tal-buffer – aġġusta sekondi tal-buffer HLS.
 Cache: Cache
@@ -51,7 +55,11 @@ Clear Filters: Filtri ċari
 Clear search: Tiftix ċar
 Click for details: Ikklikkja għad-dettalji
 Close: Agħlaq
+Command name:: Isem tal-kmand:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunità u ttestjar: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Ikkonferma Reload
+Connect: Qabbad
+Connected: Konnessi
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Pajjiż
 Credits: Krediti
@@ -60,6 +68,8 @@ Description: Deskrizzjoni
 Details: Dettalji
 Developed by Lululla: Żviluppat minn Lululla
 Developer: Lululla: Żviluppatur: Lululla
+Disconnect: Skonnettja
+Disconnected: Skonnettjat
 Do you want to load this edited playlist now?: Trid tagħbija din il-playlist editjata issa?
 Double speed (2x): Veloċità doppja (2x)
 Downloading playlist...: Niżżel il-playlist...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Jniżżel Z
 Drag & drop – drop M3U or JSON files directly onto main window.: Iddreggja u qatra – qiegħed fajls M3U jew JSON direttament fuq it-tieqa prinċipali.
 Drag to seek back in buffer: Iddreggja biex tfittex lura fil-buffer
 Duplicate URLs found:\n\n: URLs duplikati misjuba:\n\n
+Edit Command: Editja Kmand
+Edit command name:: Editja l-isem tal-kmand:
 Edit Playlist: Editja Playlist
+Edit telnet command:: Editja kmand Telnet:
 Edit URLs: Editja l-URLs
 End: Tmiem
 Enrich with EPG: Tarrikkixxi bl-EPG
+Enter bouquet name (without spaces):: Daħħal l-isem tal-bukkett (mingħajr spazji):
 Enter JSON URL:: Daħħal JSON URL:
 Enter playlist URL (M3U or JSON):: Daħħal l-URL tal-playlist (M3U jew JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Esportazzjoni biss kanali favor
 Extracting update...: Qed jiġi estratt aġġornament...
 Failed to download playlist: Naqas milli tniżżel playlist
 Failed to load playlist: Naqas milli tagħbija playlist
+Failed to update bouquets.tv.: Naqas milli jaġġorna bouquets.tv.
+Failed to upload bouquet.: Naqas milli ttella' bukkett.
 Favorite: Favorit
 Favorites only: Favourites biss
 Fetch Logos: Iġbed Logos
+File {0} already exists. Overwrite?: Il-fajl {0} diġà jeżisti. Ikteb mill-ġdid?
+File exists: Il-fajl jeżisti
 Filters: Filtri
 Fullscreen (hide UI) - press ESC to exit: Skrin sħiħ (aħbi UI) - agħfas ESC biex toħroġ
 Geo & Country: Ġeo & Pajjiż
@@ -183,6 +201,7 @@ No favorite channels to export.: Ebda kanali favoriti għall-esportazzjoni.
 No playlist found: Ma nstabet l-ebda playlist
 No updates available.: Ebda aġġornamenti disponibbli.
 Normal speed (1x): Veloċità normali (1x)
+Not connected to the box.: Mhux imqabbad mal-kaxxa.
 Now: Issa
 OK: OK
 Online Playlist: Playlist Online
@@ -212,6 +231,8 @@ Refresh EPG: Aġġorna l-EPG
 Refresh EPG List: Aġġorna l-Lista EPG
 Refresh from GitHub: Aġġorna minn GitHub
 Refresh List: Aġġorna l-Lista
+Reload GUI: Reload GUI
+Remove Command: Neħħi Kmand
 Rename Group: Semmi mill-ġdid tal-Grupp
 Repository: Repożitorju
 Reset Order: Irrisettja l-Ordni
@@ -230,6 +251,9 @@ Search channels...: Fittex kanali...
 Select a playlist first.: Agħżel playlist l-ewwel.
 Select Theme: Agħżel Tema
 Selected theme is saved and applied on restart.: It-tema magħżula tiġi ssejvjata u applikata mal-bidu mill-ġdid.
+Send: Ibgħat
+Send playlist to Enigma2 decoder: Ibgħat playlist lid-decoder Enigma2
+Send to Enigma2: Ibgħat lil Enigma2
 Settings: Settings
 Show List: Uri Lista
 Show only channels marked as favorites: Uri biss kanali mmarkati bħala favoriti
@@ -243,6 +267,10 @@ Success: Suċċess
 Support: Appoġġ
 Support the developer: Appoġġ lill-iżviluppatur
 Target Field: Target Field
+Telnet command:: kmand Telnet:
+Telnet Commander: Kmandant Telnet
+Telnet Console: Telnet Console
+Telnet not configured. Please set it in Settings.: Telnet mhux ikkonfigurat. Jekk jogħġbok issettjaha fis-Settings.
 Thanks to: Grazzi lil
 Theme picker: Picker tat-tema
 Theme picker – accessible via Tools menu on main toolbar.: Picker tat-tema - aċċessibbli permezz tal-menu tal-Għodda fuq il-bar tal-għodda prinċipali.

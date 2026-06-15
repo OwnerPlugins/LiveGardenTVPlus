@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Версияи нав дастрас аст. Мехоҳед ҳоло навсозӣ кунед?
 Access via 'Edit Playlist' button on main toolbar.: Дастрасӣ тавассути тугмаи 'Рӯйхати навозишро таҳрир' дар панели асбобҳои асосӣ.
 Actions: Амалҳо
+Add Command: Иловаи Фармон
 Add Group: Илова кардани гурӯҳ
 Add Mapping: Илова кардани Харитасозӣ
 Adjust buffer size (1-10 seconds): Андозаи буферро танзим кунед (1-10 сония)
@@ -29,8 +30,11 @@ Advanced IDs: ID-ҳои пешрафта
 Application status: Ҳолати ариза
 Apply changes: Тағиротро татбиқ кунед
 Apply Filters: Филтрҳоро татбиқ кунед
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Оё мутмаин ҳастед, ки мехоҳед GUI-и Enigma2-ро аз нав бор кунед?\n\nИнтерфейс аз нав оғоз мешавад (экрани сиёҳ барои чанд сония).
 Auto-detect: Худкор муайян кардан
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Санҷиши худкор ҳангоми оғозёбӣ - ё дар менюи асбобҳо 'Тафтиши навсозиҳо' -ро клик кунед.
+Bouquet Name: Номи гулдастаҳо
+Bouquet sent and Enigma2 channel list reloaded.: Букет фиристода шуд ва рӯйхати каналҳои Enigma2 дубора бор карда шуд.
 Buffer (seconds): Буфер (сонияҳо)
 Buffer size – adjust HLS buffer seconds.: Андозаи буфер - сонияҳои буферии HLS-ро танзим кунед.
 Cache: Кэш
@@ -51,7 +55,11 @@ Clear Filters: Филтрҳоро тоза кунед
 Clear search: Ҷустуҷӯро тоза кунед
 Click for details: Барои тафсилот клик кунед
 Close: Пӯшед
+Command name:: Номи фармон:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Ҷомеа ва санҷиш: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Боркунии дубораро тасдиқ кунед
+Connect: Пайваст кунед
+Connected: пайваст
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: кишвар
 Credits: Қарзҳо
@@ -60,6 +68,8 @@ Description: Тавсифи
 Details: Тафсилот
 Developed by Lululla: Аз ҷониби Лулулла таҳия шудааст
 Developer: Lululla: Таҳиягар: Лулулла
+Disconnect: Қатъ кунед
+Disconnected: Қатъи
 Do you want to load this edited playlist now?: Оё шумо мехоҳед ин рӯйхати навозиш таҳриршударо ҳозир бор кунед?
 Double speed (2x): Суръати дукарата (2х)
 Downloading playlist...: Зеркашӣ кардани рӯйхати навозиш...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP-ро з
 Drag & drop – drop M3U or JSON files directly onto main window.: Кашола карда партоед - файлҳои M3U ё JSON мустақиман ба равзанаи асосӣ гузоред.
 Drag to seek back in buffer: Барои ҷустуҷӯи бозгашт дар буфер кашед
 Duplicate URLs found:\n\n: URL-ҳои такрорӣ ёфт:\n\n
+Edit Command: Фармони таҳрир
+Edit command name:: Номи фармонро таҳрир кунед:
 Edit Playlist: Таҳрири рӯйхати навозиш
+Edit telnet command:: Таҳрири фармони telnet:
 Edit URLs: URL-ҳоро таҳрир кунед
 End: Поён
 Enrich with EPG: Бо EPG бой кунед
+Enter bouquet name (without spaces):: Номи гулдастаро ворид кунед (бе фосила):
 Enter JSON URL:: URL-и JSON-ро ворид кунед:
 Enter playlist URL (M3U or JSON):: URL-и рӯйхати навозишро ворид кунед (M3U ё JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Танҳо каналҳои д�
 Extracting update...: Истихроҷи навсозӣ...
 Failed to download playlist: Рӯйхати навозишро зеркашӣ карда натавонист
 Failed to load playlist: Рӯйхати навозишро бор карда натавонист
+Failed to update bouquets.tv.: bouquets.tv навсозӣ нашуд.
+Failed to upload bouquet.: Бор кардани гулдастаҳо.
 Favorite: Дӯстдошта
 Favorites only: Танҳо дӯстдоштаҳо
 Fetch Logos: Логотипҳоро гиред
+File {0} already exists. Overwrite?: Файли {0} аллакай вуҷуд дорад. Аз нав навиштан?
+File exists: Файл вуҷуд дорад
 Filters: Филтрҳо
 Fullscreen (hide UI) - press ESC to exit: Экрани пурра (пинҳон кардани UI) - барои баромадан ESC -ро пахш кунед
 Geo & Country: Гео ва кишвар
@@ -183,6 +201,7 @@ No favorite channels to export.: Ягон каналҳои дӯстдошта б
 No playlist found: Ягон рӯйхати навозиш ёфт нашуд
 No updates available.: Ягон навсозиҳо дастрас нест.
 Normal speed (1x): Суръати муқаррарӣ (1х)
+Not connected to the box.: Ба қуттӣ пайваст нест.
 Now: Акнун
 OK: ДУРУСТ
 Online Playlist: Рӯйхати навозиш онлайн
@@ -212,6 +231,8 @@ Refresh EPG: EPG-ро навсозӣ кунед
 Refresh EPG List: Рӯйхати EPG-ро нав кунед
 Refresh from GitHub: Аз GitHub навсозӣ кунед
 Refresh List: Рӯйхати навсозӣ
+Reload GUI: GUI-ро аз нав бор кунед
+Remove Command: Фармонро нест кунед
 Rename Group: Номи гурӯҳро тағир диҳед
 Repository: Анбор
 Reset Order: Тартибро аз нав барқарор кунед
@@ -230,6 +251,9 @@ Search channels...: Ҷустуҷӯи каналҳо...
 Select a playlist first.: Аввал рӯйхати навозишро интихоб кунед.
 Select Theme: Мавзӯъро интихоб кунед
 Selected theme is saved and applied on restart.: Мавзӯи интихобшуда захира карда мешавад ва ҳангоми бозоғозӣ истифода мешавад.
+Send: Ирсол
+Send playlist to Enigma2 decoder: Рӯйхати навозишро ба декодери Enigma2 фиристед
+Send to Enigma2: Ба Enigma2 фиристед
 Settings: Танзимотҳо
 Show List: Нишон додани рӯйхат
 Show only channels marked as favorites: Танҳо каналҳоеро, ки ҳамчун мунтахаб қайд шудаанд, нишон диҳед
@@ -243,6 +267,10 @@ Success: Муваффакият
 Support: Дастгирӣ
 Support the developer: Дастгирии таҳиякунанда
 Target Field: Майдони ҳадаф
+Telnet command:: Фармони Telnet:
+Telnet Commander: Фармондеҳи Telnet
+Telnet Console: Консол Telnet
+Telnet not configured. Please set it in Settings.: Telnet танзим нашудааст. Лутфан онро дар Танзимот танзим кунед.
 Thanks to: Ташаккур ба
 Theme picker: Интихобкунандаи мавзӯъ
 Theme picker – accessible via Tools menu on main toolbar.: Интихобкунандаи мавзӯъ - тавассути менюи асбобҳо дар панели асбобҳо дастрас аст.

@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Një version i ri është në dispozicion. Dëshiron ta përditësosh tani?
 Access via 'Edit Playlist' button on main toolbar.: Qasja nëpërmjet butonit "Ndrysho listën e luajtjes" në shiritin kryesor të veglave.
 Actions: Veprimet
+Add Command: Shto komandën
 Add Group: Shto grup
 Add Mapping: Shto hartën
 Adjust buffer size (1-10 seconds): Rregullo madhësinë e tamponit (1-10 sekonda)
@@ -29,8 +30,11 @@ Advanced IDs: ID të avancuara
 Application status: Statusi i aplikimit
 Apply changes: Aplikoni ndryshimet
 Apply Filters: Aplikoni filtrat
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Jeni i sigurt që dëshironi të ringarkoni GUI-në Enigma2?\n\nNdërfaqja do të riniset (ekrani i zi për disa sekonda).
 Auto-detect: Zbulimi automatik
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Kontroll automatik gjatë nisjes – ose kliko 'Kontrollo për përditësime' në menynë e Veglave.
+Bouquet Name: Emri i buqetës
+Bouquet sent and Enigma2 channel list reloaded.: Buqeta u dërgua dhe lista e kanaleve Enigma2 u ringarkua.
 Buffer (seconds): Buffer (sekonda)
 Buffer size – adjust HLS buffer seconds.: Madhësia e tamponit – rregulloni sekondat e tamponit HLS.
 Cache: Cache
@@ -51,7 +55,11 @@ Clear Filters: Pastro filtrat
 Clear search: Pastro kërkimin
 Click for details: Klikoni për detaje
 Close: Mbylle
+Command name:: Emri i komandës:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komuniteti dhe testimi: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Konfirmo ringarkimin
+Connect: Lidheni
+Connected: Lidhur
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Vendi
 Credits: Kreditë
@@ -60,6 +68,8 @@ Description: Përshkrimi
 Details: Detajet
 Developed by Lululla: Zhvilluar nga Lululla
 Developer: Lululla: Zhvilluesi: Lululla
+Disconnect: Shkëputeni
+Disconnected: E shkëputur
 Do you want to load this edited playlist now?: Dëshiron ta ngarkosh këtë listë luajtjeje të modifikuar tani?
 Double speed (2x): Shpejtësia e dyfishtë (2x)
 Downloading playlist...: Lista e luajtjes po shkarkohet...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Shkarkon ZI
 Drag & drop – drop M3U or JSON files directly onto main window.: Zvarrit dhe lësho – lësho skedarët M3U ose JSON direkt në dritaren kryesore.
 Drag to seek back in buffer: Zvarriteni për të kërkuar përsëri në tampon
 Duplicate URLs found:\n\n: U gjetën URL dublikate:\n\n
+Edit Command: Komanda e modifikimit
+Edit command name:: Redakto emrin e komandës:
 Edit Playlist: Redakto listën e luajtjes
+Edit telnet command:: Redakto komandën telnet:
 Edit URLs: Redakto URL-të
 End: fund
 Enrich with EPG: Pasurohuni me EPG
+Enter bouquet name (without spaces):: Fut emrin e buqetës (pa hapësira):
 Enter JSON URL:: Fut URL-në JSON:
 Enter playlist URL (M3U or JSON):: Fut URL-në e listës së luajtjes (M3U ose JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Eksportoni vetëm kanalet e pre
 Extracting update...: Po nxirret përditësimi...
 Failed to download playlist: Shkarkimi i listës së luajtjes dështoi
 Failed to load playlist: Ngarkimi i listës së luajtjes dështoi
+Failed to update bouquets.tv.: Përditësimi i bouquets.tv dështoi.
+Failed to upload bouquet.: Ngarkimi i buqetës dështoi.
 Favorite: E preferuara
 Favorites only: Vetëm të preferuarat
 Fetch Logos: Merr logot
+File {0} already exists. Overwrite?: Skedari {0} ekziston tashmë. Mbivendosni?
+File exists: Skedari ekziston
 Filters: Filtrat
 Fullscreen (hide UI) - press ESC to exit: Ekrani i plotë (fshih UI) - shtyp ESC për të dalë
 Geo & Country: Gjeo & Vendi
@@ -183,6 +201,7 @@ No favorite channels to export.: Nuk ka kanale të preferuara për eksport.
 No playlist found: Nuk u gjet asnjë listë për luajtje
 No updates available.: Nuk ka përditësime të disponueshme.
 Normal speed (1x): Shpejtësia normale (1x)
+Not connected to the box.: Nuk është i lidhur me kutinë.
 Now: Tani
 OK: OK
 Online Playlist: Lista e luajtjes në internet
@@ -212,6 +231,8 @@ Refresh EPG: Rifresko EPG
 Refresh EPG List: Rifresko listën EPG
 Refresh from GitHub: Rifresko nga GitHub
 Refresh List: Rifresko listën
+Reload GUI: Ringarko GUI
+Remove Command: Hiq komandën
 Rename Group: Riemërto grupin
 Repository: Depoja
 Reset Order: Rivendos porosinë
@@ -230,6 +251,9 @@ Search channels...: Kërko kanale...
 Select a playlist first.: Së pari zgjidhni një listë dëgjimi.
 Select Theme: Zgjidhni Temë
 Selected theme is saved and applied on restart.: Tema e zgjedhur ruhet dhe aplikohet në rinisje.
+Send: Dërgo
+Send playlist to Enigma2 decoder: Dërgo listën e luajtjes te dekoderi Enigma2
+Send to Enigma2: Dërgo te Enigma2
 Settings: Cilësimet
 Show List: Shfaq listën
 Show only channels marked as favorites: Shfaq vetëm kanalet e shënuara si të preferuara
@@ -243,6 +267,10 @@ Success: Suksese
 Support: Mbështetje
 Support the developer: Mbështetni zhvilluesin
 Target Field: Fusha e synuar
+Telnet command:: Komanda Telnet:
+Telnet Commander: Komandant Telnet
+Telnet Console: Konsola Telnet
+Telnet not configured. Please set it in Settings.: Telnet nuk është konfiguruar. Ju lutemi vendoseni te Cilësimet.
 Thanks to: Falë
 Theme picker: Zgjedhësi i temës
 Theme picker – accessible via Tools menu on main toolbar.: Zgjedhësi i temës – i aksesueshëm nëpërmjet menysë "Vegla" në shiritin kryesor të veglave.

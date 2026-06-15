@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Er is een nieuwe versie beschikbaar. Wil je nu updaten?
 Access via 'Edit Playlist' button on main toolbar.: Toegang via de knop 'Afspeellijst bewerken' op de hoofdwerkbalk.
 Actions: Acties
+Add Command: Commando toevoegen
 Add Group: Groep toevoegen
 Add Mapping: Voeg toewijzing toe
 Adjust buffer size (1-10 seconds): Buffergrootte aanpassen (1-10 seconden)
@@ -29,8 +30,11 @@ Advanced IDs: Geavanceerde ID's
 Application status: Applicatiestatus
 Apply changes: Wijzigingen toepassen
 Apply Filters: Filters toepassen
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Weet u zeker dat u de Enigma2 GUI opnieuw wilt laden?\n\nDe interface zal opnieuw opstarten (zwart scherm gedurende een paar seconden).
 Auto-detect: Automatische detectie
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatische controle bij opstarten – of klik op 'Controleren op updates' in het menu Extra.
+Bouquet Name: Naam boeket
+Bouquet sent and Enigma2 channel list reloaded.: Boeket verzonden en Enigma2-kanaallijst opnieuw geladen.
 Buffer (seconds): Buffer (seconden)
 Buffer size – adjust HLS buffer seconds.: Buffergrootte – pas HLS-bufferseconden aan.
 Cache: Cache
@@ -51,7 +55,11 @@ Clear Filters: Filters wissen
 Clear search: Duidelijke zoekopdracht
 Click for details: Klik voor details
 Close: Dichtbij
+Command name:: Commandonaam:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Community en testen: CorvoBoys (corvoboys.org) en LinuxSat-Support.com
+Confirm Reload: Bevestig opnieuw laden
+Connect: Verbinden
+Connected: Aangesloten
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Land
 Credits: Kredieten
@@ -60,6 +68,8 @@ Description: Beschrijving
 Details: Details
 Developed by Lululla: Ontwikkeld door Lululla
 Developer: Lululla: Ontwikkelaar: Lululla
+Disconnect: Verbreek de verbinding
+Disconnected: Verbinding verbroken
 Do you want to load this edited playlist now?: Wil je deze bewerkte afspeellijst nu laden?
 Double speed (2x): Dubbele snelheid (2x)
 Downloading playlist...: Afspeellijst downloaden...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Downloadt Z
 Drag & drop – drop M3U or JSON files directly onto main window.: Drag & drop – zet M3U- of JSON-bestanden rechtstreeks neer op het hoofdvenster.
 Drag to seek back in buffer: Sleep om terug te zoeken in de buffer
 Duplicate URLs found:\n\n: Dubbele URL's gevonden:\n\n
+Edit Command: Commando bewerken
+Edit command name:: Opdrachtnaam bewerken:
 Edit Playlist: Bewerk afspeellijst
+Edit telnet command:: Telnet-opdracht bewerken:
 Edit URLs: URL's bewerken
 End: Einde
 Enrich with EPG: Verrijk met EPG
+Enter bouquet name (without spaces):: Voer de naam van het boeket in (zonder spaties):
 Enter JSON URL:: Voer JSON-URL in:
 Enter playlist URL (M3U or JSON):: Voer de URL van de afspeellijst in (M3U of JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Exporteer alleen favoriete kana
 Extracting update...: Update uitpakken...
 Failed to download playlist: Kan de afspeellijst niet downloaden
 Failed to load playlist: Kan afspeellijst niet laden
+Failed to update bouquets.tv.: Updaten van boeketten.tv is mislukt.
+Failed to upload bouquet.: Het uploaden van het boeket is mislukt.
 Favorite: Favoriet
 Favorites only: Alleen favorieten
 Fetch Logos: Logo's ophalen
+File {0} already exists. Overwrite?: Bestand {0} bestaat al. Overschrijven?
+File exists: Bestand bestaat
 Filters: Filters
 Fullscreen (hide UI) - press ESC to exit: Volledig scherm (gebruikersinterface verbergen) - druk op ESC om af te sluiten
 Geo & Country: Geo & Land
@@ -183,6 +201,7 @@ No favorite channels to export.: Geen favoriete kanalen om te exporteren.
 No playlist found: Geen afspeellijst gevonden
 No updates available.: Geen updates beschikbaar.
 Normal speed (1x): Normale snelheid (1x)
+Not connected to the box.: Niet verbonden met de doos.
 Now: Nu
 OK: OK
 Online Playlist: Online-afspeellijst
@@ -212,6 +231,8 @@ Refresh EPG: EPG vernieuwen
 Refresh EPG List: EPG-lijst vernieuwen
 Refresh from GitHub: Vernieuwen vanuit GitHub
 Refresh List: Lijst vernieuwen
+Reload GUI: GUI opnieuw laden
+Remove Command: Commando verwijderen
 Rename Group: Groep hernoemen
 Repository: Opslagplaats
 Reset Order: Bestelling opnieuw instellen
@@ -230,6 +251,9 @@ Search channels...: Zenders zoeken...
 Select a playlist first.: Selecteer eerst een afspeellijst.
 Select Theme: Selecteer Thema
 Selected theme is saved and applied on restart.: Het geselecteerde thema wordt opgeslagen en toegepast bij opnieuw opstarten.
+Send: Versturen
+Send playlist to Enigma2 decoder: Verzend afspeellijst naar Enigma2-decoder
+Send to Enigma2: Stuur naar Enigma2
 Settings: Instellingen
 Show List: Toon lijst
 Show only channels marked as favorites: Toon alleen kanalen die als favoriet zijn gemarkeerd
@@ -243,6 +267,10 @@ Success: Succes
 Support: Steun
 Support the developer: Ondersteun de ontwikkelaar
 Target Field: Doelveld
+Telnet command:: Telnet-opdracht:
+Telnet Commander: Telnet-commandant
+Telnet Console: Telnet-console
+Telnet not configured. Please set it in Settings.: Telnet niet geconfigureerd. Stel dit in Instellingen in.
 Thanks to: Dankzij
 Theme picker: Themakiezer
 Theme picker – accessible via Tools menu on main toolbar.: Themakiezer – toegankelijk via het menu Extra op de hoofdwerkbalk.

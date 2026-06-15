@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: En ny versjon er tilgjengelig. Vil du oppdatere nå?
 Access via 'Edit Playlist' button on main toolbar.: Tilgang via "Rediger spilleliste"-knappen på hovedverktøylinjen.
 Actions: Handlinger
+Add Command: Legg til kommando
 Add Group: Legg til gruppe
 Add Mapping: Legg til kartlegging
 Adjust buffer size (1-10 seconds): Juster bufferstørrelse (1–10 sekunder)
@@ -29,8 +30,11 @@ Advanced IDs: Avanserte IDer
 Application status: Søknadsstatus
 Apply changes: Bruk endringer
 Apply Filters: Bruk filtre
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Er du sikker på at du vil laste inn Enigma2 GUI på nytt?\n\nGrensesnittet vil starte på nytt (svart skjerm i noen sekunder).
 Auto-detect: Automatisk gjenkjenning
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatisk sjekk ved oppstart – eller klikk "Se etter oppdateringer" i Verktøy-menyen.
+Bouquet Name: Bukettnavn
+Bouquet sent and Enigma2 channel list reloaded.: Bukett sendt og Enigma2 kanalliste lastet inn på nytt.
 Buffer (seconds): Buffer (sekunder)
 Buffer size – adjust HLS buffer seconds.: Bufferstørrelse – juster HLS-buffersekunder.
 Cache: Cache
@@ -51,7 +55,11 @@ Clear Filters: Tøm filtre
 Clear search: Tøm søk
 Click for details: Klikk for detaljer
 Close: Lukke
+Command name:: Kommandonavn:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Fellesskap og testing: CorvoBoys (corvoboys.org) og LinuxSat-Support.com
+Confirm Reload: Bekreft Last på nytt
+Connect: Koble til
+Connected: Tilkoblet
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Land
 Credits: Studiepoeng
@@ -60,6 +68,8 @@ Description: Beskrivelse
 Details: Detaljer
 Developed by Lululla: Utviklet av Lululla
 Developer: Lululla: Utvikler: Lululla
+Disconnect: Frakople
+Disconnected: Koblet fra
 Do you want to load this edited playlist now?: Vil du laste denne redigerte spillelisten nå?
 Double speed (2x): Dobbel hastighet (2x)
 Downloading playlist...: Laster ned spilleliste...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Laster ned 
 Drag & drop – drop M3U or JSON files directly onto main window.: Dra og slipp – slipp M3U- eller JSON-filer direkte i hovedvinduet.
 Drag to seek back in buffer: Dra for å søke tilbake i buffer
 Duplicate URLs found:\n\n: Fant dupliserte nettadresser:\n\n
+Edit Command: Rediger kommando
+Edit command name:: Rediger kommandonavn:
 Edit Playlist: Rediger spilleliste
+Edit telnet command:: Rediger telnet-kommando:
 Edit URLs: Rediger nettadresser
 End: Slutt
 Enrich with EPG: Berik med EPG
+Enter bouquet name (without spaces):: Skriv inn bukettnavn (uten mellomrom):
 Enter JSON URL:: Skriv inn JSON URL:
 Enter playlist URL (M3U or JSON):: Skriv inn spilleliste-URL (M3U eller JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Eksporter kun favorittkanaler t
 Extracting update...: Trekker ut oppdatering...
 Failed to download playlist: Kunne ikke laste ned spillelisten
 Failed to load playlist: Kunne ikke laste inn spillelisten
+Failed to update bouquets.tv.: Kunne ikke oppdatere bouquets.tv.
+Failed to upload bouquet.: Kunne ikke laste opp bukett.
 Favorite: Favoritt
 Favorites only: Bare favoritter
 Fetch Logos: Hent logoer
+File {0} already exists. Overwrite?: Filen {0} eksisterer allerede. Vil du overskrive?
+File exists: Filen finnes
 Filters: Filtre
 Fullscreen (hide UI) - press ESC to exit: Fullskjerm (skjul brukergrensesnitt) - trykk ESC for å avslutte
 Geo & Country: Geo og land
@@ -183,6 +201,7 @@ No favorite channels to export.: Ingen favorittkanaler å eksportere.
 No playlist found: Finner ingen spilleliste
 No updates available.: Ingen tilgjengelige oppdateringer.
 Normal speed (1x): Normal hastighet (1x)
+Not connected to the box.: Ikke koblet til boksen.
 Now: Nå
 OK: OK
 Online Playlist: Online spilleliste
@@ -212,6 +231,8 @@ Refresh EPG: Oppdater EPG
 Refresh EPG List: Oppdater EPG-listen
 Refresh from GitHub: Oppdater fra GitHub
 Refresh List: Oppdater liste
+Reload GUI: Last inn GUI på nytt
+Remove Command: Fjern kommando
 Rename Group: Gi nytt navn til gruppe
 Repository: Depot
 Reset Order: Tilbakestill rekkefølge
@@ -230,6 +251,9 @@ Search channels...: Søk etter kanaler...
 Select a playlist first.: Velg en spilleliste først.
 Select Theme: Velg Tema
 Selected theme is saved and applied on restart.: Valgt tema lagres og brukes ved omstart.
+Send: Sende
+Send playlist to Enigma2 decoder: Send spilleliste til Enigma2-dekoder
+Send to Enigma2: Send til Enigma2
 Settings: Innstillinger
 Show List: Vis liste
 Show only channels marked as favorites: Vis kun kanaler merket som favoritter
@@ -243,6 +267,10 @@ Success: Suksess
 Support: Støtte
 Support the developer: Støtt utvikleren
 Target Field: Målfelt
+Telnet command:: Telnet kommando:
+Telnet Commander: Telnet-sjef
+Telnet Console: Telnet-konsoll
+Telnet not configured. Please set it in Settings.: Telnet er ikke konfigurert. Vennligst still den i Innstillinger.
 Thanks to: Takk til
 Theme picker: Temavelger
 Theme picker – accessible via Tools menu on main toolbar.: Temavelger – tilgjengelig via Verktøy-menyen på hovedverktøylinjen.

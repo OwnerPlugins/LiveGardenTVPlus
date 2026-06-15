@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Új verzió érhető el. Szeretné most frissíteni?
 Access via 'Edit Playlist' button on main toolbar.: Hozzáférés a fő eszköztár „Lejátszási lista szerkesztése” gombjával.
 Actions: Akciók
+Add Command: Parancs hozzáadása
 Add Group: Csoport hozzáadása elemre
 Add Mapping: Leképezés hozzáadása
 Adjust buffer size (1-10 seconds): A puffer méretének beállítása (1-10 másodperc)
@@ -29,8 +30,11 @@ Advanced IDs: Speciális azonosítók
 Application status: Alkalmazás állapota
 Apply changes: Módosítások alkalmazása
 Apply Filters: Szűrők alkalmazása
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Biztosan újra szeretné tölteni az Enigma2 grafikus felületet?\n\nA felület újraindul (néhány másodpercig fekete képernyő).
 Auto-detect: Automatikus felismerés
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatikus ellenőrzés indításkor – vagy kattintson a "Frissítések keresése" gombra az Eszközök menüben.
+Bouquet Name: Csokor neve
+Bouquet sent and Enigma2 channel list reloaded.: Csokor elküldve, és az Enigma2 csatornalista újratöltve.
 Buffer (seconds): Puffer (másodperc)
 Buffer size – adjust HLS buffer seconds.: Pufferméret – a HLS puffer másodperceinek beállítása.
 Cache: Gyorsítótár
@@ -51,7 +55,11 @@ Clear Filters: Szűrők törlése
 Clear search: Keresés törlése
 Click for details: Kattintson a részletekért
 Close: Közeli
+Command name:: Parancs neve:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Közösség és tesztelés: CorvoBoys (corvoboys.org) és LinuxSat-Support.com
+Confirm Reload: Erősítse meg az Újratöltést
+Connect: Csatlakozás
+Connected: Csatlakozva
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Ország
 Credits: Kredit
@@ -60,6 +68,8 @@ Description: Leírás
 Details: Részletek
 Developed by Lululla: Lululla fejlesztette ki
 Developer: Lululla: Fejlesztő: Lululla
+Disconnect: Leválasztás
+Disconnected: Szétkapcsolt
 Do you want to load this edited playlist now?: Szeretné most betölteni ezt a szerkesztett lejátszási listát?
 Double speed (2x): Dupla sebesség (2x)
 Downloading playlist...: Lejátszási lista letöltése...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Letölti a 
 Drag & drop – drop M3U or JSON files directly onto main window.: Drag & drop – az M3U vagy JSON fájlokat közvetlenül a főablakba ejtse.
 Drag to seek back in buffer: Húzza vissza a pufferbe
 Duplicate URLs found:\n\n: Ismétlődő URL-ek találhatók:\n\n
+Edit Command: Parancs szerkesztése
+Edit command name:: Parancsnév szerkesztése:
 Edit Playlist: Lejátszási lista szerkesztése
+Edit telnet command:: Telnet parancs szerkesztése:
 Edit URLs: URL-ek szerkesztése
 End: Vége
 Enrich with EPG: Gazdagítsa EPG-vel
+Enter bouquet name (without spaces):: Adja meg a csokor nevét (szóközök nélkül):
 Enter JSON URL:: Írja be a JSON URL-t:
 Enter playlist URL (M3U or JSON):: Írja be a lejátszási lista URL-jét (M3U vagy JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Csak a kedvenc csatornákat exp
 Extracting update...: Frissítés kicsomagolása...
 Failed to download playlist: Nem sikerült letölteni a lejátszási listát
 Failed to load playlist: Nem sikerült betölteni a lejátszási listát
+Failed to update bouquets.tv.: Nem sikerült frissíteni a bouquets.tv-t.
+Failed to upload bouquet.: Nem sikerült feltölteni a csokrot.
 Favorite: Kedvenc
 Favorites only: Csak a kedvencek
 Fetch Logos: Logók lekérése
+File {0} already exists. Overwrite?: A(z) {0} fájl már létezik. Átír?
+File exists: A fájl létezik
 Filters: Szűrők
 Fullscreen (hide UI) - press ESC to exit: Teljes képernyő (UI elrejtése) – a kilépéshez nyomja meg az ESC billentyűt
 Geo & Country: Geo & Country
@@ -183,6 +201,7 @@ No favorite channels to export.: Nincsenek exportálható kedvenc csatornák.
 No playlist found: Nem található lejátszási lista
 No updates available.: Nincsenek frissítések.
 Normal speed (1x): Normál sebesség (1x)
+Not connected to the box.: Nincs csatlakoztatva a dobozhoz.
 Now: Jelenleg
 OK: RENDBEN
 Online Playlist: Online lejátszási lista
@@ -212,6 +231,8 @@ Refresh EPG: EPG frissítése
 Refresh EPG List: EPG-lista frissítése
 Refresh from GitHub: Frissítés a GitHubról
 Refresh List: Lista frissítése
+Reload GUI: GUI újratöltése
+Remove Command: Távolítsa el a parancsot
 Rename Group: Csoport átnevezése
 Repository: Adattár
 Reset Order: Rendelés visszaállítása
@@ -230,6 +251,9 @@ Search channels...: Csatornák keresése...
 Select a playlist first.: Először válasszon ki egy lejátszási listát.
 Select Theme: Válassza a Témát
 Selected theme is saved and applied on restart.: A kiválasztott téma mentésre kerül, és újraindításkor alkalmazásra kerül.
+Send: Elküld
+Send playlist to Enigma2 decoder: Lejátszási lista küldése az Enigma2 dekóderre
+Send to Enigma2: Küldd el az Enigma2-nek
 Settings: Beállítások elemre
 Show List: Lista megjelenítése
 Show only channels marked as favorites: Csak a kedvencként megjelölt csatornák megjelenítése
@@ -243,6 +267,10 @@ Success: Siker
 Support: Támogatás
 Support the developer: Támogassa a fejlesztőt
 Target Field: Célmező
+Telnet command:: Telnet parancs:
+Telnet Commander: Telnet parancsnok
+Telnet Console: Telnet konzol
+Telnet not configured. Please set it in Settings.: Telnet nincs konfigurálva. Kérjük, állítsa be a Beállításokban.
 Thanks to: Köszönhetően
 Theme picker: Témaválasztó
 Theme picker – accessible via Tools menu on main toolbar.: Témaválasztó – a fő eszköztár Eszközök menüjéből érhető el.

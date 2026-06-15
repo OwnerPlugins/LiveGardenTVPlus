@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: 새 버전을 사용할 수 있습니다. 지금 업데이트하시겠습니까?
 Access via 'Edit Playlist' button on main toolbar.: 메인 도구 모음의 '재생 목록 편집' 버튼을 통해 액세스합니다.
 Actions: 행위
+Add Command: 명령 추가
 Add Group: 그룹 추가
 Add Mapping: 매핑 추가
 Adjust buffer size (1-10 seconds): 버퍼 크기 조정(1~10초)
@@ -29,8 +30,11 @@ Advanced IDs: 고급 ID
 Application status: 신청현황
 Apply changes: 변경사항 적용
 Apply Filters: 필터 적용
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI를 다시 로드하시겠습니까?\n\n인터페이스가 다시 시작됩니다(몇 초 동안 검은색 화면).
 Auto-detect: 자동 감지
 Automatic check on startup – or click 'Check for updates' in Tools menu.: 시작 시 자동 확인 - 또는 도구 메뉴에서 '업데이트 확인'을 클릭하세요.
+Bouquet Name: 꽃다발 이름
+Bouquet sent and Enigma2 channel list reloaded.: 꽃다발이 전송되고 Enigma2 채널 목록이 다시 로드되었습니다.
 Buffer (seconds): 버퍼(초)
 Buffer size – adjust HLS buffer seconds.: 버퍼 크기 – HLS 버퍼 초를 조정합니다.
 Cache: 은닉처
@@ -51,7 +55,11 @@ Clear Filters: 필터 지우기
 Clear search: 검색 지우기
 Click for details: 자세한 내용을 보려면 클릭하세요.
 Close: 닫다
+Command name:: 명령 이름:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: 커뮤니티 및 테스트: CorvoBoys(corvoboys.org) 및 LinuxSat-Support.com
+Confirm Reload: 새로고침 확인
+Connect: 연결하다
+Connected: 연결됨
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: 국가
 Credits: 크레딧
@@ -60,6 +68,8 @@ Description: 설명
 Details: 세부
 Developed by Lululla: 룰루라(Lululla)에서 개발한
 Developer: Lululla: 개발자: Lululla
+Disconnect: 연결 끊기
+Disconnected: 연결이 끊김
 Do you want to load this edited playlist now?: 편집된 재생목록을 지금 로드하시겠습니까?
 Double speed (2x): 2배속(2x)
 Downloading playlist...: 재생목록 다운로드 중...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP을 다�
 Drag & drop – drop M3U or JSON files directly onto main window.: 드래그 앤 드롭 – M3U 또는 JSON 파일을 메인 창에 직접 드롭합니다.
 Drag to seek back in buffer: 드래그하여 버퍼에서 다시 탐색
 Duplicate URLs found:\n\n: 중복된 URL이 발견되었습니다.\n\n
+Edit Command: 편집 명령
+Edit command name:: 명령 이름 편집:
 Edit Playlist: 재생목록 편집
+Edit telnet command:: 텔넷 명령 편집:
 Edit URLs: URL 편집
 End: 끝
 Enrich with EPG: EPG로 풍요롭게 하세요
+Enter bouquet name (without spaces):: 꽃다발 이름 입력(공백 없이):
 Enter JSON URL:: JSON URL을 입력하세요:
 Enter playlist URL (M3U or JSON):: 재생목록 URL 입력(M3U 또는 JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: 즐겨찾는 채널만 새 M3U 
 Extracting update...: 업데이트 추출 중...
 Failed to download playlist: 재생목록을 다운로드하지 못했습니다.
 Failed to load playlist: 재생목록을 로드하지 못했습니다.
+Failed to update bouquets.tv.: Bouques.tv 업데이트에 실패했습니다.
+Failed to upload bouquet.: 꽃다발을 업로드하지 못했습니다.
 Favorite: 가장 좋아하는
 Favorites only: 즐겨찾기만
 Fetch Logos: 로고 가져오기
+File {0} already exists. Overwrite?: 파일 {0}이(가) 이미 존재합니다. 덮어쓰시겠습니까?
+File exists: 파일이 존재합니다
 Filters: 필터
 Fullscreen (hide UI) - press ESC to exit: 전체 화면(UI 숨기기) - 종료하려면 ESC를 누르세요.
 Geo & Country: 지역 및 국가
@@ -183,6 +201,7 @@ No favorite channels to export.: 내보낼 즐겨찾는 채널이 없습니다.
 No playlist found: 재생목록을 찾을 수 없습니다.
 No updates available.: 사용 가능한 업데이트가 없습니다.
 Normal speed (1x): 일반 속도(1x)
+Not connected to the box.: 상자에 연결되지 않았습니다.
 Now: 지금
 OK: 좋아요
 Online Playlist: 온라인 재생목록
@@ -212,6 +231,8 @@ Refresh EPG: EPG 새로 고침
 Refresh EPG List: EPG 목록 새로 고침
 Refresh from GitHub: GitHub에서 새로 고침
 Refresh List: 목록 새로고침
+Reload GUI: GUI 다시 로드
+Remove Command: 제거 명령
 Rename Group: 그룹 이름 바꾸기
 Repository: 저장소
 Reset Order: 주문 재설정
@@ -230,6 +251,9 @@ Search channels...: 채널 검색...
 Select a playlist first.: 먼저 재생목록을 선택하세요.
 Select Theme: 테마 선택
 Selected theme is saved and applied on restart.: 선택한 테마는 저장되어 재시작 시 적용됩니다.
+Send: 보내다
+Send playlist to Enigma2 decoder: 재생 목록을 Enigma2 디코더로 보내기
+Send to Enigma2: 에니그마2로 보내기
 Settings: 설정
 Show List: 목록 표시
 Show only channels marked as favorites: 즐겨찾기로 표시된 채널만 표시
@@ -243,6 +267,10 @@ Success: 성공
 Support: 지원하다
 Support the developer: 개발자 지원
 Target Field: 대상분야
+Telnet command:: 텔넷 명령:
+Telnet Commander: 텔넷 사령관
+Telnet Console: 텔넷 콘솔
+Telnet not configured. Please set it in Settings.: 텔넷이 구성되지 않았습니다. 설정에서 설정해주세요.
 Thanks to: 덕분에
 Theme picker: 테마 선택기
 Theme picker – accessible via Tools menu on main toolbar.: 테마 선택기 – 기본 도구 모음의 도구 메뉴를 통해 액세스할 수 있습니다.

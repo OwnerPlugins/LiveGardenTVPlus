@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Versi baru telah tersedia. Apakah Anda ingin memperbarui sekarang?
 Access via 'Edit Playlist' button on main toolbar.: Akses melalui tombol 'Edit Daftar Putar' pada toolbar utama.
 Actions: Tindakan
+Add Command: Tambahkan Perintah
 Add Group: Tambahkan Grup
 Add Mapping: Tambahkan Pemetaan
 Adjust buffer size (1-10 seconds): Sesuaikan ukuran buffer (1-10 detik)
@@ -29,8 +30,11 @@ Advanced IDs: ID lanjutan
 Application status: Status aplikasi
 Apply changes: Terapkan perubahan
 Apply Filters: Terapkan Filter
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Apakah Anda yakin ingin memuat ulang GUI Enigma2?\n\nAntarmuka akan dimulai ulang (layar hitam selama beberapa detik).
 Auto-detect: Deteksi otomatis
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Pemeriksaan otomatis saat startup – atau klik 'Periksa pembaruan' di menu Alat.
+Bouquet Name: Nama Karangan Bunga
+Bouquet sent and Enigma2 channel list reloaded.: Buket terkirim dan daftar saluran Enigma2 dimuat ulang.
 Buffer (seconds): Penyangga (detik)
 Buffer size – adjust HLS buffer seconds.: Ukuran buffer – sesuaikan detik buffer HLS.
 Cache: Cache
@@ -51,7 +55,11 @@ Clear Filters: Hapus Filter
 Clear search: Hapus pencarian
 Click for details: Klik untuk detailnya
 Close: Menutup
+Command name:: Nama perintah:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunitas & pengujian: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Konfirmasi Muat Ulang
+Connect: Menghubungkan
+Connected: Terhubung
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Negara
 Credits: Kredit
@@ -60,6 +68,8 @@ Description: Keterangan
 Details: Detail
 Developed by Lululla: Dikembangkan oleh Lululla
 Developer: Lululla: Pengembang: Lululla
+Disconnect: Memutuskan
+Disconnected: Terputus
 Do you want to load this edited playlist now?: Apakah Anda ingin memuat playlist yang telah diedit ini sekarang?
 Double speed (2x): Kecepatan ganda (2x)
 Downloading playlist...: Mengunduh daftar putar...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Mengunduh Z
 Drag & drop – drop M3U or JSON files directly onto main window.: Seret & lepas – letakkan file M3U atau JSON langsung ke jendela utama.
 Drag to seek back in buffer: Tarik untuk mencari kembali di buffer
 Duplicate URLs found:\n\n: URL duplikat ditemukan:\n\n
+Edit Command: Sunting Perintah
+Edit command name:: Edit nama perintah:
 Edit Playlist: Sunting Daftar Putar
+Edit telnet command:: Edit perintah telnet:
 Edit URLs: Sunting URL
 End: Akhir
 Enrich with EPG: Perkaya dengan EPG
+Enter bouquet name (without spaces):: Masukkan nama buket (tanpa spasi):
 Enter JSON URL:: Masukkan URL JSON:
 Enter playlist URL (M3U or JSON):: Masukkan URL daftar putar (M3U atau JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Ekspor hanya saluran favorit ke
 Extracting update...: Mengekstrak pembaruan...
 Failed to download playlist: Gagal mengunduh daftar putar
 Failed to load playlist: Gagal memuat daftar putar
+Failed to update bouquets.tv.: Gagal memperbarui karangan bunga.tv.
+Failed to upload bouquet.: Gagal mengunggah buket.
 Favorite: Favorit
 Favorites only: Hanya favorit
 Fetch Logos: Ambil Logo
+File {0} already exists. Overwrite?: Berkas {0} sudah ada. Timpa?
+File exists: Berkas ada
 Filters: Filter
 Fullscreen (hide UI) - press ESC to exit: Layar penuh (sembunyikan UI) - tekan ESC untuk keluar
 Geo & Country: Geo & Negara
@@ -183,6 +201,7 @@ No favorite channels to export.: Tidak ada saluran favorit untuk diekspor.
 No playlist found: Daftar putar tidak ditemukan
 No updates available.: Tidak ada pembaruan yang tersedia.
 Normal speed (1x): Kecepatan normal (1x)
+Not connected to the box.: Tidak terhubung ke kotak.
 Now: Sekarang
 OK: OKE
 Online Playlist: Daftar Putar Daring
@@ -212,6 +231,8 @@ Refresh EPG: Segarkan EPG
 Refresh EPG List: Segarkan Daftar EPG
 Refresh from GitHub: Segarkan dari GitHub
 Refresh List: Segarkan Daftar
+Reload GUI: Muat ulang GUI
+Remove Command: Hapus Perintah
 Rename Group: Ganti Nama Grup
 Repository: Gudang
 Reset Order: Atur Ulang Pesanan
@@ -230,6 +251,9 @@ Search channels...: Cari saluran...
 Select a playlist first.: Pilih daftar putar terlebih dahulu.
 Select Theme: Pilih Tema
 Selected theme is saved and applied on restart.: Tema yang dipilih disimpan dan diterapkan saat restart.
+Send: Mengirim
+Send playlist to Enigma2 decoder: Kirim daftar putar ke dekoder Enigma2
+Send to Enigma2: Kirim ke Enigma2
 Settings: Pengaturan
 Show List: Tampilkan Daftar
 Show only channels marked as favorites: Hanya tampilkan saluran yang ditandai sebagai favorit
@@ -243,6 +267,10 @@ Success: Kesuksesan
 Support: Mendukung
 Support the developer: Dukung pengembang
 Target Field: Bidang Sasaran
+Telnet command:: Perintah telnet:
+Telnet Commander: Komandan Telnet
+Telnet Console: Konsol Telnet
+Telnet not configured. Please set it in Settings.: Telnet tidak dikonfigurasi. Silakan atur di Pengaturan.
 Thanks to: Berkat
 Theme picker: Pemilih tema
 Theme picker – accessible via Tools menu on main toolbar.: Pemilih tema – dapat diakses melalui menu Alat di toolbar utama.

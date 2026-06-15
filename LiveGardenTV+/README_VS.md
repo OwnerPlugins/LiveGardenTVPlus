@@ -5,15 +5,56 @@
 [![WPF](https://img.shields.io/badge/UI-WPF-blue)](https://github.com/dotnet/wpf)
 [![WebView2](https://img.shields.io/badge/WebView2-hls.js-green)](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)
 
+![Visitors](https://komarev.com/ghpvc/?username=Belfagor2005&label=Repository%20Views&color=blueviolet)
 [![Donate](https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://ko-fi.com/lululla)
 [![Donate](https://img.shields.io/badge/_-Donate-green.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://paypal.me/belfagor2005)
 
-**LiveGardenTVPlus** is a desktop IPTV player for Windows (WPF / .NET 10) that plays HLS streams (m3u8) using **WebView2** and **hls.js**.
-It loads local or online M3U playlists, organizes channels by groups, and provides a modern, themeable interface.
+**LiveGardenTVPlus** is a modern, feature‑rich IPTV player for Windows.
+It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, playlist editing, Telnet console for Enigma2, and much more.
 
----
+## ✨ Key Features
+
+- 📺 **Play & manage IPTV channels** (M3U / JSON / remote URLs)
+- 📡 **Full EPG support** with fuzzy matching, timezone handling, **local cache (24h)** and source selector
+- 🖼️ **Channel logos** – auto‑fetch from remote repository (`OwnerPlugins/logos`)
+- ⏱️ **Timeshift** – pause and seek back in live HLS streams
+- ✏️ **Powerful playlist editor** – edit names, groups, URLs, logos, EPG ids, favorites, etc.
+- 🧩 **JSON import** with flexible field mapping (auto‑detect, save profiles)
+- 🔍 **Filter & search** channels, check URL status, export results
+- 🌍 **Dynamic language switching** (English, Italian, and more)
+- 🎨 **16 colour themes** + Light/Dark variants
+- 🔄 **Auto‑updater** – checks for new versions and updates seamlessly
+- ❤️ **Favorites** – star channels and export only favourites
+- 🖥️ **Modern UI** – resizable sidebar, WebView2 player, HLS.js playback
+
 
 ## Changelog
+
+## 📋 LiveGardenTVPlus – Changelog (v2.4)
+
+# 🚀 Telnet & Enigma2 Integration
+
+- **Telnet Console** – Full terminal window to connect and send commands to your Enigma2 decoder.
+  - Persistent connection settings (host, port, username, password).
+  - Quick‑command list loaded from a JSON file (or editable XML), with categories for easy management.
+  - Command output displayed in real time.
+
+- **Send playlist to Enigma2** – One‑click button in main toolbar.
+  - Converts the loaded playlist (M3U/JSON) into a valid Enigma2 bouquet (`userbouquet.name.tv`).
+  - Uploads the bouquet via FTP, automatically updates `/etc/enigma2/bouquets.tv` and reloads the channel list via Enigma2 web interface.
+  - Asks for a custom bouquet name and warns if the file already exists (option to overwrite).
+
+- **EPG Enhancements**
+  - Local cache (24 hours) to avoid repeated downloads.
+  – EPG source selector directly in the EPG window.
+  – Date and time displayed in program grid.
+  – Search‑as‑you‑type with debouncing.
+
+### Need more help?
+
+Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
+
+---
 
 ## 📋 LiveGardenTVPlus – Changelog (v2.3)
 - **Local EPG Cache** – EPG data is cached for 24 hours (saved in %TEMP%\LiveGardenTVPlus\epg_cache). Reduces repeated downloads.
@@ -495,42 +536,54 @@ LiveGardenTVPlus/
 ├── App.xaml / App.xaml.cs
 ├── MainWindow.xaml / MainWindow.xaml.cs
 ├── Views/
-│   ├── SettingsWindow.xaml(.cs)
-│   ├── AboutWindow.xaml(.cs)
-│   ├── PlaylistEditorWindow.xaml(.cs)
-│   ├── ColorPickerWindow.xaml(.cs)
-│   ├── XtreamLoginDialog.xaml(.cs)
-│   ├── EpgWindow.xaml(.cs)
-│   ├── LogoPickerWindow.xaml(.cs)
-│   ├── ChannelDetailsWindow.xaml(.cs)
-│   └── UrlListEditorWindow.xaml(.cs)
+│ ├── AboutWindow.xaml(.cs)
+│ ├── ChannelDetailsWindow.xaml(.cs)
+│ ├── ColorPickerWindow.xaml(.cs)
+│ ├── EpgWindow.xaml(.cs)
+│ ├── HelpWindow.xaml(.cs)
+│ ├── JsonImportMappingWindow.xaml(.cs)
+│ ├── LogoPickerWindow.xaml(.cs)
+│ ├── PlaylistEditorWindow.xaml(.cs)
+│ ├── SettingsWindow.xaml(.cs)
+│ ├── TelnetConfigWindow.xaml(.cs)
+│ ├── TelnetConsoleWindow.xaml(.cs)
+│ ├── UrlListEditorWindow.xaml(.cs)
+│ └── XtreamLoginDialog.xaml(.cs) (placeholder)
 ├── Converters/
-│   ├── UrlToImageConverter.cs
-│   ├── BoolToStarKindConverter.cs
-│   ├── BoolToStarColorConverter.cs
-│   ├── BoolToVisibilityConverter.cs
-│   └── ...
+│ ├── BoolToStarColorConverter.cs
+│ ├── BoolToStarKindConverter.cs
+│ ├── BoolToVisibilityConverter.cs
+│ ├── FirstUrlConverter.cs
+│ ├── StringToVisibilityConverter.cs
+│ └── UrlToImageConverter.cs
 ├── Services/
-│   ├── M3uParser.cs
-│   ├── LanguageManager.cs
-│   ├── TranslationHelper.cs
-│   ├── FavoritesManager.cs
-│   ├── UserPreferences.cs
-│   ├── ThemeManager.cs
-│   ├── GitHubPlaylistFetcher.cs
-│   ├── EpgService.cs
-│   ├── LogoService.cs
-│   └── ImageCache.cs
+│ ├── EpgService.cs
+│ ├── FavoritesManager.cs
+│ ├── GitHubPlaylistFetcher.cs
+│ ├── ImageCache.cs
+│ ├── JsonMapper.cs
+│ ├── LanguageManager.cs
+│ ├── LogoService.cs
+│ ├── M3uParser.cs
+│ ├── TelnetClient.cs
+│ ├── ThemeManager.cs
+│ ├── TranslationHelper.cs
+│ └── UserPreferences.cs
 ├── Models/
-│   ├── Channel.cs
-│   ├── ChannelJson.cs
-│   ├── EpgModels.cs
-│   ├── LogoInfo.cs
-│   └── ...
+│ ├── Channel.cs
+│ ├── ChannelEditable.cs
+│ ├── ChannelGroup.cs
+│ ├── ChannelJson.cs
+│ ├── EpgModels.cs
+│ ├── EpgProgram.cs
+│ ├── LogoInfo.cs
+│ └── MappingConfig.cs
+├── Updater/
+│ └── Updater.cs
 ├── Languages/ (92+ .lng files)
-├── Themes/ (16 .xaml theme files)
-├── PlayerHost/player.html
-└── Updater/Updater.cs
+├── Themes/ (16 .xaml theme files + logo-garden.png, avatar.gif)
+└── PlayerHost/
+  └── player.html
 ```
 
 ---

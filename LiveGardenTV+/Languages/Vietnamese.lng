@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Một phiên bản mới có sẵn. Bạn có muốn cập nhật ngay bây giờ không?
 Access via 'Edit Playlist' button on main toolbar.: Truy cập thông qua nút 'Chỉnh sửa danh sách phát' trên thanh công cụ chính.
 Actions: hành động
+Add Command: Thêm lệnh
 Add Group: Thêm nhóm
 Add Mapping: Thêm bản đồ
 Adjust buffer size (1-10 seconds): Điều chỉnh kích thước bộ đệm (1-10 giây)
@@ -29,8 +30,11 @@ Advanced IDs: ID nâng cao
 Application status: Trạng thái đơn đăng ký
 Apply changes: Áp dụng thay đổi
 Apply Filters: Áp dụng bộ lọc
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Bạn có chắc chắn muốn tải lại GUI Enigma2 không?\n\nGiao diện sẽ khởi động lại (màn hình đen trong vài giây).
 Auto-detect: Tự động phát hiện
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Tự động kiểm tra khi khởi động – hoặc nhấp vào 'Kiểm tra bản cập nhật' trong menu Công cụ.
+Bouquet Name: Tên bó hoa
+Bouquet sent and Enigma2 channel list reloaded.: Đã gửi bó hoa và tải lại danh sách kênh Enigma2.
 Buffer (seconds): Bộ đệm (giây)
 Buffer size – adjust HLS buffer seconds.: Kích thước bộ đệm – điều chỉnh số giây bộ đệm HLS.
 Cache: Bộ nhớ đệm
@@ -51,7 +55,11 @@ Clear Filters: Xóa bộ lọc
 Clear search: Xóa tìm kiếm
 Click for details: Bấm để biết chi tiết
 Close: Đóng
+Command name:: Tên lệnh:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Cộng đồng và thử nghiệm: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Xác nhận tải lại
+Connect: Kết nối
+Connected: Đã kết nối
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Quốc gia
 Credits: Tín dụng
@@ -60,6 +68,8 @@ Description: Sự miêu tả
 Details: Chi tiết
 Developed by Lululla: Được phát triển bởi Lululla
 Developer: Lululla: Nhà phát triển: Lululla
+Disconnect: Ngắt kết nối
+Disconnected: Đã ngắt kết nối
 Do you want to load this edited playlist now?: Bạn có muốn tải danh sách phát đã chỉnh sửa này ngay bây giờ không?
 Double speed (2x): Tốc độ gấp đôi (2x)
 Downloading playlist...: Đang tải xuống danh sách phát...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Tải xuố
 Drag & drop – drop M3U or JSON files directly onto main window.: Kéo và thả – thả tệp M3U hoặc JSON trực tiếp vào cửa sổ chính.
 Drag to seek back in buffer: Kéo để tìm lại trong bộ đệm
 Duplicate URLs found:\n\n: Đã tìm thấy các URL trùng lặp:\n\n
+Edit Command: Chỉnh sửa lệnh
+Edit command name:: Chỉnh sửa tên lệnh:
 Edit Playlist: Chỉnh sửa danh sách phát
+Edit telnet command:: Chỉnh sửa lệnh telnet:
 Edit URLs: Chỉnh sửa URL
 End: Kết thúc
 Enrich with EPG: Làm giàu với EPG
+Enter bouquet name (without spaces):: Nhập tên bó hoa (không có dấu cách):
 Enter JSON URL:: Nhập URL JSON:
 Enter playlist URL (M3U or JSON):: Nhập URL danh sách phát (M3U hoặc JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Chỉ xuất các kênh yêu th
 Extracting update...: Đang trích xuất bản cập nhật...
 Failed to download playlist: Không tải được danh sách phát xuống
 Failed to load playlist: Không tải được danh sách phát
+Failed to update bouquets.tv.: Không cập nhật được bó hoa.tv.
+Failed to upload bouquet.: Không thể tải bó hoa lên.
 Favorite: Yêu thích
 Favorites only: Chỉ mục yêu thích
 Fetch Logos: Tìm nạp Logo
+File {0} already exists. Overwrite?: Tệp {0} đã tồn tại. Ghi đè?
+File exists: Tập tin tồn tại
 Filters: Bộ lọc
 Fullscreen (hide UI) - press ESC to exit: Toàn màn hình (ẩn UI) - nhấn ESC để thoát
 Geo & Country: Địa lý & Quốc gia
@@ -183,6 +201,7 @@ No favorite channels to export.: Không có kênh yêu thích nào để xuất.
 No playlist found: Không tìm thấy danh sách phát nào
 No updates available.: Không có bản cập nhật có sẵn.
 Normal speed (1x): Tốc độ bình thường (1x)
+Not connected to the box.: Không kết nối với hộp.
 Now: Hiện nay
 OK: ĐƯỢC RỒI
 Online Playlist: Danh sách phát trực tuyến
@@ -212,6 +231,8 @@ Refresh EPG: Làm mới EPG
 Refresh EPG List: Làm mới danh sách EPG
 Refresh from GitHub: Làm mới từ GitHub
 Refresh List: Làm mới danh sách
+Reload GUI: Tải lại GUI
+Remove Command: Xóa lệnh
 Rename Group: Đổi tên nhóm
 Repository: Kho lưu trữ
 Reset Order: Đặt lại thứ tự
@@ -230,6 +251,9 @@ Search channels...: Tìm kiếm kênh...
 Select a playlist first.: Chọn danh sách phát trước.
 Select Theme: Chọn chủ đề
 Selected theme is saved and applied on restart.: Chủ đề đã chọn sẽ được lưu và áp dụng khi khởi động lại.
+Send: Gửi
+Send playlist to Enigma2 decoder: Gửi danh sách phát tới bộ giải mã Enigma2
+Send to Enigma2: Gửi tới Enigma2
 Settings: Cài đặt
 Show List: Hiển thị danh sách
 Show only channels marked as favorites: Chỉ hiển thị các kênh được đánh dấu là yêu thích
@@ -243,6 +267,10 @@ Success: Thành công
 Support: Ủng hộ
 Support the developer: Hỗ trợ nhà phát triển
 Target Field: Trường mục tiêu
+Telnet command:: Lệnh Telnet:
+Telnet Commander: Chỉ huy Telnet
+Telnet Console: Bảng điều khiển Telnet
+Telnet not configured. Please set it in Settings.: Telnet chưa được cấu hình. Vui lòng đặt nó trong Cài đặt.
 Thanks to: Nhờ có
 Theme picker: Bộ chọn chủ đề
 Theme picker – accessible via Tools menu on main toolbar.: Bộ chọn chủ đề – có thể truy cập qua menu Công cụ trên thanh công cụ chính.

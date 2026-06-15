@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: కొత్త వెర్షన్ అందుబాటులో ఉంది. మీరు ఇప్పుడు అప్‌డేట్ చేయాలనుకుంటున్నారా?
 Access via 'Edit Playlist' button on main toolbar.: ప్రధాన టూల్‌బార్‌లోని 'ప్లేజాబితాను సవరించు' బటన్ ద్వారా యాక్సెస్ చేయండి.
 Actions: చర్యలు
+Add Command: కమాండ్ జోడించండి
 Add Group: సమూహాన్ని జోడించండి
 Add Mapping: మ్యాపింగ్‌ని జోడించండి
 Adjust buffer size (1-10 seconds): బఫర్ పరిమాణాన్ని సర్దుబాటు చేయండి (1-10 సెకన్లు)
@@ -29,8 +30,11 @@ Advanced IDs: అధునాతన IDలు
 Application status: అప్లికేషన్ స్థితి
 Apply changes: మార్పులను వర్తింపజేయండి
 Apply Filters: ఫిల్టర్‌లను వర్తింపజేయండి
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: మీరు ఖచ్చితంగా Enigma2 GUIని రీలోడ్ చేయాలనుకుంటున్నారా?\n\nఇంటర్ఫేస్ పునఃప్రారంభించబడుతుంది (కొన్ని సెకన్ల పాటు బ్లాక్ స్క్రీన్).
 Auto-detect: స్వయంచాలకంగా గుర్తించండి
 Automatic check on startup – or click 'Check for updates' in Tools menu.: స్టార్టప్‌లో ఆటోమేటిక్ చెక్ - లేదా టూల్స్ మెనులో 'నవీకరణల కోసం తనిఖీ చేయి' క్లిక్ చేయండి.
+Bouquet Name: గుత్తి పేరు
+Bouquet sent and Enigma2 channel list reloaded.: గుత్తి పంపబడింది మరియు Enigma2 ఛానెల్ జాబితా మళ్లీ లోడ్ చేయబడింది.
 Buffer (seconds): బఫర్ (సెకన్లు)
 Buffer size – adjust HLS buffer seconds.: బఫర్ పరిమాణం - HLS బఫర్ సెకన్లను సర్దుబాటు చేయండి.
 Cache: కాష్
@@ -51,7 +55,11 @@ Clear Filters: ఫిల్టర్‌లను క్లియర్ చేయ
 Clear search: శోధనను క్లియర్ చేయండి
 Click for details: వివరాల కోసం క్లిక్ చేయండి
 Close: మూసివేయి
+Command name:: కమాండ్ పేరు:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: సంఘం & పరీక్ష: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: రీలోడ్‌ని నిర్ధారించండి
+Connect: కనెక్ట్ చేయండి
+Connected: కనెక్ట్ చేయబడింది
 CORVOBOYS.ORG: CORVOYS.ORG
 Country: దేశం
 Credits: క్రెడిట్స్
@@ -60,6 +68,8 @@ Description: వివరణ
 Details: వివరాలు
 Developed by Lululla: లులుల్లాచే అభివృద్ధి చేయబడింది
 Developer: Lululla: డెవలపర్: లులుల్లా
+Disconnect: డిస్‌కనెక్ట్ చేయండి
+Disconnected: డిస్‌కనెక్ట్ చేయబడింది
 Do you want to load this edited playlist now?: మీరు ఈ సవరించిన ప్లేజాబితాను ఇప్పుడు లోడ్ చేయాలనుకుంటున్నారా?
 Double speed (2x): డబుల్ వేగం (2x)
 Downloading playlist...: ప్లేజాబితాను డౌన్‌లోడ్ చేస్తోంది...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: జిప�
 Drag & drop – drop M3U or JSON files directly onto main window.: డ్రాగ్ & డ్రాప్ - M3U లేదా JSON ఫైల్‌లను నేరుగా ప్రధాన విండోలో వదలండి.
 Drag to seek back in buffer: బఫర్‌లో తిరిగి వెతకడానికి లాగండి
 Duplicate URLs found:\n\n: నకిలీ URLలు కనుగొనబడ్డాయి:\n\n
+Edit Command: ఆదేశాన్ని సవరించండి
+Edit command name:: కమాండ్ పేరును సవరించండి:
 Edit Playlist: ప్లేజాబితాను సవరించండి
+Edit telnet command:: టెల్నెట్ ఆదేశాన్ని సవరించండి:
 Edit URLs: URLలను సవరించండి
 End: ముగింపు
 Enrich with EPG: EPGతో మెరుగుపరచండి
+Enter bouquet name (without spaces):: గుత్తి పేరును నమోదు చేయండి (ఖాళీలు లేకుండా):
 Enter JSON URL:: JSON URLని నమోదు చేయండి:
 Enter playlist URL (M3U or JSON):: ప్లేజాబితా URL (M3U లేదా JSON) నమోదు చేయండి:
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: కొత్త M3U ఫైల�
 Extracting update...: నవీకరణను సంగ్రహిస్తోంది...
 Failed to download playlist: ప్లేజాబితాను డౌన్‌లోడ్ చేయడంలో విఫలమైంది
 Failed to load playlist: ప్లేజాబితాను లోడ్ చేయడంలో విఫలమైంది
+Failed to update bouquets.tv.: bouquets.tvని అప్‌డేట్ చేయడంలో విఫలమైంది.
+Failed to upload bouquet.: పుష్పగుచ్ఛాన్ని అప్‌లోడ్ చేయడంలో విఫలమైంది.
 Favorite: ఇష్టమైనది
 Favorites only: ఇష్టమైనవి మాత్రమే
 Fetch Logos: లోగోలను పొందండి
+File {0} already exists. Overwrite?: ఫైల్ {0} ఇప్పటికే ఉంది. ఓవర్‌రైట్ చేయాలా?
+File exists: ఫైల్ ఉంది
 Filters: ఫిల్టర్లు
 Fullscreen (hide UI) - press ESC to exit: పూర్తి స్క్రీన్ (UIని దాచిపెట్టు) - నిష్క్రమించడానికి ESC నొక్కండి
 Geo & Country: జియో & దేశం
@@ -183,6 +201,7 @@ No favorite channels to export.: ఎగుమతి చేయడానికి 
 No playlist found: ప్లేజాబితా ఏదీ కనుగొనబడలేదు
 No updates available.: అప్‌డేట్‌లు ఏవీ అందుబాటులో లేవు.
 Normal speed (1x): సాధారణ వేగం (1x)
+Not connected to the box.: పెట్టెకి కనెక్ట్ కాలేదు.
 Now: ఇప్పుడు
 OK: సరే
 Online Playlist: ఆన్‌లైన్ ప్లేజాబితా
@@ -212,6 +231,8 @@ Refresh EPG: EPGని రిఫ్రెష్ చేయండి
 Refresh EPG List: EPG జాబితాను రిఫ్రెష్ చేయండి
 Refresh from GitHub: GitHub నుండి రిఫ్రెష్ చేయండి
 Refresh List: జాబితాను రిఫ్రెష్ చేయండి
+Reload GUI: GUIని రీలోడ్ చేయండి
+Remove Command: ఆదేశాన్ని తీసివేయండి
 Rename Group: గ్రూప్ పేరు మార్చండి
 Repository: రిపోజిటరీ
 Reset Order: ఆర్డర్‌ని రీసెట్ చేయండి
@@ -230,6 +251,9 @@ Search channels...: ఛానెల్‌లను శోధించండి..
 Select a playlist first.: ముందుగా ప్లేజాబితాను ఎంచుకోండి.
 Select Theme: థీమ్‌ని ఎంచుకోండి
 Selected theme is saved and applied on restart.: ఎంచుకున్న థీమ్ సేవ్ చేయబడుతుంది మరియు పునఃప్రారంభించినప్పుడు వర్తించబడుతుంది.
+Send: పంపండి
+Send playlist to Enigma2 decoder: ప్లేజాబితాను Enigma2 డీకోడర్‌కి పంపండి
+Send to Enigma2: Enigma2కి పంపండి
 Settings: సెట్టింగ్‌లు
 Show List: జాబితా చూపించు
 Show only channels marked as favorites: ఇష్టమైనవిగా గుర్తించబడిన ఛానెల్‌లను మాత్రమే చూపండి
@@ -243,6 +267,10 @@ Success: విజయం
 Support: మద్దతు
 Support the developer: డెవలపర్‌కు మద్దతు ఇవ్వండి
 Target Field: టార్గెట్ ఫీల్డ్
+Telnet command:: టెల్నెట్ కమాండ్:
+Telnet Commander: టెల్నెట్ కమాండర్
+Telnet Console: టెల్నెట్ కన్సోల్
+Telnet not configured. Please set it in Settings.: టెల్నెట్ కాన్ఫిగర్ చేయబడలేదు. దయచేసి దీన్ని సెట్టింగ్‌లలో సెట్ చేయండి.
 Thanks to: ధన్యవాదాలు
 Theme picker: థీమ్ పికర్
 Theme picker – accessible via Tools menu on main toolbar.: థీమ్ పికర్ - ప్రధాన టూల్‌బార్‌లోని టూల్స్ మెను ద్వారా యాక్సెస్ చేయవచ్చు.

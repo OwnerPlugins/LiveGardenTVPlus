@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Yra nauja versija. Ar norite atnaujinti dabar?
 Access via 'Edit Playlist' button on main toolbar.: Pasiekite naudodami mygtuką „Redaguoti grojaraštį“ pagrindinėje įrankių juostoje.
 Actions: Veiksmai
+Add Command: Pridėti komandą
 Add Group: Pridėti grupę
 Add Mapping: Pridėti žemėlapius
 Adjust buffer size (1-10 seconds): Koreguokite buferio dydį (1–10 sekundžių)
@@ -29,8 +30,11 @@ Advanced IDs: Išplėstiniai ID
 Application status: Paraiškos būsena
 Apply changes: Taikyti pakeitimus
 Apply Filters: Taikyti filtrus
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ar tikrai norite iš naujo įkelti „Enigma2“ GUI?\n\nSąsaja bus paleista iš naujo (kelias sekundes bus juodas ekranas).
 Auto-detect: Automatinis aptikimas
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatinis patikrinimas paleidžiant – arba meniu Įrankiai spustelėkite „Tikrinti, ar nėra naujinimų“.
+Bouquet Name: Puokštės pavadinimas
+Bouquet sent and Enigma2 channel list reloaded.: Puokštė išsiųsta ir Enigma2 kanalų sąrašas įkeltas iš naujo.
 Buffer (seconds): Buferis (sekundėmis)
 Buffer size – adjust HLS buffer seconds.: Buferio dydis – koreguokite HLS buferio sekundes.
 Cache: Talpykla
@@ -51,7 +55,11 @@ Clear Filters: Išvalyti filtrus
 Clear search: Išvalyti paiešką
 Click for details: Spustelėkite norėdami sužinoti daugiau
 Close: Uždaryti
+Command name:: Komandos pavadinimas:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Bendruomenė ir testavimas: „CorvoBoys“ (corvoboys.org) ir „LinuxSat-Support.com“
+Confirm Reload: Patvirtinkite įkėlimą iš naujo
+Connect: Prisijunkite
+Connected: Prisijungta
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Šalis
 Credits: Kreditai
@@ -60,6 +68,8 @@ Description: Aprašymas
 Details: Detalės
 Developed by Lululla: Sukūrė Lululla
 Developer: Lululla: Kūrėjas: Lululla
+Disconnect: Atsijungti
+Disconnected: Atsijungta
 Do you want to load this edited playlist now?: Ar norite įkelti šį redaguotą grojaraštį dabar?
 Double speed (2x): Dvigubas greitis (2x)
 Downloading playlist...: Atsisiunčiamas grojaraštis...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Atsisiunči
 Drag & drop – drop M3U or JSON files directly onto main window.: Drag & drop – numeskite M3U arba JSON failus tiesiai į pagrindinį langą.
 Drag to seek back in buffer: Vilkite, kad grįžtumėte į buferį
 Duplicate URLs found:\n\n: Rasti pasikartojantys URL:\n\n
+Edit Command: Redaguoti komandą
+Edit command name:: Redaguoti komandos pavadinimą:
 Edit Playlist: Redaguoti grojaraštį
+Edit telnet command:: Redaguoti telnet komandą:
 Edit URLs: Redaguoti URL
 End: Pabaiga
 Enrich with EPG: Praturtinkite EPG
+Enter bouquet name (without spaces):: Įveskite puokštės pavadinimą (be tarpų):
 Enter JSON URL:: Įveskite JSON URL:
 Enter playlist URL (M3U or JSON):: Įveskite grojaraščio URL (M3U arba JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Eksportuokite tik mėgstamiausi
 Extracting update...: Išskleidžiamas naujinys...
 Failed to download playlist: Nepavyko atsisiųsti grojaraščio
 Failed to load playlist: Nepavyko įkelti grojaraščio
+Failed to update bouquets.tv.: Nepavyko atnaujinti bouquets.tv.
+Failed to upload bouquet.: Nepavyko įkelti puokštės.
 Favorite: Mėgstamiausias
 Favorites only: Tik mėgstamiausi
 Fetch Logos: Paimkite logotipus
+File {0} already exists. Overwrite?: Failas {0} jau yra. Perrašyti?
+File exists: Failas egzistuoja
 Filters: Filtrai
 Fullscreen (hide UI) - press ESC to exit: Visas ekranas (slėpti vartotojo sąsają) – paspauskite ESC, kad išeitumėte
 Geo & Country: Geo & Country
@@ -183,6 +201,7 @@ No favorite channels to export.: Nėra mėgstamų kanalų, kuriuos būtų galima
 No playlist found: Grojaraščio nerasta
 No updates available.: Nėra jokių atnaujinimų.
 Normal speed (1x): Normalus greitis (1x)
+Not connected to the box.: Prie dėžutės neprijungta.
 Now: Dabar
 OK: Gerai
 Online Playlist: Internetinis grojaraštis
@@ -212,6 +231,8 @@ Refresh EPG: Atnaujinkite EPG
 Refresh EPG List: Atnaujinkite EPG sąrašą
 Refresh from GitHub: Atnaujinkite iš „GitHub“.
 Refresh List: Atnaujinti sąrašą
+Reload GUI: Iš naujo įkelti GUI
+Remove Command: Pašalinti komandą
 Rename Group: Pervardyti grupę
 Repository: Saugykla
 Reset Order: Iš naujo nustatyti užsakymą
@@ -230,6 +251,9 @@ Search channels...: Ieškoti kanalų...
 Select a playlist first.: Pirmiausia pasirinkite grojaraštį.
 Select Theme: Pasirinkite temą
 Selected theme is saved and applied on restart.: Pasirinkta tema išsaugoma ir taikoma paleidus iš naujo.
+Send: Siųsti
+Send playlist to Enigma2 decoder: Siųsti grojaraštį į Enigma2 dekoderį
+Send to Enigma2: Siųsti į Enigma2
 Settings: Nustatymai
 Show List: Rodyti sąrašą
 Show only channels marked as favorites: Rodyti tik kanalus, pažymėtus kaip mėgstamiausi
@@ -243,6 +267,10 @@ Success: Sėkmės
 Support: Palaikymas
 Support the developer: Palaikykite kūrėją
 Target Field: Tikslinis laukas
+Telnet command:: Telnet komanda:
+Telnet Commander: Telnet vadas
+Telnet Console: Telnet konsolė
+Telnet not configured. Please set it in Settings.: Telnet nesukonfigūruotas. Nustatykite jį nustatymuose.
 Thanks to: Ačiū
 Theme picker: Temos rinkiklis
 Theme picker – accessible via Tools menu on main toolbar.: Temos rinkiklis – pasiekiamas per Įrankių meniu pagrindinėje įrankių juostoje.

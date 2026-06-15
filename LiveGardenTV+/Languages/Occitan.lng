@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Una novèla version es disponibla. Volètz metre a jorn ara?
 Access via 'Edit Playlist' button on main toolbar.: Accedir via lo boton 'Modificar la lista de lectura' sus la barra d'aisinas principala.
 Actions: Accions
+Add Command: Apondre la comanda
 Add Group: Apondre un grop
 Add Mapping: Apondre la mapatge
 Adjust buffer size (1-10 seconds): Ajustar la talha del tampon (1-10 segondas)
@@ -29,8 +30,11 @@ Advanced IDs: IDs avançats
 Application status: Estat de la demanda
 Apply changes: Aplicar las modificacions
 Apply Filters: Aplicar de filtres
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Sètz segur que volètz tornar cargar l'interfaci grafica d'Enigma2?\n\nL'interfàcia se reaviarà (ecran negre pendent qualques segondas).
 Auto-detect: Autodeteccion
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Verificacion automatica a l'aviada – o clicatz sus 'Verificar las mesas a jorn' dins lo menú Aisinas.
+Bouquet Name: Nom del ram
+Bouquet sent and Enigma2 channel list reloaded.: Boquet mandat e lista de canals Enigma2 recargada.
 Buffer (seconds): Tampon (segondas)
 Buffer size – adjust HLS buffer seconds.: Talha del tampon – ajustar las segondas del tampon HLS.
 Cache: Cache
@@ -51,7 +55,11 @@ Clear Filters: Suprimir los filtres
 Clear search: Suprimir la recèrca
 Click for details: Clicatz pels detalhs
 Close: Barrar
+Command name:: Nom de comanda:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Comunautat & tèst: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Confirmar lo recargament
+Connect: Connectar
+Connected: Connectat
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: País
 Credits: Crèdits
@@ -60,6 +68,8 @@ Description: Descripcion
 Details: Detalhs
 Developed by Lululla: Desvolopat per Lululla
 Developer: Lululla: Desvolopaire: Lululla
+Disconnect: Desconnectar
+Disconnected: Desconnectat
 Do you want to load this edited playlist now?: Volètz cargar aquesta lista de lectura modificada ara ?
 Double speed (2x): Dobla velocitat (2x)
 Downloading playlist...: En telecargament de la lista de lectura...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Telecarga Z
 Drag & drop – drop M3U or JSON files directly onto main window.: Arrossegar e daissar tombar – daissar tombar los fichièrs M3U o JSON dirèctament sus la fenèstra principala.
 Drag to seek back in buffer: Arrossegatz per recercar dins lo tampon
 Duplicate URLs found:\n\n: URLs en doble trobadas:\n\n
+Edit Command: Comanda de modificacion
+Edit command name:: Modificar lo nom de la comanda :
 Edit Playlist: Modificar la lista de lectura
+Edit telnet command:: Modificar la comanda telnet :
 Edit URLs: Modificar las URL
 End: Fin
 Enrich with EPG: Enriquir amb EPG
+Enter bouquet name (without spaces):: Picatz lo nom del ram (sens espacis):
 Enter JSON URL:: Picatz l'URL JSON :
 Enter playlist URL (M3U or JSON):: Picatz l'URL de la lista de lectura (M3U o JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Exportar pas que los canals fav
 Extracting update...: Extraire la mesa a jorn...
 Failed to download playlist: Fracàs al telecargament de la lista de lectura
 Failed to load playlist: Fracàs al cargament de la lista de lectura
+Failed to update bouquets.tv.: Fracàs a la mesa a jorn de bouquets.tv.
+Failed to upload bouquet.: Fracàs al mandar lo bouquet.
 Favorite: Favorit
 Favorites only: Los favorits solament
 Fetch Logos: Recuperar de lògos
+File {0} already exists. Overwrite?: Lo fichièr {0} existís ja. Subrescriure?
+File exists: Fichièr existís
 Filters: Filtres
 Fullscreen (hide UI) - press ESC to exit: Ecran complet (amagar l'interfàcia utilizaire) - quichatz sus ESC per sortir
 Geo & Country: Geo & País
@@ -183,6 +201,7 @@ No favorite channels to export.: Pas de canal favorit d'exportar.
 No playlist found: Cap de lista de lectura pas trobada
 No updates available.: Cap de mesa a jorn pas disponibla.
 Normal speed (1x): Velocitat normala (1x)
+Not connected to the box.: Pas connectat a la bóstia.
 Now: Ara
 OK: ÒC BEN
 Online Playlist: Lista de reproduccion en linha
@@ -212,6 +231,8 @@ Refresh EPG: Actualizar EPG
 Refresh EPG List: Actualizar la lista EPG
 Refresh from GitHub: Actualizar dempuèi GitHub
 Refresh List: Actualizar la lista
+Reload GUI: Tornatz cargar l'interfaci grafica
+Remove Command: Comanda de suprimir
 Rename Group: Renomenar lo grop
 Repository: Depaus
 Reset Order: Reïnicializar l'òrdre
@@ -230,6 +251,9 @@ Search channels...: Cercar de canals...
 Select a playlist first.: Seleccionatz d'en primièr una lista de lectura.
 Select Theme: Seleccionar lo tèma
 Selected theme is saved and applied on restart.: Lo tèma seleccionat es enregistrat e aplicat al reaviada.
+Send: Mandar
+Send playlist to Enigma2 decoder: Enviar la lista de lectura al decodificador Enigma2
+Send to Enigma2: Enviar a Enigma2
 Settings: Paramètres
 Show List: Afichar la lista
 Show only channels marked as favorites: Afichar sonque los canals marcats coma favorits
@@ -243,6 +267,10 @@ Success: Succès
 Support: Sosten
 Support the developer: Supòrta lo desvolopaire
 Target Field: Camp cibla
+Telnet command:: Comanda Telnet :
+Telnet Commander: Comandant de Telnet
+Telnet Console: Consòla Telnet
+Telnet not configured. Please set it in Settings.: Telnet pas configurat. Mercés de lo definir dins los Paramètres.
 Thanks to: Mercés a
 Theme picker: Seleccionaire de tèma
 Theme picker – accessible via Tools menu on main toolbar.: Selector de tèmas – accessible via lo menú Aisinas sus la barra d'aisinas principala.

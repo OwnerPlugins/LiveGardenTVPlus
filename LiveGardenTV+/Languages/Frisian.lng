@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: In nije ferzje is beskikber. Wolle jo no bywurkje?
 Access via 'Edit Playlist' button on main toolbar.: Tagong fia 'Playlist bewurkje' knop op 'e haadarkbalke.
 Actions: Aksjes
+Add Command: Kommando taheakje
 Add Group: Add Group
 Add Mapping: Mapping tafoegje
 Adjust buffer size (1-10 seconds): Buffergrutte oanpasse (1-10 sekonden)
@@ -29,8 +30,11 @@ Advanced IDs: Avansearre IDs
 Application status: Applikaasje status
 Apply changes: Feroarings tapasse
 Apply Filters: Filters tapasse
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Binne jo wis dat jo de Enigma2 GUI opnij laden wolle?\n\nDe ynterface sil opnij starte (swart skerm foar in pear sekonden).
 Auto-detect: Auto-detect
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatyske kontrôle by opstarten - of klik op 'Kontrolearje op updates' yn it menu Tools.
+Bouquet Name: Namme bouquet
+Bouquet sent and Enigma2 channel list reloaded.: Bouquet ferstjoerd en Enigma2 kanaal list opnij laden.
 Buffer (seconds): Buffer (sekonden)
 Buffer size – adjust HLS buffer seconds.: Buffergrutte - oanpasse HLS buffer sekonden.
 Cache: Cache
@@ -51,7 +55,11 @@ Clear Filters: Filters wiskje
 Clear search: Wiskje sykjen
 Click for details: Klik foar details
 Close: Slute
+Command name:: Kommando namme:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Mienskip en testen: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Befêstigje Reload
+Connect: Ferbine
+Connected: Ferbûn
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Lân
 Credits: Credits
@@ -60,6 +68,8 @@ Description: Beskriuwing
 Details: Details
 Developed by Lululla: Ûntwikkele troch Lululla
 Developer: Lululla: Untwikkelder: Lululla
+Disconnect: Ferbine
+Disconnected: Ferbûn
 Do you want to load this edited playlist now?: Wolle jo dizze bewurke playlist no laden?
 Double speed (2x): Dûbele snelheid (2x)
 Downloading playlist...: Playlist ynlade...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Download ZI
 Drag & drop – drop M3U or JSON files directly onto main window.: Sleep & drop - drop M3U- as JSON-bestannen direkt op it haadfinster.
 Drag to seek back in buffer: Sleep om werom te sykjen yn buffer
 Duplicate URLs found:\n\n: Dûbele URL's fûn:\n\n
+Edit Command: Kommando bewurkje
+Edit command name:: Kommando namme bewurkje:
 Edit Playlist: Playlist bewurkje
+Edit telnet command:: Telnet kommando bewurkje:
 Edit URLs: URLs bewurkje
 End: Ein
 Enrich with EPG: Ferrykje mei EPG
+Enter bouquet name (without spaces):: Fier boeketnamme yn (sûnder spaasjes):
 Enter JSON URL:: Fier JSON URL yn:
 Enter playlist URL (M3U or JSON):: Fier de playlist-URL yn (M3U of JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Eksportearje allinich favorite 
 Extracting update...: Update útpakke...
 Failed to download playlist: It downloaden fan playlist is mislearre
 Failed to load playlist: It laden fan playlist is mislearre
+Failed to update bouquets.tv.: Bywurkje bouquets.tv mislearre.
+Failed to upload bouquet.: It uploaden fan boeket mislearre.
 Favorite: Favoryt
 Favorites only: Favorites allinne
 Fetch Logos: Logos ophelje
+File {0} already exists. Overwrite?: Triem {0} bestiet al. Oerskriuwe?
+File exists: Triem bestiet
 Filters: Filters
 Fullscreen (hide UI) - press ESC to exit: Folslein skerm (ferbergje UI) - druk op ESC om út te gean
 Geo & Country: Geo & Lân
@@ -183,6 +201,7 @@ No favorite channels to export.: Gjin favorite kanalen om te eksportearjen.
 No playlist found: Gjin playlist fûn
 No updates available.: Gjin updates beskikber.
 Normal speed (1x): Normale snelheid (1x)
+Not connected to the box.: Net ferbûn oan it fak.
 Now: No
 OK: OK
 Online Playlist: Online Playlist
@@ -212,6 +231,8 @@ Refresh EPG: Ferfarskje EPG
 Refresh EPG List: Ferfarskje EPG List
 Refresh from GitHub: Ferfarskje fan GitHub
 Refresh List: Ferfarskje List
+Reload GUI: GUI opnij laden
+Remove Command: Kommando fuortsmite
 Rename Group: Rename Group
 Repository: Repository
 Reset Order: Oarder weromsette
@@ -230,6 +251,9 @@ Search channels...: Sykje kanalen...
 Select a playlist first.: Selektearje earst in playlist.
 Select Theme: Selektearje Tema
 Selected theme is saved and applied on restart.: Selektearre tema wurdt bewarre en tapast by opnij starte.
+Send: Stjoere
+Send playlist to Enigma2 decoder: Stjoer playlist nei Enigma2-dekoder
+Send to Enigma2: Stjoer nei Enigma2
 Settings: Ynstellings
 Show List: List sjen litte
 Show only channels marked as favorites: Lit allinich kanalen sjen markearre as favoriten
@@ -243,6 +267,10 @@ Success: Sukses
 Support: Stypje
 Support the developer: Stypje de ûntwikkelder
 Target Field: Doelfjild
+Telnet command:: Telnet kommando:
+Telnet Commander: Telnet Commander
+Telnet Console: Telnet Konsole
+Telnet not configured. Please set it in Settings.: Telnet net ynsteld. Stel it asjebleaft yn Ynstellings.
 Thanks to: Mei tank oan
 Theme picker: Tema picker
 Theme picker – accessible via Tools menu on main toolbar.: Temakiezer - tagonklik fia it menu Tools op 'e haadarkbalke.

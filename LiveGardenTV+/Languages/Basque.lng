@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Bertsio berri bat dago eskuragarri. Orain eguneratu nahi duzu?
 Access via 'Edit Playlist' button on main toolbar.: Sartu tresna-barra nagusiko 'Editatu erreprodukzio zerrenda' botoiaren bidez.
 Actions: Ekintzak
+Add Command: Gehitu komandoa
 Add Group: Gehitu taldea
 Add Mapping: Gehitu mapak
 Adjust buffer size (1-10 seconds): Doitu buffer tamaina (1-10 segundo)
@@ -29,8 +30,11 @@ Advanced IDs: ID aurreratuak
 Application status: Aplikazioaren egoera
 Apply changes: Aplikatu aldaketak
 Apply Filters: Aplikatu iragazkiak
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ziur Enigma2 GUI berriro kargatu nahi duzula?\n\nInterfazea berrabiaraziko da (pantaila beltza segundo batzuetan).
 Auto-detect: Auto-detektatu
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Egiaztapen automatikoa abiaraztean, edo egin klik Tresnak menuko 'Begiratu eguneratzeak'.
+Bouquet Name: Sortaren izena
+Bouquet sent and Enigma2 channel list reloaded.: Bouquet bidali eta Enigma2 kanalen zerrenda birkargatu da.
 Buffer (seconds): Buffer (segundoak)
 Buffer size – adjust HLS buffer seconds.: Buffer tamaina - egokitu HLS buffer segundoak.
 Cache: Cachea
@@ -51,7 +55,11 @@ Clear Filters: Garbitu iragazkiak
 Clear search: Garbitu bilaketa
 Click for details: Sakatu xehetasunak ikusteko
 Close: Itxi
+Command name:: Komandoaren izena:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunitatea eta probak: CorvoBoys (corvoboys.org) eta LinuxSat-Support.com
+Confirm Reload: Berretsi birkargatu
+Connect: Konektatu
+Connected: Konektatuta
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Herrialdea
 Credits: Kredituak
@@ -60,6 +68,8 @@ Description: Deskribapena
 Details: Xehetasunak
 Developed by Lululla: Lulullak garatua
 Developer: Lululla: Garatzailea: Lululla
+Disconnect: Deskonektatu
+Disconnected: Deskonektatuta
 Do you want to load this edited playlist now?: Editatutako erreprodukzio-zerrenda hau kargatu nahi duzu orain?
 Double speed (2x): Abiadura bikoitza (2x)
 Downloading playlist...: Erreprodukzio zerrenda deskargatzen...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP deskarg
 Drag & drop – drop M3U or JSON files directly onto main window.: Arrastatu eta jaregin - jaregin M3U edo JSON fitxategiak zuzenean leiho nagusira.
 Drag to seek back in buffer: Arrastatu bufferean berriro bilatzeko
 Duplicate URLs found:\n\n: URL bikoiztuak aurkitu dira:\n\n
+Edit Command: Editatu komandoa
+Edit command name:: Editatu komandoaren izena:
 Edit Playlist: Editatu erreprodukzio zerrenda
+Edit telnet command:: Editatu telnet komandoa:
 Edit URLs: Editatu URLak
 End: Amaiera
 Enrich with EPG: EPGarekin aberastu
+Enter bouquet name (without spaces):: Sartu sortaren izena (espaziorik gabe):
 Enter JSON URL:: Sartu JSON URLa:
 Enter playlist URL (M3U or JSON):: Sartu erreprodukzio-zerrendaren URLa (M3U edo JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Esportatu gogoko kanalak soilik
 Extracting update...: Eguneraketa ateratzen...
 Failed to download playlist: Ezin izan da deskargatu erreprodukzio-zerrenda
 Failed to load playlist: Ezin izan da kargatu erreprodukzio-zerrenda
+Failed to update bouquets.tv.: Ezin izan da eguneratu bouquets.tv.
+Failed to upload bouquet.: Ezin izan da kargatu sorta.
 Favorite: Gogokoena
 Favorites only: Gogokoak bakarrik
 Fetch Logos: Lortu logotipoak
+File {0} already exists. Overwrite?: {0} fitxategia badago jada. Gainidatzi?
+File exists: Fitxategia existitzen da
 Filters: Iragazkiak
 Fullscreen (hide UI) - press ESC to exit: Pantaila osoa (ezkutatu UI) - sakatu ESC irteteko
 Geo & Country: Geo eta Herrialdea
@@ -183,6 +201,7 @@ No favorite channels to export.: Ez dago esportatzeko gogoko kanalik.
 No playlist found: Ez da aurkitu erreprodukzio zerrenda
 No updates available.: Ez dago eguneratzerik eskuragarri.
 Normal speed (1x): Abiadura normala (1x)
+Not connected to the box.: Ez dago kutxara konektatuta.
 Now: Orain
 OK: Ados
 Online Playlist: Lineako erreprodukzio zerrenda
@@ -212,6 +231,8 @@ Refresh EPG: Freskatu EPG
 Refresh EPG List: Freskatu EPG zerrenda
 Refresh from GitHub: Freskatu GitHub-etik
 Refresh List: Freskatu zerrenda
+Reload GUI: Berriz kargatu GUI
+Remove Command: Kendu komandoa
 Rename Group: Aldatu taldeari
 Repository: Biltegia
 Reset Order: Berrezarri ordena
@@ -230,6 +251,9 @@ Search channels...: Bilatu kanalak...
 Select a playlist first.: Hautatu erreprodukzio-zerrenda bat lehenik.
 Select Theme: Hautatu Gaia
 Selected theme is saved and applied on restart.: Hautatutako gaia gordetzen da eta berrabiarazi orduko aplikatzen da.
+Send: Bidali
+Send playlist to Enigma2 decoder: Bidali erreprodukzio zerrenda Enigma2 deskodetzaileari
+Send to Enigma2: Enigma2ra bidali
 Settings: Ezarpenak
 Show List: Erakutsi zerrenda
 Show only channels marked as favorites: Erakutsi gogoko gisa markatutako kanalak soilik
@@ -243,6 +267,10 @@ Success: Arrakasta
 Support: Laguntza
 Support the developer: Garatzaileari lagundu
 Target Field: Helburu-eremua
+Telnet command:: Telnet komandoa:
+Telnet Commander: Telnet komandantea
+Telnet Console: Telnet kontsola
+Telnet not configured. Please set it in Settings.: Telnet ez dago konfiguratuta. Mesedez, ezarri Ezarpenak atalean.
 Thanks to: Eskerrak
 Theme picker: Gai-hautatzailea
 Theme picker – accessible via Tools menu on main toolbar.: Gai-hautatzailea: tresna-barra nagusiko Tresnak menuaren bidez eskuragarri dago.

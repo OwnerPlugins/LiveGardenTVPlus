@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Este disponibilă o nouă versiune. Doriți să actualizați acum?
 Access via 'Edit Playlist' button on main toolbar.: Accesați prin butonul „Editați lista de redare” din bara de instrumente principală.
 Actions: Acțiuni
+Add Command: Adăugați comanda
 Add Group: Adăugați grup
 Add Mapping: Adăugați cartografiere
 Adjust buffer size (1-10 seconds): Ajustați dimensiunea tamponului (1-10 secunde)
@@ -29,8 +30,11 @@ Advanced IDs: ID-uri avansate
 Application status: Starea aplicației
 Apply changes: Aplicați modificări
 Apply Filters: Aplicați filtre
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Sigur doriți să reîncărcați GUI Enigma2?\n\nInterfața va reporni (ecran negru pentru câteva secunde).
 Auto-detect: Detectare automată
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Verificare automată la pornire – sau faceți clic pe „Căutați actualizări” în meniul Instrumente.
+Bouquet Name: Nume buchet
+Bouquet sent and Enigma2 channel list reloaded.: Buchetul trimis și lista de canale Enigma2 reîncărcată.
 Buffer (seconds): Buffer (secunde)
 Buffer size – adjust HLS buffer seconds.: Dimensiunea tamponului – ajustați secundele tampon HLS.
 Cache: Cache
@@ -51,7 +55,11 @@ Clear Filters: Ștergeți filtrele
 Clear search: Ștergeți căutarea
 Click for details: Click pentru detalii
 Close: Aproape
+Command name:: Nume comanda:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Comunitate și testare: CorvoBoys (corvoboys.org) și LinuxSat-Support.com
+Confirm Reload: Confirmați Reîncărcarea
+Connect: Conectați-vă
+Connected: Conectat
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Ţară
 Credits: Credite
@@ -60,6 +68,8 @@ Description: Descriere
 Details: Detalii
 Developed by Lululla: Dezvoltat de Lululla
 Developer: Lululla: Dezvoltator: Lululla
+Disconnect: Deconecta
+Disconnected: Deconectat
 Do you want to load this edited playlist now?: Doriți să încărcați acest playlist editat acum?
 Double speed (2x): Viteză dublă (2x)
 Downloading playlist...: Se descarcă lista de redare...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Descarcă Z
 Drag & drop – drop M3U or JSON files directly onto main window.: Trageți și plasați – plasați fișierele M3U sau JSON direct în fereastra principală.
 Drag to seek back in buffer: Trageți pentru a căuta înapoi în tampon
 Duplicate URLs found:\n\n: Adrese URL duplicat găsite:\n\n
+Edit Command: Comanda Editare
+Edit command name:: Editați numele comenzii:
 Edit Playlist: Editați lista de redare
+Edit telnet command:: Editați comanda telnet:
 Edit URLs: Editați adresele URL
 End: Sfârşit
 Enrich with EPG: Îmbogățiți cu EPG
+Enter bouquet name (without spaces):: Introduceți numele buchetului (fără spații):
 Enter JSON URL:: Introduceți adresa URL JSON:
 Enter playlist URL (M3U or JSON):: Introduceți adresa URL a listei de redare (M3U sau JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Exportați numai canalele favor
 Extracting update...: Se extrage actualizarea...
 Failed to download playlist: Nu s-a putut descărca lista de redare
 Failed to load playlist: Nu s-a putut încărca lista de redare
+Failed to update bouquets.tv.: Nu s-a putut actualiza bouquets.tv.
+Failed to upload bouquet.: Buchetul nu a putut fi încărcat.
 Favorite: Favorit
 Favorites only: Doar favorite
 Fetch Logos: Preluați sigle
+File {0} already exists. Overwrite?: Fișierul {0} există deja. Suprascrie?
+File exists: Fișierul există
 Filters: Filtre
 Fullscreen (hide UI) - press ESC to exit: Ecran complet (ascunde UI) - apăsați ESC pentru a ieși
 Geo & Country: Geo și țară
@@ -183,6 +201,7 @@ No favorite channels to export.: Nu există canale preferate de exportat.
 No playlist found: Nu a fost găsit nicio listă de redare
 No updates available.: Nu există actualizări disponibile.
 Normal speed (1x): Viteză normală (1x)
+Not connected to the box.: Nu este conectat la cutie.
 Now: Acum
 OK: Bine
 Online Playlist: Playlist online
@@ -212,6 +231,8 @@ Refresh EPG: Actualizează EPG
 Refresh EPG List: Actualizează lista EPG
 Refresh from GitHub: Actualizează din GitHub
 Refresh List: Actualizează lista
+Reload GUI: Reîncărcați GUI
+Remove Command: Eliminați comanda
 Rename Group: Redenumiți grupul
 Repository: Repertoriu
 Reset Order: Resetați comanda
@@ -230,6 +251,9 @@ Search channels...: Caută canale...
 Select a playlist first.: Selectați mai întâi o listă de redare.
 Select Theme: Selectați Tema
 Selected theme is saved and applied on restart.: Tema selectată este salvată și aplicată la repornire.
+Send: Trimite
+Send playlist to Enigma2 decoder: Trimite lista de redare către decodorul Enigma2
+Send to Enigma2: Trimite la Enigma2
 Settings: Setări
 Show List: Afișează lista
 Show only channels marked as favorites: Afișați numai canalele marcate ca favorite
@@ -243,6 +267,10 @@ Success: Succes
 Support: Sprijin
 Support the developer: Sprijiniți dezvoltatorul
 Target Field: Câmpul țintă
+Telnet command:: Comanda Telnet:
+Telnet Commander: Comandant Telnet
+Telnet Console: Consola Telnet
+Telnet not configured. Please set it in Settings.: Telnet nu este configurat. Setați-l în Setări.
 Thanks to: Datorită
 Theme picker: Selector de teme
 Theme picker – accessible via Tools menu on main toolbar.: Selector de teme – accesibil prin meniul Instrumente din bara de instrumente principală.

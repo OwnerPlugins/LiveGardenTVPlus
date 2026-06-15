@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Tá leagan nua ar fáil. Ar mhaith leat nuashonrú anois?
 Access via 'Edit Playlist' button on main toolbar.: Rochtain tríd an gcnaipe 'Cuir Seinmliosta in Eagar' ar an bpríomhbharra uirlisí.
 Actions: Gníomhartha
+Add Command: Cuir Ordú
 Add Group: Cuir Grúpa leis
 Add Mapping: Cuir Mapáil leis
 Adjust buffer size (1-10 seconds): Coigeartaigh méid maoláin (1-10 soicind)
@@ -29,8 +30,11 @@ Advanced IDs: Ardaitheantais
 Application status: Stádas iarratais
 Apply changes: Cuir athruithe i bhfeidhm
 Apply Filters: Cuir Scagairí i bhFeidhm
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: An bhfuil tú cinnte gur mian leat an GUI Enigma2 a athlódáil?\n\nAtosóidh an comhéadan (scáileán dubh ar feadh cúpla soicind).
 Auto-detect: Auto-bhrath
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Seiceáil uathoibríoch ar am tosaithe - nó cliceáil ar 'Seiceáil le haghaidh nuashonruithe' sa roghchlár Uirlisí.
+Bouquet Name: Ainm Bouquet
+Bouquet sent and Enigma2 channel list reloaded.: Bouquet seolta agus liosta cainéal Enigma2 athlódála.
 Buffer (seconds): Maolán (soicindí)
 Buffer size – adjust HLS buffer seconds.: Méid maoláin – coigeartaigh soicind maolánacha HLS.
 Cache: Taisce
@@ -51,7 +55,11 @@ Clear Filters: Scagairí Glan
 Clear search: Glan cuardach
 Click for details: Cliceáil le haghaidh sonraí
 Close: Dún
+Command name:: Ainm an ordaithe:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Pobal & tástáil: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Deimhnigh Athlódáil
+Connect: Ceangail
+Connected: Ceangailte
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Tír
 Credits: Creidmheasanna
@@ -60,6 +68,8 @@ Description: Cur síos
 Details: Sonraí
 Developed by Lululla: Arna fhorbairt ag Lululla
 Developer: Lululla: Forbróir: Lululla
+Disconnect: Dícheangail
+Disconnected: Dícheangailte
 Do you want to load this edited playlist now?: Ar mhaith leat an seinmliosta atheagraithe seo a lódáil anois?
 Double speed (2x): Luas dúbailte (2x)
 Downloading playlist...: Íosluchtaigh playlist.. .
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Íoslódál
 Drag & drop – drop M3U or JSON files directly onto main window.: Tarraing & scaoil - scaoil comhaid M3U nó JSON go díreach ar an bpríomhfhuinneog.
 Drag to seek back in buffer: Tarraing a lorg ar ais i maolán
 Duplicate URLs found:\n\n: URLanna dúblacha aimsithe:\n\n
+Edit Command: Cuir Ordú in Eagar
+Edit command name:: Cuir ainm an ordaithe in eagar:
 Edit Playlist: Cuir Seinmliosta in Eagar
+Edit telnet command:: Cuir ordú telnet in eagar:
 Edit URLs: Cuir URLanna in eagar
 End: Deireadh
 Enrich with EPG: Saibhriú le EPG
+Enter bouquet name (without spaces):: Cuir isteach ainm bouquet (gan spásanna):
 Enter JSON URL:: Cuir isteach URL JSON:
 Enter playlist URL (M3U or JSON):: Cuir isteach URL seinmliosta (M3U nó JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Easpórtáil ach na cainéil is
 Extracting update...: Nuashonrú á bhaint...
 Failed to download playlist: Theip ar an seinmliosta a íoslódáil
 Failed to load playlist: Theip ar lódáil an seinmliosta
+Failed to update bouquets.tv.: Theip ar bouquets.tv a nuashonrú.
+Failed to upload bouquet.: Theip ar an bouquet a uaslódáil.
 Favorite: is fearr leat
 Favorites only: Ceanáin amháin
 Fetch Logos: Faigh Lógónna
+File {0} already exists. Overwrite?: Tá comhad {0} ann cheana. Forscríobh?
+File exists: Tá comhad ann
 Filters: Scagairí
 Fullscreen (hide UI) - press ESC to exit: Lánscáileán (folaigh Chomhéadain) - brúigh ESC chun imeacht
 Geo & Country: Geo & Tír
@@ -183,6 +201,7 @@ No favorite channels to export.: Níl aon chainéil is fearr leat le heaspórtá
 No playlist found: Níor aimsíodh aon seinnliosta
 No updates available.: Níl aon nuashonruithe ar fáil.
 Normal speed (1x): Gnáthluas (1x)
+Not connected to the box.: Gan ceangailte leis an mbosca.
 Now: Anois
 OK: ceart go leor
 Online Playlist: Seinmliosta Ar Líne
@@ -212,6 +231,8 @@ Refresh EPG: EPG a athnuachan
 Refresh EPG List: Athnuaigh an liosta EPG
 Refresh from GitHub: Athnuaigh ó GitHub
 Refresh List: Liosta Athnuaigh
+Reload GUI: Athlódáil GUI
+Remove Command: Bain Ordú
 Rename Group: Athainmnigh an Grúpa
 Repository: Stór
 Reset Order: Ordú Athshocraigh
@@ -230,6 +251,9 @@ Search channels...: Cuardach cainéil...
 Select a playlist first.: Roghnaigh seinmliosta ar dtús.
 Select Theme: Roghnaigh Téama
 Selected theme is saved and applied on restart.: Sábháiltear an téama roghnaithe agus cuirtear i bhfeidhm é ar atosú.
+Send: Seol
+Send playlist to Enigma2 decoder: Seol an seinmliosta chuig an díchódóir Enigma2
+Send to Enigma2: Seol chuig Enigma 2 saor in aisce
 Settings: Socruithe
 Show List: Taispeáin Liosta
 Show only channels marked as favorites: Ná taispeáin ach cainéil atá marcáilte mar cheanáin
@@ -243,6 +267,10 @@ Success: Rath
 Support: Tacaíocht
 Support the developer: Tacaigh leis an bhforbróir
 Target Field: Réimse Sprioc
+Telnet command:: Ordú Telnet:
+Telnet Commander: Cluiche Ceannasaí Telnet
+Telnet Console: Consól Telnet
+Telnet not configured. Please set it in Settings.: Telnet gan a bheith cumraithe. Socraigh é i Socruithe.
 Thanks to: Buíochas le
 Theme picker: Roghnóir téamaí
 Theme picker – accessible via Tools menu on main toolbar.: Roghnóir téamaí – inrochtana tríd an roghchlár Uirlisí ar an bpríomhbharra uirlisí.

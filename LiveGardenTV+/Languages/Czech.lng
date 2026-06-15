@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: K dispozici je nová verze. Chcete provést aktualizaci nyní?
 Access via 'Edit Playlist' button on main toolbar.: Přístup pomocí tlačítka „Upravit seznam skladeb“ na hlavním panelu nástrojů.
 Actions: Akce
+Add Command: Přidat příkaz
 Add Group: Přidat skupinu
 Add Mapping: Přidat mapování
 Adjust buffer size (1-10 seconds): Upravit velikost vyrovnávací paměti (1–10 sekund)
@@ -29,8 +30,11 @@ Advanced IDs: Pokročilá ID
 Application status: Stav aplikace
 Apply changes: Použít změny
 Apply Filters: Použít filtry
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Jste si jisti, že chcete znovu načíst GUI Enigmy?\n\nRozhraní se restartuje (černá obrazovka na několik sekund).
 Auto-detect: Automatická detekce
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatická kontrola při spuštění – nebo klikněte na „Zkontrolovat aktualizace“ v nabídce Nástroje.
+Bouquet Name: Název kytice
+Bouquet sent and Enigma2 channel list reloaded.: Kytice odeslána a seznam kanálů Enigma2 znovu načten.
 Buffer (seconds): Vyrovnávací paměť (sekundy)
 Buffer size – adjust HLS buffer seconds.: Velikost vyrovnávací paměti – nastavení sekund vyrovnávací paměti HLS.
 Cache: Cache
@@ -51,7 +55,11 @@ Clear Filters: Vymazat filtry
 Clear search: Vymazat vyhledávání
 Click for details: Kliknutím zobrazíte podrobnosti
 Close: Blízko
+Command name:: Název příkazu:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunita a testování: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Potvrďte Znovu načíst
+Connect: Připojit
+Connected: Připojeno
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Země
 Credits: Kredity
@@ -60,6 +68,8 @@ Description: Popis
 Details: Podrobnosti
 Developed by Lululla: Vyvinutý Lulullou
 Developer: Lululla: Vývojář: Lululla
+Disconnect: Odpojit
+Disconnected: Odpojeno
 Do you want to load this edited playlist now?: Chcete nyní načíst tento upravený seznam skladeb?
 Double speed (2x): Dvojitá rychlost (2x)
 Downloading playlist...: Stahování seznamu skladeb...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Stáhne ZIP
 Drag & drop – drop M3U or JSON files directly onto main window.: Drag & drop – přetáhněte soubory M3U nebo JSON přímo do hlavního okna.
 Drag to seek back in buffer: Přetažením vyhledáte zpět ve vyrovnávací paměti
 Duplicate URLs found:\n\n: Nalezeny duplicitní adresy URL:\n\n
+Edit Command: Upravit příkaz
+Edit command name:: Upravit název příkazu:
 Edit Playlist: Upravit seznam skladeb
+Edit telnet command:: Upravit příkaz telnet:
 Edit URLs: Upravit adresy URL
 End: Konec
 Enrich with EPG: Obohaťte se o EPG
+Enter bouquet name (without spaces):: Zadejte název kytice (bez mezer):
 Enter JSON URL:: Zadejte adresu URL JSON:
 Enter playlist URL (M3U or JSON):: Zadejte adresu URL seznamu videí (M3U nebo JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Exportujte pouze oblíbené kan
 Extracting update...: Extrahování aktualizace...
 Failed to download playlist: Stažení seznamu skladeb se nezdařilo
 Failed to load playlist: Seznam skladeb se nepodařilo načíst
+Failed to update bouquets.tv.: Aktualizace bouquets.tv se nezdařila.
+Failed to upload bouquet.: Nahrání kytice se nezdařilo.
 Favorite: Oblíbený
 Favorites only: Pouze oblíbené
 Fetch Logos: Načíst loga
+File {0} already exists. Overwrite?: Soubor {0} již existuje. Přepsat?
+File exists: Soubor existuje
 Filters: Filtry
 Fullscreen (hide UI) - press ESC to exit: Celá obrazovka (skrýt uživatelské rozhraní) – pro ukončení stiskněte ESC
 Geo & Country: Zeměpis a země
@@ -183,6 +201,7 @@ No favorite channels to export.: Žádné oblíbené kanály k exportu.
 No playlist found: Nebyl nalezen žádný seznam skladeb
 No updates available.: Nejsou k dispozici žádné aktualizace.
 Normal speed (1x): Normální rychlost (1x)
+Not connected to the box.: Není připojeno ke krabici.
 Now: Teď
 OK: OK
 Online Playlist: Online seznam skladeb
@@ -212,6 +231,8 @@ Refresh EPG: Obnovit EPG
 Refresh EPG List: Obnovit seznam EPG
 Refresh from GitHub: Obnovit z GitHubu
 Refresh List: Obnovit seznam
+Reload GUI: Znovu načíst GUI
+Remove Command: Odebrat příkaz
 Rename Group: Přejmenovat skupinu
 Repository: Úložiště
 Reset Order: Obnovit objednávku
@@ -230,6 +251,9 @@ Search channels...: Hledat kanály...
 Select a playlist first.: Nejprve vyberte seznam skladeb.
 Select Theme: Vyberte téma
 Selected theme is saved and applied on restart.: Vybrané téma se uloží a použije při restartu.
+Send: Poslat
+Send playlist to Enigma2 decoder: Odeslat seznam skladeb do dekodéru Enigma2
+Send to Enigma2: Odeslat na Enigma2
 Settings: Nastavení
 Show List: Zobrazit seznam
 Show only channels marked as favorites: Zobrazit pouze kanály označené jako oblíbené
@@ -243,6 +267,10 @@ Success: Úspěch
 Support: Podpora
 Support the developer: Podpořte vývojáře
 Target Field: Cílové pole
+Telnet command:: Telnet příkaz:
+Telnet Commander: Velitel Telnetu
+Telnet Console: Konzole Telnet
+Telnet not configured. Please set it in Settings.: Telnet není nakonfigurován. Nastavte to prosím v Nastavení.
 Thanks to: Díky
 Theme picker: Výběr motivu
 Theme picker – accessible via Tools menu on main toolbar.: Výběr motivu – přístupný přes nabídku Nástroje na hlavním panelu nástrojů.

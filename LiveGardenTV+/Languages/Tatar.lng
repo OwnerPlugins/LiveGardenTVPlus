@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Яңа версия бар. Хәзер яңартасыгыз киләме?
 Access via 'Edit Playlist' button on main toolbar.: Төп кораллар аспапындагы 'Плейлистны үзгәртү' төймәсе аша керү.
 Actions: Эшләр
+Add Command: Команда өстәгез
 Add Group: Төркем өстәү
 Add Mapping: Картаны өстәгез
 Adjust buffer size (1-10 seconds): Буфер зурлыгын көйләгез (1-10 секунд)
@@ -29,8 +30,11 @@ Advanced IDs: Алга киткән таныклыклар
 Application status: Гариза статусы
 Apply changes: Changesзгәрешләр кулланыгыз
 Apply Filters: Фильтрлар кулланыгыз
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI-ны яңадан йөкләргә телисезме? \ N \ n Интерфейс яңадан башланачак (берничә секунд эчендә кара экран).
 Auto-detect: Авто-ачыклау
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Стартны автоматик тикшерү - яки Кораллар менюсындагы 'Яңартуларны тикшерү' төймәсенә басыгыз.
+Bouquet Name: Букет исеме
+Bouquet sent and Enigma2 channel list reloaded.: Букет җибәрелде һәм Enigma2 канал исемлеге яңадан йөкләнде.
 Buffer (seconds): Буфер (секундлар)
 Buffer size – adjust HLS buffer seconds.: Буфер зурлыгы - HLS буфер секундларын көйләгез.
 Cache: Кэш
@@ -51,7 +55,11 @@ Clear Filters: Фильтрларны чистарту
 Clear search: Эзләү
 Click for details: Детальләр өчен басыгыз
 Close: Ябу
+Command name:: Команда исеме:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Communityәмгыять һәм тест: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Йөкләүне раслагыз
+Connect: Бәйләнегез
+Connected: Бәйләнгән
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Ил
 Credits: Кредитлар
@@ -60,6 +68,8 @@ Description: Тасвирлау
 Details: Детальләр
 Developed by Lululla: Лулулла тарафыннан эшләнгән
 Developer: Lululla: Төзүче: Лулулла
+Disconnect: Аерыгыз
+Disconnected: Аерылган
 Do you want to load this edited playlist now?: Бу редакцияләнгән плейлистны хәзер йөкләргә телисезме?
 Double speed (2x): Ике тизлек (2х)
 Downloading playlist...: Плейлистны йөкләү ...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP-ны й
 Drag & drop – drop M3U or JSON files directly onto main window.: Сөйләү һәм төшерү - M3U яки JSON файлларын төп тәрәзәгә ташлау.
 Drag to seek back in buffer: Буферда эзләү өчен сөйрәгез
 Duplicate URLs found:\n\n: Күрсәтелгән URL'лар: \ n \ n
+Edit Command: Команданы үзгәртү
+Edit command name:: Команда исемен үзгәртү:
 Edit Playlist: Плейлистны үзгәртү
+Edit telnet command:: Телефон командасын үзгәртү:
 Edit URLs: URL'ларны үзгәртү
 End: Ахыр
 Enrich with EPG: EPG белән баету
+Enter bouquet name (without spaces):: Букет исемен кертегез (буш урыннарсыз):
 Enter JSON URL:: JSON URL кертегез:
 Enter playlist URL (M3U or JSON):: Плейлист URL кертегез (M3U яки JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Яңа M3U файлына яр�
 Extracting update...: Яңартуны чыгару ...
 Failed to download playlist: Плейлистны йөкли алмады
 Failed to load playlist: Плейлистны йөкли алмады
+Failed to update bouquets.tv.: Bouquets.tv яңартылмады.
+Failed to upload bouquet.: Букет урнаштыра алмады.
 Favorite: Яраткан
 Favorites only: Фаворитлар гына
 Fetch Logos: Логотиплар
+File {0} already exists. Overwrite?: {0} файл бар. Өстәмә язу?
+File exists: Файл бар
 Filters: Фильтрлар
 Fullscreen (hide UI) - press ESC to exit: Тулы экран (UI яшерегез) - чыгу өчен ESC басыгыз
 Geo & Country: Гео & Ил
@@ -183,6 +201,7 @@ No favorite channels to export.: Экспортка яраткан каналл�
 No playlist found: Плейлист табылмады
 No updates available.: Яңартулар юк.
 Normal speed (1x): Нормаль тизлек (1х)
+Not connected to the box.: Рамкага тоташмаган.
 Now: Хәзер
 OK: Ярар
 Online Playlist: Онлайн плейлист
@@ -212,6 +231,8 @@ Refresh EPG: EPG яңарту
 Refresh EPG List: EPG исемлеген яңарту
 Refresh from GitHub: GitHub'тан яңарту
 Refresh List: Исемлекне яңарту
+Reload GUI: GUI-ны яңадан йөкләү
+Remove Command: Команданы бетерегез
 Rename Group: Төркемнең исемен үзгәртү
 Repository: Склад
 Reset Order: Заказны яңадан урнаштыру
@@ -230,6 +251,9 @@ Search channels...: Каналларны эзләү ...
 Select a playlist first.: Башта плейлистны сайлагыз.
 Select Theme: Теманы сайлагыз
 Selected theme is saved and applied on restart.: Сайланган тема саклана һәм яңадан эшләтеп җибәрелә.
+Send: Sendибәр
+Send playlist to Enigma2 decoder: Enigma2 декодерына плейлист җибәрегез
+Send to Enigma2: Enigma2 җибәр
 Settings: Көйләүләр
 Show List: Исемлекне күрсәтү
 Show only channels marked as favorites: Фаворит дип билгеләнгән каналларны гына күрсәтегез
@@ -243,6 +267,10 @@ Success: Уңыш
 Support: Ярдәм
 Support the developer: Төзүчегә булыш
 Target Field: Максат кыры
+Telnet command:: Телефон командасы:
+Telnet Commander: Телефон командиры
+Telnet Console: Телефон консолы
+Telnet not configured. Please set it in Settings.: Телефон конфигурацияләнмәгән. Зинһар, аны көйләүләрдә урнаштырыгыз.
 Thanks to: Рәхмәт
 Theme picker: Тема сайлаучы
 Theme picker – accessible via Tools menu on main toolbar.: Тема сайлаучы - төп кораллар аспапындагы Кораллар менюсы аша кереп була.

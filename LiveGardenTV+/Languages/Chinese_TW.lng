@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: 有新版本可用。您想現在更新嗎？
 Access via 'Edit Playlist' button on main toolbar.: 透過主工具列上的「編輯播放清單」按鈕存取。
 Actions: 行動
+Add Command: 新增命令
 Add Group: 新增群組
 Add Mapping: 新增映射
 Adjust buffer size (1-10 seconds): 調整緩衝區大小（1-10秒）
@@ -29,8 +30,11 @@ Advanced IDs: 進階 ID
 Application status: 申請狀態
 Apply changes: 應用程式變更
 Apply Filters: 應用過濾器
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: 您確定要重新載入 Enigma2 GUI 嗎？ \n\n介面將重新啟動（黑屏幾秒鐘）。
 Auto-detect: 自動偵測
 Automatic check on startup – or click 'Check for updates' in Tools menu.: 啟動時自動檢查 – 或點選「工具」選單中的「檢查更新」。
+Bouquet Name: 花束名稱
+Bouquet sent and Enigma2 channel list reloaded.: 花束已發送，Enigma2 頻道清單已重新載入。
 Buffer (seconds): 緩衝區（秒）
 Buffer size – adjust HLS buffer seconds.: 緩衝區大小 – 調整 HLS 緩衝區秒數。
 Cache: 快取
@@ -51,7 +55,11 @@ Clear Filters: 清除過濾器
 Clear search: 清除搜尋
 Click for details: 點擊看詳情
 Close: 關閉
+Command name:: 命令名稱：
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: 社群與測驗：CorvoBoys (corvoboys.org) 和 LinuxSat-Support.com
+Confirm Reload: 確認重新加載
+Connect: 連接
+Connected: 已連接
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: 國家
 Credits: 製作人員
@@ -60,6 +68,8 @@ Description: 描述
 Details: 細節
 Developed by Lululla: 由 盧魯拉 開發
 Developer: Lululla: 開發商： 露露拉
+Disconnect: 斷開
+Disconnected: 已斷開連接
 Do you want to load this edited playlist now?: 您想立即載入這個編輯過的播放清單嗎？
 Double speed (2x): 雙倍速度 (2x)
 Downloading playlist...: 正在下載播放清單...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: 下載 ZIP�
 Drag & drop – drop M3U or JSON files directly onto main window.: 拖放 – 將 M3U 或 JSON 檔案直接拖曳到主視窗上。
 Drag to seek back in buffer: 拖曳以在緩衝區中向後查找
 Duplicate URLs found:\n\n: 發現重複的 URL:\n\n
+Edit Command: 編輯命令
+Edit command name:: 編輯命令名稱：
 Edit Playlist: 編輯播放列表
+Edit telnet command:: 編輯telnet指令：
 Edit URLs: 編輯網址
 End: 結尾
 Enrich with EPG: 透過 EPG 豐富內容
+Enter bouquet name (without spaces):: 輸入花束名稱（不含空格）：
 Enter JSON URL:: 輸入 JSON 網址：
 Enter playlist URL (M3U or JSON):: 輸入播放清單 URL（M3U 或 JSON）：
 EPG: 電子節目指南
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: 僅將喜愛的頻道匯出到�
 Extracting update...: 正在提取更新...
 Failed to download playlist: 下載播放清單失敗
 Failed to load playlist: 無法載入播放列表
+Failed to update bouquets.tv.: 無法更新 bouquets.tv。
+Failed to upload bouquet.: 上傳花束失敗。
 Favorite: 最喜歡的
 Favorites only: 僅限收藏夾
 Fetch Logos: 取得徽標
+File {0} already exists. Overwrite?: 文件 {0} 已存在。覆蓋？
+File exists: 文件存在
 Filters: 過濾器
 Fullscreen (hide UI) - press ESC to exit: 全螢幕（隱藏 UI）- 按 ESC 退出
 Geo & Country: 地理和國家
@@ -183,6 +201,7 @@ No favorite channels to export.: 沒有可匯出的喜愛頻道。
 No playlist found: 未找到播放列表
 No updates available.: 沒有可用的更新。
 Normal speed (1x): 正常速度 (1x)
+Not connected to the box.: 未連接到盒子。
 Now: 現在
 OK: 好的
 Online Playlist: 線上播放列表
@@ -212,6 +231,8 @@ Refresh EPG: 重新整理電子節目表
 Refresh EPG List: 刷新EPG列表
 Refresh from GitHub: 從 GitHub 刷新
 Refresh List: 重新整理清單
+Reload GUI: 重新載入圖形使用者介面
+Remove Command: 刪除命令
 Rename Group: 重新命名群組
 Repository: 儲存庫
 Reset Order: 重置訂單
@@ -230,6 +251,9 @@ Search channels...: 搜尋頻道...
 Select a playlist first.: 首先選擇一個播放清單。
 Select Theme: 選擇主題
 Selected theme is saved and applied on restart.: 所選主題將被儲存並在重新啟動時套用。
+Send: 傳送
+Send playlist to Enigma2 decoder: 將播放清單傳送至 Enigma2 解碼器
+Send to Enigma2: 發送至 Enigma2
 Settings: 設定
 Show List: 顯示清單
 Show only channels marked as favorites: 僅顯示標記為收藏的頻道
@@ -243,6 +267,10 @@ Success: 成功
 Support: 支援
 Support the developer: 支持開發商
 Target Field: 目標領域
+Telnet command:: 遠端登入命令：
+Telnet Commander: 遠端登入指揮官
+Telnet Console: 遠端登入控制台
+Telnet not configured. Please set it in Settings.: 未配置 Telnet。請在“設定”中進行設定。
 Thanks to: 由於
 Theme picker: 主題選擇器
 Theme picker – accessible via Tools menu on main toolbar.: 主題選擇器 - 可透過主工具列上的「工具」功能表存取。

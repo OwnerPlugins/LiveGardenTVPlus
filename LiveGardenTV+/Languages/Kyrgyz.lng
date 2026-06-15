@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Жаңы версиясы бар. Азыр жаңырткыңыз келеби?
 Access via 'Edit Playlist' button on main toolbar.: Негизги куралдар тилкесиндеги "Ойнотмо тизмесин түзөтүү" баскычы аркылуу кириңиз.
 Actions: Аракеттер
+Add Command: Команда кошуу
 Add Group: Топ кошуу
 Add Mapping: Карталарды кошуу
 Adjust buffer size (1-10 seconds): Буфер өлчөмүн тууралоо (1-10 секунд)
@@ -29,8 +30,11 @@ Advanced IDs: Өркүндөтүлгөн ID'лер
 Application status: Колдонмо статусу
 Apply changes: Өзгөртүүлөрдү колдонуу
 Apply Filters: Чыпкаларды колдонуу
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Чын эле Enigma2 GUIди кайра жүктөгүңүз келеби?\n\nИнтерфейс кайра башталат (бир нече секундага кара экран).
 Auto-detect: Автоматтык аныктоо
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Ишке киргенде автоматтык түрдө текшерүү – же Куралдар менюсунан "Жаңыртууну текшерүү" баскычын чыкылдатыңыз.
+Bouquet Name: Букет аты
+Bouquet sent and Enigma2 channel list reloaded.: Букет жөнөтүлдү жана Enigma2 каналдарынын тизмеси кайра жүктөлдү.
 Buffer (seconds): Буфер (секунд)
 Buffer size – adjust HLS buffer seconds.: Буфер өлчөмү – HLS буферинин секундасын тууралаңыз.
 Cache: Кэш
@@ -51,7 +55,11 @@ Clear Filters: Чыпкаларды тазалоо
 Clear search: Издөөнү тазалоо
 Click for details: чоо-жайын билүү үчүн басыңыз
 Close: Жабуу
+Command name:: Буйрук аты:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Коомчулук жана тестирлөө: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Кайра жүктөөнү ырастоо
+Connect: Туташуу
+Connected: Туташкан
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Өлкө
 Credits: Кредиттер
@@ -60,6 +68,8 @@ Description: Description
 Details: Толук маалымат
 Developed by Lululla: Лулулла тарабынан иштелип чыккан
 Developer: Lululla: Иштеп чыгуучу: Лулулла
+Disconnect: Ажыратуу
+Disconnected: Ажыратылды
 Do you want to load this edited playlist now?: Бул түзөтүлгөн ойнотмо тизмени азыр жүктөгүңүз келеби?
 Double speed (2x): Кош ылдамдык (2x)
 Downloading playlist...: Ойнотмо тизме жүктөлүүдө...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP жүк�
 Drag & drop – drop M3U or JSON files directly onto main window.: Сүйрөп жана таштоо – M3U же JSON файлдарын түздөн-түз негизги терезеге таштаңыз.
 Drag to seek back in buffer: Буферде кайра издөө үчүн сүйрөңүз
 Duplicate URLs found:\n\n: Кайталанма URL'дер табылды:\n\n
+Edit Command: Edit Command
+Edit command name:: Команданын атын түзөтүү:
 Edit Playlist: Ойнотмо тизмени түзөтүү
+Edit telnet command:: Telnet буйругун түзөтүү:
 Edit URLs: URL'дерди түзөтүү
 End: Аягы
 Enrich with EPG: EPG менен байытуу
+Enter bouquet name (without spaces):: Букеттин атын киргизиңиз (боштуксуз):
 Enter JSON URL:: JSON URL киргизиңиз:
 Enter playlist URL (M3U or JSON):: Ойнотмо тизменин URL'ин киргизиңиз (M3U же JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Жаңы M3U файлына с�
 Extracting update...: Жаңыртуу чыгарылууда...
 Failed to download playlist: Ойнотмо тизме жүктөлбөй калды
 Failed to load playlist: Ойнотмо тизме жүктөлгөн жок
+Failed to update bouquets.tv.: bouquets.tv жаңыртылган жок.
+Failed to upload bouquet.: Букет жүктөлгөн жок.
 Favorite: Сүйүктүү
 Favorites only: Сүйүктүүлөр гана
 Fetch Logos: Логотиптерди алуу
+File {0} already exists. Overwrite?: {0} файлы мурунтан эле бар. Жазылсынбы?
+File exists: Файл бар
 Filters: Чыпкалар
 Fullscreen (hide UI) - press ESC to exit: Толук экран (UI жашыруу) - чыгуу үчүн ESC баскычын басыңыз
 Geo & Country: Гео жана өлкө
@@ -183,6 +201,7 @@ No favorite channels to export.: Экспорттоо үчүн сүйүктүү 
 No playlist found: Ойнотмо тизме табылган жок
 No updates available.: Жаңыртуулар жок.
 Normal speed (1x): Кадимки ылдамдык (1x)
+Not connected to the box.: Кутуга туташкан эмес.
 Now: Азыр
 OK: макул
 Online Playlist: Онлайн ойноо тизмеси
@@ -212,6 +231,8 @@ Refresh EPG: EPG жаңыртуу
 Refresh EPG List: EPG тизмесин жаңыртуу
 Refresh from GitHub: GitHub'дан жаңыртуу
 Refresh List: Тизмени жаңыртуу
+Reload GUI: GUI кайра жүктөө
+Remove Command: Команданы алып салуу
 Rename Group: Топтун атын өзгөртүү
 Repository: Репозиторий
 Reset Order: Тартипти калыбына келтирүү
@@ -230,6 +251,9 @@ Search channels...: Каналдарды издөө...
 Select a playlist first.: Биринчи ойнотмо тизмесин тандаңыз.
 Select Theme: Теманы тандаңыз
 Selected theme is saved and applied on restart.: Тандалган тема сакталып, кайра күйгүзгөндө колдонулат.
+Send: Жөнөтүү
+Send playlist to Enigma2 decoder: Ойнотмо тизмени Enigma2 декодерине жөнөтүңүз
+Send to Enigma2: Enigma2ге жөнөтүү
 Settings: Орнотуулар
 Show List: Тизмени көрсөтүү
 Show only channels marked as favorites: Сүйүктүү катары белгиленген каналдарды гана көрсөтүү
@@ -243,6 +267,10 @@ Success: Ийгилик
 Support: Колдоо
 Support the developer: Иштеп чыгуучуну колдоо
 Target Field: Максаттуу талаа
+Telnet command:: Telnet буйругу:
+Telnet Commander: Telnet Commander
+Telnet Console: Telnet консолу
+Telnet not configured. Please set it in Settings.: Telnet конфигурацияланган эмес. Сураныч, аны Жөндөөлөрдөн орнотуңуз.
 Thanks to: рахмат
 Theme picker: Тема тандагыч
 Theme picker – accessible via Tools menu on main toolbar.: Тема тандоочу – негизги куралдар панелиндеги Куралдар менюсу аркылуу жеткиликтүү.

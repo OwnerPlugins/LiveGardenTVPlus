@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Даступная новая версія. Вы хочаце абнавіць зараз?
 Access via 'Edit Playlist' button on main toolbar.: Доступ праз кнопку "Рэдагаваць спіс прайгравання" на галоўнай панэлі інструментаў.
 Actions: Дзеянні
+Add Command: Дадаць каманду
 Add Group: Дадаць групу
 Add Mapping: Дадаць адлюстраванне
 Adjust buffer size (1-10 seconds): Адрэгулюйце памер буфера (1-10 секунд)
@@ -29,8 +30,11 @@ Advanced IDs: Пашыраныя ідэнтыфікатары
 Application status: Статус заяўкі
 Apply changes: Прымяніць змены
 Apply Filters: Ужыць фільтры
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Вы ўпэўнены, што хочаце перазагрузіць графічны інтэрфейс Enigma2?\n\nІнтэрфейс перазапусціцца (чорны экран на некалькі секунд).
 Auto-detect: Аўтаматычнае вызначэнне
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Аўтаматычная праверка пры запуску або націсніце "Праверыць наяўнасць абнаўленняў" у меню "Інструменты".
+Bouquet Name: Назва букета
+Bouquet sent and Enigma2 channel list reloaded.: Букет адпраўлены і спіс каналаў Enigma2 перазагружаны.
 Buffer (seconds): Буфер (секунды)
 Buffer size – adjust HLS buffer seconds.: Памер буфера - рэгуляванне секунд буфера HLS.
 Cache: Кэш
@@ -51,7 +55,11 @@ Clear Filters: Ачысціць фільтры
 Clear search: Выразны пошук
 Click for details: Націсніце, каб даведацца падрабязнасці
 Close: Блізка
+Command name:: Назва каманды:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Супольнасць і тэставанне: CorvoBoys (corvoboys.org) і LinuxSat-Support.com
+Confirm Reload: Пацвердзіце перазагрузку
+Connect: Злучыцца
+Connected: Падключана
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Краіна
 Credits: Крэдыты
@@ -60,6 +68,8 @@ Description: Апісанне
 Details: Дэталі
 Developed by Lululla: Распрацавана Lululla
 Developer: Lululla: Распрацоўшчык: Lululla
+Disconnect: Адключыцца
+Disconnected: Адключана
 Do you want to load this edited playlist now?: Загрузіць гэты адрэдагаваны спіс прайгравання зараз?
 Double speed (2x): Падвойная хуткасць (2x)
 Downloading playlist...: Спампоўка плэйліста...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Спамп�
 Drag & drop – drop M3U or JSON files directly onto main window.: Drag & drop - перанясіце файлы M3U або JSON непасрэдна ў галоўнае акно.
 Drag to seek back in buffer: Перацягніце, каб перайсці назад у буфер
 Duplicate URLs found:\n\n: Знойдзены дублікаты URL:\n\n
+Edit Command: Каманда рэдагавання
+Edit command name:: Рэдагаваць назву каманды:
 Edit Playlist: Рэдагаваць спіс прайгравання
+Edit telnet command:: Рэдагаваць каманду Telnet:
 Edit URLs: Рэдагаваць URL-адрасы
 End: Канец
 Enrich with EPG: Узбагаціць EPG
+Enter bouquet name (without spaces):: Увядзіце назву букета (без прабелаў):
 Enter JSON URL:: Увядзіце JSON URL:
 Enter playlist URL (M3U or JSON):: Увядзіце URL-адрас спісу прайгравання (M3U або JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Экспартаваць тол
 Extracting update...: Выманне абнаўлення...
 Failed to download playlist: Не ўдалося спампаваць плэйліст
 Failed to load playlist: Не ўдалося загрузіць плэйліст
+Failed to update bouquets.tv.: Не ўдалося абнавіць bouquets.tv.
+Failed to upload bouquet.: Не ўдалося загрузіць букет.
 Favorite: Любімая
 Favorites only: Толькі абранае
 Fetch Logos: Атрымаць лагатыпы
+File {0} already exists. Overwrite?: Файл {0} ужо існуе. Перазапісаць?
+File exists: Файл існуе
 Filters: Фільтры
 Fullscreen (hide UI) - press ESC to exit: Поўнаэкранны рэжым (схаваць інтэрфейс) - націсніце ESC, каб выйсці
 Geo & Country: Геаграфія і краіна
@@ -183,6 +201,7 @@ No favorite channels to export.: Няма выбраных каналаў для
 No playlist found: Плэйліст не знойдзены
 No updates available.: Няма даступных абнаўленняў.
 Normal speed (1x): Звычайная хуткасць (1x)
+Not connected to the box.: Не падлучаны да скрынкі.
 Now: зараз
 OK: добра
 Online Playlist: Онлайн плэйліст
@@ -212,6 +231,8 @@ Refresh EPG: Абнавіць EPG
 Refresh EPG List: Абнавіць спіс EPG
 Refresh from GitHub: Абнавіць з GitHub
 Refresh List: Абнавіць спіс
+Reload GUI: Перазагрузіце графічны інтэрфейс
+Remove Command: Выдаліць каманду
 Rename Group: Перайменаваць групу
 Repository: Сховішча
 Reset Order: Скінуць парадак
@@ -230,6 +251,9 @@ Search channels...: Шукаць каналы...
 Select a playlist first.: Спачатку абярыце спіс прайгравання.
 Select Theme: Выберыце Тэма
 Selected theme is saved and applied on restart.: Выбраная тэма захоўваецца і прымяняецца пры перазапуску.
+Send: Адправіць
+Send playlist to Enigma2 decoder: Адправіць спіс прайгравання ў дэкодэр Enigma2
+Send to Enigma2: Адправіць у Enigma2
 Settings: Налады
 Show List: Паказаць спіс
 Show only channels marked as favorites: Паказваць толькі каналы, пазначаныя як абраныя
@@ -243,6 +267,10 @@ Success: Поспех
 Support: Падтрымка
 Support the developer: Падтрымайце распрацоўшчыка
 Target Field: Мэтавае поле
+Telnet command:: Каманда Telnet:
+Telnet Commander: Telnet Commander
+Telnet Console: Telnet кансоль
+Telnet not configured. Please set it in Settings.: Telnet не настроены. Усталюйце гэта ў наладах.
 Thanks to: Дзякуючы
 Theme picker: Выбар тэмы
 Theme picker – accessible via Tools menu on main toolbar.: Выбар тэмы – даступны праз меню Інструменты на галоўнай панэлі інструментаў.

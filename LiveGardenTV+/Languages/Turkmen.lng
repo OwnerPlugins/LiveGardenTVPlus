@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Täze wersiýasy bar. Indi täzelenmek isleýärsiňizmi?
 Access via 'Edit Playlist' button on main toolbar.: Esasy gurallar panelindäki 'Pleýlisti redaktirlemek' düwmesine giriň.
 Actions: Hereketler
+Add Command: Buýruk goş
 Add Group: Topar goşuň
 Add Mapping: Kartalaşdyrmak goşuň
 Adjust buffer size (1-10 seconds): Bufer ölçegini sazlaň (1-10 sekunt)
@@ -29,8 +30,11 @@ Advanced IDs: Giňişleýin şahsyýetnamalar
 Application status: Arza ýagdaýy
 Apply changes: Üýtgeşmeleri ulanyň
 Apply Filters: Süzgüçleri ulanyň
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI-ni täzeden ýüklemek isleýändigiňize ynanýarsyňyzmy? \ N \ n Interfeýs täzeden başlar (birnäçe sekundyň dowamynda gara ekran).
 Auto-detect: Awto-kesgitlemek
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Başlangyjy awtomatiki barlamak - ýa-da Gurallar menýusynda 'Täzelenmeleri barlamak' düwmesine basyň.
+Bouquet Name: Buketiň ady
+Bouquet sent and Enigma2 channel list reloaded.: Buket iberildi we Enigma2 kanal sanawy täzeden ýüklendi.
 Buffer (seconds): Bufer (sekunt)
 Buffer size – adjust HLS buffer seconds.: Bufer ölçegi - HLS bufer sekuntlaryny sazlaň.
 Cache: Keş
@@ -51,7 +55,11 @@ Clear Filters: Süzgüçleri arassalaň
 Clear search: Gözleg arassala
 Click for details: Jikme-jiklikler üçin basyň
 Close: .Akyn
+Command name:: Buýruk ady:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Jemgyýet we synag: CorvoBoys (corvoboys.org) we LinuxSat-Support.com
+Confirm Reload: Eloüklemegi tassykla
+Connect: Birikdiriň
+Connected: Birikdirildi
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Countryurt
 Credits: Karzlar
@@ -60,6 +68,8 @@ Description: Düşündiriş
 Details: Jikme-jiklikler
 Developed by Lululla: Lululla tarapyndan işlenip düzüldi
 Developer: Lululla: Öndüriji: Lululla
+Disconnect: Aýyr
+Disconnected: Öçürildi
 Do you want to load this edited playlist now?: Bu redaktirlenen pleýist sanawyny indi ýüklemek isleýärsiňizmi?
 Double speed (2x): Iki gezek tizlik (2x)
 Downloading playlist...: Aýdym sanawyny göçürip almak ...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP ýükle
 Drag & drop – drop M3U or JSON files directly onto main window.: Süýräň we taşlaň - M3U ýa-da JSON faýllaryny göni penjire taşlaň.
 Drag to seek back in buffer: Buferde gözlemek üçin süýräň
 Duplicate URLs found:\n\n: Tapylan URL-ler: \ n \ n
+Edit Command: Buýrugy redaktirläň
+Edit command name:: Buýruk adyny redaktirläň:
 Edit Playlist: Sanaw sanawyny redaktirläň
+Edit telnet command:: Telnet buýrugyny redaktirläň:
 Edit URLs: URL-leri redaktirläň
 End: Ahyrzaman
 Enrich with EPG: EPG bilen baýlaşdyryň
+Enter bouquet name (without spaces):: Buketiň adyny giriziň (boş ýerler ýok):
 Enter JSON URL:: JSON URL giriziň:
 Enter playlist URL (M3U or JSON):: Aýdym sanawynyň URL-sini giriziň (M3U ýa-da JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Diňe halaýan kanallary täze 
 Extracting update...: Täzelenme çykarmak ...
 Failed to download playlist: Aýdym sanawyny göçürip alyp bilmedi
 Failed to load playlist: Aýdym sanawyny ýükläp bilmedi
+Failed to update bouquets.tv.: Bouquets.tv täzelenip bilmedi.
+Failed to upload bouquet.: Buket ýükläp bilmedi.
 Favorite: Halaýan
 Favorites only: Diňe halanýanlar
 Fetch Logos: Logotipleri al
+File {0} already exists. Overwrite?: {0} faýly eýýäm bar. Gaýtadan ýazmalymy?
+File exists: Faýl bar
 Filters: Süzgüçler
 Fullscreen (hide UI) - press ESC to exit: Doly ekran (UI gizläň) - çykmak üçin ESC basyň
 Geo & Country: Geo we ýurt
@@ -183,6 +201,7 @@ No favorite channels to export.: Eksport etmek üçin halanýan kanallar ýok.
 No playlist found: Aýdym sanawy tapylmady
 No updates available.: Täzelenmeler ýok.
 Normal speed (1x): Adaty tizlik (1x)
+Not connected to the box.: Guty bilen baglanyşykly däl.
 Now: Indi
 OK: Bolýar
 Online Playlist: Onlaýn sanaw sanawy
@@ -212,6 +231,8 @@ Refresh EPG: EPG-ni täzeläň
 Refresh EPG List: EPG sanawyny täzeläň
 Refresh from GitHub: GitHub-dan täzeläň
 Refresh List: Sanawy täzele
+Reload GUI: GUI ýükläň
+Remove Command: Buýrugy aýyryň
 Rename Group: Toparyň adyny üýtgetmek
 Repository: Ammar
 Reset Order: Sargydy täzeden düzmek
@@ -230,6 +251,9 @@ Search channels...: Gözleg kanallary ...
 Select a playlist first.: Ilki pleýlist saýlaň.
 Select Theme: Tema saýlaň
 Selected theme is saved and applied on restart.: Saýlanan tema ýazdyrylýar we täzeden başlamak üçin ulanylýar.
+Send: Iber
+Send playlist to Enigma2 decoder: “Enigma2” dekoderine pleýlist iberiň
+Send to Enigma2: Enigma2 iber
 Settings: Sazlamalar
 Show List: Sanawy görkez
 Show only channels marked as favorites: Diňe halanýanlar hökmünde bellenen kanallary görkeziň
@@ -243,6 +267,10 @@ Success: Üstünlik
 Support: Goldaw
 Support the developer: Öndürijini goldaň
 Target Field: Maksat meýdany
+Telnet command:: Telnet buýrugy:
+Telnet Commander: Telnet serkerdesi
+Telnet Console: Telnet konsoly
+Telnet not configured. Please set it in Settings.: Telnet düzülmedi. Sazlamalarda goýmagyňyzy haýyş edýäris.
 Thanks to: Sag boluň
 Theme picker: Tema saýlaýjy
 Theme picker – accessible via Tools menu on main toolbar.: Mowzuk saýlaýjy - esasy gurallar panelindäki Gurallar menýusy arkaly girip bolýar.

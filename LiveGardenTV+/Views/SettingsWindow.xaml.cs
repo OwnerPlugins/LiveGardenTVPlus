@@ -316,6 +316,13 @@ namespace LiveGardenTVPlus.Views
             Close();
         }
 
+        private void TelnetConfigBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var win = new TelnetConfigWindow();
+            win.Owner = this;
+            win.ShowDialog();
+        }
+
         private void CancelBtn_Click(object sender, RoutedEventArgs e)
         {
             DialogResult = false;

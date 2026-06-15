@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: ხელმისაწვდომია ახალი ვერსია. გსურთ განახლება ახლა?
 Access via 'Edit Playlist' button on main toolbar.: წვდომა მთავარ ინსტრუმენტთა პანელზე "რედაქტირება დასაკრავი სიის" ღილაკით.
 Actions: მოქმედებები
+Add Command: დაამატეთ ბრძანება
 Add Group: ჯგუფის დამატება
 Add Mapping: რუკების დამატება
 Adjust buffer size (1-10 seconds): ბუფერის ზომის კორექტირება (1-10 წამი)
@@ -29,8 +30,11 @@ Advanced IDs: გაფართოებული პირადობის �
 Application status: განაცხადის სტატუსი
 Apply changes: ცვლილებების გამოყენება
 Apply Filters: ფილტრების გამოყენება
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: დარწმუნებული ხართ, რომ გსურთ გადატვირთოთ Enigma2 GUI?\n\nინტერფეისი გადაიტვირთება (შავი ეკრანი რამდენიმე წამით).
 Auto-detect: ავტომატური ამოცნობა
 Automatic check on startup – or click 'Check for updates' in Tools menu.: ავტომატური შემოწმება გაშვებისას – ან დააწკაპუნეთ „განახლებების შემოწმება“ Tools მენიუში.
+Bouquet Name: თაიგულის სახელი
+Bouquet sent and Enigma2 channel list reloaded.: თაიგული გაიგზავნა და Enigma2 არხების სია ხელახლა ჩაიტვირთა.
 Buffer (seconds): ბუფერი (წამი)
 Buffer size – adjust HLS buffer seconds.: ბუფერის ზომა – HLS ბუფერული წამების კორექტირება.
 Cache: ქეში
@@ -51,7 +55,11 @@ Clear Filters: ფილტრების გასუფთავება
 Clear search: ძიების გასუფთავება
 Click for details: დააწკაპუნეთ დეტალებისთვის
 Close: დახურვა
+Command name:: ბრძანების სახელი:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: საზოგადოება და ტესტირება: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: დაადასტურეთ გადატვირთვა
+Connect: დაკავშირება
+Connected: დაკავშირებულია
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: ქვეყანა
 Credits: კრედიტები
@@ -60,6 +68,8 @@ Description: აღწერა
 Details: დეტალები
 Developed by Lululla: შემუშავებული Lululla-ს მიერ
 Developer: Lululla: შემქმნელი: Lululla
+Disconnect: გათიშვა
+Disconnected: გათიშულია
 Do you want to load this edited playlist now?: გსურთ ახლავე ჩატვირთოთ ეს რედაქტირებული დასაკრავი სია?
 Double speed (2x): ორმაგი სიჩქარე (2x)
 Downloading playlist...: მიმდინარეობს დასაკრავი სიის ჩამოტვირთვა...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: ჩამ�
 Drag & drop – drop M3U or JSON files directly onto main window.: გადაათრიეთ და ჩამოაგდეთ – ჩამოაგდეთ M3U ან JSON ფაილები პირდაპირ მთავარ ფანჯარაში.
 Drag to seek back in buffer: გადაიტანეთ ბუფერში უკან მოსაძებნად
 Duplicate URLs found:\n\n: ნაპოვნია დუბლიკატი URL:\n\n
+Edit Command: ბრძანების რედაქტირება
+Edit command name:: ბრძანების სახელის რედაქტირება:
 Edit Playlist: დასაკრავი სიის რედაქტირება
+Edit telnet command:: telnet ბრძანების რედაქტირება:
 Edit URLs: URL-ების რედაქტირება
 End: დასასრული
 Enrich with EPG: გამდიდრდით EPG-ით
+Enter bouquet name (without spaces):: შეიყვანეთ თაიგულის სახელი (სივრცის გარეშე):
 Enter JSON URL:: შეიყვანეთ JSON URL:
 Enter playlist URL (M3U or JSON):: შეიყვანეთ დასაკრავი სიის URL (M3U ან JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: მხოლოდ საყვ
 Extracting update...: მიმდინარეობს განახლების ამოღება...
 Failed to download playlist: დასაკრავი სიის ჩამოტვირთვა ვერ მოხერხდა
 Failed to load playlist: დასაკრავი სიის ჩატვირთვა ვერ მოხერხდა
+Failed to update bouquets.tv.: bouquets.tv ვერ განახლდა.
+Failed to upload bouquet.: თაიგულის ატვირთვა ვერ მოხერხდა.
 Favorite: საყვარელი
 Favorites only: მხოლოდ რჩეულები
 Fetch Logos: ლოგოს მოტანა
+File {0} already exists. Overwrite?: ფაილი {0} უკვე არსებობს. გადაწერა?
+File exists: ფაილი არსებობს
 Filters: ფილტრები
 Fullscreen (hide UI) - press ESC to exit: სრული ეკრანი (დამალე UI) - დააჭირეთ ESC გასასვლელად
 Geo & Country: გეო და ქვეყანა
@@ -183,6 +201,7 @@ No favorite channels to export.: არ არის საყვარელი
 No playlist found: დასაკრავი სია ვერ მოიძებნა
 No updates available.: განახლებები არ არის ხელმისაწვდომი.
 Normal speed (1x): ნორმალური სიჩქარე (1x)
+Not connected to the box.: არ არის დაკავშირებული ყუთთან.
 Now: ახლა
 OK: OK
 Online Playlist: ონლაინ დასაკრავი სია
@@ -212,6 +231,8 @@ Refresh EPG: განაახლეთ EPG
 Refresh EPG List: განაახლეთ EPG სია
 Refresh from GitHub: განახლება GitHub-დან
 Refresh List: სიის განახლება
+Reload GUI: გადატვირთეთ GUI
+Remove Command: ამოიღეთ ბრძანება
 Rename Group: ჯგუფის გადარქმევა
 Repository: საცავი
 Reset Order: შეკვეთის გადატვირთვა
@@ -230,6 +251,9 @@ Search channels...: არხების ძიება...
 Select a playlist first.: ჯერ აირჩიეთ დასაკრავი სია.
 Select Theme: აირჩიეთ თემა
 Selected theme is saved and applied on restart.: არჩეული თემა ინახება და გამოიყენება გადატვირთვისას.
+Send: გაგზავნა
+Send playlist to Enigma2 decoder: გააგზავნეთ დასაკრავი სია Enigma2 დეკოდერში
+Send to Enigma2: გაგზავნეთ Enigma2-ზე
 Settings: პარამეტრები
 Show List: სიის ჩვენება
 Show only channels marked as favorites: აჩვენეთ მხოლოდ ფავორიტად მონიშნული არხები
@@ -243,6 +267,10 @@ Success: წარმატებები
 Support: მხარდაჭერა
 Support the developer: მხარი დაუჭირეთ დეველოპერს
 Target Field: სამიზნე ველი
+Telnet command:: Telnet ბრძანება:
+Telnet Commander: ტელნეტის მეთაური
+Telnet Console: Telnet კონსოლი
+Telnet not configured. Please set it in Settings.: Telnet არ არის კონფიგურირებული. გთხოვთ, დააყენოთ ის პარამეტრებში.
 Thanks to: მადლობა
 Theme picker: თემის ამომრჩევი
 Theme picker – accessible via Tools menu on main toolbar.: თემის ამომრჩევი – ხელმისაწვდომია ინსტრუმენტების მენიუდან მთავარ პანელზე.

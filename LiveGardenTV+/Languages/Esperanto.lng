@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Nova versio disponeblas. Ĉu vi volas ĝisdatigi nun?
 Access via 'Edit Playlist' button on main toolbar.: Aliro per la butono 'Redakti Ludliston' sur la ĉefa ilobreto.
 Actions: Agoj
+Add Command: Aldonu Komandon
 Add Group: Aldoni Grupon
 Add Mapping: Aldonu Mapadon
 Adjust buffer size (1-10 seconds): Alĝustigu bufran grandecon (1-10 sekundoj)
@@ -29,8 +30,11 @@ Advanced IDs: Altnivelaj identigiloj
 Application status: Aplika stato
 Apply changes: Apliki ŝanĝojn
 Apply Filters: Apliki Filtrilojn
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ĉu vi certas, ke vi volas reŝargi la Enigma2 GUI?\n\nLa interfaco rekomencos (nigra ekrano dum kelkaj sekundoj).
 Auto-detect: Aŭtomate detekti
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Aŭtomata kontrolo ĉe ekfunkciigo – aŭ alklaku 'Kontrolu ĝisdatigojn' en la menuo Iloj.
+Bouquet Name: Bukeda Nomo
+Bouquet sent and Enigma2 channel list reloaded.: Bukedo sendita kaj Enigma2 kanallisto reŝargita.
 Buffer (seconds): Bufro (sekundoj)
 Buffer size – adjust HLS buffer seconds.: Bufrgrandeco - ĝustigu HLS-bufrsekundojn.
 Cache: Deponejo
@@ -51,7 +55,11 @@ Clear Filters: Forigi Filtrilojn
 Clear search: Klara serĉo
 Click for details: Klaku por detaloj
 Close: Fermu
+Command name:: Komanda nomo:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunumo & testado: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Konfirmu Reŝargi
+Connect: Konekti
+Connected: Konektita
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Lando
 Credits: Kreditoj
@@ -60,6 +68,8 @@ Description: Priskribo
 Details: Detaloj
 Developed by Lululla: Evoluigite fare de Lululla
 Developer: Lululla: Ellaboranto: Lululla
+Disconnect: Malkonekti
+Disconnected: Malkonektita
 Do you want to load this edited playlist now?: Ĉu vi volas ŝargi ĉi tiun redaktitan ludliston nun?
 Double speed (2x): Duobla rapido (2x)
 Downloading playlist...: Elŝutante ludliston...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Elŝutas ZI
 Drag & drop – drop M3U or JSON files directly onto main window.: Trenu kaj faligi - faligi M3U aŭ JSON-dosierojn rekte sur la ĉefan fenestron.
 Drag to seek back in buffer: Trenu por serĉi reen en bufro
 Duplicate URLs found:\n\n: Duoblaj URL-oj trovitaj:\n\n
+Edit Command: Redakti Komandon
+Edit command name:: Redakti komandan nomon:
 Edit Playlist: Redaktu Ludliston
+Edit telnet command:: Redakti telnet-komandon:
 Edit URLs: Redaktu URL-ojn
 End: Fino
 Enrich with EPG: Riĉigu per EPG
+Enter bouquet name (without spaces):: Enigu bukednomon (sen spacoj):
 Enter JSON URL:: Enigu JSON-URL:
 Enter playlist URL (M3U or JSON):: Enigu la URL-listo (M3U aŭ JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Eksportu nur plej ŝatatajn kan
 Extracting update...: Eltiranta ĝisdatigon...
 Failed to download playlist: Malsukcesis elŝuti ludliston
 Failed to load playlist: Malsukcesis ŝargi ludliston
+Failed to update bouquets.tv.: Malsukcesis ĝisdatigi bouquets.tv.
+Failed to upload bouquet.: Malsukcesis alŝuti bukedon.
 Favorite: Plej ŝatata
 Favorites only: Plej ŝatataj nur
 Fetch Logos: Prenu Logos
+File {0} already exists. Overwrite?: Dosiero {0} jam ekzistas. Ĉu anstataŭigi?
+File exists: Dosiero ekzistas
 Filters: Filtriloj
 Fullscreen (hide UI) - press ESC to exit: Plenekrano (kaŝi UI) - premu ESC por eliri
 Geo & Country: Geo & Lando
@@ -183,6 +201,7 @@ No favorite channels to export.: Neniuj plej ŝatataj kanaloj por eksporti.
 No playlist found: Neniu ludlisto trovita
 No updates available.: Neniuj ĝisdatigoj haveblaj.
 Normal speed (1x): Normala rapido (1x)
+Not connected to the box.: Ne konektita al la skatolo.
 Now: Nun
 OK: Bone
 Online Playlist: Enreta Ludlisto
@@ -212,6 +231,8 @@ Refresh EPG: Refreŝigu EPG
 Refresh EPG List: Refreŝigi EPG-Liston
 Refresh from GitHub: Refreŝigu de GitHub
 Refresh List: Refreŝigi Listo
+Reload GUI: Reŝargi GUI
+Remove Command: Forigi Komandon
 Rename Group: Alinomigi Grupon
 Repository: Deponejo
 Reset Order: Restarigi Ordon
@@ -230,6 +251,9 @@ Search channels...: Serĉu kanalojn...
 Select a playlist first.: Unue elektu ludliston.
 Select Theme: Elektu Temon
 Selected theme is saved and applied on restart.: Elektita temo estas konservita kaj aplikata ĉe rekomenco.
+Send: Sendu
+Send playlist to Enigma2 decoder: Sendu ludliston al Enigma2-malĉifrilo
+Send to Enigma2: Sendu al Enigma2
 Settings: Agordoj
 Show List: Montru Liston
 Show only channels marked as favorites: Montru nur kanalojn markitajn kiel plej ŝatatajn
@@ -243,6 +267,10 @@ Success: Sukceso
 Support: Subteno
 Support the developer: Subtenu la programiston
 Target Field: Cela Kampo
+Telnet command:: Komando Telnet:
+Telnet Commander: Telnet Komandanto
+Telnet Console: Telnet-konzolo
+Telnet not configured. Please set it in Settings.: Telnet ne agordita. Bonvolu agordi ĝin en Agordoj.
 Thanks to: Dankon al
 Theme picker: Temo-elektilo
 Theme picker – accessible via Tools menu on main toolbar.: Temo-elektilo - alirebla per Iloj-menuo sur ĉefa ilobreto.

@@ -96,6 +96,13 @@
                 </StackPanel>
             </Button>
 
+            <Button x:Name="SendToEnigmaBtn" Click="SendToEnigmaBtn_Click" ToolTip="Send playlist to Enigma2 decoder">
+                <StackPanel Orientation="Horizontal">
+                    <material:PackIcon Kind="TelevisionClassic" Width="20" Height="20" Margin="0,0,5,0"/>
+                    <TextBlock x:Name="SendToEnigmaText" Text="Send to Enigma2"/>
+                </StackPanel>
+            </Button>
+
             <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
             <Button x:Name="EpgBtn" Click="EpgBtn_Click" ToolTip="TV Guide (EPG)">
                 <StackPanel Orientation="Horizontal">
@@ -148,6 +155,16 @@
                             <StackPanel Orientation="Horizontal">
                                 <material:PackIcon Kind="HelpCircle" Width="20" Height="20" Margin="0,0,8,0" Foreground="{DynamicResource ForegroundBrush}"/>
                                 <TextBlock x:Name="PopupHelpText" Text="Help" Foreground="{DynamicResource ForegroundBrush}"/>
+                            </StackPanel>
+                        </Button>
+                        <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
+                        <Button x:Name="PopupTelnetConsoleBtn" Click="PopupTelnetConsoleBtn_Click" 
+                                Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" 
+                                BorderThickness="0" Background="Transparent" Margin="0" Padding="8,6" 
+                                HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">
+                            <StackPanel Orientation="Horizontal">
+                                <material:PackIcon Kind="Console" Width="20" Height="20" Margin="0,0,8,0" Foreground="{DynamicResource ForegroundBrush}"/>
+                                <TextBlock x:Name="PopupTelnetConsoleText" Text="Telnet Console" Foreground="{DynamicResource ForegroundBrush}"/>
                             </StackPanel>
                         </Button>
                         <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>

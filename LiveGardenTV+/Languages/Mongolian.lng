@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Шинэ хувилбар гарсан байна. Та одоо шинэчлэхийг хүсч байна уу?
 Access via 'Edit Playlist' button on main toolbar.: Үндсэн хэрэгслийн самбар дээрх 'Тоглуулах жагсаалтыг засах' товчоор хандана уу.
 Actions: Үйлдлүүд
+Add Command: Тушаал нэмэх
 Add Group: Бүлэг нэмэх
 Add Mapping: Газрын зураг нэмэх
 Adjust buffer size (1-10 seconds): Буферийн хэмжээг тохируулах (1-10 секунд)
@@ -29,8 +30,11 @@ Advanced IDs: Нарийвчилсан ID
 Application status: Өргөдлийн статус
 Apply changes: Өөрчлөлтийг хэрэгжүүлэх
 Apply Filters: Шүүлтүүр хэрэглэх
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Та Enigma2 GUI-г дахин ачаалахдаа итгэлтэй байна уу?\n\nИнтерфэйс дахин асах болно (хэдхэн секундын турш хар дэлгэц).
 Auto-detect: Автоматаар илрүүлэх
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Ачаалах үед автоматаар шалгах - эсвэл Tools цэсний "Шинэчлэлтүүдийг шалгах" дээр дарна уу.
+Bouquet Name: Bouquet нэр
+Bouquet sent and Enigma2 channel list reloaded.: Bouquet илгээж, Enigma2 сувгийн жагсаалтыг дахин ачааллаа.
 Buffer (seconds): Буфер (секунд)
 Buffer size – adjust HLS buffer seconds.: Буферийн хэмжээ – HLS буфер секундийг тохируулна уу.
 Cache: Кэш
@@ -51,7 +55,11 @@ Clear Filters: Шүүлтүүрийг арилгах
 Clear search: Хайлтыг арилгах
 Click for details: Дэлгэрэнгүйг дарж үзнэ үү
 Close: Хаах
+Command name:: Тушаалын нэр:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Нийгэмлэг ба туршилт: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Дахин ачаалахыг баталгаажуулна уу
+Connect: Холбох
+Connected: Холбогдсон
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Улс
 Credits: Зээл
@@ -60,6 +68,8 @@ Description: Тодорхойлолт
 Details: Дэлгэрэнгүй мэдээлэл
 Developed by Lululla: Лулулла боловсруулсан
 Developer: Lululla: Хөгжүүлэгч: Лулулла
+Disconnect: Салга
+Disconnected: Салгасан
 Do you want to load this edited playlist now?: Та энэ засварласан тоглуулах жагсаалтыг одоо ачаалмаар байна уу?
 Double speed (2x): Давхар хурд (2x)
 Downloading playlist...: Тоглуулах жагсаалтыг татаж байна...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP фай�
 Drag & drop – drop M3U or JSON files directly onto main window.: Чирэх, буулгах - M3U эсвэл JSON файлуудыг үндсэн цонх руу шууд буулгана.
 Drag to seek back in buffer: Буфер дотроос буцаж хайхын тулд чирнэ үү
 Duplicate URLs found:\n\n: Давхардсан URL олдсон:\n\n
+Edit Command: Засварлах тушаал
+Edit command name:: Командын нэрийг засах:
 Edit Playlist: Тоглуулах жагсаалтыг засах
+Edit telnet command:: Telnet командыг засах:
 Edit URLs: URL-уудыг засах
 End: Төгсгөл
 Enrich with EPG: EPG-ээр баяжуулна
+Enter bouquet name (without spaces):: Баглааны нэрийг оруулна уу (хоосон зайгүй):
 Enter JSON URL:: JSON URL-г оруулна уу:
 Enter playlist URL (M3U or JSON):: Тоглуулах жагсаалтын URL (M3U эсвэл JSON) оруулна уу:
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Зөвхөн дуртай су�
 Extracting update...: Шинэчлэлтийг задалж байна...
 Failed to download playlist: Тоглуулах жагсаалтыг татаж авч чадсангүй
 Failed to load playlist: Тоглуулах жагсаалтыг ачаалж чадсангүй
+Failed to update bouquets.tv.: bouquets.tv-г шинэчилж чадсангүй.
+Failed to upload bouquet.: Баглаа байршуулж чадсангүй.
 Favorite: Дуртай
 Favorites only: Зөвхөн дуртай
 Fetch Logos: Лого татах
+File {0} already exists. Overwrite?: {0} файл аль хэдийн байна. Дарж бичих үү?
+File exists: Файл байна
 Filters: Шүүлтүүр
 Fullscreen (hide UI) - press ESC to exit: Бүтэн дэлгэц (UI нуух) - гарахын тулд ESC товчийг дарна уу
 Geo & Country: Гео ба улс
@@ -183,6 +201,7 @@ No favorite channels to export.: Экспортлох дуртай суваг а
 No playlist found: Тоглуулах жагсаалт олдсонгүй
 No updates available.: Шинэчлэлт байхгүй.
 Normal speed (1x): Ердийн хурд (1x)
+Not connected to the box.: Хайрцагтай холбогдоогүй байна.
 Now: Одоо
 OK: OK
 Online Playlist: Онлайн тоглуулах жагсаалт
@@ -212,6 +231,8 @@ Refresh EPG: EPG-г сэргээх
 Refresh EPG List: EPG жагсаалтыг шинэчлэх
 Refresh from GitHub: GitHub-с сэргээнэ үү
 Refresh List: Жагсаалтыг шинэчлэх
+Reload GUI: GUI-г дахин ачаална уу
+Remove Command: Командыг устгах
 Rename Group: Бүлгийн нэрийг өөрчлөх
 Repository: Хадгалах газар
 Reset Order: Захиалгыг дахин тохируулах
@@ -230,6 +251,9 @@ Search channels...: Сувгууд хайх...
 Select a playlist first.: Эхлээд тоглуулах жагсаалтыг сонгоно уу.
 Select Theme: Сэдвийг сонгоно уу
 Selected theme is saved and applied on restart.: Сонгосон загвар хадгалагдаж, дахин эхлүүлэх үед хэрэгжинэ.
+Send: Илгээх
+Send playlist to Enigma2 decoder: Enigma2 декодер руу тоглуулах жагсаалтыг илгээнэ үү
+Send to Enigma2: Enigma2 руу илгээнэ үү
 Settings: Тохиргоо
 Show List: Жагсаалтыг харуулах
 Show only channels marked as favorites: Зөвхөн дуртай гэж тэмдэглэсэн сувгуудыг харуулах
@@ -243,6 +267,10 @@ Success: Амжилт
 Support: Дэмжлэг
 Support the developer: Хөгжүүлэгчийг дэмжинэ үү
 Target Field: Зорилтот талбар
+Telnet command:: Telnet тушаал:
+Telnet Commander: Telnet командлагч
+Telnet Console: Telnet консол
+Telnet not configured. Please set it in Settings.: Telnet тохируулагдаагүй байна. Үүнийг Тохиргоо хэсэгт тохируулна уу.
 Thanks to: -д баярлалаа
 Theme picker: Сэдэв сонгогч
 Theme picker – accessible via Tools menu on main toolbar.: Загвар сонгогч – үндсэн хэрэгслийн самбар дээрх Tools цэсээр дамжуулан хандах боломжтой.

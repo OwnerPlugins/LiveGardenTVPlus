@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Versi baharu tersedia. Adakah anda mahu mengemas kini sekarang?
 Access via 'Edit Playlist' button on main toolbar.: Akses melalui butang 'Edit Senarai Main' pada bar alat utama.
 Actions: Tindakan
+Add Command: Tambah Perintah
 Add Group: Tambah Kumpulan
 Add Mapping: Tambah Pemetaan
 Adjust buffer size (1-10 seconds): Laraskan saiz penimbal (1-10 saat)
@@ -29,8 +30,11 @@ Advanced IDs: ID lanjutan
 Application status: Status permohonan
 Apply changes: Gunakan perubahan
 Apply Filters: Gunakan Penapis
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Adakah anda pasti mahu memuatkan semula GUI Enigma2?\n\nAntara muka akan dimulakan semula (skrin hitam selama beberapa saat).
 Auto-detect: Auto-kesan
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Semakan automatik pada permulaan – atau klik 'Semak kemas kini' dalam menu Alat.
+Bouquet Name: Nama Bouquet
+Bouquet sent and Enigma2 channel list reloaded.: Bouquet dihantar dan senarai saluran Enigma2 dimuat semula.
 Buffer (seconds): Penampan (saat)
 Buffer size – adjust HLS buffer seconds.: Saiz penimbal – laraskan saat penimbal HLS.
 Cache: Cache
@@ -51,7 +55,11 @@ Clear Filters: Kosongkan Penapis
 Clear search: Kosongkan carian
 Click for details: Klik untuk butiran
 Close: tutup
+Command name:: Nama arahan:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komuniti & ujian: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Sahkan Muat Semula
+Connect: Sambung
+Connected: Bersambung
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Negara
 Credits: Kredit
@@ -60,6 +68,8 @@ Description: Penerangan
 Details: Butiran
 Developed by Lululla: Dibangunkan oleh Lululla
 Developer: Lululla: Pemaju: Lululla
+Disconnect: Putuskan sambungan
+Disconnected: Terputus sambungan
 Do you want to load this edited playlist now?: Adakah anda mahu memuatkan senarai main yang diedit ini sekarang?
 Double speed (2x): Kelajuan dua kali ganda (2x)
 Downloading playlist...: Memuat turun senarai main...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Muat turun 
 Drag & drop – drop M3U or JSON files directly onto main window.: Seret & lepas – lepaskan fail M3U atau JSON terus ke tetingkap utama.
 Drag to seek back in buffer: Seret untuk mencari kembali dalam penimbal
 Duplicate URLs found:\n\n: URL pendua ditemui:\n\n
+Edit Command: Edit Perintah
+Edit command name:: Edit nama arahan:
 Edit Playlist: Edit Senarai Main
+Edit telnet command:: Edit arahan telnet:
 Edit URLs: Edit URL
 End: tamat
 Enrich with EPG: Perkaya dengan EPG
+Enter bouquet name (without spaces):: Masukkan nama sejambak (tanpa ruang):
 Enter JSON URL:: Masukkan URL JSON:
 Enter playlist URL (M3U or JSON):: Masukkan URL senarai main (M3U atau JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Eksport hanya saluran kegemaran
 Extracting update...: Mengeluarkan kemas kini...
 Failed to download playlist: Gagal memuat turun senarai main
 Failed to load playlist: Gagal memuatkan senarai main
+Failed to update bouquets.tv.: Gagal mengemas kini bouquets.tv.
+Failed to upload bouquet.: Gagal memuat naik sejambak.
 Favorite: Kegemaran
 Favorites only: Kegemaran sahaja
 Fetch Logos: Ambil Logo
+File {0} already exists. Overwrite?: Fail {0} sudah wujud. Tulis ganti?
+File exists: Fail wujud
 Filters: Penapis
 Fullscreen (hide UI) - press ESC to exit: Skrin penuh (sembunyikan UI) - tekan ESC untuk keluar
 Geo & Country: Geo & Negara
@@ -183,6 +201,7 @@ No favorite channels to export.: Tiada saluran kegemaran untuk dieksport.
 No playlist found: Tiada senarai main ditemui
 No updates available.: Tiada kemas kini tersedia.
 Normal speed (1x): Kelajuan biasa (1x)
+Not connected to the box.: Tidak disambungkan ke kotak.
 Now: Sekarang
 OK: OK
 Online Playlist: Senarai Main Dalam Talian
@@ -212,6 +231,8 @@ Refresh EPG: Muat semula EPG
 Refresh EPG List: Muat semula Senarai EPG
 Refresh from GitHub: Muat semula daripada GitHub
 Refresh List: Muat semula Senarai
+Reload GUI: Muat semula GUI
+Remove Command: Keluarkan Perintah
 Rename Group: Namakan semula Kumpulan
 Repository: Repositori
 Reset Order: Tetapkan Semula Pesanan
@@ -230,6 +251,9 @@ Search channels...: Cari saluran...
 Select a playlist first.: Pilih senarai main dahulu.
 Select Theme: Pilih Tema
 Selected theme is saved and applied on restart.: Tema yang dipilih disimpan dan digunakan semasa dimulakan semula.
+Send: Hantar
+Send playlist to Enigma2 decoder: Hantar senarai main ke penyahkod Enigma2
+Send to Enigma2: Hantar ke Enigma2
 Settings: tetapan
 Show List: Tunjukkan Senarai
 Show only channels marked as favorites: Tunjukkan hanya saluran yang ditandakan sebagai kegemaran
@@ -243,6 +267,10 @@ Success: Kejayaan
 Support: Sokongan
 Support the developer: Sokong pemaju
 Target Field: Medan Sasaran
+Telnet command:: Perintah Telnet:
+Telnet Commander: Komander Telnet
+Telnet Console: Konsol Telnet
+Telnet not configured. Please set it in Settings.: Telnet tidak dikonfigurasikan. Sila tetapkan dalam Tetapan.
 Thanks to: Terima kasih kepada
 Theme picker: Pemilih tema
 Theme picker – accessible via Tools menu on main toolbar.: Pemilih tema – boleh diakses melalui menu Alat pada bar alat utama.

@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: නව අනුවාදයක් තිබේ. ඔබට දැන් යාවත්කාලීන කිරීමට අවශ්‍යද?
 Access via 'Edit Playlist' button on main toolbar.: ප්‍රධාන මෙවලම් තීරුවේ 'Edit Playlist' බොත්තම හරහා ප්‍රවේශ වන්න.
 Actions: ක්රියාවන්
+Add Command: විධානය එක් කරන්න
 Add Group: කණ්ඩායම එකතු කරන්න
 Add Mapping: සිතියම්කරණය එකතු කරන්න
 Adjust buffer size (1-10 seconds): බෆර ප්‍රමාණය සීරුමාරු කරන්න (තත්පර 1-10)
@@ -29,8 +30,11 @@ Advanced IDs: උසස් හැඳුනුම්පත්
 Application status: අයදුම්පත් තත්ත්වය
 Apply changes: වෙනස්කම් යොදන්න
 Apply Filters: පෙරහන් යොදන්න
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: ඔබට Enigma2 GUI නැවත පූරණය කිරීමට අවශ්‍ය බව විශ්වාසද?\n\nඅතුරු මුහුණත නැවත ආරම්භ වනු ඇත (තත්පර කිහිපයක් සඳහා කළු තිරය).
 Auto-detect: ස්වයං-අනාවරණය
 Automatic check on startup – or click 'Check for updates' in Tools menu.: ආරම්භයේදී ස්වයංක්‍රීයව පරීක්ෂා කරන්න - නැතහොත් මෙවලම් මෙනුවේ 'යාවත්කාලීන කිරීම් සඳහා පරීක්ෂා කරන්න' ක්ලික් කරන්න.
+Bouquet Name: මල් කළඹේ නම
+Bouquet sent and Enigma2 channel list reloaded.: මල් කළඹ යවා Enigma2 නාලිකා ලැයිස්තුව නැවත පූරණය කරන ලදී.
 Buffer (seconds): බෆරය (තත්පර)
 Buffer size – adjust HLS buffer seconds.: බෆර ප්‍රමාණය - HLS බෆර තත්පර සකසන්න.
 Cache: හැඹිලිය
@@ -51,7 +55,11 @@ Clear Filters: පෙරහන් හිස් කරන්න
 Clear search: සෙවීම පැහැදිලි කරන්න
 Click for details: විස්තර සඳහා ක්ලික් කරන්න
 Close: වසන්න
+Command name:: විධාන නාමය:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ප්‍රජා සහ පරීක්ෂණ: CorvoBoys (corvoboys.org) සහ LinuxSat-Support.com
+Confirm Reload: නැවත පූරණය තහවුරු කරන්න
+Connect: සම්බන්ධ කරන්න
+Connected: සම්බන්ධයි
 CORVOBOYS.ORG: CORVOYS.ORG
 Country: රට
 Credits: ණය
@@ -60,6 +68,8 @@ Description: විස්තරය
 Details: විස්තර
 Developed by Lululla: ලුලුල්ලා විසින් වැඩි දියුණු කරන ලදී
 Developer: Lululla: සංවර්ධක: ලුලුල්ලා
+Disconnect: විසන්ධි කරන්න
+Disconnected: විසන්ධි විය
 Do you want to load this edited playlist now?: ඔබට මෙම සංස්කරණය කළ ධාවන ලැයිස්තුව දැන් පූරණය කිරීමට අවශ්‍යද?
 Double speed (2x): ද්විත්ව වේගය (2x)
 Downloading playlist...: ධාවන ලැයිස්තුව බාගත කරමින්...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP බා�
 Drag & drop – drop M3U or JSON files directly onto main window.: ඇද දමන්න - M3U හෝ JSON ගොනු සෘජුවම ප්‍රධාන කවුළුව වෙතට දමන්න.
 Drag to seek back in buffer: බෆරයේ ආපසු සෙවීමට අදින්න
 Duplicate URLs found:\n\n: අනුපිටපත් URL හමු විය:\n\n
+Edit Command: විධානය සංස්කරණය කරන්න
+Edit command name:: විධාන නාමය සංස්කරණය කරන්න:
 Edit Playlist: ධාවන ලැයිස්තුව සංස්කරණය කරන්න
+Edit telnet command:: telnet විධානය සංස්කරණය කරන්න:
 Edit URLs: URL සංස්කරණය කරන්න
 End: අවසානය
 Enrich with EPG: EPG සමඟ පොහොසත් කරන්න
+Enter bouquet name (without spaces):: මල් කළඹේ නම ඇතුළත් කරන්න (හිස්තැන් නොමැතිව):
 Enter JSON URL:: JSON URL ඇතුලත් කරන්න:
 Enter playlist URL (M3U or JSON):: ධාවන ලැයිස්තු URL ඇතුලත් කරන්න (M3U හෝ JSON):
 EPG: ඊ.පී.ජී
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: නව M3U ගොනුවක�
 Extracting update...: යාවත්කාලීනය උපුටා ගනිමින්...
 Failed to download playlist: ධාවන ලැයිස්තුව බාගැනීම අසාර්ථක විය
 Failed to load playlist: ධාවන ලැයිස්තුව පූරණය කිරීමට අසමත් විය
+Failed to update bouquets.tv.: bouquets.tv යාවත්කාලීන කිරීමට අසමත් විය.
+Failed to upload bouquet.: මල් කළඹ උඩුගත කිරීමට අසමත් විය.
 Favorite: ප්රියතම
 Favorites only: ප්‍රියතමයන් පමණි
 Fetch Logos: ලාංඡන ලබා ගන්න
+File {0} already exists. Overwrite?: {0} ගොනුව දැනටමත් පවතී. උඩින් ලියන්නද?
+File exists: ගොනුව පවතී
 Filters: පෙරහන්
 Fullscreen (hide UI) - press ESC to exit: සම්පූර්ණ තිරය (UI සඟවන්න) - පිටවීමට ESC ඔබන්න
 Geo & Country: භූ සහ රට
@@ -183,6 +201,7 @@ No favorite channels to export.: නිර්යාත කිරීමට ප්
 No playlist found: ධාවන ලැයිස්තුවක් හමු නොවීය
 No updates available.: යාවත්කාලීන නොමැත.
 Normal speed (1x): සාමාන්‍ය වේගය (1x)
+Not connected to the box.: කොටුවට සම්බන්ධ නොවේ.
 Now: දැන්
 OK: හරි
 Online Playlist: සබැඳි ධාවන ලැයිස්තුව
@@ -212,6 +231,8 @@ Refresh EPG: EPG නැවුම් කරන්න
 Refresh EPG List: EPG ලැයිස්තුව නැවුම් කරන්න
 Refresh from GitHub: GitHub වෙතින් නැවුම් කරන්න
 Refresh List: ලැයිස්තුව නැවුම් කරන්න
+Reload GUI: GUI නැවත පූරණය කරන්න
+Remove Command: විධානය ඉවත් කරන්න
 Rename Group: සමූහය නැවත නම් කරන්න
 Repository: ගබඩාව
 Reset Order: ඇණවුම නැවත සකසන්න
@@ -230,6 +251,9 @@ Search channels...: නාලිකා සොයන්න...
 Select a playlist first.: පළමුව ධාවන ලැයිස්තුවක් තෝරන්න.
 Select Theme: තේමාව තෝරන්න
 Selected theme is saved and applied on restart.: තෝරාගත් තේමාව සුරකින අතර නැවත ආරම්භ කිරීමේදී යොදනු ලැබේ.
+Send: යවන්න
+Send playlist to Enigma2 decoder: ධාවන ලැයිස්තුව Enigma2 විකේතකය වෙත යවන්න
+Send to Enigma2: Enigma2 වෙත යවන්න
 Settings: සැකසීම්
 Show List: ලැයිස්තුව පෙන්වන්න
 Show only channels marked as favorites: ප්‍රියතමයන් ලෙස සලකුණු කර ඇති නාලිකා පමණක් පෙන්වන්න
@@ -243,6 +267,10 @@ Success: සාර්ථකත්වය
 Support: සහාය
 Support the developer: සංවර්ධකයාට සහාය වන්න
 Target Field: ඉලක්ක ක්ෂේත්රය
+Telnet command:: Telnet විධානය:
+Telnet Commander: ටෙල්නෙට් කමාන්ඩර්
+Telnet Console: ටෙල්නෙට් කොන්සෝලය
+Telnet not configured. Please set it in Settings.: Telnet වින්‍යාස කර නැත. කරුණාකර එය සැකසීම් තුළ සකසන්න.
 Thanks to: ස්තුතියි
 Theme picker: තේමා තේරීම
 Theme picker – accessible via Tools menu on main toolbar.: තේමා පිකර් - ප්‍රධාන මෙවලම් තීරුවේ ඇති මෙවලම් මෙනුව හරහා ප්‍රවේශ විය හැක.

@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Toleo jipya linapatikana. Je, ungependa kusasisha sasa?
 Access via 'Edit Playlist' button on main toolbar.: Fikia kupitia kitufe cha 'Hariri Orodha ya kucheza' kwenye upau wa vidhibiti kuu.
 Actions: Vitendo
+Add Command: Ongeza Amri
 Add Group: Ongeza Kikundi
 Add Mapping: Ongeza Ramani
 Adjust buffer size (1-10 seconds): Rekebisha ukubwa wa bafa (sekunde 1-10)
@@ -29,8 +30,11 @@ Advanced IDs: Vitambulisho vya hali ya juu
 Application status: Hali ya maombi
 Apply changes: Tekeleza mabadiliko
 Apply Filters: Weka Vichujio
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Je, una uhakika unataka kupakia upya Enigma2 GUI?\n\nKiolesura kitaanza upya (skrini nyeusi kwa sekunde chache).
 Auto-detect: Gundua kiotomatiki
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Angalia kiotomatiki unapoanzisha - au ubofye 'Angalia masasisho' kwenye menyu ya Zana.
+Bouquet Name: Jina la Bouquet
+Bouquet sent and Enigma2 channel list reloaded.: Bouquet iliyotumwa na orodha ya kituo cha Enigma2 imepakiwa upya.
 Buffer (seconds): Bafa (sekunde)
 Buffer size – adjust HLS buffer seconds.: Ukubwa wa bafa - rekebisha sekunde za HLS.
 Cache: Akiba
@@ -51,7 +55,11 @@ Clear Filters: Futa Vichujio
 Clear search: Futa utafutaji
 Click for details: Bofya kwa maelezo
 Close: Funga
+Command name:: Jina la amri:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Jumuiya na majaribio: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Thibitisha Pakia Upya
+Connect: Unganisha
+Connected: Imeunganishwa
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Nchi
 Credits: Mikopo
@@ -60,6 +68,8 @@ Description: Maelezo
 Details: Maelezo
 Developed by Lululla: Imeandaliwa na Lululla
 Developer: Lululla: Msanidi programu: Lululla
+Disconnect: Tenganisha
+Disconnected: Imetenganishwa
 Do you want to load this edited playlist now?: Je, ungependa kupakia orodha hii ya kucheza iliyohaririwa sasa?
 Double speed (2x): Kasi mara mbili (2x)
 Downloading playlist...: Inapakua orodha ya kucheza...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Inapakua ZI
 Drag & drop – drop M3U or JSON files directly onto main window.: Buruta na uangushe - dondosha faili za M3U au JSON moja kwa moja kwenye dirisha kuu.
 Drag to seek back in buffer: Buruta kutafuta nyuma katika bafa
 Duplicate URLs found:\n\n: Nakala za URL zimepatikana:\n\n
+Edit Command: Badilisha Amri
+Edit command name:: Hariri jina la amri:
 Edit Playlist: Hariri Orodha ya Kucheza
+Edit telnet command:: Hariri amri ya telnet:
 Edit URLs: Badilisha URL
 End: Mwisho
 Enrich with EPG: Kuboresha na EPG
+Enter bouquet name (without spaces):: Ingiza jina la shada (bila nafasi):
 Enter JSON URL:: Weka URL ya JSON:
 Enter playlist URL (M3U or JSON):: Weka URL ya orodha ya kucheza (M3U au JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Hamisha chaneli uzipendazo peke
 Extracting update...: Inatoa sasisho...
 Failed to download playlist: Imeshindwa kupakua orodha ya kucheza
 Failed to load playlist: Imeshindwa kupakia orodha ya kucheza
+Failed to update bouquets.tv.: Imeshindwa kusasisha bouquets.tv.
+Failed to upload bouquet.: Imeshindwa kupakia shada.
 Favorite: Kipendwa
 Favorites only: Vipendwa pekee
 Fetch Logos: Leta Nembo
+File {0} already exists. Overwrite?: Faili {0} tayari ipo. Ungependa kufuta?
+File exists: Faili ipo
 Filters: Vichujio
 Fullscreen (hide UI) - press ESC to exit: Skrini nzima (ficha UI) - bonyeza ESC ili kuondoka
 Geo & Country: Jiografia na Nchi
@@ -183,6 +201,7 @@ No favorite channels to export.: Hakuna vituo unavyovipenda vya kusafirisha.
 No playlist found: Hakuna orodha ya kucheza iliyopatikana
 No updates available.: Hakuna masasisho yanayopatikana.
 Normal speed (1x): Kasi ya kawaida (1x)
+Not connected to the box.: Haijaunganishwa kwenye kisanduku.
 Now: Sasa
 OK: Sawa
 Online Playlist: Orodha ya kucheza mtandaoni
@@ -212,6 +231,8 @@ Refresh EPG: Onyesha upya EPG
 Refresh EPG List: Onyesha upya Orodha ya EPG
 Refresh from GitHub: Onyesha upya kutoka GitHub
 Refresh List: Onyesha upya Orodha
+Reload GUI: Pakia upya GUI
+Remove Command: Ondoa Amri
 Rename Group: Badilisha Kikundi jina
 Repository: Hifadhi
 Reset Order: Weka upya Agizo
@@ -230,6 +251,9 @@ Search channels...: Tafuta vituo...
 Select a playlist first.: Chagua orodha ya kucheza kwanza.
 Select Theme: Chagua Mandhari
 Selected theme is saved and applied on restart.: Mandhari yaliyochaguliwa yanahifadhiwa na kutumika wakati wa kuwasha upya.
+Send: Tuma
+Send playlist to Enigma2 decoder: Tuma orodha ya kucheza kwa avkodare ya Enigma2
+Send to Enigma2: Tuma kwa Enigma2
 Settings: Mipangilio
 Show List: Onyesha Orodha
 Show only channels marked as favorites: Onyesha vituo vilivyotiwa alama kuwa vipendwa pekee
@@ -243,6 +267,10 @@ Success: Mafanikio
 Support: Msaada
 Support the developer: Saidia msanidi programu
 Target Field: Sehemu Lengwa
+Telnet command:: Amri ya Telnet:
+Telnet Commander: Kamanda wa Telnet
+Telnet Console: Console ya Telnet
+Telnet not configured. Please set it in Settings.: Telnet haijasanidiwa. Tafadhali iweke katika Mipangilio.
 Thanks to: Shukrani kwa
 Theme picker: Kiteua mada
 Theme picker – accessible via Tools menu on main toolbar.: Kiteua mandhari - kinapatikana kupitia menyu ya Zana kwenye upau wa vidhibiti kuu.

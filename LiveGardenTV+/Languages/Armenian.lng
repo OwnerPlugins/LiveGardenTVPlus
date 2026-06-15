@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Հասանելի է նոր տարբերակ։ Ցանկանու՞մ եք թարմացնել հիմա:
 Access via 'Edit Playlist' button on main toolbar.: Մուտք գործեք հիմնական գործիքագոտու «Խմբագրել երգացանկը» կոճակի միջոցով:
 Actions: Գործողություններ
+Add Command: Ավելացնել հրաման
 Add Group: Ավելացնել խումբ
 Add Mapping: Ավելացնել քարտեզագրում
 Adjust buffer size (1-10 seconds): Կարգավորել բուֆերի չափը (1-10 վայրկյան)
@@ -29,8 +30,11 @@ Advanced IDs: Ընդլայնված ID-ներ
 Application status: Դիմումի կարգավիճակը
 Apply changes: Կիրառել փոփոխությունները
 Apply Filters: Կիրառել զտիչներ
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Իսկապե՞ս ուզում եք վերաբեռնել Enigma2 GUI-ը:\n\nԻնտերֆեյսը կվերագործարկվի (սև էկրան մի քանի վայրկյանով):
 Auto-detect: Ավտոմատ հայտնաբերում
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Գործարկման ժամանակ ավտոմատ ստուգում կամ կտտացրեք «Ստուգեք թարմացումների համար» Գործիքների ցանկում:
+Bouquet Name: Ծաղկեփնջի անվանումը
+Bouquet sent and Enigma2 channel list reloaded.: Ծաղկեփունջն ուղարկվեց և Enigma2 ալիքների ցանկը վերաբեռնվեց:
 Buffer (seconds): Բուֆեր (վայրկյան)
 Buffer size – adjust HLS buffer seconds.: Բուֆերի չափը – կարգավորեք HLS բուֆերային վայրկյանները:
 Cache: Քեշ
@@ -51,7 +55,11 @@ Clear Filters: Մաքրել զտիչները
 Clear search: Մաքրել որոնումը
 Click for details: Սեղմեք մանրամասների համար
 Close: Փակել
+Command name:: Հրամանի անունը.
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Համայնք և փորձարկում՝ CorvoBoys (corvoboys.org) և LinuxSat-Support.com
+Confirm Reload: Հաստատեք վերաբեռնումը
+Connect: Միացնել
+Connected: Միացված է
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Երկիր
 Credits: Վարկեր
@@ -60,6 +68,8 @@ Description: Նկարագրություն
 Details: Մանրամասներ
 Developed by Lululla: Մշակված է Lululla-ի կողմից
 Developer: Lululla: Մշակողը ՝ Lululla
+Disconnect: Անջատել
+Disconnected: Անջատված է
 Do you want to load this edited playlist now?: Ցանկանու՞մ եք բեռնել այս խմբագրված երգացանկը հիմա:
 Double speed (2x): Կրկնակի արագություն (2x)
 Downloading playlist...: Երգացանկի ներբեռնում...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Ներբե�
 Drag & drop – drop M3U or JSON files directly onto main window.: Քաշեք և թողեք – թողեք M3U կամ JSON ֆայլերը անմիջապես հիմնական պատուհանի վրա:
 Drag to seek back in buffer: Քաշեք՝ բուֆերում հետ որոնելու համար
 Duplicate URLs found:\n\n: Գտնվել են կրկնօրինակ URL-ներ.\n\n
+Edit Command: Խմբագրել հրամանը
+Edit command name:: Խմբագրել հրամանի անունը.
 Edit Playlist: Խմբագրել երգացանկը
+Edit telnet command:: Խմբագրել telnet հրամանը.
 Edit URLs: Խմբագրել URL-ները
 End: Վերջ
 Enrich with EPG: Հարստացրեք EPG-ով
+Enter bouquet name (without spaces):: Մուտքագրեք ծաղկեփնջի անունը (առանց բացատների).
 Enter JSON URL:: Մուտքագրեք JSON URL:
 Enter playlist URL (M3U or JSON):: Մուտքագրեք երգացանկի URL (M3U կամ JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Արտահանել միայն �
 Extracting update...: Թարմացումների արդյունահանում...
 Failed to download playlist: Չհաջողվեց ներբեռնել տեսացանկը
 Failed to load playlist: Չհաջողվեց բեռնել տեսացանկը
+Failed to update bouquets.tv.: Չհաջողվեց թարմացնել bouquets.tv-ն:
+Failed to upload bouquet.: Չհաջողվեց վերբեռնել ծաղկեփունջը:
 Favorite: Սիրված
 Favorites only: Միայն ընտրյալներ
 Fetch Logos: Բերել լոգոները
+File {0} already exists. Overwrite?: Ֆայլ {0} արդեն գոյություն ունի: Վերագրե՞լ
+File exists: Ֆայլը գոյություն ունի
 Filters: Զտիչներ
 Fullscreen (hide UI) - press ESC to exit: Ամբողջ էկրանով (թաքցնել UI) - սեղմեք ESC՝ դուրս գալու համար
 Geo & Country: Geo & Country
@@ -183,6 +201,7 @@ No favorite channels to export.: Արտահանման սիրված ալիքնե�
 No playlist found: Երգացանկ չի գտնվել
 No updates available.: Թարմացումներ չկան:
 Normal speed (1x): Նորմալ արագություն (1x)
+Not connected to the box.: Միացված չէ տուփին:
 Now: Հիմա
 OK: Լավ
 Online Playlist: Առցանց երգացանկ
@@ -212,6 +231,8 @@ Refresh EPG: Թարմացրեք EPG-ն
 Refresh EPG List: Թարմացրեք EPG ցուցակը
 Refresh from GitHub: Թարմացրեք GitHub-ից
 Refresh List: Թարմացնել ցանկը
+Reload GUI: Վերբեռնել GUI-ը
+Remove Command: Հեռացնել հրամանը
 Rename Group: Վերանվանել խումբը
 Repository: Պահեստարան
 Reset Order: Վերականգնել Պատվերը
@@ -230,6 +251,9 @@ Search channels...: Որոնել ալիքներ...
 Select a playlist first.: Նախ ընտրեք երգացանկ:
 Select Theme: Ընտրեք թեմա
 Selected theme is saved and applied on restart.: Ընտրված թեման պահվում է և կիրառվում է վերագործարկման ժամանակ:
+Send: Ուղարկել
+Send playlist to Enigma2 decoder: Ուղարկեք երգացանկը Enigma2 ապակոդավորիչին
+Send to Enigma2: Ուղարկեք Enigma2-ին
 Settings: Կարգավորումներ
 Show List: Ցուցադրել ցուցակը
 Show only channels marked as favorites: Ցուցադրել միայն նախընտրած ալիքները
@@ -243,6 +267,10 @@ Success: Հաջողություն
 Support: Աջակցություն
 Support the developer: Աջակցեք մշակողին
 Target Field: Թիրախային դաշտ
+Telnet command:: Telnet հրաման.
+Telnet Commander: Telnet-ի հրամանատար
+Telnet Console: Telnet վահանակ
+Telnet not configured. Please set it in Settings.: Telnet-ը կազմաձևված չէ: Խնդրում ենք կարգավորել այն Կարգավորումներում:
 Thanks to: Շնորհիվ
 Theme picker: Թեմա ընտրող
 Theme picker – accessible via Tools menu on main toolbar.: Թեման ընտրող – հասանելի է Գործիքների ցանկի միջոցով հիմնական գործիքագոտում:

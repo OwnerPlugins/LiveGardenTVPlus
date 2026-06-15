@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Ir pieejama jauna versija. Vai vēlaties atjaunināt tagad?
 Access via 'Edit Playlist' button on main toolbar.: Piekļūstiet galvenajā rīkjoslā, izmantojot pogu Rediģēt atskaņošanas sarakstu.
 Actions: Darbības
+Add Command: Pievienot komandu
 Add Group: Pievienot grupu
 Add Mapping: Pievienot kartēšanu
 Adjust buffer size (1-10 seconds): Pielāgojiet bufera lielumu (1–10 sekundes)
@@ -29,8 +30,11 @@ Advanced IDs: Papildu ID
 Application status: Pieteikuma statuss
 Apply changes: Lietot izmaiņas
 Apply Filters: Lietot filtrus
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Vai tiešām vēlaties atkārtoti ielādēt Enigma2 GUI?\n\nSaskarne tiks restartēta (dažas sekundes būs melns ekrāns).
 Auto-detect: Automātiska noteikšana
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automātiska palaišanas pārbaude — vai izvēlnē Rīki noklikšķiniet uz 'Pārbaudīt atjauninājumus'.
+Bouquet Name: Pušķa nosaukums
+Bouquet sent and Enigma2 channel list reloaded.: Pušķis ir nosūtīts, un Enigma2 kanālu saraksts ir atkārtoti ielādēts.
 Buffer (seconds): Buferis (sekundēs)
 Buffer size – adjust HLS buffer seconds.: Bufera lielums — pielāgojiet HLS bufera sekundes.
 Cache: Kešatmiņa
@@ -51,7 +55,11 @@ Clear Filters: Notīrīt filtrus
 Clear search: Notīrīt meklēšanu
 Click for details: Noklikšķiniet, lai iegūtu sīkāku informāciju
 Close: Aizvērt
+Command name:: Komandas nosaukums:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Kopiena un testēšana: CorvoBoys (corvoboys.org) un LinuxSat-Support.com
+Confirm Reload: Apstipriniet atkārtotu ielādi
+Connect: Savienot
+Connected: Savienots
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Valsts
 Credits: Kredīti
@@ -60,6 +68,8 @@ Description: Apraksts
 Details: Sīkāka informācija
 Developed by Lululla: Izstrādāja Lululla
 Developer: Lululla: Izstrādātājs: Lululla
+Disconnect: Atvienot
+Disconnected: Atvienots
 Do you want to load this edited playlist now?: Vai vēlaties ielādēt šo rediģēto atskaņošanas sarakstu tūlīt?
 Double speed (2x): Divkāršs ātrums (2x)
 Downloading playlist...: Notiek atskaņošanas saraksta lejupielāde...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Lejupielād
 Drag & drop – drop M3U or JSON files directly onto main window.: Velciet un nometiet — nometiet M3U vai JSON failus tieši galvenajā logā.
 Drag to seek back in buffer: Velciet, lai atgrieztos buferī
 Duplicate URLs found:\n\n: Atrasti vietrāžu URL dublikāti:\n\n
+Edit Command: Rediģēt komandu
+Edit command name:: Rediģēt komandas nosaukumu:
 Edit Playlist: Rediģēt atskaņošanas sarakstu
+Edit telnet command:: Rediģēt telnet komandu:
 Edit URLs: Rediģēt URL
 End: Beigas
 Enrich with EPG: Bagātināt ar EPG
+Enter bouquet name (without spaces):: Ievadiet pušķa nosaukumu (bez atstarpēm):
 Enter JSON URL:: Ievadiet JSON URL:
 Enter playlist URL (M3U or JSON):: Ievadiet atskaņošanas saraksta URL (M3U vai JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Eksportējiet tikai iecienītā
 Extracting update...: Notiek atjauninājuma izvilkšana...
 Failed to download playlist: Neizdevās lejupielādēt atskaņošanas sarakstu
 Failed to load playlist: Neizdevās ielādēt atskaņošanas sarakstu
+Failed to update bouquets.tv.: Neizdevās atjaunināt bouquets.tv.
+Failed to upload bouquet.: Neizdevās augšupielādēt pušķi.
 Favorite: Mīļākais
 Favorites only: Tikai izlasei
 Fetch Logos: Ielādēt logotipus
+File {0} already exists. Overwrite?: Fails {0} jau pastāv. Vai pārrakstīt?
+File exists: Fails pastāv
 Filters: Filtri
 Fullscreen (hide UI) - press ESC to exit: Pilnekrāna režīms (slēpt lietotāja interfeisu) — nospiediet ESC, lai izietu
 Geo & Country: Geo & Country
@@ -183,6 +201,7 @@ No favorite channels to export.: Nav iecienītu kanālu, ko eksportēt.
 No playlist found: Nav atrasts neviens atskaņošanas saraksts
 No updates available.: Nav pieejami atjauninājumi.
 Normal speed (1x): Normāls ātrums (1x)
+Not connected to the box.: Nav savienots ar kasti.
 Now: Tagad
 OK: Labi
 Online Playlist: Tiešsaistes atskaņošanas saraksts
@@ -212,6 +231,8 @@ Refresh EPG: Atsvaidziniet EPG
 Refresh EPG List: Atsvaidziniet EPG sarakstu
 Refresh from GitHub: Atsvaidziniet no GitHub
 Refresh List: Atsvaidzināt sarakstu
+Reload GUI: Pārlādēt GUI
+Remove Command: Noņemt komandu
 Rename Group: Pārdēvēt grupu
 Repository: Repozitorijs
 Reset Order: Atiestatīt pasūtījumu
@@ -230,6 +251,9 @@ Search channels...: Meklēt kanālus...
 Select a playlist first.: Vispirms atlasiet atskaņošanas sarakstu.
 Select Theme: Izvēlieties Motīvu
 Selected theme is saved and applied on restart.: Atlasītais motīvs tiek saglabāts un lietots restartējot.
+Send: Sūtīt
+Send playlist to Enigma2 decoder: Nosūtiet atskaņošanas sarakstu uz Enigma2 dekodētāju
+Send to Enigma2: Nosūtiet uz Enigma2
 Settings: Iestatījumi
 Show List: Rādīt sarakstu
 Show only channels marked as favorites: Rādīt tikai kanālus, kas atzīmēti kā iecienītākie
@@ -243,6 +267,10 @@ Success: Panākumi
 Support: Atbalsts
 Support the developer: Atbalstiet izstrādātāju
 Target Field: Mērķa lauks
+Telnet command:: Telnet komanda:
+Telnet Commander: Telnet komandieris
+Telnet Console: Telnet konsole
+Telnet not configured. Please set it in Settings.: Telnet nav konfigurēts. Lūdzu, iestatiet to sadaļā Iestatījumi.
 Thanks to: Pateicoties
 Theme picker: Motīvu atlasītājs
 Theme picker – accessible via Tools menu on main toolbar.: Motīvu atlasītājs — pieejams galvenās rīkjoslas izvēlnē Rīki.

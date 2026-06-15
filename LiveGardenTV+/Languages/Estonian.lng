@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Saadaval on uus versioon. Kas soovite kohe värskendada?
 Access via 'Edit Playlist' button on main toolbar.: Juurdepääs peamise tööriistariba nupu „Muuda esitusloendit” kaudu.
 Actions: Tegevused
+Add Command: Lisa käsk
 Add Group: Lisa rühm
 Add Mapping: Lisa kaardistus
 Adjust buffer size (1-10 seconds): Puhvri suuruse reguleerimine (1–10 sekundit)
@@ -29,8 +30,11 @@ Advanced IDs: Täpsemad ID-d
 Application status: Rakenduse olek
 Apply changes: Rakenda muudatused
 Apply Filters: Rakenda filtreid
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Kas olete kindel, et soovite Enigma2 GUI uuesti laadida?\n\nLiides taaskäivitub (must ekraan mõneks sekundiks).
 Auto-detect: Automaatne tuvastamine
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automaatne kontrollimine käivitamisel – või klõpsake menüüs Tööriistad nuppu „Otsi värskendusi”.
+Bouquet Name: Kimbu nimi
+Bouquet sent and Enigma2 channel list reloaded.: Kimp saadetud ja Enigma2 kanalite loend laaditi uuesti.
 Buffer (seconds): Puhver (sekundites)
 Buffer size – adjust HLS buffer seconds.: Puhvri suurus – reguleerige HLS-i puhvri sekundeid.
 Cache: Vahemälu
@@ -51,7 +55,11 @@ Clear Filters: Tühjenda filtrid
 Clear search: Tühjenda otsing
 Click for details: Üksikasjade vaatamiseks klõpsake
 Close: Sule
+Command name:: Käsu nimi:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Kogukond ja testimine: CorvoBoys (corvoboys.org) ja LinuxSat-Support.com
+Confirm Reload: Kinnitage uuesti laadimine
+Connect: Ühendage
+Connected: Ühendatud
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Riik
 Credits: Krediidid
@@ -60,6 +68,8 @@ Description: Kirjeldus
 Details: Üksikasjad
 Developed by Lululla: Arendanud Lululla
 Developer: Lululla: Arendaja: Lululla
+Disconnect: Katkesta ühendus
+Disconnected: Ühendus katkestatud
 Do you want to load this edited playlist now?: Kas soovite selle muudetud esitusloendi kohe laadida?
 Double speed (2x): Topeltkiirus (2x)
 Downloading playlist...: Esitusloendi allalaadimine...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Laadib ZIP-
 Drag & drop – drop M3U or JSON files directly onto main window.: Drag & drop – kukutage M3U- või JSON-failid otse põhiaknasse.
 Drag to seek back in buffer: Puhvris tagasi otsimiseks lohistage
 Duplicate URLs found:\n\n: Leiti dubleerivad URL-id:\n\n
+Edit Command: Redigeeri käsku
+Edit command name:: Redigeeri käsu nime:
 Edit Playlist: Redigeeri esitusloendit
+Edit telnet command:: Redigeeri telneti käsku:
 Edit URLs: Muutke URL-e
 End: Lõpp
 Enrich with EPG: Rikastage EPG-ga
+Enter bouquet name (without spaces):: Sisestage kimbu nimi (ilma tühikuteta):
 Enter JSON URL:: Sisestage JSON-i URL:
 Enter playlist URL (M3U or JSON):: Sisestage esitusloendi URL (M3U või JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Eksportige uude M3U-faili ainul
 Extracting update...: Värskenduse ekstraktimine...
 Failed to download playlist: Esitusloendi allalaadimine ebaõnnestus
 Failed to load playlist: Esitusloendi laadimine ebaõnnestus
+Failed to update bouquets.tv.: Bouquets.tv värskendamine ebaõnnestus.
+Failed to upload bouquet.: Kimbu üleslaadimine ebaõnnestus.
 Favorite: Lemmik
 Favorites only: Ainult lemmikud
 Fetch Logos: Logode toomine
+File {0} already exists. Overwrite?: Fail {0} on juba olemas. Kas kirjutada üle?
+File exists: Fail on olemas
 Filters: Filtrid
 Fullscreen (hide UI) - press ESC to exit: Täisekraan (peida kasutajaliides) – väljumiseks vajutage ESC
 Geo & Country: Geo ja riik
@@ -183,6 +201,7 @@ No favorite channels to export.: Lemmikkanaleid pole eksportimiseks.
 No playlist found: Esitusloendit ei leitud
 No updates available.: Värskendusi pole saadaval.
 Normal speed (1x): Tavaline kiirus (1x)
+Not connected to the box.: Pole karbiga ühendatud.
 Now: Nüüd
 OK: OK
 Online Playlist: Online esitusloend
@@ -212,6 +231,8 @@ Refresh EPG: Värskenda EPG-d
 Refresh EPG List: Värskenda EPG-loendit
 Refresh from GitHub: Värskendage GitHubist
 Refresh List: Värskenda loendit
+Reload GUI: Laadige GUI uuesti
+Remove Command: Eemalda käsk
 Rename Group: Nimeta grupp ümber
 Repository: Hoidla
 Reset Order: Lähtesta tellimus
@@ -230,6 +251,9 @@ Search channels...: Otsi kanaleid...
 Select a playlist first.: Valige esmalt esitusloend.
 Select Theme: Valige Teema
 Selected theme is saved and applied on restart.: Valitud teema salvestatakse ja rakendatakse taaskäivitamisel.
+Send: Saada
+Send playlist to Enigma2 decoder: Saada esitusloend Enigma2 dekoodrisse
+Send to Enigma2: Saada Enigma2-le
 Settings: Seaded
 Show List: Näita loendit
 Show only channels marked as favorites: Kuva ainult lemmikuteks märgitud kanalid
@@ -243,6 +267,10 @@ Success: Edu
 Support: Toetus
 Support the developer: Toetage arendajat
 Target Field: Sihtväli
+Telnet command:: Telneti käsk:
+Telnet Commander: Telneti ülem
+Telnet Console: Telneti konsool
+Telnet not configured. Please set it in Settings.: Telnet pole konfigureeritud. Määrake see seadetes.
 Thanks to: Tänu sellele
 Theme picker: Teema valija
 Theme picker – accessible via Tools menu on main toolbar.: Teemavalija – pääseb juurde peamise tööriistariba menüüst Tööriistad.

@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: አዲስ ስሪት አለ። አሁን ማዘመን ይፈልጋሉ?
 Access via 'Edit Playlist' button on main toolbar.: በዋናው የመሳሪያ አሞሌ ላይ ባለው የ'አጫዋች ዝርዝር አርትዕ' በኩል ይድረሱ።
 Actions: ድርጊቶች
+Add Command: ትዕዛዝ ጨምር
 Add Group: ቡድን አክል
 Add Mapping: ካርታ ስራን ጨምር
 Adjust buffer size (1-10 seconds): የቋት መጠንን ያስተካክሉ (1-10 ሰከንድ)
@@ -29,8 +30,11 @@ Advanced IDs: የላቁ መታወቂያዎች
 Application status: የመተግበሪያ ሁኔታ
 Apply changes: ለውጦችን ይተግብሩ
 Apply Filters: ማጣሪያዎችን ተግብር
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: እርግጠኛ ነህ Enigma2 GUI ን እንደገና መጫን ትፈልጋለህ?\n\nበይነገጽ እንደገና ይጀምራል (ጥቁር ስክሪን ለጥቂት ሰከንዶች)።
 Auto-detect: በራስ-አግኝ
 Automatic check on startup – or click 'Check for updates' in Tools menu.: ጅምር ላይ ራስ-ሰር ፍተሻ - ወይም በመሳሪያዎች ምናሌ ውስጥ 'ዝማኔዎችን ፈልግ' የሚለውን ጠቅ ያድርጉ።
+Bouquet Name: የቡኬት ስም
+Bouquet sent and Enigma2 channel list reloaded.: Bouquet ተልኳል እና Enigma2 ቻናል ዝርዝር እንደገና ተጭኗል።
 Buffer (seconds): መያዣ (ሰከንዶች)
 Buffer size – adjust HLS buffer seconds.: የቋት መጠን - የ HLS ቋት ሰከንዶችን ያስተካክሉ።
 Cache: መሸጎጫ
@@ -51,7 +55,11 @@ Clear Filters: ማጣሪያዎችን አጽዳ
 Clear search: ፍለጋን አጽዳ
 Click for details: ለዝርዝሩ ጠቅ ያድርጉ
 Close: ገጠመ
+Command name:: የትእዛዝ ስም፡-
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ማህበረሰብ እና ሙከራ፡ CorvoBoys (corvoboys.org) እና LinuxSat-Support.com
+Confirm Reload: ዳግም መጫንን ያረጋግጡ
+Connect: ተገናኝ
+Connected: ተገናኝቷል።
 CORVOBOYS.ORG: ኮርቮቦይስ.ኦርጂ
 Country: ሀገር
 Credits: ምስጋናዎች
@@ -60,6 +68,8 @@ Description: መግለጫ
 Details: ዝርዝሮች
 Developed by Lululla: በሉሉላ የተገነባ
 Developer: Lululla: ገንቢ: Lululla
+Disconnect: ግንኙነት አቋርጥ
+Disconnected: ግንኙነት ተቋርጧል
 Do you want to load this edited playlist now?: ይህን የተስተካከለ አጫዋች ዝርዝር አሁን መጫን ይፈልጋሉ?
 Double speed (2x): ድርብ ፍጥነት (2x)
 Downloading playlist...: አጫዋች ዝርዝር በማውረድ ላይ...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: ዚፕን �
 Drag & drop – drop M3U or JSON files directly onto main window.: ጎትት እና ጣል - M3U ወይም JSON ፋይሎችን በቀጥታ ወደ ዋናው መስኮት ጣል።
 Drag to seek back in buffer: በቋት ውስጥ መልሶ ለመፈለግ ይጎትቱ
 Duplicate URLs found:\n\n: የተባዙ ዩአርኤሎች ተገኝተዋል፡\n\n
+Edit Command: ትዕዛዝ አርትዕ
+Edit command name:: የትዕዛዝ ስም አርትዕ
 Edit Playlist: አጫዋች ዝርዝር ያርትዑ
+Edit telnet command:: የቴሌኔት ትዕዛዙን ያርትዑ፡
 Edit URLs: URLs አርትዕ
 End: መጨረሻ
 Enrich with EPG: በ EPG ያበልጽጉ
+Enter bouquet name (without spaces):: የዕቅፍ አበባ ስም አስገባ (ያለ ክፍተቶች)
 Enter JSON URL:: JSON URL አስገባ፡
 Enter playlist URL (M3U or JSON):: አጫዋች ዝርዝር URL (M3U ወይም JSON) አስገባ፡
 EPG: ኢ.ፒ.ጂ
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: ተወዳጅ ሰርጦችን �
 Extracting update...: ዝማኔን በማውጣት ላይ...
 Failed to download playlist: አጫዋች ዝርዝርን ማውረድ አልተሳካም።
 Failed to load playlist: አጫዋች ዝርዝርን መጫን አልተሳካም።
+Failed to update bouquets.tv.: bouquets.tv ማዘመን አልተሳካም።
+Failed to upload bouquet.: እቅፍ አበባን መስቀል አልተሳካም።
 Favorite: ተወዳጅ
 Favorites only: ተወዳጆች ብቻ
 Fetch Logos: ሎጎዎችን አምጣ
+File {0} already exists. Overwrite?: ፋይል {0} አስቀድሞ አለ። ይፃፉ?
+File exists: ፋይል አለ።
 Filters: ማጣሪያዎች
 Fullscreen (hide UI) - press ESC to exit: ሙሉ ስክሪን (UI ደብቅ) - ለመውጣት ESC ን ይጫኑ
 Geo & Country: ጂኦ እና ሀገር
@@ -183,6 +201,7 @@ No favorite channels to export.: ወደ ውጭ የሚላኩ ተወዳጅ ቻና�
 No playlist found: ምንም አጫዋች ዝርዝር አልተገኘም።
 No updates available.: ምንም ዝመናዎች አይገኙም።
 Normal speed (1x): መደበኛ ፍጥነት (1x)
+Not connected to the box.: ከሳጥኑ ጋር አልተገናኘም።
 Now: አሁን
 OK: እሺ
 Online Playlist: የመስመር ላይ አጫዋች ዝርዝር
@@ -212,6 +231,8 @@ Refresh EPG: EPG አድስ
 Refresh EPG List: የ EPG ዝርዝርን አድስ
 Refresh from GitHub: ከGitHub አድስ
 Refresh List: ዝርዝር አድስ
+Reload GUI: GUI ን እንደገና ጫን
+Remove Command: ትዕዛዝ አስወግድ
 Rename Group: ቡድን እንደገና ይሰይሙ
 Repository: ማከማቻ
 Reset Order: ትዕዛዙን ዳግም አስጀምር
@@ -230,6 +251,9 @@ Search channels...: ቻናሎችን ፈልግ...
 Select a playlist first.: መጀመሪያ አጫዋች ዝርዝር ይምረጡ።
 Select Theme: ገጽታ ይምረጡ
 Selected theme is saved and applied on restart.: የተመረጠው ገጽታ ተቀምጧል እና እንደገና ሲጀመር ይተገበራል።
+Send: ላክ
+Send playlist to Enigma2 decoder: አጫዋች ዝርዝር ወደ Enigma2 ዲኮደር ይላኩ።
+Send to Enigma2: ወደ Enigma2 ላክ
 Settings: ቅንብሮች
 Show List: ዝርዝር አሳይ
 Show only channels marked as favorites: እንደ ተወዳጆች ምልክት የተደረገባቸውን ቻናሎች ብቻ አሳይ
@@ -243,6 +267,10 @@ Success: ስኬት
 Support: ድጋፍ
 Support the developer: ገንቢውን ይደግፉ
 Target Field: የዒላማ መስክ
+Telnet command:: የቴሌኔት ትዕዛዝ፡-
+Telnet Commander: ቴልኔት አዛዥ
+Telnet Console: ቴልኔት ኮንሶል
+Telnet not configured. Please set it in Settings.: ቴልኔት አልተዋቀረም። እባክዎ በቅንብሮች ውስጥ ያቀናብሩት።
 Thanks to: አመሰግናለሁ
 Theme picker: ጭብጥ መራጭ
 Theme picker – accessible via Tools menu on main toolbar.: ጭብጥ መራጭ - በዋናው የመሳሪያ አሞሌ ላይ በመሳሪያዎች ምናሌ በኩል ተደራሽ ነው።

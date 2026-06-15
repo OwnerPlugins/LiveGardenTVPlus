@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Na voljo je nova različica. Ali želite posodobiti zdaj?
 Access via 'Edit Playlist' button on main toolbar.: Dostop prek gumba 'Uredi seznam predvajanja' v glavni orodni vrstici.
 Actions: Dejanja
+Add Command: Dodaj ukaz
 Add Group: Dodaj skupino
 Add Mapping: Dodaj preslikavo
 Adjust buffer size (1-10 seconds): Prilagodite velikost medpomnilnika (1–10 sekund)
@@ -29,8 +30,11 @@ Advanced IDs: Napredni ID-ji
 Application status: Stanje aplikacije
 Apply changes: Uporabi spremembe
 Apply Filters: Uporabi filtre
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ali ste prepričani, da želite znova naložiti Enigma2 GUI?\n\nVmesnik se bo znova zagnal (črn zaslon za nekaj sekund).
 Auto-detect: Samodejno zaznaj
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Samodejno preverjanje ob zagonu – ali kliknite »Preveri posodobitve« v meniju Orodja.
+Bouquet Name: Ime šopka
+Bouquet sent and Enigma2 channel list reloaded.: Šopek poslan in seznam kanalov Enigma2 ponovno naložen.
 Buffer (seconds): Medpomnilnik (sekunde)
 Buffer size – adjust HLS buffer seconds.: Velikost medpomnilnika – prilagodite sekunde medpomnilnika HLS.
 Cache: Predpomnilnik
@@ -51,7 +55,11 @@ Clear Filters: Počisti filtre
 Clear search: Počisti iskanje
 Click for details: Kliknite za podrobnosti
 Close: Zapri
+Command name:: Ime ukaza:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Skupnost in testiranje: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Potrdite ponovno nalaganje
+Connect: Povežite se
+Connected: Povezan
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Država
 Credits: Krediti
@@ -60,6 +68,8 @@ Description: Opis
 Details: Podrobnosti
 Developed by Lululla: Razvil Lululla
 Developer: Lululla: Razvijalec: Lululla
+Disconnect: Prekini povezavo
+Disconnected: Prekinjena povezava
 Do you want to load this edited playlist now?: Ali želite zdaj naložiti ta urejeni seznam predvajanja?
 Double speed (2x): Dvojna hitrost (2x)
 Downloading playlist...: Prenašanje seznama predvajanja ...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Prenese ZIP
 Drag & drop – drop M3U or JSON files directly onto main window.: Povleci in spusti – datoteke M3U ali JSON spustite neposredno v glavno okno.
 Drag to seek back in buffer: Povlecite za iskanje nazaj v medpomnilniku
 Duplicate URLs found:\n\n: Najdeni podvojeni URL-ji:\n\n
+Edit Command: Uredi ukaz
+Edit command name:: Uredi ime ukaza:
 Edit Playlist: Uredi seznam predvajanja
+Edit telnet command:: Uredi ukaz telnet:
 Edit URLs: Uredite URL-je
 End: Konec
 Enrich with EPG: Obogatite z EPG
+Enter bouquet name (without spaces):: Vnesite ime šopka (brez presledkov):
 Enter JSON URL:: Vnesite JSON URL:
 Enter playlist URL (M3U or JSON):: Vnesite URL seznama predvajanja (M3U ali JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Izvozite samo priljubljene kana
 Extracting update...: Ekstrahiranje posodobitve ...
 Failed to download playlist: Prenos seznama predvajanja ni uspel
 Failed to load playlist: Seznama predvajanja ni bilo mogoče naložiti
+Failed to update bouquets.tv.: Posodobitev bouquets.tv ni uspela.
+Failed to upload bouquet.: Nalaganje šopka ni uspelo.
 Favorite: Najljubša
 Favorites only: Samo priljubljene
 Fetch Logos: Pridobi logotipe
+File {0} already exists. Overwrite?: Datoteka {0} že obstaja. Prepisati?
+File exists: Datoteka obstaja
 Filters: Filtri
 Fullscreen (hide UI) - press ESC to exit: Celozaslonski način (skrij uporabniški vmesnik) - pritisnite ESC za izhod
 Geo & Country: Geo in država
@@ -183,6 +201,7 @@ No favorite channels to export.: Ni priljubljenih kanalov za izvoz.
 No playlist found: Ni seznama predvajanja
 No updates available.: Na voljo ni nobenih posodobitev.
 Normal speed (1x): Normalna hitrost (1x)
+Not connected to the box.: Ni povezan s škatlo.
 Now: zdaj
 OK: OK
 Online Playlist: Spletni seznam predvajanja
@@ -212,6 +231,8 @@ Refresh EPG: Osveži EPG
 Refresh EPG List: Osveži seznam EPG
 Refresh from GitHub: Osveži iz GitHub
 Refresh List: Osveži seznam
+Reload GUI: Ponovno naloži GUI
+Remove Command: Odstrani ukaz
 Rename Group: Preimenuj skupino
 Repository: Repozitorij
 Reset Order: Ponastavi naročilo
@@ -230,6 +251,9 @@ Search channels...: Iskanje kanalov ...
 Select a playlist first.: Najprej izberite seznam predvajanja.
 Select Theme: Izberite Tema
 Selected theme is saved and applied on restart.: Izbrana tema se shrani in uporabi ob ponovnem zagonu.
+Send: Pošlji
+Send playlist to Enigma2 decoder: Pošlji seznam predvajanja v dekoder Enigma2
+Send to Enigma2: Pošlji na Enigmo2
 Settings: nastavitve
 Show List: Pokaži seznam
 Show only channels marked as favorites: Prikaži samo kanale, označene kot priljubljene
@@ -243,6 +267,10 @@ Success: Uspeh
 Support: Podpora
 Support the developer: Podprite razvijalca
 Target Field: Ciljno polje
+Telnet command:: Telnet ukaz:
+Telnet Commander: Telnet Commander
+Telnet Console: Konzola Telnet
+Telnet not configured. Please set it in Settings.: Telnet ni konfiguriran. Nastavite ga v nastavitvah.
 Thanks to: Hvala za
 Theme picker: Izbirnik tem
 Theme picker – accessible via Tools menu on main toolbar.: Izbirnik tem – dostopen prek menija Orodja v glavni orodni vrstici.

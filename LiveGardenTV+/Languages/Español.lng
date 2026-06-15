@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Hay una nueva versión disponible. ¿Quieres actualizar ahora?
 Access via 'Edit Playlist' button on main toolbar.: Acceda a través del botón 'Editar lista de reproducción' en la barra de herramientas principal.
 Actions: Comportamiento
+Add Command: Agregar comando
 Add Group: Agregar grupo
 Add Mapping: Agregar mapeo
 Adjust buffer size (1-10 seconds): Ajustar el tamaño del búfer (1-10 segundos)
@@ -29,8 +30,11 @@ Advanced IDs: ID avanzadas
 Application status: Estado de la solicitud
 Apply changes: Aplicar cambios
 Apply Filters: Aplicar filtros
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: ¿Está seguro de que desea recargar la GUI de Enigma2?\n\nLa interfaz se reiniciará (pantalla negra durante unos segundos).
 Auto-detect: Detección automática
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Comprobación automática al iniciar, o haga clic en 'Buscar actualizaciones' en el menú Herramientas.
+Bouquet Name: Nombre del ramo
+Bouquet sent and Enigma2 channel list reloaded.: Bouquet enviado y lista de canales de Enigma2 recargada.
 Buffer (seconds): Búfer (segundos)
 Buffer size – adjust HLS buffer seconds.: Tamaño del búfer: ajuste los segundos del búfer HLS.
 Cache: Cache
@@ -51,7 +55,11 @@ Clear Filters: Borrar filtros
 Clear search: Borrar búsqueda
 Click for details: Haga clic para obtener más detalles
 Close: Cerca
+Command name:: Nombre del comando:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Comunidad y pruebas: CorvoBoys (corvoboys.org) y LinuxSat-Support.com
+Confirm Reload: Confirmar recarga
+Connect: Conectar
+Connected: Conectado
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: País
 Credits: Créditos
@@ -60,6 +68,8 @@ Description: Descripción
 Details: Detalles
 Developed by Lululla: Desarrollado por Lululla
 Developer: Lululla: Desarrollador: Lululla
+Disconnect: Desconectar
+Disconnected: Desconectado
 Do you want to load this edited playlist now?: ¿Quieres cargar esta lista de reproducción editada ahora?
 Double speed (2x): Doble velocidad (2x)
 Downloading playlist...: Descargando lista de reproducción...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Descarga ZI
 Drag & drop – drop M3U or JSON files directly onto main window.: Arrastrar y soltar: suelte archivos M3U o JSON directamente en la ventana principal.
 Drag to seek back in buffer: Arrastre para buscar en el búfer
 Duplicate URLs found:\n\n: URL duplicadas encontradas:\n\n
+Edit Command: Editar comando
+Edit command name:: Editar nombre del comando:
 Edit Playlist: Editar lista de reproducción
+Edit telnet command:: Editar comando telnet:
 Edit URLs: Editar URL
 End: Fin
 Enrich with EPG: Enriquecer con EPG
+Enter bouquet name (without spaces):: Ingrese el nombre del ramo (sin espacios):
 Enter JSON URL:: Ingrese la URL JSON:
 Enter playlist URL (M3U or JSON):: Ingrese la URL de la lista de reproducción (M3U o JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Exporte solo los canales favori
 Extracting update...: Extrayendo actualización...
 Failed to download playlist: No se pudo descargar la lista de reproducción
 Failed to load playlist: No se pudo cargar la lista de reproducción
+Failed to update bouquets.tv.: No se pudo actualizar bouquets.tv.
+Failed to upload bouquet.: No se pudo cargar el ramo.
 Favorite: Favorito
 Favorites only: Sólo favoritos
 Fetch Logos: Buscar logotipos
+File {0} already exists. Overwrite?: El archivo {0} ya existe. ¿Exagerar?
+File exists: El archivo existe
 Filters: Filtros
 Fullscreen (hide UI) - press ESC to exit: Pantalla completa (ocultar UI): presione ESC para salir
 Geo & Country: Geo y país
@@ -183,6 +201,7 @@ No favorite channels to export.: No hay canales favoritos para exportar.
 No playlist found: No se encontró ninguna lista de reproducción
 No updates available.: No hay actualizaciones disponibles.
 Normal speed (1x): Velocidad normal (1x)
+Not connected to the box.: No conectado a la caja.
 Now: Ahora
 OK: DE ACUERDO
 Online Playlist: Lista de reproducción en línea
@@ -212,6 +231,8 @@ Refresh EPG: Actualizar EPG
 Refresh EPG List: Actualizar lista EPG
 Refresh from GitHub: Actualizar desde GitHub
 Refresh List: Actualizar lista
+Reload GUI: Recargar GUI
+Remove Command: Quitar comando
 Rename Group: Cambiar nombre de grupo
 Repository: Repositorio
 Reset Order: Restablecer orden
@@ -230,6 +251,9 @@ Search channels...: Buscar canales...
 Select a playlist first.: Seleccione una lista de reproducción primero.
 Select Theme: Seleccionar tema
 Selected theme is saved and applied on restart.: El tema seleccionado se guarda y se aplica al reiniciar.
+Send: Enviar
+Send playlist to Enigma2 decoder: Enviar lista de reproducción al decodificador Enigma2
+Send to Enigma2: Enviar a Enigma2
 Settings: Ajustes
 Show List: Mostrar lista
 Show only channels marked as favorites: Mostrar solo los canales marcados como favoritos
@@ -243,6 +267,10 @@ Success: Éxito
 Support: Apoyo
 Support the developer: Apoya al desarrollador
 Target Field: Campo objetivo
+Telnet command:: Comando Telnet:
+Telnet Commander: Comandante Telnet
+Telnet Console: Consola Telnet
+Telnet not configured. Please set it in Settings.: Telnet no configurado. Configúrelo en Configuración.
 Thanks to: Gracias a
 Theme picker: Selector de temas
 Theme picker – accessible via Tools menu on main toolbar.: Selector de temas: accesible a través del menú Herramientas en la barra de herramientas principal.

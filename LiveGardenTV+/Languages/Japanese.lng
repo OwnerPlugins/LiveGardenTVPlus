@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: 新しいバージョンが利用可能です。今すぐ更新しますか?
 Access via 'Edit Playlist' button on main toolbar.: メイン ツールバーの [プレイリストの編集] ボタンからアクセスします。
 Actions: アクション
+Add Command: コマンドの追加
 Add Group: グループの追加
 Add Mapping: マッピングの追加
 Adjust buffer size (1-10 seconds): バッファサイズを調整します (1 ～ 10 秒)
@@ -29,8 +30,11 @@ Advanced IDs: アドバンスト ID
 Application status: 申請状況
 Apply changes: 変更を適用する
 Apply Filters: フィルターを適用する
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI をリロードしてもよろしいですか?\n\nインターフェイスが再起動します (数秒間の黒い画面)。
 Auto-detect: 自動検出
 Automatic check on startup – or click 'Check for updates' in Tools menu.: 起動時の自動チェック – または、[ツール] メニューの [アップデートのチェック] をクリックします。
+Bouquet Name: 花束の名前
+Bouquet sent and Enigma2 channel list reloaded.: 花束が送信され、Enigma2 チャンネル リストがリロードされました。
 Buffer (seconds): バッファ (秒)
 Buffer size – adjust HLS buffer seconds.: バッファ サイズ – HLS バッファの秒数を調整します。
 Cache: キャッシュ
@@ -51,7 +55,11 @@ Clear Filters: フィルターをクリアする
 Clear search: 検索をクリア
 Click for details: クリックすると詳細が表示されます
 Close: 近い
+Command name:: コマンド名:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: コミュニティとテスト: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: リロードの確認
+Connect: 接続する
+Connected: 接続済み
 CORVOBOYS.ORG: コルボボーイズ.ORG
 Country: 国
 Credits: クレジット
@@ -60,6 +68,8 @@ Description: 説明
 Details: 詳細
 Developed by Lululla: ルルラが開発した
 Developer: Lululla: 開発者：ルルラ
+Disconnect: 切断する
+Disconnected: 切断されました
 Do you want to load this edited playlist now?: この編集したプレイリストを今すぐロードしますか?
 Double speed (2x): 倍速（2倍速）
 Downloading playlist...: プレイリストをダウンロード中...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP をダ�
 Drag & drop – drop M3U or JSON files directly onto main window.: ドラッグ アンド ドロップ – M3U または JSON ファイルをメイン ウィンドウに直接ドロップします。
 Drag to seek back in buffer: ドラッグしてバッファ内をシークバックします
 Duplicate URLs found:\n\n: 重複する URL が見つかりました:\n\n
+Edit Command: 編集コマンド
+Edit command name:: コマンド名を編集:
 Edit Playlist: プレイリストの編集
+Edit telnet command:: Telnet コマンドを編集します。
 Edit URLs: URLを編集する
 End: 終わり
 Enrich with EPG: EPG で充実させる
+Enter bouquet name (without spaces):: 花束の名前を入力してください (スペースは含まれません):
 Enter JSON URL:: JSON URL を入力してください:
 Enter playlist URL (M3U or JSON):: プレイリスト URL (M3U または JSON) を入力してください:
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: お気に入りのチャンネ�
 Extracting update...: アップデートを抽出しています...
 Failed to download playlist: プレイリストのダウンロードに失敗しました
 Failed to load playlist: プレイリストの読み込みに失敗しました
+Failed to update bouquets.tv.: 花束.tvの更新に失敗しました。
+Failed to upload bouquet.: 花束のアップロードに失敗しました。
 Favorite: お気に入り
 Favorites only: お気に入りのみ
 Fetch Logos: ロゴを取得する
+File {0} already exists. Overwrite?: ファイル {0} はすでに存在します。上書きしますか?
+File exists: ファイルが存在します
 Filters: フィルター
 Fullscreen (hide UI) - press ESC to exit: 全画面表示 (UI を非表示) - ESC キーを押して終了します
 Geo & Country: 地域と国
@@ -183,6 +201,7 @@ No favorite channels to export.: エクスポートするお気に入りのチ�
 No playlist found: プレイリストが見つかりません
 No updates available.: 利用可能なアップデートはありません。
 Normal speed (1x): 通常速度（1倍速）
+Not connected to the box.: ボックスに接続されていません。
 Now: 今
 OK: わかりました
 Online Playlist: オンラインプレイリスト
@@ -212,6 +231,8 @@ Refresh EPG: EPGを更新
 Refresh EPG List: EPG リストを更新
 Refresh from GitHub: GitHub から更新する
 Refresh List: リストを更新
+Reload GUI: GUIをリロードする
+Remove Command: 削除コマンド
 Rename Group: グループ名の変更
 Repository: リポジトリ
 Reset Order: 順序をリセットする
@@ -230,6 +251,9 @@ Search channels...: チャンネルを検索...
 Select a playlist first.: 最初にプレイリストを選択します。
 Select Theme: テーマの選択
 Selected theme is saved and applied on restart.: 選択したテーマは保存され、再起動時に適用されます。
+Send: 送信
+Send playlist to Enigma2 decoder: プレイリストを Enigma2 デコーダーに送信する
+Send to Enigma2: エニグマ2に送信
 Settings: 設定
 Show List: ショーリスト
 Show only channels marked as favorites: お気に入りとしてマークされたチャンネルのみを表示する
@@ -243,6 +267,10 @@ Success: 成功
 Support: サポート
 Support the developer: 開発者をサポートする
 Target Field: 対象分野
+Telnet command:: Telnet コマンド:
+Telnet Commander: Telnet コマンダー
+Telnet Console: Telnetコンソール
+Telnet not configured. Please set it in Settings.: Telnet が設定されていません。設定で設定してください。
 Thanks to: おかげで
 Theme picker: テーマピッカー
 Theme picker – accessible via Tools menu on main toolbar.: テーマ ピッカー – メイン ツールバーの [ツール] メニューからアクセスできます。

@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Guhertoyek nû heye. Ma hûn dixwazin niha nûve bikin?
 Access via 'Edit Playlist' button on main toolbar.: Gihîştina bişkojka 'Lîsteya Lîstika Biguherîne' ya li darika amûrê ya sereke.
 Actions: Actions
+Add Command: Ferman lê zêde bike
 Add Group: Komê lê zêde bike
 Add Mapping: Nexşeyê zêde bikin
 Adjust buffer size (1-10 seconds): Mezinahiya tamponê eyar bikin (1-10 çirke)
@@ -29,8 +30,11 @@ Advanced IDs: Nasnameyên pêşketî
 Application status: Rewşa serîlêdanê
 Apply changes: Guhertinan bicîh bikin
 Apply Filters: Parzûnan sepînin
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ma hûn pê bawer in ku hûn dixwazin GUI-ya Enigma2 ji nû ve bar bikin?\n\nNavber dê ji nû ve dest pê bike (ji bo çend saniyan ekrana reş).
 Auto-detect: Oto-teşhîs
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Di destpêkê de kontrolkirina otomatîkî - an jî di menuya Amûran de 'Ji bo nûvekirinan kontrol bikin' bikirtînin.
+Bouquet Name: Navê Bouquet
+Bouquet sent and Enigma2 channel list reloaded.: Bouquet şandin û navnîşa kanala Enigma2 ji nû ve hat barkirin.
 Buffer (seconds): Tampon (çirk)
 Buffer size – adjust HLS buffer seconds.: Mezinahiya tampon - HLS çirkeyên tampon eyar bikin.
 Cache: Cache
@@ -51,7 +55,11 @@ Clear Filters: Parzûnên Paqij bikin
 Clear search: Lêgerînê paqij bike
 Click for details: Ji bo hûragahiyan bikirtînin
 Close: Nêzîkî
+Command name:: Navê fermanê:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Civat û ceribandin: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Ji nûve barkirinê piştrast bikin
+Connect: Bihevgirêdan
+Connected: Girêdayî
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Welat
 Credits: Credits
@@ -60,6 +68,8 @@ Description: Terîf
 Details: Details
 Developed by Lululla: Ji hêla Lululla ve hatî pêşve xistin
 Developer: Lululla: Pêşvebir: Lululla
+Disconnect: Hevqetandin
+Disconnected: Veqetandin
 Do you want to load this edited playlist now?: Ma hûn dixwazin niha vê lîsteya lîstikê ya hatî guherandin bar bikin?
 Double speed (2x): Leza ducarî (2x)
 Downloading playlist...: Lîsteya lîstikê tê daxistin...
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP dadixe,
 Drag & drop – drop M3U or JSON files directly onto main window.: Kaş bikin û daxin - pelên M3U an JSON rasterast li ser pencereya sereke davêjin.
 Drag to seek back in buffer: Kaş bikin da ku li tamponê vegere
 Duplicate URLs found:\n\n: URLên dubare hatin dîtin:\n\n
+Edit Command: Fermana Biguherîne
+Edit command name:: Navê fermanê biguherîne:
 Edit Playlist: Lîsteya lîstikê biguherîne
+Edit telnet command:: Fermana telnet biguherîne:
 Edit URLs: URLan biguherînin
 End: Dawî
 Enrich with EPG: Bi EPG dewlemend bikin
+Enter bouquet name (without spaces):: Navê bûkê (bê valahî) binivîse:
 Enter JSON URL:: JSON URL binivîse:
 Enter playlist URL (M3U or JSON):: URL-ya lîsteya lîstikê binivîse (M3U an JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Tenê kanalên bijare ji pelek 
 Extracting update...: Derxistina nûvekirinê...
 Failed to download playlist: Daxistina lîsteya lîstikê bi ser neket
 Failed to load playlist: Barkirina lîsteya lîstikê bi ser neket
+Failed to update bouquets.tv.: Nûvekirina bouquets.tv bi ser neket.
+Failed to upload bouquet.: Barkirina bûkê bi ser neket.
 Favorite: Hezkirî
 Favorites only: Favorites tenê
 Fetch Logos: Logoyan bistînin
+File {0} already exists. Overwrite?: Pela {0} jixwe heye. Zêde binivîsin?
+File exists: Pelê heye
 Filters: Parzûnên
 Fullscreen (hide UI) - press ESC to exit: Fullscreen (UI veşêre) - ESC bikirtînin da ku derkevin
 Geo & Country: Erdnîgarî & Welat
@@ -183,6 +201,7 @@ No favorite channels to export.: Ji bo hinardekirinê kanalên bijare tune.
 No playlist found: Lîsteya lîstikê nehat dîtin
 No updates available.: Nûvekirin tune.
 Normal speed (1x): Leza normal (1x)
+Not connected to the box.: Ne girêdayî qutîkê ye.
 Now: Niha
 OK: OK
 Online Playlist: Lîsteya lîstikê ya serhêl
@@ -212,6 +231,8 @@ Refresh EPG: EPG nûve bikin
 Refresh EPG List: Lîsteya EPG-ê nûve bikin
 Refresh from GitHub: Ji GitHub nûve bikin
 Refresh List: Refresh List
+Reload GUI: GUI ji nû ve barkirin
+Remove Command: Ferman jêbirin
 Rename Group: Navê Komê Biguherîne
 Repository: Depo
 Reset Order: Reset Order
@@ -230,6 +251,9 @@ Search channels...: Li kanalan bigerin...
 Select a playlist first.: Pêşî lîsteya lîstikê hilbijêre.
 Select Theme: Mijar Hilbijêre
 Selected theme is saved and applied on restart.: Mijara hilbijartî tê hilanîn û di destpêkirina nû de tê sepandin.
+Send: Şandin
+Send playlist to Enigma2 decoder: Lîsteya lîstikê ji dekodera Enigma2 re bişînin
+Send to Enigma2: Ji Enigma2 re bişînin
 Settings: Settings
 Show List: Lîsteya nîşan bide
 Show only channels marked as favorites: Tenê kanalên ku wekî bijare hatine nîşankirin nîşan bidin
@@ -243,6 +267,10 @@ Success: Serketinî
 Support: Alîkarî
 Support the developer: Piştgiriya bipêşvebir
 Target Field: Target Field
+Telnet command:: Fermana Telnet:
+Telnet Commander: Fermandarê Telnet
+Telnet Console: Konsola Telnet
+Telnet not configured. Please set it in Settings.: Telnet nehate mîheng kirin. Ji kerema xwe wê di Mîhengan de bicîh bikin.
 Thanks to: Bi saya
 Theme picker: Hilbijêra mijarê
 Theme picker – accessible via Tools menu on main toolbar.: Hilbijêra mijarê - bi menuya Amûran a li darika amûrê ya sereke ve tê gihîştin.

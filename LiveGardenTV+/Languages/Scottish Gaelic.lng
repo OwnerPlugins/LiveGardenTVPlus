@@ -22,6 +22,7 @@
 A new version is available. Do you want to update now?: Tha dreach ùr ri fhaighinn. A bheil thu airson ùrachadh a-nis?
 Access via 'Edit Playlist' button on main toolbar.: Ruigsinneachd tro phutan 'Deasaich Liosta-cluiche' air a' phrìomh bhàr-inneal.
 Actions: Gnìomhan
+Add Command: Cuir Command ris
 Add Group: Cuir Buidheann ris
 Add Mapping: Cuir Mapadh ris
 Adjust buffer size (1-10 seconds): Atharraich meud bufair (1-10 diogan)
@@ -29,8 +30,11 @@ Advanced IDs: IDan adhartach
 Application status: Inbhe an tagraidh
 Apply changes: Cuir atharrachaidhean an sàs
 Apply Filters: Cuir a-steach sìoltachain
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: A bheil thu cinnteach gu bheil thu airson an Enigma2 GUI ath-luchdachadh?\n\nTòisichidh an eadar-aghaidh (sgrion dubh airson beagan dhiog).
 Auto-detect: Lorg gu fèin-obrachail
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Dèan sgrùdadh fèin-ghluasadach air tòiseachadh - no cliog air ‘Thoir sùil airson ùrachaidhean’ ann an clàr Innealan.
+Bouquet Name: Ainm Bouquet
+Bouquet sent and Enigma2 channel list reloaded.: Bouquet air a chuir agus liosta seanail Enigma2 air ath-luchdachadh.
 Buffer (seconds): Bufair (diogan)
 Buffer size – adjust HLS buffer seconds.: Meud bufair - atharraich diogan bufair HLS.
 Cache: Tasgadh
@@ -51,7 +55,11 @@ Clear Filters: Filters soilleir
 Clear search: Glan lorg
 Click for details: Cliog airson mion-fhiosrachadh
 Close: Dùin
+Command name:: Ainm an àithne:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Coimhearsnachd & deuchainn: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Confirm Reload: Dearbhaich an ath-luchdachadh
+Connect: Ceangail
+Connected: Ceangailte
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Dùthaich
 Credits: Creideasan
@@ -60,6 +68,8 @@ Description: Tuairisgeul
 Details: Mion-fhiosrachadh
 Developed by Lululla: Air a leasachadh le Lululla
 Developer: Lululla: Leasaiche: Lululla
+Disconnect: Disconnect
+Disconnected: Air a dhì-cheangal
 Do you want to load this edited playlist now?: A bheil thu airson an liosta-cluiche deasaichte seo a luchdachadh an-dràsta?
 Double speed (2x): Astar dùbailte (2x)
 Downloading playlist...: A luchdachadh a-nuas liosta-chluiche.. .
@@ -67,10 +77,14 @@ Downloads ZIP, replaces files, restarts app – settings preserved.: Luchdaich s
 Drag & drop – drop M3U or JSON files directly onto main window.: Slaod is leig às - leig às faidhlichean M3U no JSON gu dìreach air a’ phrìomh uinneag.
 Drag to seek back in buffer: Slaod gus a shireadh air ais ann am bufair
 Duplicate URLs found:\n\n: URLan dùblaichte air an lorg:\n\n
+Edit Command: Deasaich Command
+Edit command name:: Deasaich ainm an àithne:
 Edit Playlist: Deasaich Liosta-cluiche
+Edit telnet command:: Deasaich òrdugh telnet:
 Edit URLs: Deasaich URLan
 End: Crìochnaich
 Enrich with EPG: Dèan beairteas le EPG
+Enter bouquet name (without spaces):: Cuir a-steach ainm bouquet (gun àitean):
 Enter JSON URL:: Cuir a-steach URL JSON:
 Enter playlist URL (M3U or JSON):: Cuir a-steach URL liosta-cluiche (M3U no JSON):
 EPG: EPG
@@ -103,9 +117,13 @@ Export only favorite channels to a new M3U file: Às-mhalairt dìreach na seanal
 Extracting update...: A’ toirt a-mach ùrachadh...
 Failed to download playlist: Dh'fhàillig luchdadh a-nuas an liosta-cluiche
 Failed to load playlist: Dh'fhàillig luchdadh an liosta-cluiche
+Failed to update bouquets.tv.: Dh'fhàillig ùrachadh bouquets.tv.
+Failed to upload bouquet.: Dh'fhàillig luchdadh suas bouquet.
 Favorite: As fheàrr leotha
 Favorites only: Favourites a-mhàin
 Fetch Logos: Faigh suaicheantasan
+File {0} already exists. Overwrite?: Tha faidhle {0} ann mu thràth. Sgrìobh thairis air?
+File exists: Tha faidhle ann
 Filters: Criathragan
 Fullscreen (hide UI) - press ESC to exit: Làn-sgrìn (falaich UI) - brùth air ESC gus fàgail
 Geo & Country: Geo & Dùthaich
@@ -183,6 +201,7 @@ No favorite channels to export.: Chan eil na seanalan as fheàrr leotha airson �
 No playlist found: Cha deach liosta-cluiche a lorg
 No updates available.: Chan eil ùrachaidhean ri fhaighinn.
 Normal speed (1x): Astar àbhaisteach (1x)
+Not connected to the box.: Gun cheangal ris a’ bhogsa.
 Now: Nise
 OK: ceart gu leòr
 Online Playlist: Liosta-chluiche air loidhne an
@@ -212,6 +231,8 @@ Refresh EPG: Luchdaich a-nuas an leabhar EPG
 Refresh EPG List: Luchdaich a-nuas an clàr EPG
 Refresh from GitHub: Ùraich bho GitHub
 Refresh List: Clàr Ath-nuadhachadh
+Reload GUI: GUI a luchdadh a-nuas
+Remove Command: Thoir air falbh Command
 Rename Group: Ath-ainmich Buidheann
 Repository: Tasgaidh
 Reset Order: Òrdugh ath-shuidheachadh
@@ -230,6 +251,9 @@ Search channels...: Lorg sianalan...
 Select a playlist first.: Tagh liosta-cluiche an toiseach.
 Select Theme: Tagh Cuspair
 Selected theme is saved and applied on restart.: Tha an cuspair taghte air a shàbhaladh agus air a chuir an sàs nuair a thèid ath-thòiseachadh.
+Send: Seol
+Send playlist to Enigma2 decoder: Cuir liosta-cluiche gu decoder Enigma2
+Send to Enigma2: Cuir gu Enigma 2 a-nuas
 Settings: Suidhichidhean
 Show List: Seall Liosta
 Show only channels marked as favorites: Seall na seanailean a-mhàin air an comharrachadh mar roghainnean
@@ -243,6 +267,10 @@ Success: Soirbheachas
 Support: Taic
 Support the developer: Thoir taic don leasaiche
 Target Field: Raon Targaid
+Telnet command:: Òrdugh Telnet:
+Telnet Commander: Comanndair Telnet
+Telnet Console: Console Telnet
+Telnet not configured. Please set it in Settings.: Chan eil Telnet air a rèiteachadh. Feuch an cuir thu e ann an Settings.
 Thanks to: Taing do
 Theme picker: Neach-togail cuspair
 Theme picker – accessible via Tools menu on main toolbar.: Neach-togail cuspair - ruigsinneach tro chlàr Innealan air a’ phrìomh bhàr-inneal.
