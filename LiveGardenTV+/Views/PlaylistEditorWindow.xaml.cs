@@ -25,6 +25,7 @@ namespace LiveGardenTVPlus.Views
         private EpgService _epgService;
         private List<LogoInfo> _cachedLogos;
         private bool _isFetchingLogos = false;
+        private CancellationTokenSource _cancellationTokenSource = null;
         private System.Windows.Threading.DispatcherTimer _progressTimer;
         private DateTime _logoDownloadStartTime;
 
@@ -132,6 +133,10 @@ namespace LiveGardenTVPlus.Views
             ImportJsonBtn.Content = LanguageManager.GetTranslation("Import Local");
             ImportJsonUrlBtn.Content = LanguageManager.GetTranslation("Import from URL");
             ExportJsonBtn.Content = LanguageManager.GetTranslation("Export JSON");
+
+
+            DeleteSelectedBtn.Content = LanguageManager.GetTranslation("Delete Selected");
+            StopBtn.Content = LanguageManager.GetTranslation("Stop");
 
             SaveBtn.Content = LanguageManager.GetTranslation("Save as...");
             CloseBtn.Content = LanguageManager.GetTranslation("Exit");
@@ -584,15 +589,17 @@ namespace LiveGardenTVPlus.Views
                 else
                 {
                     // M3U handling: use background thread exactly as in v1.6
-                    /*
-                    List<Channel> m3uChannels = null;
+                    /*List<Channel> m3uChannels = null;
+
+                    
                     await Task.Run(() =>
                     {
                         string tempFile = Path.GetTempFileName();
                         File.WriteAllText(tempFile, content);
                         m3uChannels = M3uParser.Parse(tempFile);
                         File.Delete(tempFile);
-                    }); */
+                    });
+                    */
 
                     string tempFile = Path.GetTempFileName();
                     await File.WriteAllTextAsync(tempFile, content);
@@ -633,9 +640,6 @@ namespace LiveGardenTVPlus.Views
             }
         }
 
-        // ------------------------------------------------------------------
-        // URL check (only on visible/filtered channels)
-        // ------------------------------------------------------------------
         private async void CheckUrlsBtn_Click(object sender, RoutedEventArgs e)
         {
             var visibleChannels = ChannelsGrid.ItemsSource as IEnumerable<ChannelJson>;
@@ -645,13 +649,35 @@ namespace LiveGardenTVPlus.Views
                 return;
             }
 
+            // Cancel any previous operation
+            _cancellationTokenSource?.Cancel();
+            _cancellationTokenSource = new CancellationTokenSource();
+            var token = _cancellationTokenSource.Token;
+
             CheckUrlsBtn.IsEnabled = false;
+            StopBtn.IsEnabled = true;
             CheckProgressBar.Visibility = Visibility.Visible;
-            var progress = new Progress<KeyValuePair<ChannelJson, string>>(UpdateUrlStatus);
-            await Task.Run(() => CheckAllUrls(visibleChannels.ToList(), progress));
-            CheckProgressBar.Visibility = Visibility.Collapsed;
-            CheckUrlsBtn.IsEnabled = true;
-            MessageBox.Show($"URL check completed on {visibleChannels.Count()} channels.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+            CheckProgressBar.IsIndeterminate = true;
+
+            try
+            {
+                var progress = new Progress<KeyValuePair<ChannelJson, string>>(UpdateUrlStatus);
+                await Task.Run(() => CheckAllUrls(visibleChannels.ToList(), progress, token), token);
+                MessageBox.Show($"URL check completed on {visibleChannels.Count()} channels.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            catch (OperationCanceledException)
+            {
+                MessageBox.Show("URL check was cancelled.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            finally
+            {
+                CheckUrlsBtn.IsEnabled = true;
+                StopBtn.IsEnabled = false;
+                CheckProgressBar.Visibility = Visibility.Collapsed;
+                CheckProgressBar.IsIndeterminate = false;
+                _cancellationTokenSource?.Dispose();
+                _cancellationTokenSource = null;
+            }
         }
 
         private void UpdateUrlStatus(KeyValuePair<ChannelJson, string> result)
@@ -660,13 +686,14 @@ namespace LiveGardenTVPlus.Views
             Dispatcher.Invoke(() => ChannelsGrid.Items.Refresh());
         }
 
-        private void CheckAllUrls(List<ChannelJson> channelsToCheck, IProgress<KeyValuePair<ChannelJson, string>> progress)
+        private void CheckAllUrls(List<ChannelJson> channelsToCheck, IProgress<KeyValuePair<ChannelJson, string>> progress, CancellationToken token)
         {
             using (var client = new HttpClient())
             {
                 client.Timeout = TimeSpan.FromSeconds(5);
                 foreach (var channel in channelsToCheck)
                 {
+                    token.ThrowIfCancellationRequested(); // Check cancellation
                     var allUrls = new List<string>();
                     if (channel.stream_urls != null) allUrls.AddRange(channel.stream_urls);
                     if (channel.youtube_urls != null) allUrls.AddRange(channel.youtube_urls);
@@ -701,10 +728,48 @@ namespace LiveGardenTVPlus.Views
                     else if (okCount > 0)
                         status = $"{okCount}/{allUrls.Count} OK";
                     else
-                        status = "FAIL";
+                        status = "KO";
                     progress.Report(new KeyValuePair<ChannelJson, string>(channel, status));
                 }
             }
+        }
+
+        private void DeleteSelectedBtn_Click(object sender, RoutedEventArgs e)
+        {
+            // Get selected items (supports multi-select with Ctrl/Shift)
+            var selectedItems = ChannelsGrid.SelectedItems.Cast<ChannelJson>().ToList();
+            if (selectedItems.Count == 0)
+            {
+                MessageBox.Show("No channels selected.", "Delete", MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+
+            // Confirm deletion
+            var result = MessageBox.Show(
+                $"Are you sure you want to delete {selectedItems.Count} selected channel(s)?",
+                "Confirm Delete",
+                MessageBoxButton.YesNo,
+                MessageBoxImage.Question);
+
+            if (result != MessageBoxResult.Yes)
+                return;
+
+            // Remove from the ObservableCollection
+            foreach (var ch in selectedItems)
+                Channels.Remove(ch);
+
+            // Update view and filters
+            UpdateFilteredCount();
+            ApplyFilter(); // Re-apply current filters
+            ChannelsGrid.Items.Refresh();
+
+            MessageBox.Show($"{selectedItems.Count} channel(s) deleted.", "Delete", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+
+        private void StopBtn_Click(object sender, RoutedEventArgs e)
+        {
+            _cancellationTokenSource?.Cancel();
+            StopBtn.IsEnabled = false;
         }
 
         private void SaveStatusBtn_Click(object sender, RoutedEventArgs e)
@@ -749,13 +814,15 @@ namespace LiveGardenTVPlus.Views
                 MessageBox.Show("No channels to export.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
-            var working = visibleChannels.Where(c => c.UrlStatus?.StartsWith("OK") == true).ToList();
+            var working = visibleChannels
+                .Where(c => c.UrlStatus?.Contains("OK") == true && !c.UrlStatus.StartsWith("KO"))
+                .ToList();
             if (working.Count == 0)
             {
                 MessageBox.Show("No working channels to export.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
-            ExportChannelsToM3u(working, "working_channels.m3u");
+            ExportWithFormatChoice(working, "working_channels");
         }
 
         private void ExportFailedBtn_Click(object sender, RoutedEventArgs e)
@@ -766,13 +833,13 @@ namespace LiveGardenTVPlus.Views
                 MessageBox.Show("No channels to export.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
-            var failed = visibleChannels.Where(c => c.UrlStatus?.StartsWith("FAIL") == true).ToList();
+            var failed = visibleChannels.Where(c => c.UrlStatus?.StartsWith("KO") == true).ToList();
             if (failed.Count == 0)
             {
                 MessageBox.Show("No failed channels to export.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
-            ExportChannelsToM3u(failed, "failed_channels.m3u");
+            ExportWithFormatChoice(failed, "failed_channels");
         }
 
         private void ExportFilteredM3uBtn_Click(object sender, RoutedEventArgs e)
@@ -784,6 +851,38 @@ namespace LiveGardenTVPlus.Views
                 return;
             }
             ExportChannelsToM3u(filtered.ToList(), "filtered_playlist.m3u");
+        }
+
+        private void ExportWithFormatChoice(List<ChannelJson> channels, string defaultFileName)
+        {
+            var dialog = new Microsoft.Win32.SaveFileDialog
+            {
+                Filter = "M3U files|*.m3u|JSON files|*.json",
+                DefaultExt = ".m3u",
+                FileName = defaultFileName + ".m3u"
+            };
+
+            if (dialog.ShowDialog() == true)
+            {
+                string filePath = dialog.FileName;
+                string extension = System.IO.Path.GetExtension(filePath).ToLower();
+
+                if (extension == ".m3u")
+                {
+                    ExportChannelsToM3u(channels, filePath);
+                }
+                else if (extension == ".json")
+                {
+                    ExportToJson(filePath, channels);
+                }
+                else
+                {
+                    MessageBox.Show("Unsupported file format.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
+                }
+
+                MessageBox.Show($"Exported {channels.Count} channels to {filePath}", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
         }
 
         private void ExportFilteredJsonBtn_Click(object sender, RoutedEventArgs e)

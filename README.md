@@ -153,6 +153,21 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
 
 ## Changelog
 
+## 📋 LiveGardenTVPlus – Changelog (v2.5)
+
+- **Export OK / KO** 
+  – Now prompts for output format (M3U or JSON) via SaveFileDialog with filter, preserving all tags/metadata.
+- **Delete Selected**
+  – Allows multiple row deletion with confirmation, automatically updates filters and channel count.
+- **Stop Button**
+  – Added to Playlist Editor to cancel long‑running operations (URL checks, logo fetching, etc.).
+
+### Need more help?
+
+Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
+
+---
+
 ## 📋 LiveGardenTVPlus – Changelog (v2.4)
 
 # 🚀 Telnet & Enigma2 Integration
@@ -172,10 +187,6 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
   – EPG source selector directly in the EPG window.
   – Date and time displayed in program grid.
   – Search‑as‑you‑type with debouncing.
-
-### Need more help?
-
-Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
 
 ---
 

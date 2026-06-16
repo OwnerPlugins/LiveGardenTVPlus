@@ -12,8 +12,8 @@
         <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
         <GenerateDocumentationFile>True</GenerateDocumentationFile>
         <Title>LiveGardenTVPlus</Title>
-        <AssemblyVersion>2.4</AssemblyVersion>
-        <FileVersion>2.4</FileVersion>
+        <AssemblyVersion>2.5</AssemblyVersion>
+        <FileVersion>2.5</FileVersion>
         <RepositoryUrl>https://github.com/OwnerPlugins/LiveGardenTVPlus</RepositoryUrl>
         <NeutralLanguage>en</NeutralLanguage>
         <IncludeSymbols>False</IncludeSymbols>
@@ -22,29 +22,8 @@
         <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
         <Platforms>AnyCPU;x86</Platforms>
     </PropertyGroup>
-    <ItemGroup>
-        <Compile Remove="Controls\**" />
-        <EmbeddedResource Remove="Controls\**" />
-        <None Remove="Controls\**" />
-        <Page Remove="Controls\**" />
-    </ItemGroup>
-    <ItemGroup>
-        <Content Include="Themes\logo-garden.ico">
-          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </Content>
-    </ItemGroup>
-    <ItemGroup>
-        <Content Include="Languages\*.lng">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </Content>
-    </ItemGroup>
-    <ItemGroup>
-      <None Remove="Themes\avatar.gif" />
-      <None Remove="Themes\folder.png" />
-      <None Remove="Themes\logo-garden.png" />
-      <None Remove="Views\avatar.gif" />
-      <None Remove="Views\logo-garden.png" />
-    </ItemGroup>
+
+    <!-- Package References (NuGet) -->
     <ItemGroup>
         <PackageReference Include="GTranslate" Version="2.3.1" />
         <PackageReference Include="MaterialDesignThemes" Version="5.3.2" />
@@ -53,40 +32,72 @@
         <PackageReference Include="XamlAnimatedGif" Version="2.3.2" />
         <PackageReference Include="XmlTvSharp" Version="1.1.2" />
     </ItemGroup>
+
+    <!-- Content files to copy to output directory -->
     <ItemGroup>
-        <Content Include="PlayerHost\player.html">
+        <!-- Languages -->
+        <Content Include="Languages\**\*.lng">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
+
+        <!-- PlayerHost -->
+        <Content Include="PlayerHost\**\*.*">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+
+        <!-- Themes: XAML files (themes) -->
+        <Content Include="Themes\*.xaml">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+
+        <!-- Themes: logo and avatar (copy as content, not resource) -->
+        <Content Include="Themes\logo-garden.png">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Themes\avatar.gif">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Themes\folder.png">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+
+        <!-- Telnet commands JSON -->
         <Content Include="telnet_commands.json">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
+
+        <!-- Icon (already used as ApplicationIcon, but also copy for runtime) -->
+        <Content Include="Themes\logo-garden.ico">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
     </ItemGroup>
+
+    <!-- Resource files (embedded in assembly, not copied separately) -->
     <ItemGroup>
-      <Resource Include="Themes\avatar.gif">
-        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      </Resource>
-      <Resource Include="Themes\folder.png">
-        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      </Resource>
-      <Resource Include="Themes\logo-garden.png">
-        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      </Resource>
-      <Resource Include="Views\avatar.gif" />
-      <Resource Include="Views\logo-garden.png" />
+        <Resource Include="Views\avatar.gif" />
+        <Resource Include="Views\logo-garden.png" />
+        <Resource Include="Themes\avatar.gif" />
+        <Resource Include="Themes\folder.png" />
+        <Resource Include="Themes\logo-garden.png" />
     </ItemGroup>
+
+    <!-- License and Readme (for NuGet packaging) -->
     <ItemGroup>
-      <None Update="LICENSE">
-        <Pack>True</Pack>
-        <PackagePath>\</PackagePath>
-      </None>
-      <None Update="README_VS.md">
-        <Pack>True</Pack>
-        <PackagePath>\</PackagePath>
-      </None>
+        <None Update="LICENSE">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+        <None Update="README_VS.md">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
     </ItemGroup>
+
+    <!-- Exclude duplicate Resource entries (keep only one copy) -->
     <ItemGroup>
-      <Page Update="Views\LogoPickerWindow.xaml">
-        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      </Page>
+        <Resource Remove="Themes\avatar.gif" />
+        <Resource Remove="Themes\folder.png" />
+        <Resource Remove="Themes\logo-garden.png" />
     </ItemGroup>
+
 </Project>
