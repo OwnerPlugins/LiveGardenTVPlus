@@ -1516,6 +1516,7 @@ namespace LiveGardenTVPlus
             }
         }
 
+        /*
         private async Task ReloadEnigma2Channels()
         {
             var prefs = UserPreferences.Load();
@@ -1539,6 +1540,26 @@ namespace LiveGardenTVPlus
             catch (Exception ex)
             {
                 Debug.WriteLine($"Reload HTTP exception: {ex.Message}");
+            }
+        }*/
+
+        private async Task ReloadEnigma2Channels()
+        {
+            try
+            {
+                var prefs = UserPreferences.Load();
+                string url = $"http://{prefs.TelnetHost}/web/servicelistreload?mode=0";
+                using (var client = new HttpClient())
+                {
+                    client.Timeout = TimeSpan.FromSeconds(5);
+                    var response = await client.GetAsync(url);
+                    Debug.WriteLine($"Reload HTTP OK: {response.StatusCode}");
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Reload HTTP error: {ex.Message}");
+                // Non rilanciare l'eccezione – l'operazione è già riuscita
             }
         }
 

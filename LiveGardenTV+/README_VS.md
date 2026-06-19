@@ -30,6 +30,17 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
 
 ## Changelog
 
+## 📋 LiveGardenTVPlus – Changelog (v2.6)
+
+- **Fixed Send to E2** 
+  – Now app work and no crash on send channels..
+
+### Need more help?
+
+Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
+
+---
+
 ## 📋 LiveGardenTVPlus – Changelog (v2.5)
 
 - **Export OK / KO** 
@@ -39,10 +50,7 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
 - **Stop Button**
   – Added to Playlist Editor to cancel long‑running operations (URL checks, logo fetching, etc.).
 
-### Need more help?
-
-Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
-
+---
 
 ## 📋 LiveGardenTVPlus – Changelog (v2.4)
 

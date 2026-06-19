@@ -17,7 +17,7 @@ namespace LiveGardenTVPlus.Services
 
         public bool IsConnected => _client?.Connected == true;
 
-        public async Task<bool> ConnectAsync(string host, int port)
+        public async Task<bool> ConnectAsync(string host, int port, bool startReader = true)
         {
             try
             {
@@ -27,7 +27,8 @@ namespace LiveGardenTVPlus.Services
                 _stream = _client.GetStream();
                 Debug.WriteLine("TelnetClient: Connected");
                 ConnectionStateChanged?.Invoke(true);
-                _ = ReadAsync();
+                if (startReader)
+                    _ = ReadAsync();
                 return true;
             }
             catch (Exception ex)
@@ -52,11 +53,17 @@ namespace LiveGardenTVPlus.Services
                 }
                 catch (Exception ex)
                 {
+                    // Log the error but do NOT disconnect or propagate
                     Debug.WriteLine($"TelnetClient: Read error - {ex.Message}");
+                    // Do NOT call Disconnect() here – let the connection close naturally
                     break;
                 }
             }
-            Disconnect();
+            // Only disconnect if the stream is still open
+            if (_stream != null && _client != null && _client.Connected)
+            {
+                Disconnect();
+            }
         }
 
         public async Task<bool> LoginAsync(string username, string password)
