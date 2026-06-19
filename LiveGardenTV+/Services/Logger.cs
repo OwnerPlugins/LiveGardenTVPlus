@@ -4,25 +4,49 @@ namespace LiveGardenTVPlus.Services
 {
     public static class Logger
     {
-        private static readonly string LogDirectory = Path.Combine(
+        private static readonly string _installDir = AppDomain.CurrentDomain.BaseDirectory;
+        private static readonly string _logDirectory = Path.Combine(_installDir, "Logs");
+        private static readonly string _fallbackDirectory = Path.Combine(
             Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
             "LiveGardenTVPlus",
             "Logs");
 
-        public static string LogPath => LogDirectory;
+        public static string LogPath => _logDirectory;
 
         public static void Write(string message, string stackTrace = null)
         {
             try
             {
-                Directory.CreateDirectory(LogDirectory);
-                string logFile = Path.Combine(LogDirectory, $"log_{DateTime.Now:yyyy-MM-dd}.log");
+                string directory = GetWritableDirectory();
+                string logFile = Path.Combine(directory, $"log_{DateTime.Now:yyyy-MM-dd}.log");
                 string entry = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {message}";
                 if (!string.IsNullOrEmpty(stackTrace))
                     entry += $"\nStackTrace: {stackTrace}";
                 File.AppendAllText(logFile, entry + "\n\n");
             }
-            catch { }
+            catch { /* Ignore logging errors */ }
+        }
+
+        private static string GetWritableDirectory()
+        {
+            // Try install directory first
+            try
+            {
+                if (!Directory.Exists(_logDirectory))
+                    Directory.CreateDirectory(_logDirectory);
+                // Test write permissions
+                string testFile = Path.Combine(_logDirectory, "write_test.tmp");
+                File.WriteAllText(testFile, "test");
+                File.Delete(testFile);
+                return _logDirectory;
+            }
+            catch
+            {
+                // Fallback to AppData
+                if (!Directory.Exists(_fallbackDirectory))
+                    Directory.CreateDirectory(_fallbackDirectory);
+                return _fallbackDirectory;
+            }
         }
 
         public static void WriteException(Exception ex, string context = null)
