@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cachemappe: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cachemappe: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Fuldstændig frivillig – ingen funktioner er blokeret)
 (No description): (Ingen beskrivelse)
 • Add / rename / delete groups.: • Tilføj/omdøb/slet grupper.
@@ -57,6 +57,7 @@ Click for details: Klik for detaljer
 Close: Tæt
 Command name:: Kommandonavn:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Fællesskab og test: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Configuration Missing: Konfiguration mangler
 Confirm Reload: Bekræft Genindlæsning
 Connect: Forbinde
 Connected: Forbundet
@@ -77,12 +78,13 @@ Downloading playlist...: Downloader afspilningsliste...
 Downloads ZIP, replaces files, restarts app – settings preserved.: Downloader ZIP, erstatter filer, genstarter app - indstillinger bevares.
 Drag & drop – drop M3U or JSON files directly onto main window.: Træk og slip – slip M3U- eller JSON-filer direkte på hovedvinduet.
 Drag to seek back in buffer: Træk for at søge tilbage i buffer
-Duplicate URLs found:\n\n: Duplikerede webadresser fundet:\n\n
+Duplicate URLs found:\n\n: Dublerede webadresser fundet:\n\n
 Edit Command: Rediger kommando
 Edit command name:: Rediger kommandonavn:
 Edit Playlist: Rediger afspilningsliste
 Edit telnet command:: Rediger telnet kommando:
 Edit URLs: Rediger URL'er
+Empty Password: Tom adgangskode
 End: Ende
 Enrich with EPG: Berig med EPG
 Enter bouquet name (without spaces):: Indtast buketnavn (uden mellemrum):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Eksporter kun favoritkanaler ti
 Extracting update...: Udpakker opdatering...
 Failed to download playlist: Afspilningslisten kunne ikke downloades
 Failed to load playlist: Afspilningslisten kunne ikke indlæses
-Failed to update bouquets.tv.: Kunne ikke opdatere bouquets.tv.
-Failed to upload bouquet.: Kunne ikke uploade buket.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Kunne ikke opdatere bouquets.tv. Kontroller venligst filtilladelserne på Enigma2-enheden.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Kunne ikke uploade buket. Tjek venligst dine Telnet-indstillinger (vært, port, brugernavn, adgangskode) og prøv igen.
 Favorite: Favorit
 Favorites only: Kun favoritter
 Fetch Logos: Hent logoer
@@ -272,7 +274,9 @@ Target Field: Målfelt
 Telnet command:: Telnet kommando:
 Telnet Commander: Telnet Commander
 Telnet Console: Telnet konsol
-Telnet not configured. Please set it in Settings.: Telnet ikke konfigureret. Indstil det i Indstillinger.
+Telnet host not configured. Please set it in Settings.: Telnet-værten er ikke konfigureret. Indstil det i Indstillinger.
+Telnet password is empty. Do you want to continue?: Telnet-adgangskoden er tom. Vil du fortsætte?
+Telnet username not configured. Please set it in Settings.: Telnet-brugernavnet er ikke konfigureret. Indstil det i Indstillinger.
 Thanks to: Tak til
 Theme picker: Temavælger
 Theme picker – accessible via Tools menu on main toolbar.: Temavælger – tilgængelig via menuen Værktøjer på hovedværktøjslinjen.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Kan ikke finde version i fjernprojektfil.
 Update: Opdatering
 Update complete. Restarting...: Opdatering fuldført. Genstarter...
+Update Error: Opdateringsfejl
 Update failed: : Opdatering mislykkedes:
 Updates: Opdateringer
+Upload Error: Upload fejl
 URL: URL
 URL (primary): URL (primær)
 URL Check: URL-tjek

@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Mapa predmemorije: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Mapa predmemorije: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Potpuno dobrovoljno – nijedna značajka nije blokirana)
 (No description): (bez opisa)
 • Add / rename / delete groups.: • Dodavanje/preimenovanje/brisanje grupa.
@@ -57,6 +57,7 @@ Click for details: Kliknite za detalje
 Close: Zatvoriti
 Command name:: Naziv naredbe:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Zajednica i testiranje: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Configuration Missing: Nedostaje konfiguracija
 Confirm Reload: Potvrdite ponovno učitavanje
 Connect: Poveži se
 Connected: Povezan
@@ -83,6 +84,7 @@ Edit command name:: Uredi naziv naredbe:
 Edit Playlist: Uredi popis pjesama
 Edit telnet command:: Uredi telnet naredbu:
 Edit URLs: Uredite URL-ove
+Empty Password: Prazna lozinka
 End: Kraj
 Enrich with EPG: Obogatite EPG-om
 Enter bouquet name (without spaces):: Unesite naziv buketa (bez razmaka):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Izvezite samo omiljene kanale u
 Extracting update...: Izdvajanje ažuriranja...
 Failed to download playlist: Preuzimanje popisa za reprodukciju nije uspjelo
 Failed to load playlist: Učitavanje popisa za reprodukciju nije uspjelo
-Failed to update bouquets.tv.: Ažuriranje bouquets.tv nije uspjelo.
-Failed to upload bouquet.: Prijenos buketa nije uspio.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Ažuriranje bouquets.tv nije uspjelo. Provjerite dopuštenja za datoteke na uređaju Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Prijenos buketa nije uspio. Provjerite svoje Telnet postavke (host, port, korisničko ime, lozinka) i pokušajte ponovno.
 Favorite: omiljena
 Favorites only: Samo favoriti
 Fetch Logos: Dohvati logotipe
@@ -272,7 +274,9 @@ Target Field: Ciljno polje
 Telnet command:: Telnet naredba:
 Telnet Commander: Telnet zapovjednik
 Telnet Console: Telnet konzola
-Telnet not configured. Please set it in Settings.: Telnet nije konfiguriran. Postavite to u Postavkama.
+Telnet host not configured. Please set it in Settings.: Telnet host nije konfiguriran. Postavite to u Postavkama.
+Telnet password is empty. Do you want to continue?: Telnet lozinka je prazna. Želite li nastaviti?
+Telnet username not configured. Please set it in Settings.: Telnet korisničko ime nije konfigurirano. Postavite to u Postavkama.
 Thanks to: zahvaljujući
 Theme picker: Odabir teme
 Theme picker – accessible via Tools menu on main toolbar.: Birač tema – dostupan putem izbornika Alati na glavnoj alatnoj traci.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Nije moguće pronaći verziju u datoteci udaljenog projekta.
 Update: Ažurirati
 Update complete. Restarting...: Ažuriranje dovršeno. Ponovno pokretanje...
+Update Error: Greška ažuriranja
 Update failed: : Ažuriranje nije uspjelo:
 Updates: Ažuriranja
+Upload Error: Pogreška prijenosa
 URL: URL
 URL (primary): URL (primarni)
 URL Check: Provjera URL-a

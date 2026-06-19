@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (ಸಂಗ್ರಹ ಫೋಲ್ಡರ್: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (ಸಂಗ್ರಹ ಫೋಲ್ಡರ್: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (ಸಂಪೂರ್ಣವಾಗಿ ಸ್ವಯಂಪ್ರೇರಿತ - ಯಾವುದೇ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿಲ್ಲ)
 (No description): (ವಿವರಣೆ ಇಲ್ಲ)
 • Add / rename / delete groups.: • ಗುಂಪುಗಳನ್ನು ಸೇರಿಸಿ / ಮರುಹೆಸರಿಸಿ / ಅಳಿಸಿ.
@@ -57,6 +57,7 @@ Click for details: ವಿವರಗಳಿಗಾಗಿ ಕ್ಲಿಕ್ ಮಾ�
 Close: ಮುಚ್ಚಿ
 Command name:: ಆಜ್ಞೆಯ ಹೆಸರು:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ಸಮುದಾಯ ಮತ್ತು ಪರೀಕ್ಷೆ: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Configuration Missing: ಕಾನ್ಫಿಗರೇಶನ್ ಕಾಣೆಯಾಗಿದೆ
 Confirm Reload: ಮರುಲೋಡ್ ದೃಢೀಕರಿಸಿ
 Connect: ಸಂಪರ್ಕಿಸಿ
 Connected: ಸಂಪರ್ಕಗೊಂಡಿದೆ
@@ -83,6 +84,7 @@ Edit command name:: ಆಜ್ಞೆಯ ಹೆಸರನ್ನು ಸಂಪಾದ�
 Edit Playlist: ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಸಂಪಾದಿಸಿ
 Edit telnet command:: ಟೆಲ್ನೆಟ್ ಆಜ್ಞೆಯನ್ನು ಸಂಪಾದಿಸಿ:
 Edit URLs: URL ಗಳನ್ನು ಸಂಪಾದಿಸಿ
+Empty Password: ಖಾಲಿ ಪಾಸ್ವರ್ಡ್
 End: ಅಂತ್ಯ
 Enrich with EPG: EPG ಯೊಂದಿಗೆ ಸಮೃದ್ಧಗೊಳಿಸಿ
 Enter bouquet name (without spaces):: ಪುಷ್ಪಗುಚ್ಛದ ಹೆಸರನ್ನು ನಮೂದಿಸಿ (ಸ್ಥಳಗಳಿಲ್ಲದೆ):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: ಹೊಸ M3U ಫೈಲ್‌�
 Extracting update...: ನವೀಕರಣವನ್ನು ಹೊರತೆಗೆಯಲಾಗುತ್ತಿದೆ...
 Failed to download playlist: ಪ್ಲೇಪಟ್ಟಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ
 Failed to load playlist: ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ
-Failed to update bouquets.tv.: Bouquets.tv ಅನ್ನು ನವೀಕರಿಸಲು ವಿಫಲವಾಗಿದೆ.
-Failed to upload bouquet.: ಪುಷ್ಪಗುಚ್ಛವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Bouquets.tv ಅನ್ನು ನವೀಕರಿಸಲು ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು Enigma2 ಸಾಧನದಲ್ಲಿ ಫೈಲ್ ಅನುಮತಿಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: ಪುಷ್ಪಗುಚ್ಛವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಟೆಲ್ನೆಟ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು (ಹೋಸ್ಟ್, ಪೋರ್ಟ್, ಬಳಕೆದಾರಹೆಸರು, ಪಾಸ್‌ವರ್ಡ್) ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.
 Favorite: ಮೆಚ್ಚಿನ
 Favorites only: ಮೆಚ್ಚಿನವುಗಳು ಮಾತ್ರ
 Fetch Logos: ಲೋಗೋಗಳನ್ನು ಪಡೆದುಕೊಳ್ಳಿ
@@ -272,7 +274,9 @@ Target Field: ಟಾರ್ಗೆಟ್ ಫೀಲ್ಡ್
 Telnet command:: ಟೆಲ್ನೆಟ್ ಆದೇಶ:
 Telnet Commander: ಟೆಲ್ನೆಟ್ ಕಮಾಂಡರ್
 Telnet Console: ಟೆಲ್ನೆಟ್ ಕನ್ಸೋಲ್
-Telnet not configured. Please set it in Settings.: ಟೆಲ್ನೆಟ್ ಅನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿಲ್ಲ. ದಯವಿಟ್ಟು ಅದನ್ನು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಹೊಂದಿಸಿ.
+Telnet host not configured. Please set it in Settings.: ಟೆಲ್ನೆಟ್ ಹೋಸ್ಟ್ ಅನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿಲ್ಲ. ದಯವಿಟ್ಟು ಅದನ್ನು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಹೊಂದಿಸಿ.
+Telnet password is empty. Do you want to continue?: ಟೆಲ್ನೆಟ್ ಪಾಸ್‌ವರ್ಡ್ ಖಾಲಿಯಾಗಿದೆ. ನೀವು ಮುಂದುವರಿಸಲು ಬಯಸುವಿರಾ?
+Telnet username not configured. Please set it in Settings.: ಟೆಲ್ನೆಟ್ ಬಳಕೆದಾರ ಹೆಸರನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿಲ್ಲ. ದಯವಿಟ್ಟು ಅದನ್ನು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಹೊಂದಿಸಿ.
 Thanks to: ಧನ್ಯವಾದಗಳು
 Theme picker: ಥೀಮ್ ಪಿಕ್ಕರ್
 Theme picker – accessible via Tools menu on main toolbar.: ಥೀಮ್ ಪಿಕ್ಕರ್ - ಮುಖ್ಯ ಟೂಲ್‌ಬಾರ್‌ನಲ್ಲಿ ಪರಿಕರಗಳ ಮೆನು ಮೂಲಕ ಪ್ರವೇಶಿಸಬಹುದು.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: ರಿಮೋಟ್ ಪ್ರಾಜೆಕ್ಟ್ ಫೈಲ್‌ನಲ್ಲಿ ಆವೃತ್ತಿಯನ್ನು ಹುಡುಕಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.
 Update: ನವೀಕರಿಸಿ
 Update complete. Restarting...: ನವೀಕರಣ ಪೂರ್ಣಗೊಂಡಿದೆ. ಮರುಪ್ರಾರಂಭಿಸಲಾಗುತ್ತಿದೆ...
+Update Error: ನವೀಕರಣ ದೋಷ
 Update failed: : ನವೀಕರಣ ವಿಫಲವಾಗಿದೆ:
 Updates: ನವೀಕರಣಗಳು
+Upload Error: ಅಪ್ಲೋಡ್ ದೋಷ
 URL: URL
 URL (primary): URL (ಪ್ರಾಥಮಿಕ)
 URL Check: URL ಚೆಕ್

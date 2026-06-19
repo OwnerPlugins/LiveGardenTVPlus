@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Φάκελος προσωρινής μνήμης: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Φάκελος προσωρινής μνήμης: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Εντελώς εθελοντικό – κανένα χαρακτηριστικό δεν είναι αποκλεισμένο)
 (No description): (Χωρίς περιγραφή)
 • Add / rename / delete groups.: • Προσθήκη / μετονομασία / διαγραφή ομάδων.
@@ -57,6 +57,7 @@ Click for details: Κάντε κλικ για λεπτομέρειες
 Close: Κοντά
 Command name:: Όνομα εντολής:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Κοινότητα και δοκιμές: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Configuration Missing: Λείπει η διαμόρφωση
 Confirm Reload: Επιβεβαίωση επαναφόρτωσης
 Connect: Συνδέω
 Connected: Συνδεδεμένος
@@ -83,6 +84,7 @@ Edit command name:: Επεξεργασία ονόματος εντολής:
 Edit Playlist: Επεξεργασία λίστας αναπαραγωγής
 Edit telnet command:: Επεξεργασία εντολής telnet:
 Edit URLs: Επεξεργασία διευθύνσεων URL
+Empty Password: Κενός κωδικός πρόσβασης
 End: Τέλος
 Enrich with EPG: Εμπλουτίστε με EPG
 Enter bouquet name (without spaces):: Εισαγάγετε το όνομα της ανθοδέσμης (χωρίς κενά):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Εξαγωγή μόνο αγα�
 Extracting update...: Εξαγωγή ενημέρωσης...
 Failed to download playlist: Η λήψη της λίστας αναπαραγωγής απέτυχε
 Failed to load playlist: Η φόρτωση της λίστας αναπαραγωγής απέτυχε
-Failed to update bouquets.tv.: Η ενημέρωση του bouquets.tv απέτυχε.
-Failed to upload bouquet.: Αποτυχία μεταφόρτωσης μπουκέτου.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Η ενημέρωση του bouquets.tv απέτυχε. Ελέγξτε τα δικαιώματα αρχείων στη συσκευή Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Αποτυχία μεταφόρτωσης μπουκέτου. Ελέγξτε τις ρυθμίσεις Telnet (κεντρικός υπολογιστής, θύρα, όνομα χρήστη, κωδικός πρόσβασης) και δοκιμάστε ξανά.
 Favorite: Ευνοούμενος
 Favorites only: Μόνο τα αγαπημένα
 Fetch Logos: Λήψη λογότυπων
@@ -272,7 +274,9 @@ Target Field: Πεδίο Στόχου
 Telnet command:: Εντολή Telnet:
 Telnet Commander: Διοικητής Telnet
 Telnet Console: Κονσόλα Telnet
-Telnet not configured. Please set it in Settings.: Το Telnet δεν έχει ρυθμιστεί. Ρυθμίστε το στις Ρυθμίσεις.
+Telnet host not configured. Please set it in Settings.: Ο κεντρικός υπολογιστής Telnet δεν έχει ρυθμιστεί. Ρυθμίστε το στις Ρυθμίσεις.
+Telnet password is empty. Do you want to continue?: Ο κωδικός πρόσβασης Telnet είναι κενός. Θέλετε να συνεχίσετε;
+Telnet username not configured. Please set it in Settings.: Το όνομα χρήστη Telnet δεν έχει διαμορφωθεί. Ρυθμίστε το στις Ρυθμίσεις.
 Thanks to: Χάρις σε
 Theme picker: Επιλογέας θέματος
 Theme picker – accessible via Tools menu on main toolbar.: Επιλογέας θέματος – προσβάσιμο μέσω του μενού Εργαλεία στην κύρια γραμμή εργαλείων.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Δεν είναι δυνατή η εύρεση της έκδοσης σε απομακρυσμένο αρχείο έργου.
 Update: Εκσυγχρονίζω
 Update complete. Restarting...: Η ενημέρωση ολοκληρώθηκε. Επανεκκίνηση…
+Update Error: Σφάλμα ενημέρωσης
 Update failed: : Η ενημέρωση απέτυχε:
 Updates: Ενημερώσεις
+Upload Error: Σφάλμα μεταφόρτωσης
 URL: URL
 URL (primary): URL (κύριος)
 URL Check: Έλεγχος διεύθυνσης URL

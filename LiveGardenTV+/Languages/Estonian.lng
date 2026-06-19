@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Vahemälu kaust: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Vahemälu kaust: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Täiesti vabatahtlik – ükski funktsioon pole blokeeritud)
 (No description): (kirjeldus puudub)
 • Add / rename / delete groups.: • Lisa/nimeta ümber/kustuta rühmi.
@@ -57,6 +57,7 @@ Click for details: Üksikasjade vaatamiseks klõpsake
 Close: Sule
 Command name:: Käsu nimi:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Kogukond ja testimine: CorvoBoys (corvoboys.org) ja LinuxSat-Support.com
+Configuration Missing: Konfiguratsioon puudub
 Confirm Reload: Kinnitage uuesti laadimine
 Connect: Ühendage
 Connected: Ühendatud
@@ -83,6 +84,7 @@ Edit command name:: Redigeeri käsu nime:
 Edit Playlist: Redigeeri esitusloendit
 Edit telnet command:: Redigeeri telneti käsku:
 Edit URLs: Muutke URL-e
+Empty Password: Tühi parool
 End: Lõpp
 Enrich with EPG: Rikastage EPG-ga
 Enter bouquet name (without spaces):: Sisestage kimbu nimi (ilma tühikuteta):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Eksportige uude M3U-faili ainul
 Extracting update...: Värskenduse ekstraktimine...
 Failed to download playlist: Esitusloendi allalaadimine ebaõnnestus
 Failed to load playlist: Esitusloendi laadimine ebaõnnestus
-Failed to update bouquets.tv.: Bouquets.tv värskendamine ebaõnnestus.
-Failed to upload bouquet.: Kimbu üleslaadimine ebaõnnestus.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Bouquets.tv värskendamine ebaõnnestus. Kontrollige Enigma2 seadme failiõigusi.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Kimbu üleslaadimine ebaõnnestus. Kontrollige oma Telneti sätteid (host, port, kasutajanimi, parool) ja proovige uuesti.
 Favorite: Lemmik
 Favorites only: Ainult lemmikud
 Fetch Logos: Logode toomine
@@ -272,7 +274,9 @@ Target Field: Sihtväli
 Telnet command:: Telneti käsk:
 Telnet Commander: Telneti ülem
 Telnet Console: Telneti konsool
-Telnet not configured. Please set it in Settings.: Telnet pole konfigureeritud. Määrake see seadetes.
+Telnet host not configured. Please set it in Settings.: Telneti hosti pole konfigureeritud. Määrake see seadetes.
+Telnet password is empty. Do you want to continue?: Telneti parool on tühi. Kas soovite jätkata?
+Telnet username not configured. Please set it in Settings.: Telneti kasutajanimi pole konfigureeritud. Määrake see seadetes.
 Thanks to: Tänu sellele
 Theme picker: Teema valija
 Theme picker – accessible via Tools menu on main toolbar.: Teemavalija – pääseb juurde peamise tööriistariba menüüst Tööriistad.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Kaugprojekti failist ei leitud versiooni.
 Update: Värskenda
 Update complete. Restarting...: Värskendus on lõpetatud. Taaskäivitamine...
+Update Error: Värskendusviga
 Update failed: : Värskendus ebaõnnestus:
 Updates: Värskendused
+Upload Error: Üleslaadimisviga
 URL: URL
 URL (primary): URL (esmane)
 URL Check: URL-i kontroll

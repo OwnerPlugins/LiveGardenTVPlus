@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Carpeta de la memòria cau: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Carpeta de la memòria cau: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Completament voluntari: cap funció està bloquejada)
 (No description): (Sense descripció)
 • Add / rename / delete groups.: • Afegir/canviar el nom/suprimir grups.
@@ -57,6 +57,7 @@ Click for details: Feu clic per obtenir més informació
 Close: Tancar
 Command name:: Nom de l'ordre:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Comunitat i proves: CorvoBoys (corvoboys.org) i LinuxSat-Support.com
+Configuration Missing: Falta la configuració
 Confirm Reload: Confirmeu la tornada a carregar
 Connect: Connecta't
 Connected: Connectat
@@ -83,6 +84,7 @@ Edit command name:: Edita el nom de l'ordre:
 Edit Playlist: Edita la llista de reproducció
 Edit telnet command:: Edita l'ordre telnet:
 Edit URLs: Editeu els URL
+Empty Password: Contrasenya buida
 End: Final
 Enrich with EPG: Enriquir amb EPG
 Enter bouquet name (without spaces):: Introduïu el nom del ram (sense espais):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Exporteu només els canals pref
 Extracting update...: S'està extraient l'actualització...
 Failed to download playlist: No s'ha pogut baixar la llista de reproducció
 Failed to load playlist: No s'ha pogut carregar la llista de reproducció
-Failed to update bouquets.tv.: No s'ha pogut actualitzar bouquets.tv.
-Failed to upload bouquet.: No s'ha pogut carregar el ram.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: No s'ha pogut actualitzar bouquets.tv. Comproveu els permisos dels fitxers al dispositiu Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: No s'ha pogut carregar el ram. Comproveu la vostra configuració de Telnet (amfitrió, port, nom d'usuari, contrasenya) i torneu-ho a provar.
 Favorite: Favorit
 Favorites only: Només els preferits
 Fetch Logos: Recupera logotips
@@ -272,7 +274,9 @@ Target Field: Camp objectiu
 Telnet command:: Ordre Telnet:
 Telnet Commander: Comandant Telnet
 Telnet Console: Consola Telnet
-Telnet not configured. Please set it in Settings.: Telnet no configurat. Definiu-lo a Configuració.
+Telnet host not configured. Please set it in Settings.: L'amfitrió Telnet no està configurat. Definiu-lo a Configuració.
+Telnet password is empty. Do you want to continue?: La contrasenya de Telnet és buida. Vols continuar?
+Telnet username not configured. Please set it in Settings.: El nom d'usuari de Telnet no està configurat. Definiu-lo a Configuració.
 Thanks to: Gràcies a
 Theme picker: Selector de temes
 Theme picker – accessible via Tools menu on main toolbar.: Selector de temes: accessible mitjançant el menú Eines de la barra d'eines principal.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: Interfície d'usuari: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: No es pot trobar la versió al fitxer de projecte remot.
 Update: Actualització
 Update complete. Restarting...: Actualització completa. S'està reiniciant...
+Update Error: Error d'actualització
 Update failed: : L'actualització ha fallat:
 Updates: Actualitzacions
+Upload Error: Error de càrrega
 URL: URL
 URL (primary): URL (principal)
 URL Check: Comprovació d'URL

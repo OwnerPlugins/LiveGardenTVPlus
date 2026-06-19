@@ -1,14 +1,10 @@
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
 using System.Text.Json;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using LiveGardenTVPlus.Services;
-using Microsoft.VisualBasic;
 
 namespace LiveGardenTVPlus.Views
 {
@@ -239,10 +235,18 @@ namespace LiveGardenTVPlus.Views
 
         private void AddCmdBtn_Click(object sender, RoutedEventArgs e)
         {
-            string name = Interaction.InputBox(LanguageManager.GetTranslation("Command name:"), LanguageManager.GetTranslation("Add Command"), "");
+            string name = InputBoxHelper.ShowInputBox(
+                LanguageManager.GetTranslation("Command name:"),
+                LanguageManager.GetTranslation("Add Command"),
+                "");
             if (string.IsNullOrWhiteSpace(name)) return;
-            string cmd = Interaction.InputBox(LanguageManager.GetTranslation("Telnet command:"), LanguageManager.GetTranslation("Add Command"), "");
+
+            string cmd = InputBoxHelper.ShowInputBox(
+                LanguageManager.GetTranslation("Telnet command:"),
+                LanguageManager.GetTranslation("Add Command"),
+                "");
             if (string.IsNullOrWhiteSpace(cmd)) return;
+
             presets.Add(new CommandPreset { Name = name, Command = cmd });
             SaveCommands();
             RefreshCommandList();
@@ -260,10 +264,19 @@ namespace LiveGardenTVPlus.Views
         {
             if (CommandsList.SelectedIndex < 0) return;
             var selected = presets[CommandsList.SelectedIndex];
-            string newName = Interaction.InputBox(LanguageManager.GetTranslation("Edit command name:"), LanguageManager.GetTranslation("Edit Command"), selected.Name);
+            string newName = InputBoxHelper.ShowInputBox(
+                LanguageManager.GetTranslation("Edit command name:"),
+                LanguageManager.GetTranslation("Edit Command"),
+                selected.Name);
+
             if (string.IsNullOrWhiteSpace(newName)) return;
-            string newCmd = Interaction.InputBox(LanguageManager.GetTranslation("Edit telnet command:"), LanguageManager.GetTranslation("Edit Command"), selected.Command);
+
+            string newCmd = InputBoxHelper.ShowInputBox(
+                LanguageManager.GetTranslation("Edit telnet command:"),
+                LanguageManager.GetTranslation("Edit Command"),
+                selected.Command);
             if (string.IsNullOrWhiteSpace(newCmd)) return;
+
             selected.Name = newName;
             selected.Command = newCmd;
             SaveCommands();

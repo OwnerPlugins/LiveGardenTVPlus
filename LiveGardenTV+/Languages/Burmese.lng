@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (ကက်ရှ်ဖိုင်တွဲ- %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (ကက်ရှ်ဖိုင်တွဲ- %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (ဆန္ဒအရ - အင်္ဂါရပ်များကို ပိတ်ဆို့ထားခြင်း မရှိပါ)
 (No description): (ဖော်ပြချက်မရှိပါ)
 • Add / rename / delete groups.: • အဖွဲ့များကို ထည့်/အမည်ပြောင်း/ဖျက်ပါ။
@@ -6,7 +6,7 @@
 • Check URL availability (only visible channels).: • URL ရရှိနိုင်မှုကို စစ်ဆေးပါ (မြင်နိုင်သောချန်နယ်များသာ)။
 • Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • ချန်နယ်အမည်များ၊ အဖွဲ့များ၊ URL များ၊ လိုဂိုများ၊ tvg-id၊ နိုင်ငံ၊ ဘာသာစကားများ၊ စိတ်ကြိုက်များကို တည်းဖြတ်ပါ။
 • Edit multiple URLs per channel (popup window).: • ချန်နယ်တစ်ခုစီတွင် URL များစွာကို တည်းဖြတ်ပါ (ပေါ့ပ်အပ်ဝင်းဒိုး)။
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG ဖြင့် ဖြည့်စွမ်းပါ- ပျောက်နေသော tvg-id ကို မပီသသော ကိုက်ညီမှုဖြင့် ပေါင်းထည့်သည်။
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG ဖြင့် ကြွယ်ဝစေသည်- ပျောက်နေသော tvg-id ကို ပေါင်းထည့်သည်။
 • EPG info displayed in status bar for current channel.: • လက်ရှိချန်နယ်အတွက် အခြေအနေဘားတွင် ပြသထားသည့် EPG အချက်အလက်။
 • Export OK / FAIL / filtered lists as M3U or JSON.: • OK / FAIL / စစ်ထုတ်ထားသောစာရင်းများကို M3U သို့မဟုတ် JSON အဖြစ် ထုတ်ယူပါ။
 • Fetch logos from remote repository (OwnerPlugins/logos).: • အဝေးထိန်းသိုလှောင်မှု (OwnerPlugins/လိုဂို) မှ လိုဂိုများကို ရယူပါ။
@@ -57,6 +57,7 @@ Click for details: အသေးစိတ်ကို နှိပ်ပါ။
 Close: ပိတ်လိုက်
 Command name:: အမိန့်အမည်-
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: အသိုင်းအဝိုင်းနှင့် စမ်းသပ်ခြင်း- CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Configuration Missing: ဖွဲ့စည်းမှု ပျောက်ဆုံးနေသည်။
 Confirm Reload: ပြန်တင်ကြောင်း အတည်ပြုပါ။
 Connect: ချိတ်ဆက်ပါ။
 Connected: ချိတ်ဆက်ထားသည်။
@@ -83,9 +84,10 @@ Edit command name:: ညွှန်ကြားချက်အမည်ကို
 Edit Playlist: အစီအစဉ်ကို တည်းဖြတ်ပါ။
 Edit telnet command:: telnet အမိန့်ကို တည်းဖြတ်ပါ။
 Edit URLs: URL များကို တည်းဖြတ်ပါ။
+Empty Password: စကားဝှက်ဗလာ
 End: အဆုံး
 Enrich with EPG: EPG ဖြင့် ကြွယ်ဝစေပါသည်။
-Enter bouquet name (without spaces):: ပန်းစည်းအမည်ကို ထည့်ပါ (နေရာလွတ်မရှိပါ)။
+Enter bouquet name (without spaces):: ပန်းစည်းအမည်ကို ရိုက်ထည့်ပါ (နေရာလွတ်မရှိပါ)။
 Enter JSON URL:: JSON URL ထည့်ပါ-
 Enter playlist URL (M3U or JSON):: အစီအစဉ် URL (M3U သို့မဟုတ် JSON) ထည့်ပါ-
 EPG: EPG
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: M3U ဖိုင်အသစ်
 Extracting update...: အပ်ဒိတ်ကို ထုတ်ယူနေသည်...
 Failed to download playlist: အစီအစဉ်ကို ဒေါင်းလုဒ်လုပ်ရန် မအောင်မြင်ပါ။
 Failed to load playlist: အစီအစဉ်ကို ဖွင့်၍မရပါ။
-Failed to update bouquets.tv.: bouquets.tv ကို အပ်ဒိတ်လုပ်ရန် မအောင်မြင်ပါ။
-Failed to upload bouquet.: ပန်းစည်းကို အပ်လုဒ်လုပ်၍မရပါ။
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: bouquets.tv ကို အပ်ဒိတ်လုပ်ရန် မအောင်မြင်ပါ။ Enigma2 စက်တွင် ဖိုင်ခွင့်ပြုချက်များကို စစ်ဆေးပါ။
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: ပန်းစည်းကို အပ်လုဒ်လုပ်၍မရပါ။ ကျေးဇူးပြု၍ သင်၏ Telnet ဆက်တင်များ (အိမ်ရှင်၊ ဆိပ်ကမ်း၊ အသုံးပြုသူအမည်၊ စကားဝှက်) ကို စစ်ဆေးပြီး ထပ်စမ်းကြည့်ပါ။
 Favorite: အကြိုက်ဆုံး
 Favorites only: စိတ်ကြိုက်များသာ
 Fetch Logos: Logos များရယူပါ။
@@ -180,7 +182,7 @@ Logos Matching Threshold: Logos ကိုက်ညီမှုအဆင့်
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logos သိုလှောင်မှု – ပိုင်ရှင်/repo/path (မူလ OwnerPlugins/logos) ကို ရွေးပါ။
 Logos Source: Logos အရင်းအမြစ်
 Logos Subfolder: Logos ဖိုင်တွဲ
-Map JSON properties to channel fields:: ချန်နယ်အကွက်များသို့ JSON ဂုဏ်သတ္တိများကို မြေပုံညွှန်းပါ-
+Map JSON properties to channel fields:: ချန်နယ်အကွက်များသို့ JSON ဂုဏ်သတ္တိများကို မြေပုံဆွဲပါ-
 Mapping saved for future imports of this file.: ဤဖိုင်၏ အနာဂတ်တင်သွင်းမှုများအတွက် မြေပုံကို သိမ်းဆည်းထားသည်။
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: ကိုက်ညီသောအဆင့်များ - EPG နှင့် လိုဂိုများအတွက် မပီမသ ကိုက်ညီမှု အာရုံခံနိုင်စွမ်းကို သတ်မှတ်ပါ။
 Name: နာမည်
@@ -272,7 +274,9 @@ Target Field: ပစ်မှတ်အကွက်
 Telnet command:: Telnet အမိန့်
 Telnet Commander: Telnet Commander
 Telnet Console: Telnet Console
-Telnet not configured. Please set it in Settings.: Telnet ကို စီစဉ်မထားပါ။ ဆက်တင်များတွင် ကျေးဇူးပြု၍ သတ်မှတ်ပါ။
+Telnet host not configured. Please set it in Settings.: Telnet host ကို စီစဉ်မထားပါ။ ဆက်တင်များတွင် ကျေးဇူးပြု၍ သတ်မှတ်ပါ။
+Telnet password is empty. Do you want to continue?: Telnet စကားဝှက်သည် ဗလာဖြစ်နေသည်။ ဆက်လုပ်လိုပါသလား။
+Telnet username not configured. Please set it in Settings.: Telnet အသုံးပြုသူအမည်ကို သတ်မှတ်မထားပါ။ ဆက်တင်များတွင် ကျေးဇူးပြု၍ သတ်မှတ်ပါ။
 Thanks to: ကျေးဇူးတင်ပါတယ်။
 Theme picker: အပြင်အဆင် ရွေးပေးသူ
 Theme picker – accessible via Tools menu on main toolbar.: အခင်းအကျင်းရွေးချယ်မှု – ပင်မကိရိယာဘားရှိ ကိရိယာမီနူးမှတစ်ဆင့် ဝင်ရောက်ကြည့်ရှုနိုင်သည်။
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI- MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: အဝေးထိန်းပရောဂျက်ဖိုင်တွင် ဗားရှင်းကို ရှာမတွေ့ပါ။
 Update: အပ်ဒိတ်
 Update complete. Restarting...: အပ်ဒိတ် ပြီးပါပြီ။ ပြန်လည်စတင်နေသည်...
+Update Error: အပ်ဒိတ် အမှား
 Update failed: : အပ်ဒိတ် မအောင်မြင်ပါ
 Updates: အပ်ဒိတ်များ
+Upload Error: အပ်လုဒ်အမှား
 URL: URL
 URL (primary): URL (မူလတန်း)
 URL Check: URL စစ်ဆေးပါ။

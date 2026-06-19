@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Папка кэша: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Папка кэша: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Цалкам добраахвотна - ніякія функцыі не блакуюцца)
 (No description): (Без апісання)
 • Add / rename / delete groups.: • Даданне / перайменаванне / выдаленне груп.
@@ -57,6 +57,7 @@ Click for details: Націсніце, каб даведацца падрабя�
 Close: Блізка
 Command name:: Назва каманды:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Супольнасць і тэставанне: CorvoBoys (corvoboys.org) і LinuxSat-Support.com
+Configuration Missing: Адсутнічае канфігурацыя
 Confirm Reload: Пацвердзіце перазагрузку
 Connect: Злучыцца
 Connected: Падключана
@@ -83,6 +84,7 @@ Edit command name:: Рэдагаваць назву каманды:
 Edit Playlist: Рэдагаваць спіс прайгравання
 Edit telnet command:: Рэдагаваць каманду Telnet:
 Edit URLs: Рэдагаваць URL-адрасы
+Empty Password: Пусты пароль
 End: Канец
 Enrich with EPG: Узбагаціць EPG
 Enter bouquet name (without spaces):: Увядзіце назву букета (без прабелаў):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Экспартаваць тол
 Extracting update...: Выманне абнаўлення...
 Failed to download playlist: Не ўдалося спампаваць плэйліст
 Failed to load playlist: Не ўдалося загрузіць плэйліст
-Failed to update bouquets.tv.: Не ўдалося абнавіць bouquets.tv.
-Failed to upload bouquet.: Не ўдалося загрузіць букет.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Не ўдалося абнавіць bouquets.tv. Калі ласка, праверце правы доступу да файлаў на прыладзе Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Не ўдалося загрузіць букет. Праверце налады Telnet (хост, порт, імя карыстальніка, пароль) і паўтарыце спробу.
 Favorite: Любімая
 Favorites only: Толькі абранае
 Fetch Logos: Атрымаць лагатыпы
@@ -272,7 +274,9 @@ Target Field: Мэтавае поле
 Telnet command:: Каманда Telnet:
 Telnet Commander: Telnet Commander
 Telnet Console: Telnet кансоль
-Telnet not configured. Please set it in Settings.: Telnet не настроены. Усталюйце гэта ў наладах.
+Telnet host not configured. Please set it in Settings.: Хост Telnet не наладжаны. Усталюйце гэта ў наладах.
+Telnet password is empty. Do you want to continue?: Пароль Telnet пусты. Вы хочаце працягнуць?
+Telnet username not configured. Please set it in Settings.: Імя карыстальніка Telnet не наладжана. Усталюйце гэта ў наладах.
 Thanks to: Дзякуючы
 Theme picker: Выбар тэмы
 Theme picker – accessible via Tools menu on main toolbar.: Выбар тэмы – даступны праз меню Інструменты на галоўнай панэлі інструментаў.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: Карыстацкі інтэрфейс: MaterialD
 Unable to find version in remote project file.: Немагчыма знайсці версію ў аддаленым файле праекта.
 Update: Абнаўленне
 Update complete. Restarting...: Абнаўленне завершана. Перазапуск...
+Update Error: Памылка абнаўлення
 Update failed: : Памылка абнаўлення:
 Updates: Абнаўленні
+Upload Error: Памылка загрузкі
 URL: URL
 URL (primary): URL (асноўны)
 URL Check: Праверка URL

@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): （缓存文件夹：%TEMP%\\LiveGardenTVPlus\\epg_cache）
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): （缓存文件夹：%TEMP%\\LiveGardenTVPlus\\epg_cache）
 (Completely voluntary – no features are blocked): （完全自愿 - 没有任何功能被阻止）
 (No description): （无描述）
 • Add / rename / delete groups.: • 添加/重命名/删除组。
@@ -57,6 +57,7 @@ Click for details: 点击查看详情
 Close: 关闭
 Command name:: 命令名称：
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: 社区和测试：CorvoBoys (corvoboys.org) 和 LinuxSat-Support.com
+Configuration Missing: 配置缺失
 Confirm Reload: 确认重新加载
 Connect: 连接
 Connected: 已连接
@@ -83,6 +84,7 @@ Edit command name:: 编辑命令名称：
 Edit Playlist: 编辑播放列表
 Edit telnet command:: 编辑telnet命令：
 Edit URLs: 编辑网址
+Empty Password: 密码为空
 End: 结尾
 Enrich with EPG: 通过 EPG 丰富内容
 Enter bouquet name (without spaces):: 输入花束名称（不含空格）：
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: 仅将喜爱的频道导出到�
 Extracting update...: 正在提取更新...
 Failed to download playlist: 下载播放列表失败
 Failed to load playlist: 无法加载播放列表
-Failed to update bouquets.tv.: 无法更新 bouquets.tv。
-Failed to upload bouquet.: 上传花束失败。
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: 无法更新 bouquets.tv。请检查 Enigma2 设备上的文件权限。
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: 上传花束失败。请检查您的 Telnet 设置（主机、端口、用户名、密码），然后重试。
 Favorite: 最喜欢的
 Favorites only: 仅限收藏夹
 Fetch Logos: 获取徽标
@@ -272,7 +274,9 @@ Target Field: 目标领域
 Telnet command:: 远程登录命令：
 Telnet Commander: 远程登录指挥官
 Telnet Console: 远程登录控制台
-Telnet not configured. Please set it in Settings.: 未配置 Telnet。请在“设置”中进行设置。
+Telnet host not configured. Please set it in Settings.: Telnet 主机未配置。请在“设置”中进行设置。
+Telnet password is empty. Do you want to continue?: Telnet 密码为空。您想继续吗？
+Telnet username not configured. Please set it in Settings.: Telnet 用户名未配置。请在“设置”中进行设置。
 Thanks to: 由于
 Theme picker: 主题选择器
 Theme picker – accessible via Tools menu on main toolbar.: 主题选择器 - 可通过主工具栏上的“工具”菜单访问。
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: 用户界面：MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: 无法在远程项目文件中找到版本。
 Update: 更新
 Update complete. Restarting...: 更新完成。正在重新启动...
+Update Error: 更新错误
 Update failed: : 更新失败：
 Updates: 更新
+Upload Error: 上传错误
 URL: 网址
 URL (primary): 网址（主要）
 URL Check: 网址检查

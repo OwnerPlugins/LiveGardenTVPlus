@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Кэш папкасы: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Кэш папкасы: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Толугу менен ыктыярдуу – эч кандай функция бөгөттөлгөн эмес)
 (No description): (Сыпаттама жок)
 • Add / rename / delete groups.: • Топторду кошуу / атын өзгөртүү / жок кылуу.
@@ -6,7 +6,7 @@
 • Check URL availability (only visible channels).: • URL жеткиликтүүлүгүн текшерүү (көрүнүүчү каналдар гана).
 • Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Канал аттарын, топторду, URL'дерди, логотиптерди, tvg-идентификаторлорун, өлкөнү, тилдерди, сүйүктүүлөрдү түзөтүңүз.
 • Edit multiple URLs per channel (popup window).: • Ар бир каналга бир нече URL'ди түзөтүңүз (калкып чыкма терезе).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG менен байытуу: бүдөмүк дал келүү аркылуу жок tvg-id кошот.
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG менен байытуу: бүдөмүк дал келүүнүн жардамы менен жок tvg-id кошот.
 • EPG info displayed in status bar for current channel.: • Учурдагы канал үчүн абал тилкесинде көрсөтүлгөн EPG маалыматы.
 • Export OK / FAIL / filtered lists as M3U or JSON.: • OK / FAIL / чыпкаланган тизмелерди M3U же JSON катары экспорттоо.
 • Fetch logos from remote repository (OwnerPlugins/logos).: • Алыскы репозиторийден логотиптерди алуу (OwnerPlugins/logos).
@@ -16,7 +16,7 @@
 • Picture‑in‑Picture (PIP) button.: • Сүрөттөгү сүрөт (PIP) баскычы.
 • Playback speed: 0.5x, 1x, 2x buttons.: • Ойнотуу ылдамдыгы: 0,5x, 1x, 2x баскычтары.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Башты чыкылдатуу менен каалаган тилкени сорттоо; баштапкы тартипке кайтуу үчүн "Тартипти калыбына келтирүү" дегенди колдонуңуз.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: түз агымды тындыруу; артка издөө үчүн сыдырманы сүйрөңүз; кайтып келүү үчүн 'Live' баскычын басыңыз.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: түз агымды тындыруу; артка издөө үчүн сыдырманы сүйрөңүз; кайтуу үчүн 'Live' баскычын басыңыз.
 ◀ Previous: ◀ Мурунку
 16 colour themes + Light/Dark variants.: 16 түс темасы + Ачык/Кара варианттар.
 A new version is available. Do you want to update now?: Жаңы версиясы бар. Азыр жаңырткыңыз келеби?
@@ -57,6 +57,7 @@ Click for details: чоо-жайын билүү үчүн басыңыз
 Close: Жабуу
 Command name:: Буйрук аты:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Коомчулук жана тестирлөө: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Configuration Missing: Конфигурация жок
 Confirm Reload: Кайра жүктөөнү ырастоо
 Connect: Туташуу
 Connected: Туташкан
@@ -83,6 +84,7 @@ Edit command name:: Команданын атын түзөтүү:
 Edit Playlist: Ойнотмо тизмени түзөтүү
 Edit telnet command:: Telnet буйругун түзөтүү:
 Edit URLs: URL'дерди түзөтүү
+Empty Password: Бош сырсөз
 End: Аягы
 Enrich with EPG: EPG менен байытуу
 Enter bouquet name (without spaces):: Букеттин атын киргизиңиз (боштуксуз):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Жаңы M3U файлына с�
 Extracting update...: Жаңыртуу чыгарылууда...
 Failed to download playlist: Ойнотмо тизме жүктөлбөй калды
 Failed to load playlist: Ойнотмо тизме жүктөлгөн жок
-Failed to update bouquets.tv.: bouquets.tv жаңыртылган жок.
-Failed to upload bouquet.: Букет жүктөлгөн жок.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: bouquets.tv жаңыртылган жок. Сураныч, Enigma2 түзмөгүндөгү файл уруксаттарын текшериңиз.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Букет жүктөлгөн жок. Telnet жөндөөлөрүңүздү (хост, порт, колдонуучу аты, сырсөз) текшерип, кайра аракет кылыңыз.
 Favorite: Сүйүктүү
 Favorites only: Сүйүктүүлөр гана
 Fetch Logos: Логотиптерди алуу
@@ -272,7 +274,9 @@ Target Field: Максаттуу талаа
 Telnet command:: Telnet буйругу:
 Telnet Commander: Telnet Commander
 Telnet Console: Telnet консолу
-Telnet not configured. Please set it in Settings.: Telnet конфигурацияланган эмес. Сураныч, аны Жөндөөлөрдөн орнотуңуз.
+Telnet host not configured. Please set it in Settings.: Telnet хосту конфигурацияланган эмес. Сураныч, аны Жөндөөлөрдөн орнотуңуз.
+Telnet password is empty. Do you want to continue?: Telnet сырсөзү бош. Улангыңыз келеби?
+Telnet username not configured. Please set it in Settings.: Telnet колдонуучу аты конфигурацияланган эмес. Сураныч, аны Жөндөөлөрдөн орнотуңуз.
 Thanks to: рахмат
 Theme picker: Тема тандагыч
 Theme picker – accessible via Tools menu on main toolbar.: Тема тандоочу – негизги куралдар панелиндеги Куралдар менюсу аркылуу жеткиликтүү.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Алыскы долбоордун файлында версия табылбай жатат.
 Update: Жаңыртуу
 Update complete. Restarting...: Жаңыртуу аяктады. Кайра иштетилүүдө...
+Update Error: Жаңыртуу катасы
 Update failed: : Жаңыртылган жок:
 Updates: Жаңыртуулар
+Upload Error: Жүктөө катасы
 URL: URL
 URL (primary): URL (негизги)
 URL Check: URL текшерүү

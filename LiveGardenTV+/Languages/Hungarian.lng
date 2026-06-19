@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Gyorsítótár mappa: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Gyorsítótár mappa: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Teljesen önkéntes – egyetlen funkció sem blokkolva)
 (No description): (Nincs leírás)
 • Add / rename / delete groups.: • Csoportok hozzáadása/átnevezése/törlése.
@@ -57,6 +57,7 @@ Click for details: Kattintson a részletekért
 Close: Közeli
 Command name:: Parancs neve:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Közösség és tesztelés: CorvoBoys (corvoboys.org) és LinuxSat-Support.com
+Configuration Missing: Hiányzik a konfiguráció
 Confirm Reload: Erősítse meg az Újratöltést
 Connect: Csatlakozás
 Connected: Csatlakozva
@@ -83,6 +84,7 @@ Edit command name:: Parancsnév szerkesztése:
 Edit Playlist: Lejátszási lista szerkesztése
 Edit telnet command:: Telnet parancs szerkesztése:
 Edit URLs: URL-ek szerkesztése
+Empty Password: Üres jelszó
 End: Vége
 Enrich with EPG: Gazdagítsa EPG-vel
 Enter bouquet name (without spaces):: Adja meg a csokor nevét (szóközök nélkül):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Csak a kedvenc csatornákat exp
 Extracting update...: Frissítés kicsomagolása...
 Failed to download playlist: Nem sikerült letölteni a lejátszási listát
 Failed to load playlist: Nem sikerült betölteni a lejátszási listát
-Failed to update bouquets.tv.: Nem sikerült frissíteni a bouquets.tv-t.
-Failed to upload bouquet.: Nem sikerült feltölteni a csokrot.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Nem sikerült frissíteni a bouquets.tv-t. Kérjük, ellenőrizze a fájlengedélyeket az Enigma2 eszközön.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Nem sikerült feltölteni a csokrot. Kérjük, ellenőrizze a Telnet beállításait (gazdagép, port, felhasználónév, jelszó), és próbálja újra.
 Favorite: Kedvenc
 Favorites only: Csak a kedvencek
 Fetch Logos: Logók lekérése
@@ -272,7 +274,9 @@ Target Field: Célmező
 Telnet command:: Telnet parancs:
 Telnet Commander: Telnet parancsnok
 Telnet Console: Telnet konzol
-Telnet not configured. Please set it in Settings.: Telnet nincs konfigurálva. Kérjük, állítsa be a Beállításokban.
+Telnet host not configured. Please set it in Settings.: A Telnet gazdagép nincs konfigurálva. Kérjük, állítsa be a Beállításokban.
+Telnet password is empty. Do you want to continue?: A Telnet jelszó üres. Folytatja?
+Telnet username not configured. Please set it in Settings.: A Telnet felhasználónév nincs konfigurálva. Kérjük, állítsa be a Beállításokban.
 Thanks to: Köszönhetően
 Theme picker: Témaválasztó
 Theme picker – accessible via Tools menu on main toolbar.: Témaválasztó – a fő eszköztár Eszközök menüjéből érhető el.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Nem található verzió a távoli projektfájlban.
 Update: Frissítés
 Update complete. Restarting...: Frissítés kész. Újraindítás...
-Update failed: : A frissítés sikertelen:
+Update Error: Frissítési hiba
+Update failed: : A frissítés nem sikerült:
 Updates: Frissítések
+Upload Error: Feltöltési hiba
 URL: URL
 URL (primary): URL (elsődleges)
 URL Check: URL-ellenőrzés

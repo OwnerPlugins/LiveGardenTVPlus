@@ -1397,7 +1397,7 @@ namespace LiveGardenTVPlus
             Debug.WriteLine($"Telnet host: {prefs.TelnetHost}, Port: {prefs.TelnetPort}, User: {prefs.TelnetUser}");
             Logger.Info($"Telnet host: {prefs.TelnetHost}, Port: {prefs.TelnetPort}, User: {prefs.TelnetUser}");
 
-            string bouquetName = Microsoft.VisualBasic.Interaction.InputBox(
+            string bouquetName = InputBoxHelper.ShowInputBox(
                 LanguageManager.GetTranslation("Enter bouquet name (without spaces):"),
                 LanguageManager.GetTranslation("Bouquet Name"),
                 "LiveGardenTV+");

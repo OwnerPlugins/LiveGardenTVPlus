@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (કેશ ફોલ્ડર: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (કેશ ફોલ્ડર: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (સંપૂર્ણપણે સ્વૈચ્છિક - કોઈપણ સુવિધાઓ અવરોધિત નથી)
 (No description): (કોઈ વર્ણન નથી)
 • Add / rename / delete groups.: • જૂથો ઉમેરો / નામ બદલો / કાઢી નાખો.
@@ -57,6 +57,7 @@ Click for details: વિગતો માટે ક્લિક કરો
 Close: બંધ કરો
 Command name:: આદેશનું નામ:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: સમુદાય અને પરીક્ષણ: CorvoBoys (corvoboys.org) અને LinuxSat-Support.com
+Configuration Missing: રૂપરેખાંકન ખૂટે છે
 Confirm Reload: ફરીથી લોડ કરવાની પુષ્ટિ કરો
 Connect: કનેક્ટ કરો
 Connected: કનેક્ટેડ
@@ -83,6 +84,7 @@ Edit command name:: આદેશનું નામ સંપાદિત કર
 Edit Playlist: પ્લેલિસ્ટ સંપાદિત કરો
 Edit telnet command:: ટેલનેટ આદેશ સંપાદિત કરો:
 Edit URLs: URL ને સંપાદિત કરો
+Empty Password: ખાલી પાસવર્ડ
 End: અંત
 Enrich with EPG: EPG સાથે સમૃદ્ધ બનાવો
 Enter bouquet name (without spaces):: કલગીનું નામ દાખલ કરો (જગ્યા વિના):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: નવી M3U ફાઇલમ�
 Extracting update...: અપડેટ એક્સટ્રેક્ટ કરી રહ્યાં છીએ...
 Failed to download playlist: પ્લેલિસ્ટ ડાઉનલોડ કરવામાં નિષ્ફળ
 Failed to load playlist: પ્લેલિસ્ટ લોડ કરવામાં નિષ્ફળ
-Failed to update bouquets.tv.: bouquets.tv અપડેટ કરવામાં નિષ્ફળ.
-Failed to upload bouquet.: કલગી અપલોડ કરવામાં નિષ્ફળ.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: bouquets.tv અપડેટ કરવામાં નિષ્ફળ. કૃપા કરીને Enigma2 ઉપકરણ પર ફાઇલ પરવાનગીઓ તપાસો.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: કલગી અપલોડ કરવામાં નિષ્ફળ. કૃપા કરીને તમારી ટેલનેટ સેટિંગ્સ (હોસ્ટ, પોર્ટ, વપરાશકર્તા નામ, પાસવર્ડ) તપાસો અને ફરી પ્રયાસ કરો.
 Favorite: મનપસંદ
 Favorites only: માત્ર મનપસંદ
 Fetch Logos: લોગો મેળવો
@@ -272,7 +274,9 @@ Target Field: લક્ષ્ય ક્ષેત્ર
 Telnet command:: ટેલનેટ આદેશ:
 Telnet Commander: ટેલનેટ કમાન્ડર
 Telnet Console: ટેલનેટ કન્સોલ
-Telnet not configured. Please set it in Settings.: ટેલનેટ ગોઠવેલ નથી. કૃપા કરીને તેને સેટિંગ્સમાં સેટ કરો.
+Telnet host not configured. Please set it in Settings.: ટેલનેટ હોસ્ટ ગોઠવેલ નથી. કૃપા કરીને તેને સેટિંગ્સમાં સેટ કરો.
+Telnet password is empty. Do you want to continue?: ટેલનેટ પાસવર્ડ ખાલી છે. શું તમે ચાલુ રાખવા માંગો છો?
+Telnet username not configured. Please set it in Settings.: ટેલનેટ વપરાશકર્તાનામ ગોઠવેલ નથી. કૃપા કરીને તેને સેટિંગ્સમાં સેટ કરો.
 Thanks to: માટે આભાર
 Theme picker: થીમ પીકર
 Theme picker – accessible via Tools menu on main toolbar.: થીમ પીકર - મુખ્ય ટૂલબાર પર ટૂલ્સ મેનૂ દ્વારા સુલભ.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: રિમોટ પ્રોજેક્ટ ફાઇલમાં સંસ્કરણ શોધવામાં અસમર્થ.
 Update: અપડેટ કરો
 Update complete. Restarting...: અપડેટ પૂર્ણ થયું. પુનઃપ્રારંભ કરી રહ્યું છે...
+Update Error: અપડેટ ભૂલ
 Update failed: : અપડેટ નિષ્ફળ થયું:
 Updates: અપડેટ્સ
+Upload Error: અપલોડ ભૂલ
 URL: URL
 URL (primary): URL (પ્રાથમિક)
 URL Check: URL તપાસો

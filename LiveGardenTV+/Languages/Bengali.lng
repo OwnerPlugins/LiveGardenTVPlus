@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (ক্যাশ ফোল্ডার: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (ক্যাশ ফোল্ডার: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (সম্পূর্ণ স্বেচ্ছায় – কোন বৈশিষ্ট্য অবরুদ্ধ নয়)
 (No description): (কোন বর্ণনা নেই)
 • Add / rename / delete groups.: • গ্রুপ যোগ করুন/নাম পরিবর্তন করুন/মুছুন।
@@ -57,6 +57,7 @@ Click for details: বিস্তারিত জানতে ক্লিক �
 Close: বন্ধ
 Command name:: কমান্ডের নাম:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: সম্প্রদায় এবং পরীক্ষা: CorvoBoys (corvoboys.org) এবং LinuxSat-Support.com
+Configuration Missing: কনফিগারেশন অনুপস্থিত
 Confirm Reload: পুনরায় লোড নিশ্চিত করুন
 Connect: সংযোগ করুন
 Connected: সংযুক্ত
@@ -83,6 +84,7 @@ Edit command name:: কমান্ডের নাম সম্পাদনা 
 Edit Playlist: প্লেলিস্ট সম্পাদনা করুন
 Edit telnet command:: টেলনেট কমান্ড সম্পাদনা করুন:
 Edit URLs: ইউআরএল এডিট করুন
+Empty Password: খালি পাসওয়ার্ড
 End: শেষ
 Enrich with EPG: ইপিজি দিয়ে সমৃদ্ধ করুন
 Enter bouquet name (without spaces):: তোড়ার নাম লিখুন (স্পেস ছাড়া):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: একটি নতুন M3U �
 Extracting update...: আপডেট বের করা হচ্ছে...
 Failed to download playlist: প্লেলিস্ট ডাউনলোড করতে ব্যর্থ হয়েছে৷
 Failed to load playlist: প্লেলিস্ট লোড করতে ব্যর্থ হয়েছে৷
-Failed to update bouquets.tv.: bouquets.tv আপডেট করতে ব্যর্থ হয়েছে৷
-Failed to upload bouquet.: তোড়া আপলোড করতে ব্যর্থ হয়েছে৷
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: bouquets.tv আপডেট করতে ব্যর্থ হয়েছে৷ Enigma2 ডিভাইসে ফাইল অনুমতি পরীক্ষা করুন.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: তোড়া আপলোড করতে ব্যর্থ হয়েছে৷ অনুগ্রহ করে আপনার টেলনেট সেটিংস চেক করুন (হোস্ট, পোর্ট, ইউজারনেম, পাসওয়ার্ড) এবং আবার চেষ্টা করুন।
 Favorite: প্রিয়
 Favorites only: শুধুমাত্র প্রিয়
 Fetch Logos: লোগো আনুন
@@ -272,7 +274,9 @@ Target Field: লক্ষ্য ক্ষেত্র
 Telnet command:: টেলনেট কমান্ড:
 Telnet Commander: টেলনেট কমান্ডার
 Telnet Console: টেলনেট কনসোল
-Telnet not configured. Please set it in Settings.: টেলনেট কনফিগার করা হয়নি। সেটিংসে সেট করুন।
+Telnet host not configured. Please set it in Settings.: টেলনেট হোস্ট কনফিগার করা হয়নি। সেটিংসে সেট করুন।
+Telnet password is empty. Do you want to continue?: টেলনেট পাসওয়ার্ড খালি। আপনি কি চালিয়ে যেতে চান?
+Telnet username not configured. Please set it in Settings.: টেলনেট ব্যবহারকারীর নাম কনফিগার করা হয়নি। সেটিংসে সেট করুন।
 Thanks to: ধন্যবাদ
 Theme picker: থিম বাছাইকারী
 Theme picker – accessible via Tools menu on main toolbar.: থিম পিকার - প্রধান টুলবারে টুলস মেনুর মাধ্যমে অ্যাক্সেসযোগ্য।
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: দূরবর্তী প্রকল্প ফাইলে সংস্করণ খুঁজে পাওয়া যায়নি.
 Update: আপডেট
 Update complete. Restarting...: আপডেট সম্পূর্ণ। রিস্টার্ট হচ্ছে...
+Update Error: আপডেট ত্রুটি
 Update failed: : আপডেট ব্যর্থ হয়েছে:
 Updates: আপডেট
+Upload Error: আপলোড ত্রুটি৷
 URL: URL
 URL (primary): URL (প্রাথমিক)
 URL Check: ইউআরএল চেক

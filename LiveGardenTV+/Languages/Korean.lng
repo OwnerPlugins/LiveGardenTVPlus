@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (캐시 폴더: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (캐시 폴더: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (완전히 자발적 – 차단된 기능 없음)
 (No description): (설명 없음)
 • Add / rename / delete groups.: • 그룹을 추가/이름 바꾸기/삭제합니다.
@@ -6,7 +6,7 @@
 • Check URL availability (only visible channels).: • URL 가용성을 확인하십시오(표시되는 채널만 해당).
 • Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • 채널 이름, 그룹, URL, 로고, tvg-id, 국가, 언어, 즐겨찾기를 편집합니다.
 • Edit multiple URLs per channel (popup window).: • 채널당 여러 URL을 편집합니다(팝업 창).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG로 강화: 퍼지 일치를 사용하여 누락된 tvg-id를 추가합니다.
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG로 보강: 퍼지 일치를 사용하여 누락된 tvg-id를 추가합니다.
 • EPG info displayed in status bar for current channel.: • 현재 채널의 상태 표시줄에 EPG 정보가 표시됩니다.
 • Export OK / FAIL / filtered lists as M3U or JSON.: • OK/FAIL/필터링된 목록을 M3U 또는 JSON으로 내보냅니다.
 • Fetch logos from remote repository (OwnerPlugins/logos).: • 원격 저장소(OwnerPlugins/logos)에서 로고를 가져옵니다.
@@ -57,6 +57,7 @@ Click for details: 자세한 내용을 보려면 클릭하세요.
 Close: 닫다
 Command name:: 명령 이름:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: 커뮤니티 및 테스트: CorvoBoys(corvoboys.org) 및 LinuxSat-Support.com
+Configuration Missing: 구성 누락
 Confirm Reload: 새로고침 확인
 Connect: 연결하다
 Connected: 연결됨
@@ -83,6 +84,7 @@ Edit command name:: 명령 이름 편집:
 Edit Playlist: 재생목록 편집
 Edit telnet command:: 텔넷 명령 편집:
 Edit URLs: URL 편집
+Empty Password: 비밀번호 비우기
 End: 끝
 Enrich with EPG: EPG로 풍요롭게 하세요
 Enter bouquet name (without spaces):: 꽃다발 이름 입력(공백 없이):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: 즐겨찾는 채널만 새 M3U 
 Extracting update...: 업데이트 추출 중...
 Failed to download playlist: 재생목록을 다운로드하지 못했습니다.
 Failed to load playlist: 재생목록을 로드하지 못했습니다.
-Failed to update bouquets.tv.: Bouques.tv 업데이트에 실패했습니다.
-Failed to upload bouquet.: 꽃다발을 업로드하지 못했습니다.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Bouques.tv 업데이트에 실패했습니다. Enigma2 장치의 파일 권한을 확인하십시오.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: 꽃다발을 업로드하지 못했습니다. Telnet 설정(호스트, 포트, 사용자 이름, 비밀번호)을 확인하고 다시 시도하십시오.
 Favorite: 가장 좋아하는
 Favorites only: 즐겨찾기만
 Fetch Logos: 로고 가져오기
@@ -272,7 +274,9 @@ Target Field: 대상분야
 Telnet command:: 텔넷 명령:
 Telnet Commander: 텔넷 사령관
 Telnet Console: 텔넷 콘솔
-Telnet not configured. Please set it in Settings.: 텔넷이 구성되지 않았습니다. 설정에서 설정해주세요.
+Telnet host not configured. Please set it in Settings.: Telnet 호스트가 구성되지 않았습니다. 설정에서 설정해주세요.
+Telnet password is empty. Do you want to continue?: 텔넷 비밀번호가 비어 있습니다. 계속하시겠습니까?
+Telnet username not configured. Please set it in Settings.: Telnet 사용자 이름이 구성되지 않았습니다. 설정에서 설정해주세요.
 Thanks to: 덕분에
 Theme picker: 테마 선택기
 Theme picker – accessible via Tools menu on main toolbar.: 테마 선택기 – 기본 도구 모음의 도구 메뉴를 통해 액세스할 수 있습니다.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: 원격 프로젝트 파일에서 버전을 찾을 수 없습니다.
 Update: 업데이트
 Update complete. Restarting...: 업데이트가 완료되었습니다. 다시 시작하는 중...
+Update Error: 업데이트 오류
 Update failed: : 업데이트 실패:
 Updates: 업데이트
+Upload Error: 업로드 오류
 URL: URL
 URL (primary): URL(기본)
 URL Check: URL 확인
@@ -299,6 +305,6 @@ URLs & Status: URL 및 상태
 Version: 버전
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus가 종료되기를 기다리는 중...
 Warning: 경고
-WebView2: Microsoft Edge WebView2: WebView2: 마이크로소프트 엣지 WebView2
+WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
 Youtube URL: 유튜브 URL
 Youtube URLs: 유튜브 URL

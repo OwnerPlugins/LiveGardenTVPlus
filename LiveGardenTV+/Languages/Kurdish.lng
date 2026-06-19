@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Peldanka cache: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Peldanka cache: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Bi tevahî dilxwazî ​​- tu taybetmendî nayên asteng kirin)
 (No description): (Bê şirove)
 • Add / rename / delete groups.: • Koman lê zêde bikin / binav bikin / jêbirin.
@@ -57,6 +57,7 @@ Click for details: Ji bo hûragahiyan bikirtînin
 Close: Nêzîkî
 Command name:: Navê fermanê:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Civat û ceribandin: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Configuration Missing: Configuration Missing
 Confirm Reload: Ji nûve barkirinê piştrast bikin
 Connect: Bihevgirêdan
 Connected: Girêdayî
@@ -83,6 +84,7 @@ Edit command name:: Navê fermanê biguherîne:
 Edit Playlist: Lîsteya lîstikê biguherîne
 Edit telnet command:: Fermana telnet biguherîne:
 Edit URLs: URLan biguherînin
+Empty Password: Şîfreya vala
 End: Dawî
 Enrich with EPG: Bi EPG dewlemend bikin
 Enter bouquet name (without spaces):: Navê bûkê (bê valahî) binivîse:
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Tenê kanalên bijare ji pelek 
 Extracting update...: Derxistina nûvekirinê...
 Failed to download playlist: Daxistina lîsteya lîstikê bi ser neket
 Failed to load playlist: Barkirina lîsteya lîstikê bi ser neket
-Failed to update bouquets.tv.: Nûvekirina bouquets.tv bi ser neket.
-Failed to upload bouquet.: Barkirina bûkê bi ser neket.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Nûvekirina bouquets.tv bi ser neket. Ji kerema xwe destûrên pelê li ser cîhaza Enigma2 kontrol bikin.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Barkirina bûkê bi ser neket. Ji kerema xwe mîhengên Telnet (mêvan, port, navê bikarhêner, şîfre) kontrol bikin û dîsa biceribînin.
 Favorite: Hezkirî
 Favorites only: Favorites tenê
 Fetch Logos: Logoyan bistînin
@@ -272,7 +274,9 @@ Target Field: Target Field
 Telnet command:: Fermana Telnet:
 Telnet Commander: Fermandarê Telnet
 Telnet Console: Konsola Telnet
-Telnet not configured. Please set it in Settings.: Telnet nehate mîheng kirin. Ji kerema xwe wê di Mîhengan de bicîh bikin.
+Telnet host not configured. Please set it in Settings.: Mêvandarê Telnet nehatiye mîheng kirin. Ji kerema xwe wê di Mîhengan de bicîh bikin.
+Telnet password is empty. Do you want to continue?: Şîfreya Telnet vala ye. Ma hûn dixwazin berdewam bikin?
+Telnet username not configured. Please set it in Settings.: Navê bikarhêner Telnet nehate mîheng kirin. Ji kerema xwe wê di Mîhengan de bicîh bikin.
 Thanks to: Bi saya
 Theme picker: Hilbijêra mijarê
 Theme picker – accessible via Tools menu on main toolbar.: Hilbijêra mijarê - bi menuya Amûran a li darika amûrê ya sereke ve tê gihîştin.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Di pelê projeya dûr de guhertoya nayê dîtin.
 Update: Nûvekirin
 Update complete. Restarting...: Nûvekirin qediya. Ji nû ve dest pê dike...
+Update Error: Çewtiya Nûvekirin
 Update failed: : Nûvekirin bi ser neket:
 Updates: Updates
+Upload Error: Çewtiya barkirinê
 URL: URL
 URL (primary): URL (sereke)
 URL Check: URL Check

@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache map: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache map: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Folslein frijwillich - gjin funksjes wurde blokkearre)
 (No description): (Gjin beskriuwing)
 • Add / rename / delete groups.: • Add / omneame / wiskje groepen.
@@ -6,7 +6,7 @@
 • Check URL availability (only visible channels).: • Kontrolearje URL beskikber (allinne sichtbere kanalen).
 • Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Kanaalnammen, groepen, URL's, logo's, tvg-id, lân, talen, favoriten bewurkje.
 • Edit multiple URLs per channel (popup window).: • Bewurkje meardere URLs per kanaal (popup finster).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Ferrykje mei EPG: foeget ûntbrekkende tvg-id ta mei fuzzy matching.
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Enrich with EPG: adds missing tvg-id using fuzzy matching.
 • EPG info displayed in status bar for current channel.: • EPG info werjûn yn status bar foar aktuele kanaal.
 • Export OK / FAIL / filtered lists as M3U or JSON.: • Eksportearje OK / FAIL / filtere listen as M3U of JSON.
 • Fetch logos from remote repository (OwnerPlugins/logos).: • Fetch logos út remote repository (OwnerPlugins / logos).
@@ -57,6 +57,7 @@ Click for details: Klik foar details
 Close: Slute
 Command name:: Kommando namme:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Mienskip en testen: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Configuration Missing: Konfiguraasje Missing
 Confirm Reload: Befêstigje Reload
 Connect: Ferbine
 Connected: Ferbûn
@@ -83,6 +84,7 @@ Edit command name:: Kommando namme bewurkje:
 Edit Playlist: Playlist bewurkje
 Edit telnet command:: Telnet kommando bewurkje:
 Edit URLs: URLs bewurkje
+Empty Password: Leech wachtwurd
 End: Ein
 Enrich with EPG: Ferrykje mei EPG
 Enter bouquet name (without spaces):: Fier boeketnamme yn (sûnder spaasjes):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Eksportearje allinich favorite 
 Extracting update...: Update útpakke...
 Failed to download playlist: It downloaden fan playlist is mislearre
 Failed to load playlist: It laden fan playlist is mislearre
-Failed to update bouquets.tv.: Bywurkje bouquets.tv mislearre.
-Failed to upload bouquet.: It uploaden fan boeket mislearre.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Bywurkje bouquets.tv mislearre. Kontrolearje asjebleaft triemrjochten op it Enigma2-apparaat.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: It uploaden fan boeket mislearre. Kontrolearje jo Telnet-ynstellingen (host, poarte, brûkersnamme, wachtwurd) en besykje it nochris.
 Favorite: Favoryt
 Favorites only: Favorites allinne
 Fetch Logos: Logos ophelje
@@ -272,7 +274,9 @@ Target Field: Doelfjild
 Telnet command:: Telnet kommando:
 Telnet Commander: Telnet Commander
 Telnet Console: Telnet Konsole
-Telnet not configured. Please set it in Settings.: Telnet net ynsteld. Stel it asjebleaft yn Ynstellings.
+Telnet host not configured. Please set it in Settings.: Telnet-host net ynsteld. Stel it asjebleaft yn Ynstellings.
+Telnet password is empty. Do you want to continue?: Telnet wachtwurd is leech. Wolle jo trochgean?
+Telnet username not configured. Please set it in Settings.: Telnet brûkersnamme net ynsteld. Stel it asjebleaft yn Ynstellings.
 Thanks to: Mei tank oan
 Theme picker: Tema picker
 Theme picker – accessible via Tools menu on main toolbar.: Temakiezer - tagonklik fia it menu Tools op 'e haadarkbalke.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Ferzje kin net fûn wurde yn projektbestân op ôfstân.
 Update: Update
 Update complete. Restarting...: Update klear. Op 'e nij begjinne...
+Update Error: Update flater
 Update failed: : Update mislearre:
 Updates: Updates
+Upload Error: Upload flater
 URL: URL
 URL (primary): URL (primêr)
 URL Check: URL kontrolearje

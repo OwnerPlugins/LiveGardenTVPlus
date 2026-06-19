@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Volledig vrijwillig – er worden geen functies geblokkeerd)
 (No description): (Geen beschrijving)
 • Add / rename / delete groups.: • Groepen toevoegen/hernoemen/verwijderen.
@@ -57,6 +57,7 @@ Click for details: Klik voor details
 Close: Dichtbij
 Command name:: Commandonaam:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Community en testen: CorvoBoys (corvoboys.org) en LinuxSat-Support.com
+Configuration Missing: Configuratie ontbreekt
 Confirm Reload: Bevestig opnieuw laden
 Connect: Verbinden
 Connected: Aangesloten
@@ -83,6 +84,7 @@ Edit command name:: Opdrachtnaam bewerken:
 Edit Playlist: Bewerk afspeellijst
 Edit telnet command:: Telnet-opdracht bewerken:
 Edit URLs: URL's bewerken
+Empty Password: Leeg wachtwoord
 End: Einde
 Enrich with EPG: Verrijk met EPG
 Enter bouquet name (without spaces):: Voer de naam van het boeket in (zonder spaties):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Exporteer alleen favoriete kana
 Extracting update...: Update uitpakken...
 Failed to download playlist: Kan de afspeellijst niet downloaden
 Failed to load playlist: Kan afspeellijst niet laden
-Failed to update bouquets.tv.: Updaten van boeketten.tv is mislukt.
-Failed to upload bouquet.: Het uploaden van het boeket is mislukt.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Updaten van boeketten.tv is mislukt. Controleer de bestandsrechten op het Enigma2-apparaat.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Het uploaden van het boeket is mislukt. Controleer uw Telnet-instellingen (host, poort, gebruikersnaam, wachtwoord) en probeer het opnieuw.
 Favorite: Favoriet
 Favorites only: Alleen favorieten
 Fetch Logos: Logo's ophalen
@@ -272,7 +274,9 @@ Target Field: Doelveld
 Telnet command:: Telnet-opdracht:
 Telnet Commander: Telnet-commandant
 Telnet Console: Telnet-console
-Telnet not configured. Please set it in Settings.: Telnet niet geconfigureerd. Stel dit in Instellingen in.
+Telnet host not configured. Please set it in Settings.: Telnet-host niet geconfigureerd. Stel dit in Instellingen in.
+Telnet password is empty. Do you want to continue?: Telnet-wachtwoord is leeg. Wil je doorgaan?
+Telnet username not configured. Please set it in Settings.: Telnet-gebruikersnaam niet geconfigureerd. Stel dit in Instellingen in.
 Thanks to: Dankzij
 Theme picker: Themakiezer
 Theme picker – accessible via Tools menu on main toolbar.: Themakiezer – toegankelijk via het menu Extra op de hoofdwerkbalk.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: Gebruikersinterface: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Kan de versie niet vinden in het externe projectbestand.
 Update: Update
 Update complete. Restarting...: Update voltooid. Opnieuw opstarten...
+Update Error: Updatefout
 Update failed: : Update mislukt:
 Updates: Updates
+Upload Error: Uploadfout
 URL: URL
 URL (primary): URL (primair)
 URL Check: URL-controle

@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (キャッシュフォルダー: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (キャッシュフォルダー: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (完全に任意 – ブロックされる機能はありません)
 (No description): (説明なし)
 • Add / rename / delete groups.: • グループの追加/名前変更/削除。
@@ -57,6 +57,7 @@ Click for details: クリックすると詳細が表示されます
 Close: 近い
 Command name:: コマンド名:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: コミュニティとテスト: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Configuration Missing: 構成がありません
 Confirm Reload: リロードの確認
 Connect: 接続する
 Connected: 接続済み
@@ -83,6 +84,7 @@ Edit command name:: コマンド名を編集:
 Edit Playlist: プレイリストの編集
 Edit telnet command:: Telnet コマンドを編集します。
 Edit URLs: URLを編集する
+Empty Password: 空のパスワード
 End: 終わり
 Enrich with EPG: EPG で充実させる
 Enter bouquet name (without spaces):: 花束の名前を入力してください (スペースは含まれません):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: お気に入りのチャンネ�
 Extracting update...: アップデートを抽出しています...
 Failed to download playlist: プレイリストのダウンロードに失敗しました
 Failed to load playlist: プレイリストの読み込みに失敗しました
-Failed to update bouquets.tv.: 花束.tvの更新に失敗しました。
-Failed to upload bouquet.: 花束のアップロードに失敗しました。
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: 花束.tvの更新に失敗しました。 Enigma2 デバイスのファイル権限を確認してください。
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: 花束のアップロードに失敗しました。 Telnet 設定 (ホスト、ポート、ユーザー名、パスワード) を確認して、再試行してください。
 Favorite: お気に入り
 Favorites only: お気に入りのみ
 Fetch Logos: ロゴを取得する
@@ -272,7 +274,9 @@ Target Field: 対象分野
 Telnet command:: Telnet コマンド:
 Telnet Commander: Telnet コマンダー
 Telnet Console: Telnetコンソール
-Telnet not configured. Please set it in Settings.: Telnet が設定されていません。設定で設定してください。
+Telnet host not configured. Please set it in Settings.: Telnet ホストが構成されていません。設定で設定してください。
+Telnet password is empty. Do you want to continue?: Telnet password is empty.続けますか?
+Telnet username not configured. Please set it in Settings.: Telnet username not configured.設定で設定してください。
 Thanks to: おかげで
 Theme picker: テーマピッカー
 Theme picker – accessible via Tools menu on main toolbar.: テーマ ピッカー – メイン ツールバーの [ツール] メニューからアクセスできます。
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI:マテリアルデザインテーマ.Wpf
 Unable to find version in remote project file.: リモート プロジェクト ファイルにバージョンが見つかりません。
 Update: アップデート
 Update complete. Restarting...: アップデートが完了しました。再起動中...
+Update Error: 更新エラー
 Update failed: : 更新に失敗しました:
 Updates: アップデート
+Upload Error: アップロードエラー
 URL: URL
 URL (primary): URL（プライマリ）
 URL Check: URLチェック

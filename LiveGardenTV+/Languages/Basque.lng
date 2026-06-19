@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache karpeta: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache karpeta: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Guztiz borondatezkoa - ez dago funtziorik blokeatuta)
 (No description): (Deskribapenik ez)
 • Add / rename / delete groups.: • Gehitu / aldatu izena / ezabatu taldeak.
@@ -57,6 +57,7 @@ Click for details: Sakatu xehetasunak ikusteko
 Close: Itxi
 Command name:: Komandoaren izena:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunitatea eta probak: CorvoBoys (corvoboys.org) eta LinuxSat-Support.com
+Configuration Missing: Konfigurazioa falta da
 Confirm Reload: Berretsi birkargatu
 Connect: Konektatu
 Connected: Konektatuta
@@ -83,6 +84,7 @@ Edit command name:: Editatu komandoaren izena:
 Edit Playlist: Editatu erreprodukzio zerrenda
 Edit telnet command:: Editatu telnet komandoa:
 Edit URLs: Editatu URLak
+Empty Password: Pasahitza hutsik
 End: Amaiera
 Enrich with EPG: EPGarekin aberastu
 Enter bouquet name (without spaces):: Sartu sortaren izena (espaziorik gabe):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Esportatu gogoko kanalak soilik
 Extracting update...: Eguneraketa ateratzen...
 Failed to download playlist: Ezin izan da deskargatu erreprodukzio-zerrenda
 Failed to load playlist: Ezin izan da kargatu erreprodukzio-zerrenda
-Failed to update bouquets.tv.: Ezin izan da eguneratu bouquets.tv.
-Failed to upload bouquet.: Ezin izan da kargatu sorta.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Ezin izan da eguneratu bouquets.tv. Mesedez, egiaztatu Enigma2 gailuko fitxategien baimenak.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Ezin izan da kargatu sorta. Mesedez, egiaztatu zure Telnet-en ezarpenak (ostalaria, ataka, erabiltzaile-izena, pasahitza) eta saiatu berriro.
 Favorite: Gogokoena
 Favorites only: Gogokoak bakarrik
 Fetch Logos: Lortu logotipoak
@@ -222,7 +224,7 @@ Playlist Management: Erreprodukzio-zerrenden kudeaketa
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Erreprodukzio-zerrenden biltegia: OwnerPlugins/TivuStreamList (Italiako eta nazioarteko korronteak)
 Please select a program first.: Mesedez, hautatu programa bat lehenik.
 Preview (first 5 channels): Aurrebista (lehen 5 kanalak)
-Preview error: {0}: Aurrebista errorea: {0}
+Preview error: {0}: Aurrebista-errorea: {0}
 Program Details: Programaren xehetasunak
 Ready.: Prest.
 Recent: Duela gutxi
@@ -272,7 +274,9 @@ Target Field: Helburu-eremua
 Telnet command:: Telnet komandoa:
 Telnet Commander: Telnet komandantea
 Telnet Console: Telnet kontsola
-Telnet not configured. Please set it in Settings.: Telnet ez dago konfiguratuta. Mesedez, ezarri Ezarpenak atalean.
+Telnet host not configured. Please set it in Settings.: Telnet ostalaria ez dago konfiguratuta. Mesedez, ezarri Ezarpenak atalean.
+Telnet password is empty. Do you want to continue?: Telnet pasahitza hutsik dago. Jarraitu nahi duzu?
+Telnet username not configured. Please set it in Settings.: Telnet erabiltzaile-izena ez dago konfiguratuta. Mesedez, ezarri Ezarpenak atalean.
 Thanks to: Eskerrak
 Theme picker: Gai-hautatzailea
 Theme picker – accessible via Tools menu on main toolbar.: Gai-hautatzailea: tresna-barra nagusiko Tresnak menuaren bidez eskuragarri dago.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Ezin da bertsioa aurkitu urruneko proiektuaren fitxategian.
 Update: Eguneratu
 Update complete. Restarting...: Eguneratzea osatu da. Berrabiarazten...
-Update failed: : Eguneratzea huts egin du:
+Update Error: Eguneratzeko errorea
+Update failed: : Huts egin du eguneratzeak:
 Updates: Eguneraketak
+Upload Error: Kargatu errorea
 URL: URLa
 URL (primary): URLa (nagusia)
 URL Check: URL egiaztatzea

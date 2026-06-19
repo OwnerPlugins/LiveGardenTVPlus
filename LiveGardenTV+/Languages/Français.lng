@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Dossier cache : %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Dossier cache : %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Entièrement volontaire – aucune fonctionnalité n'est bloquée)
 (No description): (Pas de description)
 • Add / rename / delete groups.: • Ajouter/renommer/supprimer des groupes.
@@ -57,6 +57,7 @@ Click for details: Cliquez pour plus de détails
 Close: Fermer
 Command name:: Nom de la commande :
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Communauté et tests : CorvoBoys (corvoboys.org) et LinuxSat-Support.com
+Configuration Missing: Configuration manquante
 Confirm Reload: Confirmer le rechargement
 Connect: Connecter
 Connected: Connecté
@@ -83,6 +84,7 @@ Edit command name:: Modifier le nom de la commande :
 Edit Playlist: Modifier la liste de lecture
 Edit telnet command:: Modifier la commande telnet :
 Edit URLs: Modifier les URL
+Empty Password: Mot de passe vide
 End: Fin
 Enrich with EPG: Enrichir avec EPG
 Enter bouquet name (without spaces):: Entrez le nom du bouquet (sans espaces) :
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Exportez uniquement les chaîne
 Extracting update...: Extraction de la mise à jour...
 Failed to download playlist: Échec du téléchargement de la playlist
 Failed to load playlist: Échec du chargement de la playlist
-Failed to update bouquets.tv.: Échec de la mise à jour de bouquets.tv.
-Failed to upload bouquet.: Échec du téléchargement du bouquet.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Échec de la mise à jour de bouquets.tv. Veuillez vérifier les autorisations de fichiers sur l'appareil Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Échec du téléchargement du bouquet. Veuillez vérifier vos paramètres Telnet (hôte, port, nom d'utilisateur, mot de passe) et réessayer.
 Favorite: Préféré
 Favorites only: Favoris uniquement
 Fetch Logos: Récupérer des logos
@@ -272,7 +274,9 @@ Target Field: Champ cible
 Telnet command:: Commande Telnet :
 Telnet Commander: Commandant Telnet
 Telnet Console: Console Telnet
-Telnet not configured. Please set it in Settings.: Telnet n'est pas configuré. Veuillez le définir dans Paramètres.
+Telnet host not configured. Please set it in Settings.: Hôte Telnet non configuré. Veuillez le définir dans Paramètres.
+Telnet password is empty. Do you want to continue?: Le mot de passe Telnet est vide. Voulez-vous continuer ?
+Telnet username not configured. Please set it in Settings.: Nom d'utilisateur Telnet non configuré. Veuillez le définir dans Paramètres.
 Thanks to: Grâce à
 Theme picker: Sélecteur de thème
 Theme picker – accessible via Tools menu on main toolbar.: Sélecteur de thème – accessible via le menu Outils de la barre d’outils principale.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: Interface utilisateur : MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Impossible de trouver la version dans le fichier de projet distant.
 Update: Mise à jour
 Update complete. Restarting...: Mise à jour terminée. Redémarrage...
+Update Error: Erreur de mise à jour
 Update failed: : Échec de la mise à jour :
 Updates: Mises à jour
+Upload Error: Erreur de téléchargement
 URL: URL
 URL (primary): URL (principale)
 URL Check: Vérification de l'URL

@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (ქეშის საქაღალდე: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (ქეშის საქაღალდე: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (სრულიად ნებაყოფლობითი - არცერთი ფუნქცია არ არის დაბლოკილი)
 (No description): (აღწერის გარეშე)
 • Add / rename / delete groups.: • ჯგუფების დამატება / გადარქმევა / წაშლა.
@@ -57,6 +57,7 @@ Click for details: დააწკაპუნეთ დეტალების
 Close: დახურვა
 Command name:: ბრძანების სახელი:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: საზოგადოება და ტესტირება: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Configuration Missing: კონფიგურაცია აკლია
 Confirm Reload: დაადასტურეთ გადატვირთვა
 Connect: დაკავშირება
 Connected: დაკავშირებულია
@@ -83,6 +84,7 @@ Edit command name:: ბრძანების სახელის რედ�
 Edit Playlist: დასაკრავი სიის რედაქტირება
 Edit telnet command:: telnet ბრძანების რედაქტირება:
 Edit URLs: URL-ების რედაქტირება
+Empty Password: ცარიელი პაროლი
 End: დასასრული
 Enrich with EPG: გამდიდრდით EPG-ით
 Enter bouquet name (without spaces):: შეიყვანეთ თაიგულის სახელი (სივრცის გარეშე):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: მხოლოდ საყვ
 Extracting update...: მიმდინარეობს განახლების ამოღება...
 Failed to download playlist: დასაკრავი სიის ჩამოტვირთვა ვერ მოხერხდა
 Failed to load playlist: დასაკრავი სიის ჩატვირთვა ვერ მოხერხდა
-Failed to update bouquets.tv.: bouquets.tv ვერ განახლდა.
-Failed to upload bouquet.: თაიგულის ატვირთვა ვერ მოხერხდა.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: bouquets.tv ვერ განახლდა. გთხოვთ, შეამოწმოთ ფაილის ნებართვები Enigma2 მოწყობილობაზე.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: თაიგულის ატვირთვა ვერ მოხერხდა. გთხოვთ, შეამოწმოთ თქვენი Telnet პარამეტრები (ჰოსტი, პორტი, მომხმარებლის სახელი, პაროლი) და სცადოთ ხელახლა.
 Favorite: საყვარელი
 Favorites only: მხოლოდ რჩეულები
 Fetch Logos: ლოგოს მოტანა
@@ -272,7 +274,9 @@ Target Field: სამიზნე ველი
 Telnet command:: Telnet ბრძანება:
 Telnet Commander: ტელნეტის მეთაური
 Telnet Console: Telnet კონსოლი
-Telnet not configured. Please set it in Settings.: Telnet არ არის კონფიგურირებული. გთხოვთ, დააყენოთ ის პარამეტრებში.
+Telnet host not configured. Please set it in Settings.: Telnet ჰოსტი არ არის კონფიგურირებული. გთხოვთ, დააყენოთ ის პარამეტრებში.
+Telnet password is empty. Do you want to continue?: Telnet პაროლი ცარიელია. გსურთ გაგრძელება?
+Telnet username not configured. Please set it in Settings.: Telnet მომხმარებლის სახელი არ არის კონფიგურირებული. გთხოვთ, დააყენოთ ის პარამეტრებში.
 Thanks to: მადლობა
 Theme picker: თემის ამომრჩევი
 Theme picker – accessible via Tools menu on main toolbar.: თემის ამომრჩევი – ხელმისაწვდომია ინსტრუმენტების მენიუდან მთავარ პანელზე.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: დისტანციური პროექტის ფაილში ვერსიის პოვნა შეუძლებელია.
 Update: განახლება
 Update complete. Restarting...: განახლება დასრულდა. გადატვირთვა...
+Update Error: განახლების შეცდომა
 Update failed: : განახლება ვერ მოხერხდა:
 Updates: განახლებები
+Upload Error: ატვირთვის შეცდომა
 URL: URL
 URL (primary): URL (ძირითადი)
 URL Check: URL შემოწმება

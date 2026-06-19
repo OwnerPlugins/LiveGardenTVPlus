@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Fascikla keš memorije: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Fascikla keširanja: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Potpuno dobrovoljno – nijedna funkcija nije blokirana)
 (No description): (bez opisa)
 • Add / rename / delete groups.: • Dodaj / preimenuj / izbriši grupe.
@@ -6,7 +6,7 @@
 • Check URL availability (only visible channels).: • Provjerite dostupnost URL-a (samo vidljivi kanali).
 • Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Uredite nazive kanala, grupe, URL-ove, logotipe, tvg-id, zemlju, jezike, favorite.
 • Edit multiple URLs per channel (popup window).: • Uredite više URL-ova po kanalu (skočni prozor).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Obogatite EPG-om: dodaje tvg-id koji nedostaje koristeći nejasno podudaranje.
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Obogati EPG-om: dodaje tvg-id koji nedostaje koristeći nejasno podudaranje.
 • EPG info displayed in status bar for current channel.: • EPG informacije prikazane u statusnoj traci za trenutni kanal.
 • Export OK / FAIL / filtered lists as M3U or JSON.: • Izvezite OK / FAIL / filtrirane liste kao M3U ili JSON.
 • Fetch logos from remote repository (OwnerPlugins/logos).: • Preuzmite logotipe iz udaljenog spremišta (OwnerPlugins/logotipi).
@@ -57,6 +57,7 @@ Click for details: Kliknite za detalje
 Close: Zatvori
 Command name:: Naziv komande:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Zajednica i testiranje: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Configuration Missing: Nedostaje konfiguracija
 Confirm Reload: Potvrdite ponovno učitavanje
 Connect: Povežite se
 Connected: Povezano
@@ -83,6 +84,7 @@ Edit command name:: Uredite naziv komande:
 Edit Playlist: Uredi plejlistu
 Edit telnet command:: Uredi telnet komandu:
 Edit URLs: Uredite URL-ove
+Empty Password: Empty Password
 End: Kraj
 Enrich with EPG: Obogatite EPG-om
 Enter bouquet name (without spaces):: Unesite naziv buketa (bez razmaka):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Izvezite samo omiljene kanale u
 Extracting update...: Izdvajanje ažuriranja...
 Failed to download playlist: Preuzimanje plejliste nije uspjelo
 Failed to load playlist: Učitavanje plejliste nije uspjelo
-Failed to update bouquets.tv.: Ažuriranje bouquets.tv nije uspjelo.
-Failed to upload bouquet.: Otpremanje buketa nije uspjelo.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Ažuriranje bouquets.tv nije uspjelo. Molimo provjerite dozvole za fajlove na Enigma2 uređaju.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Otpremanje buketa nije uspjelo. Molimo provjerite postavke Telneta (host, port, korisničko ime, lozinka) i pokušajte ponovo.
 Favorite: Favorite
 Favorites only: Samo favoriti
 Fetch Logos: Dohvati logotipe
@@ -272,7 +274,9 @@ Target Field: Target Field
 Telnet command:: Telnet komanda:
 Telnet Commander: Telnet Commander
 Telnet Console: Telnet konzola
-Telnet not configured. Please set it in Settings.: Telnet nije konfigurisan. Postavite ga u Postavkama.
+Telnet host not configured. Please set it in Settings.: Telnet host nije konfigurisan. Postavite ga u Postavkama.
+Telnet password is empty. Do you want to continue?: Telnet lozinka je prazna. Želite li nastaviti?
+Telnet username not configured. Please set it in Settings.: Telnet korisničko ime nije konfigurirano. Postavite ga u Postavkama.
 Thanks to: Hvala na
 Theme picker: Birač tema
 Theme picker – accessible via Tools menu on main toolbar.: Birač teme – dostupan preko menija Alati na glavnoj traci sa alatkama.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Nije moguće pronaći verziju u datoteci udaljenog projekta.
 Update: Ažuriraj
 Update complete. Restarting...: Ažuriranje je završeno. Ponovno pokretanje...
+Update Error: Greška pri ažuriranju
 Update failed: : Ažuriranje nije uspjelo:
 Updates: Ažuriranja
+Upload Error: Greška pri otpremanju
 URL: URL
 URL (primary): URL (primarni)
 URL Check: Provjera URL-a

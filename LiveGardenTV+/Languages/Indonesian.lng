@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Folder cache: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Folder cache: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Sepenuhnya sukarela – tidak ada fitur yang diblokir)
 (No description): (Tidak ada deskripsi)
 • Add / rename / delete groups.: • Menambah/mengganti nama/menghapus grup.
@@ -57,6 +57,7 @@ Click for details: Klik untuk detailnya
 Close: Menutup
 Command name:: Nama perintah:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunitas & pengujian: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Configuration Missing: Konfigurasi Hilang
 Confirm Reload: Konfirmasi Muat Ulang
 Connect: Menghubungkan
 Connected: Terhubung
@@ -83,6 +84,7 @@ Edit command name:: Edit nama perintah:
 Edit Playlist: Sunting Daftar Putar
 Edit telnet command:: Edit perintah telnet:
 Edit URLs: Sunting URL
+Empty Password: Kata Sandi Kosong
 End: Akhir
 Enrich with EPG: Perkaya dengan EPG
 Enter bouquet name (without spaces):: Masukkan nama buket (tanpa spasi):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Ekspor hanya saluran favorit ke
 Extracting update...: Mengekstrak pembaruan...
 Failed to download playlist: Gagal mengunduh daftar putar
 Failed to load playlist: Gagal memuat daftar putar
-Failed to update bouquets.tv.: Gagal memperbarui karangan bunga.tv.
-Failed to upload bouquet.: Gagal mengunggah buket.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Gagal memperbarui karangan bunga.tv. Silakan periksa izin file pada perangkat Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Gagal mengunggah buket. Silakan periksa pengaturan Telnet Anda (host, port, nama pengguna, kata sandi) dan coba lagi.
 Favorite: Favorit
 Favorites only: Hanya favorit
 Fetch Logos: Ambil Logo
@@ -272,7 +274,9 @@ Target Field: Bidang Sasaran
 Telnet command:: Perintah telnet:
 Telnet Commander: Komandan Telnet
 Telnet Console: Konsol Telnet
-Telnet not configured. Please set it in Settings.: Telnet tidak dikonfigurasi. Silakan atur di Pengaturan.
+Telnet host not configured. Please set it in Settings.: Host telnet tidak dikonfigurasi. Silakan atur di Pengaturan.
+Telnet password is empty. Do you want to continue?: Kata sandi telnet kosong. Apakah Anda ingin melanjutkan?
+Telnet username not configured. Please set it in Settings.: Nama pengguna Telnet tidak dikonfigurasi. Silakan atur di Pengaturan.
 Thanks to: Berkat
 Theme picker: Pemilih tema
 Theme picker – accessible via Tools menu on main toolbar.: Pemilih tema – dapat diakses melalui menu Alat di toolbar utama.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: Tema Desain Material.Wpf
 Unable to find version in remote project file.: Tidak dapat menemukan versi dalam file proyek jarak jauh.
 Update: Memperbarui
 Update complete. Restarting...: Pembaruan selesai. Memulai ulang...
+Update Error: Kesalahan Pembaruan
 Update failed: : Pembaruan gagal:
 Updates: Pembaruan
+Upload Error: Kesalahan Pengunggahan
 URL: URL
 URL (primary): URL (utama)
 URL Check: Pemeriksaan URL

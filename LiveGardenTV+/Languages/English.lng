@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Completely voluntary – no features are blocked)
 (No description): (No description)
 • Add / rename / delete groups.: • Add / rename / delete groups.
@@ -57,6 +57,7 @@ Click for details: Click for details
 Close: Close
 Command name:: Command name:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Configuration Missing: Configuration Missing
 Confirm Reload: Confirm Reload
 Connect: Connect
 Connected: Connected
@@ -83,6 +84,7 @@ Edit command name:: Edit command name:
 Edit Playlist: Edit Playlist
 Edit telnet command:: Edit telnet command:
 Edit URLs: Edit URLs
+Empty Password: Empty Password
 End: End
 Enrich with EPG: Enrich with EPG
 Enter bouquet name (without spaces):: Enter bouquet name (without spaces):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Export only favorite channels t
 Extracting update...: Extracting update...
 Failed to download playlist: Failed to download playlist
 Failed to load playlist: Failed to load playlist
-Failed to update bouquets.tv.: Failed to update bouquets.tv.
-Failed to upload bouquet.: Failed to upload bouquet.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.
 Favorite: Favorite
 Favorites only: Favorites only
 Fetch Logos: Fetch Logos
@@ -272,7 +274,9 @@ Target Field: Target Field
 Telnet command:: Telnet command:
 Telnet Commander: Telnet Commander
 Telnet Console: Telnet Console
-Telnet not configured. Please set it in Settings.: Telnet not configured. Please set it in Settings.
+Telnet host not configured. Please set it in Settings.: Telnet host not configured. Please set it in Settings.
+Telnet password is empty. Do you want to continue?: Telnet password is empty. Do you want to continue?
+Telnet username not configured. Please set it in Settings.: Telnet username not configured. Please set it in Settings.
 Thanks to: Thanks to
 Theme picker: Theme picker
 Theme picker – accessible via Tools menu on main toolbar.: Theme picker – accessible via Tools menu on main toolbar.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Unable to find version in remote project file.
 Update: Update
 Update complete. Restarting...: Update complete. Restarting...
+Update Error: Update Error
 Update failed: : Update failed:
 Updates: Updates
+Upload Error: Upload Error
 URL: URL
 URL (primary): URL (primary)
 URL Check: URL Check

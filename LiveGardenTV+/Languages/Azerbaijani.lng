@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Keş qovluğu: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Keş qovluğu: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Tamamilə könüllü – heç bir funksiya bloklanmayıb)
 (No description): (Təsvir yoxdur)
 • Add / rename / delete groups.: • Qruplar əlavə edin / adını dəyişdirin / silin.
@@ -57,6 +57,7 @@ Click for details: Ətraflı məlumat üçün klikləyin
 Close: Bağlayın
 Command name:: Komanda adı:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: İcma və sınaq: CorvoBoys (corvoboys.org) və LinuxSat-Support.com
+Configuration Missing: Konfiqurasiya yoxdur
 Confirm Reload: Yenidən yükləməni təsdiqləyin
 Connect: Qoşun
 Connected: Qoşuldu
@@ -83,6 +84,7 @@ Edit command name:: Komanda adını redaktə edin:
 Edit Playlist: Pleylistə düzəliş edin
 Edit telnet command:: Telnet əmrini redaktə edin:
 Edit URLs: URL-ləri redaktə edin
+Empty Password: Boş Parol
 End: Son
 Enrich with EPG: EPG ilə zənginləşdirin
 Enter bouquet name (without spaces):: Buket adını daxil edin (boşluq olmadan):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Yeni M3U faylına yalnız sevim
 Extracting update...: Güncəlləmə çıxarılır...
 Failed to download playlist: Pleylisti endirmək alınmadı
 Failed to load playlist: Pleylist yükləmək alınmadı
-Failed to update bouquets.tv.: bouquets.tv-ni yeniləmək alınmadı.
-Failed to upload bouquet.: Buketi yükləmək alınmadı.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: bouquets.tv-ni yeniləmək alınmadı. Enigma2 cihazında fayl icazələrini yoxlayın.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Buketi yükləmək alınmadı. Lütfən, Telnet parametrlərinizi (host, port, istifadəçi adı, parol) yoxlayın və yenidən cəhd edin.
 Favorite: Sevimli
 Favorites only: Yalnız sevimlilər
 Fetch Logos: Loqoları gətirin
@@ -272,7 +274,9 @@ Target Field: Hədəf Sahəsi
 Telnet command:: Telnet əmri:
 Telnet Commander: Telnet komandiri
 Telnet Console: Telnet Konsolu
-Telnet not configured. Please set it in Settings.: Telnet konfiqurasiya olunmayıb. Lütfən, onu Parametrlərdə təyin edin.
+Telnet host not configured. Please set it in Settings.: Telnet hostu konfiqurasiya olunmayıb. Lütfən, onu Parametrlərdə təyin edin.
+Telnet password is empty. Do you want to continue?: Telnet parolu boşdur. Davam etmək istəyirsiniz?
+Telnet username not configured. Please set it in Settings.: Telnet istifadəçi adı konfiqurasiya olunmayıb. Lütfən, onu Parametrlərdə təyin edin.
 Thanks to: sayəsində
 Theme picker: Mövzu seçici
 Theme picker – accessible via Tools menu on main toolbar.: Mövzu seçici – əsas alətlər panelindəki Alətlər menyusu vasitəsilə əldə edilə bilər.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Uzaqdan layihə faylında versiya tapmaq mümkün deyil.
 Update: Yeniləyin
 Update complete. Restarting...: Yeniləmə tamamlandı. Yenidən başlayır...
+Update Error: Yeniləmə xətası
 Update failed: : Yeniləmə uğursuz oldu:
 Updates: Yeniləmələr
+Upload Error: Yükləmə xətası
 URL: URL
 URL (primary): URL (əsas)
 URL Check: URL yoxlanışı

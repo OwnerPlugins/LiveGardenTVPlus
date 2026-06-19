@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (ថតឃ្លាំងសម្ងាត់៖ %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (ថតឃ្លាំងសម្ងាត់៖ %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (ស្ម័គ្រចិត្តទាំងស្រុង - គ្មានលក្ខណៈពិសេសណាមួយត្រូវបានរារាំង)
 (No description): (គ្មានការពិពណ៌នា)
 • Add / rename / delete groups.: • បន្ថែម/ប្តូរឈ្មោះ/លុបក្រុម។
@@ -57,6 +57,7 @@ Click for details: សូមចុចសម្រាប់ព័ត៌មាន�
 Close: បិទ
 Command name:: ឈ្មោះពាក្យបញ្ជា៖
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: សហគមន៍ និងការធ្វើតេស្ត៖ CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Configuration Missing: បាត់ការកំណត់
 Confirm Reload: បញ្ជាក់ផ្ទុកឡើងវិញ
 Connect: ភ្ជាប់
 Connected: បានភ្ជាប់
@@ -83,6 +84,7 @@ Edit command name:: កែសម្រួលឈ្មោះពាក្យបញ
 Edit Playlist: កែសម្រួលបញ្ជីចាក់
 Edit telnet command:: កែសម្រួលពាក្យបញ្ជា telnet៖
 Edit URLs: កែសម្រួល URLs
+Empty Password: ពាក្យសម្ងាត់ទទេ
 End: ចប់
 Enrich with EPG: ពង្រឹងជាមួយ EPG
 Enter bouquet name (without spaces):: បញ្ចូលឈ្មោះភួង (ដោយគ្មានចន្លោះ)៖
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: នាំចេញតែឆា�
 Extracting update...: កំពុងទាញយកបច្ចុប្បន្នភាព...
 Failed to download playlist: បានបរាជ័យក្នុងការទាញយកបញ្ជីចាក់
 Failed to load playlist: បានបរាជ័យក្នុងការផ្ទុកបញ្ជីចាក់
-Failed to update bouquets.tv.: បានបរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាព bouquets.tv ។
-Failed to upload bouquet.: បរាជ័យក្នុងការបង្ហោះភួង។
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: បានបរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាព bouquets.tv ។ សូមពិនិត្យមើលការអនុញ្ញាតឯកសារនៅលើឧបករណ៍ Enigma2។
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: បរាជ័យក្នុងការបង្ហោះភួង។ សូមពិនិត្យមើលការកំណត់ Telnet របស់អ្នក (ម៉ាស៊ីន ច្រក ឈ្មោះអ្នកប្រើប្រាស់ ពាក្យសម្ងាត់) ហើយព្យាយាមម្តងទៀត។
 Favorite: សំណព្វ
 Favorites only: ចំណូលចិត្តតែប៉ុណ្ណោះ
 Fetch Logos: យកឡូហ្គោ
@@ -272,7 +274,9 @@ Target Field: វាលគោលដៅ
 Telnet command:: ពាក្យបញ្ជា Telnet៖
 Telnet Commander: មេបញ្ជាការ Telnet
 Telnet Console: កុងសូល Telnet
-Telnet not configured. Please set it in Settings.: Telnet មិនបានកំណត់រចនាសម្ព័ន្ធទេ។ សូមកំណត់វានៅក្នុងការកំណត់។
+Telnet host not configured. Please set it in Settings.: ម៉ាស៊ីន Telnet មិនត្រូវបានកំណត់រចនាសម្ព័ន្ធទេ។ សូមកំណត់វានៅក្នុងការកំណត់។
+Telnet password is empty. Do you want to continue?: ពាក្យសម្ងាត់ Telnet គឺទទេ។ តើអ្នកចង់បន្តទេ?
+Telnet username not configured. Please set it in Settings.: ឈ្មោះអ្នកប្រើ Telnet មិនត្រូវបានកំណត់រចនាសម្ព័ន្ធទេ។ សូមកំណត់វានៅក្នុងការកំណត់។
 Thanks to: សូមអរគុណដល់
 Theme picker: កម្មវិធីជ្រើសរើសប្រធានបទ
 Theme picker – accessible via Tools menu on main toolbar.: ឧបករណ៍ជ្រើសរើសស្បែក - អាចចូលប្រើបានតាមរយៈម៉ឺនុយឧបករណ៍នៅលើរបារឧបករណ៍សំខាន់។
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI៖ MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: មិនអាចស្វែងរកកំណែនៅក្នុងឯកសារគម្រោងពីចម្ងាយបានទេ។
 Update: ធ្វើបច្ចុប្បន្នភាព
 Update complete. Restarting...: ការធ្វើបច្ចុប្បន្នភាពបានបញ្ចប់។ កំពុងចាប់ផ្តើមឡើងវិញ...
+Update Error: អាប់ដេតមានកំហុស
 Update failed: : ការអាប់ដេតបានបរាជ័យ៖
 Updates: បច្ចុប្បន្នភាព
+Upload Error: កំហុសបង្ហោះ
 URL: URL
 URL (primary): URL (បឋម)
 URL Check: ពិនិត្យ URL

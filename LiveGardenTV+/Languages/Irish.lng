@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Fillteán taisce: % TEMP% \ LiveGardenTVPlus \ epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Fillteán taisce: % TEMP% \ LiveGardenTVPlus \ epg_cache)
 (Completely voluntary – no features are blocked): (Go hiomlán deonach - níl aon ghnéithe bacáilte)
 (No description): (Gan tuairisc)
 • Add / rename / delete groups.: • Cuir leis / athainmnigh / scrios grúpaí.
@@ -16,7 +16,7 @@
 • Picture‑in‑Picture (PIP) button.: • Cnaipe Pictiúr i bPictiúr (PIP).
 • Playback speed: 0.5x, 1x, 2x buttons.: • Luas athsheinm: cnaipí 0.5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sórtáil aon cholún trí cheanntásc a chliceáil; bain úsáid as 'Ordú Athshocraigh' chun filleadh ar an mbunordú.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Athrú ama: sos sruth beo; tarraing sleamhnán a lorg ar ais; brúigh ‘Live’ chun filleadh.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Athrú ama: sos sruth beo; tarraing sleamhnán a lorg ar ais; brúigh 'Live' chun filleadh.
 ◀ Previous: ◀ Roimhe seo
 16 colour themes + Light/Dark variants.: 16 théama datha + leagan Solas/Dorcha.
 A new version is available. Do you want to update now?: Tá leagan nua ar fáil. Ar mhaith leat nuashonrú anois?
@@ -57,6 +57,7 @@ Click for details: Cliceáil le haghaidh sonraí
 Close: Dún
 Command name:: Ainm an ordaithe:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Pobal & tástáil: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Configuration Missing: Cumraíocht ar Iarraidh
 Confirm Reload: Deimhnigh Athlódáil
 Connect: Ceangail
 Connected: Ceangailte
@@ -83,6 +84,7 @@ Edit command name:: Cuir ainm an ordaithe in eagar:
 Edit Playlist: Cuir Seinmliosta in Eagar
 Edit telnet command:: Cuir ordú telnet in eagar:
 Edit URLs: Cuir URLanna in eagar
+Empty Password: Pasfhocal Folamh
 End: Deireadh
 Enrich with EPG: Saibhriú le EPG
 Enter bouquet name (without spaces):: Cuir isteach ainm bouquet (gan spásanna):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Easpórtáil ach na cainéil is
 Extracting update...: Nuashonrú á bhaint...
 Failed to download playlist: Theip ar an seinmliosta a íoslódáil
 Failed to load playlist: Theip ar lódáil an seinmliosta
-Failed to update bouquets.tv.: Theip ar bouquets.tv a nuashonrú.
-Failed to upload bouquet.: Theip ar an bouquet a uaslódáil.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Theip ar bouquets.tv a nuashonrú. Seiceáil ceadanna comhaid ar an ngléas Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Theip ar an bouquet a uaslódáil. Seiceáil do shocruithe Telnet (óstach, port, ainm úsáideora, pasfhocal) agus bain triail eile as.
 Favorite: is fearr leat
 Favorites only: Ceanáin amháin
 Fetch Logos: Faigh Lógónna
@@ -219,7 +221,7 @@ Playlist & Groups: Seinmliosta & Grúpaí
 Playlist Editor: Eagarthóir playlist
 Playlist Loading: Seinmliosta á Luchtú
 Playlist Management: Bainistíocht Seinmliosta
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Stór seinmliosta: OwnerPlugins/TivuStreamList (sruthanna Iodáilise & idirnáisiúnta)
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Stór seinmliosta: OwnerPlugins/TivuStreamList (sruthanna Iodáilis & idirnáisiúnta)
 Please select a program first.: Roghnaigh clár ar dtús.
 Preview (first 5 channels): Réamhamharc (an chéad 5 chainéal)
 Preview error: {0}: Earráid réamhamhairc: {0}
@@ -272,7 +274,9 @@ Target Field: Réimse Sprioc
 Telnet command:: Ordú Telnet:
 Telnet Commander: Cluiche Ceannasaí Telnet
 Telnet Console: Consól Telnet
-Telnet not configured. Please set it in Settings.: Telnet gan a bheith cumraithe. Socraigh é i Socruithe.
+Telnet host not configured. Please set it in Settings.: Níl an t-óstach Telnet cumraithe. Socraigh é i Socruithe.
+Telnet password is empty. Do you want to continue?: Tá pasfhocal Telnet folamh. Ar mhaith leat leanúint ar aghaidh?
+Telnet username not configured. Please set it in Settings.: Níl an t-ainm úsáideora Telnet cumraithe. Socraigh é i Socruithe.
 Thanks to: Buíochas le
 Theme picker: Roghnóir téamaí
 Theme picker – accessible via Tools menu on main toolbar.: Roghnóir téamaí – inrochtana tríd an roghchlár Uirlisí ar an bpríomhbharra uirlisí.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: Chomhéadain: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Ní féidir an leagan a aimsiú sa chianchomhad tionscadail.
 Update: Nuashonrú
 Update complete. Restarting...: Nuashonrú críochnaithe. Á atosú...
+Update Error: Earráid Nuashonraithe
 Update failed: : Theip ar an nuashonrú:
 Updates: Nuashonruithe
+Upload Error: Earráid Uaslódála
 URL: URL
 URL (primary): URL (bunscoile)
 URL Check: Seiceáil URL

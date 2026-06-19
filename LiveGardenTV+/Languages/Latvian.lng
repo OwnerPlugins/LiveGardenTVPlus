@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Kešatmiņas mape: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Kešatmiņas mape: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Pilnīgi brīvprātīgi — neviena funkcija nav bloķēta)
 (No description): (Bez apraksta)
 • Add / rename / delete groups.: • Pievienot/pārdēvēt/dzēst grupas.
@@ -57,6 +57,7 @@ Click for details: Noklikšķiniet, lai iegūtu sīkāku informāciju
 Close: Aizvērt
 Command name:: Komandas nosaukums:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Kopiena un testēšana: CorvoBoys (corvoboys.org) un LinuxSat-Support.com
+Configuration Missing: Trūkst konfigurācijas
 Confirm Reload: Apstipriniet atkārtotu ielādi
 Connect: Savienot
 Connected: Savienots
@@ -83,6 +84,7 @@ Edit command name:: Rediģēt komandas nosaukumu:
 Edit Playlist: Rediģēt atskaņošanas sarakstu
 Edit telnet command:: Rediģēt telnet komandu:
 Edit URLs: Rediģēt URL
+Empty Password: Tukša parole
 End: Beigas
 Enrich with EPG: Bagātināt ar EPG
 Enter bouquet name (without spaces):: Ievadiet pušķa nosaukumu (bez atstarpēm):
@@ -103,7 +105,7 @@ EPG Source Missing: Trūkst EPG avota
 Error: Kļūda
 Error clearing cache: Kļūda, notīrot kešatmiņu
 Error loading: Ielādējot, radās kļūda
-Error loading file: {0}: Ielādējot failu, radās kļūda: {0}
+Error loading file: {0}: Kļūda, ielādējot failu: {0}
 Error loading playlists: {0}: Ielādējot atskaņošanas sarakstus, radās kļūda: {0}
 Error loading URL: {0}: Ielādējot URL, radās kļūda: {0}
 ERROR: player.html not found.: KĻŪDA: player.html nav atrasts.
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Eksportējiet tikai iecienītā
 Extracting update...: Notiek atjauninājuma izvilkšana...
 Failed to download playlist: Neizdevās lejupielādēt atskaņošanas sarakstu
 Failed to load playlist: Neizdevās ielādēt atskaņošanas sarakstu
-Failed to update bouquets.tv.: Neizdevās atjaunināt bouquets.tv.
-Failed to upload bouquet.: Neizdevās augšupielādēt pušķi.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Neizdevās atjaunināt bouquets.tv. Lūdzu, pārbaudiet failu atļaujas Enigma2 ierīcē.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Neizdevās augšupielādēt pušķi. Lūdzu, pārbaudiet savus Telnet iestatījumus (resursdators, ports, lietotājvārds, parole) un mēģiniet vēlreiz.
 Favorite: Mīļākais
 Favorites only: Tikai izlasei
 Fetch Logos: Ielādēt logotipus
@@ -272,7 +274,9 @@ Target Field: Mērķa lauks
 Telnet command:: Telnet komanda:
 Telnet Commander: Telnet komandieris
 Telnet Console: Telnet konsole
-Telnet not configured. Please set it in Settings.: Telnet nav konfigurēts. Lūdzu, iestatiet to sadaļā Iestatījumi.
+Telnet host not configured. Please set it in Settings.: Telnet resursdators nav konfigurēts. Lūdzu, iestatiet to sadaļā Iestatījumi.
+Telnet password is empty. Do you want to continue?: Telnet parole ir tukša. Vai vēlaties turpināt?
+Telnet username not configured. Please set it in Settings.: Telnet lietotājvārds nav konfigurēts. Lūdzu, iestatiet to sadaļā Iestatījumi.
 Thanks to: Pateicoties
 Theme picker: Motīvu atlasītājs
 Theme picker – accessible via Tools menu on main toolbar.: Motīvu atlasītājs — pieejams galvenās rīkjoslas izvēlnē Rīki.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Attālā projekta failā nevar atrast versiju.
 Update: Atjaunināt
 Update complete. Restarting...: Atjaunināšana pabeigta. Notiek restartēšana...
+Update Error: Atjaunināšanas kļūda
 Update failed: : Atjaunināšana neizdevās:
 Updates: Atjauninājumi
+Upload Error: Augšupielādes kļūda
 URL: URL
 URL (primary): URL (galvenais)
 URL Check: URL pārbaude

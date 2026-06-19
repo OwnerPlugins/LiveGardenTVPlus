@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Složka mezipaměti: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Složka mezipaměti: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Zcela dobrovolné – žádné funkce nejsou blokovány)
 (No description): (Bez popisu)
 • Add / rename / delete groups.: • Přidat / přejmenovat / odstranit skupiny.
@@ -57,6 +57,7 @@ Click for details: Kliknutím zobrazíte podrobnosti
 Close: Blízko
 Command name:: Název příkazu:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunita a testování: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Configuration Missing: Konfigurace chybí
 Confirm Reload: Potvrďte Znovu načíst
 Connect: Připojit
 Connected: Připojeno
@@ -83,6 +84,7 @@ Edit command name:: Upravit název příkazu:
 Edit Playlist: Upravit seznam skladeb
 Edit telnet command:: Upravit příkaz telnet:
 Edit URLs: Upravit adresy URL
+Empty Password: Prázdné heslo
 End: Konec
 Enrich with EPG: Obohaťte se o EPG
 Enter bouquet name (without spaces):: Zadejte název kytice (bez mezer):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Exportujte pouze oblíbené kan
 Extracting update...: Extrahování aktualizace...
 Failed to download playlist: Stažení seznamu skladeb se nezdařilo
 Failed to load playlist: Seznam skladeb se nepodařilo načíst
-Failed to update bouquets.tv.: Aktualizace bouquets.tv se nezdařila.
-Failed to upload bouquet.: Nahrání kytice se nezdařilo.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Aktualizace bouquets.tv se nezdařila. Zkontrolujte prosím oprávnění souborů na zařízení Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Nahrání kytice se nezdařilo. Zkontrolujte nastavení Telnetu (hostitel, port, uživatelské jméno, heslo) a zkuste to znovu.
 Favorite: Oblíbený
 Favorites only: Pouze oblíbené
 Fetch Logos: Načíst loga
@@ -272,7 +274,9 @@ Target Field: Cílové pole
 Telnet command:: Telnet příkaz:
 Telnet Commander: Velitel Telnetu
 Telnet Console: Konzole Telnet
-Telnet not configured. Please set it in Settings.: Telnet není nakonfigurován. Nastavte to prosím v Nastavení.
+Telnet host not configured. Please set it in Settings.: Hostitel Telnet není nakonfigurován. Nastavte to prosím v Nastavení.
+Telnet password is empty. Do you want to continue?: Heslo Telnetu je prázdné. Chcete pokračovat?
+Telnet username not configured. Please set it in Settings.: Uživatelské jméno Telnet není nakonfigurováno. Nastavte to prosím v Nastavení.
 Thanks to: Díky
 Theme picker: Výběr motivu
 Theme picker – accessible via Tools menu on main toolbar.: Výběr motivu – přístupný přes nabídku Nástroje na hlavním panelu nástrojů.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: Uživatelské rozhraní: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Verzi nelze najít ve vzdáleném souboru projektu.
 Update: Aktualizovat
 Update complete. Restarting...: Aktualizace dokončena. Restartování...
+Update Error: Chyba aktualizace
 Update failed: : Aktualizace se nezdařila:
 Updates: Aktualizace
+Upload Error: Chyba nahrávání
 URL: URL
 URL (primary): URL (primární)
 URL Check: Kontrola URL

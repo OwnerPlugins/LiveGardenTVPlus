@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Välimuistikansio: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Välimuistikansio: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Täysin vapaaehtoista – mitään ominaisuuksia ei ole estetty)
 (No description): (Ei kuvausta)
 • Add / rename / delete groups.: • Lisää/nimeä uudelleen/poista ryhmiä.
@@ -57,6 +57,7 @@ Click for details: Napsauta saadaksesi lisätietoja
 Close: Lähellä
 Command name:: Komennon nimi:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Yhteisö ja testaus: CorvoBoys (corvoboys.org) ja LinuxSat-Support.com
+Configuration Missing: Kokoonpano puuttuu
 Confirm Reload: Vahvista uudelleenlataus
 Connect: Yhdistä
 Connected: Yhdistetty
@@ -83,6 +84,7 @@ Edit command name:: Muokkaa komennon nimeä:
 Edit Playlist: Muokkaa soittolistaa
 Edit telnet command:: Muokkaa telnet-komentoa:
 Edit URLs: Muokkaa URL-osoitteita
+Empty Password: Tyhjä salasana
 End: Loppu
 Enrich with EPG: Rikastuta EPG:llä
 Enter bouquet name (without spaces):: Anna kimpun nimi (ilman välilyöntejä):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Vie vain suosikkikanavat uuteen
 Extracting update...: Poimitaan päivitystä...
 Failed to download playlist: Soittolistan lataaminen epäonnistui
 Failed to load playlist: Soittolistan lataaminen epäonnistui
-Failed to update bouquets.tv.: bouquets.tv:n päivitys epäonnistui.
-Failed to upload bouquet.: Kimpun lataaminen epäonnistui.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: bouquets.tv:n päivitys epäonnistui. Tarkista tiedostojen käyttöoikeudet Enigma2-laitteella.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Kimpun lataaminen epäonnistui. Tarkista Telnet-asetukset (isäntä, portti, käyttäjätunnus, salasana) ja yritä uudelleen.
 Favorite: Suosikki
 Favorites only: Vain suosikit
 Fetch Logos: Hae logot
@@ -272,7 +274,9 @@ Target Field: Kohdekenttä
 Telnet command:: Telnet-komento:
 Telnet Commander: Telnetin komentaja
 Telnet Console: Telnet-konsoli
-Telnet not configured. Please set it in Settings.: Telnet ei ole määritetty. Aseta se asetuksissa.
+Telnet host not configured. Please set it in Settings.: Telnet-isäntä ei ole määritetty. Aseta se asetuksissa.
+Telnet password is empty. Do you want to continue?: Telnet-salasana on tyhjä. Haluatko jatkaa?
+Telnet username not configured. Please set it in Settings.: Telnet-käyttäjänimeä ei ole määritetty. Aseta se asetuksissa.
 Thanks to: Ansiosta
 Theme picker: Teemanvalitsin
 Theme picker – accessible via Tools menu on main toolbar.: Teemanvalitsin – käytettävissä päätyökalupalkin Työkalut-valikon kautta.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: Käyttöliittymä: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Versiota ei löydy etäprojektitiedostosta.
 Update: Päivittää
 Update complete. Restarting...: Päivitys valmis. Käynnistetään uudelleen...
+Update Error: Päivitysvirhe
 Update failed: : Päivitys epäonnistui:
 Updates: Päivitykset
+Upload Error: Latausvirhe
 URL: URL-osoite
 URL (primary): URL (ensisijainen)
 URL Check: URL-osoitteen tarkistus

@@ -1,8 +1,8 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Kaŝmemordosierujo: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Kaŝmemordosierujo: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Tute libervola - neniuj funkcioj estas blokitaj)
 (No description): (Neniu priskribo)
 • Add / rename / delete groups.: • Aldoni / renomi / forigi grupojn.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffer-glitilo: ĝustigu HLS-bufferon (1-10 sekundojn).
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffer-glitilo: ĝustigu HLS-bufferon (1-10 sekundoj).
 • Check URL availability (only visible channels).: • Kontrolu URL haveblecon (nur videblaj kanaloj).
 • Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Redaktu kanalajn nomojn, grupojn, URLojn, emblemojn, tvg-id, landon, lingvojn, plej ŝatatajn.
 • Edit multiple URLs per channel (popup window).: • Redaktu plurajn URL-ojn per kanalo (ŝprucfenestro).
@@ -57,6 +57,7 @@ Click for details: Klaku por detaloj
 Close: Fermu
 Command name:: Komanda nomo:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunumo & testado: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Configuration Missing: Agordo Mankas
 Confirm Reload: Konfirmu Reŝargi
 Connect: Konekti
 Connected: Konektita
@@ -83,6 +84,7 @@ Edit command name:: Redakti komandan nomon:
 Edit Playlist: Redaktu Ludliston
 Edit telnet command:: Redakti telnet-komandon:
 Edit URLs: Redaktu URL-ojn
+Empty Password: Malplena Pasvorto
 End: Fino
 Enrich with EPG: Riĉigu per EPG
 Enter bouquet name (without spaces):: Enigu bukednomon (sen spacoj):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Eksportu nur plej ŝatatajn kan
 Extracting update...: Eltiranta ĝisdatigon...
 Failed to download playlist: Malsukcesis elŝuti ludliston
 Failed to load playlist: Malsukcesis ŝargi ludliston
-Failed to update bouquets.tv.: Malsukcesis ĝisdatigi bouquets.tv.
-Failed to upload bouquet.: Malsukcesis alŝuti bukedon.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Malsukcesis ĝisdatigi bouquets.tv. Bonvolu kontroli dosierpermesojn sur la Enigma2-aparato.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Malsukcesis alŝuti bukedon. Bonvolu kontroli viajn Telnet-agordojn (gastiganto, haveno, uzantnomo, pasvorto) kaj provu denove.
 Favorite: Plej ŝatata
 Favorites only: Plej ŝatataj nur
 Fetch Logos: Prenu Logos
@@ -272,7 +274,9 @@ Target Field: Cela Kampo
 Telnet command:: Komando Telnet:
 Telnet Commander: Telnet Komandanto
 Telnet Console: Telnet-konzolo
-Telnet not configured. Please set it in Settings.: Telnet ne agordita. Bonvolu agordi ĝin en Agordoj.
+Telnet host not configured. Please set it in Settings.: Telnet-gastiganto ne agordita. Bonvolu agordi ĝin en Agordoj.
+Telnet password is empty. Do you want to continue?: Telnet-pasvorto estas malplena. Ĉu vi volas daŭrigi?
+Telnet username not configured. Please set it in Settings.: Telnet uzantnomo ne agordita. Bonvolu agordi ĝin en Agordoj.
 Thanks to: Dankon al
 Theme picker: Temo-elektilo
 Theme picker – accessible via Tools menu on main toolbar.: Temo-elektilo - alirebla per Iloj-menuo sur ĉefa ilobreto.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Ne eblas trovi version en fora projektdosiero.
 Update: Ĝisdatigo
 Update complete. Restarting...: Ĝisdatigo kompleta. Rekomencante...
+Update Error: Ĝisdatigi Eraron
 Update failed: : Ĝisdatigo malsukcesis:
 Updates: Ĝisdatigoj
+Upload Error: Eraro de alŝuto
 URL: URL
 URL (primary): URL (ĉefa)
 URL Check: URL Kontrolo

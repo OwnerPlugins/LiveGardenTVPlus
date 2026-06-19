@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Քեշի թղթապանակ՝ %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Քեշի թղթապանակ՝ %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Լիովին կամավոր. ոչ մի գործառույթ արգելափակված չէ)
 (No description): (առանց նկարագրության)
 • Add / rename / delete groups.: • Ավելացնել / վերանվանել / ջնջել խմբեր:
@@ -57,6 +57,7 @@ Click for details: Սեղմեք մանրամասների համար
 Close: Փակել
 Command name:: Հրամանի անունը.
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Համայնք և փորձարկում՝ CorvoBoys (corvoboys.org) և LinuxSat-Support.com
+Configuration Missing: Կոնֆիգուրացիան բացակայում է
 Confirm Reload: Հաստատեք վերաբեռնումը
 Connect: Միացնել
 Connected: Միացված է
@@ -83,10 +84,11 @@ Edit command name:: Խմբագրել հրամանի անունը.
 Edit Playlist: Խմբագրել երգացանկը
 Edit telnet command:: Խմբագրել telnet հրամանը.
 Edit URLs: Խմբագրել URL-ները
+Empty Password: Դատարկ գաղտնաբառը
 End: Վերջ
 Enrich with EPG: Հարստացրեք EPG-ով
 Enter bouquet name (without spaces):: Մուտքագրեք ծաղկեփնջի անունը (առանց բացատների).
-Enter JSON URL:: Մուտքագրեք JSON URL:
+Enter JSON URL:: Մուտքագրեք JSON URL.
 Enter playlist URL (M3U or JSON):: Մուտքագրեք երգացանկի URL (M3U կամ JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favorites
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Արտահանել միայն �
 Extracting update...: Թարմացումների արդյունահանում...
 Failed to download playlist: Չհաջողվեց ներբեռնել տեսացանկը
 Failed to load playlist: Չհաջողվեց բեռնել տեսացանկը
-Failed to update bouquets.tv.: Չհաջողվեց թարմացնել bouquets.tv-ն:
-Failed to upload bouquet.: Չհաջողվեց վերբեռնել ծաղկեփունջը:
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Չհաջողվեց թարմացնել bouquets.tv-ն: Խնդրում ենք ստուգել Enigma2 սարքի ֆայլի թույլտվությունները:
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Չհաջողվեց վերբեռնել ծաղկեփունջը: Խնդրում ենք ստուգել ձեր Telnet կարգավորումները (հոսթ, նավահանգիստ, օգտվողի անուն, գաղտնաբառ) և կրկին փորձել:
 Favorite: Սիրված
 Favorites only: Միայն ընտրյալներ
 Fetch Logos: Բերել լոգոները
@@ -272,7 +274,9 @@ Target Field: Թիրախային դաշտ
 Telnet command:: Telnet հրաման.
 Telnet Commander: Telnet-ի հրամանատար
 Telnet Console: Telnet վահանակ
-Telnet not configured. Please set it in Settings.: Telnet-ը կազմաձևված չէ: Խնդրում ենք կարգավորել այն Կարգավորումներում:
+Telnet host not configured. Please set it in Settings.: Telnet հոսթինգը կազմաձևված չէ: Խնդրում ենք կարգավորել այն Կարգավորումներում:
+Telnet password is empty. Do you want to continue?: Telnet գաղտնաբառը դատարկ է: Ցանկանու՞մ եք շարունակել։
+Telnet username not configured. Please set it in Settings.: Telnet օգտանունը կազմաձևված չէ: Խնդրում ենք կարգավորել այն Կարգավորումներում:
 Thanks to: Շնորհիվ
 Theme picker: Թեմա ընտրող
 Theme picker – accessible via Tools menu on main toolbar.: Թեման ընտրող – հասանելի է Գործիքների ցանկի միջոցով հիմնական գործիքագոտում:
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI՝ MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Հնարավոր չէ գտնել տարբերակը հեռավոր նախագծի ֆայլում:
 Update: Թարմացնել
 Update complete. Restarting...: Թարմացումն ավարտված է: Վերագործարկում...
+Update Error: Թարմացման սխալ
 Update failed: : Թարմացումը ձախողվեց՝
 Updates: Թարմացումներ
+Upload Error: Վերբեռնման սխալ
 URL: URL
 URL (primary): URL (առաջնային)
 URL Check: URL-ի ստուգում

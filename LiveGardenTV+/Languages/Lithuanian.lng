@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Talpyklos aplankas: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Talpyklos aplankas: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Visiškai savanoriškai – jokios funkcijos nėra užblokuotos)
 (No description): (be aprašymo)
 • Add / rename / delete groups.: • Pridėti / pervardyti / ištrinti grupes.
@@ -57,6 +57,7 @@ Click for details: Spustelėkite norėdami sužinoti daugiau
 Close: Uždaryti
 Command name:: Komandos pavadinimas:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Bendruomenė ir testavimas: „CorvoBoys“ (corvoboys.org) ir „LinuxSat-Support.com“
+Configuration Missing: Trūksta konfigūracijos
 Confirm Reload: Patvirtinkite įkėlimą iš naujo
 Connect: Prisijunkite
 Connected: Prisijungta
@@ -83,6 +84,7 @@ Edit command name:: Redaguoti komandos pavadinimą:
 Edit Playlist: Redaguoti grojaraštį
 Edit telnet command:: Redaguoti telnet komandą:
 Edit URLs: Redaguoti URL
+Empty Password: Tuščias slaptažodis
 End: Pabaiga
 Enrich with EPG: Praturtinkite EPG
 Enter bouquet name (without spaces):: Įveskite puokštės pavadinimą (be tarpų):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Eksportuokite tik mėgstamiausi
 Extracting update...: Išskleidžiamas naujinys...
 Failed to download playlist: Nepavyko atsisiųsti grojaraščio
 Failed to load playlist: Nepavyko įkelti grojaraščio
-Failed to update bouquets.tv.: Nepavyko atnaujinti bouquets.tv.
-Failed to upload bouquet.: Nepavyko įkelti puokštės.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Nepavyko atnaujinti bouquets.tv. Patikrinkite failų leidimus Enigma2 įrenginyje.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Nepavyko įkelti puokštės. Patikrinkite savo Telnet nustatymus (pagrindinį kompiuterį, prievadą, vartotojo vardą, slaptažodį) ir bandykite dar kartą.
 Favorite: Mėgstamiausias
 Favorites only: Tik mėgstamiausi
 Fetch Logos: Paimkite logotipus
@@ -272,7 +274,9 @@ Target Field: Tikslinis laukas
 Telnet command:: Telnet komanda:
 Telnet Commander: Telnet vadas
 Telnet Console: Telnet konsolė
-Telnet not configured. Please set it in Settings.: Telnet nesukonfigūruotas. Nustatykite jį nustatymuose.
+Telnet host not configured. Please set it in Settings.: Telnet priegloba nesukonfigūruota. Nustatykite jį nustatymuose.
+Telnet password is empty. Do you want to continue?: Telnet slaptažodis tuščias. Ar norite tęsti?
+Telnet username not configured. Please set it in Settings.: Telnet vartotojo vardas nesukonfigūruotas. Nustatykite jį nustatymuose.
 Thanks to: Ačiū
 Theme picker: Temos rinkiklis
 Theme picker – accessible via Tools menu on main toolbar.: Temos rinkiklis – pasiekiamas per Įrankių meniu pagrindinėje įrankių juostoje.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Neįmanoma rasti versijos nuotolinio projekto faile.
 Update: Atnaujinti
 Update complete. Restarting...: Atnaujinimas baigtas. Paleidžiama iš naujo...
+Update Error: Atnaujinimo klaida
 Update failed: : Nepavyko atnaujinti:
 Updates: Atnaujinimai
+Upload Error: Įkėlimo klaida
 URL: URL
 URL (primary): URL (pagrindinis)
 URL Check: URL patikrinimas

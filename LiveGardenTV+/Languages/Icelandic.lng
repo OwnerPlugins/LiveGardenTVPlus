@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache mappa: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache mappa: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Algjörlega valfrjálst - engir eiginleikar eru lokaðir)
 (No description): (Engin lýsing)
 • Add / rename / delete groups.: • Bæta við / endurnefna / eyða hópum.
@@ -10,7 +10,7 @@
 • EPG info displayed in status bar for current channel.: • EPG upplýsingar birtar á stöðustikunni fyrir núverandi rás.
 • Export OK / FAIL / filtered lists as M3U or JSON.: • Flytja út OK / FAIL / síaðir listar sem M3U eða JSON.
 • Fetch logos from remote repository (OwnerPlugins/logos).: • Sæktu lógó úr fjarlægri geymslu (OwnerPlugins/logos).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Viðmót á fullum skjá: felur hliðarstikuna og stöðustikuna (ESC til að hætta).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Viðmót á öllum skjánum: felur hliðarstikuna og stöðustikuna (ESC til að hætta).
 • Hide/Show channel list button.: • Fela/Sýna ráslistahnappur.
 • Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Flytja inn JSON (staðbundið eða vefslóð) með sveigjanlegri reitakortlagningu (sjálfvirkt greina, vista kortlagningu).
 • Picture‑in‑Picture (PIP) button.: • Picture-in-Picture (PIP) hnappur.
@@ -57,6 +57,7 @@ Click for details: Smelltu til að fá upplýsingar
 Close: Loka
 Command name:: Skipunarheiti:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Samfélag og prófanir: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Configuration Missing: Stillingar vantar
 Confirm Reload: Staðfestu endurhleðslu
 Connect: Tengdu
 Connected: Tengdur
@@ -83,6 +84,7 @@ Edit command name:: Breyta heiti skipunar:
 Edit Playlist: Breyta lagalista
 Edit telnet command:: Breyta telnet skipun:
 Edit URLs: Breyta vefslóðum
+Empty Password: Tómt lykilorð
 End: Enda
 Enrich with EPG: Auðgaðu með EPG
 Enter bouquet name (without spaces):: Sláðu inn nafn vönds (án bils):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Flyttu aðeins út uppáhaldsr�
 Extracting update...: Tekur út uppfærslu...
 Failed to download playlist: Mistókst að hlaða niður lagalista
 Failed to load playlist: Mistókst að hlaða spilunarlista
-Failed to update bouquets.tv.: Mistókst að uppfæra bouquets.tv.
-Failed to upload bouquet.: Mistókst að hlaða upp vönd.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Mistókst að uppfæra bouquets.tv. Vinsamlegast athugaðu skráarheimildir á Enigma2 tækinu.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Mistókst að hlaða upp vönd. Athugaðu Telnet stillingarnar þínar (gestgjafi, gátt, notendanafn, lykilorð) og reyndu aftur.
 Favorite: Uppáhalds
 Favorites only: Aðeins eftirlæti
 Fetch Logos: Sækja lógó
@@ -272,7 +274,9 @@ Target Field: Markreitur
 Telnet command:: Telnet skipun:
 Telnet Commander: Telnet yfirmaður
 Telnet Console: Telnet stjórnborð
-Telnet not configured. Please set it in Settings.: Telnet ekki stillt. Vinsamlegast stilltu það í stillingum.
+Telnet host not configured. Please set it in Settings.: Telnet gestgjafi ekki stilltur. Vinsamlegast stilltu það í stillingum.
+Telnet password is empty. Do you want to continue?: Telnet lykilorð er tómt. Viltu halda áfram?
+Telnet username not configured. Please set it in Settings.: Telnet notandanafn ekki stillt. Vinsamlegast stilltu það í stillingum.
 Thanks to: Þökk sé
 Theme picker: Þemavalari
 Theme picker – accessible via Tools menu on main toolbar.: Þemavalur – aðgengilegur í verkfæravalmyndinni á aðaltækjastikunni.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Ekki er hægt að finna útgáfu í ytri verkefnaskrá.
 Update: Uppfærsla
 Update complete. Restarting...: Uppfærslu lokið. Endurræsir...
+Update Error: Uppfærsluvilla
 Update failed: : Uppfærsla mistókst:
 Updates: Uppfærslur
+Upload Error: Upphleðsluvilla
 URL: URL
 URL (primary): URL (aðal)
 URL Check: URL Athugun

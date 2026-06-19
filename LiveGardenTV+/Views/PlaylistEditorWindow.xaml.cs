@@ -315,7 +315,10 @@ namespace LiveGardenTVPlus.Views
         {
             try
             {
-                string newGroupName = Microsoft.VisualBasic.Interaction.InputBox("Enter new group name:", "Add Group", "");
+                string newGroupName = InputBoxHelper.ShowInputBox(
+                    LanguageManager.GetTranslation("Enter new group name:"),
+                    LanguageManager.GetTranslation("Add Group"),
+                    "");
                 if (string.IsNullOrWhiteSpace(newGroupName)) return;
 
                 var newChannel = new ChannelJson
@@ -354,7 +357,10 @@ namespace LiveGardenTVPlus.Views
                     return;
                 }
                 string oldGroup = selected.group ?? "";
-                string newGroup = Microsoft.VisualBasic.Interaction.InputBox($"Rename group '{oldGroup}' to:", "Rename Group", oldGroup);
+                string newGroup = InputBoxHelper.ShowInputBox(
+                    string.Format(LanguageManager.GetTranslation("Rename group '{0}' to:"), oldGroup),
+                    LanguageManager.GetTranslation("Rename Group"),
+                    oldGroup);
                 if (string.IsNullOrEmpty(newGroup) || newGroup == oldGroup) return;
 
                 foreach (var ch in Channels.Where(c => (c.group ?? "") == oldGroup))
@@ -554,7 +560,7 @@ namespace LiveGardenTVPlus.Views
 
         private async void OpenUrlBtn_Click(object sender, RoutedEventArgs e)
         {
-            string url = Microsoft.VisualBasic.Interaction.InputBox(
+            string url = InputBoxHelper.ShowInputBox(
                 LanguageManager.GetTranslation("Enter playlist URL (M3U or JSON):"),
                 LanguageManager.GetTranslation("Open from URL"),
                 "");
@@ -1018,7 +1024,7 @@ namespace LiveGardenTVPlus.Views
 
         private async void ImportJsonUrlBtn_Click(object sender, RoutedEventArgs e)
         {
-            string url = Microsoft.VisualBasic.Interaction.InputBox(
+            string url = InputBoxHelper.ShowInputBox(
                 LanguageManager.GetTranslation("Enter JSON URL:"),
                 LanguageManager.GetTranslation("Import JSON from URL"),
                 "");
