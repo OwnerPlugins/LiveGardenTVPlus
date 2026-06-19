@@ -159,6 +159,7 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
 
 - **Fixed Send to E2** 
   – Now app work and no crash on send channels..
+  - Logger added: C:\Users\%profile%\AppData\Local\LiveGardenTVPlus\Logs\
 
 ### Need more help?
 
