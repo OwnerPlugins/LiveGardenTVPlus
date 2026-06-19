@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (የመሸጎጫ አቃፊ፡ %TEMP%\\ LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (የመሸጎጫ አቃፊ፡ %TEMP%\\ LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (ሙሉ በሙሉ በፈቃደኝነት - ምንም ባህሪያት አልተከለከሉም)
 (No description): (ምንም መግለጫ የለም)
 • Add / rename / delete groups.: • ቡድኖችን ያክሉ/ እንደገና ይሰይሙ/ ይሰርዙ።
@@ -57,6 +57,7 @@ Click for details: ለዝርዝሩ ጠቅ ያድርጉ
 Close: ገጠመ
 Command name:: የትእዛዝ ስም፡-
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ማህበረሰብ እና ሙከራ፡ CorvoBoys (corvoboys.org) እና LinuxSat-Support.com
+Configuration Missing: ውቅረት ይጎድላል
 Confirm Reload: ዳግም መጫንን ያረጋግጡ
 Connect: ተገናኝ
 Connected: ተገናኝቷል።
@@ -83,6 +84,7 @@ Edit command name:: የትዕዛዝ ስም አርትዕ
 Edit Playlist: አጫዋች ዝርዝር ያርትዑ
 Edit telnet command:: የቴሌኔት ትዕዛዙን ያርትዑ፡
 Edit URLs: URLs አርትዕ
+Empty Password: ባዶ የይለፍ ቃል
 End: መጨረሻ
 Enrich with EPG: በ EPG ያበልጽጉ
 Enter bouquet name (without spaces):: የዕቅፍ አበባ ስም አስገባ (ያለ ክፍተቶች)
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: ተወዳጅ ሰርጦችን �
 Extracting update...: ዝማኔን በማውጣት ላይ...
 Failed to download playlist: አጫዋች ዝርዝርን ማውረድ አልተሳካም።
 Failed to load playlist: አጫዋች ዝርዝርን መጫን አልተሳካም።
-Failed to update bouquets.tv.: bouquets.tv ማዘመን አልተሳካም።
-Failed to upload bouquet.: እቅፍ አበባን መስቀል አልተሳካም።
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: bouquets.tv ማዘመን አልተሳካም። እባክዎ በEnigma2 መሣሪያ ላይ የፋይል ፈቃዶችን ያረጋግጡ።
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: እቅፍ አበባን መስቀል አልተሳካም። እባክህ የቴሌኔት ቅንጅቶችህን (አስተናጋጅ፣ ወደብ፣ የተጠቃሚ ስም፣ የይለፍ ቃል) ተመልከት እና እንደገና ሞክር።
 Favorite: ተወዳጅ
 Favorites only: ተወዳጆች ብቻ
 Fetch Logos: ሎጎዎችን አምጣ
@@ -272,7 +274,9 @@ Target Field: የዒላማ መስክ
 Telnet command:: የቴሌኔት ትዕዛዝ፡-
 Telnet Commander: ቴልኔት አዛዥ
 Telnet Console: ቴልኔት ኮንሶል
-Telnet not configured. Please set it in Settings.: ቴልኔት አልተዋቀረም። እባክዎ በቅንብሮች ውስጥ ያቀናብሩት።
+Telnet host not configured. Please set it in Settings.: የቴልኔት አስተናጋጅ አልተዋቀረም። እባክዎ በቅንብሮች ውስጥ ያቀናብሩት።
+Telnet password is empty. Do you want to continue?: የቴሌኔት ይለፍ ቃል ባዶ ነው። መቀጠል ትፈልጋለህ?
+Telnet username not configured. Please set it in Settings.: የቴሌኔት ተጠቃሚ ስም አልተዋቀረም። እባክዎ በቅንብሮች ውስጥ ያቀናብሩት።
 Thanks to: አመሰግናለሁ
 Theme picker: ጭብጥ መራጭ
 Theme picker – accessible via Tools menu on main toolbar.: ጭብጥ መራጭ - በዋናው የመሳሪያ አሞሌ ላይ በመሳሪያዎች ምናሌ በኩል ተደራሽ ነው።
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI፡ MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: በርቀት የፕሮጀክት ፋይል ውስጥ ስሪት ማግኘት አልተቻለም።
 Update: አዘምን
 Update complete. Restarting...: ማዘመን ተጠናቅቋል። እንደገና በመጀመር ላይ...
+Update Error: የዝማኔ ስህተት
 Update failed: : ማዘመን አልተሳካም፦
 Updates: ዝማኔዎች
+Upload Error: የሰቀላ ስህተት
 URL: URL
 URL (primary): ዩአርኤል (ዋና)
 URL Check: URL ቼክ

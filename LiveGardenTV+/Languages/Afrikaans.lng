@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache-lêergids: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache-lêergids: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Heeltemaal vrywillig – geen kenmerke word geblokkeer nie)
 (No description): (Geen beskrywing)
 • Add / rename / delete groups.: • Voeg by / hernoem / skrap groepe.
@@ -57,6 +57,7 @@ Click for details: Klik vir besonderhede
 Close: Maak toe
 Command name:: Opdrag naam:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Gemeenskap en toetsing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Configuration Missing: Konfigurasie ontbreek
 Confirm Reload: Bevestig herlaai
 Connect: Koppel
 Connected: Gekoppel
@@ -79,10 +80,11 @@ Drag & drop – drop M3U or JSON files directly onto main window.: Sleep & drop 
 Drag to seek back in buffer: Sleep om terug te soek in buffer
 Duplicate URLs found:\n\n: Duplikaat URL'e gevind:\n\n
 Edit Command: Wysig opdrag
-Edit command name:: Wysig opdragnaam:
+Edit command name:: Wysig opdrag naam:
 Edit Playlist: Wysig snitlys
 Edit telnet command:: Wysig telnet-opdrag:
 Edit URLs: Wysig URL's
+Empty Password: Leë wagwoord
 End: Einde
 Enrich with EPG: Verryk met EPG
 Enter bouquet name (without spaces):: Voer boeketnaam in (sonder spasies):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: Voer slegs gunstelingkanale uit
 Extracting update...: Onttrek tans opdatering …
 Failed to download playlist: Kon nie snitlys aflaai nie
 Failed to load playlist: Kon nie snitlys laai nie
-Failed to update bouquets.tv.: Kon nie bouquets.tv opdateer nie.
-Failed to upload bouquet.: Kon nie boeket oplaai nie.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Kon nie bouquets.tv opdateer nie. Kontroleer asseblief lêertoestemmings op die Enigma2-toestel.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Kon nie boeket oplaai nie. Gaan asseblief jou Telnet-instellings (gasheer, poort, gebruikernaam, wagwoord) na en probeer weer.
 Favorite: Gunsteling
 Favorites only: Slegs gunstelinge
 Fetch Logos: Haal logo's
@@ -272,7 +274,9 @@ Target Field: Teikenveld
 Telnet command:: Telnet opdrag:
 Telnet Commander: Telnet bevelvoerder
 Telnet Console: Telnet-konsole
-Telnet not configured. Please set it in Settings.: Telnet nie opgestel nie. Stel dit asseblief in Instellings.
+Telnet host not configured. Please set it in Settings.: Telnet-gasheer nie opgestel nie. Stel dit asseblief in Instellings.
+Telnet password is empty. Do you want to continue?: Telnet-wagwoord is leeg. Wil jy voortgaan?
+Telnet username not configured. Please set it in Settings.: Telnet-gebruikernaam nie opgestel nie. Stel dit asseblief in Instellings.
 Thanks to: Danksy
 Theme picker: Temakieser
 Theme picker – accessible via Tools menu on main toolbar.: Temakieser – toeganklik via Tools-kieslys op die hoofnutsbalk.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Kan nie weergawe in afgeleë projeklêer vind nie.
 Update: Dateer op
 Update complete. Restarting...: Opdatering voltooi. Herbegin tans …
+Update Error: Opdateringsfout
 Update failed: : Opdatering het misluk:
 Updates: Opdaterings
+Upload Error: Oplaaifout
 URL: URL
 URL (primary): URL (primêr)
 URL Check: URL Kontroleer

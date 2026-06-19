@@ -1,7 +1,8 @@
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace LiveGardenTVPlus.Services
@@ -11,6 +12,8 @@ namespace LiveGardenTVPlus.Services
         private TcpClient _client;
         private NetworkStream _stream;
         private readonly object _lock = new object();
+        private CancellationTokenSource _cts = new CancellationTokenSource();
+        private Task _readTask;
         public event Action<string> DataReceived;
         public event Action<string> ErrorOccurred;
         public event Action<bool> ConnectionStateChanged;
@@ -28,7 +31,10 @@ namespace LiveGardenTVPlus.Services
                 Debug.WriteLine("TelnetClient: Connected");
                 ConnectionStateChanged?.Invoke(true);
                 if (startReader)
-                    _ = ReadAsync();
+                {
+                    _cts = new CancellationTokenSource();
+                    _readTask = ReadAsync(_cts.Token);
+                }
                 return true;
             }
             catch (Exception ex)
@@ -39,42 +45,44 @@ namespace LiveGardenTVPlus.Services
             }
         }
 
-        private async Task ReadAsync()
+        private async Task ReadAsync(CancellationToken token)
         {
             var buffer = new byte[4096];
-            while (IsConnected)
+            try
             {
-                try
+                while (!token.IsCancellationRequested && IsConnected)
                 {
-                    int bytes = await _stream.ReadAsync(buffer, 0, buffer.Length);
+                    int bytes = await _stream.ReadAsync(buffer, 0, buffer.Length, token);
                     if (bytes == 0) break;
                     string data = Encoding.UTF8.GetString(buffer, 0, bytes);
                     DataReceived?.Invoke(data);
                 }
-                catch (Exception ex)
-                {
-                    // Log the error but do NOT disconnect or propagate
-                    Debug.WriteLine($"TelnetClient: Read error - {ex.Message}");
-                    // Do NOT call Disconnect() here – let the connection close naturally
-                    break;
-                }
             }
-            // Only disconnect if the stream is still open
-            if (_stream != null && _client != null && _client.Connected)
+            catch (OperationCanceledException)
             {
-                Disconnect();
+                Debug.WriteLine("TelnetClient: Read cancelled.");
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"TelnetClient: Read error - {ex.Message}");
+                // Do not rethrow or disconnect here – let the caller handle it
+            }
+            finally
+            {
+                // Ensure clean disconnect if still connected
+                if (IsConnected)
+                    Disconnect();
             }
         }
 
         public async Task<bool> LoginAsync(string username, string password)
         {
-            Debug.WriteLine("TelnetClient: Waiting for login prompt...");
-            await Task.Delay(1000); // Wait for the "login:" prompt
+            Debug.WriteLine("TelnetClient: Sending username...");
             await SendCommandAsync(username);
-            await Task.Delay(800);
+            await Task.Delay(300);
+            Debug.WriteLine("TelnetClient: Sending password...");
             await SendCommandAsync(password);
-            await Task.Delay(800);
-            Debug.WriteLine("TelnetClient: Login sequence completed");
+            await Task.Delay(300);
             return true;
         }
 
@@ -90,6 +98,12 @@ namespace LiveGardenTVPlus.Services
         {
             lock (_lock)
             {
+                if (_cts != null && !_cts.IsCancellationRequested)
+                {
+                    _cts.Cancel();
+                    _cts.Dispose();
+                    _cts = null;
+                }
                 _stream?.Close();
                 _client?.Close();
                 _stream = null;
@@ -99,6 +113,10 @@ namespace LiveGardenTVPlus.Services
             }
         }
 
-        public void Dispose() => Disconnect();
+        public void Dispose()
+        {
+            Disconnect();
+            _cts?.Dispose();
+        }
     }
 }

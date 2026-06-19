@@ -1343,22 +1343,59 @@ namespace LiveGardenTVPlus
         private async void SendToEnigmaBtn_Click(object sender, RoutedEventArgs e)
         {
             Debug.WriteLine("=== SendToEnigmaBtn_Click START ===");
+            Logger.Info("SendToEnigma started.");
+
             if (_allChannelsOriginal == null || _allChannelsOriginal.Count == 0)
             {
                 Debug.WriteLine("No playlist loaded.");
+                Logger.Error("No playlist loaded.");
                 MessageBox.Show(LanguageManager.GetTranslation("Load a playlist first."));
                 return;
             }
             Debug.WriteLine($"Playlist loaded: {_allChannelsOriginal.Count} channels");
+            Logger.Info($"Playlist loaded: {_allChannelsOriginal.Count} channels");
 
             var prefs = UserPreferences.Load();
+
+            // Check Host
             if (string.IsNullOrEmpty(prefs.TelnetHost))
             {
-                Debug.WriteLine("Telnet not configured.");
-                MessageBox.Show(LanguageManager.GetTranslation("Telnet not configured. Please set it in Settings."));
+                Debug.WriteLine("Telnet host not configured.");
+                Logger.Error("Telnet host not configured.");
+                MessageBox.Show(LanguageManager.GetTranslation("Telnet host not configured. Please set it in Settings."),
+                                LanguageManager.GetTranslation("Configuration Missing"), MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
-            Debug.WriteLine($"Telnet host: {prefs.TelnetHost}");
+
+            // Check Username
+            if (string.IsNullOrEmpty(prefs.TelnetUser))
+            {
+                Debug.WriteLine("Telnet username not configured.");
+                Logger.Error("Telnet username not configured.");
+                MessageBox.Show(LanguageManager.GetTranslation("Telnet username not configured. Please set it in Settings."),
+                                LanguageManager.GetTranslation("Configuration Missing"), MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            // Check Password (allow empty with warning)
+            if (string.IsNullOrEmpty(prefs.TelnetPass))
+            {
+                Debug.WriteLine("Telnet password is empty.");
+                Logger.Info("Telnet password is empty.");
+                var result = MessageBox.Show(
+                    LanguageManager.GetTranslation("Telnet password is empty. Do you want to continue?"),
+                    LanguageManager.GetTranslation("Empty Password"),
+                    MessageBoxButton.YesNo,
+                    MessageBoxImage.Question);
+                if (result != MessageBoxResult.Yes)
+                {
+                    Logger.Info("User cancelled due to empty password.");
+                    return;
+                }
+            }
+
+            Debug.WriteLine($"Telnet host: {prefs.TelnetHost}, Port: {prefs.TelnetPort}, User: {prefs.TelnetUser}");
+            Logger.Info($"Telnet host: {prefs.TelnetHost}, Port: {prefs.TelnetPort}, User: {prefs.TelnetUser}");
 
             string bouquetName = Microsoft.VisualBasic.Interaction.InputBox(
                 LanguageManager.GetTranslation("Enter bouquet name (without spaces):"),
@@ -1366,44 +1403,61 @@ namespace LiveGardenTVPlus
                 "LiveGardenTV+");
             if (string.IsNullOrWhiteSpace(bouquetName)) return;
             Debug.WriteLine($"Bouquet name: {bouquetName}");
+            Logger.Info($"Bouquet name: {bouquetName}");
 
             string remoteFile = $"/etc/enigma2/userbouquet.{bouquetName}.tv";
             Debug.WriteLine($"Remote file: {remoteFile}");
+            Logger.Info($"Remote file: {remoteFile}");
 
             bool exists = await FileExistsOnFtp(remoteFile);
             Debug.WriteLine($"File exists on FTP: {exists}");
+            Logger.Info($"File exists on FTP: {exists}");
             if (exists)
             {
                 var result = MessageBox.Show(
                     string.Format(LanguageManager.GetTranslation("File {0} already exists. Overwrite?"), remoteFile),
                     LanguageManager.GetTranslation("File exists"),
                     MessageBoxButton.YesNo, MessageBoxImage.Question);
+                Logger.Info($"Overwrite response: {(result == MessageBoxResult.Yes ? "YES" : "NO")}");
                 if (result != MessageBoxResult.Yes) return;
             }
 
             string content = GenerateEnigma2Bouquet(bouquetName);
             Debug.WriteLine($"Bouquet generated, length: {content.Length} chars");
+            Logger.Info($"Bouquet generated, length: {content.Length} chars");
 
             Debug.WriteLine("Uploading bouquet via FTP...");
             bool uploaded = await UploadBouquetViaFtp(content, remoteFile);
             Debug.WriteLine($"Upload result: {(uploaded ? "SUCCESS" : "FAILURE")}");
+            Logger.Info($"Upload result: {(uploaded ? "SUCCESS" : "FAILURE")}");
             if (!uploaded)
             {
-                MessageBox.Show(LanguageManager.GetTranslation("Failed to upload bouquet."));
+                Logger.Error("Failed to upload bouquet.");
+                MessageBox.Show(
+                    LanguageManager.GetTranslation("Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again."),
+                    LanguageManager.GetTranslation("Upload Error"),
+                    MessageBoxButton.OK,
+                    MessageBoxImage.Error);
                 return;
             }
-
             Debug.WriteLine("Updating bouquets.tv reference...");
             bool refUpdated = await UpdateBouquetsTv(bouquetName);
             Debug.WriteLine($"Update bouquets.tv result: {(refUpdated ? "SUCCESS" : "FAILURE")}");
+            Logger.Info($"Update bouquets.tv result: {(refUpdated ? "SUCCESS" : "FAILURE")}");
             if (!refUpdated)
             {
-                MessageBox.Show(LanguageManager.GetTranslation("Failed to update bouquets.tv."));
+                Logger.Error("Failed to update bouquets.tv.");
+                MessageBox.Show(
+                    LanguageManager.GetTranslation("Failed to update bouquets.tv. Please check file permissions on the Enigma2 device."),
+                    LanguageManager.GetTranslation("Update Error"),
+                    MessageBoxButton.OK,
+                    MessageBoxImage.Error);
                 return;
             }
 
-            Debug.WriteLine("Reloading Enigma2 channel list via telnet...");
+            Debug.WriteLine("Reloading Enigma2 channel list via HTTP...");
             await ReloadEnigma2Channels();
+            Logger.Success("Bouquet sent and Enigma2 channel list reloaded.");
             Debug.WriteLine("Reload command sent.");
 
             MessageBox.Show(LanguageManager.GetTranslation("Bouquet sent and Enigma2 channel list reloaded."));

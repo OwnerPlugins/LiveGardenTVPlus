@@ -1,4 +1,4 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (مجلد ذاكرة التخزين المؤقت: %TEMP%\\LiveGardenTVPlus\\epg_cache)
+(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (مجلد ذاكرة التخزين المؤقت: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (طوعي تمامًا - لا توجد ميزات محظورة)
 (No description): (بدون وصف)
 • Add / rename / delete groups.: • إضافة / إعادة تسمية / حذف المجموعات.
@@ -57,6 +57,7 @@ Click for details: انقر للحصول على التفاصيل
 Close: يغلق
 Command name:: اسم الأمر:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: المجتمع والاختبار: CorvoBoys (corvoboys.org) وLinuxSat-Support.com
+Configuration Missing: التكوين مفقود
 Confirm Reload: تأكيد إعادة التحميل
 Connect: يتصل
 Connected: متصل
@@ -83,6 +84,7 @@ Edit command name:: تعديل اسم الأمر:
 Edit Playlist: تحرير قائمة التشغيل
 Edit telnet command:: تحرير أمر التلنت:
 Edit URLs: تحرير عناوين URL
+Empty Password: كلمة المرور فارغة
 End: نهاية
 Enrich with EPG: إثراء مع دليل البرامج الإلكتروني
 Enter bouquet name (without spaces):: أدخل اسم الباقة (بدون مسافات):
@@ -118,8 +120,8 @@ Export only favorite channels to a new M3U file: قم بتصدير القنوا�
 Extracting update...: جارٍ استخراج التحديث...
 Failed to download playlist: فشل تنزيل قائمة التشغيل
 Failed to load playlist: فشل تحميل قائمة التشغيل
-Failed to update bouquets.tv.: فشل تحديث باقات.tv.
-Failed to upload bouquet.: فشل تحميل الباقة.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: فشل تحديث باقات.tv. الرجاء التحقق من أذونات الملف على جهاز Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: فشل تحميل الباقة. يرجى التحقق من إعدادات Telnet (المضيف والمنفذ واسم المستخدم وكلمة المرور) والمحاولة مرة أخرى.
 Favorite: مفضل
 Favorites only: المفضلة فقط
 Fetch Logos: جلب الشعارات
@@ -272,7 +274,9 @@ Target Field: مجال الهدف
 Telnet command:: أمر التلنت:
 Telnet Commander: قائد التلنت
 Telnet Console: وحدة تحكم التلنت
-Telnet not configured. Please set it in Settings.: لم يتم تكوين Telnet. يرجى ضبطه في الإعدادات.
+Telnet host not configured. Please set it in Settings.: لم يتم تكوين مضيف Telnet. يرجى ضبطه في الإعدادات.
+Telnet password is empty. Do you want to continue?: كلمة مرور Telnet فارغة. هل تريد الاستمرار؟
+Telnet username not configured. Please set it in Settings.: لم يتم تكوين اسم مستخدم Telnet. يرجى ضبطه في الإعدادات.
 Thanks to: شكرا ل
 Theme picker: منتقي الموضوع
 Theme picker – accessible via Tools menu on main toolbar.: منتقي السمات – يمكن الوصول إليه عبر قائمة الأدوات على شريط الأدوات الرئيسي.
@@ -289,8 +293,10 @@ UI: MaterialDesignThemes.Wpf: واجهة المستخدم: MaterialDesignThemes.
 Unable to find version in remote project file.: غير قادر على العثور على الإصدار في ملف المشروع البعيد.
 Update: تحديث
 Update complete. Restarting...: اكتمل التحديث. جارٍ إعادة التشغيل...
+Update Error: خطأ في التحديث
 Update failed: : فشل التحديث:
 Updates: التحديثات
+Upload Error: خطأ في التحميل
 URL: عنوان URL
 URL (primary): عنوان URL (أساسي)
 URL Check: التحقق من عنوان URL
