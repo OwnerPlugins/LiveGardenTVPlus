@@ -1,4 +1,4 @@
-name: Auto Tag and Release
+name: Auto Tag
 
 on:
   push:
@@ -6,76 +6,34 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: windows-latest
+  tag:
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '10.0.x'
+        fetch-depth: 0
 
-    - name: Restore dependencies
-      run: dotnet restore "LiveGardenTV+/LiveGardenTV+.csproj"
-
-    - name: Publish self-contained single-file
-      run: |
-        dotnet publish "LiveGardenTV+/LiveGardenTV+.csproj" `
-          --configuration Release `
-          --runtime win-x64 `
-          --self-contained true `
-          -p:PublishSingleFile=true `
-          -p:IncludeNativeLibrariesForSelfExtract=true `
-          -p:DebugType=none `
-          -o ./publish
-
-    - name: Create version.txt
-      run: |
-        $content = Get-Content "LiveGardenTV+/LiveGardenTV+.csproj" -Raw
-        $regex = '<AssemblyVersion>(.*?)<\/AssemblyVersion>'
-        $match = [regex]::Match($content, $regex)
-        if ($match.Success) {
-          $version = $match.Groups[1].Value
-        } else {
-          $version = "unknown"
-        }
-        Write-Output $version | Out-File -FilePath version.txt -Encoding ascii
-        Write-Host "✅ Created version.txt with version $version"
-
-    - name: Commit version.txt
-      uses: stefanzweifel/git-auto-commit-action@v5
-      with:
-        commit_message: "Update version.txt"
-        file_pattern: "version.txt"
-        add_f: true
-
-    - name: Get version from version.txt
+    - name: Get version from csproj
       id: get_version
       run: |
-        $version = Get-Content version.txt -Raw
-        $version = $version.Trim()
-        if ([string]::IsNullOrWhiteSpace($version)) {
-          Write-Error "❌ version.txt is empty"
-          exit 1
-        }
-        echo "version=$version" >> $env:GITHUB_OUTPUT
-        Write-Host "✅ Version: $version"
+        VERSION=$(grep -oP '<AssemblyVersion>\K[^<]+' LiveGardenTV+/LiveGardenTV+.csproj)
+        echo "version=$VERSION" >> $GITHUB_OUTPUT
+        echo "✅ Version: $VERSION"
 
     - name: Create and push tag
       run: |
         git config user.name "GitHub Actions"
         git config user.email "actions@github.com"
-        $tag = "v${{ steps.get_version.outputs.version }}"
-        if (git rev-parse "$tag" 2>$null) {
-          Write-Host "⚠️ Tag $tag already exists"
-        } else {
-          git tag "$tag"
-          git push origin "$tag"
-          Write-Host "✅ Created and pushed tag: $tag"
-        }
+        TAG="v${{ steps.get_version.outputs.version }}"
+        if git rev-parse "$TAG" >/dev/null 2>&1; then
+          echo "⚠️ Tag $TAG already exists"
+        else
+          git tag "$TAG"
+          git push origin "$TAG"
+          echo "✅ Created and pushed tag: $TAG"
+        fi
 
     - name: Create GitHub Release
       uses: softprops/action-gh-release@v2
