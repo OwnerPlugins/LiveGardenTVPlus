@@ -149,6 +149,16 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
     </td>
   </tr>
 
+  <tr>
+    <td align="center">
+      <img src="Screenshots/preview21.jpg?sanitize=true&raw=true" title="preview21" width="400"/><br/>
+      <b>Preview 21</b>
+    </td>
+    <td align="center">
+      <img src="Screenshots/preview22.jpg?sanitize=true&raw=true" title="preview22" width="400"/><br/>
+      <b>Preview 22</b>
+    </td>
+  </tr>
 </table>
 
 ---
