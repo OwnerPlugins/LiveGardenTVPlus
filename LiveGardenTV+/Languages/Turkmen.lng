@@ -1,4 +1,3 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Keş bukjasy:% TEMP% \\ LiveGardenTVPlus \\ epg_cache)
 (Completely voluntary – no features are blocked): (Doly meýletin - hiç hili aýratynlyk petiklenmeýär)
 (No description): (Düşündiriş ýok)
 • Add / rename / delete groups.: • Toparlary goşuň / adyny üýtgediň / pozuň.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Öňki
 16 colour themes + Light/Dark variants.: 16 reňk mowzugy + Lightagty / Garaňky görnüşler.
 A new version is available. Do you want to update now?: Täze wersiýasy bar. Indi täzelenmek isleýärsiňizmi?
+Access via 'Compare' button in Playlist Editor or Tools menu.: “Playlist Redaktor” ýa-da “Gurallar” menýusynda “Deňeşdir” düwmesine giriň.
 Access via 'Edit Playlist' button on main toolbar.: Esasy gurallar panelindäki 'Pleýlisti redaktirlemek' düwmesine giriň.
 Actions: Hereketler
 Add Command: Buýruk goş
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Buket iberildi we Enigma2 kanal
 Buffer (seconds): Bufer (sekunt)
 Buffer size – adjust HLS buffer seconds.: Bufer ölçegi - HLS bufer sekuntlaryny sazlaň.
 Cache: Keş
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Keş bukjasy:% TEMP% \\ LiveGardenTVPlus \\ epg_cache
 Cancel: Elatyr
 CANCEL: ANCATY ..
+Cannot open browser: Brauzeri açyp bolmaýar
 Category: Kategoriýa
 Changelog: Çangelog
 Channel Details: Kanal maglumatlary
 Channel Info: Kanal maglumatlary
+Channel Name: Kanalyň ady
 channels from: kanallaryndan
+channels from JSON: JSON kanallary
 channels from JSON URL: JSON URL-den kanallar
 channels from URL: URL-den kanallar
 Check Duplicates: Göçürmeleri barlaň
@@ -57,6 +61,13 @@ Click for details: Jikme-jiklikler üçin basyň
 Close: .Akyn
 Command name:: Buýruk ady:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Jemgyýet we synag: CorvoBoys (corvoboys.org) we LinuxSat-Support.com
+Compare: Deňeşdiriň
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Deňeşdiriň: Üstünlik (ady → topar → tvg-id), Ady, Topary (kese duýgur) ýa-da TvgId.
+Compare Playlists: Sanawlary deňeşdiriň
+Compare two playlists – load first (current playlist) and second (from file or URL).: Iki sanaw sanawyny deňeşdiriň - ilki ýükläň (häzirki pleýlist) we ikinjisi (faýldan ýa-da URL-den).
+Compare...: Deňeşdiriň ...
+Comparison results: {0} channels: Deňeşdirmegiň netijeleri: {0} kanallar
+Configuration Missing: Sazlama ýitdi
 Confirm Reload: Eloüklemegi tassykla
 Connect: Birikdiriň
 Connected: Birikdirildi
@@ -83,10 +94,13 @@ Edit command name:: Buýruk adyny redaktirläň:
 Edit Playlist: Sanaw sanawyny redaktirläň
 Edit telnet command:: Telnet buýrugyny redaktirläň:
 Edit URLs: URL-leri redaktirläň
+Empty Password: Boş parol
 End: Ahyrzaman
 Enrich with EPG: EPG bilen baýlaşdyryň
 Enter bouquet name (without spaces):: Buketiň adyny giriziň (boş ýerler ýok):
 Enter JSON URL:: JSON URL giriziň:
+Enter new group name:: Täze toparyň adyny giriziň:
+Enter playlist URL (JSON or M3U):: Aýdym sanawynyň URL-sini giriziň (JSON ýa-da M3U):
 Enter playlist URL (M3U or JSON):: Aýdym sanawynyň URL-sini giriziň (M3U ýa-da JSON):
 EPG: EPG
 Epg & Favorites: Epg & Halanýanlar
@@ -101,31 +115,40 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG çeşmesi
 EPG source – choose XMLTV file or enter custom URL.: EPG çeşmesi - XMLTV faýly saýlaň ýa-da ýörite URL giriziň.
 EPG Source Missing: EPG çeşmesi ýitdi
 Error: Roralňyşlyk
-Error clearing cache: Keş arassalamakda säwlik
+Error clearing cache: {0}: Keşi arassalamakda säwlik: {0}
 Error loading: Adingüklemekde säwlik
+Error loading EPG list: {0}: EPG sanawyny ýüklemekde säwlik: {0}
+Error loading file: {0}: Faýly ýüklemekde säwlik: {0}
 Error loading file: {0}: Faýly ýüklemekde säwlik: {0}
 Error loading playlists: {0}: Sanaw sanawlaryny ýüklemekde säwlik: {0}
 Error loading URL: {0}: URL ýüklemekde säwlik: {0}
+Error loading URL: {0}: URL ýüklemekde säwlik: {0}
 ERROR: player.html not found.: RAL .YŞLYK: player.html tapylmady
 Exit: Çyk
+Export: Eksport
+Export all: Hemmesini eksport ediň
 Export Favorites: Halanýanlary eksport ediň
 Export Filtered JSON: Filtrlenen JSON eksport ediň
 Export Filtered M3U: Filtrlenen M3U eksport ediň
 Export JSON: JSON eksport ediň
 Export KO: KO eksport ediň
+Export missing: Eksport ýitdi
 Export OK: Eksport etmek gowy
 Export only favorite channels to a new M3U file: Diňe halaýan kanallary täze M3U faýlyna eksport ediň
+Export results as JSON or M3U – export missing channels or all channels.: JSON ýa-da M3U görnüşinde netijeleri eksport ediň - ýiten kanallary ýa-da ähli kanallary eksport ediň.
+Exported channels: Eksport edilen kanallar
 Extracting update...: Täzelenme çykarmak ...
 Failed to download playlist: Aýdym sanawyny göçürip alyp bilmedi
 Failed to load playlist: Aýdym sanawyny ýükläp bilmedi
-Failed to update bouquets.tv.: Bouquets.tv täzelenip bilmedi.
-Failed to upload bouquet.: Buket ýükläp bilmedi.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Bouquets.tv täzelenip bilmedi. Enigma2 enjamynda faýl rugsatlaryny barlaň.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Buket ýükläp bilmedi. Telnet sazlamalaryňyzy (host, port, ulanyjy ady, parol) barlaň we gaýtadan synanyşyň.
 Favorite: Halaýan
 Favorites only: Diňe halanýanlar
 Fetch Logos: Logotipleri al
 File {0} already exists. Overwrite?: {0} faýly eýýäm bar. Gaýtadan ýazmalymy?
 File exists: Faýl bar
 Filters: Süzgüçler
+First playlist: {0} channels loaded.: Ilkinji pleýlist: {0} kanallar ýüklendi.
 Fullscreen (hide UI) - press ESC to exit: Doly ekran (UI gizläň) - çykmak üçin ESC basyň
 Geo & Country: Geo we ýurt
 GeoBlocked: GeoBlocked
@@ -138,19 +161,23 @@ Hide List: Sanawy gizläň
 HLS playback: hls.js (MIT license): HLS oýnamak: hls.js (MIT ygtyýarnamasy)
 Image: Surat
 Import: Import
+Import cancelled or no channels mapped.: Import ýatyryldy ýa-da hiç hili kanal kartasy ýok.
 Import error: {0}: Import ýalňyşlygy: {0}
 Import from URL: URL-den import
 Import JSON: JSON import ediň
 Import JSON from URL: JSON-ny URL-den import ediň
 Import Local: Localerli import ediň
-Imported {0} channels from JSON.: JSON-dan {0} kanallary import etdi.
+Imported {0} channels from JSON via mapping.: JSON-dan kartalaşdyrmak arkaly {0} kanallary import etdi.
 Imported {0} channels from URL.: URL-den {0} kanallary import edildi.
+In Both: Ikisinde-de
 Info: Maglumat
 Info on: Maglumat
 Invalid JSON: {0}: Nädogry JSON: {0}
 Invalid playlist URL.: Nädogry sanaw sanawy URL.
 Invalid URL.: Nädogry URL.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: JSON faýllary | * .json | M3U faýllary | * .m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON faýllary | * .json | M3U faýllary | * .m3u; *. M3u8 | fileshli faýllar | *. *
 JSON Property: JSON emläk
 Ko-fi: Kofe
 Language: Dil
@@ -158,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Diller
 Languages (comma): Diller (vergi)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Lulullanyň kömegi
+LiveGardenTVPlus Help: LiveGardenTVPlus Kömek
 LOAD: Oük
 Load a playlist first.: Ilki bilen pleýlist ýükläň.
+Load a second playlist first.: Ilki bilen ikinji sanaw sanawyny ýükläň.
 Load File: Faýl ýükläň
+Load from file...: Faýldan ýük ...
+Load from URL: URL-den ýükläň
+Load from URL...: URL-den ýükläň ...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Localerli M3U / JSON faýly ýükläň - 'Fileükleme faýly' düwmesi (gurallar paneli) ýa-da redaktorda 'Açyk faýl'.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Onlaýn M3U / JSON URL-ni ýükläň - 'Onlaýn ýüklemek' düwmesi (gurallar paneli) ýa-da redaktorda 'URL-den aç'.
 Load playlist file (M3U/JSON) from your computer: Pleýlist faýlyny (M3U / JSON) kompýuteriňizden ýükläň
 Loaded: Adedüklenen
+Loaded {0} channels from JSON file via mapping.: JSON faýlyndan kartalaşdyrmak arkaly {0} kanallary ýükledi.
 Loaded {0} channels from JSON file.: JSON faýlyndan {0} kanallar ýüklendi.
 Loaded {0} channels from JSON URL.: JSON URL-den {0} kanallar ýüklendi.
 Loaded {0} channels from M3U file.: M3U faýlyndan {0} kanallar ýüklendi.
@@ -191,15 +223,23 @@ Next: Indiki
 Next ▶: Indiki ▶
 No .m3u files found on GitHub repository.: GitHub ammarynda ýok .m3u faýllary.
 No cache folder found.: Keş bukjasy tapylmady
+No channels could be mapped or import cancelled.: Hiç bir kanal kartalaşdyrylyp ýa-da import ýatyrylyp bilinmedi.
 No channels could be mapped. Check your mapping rules.: Hiç bir kanal kartalaşdyrylyp bilinmedi. Kartalaşdyrmak düzgünleriňizi barlaň.
+No channels loaded from JSON URL.: JSON URL-den ýüklenen kanal ýok.
+No channels loaded from M3U URL.: M3U URL-den ýüklenen kanal ýok.
+No channels loaded from M3U.: M3U-dan ýüklenen kanal ýok.
+No channels loaded.: Hiç hili kanal ýüklenmedi.
 No channels mapped: Hiç hili kanal kartasy ýok
+No comparison results. Run Compare first.: Deňeşdirme netijeleri ýok. Ilki bilen deňeşdiriň.
 No duplicate URLs found.: Dublikat URL tapylmady.
 No EPG data: EPG maglumatlary ýok
 No EPG information available for this channel.: Bu kanal üçin EPG maglumaty ýok.
 No EPG source configured. Please select one from the combo or go to Settings.: EPG çeşmesi düzülmedi. Çekişden birini saýlaň ýa-da Sazlamalara gidiň.
 No EPG source configured. Would you like to open settings to select one?: EPG çeşmesi düzülmedi. Birini saýlamak üçin sazlamalary açmak isleýärsiňizmi?
 No favorite channels to export.: Eksport etmek üçin halanýan kanallar ýok.
+No missing channels to export.: Eksport etmek üçin kanal ýok.
 No playlist found: Aýdym sanawy tapylmady
+No second playlist loaded.: Ikinji pleýlist ýüklenmedi.
 No updates available.: Täzelenmeler ýok.
 Normal speed (1x): Adaty tizlik (1x)
 Not connected to the box.: Guty bilen baglanyşykly däl.
@@ -207,6 +247,8 @@ Now: Indi
 OK: Bolýar
 Online Playlist: Onlaýn sanaw sanawy
 Online playlist – select from GitHub repository (auto‑refresh).: Onlaýn pleýlist - GitHub ammaryndan saýlaň (awtomatik täzeläň).
+Only in First: Diňe Birinjide
+Only in Second: Diňe sekuntda
 Open File...: Faýly aç ...
 Open from URL: URL-den açyň
 Open Playlist: Sanawy açyň
@@ -214,12 +256,14 @@ Pause/Resume live stream: Göni ýaýlymy duruzyň / dowam etdiriň
 Paused: Saklandy
 PayPal: PayPal
 Picture-in-Picture mode: Suratda-surat re modeimi
-Player Control: Pleýer dolandyryşy
+Player Controls: Pleýer dolandyryşlary
 Playlist & Groups: Aýdym sanawy we toparlary
+Playlist Comparison: Sanaw sanawyny deňeşdirmek
 Playlist Editor: Sanaw sanawynyň redaktory
 Playlist Loading: Aýdym sanawy ýüklenýär
 Playlist Management: Sanaw sanawyny dolandyrmak
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Sanaw sanawy ammary: OwnerPlugins / TivuStreamList (Italiýa we halkara akymlar)
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Pleýlist ammary: OwnerPlugins / TivuStreamList (Italiýa we halkara akymlar)
+Playlists loaded: Sanawlar ýüklendi
 Please select a program first.: Ilki bilen bir programma saýlaň.
 Preview (first 5 channels): Öňünden syn (ilkinji 5 kanal)
 Preview error: {0}: Öňünden görüş säwligi: {0}
@@ -235,8 +279,10 @@ Refresh List: Sanawy täzele
 Reload GUI: GUI ýükläň
 Remove Command: Buýrugy aýyryň
 Rename Group: Toparyň adyny üýtgetmek
+Rename group '{0}' to:: Toparyň adyny '{0}' diýip üýtgediň:
 Repository: Ammar
 Reset Order: Sargydy täzeden düzmek
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Netijeler: 'Diňe Birinjide', 'Diňe Ikinjide', 'Ikisinde' - reňk kodlamak bilen.
 Save: Saklaň
 SAVE: Tygşytlaň
 Save – persists all settings without reloading current playlist.: Saklamak - häzirki pleýist sanawyny täzeden ýüklemezden ähli sazlamalary dowam etdirýär.
@@ -249,6 +295,7 @@ Saved: Saklandy
 Search channel: : Gözleg kanaly:
 Search channels by name: Kanallary ady boýunça gözläň
 Search channels...: Gözleg kanallary ...
+sec: sek
 Select a playlist first.: Ilki pleýlist saýlaň.
 Select Theme: Tema saýlaň
 Selected theme is saved and applied on restart.: Saýlanan tema ýazdyrylýar we täzeden başlamak üçin ulanylýar.
@@ -271,8 +318,11 @@ Support the developer: Öndürijini goldaň
 Target Field: Maksat meýdany
 Telnet command:: Telnet buýrugy:
 Telnet Commander: Telnet serkerdesi
+Telnet Config: Telnet konfigurasiýasy
 Telnet Console: Telnet konsoly
-Telnet not configured. Please set it in Settings.: Telnet düzülmedi. Sazlamalarda goýmagyňyzy haýyş edýäris.
+Telnet host not configured. Please set it in Settings.: Telnet öý eýesi düzülmedi. Sazlamalarda goýmagyňyzy haýyş edýäris.
+Telnet password is empty. Do you want to continue?: Telnet paroly boş. Dowam etmek isleýärsiňizmi?
+Telnet username not configured. Please set it in Settings.: Telnet ulanyjy ady düzülmedi. Sazlamalarda goýmagyňyzy haýyş edýäris.
 Thanks to: Sag boluň
 Theme picker: Tema saýlaýjy
 Theme picker – accessible via Tools menu on main toolbar.: Mowzuk saýlaýjy - esasy gurallar panelindäki Gurallar menýusy arkaly girip bolýar.
@@ -289,14 +339,18 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Uzakdaky taslama faýlynda wersiýa tapyp bolmaýar.
 Update: Täzelen
 Update complete. Restarting...: Täzelenme tamamlandy. Başlamak ...
+Update Error: Täzelenme säwligi
 Update failed: : Täzelenme şowsuz boldy:
 Updates: Täzelenmeler
+Upload Error: Uploadükleme säwligi
 URL: URL
 URL (primary): URL (başlangyç)
 URL Check: URL barlaň
 URL list (one per line): URL sanawy (her setirde biri)
 URLs & Status: URL-ler we ýagdaý
 Version: Wersiýa
+Version {0}.{1}.{2}: Wersiýa {0}. {1}. {2}
+Version unknown: Wersiýasy näbelli
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus-yň ýapylmagyna garaşýarys ...
 Warning: Duýduryş
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

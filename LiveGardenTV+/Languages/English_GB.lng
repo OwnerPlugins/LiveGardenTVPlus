@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Completely voluntary – no features are blocked)
 (No description): (No description)
 • Add / rename / delete groups.: • Add / rename / delete groups.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Previous
 16 colour themes + Light/Dark variants.: 16 colour themes + Light/Dark variants.
 A new version is available. Do you want to update now?: A new version is available. Do you want to update now?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Access via 'Compare' button in Playlist Editor or Tools menu.
 Access via 'Edit Playlist' button on main toolbar.: Access via 'Edit Playlist' button on main toolbar.
 Actions: Actions
 Add Command: Add Command
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Bouquet sent and Enigma2 channe
 Buffer (seconds): Buffer (seconds)
 Buffer size – adjust HLS buffer seconds.: Buffer size – adjust HLS buffer seconds.
 Cache: Cache
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Cancel
 CANCEL: CANCEL
+Cannot open browser: Cannot open browser
 Category: Category
 Changelog: Changelog
 Channel Details: Channel Details
 Channel Info: Channel Info
+Channel Name: Channel Name
 channels from: channels from
+channels from JSON: channels from JSON
 channels from JSON URL: channels from JSON URL
 channels from URL: channels from URL
 Check Duplicates: Check Duplicates
@@ -57,6 +61,12 @@ Click for details: Click for details
 Close: Close
 Command name:: Command name:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: Compare
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.
+Compare Playlists: Compare Playlists
+Compare two playlists – load first (current playlist) and second (from file or URL).: Compare two playlists – load first (current playlist) and second (from file or URL).
+Compare...: Compare...
+Comparison results: {0} channels: Comparison results: {0} channels
 Configuration Missing: Configuration Missing
 Confirm Reload: Confirm Reload
 Connect: Connect
@@ -89,6 +99,8 @@ End: End
 Enrich with EPG: Enrich with EPG
 Enter bouquet name (without spaces):: Enter bouquet name (without spaces):
 Enter JSON URL:: Enter JSON URL:
+Enter new group name:: Enter new group name:
+Enter playlist URL (JSON or M3U):: Enter playlist URL (JSON or M3U):
 Enter playlist URL (M3U or JSON):: Enter playlist URL (M3U or JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favorites
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG source �
 EPG source – choose XMLTV file or enter custom URL.: EPG source – choose XMLTV file or enter custom URL.
 EPG Source Missing: EPG Source Missing
 Error: Error
-Error clearing cache: Error clearing cache
+Error clearing cache: {0}: Error clearing cache: {0}
 Error loading: Error loading
+Error loading EPG list: {0}: Error loading EPG list: {0}
+Error loading file: {0}: Error loading file: {0}
 Error loading file: {0}: Error loading file: {0}
 Error loading playlists: {0}: Error loading playlists: {0}
 Error loading URL: {0}: Error loading URL: {0}
+Error loading URL: {0}: Error loading URL: {0}
 ERROR: player.html not found.: ERROR: player.html not found.
 Exit: Exit
+Export: Export
+Export all: Export all
 Export Favorites: Export Favorites
 Export Filtered JSON: Export Filtered JSON
 Export Filtered M3U: Export Filtered M3U
 Export JSON: Export JSON
 Export KO: Export KO
+Export missing: Export missing
 Export OK: Export OK
 Export only favorite channels to a new M3U file: Export only favorite channels to a new M3U file
+Export results as JSON or M3U – export missing channels or all channels.: Export results as JSON or M3U – export missing channels or all channels.
+Exported channels: Exported channels
 Extracting update...: Extracting update...
 Failed to download playlist: Failed to download playlist
 Failed to load playlist: Failed to load playlist
@@ -128,6 +148,7 @@ Fetch Logos: Fetch Logos
 File {0} already exists. Overwrite?: File {0} already exists. Overwrite?
 File exists: File exists
 Filters: Filters
+First playlist: {0} channels loaded.: First playlist: {0} channels loaded.
 Fullscreen (hide UI) - press ESC to exit: Fullscreen (hide UI) - press ESC to exit
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
@@ -140,19 +161,23 @@ Hide List: Hide List
 HLS playback: hls.js (MIT license): HLS playback: hls.js (MIT license)
 Image: Image
 Import: Import
+Import cancelled or no channels mapped.: Import cancelled or no channels mapped.
 Import error: {0}: Import error: {0}
 Import from URL: Import from URL
 Import JSON: Import JSON
 Import JSON from URL: Import JSON from URL
 Import Local: Import Local
-Imported {0} channels from JSON.: Imported {0} channels from JSON.
+Imported {0} channels from JSON via mapping.: Imported {0} channels from JSON via mapping.
 Imported {0} channels from URL.: Imported {0} channels from URL.
+In Both: In Both
 Info: Info
 Info on: Info on
 Invalid JSON: {0}: Invalid JSON: {0}
 Invalid playlist URL.: Invalid playlist URL.
 Invalid URL.: Invalid URL.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: JSON files|*.json|M3U files|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*
 JSON Property: JSON Property
 Ko-fi: Coffee
 Language: Language
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Languages
 Languages (comma): Languages (comma)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Help by Lululla
+LiveGardenTVPlus Help: LiveGardenTVPlus Help
 LOAD: LOAD
 Load a playlist first.: Load a playlist first.
+Load a second playlist first.: Load a second playlist first.
 Load File: Load File
+Load from file...: Load from file...
+Load from URL: Load from URL
+Load from URL...: Load from URL...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.
 Load playlist file (M3U/JSON) from your computer: Load playlist file (M3U/JSON) from your computer
 Loaded: Loaded
+Loaded {0} channels from JSON file via mapping.: Loaded {0} channels from JSON file via mapping.
 Loaded {0} channels from JSON file.: Loaded {0} channels from JSON file.
 Loaded {0} channels from JSON URL.: Loaded {0} channels from JSON URL.
 Loaded {0} channels from M3U file.: Loaded {0} channels from M3U file.
@@ -193,15 +223,23 @@ Next: Next
 Next ▶: Next ▶
 No .m3u files found on GitHub repository.: No .m3u files found on GitHub repository.
 No cache folder found.: No cache folder found.
+No channels could be mapped or import cancelled.: No channels could be mapped or import cancelled.
 No channels could be mapped. Check your mapping rules.: No channels could be mapped. Check your mapping rules.
+No channels loaded from JSON URL.: No channels loaded from JSON URL.
+No channels loaded from M3U URL.: No channels loaded from M3U URL.
+No channels loaded from M3U.: No channels loaded from M3U.
+No channels loaded.: No channels loaded.
 No channels mapped: No channels mapped
+No comparison results. Run Compare first.: No comparison results. Run Compare first.
 No duplicate URLs found.: No duplicate URLs found.
 No EPG data: No EPG data
 No EPG information available for this channel.: No EPG information available for this channel.
 No EPG source configured. Please select one from the combo or go to Settings.: No EPG source configured. Please select one from the combo or go to Settings.
 No EPG source configured. Would you like to open settings to select one?: No EPG source configured. Would you like to open settings to select one?
 No favorite channels to export.: No favorite channels to export.
+No missing channels to export.: No missing channels to export.
 No playlist found: No playlist found
+No second playlist loaded.: No second playlist loaded.
 No updates available.: No updates available.
 Normal speed (1x): Normal speed (1x)
 Not connected to the box.: Not connected to the box.
@@ -209,6 +247,8 @@ Now: Now
 OK: OK
 Online Playlist: Online Playlist
 Online playlist – select from GitHub repository (auto‑refresh).: Online playlist – select from GitHub repository (auto‑refresh).
+Only in First: Only in First
+Only in Second: Only in Second
 Open File...: Open File...
 Open from URL: Open from URL
 Open Playlist: Open Playlist
@@ -216,12 +256,14 @@ Pause/Resume live stream: Pause/Resume live stream
 Paused: Paused
 PayPal: PayPal
 Picture-in-Picture mode: Picture-in-Picture mode
-Player Control: Player Control
+Player Controls: Player Controls
 Playlist & Groups: Playlist & Groups
+Playlist Comparison: Playlist Comparison
 Playlist Editor: Playlist Editor
 Playlist Loading: Playlist Loading
 Playlist Management: Playlist Management
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)
+Playlists loaded: Playlists loaded
 Please select a program first.: Please select a program first.
 Preview (first 5 channels): Preview (first 5 channels)
 Preview error: {0}: Preview error: {0}
@@ -237,8 +279,10 @@ Refresh List: Refresh List
 Reload GUI: Reload GUI
 Remove Command: Remove Command
 Rename Group: Rename Group
+Rename group '{0}' to:: Rename group '{0}' to:
 Repository: Repository
 Reset Order: Reset Order
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.
 Save: Save
 SAVE: SAVE
 Save – persists all settings without reloading current playlist.: Save – persists all settings without reloading current playlist.
@@ -251,6 +295,7 @@ Saved: Saved
 Search channel: : Search channel:
 Search channels by name: Search channels by name
 Search channels...: Search channels...
+sec: sec
 Select a playlist first.: Select a playlist first.
 Select Theme: Select Theme
 Selected theme is saved and applied on restart.: Selected theme is saved and applied on restart.
@@ -273,6 +318,7 @@ Support the developer: Support the developer
 Target Field: Target Field
 Telnet command:: Telnet command:
 Telnet Commander: Telnet Commander
+Telnet Config: Telnet Config
 Telnet Console: Telnet Console
 Telnet host not configured. Please set it in Settings.: Telnet host not configured. Please set it in Settings.
 Telnet password is empty. Do you want to continue?: Telnet password is empty. Do you want to continue?
@@ -303,6 +349,8 @@ URL Check: URL Check
 URL list (one per line): URL list (one per line)
 URLs & Status: URLs & Status
 Version: Version
+Version {0}.{1}.{2}: Version {0}.{1}.{2}
+Version unknown: Version unknown
 Waiting for LiveGardenTVPlus to close...: Waiting for LiveGardenTVPlus to close...
 Warning: Warning
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

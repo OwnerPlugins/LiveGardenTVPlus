@@ -1,4 +1,3 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (پوشه کش: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (کاملاً داوطلبانه - هیچ ویژگی مسدود نیست)
 (No description): (بدون شرح)
 • Add / rename / delete groups.: • افزودن / تغییر نام / حذف گروه ها.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ قبلی
 16 colour themes + Light/Dark variants.: 16 تم رنگی + انواع روشن/تاریک.
 A new version is available. Do you want to update now?: نسخه جدید موجود است. آیا می خواهید اکنون به روز رسانی کنید؟
+Access via 'Compare' button in Playlist Editor or Tools menu.: دسترسی از طریق دکمه "مقایسه" در ویرایشگر لیست پخش یا منوی ابزار.
 Access via 'Edit Playlist' button on main toolbar.: دسترسی از طریق دکمه "ویرایش لیست پخش" در نوار ابزار اصلی.
 Actions: اقدامات
 Add Command: دستور اضافه کنید
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: دسته گل ارسال شد �
 Buffer (seconds): بافر (ثانیه)
 Buffer size – adjust HLS buffer seconds.: اندازه بافر - ثانیه بافر HLS را تنظیم کنید.
 Cache: حافظه پنهان
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: پوشه کش: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: لغو کنید
 CANCEL: لغو
+Cannot open browser: مرورگر باز نمیشه
 Category: دسته بندی
 Changelog: تغییرات
 Channel Details: جزئیات کانال
 Channel Info: اطلاعات کانال
+Channel Name: نام کانال
 channels from: کانال ها از
+channels from JSON: کانال های JSON
 channels from JSON URL: کانال ها از JSON URL
 channels from URL: کانال ها از URL
 Check Duplicates: موارد تکراری را بررسی کنید
@@ -57,6 +61,13 @@ Click for details: برای جزئیات کلیک کنید
 Close: بستن
 Command name:: نام فرمان:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: انجمن و آزمایش: CorvoBoys (corvoboys.org) و LinuxSat-Support.com
+Compare: مقایسه کنید
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: مقایسه بر اساس: اولویت (نام → گروه → tvg-id)، نام، گروه (حساس به حروف کوچک) یا TvgId.
+Compare Playlists: مقایسه لیست های پخش
+Compare two playlists – load first (current playlist) and second (from file or URL).: دو لیست پخش را مقایسه کنید - اول (لیست پخش فعلی) و دوم (از فایل یا URL) بارگیری کنید.
+Compare...: مقایسه کن...
+Comparison results: {0} channels: نتایج مقایسه: {0} کانال
+Configuration Missing: پیکربندی وجود ندارد
 Confirm Reload: بارگذاری مجدد را تأیید کنید
 Connect: اتصال
 Connected: متصل شد
@@ -81,12 +92,15 @@ Duplicate URLs found:\n\n: نشانی‌های اینترنتی تکراری پ�
 Edit Command: دستور ویرایش
 Edit command name:: ویرایش نام دستور:
 Edit Playlist: ویرایش لیست پخش
-Edit telnet command:: دستور telnet را ویرایش کنید:
+Edit telnet command:: ویرایش دستور telnet:
 Edit URLs: ویرایش URL ها
+Empty Password: رمز عبور خالی
 End: پایان
 Enrich with EPG: غنی سازی با EPG
 Enter bouquet name (without spaces):: نام دسته گل را وارد کنید (بدون فاصله):
 Enter JSON URL:: URL JSON را وارد کنید:
+Enter new group name:: نام گروه جدید را وارد کنید:
+Enter playlist URL (JSON or M3U):: URL لیست پخش (JSON یا M3U) را وارد کنید:
 Enter playlist URL (M3U or JSON):: URL لیست پخش (M3U یا JSON) را وارد کنید:
 EPG: EPG
 Epg & Favorites: EPG و موارد دلخواه
@@ -101,31 +115,40 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: منبع EPG 
 EPG source – choose XMLTV file or enter custom URL.: منبع EPG - فایل XMLTV را انتخاب کنید یا URL سفارشی را وارد کنید.
 EPG Source Missing: منبع EPG گم شده است
 Error: خطا
-Error clearing cache: خطا در پاک کردن حافظه پنهان
+Error clearing cache: {0}: خطا در پاک کردن حافظه پنهان: {0}
 Error loading: خطا در بارگیری
+Error loading EPG list: {0}: خطا در بارگیری لیست EPG: {0}
+Error loading file: {0}: خطا در بارگیری فایل: {0}
 Error loading file: {0}: خطا در بارگیری فایل: {0}
 Error loading playlists: {0}: خطا در بارگیری لیست‌های پخش: {0}
 Error loading URL: {0}: خطا در بارگیری URL: {0}
+Error loading URL: {0}: خطا در بارگیری URL: {0}
 ERROR: player.html not found.: خطا: player.html یافت نشد.
 Exit: خارج شوید
+Export: صادرات
+Export all: همه را صادر کنید
 Export Favorites: صادرات موارد دلخواه
 Export Filtered JSON: صادر کردن JSON فیلتر شده
 Export Filtered M3U: صادرات M3U فیلتر شده
 Export JSON: صادرات JSON
 Export KO: صادرات KO
+Export missing: صادرات وجود ندارد
 Export OK: صادرات OK
 Export only favorite channels to a new M3U file: فقط کانال های مورد علاقه را به یک فایل جدید M3U صادر کنید
+Export results as JSON or M3U – export missing channels or all channels.: نتایج را به صورت JSON یا M3U صادر کنید - کانال های گمشده یا همه کانال ها را صادر کنید.
+Exported channels: کانال های صادراتی
 Extracting update...: در حال استخراج به روز رسانی...
 Failed to download playlist: لیست پخش دانلود نشد
 Failed to load playlist: لیست پخش بارگیری نشد
-Failed to update bouquets.tv.: bouquets.tv به روز نشد.
-Failed to upload bouquet.: دسته گل بارگذاری نشد.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: bouquets.tv به روز نشد. لطفاً مجوزهای فایل را در دستگاه Enigma2 بررسی کنید.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: دسته گل بارگذاری نشد. لطفاً تنظیمات Telnet خود را بررسی کنید (میزبان، پورت، نام کاربری، رمز عبور) و دوباره امتحان کنید.
 Favorite: مورد علاقه
 Favorites only: فقط موارد دلخواه
 Fetch Logos: واکشی لوگوها
 File {0} already exists. Overwrite?: فایل {0} از قبل وجود دارد. بازنویسی؟
 File exists: فایل موجود است
 Filters: فیلترها
+First playlist: {0} channels loaded.: اولین لیست پخش: {0} کانال بارگیری شد.
 Fullscreen (hide UI) - press ESC to exit: تمام صفحه (مخفی کردن رابط کاربری) - برای خروج ESC را فشار دهید
 Geo & Country: جغرافیا و کشور
 GeoBlocked: GeoBlocked
@@ -138,19 +161,23 @@ Hide List: پنهان کردن لیست
 HLS playback: hls.js (MIT license): پخش HLS: hls.js (مجوز MIT)
 Image: تصویر
 Import: واردات
+Import cancelled or no channels mapped.: واردات لغو شد یا کانالی نگاشت نشد.
 Import error: {0}: خطای وارد کردن: {0}
 Import from URL: وارد کردن از URL
 Import JSON: JSON را وارد کنید
 Import JSON from URL: JSON را از URL وارد کنید
 Import Local: واردات محلی
-Imported {0} channels from JSON.: {0} کانال از JSON وارد شد.
+Imported {0} channels from JSON via mapping.: {0} کانال از JSON از طریق نقشه‌برداری وارد شد.
 Imported {0} channels from URL.: {0} کانال از URL وارد شد.
+In Both: در هر دو
 Info: اطلاعات
 Info on: اطلاعات در
 Invalid JSON: {0}: JSON نامعتبر: {0}
 Invalid playlist URL.: URL لیست پخش نامعتبر است.
 Invalid URL.: URL نامعتبر است.
 Json: جیسون
+JSON files|*.json|M3U files|*.m3u: فایل‌های JSON|*.json|فایل‌های M3U|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: فایل های JSON|*.json|فایل های M3U|*.m3u;*.m3u8|همه فایل ها|*.*
 JSON Property: ویژگی JSON
 Ko-fi: قهوه
 Language: زبان
@@ -158,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: زبان ها
 Languages (comma): زبان ها (کاما)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: راهنمای LiveGardenTVPlus توسط Lululla
+LiveGardenTVPlus Help: راهنما LiveGardenTVPlus
 LOAD: LOAD
 Load a playlist first.: ابتدا یک لیست پخش بارگیری کنید.
+Load a second playlist first.: ابتدا فهرست پخش دوم را بارگیری کنید.
 Load File: بارگذاری فایل
+Load from file...: بارگیری از فایل...
+Load from URL: بارگیری از URL
+Load from URL...: بارگیری از URL...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: فایل محلی M3U/JSON را بارگیری کنید – از طریق دکمه «بارگیری فایل» (نوار ابزار) یا «باز کردن فایل» در ویرایشگر.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: URL M3U/JSON آنلاین را بارگیری کنید – دکمه «بارگذاری آنلاین» (نوار ابزار) یا «باز کردن از URL» در ویرایشگر.
 Load playlist file (M3U/JSON) from your computer: فایل لیست پخش (M3U/JSON) را از رایانه خود بارگیری کنید
 Loaded: بارگیری شد
+Loaded {0} channels from JSON file via mapping.: {0} کانال از فایل JSON از طریق نقشه برداری بارگیری شد.
 Loaded {0} channels from JSON file.: {0} کانال از فایل JSON بارگیری شد.
 Loaded {0} channels from JSON URL.: {0} کانال از JSON URL بارگیری شد.
 Loaded {0} channels from M3U file.: {0} کانال از فایل M3U بارگیری شد.
@@ -191,15 +223,23 @@ Next: بعدی
 Next ▶: بعدی ▶
 No .m3u files found on GitHub repository.: هیچ فایل .m3u در مخزن GitHub یافت نشد.
 No cache folder found.: پوشه کش پیدا نشد.
+No channels could be mapped or import cancelled.: هیچ کانالی نمی تواند نقشه برداری شود یا واردات لغو شود.
 No channels could be mapped. Check your mapping rules.: هیچ کانالی نمی تواند نقشه برداری شود. قوانین نقشه برداری خود را بررسی کنید.
+No channels loaded from JSON URL.: هیچ کانالی از JSON URL بارگیری نشده است.
+No channels loaded from M3U URL.: هیچ کانالی از URL M3U بارگیری نشده است.
+No channels loaded from M3U.: هیچ کانالی از M3U بارگیری نشده است.
+No channels loaded.: هیچ کانالی بارگیری نشده است.
 No channels mapped: هیچ کانالی نقشه برداری نشده است
+No comparison results. Run Compare first.: نتیجه مقایسه ای وجود ندارد ابتدا Compare را اجرا کنید.
 No duplicate URLs found.: هیچ URL تکراری یافت نشد.
 No EPG data: داده های EPG وجود ندارد
 No EPG information available for this channel.: هیچ اطلاعات EPG برای این کانال موجود نیست.
 No EPG source configured. Please select one from the combo or go to Settings.: هیچ منبع EPG پیکربندی نشده است. لطفاً یکی از ترکیب را انتخاب کنید یا به تنظیمات بروید.
 No EPG source configured. Would you like to open settings to select one?: هیچ منبع EPG پیکربندی نشده است. آیا می خواهید تنظیمات را برای انتخاب یکی باز کنید؟
 No favorite channels to export.: کانال مورد علاقه برای صادرات وجود ندارد.
+No missing channels to export.: هیچ کانالی برای صادرات وجود ندارد.
 No playlist found: لیست پخشی پیدا نشد
+No second playlist loaded.: لیست پخش دومی بارگیری نشده است.
 No updates available.: به روز رسانی در دسترس نیست.
 Normal speed (1x): سرعت معمولی (1x)
 Not connected to the box.: به جعبه وصل نیست
@@ -207,6 +247,8 @@ Now: در حال حاضر
 OK: باشه
 Online Playlist: لیست پخش آنلاین
 Online playlist – select from GitHub repository (auto‑refresh).: لیست پخش آنلاین – از مخزن GitHub (بازخوانی خودکار) را انتخاب کنید.
+Only in First: فقط در اول
+Only in Second: فقط در دوم
 Open File...: باز کردن فایل...
 Open from URL: از URL باز کنید
 Open Playlist: لیست پخش را باز کنید
@@ -214,12 +256,14 @@ Pause/Resume live stream: توقف/ازسرگیری پخش زنده
 Paused: مکث کرد
 PayPal: پی پال
 Picture-in-Picture mode: حالت تصویر در تصویر
-Player Control: کنترل بازیکن
+Player Controls: کنترل های پخش کننده
 Playlist & Groups: لیست پخش و گروه ها
+Playlist Comparison: مقایسه لیست پخش
 Playlist Editor: ویرایشگر لیست پخش
 Playlist Loading: لیست پخش در حال بارگیری
 Playlist Management: مدیریت لیست پخش
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): مخزن لیست پخش: OwnerPlugins/TivuStreamList (جریان های ایتالیایی و بین المللی)
+Playlists loaded: لیست های پخش بارگیری شد
 Please select a program first.: لطفا ابتدا یک برنامه را انتخاب کنید.
 Preview (first 5 channels): پیش نمایش (5 کانال اول)
 Preview error: {0}: خطای پیش نمایش: {0}
@@ -235,8 +279,10 @@ Refresh List: فهرست بازخوانی کنید
 Reload GUI: بارگیری مجدد رابط کاربری گرافیکی
 Remove Command: حذف فرمان
 Rename Group: تغییر نام گروه
+Rename group '{0}' to:: تغییر نام گروه "{0}" به:
 Repository: مخزن
 Reset Order: بازنشانی سفارش
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: نتایج: "فقط در اول"، "فقط در دوم"، "در هر دو" - با کدگذاری رنگ وضعیت.
 Save: ذخیره کنید
 SAVE: ذخیره کنید
 Save – persists all settings without reloading current playlist.: ذخیره - تمام تنظیمات را بدون بارگیری مجدد لیست پخش فعلی ادامه می دهد.
@@ -249,6 +295,7 @@ Saved: ذخیره شد
 Search channel: : جستجوی کانال:
 Search channels by name: کانال ها را بر اساس نام جستجو کنید
 Search channels...: جستجو در کانال ها...
+sec: ثانیه
 Select a playlist first.: ابتدا یک لیست پخش انتخاب کنید.
 Select Theme: تم را انتخاب کنید
 Selected theme is saved and applied on restart.: تم انتخاب شده ذخیره شده و در راه اندازی مجدد اعمال می شود.
@@ -271,8 +318,11 @@ Support the developer: از توسعه دهنده حمایت کنید
 Target Field: میدان هدف
 Telnet command:: دستور Telnet:
 Telnet Commander: فرمانده شبکه راه دور
+Telnet Config: پیکربندی Telnet
 Telnet Console: کنسول Telnet
-Telnet not configured. Please set it in Settings.: Telnet پیکربندی نشده است. لطفاً آن را در تنظیمات تنظیم کنید.
+Telnet host not configured. Please set it in Settings.: میزبان Telnet پیکربندی نشده است. لطفاً آن را در تنظیمات تنظیم کنید.
+Telnet password is empty. Do you want to continue?: رمز عبور Telnet خالی است. آیا می خواهید ادامه دهید؟
+Telnet username not configured. Please set it in Settings.: نام کاربری Telnet پیکربندی نشده است. لطفاً آن را در تنظیمات تنظیم کنید.
 Thanks to: با تشکر از
 Theme picker: انتخاب کننده تم
 Theme picker – accessible via Tools menu on main toolbar.: انتخابگر تم – از طریق منوی ابزارها در نوار ابزار اصلی قابل دسترسی است.
@@ -289,14 +339,18 @@ UI: MaterialDesignThemes.Wpf: رابط کاربری: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: نسخه در فایل پروژه راه دور پیدا نشد.
 Update: به روز رسانی
 Update complete. Restarting...: به روز رسانی کامل شد. شروع مجدد...
+Update Error: خطای آپدیت
 Update failed: : به روز رسانی انجام نشد:
 Updates: به روز رسانی ها
+Upload Error: خطای آپلود
 URL: URL
 URL (primary): URL (اولیه)
 URL Check: URL را بررسی کنید
 URL list (one per line): لیست URL (یکی در هر خط)
 URLs & Status: آدرس ها و وضعیت
 Version: نسخه
+Version {0}.{1}.{2}: نسخه {0}.{1}.{2}
+Version unknown: نسخه ناشناخته
 Waiting for LiveGardenTVPlus to close...: در انتظار بسته شدن LiveGardenTVPlus...
 Warning: هشدار
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

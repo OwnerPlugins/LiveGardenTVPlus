@@ -16,6 +16,7 @@
         <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
             <Button x:Name="LoadSecondFileBtn" Content="Load from file..." Click="LoadSecondFileBtn_Click" Width="140" Margin="0,0,5,0"/>
             <Button x:Name="LoadSecondUrlBtn" Content="Load from URL..." Click="LoadSecondUrlBtn_Click" Width="140" Margin="0,0,5,0"/>
+
             <ComboBox x:Name="CompareFieldCombo" Width="160" Margin="5,0" SelectedIndex="0" SelectionChanged="CompareFieldCombo_SelectionChanged">
                 <ComboBoxItem Content="Smart (Priority)" Tag="Priority" IsSelected="True"/>
                 <ComboBoxItem Content="Name" Tag="Name"/>
@@ -27,6 +28,7 @@
                 <ComboBoxItem Content="Languages" Tag="Languages"/>
                 <ComboBoxItem Content="Nanoid" Tag="Nanoid"/>
             </ComboBox>
+
             <Button x:Name="CompareBtn" Content="Compare" Click="CompareBtn_Click" Width="100" Margin="5,0"/>
             <Button x:Name="ExportMissingBtn" Content="Export missing" Click="ExportMissingBtn_Click" Width="120" Margin="0,0,5,0" IsEnabled="False"/>
             <Button x:Name="ExportAllBtn" Content="Export all" Click="ExportAllBtn_Click" Width="120" Margin="5,0" IsEnabled="False"/>

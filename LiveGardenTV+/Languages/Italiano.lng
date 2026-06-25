@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cartella cache: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Completamente volontario – nessuna funzionalità è bloccata)
 (No description): (Nessuna descrizione)
 • Add / rename / delete groups.: • Aggiungere/rinominare/eliminare gruppi.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Precedente
 16 colour themes + Light/Dark variants.: 16 temi colore + varianti Chiaro/Scuro.
 A new version is available. Do you want to update now?: Una nuova versione è disponibile. Vuoi aggiornare adesso?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Accesso tramite il pulsante "Confronta" nell'editor della playlist o nel menu Strumenti.
 Access via 'Edit Playlist' button on main toolbar.: Accesso tramite il pulsante "Modifica playlist" sulla barra degli strumenti principale.
 Actions: Azioni
 Add Command: Aggiungi comando
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Bouquet inviato e lista dei can
 Buffer (seconds): Buffer (secondi)
 Buffer size – adjust HLS buffer seconds.: Dimensione buffer: regola i secondi del buffer HLS.
 Cache: Cache
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Cartella cache: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Cancellare
 CANCEL: CANCELLARE
+Cannot open browser: Impossibile aprire il browser
 Category: Categoria
 Changelog: Registro delle modifiche
 Channel Details: Dettagli del canale
 Channel Info: Informazioni sul canale
+Channel Name: Nome del canale
 channels from: canali da
+channels from JSON: canali da JSON
 channels from JSON URL: canali dall'URL JSON
 channels from URL: canali dall'URL
 Check Duplicates: Controlla i duplicati
@@ -57,6 +61,12 @@ Click for details: Fare clic per i dettagli
 Close: Vicino
 Command name:: Nome del comando:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Comunità e test: CorvoBoys (corvoboys.org) e LinuxSat-Support.com
+Compare: Confrontare
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Confronta per: Priorità (nome→gruppo→tvg-id), Nome, Gruppo (con distinzione tra maiuscole e minuscole) o TvgId.
+Compare Playlists: Confronta playlist
+Compare two playlists – load first (current playlist) and second (from file or URL).: Confronta due playlist: carica la prima (playlist corrente) e la seconda (dal file o dall'URL).
+Compare...: Confrontare...
+Comparison results: {0} channels: Risultati del confronto: {0} canali
 Configuration Missing: Configurazione mancante
 Confirm Reload: Conferma ricarica
 Connect: Collegare
@@ -89,6 +99,8 @@ End: FINE
 Enrich with EPG: Arricchisci con EPG
 Enter bouquet name (without spaces):: Inserisci il nome del bouquet (senza spazi):
 Enter JSON URL:: Inserisci l'URL JSON:
+Enter new group name:: Inserisci il nuovo nome del gruppo:
+Enter playlist URL (JSON or M3U):: Inserisci l'URL della playlist (JSON o M3U):
 Enter playlist URL (M3U or JSON):: Inserisci l'URL della playlist (M3U o JSON):
 EPG: EPG
 Epg & Favorites: EPG e Preferiti
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: Sorgente EPG:
 EPG source – choose XMLTV file or enter custom URL.: Sorgente EPG: scegli il file XMLTV o inserisci un URL personalizzato.
 EPG Source Missing: Sorgente EPG mancante
 Error: Errore
-Error clearing cache: Errore durante lo svuotamento della cache
+Error clearing cache: {0}: Errore durante lo svuotamento della cache: {0}
 Error loading: Errore durante il caricamento
+Error loading EPG list: {0}: Errore durante il caricamento dell'elenco EPG: {0}
+Error loading file: {0}: Errore durante il caricamento del file: {0}
 Error loading file: {0}: Errore durante il caricamento del file: {0}
 Error loading playlists: {0}: Errore durante il caricamento delle playlist: {0}
 Error loading URL: {0}: Errore durante il caricamento dell'URL: {0}
+Error loading URL: {0}: Errore durante il caricamento dell'URL: {0}
 ERROR: player.html not found.: ERRORE: player.html non trovato.
 Exit: Uscita
+Export: Esportare
+Export all: Esporta tutto
 Export Favorites: Esporta preferiti
 Export Filtered JSON: Esporta JSON filtrato
 Export Filtered M3U: Esporta M3U filtrato
 Export JSON: Esporta JSON
 Export KO: Esportazione KO
+Export missing: Manca l'esportazione
 Export OK: Esporta OK
 Export only favorite channels to a new M3U file: Esporta solo i canali preferiti in un nuovo file M3U
+Export results as JSON or M3U – export missing channels or all channels.: Esporta risultati come JSON o M3U: esporta i canali mancanti o tutti i canali.
+Exported channels: Canali esportati
 Extracting update...: Estrazione aggiornamento...
 Failed to download playlist: Impossibile scaricare la playlist
 Failed to load playlist: Impossibile caricare la playlist
@@ -128,6 +148,7 @@ Fetch Logos: Recupera loghi
 File {0} already exists. Overwrite?: Il file {0} esiste già. Sovrascrivere?
 File exists: Il file esiste
 Filters: Filtri
+First playlist: {0} channels loaded.: Prima playlist: {0} canali caricati.
 Fullscreen (hide UI) - press ESC to exit: Schermo intero (nascondi interfaccia utente): premi ESC per uscire
 Geo & Country: Geo e Paese
 GeoBlocked: GeoBlocked
@@ -140,19 +161,23 @@ Hide List: Nascondi elenco
 HLS playback: hls.js (MIT license): Riproduzione HLS: hls.js (licenza MIT)
 Image: Immagine
 Import: Importare
+Import cancelled or no channels mapped.: Importazione annullata o nessun canale mappato.
 Import error: {0}: Errore di importazione: {0}
 Import from URL: Importa dall'URL
 Import JSON: Importa JSON
 Import JSON from URL: Importa JSON dall'URL
 Import Local: Importa locale
-Imported {0} channels from JSON.: {0} canali importati da JSON.
+Imported {0} channels from JSON via mapping.: {0} canali importati da JSON tramite mappatura.
 Imported {0} channels from URL.: {0} canali importati dall'URL.
+In Both: In entrambi
 Info: Informazioni
 Info on: Informazioni su
 Invalid JSON: {0}: JSON non valido: {0}
 Invalid playlist URL.: URL della playlist non valido.
 Invalid URL.: URL non valido.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: File JSON|*.json|File M3U|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: File JSON|*.json|File M3U|*.m3u;*.m3u8|Tutti i file|*.*
 JSON Property: Proprietà JSON
 Ko-fi: Caffè
 Language: Lingua
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Lingue
 Languages (comma): Lingue (virgola)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: Aiuto LiveGardenTVPlus di Lululla
+LiveGardenTVPlus Help: Aiuto LiveGardenTVPlus
 LOAD: CARICO
 Load a playlist first.: Carica prima una playlist.
+Load a second playlist first.: Carica prima una seconda playlist.
 Load File: Carica file
+Load from file...: Carica da file...
+Load from URL: Carica dall'URL
+Load from URL...: Carica dall'URL...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Carica il file M3U/JSON locale tramite il pulsante "Carica file" (barra degli strumenti) o "Apri file" nell'editor.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Carica l'URL M3U/JSON online: pulsante "Carica online" (barra degli strumenti) o "Apri da URL" nell'editor.
 Load playlist file (M3U/JSON) from your computer: Carica il file della playlist (M3U/JSON) dal tuo computer
 Loaded: Caricato
+Loaded {0} channels from JSON file via mapping.: Caricati {0} canali dal file JSON tramite mappatura.
 Loaded {0} channels from JSON file.: {0} canali caricati dal file JSON.
 Loaded {0} channels from JSON URL.: Caricati {0} canali dall'URL JSON.
 Loaded {0} channels from M3U file.: Caricati {0} canali dal file M3U.
@@ -193,15 +223,23 @@ Next: Prossimo
 Next ▶: Prossimo ▶
 No .m3u files found on GitHub repository.: Nessun file .m3u trovato nel repository GitHub.
 No cache folder found.: Nessuna cartella cache trovata.
+No channels could be mapped or import cancelled.: Nessun canale può essere mappato o l'importazione annullata.
 No channels could be mapped. Check your mapping rules.: Nessun canale può essere mappato. Controlla le regole di mappatura.
+No channels loaded from JSON URL.: Nessun canale caricato dall'URL JSON.
+No channels loaded from M3U URL.: Nessun canale caricato dall'URL M3U.
+No channels loaded from M3U.: Nessun canale caricato da M3U.
+No channels loaded.: Nessun canale caricato.
 No channels mapped: Nessun canale mappato
+No comparison results. Run Compare first.: Nessun risultato di confronto. Esegui prima Confronta.
 No duplicate URLs found.: Nessun URL duplicato trovato.
 No EPG data: Nessun dato EPG
 No EPG information available for this channel.: Nessuna informazione EPG disponibile per questo canale.
 No EPG source configured. Please select one from the combo or go to Settings.: Nessuna sorgente EPG configurata. Selezionane uno dalla combinazione o vai su Impostazioni.
 No EPG source configured. Would you like to open settings to select one?: Nessuna sorgente EPG configurata. Vuoi aprire le impostazioni per selezionarne uno?
 No favorite channels to export.: Nessun canale preferito da esportare.
+No missing channels to export.: Nessun canale mancante da esportare.
 No playlist found: Nessuna playlist trovata
+No second playlist loaded.: Nessuna seconda playlist caricata.
 No updates available.: Nessun aggiornamento disponibile.
 Normal speed (1x): Velocità normale (1x)
 Not connected to the box.: Non collegato alla scatola.
@@ -209,6 +247,8 @@ Now: Ora
 OK: OK
 Online Playlist: Elenco di riproduzione in linea
 Online playlist – select from GitHub repository (auto‑refresh).: Playlist online: seleziona dal repository GitHub (aggiornamento automatico).
+Only in First: Solo in Prima
+Only in Second: Solo in Seconda
 Open File...: Apri file...
 Open from URL: Apri dall'URL
 Open Playlist: Apri la playlist
@@ -216,12 +256,14 @@ Pause/Resume live stream: Metti in pausa/riprendi lo streaming live
 Paused: In pausa
 PayPal: PayPal
 Picture-in-Picture mode: Modalità immagine nell'immagine
-Player Control: Controllo del giocatore
+Player Controls: Controlli del giocatore
 Playlist & Groups: Playlist e gruppi
+Playlist Comparison: Confronto tra playlist
 Playlist Editor: Editor della playlist
 Playlist Loading: Caricamento della playlist
 Playlist Management: Gestione delle playlist
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repository playlist: OwnerPlugins/TivuStreamList (stream italiani e internazionali)
+Playlists loaded: Playlist caricate
 Please select a program first.: Selezionare prima un programma.
 Preview (first 5 channels): Anteprima (primi 5 canali)
 Preview error: {0}: Errore di anteprima: {0}
@@ -237,8 +279,10 @@ Refresh List: Aggiorna elenco
 Reload GUI: Ricarica la GUI
 Remove Command: Rimuovi comando
 Rename Group: Rinomina gruppo
+Rename group '{0}' to:: Rinomina il gruppo '{0}' in:
 Repository: Deposito
 Reset Order: Reimposta ordine
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Risultati: "Solo nel primo", "Solo nel secondo", "In entrambi" – con codice colore dello stato.
 Save: Salva
 SAVE: SALVA
 Save – persists all settings without reloading current playlist.: Salva: mantiene tutte le impostazioni senza ricaricare la playlist corrente.
@@ -251,6 +295,7 @@ Saved: Salvato
 Search channel: Cerca canale
 Search channels by name: Cerca i canali per nome
 Search channels...: Cerca canali...
+sec: sez
 Select a playlist first.: Seleziona prima una playlist.
 Select Theme: Seleziona Tema
 Selected theme is saved and applied on restart.: Il tema selezionato viene salvato e applicato al riavvio.
@@ -273,6 +318,7 @@ Support the developer: Supporta lo sviluppatore
 Target Field: Campo obiettivo
 Telnet command:: Comando Telnet:
 Telnet Commander: Comandante Telnet
+Telnet Config: Configurazione Telnet
 Telnet Console: Console Telnet
 Telnet host not configured. Please set it in Settings.: Host Telnet non configurato. Si prega di impostarlo in Impostazioni.
 Telnet password is empty. Do you want to continue?: La password Telnet è vuota. Vuoi continuare?
@@ -303,6 +349,8 @@ URL Check: Controllo dell'URL
 URL list (one per line): Elenco URL (uno per riga)
 URLs & Status: URL e stato
 Version: Versione
+Version {0}.{1}.{2}: Versione {0}.{1}.{2}
+Version unknown: Versione sconosciuta
 Waiting for LiveGardenTVPlus to close...: In attesa della chiusura di LiveGardenTVPlus...
 Warning: Avvertimento
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

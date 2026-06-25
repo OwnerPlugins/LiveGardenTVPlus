@@ -1,4 +1,3 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (غەملەك قىسقۇچ:% TEMP% \\ LiveGardenTVPlus \\ epg_cache)
 (Completely voluntary – no features are blocked): (پۈتۈنلەي ئىختىيارىي - ھېچقانداق ئىقتىدار توسۇلمايدۇ)
 (No description): (چۈشەندۈرۈش يوق)
 • Add / rename / delete groups.: گۇرۇپپىلارنى قوشۇش / ئۆزگەرتىش / ئۆچۈرۈش.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ ئالدىنقى
 16 colour themes + Light/Dark variants.: 16 خىل رەڭلىك تېما + سۇس / قېنىق رەڭلىك.
 A new version is available. Do you want to update now?: يېڭى نەشرى بار. ھازىر يېڭىلاشنى خالامسىز؟
+Access via 'Compare' button in Playlist Editor or Tools menu.: قويۇش تىزىملىكى تەھرىرلىگۈچ ياكى قوراللار تىزىملىكىدىكى «سېلىشتۇرۇش» كۇنۇپكىسى ئارقىلىق زىيارەت قىلىڭ.
 Access via 'Edit Playlist' button on main toolbar.: ئاساسلىق قورالبالدىقىدىكى «قويۇش تىزىملىكىنى تەھرىرلەش» كۇنۇپكىسى ئارقىلىق زىيارەت قىلىڭ.
 Actions: ھەرىكەتلەر
 Add Command: بۇيرۇق قوشۇڭ
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Bouquet ئەۋەتىلدى ۋە
 Buffer (seconds): Buffer (سېكۇنت)
 Buffer size – adjust HLS buffer seconds.: بۇففېرنىڭ چوڭلۇقى - HLS بۇففېر سېكۇنتنى تەڭشەڭ.
 Cache: Cache
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: غەملەك قىسقۇچ:% TEMP% \\ LiveGardenTVPlus \\ epg_cache
 Cancel: بىكار قىلىش
 CANCEL: CANCEL
+Cannot open browser: توركۆرگۈنى ئاچقىلى بولمايدۇ
 Category: سەھىپە
 Changelog: Changelog
 Channel Details: Channel Details
 Channel Info: Channel Info
+Channel Name: Channel Name
 channels from: channels from
+channels from JSON: channels from JSON
 channels from JSON URL: JSON URL دىن كەلگەن قاناللار
 channels from URL: URL دىن كەلگەن قاناللار
 Check Duplicates: كۆپەيتىلگەن نۇسخىسىنى تەكشۈرۈڭ
@@ -57,6 +61,13 @@ Click for details: تەپسىلاتىنى چېكىڭ
 Close: تاقاش
 Command name:: بۇيرۇق ئىسمى:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: مەھەللە ۋە سىناق: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: سېلىشتۇرۇش
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: سېلىشتۇرۇش: ئەۋزەللىك (ئىسىم → گۇرۇپپا → tvg-id) ، ئىسىم ، گۇرۇپپا (ئەھۋال - سەزگۈر) ياكى TvgId.
+Compare Playlists: قويۇش تىزىملىكىنى سېلىشتۇرۇڭ
+Compare two playlists – load first (current playlist) and second (from file or URL).: ئىككى قويۇش تىزىملىكىنى سېلىشتۇرۇڭ - بىرىنچى (نۆۋەتتىكى قويۇش تىزىملىكى) ۋە ئىككىنچى (ھۆججەت ياكى URL دىن) يۈكلەڭ.
+Compare...: سېلىشتۇرۇش ...
+Comparison results: {0} channels: سېلىشتۇرۇش نەتىجىسى: {0} قانال
+Configuration Missing: سەپلىمە يوقاپ كەتتى
 Confirm Reload: قايتا يۈكلەشنى جەزملەشتۈرۈڭ
 Connect: ئۇلاڭ
 Connected: ئۇلاندى
@@ -83,10 +94,13 @@ Edit command name:: بۇيرۇق نامىنى تەھرىرلەش:
 Edit Playlist: قويۇش تىزىملىكىنى تەھرىرلەش
 Edit telnet command:: تېلېگراف بۇيرۇقىنى تەھرىرلەش:
 Edit URLs: URL نى تەھرىرلەڭ
+Empty Password: مەخپىي نومۇر
 End: ئاخىر
 Enrich with EPG: EPG بىلەن بېيىتىش
 Enter bouquet name (without spaces):: گۈلچەمبىرەك نامىنى كىرگۈزۈڭ (بوشلۇقسىز):
 Enter JSON URL:: JSON URL نى كىرگۈزۈڭ:
+Enter new group name:: يېڭى گۇرۇپپا نامىنى كىرگۈزۈڭ:
+Enter playlist URL (JSON or M3U):: قويۇش تىزىملىكى URL (JSON ياكى M3U) نى كىرگۈزۈڭ:
 Enter playlist URL (M3U or JSON):: قويۇش تىزىملىكى URL (M3U ياكى JSON) نى كىرگۈزۈڭ:
 EPG: EPG
 Epg & Favorites: Epg & Favorites
@@ -101,31 +115,40 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG مەنب�
 EPG source – choose XMLTV file or enter custom URL.: EPG مەنبەسى - XMLTV ھۆججىتىنى تاللاڭ ياكى ئىختىيارى URL نى كىرگۈزۈڭ.
 EPG Source Missing: EPG مەنبە يوقاپ كەتتى
 Error: خاتالىق
-Error clearing cache: كەش تازىلاش
+Error clearing cache: {0}: كەش تازىلاش خاتالىقى: {0}
 Error loading: يۈكلەشتە خاتالىق
+Error loading EPG list: {0}: EPG تىزىملىكىنى يۈكلەشتە خاتالىق: {0}
+Error loading file: {0}: ھۆججەت يۈكلەشتە خاتالىق: {0}
 Error loading file: {0}: ھۆججەت يۈكلەشتە خاتالىق: {0}
 Error loading playlists: {0}: قويۇش تىزىملىكىنى يۈكلەشتە خاتالىق: {0}
 Error loading URL: {0}: URL نى يۈكلەشتە خاتالىق: {0}
+Error loading URL: {0}: URL نى يۈكلەشتە خاتالىق: {0}
 ERROR: player.html not found.: خاتالىق: player.html تېپىلمىدى.
 Exit: چىقىش
+Export: ئېكسپورت
+Export all: ھەممىنى چىقىرىش
 Export Favorites: ياقتۇرىدىغانلارنى چىقىرىش
 Export Filtered JSON: سۈزۈلگەن JSON نى چىقىرىش
 Export Filtered M3U: سۈزۈلگەن M3U نى چىقىرىش
 Export JSON: JSON نى چىقىرىش
 Export KO: KO نى چىقىرىش
+Export missing: ئېكسپورت يوقاپ كەتتى
 Export OK: Export OK
 Export only favorite channels to a new M3U file: ئەڭ ياخشى كۆرىدىغان قاناللارنى يېڭى M3U ھۆججىتىگە چىقىرىڭ
+Export results as JSON or M3U – export missing channels or all channels.: نەتىجىنى JSON ياكى M3U قىلىپ چىقىرىش - يوقاپ كەتكەن قاناللارنى ياكى بارلىق قاناللارنى ئېكسپورت قىلىش.
+Exported channels: ئېكسپورت قىلىنغان قاناللار
 Extracting update...: يېڭىلاش يېڭىلاش ...
 Failed to download playlist: قويۇش تىزىملىكى چۈشۈرۈلمىدى
 Failed to load playlist: قويۇش تىزىملىكى يۈكلەنمىدى
-Failed to update bouquets.tv.: Bouquets.tv نى يېڭىلاش مەغلۇب بولدى.
-Failed to upload bouquet.: گۈلچەمبىرەك يۈكلەنمىدى.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Bouquets.tv نى يېڭىلاش مەغلۇب بولدى. Enigma2 ئۈسكۈنىسىدىكى ھۆججەت ئىجازەتنامىسىنى تەكشۈرۈپ بېقىڭ.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: گۈلچەمبىرەك يۈكلەنمىدى. Telnet تەڭشەكلىرىڭىزنى (مۇلازىمېتىر ، پورت ، ئىشلەتكۈچى ئىسمى ، پارول) تەكشۈرۈپ قايتا سىناڭ.
 Favorite: ئامراق
 Favorites only: پەقەت ياخشى كۆرىدىغانلار
 Fetch Logos: Fetch Logos
 File {0} already exists. Overwrite?: ھۆججەت {0} مەۋجۇت. Overwrite?
 File exists: ھۆججەت مەۋجۇت
 Filters: سۈزگۈچ
+First playlist: {0} channels loaded.: بىرىنچى قويۇش تىزىملىكى: {0} قاناللار يۈكلەندى.
 Fullscreen (hide UI) - press ESC to exit: پۈتۈن ئېكران (UI نى يوشۇرۇش) - چېكىنىش ئۈچۈن ESC نى بېسىڭ
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
@@ -138,19 +161,23 @@ Hide List: تىزىملىكنى يوشۇرۇش
 HLS playback: hls.js (MIT license): HLS قويۇش: hls.js (MIT ئىجازەتنامىسى)
 Image: رەسىم
 Import: ئەكىرىش
-Import error: {0}: ئىمپورت خاتالىقى: {0}
+Import cancelled or no channels mapped.: ئىمپورت ئەمەلدىن قالدۇرۇلدى ياكى خەرىتە سىزىلمىدى.
+Import error: {0}: ئەكىرىش خاتالىقى: {0}
 Import from URL: URL دىن ئەكىرىش
 Import JSON: JSON نى ئەكىرىڭ
 Import JSON from URL: JSON نى URL دىن ئەكىرىڭ
 Import Local: يەرلىك ئىمپورت
-Imported {0} channels from JSON.: JSON دىن {0} قاناللارنى ئىمپورت قىلدى.
+Imported {0} channels from JSON via mapping.: خەرىتە ئارقىلىق JSON دىن {0} قاناللارنى ئىمپورت قىلدى.
 Imported {0} channels from URL.: URL دىن {0} قاناللارنى ئىمپورت قىلدى.
+In Both: ھەر ئىككىسىدە
 Info: ئۇچۇر
 Info on: ئۇچۇر
 Invalid JSON: {0}: ئىناۋەتسىز JSON: {0}
 Invalid playlist URL.: ئىناۋەتسىز تىزىملىك ​​URL.
 Invalid URL.: ئىناۋەتسىز URL.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: JSON ھۆججىتى | * .json | M3U ھۆججىتى | * .m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON ھۆججىتى | * .json | M3U ھۆججىتى | * .m3u; *. M3u8 | بارلىق ھۆججەتلەر | *. *
 JSON Property: JSON مۈلۈك
 Ko-fi: قەھۋە
 Language: تىل
@@ -158,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: تىللار
 Languages (comma): تىللار (پەش)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Lululla نىڭ ياردىمى
+LiveGardenTVPlus Help: LiveGardenTVPlus ياردەم
 LOAD: LOAD
 Load a playlist first.: ئالدى بىلەن قويۇش تىزىملىكىنى يۈكلەڭ.
+Load a second playlist first.: ئالدى بىلەن ئىككىنچى قويۇش تىزىملىكىنى يۈكلەڭ.
 Load File: ھۆججەتنى يۈكلەڭ
+Load from file...: ھۆججەتتىن يۈك ...
+Load from URL: URL دىن يۈكلەڭ
+Load from URL...: URL دىن يۈكلەڭ ...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: يەرلىك M3U / JSON ھۆججىتىنى يۈكلەڭ - «ھۆججەتنى يۈكلەش» كۇنۇپكىسى (قورالبالدىقى) ياكى تەھرىرلىگۈچتىكى «ھۆججەتنى ئېچىش» ئارقىلىق.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: توردا M3U / JSON URL نى يۈكلەڭ - «توردا يۈكلەش» كۇنۇپكىسى (قورال ستونى) ياكى تەھرىرلىگۈچتىكى «URL دىن ئېچىش».
 Load playlist file (M3U/JSON) from your computer: قويۇش تىزىملىكى ھۆججىتىنى (M3U / JSON) كومپيۇتېرىڭىزدىن يۈكلەڭ
 Loaded: يۈكلەندى
+Loaded {0} channels from JSON file via mapping.: خەرىتە ئارقىلىق JSON ھۆججىتىدىن {0} قاناللىرى يۈكلەندى.
 Loaded {0} channels from JSON file.: JSON ھۆججىتىدىن {0} قاناللىرى يۈكلەندى.
 Loaded {0} channels from JSON URL.: JSON URL دىن {0} قاناللىرى يۈكلەندى.
 Loaded {0} channels from M3U file.: M3U ھۆججىتىدىن {0} قاناللىرى يۈكلەندى.
@@ -191,15 +223,23 @@ Next: كېيىنكى
 Next ▶: كېيىنكى ▶
 No .m3u files found on GitHub repository.: GitHub ئامبىرىدا تېپىلمىغان .m3u ھۆججىتى يوق.
 No cache folder found.: غەملەك ھۆججەت قىسقۇچى تېپىلمىدى.
+No channels could be mapped or import cancelled.: ھېچقانداق قانالنى خەرىتە قىلىشقا ياكى ئىمپورت قىلىشنى ئەمەلدىن قالدۇرۇشقا بولمايدۇ.
 No channels could be mapped. Check your mapping rules.: ھېچقانداق قانالنى سىزىشقا بولمايدۇ. خەرىتە قائىدىلىرىڭىزنى تەكشۈرۈڭ.
+No channels loaded from JSON URL.: JSON URL دىن ھېچقانداق قانال يۈكلەنمىدى.
+No channels loaded from M3U URL.: M3U URL دىن يۈكلەنگەن قانال يوق.
+No channels loaded from M3U.: M3U دىن يۈكلەنگەن قانال يوق.
+No channels loaded.: ھېچقانداق قانال يۈكلەنمىدى.
 No channels mapped: ھېچقانداق قانال خەرىتىسى يوق
+No comparison results. Run Compare first.: سېلىشتۇرۇش نەتىجىسى يوق. ئالدى بىلەن سېلىشتۇرۇش.
 No duplicate URLs found.: كۆپەيتىلگەن URL تېپىلمىدى.
 No EPG data: EPG سانلىق مەلۇماتى يوق
 No EPG information available for this channel.: بۇ قانال ئۈچۈن EPG ئۇچۇرى يوق.
 No EPG source configured. Please select one from the combo or go to Settings.: EPG مەنبەسى سەپلەنمىدى. Combo دىن بىرنى تاللاڭ ياكى تەڭشەكلەرگە كىرىڭ.
 No EPG source configured. Would you like to open settings to select one?: EPG مەنبەسى سەپلەنمىدى. بىرنى تاللاش ئۈچۈن تەڭشەكلەرنى ئاچامسىز؟
 No favorite channels to export.: ئېكسپورت قىلىشقا ئامراق قانال يوق.
+No missing channels to export.: ئېكىسپورت قىلىدىغان يوقاپ كەتكەن يول يوق.
 No playlist found: قويۇش تىزىملىكى تېپىلمىدى
+No second playlist loaded.: ئىككىنچى قويۇش تىزىملىكى يۈكلەنمىدى.
 No updates available.: ھېچقانداق يېڭىلاش يوق.
 Normal speed (1x): نورمال سۈرئەت (1x)
 Not connected to the box.: ساندۇققا ئۇلانمىدى.
@@ -207,6 +247,8 @@ Now: ھازىر
 OK: ماقۇل
 Online Playlist: توردىكى تىزىملىك
 Online playlist – select from GitHub repository (auto‑refresh).: توردا قويۇش تىزىملىكى - GitHub ئامبىرىدىن تاللاڭ (ئاپتوماتىك يېڭىلاش).
+Only in First: پەقەت بىرىنچى
+Only in Second: پەقەت ئىككىنچى
 Open File...: ھۆججەتنى ئېچىڭ ...
 Open from URL: URL دىن ئېچىڭ
 Open Playlist: Playlist نى ئېچىڭ
@@ -214,12 +256,14 @@ Pause/Resume live stream: ۋاقىتلىق ئېقىننى توختىتىش / ئ�
 Paused: توختاپ قالدى
 PayPal: PayPal
 Picture-in-Picture mode: رەسىمدىكى رەسىم ھالىتى
-Player Control: قويغۇچ كونترول
+Player Controls: قويغۇچ كونتروللىرى
 Playlist & Groups: قويۇش تىزىملىكى ۋە گۇرۇپپىلار
+Playlist Comparison: قويۇش تىزىملىكى سېلىشتۇرۇش
 Playlist Editor: قويۇش تىزىملىكى تەھرىرلىگۈچى
 Playlist Loading: قويۇش تىزىملىكى يۈكلەش
 Playlist Management: قويۇش تىزىملىكى باشقۇرۇش
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): قويۇش تىزىملىكى ئامبىرى: OwnerPlugins / TivuStreamList (ئىتالىيە ۋە خەلقئارالىق ئېقىنلار)
+Playlists loaded: قويغۇچلار يۈكلەندى
 Please select a program first.: ئالدى بىلەن بىر پروگراممىنى تاللاڭ.
 Preview (first 5 channels): ئالدىن كۆرۈش (ئالدىنقى 5 قانال)
 Preview error: {0}: ئالدىن كۆرۈش خاتالىقى: {0}
@@ -235,8 +279,10 @@ Refresh List: تىزىملىكنى يېڭىلاش
 Reload GUI: GUI نى قايتا يۈكلەڭ
 Remove Command: بۇيرۇقنى ئۆچۈرۈڭ
 Rename Group: گۇرۇپپىنىڭ نامىنى ئۆزگەرتىش
+Rename group '{0}' to:: گۇرۇپپىنىڭ نامىنى '{0}' غا ئۆزگەرتىڭ:
 Repository: ئامبار
 Reset Order: تەرتىپنى ئەسلىگە كەلتۈرۈش
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: نەتىجە: «پەقەت بىرىنچى» ، «پەقەت ئىككىنچى ئورۇندا» ، «ھەر ئىككىسىدە» - ھالەت رەڭ كودى بىلەن.
 Save: ساقلاش
 SAVE: SAVE
 Save – persists all settings without reloading current playlist.: ساقلاش - نۆۋەتتىكى قويۇش تىزىملىكىنى قايتا يۈكلىمەي بارلىق تەڭشەكلەرنى ساقلايدۇ.
@@ -249,6 +295,7 @@ Saved: ساقلاندى
 Search channel: : ئىزدەش قانىلى:
 Search channels by name: ئىسىملارنى ئىزدەڭ
 Search channels...: ئىزدەش قاناللىرى ...
+sec: سېكۇنت
 Select a playlist first.: ئالدى بىلەن قويۇش تىزىملىكىنى تاللاڭ.
 Select Theme: باشتېمىنى تاللاڭ
 Selected theme is saved and applied on restart.: تاللانغان باشتېما ساقلىنىپ قايتا قوزغىتىلىدۇ.
@@ -271,8 +318,11 @@ Support the developer: ئاچقۇچىنى قوللاڭ
 Target Field: نىشان مەيدانى
 Telnet command:: Telnet بۇيرۇقى:
 Telnet Commander: تېلېگراف قوماندانى
+Telnet Config: Telnet Config
 Telnet Console: Telnet Console
-Telnet not configured. Please set it in Settings.: Telnet سەپلەنمىگەن. ئۇنى تەڭشەكلەرگە تەڭشەڭ.
+Telnet host not configured. Please set it in Settings.: تېلېگراف مۇلازىمېتىرى سەپلەنمىدى. ئۇنى تەڭشەكلەرگە تەڭشەڭ.
+Telnet password is empty. Do you want to continue?: تېلېفوننىڭ مەخپىي نومۇرى قۇرۇق. داۋاملاشتۇرۇشنى خالامسىز؟
+Telnet username not configured. Please set it in Settings.: Telnet ئىشلەتكۈچى ئىسمى سەپلەنمىگەن. ئۇنى تەڭشەكلەرگە تەڭشەڭ.
 Thanks to: رەھمەت
 Theme picker: تېما تاللىغۇچ
 Theme picker – accessible via Tools menu on main toolbar.: باشتېما تاللىغۇچ - ئاساسلىق قورالبالدىقىدىكى قوراللار تىزىملىكى ئارقىلىق زىيارەت قىلغىلى بولىدۇ.
@@ -289,14 +339,18 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: يىراقتىكى ھۆججەت ھۆججىتىدىن نەشرىنى تاپالمىدى.
 Update: يېڭىلاش
 Update complete. Restarting...: يېڭىلاش تاماملاندى. قايتا قوزغىتىش ...
+Update Error: يېڭىلاش خاتالىقى
 Update failed: : يېڭىلاش مەغلۇپ بولدى:
 Updates: يېڭىلانمىلار
+Upload Error: يۈكلەش خاتالىقى
 URL: URL
 URL (primary): URL (دەسلەپكى)
 URL Check: URL تەكشۈرۈش
 URL list (one per line): URL تىزىملىكى (ھەر بىر قۇر)
 URLs & Status: URL ۋە ھالەت
 Version: نەشرى
+Version {0}.{1}.{2}: نەشرى {0}. {1}. {2}
+Version unknown: نەشرى نامەلۇم
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus نىڭ تاقىلىشىنى ساقلاش ...
 Warning: ئاگاھلاندۇرۇش
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

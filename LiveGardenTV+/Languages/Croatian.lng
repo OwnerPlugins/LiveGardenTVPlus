@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Mapa predmemorije: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Potpuno dobrovoljno – nijedna značajka nije blokirana)
 (No description): (bez opisa)
 • Add / rename / delete groups.: • Dodavanje/preimenovanje/brisanje grupa.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Prethodna
 16 colour themes + Light/Dark variants.: 16 tema boja + svijetle/tamne varijante.
 A new version is available. Do you want to update now?: Dostupna je nova verzija. Želite li ažurirati sada?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Pristup putem gumba "Usporedi" u uređivaču popisa za reprodukciju ili izborniku Alati.
 Access via 'Edit Playlist' button on main toolbar.: Pristup preko gumba 'Uredi popis za reprodukciju' na glavnoj alatnoj traci.
 Actions: Radnje
 Add Command: Dodaj naredbu
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Buket je poslan i popis kanala 
 Buffer (seconds): Međuspremnik (sekunde)
 Buffer size – adjust HLS buffer seconds.: Veličina međuspremnika – podesite HLS sekunde međuspremnika.
 Cache: Predmemorija
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Mapa predmemorije: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Otkazati
 CANCEL: OTKAZATI
+Cannot open browser: Ne mogu otvoriti preglednik
 Category: Kategorija
 Changelog: Dnevnik promjena
 Channel Details: Detalji kanala
 Channel Info: Informacije o kanalu
+Channel Name: Naziv kanala
 channels from: kanali iz
+channels from JSON: kanala iz JSON-a
 channels from JSON URL: kanala iz JSON URL-a
 channels from URL: kanala s URL-a
 Check Duplicates: Provjerite duplikate
@@ -57,6 +61,12 @@ Click for details: Kliknite za detalje
 Close: Zatvoriti
 Command name:: Naziv naredbe:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Zajednica i testiranje: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: Usporedi
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Usporedite prema: Prioritetu (naziv→grupa→tvg-id), imenu, grupi (osjetljivo na velika i mala slova) ili TvgId-u.
+Compare Playlists: Usporedite popise za reprodukciju
+Compare two playlists – load first (current playlist) and second (from file or URL).: Usporedite dva popisa za reprodukciju – učitajte prvi (trenutni popis za reprodukciju) i drugi (iz datoteke ili URL-a).
+Compare...: Usporedi...
+Comparison results: {0} channels: Rezultati usporedbe: {0} kanala
 Configuration Missing: Nedostaje konfiguracija
 Confirm Reload: Potvrdite ponovno učitavanje
 Connect: Poveži se
@@ -89,6 +99,8 @@ End: Kraj
 Enrich with EPG: Obogatite EPG-om
 Enter bouquet name (without spaces):: Unesite naziv buketa (bez razmaka):
 Enter JSON URL:: Unesite JSON URL:
+Enter new group name:: Unesite novi naziv grupe:
+Enter playlist URL (JSON or M3U):: Unesite URL popisa za reprodukciju (JSON ili M3U):
 Enter playlist URL (M3U or JSON):: Unesite URL popisa za reprodukciju (M3U ili JSON):
 EPG: EPG
 Epg & Favorites: EPG i favoriti
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG izvor –
 EPG source – choose XMLTV file or enter custom URL.: EPG izvor – odaberite XMLTV datoteku ili unesite prilagođeni URL.
 EPG Source Missing: Nedostaje EPG izvor
 Error: Greška
-Error clearing cache: Pogreška pri čišćenju predmemorije
+Error clearing cache: {0}: Pogreška pri čišćenju predmemorije: {0}
 Error loading: Greška pri učitavanju
+Error loading EPG list: {0}: Pogreška pri učitavanju EPG popisa: {0}
+Error loading file: {0}: Pogreška pri učitavanju datoteke: {0}
 Error loading file: {0}: Pogreška pri učitavanju datoteke: {0}
 Error loading playlists: {0}: Pogreška pri učitavanju popisa za reprodukciju: {0}
 Error loading URL: {0}: Pogreška pri učitavanju URL-a: {0}
+Error loading URL: {0}: Pogreška pri učitavanju URL-a: {0}
 ERROR: player.html not found.: POGREŠKA: player.html nije pronađen.
 Exit: Izlaz
+Export: Izvoz
+Export all: Izvezi sve
 Export Favorites: Izvoz favorita
 Export Filtered JSON: Izvezi filtrirani JSON
 Export Filtered M3U: Izvezi filtrirani M3U
 Export JSON: Izvezi JSON
 Export KO: Izvoz KO
+Export missing: Nedostaje izvoz
 Export OK: Izvoz OK
 Export only favorite channels to a new M3U file: Izvezite samo omiljene kanale u novu M3U datoteku
+Export results as JSON or M3U – export missing channels or all channels.: Izvezi rezultate kao JSON ili M3U – izvezi kanale koji nedostaju ili sve kanale.
+Exported channels: Izvezeni kanali
 Extracting update...: Izdvajanje ažuriranja...
 Failed to download playlist: Preuzimanje popisa za reprodukciju nije uspjelo
 Failed to load playlist: Učitavanje popisa za reprodukciju nije uspjelo
@@ -128,6 +148,7 @@ Fetch Logos: Dohvati logotipe
 File {0} already exists. Overwrite?: Datoteka {0} već postoji. Prepisati?
 File exists: Datoteka postoji
 Filters: Filteri
+First playlist: {0} channels loaded.: Prvi popis za reprodukciju: učitano {0} kanala.
 Fullscreen (hide UI) - press ESC to exit: Cijeli zaslon (sakrij korisničko sučelje) - pritisnite ESC za izlaz
 Geo & Country: Geo & Država
 GeoBlocked: Geoblokirano
@@ -140,19 +161,23 @@ Hide List: Sakrij popis
 HLS playback: hls.js (MIT license): HLS reprodukcija: hls.js (MIT licenca)
 Image: Slika
 Import: Uvoz
+Import cancelled or no channels mapped.: Uvoz je otkazan ili nema mapiranih kanala.
 Import error: {0}: Pogreška pri uvozu: {0}
 Import from URL: Uvoz s URL-a
 Import JSON: Uvezi JSON
 Import JSON from URL: Uvezi JSON iz URL-a
 Import Local: Uvezi lokalno
-Imported {0} channels from JSON.: Uvezeno {0} kanala iz JSON-a.
+Imported {0} channels from JSON via mapping.: Uvezeno {0} kanala iz JSON-a putem mapiranja.
 Imported {0} channels from URL.: Uvezeno {0} kanala s URL-a.
+In Both: U Oba
 Info: Info
 Info on: Informacije o
 Invalid JSON: {0}: Nevažeći JSON: {0}
 Invalid playlist URL.: Nevažeći URL popisa za reprodukciju.
 Invalid URL.: Nevažeći URL.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: JSON datoteke|*.json|M3U datoteke|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON datoteke|*.json|M3U datoteke|*.m3u;*.m3u8|Sve datoteke|*.*
 JSON Property: JSON svojstvo
 Ko-fi: Kava
 Language: Jezik
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: jezici
 Languages (comma): jezici (zarez)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Pomoć Lululle
+LiveGardenTVPlus Help: LiveGardenTVPlus pomoć
 LOAD: OPTEREĆENJE
 Load a playlist first.: Prvo učitajte popis za reprodukciju.
+Load a second playlist first.: Prvo učitajte drugi popis za reprodukciju.
 Load File: Učitaj datoteku
+Load from file...: Učitaj iz datoteke...
+Load from URL: Učitaj s URL-a
+Load from URL...: Učitaj s URL-a...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Učitaj lokalnu M3U/JSON datoteku – putem gumba 'Učitaj datoteku' (alatna traka) ili 'Otvori datoteku' u uređivaču.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Učitaj online M3U/JSON URL – gumb 'Učitaj online' (alatna traka) ili 'Otvori s URL-a' u uređivaču.
 Load playlist file (M3U/JSON) from your computer: Učitajte datoteku popisa za reprodukciju (M3U/JSON) sa svog računala
 Loaded: Učitano
+Loaded {0} channels from JSON file via mapping.: Učitano {0} kanala iz JSON datoteke putem mapiranja.
 Loaded {0} channels from JSON file.: Učitano {0} kanala iz JSON datoteke.
 Loaded {0} channels from JSON URL.: Učitano {0} kanala s JSON URL-a.
 Loaded {0} channels from M3U file.: Učitano {0} kanala iz M3U datoteke.
@@ -193,15 +223,23 @@ Next: Sljedeći
 Next ▶: Dalje ▶
 No .m3u files found on GitHub repository.: Na GitHub repozitoriju nisu pronađene .m3u datoteke.
 No cache folder found.: Nije pronađena mapa predmemorije.
+No channels could be mapped or import cancelled.: Niti jedan kanal nije mogao biti mapiran ili uvoz otkazan.
 No channels could be mapped. Check your mapping rules.: Nije moguće mapirati nijedan kanal. Provjerite svoja pravila mapiranja.
+No channels loaded from JSON URL.: Nema kanala učitanih s JSON URL-a.
+No channels loaded from M3U URL.: Nema kanala učitanih s M3U URL-a.
+No channels loaded from M3U.: Nema kanala učitanih s M3U.
+No channels loaded.: Nema učitanih kanala.
 No channels mapped: Nema mapiranih kanala
+No comparison results. Run Compare first.: Nema rezultata usporedbe. Prvo pokrenite Usporedi.
 No duplicate URLs found.: Duplicirani URL-ovi nisu pronađeni.
 No EPG data: Nema EPG podataka
 No EPG information available for this channel.: Nema dostupnih EPG informacija za ovaj kanal.
 No EPG source configured. Please select one from the combo or go to Settings.: EPG izvor nije konfiguriran. Odaberite jedan iz kombinacije ili idite na Postavke.
 No EPG source configured. Would you like to open settings to select one?: EPG izvor nije konfiguriran. Želite li otvoriti postavke i odabrati jedan?
 No favorite channels to export.: Nema omiljenih kanala za izvoz.
+No missing channels to export.: Nema kanala koji nedostaju za izvoz.
 No playlist found: Nije pronađen popis za reprodukciju
+No second playlist loaded.: Drugi popis za reprodukciju nije učitan.
 No updates available.: Nema dostupnih ažuriranja.
 Normal speed (1x): Normalna brzina (1x)
 Not connected to the box.: Nije spojen na kutiju.
@@ -209,6 +247,8 @@ Now: Sada
 OK: U REDU
 Online Playlist: Online popis za reprodukciju
 Online playlist – select from GitHub repository (auto‑refresh).: Online popis za reprodukciju – odaberite iz GitHub repozitorija (automatsko osvježavanje).
+Only in First: Samo u Prvoj
+Only in Second: Samo u Drugom
 Open File...: Otvori datoteku...
 Open from URL: Otvori s URL-a
 Open Playlist: Otvori popis za reprodukciju
@@ -216,12 +256,14 @@ Pause/Resume live stream: Pauziraj/nastavi prijenos uživo
 Paused: Pauzirano
 PayPal: PayPal
 Picture-in-Picture mode: Način slike u slici
-Player Control: Kontrola igrača
+Player Controls: Kontrole igrača
 Playlist & Groups: Popis za reprodukciju i grupe
+Playlist Comparison: Usporedba popisa za reprodukciju
 Playlist Editor: Uređivač popisa pjesama
 Playlist Loading: Učitavanje popisa za reprodukciju
 Playlist Management: Upravljanje popisom pjesama
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repozitorij popisa za reprodukciju: OwnerPlugins/TivuStreamList (talijanski i međunarodni streamovi)
+Playlists loaded: Popisi za reprodukciju učitani
 Please select a program first.: Prvo odaberite program.
 Preview (first 5 channels): Pregled (prvih 5 kanala)
 Preview error: {0}: Pogreška pregleda: {0}
@@ -237,8 +279,10 @@ Refresh List: Osvježi popis
 Reload GUI: Ponovno učitaj GUI
 Remove Command: Ukloni naredbu
 Rename Group: Preimenuj grupu
+Rename group '{0}' to:: Preimenuj grupu '{0}' u:
 Repository: Spremište
 Reset Order: Poništi narudžbu
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Rezultati: 'Samo u prvom', 'Samo u drugom', 'U oba' – s kodiranjem statusa u boji.
 Save: Uštedjeti
 SAVE: UŠTEDJETI
 Save – persists all settings without reloading current playlist.: Spremi – zadržava sve postavke bez ponovnog učitavanja trenutnog popisa za reprodukciju.
@@ -251,6 +295,7 @@ Saved: Spremljeno
 Search channel: : Traži kanal:
 Search channels by name: Pretražujte kanale po nazivu
 Search channels...: Traži kanale...
+sec: sek
 Select a playlist first.: Prvo odaberite popis za reprodukciju.
 Select Theme: Odaberite temu
 Selected theme is saved and applied on restart.: Odabrana tema se sprema i primjenjuje pri ponovnom pokretanju.
@@ -273,6 +318,7 @@ Support the developer: Podržite programera
 Target Field: Ciljno polje
 Telnet command:: Telnet naredba:
 Telnet Commander: Telnet zapovjednik
+Telnet Config: Telnet Config
 Telnet Console: Telnet konzola
 Telnet host not configured. Please set it in Settings.: Telnet host nije konfiguriran. Postavite to u Postavkama.
 Telnet password is empty. Do you want to continue?: Telnet lozinka je prazna. Želite li nastaviti?
@@ -303,6 +349,8 @@ URL Check: Provjera URL-a
 URL list (one per line): Popis URL-ova (jedan po retku)
 URLs & Status: URL-ovi i status
 Version: Verzija
+Version {0}.{1}.{2}: Verzija {0}.{1}.{2}
+Version unknown: Verzija nepoznata
 Waiting for LiveGardenTVPlus to close...: Čeka se zatvaranje LiveGardenTVPlus...
 Warning: Upozorenje
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

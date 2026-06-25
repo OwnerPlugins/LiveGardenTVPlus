@@ -1,4 +1,3 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Folder cache: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Sepenuhnya sukarela – tiada ciri disekat)
 (No description): (Tiada penerangan)
 • Add / rename / delete groups.: • Tambah / namakan semula / padam kumpulan.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Sebelumnya
 16 colour themes + Light/Dark variants.: 16 tema warna + varian Terang/Gelap.
 A new version is available. Do you want to update now?: Versi baharu tersedia. Adakah anda mahu mengemas kini sekarang?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Akses melalui butang 'Bandingkan' dalam Editor Senarai Main atau menu Alat.
 Access via 'Edit Playlist' button on main toolbar.: Akses melalui butang 'Edit Senarai Main' pada bar alat utama.
 Actions: Tindakan
 Add Command: Tambah Perintah
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Bouquet dihantar dan senarai sa
 Buffer (seconds): Penampan (saat)
 Buffer size – adjust HLS buffer seconds.: Saiz penimbal – laraskan saat penimbal HLS.
 Cache: Cache
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Folder cache: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Batal
 CANCEL: BATALKAN
+Cannot open browser: Tidak boleh membuka penyemak imbas
 Category: kategori
 Changelog: Changelog
 Channel Details: Butiran Saluran
 Channel Info: Maklumat Saluran
+Channel Name: Nama Saluran
 channels from: saluran daripada
+channels from JSON: saluran daripada JSON
 channels from JSON URL: saluran daripada URL JSON
 channels from URL: saluran daripada URL
 Check Duplicates: Semak Pendua
@@ -57,6 +61,13 @@ Click for details: Klik untuk butiran
 Close: tutup
 Command name:: Nama arahan:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komuniti & ujian: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: Bandingkan
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Bandingkan mengikut: Keutamaan (nama→kumpulan→tvg-id), Nama, Kumpulan (sensitif huruf besar-kecil), atau TvgId.
+Compare Playlists: Bandingkan Senarai Main
+Compare two playlists – load first (current playlist) and second (from file or URL).: Bandingkan dua senarai main – muatkan dahulu (senarai main semasa) dan kedua (daripada fail atau URL).
+Compare...: Bandingkan...
+Comparison results: {0} channels: Hasil perbandingan: {0} saluran
+Configuration Missing: Konfigurasi Tiada
 Confirm Reload: Sahkan Muat Semula
 Connect: Sambung
 Connected: Bersambung
@@ -68,7 +79,7 @@ Delete Selected: Padam Dipilih
 Description: Penerangan
 Details: Butiran
 Developed by Lululla: Dibangunkan oleh Lululla
-Developer: Lululla: Pemaju: Lululla
+Developer: Lululla: Pembangun: Lululla
 Disconnect: Putuskan sambungan
 Disconnected: Terputus sambungan
 Do you want to load this edited playlist now?: Adakah anda mahu memuatkan senarai main yang diedit ini sekarang?
@@ -83,10 +94,13 @@ Edit command name:: Edit nama arahan:
 Edit Playlist: Edit Senarai Main
 Edit telnet command:: Edit arahan telnet:
 Edit URLs: Edit URL
+Empty Password: Kata Laluan Kosong
 End: tamat
 Enrich with EPG: Perkaya dengan EPG
 Enter bouquet name (without spaces):: Masukkan nama sejambak (tanpa ruang):
 Enter JSON URL:: Masukkan URL JSON:
+Enter new group name:: Masukkan nama kumpulan baharu:
+Enter playlist URL (JSON or M3U):: Masukkan URL senarai main (JSON atau M3U):
 Enter playlist URL (M3U or JSON):: Masukkan URL senarai main (M3U atau JSON):
 EPG: EPG
 Epg & Favorites: Epg & Kegemaran
@@ -101,31 +115,40 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: Sumber EPG �
 EPG source – choose XMLTV file or enter custom URL.: Sumber EPG – pilih fail XMLTV atau masukkan URL tersuai.
 EPG Source Missing: Sumber EPG Tiada
 Error: ralat
-Error clearing cache: Ralat mengosongkan cache
+Error clearing cache: {0}: Ralat mengosongkan cache: {0}
 Error loading: Ralat memuatkan
+Error loading EPG list: {0}: Ralat memuatkan senarai EPG: {0}
+Error loading file: {0}: Ralat memuatkan fail: {0}
 Error loading file: {0}: Ralat memuatkan fail: {0}
 Error loading playlists: {0}: Ralat memuatkan senarai main: {0}
 Error loading URL: {0}: Ralat memuatkan URL: {0}
+Error loading URL: {0}: Ralat memuatkan URL: {0}
 ERROR: player.html not found.: RALAT: player.html tidak ditemui.
 Exit: Keluar
+Export: Eksport
+Export all: Eksport semua
 Export Favorites: Eksport Kegemaran
 Export Filtered JSON: Eksport JSON yang Ditapis
 Export Filtered M3U: Eksport M3U yang Ditapis
 Export JSON: Eksport JSON
 Export KO: Eksport KO
+Export missing: Eksport tiada
 Export OK: Eksport OK
 Export only favorite channels to a new M3U file: Eksport hanya saluran kegemaran ke fail M3U baharu
+Export results as JSON or M3U – export missing channels or all channels.: Eksport hasil sebagai JSON atau M3U – eksport saluran yang hilang atau semua saluran.
+Exported channels: Saluran yang dieksport
 Extracting update...: Mengeluarkan kemas kini...
 Failed to download playlist: Gagal memuat turun senarai main
 Failed to load playlist: Gagal memuatkan senarai main
-Failed to update bouquets.tv.: Gagal mengemas kini bouquets.tv.
-Failed to upload bouquet.: Gagal memuat naik sejambak.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Gagal mengemas kini bouquets.tv. Sila semak kebenaran fail pada peranti Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Gagal memuat naik sejambak. Sila semak tetapan Telnet anda (hos, port, nama pengguna, kata laluan) dan cuba lagi.
 Favorite: Kegemaran
 Favorites only: Kegemaran sahaja
 Fetch Logos: Ambil Logo
 File {0} already exists. Overwrite?: Fail {0} sudah wujud. Tulis ganti?
 File exists: Fail wujud
 Filters: Penapis
+First playlist: {0} channels loaded.: Senarai main pertama: {0} saluran dimuatkan.
 Fullscreen (hide UI) - press ESC to exit: Skrin penuh (sembunyikan UI) - tekan ESC untuk keluar
 Geo & Country: Geo & Negara
 GeoBlocked: GeoBlocked
@@ -138,19 +161,23 @@ Hide List: Sembunyikan Senarai
 HLS playback: hls.js (MIT license): Main balik HLS: hls.js (lesen MIT)
 Image: Imej
 Import: Import
+Import cancelled or no channels mapped.: Import dibatalkan atau tiada saluran dipetakan.
 Import error: {0}: Ralat import: {0}
 Import from URL: Import daripada URL
 Import JSON: Import JSON
 Import JSON from URL: Import JSON daripada URL
 Import Local: Import Tempatan
-Imported {0} channels from JSON.: Mengimport {0} saluran daripada JSON.
+Imported {0} channels from JSON via mapping.: Mengimport {0} saluran daripada JSON melalui pemetaan.
 Imported {0} channels from URL.: Mengimport {0} saluran daripada URL.
+In Both: Dalam Kedua-duanya
 Info: info
 Info on: Maklumat mengenai
 Invalid JSON: {0}: JSON tidak sah: {0}
 Invalid playlist URL.: URL senarai main tidak sah.
 Invalid URL.: URL tidak sah.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: Fail JSON|*.json|Fail M3U|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Fail JSON|*.json|Fail M3U|*.m3u;*.m3u8|Semua fail|*.*
 JSON Property: Harta JSON
 Ko-fi: Kopi
 Language: Bahasa
@@ -158,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Bahasa
 Languages (comma): Bahasa (koma)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: Bantuan LiveGardenTVPlus oleh Lululla
+LiveGardenTVPlus Help: Bantuan LiveGardenTVPlus
 LOAD: MUAT
 Load a playlist first.: Muatkan senarai main dahulu.
+Load a second playlist first.: Muatkan senarai main kedua dahulu.
 Load File: Muatkan Fail
+Load from file...: Muatkan daripada fail...
+Load from URL: Muatkan daripada URL
+Load from URL...: Muatkan daripada URL...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Muatkan fail M3U/JSON setempat – melalui butang 'Muat Fail' (bar alat) atau 'Buka Fail' dalam editor.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Muatkan URL M3U/JSON dalam talian – butang 'Muat Dalam Talian' (bar alat) atau 'Buka dari URL' dalam editor.
 Load playlist file (M3U/JSON) from your computer: Muatkan fail senarai main (M3U/JSON) dari komputer anda
 Loaded: dimuatkan
+Loaded {0} channels from JSON file via mapping.: Memuatkan {0} saluran daripada fail JSON melalui pemetaan.
 Loaded {0} channels from JSON file.: Memuatkan {0} saluran daripada fail JSON.
 Loaded {0} channels from JSON URL.: Memuatkan {0} saluran daripada URL JSON.
 Loaded {0} channels from M3U file.: Memuatkan {0} saluran daripada fail M3U.
@@ -191,15 +223,23 @@ Next: Seterusnya
 Next ▶: Seterusnya ▶
 No .m3u files found on GitHub repository.: Tiada fail .m3u ditemui pada repositori GitHub.
 No cache folder found.: Tiada folder cache ditemui.
+No channels could be mapped or import cancelled.: Tiada saluran boleh dipetakan atau import dibatalkan.
 No channels could be mapped. Check your mapping rules.: Tiada saluran boleh dipetakan. Semak peraturan pemetaan anda.
+No channels loaded from JSON URL.: Tiada saluran dimuatkan daripada URL JSON.
+No channels loaded from M3U URL.: Tiada saluran dimuatkan daripada URL M3U.
+No channels loaded from M3U.: Tiada saluran dimuatkan daripada M3U.
+No channels loaded.: Tiada saluran dimuatkan.
 No channels mapped: Tiada saluran dipetakan
+No comparison results. Run Compare first.: Tiada hasil perbandingan. Jalankan Bandingkan dahulu.
 No duplicate URLs found.: Tiada URL pendua ditemui.
 No EPG data: Tiada data EPG
 No EPG information available for this channel.: Tiada maklumat EPG tersedia untuk saluran ini.
 No EPG source configured. Please select one from the combo or go to Settings.: Tiada sumber EPG dikonfigurasikan. Sila pilih satu daripada kombo atau pergi ke Tetapan.
 No EPG source configured. Would you like to open settings to select one?: Tiada sumber EPG dikonfigurasikan. Adakah anda ingin membuka tetapan untuk memilih satu?
 No favorite channels to export.: Tiada saluran kegemaran untuk dieksport.
+No missing channels to export.: Tiada saluran yang hilang untuk dieksport.
 No playlist found: Tiada senarai main ditemui
+No second playlist loaded.: Tiada senarai main kedua dimuatkan.
 No updates available.: Tiada kemas kini tersedia.
 Normal speed (1x): Kelajuan biasa (1x)
 Not connected to the box.: Tidak disambungkan ke kotak.
@@ -207,6 +247,8 @@ Now: Sekarang
 OK: OK
 Online Playlist: Senarai Main Dalam Talian
 Online playlist – select from GitHub repository (auto‑refresh).: Senarai main dalam talian – pilih daripada repositori GitHub (auto-refresh).
+Only in First: Hanya di First
+Only in Second: Hanya dalam Second
 Open File...: Buka Fail...
 Open from URL: Buka daripada URL
 Open Playlist: Buka Senarai Main
@@ -214,12 +256,14 @@ Pause/Resume live stream: Jeda/Sambung semula strim langsung
 Paused: Dijeda
 PayPal: PayPal
 Picture-in-Picture mode: Mod Gambar dalam Gambar
-Player Control: Kawalan Pemain
+Player Controls: Kawalan Pemain
 Playlist & Groups: Senarai main & Kumpulan
+Playlist Comparison: Perbandingan Senarai Main
 Playlist Editor: Editor Senarai main
 Playlist Loading: Memuatkan Senarai Main
 Playlist Management: Pengurusan Senarai Main
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repositori senarai main: OwnerPlugins/TivuStreamList (strim Itali & antarabangsa)
+Playlists loaded: Senarai main dimuatkan
 Please select a program first.: Sila pilih program dahulu.
 Preview (first 5 channels): Pratonton (5 saluran pertama)
 Preview error: {0}: Ralat pratonton: {0}
@@ -235,8 +279,10 @@ Refresh List: Muat semula Senarai
 Reload GUI: Muat semula GUI
 Remove Command: Keluarkan Perintah
 Rename Group: Namakan semula Kumpulan
+Rename group '{0}' to:: Namakan semula kumpulan '{0}' kepada:
 Repository: Repositori
 Reset Order: Tetapkan Semula Pesanan
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Keputusan: 'Hanya di Pertama', 'Hanya di Kedua', 'Dalam Kedua-duanya' – dengan pengekodan warna status.
 Save: Jimat
 SAVE: JIMAT
 Save – persists all settings without reloading current playlist.: Simpan – mengekalkan semua tetapan tanpa memuatkan semula senarai main semasa.
@@ -249,6 +295,7 @@ Saved: Disimpan
 Search channel: : Cari saluran:
 Search channels by name: Cari saluran mengikut nama
 Search channels...: Cari saluran...
+sec: sec
 Select a playlist first.: Pilih senarai main dahulu.
 Select Theme: Pilih Tema
 Selected theme is saved and applied on restart.: Tema yang dipilih disimpan dan digunakan semasa dimulakan semula.
@@ -271,8 +318,11 @@ Support the developer: Sokong pemaju
 Target Field: Medan Sasaran
 Telnet command:: Perintah Telnet:
 Telnet Commander: Komander Telnet
+Telnet Config: Konfigurasi Telnet
 Telnet Console: Konsol Telnet
-Telnet not configured. Please set it in Settings.: Telnet tidak dikonfigurasikan. Sila tetapkan dalam Tetapan.
+Telnet host not configured. Please set it in Settings.: Hos Telnet tidak dikonfigurasikan. Sila tetapkan dalam Tetapan.
+Telnet password is empty. Do you want to continue?: Kata laluan Telnet kosong. Adakah anda mahu meneruskan?
+Telnet username not configured. Please set it in Settings.: Nama pengguna Telnet tidak dikonfigurasikan. Sila tetapkan dalam Tetapan.
 Thanks to: Terima kasih kepada
 Theme picker: Pemilih tema
 Theme picker – accessible via Tools menu on main toolbar.: Pemilih tema – boleh diakses melalui menu Alat pada bar alat utama.
@@ -289,14 +339,18 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Tidak dapat mencari versi dalam fail projek jauh.
 Update: Kemas kini
 Update complete. Restarting...: Kemas kini selesai. Memulakan semula...
+Update Error: Ralat Kemas Kini
 Update failed: : Kemas kini gagal:
 Updates: Kemas kini
+Upload Error: Ralat Muat Naik
 URL: URL
 URL (primary): URL (utama)
 URL Check: Semakan URL
 URL list (one per line): Senarai URL (satu setiap baris)
 URLs & Status: URL & Status
 Version: Versi
+Version {0}.{1}.{2}: Versi {0}.{1}.{2}
+Version unknown: Versi tidak diketahui
 Waiting for LiveGardenTVPlus to close...: Menunggu LiveGardenTVPlus ditutup...
 Warning: Amaran
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

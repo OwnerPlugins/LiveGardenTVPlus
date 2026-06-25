@@ -1,5 +1,5 @@
-﻿using System.ComponentModel;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
+using System.ComponentModel;
 
 namespace LiveGardenTVPlus.Models
 {
@@ -29,10 +29,10 @@ namespace LiveGardenTVPlus.Models
         public List<string> stream_urls
         {
             get => _streamUrls ??= new List<string>();
-            set 
-            { 
-                _streamUrls = value; 
-                OnPropertyChanged(nameof(stream_urls)); 
+            set
+            {
+                _streamUrls = value;
+                OnPropertyChanged(nameof(stream_urls));
                 OnPropertyChanged(nameof(StreamUrlsDisplay));
                 OnPropertyChanged(nameof(PrimaryUrl));
             }

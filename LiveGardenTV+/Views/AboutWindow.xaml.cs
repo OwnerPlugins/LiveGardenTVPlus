@@ -1,9 +1,9 @@
-﻿using System.Diagnostics;
+﻿using LiveGardenTVPlus.Services;
+using System.Diagnostics;
 using System.Net.Http;
 using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Windows;
-using LiveGardenTVPlus.Services;
 
 namespace LiveGardenTVPlus.Views
 {

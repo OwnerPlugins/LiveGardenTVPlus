@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using LiveGardenTVPlus.Models;
 using System.Text.RegularExpressions;
-using LiveGardenTVPlus.Models;
 
 namespace LiveGardenTVPlus.Services
 {

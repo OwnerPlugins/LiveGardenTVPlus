@@ -1,4 +1,3 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Dosar cache: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Complet voluntar – nicio caracteristică nu este blocată)
 (No description): (Fără descriere)
 • Add / rename / delete groups.: • Adăugați / redenumiți / ștergeți grupuri.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Anterior
 16 colour themes + Light/Dark variants.: 16 teme de culoare + variante de lumină/întuneric.
 A new version is available. Do you want to update now?: Este disponibilă o nouă versiune. Doriți să actualizați acum?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Accesați prin butonul „Comparare” din Editorul listelor de redare sau din meniul Instrumente.
 Access via 'Edit Playlist' button on main toolbar.: Accesați prin butonul „Editați lista de redare” din bara de instrumente principală.
 Actions: Acțiuni
 Add Command: Adăugați comanda
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Buchetul trimis și lista de ca
 Buffer (seconds): Buffer (secunde)
 Buffer size – adjust HLS buffer seconds.: Dimensiunea tamponului – ajustați secundele tampon HLS.
 Cache: Cache
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Dosarul cache: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Anula
 CANCEL: ANULA
+Cannot open browser: Nu se poate deschide browserul
 Category: Categorie
 Changelog: Jurnalul modificărilor
 Channel Details: Detalii canal
 Channel Info: Informații despre canal
+Channel Name: Numele canalului
 channels from: canale de la
+channels from JSON: canale din JSON
 channels from JSON URL: canale de la adresa URL JSON
 channels from URL: canale de la URL
 Check Duplicates: Verificați duplicatele
@@ -57,6 +61,13 @@ Click for details: Click pentru detalii
 Close: Aproape
 Command name:: Nume comanda:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Comunitate și testare: CorvoBoys (corvoboys.org) și LinuxSat-Support.com
+Compare: Comparaţie
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Comparați după: Prioritate (nume→grup→id-tvg), Nume, Grup (diferențial majuscule sau minuscule) sau Id-tvg.
+Compare Playlists: Comparați liste de redare
+Compare two playlists – load first (current playlist) and second (from file or URL).: Comparați două liste de redare - încărcați primul (lista de redare curentă) și al doilea (din fișier sau URL).
+Compare...: Comparaţie...
+Comparison results: {0} channels: Rezultate comparație: {0} canale
+Configuration Missing: Configurație lipsește
 Confirm Reload: Confirmați Reîncărcarea
 Connect: Conectați-vă
 Connected: Conectat
@@ -83,10 +94,13 @@ Edit command name:: Editați numele comenzii:
 Edit Playlist: Editați lista de redare
 Edit telnet command:: Editați comanda telnet:
 Edit URLs: Editați adresele URL
+Empty Password: Parola goală
 End: Sfârşit
 Enrich with EPG: Îmbogățiți cu EPG
 Enter bouquet name (without spaces):: Introduceți numele buchetului (fără spații):
 Enter JSON URL:: Introduceți adresa URL JSON:
+Enter new group name:: Introduceți un nou nume de grup:
+Enter playlist URL (JSON or M3U):: Introduceți adresa URL a listei de redare (JSON sau M3U):
 Enter playlist URL (M3U or JSON):: Introduceți adresa URL a listei de redare (M3U sau JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favorite
@@ -101,31 +115,40 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: Sursă EPG �
 EPG source – choose XMLTV file or enter custom URL.: Sursă EPG – alegeți fișierul XMLTV sau introduceți adresa URL personalizată.
 EPG Source Missing: Sursa EPG lipsește
 Error: Eroare
-Error clearing cache: Eroare la golirea memoriei cache
+Error clearing cache: {0}: Eroare la golirea memoriei cache: {0}
 Error loading: Eroare la încărcare
+Error loading EPG list: {0}: Eroare la încărcarea listei EPG: {0}
+Error loading file: {0}: Eroare la încărcarea fișierului: {0}
 Error loading file: {0}: Eroare la încărcarea fișierului: {0}
 Error loading playlists: {0}: Eroare la încărcarea listelor de redare: {0}
 Error loading URL: {0}: Eroare la încărcarea adresei URL: {0}
+Error loading URL: {0}: Eroare la încărcarea adresei URL: {0}
 ERROR: player.html not found.: EROARE: player.html nu a fost găsit.
 Exit: Ieșire
+Export: Export
+Export all: Exportați tot
 Export Favorites: Exportați Favorite
 Export Filtered JSON: Exportați JSON filtrat
 Export Filtered M3U: Export M3U filtrat
 Export JSON: Exportați JSON
 Export KO: Export KO
+Export missing: Export lipsă
 Export OK: Export OK
 Export only favorite channels to a new M3U file: Exportați numai canalele favorite într-un fișier M3U nou
+Export results as JSON or M3U – export missing channels or all channels.: Exportați rezultatele ca JSON sau M3U – exportați canalele lipsă sau toate canalele.
+Exported channels: Canale exportate
 Extracting update...: Se extrage actualizarea...
 Failed to download playlist: Nu s-a putut descărca lista de redare
 Failed to load playlist: Nu s-a putut încărca lista de redare
-Failed to update bouquets.tv.: Nu s-a putut actualiza bouquets.tv.
-Failed to upload bouquet.: Buchetul nu a putut fi încărcat.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Nu s-a putut actualiza bouquets.tv. Vă rugăm să verificați permisiunile fișierelor pe dispozitivul Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Buchetul nu a putut fi încărcat. Verificați setările Telnet (gazdă, port, nume de utilizator, parolă) și încercați din nou.
 Favorite: Favorit
 Favorites only: Doar favorite
 Fetch Logos: Preluați sigle
 File {0} already exists. Overwrite?: Fișierul {0} există deja. Suprascrie?
 File exists: Fișierul există
 Filters: Filtre
+First playlist: {0} channels loaded.: Primul playlist: {0} canale încărcate.
 Fullscreen (hide UI) - press ESC to exit: Ecran complet (ascunde UI) - apăsați ESC pentru a ieși
 Geo & Country: Geo și țară
 GeoBlocked: GeoBlocked
@@ -138,19 +161,23 @@ Hide List: Ascunde lista
 HLS playback: hls.js (MIT license): Redare HLS: hls.js (licență MIT)
 Image: Imagine
 Import: Import
+Import cancelled or no channels mapped.: Importul a fost anulat sau niciun canal mapat.
 Import error: {0}: Eroare de import: {0}
 Import from URL: Import de la URL
 Import JSON: Importați JSON
 Import JSON from URL: Importați JSON din URL
 Import Local: Import local
-Imported {0} channels from JSON.: S-au importat {0} canale din JSON.
+Imported {0} channels from JSON via mapping.: Au importat {0} canale din JSON prin mapare.
 Imported {0} channels from URL.: S-au importat {0} canale din URL.
+In Both: În Ambele
 Info: Info
 Info on: Informații despre
 Invalid JSON: {0}: JSON nevalid: {0}
 Invalid playlist URL.: Adresa URL a listei de redare nevalidă.
 Invalid URL.: Adresă URL nevalidă.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: Fișiere JSON|*.json|Fișiere M3U|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Fișiere JSON|*.json|Fișiere M3U|*.m3u;*.m3u8|Toate fișierele|*.*
 JSON Property: Proprietate JSON
 Ko-fi: Cafea
 Language: Limbă
@@ -158,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Limbi
 Languages (comma): Limbi (virgulă)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: Ajutor LiveGardenTVPlus de Lululla
+LiveGardenTVPlus Help: Ajutor LiveGardenTVPlus
 LOAD: ÎNCĂRCA
 Load a playlist first.: Încărcați mai întâi o listă de redare.
+Load a second playlist first.: Încărcați mai întâi un al doilea playlist.
 Load File: Încărcați fișierul
+Load from file...: Încărcați din fișier...
+Load from URL: Încărcați de la URL
+Load from URL...: Încărcați de la URL...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Încărcați fișierul M3U/JSON local – prin butonul „Încărcați fișierul” (bara de instrumente) sau „Deschideți fișierul” în editor.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Încărcați adresa URL M3U/JSON online – butonul „Încărcați online” (bara de instrumente) sau „Deschideți din URL” în editor.
 Load playlist file (M3U/JSON) from your computer: Încărcați fișierul playlist (M3U/JSON) de pe computer
 Loaded: Încărcat
+Loaded {0} channels from JSON file via mapping.: S-au încărcat {0} canale din fișierul JSON prin mapare.
 Loaded {0} channels from JSON file.: S-au încărcat {0} canale din fișierul JSON.
 Loaded {0} channels from JSON URL.: S-au încărcat {0} canale de la adresa URL JSON.
 Loaded {0} channels from M3U file.: S-au încărcat {0} canale din fișierul M3U.
@@ -191,15 +223,23 @@ Next: Următorul
 Next ▶: Următorul ▶
 No .m3u files found on GitHub repository.: Nu s-au găsit fișiere .m3u în depozitul GitHub.
 No cache folder found.: Nu a fost găsit niciun folder cache.
+No channels could be mapped or import cancelled.: Niciun canal nu a putut fi mapat sau importul nu a putut fi anulat.
 No channels could be mapped. Check your mapping rules.: Niciun canal nu a putut fi mapat. Verificați regulile de cartografiere.
+No channels loaded from JSON URL.: Niciun canal încărcat de la adresa URL JSON.
+No channels loaded from M3U URL.: Niciun canal încărcat de la adresa URL M3U.
+No channels loaded from M3U.: Niciun canal încărcat din M3U.
+No channels loaded.: Niciun canal încărcat.
 No channels mapped: Niciun canal mapat
+No comparison results. Run Compare first.: Nu există rezultate de comparație. Rulați mai întâi Comparați.
 No duplicate URLs found.: Nu s-au găsit adrese URL duplicat.
 No EPG data: Nu există date EPG
 No EPG information available for this channel.: Nu există informații EPG disponibile pentru acest canal.
 No EPG source configured. Please select one from the combo or go to Settings.: Nicio sursă EPG configurată. Selectați unul din combo sau accesați Setări.
 No EPG source configured. Would you like to open settings to select one?: Nicio sursă EPG configurată. Doriți să deschideți setările pentru a selecta una?
 No favorite channels to export.: Nu există canale preferate de exportat.
+No missing channels to export.: Nu lipsesc canale de export.
 No playlist found: Nu a fost găsit nicio listă de redare
+No second playlist loaded.: Nu s-a încărcat un al doilea playlist.
 No updates available.: Nu există actualizări disponibile.
 Normal speed (1x): Viteză normală (1x)
 Not connected to the box.: Nu este conectat la cutie.
@@ -207,6 +247,8 @@ Now: Acum
 OK: Bine
 Online Playlist: Playlist online
 Online playlist – select from GitHub repository (auto‑refresh).: Lista de redare online – selectați din depozitul GitHub (reîmprospătare automată).
+Only in First: Doar în First
+Only in Second: Doar în secunda
 Open File...: Deschideți fișierul...
 Open from URL: Deschideți de la URL
 Open Playlist: Deschide Lista de redare
@@ -214,12 +256,14 @@ Pause/Resume live stream: Întrerupeți/Reluați fluxul live
 Paused: Întrerupt
 PayPal: PayPal
 Picture-in-Picture mode: Modul Picture-in-Picture
-Player Control: Controlul jucătorului
+Player Controls: Comenzile jucătorului
 Playlist & Groups: Playlist și grupuri
+Playlist Comparison: Comparația listelor de redare
 Playlist Editor: Editor de liste de redare
 Playlist Loading: Se încarcă playlist
 Playlist Management: Gestionarea listelor de redare
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Depozitul listelor de redare: OwnerPlugins/TivuStreamList (streamuri italiene și internaționale)
+Playlists loaded: S-au încărcat liste de redare
 Please select a program first.: Vă rugăm să selectați mai întâi un program.
 Preview (first 5 channels): Previzualizare (primele 5 canale)
 Preview error: {0}: Eroare de previzualizare: {0}
@@ -235,8 +279,10 @@ Refresh List: Actualizează lista
 Reload GUI: Reîncărcați GUI
 Remove Command: Eliminați comanda
 Rename Group: Redenumiți grupul
+Rename group '{0}' to:: Redenumiți grupul „{0}” în:
 Repository: Repertoriu
 Reset Order: Resetați comanda
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Rezultate: „Numai în primul”, „Numai în al doilea”, „În ambele” – cu codare de culoare a stării.
 Save: Salva
 SAVE: SALVA
 Save – persists all settings without reloading current playlist.: Salvare – păstrează toate setările fără a reîncărca lista de redare curentă.
@@ -249,6 +295,7 @@ Saved: Salvat
 Search channel: : Cauta canal:
 Search channels by name: Căutați canale după nume
 Search channels...: Caută canale...
+sec: sec
 Select a playlist first.: Selectați mai întâi o listă de redare.
 Select Theme: Selectați Tema
 Selected theme is saved and applied on restart.: Tema selectată este salvată și aplicată la repornire.
@@ -271,8 +318,11 @@ Support the developer: Sprijiniți dezvoltatorul
 Target Field: Câmpul țintă
 Telnet command:: Comanda Telnet:
 Telnet Commander: Comandant Telnet
+Telnet Config: Configurare Telnet
 Telnet Console: Consola Telnet
-Telnet not configured. Please set it in Settings.: Telnet nu este configurat. Setați-l în Setări.
+Telnet host not configured. Please set it in Settings.: Gazda Telnet nu este configurată. Setați-l în Setări.
+Telnet password is empty. Do you want to continue?: Parola Telnet este goală. Vrei să continui?
+Telnet username not configured. Please set it in Settings.: Numele de utilizator Telnet nu este configurat. Setați-l în Setări.
 Thanks to: Datorită
 Theme picker: Selector de teme
 Theme picker – accessible via Tools menu on main toolbar.: Selector de teme – accesibil prin meniul Instrumente din bara de instrumente principală.
@@ -289,14 +339,18 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Nu se poate găsi versiunea în fișierul de proiect de la distanță.
 Update: Actualizare
 Update complete. Restarting...: Actualizare finalizată. Se repornește...
+Update Error: Eroare de actualizare
 Update failed: : Actualizarea a eșuat:
 Updates: Actualizări
+Upload Error: Eroare de încărcare
 URL: URL
 URL (primary): URL (principal)
 URL Check: Verificare URL
 URL list (one per line): Lista de adrese URL (una pe linie)
 URLs & Status: Adrese URL și stare
 Version: Versiune
+Version {0}.{1}.{2}: Versiunea {0}.{1}.{2}
+Version unknown: Versiune necunoscută
 Waiting for LiveGardenTVPlus to close...: Se așteaptă ca LiveGardenTVPlus să se închidă...
 Warning: Avertizare
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

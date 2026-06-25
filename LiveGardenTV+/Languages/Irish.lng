@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Fillteán taisce: % TEMP% \ LiveGardenTVPlus \ epg_cache)
 (Completely voluntary – no features are blocked): (Go hiomlán deonach - níl aon ghnéithe bacáilte)
 (No description): (Gan tuairisc)
 • Add / rename / delete groups.: • Cuir leis / athainmnigh / scrios grúpaí.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Roimhe seo
 16 colour themes + Light/Dark variants.: 16 théama datha + leagan Solas/Dorcha.
 A new version is available. Do you want to update now?: Tá leagan nua ar fáil. Ar mhaith leat nuashonrú anois?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Rochtain tríd an gcnaipe 'Comparáid' sa roghchlár Eagarthóir Seinmliosta nó Uirlisí.
 Access via 'Edit Playlist' button on main toolbar.: Rochtain tríd an gcnaipe 'Cuir Seinmliosta in Eagar' ar an bpríomhbharra uirlisí.
 Actions: Gníomhartha
 Add Command: Cuir Ordú
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Bouquet seolta agus liosta cain
 Buffer (seconds): Maolán (soicindí)
 Buffer size – adjust HLS buffer seconds.: Méid maoláin – coigeartaigh soicind maolánacha HLS.
 Cache: Taisce
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Fillteán taisce: % TEMP% \ LiveGardenTVPlus \ epg_cache
 Cancel: Cealaigh
 CANCEL: CEAL
+Cannot open browser: Ní féidir brabhsálaí a oscailt
 Category: Catagóir
 Changelog: Loga athrú
 Channel Details: Sonraí Cainéal
 Channel Info: Eolas Cainéal
+Channel Name: Ainm Cainéal
 channels from: cainéil ó
+channels from JSON: cainéil ó JSON
 channels from JSON URL: cainéil ó JSON URL
 channels from URL: cainéil ó URL
 Check Duplicates: Seiceáil Dúblaigh
@@ -57,6 +61,12 @@ Click for details: Cliceáil le haghaidh sonraí
 Close: Dún
 Command name:: Ainm an ordaithe:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Pobal & tástáil: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: Déan comparáid idir
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Déan comparáid le: Tosaíocht (ainm → grúpa → tvg-id), Ainm, Grúpa (cásíogair), nó TvgId.
+Compare Playlists: Déan comparáid idir Seinmliostaí
+Compare two playlists – load first (current playlist) and second (from file or URL).: Déan comparáid idir dhá sheinnliosta - lódáil ar dtús (seinmliosta reatha) agus sa dara háit (ó chomhad nó URL).
+Compare...: Déan comparáid...
+Comparison results: {0} channels: Torthaí comparáide: {0} cainéal
 Configuration Missing: Cumraíocht ar Iarraidh
 Confirm Reload: Deimhnigh Athlódáil
 Connect: Ceangail
@@ -89,6 +99,8 @@ End: Deireadh
 Enrich with EPG: Saibhriú le EPG
 Enter bouquet name (without spaces):: Cuir isteach ainm bouquet (gan spásanna):
 Enter JSON URL:: Cuir isteach URL JSON:
+Enter new group name:: Cuir isteach ainm grúpa nua:
+Enter playlist URL (JSON or M3U):: Cuir isteach URL seinmliosta (JSON nó M3U):
 Enter playlist URL (M3U or JSON):: Cuir isteach URL seinmliosta (M3U nó JSON):
 EPG: EPG
 Epg & Favorites: Epg & Ceanáin
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: Foinse EPG - 
 EPG source – choose XMLTV file or enter custom URL.: Foinse EPG - roghnaigh comhad XMLTV nó cuir isteach URL saincheaptha.
 EPG Source Missing: Foinse EPG ar Iarraidh
 Error: Earráid
-Error clearing cache: Earráid agus taisce á ghlanadh
+Error clearing cache: {0}: Earráid agus taisce á ghlanadh: {0}
 Error loading: Earráid á lódáil
+Error loading EPG list: {0}: Earráid agus an liosta EPG á lódáil: {0}
+Error loading file: {0}: Earráid agus comhad á lódáil: {0}
 Error loading file: {0}: Earráid agus comhad á lódáil: {0}
 Error loading playlists: {0}: Earráid agus seinmliostaí á lódáil: {0}
 Error loading URL: {0}: Earráid agus URL á lódáil: {0}
+Error loading URL: {0}: Earráid agus URL á lódáil: {0}
 ERROR: player.html not found.: EARRÁID: níor aimsíodh player.html.
 Exit: Scoir
+Export: Easpórtáil
+Export all: Easpórtáil go léir
 Export Favorites: Easpórtáil Ceanáin
 Export Filtered JSON: Easpórtáil JSON Scagtha
 Export Filtered M3U: Easpórtáil M3U Scagtha
 Export JSON: Easpórtáil JSON
 Export KO: Easpórtáil KO
+Export missing: Easpórtáil in easnamh
 Export OK: Easpórtáil OK
 Export only favorite channels to a new M3U file: Easpórtáil ach na cainéil is fearr leat chuig comhad M3U nua
+Export results as JSON or M3U – export missing channels or all channels.: Easpórtáil torthaí mar JSON nó M3U - easpórtáil cainéil atá in easnamh nó gach cainéal.
+Exported channels: Cainéil easpórtáilte
 Extracting update...: Nuashonrú á bhaint...
 Failed to download playlist: Theip ar an seinmliosta a íoslódáil
 Failed to load playlist: Theip ar lódáil an seinmliosta
@@ -128,6 +148,7 @@ Fetch Logos: Faigh Lógónna
 File {0} already exists. Overwrite?: Tá comhad {0} ann cheana. Forscríobh?
 File exists: Tá comhad ann
 Filters: Scagairí
+First playlist: {0} channels loaded.: An chéad seinnliosta: {0} cainéal lódáilte.
 Fullscreen (hide UI) - press ESC to exit: Lánscáileán (folaigh Chomhéadain) - brúigh ESC chun imeacht
 Geo & Country: Geo & Tír
 GeoBlocked: Geobhlocáilte
@@ -140,19 +161,23 @@ Hide List: Folaigh Liosta
 HLS playback: hls.js (MIT license): Athsheinm HLS: hls.js (ceadúnas MIT)
 Image: Íomhá
 Import: Iompórtáil
+Import cancelled or no channels mapped.: Cealaíodh an iompórtáil nó níor léarscáilíodh cainéil ar bith.
 Import error: {0}: Earráid iompórtála: {0}
 Import from URL: Iompórtáil ó URL
 Import JSON: Iompórtáil JSON
 Import JSON from URL: Iompórtáil JSON ón URL
 Import Local: Iompórtáil Áitiúil
-Imported {0} channels from JSON.: Iompórtáladh {0} cainéal ó JSON.
+Imported {0} channels from JSON via mapping.: Iompórtáladh {0} cainéal ó JSON trí mhapáil.
 Imported {0} channels from URL.: Iompórtáladh {0} cainéal ó URL.
+In Both: Sa Dá
 Info: Eolas
 Info on: Eolas ar
 Invalid JSON: {0}: JSON neamhbhailí: {0}
 Invalid playlist URL.: URL seinmliosta neamhbhailí.
 Invalid URL.: URL neamhbhailí.
 Json: Seosamh
+JSON files|*.json|M3U files|*.m3u: Comhaid JSON|*.json|Comhaid M3U|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Comhaid JSON|*.json|Comhaid M3U|*.m3u;*.m3u8|Gach comhad|*.*
 JSON Property: Maoin JSON
 Ko-fi: Caife
 Language: Teanga
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Teangacha
 Languages (comma): Teangacha (camóg)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Cabhair le Lululla
+LiveGardenTVPlus Help: Cabhair LiveGardenTVPlus
 LOAD: Ualach
 Load a playlist first.: Íosluchtaigh playlist ar dtús.
+Load a second playlist first.: Íoslódáil an dara seinmliosta ar dtús.
 Load File: Luchtaigh Comhad
+Load from file...: Luchtaigh ó chomhad...
+Load from URL: Luchtaigh ó URL
+Load from URL...: Luchtaigh ó URL...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Luchtaigh comhad áitiúil M3U/JSON - tríd an gcnaipe 'Luchtaigh Comhad' (barra uirlisí) nó 'Oscail Comhad' san eagarthóir.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Lódáil URL M3U/JSON ar líne - cnaipe 'Luchtaigh Ar Líne' (barra uirlisí) nó 'Oscail ón URL' san eagarthóir.
 Load playlist file (M3U/JSON) from your computer: Luchtaigh comhad seinmliosta (M3U/JSON) ó do ríomhaire
 Loaded: Luchtaithe
+Loaded {0} channels from JSON file via mapping.: Lódáilte {0} cainéal ó chomhad JSON trí mhapáil.
 Loaded {0} channels from JSON file.: Lódáilte {0} cainéal ó chomhad JSON.
 Loaded {0} channels from JSON URL.: Lódáilte {0} cainéal ó JSON URL.
 Loaded {0} channels from M3U file.: Lódáilte {0} cainéal ó chomhad M3U.
@@ -193,15 +223,23 @@ Next: Ar aghaidh
 Next ▶: Ar aghaidh ▶
 No .m3u files found on GitHub repository.: Níor aimsíodh aon chomhaid .m3u ar stór GitHub.
 No cache folder found.: Níor aimsíodh aon fhillteán taisce.
+No channels could be mapped or import cancelled.: Níorbh fhéidir aon chainéil a mhapáil ná iompórtáil a chealú.
 No channels could be mapped. Check your mapping rules.: Níorbh fhéidir aon chainéil a mhapáil. Seiceáil do rialacha mapála.
+No channels loaded from JSON URL.: Níor lódaíodh aon chainéil ó URL JSON.
+No channels loaded from M3U URL.: Níor luchtaíodh aon chainéil ó URL M3U.
+No channels loaded from M3U.: Níor luchtaíodh aon chainéil ó M3U.
+No channels loaded.: Níor luchtaíodh aon chainéil.
 No channels mapped: Níl aon chainéil mapáilte
+No comparison results. Run Compare first.: Gan torthaí comparáide. Rith Déan comparáid idir ar dtús.
 No duplicate URLs found.: Níor aimsíodh URLanna dúblacha.
 No EPG data: Gan sonraí EPG
 No EPG information available for this channel.: Níl aon fhaisnéis EPG ar fáil don chainéal seo.
 No EPG source configured. Please select one from the combo or go to Settings.: Níl aon fhoinse EPG cumraithe. Roghnaigh ceann ón teaglama nó téigh go Socruithe.
 No EPG source configured. Would you like to open settings to select one?: Níl aon fhoinse EPG cumraithe. Ar mhaith leat socruithe a oscailt chun ceann a roghnú?
 No favorite channels to export.: Níl aon chainéil is fearr leat le heaspórtáil.
+No missing channels to export.: Níl aon chainéil in easnamh le heaspórtáil.
 No playlist found: Níor aimsíodh aon seinnliosta
+No second playlist loaded.: Níor lódaíodh an dara seinmliosta.
 No updates available.: Níl aon nuashonruithe ar fáil.
 Normal speed (1x): Gnáthluas (1x)
 Not connected to the box.: Gan ceangailte leis an mbosca.
@@ -209,6 +247,8 @@ Now: Anois
 OK: ceart go leor
 Online Playlist: Seinmliosta Ar Líne
 Online playlist – select from GitHub repository (auto‑refresh).: Seinmliosta ar líne - roghnaigh ó stór GitHub (uath-athnuachan).
+Only in First: Amháin i Chéad
+Only in Second: Amháin sa Dara
 Open File...: Oscail Comhad...
 Open from URL: Oscail ó URL
 Open Playlist: Oscail Seinmliosta
@@ -216,12 +256,14 @@ Pause/Resume live stream: Cuir ar sos/atosú sruth beo
 Paused: Sos
 PayPal: PayPal
 Picture-in-Picture mode: Mód Pictiúr-i-Phictiúr
-Player Control: Rialú Imreoir
+Player Controls: Rialuithe Imreoir
 Playlist & Groups: Seinmliosta & Grúpaí
+Playlist Comparison: Comparáid Seinmliosta
 Playlist Editor: Eagarthóir playlist
 Playlist Loading: Seinmliosta á Luchtú
 Playlist Management: Bainistíocht Seinmliosta
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Stór seinmliosta: OwnerPlugins/TivuStreamList (sruthanna Iodáilis & idirnáisiúnta)
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Stór seinmliosta: OwnerPlugins/TivuStreamList (sruthanna Iodáilise & idirnáisiúnta)
+Playlists loaded: Seinmliostaí luchtaithe
 Please select a program first.: Roghnaigh clár ar dtús.
 Preview (first 5 channels): Réamhamharc (an chéad 5 chainéal)
 Preview error: {0}: Earráid réamhamhairc: {0}
@@ -237,8 +279,10 @@ Refresh List: Liosta Athnuaigh
 Reload GUI: Athlódáil GUI
 Remove Command: Bain Ordú
 Rename Group: Athainmnigh an Grúpa
+Rename group '{0}' to:: Athainmnigh an grúpa '{0}' go:
 Repository: Stór
 Reset Order: Ordú Athshocraigh
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Torthaí: 'Ar Thús Áite Amháin', 'Sa Dara Amháin', 'Sa Dá' – le dathchódú stádais.
 Save: Sábháil
 SAVE: SAVE
 Save – persists all settings without reloading current playlist.: Sábháil - leanann gach socrú gan athlódáil an seinmliosta reatha.
@@ -251,6 +295,7 @@ Saved: Shábháil
 Search channel: : Cuardach cainéal:
 Search channels by name: Cuardaigh cainéil de réir ainm
 Search channels...: Cuardach cainéil...
+sec: soic
 Select a playlist first.: Roghnaigh seinmliosta ar dtús.
 Select Theme: Roghnaigh Téama
 Selected theme is saved and applied on restart.: Sábháiltear an téama roghnaithe agus cuirtear i bhfeidhm é ar atosú.
@@ -273,6 +318,7 @@ Support the developer: Tacaigh leis an bhforbróir
 Target Field: Réimse Sprioc
 Telnet command:: Ordú Telnet:
 Telnet Commander: Cluiche Ceannasaí Telnet
+Telnet Config: Cumraíocht Telnet
 Telnet Console: Consól Telnet
 Telnet host not configured. Please set it in Settings.: Níl an t-óstach Telnet cumraithe. Socraigh é i Socruithe.
 Telnet password is empty. Do you want to continue?: Tá pasfhocal Telnet folamh. Ar mhaith leat leanúint ar aghaidh?
@@ -303,6 +349,8 @@ URL Check: Seiceáil URL
 URL list (one per line): Liosta URL (ceann in aghaidh an líne)
 URLs & Status: URLanna & Stádas
 Version: Leagan
+Version {0}.{1}.{2}: Leagan {0}.{1}.{2}
+Version unknown: Leagan anaithnid
 Waiting for LiveGardenTVPlus to close...: Ag fanacht le LiveGardenTVPlus a dhúnadh...
 Warning: Rabhadh
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

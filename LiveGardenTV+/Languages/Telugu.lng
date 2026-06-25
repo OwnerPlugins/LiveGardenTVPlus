@@ -1,4 +1,3 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (కాష్ ఫోల్డర్: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (పూర్తిగా స్వచ్ఛందంగా - ఏ ఫీచర్లూ బ్లాక్ చేయబడవు)
 (No description): (వివరణ లేదు)
 • Add / rename / delete groups.: • సమూహాలను జోడించండి / పేరు మార్చండి / తొలగించండి.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ మునుపటి
 16 colour themes + Light/Dark variants.: 16 రంగు థీమ్‌లు + లైట్/డార్క్ వేరియంట్‌లు.
 A new version is available. Do you want to update now?: కొత్త వెర్షన్ అందుబాటులో ఉంది. మీరు ఇప్పుడు అప్‌డేట్ చేయాలనుకుంటున్నారా?
+Access via 'Compare' button in Playlist Editor or Tools menu.: ప్లేజాబితా ఎడిటర్ లేదా టూల్స్ మెనులో 'పోల్చండి' బటన్ ద్వారా యాక్సెస్.
 Access via 'Edit Playlist' button on main toolbar.: ప్రధాన టూల్‌బార్‌లోని 'ప్లేజాబితాను సవరించు' బటన్ ద్వారా యాక్సెస్ చేయండి.
 Actions: చర్యలు
 Add Command: కమాండ్ జోడించండి
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: గుత్తి పంపబ
 Buffer (seconds): బఫర్ (సెకన్లు)
 Buffer size – adjust HLS buffer seconds.: బఫర్ పరిమాణం - HLS బఫర్ సెకన్లను సర్దుబాటు చేయండి.
 Cache: కాష్
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: కాష్ ఫోల్డర్: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: రద్దు చేయి
 CANCEL: రద్దు చేయి
+Cannot open browser: బ్రౌజర్‌ని తెరవడం సాధ్యం కాదు
 Category: వర్గం
 Changelog: చేంజ్లాగ్
 Channel Details: ఛానెల్ వివరాలు
 Channel Info: ఛానెల్ సమాచారం
+Channel Name: ఛానెల్ పేరు
 channels from: నుండి ఛానెల్‌లు
+channels from JSON: JSON నుండి ఛానెల్‌లు
 channels from JSON URL: JSON URL నుండి ఛానెల్‌లు
 channels from URL: URL నుండి ఛానెల్‌లు
 Check Duplicates: నకిలీలను తనిఖీ చేయండి
@@ -57,6 +61,13 @@ Click for details: వివరాల కోసం క్లిక్ చేయ�
 Close: మూసివేయి
 Command name:: కమాండ్ పేరు:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: సంఘం & పరీక్ష: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: సరిపోల్చండి
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: దీని ద్వారా సరిపోల్చండి: ప్రాధాన్యత (పేరు→గ్రూప్→tvg-id), పేరు, సమూహం (కేస్-సెన్సిటివ్) లేదా TvgId.
+Compare Playlists: ప్లేజాబితాలను సరిపోల్చండి
+Compare two playlists – load first (current playlist) and second (from file or URL).: రెండు ప్లేజాబితాలను సరిపోల్చండి - మొదటి (ప్రస్తుత ప్లేజాబితా) మరియు రెండవది (ఫైల్ లేదా URL నుండి) లోడ్ చేయండి.
+Compare...: సరిపోల్చండి...
+Comparison results: {0} channels: పోలిక ఫలితాలు: {0} ఛానెల్‌లు
+Configuration Missing: కాన్ఫిగరేషన్ లేదు
 Confirm Reload: రీలోడ్‌ని నిర్ధారించండి
 Connect: కనెక్ట్ చేయండి
 Connected: కనెక్ట్ చేయబడింది
@@ -83,10 +94,13 @@ Edit command name:: కమాండ్ పేరును సవరించం�
 Edit Playlist: ప్లేజాబితాను సవరించండి
 Edit telnet command:: టెల్నెట్ ఆదేశాన్ని సవరించండి:
 Edit URLs: URLలను సవరించండి
+Empty Password: ఖాళీ పాస్‌వర్డ్
 End: ముగింపు
 Enrich with EPG: EPGతో మెరుగుపరచండి
 Enter bouquet name (without spaces):: గుత్తి పేరును నమోదు చేయండి (ఖాళీలు లేకుండా):
 Enter JSON URL:: JSON URLని నమోదు చేయండి:
+Enter new group name:: కొత్త గుంపు పేరును నమోదు చేయండి:
+Enter playlist URL (JSON or M3U):: ప్లేజాబితా URL (JSON లేదా M3U) నమోదు చేయండి:
 Enter playlist URL (M3U or JSON):: ప్లేజాబితా URL (M3U లేదా JSON) నమోదు చేయండి:
 EPG: EPG
 Epg & Favorites: Epg & ఇష్టమైనవి
@@ -101,31 +115,40 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG మూల
 EPG source – choose XMLTV file or enter custom URL.: EPG మూలం – XMLTV ఫైల్‌ని ఎంచుకోండి లేదా అనుకూల URLని నమోదు చేయండి.
 EPG Source Missing: EPG మూలం లేదు
 Error: లోపం
-Error clearing cache: కాష్‌ని క్లియర్ చేయడంలో లోపం ఏర్పడింది
+Error clearing cache: {0}: కాష్ క్లియర్ చేయడంలో లోపం: {0}
 Error loading: లోడ్ చేయడంలో లోపం
+Error loading EPG list: {0}: EPG జాబితాను లోడ్ చేయడంలో లోపం: {0}
+Error loading file: {0}: ఫైల్‌ని లోడ్ చేయడంలో లోపం: {0}
 Error loading file: {0}: ఫైల్‌ని లోడ్ చేయడంలో లోపం: {0}
 Error loading playlists: {0}: ప్లేజాబితాలను లోడ్ చేయడంలో లోపం: {0}
 Error loading URL: {0}: URLని లోడ్ చేయడంలో లోపం: {0}
+Error loading URL: {0}: URLని లోడ్ చేయడంలో లోపం: {0}
 ERROR: player.html not found.: లోపం: player.html కనుగొనబడలేదు.
 Exit: నిష్క్రమించు
+Export: ఎగుమతి చేయండి
+Export all: అన్నింటినీ ఎగుమతి చేయండి
 Export Favorites: ఇష్టమైనవి ఎగుమతి చేయండి
 Export Filtered JSON: ఫిల్టర్ చేసిన JSONని ఎగుమతి చేయండి
 Export Filtered M3U: ఫిల్టర్ చేసిన M3Uని ఎగుమతి చేయండి
 Export JSON: JSONని ఎగుమతి చేయండి
 Export KO: ఎగుమతి KO
+Export missing: ఎగుమతి లేదు
 Export OK: ఎగుమతి సరే
 Export only favorite channels to a new M3U file: కొత్త M3U ఫైల్‌కి ఇష్టమైన ఛానెల్‌లను మాత్రమే ఎగుమతి చేయండి
+Export results as JSON or M3U – export missing channels or all channels.: JSON లేదా M3U వంటి ఫలితాలను ఎగుమతి చేయండి - తప్పిపోయిన ఛానెల్‌లు లేదా అన్ని ఛానెల్‌లను ఎగుమతి చేయండి.
+Exported channels: ఎగుమతి చేయబడిన ఛానెల్‌లు
 Extracting update...: నవీకరణను సంగ్రహిస్తోంది...
 Failed to download playlist: ప్లేజాబితాను డౌన్‌లోడ్ చేయడంలో విఫలమైంది
 Failed to load playlist: ప్లేజాబితాను లోడ్ చేయడంలో విఫలమైంది
-Failed to update bouquets.tv.: bouquets.tvని అప్‌డేట్ చేయడంలో విఫలమైంది.
-Failed to upload bouquet.: పుష్పగుచ్ఛాన్ని అప్‌లోడ్ చేయడంలో విఫలమైంది.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: bouquets.tvని అప్‌డేట్ చేయడంలో విఫలమైంది. దయచేసి Enigma2 పరికరంలో ఫైల్ అనుమతులను తనిఖీ చేయండి.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: పుష్పగుచ్ఛాన్ని అప్‌లోడ్ చేయడంలో విఫలమైంది. దయచేసి మీ టెల్నెట్ సెట్టింగ్‌లను (హోస్ట్, పోర్ట్, వినియోగదారు పేరు, పాస్‌వర్డ్) తనిఖీ చేసి, మళ్లీ ప్రయత్నించండి.
 Favorite: ఇష్టమైనది
 Favorites only: ఇష్టమైనవి మాత్రమే
 Fetch Logos: లోగోలను పొందండి
 File {0} already exists. Overwrite?: ఫైల్ {0} ఇప్పటికే ఉంది. ఓవర్‌రైట్ చేయాలా?
 File exists: ఫైల్ ఉంది
 Filters: ఫిల్టర్లు
+First playlist: {0} channels loaded.: మొదటి ప్లేజాబితా: {0} ఛానెల్‌లు లోడ్ చేయబడ్డాయి.
 Fullscreen (hide UI) - press ESC to exit: పూర్తి స్క్రీన్ (UIని దాచిపెట్టు) - నిష్క్రమించడానికి ESC నొక్కండి
 Geo & Country: జియో & దేశం
 GeoBlocked: జియోబ్లాక్ చేయబడింది
@@ -138,19 +161,23 @@ Hide List: జాబితాను దాచు
 HLS playback: hls.js (MIT license): HLS ప్లేబ్యాక్: hls.js (MIT లైసెన్స్)
 Image: చిత్రం
 Import: దిగుమతి
+Import cancelled or no channels mapped.: దిగుమతి రద్దు చేయబడింది లేదా ఛానెల్‌లు మ్యాప్ చేయబడలేదు.
 Import error: {0}: దిగుమతి లోపం: {0}
 Import from URL: URL నుండి దిగుమతి చేయండి
 Import JSON: JSONని దిగుమతి చేయండి
 Import JSON from URL: URL నుండి JSONని దిగుమతి చేయండి
 Import Local: స్థానికంగా దిగుమతి చేసుకోండి
-Imported {0} channels from JSON.: JSON నుండి {0} ఛానెల్‌లు దిగుమతి చేయబడ్డాయి.
+Imported {0} channels from JSON via mapping.: మ్యాపింగ్ ద్వారా JSON నుండి {0} ఛానెల్‌లు దిగుమతి చేయబడ్డాయి.
 Imported {0} channels from URL.: URL నుండి {0} ఛానెల్‌లు దిగుమతి చేయబడ్డాయి.
+In Both: రెండింటిలోనూ
 Info: సమాచారం
 Info on: సమాచారం
 Invalid JSON: {0}: చెల్లని JSON: {0}
 Invalid playlist URL.: చెల్లని ప్లేజాబితా URL.
 Invalid URL.: చెల్లని URL.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: JSON ఫైల్స్|*.json|M3U ఫైల్స్|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON ఫైల్‌లు|*.json|M3U ఫైల్‌లు|*.m3u;*.m3u8|అన్ని ఫైల్‌లు|*.*
 JSON Property: JSON ఆస్తి
 Ko-fi: కాఫీ
 Language: భాష
@@ -158,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: భాషలు
 Languages (comma): భాషలు (కామా)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: లులుల్లా ద్వారా LiveGardenTVPlus సహాయం
+LiveGardenTVPlus Help: LiveGardenTVPlus సహాయం
 LOAD: లోడ్ చేయండి
 Load a playlist first.: ముందుగా ప్లేజాబితాను లోడ్ చేయండి.
+Load a second playlist first.: ముందుగా రెండవ ప్లేజాబితాను లోడ్ చేయండి.
 Load File: ఫైల్‌ని లోడ్ చేయండి
+Load from file...: ఫైల్ నుండి లోడ్ చేయి...
+Load from URL: URL నుండి లోడ్ చేయండి
+Load from URL...: URL నుండి లోడ్ చేయి...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: ఎడిటర్‌లో 'లోడ్ ఫైల్' బటన్ (టూల్‌బార్) లేదా 'ఓపెన్ ఫైల్' ద్వారా - స్థానిక M3U/JSON ఫైల్‌ని లోడ్ చేయండి.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: ఆన్‌లైన్ M3U/JSON URLని లోడ్ చేయండి – 'ఆన్‌లైన్‌లో లోడ్ చేయి' బటన్ (టూల్‌బార్) లేదా ఎడిటర్‌లో 'URL నుండి తెరవండి'.
 Load playlist file (M3U/JSON) from your computer: మీ కంప్యూటర్ నుండి ప్లేజాబితా ఫైల్ (M3U/JSON) లోడ్ చేయండి
 Loaded: లోడ్ చేయబడింది
+Loaded {0} channels from JSON file via mapping.: మ్యాపింగ్ ద్వారా JSON ఫైల్ నుండి {0} ఛానెల్‌లు లోడ్ చేయబడ్డాయి.
 Loaded {0} channels from JSON file.: JSON ఫైల్ నుండి {0} ఛానెల్‌లు లోడ్ చేయబడ్డాయి.
 Loaded {0} channels from JSON URL.: JSON URL నుండి {0} ఛానెల్‌లు లోడ్ చేయబడ్డాయి.
 Loaded {0} channels from M3U file.: M3U ఫైల్ నుండి {0} ఛానెల్‌లు లోడ్ చేయబడ్డాయి.
@@ -191,15 +223,23 @@ Next: తదుపరి
 Next ▶: తదుపరి ▶
 No .m3u files found on GitHub repository.: GitHub రిపోజిటరీలో .m3u ఫైల్‌లు ఏవీ కనుగొనబడలేదు.
 No cache folder found.: కాష్ ఫోల్డర్ కనుగొనబడలేదు.
+No channels could be mapped or import cancelled.: ఛానెల్‌లు ఏవీ మ్యాప్ చేయబడవు లేదా దిగుమతి రద్దు చేయబడవు.
 No channels could be mapped. Check your mapping rules.: ఛానెల్‌లు ఏవీ మ్యాప్ చేయబడవు. మీ మ్యాపింగ్ నియమాలను తనిఖీ చేయండి.
+No channels loaded from JSON URL.: JSON URL నుండి ఛానెల్‌లు ఏవీ లోడ్ చేయబడలేదు.
+No channels loaded from M3U URL.: M3U URL నుండి ఛానెల్‌లు ఏవీ లోడ్ చేయబడలేదు.
+No channels loaded from M3U.: M3U నుండి ఛానెల్‌లు ఏవీ లోడ్ చేయబడలేదు.
+No channels loaded.: ఛానెల్‌లు ఏవీ లోడ్ చేయబడలేదు.
 No channels mapped: ఛానెల్‌లు ఏవీ మ్యాప్ చేయబడలేదు
+No comparison results. Run Compare first.: పోలిక ఫలితాలు లేవు. ముందుగా సరిపోల్చండి రన్ చేయండి.
 No duplicate URLs found.: నకిలీ URLలు ఏవీ కనుగొనబడలేదు.
 No EPG data: EPG డేటా లేదు
 No EPG information available for this channel.: ఈ ఛానెల్ కోసం EPG సమాచారం అందుబాటులో లేదు.
 No EPG source configured. Please select one from the combo or go to Settings.: EPG సోర్స్ ఏదీ కాన్ఫిగర్ చేయబడలేదు. దయచేసి కాంబో నుండి ఒకదాన్ని ఎంచుకోండి లేదా సెట్టింగ్‌లకు వెళ్లండి.
 No EPG source configured. Would you like to open settings to select one?: EPG సోర్స్ ఏదీ కాన్ఫిగర్ చేయబడలేదు. మీరు ఒకదాన్ని ఎంచుకోవడానికి సెట్టింగ్‌లను తెరవాలనుకుంటున్నారా?
 No favorite channels to export.: ఎగుమతి చేయడానికి ఇష్టమైన ఛానెల్‌లు లేవు.
+No missing channels to export.: ఎగుమతి చేయడానికి ఛానెల్‌లు లేవు.
 No playlist found: ప్లేజాబితా ఏదీ కనుగొనబడలేదు
+No second playlist loaded.: రెండవ ప్లేజాబితా లోడ్ చేయబడలేదు.
 No updates available.: అప్‌డేట్‌లు ఏవీ అందుబాటులో లేవు.
 Normal speed (1x): సాధారణ వేగం (1x)
 Not connected to the box.: పెట్టెకి కనెక్ట్ కాలేదు.
@@ -207,6 +247,8 @@ Now: ఇప్పుడు
 OK: సరే
 Online Playlist: ఆన్‌లైన్ ప్లేజాబితా
 Online playlist – select from GitHub repository (auto‑refresh).: ఆన్‌లైన్ ప్లేజాబితా - GitHub రిపోజిటరీ నుండి ఎంచుకోండి (ఆటో-రిఫ్రెష్).
+Only in First: ఫస్ట్‌లో మాత్రమే
+Only in Second: సెకనులో మాత్రమే
 Open File...: ఫైల్‌ని తెరవండి...
 Open from URL: URL నుండి తెరవండి
 Open Playlist: ప్లేజాబితాను తెరవండి
@@ -214,12 +256,14 @@ Pause/Resume live stream: ప్రత్యక్ష ప్రసారాన�
 Paused: పాజ్ చేయబడింది
 PayPal: పేపాల్
 Picture-in-Picture mode: పిక్చర్-ఇన్-పిక్చర్ మోడ్
-Player Control: ప్లేయర్ కంట్రోల్
+Player Controls: ప్లేయర్ నియంత్రణలు
 Playlist & Groups: ప్లేజాబితా & గుంపులు
+Playlist Comparison: ప్లేజాబితా పోలిక
 Playlist Editor: ప్లేజాబితా ఎడిటర్
 Playlist Loading: ప్లేజాబితా లోడ్ అవుతోంది
 Playlist Management: ప్లేజాబితా నిర్వహణ
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): ప్లేజాబితా రిపోజిటరీ: OwnerPlugins/TivuStreamList (ఇటాలియన్ & అంతర్జాతీయ ప్రసారాలు)
+Playlists loaded: ప్లేజాబితాలు లోడ్ చేయబడ్డాయి
 Please select a program first.: దయచేసి ముందుగా ఒక ప్రోగ్రామ్‌ను ఎంచుకోండి.
 Preview (first 5 channels): ప్రివ్యూ (మొదటి 5 ఛానెల్‌లు)
 Preview error: {0}: ప్రివ్యూ లోపం: {0}
@@ -235,8 +279,10 @@ Refresh List: జాబితాను రిఫ్రెష్ చేయండ�
 Reload GUI: GUIని రీలోడ్ చేయండి
 Remove Command: ఆదేశాన్ని తీసివేయండి
 Rename Group: గ్రూప్ పేరు మార్చండి
+Rename group '{0}' to:: సమూహం '{0}' పేరు మార్చండి:
 Repository: రిపోజిటరీ
 Reset Order: ఆర్డర్‌ని రీసెట్ చేయండి
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: ఫలితాలు: 'ఓన్లీ ఇన్ ఫస్ట్', 'ఓన్లీ ఇన్ సెకండ్', 'రెండూ' - స్టేటస్ కలర్ కోడింగ్‌తో.
 Save: సేవ్ చేయండి
 SAVE: సేవ్ చేయండి
 Save – persists all settings without reloading current playlist.: సేవ్ - ప్రస్తుత ప్లేజాబితాను రీలోడ్ చేయకుండానే అన్ని సెట్టింగ్‌లను కొనసాగించండి.
@@ -249,6 +295,7 @@ Saved: సేవ్ చేయబడింది
 Search channel: : శోధన ఛానెల్:
 Search channels by name: పేరుతో ఛానెల్‌లను శోధించండి
 Search channels...: ఛానెల్‌లను శోధించండి...
+sec: సెకను
 Select a playlist first.: ముందుగా ప్లేజాబితాను ఎంచుకోండి.
 Select Theme: థీమ్‌ని ఎంచుకోండి
 Selected theme is saved and applied on restart.: ఎంచుకున్న థీమ్ సేవ్ చేయబడుతుంది మరియు పునఃప్రారంభించినప్పుడు వర్తించబడుతుంది.
@@ -271,8 +318,11 @@ Support the developer: డెవలపర్‌కు మద్దతు ఇవ�
 Target Field: టార్గెట్ ఫీల్డ్
 Telnet command:: టెల్నెట్ కమాండ్:
 Telnet Commander: టెల్నెట్ కమాండర్
+Telnet Config: టెల్నెట్ కాన్ఫిగర్
 Telnet Console: టెల్నెట్ కన్సోల్
-Telnet not configured. Please set it in Settings.: టెల్నెట్ కాన్ఫిగర్ చేయబడలేదు. దయచేసి దీన్ని సెట్టింగ్‌లలో సెట్ చేయండి.
+Telnet host not configured. Please set it in Settings.: టెల్నెట్ హోస్ట్ కాన్ఫిగర్ చేయబడలేదు. దయచేసి దీన్ని సెట్టింగ్‌లలో సెట్ చేయండి.
+Telnet password is empty. Do you want to continue?: టెల్నెట్ పాస్‌వర్డ్ ఖాళీగా ఉంది. మీరు కొనసాగించాలనుకుంటున్నారా?
+Telnet username not configured. Please set it in Settings.: టెల్నెట్ వినియోగదారు పేరు కాన్ఫిగర్ చేయబడలేదు. దయచేసి దీన్ని సెట్టింగ్‌లలో సెట్ చేయండి.
 Thanks to: ధన్యవాదాలు
 Theme picker: థీమ్ పికర్
 Theme picker – accessible via Tools menu on main toolbar.: థీమ్ పికర్ - ప్రధాన టూల్‌బార్‌లోని టూల్స్ మెను ద్వారా యాక్సెస్ చేయవచ్చు.
@@ -289,14 +339,18 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: రిమోట్ ప్రాజెక్ట్ ఫైల్‌లో సంస్కరణను కనుగొనడం సాధ్యపడలేదు.
 Update: నవీకరించు
 Update complete. Restarting...: నవీకరణ పూర్తయింది. పునఃప్రారంభిస్తోంది...
+Update Error: నవీకరణ లోపం
 Update failed: : నవీకరణ విఫలమైంది:
 Updates: నవీకరణలు
+Upload Error: అప్‌లోడ్ లోపం
 URL: URL
 URL (primary): URL (ప్రాథమిక)
 URL Check: URL తనిఖీ
 URL list (one per line): URL జాబితా (పంక్తికి ఒకటి)
 URLs & Status: URLలు & స్థితి
 Version: వెర్షన్
+Version {0}.{1}.{2}: వెర్షన్ {0}.{1}.{2}
+Version unknown: వెర్షన్ తెలియదు
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus మూసివేయడం కోసం వేచి ఉంది...
 Warning: హెచ్చరిక
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

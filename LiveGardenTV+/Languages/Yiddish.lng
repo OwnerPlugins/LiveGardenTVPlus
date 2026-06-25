@@ -1,4 +1,3 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (קאַש טעקע: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (גאָר וואַלאַנטערי - קיין פֿעיִקייטן זענען אפגעשטעלט)
 (No description): (קיין באַשרייַבונג)
 • Add / rename / delete groups.: • לייג / רענאַמע / ויסמעקן גרופּעס.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ פרייַערדיק
 16 colour themes + Light/Dark variants.: 16 קאָליר טעמעס + ליכט / טונקל וועריאַנץ.
 A new version is available. Do you want to update now?: א נייַע ווערסיע איז בנימצא. צי איר ווילן צו דערהייַנטיקן איצט?
+Access via 'Compare' button in Playlist Editor or Tools menu.: אַקסעס דורך 'פאַרגלייַכן' קנעפּל אין פּלייַליסט עדיטאָר אָדער מכשירים מעניו.
 Access via 'Edit Playlist' button on main toolbar.: אַקסעס דורך 'רעדאַגירן פּלייַליסט' קנעפּל אויף די הויפּט מכשיר.
 Actions: אַקשאַנז
 Add Command: לייג קאַמאַנד
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: בוקיי געשיקט און 
 Buffer (seconds): באַפער (סעקונדן)
 Buffer size – adjust HLS buffer seconds.: באַפער גרייס - סטרויערן HLS באַפער סעקונדעס.
 Cache: קאַש
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: קאַש טעקע: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: באָטל מאַכן
 CANCEL: באָטל מאַכן
+Cannot open browser: קענען ניט עפענען בלעטערער
 Category: קאַטעגאָריע
 Changelog: טשאַנגעלאָג
 Channel Details: קאַנאַל דעטאַילס
 Channel Info: קאַנאַל אינפֿאָרמאַציע
+Channel Name: קאַנאַל נאָמען
 channels from: טשאַנאַלז פון
+channels from JSON: טשאַנאַלז פֿון JSON
 channels from JSON URL: טשאַנאַלז פֿון JSON URL
 channels from URL: טשאַנאַלז פֿון URL
 Check Duplicates: קוק די דופּליקאַטן
@@ -57,6 +61,13 @@ Click for details: דריקט פֿאַר פרטים
 Close: נאָענט
 Command name:: באַפֿעלן נאָמען:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: קהל און טעסטינג: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: פאַרגלייַכן
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: פאַרגלייַכן דורך: בילכערקייַט (נאָמען → גרופּע → tvg-id), נאָמען, גרופע (פאַל-שפּירעוודיק), אָדער TvgId.
+Compare Playlists: פאַרגלייַכן פּלייַליסץ
+Compare two playlists – load first (current playlist) and second (from file or URL).: פאַרגלייַכן צוויי פּלייַליסץ - לאָדן ערשטער (קראַנט פּלייַליסט) און רגע (פֿון טעקע אָדער URL).
+Compare...: פאַרגלייַכן ...
+Comparison results: {0} channels: פאַרגלייַך רעזולטאַטן: {0} טשאַנאַלז
+Configuration Missing: קאָנפיגוראַטיאָן פעלנדיק
 Confirm Reload: באַשטעטיקן רילאָוד
 Connect: פאַרבינדן
 Connected: קאָננעקטעד
@@ -83,10 +94,13 @@ Edit command name:: רעדאַגירן באַפֿעלן נאָמען:
 Edit Playlist: רעדאַגירן פּלייַליסט
 Edit telnet command:: רעדאַגירן טעלנעט באַפֿעל:
 Edit URLs: רעדאַגירן URL ס
+Empty Password: ליידיק שפּריכוואָרט
 End: סוף
 Enrich with EPG: באַרייַכערן מיט EPG
 Enter bouquet name (without spaces):: אַרייַן בוקיי נאָמען (אָן ספּייסאַז):
 Enter JSON URL:: אַרייַן JSON URL:
+Enter new group name:: אַרייַן נייַ גרופּע נאָמען:
+Enter playlist URL (JSON or M3U):: אַרייַן פּלייַליסט URL (JSON אָדער M3U):
 Enter playlist URL (M3U or JSON):: אַרייַן פּלייַליסט URL (M3U אָדער JSON):
 EPG: EPG
 Epg & Favorites: עפּג & פאַוואָריטעס
@@ -101,31 +115,40 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG מקור 
 EPG source – choose XMLTV file or enter custom URL.: EPG מקור - קלייַבן XMLTV טעקע אָדער אַרייַן אַ מנהג URL.
 EPG Source Missing: EPG מקור פעלנדיק
 Error: טעות
-Error clearing cache: טעות אין ויסמעקן קאַש
+Error clearing cache: {0}: פֿעלער קלירינג קאַש: {0}
 Error loading: טעות לאָודינג
+Error loading EPG list: {0}: טעות לאָודינג EPG רשימה: {0}
+Error loading file: {0}: טעות לאָודינג טעקע: {0}
 Error loading file: {0}: טעות לאָודינג טעקע: {0}
 Error loading playlists: {0}: טעות לאָודינג פּלייַליסץ: {0}
 Error loading URL: {0}: טעות לאָודינג URL: {0}
+Error loading URL: {0}: טעות לאָודינג URL: {0}
 ERROR: player.html not found.: טעות: player.html ניט געפֿונען.
 Exit: אַרויסגאַנג
+Export: עקספּאָרט
+Export all: עקספּאָרט אַלע
 Export Favorites: עקספּאָרט פאַוואָריטעס
 Export Filtered JSON: עקספּאָרט פילטערד דזשסאָן
 Export Filtered M3U: עקספּאָרט פילטערד מ3ו
 Export JSON: עקספּאָרט דזשסאָן
 Export KO: עקספּאָרט KO
+Export missing: עקספּאָרט פעלנדיק
 Export OK: עקספּאָרט גוט
 Export only favorite channels to a new M3U file: עקספּאָרט בלויז באַליבסטע טשאַנאַלז צו אַ נייַע M3U טעקע
+Export results as JSON or M3U – export missing channels or all channels.: אַרויספירן רעזולטאַטן ווי JSON אָדער M3U - אַרויספירן פעלנדיק טשאַנאַלז אָדער אַלע טשאַנאַלז.
+Exported channels: עקספּאָרטעד טשאַנאַלז
 Extracting update...: עקסטראַקטינג דערהייַנטיקן ...
 Failed to download playlist: ניט אַנדערש צו אָפּלאָדירן פּלייַליסט
 Failed to load playlist: ניט אַנדערש צו לאָדן פּלייַליסט
-Failed to update bouquets.tv.: ניט אַנדערש צו דערהייַנטיקן bouquets.tv.
-Failed to upload bouquet.: ניט אַנדערש צו צופֿעליקער בוקיי.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: ניט אַנדערש צו דערהייַנטיקן bouquets.tv. ביטע טשעק טעקע פּערמישאַנז אויף די Enigma2 מיטל.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: ניט אַנדערש צו צופֿעליקער בוקיי. ביטע טשעק דיין טעלנעט סעטטינגס (באַלעבאָס, פּאָרט, נאמען, פּאַראָל) און פּרובירן ווידער.
 Favorite: באַליבט
 Favorites only: בלויז פאַוואָריטעס
 Fetch Logos: באַקומען לאָגאָס
 File {0} already exists. Overwrite?: טעקע {0} עקזיסטירט שוין. איבערשרייבן?
 File exists: טעקע יגזיסץ
 Filters: פילטערס
+First playlist: {0} channels loaded.: ערשטער פּלייַליסט: {0} טשאַנאַלז לאָודיד.
 Fullscreen (hide UI) - press ESC to exit: Fullscreen (באַהאַלטן וי) - דריקן ESC צו אַרויסגאַנג
 Geo & Country: געאָ & לאַנד
 GeoBlocked: GeoBlocked
@@ -138,19 +161,23 @@ Hide List: באַהאַלטן רשימה
 HLS playback: hls.js (MIT license): HLS פּלייבאַק: hls.js (MIT דערלויבעניש)
 Image: בילד
 Import: אַרייַנפיר
+Import cancelled or no channels mapped.: אַרייַנפיר קאַנסאַלד אָדער קיין טשאַנאַלז מאַפּט.
 Import error: {0}: אימפארט טעות: {0}
 Import from URL: אַרייַנפיר פֿון URL
 Import JSON: אַרייַנפיר JSON
 Import JSON from URL: אַרייַנפיר JSON פֿון URL
 Import Local: אַרייַנפיר לאקאלע
-Imported {0} channels from JSON.: ימפּאָרטיד {0} טשאַנאַלז פון JSON.
+Imported {0} channels from JSON via mapping.: ימפּאָרטיד {0} טשאַנאַלז פֿון JSON דורך מאַפּינג.
 Imported {0} channels from URL.: ימפּאָרטיד {0} טשאַנאַלז פון URL.
+In Both: אין ביידע
 Info: אינפֿאָרמאַציע
 Info on: אינפֿאָרמאַציע אויף
 Invalid JSON: {0}: אומגילטיק דזשסאָן: {0}
 Invalid playlist URL.: אומגילטיק URL פון פּלייַליסט.
 Invalid URL.: אומגילטיק URL.
 Json: דזשסאָן
+JSON files|*.json|M3U files|*.m3u: JSON טעקעס|*.json|M3U טעקעס|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON טעקעס|*.json|M3U טעקעס|*.m3u;*.m3u8|אַלע טעקעס|*.*
 JSON Property: JSON פאַרמאָג
 Ko-fi: קאַווע
 Language: שפּראַך
@@ -158,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: שפּראַכן
 Languages (comma): שפּראַכן (קאָממאַ)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus הילף דורך Lululla
+LiveGardenTVPlus Help: LiveGardenTVPlus הילף
 LOAD: LOAD
 Load a playlist first.: לאָדן אַ פּלייַליסט ערשטער.
+Load a second playlist first.: ערשטער לאָדן אַ צווייט פּלייַליסט.
 Load File: לאָדן טעקע
+Load from file...: לאָדן פֿון טעקע...
+Load from URL: לאָדן פֿון URL
+Load from URL...: לאָדן פֿון URL...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: לאָדן היגע M3U / JSON טעקע - דורך 'לאָאַד טעקע' קנעפּל (מכשיר) אָדער 'עפֿן טעקע' אין רעדאַקטאָר.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: לאָדן אָנליין M3U/JSON URL - 'לאָאַד אָנליין' קנעפּל (מכשיר) אָדער 'עפֿן פֿון URL' אין רעדאַקטאָר.
 Load playlist file (M3U/JSON) from your computer: לאָדן פּלייַליסט טעקע (M3U/JSON) פֿון דיין קאָמפּיוטער
 Loaded: לאָודיד
+Loaded {0} channels from JSON file via mapping.: לאָודיד {0} טשאַנאַלז פון JSON טעקע דורך מאַפּינג.
 Loaded {0} channels from JSON file.: לאָודיד {0} טשאַנאַלז פון דזשסאָן טעקע.
 Loaded {0} channels from JSON URL.: לאָודיד {0} טשאַנאַלז פֿון JSON URL.
 Loaded {0} channels from M3U file.: לאָודיד {0} טשאַנאַלז פון M3U טעקע.
@@ -191,15 +223,23 @@ Next: ווייַטער
 Next ▶: ווייַטער ▶
 No .m3u files found on GitHub repository.: ניט קיין .מ3ו טעקעס געפֿונען אויף GitHub ריפּאַזאַטאָרי.
 No cache folder found.: קיין קאַש טעקע געפונען.
+No channels could be mapped or import cancelled.: קיין טשאַנאַלז קען זיין מאַפּט אָדער אַרייַנפיר קאַנסאַלד.
 No channels could be mapped. Check your mapping rules.: קיין טשאַנאַלז קען זיין מאַפּט. קוק דיין מאַפּינג כּללים.
+No channels loaded from JSON URL.: קיין טשאַנאַלז לאָודיד פֿון JSON URL.
+No channels loaded from M3U URL.: קיין טשאַנאַלז לאָודיד פֿון M3U URL.
+No channels loaded from M3U.: קיין טשאַנאַלז לאָודיד פֿון M3U.
+No channels loaded.: קיין טשאַנאַלז לאָודיד.
 No channels mapped: קיין טשאַנאַלז מאַפּט
+No comparison results. Run Compare first.: קיין פאַרגלייַך רעזולטאַטן. לויפן Compare ערשטער.
 No duplicate URLs found.: קיין דופּליקאַט URL ס געפֿונען.
 No EPG data: קיין EPG דאַטן
 No EPG information available for this channel.: קיין EPG אינפֿאָרמאַציע בנימצא פֿאַר דעם קאַנאַל.
 No EPG source configured. Please select one from the combo or go to Settings.: קיין EPG מקור קאַנפיגיערד. ביטע אויסקלייַבן איינער פון די קאָמבאָ אָדער גיין צו סעטטינגס.
 No EPG source configured. Would you like to open settings to select one?: קיין EPG מקור קאַנפיגיערד. וואָלט איר ווי צו עפענען סעטטינגס צו אויסקלייַבן איינער?
 No favorite channels to export.: ניט קיין באַליבסטע טשאַנאַלז צו אַרויספירן.
+No missing channels to export.: קיין פעלנדיק טשאַנאַלז צו אַרויספירן.
 No playlist found: קיין פּלייַליסט געפונען
+No second playlist loaded.: קיין צווייטע פּלייַליסט לאָודיד.
 No updates available.: קיין דערהייַנטיקונגען בנימצא.
 Normal speed (1x): נאָרמאַל גיכקייַט (1x)
 Not connected to the box.: ניט קאָננעקטעד צו די קעסטל.
@@ -207,6 +247,8 @@ Now: איצט
 OK: גוט
 Online Playlist: אָנליין פּלייַליסט
 Online playlist – select from GitHub repository (auto‑refresh).: אָנליין פּלייַליסט - סעלעקטירן פון GitHub ריפּאַזאַטאָרי (אַוטאָ-דערפרישן).
+Only in First: בלויז אין ערשטער
+Only in Second: בלויז אין צווייטן
 Open File...: עפֿענען טעקע...
 Open from URL: עפֿענען פֿון URL
 Open Playlist: עפֿן פּלייַליסט
@@ -214,12 +256,14 @@ Pause/Resume live stream: פּויזע / נעמענ זיכ ווידער לעבן
 Paused: פּאַוזד
 PayPal: PayPal
 Picture-in-Picture mode: בילד-אין-בילד מאָדע
-Player Control: שפּילער קאָנטראָל
+Player Controls: שפּילער קאָנטראָלס
 Playlist & Groups: פּלייַליסט און גרופּעס
+Playlist Comparison: פּלייַליסט פאַרגלייַך
 Playlist Editor: פּלייַליסט עדיטאָר
 Playlist Loading: פּלייַליסט לאָודינג
 Playlist Management: פּלייַליסט מאַנאַגעמענט
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): פּלייַליסט ריפּאַזאַטאָרי: OwnerPlugins / TivuStreamList (איטאַליעניש און אינטערנאַציאָנאַלע סטרימז)
+Playlists loaded: פּלייַליסץ לאָודיד
 Please select a program first.: ביטע אויסקלייַבן אַ פּראָגראַם ערשטער.
 Preview (first 5 channels): פאָרויסיקע ווייַזונג (ערשטער 5 טשאַנאַלז)
 Preview error: {0}: פאָרויסיקע ווייַזונג טעות: {0}
@@ -235,8 +279,10 @@ Refresh List: דערפרישן רשימה
 Reload GUI: רילאָוד GUI
 Remove Command: אַראָפּנעמען קאַמאַנד
 Rename Group: רענאַמע גרופע
+Rename group '{0}' to:: רענאַמע גרופּע '{0}' צו:
 Repository: ריפּאַזאַטאָרי
 Reset Order: באַשטעטיק סדר
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: רעזולטאַטן: 'בלויז אין ערשטער', 'בלויז אין רגע', 'אין ביידע' - מיט סטאַטוס קאָליר קאָודינג.
 Save: היט
 SAVE: SAVE
 Save – persists all settings without reloading current playlist.: היט - בלייַבט אַלע סעטטינגס אָן רילאָודינג די קראַנט פּלייַליסט.
@@ -249,6 +295,7 @@ Saved: געראטעוועט
 Search channel: : זוכן קאַנאַל:
 Search channels by name: זוכן טשאַנאַלז דורך נאָמען
 Search channels...: זוך טשאַנאַלז ...
+sec: סעק
 Select a playlist first.: אויסקלייַבן אַ פּלייַליסט ערשטער.
 Select Theme: אויסקלייַבן טעמע
 Selected theme is saved and applied on restart.: אויסגעקליבן טעמע איז געראטעוועט און געווענדט אויף ריסטאַרט.
@@ -271,8 +318,11 @@ Support the developer: שטיצן די דעוועלאָפּער
 Target Field: ציל פעלד
 Telnet command:: טעלנעט באַפֿעל:
 Telnet Commander: טעלנעט קאַמאַנדער
+Telnet Config: Telnet Config
 Telnet Console: טעלנעט קאַנסאָול
-Telnet not configured. Please set it in Settings.: טעלנעט איז נישט קאַנפיגיערד. ביטע שטעלן עס אין סעטטינגס.
+Telnet host not configured. Please set it in Settings.: טעלנעט באַלעבאָס ניט קאַנפיגיערד. ביטע שטעלן עס אין סעטטינגס.
+Telnet password is empty. Do you want to continue?: טעלנעט פּאַראָל איז ליידיק. צי איר ווילן צו פאָרזעצן?
+Telnet username not configured. Please set it in Settings.: טעלנעט נאמען איז נישט קאַנפיגיערד. ביטע שטעלן עס אין סעטטינגס.
 Thanks to: דאַנק צו
 Theme picker: טעמע פּיקער
 Theme picker – accessible via Tools menu on main toolbar.: טעמע פּיקער - צוטריטלעך דורך מכשירים מעניו אויף די הויפּט מכשיר.
@@ -289,14 +339,18 @@ UI: MaterialDesignThemes.Wpf: וי: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: ניט געקענט געפֿינען ווערסיע אין ווייַט פּרויעקט טעקע.
 Update: דערהייַנטיקן
 Update complete. Restarting...: דערהייַנטיקן גאַנץ. ריסטאַרטינג ...
+Update Error: דערהייַנטיקן טעות
 Update failed: : דערהייַנטיקן ניט אַנדערש:
 Updates: דערהייַנטיקונגען
+Upload Error: צופֿעליקער טעות
 URL: URL
 URL (primary): URL (ערשטיק)
 URL Check: URL טשעק
 URL list (one per line): URL רשימה (איינער פּער שורה)
 URLs & Status: URL ס & סטאַטוס
 Version: ווערסיע
+Version {0}.{1}.{2}: ווערסיע {0}.{1}.{2}
+Version unknown: ווערסיע אומבאַקאַנט
 Waiting for LiveGardenTVPlus to close...: ווארטן פֿאַר LiveGardenTVPlus צו פאַרמאַכן ...
 Warning: ווארענונג
 WebView2: Microsoft Edge WebView2: וועבוויעוו2: Microsoft Edge WebView2

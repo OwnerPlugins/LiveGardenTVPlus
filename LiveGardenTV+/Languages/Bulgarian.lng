@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Папка за кеша: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Напълно доброволно – никакви функции не са блокирани)
 (No description): (Без описание)
 • Add / rename / delete groups.: • Добавяне / преименуване / изтриване на групи.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Предишен
 16 colour themes + Light/Dark variants.: 16 цветови теми + светли/тъмни варианти.
 A new version is available. Do you want to update now?: Налична е нова версия. Искате ли да актуализирате сега?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Достъп чрез бутона „Сравнение“ в редактора на плейлисти или менюто „Инструменти“.
 Access via 'Edit Playlist' button on main toolbar.: Достъп чрез бутона „Редактиране на плейлист“ на главната лента с инструменти.
 Actions: Действия
 Add Command: Добавяне на команда
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Букетът е изпрат�
 Buffer (seconds): Буфер (секунди)
 Buffer size – adjust HLS buffer seconds.: Размер на буфера – настройте HLS буферните секунди.
 Cache: Кеш памет
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Кеш папка: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Отказ
 CANCEL: ОТМЕНЯНЕ
+Cannot open browser: Браузърът не може да се отвори
 Category: Категория
 Changelog: Дневник на промените
 Channel Details: Подробности за канала
 Channel Info: Информация за канала
+Channel Name: Име на канала
 channels from: канали от
+channels from JSON: канали от JSON
 channels from JSON URL: канали от JSON URL
 channels from URL: канали от URL
 Check Duplicates: Проверете дубликати
@@ -57,6 +61,12 @@ Click for details: Кликнете за подробности
 Close: затвори
 Command name:: Име на командата:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Общност и тестване: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: Сравнете
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Сравнете по: Приоритет (име→група→tvg-id), Име, Група (чувствителна към малки и главни букви) или TvgId.
+Compare Playlists: Сравнете плейлисти
+Compare two playlists – load first (current playlist) and second (from file or URL).: Сравнете два плейлиста – заредете първия (текущ плейлист) и втория (от файл или URL).
+Compare...: Сравнете...
+Comparison results: {0} channels: Резултати от сравнението: {0} канала
 Configuration Missing: Липсва конфигурация
 Confirm Reload: Потвърдете презареждане
 Connect: Свържете се
@@ -89,6 +99,8 @@ End: Край
 Enrich with EPG: Обогатете с EPG
 Enter bouquet name (without spaces):: Въведете името на букета (без интервали):
 Enter JSON URL:: Въведете JSON URL:
+Enter new group name:: Въведете ново име на групата:
+Enter playlist URL (JSON or M3U):: Въведете URL адреса на плейлиста (JSON или M3U):
 Enter playlist URL (M3U or JSON):: Въведете URL адреса на плейлиста (M3U или JSON):
 EPG: EPG
 Epg & Favorites: EPG и любими
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG изто�
 EPG source – choose XMLTV file or enter custom URL.: EPG източник – изберете XMLTV файл или въведете потребителски URL.
 EPG Source Missing: Липсва EPG източник
 Error: Грешка
-Error clearing cache: Грешка при изчистване на кеша
+Error clearing cache: {0}: Грешка при изчистване на кеша: {0}
 Error loading: Грешка при зареждане
+Error loading EPG list: {0}: Грешка при зареждането на EPG списъка: {0}
+Error loading file: {0}: Грешка при зареждането на файла: {0}
 Error loading file: {0}: Грешка при зареждането на файла: {0}
 Error loading playlists: {0}: Грешка при зареждане на плейлисти: {0}
 Error loading URL: {0}: Грешка при зареждане на URL: {0}
+Error loading URL: {0}: Грешка при зареждане на URL: {0}
 ERROR: player.html not found.: ГРЕШКА: player.html не е намерен.
 Exit: Изход
+Export: Експортиране
+Export all: Експортирайте всички
 Export Favorites: Експортиране на любими
 Export Filtered JSON: Експортиране на филтриран JSON
 Export Filtered M3U: Експортиране на филтриран M3U
 Export JSON: Експортирайте JSON
 Export KO: Експорт KO
+Export missing: Липсва експорт
 Export OK: Експортиране ОК
 Export only favorite channels to a new M3U file: Експортирайте само любими канали в нов M3U файл
+Export results as JSON or M3U – export missing channels or all channels.: Експортирайте резултатите като JSON или M3U – експортирайте липсващи канали или всички канали.
+Exported channels: Експортирани канали
 Extracting update...: Актуализацията се извлича...
 Failed to download playlist: Неуспешно изтегляне на плейлиста
 Failed to load playlist: Неуспешно зареждане на плейлиста
@@ -128,6 +148,7 @@ Fetch Logos: Извличане на лога
 File {0} already exists. Overwrite?: Файлът {0} вече съществува. Презаписване?
 File exists: Файлът съществува
 Filters: Филтри
+First playlist: {0} channels loaded.: Първи плейлист: {0} заредени канала.
 Fullscreen (hide UI) - press ESC to exit: Цял екран (скриване на потребителския интерфейс) - натиснете ESC за изход
 Geo & Country: География и държава
 GeoBlocked: Геоблокиран
@@ -140,19 +161,23 @@ Hide List: Скриване на списъка
 HLS playback: hls.js (MIT license): Възпроизвеждане на HLS: hls.js (лиценз на MIT)
 Image: Изображение
 Import: Импортиране
+Import cancelled or no channels mapped.: Импортирането е отменено или няма картографирани канали.
 Import error: {0}: Грешка при импортиране: {0}
 Import from URL: Импортиране от URL
 Import JSON: Импортирайте JSON
 Import JSON from URL: Импортирайте JSON от URL
 Import Local: Импортирайте локално
-Imported {0} channels from JSON.: Импортирани са {0} канала от JSON.
+Imported {0} channels from JSON via mapping.: Импортирани са {0} канала от JSON чрез картографиране.
 Imported {0} channels from URL.: Импортирани са {0} канала от URL.
+In Both: И в двете
 Info: Информация
 Info on: Информация за
 Invalid JSON: {0}: Невалиден JSON: {0}
 Invalid playlist URL.: Невалиден URL адрес на плейлиста.
 Invalid URL.: Невалиден URL адрес.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: JSON файлове|*.json|M3U файлове|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON файлове|*.json|M3U файлове|*.m3u;*.m3u8|Всички файлове|*.*
 JSON Property: JSON собственост
 Ko-fi: кафе
 Language: език
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Езици
 Languages (comma): Езици (запетая)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Помощ от Lululla
+LiveGardenTVPlus Help: Помощ за LiveGardenTVPlus
 LOAD: ЗАРЕЖДАНЕ
 Load a playlist first.: Първо заредете плейлист.
+Load a second playlist first.: Първо заредете втори плейлист.
 Load File: Зареждане на файл
+Load from file...: Зареждане от файл...
+Load from URL: Зареждане от URL
+Load from URL...: Зареждане от URL...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Заредете локален M3U/JSON файл – чрез бутона „Зареждане на файл“ (лента с инструменти) или „Отваряне на файл“ в редактора.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Зареждане онлайн M3U/JSON URL – бутон „Зареждане онлайн“ (лента с инструменти) или „Отваряне от URL“ в редактора.
 Load playlist file (M3U/JSON) from your computer: Заредете файл с плейлист (M3U/JSON) от вашия компютър
 Loaded: Заредено
+Loaded {0} channels from JSON file via mapping.: Заредени са {0} канала от JSON файл чрез картографиране.
 Loaded {0} channels from JSON file.: Заредени са {0} канала от JSON файл.
 Loaded {0} channels from JSON URL.: Заредени са {0} канала от JSON URL.
 Loaded {0} channels from M3U file.: Заредени са {0} канала от M3U файл.
@@ -193,15 +223,23 @@ Next: Следваща
 Next ▶: Напред ▶
 No .m3u files found on GitHub repository.: Няма намерени .m3u файлове в хранилището на GitHub.
 No cache folder found.: Не е намерена кеш папка.
+No channels could be mapped or import cancelled.: Няма канали, които могат да бъдат картографирани или импортирани анулирани.
 No channels could be mapped. Check your mapping rules.: Няма канали, които могат да бъдат картографирани. Проверете вашите правила за картографиране.
+No channels loaded from JSON URL.: Няма заредени канали от JSON URL.
+No channels loaded from M3U URL.: Няма заредени канали от M3U URL.
+No channels loaded from M3U.: Няма заредени канали от M3U.
+No channels loaded.: Няма заредени канали.
 No channels mapped: Няма картографирани канали
+No comparison results. Run Compare first.: Няма резултати за сравнение. Първо стартирайте Сравнение.
 No duplicate URLs found.: Няма намерени дублирани URL адреси.
 No EPG data: Няма EPG данни
 No EPG information available for this channel.: Няма налична EPG информация за този канал.
 No EPG source configured. Please select one from the combo or go to Settings.: Няма конфигуриран източник на EPG. Моля, изберете един от комбинацията или отидете в Настройки.
 No EPG source configured. Would you like to open settings to select one?: Няма конфигуриран източник на EPG. Искате ли да отворите настройките, за да изберете един?
 No favorite channels to export.: Няма любими канали за експортиране.
+No missing channels to export.: Няма липсващи канали за експортиране.
 No playlist found: Няма намерен плейлист
+No second playlist loaded.: Няма зареден втори плейлист.
 No updates available.: Няма налични актуализации.
 Normal speed (1x): Нормална скорост (1x)
 Not connected to the box.: Не е свързан с кутията.
@@ -209,6 +247,8 @@ Now: Сега
 OK: добре
 Online Playlist: Онлайн плейлист
 Online playlist – select from GitHub repository (auto‑refresh).: Онлайн плейлист – изберете от хранилището на GitHub (автоматично опресняване).
+Only in First: Само в Първо
+Only in Second: Само във Второ
 Open File...: Отворете файла...
 Open from URL: Отворете от URL
 Open Playlist: Отворете плейлиста
@@ -216,15 +256,17 @@ Pause/Resume live stream: Поставяне на пауза/възобновя�
 Paused: На пауза
 PayPal: PayPal
 Picture-in-Picture mode: Режим Картина в Картина
-Player Control: Контрол на играча
+Player Controls: Контроли на играча
 Playlist & Groups: Плейлист и групи
+Playlist Comparison: Сравнение на плейлисти
 Playlist Editor: Редактор на плейлисти
 Playlist Loading: Плейлистът се зарежда
 Playlist Management: Управление на плейлисти
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Хранилище на плейлисти: OwnerPlugins/TivuStreamList (италиански и международни потоци)
+Playlists loaded: Плейлистите са заредени
 Please select a program first.: Моля, първо изберете програма.
 Preview (first 5 channels): Преглед (първите 5 канала)
-Preview error: {0}: Грешка при визуализацията: {0}
+Preview error: {0}: Грешка при прегледа: {0}
 Program Details: Подробности за програмата
 Ready.: Готови.
 Recent: Скорошни
@@ -237,8 +279,10 @@ Refresh List: Опресняване на списъка
 Reload GUI: Презаредете GUI
 Remove Command: Премахване на командата
 Rename Group: Преименуване на група
+Rename group '{0}' to:: Преименувайте групата „{0}“ на:
 Repository: Хранилище
 Reset Order: Нулиране на поръчката
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Резултати: „Само в първия“, „Само във втория“, „И в двата“ – с цветно кодиране на състоянието.
 Save: Запазване
 SAVE: ЗАПАЗЕТЕ
 Save – persists all settings without reloading current playlist.: Запазване – запазва всички настройки без презареждане на текущия плейлист.
@@ -251,6 +295,7 @@ Saved: Запазено
 Search channel: : Търсене на канал:
 Search channels by name: Търсене на канали по име
 Search channels...: Търсене на канали...
+sec: сек
 Select a playlist first.: Първо изберете плейлист.
 Select Theme: Изберете Тема
 Selected theme is saved and applied on restart.: Избраната тема се запазва и се прилага при рестартиране.
@@ -273,6 +318,7 @@ Support the developer: Подкрепете разработчика
 Target Field: Целево поле
 Telnet command:: Telnet команда:
 Telnet Commander: Telnet Commander
+Telnet Config: Telnet Config
 Telnet Console: Telnet конзола
 Telnet host not configured. Please set it in Settings.: Telnet хостът не е конфигуриран. Моля, задайте го в Настройки.
 Telnet password is empty. Do you want to continue?: Паролата за Telnet е празна. Искате ли да продължите?
@@ -303,6 +349,8 @@ URL Check: URL проверка
 URL list (one per line): Списък с URL адреси (по един на ред)
 URLs & Status: URL адреси и състояние
 Version: Версия
+Version {0}.{1}.{2}: Версия {0}.{1}.{2}
+Version unknown: Неизвестна версия
 Waiting for LiveGardenTVPlus to close...: Изчаква се затваряне на LiveGardenTVPlus...
 Warning: Предупреждение
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

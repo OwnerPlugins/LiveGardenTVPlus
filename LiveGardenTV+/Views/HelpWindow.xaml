@@ -7,7 +7,6 @@
         Background="{DynamicResource WindowBackgroundBrush}"
         Foreground="{DynamicResource ForegroundBrush}"
         WindowStartupLocation="CenterOwner">
-        <!-- ResizeMode="NoResize"> -->
 
     <Window.Resources>
         <Style TargetType="Expander">
@@ -18,18 +17,24 @@
             <Setter Property="Padding" Value="10"/>
         </Style>
     </Window.Resources>
+
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
+
+        <!-- Header -->
         <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
             <material:PackIcon Kind="HelpCircle" Width="32" Height="32" Foreground="{DynamicResource AccentBrush}" Margin="0,0,10,0"/>
             <TextBlock x:Name="TitleText" Text="LiveGardenTVPlus Help" FontSize="24" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" VerticalAlignment="Center"/>
         </StackPanel>
+
+        <!-- Content -->
         <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
             <StackPanel>
+
                 <!-- Playlist Loading -->
                 <Expander x:Name="expPlaylistLoading" IsExpanded="True">
                     <Expander.Header>
@@ -42,12 +47,14 @@
                         <TextBlock x:Name="txtDragDrop" Text="Drag &amp; drop – drop M3U or JSON files directly onto main window." TextWrapping="Wrap" Margin="0,5,0,0"/>
                     </StackPanel>
                 </Expander>
-                <!-- Playlist Editor -->
+
+                <!-- Playlist Editor (con Playlist Comparison INSERITO QUI) -->
                 <Expander x:Name="expEditor">
                     <Expander.Header>
                         <TextBlock x:Name="headerEditor" Text="Playlist Editor" FontWeight="Bold"/>
                     </Expander.Header>
                     <StackPanel Margin="10">
+                        <!-- Testi esistenti -->
                         <TextBlock x:Name="txtEditorAccess" Text="Access via 'Edit Playlist' button on main toolbar." FontWeight="Bold" Margin="0,0,0,5"/>
                         <TextBlock x:Name="txtEditor1" Text="• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites." TextWrapping="Wrap"/>
                         <TextBlock x:Name="txtEditor2" Text="• Add / rename / delete groups." TextWrapping="Wrap"/>
@@ -58,8 +65,15 @@
                         <TextBlock x:Name="txtEditor7" Text="• Enrich with EPG: adds missing tvg-id using fuzzy matching." TextWrapping="Wrap"/>
                         <TextBlock x:Name="txtEditor8" Text="• Sort any column by clicking header; use 'Reset Order' to revert to original order." TextWrapping="Wrap"/>
                         <TextBlock x:Name="txtEditor9" Text="• Edit multiple URLs per channel (popup window)." TextWrapping="Wrap"/>
+
+                        <!-- Playlist Comparison (INSERITO QUI) -->
+                        <TextBlock x:Name="txtCompare1" Text="• Compare two playlists – load first (current playlist) and second (from file or URL)." TextWrapping="Wrap" Margin="0,10,0,0"/>
+                        <TextBlock x:Name="txtCompare2" Text="• Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId." TextWrapping="Wrap"/>
+                        <TextBlock x:Name="txtCompare3" Text="• Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding." TextWrapping="Wrap"/>
+                        <TextBlock x:Name="txtCompare4" Text="• Export results as JSON or M3U – export missing channels or all channels." TextWrapping="Wrap"/>
                     </StackPanel>
                 </Expander>
+
                 <!-- Player Controls -->
                 <Expander x:Name="expPlayerControls">
                     <Expander.Header>
@@ -75,6 +89,7 @@
                         <TextBlock x:Name="txtPlayer7" Text="• EPG info displayed in status bar for current channel." TextWrapping="Wrap"/>
                     </StackPanel>
                 </Expander>
+
                 <!-- EPG & Logos -->
                 <Expander x:Name="expEpgLogos">
                     <Expander.Header>
@@ -87,6 +102,7 @@
                         <TextBlock x:Name="txtEpg4" Text="Logo Picker – in editor, click '...' to choose logo from gallery." TextWrapping="Wrap"/>
                     </StackPanel>
                 </Expander>
+
                 <!-- Settings -->
                 <Expander x:Name="expSettings">
                     <Expander.Header>
@@ -102,6 +118,7 @@
                         <TextBlock x:Name="txtSettings7" Text="Save – persists all settings without reloading current playlist." TextWrapping="Wrap"/>
                     </StackPanel>
                 </Expander>
+
                 <!-- Themes -->
                 <Expander x:Name="expThemes">
                     <Expander.Header>
@@ -113,6 +130,7 @@
                         <TextBlock x:Name="txtThemes3" Text="Selected theme is saved and applied on restart." TextWrapping="Wrap"/>
                     </StackPanel>
                 </Expander>
+
                 <!-- Updates -->
                 <Expander x:Name="expUpdates">
                     <Expander.Header>
@@ -123,6 +141,7 @@
                         <TextBlock x:Name="txtUpdates2" Text="Downloads ZIP, replaces files, restarts app – settings preserved." TextWrapping="Wrap"/>
                     </StackPanel>
                 </Expander>
+
                 <!-- Credits -->
                 <Expander x:Name="expCredits">
                     <Expander.Header>
@@ -139,7 +158,6 @@
                             <TextBlock Text="TVGarden+" FontSize="28" FontWeight="Bold" Margin="0,10,0,0"/>
                             <TextBlock x:Name="VersionText" Text="Version" FontSize="14" Foreground="Gray" HorizontalAlignment="Center"/>
                         </StackPanel>
-                        <!-- Credits on the right -->
                         <StackPanel Grid.Column="1">
                             <TextBlock x:Name="txtCreditsDev" Text="Developer: Lululla" FontWeight="Bold"/>
                             <TextBlock x:Name="txtCreditsPlaylist" Text="Playlist repository: OwnerPlugins/TivuStreamList (Italian &amp; international streams)" TextWrapping="Wrap"/>
@@ -151,13 +169,16 @@
                         </StackPanel>
                     </Grid>
                 </Expander>
+
             </StackPanel>
         </ScrollViewer>
+
         <!-- Bottom buttons -->
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
             <Button x:Name="SupportBtn" Content="Support" Width="80" Height="30" Margin="0,0,10,0" Click="SupportBtn_Click"/>
             <Button x:Name="GitHubHelpBtn" Content="Repository" Width="80" Height="30" Click="GitHubBtn_Click" Margin="0,0,10,0"/>
             <Button x:Name="CloseBtn" Content="Exit" Width="80" Height="30" Margin="0,0,10,0" IsCancel="True" Click="CloseBtn_Click"/>
         </StackPanel>
+
     </Grid>
 </Window>

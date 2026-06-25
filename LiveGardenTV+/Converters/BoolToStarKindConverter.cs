@@ -1,7 +1,7 @@
 ﻿#nullable disable
+using MaterialDesignThemes.Wpf;
 using System.Globalization;
 using System.Windows.Data;
-using MaterialDesignThemes.Wpf;
 
 namespace LiveGardenTVPlus.Converters
 {

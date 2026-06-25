@@ -1,4 +1,3 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Pasgan tasgadan: % TEMP% \ LiveGardenTVPlus \ epg_cache)
 (Completely voluntary – no features are blocked): (Gu tur saor-thoileach - chan eil feartan air am bacadh)
 (No description): (Gun tuairisgeul)
 • Add / rename / delete groups.: • Cuir ris / ath-ainmich / cuir às do bhuidhnean.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Roimhe
 16 colour themes + Light/Dark variants.: 16 cuspairean dath + caochlaidhean aotrom / dorcha.
 A new version is available. Do you want to update now?: Tha dreach ùr ri fhaighinn. A bheil thu airson ùrachadh a-nis?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Ruigsinneachd tro phutan ‘Dèan coimeas’ anns a’ chlàr Deasaiche Liosta-cluiche no Innealan.
 Access via 'Edit Playlist' button on main toolbar.: Ruigsinneachd tro phutan 'Deasaich Liosta-cluiche' air a' phrìomh bhàr-inneal.
 Actions: Gnìomhan
 Add Command: Cuir Command ris
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Bouquet air a chuir agus liosta
 Buffer (seconds): Bufair (diogan)
 Buffer size – adjust HLS buffer seconds.: Meud bufair - atharraich diogan bufair HLS.
 Cache: Tasgadh
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Pasgan tasgadan: % TEMP% \ LiveGardenTVPlus \ epg_cache
 Cancel: Sguir dheth
 CANCEL: A CHUR
+Cannot open browser: Chan urrainn dhuinn am brabhsair fhosgladh
 Category: Roinn-seòrsa
 Changelog: Clàr-atharrachaidh
 Channel Details: Mion-fhiosrachadh sianal
 Channel Info: Fiosrachadh sianal
+Channel Name: Ainm seanail
 channels from: sianalan bho
+channels from JSON: seanalan bho JSON
 channels from JSON URL: seanalan bho URL JSON
 channels from URL: sianalan bho URL
 Check Duplicates: Thoir sùil air Duplicates
@@ -57,6 +61,13 @@ Click for details: Cliog airson mion-fhiosrachadh
 Close: Dùin
 Command name:: Ainm an àithne:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Coimhearsnachd & deuchainn: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: Dèan coimeas
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Dèan coimeas le: Prìomhachas (ainm → buidheann → tvg-id), Ainm, Buidheann (cùis-mhothachail), no TvgId.
+Compare Playlists: Dèan coimeas eadar liostaichean-cluiche
+Compare two playlists – load first (current playlist) and second (from file or URL).: Dèan coimeas eadar dà chlàr-cluiche - luchdaich an toiseach (liosta-cluiche gnàthach) agus an dàrna fear (bho fhaidhle no URL).
+Compare...: Dèan coimeas...
+Comparison results: {0} channels: Toraidhean coimeas: {0} seanalan
+Configuration Missing: Configuration a dhìth
 Confirm Reload: Dearbhaich an ath-luchdachadh
 Connect: Ceangail
 Connected: Ceangailte
@@ -83,10 +94,13 @@ Edit command name:: Deasaich ainm an àithne:
 Edit Playlist: Deasaich Liosta-cluiche
 Edit telnet command:: Deasaich òrdugh telnet:
 Edit URLs: Deasaich URLan
+Empty Password: Facal-faire falamh
 End: Crìochnaich
 Enrich with EPG: Dèan beairteas le EPG
 Enter bouquet name (without spaces):: Cuir a-steach ainm bouquet (gun àitean):
 Enter JSON URL:: Cuir a-steach URL JSON:
+Enter new group name:: Cuir a-steach ainm ùr a’ chuantail:
+Enter playlist URL (JSON or M3U):: Cuir a-steach URL playlist (JSON no M3U):
 Enter playlist URL (M3U or JSON):: Cuir a-steach URL liosta-cluiche (M3U no JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favorites
@@ -101,31 +115,40 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: Stòr EPG - f
 EPG source – choose XMLTV file or enter custom URL.: Stòr EPG - tagh faidhle XMLTV no cuir a-steach URL àbhaisteach.
 EPG Source Missing: Stòr EPG a dhìth
 Error: Mearachd
-Error clearing cache: Thachair mearachd le glanadh tasgadan
+Error clearing cache: {0}: Mearachd a' glanadh an tasgadan: {0}
 Error loading: Thachair mearachd le luchdachadh
+Error loading EPG list: {0}: Mearachd a' luchdadh an liosta EPG: {0}
+Error loading file: {0}: Thachair mearachd le luchdachadh an fhaidhle: {0}
 Error loading file: {0}: Thachair mearachd le luchdachadh an fhaidhle: {0}
 Error loading playlists: {0}: Mearachd a' luchdadh chlàran-cluiche: {0}
 Error loading URL: {0}: Thachair mearachd le luchdachadh an URL: {0}
+Error loading URL: {0}: Thachair mearachd le luchdachadh an URL: {0}
 ERROR: player.html not found.: MEARACHD: player.html cha deach a lorg.
 Exit: Ar-a-mach
+Export: Às-mhalairt
+Export all: Às-mhalairt a h-uile
 Export Favorites: Export Favourites
 Export Filtered JSON: Às-phortaich JSON air a chriathradh
 Export Filtered M3U: Às-mhalairt M3U air a chriathradh
 Export JSON: Às-phortaich JSON
 Export KO: Às-mhalairt KO
+Export missing: Às-mhalairt a dhìth
 Export OK: Às-mhalairt OK
 Export only favorite channels to a new M3U file: Às-mhalairt dìreach na seanalan as fheàrr leat gu faidhle M3U ùr
+Export results as JSON or M3U – export missing channels or all channels.: Às-mhalairt toraidhean mar JSON no M3U - às-mhalairt seanalan a tha a dhìth no a h-uile seanal.
+Exported channels: Sianalan às-mhalairt
 Extracting update...: A’ toirt a-mach ùrachadh...
 Failed to download playlist: Dh'fhàillig luchdadh a-nuas an liosta-cluiche
 Failed to load playlist: Dh'fhàillig luchdadh an liosta-cluiche
-Failed to update bouquets.tv.: Dh'fhàillig ùrachadh bouquets.tv.
-Failed to upload bouquet.: Dh'fhàillig luchdadh suas bouquet.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Dh'fhàillig ùrachadh bouquets.tv. Feuch an toir thu sùil air ceadan faidhle air inneal Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Dh'fhàillig luchdadh suas bouquet. Thoir sùil air na roghainnean Telnet agad (òstair, port, ainm-cleachdaidh, facal-faire) is feuch ris a-rithist.
 Favorite: As fheàrr leotha
 Favorites only: Favourites a-mhàin
 Fetch Logos: Faigh suaicheantasan
 File {0} already exists. Overwrite?: Tha faidhle {0} ann mu thràth. Sgrìobh thairis air?
 File exists: Tha faidhle ann
 Filters: Criathragan
+First playlist: {0} channels loaded.: A' chiad chlàr-cluiche: {0} seanalan air an luchdachadh.
 Fullscreen (hide UI) - press ESC to exit: Làn-sgrìn (falaich UI) - brùth air ESC gus fàgail
 Geo & Country: Geo & Dùthaich
 GeoBlocked: GeoBlocked
@@ -138,19 +161,23 @@ Hide List: Falaich Liosta
 HLS playback: hls.js (MIT license): Ath-chluich HLS: hls.js (cead MIT)
 Image: Dealbh
 Import: Import
+Import cancelled or no channels mapped.: Chaidh an in-mhalairt a chuir dheth no chan eil seanalan air am mapadh.
 Import error: {0}: Mearachd in-mhalairt: {0}
 Import from URL: Ion-phortaich o URL
 Import JSON: Ion-phortaich JSON
 Import JSON from URL: Ion-phortaich JSON bhon URL
 Import Local: Cuir a-steach Ionadail
-Imported {0} channels from JSON.: Chaidh {0} seanail a thoirt a-steach o JSON.
+Imported {0} channels from JSON via mapping.: Chaidh {0} seanalan a thoirt a-steach o JSON tro mhapaichean.
 Imported {0} channels from URL.: Chaidh {0} seanalan a thoirt a-steach o URL.
+In Both: Anns an dà chuid
 Info: Fiosrachadh
 Info on: Fiosrachadh air
 Invalid JSON: {0}: JSON mì-dhligheach: {0}
 Invalid playlist URL.: URL liosta-cluiche mì-dhligheach.
 Invalid URL.: URL mì-dhligheach.
 Json: Seonaidh
+JSON files|*.json|M3U files|*.m3u: Faidhlichean JSON|*.json|Faidhlichean M3U|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Faidhlichean JSON|*.json|Faidhlichean M3U|*.m3u;*.m3u8|A h-uile faidhle|*.*
 JSON Property: JSON Seilbh
 Ko-fi: Cofaidh
 Language: Cànain
@@ -158,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Cànanan
 Languages (comma): Cànanan (coma)
 LINUXSAT-SUPPORT.COM: LINUXSAT-TAIC.COM
-LiveGardenTVPlus Help by Lululla: Taic LiveGardenTVPlus le Lululla
+LiveGardenTVPlus Help: Taic LiveGardenTVPlus
 LOAD: LAOIDH
 Load a playlist first.: Luchdaich a-nuas an clàr-ciùil an toiseach.
+Load a second playlist first.: Luchdaich a-nuas an clàr eile an toiseach.
 Load File: Luchdaich File
+Load from file...: A luchdachadh suas bhon fhaidhle ...
+Load from URL: Luchdaich a-nuas bho URL
+Load from URL...: Luchdaich a-nuas bho URL. .
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Luchdaich faidhle ionadail M3U / JSON - tro phutan 'Luchdaich File' (bàr-inneal) no 'Open File' anns an deasaiche.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Luchdaich URL M3U / JSON air-loidhne - putan 'Load Online' (bàr-inneal) no 'Fosgail bho URL' anns an deasaiche.
 Load playlist file (M3U/JSON) from your computer: Luchdaich faidhle playlist (M3U / JSON) bhon choimpiutair agad
 Loaded: Air a luchdachadh
+Loaded {0} channels from JSON file via mapping.: Chaidh {0} seanalan a luchdachadh o fhaidhle JSON tro mhapaichean.
 Loaded {0} channels from JSON file.: Chaidh {0} seanail a luchdachadh o fhaidhle JSON.
 Loaded {0} channels from JSON URL.: Chaidh {0} seanail a luchdachadh o URL JSON.
 Loaded {0} channels from M3U file.: Chaidh {0} seanalan a luchdachadh o fhaidhle M3U.
@@ -191,15 +223,23 @@ Next: Air adhart
 Next ▶: Air adhart ▶
 No .m3u files found on GitHub repository.: Cha deach faidhlichean .m3u a lorg air stòr GitHub.
 No cache folder found.: Cha deach pasgan tasgadan a lorg.
+No channels could be mapped or import cancelled.: Cha b’ urrainnear seanalan sam bith a mhapadh no in-mhalairt a chuir dheth.
 No channels could be mapped. Check your mapping rules.: Cha b’ urrainnear seanalan sam bith a mhapadh. Thoir sùil air na riaghailtean mapaidh agad.
+No channels loaded from JSON URL.: Cha deach seanalan a luchdachadh o URL JSON.
+No channels loaded from M3U URL.: Cha deach seanalan a luchdachadh bho URL M3U.
+No channels loaded from M3U.: Cha deach seanalan a luchdachadh bho M3U.
+No channels loaded.: Cha deach sianalan a luchdachadh.
 No channels mapped: Chan eil sianalan air am mapadh
+No comparison results. Run Compare first.: Gun thoraidhean coimeas. Ruith Dèan coimeas an toiseach.
 No duplicate URLs found.: Cha deach URLan dùblaichte a lorg.
 No EPG data: Chan eil dàta EPG ann
 No EPG information available for this channel.: Chan eil fiosrachadh EPG ri fhaighinn airson an t-seanail seo.
 No EPG source configured. Please select one from the combo or go to Settings.: Chan eil stòr EPG air a rèiteachadh. Feuch an tagh thu fear bhon chombo no rach gu Settings.
 No EPG source configured. Would you like to open settings to select one?: Chan eil stòr EPG air a rèiteachadh. Am bu toil leat roghainnean fhosgladh gus fear a thaghadh?
 No favorite channels to export.: Chan eil na seanalan as fheàrr leotha airson às-mhalairt.
+No missing channels to export.: Chan eil seanalan a dhìth airson às-mhalairt.
 No playlist found: Cha deach liosta-cluiche a lorg
+No second playlist loaded.: Cha deach an dàrna liosta-cluiche a luchdachadh.
 No updates available.: Chan eil ùrachaidhean ri fhaighinn.
 Normal speed (1x): Astar àbhaisteach (1x)
 Not connected to the box.: Gun cheangal ris a’ bhogsa.
@@ -207,6 +247,8 @@ Now: Nise
 OK: ceart gu leòr
 Online Playlist: Liosta-chluiche air loidhne an
 Online playlist – select from GitHub repository (auto‑refresh).: Liosta-cluiche air-loidhne - tagh bho stòr GitHub (fèin-ùrachadh).
+Only in First: A-mhàin sa chiad àite
+Only in Second: A-mhàin anns an dàrna
 Open File...: Fosgail am faidhle...
 Open from URL: Fosgail bho URL
 Open Playlist: Fosgail an Liosta-cluiche
@@ -214,12 +256,14 @@ Pause/Resume live stream: Stad / Ath-thòisich sruth beò
 Paused: Stad
 PayPal: PayPal
 Picture-in-Picture mode: Modh dealbh-ann-Dealbh
-Player Control: Smachd cluicheadair
+Player Controls: Cluicheadairean smachd
 Playlist & Groups: Liosta-cluiche & Buidhnean
+Playlist Comparison: Coimeas liosta-chluiche
 Playlist Editor: Deasaiche liosta-chluiche
 Playlist Loading: Liosta-chluiche a ' luchdadh
 Playlist Management: Riaghladh liosta-chluiche
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Stòr liosta-cluiche: OwnerPlugins/TivuStreamList (sruthan Eadailteach & eadar-nàiseanta)
+Playlists loaded: Clàran-ciùil air an luchdachadh
 Please select a program first.: Feuch an tagh thu prògram an toiseach.
 Preview (first 5 channels): Ro-shealladh (a’ chiad 5 seanalan)
 Preview error: {0}: Mearachd ro-shealladh: {0}
@@ -235,8 +279,10 @@ Refresh List: Clàr Ath-nuadhachadh
 Reload GUI: GUI a luchdadh a-nuas
 Remove Command: Thoir air falbh Command
 Rename Group: Ath-ainmich Buidheann
+Rename group '{0}' to:: Ath-ainmich am buidheann '{0}' gu:
 Repository: Tasgaidh
 Reset Order: Òrdugh ath-shuidheachadh
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Toraidhean: 'Only in First', 'Only in Second', 'In Both' - le còd dath inbhe.
 Save: Sàbhail
 SAVE: Sàbhaladh
 Save – persists all settings without reloading current playlist.: Sàbhail - leanaidh e a h-uile suidheachadh gun a bhith ag ath-luchdachadh an liosta-cluiche gnàthach.
@@ -249,6 +295,7 @@ Saved: Air a shàbhaladh
 Search channel: : Lorg sianal:
 Search channels by name: Rannsaich sianalan a rèir ainm
 Search channels...: Lorg sianalan...
+sec: diog
 Select a playlist first.: Tagh liosta-cluiche an toiseach.
 Select Theme: Tagh Cuspair
 Selected theme is saved and applied on restart.: Tha an cuspair taghte air a shàbhaladh agus air a chuir an sàs nuair a thèid ath-thòiseachadh.
@@ -271,8 +318,11 @@ Support the developer: Thoir taic don leasaiche
 Target Field: Raon Targaid
 Telnet command:: Òrdugh Telnet:
 Telnet Commander: Comanndair Telnet
+Telnet Config: Config Telnet
 Telnet Console: Console Telnet
-Telnet not configured. Please set it in Settings.: Chan eil Telnet air a rèiteachadh. Feuch an cuir thu e ann an Settings.
+Telnet host not configured. Please set it in Settings.: òstair Telnet nach eil air a rèiteachadh. Feuch an cuir thu e ann an Settings.
+Telnet password is empty. Do you want to continue?: Tha facal-faire Telnet falamh. A bheil thu airson leantainn air adhart?
+Telnet username not configured. Please set it in Settings.: Chan eil ainm-cleachdaiche Telnet air a rèiteachadh. Feuch an cuir thu e ann an Settings.
 Thanks to: Taing do
 Theme picker: Neach-togail cuspair
 Theme picker – accessible via Tools menu on main toolbar.: Neach-togail cuspair - ruigsinneach tro chlàr Innealan air a’ phrìomh bhàr-inneal.
@@ -289,14 +339,18 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Cha b' urrainn dhuinn dreach a lorg ann am faidhle pròiseict iomallach.
 Update: Ùraich
 Update complete. Restarting...: Ùrachadh crìochnaichte. Ag ath-thòiseachadh...
+Update Error: Mearachd ùrachadh
 Update failed: : Dh'fhàillig an t-ùrachadh:
 Updates: Ùrachaidhean
+Upload Error: Mearachd luchdadh suas
 URL: URL
 URL (primary): URL (bun-sgoil)
 URL Check: Sgrùdadh URL
 URL list (one per line): Liosta URL (aon airson gach loidhne)
 URLs & Status: URLan & Inbhe
 Version: Tionndadh
+Version {0}.{1}.{2}: Tionndadh {0}.{1}.{2}
+Version unknown: Tionndadh neo-aithnichte
 Waiting for LiveGardenTVPlus to close...: A’ feitheamh ri LiveGardenTVPlus a dhùnadh...
 Warning: Rabhadh
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

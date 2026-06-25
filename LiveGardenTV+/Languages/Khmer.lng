@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (ថតឃ្លាំងសម្ងាត់៖ %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (ស្ម័គ្រចិត្តទាំងស្រុង - គ្មានលក្ខណៈពិសេសណាមួយត្រូវបានរារាំង)
 (No description): (គ្មានការពិពណ៌នា)
 • Add / rename / delete groups.: • បន្ថែម/ប្តូរឈ្មោះ/លុបក្រុម។
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ មុន។
 16 colour themes + Light/Dark variants.: 16 ពណ៌ស្បែក + វ៉ារ្យ៉ង់ពន្លឺ / ងងឹត។
 A new version is available. Do you want to update now?: កំណែថ្មីអាចរកបាន។ តើអ្នកចង់អាប់ដេតឥឡូវនេះទេ?
+Access via 'Compare' button in Playlist Editor or Tools menu.: ចូលប្រើតាមរយៈប៊ូតុង 'ប្រៀបធៀប' នៅក្នុងកម្មវិធីនិពន្ធបញ្ជីចាក់ ឬម៉ឺនុយឧបករណ៍។
 Access via 'Edit Playlist' button on main toolbar.: ការចូលប្រើតាមរយៈប៊ូតុង 'កែសម្រួលបញ្ជីចាក់' នៅលើរបារឧបករណ៍សំខាន់។
 Actions: សកម្មភាព
 Add Command: បន្ថែមពាក្យបញ្ជា
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: ភួងបានផ្ញើ�
 Buffer (seconds): សតិបណ្ដោះអាសន្ន (វិនាទី)
 Buffer size – adjust HLS buffer seconds.: ទំហំសតិបណ្ដោះអាសន្ន – កែតម្រូវ HLS buffer វិនាទី។
 Cache: ឃ្លាំងសម្ងាត់
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: ថតឃ្លាំងសម្ងាត់៖ %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: បោះបង់
 CANCEL: បោះបង់
+Cannot open browser: មិនអាចបើកកម្មវិធីរុករកបានទេ។
 Category: ប្រភេទ
 Changelog: កំណត់ហេតុផ្លាស់ប្តូរ
 Channel Details: ព័ត៌មានលំអិតរបស់ប៉ុស្តិ៍
 Channel Info: ព័ត៌មានឆានែល
+Channel Name: ឈ្មោះឆានែល
 channels from: ឆានែលពី
+channels from JSON: ឆានែលពី JSON
 channels from JSON URL: ឆានែលពី JSON URL
 channels from URL: ឆានែលពី URL
 Check Duplicates: ពិនិត្យមើលស្ទួន
@@ -57,6 +61,12 @@ Click for details: សូមចុចសម្រាប់ព័ត៌មាន�
 Close: បិទ
 Command name:: ឈ្មោះពាក្យបញ្ជា៖
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: សហគមន៍ និងការធ្វើតេស្ត៖ CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: ប្រៀបធៀប
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: ប្រៀបធៀបដោយ៖ អាទិភាព (ឈ្មោះ → ក្រុម → tvg-id) ឈ្មោះ ក្រុម (ប្រកាន់អក្សរតូចធំ) ឬ TvgId ។
+Compare Playlists: ប្រៀបធៀបបញ្ជីចាក់
+Compare two playlists – load first (current playlist) and second (from file or URL).: ប្រៀបធៀបបញ្ជីចាក់ពីរ – ផ្ទុកដំបូង (បញ្ជីចាក់បច្ចុប្បន្ន) និងទីពីរ (ពីឯកសារ ឬ URL) ។
+Compare...: ប្រៀបធៀប...
+Comparison results: {0} channels: លទ្ធផលប្រៀបធៀប៖ {0} ប៉ុស្តិ៍
 Configuration Missing: បាត់ការកំណត់
 Confirm Reload: បញ្ជាក់ផ្ទុកឡើងវិញ
 Connect: ភ្ជាប់
@@ -89,6 +99,8 @@ End: ចប់
 Enrich with EPG: ពង្រឹងជាមួយ EPG
 Enter bouquet name (without spaces):: បញ្ចូលឈ្មោះភួង (ដោយគ្មានចន្លោះ)៖
 Enter JSON URL:: បញ្ចូល JSON URL៖
+Enter new group name:: បញ្ចូលឈ្មោះក្រុមថ្មី៖
+Enter playlist URL (JSON or M3U):: បញ្ចូល URL បញ្ជីចាក់ (JSON ឬ M3U)៖
 Enter playlist URL (M3U or JSON):: បញ្ចូល URL បញ្ជីចាក់ (M3U ឬ JSON)៖
 EPG: EPG
 Epg & Favorites: Epg & ចំណូលចិត្ត
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: ប្រភ�
 EPG source – choose XMLTV file or enter custom URL.: ប្រភព EPG - ជ្រើសរើសឯកសារ XMLTV ឬបញ្ចូល URL ផ្ទាល់ខ្លួន។
 EPG Source Missing: ប្រភព EPG បាត់
 Error: កំហុស
-Error clearing cache: កំហុសក្នុងការសម្អាតឃ្លាំងសម្ងាត់
+Error clearing cache: {0}: កំហុសក្នុងការសម្អាតឃ្លាំងសម្ងាត់៖ {0}
 Error loading: កំហុសក្នុងការផ្ទុក
+Error loading EPG list: {0}: កំហុសក្នុងការផ្ទុកបញ្ជី EPG៖ {0}
+Error loading file: {0}: កំហុសក្នុងការផ្ទុកឯកសារ៖ {0}
 Error loading file: {0}: កំហុសក្នុងការផ្ទុកឯកសារ៖ {0}
 Error loading playlists: {0}: មាន​បញ្ហា​ក្នុង​ការ​ផ្ទុក​បញ្ជី​ចាក់៖ {0}
 Error loading URL: {0}: កំហុសក្នុងការផ្ទុក URL៖ {0}
+Error loading URL: {0}: កំហុសក្នុងការផ្ទុក URL៖ {0}
 ERROR: player.html not found.: កំហុស៖ player.html រកមិនឃើញទេ។
 Exit: ចេញ
+Export: នាំចេញ
+Export all: នាំចេញទាំងអស់។
 Export Favorites: នាំចេញចំណូលចិត្ត
 Export Filtered JSON: នាំចេញ JSON ដែលបានត្រង
 Export Filtered M3U: នាំចេញ M3U ដែលបានត្រង
 Export JSON: នាំចេញ JSON
 Export KO: នាំចេញ KO
+Export missing: បាត់ការនាំចេញ
 Export OK: នាំចេញយល់ព្រម
 Export only favorite channels to a new M3U file: នាំចេញតែឆានែលដែលចូលចិត្តទៅឯកសារ M3U ថ្មី។
+Export results as JSON or M3U – export missing channels or all channels.: នាំចេញលទ្ធផលជា JSON ឬ M3U – នាំចេញឆានែលដែលបាត់ ឬគ្រប់ប៉ុស្តិ៍ទាំងអស់។
+Exported channels: ឆានែលដែលបាននាំចេញ
 Extracting update...: កំពុងទាញយកបច្ចុប្បន្នភាព...
 Failed to download playlist: បានបរាជ័យក្នុងការទាញយកបញ្ជីចាក់
 Failed to load playlist: បានបរាជ័យក្នុងការផ្ទុកបញ្ជីចាក់
@@ -128,6 +148,7 @@ Fetch Logos: យកឡូហ្គោ
 File {0} already exists. Overwrite?: ឯកសារ {0} មានរួចហើយ។ សរសេរជាន់លើ?
 File exists: មានឯកសារ
 Filters: តម្រង
+First playlist: {0} channels loaded.: បញ្ជីចាក់ដំបូង៖ ប៉ុស្តិ៍ {0} ត្រូវបានផ្ទុក។
 Fullscreen (hide UI) - press ESC to exit: ពេញអេក្រង់ (លាក់ UI) - ចុច ESC ដើម្បីចេញ
 Geo & Country: ភូមិសាស្ត្រ និងប្រទេស
 GeoBlocked: GeoBlocked
@@ -140,19 +161,23 @@ Hide List: លាក់បញ្ជី
 HLS playback: hls.js (MIT license): ការចាក់សារថ្មី HLS៖ hls.js (អាជ្ញាប័ណ្ណ MIT)
 Image: រូបភាព
 Import: នាំចូល
+Import cancelled or no channels mapped.: ការ​នាំចូល​បាន​លុបចោល ឬ​គ្មាន​ឆានែល​ដែល​បាន​គូសវាស។
 Import error: {0}: កំហុសក្នុងការនាំចូល៖ {0}
 Import from URL: នាំចូលពី URL
 Import JSON: នាំចូល JSON
 Import JSON from URL: នាំចូល JSON ពី URL
 Import Local: នាំចូលក្នុងស្រុក
-Imported {0} channels from JSON.: បាន​នាំចូល​ឆានែល {0} ពី JSON ។
+Imported {0} channels from JSON via mapping.: បាននាំចូលឆានែល {0} ពី JSON តាមរយៈការគូសផែនទី។
 Imported {0} channels from URL.: បាន​នាំចូល​ឆានែល {0} ពី URL ។
+In Both: នៅក្នុងទាំងពីរ
 Info: ព័ត៌មាន
 Info on: ព័ត៌មាននៅលើ
 Invalid JSON: {0}: JSON មិនត្រឹមត្រូវ៖ {0}
 Invalid playlist URL.: URL បញ្ជីចាក់មិនត្រឹមត្រូវ។
 Invalid URL.: URL មិនត្រឹមត្រូវ។
 Json: ជេសុន
+JSON files|*.json|M3U files|*.m3u: ឯកសារ JSON|*.json|ឯកសារ M3U|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: ឯកសារ JSON|*.json|M3U files|*.m3u;*.m3u8|ឯកសារទាំងអស់|*.*
 JSON Property: អចលនទ្រព្យ JSON
 Ko-fi: កាហ្វេ
 Language: ភាសា
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: ភាសា
 Languages (comma): ភាសា (សញ្ញាក្បៀស)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus ជំនួយដោយ Lululla
+LiveGardenTVPlus Help: ជំនួយ LiveGardenTVPlus
 LOAD: ផ្ទុក
 Load a playlist first.: ផ្ទុកបញ្ជីចាក់ជាមុនសិន។
+Load a second playlist first.: ផ្ទុកបញ្ជីចាក់ទីពីរជាមុនសិន។
 Load File: ផ្ទុកឯកសារ
+Load from file...: ទាញយកពីឯកសារ...
+Load from URL: ផ្ទុកពី URL
+Load from URL...: ផ្ទុកពី URL...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: ផ្ទុកឯកសារ M3U/JSON មូលដ្ឋាន – តាមរយៈប៊ូតុង 'ផ្ទុកឯកសារ' (របារឧបករណ៍) ឬ 'បើកឯកសារ' នៅក្នុងកម្មវិធីនិពន្ធ។
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: ផ្ទុកលើអ៊ីនធឺណិត M3U/JSON URL – ប៊ូតុង 'ផ្ទុកលើអ៊ីនធឺណិត' (របារឧបករណ៍) ឬ 'បើកពី URL' នៅក្នុងកម្មវិធីនិពន្ធ។
 Load playlist file (M3U/JSON) from your computer: ផ្ទុកឯកសារបញ្ជីចាក់ (M3U/JSON) ពីកុំព្យូទ័ររបស់អ្នក។
 Loaded: ផ្ទុក
+Loaded {0} channels from JSON file via mapping.: បានផ្ទុកឆានែល {0} ពីឯកសារ JSON តាមរយៈការគូសផែនទី។
 Loaded {0} channels from JSON file.: បានផ្ទុកឆានែល {0} ពីឯកសារ JSON ។
 Loaded {0} channels from JSON URL.: បានផ្ទុកឆានែល {0} ពី JSON URL ។
 Loaded {0} channels from M3U file.: បាន​ផ្ទុក​ឆានែល {0} ពី​ឯកសារ M3U។
@@ -193,15 +223,23 @@ Next: បន្ទាប់
 Next ▶: បន្ទាប់ ▶
 No .m3u files found on GitHub repository.: រកមិនឃើញឯកសារ .m3u នៅលើឃ្លាំង GitHub ទេ។
 No cache folder found.: រកមិនឃើញថតឃ្លាំងសម្ងាត់ទេ។
+No channels could be mapped or import cancelled.: គ្មាន​ប៉ុស្តិ៍​ណា​អាច​ត្រូវ​បាន​គូស​ផែនទី ឬ​ការ​នាំ​ចូល​ត្រូវ​បាន​លុប​ចោល​ទេ។
 No channels could be mapped. Check your mapping rules.: គ្មាន​ប៉ុស្តិ៍​អាច​ត្រូវ​បាន​គូស​ផែនទី​ទេ។ ពិនិត្យមើលច្បាប់ផែនទីរបស់អ្នក។
+No channels loaded from JSON URL.: គ្មានឆានែលដែលបានផ្ទុកពី JSON URL ទេ។
+No channels loaded from M3U URL.: គ្មានឆានែលដែលបានផ្ទុកពី M3U URL ទេ។
+No channels loaded from M3U.: គ្មានបណ្តាញដែលបានផ្ទុកពី M3U ទេ។
+No channels loaded.: គ្មាន​ប៉ុស្តិ៍​ត្រូវ​បាន​ផ្ទុក។
 No channels mapped: គ្មាន​ប៉ុស្តិ៍​ត្រូវ​បាន​ធ្វើ​ផែនទី
+No comparison results. Run Compare first.: មិនមានលទ្ធផលប្រៀបធៀបទេ។ ដំណើរការប្រៀបធៀបដំបូង។
 No duplicate URLs found.: រកមិនឃើញ URL ស្ទួនទេ។
 No EPG data: មិនមានទិន្នន័យ EPG ទេ។
 No EPG information available for this channel.: មិនមានព័ត៌មាន EPG សម្រាប់ឆានែលនេះទេ។
 No EPG source configured. Please select one from the combo or go to Settings.: មិនមានប្រភព EPG ត្រូវបានកំណត់រចនាសម្ព័ន្ធទេ។ សូមជ្រើសរើសមួយពីបន្សំ ឬចូលទៅកាន់ការកំណត់។
 No EPG source configured. Would you like to open settings to select one?: មិនមានប្រភព EPG ត្រូវបានកំណត់រចនាសម្ព័ន្ធទេ។ តើអ្នកចង់បើកការកំណត់ដើម្បីជ្រើសរើសមួយទេ?
 No favorite channels to export.: គ្មានបណ្តាញដែលចូលចិត្តដើម្បីនាំចេញទេ។
+No missing channels to export.: មិនមានឆានែលដែលត្រូវនាំចេញទេ។
 No playlist found: រកមិនឃើញបញ្ជីចាក់ទេ។
+No second playlist loaded.: គ្មាន​បញ្ជី​ចាក់​ទីពីរ​ត្រូវ​បាន​ផ្ទុក។
 No updates available.: មិនមានការអាប់ដេតទេ។
 Normal speed (1x): ល្បឿនធម្មតា (1x)
 Not connected to the box.: មិនបានភ្ជាប់ទៅប្រអប់។
@@ -209,6 +247,8 @@ Now: ឥឡូវនេះ
 OK: យល់ព្រម
 Online Playlist: បញ្ជីចាក់តាមអ៊ីនធឺណិត
 Online playlist – select from GitHub repository (auto‑refresh).: បញ្ជីចាក់តាមអ៊ីនធឺណិត - ជ្រើសរើសពីឃ្លាំង GitHub (ធ្វើឱ្យស្រស់ដោយស្វ័យប្រវត្តិ)។
+Only in First: មានតែនៅក្នុង First
+Only in Second: មានតែនៅក្នុងទីពីរប៉ុណ្ណោះ។
 Open File...: បើកឯកសារ...
 Open from URL: បើកពី URL
 Open Playlist: បើកបញ្ជីចាក់
@@ -216,12 +256,14 @@ Pause/Resume live stream: ផ្អាក/បន្តការផ្សាយ�
 Paused: ផ្អាក
 PayPal: PayPal
 Picture-in-Picture mode: របៀបរូបភាពក្នុងរូបភាព
-Player Control: ការគ្រប់គ្រងអ្នកលេង
+Player Controls: ការគ្រប់គ្រងអ្នកលេង
 Playlist & Groups: បញ្ជីចាក់ និងក្រុម
+Playlist Comparison: ការប្រៀបធៀបបញ្ជីចាក់
 Playlist Editor: កម្មវិធីនិពន្ធបញ្ជីចាក់
 Playlist Loading: កំពុងផ្ទុកបញ្ជីចាក់
 Playlist Management: ការគ្រប់គ្រងបញ្ជីចាក់
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): ឃ្លាំងបញ្ជីចាក់៖ OwnerPlugins/TivuStreamList (ស្ទ្រីមអ៊ីតាលី និងអន្តរជាតិ)
+Playlists loaded: បាន​ផ្ទុក​បញ្ជី​ចាក់
 Please select a program first.: សូមជ្រើសរើសកម្មវិធីជាមុនសិន។
 Preview (first 5 channels): មើលជាមុន (5 ប៉ុស្តិ៍ដំបូង)
 Preview error: {0}: កំហុសក្នុងការមើលជាមុន៖ {0}
@@ -237,8 +279,10 @@ Refresh List: ធ្វើឱ្យបញ្ជីឡើងវិញ
 Reload GUI: ផ្ទុក GUI ឡើងវិញ
 Remove Command: លុបពាក្យបញ្ជា
 Rename Group: ប្តូរឈ្មោះក្រុម
+Rename group '{0}' to:: ប្តូរឈ្មោះក្រុម '{0}' ទៅ៖
 Repository: ឃ្លាំង
 Reset Order: កំណត់លំដាប់ឡើងវិញ
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: លទ្ធផល៖ 'តែក្នុងទីមួយ', 'មានតែនៅក្នុងទីពីរ', 'នៅក្នុងទាំងពីរ' ជាមួយនឹងការសរសេរកូដពណ៌ស្ថានភាព។
 Save: រក្សាទុក
 SAVE: រក្សាទុក
 Save – persists all settings without reloading current playlist.: រក្សាទុក - បន្តការកំណត់ទាំងអស់ដោយមិនផ្ទុកបញ្ជីចាក់បច្ចុប្បន្នឡើងវិញ។
@@ -251,6 +295,7 @@ Saved: បានរក្សាទុក
 Search channel: : ឆានែលស្វែងរក៖
 Search channels by name: ស្វែងរកឆានែលតាមឈ្មោះ
 Search channels...: ស្វែងរកប៉ុស្តិ៍...
+sec: វិ
 Select a playlist first.: ជ្រើសរើសបញ្ជីចាក់ជាមុនសិន។
 Select Theme: ជ្រើសរើសប្រធានបទ
 Selected theme is saved and applied on restart.: រចនាប័ទ្មដែលបានជ្រើសរើសត្រូវបានរក្សាទុក និងអនុវត្តនៅពេលចាប់ផ្តើមឡើងវិញ។
@@ -273,6 +318,7 @@ Support the developer: គាំទ្រអ្នកអភិវឌ្ឍន៍
 Target Field: វាលគោលដៅ
 Telnet command:: ពាក្យបញ្ជា Telnet៖
 Telnet Commander: មេបញ្ជាការ Telnet
+Telnet Config: ការកំណត់រចនាសម្ព័ន្ធ Telnet
 Telnet Console: កុងសូល Telnet
 Telnet host not configured. Please set it in Settings.: ម៉ាស៊ីន Telnet មិនត្រូវបានកំណត់រចនាសម្ព័ន្ធទេ។ សូមកំណត់វានៅក្នុងការកំណត់។
 Telnet password is empty. Do you want to continue?: ពាក្យសម្ងាត់ Telnet គឺទទេ។ តើអ្នកចង់បន្តទេ?
@@ -303,6 +349,8 @@ URL Check: ពិនិត្យ URL
 URL list (one per line): បញ្ជី URL (មួយក្នុងមួយជួរ)
 URLs & Status: URLs & ស្ថានភាព
 Version: កំណែ
+Version {0}.{1}.{2}: កំណែ {0}។{1}។{2}
+Version unknown: មិនស្គាល់កំណែ
 Waiting for LiveGardenTVPlus to close...: កំពុងរង់ចាំ LiveGardenTVPlus បិទ...
 Warning: ការព្រមាន
 WebView2: Microsoft Edge WebView2: WebView2៖ Microsoft Edge WebView2

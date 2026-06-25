@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Keş qovluğu: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Tamamilə könüllü – heç bir funksiya bloklanmayıb)
 (No description): (Təsvir yoxdur)
 • Add / rename / delete groups.: • Qruplar əlavə edin / adını dəyişdirin / silin.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Əvvəlki
 16 colour themes + Light/Dark variants.: 16 rəng mövzusu + Açıq/Qaranlıq variantları.
 A new version is available. Do you want to update now?: Yeni versiya mövcuddur. İndi yeniləmək istəyirsiniz?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Pleylist Redaktorunda və ya Alətlər menyusunda "Müqayisə et" düyməsi ilə daxil olun.
 Access via 'Edit Playlist' button on main toolbar.: Əsas alətlər panelində "Pleylistini redaktə et" düyməsi ilə daxil olun.
 Actions: Fəaliyyətlər
 Add Command: Komanda əlavə et
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Buket göndərildi və Enigma2 
 Buffer (seconds): Bufer (saniyələr)
 Buffer size – adjust HLS buffer seconds.: Bufer ölçüsü – HLS bufer saniyələrini tənzimləyin.
 Cache: Keş
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Keş qovluğu: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Ləğv et
 CANCEL: LƏĞV EDİN
+Cannot open browser: Brauzeri açmaq mümkün deyil
 Category: Kateqoriya
 Changelog: Dəyişikliklər jurnalı
 Channel Details: Kanal Detalları
 Channel Info: Kanal Məlumatı
+Channel Name: Kanal Adı
 channels from: -dan kanallar
+channels from JSON: JSON-dan kanallar
 channels from JSON URL: JSON URL-dən kanallar
 channels from URL: URL-dən kanallar
 Check Duplicates: Dublikatları yoxlayın
@@ -57,6 +61,12 @@ Click for details: Ətraflı məlumat üçün klikləyin
 Close: Bağlayın
 Command name:: Komanda adı:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: İcma və sınaq: CorvoBoys (corvoboys.org) və LinuxSat-Support.com
+Compare: Müqayisə et
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Müqayisə edin: Prioritet (ad→qrup→tvg-id), Ad, Qrup (həssas hərf) və ya TvgId.
+Compare Playlists: Pleylistləri müqayisə edin
+Compare two playlists – load first (current playlist) and second (from file or URL).: İki çalğı siyahısını müqayisə edin - birinci (cari pleylist) və ikinci (fayl və ya URL-dən) yükləyin.
+Compare...: Müqayisə et...
+Comparison results: {0} channels: Müqayisə nəticələri: {0} kanal
 Configuration Missing: Konfiqurasiya yoxdur
 Confirm Reload: Yenidən yükləməni təsdiqləyin
 Connect: Qoşun
@@ -89,6 +99,8 @@ End: Son
 Enrich with EPG: EPG ilə zənginləşdirin
 Enter bouquet name (without spaces):: Buket adını daxil edin (boşluq olmadan):
 Enter JSON URL:: JSON URL daxil edin:
+Enter new group name:: Yeni qrup adını daxil edin:
+Enter playlist URL (JSON or M3U):: Pleylist URL-ni daxil edin (JSON və ya M3U):
 Enter playlist URL (M3U or JSON):: Pleylist URL-ni daxil edin (M3U və ya JSON):
 EPG: EPG
 Epg & Favorites: Epg & Sevimlilər
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG mənbəyi
 EPG source – choose XMLTV file or enter custom URL.: EPG mənbəyi – XMLTV faylını seçin və ya fərdi URL daxil edin.
 EPG Source Missing: EPG mənbəyi yoxdur
 Error: Xəta
-Error clearing cache: Keşi təmizləmə xətası
+Error clearing cache: {0}: Keşi təmizləmə xətası: {0}
 Error loading: Yükləmə xətası
+Error loading EPG list: {0}: EPG siyahısını yükləmə xətası: {0}
+Error loading file: {0}: Faylı yükləmə xətası: {0}
 Error loading file: {0}: Faylı yükləmə xətası: {0}
 Error loading playlists: {0}: Pleylistləri yükləmə xətası: {0}
 Error loading URL: {0}: URL yükləmə xətası: {0}
+Error loading URL: {0}: URL yükləmə xətası: {0}
 ERROR: player.html not found.: XƏTA: player.html tapılmadı.
 Exit: Çıx
+Export: İxrac
+Export all: Hamısını ixrac edin
 Export Favorites: Sevimliləri ixrac edin
 Export Filtered JSON: Filtrlənmiş JSON-u ixrac edin
 Export Filtered M3U: Filtrlənmiş M3U-nu ixrac edin
 Export JSON: JSON ixrac edin
 Export KO: İxrac KO
+Export missing: İxrac yoxdur
 Export OK: İxrac OK
 Export only favorite channels to a new M3U file: Yeni M3U faylına yalnız sevimli kanalları ixrac edin
+Export results as JSON or M3U – export missing channels or all channels.: Nəticələri JSON və ya M3U kimi ixrac edin – çatışmayan kanalları və ya bütün kanalları ixrac edin.
+Exported channels: İxrac edilmiş kanallar
 Extracting update...: Güncəlləmə çıxarılır...
 Failed to download playlist: Pleylisti endirmək alınmadı
 Failed to load playlist: Pleylist yükləmək alınmadı
@@ -128,6 +148,7 @@ Fetch Logos: Loqoları gətirin
 File {0} already exists. Overwrite?: {0} faylı artıq mövcuddur. Üstünə yazılsın?
 File exists: Fayl mövcuddur
 Filters: Filtrlər
+First playlist: {0} channels loaded.: İlk pleylist: {0} kanal yükləndi.
 Fullscreen (hide UI) - press ESC to exit: Tam ekran (UI gizlət) - çıxmaq üçün ESC düyməsini basın
 Geo & Country: Coğrafiya və Ölkə
 GeoBlocked: GeoBlocked
@@ -140,19 +161,23 @@ Hide List: Siyahını gizlədin
 HLS playback: hls.js (MIT license): HLS oynatma: hls.js (MIT lisenziyası)
 Image: Şəkil
 Import: İdxal
+Import cancelled or no channels mapped.: İdxal ləğv edildi və ya heç bir kanal göstərilmədi.
 Import error: {0}: Import xətası: {0}
 Import from URL: URL-dən idxal edin
 Import JSON: JSON idxal edin
 Import JSON from URL: URL-dən JSON-u idxal edin
 Import Local: Yerli idxal
-Imported {0} channels from JSON.: JSON-dan {0} kanal import edildi.
+Imported {0} channels from JSON via mapping.: Xəritəçəkmə vasitəsilə JSON-dan {0} kanal idxal edildi.
 Imported {0} channels from URL.: URL-dən {0} kanal import edildi.
+In Both: Hər ikisində
 Info: Məlumat
 Info on: haqqında məlumat
 Invalid JSON: {0}: Yanlış JSON: {0}
 Invalid playlist URL.: Yanlış pleylist URL.
 Invalid URL.: Yanlış URL.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: JSON faylları|*.json|M3U faylları|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON faylları|*.json|M3U faylları|*.m3u;*.m3u8|Bütün fayllar|*.*
 JSON Property: JSON Mülkiyyəti
 Ko-fi: Qəhvə
 Language: Dil
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Dillər
 Languages (comma): Dillər (vergül)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: Lululla tərəfindən LiveGardenTVPlus Yardımı
+LiveGardenTVPlus Help: LiveGardenTVPlus Kömək
 LOAD: YÜKLƏ
 Load a playlist first.: Əvvəlcə pleylist yükləyin.
+Load a second playlist first.: Əvvəlcə ikinci pleylist yükləyin.
 Load File: Faylı yükləyin
+Load from file...: Fayldan yükləyin...
+Load from URL: URL-dən yükləyin
+Load from URL...: URL-dən yükləyin...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Yerli M3U/JSON faylını yükləyin – redaktorda 'Fayl Yüklə' düyməsi (alətlər paneli) və ya 'Faylı Aç' vasitəsilə.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: M3U/JSON URL-ni onlayn yükləyin – “Onlayn yüklə” düyməsi (alətlər paneli) və ya redaktorda “URL-dən aç”.
 Load playlist file (M3U/JSON) from your computer: Pleylist faylını (M3U/JSON) kompüterinizdən yükləyin
 Loaded: Yükləndi
+Loaded {0} channels from JSON file via mapping.: Xəritəçəkmə vasitəsilə JSON faylından {0} kanal yükləndi.
 Loaded {0} channels from JSON file.: JSON faylından {0} kanal yükləndi.
 Loaded {0} channels from JSON URL.: JSON URL-dən {0} kanal yükləndi.
 Loaded {0} channels from M3U file.: M3U faylından {0} kanal yükləndi.
@@ -193,15 +223,23 @@ Next: Sonrakı
 Next ▶: Növbəti ▶
 No .m3u files found on GitHub repository.: GitHub repozitoriyada heç bir .m3u faylı tapılmadı.
 No cache folder found.: Heç bir keş qovluğu tapılmadı.
+No channels could be mapped or import cancelled.: Heç bir kanal xəritələşdirilə və ya idxal ləğv edilə bilməz.
 No channels could be mapped. Check your mapping rules.: Heç bir kanal xəritələşdirilə bilmədi. Xəritəçəkmə qaydalarınızı yoxlayın.
+No channels loaded from JSON URL.: JSON URL-dən heç bir kanal yüklənməyib.
+No channels loaded from M3U URL.: M3U URL-dən heç bir kanal yüklənməmişdir.
+No channels loaded from M3U.: M3U-dan heç bir kanal yüklənməmişdir.
+No channels loaded.: Heç bir kanal yüklənmədi.
 No channels mapped: Heç bir kanal xəritələnməyib
+No comparison results. Run Compare first.: Müqayisə nəticələri yoxdur. Əvvəlcə Müqayisə et.
 No duplicate URLs found.: Heç bir dublikat URL tapılmadı.
 No EPG data: EPG məlumatı yoxdur
 No EPG information available for this channel.: Bu kanal üçün EPG məlumatı yoxdur.
 No EPG source configured. Please select one from the combo or go to Settings.: Heç bir EPG mənbəyi konfiqurasiya edilməmişdir. Kombodan birini seçin və ya Parametrlərə keçin.
 No EPG source configured. Would you like to open settings to select one?: Heç bir EPG mənbəyi konfiqurasiya edilməmişdir. Birini seçmək üçün parametrləri açmaq istərdinizmi?
 No favorite channels to export.: Eksport etmək üçün sevimli kanal yoxdur.
+No missing channels to export.: Eksport üçün çatışmayan kanal yoxdur.
 No playlist found: Heç bir pleylist tapılmadı
+No second playlist loaded.: İkinci pleylist yüklənməyib.
 No updates available.: Heç bir yeniləmə yoxdur.
 Normal speed (1x): Normal sürət (1x)
 Not connected to the box.: Qutuya qoşulmayıb.
@@ -209,6 +247,8 @@ Now: İndi
 OK: OK
 Online Playlist: Onlayn pleylist
 Online playlist – select from GitHub repository (auto‑refresh).: Onlayn pleylist – GitHub deposundan seçin (avtomatik yeniləmə).
+Only in First: Yalnız Birincidə
+Only in Second: Yalnız İkincidə
 Open File...: Faylı açın...
 Open from URL: URL-dən açın
 Open Playlist: Pleylist açın
@@ -216,12 +256,14 @@ Pause/Resume live stream: Canlı yayımı dayandırın/davam edin
 Paused: Fasilə verildi
 PayPal: PayPal
 Picture-in-Picture mode: Şəkil içində şəkil rejimi
-Player Control: Oyunçu Nəzarəti
+Player Controls: Oyunçu Nəzarətləri
 Playlist & Groups: Pleylist və Qruplar
+Playlist Comparison: Pleylist müqayisəsi
 Playlist Editor: Pleylist redaktoru
 Playlist Loading: Pleylist Yüklənir
 Playlist Management: Pleylist İdarəetmə
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Pleylist deposu: OwnerPlugins/TivuStreamList (İtalyan və beynəlxalq axınlar)
+Playlists loaded: Pleylistlər yükləndi
 Please select a program first.: Əvvəlcə proqramı seçin.
 Preview (first 5 channels): Önizləmə (ilk 5 kanal)
 Preview error: {0}: Önizləmə xətası: {0}
@@ -237,8 +279,10 @@ Refresh List: Siyahını yeniləyin
 Reload GUI: GUI-i yenidən yükləyin
 Remove Command: Komandanı silin
 Rename Group: Qrupun adını dəyişdirin
+Rename group '{0}' to:: '{0}' qrupunun adını dəyişdirin:
 Repository: Repozitoriya
 Reset Order: Sifarişi Sıfırlayın
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Nəticələr: 'Yalnız birincidə', 'Yalnız ikincidə', 'Hər ikisində' – status rəng kodlaması ilə.
 Save: Saxla
 SAVE: SAXLA
 Save – persists all settings without reloading current playlist.: Saxla – cari çalğı siyahısını yenidən yükləmədən bütün parametrləri saxlayır.
@@ -251,6 +295,7 @@ Saved: Saxlandı
 Search channel: : Axtarış kanalı:
 Search channels by name: Kanalları adla axtarın
 Search channels...: Kanalları axtarın...
+sec: san
 Select a playlist first.: Əvvəlcə pleylist seçin.
 Select Theme: Mövzu seçin
 Selected theme is saved and applied on restart.: Seçilmiş mövzu saxlanılır və yenidən başladıqda tətbiq edilir.
@@ -273,6 +318,7 @@ Support the developer: Tərtibatçıya dəstək olun
 Target Field: Hədəf Sahəsi
 Telnet command:: Telnet əmri:
 Telnet Commander: Telnet komandiri
+Telnet Config: Telnet konfiqurasiyası
 Telnet Console: Telnet Konsolu
 Telnet host not configured. Please set it in Settings.: Telnet hostu konfiqurasiya olunmayıb. Lütfən, onu Parametrlərdə təyin edin.
 Telnet password is empty. Do you want to continue?: Telnet parolu boşdur. Davam etmək istəyirsiniz?
@@ -303,6 +349,8 @@ URL Check: URL yoxlanışı
 URL list (one per line): URL siyahısı (hər sətirdə bir)
 URLs & Status: URL və Status
 Version: Versiya
+Version {0}.{1}.{2}: Versiya {0}.{1}.{2}
+Version unknown: Versiya naməlum
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus-un bağlanması gözlənilir...
 Warning: Xəbərdarlıq
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

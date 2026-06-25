@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): （缓存文件夹：%TEMP%\\LiveGardenTVPlus\\epg_cache）
 (Completely voluntary – no features are blocked): （完全自愿 - 没有任何功能被阻止）
 (No description): （无描述）
 • Add / rename / delete groups.: • 添加/重命名/删除组。
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ 上一页
 16 colour themes + Light/Dark variants.: 16 种颜色主题 + 浅色/深色变体。
 A new version is available. Do you want to update now?: 有新版本可用。您想现在更新吗？
+Access via 'Compare' button in Playlist Editor or Tools menu.: 通过播放列表编辑器或工具菜单中的“比较”按钮进行访问。
 Access via 'Edit Playlist' button on main toolbar.: 通过主工具栏上的“编辑播放列表”按钮进行访问。
 Actions: 行动
 Add Command: 添加命令
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: 花束已发送，Enigma2 频�
 Buffer (seconds): 缓冲区（秒）
 Buffer size – adjust HLS buffer seconds.: 缓冲区大小 – 调整 HLS 缓冲区秒数。
 Cache: 缓存
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: 缓存文件夹：%TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: 取消
 CANCEL: 取消
+Cannot open browser: 无法打开浏览器
 Category: 类别
 Changelog: 变更日志
 Channel Details: 频道详情
 Channel Info: 频道信息
+Channel Name: 频道名称
 channels from: 频道来自
+channels from JSON: 来自 JSON 的通道
 channels from JSON URL: 来自 JSON URL 的频道
 channels from URL: 来自 URL 的频道
 Check Duplicates: 检查重复项
@@ -57,6 +61,12 @@ Click for details: 点击查看详情
 Close: 关闭
 Command name:: 命令名称：
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: 社区和测试：CorvoBoys (corvoboys.org) 和 LinuxSat-Support.com
+Compare: 比较
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: 比较依据：优先级（名称→组→tvg-id）、名称、组（区分大小写）或 TvgId。
+Compare Playlists: 比较播放列表
+Compare two playlists – load first (current playlist) and second (from file or URL).: 比较两个播放列表 – 加载第一个（当前播放列表）和第二个（从文件或 URL）。
+Compare...: 比较...
+Comparison results: {0} channels: 比较结果：{0} 个通道
 Configuration Missing: 配置缺失
 Confirm Reload: 确认重新加载
 Connect: 连接
@@ -89,6 +99,8 @@ End: 结尾
 Enrich with EPG: 通过 EPG 丰富内容
 Enter bouquet name (without spaces):: 输入花束名称（不含空格）：
 Enter JSON URL:: 输入 JSON 网址：
+Enter new group name:: 输入新组名称：
+Enter playlist URL (JSON or M3U):: 输入播放列表 URL（JSON 或 M3U）：
 Enter playlist URL (M3U or JSON):: 输入播放列表 URL（M3U 或 JSON）：
 EPG: 电子节目指南
 Epg & Favorites: EPG 和收藏夹
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG 源 – �
 EPG source – choose XMLTV file or enter custom URL.: EPG 源 – 选择 XMLTV 文件或输入自定义 URL。
 EPG Source Missing: EPG 源丢失
 Error: 错误
-Error clearing cache: 清除缓存时出错
+Error clearing cache: {0}: 清除缓存时出错：{0}
 Error loading: 加载错误
+Error loading EPG list: {0}: 加载 EPG 列表时出错：{0}
+Error loading file: {0}: 加载文件时出错：{0}
 Error loading file: {0}: 加载文件时出错：{0}
 Error loading playlists: {0}: 加载播放列表时出错：{0}
 Error loading URL: {0}: 加载网址时出错：{0}
+Error loading URL: {0}: 加载网址时出错：{0}
 ERROR: player.html not found.: 错误：找不到player.html。
 Exit: 出口
+Export: 出口
+Export all: 全部导出
 Export Favorites: 导出收藏夹
 Export Filtered JSON: 导出过滤后的 JSON
 Export Filtered M3U: 导出过滤后的 M3U
 Export JSON: 导出 JSON
 Export KO: 出口KO
+Export missing: 导出缺失
 Export OK: 导出确定
 Export only favorite channels to a new M3U file: 仅将喜爱的频道导出到新的 M3U 文件
+Export results as JSON or M3U – export missing channels or all channels.: 将结果导出为 JSON 或 M3U – 导出缺失通道或所有通道。
+Exported channels: 导出渠道
 Extracting update...: 正在提取更新...
 Failed to download playlist: 下载播放列表失败
 Failed to load playlist: 无法加载播放列表
@@ -128,6 +148,7 @@ Fetch Logos: 获取徽标
 File {0} already exists. Overwrite?: 文件 {0} 已存在。覆盖？
 File exists: 文件存在
 Filters: 过滤器
+First playlist: {0} channels loaded.: 第一个播放列表：已加载 {0} 个频道。
 Fullscreen (hide UI) - press ESC to exit: 全屏（隐藏 UI）- 按 ESC 退出
 Geo & Country: 地理和国家
 GeoBlocked: 地理封锁
@@ -140,19 +161,23 @@ Hide List: 隐藏列表
 HLS playback: hls.js (MIT license): HLS 播放：hls.js（MIT 许可证）
 Image: 图像
 Import: 进口
+Import cancelled or no channels mapped.: 导入已取消或未映射通道。
 Import error: {0}: 导入错误：{0}
 Import from URL: 从 URL 导入
 Import JSON: 导入 JSON
 Import JSON from URL: 从 URL 导入 JSON
 Import Local: 导入本地
-Imported {0} channels from JSON.: 已从 JSON 导入 {0} 个频道。
+Imported {0} channels from JSON via mapping.: 通过映射从 JSON 导入了 {0} 个频道。
 Imported {0} channels from URL.: 已从 URL 导入 {0} 个频道。
+In Both: 在两者中
 Info: 信息
 Info on: 信息关于
 Invalid JSON: {0}: JSON 无效：{0}
 Invalid playlist URL.: 播放列表 URL 无效。
 Invalid URL.: 无效网址。
 Json: 杰森
+JSON files|*.json|M3U files|*.m3u: JSON 文件|*.json|M3U 文件|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON 文件|*.json|M3U 文件|*.m3u;*.m3u8|所有文件|*.*
 JSON Property: JSON 属性
 Ko-fi: 咖啡
 Language: 语言
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: 语言
 Languages (comma): 语言（逗号）
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: Lululla 提供的 LiveGardenTVPlus 帮助
+LiveGardenTVPlus Help: LiveGardenTVPlus 帮助
 LOAD: 加载
 Load a playlist first.: 首先加载播放列表。
+Load a second playlist first.: 首先加载第二个播放列表。
 Load File: 加载文件
+Load from file...: 从文件加载...
+Load from URL: 从 URL 加载
+Load from URL...: 从 URL 加载...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: 加载本地 M3U/JSON 文件 - 通过编辑器中的“加载文件”按钮（工具栏）或“打开文件”。
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: 加载在线 M3U/JSON URL – 编辑器中的“加载在线”按钮（工具栏）或“从 URL 打开”。
 Load playlist file (M3U/JSON) from your computer: 从您的计算机加载播放列表文件 (M3U/JSON)
 Loaded: 已加载
+Loaded {0} channels from JSON file via mapping.: 已通过映射从 JSON 文件加载 {0} 个频道。
 Loaded {0} channels from JSON file.: 已从 JSON 文件加载 {0} 个频道。
 Loaded {0} channels from JSON URL.: 已从 JSON URL 加载 {0} 个频道。
 Loaded {0} channels from M3U file.: 已从 M3U 文件加载 {0} 个频道。
@@ -193,15 +223,23 @@ Next: 下一个
 Next ▶: 下一页 ▶
 No .m3u files found on GitHub repository.: 在 GitHub 存储库上找不到 .m3u 文件。
 No cache folder found.: 未找到缓存文件夹。
+No channels could be mapped or import cancelled.: 无法映射任何通道或取消导入。
 No channels could be mapped. Check your mapping rules.: 无法映射任何频道。检查您的映射规则。
+No channels loaded from JSON URL.: 没有从 JSON URL 加载频道。
+No channels loaded from M3U URL.: 没有从 M3U URL 加载频道。
+No channels loaded from M3U.: 没有从 M3U 加载频道。
+No channels loaded.: 未加载频道。
 No channels mapped: 没有映射频道
+No comparison results. Run Compare first.: 没有比较结果。首先运行比较。
 No duplicate URLs found.: 未发现重复的 URL。
 No EPG data: 无 EPG 数据
 No EPG information available for this channel.: 该频道没有可用的 EPG 信息。
 No EPG source configured. Please select one from the combo or go to Settings.: 未配置 EPG 源。请从组合中选择一项或前往“设置”。
 No EPG source configured. Would you like to open settings to select one?: 未配置 EPG 源。您想打开设置来选择一项吗？
 No favorite channels to export.: 没有可导出的喜爱频道。
+No missing channels to export.: 不缺少导出渠道。
 No playlist found: 未找到播放列表
+No second playlist loaded.: 未加载第二个播放列表。
 No updates available.: 没有可用的更新。
 Normal speed (1x): 正常速度 (1x)
 Not connected to the box.: 未连接到盒子。
@@ -209,6 +247,8 @@ Now: 现在
 OK: 好的
 Online Playlist: 在线播放列表
 Online playlist – select from GitHub repository (auto‑refresh).: 在线播放列表 – 从 GitHub 存储库中选择（自动刷新）。
+Only in First: 仅在第一
+Only in Second: 仅在第二个
 Open File...: 打开文件...
 Open from URL: 从网址打开
 Open Playlist: 打开播放列表
@@ -216,12 +256,14 @@ Pause/Resume live stream: 暂停/恢复直播
 Paused: 已暂停
 PayPal: 贝宝
 Picture-in-Picture mode: 画中画模式
-Player Control: 玩家控制
+Player Controls: 播放器控制
 Playlist & Groups: 播放列表和组
+Playlist Comparison: 播放列表比较
 Playlist Editor: 播放列表编辑器
 Playlist Loading: 播放列表加载
 Playlist Management: 播放列表管理
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): 播放列表存储库：OwnerPlugins/TivuStreamList（意大利和国际流）
+Playlists loaded: 播放列表已加载
 Please select a program first.: 请先选择一个程序。
 Preview (first 5 channels): 预览（前 5 个频道）
 Preview error: {0}: 预览错误：{0}
@@ -237,8 +279,10 @@ Refresh List: 刷新列表
 Reload GUI: 重新加载图形用户界面
 Remove Command: 删除命令
 Rename Group: 重命名组
+Rename group '{0}' to:: 将组“{0}”重命名为：
 Repository: 存储库
 Reset Order: 重置订单
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: 结果：“仅在第一个”、“仅在第二个”、“在两个中”——带有状态颜色编码。
 Save: 节省
 SAVE: 节省
 Save – persists all settings without reloading current playlist.: 保存 – 保留所有设置而不重新加载当前播放列表。
@@ -251,6 +295,7 @@ Saved: 已保存
 Search channel: : 搜索频道：
 Search channels by name: 按名称搜索频道
 Search channels...: 搜索频道...
+sec: 秒
 Select a playlist first.: 首先选择一个播放列表。
 Select Theme: 选择主题
 Selected theme is saved and applied on restart.: 所选主题将被保存并在重新启动时应用。
@@ -273,6 +318,7 @@ Support the developer: 支持开发商
 Target Field: 目标领域
 Telnet command:: 远程登录命令：
 Telnet Commander: 远程登录指挥官
+Telnet Config: 远程登录配置
 Telnet Console: 远程登录控制台
 Telnet host not configured. Please set it in Settings.: Telnet 主机未配置。请在“设置”中进行设置。
 Telnet password is empty. Do you want to continue?: Telnet 密码为空。您想继续吗？
@@ -303,6 +349,8 @@ URL Check: 网址检查
 URL list (one per line): URL 列表（每行一个）
 URLs & Status: URL 和状态
 Version: 版本
+Version {0}.{1}.{2}: 版本 {0}.{1}.{2}
+Version unknown: 版本未知
 Waiting for LiveGardenTVPlus to close...: 正在等待 LiveGardenTVPlus 关闭...
 Warning: 警告
 WebView2: Microsoft Edge WebView2: WebView2：Microsoft Edge WebView2

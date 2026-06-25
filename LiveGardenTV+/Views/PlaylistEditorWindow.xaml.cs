@@ -66,6 +66,7 @@ namespace LiveGardenTVPlus.Views
             if (urlsStatus != null) urlsStatus.Text = LanguageManager.GetTranslation("URLs & Status");
 
             // Field labels inside filter groups (TextBlock with x:Name)
+
             var nameField = FindName("NameFieldLabel") as TextBlock;
             if (nameField != null) nameField.Text = LanguageManager.GetTranslation("Name");
 
@@ -124,7 +125,7 @@ namespace LiveGardenTVPlus.Views
             ImportJsonBtn.Content = LanguageManager.GetTranslation("Import Local");
             ImportJsonUrlBtn.Content = LanguageManager.GetTranslation("Import from URL");
             ExportJsonBtn.Content = LanguageManager.GetTranslation("Export JSON");
-
+            CompareBtn.Content = LanguageManager.GetTranslation("Compare...");
 
             DeleteSelectedBtn.Content = LanguageManager.GetTranslation("Delete Selected");
             StopBtn.Content = LanguageManager.GetTranslation("Stop");

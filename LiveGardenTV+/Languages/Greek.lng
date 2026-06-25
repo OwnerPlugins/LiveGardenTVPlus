@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Φάκελος προσωρινής μνήμης: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Εντελώς εθελοντικό – κανένα χαρακτηριστικό δεν είναι αποκλεισμένο)
 (No description): (Χωρίς περιγραφή)
 • Add / rename / delete groups.: • Προσθήκη / μετονομασία / διαγραφή ομάδων.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Προηγούμενο
 16 colour themes + Light/Dark variants.: 16 έγχρωμα θέματα + παραλλαγές ανοιχτό/σκούρο.
 A new version is available. Do you want to update now?: Μια νέα έκδοση είναι διαθέσιμη. Θέλετε να ενημερώσετε τώρα;
+Access via 'Compare' button in Playlist Editor or Tools menu.: Πρόσβαση μέσω του κουμπιού «Σύγκριση» στο μενού Επεξεργαστής λίστας αναπαραγωγής ή στο μενού Εργαλεία.
 Access via 'Edit Playlist' button on main toolbar.: Πρόσβαση μέσω του κουμπιού «Επεξεργασία λίστας αναπαραγωγής» στην κύρια γραμμή εργαλείων.
 Actions: Δράσεις
 Add Command: Προσθήκη εντολής
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Το μπουκέτο στάλ�
 Buffer (seconds): Buffer (δευτερόλεπτα)
 Buffer size – adjust HLS buffer seconds.: Μέγεθος buffer – προσαρμόστε τα δευτερόλεπτα buffer HLS.
 Cache: Κρύπτη
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Φάκελος προσωρινής μνήμης: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Ματαίωση
 CANCEL: ΜΑΤΑΙΩΣΗ
+Cannot open browser: Δεν είναι δυνατό το άνοιγμα του προγράμματος περιήγησης
 Category: Κατηγορία
 Changelog: Καταγραφή αλλαγών
 Channel Details: Λεπτομέρειες καναλιού
 Channel Info: Πληροφορίες καναλιού
+Channel Name: Όνομα καναλιού
 channels from: κανάλια από
+channels from JSON: κανάλια από JSON
 channels from JSON URL: κανάλια από JSON URL
 channels from URL: κανάλια από τη διεύθυνση URL
 Check Duplicates: Ελέγξτε τα διπλότυπα
@@ -57,6 +61,12 @@ Click for details: Κάντε κλικ για λεπτομέρειες
 Close: Κοντά
 Command name:: Όνομα εντολής:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Κοινότητα και δοκιμές: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: Συγκρίνω
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Σύγκριση κατά: Προτεραιότητα (όνομα→ομάδα→tvg-id), Όνομα, Ομάδα (με διάκριση πεζών-κεφαλαίων) ή TvgId.
+Compare Playlists: Συγκρίνετε λίστες αναπαραγωγής
+Compare two playlists – load first (current playlist) and second (from file or URL).: Συγκρίνετε δύο λίστες αναπαραγωγής – φορτώστε την πρώτη (τρέχουσα λίστα αναπαραγωγής) και τη δεύτερη (από αρχείο ή διεύθυνση URL).
+Compare...: Συγκρίνω...
+Comparison results: {0} channels: Αποτελέσματα σύγκρισης: {0} κανάλια
 Configuration Missing: Λείπει η διαμόρφωση
 Confirm Reload: Επιβεβαίωση επαναφόρτωσης
 Connect: Συνδέω
@@ -89,6 +99,8 @@ End: Τέλος
 Enrich with EPG: Εμπλουτίστε με EPG
 Enter bouquet name (without spaces):: Εισαγάγετε το όνομα της ανθοδέσμης (χωρίς κενά):
 Enter JSON URL:: Εισαγάγετε τη διεύθυνση URL JSON:
+Enter new group name:: Εισαγάγετε νέο όνομα ομάδας:
+Enter playlist URL (JSON or M3U):: Εισαγάγετε τη διεύθυνση URL της λίστας αναπαραγωγής (JSON ή M3U):
 Enter playlist URL (M3U or JSON):: Εισαγάγετε τη διεύθυνση URL της λίστας αναπαραγωγής (M3U ή JSON):
 EPG: EPG
 Epg & Favorites: Epg & Αγαπημένα
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: Πηγή EPG 
 EPG source – choose XMLTV file or enter custom URL.: Πηγή EPG – επιλέξτε αρχείο XMLTV ή εισαγάγετε προσαρμοσμένη διεύθυνση URL.
 EPG Source Missing: Λείπει η πηγή EPG
 Error: Σφάλμα
-Error clearing cache: Σφάλμα κατά την εκκαθάριση της προσωρινής μνήμης
+Error clearing cache: {0}: Σφάλμα κατά την εκκαθάριση της προσωρινής μνήμης: {0}
 Error loading: Σφάλμα κατά τη φόρτωση
+Error loading EPG list: {0}: Σφάλμα κατά τη φόρτωση της λίστας EPG: {0}
+Error loading file: {0}: Σφάλμα κατά τη φόρτωση του αρχείου: {0}
 Error loading file: {0}: Σφάλμα κατά τη φόρτωση του αρχείου: {0}
 Error loading playlists: {0}: Σφάλμα κατά τη φόρτωση λιστών αναπαραγωγής: {0}
 Error loading URL: {0}: Σφάλμα κατά τη φόρτωση της διεύθυνσης URL: {0}
+Error loading URL: {0}: Σφάλμα κατά τη φόρτωση της διεύθυνσης URL: {0}
 ERROR: player.html not found.: ΣΦΑΛΜΑ: το player.html δεν βρέθηκε.
 Exit: Εξοδος
+Export: Εξαγωγή
+Export all: Εξαγωγή όλων
 Export Favorites: Εξαγωγή αγαπημένων
 Export Filtered JSON: Εξαγωγή φιλτραρισμένου JSON
 Export Filtered M3U: Εξαγωγή φιλτραρισμένου M3U
 Export JSON: Εξαγωγή JSON
 Export KO: Εξαγωγή ΚΟ
+Export missing: Λείπει η εξαγωγή
 Export OK: Εξαγωγή ΟΚ
 Export only favorite channels to a new M3U file: Εξαγωγή μόνο αγαπημένων καναλιών σε νέο αρχείο M3U
+Export results as JSON or M3U – export missing channels or all channels.: Εξαγωγή αποτελεσμάτων ως JSON ή M3U – εξαγωγή καναλιών που λείπουν ή όλων των καναλιών.
+Exported channels: Εξαγόμενα κανάλια
 Extracting update...: Εξαγωγή ενημέρωσης...
 Failed to download playlist: Η λήψη της λίστας αναπαραγωγής απέτυχε
 Failed to load playlist: Η φόρτωση της λίστας αναπαραγωγής απέτυχε
@@ -128,6 +148,7 @@ Fetch Logos: Λήψη λογότυπων
 File {0} already exists. Overwrite?: Το αρχείο {0} υπάρχει ήδη. Αντικατάσταση;
 File exists: Το αρχείο υπάρχει
 Filters: Φίλτρα
+First playlist: {0} channels loaded.: Πρώτη λίστα αναπαραγωγής: Φορτώθηκαν {0} κανάλια.
 Fullscreen (hide UI) - press ESC to exit: Πλήρης οθόνη (απόκρυψη διεπαφής χρήστη) - πατήστε ESC για έξοδο
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
@@ -140,19 +161,23 @@ Hide List: Απόκρυψη λίστας
 HLS playback: hls.js (MIT license): Αναπαραγωγή HLS: hls.js (άδεια MIT)
 Image: Εικών
 Import: Εισαγωγή
+Import cancelled or no channels mapped.: Η εισαγωγή ακυρώθηκε ή δεν αντιστοιχίστηκαν κανάλια.
 Import error: {0}: Σφάλμα εισαγωγής: {0}
 Import from URL: Εισαγωγή από τη διεύθυνση URL
 Import JSON: Εισαγωγή JSON
 Import JSON from URL: Εισαγωγή JSON από τη διεύθυνση URL
 Import Local: Εισαγωγή Τοπικού
-Imported {0} channels from JSON.: Έγινε εισαγωγή {0} καναλιών από JSON.
+Imported {0} channels from JSON via mapping.: Εισήχθησαν {0} κανάλια από JSON μέσω χαρτογράφησης.
 Imported {0} channels from URL.: Έγινε εισαγωγή {0} καναλιών από τη διεύθυνση URL.
+In Both: Και στα δύο
 Info: Πληροφορίες
 Info on: Πληροφορίες για
 Invalid JSON: {0}: Μη έγκυρο JSON: {0}
 Invalid playlist URL.: Μη έγκυρη διεύθυνση URL λίστας αναπαραγωγής.
 Invalid URL.: Μη έγκυρη διεύθυνση URL.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: Αρχεία JSON|*.json|Αρχεία M3U|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Αρχεία JSON|*.json|Αρχεία M3U|*.m3u;*.m3u8|Όλα τα αρχεία|*.*
 JSON Property: Ιδιότητα JSON
 Ko-fi: Καφές
 Language: Γλώσσα
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Γλώσσες
 Languages (comma): Γλώσσες (κόμμα)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: Βοήθεια LiveGardenTVPlus από την Lululla
+LiveGardenTVPlus Help: Βοήθεια LiveGardenTVPlus
 LOAD: ΦΟΡΤΙΟ
 Load a playlist first.: Φορτώστε πρώτα μια λίστα αναπαραγωγής.
+Load a second playlist first.: Φορτώστε πρώτα μια δεύτερη λίστα αναπαραγωγής.
 Load File: Φόρτωση αρχείου
+Load from file...: Φόρτωση από αρχείο...
+Load from URL: Φόρτωση από τη διεύθυνση URL
+Load from URL...: Φόρτωση από τη διεύθυνση URL...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Φόρτωση τοπικού αρχείου M3U/JSON – μέσω του κουμπιού «Φόρτωση αρχείου» (γραμμή εργαλείων) ή «Άνοιγμα αρχείου» στο πρόγραμμα επεξεργασίας.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Φόρτωση ηλεκτρονικής διεύθυνσης URL M3U/JSON – Κουμπί «Φόρτωση Online» (γραμμή εργαλείων) ή «Άνοιγμα από τη διεύθυνση URL» στο πρόγραμμα επεξεργασίας.
 Load playlist file (M3U/JSON) from your computer: Φορτώστε το αρχείο λίστας αναπαραγωγής (M3U/JSON) από τον υπολογιστή σας
 Loaded: Φορτωμένος
+Loaded {0} channels from JSON file via mapping.: Φόρτωσαν {0} κανάλια από αρχείο JSON μέσω αντιστοίχισης.
 Loaded {0} channels from JSON file.: Φόρτωσαν {0} κανάλια από αρχείο JSON.
 Loaded {0} channels from JSON URL.: Φόρτωσαν {0} κανάλια από JSON URL.
 Loaded {0} channels from M3U file.: Φόρτωσαν {0} κανάλια από το αρχείο M3U.
@@ -193,15 +223,23 @@ Next: Επόμενος
 Next ▶: Επόμενο ▶
 No .m3u files found on GitHub repository.: Δεν βρέθηκαν αρχεία .m3u στο αποθετήριο GitHub.
 No cache folder found.: Δεν βρέθηκε φάκελος κρυφής μνήμης.
+No channels could be mapped or import cancelled.: Δεν ήταν δυνατή η αντιστοίχιση καναλιών ή η ακύρωση της εισαγωγής.
 No channels could be mapped. Check your mapping rules.: Δεν ήταν δυνατή η χαρτογράφηση καναλιών. Ελέγξτε τους κανόνες χαρτογράφησης.
+No channels loaded from JSON URL.: Δεν έχουν φορτωθεί κανάλια από JSON URL.
+No channels loaded from M3U URL.: Δεν φορτώθηκαν κανάλια από τη διεύθυνση URL του M3U.
+No channels loaded from M3U.: Δεν έχουν φορτωθεί κανάλια από το M3U.
+No channels loaded.: Δεν έχουν φορτωθεί κανάλια.
 No channels mapped: Δεν έχουν χαρτογραφηθεί κανάλια
+No comparison results. Run Compare first.: Δεν υπάρχουν αποτελέσματα σύγκρισης. Εκτελέστε πρώτα τη σύγκριση.
 No duplicate URLs found.: Δεν βρέθηκαν διπλότυπες διευθύνσεις URL.
 No EPG data: Δεν υπάρχουν δεδομένα EPG
 No EPG information available for this channel.: Δεν υπάρχουν διαθέσιμες πληροφορίες EPG για αυτό το κανάλι.
 No EPG source configured. Please select one from the combo or go to Settings.: Δεν έχει διαμορφωθεί πηγή EPG. Επιλέξτε ένα από τον συνδυασμό ή μεταβείτε στις Ρυθμίσεις.
 No EPG source configured. Would you like to open settings to select one?: Δεν έχει διαμορφωθεί πηγή EPG. Θέλετε να ανοίξετε τις ρυθμίσεις για να επιλέξετε μία;
 No favorite channels to export.: Δεν υπάρχουν αγαπημένα κανάλια για εξαγωγή.
+No missing channels to export.: Δεν λείπουν κανάλια για εξαγωγή.
 No playlist found: Δεν βρέθηκε λίστα αναπαραγωγής
+No second playlist loaded.: Δεν έχει φορτωθεί δεύτερη λίστα αναπαραγωγής.
 No updates available.: Δεν υπάρχουν διαθέσιμες ενημερώσεις.
 Normal speed (1x): Κανονική ταχύτητα (1x)
 Not connected to the box.: Δεν συνδέεται με το κουτί.
@@ -209,6 +247,8 @@ Now: Τώρα
 OK: ΕΝΤΑΞΕΙ
 Online Playlist: Online Playlist
 Online playlist – select from GitHub repository (auto‑refresh).: Online playlist – επιλέξτε από το αποθετήριο GitHub (αυτόματη ανανέωση).
+Only in First: Μόνο στο First
+Only in Second: Μόνο στο Δεύτερο
 Open File...: Άνοιγμα αρχείου...
 Open from URL: Άνοιγμα από τη διεύθυνση URL
 Open Playlist: Ανοίξτε τη λίστα αναπαραγωγής
@@ -216,12 +256,14 @@ Pause/Resume live stream: Παύση/Συνέχιση ζωντανής ροής
 Paused: Σε παύση
 PayPal: PayPal
 Picture-in-Picture mode: Λειτουργία Picture-in-Picture
-Player Control: Έλεγχος παίκτη
+Player Controls: Χειριστήρια παίκτη
 Playlist & Groups: Λίστα αναπαραγωγής & Ομάδες
+Playlist Comparison: Σύγκριση λιστών αναπαραγωγής
 Playlist Editor: Επεξεργαστής λίστας αναπαραγωγής
 Playlist Loading: Φόρτωση λίστας αναπαραγωγής
 Playlist Management: Διαχείριση λίστας αναπαραγωγής
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Αποθετήριο playlist: OwnerPlugins/TivuStreamList (Ιταλικές και διεθνείς ροές)
+Playlists loaded: Οι λίστες αναπαραγωγής φορτώθηκαν
 Please select a program first.: Επιλέξτε πρώτα ένα πρόγραμμα.
 Preview (first 5 channels): Προεπισκόπηση (πρώτα 5 κανάλια)
 Preview error: {0}: Σφάλμα προεπισκόπησης: {0}
@@ -237,8 +279,10 @@ Refresh List: Ανανέωση λίστας
 Reload GUI: Επαναφόρτωση GUI
 Remove Command: Κατάργηση εντολής
 Rename Group: Μετονομασία ομάδας
+Rename group '{0}' to:: Μετονομάστε την ομάδα '{0}' σε:
 Repository: Αποθήκη
 Reset Order: Επαναφορά παραγγελίας
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Αποτελέσματα: 'Μόνο στην πρώτη', 'Μόνο στη δεύτερη', 'Στα δύο' – με χρωματική κωδικοποίηση κατάστασης.
 Save: Εκτός
 SAVE: ΕΚΤΟΣ
 Save – persists all settings without reloading current playlist.: Αποθήκευση – διατηρεί όλες τις ρυθμίσεις χωρίς επαναφόρτωση της τρέχουσας λίστας αναπαραγωγής.
@@ -251,6 +295,7 @@ Saved: Αποθηκεύτηκε
 Search channel: : Αναζήτηση καναλιού:
 Search channels by name: Αναζήτηση καναλιών με το όνομα
 Search channels...: Αναζήτηση καναλιών...
+sec: δευτ
 Select a playlist first.: Επιλέξτε πρώτα μια λίστα αναπαραγωγής.
 Select Theme: Επιλέξτε Θέμα
 Selected theme is saved and applied on restart.: Το επιλεγμένο θέμα αποθηκεύεται και εφαρμόζεται κατά την επανεκκίνηση.
@@ -273,6 +318,7 @@ Support the developer: Υποστηρίξτε τον προγραμματιστ�
 Target Field: Πεδίο Στόχου
 Telnet command:: Εντολή Telnet:
 Telnet Commander: Διοικητής Telnet
+Telnet Config: Διαμόρφωση Telnet
 Telnet Console: Κονσόλα Telnet
 Telnet host not configured. Please set it in Settings.: Ο κεντρικός υπολογιστής Telnet δεν έχει ρυθμιστεί. Ρυθμίστε το στις Ρυθμίσεις.
 Telnet password is empty. Do you want to continue?: Ο κωδικός πρόσβασης Telnet είναι κενός. Θέλετε να συνεχίσετε;
@@ -303,6 +349,8 @@ URL Check: Έλεγχος διεύθυνσης URL
 URL list (one per line): Λίστα URL (ένα ανά γραμμή)
 URLs & Status: URL & Κατάσταση
 Version: Εκδοχή
+Version {0}.{1}.{2}: Έκδοση {0}.{1}.{2}
+Version unknown: Άγνωστη έκδοση
 Waiting for LiveGardenTVPlus to close...: Αναμονή για κλείσιμο του LiveGardenTVPlus...
 Warning: Προειδοποίηση
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

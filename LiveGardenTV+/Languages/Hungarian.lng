@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Gyorsítótár mappa: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Teljesen önkéntes – egyetlen funkció sem blokkolva)
 (No description): (Nincs leírás)
 • Add / rename / delete groups.: • Csoportok hozzáadása/átnevezése/törlése.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Előző
 16 colour themes + Light/Dark variants.: 16 színes téma + világos/sötét változatok.
 A new version is available. Do you want to update now?: Új verzió érhető el. Szeretné most frissíteni?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Hozzáférés a Lejátszási listaszerkesztő vagy az Eszközök menü Összehasonlítás gombjával.
 Access via 'Edit Playlist' button on main toolbar.: Hozzáférés a fő eszköztár „Lejátszási lista szerkesztése” gombjával.
 Actions: Akciók
 Add Command: Parancs hozzáadása
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Csokor elküldve, és az Enigma
 Buffer (seconds): Puffer (másodperc)
 Buffer size – adjust HLS buffer seconds.: Pufferméret – a HLS puffer másodperceinek beállítása.
 Cache: Gyorsítótár
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Gyorsítótár mappa: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Mégse
 CANCEL: MÉGSEM
+Cannot open browser: A böngészőt nem lehet megnyitni
 Category: Kategória
 Changelog: Változásnapló
 Channel Details: Csatorna részletei
 Channel Info: Csatorna Info
+Channel Name: Csatorna neve
 channels from: csatornák innen
+channels from JSON: csatornák a JSON-ból
 channels from JSON URL: csatornák a JSON URL-ből
 channels from URL: csatornák az URL-ből
 Check Duplicates: Ellenőrizze az ismétlődéseket
@@ -57,6 +61,12 @@ Click for details: Kattintson a részletekért
 Close: Közeli
 Command name:: Parancs neve:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Közösség és tesztelés: CorvoBoys (corvoboys.org) és LinuxSat-Support.com
+Compare: Hasonlítsa össze
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Összehasonlítás: Prioritás (név→csoport→tvg-id), Név, Csoport (kis- és nagybetűk megkülönböztetése) vagy TvgId.
+Compare Playlists: Lejátszási listák összehasonlítása
+Compare two playlists – load first (current playlist) and second (from file or URL).: Hasonlítsa össze a két lejátszási listát – töltse be először (aktuális lejátszási lista) és másodikként (fájlból vagy URL-ből).
+Compare...: Összehasonlítás...
+Comparison results: {0} channels: Összehasonlítási eredmények: {0} csatorna
 Configuration Missing: Hiányzik a konfiguráció
 Confirm Reload: Erősítse meg az Újratöltést
 Connect: Csatlakozás
@@ -89,6 +99,8 @@ End: Vége
 Enrich with EPG: Gazdagítsa EPG-vel
 Enter bouquet name (without spaces):: Adja meg a csokor nevét (szóközök nélkül):
 Enter JSON URL:: Írja be a JSON URL-t:
+Enter new group name:: Írja be az új csoportnevet:
+Enter playlist URL (JSON or M3U):: Írja be a lejátszási lista URL-jét (JSON vagy M3U):
 Enter playlist URL (M3U or JSON):: Írja be a lejátszási lista URL-jét (M3U vagy JSON):
 EPG: EPG
 Epg & Favorites: Epg & Kedvencek
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG forrás �
 EPG source – choose XMLTV file or enter custom URL.: EPG-forrás – válassza ki az XMLTV-fájlt, vagy írjon be egyéni URL-t.
 EPG Source Missing: Az EPG forrás hiányzik
 Error: Hiba
-Error clearing cache: Hiba a gyorsítótár törlésekor
+Error clearing cache: {0}: Hiba a gyorsítótár törlésekor: {0}
 Error loading: Hiba a betöltés során
+Error loading EPG list: {0}: Hiba az EPG-lista betöltésekor: {0}
+Error loading file: {0}: Hiba a fájl betöltésekor: {0}
 Error loading file: {0}: Hiba a fájl betöltésekor: {0}
 Error loading playlists: {0}: Hiba a lejátszási listák betöltésekor: {0}
 Error loading URL: {0}: Hiba az URL betöltésekor: {0}
+Error loading URL: {0}: Hiba az URL betöltésekor: {0}
 ERROR: player.html not found.: HIBA: player.html nem található.
 Exit: Kijárat
+Export: Export
+Export all: Az összes exportálása
 Export Favorites: Kedvencek exportálása
 Export Filtered JSON: Szűrt JSON exportálása
 Export Filtered M3U: Szűrt M3U exportálása
 Export JSON: JSON exportálása
 Export KO: KO exportálása
+Export missing: Az exportálás hiányzik
 Export OK: Export OK
 Export only favorite channels to a new M3U file: Csak a kedvenc csatornákat exportálja új M3U fájlba
+Export results as JSON or M3U – export missing channels or all channels.: Az eredmények exportálása JSON vagy M3U formátumban – a hiányzó csatornák vagy az összes csatorna exportálása.
+Exported channels: Exportált csatornák
 Extracting update...: Frissítés kicsomagolása...
 Failed to download playlist: Nem sikerült letölteni a lejátszási listát
 Failed to load playlist: Nem sikerült betölteni a lejátszási listát
@@ -128,6 +148,7 @@ Fetch Logos: Logók lekérése
 File {0} already exists. Overwrite?: A(z) {0} fájl már létezik. Átír?
 File exists: A fájl létezik
 Filters: Szűrők
+First playlist: {0} channels loaded.: Első lejátszási lista: {0} csatorna betöltve.
 Fullscreen (hide UI) - press ESC to exit: Teljes képernyő (UI elrejtése) – a kilépéshez nyomja meg az ESC billentyűt
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
@@ -140,19 +161,23 @@ Hide List: Lista elrejtése
 HLS playback: hls.js (MIT license): HLS lejátszás: hls.js (MIT licenc)
 Image: Kép
 Import: Importálás
+Import cancelled or no channels mapped.: Az importálás megszakadt, vagy nincs csatorna hozzárendelve.
 Import error: {0}: Importálási hiba: {0}
 Import from URL: Importálás az URL-ről
 Import JSON: JSON importálása
 Import JSON from URL: JSON importálása az URL-ből
 Import Local: Helyi importálás
-Imported {0} channels from JSON.: {0} csatorna importálva JSON-ból.
+Imported {0} channels from JSON via mapping.: {0} csatorna importálva JSON-ból hozzárendeléssel.
 Imported {0} channels from URL.: {0} csatorna importálva az URL-ről.
+In Both: Mindkettőben
 Info: Info
 Info on: Info a
 Invalid JSON: {0}: Érvénytelen JSON: {0}
 Invalid playlist URL.: Érvénytelen lejátszási lista URL-je.
 Invalid URL.: Érvénytelen URL.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: JSON-fájlok|*.json|M3U-fájlok|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON-fájlok|*.json|M3U-fájlok|*.m3u;*.m3u8|Minden fájl|*.*
 JSON Property: JSON-tulajdon
 Ko-fi: Kávé
 Language: Nyelv
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Nyelvek
 Languages (comma): Nyelvek (vessző)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Súgó Lululla
+LiveGardenTVPlus Help: LiveGardenTVPlus Súgó
 LOAD: TERHELÉS
 Load a playlist first.: Először töltsön be egy lejátszási listát.
+Load a second playlist first.: Először töltsön be egy második lejátszási listát.
 Load File: Fájl betöltése
+Load from file...: Betöltés fájlból...
+Load from URL: Betöltés az URL-ről
+Load from URL...: Betöltés az URL-ről...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Helyi M3U/JSON fájl betöltése – a „Fájl betöltése” gombbal (eszköztár) vagy a „Fájl megnyitása” gombbal a szerkesztőben.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Online M3U/JSON URL betöltése – „Betöltés online” gomb (eszköztár) vagy „Megnyitás URL-ről” a szerkesztőben.
 Load playlist file (M3U/JSON) from your computer: Töltse le a lejátszási lista fájlt (M3U/JSON) a számítógépéről
 Loaded: Töltött
+Loaded {0} channels from JSON file via mapping.: {0} csatorna betöltve JSON-fájlból hozzárendeléssel.
 Loaded {0} channels from JSON file.: {0} csatorna betöltve a JSON-fájlból.
 Loaded {0} channels from JSON URL.: {0} csatorna betöltve a JSON URL-ről.
 Loaded {0} channels from M3U file.: {0} csatorna betöltve az M3U fájlból.
@@ -193,15 +223,23 @@ Next: Következő
 Next ▶: Következő ▶
 No .m3u files found on GitHub repository.: Nem található .m3u fájl a GitHub tárhelyen.
 No cache folder found.: Nem található gyorsítótár mappa.
+No channels could be mapped or import cancelled.: Egyetlen csatornát sem sikerült leképezni, vagy az importálást megszakítani.
 No channels could be mapped. Check your mapping rules.: Egyetlen csatornát sem lehetett feltérképezni. Ellenőrizze a leképezési szabályokat.
+No channels loaded from JSON URL.: Nincs csatorna betöltve a JSON URL-ről.
+No channels loaded from M3U URL.: Nincs csatorna betöltve az M3U URL-ről.
+No channels loaded from M3U.: Nincs csatorna betöltve az M3U-ból.
+No channels loaded.: Nincs betöltve csatorna.
 No channels mapped: Nincs csatorna hozzárendelve
+No comparison results. Run Compare first.: Nincsenek összehasonlítási eredmények. Először futtassa az Összehasonlítást.
 No duplicate URLs found.: Nem található ismétlődő URL.
 No EPG data: Nincsenek EPG adatok
 No EPG information available for this channel.: Ehhez a csatornához nem áll rendelkezésre EPG információ.
 No EPG source configured. Please select one from the combo or go to Settings.: Nincs konfigurálva EPG-forrás. Kérjük, válasszon egyet a kombinációból, vagy lépjen a Beállításokba.
 No EPG source configured. Would you like to open settings to select one?: Nincs konfigurálva EPG-forrás. Szeretné megnyitni a beállításokat egy kiválasztásához?
 No favorite channels to export.: Nincsenek exportálható kedvenc csatornák.
+No missing channels to export.: Nincsenek hiányzó csatornák az exportáláshoz.
 No playlist found: Nem található lejátszási lista
+No second playlist loaded.: Nincs betöltve második lejátszási lista.
 No updates available.: Nincsenek frissítések.
 Normal speed (1x): Normál sebesség (1x)
 Not connected to the box.: Nincs csatlakoztatva a dobozhoz.
@@ -209,6 +247,8 @@ Now: Jelenleg
 OK: RENDBEN
 Online Playlist: Online lejátszási lista
 Online playlist – select from GitHub repository (auto‑refresh).: Online lejátszási lista – válasszon a GitHub tárházából (automatikus frissítés).
+Only in First: Csak az Elsőben
+Only in Second: Csak a másodikban
 Open File...: Fájl megnyitása...
 Open from URL: Megnyitás az URL-ről
 Open Playlist: Lejátszási lista megnyitása
@@ -216,12 +256,14 @@ Pause/Resume live stream: Élő közvetítés szüneteltetése/folytatása
 Paused: Szüneteltetve
 PayPal: PayPal
 Picture-in-Picture mode: Kép a képben mód
-Player Control: Játékos vezérlés
+Player Controls: Játékos vezérlők
 Playlist & Groups: Lejátszási lista és csoportok
+Playlist Comparison: Lejátszási lista összehasonlítása
 Playlist Editor: Lejátszási lista szerkesztő
 Playlist Loading: Lejátszási lista betöltése
 Playlist Management: Lejátszási lista kezelése
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Lejátszási lista tárháza: OwnerPlugins/TivuStreamList (olasz és nemzetközi streamek)
+Playlists loaded: Lejátszási listák betöltve
 Please select a program first.: Kérjük, először válasszon programot.
 Preview (first 5 channels): Előnézet (első 5 csatorna)
 Preview error: {0}: Előnézeti hiba: {0}
@@ -237,8 +279,10 @@ Refresh List: Lista frissítése
 Reload GUI: GUI újratöltése
 Remove Command: Távolítsa el a parancsot
 Rename Group: Csoport átnevezése
+Rename group '{0}' to:: A(z) „{0}” csoport átnevezése erre:
 Repository: Adattár
 Reset Order: Rendelés visszaállítása
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Eredmények: 'Csak elsőben', 'Csak másodikban', 'Mindkettőben' – állapotszínkóddal.
 Save: Megtakarítás
 SAVE: MEGTAKARÍTÁS
 Save – persists all settings without reloading current playlist.: Mentés – az összes beállítás megőrzése az aktuális lejátszási lista újratöltése nélkül.
@@ -251,6 +295,7 @@ Saved: Mentve
 Search channel: : Csatorna keresése:
 Search channels by name: Csatornák keresése név szerint
 Search channels...: Csatornák keresése...
+sec: mp
 Select a playlist first.: Először válasszon ki egy lejátszási listát.
 Select Theme: Válassza a Témát
 Selected theme is saved and applied on restart.: A kiválasztott téma mentésre kerül, és újraindításkor alkalmazásra kerül.
@@ -273,6 +318,7 @@ Support the developer: Támogassa a fejlesztőt
 Target Field: Célmező
 Telnet command:: Telnet parancs:
 Telnet Commander: Telnet parancsnok
+Telnet Config: Telnet Config
 Telnet Console: Telnet konzol
 Telnet host not configured. Please set it in Settings.: A Telnet gazdagép nincs konfigurálva. Kérjük, állítsa be a Beállításokban.
 Telnet password is empty. Do you want to continue?: A Telnet jelszó üres. Folytatja?
@@ -294,7 +340,7 @@ Unable to find version in remote project file.: Nem található verzió a távol
 Update: Frissítés
 Update complete. Restarting...: Frissítés kész. Újraindítás...
 Update Error: Frissítési hiba
-Update failed: : A frissítés nem sikerült:
+Update failed: : A frissítés sikertelen:
 Updates: Frissítések
 Upload Error: Feltöltési hiba
 URL: URL
@@ -303,6 +349,8 @@ URL Check: URL-ellenőrzés
 URL list (one per line): URL-lista (soronként egy)
 URLs & Status: URL-ek és állapot
 Version: Változat
+Version {0}.{1}.{2}: Verzió: {0}.{1}.{2}
+Version unknown: A verzió ismeretlen
 Waiting for LiveGardenTVPlus to close...: Várakozás a LiveGardenTVPlus bezárására...
 Warning: Figyelmeztetés
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

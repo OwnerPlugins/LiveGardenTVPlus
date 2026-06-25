@@ -1,4 +1,3 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Dorsièr de cache: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Totalament volontari – cap de foncionalitat es pas blocada)
 (No description): (Pas de descripcion)
 • Add / rename / delete groups.: • Apondre / renomenar / suprimir de grops.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Anterior
 16 colour themes + Light/Dark variants.: 16 tèmas de colors + variantas Clara/Escura.
 A new version is available. Do you want to update now?: Una novèla version es disponibla. Volètz metre a jorn ara?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Accedir via lo boton 'Comparar' dins l'Editor de listas de lectura o lo menú Aisinas.
 Access via 'Edit Playlist' button on main toolbar.: Accedir via lo boton 'Modificar la lista de lectura' sus la barra d'aisinas principala.
 Actions: Accions
 Add Command: Apondre la comanda
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Boquet mandat e lista de canals
 Buffer (seconds): Tampon (segondas)
 Buffer size – adjust HLS buffer seconds.: Talha del tampon – ajustar las segondas del tampon HLS.
 Cache: Cache
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Dorsièr de cache : %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Anullar
 CANCEL: ANULLAR
+Cannot open browser: Pòt pas dobrir lo navigador
 Category: Categoria
 Changelog: Jornal de cambiaments
 Channel Details: Detalhs del canal
 Channel Info: Informacions del canal
+Channel Name: Nom de canal
 channels from: canals de
+channels from JSON: canals dempuèi JSON
 channels from JSON URL: canals dempuèi l'URL JSON
 channels from URL: canals dempuèi l'URL
 Check Duplicates: Verificar los dobles
@@ -57,6 +61,13 @@ Click for details: Clicatz pels detalhs
 Close: Barrar
 Command name:: Nom de comanda:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Comunautat & tèst: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: Comparar
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Comparar per: Prioritat (nom→grop→tvg-id), Nom, Grop (sensible a las majusculas), o TvgId.
+Compare Playlists: Comparar las listas de lectura
+Compare two playlists – load first (current playlist) and second (from file or URL).: Comparatz doas listas de lectura – cargatz la primièra (lista actuala) e la segonda (dempuèi un fichièr o l'URL).
+Compare...: Comparar...
+Comparison results: {0} channels: Resultats de comparason : {0} canals
+Configuration Missing: Configuracion mancanta
 Confirm Reload: Confirmar lo recargament
 Connect: Connectar
 Connected: Connectat
@@ -83,10 +94,13 @@ Edit command name:: Modificar lo nom de la comanda :
 Edit Playlist: Modificar la lista de lectura
 Edit telnet command:: Modificar la comanda telnet :
 Edit URLs: Modificar las URL
+Empty Password: Senhal vuèg
 End: Fin
 Enrich with EPG: Enriquir amb EPG
 Enter bouquet name (without spaces):: Picatz lo nom del ram (sens espacis):
 Enter JSON URL:: Picatz l'URL JSON :
+Enter new group name:: Picatz lo nom novèl del grop :
+Enter playlist URL (JSON or M3U):: Picatz l'URL de la lista de lectura (JSON o M3U) :
 Enter playlist URL (M3U or JSON):: Picatz l'URL de la lista de lectura (M3U o JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favorits
@@ -101,31 +115,40 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: Font EPG – 
 EPG source – choose XMLTV file or enter custom URL.: Font EPG – causissètz lo fichièr XMLTV o picatz una URL personalizada.
 EPG Source Missing: Font EPG mancanta
 Error: Error
-Error clearing cache: Error al moment de netejar l'escobilhièr
+Error clearing cache: {0}: Error al moment de netejar lo cache : {0}
 Error loading: Error al moment de cargament
+Error loading EPG list: {0}: Error al moment de cargament de la lista EPG : {0}
+Error loading file: {0}: Error al moment de cargament del fichièr : {0}
 Error loading file: {0}: Error al moment de cargament del fichièr : {0}
 Error loading playlists: {0}: Error al moment de cargament de las listas de lectura : {0}
 Error loading URL: {0}: Error al moment de cargament d'URL : {0}
+Error loading URL: {0}: Error al moment de cargament d'URL : {0}
 ERROR: player.html not found.: ERROR : player.html pas trobat.
 Exit: Sortida
+Export: Exportar
+Export all: Exportar tot
 Export Favorites: Exportar los favorits
 Export Filtered JSON: Exportar JSON filtrat
 Export Filtered M3U: Exportar M3U filtrat
 Export JSON: Exportar JSON
 Export KO: KO d'exportacion
+Export missing: Exportacion mancanta
 Export OK: Exportar d'acòrdi
 Export only favorite channels to a new M3U file: Exportar pas que los canals favorits dins un fichièr M3U novèl
+Export results as JSON or M3U – export missing channels or all channels.: Exportar los resultats coma JSON o M3U – exportar los canals mancants o totes los canals.
+Exported channels: Canals exportats
 Extracting update...: Extraire la mesa a jorn...
 Failed to download playlist: Fracàs al telecargament de la lista de lectura
 Failed to load playlist: Fracàs al cargament de la lista de lectura
-Failed to update bouquets.tv.: Fracàs a la mesa a jorn de bouquets.tv.
-Failed to upload bouquet.: Fracàs al mandar lo bouquet.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Fracàs a la mesa a jorn de bouquets.tv. Verificatz las permissions del fichièr sul periferic Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Fracàs al mandar lo bouquet. Verificatz vòstres paramètres Telnet (òste, pòrt, nom d'utilizaire, senhal) e ensajatz tornarmai.
 Favorite: Favorit
 Favorites only: Los favorits solament
 Fetch Logos: Recuperar de lògos
 File {0} already exists. Overwrite?: Lo fichièr {0} existís ja. Subrescriure?
 File exists: Fichièr existís
 Filters: Filtres
+First playlist: {0} channels loaded.: Primièra lista de lectura : {0} canals cargats.
 Fullscreen (hide UI) - press ESC to exit: Ecran complet (amagar l'interfàcia utilizaire) - quichatz sus ESC per sortir
 Geo & Country: Geo & País
 GeoBlocked: GeoBlocat
@@ -138,19 +161,23 @@ Hide List: Amagar la lista
 HLS playback: hls.js (MIT license): Reproduccion HLS: hls.js (licéncia MIT)
 Image: Imatge
 Import: Importar
+Import cancelled or no channels mapped.: Importacion anullada o cap de canal mapat.
 Import error: {0}: Error d'importacion : {0}
 Import from URL: Importar dempuèi l'URL
 Import JSON: Importar JSON
 Import JSON from URL: Importar JSON dempuèi l'URL
 Import Local: Importar Local
-Imported {0} channels from JSON.: {0} canals importats dempuèi JSON.
+Imported {0} channels from JSON via mapping.: {0} canals importats dempuèi JSON via mapatge.
 Imported {0} channels from URL.: {0} canals importats dempuèi l'URL.
+In Both: Dins los dos
 Info: Informacions
 Info on: Informacions sus
 Invalid JSON: {0}: JSON invalid: {0}
 Invalid playlist URL.: URL de la lista de lectura invalida.
 Invalid URL.: URL invalida.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: Fichièrs JSON|*.json|Fichièrs M3U|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Fichièrs JSON|*.json|Fichièrs M3U|*.m3u;*.m3u8|Totes los fichièrs|*.*
 JSON Property: Proprietat JSON
 Ko-fi: Cafè
 Language: Lenga
@@ -158,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Lengas
 Languages (comma): Lengas (virgula)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Ajuda de Lululla
+LiveGardenTVPlus Help: LiveGardenTVPlus Ajuda
 LOAD: CARGAR
 Load a playlist first.: Cargatz d'en primièr una lista de lectura.
+Load a second playlist first.: Cargatz d'en primièr una segonda lista de lectura.
 Load File: Cargar lo fichièr
+Load from file...: Cargar dempuèi lo fichièr...
+Load from URL: Cargar dempuèi l'URL
+Load from URL...: Cargar dempuèi l'URL...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Cargar lo fichièr M3U/JSON local – via lo boton 'Cargar lo fichièr' (barra d'aisinas) o 'Dobrir lo fichièr' dins l'editor.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Cargar en linha M3U/JSON URL – boton 'Cargar en linha' (barra d'aisinas) o 'Dobrir dempuèi l'URL' dins l'editor.
 Load playlist file (M3U/JSON) from your computer: Cargatz lo fichièr de lista de lectura (M3U/JSON) dempuèi vòstre ordenador
 Loaded: Cargat
+Loaded {0} channels from JSON file via mapping.: {0} canals cargats dempuèi un fichièr JSON per mapatge.
 Loaded {0} channels from JSON file.: {0} canals cargats dempuèi lo fichièr JSON.
 Loaded {0} channels from JSON URL.: {0} canals cargats dempuèi l'URL JSON.
 Loaded {0} channels from M3U file.: {0} canals cargats dempuèi lo fichièr M3U.
@@ -191,15 +223,23 @@ Next: Venent
 Next ▶: Seguent ▶
 No .m3u files found on GitHub repository.: Cap de fichièr .m3u trobat sul depaus GitHub.
 No cache folder found.: Cap de dorsièr cache pas trobat.
+No channels could be mapped or import cancelled.: Cap de canal a pas pogut èsser mapat o l'importacion anullada.
 No channels could be mapped. Check your mapping rules.: Cap de canal poguèt pas èsser mapat. Verificatz vòstras règlas de mapatge.
+No channels loaded from JSON URL.: Cap de canal pas cargat dempuèi l'URL JSON.
+No channels loaded from M3U URL.: Cap de canal pas cargat dempuèi l'URL M3U.
+No channels loaded from M3U.: Cap de canal cargat dempuèi M3U.
+No channels loaded.: Cap de canal pas cargat.
 No channels mapped: Cap de canal mapat
+No comparison results. Run Compare first.: Pas de resultats de comparason. Executatz la comparason d'en primièr.
 No duplicate URLs found.: Cap d'URL en doble pas trobat.
 No EPG data: Pas de donadas EPG
 No EPG information available for this channel.: Cap d'informacion EPG disponibla per aqueste canal.
 No EPG source configured. Please select one from the combo or go to Settings.: Pas cap de font EPG configurada. Mercés de ne seleccionar un dins la combinason o d'anar a Paramètres.
 No EPG source configured. Would you like to open settings to select one?: Pas cap de font EPG configurada. Volètz dobrir los paramètres per ne seleccionar un ?
 No favorite channels to export.: Pas de canal favorit d'exportar.
+No missing channels to export.: Cap de canal mancant a exportar.
 No playlist found: Cap de lista de lectura pas trobada
+No second playlist loaded.: Pas cap de segonda lista de lectura cargada.
 No updates available.: Cap de mesa a jorn pas disponibla.
 Normal speed (1x): Velocitat normala (1x)
 Not connected to the box.: Pas connectat a la bóstia.
@@ -207,6 +247,8 @@ Now: Ara
 OK: ÒC BEN
 Online Playlist: Lista de reproduccion en linha
 Online playlist – select from GitHub repository (auto‑refresh).: Lista de lectura en linha – seleccionatz dins lo depaus GitHub (auto-actualizacion).
+Only in First: Sonque dins Primièr
+Only in Second: Sonque en Segond
 Open File...: Dobrir lo fichièr...
 Open from URL: Dobrir dempuèi l'URL
 Open Playlist: Dobrir la lista de lectura
@@ -214,12 +256,14 @@ Pause/Resume live stream: Pausa/Reprene la difusion en dirècte
 Paused: Pausada
 PayPal: PayPal
 Picture-in-Picture mode: Mòde Imatge dins Imatge
-Player Control: Contròl del jogaire
+Player Controls: Contròls del jogaire
 Playlist & Groups: Lista de lectura e grops
+Playlist Comparison: Comparacion de la lista de lectura
 Playlist Editor: Editor de listas de lectura
 Playlist Loading: La lista de reproduccion en carga
 Playlist Management: Gestion de la lista de lectura
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Depaus de listas de lectura: OwnerPlugins/TivuStreamList (fluxes italians e internacionals)
+Playlists loaded: Listas de lectura cargadas
 Please select a program first.: Seleccionatz d'en primièr un programa.
 Preview (first 5 channels): Apercebut (5 primièrs canals)
 Preview error: {0}: Error d'apercebut : {0}
@@ -235,8 +279,10 @@ Refresh List: Actualizar la lista
 Reload GUI: Tornatz cargar l'interfaci grafica
 Remove Command: Comanda de suprimir
 Rename Group: Renomenar lo grop
+Rename group '{0}' to:: Renomenar lo grop « {0} » en :
 Repository: Depaus
 Reset Order: Reïnicializar l'òrdre
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Resultats: 'Sonque en primièr', 'Sonque en segond', 'En los dos' – amb lo codatge en color d'estatut.
 Save: Salvar
 SAVE: SALVAR
 Save – persists all settings without reloading current playlist.: Enregistrar – persistís totes los paramètres sens tornar cargar la lista de lectura actuala.
@@ -249,6 +295,7 @@ Saved: Enregistrat
 Search channel: : Canal de recèrca:
 Search channels by name: Cercar de canals per nom
 Search channels...: Cercar de canals...
+sec: segonda
 Select a playlist first.: Seleccionatz d'en primièr una lista de lectura.
 Select Theme: Seleccionar lo tèma
 Selected theme is saved and applied on restart.: Lo tèma seleccionat es enregistrat e aplicat al reaviada.
@@ -271,8 +318,11 @@ Support the developer: Supòrta lo desvolopaire
 Target Field: Camp cibla
 Telnet command:: Comanda Telnet :
 Telnet Commander: Comandant de Telnet
+Telnet Config: Configuracion de Telnet
 Telnet Console: Consòla Telnet
-Telnet not configured. Please set it in Settings.: Telnet pas configurat. Mercés de lo definir dins los Paramètres.
+Telnet host not configured. Please set it in Settings.: L'òste Telnet pas configurat. Mercés de lo definir dins los Paramètres.
+Telnet password is empty. Do you want to continue?: Lo senhal Telnet es void. Volètz contunhar?
+Telnet username not configured. Please set it in Settings.: Nom d'utilizaire Telnet pas configurat. Mercés de lo definir dins los Paramètres.
 Thanks to: Mercés a
 Theme picker: Seleccionaire de tèma
 Theme picker – accessible via Tools menu on main toolbar.: Selector de tèmas – accessible via lo menú Aisinas sus la barra d'aisinas principala.
@@ -289,14 +339,18 @@ UI: MaterialDesignThemes.Wpf: UI: Temas de Dessenh de Materials.Wpf
 Unable to find version in remote project file.: Impossible de trobar la version dins lo fichièr de projècte distant.
 Update: Metre al jorn
 Update complete. Restarting...: Mesa a jorn completada. Reaviada...
+Update Error: Error de mesa a jorn
 Update failed: : La mesa a jorn a fracassat :
 Updates: Mesas a jorn
+Upload Error: Error de mandadís
 URL: URL
 URL (primary): URL (primària)
 URL Check: Verificacion d'URL
 URL list (one per line): Lista d'URL (una per linha)
 URLs & Status: URLs e estatut
 Version: Version
+Version {0}.{1}.{2}: Version {0}.{1}.{2}
+Version unknown: Version desconeguda
 Waiting for LiveGardenTVPlus to close...: Espèra que LiveGardenTVPlus se barra...
 Warning: Avertiment
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache-lêergids: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Heeltemaal vrywillig – geen kenmerke word geblokkeer nie)
 (No description): (Geen beskrywing)
 • Add / rename / delete groups.: • Voeg by / hernoem / skrap groepe.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Vorige
 16 colour themes + Light/Dark variants.: 16 kleurtemas + Lig/donker variante.
 A new version is available. Do you want to update now?: 'n Nuwe weergawe is beskikbaar. Wil jy nou opdateer?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Toegang via 'Vergelyk'-knoppie in Playlist Editor of Tools-kieslys.
 Access via 'Edit Playlist' button on main toolbar.: Toegang via 'Redigeer snitlys'-knoppie op die hoofnutsbalk.
 Actions: Aksies
 Add Command: Voeg opdrag by
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Boeket gestuur en Enigma2-kanaa
 Buffer (seconds): Buffer (sekondes)
 Buffer size – adjust HLS buffer seconds.: Buffergrootte – pas HLS buffer sekondes aan.
 Cache: Kas
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Kaslêergids: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Kanselleer
 CANCEL: KANSELLEER
+Cannot open browser: Kan nie blaaier oopmaak nie
 Category: Kategorie
 Changelog: Veranderlogboek
 Channel Details: Kanaalbesonderhede
 Channel Info: Kanaalinligting
+Channel Name: Kanaalnaam
 channels from: kanale van
+channels from JSON: kanale vanaf JSON
 channels from JSON URL: kanale vanaf JSON URL
 channels from URL: kanale vanaf URL
 Check Duplicates: Kontroleer Duplikate
@@ -57,6 +61,12 @@ Click for details: Klik vir besonderhede
 Close: Maak toe
 Command name:: Opdrag naam:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Gemeenskap en toetsing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: Vergelyk
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Vergelyk volgens: Prioriteit (naam→groep→tvg-id), Naam, Groep (hooflettergevoelig), of TvgId.
+Compare Playlists: Vergelyk snitlyste
+Compare two playlists – load first (current playlist) and second (from file or URL).: Vergelyk twee snitlyste – laai eerste (huidige snitlys) en tweede (van lêer of URL).
+Compare...: Vergelyk...
+Comparison results: {0} channels: Vergelykingsresultate: {0} kanale
 Configuration Missing: Konfigurasie ontbreek
 Confirm Reload: Bevestig herlaai
 Connect: Koppel
@@ -89,6 +99,8 @@ End: Einde
 Enrich with EPG: Verryk met EPG
 Enter bouquet name (without spaces):: Voer boeketnaam in (sonder spasies):
 Enter JSON URL:: Voer JSON URL in:
+Enter new group name:: Voer nuwe groepnaam in:
+Enter playlist URL (JSON or M3U):: Voer snitlys-URL in (JSON of M3U):
 Enter playlist URL (M3U or JSON):: Voer snitlys-URL in (M3U of JSON):
 EPG: EPG
 Epg & Favorites: Epg & Gunstelinge
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG-bron – 
 EPG source – choose XMLTV file or enter custom URL.: EPG-bron – kies XMLTV-lêer of voer persoonlike URL in.
 EPG Source Missing: EPG-bron ontbreek
 Error: Fout
-Error clearing cache: Kon nie kas skoonmaak nie
+Error clearing cache: {0}: Kon nie kas skoonmaak nie: {0}
 Error loading: Kon nie laai nie
+Error loading EPG list: {0}: Kon nie EPG-lys laai nie: {0}
+Error loading file: {0}: Kon nie lêer laai nie: {0}
 Error loading file: {0}: Kon nie lêer laai nie: {0}
 Error loading playlists: {0}: Kon nie snitlyste laai nie: {0}
 Error loading URL: {0}: Kon nie URL laai nie: {0}
+Error loading URL: {0}: Kon nie URL laai nie: {0}
 ERROR: player.html not found.: FOUT: player.html nie gevind nie.
 Exit: Verlaat
+Export: Uitvoer
+Export all: Voer alles uit
 Export Favorites: Voer gunstelinge uit
 Export Filtered JSON: Voer gefiltreerde JSON uit
 Export Filtered M3U: Voer gefiltreerde M3U uit
 Export JSON: Voer JSON uit
 Export KO: Voer KO uit
+Export missing: Uitvoer ontbreek
 Export OK: Uitvoer OK
 Export only favorite channels to a new M3U file: Voer slegs gunstelingkanale uit na 'n nuwe M3U-lêer
+Export results as JSON or M3U – export missing channels or all channels.: Voer resultate uit as JSON of M3U – voer ontbrekende kanale of alle kanale uit.
+Exported channels: Uitgevoerde kanale
 Extracting update...: Onttrek tans opdatering …
 Failed to download playlist: Kon nie snitlys aflaai nie
 Failed to load playlist: Kon nie snitlys laai nie
@@ -128,6 +148,7 @@ Fetch Logos: Haal logo's
 File {0} already exists. Overwrite?: Lêer {0} bestaan ​​reeds. Oorskryf?
 File exists: Lêer bestaan
 Filters: Filters
+First playlist: {0} channels loaded.: Eerste snitlys: {0} kanale gelaai.
 Fullscreen (hide UI) - press ESC to exit: Volskerm (versteek UI) - druk ESC om uit te gaan
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
@@ -140,19 +161,23 @@ Hide List: Versteek lys
 HLS playback: hls.js (MIT license): HLS-terugspeel: hls.js (MIT-lisensie)
 Image: Beeld
 Import: Invoer
+Import cancelled or no channels mapped.: Invoer is gekanselleer of geen kanale gekarteer nie.
 Import error: {0}: Invoerfout: {0}
 Import from URL: Voer in vanaf URL
 Import JSON: Voer JSON in
 Import JSON from URL: Voer JSON vanaf URL in
 Import Local: Plaaslik invoer
-Imported {0} channels from JSON.: Het {0} kanale vanaf JSON ingevoer.
+Imported {0} channels from JSON via mapping.: Het {0} kanale vanaf JSON ingevoer via kartering.
 Imported {0} channels from URL.: Het {0} kanale vanaf URL ingevoer.
+In Both: In Beide
 Info: Inligting
 Info on: Inligting oor
 Invalid JSON: {0}: Ongeldige JSON: {0}
 Invalid playlist URL.: Ongeldige snitlys-URL.
 Invalid URL.: Ongeldige URL.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: JSON-lêers|*.json|M3U-lêers|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON-lêers|*.json|M3U-lêers|*.m3u;*.m3u8|Alle lêers|*.*
 JSON Property: JSON eiendom
 Ko-fi: Koffie
 Language: Taal
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Tale
 Languages (comma): Tale (komma)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Hulp deur Lululla
+LiveGardenTVPlus Help: LiveGardenTVPlus Hulp
 LOAD: LAAI
 Load a playlist first.: Laai eers 'n snitlys.
+Load a second playlist first.: Laai eers 'n tweede snitlys.
 Load File: Laai lêer
+Load from file...: Laai vanaf lêer...
+Load from URL: Laai vanaf URL
+Load from URL...: Laai vanaf URL...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Laai plaaslike M3U/JSON-lêer – via 'Laai lêer'-knoppie (nutsbalk) of 'Maak lêer oop' in redigeerder.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Laai aanlyn M3U/JSON URL – 'Laai aanlyn'-knoppie (nutsbalk) of 'Maak oop vanaf URL' in redigeerder.
 Load playlist file (M3U/JSON) from your computer: Laai snitlyslêer (M3U/JSON) van jou rekenaar af
 Loaded: Gelaai
+Loaded {0} channels from JSON file via mapping.: Het {0} kanale vanaf JSON-lêer gelaai via kartering.
 Loaded {0} channels from JSON file.: Het {0} kanale vanaf JSON-lêer gelaai.
 Loaded {0} channels from JSON URL.: Het {0} kanale vanaf JSON URL gelaai.
 Loaded {0} channels from M3U file.: Het {0} kanale vanaf M3U-lêer gelaai.
@@ -193,15 +223,23 @@ Next: Volgende
 Next ▶: Volgende ▶
 No .m3u files found on GitHub repository.: Geen .m3u-lêers gevind op GitHub-bewaarplek nie.
 No cache folder found.: Geen kasvouer gevind nie.
+No channels could be mapped or import cancelled.: Geen kanale kon gekarteer of invoer gekanselleer word nie.
 No channels could be mapped. Check your mapping rules.: Geen kanale kon gekarteer word nie. Gaan jou karteringreëls na.
+No channels loaded from JSON URL.: Geen kanale is vanaf JSON URL gelaai nie.
+No channels loaded from M3U URL.: Geen kanale is vanaf M3U URL gelaai nie.
+No channels loaded from M3U.: Geen kanale is vanaf M3U gelaai nie.
+No channels loaded.: Geen kanale gelaai nie.
 No channels mapped: Geen kanale gekarteer nie
+No comparison results. Run Compare first.: Geen vergelykingsresultate nie. Begin Vergelyk eers.
 No duplicate URLs found.: Geen duplikaat-URL'e gevind nie.
 No EPG data: Geen EPG-data nie
 No EPG information available for this channel.: Geen EPG-inligting beskikbaar vir hierdie kanaal nie.
 No EPG source configured. Please select one from the combo or go to Settings.: Geen EPG-bron is opgestel nie. Kies asseblief een uit die kombinasie of gaan na Instellings.
 No EPG source configured. Would you like to open settings to select one?: Geen EPG-bron is opgestel nie. Wil jy instellings oopmaak om een ​​te kies?
 No favorite channels to export.: Geen gunsteling kanale om uit te voer nie.
+No missing channels to export.: Geen ontbrekende kanale om uit te voer nie.
 No playlist found: Geen snitlys gevind nie
+No second playlist loaded.: Geen tweede snitlys gelaai nie.
 No updates available.: Geen opdaterings beskikbaar nie.
 Normal speed (1x): Normale spoed (1x)
 Not connected to the box.: Nie aan die boks gekoppel nie.
@@ -209,6 +247,8 @@ Now: Nou
 OK: OK
 Online Playlist: Aanlyn snitlys
 Online playlist – select from GitHub repository (auto‑refresh).: Aanlyn snitlys – kies uit GitHub-bewaarplek (outo-herlaai).
+Only in First: Slegs in Eerste
+Only in Second: Slegs in Tweede
 Open File...: Maak lêer oop...
 Open from URL: Maak oop vanaf URL
 Open Playlist: Maak snitlys oop
@@ -216,12 +256,14 @@ Pause/Resume live stream: Onderbreek/Hervat regstreekse stroom
 Paused: Onderbreek
 PayPal: PayPal
 Picture-in-Picture mode: Prent-in-prent-modus
-Player Control: Speler beheer
+Player Controls: Spelerkontroles
 Playlist & Groups: Snitlys en groepe
+Playlist Comparison: Playlist Vergelyking
 Playlist Editor: Playlist Editor
 Playlist Loading: Snitlys laai
 Playlist Management: Snitlysbestuur
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Snitlysbewaarplek: OwnerPlugins/TivuStreamList (Italiaanse en internasionale strome)
+Playlists loaded: Snitlyste gelaai
 Please select a program first.: Kies asseblief eers 'n program.
 Preview (first 5 channels): Voorskou (eerste 5 kanale)
 Preview error: {0}: Voorskoufout: {0}
@@ -237,8 +279,10 @@ Refresh List: Herlaai lys
 Reload GUI: Herlaai GUI
 Remove Command: Verwyder opdrag
 Rename Group: Hernoem groep
+Rename group '{0}' to:: Hernoem groep '{0}' na:
 Repository: Bewaarplek
 Reset Order: Stel bestelling terug
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Resultate: 'Slegs in Eerste', 'Slegs in Tweede', 'In Beide' – met statuskleurkodering.
 Save: Stoor
 SAVE: SPAAR
 Save – persists all settings without reloading current playlist.: Stoor – hou alle instellings voort sonder om huidige snitlys te herlaai.
@@ -251,6 +295,7 @@ Saved: Gestoor
 Search channel: : Soek kanaal:
 Search channels by name: Soek kanale op naam
 Search channels...: Soek kanale...
+sec: sek
 Select a playlist first.: Kies eers 'n snitlys.
 Select Theme: Kies Tema
 Selected theme is saved and applied on restart.: Geselekteerde tema word gestoor en toegepas met herbegin.
@@ -273,6 +318,7 @@ Support the developer: Ondersteun die ontwikkelaar
 Target Field: Teikenveld
 Telnet command:: Telnet opdrag:
 Telnet Commander: Telnet bevelvoerder
+Telnet Config: Telnet Config
 Telnet Console: Telnet-konsole
 Telnet host not configured. Please set it in Settings.: Telnet-gasheer nie opgestel nie. Stel dit asseblief in Instellings.
 Telnet password is empty. Do you want to continue?: Telnet-wagwoord is leeg. Wil jy voortgaan?
@@ -303,6 +349,8 @@ URL Check: URL Kontroleer
 URL list (one per line): URL-lys (een per reël)
 URLs & Status: URL's en status
 Version: Weergawe
+Version {0}.{1}.{2}: Weergawe {0}.{1}.{2}
+Version unknown: Weergawe onbekend
 Waiting for LiveGardenTVPlus to close...: Wag tans vir LiveGardenTVPlus om te sluit...
 Warning: Waarskuwing
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

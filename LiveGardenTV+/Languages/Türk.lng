@@ -1,4 +1,3 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Önbellek klasörü: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Tamamen isteğe bağlıdır – hiçbir özellik engellenmez)
 (No description): (Açıklama yok)
 • Add / rename / delete groups.: • Grupları ekleyin / yeniden adlandırın / silin.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Önceki
 16 colour themes + Light/Dark variants.: 16 renk teması + Açık/Koyu çeşitleri.
 A new version is available. Do you want to update now?: Yeni bir sürüm mevcut. Şimdi güncellemek istiyor musunuz?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Çalma Listesi Düzenleyicisi veya Araçlar menüsündeki 'Karşılaştır' düğmesiyle erişin.
 Access via 'Edit Playlist' button on main toolbar.: Ana araç çubuğundaki 'Oynatma Listesini Düzenle' düğmesiyle erişim.
 Actions: Eylemler
 Add Command: Komut Ekle
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Buket gönderildi ve Enigma2 ka
 Buffer (seconds): Tampon (saniye)
 Buffer size – adjust HLS buffer seconds.: Arabellek boyutu – HLS arabellek saniyelerini ayarlayın.
 Cache: Önbellek
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Önbellek klasörü: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: İptal etmek
 CANCEL: İPTAL ETMEK
+Cannot open browser: Tarayıcı açılamıyor
 Category: Kategori
 Changelog: Değişiklik günlüğü
 Channel Details: Kanal Detayları
 Channel Info: Kanal Bilgisi
+Channel Name: Kanal Adı
 channels from: gelen kanallar
+channels from JSON: JSON'dan kanallar
 channels from JSON URL: JSON URL'sinden kanallar
 channels from URL: URL'den kanallar
 Check Duplicates: Kopyaları Kontrol Et
@@ -57,6 +61,13 @@ Click for details: Ayrıntılar için tıklayın
 Close: Kapalı
 Command name:: Komut adı:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Topluluk ve test: CorvoBoys (corvoboys.org) ve LinuxSat-Support.com
+Compare: Karşılaştırmak
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Şuna göre karşılaştır: Öncelik (ad→grup→tvg-id), Ad, Grup (büyük/küçük harfe duyarlı) veya TvgId.
+Compare Playlists: Çalma Listelerini Karşılaştırın
+Compare two playlists – load first (current playlist) and second (from file or URL).: İki çalma listesini karşılaştırın; birinciyi (geçerli çalma listesi) ve ikinciyi (dosyadan veya URL'den) yükleyin.
+Compare...: Karşılaştırmak...
+Comparison results: {0} channels: Karşılaştırma sonuçları: {0} kanal
+Configuration Missing: Yapılandırma Eksik
 Confirm Reload: Yeniden Yüklemeyi Onayla
 Connect: Bağlamak
 Connected: Bağlı
@@ -83,10 +94,13 @@ Edit command name:: Komut adını düzenleyin:
 Edit Playlist: Oynatma Listesini Düzenle
 Edit telnet command:: Telnet komutunu düzenleyin:
 Edit URLs: URL'leri düzenleyin
+Empty Password: Boş Şifre
 End: Son
 Enrich with EPG: EPG ile zenginleştirin
 Enter bouquet name (without spaces):: Buket adını girin (boşluksuz):
 Enter JSON URL:: JSON URL'sini girin:
+Enter new group name:: Yeni grup adını girin:
+Enter playlist URL (JSON or M3U):: Çalma listesi URL'sini girin (JSON veya M3U):
 Enter playlist URL (M3U or JSON):: Çalma listesi URL'sini girin (M3U veya JSON):
 EPG: EPG
 Epg & Favorites: Epg ve Favoriler
@@ -101,31 +115,40 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG kaynağı
 EPG source – choose XMLTV file or enter custom URL.: EPG kaynağı – XMLTV dosyasını seçin veya özel URL girin.
 EPG Source Missing: EPG Kaynağı Eksik
 Error: Hata
-Error clearing cache: Önbellek temizlenirken hata oluştu
+Error clearing cache: {0}: Önbellek temizlenirken hata oluştu: {0}
 Error loading: Yükleme hatası
+Error loading EPG list: {0}: EPG listesi yüklenirken hata oluştu: {0}
+Error loading file: {0}: Dosya yüklenirken hata oluştu: {0}
 Error loading file: {0}: Dosya yüklenirken hata oluştu: {0}
 Error loading playlists: {0}: Oynatma listeleri yüklenirken hata oluştu: {0}
 Error loading URL: {0}: URL yüklenirken hata oluştu: {0}
+Error loading URL: {0}: URL yüklenirken hata oluştu: {0}
 ERROR: player.html not found.: HATA: player.html bulunamadı.
 Exit: Çıkış
+Export: İhracat
+Export all: Tümünü dışa aktar
 Export Favorites: Favorileri Dışa Aktar
 Export Filtered JSON: Filtrelenmiş JSON'u Dışa Aktar
 Export Filtered M3U: Dışa Aktarma Filtreli M3U
 Export JSON: JSON'u dışa aktar
 Export KO: KO'yu dışa aktar
+Export missing: Dışa aktarma eksik
 Export OK: Dışa aktar Tamam
 Export only favorite channels to a new M3U file: Yalnızca favori kanalları yeni bir M3U dosyasına aktarın
+Export results as JSON or M3U – export missing channels or all channels.: Sonuçları JSON veya M3U olarak dışa aktarın; eksik kanalları veya tüm kanalları dışa aktarın.
+Exported channels: Dışa aktarılan kanallar
 Extracting update...: Güncelleme çıkarılıyor...
 Failed to download playlist: Oynatma listesi indirilemedi
 Failed to load playlist: Oynatma listesi yüklenemedi
-Failed to update bouquets.tv.: Buketler.tv güncellenemedi.
-Failed to upload bouquet.: Buket yüklenemedi.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Buketler.tv güncellenemedi. Lütfen Enigma2 cihazındaki dosya izinlerini kontrol edin.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Buket yüklenemedi. Lütfen Telnet ayarlarınızı (ana bilgisayar, bağlantı noktası, kullanıcı adı, şifre) kontrol edin ve tekrar deneyin.
 Favorite: Favori
 Favorites only: Yalnızca favoriler
 Fetch Logos: Logoları Getir
 File {0} already exists. Overwrite?: {0} dosyası zaten mevcut. Üzerine yazılsın mı?
 File exists: Dosya mevcut
 Filters: Filtreler
+First playlist: {0} channels loaded.: İlk oynatma listesi: {0} kanal yüklendi.
 Fullscreen (hide UI) - press ESC to exit: Tam ekran (kullanıcı arayüzünü gizle) - çıkmak için ESC tuşuna basın
 Geo & Country: Coğrafya ve Ülke
 GeoBlocked: Coğrafi Engelleme
@@ -138,19 +161,23 @@ Hide List: Listeyi Gizle
 HLS playback: hls.js (MIT license): HLS oynatma: hls.js (MIT lisansı)
 Image: Resim
 Import: İçe aktarmak
+Import cancelled or no channels mapped.: İçe aktarma iptal edildi veya hiçbir kanal eşlenmedi.
 Import error: {0}: İçe aktarma hatası: {0}
 Import from URL: URL'den içe aktar
 Import JSON: JSON'u içe aktar
 Import JSON from URL: JSON'u URL'den içe aktar
 Import Local: Yerel İçe Aktar
-Imported {0} channels from JSON.: {0} kanal JSON'dan içe aktarıldı.
+Imported {0} channels from JSON via mapping.: Eşleme yoluyla JSON'dan {0} kanal içe aktarıldı.
 Imported {0} channels from URL.: {0} kanal URL'den içe aktarıldı.
+In Both: Her ikisinde de
 Info: Bilgi
 Info on: Hakkında bilgi
 Invalid JSON: {0}: Geçersiz JSON: {0}
 Invalid playlist URL.: Geçersiz oynatma listesi URL'si.
 Invalid URL.: Geçersiz URL.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: JSON dosyaları|*.json|M3U dosyaları|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON dosyaları|*.json|M3U dosyaları|*.m3u;*.m3u8|Tüm dosyalar|*.*
 JSON Property: JSON Özelliği
 Ko-fi: Kahve
 Language: Dil
@@ -158,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Diller
 Languages (comma): Diller (virgül)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: Lululla'dan LiveGardenTVPlus Yardımı
+LiveGardenTVPlus Help: LiveGardenTVPlus Yardımı
 LOAD: YÜK
 Load a playlist first.: Önce bir çalma listesi yükleyin.
+Load a second playlist first.: Önce ikinci bir çalma listesi yükleyin.
 Load File: Dosya Yükle
+Load from file...: Dosyadan yükle...
+Load from URL: URL'den yükle
+Load from URL...: URL'den yükle...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Yerel M3U/JSON dosyasını yükleyin – 'Dosya Yükle' düğmesi (araç çubuğu) veya düzenleyicideki 'Dosyayı Aç' aracılığıyla.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Çevrimiçi M3U/JSON URL'sini yükleyin – Düzenleyicide 'Çevrimiçi Yükle' düğmesi (araç çubuğu) veya 'URL'den aç'.
 Load playlist file (M3U/JSON) from your computer: Çalma listesi dosyasını (M3U/JSON) bilgisayarınızdan yükleyin
 Loaded: Yüklendi
+Loaded {0} channels from JSON file via mapping.: Eşleme yoluyla JSON dosyasından {0} kanal yüklendi.
 Loaded {0} channels from JSON file.: JSON dosyasından {0} kanal yüklendi.
 Loaded {0} channels from JSON URL.: JSON URL'sinden {0} kanal yüklendi.
 Loaded {0} channels from M3U file.: M3U dosyasından {0} kanal yüklendi.
@@ -191,15 +223,23 @@ Next: Sonraki
 Next ▶: Sonraki ▶
 No .m3u files found on GitHub repository.: GitHub deposunda .m3u dosyası bulunamadı.
 No cache folder found.: Önbellek klasörü bulunamadı.
+No channels could be mapped or import cancelled.: Hiçbir kanal eşlenemedi veya içe aktarma iptal edilemedi.
 No channels could be mapped. Check your mapping rules.: Hiçbir kanal eşleştirilemedi. Eşleme kurallarınızı kontrol edin.
+No channels loaded from JSON URL.: JSON URL'sinden hiçbir kanal yüklenmedi.
+No channels loaded from M3U URL.: M3U URL'sinden hiçbir kanal yüklenmedi.
+No channels loaded from M3U.: M3U'dan hiçbir kanal yüklenmedi.
+No channels loaded.: Hiçbir kanal yüklenmedi.
 No channels mapped: Eşlenen kanal yok
+No comparison results. Run Compare first.: Karşılaştırma sonucu yok. Önce Karşılaştırma'yı çalıştırın.
 No duplicate URLs found.: Yinelenen URL bulunamadı.
 No EPG data: EPG verisi yok
 No EPG information available for this channel.: Bu kanal için EPG bilgisi mevcut değil.
 No EPG source configured. Please select one from the combo or go to Settings.: Yapılandırılmış EPG kaynağı yok. Lütfen kombinasyondan birini seçin veya Ayarlar'a gidin.
 No EPG source configured. Would you like to open settings to select one?: Yapılandırılmış EPG kaynağı yok. Birini seçmek için ayarları açmak ister misiniz?
 No favorite channels to export.: Dışa aktarılacak favori kanal yok.
+No missing channels to export.: Dışa aktarılacak eksik kanal yok.
 No playlist found: Oynatma listesi bulunamadı
+No second playlist loaded.: İkinci bir oynatma listesi yüklenmedi.
 No updates available.: Güncelleme mevcut değil.
 Normal speed (1x): Normal hız (1x)
 Not connected to the box.: Kutuya bağlı değil.
@@ -207,6 +247,8 @@ Now: Şimdi
 OK: TAMAM
 Online Playlist: Çevrimiçi Oynatma Listesi
 Online playlist – select from GitHub repository (auto‑refresh).: Çevrimiçi oynatma listesi – GitHub deposundan seçim yapın (otomatik yenileme).
+Only in First: Yalnızca İlk'te
+Only in Second: Sadece İkinci
 Open File...: Dosyayı Aç...
 Open from URL: URL'den aç
 Open Playlist: Oynatma Listesini Aç
@@ -214,12 +256,14 @@ Pause/Resume live stream: Canlı yayını duraklatın/devam ettirin
 Paused: Duraklatıldı
 PayPal: PayPal
 Picture-in-Picture mode: Resim içinde Resim modu
-Player Control: Oyuncu Kontrolü
+Player Controls: Oyuncu Kontrolleri
 Playlist & Groups: Çalma Listesi ve Gruplar
+Playlist Comparison: Çalma Listesi Karşılaştırması
 Playlist Editor: Çalma Listesi Düzenleyicisi
 Playlist Loading: Çalma Listesi Yükleniyor
 Playlist Management: Oynatma Listesi Yönetimi
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Oynatma listesi deposu: OwnerPlugins/TivuStreamList (İtalyanca ve uluslararası akışlar)
+Playlists loaded: Oynatma listeleri yüklendi
 Please select a program first.: Lütfen önce bir program seçin.
 Preview (first 5 channels): Önizleme (ilk 5 kanal)
 Preview error: {0}: Önizleme hatası: {0}
@@ -235,8 +279,10 @@ Refresh List: Listeyi Yenile
 Reload GUI: GUI'yi yeniden yükle
 Remove Command: Komutu Kaldır
 Rename Group: Grubu Yeniden Adlandır
+Rename group '{0}' to:: '{0}' grubunu şu şekilde yeniden adlandırın:
 Repository: Depo
 Reset Order: Siparişi Sıfırla
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Sonuçlar: 'Yalnızca Birincide', 'Yalnızca İkincide', 'Her İkisinde' – durum renk kodlamasıyla.
 Save: Kaydetmek
 SAVE: KAYDETMEK
 Save – persists all settings without reloading current playlist.: Kaydet – geçerli çalma listesini yeniden yüklemeden tüm ayarları korur.
@@ -249,6 +295,7 @@ Saved: Kaydedildi
 Search channel: : Arama kanalı:
 Search channels by name: Kanalları ada göre arayın
 Search channels...: Kanal ara...
+sec: saniye
 Select a playlist first.: Önce bir çalma listesi seçin.
 Select Theme: Tema Seç
 Selected theme is saved and applied on restart.: Seçilen tema kaydedilir ve yeniden başlatıldığında uygulanır.
@@ -271,8 +318,11 @@ Support the developer: Geliştiriciyi destekleyin
 Target Field: Hedef Alanı
 Telnet command:: Telnet komutu:
 Telnet Commander: Telnet Komutanı
+Telnet Config: Telnet Yapılandırması
 Telnet Console: Telnet Konsolu
-Telnet not configured. Please set it in Settings.: Telnet yapılandırılmadı. Lütfen Ayarlar'da ayarlayın.
+Telnet host not configured. Please set it in Settings.: Telnet ana bilgisayarı yapılandırılmamış. Lütfen Ayarlar'da ayarlayın.
+Telnet password is empty. Do you want to continue?: Telnet şifresi boş. Devam etmek istiyor musun?
+Telnet username not configured. Please set it in Settings.: Telnet kullanıcı adı yapılandırılmadı. Lütfen Ayarlar'da ayarlayın.
 Thanks to: Sayesinde
 Theme picker: Tema seçici
 Theme picker – accessible via Tools menu on main toolbar.: Tema seçici – ana araç çubuğundaki Araçlar menüsünden erişilebilir.
@@ -289,14 +339,18 @@ UI: MaterialDesignThemes.Wpf: Kullanıcı Arayüzü: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Uzak proje dosyasında sürüm bulunamıyor.
 Update: Güncelleme
 Update complete. Restarting...: Güncelleme tamamlandı. Yeniden başlatılıyor...
+Update Error: Güncelleme Hatası
 Update failed: : Güncelleme başarısız oldu:
 Updates: Güncellemeler
+Upload Error: Yükleme Hatası
 URL: URL'si
 URL (primary): URL (birincil)
 URL Check: URL Kontrolü
 URL list (one per line): URL listesi (her satıra bir tane)
 URLs & Status: URL'ler ve Durum
 Version: Sürüm
+Version {0}.{1}.{2}: Sürüm {0}.{1}.{2}
+Version unknown: Sürüm bilinmiyor
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus'ın kapanması bekleniyor...
 Warning: Uyarı
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

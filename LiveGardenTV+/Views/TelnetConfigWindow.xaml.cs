@@ -1,5 +1,5 @@
-using System.Windows;
 using LiveGardenTVPlus.Services;
+using System.Windows;
 
 
 namespace LiveGardenTVPlus.Views

@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Vahemälu kaust: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Täiesti vabatahtlik – ükski funktsioon pole blokeeritud)
 (No description): (kirjeldus puudub)
 • Add / rename / delete groups.: • Lisa/nimeta ümber/kustuta rühmi.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Eelmine
 16 colour themes + Light/Dark variants.: 16 värviteemat + heledad/tumedad variandid.
 A new version is available. Do you want to update now?: Saadaval on uus versioon. Kas soovite kohe värskendada?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Juurdepääs esitusloendi redigeerija või tööriistamenüü nupu Võrdle kaudu.
 Access via 'Edit Playlist' button on main toolbar.: Juurdepääs peamise tööriistariba nupu „Muuda esitusloendit” kaudu.
 Actions: Tegevused
 Add Command: Lisa käsk
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Kimp saadetud ja Enigma2 kanali
 Buffer (seconds): Puhver (sekundites)
 Buffer size – adjust HLS buffer seconds.: Puhvri suurus – reguleerige HLS-i puhvri sekundeid.
 Cache: Vahemälu
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Vahemälu kaust: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Tühista
 CANCEL: TÜHISTA
+Cannot open browser: Brauserit ei saa avada
 Category: Kategooria
 Changelog: Muudatuste logi
 Channel Details: Kanali üksikasjad
 Channel Info: Kanali teave
+Channel Name: Kanali nimi
 channels from: kanalid alates
+channels from JSON: kanalid JSON-ist
 channels from JSON URL: kanalid JSON-i URL-ist
 channels from URL: kanalid URL-ist
 Check Duplicates: Kontrollige duplikaate
@@ -57,6 +61,12 @@ Click for details: Üksikasjade vaatamiseks klõpsake
 Close: Sule
 Command name:: Käsu nimi:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Kogukond ja testimine: CorvoBoys (corvoboys.org) ja LinuxSat-Support.com
+Compare: Võrdle
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Võrdle: prioriteet (nimi → rühm → tvg-id), nimi, rühm (tõstutundlik) või TvgId.
+Compare Playlists: Võrdle esitusloendeid
+Compare two playlists – load first (current playlist) and second (from file or URL).: Võrrelge kahte esitusloendit – laadige esimene (praegune esitusloend) ja teine ​​(failist või URL-ist).
+Compare...: Võrdle...
+Comparison results: {0} channels: Võrdlustulemused: {0} kanalit
 Configuration Missing: Konfiguratsioon puudub
 Confirm Reload: Kinnitage uuesti laadimine
 Connect: Ühendage
@@ -89,6 +99,8 @@ End: Lõpp
 Enrich with EPG: Rikastage EPG-ga
 Enter bouquet name (without spaces):: Sisestage kimbu nimi (ilma tühikuteta):
 Enter JSON URL:: Sisestage JSON-i URL:
+Enter new group name:: Sisestage uus grupi nimi:
+Enter playlist URL (JSON or M3U):: Sisestage esitusloendi URL (JSON või M3U):
 Enter playlist URL (M3U or JSON):: Sisestage esitusloendi URL (M3U või JSON):
 EPG: EPG
 Epg & Favorites: Epg ja lemmikud
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG allikas �
 EPG source – choose XMLTV file or enter custom URL.: EPG allikas – valige XMLTV-fail või sisestage kohandatud URL.
 EPG Source Missing: EPG allikas puudub
 Error: Viga
-Error clearing cache: Viga vahemälu tühjendamisel
+Error clearing cache: {0}: Viga vahemälu tühjendamisel: {0}
 Error loading: Viga laadimisel
+Error loading EPG list: {0}: Viga EPG loendi laadimisel: {0}
+Error loading file: {0}: Viga faili laadimisel: {0}
 Error loading file: {0}: Viga faili laadimisel: {0}
 Error loading playlists: {0}: Viga esitusloendite laadimisel: {0}
 Error loading URL: {0}: Viga URL-i laadimisel: {0}
+Error loading URL: {0}: Viga URL-i laadimisel: {0}
 ERROR: player.html not found.: VIGA: player.html ei leitud.
 Exit: Välju
+Export: Ekspordi
+Export all: Ekspordi kõik
 Export Favorites: Ekspordi lemmikud
 Export Filtered JSON: Ekspordi filtreeritud JSON
 Export Filtered M3U: Ekspordi filtreeritud M3U
 Export JSON: Ekspordi JSON
 Export KO: Ekspordi KO
+Export missing: Eksport puudub
 Export OK: Ekspordi OK
 Export only favorite channels to a new M3U file: Eksportige uude M3U-faili ainult lemmikkanalid
+Export results as JSON or M3U – export missing channels or all channels.: Ekspordi tulemused JSON- või M3U-vormingus – eksportige puuduvad kanalid või kõik kanalid.
+Exported channels: Eksporditud kanalid
 Extracting update...: Värskenduse ekstraktimine...
 Failed to download playlist: Esitusloendi allalaadimine ebaõnnestus
 Failed to load playlist: Esitusloendi laadimine ebaõnnestus
@@ -128,6 +148,7 @@ Fetch Logos: Logode toomine
 File {0} already exists. Overwrite?: Fail {0} on juba olemas. Kas kirjutada üle?
 File exists: Fail on olemas
 Filters: Filtrid
+First playlist: {0} channels loaded.: Esimene esitusloend: {0} kanalit laaditi.
 Fullscreen (hide UI) - press ESC to exit: Täisekraan (peida kasutajaliides) – väljumiseks vajutage ESC
 Geo & Country: Geo ja riik
 GeoBlocked: Geoblokeeritud
@@ -140,19 +161,23 @@ Hide List: Peida loend
 HLS playback: hls.js (MIT license): HLS-i taasesitus: hls.js (MIT-litsents)
 Image: Pilt
 Import: Import
+Import cancelled or no channels mapped.: Import on tühistatud või kanaleid pole kaardistatud.
 Import error: {0}: Impordi viga: {0}
 Import from URL: Import URL-ist
 Import JSON: Importige JSON
 Import JSON from URL: Importige JSON URL-ist
 Import Local: Import Local
-Imported {0} channels from JSON.: Imporditi JSON-ist {0} kanalit.
+Imported {0} channels from JSON via mapping.: Imporditi {0} kanalit JSON-ist kaardistamise kaudu.
 Imported {0} channels from URL.: Imporditi URL-ist {0} kanalit.
+In Both: Mõlemas
 Info: Info
 Info on: Info edasi
 Invalid JSON: {0}: Kehtetu JSON: {0}
 Invalid playlist URL.: Vigane esitusloendi URL.
 Invalid URL.: Kehtetu URL.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: JSON-failid|*.json|M3U-failid|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON-failid|*.json|M3U-failid|*.m3u;*.m3u8|Kõik failid|*.*
 JSON Property: JSON-vara
 Ko-fi: Kohv
 Language: Keel
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Keeled
 Languages (comma): Keeled (koma)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlusi abi autor Lululla
+LiveGardenTVPlus Help: LiveGardenTVPlusi abi
 LOAD: LAADI
 Load a playlist first.: Laadige esmalt esitusloend.
+Load a second playlist first.: Laadige esmalt teine ​​esitusloend.
 Load File: Laadi fail
+Load from file...: Laadi failist...
+Load from URL: Laadi URL-ist
+Load from URL...: Laadi URL-ist...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Laadige kohalik M3U/JSON-fail – nupu 'Laadi fail' (tööriistariba) või redaktoris käsu 'Ava fail' kaudu.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Laadige võrgus M3U/JSON-i URL – nupp „Laadi võrgus” (tööriistariba) või „Ava URL-ist” redaktoris.
 Load playlist file (M3U/JSON) from your computer: Laadige oma arvutist esitusloendi fail (M3U/JSON).
 Loaded: Laaditud
+Loaded {0} channels from JSON file via mapping.: {0} kanalit laaditi JSON-failist kaardistamise kaudu.
 Loaded {0} channels from JSON file.: Laaditi JSON-failist {0} kanalit.
 Loaded {0} channels from JSON URL.: Laaditi JSON-i URL-ist {0} kanalit.
 Loaded {0} channels from M3U file.: M3U-failist laaditi {0} kanalit.
@@ -193,15 +223,23 @@ Next: Edasi
 Next ▶: Järgmine ▶
 No .m3u files found on GitHub repository.: GitHubi hoidlast ei leitud m3u-faile.
 No cache folder found.: Vahemälu kausta ei leitud.
+No channels could be mapped or import cancelled.: Ühtegi kanalit ei saanud kaardistada ega importi tühistada.
 No channels could be mapped. Check your mapping rules.: Ühtegi kanalit ei saanud kaardistada. Kontrollige oma kaardistamise reegleid.
+No channels loaded from JSON URL.: JSON-i URL-ist pole kanaleid laaditud.
+No channels loaded from M3U URL.: M3U URL-ist pole kanaleid laaditud.
+No channels loaded from M3U.: M3U-st pole kanaleid laaditud.
+No channels loaded.: Ühtegi kanalit pole laaditud.
 No channels mapped: Ühtegi kanalit pole kaardistatud
+No comparison results. Run Compare first.: Võrdlustulemusi pole. Käivitage kõigepealt Võrdle.
 No duplicate URLs found.: Dubleerivaid URL-e ei leitud.
 No EPG data: EPG andmed puuduvad
 No EPG information available for this channel.: Selle kanali EPG-teave pole saadaval.
 No EPG source configured. Please select one from the combo or go to Settings.: EPG allikat pole konfigureeritud. Valige kombinatsioonist üks või avage seaded.
 No EPG source configured. Would you like to open settings to select one?: EPG allikat pole konfigureeritud. Kas soovite seadete valimiseks avada?
 No favorite channels to export.: Lemmikkanaleid pole eksportimiseks.
+No missing channels to export.: Eksportimiseks puuduvad puuduvad kanalid.
 No playlist found: Esitusloendit ei leitud
+No second playlist loaded.: Teist esitusloendit pole laaditud.
 No updates available.: Värskendusi pole saadaval.
 Normal speed (1x): Tavaline kiirus (1x)
 Not connected to the box.: Pole karbiga ühendatud.
@@ -209,6 +247,8 @@ Now: Nüüd
 OK: OK
 Online Playlist: Online esitusloend
 Online playlist – select from GitHub repository (auto‑refresh).: Veebi esitusloend – valige GitHubi hoidlast (automaatne värskendamine).
+Only in First: Ainult Esimeses
+Only in Second: Ainult teisel
 Open File...: Ava fail...
 Open from URL: Ava URL-ist
 Open Playlist: Ava esitusloend
@@ -216,12 +256,14 @@ Pause/Resume live stream: Peatage/jätkake otseülekanne
 Paused: Peatatud
 PayPal: PayPal
 Picture-in-Picture mode: Pilt-pildis režiim
-Player Control: Mängija juhtimine
+Player Controls: Mängija juhtnupud
 Playlist & Groups: Esitusloend ja rühmad
+Playlist Comparison: Esitusloendite võrdlus
 Playlist Editor: Esitusloendite redaktor
 Playlist Loading: Esitusloendi laadimine
 Playlist Management: Esitusloendite haldamine
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Esitusloendite hoidla: OwnerPlugins/TivuStreamList (Itaalia ja rahvusvahelised vood)
+Playlists loaded: Esitusloendid on laaditud
 Please select a program first.: Palun valige esmalt programm.
 Preview (first 5 channels): Eelvaade (esimesed 5 kanalit)
 Preview error: {0}: Eelvaate viga: {0}
@@ -237,8 +279,10 @@ Refresh List: Värskenda loendit
 Reload GUI: Laadige GUI uuesti
 Remove Command: Eemalda käsk
 Rename Group: Nimeta grupp ümber
+Rename group '{0}' to:: Nimeta rühm "{0}" ümber:
 Repository: Hoidla
 Reset Order: Lähtesta tellimus
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Tulemused: 'Ainult esimeses', 'Ainult teises', 'Mõlemas' – olekuvärvikoodiga.
 Save: Salvesta
 SAVE: SALVESTA
 Save – persists all settings without reloading current playlist.: Salvesta – säilitab kõik sätted ilma praegust esitusloendit uuesti laadimata.
@@ -251,6 +295,7 @@ Saved: Salvestatud
 Search channel: : Otsi kanalit:
 Search channels by name: Otsige kanaleid nime järgi
 Search channels...: Otsi kanaleid...
+sec: sek
 Select a playlist first.: Valige esmalt esitusloend.
 Select Theme: Valige Teema
 Selected theme is saved and applied on restart.: Valitud teema salvestatakse ja rakendatakse taaskäivitamisel.
@@ -273,6 +318,7 @@ Support the developer: Toetage arendajat
 Target Field: Sihtväli
 Telnet command:: Telneti käsk:
 Telnet Commander: Telneti ülem
+Telnet Config: Telneti konfiguratsioon
 Telnet Console: Telneti konsool
 Telnet host not configured. Please set it in Settings.: Telneti hosti pole konfigureeritud. Määrake see seadetes.
 Telnet password is empty. Do you want to continue?: Telneti parool on tühi. Kas soovite jätkata?
@@ -303,6 +349,8 @@ URL Check: URL-i kontroll
 URL list (one per line): URL-ide loend (üks rea kohta)
 URLs & Status: URL-id ja olek
 Version: Versioon
+Version {0}.{1}.{2}: Versioon {0}.{1}.{2}
+Version unknown: Versioon teadmata
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlusi sulgemise ootamine...
 Warning: Hoiatus
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

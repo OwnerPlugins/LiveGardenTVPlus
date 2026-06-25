@@ -1,4 +1,3 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Folda ya akiba: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Kwa hiari kabisa - hakuna vipengele vilivyozuiwa)
 (No description): (Hakuna maelezo)
 • Add / rename / delete groups.: • Ongeza / badilisha jina / futa vikundi.
@@ -6,7 +5,7 @@
 • Check URL availability (only visible channels).: • Angalia upatikanaji wa URL (njia zinazoonekana pekee).
 • Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Hariri majina ya vituo, vikundi, URL, nembo, tvg-id, nchi, lugha, vipendwa.
 • Edit multiple URLs per channel (popup window).: • Hariri URL nyingi kwa kila kituo (dirisha ibukizi).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Boresha ukitumia EPG: huongeza tvg-id inayokosekana kwa kutumia ulinganishaji wa fuzzy.
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Boresha kwa EPG: inaongeza tvg-id inayokosekana kwa kutumia ulinganishaji wa fuzzy.
 • EPG info displayed in status bar for current channel.: • Maelezo ya EPG yanaonyeshwa kwenye upau wa hali ya kituo cha sasa.
 • Export OK / FAIL / filtered lists as M3U or JSON.: • Hamisha OK / FAIL / orodha zilizochujwa kama M3U au JSON.
 • Fetch logos from remote repository (OwnerPlugins/logos).: • Leta nembo kutoka kwa hazina ya mbali (OwnerPlugins/nembo).
@@ -16,10 +15,11 @@
 • Picture‑in‑Picture (PIP) button.: • Kitufe cha Picha-ndani-Picha (PIP).
 • Playback speed: 0.5x, 1x, 2x buttons.: • Kasi ya kucheza: vitufe 0.5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Panga safu wima yoyote kwa kubofya kichwa; tumia 'Weka Upya Agizo' ili kurejesha agizo asili.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: sitisha mtiririko wa moja kwa moja; buruta kitelezi kutafuta nyuma; bonyeza 'Live' ili kurudi.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: sitisha mtiririko wa moja kwa moja; buruta kitelezi kutafuta nyuma; bonyeza 'Live' ili urudi.
 ◀ Previous: ◀ Iliyotangulia
 16 colour themes + Light/Dark variants.: Mandhari 16 ya rangi + Nyepesi/Vibadala vya Giza.
 A new version is available. Do you want to update now?: Toleo jipya linapatikana. Je, ungependa kusasisha sasa?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Fikia kupitia kitufe cha 'Linganisha' katika Kihariri cha Orodha ya kucheza au menyu ya Zana.
 Access via 'Edit Playlist' button on main toolbar.: Fikia kupitia kitufe cha 'Hariri Orodha ya kucheza' kwenye upau wa vidhibiti kuu.
 Actions: Vitendo
 Add Command: Ongeza Amri
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Bouquet iliyotumwa na orodha ya
 Buffer (seconds): Bafa (sekunde)
 Buffer size – adjust HLS buffer seconds.: Ukubwa wa bafa - rekebisha sekunde za HLS.
 Cache: Akiba
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Folda ya akiba: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Ghairi
 CANCEL: GHAIRI
+Cannot open browser: Haiwezi kufungua kivinjari
 Category: Kategoria
 Changelog: Changelog
 Channel Details: Maelezo ya Kituo
 Channel Info: Maelezo ya Kituo
+Channel Name: Jina la Kituo
 channels from: njia kutoka
+channels from JSON: chaneli kutoka JSON
 channels from JSON URL: chaneli kutoka kwa JSON URL
 channels from URL: chaneli kutoka kwa URL
 Check Duplicates: Angalia Nakala
@@ -57,6 +61,13 @@ Click for details: Bofya kwa maelezo
 Close: Funga
 Command name:: Jina la amri:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Jumuiya na majaribio: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: Linganisha
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Linganisha kwa: Kipaumbele (jina→kikundi→tvg-id), Jina, Kikundi (kinachojali kesi), au TvgId.
+Compare Playlists: Linganisha Orodha za kucheza
+Compare two playlists – load first (current playlist) and second (from file or URL).: Linganisha orodha mbili za kucheza - pakia kwanza (orodha ya kucheza ya sasa) na ya pili (kutoka kwa faili au URL).
+Compare...: Linganisha...
+Comparison results: {0} channels: Matokeo ya kulinganisha: vituo {0}
+Configuration Missing: Usanidi Haupo
 Confirm Reload: Thibitisha Pakia Upya
 Connect: Unganisha
 Connected: Imeunganishwa
@@ -83,10 +94,13 @@ Edit command name:: Hariri jina la amri:
 Edit Playlist: Hariri Orodha ya Kucheza
 Edit telnet command:: Hariri amri ya telnet:
 Edit URLs: Badilisha URL
+Empty Password: Nenosiri tupu
 End: Mwisho
 Enrich with EPG: Kuboresha na EPG
 Enter bouquet name (without spaces):: Ingiza jina la shada (bila nafasi):
 Enter JSON URL:: Weka URL ya JSON:
+Enter new group name:: Ingiza jina jipya la kikundi:
+Enter playlist URL (JSON or M3U):: Weka URL ya orodha ya kucheza (JSON au M3U):
 Enter playlist URL (M3U or JSON):: Weka URL ya orodha ya kucheza (M3U au JSON):
 EPG: EPG
 Epg & Favorites: Epg & Vipendwa
@@ -101,31 +115,40 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: Chanzo cha EP
 EPG source – choose XMLTV file or enter custom URL.: Chanzo cha EPG - chagua faili ya XMLTV au ingiza URL maalum.
 EPG Source Missing: Chanzo cha EPG Kimekosekana
 Error: Hitilafu
-Error clearing cache: Hitilafu katika kufuta akiba
+Error clearing cache: {0}: Hitilafu katika kufuta akiba: {0}
 Error loading: Hitilafu katika upakiaji
+Error loading EPG list: {0}: Hitilafu katika kupakia orodha ya EPG: {0}
+Error loading file: {0}: Hitilafu katika kupakia faili: {0}
 Error loading file: {0}: Hitilafu katika kupakia faili: {0}
 Error loading playlists: {0}: Hitilafu katika kupakia orodha za kucheza: {0}
 Error loading URL: {0}: Hitilafu katika kupakia URL: {0}
+Error loading URL: {0}: Hitilafu katika kupakia URL: {0}
 ERROR: player.html not found.: HITILAFU: player.html haipatikani.
 Exit: Utgång
+Export: Hamisha
+Export all: Hamisha zote
 Export Favorites: Hamisha Vipendwa
 Export Filtered JSON: Hamisha JSON Iliyochujwa
 Export Filtered M3U: Hamisha M3U Iliyochujwa
 Export JSON: Hamisha JSON
 Export KO: Hamisha KO
+Export missing: Uhamishaji haupo
 Export OK: Hamisha Sawa
 Export only favorite channels to a new M3U file: Hamisha chaneli uzipendazo pekee kwa faili mpya ya M3U
+Export results as JSON or M3U – export missing channels or all channels.: Hamisha matokeo kama JSON au M3U - hamisha chaneli ambazo hazipo au chaneli zote.
+Exported channels: Vituo vilivyohamishwa
 Extracting update...: Inatoa sasisho...
 Failed to download playlist: Imeshindwa kupakua orodha ya kucheza
 Failed to load playlist: Imeshindwa kupakia orodha ya kucheza
-Failed to update bouquets.tv.: Imeshindwa kusasisha bouquets.tv.
-Failed to upload bouquet.: Imeshindwa kupakia shada.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Imeshindwa kusasisha bouquets.tv. Tafadhali angalia ruhusa za faili kwenye kifaa cha Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Imeshindwa kupakia shada. Tafadhali angalia mipangilio yako ya Telnet (mwenyeji, mlango, jina la mtumiaji, nenosiri) na ujaribu tena.
 Favorite: Kipendwa
 Favorites only: Vipendwa pekee
 Fetch Logos: Leta Nembo
 File {0} already exists. Overwrite?: Faili {0} tayari ipo. Ungependa kufuta?
 File exists: Faili ipo
 Filters: Vichujio
+First playlist: {0} channels loaded.: Orodha ya kucheza ya kwanza: vituo {0} vilivyopakiwa.
 Fullscreen (hide UI) - press ESC to exit: Skrini nzima (ficha UI) - bonyeza ESC ili kuondoka
 Geo & Country: Jiografia na Nchi
 GeoBlocked: GeoBlocked
@@ -138,19 +161,23 @@ Hide List: Ficha Orodha
 HLS playback: hls.js (MIT license): Uchezaji wa HLS: hls.js (leseni ya MIT)
 Image: Picha
 Import: Ingiza
+Import cancelled or no channels mapped.: Uingizaji umeghairiwa au hakuna vituo vilivyowekwa kwenye ramani.
 Import error: {0}: Hitilafu ya kuleta: {0}
 Import from URL: Ingiza kutoka kwa URL
 Import JSON: Ingiza JSON
 Import JSON from URL: Ingiza JSON kutoka kwa URL
 Import Local: Ingiza Ndani
-Imported {0} channels from JSON.: Imeingiza vituo {0} kutoka JSON.
+Imported {0} channels from JSON via mapping.: Imeingiza vituo {0} kutoka JSON kupitia ramani.
 Imported {0} channels from URL.: Imeingiza vituo {0} kutoka kwa URL.
+In Both: Katika Zote Mbili
 Info: Habari
 Info on: Taarifa juu
 Invalid JSON: {0}: JSON batili: {0}
 Invalid playlist URL.: URL ya orodha ya kucheza si sahihi.
 Invalid URL.: URL batili.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: Faili za JSON|*.json|faili za M3U|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Faili za JSON|*.json|Faili za M3U|*.m3u;*.m3u8|Faili zote|*.*
 JSON Property: Mali ya JSON
 Ko-fi: Kahawa
 Language: Lugha
@@ -158,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Lugha
 Languages (comma): Lugha (koma)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Usaidizi kutoka kwa Lululla
+LiveGardenTVPlus Help: Msaada wa LiveGardenTVPlus
 LOAD: MZIGO
 Load a playlist first.: Pakia orodha ya kucheza kwanza.
+Load a second playlist first.: Pakia orodha ya kucheza ya pili kwanza.
 Load File: Pakia Faili
+Load from file...: Pakia kutoka kwa faili...
+Load from URL: Pakia kutoka kwa URL
+Load from URL...: Pakia kutoka kwa URL...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Pakia faili ya ndani ya M3U/JSON - kupitia kitufe cha 'Pakia Faili' (upau wa vidhibiti) au 'Fungua Faili' kwenye kihariri.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Pakia URL ya M3U/JSON mtandaoni - kitufe cha 'Pakia Mtandaoni' (upau wa vidhibiti) au 'Fungua kutoka kwa URL' katika kihariri.
 Load playlist file (M3U/JSON) from your computer: Pakia faili ya orodha ya kucheza (M3U/JSON) kutoka kwa kompyuta yako
 Loaded: Imepakiwa
+Loaded {0} channels from JSON file via mapping.: Imepakia vituo {0} kutoka faili ya JSON kupitia ramani.
 Loaded {0} channels from JSON file.: Imepakia vituo {0} kutoka faili ya JSON.
 Loaded {0} channels from JSON URL.: Imepakia vituo {0} kutoka kwa JSON URL.
 Loaded {0} channels from M3U file.: Imepakia chaneli {0} kutoka faili ya M3U.
@@ -191,15 +223,23 @@ Next: Inayofuata
 Next ▶: Inayofuata ▶
 No .m3u files found on GitHub repository.: Hakuna faili za .m3u zilizopatikana kwenye hazina ya GitHub.
 No cache folder found.: Hakuna folda ya akiba iliyopatikana.
+No channels could be mapped or import cancelled.: Hakuna vituo vinavyoweza kuchorwa au kuletwa kughairiwa.
 No channels could be mapped. Check your mapping rules.: Hakuna vituo vinavyoweza kuchorwa. Angalia sheria zako za uchoraji ramani.
+No channels loaded from JSON URL.: Hakuna chaneli zilizopakiwa kutoka kwa URL ya JSON.
+No channels loaded from M3U URL.: Hakuna chaneli zilizopakiwa kutoka URL ya M3U.
+No channels loaded from M3U.: Hakuna chaneli zilizopakiwa kutoka M3U.
+No channels loaded.: Hakuna vituo vilivyopakiwa.
 No channels mapped: Hakuna vituo vilivyopangwa
+No comparison results. Run Compare first.: Hakuna matokeo ya kulinganisha. Endesha Linganisha kwanza.
 No duplicate URLs found.: Hakuna nakala za URL zilizopatikana.
 No EPG data: Hakuna data ya EPG
 No EPG information available for this channel.: Hakuna maelezo ya EPG yanayopatikana kwa kituo hiki.
 No EPG source configured. Please select one from the combo or go to Settings.: Hakuna chanzo cha EPG kilichosanidiwa. Tafadhali chagua moja kutoka kwa mchanganyiko au nenda kwa Mipangilio.
 No EPG source configured. Would you like to open settings to select one?: Hakuna chanzo cha EPG kilichosanidiwa. Je, ungependa kufungua mipangilio ili kuchagua moja?
 No favorite channels to export.: Hakuna vituo unavyovipenda vya kusafirisha.
+No missing channels to export.: Hakuna chaneli zinazokosekana za kusafirisha.
 No playlist found: Hakuna orodha ya kucheza iliyopatikana
+No second playlist loaded.: Hakuna orodha ya kucheza ya pili iliyopakiwa.
 No updates available.: Hakuna masasisho yanayopatikana.
 Normal speed (1x): Kasi ya kawaida (1x)
 Not connected to the box.: Haijaunganishwa kwenye kisanduku.
@@ -207,6 +247,8 @@ Now: Sasa
 OK: Sawa
 Online Playlist: Orodha ya kucheza mtandaoni
 Online playlist – select from GitHub repository (auto‑refresh).: Orodha ya kucheza ya mtandaoni - chagua kutoka kwa hazina ya GitHub (onyesha upya kiotomatiki).
+Only in First: Katika Kwanza tu
+Only in Second: Katika Pili tu
 Open File...: Fungua Faili...
 Open from URL: Fungua kutoka kwa URL
 Open Playlist: Fungua Orodha ya kucheza
@@ -214,12 +256,14 @@ Pause/Resume live stream: Sitisha/Rejesha mtiririko wa moja kwa moja
 Paused: Imesitishwa
 PayPal: PayPal
 Picture-in-Picture mode: Hali ya Picha-ndani-Picha
-Player Control: Udhibiti wa Mchezaji
+Player Controls: Vidhibiti vya Mchezaji
 Playlist & Groups: Orodha ya kucheza na Vikundi
+Playlist Comparison: Ulinganisho wa Orodha ya kucheza
 Playlist Editor: Kihariri cha Orodha ya kucheza
 Playlist Loading: Orodha ya kucheza Inapakia
 Playlist Management: Usimamizi wa Orodha ya kucheza
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Hazina ya orodha ya kucheza: OwnerPlugins/TivuStreamList (mitiririko ya Kiitaliano na kimataifa)
+Playlists loaded: Orodha za kucheza zimepakiwa
 Please select a program first.: Tafadhali chagua programu kwanza.
 Preview (first 5 channels): Hakiki (vituo 5 vya kwanza)
 Preview error: {0}: Hitilafu ya onyesho la kukagua: {0}
@@ -235,8 +279,10 @@ Refresh List: Onyesha upya Orodha
 Reload GUI: Pakia upya GUI
 Remove Command: Ondoa Amri
 Rename Group: Badilisha Kikundi jina
+Rename group '{0}' to:: Kipe kikundi jina jipya '{0}' kuwa:
 Repository: Hifadhi
 Reset Order: Weka upya Agizo
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Matokeo: 'Katika Kwanza Pekee', 'Katika Pili Pekee', 'Katika Zote' - kwa usimbaji wa rangi ya hali.
 Save: Hifadhi
 SAVE: HIFADHI
 Save – persists all settings without reloading current playlist.: Hifadhi - hudumisha mipangilio yote bila kupakia upya orodha ya kucheza ya sasa.
@@ -249,6 +295,7 @@ Saved: Imehifadhiwa
 Search channel: : Tafuta kituo:
 Search channels by name: Tafuta vituo kwa majina
 Search channels...: Tafuta vituo...
+sec: sekunde
 Select a playlist first.: Chagua orodha ya kucheza kwanza.
 Select Theme: Chagua Mandhari
 Selected theme is saved and applied on restart.: Mandhari yaliyochaguliwa yanahifadhiwa na kutumika wakati wa kuwasha upya.
@@ -271,8 +318,11 @@ Support the developer: Saidia msanidi programu
 Target Field: Sehemu Lengwa
 Telnet command:: Amri ya Telnet:
 Telnet Commander: Kamanda wa Telnet
+Telnet Config: Usanidi wa Telnet
 Telnet Console: Console ya Telnet
-Telnet not configured. Please set it in Settings.: Telnet haijasanidiwa. Tafadhali iweke katika Mipangilio.
+Telnet host not configured. Please set it in Settings.: Kipangishi cha Telnet hakijasanidiwa. Tafadhali iweke katika Mipangilio.
+Telnet password is empty. Do you want to continue?: Nenosiri la Telnet ni tupu. Je, ungependa kuendelea?
+Telnet username not configured. Please set it in Settings.: Jina la mtumiaji la Telnet halijasanidiwa. Tafadhali iweke katika Mipangilio.
 Thanks to: Shukrani kwa
 Theme picker: Kiteua mada
 Theme picker – accessible via Tools menu on main toolbar.: Kiteua mandhari - kinapatikana kupitia menyu ya Zana kwenye upau wa vidhibiti kuu.
@@ -289,14 +339,18 @@ UI: MaterialDesignThemes.Wpf: UI:MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Haijaweza kupata toleo katika faili ya mradi wa mbali.
 Update: Sasisha
 Update complete. Restarting...: Usasishaji umekamilika. Inaanza upya...
+Update Error: Hitilafu ya Usasishaji
 Update failed: : Imeshindwa kusasisha:
 Updates: Sasisho
+Upload Error: Hitilafu ya Upakiaji
 URL: URL
 URL (primary): URL (ya msingi)
 URL Check: Angalia URL
 URL list (one per line): Orodha ya URL (moja kwa kila mstari)
 URLs & Status: URLs na Hali
 Version: Toleo
+Version {0}.{1}.{2}: Toleo {0}.{1}.{2}
+Version unknown: Toleo halijulikani
 Waiting for LiveGardenTVPlus to close...: Inasubiri LiveGardenTVPlus kufunga...
 Warning: Onyo
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

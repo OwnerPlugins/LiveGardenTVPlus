@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Քեշի թղթապանակ՝ %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Լիովին կամավոր. ոչ մի գործառույթ արգելափակված չէ)
 (No description): (առանց նկարագրության)
 • Add / rename / delete groups.: • Ավելացնել / վերանվանել / ջնջել խմբեր:
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Նախորդ
 16 colour themes + Light/Dark variants.: 16 գունային թեմաներ + Լույս/Մութ տարբերակներ։
 A new version is available. Do you want to update now?: Հասանելի է նոր տարբերակ։ Ցանկանու՞մ եք թարմացնել հիմա:
+Access via 'Compare' button in Playlist Editor or Tools menu.: Մուտք գործեք «Համեմատել» կոճակի միջոցով Երգացանկի խմբագրիչի կամ Գործիքների ցանկում:
 Access via 'Edit Playlist' button on main toolbar.: Մուտք գործեք հիմնական գործիքագոտու «Խմբագրել երգացանկը» կոճակի միջոցով:
 Actions: Գործողություններ
 Add Command: Ավելացնել հրաման
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Ծաղկեփունջն ուղա
 Buffer (seconds): Բուֆեր (վայրկյան)
 Buffer size – adjust HLS buffer seconds.: Բուֆերի չափը – կարգավորեք HLS բուֆերային վայրկյանները:
 Cache: Քեշ
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Քեշի պանակ՝ %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Չեղարկել
 CANCEL: ՉԵՂԱՐԿԵԼ
+Cannot open browser: Հնարավոր չէ բացել զննարկիչը
 Category: Կարգավիճակ
 Changelog: Փոփոխություններ
 Channel Details: Ալիքի մանրամասները
 Channel Info: Channel Info
+Channel Name: Ալիքի անվանումը
 channels from: ալիքներից
+channels from JSON: ալիքներ JSON-ից
 channels from JSON URL: ալիքներ JSON URL-ից
 channels from URL: ալիքներ URL-ից
 Check Duplicates: Ստուգեք կրկնօրինակները
@@ -57,6 +61,12 @@ Click for details: Սեղմեք մանրամասների համար
 Close: Փակել
 Command name:: Հրամանի անունը.
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Համայնք և փորձարկում՝ CorvoBoys (corvoboys.org) և LinuxSat-Support.com
+Compare: Համեմատեք
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Համեմատեք ըստ՝ առաջնահերթության (անուն → խումբ → tvg-id), անուն, խումբ (գործերի նկատմամբ զգայուն) կամ TvgId:
+Compare Playlists: Համեմատեք երգացանկերը
+Compare two playlists – load first (current playlist) and second (from file or URL).: Համեմատեք երկու երգացանկ՝ բեռնել առաջինը (ընթացիկ երգացանկը) և երկրորդը (ֆայլից կամ URL-ից):
+Compare...: Համեմատեք...
+Comparison results: {0} channels: Համեմատության արդյունքներ՝ {0} ալիք
 Configuration Missing: Կոնֆիգուրացիան բացակայում է
 Confirm Reload: Հաստատեք վերաբեռնումը
 Connect: Միացնել
@@ -89,6 +99,8 @@ End: Վերջ
 Enrich with EPG: Հարստացրեք EPG-ով
 Enter bouquet name (without spaces):: Մուտքագրեք ծաղկեփնջի անունը (առանց բացատների).
 Enter JSON URL:: Մուտքագրեք JSON URL.
+Enter new group name:: Մուտքագրեք նոր խմբի անունը.
+Enter playlist URL (JSON or M3U):: Մուտքագրեք երգացանկի URL (JSON կամ M3U):
 Enter playlist URL (M3U or JSON):: Մուտքագրեք երգացանկի URL (M3U կամ JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favorites
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG աղբյ�
 EPG source – choose XMLTV file or enter custom URL.: EPG աղբյուր – ընտրեք XMLTV ֆայլ կամ մուտքագրեք հատուկ URL:
 EPG Source Missing: EPG աղբյուրը բացակայում է
 Error: Սխալ
-Error clearing cache: Սխալ՝ քեշը մաքրելիս
+Error clearing cache: {0}: Սխալ՝ քեշը մաքրելիս՝ {0}
 Error loading: Սխալ բեռնելիս
+Error loading EPG list: {0}: EPG ցուցակը բեռնելիս սխալ՝ {0}
+Error loading file: {0}: Սխալ՝ ֆայլը բեռնելիս՝ {0}
 Error loading file: {0}: Սխալ՝ ֆայլը բեռնելիս՝ {0}
 Error loading playlists: {0}: Չհաջողվեց բեռնել երգացանկերը՝ {0}
 Error loading URL: {0}: URL-ի բեռնման սխալ՝ {0}
+Error loading URL: {0}: URL-ի բեռնման սխալ՝ {0}
 ERROR: player.html not found.: ՍԽԱԼ. player.html-ը չի գտնվել:
 Exit: Ելք
+Export: Արտահանում
+Export all: Արտահանել բոլորը
 Export Favorites: Արտահանել ընտրյալները
 Export Filtered JSON: Արտահանել զտված JSON
 Export Filtered M3U: Արտահանել ֆիլտրացված M3U
 Export JSON: Արտահանել JSON
 Export KO: Արտահանել KO
+Export missing: Արտահանումը բացակայում է
 Export OK: Արտահանել OK
 Export only favorite channels to a new M3U file: Արտահանել միայն սիրելի ալիքները նոր M3U ֆայլ
+Export results as JSON or M3U – export missing channels or all channels.: Արտահանեք արդյունքները որպես JSON կամ M3U – արտահանեք բացակայող ալիքները կամ բոլոր ալիքները:
+Exported channels: Արտահանված ալիքներ
 Extracting update...: Թարմացումների արդյունահանում...
 Failed to download playlist: Չհաջողվեց ներբեռնել տեսացանկը
 Failed to load playlist: Չհաջողվեց բեռնել տեսացանկը
@@ -128,6 +148,7 @@ Fetch Logos: Բերել լոգոները
 File {0} already exists. Overwrite?: Ֆայլ {0} արդեն գոյություն ունի: Վերագրե՞լ
 File exists: Ֆայլը գոյություն ունի
 Filters: Զտիչներ
+First playlist: {0} channels loaded.: Առաջին երգացանկը՝ բեռնված է {0} ալիք:
 Fullscreen (hide UI) - press ESC to exit: Ամբողջ էկրանով (թաքցնել UI) - սեղմեք ESC՝ դուրս գալու համար
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
@@ -140,19 +161,23 @@ Hide List: Թաքցնել ցուցակը
 HLS playback: hls.js (MIT license): HLS նվագարկումը՝ hls.js (MIT լիցենզիա)
 Image: Պատկեր
 Import: Ներմուծում
+Import cancelled or no channels mapped.: Ներմուծումը չեղարկվել է կամ ալիքները քարտեզագրված չեն:
 Import error: {0}: Ներմուծման սխալ՝ {0}
 Import from URL: Ներմուծում URL-ից
 Import JSON: Ներմուծեք JSON
 Import JSON from URL: Ներմուծեք JSON URL-ից
 Import Local: Ներմուծեք տեղական
-Imported {0} channels from JSON.: Ներմուծվել է {0} ալիք JSON-ից:
+Imported {0} channels from JSON via mapping.: Քարտեզագրման միջոցով ներմուծվել է {0} ալիք JSON-ից:
 Imported {0} channels from URL.: Ներմուծվել է {0} ալիք URL-ից:
+In Both: Երկուսում էլ
 Info: Ինֆո
 Info on: Տեղեկություններ
 Invalid JSON: {0}: Անվավեր JSON՝ {0}
 Invalid playlist URL.: Անվավեր երգացանկի URL:
 Invalid URL.: Անվավեր URL:
 Json: Ջսոն
+JSON files|*.json|M3U files|*.m3u: JSON ֆայլեր|*.json|M3U ֆայլեր|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON ֆայլեր|*.json|M3U ֆայլեր|*.m3u;*.m3u8|Բոլոր ֆայլերը|*.*
 JSON Property: JSON սեփականություն
 Ko-fi: Սուրճ
 Language: Լեզու
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Լեզուներ
 Languages (comma): Լեզուներ (ստորակետ)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Օգնություն Lululla-ի կողմից
+LiveGardenTVPlus Help: LiveGardenTVPlus Օգնություն
 LOAD: ԲԵՌՆԱՐԿՈՒՄ
 Load a playlist first.: Նախ բեռնեք երգացանկը:
+Load a second playlist first.: Նախ բեռնեք երկրորդ երգացանկը:
 Load File: Բեռնել ֆայլը
+Load from file...: Բեռնել ֆայլից...
+Load from URL: Բեռնել URL-ից
+Load from URL...: Բեռնել URL-ից...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Բեռնել տեղական M3U/JSON ֆայլը – «Բեռնել ֆայլը» կոճակի (գործիքադարակի) կամ «Բացել ֆայլի» միջոցով խմբագրիչում:
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Ներբեռնեք առցանց M3U/JSON URL – «Բեռնել առցանց» կոճակը (գործիքադարակը) կամ «Բացել URL-ից» խմբագրիչում:
 Load playlist file (M3U/JSON) from your computer: Ներբեռնեք երգացանկի ֆայլը (M3U/JSON) ձեր համակարգչից
 Loaded: Բեռնված
+Loaded {0} channels from JSON file via mapping.: Քարտեզագրման միջոցով բեռնվել է {0} ալիք JSON ֆայլից:
 Loaded {0} channels from JSON file.: Բեռնվել է {0} ալիք JSON ֆայլից:
 Loaded {0} channels from JSON URL.: Բեռնվել է {0} ալիք JSON URL-ից:
 Loaded {0} channels from M3U file.: Բեռնվել է {0} ալիք M3U ֆայլից:
@@ -193,15 +223,23 @@ Next: Հաջորդը
 Next ▶: Հաջորդը ▶
 No .m3u files found on GitHub repository.: GitHub պահոցում .m3u ֆայլեր չեն գտնվել:
 No cache folder found.: Քեշի թղթապանակ չի գտնվել:
+No channels could be mapped or import cancelled.: Ոչ մի ալիք չի կարող քարտեզագրվել կամ ներմուծումը չեղարկվել:
 No channels could be mapped. Check your mapping rules.: Ոչ մի ալիք հնարավոր չէ քարտեզագրել: Ստուգեք ձեր քարտեզագրման կանոնները:
+No channels loaded from JSON URL.: JSON URL-ից բեռնված ալիքներ չկան:
+No channels loaded from M3U URL.: M3U URL-ից բեռնված ալիքներ չկան:
+No channels loaded from M3U.: M3U-ից բեռնված ալիքներ չկան:
+No channels loaded.: Չկան բեռնված ալիքներ:
 No channels mapped: Չկան քարտեզագրված ալիքներ
+No comparison results. Run Compare first.: Համեմատության արդյունքներ չկան: Նախ գործարկեք Համեմատեք:
 No duplicate URLs found.: Կրկնվող URL-ներ չեն գտնվել:
 No EPG data: EPG տվյալներ չկան
 No EPG information available for this channel.: Այս ալիքի համար EPG տեղեկություններ չկան:
 No EPG source configured. Please select one from the combo or go to Settings.: EPG աղբյուր չկա կազմաձևված: Խնդրում ենք ընտրել մեկը կոմբից կամ գնացեք Կարգավորումներ:
 No EPG source configured. Would you like to open settings to select one?: EPG աղբյուր չկա կազմաձևված: Ցանկանու՞մ եք բացել կարգավորումները՝ մեկն ընտրելու համար:
 No favorite channels to export.: Արտահանման սիրված ալիքներ չկան:
+No missing channels to export.: Արտահանման համար բացակայող ալիքներ չկան:
 No playlist found: Երգացանկ չի գտնվել
+No second playlist loaded.: Երկրորդ երգացանկը բեռնված չէ:
 No updates available.: Թարմացումներ չկան:
 Normal speed (1x): Նորմալ արագություն (1x)
 Not connected to the box.: Միացված չէ տուփին:
@@ -209,6 +247,8 @@ Now: Հիմա
 OK: Լավ
 Online Playlist: Առցանց երգացանկ
 Online playlist – select from GitHub repository (auto‑refresh).: Առցանց երգացանկ – ընտրեք GitHub պահոցից (ավտոմատ թարմացում):
+Only in First: Միայն Առաջինում
+Only in Second: Միայն Երկրորդում
 Open File...: Բացել Ֆայլը...
 Open from URL: Բացեք URL-ից
 Open Playlist: Բացեք երգացանկը
@@ -216,12 +256,14 @@ Pause/Resume live stream: Դադարեցնել/Վերսկսել ուղիղ հե�
 Paused: Դադարեցված է
 PayPal: PayPal
 Picture-in-Picture mode: Նկար նկարի մեջ ռեժիմ
-Player Control: Խաղացողի վերահսկում
+Player Controls: Խաղացողի վերահսկում
 Playlist & Groups: Երգացանկ և խմբեր
+Playlist Comparison: Երգացանկի համեմատություն
 Playlist Editor: Երգացանկի խմբագիր
 Playlist Loading: Երգացանկը բեռնվում է
 Playlist Management: Երգացանկի կառավարում
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Երգացանկի պահեստ՝ OwnerPlugins/TivuStreamList (իտալական և միջազգային հոսքեր)
+Playlists loaded: Տեսացանկերը բեռնված են
 Please select a program first.: Խնդրում ենք նախ ընտրել ծրագիր:
 Preview (first 5 channels): Նախադիտում (առաջին 5 ալիք)
 Preview error: {0}: Նախադիտման սխալ՝ {0}
@@ -237,8 +279,10 @@ Refresh List: Թարմացնել ցանկը
 Reload GUI: Վերբեռնել GUI-ը
 Remove Command: Հեռացնել հրամանը
 Rename Group: Վերանվանել խումբը
+Rename group '{0}' to:: Վերանվանել «{0}» խումբը՝
 Repository: Պահեստարան
 Reset Order: Վերականգնել Պատվերը
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Արդյունքները՝ «Միայն առաջինում», «Միայն երկրորդում», «Երկուսի մեջ»՝ կարգավիճակի գույնի կոդավորումով:
 Save: Պահպանել
 SAVE: ՊԱՀՊԱՆԵԼ
 Save – persists all settings without reloading current playlist.: Պահպանել – պահպանում է բոլոր կարգավորումները՝ առանց ընթացիկ երգացանկը վերաբեռնելու:
@@ -251,6 +295,7 @@ Saved: Պահպանված է
 Search channel: : Որոնել ալիք.
 Search channels by name: Որոնեք ալիքները անունով
 Search channels...: Որոնել ալիքներ...
+sec: վրկ
 Select a playlist first.: Նախ ընտրեք երգացանկ:
 Select Theme: Ընտրեք թեմա
 Selected theme is saved and applied on restart.: Ընտրված թեման պահվում է և կիրառվում է վերագործարկման ժամանակ:
@@ -273,6 +318,7 @@ Support the developer: Աջակցեք մշակողին
 Target Field: Թիրախային դաշտ
 Telnet command:: Telnet հրաման.
 Telnet Commander: Telnet-ի հրամանատար
+Telnet Config: Telnet Config
 Telnet Console: Telnet վահանակ
 Telnet host not configured. Please set it in Settings.: Telnet հոսթինգը կազմաձևված չէ: Խնդրում ենք կարգավորել այն Կարգավորումներում:
 Telnet password is empty. Do you want to continue?: Telnet գաղտնաբառը դատարկ է: Ցանկանու՞մ եք շարունակել։
@@ -303,6 +349,8 @@ URL Check: URL-ի ստուգում
 URL list (one per line): URL ցուցակ (մեկ տողում)
 URLs & Status: URL-ներ և կարգավիճակ
 Version: Տարբերակ
+Version {0}.{1}.{2}: Տարբերակ {0}։{1}։{2}
+Version unknown: Տարբերակն անհայտ է
 Waiting for LiveGardenTVPlus to close...: Սպասում ենք LiveGardenTVPlus-ի փակմանը...
 Warning: Զգուշացում
 WebView2: Microsoft Edge WebView2: WebView2. Microsoft Edge WebView2

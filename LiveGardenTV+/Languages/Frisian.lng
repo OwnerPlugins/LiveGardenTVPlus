@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache map: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Folslein frijwillich - gjin funksjes wurde blokkearre)
 (No description): (Gjin beskriuwing)
 • Add / rename / delete groups.: • Add / omneame / wiskje groepen.
@@ -6,7 +5,7 @@
 • Check URL availability (only visible channels).: • Kontrolearje URL beskikber (allinne sichtbere kanalen).
 • Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Kanaalnammen, groepen, URL's, logo's, tvg-id, lân, talen, favoriten bewurkje.
 • Edit multiple URLs per channel (popup window).: • Bewurkje meardere URLs per kanaal (popup finster).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Enrich with EPG: adds missing tvg-id using fuzzy matching.
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Ferrykje mei EPG: foeget ûntbrekkende tvg-id ta mei fuzzy matching.
 • EPG info displayed in status bar for current channel.: • EPG info werjûn yn status bar foar aktuele kanaal.
 • Export OK / FAIL / filtered lists as M3U or JSON.: • Eksportearje OK / FAIL / filtere listen as M3U of JSON.
 • Fetch logos from remote repository (OwnerPlugins/logos).: • Fetch logos út remote repository (OwnerPlugins / logos).
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Foarige
 16 colour themes + Light/Dark variants.: 16 kleurtema's + Ljocht / Donkere farianten.
 A new version is available. Do you want to update now?: In nije ferzje is beskikber. Wolle jo no bywurkje?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Tagong fia 'Fergelykje' knop yn Playlist Editor of Tools menu.
 Access via 'Edit Playlist' button on main toolbar.: Tagong fia 'Playlist bewurkje' knop op 'e haadarkbalke.
 Actions: Aksjes
 Add Command: Kommando taheakje
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Bouquet ferstjoerd en Enigma2 k
 Buffer (seconds): Buffer (sekonden)
 Buffer size – adjust HLS buffer seconds.: Buffergrutte - oanpasse HLS buffer sekonden.
 Cache: Cache
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Cache map: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Ofbrekke
 CANCEL: CANCEL
+Cannot open browser: Kin browser net iepenje
 Category: Kategory
 Changelog: Feroaringslog
 Channel Details: Channel Details
 Channel Info: Channel Info
+Channel Name: Kanaal Namme
 channels from: kanalen út
+channels from JSON: kanalen fan JSON
 channels from JSON URL: kanalen fan JSON URL
 channels from URL: kanalen fan URL
 Check Duplicates: Kontrolearje Duplikaten
@@ -57,6 +61,12 @@ Click for details: Klik foar details
 Close: Slute
 Command name:: Kommando namme:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Mienskip en testen: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: Ferlykje
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Fergelykje op: Prioriteit (namme→groep→tvg-id), Namme, Groep (hoofdlettergefoelich), of TvgId.
+Compare Playlists: Ferlykje Playlists
+Compare two playlists – load first (current playlist) and second (from file or URL).: Fergelykje twa playlists - laden earst (hjoeddeistige playlist) en twadde (fan bestân as URL).
+Compare...: Fergelykje...
+Comparison results: {0} channels: Fergelikingsresultaten: {0} kanalen
 Configuration Missing: Konfiguraasje Missing
 Confirm Reload: Befêstigje Reload
 Connect: Ferbine
@@ -89,6 +99,8 @@ End: Ein
 Enrich with EPG: Ferrykje mei EPG
 Enter bouquet name (without spaces):: Fier boeketnamme yn (sûnder spaasjes):
 Enter JSON URL:: Fier JSON URL yn:
+Enter new group name:: Fier nije groep namme yn:
+Enter playlist URL (JSON or M3U):: Fier playlist URL yn (JSON of M3U):
 Enter playlist URL (M3U or JSON):: Fier de playlist-URL yn (M3U of JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favorites
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG-boarne - 
 EPG source – choose XMLTV file or enter custom URL.: EPG-boarne - kies XMLTV-bestân of fier in oanpaste URL yn.
 EPG Source Missing: EPG Boarne Missing
 Error: Fersin
-Error clearing cache: Flater by it wiskjen fan cache
+Error clearing cache: {0}: Flater by it wiskjen fan cache: {0}
 Error loading: Flater by it laden
+Error loading EPG list: {0}: Flater by it laden fan EPG-list: {0}
+Error loading file: {0}: Flater by it laden fan triem: {0}
 Error loading file: {0}: Flater by it laden fan triem: {0}
 Error loading playlists: {0}: Flater by it laden fan playlists: {0}
 Error loading URL: {0}: Flater by it laden fan URL: {0}
+Error loading URL: {0}: Flater by it laden fan URL: {0}
 ERROR: player.html not found.: FOUT: player.html net fûn.
 Exit: Útgong
+Export: Eksportearje
+Export all: Eksportearje alles
 Export Favorites: Eksportearje Favorites
 Export Filtered JSON: Eksportearje filtere JSON
 Export Filtered M3U: Eksportearje Filtered M3U
 Export JSON: JSON eksportearje
 Export KO: Eksportearje KO
+Export missing: Eksportearje mist
 Export OK: Eksportearje OK
 Export only favorite channels to a new M3U file: Eksportearje allinich favorite kanalen nei in nij M3U-bestân
+Export results as JSON or M3U – export missing channels or all channels.: Eksportearje resultaten as JSON of M3U - eksportearje ûntbrekkende kanalen as alle kanalen.
+Exported channels: Eksportearre kanalen
 Extracting update...: Update útpakke...
 Failed to download playlist: It downloaden fan playlist is mislearre
 Failed to load playlist: It laden fan playlist is mislearre
@@ -128,6 +148,7 @@ Fetch Logos: Logos ophelje
 File {0} already exists. Overwrite?: Triem {0} bestiet al. Oerskriuwe?
 File exists: Triem bestiet
 Filters: Filters
+First playlist: {0} channels loaded.: Earste playlist: {0} kanalen laden.
 Fullscreen (hide UI) - press ESC to exit: Folslein skerm (ferbergje UI) - druk op ESC om út te gean
 Geo & Country: Geo & Lân
 GeoBlocked: GeoBlocked
@@ -140,19 +161,23 @@ Hide List: Ferbergje List
 HLS playback: hls.js (MIT license): HLS-ôfspieling: hls.js (MIT-lisinsje)
 Image: Byld
 Import: Ymport
+Import cancelled or no channels mapped.: Ymport annulearre of gjin kanalen yn kaart brocht.
 Import error: {0}: Ymportflater: {0}
 Import from URL: Ymportearje fan URL
 Import JSON: Ymportearje JSON
 Import JSON from URL: Ymportearje JSON fan URL
 Import Local: Ymportearje Lokaal
-Imported {0} channels from JSON.: Ymporteare {0} kanalen fan JSON.
+Imported {0} channels from JSON via mapping.: Ymporteare {0} kanalen fan JSON fia mapping.
 Imported {0} channels from URL.: Ymporteare {0} kanalen fan URL.
+In Both: Yn beide
 Info: Info
 Info on: Ynformaasje oer
 Invalid JSON: {0}: Unjildige JSON: {0}
 Invalid playlist URL.: Unjildige playlist-URL.
 Invalid URL.: Unjildige URL.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: JSON-bestannen|*.json|M3U-bestannen|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON-bestannen|*.json|M3U-bestannen|*.m3u;*.m3u8|Alle triemmen|*.*
 JSON Property: JSON Eigenskip
 Ko-fi: Kofje
 Language: Taal
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Talen
 Languages (comma): Talen (komma)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Help troch Lululla
+LiveGardenTVPlus Help: LiveGardenTVPlus Help
 LOAD: LADE
 Load a playlist first.: Laad earst in playlist.
+Load a second playlist first.: Laad earst in twadde playlist.
 Load File: Laad Triem
+Load from file...: Laad fan triem...
+Load from URL: Laad fan URL
+Load from URL...: Laad fan URL...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Laad lokale M3U/JSON-bestân - fia 'Bestân laden' knop (arkbalke) of 'Bestân iepenje' yn bewurker.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Laad online M3U/JSON URL - 'Load Online' knop (arkbalke) of 'Iepenje fan URL' yn bewurker.
 Load playlist file (M3U/JSON) from your computer: Laad playlistbestân (M3U/JSON) fan jo kompjûter
 Loaded: Loaded
+Loaded {0} channels from JSON file via mapping.: Laad {0} kanalen út JSON triem fia mapping.
 Loaded {0} channels from JSON file.: Laad {0} kanalen út JSON triem.
 Loaded {0} channels from JSON URL.: Laad {0} kanalen fan JSON URL.
 Loaded {0} channels from M3U file.: Laad {0} kanalen út M3U triem.
@@ -193,15 +223,23 @@ Next: Folgjende
 Next ▶: Folgjende ▶
 No .m3u files found on GitHub repository.: Gjin .m3u triemmen fûn op GitHub repository.
 No cache folder found.: Gjin cache-map fûn.
+No channels could be mapped or import cancelled.: Gjin kanalen koene wurde yn kaart brocht of ymportearjen annulearre.
 No channels could be mapped. Check your mapping rules.: Gjin kanalen koene wurde yn kaart brocht. Kontrolearje jo mapping regels.
+No channels loaded from JSON URL.: Gjin kanalen laden fan JSON URL.
+No channels loaded from M3U URL.: Gjin kanalen laden fan M3U URL.
+No channels loaded from M3U.: Gjin kanalen laden fan M3U.
+No channels loaded.: Gjin kanalen laden.
 No channels mapped: Gjin kanalen yn kaart brocht
+No comparison results. Run Compare first.: Gjin ferliking resultaten. Run Compare earst.
 No duplicate URLs found.: Gjin dûbele URL's fûn.
 No EPG data: Gjin EPG-gegevens
 No EPG information available for this channel.: Gjin EPG-ynformaasje beskikber foar dit kanaal.
 No EPG source configured. Please select one from the combo or go to Settings.: Gjin EPG-boarne ynsteld. Selektearje asjebleaft ien út 'e kombinaasje of gean nei Ynstellings.
 No EPG source configured. Would you like to open settings to select one?: Gjin EPG-boarne ynsteld. Wolle jo ynstellings iepenje om ien te selektearjen?
 No favorite channels to export.: Gjin favorite kanalen om te eksportearjen.
+No missing channels to export.: Gjin ûntbrekkende kanalen om te eksportearjen.
 No playlist found: Gjin playlist fûn
+No second playlist loaded.: Gjin twadde playlist laden.
 No updates available.: Gjin updates beskikber.
 Normal speed (1x): Normale snelheid (1x)
 Not connected to the box.: Net ferbûn oan it fak.
@@ -209,6 +247,8 @@ Now: No
 OK: OK
 Online Playlist: Online Playlist
 Online playlist – select from GitHub repository (auto‑refresh).: Online playlist - selektearje út GitHub repository (auto-ferfarskje).
+Only in First: Allinnich yn Earste
+Only in Second: Allinnich yn twadde
 Open File...: Triem iepenje...
 Open from URL: Iepenje fan URL
 Open Playlist: Iepenje Playlist
@@ -216,12 +256,14 @@ Pause/Resume live stream: Pause / Ferfetsje live stream
 Paused: Pauzearre
 PayPal: PayPal
 Picture-in-Picture mode: Picture-in-Picture modus
-Player Control: Spiler kontrôle
+Player Controls: Spiler kontrôles
 Playlist & Groups: Playlist en groepen
+Playlist Comparison: Playlist Fergeliking
 Playlist Editor: Playlist Editor
 Playlist Loading: Playlist Loading
 Playlist Management: Playlist Management
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Playlist-repository: OwnerPlugins/TivuStreamList (Italjaanske en ynternasjonale streamen)
+Playlists loaded: Playlists laden
 Please select a program first.: Selektearje asjebleaft earst in programma.
 Preview (first 5 channels): Foarbyld (earste 5 kanalen)
 Preview error: {0}: Foarbyldflater: {0}
@@ -237,8 +279,10 @@ Refresh List: Ferfarskje List
 Reload GUI: GUI opnij laden
 Remove Command: Kommando fuortsmite
 Rename Group: Rename Group
+Rename group '{0}' to:: Omneame groep '{0}' nei:
 Repository: Repository
 Reset Order: Oarder weromsette
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Resultaten: 'Allinnich yn earste', 'Allinnich yn twadde', 'In beide' - mei statuskleurkodearring.
 Save: Rêde
 SAVE: RÊDE
 Save – persists all settings without reloading current playlist.: Bewarje - hâldt alle ynstellingen oan sûnder de hjoeddeistige playlist opnij te laden.
@@ -251,6 +295,7 @@ Saved: Opslein
 Search channel: : Sykje kanaal:
 Search channels by name: Sykje kanalen op namme
 Search channels...: Sykje kanalen...
+sec: sek
 Select a playlist first.: Selektearje earst in playlist.
 Select Theme: Selektearje Tema
 Selected theme is saved and applied on restart.: Selektearre tema wurdt bewarre en tapast by opnij starte.
@@ -273,6 +318,7 @@ Support the developer: Stypje de ûntwikkelder
 Target Field: Doelfjild
 Telnet command:: Telnet kommando:
 Telnet Commander: Telnet Commander
+Telnet Config: Telnet konfiguraasje
 Telnet Console: Telnet Konsole
 Telnet host not configured. Please set it in Settings.: Telnet-host net ynsteld. Stel it asjebleaft yn Ynstellings.
 Telnet password is empty. Do you want to continue?: Telnet wachtwurd is leech. Wolle jo trochgean?
@@ -303,6 +349,8 @@ URL Check: URL kontrolearje
 URL list (one per line): URL-list (ien per rigel)
 URLs & Status: URL's & Status
 Version: Ferzje
+Version {0}.{1}.{2}: Ferzje {0}.{1}.{2}
+Version unknown: Ferzje ûnbekend
 Waiting for LiveGardenTVPlus to close...: Wachtsje op it sluten fan LiveGardenTVPlus ...
 Warning: Warskôging
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

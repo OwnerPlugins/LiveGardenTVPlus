@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (የመሸጎጫ አቃፊ፡ %TEMP%\\ LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (ሙሉ በሙሉ በፈቃደኝነት - ምንም ባህሪያት አልተከለከሉም)
 (No description): (ምንም መግለጫ የለም)
 • Add / rename / delete groups.: • ቡድኖችን ያክሉ/ እንደገና ይሰይሙ/ ይሰርዙ።
@@ -6,7 +5,7 @@
 • Check URL availability (only visible channels).: • የዩአርኤል ተገኝነትን ያረጋግጡ (የሚታዩ ቻናሎች ብቻ)።
 • Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • የሰርጥ ስሞችን፣ ቡድኖችን፣ ዩአርኤሎችን፣ አርማዎችን፣ ቲቪጂ-መታወቂያን፣ አገርን፣ ቋንቋዎችን፣ ተወዳጆችን ያርትዑ።
 • Edit multiple URLs per channel (popup window).: • በአንድ ሰርጥ ብዙ ዩአርኤሎችን ያርትዑ (ብቅ ባይ መስኮት)።
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • በ EPG ማበልጸግ፡- ደብዘዝ ያለ ተዛማጅን በመጠቀም የጎደለውን የቲቪጂ-መታወቂያ ይጨምራል።
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • በ EPG ማበልፀግ፡- ደብዘዝ ያለ ተዛማጅን በመጠቀም የጎደለውን ቲቪጂ-መታወቂያን ይጨምራል።
 • EPG info displayed in status bar for current channel.: • ለአሁኑ ሰርጥ በሁኔታ አሞሌ ላይ የ EPG መረጃ ይታያል።
 • Export OK / FAIL / filtered lists as M3U or JSON.: • እሺ / FAIL / የተጣሩ ዝርዝሮችን እንደ M3U ወይም JSON ወደ ውጪ ላክ።
 • Fetch logos from remote repository (OwnerPlugins/logos).: • አርማዎችን ከርቀት ማከማቻ (የባለቤት ፕለጊኖች/ሎጎዎች) ያውጡ።
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ ያለፈው
 16 colour themes + Light/Dark variants.: 16 የቀለም ገጽታዎች + ብርሃን/ጨለማ ልዩነቶች።
 A new version is available. Do you want to update now?: አዲስ ስሪት አለ። አሁን ማዘመን ይፈልጋሉ?
+Access via 'Compare' button in Playlist Editor or Tools menu.: በአጫዋች ዝርዝር አርታዒ ወይም በመሳሪያዎች ምናሌ ውስጥ በ'አወዳድር' ቁልፍ ይድረሱ።
 Access via 'Edit Playlist' button on main toolbar.: በዋናው የመሳሪያ አሞሌ ላይ ባለው የ'አጫዋች ዝርዝር አርትዕ' በኩል ይድረሱ።
 Actions: ድርጊቶች
 Add Command: ትዕዛዝ ጨምር
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Bouquet ተልኳል እና Eni
 Buffer (seconds): መያዣ (ሰከንዶች)
 Buffer size – adjust HLS buffer seconds.: የቋት መጠን - የ HLS ቋት ሰከንዶችን ያስተካክሉ።
 Cache: መሸጎጫ
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: መሸጎጫ አቃፊ፡%TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: ሰርዝ
 CANCEL: ሰርዝ
+Cannot open browser: አሳሽ መክፈት አልተቻለም
 Category: ምድብ
 Changelog: ለውጥ ሎግ
 Channel Details: የሰርጥ ዝርዝሮች
 Channel Info: የሰርጥ መረጃ
+Channel Name: የሰርጥ ስም
 channels from: ቻናሎች ከ
+channels from JSON: ቻናሎች ከJSON
 channels from JSON URL: ቻናሎች ከJSON URL
 channels from URL: ቻናሎች ከዩአርኤል
 Check Duplicates: ብዜቶችን ያረጋግጡ
@@ -57,6 +61,12 @@ Click for details: ለዝርዝሩ ጠቅ ያድርጉ
 Close: ገጠመ
 Command name:: የትእዛዝ ስም፡-
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ማህበረሰብ እና ሙከራ፡ CorvoBoys (corvoboys.org) እና LinuxSat-Support.com
+Compare: አወዳድር
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: አወዳድር በ፡ ቅድሚያ (ስም → ቡድን → ቲቪጂ-መታወቂያ)፣ ስም፣ ቡድን (የጉዳይ-ስሱ)፣ ወይም TvgId።
+Compare Playlists: አጫዋች ዝርዝሮችን ያወዳድሩ
+Compare two playlists – load first (current playlist) and second (from file or URL).: ሁለት አጫዋች ዝርዝሮችን ያወዳድሩ - መጀመሪያ ጫን (የአሁኑ አጫዋች ዝርዝር) እና ሁለተኛ (ከፋይል ወይም ዩአርኤል)።
+Compare...: አወዳድር...
+Comparison results: {0} channels: የንጽጽር ውጤቶች፡ {0} ቻናሎች
 Configuration Missing: ውቅረት ይጎድላል
 Confirm Reload: ዳግም መጫንን ያረጋግጡ
 Connect: ተገናኝ
@@ -89,6 +99,8 @@ End: መጨረሻ
 Enrich with EPG: በ EPG ያበልጽጉ
 Enter bouquet name (without spaces):: የዕቅፍ አበባ ስም አስገባ (ያለ ክፍተቶች)
 Enter JSON URL:: JSON URL አስገባ፡
+Enter new group name:: አዲስ የቡድን ስም ያስገቡ፡-
+Enter playlist URL (JSON or M3U):: አጫዋች ዝርዝር URL (JSON ወይም M3U) አስገባ፡
 Enter playlist URL (M3U or JSON):: አጫዋች ዝርዝር URL (M3U ወይም JSON) አስገባ፡
 EPG: ኢ.ፒ.ጂ
 Epg & Favorites: Epg እና ተወዳጆች
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: የ EPG ም�
 EPG source – choose XMLTV file or enter custom URL.: የ EPG ምንጭ - የ XMLTV ፋይልን ይምረጡ ወይም ብጁ ዩአርኤል ያስገቡ።
 EPG Source Missing: EPG ምንጭ ጠፍቷል
 Error: ስህተት
-Error clearing cache: መሸጎጫ በማጽዳት ላይ ስህተት
+Error clearing cache: {0}: መሸጎጫ በማጽዳት ላይ ስህተት፦ {0}
 Error loading: በመጫን ላይ ስህተት
+Error loading EPG list: {0}: የ EPG ዝርዝርን መጫን ላይ ስህተት: {0}
+Error loading file: {0}: ፋይል መጫን ላይ ስህተት፦ {0}
 Error loading file: {0}: ፋይል መጫን ላይ ስህተት፦ {0}
 Error loading playlists: {0}: አጫዋች ዝርዝሮችን መጫን ላይ ስህተት: {0}
 Error loading URL: {0}: ዩአርኤልን መጫን ላይ ስህተት: {0}
+Error loading URL: {0}: ዩአርኤልን መጫን ላይ ስህተት: {0}
 ERROR: player.html not found.: ስህተት፡ player.html አልተገኘም።
 Exit: ውጣ
+Export: ወደ ውጪ ላክ
+Export all: ሁሉንም ወደ ውጭ ላክ
 Export Favorites: ተወዳጆችን ወደ ውጪ ላክ
 Export Filtered JSON: የተጣራ JSON ወደ ውጪ ላክ
 Export Filtered M3U: የተጣራ M3U ወደ ውጪ ላክ
 Export JSON: JSON ወደ ውጪ ላክ
 Export KO: KO ወደ ውጭ ላክ
+Export missing: ወደ ውጭ መላክ ይጎድላል
 Export OK: እሺ ወደ ውጭ ላክ
 Export only favorite channels to a new M3U file: ተወዳጅ ሰርጦችን ብቻ ወደ አዲስ M3U ፋይል ይላኩ።
+Export results as JSON or M3U – export missing channels or all channels.: ውጤቶችን እንደ JSON ወይም M3U ወደ ውጪ ላክ - የጎደሉ ቻናሎችን ወይም ሁሉንም ሰርጦች ወደ ውጪ ላክ።
+Exported channels: የተላኩ ቻናሎች
 Extracting update...: ዝማኔን በማውጣት ላይ...
 Failed to download playlist: አጫዋች ዝርዝርን ማውረድ አልተሳካም።
 Failed to load playlist: አጫዋች ዝርዝርን መጫን አልተሳካም።
@@ -128,6 +148,7 @@ Fetch Logos: ሎጎዎችን አምጣ
 File {0} already exists. Overwrite?: ፋይል {0} አስቀድሞ አለ። ይፃፉ?
 File exists: ፋይል አለ።
 Filters: ማጣሪያዎች
+First playlist: {0} channels loaded.: የመጀመሪያው አጫዋች ዝርዝር፡ {0} ሰርጦች ተጭነዋል።
 Fullscreen (hide UI) - press ESC to exit: ሙሉ ስክሪን (UI ደብቅ) - ለመውጣት ESC ን ይጫኑ
 Geo & Country: ጂኦ እና ሀገር
 GeoBlocked: ጂኦ ታግዷል
@@ -140,19 +161,23 @@ Hide List: ዝርዝር ደብቅ
 HLS playback: hls.js (MIT license): HLS መልሶ ማጫወት፡hls.js (MIT ፍቃድ)
 Image: ምስል
 Import: አስመጣ
+Import cancelled or no channels mapped.: ማስመጣት ተሰርዟል ወይም ምንም ካርታ አልተሰራም።
 Import error: {0}: የማስመጣት ስህተት፡ {0}
 Import from URL: ከዩአርኤል አስመጣ
 Import JSON: JSON አስመጣ
 Import JSON from URL: JSON ከዩአርኤል አስመጣ
 Import Local: አካባቢያዊ አስመጣ
-Imported {0} channels from JSON.: ከJSON የመጡ {0} ሰርጦች።
+Imported {0} channels from JSON via mapping.: {0} ቻናሎችን ከJSON በካርታ ስራ አስመጡ።
 Imported {0} channels from URL.: ከዩአርኤል የመጡ {0} ሰርጦች።
+In Both: በሁለቱም
 Info: መረጃ
 Info on: ላይ መረጃ
 Invalid JSON: {0}: ልክ ያልሆነ JSON፡ {0}
 Invalid playlist URL.: ልክ ያልሆነ የአጫዋች ዝርዝር URL።
 Invalid URL.: ልክ ያልሆነ URL
 Json: ጄሰን
+JSON files|*.json|M3U files|*.m3u: JSON ፋይሎች|*.json|M3U ፋይሎች|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON ፋይሎች|*.json|M3U ፋይሎች|*.m3u;*.m3u8|ሁሉም ፋይሎች|*.*
 JSON Property: JSON ንብረት
 Ko-fi: ቡና
 Language: ቋንቋ
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: ቋንቋዎች
 Languages (comma): ቋንቋዎች (ነጠላ ሰረዝ)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus እገዛ በሉሉላ
+LiveGardenTVPlus Help: LiveGardenTVPlus እገዛ
 LOAD: ጫን
 Load a playlist first.: መጀመሪያ አጫዋች ዝርዝር ይጫኑ።
+Load a second playlist first.: መጀመሪያ ሁለተኛ አጫዋች ዝርዝር ይጫኑ።
 Load File: ፋይልን ጫን
+Load from file...: ከፋይል ጫን...
+Load from URL: ከዩአርኤል ጫን
+Load from URL...: ከዩአርኤል ጫን...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: የአካባቢ M3U/JSON ፋይል ጫን - በ'Load File' አዝራር (የመሳሪያ አሞሌ) ወይም 'ፋይል ክፈት' በአርታዒ ውስጥ።
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: በመስመር ላይ M3U/JSON URL ጫን - 'በመስመር ላይ ጫን' አዝራር (የመሳሪያ አሞሌ) ወይም 'ከዩአርኤል ክፈት' በአርታዒ ውስጥ።
 Load playlist file (M3U/JSON) from your computer: አጫዋች ዝርዝር ፋይል (M3U/JSON) ከኮምፒዩተርዎ ይጫኑ
 Loaded: ተጭኗል
+Loaded {0} channels from JSON file via mapping.: ከJSON ፋይል {0} ሰርጦችን በካርታ ተጭነዋል።
 Loaded {0} channels from JSON file.: ከJSON ፋይል {0} ሰርጦች ተጭነዋል።
 Loaded {0} channels from JSON URL.: ከJSON URL {0} ሰርጦች ተጭነዋል።
 Loaded {0} channels from M3U file.: ከM3U ፋይል {0} ሰርጦች ተጭነዋል።
@@ -193,15 +223,23 @@ Next: ቀጥሎ
 Next ▶: ቀጣይ ▶
 No .m3u files found on GitHub repository.: በ GitHub ማከማቻ ላይ ምንም .m3u ፋይሎች አልተገኙም።
 No cache folder found.: ምንም መሸጎጫ አቃፊ አልተገኘም።
+No channels could be mapped or import cancelled.: ምንም ቻናሎች ሊቀረጹ ወይም ሊሰረዙ አይችሉም።
 No channels could be mapped. Check your mapping rules.: ምንም ቻናል ሊቀረጽ አልቻለም። የካርታ ስራ ህጎችዎን ያረጋግጡ።
+No channels loaded from JSON URL.: ከJSON URL የተጫኑ ቻናሎች የሉም።
+No channels loaded from M3U URL.: ከM3U URL የተጫኑ ቻናሎች የሉም።
+No channels loaded from M3U.: ከM3U ምንም ሰርጦች አልተጫኑም።
+No channels loaded.: ምንም ቻናሎች አልተጫኑም።
 No channels mapped: ምንም ካርታ አልተሰራም።
+No comparison results. Run Compare first.: ምንም የማነፃፀር ውጤቶች የሉም። መጀመሪያ አወዳድር።
 No duplicate URLs found.: ምንም የተባዙ ዩአርኤሎች አልተገኙም።
 No EPG data: ምንም የ EPG ውሂብ የለም።
 No EPG information available for this channel.: ለዚህ ቻናል ምንም የ EPG መረጃ የለም።
 No EPG source configured. Please select one from the combo or go to Settings.: ምንም የ EPG ምንጭ አልተዋቀረም። እባክዎ ከጥምር ውስጥ አንዱን ይምረጡ ወይም ወደ ቅንብሮች ይሂዱ።
 No EPG source configured. Would you like to open settings to select one?: ምንም የ EPG ምንጭ አልተዋቀረም። አንዱን ለመምረጥ ቅንብሮችን መክፈት ይፈልጋሉ?
 No favorite channels to export.: ወደ ውጭ የሚላኩ ተወዳጅ ቻናሎች የሉም።
+No missing channels to export.: ወደ ውጭ ለመላክ ምንም የጎደሉ ቻናሎች የሉም።
 No playlist found: ምንም አጫዋች ዝርዝር አልተገኘም።
+No second playlist loaded.: ምንም ሁለተኛ አጫዋች ዝርዝር አልተጫነም።
 No updates available.: ምንም ዝመናዎች አይገኙም።
 Normal speed (1x): መደበኛ ፍጥነት (1x)
 Not connected to the box.: ከሳጥኑ ጋር አልተገናኘም።
@@ -209,6 +247,8 @@ Now: አሁን
 OK: እሺ
 Online Playlist: የመስመር ላይ አጫዋች ዝርዝር
 Online playlist – select from GitHub repository (auto‑refresh).: የመስመር ላይ አጫዋች ዝርዝር - ከ GitHub ማከማቻ ምረጥ (ራስ-አድስ)።
+Only in First: በመጀመሪያ ብቻ
+Only in Second: በሁለተኛው ውስጥ ብቻ
 Open File...: ፋይል ክፈት...
 Open from URL: ከዩአርኤል ክፈት
 Open Playlist: አጫዋች ዝርዝር ክፈት
@@ -216,12 +256,14 @@ Pause/Resume live stream: የቀጥታ ስርጭት ባለበት አቁም/ከ�
 Paused: ባለበት ቆሟል
 PayPal: PayPal
 Picture-in-Picture mode: የሥዕል-ውስጥ-ሥዕል ሁነታ
-Player Control: የተጫዋች ቁጥጥር
+Player Controls: የተጫዋች መቆጣጠሪያዎች
 Playlist & Groups: አጫዋች ዝርዝር እና ቡድኖች
+Playlist Comparison: የአጫዋች ዝርዝር ንጽጽር
 Playlist Editor: የአጫዋች ዝርዝር አርታዒ
 Playlist Loading: አጫዋች ዝርዝር በመጫን ላይ
 Playlist Management: የአጫዋች ዝርዝር አስተዳደር
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): የአጫዋች ዝርዝር ማከማቻ፡ OwnerPlugins/TivuStreamList (ጣሊያን እና አለምአቀፍ ዥረቶች)
+Playlists loaded: አጫዋች ዝርዝሮች ተጭነዋል
 Please select a program first.: እባክዎ መጀመሪያ ፕሮግራም ይምረጡ።
 Preview (first 5 channels): ቅድመ እይታ (የመጀመሪያዎቹ 5 ቻናሎች)
 Preview error: {0}: የቅድመ እይታ ስህተት፡ {0}
@@ -237,8 +279,10 @@ Refresh List: ዝርዝር አድስ
 Reload GUI: GUI ን እንደገና ጫን
 Remove Command: ትዕዛዝ አስወግድ
 Rename Group: ቡድን እንደገና ይሰይሙ
+Rename group '{0}' to:: ቡድን «{0}»ን ወደ፡
 Repository: ማከማቻ
 Reset Order: ትዕዛዙን ዳግም አስጀምር
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: ውጤቶች፡ 'በመጀመሪያ ብቻ'፣ 'በሁለተኛው ብቻ'፣ 'በሁለቱም' - ከሁኔታ ቀለም ኮድ ጋር።
 Save: አስቀምጥ
 SAVE: አስቀምጥ
 Save – persists all settings without reloading current playlist.: አስቀምጥ - የአሁኑን አጫዋች ዝርዝር እንደገና ሳይጭን ሁሉንም ቅንብሮች ይቀጥላል።
@@ -251,6 +295,7 @@ Saved: ተቀምጧል
 Search channel: : ቻናል ፈልግ፡
 Search channels by name: ቻናሎችን በስም ይፈልጉ
 Search channels...: ቻናሎችን ፈልግ...
+sec: ሰከንድ
 Select a playlist first.: መጀመሪያ አጫዋች ዝርዝር ይምረጡ።
 Select Theme: ገጽታ ይምረጡ
 Selected theme is saved and applied on restart.: የተመረጠው ገጽታ ተቀምጧል እና እንደገና ሲጀመር ይተገበራል።
@@ -273,6 +318,7 @@ Support the developer: ገንቢውን ይደግፉ
 Target Field: የዒላማ መስክ
 Telnet command:: የቴሌኔት ትዕዛዝ፡-
 Telnet Commander: ቴልኔት አዛዥ
+Telnet Config: Telnet Config
 Telnet Console: ቴልኔት ኮንሶል
 Telnet host not configured. Please set it in Settings.: የቴልኔት አስተናጋጅ አልተዋቀረም። እባክዎ በቅንብሮች ውስጥ ያቀናብሩት።
 Telnet password is empty. Do you want to continue?: የቴሌኔት ይለፍ ቃል ባዶ ነው። መቀጠል ትፈልጋለህ?
@@ -303,6 +349,8 @@ URL Check: URL ቼክ
 URL list (one per line): የዩአርኤል ዝርዝር (በአንድ መስመር አንድ)
 URLs & Status: ዩአርኤሎች እና ሁኔታ
 Version: ሥሪት
+Version {0}.{1}.{2}: ስሪት {0}።{1}።{2}
+Version unknown: Version unknown
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus እስኪዘጋ ድረስ በመጠበቅ ላይ...
 Warning: ማስጠንቀቂያ
 WebView2: Microsoft Edge WebView2: WebView2: የማይክሮሶፍት ጠርዝ WebView2

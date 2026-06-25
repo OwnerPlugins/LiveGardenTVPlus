@@ -1,4 +1,3 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Кэш хавтас: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Бүрэн сайн дурын - ямар ч функцийг хориглоогүй)
 (No description): (Тодорхойлолт байхгүй)
 • Add / rename / delete groups.: • Бүлгүүдийг нэмэх / нэрийг өөрчлөх / устгах.
@@ -10,7 +9,7 @@
 • EPG info displayed in status bar for current channel.: • Одоогийн сувгийн статус талбарт EPG-ийн мэдээлэл харагдана.
 • Export OK / FAIL / filtered lists as M3U or JSON.: • OK / FAIL / шүүсэн жагсаалтыг M3U эсвэл JSON болгон экспортлох.
 • Fetch logos from remote repository (OwnerPlugins/logos).: • Алсын агуулахаас лого татах (OwnerPlugins/logos).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Бүтэн дэлгэцийн UI: хажуугийн хэсэг болон төлөвийн мөрийг нууна (гарахын тулд ESC).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Бүтэн дэлгэцийн UI: хажуугийн самбар болон төлөвийн мөрийг нууна (гарахын тулд ESC).
 • Hide/Show channel list button.: • Сувгийн жагсаалтыг нуух/ харуулах товч.
 • Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Хээрийн уян хатан зураглал бүхий JSON (орон нутгийн эсвэл URL) импортлох (автоматаар илрүүлэх, зураглалыг хадгалах).
 • Picture‑in‑Picture (PIP) button.: • Зураг доторх зураг (PIP) товчлуур.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Өмнөх
 16 colour themes + Light/Dark variants.: 16 өнгөт загвар + Гэрэл/Харанхуй хувилбарууд.
 A new version is available. Do you want to update now?: Шинэ хувилбар гарсан байна. Та одоо шинэчлэхийг хүсч байна уу?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Тоглуулах жагсаалт засварлагч эсвэл Хэрэгслийн цэсэн дэх "Харьцуулах" товчоор хандана уу.
 Access via 'Edit Playlist' button on main toolbar.: Үндсэн хэрэгслийн самбар дээрх 'Тоглуулах жагсаалтыг засах' товчоор хандана уу.
 Actions: Үйлдлүүд
 Add Command: Тушаал нэмэх
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Bouquet илгээж, Enigma2 �
 Buffer (seconds): Буфер (секунд)
 Buffer size – adjust HLS buffer seconds.: Буферийн хэмжээ – HLS буфер секундийг тохируулна уу.
 Cache: Кэш
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Кэш фолдер: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Цуцлах
 CANCEL: Цуцлах
+Cannot open browser: Хөтөчийг нээж чадахгүй байна
 Category: Ангилал
 Changelog: Өөрчлөлтийн бүртгэл
 Channel Details: Сувгийн дэлгэрэнгүй мэдээлэл
 Channel Info: Сувгийн мэдээлэл
+Channel Name: Сувгийн нэр
 channels from: сувгууд
+channels from JSON: JSON-н сувгууд
 channels from JSON URL: JSON URL-с сувгууд
 channels from URL: URL-аас суваг
 Check Duplicates: Давхардсан зүйлсийг шалгана уу
@@ -57,6 +61,13 @@ Click for details: Дэлгэрэнгүйг дарж үзнэ үү
 Close: Хаах
 Command name:: Тушаалын нэр:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Нийгэмлэг ба туршилт: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: Харьцуулах
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Харьцуул: Тэргүүлэх (нэр→бүлэг→tvg-id), Нэр, Бүлэг (үсгийн том үсгээр) эсвэл TvgId.
+Compare Playlists: Тоглуулах жагсаалтыг харьцуулах
+Compare two playlists – load first (current playlist) and second (from file or URL).: Хоёр тоглуулах жагсаалтыг харьцуулах - эхлээд (одоогийн тоглуулах жагсаалт) болон хоёр дахь (файл эсвэл URL-аас) ачаалах.
+Compare...: Харьцуулах...
+Comparison results: {0} channels: Харьцуулалтын үр дүн: {0} суваг
+Configuration Missing: Тохиргоо дутуу
 Confirm Reload: Дахин ачаалахыг баталгаажуулна уу
 Connect: Холбох
 Connected: Холбогдсон
@@ -83,10 +94,13 @@ Edit command name:: Командын нэрийг засах:
 Edit Playlist: Тоглуулах жагсаалтыг засах
 Edit telnet command:: Telnet командыг засах:
 Edit URLs: URL-уудыг засах
+Empty Password: Хоосон нууц үг
 End: Төгсгөл
 Enrich with EPG: EPG-ээр баяжуулна
 Enter bouquet name (without spaces):: Баглааны нэрийг оруулна уу (хоосон зайгүй):
 Enter JSON URL:: JSON URL-г оруулна уу:
+Enter new group name:: Шинэ бүлгийн нэрийг оруулна уу:
+Enter playlist URL (JSON or M3U):: Тоглуулах жагсаалтын URL (JSON эсвэл M3U) оруулна уу:
 Enter playlist URL (M3U or JSON):: Тоглуулах жагсаалтын URL (M3U эсвэл JSON) оруулна уу:
 EPG: EPG
 Epg & Favorites: Epg & Дуртай
@@ -101,31 +115,40 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG эх үү
 EPG source – choose XMLTV file or enter custom URL.: EPG эх сурвалж - XMLTV файлыг сонгох эсвэл тусгай URL оруулна уу.
 EPG Source Missing: EPG эх үүсвэр алга
 Error: Алдаа
-Error clearing cache: Кэшийг цэвэрлэхэд алдаа гарлаа
+Error clearing cache: {0}: Кэшийг цэвэрлэхэд алдаа гарлаа: {0}
 Error loading: Ачаалахад алдаа гарлаа
+Error loading EPG list: {0}: EPG жагсаалтыг ачаалахад алдаа гарлаа: {0}
+Error loading file: {0}: Файлыг ачаалахад алдаа гарсан: {0}
 Error loading file: {0}: Файлыг ачаалахад алдаа гарсан: {0}
 Error loading playlists: {0}: Тоглуулах жагсаалтыг ачаалахад алдаа гарсан: {0}
 Error loading URL: {0}: URL ачаалахад алдаа гарлаа: {0}
+Error loading URL: {0}: URL ачаалахад алдаа гарлаа: {0}
 ERROR: player.html not found.: АЛДАА: player.html олдсонгүй.
 Exit: Гарах
+Export: Экспорт
+Export all: Бүгдийг экспортлох
 Export Favorites: Дуртай зүйлсийг экспортлох
 Export Filtered JSON: Шүүгдсэн JSON-г экспортлох
 Export Filtered M3U: Экспорт шүүсэн M3U
 Export JSON: JSON экспортлох
 Export KO: КО экспортлох
+Export missing: Экспорт дутуу байна
 Export OK: Экспорт OK
 Export only favorite channels to a new M3U file: Зөвхөн дуртай сувгуудыг шинэ M3U файл руу экспортлох
+Export results as JSON or M3U – export missing channels or all channels.: Үр дүнг JSON эсвэл M3U хэлбэрээр экспортлох - дутуу суваг эсвэл бүх сувгийг экспортлох.
+Exported channels: Экспортолсон сувгууд
 Extracting update...: Шинэчлэлтийг задалж байна...
 Failed to download playlist: Тоглуулах жагсаалтыг татаж авч чадсангүй
 Failed to load playlist: Тоглуулах жагсаалтыг ачаалж чадсангүй
-Failed to update bouquets.tv.: bouquets.tv-г шинэчилж чадсангүй.
-Failed to upload bouquet.: Баглаа байршуулж чадсангүй.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: bouquets.tv-г шинэчилж чадсангүй. Enigma2 төхөөрөмж дээрх файлын зөвшөөрлийг шалгана уу.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Баглаа байршуулж чадсангүй. Telnet тохиргоогоо (хост, порт, хэрэглэгчийн нэр, нууц үг) шалгаад дахин оролдоно уу.
 Favorite: Дуртай
 Favorites only: Зөвхөн дуртай
 Fetch Logos: Лого татах
 File {0} already exists. Overwrite?: {0} файл аль хэдийн байна. Дарж бичих үү?
 File exists: Файл байна
 Filters: Шүүлтүүр
+First playlist: {0} channels loaded.: Эхний тоглуулах жагсаалт: {0} суваг ачаалагдсан.
 Fullscreen (hide UI) - press ESC to exit: Бүтэн дэлгэц (UI нуух) - гарахын тулд ESC товчийг дарна уу
 Geo & Country: Гео ба улс
 GeoBlocked: GeoBlocked
@@ -138,19 +161,23 @@ Hide List: Жагсаалтыг нуух
 HLS playback: hls.js (MIT license): HLS тоглуулах: hls.js (MIT лиценз)
 Image: Зураг
 Import: Импорт
+Import cancelled or no channels mapped.: Импортыг цуцалсан эсвэл зураглаагүй суваг.
 Import error: {0}: Импортын алдаа: {0}
 Import from URL: URL-аас импортлох
 Import JSON: JSON импортлох
 Import JSON from URL: URL-аас JSON импортлох
 Import Local: Орон нутгийн импорт
-Imported {0} channels from JSON.: JSON-с {0} суваг импортолсон.
+Imported {0} channels from JSON via mapping.: JSON-с {0} сувгийг зураглалаар импортолсон.
 Imported {0} channels from URL.: URL-аас {0} суваг импортолсон.
+In Both: Аль алинд нь
 Info: Мэдээлэл
 Info on: Мэдээлэл
 Invalid JSON: {0}: Буруу JSON: {0}
 Invalid playlist URL.: Тоглуулах жагсаалтын URL буруу байна.
 Invalid URL.: Хүчингүй URL.
 Json: Жсон
+JSON files|*.json|M3U files|*.m3u: JSON файлууд|*.json|M3U файлууд|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON файл|*.json|M3U файл|*.m3u;*.m3u8|Бүх файл|*.*
 JSON Property: JSON өмч
 Ko-fi: Кофе
 Language: Хэл
@@ -158,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Хэлнүүд
 Languages (comma): Хэл (таслал)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: Лулуллагийн LiveGardenTVPlus тусламж
+LiveGardenTVPlus Help: LiveGardenTVPlus тусламж
 LOAD: Ачаалах
 Load a playlist first.: Эхлээд тоглуулах жагсаалтыг ачаална уу.
+Load a second playlist first.: Эхлээд хоёр дахь тоглуулах жагсаалтыг ачаална уу.
 Load File: Файл ачаалах
+Load from file...: Файлаас ачаалах...
+Load from URL: URL-аас ачаалах
+Load from URL...: URL-аас ачаалах...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Орон нутгийн M3U/JSON файлыг 'Файл ачаалах' товчлуур (хэрэгслийн самбар) эсвэл засварлагчийн 'Файлыг нээх'-ээр ачаална уу.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: M3U/JSON URL-г онлайнаар ачаалах – "Онлайнаар ачаалах" товч (хэрэгслийн самбар) эсвэл "URL-аас нээх".
 Load playlist file (M3U/JSON) from your computer: Тоглуулах жагсаалтын файлыг (M3U/JSON) компьютерээсээ ачаална уу
 Loaded: Ачаалагдсан
+Loaded {0} channels from JSON file via mapping.: JSON файлаас {0} сувгийг зураглалаар ачааллаа.
 Loaded {0} channels from JSON file.: JSON файлаас {0} сувгийг ачаалсан.
 Loaded {0} channels from JSON URL.: JSON URL-с {0} сувгийг ачаалсан.
 Loaded {0} channels from M3U file.: M3U файлаас {0} сувгийг ачаалсан.
@@ -191,15 +223,23 @@ Next: Дараа нь
 Next ▶: Дараагийн ▶
 No .m3u files found on GitHub repository.: GitHub репозитор дээр .m3u файл олдсонгүй.
 No cache folder found.: Кэш хавтас олдсонгүй.
+No channels could be mapped or import cancelled.: Ямар ч сувгийг зураглах эсвэл импортыг цуцлах боломжгүй.
 No channels could be mapped. Check your mapping rules.: Ямар ч сувгийг зураглаж чадсангүй. Газрын зургийн дүрмээ шалгана уу.
+No channels loaded from JSON URL.: JSON URL-с ачаалагдсан суваг байхгүй.
+No channels loaded from M3U URL.: M3U URL-с ямар ч суваг ачаалагдаагүй байна.
+No channels loaded from M3U.: M3U-аас ачаалагдсан суваг алга.
+No channels loaded.: Ямар ч суваг ачаалагдсангүй.
 No channels mapped: Ямар ч суваг зураглаагүй
+No comparison results. Run Compare first.: Харьцуулах үр дүн алга. Эхлээд Харьцуулахыг ажиллуул.
 No duplicate URLs found.: Давхардсан URL олдсонгүй.
 No EPG data: EPG өгөгдөл байхгүй
 No EPG information available for this channel.: Энэ сувагт EPG мэдээлэл байхгүй байна.
 No EPG source configured. Please select one from the combo or go to Settings.: EPG эх үүсвэрийг тохируулаагүй байна. Комбоноос нэгийг нь сонгох эсвэл Тохиргоо руу очно уу.
 No EPG source configured. Would you like to open settings to select one?: EPG эх үүсвэрийг тохируулаагүй байна. Та нэгийг сонгохын тулд тохиргоог нээхийг хүсэж байна уу?
 No favorite channels to export.: Экспортлох дуртай суваг алга.
+No missing channels to export.: Экспорт хийх дутуу суваг байхгүй.
 No playlist found: Тоглуулах жагсаалт олдсонгүй
+No second playlist loaded.: Хоёрдахь тоглуулах жагсаалт ачаалагдаагүй байна.
 No updates available.: Шинэчлэлт байхгүй.
 Normal speed (1x): Ердийн хурд (1x)
 Not connected to the box.: Хайрцагтай холбогдоогүй байна.
@@ -207,6 +247,8 @@ Now: Одоо
 OK: OK
 Online Playlist: Онлайн тоглуулах жагсаалт
 Online playlist – select from GitHub repository (auto‑refresh).: Онлайн тоглуулах жагсаалт – GitHub репозитороос сонгоно уу (автоматаар шинэчлэх).
+Only in First: Зөвхөн нэгдүгээрт
+Only in Second: Зөвхөн хоёрдугаарт
 Open File...: Файл нээх...
 Open from URL: URL-аас нээх
 Open Playlist: Тоглуулах жагсаалтыг нээх
@@ -214,12 +256,14 @@ Pause/Resume live stream: Шууд дамжуулалтыг түр зогсоо�
 Paused: Түр зогсоосон
 PayPal: PayPal
 Picture-in-Picture mode: Зураг доторх горим
-Player Control: Тоглогчийн хяналт
+Player Controls: Тоглогчийн удирдлага
 Playlist & Groups: Тоглуулах жагсаалт ба бүлгүүд
+Playlist Comparison: Тоглуулах жагсаалтын харьцуулалт
 Playlist Editor: Тоглуулах жагсаалт засварлагч
 Playlist Loading: Тоглуулах жагсаалтыг ачаалж байна
 Playlist Management: Тоглуулах жагсаалтын менежмент
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Тоглуулах жагсаалтын хадгалах газар: OwnerPlugins/TivuStreamList (Итали ба олон улсын дамжуулалт)
+Playlists loaded: Тоглуулах жагсаалтыг ачааллаа
 Please select a program first.: Эхлээд програмаа сонгоно уу.
 Preview (first 5 channels): Урьдчилан үзэх (эхний 5 суваг)
 Preview error: {0}: Урьдчилан үзэх алдаа: {0}
@@ -235,8 +279,10 @@ Refresh List: Жагсаалтыг шинэчлэх
 Reload GUI: GUI-г дахин ачаална уу
 Remove Command: Командыг устгах
 Rename Group: Бүлгийн нэрийг өөрчлөх
+Rename group '{0}' to:: '{0}' бүлгийн нэрийг өөрчлөх:
 Repository: Хадгалах газар
 Reset Order: Захиалгыг дахин тохируулах
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Үр дүн: 'Зөвхөн нэгдүгээрт', 'Зөвхөн хоёрдугаарт', 'Хоёуланд' – төлөвийн өнгө кодлолтой.
 Save: Хадгалах
 SAVE: ХАДГАЛАХ
 Save – persists all settings without reloading current playlist.: Хадгалах - одоогийн тоглуулах жагсаалтыг дахин ачаалахгүйгээр бүх тохиргоог хадгалах.
@@ -249,6 +295,7 @@ Saved: Хадгалсан
 Search channel: : Хайлтын суваг:
 Search channels by name: Сувгуудыг нэрээр нь хайх
 Search channels...: Сувгууд хайх...
+sec: сек
 Select a playlist first.: Эхлээд тоглуулах жагсаалтыг сонгоно уу.
 Select Theme: Сэдвийг сонгоно уу
 Selected theme is saved and applied on restart.: Сонгосон загвар хадгалагдаж, дахин эхлүүлэх үед хэрэгжинэ.
@@ -271,8 +318,11 @@ Support the developer: Хөгжүүлэгчийг дэмжинэ үү
 Target Field: Зорилтот талбар
 Telnet command:: Telnet тушаал:
 Telnet Commander: Telnet командлагч
+Telnet Config: Telnet тохиргоо
 Telnet Console: Telnet консол
-Telnet not configured. Please set it in Settings.: Telnet тохируулагдаагүй байна. Үүнийг Тохиргоо хэсэгт тохируулна уу.
+Telnet host not configured. Please set it in Settings.: Telnet хостыг тохируулаагүй байна. Үүнийг Тохиргоо хэсэгт тохируулна уу.
+Telnet password is empty. Do you want to continue?: Telnet нууц үг хоосон байна. Та үргэлжлүүлэхийг хүсч байна уу?
+Telnet username not configured. Please set it in Settings.: Telnet хэрэглэгчийн нэрийг тохируулаагүй байна. Үүнийг Тохиргоо хэсэгт тохируулна уу.
 Thanks to: -д баярлалаа
 Theme picker: Сэдэв сонгогч
 Theme picker – accessible via Tools menu on main toolbar.: Загвар сонгогч – үндсэн хэрэгслийн самбар дээрх Tools цэсээр дамжуулан хандах боломжтой.
@@ -289,14 +339,18 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Алсын төслийн файлаас хувилбарыг олох боломжгүй байна.
 Update: Шинэчлэх
 Update complete. Restarting...: Шинэчлэлт дууссан. Дахин эхлүүлж байна...
+Update Error: Шинэчлэлтийн алдаа
 Update failed: : Шинэчлэлт амжилтгүй болсон:
 Updates: Шинэчлэлтүүд
+Upload Error: Байршуулах алдаа
 URL: URL
 URL (primary): URL (үндсэн)
 URL Check: URL шалгах
 URL list (one per line): URL жагсаалт (мөр тутамд нэг)
 URLs & Status: URL болон статус
 Version: Хувилбар
+Version {0}.{1}.{2}: Хувилбар {0}.{1}.{2}
+Version unknown: Хувилбар тодорхойгүй
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus хаагдахыг хүлээж байна...
 Warning: Анхааруулга
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

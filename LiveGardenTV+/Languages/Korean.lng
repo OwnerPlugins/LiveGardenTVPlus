@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (캐시 폴더: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (완전히 자발적 – 차단된 기능 없음)
 (No description): (설명 없음)
 • Add / rename / delete groups.: • 그룹을 추가/이름 바꾸기/삭제합니다.
@@ -6,7 +5,7 @@
 • Check URL availability (only visible channels).: • URL 가용성을 확인하십시오(표시되는 채널만 해당).
 • Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • 채널 이름, 그룹, URL, 로고, tvg-id, 국가, 언어, 즐겨찾기를 편집합니다.
 • Edit multiple URLs per channel (popup window).: • 채널당 여러 URL을 편집합니다(팝업 창).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG로 보강: 퍼지 일치를 사용하여 누락된 tvg-id를 추가합니다.
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG로 강화: 퍼지 일치를 사용하여 누락된 tvg-id를 추가합니다.
 • EPG info displayed in status bar for current channel.: • 현재 채널의 상태 표시줄에 EPG 정보가 표시됩니다.
 • Export OK / FAIL / filtered lists as M3U or JSON.: • OK/FAIL/필터링된 목록을 M3U 또는 JSON으로 내보냅니다.
 • Fetch logos from remote repository (OwnerPlugins/logos).: • 원격 저장소(OwnerPlugins/logos)에서 로고를 가져옵니다.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ 이전
 16 colour themes + Light/Dark variants.: 16가지 색상 테마 + 밝은/어두운 변형.
 A new version is available. Do you want to update now?: 새 버전을 사용할 수 있습니다. 지금 업데이트하시겠습니까?
+Access via 'Compare' button in Playlist Editor or Tools menu.: 재생 목록 편집기 또는 도구 메뉴의 '비교' 버튼을 통해 액세스합니다.
 Access via 'Edit Playlist' button on main toolbar.: 메인 도구 모음의 '재생 목록 편집' 버튼을 통해 액세스합니다.
 Actions: 행위
 Add Command: 명령 추가
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: 꽃다발이 전송되고 Enigm
 Buffer (seconds): 버퍼(초)
 Buffer size – adjust HLS buffer seconds.: 버퍼 크기 – HLS 버퍼 초를 조정합니다.
 Cache: 은닉처
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: 캐시 폴더: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: 취소
 CANCEL: 취소
+Cannot open browser: 브라우저를 열 수 없습니다
 Category: 범주
 Changelog: 변경 내역
 Channel Details: 채널 세부정보
 Channel Info: 채널 정보
+Channel Name: 채널 이름
 channels from: 채널
+channels from JSON: JSON의 채널
 channels from JSON URL: JSON URL의 채널
 channels from URL: URL의 채널
 Check Duplicates: 중복 확인
@@ -57,6 +61,12 @@ Click for details: 자세한 내용을 보려면 클릭하세요.
 Close: 닫다
 Command name:: 명령 이름:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: 커뮤니티 및 테스트: CorvoBoys(corvoboys.org) 및 LinuxSat-Support.com
+Compare: 비교하다
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: 비교 기준: 우선 순위(이름→그룹→tvg-id), 이름, 그룹(대소문자 구분) 또는 TvgId.
+Compare Playlists: 재생목록 비교
+Compare two playlists – load first (current playlist) and second (from file or URL).: 두 개의 재생 목록을 비교합니다. 첫 번째(현재 재생 목록)를 로드하고 두 번째(파일 또는 URL에서)를 로드합니다.
+Compare...: 비교하다...
+Comparison results: {0} channels: 비교 결과: {0}개 채널
 Configuration Missing: 구성 누락
 Confirm Reload: 새로고침 확인
 Connect: 연결하다
@@ -89,6 +99,8 @@ End: 끝
 Enrich with EPG: EPG로 풍요롭게 하세요
 Enter bouquet name (without spaces):: 꽃다발 이름 입력(공백 없이):
 Enter JSON URL:: JSON URL을 입력하세요:
+Enter new group name:: 새 그룹 이름 입력:
+Enter playlist URL (JSON or M3U):: 재생목록 URL 입력(JSON 또는 M3U):
 Enter playlist URL (M3U or JSON):: 재생목록 URL 입력(M3U 또는 JSON):
 EPG: EPG
 Epg & Favorites: Epg 및 즐겨찾기
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG 소스 �
 EPG source – choose XMLTV file or enter custom URL.: EPG 소스 – XMLTV 파일을 선택하거나 사용자 정의 URL을 입력합니다.
 EPG Source Missing: EPG 소스 누락
 Error: 오류
-Error clearing cache: 캐시를 지우는 중에 오류가 발생했습니다.
+Error clearing cache: {0}: 캐시 지우기 오류: {0}
 Error loading: 로드 중 오류 발생
+Error loading EPG list: {0}: EPG 목록을 로드하는 중 오류 발생: {0}
+Error loading file: {0}: 파일 로드 중 오류 발생: {0}
 Error loading file: {0}: 파일 로드 중 오류 발생: {0}
 Error loading playlists: {0}: 재생목록 로드 중 오류 발생: {0}
 Error loading URL: {0}: URL 로드 중 오류 발생: {0}
+Error loading URL: {0}: URL 로드 중 오류 발생: {0}
 ERROR: player.html not found.: 오류: player.html을 찾을 수 없습니다.
 Exit: 출구
+Export: 내보내다
+Export all: 모두 내보내기
 Export Favorites: 즐겨찾기 내보내기
 Export Filtered JSON: 필터링된 JSON 내보내기
 Export Filtered M3U: 필터링된 M3U 내보내기
 Export JSON: JSON 내보내기
 Export KO: 수출 KO
+Export missing: 내보내기 누락
 Export OK: 수출 OK
 Export only favorite channels to a new M3U file: 즐겨찾는 채널만 새 M3U 파일로 내보내기
+Export results as JSON or M3U – export missing channels or all channels.: 결과를 JSON 또는 M3U로 내보내기 – 누락된 채널 또는 모든 채널을 내보냅니다.
+Exported channels: 내보낸 채널
 Extracting update...: 업데이트 추출 중...
 Failed to download playlist: 재생목록을 다운로드하지 못했습니다.
 Failed to load playlist: 재생목록을 로드하지 못했습니다.
@@ -128,6 +148,7 @@ Fetch Logos: 로고 가져오기
 File {0} already exists. Overwrite?: 파일 {0}이(가) 이미 존재합니다. 덮어쓰시겠습니까?
 File exists: 파일이 존재합니다
 Filters: 필터
+First playlist: {0} channels loaded.: 첫 번째 재생목록: {0}개의 채널이 로드되었습니다.
 Fullscreen (hide UI) - press ESC to exit: 전체 화면(UI 숨기기) - 종료하려면 ESC를 누르세요.
 Geo & Country: 지역 및 국가
 GeoBlocked: 지리적으로 차단됨
@@ -140,19 +161,23 @@ Hide List: 목록 숨기기
 HLS playback: hls.js (MIT license): HLS 재생: hls.js(MIT 라이센스)
 Image: 영상
 Import: 수입
+Import cancelled or no channels mapped.: 가져오기가 취소되었거나 매핑된 채널이 없습니다.
 Import error: {0}: 가져오기 오류: {0}
 Import from URL: URL에서 가져오기
 Import JSON: JSON 가져오기
 Import JSON from URL: URL에서 JSON 가져오기
 Import Local: 로컬 가져오기
-Imported {0} channels from JSON.: JSON에서 {0}개의 채널을 가져왔습니다.
+Imported {0} channels from JSON via mapping.: 매핑을 통해 JSON에서 {0} 채널을 가져왔습니다.
 Imported {0} channels from URL.: URL에서 {0}개의 채널을 가져왔습니다.
+In Both: 둘 다에서
 Info: 정보
 Info on: 정보
 Invalid JSON: {0}: 잘못된 JSON: {0}
 Invalid playlist URL.: 재생목록 URL이 잘못되었습니다.
 Invalid URL.: URL이 잘못되었습니다.
 Json: 제이슨
+JSON files|*.json|M3U files|*.m3u: JSON 파일|*.json|M3U 파일|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON 파일|*.json|M3U 파일|*.m3u;*.m3u8|모든 파일|*.*
 JSON Property: JSON 속성
 Ko-fi: 커피
 Language: 언어
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: 언어
 Languages (comma): 언어(쉼표)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: Lululla의 LiveGardenTVPlus 도움말
+LiveGardenTVPlus Help: LiveGardenTVPlus 도움말
 LOAD: 짐
 Load a playlist first.: 먼저 재생목록을 로드하세요.
+Load a second playlist first.: 두 번째 재생목록을 먼저 로드하세요.
 Load File: 파일 로드
+Load from file...: 파일에서 로드...
+Load from URL: URL에서 로드
+Load from URL...: URL에서 로드...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: 로컬 M3U/JSON 파일 로드 – '파일 로드' 버튼(도구 모음) 또는 편집기의 '파일 열기'를 통해.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: 온라인 M3U/JSON URL 로드 - 편집기에서 '온라인 로드' 버튼(도구 모음) 또는 'URL에서 열기'.
 Load playlist file (M3U/JSON) from your computer: 컴퓨터에서 재생 목록 파일(M3U/JSON) 로드
 Loaded: 짐을 실은
+Loaded {0} channels from JSON file via mapping.: 매핑을 통해 JSON 파일에서 {0} 채널을 로드했습니다.
 Loaded {0} channels from JSON file.: JSON 파일에서 {0} 채널을 로드했습니다.
 Loaded {0} channels from JSON URL.: JSON URL에서 {0}개의 채널을 로드했습니다.
 Loaded {0} channels from M3U file.: M3U 파일에서 {0}개의 채널을 로드했습니다.
@@ -193,15 +223,23 @@ Next: 다음
 Next ▶: 다음 ▶
 No .m3u files found on GitHub repository.: GitHub 저장소에서 .m3u 파일을 찾을 수 없습니다.
 No cache folder found.: 캐시 폴더를 찾을 수 없습니다.
+No channels could be mapped or import cancelled.: 채널을 매핑할 수 없거나 가져오기가 취소되었습니다.
 No channels could be mapped. Check your mapping rules.: 채널을 매핑할 수 없습니다. 매핑 규칙을 확인하세요.
+No channels loaded from JSON URL.: JSON URL에서 로드된 채널이 없습니다.
+No channels loaded from M3U URL.: M3U URL에서 로드된 채널이 없습니다.
+No channels loaded from M3U.: M3U에서 로드된 채널이 없습니다.
+No channels loaded.: 로드된 채널이 없습니다.
 No channels mapped: 매핑된 채널이 없습니다.
+No comparison results. Run Compare first.: 비교 결과가 없습니다. 먼저 비교를 실행하세요.
 No duplicate URLs found.: 중복된 URL이 없습니다.
 No EPG data: EPG 데이터 없음
 No EPG information available for this channel.: 이 채널에 사용할 수 있는 EPG 정보가 없습니다.
 No EPG source configured. Please select one from the combo or go to Settings.: 구성된 EPG 소스가 없습니다. 콤보에서 하나를 선택하거나 설정으로 이동하세요.
 No EPG source configured. Would you like to open settings to select one?: 구성된 EPG 소스가 없습니다. 설정을 열어서 하나를 선택하시겠습니까?
 No favorite channels to export.: 내보낼 즐겨찾는 채널이 없습니다.
+No missing channels to export.: 내보낼 누락된 채널이 없습니다.
 No playlist found: 재생목록을 찾을 수 없습니다.
+No second playlist loaded.: 두 번째 재생목록이 로드되지 않았습니다.
 No updates available.: 사용 가능한 업데이트가 없습니다.
 Normal speed (1x): 일반 속도(1x)
 Not connected to the box.: 상자에 연결되지 않았습니다.
@@ -209,6 +247,8 @@ Now: 지금
 OK: 좋아요
 Online Playlist: 온라인 재생목록
 Online playlist – select from GitHub repository (auto‑refresh).: 온라인 재생 목록 – GitHub 저장소에서 선택합니다(자동 새로 고침).
+Only in First: 첫 번째에만
+Only in Second: 두 번째에만
 Open File...: 파일 열기...
 Open from URL: URL에서 열기
 Open Playlist: 재생목록 열기
@@ -216,12 +256,14 @@ Pause/Resume live stream: 라이브 스트림 일시중지/재개
 Paused: 일시중지됨
 PayPal: 페이팔
 Picture-in-Picture mode: PIP(Picture-in-Picture) 모드
-Player Control: 플레이어 제어
+Player Controls: 플레이어 컨트롤
 Playlist & Groups: 재생목록 및 그룹
+Playlist Comparison: 재생 목록 비교
 Playlist Editor: 재생목록 편집기
 Playlist Loading: 재생목록 로드 중
 Playlist Management: 재생목록 관리
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): 재생 목록 저장소: OwnerPlugins/TivuStreamList(이탈리아어 및 국제 스트림)
+Playlists loaded: 재생목록이 로드되었습니다.
 Please select a program first.: 먼저 프로그램을 선택해주세요.
 Preview (first 5 channels): 미리보기(처음 5개 채널)
 Preview error: {0}: 미리보기 오류: {0}
@@ -237,8 +279,10 @@ Refresh List: 목록 새로고침
 Reload GUI: GUI 다시 로드
 Remove Command: 제거 명령
 Rename Group: 그룹 이름 바꾸기
+Rename group '{0}' to:: 그룹 '{0}' 이름을 다음으로 변경:
 Repository: 저장소
 Reset Order: 주문 재설정
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: 결과: '첫 번째에만', '두 번째에만', '둘 다' – 상태 색상 코딩 포함.
 Save: 구하다
 SAVE: 구하다
 Save – persists all settings without reloading current playlist.: 저장 – 현재 재생 목록을 다시 로드하지 않고 모든 설정을 유지합니다.
@@ -251,6 +295,7 @@ Saved: 저장됨
 Search channel: : 검색 채널:
 Search channels by name: 이름으로 채널 검색
 Search channels...: 채널 검색...
+sec: 비서
 Select a playlist first.: 먼저 재생목록을 선택하세요.
 Select Theme: 테마 선택
 Selected theme is saved and applied on restart.: 선택한 테마는 저장되어 재시작 시 적용됩니다.
@@ -273,6 +318,7 @@ Support the developer: 개발자 지원
 Target Field: 대상분야
 Telnet command:: 텔넷 명령:
 Telnet Commander: 텔넷 사령관
+Telnet Config: 텔넷 구성
 Telnet Console: 텔넷 콘솔
 Telnet host not configured. Please set it in Settings.: Telnet 호스트가 구성되지 않았습니다. 설정에서 설정해주세요.
 Telnet password is empty. Do you want to continue?: 텔넷 비밀번호가 비어 있습니다. 계속하시겠습니까?
@@ -303,8 +349,10 @@ URL Check: URL 확인
 URL list (one per line): URL 목록(한 줄에 하나씩)
 URLs & Status: URL 및 상태
 Version: 버전
+Version {0}.{1}.{2}: 버전 {0}.{1}.{2}
+Version unknown: 버전을 알 수 없음
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus가 종료되기를 기다리는 중...
 Warning: 경고
-WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
+WebView2: Microsoft Edge WebView2: WebView2: 마이크로소프트 엣지 WebView2
 Youtube URL: 유튜브 URL
 Youtube URLs: 유튜브 URL

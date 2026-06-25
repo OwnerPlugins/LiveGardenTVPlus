@@ -1,4 +1,3 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache-mappe: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Helt frivillig – ingen funksjoner er blokkert)
 (No description): (Ingen beskrivelse)
 • Add / rename / delete groups.: • Legg til / gi nytt navn / slett grupper.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Forrige
 16 colour themes + Light/Dark variants.: 16 fargetemaer + Lys/Mørke varianter.
 A new version is available. Do you want to update now?: En ny versjon er tilgjengelig. Vil du oppdatere nå?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Få tilgang via 'Sammenlign'-knappen i Spillelisteredigering eller Verktøy-menyen.
 Access via 'Edit Playlist' button on main toolbar.: Tilgang via "Rediger spilleliste"-knappen på hovedverktøylinjen.
 Actions: Handlinger
 Add Command: Legg til kommando
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Bukett sendt og Enigma2 kanalli
 Buffer (seconds): Buffer (sekunder)
 Buffer size – adjust HLS buffer seconds.: Bufferstørrelse – juster HLS-buffersekunder.
 Cache: Cache
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Cache-mappe: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Kansellere
 CANCEL: KANSELLERE
+Cannot open browser: Kan ikke åpne nettleseren
 Category: Kategori
 Changelog: Endringslogg
 Channel Details: Kanaldetaljer
 Channel Info: Kanalinfo
+Channel Name: Kanalnavn
 channels from: kanaler fra
+channels from JSON: kanaler fra JSON
 channels from JSON URL: kanaler fra JSON URL
 channels from URL: kanaler fra URL
 Check Duplicates: Sjekk duplikater
@@ -57,6 +61,13 @@ Click for details: Klikk for detaljer
 Close: Lukke
 Command name:: Kommandonavn:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Fellesskap og testing: CorvoBoys (corvoboys.org) og LinuxSat-Support.com
+Compare: Sammenligne
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Sammenlign etter: Prioritet (navn→gruppe→tvg-id), Navn, Gruppe (skiller mellom store og små bokstaver) eller TvgId.
+Compare Playlists: Sammenlign spillelister
+Compare two playlists – load first (current playlist) and second (from file or URL).: Sammenlign to spillelister – last først (gjeldende spilleliste) og andre (fra fil eller URL).
+Compare...: Sammenligne...
+Comparison results: {0} channels: Sammenligningsresultater: {0} kanaler
+Configuration Missing: Konfigurasjon mangler
 Confirm Reload: Bekreft Last på nytt
 Connect: Koble til
 Connected: Tilkoblet
@@ -77,16 +88,19 @@ Downloading playlist...: Laster ned spilleliste...
 Downloads ZIP, replaces files, restarts app – settings preserved.: Laster ned ZIP, erstatter filer, starter appen på nytt – innstillinger bevart.
 Drag & drop – drop M3U or JSON files directly onto main window.: Dra og slipp – slipp M3U- eller JSON-filer direkte i hovedvinduet.
 Drag to seek back in buffer: Dra for å søke tilbake i buffer
-Duplicate URLs found:\n\n: Fant dupliserte nettadresser:\n\n
+Duplicate URLs found:\n\n: Dupliserte nettadresser funnet:\n\n
 Edit Command: Rediger kommando
 Edit command name:: Rediger kommandonavn:
 Edit Playlist: Rediger spilleliste
 Edit telnet command:: Rediger telnet-kommando:
 Edit URLs: Rediger nettadresser
+Empty Password: Tomt passord
 End: Slutt
 Enrich with EPG: Berik med EPG
 Enter bouquet name (without spaces):: Skriv inn bukettnavn (uten mellomrom):
 Enter JSON URL:: Skriv inn JSON URL:
+Enter new group name:: Skriv inn nytt gruppenavn:
+Enter playlist URL (JSON or M3U):: Skriv inn spilleliste-URL (JSON eller M3U):
 Enter playlist URL (M3U or JSON):: Skriv inn spilleliste-URL (M3U eller JSON):
 EPG: EPG
 Epg & Favorites: Epg og favoritter
@@ -101,31 +115,40 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG-kilde –
 EPG source – choose XMLTV file or enter custom URL.: EPG-kilde – velg XMLTV-fil eller skriv inn egendefinert URL.
 EPG Source Missing: EPG-kilde mangler
 Error: Feil
-Error clearing cache: Feil ved tømning av buffer
+Error clearing cache: {0}: Feil ved tømning av buffer: {0}
 Error loading: Feil ved innlasting
+Error loading EPG list: {0}: Feil ved innlasting av EPG-liste: {0}
+Error loading file: {0}: Feil ved lasting av fil: {0}
 Error loading file: {0}: Feil ved lasting av fil: {0}
 Error loading playlists: {0}: Feil ved lasting av spillelister: {0}
 Error loading URL: {0}: Feil ved innlasting av URL: {0}
+Error loading URL: {0}: Feil ved innlasting av URL: {0}
 ERROR: player.html not found.: FEIL: player.html ikke funnet.
 Exit: Gå
+Export: Eksport
+Export all: Eksporter alt
 Export Favorites: Eksporter favoritter
 Export Filtered JSON: Eksporter filtrert JSON
 Export Filtered M3U: Eksporter filtrert M3U
 Export JSON: Eksporter JSON
 Export KO: Eksporter KO
+Export missing: Eksport mangler
 Export OK: Eksporter OK
 Export only favorite channels to a new M3U file: Eksporter kun favorittkanaler til en ny M3U-fil
+Export results as JSON or M3U – export missing channels or all channels.: Eksporter resultater som JSON eller M3U – eksporter manglende kanaler eller alle kanaler.
+Exported channels: Eksporterte kanaler
 Extracting update...: Trekker ut oppdatering...
 Failed to download playlist: Kunne ikke laste ned spillelisten
 Failed to load playlist: Kunne ikke laste inn spillelisten
-Failed to update bouquets.tv.: Kunne ikke oppdatere bouquets.tv.
-Failed to upload bouquet.: Kunne ikke laste opp bukett.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Kunne ikke oppdatere bouquets.tv. Vennligst sjekk filtillatelsene på Enigma2-enheten.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Kunne ikke laste opp bukett. Vennligst sjekk Telnet-innstillingene (vert, port, brukernavn, passord) og prøv igjen.
 Favorite: Favoritt
 Favorites only: Bare favoritter
 Fetch Logos: Hent logoer
 File {0} already exists. Overwrite?: Filen {0} eksisterer allerede. Vil du overskrive?
 File exists: Filen finnes
 Filters: Filtre
+First playlist: {0} channels loaded.: Første spilleliste: {0} kanaler lastet.
 Fullscreen (hide UI) - press ESC to exit: Fullskjerm (skjul brukergrensesnitt) - trykk ESC for å avslutte
 Geo & Country: Geo og land
 GeoBlocked: Geoblokkert
@@ -138,19 +161,23 @@ Hide List: Skjul liste
 HLS playback: hls.js (MIT license): HLS-avspilling: hls.js (MIT-lisens)
 Image: Bilde
 Import: Import
+Import cancelled or no channels mapped.: Import avbrutt eller ingen kanaler tilordnet.
 Import error: {0}: Importfeil: {0}
 Import from URL: Importer fra URL
 Import JSON: Importer JSON
 Import JSON from URL: Importer JSON fra URL
 Import Local: Importer lokalt
-Imported {0} channels from JSON.: Importerte {0} kanaler fra JSON.
+Imported {0} channels from JSON via mapping.: Importerte {0} kanaler fra JSON via kartlegging.
 Imported {0} channels from URL.: Importerte {0} kanaler fra URL.
+In Both: I begge
 Info: Info
 Info on: Info om
 Invalid JSON: {0}: Ugyldig JSON: {0}
 Invalid playlist URL.: Ugyldig nettadresse for spilleliste.
 Invalid URL.: Ugyldig URL.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: JSON-filer|*.json|M3U-filer|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON-filer|*.json|M3U-filer|*.m3u;*.m3u8|Alle filer|*.*
 JSON Property: JSON-eiendom
 Ko-fi: Kaffe
 Language: Språk
@@ -158,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Språk
 Languages (comma): Språk (komma)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Hjelp av Lululla
+LiveGardenTVPlus Help: LiveGardenTVPlus Hjelp
 LOAD: LASTE
 Load a playlist first.: Last inn en spilleliste først.
+Load a second playlist first.: Last inn en andre spilleliste først.
 Load File: Last inn fil
+Load from file...: Last fra fil...
+Load from URL: Last fra URL
+Load from URL...: Last fra URL...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Last inn lokal M3U/JSON-fil – via 'Last fil'-knappen (verktøylinje) eller 'Åpne fil' i redigeringsprogrammet.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Last inn online M3U/JSON URL – 'Last inn online'-knapp (verktøylinje) eller 'Åpne fra URL' i redigeringsprogrammet.
 Load playlist file (M3U/JSON) from your computer: Last ned spillelistefilen (M3U/JSON) fra datamaskinen
 Loaded: Lastet
+Loaded {0} channels from JSON file via mapping.: Lastet inn {0} kanaler fra JSON-fil via kartlegging.
 Loaded {0} channels from JSON file.: Lastet inn {0} kanaler fra JSON-fil.
 Loaded {0} channels from JSON URL.: Lastet inn {0} kanaler fra JSON URL.
 Loaded {0} channels from M3U file.: Lastet inn {0} kanaler fra M3U-fil.
@@ -191,15 +223,23 @@ Next: Neste
 Next ▶: Neste ▶
 No .m3u files found on GitHub repository.: Ingen .m3u-filer funnet på GitHub-depotet.
 No cache folder found.: Finner ingen cache-mappe.
+No channels could be mapped or import cancelled.: Ingen kanaler kunne kartlegges eller import kanselleres.
 No channels could be mapped. Check your mapping rules.: Ingen kanaler kunne kartlegges. Sjekk kartreglene dine.
+No channels loaded from JSON URL.: Ingen kanaler lastet fra JSON URL.
+No channels loaded from M3U URL.: Ingen kanaler lastet fra M3U URL.
+No channels loaded from M3U.: Ingen kanaler lastet fra M3U.
+No channels loaded.: Ingen kanaler er lastet inn.
 No channels mapped: Ingen kanaler er kartlagt
+No comparison results. Run Compare first.: Ingen sammenligningsresultater. Kjør Compare først.
 No duplicate URLs found.: Fant ingen dupliserte nettadresser.
 No EPG data: Ingen EPG-data
 No EPG information available for this channel.: Ingen EPG-informasjon tilgjengelig for denne kanalen.
 No EPG source configured. Please select one from the combo or go to Settings.: Ingen EPG-kilde konfigurert. Velg en fra kombinasjonen eller gå til Innstillinger.
 No EPG source configured. Would you like to open settings to select one?: Ingen EPG-kilde konfigurert. Vil du åpne innstillingene for å velge en?
 No favorite channels to export.: Ingen favorittkanaler å eksportere.
+No missing channels to export.: Ingen manglende kanaler å eksportere.
 No playlist found: Finner ingen spilleliste
+No second playlist loaded.: Ingen andre spilleliste er lastet inn.
 No updates available.: Ingen tilgjengelige oppdateringer.
 Normal speed (1x): Normal hastighet (1x)
 Not connected to the box.: Ikke koblet til boksen.
@@ -207,6 +247,8 @@ Now: Nå
 OK: OK
 Online Playlist: Online spilleliste
 Online playlist – select from GitHub repository (auto‑refresh).: Online spilleliste – velg fra GitHub-depotet (automatisk oppdatering).
+Only in First: Bare i First
+Only in Second: Bare i andre
 Open File...: Åpne fil...
 Open from URL: Åpne fra URL
 Open Playlist: Åpne spilleliste
@@ -214,12 +256,14 @@ Pause/Resume live stream: Pause/gjenoppta direktesending
 Paused: Pause
 PayPal: PayPal
 Picture-in-Picture mode: Bilde-i-bilde-modus
-Player Control: Spillerkontroll
+Player Controls: Spillerkontroller
 Playlist & Groups: Spilleliste og grupper
+Playlist Comparison: Sammenligning av spillelister
 Playlist Editor: Spillelisteredigering
 Playlist Loading: Spilleliste lastes inn
 Playlist Management: Spillelistebehandling
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Spillelistelager: OwnerPlugins/TivuStreamList (italienske og internasjonale strømmer)
+Playlists loaded: Spillelister er lastet inn
 Please select a program first.: Velg et program først.
 Preview (first 5 channels): Forhåndsvisning (de første 5 kanalene)
 Preview error: {0}: Forhåndsvisningsfeil: {0}
@@ -235,8 +279,10 @@ Refresh List: Oppdater liste
 Reload GUI: Last inn GUI på nytt
 Remove Command: Fjern kommando
 Rename Group: Gi nytt navn til gruppe
+Rename group '{0}' to:: Gi nytt navn til gruppen '{0}' til:
 Repository: Depot
 Reset Order: Tilbakestill rekkefølge
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Resultater: 'Bare i første', 'Bare i andre', 'i begge' – med statusfargekoding.
 Save: Spare
 SAVE: SPARE
 Save – persists all settings without reloading current playlist.: Lagre – bevarer alle innstillinger uten å laste inn gjeldende spilleliste på nytt.
@@ -249,6 +295,7 @@ Saved: Lagret
 Search channel: : Søk kanal:
 Search channels by name: Søk etter kanaler etter navn
 Search channels...: Søk etter kanaler...
+sec: sek
 Select a playlist first.: Velg en spilleliste først.
 Select Theme: Velg Tema
 Selected theme is saved and applied on restart.: Valgt tema lagres og brukes ved omstart.
@@ -271,8 +318,11 @@ Support the developer: Støtt utvikleren
 Target Field: Målfelt
 Telnet command:: Telnet kommando:
 Telnet Commander: Telnet-sjef
+Telnet Config: Telnet Config
 Telnet Console: Telnet-konsoll
-Telnet not configured. Please set it in Settings.: Telnet er ikke konfigurert. Vennligst still den i Innstillinger.
+Telnet host not configured. Please set it in Settings.: Telnet-verten er ikke konfigurert. Vennligst still den i Innstillinger.
+Telnet password is empty. Do you want to continue?: Telnet-passordet er tomt. Vil du fortsette?
+Telnet username not configured. Please set it in Settings.: Telnet-brukernavnet er ikke konfigurert. Vennligst still den i Innstillinger.
 Thanks to: Takk til
 Theme picker: Temavelger
 Theme picker – accessible via Tools menu on main toolbar.: Temavelger – tilgjengelig via Verktøy-menyen på hovedverktøylinjen.
@@ -289,14 +339,18 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Kan ikke finne versjon i ekstern prosjektfil.
 Update: Oppdater
 Update complete. Restarting...: Oppdatering fullført. Starter på nytt...
+Update Error: Oppdateringsfeil
 Update failed: : Oppdatering mislyktes:
 Updates: Oppdateringer
+Upload Error: Opplastingsfeil
 URL: URL
 URL (primary): URL (primær)
 URL Check: URL-sjekk
 URL list (one per line): URL-liste (én per linje)
 URLs & Status: URLer og status
 Version: Versjon
+Version {0}.{1}.{2}: Versjon {0}.{1}.{2}
+Version unknown: Versjon ukjent
 Waiting for LiveGardenTVPlus to close...: Venter på at LiveGardenTVPlus skal stenge...
 Warning: Advarsel
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

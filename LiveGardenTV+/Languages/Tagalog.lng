@@ -1,4 +1,3 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Ganap na boluntaryo - walang mga tampok na naka-block)
 (No description): (Walang paglalarawan)
 • Add / rename / delete groups.: • Magdagdag / palitan ang pangalan / tanggalin ang mga grupo.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Nakaraan
 16 colour themes + Light/Dark variants.: 16 na tema ng kulay + Light/Dark na variant.
 A new version is available. Do you want to update now?: Available ang isang bagong bersyon. Gusto mo bang mag-update ngayon?
+Access via 'Compare' button in Playlist Editor or Tools menu.: I-access sa pamamagitan ng button na 'Ihambing' sa Playlist Editor o Tools menu.
 Access via 'Edit Playlist' button on main toolbar.: I-access sa pamamagitan ng button na 'I-edit ang Playlist' sa pangunahing toolbar.
 Actions: Mga aksyon
 Add Command: Magdagdag ng Command
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Ipinadala ang bouquet at na-rel
 Buffer (seconds): Buffer (segundo)
 Buffer size – adjust HLS buffer seconds.: Laki ng buffer – ayusin ang mga segundo ng buffer ng HLS.
 Cache: Cache
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Kanselahin
 CANCEL: KANSELAHIN
+Cannot open browser: Hindi mabuksan ang browser
 Category: Kategorya
 Changelog: Changelog
 Channel Details: Mga Detalye ng Channel
 Channel Info: Impormasyon ng Channel
+Channel Name: Pangalan ng Channel
 channels from: mga channel mula sa
+channels from JSON: mga channel mula sa JSON
 channels from JSON URL: mga channel mula sa JSON URL
 channels from URL: mga channel mula sa URL
 Check Duplicates: Suriin ang Mga Duplicate
@@ -57,6 +61,13 @@ Click for details: I-click para sa mga detalye
 Close: Isara
 Command name:: Pangalan ng command:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunidad at pagsubok: CorvoBoys (corvoboys.org) at LinuxSat-Support.com
+Compare: Ikumpara
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Ihambing ayon sa: Priyoridad (pangalan→grupo→tvg-id), Pangalan, Grupo (case-sensitive), o TvgId.
+Compare Playlists: Ihambing ang Mga Playlist
+Compare two playlists – load first (current playlist) and second (from file or URL).: Paghambingin ang dalawang playlist – i-load muna (kasalukuyang playlist) at pangalawa (mula sa file o URL).
+Compare...: Ikumpara...
+Comparison results: {0} channels: Mga resulta ng paghahambing: {0} (na) channel
+Configuration Missing: Nawawala ang Configuration
 Confirm Reload: Kumpirmahin ang I-reload
 Connect: Kumonekta
 Connected: Nakakonekta
@@ -83,10 +94,13 @@ Edit command name:: I-edit ang pangalan ng command:
 Edit Playlist: I-edit ang Playlist
 Edit telnet command:: I-edit ang utos ng telnet:
 Edit URLs: I-edit ang mga URL
+Empty Password: Walang laman ang Password
 End: Tapusin
 Enrich with EPG: Pagyamanin gamit ang EPG
 Enter bouquet name (without spaces):: Ilagay ang pangalan ng bouquet (walang mga puwang):
 Enter JSON URL:: Ilagay ang JSON URL:
+Enter new group name:: Maglagay ng bagong pangalan ng pangkat:
+Enter playlist URL (JSON or M3U):: Ilagay ang URL ng playlist (JSON o M3U):
 Enter playlist URL (M3U or JSON):: Ilagay ang URL ng playlist (M3U o JSON):
 EPG: EPG
 Epg & Favorites: Epg at Mga Paborito
@@ -101,31 +115,40 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG source �
 EPG source – choose XMLTV file or enter custom URL.: EPG source – piliin ang XMLTV file o ilagay ang custom na URL.
 EPG Source Missing: Nawawala ang Pinagmulan ng EPG
 Error: Error
-Error clearing cache: Error sa pag-clear ng cache
+Error clearing cache: {0}: Error sa pag-clear ng cache: {0}
 Error loading: Error sa paglo-load
+Error loading EPG list: {0}: Error sa paglo-load ng listahan ng EPG: {0}
+Error loading file: {0}: Error sa paglo-load ng file: {0}
 Error loading file: {0}: Error sa paglo-load ng file: {0}
 Error loading playlists: {0}: Error sa pag-load ng mga playlist: {0}
 Error loading URL: {0}: Error sa paglo-load ng URL: {0}
+Error loading URL: {0}: Error sa paglo-load ng URL: {0}
 ERROR: player.html not found.: ERROR: hindi nahanap ang player.html.
 Exit: Lumabas
+Export: I-export
+Export all: I-export lahat
 Export Favorites: I-export ang Mga Paborito
 Export Filtered JSON: I-export ang Naka-filter na JSON
 Export Filtered M3U: I-export ang Na-filter na M3U
 Export JSON: I-export ang JSON
 Export KO: I-export ang KO
+Export missing: Nawawala ang pag-export
 Export OK: I-export ang OK
 Export only favorite channels to a new M3U file: I-export lamang ang mga paboritong channel sa isang bagong M3U file
+Export results as JSON or M3U – export missing channels or all channels.: I-export ang mga resulta bilang JSON o M3U – i-export ang mga nawawalang channel o lahat ng channel.
+Exported channels: Mga na-export na channel
 Extracting update...: Kinukuha ang update...
 Failed to download playlist: Nabigong i-download ang playlist
 Failed to load playlist: Nabigong i-load ang playlist
-Failed to update bouquets.tv.: Nabigong i-update ang bouquets.tv.
-Failed to upload bouquet.: Nabigong mag-upload ng bouquet.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Nabigong i-update ang bouquets.tv. Pakisuri ang mga pahintulot ng file sa Enigma2 device.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Nabigong mag-upload ng bouquet. Pakisuri ang iyong mga setting ng Telnet (host, port, username, password) at subukang muli.
 Favorite: Paborito
 Favorites only: Mga paborito lang
 Fetch Logos: Kunin ang Mga Logo
 File {0} already exists. Overwrite?: Umiiral na ang file na {0}. I-overwrite?
 File exists: May file
 Filters: Mga filter
+First playlist: {0} channels loaded.: Unang playlist: {0} (na) channel ang na-load.
 Fullscreen (hide UI) - press ESC to exit: Fullscreen (itago ang UI) - pindutin ang ESC upang lumabas
 Geo & Country: Geo at Bansa
 GeoBlocked: GeoBlocked
@@ -138,19 +161,23 @@ Hide List: Itago ang Listahan
 HLS playback: hls.js (MIT license): HLS playback: hls.js (MIT lisensya)
 Image: Imahe
 Import: Mag-import
+Import cancelled or no channels mapped.: Kinansela ang pag-import o walang mga channel na nakamapa.
 Import error: {0}: Error sa pag-import: {0}
 Import from URL: Mag-import mula sa URL
 Import JSON: Mag-import ng JSON
 Import JSON from URL: Mag-import ng JSON mula sa URL
 Import Local: Mag-import ng Lokal
-Imported {0} channels from JSON.: Nag-import ng {0} (na) channel mula sa JSON.
+Imported {0} channels from JSON via mapping.: Nag-import ng {0} (na) channel mula sa JSON sa pamamagitan ng pagmamapa.
 Imported {0} channels from URL.: Nag-import ng {0} (na) channel mula sa URL.
+In Both: Sa Parehong
 Info: Impormasyon
 Info on: Impormasyon sa
 Invalid JSON: {0}: Di-wastong JSON: {0}
 Invalid playlist URL.: Di-wastong URL ng playlist.
 Invalid URL.: Di-wastong URL.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: JSON file|*.json|M3U file|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON file|*.json|M3U file|*.m3u;*.m3u8|Lahat ng file|*.*
 JSON Property: JSON Property
 Ko-fi: kape
 Language: Wika
@@ -158,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Mga wika
 Languages (comma): Mga wika (kuwit)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Tulong ni Lululla
+LiveGardenTVPlus Help: Tulong sa LiveGardenTVPlus
 LOAD: LOAD
 Load a playlist first.: Mag-load muna ng playlist.
+Load a second playlist first.: Mag-load muna ng pangalawang playlist.
 Load File: Mag-load ng File
+Load from file...: Mag-load mula sa file...
+Load from URL: Mag-load mula sa URL
+Load from URL...: Mag-load mula sa URL...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Mag-load ng lokal na M3U/JSON file – sa pamamagitan ng 'Load File' na button (toolbar) o 'Open File' sa editor.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: I-load ang online M3U/JSON URL – button na 'I-load ang Online' (toolbar) o 'Buksan mula sa URL' sa editor.
 Load playlist file (M3U/JSON) from your computer: I-load ang playlist file (M3U/JSON) mula sa iyong computer
 Loaded: Na-load
+Loaded {0} channels from JSON file via mapping.: Nag-load ng {0} (na) channel mula sa JSON file sa pamamagitan ng pagmamapa.
 Loaded {0} channels from JSON file.: Nag-load ng {0} (na) channel mula sa JSON file.
 Loaded {0} channels from JSON URL.: Nag-load ng {0} (na) channel mula sa JSON URL.
 Loaded {0} channels from M3U file.: Nag-load ng {0} (na) channel mula sa M3U file.
@@ -191,15 +223,23 @@ Next: Susunod
 Next ▶: Susunod ▶
 No .m3u files found on GitHub repository.: Walang nakitang .m3u file sa GitHub repository.
 No cache folder found.: Walang nakitang folder ng cache.
+No channels could be mapped or import cancelled.: Walang mga channel ang maaaring imapa o kanselahin ang pag-import.
 No channels could be mapped. Check your mapping rules.: Walang mga channel ang ma-mapa. Suriin ang iyong mga panuntunan sa pagmamapa.
+No channels loaded from JSON URL.: Walang mga channel na na-load mula sa JSON URL.
+No channels loaded from M3U URL.: Walang mga channel na na-load mula sa M3U URL.
+No channels loaded from M3U.: Walang mga channel na na-load mula sa M3U.
+No channels loaded.: Walang na-load na mga channel.
 No channels mapped: Walang mga channel na nakamapa
+No comparison results. Run Compare first.: Walang resulta ng paghahambing. Patakbuhin ang Compare muna.
 No duplicate URLs found.: Walang nakitang duplicate na URL.
 No EPG data: Walang data ng EPG
 No EPG information available for this channel.: Walang available na impormasyon sa EPG para sa channel na ito.
 No EPG source configured. Please select one from the combo or go to Settings.: Walang EPG source na na-configure. Mangyaring pumili ng isa mula sa combo o pumunta sa Mga Setting.
 No EPG source configured. Would you like to open settings to select one?: Walang EPG source na na-configure. Gusto mo bang buksan ang mga setting para pumili ng isa?
 No favorite channels to export.: Walang paboritong channel na ie-export.
+No missing channels to export.: Walang nawawalang mga channel upang i-export.
 No playlist found: Walang nahanap na playlist
+No second playlist loaded.: Walang na-load na pangalawang playlist.
 No updates available.: Walang available na update.
 Normal speed (1x): Normal na bilis (1x)
 Not connected to the box.: Hindi konektado sa kahon.
@@ -207,6 +247,8 @@ Now: Ngayon
 OK: OK
 Online Playlist: Online na Playlist
 Online playlist – select from GitHub repository (auto‑refresh).: Online na playlist – pumili mula sa GitHub repository (auto-refresh).
+Only in First: Sa Una lang
+Only in Second: Sa Pangalawa lang
 Open File...: Buksan ang File...
 Open from URL: Buksan mula sa URL
 Open Playlist: Buksan ang Playlist
@@ -214,12 +256,14 @@ Pause/Resume live stream: I-pause/Ipagpatuloy ang live stream
 Paused: Naka-pause
 PayPal: PayPal
 Picture-in-Picture mode: Picture-in-Picture mode
-Player Control: Kontrol ng Manlalaro
+Player Controls: Mga Kontrol ng Manlalaro
 Playlist & Groups: Playlist at Mga Grupo
+Playlist Comparison: Paghahambing ng Playlist
 Playlist Editor: Editor ng Playlist
 Playlist Loading: Naglo-load ang Playlist
 Playlist Management: Pamamahala ng Playlist
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Imbakan ng playlist: OwnerPlugins/TivuStreamList (Italian at international stream)
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repository ng playlist: OwnerPlugins/TivuStreamList (Italian at international stream)
+Playlists loaded: Na-load ang mga playlist
 Please select a program first.: Mangyaring pumili muna ng isang programa.
 Preview (first 5 channels): Preview (unang 5 channel)
 Preview error: {0}: Error sa pag-preview: {0}
@@ -235,8 +279,10 @@ Refresh List: I-refresh ang Listahan
 Reload GUI: I-reload ang GUI
 Remove Command: Alisin ang Command
 Rename Group: Palitan ang pangalan ng Grupo
+Rename group '{0}' to:: Palitan ang pangalan ng pangkat na '{0}' sa:
 Repository: Imbakan
 Reset Order: I-reset ang Order
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Mga Resulta: 'Sa Una Lamang', 'Sa Pangalawa Lamang', 'Sa Parehong' – na may status color coding.
 Save: I-save
 SAVE: MAGTIPID
 Save – persists all settings without reloading current playlist.: I-save – nagpapatuloy ang lahat ng mga setting nang hindi nire-reload ang kasalukuyang playlist.
@@ -249,6 +295,7 @@ Saved: Nai-save
 Search channel: : Maghanap ng channel:
 Search channels by name: Maghanap ng mga channel ayon sa pangalan
 Search channels...: Maghanap ng mga channel...
+sec: sec
 Select a playlist first.: Pumili muna ng playlist.
 Select Theme: Piliin ang Tema
 Selected theme is saved and applied on restart.: Ang napiling tema ay nai-save at inilapat sa pag-restart.
@@ -271,8 +318,11 @@ Support the developer: Suportahan ang developer
 Target Field: Target na Patlang
 Telnet command:: Utos ng Telnet:
 Telnet Commander: Komandante ng Telnet
+Telnet Config: Telnet Config
 Telnet Console: Telnet Console
-Telnet not configured. Please set it in Settings.: Hindi na-configure ang Telnet. Mangyaring itakda ito sa Mga Setting.
+Telnet host not configured. Please set it in Settings.: Hindi na-configure ang host ng Telnet. Mangyaring itakda ito sa Mga Setting.
+Telnet password is empty. Do you want to continue?: Walang laman ang password ng Telnet. Gusto mo bang magpatuloy?
+Telnet username not configured. Please set it in Settings.: Hindi na-configure ang username ng Telnet. Mangyaring itakda ito sa Mga Setting.
 Thanks to: Salamat sa
 Theme picker: Tagapili ng tema
 Theme picker – accessible via Tools menu on main toolbar.: Tagapili ng tema – naa-access sa pamamagitan ng menu ng Mga Tool sa pangunahing toolbar.
@@ -289,14 +339,18 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Hindi mahanap ang bersyon sa malayuang file ng proyekto.
 Update: Update
 Update complete. Restarting...: Kumpleto na ang pag-update. Nagsisimula muli...
+Update Error: Error sa Pag-update
 Update failed: : Nabigo ang pag-update:
 Updates: Mga update
+Upload Error: Error sa Pag-upload
 URL: URL
 URL (primary): URL (pangunahin)
 URL Check: Suriin ang URL
 URL list (one per line): Listahan ng URL (isa bawat linya)
 URLs & Status: Mga URL at Katayuan
 Version: Bersyon
+Version {0}.{1}.{2}: Bersyon {0}.{1}.{2}
+Version unknown: Hindi alam ang bersyon
 Waiting for LiveGardenTVPlus to close...: Hinihintay na magsara ang LiveGardenTVPlus...
 Warning: Babala
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

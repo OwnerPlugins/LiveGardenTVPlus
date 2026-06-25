@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cache karpeta: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Guztiz borondatezkoa - ez dago funtziorik blokeatuta)
 (No description): (Deskribapenik ez)
 • Add / rename / delete groups.: • Gehitu / aldatu izena / ezabatu taldeak.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Aurrekoa
 16 colour themes + Light/Dark variants.: 16 kolore-gai + Argia/Iluna aldaera.
 A new version is available. Do you want to update now?: Bertsio berri bat dago eskuragarri. Orain eguneratu nahi duzu?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Sartu 'Konparatu' botoiaren bidez Erreprodukzio-zerrenden editorean edo Tresnak menuan.
 Access via 'Edit Playlist' button on main toolbar.: Sartu tresna-barra nagusiko 'Editatu erreprodukzio zerrenda' botoiaren bidez.
 Actions: Ekintzak
 Add Command: Gehitu komandoa
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Bouquet bidali eta Enigma2 kana
 Buffer (seconds): Buffer (segundoak)
 Buffer size – adjust HLS buffer seconds.: Buffer tamaina - egokitu HLS buffer segundoak.
 Cache: Cachea
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Cache karpeta: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Utzi
 CANCEL: Utzi
+Cannot open browser: Ezin da arakatzailea ireki
 Category: Kategoria
 Changelog: Aldaketen erregistroa
 Channel Details: Kanalaren xehetasunak
 Channel Info: Kanalaren informazioa
+Channel Name: Kanalaren izena
 channels from: kanalak
+channels from JSON: JSON-ko kanalak
 channels from JSON URL: kanalak JSON URLtik
 channels from URL: URLtik kanalak
 Check Duplicates: Egiaztatu Bikoiztuak
@@ -57,6 +61,12 @@ Click for details: Sakatu xehetasunak ikusteko
 Close: Itxi
 Command name:: Komandoaren izena:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunitatea eta probak: CorvoBoys (corvoboys.org) eta LinuxSat-Support.com
+Compare: Konparatu
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Konparatu: Lehentasuna (izena→taldea→tvg-id), Izena, Taldea (maiuskulak eta minuskulak bereizten ditu) edo TvgId.
+Compare Playlists: Erreprodukzio zerrendak alderatu
+Compare two playlists – load first (current playlist) and second (from file or URL).: Konparatu bi erreprodukzio-zerrenda: kargatu lehenengoa (uneko erreprodukzio-zerrenda) eta bigarrena (fitxategitik edo URLtik).
+Compare...: Konparatu...
+Comparison results: {0} channels: Konparaketaren emaitzak: {0} kanal
 Configuration Missing: Konfigurazioa falta da
 Confirm Reload: Berretsi birkargatu
 Connect: Konektatu
@@ -89,6 +99,8 @@ End: Amaiera
 Enrich with EPG: EPGarekin aberastu
 Enter bouquet name (without spaces):: Sartu sortaren izena (espaziorik gabe):
 Enter JSON URL:: Sartu JSON URLa:
+Enter new group name:: Sartu taldearen izen berria:
+Enter playlist URL (JSON or M3U):: Sartu erreprodukzio-zerrendaren URLa (JSON edo M3U):
 Enter playlist URL (M3U or JSON):: Sartu erreprodukzio-zerrendaren URLa (M3U edo JSON):
 EPG: EPG
 Epg & Favorites: Epg eta gogokoak
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG iturria -
 EPG source – choose XMLTV file or enter custom URL.: EPG iturria: aukeratu XMLTV fitxategia edo sartu URL pertsonalizatua.
 EPG Source Missing: EPG iturria falta da
 Error: Errorea
-Error clearing cache: Errore bat gertatu da cachea garbitzean
+Error clearing cache: {0}: Errore bat gertatu da cachea garbitzean: {0}
 Error loading: Errore bat gertatu da kargatzean
+Error loading EPG list: {0}: Errore bat gertatu da EPG zerrenda kargatzean: {0}
+Error loading file: {0}: Errore bat gertatu da fitxategia kargatzean: {0}
 Error loading file: {0}: Errore bat gertatu da fitxategia kargatzean: {0}
 Error loading playlists: {0}: Errore bat gertatu da erreprodukzio-zerrendak kargatzean: {0}
 Error loading URL: {0}: Errore bat gertatu da URLa kargatzean: {0}
+Error loading URL: {0}: Errore bat gertatu da URLa kargatzean: {0}
 ERROR: player.html not found.: ERROREA: player.html ez da aurkitu.
 Exit: Irten
+Export: Esportatu
+Export all: Esportatu guztiak
 Export Favorites: Esportatu gogokoak
 Export Filtered JSON: Esportatu iragazitako JSON
 Export Filtered M3U: Esportatu iragazitako M3U
 Export JSON: Esportatu JSON
 Export KO: Esportatu KO
+Export missing: Esportatu falta da
 Export OK: Esportatu OK
 Export only favorite channels to a new M3U file: Esportatu gogoko kanalak soilik M3U fitxategi berri batera
+Export results as JSON or M3U – export missing channels or all channels.: Esportatu emaitzak JSON edo M3U gisa - esportatu falta diren kanalak edo kanal guztiak.
+Exported channels: Esportatutako kanalak
 Extracting update...: Eguneraketa ateratzen...
 Failed to download playlist: Ezin izan da deskargatu erreprodukzio-zerrenda
 Failed to load playlist: Ezin izan da kargatu erreprodukzio-zerrenda
@@ -128,6 +148,7 @@ Fetch Logos: Lortu logotipoak
 File {0} already exists. Overwrite?: {0} fitxategia badago jada. Gainidatzi?
 File exists: Fitxategia existitzen da
 Filters: Iragazkiak
+First playlist: {0} channels loaded.: Lehen erreprodukzio-zerrenda: {0} kanal kargatu dira.
 Fullscreen (hide UI) - press ESC to exit: Pantaila osoa (ezkutatu UI) - sakatu ESC irteteko
 Geo & Country: Geo eta Herrialdea
 GeoBlocked: Geoblokeatua
@@ -140,19 +161,23 @@ Hide List: Ezkutatu Zerrenda
 HLS playback: hls.js (MIT license): HLS erreprodukzioa: hls.js (MIT lizentzia)
 Image: Irudia
 Import: Inportatu
+Import cancelled or no channels mapped.: Inportazioa bertan behera utzi da edo ez dago kanalik mapatu.
 Import error: {0}: Inportazio-errorea: {0}
 Import from URL: Inportatu URLtik
 Import JSON: Inportatu JSON
 Import JSON from URL: Inportatu JSON URLtik
 Import Local: Inportatu lokala
-Imported {0} channels from JSON.: {0} kanal inportatu dira JSONetik.
+Imported {0} channels from JSON via mapping.: JSONtik {0} kanal inportatu dira mapen bidez.
 Imported {0} channels from URL.: {0} kanal inportatu dira URLtik.
+In Both: Bietan
 Info: Info
 Info on: Informazioa
 Invalid JSON: {0}: JSON baliogabea: {0}
 Invalid playlist URL.: Erreprodukzio-zerrendaren URL baliogabea.
 Invalid URL.: URL baliogabea.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: JSON fitxategiak|*.json|M3U fitxategiak|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON fitxategiak|*.json|M3U fitxategiak|*.m3u;*.m3u8|Fitxategi guztiak|*.*
 JSON Property: JSON propietatea
 Ko-fi: Kafea
 Language: Hizkuntza
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Hizkuntzak
 Languages (comma): Hizkuntzak (koma)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Lululla-ren laguntza
+LiveGardenTVPlus Help: LiveGardenTVPlus Laguntza
 LOAD: ZARGA
 Load a playlist first.: Kargatu erreprodukzio-zerrenda bat lehenik.
+Load a second playlist first.: Kargatu lehenik bigarren erreprodukzio-zerrenda.
 Load File: Kargatu fitxategia
+Load from file...: Kargatu fitxategitik...
+Load from URL: Kargatu URLtik
+Load from URL...: Kargatu URLtik...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Kargatu M3U/JSON fitxategi lokala - 'Kargatu fitxategia' botoiaren (tresna-barra) edo 'Ireki fitxategia' editorean.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Kargatu online M3U/JSON URL - 'Kargatu linean' botoia (tresna-barra) edo 'Ireki URLtik' editorean.
 Load playlist file (M3U/JSON) from your computer: Kargatu erreprodukzio zerrendaren fitxategia (M3U/JSON) ordenagailutik
 Loaded: Kargatu
+Loaded {0} channels from JSON file via mapping.: JSON fitxategitik {0} kanal kargatu dira mapa bidez.
 Loaded {0} channels from JSON file.: {0} kanal kargatu dira JSON fitxategitik.
 Loaded {0} channels from JSON URL.: {0} kanal kargatu dira JSON URLtik.
 Loaded {0} channels from M3U file.: {0} kanal kargatu dira M3U fitxategitik.
@@ -193,15 +223,23 @@ Next: Hurrengoa
 Next ▶: Hurrengoa ▶
 No .m3u files found on GitHub repository.: Ez da .m3u fitxategirik aurkitu GitHub biltegian.
 No cache folder found.: Ez da aurkitu cache karpetarik.
+No channels could be mapped or import cancelled.: Ezin izan da kanalik mapatu edo inportazioa bertan behera utzi.
 No channels could be mapped. Check your mapping rules.: Ezin izan da kanalik mapatu. Egiaztatu zure mapa-arauak.
+No channels loaded from JSON URL.: Ez da kanalik kargatu JSON URLtik.
+No channels loaded from M3U URL.: Ez da kanalik kargatu M3U URLtik.
+No channels loaded from M3U.: Ez da kanalik kargatu M3Utik.
+No channels loaded.: Ez da kanalik kargatu.
 No channels mapped: Ez dago kanalik mapatu
+No comparison results. Run Compare first.: Ez dago konparazio emaitzarik. Exekutatu Konparatu lehenik.
 No duplicate URLs found.: Ez da bikoiztutako URLrik aurkitu.
 No EPG data: Ez dago EPG daturik
 No EPG information available for this channel.: Ez dago EPG informaziorik kanal honetarako.
 No EPG source configured. Please select one from the combo or go to Settings.: Ez da konfiguratu EPG iturririk. Mesedez, hautatu bat konbinaziotik edo joan Ezarpenak atalera.
 No EPG source configured. Would you like to open settings to select one?: Ez da konfiguratu EPG iturririk. Ezarpenak ireki nahi dituzu bat hautatzeko?
 No favorite channels to export.: Ez dago esportatzeko gogoko kanalik.
+No missing channels to export.: Esportatzeko kanalik ez da falta.
 No playlist found: Ez da aurkitu erreprodukzio zerrenda
+No second playlist loaded.: Ez da bigarren erreprodukzio zerrenda kargatu.
 No updates available.: Ez dago eguneratzerik eskuragarri.
 Normal speed (1x): Abiadura normala (1x)
 Not connected to the box.: Ez dago kutxara konektatuta.
@@ -209,6 +247,8 @@ Now: Orain
 OK: Ados
 Online Playlist: Lineako erreprodukzio zerrenda
 Online playlist – select from GitHub repository (auto‑refresh).: Lineako erreprodukzio-zerrenda: hautatu GitHub biltegitik (auto-freskatu).
+Only in First: Lehenengoan bakarrik
+Only in Second: Bigarrenean bakarrik
 Open File...: Ireki fitxategia...
 Open from URL: Ireki URLtik
 Open Playlist: Ireki Erreprodukzio zerrenda
@@ -216,12 +256,14 @@ Pause/Resume live stream: Pausatu/Berrekin zuzeneko igorpena
 Paused: Pausatuta
 PayPal: PayPal
 Picture-in-Picture mode: Irudian-Picture modua
-Player Control: Jokalari Kontrola
+Player Controls: Jokalari kontrolak
 Playlist & Groups: Erreprodukzio zerrenda eta taldeak
+Playlist Comparison: Erreprodukzio-zerrenden konparaketa
 Playlist Editor: Erreprodukzio-zerrenden editorea
 Playlist Loading: Erreprodukzio-zerrenda kargatzen
 Playlist Management: Erreprodukzio-zerrenden kudeaketa
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Erreprodukzio-zerrenden biltegia: OwnerPlugins/TivuStreamList (Italiako eta nazioarteko korronteak)
+Playlists loaded: Erreprodukzio-zerrendak kargatu dira
 Please select a program first.: Mesedez, hautatu programa bat lehenik.
 Preview (first 5 channels): Aurrebista (lehen 5 kanalak)
 Preview error: {0}: Aurrebista-errorea: {0}
@@ -237,8 +279,10 @@ Refresh List: Freskatu zerrenda
 Reload GUI: Berriz kargatu GUI
 Remove Command: Kendu komandoa
 Rename Group: Aldatu taldeari
+Rename group '{0}' to:: Aldatu izena '{0}' taldeari:
 Repository: Biltegia
 Reset Order: Berrezarri ordena
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Emaitzak: 'Lehenengoan bakarrik', 'Bigarrenean bakarrik', 'Bietan' – egoera kolore-kodearekin.
 Save: Gorde
 SAVE: GORDE
 Save – persists all settings without reloading current playlist.: Gorde: ezarpen guztiak mantentzen ditu uneko erreprodukzio-zerrenda berriro kargatu gabe.
@@ -251,6 +295,7 @@ Saved: Gorde
 Search channel: : Bilatu kanala:
 Search channels by name: Bilatu kanalak izenaren arabera
 Search channels...: Bilatu kanalak...
+sec: seg
 Select a playlist first.: Hautatu erreprodukzio-zerrenda bat lehenik.
 Select Theme: Hautatu Gaia
 Selected theme is saved and applied on restart.: Hautatutako gaia gordetzen da eta berrabiarazi orduko aplikatzen da.
@@ -273,6 +318,7 @@ Support the developer: Garatzaileari lagundu
 Target Field: Helburu-eremua
 Telnet command:: Telnet komandoa:
 Telnet Commander: Telnet komandantea
+Telnet Config: Telnet konfigurazioa
 Telnet Console: Telnet kontsola
 Telnet host not configured. Please set it in Settings.: Telnet ostalaria ez dago konfiguratuta. Mesedez, ezarri Ezarpenak atalean.
 Telnet password is empty. Do you want to continue?: Telnet pasahitza hutsik dago. Jarraitu nahi duzu?
@@ -303,6 +349,8 @@ URL Check: URL egiaztatzea
 URL list (one per line): URL zerrenda (lerro bakoitzeko bat)
 URLs & Status: URLak eta egoera
 Version: Bertsioa
+Version {0}.{1}.{2}: {0} bertsioa.{1}.{2}
+Version unknown: Bertsio ezezaguna
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus ixteko zain...
 Warning: Abisua
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

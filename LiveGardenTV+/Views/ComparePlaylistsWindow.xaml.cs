@@ -1,14 +1,10 @@
 ﻿using LiveGardenTVPlus.Models;
 using LiveGardenTVPlus.Services;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
-using System.Linq;
 using System.Net.Http;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -25,7 +21,13 @@ namespace LiveGardenTVPlus.Views
         {
             InitializeComponent();
             _firstPlaylist = firstPlaylist ?? new List<ChannelJson>();
-            StatusText.Text = $"First playlist: {_firstPlaylist.Count} channels loaded.";
+
+            if (CompareFieldCombo.SelectedIndex == -1 && CompareFieldCombo.Items.Count > 0)
+                CompareFieldCombo.SelectedIndex = 0;
+
+            // StatusText.Text = string.Format(LanguageManager.GetTranslation("First playlist: {0} channels loaded."), _firstPlaylist.Count);
+            // StatusText.Text = string.Format(LanguageManager.GetTranslation("Comparison results: {0} channels"), _results.Count);
+            StatusText.Text = string.Format(LanguageManager.GetTranslation("Comparison results: {0} channels"), _results.Count);
             ResultsGrid.ItemsSource = _results;
             LanguageManager.LanguageChanged += ApplyLanguage;
             ApplyLanguage();
@@ -41,6 +43,17 @@ namespace LiveGardenTVPlus.Views
             ExportAllBtn.Content = LanguageManager.GetTranslation("Export all");
             CloseBtn.Content = LanguageManager.GetTranslation("Close");
 
+            foreach (ComboBoxItem item in CompareFieldCombo.Items)
+            {
+                string currentText = item.Content?.ToString() ?? "";
+                if (!string.IsNullOrEmpty(currentText))
+                {
+                    string translation = LanguageManager.GetTranslation(currentText);
+                    if (!string.IsNullOrEmpty(translation))
+                        item.Content = translation;
+                }
+            }
+
             if (ResultsGrid.Columns.Count >= 5)
             {
                 ResultsGrid.Columns[0].Header = LanguageManager.GetTranslation("Channel Name");
@@ -55,7 +68,7 @@ namespace LiveGardenTVPlus.Views
         {
             var dlg = new Microsoft.Win32.OpenFileDialog
             {
-                Filter = "JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*",
+                Filter = LanguageManager.GetTranslation("JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*"),
                 DefaultExt = ".json"
             };
             if (dlg.ShowDialog() == true)
@@ -69,7 +82,9 @@ namespace LiveGardenTVPlus.Views
                         if (channels != null && channels.Count > 0)
                             _secondPlaylist = channels;
                         else
-                            MessageBox.Show("No channels loaded.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                            MessageBox.Show(LanguageManager.GetTranslation("No channels loaded."),
+                                            LanguageManager.GetTranslation("Info"),
+                                            MessageBoxButton.OK, MessageBoxImage.Information);
                     }
                     else if (ext == ".m3u" || ext == ".m3u8")
                     {
@@ -87,21 +102,24 @@ namespace LiveGardenTVPlus.Views
                             }).ToList();
                         }
                         else
-                            MessageBox.Show("No channels loaded from M3U.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                            MessageBox.Show(LanguageManager.GetTranslation("No channels loaded from M3U."),
+                                            LanguageManager.GetTranslation("Info"),
+                                            MessageBoxButton.OK, MessageBoxImage.Information);
                     }
 
                     if (_secondPlaylist != null && _secondPlaylist.Count > 0)
                     {
-                        StatusText.Text = $"First: {_firstPlaylist.Count} | Second: {_secondPlaylist.Count} channels loaded. Click 'Compare'.";
+                        StatusText.Text = string.Format(LanguageManager.GetTranslation("Playlists loaded"), _firstPlaylist.Count, _secondPlaylist.Count);
                         CompareBtn.IsEnabled = true;
-                        // Auto‑compare if we have both lists
                         if (_firstPlaylist.Count > 0 && _secondPlaylist.Count > 0)
                             PerformComparison();
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Error loading file: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show(string.Format(LanguageManager.GetTranslation("Error loading file"), ex.Message),
+                                    LanguageManager.GetTranslation("Error"),
+                                    MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
         }
@@ -129,7 +147,9 @@ namespace LiveGardenTVPlus.Views
                     if (channels != null && channels.Count > 0)
                         _secondPlaylist = channels;
                     else
-                        MessageBox.Show("No channels loaded from JSON URL.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                        MessageBox.Show(LanguageManager.GetTranslation("No channels loaded from JSON URL."),
+                                        LanguageManager.GetTranslation("Info"),
+                                        MessageBoxButton.OK, MessageBoxImage.Information);
                 }
                 else
                 {
@@ -150,12 +170,14 @@ namespace LiveGardenTVPlus.Views
                         }).ToList();
                     }
                     else
-                        MessageBox.Show("No channels loaded from M3U URL.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                        MessageBox.Show(LanguageManager.GetTranslation("No channels loaded from M3U URL."),
+                                        LanguageManager.GetTranslation("Info"),
+                                        MessageBoxButton.OK, MessageBoxImage.Information);
                 }
 
                 if (_secondPlaylist != null && _secondPlaylist.Count > 0)
                 {
-                    StatusText.Text = $"First: {_firstPlaylist.Count} | Second: {_secondPlaylist.Count} channels loaded. Click 'Compare'.";
+                    StatusText.Text = string.Format(LanguageManager.GetTranslation("Playlists loaded"), _firstPlaylist.Count, _secondPlaylist.Count);
                     CompareBtn.IsEnabled = true;
                     if (_firstPlaylist.Count > 0 && _secondPlaylist.Count > 0)
                         PerformComparison();
@@ -163,7 +185,9 @@ namespace LiveGardenTVPlus.Views
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error loading URL: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show(string.Format(LanguageManager.GetTranslation("Error loading URL"), ex.Message),
+                                LanguageManager.GetTranslation("Error"),
+                                MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -177,7 +201,9 @@ namespace LiveGardenTVPlus.Views
         {
             if (_secondPlaylist == null || _secondPlaylist.Count == 0)
             {
-                MessageBox.Show("Please load a second playlist first.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show(LanguageManager.GetTranslation("Load a second playlist first."),
+                                LanguageManager.GetTranslation("Info"),
+                                MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
             PerformComparison();
@@ -201,17 +227,17 @@ namespace LiveGardenTVPlus.Views
 
             _results.Clear();
             foreach (var ch in result.OnlyInFirst)
-                _results.Add(new CompareResultItem { Name = ch.name, PrimaryUrl = ch.stream_urls?.FirstOrDefault() ?? "", Group = ch.group, TvgId = ch.tvg_id, Status = "Only in First", Source = ch });
+                _results.Add(new CompareResultItem { Name = ch.name, PrimaryUrl = ch.stream_urls?.FirstOrDefault() ?? "", Group = ch.group, TvgId = ch.tvg_id, Status = LanguageManager.GetTranslation("Only in First"), Source = ch });
             foreach (var ch in result.OnlyInSecond)
-                _results.Add(new CompareResultItem { Name = ch.name, PrimaryUrl = ch.stream_urls?.FirstOrDefault() ?? "", Group = ch.group, TvgId = ch.tvg_id, Status = "Only in Second", Source = ch });
+                _results.Add(new CompareResultItem { Name = ch.name, PrimaryUrl = ch.stream_urls?.FirstOrDefault() ?? "", Group = ch.group, TvgId = ch.tvg_id, Status = LanguageManager.GetTranslation("Only in Second"), Source = ch });
             foreach (var ch in result.InBoth)
-                _results.Add(new CompareResultItem { Name = ch.name, PrimaryUrl = ch.stream_urls?.FirstOrDefault() ?? "", Group = ch.group, TvgId = ch.tvg_id, Status = "In Both", Source = ch });
+                _results.Add(new CompareResultItem { Name = ch.name, PrimaryUrl = ch.stream_urls?.FirstOrDefault() ?? "", Group = ch.group, TvgId = ch.tvg_id, Status = LanguageManager.GetTranslation("In Both"), Source = ch });
 
             ResultsGrid.ItemsSource = null;
             ResultsGrid.ItemsSource = _results;
 
-            StatusText.Text = $"Compared. Results: {_results.Count} channels.";
-            ExportMissingBtn.IsEnabled = _results.Any(r => r.Status == "Only in Second");
+            StatusText.Text = string.Format(LanguageManager.GetTranslation("Comparison results: {0} channels"), _results.Count);
+            ExportMissingBtn.IsEnabled = _results.Any(r => r.Status == LanguageManager.GetTranslation("Only in Second"));
             ExportAllBtn.IsEnabled = _secondPlaylist != null && _secondPlaylist.Count > 0;
             CompareBtn.IsEnabled = false;
         }
@@ -220,24 +246,29 @@ namespace LiveGardenTVPlus.Views
         {
             if (_secondPlaylist == null || _secondPlaylist.Count == 0)
             {
-                MessageBox.Show("No second playlist loaded.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show(LanguageManager.GetTranslation("No second playlist loaded."),
+                                LanguageManager.GetTranslation("Info"),
+                                MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
             if (_results.Count == 0)
             {
-                MessageBox.Show("No comparison results. Run Compare first.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show(LanguageManager.GetTranslation("No comparison results. Run Compare first."),
+                                LanguageManager.GetTranslation("Info"),
+                                MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
 
-            // Get the full ChannelJson objects for missing channels (Only in Second)
-            var missing = _results.Where(r => r.Status == "Only in Second")
+            var missing = _results.Where(r => r.Status == LanguageManager.GetTranslation("Only in Second"))
                                   .Select(r => r.Source)
                                   .Where(ch => ch != null)
                                   .ToList();
 
             if (missing.Count == 0)
             {
-                MessageBox.Show("No missing channels to export.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show(LanguageManager.GetTranslation("No missing channels to export."),
+                                LanguageManager.GetTranslation("Info"),
+                                MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
 
@@ -248,7 +279,9 @@ namespace LiveGardenTVPlus.Views
         {
             if (_secondPlaylist == null || _secondPlaylist.Count == 0)
             {
-                MessageBox.Show("No second playlist loaded.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show(LanguageManager.GetTranslation("No second playlist loaded."),
+                                LanguageManager.GetTranslation("Info"),
+                                MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
 
@@ -259,7 +292,7 @@ namespace LiveGardenTVPlus.Views
         {
             var dialog = new Microsoft.Win32.SaveFileDialog
             {
-                Filter = "JSON files|*.json|M3U files|*.m3u",
+                Filter = LanguageManager.GetTranslation("JSON files|*.json|M3U files|*.m3u"),
                 DefaultExt = ".json",
                 FileName = defaultFileName
             };
@@ -269,13 +302,11 @@ namespace LiveGardenTVPlus.Views
                 string ext = Path.GetExtension(dialog.FileName).ToLower();
                 if (ext == ".json")
                 {
-                    // Export full JSON with all fields
                     string json = JsonConvert.SerializeObject(channels, Formatting.Indented);
                     await File.WriteAllTextAsync(dialog.FileName, json);
                 }
                 else if (ext == ".m3u")
                 {
-                    // Export M3U using first URL
                     using (var writer = new StreamWriter(dialog.FileName))
                     {
                         writer.WriteLine("#EXTM3U");
@@ -290,7 +321,9 @@ namespace LiveGardenTVPlus.Views
                         }
                     }
                 }
-                MessageBox.Show($"Exported {channels.Count} channels to {dialog.FileName}", "Export", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show(string.Format(LanguageManager.GetTranslation("Exported channels"), channels.Count, dialog.FileName),
+                                LanguageManager.GetTranslation("Export"),
+                                MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
@@ -341,7 +374,7 @@ namespace LiveGardenTVPlus.Views
             public string Group { get; set; }
             public string TvgId { get; set; }
             public string Status { get; set; }
-            public ChannelJson Source { get; set; }   // original object for export
+            public ChannelJson Source { get; set; }
         }
     }
 }

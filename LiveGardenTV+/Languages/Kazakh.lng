@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Кэш қалтасы: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Толығымен ерікті – ешбір мүмкіндік блокталмаған)
 (No description): (Сипаттамасы жоқ)
 • Add / rename / delete groups.: • Топтарды қосу / атын өзгерту / жою.
@@ -16,10 +15,11 @@
 • Picture‑in‑Picture (PIP) button.: • Суреттегі сурет (PIP) түймесі.
 • Playback speed: 0.5x, 1x, 2x buttons.: • Ойнату жылдамдығы: 0,5x, 1x, 2x түймелері.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Кез келген бағанды ​​тақырыпты басу арқылы сұрыптау; бастапқы ретке оралу үшін «Тапсырысты қалпына келтіру» түймесін пайдаланыңыз.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: тікелей эфирді кідірту; артқа қарай іздеу үшін сырғытпаны сүйреңіз; қайтару үшін «Тікелей эфир» түймесін басыңыз.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: тікелей эфирді кідірту; артқа іздеу үшін сырғытпаны сүйреңіз; қайтару үшін «Тікелей эфир» түймесін басыңыз.
 ◀ Previous: ◀ Алдыңғы
 16 colour themes + Light/Dark variants.: 16 түсті тақырып + Ашық/қараңғы нұсқалар.
 A new version is available. Do you want to update now?: Жаңа нұсқасы қолжетімді. Қазір жаңартқыңыз келе ме?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Ойнату тізімі өңдегішіндегі немесе Құралдар мәзіріндегі «Салыстыру» түймесі арқылы қол жеткізіңіз.
 Access via 'Edit Playlist' button on main toolbar.: Негізгі құралдар тақтасындағы «Ойнату тізімін өңдеу» түймесі арқылы қол жеткізіңіз.
 Actions: Әрекеттер
 Add Command: Пәрмен қосу
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Букет жіберілді �
 Buffer (seconds): Буфер (секунд)
 Buffer size – adjust HLS buffer seconds.: Буфер өлшемі – HLS буферінің секундтарын реттеңіз.
 Cache: Кэш
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Кэш қалтасы: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Болдырмау
 CANCEL: БАС ТАРТУ
+Cannot open browser: Браузерді ашу мүмкін емес
 Category: Санат
 Changelog: Өзгеріс журналы
 Channel Details: Арна мәліметтері
 Channel Info: Арна ақпараты
+Channel Name: Арна атауы
 channels from: бастап арналар
+channels from JSON: JSON арналары
 channels from JSON URL: JSON URL мекенжайынан арналар
 channels from URL: URL мекенжайынан арналар
 Check Duplicates: Көшірмелерді тексеріңіз
@@ -57,6 +61,12 @@ Click for details: Толық ақпарат алу үшін басыңыз
 Close: Жабу
 Command name:: Пәрмен аты:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Қауымдастық және тестілеу: CorvoBoys (corvoboys.org) және LinuxSat-Support.com
+Compare: Салыстыру
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Салыстырыңыз: Басымдылық (атауы→топ→tvg-идентификаторы), Аты, тобы (әріп-әріпті ескереді) немесе TvgId.
+Compare Playlists: Ойнату тізімдерін салыстырыңыз
+Compare two playlists – load first (current playlist) and second (from file or URL).: Екі ойнату тізімін салыстырыңыз – бірінші (ағымдағы ойнату тізімі) және екінші (файлдан немесе URL мекенжайынан) жүктеңіз.
+Compare...: Салыстыру...
+Comparison results: {0} channels: Салыстыру нәтижелері: {0} арна
 Configuration Missing: Конфигурация жоқ
 Confirm Reload: Қайта жүктеуді растаңыз
 Connect: Қосылу
@@ -89,6 +99,8 @@ End: Соңы
 Enrich with EPG: EPG-мен байытыңыз
 Enter bouquet name (without spaces):: Букет атын енгізіңіз (бос орындарсыз):
 Enter JSON URL:: JSON URL мекенжайын енгізіңіз:
+Enter new group name:: Жаңа топ атауын енгізіңіз:
+Enter playlist URL (JSON or M3U):: Ойнату тізімінің URL мекенжайын енгізіңіз (JSON немесе M3U):
 Enter playlist URL (M3U or JSON):: Ойнату тізімінің URL мекенжайын енгізіңіз (M3U немесе JSON):
 EPG: EPG
 Epg & Favorites: Epg және таңдаулылар
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG көзі 
 EPG source – choose XMLTV file or enter custom URL.: EPG көзі – XMLTV файлын таңдаңыз немесе пайдаланушы URL мекенжайын енгізіңіз.
 EPG Source Missing: EPG көзі жоқ
 Error: Қате
-Error clearing cache: Кэшті тазалау қатесі
+Error clearing cache: {0}: Кэшті тазалау қатесі: {0}
 Error loading: Жүктеу қатесі
+Error loading EPG list: {0}: EPG тізімін жүктеу қатесі: {0}
+Error loading file: {0}: Файлды жүктеу қатесі: {0}
 Error loading file: {0}: Файлды жүктеу қатесі: {0}
 Error loading playlists: {0}: Ойнату тізімдерін жүктеу қатесі: {0}
 Error loading URL: {0}: URL жүктеу қатесі: {0}
+Error loading URL: {0}: URL жүктеу қатесі: {0}
 ERROR: player.html not found.: ҚАТЕ: player.html табылмады.
 Exit: Шығу
+Export: Экспорттау
+Export all: Барлығын экспорттау
 Export Favorites: Таңдаулыларды экспорттау
 Export Filtered JSON: Сүзілген JSON экспорттау
 Export Filtered M3U: Фильтрленген M3U экспорттау
 Export JSON: JSON экспорттау
 Export KO: КО экспорттау
+Export missing: Экспорт жоқ
 Export OK: Экспорт жарайды
 Export only favorite channels to a new M3U file: Жаңа M3U файлына тек таңдаулы арналарды экспорттаңыз
+Export results as JSON or M3U – export missing channels or all channels.: Нәтижелерді JSON немесе M3U ретінде экспорттау – жоқ арналарды немесе барлық арналарды экспорттау.
+Exported channels: Экспортталған арналар
 Extracting update...: Жаңарту шығарылуда...
 Failed to download playlist: Ойнату тізімі жүктелмеді
 Failed to load playlist: Ойнату тізімі жүктелмеді
@@ -128,6 +148,7 @@ Fetch Logos: Логотиптерді алу
 File {0} already exists. Overwrite?: {0} файлы әлдеқашан бар. Қайта жазу керек пе?
 File exists: Файл бар
 Filters: Сүзгілер
+First playlist: {0} channels loaded.: Бірінші ойнату тізімі: {0} арна жүктелді.
 Fullscreen (hide UI) - press ESC to exit: Толық экран (UI жасыру) - шығу үшін ESC пернесін басыңыз
 Geo & Country: Гео және ел
 GeoBlocked: GeoBlocked
@@ -140,19 +161,23 @@ Hide List: Тізімді жасыру
 HLS playback: hls.js (MIT license): HLS ойнату: hls.js (MIT лицензиясы)
 Image: Сурет
 Import: Импорттау
+Import cancelled or no channels mapped.: Импорттан бас тартылды немесе арналар салыстырылмаған.
 Import error: {0}: Импорт қатесі: {0}
 Import from URL: URL мекенжайынан импорттау
 Import JSON: JSON импорттау
 Import JSON from URL: URL мекенжайынан JSON импорттау
 Import Local: Жергілікті импорттау
-Imported {0} channels from JSON.: JSON ішінен {0} арна импортталды.
+Imported {0} channels from JSON via mapping.: JSON жүйесінен карта арқылы {0} арна импортталды.
 Imported {0} channels from URL.: URL мекенжайынан {0} арна импортталды.
+In Both: Екеуінде де
 Info: Ақпарат
 Info on: Ақпарат бойынша
 Invalid JSON: {0}: Жарамсыз JSON: {0}
 Invalid playlist URL.: Жарамсыз ойнату тізімінің URL мекенжайы.
 Invalid URL.: Жарамсыз URL.
 Json: Джсон
+JSON files|*.json|M3U files|*.m3u: JSON файлдары|*.json|M3U файлдары|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON файлдары|*.json|M3U файлдары|*.m3u;*.m3u8|Барлық файлдар|*.*
 JSON Property: JSON қасиеті
 Ko-fi: Кофе
 Language: Тіл
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Тілдер
 Languages (comma): Тілдер (үтір)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: Lululla LiveGardenTVPlus анықтамасы
+LiveGardenTVPlus Help: LiveGardenTVPlus анықтамасы
 LOAD: ЖҮКТЕМЕ
 Load a playlist first.: Алдымен ойнату тізімін жүктеңіз.
+Load a second playlist first.: Алдымен екінші ойнату тізімін жүктеңіз.
 Load File: Файлды жүктеу
+Load from file...: Файлдан жүктеу...
+Load from URL: URL мекенжайынан жүктеңіз
+Load from URL...: URL мекенжайынан жүктеу...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Жергілікті M3U/JSON файлын жүктеңіз – редактордағы «Файлды жүктеу» түймесі (құралдар тақтасы) немесе «Файлды ашу» арқылы.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: M3U/JSON URL мекенжайын онлайн жүктеңіз – өңдегіште "Онлайн жүктеу" түймесі (құралдар тақтасы) немесе "URL мекенжайынан ашу".
 Load playlist file (M3U/JSON) from your computer: Ойнату тізімі файлын (M3U/JSON) компьютерден жүктеңіз
 Loaded: Жүктелді
+Loaded {0} channels from JSON file via mapping.: JSON файлынан салыстыру арқылы {0} арна жүктелді.
 Loaded {0} channels from JSON file.: JSON файлынан {0} арна жүктелді.
 Loaded {0} channels from JSON URL.: JSON URL мекенжайынан {0} арна жүктелді.
 Loaded {0} channels from M3U file.: M3U файлынан {0} арна жүктелді.
@@ -193,15 +223,23 @@ Next: Келесі
 Next ▶: Келесі ▶
 No .m3u files found on GitHub repository.: GitHub репозиторийінде .m3u файлдары табылмады.
 No cache folder found.: Кэш қалтасы табылмады.
+No channels could be mapped or import cancelled.: Ешбір арнаны салыстыру немесе импорттауды тоқтату мүмкін болмады.
 No channels could be mapped. Check your mapping rules.: Ешбір арнаны салыстыру мүмкін болмады. Карта жасау ережелерін тексеріңіз.
+No channels loaded from JSON URL.: JSON URL мекенжайынан арналар жүктелмеді.
+No channels loaded from M3U URL.: M3U URL мекенжайынан арналар жүктелмеген.
+No channels loaded from M3U.: M3U арнасынан жүктелмеген.
+No channels loaded.: Арналар жүктелмеді.
 No channels mapped: Ешбір арна картаға салынбаған
+No comparison results. Run Compare first.: Салыстыру нәтижелері жоқ. Алдымен Салыстыруды іске қосыңыз.
 No duplicate URLs found.: Қайталанатын URL мекенжайлары табылмады.
 No EPG data: EPG деректері жоқ
 No EPG information available for this channel.: Бұл арна үшін EPG ақпараты жоқ.
 No EPG source configured. Please select one from the combo or go to Settings.: EPG көзі конфигурацияланбаған. Комбодан біреуін таңдаңыз немесе «Параметрлер» бөліміне өтіңіз.
 No EPG source configured. Would you like to open settings to select one?: EPG көзі конфигурацияланбаған. Біреуін таңдау үшін параметрлерді ашқыңыз келе ме?
 No favorite channels to export.: Экспортталатын таңдаулы арналар жоқ.
+No missing channels to export.: Экспортталатын арналар жоқ.
 No playlist found: Ойнату тізімі табылмады
+No second playlist loaded.: Екінші ойнату тізімі жүктелмеді.
 No updates available.: Жаңартулар жоқ.
 Normal speed (1x): Қалыпты жылдамдық (1x)
 Not connected to the box.: Қорапқа қосылмаған.
@@ -209,6 +247,8 @@ Now: Қазір
 OK: Жарайды
 Online Playlist: Онлайн ойнату тізімі
 Online playlist – select from GitHub repository (auto‑refresh).: Онлайн ойнату тізімі – GitHub репозиторийінен таңдаңыз (автоматты жаңарту).
+Only in First: Тек Біріншісінде
+Only in Second: Тек секундта
 Open File...: Файлды ашу...
 Open from URL: URL мекенжайынан ашу
 Open Playlist: Ойнату тізімін ашыңыз
@@ -216,12 +256,14 @@ Pause/Resume live stream: Тікелей трансляцияны кідірту
 Paused: Кідіртілді
 PayPal: PayPal
 Picture-in-Picture mode: Суреттегі сурет режимі
-Player Control: Ойыншыны басқару
+Player Controls: Ойыншының басқару элементтері
 Playlist & Groups: Ойнату тізімі және топтар
+Playlist Comparison: Ойнату тізімін салыстыру
 Playlist Editor: Ойнату тізімі редакторы
 Playlist Loading: Ойнату тізімі жүктелуде
 Playlist Management: Ойнату тізімін басқару
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Ойнату тізімінің репозиторийі: OwnerPlugins/TivuStreamList (итальяндық және халықаралық ағындар)
+Playlists loaded: Ойнату тізімдері жүктелді
 Please select a program first.: Алдымен бағдарламаны таңдаңыз.
 Preview (first 5 channels): Алдын ала қарау (алғашқы 5 арна)
 Preview error: {0}: Алдын ала қарау қатесі: {0}
@@ -237,8 +279,10 @@ Refresh List: Тізімді жаңарту
 Reload GUI: GUI қайта жүктеңіз
 Remove Command: Пәрменді жою
 Rename Group: Топтың атын өзгерту
+Rename group '{0}' to:: "{0}" тобының атын өзгерту:
 Repository: Репозиторий
 Reset Order: Тапсырысты қалпына келтіру
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Нәтижелер: 'Тек біріншіде', 'Тек екіншіде', 'Екеуінде' – күй түсті кодтаумен.
 Save: Сақтау
 SAVE: САҚТАУ
 Save – persists all settings without reloading current playlist.: Сақтау – ағымдағы ойнату тізімін қайта жүктеусіз барлық параметрлерді сақтайды.
@@ -251,6 +295,7 @@ Saved: Сақталды
 Search channel: : Арнаны іздеу:
 Search channels by name: Арналарды аты бойынша іздеңіз
 Search channels...: Арналарды іздеу...
+sec: сек
 Select a playlist first.: Алдымен ойнату тізімін таңдаңыз.
 Select Theme: Тақырыпты таңдаңыз
 Selected theme is saved and applied on restart.: Таңдалған тақырып сақталады және қайта іске қосылғанда қолданылады.
@@ -273,6 +318,7 @@ Support the developer: Әзірлеушіге қолдау көрсету
 Target Field: Мақсатты өріс
 Telnet command:: Telnet командасы:
 Telnet Commander: Telnet қолбасшысы
+Telnet Config: Telnet конфигурациясы
 Telnet Console: Telnet консолі
 Telnet host not configured. Please set it in Settings.: Telnet хосты конфигурацияланбаған. Оны "Параметрлер" бөлімінен орнатыңыз.
 Telnet password is empty. Do you want to continue?: Telnet құпия сөзі бос. Жалғастырғыңыз келе ме?
@@ -303,6 +349,8 @@ URL Check: URL тексеру
 URL list (one per line): URL тізімі (әр жолға бір)
 URLs & Status: URL мекенжайлары және күй
 Version: Нұсқа
+Version {0}.{1}.{2}: Нұсқа {0}.{1}.{2}
+Version unknown: Нұсқа белгісіз
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus жабылуын күтуде...
 Warning: Ескерту
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

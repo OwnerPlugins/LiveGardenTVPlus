@@ -1,4 +1,3 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Кэш папкасы:% TEMP% \\ LiveGardenTVPlus \\ epg_cache)
 (Completely voluntary – no features are blocked): (Бөтенләй ирекле - бернинди үзенчәлекләр дә блокланмаган)
 (No description): (Тасвирлама юк)
 • Add / rename / delete groups.: • Төркемнәрне өстәү / үзгәртү / бетерү.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Алдагы
 16 colour themes + Light/Dark variants.: 16 төсле тема + Якты / Караңгы вариантлар.
 A new version is available. Do you want to update now?: Яңа версия бар. Хәзер яңартасыгыз киләме?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Плейлист редакторы яки Кораллар менюсындагы 'Чагыштыру' төймәсе аша керү.
 Access via 'Edit Playlist' button on main toolbar.: Төп кораллар аспапындагы 'Плейлистны үзгәртү' төймәсе аша керү.
 Actions: Эшләр
 Add Command: Команда өстәгез
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Букет җибәрелде �
 Buffer (seconds): Буфер (секундлар)
 Buffer size – adjust HLS buffer seconds.: Буфер зурлыгы - HLS буфер секундларын көйләгез.
 Cache: Кэш
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Кэш папкасы:% TEMP% \\ LiveGardenTVPlus \\ epg_cache
 Cancel: Баш тарту
 CANCEL: БАСТЫРУ
+Cannot open browser: Браузерны ачып булмый
 Category: Төркем
 Changelog: Чангелог
 Channel Details: Канал детальләре
 Channel Info: Канал турында мәгълүмат
+Channel Name: Канал исеме
 channels from: каналлары
+channels from JSON: JSON каналлары
 channels from JSON URL: JSON URL каналлары
 channels from URL: URL-дан каналлар
 Check Duplicates: Күчермәләрне тикшерегез
@@ -57,6 +61,13 @@ Click for details: Детальләр өчен басыгыз
 Close: Ябу
 Command name:: Команда исеме:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Communityәмгыять һәм тест: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: Чагыштырыгыз
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Чагыштырыгыз: өстенлек (исем → төркем → tvg-id), исем, төркем (очрак - сизгер), яки TvgId.
+Compare Playlists: Плейлистларны чагыштырыгыз
+Compare two playlists – load first (current playlist) and second (from file or URL).: Ике плейлистны чагыштырыгыз - беренче йөкләгез (хәзерге плейлист) һәм икенчесе (файл яки URLдан).
+Compare...: Чагыштырыгыз ...
+Comparison results: {0} channels: Чагыштыру нәтиҗәләре: {0} каналлар
+Configuration Missing: Конфигурация юк
 Confirm Reload: Йөкләүне раслагыз
 Connect: Бәйләнегез
 Connected: Бәйләнгән
@@ -83,10 +94,13 @@ Edit command name:: Команда исемен үзгәртү:
 Edit Playlist: Плейлистны үзгәртү
 Edit telnet command:: Телефон командасын үзгәртү:
 Edit URLs: URL'ларны үзгәртү
+Empty Password: Буш серсүз
 End: Ахыр
 Enrich with EPG: EPG белән баету
 Enter bouquet name (without spaces):: Букет исемен кертегез (буш урыннарсыз):
 Enter JSON URL:: JSON URL кертегез:
+Enter new group name:: Яңа төркем исемен кертегез:
+Enter playlist URL (JSON or M3U):: Плейлист URL кертегез (JSON яки M3U):
 Enter playlist URL (M3U or JSON):: Плейлист URL кертегез (M3U яки JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favorites
@@ -101,31 +115,40 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG чыга�
 EPG source – choose XMLTV file or enter custom URL.: EPG чыганагы - XMLTV файлын сайлагыз яки махсус URL кертегез.
 EPG Source Missing: EPG чыганагы юк
 Error: Хата
-Error clearing cache: Кэшны чистартуда хата
+Error clearing cache: {0}: Кэшны чистартуда хата: {0}
 Error loading: Йөкләүдә хата
+Error loading EPG list: {0}: EPG исемлеген йөкләүдә хата: {0}
+Error loading file: {0}: Файлны йөкләүдә хата: {0}
 Error loading file: {0}: Файлны йөкләүдә хата: {0}
 Error loading playlists: {0}: Плейлистларны йөкләүдә хата: {0}
 Error loading URL: {0}: URL йөкләүдә хата: {0}
+Error loading URL: {0}: URL йөкләүдә хата: {0}
 ERROR: player.html not found.: Хата: player.html табылмады.
 Exit: Чык
+Export: Экспорт
+Export all: Барысын да экспортлагыз
 Export Favorites: Фаворитларны экспортлау
 Export Filtered JSON: Фильтрланган JSON экспорт
 Export Filtered M3U: Фильтрланган M3U экспорт
 Export JSON: JSON экспорт
 Export KO: Экспорт КО
+Export missing: Экспорт җитми
 Export OK: Экспорт ярый
 Export only favorite channels to a new M3U file: Яңа M3U файлына яраткан каналларны гына экспортлагыз
+Export results as JSON or M3U – export missing channels or all channels.: JSON яки M3U рәвешендә экспорт нәтиҗәләре - югалган каналларны яки барлык каналларны экспортлагыз.
+Exported channels: Экспортланган каналлар
 Extracting update...: Яңартуны чыгару ...
 Failed to download playlist: Плейлистны йөкли алмады
 Failed to load playlist: Плейлистны йөкли алмады
-Failed to update bouquets.tv.: Bouquets.tv яңартылмады.
-Failed to upload bouquet.: Букет урнаштыра алмады.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Bouquets.tv яңартылмады. Зинһар, Enigma2 җайланмасында файл рөхсәтен тикшерегез.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Букет урнаштыра алмады. Зинһар, Telnet көйләүләрен тикшерегез (хуҗа, порт, кулланучы исеме, серсүз) һәм кабатлап карагыз.
 Favorite: Яраткан
 Favorites only: Фаворитлар гына
 Fetch Logos: Логотиплар
 File {0} already exists. Overwrite?: {0} файл бар. Өстәмә язу?
 File exists: Файл бар
 Filters: Фильтрлар
+First playlist: {0} channels loaded.: Беренче плейлист: {0} каналлар йөкләнгән.
 Fullscreen (hide UI) - press ESC to exit: Тулы экран (UI яшерегез) - чыгу өчен ESC басыгыз
 Geo & Country: Гео & Ил
 GeoBlocked: GeoBlocked
@@ -138,19 +161,23 @@ Hide List: Исемлекне яшер
 HLS playback: hls.js (MIT license): HLS уйнау: hls.js (MIT лицензиясе)
 Image: Рәсем
 Import: Импорт
+Import cancelled or no channels mapped.: Импорт юкка чыгарылды яки карталар ясалмады.
 Import error: {0}: Импорт хата: {0}
 Import from URL: URL'дан импорт
 Import JSON: JSON импортлау
 Import JSON from URL: JSON-ны URL-тан импортлагыз
 Import Local: Localирле импорт
-Imported {0} channels from JSON.: JSONдан {0} каналлар импортланган.
+Imported {0} channels from JSON via mapping.: JSON-дан {0} каналларны карта аша импортладылар.
 Imported {0} channels from URL.: URL'дан {0} каналлар кертелгән.
+In Both: Икесендә дә
 Info: Мәгълүмат
 Info on: Мәгълүмат
 Invalid JSON: {0}: Яраксыз JSON: {0}
 Invalid playlist URL.: Яраксыз плейлист URL.
 Invalid URL.: Яраксыз URL.
 Json: Джсон
+JSON files|*.json|M3U files|*.m3u: JSON файллары | * .json | M3U файллары | * .m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON файллары | * .json | M3U файллары | * .m3u; *. M3u8 | Барлык файллар | *. *
 JSON Property: JSON милеге
 Ko-fi: Кофе
 Language: Тел
@@ -158,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Телләр
 Languages (comma): Телләр (үтем)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Лулулла ярдәме
+LiveGardenTVPlus Help: LiveGardenTVPlus Ярдәм
 LOAD: ЙОК
 Load a playlist first.: Башта плейлистны йөкләгез.
+Load a second playlist first.: Башта икенче плейлистны йөкләгез.
 Load File: Файлны йөкләү
+Load from file...: Файлдан йөкләү ...
+Load from URL: URLдан йөкләү
+Load from URL...: URL-тан йөкләү ...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Localирле M3U / JSON файлын йөкләгез - 'Файлны йөкләү' төймәсе (кораллар аскысы) яки редакторда 'Ачык файл' аша.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Онлайн M3U / JSON URL йөкләү - 'Онлайн йөкләү' төймәсе (кораллар аскысы) яки редакторда 'URL'тан ачу'.
 Load playlist file (M3U/JSON) from your computer: Компьютердан плейлист файлын (M3U / JSON) йөкләгез
 Loaded: Йөкләнгән
+Loaded {0} channels from JSON file via mapping.: Карта аша JSON файлыннан {0} каналлар йөкләнде.
 Loaded {0} channels from JSON file.: JSON файлыннан {0} каналлар йөкләнде.
 Loaded {0} channels from JSON URL.: JSON URL-дан {0} каналлар йөкләнде.
 Loaded {0} channels from M3U file.: M3U файлыннан {0} каналлар йөкләнде.
@@ -191,15 +223,23 @@ Next: Киләсе
 Next ▶: Киләсе ▶
 No .m3u files found on GitHub repository.: GitHub складында .m3u файллары табылмады.
 No cache folder found.: Кэш папкасы табылмады.
+No channels could be mapped or import cancelled.: Бер каналны да ясап булмый, импорт та юкка чыгарыла алмый.
 No channels could be mapped. Check your mapping rules.: Бер каналны да ясап булмый. Карта ясау кагыйдәләрен тикшерегез.
+No channels loaded from JSON URL.: JSON URLдан каналлар юк.
+No channels loaded from M3U URL.: M3U URL-тан йөкләнгән каналлар юк.
+No channels loaded from M3U.: M3Uдан каналлар юк.
+No channels loaded.: Каналлар юк.
 No channels mapped: Бер канал да ясалмаган
+No comparison results. Run Compare first.: Чагыштыру нәтиҗәләре юк. Башта чагыштырыгыз.
 No duplicate URLs found.: Бер-бер артлы URL табылмады.
 No EPG data: EPG мәгълүматлары юк
 No EPG information available for this channel.: Бу канал өчен EPG турында мәгълүмат юк.
 No EPG source configured. Please select one from the combo or go to Settings.: EPG чыганагы конфигурацияләнмәгән. Зинһар, комбинаттан берсен сайлагыз яки көйләүләргә керегез.
 No EPG source configured. Would you like to open settings to select one?: EPG чыганагы конфигурацияләнмәгән. Берсен сайлау өчен көйләүләрне ачасыгыз киләме?
 No favorite channels to export.: Экспортка яраткан каналлар юк.
+No missing channels to export.: Экспортка каналлар юк.
 No playlist found: Плейлист табылмады
+No second playlist loaded.: Икенче плейлист йөкләнмәде.
 No updates available.: Яңартулар юк.
 Normal speed (1x): Нормаль тизлек (1х)
 Not connected to the box.: Рамкага тоташмаган.
@@ -207,6 +247,8 @@ Now: Хәзер
 OK: Ярар
 Online Playlist: Онлайн плейлист
 Online playlist – select from GitHub repository (auto‑refresh).: Онлайн плейлист - GitHub складыннан сайлагыз (авто - яңарту).
+Only in First: Беренчедә генә
+Only in Second: Икенчедә генә
 Open File...: Ачык файл ...
 Open from URL: URL'дан ачу
 Open Playlist: Плейлистны ачу
@@ -214,12 +256,14 @@ Pause/Resume live stream: Пауза / Тере агымны дәвам итү
 Paused: Пауза
 PayPal: PayPal
 Picture-in-Picture mode: Рәсем-рәсем режимы
-Player Control: Плеер контроле
+Player Controls: Плеер белән идарә итү
 Playlist & Groups: Плейлист һәм төркемнәр
+Playlist Comparison: Плейлист чагыштыру
 Playlist Editor: Плейлист редакторы
 Playlist Loading: Плейлист йөкләү
 Playlist Management: Плейлист белән идарә итү
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Плейлист репозитариясе: OwnerPlugins / TivuStreamList (Италия һәм халыкара агымнар)
+Playlists loaded: Плейлистлар йөкләнгән
 Please select a program first.: Зинһар, башта программаны сайлагыз.
 Preview (first 5 channels): Алдан карау (беренче 5 канал)
 Preview error: {0}: Алдан карау хата: {0}
@@ -235,8 +279,10 @@ Refresh List: Исемлекне яңарту
 Reload GUI: GUI-ны яңадан йөкләү
 Remove Command: Команданы бетерегез
 Rename Group: Төркемнең исемен үзгәртү
+Rename group '{0}' to:: Төркемнең исемен '{0}' итеп үзгәртегез:
 Repository: Склад
 Reset Order: Заказны яңадан урнаштыру
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Нәтиҗә: 'Беренчедә генә', 'Икенчедә генә', 'Икесендә дә' - статус төсләрен кодлау белән.
 Save: Саклагыз
 SAVE: Саклагыз
 Save – persists all settings without reloading current playlist.: Саклагыз - хәзерге плейлистны яңадан кертмичә барлык көйләүләрне дәвам итә.
@@ -249,6 +295,7 @@ Saved: Сакланган
 Search channel: : Эзләү каналы:
 Search channels by name: Каналларны исем буенча эзләү
 Search channels...: Каналларны эзләү ...
+sec: сек
 Select a playlist first.: Башта плейлистны сайлагыз.
 Select Theme: Теманы сайлагыз
 Selected theme is saved and applied on restart.: Сайланган тема саклана һәм яңадан эшләтеп җибәрелә.
@@ -271,8 +318,11 @@ Support the developer: Төзүчегә булыш
 Target Field: Максат кыры
 Telnet command:: Телефон командасы:
 Telnet Commander: Телефон командиры
+Telnet Config: Telnet Config
 Telnet Console: Телефон консолы
-Telnet not configured. Please set it in Settings.: Телефон конфигурацияләнмәгән. Зинһар, аны көйләүләрдә урнаштырыгыз.
+Telnet host not configured. Please set it in Settings.: Телефон хуҗасы конфигурацияләнмәгән. Зинһар, аны көйләүләрдә урнаштырыгыз.
+Telnet password is empty. Do you want to continue?: Телефон серсүзе буш. Сез дәвам итәсегез киләме?
+Telnet username not configured. Please set it in Settings.: Телефон кулланучы исеме конфигурацияләнмәгән. Зинһар, аны көйләүләрдә урнаштырыгыз.
 Thanks to: Рәхмәт
 Theme picker: Тема сайлаучы
 Theme picker – accessible via Tools menu on main toolbar.: Тема сайлаучы - төп кораллар аспапындагы Кораллар менюсы аша кереп була.
@@ -289,14 +339,18 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Ерак проект файлында версия таба алмый.
 Update: Яңарту
 Update complete. Restarting...: Яңарту тулы. Яңарту ...
+Update Error: Яңарту хата
 Update failed: : Яңарту уңышсыз:
 Updates: Яңартулар
+Upload Error: Йөкләү хата
 URL: URL
 URL (primary): URL (төп)
 URL Check: URL тикшерү
 URL list (one per line): URL исемлеге (бер сызыкка бер)
 URLs & Status: URL һәм статус
 Version: Вариант
+Version {0}.{1}.{2}: Версия {0}. {1}. {2}
+Version unknown: Вариант билгесез
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus ябылуын көтеп ...
 Warning: Кисәтү
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

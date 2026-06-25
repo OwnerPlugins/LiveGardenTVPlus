@@ -1,8 +1,7 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Kaŝmemordosierujo: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Tute libervola - neniuj funkcioj estas blokitaj)
 (No description): (Neniu priskribo)
 • Add / rename / delete groups.: • Aldoni / renomi / forigi grupojn.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffer-glitilo: ĝustigu HLS-bufferon (1-10 sekundoj).
+• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffer-glitilo: ĝustigu HLS-bufferon (1-10 sekundojn).
 • Check URL availability (only visible channels).: • Kontrolu URL haveblecon (nur videblaj kanaloj).
 • Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Redaktu kanalajn nomojn, grupojn, URLojn, emblemojn, tvg-id, landon, lingvojn, plej ŝatatajn.
 • Edit multiple URLs per channel (popup window).: • Redaktu plurajn URL-ojn per kanalo (ŝprucfenestro).
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Antaŭa
 16 colour themes + Light/Dark variants.: 16 koloraj temoj + Lumaj/Malhelaj variantoj.
 A new version is available. Do you want to update now?: Nova versio disponeblas. Ĉu vi volas ĝisdatigi nun?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Aliru per butono "Kompari" en Ludlisto-Redaktilo aŭ menuo Iloj.
 Access via 'Edit Playlist' button on main toolbar.: Aliro per la butono 'Redakti Ludliston' sur la ĉefa ilobreto.
 Actions: Agoj
 Add Command: Aldonu Komandon
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Bukedo sendita kaj Enigma2 kana
 Buffer (seconds): Bufro (sekundoj)
 Buffer size – adjust HLS buffer seconds.: Bufrgrandeco - ĝustigu HLS-bufrsekundojn.
 Cache: Deponejo
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Kaŝmemordosierujo: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Nuligi
 CANCEL: NULIGI
+Cannot open browser: Ne povas malfermi retumilon
 Category: Kategorio
 Changelog: Ŝanĝprotokolo
 Channel Details: Kanalaj Detaloj
 Channel Info: Informoj pri kanalo
+Channel Name: Kanala Nomo
 channels from: kanaloj de
+channels from JSON: kanaloj de JSON
 channels from JSON URL: kanaloj de JSON URL
 channels from URL: kanaloj de URL
 Check Duplicates: Kontrolu Duplikatojn
@@ -57,6 +61,12 @@ Click for details: Klaku por detaloj
 Close: Fermu
 Command name:: Komanda nomo:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunumo & testado: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: Komparu
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Komparu per: Prioritato (nomo→grupo→tvg-id), Nomo, Grupo (majuskle-distinga), aŭ TvgId.
+Compare Playlists: Komparu Ludlistojn
+Compare two playlists – load first (current playlist) and second (from file or URL).: Komparu du ludlistojn - ŝarĝu unue (nuna ludlisto) kaj due (de dosiero aŭ URL).
+Compare...: Komparu...
+Comparison results: {0} channels: Komparrezultoj: {0} kanaloj
 Configuration Missing: Agordo Mankas
 Confirm Reload: Konfirmu Reŝargi
 Connect: Konekti
@@ -89,6 +99,8 @@ End: Fino
 Enrich with EPG: Riĉigu per EPG
 Enter bouquet name (without spaces):: Enigu bukednomon (sen spacoj):
 Enter JSON URL:: Enigu JSON-URL:
+Enter new group name:: Enigu novan grupnomon:
+Enter playlist URL (JSON or M3U):: Enigu la URL-listo (JSON aŭ M3U):
 Enter playlist URL (M3U or JSON):: Enigu la URL-listo (M3U aŭ JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favoritoj
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG-fonto - p
 EPG source – choose XMLTV file or enter custom URL.: EPG-fonto - elektu XMLTV-dosieron aŭ enigu propran URL.
 EPG Source Missing: EPG Fonto Mankas
 Error: Eraro
-Error clearing cache: Eraro forvigante kaŝmemoron
+Error clearing cache: {0}: Eraro dum malplenigo de kaŝmemoro: {0}
 Error loading: Eraro dum ŝarĝo
+Error loading EPG list: {0}: Eraro dum ŝarĝo de EPG-listo: {0}
+Error loading file: {0}: Eraro dum ŝarĝo de dosiero: {0}
 Error loading file: {0}: Eraro dum ŝarĝo de dosiero: {0}
 Error loading playlists: {0}: Eraro dum ŝarĝo de ludlistoj: {0}
 Error loading URL: {0}: Eraro dum ŝarĝo de URL: {0}
+Error loading URL: {0}: Eraro dum ŝarĝo de URL: {0}
 ERROR: player.html not found.: ERARO: player.html ne trovita.
 Exit: Eliro
+Export: Eksporto
+Export all: Eksporti ĉiujn
 Export Favorites: Eksporti Favoritojn
 Export Filtered JSON: Eksportu Filtritan JSON
 Export Filtered M3U: Eksporti Filtritan M3U
 Export JSON: Eksportu JSON
 Export KO: Eksporti KO
+Export missing: Eksporto mankas
 Export OK: Eksportu bone
 Export only favorite channels to a new M3U file: Eksportu nur plej ŝatatajn kanalojn al nova M3U-dosiero
+Export results as JSON or M3U – export missing channels or all channels.: Eksportu rezultojn kiel JSON aŭ M3U - eksportu mankantajn kanalojn aŭ ĉiujn kanalojn.
+Exported channels: Eksportitaj kanaloj
 Extracting update...: Eltiranta ĝisdatigon...
 Failed to download playlist: Malsukcesis elŝuti ludliston
 Failed to load playlist: Malsukcesis ŝargi ludliston
@@ -128,6 +148,7 @@ Fetch Logos: Prenu Logos
 File {0} already exists. Overwrite?: Dosiero {0} jam ekzistas. Ĉu anstataŭigi?
 File exists: Dosiero ekzistas
 Filters: Filtriloj
+First playlist: {0} channels loaded.: Unua ludlisto: {0} kanaloj ŝarĝitaj.
 Fullscreen (hide UI) - press ESC to exit: Plenekrano (kaŝi UI) - premu ESC por eliri
 Geo & Country: Geo & Lando
 GeoBlocked: GeoBlocked
@@ -140,19 +161,23 @@ Hide List: Kaŝi Listo
 HLS playback: hls.js (MIT license): HLS-reproduktado: hls.js (MIT-licenco)
 Image: Bildo
 Import: Importi
+Import cancelled or no channels mapped.: Importo nuligita aŭ neniuj kanaloj mapitaj.
 Import error: {0}: Importa eraro: {0}
 Import from URL: Importi el URL
 Import JSON: Importu JSON
 Import JSON from URL: Importu JSON el URL
 Import Local: Importu Loka
-Imported {0} channels from JSON.: Importitaj {0} kanaloj el JSON.
+Imported {0} channels from JSON via mapping.: Importis {0} kanalojn el JSON per mapado.
 Imported {0} channels from URL.: Importitaj {0} kanaloj el URL.
+In Both: En Ambaŭ
 Info: Info
 Info on: Informoj pri
 Invalid JSON: {0}: Nevalida JSON: {0}
 Invalid playlist URL.: Nevalida URL de ludlisto.
 Invalid URL.: Nevalida URL.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: JSON-dosieroj|*.json|M3U-dosieroj|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON-dosieroj|*.json|M3U-dosieroj|*.m3u;*.m3u8|Ĉiuj dosieroj|*.*
 JSON Property: JSON-posedaĵo
 Ko-fi: Kafo
 Language: Lingvo
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Lingvoj
 Languages (comma): Lingvoj (komo)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Helpo de Lululla
+LiveGardenTVPlus Help: LiveGardenTVPlus Helpo
 LOAD: ŜARĜO
 Load a playlist first.: Ŝarĝu ludliston unue.
+Load a second playlist first.: Ŝarĝu duan ludliston unue.
 Load File: Ŝarĝu Dosiero
+Load from file...: Ŝargi el dosiero...
+Load from URL: Ŝarĝu de URL
+Load from URL...: Ŝargi de URL...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Ŝarĝu lokan M3U/JSON-dosieron - per butono "Ŝargi Dosiero" (ilbreto) aŭ "Malfermu Dosiero" en redaktilo.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Ŝarĝu interretan URL M3U/JSON - butonon 'Ŝargi Interrete' (ilbreto) aŭ 'Malfermu de URL' en redaktilo.
 Load playlist file (M3U/JSON) from your computer: Ŝarĝu ludlistdosieron (M3U/JSON) el via komputilo
 Loaded: Ŝarĝita
+Loaded {0} channels from JSON file via mapping.: Ŝargis {0} kanalojn de JSON-dosiero per mapado.
 Loaded {0} channels from JSON file.: Ŝargis {0} kanalojn el JSON-dosiero.
 Loaded {0} channels from JSON URL.: Ŝargis {0} kanalojn el JSON-URL.
 Loaded {0} channels from M3U file.: Ŝargis {0} kanalojn el M3U-dosiero.
@@ -193,15 +223,23 @@ Next: Poste
 Next ▶: Sekva ▶
 No .m3u files found on GitHub repository.: Neniuj .m3u dosieroj trovitaj en GitHub-deponejo.
 No cache folder found.: Neniu kaŝmemoro dosierujo trovita.
+No channels could be mapped or import cancelled.: Neniuj kanaloj povus esti mapitaj aŭ importado nuligita.
 No channels could be mapped. Check your mapping rules.: Neniuj kanaloj povus esti mapitaj. Kontrolu viajn mapajn regulojn.
+No channels loaded from JSON URL.: Neniuj kanaloj ŝarĝitaj de JSON-URL.
+No channels loaded from M3U URL.: Neniuj kanaloj ŝarĝitaj de M3U-URL.
+No channels loaded from M3U.: Neniuj kanaloj ŝarĝitaj de M3U.
+No channels loaded.: Neniuj kanaloj ŝarĝitaj.
 No channels mapped: Neniuj kanaloj mapitaj
+No comparison results. Run Compare first.: Neniuj komparrezultoj. Kuru Komparu unue.
 No duplicate URLs found.: Neniuj duplikataj URL-oj trovitaj.
 No EPG data: Neniuj EPG-datumoj
 No EPG information available for this channel.: Neniuj EPG-informoj haveblaj por ĉi tiu kanalo.
 No EPG source configured. Please select one from the combo or go to Settings.: Neniu EPG-fonto agordita. Bonvolu elekti unu el la kombo aŭ iri al Agordoj.
 No EPG source configured. Would you like to open settings to select one?: Neniu EPG-fonto agordita. Ĉu vi ŝatus malfermi agordojn por elekti unu?
 No favorite channels to export.: Neniuj plej ŝatataj kanaloj por eksporti.
+No missing channels to export.: Neniuj mankantaj kanaloj por eksporti.
 No playlist found: Neniu ludlisto trovita
+No second playlist loaded.: Neniu dua ludlisto ŝarĝita.
 No updates available.: Neniuj ĝisdatigoj haveblaj.
 Normal speed (1x): Normala rapido (1x)
 Not connected to the box.: Ne konektita al la skatolo.
@@ -209,6 +247,8 @@ Now: Nun
 OK: Bone
 Online Playlist: Enreta Ludlisto
 Online playlist – select from GitHub repository (auto‑refresh).: Interreta ludlisto - elektu el GitHub-deponejo (aŭtomata refreŝigo).
+Only in First: Nur en Unua
+Only in Second: Nur en Dua
 Open File...: Malfermu Dosieron...
 Open from URL: Malfermu de URL
 Open Playlist: Malfermu Ludliston
@@ -216,12 +256,14 @@ Pause/Resume live stream: Paŭzi/Rekomenci la rektan fluon
 Paused: Paŭzita
 PayPal: PayPal
 Picture-in-Picture mode: Bildo-en-bilda reĝimo
-Player Control: Ludanta Kontrolo
+Player Controls: Ludantaj Kontroloj
 Playlist & Groups: Ludlisto & Grupoj
+Playlist Comparison: Komparo de Ludlisto
 Playlist Editor: Redaktilo de Ludlisto
 Playlist Loading: Ludlisto Ŝarĝante
 Playlist Management: Administrado de Ludlisto
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Deponejo de Ludlisto: OwnerPlugins/TivuStreamList (italaj kaj internaciaj fluoj)
+Playlists loaded: Ludlistoj ŝargis
 Please select a program first.: Bonvolu unue elekti programon.
 Preview (first 5 channels): Antaŭrigardo (unuaj 5 kanaloj)
 Preview error: {0}: Antaŭrigarda eraro: {0}
@@ -237,8 +279,10 @@ Refresh List: Refreŝigi Listo
 Reload GUI: Reŝargi GUI
 Remove Command: Forigi Komandon
 Rename Group: Alinomigi Grupon
+Rename group '{0}' to:: Alinomu grupon '{0}' al:
 Repository: Deponejo
 Reset Order: Restarigi Ordon
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Rezultoj: 'Nur en Unua', 'Nur en Dua', 'En Ambaŭ' – kun statusa kolorkodigo.
 Save: Konservu
 SAVE: SAVE
 Save – persists all settings without reloading current playlist.: Konservi - persistas ĉiujn agordojn sen reŝargi nunan ludliston.
@@ -251,6 +295,7 @@ Saved: Savita
 Search channel: : Serĉu kanalon:
 Search channels by name: Serĉu kanalojn laŭ nomo
 Search channels...: Serĉu kanalojn...
+sec: sek
 Select a playlist first.: Unue elektu ludliston.
 Select Theme: Elektu Temon
 Selected theme is saved and applied on restart.: Elektita temo estas konservita kaj aplikata ĉe rekomenco.
@@ -273,6 +318,7 @@ Support the developer: Subtenu la programiston
 Target Field: Cela Kampo
 Telnet command:: Komando Telnet:
 Telnet Commander: Telnet Komandanto
+Telnet Config: Telnet-Agordo
 Telnet Console: Telnet-konzolo
 Telnet host not configured. Please set it in Settings.: Telnet-gastiganto ne agordita. Bonvolu agordi ĝin en Agordoj.
 Telnet password is empty. Do you want to continue?: Telnet-pasvorto estas malplena. Ĉu vi volas daŭrigi?
@@ -303,6 +349,8 @@ URL Check: URL Kontrolo
 URL list (one per line): URL-listo (unu per linio)
 URLs & Status: URLoj kaj Statuso
 Version: Versio
+Version {0}.{1}.{2}: Versio {0}.{1}.{2}
+Version unknown: Versio nekonata
 Waiting for LiveGardenTVPlus to close...: Atendante la fermon de LiveGardenTVPlus...
 Warning: Averto
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

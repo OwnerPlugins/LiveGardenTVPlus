@@ -1,4 +1,3 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (കാഷെ ഫോൾഡർ: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (പൂർണ്ണമായും സ്വമേധയാ - ഫീച്ചറുകളൊന്നും തടഞ്ഞിട്ടില്ല)
 (No description): (വിവരണമില്ല)
 • Add / rename / delete groups.: • ഗ്രൂപ്പുകൾ ചേർക്കുക / പേരുമാറ്റുക / ഇല്ലാതാക്കുക.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ മുമ്പത്തെ
 16 colour themes + Light/Dark variants.: 16 വർണ്ണ തീമുകൾ + ലൈറ്റ്/ഡാർക്ക് വേരിയൻ്റുകൾ.
 A new version is available. Do you want to update now?: ഒരു പുതിയ പതിപ്പ് ലഭ്യമാണ്. നിങ്ങൾക്ക് ഇപ്പോൾ അപ്ഡേറ്റ് ചെയ്യണോ?
+Access via 'Compare' button in Playlist Editor or Tools menu.: പ്ലേലിസ്റ്റ് എഡിറ്റർ അല്ലെങ്കിൽ ടൂൾസ് മെനുവിലെ 'താരതമ്യപ്പെടുത്തുക' ബട്ടൺ വഴി ആക്സസ് ചെയ്യുക.
 Access via 'Edit Playlist' button on main toolbar.: പ്രധാന ടൂൾബാറിലെ 'എഡിറ്റ് പ്ലേലിസ്റ്റ്' ബട്ടൺ വഴി ആക്സസ് ചെയ്യുക.
 Actions: പ്രവർത്തനങ്ങൾ
 Add Command: കമാൻഡ് ചേർക്കുക
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: ബൊക്കെ അയച്
 Buffer (seconds): ബഫർ (സെക്കൻഡ്)
 Buffer size – adjust HLS buffer seconds.: ബഫർ വലുപ്പം - HLS ബഫർ സെക്കൻഡുകൾ ക്രമീകരിക്കുക.
 Cache: കാഷെ
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: കാഷെ ഫോൾഡർ: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: റദ്ദാക്കുക
 CANCEL: റദ്ദാക്കുക
+Cannot open browser: ബ്രൗസർ തുറക്കാൻ കഴിയില്ല
 Category: വിഭാഗം
 Changelog: ചേഞ്ച്ലോഗ്
 Channel Details: ചാനൽ വിശദാംശങ്ങൾ
 Channel Info: ചാനൽ വിവരം
+Channel Name: ചാനലിൻ്റെ പേര്
 channels from: നിന്നുള്ള ചാനലുകൾ
+channels from JSON: JSON-ൽ നിന്നുള്ള ചാനലുകൾ
 channels from JSON URL: JSON URL-ൽ നിന്നുള്ള ചാനലുകൾ
 channels from URL: URL-ൽ നിന്നുള്ള ചാനലുകൾ
 Check Duplicates: തനിപ്പകർപ്പുകൾ പരിശോധിക്കുക
@@ -57,6 +61,13 @@ Click for details: വിശദാംശങ്ങൾക്ക് ക്ലിക
 Close: അടയ്ക്കുക
 Command name:: കമാൻഡിൻ്റെ പേര്:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: കമ്മ്യൂണിറ്റിയും ടെസ്റ്റിംഗും: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: താരതമ്യം ചെയ്യുക
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: താരതമ്യം ചെയ്യുക: മുൻഗണന (പേര്→ഗ്രൂപ്പ്→tvg-id), പേര്, ഗ്രൂപ്പ് (കേസ്-സെൻസിറ്റീവ്), അല്ലെങ്കിൽ TvgId.
+Compare Playlists: പ്ലേലിസ്റ്റുകൾ താരതമ്യം ചെയ്യുക
+Compare two playlists – load first (current playlist) and second (from file or URL).: രണ്ട് പ്ലേലിസ്റ്റുകൾ താരതമ്യം ചെയ്യുക - ആദ്യം ലോഡുചെയ്യുക (നിലവിലെ പ്ലേലിസ്റ്റ്), രണ്ടാമത്തേത് (ഫയലിൽ നിന്നോ URL-ൽ നിന്നോ).
+Compare...: താരതമ്യം ചെയ്യുക...
+Comparison results: {0} channels: താരതമ്യ ഫലങ്ങൾ: {0} ചാനലുകൾ
+Configuration Missing: കോൺഫിഗറേഷൻ കാണുന്നില്ല
 Confirm Reload: റീലോഡ് സ്ഥിരീകരിക്കുക
 Connect: ബന്ധിപ്പിക്കുക
 Connected: ബന്ധിപ്പിച്ചു
@@ -79,14 +90,17 @@ Drag & drop – drop M3U or JSON files directly onto main window.: വലിച�
 Drag to seek back in buffer: ബഫറിൽ തിരികെ തിരയാൻ വലിച്ചിടുക
 Duplicate URLs found:\n\n: ഡ്യൂപ്ലിക്കേറ്റ് URL-കൾ കണ്ടെത്തി:\n\n
 Edit Command: കമാൻഡ് എഡിറ്റ് ചെയ്യുക
-Edit command name:: കമാൻഡിൻ്റെ പേര് എഡിറ്റ് ചെയ്യുക:
+Edit command name:: കമാൻഡ് നാമം എഡിറ്റ് ചെയ്യുക:
 Edit Playlist: പ്ലേലിസ്റ്റ് എഡിറ്റ് ചെയ്യുക
 Edit telnet command:: ടെൽനെറ്റ് കമാൻഡ് എഡിറ്റ് ചെയ്യുക:
 Edit URLs: URL-കൾ എഡിറ്റ് ചെയ്യുക
+Empty Password: ശൂന്യമായ പാസ്‌വേഡ്
 End: അവസാനിക്കുന്നു
 Enrich with EPG: EPG ഉപയോഗിച്ച് സമ്പുഷ്ടമാക്കുക
 Enter bouquet name (without spaces):: പൂച്ചെണ്ട് പേര് നൽകുക (സ്പെയ്സുകൾ ഇല്ലാതെ):
 Enter JSON URL:: JSON URL നൽകുക:
+Enter new group name:: പുതിയ ഗ്രൂപ്പിൻ്റെ പേര് നൽകുക:
+Enter playlist URL (JSON or M3U):: പ്ലേലിസ്റ്റ് URL നൽകുക (JSON അല്ലെങ്കിൽ M3U):
 Enter playlist URL (M3U or JSON):: പ്ലേലിസ്റ്റ് URL നൽകുക (M3U അല്ലെങ്കിൽ JSON):
 EPG: ഇ.പി.ജി
 Epg & Favorites: Epg & പ്രിയപ്പെട്ടവ
@@ -101,31 +115,40 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG ഉറവ
 EPG source – choose XMLTV file or enter custom URL.: EPG ഉറവിടം - XMLTV ഫയൽ തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ ഇഷ്‌ടാനുസൃത URL നൽകുക.
 EPG Source Missing: EPG ഉറവിടം കാണുന്നില്ല
 Error: പിശക്
-Error clearing cache: കാഷെ മായ്‌ക്കുന്നതിൽ പിശക്
+Error clearing cache: {0}: കാഷെ മായ്‌ക്കുന്നതിൽ പിശക്: {0}
 Error loading: ലോഡ് ചെയ്യുന്നതിൽ പിശക്
+Error loading EPG list: {0}: EPG ലിസ്റ്റ് ലോഡ് ചെയ്യുന്നതിൽ പിശക്: {0}
+Error loading file: {0}: ഫയൽ ലോഡ് ചെയ്യുന്നതിൽ പിശക്: {0}
 Error loading file: {0}: ഫയൽ ലോഡ് ചെയ്യുന്നതിൽ പിശക്: {0}
 Error loading playlists: {0}: പ്ലേലിസ്റ്റുകൾ ലോഡ് ചെയ്യുന്നതിൽ പിശക്: {0}
 Error loading URL: {0}: URL ലോഡ് ചെയ്യുന്നതിൽ പിശക്: {0}
+Error loading URL: {0}: URL ലോഡ് ചെയ്യുന്നതിൽ പിശക്: {0}
 ERROR: player.html not found.: പിശക്: player.html കണ്ടെത്തിയില്ല.
 Exit: പുറത്ത്
+Export: കയറ്റുമതി
+Export all: എല്ലാം കയറ്റുമതി ചെയ്യുക
 Export Favorites: പ്രിയപ്പെട്ടവ കയറ്റുമതി ചെയ്യുക
 Export Filtered JSON: ഫിൽട്ടർ ചെയ്ത JSON കയറ്റുമതി ചെയ്യുക
 Export Filtered M3U: ഫിൽട്ടർ ചെയ്ത M3U കയറ്റുമതി ചെയ്യുക
 Export JSON: JSON കയറ്റുമതി ചെയ്യുക
 Export KO: KO കയറ്റുമതി ചെയ്യുക
+Export missing: കയറ്റുമതി കാണുന്നില്ല
 Export OK: കയറ്റുമതി ശരി
 Export only favorite channels to a new M3U file: ഒരു പുതിയ M3U ഫയലിലേക്ക് പ്രിയപ്പെട്ട ചാനലുകൾ മാത്രം കയറ്റുമതി ചെയ്യുക
+Export results as JSON or M3U – export missing channels or all channels.: JSON അല്ലെങ്കിൽ M3U ആയി ഫലങ്ങൾ എക്‌സ്‌പോർട്ട് ചെയ്യുക - നഷ്‌ടമായ ചാനലുകളോ എല്ലാ ചാനലുകളോ കയറ്റുമതി ചെയ്യുക.
+Exported channels: കയറ്റുമതി ചെയ്ത ചാനലുകൾ
 Extracting update...: അപ്‌ഡേറ്റ് എക്‌സ്‌ട്രാക്‌റ്റുചെയ്യുന്നു...
 Failed to download playlist: പ്ലേലിസ്റ്റ് ഡൗൺലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു
 Failed to load playlist: പ്ലേലിസ്റ്റ് ലോഡുചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു
-Failed to update bouquets.tv.: Bouquets.tv അപ്‌ഡേറ്റ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു.
-Failed to upload bouquet.: പൂച്ചെണ്ട് അപ്‌ലോഡ് ചെയ്യാനായില്ല.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Bouquets.tv അപ്‌ഡേറ്റ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു. Enigma2 ഉപകരണത്തിൽ ഫയൽ അനുമതികൾ പരിശോധിക്കുക.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: പൂച്ചെണ്ട് അപ്‌ലോഡ് ചെയ്യാനായില്ല. ദയവായി നിങ്ങളുടെ ടെൽനെറ്റ് ക്രമീകരണങ്ങൾ (ഹോസ്റ്റ്, പോർട്ട്, ഉപയോക്തൃനാമം, പാസ്‌വേഡ്) പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക.
 Favorite: പ്രിയപ്പെട്ടത്
 Favorites only: പ്രിയപ്പെട്ടവ മാത്രം
 Fetch Logos: ലോഗോകൾ ലഭ്യമാക്കുക
 File {0} already exists. Overwrite?: ഫയൽ {0} ഇതിനകം നിലവിലുണ്ട്. തിരുത്തിയെഴുതണോ?
 File exists: ഫയൽ നിലവിലുണ്ട്
 Filters: ഫിൽട്ടറുകൾ
+First playlist: {0} channels loaded.: ആദ്യ പ്ലേലിസ്റ്റ്: {0} ചാനലുകൾ ലോഡ് ചെയ്തു.
 Fullscreen (hide UI) - press ESC to exit: പൂർണ്ണസ്‌ക്രീൻ (UI മറയ്‌ക്കുക) - പുറത്തുകടക്കാൻ ESC അമർത്തുക
 Geo & Country: ജിയോ & രാജ്യം
 GeoBlocked: ജിയോബ്ലോക്ക് ചെയ്തു
@@ -138,19 +161,23 @@ Hide List: ലിസ്റ്റ് മറയ്ക്കുക
 HLS playback: hls.js (MIT license): HLS പ്ലേബാക്ക്: hls.js (MIT ലൈസൻസ്)
 Image: ചിത്രം
 Import: ഇറക്കുമതി ചെയ്യുക
+Import cancelled or no channels mapped.: ഇറക്കുമതി റദ്ദാക്കി അല്ലെങ്കിൽ ചാനലുകളൊന്നും മാപ്പ് ചെയ്തിട്ടില്ല.
 Import error: {0}: ഇറക്കുമതി പിശക്: {0}
 Import from URL: URL-ൽ നിന്ന് ഇറക്കുമതി ചെയ്യുക
 Import JSON: JSON ഇറക്കുമതി ചെയ്യുക
 Import JSON from URL: URL-ൽ നിന്ന് JSON ഇറക്കുമതി ചെയ്യുക
 Import Local: പ്രാദേശികമായി ഇറക്കുമതി ചെയ്യുക
-Imported {0} channels from JSON.: JSON-ൽ നിന്ന് {0} ചാനലുകൾ ഇറക്കുമതി ചെയ്തു.
+Imported {0} channels from JSON via mapping.: മാപ്പിംഗ് വഴി JSON-ൽ നിന്ന് {0} ചാനലുകൾ ഇറക്കുമതി ചെയ്തു.
 Imported {0} channels from URL.: URL-ൽ നിന്ന് {0} ചാനലുകൾ ഇറക്കുമതി ചെയ്തു.
+In Both: രണ്ടിലും
 Info: വിവരം
 Info on: വിവരങ്ങൾ
 Invalid JSON: {0}: അസാധുവായ JSON: {0}
 Invalid playlist URL.: അസാധുവായ പ്ലേലിസ്റ്റ് URL.
 Invalid URL.: അസാധുവായ URL.
 Json: ജെസൺ
+JSON files|*.json|M3U files|*.m3u: JSON ഫയലുകൾ|*.json|M3U ഫയലുകൾ|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON ഫയലുകൾ|*.json|M3U ഫയലുകൾ|*.m3u;*.m3u8|എല്ലാ ഫയലുകളും|*.*
 JSON Property: JSON പ്രോപ്പർട്ടി
 Ko-fi: കോഫി
 Language: ഭാഷ
@@ -158,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: ഭാഷകൾ
 Languages (comma): ഭാഷകൾ (കോമ)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: ലുലുല്ലയുടെ ലൈവ് ഗാർഡൻ ടിവി പ്ലസ് സഹായം
+LiveGardenTVPlus Help: LiveGardenTVPlus സഹായം
 LOAD: ലോഡ് ചെയ്യുക
 Load a playlist first.: ആദ്യം ഒരു പ്ലേലിസ്റ്റ് ലോഡ് ചെയ്യുക.
+Load a second playlist first.: ആദ്യം രണ്ടാമത്തെ പ്ലേലിസ്റ്റ് ലോഡ് ചെയ്യുക.
 Load File: ഫയൽ ലോഡ് ചെയ്യുക
+Load from file...: ഫയലിൽ നിന്ന് ലോഡ് ചെയ്യുക...
+Load from URL: URL-ൽ നിന്ന് ലോഡ് ചെയ്യുക
+Load from URL...: URL-ൽ നിന്ന് ലോഡ് ചെയ്യുക...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: ലോക്കൽ M3U/JSON ഫയൽ ലോഡ് ചെയ്യുക – 'ലോഡ് ഫയൽ' ബട്ടൺ (ടൂൾബാർ) അല്ലെങ്കിൽ എഡിറ്ററിൽ 'ഓപ്പൺ ഫയൽ' വഴി.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: ഓൺലൈനിൽ M3U/JSON URL ലോഡുചെയ്യുക – എഡിറ്ററിൽ 'ഓൺലൈൻ ലോഡുചെയ്യുക' ബട്ടൺ (ടൂൾബാർ) അല്ലെങ്കിൽ 'URL-ൽ നിന്ന് തുറക്കുക'.
 Load playlist file (M3U/JSON) from your computer: നിങ്ങളുടെ കമ്പ്യൂട്ടറിൽ നിന്ന് പ്ലേലിസ്റ്റ് ഫയൽ (M3U/JSON) ലോഡ് ചെയ്യുക
 Loaded: ലോഡ് ചെയ്തു
+Loaded {0} channels from JSON file via mapping.: മാപ്പിംഗ് വഴി JSON ഫയലിൽ നിന്ന് {0} ചാനലുകൾ ലോഡ് ചെയ്തു.
 Loaded {0} channels from JSON file.: JSON ഫയലിൽ നിന്ന് {0} ചാനലുകൾ ലോഡുചെയ്‌തു.
 Loaded {0} channels from JSON URL.: JSON URL-ൽ നിന്ന് {0} ചാനലുകൾ ലോഡ് ചെയ്തു.
 Loaded {0} channels from M3U file.: M3U ഫയലിൽ നിന്ന് {0} ചാനലുകൾ ലോഡ് ചെയ്തു.
@@ -191,15 +223,23 @@ Next: അടുത്തത്
 Next ▶: അടുത്തത് ▶
 No .m3u files found on GitHub repository.: GitHub റിപ്പോസിറ്ററിയിൽ .m3u ഫയലുകളൊന്നും കണ്ടെത്തിയില്ല.
 No cache folder found.: കാഷെ ഫോൾഡറൊന്നും കണ്ടെത്തിയില്ല.
+No channels could be mapped or import cancelled.: ചാനലുകളൊന്നും മാപ്പ് ചെയ്യാനോ ഇറക്കുമതി റദ്ദാക്കാനോ കഴിഞ്ഞില്ല.
 No channels could be mapped. Check your mapping rules.: ചാനലുകളൊന്നും മാപ്പ് ചെയ്യാൻ കഴിഞ്ഞില്ല. നിങ്ങളുടെ മാപ്പിംഗ് നിയമങ്ങൾ പരിശോധിക്കുക.
+No channels loaded from JSON URL.: JSON URL-ൽ നിന്ന് ചാനലുകളൊന്നും ലോഡ് ചെയ്തിട്ടില്ല.
+No channels loaded from M3U URL.: M3U URL-ൽ നിന്ന് ചാനലുകളൊന്നും ലോഡ് ചെയ്തിട്ടില്ല.
+No channels loaded from M3U.: M3U-ൽ നിന്ന് ചാനലുകളൊന്നും ലോഡ് ചെയ്തിട്ടില്ല.
+No channels loaded.: ചാനലുകളൊന്നും ലോഡ് ചെയ്തിട്ടില്ല.
 No channels mapped: ചാനലുകളൊന്നും മാപ്പ് ചെയ്‌തിട്ടില്ല
+No comparison results. Run Compare first.: താരതമ്യ ഫലങ്ങളൊന്നുമില്ല. ആദ്യം താരതമ്യം ചെയ്യുക.
 No duplicate URLs found.: തനിപ്പകർപ്പ് URL-കളൊന്നും കണ്ടെത്തിയില്ല.
 No EPG data: EPG ഡാറ്റ ഇല്ല
 No EPG information available for this channel.: ഈ ചാനലിന് EPG വിവരങ്ങളൊന്നും ലഭ്യമല്ല.
 No EPG source configured. Please select one from the combo or go to Settings.: EPG ഉറവിടങ്ങളൊന്നും കോൺഫിഗർ ചെയ്തിട്ടില്ല. കോമ്പോയിൽ നിന്ന് ഒന്ന് തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ ക്രമീകരണത്തിലേക്ക് പോകുക.
 No EPG source configured. Would you like to open settings to select one?: EPG ഉറവിടങ്ങളൊന്നും കോൺഫിഗർ ചെയ്തിട്ടില്ല. ഒന്ന് തിരഞ്ഞെടുക്കാൻ നിങ്ങൾക്ക് ക്രമീകരണം തുറക്കണോ?
 No favorite channels to export.: കയറ്റുമതി ചെയ്യാൻ പ്രിയപ്പെട്ട ചാനലുകളൊന്നുമില്ല.
+No missing channels to export.: കയറ്റുമതി ചെയ്യാനുള്ള ചാനലുകളൊന്നും നഷ്‌ടമായി.
 No playlist found: പ്ലേലിസ്റ്റൊന്നും കണ്ടെത്തിയില്ല
+No second playlist loaded.: രണ്ടാമത്തെ പ്ലേലിസ്റ്റ് ലോഡ് ചെയ്തിട്ടില്ല.
 No updates available.: അപ്‌ഡേറ്റുകളൊന്നും ലഭ്യമല്ല.
 Normal speed (1x): സാധാരണ വേഗത (1x)
 Not connected to the box.: ബോക്സുമായി ബന്ധിപ്പിച്ചിട്ടില്ല.
@@ -207,6 +247,8 @@ Now: ഇപ്പോൾ
 OK: ശരി
 Online Playlist: ഓൺലൈൻ പ്ലേലിസ്റ്റ്
 Online playlist – select from GitHub repository (auto‑refresh).: ഓൺലൈൻ പ്ലേലിസ്റ്റ് - GitHub ശേഖരത്തിൽ നിന്ന് തിരഞ്ഞെടുക്കുക (യാന്ത്രികമായി പുതുക്കുക).
+Only in First: ആദ്യം മാത്രം
+Only in Second: സെക്കൻ്റിൽ മാത്രം
 Open File...: ഫയൽ തുറക്കുക...
 Open from URL: URL-ൽ നിന്ന് തുറക്കുക
 Open Playlist: പ്ലേലിസ്റ്റ് തുറക്കുക
@@ -214,12 +256,14 @@ Pause/Resume live stream: തത്സമയ സ്ട്രീം താൽക�
 Paused: താൽക്കാലികമായി നിർത്തി
 PayPal: പേപാൽ
 Picture-in-Picture mode: പിക്ചർ-ഇൻ-പിക്ചർ മോഡ്
-Player Control: പ്ലെയർ നിയന്ത്രണം
+Player Controls: പ്ലെയർ നിയന്ത്രണങ്ങൾ
 Playlist & Groups: പ്ലേലിസ്റ്റും ഗ്രൂപ്പുകളും
+Playlist Comparison: പ്ലേലിസ്റ്റ് താരതമ്യം
 Playlist Editor: പ്ലേലിസ്റ്റ് എഡിറ്റർ
 Playlist Loading: പ്ലേലിസ്റ്റ് ലോഡുചെയ്യുന്നു
 Playlist Management: പ്ലേലിസ്റ്റ് മാനേജ്മെൻ്റ്
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): പ്ലേലിസ്റ്റ് ശേഖരം: ഓണർപ്ലഗിൻസ്/ടിവുസ്ട്രീം ലിസ്റ്റ് (ഇറ്റാലിയൻ, അന്തർദേശീയ സ്ട്രീമുകൾ)
+Playlists loaded: പ്ലേലിസ്റ്റുകൾ ലോഡ് ചെയ്തു
 Please select a program first.: ദയവായി ആദ്യം ഒരു പ്രോഗ്രാം തിരഞ്ഞെടുക്കുക.
 Preview (first 5 channels): പ്രിവ്യൂ (ആദ്യത്തെ 5 ചാനലുകൾ)
 Preview error: {0}: പ്രിവ്യൂ പിശക്: {0}
@@ -235,8 +279,10 @@ Refresh List: ലിസ്റ്റ് പുതുക്കുക
 Reload GUI: GUI വീണ്ടും ലോഡുചെയ്യുക
 Remove Command: കമാൻഡ് നീക്കം ചെയ്യുക
 Rename Group: ഗ്രൂപ്പിൻ്റെ പേര് മാറ്റുക
+Rename group '{0}' to:: '{0}' ഗ്രൂപ്പിൻ്റെ പേരുമാറ്റുക:
 Repository: ശേഖരം
 Reset Order: ഓർഡർ പുനഃസജ്ജമാക്കുക
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: ഫലങ്ങൾ: സ്റ്റാറ്റസ് കളർ കോഡിംഗിനൊപ്പം 'ആദ്യം മാത്രം', 'രണ്ടിൽ മാത്രം', 'രണ്ടിലും'.
 Save: സംരക്ഷിക്കുക
 SAVE: സംരക്ഷിക്കുക
 Save – persists all settings without reloading current playlist.: സംരക്ഷിക്കുക - നിലവിലെ പ്ലേലിസ്റ്റ് റീലോഡ് ചെയ്യാതെ തന്നെ എല്ലാ ക്രമീകരണങ്ങളും നിലനിൽക്കും.
@@ -249,6 +295,7 @@ Saved: സംരക്ഷിച്ചു
 Search channel: : ചാനൽ തിരയുക:
 Search channels by name: പേര് പ്രകാരം ചാനലുകൾ തിരയുക
 Search channels...: ചാനലുകൾ തിരയുക...
+sec: സെക്കൻ്റ്
 Select a playlist first.: ആദ്യം ഒരു പ്ലേലിസ്റ്റ് തിരഞ്ഞെടുക്കുക.
 Select Theme: തീം തിരഞ്ഞെടുക്കുക
 Selected theme is saved and applied on restart.: തിരഞ്ഞെടുത്ത തീം സംരക്ഷിച്ച് പുനരാരംഭിക്കുമ്പോൾ പ്രയോഗിക്കുന്നു.
@@ -271,8 +318,11 @@ Support the developer: ഡെവലപ്പറെ പിന്തുണയ്�
 Target Field: ടാർഗെറ്റ് ഫീൽഡ്
 Telnet command:: ടെൽനെറ്റ് കമാൻഡ്:
 Telnet Commander: ടെൽനെറ്റ് കമാൻഡർ
+Telnet Config: ടെൽനെറ്റ് കോൺഫിഗറേഷൻ
 Telnet Console: ടെൽനെറ്റ് കൺസോൾ
-Telnet not configured. Please set it in Settings.: ടെൽനെറ്റ് ക്രമീകരിച്ചിട്ടില്ല. ദയവായി ഇത് ക്രമീകരണങ്ങളിൽ സജ്ജമാക്കുക.
+Telnet host not configured. Please set it in Settings.: ടെൽനെറ്റ് ഹോസ്റ്റ് കോൺഫിഗർ ചെയ്തിട്ടില്ല. ദയവായി ഇത് ക്രമീകരണങ്ങളിൽ സജ്ജമാക്കുക.
+Telnet password is empty. Do you want to continue?: ടെൽനെറ്റ് പാസ്‌വേഡ് ശൂന്യമാണ്. നിങ്ങൾക്ക് തുടരണോ?
+Telnet username not configured. Please set it in Settings.: ടെൽനെറ്റ് ഉപയോക്തൃനാമം ക്രമീകരിച്ചിട്ടില്ല. ദയവായി ഇത് ക്രമീകരണങ്ങളിൽ സജ്ജമാക്കുക.
 Thanks to: നന്ദി
 Theme picker: തീം പിക്കർ
 Theme picker – accessible via Tools menu on main toolbar.: തീം പിക്കർ - പ്രധാന ടൂൾബാറിലെ ടൂൾസ് മെനു വഴി ആക്സസ് ചെയ്യാവുന്നതാണ്.
@@ -289,14 +339,18 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: റിമോട്ട് പ്രോജക്റ്റ് ഫയലിൽ പതിപ്പ് കണ്ടെത്താനായില്ല.
 Update: അപ്ഡേറ്റ്
 Update complete. Restarting...: അപ്ഡേറ്റ് പൂർത്തിയായി. പുനരാരംഭിക്കുന്നു...
-Update failed: : അപ്ഡേറ്റ് പരാജയപ്പെട്ടു:
+Update Error: അപ്ഡേറ്റ് പിശക്
+Update failed: : അപ്‌ഡേറ്റ് പരാജയപ്പെട്ടു:
 Updates: അപ്ഡേറ്റുകൾ
+Upload Error: അപ്‌ലോഡ് പിശക്
 URL: URL
 URL (primary): URL (പ്രാഥമിക)
 URL Check: URL പരിശോധിക്കുക
 URL list (one per line): URL ലിസ്റ്റ് (ഒരു വരിയിൽ ഒന്ന്)
 URLs & Status: URL-കളും സ്റ്റാറ്റസും
 Version: പതിപ്പ്
+Version {0}.{1}.{2}: പതിപ്പ് {0}.{1}.{2}
+Version unknown: പതിപ്പ് അജ്ഞാതമാണ്
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus അടയ്ക്കുന്നതിനായി കാത്തിരിക്കുന്നു...
 Warning: മുന്നറിയിപ്പ്
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

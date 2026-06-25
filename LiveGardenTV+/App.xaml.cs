@@ -1,7 +1,6 @@
-﻿using System;
+﻿using LiveGardenTVPlus.Services;
+using System.IO;
 using System.Windows;
-using System.Windows.Threading;
-using LiveGardenTVPlus.Services;
 
 namespace LiveGardenTVPlus
 {
@@ -11,14 +10,27 @@ namespace LiveGardenTVPlus
         {
             base.OnStartup(e);
 
-            // Catch UI thread exceptions
-            DispatcherUnhandledException += (s, args) =>
+            // Carica il tema LightTheme.xaml
+            try
             {
-                Logger.WriteException(args.Exception, "DispatcherUnhandledException");
-                MessageBox.Show($"An error occurred. Log saved to:\n{Logger.LogPath}",
-                                "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                args.Handled = true; // Prevent crash (optional)
-            };
+                var themePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Themes", "LightTheme.xaml");
+                if (File.Exists(themePath))
+                {
+                    var themeDict = new ResourceDictionary();
+                    themeDict.Source = new Uri(themePath, UriKind.Absolute);
+                    Application.Current.Resources.MergedDictionaries.Add(themeDict);
+                }
+                else
+                {
+                    // Log di avviso
+                    File.AppendAllText(@"C:\temp\theme_error.txt", $"LightTheme.xaml non trovato in: {themePath}\n");
+                }
+            }
+            catch (Exception ex)
+            {
+                File.AppendAllText(@"C:\temp\theme_error.txt", $"Errore caricamento tema: {ex}\n");
+            }
+
 
             // Catch background thread exceptions
             AppDomain.CurrentDomain.UnhandledException += (s, args) =>

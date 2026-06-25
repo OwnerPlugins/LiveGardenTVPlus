@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (ক্যাশ ফোল্ডার: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (সম্পূর্ণ স্বেচ্ছায় – কোন বৈশিষ্ট্য অবরুদ্ধ নয়)
 (No description): (কোন বর্ণনা নেই)
 • Add / rename / delete groups.: • গ্রুপ যোগ করুন/নাম পরিবর্তন করুন/মুছুন।
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ আগের
 16 colour themes + Light/Dark variants.: 16টি রঙের থিম + হালকা/গাঢ় রূপ।
 A new version is available. Do you want to update now?: একটি নতুন সংস্করণ উপলব্ধ. আপনি কি এখন আপডেট করতে চান?
+Access via 'Compare' button in Playlist Editor or Tools menu.: প্লেলিস্ট এডিটর বা টুলস মেনুতে 'তুলনা' বোতামের মাধ্যমে অ্যাক্সেস করুন।
 Access via 'Edit Playlist' button on main toolbar.: প্রধান টুলবারে 'প্লেলিস্ট সম্পাদনা করুন' বোতামের মাধ্যমে অ্যাক্সেস করুন।
 Actions: কর্ম
 Add Command: কমান্ড যোগ করুন
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: তোড়া পাঠান
 Buffer (seconds): বাফার (সেকেন্ড)
 Buffer size – adjust HLS buffer seconds.: বাফার আকার - HLS বাফার সেকেন্ড সামঞ্জস্য করুন।
 Cache: ক্যাশে
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: ক্যাশে ফোল্ডার: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: বাতিল করুন
 CANCEL: বাতিল করুন
+Cannot open browser: ব্রাউজার খুলতে পারে না
 Category: শ্রেণী
 Changelog: চেঞ্জলগ
 Channel Details: চ্যানেলের বিবরণ
 Channel Info: চ্যানেল তথ্য
+Channel Name: চ্যানেলের নাম
 channels from: থেকে চ্যানেল
+channels from JSON: JSON থেকে চ্যানেল
 channels from JSON URL: JSON URL থেকে চ্যানেল
 channels from URL: URL থেকে চ্যানেল
 Check Duplicates: ডুপ্লিকেট চেক করুন
@@ -57,6 +61,12 @@ Click for details: বিস্তারিত জানতে ক্লিক �
 Close: বন্ধ
 Command name:: কমান্ডের নাম:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: সম্প্রদায় এবং পরীক্ষা: CorvoBoys (corvoboys.org) এবং LinuxSat-Support.com
+Compare: তুলনা করুন
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: এর দ্বারা তুলনা করুন: অগ্রাধিকার (নাম→গোষ্ঠী→tvg-id), নাম, গ্রুপ (কেস-সংবেদনশীল), বা TvgId।
+Compare Playlists: প্লেলিস্ট তুলনা করুন
+Compare two playlists – load first (current playlist) and second (from file or URL).: দুটি প্লেলিস্ট তুলনা করুন - প্রথম (বর্তমান প্লেলিস্ট) এবং দ্বিতীয় (ফাইল বা URL থেকে) লোড করুন।
+Compare...: তুলনা করুন...
+Comparison results: {0} channels: তুলনা ফলাফল: {0} চ্যানেল
 Configuration Missing: কনফিগারেশন অনুপস্থিত
 Confirm Reload: পুনরায় লোড নিশ্চিত করুন
 Connect: সংযোগ করুন
@@ -89,6 +99,8 @@ End: শেষ
 Enrich with EPG: ইপিজি দিয়ে সমৃদ্ধ করুন
 Enter bouquet name (without spaces):: তোড়ার নাম লিখুন (স্পেস ছাড়া):
 Enter JSON URL:: JSON URL লিখুন:
+Enter new group name:: নতুন গ্রুপের নাম লিখুন:
+Enter playlist URL (JSON or M3U):: প্লেলিস্ট URL লিখুন (JSON বা M3U):
 Enter playlist URL (M3U or JSON):: প্লেলিস্ট URL লিখুন (M3U বা JSON):
 EPG: ইপিজি
 Epg & Favorites: Epg এবং প্রিয়
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG উত্
 EPG source – choose XMLTV file or enter custom URL.: EPG উত্স - XMLTV ফাইল চয়ন করুন বা কাস্টম URL লিখুন।
 EPG Source Missing: EPG উৎস অনুপস্থিত
 Error: ত্রুটি
-Error clearing cache: ক্যাশে সাফ করার সময় ত্রুটি৷
+Error clearing cache: {0}: ক্যাশে সাফ করার সময় ত্রুটি: {0}
 Error loading: লোড করার সময় ত্রুটি৷
+Error loading EPG list: {0}: EPG তালিকা লোড করার সময় ত্রুটি: {0}
+Error loading file: {0}: ফাইল লোড করার সময় ত্রুটি: {0}
 Error loading file: {0}: ফাইল লোড করার সময় ত্রুটি: {0}
 Error loading playlists: {0}: প্লেলিস্ট লোড করার সময় ত্রুটি: {0}
 Error loading URL: {0}: URL লোড করার সময় ত্রুটি: {0}
+Error loading URL: {0}: URL লোড করার সময় ত্রুটি: {0}
 ERROR: player.html not found.: ত্রুটি: player.html পাওয়া যায়নি।
 Exit: প্রস্থান করুন
+Export: রপ্তানি
+Export all: সব রপ্তানি করুন
 Export Favorites: রপ্তানি প্রিয়
 Export Filtered JSON: ফিল্টার করা JSON রপ্তানি করুন
 Export Filtered M3U: ফিল্টার করা M3U রপ্তানি করুন
 Export JSON: JSON রপ্তানি করুন
 Export KO: KO রপ্তানি করুন
+Export missing: রপ্তানি অনুপস্থিত
 Export OK: রপ্তানি ঠিক আছে
 Export only favorite channels to a new M3U file: একটি নতুন M3U ফাইলে শুধুমাত্র প্রিয় চ্যানেল রপ্তানি করুন
+Export results as JSON or M3U – export missing channels or all channels.: JSON বা M3U হিসাবে ফলাফল রপ্তানি করুন - অনুপস্থিত চ্যানেল বা সমস্ত চ্যানেল রপ্তানি করুন।
+Exported channels: রপ্তানি করা চ্যানেল
 Extracting update...: আপডেট বের করা হচ্ছে...
 Failed to download playlist: প্লেলিস্ট ডাউনলোড করতে ব্যর্থ হয়েছে৷
 Failed to load playlist: প্লেলিস্ট লোড করতে ব্যর্থ হয়েছে৷
@@ -128,6 +148,7 @@ Fetch Logos: লোগো আনুন
 File {0} already exists. Overwrite?: ফাইল {0} ইতিমধ্যেই বিদ্যমান। ওভাররাইট করবেন?
 File exists: ফাইল বিদ্যমান
 Filters: ফিল্টার
+First playlist: {0} channels loaded.: প্রথম প্লেলিস্ট: {0}টি চ্যানেল লোড হয়েছে।
 Fullscreen (hide UI) - press ESC to exit: ফুলস্ক্রিন (UI লুকান) - প্রস্থান করতে ESC টিপুন
 Geo & Country: জিও এবং দেশ
 GeoBlocked: জিওব্লক করা হয়েছে
@@ -140,19 +161,23 @@ Hide List: তালিকা লুকান
 HLS playback: hls.js (MIT license): HLS প্লেব্যাক: hls.js (MIT লাইসেন্স)
 Image: ছবি
 Import: আমদানি
+Import cancelled or no channels mapped.: আমদানি বাতিল হয়েছে বা কোনো চ্যানেল ম্যাপ করা হয়নি।
 Import error: {0}: আমদানি ত্রুটি: {0}
 Import from URL: URL থেকে আমদানি করুন
 Import JSON: JSON আমদানি করুন
 Import JSON from URL: URL থেকে JSON আমদানি করুন
 Import Local: স্থানীয় আমদানি করুন
-Imported {0} channels from JSON.: JSON থেকে {0}টি চ্যানেল আমদানি করা হয়েছে।
+Imported {0} channels from JSON via mapping.: ম্যাপিংয়ের মাধ্যমে JSON থেকে {0}টি চ্যানেল আমদানি করা হয়েছে।
 Imported {0} channels from URL.: URL থেকে {0}টি চ্যানেল আমদানি করা হয়েছে।
+In Both: উভয়েই
 Info: তথ্য
 Info on: তথ্য
 Invalid JSON: {0}: অবৈধ JSON: {0}
 Invalid playlist URL.: অবৈধ প্লেলিস্ট URL৷
 Invalid URL.: অবৈধ URL
 Json: জসন
+JSON files|*.json|M3U files|*.m3u: JSON ফাইল|*.json|M3U ফাইল|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON ফাইল|*.json|M3U ফাইল|*.m3u;*.m3u8|সমস্ত ফাইল|*.*
 JSON Property: JSON সম্পত্তি
 Ko-fi: কফি
 Language: ভাষা
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: ভাষা
 Languages (comma): ভাষা (কমা)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: Lululla দ্বারা LiveGardenTVPlus সহায়তা
+LiveGardenTVPlus Help: LiveGardenTVPlus সহায়তা
 LOAD: লোড
 Load a playlist first.: প্রথমে একটি প্লেলিস্ট লোড করুন।
+Load a second playlist first.: প্রথমে একটি দ্বিতীয় প্লেলিস্ট লোড করুন।
 Load File: ফাইল লোড করুন
+Load from file...: ফাইল থেকে লোড করুন...
+Load from URL: URL থেকে লোড করুন
+Load from URL...: URL থেকে লোড করুন...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: স্থানীয় M3U/JSON ফাইল লোড করুন - 'লোড ফাইল' বোতাম (টুলবার) বা সম্পাদকে 'ওপেন ফাইল' এর মাধ্যমে।
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: অনলাইন M3U/JSON URL লোড করুন - সম্পাদকে 'অনলাইন লোড করুন' বোতাম (টুলবার) বা 'ইউআরএল থেকে খুলুন'।
 Load playlist file (M3U/JSON) from your computer: আপনার কম্পিউটার থেকে প্লেলিস্ট ফাইল (M3U/JSON) লোড করুন
 Loaded: লোড করা হয়েছে
+Loaded {0} channels from JSON file via mapping.: ম্যাপিংয়ের মাধ্যমে JSON ফাইল থেকে {0}টি চ্যানেল লোড করা হয়েছে।
 Loaded {0} channels from JSON file.: JSON ফাইল থেকে {0}টি চ্যানেল লোড করা হয়েছে।
 Loaded {0} channels from JSON URL.: JSON URL থেকে {0}টি চ্যানেল লোড করা হয়েছে।
 Loaded {0} channels from M3U file.: M3U ফাইল থেকে {0}টি চ্যানেল লোড করা হয়েছে।
@@ -193,15 +223,23 @@ Next: পরবর্তী
 Next ▶: পরবর্তী ▶
 No .m3u files found on GitHub repository.: GitHub সংগ্রহস্থলে কোনো .m3u ফাইল পাওয়া যায়নি।
 No cache folder found.: কোনো ক্যাশে ফোল্ডার পাওয়া যায়নি।
+No channels could be mapped or import cancelled.: কোন চ্যানেল ম্যাপ বা আমদানি বাতিল করা যাবে না.
 No channels could be mapped. Check your mapping rules.: কোন চ্যানেল ম্যাপ করা যায়নি. আপনার ম্যাপিং নিয়ম পরীক্ষা করুন.
+No channels loaded from JSON URL.: JSON URL থেকে কোনো চ্যানেল লোড করা হয়নি।
+No channels loaded from M3U URL.: M3U URL থেকে কোনো চ্যানেল লোড করা হয়নি।
+No channels loaded from M3U.: M3U থেকে কোনো চ্যানেল লোড করা হয়নি।
+No channels loaded.: কোনো চ্যানেল লোড হয়নি।
 No channels mapped: কোনো চ্যানেল ম্যাপ করা হয়নি
+No comparison results. Run Compare first.: কোন তুলনা ফলাফল. প্রথমে তুলনা চালান।
 No duplicate URLs found.: কোনো ডুপ্লিকেট URL পাওয়া যায়নি।
 No EPG data: ইপিজি ডেটা নেই
 No EPG information available for this channel.: এই চ্যানেলের জন্য কোন EPG তথ্য উপলব্ধ নেই।
 No EPG source configured. Please select one from the combo or go to Settings.: কোনো EPG উৎস কনফিগার করা নেই। অনুগ্রহ করে কম্বো থেকে একটি নির্বাচন করুন বা সেটিংসে যান।
 No EPG source configured. Would you like to open settings to select one?: কোনো EPG উৎস কনফিগার করা নেই। আপনি একটি নির্বাচন করতে সেটিংস খুলতে চান?
 No favorite channels to export.: রপ্তানি করার জন্য কোন প্রিয় চ্যানেল নেই।
+No missing channels to export.: রপ্তানি করার জন্য কোনো চ্যানেল নেই।
 No playlist found: কোনো প্লেলিস্ট পাওয়া যায়নি
+No second playlist loaded.: দ্বিতীয় কোনো প্লেলিস্ট লোড হয়নি৷
 No updates available.: কোন আপডেট উপলব্ধ নেই.
 Normal speed (1x): স্বাভাবিক গতি (1x)
 Not connected to the box.: বাক্সের সাথে সংযুক্ত নয়।
@@ -209,6 +247,8 @@ Now: এখন
 OK: ঠিক আছে
 Online Playlist: অনলাইন প্লেলিস্ট
 Online playlist – select from GitHub repository (auto‑refresh).: অনলাইন প্লেলিস্ট - GitHub সংগ্রহস্থল থেকে নির্বাচন করুন (স্বয়ংক্রিয়-রিফ্রেশ)।
+Only in First: শুধুমাত্র প্রথম
+Only in Second: শুধুমাত্র সেকেন্ডে
 Open File...: ফাইল খুলুন...
 Open from URL: URL থেকে খুলুন
 Open Playlist: প্লেলিস্ট খুলুন
@@ -216,12 +256,14 @@ Pause/Resume live stream: লাইভ স্ট্রিম বিরতি/প
 Paused: বিরতি দেওয়া হয়েছে
 PayPal: পেপ্যাল
 Picture-in-Picture mode: পিকচার-ইন-পিকচার মোড
-Player Control: প্লেয়ার কন্ট্রোল
+Player Controls: প্লেয়ার কন্ট্রোল
 Playlist & Groups: প্লেলিস্ট এবং গ্রুপ
+Playlist Comparison: প্লেলিস্ট তুলনা
 Playlist Editor: প্লেলিস্ট সম্পাদক
 Playlist Loading: প্লেলিস্ট লোড হচ্ছে
 Playlist Management: প্লেলিস্ট ব্যবস্থাপনা
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): প্লেলিস্ট রিপোজিটরি: OwnerPlugins/TivuStreamList (ইতালীয় এবং আন্তর্জাতিক স্ট্রীম)
+Playlists loaded: প্লেলিস্ট লোড হয়েছে
 Please select a program first.: প্রথমে একটি প্রোগ্রাম নির্বাচন করুন.
 Preview (first 5 channels): পূর্বরূপ (প্রথম 5টি চ্যানেল)
 Preview error: {0}: পূর্বরূপ ত্রুটি: {0}
@@ -237,8 +279,10 @@ Refresh List: রিফ্রেশ তালিকা
 Reload GUI: GUI পুনরায় লোড করুন
 Remove Command: কমান্ড সরান
 Rename Group: গ্রুপের নাম পরিবর্তন করুন
+Rename group '{0}' to:: গ্রুপ '{0}' এর পুনঃনামকরণ করুন:
 Repository: ভান্ডার
 Reset Order: অর্ডার রিসেট করুন
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: ফলাফল: 'শুধুমাত্র প্রথম', 'শুধুমাত্র দ্বিতীয়', 'দুটোতে' – স্ট্যাটাস কালার কোডিং সহ।
 Save: সংরক্ষণ করুন
 SAVE: সংরক্ষণ করুন
 Save – persists all settings without reloading current playlist.: সংরক্ষণ করুন - বর্তমান প্লেলিস্ট পুনরায় লোড না করেই সমস্ত সেটিংস বজায় রাখে।
@@ -251,6 +295,7 @@ Saved: সংরক্ষিত
 Search channel: : চ্যানেল অনুসন্ধান করুন:
 Search channels by name: নাম অনুসারে চ্যানেল অনুসন্ধান করুন
 Search channels...: চ্যানেল অনুসন্ধান করুন...
+sec: সেকেন্ড
 Select a playlist first.: প্রথমে একটি প্লেলিস্ট নির্বাচন করুন।
 Select Theme: থিম নির্বাচন করুন
 Selected theme is saved and applied on restart.: নির্বাচিত থিম সংরক্ষণ করা হয় এবং পুনরায় চালু করার সময় প্রয়োগ করা হয়।
@@ -273,6 +318,7 @@ Support the developer: বিকাশকারীকে সমর্থন ক�
 Target Field: লক্ষ্য ক্ষেত্র
 Telnet command:: টেলনেট কমান্ড:
 Telnet Commander: টেলনেট কমান্ডার
+Telnet Config: টেলনেট কনফিগারেশন
 Telnet Console: টেলনেট কনসোল
 Telnet host not configured. Please set it in Settings.: টেলনেট হোস্ট কনফিগার করা হয়নি। সেটিংসে সেট করুন।
 Telnet password is empty. Do you want to continue?: টেলনেট পাসওয়ার্ড খালি। আপনি কি চালিয়ে যেতে চান?
@@ -303,6 +349,8 @@ URL Check: ইউআরএল চেক
 URL list (one per line): URL তালিকা (প্রতি লাইনে একটি)
 URLs & Status: URL এবং স্থিতি
 Version: সংস্করণ
+Version {0}.{1}.{2}: সংস্করণ {0}।{2}
+Version unknown: সংস্করণ অজানা
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus বন্ধ হওয়ার জন্য অপেক্ষা করা হচ্ছে...
 Warning: সতর্কতা
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

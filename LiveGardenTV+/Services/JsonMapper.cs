@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using LiveGardenTVPlus.Models;
+﻿using LiveGardenTVPlus.Models;
 using Newtonsoft.Json.Linq;
 
 namespace LiveGardenTVPlus.Services

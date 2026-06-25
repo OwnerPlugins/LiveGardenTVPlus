@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (キャッシュフォルダー: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (完全に任意 – ブロックされる機能はありません)
 (No description): (説明なし)
 • Add / rename / delete groups.: • グループの追加/名前変更/削除。
@@ -16,10 +15,11 @@
 • Picture‑in‑Picture (PIP) button.: • ピクチャーインピクチャー (PIP) ボタン。
 • Playback speed: 0.5x, 1x, 2x buttons.: • 再生速度: 0.5x、1x、2x ボタン。
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • ヘッダーをクリックして列を並べ替えます。元の順序に戻すには、「順序をリセット」を使用します。
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • タイムシフト: ライブ ストリームを一時停止します。スライダをドラッグしてシークバックします。戻るには「ライブ」を押してください。
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • タイムシフト: ライブ ストリームを一時停止します。スライダをドラッグして後方にシークします。戻るには「ライブ」を押してください。
 ◀ Previous: ◀ 前へ
 16 colour themes + Light/Dark variants.: 16 色の​​テーマ + ライト/ダークのバリエーション。
 A new version is available. Do you want to update now?: 新しいバージョンが利用可能です。今すぐ更新しますか?
+Access via 'Compare' button in Playlist Editor or Tools menu.: プレイリスト エディターまたは [ツール] メニューの [比較] ボタンからアクセスします。
 Access via 'Edit Playlist' button on main toolbar.: メイン ツールバーの [プレイリストの編集] ボタンからアクセスします。
 Actions: アクション
 Add Command: コマンドの追加
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: 花束が送信され、Enigma2
 Buffer (seconds): バッファ (秒)
 Buffer size – adjust HLS buffer seconds.: バッファ サイズ – HLS バッファの秒数を調整します。
 Cache: キャッシュ
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: キャッシュ フォルダー: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: キャンセル
 CANCEL: キャンセル
+Cannot open browser: ブラウザを開けません
 Category: カテゴリ
 Changelog: 変更履歴
 Channel Details: チャンネルの詳細
 Channel Info: チャンネル情報
+Channel Name: チャンネル名
 channels from: からのチャンネル
+channels from JSON: JSON からのチャンネル
 channels from JSON URL: JSON URLからのチャンネル
 channels from URL: URLからのチャンネル
 Check Duplicates: 重複のチェック
@@ -57,6 +61,12 @@ Click for details: クリックすると詳細が表示されます
 Close: 近い
 Command name:: コマンド名:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: コミュニティとテスト: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: 比較する
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: 比較基準: 優先度 (名前→グループ→tvg-id)、名前、グループ (大文字と小文字を区別)、または TvgId。
+Compare Playlists: プレイリストを比較する
+Compare two playlists – load first (current playlist) and second (from file or URL).: 2 つのプレイリストを比較します。最初にロード (現在のプレイリスト) し、2 番目に (ファイルまたは URL から) ロードします。
+Compare...: 比較する...
+Comparison results: {0} channels: 比較結果: {0} チャンネル
 Configuration Missing: 構成がありません
 Confirm Reload: リロードの確認
 Connect: 接続する
@@ -89,6 +99,8 @@ End: 終わり
 Enrich with EPG: EPG で充実させる
 Enter bouquet name (without spaces):: 花束の名前を入力してください (スペースは含まれません):
 Enter JSON URL:: JSON URL を入力してください:
+Enter new group name:: 新しいグループ名を入力してください:
+Enter playlist URL (JSON or M3U):: プレイリスト URL (JSON または M3U) を入力してください:
 Enter playlist URL (M3U or JSON):: プレイリスト URL (M3U または JSON) を入力してください:
 EPG: EPG
 Epg & Favorites: EPG とお気に入り
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG ソース
 EPG source – choose XMLTV file or enter custom URL.: EPG ソース – XMLTV ファイルを選択するか、カスタム URL を入力します。
 EPG Source Missing: EPG ソースがありません
 Error: エラー
-Error clearing cache: キャッシュクリアエラー
+Error clearing cache: {0}: キャッシュのクリア中にエラーが発生しました: {0}
 Error loading: 読み込みエラー
+Error loading EPG list: {0}: EPG リストの読み込みエラー: {0}
+Error loading file: {0}: ファイルの読み込みエラー: {0}
 Error loading file: {0}: ファイルの読み込みエラー: {0}
 Error loading playlists: {0}: プレイリストの読み込みエラー: {0}
 Error loading URL: {0}: URL の読み込みエラー: {0}
+Error loading URL: {0}: URL の読み込みエラー: {0}
 ERROR: player.html not found.: エラー: player.html が見つかりません。
 Exit: 出口
+Export: 輸出
+Export all: すべてエクスポート
 Export Favorites: お気に入りをエクスポート
 Export Filtered JSON: フィルタリングされた JSON をエクスポートする
 Export Filtered M3U: フィルタリングされた M3U をエクスポート
 Export JSON: JSONのエクスポート
 Export KO: 輸出KO
+Export missing: エクスポートがありません
 Export OK: エクスポートOK
 Export only favorite channels to a new M3U file: お気に入りのチャンネルのみを新しい M3U ファイルにエクスポート
+Export results as JSON or M3U – export missing channels or all channels.: 結果を JSON または M3U としてエクスポート – 欠落しているチャネルまたはすべてのチャネルをエクスポートします。
+Exported channels: エクスポートされたチャンネル
 Extracting update...: アップデートを抽出しています...
 Failed to download playlist: プレイリストのダウンロードに失敗しました
 Failed to load playlist: プレイリストの読み込みに失敗しました
@@ -128,6 +148,7 @@ Fetch Logos: ロゴを取得する
 File {0} already exists. Overwrite?: ファイル {0} はすでに存在します。上書きしますか?
 File exists: ファイルが存在します
 Filters: フィルター
+First playlist: {0} channels loaded.: 最初のプレイリスト: {0} チャンネルが読み込まれました。
 Fullscreen (hide UI) - press ESC to exit: 全画面表示 (UI を非表示) - ESC キーを押して終了します
 Geo & Country: 地域と国
 GeoBlocked: 地理的にブロックされています
@@ -140,19 +161,23 @@ Hide List: リストを非表示にする
 HLS playback: hls.js (MIT license): HLS 再生: hls.js (MIT ライセンス)
 Image: 画像
 Import: 輸入
+Import cancelled or no channels mapped.: インポートがキャンセルされたか、チャネルがマッピングされていません。
 Import error: {0}: インポートエラー: {0}
 Import from URL: URLからインポート
 Import JSON: JSONをインポートする
 Import JSON from URL: URLからJSONをインポート
 Import Local: ローカルをインポート
-Imported {0} channels from JSON.: JSON から {0} チャネルをインポートしました。
+Imported {0} channels from JSON via mapping.: マッピング経由で JSON から {0} チャネルをインポートしました。
 Imported {0} channels from URL.: URL から {0} チャンネルをインポートしました。
+In Both: 両方で
 Info: 情報
 Info on: に関する情報
 Invalid JSON: {0}: 無効な JSON: {0}
 Invalid playlist URL.: プレイリストの URL が無効です。
 Invalid URL.: URLが無効です。
 Json: ジソン
+JSON files|*.json|M3U files|*.m3u: JSON ファイル|*.json|M3U ファイル|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON ファイル|*.json|M3U ファイル|*.m3u;*.m3u8|すべてのファイル|*.*
 JSON Property: JSON プロパティ
 Ko-fi: コーヒー
 Language: 言語
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: 言語
 Languages (comma): 言語 (カンマ)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus ヘルプ by Lululla
+LiveGardenTVPlus Help: LiveGardenTVPlus ヘルプ
 LOAD: 負荷
 Load a playlist first.: まずプレイリストをロードします。
+Load a second playlist first.: まず 2 番目のプレイリストをロードします。
 Load File: ファイルのロード
+Load from file...: ファイルからロード...
+Load from URL: URLからロード
+Load from URL...: URLからロード...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: ローカルの M3U/JSON ファイルをロードします – 「ファイルのロード」ボタン (ツールバー) またはエディタの「ファイルを開く」を使用します。
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: オンライン M3U/JSON URL をロードします – 「オンラインでロード」ボタン (ツールバー) またはエディターの「URL から開く」。
 Load playlist file (M3U/JSON) from your computer: プレイリストファイル（M3U/JSON）をコンピューターからロードします
 Loaded: ロード済み
+Loaded {0} channels from JSON file via mapping.: マッピングを介して JSON ファイルから {0} チャネルをロードしました。
 Loaded {0} channels from JSON file.: JSON ファイルから {0} チャンネルをロードしました。
 Loaded {0} channels from JSON URL.: JSON URL から {0} チャンネルを読み込みました。
 Loaded {0} channels from M3U file.: M3U ファイルから {0} チャンネルをロードしました。
@@ -193,15 +223,23 @@ Next: 次
 Next ▶: 次へ ▶
 No .m3u files found on GitHub repository.: GitHub リポジトリに .m3u ファイルが見つかりません。
 No cache folder found.: キャッシュフォルダーが見つかりません。
+No channels could be mapped or import cancelled.: チャネルをマッピングまたはインポートをキャンセルできませんでした。
 No channels could be mapped. Check your mapping rules.: チャネルをマッピングできませんでした。マッピング ルールを確認してください。
+No channels loaded from JSON URL.: JSON URL からロードされたチャンネルはありません。
+No channels loaded from M3U URL.: M3U URL からロードされたチャンネルはありません。
+No channels loaded from M3U.: M3U からロードされたチャンネルはありません。
+No channels loaded.: チャンネルがロードされていません。
 No channels mapped: チャンネルがマッピングされていません
+No comparison results. Run Compare first.: 比較結果はありません。まず比較を実行します。
 No duplicate URLs found.: 重複する URL は見つかりませんでした。
 No EPG data: EPGデータがありません
 No EPG information available for this channel.: このチャンネルには EPG 情報がありません。
 No EPG source configured. Please select one from the combo or go to Settings.: EPG ソースが設定されていません。コンボから 1 つを選択するか、[設定] に移動してください。
 No EPG source configured. Would you like to open settings to select one?: EPG ソースが設定されていません。設定を開いて選択しますか?
 No favorite channels to export.: エクスポートするお気に入りのチャンネルがありません。
+No missing channels to export.: エクスポートする欠落チャンネルはありません。
 No playlist found: プレイリストが見つかりません
+No second playlist loaded.: 2 番目のプレイリストがロードされていません。
 No updates available.: 利用可能なアップデートはありません。
 Normal speed (1x): 通常速度（1倍速）
 Not connected to the box.: ボックスに接続されていません。
@@ -209,6 +247,8 @@ Now: 今
 OK: わかりました
 Online Playlist: オンラインプレイリスト
 Online playlist – select from GitHub repository (auto‑refresh).: オンライン プレイリスト – GitHub リポジトリから選択します (自動更新)。
+Only in First: 最初のみ
+Only in Second: 2番目のみ
 Open File...: ファイルを開く...
 Open from URL: URLから開く
 Open Playlist: プレイリストを開く
@@ -216,12 +256,14 @@ Pause/Resume live stream: ライブストリームの一時停止/再開
 Paused: 一時停止中
 PayPal: ペイパル
 Picture-in-Picture mode: ピクチャインピクチャモード
-Player Control: プレーヤーコントロール
+Player Controls: プレーヤーのコントロール
 Playlist & Groups: プレイリストとグループ
+Playlist Comparison: プレイリストの比較
 Playlist Editor: プレイリストエディター
 Playlist Loading: プレイリストの読み込み
 Playlist Management: プレイリスト管理
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): プレイリスト リポジトリ: OwnerPlugins/TivuStreamList (イタリアおよび国際ストリーム)
+Playlists loaded: プレイリストがロードされました
 Please select a program first.: 最初にプログラムを選択してください。
 Preview (first 5 channels): プレビュー (最初の 5 チャンネル)
 Preview error: {0}: プレビュー エラー: {0}
@@ -237,8 +279,10 @@ Refresh List: リストを更新
 Reload GUI: GUIをリロードする
 Remove Command: 削除コマンド
 Rename Group: グループ名の変更
+Rename group '{0}' to:: グループ '{0}' の名前を次のように変更します。
 Repository: リポジトリ
 Reset Order: 順序をリセットする
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: 結果: 「最初のみ」、「2 番目のみ」、「両方」 - ステータスの色分け付き。
 Save: 保存
 SAVE: 保存
 Save – persists all settings without reloading current playlist.: 保存 – 現在のプレイリストを再ロードせずにすべての設定を保存します。
@@ -251,6 +295,7 @@ Saved: 保存されました
 Search channel: : 検索チャンネル:
 Search channels by name: チャンネルを名前で検索する
 Search channels...: チャンネルを検索...
+sec: 秒
 Select a playlist first.: 最初にプレイリストを選択します。
 Select Theme: テーマの選択
 Selected theme is saved and applied on restart.: 選択したテーマは保存され、再起動時に適用されます。
@@ -273,6 +318,7 @@ Support the developer: 開発者をサポートする
 Target Field: 対象分野
 Telnet command:: Telnet コマンド:
 Telnet Commander: Telnet コマンダー
+Telnet Config: Telnet構成
 Telnet Console: Telnetコンソール
 Telnet host not configured. Please set it in Settings.: Telnet ホストが構成されていません。設定で設定してください。
 Telnet password is empty. Do you want to continue?: Telnet password is empty.続けますか?
@@ -303,6 +349,8 @@ URL Check: URLチェック
 URL list (one per line): URL リスト (1 行に 1 つ)
 URLs & Status: URLとステータス
 Version: バージョン
+Version {0}.{1}.{2}: バージョン {0}.{1}.{2}
+Version unknown: バージョン不明
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus が終了するのを待っています...
 Warning: 警告
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

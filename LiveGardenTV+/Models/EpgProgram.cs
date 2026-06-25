@@ -3,10 +3,10 @@ using System.Diagnostics;
 using System.IO;
 using System.IO.Compression;
 using System.Net.Http;
+using System.Security.Cryptography;
+using System.Text;
 using System.Text.RegularExpressions;
 using System.Xml;
-using System.Text;
-using System.Security.Cryptography;
 
 
 namespace LiveGardenTVPlus.Services
@@ -115,58 +115,58 @@ namespace LiveGardenTVPlus.Services
             var settings = new XmlReaderSettings { DtdProcessing = DtdProcessing.Ignore };
             using (var fileStream = File.OpenRead(xmlPath))
             using (var reader = XmlReader.Create(fileStream, settings))
-                {
-                    EpgChannel currentChannel = null;
-                    EpgProgramme currentProgram = null;
+            {
+                EpgChannel currentChannel = null;
+                EpgProgramme currentProgram = null;
 
-                    while (reader.Read())
+                while (reader.Read())
+                {
+                    if (reader.NodeType == XmlNodeType.Element)
                     {
-                        if (reader.NodeType == XmlNodeType.Element)
+                        switch (reader.Name)
                         {
-                            switch (reader.Name)
-                            {
-                                case "channel":
-                                    string id = reader.GetAttribute("id");
-                                    currentChannel = new EpgChannel { Id = id };
-                                    _channels.Add(currentChannel);
-                                    break;
-                                case "display-name":
-                                    if (currentChannel != null && reader.Read())
-                                        currentChannel.DisplayName = reader.Value.Trim();
-                                    break;
-                                case "icon":
-                                    if (currentChannel != null)
-                                        currentChannel.Icon = reader.GetAttribute("src");
-                                    break;
-                                case "programme":
-                                    string startStr = reader.GetAttribute("start");
-                                    string stopStr = reader.GetAttribute("stop");
-                                    string channelId = reader.GetAttribute("channel");
-                                    currentProgram = new EpgProgramme
-                                    {
-                                        Start = ParseEpgDate(startStr),
-                                        Stop = ParseEpgDate(stopStr)
-                                    };
-                                    var channel = _channels.FirstOrDefault(c => c.Id == channelId);
-                                    if (channel != null)
-                                        channel.Programmes.Add(currentProgram);
-                                    break;
-                                case "title":
-                                    if (currentProgram != null && reader.Read())
-                                        currentProgram.Title = reader.Value.Trim();
-                                    break;
-                                case "desc":
-                                    if (currentProgram != null && reader.Read())
-                                        currentProgram.Description = reader.Value.Trim();
-                                    break;
-                                case "category":
-                                    if (currentProgram != null && reader.Read())
-                                        currentProgram.Category = reader.Value.Trim();
-                                    break;
-                            }
+                            case "channel":
+                                string id = reader.GetAttribute("id");
+                                currentChannel = new EpgChannel { Id = id };
+                                _channels.Add(currentChannel);
+                                break;
+                            case "display-name":
+                                if (currentChannel != null && reader.Read())
+                                    currentChannel.DisplayName = reader.Value.Trim();
+                                break;
+                            case "icon":
+                                if (currentChannel != null)
+                                    currentChannel.Icon = reader.GetAttribute("src");
+                                break;
+                            case "programme":
+                                string startStr = reader.GetAttribute("start");
+                                string stopStr = reader.GetAttribute("stop");
+                                string channelId = reader.GetAttribute("channel");
+                                currentProgram = new EpgProgramme
+                                {
+                                    Start = ParseEpgDate(startStr),
+                                    Stop = ParseEpgDate(stopStr)
+                                };
+                                var channel = _channels.FirstOrDefault(c => c.Id == channelId);
+                                if (channel != null)
+                                    channel.Programmes.Add(currentProgram);
+                                break;
+                            case "title":
+                                if (currentProgram != null && reader.Read())
+                                    currentProgram.Title = reader.Value.Trim();
+                                break;
+                            case "desc":
+                                if (currentProgram != null && reader.Read())
+                                    currentProgram.Description = reader.Value.Trim();
+                                break;
+                            case "category":
+                                if (currentProgram != null && reader.Read())
+                                    currentProgram.Category = reader.Value.Trim();
+                                break;
                         }
                     }
                 }
+            }
         }
 
         private DateTime ParseEpgDate(string dateStr)

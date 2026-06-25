@@ -1,4 +1,3 @@
-﻿(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Cachemapp: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Helt frivilligt – inga funktioner är blockerade)
 (No description): (Ingen beskrivning)
 • Add / rename / delete groups.: • Lägg till / byt namn på / ta bort grupper.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Föregående
 16 colour themes + Light/Dark variants.: 16 färgteman + ljus/mörk varianter.
 A new version is available. Do you want to update now?: En ny version finns tillgänglig. Vill du uppdatera nu?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Åtkomst via "Jämför"-knappen i Spellistredigeraren eller Verktyg-menyn.
 Access via 'Edit Playlist' button on main toolbar.: Åtkomst via knappen "Redigera spellista" på huvudverktygsfältet.
 Actions: Åtgärder
 Add Command: Lägg till kommando
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Bukett skickas och Enigma2-kana
 Buffer (seconds): Buffert (sekunder)
 Buffer size – adjust HLS buffer seconds.: Buffertstorlek – justera HLS buffertsekunder.
 Cache: Cache
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Cache-mapp: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Avboka
 CANCEL: AVBOKA
+Cannot open browser: Kan inte öppna webbläsaren
 Category: Kategori
 Changelog: Ändringslogg
 Channel Details: Kanaldetaljer
 Channel Info: Kanalinfo
+Channel Name: Kanalnamn
 channels from: kanaler från
+channels from JSON: kanaler från JSON
 channels from JSON URL: kanaler från JSON URL
 channels from URL: kanaler från URL
 Check Duplicates: Kontrollera dubbletter
@@ -57,6 +61,13 @@ Click for details: Klicka för mer information
 Close: Nära
 Command name:: Kommandonamn:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Community och testning: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: Jämföra
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Jämför efter: Prioritet (namn→grupp→tvg-id), Namn, Grupp (skiftlägeskänslig) eller TvgId.
+Compare Playlists: Jämför spellistor
+Compare two playlists – load first (current playlist) and second (from file or URL).: Jämför två spellistor – ladda först (aktuell spellista) och andra (från fil eller URL).
+Compare...: Jämföra...
+Comparison results: {0} channels: Jämförelseresultat: {0} kanaler
+Configuration Missing: Konfiguration saknas
 Confirm Reload: Bekräfta omladdning
 Connect: Ansluta
 Connected: Ansluten
@@ -83,10 +94,13 @@ Edit command name:: Redigera kommandonamn:
 Edit Playlist: Redigera spellista
 Edit telnet command:: Redigera telnet-kommando:
 Edit URLs: Redigera webbadresser
+Empty Password: Tomt lösenord
 End: Avsluta
 Enrich with EPG: Berika med EPG
 Enter bouquet name (without spaces):: Ange bukettnamn (utan mellanslag):
 Enter JSON URL:: Ange JSON URL:
+Enter new group name:: Ange ett nytt gruppnamn:
+Enter playlist URL (JSON or M3U):: Ange spellistans URL (JSON eller M3U):
 Enter playlist URL (M3U or JSON):: Ange spellistans URL (M3U eller JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favoriter
@@ -101,31 +115,40 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG-källa �
 EPG source – choose XMLTV file or enter custom URL.: EPG-källa – välj XMLTV-fil eller ange anpassad URL.
 EPG Source Missing: EPG-källa saknas
 Error: Fel
-Error clearing cache: Det gick inte att rensa cacheminnet
+Error clearing cache: {0}: Det gick inte att rensa cacheminnet: {0}
 Error loading: Fel vid laddning
+Error loading EPG list: {0}: Det gick inte att läsa in EPG-listan: {0}
+Error loading file: {0}: Det gick inte att läsa in filen: {0}
 Error loading file: {0}: Det gick inte att läsa in filen: {0}
 Error loading playlists: {0}: Det gick inte att läsa in spellistor: {0}
 Error loading URL: {0}: Det gick inte att läsa in webbadressen: {0}
+Error loading URL: {0}: Det gick inte att läsa in webbadressen: {0}
 ERROR: player.html not found.: FEL: player.html hittades inte.
 Exit: Utgång
+Export: Exportera
+Export all: Exportera allt
 Export Favorites: Exportera favoriter
 Export Filtered JSON: Exportera filtrerad JSON
 Export Filtered M3U: Exportera filtrerad M3U
 Export JSON: Exportera JSON
 Export KO: Exportera KO
+Export missing: Export saknas
 Export OK: Exportera OK
 Export only favorite channels to a new M3U file: Exportera endast favoritkanaler till en ny M3U-fil
+Export results as JSON or M3U – export missing channels or all channels.: Exportera resultat som JSON eller M3U – exportera saknade kanaler eller alla kanaler.
+Exported channels: Exporterade kanaler
 Extracting update...: Extraherar uppdatering...
 Failed to download playlist: Det gick inte att ladda ner spellistan
 Failed to load playlist: Det gick inte att läsa in spellistan
-Failed to update bouquets.tv.: Det gick inte att uppdatera bouquets.tv.
-Failed to upload bouquet.: Det gick inte att ladda upp bukett.
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Det gick inte att uppdatera bouquets.tv. Kontrollera filbehörigheterna på Enigma2-enheten.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Det gick inte att ladda upp bukett. Kontrollera dina Telnet-inställningar (värd, port, användarnamn, lösenord) och försök igen.
 Favorite: Favorit
 Favorites only: Endast favoriter
 Fetch Logos: Hämta logotyper
 File {0} already exists. Overwrite?: Filen {0} finns redan. Skriva över?
 File exists: Filen finns
 Filters: Filter
+First playlist: {0} channels loaded.: Första spellistan: {0} kanaler laddade.
 Fullscreen (hide UI) - press ESC to exit: Helskärm (dölj UI) - tryck på ESC för att avsluta
 Geo & Country: Geo & Country
 GeoBlocked: Geoblockerad
@@ -138,19 +161,23 @@ Hide List: Göm lista
 HLS playback: hls.js (MIT license): HLS-uppspelning: hls.js (MIT-licens)
 Image: Bild
 Import: Importera
+Import cancelled or no channels mapped.: Importen avbröts eller inga kanaler mappade.
 Import error: {0}: Importfel: {0}
 Import from URL: Importera från URL
 Import JSON: Importera JSON
 Import JSON from URL: Importera JSON från URL
 Import Local: Importera lokalt
-Imported {0} channels from JSON.: Importerade {0} kanaler från JSON.
+Imported {0} channels from JSON via mapping.: Importerade {0} kanaler från JSON via mappning.
 Imported {0} channels from URL.: Importerade {0} kanaler från URL.
+In Both: I båda
 Info: Info
 Info on: Info om
 Invalid JSON: {0}: Ogiltig JSON: {0}
 Invalid playlist URL.: Ogiltig webbadress för spellistan.
 Invalid URL.: Ogiltig webbadress.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: JSON-filer|*.json|M3U-filer|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON-filer|*.json|M3U-filer|*.m3u;*.m3u8|Alla filer|*.*
 JSON Property: JSON-egendom
 Ko-fi: Kaffe
 Language: Språk
@@ -158,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Språk
 Languages (comma): Språk (komma)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: LiveGardenTVPlus Hjälp av Lululla
+LiveGardenTVPlus Help: LiveGardenTVPlus Hjälp
 LOAD: LADDA
 Load a playlist first.: Ladda en spellista först.
+Load a second playlist first.: Ladda först en andra spellista.
 Load File: Ladda fil
+Load from file...: Ladda från fil...
+Load from URL: Ladda från URL
+Load from URL...: Ladda från URL...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Ladda lokal M3U/JSON-fil – via knappen "Ladda fil" (verktygsfält) eller "Öppna fil" i editorn.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Ladda online M3U/JSON URL – knappen 'Ladda online' (verktygsfält) eller 'Öppna från URL' i editorn.
 Load playlist file (M3U/JSON) from your computer: Ladda spellistfil (M3U/JSON) från din dator
 Loaded: Lastad
+Loaded {0} channels from JSON file via mapping.: Laddade {0} kanaler från JSON-fil via mappning.
 Loaded {0} channels from JSON file.: Laddade {0} kanaler från JSON-fil.
 Loaded {0} channels from JSON URL.: Laddade {0} kanaler från JSON URL.
 Loaded {0} channels from M3U file.: Laddade {0} kanaler från M3U-fil.
@@ -191,15 +223,23 @@ Next: Nästa
 Next ▶: Nästa ▶
 No .m3u files found on GitHub repository.: Inga .m3u-filer hittades på GitHub-arkivet.
 No cache folder found.: Ingen cachemapp hittades.
+No channels could be mapped or import cancelled.: Inga kanaler kunde mappas eller importen avbryts.
 No channels could be mapped. Check your mapping rules.: Inga kanaler kunde kartläggas. Kontrollera dina kartläggningsregler.
+No channels loaded from JSON URL.: Inga kanaler laddade från JSON URL.
+No channels loaded from M3U URL.: Inga kanaler laddade från M3U URL.
+No channels loaded from M3U.: Inga kanaler laddade från M3U.
+No channels loaded.: Inga kanaler laddade.
 No channels mapped: Inga kanaler mappade
+No comparison results. Run Compare first.: Inga jämförelseresultat. Kör Compare först.
 No duplicate URLs found.: Inga dubbletter av webbadresser hittades.
 No EPG data: Inga EPG-data
 No EPG information available for this channel.: Ingen EPG-information tillgänglig för den här kanalen.
 No EPG source configured. Please select one from the combo or go to Settings.: Ingen EPG-källa konfigurerad. Välj en från kombinationen eller gå till Inställningar.
 No EPG source configured. Would you like to open settings to select one?: Ingen EPG-källa konfigurerad. Vill du öppna inställningar för att välja en?
 No favorite channels to export.: Inga favoritkanaler att exportera.
+No missing channels to export.: Inga saknade kanaler att exportera.
 No playlist found: Ingen spellista hittades
+No second playlist loaded.: Ingen andra spellista laddad.
 No updates available.: Inga uppdateringar tillgängliga.
 Normal speed (1x): Normal hastighet (1x)
 Not connected to the box.: Ej ansluten till boxen.
@@ -207,6 +247,8 @@ Now: Nu
 OK: OK
 Online Playlist: Spellista online
 Online playlist – select from GitHub repository (auto‑refresh).: Onlinespellista – välj från GitHub-förrådet (automatisk uppdatering).
+Only in First: Endast i First
+Only in Second: Bara i andra
 Open File...: Öppna fil...
 Open from URL: Öppna från URL
 Open Playlist: Öppna spellistan
@@ -214,12 +256,14 @@ Pause/Resume live stream: Pausa/återuppta livestream
 Paused: Pausad
 PayPal: PayPal
 Picture-in-Picture mode: Bild-i-bild-läge
-Player Control: Spelarkontroll
+Player Controls: Spelarkontroller
 Playlist & Groups: Spellista och grupper
+Playlist Comparison: Jämförelse av spellistor
 Playlist Editor: Spellista Editor
 Playlist Loading: Spellista laddas
 Playlist Management: Hantering av spellistor
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Spellistförråd: OwnerPlugins/TivuStreamList (italienska och internationella strömmar)
+Playlists loaded: Spellistor har laddats
 Please select a program first.: Välj ett program först.
 Preview (first 5 channels): Förhandsvisning (första 5 kanaler)
 Preview error: {0}: Förhandsgranskningsfel: {0}
@@ -235,8 +279,10 @@ Refresh List: Uppdatera listan
 Reload GUI: Ladda om GUI
 Remove Command: Ta bort kommando
 Rename Group: Byt namn på grupp
+Rename group '{0}' to:: Byt namn på gruppen '{0}' till:
 Repository: Förvar
 Reset Order: Återställ ordning
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Resultat: 'Endast i första', 'Endast i andra', 'I båda' – med statusfärgkodning.
 Save: Spara
 SAVE: SPARA
 Save – persists all settings without reloading current playlist.: Spara – behåller alla inställningar utan att ladda om aktuell spellista.
@@ -249,6 +295,7 @@ Saved: Sparad
 Search channel: : Sök kanal:
 Search channels by name: Sök kanaler efter namn
 Search channels...: Sök kanaler...
+sec: sek
 Select a playlist first.: Välj en spellista först.
 Select Theme: Välj Tema
 Selected theme is saved and applied on restart.: Det valda temat sparas och tillämpas vid omstart.
@@ -271,8 +318,11 @@ Support the developer: Stöd utvecklaren
 Target Field: Målfält
 Telnet command:: Telnet kommando:
 Telnet Commander: Telnet Commander
+Telnet Config: Telnet Config
 Telnet Console: Telnet-konsol
-Telnet not configured. Please set it in Settings.: Telnet inte konfigurerat. Vänligen ställ in det i Inställningar.
+Telnet host not configured. Please set it in Settings.: Telnet-värden är inte konfigurerad. Ange det i Inställningar.
+Telnet password is empty. Do you want to continue?: Telnet-lösenordet är tomt. Vill du fortsätta?
+Telnet username not configured. Please set it in Settings.: Telnet-användarnamnet är inte konfigurerat. Ange det i Inställningar.
 Thanks to: Tack vare
 Theme picker: Temaväljare
 Theme picker – accessible via Tools menu on main toolbar.: Temaväljare – tillgänglig via Verktyg-menyn i huvudverktygsfältet.
@@ -289,14 +339,18 @@ UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
 Unable to find version in remote project file.: Det gick inte att hitta version i fjärrprojektfil.
 Update: Uppdatera
 Update complete. Restarting...: Uppdateringen slutförd. Startar om...
+Update Error: Uppdateringsfel
 Update failed: : Uppdatering misslyckades:
 Updates: Uppdateringar
+Upload Error: Uppladdningsfel
 URL: URL
 URL (primary): URL (primär)
 URL Check: URL-kontroll
 URL list (one per line): URL-lista (en per rad)
 URLs & Status: URL:er och status
 Version: Version
+Version {0}.{1}.{2}: Version {0}.{1}.{2}
+Version unknown: Version okänd
 Waiting for LiveGardenTVPlus to close...: Väntar på att LiveGardenTVPlus ska stänga...
 Warning: Varning
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2

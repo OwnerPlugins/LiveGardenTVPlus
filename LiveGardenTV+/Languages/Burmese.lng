@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (ကက်ရှ်ဖိုင်တွဲ- %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (ဆန္ဒအရ - အင်္ဂါရပ်များကို ပိတ်ဆို့ထားခြင်း မရှိပါ)
 (No description): (ဖော်ပြချက်မရှိပါ)
 • Add / rename / delete groups.: • အဖွဲ့များကို ထည့်/အမည်ပြောင်း/ဖျက်ပါ။
@@ -6,7 +5,7 @@
 • Check URL availability (only visible channels).: • URL ရရှိနိုင်မှုကို စစ်ဆေးပါ (မြင်နိုင်သောချန်နယ်များသာ)။
 • Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • ချန်နယ်အမည်များ၊ အဖွဲ့များ၊ URL များ၊ လိုဂိုများ၊ tvg-id၊ နိုင်ငံ၊ ဘာသာစကားများ၊ စိတ်ကြိုက်များကို တည်းဖြတ်ပါ။
 • Edit multiple URLs per channel (popup window).: • ချန်နယ်တစ်ခုစီတွင် URL များစွာကို တည်းဖြတ်ပါ (ပေါ့ပ်အပ်ဝင်းဒိုး)။
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG ဖြင့် ကြွယ်ဝစေသည်- ပျောက်နေသော tvg-id ကို ပေါင်းထည့်သည်။
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG ဖြင့် ဖြည့်စွမ်းပါ- ပျောက်နေသော tvg-id ကို မပီသသော ကိုက်ညီမှုဖြင့် ပေါင်းထည့်သည်။
 • EPG info displayed in status bar for current channel.: • လက်ရှိချန်နယ်အတွက် အခြေအနေဘားတွင် ပြသထားသည့် EPG အချက်အလက်။
 • Export OK / FAIL / filtered lists as M3U or JSON.: • OK / FAIL / စစ်ထုတ်ထားသောစာရင်းများကို M3U သို့မဟုတ် JSON အဖြစ် ထုတ်ယူပါ။
 • Fetch logos from remote repository (OwnerPlugins/logos).: • အဝေးထိန်းသိုလှောင်မှု (OwnerPlugins/လိုဂို) မှ လိုဂိုများကို ရယူပါ။
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ ယခင်
 16 colour themes + Light/Dark variants.: အရောင် ၁၆ ရောင် အပြင်အဆင် + အလင်း/အမှောင် ဗားရှင်းများ။
 A new version is available. Do you want to update now?: ဗားရှင်းအသစ်တစ်ခု ရပါပြီ။ ယခု အပ်ဒိတ်လုပ်လိုပါသလား။
+Access via 'Compare' button in Playlist Editor or Tools menu.: Playlist Editor သို့မဟုတ် Tools မီနူးရှိ 'နှိုင်းယှဉ်' ခလုတ်မှတစ်ဆင့် ဝင်ရောက်ကြည့်ရှုပါ။
 Access via 'Edit Playlist' button on main toolbar.: ပင်မကိရိယာဘားရှိ 'Edit Playlist' ခလုတ်မှတစ်ဆင့် ဝင်ရောက်ကြည့်ရှုပါ။
 Actions: လုပ်ဆောင်ချက်များ
 Add Command: Command ကိုထည့်ပါ။
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: ပန်းစည်းပိ�
 Buffer (seconds): ကြားခံ (စက္ကန့်)
 Buffer size – adjust HLS buffer seconds.: ကြားခံအရွယ်အစား - HLS ကြားခံစက္ကန့်ကို ချိန်ညှိပါ။
 Cache: ကက်ရှ်
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: ကက်ရှ်ဖိုင်တွဲ- %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: မလုပ်တော့
 CANCEL: မလုပ်တော့ပါ။
+Cannot open browser: ဘရောက်ဆာကို ဖွင့်၍မရပါ။
 Category: အမျိုးအစား
 Changelog: ပြောင်းလဲမှုမှတ်တမ်း
 Channel Details: ချန်နယ်အသေးစိတ်
 Channel Info: ချန်နယ်အချက်အလက်
+Channel Name: ချန်နယ်အမည်
 channels from: ချန်နယ်များမှ
+channels from JSON: JSON မှ ချန်နယ်များ
 channels from JSON URL: JSON URL မှ ချန်နယ်များ
 channels from URL: URL မှ ချန်နယ်များ
 Check Duplicates: ပွားများစစ်ဆေးပါ။
@@ -57,6 +61,12 @@ Click for details: အသေးစိတ်ကို နှိပ်ပါ။
 Close: ပိတ်လိုက်
 Command name:: အမိန့်အမည်-
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: အသိုင်းအဝိုင်းနှင့် စမ်းသပ်ခြင်း- CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare: နှိုင်းယှဥ်ပါ။
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: နှိုင်းယှဉ်ကြည့်ပါ- ဦးစားပေး (အမည် → အုပ်စု → tvg-id)၊ အမည်၊ အုပ်စု (အသေးစိတ်-ထိခိုက်လွယ်) သို့မဟုတ် TvgId။
+Compare Playlists: အစီအစဉ်များကို နှိုင်းယှဉ်ပါ။
+Compare two playlists – load first (current playlist) and second (from file or URL).: အစီအစဉ်နှစ်ခုကို နှိုင်းယှဉ်ပါ - ပထမ (လက်ရှိဖွင့်ရန်စာရင်း) နှင့် ဒုတိယ (ဖိုင် သို့မဟုတ် URL မှ) ဖွင့်ပါ။
+Compare...: နှိုင်း...
+Comparison results: {0} channels: နှိုင်းယှဉ်မှုရလဒ်များ- ချန်နယ် {0} ခု
 Configuration Missing: ဖွဲ့စည်းမှု ပျောက်ဆုံးနေသည်။
 Confirm Reload: ပြန်တင်ကြောင်း အတည်ပြုပါ။
 Connect: ချိတ်ဆက်ပါ။
@@ -87,8 +97,10 @@ Edit URLs: URL များကို တည်းဖြတ်ပါ။
 Empty Password: စကားဝှက်ဗလာ
 End: အဆုံး
 Enrich with EPG: EPG ဖြင့် ကြွယ်ဝစေပါသည်။
-Enter bouquet name (without spaces):: ပန်းစည်းအမည်ကို ရိုက်ထည့်ပါ (နေရာလွတ်မရှိပါ)။
+Enter bouquet name (without spaces):: ပန်းစည်းအမည်ကို ထည့်ပါ (နေရာလွတ်မရှိပါ)။
 Enter JSON URL:: JSON URL ထည့်ပါ-
+Enter new group name:: အဖွဲ့အမည်အသစ်ထည့်ပါ-
+Enter playlist URL (JSON or M3U):: အစီအစဉ် URL (JSON သို့မဟုတ် M3U) ထည့်ပါ-
 Enter playlist URL (M3U or JSON):: အစီအစဉ် URL (M3U သို့မဟုတ် JSON) ထည့်ပါ-
 EPG: EPG
 Epg & Favorites: Epg & အကြိုက်ဆုံးများ
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG အရင
 EPG source – choose XMLTV file or enter custom URL.: EPG အရင်းအမြစ် - XMLTV ဖိုင်ကိုရွေးချယ်ပါ သို့မဟုတ် စိတ်ကြိုက် URL ကိုထည့်ပါ။
 EPG Source Missing: EPG ရင်းမြစ် ပျောက်ဆုံးနေသည်။
 Error: အမှား
-Error clearing cache: ကက်ရှ်ကို ရှင်းလင်းရာတွင် အမှားအယွင်းရှိနေသည်။
+Error clearing cache: {0}: ကက်ရှ်ကို ရှင်းလင်းရာတွင် အမှားအယွင်းရှိနေသည်- {0}
 Error loading: တင်ရာတွင် အမှားအယွင်းရှိသည်။
+Error loading EPG list: {0}: EPG စာရင်းကို ဖွင့်ရာတွင် အမှားအယွင်းရှိနေသည်- {0}
+Error loading file: {0}: ဖိုင်ကိုဖွင့်ရာတွင် အမှားအယွင်းရှိနေသည်- {0}
 Error loading file: {0}: ဖိုင်ကိုဖွင့်ရာတွင် အမှားအယွင်းရှိနေသည်- {0}
 Error loading playlists: {0}: အစီအစဉ်များကို တင်ရာတွင် အမှားအယွင်းရှိပါသည်- {0}
 Error loading URL: {0}: URL ကိုဖွင့်ရာတွင် အမှားအယွင်းရှိနေသည်- {0}
+Error loading URL: {0}: URL ကိုဖွင့်ရာတွင် အမှားအယွင်းရှိနေသည်- {0}
 ERROR: player.html not found.: အမှား- player.html မတွေ့ပါ။
 Exit: ထွက်ပေါက်
+Export: တင်ပို့ခြင်း။
+Export all: အားလုံးကို တင်ပို့ပါ။
 Export Favorites: စိတ်ကြိုက်များကို တင်ပို့ပါ။
 Export Filtered JSON: စစ်ထုတ်ထားသော JSON ကို ထုတ်ယူပါ။
 Export Filtered M3U: စစ်ထုတ်ထားသော M3U ကို ထုတ်ယူပါ။
 Export JSON: JSON ကို ထုတ်ယူပါ။
 Export KO: KO ကို ထုတ်ယူပါ။
+Export missing: တင်ပို့မှု ပျောက်ဆုံးနေသည်။
 Export OK: Export OK
 Export only favorite channels to a new M3U file: M3U ဖိုင်အသစ်သို့ အကြိုက်ဆုံးချန်နယ်များကိုသာ ထုတ်ယူပါ။
+Export results as JSON or M3U – export missing channels or all channels.: ရလဒ်များကို JSON သို့မဟုတ် M3U အဖြစ် ထုတ်ယူပါ - ပျောက်ဆုံးနေသော ချန်နယ်များ သို့မဟုတ် ချန်နယ်အားလုံးကို ထုတ်ယူပါ။
+Exported channels: ချန်နယ်များ တင်ပို့ခဲ့သည်။
 Extracting update...: အပ်ဒိတ်ကို ထုတ်ယူနေသည်...
 Failed to download playlist: အစီအစဉ်ကို ဒေါင်းလုဒ်လုပ်ရန် မအောင်မြင်ပါ။
 Failed to load playlist: အစီအစဉ်ကို ဖွင့်၍မရပါ။
@@ -128,6 +148,7 @@ Fetch Logos: Logos များရယူပါ။
 File {0} already exists. Overwrite?: ဖိုင် {0} ရှိနှင့်ပြီးဖြစ်သည်။ ထပ်ရေးမလား။
 File exists: ဖိုင်ရှိပါတယ်။
 Filters: စစ်ထုတ်မှုများ
+First playlist: {0} channels loaded.: ပထမဆုံး ပြသရန်စာရင်း- ချန်နယ် {0} ခု တင်ထားသည်။
 Fullscreen (hide UI) - press ESC to exit: မျက်နှာပြင်အပြည့် (UI ဝှက်ထား) - ထွက်ရန် ESC ကိုနှိပ်ပါ။
 Geo & Country: ဘူမိနှင့်နိုင်ငံ
 GeoBlocked: GeoBlocked
@@ -140,19 +161,23 @@ Hide List: စာရင်းဖျောက်ပါ။
 HLS playback: hls.js (MIT license): HLS ပြန်ဖွင့်ခြင်း- hls.js (MIT လိုင်စင်)
 Image: ပုံ
 Import: သွင်းကုန်
+Import cancelled or no channels mapped.: တင်သွင်းခြင်းကို ပယ်ဖျက်သည် သို့မဟုတ် မြေပုံဆွဲထားသော ချန်နယ်များမရှိပါ။
 Import error: {0}: တင်သွင်းမှု အမှား- {0}
 Import from URL: URL မှ တင်သွင်းပါ။
 Import JSON: JSON ကို ထည့်သွင်းပါ။
 Import JSON from URL: URL မှ JSON ကို တင်သွင်းပါ။
 Import Local: ပြည်တွင်းကို တင်သွင်းပါ။
-Imported {0} channels from JSON.: JSON မှ ချန်နယ် {0} ခု တင်သွင်းခဲ့သည်။
+Imported {0} channels from JSON via mapping.: မြေပုံဆွဲခြင်းမှတစ်ဆင့် JSON မှ ချန်နယ် {0} လိုင်းကို တင်သွင်းခဲ့သည်။
 Imported {0} channels from URL.: URL မှ ချန်နယ် {0} လိုင်းကို တင်သွင်းခဲ့သည်။
+In Both: နှစ်ခုလုံးမှာ
 Info: အချက်အလက်
 Info on: အချက်အလက်ပေါ်
 Invalid JSON: {0}: မမှန်ကန်သော JSON- {0}
 Invalid playlist URL.: မမှန်ကန်သော အစီအစဉ် URL။
 Invalid URL.: မမှန်ကန်သော URL
 Json: Json
+JSON files|*.json|M3U files|*.m3u: JSON ဖိုင်များ|*.json|M3U ဖိုင်များ|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON ဖိုင်များ|*.json|M3U ဖိုင်များ|*.m3u;*.m3u8|ဖိုင်များအားလုံး|*.*
 JSON Property: JSON အိမ်ခြံမြေ
 Ko-fi: ကော်ဖီ
 Language: ဘာသာစကား
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: ဘာသာစကားများ
 Languages (comma): ဘာသာစကားများ (ကော်မာ)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: Lululla ၏ LiveGardenTVPlus အကူအညီ
+LiveGardenTVPlus Help: LiveGardenTVPlus အကူအညီ
 LOAD: Load လုပ်ပါ။
 Load a playlist first.: အစီအစဉ်တစ်ခုကို ဦးစွာဖွင့်ပါ။
+Load a second playlist first.: ဒုတိယအစီအစဉ်ကို ဦးစွာဖွင့်ပါ။
 Load File: ဖိုင်ကို တင်ပါ။
+Load from file...: ဖိုင်မှတင်ရန်...
+Load from URL: URL မှ တင်ပါ။
+Load from URL...: URL မှ တင်ပါ...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: ပြည်တွင်း M3U/JSON ဖိုင်ကို 'Load File' ခလုတ် (toolbar) သို့မဟုတ် တည်းဖြတ်မှုတွင် 'Open File' မှတဆင့် တင်ပါ။
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: အွန်လိုင်း M3U/JSON URL – 'အွန်လိုင်းပေါ်တင်ရန်' ခလုတ် (တူးလ်ဘား) သို့မဟုတ် တည်းဖြတ်မှုတွင် 'Open from URL' ကို တင်ပါ။
 Load playlist file (M3U/JSON) from your computer: သင့်ကွန်ပျူတာမှ အစီအစဉ်ဖိုင် (M3U/JSON) ကို တင်ပါ။
 Loaded: ဘဝတူ
+Loaded {0} channels from JSON file via mapping.: မြေပုံဆွဲခြင်းမှတစ်ဆင့် JSON ဖိုင်မှ ချန်နယ် {0} ခုကို တင်ထားသည်။
 Loaded {0} channels from JSON file.: JSON ဖိုင်မှ ချန်နယ် {0} ခုကို တင်ထားသည်။
 Loaded {0} channels from JSON URL.: JSON URL မှ ချန်နယ် {0} ခုကို တင်ထားသည်။
 Loaded {0} channels from M3U file.: M3U ဖိုင်မှ ချန်နယ် {0} လိုင်းကို တင်ထားသည်။
@@ -193,15 +223,23 @@ Next: နောက်တစ်ခု
 Next ▶: နောက်တစ်ခု ▶
 No .m3u files found on GitHub repository.: GitHub repository တွင် .m3u ဖိုင်များကိုမတွေ့ပါ။
 No cache folder found.: ကက်ရှ်ဖိုင်တွဲကို ရှာမတွေ့ပါ။
+No channels could be mapped or import cancelled.: မည်သည့်ချန်နယ်များကိုမျှ မြေပုံဆွဲခြင်း သို့မဟုတ် တင်သွင်းခြင်းကို ပယ်ဖျက်ခြင်းမပြုနိုင်ပါ။
 No channels could be mapped. Check your mapping rules.: ချန်နယ်များကို မြေပုံဆွဲ၍မရပါ။ သင်၏မြေပုံစည်းမျဉ်းများကိုစစ်ဆေးပါ။
+No channels loaded from JSON URL.: JSON URL မှ တင်သည့် ချန်နယ်မရှိပါ။
+No channels loaded from M3U URL.: M3U URL မှ လိုင်းများ မတင်ပါ။
+No channels loaded from M3U.: M3U မှ လိုင်းမတင်ပါ။
+No channels loaded.: ချန်နယ်များ မတင်ပါ။
 No channels mapped: မြေပုံဆွဲထားသော ချန်နယ်မရှိပါ။
+No comparison results. Run Compare first.: နှိုင်းယှဉ်မှုရလဒ်များမရှိပါ။ အရင်ဆုံး Compare ကို Run လိုက်ပါ။
 No duplicate URLs found.: ထပ်နေသည့် URL များကိုမတွေ့ပါ။
 No EPG data: EPG ဒေတာမရှိပါ။
 No EPG information available for this channel.: ဤချန်နယ်အတွက် EPG အချက်အလက် မရရှိနိုင်ပါ။
 No EPG source configured. Please select one from the combo or go to Settings.: EPG အရင်းအမြစ်ကို ပြင်ဆင်သတ်မှတ်ထားခြင်းမရှိပါ။ ကျေးဇူးပြု၍ ပေါင်းစပ်မှုမှ တစ်ခုကို ရွေးပါ သို့မဟုတ် ဆက်တင်များသို့ သွားပါ။
 No EPG source configured. Would you like to open settings to select one?: EPG အရင်းအမြစ်ကို ပြင်ဆင်သတ်မှတ်ထားခြင်းမရှိပါ။ တစ်ခုရွေးရန် ဆက်တင်များကိုဖွင့်လိုပါသလား။
 No favorite channels to export.: တင်ပို့ရန် အကြိုက်ဆုံးချန်နယ်များ မရှိပါ။
+No missing channels to export.: တင်ပို့ရန် ချန်နယ်များ ပျောက်ဆုံးနေခြင်းမရှိပါ။
 No playlist found: ပြသစာရင်းမတွေ့ပါ။
+No second playlist loaded.: ဒုတိယဖွင့်စာရင်းကို ဖွင့်မထားပါ။
 No updates available.: အပ်ဒိတ်များ မရရှိနိုင်ပါ။
 Normal speed (1x): ပုံမှန်အမြန်နှုန်း (1x)
 Not connected to the box.: အကွက်နှင့် မချိတ်ဆက်ပါ။
@@ -209,6 +247,8 @@ Now: ကဲ
 OK: အိုကေ
 Online Playlist: အွန်လိုင်းဖွင့်စာရင်း
 Online playlist – select from GitHub repository (auto‑refresh).: အွန်လိုင်းဖွင့်စာရင်း – GitHub သိုလှောင်မှုမှ (အလိုအလျောက် ပြန်လည်စတင်ခြင်း) ကို ရွေးချယ်ပါ။
+Only in First: ပထမ၌သာ
+Only in Second: ဒုတိယ၌သာ
 Open File...: ဖိုင်ကိုဖွင့်ပါ...
 Open from URL: URL မှဖွင့်ပါ။
 Open Playlist: Playlist ကိုဖွင့်ပါ။
@@ -216,12 +256,14 @@ Pause/Resume live stream: ခေတ္တရပ်ရန်/ တိုက်ရ�
 Paused: ရပ်ထားသည်။
 PayPal: PayPal
 Picture-in-Picture mode: ရုပ်ပုံ-ပုံ-ပုံမုဒ်
-Player Control: ကစားသမားထိန်းချုပ်မှု
+Player Controls: ကစားသမားထိန်းချုပ်မှုများ
 Playlist & Groups: အစီအစဉ်နှင့် အဖွဲ့များ
+Playlist Comparison: အစီအစဉ် နှိုင်းယှဉ်မှု
 Playlist Editor: အစီအစဉ်တည်းဖြတ်သူ
 Playlist Loading: အစီအစဉ်ကို ဖွင့်နေသည်။
 Playlist Management: အစီအစဉ်စီမံခန့်ခွဲမှု
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Playlist သိုလှောင်မှု- OwnerPlugins/TivuStreamList (အီတလီနှင့် နိုင်ငံတကာ ထုတ်လွှင့်မှုများ)
+Playlists loaded: အစီအစဉ်များကို တင်ပြီးပါပြီ။
 Please select a program first.: ပရိုဂရမ်တစ်ခုကို ဦးစွာရွေးချယ်ပါ။
 Preview (first 5 channels): အစမ်းကြည့်ရှုခြင်း (ပထမ 5 ချန်နယ်)
 Preview error: {0}: အစမ်းကြည့်ရှုမှု အမှား- {0}
@@ -237,8 +279,10 @@ Refresh List: စာရင်းကို ပြန်လည်စတင်ပ�
 Reload GUI: GUI ကို ပြန်လည်စတင်ပါ။
 Remove Command: Command ကိုဖယ်ရှားပါ။
 Rename Group: အဖွဲ့အမည်ပြောင်းပါ။
+Rename group '{0}' to:: အဖွဲ့ကို '{0}' ဟု အမည်ပြောင်းပါ-
 Repository: Repository
 Reset Order: မှာယူမှုကို ပြန်လည်သတ်မှတ်ပါ။
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: ရလဒ်များ- 'ပထမတွင်သာ'၊ 'ဒုတိယတွင်သာ'၊ 'နှစ်ခုလုံးတွင်' - အခြေအနေအရောင်ကုဒ်ဖြင့်။
 Save: သိမ်းဆည်းပါ။
 SAVE: သိမ်းဆည်းပါ။
 Save – persists all settings without reloading current playlist.: Save – လက်ရှိဖွင့်စာရင်းကို ပြန်မတင်ဘဲ ဆက်တင်များအားလုံးကို ဆက်လက်လုပ်ဆောင်ပါ။
@@ -251,6 +295,7 @@ Saved: သိမ်းဆည်းထားသည်။
 Search channel: : ချန်နယ်ရှာရန်-
 Search channels by name: အမည်ဖြင့် ချန်နယ်များကို ရှာဖွေပါ။
 Search channels...: ချန်နယ်များကို ရှာဖွေပါ...
+sec: စက္ကန့်
 Select a playlist first.: အစီအစဉ်တစ်ခုကို ဦးစွာရွေးချယ်ပါ။
 Select Theme: Theme ကို ရွေးပါ။
 Selected theme is saved and applied on restart.: ရွေးချယ်ထားသော အပြင်အဆင်ကို သိမ်းဆည်းပြီး ပြန်လည်စတင်ချိန်တွင် အသုံးပြုပါသည်။
@@ -273,6 +318,7 @@ Support the developer: developer ကိုထောက်ခံပါ။
 Target Field: ပစ်မှတ်အကွက်
 Telnet command:: Telnet အမိန့်
 Telnet Commander: Telnet Commander
+Telnet Config: Telnet Config
 Telnet Console: Telnet Console
 Telnet host not configured. Please set it in Settings.: Telnet host ကို စီစဉ်မထားပါ။ ဆက်တင်များတွင် ကျေးဇူးပြု၍ သတ်မှတ်ပါ။
 Telnet password is empty. Do you want to continue?: Telnet စကားဝှက်သည် ဗလာဖြစ်နေသည်။ ဆက်လုပ်လိုပါသလား။
@@ -303,6 +349,8 @@ URL Check: URL စစ်ဆေးပါ။
 URL list (one per line): URL စာရင်း (တစ်ကြောင်းလျှင် တစ်ခု)
 URLs & Status: URL များနှင့် အခြေအနေ
 Version: ဗားရှင်း
+Version {0}.{1}.{2}: ဗားရှင်း {0}။{1}။{2}
+Version unknown: ဗားရှင်းမသိ
 Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus ပိတ်ရန် စောင့်နေသည်...
 Warning: သတိပေးချက်
 WebView2: Microsoft Edge WebView2: WebView2- Microsoft Edge WebView2

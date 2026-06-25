@@ -1,4 +1,3 @@
-(Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache): (Talpyklos aplankas: %TEMP%\\LiveGardenTVPlus\\epg_cache)
 (Completely voluntary – no features are blocked): (Visiškai savanoriškai – jokios funkcijos nėra užblokuotos)
 (No description): (be aprašymo)
 • Add / rename / delete groups.: • Pridėti / pervardyti / ištrinti grupes.
@@ -20,6 +19,7 @@
 ◀ Previous: ◀ Ankstesnis
 16 colour themes + Light/Dark variants.: 16 spalvų temų + šviesūs / tamsūs variantai.
 A new version is available. Do you want to update now?: Yra nauja versija. Ar norite atnaujinti dabar?
+Access via 'Compare' button in Playlist Editor or Tools menu.: Pasiekite spustelėję mygtuką „Palyginti“, esantį grojaraščio rengyklėje arba meniu „Įrankiai“.
 Access via 'Edit Playlist' button on main toolbar.: Pasiekite naudodami mygtuką „Redaguoti grojaraštį“ pagrindinėje įrankių juostoje.
 Actions: Veiksmai
 Add Command: Pridėti komandą
@@ -38,13 +38,17 @@ Bouquet sent and Enigma2 channel list reloaded.: Puokštė išsiųsta ir Enigma2
 Buffer (seconds): Buferis (sekundėmis)
 Buffer size – adjust HLS buffer seconds.: Buferio dydis – koreguokite HLS buferio sekundes.
 Cache: Talpykla
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Talpyklos aplankas: %TEMP%\\LiveGardenTVPlus\\epg_cache
 Cancel: Atšaukti
 CANCEL: ATŠAUKTI
+Cannot open browser: Negalima atidaryti naršyklės
 Category: Kategorija
 Changelog: Pakeitimų žurnalas
 Channel Details: Išsami kanalo informacija
 Channel Info: Kanalo informacija
+Channel Name: Kanalo pavadinimas
 channels from: kanalai iš
+channels from JSON: kanalai iš JSON
 channels from JSON URL: kanalai iš JSON URL
 channels from URL: kanalai iš URL
 Check Duplicates: Patikrinkite dublikatus
@@ -57,6 +61,12 @@ Click for details: Spustelėkite norėdami sužinoti daugiau
 Close: Uždaryti
 Command name:: Komandos pavadinimas:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Bendruomenė ir testavimas: „CorvoBoys“ (corvoboys.org) ir „LinuxSat-Support.com“
+Compare: Palyginti
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Palyginkite pagal: prioritetą (pavadinimas → grupė → tvg-id), pavadinimą, grupę (skiriamos didžiosios ir mažosios raidės) arba TvgId.
+Compare Playlists: Palyginkite grojaraščius
+Compare two playlists – load first (current playlist) and second (from file or URL).: Palyginkite du grojaraščius – įkelkite pirmą (dabartinis grojaraštis) ir antrąjį (iš failo arba URL).
+Compare...: Palyginti...
+Comparison results: {0} channels: Palyginimo rezultatai: {0} kanalai
 Configuration Missing: Trūksta konfigūracijos
 Confirm Reload: Patvirtinkite įkėlimą iš naujo
 Connect: Prisijunkite
@@ -89,6 +99,8 @@ End: Pabaiga
 Enrich with EPG: Praturtinkite EPG
 Enter bouquet name (without spaces):: Įveskite puokštės pavadinimą (be tarpų):
 Enter JSON URL:: Įveskite JSON URL:
+Enter new group name:: Įveskite naują grupės pavadinimą:
+Enter playlist URL (JSON or M3U):: Įveskite grojaraščio URL (JSON arba M3U):
 Enter playlist URL (M3U or JSON):: Įveskite grojaraščio URL (M3U arba JSON):
 EPG: EPG
 Epg & Favorites: Epg ir mėgstamiausi
@@ -103,20 +115,28 @@ EPG source – can be set in Settings (epgshare01 or custom URL).: EPG šaltinis
 EPG source – choose XMLTV file or enter custom URL.: EPG šaltinis – pasirinkite XMLTV failą arba įveskite pasirinktinį URL.
 EPG Source Missing: Trūksta EPG šaltinio
 Error: Klaida
-Error clearing cache: Klaida išvalant talpyklą
+Error clearing cache: {0}: Klaida išvalant talpyklą: {0}
 Error loading: Įkeliant įvyko klaida
+Error loading EPG list: {0}: Klaida įkeliant EPG sąrašą: {0}
+Error loading file: {0}: Klaida įkeliant failą: {0}
 Error loading file: {0}: Klaida įkeliant failą: {0}
 Error loading playlists: {0}: Klaida įkeliant grojaraščius: {0}
 Error loading URL: {0}: Klaida įkeliant URL: {0}
+Error loading URL: {0}: Klaida įkeliant URL: {0}
 ERROR: player.html not found.: KLAIDA: player.html nerastas.
 Exit: Išeiti
+Export: Eksportuoti
+Export all: Eksportuoti viską
 Export Favorites: Eksportuoti parankinius
 Export Filtered JSON: Eksportuoti filtruotą JSON
 Export Filtered M3U: Eksportuokite filtruotą M3U
 Export JSON: Eksportuoti JSON
 Export KO: Eksportuoti KO
+Export missing: Trūksta eksporto
 Export OK: Eksportuoti gerai
 Export only favorite channels to a new M3U file: Eksportuokite tik mėgstamiausius kanalus į naują M3U failą
+Export results as JSON or M3U – export missing channels or all channels.: Eksportuokite rezultatus kaip JSON arba M3U – eksportuokite trūkstamus kanalus arba visus kanalus.
+Exported channels: Eksportuoti kanalai
 Extracting update...: Išskleidžiamas naujinys...
 Failed to download playlist: Nepavyko atsisiųsti grojaraščio
 Failed to load playlist: Nepavyko įkelti grojaraščio
@@ -128,6 +148,7 @@ Fetch Logos: Paimkite logotipus
 File {0} already exists. Overwrite?: Failas {0} jau yra. Perrašyti?
 File exists: Failas egzistuoja
 Filters: Filtrai
+First playlist: {0} channels loaded.: Pirmasis grojaraštis: įkelta kanalų: {0}.
 Fullscreen (hide UI) - press ESC to exit: Visas ekranas (slėpti vartotojo sąsają) – paspauskite ESC, kad išeitumėte
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
@@ -140,19 +161,23 @@ Hide List: Slėpti sąrašą
 HLS playback: hls.js (MIT license): HLS atkūrimas: hls.js (MIT licencija)
 Image: Vaizdas
 Import: Importuoti
+Import cancelled or no channels mapped.: Importas atšauktas arba nėra susietų kanalų.
 Import error: {0}: Importavimo klaida: {0}
 Import from URL: Importuoti iš URL
 Import JSON: Importuoti JSON
 Import JSON from URL: Importuokite JSON iš URL
 Import Local: Importuoti vietinį
-Imported {0} channels from JSON.: Importuoti {0} kanalai iš JSON.
+Imported {0} channels from JSON via mapping.: Importuota {0} kanalų iš JSON per susiejimą.
 Imported {0} channels from URL.: Importuoti {0} kanalai iš URL.
+In Both: Abiejuose
 Info: Informacija
 Info on: Informacija apie
 Invalid JSON: {0}: Neteisingas JSON: {0}
 Invalid playlist URL.: Netinkamas grojaraščio URL.
 Invalid URL.: Netinkamas URL.
 Json: Json
+JSON files|*.json|M3U files|*.m3u: JSON failai|*.json|M3U failai|*.m3u
+JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON failai|*.json|M3U failai|*.m3u;*.m3u8|Visi failai|*.*
 JSON Property: JSON nuosavybė
 Ko-fi: Kava
 Language: Kalba
@@ -160,14 +185,19 @@ Language – change UI language dynamically (translations in Languages folder).:
 Languages: Kalbos
 Languages (comma): Kalbos (kablelis)
 LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help by Lululla: „LiveGardenTVPlus“ pagalba, kurią pateikė Lululla
+LiveGardenTVPlus Help: „LiveGardenTVPlus“ pagalba
 LOAD: Įkelti
 Load a playlist first.: Pirmiausia įkelkite grojaraštį.
+Load a second playlist first.: Pirmiausia įkelkite antrą grojaraštį.
 Load File: Įkelti failą
+Load from file...: Įkelti iš failo...
+Load from URL: Įkelti iš URL
+Load from URL...: Įkelti iš URL...
 Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Įkelkite vietinį M3U/JSON failą – naudodami mygtuką „Įkelti failą“ (įrankių juosta) arba „Atidaryti failą“ redaktoriuje.
 Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Įkelti internetinį M3U/JSON URL – mygtukas „Įkelti internetu“ (įrankių juosta) arba „Atidaryti iš URL“ redaktoriuje.
 Load playlist file (M3U/JSON) from your computer: Įkelkite grojaraščio failą (M3U/JSON) iš savo kompiuterio
 Loaded: Pakrauta
+Loaded {0} channels from JSON file via mapping.: Įkelti {0} kanalai iš JSON failo per susiejimą.
 Loaded {0} channels from JSON file.: Įkelti {0} kanalai iš JSON failo.
 Loaded {0} channels from JSON URL.: Įkelti {0} kanalai iš JSON URL.
 Loaded {0} channels from M3U file.: Įkelti {0} kanalai iš M3U failo.
@@ -193,15 +223,23 @@ Next: Kitas
 Next ▶: Kitas ▶
 No .m3u files found on GitHub repository.: „GitHub“ saugykloje nerasta .m3u failų.
 No cache folder found.: Nerasta talpyklos aplanko.
+No channels could be mapped or import cancelled.: Nepavyko susieti kanalų arba atšaukti importavimą.
 No channels could be mapped. Check your mapping rules.: Nepavyko susieti jokių kanalų. Patikrinkite žemėlapių sudarymo taisykles.
+No channels loaded from JSON URL.: Iš JSON URL neįkelta jokių kanalų.
+No channels loaded from M3U URL.: Iš M3U URL neįkelta jokių kanalų.
+No channels loaded from M3U.: Iš M3U neįkelta jokių kanalų.
+No channels loaded.: Neįkelta jokių kanalų.
 No channels mapped: Nėra susietų kanalų
+No comparison results. Run Compare first.: Nėra palyginimo rezultatų. Pirmiausia paleiskite Palyginkite.
 No duplicate URLs found.: Pasikartojančių URL nerasta.
 No EPG data: Nėra EPG duomenų
 No EPG information available for this channel.: Nėra šio kanalo EPG informacijos.
 No EPG source configured. Please select one from the combo or go to Settings.: EPG šaltinis nesukonfigūruotas. Pasirinkite vieną iš derinio arba eikite į nustatymus.
 No EPG source configured. Would you like to open settings to select one?: EPG šaltinis nesukonfigūruotas. Ar norite atidaryti nustatymus ir pasirinkti vieną?
 No favorite channels to export.: Nėra mėgstamų kanalų, kuriuos būtų galima eksportuoti.
+No missing channels to export.: Netrūksta eksportuotinų kanalų.
 No playlist found: Grojaraščio nerasta
+No second playlist loaded.: Antras grojaraštis neįkeltas.
 No updates available.: Nėra jokių atnaujinimų.
 Normal speed (1x): Normalus greitis (1x)
 Not connected to the box.: Prie dėžutės neprijungta.
@@ -209,6 +247,8 @@ Now: Dabar
 OK: Gerai
 Online Playlist: Internetinis grojaraštis
 Online playlist – select from GitHub repository (auto‑refresh).: Internetinis grojaraštis – pasirinkite iš „GitHub“ saugyklos (automatinis atnaujinimas).
+Only in First: Tik pirmame
+Only in Second: Tik antroje
 Open File...: Atidaryti failą...
 Open from URL: Atidaryti iš URL
 Open Playlist: Atidaryti grojaraštį
@@ -216,12 +256,14 @@ Pause/Resume live stream: Pristabdyti / tęsti tiesioginį srautą
 Paused: Pristabdyta
 PayPal: PayPal
 Picture-in-Picture mode: Vaizdas paveikslėlyje režimas
-Player Control: Žaidėjo valdymas
+Player Controls: Grotuvo valdikliai
 Playlist & Groups: Grojaraštis ir grupės
+Playlist Comparison: Grojaraščio palyginimas
 Playlist Editor: Grojaraščio redaktorius
 Playlist Loading: Grojaraštis įkeliamas
 Playlist Management: Grojaraščio valdymas
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Grojaraščio saugykla: „OwnerPlugins“ / „TivuStreamList“ (itališki ir tarptautiniai srautai)
+Playlists loaded: Grojaraščiai įkelti
 Please select a program first.: Pirmiausia pasirinkite programą.
 Preview (first 5 channels): Peržiūra (pirmieji 5 kanalai)
 Preview error: {0}: Peržiūros klaida: {0}
@@ -237,8 +279,10 @@ Refresh List: Atnaujinti sąrašą
 Reload GUI: Iš naujo įkelti GUI
 Remove Command: Pašalinti komandą
 Rename Group: Pervardyti grupę
+Rename group '{0}' to:: Pervardyti grupę „{0}“ į:
 Repository: Saugykla
 Reset Order: Iš naujo nustatyti užsakymą
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Rezultatai: „Tik pirma“, „Tik antra“, „Abu“ – su būsenos spalvų kodu.
 Save: Išsaugoti
 SAVE: IŠSAUGOTI
 Save – persists all settings without reloading current playlist.: Išsaugoti – išsaugomi visi nustatymai iš naujo neįkeliant esamo grojaraščio.
@@ -251,6 +295,7 @@ Saved: Išsaugota
 Search channel: : Ieškoti kanalo:
 Search channels by name: Ieškokite kanalų pagal pavadinimą
 Search channels...: Ieškoti kanalų...
+sec: sek
 Select a playlist first.: Pirmiausia pasirinkite grojaraštį.
 Select Theme: Pasirinkite temą
 Selected theme is saved and applied on restart.: Pasirinkta tema išsaugoma ir taikoma paleidus iš naujo.
@@ -273,6 +318,7 @@ Support the developer: Palaikykite kūrėją
 Target Field: Tikslinis laukas
 Telnet command:: Telnet komanda:
 Telnet Commander: Telnet vadas
+Telnet Config: Telnet konfig
 Telnet Console: Telnet konsolė
 Telnet host not configured. Please set it in Settings.: Telnet priegloba nesukonfigūruota. Nustatykite jį nustatymuose.
 Telnet password is empty. Do you want to continue?: Telnet slaptažodis tuščias. Ar norite tęsti?
@@ -303,6 +349,8 @@ URL Check: URL patikrinimas
 URL list (one per line): URL sąrašas (po vieną eilutėje)
 URLs & Status: URL ir būsena
 Version: Versija
+Version {0}.{1}.{2}: Versija {0}.{1}.{2}
+Version unknown: Versija nežinoma
 Waiting for LiveGardenTVPlus to close...: Laukiama, kol „LiveGardenTVPlus“ užsidarys...
 Warning: Įspėjimas
 WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
