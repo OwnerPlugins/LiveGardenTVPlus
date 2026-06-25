@@ -52,19 +52,16 @@ jobs:
         file_pattern: "version.txt"
         add_f: true
 
-    - name: Get version from csproj for tag
+    - name: Get version from version.txt
       id: get_version
       run: |
-        $content = Get-Content "LiveGardenTV+/LiveGardenTV+.csproj" -Raw
-        $regex = '<AssemblyVersion>(.*?)<\/AssemblyVersion>'
-        $match = [regex]::Match($content, $regex)
-        if ($match.Success) {
-          $version = $match.Groups[1].Value
-        } else {
-          Write-Error "❌ Impossibile trovare AssemblyVersion nel csproj"
+        $version = Get-Content version.txt -Raw
+        $version = $version.Trim()
+        if ([string]::IsNullOrWhiteSpace($version)) {
+          Write-Error "❌ version.txt is empty"
           exit 1
         }
-        echo "version=$version" >> $GITHUB_OUTPUT
+        echo "version=$version" >> $env:GITHUB_OUTPUT
         Write-Host "✅ Version: $version"
 
     - name: Create and push tag
