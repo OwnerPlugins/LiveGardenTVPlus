@@ -21,54 +21,16 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore "LiveGardenTV+/LiveGardenTV+.csproj"
 
-    - name: Publish self-contained single-file
+    - name: Publish self-contained single-file (IDENTICO al comando locale)
       run: |
         dotnet publish "LiveGardenTV+/LiveGardenTV+.csproj" `
           --configuration Release `
-          --framework net10.0-windows `
           --runtime win-x64 `
           --self-contained true `
-          --output publish_output `
           -p:PublishSingleFile=true `
           -p:IncludeNativeLibrariesForSelfExtract=true `
-          -p:DebugType=none
-
-    - name: Copy extra folders (Languages, Themes, PlayerHost)
-      run: |
-        robocopy "LiveGardenTV+/Languages" "publish_output/Languages" /E /IS /IT /NJH /NJS /NP
-        robocopy "LiveGardenTV+/Themes"   "publish_output/Themes"   /E /IS /IT /NJH /NJS /NP
-        robocopy "LiveGardenTV+/PlayerHost" "publish_output/PlayerHost" /E /IS /IT /NJH /NJS /NP
-        exit 0
-
-    - name: Add WebView2Loader.dll for all architectures
-      run: |
-        $packageRoot = "$env:USERPROFILE\.nuget\packages\microsoft.web.webview2"
-        if (-not (Test-Path $packageRoot)) {
-          Write-Error "Pacchetto Microsoft.Web.WebView2 non trovato nella cache NuGet."
-          exit 1
-        }
-        $version = Get-ChildItem $packageRoot | Sort-Object Name -Descending | Select-Object -First 1
-        $loaderPath = Join-Path $version.FullName "build\native"
-        Write-Host "Usando WebView2Loader da: $loaderPath"
-
-        $archs = @(
-            @{ Arch = "win-arm64"; File = "arm64\WebView2Loader.dll" },
-            @{ Arch = "win-x64";   File = "x64\WebView2Loader.dll" },
-            @{ Arch = "win-x86";   File = "x86\WebView2Loader.dll" }
-        )
-
-        foreach ($item in $archs) {
-          $src = Join-Path $loaderPath $item.File
-          $destDir = "publish_output\runtimes\$($item.Arch)\native"
-          $dest = Join-Path $destDir "WebView2Loader.dll"
-          New-Item -Path $destDir -ItemType Directory -Force | Out-Null
-          if (Test-Path $src) {
-            Copy-Item $src $dest -Force
-            Write-Host "Copiato $src -> $dest"
-          } else {
-            Write-Warning "File non trovato: $src"
-          }
-        }
+          -p:DebugType=none `
+          -o ./publish
 
     - name: Create version.txt
       run: |
@@ -83,9 +45,11 @@ jobs:
         file_pattern: "version.txt"
         add_f: true
 
-    - name: Create ZIP file
+    - name: Create ZIP file (SOLO l'exe, come il comando locale)
       run: |
-        Compress-Archive -Path "publish_output/*" -DestinationPath "LiveGardenTVPlus.zip" -Force
+        # Il comando locale produce SOLO LiveGardenTV+.exe (e forse .pdb)
+        # Zippa TUTTO quello che c'è in ./publish (che sarà solo l'exe)
+        Compress-Archive -Path "./publish/*" -DestinationPath "LiveGardenTVPlus.zip" -Force
         Write-Host "✅ ZIP creato: $((Get-Item 'LiveGardenTVPlus.zip').Length) bytes"
 
     - name: Commit and push ZIP (force add)
