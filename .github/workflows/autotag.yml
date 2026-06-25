@@ -34,7 +34,11 @@ jobs:
 
     - name: Create version.txt
       run: |
-        $version = (Select-Xml -Path "LiveGardenTV+/LiveGardenTV+.csproj" -XPath "//AssemblyVersion").Node.InnerText
+        $ns = @{msb = "http://schemas.microsoft.com/developer/msbuild/2003"}
+        $version = (Select-Xml -Path "LiveGardenTV+/LiveGardenTV+.csproj" -XPath "//msb:AssemblyVersion" -Namespace $ns).Node.InnerText
+        if ([string]::IsNullOrWhiteSpace($version)) {
+          $version = (Select-Xml -Path "LiveGardenTV+/LiveGardenTV+.csproj" -XPath "//AssemblyVersion").Node.InnerText
+        }
         Write-Output $version | Out-File -FilePath version.txt -Encoding ascii
         Write-Host "✅ Created version.txt with version $version"
 
@@ -48,7 +52,15 @@ jobs:
     - name: Get version from csproj for tag
       id: get_version
       run: |
-        $version = (Select-Xml -Path "LiveGardenTV+/LiveGardenTV+.csproj" -XPath "//AssemblyVersion").Node.InnerText
+        $ns = @{msb = "http://schemas.microsoft.com/developer/msbuild/2003"}
+        $version = (Select-Xml -Path "LiveGardenTV+/LiveGardenTV+.csproj" -XPath "//msb:AssemblyVersion" -Namespace $ns).Node.InnerText
+        if ([string]::IsNullOrWhiteSpace($version)) {
+          $version = (Select-Xml -Path "LiveGardenTV+/LiveGardenTV+.csproj" -XPath "//AssemblyVersion").Node.InnerText
+        }
+        if ([string]::IsNullOrWhiteSpace($version)) {
+          Write-Error "❌ Impossibile trovare AssemblyVersion nel csproj"
+          exit 1
+        }
         echo "version=$version" >> $GITHUB_OUTPUT
         Write-Host "✅ Version: $version"
 
