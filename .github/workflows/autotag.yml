@@ -34,10 +34,13 @@ jobs:
 
     - name: Create version.txt
       run: |
-        $ns = @{msb = "http://schemas.microsoft.com/developer/msbuild/2003"}
-        $version = (Select-Xml -Path "LiveGardenTV+/LiveGardenTV+.csproj" -XPath "//msb:AssemblyVersion" -Namespace $ns).Node.InnerText
-        if ([string]::IsNullOrWhiteSpace($version)) {
-          $version = (Select-Xml -Path "LiveGardenTV+/LiveGardenTV+.csproj" -XPath "//AssemblyVersion").Node.InnerText
+        $content = Get-Content "LiveGardenTV+/LiveGardenTV+.csproj" -Raw
+        $regex = '<AssemblyVersion>(.*?)<\/AssemblyVersion>'
+        $match = [regex]::Match($content, $regex)
+        if ($match.Success) {
+          $version = $match.Groups[1].Value
+        } else {
+          $version = "unknown"
         }
         Write-Output $version | Out-File -FilePath version.txt -Encoding ascii
         Write-Host "✅ Created version.txt with version $version"
@@ -52,12 +55,12 @@ jobs:
     - name: Get version from csproj for tag
       id: get_version
       run: |
-        $ns = @{msb = "http://schemas.microsoft.com/developer/msbuild/2003"}
-        $version = (Select-Xml -Path "LiveGardenTV+/LiveGardenTV+.csproj" -XPath "//msb:AssemblyVersion" -Namespace $ns).Node.InnerText
-        if ([string]::IsNullOrWhiteSpace($version)) {
-          $version = (Select-Xml -Path "LiveGardenTV+/LiveGardenTV+.csproj" -XPath "//AssemblyVersion").Node.InnerText
-        }
-        if ([string]::IsNullOrWhiteSpace($version)) {
+        $content = Get-Content "LiveGardenTV+/LiveGardenTV+.csproj" -Raw
+        $regex = '<AssemblyVersion>(.*?)<\/AssemblyVersion>'
+        $match = [regex]::Match($content, $regex)
+        if ($match.Success) {
+          $version = $match.Groups[1].Value
+        } else {
           Write-Error "❌ Impossibile trovare AssemblyVersion nel csproj"
           exit 1
         }
