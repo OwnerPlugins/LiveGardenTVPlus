@@ -6,13 +6,11 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
 using System.Net.Http;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Input;
 using System.Windows.Threading;
-using System.Windows.Media;
 
 
 namespace LiveGardenTVPlus.Views
@@ -26,13 +24,6 @@ namespace LiveGardenTVPlus.Views
         private List<LogoInfo> _cachedLogos;
         private bool _isFetchingLogos = false;
         private CancellationTokenSource _cancellationTokenSource = null;
-        private System.Windows.Threading.DispatcherTimer _progressTimer;
-        private DateTime _logoDownloadStartTime;
-
-        private void OnLanguageChanged()
-        {
-            ApplyLanguage();
-        }
 
         private void ApplyLanguage()
         {
@@ -502,21 +493,36 @@ namespace LiveGardenTVPlus.Views
                     string ext = Path.GetExtension(filePath).ToLower();
                     File.AppendAllText(logPath, $"Extension: {ext}\n");
 
+                    /*                     if (ext == ".json")
+                                        {
+                                            string json = File.ReadAllText(filePath, Encoding.UTF8);
+                                            File.AppendAllText(logPath, $"JSON length: {json.Length}\nFirst 200 chars: {json.Substring(0, Math.Min(200, json.Length))}\n");
+                                            var imported = ParseJsonToChannelJsonList(json);
+                                            if (imported == null || imported.Count == 0)
+                                                throw new Exception("No channels found in JSON.");
+
+                                            Channels.Clear();
+                                            foreach (var ch in imported)
+                                                Channels.Add(ch);
+                                            ClearFilterBtn_Click(null, null);
+                                            File.AppendAllText(logPath, $"Success: imported {imported.Count} channels.\n");
+                                            MessageBox.Show(string.Format(LanguageManager.GetTranslation("Loaded {0} channels from JSON file."), imported.Count),
+                                                            LanguageManager.GetTranslation("Success"), MessageBoxButton.OK, MessageBoxImage.Information);
+                                        } */
+
                     if (ext == ".json")
                     {
-                        string json = File.ReadAllText(filePath, Encoding.UTF8);
-                        File.AppendAllText(logPath, $"JSON length: {json.Length}\nFirst 200 chars: {json.Substring(0, Math.Min(200, json.Length))}\n");
-                        var imported = ParseJsonToChannelJsonList(json);
-                        if (imported == null || imported.Count == 0)
-                            throw new Exception("No channels found in JSON.");
-
-                        Channels.Clear();
-                        foreach (var ch in imported)
-                            Channels.Add(ch);
-                        ClearFilterBtn_Click(null, null);
-                        File.AppendAllText(logPath, $"Success: imported {imported.Count} channels.\n");
-                        MessageBox.Show(string.Format(LanguageManager.GetTranslation("Loaded {0} channels from JSON file."), imported.Count),
-                                        LanguageManager.GetTranslation("Success"), MessageBoxButton.OK, MessageBoxImage.Information);
+                        var mappedChannels = JsonImportService.ImportFromFileWithMapping(filePath, this);
+                        if (mappedChannels != null && mappedChannels.Count > 0)
+                        {
+                            Channels.Clear();
+                            foreach (var ch in mappedChannels)
+                                Channels.Add(ch);
+                            ClearFilterBtn_Click(null, null);
+                            MessageBox.Show(string.Format(LanguageManager.GetTranslation("Loaded {0} channels from JSON file via mapping."), mappedChannels.Count),
+                                            LanguageManager.GetTranslation("Success"), MessageBoxButton.OK, MessageBoxImage.Information);
+                        }
+                        return;
                     }
                     else // M3U
                     {
@@ -947,9 +953,6 @@ namespace LiveGardenTVPlus.Views
             }
         }
 
-        // ------------------------------------------------------------------
-        // JSON Import / Export (full playlist)
-        // ------------------------------------------------------------------
         private async void ImportJsonBtn_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new Microsoft.Win32.OpenFileDialog
@@ -959,65 +962,20 @@ namespace LiveGardenTVPlus.Views
             };
             if (dialog.ShowDialog() == true)
             {
-                try
+                var mappedChannels = JsonImportService.ImportFromFileWithMapping(dialog.FileName, this);
+                if (mappedChannels != null && mappedChannels.Count > 0)
                 {
-                    string filePath = dialog.FileName;
-                    var imported = new List<ChannelJson>();
-
-                    using (var streamReader = new StreamReader(filePath, Encoding.UTF8))
-                    using (var jsonReader = new JsonTextReader(streamReader))
-                    {
-                        // Support multiple JSON objects (either array or concatenated objects)
-                        jsonReader.SupportMultipleContent = true;
-                        while (jsonReader.Read())
-                        {
-                            if (jsonReader.TokenType == JsonToken.StartObject)
-                            {
-                                JObject obj = JObject.Load(jsonReader);
-                                var channel = new ChannelJson
-                                {
-                                    name = obj["name"]?.ToString() ?? "",
-                                    stream_urls = obj["stream_urls"]?.Type == JTokenType.Array
-                                        ? obj["stream_urls"].Select(t => t.ToString()).ToList()
-                                        : new List<string>(),
-                                    logo_url = obj["logo_url"]?.ToString() ?? "",
-                                    group = obj["group"]?.ToString() ?? "",
-                                    tvg_id = obj["tvg_id"]?.ToString() ?? "",
-                                    isFavorite = obj["isFavorite"]?.Value<bool>() ?? false,
-                                    country = obj["country"]?.ToString() ?? "",
-                                    youtube_urls = obj["youtube_urls"]?.Type == JTokenType.Array
-                                        ? obj["youtube_urls"].Select(t => t.ToString()).ToList()
-                                        : new List<string>(),
-                                    nanoid = obj["nanoid"]?.ToString() ?? "",
-                                    languages = obj["languages"]?.Type == JTokenType.Array
-                                        ? obj["languages"].Select(t => t.ToString()).ToList()
-                                        : new List<string>(),
-                                    isGeoBlocked = obj["isGeoBlocked"]?.Value<bool>() ?? false
-                                };
-                                channel.stream_urls ??= new List<string>();
-                                channel.youtube_urls ??= new List<string>();
-                                channel.languages ??= new List<string>();
-                                imported.Add(channel);
-                            }
-                        }
-                    }
-
-                    if (imported.Count == 0)
-                        throw new Exception("No channels found in JSON file.");
                     Channels.Clear();
-                    foreach (var ch in imported)
+                    foreach (var ch in mappedChannels)
                         Channels.Add(ch);
-
                     ClearFilterBtn_Click(null, null);
-                    MessageBox.Show(string.Format(LanguageManager.GetTranslation("Imported {0} channels from JSON."), imported.Count),
+                    MessageBox.Show(string.Format(LanguageManager.GetTranslation("Imported {0} channels from JSON via mapping."), mappedChannels.Count),
                                     LanguageManager.GetTranslation("Success"), MessageBoxButton.OK, MessageBoxImage.Information);
                 }
-                catch (Exception ex)
+                else
                 {
-                    System.Diagnostics.Debug.WriteLine($"=== JSON IMPORT ERROR ===");
-                    System.Diagnostics.Debug.WriteLine($"Message: {ex.Message}");
-                    MessageBox.Show(string.Format(LanguageManager.GetTranslation("Import error: {0}"), ex.Message),
-                                    LanguageManager.GetTranslation("Error"), MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show(LanguageManager.GetTranslation("No channels could be mapped or import cancelled."),
+                                    LanguageManager.GetTranslation("Info"), MessageBoxButton.OK, MessageBoxImage.Information);
                 }
             }
         }
@@ -1089,6 +1047,19 @@ namespace LiveGardenTVPlus.Views
                     MessageBox.Show($"Export error: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
+        }
+
+        private void CompareBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var first = Channels.ToList();
+            if (first.Count == 0)
+            {
+                MessageBox.Show("Current playlist is empty.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+            var window = new ComparePlaylistsWindow(first);
+            window.Owner = this;
+            window.ShowDialog();
         }
 
         // ------------------------------------------------------------------

@@ -60,6 +60,7 @@
                             <Button x:Name="ImportJsonBtn" Content="Import Local" Width="140" Margin="2,0" Click="ImportJsonBtn_Click"/>
                             <Button x:Name="ImportJsonUrlBtn" Content="Import from URL" Width="140" Margin="2,0" Click="ImportJsonUrlBtn_Click"/>
                             <Button x:Name="ExportJsonBtn" Content="Export JSON" Width="140" Margin="2,0" Click="ExportJsonBtn_Click"/>
+                            <Button x:Name="CompareBtn" Content="Compare..." Width="140" Margin="2,0" Click="CompareBtn_Click"/>
                         </WrapPanel>
                     </StackPanel>
                 </Border>

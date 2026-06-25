@@ -1,6 +1,6 @@
 # LiveGardenTVPlus – IPTV Player for Windows
 
-![GitHub release](https://img.shields.io/badge/release-v2.6-blue)
+![GitHub release](https://img.shields.io/badge/release-v2.7-blue)
 [![.NET](https://img.shields.io/badge/.NET-10.0-purple)](https://dotnet.microsoft.com/)
 [![WPF](https://img.shields.io/badge/UI-WPF-blue)](https://github.com/dotnet/wpf)
 [![WebView2](https://img.shields.io/badge/WebView2-hls.js-green)](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)
@@ -155,15 +155,48 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
 
 ## Changelog
 
+## LiveGardenTVPlus – Changelog (v2.7)
+
+### 📊 Playlist Comparison (Compare)
+- **New "Compare..." button** in the playlist editor toolbar.
+- **Load second playlist** from local file (JSON/M3U) or from URL.
+- **Compare by field** – Choose between: Name, URL, TvgId, Logo, Group, Country, Languages, Nanoid.
+- **Smart (Priority) mode** – Intelligent matching with priority:
+  1. **URL** – normalized (removes protocol, domain, extensions, common segments). If at least one URL matches, channels are considered equal.
+  2. **Name** – normalized (removes quality indicators like `(1080p)`, `[HD]`, etc.).
+  3. **TvgId**
+  4. **Logo**
+- **Results grid** – Shows status (`Only in First`, `Only in Second`, `In Both`). Click column headers to sort.
+- **Export results**:
+  - **Export missing** – exports only channels present in the second playlist but not in the first (useful for integration).
+  - **Export all** – exports the entire second playlist.
+  - Supported formats: JSON (all fields) and M3U.
+
+### 📥 JSON Import Improvements
+- **Support for nested structures** – Now recognizes paths like `tvg.id`, `tvg.logo`, `group.title`, `http.referrer`, etc.
+- **Smart auto‑detection** – Assigns confidence scores to JSON properties to suggest the correct mapping.
+- **Mapping persistence** – Mappings are saved per filename for future imports.
+- **Mapping window** – Preview of the first 5 channels, manual add/remove of mappings.
+
+### 🎨 Interface & Usability
+- **Themes** – Added selection brushes (`HighlightBrushKey`, `HighlightTextBrushKey`) to all 16 themes. Selected text is now always readable.
+- **Localization** – All new windows (Compare Playlists, Import JSON mapping) are fully translatable via `LanguageManager`.
+
+### 🐛 Bug Fixes
+- Fixed DataGrid row selection – text no longer white‑on‑white (or black‑on‑black) across themes.
+- Fixed URL comparison – matching now works URL‑by‑URL (any match = match).
+
+### Need more help?
+
+Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
+
+---
+
 ## 📋 LiveGardenTVPlus – Changelog (v2.6)
 
 - **Fixed Send to E2** 
   – Now app work and no crash on send channels..
   - Logger added: C:\Users\%profile%\AppData\Local\LiveGardenTVPlus\Logs\
-
-### Need more help?
-
-Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
 
 ---
 

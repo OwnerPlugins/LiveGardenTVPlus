@@ -7,6 +7,8 @@
     <SolidColorBrush x:Key="BorderBrush" Color="#FF555555"/>
     <SolidColorBrush x:Key="AccentBrush" Color="#FF4CAF50"/>
     <SolidColorBrush x:Key="AlternateRowBackgroundBrush" Color="#FF252525"/>
+    <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#4CAF50" />
+    <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}" Color="#FFFFFF" />
 
     <!-- Styles -->
     <Style x:Key="{x:Static ToolBar.ButtonStyleKey}" TargetType="Button">

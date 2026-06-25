@@ -118,6 +118,10 @@ namespace LiveGardenTVPlus.Models
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
+        /// <summary>
+        /// Solleva l'evento PropertyChanged per notificare l'aggiornamento di una proprietà.
+        /// </summary>
+        /// <param name="propertyName">Nome della proprietà modificata.</param>
         protected void OnPropertyChanged(string propertyName) =>
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 

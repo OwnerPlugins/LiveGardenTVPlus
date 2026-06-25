@@ -1,0 +1,70 @@
+﻿<Window x:Class="LiveGardenTVPlus.Views.ComparePlaylistsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Compare Playlist by Lululla" Height="Auto" Width="Auto"
+        WindowStartupLocation="CenterOwner"
+        Background="{DynamicResource WindowBackgroundBrush}"
+        Foreground="{DynamicResource ForegroundBrush}">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+            <Button x:Name="LoadSecondFileBtn" Content="Load from file..." Click="LoadSecondFileBtn_Click" Width="140" Margin="0,0,5,0"/>
+            <Button x:Name="LoadSecondUrlBtn" Content="Load from URL..." Click="LoadSecondUrlBtn_Click" Width="140" Margin="0,0,5,0"/>
+            <ComboBox x:Name="CompareFieldCombo" Width="160" Margin="5,0" SelectedIndex="0" SelectionChanged="CompareFieldCombo_SelectionChanged">
+                <ComboBoxItem Content="Smart (Priority)" Tag="Priority" IsSelected="True"/>
+                <ComboBoxItem Content="Name" Tag="Name"/>
+                <ComboBoxItem Content="URL" Tag="Url"/>
+                <ComboBoxItem Content="TvgId" Tag="TvgId"/>
+                <ComboBoxItem Content="Logo" Tag="Logo"/>
+                <ComboBoxItem Content="Group" Tag="Group"/>
+                <ComboBoxItem Content="Country" Tag="Country"/>
+                <ComboBoxItem Content="Languages" Tag="Languages"/>
+                <ComboBoxItem Content="Nanoid" Tag="Nanoid"/>
+            </ComboBox>
+            <Button x:Name="CompareBtn" Content="Compare" Click="CompareBtn_Click" Width="100" Margin="5,0"/>
+            <Button x:Name="ExportMissingBtn" Content="Export missing" Click="ExportMissingBtn_Click" Width="120" Margin="0,0,5,0" IsEnabled="False"/>
+            <Button x:Name="ExportAllBtn" Content="Export all" Click="ExportAllBtn_Click" Width="120" Margin="5,0" IsEnabled="False"/>
+        </StackPanel>
+
+        <TextBlock x:Name="StatusText" Grid.Row="1" Margin="0,0,0,10" Foreground="{DynamicResource ForegroundBrush}"/>
+
+        <DataGrid x:Name="ResultsGrid" Grid.Row="2" AutoGenerateColumns="False" 
+                  CanUserAddRows="False" CanUserDeleteRows="False"
+                  CanUserSortColumns="True" RowHeight="28"
+                  Background="{DynamicResource ControlBackgroundBrush}"
+                  Foreground="{DynamicResource ForegroundBrush}"
+                  RowBackground="{DynamicResource ControlBackgroundBrush}"
+                  AlternatingRowBackground="{DynamicResource AlternateRowBackgroundBrush}"
+                  BorderBrush="{DynamicResource BorderBrush}"
+                  GridLinesVisibility="Horizontal"
+                  VirtualizingPanel.IsVirtualizing="True" 
+                  VirtualizingPanel.VirtualizationMode="Recycling"
+                  VirtualizingPanel.ScrollUnit="Pixel"
+                  VerticalScrollBarVisibility="Auto"
+                  HorizontalScrollBarVisibility="Auto"
+                  Sorting="ResultsGrid_Sorting">
+            <DataGrid.Resources>
+                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" 
+                                 Color="{DynamicResource AccentColor}"/>
+                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}" Color="White"/>
+            </DataGrid.Resources>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Channel Name" Binding="{Binding Name}" Width="2*"/>
+                <DataGridTextColumn Header="URL" Binding="{Binding PrimaryUrl}" Width="3*"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="Auto" FontWeight="Bold"/>
+                <DataGridTextColumn Header="Group" Binding="{Binding Group}" Width="Auto"/>
+                <DataGridTextColumn Header="TvgId" Binding="{Binding TvgId}" Width="Auto"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+            <Button x:Name="CloseBtn" Content="Close" Click="CloseBtn_Click" Width="80"/>
+        </StackPanel>
+    </Grid>
+</Window>

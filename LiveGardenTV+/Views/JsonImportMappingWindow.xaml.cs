@@ -1,9 +1,14 @@
-﻿/* example from: https://raw.githubusercontent.com/SHAJON-404/iptv/refs/heads/main/app/data/channels.json */
+﻿using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.IO;
+using System.Linq;
+using System.Windows;
+using System.Windows.Controls;
 using LiveGardenTVPlus.Models;
 using LiveGardenTVPlus.Services;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using System.Collections.ObjectModel;
-using System.Windows;
 
 namespace LiveGardenTVPlus.Views
 {
@@ -12,7 +17,7 @@ namespace LiveGardenTVPlus.Views
         private string _jsonText;
         private string _fileName;
         private JArray _jsonArray;
-        private List<string> _availableProperties;
+        private List<string> _availablePaths;
         private List<ChannelJson> _mappedChannels;
 
         public ObservableCollection<MappingConfig> Mappings { get; set; }
@@ -27,7 +32,6 @@ namespace LiveGardenTVPlus.Views
 
             try
             {
-                // Parse JSON: Supports both direct array and object with array properties
                 var token = JToken.Parse(jsonText);
                 if (token is JArray array)
                     _jsonArray = array;
@@ -42,17 +46,16 @@ namespace LiveGardenTVPlus.Views
                 else
                     throw new Exception("Invalid JSON format.");
 
-                _availableProperties = ExtractAllProperties(_jsonArray);
-                System.Diagnostics.Debug.WriteLine($"Properties found: {_availableProperties.Count}");
-                foreach (var p in _availableProperties)
+                _availablePaths = ExtractAllPaths(_jsonArray);
+                System.Diagnostics.Debug.WriteLine($"Properties found: {_availablePaths.Count}");
+                foreach (var p in _availablePaths)
                     System.Diagnostics.Debug.WriteLine($" - {p}");
 
-                // Load saved mapping for this file if exists
                 var prefs = UserPreferences.Load();
-                string key = System.IO.Path.GetFileName(fileName);
+                string key = Path.GetFileName(fileName);
                 if (prefs.JsonMappings.ContainsKey(key))
                 {
-                    var saved = Newtonsoft.Json.JsonConvert.DeserializeObject<List<MappingConfig>>(prefs.JsonMappings[key]);
+                    var saved = JsonConvert.DeserializeObject<List<MappingConfig>>(prefs.JsonMappings[key]);
                     if (saved != null)
                         foreach (var m in saved) Mappings.Add(m);
                 }
@@ -90,55 +93,104 @@ namespace LiveGardenTVPlus.Views
             }
         }
 
-        private List<string> ExtractAllProperties(JArray array)
+        private List<string> ExtractAllPaths(JArray array)
         {
-            var props = new HashSet<string>();
-            foreach (var item in array.Children<JObject>())
+            var paths = new HashSet<string>();
+            foreach (var child in array.Children())
             {
-                foreach (var prop in item.Properties())
-                    props.Add(prop.Name);
+                if (child is JObject obj)
+                    CollectPaths(obj, "", paths);
             }
-            return props.OrderBy(p => p).ToList();
+            return paths.OrderBy(p => p).ToList();
+        }
+
+        private void CollectPaths(JToken token, string prefix, HashSet<string> paths)
+        {
+            if (token is JObject obj)
+            {
+                foreach (var prop in obj.Properties())
+                {
+                    string path = string.IsNullOrEmpty(prefix) ? prop.Name : prefix + "." + prop.Name;
+                    paths.Add(path);
+                    if (prop.Value is JObject || prop.Value is JArray)
+                        CollectPaths(prop.Value, path, paths);
+                }
+            }
+            // If token is not an object (e.g., JArray, JValue), do nothing
         }
 
         private void AutoDetectBtn_Click(object sender, RoutedEventArgs e)
         {
             Mappings.Clear();
-            foreach (var prop in _availableProperties)
+            var scoredPaths = new List<(string Path, int Score, string Target)>();
+
+            foreach (var path in _availablePaths)
             {
-                string lower = prop.ToLower();
+                int score = 0;
+                string lower = path.ToLower();
                 string target = null;
 
-                if (lower == "name" || lower == "title" || lower == "tvg_name" || lower == "channel_name")
-                    target = "name";
-                else if (lower == "url" || lower == "stream_url" || lower == "link" || lower == "source")
-                    target = "stream_urls";
-                else if (lower == "logo" || lower == "logo_url" || lower == "tvg_logo")
-                    target = "logo_url";
-                else if (lower == "group" || lower == "category" || lower == "group_title" || lower == "group-title")
-                    target = "group";
-                else if (lower == "tvg_id" || lower == "epg_id" || lower == "channel_id")
-                    target = "tvg_id";
-                else if (lower == "favorite" || lower == "is_favorite" || lower == "fav")
-                    target = "isFavorite";
-                else if (lower == "country" || lower == "tvg_country")
-                    target = "country";
-                else if (lower == "language" || lower == "languages" || lower == "audio_lang")
-                    target = "languages";
-                else if (lower == "youtube" || lower == "youtube_url")
-                    target = "youtube_urls";
-                else if (lower == "nanoid")
-                    target = "nanoid";
-                else if (lower == "geoblocked" || lower == "geo_blocked" || lower == "is_geoblocked")
-                    target = "isGeoBlocked";
+                if (lower == "name" || lower.EndsWith(".name") || lower == "title" || lower.EndsWith(".title"))
+                { score += 10; target = "name"; }
+                else if (lower.Contains("name") || lower.Contains("title") || lower.Contains("channel_name"))
+                { score += 5; target = "name"; }
 
-                if (target != null)
-                    Mappings.Add(new MappingConfig { SourcePropertyName = prop, TargetField = target });
+                if (lower == "url" || lower.EndsWith(".url") || lower == "stream_url" || lower == "link" || lower.EndsWith(".stream_url"))
+                { score += 10; target = "stream_urls"; }
+                else if (lower.Contains("url") || lower.Contains("stream") || lower.Contains("link"))
+                { score += 5; target = "stream_urls"; }
+
+                if (lower == "logo" || lower.EndsWith(".logo") || lower == "logo_url" || lower.EndsWith(".logo_url") || lower == "tvg_logo")
+                { score += 10; target = "logo_url"; }
+                else if (lower.Contains("logo") || lower.Contains("icon") || lower.Contains("image"))
+                { score += 5; target = "logo_url"; }
+
+                if (lower == "group" || lower.EndsWith(".group") || lower == "group_title" || lower == "category")
+                { score += 10; target = "group"; }
+                else if (lower.Contains("group") || lower.Contains("category") || lower.Contains("genre"))
+                { score += 5; target = "group"; }
+
+                if (lower == "tvg_id" || lower.EndsWith(".id") || lower == "channel_id" || lower == "epg_id")
+                { score += 10; target = "tvg_id"; }
+                else if (lower.Contains("tvg") || lower.Contains("epg") || lower.Contains("id"))
+                { score += 5; target = "tvg_id"; }
+
+                if (lower == "country" || lower.EndsWith(".country") || lower == "tvg_country")
+                { score += 10; target = "country"; }
+                else if (lower.Contains("country"))
+                { score += 5; target = "country"; }
+
+                if (lower == "language" || lower == "languages" || lower.EndsWith(".language") || lower.EndsWith(".languages"))
+                { score += 10; target = "languages"; }
+
+                if (lower == "favorite" || lower == "is_favorite" || lower.EndsWith(".favorite") || lower.EndsWith(".is_favorite"))
+                { score += 10; target = "isFavorite"; }
+
+                if (lower == "geoblocked" || lower == "geo_blocked" || lower == "is_geoblocked" || lower.EndsWith(".geoblocked"))
+                { score += 10; target = "isGeoBlocked"; }
+
+                if (lower == "nanoid" || lower.EndsWith(".nanoid"))
+                { score += 10; target = "nanoid"; }
+
+                if (lower.Contains("youtube") || lower.Contains("yt"))
+                { score += 10; target = "youtube_urls"; }
+
+                if (target != null && score > 0)
+                    scoredPaths.Add((path, score, target));
             }
 
-            // If no mapping was found for "name", add a blank line
+            var bestMappings = scoredPaths
+                .GroupBy(x => x.Target)
+                .Select(g => g.OrderByDescending(x => x.Score).First())
+                .ToList();
+
+            foreach (var m in bestMappings)
+                Mappings.Add(new MappingConfig { SourcePropertyName = m.Path, TargetField = m.Target });
+
             if (!Mappings.Any(m => m.TargetField == "name"))
                 Mappings.Add(new MappingConfig { SourcePropertyName = "", TargetField = "name" });
+            if (!Mappings.Any(m => m.TargetField == "stream_urls"))
+                Mappings.Add(new MappingConfig { SourcePropertyName = "", TargetField = "stream_urls" });
 
             UpdatePreview();
         }
@@ -151,8 +203,8 @@ namespace LiveGardenTVPlus.Views
         private void SaveMappingBtn_Click(object sender, RoutedEventArgs e)
         {
             var prefs = UserPreferences.Load();
-            string key = System.IO.Path.GetFileName(_fileName);
-            string serialized = Newtonsoft.Json.JsonConvert.SerializeObject(Mappings.ToList());
+            string key = Path.GetFileName(_fileName);
+            string serialized = JsonConvert.SerializeObject(Mappings.ToList());
             prefs.JsonMappings[key] = serialized;
             prefs.Save();
             MessageBox.Show(LanguageManager.GetTranslation("Mapping saved for future imports of this file."),

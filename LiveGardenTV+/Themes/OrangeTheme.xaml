@@ -6,8 +6,10 @@
     <SolidColorBrush x:Key="ControlBackgroundBrush" Color="#FFE0B2"/>
     <SolidColorBrush x:Key="BorderBrush" Color="#FFB74D"/>
     <SolidColorBrush x:Key="AccentBrush" Color="#F57C00"/>
-    <SolidColorBrush x:Key="AlternateRowBackgroundBrush" Color="#FFE0B2"/>
-
+    <SolidColorBrush x:Key="AlternateRowBackgroundBrush" Color="#FFCC80"/>
+    <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#F57C00" />
+    <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}" Color="#FFFFFF" />
+    
     <!-- Styles -->
     <Style x:Key="{x:Static ToolBar.ButtonStyleKey}" TargetType="Button">
         <Setter Property="Foreground" Value="{DynamicResource ForegroundBrush}"/>

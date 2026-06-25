@@ -1,12 +1,14 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <!-- Standard keys used by all windows -->
-    <SolidColorBrush x:Key="WindowBackgroundBrush" Color="#FFEBEE"/>
-    <SolidColorBrush x:Key="ForegroundBrush" Color="#B71C1C"/>
-    <SolidColorBrush x:Key="ControlBackgroundBrush" Color="#FFCDD2"/>
-    <SolidColorBrush x:Key="BorderBrush" Color="#E57373"/>
-    <SolidColorBrush x:Key="AccentBrush" Color="#D32F2F"/>
-    <SolidColorBrush x:Key="AlternateRowBackgroundBrush" Color="#FFCDD2"/>
+    <SolidColorBrush x:Key="WindowBackgroundBrush" Color="#F3E5F5"/>
+    <SolidColorBrush x:Key="ForegroundBrush" Color="#4A148C"/>
+    <SolidColorBrush x:Key="ControlBackgroundBrush" Color="#E1BEE7"/>
+    <SolidColorBrush x:Key="BorderBrush" Color="#BA68C8"/>
+    <SolidColorBrush x:Key="AccentBrush" Color="#8E24AA"/>
+    <SolidColorBrush x:Key="AlternateRowBackgroundBrush" Color="#CE93D8"/>
+    <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#8E24AA" />
+    <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}" Color="#FFFFFF" />
 
     <!-- Styles -->
     <Style x:Key="{x:Static ToolBar.ButtonStyleKey}" TargetType="Button">
