@@ -1,4 +1,4 @@
-name: Build and Zip
+name: Auto Tag and Release
 
 on:
   push:
@@ -36,6 +36,7 @@ jobs:
       run: |
         $version = (Select-Xml -Path "LiveGardenTV+/LiveGardenTV+.csproj" -XPath "//AssemblyVersion").Node.InnerText
         Write-Output $version | Out-File -FilePath version.txt -Encoding ascii
+        Write-Host "✅ Created version.txt with version $version"
 
     - name: Commit version.txt
       uses: stefanzweifel/git-auto-commit-action@v5
@@ -44,14 +45,33 @@ jobs:
         file_pattern: "version.txt"
         add_f: true
 
-    - name: Create ZIP file (SOLO exe)
+    - name: Get version from csproj for tag
+      id: get_version
       run: |
-        Compress-Archive -Path "./publish/*" -DestinationPath "LiveGardenTVPlus.zip" -Force
+        $version = (Select-Xml -Path "LiveGardenTV+/LiveGardenTV+.csproj" -XPath "//AssemblyVersion").Node.InnerText
+        echo "version=$version" >> $GITHUB_OUTPUT
+        Write-Host "✅ Version: $version"
 
-    - name: Commit and push ZIP
+    - name: Create and push tag
       run: |
         git config user.name "GitHub Actions"
         git config user.email "actions@github.com"
-        git add -f LiveGardenTVPlus.zip
-        git commit -m "Aggiorna LiveGardenTVPlus.zip [skip ci]" || echo "Nessuna modifica da committare"
-        git push
+        $tag = "v${{ steps.get_version.outputs.version }}"
+        if (git rev-parse "$tag" 2>$null) {
+          Write-Host "⚠️ Tag $tag already exists"
+        } else {
+          git tag "$tag"
+          git push origin "$tag"
+          Write-Host "✅ Created and pushed tag: $tag"
+        }
+
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: v${{ steps.get_version.outputs.version }}
+        name: Release v${{ steps.get_version.outputs.version }}
+        draft: false
+        prerelease: false
+        generate_release_notes: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
