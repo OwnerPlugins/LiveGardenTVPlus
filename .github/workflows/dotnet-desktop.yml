@@ -21,16 +21,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore "LiveGardenTV+/LiveGardenTV+.csproj"
 
-    # - name: Publish WPF app (framework-dependent)
-      # run: |
-        # dotnet publish "LiveGardenTV+/LiveGardenTV+.csproj" `
-          # --configuration Release `
-          # --framework net10.0-windows `
-          # --output publish_output `
-          # --self-contained false `
-          # --no-restore
-
-    - name: Publish self-contained
+    - name: Publish self-contained single-file
       run: |
         dotnet publish "LiveGardenTV+/LiveGardenTV+.csproj" `
           --configuration Release `
@@ -38,6 +29,8 @@ jobs:
           --runtime win-x64 `
           --self-contained true `
           --output publish_output `
+          -p:PublishSingleFile=true `
+          -p:IncludeNativeLibrariesForSelfExtract=true `
           -p:DebugType=none
 
     - name: Copy extra folders (Languages, Themes, PlayerHost)
@@ -49,7 +42,6 @@ jobs:
 
     - name: Add WebView2Loader.dll for all architectures
       run: |
-        # Trova il pacchetto Microsoft.Web.WebView2 nella cache di NuGet
         $packageRoot = "$env:USERPROFILE\.nuget\packages\microsoft.web.webview2"
         if (-not (Test-Path $packageRoot)) {
           Write-Error "Pacchetto Microsoft.Web.WebView2 non trovato nella cache NuGet."
@@ -59,7 +51,6 @@ jobs:
         $loaderPath = Join-Path $version.FullName "build\native"
         Write-Host "Usando WebView2Loader da: $loaderPath"
 
-        # Definisce le tre architetture e i relativi file DLL
         $archs = @(
             @{ Arch = "win-arm64"; File = "arm64\WebView2Loader.dll" },
             @{ Arch = "win-x64";   File = "x64\WebView2Loader.dll" },
@@ -81,9 +72,7 @@ jobs:
 
     - name: Create version.txt
       run: |
-        # Legge la versione dal file .csproj
         $version = (Select-Xml -Path "LiveGardenTV+/LiveGardenTV+.csproj" -XPath "//AssemblyVersion").Node.InnerText
-        # Crea il file version.txt nella root
         Write-Output $version | Out-File -FilePath version.txt -Encoding ascii
         Write-Host "✅ Created version.txt with version $version"
 
