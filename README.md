@@ -1,15 +1,44 @@
-# LiveGardenTVPlus – IPTV Player for Windows
+<h1 align="center">LiveGardenTVPlus – IPTV Player for Windows</h1>
 
-![GitHub release](https://img.shields.io/badge/release-v2.7-blue)
-[![.NET](https://img.shields.io/badge/.NET-10.0-purple)](https://dotnet.microsoft.com/)
-[![WPF](https://img.shields.io/badge/UI-WPF-blue)](https://github.com/dotnet/wpf)
-[![WebView2](https://img.shields.io/badge/WebView2-hls.js-green)](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)
-[![Windows Forms](https://img.shields.io/badge/UI-Windows%20Forms-0078D4)](https://github.com/dotnet/winforms)
-[![C#](https://img.shields.io/badge/Language-C%23-239120)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+<p align="center">
+  <img src="https://img.shields.io/badge/release-v2.7-blue" alt="Release">
 
-![Visitors](https://komarev.com/ghpvc/?username=Belfagor2005&label=Repository%20Views&color=blueviolet)
-[![Donate](https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://ko-fi.com/lululla)
-[![Donate](https://img.shields.io/badge/_-Donate-green.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://paypal.me/belfagor2005)
+  <a href="https://dotnet.microsoft.com/">
+    <img src="https://img.shields.io/badge/.NET-10.0-purple" alt=".NET">
+  </a>
+
+  <a href="https://github.com/dotnet/wpf">
+    <img src="https://img.shields.io/badge/UI-WPF-blue" alt="WPF">
+  </a>
+
+  <a href="https://developer.microsoft.com/en-us/microsoft-edge/webview2/">
+    <img src="https://img.shields.io/badge/WebView2-hls.js-green" alt="WebView2">
+  </a>
+
+  <a href="https://github.com/dotnet/winforms">
+    <img src="https://img.shields.io/badge/UI-Windows%20Forms-0078D4" alt="Windows Forms">
+  </a>
+
+  <a href="https://docs.microsoft.com/en-us/dotnet/csharp/">
+    <img src="https://img.shields.io/badge/Language-C%23-239120" alt="C#">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Belfagor2005">
+    <img src="https://komarev.com/ghpvc/?username=Belfagor2005&label=Repository%20Views&color=blueviolet" alt="Visitors">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://ko-fi.com/lululla">
+    <img src="https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge" alt="Ko-fi">
+  </a>
+
+  <a href="https://paypal.me/belfagor2005">
+    <img src="https://img.shields.io/badge/_-Donate-green.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge" alt="PayPal">
+  </a>
+</p>
 
 **LiveGardenTVPlus** is a modern, feature‑rich IPTV player for Windows.
 It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, playlist editing, Telnet console for Enigma2, and much more.
