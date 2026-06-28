@@ -28,6 +28,7 @@ Add Mapping: Dodaj mapowanie
 Adjust buffer size (1-10 seconds): Dostosuj rozmiar bufora (1-10 sekund)
 Advanced IDs: Zaawansowane identyfikatory
 Application status: Stan aplikacji
+Apply: Stosować
 Apply changes: Zastosuj zmiany
 Apply Filters: Zastosuj filtry
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Czy na pewno chcesz ponownie załadować GUI Enigmy2?\n\nInterfejs uruchomi się ponownie (czarny ekran przez kilka sekund).
@@ -54,6 +55,7 @@ channels from URL: kanały z adresu URL
 Check Duplicates: Sprawdź duplikaty
 Check for updates: Sprawdź aktualizacje
 Check URLs: Sprawdź adresy URL
+Clear: Jasne
 Clear EPG Cache: Wyczyść pamięć podręczną EPG
 Clear Filters: Wyczyść filtry
 Clear search: Wyczyść wyszukiwanie
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Porównywać...
 Comparison results: {0} channels: Wyniki porównania: {0} kanałów
 Configuration Missing: Brak konfiguracji
+Confirm Delete: Potwierdź usunięcie
 Confirm Reload: Potwierdź ponowne załadowanie
 Connect: Łączyć
 Connected: Połączony
+Copied: Skopiowano
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Kraj
 Credits: Kredyty
+Delete channel '{0}'?: Usunąć kanał „{0}”?
 Delete Group: Usuń grupę
 Delete Selected: Usuń wybrane
+Deleted: Usunięto
 Description: Opis
 Details: Bliższe dane
 Developed by Lululla: Opracowany przez Lulullę
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Wpisz adres URL playlisty (JSON lub M3U):
 Enter playlist URL (M3U or JSON):: Wpisz adres URL playlisty (M3U lub JSON):
 EPG: EPG
 Epg & Favorites: EPG i Ulubione
+EPG & Favorites: EPG i ulubione
 Epg & Logos: EPG i logo
 EPG & Logos: EPG i logo
 EPG cache cleared successfully.: Pamięć podręczna EPG została pomyślnie wyczyszczona.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Błąd podczas czyszczenia pamięci podręcznej: {0}
 Error loading: Błąd ładowania
 Error loading EPG list: {0}: Błąd podczas ładowania listy EPG: {0}
 Error loading file: {0}: Błąd podczas ładowania pliku: {0}
-Error loading file: {0}: Błąd podczas ładowania pliku: {0}
 Error loading playlists: {0}: Błąd podczas ładowania playlist: {0}
-Error loading URL: {0}: Błąd podczas ładowania adresu URL: {0}
 Error loading URL: {0}: Błąd podczas ładowania adresu URL: {0}
 ERROR: player.html not found.: BŁĄD: nie znaleziono player.html.
 Exit: Wyjście
-Export: Eksport
 Export all: Eksportuj wszystko
 Export Favorites: Eksportuj ulubione
 Export Filtered JSON: Eksportuj filtrowany plik JSON
@@ -136,7 +140,9 @@ Export missing: Brak eksportu
 Export OK: Eksportuj OK
 Export only favorite channels to a new M3U file: Eksportuj tylko ulubione kanały do ​​nowego pliku M3U
 Export results as JSON or M3U – export missing channels or all channels.: Eksportuj wyniki jako JSON lub M3U – eksportuj brakujące kanały lub wszystkie kanały.
-Exported channels: Wyeksportowane kanały
+Export selected: Wyeksportuj wybrane
+Exported: Eksportowane
+Exported {0} channels to {1}: Wyeksportowano kanały {0} do {1}
 Extracting update...: Wyodrębniam aktualizację...
 Failed to download playlist: Nie udało się pobrać playlisty
 Failed to load playlist: Nie udało się załadować playlisty
@@ -148,7 +154,6 @@ Fetch Logos: Pobierz logo
 File {0} already exists. Overwrite?: Plik {0} już istnieje. Przepisać?
 File exists: Plik istnieje
 Filters: Filtry
-First playlist: {0} channels loaded.: Pierwsza playlista: załadowano {0} kanałów.
 Fullscreen (hide UI) - press ESC to exit: Pełny ekran (ukryj interfejs użytkownika) — naciśnij ESC, aby wyjść
 Geo & Country: Geo i kraj
 GeoBlocked: GeoBlokada
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Nieprawidłowy JSON: {0}
 Invalid playlist URL.: Nieprawidłowy adres URL playlisty.
 Invalid URL.: Nieprawidłowy adres URL.
 Json: Jsona
-JSON files|*.json|M3U files|*.m3u: Pliki JSON|*.json|Pliki M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Pliki JSON|*.json|Pliki M3U|*.m3u;*.m3u8|Wszystkie pliki|*.*
 JSON Property: Właściwość JSON
 Ko-fi: Kawa
 Language: Język
@@ -215,6 +218,8 @@ Logos Subfolder: Podfolder Logos
 Map JSON properties to channel fields:: Mapuj właściwości JSON na pola kanału:
 Mapping saved for future imports of this file.: Mapowanie zapisane do przyszłego importu tego pliku.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Progi dopasowania – ustaw czułość dopasowania rozmytego dla EPG i logo.
+Move to Group: Przejdź do grupy
+Moved: Wzruszony
 Name: Nazwa
 Nanoid: Nanoid
 Network error: Błąd sieci
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Nie załadowano żadnych kanałów z adresu UR
 No channels loaded from M3U.: Brak kanałów załadowanych z M3U.
 No channels loaded.: Nie załadowano żadnych kanałów.
 No channels mapped: Brak mapowanych kanałów
-No comparison results. Run Compare first.: Brak wyników porównawczych. Najpierw uruchom Porównaj.
+No channels selected.: Nie wybrano kanałów.
 No duplicate URLs found.: Nie znaleziono zduplikowanych adresów URL.
 No EPG data: Brak danych EPG
 No EPG information available for this channel.: Brak informacji EPG dla tego kanału.
@@ -263,7 +268,6 @@ Playlist Editor: Edytor playlisty
 Playlist Loading: Ładowanie listy odtwarzania
 Playlist Management: Zarządzanie listami odtwarzania
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repozytorium playlist: OwnerPlugins/TivuStreamList (strumienie włoskie i międzynarodowe)
-Playlists loaded: Załadowano playlisty
 Please select a program first.: Najpierw wybierz program.
 Preview (first 5 channels): Podgląd (pierwsze 5 kanałów)
 Preview error: {0}: Błąd podglądu: {0}
@@ -296,7 +300,9 @@ Search channel: : Wyszukaj kanał:
 Search channels by name: Wyszukaj kanały według nazwy
 Search channels...: Wyszukaj kanały...
 sec: sek
+Second playlist loaded: {0} channels: Załadowano drugą playlistę: {0} kanałów
 Select a playlist first.: Najpierw wybierz playlistę.
+Select target group:: Wybierz grupę docelową:
 Select Theme: Wybierz Motyw
 Selected theme is saved and applied on restart.: Wybrany motyw zostanie zapisany i zastosowany po ponownym uruchomieniu.
 Send: Wysłać

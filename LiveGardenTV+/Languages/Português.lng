@@ -28,6 +28,7 @@ Add Mapping: Adicionar mapeamento
 Adjust buffer size (1-10 seconds): Ajustar o tamanho do buffer (1-10 segundos)
 Advanced IDs: IDs avançados
 Application status: Status do aplicativo
+Apply: Aplicar
 Apply changes: Aplicar alterações
 Apply Filters: Aplicar filtros
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Tem certeza de que deseja recarregar a GUI do Enigma2?\n\nA interface será reiniciada (tela preta por alguns segundos).
@@ -54,6 +55,7 @@ channels from URL: canais do URL
 Check Duplicates: Verifique duplicatas
 Check for updates: Verifique se há atualizações
 Check URLs: Verifique URLs
+Clear: Claro
 Clear EPG Cache: Limpar cache EPG
 Clear Filters: Limpar filtros
 Clear search: Limpar pesquisa
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Comparar...
 Comparison results: {0} channels: Resultados da comparação: {0} canais
 Configuration Missing: Configuração ausente
+Confirm Delete: Confirmar exclusão
 Confirm Reload: Confirmar recarga
 Connect: Conectar
 Connected: Conectado
+Copied: Copiado
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: País
 Credits: Créditos
+Delete channel '{0}'?: Excluir canal '{0}'?
 Delete Group: Excluir grupo
 Delete Selected: Excluir selecionado
+Deleted: Excluído
 Description: Descrição
 Details: Detalhes
 Developed by Lululla: Desenvolvido por Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Insira o URL da lista de reprodução (JSON o
 Enter playlist URL (M3U or JSON):: Insira o URL da lista de reprodução (M3U ou JSON):
 EPG: EPG
 Epg & Favorites: Epg e Favoritos
+EPG & Favorites: EPG e Favoritos
 Epg & Logos: Epg e logotipos
 EPG & Logos: EPG e logotipos
 EPG cache cleared successfully.: Cache EPG limpo com sucesso.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Erro ao limpar o cache: {0}
 Error loading: Erro ao carregar
 Error loading EPG list: {0}: Erro ao carregar a lista EPG: {0}
 Error loading file: {0}: Erro ao carregar arquivo: {0}
-Error loading file: {0}: Erro ao carregar arquivo: {0}
 Error loading playlists: {0}: Erro ao carregar playlists: {0}
-Error loading URL: {0}: Erro ao carregar o URL: {0}
 Error loading URL: {0}: Erro ao carregar o URL: {0}
 ERROR: player.html not found.: ERRO: player.html não encontrado.
 Exit: Saída
-Export: Exportar
 Export all: Exportar tudo
 Export Favorites: Exportar favoritos
 Export Filtered JSON: Exportar JSON filtrado
@@ -136,7 +140,9 @@ Export missing: Exportação ausente
 Export OK: Exportar OK
 Export only favorite channels to a new M3U file: Exporte apenas canais favoritos para um novo arquivo M3U
 Export results as JSON or M3U – export missing channels or all channels.: Exporte resultados como JSON ou M3U – exporte canais ausentes ou todos os canais.
-Exported channels: Canais exportados
+Export selected: Exportar selecionado
+Exported: Exportado
+Exported {0} channels to {1}: {0} canais exportados para {1}
 Extracting update...: Extraindo atualização...
 Failed to download playlist: Falha ao baixar a lista de reprodução
 Failed to load playlist: Falha ao carregar a playlist
@@ -148,7 +154,6 @@ Fetch Logos: Buscar logotipos
 File {0} already exists. Overwrite?: O arquivo {0} já existe. Substituir?
 File exists: O arquivo existe
 Filters: Filtros
-First playlist: {0} channels loaded.: Primeira playlist: {0} canais carregados.
 Fullscreen (hide UI) - press ESC to exit: Tela cheia (ocultar UI) - pressione ESC para sair
 Geo & Country: Geografia e país
 GeoBlocked: Geobloqueado
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON inválido: {0}
 Invalid playlist URL.: URL da lista de reprodução inválido.
 Invalid URL.: URL inválido.
 Json: JSON
-JSON files|*.json|M3U files|*.m3u: Arquivos JSON|*.json|Arquivos M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Arquivos JSON|*.json|Arquivos M3U|*.m3u;*.m3u8|Todos os arquivos|*.*
 JSON Property: Propriedade JSON
 Ko-fi: Café
 Language: Linguagem
@@ -215,6 +218,8 @@ Logos Subfolder: Subpasta Logotipos
 Map JSON properties to channel fields:: Mapeie propriedades JSON para campos de canal:
 Mapping saved for future imports of this file.: Mapeamento salvo para futuras importações deste arquivo.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Limites de correspondência – defina a sensibilidade de correspondência difusa para EPG e logotipos.
+Move to Group: Mover para grupo
+Moved: Movido
 Name: Nome
 Nanoid: Nanóide
 Network error: Erro de rede
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Nenhum canal carregado do URL M3U.
 No channels loaded from M3U.: Nenhum canal carregado do M3U.
 No channels loaded.: Nenhum canal carregado.
 No channels mapped: Nenhum canal mapeado
-No comparison results. Run Compare first.: Nenhum resultado de comparação. Execute Comparar primeiro.
+No channels selected.: Nenhum canal selecionado.
 No duplicate URLs found.: Nenhum URL duplicado encontrado.
 No EPG data: Sem dados EPG
 No EPG information available for this channel.: Nenhuma informação EPG disponível para este canal.
@@ -263,7 +268,6 @@ Playlist Editor: Editor de lista de reprodução
 Playlist Loading: Carregando lista de reprodução
 Playlist Management: Gerenciamento de lista de reprodução
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repositório de lista de reprodução: OwnerPlugins/TivuStreamList (streams italianos e internacionais)
-Playlists loaded: Listas de reprodução carregadas
 Please select a program first.: Selecione um programa primeiro.
 Preview (first 5 channels): Pré-visualização (primeiros 5 canais)
 Preview error: {0}: Erro de visualização: {0}
@@ -296,7 +300,9 @@ Search channel: : Canal de pesquisa:
 Search channels by name: Pesquise canais por nome
 Search channels...: Pesquisar canais...
 sec: segundo
+Second playlist loaded: {0} channels: Segunda playlist carregada: {0} canais
 Select a playlist first.: Selecione uma lista de reprodução primeiro.
+Select target group:: Selecione o grupo-alvo:
 Select Theme: Selecione o tema
 Selected theme is saved and applied on restart.: O tema selecionado é salvo e aplicado na reinicialização.
 Send: Enviar

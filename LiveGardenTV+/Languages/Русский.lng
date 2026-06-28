@@ -28,6 +28,7 @@ Add Mapping: Добавить сопоставление
 Adjust buffer size (1-10 seconds): Отрегулируйте размер буфера (1–10 секунд)
 Advanced IDs: Расширенные идентификаторы
 Application status: Статус заявки
+Apply: Применять
 Apply changes: Применить изменения
 Apply Filters: Применить фильтры
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Вы уверены, что хотите перезагрузить графический интерфейс Enigma2?\n\nИнтерфейс перезапустится (черный экран в течение нескольких секунд).
@@ -54,6 +55,7 @@ channels from URL: каналы из URL
 Check Duplicates: Проверьте дубликаты
 Check for updates: Проверьте наличие обновлений
 Check URLs: Проверить URL-адреса
+Clear: Прозрачный
 Clear EPG Cache: Очистить кэш EPG
 Clear Filters: Очистить фильтры
 Clear search: Очистить поиск
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Сравнивать...
 Comparison results: {0} channels: Результаты сравнения: {0} каналов
 Configuration Missing: Конфигурация отсутствует
+Confirm Delete: Подтвердить удаление
 Confirm Reload: Подтвердить перезагрузку
 Connect: Соединять
 Connected: Подключено
+Copied: Скопировано
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Страна
 Credits: Кредиты
+Delete channel '{0}'?: Удалить канал "{0}"?
 Delete Group: Удалить группу
 Delete Selected: Удалить выбранное
+Deleted: Удалено
 Description: Описание
 Details: Подробности
 Developed by Lululla: Разработано Лулуллой
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Введите URL-адрес плейлис�
 Enter playlist URL (M3U or JSON):: Введите URL-адрес плейлиста (M3U или JSON):
 EPG: электронная программа передач
 Epg & Favorites: EPG и избранное
+EPG & Favorites: EPG и избранное
 Epg & Logos: EPG и логотипы
 EPG & Logos: Электронная программа передач и логотипы
 EPG cache cleared successfully.: Кэш EPG успешно очищен.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Ошибка очистки кэша: {0}
 Error loading: Ошибка загрузки
 Error loading EPG list: {0}: Ошибка загрузки списка EPG: {0}.
 Error loading file: {0}: Ошибка загрузки файла: {0}
-Error loading file: {0}: Ошибка загрузки файла: {0}
 Error loading playlists: {0}: Ошибка загрузки плейлистов: {0}
-Error loading URL: {0}: Ошибка загрузки URL: {0}.
 Error loading URL: {0}: Ошибка загрузки URL: {0}.
 ERROR: player.html not found.: ОШИБКА: player.html не найден.
 Exit: Выход
-Export: Экспорт
 Export all: Экспортировать все
 Export Favorites: Экспортировать избранное
 Export Filtered JSON: Экспорт отфильтрованного JSON
@@ -136,7 +140,9 @@ Export missing: Экспорт отсутствует
 Export OK: Экспортировать ОК
 Export only favorite channels to a new M3U file: Экспортируйте только любимые каналы в новый файл M3U.
 Export results as JSON or M3U – export missing channels or all channels.: Экспортируйте результаты в формате JSON или M3U — экспортируйте недостающие каналы или все каналы.
-Exported channels: Экспортированные каналы
+Export selected: Экспортировать выбранное
+Exported: Экспортировано
+Exported {0} channels to {1}: Экспортировано {0} каналов в {1}.
 Extracting update...: Извлечение обновления...
 Failed to download playlist: Не удалось загрузить плейлист
 Failed to load playlist: Не удалось загрузить плейлист
@@ -148,7 +154,6 @@ Fetch Logos: Получить логотипы
 File {0} already exists. Overwrite?: Файл {0} уже существует. Перезаписать?
 File exists: Файл существует
 Filters: Фильтры
-First playlist: {0} channels loaded.: Первый плейлист: загружено {0} каналов.
 Fullscreen (hide UI) - press ESC to exit: Полноэкранный режим (скрыть пользовательский интерфейс) — нажмите ESC, чтобы выйти
 Geo & Country: Гео и страна
 GeoBlocked: Геоблокировка
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Неверный JSON: {0}
 Invalid playlist URL.: Неверный URL-адрес плейлиста.
 Invalid URL.: Неверный URL-адрес.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: Файлы JSON|*.json|Файлы M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Файлы JSON|*.json|Файлы M3U|*.m3u;*.m3u8|Все файлы|*.*
 JSON Property: Свойство JSON
 Ko-fi: Кофе
 Language: Язык
@@ -215,6 +218,8 @@ Logos Subfolder: Подпапка «Логотипы»
 Map JSON properties to channel fields:: Сопоставьте свойства JSON с полями канала:
 Mapping saved for future imports of this file.: Сопоставление сохранено для будущего импорта этого файла.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Пороги соответствия — установите чувствительность нечеткого совпадения для EPG и логотипов.
+Move to Group: Перейти в группу
+Moved: Взолнованный
 Name: Имя
 Nanoid: Наноид
 Network error: Ошибка сети
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Никакие каналы не загруж�
 No channels loaded from M3U.: Никакие каналы не загружаются из M3U.
 No channels loaded.: Каналы не загружены.
 No channels mapped: Каналы не сопоставлены
-No comparison results. Run Compare first.: Нет результатов сравнения. Сначала запустите «Сравнить».
+No channels selected.: Каналы не выбраны.
 No duplicate URLs found.: Повторяющихся URL-адресов не обнаружено.
 No EPG data: Нет данных EPG
 No EPG information available for this channel.: Для этого канала нет информации EPG.
@@ -263,7 +268,6 @@ Playlist Editor: Редактор плейлистов
 Playlist Loading: Загрузка плейлиста
 Playlist Management: Управление плейлистами
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Репозиторий плейлистов: OwnerPlugins/TivuStreamList (итальянские и международные потоки)
-Playlists loaded: Плейлисты загружены
 Please select a program first.: Пожалуйста, сначала выберите программу.
 Preview (first 5 channels): Предварительный просмотр (первые 5 каналов)
 Preview error: {0}: Ошибка предварительного просмотра: {0}
@@ -296,7 +300,9 @@ Search channel: : Поиск канала:
 Search channels by name: Поиск каналов по названию
 Search channels...: Поиск каналов...
 sec: сек
+Second playlist loaded: {0} channels: Загружен второй плейлист: {0} каналов.
 Select a playlist first.: Сначала выберите плейлист.
+Select target group:: Выберите целевую группу:
 Select Theme: Выберите тему
 Selected theme is saved and applied on restart.: Выбранная тема сохраняется и применяется при перезапуске.
 Send: Отправлять

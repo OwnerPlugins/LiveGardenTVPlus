@@ -28,6 +28,7 @@ Add Mapping: რუკების დამატება
 Adjust buffer size (1-10 seconds): ბუფერის ზომის კორექტირება (1-10 წამი)
 Advanced IDs: გაფართოებული პირადობის მოწმობები
 Application status: განაცხადის სტატუსი
+Apply: მიმართვა
 Apply changes: ცვლილებების გამოყენება
 Apply Filters: ფილტრების გამოყენება
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: დარწმუნებული ხართ, რომ გსურთ გადატვირთოთ Enigma2 GUI?\n\nინტერფეისი გადაიტვირთება (შავი ეკრანი რამდენიმე წამით).
@@ -54,6 +55,7 @@ channels from URL: არხები URL-დან
 Check Duplicates: შეამოწმეთ დუბლიკატები
 Check for updates: შეამოწმეთ განახლებები
 Check URLs: შეამოწმეთ URL-ები
+Clear: წმინდა
 Clear EPG Cache: EPG ქეშის გასუფთავება
 Clear Filters: ფილტრების გასუფთავება
 Clear search: ძიების გასუფთავება
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: შეადარე...
 Comparison results: {0} channels: შედარების შედეგები: {0} არხი
 Configuration Missing: კონფიგურაცია აკლია
+Confirm Delete: დაადასტურეთ წაშლა
 Confirm Reload: დაადასტურეთ გადატვირთვა
 Connect: დაკავშირება
 Connected: დაკავშირებულია
+Copied: კოპირებულია
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: ქვეყანა
 Credits: კრედიტები
+Delete channel '{0}'?: წაშალოთ არხი „{0}“?
 Delete Group: ჯგუფის წაშლა
 Delete Selected: არჩეული წაშლა
+Deleted: წაშლილია
 Description: აღწერა
 Details: დეტალები
 Developed by Lululla: შემუშავებული Lululla-ს მიერ
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: შეიყვანეთ დასაკ�
 Enter playlist URL (M3U or JSON):: შეიყვანეთ დასაკრავი სიის URL (M3U ან JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favorites
+EPG & Favorites: EPG და ფავორიტები
 Epg & Logos: EPG & ლოგოები
 EPG & Logos: EPG და ლოგოები
 EPG cache cleared successfully.: EPG ქეში წარმატებით გაიწმინდა.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: შეცდომა ქეშის გასუფ
 Error loading: შეცდომა ჩატვირთვისას
 Error loading EPG list: {0}: შეცდომა EPG სიის ჩატვირთვისას: {0}
 Error loading file: {0}: შეცდომა ფაილის ჩატვირთვისას: {0}
-Error loading file: {0}: შეცდომა ფაილის ჩატვირთვისას: {0}
 Error loading playlists: {0}: შეცდომა დასაკრავი სიების ჩატვირთვისას: {0}
-Error loading URL: {0}: შეცდომა URL-ის ჩატვირთვისას: {0}
 Error loading URL: {0}: შეცდომა URL-ის ჩატვირთვისას: {0}
 ERROR: player.html not found.: შეცდომა: player.html ვერ მოიძებნა.
 Exit: გასვლა
-Export: ექსპორტი
 Export all: ექსპორტი ყველა
 Export Favorites: რჩეულების ექსპორტი
 Export Filtered JSON: გაფილტრული JSON ექსპორტი
@@ -136,7 +140,9 @@ Export missing: ექსპორტი აკლია
 Export OK: ექსპორტი OK
 Export only favorite channels to a new M3U file: მხოლოდ საყვარელი არხების ექსპორტი ახალ M3U ფაილში
 Export results as JSON or M3U – export missing channels or all channels.: შედეგების ექსპორტი JSON ან M3U სახით - დაკარგული არხების ან ყველა არხის ექსპორტი.
-Exported channels: ექსპორტირებული არხები
+Export selected: არჩეულია ექსპორტი
+Exported: ექსპორტირებული
+Exported {0} channels to {1}: ექსპორტირებულია {0} არხი {1}-ში
 Extracting update...: მიმდინარეობს განახლების ამოღება...
 Failed to download playlist: დასაკრავი სიის ჩამოტვირთვა ვერ მოხერხდა
 Failed to load playlist: დასაკრავი სიის ჩატვირთვა ვერ მოხერხდა
@@ -148,7 +154,6 @@ Fetch Logos: ლოგოს მოტანა
 File {0} already exists. Overwrite?: ფაილი {0} უკვე არსებობს. გადაწერა?
 File exists: ფაილი არსებობს
 Filters: ფილტრები
-First playlist: {0} channels loaded.: პირველი დასაკრავი სია: ჩაიტვირთა {0} არხი.
 Fullscreen (hide UI) - press ESC to exit: სრული ეკრანი (დამალე UI) - დააჭირეთ ESC გასასვლელად
 Geo & Country: გეო და ქვეყანა
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: არასწორი JSON: {0}
 Invalid playlist URL.: დასაკრავი სიის URL არასწორია.
 Invalid URL.: არასწორი URL.
 Json: ჯსონ
-JSON files|*.json|M3U files|*.m3u: JSON ფაილები|*.json|M3U ფაილები|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON ფაილები|*.json|M3U ფაილები|*.m3u;*.m3u8|ყველა ფაილი|*.*
 JSON Property: JSON საკუთრება
 Ko-fi: ყავა
 Language: ენა
@@ -215,6 +218,8 @@ Logos Subfolder: ლოგოს ქვესაქაღალდე
 Map JSON properties to channel fields:: JSON-ის თვისებების არხის ველებზე მორგება:
 Mapping saved for future imports of this file.: რუკა შენახულია ამ ფაილის მომავალი იმპორტისთვის.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: შესატყვისი ზღურბლები – დააყენეთ ბუნდოვანი შესატყვისობის მგრძნობელობა EPG-სთვის და ლოგოებისთვის.
+Move to Group: ჯგუფში გადასვლა
+Moved: გადავიდა
 Name: სახელი
 Nanoid: ნანოიდი
 Network error: ქსელის შეცდომა
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: M3U URL-დან არხი არ არ�
 No channels loaded from M3U.: M3U-დან არ არის ჩატვირთული.
 No channels loaded.: არხები არ არის ჩატვირთული.
 No channels mapped: არხები არ არის მითითებული
-No comparison results. Run Compare first.: შედარების შედეგები არ არის. ჯერ გაუშვით შედარება.
+No channels selected.: არხები არჩეული არ არის.
 No duplicate URLs found.: დუბლიკატი URL ვერ მოიძებნა.
 No EPG data: EPG მონაცემები არ არის
 No EPG information available for this channel.: ამ არხისთვის EPG ინფორმაცია არ არის ხელმისაწვდომი.
@@ -263,7 +268,6 @@ Playlist Editor: დასაკრავი სიის რედაქტო�
 Playlist Loading: დასაკრავი სიის ჩატვირთვა
 Playlist Management: დასაკრავი სიის მართვა
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): დასაკრავი სიის საცავი: OwnerPlugins/TivuStreamList (იტალიური და საერთაშორისო ნაკადები)
-Playlists loaded: დასაკრავი სიები ჩაიტვირთა
 Please select a program first.: გთხოვთ, ჯერ აირჩიოთ პროგრამა.
 Preview (first 5 channels): გადახედვა (პირველი 5 არხი)
 Preview error: {0}: გადახედვის შეცდომა: {0}
@@ -296,7 +300,9 @@ Search channel: : არხის ძიება:
 Search channels by name: მოძებნეთ არხები სახელით
 Search channels...: არხების ძიება...
 sec: წმ
+Second playlist loaded: {0} channels: ჩაიტვირთა მეორე დასაკრავი სია: {0} არხი
 Select a playlist first.: ჯერ აირჩიეთ დასაკრავი სია.
+Select target group:: აირჩიეთ სამიზნე ჯგუფი:
 Select Theme: აირჩიეთ თემა
 Selected theme is saved and applied on restart.: არჩეული თემა ინახება და გამოიყენება გადატვირთვისას.
 Send: გაგზავნა

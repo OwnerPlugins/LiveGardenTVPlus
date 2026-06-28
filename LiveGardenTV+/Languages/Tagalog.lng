@@ -28,6 +28,7 @@ Add Mapping: Magdagdag ng Mapping
 Adjust buffer size (1-10 seconds): Ayusin ang laki ng buffer (1-10 segundo)
 Advanced IDs: Mga advanced na ID
 Application status: Katayuan ng aplikasyon
+Apply: Mag-apply
 Apply changes: Ilapat ang mga pagbabago
 Apply Filters: Ilapat ang Mga Filter
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Sigurado ka bang gusto mong i-reload ang Enigma2 GUI?\n\nMagre-restart ang interface (itim na screen sa loob ng ilang segundo).
@@ -54,6 +55,7 @@ channels from URL: mga channel mula sa URL
 Check Duplicates: Suriin ang Mga Duplicate
 Check for updates: Tingnan ang mga update
 Check URLs: Suriin ang mga URL
+Clear: Maaliwalas
 Clear EPG Cache: I-clear ang EPG Cache
 Clear Filters: I-clear ang Mga Filter
 Clear search: I-clear ang paghahanap
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Ikumpara...
 Comparison results: {0} channels: Mga resulta ng paghahambing: {0} (na) channel
 Configuration Missing: Nawawala ang Configuration
+Confirm Delete: Kumpirmahin ang Tanggalin
 Confirm Reload: Kumpirmahin ang I-reload
 Connect: Kumonekta
 Connected: Nakakonekta
+Copied: Kinopya
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Bansa
 Credits: Mga kredito
+Delete channel '{0}'?: Tanggalin ang channel na '{0}'?
 Delete Group: Tanggalin ang Grupo
 Delete Selected: Tanggalin ang Napili
+Deleted: Tinanggal
 Description: Paglalarawan
 Details: Mga Detalye
 Developed by Lululla: Binuo ni Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Ilagay ang URL ng playlist (JSON o M3U):
 Enter playlist URL (M3U or JSON):: Ilagay ang URL ng playlist (M3U o JSON):
 EPG: EPG
 Epg & Favorites: Epg at Mga Paborito
+EPG & Favorites: EPG at Mga Paborito
 Epg & Logos: Epg at Mga Logo
 EPG & Logos: EPG at Mga Logo
 EPG cache cleared successfully.: Matagumpay na na-clear ang cache ng EPG.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Error sa pag-clear ng cache: {0}
 Error loading: Error sa paglo-load
 Error loading EPG list: {0}: Error sa paglo-load ng listahan ng EPG: {0}
 Error loading file: {0}: Error sa paglo-load ng file: {0}
-Error loading file: {0}: Error sa paglo-load ng file: {0}
 Error loading playlists: {0}: Error sa pag-load ng mga playlist: {0}
-Error loading URL: {0}: Error sa paglo-load ng URL: {0}
 Error loading URL: {0}: Error sa paglo-load ng URL: {0}
 ERROR: player.html not found.: ERROR: hindi nahanap ang player.html.
 Exit: Lumabas
-Export: I-export
 Export all: I-export lahat
 Export Favorites: I-export ang Mga Paborito
 Export Filtered JSON: I-export ang Naka-filter na JSON
@@ -136,7 +140,9 @@ Export missing: Nawawala ang pag-export
 Export OK: I-export ang OK
 Export only favorite channels to a new M3U file: I-export lamang ang mga paboritong channel sa isang bagong M3U file
 Export results as JSON or M3U – export missing channels or all channels.: I-export ang mga resulta bilang JSON o M3U – i-export ang mga nawawalang channel o lahat ng channel.
-Exported channels: Mga na-export na channel
+Export selected: Napili ang pag-export
+Exported: Na-export
+Exported {0} channels to {1}: Na-export ang {0} (na) channel sa {1}
 Extracting update...: Kinukuha ang update...
 Failed to download playlist: Nabigong i-download ang playlist
 Failed to load playlist: Nabigong i-load ang playlist
@@ -148,7 +154,6 @@ Fetch Logos: Kunin ang Mga Logo
 File {0} already exists. Overwrite?: Umiiral na ang file na {0}. I-overwrite?
 File exists: May file
 Filters: Mga filter
-First playlist: {0} channels loaded.: Unang playlist: {0} (na) channel ang na-load.
 Fullscreen (hide UI) - press ESC to exit: Fullscreen (itago ang UI) - pindutin ang ESC upang lumabas
 Geo & Country: Geo at Bansa
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Di-wastong JSON: {0}
 Invalid playlist URL.: Di-wastong URL ng playlist.
 Invalid URL.: Di-wastong URL.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON file|*.json|M3U file|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON file|*.json|M3U file|*.m3u;*.m3u8|Lahat ng file|*.*
 JSON Property: JSON Property
 Ko-fi: kape
 Language: Wika
@@ -215,6 +218,8 @@ Logos Subfolder: Logos Subfolder
 Map JSON properties to channel fields:: Imapa ang mga katangian ng JSON sa mga field ng channel:
 Mapping saved for future imports of this file.: Na-save ang pagmamapa para sa hinaharap na pag-import ng file na ito.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Pagtutugma ng mga threshold – magtakda ng malabo na tugma sensitivity para sa EPG at mga logo.
+Move to Group: Ilipat sa Grupo
+Moved: Inilipat
 Name: Pangalan
 Nanoid: Nanoid
 Network error: Error sa network
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Walang mga channel na na-load mula sa M3U URL.
 No channels loaded from M3U.: Walang mga channel na na-load mula sa M3U.
 No channels loaded.: Walang na-load na mga channel.
 No channels mapped: Walang mga channel na nakamapa
-No comparison results. Run Compare first.: Walang resulta ng paghahambing. Patakbuhin ang Compare muna.
+No channels selected.: Walang napiling channel.
 No duplicate URLs found.: Walang nakitang duplicate na URL.
 No EPG data: Walang data ng EPG
 No EPG information available for this channel.: Walang available na impormasyon sa EPG para sa channel na ito.
@@ -263,7 +268,6 @@ Playlist Editor: Editor ng Playlist
 Playlist Loading: Naglo-load ang Playlist
 Playlist Management: Pamamahala ng Playlist
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repository ng playlist: OwnerPlugins/TivuStreamList (Italian at international stream)
-Playlists loaded: Na-load ang mga playlist
 Please select a program first.: Mangyaring pumili muna ng isang programa.
 Preview (first 5 channels): Preview (unang 5 channel)
 Preview error: {0}: Error sa pag-preview: {0}
@@ -296,7 +300,9 @@ Search channel: : Maghanap ng channel:
 Search channels by name: Maghanap ng mga channel ayon sa pangalan
 Search channels...: Maghanap ng mga channel...
 sec: sec
+Second playlist loaded: {0} channels: Na-load ang pangalawang playlist: {0} (na) channel
 Select a playlist first.: Pumili muna ng playlist.
+Select target group:: Pumili ng target na pangkat:
 Select Theme: Piliin ang Tema
 Selected theme is saved and applied on restart.: Ang napiling tema ay nai-save at inilapat sa pag-restart.
 Send: Ipadala

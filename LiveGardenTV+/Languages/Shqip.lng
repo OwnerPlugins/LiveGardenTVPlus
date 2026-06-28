@@ -28,6 +28,7 @@ Add Mapping: Shto hartën
 Adjust buffer size (1-10 seconds): Rregullo madhësinë e tamponit (1-10 sekonda)
 Advanced IDs: ID të avancuara
 Application status: Statusi i aplikimit
+Apply: Aplikoni
 Apply changes: Aplikoni ndryshimet
 Apply Filters: Aplikoni filtrat
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Jeni i sigurt që dëshironi të ringarkoni GUI-në Enigma2?\n\nNdërfaqja do të riniset (ekrani i zi për disa sekonda).
@@ -54,6 +55,7 @@ channels from URL: kanale nga URL
 Check Duplicates: Kontrolloni Dublikatat
 Check for updates: Kontrolloni për përditësime
 Check URLs: Kontrolloni URL-të
+Clear: E qartë
 Clear EPG Cache: Pastro cache EPG
 Clear Filters: Pastro filtrat
 Clear search: Pastro kërkimin
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Krahaso...
 Comparison results: {0} channels: Rezultatet e krahasimit: {0} kanale
 Configuration Missing: Mungon konfigurimi
+Confirm Delete: Konfirmo Fshij
 Confirm Reload: Konfirmo ringarkimin
 Connect: Lidheni
 Connected: Lidhur
+Copied: E kopjuar
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Vendi
 Credits: Kreditë
+Delete channel '{0}'?: Të fshihet kanali '{0}'?
 Delete Group: Fshi grupin
 Delete Selected: Fshi të zgjedhurit
+Deleted: Fshirë
 Description: Përshkrimi
 Details: Detajet
 Developed by Lululla: Zhvilluar nga Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Fut URL-në e listës së luajtjes (JSON ose 
 Enter playlist URL (M3U or JSON):: Fut URL-në e listës së luajtjes (M3U ose JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favoritet
+EPG & Favorites: EPG dhe të preferuarat
 Epg & Logos: EPG & logot
 EPG & Logos: EPG & logot
 EPG cache cleared successfully.: Cache EPG u pastrua me sukses.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Gabim gjatë pastrimit të memories: {0}
 Error loading: Gabim në ngarkim
 Error loading EPG list: {0}: Gabim gjatë ngarkimit të listës EPG: {0}
 Error loading file: {0}: Gabim gjatë ngarkimit të skedarit: {0}
-Error loading file: {0}: Gabim gjatë ngarkimit të skedarit: {0}
 Error loading playlists: {0}: Gabim gjatë ngarkimit të listave për luajtje: {0}
-Error loading URL: {0}: Gabim gjatë ngarkimit të URL-së: {0}
 Error loading URL: {0}: Gabim gjatë ngarkimit të URL-së: {0}
 ERROR: player.html not found.: GABIM: lojtari.html nuk u gjet.
 Exit: Dilni
-Export: Eksporto
 Export all: Eksporto të gjitha
 Export Favorites: Eksporto të preferuarat
 Export Filtered JSON: Eksporto JSON të filtruar
@@ -136,7 +140,9 @@ Export missing: Mungon eksporti
 Export OK: Eksporto OK
 Export only favorite channels to a new M3U file: Eksportoni vetëm kanalet e preferuara në një skedar të ri M3U
 Export results as JSON or M3U – export missing channels or all channels.: Eksporto rezultatet si JSON ose M3U – eksporto kanalet që mungojnë ose të gjitha kanalet.
-Exported channels: Kanalet e eksportuara
+Export selected: Eksporto u zgjodh
+Exported: Eksportohet
+Exported {0} channels to {1}: U eksportuan {0} kanale në {1}
 Extracting update...: Po nxirret përditësimi...
 Failed to download playlist: Shkarkimi i listës së luajtjes dështoi
 Failed to load playlist: Ngarkimi i listës së luajtjes dështoi
@@ -148,7 +154,6 @@ Fetch Logos: Merr logot
 File {0} already exists. Overwrite?: Skedari {0} ekziston tashmë. Mbivendosni?
 File exists: Skedari ekziston
 Filters: Filtrat
-First playlist: {0} channels loaded.: Lista e parë për luajtje: {0} kanale të ngarkuara.
 Fullscreen (hide UI) - press ESC to exit: Ekrani i plotë (fshih UI) - shtyp ESC për të dalë
 Geo & Country: Gjeo & Vendi
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON i pavlefshëm: {0}
 Invalid playlist URL.: URL e pavlefshme e listës për luajtje.
 Invalid URL.: URL e pavlefshme.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: Skedarët JSON|*.json|Skedarët M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Skedarët JSON|*.json|Skedarët M3U|*.m3u;*.m3u8|Të gjithë skedarët|*.*
 JSON Property: Pronë JSON
 Ko-fi: Kafe
 Language: Gjuha
@@ -215,6 +218,8 @@ Logos Subfolder: Nëndosja e logos
 Map JSON properties to channel fields:: Harto vetitë JSON në fushat e kanalit:
 Mapping saved for future imports of this file.: Harta u ruajt për importet e ardhshme të këtij skedari.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Pragjet e përputhjes – vendosni ndjeshmërinë e paqartë të përputhjes për EPG dhe logot.
+Move to Group: Kaloni te Grupi
+Moved: Lëvizur
 Name: Emri
 Nanoid: Nanoide
 Network error: Gabim rrjeti
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Asnjë kanal i ngarkuar nga URL M3U.
 No channels loaded from M3U.: Nuk ka kanale të ngarkuara nga M3U.
 No channels loaded.: Asnjë kanal i ngarkuar.
 No channels mapped: Nuk ka kanale të hartuara
-No comparison results. Run Compare first.: Nuk ka rezultate krahasimi. Ekzekutoni së pari Krahasoni.
+No channels selected.: Asnjë kanal i zgjedhur.
 No duplicate URLs found.: Nuk u gjetën URL dublikate.
 No EPG data: Nuk ka të dhëna EPG
 No EPG information available for this channel.: Nuk disponohet asnjë informacion EPG për këtë kanal.
@@ -263,7 +268,6 @@ Playlist Editor: Redaktori i listës së luajtjes
 Playlist Loading: Lista e luajtjes po ngarkohet
 Playlist Management: Menaxhimi i listës së luajtjes
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Depoja e listës për luajtje: OwnerPlugins/TivuStreamList (transmetime italiane dhe ndërkombëtare)
-Playlists loaded: Listat e luajtjes u ngarkuan
 Please select a program first.: Ju lutemi së pari zgjidhni një program.
 Preview (first 5 channels): Pamja paraprake (5 kanalet e para)
 Preview error: {0}: Gabim paraprak: {0}
@@ -296,7 +300,9 @@ Search channel: : Kërko kanal:
 Search channels by name: Kërkoni kanale sipas emrit
 Search channels...: Kërko kanale...
 sec: sek
+Second playlist loaded: {0} channels: Lista e dytë e luajtjes e ngarkuar: {0} kanale
 Select a playlist first.: Së pari zgjidhni një listë dëgjimi.
+Select target group:: Zgjidhni grupin e synuar:
 Select Theme: Zgjidhni Temë
 Selected theme is saved and applied on restart.: Tema e zgjedhur ruhet dhe aplikohet në rinisje.
 Send: Dërgo

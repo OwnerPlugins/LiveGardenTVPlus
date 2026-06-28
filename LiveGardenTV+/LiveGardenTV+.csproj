@@ -13,8 +13,8 @@
         <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
         <GenerateDocumentationFile>True</GenerateDocumentationFile>
         <Title>LiveGardenTVPlus</Title>
-        <AssemblyVersion>2.7</AssemblyVersion>
-        <FileVersion>2.7</FileVersion>
+        <AssemblyVersion>2.8</AssemblyVersion>
+        <FileVersion>2.8</FileVersion>
         <RepositoryUrl>https://github.com/OwnerPlugins/LiveGardenTVPlus</RepositoryUrl>
         <NeutralLanguage>en</NeutralLanguage>
         <IncludeSymbols>False</IncludeSymbols>
@@ -33,12 +33,12 @@
     </PropertyGroup>
     <!-- Package References (NuGet) -->
     <ItemGroup>
-        <PackageReference Include="GTranslate" Version="2.3.1"/>
-        <PackageReference Include="MaterialDesignThemes" Version="5.3.2"/>
-        <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3967.48"/>
-        <PackageReference Include="Newtonsoft.Json" Version="13.0.4"/>
-        <PackageReference Include="XamlAnimatedGif" Version="2.3.2"/>
-        <PackageReference Include="XmlTvSharp" Version="1.1.2"/>
+        <PackageReference Include="GTranslate" Version="2.3.1" />
+        <PackageReference Include="MaterialDesignThemes" Version="5.3.2" />
+        <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3967.48" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+        <PackageReference Include="XamlAnimatedGif" Version="2.3.2" />
+        <PackageReference Include="XmlTvSharp" Version="1.1.2" />
     </ItemGroup>
     <!-- Content files to copy to output directory -->
     <ItemGroup>
@@ -76,11 +76,11 @@
     </ItemGroup>
     <!-- Resource files (embedded in assembly, not copied separately) -->
     <ItemGroup>
-        <Resource Include="Views\avatar.gif"/>
-        <Resource Include="Views\logo-garden.png"/>
-        <Resource Include="Themes\avatar.gif"/>
-        <Resource Include="Themes\folder.png"/>
-        <Resource Include="Themes\logo-garden.png"/>
+        <Resource Include="Views\avatar.gif" />
+        <Resource Include="Views\logo-garden.png" />
+        <Resource Include="Themes\avatar.gif" />
+        <Resource Include="Themes\folder.png" />
+        <Resource Include="Themes\logo-garden.png" />
     </ItemGroup>
     <!-- License and Readme (for NuGet packaging) -->
     <ItemGroup>

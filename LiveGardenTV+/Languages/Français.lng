@@ -28,6 +28,7 @@ Add Mapping: Ajouter un mappage
 Adjust buffer size (1-10 seconds): Ajuster la taille du tampon (1 à 10 secondes)
 Advanced IDs: Identifiants avancés
 Application status: Statut de la demande
+Apply: Appliquer
 Apply changes: Appliquer les modifications
 Apply Filters: Appliquer des filtres
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Etes-vous sûr de vouloir recharger l'interface graphique d'Enigma2 ?\n\nL'interface va redémarrer (écran noir pendant quelques secondes).
@@ -54,6 +55,7 @@ channels from URL: chaînes à partir de l'URL
 Check Duplicates: Vérifier les doublons
 Check for updates: Vérifier les mises à jour
 Check URLs: Vérifier les URL
+Clear: Clair
 Clear EPG Cache: Effacer le cache EPG
 Clear Filters: Effacer les filtres
 Clear search: Effacer la recherche
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Comparer...
 Comparison results: {0} channels: Résultats de la comparaison : {0} chaînes
 Configuration Missing: Configuration manquante
+Confirm Delete: Confirmer la suppression
 Confirm Reload: Confirmer le rechargement
 Connect: Connecter
 Connected: Connecté
+Copied: Copié
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Pays
 Credits: Crédits
+Delete channel '{0}'?: Supprimer la chaîne « {0} » ?
 Delete Group: Supprimer le groupe
 Delete Selected: Supprimer la sélection
+Deleted: Supprimé
 Description: Description
 Details: Détails
 Developed by Lululla: Développé par Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Saisissez l'URL de la playlist (JSON ou M3U)�
 Enter playlist URL (M3U or JSON):: Saisissez l'URL de la playlist (M3U ou JSON) :
 EPG: EPG
 Epg & Favorites: Epg et favoris
+EPG & Favorites: EPG et favoris
 Epg & Logos: EPG et logos
 EPG & Logos: EPG et logos
 EPG cache cleared successfully.: Le cache EPG a été vidé avec succès.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Erreur lors de la suppression du cache : {0}
 Error loading: Erreur de chargement
 Error loading EPG list: {0}: Erreur lors du chargement de la liste EPG : {0}
 Error loading file: {0}: Erreur de chargement du fichier : {0}
-Error loading file: {0}: Erreur de chargement du fichier : {0}
 Error loading playlists: {0}: Erreur lors du chargement des playlists : {0}
-Error loading URL: {0}: Erreur de chargement de l'URL : {0}
 Error loading URL: {0}: Erreur de chargement de l'URL : {0}
 ERROR: player.html not found.: ERREUR : player.html introuvable.
 Exit: Sortie
-Export: Exporter
 Export all: Exporter tout
 Export Favorites: Exporter les favoris
 Export Filtered JSON: Exporter du JSON filtré
@@ -136,7 +140,9 @@ Export missing: Exportation manquante
 Export OK: Exporter OK
 Export only favorite channels to a new M3U file: Exportez uniquement les chaînes préférées vers un nouveau fichier M3U
 Export results as JSON or M3U – export missing channels or all channels.: Exportez les résultats au format JSON ou M3U – exportez les chaînes manquantes ou toutes les chaînes.
-Exported channels: Chaînes exportées
+Export selected: Exporter la sélection
+Exported: Exporté
+Exported {0} channels to {1}: {0} chaînes exportées vers {1}
 Extracting update...: Extraction de la mise à jour...
 Failed to download playlist: Échec du téléchargement de la playlist
 Failed to load playlist: Échec du chargement de la playlist
@@ -148,7 +154,6 @@ Fetch Logos: Récupérer des logos
 File {0} already exists. Overwrite?: Le fichier {0} existe déjà. Écraser?
 File exists: Le fichier existe
 Filters: Filtres
-First playlist: {0} channels loaded.: Première playlist : {0} chaînes chargées.
 Fullscreen (hide UI) - press ESC to exit: Plein écran (masquer l'interface utilisateur) - appuyez sur ESC pour quitter
 Geo & Country: Géographie et pays
 GeoBlocked: Géobloqué
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON non valide : {0}
 Invalid playlist URL.: URL de playlist non valide.
 Invalid URL.: URL invalide.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: Fichiers JSON|*.json|Fichiers M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Fichiers JSON|*.json|Fichiers M3U|*.m3u;*.m3u8|Tous les fichiers|*.*
 JSON Property: Propriété JSON
 Ko-fi: Café
 Language: Langue
@@ -215,6 +218,8 @@ Logos Subfolder: Sous-dossier Logos
 Map JSON properties to channel fields:: Mappez les propriétés JSON aux champs de canal :
 Mapping saved for future imports of this file.: Mappage enregistré pour les futures importations de ce fichier.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Seuils de correspondance : définissez la sensibilité de la correspondance floue pour l'EPG et les logos.
+Move to Group: Déplacer vers le groupe
+Moved: Déplacé
 Name: Nom
 Nanoid: Nanoide
 Network error: Erreur réseau
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Aucune chaîne chargée à partir de l'URL M3U
 No channels loaded from M3U.: Aucune chaîne chargée depuis M3U.
 No channels loaded.: Aucune chaîne chargée.
 No channels mapped: Aucune chaîne mappée
-No comparison results. Run Compare first.: Aucun résultat de comparaison. Exécutez d'abord Compare.
+No channels selected.: Aucune chaîne sélectionnée.
 No duplicate URLs found.: Aucune URL en double trouvée.
 No EPG data: Aucune donnée EPG
 No EPG information available for this channel.: Aucune information EPG disponible pour cette chaîne.
@@ -263,7 +268,6 @@ Playlist Editor: Éditeur de liste de lecture
 Playlist Loading: Chargement de la liste de lecture
 Playlist Management: Gestion des listes de lecture
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Dépôt de playlists : OwnerPlugins/TivuStreamList (flux italiens et internationaux)
-Playlists loaded: Listes de lecture chargées
 Please select a program first.: Veuillez d'abord sélectionner un programme.
 Preview (first 5 channels): Aperçu (5 premières chaînes)
 Preview error: {0}: Erreur d'aperçu : {0}
@@ -296,7 +300,9 @@ Search channel: : Chaîne de recherche :
 Search channels by name: Rechercher des chaînes par nom
 Search channels...: Rechercher des chaînes...
 sec: seconde
+Second playlist loaded: {0} channels: Deuxième playlist chargée : {0} chaînes
 Select a playlist first.: Sélectionnez d'abord une liste de lecture.
+Select target group:: Sélectionnez le groupe cible :
 Select Theme: Sélectionnez un thème
 Selected theme is saved and applied on restart.: Le thème sélectionné est enregistré et appliqué au redémarrage.
 Send: Envoyer

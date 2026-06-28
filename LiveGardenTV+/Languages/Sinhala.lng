@@ -28,6 +28,7 @@ Add Mapping: සිතියම්කරණය එකතු කරන්න
 Adjust buffer size (1-10 seconds): බෆර ප්‍රමාණය සීරුමාරු කරන්න (තත්පර 1-10)
 Advanced IDs: උසස් හැඳුනුම්පත්
 Application status: අයදුම්පත් තත්ත්වය
+Apply: අයදුම් කරන්න
 Apply changes: වෙනස්කම් යොදන්න
 Apply Filters: පෙරහන් යොදන්න
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: ඔබට Enigma2 GUI නැවත පූරණය කිරීමට අවශ්‍ය බව විශ්වාසද?\n\nඅතුරු මුහුණත නැවත ආරම්භ වනු ඇත (තත්පර කිහිපයක් සඳහා කළු තිරය).
@@ -54,6 +55,7 @@ channels from URL: URL වෙතින් නාලිකා
 Check Duplicates: අනුපිටපත් පරීක්ෂා කරන්න
 Check for updates: යාවත්කාලීන සඳහා පරීක්ෂා කරන්න
 Check URLs: URL පරීක්ෂා කරන්න
+Clear: පැහැදිලියි
 Clear EPG Cache: EPG හැඹිලිය හිස් කරන්න
 Clear Filters: පෙරහන් හිස් කරන්න
 Clear search: සෙවීම පැහැදිලි කරන්න
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: සසඳන්න...
 Comparison results: {0} channels: සංසන්දනාත්මක ප්රතිඵල: {0} නාලිකා
 Configuration Missing: වින්‍යාසය අතුරුදහන්
+Confirm Delete: මකා දැමීම තහවුරු කරන්න
 Confirm Reload: නැවත පූරණය තහවුරු කරන්න
 Connect: සම්බන්ධ කරන්න
 Connected: සම්බන්ධයි
+Copied: පිටපත් කර ඇත
 CORVOBOYS.ORG: CORVOYS.ORG
 Country: රට
 Credits: ණය
+Delete channel '{0}'?: '{0}' නාලිකාව මකන්නද?
 Delete Group: සමූහය මකන්න
 Delete Selected: තෝරාගත් මකන්න
+Deleted: මකා දමන ලදී
 Description: විස්තරය
 Details: විස්තර
 Developed by Lululla: ලුලුල්ලා විසින් වැඩි දියුණු කරන ලදී
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: ධාවන ලැයිස්තු URL ඇ
 Enter playlist URL (M3U or JSON):: ධාවන ලැයිස්තු URL ඇතුලත් කරන්න (M3U හෝ JSON):
 EPG: ඊ.පී.ජී
 Epg & Favorites: බිත්තර සහ ප්රියතම
+EPG & Favorites: EPG සහ ප්රියතම
 Epg & Logos: Epg සහ ලාංඡන
 EPG & Logos: EPG සහ ලාංඡන
 EPG cache cleared successfully.: EPG හැඹිලිය සාර්ථකව හිස් කරන ලදී.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: හැඹිලිය හිස් කිරීමේ
 Error loading: පූරණය කිරීමේ දෝෂයකි
 Error loading EPG list: {0}: EPG ලැයිස්තුව පූරණය කිරීමේ දෝෂයකි: {0}
 Error loading file: {0}: ගොනුව පූරණය කිරීමේ දෝෂයකි: {0}
-Error loading file: {0}: ගොනුව පූරණය කිරීමේ දෝෂයකි: {0}
 Error loading playlists: {0}: ධාවන ලැයිස්තු පූරණය කිරීමේ දෝෂයකි: {0}
-Error loading URL: {0}: URL පූරණය කිරීමේ දෝෂයකි: {0}
 Error loading URL: {0}: URL පූරණය කිරීමේ දෝෂයකි: {0}
 ERROR: player.html not found.: දෝෂය: player.html හමු නොවීය.
 Exit: පිටවීම
-Export: අපනයනය කරන්න
 Export all: සියල්ල අපනයනය කරන්න
 Export Favorites: ප්‍රියතමයන් අපනයනය කරන්න
 Export Filtered JSON: පෙරූ JSON අපනයනය කරන්න
@@ -136,7 +140,9 @@ Export missing: අපනයනය අතුරුදහන්
 Export OK: අපනයනය හරි
 Export only favorite channels to a new M3U file: නව M3U ගොනුවකට ප්‍රියතම නාලිකා පමණක් නිර්යාත කරන්න
 Export results as JSON or M3U – export missing channels or all channels.: JSON හෝ M3U ලෙස ප්‍රතිඵල අපනයනය කරන්න - නැතිවූ නාලිකා හෝ සියලුම නාලිකා අපනයනය කරන්න.
-Exported channels: අපනයනය කරන ලද නාලිකා
+Export selected: අපනයනය තෝරා ඇත
+Exported: අපනයනය කරන ලදී
+Exported {0} channels to {1}: නාලිකා {0}ක් {1} වෙත නිර්යාත කරන ලදී
 Extracting update...: යාවත්කාලීනය උපුටා ගනිමින්...
 Failed to download playlist: ධාවන ලැයිස්තුව බාගැනීම අසාර්ථක විය
 Failed to load playlist: ධාවන ලැයිස්තුව පූරණය කිරීමට අසමත් විය
@@ -148,7 +154,6 @@ Fetch Logos: ලාංඡන ලබා ගන්න
 File {0} already exists. Overwrite?: {0} ගොනුව දැනටමත් පවතී. උඩින් ලියන්නද?
 File exists: ගොනුව පවතී
 Filters: පෙරහන්
-First playlist: {0} channels loaded.: පළමු ධාවන ලැයිස්තුව: {0} නාලිකා පූරණය කරන ලදී.
 Fullscreen (hide UI) - press ESC to exit: සම්පූර්ණ තිරය (UI සඟවන්න) - පිටවීමට ESC ඔබන්න
 Geo & Country: භූ සහ රට
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: වලංගු නොවන JSON: {0}
 Invalid playlist URL.: වලංගු නොවන ධාවන ලැයිස්තු URL.
 Invalid URL.: වලංගු නොවන URL.
 Json: ජේසන්
-JSON files|*.json|M3U files|*.m3u: JSON ගොනු|*.json|M3U ගොනු|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON ගොනු|*.json|M3U ගොනු|*.m3u;*.m3u8|සියලු ගොනු|*.*
 JSON Property: JSON දේපල
 Ko-fi: කෝපි
 Language: භාෂාව
@@ -215,6 +218,8 @@ Logos Subfolder: ලාංඡන උප ෆෝල්ඩරය
 Map JSON properties to channel fields:: JSON ගුණාංග නාලිකා ක්ෂේත්‍ර වෙත සිතියම්ගත කරන්න:
 Mapping saved for future imports of this file.: මෙම ගොනුවේ අනාගත ආයාත කිරීම් සඳහා සිතියම්ගත කිරීම සුරකින ලදී.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: ගැළපෙන එළිපත්ත - EPG සහ ලාංඡන සඳහා නොපැහැදිලි ගැලපුම් සංවේදීතාව සකසන්න.
+Move to Group: කණ්ඩායම වෙත යන්න
+Moved: මාරු කළා
 Name: නම
 Nanoid: නැනොයිඩ්
 Network error: ජාල දෝෂයකි
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: M3U URL වෙතින් නාලිකා 
 No channels loaded from M3U.: M3U වෙතින් නාලිකා පූරණය කර නැත.
 No channels loaded.: නාලිකා පූරණය කර නැත.
 No channels mapped: සිතියම්ගත කළ නාලිකා නොමැත
-No comparison results. Run Compare first.: සංසන්දනාත්මක ප්රතිඵල නොමැත. පළමුව සංසන්දනය කරන්න.
+No channels selected.: නාලිකා කිසිවක් තෝරා නැත.
 No duplicate URLs found.: අනුපිටපත් URL හමු නොවීය.
 No EPG data: EPG දත්ත නැත
 No EPG information available for this channel.: මෙම නාලිකාව සඳහා EPG තොරතුරු නොමැත.
@@ -263,7 +268,6 @@ Playlist Editor: ධාවන ලැයිස්තු සංස්කාරක�
 Playlist Loading: ධාවන ලැයිස්තුව පූරණය වේ
 Playlist Management: ධාවන ලැයිස්තු කළමනාකරණය
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): ධාවන ලැයිස්තු ගබඩාව: OwnerPlugins/TivuStreamList (ඉතාලි සහ ජාත්‍යන්තර ප්‍රවාහ)
-Playlists loaded: ධාවන ලැයිස්තු පූරණය විය
 Please select a program first.: කරුණාකර පළමුව වැඩසටහනක් තෝරන්න.
 Preview (first 5 channels): පෙරදසුන (පළමු නාලිකා 5)
 Preview error: {0}: පෙරදසුන් දෝෂය: {0}
@@ -296,7 +300,9 @@ Search channel: : නාලිකාව සොයන්න:
 Search channels by name: නමින් නාලිකා සොයන්න
 Search channels...: නාලිකා සොයන්න...
 sec: තත්පර
+Second playlist loaded: {0} channels: දෙවන ධාවන ලැයිස්තුව පූරණය කරන ලදී: {0} නාලිකා
 Select a playlist first.: පළමුව ධාවන ලැයිස්තුවක් තෝරන්න.
+Select target group:: ඉලක්ක කණ්ඩායම තෝරන්න:
 Select Theme: තේමාව තෝරන්න
 Selected theme is saved and applied on restart.: තෝරාගත් තේමාව සුරකින අතර නැවත ආරම්භ කිරීමේදී යොදනු ලැබේ.
 Send: යවන්න

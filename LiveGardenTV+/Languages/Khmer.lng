@@ -28,6 +28,7 @@ Add Mapping: បន្ថែមការធ្វើផែនទី
 Adjust buffer size (1-10 seconds): លៃតម្រូវទំហំសតិបណ្ដោះអាសន្ន (1-10 វិនាទី)
 Advanced IDs: លេខសម្គាល់កម្រិតខ្ពស់
 Application status: ស្ថានភាពកម្មវិធី
+Apply: អនុវត្ត
 Apply changes: អនុវត្តការផ្លាស់ប្តូរ
 Apply Filters: អនុវត្តតម្រង
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: តើអ្នកប្រាកដថាចង់ផ្ទុក Enigma2 GUI ឡើងវិញទេ?\n\nចំណុចប្រទាក់នឹងចាប់ផ្តើមឡើងវិញ (អេក្រង់ខ្មៅរយៈពេលពីរបីវិនាទី)។
@@ -54,6 +55,7 @@ channels from URL: ឆានែលពី URL
 Check Duplicates: ពិនិត្យមើលស្ទួន
 Check for updates: ពិនិត្យមើលបច្ចុប្បន្នភាព
 Check URLs: ពិនិត្យ URLs
+Clear: ច្បាស់
 Clear EPG Cache: សម្អាតឃ្លាំងសម្ងាត់ EPG
 Clear Filters: ជម្រះតម្រង
 Clear search: ជម្រះការស្វែងរក
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: ប្រៀបធៀប...
 Comparison results: {0} channels: លទ្ធផលប្រៀបធៀប៖ {0} ប៉ុស្តិ៍
 Configuration Missing: បាត់ការកំណត់
+Confirm Delete: បញ្ជាក់ការលុប
 Confirm Reload: បញ្ជាក់ផ្ទុកឡើងវិញ
 Connect: ភ្ជាប់
 Connected: បានភ្ជាប់
+Copied: ចម្លង
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: ប្រទេស
 Credits: ឥណទាន
+Delete channel '{0}'?: លុប​ឆានែល '{0}'?
 Delete Group: លុបក្រុម
 Delete Selected: លុបដែលបានជ្រើសរើស
+Deleted: បានលុប
 Description: ការពិពណ៌នា
 Details: ព័ត៌មានលម្អិត
 Developed by Lululla: បង្កើតឡើងដោយ Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: បញ្ចូល URL បញ្ជីចា�
 Enter playlist URL (M3U or JSON):: បញ្ចូល URL បញ្ជីចាក់ (M3U ឬ JSON)៖
 EPG: EPG
 Epg & Favorites: Epg & ចំណូលចិត្ត
+EPG & Favorites: EPG & ចំណូលចិត្ត
 Epg & Logos: Epg & ឡូហ្គោ
 EPG & Logos: EPG & ឡូហ្គោ
 EPG cache cleared successfully.: ឃ្លាំងសម្ងាត់ EPG ត្រូវបានសម្អាតដោយជោគជ័យ។
@@ -119,13 +126,10 @@ Error clearing cache: {0}: កំហុសក្នុងការសម្អ�
 Error loading: កំហុសក្នុងការផ្ទុក
 Error loading EPG list: {0}: កំហុសក្នុងការផ្ទុកបញ្ជី EPG៖ {0}
 Error loading file: {0}: កំហុសក្នុងការផ្ទុកឯកសារ៖ {0}
-Error loading file: {0}: កំហុសក្នុងការផ្ទុកឯកសារ៖ {0}
 Error loading playlists: {0}: មាន​បញ្ហា​ក្នុង​ការ​ផ្ទុក​បញ្ជី​ចាក់៖ {0}
-Error loading URL: {0}: កំហុសក្នុងការផ្ទុក URL៖ {0}
 Error loading URL: {0}: កំហុសក្នុងការផ្ទុក URL៖ {0}
 ERROR: player.html not found.: កំហុស៖ player.html រកមិនឃើញទេ។
 Exit: ចេញ
-Export: នាំចេញ
 Export all: នាំចេញទាំងអស់។
 Export Favorites: នាំចេញចំណូលចិត្ត
 Export Filtered JSON: នាំចេញ JSON ដែលបានត្រង
@@ -136,7 +140,9 @@ Export missing: បាត់ការនាំចេញ
 Export OK: នាំចេញយល់ព្រម
 Export only favorite channels to a new M3U file: នាំចេញតែឆានែលដែលចូលចិត្តទៅឯកសារ M3U ថ្មី។
 Export results as JSON or M3U – export missing channels or all channels.: នាំចេញលទ្ធផលជា JSON ឬ M3U – នាំចេញឆានែលដែលបាត់ ឬគ្រប់ប៉ុស្តិ៍ទាំងអស់។
-Exported channels: ឆានែលដែលបាននាំចេញ
+Export selected: បានជ្រើសរើសនាំចេញ
+Exported: បាននាំចេញ
+Exported {0} channels to {1}: បាន​នាំចេញ​ឆានែល {0} ទៅ {1}
 Extracting update...: កំពុងទាញយកបច្ចុប្បន្នភាព...
 Failed to download playlist: បានបរាជ័យក្នុងការទាញយកបញ្ជីចាក់
 Failed to load playlist: បានបរាជ័យក្នុងការផ្ទុកបញ្ជីចាក់
@@ -148,7 +154,6 @@ Fetch Logos: យកឡូហ្គោ
 File {0} already exists. Overwrite?: ឯកសារ {0} មានរួចហើយ។ សរសេរជាន់លើ?
 File exists: មានឯកសារ
 Filters: តម្រង
-First playlist: {0} channels loaded.: បញ្ជីចាក់ដំបូង៖ ប៉ុស្តិ៍ {0} ត្រូវបានផ្ទុក។
 Fullscreen (hide UI) - press ESC to exit: ពេញអេក្រង់ (លាក់ UI) - ចុច ESC ដើម្បីចេញ
 Geo & Country: ភូមិសាស្ត្រ និងប្រទេស
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON មិនត្រឹមត្រូវ៖ {0}
 Invalid playlist URL.: URL បញ្ជីចាក់មិនត្រឹមត្រូវ។
 Invalid URL.: URL មិនត្រឹមត្រូវ។
 Json: ជេសុន
-JSON files|*.json|M3U files|*.m3u: ឯកសារ JSON|*.json|ឯកសារ M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: ឯកសារ JSON|*.json|M3U files|*.m3u;*.m3u8|ឯកសារទាំងអស់|*.*
 JSON Property: អចលនទ្រព្យ JSON
 Ko-fi: កាហ្វេ
 Language: ភាសា
@@ -215,6 +218,8 @@ Logos Subfolder: ថតរងឡូហ្គោ
 Map JSON properties to channel fields:: ផែនទី​លក្ខណៈ​សម្បត្តិ JSON ទៅកាន់​វាល​ឆានែល៖
 Mapping saved for future imports of this file.: ផែនទីត្រូវបានរក្សាទុកសម្រាប់ការនាំចូលឯកសារនេះនាពេលអនាគត។
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: កម្រិតនៃការផ្គូផ្គង - កំណត់ភាពរសើបនៃការប្រកួតមិនច្បាស់សម្រាប់ EPG និងនិមិត្តសញ្ញា។
+Move to Group: ផ្លាស់ទីទៅក្រុម
+Moved: បានផ្លាស់ទី
 Name: ឈ្មោះ
 Nanoid: ណាណូយ
 Network error: កំហុសបណ្តាញ
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: គ្មានឆានែលដែលបា�
 No channels loaded from M3U.: គ្មានបណ្តាញដែលបានផ្ទុកពី M3U ទេ។
 No channels loaded.: គ្មាន​ប៉ុស្តិ៍​ត្រូវ​បាន​ផ្ទុក។
 No channels mapped: គ្មាន​ប៉ុស្តិ៍​ត្រូវ​បាន​ធ្វើ​ផែនទី
-No comparison results. Run Compare first.: មិនមានលទ្ធផលប្រៀបធៀបទេ។ ដំណើរការប្រៀបធៀបដំបូង។
+No channels selected.: មិនបានជ្រើសរើសឆានែលទេ។
 No duplicate URLs found.: រកមិនឃើញ URL ស្ទួនទេ។
 No EPG data: មិនមានទិន្នន័យ EPG ទេ។
 No EPG information available for this channel.: មិនមានព័ត៌មាន EPG សម្រាប់ឆានែលនេះទេ។
@@ -263,7 +268,6 @@ Playlist Editor: កម្មវិធីនិពន្ធបញ្ជីចា
 Playlist Loading: កំពុងផ្ទុកបញ្ជីចាក់
 Playlist Management: ការគ្រប់គ្រងបញ្ជីចាក់
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): ឃ្លាំងបញ្ជីចាក់៖ OwnerPlugins/TivuStreamList (ស្ទ្រីមអ៊ីតាលី និងអន្តរជាតិ)
-Playlists loaded: បាន​ផ្ទុក​បញ្ជី​ចាក់
 Please select a program first.: សូមជ្រើសរើសកម្មវិធីជាមុនសិន។
 Preview (first 5 channels): មើលជាមុន (5 ប៉ុស្តិ៍ដំបូង)
 Preview error: {0}: កំហុសក្នុងការមើលជាមុន៖ {0}
@@ -296,7 +300,9 @@ Search channel: : ឆានែលស្វែងរក៖
 Search channels by name: ស្វែងរកឆានែលតាមឈ្មោះ
 Search channels...: ស្វែងរកប៉ុស្តិ៍...
 sec: វិ
+Second playlist loaded: {0} channels: បាន​ផ្ទុក​បញ្ជី​ចាក់​ទី​ពីរ៖ {0} ប៉ុស្តិ៍
 Select a playlist first.: ជ្រើសរើសបញ្ជីចាក់ជាមុនសិន។
+Select target group:: ជ្រើសរើសក្រុមគោលដៅ៖
 Select Theme: ជ្រើសរើសប្រធានបទ
 Selected theme is saved and applied on restart.: រចនាប័ទ្មដែលបានជ្រើសរើសត្រូវបានរក្សាទុក និងអនុវត្តនៅពេលចាប់ផ្តើមឡើងវិញ។
 Send: ផ្ញើ

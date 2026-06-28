@@ -28,6 +28,7 @@ Add Mapping: הוסף מיפוי
 Adjust buffer size (1-10 seconds): התאם את גודל המאגר (1-10 שניות)
 Advanced IDs: תעודות זהות מתקדמות
 Application status: סטטוס הבקשה
+Apply: לִפְנוֹת
 Apply changes: החל שינויים
 Apply Filters: החל מסננים
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: האם אתה בטוח שברצונך לטעון מחדש את ה-Enigma2 GUI?\n\nהממשק יופעל מחדש (מסך שחור למשך מספר שניות).
@@ -54,6 +55,7 @@ channels from URL: ערוצים מ-URL
 Check Duplicates: סמן כפילויות
 Check for updates: בדוק אם יש עדכונים
 Check URLs: בדוק כתובות אתרים
+Clear: בָּרוּר
 Clear EPG Cache: נקה מטמון EPG
 Clear Filters: נקה מסננים
 Clear search: נקה חיפוש
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: לְהַשְׁווֹת...
 Comparison results: {0} channels: תוצאות השוואה: {0} ערוצים
 Configuration Missing: תצורה חסרה
+Confirm Delete: אשר את המחיקה
 Confirm Reload: אשר טען מחדש
 Connect: לְחַבֵּר
 Connected: מְחוּבָּר
+Copied: מוּעֲתָק
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: מְדִינָה
 Credits: קרדיטים
+Delete channel '{0}'?: למחוק את הערוץ '{0}'?
 Delete Group: מחק קבוצה
 Delete Selected: מחק את נבחרות
+Deleted: נמחק
 Description: תֵאוּר
 Details: פרטים
 Developed by Lululla: פותח על ידי Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: הזן כתובת אתר של רשימת הש
 Enter playlist URL (M3U or JSON):: הזן כתובת אתר של רשימת השמעה (M3U או JSON):
 EPG: EPG
 Epg & Favorites: EPG ומועדפים
+EPG & Favorites: EPG ומועדפים
 Epg & Logos: EPG ולוגו
 EPG & Logos: EPG ולוגו
 EPG cache cleared successfully.: מטמון ה-EPG נוקה בהצלחה.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: שגיאה בניקוי המטמון: {0}
 Error loading: שגיאה בטעינה
 Error loading EPG list: {0}: שגיאה בטעינת רשימת EPG: {0}
 Error loading file: {0}: שגיאה בטעינת הקובץ: {0}
-Error loading file: {0}: שגיאה בטעינת הקובץ: {0}
 Error loading playlists: {0}: שגיאה בטעינת רשימות השמעה: {0}
-Error loading URL: {0}: שגיאה בטעינת כתובת אתר: {0}
 Error loading URL: {0}: שגיאה בטעינת כתובת אתר: {0}
 ERROR: player.html not found.: שגיאה: player.html לא נמצא.
 Exit: יְצִיאָה
-Export: יְצוּא
 Export all: ייצא הכל
 Export Favorites: ייצא מועדפים
 Export Filtered JSON: ייצא JSON מסונן
@@ -136,7 +140,9 @@ Export missing: יצוא חסר
 Export OK: ייצוא אישור
 Export only favorite channels to a new M3U file: ייצא רק ערוצים מועדפים לקובץ M3U חדש
 Export results as JSON or M3U – export missing channels or all channels.: ייצא תוצאות כ-JSON או M3U - ייצא ערוצים חסרים או את כל הערוצים.
-Exported channels: ערוצים מיוצאים
+Export selected: ייצוא נבחר
+Exported: מְיוּצָא
+Exported {0} channels to {1}: ייצאו {0} ערוצים אל {1}
 Extracting update...: מחלץ עדכון...
 Failed to download playlist: הורדת הפלייליסט נכשלה
 Failed to load playlist: טעינת הפלייליסט נכשלה
@@ -148,7 +154,6 @@ Fetch Logos: אחזר לוגו
 File {0} already exists. Overwrite?: הקובץ {0} כבר קיים. להחליף?
 File exists: הקובץ קיים
 Filters: מסננים
-First playlist: {0} channels loaded.: רשימת השמעה ראשונה: {0} ערוצים נטענו.
 Fullscreen (hide UI) - press ESC to exit: מסך מלא (הסתר ממשק משתמש) - לחץ על ESC כדי לצאת
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON לא חוקי: {0}
 Invalid playlist URL.: כתובת אתר לא חוקית של פלייליסט.
 Invalid URL.: כתובת אתר לא חוקית.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: קבצי JSON|*.json|קבצי M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: קבצי JSON|*.json|קבצי M3U|*.m3u;*.m3u8|כל הקבצים|*.*
 JSON Property: נכס JSON
 Ko-fi: קָפֶה
 Language: שָׂפָה
@@ -215,6 +218,8 @@ Logos Subfolder: תיקיית משנה לוגו
 Map JSON properties to channel fields:: מיפוי מאפייני JSON לשדות ערוצים:
 Mapping saved for future imports of this file.: המיפוי נשמר עבור ייבוא ​​עתידי של קובץ זה.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: ספי התאמה - הגדר רגישות להתאמה מטושטשת עבור EPG ולוגו.
+Move to Group: העבר לקבוצה
+Moved: נִרגָשׁ
 Name: שֵׁם
 Nanoid: ננואיד
 Network error: שגיאת רשת
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: לא נטענו ערוצים מ-URL M3U.
 No channels loaded from M3U.: לא נטענו ערוצים מ-M3U.
 No channels loaded.: לא נטענו ערוצים.
 No channels mapped: לא מופו ערוצים
-No comparison results. Run Compare first.: אין תוצאות השוואה. הפעל קודם השווה.
+No channels selected.: לא נבחרו ערוצים.
 No duplicate URLs found.: לא נמצאו כתובות URL כפולות.
 No EPG data: אין נתוני EPG
 No EPG information available for this channel.: אין מידע על EPG זמין עבור ערוץ זה.
@@ -263,7 +268,6 @@ Playlist Editor: עורך רשימות השמעה
 Playlist Loading: פלייליסט טוען
 Playlist Management: ניהול רשימת השמעה
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): מאגר רשימות השמעה: OwnerPlugins/TivuStreamList (זרמים איטלקיים ובינלאומיים)
-Playlists loaded: רשימות השמעה נטענו
 Please select a program first.: אנא בחר תחילה תוכנית.
 Preview (first 5 channels): תצוגה מקדימה (5 הערוצים הראשונים)
 Preview error: {0}: שגיאת תצוגה מקדימה: {0}
@@ -296,7 +300,9 @@ Search channel: : חיפוש ערוץ:
 Search channels by name: חפש ערוצים לפי שם
 Search channels...: חפש ערוצים...
 sec: שניות
+Second playlist loaded: {0} channels: פלייליסט שני נטען: {0} ערוצים
 Select a playlist first.: תחילה בחר רשימת השמעה.
+Select target group:: בחר קבוצת יעד:
 Select Theme: בחר ערכת נושא
 Selected theme is saved and applied on restart.: ערכת הנושא שנבחרה נשמרת ומוחלת בהפעלה מחדש.
 Send: לִשְׁלוֹחַ

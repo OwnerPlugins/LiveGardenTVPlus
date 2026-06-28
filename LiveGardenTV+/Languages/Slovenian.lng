@@ -28,6 +28,7 @@ Add Mapping: Dodaj preslikavo
 Adjust buffer size (1-10 seconds): Prilagodite velikost medpomnilnika (1–10 sekund)
 Advanced IDs: Napredni ID-ji
 Application status: Stanje aplikacije
+Apply: Prijavite se
 Apply changes: Uporabi spremembe
 Apply Filters: Uporabi filtre
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ali ste prepričani, da želite znova naložiti Enigma2 GUI?\n\nVmesnik se bo znova zagnal (črn zaslon za nekaj sekund).
@@ -54,6 +55,7 @@ channels from URL: kanalov iz naslova URL
 Check Duplicates: Preverite dvojnike
 Check for updates: Preverite posodobitve
 Check URLs: Preverite URL-je
+Clear: jasno
 Clear EPG Cache: Počisti predpomnilnik EPG
 Clear Filters: Počisti filtre
 Clear search: Počisti iskanje
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Primerjaj...
 Comparison results: {0} channels: Rezultati primerjave: {0} kanalov
 Configuration Missing: Manjka konfiguracija
+Confirm Delete: Potrdite Izbriši
 Confirm Reload: Potrdite ponovno nalaganje
 Connect: Povežite se
 Connected: Povezan
+Copied: Kopirano
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Država
 Credits: Krediti
+Delete channel '{0}'?: Želite izbrisati kanal '{0}'?
 Delete Group: Izbriši skupino
 Delete Selected: Izbriši izbrano
+Deleted: Izbrisano
 Description: Opis
 Details: Podrobnosti
 Developed by Lululla: Razvil Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Vnesite URL seznama predvajanja (JSON ali M3U
 Enter playlist URL (M3U or JSON):: Vnesite URL seznama predvajanja (M3U ali JSON):
 EPG: EPG
 Epg & Favorites: EPG & Priljubljene
+EPG & Favorites: EPG & Priljubljene
 Epg & Logos: EPG in logotipi
 EPG & Logos: EPG in logotipi
 EPG cache cleared successfully.: Predpomnilnik EPG je bil uspešno počiščen.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Napaka pri čiščenju predpomnilnika: {0}
 Error loading: Napaka pri nalaganju
 Error loading EPG list: {0}: Napaka pri nalaganju seznama EPG: {0}
 Error loading file: {0}: Napaka pri nalaganju datoteke: {0}
-Error loading file: {0}: Napaka pri nalaganju datoteke: {0}
 Error loading playlists: {0}: Napaka pri nalaganju seznamov predvajanja: {0}
-Error loading URL: {0}: Napaka pri nalaganju URL-ja: {0}
 Error loading URL: {0}: Napaka pri nalaganju URL-ja: {0}
 ERROR: player.html not found.: NAPAKA: player.html ni najden.
 Exit: Izhod
-Export: Izvozi
 Export all: Izvozi vse
 Export Favorites: Izvoz priljubljenih
 Export Filtered JSON: Izvozi filtriran JSON
@@ -136,7 +140,9 @@ Export missing: Manjka izvoz
 Export OK: Izvoz OK
 Export only favorite channels to a new M3U file: Izvozite samo priljubljene kanale v novo datoteko M3U
 Export results as JSON or M3U – export missing channels or all channels.: Izvoz rezultatov kot JSON ali M3U – izvoz manjkajočih kanalov ali vseh kanalov.
-Exported channels: Izvoženi kanali
+Export selected: Izvoz izbran
+Exported: Izvoženo
+Exported {0} channels to {1}: Izvoženih {0} kanalov v {1}
 Extracting update...: Ekstrahiranje posodobitve ...
 Failed to download playlist: Prenos seznama predvajanja ni uspel
 Failed to load playlist: Seznama predvajanja ni bilo mogoče naložiti
@@ -148,7 +154,6 @@ Fetch Logos: Pridobi logotipe
 File {0} already exists. Overwrite?: Datoteka {0} že obstaja. Prepisati?
 File exists: Datoteka obstaja
 Filters: Filtri
-First playlist: {0} channels loaded.: Prvi seznam predvajanja: {0} naloženih kanalov.
 Fullscreen (hide UI) - press ESC to exit: Celozaslonski način (skrij uporabniški vmesnik) - pritisnite ESC za izhod
 Geo & Country: Geo in država
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Neveljaven JSON: {0}
 Invalid playlist URL.: Neveljaven URL seznama predvajanja.
 Invalid URL.: Neveljaven URL.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: Datoteke JSON|*.json|Datoteke M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Datoteke JSON|*.json|Datoteke M3U|*.m3u;*.m3u8|Vse datoteke|*.*
 JSON Property: Lastnost JSON
 Ko-fi: kava
 Language: Jezik
@@ -215,6 +218,8 @@ Logos Subfolder: Podmapa Logotipi
 Map JSON properties to channel fields:: Preslikaj lastnosti JSON v polja kanala:
 Mapping saved for future imports of this file.: Preslikava je shranjena za prihodnje uvoze te datoteke.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Pragovi ujemanja – nastavite občutljivost mehkega ujemanja za EPG in logotipe.
+Move to Group: Premakni se v skupino
+Moved: Premaknjen
 Name: Ime
 Nanoid: Nanoid
 Network error: Omrežna napaka
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Z URL-ja M3U ni naložen noben kanal.
 No channels loaded from M3U.: Iz M3U ni naložen noben kanal.
 No channels loaded.: Ni naloženih kanalov.
 No channels mapped: Ni preslikanih kanalov
-No comparison results. Run Compare first.: Ni rezultatov primerjave. Najprej zaženite Primerjaj.
+No channels selected.: Ni izbranih kanalov.
 No duplicate URLs found.: Ni podvojenih URL-jev.
 No EPG data: Ni podatkov EPG
 No EPG information available for this channel.: Za ta kanal ni na voljo nobenih informacij EPG.
@@ -263,7 +268,6 @@ Playlist Editor: Urejevalnik seznamov predvajanja
 Playlist Loading: Seznam predvajanja se nalaga
 Playlist Management: Upravljanje seznama predvajanja
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repozitorij seznamov predvajanja: OwnerPlugins/TivuStreamList (italijanski in mednarodni tokovi)
-Playlists loaded: Seznami predvajanja so naloženi
 Please select a program first.: Najprej izberite program.
 Preview (first 5 channels): Predogled (prvih 5 kanalov)
 Preview error: {0}: Napaka predogleda: {0}
@@ -296,7 +300,9 @@ Search channel: : Išči kanal:
 Search channels by name: Iskanje kanalov po imenu
 Search channels...: Iskanje kanalov ...
 sec: sek
+Second playlist loaded: {0} channels: Naložen drugi seznam predvajanja: {0} kanalov
 Select a playlist first.: Najprej izberite seznam predvajanja.
+Select target group:: Izberite ciljno skupino:
 Select Theme: Izberite Tema
 Selected theme is saved and applied on restart.: Izbrana tema se shrani in uporabi ob ponovnem zagonu.
 Send: Pošlji

@@ -28,6 +28,7 @@ Add Mapping: เพิ่มการทำแผนที่
 Adjust buffer size (1-10 seconds): ปรับขนาดบัฟเฟอร์ (1-10 วินาที)
 Advanced IDs: รหัสขั้นสูง
 Application status: สถานะการสมัคร
+Apply: นำมาใช้
 Apply changes: ใช้การเปลี่ยนแปลง
 Apply Filters: ใช้ตัวกรอง
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: คุณแน่ใจหรือไม่ว่าต้องการโหลด Enigma2 GUI ใหม่\n\nอินเทอร์เฟซจะรีสตาร์ท (หน้าจอสีดำไม่กี่วินาที)
@@ -54,6 +55,7 @@ channels from URL: ช่องทางจาก URL
 Check Duplicates: ตรวจสอบรายการที่ซ้ำกัน
 Check for updates: ตรวจสอบการอัปเดต
 Check URLs: ตรวจสอบ URL
+Clear: ชัดเจน
 Clear EPG Cache: ล้างแคช EPG
 Clear Filters: ล้างตัวกรอง
 Clear search: ล้างการค้นหา
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: เปรียบเทียบ...
 Comparison results: {0} channels: ผลการเปรียบเทียบ: {0} ช่อง
 Configuration Missing: การกำหนดค่าหายไป
+Confirm Delete: ยืนยันการลบ
 Confirm Reload: ยืนยันการโหลดซ้ำ
 Connect: เชื่อมต่อ
 Connected: เชื่อมต่อแล้ว
+Copied: คัดลอกแล้ว
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: ประเทศ
 Credits: เครดิต
+Delete channel '{0}'?: ลบช่อง '{0}' หรือไม่
 Delete Group: ลบกลุ่ม
 Delete Selected: ลบที่เลือก
+Deleted: ลบแล้ว
 Description: คำอธิบาย
 Details: รายละเอียด
 Developed by Lululla: พัฒนาโดย Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: ป้อน URL เพลย์ลิสต�
 Enter playlist URL (M3U or JSON):: ป้อน URL เพลย์ลิสต์ (M3U หรือ JSON):
 EPG: อีพีจี
 Epg & Favorites: Epg และรายการโปรด
+EPG & Favorites: EPG และรายการโปรด
 Epg & Logos: Epg และโลโก้
 EPG & Logos: EPG และโลโก้
 EPG cache cleared successfully.: ล้างแคช EPG เรียบร้อยแล้ว
@@ -119,13 +126,10 @@ Error clearing cache: {0}: เกิดข้อผิดพลาดในก�
 Error loading: เกิดข้อผิดพลาดในการโหลด
 Error loading EPG list: {0}: เกิดข้อผิดพลาดในการโหลดรายการ EPG: {0}
 Error loading file: {0}: เกิดข้อผิดพลาดในการโหลดไฟล์: {0}
-Error loading file: {0}: เกิดข้อผิดพลาดในการโหลดไฟล์: {0}
 Error loading playlists: {0}: เกิดข้อผิดพลาดในการโหลดเพลย์ลิสต์: {0}
-Error loading URL: {0}: เกิดข้อผิดพลาดในการโหลด URL: {0}
 Error loading URL: {0}: เกิดข้อผิดพลาดในการโหลด URL: {0}
 ERROR: player.html not found.: ข้อผิดพลาด: ไม่พบ player.html
 Exit: ออก
-Export: ส่งออก
 Export all: ส่งออกทั้งหมด
 Export Favorites: ส่งออกรายการโปรด
 Export Filtered JSON: ส่งออก JSON ที่กรองแล้ว
@@ -136,7 +140,9 @@ Export missing: การส่งออกหายไป
 Export OK: ส่งออกตกลง
 Export only favorite channels to a new M3U file: ส่งออกเฉพาะช่องโปรดไปยังไฟล์ M3U ใหม่
 Export results as JSON or M3U – export missing channels or all channels.: ส่งออกผลลัพธ์เป็น JSON หรือ M3U – ส่งออกช่องที่ขาดหายไปหรือทุกช่อง
-Exported channels: ช่องทางที่ส่งออก
+Export selected: เลือกส่งออกแล้ว
+Exported: ส่งออกแล้ว
+Exported {0} channels to {1}: ส่งออก {0} ช่องไปยัง {1}
 Extracting update...: กำลังแยกการอัปเดต...
 Failed to download playlist: ดาวน์โหลดเพลย์ลิสต์ไม่สำเร็จ
 Failed to load playlist: ไม่สามารถโหลดเพลย์ลิสต์
@@ -148,7 +154,6 @@ Fetch Logos: ดึงโลโก้
 File {0} already exists. Overwrite?: ไฟล์ {0} มีอยู่แล้ว เขียนทับ?
 File exists: มีไฟล์อยู่
 Filters: ตัวกรอง
-First playlist: {0} channels loaded.: เพลย์ลิสต์แรก: โหลดแล้ว {0} ช่อง
 Fullscreen (hide UI) - press ESC to exit: เต็มหน้าจอ (ซ่อน UI) - กด ESC เพื่อออก
 Geo & Country: ภูมิศาสตร์และประเทศ
 GeoBlocked: ภูมิศาสตร์ที่ถูกบล็อก
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON ไม่ถูกต้อง: {0}
 Invalid playlist URL.: URL เพลย์ลิสต์ไม่ถูกต้อง
 Invalid URL.: URL ไม่ถูกต้อง
 Json: เจสัน
-JSON files|*.json|M3U files|*.m3u: ไฟล์ JSON|*.json|ไฟล์ M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: ไฟล์ JSON|*.json|ไฟล์ M3U|*.m3u;*.m3u8|ไฟล์ทั้งหมด|*.*
 JSON Property: คุณสมบัติ JSON
 Ko-fi: กาแฟ
 Language: ภาษา
@@ -215,6 +218,8 @@ Logos Subfolder: โฟลเดอร์ย่อยโลโก้
 Map JSON properties to channel fields:: แมปคุณสมบัติ JSON กับช่องช่อง:
 Mapping saved for future imports of this file.: การแมปที่บันทึกไว้สำหรับการนำเข้าไฟล์นี้ในอนาคต
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: เกณฑ์การจับคู่ - ตั้งค่าความไวของการจับคู่แบบคลุมเครือสำหรับ EPG และโลโก้
+Move to Group: ย้ายไปที่กลุ่ม
+Moved: ย้ายแล้ว
 Name: ชื่อ
 Nanoid: นาโนอยด์
 Network error: ข้อผิดพลาดของเครือข่าย
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: ไม่มีช่องที่โหล�
 No channels loaded from M3U.: ไม่มีช่องที่โหลดจาก M3U
 No channels loaded.: ไม่มีช่องโหลด
 No channels mapped: ไม่มีการแมปช่อง
-No comparison results. Run Compare first.: ไม่มีผลการเปรียบเทียบ เรียกใช้การเปรียบเทียบก่อน
+No channels selected.: ไม่ได้เลือกช่อง
 No duplicate URLs found.: ไม่พบ URL ที่ซ้ำกัน
 No EPG data: ไม่มีข้อมูล EPG
 No EPG information available for this channel.: ไม่มีข้อมูล EPG สำหรับช่องนี้
@@ -263,7 +268,6 @@ Playlist Editor: ตัวแก้ไขเพลย์ลิสต์
 Playlist Loading: กำลังโหลดเพลย์ลิสต์
 Playlist Management: การจัดการเพลย์ลิสต์
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): พื้นที่เก็บข้อมูลเพลย์ลิสต์: OwnerPlugins/TivuStreamList (สตรีมภาษาอิตาลีและต่างประเทศ)
-Playlists loaded: โหลดเพลย์ลิสต์แล้ว
 Please select a program first.: กรุณาเลือกโปรแกรมก่อน
 Preview (first 5 channels): ดูตัวอย่าง (5 ช่องแรก)
 Preview error: {0}: ข้อผิดพลาดในการดูตัวอย่าง: {0}
@@ -296,7 +300,9 @@ Search channel: : ช่องทางการค้นหา:
 Search channels by name: ค้นหาช่องตามชื่อ
 Search channels...: ค้นหาช่อง...
 sec: วินาที
+Second playlist loaded: {0} channels: โหลดเพลย์ลิสต์ที่สองแล้ว: {0} ช่อง
 Select a playlist first.: เลือกเพลย์ลิสต์ก่อน
+Select target group:: เลือกกลุ่มเป้าหมาย:
 Select Theme: เลือกธีม
 Selected theme is saved and applied on restart.: ธีมที่เลือกจะถูกบันทึกและนำไปใช้เมื่อรีสตาร์ท
 Send: ส่ง

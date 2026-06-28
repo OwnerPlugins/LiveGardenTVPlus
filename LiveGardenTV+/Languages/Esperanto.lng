@@ -28,6 +28,7 @@ Add Mapping: Aldonu Mapadon
 Adjust buffer size (1-10 seconds): Alĝustigu bufran grandecon (1-10 sekundoj)
 Advanced IDs: Altnivelaj identigiloj
 Application status: Aplika stato
+Apply: Apliki
 Apply changes: Apliki ŝanĝojn
 Apply Filters: Apliki Filtrilojn
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ĉu vi certas, ke vi volas reŝargi la Enigma2 GUI?\n\nLa interfaco rekomencos (nigra ekrano dum kelkaj sekundoj).
@@ -54,6 +55,7 @@ channels from URL: kanaloj de URL
 Check Duplicates: Kontrolu Duplikatojn
 Check for updates: Kontrolu ĝisdatigojn
 Check URLs: Kontrolu URLojn
+Clear: Klara
 Clear EPG Cache: Forigi EPG-Kaŝmemoron
 Clear Filters: Forigi Filtrilojn
 Clear search: Klara serĉo
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Komparu...
 Comparison results: {0} channels: Komparrezultoj: {0} kanaloj
 Configuration Missing: Agordo Mankas
+Confirm Delete: Konfirmu Forigi
 Confirm Reload: Konfirmu Reŝargi
 Connect: Konekti
 Connected: Konektita
+Copied: Kopiita
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Lando
 Credits: Kreditoj
+Delete channel '{0}'?: Ĉu forigi kanalon '{0}'?
 Delete Group: Forigi Grupon
 Delete Selected: Forigi Elektitajn
+Deleted: Forigita
 Description: Priskribo
 Details: Detaloj
 Developed by Lululla: Evoluigite fare de Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Enigu la URL-listo (JSON aŭ M3U):
 Enter playlist URL (M3U or JSON):: Enigu la URL-listo (M3U aŭ JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favoritoj
+EPG & Favorites: EPG & Favoritoj
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
 EPG cache cleared successfully.: EPG-kaŝmemoro sukcese malplenigita.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Eraro dum malplenigo de kaŝmemoro: {0}
 Error loading: Eraro dum ŝarĝo
 Error loading EPG list: {0}: Eraro dum ŝarĝo de EPG-listo: {0}
 Error loading file: {0}: Eraro dum ŝarĝo de dosiero: {0}
-Error loading file: {0}: Eraro dum ŝarĝo de dosiero: {0}
 Error loading playlists: {0}: Eraro dum ŝarĝo de ludlistoj: {0}
-Error loading URL: {0}: Eraro dum ŝarĝo de URL: {0}
 Error loading URL: {0}: Eraro dum ŝarĝo de URL: {0}
 ERROR: player.html not found.: ERARO: player.html ne trovita.
 Exit: Eliro
-Export: Eksporto
 Export all: Eksporti ĉiujn
 Export Favorites: Eksporti Favoritojn
 Export Filtered JSON: Eksportu Filtritan JSON
@@ -136,7 +140,9 @@ Export missing: Eksporto mankas
 Export OK: Eksportu bone
 Export only favorite channels to a new M3U file: Eksportu nur plej ŝatatajn kanalojn al nova M3U-dosiero
 Export results as JSON or M3U – export missing channels or all channels.: Eksportu rezultojn kiel JSON aŭ M3U - eksportu mankantajn kanalojn aŭ ĉiujn kanalojn.
-Exported channels: Eksportitaj kanaloj
+Export selected: Elektita eksporto
+Exported: Eksportita
+Exported {0} channels to {1}: Eksportitaj {0} kanaloj al {1}
 Extracting update...: Eltiranta ĝisdatigon...
 Failed to download playlist: Malsukcesis elŝuti ludliston
 Failed to load playlist: Malsukcesis ŝargi ludliston
@@ -148,7 +154,6 @@ Fetch Logos: Prenu Logos
 File {0} already exists. Overwrite?: Dosiero {0} jam ekzistas. Ĉu anstataŭigi?
 File exists: Dosiero ekzistas
 Filters: Filtriloj
-First playlist: {0} channels loaded.: Unua ludlisto: {0} kanaloj ŝarĝitaj.
 Fullscreen (hide UI) - press ESC to exit: Plenekrano (kaŝi UI) - premu ESC por eliri
 Geo & Country: Geo & Lando
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Nevalida JSON: {0}
 Invalid playlist URL.: Nevalida URL de ludlisto.
 Invalid URL.: Nevalida URL.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON-dosieroj|*.json|M3U-dosieroj|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON-dosieroj|*.json|M3U-dosieroj|*.m3u;*.m3u8|Ĉiuj dosieroj|*.*
 JSON Property: JSON-posedaĵo
 Ko-fi: Kafo
 Language: Lingvo
@@ -215,6 +218,8 @@ Logos Subfolder: Logos Subdosierujo
 Map JSON properties to channel fields:: Mapu JSON-ecojn al kanalaj kampoj:
 Mapping saved for future imports of this file.: Mapado konservita por estontaj importadoj de ĉi tiu dosiero.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Kongruaj sojloj - agordu neklaran matĉosentemon por EPG kaj emblemoj.
+Move to Group: Movu al Grupo
+Moved: Movita
 Name: Nomo
 Nanoid: Nanoido
 Network error: Reta eraro
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Neniuj kanaloj ŝarĝitaj de M3U-URL.
 No channels loaded from M3U.: Neniuj kanaloj ŝarĝitaj de M3U.
 No channels loaded.: Neniuj kanaloj ŝarĝitaj.
 No channels mapped: Neniuj kanaloj mapitaj
-No comparison results. Run Compare first.: Neniuj komparrezultoj. Kuru Komparu unue.
+No channels selected.: Neniuj kanaloj elektitaj.
 No duplicate URLs found.: Neniuj duplikataj URL-oj trovitaj.
 No EPG data: Neniuj EPG-datumoj
 No EPG information available for this channel.: Neniuj EPG-informoj haveblaj por ĉi tiu kanalo.
@@ -263,7 +268,6 @@ Playlist Editor: Redaktilo de Ludlisto
 Playlist Loading: Ludlisto Ŝarĝante
 Playlist Management: Administrado de Ludlisto
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Deponejo de Ludlisto: OwnerPlugins/TivuStreamList (italaj kaj internaciaj fluoj)
-Playlists loaded: Ludlistoj ŝargis
 Please select a program first.: Bonvolu unue elekti programon.
 Preview (first 5 channels): Antaŭrigardo (unuaj 5 kanaloj)
 Preview error: {0}: Antaŭrigarda eraro: {0}
@@ -296,7 +300,9 @@ Search channel: : Serĉu kanalon:
 Search channels by name: Serĉu kanalojn laŭ nomo
 Search channels...: Serĉu kanalojn...
 sec: sek
+Second playlist loaded: {0} channels: Dua ludlisto ŝarĝita: {0} kanaloj
 Select a playlist first.: Unue elektu ludliston.
+Select target group:: Elektu celgrupon:
 Select Theme: Elektu Temon
 Selected theme is saved and applied on restart.: Elektita temo estas konservita kaj aplikata ĉe rekomenco.
 Send: Sendu

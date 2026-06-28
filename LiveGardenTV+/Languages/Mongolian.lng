@@ -28,6 +28,7 @@ Add Mapping: Газрын зураг нэмэх
 Adjust buffer size (1-10 seconds): Буферийн хэмжээг тохируулах (1-10 секунд)
 Advanced IDs: Нарийвчилсан ID
 Application status: Өргөдлийн статус
+Apply: Өргөдөл гаргах
 Apply changes: Өөрчлөлтийг хэрэгжүүлэх
 Apply Filters: Шүүлтүүр хэрэглэх
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Та Enigma2 GUI-г дахин ачаалахдаа итгэлтэй байна уу?\n\nИнтерфэйс дахин асах болно (хэдхэн секундын турш хар дэлгэц).
@@ -54,6 +55,7 @@ channels from URL: URL-аас суваг
 Check Duplicates: Давхардсан зүйлсийг шалгана уу
 Check for updates: Шинэчлэлт байгаа эсэхийг шалгана уу
 Check URLs: URL хаягуудыг шалгана уу
+Clear: Тодорхой
 Clear EPG Cache: EPG кэшийг цэвэрлэх
 Clear Filters: Шүүлтүүрийг арилгах
 Clear search: Хайлтыг арилгах
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Харьцуулах...
 Comparison results: {0} channels: Харьцуулалтын үр дүн: {0} суваг
 Configuration Missing: Тохиргоо дутуу
+Confirm Delete: Устгахаа баталгаажуулна уу
 Confirm Reload: Дахин ачаалахыг баталгаажуулна уу
 Connect: Холбох
 Connected: Холбогдсон
+Copied: Хуулсан
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Улс
 Credits: Зээл
+Delete channel '{0}'?: '{0}' сувгийг устгах уу?
 Delete Group: Бүлгийг устгах
 Delete Selected: Сонгосоныг устгах
+Deleted: Устгасан
 Description: Тодорхойлолт
 Details: Дэлгэрэнгүй мэдээлэл
 Developed by Lululla: Лулулла боловсруулсан
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Тоглуулах жагсаалтын URL (
 Enter playlist URL (M3U or JSON):: Тоглуулах жагсаалтын URL (M3U эсвэл JSON) оруулна уу:
 EPG: EPG
 Epg & Favorites: Epg & Дуртай
+EPG & Favorites: EPG ба дуртай зүйлс
 Epg & Logos: Epg ба лого
 EPG & Logos: EPG ба лого
 EPG cache cleared successfully.: EPG кэш амжилттай арилсан.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Кэшийг цэвэрлэхэд алдаа гарл
 Error loading: Ачаалахад алдаа гарлаа
 Error loading EPG list: {0}: EPG жагсаалтыг ачаалахад алдаа гарлаа: {0}
 Error loading file: {0}: Файлыг ачаалахад алдаа гарсан: {0}
-Error loading file: {0}: Файлыг ачаалахад алдаа гарсан: {0}
 Error loading playlists: {0}: Тоглуулах жагсаалтыг ачаалахад алдаа гарсан: {0}
-Error loading URL: {0}: URL ачаалахад алдаа гарлаа: {0}
 Error loading URL: {0}: URL ачаалахад алдаа гарлаа: {0}
 ERROR: player.html not found.: АЛДАА: player.html олдсонгүй.
 Exit: Гарах
-Export: Экспорт
 Export all: Бүгдийг экспортлох
 Export Favorites: Дуртай зүйлсийг экспортлох
 Export Filtered JSON: Шүүгдсэн JSON-г экспортлох
@@ -136,7 +140,9 @@ Export missing: Экспорт дутуу байна
 Export OK: Экспорт OK
 Export only favorite channels to a new M3U file: Зөвхөн дуртай сувгуудыг шинэ M3U файл руу экспортлох
 Export results as JSON or M3U – export missing channels or all channels.: Үр дүнг JSON эсвэл M3U хэлбэрээр экспортлох - дутуу суваг эсвэл бүх сувгийг экспортлох.
-Exported channels: Экспортолсон сувгууд
+Export selected: Экспортыг сонгосон
+Exported: Экспортолсон
+Exported {0} channels to {1}: {0} сувгийг {1} руу экспорт хийсэн
 Extracting update...: Шинэчлэлтийг задалж байна...
 Failed to download playlist: Тоглуулах жагсаалтыг татаж авч чадсангүй
 Failed to load playlist: Тоглуулах жагсаалтыг ачаалж чадсангүй
@@ -148,7 +154,6 @@ Fetch Logos: Лого татах
 File {0} already exists. Overwrite?: {0} файл аль хэдийн байна. Дарж бичих үү?
 File exists: Файл байна
 Filters: Шүүлтүүр
-First playlist: {0} channels loaded.: Эхний тоглуулах жагсаалт: {0} суваг ачаалагдсан.
 Fullscreen (hide UI) - press ESC to exit: Бүтэн дэлгэц (UI нуух) - гарахын тулд ESC товчийг дарна уу
 Geo & Country: Гео ба улс
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Буруу JSON: {0}
 Invalid playlist URL.: Тоглуулах жагсаалтын URL буруу байна.
 Invalid URL.: Хүчингүй URL.
 Json: Жсон
-JSON files|*.json|M3U files|*.m3u: JSON файлууд|*.json|M3U файлууд|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON файл|*.json|M3U файл|*.m3u;*.m3u8|Бүх файл|*.*
 JSON Property: JSON өмч
 Ko-fi: Кофе
 Language: Хэл
@@ -215,6 +218,8 @@ Logos Subfolder: Логоны дэд хавтас
 Map JSON properties to channel fields:: JSON шинж чанарыг сувгийн талбарт буулгах:
 Mapping saved for future imports of this file.: Энэ файлын цаашдын импортын зураглалыг хадгалсан.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Тохирох босго – EPG болон логоны бүдэг бадаг тааруулах мэдрэмжийг тохируулна.
+Move to Group: Бүлэг рүү шилжих
+Moved: Зөөв
 Name: Нэр
 Nanoid: Наноид
 Network error: Сүлжээний алдаа
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: M3U URL-с ямар ч суваг ачаала
 No channels loaded from M3U.: M3U-аас ачаалагдсан суваг алга.
 No channels loaded.: Ямар ч суваг ачаалагдсангүй.
 No channels mapped: Ямар ч суваг зураглаагүй
-No comparison results. Run Compare first.: Харьцуулах үр дүн алга. Эхлээд Харьцуулахыг ажиллуул.
+No channels selected.: Сонгосон суваг алга.
 No duplicate URLs found.: Давхардсан URL олдсонгүй.
 No EPG data: EPG өгөгдөл байхгүй
 No EPG information available for this channel.: Энэ сувагт EPG мэдээлэл байхгүй байна.
@@ -263,7 +268,6 @@ Playlist Editor: Тоглуулах жагсаалт засварлагч
 Playlist Loading: Тоглуулах жагсаалтыг ачаалж байна
 Playlist Management: Тоглуулах жагсаалтын менежмент
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Тоглуулах жагсаалтын хадгалах газар: OwnerPlugins/TivuStreamList (Итали ба олон улсын дамжуулалт)
-Playlists loaded: Тоглуулах жагсаалтыг ачааллаа
 Please select a program first.: Эхлээд програмаа сонгоно уу.
 Preview (first 5 channels): Урьдчилан үзэх (эхний 5 суваг)
 Preview error: {0}: Урьдчилан үзэх алдаа: {0}
@@ -296,7 +300,9 @@ Search channel: : Хайлтын суваг:
 Search channels by name: Сувгуудыг нэрээр нь хайх
 Search channels...: Сувгууд хайх...
 sec: сек
+Second playlist loaded: {0} channels: Хоёрдахь тоглуулах жагсаалтыг ачаалсан: {0} суваг
 Select a playlist first.: Эхлээд тоглуулах жагсаалтыг сонгоно уу.
+Select target group:: Зорилтот бүлгийг сонгох:
 Select Theme: Сэдвийг сонгоно уу
 Selected theme is saved and applied on restart.: Сонгосон загвар хадгалагдаж, дахин эхлүүлэх үед хэрэгжинэ.
 Send: Илгээх

@@ -779,6 +779,17 @@ namespace LiveGardenTVPlus.Views
             MessageBox.Show($"{selectedItems.Count} channel(s) deleted.", "Delete", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
+        private async void ExportSelectedBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var selected = ChannelsGrid.SelectedItems.Cast<ChannelJson>().ToList();
+            if (selected.Count == 0)
+            {
+                MessageBox.Show(LanguageManager.GetTranslation("No channels selected."), "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+            ExportWithFormatChoice(selected, "selected_channels");
+        }
+
         private void StopBtn_Click(object sender, RoutedEventArgs e)
         {
             _cancellationTokenSource?.Cancel();

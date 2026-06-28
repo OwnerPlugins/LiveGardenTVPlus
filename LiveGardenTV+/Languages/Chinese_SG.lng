@@ -28,6 +28,7 @@ Add Mapping: 添加映射
 Adjust buffer size (1-10 seconds): 调整缓冲区大小（1-10秒）
 Advanced IDs: 高级 ID
 Application status: 申请状态
+Apply: 申请
 Apply changes: 应用更改
 Apply Filters: 应用过滤器
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: 您确定要重新加载 Enigma2 GUI 吗？\n\n界面将重新启动（黑屏几秒钟）。
@@ -54,6 +55,7 @@ channels from URL: 来自 URL 的频道
 Check Duplicates: 检查重复项
 Check for updates: 检查更新
 Check URLs: 检查网址
+Clear: 清除
 Clear EPG Cache: 清除 EPG 缓存
 Clear Filters: 清除过滤器
 Clear search: 清除搜索
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: 比较...
 Comparison results: {0} channels: 比较结果：{0} 个通道
 Configuration Missing: 配置缺失
+Confirm Delete: 确认删除
 Confirm Reload: 确认重新加载
 Connect: 连接
 Connected: 已连接
+Copied: 已复制
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: 国家
 Credits: 制作人员
+Delete channel '{0}'?: 删除频道“{0}”？
 Delete Group: 删除组
 Delete Selected: 删除所选内容
+Deleted: 已删除
 Description: 描述
 Details: 细节
 Developed by Lululla: 由 卢鲁拉 开发
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: 输入播放列表 URL（JSON 或 M3U）：
 Enter playlist URL (M3U or JSON):: 输入播放列表 URL（M3U 或 JSON）：
 EPG: 电子节目指南
 Epg & Favorites: EPG 和收藏夹
+EPG & Favorites: 电子节目指南和收藏夹
 Epg & Logos: EPG 和徽标
 EPG & Logos: 电子节目指南和徽标
 EPG cache cleared successfully.: EPG 缓存清除成功。
@@ -119,13 +126,10 @@ Error clearing cache: {0}: 清除缓存时出错：{0}
 Error loading: 加载错误
 Error loading EPG list: {0}: 加载 EPG 列表时出错：{0}
 Error loading file: {0}: 加载文件时出错：{0}
-Error loading file: {0}: 加载文件时出错：{0}
 Error loading playlists: {0}: 加载播放列表时出错：{0}
-Error loading URL: {0}: 加载网址时出错：{0}
 Error loading URL: {0}: 加载网址时出错：{0}
 ERROR: player.html not found.: 错误：找不到player.html。
 Exit: 出口
-Export: 出口
 Export all: 全部导出
 Export Favorites: 导出收藏夹
 Export Filtered JSON: 导出过滤后的 JSON
@@ -136,7 +140,9 @@ Export missing: 导出缺失
 Export OK: 导出确定
 Export only favorite channels to a new M3U file: 仅将喜爱的频道导出到新的 M3U 文件
 Export results as JSON or M3U – export missing channels or all channels.: 将结果导出为 JSON 或 M3U – 导出缺失通道或所有通道。
-Exported channels: 导出渠道
+Export selected: 导出选定的
+Exported: 出口
+Exported {0} channels to {1}: 已将 {0} 个频道导出到 {1}
 Extracting update...: 正在提取更新...
 Failed to download playlist: 下载播放列表失败
 Failed to load playlist: 无法加载播放列表
@@ -148,7 +154,6 @@ Fetch Logos: 获取徽标
 File {0} already exists. Overwrite?: 文件 {0} 已存在。覆盖？
 File exists: 文件存在
 Filters: 过滤器
-First playlist: {0} channels loaded.: 第一个播放列表：已加载 {0} 个频道。
 Fullscreen (hide UI) - press ESC to exit: 全屏（隐藏 UI）- 按 ESC 退出
 Geo & Country: 地理和国家
 GeoBlocked: 地理封锁
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON 无效：{0}
 Invalid playlist URL.: 播放列表 URL 无效。
 Invalid URL.: 无效网址。
 Json: 杰森
-JSON files|*.json|M3U files|*.m3u: JSON 文件|*.json|M3U 文件|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON 文件|*.json|M3U 文件|*.m3u;*.m3u8|所有文件|*.*
 JSON Property: JSON 属性
 Ko-fi: 咖啡
 Language: 语言
@@ -215,6 +218,8 @@ Logos Subfolder: 徽标子文件夹
 Map JSON properties to channel fields:: 将 JSON 属性映射到通道字段：
 Mapping saved for future imports of this file.: 保存映射以供将来导入该文件。
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: 匹配阈值 – 设置 EPG 和徽标的模糊匹配敏感度。
+Move to Group: 移至组
+Moved: 搬家了
 Name: 姓名
 Nanoid: 纳米机器人
 Network error: 网络错误
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: 没有从 M3U URL 加载频道。
 No channels loaded from M3U.: 没有从 M3U 加载频道。
 No channels loaded.: 未加载频道。
 No channels mapped: 没有映射频道
-No comparison results. Run Compare first.: 没有比较结果。首先运行比较。
+No channels selected.: 未选择频道。
 No duplicate URLs found.: 未发现重复的 URL。
 No EPG data: 无 EPG 数据
 No EPG information available for this channel.: 该频道没有可用的 EPG 信息。
@@ -263,7 +268,6 @@ Playlist Editor: 播放列表编辑器
 Playlist Loading: 播放列表加载
 Playlist Management: 播放列表管理
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): 播放列表存储库：OwnerPlugins/TivuStreamList（意大利和国际流）
-Playlists loaded: 播放列表已加载
 Please select a program first.: 请先选择一个程序。
 Preview (first 5 channels): 预览（前 5 个频道）
 Preview error: {0}: 预览错误：{0}
@@ -296,7 +300,9 @@ Search channel: : 搜索频道：
 Search channels by name: 按名称搜索频道
 Search channels...: 搜索频道...
 sec: 秒
+Second playlist loaded: {0} channels: 已加载第二个播放列表：{0} 个频道
 Select a playlist first.: 首先选择一个播放列表。
+Select target group:: 选择目标群体：
 Select Theme: 选择主题
 Selected theme is saved and applied on restart.: 所选主题将被保存并在重新启动时应用。
 Send: 发送

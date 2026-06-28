@@ -28,6 +28,7 @@ Add Mapping: Tambahkan Pemetaan
 Adjust buffer size (1-10 seconds): Sesuaikan ukuran buffer (1-10 detik)
 Advanced IDs: ID lanjutan
 Application status: Status aplikasi
+Apply: Menerapkan
 Apply changes: Terapkan perubahan
 Apply Filters: Terapkan Filter
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Apakah Anda yakin ingin memuat ulang GUI Enigma2?\n\nAntarmuka akan dimulai ulang (layar hitam selama beberapa detik).
@@ -54,6 +55,7 @@ channels from URL: saluran dari URL
 Check Duplicates: Periksa Duplikat
 Check for updates: Periksa pembaruan
 Check URLs: Periksa URL
+Clear: Jernih
 Clear EPG Cache: Hapus Cache EPG
 Clear Filters: Hapus Filter
 Clear search: Hapus pencarian
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Membandingkan...
 Comparison results: {0} channels: Hasil perbandingan: {0} saluran
 Configuration Missing: Konfigurasi Hilang
+Confirm Delete: Konfirmasi Hapus
 Confirm Reload: Konfirmasi Muat Ulang
 Connect: Menghubungkan
 Connected: Terhubung
+Copied: Disalin
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Negara
 Credits: Kredit
+Delete channel '{0}'?: Hapus saluran '{0}'?
 Delete Group: Hapus Grup
 Delete Selected: Hapus yang Dipilih
+Deleted: Dihapus
 Description: Keterangan
 Details: Detail
 Developed by Lululla: Dikembangkan oleh Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Masukkan URL daftar putar (JSON atau M3U):
 Enter playlist URL (M3U or JSON):: Masukkan URL daftar putar (M3U atau JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favorit
+EPG & Favorites: EPG & Favorit
 Epg & Logos: Epg & Logo
 EPG & Logos: EPG & Logo
 EPG cache cleared successfully.: Cache EPG berhasil dibersihkan.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Terjadi kesalahan saat mengosongkan cache: {0}
 Error loading: Terjadi kesalahan saat memuat
 Error loading EPG list: {0}: Terjadi kesalahan saat memuat daftar EPG: {0}
 Error loading file: {0}: Terjadi kesalahan saat memuat berkas: {0}
-Error loading file: {0}: Terjadi kesalahan saat memuat berkas: {0}
 Error loading playlists: {0}: Terjadi kesalahan saat memuat daftar putar: {0}
-Error loading URL: {0}: Terjadi kesalahan saat memuat URL: {0}
 Error loading URL: {0}: Terjadi kesalahan saat memuat URL: {0}
 ERROR: player.html not found.: KESALAHAN: player.html tidak ditemukan.
 Exit: KELUAR
-Export: Ekspor
 Export all: Ekspor semua
 Export Favorites: Ekspor Favorit
 Export Filtered JSON: Ekspor JSON yang Difilter
@@ -136,7 +140,9 @@ Export missing: Ekspor hilang
 Export OK: Ekspor Oke
 Export only favorite channels to a new M3U file: Ekspor hanya saluran favorit ke file M3U baru
 Export results as JSON or M3U – export missing channels or all channels.: Ekspor hasil sebagai JSON atau M3U – ekspor saluran yang hilang atau semua saluran.
-Exported channels: Saluran yang diekspor
+Export selected: Ekspor dipilih
+Exported: Diekspor
+Exported {0} channels to {1}: Mengekspor {0} saluran ke {1}
 Extracting update...: Mengekstrak pembaruan...
 Failed to download playlist: Gagal mengunduh daftar putar
 Failed to load playlist: Gagal memuat daftar putar
@@ -148,7 +154,6 @@ Fetch Logos: Ambil Logo
 File {0} already exists. Overwrite?: Berkas {0} sudah ada. Timpa?
 File exists: Berkas ada
 Filters: Filter
-First playlist: {0} channels loaded.: Daftar putar pertama: {0} saluran dimuat.
 Fullscreen (hide UI) - press ESC to exit: Layar penuh (sembunyikan UI) - tekan ESC untuk keluar
 Geo & Country: Geo & Negara
 GeoBlocked: Diblokir secara geografis
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON tidak valid: {0}
 Invalid playlist URL.: URL daftar putar tidak valid.
 Invalid URL.: URL tidak valid.
 Json: Jason
-JSON files|*.json|M3U files|*.m3u: File JSON|*.json|File M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: File JSON|*.json|File M3U|*.m3u;*.m3u8|Semua file|*.*
 JSON Property: Properti JSON
 Ko-fi: Kopi
 Language: Bahasa
@@ -215,6 +218,8 @@ Logos Subfolder: Subfolder Logo
 Map JSON properties to channel fields:: Petakan properti JSON ke bidang saluran:
 Mapping saved for future imports of this file.: Pemetaan disimpan untuk impor file ini di masa mendatang.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Ambang batas pencocokan – mengatur sensitivitas pencocokan fuzzy untuk EPG dan logo.
+Move to Group: Pindah ke Grup
+Moved: Terharu
 Name: Nama
 Nanoid: nanoid
 Network error: Kesalahan jaringan
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Tidak ada saluran yang dimuat dari URL M3U.
 No channels loaded from M3U.: Tidak ada saluran yang dimuat dari M3U.
 No channels loaded.: Tidak ada saluran yang dimuat.
 No channels mapped: Tidak ada saluran yang dipetakan
-No comparison results. Run Compare first.: Tidak ada hasil perbandingan. Jalankan Bandingkan terlebih dahulu.
+No channels selected.: Tidak ada saluran yang dipilih.
 No duplicate URLs found.: Tidak ditemukan URL duplikat.
 No EPG data: Tidak ada data EPG
 No EPG information available for this channel.: Tidak ada informasi EPG yang tersedia untuk saluran ini.
@@ -263,7 +268,6 @@ Playlist Editor: Editor Daftar Putar
 Playlist Loading: Memuat Daftar Putar
 Playlist Management: Manajemen Daftar Putar
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repositori daftar putar: OwnerPlugins/TivuStreamList (aliran Italia & internasional)
-Playlists loaded: Daftar putar dimuat
 Please select a program first.: Silakan pilih program terlebih dahulu.
 Preview (first 5 channels): Pratinjau (5 saluran pertama)
 Preview error: {0}: Kesalahan pratinjau: {0}
@@ -296,7 +300,9 @@ Search channel: : Saluran pencarian:
 Search channels by name: Cari saluran berdasarkan nama
 Search channels...: Cari saluran...
 sec: detik
+Second playlist loaded: {0} channels: Daftar putar kedua dimuat: {0} saluran
 Select a playlist first.: Pilih daftar putar terlebih dahulu.
+Select target group:: Pilih kelompok sasaran:
 Select Theme: Pilih Tema
 Selected theme is saved and applied on restart.: Tema yang dipilih disimpan dan diterapkan saat restart.
 Send: Mengirim

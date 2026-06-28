@@ -28,6 +28,7 @@ Add Mapping: Eşleme Ekle
 Adjust buffer size (1-10 seconds): Tampon boyutunu ayarlayın (1-10 saniye)
 Advanced IDs: Gelişmiş Kimlikler
 Application status: Başvuru durumu
+Apply: Uygula
 Apply changes: Değişiklikleri uygula
 Apply Filters: Filtreleri Uygula
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI'sini yeniden yüklemek istediğinizden emin misiniz?\n\nArayüz yeniden başlatılacak (birkaç saniye boyunca siyah ekran).
@@ -54,6 +55,7 @@ channels from URL: URL'den kanallar
 Check Duplicates: Kopyaları Kontrol Et
 Check for updates: Güncellemeleri kontrol edin
 Check URLs: URL'leri kontrol edin
+Clear: Temizlemek
 Clear EPG Cache: EPG Önbelleğini Temizle
 Clear Filters: Filtreleri Temizle
 Clear search: Aramayı temizle
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Karşılaştırmak...
 Comparison results: {0} channels: Karşılaştırma sonuçları: {0} kanal
 Configuration Missing: Yapılandırma Eksik
+Confirm Delete: Silmeyi Onayla
 Confirm Reload: Yeniden Yüklemeyi Onayla
 Connect: Bağlamak
 Connected: Bağlı
+Copied: Kopyalandı
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Ülke
 Credits: Kredi
+Delete channel '{0}'?: '{0}' kanalı silinsin mi?
 Delete Group: Grubu Sil
 Delete Selected: Seçileni Sil
+Deleted: Silindi
 Description: Tanım
 Details: Detaylar
 Developed by Lululla: Lululla tarafından geliştirildi
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Çalma listesi URL'sini girin (JSON veya M3U)
 Enter playlist URL (M3U or JSON):: Çalma listesi URL'sini girin (M3U veya JSON):
 EPG: EPG
 Epg & Favorites: Epg ve Favoriler
+EPG & Favorites: EPG ve Favoriler
 Epg & Logos: Epg ve Logolar
 EPG & Logos: EPG ve Logolar
 EPG cache cleared successfully.: EPG önbelleği başarıyla temizlendi.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Önbellek temizlenirken hata oluştu: {0}
 Error loading: Yükleme hatası
 Error loading EPG list: {0}: EPG listesi yüklenirken hata oluştu: {0}
 Error loading file: {0}: Dosya yüklenirken hata oluştu: {0}
-Error loading file: {0}: Dosya yüklenirken hata oluştu: {0}
 Error loading playlists: {0}: Oynatma listeleri yüklenirken hata oluştu: {0}
-Error loading URL: {0}: URL yüklenirken hata oluştu: {0}
 Error loading URL: {0}: URL yüklenirken hata oluştu: {0}
 ERROR: player.html not found.: HATA: player.html bulunamadı.
 Exit: Çıkış
-Export: İhracat
 Export all: Tümünü dışa aktar
 Export Favorites: Favorileri Dışa Aktar
 Export Filtered JSON: Filtrelenmiş JSON'u Dışa Aktar
@@ -136,7 +140,9 @@ Export missing: Dışa aktarma eksik
 Export OK: Dışa aktar Tamam
 Export only favorite channels to a new M3U file: Yalnızca favori kanalları yeni bir M3U dosyasına aktarın
 Export results as JSON or M3U – export missing channels or all channels.: Sonuçları JSON veya M3U olarak dışa aktarın; eksik kanalları veya tüm kanalları dışa aktarın.
-Exported channels: Dışa aktarılan kanallar
+Export selected: Seçileni dışa aktar
+Exported: Dışa aktarıldı
+Exported {0} channels to {1}: {0} kanal {1} ​​kanalına aktarıldı
 Extracting update...: Güncelleme çıkarılıyor...
 Failed to download playlist: Oynatma listesi indirilemedi
 Failed to load playlist: Oynatma listesi yüklenemedi
@@ -148,7 +154,6 @@ Fetch Logos: Logoları Getir
 File {0} already exists. Overwrite?: {0} dosyası zaten mevcut. Üzerine yazılsın mı?
 File exists: Dosya mevcut
 Filters: Filtreler
-First playlist: {0} channels loaded.: İlk oynatma listesi: {0} kanal yüklendi.
 Fullscreen (hide UI) - press ESC to exit: Tam ekran (kullanıcı arayüzünü gizle) - çıkmak için ESC tuşuna basın
 Geo & Country: Coğrafya ve Ülke
 GeoBlocked: Coğrafi Engelleme
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Geçersiz JSON: {0}
 Invalid playlist URL.: Geçersiz oynatma listesi URL'si.
 Invalid URL.: Geçersiz URL.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON dosyaları|*.json|M3U dosyaları|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON dosyaları|*.json|M3U dosyaları|*.m3u;*.m3u8|Tüm dosyalar|*.*
 JSON Property: JSON Özelliği
 Ko-fi: Kahve
 Language: Dil
@@ -215,6 +218,8 @@ Logos Subfolder: Logolar Alt Klasörü
 Map JSON properties to channel fields:: JSON özelliklerini kanal alanlarıyla eşleyin:
 Mapping saved for future imports of this file.: Eşleme, bu dosyanın gelecekte içe aktarılması için kaydedildi.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Eşleştirme eşikleri – EPG ve logolar için bulanık eşleşme hassasiyetini ayarlayın.
+Move to Group: Gruba Taşı
+Moved: Etkilenmiş
 Name: İsim
 Nanoid: Nanoid
 Network error: Ağ hatası
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: M3U URL'sinden hiçbir kanal yüklenmedi.
 No channels loaded from M3U.: M3U'dan hiçbir kanal yüklenmedi.
 No channels loaded.: Hiçbir kanal yüklenmedi.
 No channels mapped: Eşlenen kanal yok
-No comparison results. Run Compare first.: Karşılaştırma sonucu yok. Önce Karşılaştırma'yı çalıştırın.
+No channels selected.: Hiçbir kanal seçilmedi.
 No duplicate URLs found.: Yinelenen URL bulunamadı.
 No EPG data: EPG verisi yok
 No EPG information available for this channel.: Bu kanal için EPG bilgisi mevcut değil.
@@ -263,7 +268,6 @@ Playlist Editor: Çalma Listesi Düzenleyicisi
 Playlist Loading: Çalma Listesi Yükleniyor
 Playlist Management: Oynatma Listesi Yönetimi
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Oynatma listesi deposu: OwnerPlugins/TivuStreamList (İtalyanca ve uluslararası akışlar)
-Playlists loaded: Oynatma listeleri yüklendi
 Please select a program first.: Lütfen önce bir program seçin.
 Preview (first 5 channels): Önizleme (ilk 5 kanal)
 Preview error: {0}: Önizleme hatası: {0}
@@ -296,7 +300,9 @@ Search channel: : Arama kanalı:
 Search channels by name: Kanalları ada göre arayın
 Search channels...: Kanal ara...
 sec: saniye
+Second playlist loaded: {0} channels: İkinci oynatma listesi yüklendi: {0} kanal
 Select a playlist first.: Önce bir çalma listesi seçin.
+Select target group:: Hedef grubu seçin:
 Select Theme: Tema Seç
 Selected theme is saved and applied on restart.: Seçilen tema kaydedilir ve yeniden başlatıldığında uygulanır.
 Send: Göndermek

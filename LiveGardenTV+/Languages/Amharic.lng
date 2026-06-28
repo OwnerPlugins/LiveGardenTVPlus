@@ -28,6 +28,7 @@ Add Mapping: ካርታ ስራን ጨምር
 Adjust buffer size (1-10 seconds): የቋት መጠንን ያስተካክሉ (1-10 ሰከንድ)
 Advanced IDs: የላቁ መታወቂያዎች
 Application status: የመተግበሪያ ሁኔታ
+Apply: ያመልክቱ
 Apply changes: ለውጦችን ይተግብሩ
 Apply Filters: ማጣሪያዎችን ተግብር
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: እርግጠኛ ነህ Enigma2 GUI ን እንደገና መጫን ትፈልጋለህ?\n\nበይነገጽ እንደገና ይጀምራል (ጥቁር ስክሪን ለጥቂት ሰከንዶች)።
@@ -54,6 +55,7 @@ channels from URL: ቻናሎች ከዩአርኤል
 Check Duplicates: ብዜቶችን ያረጋግጡ
 Check for updates: ዝማኔዎችን ይመልከቱ
 Check URLs: ዩአርኤሎችን ያረጋግጡ
+Clear: ግልጽ
 Clear EPG Cache: የ EPG መሸጎጫ ያጽዱ
 Clear Filters: ማጣሪያዎችን አጽዳ
 Clear search: ፍለጋን አጽዳ
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: አወዳድር...
 Comparison results: {0} channels: የንጽጽር ውጤቶች፡ {0} ቻናሎች
 Configuration Missing: ውቅረት ይጎድላል
+Confirm Delete: መሰረዝን ያረጋግጡ
 Confirm Reload: ዳግም መጫንን ያረጋግጡ
 Connect: ተገናኝ
 Connected: ተገናኝቷል።
+Copied: ተገልብጧል
 CORVOBOYS.ORG: ኮርቮቦይስ.ኦርጂ
 Country: ሀገር
 Credits: ምስጋናዎች
+Delete channel '{0}'?: ሰርጥ «{0}» ይሰረዝ?
 Delete Group: ቡድንን ሰርዝ
 Delete Selected: የተመረጠውን ሰርዝ
+Deleted: ተሰርዟል።
 Description: መግለጫ
 Details: ዝርዝሮች
 Developed by Lululla: በሉሉላ የተገነባ
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: አጫዋች ዝርዝር URL (JSON ወይም
 Enter playlist URL (M3U or JSON):: አጫዋች ዝርዝር URL (M3U ወይም JSON) አስገባ፡
 EPG: ኢ.ፒ.ጂ
 Epg & Favorites: Epg እና ተወዳጆች
+EPG & Favorites: EPG እና ተወዳጆች
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG እና ሎጎስ
 EPG cache cleared successfully.: EPG መሸጎጫ በተሳካ ሁኔታ ጸድቷል።
@@ -119,13 +126,10 @@ Error clearing cache: {0}: መሸጎጫ በማጽዳት ላይ ስህተት፦ {
 Error loading: በመጫን ላይ ስህተት
 Error loading EPG list: {0}: የ EPG ዝርዝርን መጫን ላይ ስህተት: {0}
 Error loading file: {0}: ፋይል መጫን ላይ ስህተት፦ {0}
-Error loading file: {0}: ፋይል መጫን ላይ ስህተት፦ {0}
 Error loading playlists: {0}: አጫዋች ዝርዝሮችን መጫን ላይ ስህተት: {0}
-Error loading URL: {0}: ዩአርኤልን መጫን ላይ ስህተት: {0}
 Error loading URL: {0}: ዩአርኤልን መጫን ላይ ስህተት: {0}
 ERROR: player.html not found.: ስህተት፡ player.html አልተገኘም።
 Exit: ውጣ
-Export: ወደ ውጪ ላክ
 Export all: ሁሉንም ወደ ውጭ ላክ
 Export Favorites: ተወዳጆችን ወደ ውጪ ላክ
 Export Filtered JSON: የተጣራ JSON ወደ ውጪ ላክ
@@ -136,7 +140,9 @@ Export missing: ወደ ውጭ መላክ ይጎድላል
 Export OK: እሺ ወደ ውጭ ላክ
 Export only favorite channels to a new M3U file: ተወዳጅ ሰርጦችን ብቻ ወደ አዲስ M3U ፋይል ይላኩ።
 Export results as JSON or M3U – export missing channels or all channels.: ውጤቶችን እንደ JSON ወይም M3U ወደ ውጪ ላክ - የጎደሉ ቻናሎችን ወይም ሁሉንም ሰርጦች ወደ ውጪ ላክ።
-Exported channels: የተላኩ ቻናሎች
+Export selected: ወደ ውጭ መላክ ተመርጧል
+Exported: ወደ ውጭ ተልኳል።
+Exported {0} channels to {1}: {0} ቻናሎችን ወደ {1} ተልኳል
 Extracting update...: ዝማኔን በማውጣት ላይ...
 Failed to download playlist: አጫዋች ዝርዝርን ማውረድ አልተሳካም።
 Failed to load playlist: አጫዋች ዝርዝርን መጫን አልተሳካም።
@@ -148,7 +154,6 @@ Fetch Logos: ሎጎዎችን አምጣ
 File {0} already exists. Overwrite?: ፋይል {0} አስቀድሞ አለ። ይፃፉ?
 File exists: ፋይል አለ።
 Filters: ማጣሪያዎች
-First playlist: {0} channels loaded.: የመጀመሪያው አጫዋች ዝርዝር፡ {0} ሰርጦች ተጭነዋል።
 Fullscreen (hide UI) - press ESC to exit: ሙሉ ስክሪን (UI ደብቅ) - ለመውጣት ESC ን ይጫኑ
 Geo & Country: ጂኦ እና ሀገር
 GeoBlocked: ጂኦ ታግዷል
@@ -176,8 +181,6 @@ Invalid JSON: {0}: ልክ ያልሆነ JSON፡ {0}
 Invalid playlist URL.: ልክ ያልሆነ የአጫዋች ዝርዝር URL።
 Invalid URL.: ልክ ያልሆነ URL
 Json: ጄሰን
-JSON files|*.json|M3U files|*.m3u: JSON ፋይሎች|*.json|M3U ፋይሎች|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON ፋይሎች|*.json|M3U ፋይሎች|*.m3u;*.m3u8|ሁሉም ፋይሎች|*.*
 JSON Property: JSON ንብረት
 Ko-fi: ቡና
 Language: ቋንቋ
@@ -215,6 +218,8 @@ Logos Subfolder: የሎጎስ ንዑስ አቃፊ
 Map JSON properties to channel fields:: የJSON ንብረቶችን ወደ ሰርጥ መስኮች ካርታ ያውጡ፡
 Mapping saved for future imports of this file.: ለወደፊቱ የዚህ ፋይል ማስመጣት ካርታ ተቀምጧል።
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: ተዛማጅ ገደቦች - ለEP እና አርማዎች ደብዛዛ ግጥሚያ ትብነትን ያዘጋጁ።
+Move to Group: ወደ ቡድን አንቀሳቅስ
+Moved: ተንቀሳቅሷል
 Name: ስም
 Nanoid: ናኖይድ
 Network error: የአውታረ መረብ ስህተት
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: ከM3U URL የተጫኑ ቻናሎች የሉም
 No channels loaded from M3U.: ከM3U ምንም ሰርጦች አልተጫኑም።
 No channels loaded.: ምንም ቻናሎች አልተጫኑም።
 No channels mapped: ምንም ካርታ አልተሰራም።
-No comparison results. Run Compare first.: ምንም የማነፃፀር ውጤቶች የሉም። መጀመሪያ አወዳድር።
+No channels selected.: ምንም ሰርጦች አልተመረጡም።
 No duplicate URLs found.: ምንም የተባዙ ዩአርኤሎች አልተገኙም።
 No EPG data: ምንም የ EPG ውሂብ የለም።
 No EPG information available for this channel.: ለዚህ ቻናል ምንም የ EPG መረጃ የለም።
@@ -263,7 +268,6 @@ Playlist Editor: የአጫዋች ዝርዝር አርታዒ
 Playlist Loading: አጫዋች ዝርዝር በመጫን ላይ
 Playlist Management: የአጫዋች ዝርዝር አስተዳደር
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): የአጫዋች ዝርዝር ማከማቻ፡ OwnerPlugins/TivuStreamList (ጣሊያን እና አለምአቀፍ ዥረቶች)
-Playlists loaded: አጫዋች ዝርዝሮች ተጭነዋል
 Please select a program first.: እባክዎ መጀመሪያ ፕሮግራም ይምረጡ።
 Preview (first 5 channels): ቅድመ እይታ (የመጀመሪያዎቹ 5 ቻናሎች)
 Preview error: {0}: የቅድመ እይታ ስህተት፡ {0}
@@ -296,7 +300,9 @@ Search channel: : ቻናል ፈልግ፡
 Search channels by name: ቻናሎችን በስም ይፈልጉ
 Search channels...: ቻናሎችን ፈልግ...
 sec: ሰከንድ
+Second playlist loaded: {0} channels: ሁለተኛ አጫዋች ዝርዝር ተጭኗል፡ {0} ቻናሎች
 Select a playlist first.: መጀመሪያ አጫዋች ዝርዝር ይምረጡ።
+Select target group:: ዒላማ ቡድንን ይምረጡ፡-
 Select Theme: ገጽታ ይምረጡ
 Selected theme is saved and applied on restart.: የተመረጠው ገጽታ ተቀምጧል እና እንደገና ሲጀመር ይተገበራል።
 Send: ላክ

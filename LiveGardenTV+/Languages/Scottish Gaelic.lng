@@ -28,6 +28,7 @@ Add Mapping: Cuir Mapadh ris
 Adjust buffer size (1-10 seconds): Atharraich meud bufair (1-10 diogan)
 Advanced IDs: IDan adhartach
 Application status: Inbhe an tagraidh
+Apply: Cuir a-steach
 Apply changes: Cuir atharrachaidhean an sàs
 Apply Filters: Cuir a-steach sìoltachain
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: A bheil thu cinnteach gu bheil thu airson an Enigma2 GUI ath-luchdachadh?\n\nTòisichidh an eadar-aghaidh (sgrion dubh airson beagan dhiog).
@@ -54,6 +55,7 @@ channels from URL: sianalan bho URL
 Check Duplicates: Thoir sùil air Duplicates
 Check for updates: Thoir sùil airson ùrachaidhean
 Check URLs: Thoir sùil air URLan
+Clear: Soilleir
 Clear EPG Cache: Glan tasgadan EPG
 Clear Filters: Filters soilleir
 Clear search: Glan lorg
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Dèan coimeas...
 Comparison results: {0} channels: Toraidhean coimeas: {0} seanalan
 Configuration Missing: Configuration a dhìth
+Confirm Delete: Dearbhaich Sguab às
 Confirm Reload: Dearbhaich an ath-luchdachadh
 Connect: Ceangail
 Connected: Ceangailte
+Copied: Rinn lethbhreac
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Dùthaich
 Credits: Creideasan
+Delete channel '{0}'?: Sguab às an t-seanail '{0}'?
 Delete Group: Sguab às Buidheann
 Delete Selected: Sguab às Taghte
+Deleted: Air a sguabadh às
 Description: Tuairisgeul
 Details: Mion-fhiosrachadh
 Developed by Lululla: Air a leasachadh le Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Cuir a-steach URL playlist (JSON no M3U):
 Enter playlist URL (M3U or JSON):: Cuir a-steach URL liosta-cluiche (M3U no JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favorites
+EPG & Favorites: EPG & Favorites
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
 EPG cache cleared successfully.: Chaidh tasgadan EPG a ghlanadh gu soirbheachail.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Mearachd a' glanadh an tasgadan: {0}
 Error loading: Thachair mearachd le luchdachadh
 Error loading EPG list: {0}: Mearachd a' luchdadh an liosta EPG: {0}
 Error loading file: {0}: Thachair mearachd le luchdachadh an fhaidhle: {0}
-Error loading file: {0}: Thachair mearachd le luchdachadh an fhaidhle: {0}
 Error loading playlists: {0}: Mearachd a' luchdadh chlàran-cluiche: {0}
-Error loading URL: {0}: Thachair mearachd le luchdachadh an URL: {0}
 Error loading URL: {0}: Thachair mearachd le luchdachadh an URL: {0}
 ERROR: player.html not found.: MEARACHD: player.html cha deach a lorg.
 Exit: Ar-a-mach
-Export: Às-mhalairt
 Export all: Às-mhalairt a h-uile
 Export Favorites: Export Favourites
 Export Filtered JSON: Às-phortaich JSON air a chriathradh
@@ -136,7 +140,9 @@ Export missing: Às-mhalairt a dhìth
 Export OK: Às-mhalairt OK
 Export only favorite channels to a new M3U file: Às-mhalairt dìreach na seanalan as fheàrr leat gu faidhle M3U ùr
 Export results as JSON or M3U – export missing channels or all channels.: Às-mhalairt toraidhean mar JSON no M3U - às-mhalairt seanalan a tha a dhìth no a h-uile seanal.
-Exported channels: Sianalan às-mhalairt
+Export selected: Às-mhalairt air a thaghadh
+Exported: Às-mhalairt
+Exported {0} channels to {1}: Às-phortaich {0} seanalan gu {1}
 Extracting update...: A’ toirt a-mach ùrachadh...
 Failed to download playlist: Dh'fhàillig luchdadh a-nuas an liosta-cluiche
 Failed to load playlist: Dh'fhàillig luchdadh an liosta-cluiche
@@ -148,7 +154,6 @@ Fetch Logos: Faigh suaicheantasan
 File {0} already exists. Overwrite?: Tha faidhle {0} ann mu thràth. Sgrìobh thairis air?
 File exists: Tha faidhle ann
 Filters: Criathragan
-First playlist: {0} channels loaded.: A' chiad chlàr-cluiche: {0} seanalan air an luchdachadh.
 Fullscreen (hide UI) - press ESC to exit: Làn-sgrìn (falaich UI) - brùth air ESC gus fàgail
 Geo & Country: Geo & Dùthaich
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON mì-dhligheach: {0}
 Invalid playlist URL.: URL liosta-cluiche mì-dhligheach.
 Invalid URL.: URL mì-dhligheach.
 Json: Seonaidh
-JSON files|*.json|M3U files|*.m3u: Faidhlichean JSON|*.json|Faidhlichean M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Faidhlichean JSON|*.json|Faidhlichean M3U|*.m3u;*.m3u8|A h-uile faidhle|*.*
 JSON Property: JSON Seilbh
 Ko-fi: Cofaidh
 Language: Cànain
@@ -215,6 +218,8 @@ Logos Subfolder: Fo-phasgan suaicheantasan
 Map JSON properties to channel fields:: Mapa feartan JSON gu raointean seanail:
 Mapping saved for future imports of this file.: Chaidh am mapadh a shàbhaladh airson ion-phortadh an fhaidhle seo san àm ri teachd.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Ìrean maidsidh - suidhich cugallachd maidsidh fuzzy airson EPG agus suaicheantasan.
+Move to Group: Gluais gu Buidheann
+Moved: Ghluais
 Name: Ainm
 Nanoid: Nanoid
 Network error: Mearachd lìonraidh
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Cha deach seanalan a luchdachadh bho URL M3U.
 No channels loaded from M3U.: Cha deach seanalan a luchdachadh bho M3U.
 No channels loaded.: Cha deach sianalan a luchdachadh.
 No channels mapped: Chan eil sianalan air am mapadh
-No comparison results. Run Compare first.: Gun thoraidhean coimeas. Ruith Dèan coimeas an toiseach.
+No channels selected.: Chan eil seanalan air an taghadh.
 No duplicate URLs found.: Cha deach URLan dùblaichte a lorg.
 No EPG data: Chan eil dàta EPG ann
 No EPG information available for this channel.: Chan eil fiosrachadh EPG ri fhaighinn airson an t-seanail seo.
@@ -263,7 +268,6 @@ Playlist Editor: Deasaiche liosta-chluiche
 Playlist Loading: Liosta-chluiche a ' luchdadh
 Playlist Management: Riaghladh liosta-chluiche
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Stòr liosta-cluiche: OwnerPlugins/TivuStreamList (sruthan Eadailteach & eadar-nàiseanta)
-Playlists loaded: Clàran-ciùil air an luchdachadh
 Please select a program first.: Feuch an tagh thu prògram an toiseach.
 Preview (first 5 channels): Ro-shealladh (a’ chiad 5 seanalan)
 Preview error: {0}: Mearachd ro-shealladh: {0}
@@ -296,7 +300,9 @@ Search channel: : Lorg sianal:
 Search channels by name: Rannsaich sianalan a rèir ainm
 Search channels...: Lorg sianalan...
 sec: diog
+Second playlist loaded: {0} channels: An dàrna liosta-cluiche air a luchdachadh: {0} seanalan
 Select a playlist first.: Tagh liosta-cluiche an toiseach.
+Select target group:: Tagh buidheann targaid:
 Select Theme: Tagh Cuspair
 Selected theme is saved and applied on restart.: Tha an cuspair taghte air a shàbhaladh agus air a chuir an sàs nuair a thèid ath-thòiseachadh.
 Send: Seol

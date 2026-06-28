@@ -28,6 +28,7 @@ Add Mapping: मैपिंग जोड़ें
 Adjust buffer size (1-10 seconds): बफ़र आकार समायोजित करें (1-10 सेकंड)
 Advanced IDs: उन्नत आईडी
 Application status: आवेदन की स्थिति
+Apply: आवेदन करना
 Apply changes: परिवर्तनों को लागू करें
 Apply Filters: फ़िल्टर लागू करें
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: क्या आप वाकई Enigma2 GUI को पुनः लोड करना चाहते हैं?\n\nइंटरफ़ेस पुनः आरंभ होगा (कुछ सेकंड के लिए काली स्क्रीन)।
@@ -54,6 +55,7 @@ channels from URL: यूआरएल से चैनल
 Check Duplicates: डुप्लिकेट की जाँच करें
 Check for updates: अद्यतन के लिए जाँच
 Check URLs: यूआरएल जांचें
+Clear: स्पष्ट
 Clear EPG Cache: ईपीजी कैश साफ़ करें
 Clear Filters: फ़िल्टर साफ़ करें
 Clear search: स्पष्ट खोज
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: तुलना करना...
 Comparison results: {0} channels: तुलना परिणाम: {0} चैनल
 Configuration Missing: कॉन्फ़िगरेशन गुम है
+Confirm Delete: हटाने की पुष्टि करें
 Confirm Reload: पुनः लोड करने की पुष्टि करें
 Connect: जोड़ना
 Connected: जुड़े हुए
+Copied: कॉपी किया गया
 CORVOBOYS.ORG: Corvoboys.org
 Country: देश
 Credits: क्रेडिट
+Delete channel '{0}'?: चैनल '{0}' हटाएं?
 Delete Group: समूह हटाएँ
 Delete Selected: चयनित को हटाओ
+Deleted: हटाए गए
 Description: विवरण
 Details: विवरण
 Developed by Lululla: लुलुल्ला द्वारा विकसित
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: प्लेलिस्ट URL दर्ज 
 Enter playlist URL (M3U or JSON):: प्लेलिस्ट URL दर्ज करें (M3U या JSON):
 EPG: ईपीजी
 Epg & Favorites: ईपीजी और पसंदीदा
+EPG & Favorites: ईपीजी और पसंदीदा
 Epg & Logos: ईपीजी और लोगो
 EPG & Logos: ईपीजी और लोगो
 EPG cache cleared successfully.: ईपीजी कैश सफलतापूर्वक साफ़ हो गया।
@@ -119,13 +126,10 @@ Error clearing cache: {0}: कैश साफ़ करने में त्�
 Error loading: लोड होने मे त्रुटि
 Error loading EPG list: {0}: ईपीजी सूची लोड करने में त्रुटि: {0}
 Error loading file: {0}: फ़ाइल लोड करने में त्रुटि: {0}
-Error loading file: {0}: फ़ाइल लोड करने में त्रुटि: {0}
 Error loading playlists: {0}: प्लेलिस्ट लोड करने में त्रुटि: {0}
-Error loading URL: {0}: यूआरएल लोड करने में त्रुटि: {0}
 Error loading URL: {0}: यूआरएल लोड करने में त्रुटि: {0}
 ERROR: player.html not found.: त्रुटि: प्लेयर.एचटीएमएल नहीं मिला।
 Exit: बाहर निकलना
-Export: निर्यात
 Export all: सभी निर्यात करें
 Export Favorites: पसंदीदा निर्यात करें
 Export Filtered JSON: फ़िल्टर किया गया JSON निर्यात करें
@@ -136,7 +140,9 @@ Export missing: निर्यात गायब है
 Export OK: निर्यात ठीक है
 Export only favorite channels to a new M3U file: केवल पसंदीदा चैनलों को नई M3U फ़ाइल में निर्यात करें
 Export results as JSON or M3U – export missing channels or all channels.: JSON या M3U के रूप में परिणाम निर्यात करें - लापता चैनल या सभी चैनल निर्यात करें।
-Exported channels: निर्यातित चैनल
+Export selected: निर्यात चयनित
+Exported: निर्यात किए गए
+Exported {0} channels to {1}: {0} चैनल को {1} पर निर्यात किया गया
 Extracting update...: अद्यतन निकाला जा रहा है...
 Failed to download playlist: प्लेलिस्ट डाउनलोड करने में विफल
 Failed to load playlist: प्लेलिस्ट लोड करने में विफल
@@ -148,7 +154,6 @@ Fetch Logos: लोगो प्राप्त करें
 File {0} already exists. Overwrite?: फ़ाइल {0} पहले से मौजूद है. अधिलेखित करें?
 File exists: फ़ाइल मौजूद
 Filters: फिल्टर
-First playlist: {0} channels loaded.: पहली प्लेलिस्ट: {0} चैनल लोड किए गए।
 Fullscreen (hide UI) - press ESC to exit: फुलस्क्रीन (यूआई छुपाएं) - बाहर निकलने के लिए ईएससी दबाएं
 Geo & Country: भू एवं देश
 GeoBlocked: जियोब्लॉक्ड
@@ -176,8 +181,6 @@ Invalid JSON: {0}: अमान्य JSON: {0}
 Invalid playlist URL.: अमान्य प्लेलिस्ट यूआरएल.
 Invalid URL.: असामान्य यूआरएल।
 Json: जेसन
-JSON files|*.json|M3U files|*.m3u: JSON फ़ाइलें|*.json|M3U फ़ाइलें|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON फ़ाइलें|*.json|M3U फ़ाइलें|*.m3u;*.m3u8|सभी फ़ाइलें|*.*
 JSON Property: JSON संपत्ति
 Ko-fi: कॉफी
 Language: भाषा
@@ -215,6 +218,8 @@ Logos Subfolder: लोगो सबफ़ोल्डर
 Map JSON properties to channel fields:: JSON गुणों को चैनल फ़ील्ड में मैप करें:
 Mapping saved for future imports of this file.: इस फ़ाइल के भविष्य के आयात के लिए मैपिंग सहेजी गई।
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: मिलान सीमाएँ - ईपीजी और लोगो के लिए फ़ज़ी मिलान संवेदनशीलता सेट करें।
+Move to Group: समूह में ले जाएँ
+Moved: ले जाया गया
 Name: नाम
 Nanoid: नैनोइड
 Network error: नेटवर्क त्रुटि
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: M3U URL से कोई चैनल लो�
 No channels loaded from M3U.: M3U से कोई चैनल लोड नहीं हुआ.
 No channels loaded.: कोई चैनल लोड नहीं हुआ.
 No channels mapped: कोई चैनल मैप नहीं किया गया
-No comparison results. Run Compare first.: कोई तुलना परिणाम नहीं. पहले तुलना चलाएँ.
+No channels selected.: कोई चैनल चयनित नहीं.
 No duplicate URLs found.: कोई डुप्लिकेट यूआरएल नहीं मिला.
 No EPG data: कोई ईपीजी डेटा नहीं
 No EPG information available for this channel.: इस चैनल के लिए कोई ईपीजी जानकारी उपलब्ध नहीं है।
@@ -263,7 +268,6 @@ Playlist Editor: प्लेलिस्ट संपादक
 Playlist Loading: प्लेलिस्ट लोड हो रही है
 Playlist Management: प्लेलिस्ट प्रबंधन
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): प्लेलिस्ट रिपॉजिटरी: ओनरप्लगइन्स/टिवुस्ट्रीमलिस्ट (इतालवी और अंतर्राष्ट्रीय स्ट्रीम)
-Playlists loaded: प्लेलिस्ट लोड हो गईं
 Please select a program first.: कृपया पहले एक प्रोग्राम चुनें.
 Preview (first 5 channels): पूर्वावलोकन (पहले 5 चैनल)
 Preview error: {0}: पूर्वावलोकन त्रुटि: {0}
@@ -296,7 +300,9 @@ Search channel: : चैनल खोजें:
 Search channels by name: नाम से चैनल खोजें
 Search channels...: चैनल खोजें...
 sec: सेकंड
+Second playlist loaded: {0} channels: दूसरी प्लेलिस्ट लोड की गई: {0} चैनल
 Select a playlist first.: पहले एक प्लेलिस्ट चुनें.
+Select target group:: लक्ष्य समूह चुनें:
 Select Theme: थीम चुनें
 Selected theme is saved and applied on restart.: चयनित थीम को सहेजा जाता है और पुनः आरंभ करने पर लागू किया जाता है।
 Send: भेजना

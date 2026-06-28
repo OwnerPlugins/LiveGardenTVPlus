@@ -28,6 +28,7 @@ Add Mapping: Картаны өстәгез
 Adjust buffer size (1-10 seconds): Буфер зурлыгын көйләгез (1-10 секунд)
 Advanced IDs: Алга киткән таныклыклар
 Application status: Гариза статусы
+Apply: Кулланыгыз
 Apply changes: Changesзгәрешләр кулланыгыз
 Apply Filters: Фильтрлар кулланыгыз
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI-ны яңадан йөкләргә телисезме? \ N \ n Интерфейс яңадан башланачак (берничә секунд эчендә кара экран).
@@ -54,6 +55,7 @@ channels from URL: URL-дан каналлар
 Check Duplicates: Күчермәләрне тикшерегез
 Check for updates: Яңартуларны тикшерегез
 Check URLs: URL'ларны тикшерегез
+Clear: Чиста
 Clear EPG Cache: EPG Кэшын чистарту
 Clear Filters: Фильтрларны чистарту
 Clear search: Эзләү
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Чагыштырыгыз ...
 Comparison results: {0} channels: Чагыштыру нәтиҗәләре: {0} каналлар
 Configuration Missing: Конфигурация юк
+Confirm Delete: Бетерүне раслагыз
 Confirm Reload: Йөкләүне раслагыз
 Connect: Бәйләнегез
 Connected: Бәйләнгән
+Copied: Күчерелгән
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Ил
 Credits: Кредитлар
+Delete channel '{0}'?: '{0}' каналын бетерегез?
 Delete Group: Төркемне бетерү
 Delete Selected: Сайланганны бетерү
+Deleted: Бетерелгән
 Description: Тасвирлау
 Details: Детальләр
 Developed by Lululla: Лулулла тарафыннан эшләнгән
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Плейлист URL кертегез (JSON �
 Enter playlist URL (M3U or JSON):: Плейлист URL кертегез (M3U яки JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favorites
+EPG & Favorites: EPG & Фаворитлар
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
 EPG cache cleared successfully.: EPG кэш уңышлы чистартылды.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Кэшны чистартуда хата: {0}
 Error loading: Йөкләүдә хата
 Error loading EPG list: {0}: EPG исемлеген йөкләүдә хата: {0}
 Error loading file: {0}: Файлны йөкләүдә хата: {0}
-Error loading file: {0}: Файлны йөкләүдә хата: {0}
 Error loading playlists: {0}: Плейлистларны йөкләүдә хата: {0}
-Error loading URL: {0}: URL йөкләүдә хата: {0}
 Error loading URL: {0}: URL йөкләүдә хата: {0}
 ERROR: player.html not found.: Хата: player.html табылмады.
 Exit: Чык
-Export: Экспорт
 Export all: Барысын да экспортлагыз
 Export Favorites: Фаворитларны экспортлау
 Export Filtered JSON: Фильтрланган JSON экспорт
@@ -136,7 +140,9 @@ Export missing: Экспорт җитми
 Export OK: Экспорт ярый
 Export only favorite channels to a new M3U file: Яңа M3U файлына яраткан каналларны гына экспортлагыз
 Export results as JSON or M3U – export missing channels or all channels.: JSON яки M3U рәвешендә экспорт нәтиҗәләре - югалган каналларны яки барлык каналларны экспортлагыз.
-Exported channels: Экспортланган каналлар
+Export selected: Экспорт сайланган
+Exported: Экспорт
+Exported {0} channels to {1}: {1} каналларына {1} экспортланган
 Extracting update...: Яңартуны чыгару ...
 Failed to download playlist: Плейлистны йөкли алмады
 Failed to load playlist: Плейлистны йөкли алмады
@@ -148,7 +154,6 @@ Fetch Logos: Логотиплар
 File {0} already exists. Overwrite?: {0} файл бар. Өстәмә язу?
 File exists: Файл бар
 Filters: Фильтрлар
-First playlist: {0} channels loaded.: Беренче плейлист: {0} каналлар йөкләнгән.
 Fullscreen (hide UI) - press ESC to exit: Тулы экран (UI яшерегез) - чыгу өчен ESC басыгыз
 Geo & Country: Гео & Ил
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Яраксыз JSON: {0}
 Invalid playlist URL.: Яраксыз плейлист URL.
 Invalid URL.: Яраксыз URL.
 Json: Джсон
-JSON files|*.json|M3U files|*.m3u: JSON файллары | * .json | M3U файллары | * .m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON файллары | * .json | M3U файллары | * .m3u; *. M3u8 | Барлык файллар | *. *
 JSON Property: JSON милеге
 Ko-fi: Кофе
 Language: Тел
@@ -215,6 +218,8 @@ Logos Subfolder: Логотиплар
 Map JSON properties to channel fields:: JSON үзлекләрен канал кырларына карта:
 Mapping saved for future imports of this file.: Бу файлның киләчәк импортлары өчен сакланган карта.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Бусагага туры килү - EPG һәм логотипларга туры килмәгән матч сизгерлеген куегыз.
+Move to Group: Төркемгә күчү
+Moved: Күчерелде
 Name: Исем
 Nanoid: Наноид
 Network error: Челтәр хата
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: M3U URL-тан йөкләнгән каналл
 No channels loaded from M3U.: M3Uдан каналлар юк.
 No channels loaded.: Каналлар юк.
 No channels mapped: Бер канал да ясалмаган
-No comparison results. Run Compare first.: Чагыштыру нәтиҗәләре юк. Башта чагыштырыгыз.
+No channels selected.: Канал сайланмаган.
 No duplicate URLs found.: Бер-бер артлы URL табылмады.
 No EPG data: EPG мәгълүматлары юк
 No EPG information available for this channel.: Бу канал өчен EPG турында мәгълүмат юк.
@@ -263,7 +268,6 @@ Playlist Editor: Плейлист редакторы
 Playlist Loading: Плейлист йөкләү
 Playlist Management: Плейлист белән идарә итү
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Плейлист репозитариясе: OwnerPlugins / TivuStreamList (Италия һәм халыкара агымнар)
-Playlists loaded: Плейлистлар йөкләнгән
 Please select a program first.: Зинһар, башта программаны сайлагыз.
 Preview (first 5 channels): Алдан карау (беренче 5 канал)
 Preview error: {0}: Алдан карау хата: {0}
@@ -296,7 +300,9 @@ Search channel: : Эзләү каналы:
 Search channels by name: Каналларны исем буенча эзләү
 Search channels...: Каналларны эзләү ...
 sec: сек
+Second playlist loaded: {0} channels: Икенче плейлист йөкләнде: {0} каналлар
 Select a playlist first.: Башта плейлистны сайлагыз.
+Select target group:: Максатлы төркемне сайлагыз:
 Select Theme: Теманы сайлагыз
 Selected theme is saved and applied on restart.: Сайланган тема саклана һәм яңадан эшләтеп җибәрелә.
 Send: Sendибәр

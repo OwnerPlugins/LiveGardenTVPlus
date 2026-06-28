@@ -28,6 +28,7 @@ Add Mapping: Tambah Pemetaan
 Adjust buffer size (1-10 seconds): Laraskan saiz penimbal (1-10 saat)
 Advanced IDs: ID lanjutan
 Application status: Status permohonan
+Apply: Mohon
 Apply changes: Gunakan perubahan
 Apply Filters: Gunakan Penapis
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Adakah anda pasti mahu memuatkan semula GUI Enigma2?\n\nAntara muka akan dimulakan semula (skrin hitam selama beberapa saat).
@@ -54,6 +55,7 @@ channels from URL: saluran daripada URL
 Check Duplicates: Semak Pendua
 Check for updates: Semak kemas kini
 Check URLs: Semak URL
+Clear: Jelas
 Clear EPG Cache: Kosongkan Cache EPG
 Clear Filters: Kosongkan Penapis
 Clear search: Kosongkan carian
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Bandingkan...
 Comparison results: {0} channels: Hasil perbandingan: {0} saluran
 Configuration Missing: Konfigurasi Tiada
+Confirm Delete: Sahkan Padam
 Confirm Reload: Sahkan Muat Semula
 Connect: Sambung
 Connected: Bersambung
+Copied: disalin
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Negara
 Credits: Kredit
+Delete channel '{0}'?: Padamkan saluran '{0}'?
 Delete Group: Padamkan Kumpulan
 Delete Selected: Padam Dipilih
+Deleted: Dipadamkan
 Description: Penerangan
 Details: Butiran
 Developed by Lululla: Dibangunkan oleh Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Masukkan URL senarai main (JSON atau M3U):
 Enter playlist URL (M3U or JSON):: Masukkan URL senarai main (M3U atau JSON):
 EPG: EPG
 Epg & Favorites: Epg & Kegemaran
+EPG & Favorites: EPG & Kegemaran
 Epg & Logos: Epg & Logo
 EPG & Logos: EPG & Logo
 EPG cache cleared successfully.: Cache EPG berjaya dibersihkan.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Ralat mengosongkan cache: {0}
 Error loading: Ralat memuatkan
 Error loading EPG list: {0}: Ralat memuatkan senarai EPG: {0}
 Error loading file: {0}: Ralat memuatkan fail: {0}
-Error loading file: {0}: Ralat memuatkan fail: {0}
 Error loading playlists: {0}: Ralat memuatkan senarai main: {0}
-Error loading URL: {0}: Ralat memuatkan URL: {0}
 Error loading URL: {0}: Ralat memuatkan URL: {0}
 ERROR: player.html not found.: RALAT: player.html tidak ditemui.
 Exit: Keluar
-Export: Eksport
 Export all: Eksport semua
 Export Favorites: Eksport Kegemaran
 Export Filtered JSON: Eksport JSON yang Ditapis
@@ -136,7 +140,9 @@ Export missing: Eksport tiada
 Export OK: Eksport OK
 Export only favorite channels to a new M3U file: Eksport hanya saluran kegemaran ke fail M3U baharu
 Export results as JSON or M3U – export missing channels or all channels.: Eksport hasil sebagai JSON atau M3U – eksport saluran yang hilang atau semua saluran.
-Exported channels: Saluran yang dieksport
+Export selected: Eksport dipilih
+Exported: Dieksport
+Exported {0} channels to {1}: Mengeksport {0} saluran ke {1}
 Extracting update...: Mengeluarkan kemas kini...
 Failed to download playlist: Gagal memuat turun senarai main
 Failed to load playlist: Gagal memuatkan senarai main
@@ -148,7 +154,6 @@ Fetch Logos: Ambil Logo
 File {0} already exists. Overwrite?: Fail {0} sudah wujud. Tulis ganti?
 File exists: Fail wujud
 Filters: Penapis
-First playlist: {0} channels loaded.: Senarai main pertama: {0} saluran dimuatkan.
 Fullscreen (hide UI) - press ESC to exit: Skrin penuh (sembunyikan UI) - tekan ESC untuk keluar
 Geo & Country: Geo & Negara
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON tidak sah: {0}
 Invalid playlist URL.: URL senarai main tidak sah.
 Invalid URL.: URL tidak sah.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: Fail JSON|*.json|Fail M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Fail JSON|*.json|Fail M3U|*.m3u;*.m3u8|Semua fail|*.*
 JSON Property: Harta JSON
 Ko-fi: Kopi
 Language: Bahasa
@@ -215,6 +218,8 @@ Logos Subfolder: Subfolder Logo
 Map JSON properties to channel fields:: Petakan sifat JSON ke medan saluran:
 Mapping saved for future imports of this file.: Pemetaan disimpan untuk import masa hadapan fail ini.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Ambang padan – tetapkan sensitiviti padanan kabur untuk EPG dan logo.
+Move to Group: Beralih ke Kumpulan
+Moved: Terharu
 Name: Nama
 Nanoid: Nanoid
 Network error: Ralat rangkaian
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Tiada saluran dimuatkan daripada URL M3U.
 No channels loaded from M3U.: Tiada saluran dimuatkan daripada M3U.
 No channels loaded.: Tiada saluran dimuatkan.
 No channels mapped: Tiada saluran dipetakan
-No comparison results. Run Compare first.: Tiada hasil perbandingan. Jalankan Bandingkan dahulu.
+No channels selected.: Tiada saluran dipilih.
 No duplicate URLs found.: Tiada URL pendua ditemui.
 No EPG data: Tiada data EPG
 No EPG information available for this channel.: Tiada maklumat EPG tersedia untuk saluran ini.
@@ -263,7 +268,6 @@ Playlist Editor: Editor Senarai main
 Playlist Loading: Memuatkan Senarai Main
 Playlist Management: Pengurusan Senarai Main
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repositori senarai main: OwnerPlugins/TivuStreamList (strim Itali & antarabangsa)
-Playlists loaded: Senarai main dimuatkan
 Please select a program first.: Sila pilih program dahulu.
 Preview (first 5 channels): Pratonton (5 saluran pertama)
 Preview error: {0}: Ralat pratonton: {0}
@@ -296,7 +300,9 @@ Search channel: : Cari saluran:
 Search channels by name: Cari saluran mengikut nama
 Search channels...: Cari saluran...
 sec: sec
+Second playlist loaded: {0} channels: Senarai main kedua dimuatkan: {0} saluran
 Select a playlist first.: Pilih senarai main dahulu.
+Select target group:: Pilih kumpulan sasaran:
 Select Theme: Pilih Tema
 Selected theme is saved and applied on restart.: Tema yang dipilih disimpan dan digunakan semasa dimulakan semula.
 Send: Hantar

@@ -28,6 +28,7 @@ Add Mapping: Ychwanegu Mapio
 Adjust buffer size (1-10 seconds): Addasu maint byffer (1-10 eiliad)
 Advanced IDs: IDau uwch
 Application status: Statws cais
+Apply: Ymgeisiwch
 Apply changes: Cymhwyso newidiadau
 Apply Filters: Cymhwyso Hidlau
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ydych chi'n siŵr eich bod am ail-lwytho GUI Enigma2?\n\nBydd y rhyngwyneb yn ailgychwyn (sgrin ddu am ychydig eiliadau).
@@ -54,6 +55,7 @@ channels from URL: sianeli o URL
 Check Duplicates: Gwiriwch Dyblygiadau
 Check for updates: Gwiriwch am ddiweddariadau
 Check URLs: Gwiriwch URLs
+Clear: Clir
 Clear EPG Cache: Clirio EPG Cache
 Clear Filters: Hidlau clir
 Clear search: Chwiliad clir
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Cymharwch...
 Comparison results: {0} channels: Canlyniadau cymharu: {0} sianel
 Configuration Missing: Cyfluniad ar Goll
+Confirm Delete: Cadarnhau Dileu
 Confirm Reload: Cadarnhau Ail-lwytho
 Connect: Cyswllt
 Connected: Wedi'i gysylltu
+Copied: Wedi'i gopïo
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Gwlad
 Credits: Credydau
+Delete channel '{0}'?: Dileu sianel '{0}'?
 Delete Group: Dileu Grŵp
 Delete Selected: Dileu Wedi'i Ddewis
+Deleted: Wedi'i ddileu
 Description: Disgrifiad
 Details: Manylion
 Developed by Lululla: Datblygwyd gan Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Rhowch URL rhestr chwarae (JSON neu M3U):
 Enter playlist URL (M3U or JSON):: Rhowch URL rhestr chwarae (M3U neu JSON):
 EPG: EPG
 Epg & Favorites: Epg & Ffefrynnau
+EPG & Favorites: EPG a Ffefrynnau
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG a Logos
 EPG cache cleared successfully.: Clirio storfa EPG yn llwyddiannus.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Gwall wrth glirio storfa: {0}
 Error loading: Gwall wrth lwytho
 Error loading EPG list: {0}: Gwall wrth lwytho rhestr EPG: {0}
 Error loading file: {0}: Gwall wrth lwytho ffeil: {0}
-Error loading file: {0}: Gwall wrth lwytho ffeil: {0}
 Error loading playlists: {0}: Gwall wrth lwytho rhestri chwarae: {0}
-Error loading URL: {0}: Gwall wrth lwytho URL: {0}
 Error loading URL: {0}: Gwall wrth lwytho URL: {0}
 ERROR: player.html not found.: GWALL: ni chanfuwyd player.html.
 Exit: Ymadael
-Export: Allforio
 Export all: Allforio i gyd
 Export Favorites: Ffefrynnau Allforio
 Export Filtered JSON: Allforio JSON Hidlo
@@ -136,7 +140,9 @@ Export missing: Allforio ar goll
 Export OK: Allforio Iawn
 Export only favorite channels to a new M3U file: Allforio hoff sianeli yn unig i ffeil M3U newydd
 Export results as JSON or M3U – export missing channels or all channels.: Allforio canlyniadau fel JSON neu M3U - allforio sianeli coll neu bob sianel.
-Exported channels: Sianeli wedi'u hallforio
+Export selected: Allforio wedi'i ddewis
+Exported: Wedi'i allforio
+Exported {0} channels to {1}: Wedi allforio {0} sianel i {1}
 Extracting update...: Wrthi'n echdynnu diweddariad...
 Failed to download playlist: Wedi methu lawrlwytho rhestr chwarae
 Failed to load playlist: Wedi methu llwytho rhestr chwarae
@@ -148,7 +154,6 @@ Fetch Logos: Nôl Logos
 File {0} already exists. Overwrite?: Mae ffeil {0} eisoes yn bodoli. Trosysgrifo?
 File exists: Ffeil yn bodoli
 Filters: Hidlau
-First playlist: {0} channels loaded.: Rhestr chwarae gyntaf: {0} sianel wedi'u llwytho.
 Fullscreen (hide UI) - press ESC to exit: Sgrin lawn (cuddio UI) - pwyswch ESC i adael
 Geo & Country: Geo & Gwlad
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON annilys: {0}
 Invalid playlist URL.: URL rhestr chwarae annilys.
 Invalid URL.: URL annilys.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: Ffeiliau JSON|*.json|Ffeiliau M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Ffeiliau JSON|*.json|Ffeiliau M3U|*.m3u;*.m3u8|Pob ffeil|*.*
 JSON Property: JSON Eiddo
 Ko-fi: Coffi
 Language: Iaith
@@ -215,6 +218,8 @@ Logos Subfolder: Is-ffolder Logos
 Map JSON properties to channel fields:: Mapio priodweddau JSON i feysydd sianel:
 Mapping saved for future imports of this file.: Mae mapiau wedi'u cadw ar gyfer mewnforio'r ffeil hon yn y dyfodol.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Trothwyon cyfatebol – gosodwch sensitifrwydd paru niwlog ar gyfer EPG a logos.
+Move to Group: Symud i Grŵp
+Moved: Wedi symud
 Name: Enw
 Nanoid: Nanoid
 Network error: Gwall rhwydwaith
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Dim sianeli wedi'u llwytho o URL M3U.
 No channels loaded from M3U.: Dim sianeli wedi'u llwytho o M3U.
 No channels loaded.: Dim sianeli wedi'u llwytho.
 No channels mapped: Dim sianeli wedi'u mapio
-No comparison results. Run Compare first.: Dim canlyniadau cymharu. Rhedwch Cymharwch yn gyntaf.
+No channels selected.: Dim sianeli wedi'u dewis.
 No duplicate URLs found.: Ni chanfuwyd URLau dyblyg.
 No EPG data: Dim data EPG
 No EPG information available for this channel.: Dim gwybodaeth EPG ar gael ar gyfer y sianel hon.
@@ -263,7 +268,6 @@ Playlist Editor: Golygydd Rhestr Chwarae
 Playlist Loading: Rhestr Chwarae Llwytho
 Playlist Management: Rheoli Rhestr Chwarae
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Storfa rhestr chwarae: OwnerPlugins/TivuStreamList (nentydd Eidalaidd a rhyngwladol)
-Playlists loaded: Rhestrau chwarae wedi'u llwytho
 Please select a program first.: Dewiswch raglen yn gyntaf.
 Preview (first 5 channels): Rhagolwg (5 sianel gyntaf)
 Preview error: {0}: Gwall rhagolwg: {0}
@@ -296,7 +300,9 @@ Search channel: : Chwilio sianel:
 Search channels by name: Chwilio sianeli yn ôl enw
 Search channels...: Chwilio sianeli...
 sec: eiliad
+Second playlist loaded: {0} channels: Ail restr chwarae wedi'i llwytho: {0} sianel
 Select a playlist first.: Dewiswch restr chwarae yn gyntaf.
+Select target group:: Dewiswch grŵp targed:
 Select Theme: Dewiswch Thema
 Selected theme is saved and applied on restart.: Mae'r thema a ddewiswyd yn cael ei chadw a'i chymhwyso wrth ailgychwyn.
 Send: Anfon

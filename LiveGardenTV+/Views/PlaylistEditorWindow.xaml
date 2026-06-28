@@ -83,6 +83,7 @@
                         <TextBlock x:Name="ActionsButtons" Text="Actions" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
                         <WrapPanel>
                             <Button x:Name="DeleteSelectedBtn" Content="Delete Selected" Width="120" Margin="2,0" Click="DeleteSelectedBtn_Click"/>
+                            <Button x:Name="ExportSelectedBtn" Content="Export Selected" Width="120" Margin="2,0" Click="ExportSelectedBtn_Click"/>
                             <Button x:Name="StopBtn" Content="Stop" Width="140" Margin="2,0" Click="StopBtn_Click" IsEnabled="False"/>
                             <Button x:Name="ResetOrderBtn" Content="Reset Order" Width="140" Margin="2,0" Click="ResetOrderBtn_Click"/>
                             <Button x:Name="SaveBtn" Content="Save as..." Width="140" Margin="2,0" Click="SaveBtn_Click"/>

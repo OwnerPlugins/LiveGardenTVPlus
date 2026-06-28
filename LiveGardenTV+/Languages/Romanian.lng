@@ -28,6 +28,7 @@ Add Mapping: Adăugați cartografiere
 Adjust buffer size (1-10 seconds): Ajustați dimensiunea tamponului (1-10 secunde)
 Advanced IDs: ID-uri avansate
 Application status: Starea aplicației
+Apply: Aplicați
 Apply changes: Aplicați modificări
 Apply Filters: Aplicați filtre
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Sigur doriți să reîncărcați GUI Enigma2?\n\nInterfața va reporni (ecran negru pentru câteva secunde).
@@ -54,6 +55,7 @@ channels from URL: canale de la URL
 Check Duplicates: Verificați duplicatele
 Check for updates: Verificați actualizările
 Check URLs: Verificați adresele URL
+Clear: Clar
 Clear EPG Cache: Ștergeți memoria cache EPG
 Clear Filters: Ștergeți filtrele
 Clear search: Ștergeți căutarea
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Comparaţie...
 Comparison results: {0} channels: Rezultate comparație: {0} canale
 Configuration Missing: Configurație lipsește
+Confirm Delete: Confirmați ștergerea
 Confirm Reload: Confirmați Reîncărcarea
 Connect: Conectați-vă
 Connected: Conectat
+Copied: Copiat
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Ţară
 Credits: Credite
+Delete channel '{0}'?: Ștergeți canalul „{0}”?
 Delete Group: Șterge grupul
 Delete Selected: Ștergeți selectat
+Deleted: Șters
 Description: Descriere
 Details: Detalii
 Developed by Lululla: Dezvoltat de Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Introduceți adresa URL a listei de redare (J
 Enter playlist URL (M3U or JSON):: Introduceți adresa URL a listei de redare (M3U sau JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favorite
+EPG & Favorites: EPG și Favorite
 Epg & Logos: Epg și sigle
 EPG & Logos: EPG și logo-uri
 EPG cache cleared successfully.: Cache-ul EPG a fost golit cu succes.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Eroare la golirea memoriei cache: {0}
 Error loading: Eroare la încărcare
 Error loading EPG list: {0}: Eroare la încărcarea listei EPG: {0}
 Error loading file: {0}: Eroare la încărcarea fișierului: {0}
-Error loading file: {0}: Eroare la încărcarea fișierului: {0}
 Error loading playlists: {0}: Eroare la încărcarea listelor de redare: {0}
-Error loading URL: {0}: Eroare la încărcarea adresei URL: {0}
 Error loading URL: {0}: Eroare la încărcarea adresei URL: {0}
 ERROR: player.html not found.: EROARE: player.html nu a fost găsit.
 Exit: Ieșire
-Export: Export
 Export all: Exportați tot
 Export Favorites: Exportați Favorite
 Export Filtered JSON: Exportați JSON filtrat
@@ -136,7 +140,9 @@ Export missing: Export lipsă
 Export OK: Export OK
 Export only favorite channels to a new M3U file: Exportați numai canalele favorite într-un fișier M3U nou
 Export results as JSON or M3U – export missing channels or all channels.: Exportați rezultatele ca JSON sau M3U – exportați canalele lipsă sau toate canalele.
-Exported channels: Canale exportate
+Export selected: Export selectat
+Exported: Exportat
+Exported {0} channels to {1}: S-au exportat {0} canale în {1}
 Extracting update...: Se extrage actualizarea...
 Failed to download playlist: Nu s-a putut descărca lista de redare
 Failed to load playlist: Nu s-a putut încărca lista de redare
@@ -148,7 +154,6 @@ Fetch Logos: Preluați sigle
 File {0} already exists. Overwrite?: Fișierul {0} există deja. Suprascrie?
 File exists: Fișierul există
 Filters: Filtre
-First playlist: {0} channels loaded.: Primul playlist: {0} canale încărcate.
 Fullscreen (hide UI) - press ESC to exit: Ecran complet (ascunde UI) - apăsați ESC pentru a ieși
 Geo & Country: Geo și țară
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON nevalid: {0}
 Invalid playlist URL.: Adresa URL a listei de redare nevalidă.
 Invalid URL.: Adresă URL nevalidă.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: Fișiere JSON|*.json|Fișiere M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Fișiere JSON|*.json|Fișiere M3U|*.m3u;*.m3u8|Toate fișierele|*.*
 JSON Property: Proprietate JSON
 Ko-fi: Cafea
 Language: Limbă
@@ -215,6 +218,8 @@ Logos Subfolder: Subfolder sigle
 Map JSON properties to channel fields:: Mapați proprietățile JSON la câmpurile de canal:
 Mapping saved for future imports of this file.: Maparea a fost salvată pentru importurile viitoare ale acestui fișier.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Praguri de potrivire – setați sensibilitatea potrivirii neclare pentru EPG și sigle.
+Move to Group: Mutați la Grup
+Moved: Mutat
 Name: Nume
 Nanoid: Nanoid
 Network error: Eroare de rețea
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Niciun canal încărcat de la adresa URL M3U.
 No channels loaded from M3U.: Niciun canal încărcat din M3U.
 No channels loaded.: Niciun canal încărcat.
 No channels mapped: Niciun canal mapat
-No comparison results. Run Compare first.: Nu există rezultate de comparație. Rulați mai întâi Comparați.
+No channels selected.: Niciun canal selectat.
 No duplicate URLs found.: Nu s-au găsit adrese URL duplicat.
 No EPG data: Nu există date EPG
 No EPG information available for this channel.: Nu există informații EPG disponibile pentru acest canal.
@@ -263,7 +268,6 @@ Playlist Editor: Editor de liste de redare
 Playlist Loading: Se încarcă playlist
 Playlist Management: Gestionarea listelor de redare
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Depozitul listelor de redare: OwnerPlugins/TivuStreamList (streamuri italiene și internaționale)
-Playlists loaded: S-au încărcat liste de redare
 Please select a program first.: Vă rugăm să selectați mai întâi un program.
 Preview (first 5 channels): Previzualizare (primele 5 canale)
 Preview error: {0}: Eroare de previzualizare: {0}
@@ -296,7 +300,9 @@ Search channel: : Cauta canal:
 Search channels by name: Căutați canale după nume
 Search channels...: Caută canale...
 sec: sec
+Second playlist loaded: {0} channels: Al doilea playlist încărcat: {0} canale
 Select a playlist first.: Selectați mai întâi o listă de redare.
+Select target group:: Selectați grupul țintă:
 Select Theme: Selectați Tema
 Selected theme is saved and applied on restart.: Tema selectată este salvată și aplicată la repornire.
 Send: Trimite

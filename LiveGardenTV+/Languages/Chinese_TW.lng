@@ -28,6 +28,7 @@ Add Mapping: 新增映射
 Adjust buffer size (1-10 seconds): 調整緩衝區大小（1-10秒）
 Advanced IDs: 進階 ID
 Application status: 申請狀態
+Apply: 申請
 Apply changes: 應用程式變更
 Apply Filters: 應用過濾器
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: 您確定要重新載入 Enigma2 GUI 嗎？ \n\n介面將重新啟動（黑屏幾秒鐘）。
@@ -54,6 +55,7 @@ channels from URL: 來自 URL 的頻道
 Check Duplicates: 檢查重複項
 Check for updates: 檢查更新
 Check URLs: 檢查網址
+Clear: 清除
 Clear EPG Cache: 清除 EPG 緩存
 Clear Filters: 清除過濾器
 Clear search: 清除搜尋
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: 比較...
 Comparison results: {0} channels: 比較結果：{0} 個通道
 Configuration Missing: 配置缺失
+Confirm Delete: 確認刪除
 Confirm Reload: 確認重新加載
 Connect: 連接
 Connected: 已連接
+Copied: 已複製
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: 國家
 Credits: 製作人員
+Delete channel '{0}'?: 刪除頻道“{0}”？
 Delete Group: 刪除群組
 Delete Selected: 刪除所選內容
+Deleted: 已刪除
 Description: 描述
 Details: 細節
 Developed by Lululla: 由 盧魯拉 開發
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: 輸入播放清單 URL（JSON 或 M3U）：
 Enter playlist URL (M3U or JSON):: 輸入播放清單 URL（M3U 或 JSON）：
 EPG: 電子節目指南
 Epg & Favorites: EPG 和收藏夾
+EPG & Favorites: 電子節目指南和收藏夾
 Epg & Logos: EPG 和標誌
 EPG & Logos: 電子節目指南和徽標
 EPG cache cleared successfully.: EPG 快取清除成功。
@@ -119,13 +126,10 @@ Error clearing cache: {0}: 清除快取時出錯：{0}
 Error loading: 載入錯誤
 Error loading EPG list: {0}: 載入 EPG 清單時發生錯誤：{0}
 Error loading file: {0}: 載入檔案時發生錯誤：{0}
-Error loading file: {0}: 載入檔案時發生錯誤：{0}
 Error loading playlists: {0}: 載入播放清單時發生錯誤：{0}
-Error loading URL: {0}: 載入網址時發生錯誤：{0}
 Error loading URL: {0}: 載入網址時發生錯誤：{0}
 ERROR: player.html not found.: 錯誤：找不到player.html。
 Exit: 出口
-Export: 出口
 Export all: 全部導出
 Export Favorites: 匯出收藏夾
 Export Filtered JSON: 匯出過濾後的 JSON
@@ -136,7 +140,9 @@ Export missing: 導出缺失
 Export OK: 導出確定
 Export only favorite channels to a new M3U file: 僅將喜愛的頻道匯出到新的 M3U 文件
 Export results as JSON or M3U – export missing channels or all channels.: 將結果匯出為 JSON 或 M3U – 匯出缺失通道或所有通道。
-Exported channels: 匯出頻道
+Export selected: 導出選定的
+Exported: 出口
+Exported {0} channels to {1}: 已將 {0} 個頻道匯出到 {1}
 Extracting update...: 正在提取更新...
 Failed to download playlist: 下載播放清單失敗
 Failed to load playlist: 無法載入播放列表
@@ -148,7 +154,6 @@ Fetch Logos: 取得徽標
 File {0} already exists. Overwrite?: 文件 {0} 已存在。覆蓋？
 File exists: 文件存在
 Filters: 過濾器
-First playlist: {0} channels loaded.: 第一個播放清單：已載入 {0} 個頻道。
 Fullscreen (hide UI) - press ESC to exit: 全螢幕（隱藏 UI）- 按 ESC 退出
 Geo & Country: 地理和國家
 GeoBlocked: 地理封鎖
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON 無效：{0}
 Invalid playlist URL.: 播放清單 URL 無效。
 Invalid URL.: 無效網址。
 Json: 傑森
-JSON files|*.json|M3U files|*.m3u: JSON 檔案|*.json|M3U 檔案|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON 檔案|*.json|M3U 檔案|*.m3u;*.m3u8|所有檔案|*.*
 JSON Property: JSON 屬性
 Ko-fi: 咖啡
 Language: 語言
@@ -215,6 +218,8 @@ Logos Subfolder: 標誌子資料夾
 Map JSON properties to channel fields:: 將 JSON 屬性對應到通道欄位：
 Mapping saved for future imports of this file.: 儲存映射以供將來匯入該文件。
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: 匹配閾值 – 設定 EPG 和標誌的模糊匹配敏感度。
+Move to Group: 移至群組
+Moved: 搬家了
 Name: 姓名
 Nanoid: 奈米機器人
 Network error: 網路錯誤
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: 沒有從 M3U URL 載入頻道。
 No channels loaded from M3U.: 沒有從 M3U 載入頻道。
 No channels loaded.: 未加載頻道。
 No channels mapped: 沒有映射頻道
-No comparison results. Run Compare first.: 沒有比較結果。首先運行比較。
+No channels selected.: 未選擇頻道。
 No duplicate URLs found.: 未發現重複的 URL。
 No EPG data: 無 EPG 數據
 No EPG information available for this channel.: 該頻道沒有可用的 EPG 資訊。
@@ -263,7 +268,6 @@ Playlist Editor: 播放清單編輯器
 Playlist Loading: 播放清單載入
 Playlist Management: 播放清單管理
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): 播放清單儲存庫：OwnerPlugins/TivuStreamList（義大利和國際串流）
-Playlists loaded: 播放清單已載入
 Please select a program first.: 請先選擇一個程序。
 Preview (first 5 channels): 預覽（前 5 個頻道）
 Preview error: {0}: 預覽錯誤：{0}
@@ -296,7 +300,9 @@ Search channel: : 搜尋頻道：
 Search channels by name: 按名稱搜尋頻道
 Search channels...: 搜尋頻道...
 sec: 秒
+Second playlist loaded: {0} channels: 已載入第二個播放清單：{0} 個頻道
 Select a playlist first.: 首先選擇一個播放清單。
+Select target group:: 選擇目標群體：
 Select Theme: 選擇主題
 Selected theme is saved and applied on restart.: 所選主題將被儲存並在重新啟動時套用。
 Send: 傳送

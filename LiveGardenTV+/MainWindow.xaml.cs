@@ -991,6 +991,141 @@ namespace LiveGardenTVPlus
             }
         }
 
+        private void CopyNameMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            var selected = ChannelTreeView.SelectedItem as Channel;
+            if (selected != null)
+            {
+                Clipboard.SetText(selected.Name);
+                StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Copied")}: {selected.Name}";
+            }
+        }
+
+        private void CopyUrlMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            var selected = ChannelTreeView.SelectedItem as Channel;
+            if (selected != null && !string.IsNullOrEmpty(selected.Url))
+            {
+                Clipboard.SetText(selected.Url);
+                StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Copied")}: {selected.Url}";
+            }
+        }
+
+        private async void MoveToGroupMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            var selected = ChannelTreeView.SelectedItem as Channel;
+            if (selected == null) return;
+
+            var groups = _allChannelsOriginal.Select(c => c.Group).Distinct().OrderBy(g => g).ToList();
+            groups.Insert(0, "General");
+
+            var dialog = new Window
+            {
+                Title = LanguageManager.GetTranslation("Move to Group"),
+                Width = 300,
+                Height = 200,
+                WindowStartupLocation = WindowStartupLocation.CenterOwner,
+                Owner = this,
+                Background = (Brush)FindResource("WindowBackgroundBrush"),
+                Foreground = (Brush)FindResource("ForegroundBrush")
+            };
+            var grid = new Grid { Margin = new Thickness(10) };
+            grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+            grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+            grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+
+            var label = new TextBlock { Text = LanguageManager.GetTranslation("Select target group:"), Margin = new Thickness(0, 0, 0, 10) };
+            Grid.SetRow(label, 0);
+            grid.Children.Add(label);
+
+            var combo = new ComboBox { ItemsSource = groups, SelectedIndex = 0, Margin = new Thickness(0, 0, 0, 10) };
+            Grid.SetRow(combo, 1);
+            grid.Children.Add(combo);
+
+            var panel = new StackPanel { Orientation = Orientation.Horizontal, HorizontalAlignment = HorizontalAlignment.Right };
+            var okBtn = new Button { Content = "OK", Width = 80, Margin = new Thickness(0, 0, 10, 0), IsDefault = true };
+            var cancelBtn = new Button { Content = "Cancel", Width = 80, IsCancel = true };
+            panel.Children.Add(okBtn);
+            panel.Children.Add(cancelBtn);
+            Grid.SetRow(panel, 2);
+            grid.Children.Add(panel);
+
+            dialog.Content = grid;
+            okBtn.Click += (s, args) => { dialog.DialogResult = true; dialog.Close(); };
+            cancelBtn.Click += (s, args) => { dialog.DialogResult = false; dialog.Close(); };
+
+            if (dialog.ShowDialog() == true)
+            {
+                string newGroup = combo.SelectedItem as string;
+                if (!string.IsNullOrEmpty(newGroup))
+                {
+                    selected.Group = newGroup;
+                    FavoritesManager.SaveFavorites(_allChannelsOriginal);
+                    RefreshChannelsView();
+                    StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Moved")} {selected.Name} → {newGroup}";
+                }
+            }
+        }
+
+        private async void DeleteChannelMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            var selected = ChannelTreeView.SelectedItem as Channel;
+            if (selected == null) return;
+
+            var result = MessageBox.Show(
+                string.Format(LanguageManager.GetTranslation("Delete channel '{0}'?"), selected.Name),
+                LanguageManager.GetTranslation("Confirm Delete"),
+                MessageBoxButton.YesNo,
+                MessageBoxImage.Question);
+            if (result == MessageBoxResult.Yes)
+            {
+                _allChannelsOriginal.Remove(selected);
+                RefreshChannelsView();
+                FavoritesManager.SaveFavorites(_allChannelsOriginal);
+                StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Deleted")}: {selected.Name}";
+            }
+        }
+
+        private async void ExportChannelMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            var selected = ChannelTreeView.SelectedItem as Channel;
+            if (selected == null) return;
+
+            var dialog = new Microsoft.Win32.SaveFileDialog
+            {
+                Filter = "M3U files|*.m3u|JSON files|*.json",
+                DefaultExt = ".m3u",
+                FileName = $"{selected.Name.Replace(" ", "_")}"
+            };
+            if (dialog.ShowDialog() == true)
+            {
+                string ext = Path.GetExtension(dialog.FileName).ToLower();
+                if (ext == ".m3u")
+                {
+                    var channels = new List<Channel> { selected };
+                    ExportToM3u(dialog.FileName, channels);
+                }
+                else if (ext == ".json")
+                {
+                    var json = new List<ChannelJson>
+                    {
+                        new ChannelJson
+                        {
+                            name = selected.Name,
+                            stream_urls = new List<string> { selected.Url },
+                            logo_url = selected.Logo,
+                            group = selected.Group,
+                            tvg_id = selected.TvgId,
+                            isFavorite = selected.IsFavorite
+                        }
+                    };
+                    string jsonString = Newtonsoft.Json.JsonConvert.SerializeObject(json, Newtonsoft.Json.Formatting.Indented);
+                    await File.WriteAllTextAsync(dialog.FileName, jsonString);
+                }
+                StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Exported")}: {selected.Name}";
+            }
+        }
+
         public void ShowLoading(bool show)
         {
             Dispatcher.Invoke(() =>

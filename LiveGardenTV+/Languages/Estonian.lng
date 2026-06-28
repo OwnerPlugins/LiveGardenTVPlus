@@ -28,6 +28,7 @@ Add Mapping: Lisa kaardistus
 Adjust buffer size (1-10 seconds): Puhvri suuruse reguleerimine (1–10 sekundit)
 Advanced IDs: Täpsemad ID-d
 Application status: Rakenduse olek
+Apply: Rakenda
 Apply changes: Rakenda muudatused
 Apply Filters: Rakenda filtreid
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Kas olete kindel, et soovite Enigma2 GUI uuesti laadida?\n\nLiides taaskäivitub (must ekraan mõneks sekundiks).
@@ -54,6 +55,7 @@ channels from URL: kanalid URL-ist
 Check Duplicates: Kontrollige duplikaate
 Check for updates: Kontrollige värskendusi
 Check URLs: Kontrollige URL-e
+Clear: Selge
 Clear EPG Cache: Tühjendage EPG vahemälu
 Clear Filters: Tühjenda filtrid
 Clear search: Tühjenda otsing
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Võrdle...
 Comparison results: {0} channels: Võrdlustulemused: {0} kanalit
 Configuration Missing: Konfiguratsioon puudub
+Confirm Delete: Kinnitage kustutamine
 Confirm Reload: Kinnitage uuesti laadimine
 Connect: Ühendage
 Connected: Ühendatud
+Copied: Kopeeritud
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Riik
 Credits: Krediidid
+Delete channel '{0}'?: Kas kustutada kanal „{0}”?
 Delete Group: Kustuta grupp
 Delete Selected: Kustuta valitud
+Deleted: Kustutatud
 Description: Kirjeldus
 Details: Üksikasjad
 Developed by Lululla: Arendanud Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Sisestage esitusloendi URL (JSON või M3U):
 Enter playlist URL (M3U or JSON):: Sisestage esitusloendi URL (M3U või JSON):
 EPG: EPG
 Epg & Favorites: Epg ja lemmikud
+EPG & Favorites: EPG ja lemmikud
 Epg & Logos: Epg ja logod
 EPG & Logos: EPG ja logod
 EPG cache cleared successfully.: EPG vahemälu tühjendamine õnnestus.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Viga vahemälu tühjendamisel: {0}
 Error loading: Viga laadimisel
 Error loading EPG list: {0}: Viga EPG loendi laadimisel: {0}
 Error loading file: {0}: Viga faili laadimisel: {0}
-Error loading file: {0}: Viga faili laadimisel: {0}
 Error loading playlists: {0}: Viga esitusloendite laadimisel: {0}
-Error loading URL: {0}: Viga URL-i laadimisel: {0}
 Error loading URL: {0}: Viga URL-i laadimisel: {0}
 ERROR: player.html not found.: VIGA: player.html ei leitud.
 Exit: Välju
-Export: Ekspordi
 Export all: Ekspordi kõik
 Export Favorites: Ekspordi lemmikud
 Export Filtered JSON: Ekspordi filtreeritud JSON
@@ -136,7 +140,9 @@ Export missing: Eksport puudub
 Export OK: Ekspordi OK
 Export only favorite channels to a new M3U file: Eksportige uude M3U-faili ainult lemmikkanalid
 Export results as JSON or M3U – export missing channels or all channels.: Ekspordi tulemused JSON- või M3U-vormingus – eksportige puuduvad kanalid või kõik kanalid.
-Exported channels: Eksporditud kanalid
+Export selected: Ekspordi valitud
+Exported: Eksporditud
+Exported {0} channels to {1}: Eksporditi {0} kanalit asukohta {1}
 Extracting update...: Värskenduse ekstraktimine...
 Failed to download playlist: Esitusloendi allalaadimine ebaõnnestus
 Failed to load playlist: Esitusloendi laadimine ebaõnnestus
@@ -148,7 +154,6 @@ Fetch Logos: Logode toomine
 File {0} already exists. Overwrite?: Fail {0} on juba olemas. Kas kirjutada üle?
 File exists: Fail on olemas
 Filters: Filtrid
-First playlist: {0} channels loaded.: Esimene esitusloend: {0} kanalit laaditi.
 Fullscreen (hide UI) - press ESC to exit: Täisekraan (peida kasutajaliides) – väljumiseks vajutage ESC
 Geo & Country: Geo ja riik
 GeoBlocked: Geoblokeeritud
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Kehtetu JSON: {0}
 Invalid playlist URL.: Vigane esitusloendi URL.
 Invalid URL.: Kehtetu URL.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON-failid|*.json|M3U-failid|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON-failid|*.json|M3U-failid|*.m3u;*.m3u8|Kõik failid|*.*
 JSON Property: JSON-vara
 Ko-fi: Kohv
 Language: Keel
@@ -215,6 +218,8 @@ Logos Subfolder: Logode alamkaust
 Map JSON properties to channel fields:: JSON-i atribuutide vastendamine kanaliväljadega:
 Mapping saved for future imports of this file.: Kaardistamine on salvestatud selle faili tulevaseks importimiseks.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Sobivusläved – määrake EPG ja logode jaoks hägune vastetundlikkus.
+Move to Group: Liigu gruppi
+Moved: Liigutatud
 Name: Nimi
 Nanoid: Nanoid
 Network error: Võrgu viga
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: M3U URL-ist pole kanaleid laaditud.
 No channels loaded from M3U.: M3U-st pole kanaleid laaditud.
 No channels loaded.: Ühtegi kanalit pole laaditud.
 No channels mapped: Ühtegi kanalit pole kaardistatud
-No comparison results. Run Compare first.: Võrdlustulemusi pole. Käivitage kõigepealt Võrdle.
+No channels selected.: Ühtegi kanalit pole valitud.
 No duplicate URLs found.: Dubleerivaid URL-e ei leitud.
 No EPG data: EPG andmed puuduvad
 No EPG information available for this channel.: Selle kanali EPG-teave pole saadaval.
@@ -263,7 +268,6 @@ Playlist Editor: Esitusloendite redaktor
 Playlist Loading: Esitusloendi laadimine
 Playlist Management: Esitusloendite haldamine
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Esitusloendite hoidla: OwnerPlugins/TivuStreamList (Itaalia ja rahvusvahelised vood)
-Playlists loaded: Esitusloendid on laaditud
 Please select a program first.: Palun valige esmalt programm.
 Preview (first 5 channels): Eelvaade (esimesed 5 kanalit)
 Preview error: {0}: Eelvaate viga: {0}
@@ -296,7 +300,9 @@ Search channel: : Otsi kanalit:
 Search channels by name: Otsige kanaleid nime järgi
 Search channels...: Otsi kanaleid...
 sec: sek
+Second playlist loaded: {0} channels: Teine esitusloend laaditi: {0} kanalit
 Select a playlist first.: Valige esmalt esitusloend.
+Select target group:: Valige sihtrühm:
 Select Theme: Valige Teema
 Selected theme is saved and applied on restart.: Valitud teema salvestatakse ja rakendatakse taaskäivitamisel.
 Send: Saada

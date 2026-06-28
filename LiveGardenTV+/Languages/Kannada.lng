@@ -28,6 +28,7 @@ Add Mapping: ಮ್ಯಾಪಿಂಗ್ ಸೇರಿಸಿ
 Adjust buffer size (1-10 seconds): ಬಫರ್ ಗಾತ್ರವನ್ನು ಹೊಂದಿಸಿ (1-10 ಸೆಕೆಂಡುಗಳು)
 Advanced IDs: ಸುಧಾರಿತ ಐಡಿಗಳು
 Application status: ಅಪ್ಲಿಕೇಶನ್ ಸ್ಥಿತಿ
+Apply: ಅನ್ವಯಿಸು
 Apply changes: ಬದಲಾವಣೆಗಳನ್ನು ಅನ್ವಯಿಸಿ
 Apply Filters: ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಅನ್ವಯಿಸಿ
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI ಅನ್ನು ಮರುಲೋಡ್ ಮಾಡಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?\n\nಇಂಟರ್ಫೇಸ್ ಮರುಪ್ರಾರಂಭಗೊಳ್ಳುತ್ತದೆ (ಕೆಲವು ಸೆಕೆಂಡುಗಳ ಕಾಲ ಕಪ್ಪು ಪರದೆ).
@@ -54,6 +55,7 @@ channels from URL: URL ನಿಂದ ಚಾನಲ್‌ಗಳು
 Check Duplicates: ನಕಲುಗಳನ್ನು ಪರಿಶೀಲಿಸಿ
 Check for updates: ನವೀಕರಣಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಿ
 Check URLs: URL ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ
+Clear: ತೆರವುಗೊಳಿಸಿ
 Clear EPG Cache: EPG ಸಂಗ್ರಹವನ್ನು ತೆರವುಗೊಳಿಸಿ
 Clear Filters: ಫಿಲ್ಟರ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ
 Clear search: ಹುಡುಕಾಟವನ್ನು ತೆರವುಗೊಳಿಸಿ
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: ಹೋಲಿಸಿ...
 Comparison results: {0} channels: ಹೋಲಿಕೆ ಫಲಿತಾಂಶಗಳು: {0} ಚಾನಲ್‌ಗಳು
 Configuration Missing: ಕಾನ್ಫಿಗರೇಶನ್ ಕಾಣೆಯಾಗಿದೆ
+Confirm Delete: ಅಳಿಸುವುದನ್ನು ದೃಢೀಕರಿಸಿ
 Confirm Reload: ಮರುಲೋಡ್ ದೃಢೀಕರಿಸಿ
 Connect: ಸಂಪರ್ಕಿಸಿ
 Connected: ಸಂಪರ್ಕಗೊಂಡಿದೆ
+Copied: ನಕಲು ಮಾಡಲಾಗಿದೆ
 CORVOBOYS.ORG: CORVOYS.ORG
 Country: ದೇಶ
 Credits: ಕ್ರೆಡಿಟ್‌ಗಳು
+Delete channel '{0}'?: ಚಾನಲ್ '{0}' ಅಳಿಸುವುದೇ?
 Delete Group: ಗುಂಪನ್ನು ಅಳಿಸಿ
 Delete Selected: ಆಯ್ಕೆ ಮಾಡಿರುವುದನ್ನು ಅಳಿಸಿ
+Deleted: ಅಳಿಸಲಾಗಿದೆ
 Description: ವಿವರಣೆ
 Details: ವಿವರಗಳು
 Developed by Lululla: ಲುಲುಲ್ಲಾ ಅಭಿವೃದ್ಧಿಪಡಿಸಿದ್ದಾರೆ
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: ಪ್ಲೇಪಟ್ಟಿ URL ಅನ್ನ�
 Enter playlist URL (M3U or JSON):: ಪ್ಲೇಪಟ್ಟಿ URL ನಮೂದಿಸಿ (M3U ಅಥವಾ JSON):
 EPG: EPG
 Epg & Favorites: ಎಪಿಜಿ ಮತ್ತು ಮೆಚ್ಚಿನವುಗಳು
+EPG & Favorites: EPG ಮತ್ತು ಮೆಚ್ಚಿನವುಗಳು
 Epg & Logos: ಎಪಿಜಿ ಮತ್ತು ಲೋಗೋಗಳು
 EPG & Logos: EPG ಮತ್ತು ಲೋಗೋಗಳು
 EPG cache cleared successfully.: EPG ಸಂಗ್ರಹವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ತೆರವುಗೊಳಿಸಲಾಗಿದೆ.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: ಸಂಗ್ರಹವನ್ನು ತೆರವುಗ�
 Error loading: ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ
 Error loading EPG list: {0}: EPG ಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ: {0}
 Error loading file: {0}: ಫೈಲ್ ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ: {0}
-Error loading file: {0}: ಫೈಲ್ ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ: {0}
 Error loading playlists: {0}: ಪ್ಲೇಪಟ್ಟಿಗಳನ್ನು ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ: {0}
-Error loading URL: {0}: URL ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ: {0}
 Error loading URL: {0}: URL ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ: {0}
 ERROR: player.html not found.: ದೋಷ: player.html ಕಂಡುಬಂದಿಲ್ಲ.
 Exit: ನಿರ್ಗಮಿಸಿ
-Export: ರಫ್ತು ಮಾಡಿ
 Export all: ಎಲ್ಲವನ್ನೂ ರಫ್ತು ಮಾಡಿ
 Export Favorites: ಮೆಚ್ಚಿನವುಗಳನ್ನು ರಫ್ತು ಮಾಡಿ
 Export Filtered JSON: ಫಿಲ್ಟರ್ ಮಾಡಿದ JSON ಅನ್ನು ರಫ್ತು ಮಾಡಿ
@@ -136,7 +140,9 @@ Export missing: ರಫ್ತು ಕಾಣೆಯಾಗಿದೆ
 Export OK: ರಫ್ತು ಸರಿ
 Export only favorite channels to a new M3U file: ಹೊಸ M3U ಫೈಲ್‌ಗೆ ಮೆಚ್ಚಿನ ಚಾನಲ್‌ಗಳನ್ನು ಮಾತ್ರ ರಫ್ತು ಮಾಡಿ
 Export results as JSON or M3U – export missing channels or all channels.: JSON ಅಥವಾ M3U ನಂತೆ ಫಲಿತಾಂಶಗಳನ್ನು ರಫ್ತು ಮಾಡಿ - ಕಾಣೆಯಾದ ಚಾನಲ್‌ಗಳು ಅಥವಾ ಎಲ್ಲಾ ಚಾನಲ್‌ಗಳನ್ನು ರಫ್ತು ಮಾಡಿ.
-Exported channels: ರಫ್ತು ಮಾಡಿದ ಚಾನಲ್‌ಗಳು
+Export selected: ರಫ್ತು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ
+Exported: ರಫ್ತು ಮಾಡಲಾಗಿದೆ
+Exported {0} channels to {1}: {0} ಚಾನಲ್‌ಗಳನ್ನು {1} ಗೆ ರಫ್ತು ಮಾಡಲಾಗಿದೆ
 Extracting update...: ನವೀಕರಣವನ್ನು ಹೊರತೆಗೆಯಲಾಗುತ್ತಿದೆ...
 Failed to download playlist: ಪ್ಲೇಪಟ್ಟಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ
 Failed to load playlist: ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ
@@ -148,7 +154,6 @@ Fetch Logos: ಲೋಗೋಗಳನ್ನು ಪಡೆದುಕೊಳ್ಳಿ
 File {0} already exists. Overwrite?: ಫೈಲ್ {0} ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ. ತಿದ್ದಿ ಬರೆಯುವುದೇ?
 File exists: ಫೈಲ್ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ
 Filters: ಶೋಧಕಗಳು
-First playlist: {0} channels loaded.: ಮೊದಲ ಪ್ಲೇಪಟ್ಟಿ: {0} ಚಾನಲ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿದೆ.
 Fullscreen (hide UI) - press ESC to exit: ಪೂರ್ಣಪರದೆ (UI ಮರೆಮಾಡಿ) - ನಿರ್ಗಮಿಸಲು ESC ಒತ್ತಿರಿ
 Geo & Country: ಜಿಯೋ ಮತ್ತು ದೇಶ
 GeoBlocked: ಜಿಯೋಬ್ಲಾಕ್ ಮಾಡಲಾಗಿದೆ
@@ -176,8 +181,6 @@ Invalid JSON: {0}: ಅಮಾನ್ಯ JSON: {0}
 Invalid playlist URL.: ಅಮಾನ್ಯ ಪ್ಲೇಪಟ್ಟಿ URL.
 Invalid URL.: ಅಮಾನ್ಯ URL.
 Json: ಜೆಸನ್
-JSON files|*.json|M3U files|*.m3u: JSON ಫೈಲ್‌ಗಳು|*.json|M3U ಫೈಲ್‌ಗಳು|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON ಫೈಲ್‌ಗಳು|*.json|M3U ಫೈಲ್‌ಗಳು|*.m3u;*.m3u8|ಎಲ್ಲಾ ಫೈಲ್‌ಗಳು|*.*
 JSON Property: JSON ಆಸ್ತಿ
 Ko-fi: ಕಾಫಿ
 Language: ಭಾಷೆ
@@ -215,6 +218,8 @@ Logos Subfolder: ಲೋಗೋಗಳ ಉಪಫೋಲ್ಡರ್
 Map JSON properties to channel fields:: ಚಾನಲ್ ಕ್ಷೇತ್ರಗಳಿಗೆ JSON ಗುಣಲಕ್ಷಣಗಳನ್ನು ನಕ್ಷೆ ಮಾಡಿ:
 Mapping saved for future imports of this file.: ಈ ಫೈಲ್‌ನ ಭವಿಷ್ಯದ ಆಮದುಗಳಿಗಾಗಿ ಮ್ಯಾಪಿಂಗ್ ಅನ್ನು ಉಳಿಸಲಾಗಿದೆ.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: ಹೊಂದಾಣಿಕೆಯ ಮಿತಿಗಳು - EPG ಮತ್ತು ಲೋಗೋಗಳಿಗಾಗಿ ಅಸ್ಪಷ್ಟ ಹೊಂದಾಣಿಕೆಯ ಸೂಕ್ಷ್ಮತೆಯನ್ನು ಹೊಂದಿಸಿ.
+Move to Group: ಗುಂಪಿಗೆ ಸರಿಸಿ
+Moved: ಸ್ಥಳಾಂತರಿಸಲಾಗಿದೆ
 Name: ಹೆಸರು
 Nanoid: ನ್ಯಾನಾಯ್ಡ್
 Network error: ನೆಟ್‌ವರ್ಕ್ ದೋಷ
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: M3U URL ನಿಂದ ಯಾವುದೇ ಚಾ
 No channels loaded from M3U.: M3U ನಿಂದ ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿಲ್ಲ.
 No channels loaded.: ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿಲ್ಲ.
 No channels mapped: ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಮ್ಯಾಪ್ ಮಾಡಲಾಗಿಲ್ಲ
-No comparison results. Run Compare first.: ಯಾವುದೇ ಹೋಲಿಕೆ ಫಲಿತಾಂಶಗಳಿಲ್ಲ. ಮೊದಲು ಹೋಲಿಕೆ ರನ್ ಮಾಡಿ.
+No channels selected.: ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಲಾಗಿಲ್ಲ.
 No duplicate URLs found.: ಯಾವುದೇ ನಕಲಿ URL ಗಳು ಕಂಡುಬಂದಿಲ್ಲ.
 No EPG data: ಇಪಿಜಿ ಡೇಟಾ ಇಲ್ಲ
 No EPG information available for this channel.: ಈ ಚಾನಲ್‌ಗೆ ಯಾವುದೇ EPG ಮಾಹಿತಿ ಲಭ್ಯವಿಲ್ಲ.
@@ -263,7 +268,6 @@ Playlist Editor: ಪ್ಲೇಪಟ್ಟಿ ಸಂಪಾದಕ
 Playlist Loading: ಪ್ಲೇಪಟ್ಟಿ ಲೋಡ್ ಆಗುತ್ತಿದೆ
 Playlist Management: ಪ್ಲೇಪಟ್ಟಿ ನಿರ್ವಹಣೆ
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): ಪ್ಲೇಪಟ್ಟಿ ರೆಪೊಸಿಟರಿ: ಓನರ್‌ಪ್ಲಗಿನ್‌ಗಳು/ಟಿವುಸ್ಟ್ರೀಮ್‌ಲಿಸ್ಟ್ (ಇಟಾಲಿಯನ್ ಮತ್ತು ಅಂತರರಾಷ್ಟ್ರೀಯ ಸ್ಟ್ರೀಮ್‌ಗಳು)
-Playlists loaded: ಪ್ಲೇಪಟ್ಟಿಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿದೆ
 Please select a program first.: ದಯವಿಟ್ಟು ಮೊದಲು ಪ್ರೋಗ್ರಾಂ ಆಯ್ಕೆಮಾಡಿ.
 Preview (first 5 channels): ಪೂರ್ವವೀಕ್ಷಣೆ (ಮೊದಲ 5 ಚಾನಲ್‌ಗಳು)
 Preview error: {0}: ಪೂರ್ವವೀಕ್ಷಣೆ ದೋಷ: {0}
@@ -296,7 +300,9 @@ Search channel: : ಹುಡುಕಾಟ ಚಾನಲ್:
 Search channels by name: ಹೆಸರಿನ ಮೂಲಕ ಚಾನಲ್‌ಗಳನ್ನು ಹುಡುಕಿ
 Search channels...: ಚಾನಲ್‌ಗಳನ್ನು ಹುಡುಕಿ...
 sec: ಸೆಕೆಂಡ್
+Second playlist loaded: {0} channels: ಎರಡನೇ ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿದೆ: {0} ಚಾನಲ್‌ಗಳು
 Select a playlist first.: ಮೊದಲು ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.
+Select target group:: ಗುರಿ ಗುಂಪನ್ನು ಆಯ್ಕೆಮಾಡಿ:
 Select Theme: ಥೀಮ್ ಆಯ್ಕೆಮಾಡಿ
 Selected theme is saved and applied on restart.: ಆಯ್ಕೆಮಾಡಿದ ಥೀಮ್ ಅನ್ನು ಉಳಿಸಲಾಗಿದೆ ಮತ್ತು ಮರುಪ್ರಾರಂಭಿಸಿದಾಗ ಅನ್ವಯಿಸಲಾಗುತ್ತದೆ.
 Send: ಕಳುಹಿಸು

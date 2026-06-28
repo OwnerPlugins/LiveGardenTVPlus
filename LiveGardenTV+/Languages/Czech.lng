@@ -28,6 +28,7 @@ Add Mapping: Přidat mapování
 Adjust buffer size (1-10 seconds): Upravit velikost vyrovnávací paměti (1–10 sekund)
 Advanced IDs: Pokročilá ID
 Application status: Stav aplikace
+Apply: Použít
 Apply changes: Použít změny
 Apply Filters: Použít filtry
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Jste si jisti, že chcete znovu načíst GUI Enigmy?\n\nRozhraní se restartuje (černá obrazovka na několik sekund).
@@ -54,6 +55,7 @@ channels from URL: kanály z adresy URL
 Check Duplicates: Zaškrtněte Duplikáty
 Check for updates: Zkontrolujte aktualizace
 Check URLs: Zkontrolujte adresy URL
+Clear: Jasný
 Clear EPG Cache: Vymazat mezipaměť EPG
 Clear Filters: Vymazat filtry
 Clear search: Vymazat vyhledávání
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Porovnat...
 Comparison results: {0} channels: Výsledky srovnání: {0} kanálů
 Configuration Missing: Konfigurace chybí
+Confirm Delete: Potvrďte Smazat
 Confirm Reload: Potvrďte Znovu načíst
 Connect: Připojit
 Connected: Připojeno
+Copied: Zkopírováno
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Země
 Credits: Kredity
+Delete channel '{0}'?: Smazat kanál '{0}'?
 Delete Group: Smazat skupinu
 Delete Selected: Smazat vybrané
+Deleted: Smazáno
 Description: Popis
 Details: Podrobnosti
 Developed by Lululla: Vyvinutý Lulullou
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Zadejte adresu URL seznamu videí (JSON nebo 
 Enter playlist URL (M3U or JSON):: Zadejte adresu URL seznamu videí (M3U nebo JSON):
 EPG: EPG
 Epg & Favorites: Epg a oblíbené
+EPG & Favorites: EPG a oblíbené
 Epg & Logos: Epg a loga
 EPG & Logos: EPG a loga
 EPG cache cleared successfully.: Mezipaměť EPG byla úspěšně vymazána.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Chyba při mazání mezipaměti: {0}
 Error loading: Chyba při načítání
 Error loading EPG list: {0}: Chyba při načítání seznamu EPG: {0}
 Error loading file: {0}: Chyba při načítání souboru: {0}
-Error loading file: {0}: Chyba při načítání souboru: {0}
 Error loading playlists: {0}: Chyba při načítání seznamů videí: {0}
-Error loading URL: {0}: Chyba při načítání adresy URL: {0}
 Error loading URL: {0}: Chyba při načítání adresy URL: {0}
 ERROR: player.html not found.: CHYBA: player.html nebyl nalezen.
 Exit: Výstup
-Export: Vývozní
 Export all: Exportovat vše
 Export Favorites: Exportovat oblíbené
 Export Filtered JSON: Exportujte filtrovaný JSON
@@ -136,7 +140,9 @@ Export missing: Export chybí
 Export OK: Export OK
 Export only favorite channels to a new M3U file: Exportujte pouze oblíbené kanály do nového souboru M3U
 Export results as JSON or M3U – export missing channels or all channels.: Export výsledků jako JSON nebo M3U – export chybějících kanálů nebo všech kanálů.
-Exported channels: Exportované kanály
+Export selected: Export vybrán
+Exported: Exportováno
+Exported {0} channels to {1}: Exportováno {0} kanálů do {1}
 Extracting update...: Extrahování aktualizace...
 Failed to download playlist: Stažení seznamu skladeb se nezdařilo
 Failed to load playlist: Seznam skladeb se nepodařilo načíst
@@ -148,7 +154,6 @@ Fetch Logos: Načíst loga
 File {0} already exists. Overwrite?: Soubor {0} již existuje. Přepsat?
 File exists: Soubor existuje
 Filters: Filtry
-First playlist: {0} channels loaded.: První seznam videí: načteno {0} kanálů.
 Fullscreen (hide UI) - press ESC to exit: Celá obrazovka (skrýt uživatelské rozhraní) – pro ukončení stiskněte ESC
 Geo & Country: Zeměpis a země
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Neplatný JSON: {0}
 Invalid playlist URL.: Neplatná adresa URL seznamu videí.
 Invalid URL.: Neplatná adresa URL.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: Soubory JSON|*.json|Soubory M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Soubory JSON|*.json|Soubory M3U|*.m3u;*.m3u8|Všechny soubory|*.*
 JSON Property: Vlastnost JSON
 Ko-fi: Káva
 Language: Jazyk
@@ -215,6 +218,8 @@ Logos Subfolder: Podsložka loga
 Map JSON properties to channel fields:: Mapujte vlastnosti JSON na pole kanálu:
 Mapping saved for future imports of this file.: Mapování bylo uloženo pro budoucí importy tohoto souboru.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Párovací prahy – nastavte citlivost fuzzy shody pro EPG a loga.
+Move to Group: Přesunout do skupiny
+Moved: Přesunuto
 Name: Jméno
 Nanoid: Nanoid
 Network error: Chyba sítě
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Z adresy URL M3U nebyly načteny žádné kan�
 No channels loaded from M3U.: Žádné kanály načteny z M3U.
 No channels loaded.: Nejsou načteny žádné kanály.
 No channels mapped: Nejsou namapovány žádné kanály
-No comparison results. Run Compare first.: Žádné výsledky srovnání. Nejprve spusťte Porovnat.
+No channels selected.: Nejsou vybrány žádné kanály.
 No duplicate URLs found.: Nebyly nalezeny žádné duplicitní adresy URL.
 No EPG data: Žádná data EPG
 No EPG information available for this channel.: Pro tento kanál nejsou k dispozici žádné informace EPG.
@@ -263,7 +268,6 @@ Playlist Editor: Editor seznamu skladeb
 Playlist Loading: Načítání seznamu skladeb
 Playlist Management: Správa seznamu skladeb
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Úložiště playlistů: OwnerPlugins/TivuStreamList (italské a mezinárodní streamy)
-Playlists loaded: Načteny seznamy skladeb
 Please select a program first.: Nejprve prosím vyberte program.
 Preview (first 5 channels): Náhled (prvních 5 kanálů)
 Preview error: {0}: Chyba náhledu: {0}
@@ -296,7 +300,9 @@ Search channel: : Vyhledat kanál:
 Search channels by name: Vyhledávejte kanály podle názvu
 Search channels...: Hledat kanály...
 sec: sek
+Second playlist loaded: {0} channels: Druhý načtený seznam videí: {0} kanálů
 Select a playlist first.: Nejprve vyberte seznam skladeb.
+Select target group:: Vyberte cílovou skupinu:
 Select Theme: Vyberte téma
 Selected theme is saved and applied on restart.: Vybrané téma se uloží a použije při restartu.
 Send: Poslat

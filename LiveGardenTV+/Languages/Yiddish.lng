@@ -28,6 +28,7 @@ Add Mapping: לייג מאַפּינג
 Adjust buffer size (1-10 seconds): סטרויערן באַפער גרייס (1-10 סעקונדעס)
 Advanced IDs: אַוואַנסירטע IDs
 Application status: אַפּפּליקאַטיאָן סטאַטוס
+Apply: צולייגן
 Apply changes: צולייגן ענדערונגען
 Apply Filters: צולייגן פילטערס
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: זענט איר זיכער אַז איר ווילן צו רילאָוד די Enigma2 GUI?\n\nדי צובינד וועט ריסטאַרט (שוואַרץ פאַרשטעלן פֿאַר אַ ביסל סעקונדעס).
@@ -54,6 +55,7 @@ channels from URL: טשאַנאַלז פֿון URL
 Check Duplicates: קוק די דופּליקאַטן
 Check for updates: קוק פֿאַר דערהייַנטיקונגען
 Check URLs: קוק URL ס
+Clear: קלאָר
 Clear EPG Cache: ויסמעקן EPG קאַש
 Clear Filters: קלאָר פילטערס
 Clear search: קלאָר זוכן
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: פאַרגלייַכן ...
 Comparison results: {0} channels: פאַרגלייַך רעזולטאַטן: {0} טשאַנאַלז
 Configuration Missing: קאָנפיגוראַטיאָן פעלנדיק
+Confirm Delete: באַשטעטיקן ויסמעקן
 Confirm Reload: באַשטעטיקן רילאָוד
 Connect: פאַרבינדן
 Connected: קאָננעקטעד
+Copied: קאַפּיד
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: לאַנד
 Credits: קרעדיץ
+Delete channel '{0}'?: ויסמעקן קאַנאַל '{0}'?
 Delete Group: ויסמעקן גרופע
 Delete Selected: ויסמעקן אויסגעקליבן
+Deleted: אויסגעמעקט
 Description: באַשרייַבונג
 Details: דעטאַילס
 Developed by Lululla: דעוועלאָפּעד דורך Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: אַרייַן פּלייַליסט URL (JSON
 Enter playlist URL (M3U or JSON):: אַרייַן פּלייַליסט URL (M3U אָדער JSON):
 EPG: EPG
 Epg & Favorites: עפּג & פאַוואָריטעס
+EPG & Favorites: עפּג & פאַוואָריטעס
 Epg & Logos: עפּג & לאָגאָס
 EPG & Logos: עפּג & לאָגאָס
 EPG cache cleared successfully.: EPG קאַש קלירד הצלחה.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: פֿעלער קלירינג קאַש: {0}
 Error loading: טעות לאָודינג
 Error loading EPG list: {0}: טעות לאָודינג EPG רשימה: {0}
 Error loading file: {0}: טעות לאָודינג טעקע: {0}
-Error loading file: {0}: טעות לאָודינג טעקע: {0}
 Error loading playlists: {0}: טעות לאָודינג פּלייַליסץ: {0}
-Error loading URL: {0}: טעות לאָודינג URL: {0}
 Error loading URL: {0}: טעות לאָודינג URL: {0}
 ERROR: player.html not found.: טעות: player.html ניט געפֿונען.
 Exit: אַרויסגאַנג
-Export: עקספּאָרט
 Export all: עקספּאָרט אַלע
 Export Favorites: עקספּאָרט פאַוואָריטעס
 Export Filtered JSON: עקספּאָרט פילטערד דזשסאָן
@@ -136,7 +140,9 @@ Export missing: עקספּאָרט פעלנדיק
 Export OK: עקספּאָרט גוט
 Export only favorite channels to a new M3U file: עקספּאָרט בלויז באַליבסטע טשאַנאַלז צו אַ נייַע M3U טעקע
 Export results as JSON or M3U – export missing channels or all channels.: אַרויספירן רעזולטאַטן ווי JSON אָדער M3U - אַרויספירן פעלנדיק טשאַנאַלז אָדער אַלע טשאַנאַלז.
-Exported channels: עקספּאָרטעד טשאַנאַלז
+Export selected: עקספּאָרט אויסגעקליבן
+Exported: עקספּאָרטירט
+Exported {0} channels to {1}: עקספּאָרטירט {0} טשאַנאַלז צו {1}
 Extracting update...: עקסטראַקטינג דערהייַנטיקן ...
 Failed to download playlist: ניט אַנדערש צו אָפּלאָדירן פּלייַליסט
 Failed to load playlist: ניט אַנדערש צו לאָדן פּלייַליסט
@@ -148,7 +154,6 @@ Fetch Logos: באַקומען לאָגאָס
 File {0} already exists. Overwrite?: טעקע {0} עקזיסטירט שוין. איבערשרייבן?
 File exists: טעקע יגזיסץ
 Filters: פילטערס
-First playlist: {0} channels loaded.: ערשטער פּלייַליסט: {0} טשאַנאַלז לאָודיד.
 Fullscreen (hide UI) - press ESC to exit: Fullscreen (באַהאַלטן וי) - דריקן ESC צו אַרויסגאַנג
 Geo & Country: געאָ & לאַנד
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: אומגילטיק דזשסאָן: {0}
 Invalid playlist URL.: אומגילטיק URL פון פּלייַליסט.
 Invalid URL.: אומגילטיק URL.
 Json: דזשסאָן
-JSON files|*.json|M3U files|*.m3u: JSON טעקעס|*.json|M3U טעקעס|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON טעקעס|*.json|M3U טעקעס|*.m3u;*.m3u8|אַלע טעקעס|*.*
 JSON Property: JSON פאַרמאָג
 Ko-fi: קאַווע
 Language: שפּראַך
@@ -215,6 +218,8 @@ Logos Subfolder: לאָגאָס סובפאָלדער
 Map JSON properties to channel fields:: מאַפּע JSON פּראָפּערטיעס צו קאַנאַל פעלדער:
 Mapping saved for future imports of this file.: מאַפּינג געראטעוועט פֿאַר צוקונפֿט ימפּאָרץ פון דעם טעקע.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: וואָס ריכטן טרעשכאָולדז - שטעלן פאַזי גלייַכן סענסיטיוויטי פֿאַר EPG און לאָגאָס.
+Move to Group: מאַך צו די גרופּע
+Moved: אריבערגעפארן
 Name: נאָמען
 Nanoid: נאַנאָיד
 Network error: נעץ טעות
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: קיין טשאַנאַלז לאָודיד פ�
 No channels loaded from M3U.: קיין טשאַנאַלז לאָודיד פֿון M3U.
 No channels loaded.: קיין טשאַנאַלז לאָודיד.
 No channels mapped: קיין טשאַנאַלז מאַפּט
-No comparison results. Run Compare first.: קיין פאַרגלייַך רעזולטאַטן. לויפן Compare ערשטער.
+No channels selected.: קיין טשאַנאַלז אויסגעקליבן.
 No duplicate URLs found.: קיין דופּליקאַט URL ס געפֿונען.
 No EPG data: קיין EPG דאַטן
 No EPG information available for this channel.: קיין EPG אינפֿאָרמאַציע בנימצא פֿאַר דעם קאַנאַל.
@@ -263,7 +268,6 @@ Playlist Editor: פּלייַליסט עדיטאָר
 Playlist Loading: פּלייַליסט לאָודינג
 Playlist Management: פּלייַליסט מאַנאַגעמענט
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): פּלייַליסט ריפּאַזאַטאָרי: OwnerPlugins / TivuStreamList (איטאַליעניש און אינטערנאַציאָנאַלע סטרימז)
-Playlists loaded: פּלייַליסץ לאָודיד
 Please select a program first.: ביטע אויסקלייַבן אַ פּראָגראַם ערשטער.
 Preview (first 5 channels): פאָרויסיקע ווייַזונג (ערשטער 5 טשאַנאַלז)
 Preview error: {0}: פאָרויסיקע ווייַזונג טעות: {0}
@@ -296,7 +300,9 @@ Search channel: : זוכן קאַנאַל:
 Search channels by name: זוכן טשאַנאַלז דורך נאָמען
 Search channels...: זוך טשאַנאַלז ...
 sec: סעק
+Second playlist loaded: {0} channels: צווייטע פּלייַליסט לאָודיד: {0} טשאַנאַלז
 Select a playlist first.: אויסקלייַבן אַ פּלייַליסט ערשטער.
+Select target group:: אויסקלייַבן ציל גרופּע:
 Select Theme: אויסקלייַבן טעמע
 Selected theme is saved and applied on restart.: אויסגעקליבן טעמע איז געראטעוועט און געווענדט אויף ריסטאַרט.
 Send: שיקן

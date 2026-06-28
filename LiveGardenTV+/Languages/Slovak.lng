@@ -28,6 +28,7 @@ Add Mapping: Pridať mapovanie
 Adjust buffer size (1-10 seconds): Úprava veľkosti vyrovnávacej pamäte (1 – 10 sekúnd)
 Advanced IDs: Rozšírené ID
 Application status: Stav aplikácie
+Apply: Použiť
 Apply changes: Použiť zmeny
 Apply Filters: Použiť filtre
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ste si istý, že chcete znova načítať GUI Enigmy?\n\nRozhranie sa reštartuje (na pár sekúnd čierna obrazovka).
@@ -54,6 +55,7 @@ channels from URL: kanálov z adresy URL
 Check Duplicates: Začiarknite políčko Duplikáty
 Check for updates: Skontrolujte aktualizácie
 Check URLs: Skontrolujte adresy URL
+Clear: Jasné
 Clear EPG Cache: Vymazať vyrovnávaciu pamäť EPG
 Clear Filters: Vymazať filtre
 Clear search: Vymazať vyhľadávanie
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Porovnať...
 Comparison results: {0} channels: Výsledky porovnania: {0} kanálov
 Configuration Missing: Chýba konfigurácia
+Confirm Delete: Potvrďte Odstrániť
 Confirm Reload: Potvrďte opätovné načítanie
 Connect: Pripojte sa
 Connected: Pripojené
+Copied: Skopírované
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Krajina
 Credits: Kredity
+Delete channel '{0}'?: Odstrániť kanál '{0}'?
 Delete Group: Odstrániť skupinu
 Delete Selected: Odstrániť vybraté
+Deleted: Odstránené
 Description: Popis
 Details: Podrobnosti
 Developed by Lululla: Vyvinutý Lulullou
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Zadajte webovú adresu zoznamu videí (JSON a
 Enter playlist URL (M3U or JSON):: Zadajte webovú adresu zoznamu videí (M3U alebo JSON):
 EPG: EPG
 Epg & Favorites: Epg a obľúbené
+EPG & Favorites: EPG a obľúbené
 Epg & Logos: Epg a logá
 EPG & Logos: EPG a logá
 EPG cache cleared successfully.: Vyrovnávacia pamäť EPG bola úspešne vymazaná.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Chyba pri vymazávaní vyrovnávacej pamäte: {0}
 Error loading: Chyba pri načítavaní
 Error loading EPG list: {0}: Chyba pri načítavaní zoznamu EPG: {0}
 Error loading file: {0}: Chyba pri načítavaní súboru: {0}
-Error loading file: {0}: Chyba pri načítavaní súboru: {0}
 Error loading playlists: {0}: Chyba pri načítavaní zoznamov skladieb: {0}
-Error loading URL: {0}: Chyba pri načítavaní adresy URL: {0}
 Error loading URL: {0}: Chyba pri načítavaní adresy URL: {0}
 ERROR: player.html not found.: CHYBA: player.html sa nenašiel.
 Exit: VÝCHOD
-Export: Exportovať
 Export all: Exportovať všetko
 Export Favorites: Exportovať obľúbené položky
 Export Filtered JSON: Exportujte filtrovaný JSON
@@ -136,7 +140,9 @@ Export missing: Chýba export
 Export OK: Export OK
 Export only favorite channels to a new M3U file: Exportujte iba obľúbené kanály do nového súboru M3U
 Export results as JSON or M3U – export missing channels or all channels.: Exportovať výsledky ako JSON alebo M3U – exportovať chýbajúce kanály alebo všetky kanály.
-Exported channels: Exportované kanály
+Export selected: Export je vybratý
+Exported: Exportované
+Exported {0} channels to {1}: Počet exportovaných kanálov: {0} do {1}
 Extracting update...: Extrahuje sa aktualizácia...
 Failed to download playlist: Sťahovanie zoznamu skladieb zlyhalo
 Failed to load playlist: Nepodarilo sa načítať zoznam skladieb
@@ -148,7 +154,6 @@ Fetch Logos: Načítať logá
 File {0} already exists. Overwrite?: Súbor {0} už existuje. Prepísať?
 File exists: Súbor existuje
 Filters: Filtre
-First playlist: {0} channels loaded.: Prvý zoznam skladieb: načítané kanály: {0}.
 Fullscreen (hide UI) - press ESC to exit: Celá obrazovka (skryť používateľské rozhranie) – pre ukončenie stlačte ESC
 Geo & Country: Geografické údaje a krajina
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Neplatný JSON: {0}
 Invalid playlist URL.: Neplatná adresa URL zoznamu videí.
 Invalid URL.: Neplatná adresa URL.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: Súbory JSON|*.json|Súbory M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Súbory JSON|*.json|Súbory M3U|*.m3u;*.m3u8|Všetky súbory|*.*
 JSON Property: Vlastnosť JSON
 Ko-fi: Káva
 Language: Jazyk
@@ -215,6 +218,8 @@ Logos Subfolder: Podpriečinok Logos
 Map JSON properties to channel fields:: Mapujte vlastnosti JSON na polia kanála:
 Mapping saved for future imports of this file.: Mapovanie uložené pre budúce importy tohto súboru.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Prahové hodnoty zhody – nastavte citlivosť fuzzy zhody pre EPG a logá.
+Move to Group: Presunúť do skupiny
+Moved: Presunuté
 Name: Meno
 Nanoid: Nanoid
 Network error: Chyba siete
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Z adresy URL M3U sa nenačítali žiadne kaná
 No channels loaded from M3U.: Žiadne kanály načítané z M3U.
 No channels loaded.: Nie sú načítané žiadne kanály.
 No channels mapped: Nie sú namapované žiadne kanály
-No comparison results. Run Compare first.: Žiadne výsledky porovnania. Najprv spustite Porovnať.
+No channels selected.: Nie sú vybraté žiadne kanály.
 No duplicate URLs found.: Nenašli sa žiadne duplicitné adresy URL.
 No EPG data: Žiadne údaje EPG
 No EPG information available for this channel.: Pre tento kanál nie sú k dispozícii žiadne informácie EPG.
@@ -263,7 +268,6 @@ Playlist Editor: Editor zoznamu skladieb
 Playlist Loading: Načítava sa zoznam skladieb
 Playlist Management: Správa zoznamu skladieb
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Úložisko zoznamov skladieb: OwnerPlugins/TivuStreamList (talianske a medzinárodné streamy)
-Playlists loaded: Načítané zoznamy skladieb
 Please select a program first.: Najprv vyberte program.
 Preview (first 5 channels): Ukážka (prvých 5 kanálov)
 Preview error: {0}: Chyba ukážky: {0}
@@ -296,7 +300,9 @@ Search channel: : Hľadať kanál:
 Search channels by name: Vyhľadajte kanály podľa názvu
 Search channels...: Hľadať kanály...
 sec: sek
+Second playlist loaded: {0} channels: Druhý načítaný zoznam skladieb: {0} kanálov
 Select a playlist first.: Najprv vyberte zoznam skladieb.
+Select target group:: Vyberte cieľovú skupinu:
 Select Theme: Vyberte tému
 Selected theme is saved and applied on restart.: Vybraná téma sa uloží a použije pri reštarte.
 Send: Odoslať

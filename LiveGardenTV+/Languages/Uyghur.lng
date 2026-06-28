@@ -28,6 +28,7 @@ Add Mapping: خەرىتە قوشۇش
 Adjust buffer size (1-10 seconds): بۇففېرنىڭ چوڭ-كىچىكلىكىنى تەڭشەش (1-10 سېكۇنت)
 Advanced IDs: ئىلغار كىملىك
 Application status: ئىلتىماس ھالىتى
+Apply: ئىلتىماس قىلىڭ
 Apply changes: ئۆزگەرتىشلەرنى ئىشلىتىڭ
 Apply Filters: سۈزگۈچ ئىشلىتىڭ
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI نى قايتا يۈكلىمەكچىمۇ؟ \ n \ n كۆرۈنمە يۈزى قايتا قوزغىتىلىدۇ (قارا ئېكران بىر نەچچە سېكۇنت).
@@ -54,6 +55,7 @@ channels from URL: URL دىن كەلگەن قاناللار
 Check Duplicates: كۆپەيتىلگەن نۇسخىسىنى تەكشۈرۈڭ
 Check for updates: يېڭىلانمىلارنى تەكشۈرۈڭ
 Check URLs: URL نى تەكشۈرۈڭ
+Clear: Clear
 Clear EPG Cache: EPG Cache نى تازىلاڭ
 Clear Filters: سۈزگۈچنى تازىلاش
 Clear search: ئىزدەشنى تازىلاش
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: سېلىشتۇرۇش ...
 Comparison results: {0} channels: سېلىشتۇرۇش نەتىجىسى: {0} قانال
 Configuration Missing: سەپلىمە يوقاپ كەتتى
+Confirm Delete: ئۆچۈرۈشنى جەزملەشتۈرۈڭ
 Confirm Reload: قايتا يۈكلەشنى جەزملەشتۈرۈڭ
 Connect: ئۇلاڭ
 Connected: ئۇلاندى
+Copied: كۆچۈرۈلگەن
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: دۆلەت
 Credits: Credits
+Delete channel '{0}'?: '{0}' قانىلىنى ئۆچۈرۈڭ؟
 Delete Group: گۇرۇپپىنى ئۆچۈرۈش
 Delete Selected: تاللانغاننى ئۆچۈرۈڭ
+Deleted: ئۆچۈرۈلدى
 Description: چۈشەندۈرۈش
 Details: تەپسىلاتى
 Developed by Lululla: Lululla تەرىپىدىن ئىجاد قىلىنغان
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: قويۇش تىزىملىكى URL (JSON يا�
 Enter playlist URL (M3U or JSON):: قويۇش تىزىملىكى URL (M3U ياكى JSON) نى كىرگۈزۈڭ:
 EPG: EPG
 Epg & Favorites: Epg & Favorites
+EPG & Favorites: EPG & Favorites
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
 EPG cache cleared successfully.: EPG غەملەك مۇۋەپپەقىيەتلىك تازىلاندى.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: كەش تازىلاش خاتالىقى: {0}
 Error loading: يۈكلەشتە خاتالىق
 Error loading EPG list: {0}: EPG تىزىملىكىنى يۈكلەشتە خاتالىق: {0}
 Error loading file: {0}: ھۆججەت يۈكلەشتە خاتالىق: {0}
-Error loading file: {0}: ھۆججەت يۈكلەشتە خاتالىق: {0}
 Error loading playlists: {0}: قويۇش تىزىملىكىنى يۈكلەشتە خاتالىق: {0}
-Error loading URL: {0}: URL نى يۈكلەشتە خاتالىق: {0}
 Error loading URL: {0}: URL نى يۈكلەشتە خاتالىق: {0}
 ERROR: player.html not found.: خاتالىق: player.html تېپىلمىدى.
 Exit: چىقىش
-Export: ئېكسپورت
 Export all: ھەممىنى چىقىرىش
 Export Favorites: ياقتۇرىدىغانلارنى چىقىرىش
 Export Filtered JSON: سۈزۈلگەن JSON نى چىقىرىش
@@ -136,7 +140,9 @@ Export missing: ئېكسپورت يوقاپ كەتتى
 Export OK: Export OK
 Export only favorite channels to a new M3U file: ئەڭ ياخشى كۆرىدىغان قاناللارنى يېڭى M3U ھۆججىتىگە چىقىرىڭ
 Export results as JSON or M3U – export missing channels or all channels.: نەتىجىنى JSON ياكى M3U قىلىپ چىقىرىش - يوقاپ كەتكەن قاناللارنى ياكى بارلىق قاناللارنى ئېكسپورت قىلىش.
-Exported channels: ئېكسپورت قىلىنغان قاناللار
+Export selected: ئېكسپورت تاللاندى
+Exported: ئېكسپورت قىلىندى
+Exported {0} channels to {1}: {0} قاناللىرىنى {1} غا چىقاردى
 Extracting update...: يېڭىلاش يېڭىلاش ...
 Failed to download playlist: قويۇش تىزىملىكى چۈشۈرۈلمىدى
 Failed to load playlist: قويۇش تىزىملىكى يۈكلەنمىدى
@@ -148,7 +154,6 @@ Fetch Logos: Fetch Logos
 File {0} already exists. Overwrite?: ھۆججەت {0} مەۋجۇت. Overwrite?
 File exists: ھۆججەت مەۋجۇت
 Filters: سۈزگۈچ
-First playlist: {0} channels loaded.: بىرىنچى قويۇش تىزىملىكى: {0} قاناللار يۈكلەندى.
 Fullscreen (hide UI) - press ESC to exit: پۈتۈن ئېكران (UI نى يوشۇرۇش) - چېكىنىش ئۈچۈن ESC نى بېسىڭ
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: ئىناۋەتسىز JSON: {0}
 Invalid playlist URL.: ئىناۋەتسىز تىزىملىك ​​URL.
 Invalid URL.: ئىناۋەتسىز URL.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON ھۆججىتى | * .json | M3U ھۆججىتى | * .m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON ھۆججىتى | * .json | M3U ھۆججىتى | * .m3u; *. M3u8 | بارلىق ھۆججەتلەر | *. *
 JSON Property: JSON مۈلۈك
 Ko-fi: قەھۋە
 Language: تىل
@@ -215,6 +218,8 @@ Logos Subfolder: Logos Subfolder
 Map JSON properties to channel fields:: خەرىتە JSON خۇسۇسىيىتىنى قانال مەيدانىغا:
 Mapping saved for future imports of this file.: خەرىتە بۇ ھۆججەتنىڭ كەلگۈسىدىكى ئىمپورت قىلىنىشى ئۈچۈن ساقلانغان.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: بوسۇغىدىن ماسلاشتۇرۇش - EPG ۋە بەلگە ئۈچۈن تۇتۇق مۇسابىقە سەزگۈرلۈكىنى بەلگىلەڭ.
+Move to Group: گۇرۇپپىغا يۆتكىڭ
+Moved: يۆتكەلدى
 Name: ئىسمى
 Nanoid: Nanoid
 Network error: تور خاتالىقى
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: M3U URL دىن يۈكلەنگەن قانال �
 No channels loaded from M3U.: M3U دىن يۈكلەنگەن قانال يوق.
 No channels loaded.: ھېچقانداق قانال يۈكلەنمىدى.
 No channels mapped: ھېچقانداق قانال خەرىتىسى يوق
-No comparison results. Run Compare first.: سېلىشتۇرۇش نەتىجىسى يوق. ئالدى بىلەن سېلىشتۇرۇش.
+No channels selected.: ھېچقانداق قانال تاللانمىدى.
 No duplicate URLs found.: كۆپەيتىلگەن URL تېپىلمىدى.
 No EPG data: EPG سانلىق مەلۇماتى يوق
 No EPG information available for this channel.: بۇ قانال ئۈچۈن EPG ئۇچۇرى يوق.
@@ -263,7 +268,6 @@ Playlist Editor: قويۇش تىزىملىكى تەھرىرلىگۈچى
 Playlist Loading: قويۇش تىزىملىكى يۈكلەش
 Playlist Management: قويۇش تىزىملىكى باشقۇرۇش
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): قويۇش تىزىملىكى ئامبىرى: OwnerPlugins / TivuStreamList (ئىتالىيە ۋە خەلقئارالىق ئېقىنلار)
-Playlists loaded: قويغۇچلار يۈكلەندى
 Please select a program first.: ئالدى بىلەن بىر پروگراممىنى تاللاڭ.
 Preview (first 5 channels): ئالدىن كۆرۈش (ئالدىنقى 5 قانال)
 Preview error: {0}: ئالدىن كۆرۈش خاتالىقى: {0}
@@ -296,7 +300,9 @@ Search channel: : ئىزدەش قانىلى:
 Search channels by name: ئىسىملارنى ئىزدەڭ
 Search channels...: ئىزدەش قاناللىرى ...
 sec: سېكۇنت
+Second playlist loaded: {0} channels: ئىككىنچى قويۇش تىزىملىكى يۈكلەندى: {0} قانال
 Select a playlist first.: ئالدى بىلەن قويۇش تىزىملىكىنى تاللاڭ.
+Select target group:: نىشان گۇرۇپپىسىنى تاللاڭ:
 Select Theme: باشتېمىنى تاللاڭ
 Selected theme is saved and applied on restart.: تاللانغان باشتېما ساقلىنىپ قايتا قوزغىتىلىدۇ.
 Send: ئەۋەتىڭ

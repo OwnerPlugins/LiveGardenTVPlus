@@ -28,6 +28,7 @@ Add Mapping: Żid Mapping
 Adjust buffer size (1-10 seconds): Aġġusta d-daqs tal-buffer (1-10 sekondi)
 Advanced IDs: IDs Avvanzati
 Application status: Status tal-applikazzjoni
+Apply: Applika
 Apply changes: Applika bidliet
 Apply Filters: Applika Filtri
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Int żgur li trid terġa' ttella' l-GUI ta' Enigma2?\n\nL-interface terġa' tibda (iskrin iswed għal ftit sekondi).
@@ -54,6 +55,7 @@ channels from URL: kanali mill-URL
 Check Duplicates: Iċċekkja Duplikati
 Check for updates: Iċċekkja għal aġġornamenti
 Check URLs: Iċċekkja l-URLs
+Clear: Ċara
 Clear EPG Cache: Ċar EPG Cache
 Clear Filters: Filtri ċari
 Clear search: Tiftix ċar
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Qabbel...
 Comparison results: {0} channels: Riżultati tat-tqabbil: {0} kanali
 Configuration Missing: Konfigurazzjoni nieqsa
+Confirm Delete: Ikkonferma Ħassar
 Confirm Reload: Ikkonferma Reload
 Connect: Qabbad
 Connected: Konnessi
+Copied: Ikkopjati
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Pajjiż
 Credits: Krediti
+Delete channel '{0}'?: Ħassar il-kanal '{0}'?
 Delete Group: Ħassar Grupp
 Delete Selected: Ħassar Magħżula
+Deleted: Imħassar
 Description: Deskrizzjoni
 Details: Dettalji
 Developed by Lululla: Żviluppat minn Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Daħħal l-URL tal-playlist (JSON jew M3U):
 Enter playlist URL (M3U or JSON):: Daħħal l-URL tal-playlist (M3U jew JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favoriti
+EPG & Favorites: EPG & Favoriti
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
 EPG cache cleared successfully.: Il-cache tal-EPG ikklerjat b'suċċess.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Żball meta tneħħi l-cache: {0}
 Error loading: Żball fit-tagħbija
 Error loading EPG list: {0}: Żball fit-tagħbija tal-lista EPG: {0}
 Error loading file: {0}: Żball fit-tagħbija tal-fajl: {0}
-Error loading file: {0}: Żball fit-tagħbija tal-fajl: {0}
 Error loading playlists: {0}: Żball fit-tagħbija tal-playlists: {0}
-Error loading URL: {0}: Żball fit-tagħbija tal-URL: {0}
 Error loading URL: {0}: Żball fit-tagħbija tal-URL: {0}
 ERROR: player.html not found.: ŻBALL: player.html ma nstabx.
 Exit: Ħruġ
-Export: Esportazzjoni
 Export all: Esportazzjoni kollha
 Export Favorites: Esportazzjoni Favoriti
 Export Filtered JSON: Esportazzjoni Iffiltrat JSON
@@ -136,7 +140,9 @@ Export missing: Esportazzjoni nieqsa
 Export OK: Esportazzjoni OK
 Export only favorite channels to a new M3U file: Esportazzjoni biss kanali favoriti għal fajl M3U ġdid
 Export results as JSON or M3U – export missing channels or all channels.: Esporta riżultati bħala JSON jew M3U - esporta l-kanali nieqsa jew il-kanali kollha.
-Exported channels: Kanali esportati
+Export selected: Esportazzjoni magħżula
+Exported: Esportati
+Exported {0} channels to {1}: Esportati {0} kanali lejn {1}
 Extracting update...: Qed jiġi estratt aġġornament...
 Failed to download playlist: Naqas milli tniżżel playlist
 Failed to load playlist: Naqas milli tagħbija playlist
@@ -148,7 +154,6 @@ Fetch Logos: Iġbed Logos
 File {0} already exists. Overwrite?: Il-fajl {0} diġà jeżisti. Ikteb mill-ġdid?
 File exists: Il-fajl jeżisti
 Filters: Filtri
-First playlist: {0} channels loaded.: L-ewwel playlist: {0} kanali mgħobbija.
 Fullscreen (hide UI) - press ESC to exit: Skrin sħiħ (aħbi UI) - agħfas ESC biex toħroġ
 Geo & Country: Ġeo & Pajjiż
 GeoBlocked: ĠeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON mhux validu: {0}
 Invalid playlist URL.: URL tal-playlist mhux validu.
 Invalid URL.: URL invalidu.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: Fajls JSON|*.json|Fajls M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Fajls JSON|*.json|Fajls M3U|*.m3u;*.m3u8|Il-fajls kollha|*.*
 JSON Property: Proprjetà JSON
 Ko-fi: Kafè
 Language: Lingwa
@@ -215,6 +218,8 @@ Logos Subfolder: Subfolder tal-logos
 Map JSON properties to channel fields:: Ippjana proprjetajiet JSON għal oqsma tal-kanali:
 Mapping saved for future imports of this file.: Immappjar salvat għal importazzjonijiet futuri ta' dan il-fajl.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Limiti ta' tqabbil – issettja sensittività ta' taqbila fuzzy għal EPG u logos.
+Move to Group: Imxi għall-Grupp
+Moved: Imċaqlaq
 Name: Isem
 Nanoid: Nanojdi
 Network error: Żball tan-netwerk
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Ebda kanali mgħobbija mill-URL M3U.
 No channels loaded from M3U.: Ebda kanali mgħobbija minn M3U.
 No channels loaded.: Ebda kanali mgħobbija.
 No channels mapped: Ebda kanali mmappjati
-No comparison results. Run Compare first.: Ebda riżultati ta 'paragun. Mexxi Qabbel l-ewwel.
+No channels selected.: Ebda kanali magħżula.
 No duplicate URLs found.: Ma nstab l-ebda URL duplikat.
 No EPG data: Ebda data EPG
 No EPG information available for this channel.: L-ebda informazzjoni EPG disponibbli għal dan il-kanal.
@@ -263,7 +268,6 @@ Playlist Editor: Editur tal-Playlist
 Playlist Loading: Tagħbija tal-Playlist
 Playlist Management: Ġestjoni tal-Playlist
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repożitorju tal-playlist: OwnerPlugins/TivuStreamList (flussi Taljani u internazzjonali)
-Playlists loaded: Playlists mgħobbija
 Please select a program first.: Jekk jogħġbok agħżel programm l-ewwel.
 Preview (first 5 channels): Preview (l-ewwel 5 kanali)
 Preview error: {0}: Żball ta' preview: {0}
@@ -296,7 +300,9 @@ Search channel: : Fittex kanal:
 Search channels by name: Fittex kanali bl-isem
 Search channels...: Fittex kanali...
 sec: taqs
+Second playlist loaded: {0} channels: It-tieni playlist mgħobbija: {0} kanali
 Select a playlist first.: Agħżel playlist l-ewwel.
+Select target group:: Agħżel il-grupp fil-mira:
 Select Theme: Agħżel Tema
 Selected theme is saved and applied on restart.: It-tema magħżula tiġi ssejvjata u applikata mal-bidu mill-ġdid.
 Send: Ibgħat

@@ -28,6 +28,7 @@ Add Mapping: Dodaj mapiranje
 Adjust buffer size (1-10 seconds): Podesite veličinu bafera (1-10 sekundi)
 Advanced IDs: Napredni ID-ovi
 Application status: Status aplikacije
+Apply: Prijavite se
 Apply changes: Primijenite promjene
 Apply Filters: Primijenite filtere
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Jeste li sigurni da želite ponovo učitati Enigma2 GUI?\n\nSučelje će se ponovo pokrenuti (crni ekran na nekoliko sekundi).
@@ -54,6 +55,7 @@ channels from URL: kanala sa URL-a
 Check Duplicates: Označite duplikate
 Check for updates: Provjerite ima li ažuriranja
 Check URLs: Provjerite URL-ove
+Clear: Jasno
 Clear EPG Cache: Obrišite EPG keš memoriju
 Clear Filters: Obriši filtere
 Clear search: Obriši pretragu
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Uporedite...
 Comparison results: {0} channels: Rezultati poređenja: {0} kanala
 Configuration Missing: Nedostaje konfiguracija
+Confirm Delete: Potvrdite brisanje
 Confirm Reload: Potvrdite ponovno učitavanje
 Connect: Povežite se
 Connected: Povezano
+Copied: Kopirano
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Država
 Credits: Zasluge
+Delete channel '{0}'?: Izbrisati kanal '{0}'?
 Delete Group: Izbriši grupu
 Delete Selected: Izbriši odabrano
+Deleted: Izbrisano
 Description: Opis
 Details: Detalji
 Developed by Lululla: Razvio Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Unesite URL plejliste (JSON ili M3U):
 Enter playlist URL (M3U or JSON):: Unesite URL plejliste (M3U ili JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favoriti
+EPG & Favorites: EPG & Favoriti
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
 EPG cache cleared successfully.: EPG keš je uspješno obrisan.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Greška pri čišćenju keša: {0}
 Error loading: Greška pri učitavanju
 Error loading EPG list: {0}: Greška pri učitavanju EPG liste: {0}
 Error loading file: {0}: Greška pri učitavanju fajla: {0}
-Error loading file: {0}: Greška pri učitavanju fajla: {0}
 Error loading playlists: {0}: Greška pri učitavanju plejlista: {0}
-Error loading URL: {0}: Greška pri učitavanju URL-a: {0}
 Error loading URL: {0}: Greška pri učitavanju URL-a: {0}
 ERROR: player.html not found.: GREŠKA: player.html nije pronađen.
 Exit: Izađi
-Export: Izvoz
 Export all: Izvezi sve
 Export Favorites: Izvezi favorite
 Export Filtered JSON: Izvezi filtrirani JSON
@@ -136,7 +140,9 @@ Export missing: Nedostaje izvoz
 Export OK: Izvoz OK
 Export only favorite channels to a new M3U file: Izvezite samo omiljene kanale u novi M3U fajl
 Export results as JSON or M3U – export missing channels or all channels.: Izvezite rezultate kao JSON ili M3U – izvozite kanale koji nedostaju ili sve kanale.
-Exported channels: Izvezeni kanali
+Export selected: Izvoz je odabran
+Exported: Izvezeno
+Exported {0} channels to {1}: Izvezeno {0} kanala u {1}
 Extracting update...: Izdvajanje ažuriranja...
 Failed to download playlist: Preuzimanje plejliste nije uspjelo
 Failed to load playlist: Učitavanje plejliste nije uspjelo
@@ -148,7 +154,6 @@ Fetch Logos: Dohvati logotipe
 File {0} already exists. Overwrite?: Fajl {0} već postoji. Prepisati?
 File exists: Fajl postoji
 Filters: Filteri
-First playlist: {0} channels loaded.: Prva plejlista: {0} kanala učitano.
 Fullscreen (hide UI) - press ESC to exit: Cijeli ekran (sakrij korisnički interfejs) - pritisnite ESC za izlaz
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Nevažeći JSON: {0}
 Invalid playlist URL.: Nevažeći URL plejliste.
 Invalid URL.: Nevažeći URL.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON fajlovi|*.json|M3U fajlovi|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON fajlovi|*.json|M3U fajlovi|*.m3u;*.m3u8|Svi fajlovi|*.*
 JSON Property: JSON Property
 Ko-fi: Kafa
 Language: Jezik
@@ -215,6 +218,8 @@ Logos Subfolder: Logos Subfolder
 Map JSON properties to channel fields:: Mapirajte JSON svojstva u polja kanala:
 Mapping saved for future imports of this file.: Mapiranje je sačuvano za buduće uvoze ove datoteke.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Pragovi podudaranja – postavite osjetljivost na nejasno podudaranje za EPG i logotipe.
+Move to Group: Premjesti u grupu
+Moved: Preseljeno
 Name: Ime
 Nanoid: Nanoid
 Network error: Mrežna greška
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Nema učitanih kanala sa M3U URL-a.
 No channels loaded from M3U.: Nema učitanih kanala iz M3U.
 No channels loaded.: Nema učitanih kanala.
 No channels mapped: Nema mapiranih kanala
-No comparison results. Run Compare first.: Nema rezultata poređenja. Prvo pokrenite Uporedi.
+No channels selected.: Nema odabranih kanala.
 No duplicate URLs found.: Nije pronađen nijedan duplikat URL-a.
 No EPG data: Nema EPG podataka
 No EPG information available for this channel.: Nema dostupnih EPG informacija za ovaj kanal.
@@ -263,7 +268,6 @@ Playlist Editor: Playlist Editor
 Playlist Loading: Playlist Loading
 Playlist Management: Upravljanje plejlistom
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repozitorijum plejliste: OwnerPlugins/TivuStreamList (italijanski i međunarodni streamovi)
-Playlists loaded: Plejliste su učitane
 Please select a program first.: Prvo odaberite program.
 Preview (first 5 channels): Pregled (prvih 5 kanala)
 Preview error: {0}: Greška pregleda: {0}
@@ -296,7 +300,9 @@ Search channel: : Traži kanal:
 Search channels by name: Pretražujte kanale po nazivu
 Search channels...: Pretraži kanale...
 sec: sec
+Second playlist loaded: {0} channels: Druga plejlista učitana: {0} kanala
 Select a playlist first.: Prvo odaberite listu za reprodukciju.
+Select target group:: Odaberite ciljnu grupu:
 Select Theme: Odaberite Tema
 Selected theme is saved and applied on restart.: Odabrana tema se čuva i primjenjuje pri ponovnom pokretanju.
 Send: Pošalji

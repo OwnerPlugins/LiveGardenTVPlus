@@ -259,6 +259,15 @@
                       VirtualizingPanel.IsVirtualizing="True" 
                       VirtualizingPanel.VirtualizationMode="Recycling"
                       VirtualizingPanel.ScrollUnit="Pixel">
+                <TreeView.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem x:Name="CopyNameMenuItem" Header="Copy Name" Click="CopyNameMenuItem_Click"/>
+                        <MenuItem x:Name="CopyUrlMenuItem" Header="Copy URL" Click="CopyUrlMenuItem_Click"/>
+                        <MenuItem x:Name="MoveToGroupMenuItem" Header="Move to Group" Click="MoveToGroupMenuItem_Click"/>
+                        <MenuItem x:Name="DeleteChannelMenuItem" Header="Delete" Click="DeleteChannelMenuItem_Click"/>
+                        <MenuItem x:Name="ExportChannelMenuItem" Header="Export" Click="ExportChannelMenuItem_Click"/>
+                    </ContextMenu>
+                </TreeView.ContextMenu>
                 <TreeView.ItemTemplate>
                     <HierarchicalDataTemplate ItemsSource="{Binding Channels}">
                         <!-- Group header (folder + name) -->

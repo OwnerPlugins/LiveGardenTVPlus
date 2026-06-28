@@ -28,6 +28,7 @@ Add Mapping: Leképezés hozzáadása
 Adjust buffer size (1-10 seconds): A puffer méretének beállítása (1-10 másodperc)
 Advanced IDs: Speciális azonosítók
 Application status: Alkalmazás állapota
+Apply: Alkalmazni
 Apply changes: Módosítások alkalmazása
 Apply Filters: Szűrők alkalmazása
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Biztosan újra szeretné tölteni az Enigma2 grafikus felületet?\n\nA felület újraindul (néhány másodpercig fekete képernyő).
@@ -54,6 +55,7 @@ channels from URL: csatornák az URL-ből
 Check Duplicates: Ellenőrizze az ismétlődéseket
 Check for updates: Ellenőrizze a frissítéseket
 Check URLs: Ellenőrizze az URL-eket
+Clear: Világos
 Clear EPG Cache: EPG gyorsítótár törlése
 Clear Filters: Szűrők törlése
 Clear search: Keresés törlése
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Összehasonlítás...
 Comparison results: {0} channels: Összehasonlítási eredmények: {0} csatorna
 Configuration Missing: Hiányzik a konfiguráció
+Confirm Delete: Erősítse meg a Törlést
 Confirm Reload: Erősítse meg az Újratöltést
 Connect: Csatlakozás
 Connected: Csatlakozva
+Copied: Másolva
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Ország
 Credits: Kredit
+Delete channel '{0}'?: Törli a(z) „{0}” csatornát?
 Delete Group: Csoport törlése
 Delete Selected: Kijelölt törlése
+Deleted: Törölve
 Description: Leírás
 Details: Részletek
 Developed by Lululla: Lululla fejlesztette ki
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Írja be a lejátszási lista URL-jét (JSON 
 Enter playlist URL (M3U or JSON):: Írja be a lejátszási lista URL-jét (M3U vagy JSON):
 EPG: EPG
 Epg & Favorites: Epg & Kedvencek
+EPG & Favorites: EPG és kedvencek
 Epg & Logos: Epg és logók
 EPG & Logos: EPG és logók
 EPG cache cleared successfully.: Az EPG gyorsítótár sikeresen törölve.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Hiba a gyorsítótár törlésekor: {0}
 Error loading: Hiba a betöltés során
 Error loading EPG list: {0}: Hiba az EPG-lista betöltésekor: {0}
 Error loading file: {0}: Hiba a fájl betöltésekor: {0}
-Error loading file: {0}: Hiba a fájl betöltésekor: {0}
 Error loading playlists: {0}: Hiba a lejátszási listák betöltésekor: {0}
-Error loading URL: {0}: Hiba az URL betöltésekor: {0}
 Error loading URL: {0}: Hiba az URL betöltésekor: {0}
 ERROR: player.html not found.: HIBA: player.html nem található.
 Exit: Kijárat
-Export: Export
 Export all: Az összes exportálása
 Export Favorites: Kedvencek exportálása
 Export Filtered JSON: Szűrt JSON exportálása
@@ -136,7 +140,9 @@ Export missing: Az exportálás hiányzik
 Export OK: Export OK
 Export only favorite channels to a new M3U file: Csak a kedvenc csatornákat exportálja új M3U fájlba
 Export results as JSON or M3U – export missing channels or all channels.: Az eredmények exportálása JSON vagy M3U formátumban – a hiányzó csatornák vagy az összes csatorna exportálása.
-Exported channels: Exportált csatornák
+Export selected: Exportálás kiválasztva
+Exported: Exportált
+Exported {0} channels to {1}: {0} csatorna exportálva ide: {1}
 Extracting update...: Frissítés kicsomagolása...
 Failed to download playlist: Nem sikerült letölteni a lejátszási listát
 Failed to load playlist: Nem sikerült betölteni a lejátszási listát
@@ -148,7 +154,6 @@ Fetch Logos: Logók lekérése
 File {0} already exists. Overwrite?: A(z) {0} fájl már létezik. Átír?
 File exists: A fájl létezik
 Filters: Szűrők
-First playlist: {0} channels loaded.: Első lejátszási lista: {0} csatorna betöltve.
 Fullscreen (hide UI) - press ESC to exit: Teljes képernyő (UI elrejtése) – a kilépéshez nyomja meg az ESC billentyűt
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Érvénytelen JSON: {0}
 Invalid playlist URL.: Érvénytelen lejátszási lista URL-je.
 Invalid URL.: Érvénytelen URL.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON-fájlok|*.json|M3U-fájlok|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON-fájlok|*.json|M3U-fájlok|*.m3u;*.m3u8|Minden fájl|*.*
 JSON Property: JSON-tulajdon
 Ko-fi: Kávé
 Language: Nyelv
@@ -215,6 +218,8 @@ Logos Subfolder: Logók almappa
 Map JSON properties to channel fields:: JSON-tulajdonságok hozzárendelése csatornamezőkhöz:
 Mapping saved for future imports of this file.: A leképezés mentve a fájl jövőbeli importálásához.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Egyező küszöbök – állítsa be az EPG és logók fuzzy egyezési érzékenységét.
+Move to Group: Ugrás a csoportba
+Moved: Elköltözött
 Name: Név
 Nanoid: Nanoid
 Network error: Hálózati hiba
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Nincs csatorna betöltve az M3U URL-ről.
 No channels loaded from M3U.: Nincs csatorna betöltve az M3U-ból.
 No channels loaded.: Nincs betöltve csatorna.
 No channels mapped: Nincs csatorna hozzárendelve
-No comparison results. Run Compare first.: Nincsenek összehasonlítási eredmények. Először futtassa az Összehasonlítást.
+No channels selected.: Nincs kiválasztva csatorna.
 No duplicate URLs found.: Nem található ismétlődő URL.
 No EPG data: Nincsenek EPG adatok
 No EPG information available for this channel.: Ehhez a csatornához nem áll rendelkezésre EPG információ.
@@ -263,7 +268,6 @@ Playlist Editor: Lejátszási lista szerkesztő
 Playlist Loading: Lejátszási lista betöltése
 Playlist Management: Lejátszási lista kezelése
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Lejátszási lista tárháza: OwnerPlugins/TivuStreamList (olasz és nemzetközi streamek)
-Playlists loaded: Lejátszási listák betöltve
 Please select a program first.: Kérjük, először válasszon programot.
 Preview (first 5 channels): Előnézet (első 5 csatorna)
 Preview error: {0}: Előnézeti hiba: {0}
@@ -296,7 +300,9 @@ Search channel: : Csatorna keresése:
 Search channels by name: Csatornák keresése név szerint
 Search channels...: Csatornák keresése...
 sec: mp
+Second playlist loaded: {0} channels: Második lejátszási lista betöltve: {0} csatorna
 Select a playlist first.: Először válasszon ki egy lejátszási listát.
+Select target group:: Célcsoport kiválasztása:
 Select Theme: Válassza a Témát
 Selected theme is saved and applied on restart.: A kiválasztott téma mentésre kerül, és újraindításkor alkalmazásra kerül.
 Send: Elküld

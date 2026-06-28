@@ -28,6 +28,7 @@ Add Mapping: Voeg toewijzing toe
 Adjust buffer size (1-10 seconds): Buffergrootte aanpassen (1-10 seconden)
 Advanced IDs: Geavanceerde ID's
 Application status: Applicatiestatus
+Apply: Toepassen
 Apply changes: Wijzigingen toepassen
 Apply Filters: Filters toepassen
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Weet u zeker dat u de Enigma2 GUI opnieuw wilt laden?\n\nDe interface zal opnieuw opstarten (zwart scherm gedurende een paar seconden).
@@ -54,6 +55,7 @@ channels from URL: kanalen van URL
 Check Duplicates: Controleer duplicaten
 Check for updates: Controleer op updates
 Check URLs: Controleer URL's
+Clear: Duidelijk
 Clear EPG Cache: EPG-cache wissen
 Clear Filters: Filters wissen
 Clear search: Duidelijke zoekopdracht
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Vergelijken...
 Comparison results: {0} channels: Vergelijkingsresultaten: {0} kanalen
 Configuration Missing: Configuratie ontbreekt
+Confirm Delete: Bevestig verwijderen
 Confirm Reload: Bevestig opnieuw laden
 Connect: Verbinden
 Connected: Aangesloten
+Copied: Gekopieerd
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Land
 Credits: Kredieten
+Delete channel '{0}'?: Kanaal '{0}' verwijderen?
 Delete Group: Groep verwijderen
 Delete Selected: Geselecteerde verwijderen
+Deleted: Verwijderd
 Description: Beschrijving
 Details: Details
 Developed by Lululla: Ontwikkeld door Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Voer de URL van de afspeellijst in (JSON of M
 Enter playlist URL (M3U or JSON):: Voer de URL van de afspeellijst in (M3U of JSON):
 EPG: EPG
 Epg & Favorites: Epg en favorieten
+EPG & Favorites: EPG en favorieten
 Epg & Logos: Epg en logo's
 EPG & Logos: EPG en logo's
 EPG cache cleared successfully.: EPG-cache is succesvol gewist.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Fout bij leegmaken van cache: {0}
 Error loading: Fout bij laden
 Error loading EPG list: {0}: Fout bij laden van EPG-lijst: {0}
 Error loading file: {0}: Fout bij laden van bestand: {0}
-Error loading file: {0}: Fout bij laden van bestand: {0}
 Error loading playlists: {0}: Fout bij het laden van afspeellijsten: {0}
-Error loading URL: {0}: Fout bij laden van URL: {0}
 Error loading URL: {0}: Fout bij laden van URL: {0}
 ERROR: player.html not found.: FOUT: player.html niet gevonden.
 Exit: Uitgang
-Export: Exporteren
 Export all: Alles exporteren
 Export Favorites: Favorieten exporteren
 Export Filtered JSON: Gefilterde JSON exporteren
@@ -136,7 +140,9 @@ Export missing: Export ontbreekt
 Export OK: Exporteren oké
 Export only favorite channels to a new M3U file: Exporteer alleen favoriete kanalen naar een nieuw M3U-bestand
 Export results as JSON or M3U – export missing channels or all channels.: Exporteer resultaten als JSON of M3U – exporteer ontbrekende kanalen of alle kanalen.
-Exported channels: Geëxporteerde kanalen
+Export selected: Geselecteerde exporteren
+Exported: Geëxporteerd
+Exported {0} channels to {1}: {0} kanalen geëxporteerd naar {1}
 Extracting update...: Update uitpakken...
 Failed to download playlist: Kan de afspeellijst niet downloaden
 Failed to load playlist: Kan afspeellijst niet laden
@@ -148,7 +154,6 @@ Fetch Logos: Logo's ophalen
 File {0} already exists. Overwrite?: Bestand {0} bestaat al. Overschrijven?
 File exists: Bestand bestaat
 Filters: Filters
-First playlist: {0} channels loaded.: Eerste afspeellijst: {0} kanalen geladen.
 Fullscreen (hide UI) - press ESC to exit: Volledig scherm (gebruikersinterface verbergen) - druk op ESC om af te sluiten
 Geo & Country: Geo & Land
 GeoBlocked: Geogeblokkeerd
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Ongeldige JSON: {0}
 Invalid playlist URL.: Ongeldige afspeellijst-URL.
 Invalid URL.: Ongeldige URL.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON-bestanden|*.json|M3U-bestanden|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON-bestanden|*.json|M3U-bestanden|*.m3u;*.m3u8|Alle bestanden|*.*
 JSON Property: JSON-eigenschap
 Ko-fi: Koffie
 Language: Taal
@@ -215,6 +218,8 @@ Logos Subfolder: Submap Logo's
 Map JSON properties to channel fields:: Wijs JSON-eigenschappen toe aan kanaalvelden:
 Mapping saved for future imports of this file.: Toewijzing opgeslagen voor toekomstige import van dit bestand.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Overeenkomende drempels – stel de gevoeligheid voor vage overeenkomsten in voor EPG en logo's.
+Move to Group: Verplaats naar Groep
+Moved: Verplaatst
 Name: Naam
 Nanoid: Nanooïde
 Network error: Netwerkfout
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Er zijn geen kanalen geladen via de M3U-URL.
 No channels loaded from M3U.: Er zijn geen kanalen geladen van M3U.
 No channels loaded.: Geen kanalen geladen.
 No channels mapped: Geen kanalen toegewezen
-No comparison results. Run Compare first.: Geen vergelijkingsresultaten. Voer eerst Vergelijken uit.
+No channels selected.: Geen kanalen geselecteerd.
 No duplicate URLs found.: Geen dubbele URL's gevonden.
 No EPG data: Geen EPG-gegevens
 No EPG information available for this channel.: Er is geen EPG-informatie beschikbaar voor deze zender.
@@ -263,7 +268,6 @@ Playlist Editor: Afspeellijst-editor
 Playlist Loading: Afspeellijst wordt geladen
 Playlist Management: Beheer van afspeellijsten
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repository voor afspeellijsten: OwnerPlugins/TivuStreamList (Italiaanse en internationale streams)
-Playlists loaded: Afspeellijsten geladen
 Please select a program first.: Selecteer eerst een programma.
 Preview (first 5 channels): Preview (eerste 5 kanalen)
 Preview error: {0}: Voorbeeldfout: {0}
@@ -296,7 +300,9 @@ Search channel: : Kanaal zoeken:
 Search channels by name: Zoek kanalen op naam
 Search channels...: Zenders zoeken...
 sec: sec
+Second playlist loaded: {0} channels: Tweede afspeellijst geladen: {0} kanalen
 Select a playlist first.: Selecteer eerst een afspeellijst.
+Select target group:: Selecteer doelgroep:
 Select Theme: Selecteer Thema
 Selected theme is saved and applied on restart.: Het geselecteerde thema wordt opgeslagen en toegepast bij opnieuw opstarten.
 Send: Versturen

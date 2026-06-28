@@ -28,6 +28,7 @@ Add Mapping: Bæta við kortlagningu
 Adjust buffer size (1-10 seconds): Stilla biðminni (1-10 sekúndur)
 Advanced IDs: Ítarleg skilríki
 Application status: Staða umsóknar
+Apply: Sækja um
 Apply changes: Notaðu breytingar
 Apply Filters: Notaðu síur
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ertu viss um að þú viljir endurhlaða Enigma2 GUI?\n\nViðmótið mun endurræsast (svartur skjár í nokkrar sekúndur).
@@ -54,6 +55,7 @@ channels from URL: rásir frá URL
 Check Duplicates: Athugaðu afrit
 Check for updates: Leitaðu að uppfærslum
 Check URLs: Athugaðu vefslóðir
+Clear: Hreinsa
 Clear EPG Cache: Hreinsaðu EPG skyndiminni
 Clear Filters: Hreinsaðu síur
 Clear search: Hreinsa leit
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Bera saman...
 Comparison results: {0} channels: Niðurstöður samanburðar: {0} rásir
 Configuration Missing: Stillingar vantar
+Confirm Delete: Staðfestu Eyða
 Confirm Reload: Staðfestu endurhleðslu
 Connect: Tengdu
 Connected: Tengdur
+Copied: Afritað
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Land
 Credits: Inneign
+Delete channel '{0}'?: Eyða rás '{0}'?
 Delete Group: Eyða hópi
 Delete Selected: Eyða völdum
+Deleted: Eytt
 Description: Lýsing
 Details: Upplýsingar
 Developed by Lululla: Hannað af Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Sláðu inn vefslóð lagalista (JSON eða M3
 Enter playlist URL (M3U or JSON):: Sláðu inn vefslóð lagalista (M3U eða JSON):
 EPG: EPG
 Epg & Favorites: Epg & Uppáhalds
+EPG & Favorites: EPG og eftirlæti
 Epg & Logos: Epg & lógó
 EPG & Logos: EPG og lógó
 EPG cache cleared successfully.: EPG skyndiminni var hreinsað.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Villa við að hreinsa skyndiminni: {0}
 Error loading: Villa við hleðslu
 Error loading EPG list: {0}: Villa við að hlaða EPG lista: {0}
 Error loading file: {0}: Villa við að hlaða skrá: {0}
-Error loading file: {0}: Villa við að hlaða skrá: {0}
 Error loading playlists: {0}: Villa við að hlaða spilunarlista: {0}
-Error loading URL: {0}: Villa við að hlaða vefslóð: {0}
 Error loading URL: {0}: Villa við að hlaða vefslóð: {0}
 ERROR: player.html not found.: VILLA: player.html fannst ekki.
 Exit: Hætta
-Export: Útflutningur
 Export all: Flytja allt út
 Export Favorites: Flytja út eftirlæti
 Export Filtered JSON: Flytja út síað JSON
@@ -136,7 +140,9 @@ Export missing: Útflutningur vantar
 Export OK: Flytja út í lagi
 Export only favorite channels to a new M3U file: Flyttu aðeins út uppáhaldsrásir í nýja M3U skrá
 Export results as JSON or M3U – export missing channels or all channels.: Flytja út niðurstöður sem JSON eða M3U – flyttu út rásir sem vantar eða allar rásir.
-Exported channels: Útfluttar rásir
+Export selected: Flytja út valið
+Exported: Flutt út
+Exported {0} channels to {1}: Flyttu út {0} rásir til {1}
 Extracting update...: Tekur út uppfærslu...
 Failed to download playlist: Mistókst að hlaða niður lagalista
 Failed to load playlist: Mistókst að hlaða spilunarlista
@@ -148,7 +154,6 @@ Fetch Logos: Sækja lógó
 File {0} already exists. Overwrite?: Skrá {0} er þegar til. Skrifa yfir?
 File exists: Skrá er til
 Filters: Síur
-First playlist: {0} channels loaded.: Fyrsti spilunarlisti: {0} rásir hlaðnar.
 Fullscreen (hide UI) - press ESC to exit: Fullskjár (fela notendaviðmót) - ýttu á ESC til að hætta
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Ógilt JSON: {0}
 Invalid playlist URL.: Ógild vefslóð spilunarlista.
 Invalid URL.: Ógild vefslóð.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON skrár|*.json|M3U skrár|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON skrár|*.json|M3U skrár|*.m3u;*.m3u8|Allar skrár|*.*
 JSON Property: JSON eign
 Ko-fi: Kaffi
 Language: Tungumál
@@ -215,6 +218,8 @@ Logos Subfolder: Logos undirmöppu
 Map JSON properties to channel fields:: Kortaðu JSON eiginleika við rásareiti:
 Mapping saved for future imports of this file.: Kortlagning vistuð fyrir framtíðarinnflutning á þessari skrá.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Samsvarandi þröskuldar – stilltu óljós samsvörunarnæmi fyrir EPG og lógó.
+Move to Group: Færa í hóp
+Moved: Flutt
 Name: Nafn
 Nanoid: Nanóíð
 Network error: Netvilla
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Engar rásir hlaðnar frá M3U URL.
 No channels loaded from M3U.: Engar rásir hlaðnar frá M3U.
 No channels loaded.: Engar rásir hlaðnar.
 No channels mapped: Engar rásir kortlagðar
-No comparison results. Run Compare first.: Engar samanburðarniðurstöður. Keyrðu Compare fyrst.
+No channels selected.: Engar rásir valdar.
 No duplicate URLs found.: Engar tvíteknar vefslóðir fundust.
 No EPG data: Engin EPG gögn
 No EPG information available for this channel.: Engar EPG upplýsingar tiltækar fyrir þessa rás.
@@ -263,7 +268,6 @@ Playlist Editor: Lagalista ritstjóri
 Playlist Loading: Lagalisti Hleður
 Playlist Management: Stjórnun lagalista
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Lagalistageymsla: OwnerPlugins/TivuStreamList (ítalskir og alþjóðlegir straumar)
-Playlists loaded: Lagalistar hlaðnir
 Please select a program first.: Vinsamlegast veldu forrit fyrst.
 Preview (first 5 channels): Forskoðun (fyrstu 5 rásirnar)
 Preview error: {0}: Forskoðunarvilla: {0}
@@ -296,7 +300,9 @@ Search channel: : Leita að rás:
 Search channels by name: Leitaðu að rásum eftir nafni
 Search channels...: Leita að rásum...
 sec: sek
+Second playlist loaded: {0} channels: Annar spilunarlisti hlaðinn: {0} rásir
 Select a playlist first.: Veldu spilunarlista fyrst.
+Select target group:: Veldu markhóp:
 Select Theme: Veldu Þema
 Selected theme is saved and applied on restart.: Valið þema er vistað og notað við endurræsingu.
 Send: Senda

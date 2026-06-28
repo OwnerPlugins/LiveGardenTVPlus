@@ -28,6 +28,7 @@ Add Mapping: إضافة رسم الخرائط
 Adjust buffer size (1-10 seconds): ضبط حجم المخزن المؤقت (1-10 ثواني)
 Advanced IDs: معرفات متقدمة
 Application status: حالة التطبيق
+Apply: يتقدم
 Apply changes: تطبيق التغييرات
 Apply Filters: تطبيق المرشحات
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: هل أنت متأكد أنك تريد إعادة تحميل واجهة المستخدم الرسومية Enigma2؟\n\nستتم إعادة تشغيل الواجهة (شاشة سوداء لبضع ثوان).
@@ -54,6 +55,7 @@ channels from URL: القنوات من URL
 Check Duplicates: التحقق من التكرارات
 Check for updates: التحقق من وجود تحديثات
 Check URLs: تحقق من عناوين URL
+Clear: واضح
 Clear EPG Cache: مسح ذاكرة التخزين المؤقت لـ EPG
 Clear Filters: مسح المرشحات
 Clear search: مسح البحث
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: يقارن...
 Comparison results: {0} channels: نتائج المقارنة: {0} قناة
 Configuration Missing: التكوين مفقود
+Confirm Delete: تأكيد الحذف
 Confirm Reload: تأكيد إعادة التحميل
 Connect: يتصل
 Connected: متصل
+Copied: منقول
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: دولة
 Credits: الاعتمادات
+Delete channel '{0}'?: هل تريد حذف القناة '{0}'؟
 Delete Group: حذف المجموعة
 Delete Selected: حذف المحدد
+Deleted: تم الحذف
 Description: وصف
 Details: تفاصيل
 Developed by Lululla: تم تطويره بواسطة Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: أدخل عنوان URL لقائمة التش
 Enter playlist URL (M3U or JSON):: أدخل عنوان URL لقائمة التشغيل (M3U أو JSON):
 EPG: دليل البرامج الإلكتروني
 Epg & Favorites: Epg والمفضلة
+EPG & Favorites: دليل البرامج الإلكتروني والمفضلة
 Epg & Logos: Epg والشعارات
 EPG & Logos: دليل البرامج الإلكتروني والشعارات
 EPG cache cleared successfully.: تم مسح ذاكرة التخزين المؤقت لـ EPG بنجاح.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: خطأ في مسح ذاكرة التخزين المؤ
 Error loading: حدث خطأ أثناء التحميل
 Error loading EPG list: {0}: خطأ في تحميل قائمة دليل البرامج الإلكتروني: {0}
 Error loading file: {0}: خطأ في تحميل الملف: {0}
-Error loading file: {0}: خطأ في تحميل الملف: {0}
 Error loading playlists: {0}: حدث خطأ أثناء تحميل قوائم التشغيل: {0}
-Error loading URL: {0}: خطأ في تحميل عنوان URL: {0}
 Error loading URL: {0}: خطأ في تحميل عنوان URL: {0}
 ERROR: player.html not found.: خطأ: لم يتم العثور على player.html.
 Exit: مخرج
-Export: يصدّر
 Export all: تصدير الكل
 Export Favorites: تصدير المفضلة
 Export Filtered JSON: تصدير JSON التي تمت تصفيتها
@@ -136,7 +140,9 @@ Export missing: التصدير مفقود
 Export OK: تصدير موافق
 Export only favorite channels to a new M3U file: قم بتصدير القنوات المفضلة فقط إلى ملف M3U جديد
 Export results as JSON or M3U – export missing channels or all channels.: تصدير النتائج بتنسيق JSON أو M3U – تصدير القنوات المفقودة أو جميع القنوات.
-Exported channels: القنوات المصدرة
+Export selected: تم تحديد التصدير
+Exported: تصدير
+Exported {0} channels to {1}: تم تصدير {0} قناة إلى {1}
 Extracting update...: جارٍ استخراج التحديث...
 Failed to download playlist: فشل تنزيل قائمة التشغيل
 Failed to load playlist: فشل تحميل قائمة التشغيل
@@ -148,7 +154,6 @@ Fetch Logos: جلب الشعارات
 File {0} already exists. Overwrite?: الملف {0} موجود بالفعل. الكتابة الفوقية؟
 File exists: الملف موجود
 Filters: المرشحات
-First playlist: {0} channels loaded.: قائمة التشغيل الأولى: تم تحميل {0} قناة.
 Fullscreen (hide UI) - press ESC to exit: ملء الشاشة (إخفاء واجهة المستخدم) - اضغط على ESC للخروج
 Geo & Country: الجغرافيا والبلد
 GeoBlocked: محظور جغرافيًا
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON غير صالح: {0}
 Invalid playlist URL.: عنوان URL لقائمة التشغيل غير صالح.
 Invalid URL.: عنوان URL غير صالح.
 Json: جسون
-JSON files|*.json|M3U files|*.m3u: ملفات JSON|*.json|ملفات M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: ملفات JSON|*.json|ملفات M3U|*.m3u;*.m3u8|جميع الملفات|*.*
 JSON Property: خاصية جيسون
 Ko-fi: قهوة
 Language: لغة
@@ -215,6 +218,8 @@ Logos Subfolder: الشعارات المجلد الفرعي
 Map JSON properties to channel fields:: قم بتعيين خصائص JSON لحقول القناة:
 Mapping saved for future imports of this file.: تم حفظ التعيين لعمليات الاستيراد المستقبلية لهذا الملف.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: عتبات المطابقة - ضبط حساسية المطابقة الغامضة لدليل البرامج الإلكتروني والشعارات.
+Move to Group: الانتقال إلى المجموعة
+Moved: انتقل
 Name: اسم
 Nanoid: نانويد
 Network error: خطأ في الشبكة
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: لم يتم تحميل أي قنوات من ع
 No channels loaded from M3U.: لا توجد قنوات محملة من M3U.
 No channels loaded.: لم يتم تحميل أي قنوات.
 No channels mapped: لم يتم تعيين أي قنوات
-No comparison results. Run Compare first.: لا توجد نتائج المقارنة. قم بتشغيل المقارنة أولاً.
+No channels selected.: لم يتم تحديد أي قنوات.
 No duplicate URLs found.: لم يتم العثور على عناوين URL مكررة.
 No EPG data: لا توجد بيانات دليل البرامج الإلكتروني
 No EPG information available for this channel.: لا تتوفر معلومات EPG لهذه القناة.
@@ -263,7 +268,6 @@ Playlist Editor: محرر قائمة التشغيل
 Playlist Loading: تحميل قائمة التشغيل
 Playlist Management: إدارة قائمة التشغيل
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): مستودع قائمة التشغيل: OwnerPlugins/TivuStreamList (التدفقات الإيطالية والدولية)
-Playlists loaded: تم تحميل قوائم التشغيل
 Please select a program first.: الرجاء تحديد البرنامج أولاً.
 Preview (first 5 channels): معاينة (أول 5 قنوات)
 Preview error: {0}: خطأ في المعاينة: {0}
@@ -296,7 +300,9 @@ Search channel: : قناة البحث:
 Search channels by name: البحث عن القنوات بالاسم
 Search channels...: بحث في القنوات...
 sec: ثانية
+Second playlist loaded: {0} channels: تم تحميل قائمة التشغيل الثانية: {0} قناة
 Select a playlist first.: حدد قائمة التشغيل أولاً.
+Select target group:: حدد المجموعة المستهدفة:
 Select Theme: حدد الموضوع
 Selected theme is saved and applied on restart.: يتم حفظ السمة المحددة وتطبيقها عند إعادة التشغيل.
 Send: يرسل

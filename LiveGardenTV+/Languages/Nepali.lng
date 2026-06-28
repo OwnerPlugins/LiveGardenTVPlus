@@ -28,6 +28,7 @@ Add Mapping: म्यापिङ थप्नुहोस्
 Adjust buffer size (1-10 seconds): बफर साइज समायोजन गर्नुहोस् (१-१० सेकेन्ड)
 Advanced IDs: उन्नत आईडीहरू
 Application status: आवेदन स्थिति
+Apply: आवेदन दिनुहोस्
 Apply changes: परिवर्तनहरू लागू गर्नुहोस्
 Apply Filters: फिल्टरहरू लागू गर्नुहोस्
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: के तपाइँ निश्चित हुनुहुन्छ कि तपाइँ Enigma2 GUI पुन: लोड गर्न चाहनुहुन्छ?\n\nइन्टरफेस पुन: सुरु हुनेछ (केहि सेकेन्डको लागि कालो स्क्रिन)।
@@ -54,6 +55,7 @@ channels from URL: URL बाट च्यानलहरू
 Check Duplicates: डुप्लिकेटहरू जाँच गर्नुहोस्
 Check for updates: अपडेटहरूको लागि जाँच गर्नुहोस्
 Check URLs: URL हरू जाँच गर्नुहोस्
+Clear: खाली गर्नुहोस्
 Clear EPG Cache: EPG क्यास खाली गर्नुहोस्
 Clear Filters: फिल्टरहरू खाली गर्नुहोस्
 Clear search: खोज खाली गर्नुहोस्
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: तुलना...
 Comparison results: {0} channels: तुलना परिणामहरू: {0} च्यानलहरू
 Configuration Missing: कन्फिगरेसन हराइरहेको छ
+Confirm Delete: मेटाउने पुष्टि गर्नुहोस्
 Confirm Reload: पुन: लोड पुष्टि गर्नुहोस्
 Connect: जडान गर्नुहोस्
 Connected: जडान भयो
+Copied: प्रतिलिपि गरियो
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: देश
 Credits: क्रेडिटहरू
+Delete channel '{0}'?: च्यानल '{0}' मेट्ने हो?
 Delete Group: समूह मेटाउनुहोस्
 Delete Selected: चयन गरिएको मेटाउनुहोस्
+Deleted: मेटाइयो
 Description: विवरण
 Details: विवरणहरू
 Developed by Lululla: लुलुल्ला द्वारा विकसित
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: प्लेलिस्ट URL प्रव�
 Enter playlist URL (M3U or JSON):: प्लेलिस्ट URL प्रविष्ट गर्नुहोस् (M3U वा JSON):
 EPG: EPG
 Epg & Favorites: Epg र मनपर्नेहरू
+EPG & Favorites: EPG र मनपर्नेहरू
 Epg & Logos: Epg र लोगो
 EPG & Logos: EPG र लोगो
 EPG cache cleared successfully.: EPG क्यास सफलतापूर्वक खाली गरियो।
@@ -119,13 +126,10 @@ Error clearing cache: {0}: क्यास खाली गर्दा त्�
 Error loading: लोड गर्दा त्रुटि भयो
 Error loading EPG list: {0}: EPG सूची लोड गर्दा त्रुटि: {0}
 Error loading file: {0}: फाइल लोड गर्दा त्रुटि: {0}
-Error loading file: {0}: फाइल लोड गर्दा त्रुटि: {0}
 Error loading playlists: {0}: प्लेलिस्टहरू लोड गर्दा त्रुटि: {0}
-Error loading URL: {0}: URL लोड गर्दा त्रुटि: {0}
 Error loading URL: {0}: URL लोड गर्दा त्रुटि: {0}
 ERROR: player.html not found.: त्रुटि: player.html फेला परेन।
 Exit: बाहिर निस्कनुहोस्
-Export: निर्यात गर्नुहोस्
 Export all: सबै निर्यात गर्नुहोस्
 Export Favorites: मनपर्ने निर्यात गर्नुहोस्
 Export Filtered JSON: फिल्टर गरिएको JSON निर्यात गर्नुहोस्
@@ -136,7 +140,9 @@ Export missing: निर्यात हराइरहेको छ
 Export OK: निर्यात ठीक छ
 Export only favorite channels to a new M3U file: नयाँ M3U फाइलमा मनपर्ने च्यानलहरू मात्र निर्यात गर्नुहोस्
 Export results as JSON or M3U – export missing channels or all channels.: JSON वा M3U को रूपमा परिणामहरू निर्यात गर्नुहोस् - छुटेका च्यानलहरू वा सबै च्यानलहरू निर्यात गर्नुहोस्।
-Exported channels: निर्यात च्यानलहरू
+Export selected: निर्यात चयन गरियो
+Exported: निर्यात गरियो
+Exported {0} channels to {1}: {0} च्यानलहरू {1} मा निर्यात गरियो
 Extracting update...: अद्यावधिक निकाल्दै...
 Failed to download playlist: प्लेलिस्ट डाउनलोड गर्न असफल भयो
 Failed to load playlist: प्लेलिस्ट लोड गर्न असफल भयो
@@ -148,7 +154,6 @@ Fetch Logos: लोगोहरू ल्याउनुहोस्
 File {0} already exists. Overwrite?: फाइल {0} पहिले नै अवस्थित छ। अधिलेखन गर्ने?
 File exists: फाइल अवस्थित छ
 Filters: फिल्टरहरू
-First playlist: {0} channels loaded.: पहिलो प्लेलिस्ट: {0} च्यानलहरू लोड गरियो।
 Fullscreen (hide UI) - press ESC to exit: फुलस्क्रिन (UI लुकाउनुहोस्) - बाहिर निस्कन ESC थिच्नुहोस्
 Geo & Country: भू र देश
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: अमान्य JSON: {0}
 Invalid playlist URL.: अमान्य प्लेलिस्ट URL।
 Invalid URL.: अमान्य URL।
 Json: जोसन
-JSON files|*.json|M3U files|*.m3u: JSON फाइलहरू|*.json|M3U फाइलहरू|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON फाइलहरू|*.json|M3U फाइलहरू|*.m3u;*.m3u8|सबै फाइलहरू|*।*
 JSON Property: JSON सम्पत्ति
 Ko-fi: कफी
 Language: भाषा
@@ -215,6 +218,8 @@ Logos Subfolder: लोगो सबफोल्डर
 Map JSON properties to channel fields:: च्यानल क्षेत्रहरूमा JSON गुणहरू नक्सा गर्नुहोस्:
 Mapping saved for future imports of this file.: यस फाइलको भविष्यको आयातको लागि म्यापिङ सुरक्षित गरियो।
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: मिल्दो थ्रेसहोल्डहरू - EPG र लोगोहरूको लागि फजी मिलान संवेदनशीलता सेट गर्नुहोस्।
+Move to Group: समूहमा सार्नुहोस्
+Moved: सारियो
 Name: नाम
 Nanoid: नानोइड
 Network error: नेटवर्क त्रुटि
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: M3U URL बाट कुनै च्यान
 No channels loaded from M3U.: M3U बाट कुनै च्यानल लोड गरिएको छैन।
 No channels loaded.: कुनै च्यानलहरू लोड गरिएको छैन।
 No channels mapped: कुनै च्यानल म्याप गरिएको छैन
-No comparison results. Run Compare first.: कुनै तुलना परिणाम छैन। पहिले तुलना चलाउनुहोस्।
+No channels selected.: कुनै च्यानल चयन गरिएको छैन।
 No duplicate URLs found.: कुनै डुप्लिकेट URL फेला परेन।
 No EPG data: कुनै EPG डाटा छैन
 No EPG information available for this channel.: यस च्यानलको लागि कुनै EPG जानकारी उपलब्ध छैन।
@@ -263,7 +268,6 @@ Playlist Editor: प्लेलिस्ट सम्पादक
 Playlist Loading: प्लेलिस्ट लोड हुँदैछ
 Playlist Management: प्लेलिस्ट व्यवस्थापन
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): प्लेलिस्ट रिपोजिटरी: OwnerPlugins/TivuStreamList (इटालियन र अन्तर्राष्ट्रिय स्ट्रिमहरू)
-Playlists loaded: प्लेलिस्टहरू लोड गरियो
 Please select a program first.: कृपया पहिले एउटा कार्यक्रम चयन गर्नुहोस्।
 Preview (first 5 channels): पूर्वावलोकन (पहिलो ५ च्यानलहरू)
 Preview error: {0}: पूर्वावलोकन त्रुटि: {0}
@@ -296,7 +300,9 @@ Search channel: : च्यानल खोज्नुहोस्:
 Search channels by name: नामद्वारा च्यानलहरू खोज्नुहोस्
 Search channels...: च्यानलहरू खोज्नुहोस्...
 sec: सेकेन्ड
+Second playlist loaded: {0} channels: दोस्रो प्लेलिस्ट लोड भयो: {0} च्यानलहरू
 Select a playlist first.: पहिले एउटा प्लेलिस्ट चयन गर्नुहोस्।
+Select target group:: लक्षित समूह चयन गर्नुहोस्:
 Select Theme: विषयवस्तु चयन गर्नुहोस्
 Selected theme is saved and applied on restart.: चयन गरिएको विषयवस्तु सुरक्षित र पुन: सुरु गर्दा लागू हुन्छ।
 Send: पठाउनुहोस्

@@ -28,6 +28,7 @@ Add Mapping: మ్యాపింగ్‌ని జోడించండి
 Adjust buffer size (1-10 seconds): బఫర్ పరిమాణాన్ని సర్దుబాటు చేయండి (1-10 సెకన్లు)
 Advanced IDs: అధునాతన IDలు
 Application status: అప్లికేషన్ స్థితి
+Apply: దరఖాస్తు చేసుకోండి
 Apply changes: మార్పులను వర్తింపజేయండి
 Apply Filters: ఫిల్టర్‌లను వర్తింపజేయండి
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: మీరు ఖచ్చితంగా Enigma2 GUIని రీలోడ్ చేయాలనుకుంటున్నారా?\n\nఇంటర్ఫేస్ పునఃప్రారంభించబడుతుంది (కొన్ని సెకన్ల పాటు బ్లాక్ స్క్రీన్).
@@ -54,6 +55,7 @@ channels from URL: URL నుండి ఛానెల్‌లు
 Check Duplicates: నకిలీలను తనిఖీ చేయండి
 Check for updates: నవీకరణల కోసం తనిఖీ చేయండి
 Check URLs: URLలను తనిఖీ చేయండి
+Clear: క్లియర్
 Clear EPG Cache: EPG కాష్‌ని క్లియర్ చేయండి
 Clear Filters: ఫిల్టర్‌లను క్లియర్ చేయండి
 Clear search: శోధనను క్లియర్ చేయండి
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: సరిపోల్చండి...
 Comparison results: {0} channels: పోలిక ఫలితాలు: {0} ఛానెల్‌లు
 Configuration Missing: కాన్ఫిగరేషన్ లేదు
+Confirm Delete: తొలగించడాన్ని నిర్ధారించండి
 Confirm Reload: రీలోడ్‌ని నిర్ధారించండి
 Connect: కనెక్ట్ చేయండి
 Connected: కనెక్ట్ చేయబడింది
+Copied: కాపీ చేయబడింది
 CORVOBOYS.ORG: CORVOYS.ORG
 Country: దేశం
 Credits: క్రెడిట్స్
+Delete channel '{0}'?: '{0}' ఛానెల్‌ని తొలగించాలా?
 Delete Group: సమూహాన్ని తొలగించండి
 Delete Selected: ఎంచుకున్న వాటిని తొలగించండి
+Deleted: తొలగించబడింది
 Description: వివరణ
 Details: వివరాలు
 Developed by Lululla: లులుల్లాచే అభివృద్ధి చేయబడింది
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: ప్లేజాబితా URL (JSON ల�
 Enter playlist URL (M3U or JSON):: ప్లేజాబితా URL (M3U లేదా JSON) నమోదు చేయండి:
 EPG: EPG
 Epg & Favorites: Epg & ఇష్టమైనవి
+EPG & Favorites: EPG & ఇష్టమైనవి
 Epg & Logos: Epg & లోగోలు
 EPG & Logos: EPG & లోగోలు
 EPG cache cleared successfully.: EPG కాష్ విజయవంతంగా క్లియర్ చేయబడింది.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: కాష్ క్లియర్ చేయడంల
 Error loading: లోడ్ చేయడంలో లోపం
 Error loading EPG list: {0}: EPG జాబితాను లోడ్ చేయడంలో లోపం: {0}
 Error loading file: {0}: ఫైల్‌ని లోడ్ చేయడంలో లోపం: {0}
-Error loading file: {0}: ఫైల్‌ని లోడ్ చేయడంలో లోపం: {0}
 Error loading playlists: {0}: ప్లేజాబితాలను లోడ్ చేయడంలో లోపం: {0}
-Error loading URL: {0}: URLని లోడ్ చేయడంలో లోపం: {0}
 Error loading URL: {0}: URLని లోడ్ చేయడంలో లోపం: {0}
 ERROR: player.html not found.: లోపం: player.html కనుగొనబడలేదు.
 Exit: నిష్క్రమించు
-Export: ఎగుమతి చేయండి
 Export all: అన్నింటినీ ఎగుమతి చేయండి
 Export Favorites: ఇష్టమైనవి ఎగుమతి చేయండి
 Export Filtered JSON: ఫిల్టర్ చేసిన JSONని ఎగుమతి చేయండి
@@ -136,7 +140,9 @@ Export missing: ఎగుమతి లేదు
 Export OK: ఎగుమతి సరే
 Export only favorite channels to a new M3U file: కొత్త M3U ఫైల్‌కి ఇష్టమైన ఛానెల్‌లను మాత్రమే ఎగుమతి చేయండి
 Export results as JSON or M3U – export missing channels or all channels.: JSON లేదా M3U వంటి ఫలితాలను ఎగుమతి చేయండి - తప్పిపోయిన ఛానెల్‌లు లేదా అన్ని ఛానెల్‌లను ఎగుమతి చేయండి.
-Exported channels: ఎగుమతి చేయబడిన ఛానెల్‌లు
+Export selected: ఎగుమతి ఎంచుకోబడింది
+Exported: ఎగుమతి చేయబడింది
+Exported {0} channels to {1}: {0} ఛానెల్‌లు {1}కి ఎగుమతి చేయబడ్డాయి
 Extracting update...: నవీకరణను సంగ్రహిస్తోంది...
 Failed to download playlist: ప్లేజాబితాను డౌన్‌లోడ్ చేయడంలో విఫలమైంది
 Failed to load playlist: ప్లేజాబితాను లోడ్ చేయడంలో విఫలమైంది
@@ -148,7 +154,6 @@ Fetch Logos: లోగోలను పొందండి
 File {0} already exists. Overwrite?: ఫైల్ {0} ఇప్పటికే ఉంది. ఓవర్‌రైట్ చేయాలా?
 File exists: ఫైల్ ఉంది
 Filters: ఫిల్టర్లు
-First playlist: {0} channels loaded.: మొదటి ప్లేజాబితా: {0} ఛానెల్‌లు లోడ్ చేయబడ్డాయి.
 Fullscreen (hide UI) - press ESC to exit: పూర్తి స్క్రీన్ (UIని దాచిపెట్టు) - నిష్క్రమించడానికి ESC నొక్కండి
 Geo & Country: జియో & దేశం
 GeoBlocked: జియోబ్లాక్ చేయబడింది
@@ -176,8 +181,6 @@ Invalid JSON: {0}: చెల్లని JSON: {0}
 Invalid playlist URL.: చెల్లని ప్లేజాబితా URL.
 Invalid URL.: చెల్లని URL.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON ఫైల్స్|*.json|M3U ఫైల్స్|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON ఫైల్‌లు|*.json|M3U ఫైల్‌లు|*.m3u;*.m3u8|అన్ని ఫైల్‌లు|*.*
 JSON Property: JSON ఆస్తి
 Ko-fi: కాఫీ
 Language: భాష
@@ -215,6 +218,8 @@ Logos Subfolder: లోగోలు సబ్‌ఫోల్డర్
 Map JSON properties to channel fields:: JSON లక్షణాలను ఛానెల్ ఫీల్డ్‌లకు మ్యాప్ చేయండి:
 Mapping saved for future imports of this file.: ఈ ఫైల్ యొక్క భవిష్యత్తు దిగుమతుల కోసం మ్యాపింగ్ సేవ్ చేయబడింది.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: సరిపోలే థ్రెషోల్డ్‌లు - EPG మరియు లోగోల కోసం అస్పష్టమైన మ్యాచ్ సెన్సిటివిటీని సెట్ చేయండి.
+Move to Group: సమూహానికి తరలించండి
+Moved: తరలించబడింది
 Name: పేరు
 Nanoid: నానోయిడ్
 Network error: నెట్‌వర్క్ లోపం
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: M3U URL నుండి ఛానెల్‌�
 No channels loaded from M3U.: M3U నుండి ఛానెల్‌లు ఏవీ లోడ్ చేయబడలేదు.
 No channels loaded.: ఛానెల్‌లు ఏవీ లోడ్ చేయబడలేదు.
 No channels mapped: ఛానెల్‌లు ఏవీ మ్యాప్ చేయబడలేదు
-No comparison results. Run Compare first.: పోలిక ఫలితాలు లేవు. ముందుగా సరిపోల్చండి రన్ చేయండి.
+No channels selected.: ఛానెల్‌లు ఏవీ ఎంచుకోబడలేదు.
 No duplicate URLs found.: నకిలీ URLలు ఏవీ కనుగొనబడలేదు.
 No EPG data: EPG డేటా లేదు
 No EPG information available for this channel.: ఈ ఛానెల్ కోసం EPG సమాచారం అందుబాటులో లేదు.
@@ -263,7 +268,6 @@ Playlist Editor: ప్లేజాబితా ఎడిటర్
 Playlist Loading: ప్లేజాబితా లోడ్ అవుతోంది
 Playlist Management: ప్లేజాబితా నిర్వహణ
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): ప్లేజాబితా రిపోజిటరీ: OwnerPlugins/TivuStreamList (ఇటాలియన్ & అంతర్జాతీయ ప్రసారాలు)
-Playlists loaded: ప్లేజాబితాలు లోడ్ చేయబడ్డాయి
 Please select a program first.: దయచేసి ముందుగా ఒక ప్రోగ్రామ్‌ను ఎంచుకోండి.
 Preview (first 5 channels): ప్రివ్యూ (మొదటి 5 ఛానెల్‌లు)
 Preview error: {0}: ప్రివ్యూ లోపం: {0}
@@ -296,7 +300,9 @@ Search channel: : శోధన ఛానెల్:
 Search channels by name: పేరుతో ఛానెల్‌లను శోధించండి
 Search channels...: ఛానెల్‌లను శోధించండి...
 sec: సెకను
+Second playlist loaded: {0} channels: రెండవ ప్లేజాబితా లోడ్ చేయబడింది: {0} ఛానెల్‌లు
 Select a playlist first.: ముందుగా ప్లేజాబితాను ఎంచుకోండి.
+Select target group:: లక్ష్య సమూహాన్ని ఎంచుకోండి:
 Select Theme: థీమ్‌ని ఎంచుకోండి
 Selected theme is saved and applied on restart.: ఎంచుకున్న థీమ్ సేవ్ చేయబడుతుంది మరియు పునఃప్రారంభించినప్పుడు వర్తించబడుతుంది.
 Send: పంపండి

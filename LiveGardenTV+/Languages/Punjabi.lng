@@ -28,6 +28,7 @@ Add Mapping: ਮੈਪਿੰਗ ਸ਼ਾਮਲ ਕਰੋ
 Adjust buffer size (1-10 seconds): ਬਫਰ ਦਾ ਆਕਾਰ ਵਿਵਸਥਿਤ ਕਰੋ (1-10 ਸਕਿੰਟ)
 Advanced IDs: ਉੱਨਤ ਆਈ.ਡੀ
 Application status: ਐਪਲੀਕੇਸ਼ਨ ਸਥਿਤੀ
+Apply: ਲਾਗੂ ਕਰੋ
 Apply changes: ਤਬਦੀਲੀਆਂ ਲਾਗੂ ਕਰੋ
 Apply Filters: ਫਿਲਟਰ ਲਾਗੂ ਕਰੋ
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ 'ਤੇ Enigma2 GUI ਨੂੰ ਰੀਲੋਡ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?\n\nਇੰਟਰਫੇਸ ਰੀਸਟਾਰਟ ਹੋਵੇਗਾ (ਕੁਝ ਸਕਿੰਟਾਂ ਲਈ ਕਾਲੀ ਸਕ੍ਰੀਨ)।
@@ -54,6 +55,7 @@ channels from URL: URL ਤੋਂ ਚੈਨਲ
 Check Duplicates: ਡੁਪਲੀਕੇਟਸ ਦੀ ਜਾਂਚ ਕਰੋ
 Check for updates: ਅੱਪਡੇਟ ਲਈ ਚੈੱਕ ਕਰੋ
 Check URLs: URL ਦੀ ਜਾਂਚ ਕਰੋ
+Clear: ਸਾਫ਼
 Clear EPG Cache: EPG ਕੈਸ਼ ਸਾਫ਼ ਕਰੋ
 Clear Filters: ਫਿਲਟਰ ਸਾਫ਼ ਕਰੋ
 Clear search: ਖੋਜ ਸਾਫ਼ ਕਰੋ
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: ਤੁਲਨਾ ਕਰੋ...
 Comparison results: {0} channels: ਤੁਲਨਾ ਨਤੀਜੇ: {0} ਚੈਨਲ
 Configuration Missing: ਸੰਰਚਨਾ ਗੁੰਮ ਹੈ
+Confirm Delete: ਮਿਟਾਉਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ
 Confirm Reload: ਰੀਲੋਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ
 Connect: ਜੁੜੋ
 Connected: ਜੁੜਿਆ
+Copied: ਕਾਪੀ ਕੀਤਾ
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: ਦੇਸ਼
 Credits: ਕ੍ਰੈਡਿਟ
+Delete channel '{0}'?: ਚੈਨਲ '{0}' ਨੂੰ ਮਿਟਾਉਣਾ ਹੈ?
 Delete Group: ਗਰੁੱਪ ਮਿਟਾਓ
 Delete Selected: ਚੁਣਿਆ ਮਿਟਾਓ
+Deleted: ਮਿਟਾਇਆ ਗਿਆ
 Description: ਵਰਣਨ
 Details: ਵੇਰਵੇ
 Developed by Lululla: ਲੁਲੁਲਾ ਦੁਆਰਾ ਵਿਕਸਿਤ ਕੀਤਾ ਗਿਆ
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: ਪਲੇਲਿਸਟ URL ਦਾਖਲ ਕਰ
 Enter playlist URL (M3U or JSON):: ਪਲੇਲਿਸਟ URL (M3U ਜਾਂ JSON) ਦਾਖਲ ਕਰੋ:
 EPG: ਈ.ਪੀ.ਜੀ
 Epg & Favorites: Epg ਅਤੇ ਮਨਪਸੰਦ
+EPG & Favorites: EPG ਅਤੇ ਮਨਪਸੰਦ
 Epg & Logos: ਈਪੀਜੀ ਅਤੇ ਲੋਗੋ
 EPG & Logos: EPG ਅਤੇ ਲੋਗੋ
 EPG cache cleared successfully.: EPG ਕੈਸ਼ ਸਫਲਤਾਪੂਰਵਕ ਕਲੀਅਰ ਕੀਤਾ ਗਿਆ।
@@ -119,13 +126,10 @@ Error clearing cache: {0}: ਕੈਸ਼ ਕਲੀਅਰ ਕਰਨ ਵਿੱਚ �
 Error loading: ਲੋਡ ਕਰਨ ਵਿੱਚ ਤਰੁੱਟੀ
 Error loading EPG list: {0}: EPG ਸੂਚੀ ਲੋਡ ਕਰਨ ਵਿੱਚ ਤਰੁੱਟੀ: {0}
 Error loading file: {0}: ਫ਼ਾਈਲ ਲੋਡ ਕਰਨ ਵਿੱਚ ਤਰੁੱਟੀ: {0}
-Error loading file: {0}: ਫ਼ਾਈਲ ਲੋਡ ਕਰਨ ਵਿੱਚ ਤਰੁੱਟੀ: {0}
 Error loading playlists: {0}: ਪਲੇਲਿਸਟਸ ਲੋਡ ਕਰਨ ਵਿੱਚ ਤਰੁੱਟੀ: {0}
-Error loading URL: {0}: URL ਲੋਡ ਕਰਨ ਵਿੱਚ ਤਰੁੱਟੀ: {0}
 Error loading URL: {0}: URL ਲੋਡ ਕਰਨ ਵਿੱਚ ਤਰੁੱਟੀ: {0}
 ERROR: player.html not found.: ਗਲਤੀ: player.html ਨਹੀਂ ਮਿਲਿਆ।
 Exit: ਨਿਕਾਸ
-Export: ਨਿਰਯਾਤ
 Export all: ਸਭ ਨਿਰਯਾਤ ਕਰੋ
 Export Favorites: ਮਨਪਸੰਦ ਨਿਰਯਾਤ ਕਰੋ
 Export Filtered JSON: ਫਿਲਟਰ ਕੀਤੇ JSON ਨੂੰ ਨਿਰਯਾਤ ਕਰੋ
@@ -136,7 +140,9 @@ Export missing: ਨਿਰਯਾਤ ਗੁੰਮ ਹੈ
 Export OK: ਨਿਰਯਾਤ ਠੀਕ ਹੈ
 Export only favorite channels to a new M3U file: ਇੱਕ ਨਵੀਂ M3U ਫਾਈਲ ਵਿੱਚ ਸਿਰਫ਼ ਮਨਪਸੰਦ ਚੈਨਲਾਂ ਨੂੰ ਨਿਰਯਾਤ ਕਰੋ
 Export results as JSON or M3U – export missing channels or all channels.: ਨਤੀਜੇ JSON ਜਾਂ M3U ਦੇ ਰੂਪ ਵਿੱਚ ਨਿਰਯਾਤ ਕਰੋ - ਗੁੰਮ ਹੋਏ ਚੈਨਲਾਂ ਜਾਂ ਸਾਰੇ ਚੈਨਲਾਂ ਨੂੰ ਨਿਰਯਾਤ ਕਰੋ।
-Exported channels: ਨਿਰਯਾਤ ਚੈਨਲ
+Export selected: ਨਿਰਯਾਤ ਚੁਣਿਆ ਗਿਆ
+Exported: ਨਿਰਯਾਤ
+Exported {0} channels to {1}: {0} ਚੈਨਲਾਂ ਨੂੰ {1} ਵਿੱਚ ਨਿਰਯਾਤ ਕੀਤਾ
 Extracting update...: ਅੱਪਡੇਟ ਐਕਸਟਰੈਕਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...
 Failed to download playlist: ਪਲੇਲਿਸਟ ਨੂੰ ਡਾਊਨਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ
 Failed to load playlist: ਪਲੇਲਿਸਟ ਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ
@@ -148,7 +154,6 @@ Fetch Logos: ਲੋਗੋ ਪ੍ਰਾਪਤ ਕਰੋ
 File {0} already exists. Overwrite?: ਫ਼ਾਈਲ {0} ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। ਓਵਰਰਾਈਟ ਕਰਨਾ ਹੈ?
 File exists: ਫਾਈਲ ਮੌਜੂਦ ਹੈ
 Filters: ਫਿਲਟਰ
-First playlist: {0} channels loaded.: ਪਹਿਲੀ ਪਲੇਲਿਸਟ: {0} ਚੈਨਲ ਲੋਡ ਕੀਤੇ ਗਏ।
 Fullscreen (hide UI) - press ESC to exit: ਪੂਰੀ ਸਕ੍ਰੀਨ (UI ਲੁਕਾਓ) - ਬਾਹਰ ਜਾਣ ਲਈ ESC ਦਬਾਓ
 Geo & Country: ਜੀਓ ਅਤੇ ਦੇਸ਼
 GeoBlocked: ਜੀਓਬਲਾਕ ਕੀਤਾ ਗਿਆ
@@ -176,8 +181,6 @@ Invalid JSON: {0}: ਅਵੈਧ JSON: {0}
 Invalid playlist URL.: ਅਵੈਧ ਪਲੇਲਿਸਟ URL।
 Invalid URL.: ਅਵੈਧ URL।
 Json: ਜੇਸਨ
-JSON files|*.json|M3U files|*.m3u: JSON ਫ਼ਾਈਲਾਂ|*.json|M3U ਫ਼ਾਈਲਾਂ|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON ਫ਼ਾਈਲਾਂ|*.json|M3U ਫ਼ਾਈਲਾਂ|*.m3u;*.m3u8|ਸਾਰੀਆਂ ਫ਼ਾਈਲਾਂ|*.*
 JSON Property: JSON ਸੰਪੱਤੀ
 Ko-fi: ਕਾਫੀ
 Language: ਭਾਸ਼ਾ
@@ -215,6 +218,8 @@ Logos Subfolder: ਲੋਗੋ ਸਬਫੋਲਡਰ
 Map JSON properties to channel fields:: ਚੈਨਲ ਖੇਤਰਾਂ ਲਈ JSON ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਾ ਨਕਸ਼ਾ:
 Mapping saved for future imports of this file.: ਇਸ ਫ਼ਾਈਲ ਦੇ ਭਵਿੱਖੀ ਆਯਾਤ ਲਈ ਮੈਪਿੰਗ ਸੁਰੱਖਿਅਤ ਕੀਤੀ ਗਈ ਹੈ।
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: ਮੈਚਿੰਗ ਥ੍ਰੈਸ਼ਹੋਲਡ - ਈਪੀਜੀ ਅਤੇ ਲੋਗੋ ਲਈ ਫਜ਼ੀ ਮੈਚ ਸੰਵੇਦਨਸ਼ੀਲਤਾ ਸੈੱਟ ਕਰੋ।
+Move to Group: ਗਰੁੱਪ ਵਿੱਚ ਜਾਓ
+Moved: ਚਲੇ ਗਏ
 Name: ਨਾਮ
 Nanoid: ਨੈਨੋਇਡ
 Network error: ਨੈੱਟਵਰਕ ਗੜਬੜ
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: M3U URL ਤੋਂ ਕੋਈ ਚੈਨਲ ਲ�
 No channels loaded from M3U.: M3U ਤੋਂ ਕੋਈ ਚੈਨਲ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਗਿਆ।
 No channels loaded.: ਕੋਈ ਚੈਨਲ ਲੋਡ ਨਹੀਂ ਹੋਏ।
 No channels mapped: ਕੋਈ ਚੈਨਲ ਮੈਪ ਨਹੀਂ ਕੀਤੇ ਗਏ
-No comparison results. Run Compare first.: ਕੋਈ ਤੁਲਨਾਤਮਕ ਨਤੀਜੇ ਨਹੀਂ। ਪਹਿਲਾਂ ਤੁਲਨਾ ਚਲਾਓ।
+No channels selected.: ਕੋਈ ਚੈਨਲ ਨਹੀਂ ਚੁਣਿਆ ਗਿਆ।
 No duplicate URLs found.: ਕੋਈ ਡੁਪਲੀਕੇਟ URL ਨਹੀਂ ਮਿਲੇ।
 No EPG data: ਕੋਈ EPG ਡਾਟਾ ਨਹੀਂ ਹੈ
 No EPG information available for this channel.: ਇਸ ਚੈਨਲ ਲਈ ਕੋਈ EPG ਜਾਣਕਾਰੀ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।
@@ -263,7 +268,6 @@ Playlist Editor: ਪਲੇਲਿਸਟ ਸੰਪਾਦਕ
 Playlist Loading: ਪਲੇਲਿਸਟ ਲੋਡ ਹੋ ਰਹੀ ਹੈ
 Playlist Management: ਪਲੇਲਿਸਟ ਪ੍ਰਬੰਧਨ
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): ਪਲੇਲਿਸਟ ਰਿਪੋਜ਼ਟਰੀ: OwnerPlugins/TivuStreamList (ਇਟਾਲੀਅਨ ਅਤੇ ਅੰਤਰਰਾਸ਼ਟਰੀ ਸਟ੍ਰੀਮਜ਼)
-Playlists loaded: ਪਲੇਲਿਸਟਾਂ ਲੋਡ ਕੀਤੀਆਂ ਗਈਆਂ
 Please select a program first.: ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਇੱਕ ਪ੍ਰੋਗਰਾਮ ਚੁਣੋ।
 Preview (first 5 channels): ਪੂਰਵਦਰਸ਼ਨ (ਪਹਿਲੇ 5 ਚੈਨਲ)
 Preview error: {0}: ਝਲਕ ਗਲਤੀ: {0}
@@ -296,7 +300,9 @@ Search channel: : ਚੈਨਲ ਖੋਜੋ:
 Search channels by name: ਨਾਮ ਦੁਆਰਾ ਚੈਨਲ ਖੋਜੋ
 Search channels...: ਚੈਨਲ ਖੋਜੋ...
 sec: ਸਕਿੰਟ
+Second playlist loaded: {0} channels: ਦੂਜੀ ਪਲੇਲਿਸਟ ਲੋਡ ਕੀਤੀ ਗਈ: {0} ਚੈਨਲ
 Select a playlist first.: ਪਹਿਲਾਂ ਇੱਕ ਪਲੇਲਿਸਟ ਚੁਣੋ।
+Select target group:: ਟੀਚਾ ਸਮੂਹ ਚੁਣੋ:
 Select Theme: ਥੀਮ ਚੁਣੋ
 Selected theme is saved and applied on restart.: ਚੁਣੀ ਗਈ ਥੀਮ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਅਤੇ ਰੀਸਟਾਰਟ ਕਰਨ 'ਤੇ ਲਾਗੂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।
 Send: ਭੇਜੋ

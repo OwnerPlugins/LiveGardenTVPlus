@@ -28,6 +28,7 @@ Add Mapping: Pievienot kartēšanu
 Adjust buffer size (1-10 seconds): Pielāgojiet bufera lielumu (1–10 sekundes)
 Advanced IDs: Papildu ID
 Application status: Pieteikuma statuss
+Apply: Pieteikties
 Apply changes: Lietot izmaiņas
 Apply Filters: Lietot filtrus
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Vai tiešām vēlaties atkārtoti ielādēt Enigma2 GUI?\n\nSaskarne tiks restartēta (dažas sekundes būs melns ekrāns).
@@ -54,6 +55,7 @@ channels from URL: kanāli no URL
 Check Duplicates: Pārbaudiet dublikātus
 Check for updates: Pārbaudiet, vai nav atjauninājumu
 Check URLs: Pārbaudiet URL
+Clear: Skaidrs
 Clear EPG Cache: Notīrīt EPG kešatmiņu
 Clear Filters: Notīrīt filtrus
 Clear search: Notīrīt meklēšanu
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Salīdzināt...
 Comparison results: {0} channels: Salīdzinājuma rezultāti: {0} kanāli
 Configuration Missing: Trūkst konfigurācijas
+Confirm Delete: Apstipriniet dzēšanu
 Confirm Reload: Apstipriniet atkārtotu ielādi
 Connect: Savienot
 Connected: Savienots
+Copied: Kopēts
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Valsts
 Credits: Kredīti
+Delete channel '{0}'?: Vai dzēst kanālu {0}?
 Delete Group: Dzēst grupu
 Delete Selected: Dzēst atlasītos
+Deleted: Izdzēsts
 Description: Apraksts
 Details: Sīkāka informācija
 Developed by Lululla: Izstrādāja Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Ievadiet atskaņošanas saraksta URL (JSON va
 Enter playlist URL (M3U or JSON):: Ievadiet atskaņošanas saraksta URL (M3U vai JSON):
 EPG: EPG
 Epg & Favorites: Epg un izlase
+EPG & Favorites: EPG un izlase
 Epg & Logos: Epg un logotipi
 EPG & Logos: EPG un logotipi
 EPG cache cleared successfully.: EPG kešatmiņa ir veiksmīgi notīrīta.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Kļūda, notīrot kešatmiņu: {0}
 Error loading: Ielādējot, radās kļūda
 Error loading EPG list: {0}: Ielādējot EPG sarakstu, radās kļūda: {0}
 Error loading file: {0}: Kļūda, ielādējot failu: {0}
-Error loading file: {0}: Kļūda, ielādējot failu: {0}
 Error loading playlists: {0}: Ielādējot atskaņošanas sarakstus, radās kļūda: {0}
-Error loading URL: {0}: Ielādējot URL, radās kļūda: {0}
 Error loading URL: {0}: Ielādējot URL, radās kļūda: {0}
 ERROR: player.html not found.: KĻŪDA: player.html nav atrasts.
 Exit: Iziet
-Export: Eksportēt
 Export all: Eksportēt visu
 Export Favorites: Eksportēt izlasi
 Export Filtered JSON: Eksportēt filtrēto JSON
@@ -136,7 +140,9 @@ Export missing: Trūkst eksporta
 Export OK: Eksportēt OK
 Export only favorite channels to a new M3U file: Eksportējiet tikai iecienītākos kanālus uz jaunu M3U failu
 Export results as JSON or M3U – export missing channels or all channels.: Eksportējiet rezultātus kā JSON vai M3U — eksportējiet trūkstošos kanālus vai visus kanālus.
-Exported channels: Eksportētie kanāli
+Export selected: Atlasīts eksports
+Exported: Eksportēts
+Exported {0} channels to {1}: Eksportēti {0} kanāli uz {1}
 Extracting update...: Notiek atjauninājuma izvilkšana...
 Failed to download playlist: Neizdevās lejupielādēt atskaņošanas sarakstu
 Failed to load playlist: Neizdevās ielādēt atskaņošanas sarakstu
@@ -148,7 +154,6 @@ Fetch Logos: Ielādēt logotipus
 File {0} already exists. Overwrite?: Fails {0} jau pastāv. Vai pārrakstīt?
 File exists: Fails pastāv
 Filters: Filtri
-First playlist: {0} channels loaded.: Pirmais atskaņošanas saraksts: ielādēti {0} kanāli.
 Fullscreen (hide UI) - press ESC to exit: Pilnekrāna režīms (slēpt lietotāja interfeisu) — nospiediet ESC, lai izietu
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Nederīgs JSON: {0}
 Invalid playlist URL.: Nederīgs atskaņošanas saraksta URL.
 Invalid URL.: Nederīgs URL.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON faili|*.json|M3U faili|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON faili|*.json|M3U faili|*.m3u;*.m3u8|Visi faili|*.*
 JSON Property: JSON īpašums
 Ko-fi: Kafija
 Language: Valoda
@@ -215,6 +218,8 @@ Logos Subfolder: Logotipu apakšmape
 Map JSON properties to channel fields:: Kartēt JSON rekvizītus ar kanāla laukiem:
 Mapping saved for future imports of this file.: Kartēšana saglabāta turpmākai šī faila importēšanai.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Atbilstības sliekšņi — iestatiet neskaidras atbilstības jutīgumu EPG un logotipiem.
+Move to Group: Pāriet uz grupu
+Moved: Pārvietots
 Name: Vārds
 Nanoid: Nanoīds
 Network error: Tīkla kļūda
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: No M3U URL nav ielādēts neviens kanāls.
 No channels loaded from M3U.: No M3U nav ielādēts neviens kanāls.
 No channels loaded.: Nav ielādēts neviens kanāls.
 No channels mapped: Nav kartētu kanālu
-No comparison results. Run Compare first.: Nav salīdzināšanas rezultātu. Vispirms palaist Salīdzināt.
+No channels selected.: Nav atlasīts neviens kanāls.
 No duplicate URLs found.: Nav atrasti dublikāti URL.
 No EPG data: Nav EPG datu
 No EPG information available for this channel.: Šim kanālam nav pieejama EPG informācija.
@@ -263,7 +268,6 @@ Playlist Editor: Atskaņošanas sarakstu redaktors
 Playlist Loading: Notiek atskaņošanas saraksta ielāde
 Playlist Management: Atskaņošanas sarakstu pārvaldība
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Atskaņošanas sarakstu krātuve: OwnerPlugins/TivuStreamList (itāļu un starptautiskās straumes)
-Playlists loaded: Atskaņošanas saraksti ir ielādēti
 Please select a program first.: Lūdzu, vispirms atlasiet programmu.
 Preview (first 5 channels): Priekšskatījums (pirmie 5 kanāli)
 Preview error: {0}: Priekšskatījuma kļūda: {0}
@@ -296,7 +300,9 @@ Search channel: : Meklēt kanālu:
 Search channels by name: Meklējiet kanālus pēc nosaukuma
 Search channels...: Meklēt kanālus...
 sec: sek
+Second playlist loaded: {0} channels: Otrais ielādēts atskaņošanas saraksts: {0} kanāli
 Select a playlist first.: Vispirms atlasiet atskaņošanas sarakstu.
+Select target group:: Izvēlieties mērķa grupu:
 Select Theme: Izvēlieties Motīvu
 Selected theme is saved and applied on restart.: Atlasītais motīvs tiek saglabāts un lietots restartējot.
 Send: Sūtīt

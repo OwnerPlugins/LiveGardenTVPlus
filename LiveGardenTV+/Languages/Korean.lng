@@ -28,6 +28,7 @@ Add Mapping: 매핑 추가
 Adjust buffer size (1-10 seconds): 버퍼 크기 조정(1~10초)
 Advanced IDs: 고급 ID
 Application status: 신청현황
+Apply: 적용하다
 Apply changes: 변경사항 적용
 Apply Filters: 필터 적용
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI를 다시 로드하시겠습니까?\n\n인터페이스가 다시 시작됩니다(몇 초 동안 검은색 화면).
@@ -54,6 +55,7 @@ channels from URL: URL의 채널
 Check Duplicates: 중복 확인
 Check for updates: 업데이트 확인
 Check URLs: URL 확인
+Clear: 분명한
 Clear EPG Cache: EPG 캐시 지우기
 Clear Filters: 필터 지우기
 Clear search: 검색 지우기
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: 비교하다...
 Comparison results: {0} channels: 비교 결과: {0}개 채널
 Configuration Missing: 구성 누락
+Confirm Delete: 삭제 확인
 Confirm Reload: 새로고침 확인
 Connect: 연결하다
 Connected: 연결됨
+Copied: 복사됨
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: 국가
 Credits: 크레딧
+Delete channel '{0}'?: 채널 '{0}'을(를) 삭제하시겠습니까?
 Delete Group: 그룹 삭제
 Delete Selected: 선택 항목 삭제
+Deleted: 삭제됨
 Description: 설명
 Details: 세부
 Developed by Lululla: 룰루라(Lululla)에서 개발한
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: 재생목록 URL 입력(JSON 또는 M3U):
 Enter playlist URL (M3U or JSON):: 재생목록 URL 입력(M3U 또는 JSON):
 EPG: EPG
 Epg & Favorites: Epg 및 즐겨찾기
+EPG & Favorites: EPG 및 즐겨찾기
 Epg & Logos: Epg 및 로고
 EPG & Logos: EPG 및 로고
 EPG cache cleared successfully.: EPG 캐시가 성공적으로 지워졌습니다.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: 캐시 지우기 오류: {0}
 Error loading: 로드 중 오류 발생
 Error loading EPG list: {0}: EPG 목록을 로드하는 중 오류 발생: {0}
 Error loading file: {0}: 파일 로드 중 오류 발생: {0}
-Error loading file: {0}: 파일 로드 중 오류 발생: {0}
 Error loading playlists: {0}: 재생목록 로드 중 오류 발생: {0}
-Error loading URL: {0}: URL 로드 중 오류 발생: {0}
 Error loading URL: {0}: URL 로드 중 오류 발생: {0}
 ERROR: player.html not found.: 오류: player.html을 찾을 수 없습니다.
 Exit: 출구
-Export: 내보내다
 Export all: 모두 내보내기
 Export Favorites: 즐겨찾기 내보내기
 Export Filtered JSON: 필터링된 JSON 내보내기
@@ -136,7 +140,9 @@ Export missing: 내보내기 누락
 Export OK: 수출 OK
 Export only favorite channels to a new M3U file: 즐겨찾는 채널만 새 M3U 파일로 내보내기
 Export results as JSON or M3U – export missing channels or all channels.: 결과를 JSON 또는 M3U로 내보내기 – 누락된 채널 또는 모든 채널을 내보냅니다.
-Exported channels: 내보낸 채널
+Export selected: 선택한 내보내기
+Exported: 수출됨
+Exported {0} channels to {1}: {0}개의 채널을 {1}(으)로 내보냈습니다.
 Extracting update...: 업데이트 추출 중...
 Failed to download playlist: 재생목록을 다운로드하지 못했습니다.
 Failed to load playlist: 재생목록을 로드하지 못했습니다.
@@ -148,7 +154,6 @@ Fetch Logos: 로고 가져오기
 File {0} already exists. Overwrite?: 파일 {0}이(가) 이미 존재합니다. 덮어쓰시겠습니까?
 File exists: 파일이 존재합니다
 Filters: 필터
-First playlist: {0} channels loaded.: 첫 번째 재생목록: {0}개의 채널이 로드되었습니다.
 Fullscreen (hide UI) - press ESC to exit: 전체 화면(UI 숨기기) - 종료하려면 ESC를 누르세요.
 Geo & Country: 지역 및 국가
 GeoBlocked: 지리적으로 차단됨
@@ -176,8 +181,6 @@ Invalid JSON: {0}: 잘못된 JSON: {0}
 Invalid playlist URL.: 재생목록 URL이 잘못되었습니다.
 Invalid URL.: URL이 잘못되었습니다.
 Json: 제이슨
-JSON files|*.json|M3U files|*.m3u: JSON 파일|*.json|M3U 파일|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON 파일|*.json|M3U 파일|*.m3u;*.m3u8|모든 파일|*.*
 JSON Property: JSON 속성
 Ko-fi: 커피
 Language: 언어
@@ -215,6 +218,8 @@ Logos Subfolder: 로고 하위 폴더
 Map JSON properties to channel fields:: JSON 속성을 채널 필드에 매핑합니다.
 Mapping saved for future imports of this file.: 나중에 이 파일을 가져올 수 있도록 매핑이 저장되었습니다.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: 일치 임계값 – EPG 및 로고에 대한 퍼지 일치 민감도를 설정합니다.
+Move to Group: 그룹으로 이동
+Moved: 움직이는
 Name: 이름
 Nanoid: 나노이드
 Network error: 네트워크 오류
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: M3U URL에서 로드된 채널이 없습니다
 No channels loaded from M3U.: M3U에서 로드된 채널이 없습니다.
 No channels loaded.: 로드된 채널이 없습니다.
 No channels mapped: 매핑된 채널이 없습니다.
-No comparison results. Run Compare first.: 비교 결과가 없습니다. 먼저 비교를 실행하세요.
+No channels selected.: 선택된 채널이 없습니다.
 No duplicate URLs found.: 중복된 URL이 없습니다.
 No EPG data: EPG 데이터 없음
 No EPG information available for this channel.: 이 채널에 사용할 수 있는 EPG 정보가 없습니다.
@@ -263,7 +268,6 @@ Playlist Editor: 재생목록 편집기
 Playlist Loading: 재생목록 로드 중
 Playlist Management: 재생목록 관리
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): 재생 목록 저장소: OwnerPlugins/TivuStreamList(이탈리아어 및 국제 스트림)
-Playlists loaded: 재생목록이 로드되었습니다.
 Please select a program first.: 먼저 프로그램을 선택해주세요.
 Preview (first 5 channels): 미리보기(처음 5개 채널)
 Preview error: {0}: 미리보기 오류: {0}
@@ -296,7 +300,9 @@ Search channel: : 검색 채널:
 Search channels by name: 이름으로 채널 검색
 Search channels...: 채널 검색...
 sec: 비서
+Second playlist loaded: {0} channels: 두 번째 재생목록 로드됨: 채널 {0}개
 Select a playlist first.: 먼저 재생목록을 선택하세요.
+Select target group:: 대상 그룹 선택:
 Select Theme: 테마 선택
 Selected theme is saved and applied on restart.: 선택한 테마는 저장되어 재시작 시 적용됩니다.
 Send: 보내다

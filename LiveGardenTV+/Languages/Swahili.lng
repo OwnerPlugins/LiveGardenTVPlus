@@ -28,6 +28,7 @@ Add Mapping: Ongeza Ramani
 Adjust buffer size (1-10 seconds): Rekebisha ukubwa wa bafa (sekunde 1-10)
 Advanced IDs: Vitambulisho vya hali ya juu
 Application status: Hali ya maombi
+Apply: Omba
 Apply changes: Tekeleza mabadiliko
 Apply Filters: Weka Vichujio
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Je, una uhakika unataka kupakia upya Enigma2 GUI?\n\nKiolesura kitaanza upya (skrini nyeusi kwa sekunde chache).
@@ -54,6 +55,7 @@ channels from URL: chaneli kutoka kwa URL
 Check Duplicates: Angalia Nakala
 Check for updates: Angalia masasisho
 Check URLs: Angalia URLs
+Clear: Wazi
 Clear EPG Cache: Futa Akiba ya EPG
 Clear Filters: Futa Vichujio
 Clear search: Futa utafutaji
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Linganisha...
 Comparison results: {0} channels: Matokeo ya kulinganisha: vituo {0}
 Configuration Missing: Usanidi Haupo
+Confirm Delete: Thibitisha Futa
 Confirm Reload: Thibitisha Pakia Upya
 Connect: Unganisha
 Connected: Imeunganishwa
+Copied: Imenakiliwa
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Nchi
 Credits: Mikopo
+Delete channel '{0}'?: Ungependa kufuta kituo '{0}'?
 Delete Group: Futa Kikundi
 Delete Selected: Futa Uliochaguliwa
+Deleted: Imefutwa
 Description: Maelezo
 Details: Maelezo
 Developed by Lululla: Imeandaliwa na Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Weka URL ya orodha ya kucheza (JSON au M3U):
 Enter playlist URL (M3U or JSON):: Weka URL ya orodha ya kucheza (M3U au JSON):
 EPG: EPG
 Epg & Favorites: Epg & Vipendwa
+EPG & Favorites: EPG & Vipendwa
 Epg & Logos: EPG & Nembo
 EPG & Logos: EPG & Nembo
 EPG cache cleared successfully.: Akiba ya EPG imefutwa.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Hitilafu katika kufuta akiba: {0}
 Error loading: Hitilafu katika upakiaji
 Error loading EPG list: {0}: Hitilafu katika kupakia orodha ya EPG: {0}
 Error loading file: {0}: Hitilafu katika kupakia faili: {0}
-Error loading file: {0}: Hitilafu katika kupakia faili: {0}
 Error loading playlists: {0}: Hitilafu katika kupakia orodha za kucheza: {0}
-Error loading URL: {0}: Hitilafu katika kupakia URL: {0}
 Error loading URL: {0}: Hitilafu katika kupakia URL: {0}
 ERROR: player.html not found.: HITILAFU: player.html haipatikani.
 Exit: Utgång
-Export: Hamisha
 Export all: Hamisha zote
 Export Favorites: Hamisha Vipendwa
 Export Filtered JSON: Hamisha JSON Iliyochujwa
@@ -136,7 +140,9 @@ Export missing: Uhamishaji haupo
 Export OK: Hamisha Sawa
 Export only favorite channels to a new M3U file: Hamisha chaneli uzipendazo pekee kwa faili mpya ya M3U
 Export results as JSON or M3U – export missing channels or all channels.: Hamisha matokeo kama JSON au M3U - hamisha chaneli ambazo hazipo au chaneli zote.
-Exported channels: Vituo vilivyohamishwa
+Export selected: Usafirishaji umechaguliwa
+Exported: Imesafirishwa
+Exported {0} channels to {1}: Imehamisha vituo {0} kwa {1}
 Extracting update...: Inatoa sasisho...
 Failed to download playlist: Imeshindwa kupakua orodha ya kucheza
 Failed to load playlist: Imeshindwa kupakia orodha ya kucheza
@@ -148,7 +154,6 @@ Fetch Logos: Leta Nembo
 File {0} already exists. Overwrite?: Faili {0} tayari ipo. Ungependa kufuta?
 File exists: Faili ipo
 Filters: Vichujio
-First playlist: {0} channels loaded.: Orodha ya kucheza ya kwanza: vituo {0} vilivyopakiwa.
 Fullscreen (hide UI) - press ESC to exit: Skrini nzima (ficha UI) - bonyeza ESC ili kuondoka
 Geo & Country: Jiografia na Nchi
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON batili: {0}
 Invalid playlist URL.: URL ya orodha ya kucheza si sahihi.
 Invalid URL.: URL batili.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: Faili za JSON|*.json|faili za M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Faili za JSON|*.json|Faili za M3U|*.m3u;*.m3u8|Faili zote|*.*
 JSON Property: Mali ya JSON
 Ko-fi: Kahawa
 Language: Lugha
@@ -215,6 +218,8 @@ Logos Subfolder: Folda Ndogo ya Nembo
 Map JSON properties to channel fields:: Ramani ya sifa za JSON kwa sehemu za vituo:
 Mapping saved for future imports of this file.: Upangaji ramani umehifadhiwa kwa uagizaji wa baadaye wa faili hii.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Viwango vinavyolingana - weka hisia zisizoeleweka za mechi kwa EPG na nembo.
+Move to Group: Nenda kwenye Kikundi
+Moved: Imehamishwa
 Name: Jina
 Nanoid: Nanoid
 Network error: Hitilafu ya mtandao
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Hakuna chaneli zilizopakiwa kutoka URL ya M3U.
 No channels loaded from M3U.: Hakuna chaneli zilizopakiwa kutoka M3U.
 No channels loaded.: Hakuna vituo vilivyopakiwa.
 No channels mapped: Hakuna vituo vilivyopangwa
-No comparison results. Run Compare first.: Hakuna matokeo ya kulinganisha. Endesha Linganisha kwanza.
+No channels selected.: Hakuna vituo vilivyochaguliwa.
 No duplicate URLs found.: Hakuna nakala za URL zilizopatikana.
 No EPG data: Hakuna data ya EPG
 No EPG information available for this channel.: Hakuna maelezo ya EPG yanayopatikana kwa kituo hiki.
@@ -263,7 +268,6 @@ Playlist Editor: Kihariri cha Orodha ya kucheza
 Playlist Loading: Orodha ya kucheza Inapakia
 Playlist Management: Usimamizi wa Orodha ya kucheza
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Hazina ya orodha ya kucheza: OwnerPlugins/TivuStreamList (mitiririko ya Kiitaliano na kimataifa)
-Playlists loaded: Orodha za kucheza zimepakiwa
 Please select a program first.: Tafadhali chagua programu kwanza.
 Preview (first 5 channels): Hakiki (vituo 5 vya kwanza)
 Preview error: {0}: Hitilafu ya onyesho la kukagua: {0}
@@ -296,7 +300,9 @@ Search channel: : Tafuta kituo:
 Search channels by name: Tafuta vituo kwa majina
 Search channels...: Tafuta vituo...
 sec: sekunde
+Second playlist loaded: {0} channels: Orodha ya kucheza ya pili imepakiwa: vituo {0}
 Select a playlist first.: Chagua orodha ya kucheza kwanza.
+Select target group:: Chagua kikundi lengwa:
 Select Theme: Chagua Mandhari
 Selected theme is saved and applied on restart.: Mandhari yaliyochaguliwa yanahifadhiwa na kutumika wakati wa kuwasha upya.
 Send: Tuma

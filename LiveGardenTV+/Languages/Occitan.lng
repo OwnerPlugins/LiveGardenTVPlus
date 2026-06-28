@@ -28,6 +28,7 @@ Add Mapping: Apondre la mapatge
 Adjust buffer size (1-10 seconds): Ajustar la talha del tampon (1-10 segondas)
 Advanced IDs: IDs avançats
 Application status: Estat de la demanda
+Apply: Postular
 Apply changes: Aplicar las modificacions
 Apply Filters: Aplicar de filtres
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Sètz segur que volètz tornar cargar l'interfaci grafica d'Enigma2?\n\nL'interfàcia se reaviarà (ecran negre pendent qualques segondas).
@@ -54,6 +55,7 @@ channels from URL: canals dempuèi l'URL
 Check Duplicates: Verificar los dobles
 Check for updates: Verificatz las mesas a jorn
 Check URLs: Verificar las URL
+Clear: Clar
 Clear EPG Cache: Escafar l'escobilhièr EPG
 Clear Filters: Suprimir los filtres
 Clear search: Suprimir la recèrca
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Comparar...
 Comparison results: {0} channels: Resultats de comparason : {0} canals
 Configuration Missing: Configuracion mancanta
+Confirm Delete: Confirmar la supression
 Confirm Reload: Confirmar lo recargament
 Connect: Connectar
 Connected: Connectat
+Copied: Copiat
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: País
 Credits: Crèdits
+Delete channel '{0}'?: Suprimir lo canal « {0} » ?
 Delete Group: Suprimir lo grop
 Delete Selected: Suprimir seleccionat
+Deleted: Suprimit
 Description: Descripcion
 Details: Detalhs
 Developed by Lululla: Desvolopat per Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Picatz l'URL de la lista de lectura (JSON o M
 Enter playlist URL (M3U or JSON):: Picatz l'URL de la lista de lectura (M3U o JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favorits
+EPG & Favorites: EPG & Favorits
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
 EPG cache cleared successfully.: Cache EPG escafat amb succès.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Error al moment de netejar lo cache : {0}
 Error loading: Error al moment de cargament
 Error loading EPG list: {0}: Error al moment de cargament de la lista EPG : {0}
 Error loading file: {0}: Error al moment de cargament del fichièr : {0}
-Error loading file: {0}: Error al moment de cargament del fichièr : {0}
 Error loading playlists: {0}: Error al moment de cargament de las listas de lectura : {0}
-Error loading URL: {0}: Error al moment de cargament d'URL : {0}
 Error loading URL: {0}: Error al moment de cargament d'URL : {0}
 ERROR: player.html not found.: ERROR : player.html pas trobat.
 Exit: Sortida
-Export: Exportar
 Export all: Exportar tot
 Export Favorites: Exportar los favorits
 Export Filtered JSON: Exportar JSON filtrat
@@ -136,7 +140,9 @@ Export missing: Exportacion mancanta
 Export OK: Exportar d'acòrdi
 Export only favorite channels to a new M3U file: Exportar pas que los canals favorits dins un fichièr M3U novèl
 Export results as JSON or M3U – export missing channels or all channels.: Exportar los resultats coma JSON o M3U – exportar los canals mancants o totes los canals.
-Exported channels: Canals exportats
+Export selected: Exportacion seleccionada
+Exported: Exportat
+Exported {0} channels to {1}: {0} canals exportats cap a {1}
 Extracting update...: Extraire la mesa a jorn...
 Failed to download playlist: Fracàs al telecargament de la lista de lectura
 Failed to load playlist: Fracàs al cargament de la lista de lectura
@@ -148,7 +154,6 @@ Fetch Logos: Recuperar de lògos
 File {0} already exists. Overwrite?: Lo fichièr {0} existís ja. Subrescriure?
 File exists: Fichièr existís
 Filters: Filtres
-First playlist: {0} channels loaded.: Primièra lista de lectura : {0} canals cargats.
 Fullscreen (hide UI) - press ESC to exit: Ecran complet (amagar l'interfàcia utilizaire) - quichatz sus ESC per sortir
 Geo & Country: Geo & País
 GeoBlocked: GeoBlocat
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON invalid: {0}
 Invalid playlist URL.: URL de la lista de lectura invalida.
 Invalid URL.: URL invalida.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: Fichièrs JSON|*.json|Fichièrs M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Fichièrs JSON|*.json|Fichièrs M3U|*.m3u;*.m3u8|Totes los fichièrs|*.*
 JSON Property: Proprietat JSON
 Ko-fi: Cafè
 Language: Lenga
@@ -215,6 +218,8 @@ Logos Subfolder: Sosdorsièr de lògos
 Map JSON properties to channel fields:: Mapar las proprietats JSON als camps de canal :
 Mapping saved for future imports of this file.: Mapatge enregistrat per d'importacions futuras d'aqueste fichièr.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Lindals de correspondéncia – definir la sensibilitat de correspondéncia difusa per EPG e logos.
+Move to Group: Desplaçar cap al grop
+Moved: Desplaçat
 Name: Nom
 Nanoid: Nanoïde
 Network error: Error de ret
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Cap de canal pas cargat dempuèi l'URL M3U.
 No channels loaded from M3U.: Cap de canal cargat dempuèi M3U.
 No channels loaded.: Cap de canal pas cargat.
 No channels mapped: Cap de canal mapat
-No comparison results. Run Compare first.: Pas de resultats de comparason. Executatz la comparason d'en primièr.
+No channels selected.: Cap de canal pas seleccionat.
 No duplicate URLs found.: Cap d'URL en doble pas trobat.
 No EPG data: Pas de donadas EPG
 No EPG information available for this channel.: Cap d'informacion EPG disponibla per aqueste canal.
@@ -263,7 +268,6 @@ Playlist Editor: Editor de listas de lectura
 Playlist Loading: La lista de reproduccion en carga
 Playlist Management: Gestion de la lista de lectura
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Depaus de listas de lectura: OwnerPlugins/TivuStreamList (fluxes italians e internacionals)
-Playlists loaded: Listas de lectura cargadas
 Please select a program first.: Seleccionatz d'en primièr un programa.
 Preview (first 5 channels): Apercebut (5 primièrs canals)
 Preview error: {0}: Error d'apercebut : {0}
@@ -296,7 +300,9 @@ Search channel: : Canal de recèrca:
 Search channels by name: Cercar de canals per nom
 Search channels...: Cercar de canals...
 sec: segonda
+Second playlist loaded: {0} channels: Segonda lista de lectura cargada : {0} canals
 Select a playlist first.: Seleccionatz d'en primièr una lista de lectura.
+Select target group:: Seleccionatz lo grop cibla :
 Select Theme: Seleccionar lo tèma
 Selected theme is saved and applied on restart.: Lo tèma seleccionat es enregistrat e aplicat al reaviada.
 Send: Mandar

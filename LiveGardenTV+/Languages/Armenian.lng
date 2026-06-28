@@ -28,6 +28,7 @@ Add Mapping: Ավելացնել քարտեզագրում
 Adjust buffer size (1-10 seconds): Կարգավորել բուֆերի չափը (1-10 վայրկյան)
 Advanced IDs: Ընդլայնված ID-ներ
 Application status: Դիմումի կարգավիճակը
+Apply: Դիմել
 Apply changes: Կիրառել փոփոխությունները
 Apply Filters: Կիրառել զտիչներ
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Իսկապե՞ս ուզում եք վերաբեռնել Enigma2 GUI-ը:\n\nԻնտերֆեյսը կվերագործարկվի (սև էկրան մի քանի վայրկյանով):
@@ -54,6 +55,7 @@ channels from URL: ալիքներ URL-ից
 Check Duplicates: Ստուգեք կրկնօրինակները
 Check for updates: Ստուգեք թարմացումների համար
 Check URLs: Ստուգեք URL-ները
+Clear: Պարզ
 Clear EPG Cache: Մաքրել EPG քեշը
 Clear Filters: Մաքրել զտիչները
 Clear search: Մաքրել որոնումը
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Համեմատեք...
 Comparison results: {0} channels: Համեմատության արդյունքներ՝ {0} ալիք
 Configuration Missing: Կոնֆիգուրացիան բացակայում է
+Confirm Delete: Հաստատեք Ջնջել
 Confirm Reload: Հաստատեք վերաբեռնումը
 Connect: Միացնել
 Connected: Միացված է
+Copied: Պատճենվել է
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Երկիր
 Credits: Վարկեր
+Delete channel '{0}'?: Ջնջե՞լ «{0}» ալիքը:
 Delete Group: Ջնջել խումբը
 Delete Selected: Ջնջել ընտրվածը
+Deleted: Ջնջված է
 Description: Նկարագրություն
 Details: Մանրամասներ
 Developed by Lululla: Մշակված է Lululla-ի կողմից
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Մուտքագրեք երգացանկի URL (
 Enter playlist URL (M3U or JSON):: Մուտքագրեք երգացանկի URL (M3U կամ JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favorites
+EPG & Favorites: EPG և ընտրյալներ
 Epg & Logos: EPG & Logos
 EPG & Logos: EPG և լոգոներ
 EPG cache cleared successfully.: EPG քեշը հաջողությամբ մաքրվեց:
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Սխալ՝ քեշը մաքրելիս՝ {0}
 Error loading: Սխալ բեռնելիս
 Error loading EPG list: {0}: EPG ցուցակը բեռնելիս սխալ՝ {0}
 Error loading file: {0}: Սխալ՝ ֆայլը բեռնելիս՝ {0}
-Error loading file: {0}: Սխալ՝ ֆայլը բեռնելիս՝ {0}
 Error loading playlists: {0}: Չհաջողվեց բեռնել երգացանկերը՝ {0}
-Error loading URL: {0}: URL-ի բեռնման սխալ՝ {0}
 Error loading URL: {0}: URL-ի բեռնման սխալ՝ {0}
 ERROR: player.html not found.: ՍԽԱԼ. player.html-ը չի գտնվել:
 Exit: Ելք
-Export: Արտահանում
 Export all: Արտահանել բոլորը
 Export Favorites: Արտահանել ընտրյալները
 Export Filtered JSON: Արտահանել զտված JSON
@@ -136,7 +140,9 @@ Export missing: Արտահանումը բացակայում է
 Export OK: Արտահանել OK
 Export only favorite channels to a new M3U file: Արտահանել միայն սիրելի ալիքները նոր M3U ֆայլ
 Export results as JSON or M3U – export missing channels or all channels.: Արտահանեք արդյունքները որպես JSON կամ M3U – արտահանեք բացակայող ալիքները կամ բոլոր ալիքները:
-Exported channels: Արտահանված ալիքներ
+Export selected: Արտահանումն ընտրված է
+Exported: Արտահանվել է
+Exported {0} channels to {1}: Արտահանվել է {0} ալիք դեպի {1}
 Extracting update...: Թարմացումների արդյունահանում...
 Failed to download playlist: Չհաջողվեց ներբեռնել տեսացանկը
 Failed to load playlist: Չհաջողվեց բեռնել տեսացանկը
@@ -148,7 +154,6 @@ Fetch Logos: Բերել լոգոները
 File {0} already exists. Overwrite?: Ֆայլ {0} արդեն գոյություն ունի: Վերագրե՞լ
 File exists: Ֆայլը գոյություն ունի
 Filters: Զտիչներ
-First playlist: {0} channels loaded.: Առաջին երգացանկը՝ բեռնված է {0} ալիք:
 Fullscreen (hide UI) - press ESC to exit: Ամբողջ էկրանով (թաքցնել UI) - սեղմեք ESC՝ դուրս գալու համար
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Անվավեր JSON՝ {0}
 Invalid playlist URL.: Անվավեր երգացանկի URL:
 Invalid URL.: Անվավեր URL:
 Json: Ջսոն
-JSON files|*.json|M3U files|*.m3u: JSON ֆայլեր|*.json|M3U ֆայլեր|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON ֆայլեր|*.json|M3U ֆայլեր|*.m3u;*.m3u8|Բոլոր ֆայլերը|*.*
 JSON Property: JSON սեփականություն
 Ko-fi: Սուրճ
 Language: Լեզու
@@ -215,6 +218,8 @@ Logos Subfolder: Լոգոների ենթաթղթապանակ
 Map JSON properties to channel fields:: Քարտեզագրեք JSON-ի հատկությունները ալիքի դաշտերում.
 Mapping saved for future imports of this file.: Քարտեզագրումը պահվել է այս ֆայլի ապագա ներմուծման համար:
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Համապատասխան շեմեր – սահմանեք անորոշ համընկնումի զգայունություն EPG-ի և լոգոների համար:
+Move to Group: Տեղափոխել Խումբ
+Moved: Տեղափոխվել է
 Name: Անուն
 Nanoid: Նանոիդ
 Network error: Ցանցի սխալ
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: M3U URL-ից բեռնված ալիքներ չ�
 No channels loaded from M3U.: M3U-ից բեռնված ալիքներ չկան:
 No channels loaded.: Չկան բեռնված ալիքներ:
 No channels mapped: Չկան քարտեզագրված ալիքներ
-No comparison results. Run Compare first.: Համեմատության արդյունքներ չկան: Նախ գործարկեք Համեմատեք:
+No channels selected.: Ընտրված ալիքներ չկան:
 No duplicate URLs found.: Կրկնվող URL-ներ չեն գտնվել:
 No EPG data: EPG տվյալներ չկան
 No EPG information available for this channel.: Այս ալիքի համար EPG տեղեկություններ չկան:
@@ -263,7 +268,6 @@ Playlist Editor: Երգացանկի խմբագիր
 Playlist Loading: Երգացանկը բեռնվում է
 Playlist Management: Երգացանկի կառավարում
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Երգացանկի պահեստ՝ OwnerPlugins/TivuStreamList (իտալական և միջազգային հոսքեր)
-Playlists loaded: Տեսացանկերը բեռնված են
 Please select a program first.: Խնդրում ենք նախ ընտրել ծրագիր:
 Preview (first 5 channels): Նախադիտում (առաջին 5 ալիք)
 Preview error: {0}: Նախադիտման սխալ՝ {0}
@@ -296,7 +300,9 @@ Search channel: : Որոնել ալիք.
 Search channels by name: Որոնեք ալիքները անունով
 Search channels...: Որոնել ալիքներ...
 sec: վրկ
+Second playlist loaded: {0} channels: Երկրորդ տեսացանկը բեռնված է՝ {0} ալիք
 Select a playlist first.: Նախ ընտրեք երգացանկ:
+Select target group:: Ընտրեք թիրախային խումբ.
 Select Theme: Ընտրեք թեմա
 Selected theme is saved and applied on restart.: Ընտրված թեման պահվում է և կիրառվում է վերագործարկման ժամանակ:
 Send: Ուղարկել

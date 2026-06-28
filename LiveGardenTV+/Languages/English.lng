@@ -28,6 +28,7 @@ Add Mapping: Add Mapping
 Adjust buffer size (1-10 seconds): Adjust buffer size (1-10 seconds)
 Advanced IDs: Advanced IDs
 Application status: Application status
+Apply: Apply
 Apply changes: Apply changes
 Apply Filters: Apply Filters
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).
@@ -54,6 +55,7 @@ channels from URL: channels from URL
 Check Duplicates: Check Duplicates
 Check for updates: Check for updates
 Check URLs: Check URLs
+Clear: Clear
 Clear EPG Cache: Clear EPG Cache
 Clear Filters: Clear Filters
 Clear search: Clear search
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Compare...
 Comparison results: {0} channels: Comparison results: {0} channels
 Configuration Missing: Configuration Missing
+Confirm Delete: Confirm Delete
 Confirm Reload: Confirm Reload
 Connect: Connect
 Connected: Connected
+Copied: Copied
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Country
 Credits: Credits
+Delete channel '{0}'?: Delete channel '{0}'?
 Delete Group: Delete Group
 Delete Selected: Delete Selected
+Deleted: Deleted
 Description: Description
 Details: Details
 Developed by Lululla: Developed by Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Enter playlist URL (JSON or M3U):
 Enter playlist URL (M3U or JSON):: Enter playlist URL (M3U or JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favorites
+EPG & Favorites: EPG & Favorites
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
 EPG cache cleared successfully.: EPG cache cleared successfully.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Error clearing cache: {0}
 Error loading: Error loading
 Error loading EPG list: {0}: Error loading EPG list: {0}
 Error loading file: {0}: Error loading file: {0}
-Error loading file: {0}: Error loading file: {0}
 Error loading playlists: {0}: Error loading playlists: {0}
-Error loading URL: {0}: Error loading URL: {0}
 Error loading URL: {0}: Error loading URL: {0}
 ERROR: player.html not found.: ERROR: player.html not found.
 Exit: Exit
-Export: Export
 Export all: Export all
 Export Favorites: Export Favorites
 Export Filtered JSON: Export Filtered JSON
@@ -136,7 +140,9 @@ Export missing: Export missing
 Export OK: Export OK
 Export only favorite channels to a new M3U file: Export only favorite channels to a new M3U file
 Export results as JSON or M3U – export missing channels or all channels.: Export results as JSON or M3U – export missing channels or all channels.
-Exported channels: Exported channels
+Export selected: Export selected
+Exported: Exported
+Exported {0} channels to {1}: Exported {0} channels to {1}
 Extracting update...: Extracting update...
 Failed to download playlist: Failed to download playlist
 Failed to load playlist: Failed to load playlist
@@ -148,7 +154,6 @@ Fetch Logos: Fetch Logos
 File {0} already exists. Overwrite?: File {0} already exists. Overwrite?
 File exists: File exists
 Filters: Filters
-First playlist: {0} channels loaded.: First playlist: {0} channels loaded.
 Fullscreen (hide UI) - press ESC to exit: Fullscreen (hide UI) - press ESC to exit
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Invalid JSON: {0}
 Invalid playlist URL.: Invalid playlist URL.
 Invalid URL.: Invalid URL.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON files|*.json|M3U files|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*
 JSON Property: JSON Property
 Ko-fi: Coffee
 Language: Language
@@ -215,6 +218,8 @@ Logos Subfolder: Logos Subfolder
 Map JSON properties to channel fields:: Map JSON properties to channel fields:
 Mapping saved for future imports of this file.: Mapping saved for future imports of this file.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Matching thresholds – set fuzzy match sensitivity for EPG and logos.
+Move to Group: Move to Group
+Moved: Moved
 Name: Name
 Nanoid: Nanoid
 Network error: Network error
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: No channels loaded from M3U URL.
 No channels loaded from M3U.: No channels loaded from M3U.
 No channels loaded.: No channels loaded.
 No channels mapped: No channels mapped
-No comparison results. Run Compare first.: No comparison results. Run Compare first.
+No channels selected.: No channels selected.
 No duplicate URLs found.: No duplicate URLs found.
 No EPG data: No EPG data
 No EPG information available for this channel.: No EPG information available for this channel.
@@ -263,7 +268,6 @@ Playlist Editor: Playlist Editor
 Playlist Loading: Playlist Loading
 Playlist Management: Playlist Management
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)
-Playlists loaded: Playlists loaded
 Please select a program first.: Please select a program first.
 Preview (first 5 channels): Preview (first 5 channels)
 Preview error: {0}: Preview error: {0}
@@ -296,7 +300,9 @@ Search channel: : Search channel:
 Search channels by name: Search channels by name
 Search channels...: Search channels...
 sec: sec
+Second playlist loaded: {0} channels: Second playlist loaded: {0} channels
 Select a playlist first.: Select a playlist first.
+Select target group:: Select target group:
 Select Theme: Select Theme
 Selected theme is saved and applied on restart.: Selected theme is saved and applied on restart.
 Send: Send

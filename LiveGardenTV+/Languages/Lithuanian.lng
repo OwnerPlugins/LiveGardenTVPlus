@@ -28,6 +28,7 @@ Add Mapping: Pridėti žemėlapius
 Adjust buffer size (1-10 seconds): Koreguokite buferio dydį (1–10 sekundžių)
 Advanced IDs: Išplėstiniai ID
 Application status: Paraiškos būsena
+Apply: Taikyti
 Apply changes: Taikyti pakeitimus
 Apply Filters: Taikyti filtrus
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ar tikrai norite iš naujo įkelti „Enigma2“ GUI?\n\nSąsaja bus paleista iš naujo (kelias sekundes bus juodas ekranas).
@@ -54,6 +55,7 @@ channels from URL: kanalai iš URL
 Check Duplicates: Patikrinkite dublikatus
 Check for updates: Patikrinkite, ar nėra atnaujinimų
 Check URLs: Patikrinkite URL adresus
+Clear: Aišku
 Clear EPG Cache: Išvalykite EPG talpyklą
 Clear Filters: Išvalyti filtrus
 Clear search: Išvalyti paiešką
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Palyginti...
 Comparison results: {0} channels: Palyginimo rezultatai: {0} kanalai
 Configuration Missing: Trūksta konfigūracijos
+Confirm Delete: Patvirtinkite Ištrinti
 Confirm Reload: Patvirtinkite įkėlimą iš naujo
 Connect: Prisijunkite
 Connected: Prisijungta
+Copied: Nukopijuota
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Šalis
 Credits: Kreditai
+Delete channel '{0}'?: Ištrinti kanalą „{0}“?
 Delete Group: Ištrinti grupę
 Delete Selected: Ištrinti pasirinktus
+Deleted: Ištrinta
 Description: Aprašymas
 Details: Detalės
 Developed by Lululla: Sukūrė Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Įveskite grojaraščio URL (JSON arba M3U):
 Enter playlist URL (M3U or JSON):: Įveskite grojaraščio URL (M3U arba JSON):
 EPG: EPG
 Epg & Favorites: Epg ir mėgstamiausi
+EPG & Favorites: EPG ir mėgstamiausi
 Epg & Logos: Epg ir logotipai
 EPG & Logos: EPG ir logotipai
 EPG cache cleared successfully.: EPG talpykla sėkmingai išvalyta.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Klaida išvalant talpyklą: {0}
 Error loading: Įkeliant įvyko klaida
 Error loading EPG list: {0}: Klaida įkeliant EPG sąrašą: {0}
 Error loading file: {0}: Klaida įkeliant failą: {0}
-Error loading file: {0}: Klaida įkeliant failą: {0}
 Error loading playlists: {0}: Klaida įkeliant grojaraščius: {0}
-Error loading URL: {0}: Klaida įkeliant URL: {0}
 Error loading URL: {0}: Klaida įkeliant URL: {0}
 ERROR: player.html not found.: KLAIDA: player.html nerastas.
 Exit: Išeiti
-Export: Eksportuoti
 Export all: Eksportuoti viską
 Export Favorites: Eksportuoti parankinius
 Export Filtered JSON: Eksportuoti filtruotą JSON
@@ -136,7 +140,9 @@ Export missing: Trūksta eksporto
 Export OK: Eksportuoti gerai
 Export only favorite channels to a new M3U file: Eksportuokite tik mėgstamiausius kanalus į naują M3U failą
 Export results as JSON or M3U – export missing channels or all channels.: Eksportuokite rezultatus kaip JSON arba M3U – eksportuokite trūkstamus kanalus arba visus kanalus.
-Exported channels: Eksportuoti kanalai
+Export selected: Pasirinktas eksportas
+Exported: Eksportuota
+Exported {0} channels to {1}: Eksportuota {0} kanalų į {1}
 Extracting update...: Išskleidžiamas naujinys...
 Failed to download playlist: Nepavyko atsisiųsti grojaraščio
 Failed to load playlist: Nepavyko įkelti grojaraščio
@@ -148,7 +154,6 @@ Fetch Logos: Paimkite logotipus
 File {0} already exists. Overwrite?: Failas {0} jau yra. Perrašyti?
 File exists: Failas egzistuoja
 Filters: Filtrai
-First playlist: {0} channels loaded.: Pirmasis grojaraštis: įkelta kanalų: {0}.
 Fullscreen (hide UI) - press ESC to exit: Visas ekranas (slėpti vartotojo sąsają) – paspauskite ESC, kad išeitumėte
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Neteisingas JSON: {0}
 Invalid playlist URL.: Netinkamas grojaraščio URL.
 Invalid URL.: Netinkamas URL.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON failai|*.json|M3U failai|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON failai|*.json|M3U failai|*.m3u;*.m3u8|Visi failai|*.*
 JSON Property: JSON nuosavybė
 Ko-fi: Kava
 Language: Kalba
@@ -215,6 +218,8 @@ Logos Subfolder: Logotipų poaplankis
 Map JSON properties to channel fields:: Susieti JSON ypatybes su kanalo laukais:
 Mapping saved for future imports of this file.: Atvaizdas išsaugotas, kad ateityje būtų galima importuoti šį failą.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Atitikties slenksčiai – nustatykite neaiškios atitikties jautrumą EPG ir logotipams.
+Move to Group: Perkelti į grupę
+Moved: Perkeltas
 Name: Vardas
 Nanoid: Nanoidinis
 Network error: Tinklo klaida
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Iš M3U URL neįkelta jokių kanalų.
 No channels loaded from M3U.: Iš M3U neįkelta jokių kanalų.
 No channels loaded.: Neįkelta jokių kanalų.
 No channels mapped: Nėra susietų kanalų
-No comparison results. Run Compare first.: Nėra palyginimo rezultatų. Pirmiausia paleiskite Palyginkite.
+No channels selected.: Nepasirinkta jokių kanalų.
 No duplicate URLs found.: Pasikartojančių URL nerasta.
 No EPG data: Nėra EPG duomenų
 No EPG information available for this channel.: Nėra šio kanalo EPG informacijos.
@@ -263,7 +268,6 @@ Playlist Editor: Grojaraščio redaktorius
 Playlist Loading: Grojaraštis įkeliamas
 Playlist Management: Grojaraščio valdymas
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Grojaraščio saugykla: „OwnerPlugins“ / „TivuStreamList“ (itališki ir tarptautiniai srautai)
-Playlists loaded: Grojaraščiai įkelti
 Please select a program first.: Pirmiausia pasirinkite programą.
 Preview (first 5 channels): Peržiūra (pirmieji 5 kanalai)
 Preview error: {0}: Peržiūros klaida: {0}
@@ -296,7 +300,9 @@ Search channel: : Ieškoti kanalo:
 Search channels by name: Ieškokite kanalų pagal pavadinimą
 Search channels...: Ieškoti kanalų...
 sec: sek
+Second playlist loaded: {0} channels: Įkeltas antras grojaraštis: {0} kanalai
 Select a playlist first.: Pirmiausia pasirinkite grojaraštį.
+Select target group:: Pasirinkite tikslinę grupę:
 Select Theme: Pasirinkite temą
 Selected theme is saved and applied on restart.: Pasirinkta tema išsaugoma ir taikoma paleidus iš naujo.
 Send: Siųsti

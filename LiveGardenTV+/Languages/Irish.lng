@@ -28,6 +28,7 @@ Add Mapping: Cuir Mapáil leis
 Adjust buffer size (1-10 seconds): Coigeartaigh méid maoláin (1-10 soicind)
 Advanced IDs: Ardaitheantais
 Application status: Stádas iarratais
+Apply: Cuir iarratas isteach
 Apply changes: Cuir athruithe i bhfeidhm
 Apply Filters: Cuir Scagairí i bhFeidhm
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: An bhfuil tú cinnte gur mian leat an GUI Enigma2 a athlódáil?\n\nAtosóidh an comhéadan (scáileán dubh ar feadh cúpla soicind).
@@ -54,6 +55,7 @@ channels from URL: cainéil ó URL
 Check Duplicates: Seiceáil Dúblaigh
 Check for updates: Seiceáil le haghaidh nuashonruithe
 Check URLs: Seiceáil URLanna
+Clear: Glan
 Clear EPG Cache: Glan Taisce EPG
 Clear Filters: Scagairí Glan
 Clear search: Glan cuardach
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Déan comparáid...
 Comparison results: {0} channels: Torthaí comparáide: {0} cainéal
 Configuration Missing: Cumraíocht ar Iarraidh
+Confirm Delete: Deimhnigh Scrios
 Confirm Reload: Deimhnigh Athlódáil
 Connect: Ceangail
 Connected: Ceangailte
+Copied: Cóipeáladh
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Tír
 Credits: Creidmheasanna
+Delete channel '{0}'?: An bhfuil fonn ort an cainéal '{0}' a scriosadh?
 Delete Group: Scrios Grúpa
 Delete Selected: Scrios Roghnaithe
+Deleted: Scriosta
 Description: Cur síos
 Details: Sonraí
 Developed by Lululla: Arna fhorbairt ag Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Cuir isteach URL seinmliosta (JSON nó M3U):
 Enter playlist URL (M3U or JSON):: Cuir isteach URL seinmliosta (M3U nó JSON):
 EPG: EPG
 Epg & Favorites: Epg & Ceanáin
+EPG & Favorites: EPG & Ceanáin
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
 EPG cache cleared successfully.: Glanadh taisce EPG go rathúil.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Earráid agus taisce á ghlanadh: {0}
 Error loading: Earráid á lódáil
 Error loading EPG list: {0}: Earráid agus an liosta EPG á lódáil: {0}
 Error loading file: {0}: Earráid agus comhad á lódáil: {0}
-Error loading file: {0}: Earráid agus comhad á lódáil: {0}
 Error loading playlists: {0}: Earráid agus seinmliostaí á lódáil: {0}
-Error loading URL: {0}: Earráid agus URL á lódáil: {0}
 Error loading URL: {0}: Earráid agus URL á lódáil: {0}
 ERROR: player.html not found.: EARRÁID: níor aimsíodh player.html.
 Exit: Scoir
-Export: Easpórtáil
 Export all: Easpórtáil go léir
 Export Favorites: Easpórtáil Ceanáin
 Export Filtered JSON: Easpórtáil JSON Scagtha
@@ -136,7 +140,9 @@ Export missing: Easpórtáil in easnamh
 Export OK: Easpórtáil OK
 Export only favorite channels to a new M3U file: Easpórtáil ach na cainéil is fearr leat chuig comhad M3U nua
 Export results as JSON or M3U – export missing channels or all channels.: Easpórtáil torthaí mar JSON nó M3U - easpórtáil cainéil atá in easnamh nó gach cainéal.
-Exported channels: Cainéil easpórtáilte
+Export selected: Easpórtáil roghnaithe
+Exported: Onnmhairithe
+Exported {0} channels to {1}: Easpórtáladh {0} cainéal go {1}
 Extracting update...: Nuashonrú á bhaint...
 Failed to download playlist: Theip ar an seinmliosta a íoslódáil
 Failed to load playlist: Theip ar lódáil an seinmliosta
@@ -148,7 +154,6 @@ Fetch Logos: Faigh Lógónna
 File {0} already exists. Overwrite?: Tá comhad {0} ann cheana. Forscríobh?
 File exists: Tá comhad ann
 Filters: Scagairí
-First playlist: {0} channels loaded.: An chéad seinnliosta: {0} cainéal lódáilte.
 Fullscreen (hide UI) - press ESC to exit: Lánscáileán (folaigh Chomhéadain) - brúigh ESC chun imeacht
 Geo & Country: Geo & Tír
 GeoBlocked: Geobhlocáilte
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON neamhbhailí: {0}
 Invalid playlist URL.: URL seinmliosta neamhbhailí.
 Invalid URL.: URL neamhbhailí.
 Json: Seosamh
-JSON files|*.json|M3U files|*.m3u: Comhaid JSON|*.json|Comhaid M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Comhaid JSON|*.json|Comhaid M3U|*.m3u;*.m3u8|Gach comhad|*.*
 JSON Property: Maoin JSON
 Ko-fi: Caife
 Language: Teanga
@@ -215,6 +218,8 @@ Logos Subfolder: Fofhillteán Logos
 Map JSON properties to channel fields:: Mapáil airíonna JSON chuig réimsí cainéil:
 Mapping saved for future imports of this file.: Sábháiltear an léarscáiliú le haghaidh iompórtáil an chomhaid seo amach anseo.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Tairseacha meaitseála – socraigh íogaireacht mheaitse doiléir le haghaidh EPG agus lógónna.
+Move to Group: Bog go Grúpa
+Moved: Ar athraíodh a ionad
 Name: Ainm
 Nanoid: Nainoid
 Network error: Earráid líonra
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Níor luchtaíodh aon chainéil ó URL M3U.
 No channels loaded from M3U.: Níor luchtaíodh aon chainéil ó M3U.
 No channels loaded.: Níor luchtaíodh aon chainéil.
 No channels mapped: Níl aon chainéil mapáilte
-No comparison results. Run Compare first.: Gan torthaí comparáide. Rith Déan comparáid idir ar dtús.
+No channels selected.: Níl aon chainéil roghnaithe.
 No duplicate URLs found.: Níor aimsíodh URLanna dúblacha.
 No EPG data: Gan sonraí EPG
 No EPG information available for this channel.: Níl aon fhaisnéis EPG ar fáil don chainéal seo.
@@ -263,7 +268,6 @@ Playlist Editor: Eagarthóir playlist
 Playlist Loading: Seinmliosta á Luchtú
 Playlist Management: Bainistíocht Seinmliosta
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Stór seinmliosta: OwnerPlugins/TivuStreamList (sruthanna Iodáilise & idirnáisiúnta)
-Playlists loaded: Seinmliostaí luchtaithe
 Please select a program first.: Roghnaigh clár ar dtús.
 Preview (first 5 channels): Réamhamharc (an chéad 5 chainéal)
 Preview error: {0}: Earráid réamhamhairc: {0}
@@ -296,7 +300,9 @@ Search channel: : Cuardach cainéal:
 Search channels by name: Cuardaigh cainéil de réir ainm
 Search channels...: Cuardach cainéil...
 sec: soic
+Second playlist loaded: {0} channels: Lódaíodh an dara seinmliosta: {0} cainéal
 Select a playlist first.: Roghnaigh seinmliosta ar dtús.
+Select target group:: Roghnaigh spriocghrúpa:
 Select Theme: Roghnaigh Téama
 Selected theme is saved and applied on restart.: Sábháiltear an téama roghnaithe agus cuirtear i bhfeidhm é ar atosú.
 Send: Seol

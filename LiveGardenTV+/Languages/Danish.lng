@@ -28,6 +28,7 @@ Add Mapping: Tilføj kortlægning
 Adjust buffer size (1-10 seconds): Juster bufferstørrelse (1-10 sekunder)
 Advanced IDs: Avancerede ID'er
 Application status: Ansøgningsstatus
+Apply: Anvende
 Apply changes: Anvend ændringer
 Apply Filters: Anvend filtre
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Er du sikker på, at du vil genindlæse Enigma2 GUI?\n\nGrænsefladen genstartes (sort skærm i et par sekunder).
@@ -54,6 +55,7 @@ channels from URL: kanaler fra URL
 Check Duplicates: Tjek dubletter
 Check for updates: Se efter opdateringer
 Check URLs: Tjek URL'er
+Clear: Klar
 Clear EPG Cache: Ryd EPG-cache
 Clear Filters: Ryd filtre
 Clear search: Ryd søgning
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Sammenligne...
 Comparison results: {0} channels: Sammenligningsresultater: {0} kanaler
 Configuration Missing: Konfiguration mangler
+Confirm Delete: Bekræft sletning
 Confirm Reload: Bekræft Genindlæsning
 Connect: Forbinde
 Connected: Forbundet
+Copied: Kopieret
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Land
 Credits: Credits
+Delete channel '{0}'?: Vil du slette kanalen '{0}'?
 Delete Group: Slet gruppe
 Delete Selected: Slet valgte
+Deleted: Slettet
 Description: Beskrivelse
 Details: Detaljer
 Developed by Lululla: Udviklet af Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Indtast afspilningsliste-URL (JSON eller M3U)
 Enter playlist URL (M3U or JSON):: Indtast afspilningsliste-URL (M3U eller JSON):
 EPG: EPG
 Epg & Favorites: Epg og favoritter
+EPG & Favorites: EPG og favoritter
 Epg & Logos: EPG og logoer
 EPG & Logos: EPG og logoer
 EPG cache cleared successfully.: EPG-cachen blev ryddet.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Fejl ved rydning af cache: {0}
 Error loading: Fejl ved indlæsning
 Error loading EPG list: {0}: Fejl ved indlæsning af EPG-liste: {0}
 Error loading file: {0}: Fejl ved indlæsning af fil: {0}
-Error loading file: {0}: Fejl ved indlæsning af fil: {0}
 Error loading playlists: {0}: Fejl ved indlæsning af afspilningslister: {0}
-Error loading URL: {0}: Fejl ved indlæsning af webadresse: {0}
 Error loading URL: {0}: Fejl ved indlæsning af webadresse: {0}
 ERROR: player.html not found.: FEJL: player.html ikke fundet.
 Exit: Udgang
-Export: Eksportere
 Export all: Eksporter alle
 Export Favorites: Eksporter favoritter
 Export Filtered JSON: Eksporter filtreret JSON
@@ -136,7 +140,9 @@ Export missing: Eksport mangler
 Export OK: Eksporter OK
 Export only favorite channels to a new M3U file: Eksporter kun favoritkanaler til en ny M3U-fil
 Export results as JSON or M3U – export missing channels or all channels.: Eksporter resultater som JSON eller M3U – eksporter manglende kanaler eller alle kanaler.
-Exported channels: Eksporterede kanaler
+Export selected: Eksporter valgt
+Exported: Eksporteret
+Exported {0} channels to {1}: Eksporterede {0} kanaler til {1}
 Extracting update...: Udpakker opdatering...
 Failed to download playlist: Afspilningslisten kunne ikke downloades
 Failed to load playlist: Afspilningslisten kunne ikke indlæses
@@ -148,7 +154,6 @@ Fetch Logos: Hent logoer
 File {0} already exists. Overwrite?: Filen {0} findes allerede. Overskrive?
 File exists: Filen findes
 Filters: Filtre
-First playlist: {0} channels loaded.: Første afspilningsliste: {0} kanaler indlæst.
 Fullscreen (hide UI) - press ESC to exit: Fuld skærm (skjul UI) - tryk på ESC for at afslutte
 Geo & Country: Geo & Land
 GeoBlocked: Geoblokeret
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Ugyldig JSON: {0}
 Invalid playlist URL.: Ugyldig afspilningsliste-URL.
 Invalid URL.: Ugyldig URL.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON-filer|*.json|M3U-filer|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON-filer|*.json|M3U-filer|*.m3u;*.m3u8|Alle filer|*.*
 JSON Property: JSON-ejendom
 Ko-fi: Kaffe
 Language: Sprog
@@ -215,6 +218,8 @@ Logos Subfolder: Logoer undermappe
 Map JSON properties to channel fields:: Knyt JSON-egenskaber til kanalfelter:
 Mapping saved for future imports of this file.: Kortlægning gemt til fremtidig import af denne fil.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Matchende tærskler – indstil fuzzy match-følsomhed for EPG og logoer.
+Move to Group: Flyt til gruppe
+Moved: Flyttet
 Name: Navn
 Nanoid: Nanoid
 Network error: Netværksfejl
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Ingen kanaler indlæst fra M3U URL.
 No channels loaded from M3U.: Ingen kanaler indlæst fra M3U.
 No channels loaded.: Ingen kanaler indlæst.
 No channels mapped: Ingen kanaler er kortlagt
-No comparison results. Run Compare first.: Ingen sammenligningsresultater. Kør Sammenlign først.
+No channels selected.: Ingen kanaler valgt.
 No duplicate URLs found.: Ingen duplikerede URL'er fundet.
 No EPG data: Ingen EPG-data
 No EPG information available for this channel.: Ingen EPG-information tilgængelig for denne kanal.
@@ -263,7 +268,6 @@ Playlist Editor: Afspilningslisteeditor
 Playlist Loading: Afspilningsliste indlæses
 Playlist Management: Afspilningslistehåndtering
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Afspilningslistelager: OwnerPlugins/TivuStreamList (italienske og internationale streams)
-Playlists loaded: Afspilningslister er indlæst
 Please select a program first.: Vælg venligst et program først.
 Preview (first 5 channels): Forhåndsvisning (første 5 kanaler)
 Preview error: {0}: Eksempelfejl: {0}
@@ -296,7 +300,9 @@ Search channel: : Søg kanal:
 Search channels by name: Søg efter kanaler efter navn
 Search channels...: Søg efter kanaler...
 sec: sek
+Second playlist loaded: {0} channels: Anden afspilningsliste indlæst: {0} kanaler
 Select a playlist first.: Vælg først en afspilningsliste.
+Select target group:: Vælg målgruppe:
 Select Theme: Vælg tema
 Selected theme is saved and applied on restart.: Det valgte tema gemmes og anvendes ved genstart.
 Send: Sende

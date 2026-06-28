@@ -28,6 +28,7 @@ Add Mapping: Додадете мапирање
 Adjust buffer size (1-10 seconds): Прилагодете ја големината на баферот (1-10 секунди)
 Advanced IDs: Напредни лични карти
 Application status: Статус на апликацијата
+Apply: Пријавете се
 Apply changes: Примени промени
 Apply Filters: Примени филтри
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Дали сте сигурни дека сакате повторно да го вчитате Enigma2 GUI?\n\nИнтерфејсот ќе се рестартира (црн екран неколку секунди).
@@ -54,6 +55,7 @@ channels from URL: канали од URL
 Check Duplicates: Проверете ги дупликатите
 Check for updates: Проверете дали има ажурирања
 Check URLs: Проверете ги URL-адресите
+Clear: Јасно
 Clear EPG Cache: Исчистете го кешот на EPG
 Clear Filters: Исчистете ги филтрите
 Clear search: Исчистете го пребарувањето
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Споредете...
 Comparison results: {0} channels: Резултати од споредба: {0} канали
 Configuration Missing: Недостасува конфигурација
+Confirm Delete: Потврди Избриши
 Confirm Reload: Потврдете повторно вчитај
 Connect: Поврзете се
 Connected: Поврзан
+Copied: Копирано
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Земја
 Credits: Кредити
+Delete channel '{0}'?: Да се ​​избрише каналот „{0}“?
 Delete Group: Избриши група
 Delete Selected: Избриши го избраното
+Deleted: Избришано
 Description: Опис
 Details: Детали
 Developed by Lululla: Развиено од Лулула
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Внесете URL на плејлистат�
 Enter playlist URL (M3U or JSON):: Внесете URL на плејлистата (M3U или JSON):
 EPG: EPG
 Epg & Favorites: Epg & Омилени
+EPG & Favorites: EPG и омилени
 Epg & Logos: ЕПГ и логоа
 EPG & Logos: EPG и логоа
 EPG cache cleared successfully.: Кешот на EPG е успешно исчистен.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Грешка при чистење на кешот: {
 Error loading: Грешка при вчитување
 Error loading EPG list: {0}: Грешка при вчитување на списокот EPG: {0}
 Error loading file: {0}: Грешка при вчитување на датотеката: {0}
-Error loading file: {0}: Грешка при вчитување на датотеката: {0}
 Error loading playlists: {0}: Грешка при вчитување плејлисти: {0}
-Error loading URL: {0}: Грешка при вчитување на URL: {0}
 Error loading URL: {0}: Грешка при вчитување на URL: {0}
 ERROR: player.html not found.: ГРЕШКА: player.html не е пронајден.
 Exit: Излезете
-Export: Извоз
 Export all: Извезете ги сите
 Export Favorites: Извезете ги омилените
 Export Filtered JSON: Извези филтриран JSON
@@ -136,7 +140,9 @@ Export missing: Недостасува извоз
 Export OK: Извези во ред
 Export only favorite channels to a new M3U file: Извезете ги само омилените канали во нова датотека M3U
 Export results as JSON or M3U – export missing channels or all channels.: Извезете резултати како JSON или M3U - извезете ги каналите што недостасуваат или сите канали.
-Exported channels: Извезени канали
+Export selected: Извозот е избран
+Exported: Извезено
+Exported {0} channels to {1}: Извезени {0} канали во {1}
 Extracting update...: Се вади ажурирање...
 Failed to download playlist: Не успеа да се преземе плејлистата
 Failed to load playlist: Не успеа да се вчита плејлистата
@@ -148,7 +154,6 @@ Fetch Logos: Преземи логоа
 File {0} already exists. Overwrite?: Датотеката {0} веќе постои. Презапишете?
 File exists: Датотеката постои
 Filters: Филтри
-First playlist: {0} channels loaded.: Прва плејлиста: вчитани се {0} канали.
 Fullscreen (hide UI) - press ESC to exit: Цел екран (сокриј UI) - притиснете ESC за да излезете
 Geo & Country: Гео и земја
 GeoBlocked: Геоблокиран
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Неважечки JSON: {0}
 Invalid playlist URL.: Неважечка URL-адреса на плејлистата.
 Invalid URL.: Неважечка URL-адреса.
 Json: Џејсон
-JSON files|*.json|M3U files|*.m3u: JSON-датотеки|*.json|M3U-датотеки|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON-датотеки|*.json|M3U-датотеки|*.m3u;*.m3u8|Сите датотеки|*.*
 JSON Property: Својство на JSON
 Ko-fi: Кафе
 Language: Јазик
@@ -215,6 +218,8 @@ Logos Subfolder: Потпапка со логоа
 Map JSON properties to channel fields:: Картирај ги својствата на JSON во полињата за канали:
 Mapping saved for future imports of this file.: Мапирањето е зачувано за идно увоз на оваа датотека.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Прагови за совпаѓање – поставете чувствителност на нејасно совпаѓање за EPG и логоа.
+Move to Group: Премести во Група
+Moved: Преместен
 Name: Име
 Nanoid: Наноид
 Network error: Мрежна грешка
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Нема вчитани канали од URL-
 No channels loaded from M3U.: Нема вчитани канали од M3U.
 No channels loaded.: Нема вчитани канали.
 No channels mapped: Нема мапирани канали
-No comparison results. Run Compare first.: Нема резултати за споредба. Прво извршете Споредба.
+No channels selected.: Нема избрани канали.
 No duplicate URLs found.: Не се пронајдени дупликат URL-адреси.
 No EPG data: Нема податоци за EPG
 No EPG information available for this channel.: Нема достапни информации за EPG за овој канал.
@@ -263,7 +268,6 @@ Playlist Editor: Уредувач на плејлисти
 Playlist Loading: Плејлистата се вчитува
 Playlist Management: Управување со плејлисти
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Складиште за плејлисти: OwnerPlugins/TivuStreamList (италијански и меѓународни преноси)
-Playlists loaded: Плејлистите се вчитани
 Please select a program first.: Прво изберете програма.
 Preview (first 5 channels): Преглед (првите 5 канали)
 Preview error: {0}: Грешка во прегледот: {0}
@@ -296,7 +300,9 @@ Search channel: : Пребарај канал:
 Search channels by name: Пребарувајте канали по име
 Search channels...: Пребарувајте канали...
 sec: сек
+Second playlist loaded: {0} channels: Вчитана е втората плејлиста: {0} канали
 Select a playlist first.: Прво изберете плејлиста.
+Select target group:: Изберете целна група:
 Select Theme: Изберете Тема
 Selected theme is saved and applied on restart.: Избраната тема се зачувува и се применува при рестартирање.
 Send: Испрати

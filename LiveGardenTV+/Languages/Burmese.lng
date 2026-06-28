@@ -28,6 +28,7 @@ Add Mapping: မြေပုံထည့်ပါ။
 Adjust buffer size (1-10 seconds): ကြားခံအရွယ်အစားကို ချိန်ညှိပါ (1-10 စက္ကန့်)
 Advanced IDs: အဆင့်မြင့် ID များ
 Application status: လျှောက်လွှာအခြေအနေ
+Apply: လျှောက်ထားပါ။
 Apply changes: အပြောင်းအလဲများကို အသုံးချပါ။
 Apply Filters: စစ်ထုတ်မှုများကို အသုံးပြုပါ။
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI ကို ပြန်လည်စတင်လိုသည်မှာ သေချာပါသလား။\n\nအင်တာဖေ့စ်သည် ပြန်လည်စတင်ပါမည် (စက္ကန့်အနည်းငယ်ကြာ အနက်ရောင်မျက်နှာပြင်)။
@@ -54,6 +55,7 @@ channels from URL: URL မှ ချန်နယ်များ
 Check Duplicates: ပွားများစစ်ဆေးပါ။
 Check for updates: အပ်ဒိတ်များအတွက် စစ်ဆေးပါ။
 Check URLs: URL များကို စစ်ဆေးပါ။
+Clear: ရှင်းပါတယ်။
 Clear EPG Cache: EPG Cache ကိုရှင်းလင်းပါ။
 Clear Filters: စစ်ထုတ်မှုများကို ရှင်းလင်းပါ။
 Clear search: ရှာဖွေမှုကို ရှင်းလင်းပါ။
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: နှိုင်း...
 Comparison results: {0} channels: နှိုင်းယှဉ်မှုရလဒ်များ- ချန်နယ် {0} ခု
 Configuration Missing: ဖွဲ့စည်းမှု ပျောက်ဆုံးနေသည်။
+Confirm Delete: ဖျက်ရန် အတည်ပြုပါ။
 Confirm Reload: ပြန်တင်ကြောင်း အတည်ပြုပါ။
 Connect: ချိတ်ဆက်ပါ။
 Connected: ချိတ်ဆက်ထားသည်။
+Copied: ကူးယူသည်။
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: တိုင်းပြည်
 Credits: ခရက်ဒစ်
+Delete channel '{0}'?: ချန်နယ် '{0}' ကို ဖျက်မလား။
 Delete Group: အဖွဲ့ကိုဖျက်ပါ။
 Delete Selected: ဖျက်ရန် ရွေးချယ်ထားသည်။
+Deleted: ဖျက်လိုက်
 Description: ဖော်ပြချက်
 Details: အသေးစိတ်
 Developed by Lululla: Lululla မှတီထွင်ခဲ့သည်။
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: အစီအစဉ် URL (JSON သို့�
 Enter playlist URL (M3U or JSON):: အစီအစဉ် URL (M3U သို့မဟုတ် JSON) ထည့်ပါ-
 EPG: EPG
 Epg & Favorites: Epg & အကြိုက်ဆုံးများ
+EPG & Favorites: EPG နှင့် အကြိုက်ဆုံးများ
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG နှင့် Logos
 EPG cache cleared successfully.: EPG ကက်ရှ်ကို အောင်မြင်စွာ ရှင်းလင်းလိုက်ပါပြီ။
@@ -119,13 +126,10 @@ Error clearing cache: {0}: ကက်ရှ်ကို ရှင်းလင်�
 Error loading: တင်ရာတွင် အမှားအယွင်းရှိသည်။
 Error loading EPG list: {0}: EPG စာရင်းကို ဖွင့်ရာတွင် အမှားအယွင်းရှိနေသည်- {0}
 Error loading file: {0}: ဖိုင်ကိုဖွင့်ရာတွင် အမှားအယွင်းရှိနေသည်- {0}
-Error loading file: {0}: ဖိုင်ကိုဖွင့်ရာတွင် အမှားအယွင်းရှိနေသည်- {0}
 Error loading playlists: {0}: အစီအစဉ်များကို တင်ရာတွင် အမှားအယွင်းရှိပါသည်- {0}
-Error loading URL: {0}: URL ကိုဖွင့်ရာတွင် အမှားအယွင်းရှိနေသည်- {0}
 Error loading URL: {0}: URL ကိုဖွင့်ရာတွင် အမှားအယွင်းရှိနေသည်- {0}
 ERROR: player.html not found.: အမှား- player.html မတွေ့ပါ။
 Exit: ထွက်ပေါက်
-Export: တင်ပို့ခြင်း။
 Export all: အားလုံးကို တင်ပို့ပါ။
 Export Favorites: စိတ်ကြိုက်များကို တင်ပို့ပါ။
 Export Filtered JSON: စစ်ထုတ်ထားသော JSON ကို ထုတ်ယူပါ။
@@ -136,7 +140,9 @@ Export missing: တင်ပို့မှု ပျောက်ဆုံးန
 Export OK: Export OK
 Export only favorite channels to a new M3U file: M3U ဖိုင်အသစ်သို့ အကြိုက်ဆုံးချန်နယ်များကိုသာ ထုတ်ယူပါ။
 Export results as JSON or M3U – export missing channels or all channels.: ရလဒ်များကို JSON သို့မဟုတ် M3U အဖြစ် ထုတ်ယူပါ - ပျောက်ဆုံးနေသော ချန်နယ်များ သို့မဟုတ် ချန်နယ်အားလုံးကို ထုတ်ယူပါ။
-Exported channels: ချန်နယ်များ တင်ပို့ခဲ့သည်။
+Export selected: ရွေးထုတ်ရန်
+Exported: တင်ပို့ခဲ့သည်။
+Exported {0} channels to {1}: ချန်နယ် {0} ခုကို {1} သို့ တင်ပို့ခဲ့သည်
 Extracting update...: အပ်ဒိတ်ကို ထုတ်ယူနေသည်...
 Failed to download playlist: အစီအစဉ်ကို ဒေါင်းလုဒ်လုပ်ရန် မအောင်မြင်ပါ။
 Failed to load playlist: အစီအစဉ်ကို ဖွင့်၍မရပါ။
@@ -148,7 +154,6 @@ Fetch Logos: Logos များရယူပါ။
 File {0} already exists. Overwrite?: ဖိုင် {0} ရှိနှင့်ပြီးဖြစ်သည်။ ထပ်ရေးမလား။
 File exists: ဖိုင်ရှိပါတယ်။
 Filters: စစ်ထုတ်မှုများ
-First playlist: {0} channels loaded.: ပထမဆုံး ပြသရန်စာရင်း- ချန်နယ် {0} ခု တင်ထားသည်။
 Fullscreen (hide UI) - press ESC to exit: မျက်နှာပြင်အပြည့် (UI ဝှက်ထား) - ထွက်ရန် ESC ကိုနှိပ်ပါ။
 Geo & Country: ဘူမိနှင့်နိုင်ငံ
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: မမှန်ကန်သော JSON- {0}
 Invalid playlist URL.: မမှန်ကန်သော အစီအစဉ် URL။
 Invalid URL.: မမှန်ကန်သော URL
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON ဖိုင်များ|*.json|M3U ဖိုင်များ|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON ဖိုင်များ|*.json|M3U ဖိုင်များ|*.m3u;*.m3u8|ဖိုင်များအားလုံး|*.*
 JSON Property: JSON အိမ်ခြံမြေ
 Ko-fi: ကော်ဖီ
 Language: ဘာသာစကား
@@ -215,6 +218,8 @@ Logos Subfolder: Logos ဖိုင်တွဲ
 Map JSON properties to channel fields:: ချန်နယ်အကွက်များသို့ JSON ဂုဏ်သတ္တိများကို မြေပုံဆွဲပါ-
 Mapping saved for future imports of this file.: ဤဖိုင်၏ အနာဂတ်တင်သွင်းမှုများအတွက် မြေပုံကို သိမ်းဆည်းထားသည်။
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: ကိုက်ညီသောအဆင့်များ - EPG နှင့် လိုဂိုများအတွက် မပီမသ ကိုက်ညီမှု အာရုံခံနိုင်စွမ်းကို သတ်မှတ်ပါ။
+Move to Group: အဖွဲ့သို့ ရွှေ့ပါ။
+Moved: ပြောင်းရွှေ့ခဲ့သည်။
 Name: နာမည်
 Nanoid: နာနွိုက်
 Network error: ကွန်ရက် အမှားအယွင်း
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: M3U URL မှ လိုင်းများ 
 No channels loaded from M3U.: M3U မှ လိုင်းမတင်ပါ။
 No channels loaded.: ချန်နယ်များ မတင်ပါ။
 No channels mapped: မြေပုံဆွဲထားသော ချန်နယ်မရှိပါ။
-No comparison results. Run Compare first.: နှိုင်းယှဉ်မှုရလဒ်များမရှိပါ။ အရင်ဆုံး Compare ကို Run လိုက်ပါ။
+No channels selected.: ချန်နယ်များကို ရွေးချယ်ထားခြင်းမရှိပါ။
 No duplicate URLs found.: ထပ်နေသည့် URL များကိုမတွေ့ပါ။
 No EPG data: EPG ဒေတာမရှိပါ။
 No EPG information available for this channel.: ဤချန်နယ်အတွက် EPG အချက်အလက် မရရှိနိုင်ပါ။
@@ -263,7 +268,6 @@ Playlist Editor: အစီအစဉ်တည်းဖြတ်သူ
 Playlist Loading: အစီအစဉ်ကို ဖွင့်နေသည်။
 Playlist Management: အစီအစဉ်စီမံခန့်ခွဲမှု
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Playlist သိုလှောင်မှု- OwnerPlugins/TivuStreamList (အီတလီနှင့် နိုင်ငံတကာ ထုတ်လွှင့်မှုများ)
-Playlists loaded: အစီအစဉ်များကို တင်ပြီးပါပြီ။
 Please select a program first.: ပရိုဂရမ်တစ်ခုကို ဦးစွာရွေးချယ်ပါ။
 Preview (first 5 channels): အစမ်းကြည့်ရှုခြင်း (ပထမ 5 ချန်နယ်)
 Preview error: {0}: အစမ်းကြည့်ရှုမှု အမှား- {0}
@@ -296,7 +300,9 @@ Search channel: : ချန်နယ်ရှာရန်-
 Search channels by name: အမည်ဖြင့် ချန်နယ်များကို ရှာဖွေပါ။
 Search channels...: ချန်နယ်များကို ရှာဖွေပါ...
 sec: စက္ကန့်
+Second playlist loaded: {0} channels: ဒုတိယအစီအစဉ်ကို တင်ထားသည်- ချန်နယ် {0} ခု
 Select a playlist first.: အစီအစဉ်တစ်ခုကို ဦးစွာရွေးချယ်ပါ။
+Select target group:: ပစ်မှတ်အုပ်စုကို ရွေးပါ-
 Select Theme: Theme ကို ရွေးပါ။
 Selected theme is saved and applied on restart.: ရွေးချယ်ထားသော အပြင်အဆင်ကို သိမ်းဆည်းပြီး ပြန်လည်စတင်ချိန်တွင် အသုံးပြုပါသည်။
 Send: ပို့ပါ။

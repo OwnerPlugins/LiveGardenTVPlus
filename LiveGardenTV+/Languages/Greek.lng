@@ -28,6 +28,7 @@ Add Mapping: Προσθήκη χαρτογράφησης
 Adjust buffer size (1-10 seconds): Προσαρμογή μεγέθους buffer (1-10 δευτερόλεπτα)
 Advanced IDs: Προηγμένα αναγνωριστικά
 Application status: Κατάσταση εφαρμογής
+Apply: Εφαρμόζω
 Apply changes: Εφαρμόστε αλλαγές
 Apply Filters: Εφαρμογή φίλτρων
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Είστε βέβαιοι ότι θέλετε να επαναφορτώσετε το Enigma2 GUI;\n\nΗ διεπαφή θα επανεκκινηθεί (μαύρη οθόνη για λίγα δευτερόλεπτα).
@@ -54,6 +55,7 @@ channels from URL: κανάλια από τη διεύθυνση URL
 Check Duplicates: Ελέγξτε τα διπλότυπα
 Check for updates: Ελέγξτε για ενημερώσεις
 Check URLs: Ελέγξτε τις διευθύνσεις URL
+Clear: Σαφής
 Clear EPG Cache: Εκκαθάριση προσωρινής μνήμης EPG
 Clear Filters: Διαγραφή φίλτρων
 Clear search: Εκκαθάριση αναζήτησης
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Συγκρίνω...
 Comparison results: {0} channels: Αποτελέσματα σύγκρισης: {0} κανάλια
 Configuration Missing: Λείπει η διαμόρφωση
+Confirm Delete: Επιβεβαίωση Διαγραφής
 Confirm Reload: Επιβεβαίωση επαναφόρτωσης
 Connect: Συνδέω
 Connected: Συνδεδεμένος
+Copied: Αντιγράφηκε
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Χώρα
 Credits: Πιστώσεις
+Delete channel '{0}'?: Διαγραφή καναλιού '{0}';
 Delete Group: Διαγραφή ομάδας
 Delete Selected: Διαγραφή επιλεγμένων
+Deleted: Διαγράφηκε
 Description: Περιγραφή
 Details: Καθέκαστα
 Developed by Lululla: Αναπτύχθηκε από την Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Εισαγάγετε τη διεύθυνση 
 Enter playlist URL (M3U or JSON):: Εισαγάγετε τη διεύθυνση URL της λίστας αναπαραγωγής (M3U ή JSON):
 EPG: EPG
 Epg & Favorites: Epg & Αγαπημένα
+EPG & Favorites: EPG & Αγαπημένα
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Λογότυπα
 EPG cache cleared successfully.: Η προσωρινή μνήμη EPG διαγράφηκε με επιτυχία.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Σφάλμα κατά την εκκαθάριση τ�
 Error loading: Σφάλμα κατά τη φόρτωση
 Error loading EPG list: {0}: Σφάλμα κατά τη φόρτωση της λίστας EPG: {0}
 Error loading file: {0}: Σφάλμα κατά τη φόρτωση του αρχείου: {0}
-Error loading file: {0}: Σφάλμα κατά τη φόρτωση του αρχείου: {0}
 Error loading playlists: {0}: Σφάλμα κατά τη φόρτωση λιστών αναπαραγωγής: {0}
-Error loading URL: {0}: Σφάλμα κατά τη φόρτωση της διεύθυνσης URL: {0}
 Error loading URL: {0}: Σφάλμα κατά τη φόρτωση της διεύθυνσης URL: {0}
 ERROR: player.html not found.: ΣΦΑΛΜΑ: το player.html δεν βρέθηκε.
 Exit: Εξοδος
-Export: Εξαγωγή
 Export all: Εξαγωγή όλων
 Export Favorites: Εξαγωγή αγαπημένων
 Export Filtered JSON: Εξαγωγή φιλτραρισμένου JSON
@@ -136,7 +140,9 @@ Export missing: Λείπει η εξαγωγή
 Export OK: Εξαγωγή ΟΚ
 Export only favorite channels to a new M3U file: Εξαγωγή μόνο αγαπημένων καναλιών σε νέο αρχείο M3U
 Export results as JSON or M3U – export missing channels or all channels.: Εξαγωγή αποτελεσμάτων ως JSON ή M3U – εξαγωγή καναλιών που λείπουν ή όλων των καναλιών.
-Exported channels: Εξαγόμενα κανάλια
+Export selected: Επιλέχθηκε η εξαγωγή
+Exported: Εξάγονται
+Exported {0} channels to {1}: Έγινε εξαγωγή {0} καναλιών στο {1}
 Extracting update...: Εξαγωγή ενημέρωσης...
 Failed to download playlist: Η λήψη της λίστας αναπαραγωγής απέτυχε
 Failed to load playlist: Η φόρτωση της λίστας αναπαραγωγής απέτυχε
@@ -148,7 +154,6 @@ Fetch Logos: Λήψη λογότυπων
 File {0} already exists. Overwrite?: Το αρχείο {0} υπάρχει ήδη. Αντικατάσταση;
 File exists: Το αρχείο υπάρχει
 Filters: Φίλτρα
-First playlist: {0} channels loaded.: Πρώτη λίστα αναπαραγωγής: Φορτώθηκαν {0} κανάλια.
 Fullscreen (hide UI) - press ESC to exit: Πλήρης οθόνη (απόκρυψη διεπαφής χρήστη) - πατήστε ESC για έξοδο
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Μη έγκυρο JSON: {0}
 Invalid playlist URL.: Μη έγκυρη διεύθυνση URL λίστας αναπαραγωγής.
 Invalid URL.: Μη έγκυρη διεύθυνση URL.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: Αρχεία JSON|*.json|Αρχεία M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Αρχεία JSON|*.json|Αρχεία M3U|*.m3u;*.m3u8|Όλα τα αρχεία|*.*
 JSON Property: Ιδιότητα JSON
 Ko-fi: Καφές
 Language: Γλώσσα
@@ -215,6 +218,8 @@ Logos Subfolder: Υποφάκελος Logos
 Map JSON properties to channel fields:: Αντιστοίχιση ιδιοτήτων JSON σε πεδία καναλιού:
 Mapping saved for future imports of this file.: Η αντιστοίχιση αποθηκεύτηκε για μελλοντικές εισαγωγές αυτού του αρχείου.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Όρια αντιστοίχισης – ορίστε ευαισθησία ασαφούς αντιστοίχισης για EPG και λογότυπα.
+Move to Group: Μετακίνηση στην ομάδα
+Moved: Μετακινήθηκε
 Name: Ονομα
 Nanoid: Νανοειδές
 Network error: Σφάλμα δικτύου
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Δεν φορτώθηκαν κανάλια α�
 No channels loaded from M3U.: Δεν έχουν φορτωθεί κανάλια από το M3U.
 No channels loaded.: Δεν έχουν φορτωθεί κανάλια.
 No channels mapped: Δεν έχουν χαρτογραφηθεί κανάλια
-No comparison results. Run Compare first.: Δεν υπάρχουν αποτελέσματα σύγκρισης. Εκτελέστε πρώτα τη σύγκριση.
+No channels selected.: Δεν επιλέχθηκαν κανάλια.
 No duplicate URLs found.: Δεν βρέθηκαν διπλότυπες διευθύνσεις URL.
 No EPG data: Δεν υπάρχουν δεδομένα EPG
 No EPG information available for this channel.: Δεν υπάρχουν διαθέσιμες πληροφορίες EPG για αυτό το κανάλι.
@@ -263,7 +268,6 @@ Playlist Editor: Επεξεργαστής λίστας αναπαραγωγής
 Playlist Loading: Φόρτωση λίστας αναπαραγωγής
 Playlist Management: Διαχείριση λίστας αναπαραγωγής
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Αποθετήριο playlist: OwnerPlugins/TivuStreamList (Ιταλικές και διεθνείς ροές)
-Playlists loaded: Οι λίστες αναπαραγωγής φορτώθηκαν
 Please select a program first.: Επιλέξτε πρώτα ένα πρόγραμμα.
 Preview (first 5 channels): Προεπισκόπηση (πρώτα 5 κανάλια)
 Preview error: {0}: Σφάλμα προεπισκόπησης: {0}
@@ -296,7 +300,9 @@ Search channel: : Αναζήτηση καναλιού:
 Search channels by name: Αναζήτηση καναλιών με το όνομα
 Search channels...: Αναζήτηση καναλιών...
 sec: δευτ
+Second playlist loaded: {0} channels: Φόρτωση δεύτερης λίστας αναπαραγωγής: {0} κανάλια
 Select a playlist first.: Επιλέξτε πρώτα μια λίστα αναπαραγωγής.
+Select target group:: Επιλέξτε ομάδα στόχο:
 Select Theme: Επιλέξτε Θέμα
 Selected theme is saved and applied on restart.: Το επιλεγμένο θέμα αποθηκεύεται και εφαρμόζεται κατά την επανεκκίνηση.
 Send: Στέλνω

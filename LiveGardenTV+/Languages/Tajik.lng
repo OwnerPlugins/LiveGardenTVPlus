@@ -28,6 +28,7 @@ Add Mapping: Илова кардани Харитасозӣ
 Adjust buffer size (1-10 seconds): Андозаи буферро танзим кунед (1-10 сония)
 Advanced IDs: ID-ҳои пешрафта
 Application status: Ҳолати ариза
+Apply: Муроҷиат кунед
 Apply changes: Тағиротро татбиқ кунед
 Apply Filters: Филтрҳоро татбиқ кунед
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Оё мутмаин ҳастед, ки мехоҳед GUI-и Enigma2-ро аз нав бор кунед?\n\nИнтерфейс аз нав оғоз мешавад (экрани сиёҳ барои чанд сония).
@@ -54,6 +55,7 @@ channels from URL: каналҳо аз URL
 Check Duplicates: Дубликатҳоро тафтиш кунед
 Check for updates: Барои навсозиҳо санҷед
 Check URLs: URL-ҳоро санҷед
+Clear: Тоза
 Clear EPG Cache: Кэши EPG-ро тоза кунед
 Clear Filters: Филтрҳоро тоза кунед
 Clear search: Ҷустуҷӯро тоза кунед
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Муқоиса кунед...
 Comparison results: {0} channels: Натиҷаҳои муқоиса: {0} канал
 Configuration Missing: Конфигуратсия нест
+Confirm Delete: Нест карданро тасдиқ кунед
 Confirm Reload: Боркунии дубораро тасдиқ кунед
 Connect: Пайваст кунед
 Connected: пайваст
+Copied: Нусхабардорӣ
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: кишвар
 Credits: Қарзҳо
+Delete channel '{0}'?: Канали "{0}" нест карда шавад?
 Delete Group: Гурӯҳро нест кунед
 Delete Selected: Нест кардани интихобшуда
+Deleted: Нобуд
 Description: Тавсифи
 Details: Тафсилот
 Developed by Lululla: Аз ҷониби Лулулла таҳия шудааст
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: URL-и рӯйхати навозишро во
 Enter playlist URL (M3U or JSON):: URL-и рӯйхати навозишро ворид кунед (M3U ё JSON):
 EPG: EPG
 Epg & Favorites: Epg ва дӯстдоштаҳо
+EPG & Favorites: EPG ва дӯстдоштаҳо
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG ва логоҳо
 EPG cache cleared successfully.: Кэши EPG бомуваффақият тоза карда шуд.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Хатогӣ ҳангоми тоза кардани �
 Error loading: Хатогӣ дар боркунӣ
 Error loading EPG list: {0}: Хатогӣ ҳангоми боркунии рӯйхати EPG: {0}
 Error loading file: {0}: Хатогии боркунии файл: {0}
-Error loading file: {0}: Хатогии боркунии файл: {0}
 Error loading playlists: {0}: Хатогӣ ҳангоми боркунии рӯйхати навозиш: {0}
-Error loading URL: {0}: Хатогии боркунии URL: {0}
 Error loading URL: {0}: Хатогии боркунии URL: {0}
 ERROR: player.html not found.: ХАТО: player.html ёфт нашуд.
 Exit: Баромадгоҳ
-Export: Содирот
 Export all: Ҳамаашро содир кунед
 Export Favorites: Содироти мунтахаб
 Export Filtered JSON: JSON-и филтршудаи содирот
@@ -136,7 +140,9 @@ Export missing: Содирот нест
 Export OK: Содирот Хуб
 Export only favorite channels to a new M3U file: Танҳо каналҳои дӯстдоштаро ба файли нави M3U содир кунед
 Export results as JSON or M3U – export missing channels or all channels.: Натиҷаҳоро ҳамчун JSON ё M3U содир кунед - каналҳои гумшуда ё ҳама каналҳоро содир кунед.
-Exported channels: Каналҳои содиротӣ
+Export selected: Содирот интихобшуда
+Exported: содирот
+Exported {0} channels to {1}: {0} канал ба {1} содир карда шуд
 Extracting update...: Истихроҷи навсозӣ...
 Failed to download playlist: Рӯйхати навозишро зеркашӣ карда натавонист
 Failed to load playlist: Рӯйхати навозишро бор карда натавонист
@@ -148,7 +154,6 @@ Fetch Logos: Логотипҳоро гиред
 File {0} already exists. Overwrite?: Файли {0} аллакай вуҷуд дорад. Аз нав навиштан?
 File exists: Файл вуҷуд дорад
 Filters: Филтрҳо
-First playlist: {0} channels loaded.: Аввалин рӯйхати навозиш: {0} канал бор карда шудааст.
 Fullscreen (hide UI) - press ESC to exit: Экрани пурра (пинҳон кардани UI) - барои баромадан ESC -ро пахш кунед
 Geo & Country: Гео ва кишвар
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON нодуруст: {0}
 Invalid playlist URL.: URL-и рӯйхати навозиш нодуруст.
 Invalid URL.: URL нодуруст.
 Json: Ҷсон
-JSON files|*.json|M3U files|*.m3u: файлҳои JSON|*.json|файлҳои M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Файлҳои JSON|*.json|Файлҳои M3U|*.m3u;*.m3u8|Ҳама файлҳо|*.*
 JSON Property: Амволи JSON
 Ko-fi: Қаҳва
 Language: Забон
@@ -215,6 +218,8 @@ Logos Subfolder: Зерпапкаи Logos
 Map JSON properties to channel fields:: Харитаи хосиятҳои JSON ба майдонҳои канал:
 Mapping saved for future imports of this file.: Харитасозӣ барои воридоти ояндаи ин файл захира карда шудааст.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Ҳадди мувофиқ - ҳассосияти номуайяни мувофиқро барои EPG ва логотипҳо муқаррар кунед.
+Move to Group: Гузариш ба гурӯҳ
+Moved: кӯчонида шуд
 Name: Ном
 Nanoid: Наноид
 Network error: Хатогии шабака
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Аз URL-и M3U ягон канал бор к�
 No channels loaded from M3U.: Аз M3U ягон канал бор карда нашудааст.
 No channels loaded.: Ягон канал бор карда нашудааст.
 No channels mapped: Ягон канал харита нашудааст
-No comparison results. Run Compare first.: Натоиҷи муқоиса. Аввал Муқоисаро иҷро кунед.
+No channels selected.: Ягон канал интихоб нашудааст.
 No duplicate URLs found.: Ягон URL-и такрорӣ ёфт нашуд.
 No EPG data: Маълумоти EPG нест
 No EPG information available for this channel.: Маълумоти EPG барои ин канал дастрас нест.
@@ -263,7 +268,6 @@ Playlist Editor: Муҳаррири рӯйхати навозиш
 Playlist Loading: Боркунии рӯйхати навозиш
 Playlist Management: Идоракунии рӯйхати навозиш
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Анбори рӯйхати навозиш: OwnerPlugins/TivuStreamList (Ҷараёнҳои итолиёвӣ ва байналмилалӣ)
-Playlists loaded: Рӯйхатҳои навозиш бор карда шуданд
 Please select a program first.: Лутфан аввал барномаеро интихоб кунед.
 Preview (first 5 channels): Пешнамоиш (5 канали аввал)
 Preview error: {0}: Хатои пешнамоиш: {0}
@@ -296,7 +300,9 @@ Search channel: : Ҷустуҷӯи канал:
 Search channels by name: Ҷустуҷӯи каналҳо аз рӯи ном
 Search channels...: Ҷустуҷӯи каналҳо...
 sec: сек
+Second playlist loaded: {0} channels: Рӯйхати дуюми навозиш бор карда шуд: {0} канал
 Select a playlist first.: Аввал рӯйхати навозишро интихоб кунед.
+Select target group:: Интихоби гурӯҳи мақсаднок:
 Select Theme: Мавзӯъро интихоб кунед
 Selected theme is saved and applied on restart.: Мавзӯи интихобшуда захира карда мешавад ва ҳангоми бозоғозӣ истифода мешавад.
 Send: Ирсол

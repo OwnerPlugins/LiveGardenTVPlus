@@ -28,6 +28,7 @@ Add Mapping: Afegeix mapeig
 Adjust buffer size (1-10 seconds): Ajusteu la mida de la memòria intermèdia (1-10 segons)
 Advanced IDs: Identificadors avançats
 Application status: Estat de la sol·licitud
+Apply: Aplicar
 Apply changes: Aplicar canvis
 Apply Filters: Aplicar filtres
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Esteu segur que voleu tornar a carregar la GUI d'Enigma2?\n\nLa interfície es reiniciarà (pantalla negra durant uns segons).
@@ -54,6 +55,7 @@ channels from URL: canals des de l'URL
 Check Duplicates: Comproveu els duplicats
 Check for updates: Comproveu si hi ha actualitzacions
 Check URLs: Comproveu els URL
+Clear: Clar
 Clear EPG Cache: Esborra la memòria cau EPG
 Clear Filters: Esborra els filtres
 Clear search: Esborra la cerca
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Compara...
 Comparison results: {0} channels: Resultats de la comparació: {0} canals
 Configuration Missing: Falta la configuració
+Confirm Delete: Confirmeu la supressió
 Confirm Reload: Confirmeu la tornada a carregar
 Connect: Connecta't
 Connected: Connectat
+Copied: Copiat
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: País
 Credits: Crèdits
+Delete channel '{0}'?: Vols suprimir el canal "{0}"?
 Delete Group: Suprimeix el grup
 Delete Selected: Suprimeix el seleccionat
+Deleted: S'ha suprimit
 Description: Descripció
 Details: Detalls
 Developed by Lululla: Desenvolupat per Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Introduïu l'URL de la llista de reproducció
 Enter playlist URL (M3U or JSON):: Introduïu l'URL de la llista de reproducció (M3U o JSON):
 EPG: EPG
 Epg & Favorites: Epg i Preferits
+EPG & Favorites: EPG i Preferits
 Epg & Logos: Epg i logotips
 EPG & Logos: EPG i logotips
 EPG cache cleared successfully.: La memòria cau EPG s'ha esborrat correctament.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Error en esborrar la memòria cau: {0}
 Error loading: Error en carregar
 Error loading EPG list: {0}: Error en carregar la llista EPG: {0}
 Error loading file: {0}: Error en carregar el fitxer: {0}
-Error loading file: {0}: Error en carregar el fitxer: {0}
 Error loading playlists: {0}: Error en carregar les llistes de reproducció: {0}
-Error loading URL: {0}: Error en carregar l'URL: {0}
 Error loading URL: {0}: Error en carregar l'URL: {0}
 ERROR: player.html not found.: ERROR: player.html no s'ha trobat.
 Exit: Sortida
-Export: Exporta
 Export all: Exportar-ho tot
 Export Favorites: Exporta els preferits
 Export Filtered JSON: Exporta JSON filtrat
@@ -136,7 +140,9 @@ Export missing: Falta l'exportació
 Export OK: Exporta bé
 Export only favorite channels to a new M3U file: Exporteu només els canals preferits a un fitxer M3U nou
 Export results as JSON or M3U – export missing channels or all channels.: Exporta els resultats com a JSON o M3U: exporta els canals que falten o tots els canals.
-Exported channels: Canals exportats
+Export selected: Exportació seleccionada
+Exported: Exportat
+Exported {0} channels to {1}: S'han exportat {0} canals a {1}
 Extracting update...: S'està extraient l'actualització...
 Failed to download playlist: No s'ha pogut baixar la llista de reproducció
 Failed to load playlist: No s'ha pogut carregar la llista de reproducció
@@ -148,7 +154,6 @@ Fetch Logos: Recupera logotips
 File {0} already exists. Overwrite?: El fitxer {0} ja existeix. Sobreescriure?
 File exists: El fitxer existeix
 Filters: Filtres
-First playlist: {0} channels loaded.: Primera llista de reproducció: {0} canals carregats.
 Fullscreen (hide UI) - press ESC to exit: Pantalla completa (amaga la IU): premeu ESC per sortir
 Geo & Country: Geo i país
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON no vàlid: {0}
 Invalid playlist URL.: L'URL de la llista de reproducció no és vàlid.
 Invalid URL.: URL no vàlid.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: Fitxers JSON|*.json|Fitxers M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Fitxers JSON|*.json|Fitxers M3U|*.m3u;*.m3u8|Tots els fitxers|*.*
 JSON Property: Propietat JSON
 Ko-fi: Cafè
 Language: Llengua
@@ -215,6 +218,8 @@ Logos Subfolder: Subcarpeta de logotips
 Map JSON properties to channel fields:: Assigna propietats JSON als camps del canal:
 Mapping saved for future imports of this file.: Mapatge desat per a futures importacions d'aquest fitxer.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Llindars coincidents: configureu la sensibilitat de coincidència difusa per a EPG i logotips.
+Move to Group: Mou al grup
+Moved: Mogut
 Name: Nom
 Nanoid: Nanoide
 Network error: Error de xarxa
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: No s'ha carregat cap canal des de l'URL M3U.
 No channels loaded from M3U.: No s'ha carregat cap canal des de M3U.
 No channels loaded.: No s'ha carregat cap canal.
 No channels mapped: No s'ha assignat cap canal
-No comparison results. Run Compare first.: No hi ha resultats de comparació. Executeu Comparar primer.
+No channels selected.: No s'ha seleccionat cap canal.
 No duplicate URLs found.: No s'han trobat URL duplicats.
 No EPG data: No hi ha dades EPG
 No EPG information available for this channel.: No hi ha informació d'EPG disponible per a aquest canal.
@@ -263,7 +268,6 @@ Playlist Editor: Editor de llistes de reproducció
 Playlist Loading: S'està carregant la llista de reproducció
 Playlist Management: Gestió de llistes de reproducció
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repositori de llistes de reproducció: OwnerPlugins/TivuStreamList (streams italians i internacionals)
-Playlists loaded: S'han carregat les llistes de reproducció
 Please select a program first.: Seleccioneu primer un programa.
 Preview (first 5 channels): Vista prèvia (5 primers canals)
 Preview error: {0}: Error de previsualització: {0}
@@ -296,7 +300,9 @@ Search channel: : Cerca canal:
 Search channels by name: Cerca canals per nom
 Search channels...: Cerca canals...
 sec: sec
+Second playlist loaded: {0} channels: Segona llista de reproducció carregada: {0} canals
 Select a playlist first.: Seleccioneu primer una llista de reproducció.
+Select target group:: Seleccioneu el grup objectiu:
 Select Theme: Seleccioneu el tema
 Selected theme is saved and applied on restart.: El tema seleccionat es desa i s'aplica en reiniciar.
 Send: Enviar

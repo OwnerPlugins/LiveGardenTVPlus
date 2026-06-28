@@ -28,6 +28,7 @@ Add Mapping: Lägg till mappning
 Adjust buffer size (1-10 seconds): Justera buffertstorleken (1-10 sekunder)
 Advanced IDs: Avancerade ID:n
 Application status: Ansökningsstatus
+Apply: Tillämpas
 Apply changes: Tillämpa ändringar
 Apply Filters: Använd filter
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Är du säker på att du vill ladda om Enigma2 GUI?\n\nGränssnittet kommer att starta om (svart skärm i några sekunder).
@@ -54,6 +55,7 @@ channels from URL: kanaler från URL
 Check Duplicates: Kontrollera dubbletter
 Check for updates: Sök efter uppdateringar
 Check URLs: Kontrollera webbadresser
+Clear: Rensa
 Clear EPG Cache: Rensa EPG-cache
 Clear Filters: Rensa filter
 Clear search: Rensa sökning
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Jämföra...
 Comparison results: {0} channels: Jämförelseresultat: {0} kanaler
 Configuration Missing: Konfiguration saknas
+Confirm Delete: Bekräfta radering
 Confirm Reload: Bekräfta omladdning
 Connect: Ansluta
 Connected: Ansluten
+Copied: Kopierade
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Land
 Credits: Krediter
+Delete channel '{0}'?: Vill du ta bort kanalen '{0}'?
 Delete Group: Ta bort grupp
 Delete Selected: Ta bort markerade
+Deleted: Raderad
 Description: Beskrivning
 Details: Detaljer
 Developed by Lululla: Utvecklad av Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Ange spellistans URL (JSON eller M3U):
 Enter playlist URL (M3U or JSON):: Ange spellistans URL (M3U eller JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favoriter
+EPG & Favorites: EPG och favoriter
 Epg & Logos: Epg & logotyper
 EPG & Logos: EPG och logotyper
 EPG cache cleared successfully.: EPG-cachen rensades.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Det gick inte att rensa cacheminnet: {0}
 Error loading: Fel vid laddning
 Error loading EPG list: {0}: Det gick inte att läsa in EPG-listan: {0}
 Error loading file: {0}: Det gick inte att läsa in filen: {0}
-Error loading file: {0}: Det gick inte att läsa in filen: {0}
 Error loading playlists: {0}: Det gick inte att läsa in spellistor: {0}
-Error loading URL: {0}: Det gick inte att läsa in webbadressen: {0}
 Error loading URL: {0}: Det gick inte att läsa in webbadressen: {0}
 ERROR: player.html not found.: FEL: player.html hittades inte.
 Exit: Utgång
-Export: Exportera
 Export all: Exportera allt
 Export Favorites: Exportera favoriter
 Export Filtered JSON: Exportera filtrerad JSON
@@ -136,7 +140,9 @@ Export missing: Export saknas
 Export OK: Exportera OK
 Export only favorite channels to a new M3U file: Exportera endast favoritkanaler till en ny M3U-fil
 Export results as JSON or M3U – export missing channels or all channels.: Exportera resultat som JSON eller M3U – exportera saknade kanaler eller alla kanaler.
-Exported channels: Exporterade kanaler
+Export selected: Exportera valt
+Exported: Exporterad
+Exported {0} channels to {1}: Exporterade {0} kanaler till {1}
 Extracting update...: Extraherar uppdatering...
 Failed to download playlist: Det gick inte att ladda ner spellistan
 Failed to load playlist: Det gick inte att läsa in spellistan
@@ -148,7 +154,6 @@ Fetch Logos: Hämta logotyper
 File {0} already exists. Overwrite?: Filen {0} finns redan. Skriva över?
 File exists: Filen finns
 Filters: Filter
-First playlist: {0} channels loaded.: Första spellistan: {0} kanaler laddade.
 Fullscreen (hide UI) - press ESC to exit: Helskärm (dölj UI) - tryck på ESC för att avsluta
 Geo & Country: Geo & Country
 GeoBlocked: Geoblockerad
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Ogiltig JSON: {0}
 Invalid playlist URL.: Ogiltig webbadress för spellistan.
 Invalid URL.: Ogiltig webbadress.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON-filer|*.json|M3U-filer|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON-filer|*.json|M3U-filer|*.m3u;*.m3u8|Alla filer|*.*
 JSON Property: JSON-egendom
 Ko-fi: Kaffe
 Language: Språk
@@ -215,6 +218,8 @@ Logos Subfolder: Logotyper undermapp
 Map JSON properties to channel fields:: Mappa JSON-egenskaper till kanalfält:
 Mapping saved for future imports of this file.: Mappningen har sparats för framtida importer av den här filen.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Matchande trösklar – ställ in otydlig matchningskänslighet för EPG och logotyper.
+Move to Group: Flytta till grupp
+Moved: Rörd
 Name: Namn
 Nanoid: Nanoid
 Network error: Nätverksfel
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Inga kanaler laddade från M3U URL.
 No channels loaded from M3U.: Inga kanaler laddade från M3U.
 No channels loaded.: Inga kanaler laddade.
 No channels mapped: Inga kanaler mappade
-No comparison results. Run Compare first.: Inga jämförelseresultat. Kör Compare först.
+No channels selected.: Inga kanaler har valts.
 No duplicate URLs found.: Inga dubbletter av webbadresser hittades.
 No EPG data: Inga EPG-data
 No EPG information available for this channel.: Ingen EPG-information tillgänglig för den här kanalen.
@@ -263,7 +268,6 @@ Playlist Editor: Spellista Editor
 Playlist Loading: Spellista laddas
 Playlist Management: Hantering av spellistor
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Spellistförråd: OwnerPlugins/TivuStreamList (italienska och internationella strömmar)
-Playlists loaded: Spellistor har laddats
 Please select a program first.: Välj ett program först.
 Preview (first 5 channels): Förhandsvisning (första 5 kanaler)
 Preview error: {0}: Förhandsgranskningsfel: {0}
@@ -296,7 +300,9 @@ Search channel: : Sök kanal:
 Search channels by name: Sök kanaler efter namn
 Search channels...: Sök kanaler...
 sec: sek
+Second playlist loaded: {0} channels: Andra spellistan laddad: {0} kanaler
 Select a playlist first.: Välj en spellista först.
+Select target group:: Välj målgrupp:
 Select Theme: Välj Tema
 Selected theme is saved and applied on restart.: Det valda temat sparas och tillämpas vid omstart.
 Send: Skicka

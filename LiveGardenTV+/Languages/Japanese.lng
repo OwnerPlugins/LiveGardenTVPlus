@@ -28,6 +28,7 @@ Add Mapping: マッピングの追加
 Adjust buffer size (1-10 seconds): バッファサイズを調整します (1 ～ 10 秒)
 Advanced IDs: アドバンスト ID
 Application status: 申請状況
+Apply: 適用する
 Apply changes: 変更を適用する
 Apply Filters: フィルターを適用する
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI をリロードしてもよろしいですか?\n\nインターフェイスが再起動します (数秒間の黒い画面)。
@@ -54,6 +55,7 @@ channels from URL: URLからのチャンネル
 Check Duplicates: 重複のチェック
 Check for updates: アップデートを確認する
 Check URLs: URLを確認する
+Clear: クリア
 Clear EPG Cache: EPG キャッシュのクリア
 Clear Filters: フィルターをクリアする
 Clear search: 検索をクリア
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: 比較する...
 Comparison results: {0} channels: 比較結果: {0} チャンネル
 Configuration Missing: 構成がありません
+Confirm Delete: 削除の確認
 Confirm Reload: リロードの確認
 Connect: 接続する
 Connected: 接続済み
+Copied: コピーされました
 CORVOBOYS.ORG: コルボボーイズ.ORG
 Country: 国
 Credits: クレジット
+Delete channel '{0}'?: チャンネル「{0}」を削除しますか?
 Delete Group: グループの削除
 Delete Selected: 選択したものを削除
+Deleted: 削除されました
 Description: 説明
 Details: 詳細
 Developed by Lululla: ルルラが開発した
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: プレイリスト URL (JSON または M3U) �
 Enter playlist URL (M3U or JSON):: プレイリスト URL (M3U または JSON) を入力してください:
 EPG: EPG
 Epg & Favorites: EPG とお気に入り
+EPG & Favorites: EPG とお気に入り
 Epg & Logos: EPG とロゴ
 EPG & Logos: EPG とロゴ
 EPG cache cleared successfully.: EPG キャッシュが正常にクリアされました。
@@ -119,13 +126,10 @@ Error clearing cache: {0}: キャッシュのクリア中にエラーが発生�
 Error loading: 読み込みエラー
 Error loading EPG list: {0}: EPG リストの読み込みエラー: {0}
 Error loading file: {0}: ファイルの読み込みエラー: {0}
-Error loading file: {0}: ファイルの読み込みエラー: {0}
 Error loading playlists: {0}: プレイリストの読み込みエラー: {0}
-Error loading URL: {0}: URL の読み込みエラー: {0}
 Error loading URL: {0}: URL の読み込みエラー: {0}
 ERROR: player.html not found.: エラー: player.html が見つかりません。
 Exit: 出口
-Export: 輸出
 Export all: すべてエクスポート
 Export Favorites: お気に入りをエクスポート
 Export Filtered JSON: フィルタリングされた JSON をエクスポートする
@@ -136,7 +140,9 @@ Export missing: エクスポートがありません
 Export OK: エクスポートOK
 Export only favorite channels to a new M3U file: お気に入りのチャンネルのみを新しい M3U ファイルにエクスポート
 Export results as JSON or M3U – export missing channels or all channels.: 結果を JSON または M3U としてエクスポート – 欠落しているチャネルまたはすべてのチャネルをエクスポートします。
-Exported channels: エクスポートされたチャンネル
+Export selected: 選択したエクスポート
+Exported: 輸出済み
+Exported {0} channels to {1}: {0} チャンネルを {1} にエクスポートしました
 Extracting update...: アップデートを抽出しています...
 Failed to download playlist: プレイリストのダウンロードに失敗しました
 Failed to load playlist: プレイリストの読み込みに失敗しました
@@ -148,7 +154,6 @@ Fetch Logos: ロゴを取得する
 File {0} already exists. Overwrite?: ファイル {0} はすでに存在します。上書きしますか?
 File exists: ファイルが存在します
 Filters: フィルター
-First playlist: {0} channels loaded.: 最初のプレイリスト: {0} チャンネルが読み込まれました。
 Fullscreen (hide UI) - press ESC to exit: 全画面表示 (UI を非表示) - ESC キーを押して終了します
 Geo & Country: 地域と国
 GeoBlocked: 地理的にブロックされています
@@ -176,8 +181,6 @@ Invalid JSON: {0}: 無効な JSON: {0}
 Invalid playlist URL.: プレイリストの URL が無効です。
 Invalid URL.: URLが無効です。
 Json: ジソン
-JSON files|*.json|M3U files|*.m3u: JSON ファイル|*.json|M3U ファイル|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON ファイル|*.json|M3U ファイル|*.m3u;*.m3u8|すべてのファイル|*.*
 JSON Property: JSON プロパティ
 Ko-fi: コーヒー
 Language: 言語
@@ -215,6 +218,8 @@ Logos Subfolder: ロゴサブフォルダー
 Map JSON properties to channel fields:: JSON プロパティをチャネル フィールドにマップします。
 Mapping saved for future imports of this file.: このファイルを今後インポートするためにマッピングが保存されました。
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: 一致のしきい値 – EPG とロゴのあいまい一致の感度を設定します。
+Move to Group: グループに移動
+Moved: 移転しました
 Name: 名前
 Nanoid: ナノイド
 Network error: ネットワークエラー
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: M3U URL からロードされたチャンネ�
 No channels loaded from M3U.: M3U からロードされたチャンネルはありません。
 No channels loaded.: チャンネルがロードされていません。
 No channels mapped: チャンネルがマッピングされていません
-No comparison results. Run Compare first.: 比較結果はありません。まず比較を実行します。
+No channels selected.: チャンネルが選択されていません。
 No duplicate URLs found.: 重複する URL は見つかりませんでした。
 No EPG data: EPGデータがありません
 No EPG information available for this channel.: このチャンネルには EPG 情報がありません。
@@ -263,7 +268,6 @@ Playlist Editor: プレイリストエディター
 Playlist Loading: プレイリストの読み込み
 Playlist Management: プレイリスト管理
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): プレイリスト リポジトリ: OwnerPlugins/TivuStreamList (イタリアおよび国際ストリーム)
-Playlists loaded: プレイリストがロードされました
 Please select a program first.: 最初にプログラムを選択してください。
 Preview (first 5 channels): プレビュー (最初の 5 チャンネル)
 Preview error: {0}: プレビュー エラー: {0}
@@ -296,7 +300,9 @@ Search channel: : 検索チャンネル:
 Search channels by name: チャンネルを名前で検索する
 Search channels...: チャンネルを検索...
 sec: 秒
+Second playlist loaded: {0} channels: 2 番目にロードされたプレイリスト: {0} チャンネル
 Select a playlist first.: 最初にプレイリストを選択します。
+Select target group:: ターゲットグループを選択してください:
 Select Theme: テーマの選択
 Selected theme is saved and applied on restart.: 選択したテーマは保存され、再起動時に適用されます。
 Send: 送信

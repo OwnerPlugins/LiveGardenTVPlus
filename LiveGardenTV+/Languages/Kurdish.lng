@@ -28,6 +28,7 @@ Add Mapping: Nexşeyê zêde bikin
 Adjust buffer size (1-10 seconds): Mezinahiya tamponê eyar bikin (1-10 çirke)
 Advanced IDs: Nasnameyên pêşketî
 Application status: Rewşa serîlêdanê
+Apply: Bikaranîn
 Apply changes: Guhertinan bicîh bikin
 Apply Filters: Parzûnan sepînin
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ma hûn pê bawer in ku hûn dixwazin GUI-ya Enigma2 ji nû ve bar bikin?\n\nNavber dê ji nû ve dest pê bike (ji bo çend saniyan ekrana reş).
@@ -54,6 +55,7 @@ channels from URL: kanalên ji URL
 Check Duplicates: Duplicates kontrol bikin
 Check for updates: Ji bo nûvekirinan kontrol bikin
 Check URLs: URLan kontrol bikin
+Clear: Zelal
 Clear EPG Cache: EPG Cache paqij bikin
 Clear Filters: Parzûnên Paqij bikin
 Clear search: Lêgerînê paqij bike
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Mûqayesekirin...
 Comparison results: {0} channels: Encamên berhevdanê: {0} kanal
 Configuration Missing: Configuration Missing
+Confirm Delete: Delete piştrast bike
 Confirm Reload: Ji nûve barkirinê piştrast bikin
 Connect: Bihevgirêdan
 Connected: Girêdayî
+Copied: Kopî kirin
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Welat
 Credits: Credits
+Delete channel '{0}'?: Kanala '{0}' jê bibe?
 Delete Group: Komê jêbirin
 Delete Selected: Hilbijartî jêbirin
+Deleted: Jêbirin
 Description: Terîf
 Details: Details
 Developed by Lululla: Ji hêla Lululla ve hatî pêşve xistin
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: URL lîsteya lîstikê binivîse (JSON an M3U
 Enter playlist URL (M3U or JSON):: URL-ya lîsteya lîstikê binivîse (M3U an JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favorites
+EPG & Favorites: EPG & Favorites
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
 EPG cache cleared successfully.: Cache EPG bi serkeftî hate paqij kirin.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Çewtiya paqijkirina cache: {0}
 Error loading: Di barkirinê de çewtî
 Error loading EPG list: {0}: Di barkirina lîsteya EPG de çewtî: {0}
 Error loading file: {0}: Di barkirina pelê de çewtî: {0}
-Error loading file: {0}: Di barkirina pelê de çewtî: {0}
 Error loading playlists: {0}: Di barkirina lîsteyên lîstikê de çewtî: {0}
-Error loading URL: {0}: Di barkirina URL de çewtî: {0}
 Error loading URL: {0}: Di barkirina URL de çewtî: {0}
 ERROR: player.html not found.: ÇEWT: player.html nehat dîtin.
 Exit: Derî
-Export: Eksport
 Export all: Hemî hinarde bike
 Export Favorites: Export Favorites
 Export Filtered JSON: JSON Parzûnkirî derxînin
@@ -136,7 +140,9 @@ Export missing: Export wenda
 Export OK: Export OK
 Export only favorite channels to a new M3U file: Tenê kanalên bijare ji pelek nû ya M3U re derxînin
 Export results as JSON or M3U – export missing channels or all channels.: Encamên wekî JSON an M3U derxînin - kanalên winda an hemî kanalan derxînin.
-Exported channels: kanalên derhanîn
+Export selected: Export hilbijartî
+Exported: Export kirin
+Exported {0} channels to {1}: {0} kanal bo {1} hatin hinartin
 Extracting update...: Derxistina nûvekirinê...
 Failed to download playlist: Daxistina lîsteya lîstikê bi ser neket
 Failed to load playlist: Barkirina lîsteya lîstikê bi ser neket
@@ -148,7 +154,6 @@ Fetch Logos: Logoyan bistînin
 File {0} already exists. Overwrite?: Pela {0} jixwe heye. Zêde binivîsin?
 File exists: Pelê heye
 Filters: Parzûnên
-First playlist: {0} channels loaded.: Lîsteya yekem a lîstikê: {0} kanal hatin barkirin.
 Fullscreen (hide UI) - press ESC to exit: Fullscreen (UI veşêre) - ESC bikirtînin da ku derkevin
 Geo & Country: Erdnîgarî & Welat
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON nederbasdar: {0}
 Invalid playlist URL.: URL lîsteya lîstikê nederbasdar e.
 Invalid URL.: URL nederbasdar.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: Pelên JSON|*.json|Pelên M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Pelên JSON|*.json|Pelên M3U|*.m3u;*.m3u8|Hemû pel|*.*
 JSON Property: Taybetmendiya JSON
 Ko-fi: Qehwe
 Language: Ziman
@@ -215,6 +218,8 @@ Logos Subfolder: Logos Subfolder
 Map JSON properties to channel fields:: Nexşeya taybetmendiyên JSON li qadên kanalê:
 Mapping saved for future imports of this file.: Nexşe ji bo îthalata pêşerojê ya vê pelê hate tomarkirin.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Bendavên hevberdanê - ji bo EPG û logoyan hesasiyeta maça fuzzy saz bikin.
+Move to Group: Biçe Koma
+Moved: Moved
 Name: Nav
 Nanoid: Nanoid
 Network error: Çewtiya torê
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Tu kanalên ji URL-ya M3U nehatine barkirin.
 No channels loaded from M3U.: Tu kanalên ji M3U barkirin.
 No channels loaded.: Tu kanal nehat barkirin.
 No channels mapped: Tu kanalên nexşeyê ne
-No comparison results. Run Compare first.: Encamên berhevdanê tune. Pêşî Berawird bikin.
+No channels selected.: Tu kanal nehat hilbijartin.
 No duplicate URLs found.: URLên dubare nehatin dîtin.
 No EPG data: Daneyên EPG tune
 No EPG information available for this channel.: Ji bo vê kanalê agahdariya EPG tune.
@@ -263,7 +268,6 @@ Playlist Editor: Edîtorê lîsteya lîstikê
 Playlist Loading: Lîsteya lîstikê tê barkirin
 Playlist Management: Rêvebiriya Lîsteya Lîstinê
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Depoya lîsteya lîstikê: OwnerPlugins/TivuStreamList (navçeyên Îtalî û navneteweyî)
-Playlists loaded: Lîsteyên lîstikê hatin barkirin
 Please select a program first.: Ji kerema xwe pêşî bernameyek hilbijêrin.
 Preview (first 5 channels): Pêşdîtin (5 kanalên yekem)
 Preview error: {0}: Çewtiya pêşdîtinê: {0}
@@ -296,7 +300,9 @@ Search channel: : Kanala lêgerînê:
 Search channels by name: Li kanalan bi navê xwe bigerin
 Search channels...: Li kanalan bigerin...
 sec: sec
+Second playlist loaded: {0} channels: Lîsteya lîstika duyemîn hat barkirin: {0} kanal
 Select a playlist first.: Pêşî lîsteya lîstikê hilbijêre.
+Select target group:: Koma hedef hilbijêrin:
 Select Theme: Mijar Hilbijêre
 Selected theme is saved and applied on restart.: Mijara hilbijartî tê hilanîn û di destpêkirina nû de tê sepandin.
 Send: Şandin

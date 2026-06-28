@@ -28,6 +28,7 @@ Add Mapping: Xarita qo'shish
 Adjust buffer size (1-10 seconds): Bufer hajmini sozlash (1-10 soniya)
 Advanced IDs: Kengaytirilgan identifikatorlar
 Application status: Ilova holati
+Apply: Murojaat qiling
 Apply changes: O'zgarishlarni qo'llash
 Apply Filters: Filtrlarni qo'llash
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Haqiqatan ham Enigma2 GUI-ni qayta yuklamoqchimisiz?\n\nInterfeys qayta ishga tushadi (bir necha soniya qora ekran).
@@ -54,6 +55,7 @@ channels from URL: URL dan kanallar
 Check Duplicates: Dublikatlarni tekshiring
 Check for updates: Yangilanishlarni tekshiring
 Check URLs: URL manzillarini tekshiring
+Clear: Toza
 Clear EPG Cache: EPG keshini tozalang
 Clear Filters: Filtrlarni tozalash
 Clear search: Qidiruvni tozalash
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Taqqoslash...
 Comparison results: {0} channels: Taqqoslash natijalari: {0} ta kanal
 Configuration Missing: Konfiguratsiya yoʻq
+Confirm Delete: Oʻchirishni tasdiqlang
 Confirm Reload: Qayta yuklashni tasdiqlang
 Connect: Ulanish
 Connected: Ulangan
+Copied: Ko‘chirildi
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Mamlakat
 Credits: Kreditlar
+Delete channel '{0}'?: “{0}” kanali oʻchirilsinmi?
 Delete Group: Guruhni o'chirish
 Delete Selected: Tanlanganni o'chirish
+Deleted: Oʻchirildi
 Description: Tavsif
 Details: Tafsilotlar
 Developed by Lululla: Lululla tomonidan ishlab chiqilgan
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Pleylist URL manzilini kiriting (JSON yoki M3
 Enter playlist URL (M3U or JSON):: Pleylist URL manzilini kiriting (M3U yoki JSON):
 EPG: EPG
 Epg & Favorites: Epg va Sevimlilar
+EPG & Favorites: EPG va Sevimlilar
 Epg & Logos: Epg va logotiplar
 EPG & Logos: EPG va logotiplar
 EPG cache cleared successfully.: EPG keshi muvaffaqiyatli tozalandi.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Keshni tozalashda xatolik yuz berdi: {0}
 Error loading: Yuklashda xato
 Error loading EPG list: {0}: EPG roʻyxatini yuklashda xatolik yuz berdi: {0}
 Error loading file: {0}: Faylni yuklashda xatolik: {0}
-Error loading file: {0}: Faylni yuklashda xatolik: {0}
 Error loading playlists: {0}: Pleylistlarni yuklashda xatolik: {0}
-Error loading URL: {0}: URLni yuklashda xatolik yuz berdi: {0}
 Error loading URL: {0}: URLni yuklashda xatolik yuz berdi: {0}
 ERROR: player.html not found.: XATO: player.html topilmadi.
 Exit: Chiqish
-Export: Eksport
 Export all: Hammasini eksport qiling
 Export Favorites: Sevimlilarni eksport qilish
 Export Filtered JSON: Filtrlangan JSONni eksport qiling
@@ -136,7 +140,9 @@ Export missing: Eksport etishmayapti
 Export OK: Eksport OK
 Export only favorite channels to a new M3U file: Yangi M3U fayliga faqat sevimli kanallarni eksport qiling
 Export results as JSON or M3U – export missing channels or all channels.: Natijalarni JSON yoki M3U sifatida eksport qiling - etishmayotgan kanallarni yoki barcha kanallarni eksport qiling.
-Exported channels: Eksport qilingan kanallar
+Export selected: Eksport tanlangan
+Exported: Eksport qilingan
+Exported {0} channels to {1}: {0} ta kanal {1} ​​ga eksport qilindi
 Extracting update...: Yangilanish chiqarilmoqda...
 Failed to download playlist: Pleylist yuklab olinmadi
 Failed to load playlist: Pleylist yuklanmadi
@@ -148,7 +154,6 @@ Fetch Logos: Logotiplarni olish
 File {0} already exists. Overwrite?: {0} fayli allaqachon mavjud. Ustiga yozilsinmi?
 File exists: Fayl mavjud
 Filters: Filtrlar
-First playlist: {0} channels loaded.: Birinchi pleylist: {0} ta kanal yuklandi.
 Fullscreen (hide UI) - press ESC to exit: To'liq ekran (UI yashirish) - chiqish uchun ESC tugmasini bosing
 Geo & Country: Geo & Country
 GeoBlocked: Geoblocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Yaroqsiz JSON: {0}
 Invalid playlist URL.: Yaroqsiz pleylist URL.
 Invalid URL.: URL noto‘g‘ri.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON fayllar|*.json|M3U fayllar|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON fayllar|*.json|M3U fayllar|*.m3u;*.m3u8|Barcha fayllar|*.*
 JSON Property: JSON mulki
 Ko-fi: Kofe
 Language: Til
@@ -215,6 +218,8 @@ Logos Subfolder: Logotiplar pastki papkasi
 Map JSON properties to channel fields:: JSON xususiyatlarini kanal maydonlariga xaritalash:
 Mapping saved for future imports of this file.: Ushbu faylni kelajakda import qilish uchun xaritalash saqlangan.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Mos keladigan chegaralar - EPG va logotiplar uchun noaniq moslik sezgirligini o'rnating.
+Move to Group: Guruhga o'tish
+Moved: Koʻchirildi
 Name: Ism
 Nanoid: Nanoid
 Network error: Tarmoq xatosi
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: M3U URL manzilidan hech qanday kanal yuklanmag
 No channels loaded from M3U.: M3U dan hech qanday kanal yuklanmagan.
 No channels loaded.: Hech qanday kanal yuklanmagan.
 No channels mapped: Hech qanday kanal xaritalanmagan
-No comparison results. Run Compare first.: Taqqoslash natijalari yo'q. Avval solishtirishni ishga tushiring.
+No channels selected.: Hech qanday kanal tanlanmagan.
 No duplicate URLs found.: Hech qanday takroriy URL topilmadi.
 No EPG data: EPG maʼlumotlari yoʻq
 No EPG information available for this channel.: Bu kanal uchun EPG maʼlumoti mavjud emas.
@@ -263,7 +268,6 @@ Playlist Editor: Pleylist muharriri
 Playlist Loading: Pleylist yuklanmoqda
 Playlist Management: Pleylist boshqaruvi
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Pleylistlar ombori: OwnerPlugins/TivuStreamList (Italiya va xalqaro oqimlar)
-Playlists loaded: Pleylistlar yuklandi
 Please select a program first.: Iltimos, avval dasturni tanlang.
 Preview (first 5 channels): Ko‘rib chiqish (birinchi 5 ta kanal)
 Preview error: {0}: Ko‘rib chiqish xatosi: {0}
@@ -296,7 +300,9 @@ Search channel: : Kanalni qidirish:
 Search channels by name: Kanallarni nomi bo'yicha qidiring
 Search channels...: Kanallarni qidirish...
 sec: sek
+Second playlist loaded: {0} channels: Ikkinchi pleylist yuklandi: {0} ta kanal
 Select a playlist first.: Avval pleylistni tanlang.
+Select target group:: Maqsadli guruhni tanlang:
 Select Theme: Mavzuni tanlang
 Selected theme is saved and applied on restart.: Tanlangan mavzu saqlanadi va qayta ishga tushirilganda qo'llaniladi.
 Send: Yuborish

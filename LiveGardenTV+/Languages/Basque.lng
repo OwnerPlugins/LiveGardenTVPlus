@@ -28,6 +28,7 @@ Add Mapping: Gehitu mapak
 Adjust buffer size (1-10 seconds): Doitu buffer tamaina (1-10 segundo)
 Advanced IDs: ID aurreratuak
 Application status: Aplikazioaren egoera
+Apply: Aplikatu
 Apply changes: Aplikatu aldaketak
 Apply Filters: Aplikatu iragazkiak
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ziur Enigma2 GUI berriro kargatu nahi duzula?\n\nInterfazea berrabiaraziko da (pantaila beltza segundo batzuetan).
@@ -54,6 +55,7 @@ channels from URL: URLtik kanalak
 Check Duplicates: Egiaztatu Bikoiztuak
 Check for updates: Egiaztatu eguneratzeak
 Check URLs: Egiaztatu URLak
+Clear: Garbi
 Clear EPG Cache: Garbitu EPG cachea
 Clear Filters: Garbitu iragazkiak
 Clear search: Garbitu bilaketa
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Konparatu...
 Comparison results: {0} channels: Konparaketaren emaitzak: {0} kanal
 Configuration Missing: Konfigurazioa falta da
+Confirm Delete: Berretsi Ezabatu
 Confirm Reload: Berretsi birkargatu
 Connect: Konektatu
 Connected: Konektatuta
+Copied: Kopiatua
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Herrialdea
 Credits: Kredituak
+Delete channel '{0}'?: "{0}" kanala ezabatu?
 Delete Group: Ezabatu taldea
 Delete Selected: Ezabatu Hautatuak
+Deleted: Ezabatu da
 Description: Deskribapena
 Details: Xehetasunak
 Developed by Lululla: Lulullak garatua
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Sartu erreprodukzio-zerrendaren URLa (JSON ed
 Enter playlist URL (M3U or JSON):: Sartu erreprodukzio-zerrendaren URLa (M3U edo JSON):
 EPG: EPG
 Epg & Favorites: Epg eta gogokoak
+EPG & Favorites: EPG eta gogokoak
 Epg & Logos: Epg eta logotipoak
 EPG & Logos: EPG eta logotipoak
 EPG cache cleared successfully.: EPG cachea ondo garbitu da.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Errore bat gertatu da cachea garbitzean: {0}
 Error loading: Errore bat gertatu da kargatzean
 Error loading EPG list: {0}: Errore bat gertatu da EPG zerrenda kargatzean: {0}
 Error loading file: {0}: Errore bat gertatu da fitxategia kargatzean: {0}
-Error loading file: {0}: Errore bat gertatu da fitxategia kargatzean: {0}
 Error loading playlists: {0}: Errore bat gertatu da erreprodukzio-zerrendak kargatzean: {0}
-Error loading URL: {0}: Errore bat gertatu da URLa kargatzean: {0}
 Error loading URL: {0}: Errore bat gertatu da URLa kargatzean: {0}
 ERROR: player.html not found.: ERROREA: player.html ez da aurkitu.
 Exit: Irten
-Export: Esportatu
 Export all: Esportatu guztiak
 Export Favorites: Esportatu gogokoak
 Export Filtered JSON: Esportatu iragazitako JSON
@@ -136,7 +140,9 @@ Export missing: Esportatu falta da
 Export OK: Esportatu OK
 Export only favorite channels to a new M3U file: Esportatu gogoko kanalak soilik M3U fitxategi berri batera
 Export results as JSON or M3U – export missing channels or all channels.: Esportatu emaitzak JSON edo M3U gisa - esportatu falta diren kanalak edo kanal guztiak.
-Exported channels: Esportatutako kanalak
+Export selected: Esportatu hautatuta
+Exported: Esportatua
+Exported {0} channels to {1}: {0} kanal esportatu dira {1}ra
 Extracting update...: Eguneraketa ateratzen...
 Failed to download playlist: Ezin izan da deskargatu erreprodukzio-zerrenda
 Failed to load playlist: Ezin izan da kargatu erreprodukzio-zerrenda
@@ -148,7 +154,6 @@ Fetch Logos: Lortu logotipoak
 File {0} already exists. Overwrite?: {0} fitxategia badago jada. Gainidatzi?
 File exists: Fitxategia existitzen da
 Filters: Iragazkiak
-First playlist: {0} channels loaded.: Lehen erreprodukzio-zerrenda: {0} kanal kargatu dira.
 Fullscreen (hide UI) - press ESC to exit: Pantaila osoa (ezkutatu UI) - sakatu ESC irteteko
 Geo & Country: Geo eta Herrialdea
 GeoBlocked: Geoblokeatua
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON baliogabea: {0}
 Invalid playlist URL.: Erreprodukzio-zerrendaren URL baliogabea.
 Invalid URL.: URL baliogabea.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON fitxategiak|*.json|M3U fitxategiak|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON fitxategiak|*.json|M3U fitxategiak|*.m3u;*.m3u8|Fitxategi guztiak|*.*
 JSON Property: JSON propietatea
 Ko-fi: Kafea
 Language: Hizkuntza
@@ -215,6 +218,8 @@ Logos Subfolder: Logotipoen azpikarpeta
 Map JSON properties to channel fields:: Mapeatu JSON propietateak kanal-eremuetara:
 Mapping saved for future imports of this file.: Fitxategi honen etorkizuneko inportazioetarako mapak gorde dira.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Bat etortzen diren atalaseak: ezarri partida lausoen sentikortasuna EPG eta logotipoetarako.
+Move to Group: Mugitu Taldera
+Moved: Mugitu
 Name: Izena
 Nanoid: Nanoidea
 Network error: Sareko errorea
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Ez da kanalik kargatu M3U URLtik.
 No channels loaded from M3U.: Ez da kanalik kargatu M3Utik.
 No channels loaded.: Ez da kanalik kargatu.
 No channels mapped: Ez dago kanalik mapatu
-No comparison results. Run Compare first.: Ez dago konparazio emaitzarik. Exekutatu Konparatu lehenik.
+No channels selected.: Ez da kanalik hautatu.
 No duplicate URLs found.: Ez da bikoiztutako URLrik aurkitu.
 No EPG data: Ez dago EPG daturik
 No EPG information available for this channel.: Ez dago EPG informaziorik kanal honetarako.
@@ -263,7 +268,6 @@ Playlist Editor: Erreprodukzio-zerrenden editorea
 Playlist Loading: Erreprodukzio-zerrenda kargatzen
 Playlist Management: Erreprodukzio-zerrenden kudeaketa
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Erreprodukzio-zerrenden biltegia: OwnerPlugins/TivuStreamList (Italiako eta nazioarteko korronteak)
-Playlists loaded: Erreprodukzio-zerrendak kargatu dira
 Please select a program first.: Mesedez, hautatu programa bat lehenik.
 Preview (first 5 channels): Aurrebista (lehen 5 kanalak)
 Preview error: {0}: Aurrebista-errorea: {0}
@@ -296,7 +300,9 @@ Search channel: : Bilatu kanala:
 Search channels by name: Bilatu kanalak izenaren arabera
 Search channels...: Bilatu kanalak...
 sec: seg
+Second playlist loaded: {0} channels: Kargatu da bigarren erreprodukzio-zerrenda: {0} kanal
 Select a playlist first.: Hautatu erreprodukzio-zerrenda bat lehenik.
+Select target group:: Hautatu xede-taldea:
 Select Theme: Hautatu Gaia
 Selected theme is saved and applied on restart.: Hautatutako gaia gordetzen da eta berrabiarazi orduko aplikatzen da.
 Send: Bidali

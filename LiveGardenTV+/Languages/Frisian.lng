@@ -28,6 +28,7 @@ Add Mapping: Mapping tafoegje
 Adjust buffer size (1-10 seconds): Buffergrutte oanpasse (1-10 sekonden)
 Advanced IDs: Avansearre IDs
 Application status: Applikaasje status
+Apply: Tapasse
 Apply changes: Feroarings tapasse
 Apply Filters: Filters tapasse
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Binne jo wis dat jo de Enigma2 GUI opnij laden wolle?\n\nDe ynterface sil opnij starte (swart skerm foar in pear sekonden).
@@ -54,6 +55,7 @@ channels from URL: kanalen fan URL
 Check Duplicates: Kontrolearje Duplikaten
 Check for updates: Kontrolearje op updates
 Check URLs: Kontrolearje URL's
+Clear: Klear
 Clear EPG Cache: EPG-cache wiskje
 Clear Filters: Filters wiskje
 Clear search: Wiskje sykjen
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Fergelykje...
 Comparison results: {0} channels: Fergelikingsresultaten: {0} kanalen
 Configuration Missing: Konfiguraasje Missing
+Confirm Delete: Befêstigje wiskje
 Confirm Reload: Befêstigje Reload
 Connect: Ferbine
 Connected: Ferbûn
+Copied: Kopiearre
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Lân
 Credits: Credits
+Delete channel '{0}'?: Kanaal '{0}' wiskje?
 Delete Group: Groep wiskje
 Delete Selected: Selektearre wiskje
+Deleted: Wiske
 Description: Beskriuwing
 Details: Details
 Developed by Lululla: Ûntwikkele troch Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Fier playlist URL yn (JSON of M3U):
 Enter playlist URL (M3U or JSON):: Fier de playlist-URL yn (M3U of JSON):
 EPG: EPG
 Epg & Favorites: Epg & Favorites
+EPG & Favorites: EPG & Favorites
 Epg & Logos: Epg & Logos
 EPG & Logos: EPG & Logos
 EPG cache cleared successfully.: EPG-cache mei sukses wiske.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Flater by it wiskjen fan cache: {0}
 Error loading: Flater by it laden
 Error loading EPG list: {0}: Flater by it laden fan EPG-list: {0}
 Error loading file: {0}: Flater by it laden fan triem: {0}
-Error loading file: {0}: Flater by it laden fan triem: {0}
 Error loading playlists: {0}: Flater by it laden fan playlists: {0}
-Error loading URL: {0}: Flater by it laden fan URL: {0}
 Error loading URL: {0}: Flater by it laden fan URL: {0}
 ERROR: player.html not found.: FOUT: player.html net fûn.
 Exit: Útgong
-Export: Eksportearje
 Export all: Eksportearje alles
 Export Favorites: Eksportearje Favorites
 Export Filtered JSON: Eksportearje filtere JSON
@@ -136,7 +140,9 @@ Export missing: Eksportearje mist
 Export OK: Eksportearje OK
 Export only favorite channels to a new M3U file: Eksportearje allinich favorite kanalen nei in nij M3U-bestân
 Export results as JSON or M3U – export missing channels or all channels.: Eksportearje resultaten as JSON of M3U - eksportearje ûntbrekkende kanalen as alle kanalen.
-Exported channels: Eksportearre kanalen
+Export selected: Eksportearje selektearre
+Exported: Eksportearre
+Exported {0} channels to {1}: Eksportearre {0} kanalen nei {1}
 Extracting update...: Update útpakke...
 Failed to download playlist: It downloaden fan playlist is mislearre
 Failed to load playlist: It laden fan playlist is mislearre
@@ -148,7 +154,6 @@ Fetch Logos: Logos ophelje
 File {0} already exists. Overwrite?: Triem {0} bestiet al. Oerskriuwe?
 File exists: Triem bestiet
 Filters: Filters
-First playlist: {0} channels loaded.: Earste playlist: {0} kanalen laden.
 Fullscreen (hide UI) - press ESC to exit: Folslein skerm (ferbergje UI) - druk op ESC om út te gean
 Geo & Country: Geo & Lân
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Unjildige JSON: {0}
 Invalid playlist URL.: Unjildige playlist-URL.
 Invalid URL.: Unjildige URL.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON-bestannen|*.json|M3U-bestannen|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON-bestannen|*.json|M3U-bestannen|*.m3u;*.m3u8|Alle triemmen|*.*
 JSON Property: JSON Eigenskip
 Ko-fi: Kofje
 Language: Taal
@@ -215,6 +218,8 @@ Logos Subfolder: Logos Submap
 Map JSON properties to channel fields:: Map JSON-eigenskippen oan kanaalfjilden:
 Mapping saved for future imports of this file.: Mapping bewarre foar takomstige ymporten fan dit bestân.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Matching drompels - set fuzzy wedstriid gefoelichheid foar EPG en logos.
+Move to Group: Ferpleatse nei groep
+Moved: Ferpleatst
 Name: Namme
 Nanoid: Nanoïde
 Network error: Netwurk flater
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Gjin kanalen laden fan M3U URL.
 No channels loaded from M3U.: Gjin kanalen laden fan M3U.
 No channels loaded.: Gjin kanalen laden.
 No channels mapped: Gjin kanalen yn kaart brocht
-No comparison results. Run Compare first.: Gjin ferliking resultaten. Run Compare earst.
+No channels selected.: Gjin kanalen selektearre.
 No duplicate URLs found.: Gjin dûbele URL's fûn.
 No EPG data: Gjin EPG-gegevens
 No EPG information available for this channel.: Gjin EPG-ynformaasje beskikber foar dit kanaal.
@@ -263,7 +268,6 @@ Playlist Editor: Playlist Editor
 Playlist Loading: Playlist Loading
 Playlist Management: Playlist Management
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Playlist-repository: OwnerPlugins/TivuStreamList (Italjaanske en ynternasjonale streamen)
-Playlists loaded: Playlists laden
 Please select a program first.: Selektearje asjebleaft earst in programma.
 Preview (first 5 channels): Foarbyld (earste 5 kanalen)
 Preview error: {0}: Foarbyldflater: {0}
@@ -296,7 +300,9 @@ Search channel: : Sykje kanaal:
 Search channels by name: Sykje kanalen op namme
 Search channels...: Sykje kanalen...
 sec: sek
+Second playlist loaded: {0} channels: Twadde playlist laden: {0} kanalen
 Select a playlist first.: Selektearje earst in playlist.
+Select target group:: Selektearje doelgroep:
 Select Theme: Selektearje Tema
 Selected theme is saved and applied on restart.: Selektearre tema wurdt bewarre en tapast by opnij starte.
 Send: Stjoere

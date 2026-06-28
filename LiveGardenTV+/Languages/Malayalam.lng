@@ -28,6 +28,7 @@ Add Mapping: മാപ്പിംഗ് ചേർക്കുക
 Adjust buffer size (1-10 seconds): ബഫർ വലുപ്പം ക്രമീകരിക്കുക (1-10 സെക്കൻഡ്)
 Advanced IDs: വിപുലമായ ഐഡികൾ
 Application status: അപേക്ഷയുടെ നില
+Apply: അപേക്ഷിക്കുക
 Apply changes: മാറ്റങ്ങൾ പ്രയോഗിക്കുക
 Apply Filters: ഫിൽട്ടറുകൾ പ്രയോഗിക്കുക
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI വീണ്ടും ലോഡുചെയ്യണമെന്ന് തീർച്ചയാണോ?\n\nഇൻ്റർഫേസ് പുനരാരംഭിക്കും (കുറച്ച് നിമിഷങ്ങൾക്കുള്ള കറുത്ത സ്‌ക്രീൻ).
@@ -54,6 +55,7 @@ channels from URL: URL-ൽ നിന്നുള്ള ചാനലുകൾ
 Check Duplicates: തനിപ്പകർപ്പുകൾ പരിശോധിക്കുക
 Check for updates: അപ്ഡേറ്റുകൾക്കായി പരിശോധിക്കുക
 Check URLs: URL-കൾ പരിശോധിക്കുക
+Clear: ക്ലിയർ
 Clear EPG Cache: EPG കാഷെ മായ്‌ക്കുക
 Clear Filters: ഫിൽട്ടറുകൾ മായ്ക്കുക
 Clear search: തിരയൽ മായ്‌ക്കുക
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: താരതമ്യം ചെയ്യുക...
 Comparison results: {0} channels: താരതമ്യ ഫലങ്ങൾ: {0} ചാനലുകൾ
 Configuration Missing: കോൺഫിഗറേഷൻ കാണുന്നില്ല
+Confirm Delete: ഇല്ലാതാക്കൽ സ്ഥിരീകരിക്കുക
 Confirm Reload: റീലോഡ് സ്ഥിരീകരിക്കുക
 Connect: ബന്ധിപ്പിക്കുക
 Connected: ബന്ധിപ്പിച്ചു
+Copied: പകർത്തി
 CORVOBOYS.ORG: CORVOYS.ORG
 Country: രാജ്യം
 Credits: ക്രെഡിറ്റുകൾ
+Delete channel '{0}'?: '{0}' ചാനൽ ഇല്ലാതാക്കണോ?
 Delete Group: ഗ്രൂപ്പ് ഇല്ലാതാക്കുക
 Delete Selected: തിരഞ്ഞെടുത്തത് ഇല്ലാതാക്കുക
+Deleted: ഇല്ലാതാക്കി
 Description: വിവരണം
 Details: വിശദാംശങ്ങൾ
 Developed by Lululla: ലുലുല്ല വികസിപ്പിച്ചത്
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: പ്ലേലിസ്റ്റ് URL ന�
 Enter playlist URL (M3U or JSON):: പ്ലേലിസ്റ്റ് URL നൽകുക (M3U അല്ലെങ്കിൽ JSON):
 EPG: ഇ.പി.ജി
 Epg & Favorites: Epg & പ്രിയപ്പെട്ടവ
+EPG & Favorites: EPG & പ്രിയപ്പെട്ടവ
 Epg & Logos: Epg & ലോഗോകൾ
 EPG & Logos: EPG & ലോഗോകൾ
 EPG cache cleared successfully.: EPG കാഷെ വിജയകരമായി മായ്ച്ചു.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: കാഷെ മായ്‌ക്കുന്നത�
 Error loading: ലോഡ് ചെയ്യുന്നതിൽ പിശക്
 Error loading EPG list: {0}: EPG ലിസ്റ്റ് ലോഡ് ചെയ്യുന്നതിൽ പിശക്: {0}
 Error loading file: {0}: ഫയൽ ലോഡ് ചെയ്യുന്നതിൽ പിശക്: {0}
-Error loading file: {0}: ഫയൽ ലോഡ് ചെയ്യുന്നതിൽ പിശക്: {0}
 Error loading playlists: {0}: പ്ലേലിസ്റ്റുകൾ ലോഡ് ചെയ്യുന്നതിൽ പിശക്: {0}
-Error loading URL: {0}: URL ലോഡ് ചെയ്യുന്നതിൽ പിശക്: {0}
 Error loading URL: {0}: URL ലോഡ് ചെയ്യുന്നതിൽ പിശക്: {0}
 ERROR: player.html not found.: പിശക്: player.html കണ്ടെത്തിയില്ല.
 Exit: പുറത്ത്
-Export: കയറ്റുമതി
 Export all: എല്ലാം കയറ്റുമതി ചെയ്യുക
 Export Favorites: പ്രിയപ്പെട്ടവ കയറ്റുമതി ചെയ്യുക
 Export Filtered JSON: ഫിൽട്ടർ ചെയ്ത JSON കയറ്റുമതി ചെയ്യുക
@@ -136,7 +140,9 @@ Export missing: കയറ്റുമതി കാണുന്നില്ല
 Export OK: കയറ്റുമതി ശരി
 Export only favorite channels to a new M3U file: ഒരു പുതിയ M3U ഫയലിലേക്ക് പ്രിയപ്പെട്ട ചാനലുകൾ മാത്രം കയറ്റുമതി ചെയ്യുക
 Export results as JSON or M3U – export missing channels or all channels.: JSON അല്ലെങ്കിൽ M3U ആയി ഫലങ്ങൾ എക്‌സ്‌പോർട്ട് ചെയ്യുക - നഷ്‌ടമായ ചാനലുകളോ എല്ലാ ചാനലുകളോ കയറ്റുമതി ചെയ്യുക.
-Exported channels: കയറ്റുമതി ചെയ്ത ചാനലുകൾ
+Export selected: കയറ്റുമതി തിരഞ്ഞെടുത്തു
+Exported: കയറ്റുമതി ചെയ്തു
+Exported {0} channels to {1}: {0} ചാനലുകൾ {1} എന്നതിലേക്ക് കയറ്റുമതി ചെയ്തു
 Extracting update...: അപ്‌ഡേറ്റ് എക്‌സ്‌ട്രാക്‌റ്റുചെയ്യുന്നു...
 Failed to download playlist: പ്ലേലിസ്റ്റ് ഡൗൺലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു
 Failed to load playlist: പ്ലേലിസ്റ്റ് ലോഡുചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു
@@ -148,7 +154,6 @@ Fetch Logos: ലോഗോകൾ ലഭ്യമാക്കുക
 File {0} already exists. Overwrite?: ഫയൽ {0} ഇതിനകം നിലവിലുണ്ട്. തിരുത്തിയെഴുതണോ?
 File exists: ഫയൽ നിലവിലുണ്ട്
 Filters: ഫിൽട്ടറുകൾ
-First playlist: {0} channels loaded.: ആദ്യ പ്ലേലിസ്റ്റ്: {0} ചാനലുകൾ ലോഡ് ചെയ്തു.
 Fullscreen (hide UI) - press ESC to exit: പൂർണ്ണസ്‌ക്രീൻ (UI മറയ്‌ക്കുക) - പുറത്തുകടക്കാൻ ESC അമർത്തുക
 Geo & Country: ജിയോ & രാജ്യം
 GeoBlocked: ജിയോബ്ലോക്ക് ചെയ്തു
@@ -176,8 +181,6 @@ Invalid JSON: {0}: അസാധുവായ JSON: {0}
 Invalid playlist URL.: അസാധുവായ പ്ലേലിസ്റ്റ് URL.
 Invalid URL.: അസാധുവായ URL.
 Json: ജെസൺ
-JSON files|*.json|M3U files|*.m3u: JSON ഫയലുകൾ|*.json|M3U ഫയലുകൾ|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON ഫയലുകൾ|*.json|M3U ഫയലുകൾ|*.m3u;*.m3u8|എല്ലാ ഫയലുകളും|*.*
 JSON Property: JSON പ്രോപ്പർട്ടി
 Ko-fi: കോഫി
 Language: ഭാഷ
@@ -215,6 +218,8 @@ Logos Subfolder: ലോഗോ സബ്ഫോൾഡർ
 Map JSON properties to channel fields:: ചാനൽ ഫീൽഡുകളിലേക്ക് JSON പ്രോപ്പർട്ടികൾ മാപ്പ് ചെയ്യുക:
 Mapping saved for future imports of this file.: ഈ ഫയലിൻ്റെ ഭാവി ഇറക്കുമതികൾക്കായി മാപ്പിംഗ് സംരക്ഷിച്ചു.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: പൊരുത്തപ്പെടുന്ന പരിധി - EPG, ലോഗോകൾ എന്നിവയ്‌ക്കായി അവ്യക്തമായ പൊരുത്ത സംവേദനക്ഷമത സജ്ജമാക്കുക.
+Move to Group: ഗ്രൂപ്പിലേക്ക് നീങ്ങുക
+Moved: നീക്കി
 Name: പേര്
 Nanoid: നാനോയിഡ്
 Network error: നെറ്റ്‌വർക്ക് പിശക്
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: M3U URL-ൽ നിന്ന് ചാനലു
 No channels loaded from M3U.: M3U-ൽ നിന്ന് ചാനലുകളൊന്നും ലോഡ് ചെയ്തിട്ടില്ല.
 No channels loaded.: ചാനലുകളൊന്നും ലോഡ് ചെയ്തിട്ടില്ല.
 No channels mapped: ചാനലുകളൊന്നും മാപ്പ് ചെയ്‌തിട്ടില്ല
-No comparison results. Run Compare first.: താരതമ്യ ഫലങ്ങളൊന്നുമില്ല. ആദ്യം താരതമ്യം ചെയ്യുക.
+No channels selected.: ചാനലുകളൊന്നും തിരഞ്ഞെടുത്തിട്ടില്ല.
 No duplicate URLs found.: തനിപ്പകർപ്പ് URL-കളൊന്നും കണ്ടെത്തിയില്ല.
 No EPG data: EPG ഡാറ്റ ഇല്ല
 No EPG information available for this channel.: ഈ ചാനലിന് EPG വിവരങ്ങളൊന്നും ലഭ്യമല്ല.
@@ -263,7 +268,6 @@ Playlist Editor: പ്ലേലിസ്റ്റ് എഡിറ്റർ
 Playlist Loading: പ്ലേലിസ്റ്റ് ലോഡുചെയ്യുന്നു
 Playlist Management: പ്ലേലിസ്റ്റ് മാനേജ്മെൻ്റ്
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): പ്ലേലിസ്റ്റ് ശേഖരം: ഓണർപ്ലഗിൻസ്/ടിവുസ്ട്രീം ലിസ്റ്റ് (ഇറ്റാലിയൻ, അന്തർദേശീയ സ്ട്രീമുകൾ)
-Playlists loaded: പ്ലേലിസ്റ്റുകൾ ലോഡ് ചെയ്തു
 Please select a program first.: ദയവായി ആദ്യം ഒരു പ്രോഗ്രാം തിരഞ്ഞെടുക്കുക.
 Preview (first 5 channels): പ്രിവ്യൂ (ആദ്യത്തെ 5 ചാനലുകൾ)
 Preview error: {0}: പ്രിവ്യൂ പിശക്: {0}
@@ -296,7 +300,9 @@ Search channel: : ചാനൽ തിരയുക:
 Search channels by name: പേര് പ്രകാരം ചാനലുകൾ തിരയുക
 Search channels...: ചാനലുകൾ തിരയുക...
 sec: സെക്കൻ്റ്
+Second playlist loaded: {0} channels: രണ്ടാമത്തെ പ്ലേലിസ്റ്റ് ലോഡ് ചെയ്തു: {0} ചാനലുകൾ
 Select a playlist first.: ആദ്യം ഒരു പ്ലേലിസ്റ്റ് തിരഞ്ഞെടുക്കുക.
+Select target group:: ടാർഗെറ്റ് ഗ്രൂപ്പ് തിരഞ്ഞെടുക്കുക:
 Select Theme: തീം തിരഞ്ഞെടുക്കുക
 Selected theme is saved and applied on restart.: തിരഞ്ഞെടുത്ത തീം സംരക്ഷിച്ച് പുനരാരംഭിക്കുമ്പോൾ പ്രയോഗിക്കുന്നു.
 Send: അയക്കുക

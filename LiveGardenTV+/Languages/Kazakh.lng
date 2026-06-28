@@ -28,6 +28,7 @@ Add Mapping: Карталауды қосу
 Adjust buffer size (1-10 seconds): Буфер өлшемін реттеу (1-10 секунд)
 Advanced IDs: Жетілдірілген идентификаторлар
 Application status: Қолданба күйі
+Apply: Қолдану
 Apply changes: Өзгерістерді қолдану
 Apply Filters: Сүзгілерді қолдану
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 графикалық интерфейсін қайта жүктегіңіз келетініне сенімдісіз бе?\n\nИнтерфейс қайта іске қосылады (бірнеше секундқа қара экран).
@@ -54,6 +55,7 @@ channels from URL: URL мекенжайынан арналар
 Check Duplicates: Көшірмелерді тексеріңіз
 Check for updates: Жаңартуларды тексеріңіз
 Check URLs: URL мекенжайларын тексеріңіз
+Clear: Таза
 Clear EPG Cache: EPG кэшін тазалау
 Clear Filters: Сүзгілерді тазалау
 Clear search: Іздеуді тазалау
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Салыстыру...
 Comparison results: {0} channels: Салыстыру нәтижелері: {0} арна
 Configuration Missing: Конфигурация жоқ
+Confirm Delete: Жоюды растаңыз
 Confirm Reload: Қайта жүктеуді растаңыз
 Connect: Қосылу
 Connected: Қосылды
+Copied: Көшірілген
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Ел
 Credits: Несиелер
+Delete channel '{0}'?: "{0}" арнасын жою керек пе?
 Delete Group: Топты жою
 Delete Selected: Таңдалғанды ​​жою
+Deleted: Жойылды
 Description: Сипаттама
 Details: Мәліметтер
 Developed by Lululla: Лулулла әзірлеген
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Ойнату тізімінің URL меке�
 Enter playlist URL (M3U or JSON):: Ойнату тізімінің URL мекенжайын енгізіңіз (M3U немесе JSON):
 EPG: EPG
 Epg & Favorites: Epg және таңдаулылар
+EPG & Favorites: EPG және таңдаулылар
 Epg & Logos: Epg және логотиптер
 EPG & Logos: EPG және логотиптер
 EPG cache cleared successfully.: EPG кэші сәтті тазаланды.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Кэшті тазалау қатесі: {0}
 Error loading: Жүктеу қатесі
 Error loading EPG list: {0}: EPG тізімін жүктеу қатесі: {0}
 Error loading file: {0}: Файлды жүктеу қатесі: {0}
-Error loading file: {0}: Файлды жүктеу қатесі: {0}
 Error loading playlists: {0}: Ойнату тізімдерін жүктеу қатесі: {0}
-Error loading URL: {0}: URL жүктеу қатесі: {0}
 Error loading URL: {0}: URL жүктеу қатесі: {0}
 ERROR: player.html not found.: ҚАТЕ: player.html табылмады.
 Exit: Шығу
-Export: Экспорттау
 Export all: Барлығын экспорттау
 Export Favorites: Таңдаулыларды экспорттау
 Export Filtered JSON: Сүзілген JSON экспорттау
@@ -136,7 +140,9 @@ Export missing: Экспорт жоқ
 Export OK: Экспорт жарайды
 Export only favorite channels to a new M3U file: Жаңа M3U файлына тек таңдаулы арналарды экспорттаңыз
 Export results as JSON or M3U – export missing channels or all channels.: Нәтижелерді JSON немесе M3U ретінде экспорттау – жоқ арналарды немесе барлық арналарды экспорттау.
-Exported channels: Экспортталған арналар
+Export selected: Экспорттау таңдалды
+Exported: Экспортталды
+Exported {0} channels to {1}: {0} арна {1} ішіне экспортталды
 Extracting update...: Жаңарту шығарылуда...
 Failed to download playlist: Ойнату тізімі жүктелмеді
 Failed to load playlist: Ойнату тізімі жүктелмеді
@@ -148,7 +154,6 @@ Fetch Logos: Логотиптерді алу
 File {0} already exists. Overwrite?: {0} файлы әлдеқашан бар. Қайта жазу керек пе?
 File exists: Файл бар
 Filters: Сүзгілер
-First playlist: {0} channels loaded.: Бірінші ойнату тізімі: {0} арна жүктелді.
 Fullscreen (hide UI) - press ESC to exit: Толық экран (UI жасыру) - шығу үшін ESC пернесін басыңыз
 Geo & Country: Гео және ел
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Жарамсыз JSON: {0}
 Invalid playlist URL.: Жарамсыз ойнату тізімінің URL мекенжайы.
 Invalid URL.: Жарамсыз URL.
 Json: Джсон
-JSON files|*.json|M3U files|*.m3u: JSON файлдары|*.json|M3U файлдары|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON файлдары|*.json|M3U файлдары|*.m3u;*.m3u8|Барлық файлдар|*.*
 JSON Property: JSON қасиеті
 Ko-fi: Кофе
 Language: Тіл
@@ -215,6 +218,8 @@ Logos Subfolder: Логотиптер ішкі қалтасы
 Map JSON properties to channel fields:: JSON сипаттарын арна өрістеріне салыстыру:
 Mapping saved for future imports of this file.: Бұл файлды болашақ импорттау үшін салыстыру сақталды.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Сәйкес келетін шектер – EPG және логотиптер үшін анық емес сәйкестік сезімталдығын орнатыңыз.
+Move to Group: Топқа өту
+Moved: Жылжыды
 Name: Аты
 Nanoid: Наноид
 Network error: Желі қатесі
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: M3U URL мекенжайынан арнала�
 No channels loaded from M3U.: M3U арнасынан жүктелмеген.
 No channels loaded.: Арналар жүктелмеді.
 No channels mapped: Ешбір арна картаға салынбаған
-No comparison results. Run Compare first.: Салыстыру нәтижелері жоқ. Алдымен Салыстыруды іске қосыңыз.
+No channels selected.: Ешбір арна таңдалмаған.
 No duplicate URLs found.: Қайталанатын URL мекенжайлары табылмады.
 No EPG data: EPG деректері жоқ
 No EPG information available for this channel.: Бұл арна үшін EPG ақпараты жоқ.
@@ -263,7 +268,6 @@ Playlist Editor: Ойнату тізімі редакторы
 Playlist Loading: Ойнату тізімі жүктелуде
 Playlist Management: Ойнату тізімін басқару
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Ойнату тізімінің репозиторийі: OwnerPlugins/TivuStreamList (итальяндық және халықаралық ағындар)
-Playlists loaded: Ойнату тізімдері жүктелді
 Please select a program first.: Алдымен бағдарламаны таңдаңыз.
 Preview (first 5 channels): Алдын ала қарау (алғашқы 5 арна)
 Preview error: {0}: Алдын ала қарау қатесі: {0}
@@ -296,7 +300,9 @@ Search channel: : Арнаны іздеу:
 Search channels by name: Арналарды аты бойынша іздеңіз
 Search channels...: Арналарды іздеу...
 sec: сек
+Second playlist loaded: {0} channels: Екінші ойнату тізімі жүктелді: {0} арна
 Select a playlist first.: Алдымен ойнату тізімін таңдаңыз.
+Select target group:: Мақсатты топты таңдаңыз:
 Select Theme: Тақырыпты таңдаңыз
 Selected theme is saved and applied on restart.: Таңдалған тақырып сақталады және қайта іске қосылғанда қолданылады.
 Send: Жіберу

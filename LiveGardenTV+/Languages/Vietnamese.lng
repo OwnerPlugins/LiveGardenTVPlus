@@ -28,6 +28,7 @@ Add Mapping: Thêm bản đồ
 Adjust buffer size (1-10 seconds): Điều chỉnh kích thước bộ đệm (1-10 giây)
 Advanced IDs: ID nâng cao
 Application status: Trạng thái đơn đăng ký
+Apply: Áp dụng
 Apply changes: Áp dụng thay đổi
 Apply Filters: Áp dụng bộ lọc
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Bạn có chắc chắn muốn tải lại GUI Enigma2 không?\n\nGiao diện sẽ khởi động lại (màn hình đen trong vài giây).
@@ -54,6 +55,7 @@ channels from URL: kênh từ URL
 Check Duplicates: Kiểm tra trùng lặp
 Check for updates: Kiểm tra các bản cập nhật
 Check URLs: Kiểm tra URL
+Clear: Thông thoáng
 Clear EPG Cache: Xóa bộ đệm EPG
 Clear Filters: Xóa bộ lọc
 Clear search: Xóa tìm kiếm
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: So sánh...
 Comparison results: {0} channels: Kết quả so sánh: {0} kênh
 Configuration Missing: Thiếu cấu hình
+Confirm Delete: Xác nhận Xóa
 Confirm Reload: Xác nhận tải lại
 Connect: Kết nối
 Connected: Đã kết nối
+Copied: Đã sao chép
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Quốc gia
 Credits: Tín dụng
+Delete channel '{0}'?: Xóa kênh '{0}'?
 Delete Group: Xóa nhóm
 Delete Selected: Xóa đã chọn
+Deleted: Đã xóa
 Description: Sự miêu tả
 Details: Chi tiết
 Developed by Lululla: Được phát triển bởi Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Nhập URL danh sách phát (JSON hoặc M3U)
 Enter playlist URL (M3U or JSON):: Nhập URL danh sách phát (M3U hoặc JSON):
 EPG: EPG
 Epg & Favorites: Epg & Yêu thích
+EPG & Favorites: EPG & Mục yêu thích
 Epg & Logos: Epg & Logo
 EPG & Logos: EPG & Logo
 EPG cache cleared successfully.: Đã xóa bộ nhớ đệm EPG thành công.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Lỗi xóa bộ nhớ đệm: {0}
 Error loading: Lỗi tải
 Error loading EPG list: {0}: Lỗi tải danh sách EPG: {0}
 Error loading file: {0}: Lỗi tải tệp: {0}
-Error loading file: {0}: Lỗi tải tệp: {0}
 Error loading playlists: {0}: Lỗi tải danh sách phát: {0}
-Error loading URL: {0}: Lỗi tải URL: {0}
 Error loading URL: {0}: Lỗi tải URL: {0}
 ERROR: player.html not found.: LỖI: không tìm thấy player.html.
 Exit: Ra
-Export: Xuất khẩu
 Export all: Xuất tất cả
 Export Favorites: Xuất mục yêu thích
 Export Filtered JSON: Xuất JSON đã lọc
@@ -136,7 +140,9 @@ Export missing: Thiếu xuất
 Export OK: Xuất được rồi
 Export only favorite channels to a new M3U file: Chỉ xuất các kênh yêu thích sang tệp M3U mới
 Export results as JSON or M3U – export missing channels or all channels.: Xuất kết quả dưới dạng JSON hoặc M3U – xuất các kênh bị thiếu hoặc tất cả các kênh.
-Exported channels: Kênh đã xuất
+Export selected: Xuất đã chọn
+Exported: Đã xuất
+Exported {0} channels to {1}: Đã xuất {0} kênh sang {1}
 Extracting update...: Đang trích xuất bản cập nhật...
 Failed to download playlist: Không tải được danh sách phát xuống
 Failed to load playlist: Không tải được danh sách phát
@@ -148,7 +154,6 @@ Fetch Logos: Tìm nạp Logo
 File {0} already exists. Overwrite?: Tệp {0} đã tồn tại. Ghi đè?
 File exists: Tập tin tồn tại
 Filters: Bộ lọc
-First playlist: {0} channels loaded.: Danh sách phát đầu tiên: đã tải {0} kênh.
 Fullscreen (hide UI) - press ESC to exit: Toàn màn hình (ẩn UI) - nhấn ESC để thoát
 Geo & Country: Địa lý & Quốc gia
 GeoBlocked: Bị chặn địa lý
@@ -176,8 +181,6 @@ Invalid JSON: {0}: JSON không hợp lệ: {0}
 Invalid playlist URL.: URL danh sách phát không hợp lệ.
 Invalid URL.: URL không hợp lệ.
 Json: JSON
-JSON files|*.json|M3U files|*.m3u: Tệp JSON|*.json|Tệp M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Tệp JSON|*.json|Tệp M3U|*.m3u;*.m3u8|Tất cả các tệp|*.*
 JSON Property: Thuộc tính JSON
 Ko-fi: Cà phê
 Language: Ngôn ngữ
@@ -215,6 +218,8 @@ Logos Subfolder: Thư mục con Logos
 Map JSON properties to channel fields:: Ánh xạ các thuộc tính JSON vào các trường kênh:
 Mapping saved for future imports of this file.: Bản đồ được lưu để nhập tệp này trong tương lai.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Ngưỡng phù hợp – đặt độ nhạy khớp mờ cho EPG và logo.
+Move to Group: Di chuyển đến nhóm
+Moved: Đã di chuyển
 Name: Tên
 Nanoid: Nanoid
 Network error: Lỗi mạng
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Không có kênh nào được tải từ URL 
 No channels loaded from M3U.: Không có kênh nào được tải từ M3U.
 No channels loaded.: Không có kênh nào được tải.
 No channels mapped: Không có kênh nào được ánh xạ
-No comparison results. Run Compare first.: Không có kết quả so sánh. Chạy So sánh đầu tiên.
+No channels selected.: Không có kênh nào được chọn.
 No duplicate URLs found.: Không tìm thấy URL trùng lặp.
 No EPG data: Không có dữ liệu EPG
 No EPG information available for this channel.: Không có thông tin EPG cho kênh này.
@@ -263,7 +268,6 @@ Playlist Editor: Trình chỉnh sửa danh sách phát
 Playlist Loading: Đang tải danh sách phát
 Playlist Management: Quản lý danh sách phát
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Kho danh sách phát: OwnerPlugins/TivuStreamList (luồng Ý và quốc tế)
-Playlists loaded: Đã tải danh sách phát
 Please select a program first.: Vui lòng chọn một chương trình đầu tiên.
 Preview (first 5 channels): Xem trước (5 kênh đầu tiên)
 Preview error: {0}: Lỗi xem trước: {0}
@@ -296,7 +300,9 @@ Search channel: : Kênh tìm kiếm:
 Search channels by name: Tìm kiếm kênh theo tên
 Search channels...: Tìm kiếm kênh...
 sec: giây
+Second playlist loaded: {0} channels: Đã tải danh sách phát thứ hai: {0} kênh
 Select a playlist first.: Chọn danh sách phát trước.
+Select target group:: Chọn nhóm mục tiêu:
 Select Theme: Chọn chủ đề
 Selected theme is saved and applied on restart.: Chủ đề đã chọn sẽ được lưu và áp dụng khi khởi động lại.
 Send: Gửi

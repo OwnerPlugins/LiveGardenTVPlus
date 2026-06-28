@@ -28,6 +28,7 @@ Add Mapping: Добавете картографиране
 Adjust buffer size (1-10 seconds): Регулиране на размера на буфера (1-10 секунди)
 Advanced IDs: Разширени идентификатори
 Application status: Статус на приложението
+Apply: Кандидатствайте
 Apply changes: Прилагане на промените
 Apply Filters: Прилагане на филтри
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Сигурни ли сте, че искате да презаредите Enigma2 GUI?\n\nИнтерфейсът ще се рестартира (черен екран за няколко секунди).
@@ -54,6 +55,7 @@ channels from URL: канали от URL
 Check Duplicates: Проверете дубликати
 Check for updates: Проверете за актуализации
 Check URLs: Проверете URL адресите
+Clear: ясно
 Clear EPG Cache: Изчистване на EPG кеша
 Clear Filters: Изчистване на филтри
 Clear search: Изчистете търсенето
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Сравнете...
 Comparison results: {0} channels: Резултати от сравнението: {0} канала
 Configuration Missing: Липсва конфигурация
+Confirm Delete: Потвърдете Изтриване
 Confirm Reload: Потвърдете презареждане
 Connect: Свържете се
 Connected: Свързан
+Copied: Копирано
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: държава
 Credits: Кредити
+Delete channel '{0}'?: Изтриване на канала „{0}“?
 Delete Group: Изтриване на група
 Delete Selected: Изтриване на избраното
+Deleted: Изтрито
 Description: Описание
 Details: Подробности
 Developed by Lululla: Разработено от Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Въведете URL адреса на пле
 Enter playlist URL (M3U or JSON):: Въведете URL адреса на плейлиста (M3U или JSON):
 EPG: EPG
 Epg & Favorites: EPG и любими
+EPG & Favorites: EPG и любими
 Epg & Logos: EPG и лога
 EPG & Logos: EPG и лога
 EPG cache cleared successfully.: EPG кешът е изчистен успешно.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Грешка при изчистване на кеш�
 Error loading: Грешка при зареждане
 Error loading EPG list: {0}: Грешка при зареждането на EPG списъка: {0}
 Error loading file: {0}: Грешка при зареждането на файла: {0}
-Error loading file: {0}: Грешка при зареждането на файла: {0}
 Error loading playlists: {0}: Грешка при зареждане на плейлисти: {0}
-Error loading URL: {0}: Грешка при зареждане на URL: {0}
 Error loading URL: {0}: Грешка при зареждане на URL: {0}
 ERROR: player.html not found.: ГРЕШКА: player.html не е намерен.
 Exit: Изход
-Export: Експортиране
 Export all: Експортирайте всички
 Export Favorites: Експортиране на любими
 Export Filtered JSON: Експортиране на филтриран JSON
@@ -136,7 +140,9 @@ Export missing: Липсва експорт
 Export OK: Експортиране ОК
 Export only favorite channels to a new M3U file: Експортирайте само любими канали в нов M3U файл
 Export results as JSON or M3U – export missing channels or all channels.: Експортирайте резултатите като JSON или M3U – експортирайте липсващи канали или всички канали.
-Exported channels: Експортирани канали
+Export selected: Избрано експортиране
+Exported: Изнесени
+Exported {0} channels to {1}: Експортирани са {0} канала в {1}
 Extracting update...: Актуализацията се извлича...
 Failed to download playlist: Неуспешно изтегляне на плейлиста
 Failed to load playlist: Неуспешно зареждане на плейлиста
@@ -148,7 +154,6 @@ Fetch Logos: Извличане на лога
 File {0} already exists. Overwrite?: Файлът {0} вече съществува. Презаписване?
 File exists: Файлът съществува
 Filters: Филтри
-First playlist: {0} channels loaded.: Първи плейлист: {0} заредени канала.
 Fullscreen (hide UI) - press ESC to exit: Цял екран (скриване на потребителския интерфейс) - натиснете ESC за изход
 Geo & Country: География и държава
 GeoBlocked: Геоблокиран
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Невалиден JSON: {0}
 Invalid playlist URL.: Невалиден URL адрес на плейлиста.
 Invalid URL.: Невалиден URL адрес.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: JSON файлове|*.json|M3U файлове|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: JSON файлове|*.json|M3U файлове|*.m3u;*.m3u8|Всички файлове|*.*
 JSON Property: JSON собственост
 Ko-fi: кафе
 Language: език
@@ -215,6 +218,8 @@ Logos Subfolder: Подпапка с лога
 Map JSON properties to channel fields:: Съпоставете свойствата на JSON към полетата на канала:
 Mapping saved for future imports of this file.: Картографирането е запазено за бъдещо импортиране на този файл.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Прагове за съвпадение – задайте чувствителност на размито съвпадение за EPG и лога.
+Move to Group: Преместване в група
+Moved: Преместен
 Name: Име
 Nanoid: Наноид
 Network error: Мрежова грешка
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Няма заредени канали от M3
 No channels loaded from M3U.: Няма заредени канали от M3U.
 No channels loaded.: Няма заредени канали.
 No channels mapped: Няма картографирани канали
-No comparison results. Run Compare first.: Няма резултати за сравнение. Първо стартирайте Сравнение.
+No channels selected.: Няма избрани канали.
 No duplicate URLs found.: Няма намерени дублирани URL адреси.
 No EPG data: Няма EPG данни
 No EPG information available for this channel.: Няма налична EPG информация за този канал.
@@ -263,7 +268,6 @@ Playlist Editor: Редактор на плейлисти
 Playlist Loading: Плейлистът се зарежда
 Playlist Management: Управление на плейлисти
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Хранилище на плейлисти: OwnerPlugins/TivuStreamList (италиански и международни потоци)
-Playlists loaded: Плейлистите са заредени
 Please select a program first.: Моля, първо изберете програма.
 Preview (first 5 channels): Преглед (първите 5 канала)
 Preview error: {0}: Грешка при прегледа: {0}
@@ -296,7 +300,9 @@ Search channel: : Търсене на канал:
 Search channels by name: Търсене на канали по име
 Search channels...: Търсене на канали...
 sec: сек
+Second playlist loaded: {0} channels: Зареден втори плейлист: {0} канала
 Select a playlist first.: Първо изберете плейлист.
+Select target group:: Изберете целева група:
 Select Theme: Изберете Тема
 Selected theme is saved and applied on restart.: Избраната тема се запазва и се прилага при рестартиране.
 Send: Изпратете

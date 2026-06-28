@@ -28,6 +28,7 @@ Add Mapping: Дадаць адлюстраванне
 Adjust buffer size (1-10 seconds): Адрэгулюйце памер буфера (1-10 секунд)
 Advanced IDs: Пашыраныя ідэнтыфікатары
 Application status: Статус заяўкі
+Apply: Ужыць
 Apply changes: Прымяніць змены
 Apply Filters: Ужыць фільтры
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Вы ўпэўнены, што хочаце перазагрузіць графічны інтэрфейс Enigma2?\n\nІнтэрфейс перазапусціцца (чорны экран на некалькі секунд).
@@ -54,6 +55,7 @@ channels from URL: каналы з URL
 Check Duplicates: Праверце дублікаты
 Check for updates: Праверце наяўнасць абнаўленняў
 Check URLs: Праверце URL-адрасы
+Clear: Ясна
 Clear EPG Cache: Ачысціць кэш EPG
 Clear Filters: Ачысціць фільтры
 Clear search: Выразны пошук
@@ -68,14 +70,18 @@ Compare two playlists – load first (current playlist) and second (from file or
 Compare...: Параўнайце...
 Comparison results: {0} channels: Вынікі параўнання: {0} каналаў
 Configuration Missing: Адсутнічае канфігурацыя
+Confirm Delete: Пацвердзіце выдаленне
 Confirm Reload: Пацвердзіце перазагрузку
 Connect: Злучыцца
 Connected: Падключана
+Copied: Скапіравана
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Краіна
 Credits: Крэдыты
+Delete channel '{0}'?: Выдаліць канал "{0}"?
 Delete Group: Выдаліць групу
 Delete Selected: Выдаліць выбранае
+Deleted: Выдалены
 Description: Апісанне
 Details: Дэталі
 Developed by Lululla: Распрацавана Lululla
@@ -104,6 +110,7 @@ Enter playlist URL (JSON or M3U):: Увядзіце URL-адрас спісу п
 Enter playlist URL (M3U or JSON):: Увядзіце URL-адрас спісу прайгравання (M3U або JSON):
 EPG: EPG
 Epg & Favorites: EPG і абранае
+EPG & Favorites: EPG і абранае
 Epg & Logos: EPG і лагатыпы
 EPG & Logos: EPG і лагатыпы
 EPG cache cleared successfully.: Кэш EPG паспяхова ачышчаны.
@@ -119,13 +126,10 @@ Error clearing cache: {0}: Памылка ачысткі кэша: {0}
 Error loading: Памылка загрузкі
 Error loading EPG list: {0}: Памылка загрузкі спіса EPG: {0}
 Error loading file: {0}: Памылка загрузкі файла: {0}
-Error loading file: {0}: Памылка загрузкі файла: {0}
 Error loading playlists: {0}: Памылка загрузкі плэйлістоў: {0}
-Error loading URL: {0}: Памылка загрузкі URL: {0}
 Error loading URL: {0}: Памылка загрузкі URL: {0}
 ERROR: player.html not found.: ПАМЫЛКА: player.html не знойдзены.
 Exit: Выхад
-Export: Экспарт
 Export all: Экспартаваць усё
 Export Favorites: Экспарт абранага
 Export Filtered JSON: Экспарт адфільтраванага JSON
@@ -136,7 +140,9 @@ Export missing: Экспарт адсутнічае
 Export OK: Экспарт нармальна
 Export only favorite channels to a new M3U file: Экспартаваць толькі выбраныя каналы ў новы файл M3U
 Export results as JSON or M3U – export missing channels or all channels.: Экспартаваць вынікі ў фармаце JSON або M3U - экспартаваць адсутныя каналы або ўсе каналы.
-Exported channels: Экспартаваныя каналы
+Export selected: Выбраны экспарт
+Exported: Экспартаваны
+Exported {0} channels to {1}: Экспартавана {0} каналаў у {1}
 Extracting update...: Выманне абнаўлення...
 Failed to download playlist: Не ўдалося спампаваць плэйліст
 Failed to load playlist: Не ўдалося загрузіць плэйліст
@@ -148,7 +154,6 @@ Fetch Logos: Атрымаць лагатыпы
 File {0} already exists. Overwrite?: Файл {0} ужо існуе. Перазапісаць?
 File exists: Файл існуе
 Filters: Фільтры
-First playlist: {0} channels loaded.: Першы спіс прайгравання: загружана каналаў: {0}.
 Fullscreen (hide UI) - press ESC to exit: Поўнаэкранны рэжым (схаваць інтэрфейс) - націсніце ESC, каб выйсці
 Geo & Country: Геаграфія і краіна
 GeoBlocked: GeoBlocked
@@ -176,8 +181,6 @@ Invalid JSON: {0}: Няправільны JSON: {0}
 Invalid playlist URL.: Няправільны URL плэйліста.
 Invalid URL.: Няправільны URL.
 Json: Json
-JSON files|*.json|M3U files|*.m3u: Файлы JSON|*.json|Файлы M3U|*.m3u
-JSON files|*.json|M3U files|*.m3u;*.m3u8|All files|*.*: Файлы JSON|*.json|Файлы M3U|*.m3u;*.m3u8|Усе файлы|*.*
 JSON Property: Уласцівасць JSON
 Ko-fi: Кава
 Language: мова
@@ -215,6 +218,8 @@ Logos Subfolder: Падпапка з лагатыпамі
 Map JSON properties to channel fields:: Адлюструйце ўласцівасці JSON да палёў канала:
 Mapping saved for future imports of this file.: Адлюстраванне захавана для будучага імпарту гэтага файла.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Парогі супадзення – усталюйце адчувальнасць недакладнага супадзення для EPG і лагатыпаў.
+Move to Group: Перайсці да групы
+Moved: Пераехаў
 Name: Імя
 Nanoid: Нанаід
 Network error: Памылка сеткі
@@ -230,7 +235,7 @@ No channels loaded from M3U URL.: Няма каналаў, загружаных 
 No channels loaded from M3U.: Няма каналаў, загружаных з M3U.
 No channels loaded.: Няма загружаных каналаў.
 No channels mapped: Каналы не адлюстраваны
-No comparison results. Run Compare first.: Няма вынікаў параўнання. Спачатку запусціце Compare.
+No channels selected.: Каналы не выбраны.
 No duplicate URLs found.: Дублікаты URL не знойдзены.
 No EPG data: Няма дадзеных EPG
 No EPG information available for this channel.: Для гэтага канала няма даступнай інфармацыі EPG.
@@ -263,7 +268,6 @@ Playlist Editor: Рэдактар ​​плэйлістоў
 Playlist Loading: Загрузка спісу прайгравання
 Playlist Management: Кіраванне спісам прайгравання
 Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Рэпазітар плэйлістоў: OwnerPlugins/TivuStreamList (італьянскія і міжнародныя патокі)
-Playlists loaded: Спісы прайгравання загружаны
 Please select a program first.: Спачатку абярыце праграму.
 Preview (first 5 channels): Папярэдні прагляд (першыя 5 каналаў)
 Preview error: {0}: Памылка папярэдняга прагляду: {0}
@@ -296,7 +300,9 @@ Search channel: : Пошук па каналах:
 Search channels by name: Пошук каналаў па імені
 Search channels...: Шукаць каналы...
 sec: сек
+Second playlist loaded: {0} channels: Загружаны другі спіс прайгравання: {0} каналаў
 Select a playlist first.: Спачатку абярыце спіс прайгравання.
+Select target group:: Выберыце мэтавую групу:
 Select Theme: Выберыце Тэма
 Selected theme is saved and applied on restart.: Выбраная тэма захоўваецца і прымяняецца пры перазапуску.
 Send: Адправіць
