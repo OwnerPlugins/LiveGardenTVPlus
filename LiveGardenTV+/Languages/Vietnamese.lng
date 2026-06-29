@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Tốc độ phát lại: các nút 0,5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sắp xếp bất kỳ cột nào bằng cách nhấp vào tiêu đề; sử dụng 'Đặt lại thứ tự' để trở lại thứ tự ban đầu.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: tạm dừng phát trực tiếp; kéo thanh trượt để tìm lại; nhấn 'Trực tiếp' để quay lại.
-▶ Play: chơi
+▶ Play Media: ► Chơi phương tiện truyền thông
 ◀ Previous: ◀ Trước đó
 16 colour themes + Light/Dark variants.: 16 chủ đề màu sắc + các biến thể Sáng/Tối.
 A new version is available. Do you want to update now?: Một phiên bản mới có sẵn. Bạn có muốn cập nhật ngay bây giờ không?
@@ -34,6 +34,7 @@ Apply / Import: Áp dụng/Nhập khẩu
 Apply changes: Áp dụng thay đổi
 Apply Filters: Áp dụng bộ lọc
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Bạn có chắc chắn muốn tải lại GUI Enigma2 không?\n\nGiao diện sẽ khởi động lại (màn hình đen trong vài giây).
+Auto (recommended): Tự động (được khuyến nghị)
 Auto-detect: Tự động phát hiện
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Tự động kiểm tra khi khởi động – hoặc nhấp vào 'Kiểm tra bản cập nhật' trong menu Công cụ.
 Bouquet Name: Tên bó hoa
@@ -95,6 +96,7 @@ Developed by Lululla: Được phát triển bởi Lululla
 Developer: Lululla: Nhà phát triển: Lululla
 Disconnect: Ngắt kết nối
 Disconnected: Đã ngắt kết nối
+Display as: : Hiển thị dưới dạng:
 Do you want to load this edited playlist now?: Bạn có muốn tải danh sách phát đã chỉnh sửa này ngay bây giờ không?
 Double speed (2x): Tốc độ gấp đôi (2x)
 Downloading playlist...: Đang tải xuống danh sách phát...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: JSON không hợp lệ: {0}
 Invalid playlist URL.: URL danh sách phát không hợp lệ.
 Invalid URL.: URL không hợp lệ.
 Json: JSON
+JSON: JSON
 JSON parsing error: {0}: Lỗi phân tích cú pháp JSON: {0}
 JSON Property: Thuộc tính JSON
 Ko-fi: Cà phê
@@ -228,6 +231,7 @@ Logos Matching Threshold: Ngưỡng phù hợp với biểu tượng
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Kho lưu trữ logo – chọn chủ sở hữu/repo/đường dẫn (mặc định OwnerPlugins/logo).
 Logos Source: Nguồn logo
 Logos Subfolder: Thư mục con Logos
+M3U: M3U
 M3U parsing error: {0}: Lỗi phân tích cú pháp M3U: {0}
 Map JSON properties to channel fields:: Ánh xạ các thuộc tính JSON vào các trường kênh:
 Mapping saved for future imports of this file.: Bản đồ được lưu để nhập tệp này trong tương lai.
@@ -283,8 +287,8 @@ Paused: Đã tạm dừng
 PayPal: PayPal
 Picture-in-Picture mode: Chế độ ảnh trong ảnh
 Play/Pause: Phát/Tạm dừng
-Player Controls: Điều khiển người chơi
-Playing: Đang chơi
+Player Media Controls: Điều khiển phương tiện của trình phát
+Playing Media: Phát phương tiện
 Playlist & Groups: Danh sách phát & Nhóm
 Playlist Comparison: So sánh danh sách phát
 Playlist Editor: Trình chỉnh sửa danh sách phát

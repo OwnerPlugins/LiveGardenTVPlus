@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • 재생 속도: 0.5x, 1x, 2x 버튼.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • 헤더를 클릭하여 열을 정렬합니다. 원래 순서로 되돌리려면 '순서 재설정'을 사용하세요.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • 타임시프트: 라이브 스트림을 일시중지합니다. 뒤로 탐색하려면 슬라이더를 드래그하세요. 돌아가려면 '라이브'를 누르세요.
-▶ Play: ▶ 플레이
+▶ Play Media: ▶ 미디어 재생
 ◀ Previous: ◀ 이전
 16 colour themes + Light/Dark variants.: 16가지 색상 테마 + 밝은/어두운 변형.
 A new version is available. Do you want to update now?: 새 버전을 사용할 수 있습니다. 지금 업데이트하시겠습니까?
@@ -34,6 +34,7 @@ Apply / Import: 적용/가져오기
 Apply changes: 변경사항 적용
 Apply Filters: 필터 적용
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI를 다시 로드하시겠습니까?\n\n인터페이스가 다시 시작됩니다(몇 초 동안 검은색 화면).
+Auto (recommended): 자동(권장)
 Auto-detect: 자동 감지
 Automatic check on startup – or click 'Check for updates' in Tools menu.: 시작 시 자동 확인 - 또는 도구 메뉴에서 '업데이트 확인'을 클릭하세요.
 Bouquet Name: 꽃다발 이름
@@ -95,6 +96,7 @@ Developed by Lululla: 룰루라(Lululla)에서 개발한
 Developer: Lululla: 개발자: Lululla
 Disconnect: 연결 끊기
 Disconnected: 연결이 끊김
+Display as: : 다음과 같이 표시:
 Do you want to load this edited playlist now?: 편집된 재생목록을 지금 로드하시겠습니까?
 Double speed (2x): 2배속(2x)
 Downloading playlist...: 재생목록 다운로드 중...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: 잘못된 JSON: {0}
 Invalid playlist URL.: 재생목록 URL이 잘못되었습니다.
 Invalid URL.: URL이 잘못되었습니다.
 Json: 제이슨
+JSON: JSON
 JSON parsing error: {0}: JSON 구문 분석 오류: {0}
 JSON Property: JSON 속성
 Ko-fi: 커피
@@ -228,6 +231,7 @@ Logos Matching Threshold: 로고 일치 임계값
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: 로고 저장소 – 소유자/저장소/경로(기본 소유자 플러그인/로고)를 선택합니다.
 Logos Source: 로고 소스
 Logos Subfolder: 로고 하위 폴더
+M3U: M3U
 M3U parsing error: {0}: M3U 구문 분석 오류: {0}
 Map JSON properties to channel fields:: JSON 속성을 채널 필드에 매핑합니다.
 Mapping saved for future imports of this file.: 나중에 이 파일을 가져올 수 있도록 매핑이 저장되었습니다.
@@ -283,8 +287,8 @@ Paused: 일시중지됨
 PayPal: 페이팔
 Picture-in-Picture mode: PIP(Picture-in-Picture) 모드
 Play/Pause: 재생/일시 정지
-Player Controls: 플레이어 컨트롤
-Playing: 재생
+Player Media Controls: 플레이어 미디어 컨트롤
+Playing Media: 미디어 재생
 Playlist & Groups: 재생목록 및 그룹
 Playlist Comparison: 재생 목록 비교
 Playlist Editor: 재생목록 편집기

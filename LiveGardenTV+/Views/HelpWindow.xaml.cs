@@ -30,7 +30,7 @@ namespace LiveGardenTVPlus.Views
             // Expander headers
             headerPlaylistLoading.Text = LanguageManager.GetTranslation("Playlist Loading");
             headerEditor.Text = LanguageManager.GetTranslation("Playlist Editor");
-            headerPlayerControls.Text = LanguageManager.GetTranslation("Player Controls");
+            headerPlayerControls.Text = LanguageManager.GetTranslation("Player Media Controls");
             headerEpgLogos.Text = LanguageManager.GetTranslation("EPG & Logos");
             headerSettings.Text = LanguageManager.GetTranslation("Settings");
             headerThemes.Text = LanguageManager.GetTranslation("Themes");

@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Taasesituse kiirus: 0,5x, 1x, 2x nupud.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sorteeri mis tahes veergu, klõpsates päist; algse tellimuse naasmiseks kasutage käsku "Lähtesta tellimus".
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: otseülekande peatamine; tagasi otsimiseks lohistage liugurit; naasmiseks vajutage otseülekannet.
-▶ Play: ▶ Mängi
+▶ Play Media: ▶ Esita meediat
 ◀ Previous: ◀ Eelmine
 16 colour themes + Light/Dark variants.: 16 värviteemat + heledad/tumedad variandid.
 A new version is available. Do you want to update now?: Saadaval on uus versioon. Kas soovite kohe värskendada?
@@ -34,6 +34,7 @@ Apply / Import: Rakenda / import
 Apply changes: Rakenda muudatused
 Apply Filters: Rakenda filtreid
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Kas olete kindel, et soovite Enigma2 GUI uuesti laadida?\n\nLiides taaskäivitub (must ekraan mõneks sekundiks).
+Auto (recommended): Automaatne (soovitatav)
 Auto-detect: Automaatne tuvastamine
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automaatne kontrollimine käivitamisel – või klõpsake menüüs Tööriistad nuppu „Otsi värskendusi”.
 Bouquet Name: Kimbu nimi
@@ -95,6 +96,7 @@ Developed by Lululla: Arendanud Lululla
 Developer: Lululla: Arendaja: Lululla
 Disconnect: Katkesta ühendus
 Disconnected: Ühendus katkestatud
+Display as: : Kuva kui:
 Do you want to load this edited playlist now?: Kas soovite selle muudetud esitusloendi kohe laadida?
 Double speed (2x): Topeltkiirus (2x)
 Downloading playlist...: Esitusloendi allalaadimine...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: Kehtetu JSON: {0}
 Invalid playlist URL.: Vigane esitusloendi URL.
 Invalid URL.: Kehtetu URL.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: JSON-i sõelumisviga: {0}
 JSON Property: JSON-vara
 Ko-fi: Kohv
@@ -228,6 +231,7 @@ Logos Matching Threshold: Logode sobivuslävi
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logode hoidla – valige omanik/repo/tee (vaikimisi OwnerPlugins/logod).
 Logos Source: Logode allikas
 Logos Subfolder: Logode alamkaust
+M3U: M3U
 M3U parsing error: {0}: M3U sõelumisviga: {0}
 Map JSON properties to channel fields:: JSON-i atribuutide vastendamine kanaliväljadega:
 Mapping saved for future imports of this file.: Kaardistamine on salvestatud selle faili tulevaseks importimiseks.
@@ -283,8 +287,8 @@ Paused: Peatatud
 PayPal: PayPal
 Picture-in-Picture mode: Pilt-pildis režiim
 Play/Pause: Esita/Paus
-Player Controls: Mängija juhtnupud
-Playing: Mängib
+Player Media Controls: Mängija meedia juhtnupud
+Playing Media: Meediumi esitamine
 Playlist & Groups: Esitusloend ja rühmad
 Playlist Comparison: Esitusloendite võrdlus
 Playlist Editor: Esitusloendite redaktor

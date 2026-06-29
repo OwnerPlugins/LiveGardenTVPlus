@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Rychlost přehrávání: 0,5x, 1x, 2x tlačítka.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Seřaďte libovolný sloupec kliknutím na záhlaví; použijte 'Reset Order' pro návrat k původní objednávce.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: pozastavení živého přenosu; přetažením posuvníku vyhledáte zpět; pro návrat stiskněte 'Live'.
-▶ Play: ▶ Hrát
+▶ Play Media: ▶ Přehrát média
 ◀ Previous: ◀ Předchozí
 16 colour themes + Light/Dark variants.: 16 barevných motivů + světlé/tmavé varianty.
 A new version is available. Do you want to update now?: K dispozici je nová verze. Chcete provést aktualizaci nyní?
@@ -34,6 +34,7 @@ Apply / Import: Použít / Importovat
 Apply changes: Použít změny
 Apply Filters: Použít filtry
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Jste si jisti, že chcete znovu načíst GUI Enigmy?\n\nRozhraní se restartuje (černá obrazovka na několik sekund).
+Auto (recommended): Auto (doporučeno)
 Auto-detect: Automatická detekce
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatická kontrola při spuštění – nebo klikněte na „Zkontrolovat aktualizace“ v nabídce Nástroje.
 Bouquet Name: Název kytice
@@ -95,6 +96,7 @@ Developed by Lululla: Vyvinutý Lulullou
 Developer: Lululla: Vývojář: Lululla
 Disconnect: Odpojit
 Disconnected: Odpojeno
+Display as: : Zobrazit jako:
 Do you want to load this edited playlist now?: Chcete nyní načíst tento upravený seznam skladeb?
 Double speed (2x): Dvojitá rychlost (2x)
 Downloading playlist...: Stahování seznamu skladeb...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: Neplatný JSON: {0}
 Invalid playlist URL.: Neplatná adresa URL seznamu videí.
 Invalid URL.: Neplatná adresa URL.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: Chyba analýzy JSON: {0}
 JSON Property: Vlastnost JSON
 Ko-fi: Káva
@@ -228,6 +231,7 @@ Logos Matching Threshold: Logos Matching Threshold
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Úložiště log – vyberte vlastníka/repo/cestu (výchozí OwnerPlugins/loga).
 Logos Source: Zdroj loga
 Logos Subfolder: Podsložka loga
+M3U: M3U
 M3U parsing error: {0}: Chyba analýzy M3U: {0}
 Map JSON properties to channel fields:: Mapujte vlastnosti JSON na pole kanálu:
 Mapping saved for future imports of this file.: Mapování bylo uloženo pro budoucí importy tohoto souboru.
@@ -283,8 +287,8 @@ Paused: Pozastaveno
 PayPal: PayPal
 Picture-in-Picture mode: Režim obraz v obraze
 Play/Pause: Přehrát/Pozastavit
-Player Controls: Ovládání přehrávače
-Playing: Hraní
+Player Media Controls: Ovládání médií přehrávače
+Playing Media: Přehrávání médií
 Playlist & Groups: Seznam skladeb a skupiny
 Playlist Comparison: Porovnání playlistů
 Playlist Editor: Editor seznamu skladeb

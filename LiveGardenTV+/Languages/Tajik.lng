@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Суръати навозиш: 0,5x, 1x, 2x тугмаҳо.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Ҳар як сутунро бо зеркунии сарлавҳа ҷудо кунед; Барои баргаштан ба тартиби аслӣ аз 'Бозсозии тартибот' истифода баред.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: таваққуфи ҷараёни мустақим; слайдерро кашола кунед, то қафо ҷӯед; Барои баргаштан 'Зиндагӣ' -ро пахш кунед.
-▶ Play: ▶ Бозӣ
+▶ Play Media: ▶ Навозиш медиа
 ◀ Previous: ◀ Пешина
 16 colour themes + Light/Dark variants.: 16 мавзӯъҳои ранг + Вариантҳои равшанӣ / торик.
 A new version is available. Do you want to update now?: Версияи нав дастрас аст. Мехоҳед ҳоло навсозӣ кунед?
@@ -34,6 +34,7 @@ Apply / Import: Муроҷиат / воридот
 Apply changes: Тағиротро татбиқ кунед
 Apply Filters: Филтрҳоро татбиқ кунед
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Оё мутмаин ҳастед, ки мехоҳед GUI-и Enigma2-ро аз нав бор кунед?\n\nИнтерфейс аз нав оғоз мешавад (экрани сиёҳ барои чанд сония).
+Auto (recommended): Авто (тавсия дода мешавад)
 Auto-detect: Худкор муайян кардан
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Санҷиши худкор ҳангоми оғозёбӣ - ё дар менюи асбобҳо 'Тафтиши навсозиҳо' -ро клик кунед.
 Bouquet Name: Номи гулдастаҳо
@@ -95,6 +96,7 @@ Developed by Lululla: Аз ҷониби Лулулла таҳия шудааст
 Developer: Lululla: Таҳиягар: Лулулла
 Disconnect: Қатъ кунед
 Disconnected: Қатъи
+Display as: : Намоиш ҳамчун:
 Do you want to load this edited playlist now?: Оё шумо мехоҳед ин рӯйхати навозиш таҳриршударо ҳозир бор кунед?
 Double speed (2x): Суръати дукарата (2х)
 Downloading playlist...: Зеркашӣ кардани рӯйхати навозиш...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: JSON нодуруст: {0}
 Invalid playlist URL.: URL-и рӯйхати навозиш нодуруст.
 Invalid URL.: URL нодуруст.
 Json: Ҷсон
+JSON: JSON
 JSON parsing error: {0}: Хатои таҳлили JSON: {0}
 JSON Property: Амволи JSON
 Ko-fi: Қаҳва
@@ -228,6 +231,7 @@ Logos Matching Threshold: Ҳадди мувофиқати Logos
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Анбори логотипҳо – соҳиби/репо/роҳ интихоб кунед (пешфарз OwnerPlugins/logos).
 Logos Source: Манбаи Logos
 Logos Subfolder: Зерпапкаи Logos
+M3U: M3U
 M3U parsing error: {0}: Хатои таҳлили M3U: {0}
 Map JSON properties to channel fields:: Харитаи хосиятҳои JSON ба майдонҳои канал:
 Mapping saved for future imports of this file.: Харитасозӣ барои воридоти ояндаи ин файл захира карда шудааст.
@@ -283,8 +287,8 @@ Paused: Таваққуф карда шуд
 PayPal: PayPal
 Picture-in-Picture mode: Ҳолати тасвир дар расм
 Play/Pause: Бозӣ/Таваққуф
-Player Controls: Назорати плеер
-Playing: Бозӣ
+Player Media Controls: Назорати медиаи плеер
+Playing Media: Бозии медиа
 Playlist & Groups: Рӯйхати навозиш ва гурӯҳҳо
 Playlist Comparison: Муқоисаи рӯйхати навозиш
 Playlist Editor: Муҳаррири рӯйхати навозиш

@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Spilunarhraði: 0,5x, 1x, 2x takkar.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Raða hvaða dálki sem er með því að smella á haus; notaðu 'Endurstilla pöntun' til að fara aftur í upprunalega pöntun.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Tímaskipti: gera hlé á straumi í beinni; dragðu sleðann til að leita til baka; ýttu á 'Live' til að fara aftur.
-▶ Play: ▶ Spila
+▶ Play Media: ▶ Spilaðu fjölmiðla
 ◀ Previous: ◀ Fyrri
 16 colour themes + Light/Dark variants.: 16 litaþemu + ljós/dökk afbrigði.
 A new version is available. Do you want to update now?: Ný útgáfa er fáanleg. Viltu uppfæra núna?
@@ -34,6 +34,7 @@ Apply / Import: Sækja um / flytja inn
 Apply changes: Notaðu breytingar
 Apply Filters: Notaðu síur
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ertu viss um að þú viljir endurhlaða Enigma2 GUI?\n\nViðmótið mun endurræsast (svartur skjár í nokkrar sekúndur).
+Auto (recommended): Sjálfvirkt (ráðlagt)
 Auto-detect: Sjálfvirk skynjun
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Sjálfvirk athugun við ræsingu - eða smelltu á 'Athuga að uppfærslum' í valmyndinni Verkfæri.
 Bouquet Name: Nafn vönds
@@ -95,6 +96,7 @@ Developed by Lululla: Hannað af Lululla
 Developer: Lululla: Hönnuður: Lululla
 Disconnect: Aftengjast
 Disconnected: Ótengdur
+Display as: : Birta sem:
 Do you want to load this edited playlist now?: Viltu hlaða þessum breytta lagalista núna?
 Double speed (2x): Tvöfaldur hraði (2x)
 Downloading playlist...: Sækir spilunarlista...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: Ógilt JSON: {0}
 Invalid playlist URL.: Ógild vefslóð spilunarlista.
 Invalid URL.: Ógild vefslóð.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: JSON þáttunarvilla: {0}
 JSON Property: JSON eign
 Ko-fi: Kaffi
@@ -228,6 +231,7 @@ Logos Matching Threshold: Samsvörunarþröskuldur lógóa
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logos geymsla – veldu eiganda/repo/path (sjálfgefin OwnerPlugins/logos).
 Logos Source: Uppruni lógóa
 Logos Subfolder: Logos undirmöppu
+M3U: M3U
 M3U parsing error: {0}: M3U þáttunarvilla: {0}
 Map JSON properties to channel fields:: Kortaðu JSON eiginleika við rásareiti:
 Mapping saved for future imports of this file.: Kortlagning vistuð fyrir framtíðarinnflutning á þessari skrá.
@@ -283,8 +287,8 @@ Paused: Gert hlé
 PayPal: PayPal
 Picture-in-Picture mode: Mynd-í-mynd stilling
 Play/Pause: Spila / gera hlé
-Player Controls: Leikmannastýringar
-Playing: Að spila
+Player Media Controls: Mediastýringar spilara
+Playing Media: Spila fjölmiðla
 Playlist & Groups: Lagalisti og hópar
 Playlist Comparison: Samanburður á lagalista
 Playlist Editor: Lagalista ritstjóri

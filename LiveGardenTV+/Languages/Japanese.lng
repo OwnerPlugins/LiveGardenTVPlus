@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • 再生速度: 0.5x、1x、2x ボタン。
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • ヘッダーをクリックして列を並べ替えます。元の順序に戻すには、「順序をリセット」を使用します。
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • タイムシフト: ライブ ストリームを一時停止します。スライダをドラッグして後方にシークします。戻るには「ライブ」を押してください。
-▶ Play: ▶遊ぶ
+▶ Play Media: ▶ メディアの再生
 ◀ Previous: ◀ 前へ
 16 colour themes + Light/Dark variants.: 16 色の​​テーマ + ライト/ダークのバリエーション。
 A new version is available. Do you want to update now?: 新しいバージョンが利用可能です。今すぐ更新しますか?
@@ -34,6 +34,7 @@ Apply / Import: 適用/インポート
 Apply changes: 変更を適用する
 Apply Filters: フィルターを適用する
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI をリロードしてもよろしいですか?\n\nインターフェイスが再起動します (数秒間の黒い画面)。
+Auto (recommended): 自動 (推奨)
 Auto-detect: 自動検出
 Automatic check on startup – or click 'Check for updates' in Tools menu.: 起動時の自動チェック – または、[ツール] メニューの [アップデートのチェック] をクリックします。
 Bouquet Name: 花束の名前
@@ -95,6 +96,7 @@ Developed by Lululla: ルルラが開発した
 Developer: Lululla: 開発者：ルルラ
 Disconnect: 切断する
 Disconnected: 切断されました
+Display as: : 次のように表示します:
 Do you want to load this edited playlist now?: この編集したプレイリストを今すぐロードしますか?
 Double speed (2x): 倍速（2倍速）
 Downloading playlist...: プレイリストをダウンロード中...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: 無効な JSON: {0}
 Invalid playlist URL.: プレイリストの URL が無効です。
 Invalid URL.: URLが無効です。
 Json: ジソン
+JSON: JSON
 JSON parsing error: {0}: JSON 解析エラー: {0}
 JSON Property: JSON プロパティ
 Ko-fi: コーヒー
@@ -228,6 +231,7 @@ Logos Matching Threshold: ロゴ一致のしきい値
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: ロゴ リポジトリ – 所有者/リポジトリ/パス (デフォルトの OwnerPlugins/logos) を選択します。
 Logos Source: ロゴソース
 Logos Subfolder: ロゴサブフォルダー
+M3U: M3U
 M3U parsing error: {0}: M3U 解析エラー: {0}
 Map JSON properties to channel fields:: JSON プロパティをチャネル フィールドにマップします。
 Mapping saved for future imports of this file.: このファイルを今後インポートするためにマッピングが保存されました。
@@ -283,8 +287,8 @@ Paused: 一時停止中
 PayPal: ペイパル
 Picture-in-Picture mode: ピクチャインピクチャモード
 Play/Pause: 再生/一時停止
-Player Controls: プレーヤーのコントロール
-Playing: 遊ぶ
+Player Media Controls: プレーヤーのメディア コントロール
+Playing Media: メディアの再生
 Playlist & Groups: プレイリストとグループ
 Playlist Comparison: プレイリストの比較
 Playlist Editor: プレイリストエディター

@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • د پلی بیک سرعت: 0.5x، 1x، 2x تڼۍ.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • د سرلیک په کلیک کولو سره هر کالم ترتیب کړئ؛ اصلي ترتیب ته د بیرته راستنیدو لپاره 'ری سیٹ آرډر' وکاروئ.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • مهال ویش: د ژوندی جریان مخه ونیسئ؛ د بیرته لټولو لپاره سلائیڈر کش کړئ؛ د بیرته راستنیدو لپاره 'ژوندی' فشار ورکړئ.
-▶ Play: ▶ لوبه کول
+▶ Play Media: ▶ رسنۍ پلی کړئ
 ◀ Previous: ◀ پخوانۍ
 16 colour themes + Light/Dark variants.: د 16 رنګ موضوعات + رڼا / تیاره ډولونه.
 A new version is available. Do you want to update now?: یوه نوې نسخه شتون لري. ایا تاسو اوس تازه کول غواړئ؟
@@ -34,6 +34,7 @@ Apply / Import: تطبیق / واردول
 Apply changes: بدلونونه پلي کړئ
 Apply Filters: فلټرونه پلي کړئ
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: ایا تاسو ډاډه یاست چې د Enigma2 GUI بیا پورته کول غواړئ؟\n\nانټرفیس به بیا پیل شي (د څو ثانیو لپاره تور سکرین).
+Auto (recommended): اتومات (سپارښتنه)
 Auto-detect: په اتوماتيک ډول کشف
 Automatic check on startup – or click 'Check for updates' in Tools menu.: په پیل کې اتوماتیک چیک - یا د وسیلو مینو کې 'د تازه معلوماتو لپاره چیک وکړئ' کلیک وکړئ.
 Bouquet Name: د ګلدان نوم
@@ -95,6 +96,7 @@ Developed by Lululla: د لولولا لخوا رامینځته شوی
 Developer: Lululla: پرمخ وړونکی: لولا
 Disconnect: منحل کول
 Disconnected: منحل شوی
+Display as: : ښکاره کړئ لکه:
 Do you want to load this edited playlist now?: ایا تاسو غواړئ دا ترمیم شوی پلی لیست اوس پورته کړئ؟
 Double speed (2x): دوه برابره سرعت (2x)
 Downloading playlist...: د پلی لیست ډاونلوډ کول...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: ناسم JSON: {0}
 Invalid playlist URL.: ناسم پلی لیست URL.
 Invalid URL.: ناسم URL.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: د JSON تجزیه تېروتنه: {0}
 JSON Property: د JSON ملکیت
 Ko-fi: کافي
@@ -228,6 +231,7 @@ Logos Matching Threshold: د لوګو سره سمون خوري
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: د لوګو ذخیره - مالک / ریپو / لاره غوره کړئ (ډیفالټ مالک پلګینز / لوګو).
 Logos Source: د لوګو سرچینه
 Logos Subfolder: د لوګو فرعي فولډر
+M3U: M3U
 M3U parsing error: {0}: د M3U تجزیه تېروتنه: {0}
 Map JSON properties to channel fields:: د چینل ساحو ته د JSON ملکیتونه نقشه کړئ:
 Mapping saved for future imports of this file.: نقشه د دې فایل راتلونکي واردولو لپاره خوندي شوې.
@@ -283,8 +287,8 @@ Paused: ودریدل
 PayPal: PayPal
 Picture-in-Picture mode: په انځور کې د انځور حالت
 Play/Pause: پلی/ودرول
-Player Controls: د لوبغاړو کنټرول
-Playing: لوبې کول
+Player Media Controls: د پلیر میډیا کنټرولونه
+Playing Media: د رسنیو پلی کول
 Playlist & Groups: پلی لیست او ګروپونه
 Playlist Comparison: د پلی لیست پرتله کول
 Playlist Editor: د پلی لیست مدیر

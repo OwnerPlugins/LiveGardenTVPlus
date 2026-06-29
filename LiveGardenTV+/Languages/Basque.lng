@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Erreprodukzio abiadura: 0,5x, 1x, 2x botoiak.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Ordenatu edozein zutabe goiburuan klik eginez; erabili 'Berrezarri ordena' jatorrizko ordenara itzultzeko.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: zuzeneko igorpena pausatu; arrastatu graduatzailea atzera bilatzeko; sakatu 'Zuzenean' itzultzeko.
-▶ Play: ▶ Jolastu
+▶ Play Media: ▶ Erreproduzitu multimedia
 ◀ Previous: ◀ Aurrekoa
 16 colour themes + Light/Dark variants.: 16 kolore-gai + Argia/Iluna aldaera.
 A new version is available. Do you want to update now?: Bertsio berri bat dago eskuragarri. Orain eguneratu nahi duzu?
@@ -34,6 +34,7 @@ Apply / Import: Aplikatu / Inportatu
 Apply changes: Aplikatu aldaketak
 Apply Filters: Aplikatu iragazkiak
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ziur Enigma2 GUI berriro kargatu nahi duzula?\n\nInterfazea berrabiaraziko da (pantaila beltza segundo batzuetan).
+Auto (recommended): Automatikoa (gomendatua)
 Auto-detect: Auto-detektatu
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Egiaztapen automatikoa abiaraztean, edo egin klik Tresnak menuko 'Begiratu eguneratzeak'.
 Bouquet Name: Sortaren izena
@@ -95,6 +96,7 @@ Developed by Lululla: Lulullak garatua
 Developer: Lululla: Garatzailea: Lululla
 Disconnect: Deskonektatu
 Disconnected: Deskonektatuta
+Display as: : Erakutsi:
 Do you want to load this edited playlist now?: Editatutako erreprodukzio-zerrenda hau kargatu nahi duzu orain?
 Double speed (2x): Abiadura bikoitza (2x)
 Downloading playlist...: Erreprodukzio zerrenda deskargatzen...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: JSON baliogabea: {0}
 Invalid playlist URL.: Erreprodukzio-zerrendaren URL baliogabea.
 Invalid URL.: URL baliogabea.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: JSON analizatzean errorea: {0}
 JSON Property: JSON propietatea
 Ko-fi: Kafea
@@ -228,6 +231,7 @@ Logos Matching Threshold: Logotipoak bat datozen atalasea
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logotipoen biltegia - aukeratu jabea/errepo/bidea (jabe-pluginak/logotipoak lehenetsiak).
 Logos Source: Logotipoen iturria
 Logos Subfolder: Logotipoen azpikarpeta
+M3U: M3U
 M3U parsing error: {0}: M3U analizatzeko errorea: {0}
 Map JSON properties to channel fields:: Mapeatu JSON propietateak kanal-eremuetara:
 Mapping saved for future imports of this file.: Fitxategi honen etorkizuneko inportazioetarako mapak gorde dira.
@@ -283,8 +287,8 @@ Paused: Pausatuta
 PayPal: PayPal
 Picture-in-Picture mode: Irudian-Picture modua
 Play/Pause: Erreproduzitu/Pausatu
-Player Controls: Jokalari kontrolak
-Playing: Jolasean
+Player Media Controls: Erreproduzitzailearen multimedia kontrolak
+Playing Media: Multimedia erreproduzitzen
 Playlist & Groups: Erreprodukzio zerrenda eta taldeak
 Playlist Comparison: Erreprodukzio-zerrenden konparaketa
 Playlist Editor: Erreprodukzio-zerrenden editorea

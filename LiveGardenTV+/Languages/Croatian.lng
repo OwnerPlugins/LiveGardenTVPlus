@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Brzina reprodukcije: tipke 0,5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Poredajte bilo koji stupac klikom na zaglavlje; koristite 'Poništi redoslijed' da biste se vratili na izvorni redoslijed.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: pauzirajte prijenos uživo; povucite klizač za traženje unatrag; pritisnite 'Uživo' za povratak.
-▶ Play: ▶ Igraj
+▶ Play Media: ▶ Reproduciraj medije
 ◀ Previous: ◀ Prethodna
 16 colour themes + Light/Dark variants.: 16 tema boja + svijetle/tamne varijante.
 A new version is available. Do you want to update now?: Dostupna je nova verzija. Želite li ažurirati sada?
@@ -34,6 +34,7 @@ Apply / Import: Primijeni / Uvezi
 Apply changes: Primijeni promjene
 Apply Filters: Primijeni filtre
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Jeste li sigurni da želite ponovno učitati Enigma2 GUI?\n\nSučelje će se ponovno pokrenuti (crni ekran nekoliko sekundi).
+Auto (recommended): Automatski (preporučeno)
 Auto-detect: Automatsko otkrivanje
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatska provjera pri pokretanju – ili kliknite na 'Provjeri ažuriranja' u izborniku Alati.
 Bouquet Name: Ime buketa
@@ -95,6 +96,7 @@ Developed by Lululla: Razvio Lululla
 Developer: Lululla: Programer: Lululla
 Disconnect: Prekini vezu
 Disconnected: Isključeno
+Display as: : Prikaži kao:
 Do you want to load this edited playlist now?: Želite li sada učitati ovaj uređeni popis za reprodukciju?
 Double speed (2x): Dvostruka brzina (2x)
 Downloading playlist...: Preuzimanje popisa za reprodukciju...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: Nevažeći JSON: {0}
 Invalid playlist URL.: Nevažeći URL popisa za reprodukciju.
 Invalid URL.: Nevažeći URL.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: Pogreška raščlambe JSON-a: {0}
 JSON Property: JSON svojstvo
 Ko-fi: Kava
@@ -228,6 +231,7 @@ Logos Matching Threshold: Prag podudaranja logotipa
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Spremište logotipa – odaberite vlasnika/repo/put (zadano OwnerPlugins/logotipi).
 Logos Source: Logos Izvor
 Logos Subfolder: Podmapa Logos
+M3U: M3U
 M3U parsing error: {0}: Pogreška analize M3U: {0}
 Map JSON properties to channel fields:: Mapirajte JSON svojstva u polja kanala:
 Mapping saved for future imports of this file.: Mapiranje je spremljeno za buduće uvoze ove datoteke.
@@ -283,8 +287,8 @@ Paused: Pauzirano
 PayPal: PayPal
 Picture-in-Picture mode: Način slike u slici
 Play/Pause: Reprodukcija/Pauza
-Player Controls: Kontrole igrača
-Playing: Igranje
+Player Media Controls: Player Media Controls
+Playing Media: Reprodukcija medija
 Playlist & Groups: Popis za reprodukciju i grupe
 Playlist Comparison: Usporedba popisa za reprodukciju
 Playlist Editor: Uređivač popisa pjesama

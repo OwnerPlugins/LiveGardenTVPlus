@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Viteza de redare: butoane 0,5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sortați orice coloană făcând clic pe antet; utilizați „Resetare comandă” pentru a reveni la comanda inițială.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: întrerupeți fluxul live; trageți glisorul pentru a căuta înapoi; apăsați pe „Live” pentru a reveni.
-▶ Play: ▶ Joacă
+▶ Play Media: ▶ Redați conținut media
 ◀ Previous: ◀ Anterior
 16 colour themes + Light/Dark variants.: 16 teme de culoare + variante de lumină/întuneric.
 A new version is available. Do you want to update now?: Este disponibilă o nouă versiune. Doriți să actualizați acum?
@@ -34,6 +34,7 @@ Apply / Import: Aplica / Import
 Apply changes: Aplicați modificări
 Apply Filters: Aplicați filtre
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Sigur doriți să reîncărcați GUI Enigma2?\n\nInterfața va reporni (ecran negru pentru câteva secunde).
+Auto (recommended): Auto (recomandat)
 Auto-detect: Detectare automată
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Verificare automată la pornire – sau faceți clic pe „Căutați actualizări” în meniul Instrumente.
 Bouquet Name: Nume buchet
@@ -95,6 +96,7 @@ Developed by Lululla: Dezvoltat de Lululla
 Developer: Lululla: Dezvoltator: Lululla
 Disconnect: Deconecta
 Disconnected: Deconectat
+Display as: : Afișați ca:
 Do you want to load this edited playlist now?: Doriți să încărcați acest playlist editat acum?
 Double speed (2x): Viteză dublă (2x)
 Downloading playlist...: Se descarcă lista de redare...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: JSON nevalid: {0}
 Invalid playlist URL.: Adresa URL a listei de redare nevalidă.
 Invalid URL.: Adresă URL nevalidă.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: Eroare de analiză JSON: {0}
 JSON Property: Proprietate JSON
 Ko-fi: Cafea
@@ -228,6 +231,7 @@ Logos Matching Threshold: Pragul de potrivire a siglelor
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Depozitul de sigle – alegeți proprietar/repo/cale (OwnerPlugins/logo-uri implicite).
 Logos Source: Sursa siglelor
 Logos Subfolder: Subfolder sigle
+M3U: M3U
 M3U parsing error: {0}: Eroare de analiză M3U: {0}
 Map JSON properties to channel fields:: Mapați proprietățile JSON la câmpurile de canal:
 Mapping saved for future imports of this file.: Maparea a fost salvată pentru importurile viitoare ale acestui fișier.
@@ -283,8 +287,8 @@ Paused: Întrerupt
 PayPal: PayPal
 Picture-in-Picture mode: Modul Picture-in-Picture
 Play/Pause: Redare/Pauză
-Player Controls: Comenzile jucătorului
-Playing: Joc
+Player Media Controls: Controale media playerului
+Playing Media: Redare media
 Playlist & Groups: Playlist și grupuri
 Playlist Comparison: Comparația listelor de redare
 Playlist Editor: Editor de liste de redare

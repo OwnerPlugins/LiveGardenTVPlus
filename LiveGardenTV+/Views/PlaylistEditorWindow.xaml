@@ -296,7 +296,7 @@
                 </DataGrid>
             </TabItem>
             
-            <TabItem x:Name="CodeTab" Header="Code">
+            <TabItem x:Name="CodeTab" Header="Code" Loaded="CodeTab_Loaded">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>
@@ -315,7 +315,8 @@
                              BorderBrush="{DynamicResource BorderBrush}"/>
                     <WrapPanel Grid.Row="1" Margin="0,5,0,0" HorizontalAlignment="Right">
                         <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,15,0">
-                            <TextBlock Text="Display as:" VerticalAlignment="Center" Margin="0,0,5,0" Foreground="{DynamicResource ForegroundBrush}"/>
+                            <TextBlock x:Name="DisplayLabel" Text="Display as" VerticalAlignment="Center" Margin="0,0,5,0" Foreground="Gray"/>
+                            
                             <ComboBox x:Name="DisplayFormatCombo" Width="Auto" VerticalAlignment="Center"
                                       SelectedIndex="0"
                                       Background="{DynamicResource ControlBackgroundBrush}"

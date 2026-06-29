@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • ପ୍ଲେକ୍ ବେଗ: 0.5x, 1x, 2x ବଟନ୍ |
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: ହେଡର୍ କ୍ଲିକ୍ କରି ଯେକ any ଣସି ସ୍ତମ୍ଭ ସର୍ଟ କରନ୍ତୁ; ମୂଳ କ୍ରମକୁ ଫେରିବା ପାଇଁ 'ଅର୍ଡର ପୁନ et ସେଟ୍' ବ୍ୟବହାର କରନ୍ତୁ |
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: ଟାଇମ୍ସଫିଟ୍: ଲାଇଭ୍ ଷ୍ଟ୍ରିମ୍ ବିରାମ ଦିଅ; ପଛକୁ ଖୋଜିବା ପାଇଁ ସ୍ଲାଇଡର୍ ଟାଣ; ଫେରିବା ପାଇଁ 'ଲାଇଭ୍' ଦବାନ୍ତୁ |
-▶ Play: ▶ ଖେଳ
+▶ Play Media: Media ମିଡିଆ ଚଲାନ୍ତୁ |
 ◀ Previous: ◀ ପୂର୍ବ
 16 colour themes + Light/Dark variants.: 16 ରଙ୍ଗ ଥିମ୍ + ହାଲୁକା / ଗା ark ପ୍ରକାର |
 A new version is available. Do you want to update now?: ଏକ ନୂତନ ସଂସ୍କରଣ ଉପଲବ୍ଧ | ଆପଣ ବର୍ତ୍ତମାନ ଅଦ୍ୟତନ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?
@@ -34,6 +34,7 @@ Apply / Import: ପ୍ରୟୋଗ / ଆମଦାନୀ କରନ୍ତୁ |
 Apply changes: ପରିବର୍ତ୍ତନଗୁଡିକ ପ୍ରୟୋଗ କରନ୍ତୁ |
 Apply Filters: ଫିଲ୍ଟର୍ ପ୍ରୟୋଗ କରନ୍ତୁ |
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: ଆପଣ ନିଶ୍ଚିତ କି ଆପଣ Enigma2 GUI କୁ ପୁନ o ଲୋଡ୍ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି? \ N \ n ଇଣ୍ଟରଫେସ୍ ପୁନ art ଆରମ୍ଭ ହେବ (କିଛି ସେକେଣ୍ଡ ପାଇଁ କଳା ପରଦା) |
+Auto (recommended): ଅଟୋ (ସୁପାରିଶ)
 Auto-detect: ଅଟୋ-ଡିଟେକ୍ଟ |
 Automatic check on startup – or click 'Check for updates' in Tools menu.: ଷ୍ଟାର୍ଟଅପ୍ ଉପରେ ସ୍ୱୟଂଚାଳିତ ଯାଞ୍ଚ - କିମ୍ବା ଉପକରଣ ତାଲିକାରେ 'ଅଦ୍ୟତନଗୁଡିକ ଯାଞ୍ଚ କରନ୍ତୁ' କ୍ଲିକ୍ କରନ୍ତୁ |
 Bouquet Name: ପୁଷ୍ପ ନାମ |
@@ -95,6 +96,7 @@ Developed by Lululla: ଲୁଲୁଲା ଦ୍ୱାରା ବିକଶିତ |
 Developer: Lululla: ବିକାଶକାରୀ: ଲୁଲୁଲା |
 Disconnect: ବିଚ୍ଛିନ୍ନ କରନ୍ତୁ |
 Disconnected: ବିଚ୍ଛିନ୍ନ ହୋଇଛି |
+Display as: : ପରି ପ୍ରଦର୍ଶନ କରନ୍ତୁ:
 Do you want to load this edited playlist now?: ଆପଣ ବର୍ତ୍ତମାନ ଏହି ସଂପାଦିତ ପ୍ଲେଲିଷ୍ଟ ଲୋଡ୍ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?
 Double speed (2x): ଡବଲ୍ ସ୍ପିଡ୍ (2x)
 Downloading playlist...: ପ୍ଲେଲିଷ୍ଟ ଡାଉନଲୋଡ୍ ...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: ଅବ val ଧ JSON: {0} |
 Invalid playlist URL.: ଅବ val ଧ ପ୍ଲେଲିଷ୍ଟ URL |
 Invalid URL.: ଅବ val ଧ URL |
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: JSON ପାର୍ସିଂ ତ୍ରୁଟି: {0} |
 JSON Property: JSON ସମ୍ପତ୍ତି |
 Ko-fi: କଫି |
@@ -228,6 +231,7 @@ Logos Matching Threshold: ଲୋଗୋଗୁଡିକ ମେଳ ଖାଉଛି
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: ଲୋଗୋ ସଂଗ୍ରହାଳୟ - ମାଲିକ / ରେପୋ / ପଥ (ଡିଫଲ୍ଟ ମାଲିକ ପ୍ଲଗଇନ୍ସ / ଲୋଗୋ) ବାଛନ୍ତୁ |
 Logos Source: ଲୋଗୋ ଉତ୍ସ |
 Logos Subfolder: ଲୋଗୋ ସବ୍ଫୋଲ୍ଡର୍ |
+M3U: M3U
 M3U parsing error: {0}: M3U ପାର୍ସିଂ ତ୍ରୁଟି: {0} |
 Map JSON properties to channel fields:: ଚ୍ୟାନେଲ କ୍ଷେତ୍ରକୁ JSON ଗୁଣଗୁଡିକ ମାନଚିତ୍ର କରନ୍ତୁ:
 Mapping saved for future imports of this file.: ଏହି ଫାଇଲର ଭବିଷ୍ୟତ ଆମଦାନୀ ପାଇଁ ମ୍ୟାପିଂ ସଞ୍ଚୟ ହୋଇଛି |
@@ -283,8 +287,8 @@ Paused: ବିରତ |
 PayPal: ପେପାଲ୍ |
 Picture-in-Picture mode: ଛବି-ଇନ୍-ଛବି ମୋଡ୍ |
 Play/Pause: ଖେଳ / ବିରତି |
-Player Controls: ପ୍ଲେୟାର ନିୟନ୍ତ୍ରଣ
-Playing: ଖେଳିବା
+Player Media Controls: ପ୍ଲେୟାର ମିଡିଆ ନିୟନ୍ତ୍ରଣ |
+Playing Media: ମିଡିଆ ଖେଳିବା |
 Playlist & Groups: ପ୍ଲେଲିଷ୍ଟ ଏବଂ ଗ୍ରୁପ୍ |
 Playlist Comparison: ପ୍ଲେଲିଷ୍ଟ ତୁଳନା
 Playlist Editor: ପ୍ଲେଲିଷ୍ଟ ଏଡିଟର୍ |

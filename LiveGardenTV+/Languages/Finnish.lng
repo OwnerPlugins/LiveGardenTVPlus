@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Toistonopeus: 0,5x, 1x, 2x painikkeet.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Lajittele mikä tahansa sarake napsauttamalla otsikkoa; Käytä 'Nollaa tilaus' palataksesi alkuperäiseen tilaukseen.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: keskeytä suoratoisto; vedä liukusäädintä hakeaksesi takaisin; paina 'Live' palataksesi.
-▶ Play: ▶ Pelaa
+▶ Play Media: ▶ Toista mediaa
 ◀ Previous: ◀ Edellinen
 16 colour themes + Light/Dark variants.: 16 väriteemaa + vaalea/tumma versiot.
 A new version is available. Do you want to update now?: Uusi versio on saatavilla. Haluatko päivittää nyt?
@@ -34,6 +34,7 @@ Apply / Import: Käytä / Tuo
 Apply changes: Ota muutokset käyttöön
 Apply Filters: Käytä suodattimia
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Haluatko varmasti ladata Enigma2 GUI:n uudelleen?\n\nKäyttöliittymä käynnistyy uudelleen (musta näyttö muutaman sekunnin ajan).
+Auto (recommended): Automaattinen (suositus)
 Auto-detect: Automaattinen tunnistus
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automaattinen tarkistus käynnistyksen yhteydessä – tai napsauta "Tarkista päivitykset" Työkalut-valikosta.
 Bouquet Name: Kimpun nimi
@@ -95,6 +96,7 @@ Developed by Lululla: Kehittäjä Lululla
 Developer: Lululla: Kehittäjä: Lululla
 Disconnect: Katkaise yhteys
 Disconnected: Yhteys katkaistu
+Display as: : Näytä muodossa:
 Do you want to load this edited playlist now?: Haluatko ladata tämän muokatun soittolistan nyt?
 Double speed (2x): Tuplanopeus (2x)
 Downloading playlist...: Ladataan soittolistaa...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: Virheellinen JSON: {0}
 Invalid playlist URL.: Virheellinen soittolistan URL-osoite.
 Invalid URL.: Virheellinen URL-osoite.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: JSON-jäsennysvirhe: {0}
 JSON Property: JSON-omaisuus
 Ko-fi: Kahvia
@@ -228,6 +231,7 @@ Logos Matching Threshold: Logojen vastaavuuskynnys
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logot arkisto – valitse omistaja/repo/polku (oletusOwnerPlugins/logot).
 Logos Source: Logon lähde
 Logos Subfolder: Logot-alikansio
+M3U: M3U
 M3U parsing error: {0}: M3U-jäsennysvirhe: {0}
 Map JSON properties to channel fields:: Yhdistä JSON-ominaisuudet kanavakenttiin:
 Mapping saved for future imports of this file.: Kartta on tallennettu tämän tiedoston tulevaa tuontia varten.
@@ -283,8 +287,8 @@ Paused: Keskeytetty
 PayPal: PayPal
 Picture-in-Picture mode: Kuva kuvassa -tila
 Play/Pause: Toista/Tauko
-Player Controls: Soittimen säätimet
-Playing: Pelaaminen
+Player Media Controls: Playerin mediaohjaimet
+Playing Media: Median toistaminen
 Playlist & Groups: Soittolistat ja ryhmät
 Playlist Comparison: Soittolistan vertailu
 Playlist Editor: Soittolistaeditori

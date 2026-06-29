@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Atkūrimo greitis: 0,5x, 1x, 2x mygtukai.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Rūšiuoti bet kurį stulpelį spustelėjus antraštę; naudokite „Atstatyti užsakymą“, kad grįžtumėte į pradinį užsakymą.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: pristabdykite tiesioginę transliaciją; vilkite slankiklį, kad grįžtumėte atgal; Norėdami grįžti, paspauskite „Live“.
-▶ Play: ▶ Žaisti
+▶ Play Media: ▶ Leisti mediją
 ◀ Previous: ◀ Ankstesnis
 16 colour themes + Light/Dark variants.: 16 spalvų temų + šviesūs / tamsūs variantai.
 A new version is available. Do you want to update now?: Yra nauja versija. Ar norite atnaujinti dabar?
@@ -34,6 +34,7 @@ Apply / Import: Taikyti / importuoti
 Apply changes: Taikyti pakeitimus
 Apply Filters: Taikyti filtrus
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ar tikrai norite iš naujo įkelti „Enigma2“ GUI?\n\nSąsaja bus paleista iš naujo (kelias sekundes bus juodas ekranas).
+Auto (recommended): Automatinis (rekomenduojama)
 Auto-detect: Automatinis aptikimas
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatinis patikrinimas paleidžiant – arba meniu Įrankiai spustelėkite „Tikrinti, ar nėra naujinimų“.
 Bouquet Name: Puokštės pavadinimas
@@ -95,6 +96,7 @@ Developed by Lululla: Sukūrė Lululla
 Developer: Lululla: Kūrėjas: Lululla
 Disconnect: Atsijungti
 Disconnected: Atsijungta
+Display as: : Rodyti kaip:
 Do you want to load this edited playlist now?: Ar norite įkelti šį redaguotą grojaraštį dabar?
 Double speed (2x): Dvigubas greitis (2x)
 Downloading playlist...: Atsisiunčiamas grojaraštis...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: Neteisingas JSON: {0}
 Invalid playlist URL.: Netinkamas grojaraščio URL.
 Invalid URL.: Netinkamas URL.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: JSON analizės klaida: {0}
 JSON Property: JSON nuosavybė
 Ko-fi: Kava
@@ -228,6 +231,7 @@ Logos Matching Threshold: Logotipų atitikimo slenkstis
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logotipų saugykla – pasirinkite savininką/repo/kelią (numatytieji OwnerPlugins/logos).
 Logos Source: Logotipo šaltinis
 Logos Subfolder: Logotipų poaplankis
+M3U: M3U
 M3U parsing error: {0}: M3U analizavimo klaida: {0}
 Map JSON properties to channel fields:: Susieti JSON ypatybes su kanalo laukais:
 Mapping saved for future imports of this file.: Atvaizdas išsaugotas, kad ateityje būtų galima importuoti šį failą.
@@ -283,8 +287,8 @@ Paused: Pristabdyta
 PayPal: PayPal
 Picture-in-Picture mode: Vaizdas paveikslėlyje režimas
 Play/Pause: Leisti / pristabdyti
-Player Controls: Grotuvo valdikliai
-Playing: Žaidžia
+Player Media Controls: Grotuvo medijos valdikliai
+Playing Media: Leidžiama medija
 Playlist & Groups: Grojaraštis ir grupės
 Playlist Comparison: Grojaraščio palyginimas
 Playlist Editor: Grojaraščio redaktorius

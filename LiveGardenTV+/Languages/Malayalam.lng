@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • പ്ലേബാക്ക് വേഗത: 0.5x, 1x, 2x ബട്ടണുകൾ.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • തലക്കെട്ടിൽ ക്ലിക്കുചെയ്ത് ഏത് നിരയും അടുക്കുക; യഥാർത്ഥ ക്രമത്തിലേക്ക് പഴയപടിയാക്കാൻ 'റീസെറ്റ് ഓർഡർ' ഉപയോഗിക്കുക.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • ടൈംഷിഫ്റ്റ്: തത്സമയ സ്ട്രീം താൽക്കാലികമായി നിർത്തുക; തിരികെ അന്വേഷിക്കാൻ സ്ലൈഡർ വലിച്ചിടുക; മടങ്ങാൻ 'ലൈവ്' അമർത്തുക.
-▶ Play: ▶ കളിക്കുക
+▶ Play Media: ▶ മീഡിയ പ്ലേ ചെയ്യുക
 ◀ Previous: ◀ മുമ്പത്തെ
 16 colour themes + Light/Dark variants.: 16 വർണ്ണ തീമുകൾ + ലൈറ്റ്/ഡാർക്ക് വേരിയൻ്റുകൾ.
 A new version is available. Do you want to update now?: ഒരു പുതിയ പതിപ്പ് ലഭ്യമാണ്. നിങ്ങൾക്ക് ഇപ്പോൾ അപ്ഡേറ്റ് ചെയ്യണോ?
@@ -34,6 +34,7 @@ Apply / Import: പ്രയോഗിക്കുക / ഇറക്കുമത�
 Apply changes: മാറ്റങ്ങൾ പ്രയോഗിക്കുക
 Apply Filters: ഫിൽട്ടറുകൾ പ്രയോഗിക്കുക
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI വീണ്ടും ലോഡുചെയ്യണമെന്ന് തീർച്ചയാണോ?\n\nഇൻ്റർഫേസ് പുനരാരംഭിക്കും (കുറച്ച് നിമിഷങ്ങൾക്കുള്ള കറുത്ത സ്‌ക്രീൻ).
+Auto (recommended): സ്വയമേവ (ശുപാർശ ചെയ്യുന്നത്)
 Auto-detect: സ്വയമേവ കണ്ടെത്തുക
 Automatic check on startup – or click 'Check for updates' in Tools menu.: സ്റ്റാർട്ടപ്പിൽ സ്വയമേവയുള്ള പരിശോധന - അല്ലെങ്കിൽ ടൂൾസ് മെനുവിലെ 'അപ്‌ഡേറ്റുകൾക്കായി പരിശോധിക്കുക' ക്ലിക്ക് ചെയ്യുക.
 Bouquet Name: പൂച്ചെണ്ട് പേര്
@@ -95,6 +96,7 @@ Developed by Lululla: ലുലുല്ല വികസിപ്പിച്ച
 Developer: Lululla: ഡെവലപ്പർ: ലുലുല്ല
 Disconnect: വിച്ഛേദിക്കുക
 Disconnected: വിച്ഛേദിച്ചു
+Display as: : ഇതായി പ്രദർശിപ്പിക്കുക:
 Do you want to load this edited playlist now?: എഡിറ്റ് ചെയ്‌ത ഈ പ്ലേലിസ്റ്റ് ഇപ്പോൾ ലോഡുചെയ്യണോ?
 Double speed (2x): ഇരട്ട വേഗത (2x)
 Downloading playlist...: പ്ലേലിസ്റ്റ് ഡൗൺലോഡ് ചെയ്യുന്നു...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: അസാധുവായ JSON: {0}
 Invalid playlist URL.: അസാധുവായ പ്ലേലിസ്റ്റ് URL.
 Invalid URL.: അസാധുവായ URL.
 Json: ജെസൺ
+JSON: JSON
 JSON parsing error: {0}: JSON പാഴ്‌സിംഗ് പിശക്: {0}
 JSON Property: JSON പ്രോപ്പർട്ടി
 Ko-fi: കോഫി
@@ -228,6 +231,7 @@ Logos Matching Threshold: ലോഗോകൾ പൊരുത്തപ്പെ�
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: ലോഗോസ് ശേഖരം - ഉടമ/റിപ്പോ/പാത്ത് തിരഞ്ഞെടുക്കുക (സ്ഥിര ഉടമ പ്ലഗിനുകൾ/ലോഗോകൾ).
 Logos Source: ലോഗോകളുടെ ഉറവിടം
 Logos Subfolder: ലോഗോ സബ്ഫോൾഡർ
+M3U: M3U
 M3U parsing error: {0}: M3U പാഴ്‌സിംഗ് പിശക്: {0}
 Map JSON properties to channel fields:: ചാനൽ ഫീൽഡുകളിലേക്ക് JSON പ്രോപ്പർട്ടികൾ മാപ്പ് ചെയ്യുക:
 Mapping saved for future imports of this file.: ഈ ഫയലിൻ്റെ ഭാവി ഇറക്കുമതികൾക്കായി മാപ്പിംഗ് സംരക്ഷിച്ചു.
@@ -283,8 +287,8 @@ Paused: താൽക്കാലികമായി നിർത്തി
 PayPal: പേപാൽ
 Picture-in-Picture mode: പിക്ചർ-ഇൻ-പിക്ചർ മോഡ്
 Play/Pause: പ്ലേ/താൽക്കാലികമായി നിർത്തുക
-Player Controls: പ്ലെയർ നിയന്ത്രണങ്ങൾ
-Playing: കളിക്കുന്നു
+Player Media Controls: പ്ലെയർ മീഡിയ നിയന്ത്രണങ്ങൾ
+Playing Media: മീഡിയ പ്ലേ ചെയ്യുന്നു
 Playlist & Groups: പ്ലേലിസ്റ്റും ഗ്രൂപ്പുകളും
 Playlist Comparison: പ്ലേലിസ്റ്റ് താരതമ്യം
 Playlist Editor: പ്ലേലിസ്റ്റ് എഡിറ്റർ

@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • מהירות השמעה: כפתורים 0.5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • מיין כל עמודה על ידי לחיצה על הכותרת; השתמש ב'אפס הזמנה' כדי לחזור להזמנה המקורית.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • הסטת זמן: השהה שידור חי; גרור את המחוון כדי לחפש אחורה; לחץ על 'חי' כדי לחזור.
-▶ Play: ▶ לשחק
+▶ Play Media: ▶ הפעל מדיה
 ◀ Previous: ◀ הקודם
 16 colour themes + Light/Dark variants.: 16 ערכות נושא צבע + גרסאות בהירות/כהות.
 A new version is available. Do you want to update now?: גרסה חדשה זמינה. רוצה לעדכן עכשיו?
@@ -34,6 +34,7 @@ Apply / Import: החל/ייבוא
 Apply changes: החל שינויים
 Apply Filters: החל מסננים
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: האם אתה בטוח שברצונך לטעון מחדש את ה-Enigma2 GUI?\n\nהממשק יופעל מחדש (מסך שחור למשך מספר שניות).
+Auto (recommended): אוטומטי (מומלץ)
 Auto-detect: זיהוי אוטומטי
 Automatic check on startup – or click 'Check for updates' in Tools menu.: בדיקה אוטומטית בעת האתחול - או לחץ על 'חפש עדכונים' בתפריט כלים.
 Bouquet Name: שם זר
@@ -95,6 +96,7 @@ Developed by Lululla: פותח על ידי Lululla
 Developer: Lululla: מפתח: Lululla
 Disconnect: לְנַתֵק
 Disconnected: מְנוּתָק
+Display as: : הצג כ:
 Do you want to load this edited playlist now?: האם אתה רוצה לטעון את הפלייליסט הערוך הזה עכשיו?
 Double speed (2x): מהירות כפולה (2x)
 Downloading playlist...: מוריד רשימת השמעה...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: JSON לא חוקי: {0}
 Invalid playlist URL.: כתובת אתר לא חוקית של פלייליסט.
 Invalid URL.: כתובת אתר לא חוקית.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: שגיאת ניתוח JSON: {0}
 JSON Property: נכס JSON
 Ko-fi: קָפֶה
@@ -228,6 +231,7 @@ Logos Matching Threshold: סף התאמת לוגו
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: מאגר לוגואים - בחר בעלים/מאגר/נתיב (ברירת מחדל OwnerPlugins/לוגו).
 Logos Source: מקור לוגו
 Logos Subfolder: תיקיית משנה לוגו
+M3U: M3U
 M3U parsing error: {0}: שגיאת ניתוח M3U: {0}
 Map JSON properties to channel fields:: מיפוי מאפייני JSON לשדות ערוצים:
 Mapping saved for future imports of this file.: המיפוי נשמר עבור ייבוא ​​עתידי של קובץ זה.
@@ -283,8 +287,8 @@ Paused: מושהה
 PayPal: PayPal
 Picture-in-Picture mode: מצב תמונה-בתמונה
 Play/Pause: הפעל/השהה
-Player Controls: בקרות נגן
-Playing: משחק
+Player Media Controls: בקרות מדיה של נגן
+Playing Media: משחק מדיה
 Playlist & Groups: פלייליסט וקבוצות
 Playlist Comparison: השוואת פלייליסטים
 Playlist Editor: עורך רשימות השמעה

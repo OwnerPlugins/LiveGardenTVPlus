@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Брзина на репродукција: копчиња 0,5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Сортирајте која било колона со кликнување на заглавието; користете „Ресетирање нарачка“ за да се вратите на првобитната нарачка.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: паузирајте го преносот во живо; повлечете го лизгачот за да барате назад; притиснете „Во живо“ за да се вратите.
-▶ Play: ▶ Играј
+▶ Play Media: ▶ Play Media
 ◀ Previous: ◀ Претходно
 16 colour themes + Light/Dark variants.: 16 теми во боја + светло/темни варијанти.
 A new version is available. Do you want to update now?: Достапна е нова верзија. Дали сакате да ажурирате сега?
@@ -34,6 +34,7 @@ Apply / Import: Примени / увези
 Apply changes: Примени промени
 Apply Filters: Примени филтри
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Дали сте сигурни дека сакате повторно да го вчитате Enigma2 GUI?\n\nИнтерфејсот ќе се рестартира (црн екран неколку секунди).
+Auto (recommended): Автоматски (препорачано)
 Auto-detect: Автоматско откривање
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Автоматска проверка при стартување – или кликнете на „Провери за ажурирања“ во менито Алатки.
 Bouquet Name: Име на букет
@@ -95,6 +96,7 @@ Developed by Lululla: Развиено од Лулула
 Developer: Lululla: Развивач: Lululla
 Disconnect: Исклучете се
 Disconnected: Исклучено
+Display as: : Прикажи како:
 Do you want to load this edited playlist now?: Дали сакате да ја вчитате оваа изменета плејлиста сега?
 Double speed (2x): Двојна брзина (2x)
 Downloading playlist...: Се презема плејлиста...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: Неважечки JSON: {0}
 Invalid playlist URL.: Неважечка URL-адреса на плејлистата.
 Invalid URL.: Неважечка URL-адреса.
 Json: Џејсон
+JSON: JSON
 JSON parsing error: {0}: Грешка при парсирање на JSON: {0}
 JSON Property: Својство на JSON
 Ko-fi: Кафе
@@ -228,6 +231,7 @@ Logos Matching Threshold: Праг за совпаѓање на логоа
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Складиште за логоа – изберете сопственик/репо/патека (стандардни OwnerPlugins/логоа).
 Logos Source: Извор на логоа
 Logos Subfolder: Потпапка со логоа
+M3U: M3U
 M3U parsing error: {0}: Грешка при парсирање на M3U: {0}
 Map JSON properties to channel fields:: Картирај ги својствата на JSON во полињата за канали:
 Mapping saved for future imports of this file.: Мапирањето е зачувано за идно увоз на оваа датотека.
@@ -283,8 +287,8 @@ Paused: Паузирано
 PayPal: PayPal
 Picture-in-Picture mode: Режим слика во слика
 Play/Pause: Пушти/Пауза
-Player Controls: Контроли на играч
-Playing: Играње
+Player Media Controls: Медиумски контроли на плеерот
+Playing Media: Репродукција на медиуми
 Playlist & Groups: Плејлиста и групи
 Playlist Comparison: Споредба на плејлисти
 Playlist Editor: Уредувач на плејлисти

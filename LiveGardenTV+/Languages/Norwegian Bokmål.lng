@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Avspillingshastighet: 0,5x, 1x, 2x knapper.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sorter hvilken som helst kolonne ved å klikke på overskriften; bruk 'Tilbakestill ordre' for å gå tilbake til opprinnelig ordre.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Tidsforskyvning: pause direktesending; dra glidebryteren for å søke tilbake; trykk "Live" for å gå tilbake.
-▶ Play: ▶ Spill
+▶ Play Media: ▶ Spill av media
 ◀ Previous: ◀ Forrige
 16 colour themes + Light/Dark variants.: 16 fargetemaer + Lys/Mørke varianter.
 A new version is available. Do you want to update now?: En ny versjon er tilgjengelig. Vil du oppdatere nå?
@@ -34,6 +34,7 @@ Apply / Import: Bruk / Importer
 Apply changes: Bruk endringer
 Apply Filters: Bruk filtre
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Er du sikker på at du vil laste inn Enigma2 GUI på nytt?\n\nGrensesnittet vil starte på nytt (svart skjerm i noen sekunder).
+Auto (recommended): Auto (anbefalt)
 Auto-detect: Automatisk gjenkjenning
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatisk sjekk ved oppstart – eller klikk "Se etter oppdateringer" i Verktøy-menyen.
 Bouquet Name: Bukettnavn
@@ -95,6 +96,7 @@ Developed by Lululla: Utviklet av Lululla
 Developer: Lululla: Utvikler: Lululla
 Disconnect: Frakople
 Disconnected: Koblet fra
+Display as: : Vis som:
 Do you want to load this edited playlist now?: Vil du laste denne redigerte spillelisten nå?
 Double speed (2x): Dobbel hastighet (2x)
 Downloading playlist...: Laster ned spilleliste...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: Ugyldig JSON: {0}
 Invalid playlist URL.: Ugyldig nettadresse for spilleliste.
 Invalid URL.: Ugyldig URL.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: JSON-parsefeil: {0}
 JSON Property: JSON-eiendom
 Ko-fi: Kaffe
@@ -228,6 +231,7 @@ Logos Matching Threshold: Matchende terskel for logoer
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logolager – velg eier/repo/bane (standard OwnerPlugins/logoer).
 Logos Source: Logoer Kilde
 Logos Subfolder: Logoer undermappe
+M3U: M3U
 M3U parsing error: {0}: M3U-parsefeil: {0}
 Map JSON properties to channel fields:: Tilordne JSON-egenskaper til kanalfelt:
 Mapping saved for future imports of this file.: Kartlegging lagret for fremtidig import av denne filen.
@@ -283,8 +287,8 @@ Paused: Pause
 PayPal: PayPal
 Picture-in-Picture mode: Bilde-i-bilde-modus
 Play/Pause: Spill av/pause
-Player Controls: Spillerkontroller
-Playing: Spiller
+Player Media Controls: Mediakontroller for spilleren
+Playing Media: Spiller av media
 Playlist & Groups: Spilleliste og grupper
 Playlist Comparison: Sammenligning av spillelister
 Playlist Editor: Spillelisteredigering

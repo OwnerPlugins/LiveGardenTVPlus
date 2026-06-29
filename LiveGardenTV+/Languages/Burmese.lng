@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • ပြန်ဖွင့်နှုန်း- 0.5x၊ 1x၊ 2x ခလုတ်များ။
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • ခေါင်းစီးကိုနှိပ်ခြင်းဖြင့် မည်သည့်ကော်လံကိုမဆို စီပါ။ မူရင်းအမှာစာသို့ ပြန်သွားရန် 'Reset Order' ကိုသုံးပါ။
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift- တိုက်ရိုက်ထုတ်လွှင့်မှုကို ခဏရပ်ပါ။ ပြန်ရှာရန် slider ကိုဆွဲယူပါ။ ပြန်လာရန် 'Live' ကိုနှိပ်ပါ။
-▶ Play: ▶ ကစားပါ။
+▶ Play Media: ▶ မီဒီယာဖွင့်ပါ။
 ◀ Previous: ◀ ယခင်
 16 colour themes + Light/Dark variants.: အရောင် ၁၆ ရောင် အပြင်အဆင် + အလင်း/အမှောင် ဗားရှင်းများ။
 A new version is available. Do you want to update now?: ဗားရှင်းအသစ်တစ်ခု ရပါပြီ။ ယခု အပ်ဒိတ်လုပ်လိုပါသလား။
@@ -34,6 +34,7 @@ Apply / Import: လျှောက်ထား/တင်သွင်းပါ။
 Apply changes: အပြောင်းအလဲများကို အသုံးချပါ။
 Apply Filters: စစ်ထုတ်မှုများကို အသုံးပြုပါ။
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI ကို ပြန်လည်စတင်လိုသည်မှာ သေချာပါသလား။\n\nအင်တာဖေ့စ်သည် ပြန်လည်စတင်ပါမည် (စက္ကန့်အနည်းငယ်ကြာ အနက်ရောင်မျက်နှာပြင်)။
+Auto (recommended): အလိုအလျောက် (အကြံပြုထားသည်)
 Auto-detect: အလိုအလျောက် သိရှိနိုင်သည်။
 Automatic check on startup – or click 'Check for updates' in Tools menu.: စတင်ခြင်းတွင် အလိုအလျောက်စစ်ဆေးခြင်း – သို့မဟုတ် Tools မီနူးရှိ 'မွမ်းမံမှုများကို စစ်ဆေးပါ' ကိုနှိပ်ပါ။
 Bouquet Name: ပန်းစည်းအမည်
@@ -95,6 +96,7 @@ Developed by Lululla: Lululla မှတီထွင်ခဲ့သည်။
 Developer: Lululla: ပြုစုသူ- Lululla
 Disconnect: အဆက်အသွယ်ဖြတ်ပါ။
 Disconnected: အဆက်ပြတ်သွားသည်။
+Display as: : အဖြစ်ပြသရန်-
 Do you want to load this edited playlist now?: ဤတည်းဖြတ်ထားသော အစီအစဉ်ကို ယခုဖွင့်လိုပါသလား။
 Double speed (2x): နှစ်ချက်အရှိန် (2x)
 Downloading playlist...: အစီအစဉ်ကို ဒေါင်းလုဒ်လုပ်နေသည်...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: မမှန်ကန်သော JSON- {0}
 Invalid playlist URL.: မမှန်ကန်သော အစီအစဉ် URL။
 Invalid URL.: မမှန်ကန်သော URL
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: JSON ခွဲခြမ်းစိတ်ဖြာမှု အမှား- {0}
 JSON Property: JSON အိမ်ခြံမြေ
 Ko-fi: ကော်ဖီ
@@ -228,6 +231,7 @@ Logos Matching Threshold: Logos ကိုက်ညီမှုအဆင့်
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logos သိုလှောင်မှု – ပိုင်ရှင်/repo/path (မူလ OwnerPlugins/logos) ကို ရွေးပါ။
 Logos Source: Logos အရင်းအမြစ်
 Logos Subfolder: Logos ဖိုင်တွဲ
+M3U: M3U
 M3U parsing error: {0}: M3U ခွဲခြမ်းစိတ်ဖြာမှု အမှား- {0}
 Map JSON properties to channel fields:: ချန်နယ်အကွက်များသို့ JSON ဂုဏ်သတ္တိများကို မြေပုံဆွဲပါ-
 Mapping saved for future imports of this file.: ဤဖိုင်၏ အနာဂတ်တင်သွင်းမှုများအတွက် မြေပုံကို သိမ်းဆည်းထားသည်။
@@ -283,8 +287,8 @@ Paused: ရပ်ထားသည်။
 PayPal: PayPal
 Picture-in-Picture mode: ရုပ်ပုံ-ပုံ-ပုံမုဒ်
 Play/Pause: ဖွင့်/ခေတ္တရပ်ပါ။
-Player Controls: ကစားသမားထိန်းချုပ်မှုများ
-Playing: ကစားခြင်း။
+Player Media Controls: ပလေယာမီဒီယာ ထိန်းချုပ်မှုများ
+Playing Media: မီဒီယာဖွင့်ခြင်း။
 Playlist & Groups: အစီအစဉ်နှင့် အဖွဲ့များ
 Playlist Comparison: အစီအစဉ် နှိုင်းယှဉ်မှု
 Playlist Editor: အစီအစဉ်တည်းဖြတ်သူ

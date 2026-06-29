@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Shpejtësia e luajtjes: butona 0.5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Rendit çdo kolonë duke klikuar kokën; përdorni "Reset Order" për t'u kthyer në porosinë origjinale.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: ndaloni transmetimin e drejtpërdrejtë; tërhiq rrëshqitësin për të kërkuar prapa; shtypni 'Live' për t'u kthyer.
-▶ Play: ▶ Luaj
+▶ Play Media: ▶ Luaj Media
 ◀ Previous: ◀ E mëparshme
 16 colour themes + Light/Dark variants.: 16 tema ngjyrash + variante të lehta/të errëta.
 A new version is available. Do you want to update now?: Një version i ri është në dispozicion. Dëshiron ta përditësosh tani?
@@ -34,6 +34,7 @@ Apply / Import: Aplikoni / Importoni
 Apply changes: Aplikoni ndryshimet
 Apply Filters: Aplikoni filtrat
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Jeni i sigurt që dëshironi të ringarkoni GUI-në Enigma2?\n\nNdërfaqja do të riniset (ekrani i zi për disa sekonda).
+Auto (recommended): Auto (rekomandohet)
 Auto-detect: Zbulimi automatik
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Kontroll automatik gjatë nisjes – ose kliko 'Kontrollo për përditësime' në menynë e Veglave.
 Bouquet Name: Emri i buqetës
@@ -95,6 +96,7 @@ Developed by Lululla: Zhvilluar nga Lululla
 Developer: Lululla: Zhvilluesi: Lululla
 Disconnect: Shkëputeni
 Disconnected: E shkëputur
+Display as: : Shfaq si:
 Do you want to load this edited playlist now?: Dëshiron ta ngarkosh këtë listë luajtjeje të modifikuar tani?
 Double speed (2x): Shpejtësia e dyfishtë (2x)
 Downloading playlist...: Lista e luajtjes po shkarkohet...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: JSON i pavlefshëm: {0}
 Invalid playlist URL.: URL e pavlefshme e listës për luajtje.
 Invalid URL.: URL e pavlefshme.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: Gabim analizimi JSON: {0}
 JSON Property: Pronë JSON
 Ko-fi: Kafe
@@ -228,6 +231,7 @@ Logos Matching Threshold: Pragu i përputhjes së logove
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Depoja e logove – zgjidhni pronarin/repo/shtegun (OwnerPlugins/logot e parazgjedhura).
 Logos Source: Burimi i logos
 Logos Subfolder: Nëndosja e logos
+M3U: M3U
 M3U parsing error: {0}: Gabim analizimi M3U: {0}
 Map JSON properties to channel fields:: Harto vetitë JSON në fushat e kanalit:
 Mapping saved for future imports of this file.: Harta u ruajt për importet e ardhshme të këtij skedari.
@@ -283,8 +287,8 @@ Paused: Në pauzë
 PayPal: PayPal
 Picture-in-Picture mode: Modaliteti Picture-në-Picture
 Play/Pause: Luaj/Puzë
-Player Controls: Kontrollet e lojtarit
-Playing: Duke luajtur
+Player Media Controls: Kontrollet e medias së luajtësit
+Playing Media: Luajtja e mediave
 Playlist & Groups: Lista e luajtjes dhe Grupet
 Playlist Comparison: Krahasimi i listës së luajtjes
 Playlist Editor: Redaktori i listës së luajtjes

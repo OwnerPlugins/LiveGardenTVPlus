@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Velocitat de reproducció: botons 0,5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Ordena qualsevol columna fent clic a la capçalera; utilitzeu "Restableix l'ordre" per tornar a l'ordre original.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: posa en pausa la transmissió en directe; arrossegueu el control lliscant per buscar enrere; premeu "En directe" per tornar.
-▶ Play: ▶ Jugar
+▶ Play Media: ▶ Reprodueix multimèdia
 ◀ Previous: ◀ Anterior
 16 colour themes + Light/Dark variants.: 16 temes de color + variants clar/fosc.
 A new version is available. Do you want to update now?: Una nova versió està disponible. Vols actualitzar ara?
@@ -34,6 +34,7 @@ Apply / Import: Aplicar / Importar
 Apply changes: Aplicar canvis
 Apply Filters: Aplicar filtres
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Esteu segur que voleu tornar a carregar la GUI d'Enigma2?\n\nLa interfície es reiniciarà (pantalla negra durant uns segons).
+Auto (recommended): Automàtic (recomanat)
 Auto-detect: Detecció automàtica
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Comprovació automàtica a l'inici o feu clic a "Comprova si hi ha actualitzacions" al menú Eines.
 Bouquet Name: Nom del ram
@@ -95,6 +96,7 @@ Developed by Lululla: Desenvolupat per Lululla
 Developer: Lululla: Desenvolupador: Lululla
 Disconnect: Desconnecta
 Disconnected: Desconnectat
+Display as: : Mostra com a:
 Do you want to load this edited playlist now?: Vols carregar aquesta llista de reproducció editada ara?
 Double speed (2x): Doble velocitat (2x)
 Downloading playlist...: S'està baixant la llista de reproducció...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: JSON no vàlid: {0}
 Invalid playlist URL.: L'URL de la llista de reproducció no és vàlid.
 Invalid URL.: URL no vàlid.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: Error d'anàlisi JSON: {0}
 JSON Property: Propietat JSON
 Ko-fi: Cafè
@@ -228,6 +231,7 @@ Logos Matching Threshold: Llindar de concordança de logotips
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Repositori de logotips: trieu propietari/repositori/camí (OwnerPlugins/logotips per defecte).
 Logos Source: Font de logotips
 Logos Subfolder: Subcarpeta de logotips
+M3U: M3U
 M3U parsing error: {0}: Error d'anàlisi M3U: {0}
 Map JSON properties to channel fields:: Assigna propietats JSON als camps del canal:
 Mapping saved for future imports of this file.: Mapatge desat per a futures importacions d'aquest fitxer.
@@ -283,8 +287,8 @@ Paused: En pausa
 PayPal: PayPal
 Picture-in-Picture mode: Mode d'imatge en imatge
 Play/Pause: Reproduir/Pausa
-Player Controls: Controls del jugador
-Playing: Jugant
+Player Media Controls: Controls multimèdia del reproductor
+Playing Media: Reproducció de mitjans
 Playlist & Groups: Llista de reproducció i grups
 Playlist Comparison: Comparació de llistes de reproducció
 Playlist Editor: Editor de llistes de reproducció

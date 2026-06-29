@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • ความเร็วในการเล่น: ปุ่ม 0.5x, 1x, 2x
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • จัดเรียงคอลัมน์ใด ๆ โดยการคลิกส่วนหัว; ใช้ 'รีเซ็ตคำสั่งซื้อ' เพื่อเปลี่ยนกลับเป็นคำสั่งซื้อเดิม
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • ไทม์ชิฟท์: หยุดสตรีมสดชั่วคราว; ลากแถบเลื่อนเพื่อค้นหากลับ กด 'สด' เพื่อกลับ
-▶ Play: ▶ เล่น
+▶ Play Media: ▶ เล่นสื่อ
 ◀ Previous: ◀ ก่อนหน้า
 16 colour themes + Light/Dark variants.: ธีมสี 16 สี + ธีมสีอ่อน/เข้ม
 A new version is available. Do you want to update now?: มีเวอร์ชันใหม่ให้ใช้งานแล้ว คุณต้องการอัปเดตตอนนี้หรือไม่?
@@ -34,6 +34,7 @@ Apply / Import: ใช้ / นำเข้า
 Apply changes: ใช้การเปลี่ยนแปลง
 Apply Filters: ใช้ตัวกรอง
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: คุณแน่ใจหรือไม่ว่าต้องการโหลด Enigma2 GUI ใหม่\n\nอินเทอร์เฟซจะรีสตาร์ท (หน้าจอสีดำไม่กี่วินาที)
+Auto (recommended): อัตโนมัติ (แนะนำ)
 Auto-detect: ตรวจจับอัตโนมัติ
 Automatic check on startup – or click 'Check for updates' in Tools menu.: ตรวจสอบอัตโนมัติเมื่อเริ่มต้น – หรือคลิก 'ตรวจสอบการอัปเดต' ในเมนูเครื่องมือ
 Bouquet Name: ชื่อช่อดอกไม้
@@ -95,6 +96,7 @@ Developed by Lululla: พัฒนาโดย Lululla
 Developer: Lululla: ผู้พัฒนา: Lululla
 Disconnect: ตัดการเชื่อมต่อ
 Disconnected: ตัดการเชื่อมต่อแล้ว
+Display as: : แสดงเป็น:
 Do you want to load this edited playlist now?: คุณต้องการโหลดเพลย์ลิสต์ที่แก้ไขนี้ตอนนี้หรือไม่
 Double speed (2x): ความเร็วสองเท่า (2x)
 Downloading playlist...: กำลังดาวน์โหลดเพลย์ลิสต์...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: JSON ไม่ถูกต้อง: {0}
 Invalid playlist URL.: URL เพลย์ลิสต์ไม่ถูกต้อง
 Invalid URL.: URL ไม่ถูกต้อง
 Json: เจสัน
+JSON: เจสัน
 JSON parsing error: {0}: ข้อผิดพลาดในการแยกวิเคราะห์ JSON: {0}
 JSON Property: คุณสมบัติ JSON
 Ko-fi: กาแฟ
@@ -228,6 +231,7 @@ Logos Matching Threshold: เกณฑ์การจับคู่โลโก
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: พื้นที่เก็บข้อมูลโลโก้ – เลือกเจ้าของ/repo/เส้นทาง (ค่าเริ่มต้น OwnerPlugins/โลโก้)
 Logos Source: ที่มาของโลโก้
 Logos Subfolder: โฟลเดอร์ย่อยโลโก้
+M3U: เอ็ม3ยู
 M3U parsing error: {0}: ข้อผิดพลาดในการแยกวิเคราะห์ M3U: {0}
 Map JSON properties to channel fields:: แมปคุณสมบัติ JSON กับช่องช่อง:
 Mapping saved for future imports of this file.: การแมปที่บันทึกไว้สำหรับการนำเข้าไฟล์นี้ในอนาคต
@@ -283,8 +287,8 @@ Paused: หยุดชั่วคราว
 PayPal: เพย์พาล
 Picture-in-Picture mode: โหมดภาพซ้อนภาพ
 Play/Pause: เล่น/หยุดชั่วคราว
-Player Controls: การควบคุมผู้เล่น
-Playing: กำลังเล่น
+Player Media Controls: การควบคุมสื่อของเครื่องเล่น
+Playing Media: กำลังเล่นสื่อ
 Playlist & Groups: เพลย์ลิสต์และกลุ่ม
 Playlist Comparison: การเปรียบเทียบเพลย์ลิสต์
 Playlist Editor: ตัวแก้ไขเพลย์ลิสต์

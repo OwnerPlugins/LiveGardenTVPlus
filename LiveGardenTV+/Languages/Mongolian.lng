@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Тоглуулах хурд: 0.5x, 1x, 2x товчлуурууд.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Толгой хэсэгт дарж дурын баганыг эрэмбэлэх; Анхны дараалал руу буцахын тулд "Захиалга дахин тохируулах"-г ашиглана уу.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: шууд дамжуулалтыг түр зогсоох; буцаж хайхын тулд гулсагчийг чирнэ үү; Буцахын тулд "Шууд" дээр дарна уу.
-▶ Play: ▶ Тоглох
+▶ Play Media: ▶ Медиа тоглуулах
 ◀ Previous: ◀ Өмнөх
 16 colour themes + Light/Dark variants.: 16 өнгөт загвар + Гэрэл/Харанхуй хувилбарууд.
 A new version is available. Do you want to update now?: Шинэ хувилбар гарсан байна. Та одоо шинэчлэхийг хүсч байна уу?
@@ -34,6 +34,7 @@ Apply / Import: Хэрэглэх / Импортлох
 Apply changes: Өөрчлөлтийг хэрэгжүүлэх
 Apply Filters: Шүүлтүүр хэрэглэх
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Та Enigma2 GUI-г дахин ачаалахдаа итгэлтэй байна уу?\n\nИнтерфэйс дахин асах болно (хэдхэн секундын турш хар дэлгэц).
+Auto (recommended): Автомат (санал болгосон)
 Auto-detect: Автоматаар илрүүлэх
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Ачаалах үед автоматаар шалгах - эсвэл Tools цэсний "Шинэчлэлтүүдийг шалгах" дээр дарна уу.
 Bouquet Name: Bouquet нэр
@@ -95,6 +96,7 @@ Developed by Lululla: Лулулла боловсруулсан
 Developer: Lululla: Хөгжүүлэгч: Лулулла
 Disconnect: Салга
 Disconnected: Салгасан
+Display as: : Дараах байдлаар харуулах:
 Do you want to load this edited playlist now?: Та энэ засварласан тоглуулах жагсаалтыг одоо ачаалмаар байна уу?
 Double speed (2x): Давхар хурд (2x)
 Downloading playlist...: Тоглуулах жагсаалтыг татаж байна...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: Буруу JSON: {0}
 Invalid playlist URL.: Тоглуулах жагсаалтын URL буруу байна.
 Invalid URL.: Хүчингүй URL.
 Json: Жсон
+JSON: JSON
 JSON parsing error: {0}: JSON задлан шинжлэх алдаа: {0}
 JSON Property: JSON өмч
 Ko-fi: Кофе
@@ -228,6 +231,7 @@ Logos Matching Threshold: Лого таарах босго
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Логоны агуулах – эзэмшигч/репо/замыг сонгоно уу (өгөгдмөл OwnerPlugins/logos).
 Logos Source: Логоны эх сурвалж
 Logos Subfolder: Логоны дэд хавтас
+M3U: M3U
 M3U parsing error: {0}: M3U задлан шинжлэх алдаа: {0}
 Map JSON properties to channel fields:: JSON шинж чанарыг сувгийн талбарт буулгах:
 Mapping saved for future imports of this file.: Энэ файлын цаашдын импортын зураглалыг хадгалсан.
@@ -283,8 +287,8 @@ Paused: Түр зогсоосон
 PayPal: PayPal
 Picture-in-Picture mode: Зураг доторх горим
 Play/Pause: Тоглуулах/түр зогсоох
-Player Controls: Тоглогчийн удирдлага
-Playing: Тоглож байна
+Player Media Controls: Тоглогчийн медиа удирдлага
+Playing Media: Медиа тоглуулж байна
 Playlist & Groups: Тоглуулах жагсаалт ба бүлгүүд
 Playlist Comparison: Тоглуулах жагсаалтын харьцуулалт
 Playlist Editor: Тоглуулах жагсаалт засварлагч

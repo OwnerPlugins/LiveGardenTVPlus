@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • ਪਲੇਬੈਕ ਸਪੀਡ: 0.5x, 1x, 2x ਬਟਨ।
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • ਹੈਡਰ 'ਤੇ ਕਲਿੱਕ ਕਰਕੇ ਕਿਸੇ ਵੀ ਕਾਲਮ ਨੂੰ ਕ੍ਰਮਬੱਧ ਕਰੋ; ਮੂਲ ਕ੍ਰਮ 'ਤੇ ਵਾਪਸ ਜਾਣ ਲਈ 'ਰੀਸੈਟ ਆਰਡਰ' ਦੀ ਵਰਤੋਂ ਕਰੋ।
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • ਟਾਈਮਸ਼ਿਫਟ: ਲਾਈਵ ਸਟ੍ਰੀਮ ਨੂੰ ਰੋਕੋ; ਵਾਪਸ ਲੱਭਣ ਲਈ ਸਲਾਈਡਰ ਨੂੰ ਖਿੱਚੋ; ਵਾਪਸ ਜਾਣ ਲਈ 'ਲਾਈਵ' ਦਬਾਓ।
-▶ Play: ▶ ਖੇਡੋ
+▶ Play Media: ▶ ਮੀਡੀਆ ਚਲਾਓ
 ◀ Previous: ◀ ਪਿਛਲਾ
 16 colour themes + Light/Dark variants.: 16 ਰੰਗ ਦੇ ਥੀਮ + ਹਲਕੇ/ਗੂੜ੍ਹੇ ਰੂਪ।
 A new version is available. Do you want to update now?: ਇੱਕ ਨਵਾਂ ਸੰਸਕਰਣ ਉਪਲਬਧ ਹੈ। ਕੀ ਤੁਸੀਂ ਹੁਣੇ ਅੱਪਡੇਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?
@@ -34,6 +34,7 @@ Apply / Import: ਲਾਗੂ ਕਰੋ / ਆਯਾਤ ਕਰੋ
 Apply changes: ਤਬਦੀਲੀਆਂ ਲਾਗੂ ਕਰੋ
 Apply Filters: ਫਿਲਟਰ ਲਾਗੂ ਕਰੋ
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ 'ਤੇ Enigma2 GUI ਨੂੰ ਰੀਲੋਡ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?\n\nਇੰਟਰਫੇਸ ਰੀਸਟਾਰਟ ਹੋਵੇਗਾ (ਕੁਝ ਸਕਿੰਟਾਂ ਲਈ ਕਾਲੀ ਸਕ੍ਰੀਨ)।
+Auto (recommended): ਆਟੋ (ਸਿਫਾਰਸ਼ੀ)
 Auto-detect: ਸਵੈ-ਖੋਜ
 Automatic check on startup – or click 'Check for updates' in Tools menu.: ਸਟਾਰਟਅੱਪ 'ਤੇ ਆਟੋਮੈਟਿਕ ਜਾਂਚ - ਜਾਂ ਟੂਲਸ ਮੀਨੂ ਵਿੱਚ 'ਅਪਡੇਟਸ ਲਈ ਜਾਂਚ ਕਰੋ' 'ਤੇ ਕਲਿੱਕ ਕਰੋ।
 Bouquet Name: ਗੁਲਦਸਤਾ ਨਾਮ
@@ -95,6 +96,7 @@ Developed by Lululla: ਲੁਲੁਲਾ ਦੁਆਰਾ ਵਿਕਸਿਤ ਕ�
 Developer: Lululla: ਵਿਕਾਸਕਾਰ: ਲੁਲੁਲਾ
 Disconnect: ਡਿਸਕਨੈਕਟ ਕਰੋ
 Disconnected: ਡਿਸਕਨੈਕਟ ਕੀਤਾ
+Display as: : ਇਸ ਤਰ੍ਹਾਂ ਦਿਖਾਓ:
 Do you want to load this edited playlist now?: ਕੀ ਤੁਸੀਂ ਹੁਣੇ ਇਸ ਸੰਪਾਦਿਤ ਪਲੇਲਿਸਟ ਨੂੰ ਲੋਡ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?
 Double speed (2x): ਡਬਲ ਸਪੀਡ (2x)
 Downloading playlist...: ਪਲੇਲਿਸਟ ਡਾਊਨਲੋਡ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: ਅਵੈਧ JSON: {0}
 Invalid playlist URL.: ਅਵੈਧ ਪਲੇਲਿਸਟ URL।
 Invalid URL.: ਅਵੈਧ URL।
 Json: ਜੇਸਨ
+JSON: JSON
 JSON parsing error: {0}: JSON ਪਾਰਸਿੰਗ ਗਲਤੀ: {0}
 JSON Property: JSON ਸੰਪੱਤੀ
 Ko-fi: ਕਾਫੀ
@@ -228,6 +231,7 @@ Logos Matching Threshold: ਲੋਗੋ ਮੈਚਿੰਗ ਥ੍ਰੈਸ਼ਹ�
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: ਲੋਗੋ ਰਿਪੋਜ਼ਟਰੀ - ਮਾਲਕ/ਰੇਪੋ/ਪਾਥ (ਡਿਫੌਲਟ ਮਾਲਕ ਪਲੱਗਇਨ/ਲੋਗੋ) ਦੀ ਚੋਣ ਕਰੋ।
 Logos Source: ਲੋਗੋ ਸਰੋਤ
 Logos Subfolder: ਲੋਗੋ ਸਬਫੋਲਡਰ
+M3U: M3U
 M3U parsing error: {0}: M3U ਪਾਰਸਿੰਗ ਗਲਤੀ: {0}
 Map JSON properties to channel fields:: ਚੈਨਲ ਖੇਤਰਾਂ ਲਈ JSON ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਾ ਨਕਸ਼ਾ:
 Mapping saved for future imports of this file.: ਇਸ ਫ਼ਾਈਲ ਦੇ ਭਵਿੱਖੀ ਆਯਾਤ ਲਈ ਮੈਪਿੰਗ ਸੁਰੱਖਿਅਤ ਕੀਤੀ ਗਈ ਹੈ।
@@ -283,8 +287,8 @@ Paused: ਰੋਕਿਆ ਗਿਆ
 PayPal: ਪੇਪਾਲ
 Picture-in-Picture mode: ਪਿਕਚਰ-ਇਨ-ਪਿਕਚਰ ਮੋਡ
 Play/Pause: ਚਲਾਓ/ਰੋਕੋ
-Player Controls: ਪਲੇਅਰ ਨਿਯੰਤਰਣ
-Playing: ਖੇਡ ਰਿਹਾ ਹੈ
+Player Media Controls: ਪਲੇਅਰ ਮੀਡੀਆ ਨਿਯੰਤਰਣ
+Playing Media: ਮੀਡੀਆ ਚਲਾ ਰਿਹਾ ਹੈ
 Playlist & Groups: ਪਲੇਲਿਸਟ ਅਤੇ ਸਮੂਹ
 Playlist Comparison: ਪਲੇਲਿਸਟ ਤੁਲਨਾ
 Playlist Editor: ਪਲੇਲਿਸਟ ਸੰਪਾਦਕ

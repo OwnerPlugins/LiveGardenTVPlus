@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Uppspelningshastighet: 0,5x, 1x, 2x knappar.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sortera valfri kolumn genom att klicka på rubriken; använd 'Återställ beställning' för att återgå till den ursprungliga beställningen.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: pausa livestream; dra reglaget för att söka tillbaka; tryck på "Live" för att gå tillbaka.
-▶ Play: ▶ Spela
+▶ Play Media: ▶ Spela media
 ◀ Previous: ◀ Föregående
 16 colour themes + Light/Dark variants.: 16 färgteman + ljus/mörk varianter.
 A new version is available. Do you want to update now?: En ny version finns tillgänglig. Vill du uppdatera nu?
@@ -34,6 +34,7 @@ Apply / Import: Applicera / Importera
 Apply changes: Tillämpa ändringar
 Apply Filters: Använd filter
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Är du säker på att du vill ladda om Enigma2 GUI?\n\nGränssnittet kommer att starta om (svart skärm i några sekunder).
+Auto (recommended): Auto (rekommenderas)
 Auto-detect: Automatisk upptäckt
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatisk kontroll vid start – eller klicka på "Sök efter uppdateringar" i Verktyg-menyn.
 Bouquet Name: Bukettnamn
@@ -95,6 +96,7 @@ Developed by Lululla: Utvecklad av Lululla
 Developer: Lululla: Utvecklare: Lululla
 Disconnect: Koppla från
 Disconnected: Osammanhängande
+Display as: : Visa som:
 Do you want to load this edited playlist now?: Vill du ladda den här redigerade spellistan nu?
 Double speed (2x): Dubbel hastighet (2x)
 Downloading playlist...: Laddar ned spellista...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: Ogiltig JSON: {0}
 Invalid playlist URL.: Ogiltig webbadress för spellistan.
 Invalid URL.: Ogiltig webbadress.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: JSON-tolkningsfel: {0}
 JSON Property: JSON-egendom
 Ko-fi: Kaffe
@@ -228,6 +231,7 @@ Logos Matching Threshold: Matchande tröskel för logotyper
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logotyper – välj ägare/repo/sökväg (standard OwnerPlugins/logotyper).
 Logos Source: Logotyper källa
 Logos Subfolder: Logotyper undermapp
+M3U: M3U
 M3U parsing error: {0}: M3U-tolkningsfel: {0}
 Map JSON properties to channel fields:: Mappa JSON-egenskaper till kanalfält:
 Mapping saved for future imports of this file.: Mappningen har sparats för framtida importer av den här filen.
@@ -283,8 +287,8 @@ Paused: Pausad
 PayPal: PayPal
 Picture-in-Picture mode: Bild-i-bild-läge
 Play/Pause: Spela/Pausa
-Player Controls: Spelarkontroller
-Playing: Spelar
+Player Media Controls: Spelarens mediakontroller
+Playing Media: Spelar media
 Playlist & Groups: Spellista och grupper
 Playlist Comparison: Jämförelse av spellistor
 Playlist Editor: Spellista Editor

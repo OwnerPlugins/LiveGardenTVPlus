@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Astar ath-chluich: putanan 0.5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Deasaich colbh sam bith le bhith a' briogadh air bann-cinn; cleachd ‘Reset Order’ gus tilleadh chun òrdugh tùsail.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Gluasad ùine: stad air an t-sruth bheò; slaod sleamhnachan a shireadh air ais; brùth 'Live' gus tilleadh.
-▶ Play: ▶ Cluich
+▶ Play Media: ▶ Cluich na meadhanan
 ◀ Previous: ◀ Roimhe
 16 colour themes + Light/Dark variants.: 16 cuspairean dath + caochlaidhean aotrom / dorcha.
 A new version is available. Do you want to update now?: Tha dreach ùr ri fhaighinn. A bheil thu airson ùrachadh a-nis?
@@ -34,6 +34,7 @@ Apply / Import: Cuir a-steach / Import
 Apply changes: Cuir atharrachaidhean an sàs
 Apply Filters: Cuir a-steach sìoltachain
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: A bheil thu cinnteach gu bheil thu airson an Enigma2 GUI ath-luchdachadh?\n\nTòisichidh an eadar-aghaidh (sgrion dubh airson beagan dhiog).
+Auto (recommended): Auto (air a mholadh)
 Auto-detect: Lorg gu fèin-obrachail
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Dèan sgrùdadh fèin-ghluasadach air tòiseachadh - no cliog air ‘Thoir sùil airson ùrachaidhean’ ann an clàr Innealan.
 Bouquet Name: Ainm Bouquet
@@ -95,6 +96,7 @@ Developed by Lululla: Air a leasachadh le Lululla
 Developer: Lululla: Leasaiche: Lululla
 Disconnect: Disconnect
 Disconnected: Air a dhì-cheangal
+Display as: : Taisbeanadh mar:
 Do you want to load this edited playlist now?: A bheil thu airson an liosta-cluiche deasaichte seo a luchdachadh an-dràsta?
 Double speed (2x): Astar dùbailte (2x)
 Downloading playlist...: A luchdachadh a-nuas liosta-chluiche.. .
@@ -194,6 +196,7 @@ Invalid JSON: {0}: JSON mì-dhligheach: {0}
 Invalid playlist URL.: URL liosta-cluiche mì-dhligheach.
 Invalid URL.: URL mì-dhligheach.
 Json: Seonaidh
+JSON: JSON
 JSON parsing error: {0}: Mearachd parsaidh JSON: {0}
 JSON Property: JSON Seilbh
 Ko-fi: Cofaidh
@@ -228,6 +231,7 @@ Logos Matching Threshold: Logos Matching Threshold
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Stòr suaicheantasan - tagh sealbhadair / repo / slighe (sealbhadair gnàthachPlugins / suaicheantasan).
 Logos Source: Stòr Logos
 Logos Subfolder: Fo-phasgan suaicheantasan
+M3U: M3U
 M3U parsing error: {0}: Mearachd parsaidh M3U: {0}
 Map JSON properties to channel fields:: Mapa feartan JSON gu raointean seanail:
 Mapping saved for future imports of this file.: Chaidh am mapadh a shàbhaladh airson ion-phortadh an fhaidhle seo san àm ri teachd.
@@ -283,8 +287,8 @@ Paused: Stad
 PayPal: PayPal
 Picture-in-Picture mode: Modh dealbh-ann-Dealbh
 Play/Pause: Cluich / Stad
-Player Controls: Cluicheadairean smachd
-Playing: A' cluich
+Player Media Controls: Cluicheadair mheadhanan smachd a
+Playing Media: A' cluich meadhanan
 Playlist & Groups: Liosta-cluiche & Buidhnean
 Playlist Comparison: Coimeas liosta-chluiche
 Playlist Editor: Deasaiche liosta-chluiche

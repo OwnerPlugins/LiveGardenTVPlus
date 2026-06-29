@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Уйнау тизлеге: 0,5х, 1х, 2х төймәләр.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Башламга басып теләсә нинди багананы тәртипкә китерегез; Оригиналь тәртипкә кире кайту өчен 'Заказны яңадан торгызу' кулланыгыз.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: туры эфирны пауза итү; кире эзләү өчен слайдерны тарту; кайту өчен 'Live' басыгыз.
-▶ Play: ▶ Уйна
+▶ Play Media: Media Медиа уйнагыз
 ◀ Previous: ◀ Алдагы
 16 colour themes + Light/Dark variants.: 16 төсле тема + Якты / Караңгы вариантлар.
 A new version is available. Do you want to update now?: Яңа версия бар. Хәзер яңартасыгыз киләме?
@@ -34,6 +34,7 @@ Apply / Import: Куллану / импортлау
 Apply changes: Changesзгәрешләр кулланыгыз
 Apply Filters: Фильтрлар кулланыгыз
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI-ны яңадан йөкләргә телисезме? \ N \ n Интерфейс яңадан башланачак (берничә секунд эчендә кара экран).
+Auto (recommended): Авто (тәкъдим ителә)
 Auto-detect: Авто-ачыклау
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Стартны автоматик тикшерү - яки Кораллар менюсындагы 'Яңартуларны тикшерү' төймәсенә басыгыз.
 Bouquet Name: Букет исеме
@@ -95,6 +96,7 @@ Developed by Lululla: Лулулла тарафыннан эшләнгән
 Developer: Lululla: Төзүче: Лулулла
 Disconnect: Аерыгыз
 Disconnected: Аерылган
+Display as: : Күрсәтү:
 Do you want to load this edited playlist now?: Бу редакцияләнгән плейлистны хәзер йөкләргә телисезме?
 Double speed (2x): Ике тизлек (2х)
 Downloading playlist...: Плейлистны йөкләү ...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: Яраксыз JSON: {0}
 Invalid playlist URL.: Яраксыз плейлист URL.
 Invalid URL.: Яраксыз URL.
 Json: Джсон
+JSON: JSON
 JSON parsing error: {0}: JSON анализлау хата: {0}
 JSON Property: JSON милеге
 Ko-fi: Кофе
@@ -228,6 +231,7 @@ Logos Matching Threshold: Логотиплар бусагасы
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Логотиплар складлары - хуҗаны / репо / юлны сайлагыз (килешү буенча OwnerPlugins / логотиплар).
 Logos Source: Логос чыганагы
 Logos Subfolder: Логотиплар
+M3U: M3U
 M3U parsing error: {0}: M3U анализлау хата: {0}
 Map JSON properties to channel fields:: JSON үзлекләрен канал кырларына карта:
 Mapping saved for future imports of this file.: Бу файлның киләчәк импортлары өчен сакланган карта.
@@ -283,8 +287,8 @@ Paused: Пауза
 PayPal: PayPal
 Picture-in-Picture mode: Рәсем-рәсем режимы
 Play/Pause: Уйна / Пауза
-Player Controls: Плеер белән идарә итү
-Playing: Уйнау
+Player Media Controls: Плеер Медиа Контроль
+Playing Media: Медиа уйнау
 Playlist & Groups: Плейлист һәм төркемнәр
 Playlist Comparison: Плейлист чагыштыру
 Playlist Editor: Плейлист редакторы

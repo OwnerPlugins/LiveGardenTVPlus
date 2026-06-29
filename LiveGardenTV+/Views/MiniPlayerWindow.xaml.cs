@@ -142,7 +142,7 @@ namespace LiveGardenTVPlus.Views
                     await Player.CoreWebView2.ExecuteScriptAsync("video.play();");
                     _isPlaying = true;
                     PlayPauseBtn.Content = new PackIcon { Kind = PackIconKind.Pause, Width = 24, Height = 24 };
-                    StatusText.Text = LanguageManager.GetTranslation("Playing");
+                    StatusText.Text = LanguageManager.GetTranslation("Playing Media");
                 }
                 else
                 {
@@ -229,7 +229,7 @@ namespace LiveGardenTVPlus.Views
                     await PlayStream(Player.CoreWebView2);
                     _isPlaying = true;
                     PlayPauseBtn.Content = new PackIcon { Kind = PackIconKind.Pause, Width = 24, Height = 24 };
-                    StatusText.Text = LanguageManager.GetTranslation("Playing");
+                    StatusText.Text = LanguageManager.GetTranslation("Playing Media");
                 }
                 catch (Exception ex)
                 {

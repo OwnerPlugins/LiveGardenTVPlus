@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • ಪ್ಲೇಬ್ಯಾಕ್ ವೇಗ: 0.5x, 1x, 2x ಬಟನ್‌ಗಳು.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • ಹೆಡರ್ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ಯಾವುದೇ ಕಾಲಮ್ ಅನ್ನು ವಿಂಗಡಿಸಿ; ಮೂಲ ಕ್ರಮಕ್ಕೆ ಹಿಂತಿರುಗಲು 'ರೀಸೆಟ್ ಆರ್ಡರ್' ಅನ್ನು ಬಳಸಿ.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • ಟೈಮ್‌ಶಿಫ್ಟ್: ಲೈವ್ ಸ್ಟ್ರೀಮ್ ಅನ್ನು ವಿರಾಮಗೊಳಿಸಿ; ಹಿಂದಕ್ಕೆ ಹುಡುಕಲು ಸ್ಲೈಡರ್ ಅನ್ನು ಎಳೆಯಿರಿ; ಹಿಂತಿರುಗಲು 'ಲೈವ್' ಒತ್ತಿರಿ.
-▶ Play: ▶ ಪ್ಲೇ ಮಾಡಿ
+▶ Play Media: ▶ ಪ್ಲೇ ಮೀಡಿಯಾ
 ◀ Previous: ◀ ಹಿಂದಿನ
 16 colour themes + Light/Dark variants.: 16 ಬಣ್ಣದ ಥೀಮ್‌ಗಳು + ಲೈಟ್/ಡಾರ್ಕ್ ರೂಪಾಂತರಗಳು.
 A new version is available. Do you want to update now?: ಹೊಸ ಆವೃತ್ತಿ ಲಭ್ಯವಿದೆ. ನೀವು ಇದೀಗ ನವೀಕರಿಸಲು ಬಯಸುವಿರಾ?
@@ -34,6 +34,7 @@ Apply / Import: ಅನ್ವಯಿಸು / ಆಮದು ಮಾಡಿ
 Apply changes: ಬದಲಾವಣೆಗಳನ್ನು ಅನ್ವಯಿಸಿ
 Apply Filters: ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಅನ್ವಯಿಸಿ
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI ಅನ್ನು ಮರುಲೋಡ್ ಮಾಡಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?\n\nಇಂಟರ್ಫೇಸ್ ಮರುಪ್ರಾರಂಭಗೊಳ್ಳುತ್ತದೆ (ಕೆಲವು ಸೆಕೆಂಡುಗಳ ಕಾಲ ಕಪ್ಪು ಪರದೆ).
+Auto (recommended): ಸ್ವಯಂ (ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ)
 Auto-detect: ಸ್ವಯಂ ಪತ್ತೆ
 Automatic check on startup – or click 'Check for updates' in Tools menu.: ಪ್ರಾರಂಭದಲ್ಲಿ ಸ್ವಯಂಚಾಲಿತ ಪರಿಶೀಲನೆ - ಅಥವಾ ಪರಿಕರಗಳ ಮೆನುವಿನಲ್ಲಿ 'ನವೀಕರಣಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಿ' ಕ್ಲಿಕ್ ಮಾಡಿ.
 Bouquet Name: ಪುಷ್ಪಗುಚ್ಛ ಹೆಸರು
@@ -95,6 +96,7 @@ Developed by Lululla: ಲುಲುಲ್ಲಾ ಅಭಿವೃದ್ಧಿಪಡ
 Developer: Lululla: ಡೆವಲಪರ್: ಲುಲುಲ್ಲಾ
 Disconnect: ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಿ
 Disconnected: ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ
+Display as: : ಹೀಗೆ ಪ್ರದರ್ಶಿಸಿ:
 Do you want to load this edited playlist now?: ನೀವು ಈಗ ಈ ಎಡಿಟ್ ಮಾಡಿದ ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಲು ಬಯಸುವಿರಾ?
 Double speed (2x): ಡಬಲ್ ವೇಗ (2x)
 Downloading playlist...: ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: ಅಮಾನ್ಯ JSON: {0}
 Invalid playlist URL.: ಅಮಾನ್ಯ ಪ್ಲೇಪಟ್ಟಿ URL.
 Invalid URL.: ಅಮಾನ್ಯ URL.
 Json: ಜೆಸನ್
+JSON: JSON
 JSON parsing error: {0}: JSON ಪಾರ್ಸಿಂಗ್ ದೋಷ: {0}
 JSON Property: JSON ಆಸ್ತಿ
 Ko-fi: ಕಾಫಿ
@@ -228,6 +231,7 @@ Logos Matching Threshold: ಲೋಗೋಗಳ ಹೊಂದಾಣಿಕೆಯ ಮ�
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: ಲೋಗೋಸ್ ರೆಪೊಸಿಟರಿ - ಮಾಲೀಕರು/ರೆಪೊ/ಪಾತ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ (ಡೀಫಾಲ್ಟ್ ಓನರ್ ಪ್ಲಗಿನ್‌ಗಳು/ಲೋಗೊಗಳು).
 Logos Source: ಲೋಗೋಗಳ ಮೂಲ
 Logos Subfolder: ಲೋಗೋಗಳ ಉಪಫೋಲ್ಡರ್
+M3U: M3U
 M3U parsing error: {0}: M3U ಪಾರ್ಸಿಂಗ್ ದೋಷ: {0}
 Map JSON properties to channel fields:: ಚಾನಲ್ ಕ್ಷೇತ್ರಗಳಿಗೆ JSON ಗುಣಲಕ್ಷಣಗಳನ್ನು ನಕ್ಷೆ ಮಾಡಿ:
 Mapping saved for future imports of this file.: ಈ ಫೈಲ್‌ನ ಭವಿಷ್ಯದ ಆಮದುಗಳಿಗಾಗಿ ಮ್ಯಾಪಿಂಗ್ ಅನ್ನು ಉಳಿಸಲಾಗಿದೆ.
@@ -283,8 +287,8 @@ Paused: ವಿರಾಮಗೊಳಿಸಲಾಗಿದೆ
 PayPal: ಪೇಪಾಲ್
 Picture-in-Picture mode: ಪಿಕ್ಚರ್-ಇನ್-ಪಿಕ್ಚರ್ ಮೋಡ್
 Play/Pause: ಪ್ಲೇ/ವಿರಾಮ
-Player Controls: ಆಟಗಾರರ ನಿಯಂತ್ರಣಗಳು
-Playing: ನುಡಿಸುತ್ತಿದೆ
+Player Media Controls: ಪ್ಲೇಯರ್ ಮಾಧ್ಯಮ ನಿಯಂತ್ರಣಗಳು
+Playing Media: ಮಾಧ್ಯಮವನ್ನು ಪ್ಲೇ ಮಾಡಲಾಗುತ್ತಿದೆ
 Playlist & Groups: ಪ್ಲೇಪಟ್ಟಿ ಮತ್ತು ಗುಂಪುಗಳು
 Playlist Comparison: ಪ್ಲೇಪಟ್ಟಿ ಹೋಲಿಕೆ
 Playlist Editor: ಪ್ಲೇಪಟ್ಟಿ ಸಂಪಾದಕ

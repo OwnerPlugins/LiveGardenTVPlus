@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Oxutma sürəti: 0,5x, 1x, 2x düymələr.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Başlığa klikləməklə istənilən sütunu çeşidləyin; orijinal sıraya qayıtmaq üçün "Sifarişi Sıfırla" düyməsini istifadə edin.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: canlı yayımı dayandırmaq; geri axtarmaq üçün slayderi sürükləyin; qayıtmaq üçün 'Canlı' düyməsini basın.
-▶ Play: ▶ Oynayın
+▶ Play Media: ▶ Media Play
 ◀ Previous: ◀ Əvvəlki
 16 colour themes + Light/Dark variants.: 16 rəng mövzusu + Açıq/Qaranlıq variantları.
 A new version is available. Do you want to update now?: Yeni versiya mövcuddur. İndi yeniləmək istəyirsiniz?
@@ -34,6 +34,7 @@ Apply / Import: Tətbiq edin / İdxal edin
 Apply changes: Dəyişiklikləri tətbiq edin
 Apply Filters: Filtrləri tətbiq edin
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI-ni yenidən yükləmək istədiyinizə əminsiniz?\n\nİnterfeys yenidən başlayacaq (bir neçə saniyə qara ekran).
+Auto (recommended): Avtomatik (tövsiyə olunur)
 Auto-detect: Avtomatik aşkarlama
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Başlanğıcda avtomatik yoxlama - və ya Alətlər menyusunda "Yeniləmələri yoxlayın" üzərinə klikləyin.
 Bouquet Name: Buket Adı
@@ -95,6 +96,7 @@ Developed by Lululla: Lululla tərəfindən hazırlanmışdır
 Developer: Lululla: İnkişaf etdirici: Lululla
 Disconnect: Bağlantını kəsin
 Disconnected: Bağlantı kəsildi
+Display as: : Göründüyü kimi:
 Do you want to load this edited playlist now?: Bu redaktə edilmiş pleylisti indi yükləmək istəyirsiniz?
 Double speed (2x): İkiqat sürət (2x)
 Downloading playlist...: Pleylist endirilir...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: Yanlış JSON: {0}
 Invalid playlist URL.: Yanlış pleylist URL.
 Invalid URL.: Yanlış URL.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: JSON təhlil xətası: {0}
 JSON Property: JSON Mülkiyyəti
 Ko-fi: Qəhvə
@@ -228,6 +231,7 @@ Logos Matching Threshold: Loqoların Uyğunluq Həddi
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Loqolar anbarı – sahibi/repo/yolu seçin (standart OwnerPlugins/logos).
 Logos Source: Loqolar Mənbə
 Logos Subfolder: Loqolar alt qovluğu
+M3U: M3U
 M3U parsing error: {0}: M3U təhlil xətası: {0}
 Map JSON properties to channel fields:: JSON xassələrini kanal sahələrinə uyğunlaşdırın:
 Mapping saved for future imports of this file.: Xəritəçəkmə bu faylın gələcək idxalı üçün yadda saxlanıldı.
@@ -283,8 +287,8 @@ Paused: Fasilə verildi
 PayPal: PayPal
 Picture-in-Picture mode: Şəkil içində şəkil rejimi
 Play/Pause: Oynat/Pause
-Player Controls: Oyunçu Nəzarətləri
-Playing: Oynamaq
+Player Media Controls: Player Media İdarəetmələri
+Playing Media: Media ifa olunur
 Playlist & Groups: Pleylist və Qruplar
 Playlist Comparison: Pleylist müqayisəsi
 Playlist Editor: Pleylist redaktoru

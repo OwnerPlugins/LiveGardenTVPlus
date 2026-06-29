@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • පසුධාවන වේගය: 0.5x, 1x, 2x බොත්තම්.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • ශීර්ෂය ක්ලික් කිරීමෙන් ඕනෑම තීරුවක් වර්ග කරන්න; මුල් අනුපිළිවෙලට ආපසු යාමට 'Reset Order' භාවිතා කරන්න.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: සජීවී ප්‍රවාහය විරාම කරන්න; ආපසු සෙවීමට ස්ලයිඩරය ඇද දමන්න; ආපසු යාමට 'Live' ඔබන්න.
-▶ Play: ▶ සෙල්ලම් කරන්න
+▶ Play Media: ▶ Play Media
 ◀ Previous: ◀ පෙර
 16 colour themes + Light/Dark variants.: වර්ණ තේමා 16ක් + ආලෝකය/අඳුරු ප්‍රභේද.
 A new version is available. Do you want to update now?: නව අනුවාදයක් තිබේ. ඔබට දැන් යාවත්කාලීන කිරීමට අවශ්‍යද?
@@ -34,6 +34,7 @@ Apply / Import: අයදුම් කරන්න / ආනයනය කරන�
 Apply changes: වෙනස්කම් යොදන්න
 Apply Filters: පෙරහන් යොදන්න
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: ඔබට Enigma2 GUI නැවත පූරණය කිරීමට අවශ්‍ය බව විශ්වාසද?\n\nඅතුරු මුහුණත නැවත ආරම්භ වනු ඇත (තත්පර කිහිපයක් සඳහා කළු තිරය).
+Auto (recommended): ස්වයංක්‍රීය (නිර්දේශිත)
 Auto-detect: ස්වයං-අනාවරණය
 Automatic check on startup – or click 'Check for updates' in Tools menu.: ආරම්භයේදී ස්වයංක්‍රීයව පරීක්ෂා කරන්න - නැතහොත් මෙවලම් මෙනුවේ 'යාවත්කාලීන කිරීම් සඳහා පරීක්ෂා කරන්න' ක්ලික් කරන්න.
 Bouquet Name: මල් කළඹේ නම
@@ -95,6 +96,7 @@ Developed by Lululla: ලුලුල්ලා විසින් වැඩි �
 Developer: Lululla: සංවර්ධක: ලුලුල්ලා
 Disconnect: විසන්ධි කරන්න
 Disconnected: විසන්ධි විය
+Display as: : ලෙස පෙන්වන්න:
 Do you want to load this edited playlist now?: ඔබට මෙම සංස්කරණය කළ ධාවන ලැයිස්තුව දැන් පූරණය කිරීමට අවශ්‍යද?
 Double speed (2x): ද්විත්ව වේගය (2x)
 Downloading playlist...: ධාවන ලැයිස්තුව බාගත කරමින්...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: වලංගු නොවන JSON: {0}
 Invalid playlist URL.: වලංගු නොවන ධාවන ලැයිස්තු URL.
 Invalid URL.: වලංගු නොවන URL.
 Json: ජේසන්
+JSON: JSON
 JSON parsing error: {0}: JSON විග්‍රහ කිරීමේ දෝෂය: {0}
 JSON Property: JSON දේපල
 Ko-fi: කෝපි
@@ -228,6 +231,7 @@ Logos Matching Threshold: ලාංඡන ගැළපෙන එළිපත්�
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: ලාංඡන ගබඩාව - හිමිකරු/repo/path තෝරන්න (පෙරනිමි OwnerPlugins/ලාංඡන).
 Logos Source: ලාංඡන මූලාශ්රය
 Logos Subfolder: ලාංඡන උප ෆෝල්ඩරය
+M3U: M3U
 M3U parsing error: {0}: M3U විග්‍රහ කිරීමේ දෝෂය: {0}
 Map JSON properties to channel fields:: JSON ගුණාංග නාලිකා ක්ෂේත්‍ර වෙත සිතියම්ගත කරන්න:
 Mapping saved for future imports of this file.: මෙම ගොනුවේ අනාගත ආයාත කිරීම් සඳහා සිතියම්ගත කිරීම සුරකින ලදී.
@@ -283,8 +287,8 @@ Paused: විරාම කළා
 PayPal: PayPal
 Picture-in-Picture mode: Picture-in-Picture මාදිලිය
 Play/Pause: වාදනය / විරාමය
-Player Controls: ක්‍රීඩක පාලන
-Playing: සෙල්ලම් කරනවා
+Player Media Controls: Player මාධ්‍ය පාලන
+Playing Media: මාධ්‍ය වාදනය කිරීම
 Playlist & Groups: ධාවන ලැයිස්තුව සහ කණ්ඩායම්
 Playlist Comparison: ධාවන ලැයිස්තු සංසන්දනය
 Playlist Editor: ධාවන ලැයිස්තු සංස්කාරකය

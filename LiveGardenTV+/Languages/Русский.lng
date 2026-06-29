@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Скорость воспроизведения: кнопки 0,5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Сортируйте любой столбец, щелкнув заголовок; используйте «Сбросить заказ», чтобы вернуться к исходному порядку.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: приостановить прямую трансляцию; перетащите ползунок, чтобы вернуться назад; нажмите «Live», чтобы вернуться.
-▶ Play: ▶ Играть
+▶ Play Media: ▶ Воспроизвести медиа
 ◀ Previous: ◀ Предыдущий
 16 colour themes + Light/Dark variants.: 16 цветовых тем + светлые/темные варианты.
 A new version is available. Do you want to update now?: Доступна новая версия. Хотите обновить сейчас?
@@ -34,6 +34,7 @@ Apply / Import: Применить/Импортировать
 Apply changes: Применить изменения
 Apply Filters: Применить фильтры
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Вы уверены, что хотите перезагрузить графический интерфейс Enigma2?\n\nИнтерфейс перезапустится (черный экран в течение нескольких секунд).
+Auto (recommended): Авто (рекомендуется)
 Auto-detect: Автообнаружение
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Автоматическая проверка при запуске — или нажмите «Проверить наличие обновлений» в меню «Инструменты».
 Bouquet Name: Название букета
@@ -95,6 +96,7 @@ Developed by Lululla: Разработано Лулуллой
 Developer: Lululla: Разработчик: Лулулла
 Disconnect: Отключить
 Disconnected: Отключено
+Display as: : Отображать как:
 Do you want to load this edited playlist now?: Хотите загрузить этот отредактированный плейлист сейчас?
 Double speed (2x): Двойная скорость (2x)
 Downloading playlist...: Скачивание плейлиста...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: Неверный JSON: {0}
 Invalid playlist URL.: Неверный URL-адрес плейлиста.
 Invalid URL.: Неверный URL-адрес.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: Ошибка анализа JSON: {0}
 JSON Property: Свойство JSON
 Ko-fi: Кофе
@@ -228,6 +231,7 @@ Logos Matching Threshold: Порог соответствия логотипов
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Репозиторий логотипов — выберите владельца/репо/путь (по умолчанию OwnerPlugins/логотипы).
 Logos Source: Источник логотипов
 Logos Subfolder: Подпапка «Логотипы»
+M3U: М3У
 M3U parsing error: {0}: Ошибка анализа M3U: {0}
 Map JSON properties to channel fields:: Сопоставьте свойства JSON с полями канала:
 Mapping saved for future imports of this file.: Сопоставление сохранено для будущего импорта этого файла.
@@ -283,8 +287,8 @@ Paused: Приостановлено
 PayPal: PayPal
 Picture-in-Picture mode: Режим «картинка в картинке»
 Play/Pause: Воспроизведение/Пауза
-Player Controls: Управление игроком
-Playing: Играя
+Player Media Controls: Элементы управления мультимедиа в проигрывателе
+Playing Media: Воспроизведение мультимедиа
 Playlist & Groups: Плейлисты и группы
 Playlist Comparison: Сравнение плейлистов
 Playlist Editor: Редактор плейлистов

@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Brzina reprodukcije: 0,5x, 1x, 2x dugmad.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sortirajte bilo koju kolonu klikom na zaglavlje; koristite 'Reset Order' da se vratite na originalni redoslijed.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: pauzirajte prijenos uživo; povucite klizač za traženje nazad; pritisnite 'Uživo' za povratak.
-▶ Play: ▶ Igraj
+▶ Play Media: ▶ Pusti medije
 ◀ Previous: ◀ Prethodno
 16 colour themes + Light/Dark variants.: 16 tema boja + svijetle/tamne varijante.
 A new version is available. Do you want to update now?: Dostupna je nova verzija. Želite li ažurirati sada?
@@ -34,6 +34,7 @@ Apply / Import: Primijeni / Uvoz
 Apply changes: Primijenite promjene
 Apply Filters: Primijenite filtere
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Jeste li sigurni da želite ponovo učitati Enigma2 GUI?\n\nSučelje će se ponovo pokrenuti (crni ekran na nekoliko sekundi).
+Auto (recommended): automatski (preporučeno)
 Auto-detect: Auto-detect
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatska provjera pri pokretanju – ili kliknite na 'Provjeri ažuriranja' u meniju Alati.
 Bouquet Name: Ime buketa
@@ -95,6 +96,7 @@ Developed by Lululla: Razvio Lululla
 Developer: Lululla: Programer: Lululla
 Disconnect: Prekini vezu
 Disconnected: Disconnected
+Display as: : Prikaži kao:
 Do you want to load this edited playlist now?: Želite li sada učitati ovu uređenu plejlistu?
 Double speed (2x): Dvostruka brzina (2x)
 Downloading playlist...: Preuzimanje plejliste...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: Nevažeći JSON: {0}
 Invalid playlist URL.: Nevažeći URL plejliste.
 Invalid URL.: Nevažeći URL.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: Greška pri raščlanjivanju JSON-a: {0}
 JSON Property: JSON Property
 Ko-fi: Kafa
@@ -228,6 +231,7 @@ Logos Matching Threshold: Prag podudaranja logotipa
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Spremište logotipa – izaberite vlasnika/repo/putu (podrazumevano OwnerPlugins/logosi).
 Logos Source: Logos Source
 Logos Subfolder: Logos Subfolder
+M3U: M3U
 M3U parsing error: {0}: Greška pri raščlanjivanju M3U: {0}
 Map JSON properties to channel fields:: Mapirajte JSON svojstva u polja kanala:
 Mapping saved for future imports of this file.: Mapiranje je sačuvano za buduće uvoze ove datoteke.
@@ -283,8 +287,8 @@ Paused: Pauzirano
 PayPal: PayPal
 Picture-in-Picture mode: Način rada slika u slici
 Play/Pause: Play/Pause
-Player Controls: Kontrole igrača
-Playing: Igranje
+Player Media Controls: Kontrole medija plejera
+Playing Media: Reprodukcija medija
 Playlist & Groups: Lista za reprodukciju i grupe
 Playlist Comparison: Poređenje plejliste
 Playlist Editor: Playlist Editor

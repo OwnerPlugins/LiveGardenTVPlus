@@ -144,6 +144,10 @@ namespace LiveGardenTVPlus.Views
 
             var statusField = FindName("StatusFieldLabel") as TextBlock;
             if (statusField != null) statusField.Text = LanguageManager.GetTranslation("Status");
+            
+            var displayLabel = FindName("DisplayLabel") as TextBlock;
+            if (displayLabel != null) displayLabel.Text = LanguageManager.GetTranslation("Display as");
+            
 
             // Buttons
             NewPlaylistBtn.Content = LanguageManager.GetTranslation("New Playlist");
@@ -174,7 +178,7 @@ namespace LiveGardenTVPlus.Views
 
             DeleteSelectedBtn.Content = LanguageManager.GetTranslation("Delete Selected");
             ExportSelectedBtn.Content = LanguageManager.GetTranslation("Export Selected");
-            PlayBtn.Content = LanguageManager.GetTranslation("▶ Play");
+            PlayBtn.Content = LanguageManager.GetTranslation("▶ Play Media");
             StopBtn.Content = LanguageManager.GetTranslation("Stop");
 
             SaveBtn.Content = LanguageManager.GetTranslation("Save as...");
@@ -212,6 +216,27 @@ namespace LiveGardenTVPlus.Views
             FilterGeoBlocked.Content = LanguageManager.GetTranslation("GeoBlocked");
 
             Title = LanguageManager.GetTranslation("Playlist Management");
+        }
+
+        private void CodeTab_Loaded(object sender, RoutedEventArgs e)
+        {
+            foreach (ComboBoxItem item in DisplayFormatCombo.Items)
+            {
+                if (item.Tag?.ToString() == "Json")
+                    item.Content = LanguageManager.GetTranslation("JSON");
+                else if (item.Tag?.ToString() == "M3u")
+                    item.Content = LanguageManager.GetTranslation("M3U");
+            }
+
+            foreach (ComboBoxItem item in FormatCombo.Items)
+            {
+                if (item.Tag?.ToString() == "Auto")
+                    item.Content = LanguageManager.GetTranslation("Auto (recommended)");
+                else if (item.Tag?.ToString() == "Json")
+                    item.Content = LanguageManager.GetTranslation("JSON");
+                else if (item.Tag?.ToString() == "M3u")
+                    item.Content = LanguageManager.GetTranslation("M3U");
+            }
         }
 
         private void NewPlaylistBtn_Click(object sender, RoutedEventArgs e)
@@ -451,21 +476,48 @@ namespace LiveGardenTVPlus.Views
 
         private async void MainTabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (MainTabControl.SelectedItem == CodeTab && !_isParsingCode && !_isCodeTabUpdating)
+            if (MainTabControl.SelectedItem == CodeTab)
             {
-                _isCodeTabUpdating = true;
-                try
+                // ---- TRANSLATE CODE TAB CONTROLS ----
+                var displayLabel = FindName("DisplayLabel") as TextBlock;
+                if (displayLabel != null) displayLabel.Text = LanguageManager.GetTranslation("Display as");
+
+                foreach (ComboBoxItem item in DisplayFormatCombo.Items)
                 {
-                    string content = await GenerateCodeContentAsync();
-                    CodeTextBox.Text = content;
+                    if (item.Tag?.ToString() == "Json")
+                        item.Content = LanguageManager.GetTranslation("JSON");
+                    else if (item.Tag?.ToString() == "M3u")
+                        item.Content = LanguageManager.GetTranslation("M3U");
                 }
-                catch (Exception ex)
+
+                foreach (ComboBoxItem item in FormatCombo.Items)
                 {
-                    CodeTextBox.Text = $"// Error generating code: {ex.Message}";
+                    if (item.Tag?.ToString() == "Auto")
+                        item.Content = LanguageManager.GetTranslation("Auto (recommended)");
+                    else if (item.Tag?.ToString() == "Json")
+                        item.Content = LanguageManager.GetTranslation("JSON");
+                    else if (item.Tag?.ToString() == "M3u")
+                        item.Content = LanguageManager.GetTranslation("M3U");
                 }
-                finally
+
+                // ---- END TRANSLATIONS ----
+
+                if (!_isParsingCode && !_isCodeTabUpdating)
                 {
-                    _isCodeTabUpdating = false;
+                    _isCodeTabUpdating = true;
+                    try
+                    {
+                        string content = await GenerateCodeContentAsync();
+                        CodeTextBox.Text = content;
+                    }
+                    catch (Exception ex)
+                    {
+                        CodeTextBox.Text = $"// Error generating code: {ex.Message}";
+                    }
+                    finally
+                    {
+                        _isCodeTabUpdating = false;
+                    }
                 }
             }
         }

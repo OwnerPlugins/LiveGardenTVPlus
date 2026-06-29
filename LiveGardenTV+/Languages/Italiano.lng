@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Velocità di riproduzione: pulsanti 0,5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Ordinare qualsiasi colonna facendo clic sull'intestazione; utilizzare "Reimposta ordine" per ripristinare l'ordine originale.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: mette in pausa il live streaming; trascina il cursore per tornare indietro; premere 'Live' per tornare.
-▶ Play: ▶ Gioca
+▶ Play Media: ▶ Riproduci contenuti multimediali
 ◀ Previous: ◀ Precedente
 16 colour themes + Light/Dark variants.: 16 temi colore + varianti Chiaro/Scuro.
 A new version is available. Do you want to update now?: Una nuova versione è disponibile. Vuoi aggiornare adesso?
@@ -34,6 +34,7 @@ Apply / Import: Applica/Importa
 Apply changes: Applicare le modifiche
 Apply Filters: Applica filtri
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Sei sicuro di voler ricaricare la GUI di Enigma2?\n\nL'interfaccia si riavvierà (schermata nera per alcuni secondi).
+Auto (recommended): Automatico (consigliato)
 Auto-detect: Rilevamento automatico
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Controllo automatico all'avvio oppure fai clic su "Verifica aggiornamenti" nel menu Strumenti.
 Bouquet Name: Nome del mazzo
@@ -95,6 +96,7 @@ Developed by Lululla: Sviluppato da Lululla
 Developer: Lululla: Sviluppatore: Lululla
 Disconnect: Disconnetti
 Disconnected: Disconnesso
+Display as: Visualizza come
 Do you want to load this edited playlist now?: Vuoi caricare questa playlist modificata adesso?
 Double speed (2x): Doppia velocità (2x)
 Downloading playlist...: Download della playlist in corso...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: JSON non valido: {0}
 Invalid playlist URL.: URL della playlist non valido.
 Invalid URL.: URL non valido.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: Errore di analisi JSON: {0}
 JSON Property: Proprietà JSON
 Ko-fi: Caffè
@@ -228,6 +231,7 @@ Logos Matching Threshold: Soglia di corrispondenza dei loghi
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Repository loghi: scegli proprietario/repo/percorso (proprietarioPlugins/logos predefinito).
 Logos Source: Fonte Loghi
 Logos Subfolder: Sottocartella Loghi
+M3U: M3U
 M3U parsing error: {0}: Errore di analisi M3U: {0}
 Map JSON properties to channel fields:: Mappare le proprietà JSON ai campi del canale:
 Mapping saved for future imports of this file.: Mappatura salvata per future importazioni di questo file.
@@ -283,8 +287,8 @@ Paused: In pausa
 PayPal: PayPal
 Picture-in-Picture mode: Modalità immagine nell'immagine
 Play/Pause: Riproduci/Pausa
-Player Controls: Controlli del giocatore
-Playing: Giocando
+Player Media Controls: Controlli multimediali del lettore
+Playing Media: Riproduzione multimediale
 Playlist & Groups: Playlist e gruppi
 Playlist Comparison: Confronto tra playlist
 Playlist Editor: Editor della playlist

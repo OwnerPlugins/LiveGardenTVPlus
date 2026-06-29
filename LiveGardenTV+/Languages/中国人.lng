@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • 播放速度：0.5x、1x、2x 按钮。
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • 通过单击标题对任何列进行排序；使用“重置订单”恢复到原始订单。
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • 时移：暂停直播；拖动滑块向后查找；按“实时”返回。
-▶ Play: ▶ 玩
+▶ Play Media: ▶ 播放媒体
 ◀ Previous: ◀ 上一页
 16 colour themes + Light/Dark variants.: 16 种颜色主题 + 浅色/深色变体。
 A new version is available. Do you want to update now?: 有新版本可用。您想现在更新吗？
@@ -34,6 +34,7 @@ Apply / Import: 申请/导入
 Apply changes: 应用更改
 Apply Filters: 应用过滤器
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: 您确定要重新加载 Enigma2 GUI 吗？\n\n界面将重新启动（黑屏几秒钟）。
+Auto (recommended): 自动（推荐）
 Auto-detect: 自动检测
 Automatic check on startup – or click 'Check for updates' in Tools menu.: 启动时自动检查 – 或单击“工具”菜单中的“检查更新”。
 Bouquet Name: 花束名称
@@ -95,6 +96,7 @@ Developed by Lululla: 由 卢鲁拉 开发
 Developer: Lululla: 开发商： 露露拉
 Disconnect: 断开
 Disconnected: 已断开连接
+Display as: : 显示为：
 Do you want to load this edited playlist now?: 您想立即加载这个编辑过的播放列表吗？
 Double speed (2x): 双倍速度 (2x)
 Downloading playlist...: 正在下载播放列表...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: JSON 无效：{0}
 Invalid playlist URL.: 播放列表 URL 无效。
 Invalid URL.: 无效网址。
 Json: 杰森
+JSON: JSON
 JSON parsing error: {0}: JSON 解析错误：{0}
 JSON Property: JSON 属性
 Ko-fi: 咖啡
@@ -228,6 +231,7 @@ Logos Matching Threshold: 徽标匹配阈值
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: 徽标存储库 – 选择所有者/存储库/路径（默认 OwnerPlugins/徽标）。
 Logos Source: 标志来源
 Logos Subfolder: 徽标子文件夹
+M3U: M3U
 M3U parsing error: {0}: M3U 解析错误：{0}
 Map JSON properties to channel fields:: 将 JSON 属性映射到通道字段：
 Mapping saved for future imports of this file.: 保存映射以供将来导入该文件。
@@ -283,8 +287,8 @@ Paused: 已暂停
 PayPal: 贝宝
 Picture-in-Picture mode: 画中画模式
 Play/Pause: 播放/暂停
-Player Controls: 播放器控制
-Playing: 演奏
+Player Media Controls: 播放器媒体控制
+Playing Media: 播放媒体
 Playlist & Groups: 播放列表和组
 Playlist Comparison: 播放列表比较
 Playlist Editor: 播放列表编辑器

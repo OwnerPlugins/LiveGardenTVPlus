@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Vitesse de lecture : boutons 0,5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Triez n'importe quelle colonne en cliquant sur l'en-tête ; utilisez « Réinitialiser la commande » pour revenir à la commande d'origine.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift : mettre en pause la diffusion en direct ; faites glisser le curseur pour revenir en arrière ; appuyez sur « Live » pour revenir.
-▶ Play: ▶ Jouer
+▶ Play Media: ▶ Lire le média
 ◀ Previous: ◀ Précédent
 16 colour themes + Light/Dark variants.: 16 thèmes de couleurs + variantes Clair/Obscur.
 A new version is available. Do you want to update now?: Une nouvelle version est disponible. Voulez-vous mettre à jour maintenant ?
@@ -34,6 +34,7 @@ Apply / Import: Appliquer / Importer
 Apply changes: Appliquer les modifications
 Apply Filters: Appliquer des filtres
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Etes-vous sûr de vouloir recharger l'interface graphique d'Enigma2 ?\n\nL'interface va redémarrer (écran noir pendant quelques secondes).
+Auto (recommended): Automatique (recommandé)
 Auto-detect: Détection automatique
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Vérification automatique au démarrage – ou cliquez sur « Rechercher les mises à jour » dans le menu Outils.
 Bouquet Name: Nom du bouquet
@@ -95,6 +96,7 @@ Developed by Lululla: Développé par Lululla
 Developer: Lululla: Développeur: Lululla
 Disconnect: Déconnecter
 Disconnected: Déconnecté
+Display as: : Afficher comme :
 Do you want to load this edited playlist now?: Voulez-vous charger cette playlist modifiée maintenant ?
 Double speed (2x): Double vitesse (2x)
 Downloading playlist...: Téléchargement de la liste de lecture...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: JSON non valide : {0}
 Invalid playlist URL.: URL de playlist non valide.
 Invalid URL.: URL invalide.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: Erreur d'analyse JSON : {0}
 JSON Property: Propriété JSON
 Ko-fi: Café
@@ -228,6 +231,7 @@ Logos Matching Threshold: Seuil de correspondance des logos
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Dépôt de logos – choisissez propriétaire/dépôt/chemin (PropriétairePlugins/logos par défaut).
 Logos Source: Source des logos
 Logos Subfolder: Sous-dossier Logos
+M3U: M3U
 M3U parsing error: {0}: Erreur d'analyse M3U : {0}
 Map JSON properties to channel fields:: Mappez les propriétés JSON aux champs de canal :
 Mapping saved for future imports of this file.: Mappage enregistré pour les futures importations de ce fichier.
@@ -283,8 +287,8 @@ Paused: En pause
 PayPal: Paypal
 Picture-in-Picture mode: Mode image dans l'image
 Play/Pause: Lecture/Pause
-Player Controls: Contrôles du joueur
-Playing: Jouant
+Player Media Controls: Commandes multimédia du lecteur
+Playing Media: Lecture multimédia
 Playlist & Groups: Liste de lecture et groupes
 Playlist Comparison: Comparaison des listes de lecture
 Playlist Editor: Éditeur de liste de lecture

@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Lejátszási sebesség: 0,5x, 1x, 2x gombok.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Bármely oszlop rendezése a fejlécre kattintva; használja a „Rendelés visszaállítása” gombot az eredeti rendelés visszaállításához.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: az élő közvetítés szüneteltetése; húzza a csúszkát a visszalépéshez; nyomja meg az „Élő” gombot a visszatéréshez.
-▶ Play: ▶ Játssz
+▶ Play Media: ▶ Média lejátszása
 ◀ Previous: ◀ Előző
 16 colour themes + Light/Dark variants.: 16 színes téma + világos/sötét változatok.
 A new version is available. Do you want to update now?: Új verzió érhető el. Szeretné most frissíteni?
@@ -34,6 +34,7 @@ Apply / Import: Alkalmaz / Import
 Apply changes: Módosítások alkalmazása
 Apply Filters: Szűrők alkalmazása
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Biztosan újra szeretné tölteni az Enigma2 grafikus felületet?\n\nA felület újraindul (néhány másodpercig fekete képernyő).
+Auto (recommended): Automatikus (ajánlott)
 Auto-detect: Automatikus felismerés
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatikus ellenőrzés indításkor – vagy kattintson a "Frissítések keresése" gombra az Eszközök menüben.
 Bouquet Name: Csokor neve
@@ -95,6 +96,7 @@ Developed by Lululla: Lululla fejlesztette ki
 Developer: Lululla: Fejlesztő: Lululla
 Disconnect: Leválasztás
 Disconnected: Szétkapcsolt
+Display as: : Megjelenítés:
 Do you want to load this edited playlist now?: Szeretné most betölteni ezt a szerkesztett lejátszási listát?
 Double speed (2x): Dupla sebesség (2x)
 Downloading playlist...: Lejátszási lista letöltése...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: Érvénytelen JSON: {0}
 Invalid playlist URL.: Érvénytelen lejátszási lista URL-je.
 Invalid URL.: Érvénytelen URL.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: JSON-elemzési hiba: {0}
 JSON Property: JSON-tulajdon
 Ko-fi: Kávé
@@ -228,6 +231,7 @@ Logos Matching Threshold: Logók egyezési küszöbértéke
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logók tárháza – válassza ki a tulajdonost/tárhelyet/útvonalat (alapértelmezett OwnerPlugins/logos).
 Logos Source: Logók forrása
 Logos Subfolder: Logók almappa
+M3U: M3U
 M3U parsing error: {0}: M3U elemzési hiba: {0}
 Map JSON properties to channel fields:: JSON-tulajdonságok hozzárendelése csatornamezőkhöz:
 Mapping saved for future imports of this file.: A leképezés mentve a fájl jövőbeli importálásához.
@@ -283,8 +287,8 @@ Paused: Szüneteltetve
 PayPal: PayPal
 Picture-in-Picture mode: Kép a képben mód
 Play/Pause: Lejátszás/Szünet
-Player Controls: Játékos vezérlők
-Playing: Játék
+Player Media Controls: A lejátszó médiavezérlői
+Playing Media: Média lejátszása
 Playlist & Groups: Lejátszási lista és csoportok
 Playlist Comparison: Lejátszási lista összehasonlítása
 Playlist Editor: Lejátszási lista szerkesztő

@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • ល្បឿនចាក់ឡើងវិញ៖ 0.5x, 1x, 2x ប៊ូតុង។
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • តម្រៀបជួរឈរណាមួយដោយចុចបឋមកថា; ប្រើ 'កំណត់លំដាប់ឡើងវិញ' ដើម្បីត្រឡប់ទៅលំដាប់ដើមវិញ។
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift៖ ផ្អាកការផ្សាយផ្ទាល់។ អូសគ្រាប់រំកិលដើម្បីស្វែងរកត្រឡប់មកវិញ; ចុច 'Live' ដើម្បីត្រឡប់មកវិញ។
-▶ Play: ▶ លេង
+▶ Play Media: ▶ ចាក់មេឌៀ
 ◀ Previous: ◀ មុន។
 16 colour themes + Light/Dark variants.: 16 ពណ៌ស្បែក + វ៉ារ្យ៉ង់ពន្លឺ / ងងឹត។
 A new version is available. Do you want to update now?: កំណែថ្មីអាចរកបាន។ តើអ្នកចង់អាប់ដេតឥឡូវនេះទេ?
@@ -34,6 +34,7 @@ Apply / Import: អនុវត្ត / នាំចូល
 Apply changes: អនុវត្តការផ្លាស់ប្តូរ
 Apply Filters: អនុវត្តតម្រង
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: តើអ្នកប្រាកដថាចង់ផ្ទុក Enigma2 GUI ឡើងវិញទេ?\n\nចំណុចប្រទាក់នឹងចាប់ផ្តើមឡើងវិញ (អេក្រង់ខ្មៅរយៈពេលពីរបីវិនាទី)។
+Auto (recommended): ស្វ័យប្រវត្តិ (បានណែនាំ)
 Auto-detect: រកឃើញដោយស្វ័យប្រវត្តិ
 Automatic check on startup – or click 'Check for updates' in Tools menu.: ពិនិត្យដោយស្វ័យប្រវត្តិនៅពេលចាប់ផ្តើម - ឬចុច 'ពិនិត្យមើលការអាប់ដេត' នៅក្នុងម៉ឺនុយឧបករណ៍។
 Bouquet Name: ឈ្មោះភួង
@@ -95,6 +96,7 @@ Developed by Lululla: បង្កើតឡើងដោយ Lululla
 Developer: Lululla: អ្នកអភិវឌ្ឍន៍៖ លូលូឡា
 Disconnect: ផ្តាច់
 Disconnected: បានផ្ដាច់
+Display as: : បង្ហាញជា៖
 Do you want to load this edited playlist now?: តើអ្នកចង់ផ្ទុកបញ្ជីចាក់ដែលបានកែសម្រួលនេះឥឡូវនេះទេ?
 Double speed (2x): ល្បឿនទ្វេដង (2x)
 Downloading playlist...: កំពុងទាញយកបញ្ជីចាក់...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: JSON មិនត្រឹមត្រូវ៖ {0}
 Invalid playlist URL.: URL បញ្ជីចាក់មិនត្រឹមត្រូវ។
 Invalid URL.: URL មិនត្រឹមត្រូវ។
 Json: ជេសុន
+JSON: JSON
 JSON parsing error: {0}: កំហុសក្នុងការវិភាគ JSON៖ {0}
 JSON Property: អចលនទ្រព្យ JSON
 Ko-fi: កាហ្វេ
@@ -228,6 +231,7 @@ Logos Matching Threshold: កម្រិតនៃការផ្គូផ្គ
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: ឃ្លាំងរូបសញ្ញា - ជ្រើសរើសម្ចាស់/repo/ផ្លូវ (លំនាំដើម OwnerPlugins/logos)។
 Logos Source: ប្រភពឡូហ្គោស
 Logos Subfolder: ថតរងឡូហ្គោ
+M3U: M3U
 M3U parsing error: {0}: កំហុសក្នុងការវិភាគ M3U៖ {0}
 Map JSON properties to channel fields:: ផែនទី​លក្ខណៈ​សម្បត្តិ JSON ទៅកាន់​វាល​ឆានែល៖
 Mapping saved for future imports of this file.: ផែនទីត្រូវបានរក្សាទុកសម្រាប់ការនាំចូលឯកសារនេះនាពេលអនាគត។
@@ -283,8 +287,8 @@ Paused: ផ្អាក
 PayPal: PayPal
 Picture-in-Picture mode: របៀបរូបភាពក្នុងរូបភាព
 Play/Pause: លេង/ផ្អាក
-Player Controls: ការគ្រប់គ្រងអ្នកលេង
-Playing: កំពុងលេង
+Player Media Controls: ការគ្រប់គ្រងប្រព័ន្ធផ្សព្វផ្សាយអ្នកលេង
+Playing Media: ការលេងប្រព័ន្ធផ្សព្វផ្សាយ
 Playlist & Groups: បញ្ជីចាក់ និងក្រុម
 Playlist Comparison: ការប្រៀបធៀបបញ្ជីចាក់
 Playlist Editor: កម្មវិធីនិពន្ធបញ្ជីចាក់

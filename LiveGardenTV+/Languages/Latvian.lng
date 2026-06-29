@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Atskaņošanas ātrums: 0,5x, 1x, 2x pogas.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Kārtot jebkuru kolonnu, noklikšķinot uz galvenes; izmantojiet "Atiestatīt pasūtījumu", lai atgrieztos pie sākotnējā pasūtījuma.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: pauzējiet tiešraides straumi; velciet slīdni, lai meklētu atpakaļ; nospiediet "Tiešraide", lai atgrieztos.
-▶ Play: ▶ Spēlēt
+▶ Play Media: ▶ Atskaņot multividi
 ◀ Previous: ◀ Iepriekšējais
 16 colour themes + Light/Dark variants.: 16 krāsu motīvi + gaiši/tumši varianti.
 A new version is available. Do you want to update now?: Ir pieejama jauna versija. Vai vēlaties atjaunināt tagad?
@@ -34,6 +34,7 @@ Apply / Import: Lietot / importēt
 Apply changes: Lietot izmaiņas
 Apply Filters: Lietot filtrus
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Vai tiešām vēlaties atkārtoti ielādēt Enigma2 GUI?\n\nSaskarne tiks restartēta (dažas sekundes būs melns ekrāns).
+Auto (recommended): Automātiski (ieteicams)
 Auto-detect: Automātiska noteikšana
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automātiska palaišanas pārbaude — vai izvēlnē Rīki noklikšķiniet uz 'Pārbaudīt atjauninājumus'.
 Bouquet Name: Pušķa nosaukums
@@ -95,6 +96,7 @@ Developed by Lululla: Izstrādāja Lululla
 Developer: Lululla: Izstrādātājs: Lululla
 Disconnect: Atvienot
 Disconnected: Atvienots
+Display as: : Parādīt kā:
 Do you want to load this edited playlist now?: Vai vēlaties ielādēt šo rediģēto atskaņošanas sarakstu tūlīt?
 Double speed (2x): Divkāršs ātrums (2x)
 Downloading playlist...: Notiek atskaņošanas saraksta lejupielāde...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: Nederīgs JSON: {0}
 Invalid playlist URL.: Nederīgs atskaņošanas saraksta URL.
 Invalid URL.: Nederīgs URL.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: JSON parsēšanas kļūda: {0}
 JSON Property: JSON īpašums
 Ko-fi: Kafija
@@ -228,6 +231,7 @@ Logos Matching Threshold: Logotipu atbilstības slieksnis
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logotipu repozitorijs — izvēlieties īpašnieku/repo/ceļu (noklusējuma OwnerPlugins/logos).
 Logos Source: Logotipu avots
 Logos Subfolder: Logotipu apakšmape
+M3U: M3U
 M3U parsing error: {0}: M3U parsēšanas kļūda: {0}
 Map JSON properties to channel fields:: Kartēt JSON rekvizītus ar kanāla laukiem:
 Mapping saved for future imports of this file.: Kartēšana saglabāta turpmākai šī faila importēšanai.
@@ -283,8 +287,8 @@ Paused: Pauzēts
 PayPal: PayPal
 Picture-in-Picture mode: Attēls attēlā režīms
 Play/Pause: Atskaņot/Pauzēt
-Player Controls: Spēlētāja vadīklas
-Playing: Spēlē
+Player Media Controls: Atskaņotāja multivides vadīklas
+Playing Media: Multivides atskaņošana
 Playlist & Groups: Atskaņošanas saraksts un grupas
 Playlist Comparison: Atskaņošanas sarakstu salīdzinājums
 Playlist Editor: Atskaņošanas sarakstu redaktors

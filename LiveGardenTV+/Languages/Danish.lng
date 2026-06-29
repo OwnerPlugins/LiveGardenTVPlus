@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Afspilningshastighed: 0,5x, 1x, 2x knapper.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sorter en kolonne ved at klikke på overskriften; brug 'Nulstil ordre' for at vende tilbage til den oprindelige ordre.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: pause livestream; træk skyderen for at søge tilbage; tryk på 'Live' for at vende tilbage.
-▶ Play: ▶ Spil
+▶ Play Media: ▶ Afspil medier
 ◀ Previous: ◀ Forrige
 16 colour themes + Light/Dark variants.: 16 farvetemaer + Lys/Mørke varianter.
 A new version is available. Do you want to update now?: En ny version er tilgængelig. Vil du opdatere nu?
@@ -34,6 +34,7 @@ Apply / Import: Anvend / Importer
 Apply changes: Anvend ændringer
 Apply Filters: Anvend filtre
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Er du sikker på, at du vil genindlæse Enigma2 GUI?\n\nGrænsefladen genstartes (sort skærm i et par sekunder).
+Auto (recommended): Auto (anbefales)
 Auto-detect: Automatisk registrering
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatisk kontrol ved opstart – eller klik på 'Søg efter opdateringer' i menuen Værktøjer.
 Bouquet Name: Buket navn
@@ -95,6 +96,7 @@ Developed by Lululla: Udviklet af Lululla
 Developer: Lululla: Udvikler: Lululla
 Disconnect: Afbryde
 Disconnected: Afbrudt
+Display as: : Vises som:
 Do you want to load this edited playlist now?: Vil du indlæse denne redigerede afspilningsliste nu?
 Double speed (2x): Dobbelt hastighed (2x)
 Downloading playlist...: Downloader afspilningsliste...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: Ugyldig JSON: {0}
 Invalid playlist URL.: Ugyldig afspilningsliste-URL.
 Invalid URL.: Ugyldig URL.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: JSON-parsingsfejl: {0}
 JSON Property: JSON-ejendom
 Ko-fi: Kaffe
@@ -228,6 +231,7 @@ Logos Matching Threshold: Logos matchende tærskel
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logolager – vælg ejer/repo/sti (standard OwnerPlugins/logoer).
 Logos Source: Logos kilde
 Logos Subfolder: Logoer undermappe
+M3U: M3U
 M3U parsing error: {0}: M3U-parsingsfejl: {0}
 Map JSON properties to channel fields:: Knyt JSON-egenskaber til kanalfelter:
 Mapping saved for future imports of this file.: Kortlægning gemt til fremtidig import af denne fil.
@@ -283,8 +287,8 @@ Paused: Pause
 PayPal: PayPal
 Picture-in-Picture mode: Billede-i-billede-tilstand
 Play/Pause: Afspil/pause
-Player Controls: Spiller kontrol
-Playing: Spiller
+Player Media Controls: Afspillerens mediekontrol
+Playing Media: Afspilning af medier
 Playlist & Groups: Afspilningsliste og grupper
 Playlist Comparison: Afspilningsliste sammenligning
 Playlist Editor: Afspilningslisteeditor

@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Ijro qilish tezligi: 0,5x, 1x, 2x tugmalari.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sarlavhani bosish orqali istalgan ustunni saralash; asl tartibni qaytarish uchun "Buyurtmani tiklash" dan foydalaning.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: jonli translatsiyani to‘xtatib turish; orqaga qaytish uchun slayderni torting; qaytish uchun "Jonli" tugmasini bosing.
-▶ Play: ▶ O'ynang
+▶ Play Media: ▶ Mediani ijro etish
 ◀ Previous: ◀ Oldingi
 16 colour themes + Light/Dark variants.: 16 ta rangli mavzular + Ochiq/qora variantlar.
 A new version is available. Do you want to update now?: Yangi versiya mavjud. Hozir yangilashni xohlaysizmi?
@@ -34,6 +34,7 @@ Apply / Import: Qo'llash / Import qilish
 Apply changes: O'zgarishlarni qo'llash
 Apply Filters: Filtrlarni qo'llash
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Haqiqatan ham Enigma2 GUI-ni qayta yuklamoqchimisiz?\n\nInterfeys qayta ishga tushadi (bir necha soniya qora ekran).
+Auto (recommended): Avtomatik (tavsiya etiladi)
 Auto-detect: Avtomatik aniqlash
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Ishga tushganda avtomatik tekshirish - yoki Asboblar menyusidagi "Yangilanishlarni tekshirish" tugmasini bosing.
 Bouquet Name: Buket nomi
@@ -95,6 +96,7 @@ Developed by Lululla: Lululla tomonidan ishlab chiqilgan
 Developer: Lululla: Tuzuvchi: Lululla
 Disconnect: Ulanishni uzing
 Disconnected: Ulangan
+Display as: : Quyidagi kabi ko'rsatish:
 Do you want to load this edited playlist now?: Ushbu tahrirlangan pleylistni hozir yuklamoqchimisiz?
 Double speed (2x): Ikki marta tezlik (2x)
 Downloading playlist...: Pleylist yuklab olinmoqda...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: Yaroqsiz JSON: {0}
 Invalid playlist URL.: Yaroqsiz pleylist URL.
 Invalid URL.: URL noto‘g‘ri.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: JSON tahlil xatosi: {0}
 JSON Property: JSON mulki
 Ko-fi: Kofe
@@ -228,6 +231,7 @@ Logos Matching Threshold: Logotiplarning mos keladigan chegarasi
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logotiplar ombori - egasini/repo/yo'lni tanlang (standart OwnerPlugins/logotiplar).
 Logos Source: Logotiplar manbai
 Logos Subfolder: Logotiplar pastki papkasi
+M3U: M3U
 M3U parsing error: {0}: M3U tahlil xatosi: {0}
 Map JSON properties to channel fields:: JSON xususiyatlarini kanal maydonlariga xaritalash:
 Mapping saved for future imports of this file.: Ushbu faylni kelajakda import qilish uchun xaritalash saqlangan.
@@ -283,8 +287,8 @@ Paused: Pauza qilingan
 PayPal: PayPal
 Picture-in-Picture mode: Tasvir ichidagi rasm rejimi
 Play/Pause: Oʻynatish/toʻxtatib turish
-Player Controls: O'yinchi boshqaruvlari
-Playing: Oʻynamoqda
+Player Media Controls: Player media boshqaruvlari
+Playing Media: Media ijro etilmoqda
 Playlist & Groups: Pleylist va guruhlar
 Playlist Comparison: Pleylistni taqqoslash
 Playlist Editor: Pleylist muharriri

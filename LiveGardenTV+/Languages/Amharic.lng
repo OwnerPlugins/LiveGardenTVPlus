@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • የመልሶ ማጫወት ፍጥነት፡ 0.5x፣ 1x፣ 2x buttons።
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • ራስጌን ጠቅ በማድረግ ማንኛውንም አምድ ደርድር; ወደ መጀመሪያው ቅደም ተከተል ለመመለስ 'ትዕዛዙን ዳግም አስጀምር' ይጠቀሙ።
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • የጊዜ ሽግግር፡ የቀጥታ ዥረት ለአፍታ አቁም; መልሶ ለመፈለግ ተንሸራታች ይጎትቱ; ለመመለስ 'ቀጥታ' ን ይጫኑ።
-▶ Play: ▶ ተጫወት
+▶ Play Media: ▶ ሚዲያ አጫውት።
 ◀ Previous: ◀ ያለፈው
 16 colour themes + Light/Dark variants.: 16 የቀለም ገጽታዎች + ብርሃን/ጨለማ ልዩነቶች።
 A new version is available. Do you want to update now?: አዲስ ስሪት አለ። አሁን ማዘመን ይፈልጋሉ?
@@ -34,6 +34,7 @@ Apply / Import: ያመልክቱ/አስመጣ
 Apply changes: ለውጦችን ይተግብሩ
 Apply Filters: ማጣሪያዎችን ተግብር
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: እርግጠኛ ነህ Enigma2 GUI ን እንደገና መጫን ትፈልጋለህ?\n\nበይነገጽ እንደገና ይጀምራል (ጥቁር ስክሪን ለጥቂት ሰከንዶች)።
+Auto (recommended): ራስ-ሰር (የሚመከር)
 Auto-detect: በራስ-አግኝ
 Automatic check on startup – or click 'Check for updates' in Tools menu.: ጅምር ላይ ራስ-ሰር ፍተሻ - ወይም በመሳሪያዎች ምናሌ ውስጥ 'ዝማኔዎችን ፈልግ' የሚለውን ጠቅ ያድርጉ።
 Bouquet Name: የቡኬት ስም
@@ -95,6 +96,7 @@ Developed by Lululla: በሉሉላ የተገነባ
 Developer: Lululla: ገንቢ: Lululla
 Disconnect: ግንኙነት አቋርጥ
 Disconnected: ግንኙነት ተቋርጧል
+Display as: : አሳይ እንደ፡-
 Do you want to load this edited playlist now?: ይህን የተስተካከለ አጫዋች ዝርዝር አሁን መጫን ይፈልጋሉ?
 Double speed (2x): ድርብ ፍጥነት (2x)
 Downloading playlist...: አጫዋች ዝርዝር በማውረድ ላይ...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: ልክ ያልሆነ JSON፡ {0}
 Invalid playlist URL.: ልክ ያልሆነ የአጫዋች ዝርዝር URL።
 Invalid URL.: ልክ ያልሆነ URL
 Json: ጄሰን
+JSON: ጄሰን
 JSON parsing error: {0}: JSON የመተንተን ስህተት፡ {0}
 JSON Property: JSON ንብረት
 Ko-fi: ቡና
@@ -228,6 +231,7 @@ Logos Matching Threshold: የሎጎስ ተዛማጅ ገደብ
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: የአርማዎች ማከማቻ - ባለቤት/repo/መንገድ ይምረጡ (ነባሪ የባለቤት ፕለጊኖች/ሎጎዎች)።
 Logos Source: የሎጎስ ምንጭ
 Logos Subfolder: የሎጎስ ንዑስ አቃፊ
+M3U: M3U
 M3U parsing error: {0}: M3U የመተንተን ስህተት፡ {0}
 Map JSON properties to channel fields:: የJSON ንብረቶችን ወደ ሰርጥ መስኮች ካርታ ያውጡ፡
 Mapping saved for future imports of this file.: ለወደፊቱ የዚህ ፋይል ማስመጣት ካርታ ተቀምጧል።
@@ -283,8 +287,8 @@ Paused: ባለበት ቆሟል
 PayPal: PayPal
 Picture-in-Picture mode: የሥዕል-ውስጥ-ሥዕል ሁነታ
 Play/Pause: አጫውት/ ለአፍታ አቁም
-Player Controls: የተጫዋች መቆጣጠሪያዎች
-Playing: በመጫወት ላይ
+Player Media Controls: የተጫዋች ሚዲያ መቆጣጠሪያዎች
+Playing Media: ሚዲያን በመጫወት ላይ
 Playlist & Groups: አጫዋች ዝርዝር እና ቡድኖች
 Playlist Comparison: የአጫዋች ዝርዝር ንጽጽር
 Playlist Editor: የአጫዋች ዝርዝር አርታዒ

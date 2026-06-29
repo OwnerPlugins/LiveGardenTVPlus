@@ -16,7 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Cyflymder chwarae: botymau 0.5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Trefnwch unrhyw golofn trwy glicio ar y pennawd; defnyddiwch 'Archeb Ailosod' i ddychwelyd i'r archeb wreiddiol.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Newid amser: saib y llif byw; llusgo llithrydd i chwilio yn ôl; pwyswch 'Live' i ddychwelyd.
-▶ Play: ▶ Chwarae
+▶ Play Media: ▶ Cyfryngau Chwarae
 ◀ Previous: ◀ Blaenorol
 16 colour themes + Light/Dark variants.: 16 thema lliw + amrywiadau Golau / Tywyll.
 A new version is available. Do you want to update now?: Mae fersiwn newydd ar gael. Ydych chi eisiau diweddaru nawr?
@@ -34,6 +34,7 @@ Apply / Import: Gwneud cais / Mewnforio
 Apply changes: Cymhwyso newidiadau
 Apply Filters: Cymhwyso Hidlau
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ydych chi'n siŵr eich bod am ail-lwytho GUI Enigma2?\n\nBydd y rhyngwyneb yn ailgychwyn (sgrin ddu am ychydig eiliadau).
+Auto (recommended): Auto (argymhellir)
 Auto-detect: Auto-canfod
 Automatic check on startup – or click 'Check for updates' in Tools menu.: Gwiriad awtomatig wrth gychwyn - neu cliciwch ar 'Gwirio am ddiweddariadau' yn newislen Tools.
 Bouquet Name: Enw Bouquet
@@ -95,6 +96,7 @@ Developed by Lululla: Datblygwyd gan Lululla
 Developer: Lululla: Datblygwr: Lululla
 Disconnect: Datgysylltu
 Disconnected: Wedi'i ddatgysylltu
+Display as: : Arddangos fel:
 Do you want to load this edited playlist now?: Ydych chi am lwytho'r rhestr chwarae hon sydd wedi'i golygu nawr?
 Double speed (2x): Cyflymder dwbl (2x)
 Downloading playlist...: Wrthi'n lawrlwytho rhestr chwarae...
@@ -194,6 +196,7 @@ Invalid JSON: {0}: JSON annilys: {0}
 Invalid playlist URL.: URL rhestr chwarae annilys.
 Invalid URL.: URL annilys.
 Json: Json
+JSON: JSON
 JSON parsing error: {0}: Gwall dosrannu JSON: {0}
 JSON Property: JSON Eiddo
 Ko-fi: Coffi
@@ -228,6 +231,7 @@ Logos Matching Threshold: Trothwy Cyfatebol Logos
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Ystorfa logos – dewiswch perchennog/repo/llwybr (PerchennogPlugins/logos diofyn).
 Logos Source: Ffynhonnell Logos
 Logos Subfolder: Is-ffolder Logos
+M3U: M3U
 M3U parsing error: {0}: Gwall dosrannu M3U: {0}
 Map JSON properties to channel fields:: Mapio priodweddau JSON i feysydd sianel:
 Mapping saved for future imports of this file.: Mae mapiau wedi'u cadw ar gyfer mewnforio'r ffeil hon yn y dyfodol.
@@ -283,8 +287,8 @@ Paused: Wedi seibio
 PayPal: PayPal
 Picture-in-Picture mode: Modd Llun-mewn-Llun
 Play/Pause: Chwarae/Saib
-Player Controls: Rheolyddion Chwaraewr
-Playing: Chwarae
+Player Media Controls: Rheolaethau Cyfryngau Chwaraewr
+Playing Media: Chwarae Cyfryngau
 Playlist & Groups: Rhestr Chwarae a Grwpiau
 Playlist Comparison: Cymhariaeth Rhestr Chwarae
 Playlist Editor: Golygydd Rhestr Chwarae
