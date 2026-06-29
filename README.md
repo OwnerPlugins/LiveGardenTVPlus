@@ -155,6 +155,8 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
       <img src="Screenshots/preview16.jpg?sanitize=true&raw=true" title="preview16" width="400"/><br/>
       <b>Preview 16</b>
     </td>
+    <td align="center">
+    </td>
   </tr>
 
   <tr>
@@ -200,26 +202,21 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
       <b>compare-edit_new1 24</b>
     </td>
   </tr>
-
   <tr>
     <td align="center">
       <img src="Screenshots/compare-filters_new1.jpg?sanitize=true&raw=true" title="compare-filters_new1" width="400"/><br/>
       <b>compare-filters_new1 25</b>
     </td>
-
     <td align="center">
       <img src="Screenshots/tab-code-editor_m3u.jpg?sanitize=true&raw=true" title="tab-code-editor_m3u" width="400"/><br/>
       <b>tab-code-editor_m3u 26</b>
     </td>
   </tr>
-
   <tr>
-
     <td align="center">
       <img src="Screenshots/tab_code_editor_json.jpg?sanitize=true&raw=true" title="tab_code_editor_json" width="400"/><br/>
       <b>tab_code_editor_json 27</b>
     </td>
-
     <td align="center">
       <img src="Screenshots/tab_code_player.jpg?sanitize=true&raw=true" title="tab_code_player" width="400"/><br/>
       <b>tab_code_player 28</b>
