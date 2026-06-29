@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Velocitat de reproducció: botons 0,5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Ordena qualsevol columna fent clic a la capçalera; utilitzeu "Restableix l'ordre" per tornar a l'ordre original.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: posa en pausa la transmissió en directe; arrossegueu el control lliscant per buscar enrere; premeu "En directe" per tornar.
+▶ Play: ▶ Jugar
 ◀ Previous: ◀ Anterior
 16 colour themes + Light/Dark variants.: 16 temes de color + variants clar/fosc.
 A new version is available. Do you want to update now?: Una nova versió està disponible. Vols actualitzar ara?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Ajusteu la mida de la memòria intermèdia (1
 Advanced IDs: Identificadors avançats
 Application status: Estat de la sol·licitud
 Apply: Aplicar
+Apply / Import: Aplicar / Importar
 Apply changes: Aplicar canvis
 Apply Filters: Aplicar filtres
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Esteu segur que voleu tornar a carregar la GUI d'Enigma2?\n\nLa interfície es reiniciarà (pantalla negra durant uns segons).
@@ -46,8 +48,10 @@ Cannot open browser: No es pot obrir el navegador
 Category: Categoria
 Changelog: Registre de canvis
 Channel Details: Detalls del canal
+Channel Down: Canal avall
 Channel Info: Informació del canal
 Channel Name: Nom del canal
+Channel Up: Canal amunt
 channels from: canals de
 channels from JSON: canals de JSON
 channels from JSON URL: canals des de l'URL JSON
@@ -61,6 +65,8 @@ Clear Filters: Esborra els filtres
 Clear search: Esborra la cerca
 Click for details: Feu clic per obtenir més informació
 Close: Tancar
+Code: Codi
+Code copied to clipboard.: Codi copiat al porta-retalls.
 Command name:: Nom de l'ordre:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Comunitat i proves: CorvoBoys (corvoboys.org) i LinuxSat-Support.com
 Compare: Compara
@@ -75,6 +81,7 @@ Confirm Reload: Confirmeu la tornada a carregar
 Connect: Connecta't
 Connected: Connectat
 Copied: Copiat
+Copy: Còpia
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: País
 Credits: Crèdits
@@ -141,6 +148,7 @@ Export OK: Exporta bé
 Export only favorite channels to a new M3U file: Exporteu només els canals preferits a un fitxer M3U nou
 Export results as JSON or M3U – export missing channels or all channels.: Exporta els resultats com a JSON o M3U: exporta els canals que falten o tots els canals.
 Export selected: Exportació seleccionada
+Export Selected: Exportació seleccionada
 Exported: Exportat
 Exported {0} channels to {1}: S'han exportat {0} canals a {1}
 Extracting update...: S'està extraient l'actualització...
@@ -154,11 +162,14 @@ Fetch Logos: Recupera logotips
 File {0} already exists. Overwrite?: El fitxer {0} ja existeix. Sobreescriure?
 File exists: El fitxer existeix
 Filters: Filtres
+Format Detection: Detecció de format
+Fullscreen: Pantalla completa
 Fullscreen (hide UI) - press ESC to exit: Pantalla completa (amaga la IU): premeu ESC per sortir
 Geo & Country: Geo i país
 GeoBlocked: GeoBlocked
 GitHub Error: Error de GitHub
 Go back to live: Torna a viure
+Grid: Quadrícula
 Group: Grup
 Half speed (0.5x): Mitja velocitat (0,5x)
 Help: Ajuda
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): Reproducció HLS: hls.js (llicència MIT)
 Image: Imatge
 Import: Importar
 Import cancelled or no channels mapped.: Importació cancel·lada o cap canal assignat.
+Import Error: Error d'importació
 Import error: {0}: Error d'importació: {0}
 Import from URL: Importa des de l'URL
 Import JSON: Importa JSON
 Import JSON from URL: Importa JSON des de l'URL
 Import Local: Importa local
+Imported {0} channels from code.: S'han importat {0} canals del codi.
 Imported {0} channels from JSON via mapping.: S'han importat {0} canals de JSON mitjançant mapeig.
 Imported {0} channels from URL.: S'han importat {0} canals des de l'URL.
 In Both: En Tots dos
@@ -181,6 +194,7 @@ Invalid JSON: {0}: JSON no vàlid: {0}
 Invalid playlist URL.: L'URL de la llista de reproducció no és vàlid.
 Invalid URL.: URL no vàlid.
 Json: Json
+JSON parsing error: {0}: Error d'anàlisi JSON: {0}
 JSON Property: Propietat JSON
 Ko-fi: Cafè
 Language: Llengua
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Carregueu el fitxer de llista de reproducció (M3U/JSON) des del vostre ordinador
 Loaded: Carregat
 Loaded {0} channels from JSON file via mapping.: S'han carregat {0} canals des del fitxer JSON mitjançant mapeig.
-Loaded {0} channels from JSON file.: S'han carregat {0} canals des del fitxer JSON.
 Loaded {0} channels from JSON URL.: S'han carregat {0} canals des de l'URL JSON.
 Loaded {0} channels from M3U file.: S'han carregat {0} canals del fitxer M3U.
 Loaded {0} channels from M3U URL.: S'han carregat {0} canals des de l'URL M3U.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Llindar de concordança de logotips
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Repositori de logotips: trieu propietari/repositori/camí (OwnerPlugins/logotips per defecte).
 Logos Source: Font de logotips
 Logos Subfolder: Subcarpeta de logotips
+M3U parsing error: {0}: Error d'anàlisi M3U: {0}
 Map JSON properties to channel fields:: Assigna propietats JSON als camps del canal:
 Mapping saved for future imports of this file.: Mapatge desat per a futures importacions d'aquest fitxer.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Llindars coincidents: configureu la sensibilitat de coincidència difusa per a EPG i logotips.
+Mini Player: Mini jugador
 Move to Group: Mou al grup
 Moved: Mogut
 Name: Nom
@@ -228,14 +243,18 @@ Next: A continuació
 Next ▶: Següent ▶
 No .m3u files found on GitHub repository.: No s'han trobat fitxers .m3u al repositori de GitHub.
 No cache folder found.: No s'ha trobat cap carpeta de memòria cau.
+No channel selected: No s'ha seleccionat cap canal
 No channels could be mapped or import cancelled.: No s'ha pogut assignar cap canal ni cancel·lar la importació.
 No channels could be mapped. Check your mapping rules.: No s'ha pogut mapejar cap canal. Comproveu les vostres regles de mapes.
+No channels found in JSON.: No s'ha trobat cap canal a JSON.
+No channels found in M3U.: No s'han trobat canals a M3U.
 No channels loaded from JSON URL.: No s'ha carregat cap canal des de l'URL JSON.
 No channels loaded from M3U URL.: No s'ha carregat cap canal des de l'URL M3U.
 No channels loaded from M3U.: No s'ha carregat cap canal des de M3U.
 No channels loaded.: No s'ha carregat cap canal.
 No channels mapped: No s'ha assignat cap canal
 No channels selected.: No s'ha seleccionat cap canal.
+No channels to import.: No hi ha canals per importar.
 No duplicate URLs found.: No s'han trobat URL duplicats.
 No EPG data: No hi ha dades EPG
 No EPG information available for this channel.: No hi ha informació d'EPG disponible per a aquest canal.
@@ -245,6 +264,8 @@ No favorite channels to export.: No hi ha canals preferits per exportar.
 No missing channels to export.: No falten canals per exportar.
 No playlist found: No s'ha trobat cap llista de reproducció
 No second playlist loaded.: No s'ha carregat cap segona llista de reproducció.
+No stream URL available for this channel.: No hi ha cap URL de reproducció disponible per a aquest canal.
+No text to import.: No hi ha text per importar.
 No updates available.: No hi ha actualitzacions disponibles.
 Normal speed (1x): Velocitat normal (1x)
 Not connected to the box.: No connectat a la caixa.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Posa en pausa/reprèn la reproducció en directe
 Paused: En pausa
 PayPal: PayPal
 Picture-in-Picture mode: Mode d'imatge en imatge
+Play/Pause: Reproduir/Pausa
 Player Controls: Controls del jugador
+Playing: Jugant
 Playlist & Groups: Llista de reproducció i grups
 Playlist Comparison: Comparació de llistes de reproducció
 Playlist Editor: Editor de llistes de reproducció
@@ -272,10 +295,12 @@ Please select a program first.: Seleccioneu primer un programa.
 Preview (first 5 channels): Vista prèvia (5 primers canals)
 Preview error: {0}: Error de previsualització: {0}
 Program Details: Detalls del programa
+Ready: A punt
 Ready.: A punt.
 Recent: Recent
 Recent files – quick access to last 5 opened playlists.: Fitxers recents: accés ràpid a les 5 últimes llistes de reproducció obertes.
 Recent playlists: Llistes de reproducció recents
+Refresh Code: Actualitzar el codi
 Refresh EPG: Actualitza l'EPG
 Refresh EPG List: Actualitza la llista EPG
 Refresh from GitHub: Actualitza des de GitHub
@@ -301,6 +326,7 @@ Search channels by name: Cerca canals per nom
 Search channels...: Cerca canals...
 sec: sec
 Second playlist loaded: {0} channels: Segona llista de reproducció carregada: {0} canals
+Select a channel to play.: Seleccioneu un canal per reproduir.
 Select a playlist first.: Seleccioneu primer una llista de reproducció.
 Select target group:: Seleccioneu el grup objectiu:
 Select Theme: Seleccioneu el tema
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Comença
 Status: Estat
 Stop: Atureu-vos
+Stopped: Parat
 Stream URL: URL del flux
 Stream URLs: URL de flux
 Success: Èxit
@@ -342,7 +369,9 @@ TV Guide (EPG): Guia de televisió (EPG)
 TvgId: TvgId
 Type channel name to filter: Escriu el nom del canal per filtrar
 UI: MaterialDesignThemes.Wpf: Interfície d'usuari: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: No es pot detectar automàticament el format. Seleccioneu JSON o M3U al menú desplegable i torneu-ho a provar.
 Unable to find version in remote project file.: No es pot trobar la versió al fitxer de projecte remot.
+Unsupported format. Please select JSON or M3U.: Format no compatible. Seleccioneu JSON o M3U.
 Update: Actualització
 Update complete. Restarting...: Actualització completa. S'està reiniciant...
 Update Error: Error d'actualització

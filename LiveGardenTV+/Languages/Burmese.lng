@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • ပြန်ဖွင့်နှုန်း- 0.5x၊ 1x၊ 2x ခလုတ်များ။
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • ခေါင်းစီးကိုနှိပ်ခြင်းဖြင့် မည်သည့်ကော်လံကိုမဆို စီပါ။ မူရင်းအမှာစာသို့ ပြန်သွားရန် 'Reset Order' ကိုသုံးပါ။
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift- တိုက်ရိုက်ထုတ်လွှင့်မှုကို ခဏရပ်ပါ။ ပြန်ရှာရန် slider ကိုဆွဲယူပါ။ ပြန်လာရန် 'Live' ကိုနှိပ်ပါ။
+▶ Play: ▶ ကစားပါ။
 ◀ Previous: ◀ ယခင်
 16 colour themes + Light/Dark variants.: အရောင် ၁၆ ရောင် အပြင်အဆင် + အလင်း/အမှောင် ဗားရှင်းများ။
 A new version is available. Do you want to update now?: ဗားရှင်းအသစ်တစ်ခု ရပါပြီ။ ယခု အပ်ဒိတ်လုပ်လိုပါသလား။
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): ကြားခံအရွယ်အစား
 Advanced IDs: အဆင့်မြင့် ID များ
 Application status: လျှောက်လွှာအခြေအနေ
 Apply: လျှောက်ထားပါ။
+Apply / Import: လျှောက်ထား/တင်သွင်းပါ။
 Apply changes: အပြောင်းအလဲများကို အသုံးချပါ။
 Apply Filters: စစ်ထုတ်မှုများကို အသုံးပြုပါ။
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI ကို ပြန်လည်စတင်လိုသည်မှာ သေချာပါသလား။\n\nအင်တာဖေ့စ်သည် ပြန်လည်စတင်ပါမည် (စက္ကန့်အနည်းငယ်ကြာ အနက်ရောင်မျက်နှာပြင်)။
@@ -46,8 +48,10 @@ Cannot open browser: ဘရောက်ဆာကို ဖွင့်၍မရ�
 Category: အမျိုးအစား
 Changelog: ပြောင်းလဲမှုမှတ်တမ်း
 Channel Details: ချန်နယ်အသေးစိတ်
+Channel Down: Channel Down
 Channel Info: ချန်နယ်အချက်အလက်
 Channel Name: ချန်နယ်အမည်
+Channel Up: Channel Up
 channels from: ချန်နယ်များမှ
 channels from JSON: JSON မှ ချန်နယ်များ
 channels from JSON URL: JSON URL မှ ချန်နယ်များ
@@ -61,6 +65,8 @@ Clear Filters: စစ်ထုတ်မှုများကို ရှင်�
 Clear search: ရှာဖွေမှုကို ရှင်းလင်းပါ။
 Click for details: အသေးစိတ်ကို နှိပ်ပါ။
 Close: ပိတ်လိုက်
+Code: ကုတ်
+Code copied to clipboard.: ကုဒ်ကို ကလစ်ဘုတ်သို့ ကူးယူထားသည်။
 Command name:: အမိန့်အမည်-
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: အသိုင်းအဝိုင်းနှင့် စမ်းသပ်ခြင်း- CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: နှိုင်းယှဥ်ပါ။
@@ -75,6 +81,7 @@ Confirm Reload: ပြန်တင်ကြောင်း အတည်ပြု
 Connect: ချိတ်ဆက်ပါ။
 Connected: ချိတ်ဆက်ထားသည်။
 Copied: ကူးယူသည်။
+Copy: ကော်ပီ
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: တိုင်းပြည်
 Credits: ခရက်ဒစ်
@@ -141,6 +148,7 @@ Export OK: Export OK
 Export only favorite channels to a new M3U file: M3U ဖိုင်အသစ်သို့ အကြိုက်ဆုံးချန်နယ်များကိုသာ ထုတ်ယူပါ။
 Export results as JSON or M3U – export missing channels or all channels.: ရလဒ်များကို JSON သို့မဟုတ် M3U အဖြစ် ထုတ်ယူပါ - ပျောက်ဆုံးနေသော ချန်နယ်များ သို့မဟုတ် ချန်နယ်အားလုံးကို ထုတ်ယူပါ။
 Export selected: ရွေးထုတ်ရန်
+Export Selected: ပို့ရန် ရွေးထားသည်။
 Exported: တင်ပို့ခဲ့သည်။
 Exported {0} channels to {1}: ချန်နယ် {0} ခုကို {1} သို့ တင်ပို့ခဲ့သည်
 Extracting update...: အပ်ဒိတ်ကို ထုတ်ယူနေသည်...
@@ -154,11 +162,14 @@ Fetch Logos: Logos များရယူပါ။
 File {0} already exists. Overwrite?: ဖိုင် {0} ရှိနှင့်ပြီးဖြစ်သည်။ ထပ်ရေးမလား။
 File exists: ဖိုင်ရှိပါတယ်။
 Filters: စစ်ထုတ်မှုများ
+Format Detection: Format Detection
+Fullscreen: မျက်နှာပြင်အပြည့်
 Fullscreen (hide UI) - press ESC to exit: မျက်နှာပြင်အပြည့် (UI ဝှက်ထား) - ထွက်ရန် ESC ကိုနှိပ်ပါ။
 Geo & Country: ဘူမိနှင့်နိုင်ငံ
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub အမှား
 Go back to live: အသက်ရှင်ဖို့ ပြန်သွားပါ။
+Grid: ဂရစ်
 Group: အဖွဲ့
 Half speed (0.5x): မြန်နှုန်းတစ်ဝက် (0.5x)
 Help: ကူညီကြပါ
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS ပြန်ဖွင့်ခြင်�
 Image: ပုံ
 Import: သွင်းကုန်
 Import cancelled or no channels mapped.: တင်သွင်းခြင်းကို ပယ်ဖျက်သည် သို့မဟုတ် မြေပုံဆွဲထားသော ချန်နယ်များမရှိပါ။
+Import Error: တင်သွင်းမှု အမှား
 Import error: {0}: တင်သွင်းမှု အမှား- {0}
 Import from URL: URL မှ တင်သွင်းပါ။
 Import JSON: JSON ကို ထည့်သွင်းပါ။
 Import JSON from URL: URL မှ JSON ကို တင်သွင်းပါ။
 Import Local: ပြည်တွင်းကို တင်သွင်းပါ။
+Imported {0} channels from code.: ကုဒ်မှ ချန်နယ် {0} လိုင်းကို တင်သွင်းခဲ့သည်။
 Imported {0} channels from JSON via mapping.: မြေပုံဆွဲခြင်းမှတစ်ဆင့် JSON မှ ချန်နယ် {0} လိုင်းကို တင်သွင်းခဲ့သည်။
 Imported {0} channels from URL.: URL မှ ချန်နယ် {0} လိုင်းကို တင်သွင်းခဲ့သည်။
 In Both: နှစ်ခုလုံးမှာ
@@ -181,6 +194,7 @@ Invalid JSON: {0}: မမှန်ကန်သော JSON- {0}
 Invalid playlist URL.: မမှန်ကန်သော အစီအစဉ် URL။
 Invalid URL.: မမှန်ကန်သော URL
 Json: Json
+JSON parsing error: {0}: JSON ခွဲခြမ်းစိတ်ဖြာမှု အမှား- {0}
 JSON Property: JSON အိမ်ခြံမြေ
 Ko-fi: ကော်ဖီ
 Language: ဘာသာစကား
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: သင့်ကွန်ပျူတာမှ အစီအစဉ်ဖိုင် (M3U/JSON) ကို တင်ပါ။
 Loaded: ဘဝတူ
 Loaded {0} channels from JSON file via mapping.: မြေပုံဆွဲခြင်းမှတစ်ဆင့် JSON ဖိုင်မှ ချန်နယ် {0} ခုကို တင်ထားသည်။
-Loaded {0} channels from JSON file.: JSON ဖိုင်မှ ချန်နယ် {0} ခုကို တင်ထားသည်။
 Loaded {0} channels from JSON URL.: JSON URL မှ ချန်နယ် {0} ခုကို တင်ထားသည်။
 Loaded {0} channels from M3U file.: M3U ဖိုင်မှ ချန်နယ် {0} လိုင်းကို တင်ထားသည်။
 Loaded {0} channels from M3U URL.: M3U URL မှ ချန်နယ် {0} လိုင်းကို တင်ထားသည်။
@@ -215,9 +228,11 @@ Logos Matching Threshold: Logos ကိုက်ညီမှုအဆင့်
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logos သိုလှောင်မှု – ပိုင်ရှင်/repo/path (မူလ OwnerPlugins/logos) ကို ရွေးပါ။
 Logos Source: Logos အရင်းအမြစ်
 Logos Subfolder: Logos ဖိုင်တွဲ
+M3U parsing error: {0}: M3U ခွဲခြမ်းစိတ်ဖြာမှု အမှား- {0}
 Map JSON properties to channel fields:: ချန်နယ်အကွက်များသို့ JSON ဂုဏ်သတ္တိများကို မြေပုံဆွဲပါ-
 Mapping saved for future imports of this file.: ဤဖိုင်၏ အနာဂတ်တင်သွင်းမှုများအတွက် မြေပုံကို သိမ်းဆည်းထားသည်။
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: ကိုက်ညီသောအဆင့်များ - EPG နှင့် လိုဂိုများအတွက် မပီမသ ကိုက်ညီမှု အာရုံခံနိုင်စွမ်းကို သတ်မှတ်ပါ။
+Mini Player: Mini Player
 Move to Group: အဖွဲ့သို့ ရွှေ့ပါ။
 Moved: ပြောင်းရွှေ့ခဲ့သည်။
 Name: နာမည်
@@ -228,14 +243,18 @@ Next: နောက်တစ်ခု
 Next ▶: နောက်တစ်ခု ▶
 No .m3u files found on GitHub repository.: GitHub repository တွင် .m3u ဖိုင်များကိုမတွေ့ပါ။
 No cache folder found.: ကက်ရှ်ဖိုင်တွဲကို ရှာမတွေ့ပါ။
+No channel selected: ချန်နယ်ကို ရွေးထားခြင်းမရှိပါ။
 No channels could be mapped or import cancelled.: မည်သည့်ချန်နယ်များကိုမျှ မြေပုံဆွဲခြင်း သို့မဟုတ် တင်သွင်းခြင်းကို ပယ်ဖျက်ခြင်းမပြုနိုင်ပါ။
 No channels could be mapped. Check your mapping rules.: ချန်နယ်များကို မြေပုံဆွဲ၍မရပါ။ သင်၏မြေပုံစည်းမျဉ်းများကိုစစ်ဆေးပါ။
+No channels found in JSON.: JSON တွင် ချန်နယ်များ မတွေ့ပါ။
+No channels found in M3U.: M3U တွင် ချန်နယ်များ မတွေ့ပါ။
 No channels loaded from JSON URL.: JSON URL မှ တင်သည့် ချန်နယ်မရှိပါ။
 No channels loaded from M3U URL.: M3U URL မှ လိုင်းများ မတင်ပါ။
 No channels loaded from M3U.: M3U မှ လိုင်းမတင်ပါ။
 No channels loaded.: ချန်နယ်များ မတင်ပါ။
 No channels mapped: မြေပုံဆွဲထားသော ချန်နယ်မရှိပါ။
 No channels selected.: ချန်နယ်များကို ရွေးချယ်ထားခြင်းမရှိပါ။
+No channels to import.: တင်သွင်းရန် ချန်နယ်မရှိပါ။
 No duplicate URLs found.: ထပ်နေသည့် URL များကိုမတွေ့ပါ။
 No EPG data: EPG ဒေတာမရှိပါ။
 No EPG information available for this channel.: ဤချန်နယ်အတွက် EPG အချက်အလက် မရရှိနိုင်ပါ။
@@ -245,6 +264,8 @@ No favorite channels to export.: တင်ပို့ရန် အကြို�
 No missing channels to export.: တင်ပို့ရန် ချန်နယ်များ ပျောက်ဆုံးနေခြင်းမရှိပါ။
 No playlist found: ပြသစာရင်းမတွေ့ပါ။
 No second playlist loaded.: ဒုတိယဖွင့်စာရင်းကို ဖွင့်မထားပါ။
+No stream URL available for this channel.: ဤချန်နယ်အတွက် တိုက်ရိုက်လွှင့် URL မရှိပါ။
+No text to import.: ထည့်သွင်းရန် စာသားမရှိပါ။
 No updates available.: အပ်ဒိတ်များ မရရှိနိုင်ပါ။
 Normal speed (1x): ပုံမှန်အမြန်နှုန်း (1x)
 Not connected to the box.: အကွက်နှင့် မချိတ်ဆက်ပါ။
@@ -261,7 +282,9 @@ Pause/Resume live stream: ခေတ္တရပ်ရန်/ တိုက်ရ�
 Paused: ရပ်ထားသည်။
 PayPal: PayPal
 Picture-in-Picture mode: ရုပ်ပုံ-ပုံ-ပုံမုဒ်
+Play/Pause: ဖွင့်/ခေတ္တရပ်ပါ။
 Player Controls: ကစားသမားထိန်းချုပ်မှုများ
+Playing: ကစားခြင်း။
 Playlist & Groups: အစီအစဉ်နှင့် အဖွဲ့များ
 Playlist Comparison: အစီအစဉ် နှိုင်းယှဉ်မှု
 Playlist Editor: အစီအစဉ်တည်းဖြတ်သူ
@@ -272,10 +295,12 @@ Please select a program first.: ပရိုဂရမ်တစ်ခုကို
 Preview (first 5 channels): အစမ်းကြည့်ရှုခြင်း (ပထမ 5 ချန်နယ်)
 Preview error: {0}: အစမ်းကြည့်ရှုမှု အမှား- {0}
 Program Details: အစီအစဉ်အသေးစိတ်
+Ready: အဆင်သင့်
 Ready.: အဆင်သင့်။
 Recent: မကြာမှီ
 Recent files – quick access to last 5 opened playlists.: လတ်တလောဖိုင်များ - နောက်ဆုံးဖွင့်ထားသော အစီအစဉ် 5 ခုသို့ အမြန်ဝင်ရောက်ပါ။
 Recent playlists: လတ်တလော အစီအစဉ်များ
+Refresh Code: ကုဒ်ကို ပြန်လည်စတင်ပါ။
 Refresh EPG: EPG ကို ပြန်လည်စတင်ပါ။
 Refresh EPG List: EPG စာရင်းကို ပြန်လည်စတင်ပါ။
 Refresh from GitHub: GitHub မှ ပြန်လည်စတင်ပါ။
@@ -301,6 +326,7 @@ Search channels by name: အမည်ဖြင့် ချန်နယ်မျ
 Search channels...: ချန်နယ်များကို ရှာဖွေပါ...
 sec: စက္ကန့်
 Second playlist loaded: {0} channels: ဒုတိယအစီအစဉ်ကို တင်ထားသည်- ချန်နယ် {0} ခု
+Select a channel to play.: ကစားရန် ချန်နယ်တစ်ခုကို ရွေးပါ။
 Select a playlist first.: အစီအစဉ်တစ်ခုကို ဦးစွာရွေးချယ်ပါ။
 Select target group:: ပစ်မှတ်အုပ်စုကို ရွေးပါ-
 Select Theme: Theme ကို ရွေးပါ။
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: စတင်ပါ။
 Status: အဆင့်အတန်း
 Stop: ရပ်
+Stopped: ရပ်သွားတယ်။
 Stream URL: တိုက်ရိုက်လွှင့် URL
 Stream URLs: တိုက်ရိုက် URL များ
 Success: အောင်မြင်မှု
@@ -342,7 +369,9 @@ TV Guide (EPG): တီဗီလမ်းညွှန် (EPG)
 TvgId: TvgId
 Type channel name to filter: စစ်ထုတ်ရန် ချန်နယ်အမည်ကို ရိုက်ထည့်ပါ။
 UI: MaterialDesignThemes.Wpf: UI- MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: ဖော်မတ်ကို အလိုအလျောက် ရှာမတွေ့နိုင်ပါ။ dropdown မှ JSON သို့မဟုတ် M3U ကို ရွေးပြီး ထပ်စမ်းကြည့်ပါ။
 Unable to find version in remote project file.: အဝေးထိန်းပရောဂျက်ဖိုင်တွင် ဗားရှင်းကို ရှာမတွေ့ပါ။
+Unsupported format. Please select JSON or M3U.: ပံ့ပိုးမထားသော ဖော်မတ်။ ကျေးဇူးပြု၍ JSON သို့မဟုတ် M3U ကိုရွေးချယ်ပါ။
 Update: အပ်ဒိတ်
 Update complete. Restarting...: အပ်ဒိတ် ပြီးပါပြီ။ ပြန်လည်စတင်နေသည်...
 Update Error: အပ်ဒိတ် အမှား

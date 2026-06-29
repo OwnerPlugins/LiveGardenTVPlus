@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Reprodukta rapido: 0.5x, 1x, 2x butonoj.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Ordigi ajnan kolumnon klakante kaplinion; uzu 'Restarigi Ordon' por reveni al originala ordo.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: paŭzi vivan rivereton; trenu glitilon por serĉi reen; premu 'Live' por reveni.
+▶ Play: ▶ Ludu
 ◀ Previous: ◀ Antaŭa
 16 colour themes + Light/Dark variants.: 16 koloraj temoj + Lumaj/Malhelaj variantoj.
 A new version is available. Do you want to update now?: Nova versio disponeblas. Ĉu vi volas ĝisdatigi nun?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Alĝustigu bufran grandecon (1-10 sekundoj)
 Advanced IDs: Altnivelaj identigiloj
 Application status: Aplika stato
 Apply: Apliki
+Apply / Import: Apliki / Importi
 Apply changes: Apliki ŝanĝojn
 Apply Filters: Apliki Filtrilojn
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ĉu vi certas, ke vi volas reŝargi la Enigma2 GUI?\n\nLa interfaco rekomencos (nigra ekrano dum kelkaj sekundoj).
@@ -46,8 +48,10 @@ Cannot open browser: Ne povas malfermi retumilon
 Category: Kategorio
 Changelog: Ŝanĝprotokolo
 Channel Details: Kanalaj Detaloj
+Channel Down: Kanalo Malsupren
 Channel Info: Informoj pri kanalo
 Channel Name: Kanala Nomo
+Channel Up: Kanalo Supren
 channels from: kanaloj de
 channels from JSON: kanaloj de JSON
 channels from JSON URL: kanaloj de JSON URL
@@ -61,6 +65,8 @@ Clear Filters: Forigi Filtrilojn
 Clear search: Klara serĉo
 Click for details: Klaku por detaloj
 Close: Fermu
+Code: Kodo
+Code copied to clipboard.: Kodo kopiita al tondujo.
 Command name:: Komanda nomo:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunumo & testado: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: Komparu
@@ -75,6 +81,7 @@ Confirm Reload: Konfirmu Reŝargi
 Connect: Konekti
 Connected: Konektita
 Copied: Kopiita
+Copy: Kopiu
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Lando
 Credits: Kreditoj
@@ -141,6 +148,7 @@ Export OK: Eksportu bone
 Export only favorite channels to a new M3U file: Eksportu nur plej ŝatatajn kanalojn al nova M3U-dosiero
 Export results as JSON or M3U – export missing channels or all channels.: Eksportu rezultojn kiel JSON aŭ M3U - eksportu mankantajn kanalojn aŭ ĉiujn kanalojn.
 Export selected: Elektita eksporto
+Export Selected: Eksporto Elektita
 Exported: Eksportita
 Exported {0} channels to {1}: Eksportitaj {0} kanaloj al {1}
 Extracting update...: Eltiranta ĝisdatigon...
@@ -154,11 +162,14 @@ Fetch Logos: Prenu Logos
 File {0} already exists. Overwrite?: Dosiero {0} jam ekzistas. Ĉu anstataŭigi?
 File exists: Dosiero ekzistas
 Filters: Filtriloj
+Format Detection: Format Detekto
+Fullscreen: Plenekrana
 Fullscreen (hide UI) - press ESC to exit: Plenekrano (kaŝi UI) - premu ESC por eliri
 Geo & Country: Geo & Lando
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub Eraro
 Go back to live: Reiru por vivi
+Grid: Krado
 Group: Grupo
 Half speed (0.5x): Duona rapido (0.5x)
 Help: Helpu
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS-reproduktado: hls.js (MIT-licenco)
 Image: Bildo
 Import: Importi
 Import cancelled or no channels mapped.: Importo nuligita aŭ neniuj kanaloj mapitaj.
+Import Error: Importa Eraro
 Import error: {0}: Importa eraro: {0}
 Import from URL: Importi el URL
 Import JSON: Importu JSON
 Import JSON from URL: Importu JSON el URL
 Import Local: Importu Loka
+Imported {0} channels from code.: Importitaj {0} kanaloj el kodo.
 Imported {0} channels from JSON via mapping.: Importis {0} kanalojn el JSON per mapado.
 Imported {0} channels from URL.: Importitaj {0} kanaloj el URL.
 In Both: En Ambaŭ
@@ -181,6 +194,7 @@ Invalid JSON: {0}: Nevalida JSON: {0}
 Invalid playlist URL.: Nevalida URL de ludlisto.
 Invalid URL.: Nevalida URL.
 Json: Json
+JSON parsing error: {0}: JSON-analiza eraro: {0}
 JSON Property: JSON-posedaĵo
 Ko-fi: Kafo
 Language: Lingvo
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Ŝarĝu ludlistdosieron (M3U/JSON) el via komputilo
 Loaded: Ŝarĝita
 Loaded {0} channels from JSON file via mapping.: Ŝargis {0} kanalojn de JSON-dosiero per mapado.
-Loaded {0} channels from JSON file.: Ŝargis {0} kanalojn el JSON-dosiero.
 Loaded {0} channels from JSON URL.: Ŝargis {0} kanalojn el JSON-URL.
 Loaded {0} channels from M3U file.: Ŝargis {0} kanalojn el M3U-dosiero.
 Loaded {0} channels from M3U URL.: Ŝargis {0} kanalojn de M3U URL.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Logos Kongrua Sojlo
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logos-deponejo - elektu posedanton/repo/padon (defaŭlte OwnerPlugins/logos).
 Logos Source: Logos Fonto
 Logos Subfolder: Logos Subdosierujo
+M3U parsing error: {0}: M3U analiza eraro: {0}
 Map JSON properties to channel fields:: Mapu JSON-ecojn al kanalaj kampoj:
 Mapping saved for future imports of this file.: Mapado konservita por estontaj importadoj de ĉi tiu dosiero.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Kongruaj sojloj - agordu neklaran matĉosentemon por EPG kaj emblemoj.
+Mini Player: Mini Player
 Move to Group: Movu al Grupo
 Moved: Movita
 Name: Nomo
@@ -228,14 +243,18 @@ Next: Poste
 Next ▶: Sekva ▶
 No .m3u files found on GitHub repository.: Neniuj .m3u dosieroj trovitaj en GitHub-deponejo.
 No cache folder found.: Neniu kaŝmemoro dosierujo trovita.
+No channel selected: Neniu kanalo elektita
 No channels could be mapped or import cancelled.: Neniuj kanaloj povus esti mapitaj aŭ importado nuligita.
 No channels could be mapped. Check your mapping rules.: Neniuj kanaloj povus esti mapitaj. Kontrolu viajn mapajn regulojn.
+No channels found in JSON.: Neniuj kanaloj trovitaj en JSON.
+No channels found in M3U.: Neniuj kanaloj trovitaj en M3U.
 No channels loaded from JSON URL.: Neniuj kanaloj ŝarĝitaj de JSON-URL.
 No channels loaded from M3U URL.: Neniuj kanaloj ŝarĝitaj de M3U-URL.
 No channels loaded from M3U.: Neniuj kanaloj ŝarĝitaj de M3U.
 No channels loaded.: Neniuj kanaloj ŝarĝitaj.
 No channels mapped: Neniuj kanaloj mapitaj
 No channels selected.: Neniuj kanaloj elektitaj.
+No channels to import.: Neniuj kanaloj por importi.
 No duplicate URLs found.: Neniuj duplikataj URL-oj trovitaj.
 No EPG data: Neniuj EPG-datumoj
 No EPG information available for this channel.: Neniuj EPG-informoj haveblaj por ĉi tiu kanalo.
@@ -245,6 +264,8 @@ No favorite channels to export.: Neniuj plej ŝatataj kanaloj por eksporti.
 No missing channels to export.: Neniuj mankantaj kanaloj por eksporti.
 No playlist found: Neniu ludlisto trovita
 No second playlist loaded.: Neniu dua ludlisto ŝarĝita.
+No stream URL available for this channel.: Neniu fluo URL disponebla por ĉi tiu kanalo.
+No text to import.: Neniu teksto importenda.
 No updates available.: Neniuj ĝisdatigoj haveblaj.
 Normal speed (1x): Normala rapido (1x)
 Not connected to the box.: Ne konektita al la skatolo.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Paŭzi/Rekomenci la rektan fluon
 Paused: Paŭzita
 PayPal: PayPal
 Picture-in-Picture mode: Bildo-en-bilda reĝimo
+Play/Pause: Ludi/Paŭzu
 Player Controls: Ludantaj Kontroloj
+Playing: Ludante
 Playlist & Groups: Ludlisto & Grupoj
 Playlist Comparison: Komparo de Ludlisto
 Playlist Editor: Redaktilo de Ludlisto
@@ -272,10 +295,12 @@ Please select a program first.: Bonvolu unue elekti programon.
 Preview (first 5 channels): Antaŭrigardo (unuaj 5 kanaloj)
 Preview error: {0}: Antaŭrigarda eraro: {0}
 Program Details: Programo Detaloj
+Ready: Preta
 Ready.: Preta.
 Recent: Lastatempa
 Recent files – quick access to last 5 opened playlists.: Lastatempaj dosieroj - rapida aliro al la lastaj 5 malfermitaj ludlistoj.
 Recent playlists: Lastatempaj ludlistoj
+Refresh Code: Refreŝigi Kodon
 Refresh EPG: Refreŝigu EPG
 Refresh EPG List: Refreŝigi EPG-Liston
 Refresh from GitHub: Refreŝigu de GitHub
@@ -301,6 +326,7 @@ Search channels by name: Serĉu kanalojn laŭ nomo
 Search channels...: Serĉu kanalojn...
 sec: sek
 Second playlist loaded: {0} channels: Dua ludlisto ŝarĝita: {0} kanaloj
+Select a channel to play.: Elektu kanalon por ludi.
 Select a playlist first.: Unue elektu ludliston.
 Select target group:: Elektu celgrupon:
 Select Theme: Elektu Temon
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Komencu
 Status: Statuso
 Stop: Haltu
+Stopped: Haltis
 Stream URL: Flua URL
 Stream URLs: Flui URL-ojn
 Success: Sukceso
@@ -342,7 +369,9 @@ TV Guide (EPG): Televida Gvidilo (EPG)
 TvgId: TvgId
 Type channel name to filter: Tajpu kanalan nomon por filtri
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Ne eblas aŭtomate detekti formaton. Bonvolu elekti JSON aŭ M3U el la menuo kaj provi denove.
 Unable to find version in remote project file.: Ne eblas trovi version en fora projektdosiero.
+Unsupported format. Please select JSON or M3U.: Nesubtenata formato. Bonvolu elekti JSON aŭ M3U.
 Update: Ĝisdatigo
 Update complete. Restarting...: Ĝisdatigo kompleta. Rekomencante...
 Update Error: Ĝisdatigi Eraron

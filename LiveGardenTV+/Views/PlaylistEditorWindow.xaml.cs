@@ -6,12 +6,12 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
 using System.Net.Http;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Input;
 using System.Windows.Threading;
-
 
 namespace LiveGardenTVPlus.Views
 {
@@ -25,9 +25,55 @@ namespace LiveGardenTVPlus.Views
         private bool _isFetchingLogos = false;
         private CancellationTokenSource _cancellationTokenSource = null;
 
+        // Code tab fields
+        private bool _isCodeTabUpdating = false;
+        private bool _isParsingCode = false;
+        private string _currentDisplayFormat = "Json";
+
+        public PlaylistEditorWindow(List<Channel> channels, EpgService epgService = null)
+        {
+            InitializeComponent();
+            DataContext = this;
+            _epgService = epgService;
+
+            // Convert Channel list to ChannelJson
+            var editable = channels.Select(c => new ChannelJson
+            {
+                name = c.Name,
+                stream_urls = string.IsNullOrEmpty(c.Url) ? new List<string>() : new List<string> { c.Url },
+                logo_url = c.Logo,
+                group = c.Group,
+                tvg_id = c.TvgId,
+                isFavorite = c.IsFavorite,
+                country = "",
+                youtube_urls = new List<string>(),
+                nanoid = "",
+                languages = new List<string>(),
+                isGeoBlocked = false,
+                UrlStatus = ""
+            }).ToList();
+
+            Channels = new ObservableCollection<ChannelJson>(editable);
+            ChannelsGrid.ItemsSource = Channels;
+            UpdateFilteredCount();
+            IsSaved = false;
+            SavedFilePath = null;
+
+            LanguageManager.LanguageChanged += ApplyLanguage;
+            ApplyLanguage();
+
+            ChannelsGrid.SelectionChanged += (s, e) =>
+            {
+                int count = ChannelsGrid.SelectedItems.Count;
+                SelectedCountText.Text = count > 0 ? $"{count} selected" : "";
+            };
+
+            MainTabControl.SelectionChanged += MainTabControl_SelectionChanged;
+        }
+
         private void ApplyLanguage()
         {
-            // Group headers (toolbar sections)
+            // Group headers
             var playlistGroups = FindName("PlaylistGroups") as TextBlock;
             if (playlistGroups != null) playlistGroups.Text = LanguageManager.GetTranslation("Playlist & Groups");
 
@@ -65,8 +111,7 @@ namespace LiveGardenTVPlus.Views
             var urlsStatus = FindName("UrlsStatusLabel") as TextBlock;
             if (urlsStatus != null) urlsStatus.Text = LanguageManager.GetTranslation("URLs & Status");
 
-            // Field labels inside filter groups (TextBlock with x:Name)
-
+            // Field labels
             var nameField = FindName("NameFieldLabel") as TextBlock;
             if (nameField != null) nameField.Text = LanguageManager.GetTranslation("Name");
 
@@ -100,7 +145,7 @@ namespace LiveGardenTVPlus.Views
             var statusField = FindName("StatusFieldLabel") as TextBlock;
             if (statusField != null) statusField.Text = LanguageManager.GetTranslation("Status");
 
-            // Button content
+            // Buttons
             NewPlaylistBtn.Content = LanguageManager.GetTranslation("New Playlist");
             AddGroupBtn.Content = LanguageManager.GetTranslation("Add Group");
             RenameGroupBtn.Content = LanguageManager.GetTranslation("Rename Group");
@@ -128,6 +173,8 @@ namespace LiveGardenTVPlus.Views
             CompareBtn.Content = LanguageManager.GetTranslation("Compare...");
 
             DeleteSelectedBtn.Content = LanguageManager.GetTranslation("Delete Selected");
+            ExportSelectedBtn.Content = LanguageManager.GetTranslation("Export Selected");
+            PlayBtn.Content = LanguageManager.GetTranslation("▶ Play");
             StopBtn.Content = LanguageManager.GetTranslation("Stop");
 
             SaveBtn.Content = LanguageManager.GetTranslation("Save as...");
@@ -136,7 +183,16 @@ namespace LiveGardenTVPlus.Views
             ApplyFilterBtn.Content = LanguageManager.GetTranslation("Apply Filters");
             ClearFilterBtn.Content = LanguageManager.GetTranslation("Clear Filters");
 
-            // DataGrid column headers (direct access via x:Name)
+            // Tab Control
+            GridTab.Header = LanguageManager.GetTranslation("Grid");
+            CodeTab.Header = LanguageManager.GetTranslation("Code");
+
+            // Code Tab buttons
+            RefreshCodeBtn.Content = LanguageManager.GetTranslation("Refresh Code");
+            ApplyCodeBtn.Content = LanguageManager.GetTranslation("Apply / Import");
+            CopyCodeBtn.Content = LanguageManager.GetTranslation("Copy");
+
+            // DataGrid columns
             colPicons.Header = LanguageManager.GetTranslation("Image");
             colName.Header = LanguageManager.GetTranslation("Name");
             colUrlPrimary.Header = LanguageManager.GetTranslation("URL (primary)");
@@ -152,11 +208,9 @@ namespace LiveGardenTVPlus.Views
             colStreamUrls.Header = LanguageManager.GetTranslation("Stream URLs");
             colStatus.Header = LanguageManager.GetTranslation("Status");
 
-            // CheckBoxes
             FilterFavorite.Content = LanguageManager.GetTranslation("Favorite");
             FilterGeoBlocked.Content = LanguageManager.GetTranslation("GeoBlocked");
 
-            // Window title
             Title = LanguageManager.GetTranslation("Playlist Management");
         }
 
@@ -178,44 +232,6 @@ namespace LiveGardenTVPlus.Views
                             "Playlist Ready", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
-        public PlaylistEditorWindow(List<Channel> channels, EpgService epgService = null)
-        {
-            InitializeComponent();
-            DataContext = this;
-            _epgService = epgService;
-
-            // Convert Channel list to ChannelJson with safe initialization
-            var editable = channels.Select(c => new ChannelJson
-            {
-                name = c.Name,
-                stream_urls = string.IsNullOrEmpty(c.Url) ? new List<string>() : new List<string> { c.Url },
-                logo_url = c.Logo,
-                group = c.Group,
-                tvg_id = c.TvgId,
-                isFavorite = c.IsFavorite,
-                country = "",
-                youtube_urls = new List<string>(),
-                nanoid = "",
-                languages = new List<string>(),
-                isGeoBlocked = false,
-                UrlStatus = ""
-            }).ToList();
-
-            Channels = new ObservableCollection<ChannelJson>(editable);
-            ChannelsGrid.ItemsSource = Channels;
-            UpdateFilteredCount();
-            IsSaved = false;
-            SavedFilePath = null;
-            LanguageManager.LanguageChanged += ApplyLanguage;
-            ApplyLanguage();
-
-            ChannelsGrid.SelectionChanged += (s, e) =>
-            {
-                int count = ChannelsGrid.SelectedItems.Count;
-                SelectedCountText.Text = count > 0 ? $"{count} selected" : "";
-            };
-        }
-
         private void EditUrlsButton_Click(object sender, RoutedEventArgs e)
         {
             var btn = sender as Button;
@@ -228,7 +244,6 @@ namespace LiveGardenTVPlus.Views
             {
                 channel.stream_urls = dialog.Urls;
                 ChannelsGrid.Items.Refresh();
-                // It also updates the display in the cell
             }
         }
 
@@ -290,7 +305,6 @@ namespace LiveGardenTVPlus.Views
         }
 
         private void ApplyFilterBtn_Click(object sender, RoutedEventArgs e) => ApplyFilter();
-
         private void ClearFilterBtn_Click(object sender, RoutedEventArgs e)
         {
             FilterName.Text = FilterUrl.Text = FilterGroup.Text = FilterLogo.Text = FilterTvgId.Text =
@@ -396,263 +410,236 @@ namespace LiveGardenTVPlus.Views
             }
         }
 
-        /// <summary>
-        /// Parses JSON content into a list of ChannelJson.
-        /// Handles BOM, wrapping, and trailing commas.
-        /// </summary>
-        private List<ChannelJson> ParseJsonToChannelJsonList(string jsonContent)
+        // ------------------------------------------------------------------
+        // Code Tab methods
+        // ------------------------------------------------------------------
+        private async Task<string> GenerateCodeContentAsync(string format = null)
         {
-            if (jsonContent.StartsWith("\uFEFF")) jsonContent = jsonContent.Substring(1);
-            jsonContent = jsonContent.Trim();
+            if (string.IsNullOrEmpty(format))
+                format = _currentDisplayFormat;
 
-            // Fix malformed: starts with '{' ends with ']'
-            if (jsonContent.StartsWith("{") && jsonContent.EndsWith("]"))
-                jsonContent = jsonContent.Substring(0, jsonContent.Length - 1);
-
-            // Wrap single object or multiple objects without outer array
-            if (jsonContent.StartsWith("{") && !jsonContent.StartsWith("["))
-                jsonContent = "[" + jsonContent + "]";
-
-            // Remove trailing commas inside arrays and objects
-            jsonContent = System.Text.RegularExpressions.Regex.Replace(jsonContent, @",\s*\]", "]");
-            jsonContent = System.Text.RegularExpressions.Regex.Replace(jsonContent, @",\s*\}", "}");
-
-            JToken root = JToken.Parse(jsonContent);
-            JArray array = null;
-            if (root.Type == JTokenType.Array)
-                array = (JArray)root;
-            else if (root.Type == JTokenType.Object)
+            return await Task.Run(() =>
             {
-                foreach (var prop in ((JObject)root).Properties())
-                    if (prop.Value.Type == JTokenType.Array)
+                if (format == "M3u")
+                {
+                    var sb = new StringBuilder();
+                    sb.AppendLine("#EXTM3U");
+                    foreach (var ch in Channels)
                     {
-                        array = (JArray)prop.Value;
-                        break;
+                        string url = ch.stream_urls?.FirstOrDefault() ?? "";
+                        if (string.IsNullOrEmpty(url)) continue;
+                        string logoAttr = string.IsNullOrEmpty(ch.logo_url) ? "" : $" tvg-logo=\"{ch.logo_url}\"";
+                        string tvgIdAttr = string.IsNullOrEmpty(ch.tvg_id) ? "" : $" tvg-id=\"{ch.tvg_id}\"";
+                        sb.AppendLine($"#EXTINF:-1 group-title=\"{ch.group}\"{logoAttr}{tvgIdAttr},{ch.name}");
+                        sb.AppendLine(url);
                     }
-            }
-            if (array == null)
-                throw new Exception("No array found in JSON.");
-
-            var result = new List<ChannelJson>();
-            foreach (JObject obj in array)
-            {
-                var ch = new ChannelJson
-                {
-                    name = obj["name"]?.ToString() ?? "",
-                    logo_url = obj["logo_url"]?.ToString() ?? "",
-                    group = obj["group"]?.ToString() ?? "",
-                    tvg_id = obj["tvg_id"]?.ToString() ?? "",
-                    isFavorite = obj["isFavorite"]?.Value<bool>() ?? false,
-                    country = obj["country"]?.ToString() ?? "",
-                    nanoid = obj["nanoid"]?.ToString() ?? "",
-                    isGeoBlocked = obj["isGeoBlocked"]?.Value<bool>() ?? false
-                };
-
-                var streamUrlsToken = obj["stream_urls"];
-                if (streamUrlsToken?.Type == JTokenType.Array)
-                    ch.stream_urls = streamUrlsToken.Select(t => t.ToString()).ToList();
-                else if (streamUrlsToken?.Type == JTokenType.String)
-                    ch.stream_urls = new List<string> { streamUrlsToken.ToString() };
-                else
-                    ch.stream_urls = new List<string>();
-
-                if ((ch.stream_urls == null || ch.stream_urls.Count == 0) && obj["url"] != null)
-                {
-                    string url = obj["url"].ToString();
-                    if (!string.IsNullOrEmpty(url))
-                        ch.stream_urls = new List<string> { url };
+                    return sb.ToString();
                 }
-
-                ch.youtube_urls = obj["youtube_urls"]?.Type == JTokenType.Array
-                    ? obj["youtube_urls"].Select(t => t.ToString()).ToList() : new List<string>();
-                ch.languages = obj["languages"]?.Type == JTokenType.Array
-                    ? obj["languages"].Select(t => t.ToString()).ToList() : new List<string>();
-
-                ch.stream_urls ??= new List<string>();
-                ch.youtube_urls ??= new List<string>();
-                ch.languages ??= new List<string>();
-
-                result.Add(ch);
-            }
-            return result;
+                else
+                {
+                    try
+                    {
+                        return JsonConvert.SerializeObject(Channels, Formatting.Indented);
+                    }
+                    catch
+                    {
+                        return "[]";
+                    }
+                }
+            });
         }
 
-        private async void OpenFileBtn_Click(object sender, RoutedEventArgs e)
+        private async void MainTabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            var dlg = new Microsoft.Win32.OpenFileDialog
+            if (MainTabControl.SelectedItem == CodeTab && !_isParsingCode && !_isCodeTabUpdating)
             {
-                Filter = "Playlist files|*.m3u;*.m3u8;*.json|M3U files|*.m3u;*.m3u8|JSON files|*.json",
-                DefaultExt = ".m3u"
-            };
-            if (dlg.ShowDialog() == true)
-            {
-                string logPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "openfile_log.txt");
-                File.WriteAllText(logPath, $"=== {DateTime.Now} ===\nFile: {dlg.FileName}\n");
+                _isCodeTabUpdating = true;
                 try
                 {
-                    string filePath = dlg.FileName;
-                    string ext = Path.GetExtension(filePath).ToLower();
-                    File.AppendAllText(logPath, $"Extension: {ext}\n");
-
-                    /*                     if (ext == ".json")
-                                        {
-                                            string json = File.ReadAllText(filePath, Encoding.UTF8);
-                                            File.AppendAllText(logPath, $"JSON length: {json.Length}\nFirst 200 chars: {json.Substring(0, Math.Min(200, json.Length))}\n");
-                                            var imported = ParseJsonToChannelJsonList(json);
-                                            if (imported == null || imported.Count == 0)
-                                                throw new Exception("No channels found in JSON.");
-
-                                            Channels.Clear();
-                                            foreach (var ch in imported)
-                                                Channels.Add(ch);
-                                            ClearFilterBtn_Click(null, null);
-                                            File.AppendAllText(logPath, $"Success: imported {imported.Count} channels.\n");
-                                            MessageBox.Show(string.Format(LanguageManager.GetTranslation("Loaded {0} channels from JSON file."), imported.Count),
-                                                            LanguageManager.GetTranslation("Success"), MessageBoxButton.OK, MessageBoxImage.Information);
-                                        } */
-
-                    if (ext == ".json")
-                    {
-                        var mappedChannels = JsonImportService.ImportFromFileWithMapping(filePath, this);
-                        if (mappedChannels != null && mappedChannels.Count > 0)
-                        {
-                            Channels.Clear();
-                            foreach (var ch in mappedChannels)
-                                Channels.Add(ch);
-                            ClearFilterBtn_Click(null, null);
-                            MessageBox.Show(string.Format(LanguageManager.GetTranslation("Loaded {0} channels from JSON file via mapping."), mappedChannels.Count),
-                                            LanguageManager.GetTranslation("Success"), MessageBoxButton.OK, MessageBoxImage.Information);
-                        }
-                        return;
-                    }
-                    else // M3U
-                    {
-                        var m3uChannels = M3uParser.Parse(filePath);
-                        if (m3uChannels == null || m3uChannels.Count == 0)
-                            throw new Exception("No channels found in M3U file.");
-
-                        var channels = m3uChannels.Select(c => new ChannelJson
-                        {
-                            name = c.Name,
-                            stream_urls = string.IsNullOrEmpty(c.Url) ? new List<string>() : new List<string> { c.Url },
-                            logo_url = c.Logo,
-                            group = c.Group,
-                            tvg_id = c.TvgId,
-                            isFavorite = c.IsFavorite,
-                            country = "",
-                            youtube_urls = new List<string>(),
-                            nanoid = "",
-                            languages = new List<string>(),
-                            isGeoBlocked = false,
-                            UrlStatus = ""
-                        }).ToList();
-
-                        Channels.Clear();
-                        foreach (var ch in channels)
-                            Channels.Add(ch);
-                        ClearFilterBtn_Click(null, null);
-                        File.AppendAllText(logPath, $"Success: imported {channels.Count} channels from M3U.\n");
-                        MessageBox.Show(string.Format(LanguageManager.GetTranslation("Loaded {0} channels from M3U file."), channels.Count),
-                                        LanguageManager.GetTranslation("Success"), MessageBoxButton.OK, MessageBoxImage.Information);
-                    }
+                    string content = await GenerateCodeContentAsync();
+                    CodeTextBox.Text = content;
                 }
                 catch (Exception ex)
                 {
-                    File.AppendAllText(logPath, $"EXCEPTION: {ex.Message}\n{ex.StackTrace}\n");
-                    MessageBox.Show(string.Format(LanguageManager.GetTranslation("Error loading file: {0}"), ex.Message),
-                                    LanguageManager.GetTranslation("Error"), MessageBoxButton.OK, MessageBoxImage.Error);
+                    CodeTextBox.Text = $"// Error generating code: {ex.Message}";
+                }
+                finally
+                {
+                    _isCodeTabUpdating = false;
                 }
             }
         }
 
-        private async void OpenUrlBtn_Click(object sender, RoutedEventArgs e)
+        private async void RefreshCodeBtn_Click(object sender, RoutedEventArgs e)
         {
-            string url = InputBoxHelper.ShowInputBox(
-                LanguageManager.GetTranslation("Enter playlist URL (M3U or JSON):"),
-                LanguageManager.GetTranslation("Open from URL"),
-                "");
-            if (string.IsNullOrWhiteSpace(url)) return;
+            string content = await GenerateCodeContentAsync();
+            CodeTextBox.Text = content;
+        }
 
+        private void CopyCodeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (!string.IsNullOrEmpty(CodeTextBox.Text))
+            {
+                Clipboard.SetText(CodeTextBox.Text);
+                MessageBox.Show(LanguageManager.GetTranslation("Code copied to clipboard."),
+                                LanguageManager.GetTranslation("Success"),
+                                MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+        }
+
+        private async void ApplyCodeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (_isParsingCode) return;
+            _isParsingCode = true;
             try
             {
-                using var client = new HttpClient();
-                client.Timeout = TimeSpan.FromSeconds(60);
-                client.DefaultRequestHeaders.Add("User-Agent", "LiveGardenTVPlus");
-                string content = await client.GetStringAsync(url);
+                string text = CodeTextBox.Text.Trim();
+                if (string.IsNullOrEmpty(text))
+                {
+                    MessageBox.Show(LanguageManager.GetTranslation("No text to import."),
+                                    LanguageManager.GetTranslation("Info"),
+                                    MessageBoxButton.OK, MessageBoxImage.Information);
+                    return;
+                }
 
-                // Detect format (M3U starts with #EXTM3U, JSON starts with [ or {)
-                string trimmed = content.TrimStart();
-                bool isJson = (trimmed.StartsWith("{") || trimmed.StartsWith("[")) && !trimmed.StartsWith("#EXTM3U");
+                string selectedFormat = "Auto";
+                if (FormatCombo.SelectedItem is ComboBoxItem item && item.Tag != null)
+                    selectedFormat = item.Tag.ToString();
+
+                List<ChannelJson> importedChannels = null;
+                string errorMessage = null;
+
+                bool isJson = false;
+                bool isM3u = false;
+
+                if (selectedFormat == "Auto")
+                {
+                    string trimmed = text.TrimStart();
+                    isJson = (trimmed.StartsWith("{") || trimmed.StartsWith("[")) && !trimmed.StartsWith("#EXTM3U");
+                    isM3u = trimmed.StartsWith("#EXTM3U") || trimmed.Contains("#EXTM3U") || trimmed.Contains("#EXTINF");
+                    if (!isJson && !isM3u)
+                    {
+                        MessageBox.Show(LanguageManager.GetTranslation("Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again."),
+                                        LanguageManager.GetTranslation("Format Detection"),
+                                        MessageBoxButton.OK, MessageBoxImage.Warning);
+                        return;
+                    }
+                }
+                else if (selectedFormat == "Json")
+                    isJson = true;
+                else if (selectedFormat == "M3u")
+                    isM3u = true;
 
                 if (isJson)
                 {
-                    var channels = ParseJsonToChannelJsonList(content);
-                    if (channels != null && channels.Count > 0)
+                    try
                     {
-                        Channels.Clear();
-                        foreach (var ch in channels)
-                            Channels.Add(ch);
-                        ClearFilterBtn_Click(null, null);
-                        MessageBox.Show(string.Format(LanguageManager.GetTranslation("Loaded {0} channels from JSON URL."), channels.Count),
-                                        LanguageManager.GetTranslation("Success"), MessageBoxButton.OK, MessageBoxImage.Information);
+                        importedChannels = JsonConvert.DeserializeObject<List<ChannelJson>>(text);
+                        if (importedChannels == null || importedChannels.Count == 0)
+                            errorMessage = LanguageManager.GetTranslation("No channels found in JSON.");
                     }
-                    else
-                        throw new Exception("No channels found in JSON.");
+                    catch (JsonReaderException jex)
+                    {
+                        errorMessage = string.Format(LanguageManager.GetTranslation("Invalid JSON: {0}"), jex.Message);
+                    }
+                    catch (Exception ex)
+                    {
+                        errorMessage = string.Format(LanguageManager.GetTranslation("JSON parsing error: {0}"), ex.Message);
+                    }
+                }
+                else if (isM3u)
+                {
+                    try
+                    {
+                        string tempFile = Path.GetTempFileName();
+                        await File.WriteAllTextAsync(tempFile, text);
+                        var m3uChannels = M3uParser.Parse(tempFile);
+                        File.Delete(tempFile);
+                        if (m3uChannels == null || m3uChannels.Count == 0)
+                            errorMessage = LanguageManager.GetTranslation("No channels found in M3U.");
+                        else
+                        {
+                            importedChannels = m3uChannels.Select(c => new ChannelJson
+                            {
+                                name = c.Name,
+                                stream_urls = string.IsNullOrEmpty(c.Url) ? new List<string>() : new List<string> { c.Url },
+                                logo_url = c.Logo,
+                                group = c.Group,
+                                tvg_id = c.TvgId,
+                                isFavorite = c.IsFavorite
+                            }).ToList();
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        errorMessage = string.Format(LanguageManager.GetTranslation("M3U parsing error: {0}"), ex.Message);
+                    }
                 }
                 else
                 {
-                    // M3U handling: use background thread exactly as in v1.6
-                    /*List<Channel> m3uChannels = null;
-
-                    
-                    await Task.Run(() =>
-                    {
-                        string tempFile = Path.GetTempFileName();
-                        File.WriteAllText(tempFile, content);
-                        m3uChannels = M3uParser.Parse(tempFile);
-                        File.Delete(tempFile);
-                    });
-                    */
-
-                    string tempFile = Path.GetTempFileName();
-                    await File.WriteAllTextAsync(tempFile, content);
-                    var m3uChannels = M3uParser.Parse(tempFile);
-                    File.Delete(tempFile);
-
-                    if (m3uChannels == null || m3uChannels.Count == 0)
-                        throw new Exception("No channels found in M3U.");
-
-                    var channels = m3uChannels.Select(c => new ChannelJson
-                    {
-                        name = c.Name,
-                        stream_urls = string.IsNullOrEmpty(c.Url) ? new List<string>() : new List<string> { c.Url },
-                        logo_url = c.Logo,
-                        group = c.Group,
-                        tvg_id = c.TvgId,
-                        isFavorite = c.IsFavorite,
-                        country = "",
-                        youtube_urls = new List<string>(),
-                        nanoid = "",
-                        languages = new List<string>(),
-                        isGeoBlocked = false,
-                        UrlStatus = ""
-                    }).ToList();
-
-                    Channels.Clear();
-                    foreach (var ch in channels)
-                        Channels.Add(ch);
-                    ClearFilterBtn_Click(null, null);
-                    MessageBox.Show(string.Format(LanguageManager.GetTranslation("Loaded {0} channels from M3U URL."), channels.Count),
-                                    LanguageManager.GetTranslation("Success"), MessageBoxButton.OK, MessageBoxImage.Information);
+                    errorMessage = LanguageManager.GetTranslation("Unsupported format. Please select JSON or M3U.");
                 }
+
+                if (errorMessage != null)
+                {
+                    MessageBox.Show(errorMessage, LanguageManager.GetTranslation("Import Error"), MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
+                }
+
+                if (importedChannels == null || importedChannels.Count == 0)
+                {
+                    MessageBox.Show(LanguageManager.GetTranslation("No channels to import."),
+                                    LanguageManager.GetTranslation("Info"),
+                                    MessageBoxButton.OK, MessageBoxImage.Information);
+                    return;
+                }
+
+                Channels.Clear();
+                foreach (var ch in importedChannels)
+                {
+                    ch.stream_urls ??= new List<string>();
+                    ch.youtube_urls ??= new List<string>();
+                    ch.languages ??= new List<string>();
+                    Channels.Add(ch);
+                }
+
+                ClearFilterBtn_Click(null, null);
+                UpdateFilteredCount();
+                MessageBox.Show(string.Format(LanguageManager.GetTranslation("Imported {0} channels from code."), importedChannels.Count),
+                                LanguageManager.GetTranslation("Success"), MessageBoxButton.OK, MessageBoxImage.Information);
+
+                string newContent = await GenerateCodeContentAsync();
+                CodeTextBox.Text = newContent;
             }
             catch (Exception ex)
             {
-                MessageBox.Show(string.Format(LanguageManager.GetTranslation("Error loading URL: {0}"), ex.Message),
+                MessageBox.Show(string.Format(LanguageManager.GetTranslation("Import error: {0}"), ex.Message),
                                 LanguageManager.GetTranslation("Error"), MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            finally
+            {
+                _isParsingCode = false;
             }
         }
 
+        private async void DisplayFormatCombo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (_isParsingCode || _isCodeTabUpdating) return;
+
+            var item = DisplayFormatCombo.SelectedItem as ComboBoxItem;
+            if (item == null) return;
+
+            _currentDisplayFormat = item.Tag?.ToString() ?? "Json";
+            if (MainTabControl.SelectedItem == CodeTab)
+            {
+                string content = await GenerateCodeContentAsync();
+                CodeTextBox.Text = content;
+            }
+        }
+
+        // ------------------------------------------------------------------
+        // URL check
+        // ------------------------------------------------------------------
         private async void CheckUrlsBtn_Click(object sender, RoutedEventArgs e)
         {
             var visibleChannels = ChannelsGrid.ItemsSource as IEnumerable<ChannelJson>;
@@ -662,7 +649,6 @@ namespace LiveGardenTVPlus.Views
                 return;
             }
 
-            // Cancel any previous operation
             _cancellationTokenSource?.Cancel();
             _cancellationTokenSource = new CancellationTokenSource();
             var token = _cancellationTokenSource.Token;
@@ -706,7 +692,7 @@ namespace LiveGardenTVPlus.Views
                 client.Timeout = TimeSpan.FromSeconds(5);
                 foreach (var channel in channelsToCheck)
                 {
-                    token.ThrowIfCancellationRequested(); // Check cancellation
+                    token.ThrowIfCancellationRequested();
                     var allUrls = new List<string>();
                     if (channel.stream_urls != null) allUrls.AddRange(channel.stream_urls);
                     if (channel.youtube_urls != null) allUrls.AddRange(channel.youtube_urls);
@@ -747,38 +733,15 @@ namespace LiveGardenTVPlus.Views
             }
         }
 
-        private void DeleteSelectedBtn_Click(object sender, RoutedEventArgs e)
+        private void StopBtn_Click(object sender, RoutedEventArgs e)
         {
-            // Get selected items (supports multi-select with Ctrl/Shift)
-            var selectedItems = ChannelsGrid.SelectedItems.Cast<ChannelJson>().ToList();
-            if (selectedItems.Count == 0)
-            {
-                MessageBox.Show("No channels selected.", "Delete", MessageBoxButton.OK, MessageBoxImage.Information);
-                return;
-            }
-
-            // Confirm deletion
-            var result = MessageBox.Show(
-                $"Are you sure you want to delete {selectedItems.Count} selected channel(s)?",
-                "Confirm Delete",
-                MessageBoxButton.YesNo,
-                MessageBoxImage.Question);
-
-            if (result != MessageBoxResult.Yes)
-                return;
-
-            // Remove from the ObservableCollection
-            foreach (var ch in selectedItems)
-                Channels.Remove(ch);
-
-            // Update view and filters
-            UpdateFilteredCount();
-            ApplyFilter(); // Re-apply current filters
-            ChannelsGrid.Items.Refresh();
-
-            MessageBox.Show($"{selectedItems.Count} channel(s) deleted.", "Delete", MessageBoxButton.OK, MessageBoxImage.Information);
+            _cancellationTokenSource?.Cancel();
+            StopBtn.IsEnabled = false;
         }
 
+        // ------------------------------------------------------------------
+        // Export Selected
+        // ------------------------------------------------------------------
         private async void ExportSelectedBtn_Click(object sender, RoutedEventArgs e)
         {
             var selected = ChannelsGrid.SelectedItems.Cast<ChannelJson>().ToList();
@@ -790,12 +753,68 @@ namespace LiveGardenTVPlus.Views
             ExportWithFormatChoice(selected, "selected_channels");
         }
 
-        private void StopBtn_Click(object sender, RoutedEventArgs e)
+        // ------------------------------------------------------------------
+        // Delete Selected
+        // ------------------------------------------------------------------
+        private void DeleteSelectedBtn_Click(object sender, RoutedEventArgs e)
         {
-            _cancellationTokenSource?.Cancel();
-            StopBtn.IsEnabled = false;
+            var selectedItems = ChannelsGrid.SelectedItems.Cast<ChannelJson>().ToList();
+            if (selectedItems.Count == 0)
+            {
+                MessageBox.Show("No channels selected.", "Delete", MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+
+            var result = MessageBox.Show(
+                $"Are you sure you want to delete {selectedItems.Count} selected channel(s)?",
+                "Confirm Delete",
+                MessageBoxButton.YesNo,
+                MessageBoxImage.Question);
+
+            if (result != MessageBoxResult.Yes)
+                return;
+
+            foreach (var ch in selectedItems)
+                Channels.Remove(ch);
+
+            UpdateFilteredCount();
+            ApplyFilter();
+            ChannelsGrid.Items.Refresh();
+            MessageBox.Show($"{selectedItems.Count} channel(s) deleted.", "Delete", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
+        // ------------------------------------------------------------------
+        // Play button (opens MiniPlayer)
+        // ------------------------------------------------------------------
+        private void PlayBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var selected = ChannelsGrid.SelectedItem as ChannelJson;
+            if (selected == null)
+            {
+                MessageBox.Show(LanguageManager.GetTranslation("Select a channel to play."),
+                                LanguageManager.GetTranslation("Info"),
+                                MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+
+            string url = selected.stream_urls?.FirstOrDefault() ?? "";
+            if (string.IsNullOrEmpty(url))
+            {
+                MessageBox.Show(LanguageManager.GetTranslation("No stream URL available for this channel."),
+                                LanguageManager.GetTranslation("Info"),
+                                MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+
+            int index = Channels.IndexOf(selected);
+            var player = new MiniPlayerWindow(Channels.ToList(), index);
+            player.Owner = this;
+            player.ShowDialog();
+        }
+
+        // ------------------------------------------------------------------
+        // Save Status
+        // ------------------------------------------------------------------
         private void SaveStatusBtn_Click(object sender, RoutedEventArgs e)
         {
             var visibleChannels = ChannelsGrid.ItemsSource as IEnumerable<ChannelJson>;
@@ -828,7 +847,7 @@ namespace LiveGardenTVPlus.Views
         }
 
         // ------------------------------------------------------------------
-        // Export helpers (M3U, JSON, CSV)
+        // Export helpers
         // ------------------------------------------------------------------
         private void ExportOkBtn_Click(object sender, RoutedEventArgs e)
         {
@@ -965,6 +984,9 @@ namespace LiveGardenTVPlus.Views
             }
         }
 
+        // ------------------------------------------------------------------
+        // JSON Import / Export
+        // ------------------------------------------------------------------
         private async void ImportJsonBtn_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new Microsoft.Win32.OpenFileDialog
@@ -1007,7 +1029,6 @@ namespace LiveGardenTVPlus.Views
                 client.DefaultRequestHeaders.Add("User-Agent", "LiveGardenTVPlus");
                 string jsonContent = await client.GetStringAsync(url);
 
-                // Same logic as local import
                 var imported = JsonConvert.DeserializeObject<List<ChannelJson>>(jsonContent);
                 if (imported == null || imported.Count == 0)
                     throw new Exception("No channels found in JSON.");
@@ -1061,6 +1082,9 @@ namespace LiveGardenTVPlus.Views
             }
         }
 
+        // ------------------------------------------------------------------
+        // Compare
+        // ------------------------------------------------------------------
         private void CompareBtn_Click(object sender, RoutedEventArgs e)
         {
             var first = Channels.ToList();
@@ -1075,7 +1099,7 @@ namespace LiveGardenTVPlus.Views
         }
 
         // ------------------------------------------------------------------
-        // Enrich with EPG (fuzzy matching)
+        // Enrich with EPG
         // ------------------------------------------------------------------
         private void EnrichWithEpgBtn_Click(object sender, RoutedEventArgs e)
         {
@@ -1121,7 +1145,7 @@ namespace LiveGardenTVPlus.Views
         }
 
         // ------------------------------------------------------------------
-        // Fetch Logos from remote index (logos.txt)
+        // Fetch Logos
         // ------------------------------------------------------------------
         private async void FetchLogosBtn_Click(object sender, RoutedEventArgs e)
         {
@@ -1165,9 +1189,6 @@ namespace LiveGardenTVPlus.Views
                         ch.logo_url = logoUrl;
                         assigned++;
                     }
-
-                    // Allow UI to update (small delay if needed, but not necessary)
-                    // await Task.Delay(1);
                 }
 
                 ChannelsGrid.Items.Refresh();
@@ -1190,7 +1211,7 @@ namespace LiveGardenTVPlus.Views
 
             if (_isFetchingLogos) return;
             _isFetchingLogos = true;
-            this.Cursor = System.Windows.Input.Cursors.Wait;
+            this.Cursor = Cursors.Wait;
             try
             {
                 if (_cachedLogos == null)
@@ -1223,42 +1244,239 @@ namespace LiveGardenTVPlus.Views
             }
             finally
             {
-                this.Cursor = System.Windows.Input.Cursors.Arrow;
+                this.Cursor = Cursors.Arrow;
                 _isFetchingLogos = false;
             }
         }
 
-        private void ChannelsGrid_MouseDoubleClick(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        // ------------------------------------------------------------------
+        // Open File / URL
+        // ------------------------------------------------------------------
+        private async void OpenFileBtn_Click(object sender, RoutedEventArgs e)
         {
-            var channel = ChannelsGrid.SelectedItem as ChannelJson;
-            if (channel == null) return;
-            OpenDetailsWindow(channel);
-        }
-
-        private void EditButton_Click(object sender, RoutedEventArgs e)
-        {
-            var button = sender as Button;
-            var channel = button?.Tag as ChannelJson;
-            if (channel == null) return;
-            OpenDetailsWindow(channel);
-        }
-
-        private void OpenDetailsWindow(ChannelJson channel)
-        {
-            // Commit or cancel any pending edit
-            ChannelsGrid.CommitEdit(DataGridEditingUnit.Row, true);
-            // or ChannelsGrid.CancelEdit(DataGridEditingUnit.Row);
-
-            int index = Channels.IndexOf(channel);
-            var detailsWindow = new ChannelDetailsWindow(Channels, index);
-            detailsWindow.Owner = this;
-            if (detailsWindow.ShowDialog() == true)
+            var dlg = new Microsoft.Win32.OpenFileDialog
             {
-                ChannelsGrid.CommitEdit(DataGridEditingUnit.Row, true); // again to be safe
-                ChannelsGrid.Items.Refresh();
+                Filter = "Playlist files|*.m3u;*.m3u8;*.json|M3U files|*.m3u;*.m3u8|JSON files|*.json",
+                DefaultExt = ".m3u"
+            };
+            if (dlg.ShowDialog() == true)
+            {
+                try
+                {
+                    string filePath = dlg.FileName;
+                    string ext = Path.GetExtension(filePath).ToLower();
+
+                    if (ext == ".json")
+                    {
+                        var mappedChannels = JsonImportService.ImportFromFileWithMapping(filePath, this);
+                        if (mappedChannels != null && mappedChannels.Count > 0)
+                        {
+                            Channels.Clear();
+                            foreach (var ch in mappedChannels)
+                                Channels.Add(ch);
+                            ClearFilterBtn_Click(null, null);
+                            MessageBox.Show(string.Format(LanguageManager.GetTranslation("Loaded {0} channels from JSON file via mapping."), mappedChannels.Count),
+                                            LanguageManager.GetTranslation("Success"), MessageBoxButton.OK, MessageBoxImage.Information);
+                        }
+                        return;
+                    }
+                    else
+                    {
+                        var m3uChannels = M3uParser.Parse(filePath);
+                        if (m3uChannels == null || m3uChannels.Count == 0)
+                            throw new Exception("No channels found in M3U file.");
+
+                        var channels = m3uChannels.Select(c => new ChannelJson
+                        {
+                            name = c.Name,
+                            stream_urls = string.IsNullOrEmpty(c.Url) ? new List<string>() : new List<string> { c.Url },
+                            logo_url = c.Logo,
+                            group = c.Group,
+                            tvg_id = c.TvgId,
+                            isFavorite = c.IsFavorite,
+                            country = "",
+                            youtube_urls = new List<string>(),
+                            nanoid = "",
+                            languages = new List<string>(),
+                            isGeoBlocked = false,
+                            UrlStatus = ""
+                        }).ToList();
+
+                        Channels.Clear();
+                        foreach (var ch in channels)
+                            Channels.Add(ch);
+                        ClearFilterBtn_Click(null, null);
+                        MessageBox.Show(string.Format(LanguageManager.GetTranslation("Loaded {0} channels from M3U file."), channels.Count),
+                                        LanguageManager.GetTranslation("Success"), MessageBoxButton.OK, MessageBoxImage.Information);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(string.Format(LanguageManager.GetTranslation("Error loading file: {0}"), ex.Message),
+                                    LanguageManager.GetTranslation("Error"), MessageBoxButton.OK, MessageBoxImage.Error);
+                }
             }
         }
 
+        private async void OpenUrlBtn_Click(object sender, RoutedEventArgs e)
+        {
+            string url = InputBoxHelper.ShowInputBox(
+                LanguageManager.GetTranslation("Enter playlist URL (M3U or JSON):"),
+                LanguageManager.GetTranslation("Open from URL"),
+                "");
+            if (string.IsNullOrWhiteSpace(url)) return;
+
+            try
+            {
+                using var client = new HttpClient();
+                client.Timeout = TimeSpan.FromSeconds(60);
+                client.DefaultRequestHeaders.Add("User-Agent", "LiveGardenTVPlus");
+                string content = await client.GetStringAsync(url);
+
+                string trimmed = content.TrimStart();
+                bool isJson = (trimmed.StartsWith("{") || trimmed.StartsWith("[")) && !trimmed.StartsWith("#EXTM3U");
+
+                if (isJson)
+                {
+                    var channels = ParseJsonToChannelJsonList(content);
+                    if (channels != null && channels.Count > 0)
+                    {
+                        Channels.Clear();
+                        foreach (var ch in channels)
+                            Channels.Add(ch);
+                        ClearFilterBtn_Click(null, null);
+                        MessageBox.Show(string.Format(LanguageManager.GetTranslation("Loaded {0} channels from JSON URL."), channels.Count),
+                                        LanguageManager.GetTranslation("Success"), MessageBoxButton.OK, MessageBoxImage.Information);
+                    }
+                    else
+                        throw new Exception("No channels found in JSON.");
+                }
+                else
+                {
+                    // M3U parsing with Task.Run
+                    List<Channel> m3uChannels = null;
+                    await Task.Run(() =>
+                    {
+                        string tempFile = Path.GetTempFileName();
+                        File.WriteAllText(tempFile, content);
+                        m3uChannels = M3uParser.Parse(tempFile);
+                        File.Delete(tempFile);
+                    });
+
+                    if (m3uChannels == null || m3uChannels.Count == 0)
+                        throw new Exception("No channels found in M3U.");
+
+                    var channels = m3uChannels.Select(c => new ChannelJson
+                    {
+                        name = c.Name,
+                        stream_urls = string.IsNullOrEmpty(c.Url) ? new List<string>() : new List<string> { c.Url },
+                        logo_url = c.Logo,
+                        group = c.Group,
+                        tvg_id = c.TvgId,
+                        isFavorite = c.IsFavorite,
+                        country = "",
+                        youtube_urls = new List<string>(),
+                        nanoid = "",
+                        languages = new List<string>(),
+                        isGeoBlocked = false,
+                        UrlStatus = ""
+                    }).ToList();
+
+                    Channels.Clear();
+                    foreach (var ch in channels)
+                        Channels.Add(ch);
+                    ClearFilterBtn_Click(null, null);
+                    MessageBox.Show(string.Format(LanguageManager.GetTranslation("Loaded {0} channels from M3U URL."), channels.Count),
+                                    LanguageManager.GetTranslation("Success"), MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(string.Format(LanguageManager.GetTranslation("Error loading URL: {0}"), ex.Message),
+                                LanguageManager.GetTranslation("Error"), MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        // ------------------------------------------------------------------
+        // JSON parsing helper
+        // ------------------------------------------------------------------
+        private List<ChannelJson> ParseJsonToChannelJsonList(string jsonContent)
+        {
+            if (jsonContent.StartsWith("\uFEFF")) jsonContent = jsonContent.Substring(1);
+            jsonContent = jsonContent.Trim();
+
+            if (jsonContent.StartsWith("{") && jsonContent.EndsWith("]"))
+                jsonContent = jsonContent.Substring(0, jsonContent.Length - 1);
+
+            if (jsonContent.StartsWith("{") && !jsonContent.StartsWith("["))
+                jsonContent = "[" + jsonContent + "]";
+
+            jsonContent = System.Text.RegularExpressions.Regex.Replace(jsonContent, @",\s*\]", "]");
+            jsonContent = System.Text.RegularExpressions.Regex.Replace(jsonContent, @",\s*\}", "}");
+
+            JToken root = JToken.Parse(jsonContent);
+            JArray array = null;
+            if (root.Type == JTokenType.Array)
+                array = (JArray)root;
+            else if (root.Type == JTokenType.Object)
+            {
+                foreach (var prop in ((JObject)root).Properties())
+                    if (prop.Value.Type == JTokenType.Array)
+                    {
+                        array = (JArray)prop.Value;
+                        break;
+                    }
+            }
+            if (array == null)
+                throw new Exception("No array found in JSON.");
+
+            var result = new List<ChannelJson>();
+            foreach (JObject obj in array)
+            {
+                var ch = new ChannelJson
+                {
+                    name = obj["name"]?.ToString() ?? "",
+                    logo_url = obj["logo_url"]?.ToString() ?? "",
+                    group = obj["group"]?.ToString() ?? "",
+                    tvg_id = obj["tvg_id"]?.ToString() ?? "",
+                    isFavorite = obj["isFavorite"]?.Value<bool>() ?? false,
+                    country = obj["country"]?.ToString() ?? "",
+                    nanoid = obj["nanoid"]?.ToString() ?? "",
+                    isGeoBlocked = obj["isGeoBlocked"]?.Value<bool>() ?? false
+                };
+
+                var streamUrlsToken = obj["stream_urls"];
+                if (streamUrlsToken?.Type == JTokenType.Array)
+                    ch.stream_urls = streamUrlsToken.Select(t => t.ToString()).ToList();
+                else if (streamUrlsToken?.Type == JTokenType.String)
+                    ch.stream_urls = new List<string> { streamUrlsToken.ToString() };
+                else
+                    ch.stream_urls = new List<string>();
+
+                if ((ch.stream_urls == null || ch.stream_urls.Count == 0) && obj["url"] != null)
+                {
+                    string url = obj["url"].ToString();
+                    if (!string.IsNullOrEmpty(url))
+                        ch.stream_urls = new List<string> { url };
+                }
+
+                ch.youtube_urls = obj["youtube_urls"]?.Type == JTokenType.Array
+                    ? obj["youtube_urls"].Select(t => t.ToString()).ToList() : new List<string>();
+                ch.languages = obj["languages"]?.Type == JTokenType.Array
+                    ? obj["languages"].Select(t => t.ToString()).ToList() : new List<string>();
+
+                ch.stream_urls ??= new List<string>();
+                ch.youtube_urls ??= new List<string>();
+                ch.languages ??= new List<string>();
+
+                result.Add(ch);
+            }
+            return result;
+        }
+
+        // ------------------------------------------------------------------
+        // Check Duplicates
+        // ------------------------------------------------------------------
         private void CheckDuplicatesBtn_Click(object sender, RoutedEventArgs e)
         {
             var urlToChannels = new Dictionary<string, List<string>>();
@@ -1292,6 +1510,61 @@ namespace LiveGardenTVPlus.Views
                             MessageBoxButton.OK, MessageBoxImage.Warning);
         }
 
+        // ------------------------------------------------------------------
+        // Sorting
+        // ------------------------------------------------------------------
+        private void ChannelsGrid_Sorting(object sender, DataGridSortingEventArgs e)
+        {
+            e.Handled = true;
+
+            string sortProperty = null;
+            if (e.Column.Header?.ToString() == "URL (primary)")
+                sortProperty = "PrimaryUrl";
+            else if (e.Column.Header?.ToString() == "Logo")
+                sortProperty = "logo_url";
+            else if (e.Column.Header?.ToString() == "" || e.Column.Header?.ToString() == "✎")
+                sortProperty = "name";
+            else
+            {
+                e.Handled = false;
+                return;
+            }
+
+            var view = CollectionViewSource.GetDefaultView(ChannelsGrid.ItemsSource);
+            if (view == null) return;
+
+            ListSortDirection direction = ListSortDirection.Ascending;
+            if (view.SortDescriptions.Count > 0 && view.SortDescriptions[0].PropertyName == sortProperty)
+                direction = view.SortDescriptions[0].Direction == ListSortDirection.Ascending ? ListSortDirection.Descending : ListSortDirection.Ascending;
+
+            using (view.DeferRefresh())
+            {
+                view.SortDescriptions.Clear();
+                view.SortDescriptions.Add(new SortDescription(sortProperty, direction));
+            }
+
+            foreach (var col in ChannelsGrid.Columns)
+            {
+                col.SortDirection = null;
+            }
+            e.Column.SortDirection = direction;
+        }
+
+        private void ResetOrderBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var view = CollectionViewSource.GetDefaultView(ChannelsGrid.ItemsSource);
+            if (view != null)
+            {
+                view.SortDescriptions.Clear();
+                foreach (var col in ChannelsGrid.Columns)
+                    col.SortDirection = null;
+            }
+            ChannelsGrid.Items.Refresh();
+        }
+
+        // ------------------------------------------------------------------
+        // Progress bar helpers
+        // ------------------------------------------------------------------
         private void StartLogoProgress()
         {
             CheckProgressBar.Visibility = Visibility.Visible;
@@ -1308,7 +1581,38 @@ namespace LiveGardenTVPlus.Views
         }
 
         // ------------------------------------------------------------------
-        // Save As (multi-format) & Close
+        // Details window
+        // ------------------------------------------------------------------
+        private void ChannelsGrid_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            var channel = ChannelsGrid.SelectedItem as ChannelJson;
+            if (channel == null) return;
+            OpenDetailsWindow(channel);
+        }
+
+        private void EditButton_Click(object sender, RoutedEventArgs e)
+        {
+            var button = sender as Button;
+            var channel = button?.Tag as ChannelJson;
+            if (channel == null) return;
+            OpenDetailsWindow(channel);
+        }
+
+        private void OpenDetailsWindow(ChannelJson channel)
+        {
+            ChannelsGrid.CommitEdit(DataGridEditingUnit.Row, true);
+            int index = Channels.IndexOf(channel);
+            var detailsWindow = new ChannelDetailsWindow(Channels, index);
+            detailsWindow.Owner = this;
+            if (detailsWindow.ShowDialog() == true)
+            {
+                ChannelsGrid.CommitEdit(DataGridEditingUnit.Row, true);
+                ChannelsGrid.Items.Refresh();
+            }
+        }
+
+        // ------------------------------------------------------------------
+        // Save As
         // ------------------------------------------------------------------
         private void SaveBtn_Click(object sender, RoutedEventArgs e)
         {
@@ -1388,62 +1692,6 @@ namespace LiveGardenTVPlus.Views
         {
             if (string.IsNullOrEmpty(field)) return "";
             return field.Replace("\"", "\"\"");
-        }
-
-        private void ChannelsGrid_Sorting(object sender, DataGridSortingEventArgs e)
-        {
-            // Prevent default sorting for template columns
-            e.Handled = true;
-
-            // Determine which column to sort by
-            string sortProperty = null;
-            if (e.Column.Header?.ToString() == "URL (primary)")
-                sortProperty = "PrimaryUrl";
-            else if (e.Column.Header?.ToString() == "Logo")
-                sortProperty = "logo_url";
-            else if (e.Column.Header?.ToString() == "" || e.Column.Header?.ToString() == "✎") // icon column
-                sortProperty = "name"; // or "logo_url" if you prefer
-            else
-            {
-                // For standard columns, let WPF handle it
-                e.Handled = false;
-                return;
-            }
-
-            var view = CollectionViewSource.GetDefaultView(ChannelsGrid.ItemsSource);
-            if (view == null) return;
-
-            ListSortDirection direction = ListSortDirection.Ascending;
-            if (view.SortDescriptions.Count > 0 && view.SortDescriptions[0].PropertyName == sortProperty)
-                direction = view.SortDescriptions[0].Direction == ListSortDirection.Ascending ? ListSortDirection.Descending : ListSortDirection.Ascending;
-
-            using (view.DeferRefresh())
-            {
-                view.SortDescriptions.Clear();
-                view.SortDescriptions.Add(new SortDescription(sortProperty, direction));
-            }
-
-            // Update column header glyph (optional but nice)
-            foreach (var col in ChannelsGrid.Columns)
-            {
-                col.SortDirection = null;
-            }
-            e.Column.SortDirection = direction;
-        }
-
-        private void ResetOrderBtn_Click(object sender, RoutedEventArgs e)
-        {
-            // Remove any sorting from the current view
-            var view = CollectionViewSource.GetDefaultView(ChannelsGrid.ItemsSource);
-            if (view != null)
-            {
-                view.SortDescriptions.Clear();
-                // Remove sort direction arrows from column headers
-                foreach (var col in ChannelsGrid.Columns)
-                    col.SortDirection = null;
-            }
-            // Force visual refresh
-            ChannelsGrid.Items.Refresh();
         }
 
         private void CloseBtn_Click(object sender, RoutedEventArgs e)

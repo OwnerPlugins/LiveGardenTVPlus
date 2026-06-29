@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Atkūrimo greitis: 0,5x, 1x, 2x mygtukai.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Rūšiuoti bet kurį stulpelį spustelėjus antraštę; naudokite „Atstatyti užsakymą“, kad grįžtumėte į pradinį užsakymą.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: pristabdykite tiesioginę transliaciją; vilkite slankiklį, kad grįžtumėte atgal; Norėdami grįžti, paspauskite „Live“.
+▶ Play: ▶ Žaisti
 ◀ Previous: ◀ Ankstesnis
 16 colour themes + Light/Dark variants.: 16 spalvų temų + šviesūs / tamsūs variantai.
 A new version is available. Do you want to update now?: Yra nauja versija. Ar norite atnaujinti dabar?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Koreguokite buferio dydį (1–10 sekundžių
 Advanced IDs: Išplėstiniai ID
 Application status: Paraiškos būsena
 Apply: Taikyti
+Apply / Import: Taikyti / importuoti
 Apply changes: Taikyti pakeitimus
 Apply Filters: Taikyti filtrus
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ar tikrai norite iš naujo įkelti „Enigma2“ GUI?\n\nSąsaja bus paleista iš naujo (kelias sekundes bus juodas ekranas).
@@ -46,8 +48,10 @@ Cannot open browser: Negalima atidaryti naršyklės
 Category: Kategorija
 Changelog: Pakeitimų žurnalas
 Channel Details: Išsami kanalo informacija
+Channel Down: Kanalas žemyn
 Channel Info: Kanalo informacija
 Channel Name: Kanalo pavadinimas
+Channel Up: Kanalas aukštyn
 channels from: kanalai iš
 channels from JSON: kanalai iš JSON
 channels from JSON URL: kanalai iš JSON URL
@@ -61,6 +65,8 @@ Clear Filters: Išvalyti filtrus
 Clear search: Išvalyti paiešką
 Click for details: Spustelėkite norėdami sužinoti daugiau
 Close: Uždaryti
+Code: Kodas
+Code copied to clipboard.: Kodas nukopijuotas į mainų sritį.
 Command name:: Komandos pavadinimas:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Bendruomenė ir testavimas: „CorvoBoys“ (corvoboys.org) ir „LinuxSat-Support.com“
 Compare: Palyginti
@@ -75,6 +81,7 @@ Confirm Reload: Patvirtinkite įkėlimą iš naujo
 Connect: Prisijunkite
 Connected: Prisijungta
 Copied: Nukopijuota
+Copy: Kopijuoti
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Šalis
 Credits: Kreditai
@@ -141,6 +148,7 @@ Export OK: Eksportuoti gerai
 Export only favorite channels to a new M3U file: Eksportuokite tik mėgstamiausius kanalus į naują M3U failą
 Export results as JSON or M3U – export missing channels or all channels.: Eksportuokite rezultatus kaip JSON arba M3U – eksportuokite trūkstamus kanalus arba visus kanalus.
 Export selected: Pasirinktas eksportas
+Export Selected: Eksportuoti pasirinktus
 Exported: Eksportuota
 Exported {0} channels to {1}: Eksportuota {0} kanalų į {1}
 Extracting update...: Išskleidžiamas naujinys...
@@ -154,11 +162,14 @@ Fetch Logos: Paimkite logotipus
 File {0} already exists. Overwrite?: Failas {0} jau yra. Perrašyti?
 File exists: Failas egzistuoja
 Filters: Filtrai
+Format Detection: Formato aptikimas
+Fullscreen: Visas ekranas
 Fullscreen (hide UI) - press ESC to exit: Visas ekranas (slėpti vartotojo sąsają) – paspauskite ESC, kad išeitumėte
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
 GitHub Error: „GitHub“ klaida
 Go back to live: Grįžk gyventi
+Grid: Tinklelis
 Group: Grupė
 Half speed (0.5x): Pusė greičio (0,5x)
 Help: Pagalba
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS atkūrimas: hls.js (MIT licencija)
 Image: Vaizdas
 Import: Importuoti
 Import cancelled or no channels mapped.: Importas atšauktas arba nėra susietų kanalų.
+Import Error: Importavimo klaida
 Import error: {0}: Importavimo klaida: {0}
 Import from URL: Importuoti iš URL
 Import JSON: Importuoti JSON
 Import JSON from URL: Importuokite JSON iš URL
 Import Local: Importuoti vietinį
+Imported {0} channels from code.: Importuoti {0} kanalai iš kodo.
 Imported {0} channels from JSON via mapping.: Importuota {0} kanalų iš JSON per susiejimą.
 Imported {0} channels from URL.: Importuoti {0} kanalai iš URL.
 In Both: Abiejuose
@@ -181,6 +194,7 @@ Invalid JSON: {0}: Neteisingas JSON: {0}
 Invalid playlist URL.: Netinkamas grojaraščio URL.
 Invalid URL.: Netinkamas URL.
 Json: Json
+JSON parsing error: {0}: JSON analizės klaida: {0}
 JSON Property: JSON nuosavybė
 Ko-fi: Kava
 Language: Kalba
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Įkelkite grojaraščio failą (M3U/JSON) iš savo kompiuterio
 Loaded: Pakrauta
 Loaded {0} channels from JSON file via mapping.: Įkelti {0} kanalai iš JSON failo per susiejimą.
-Loaded {0} channels from JSON file.: Įkelti {0} kanalai iš JSON failo.
 Loaded {0} channels from JSON URL.: Įkelti {0} kanalai iš JSON URL.
 Loaded {0} channels from M3U file.: Įkelti {0} kanalai iš M3U failo.
 Loaded {0} channels from M3U URL.: Įkelti {0} kanalai iš M3U URL.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Logotipų atitikimo slenkstis
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logotipų saugykla – pasirinkite savininką/repo/kelią (numatytieji OwnerPlugins/logos).
 Logos Source: Logotipo šaltinis
 Logos Subfolder: Logotipų poaplankis
+M3U parsing error: {0}: M3U analizavimo klaida: {0}
 Map JSON properties to channel fields:: Susieti JSON ypatybes su kanalo laukais:
 Mapping saved for future imports of this file.: Atvaizdas išsaugotas, kad ateityje būtų galima importuoti šį failą.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Atitikties slenksčiai – nustatykite neaiškios atitikties jautrumą EPG ir logotipams.
+Mini Player: Mini grotuvas
 Move to Group: Perkelti į grupę
 Moved: Perkeltas
 Name: Vardas
@@ -228,14 +243,18 @@ Next: Kitas
 Next ▶: Kitas ▶
 No .m3u files found on GitHub repository.: „GitHub“ saugykloje nerasta .m3u failų.
 No cache folder found.: Nerasta talpyklos aplanko.
+No channel selected: Nepasirinktas joks kanalas
 No channels could be mapped or import cancelled.: Nepavyko susieti kanalų arba atšaukti importavimą.
 No channels could be mapped. Check your mapping rules.: Nepavyko susieti jokių kanalų. Patikrinkite žemėlapių sudarymo taisykles.
+No channels found in JSON.: JSON nerasta jokių kanalų.
+No channels found in M3U.: M3U nerasta jokių kanalų.
 No channels loaded from JSON URL.: Iš JSON URL neįkelta jokių kanalų.
 No channels loaded from M3U URL.: Iš M3U URL neįkelta jokių kanalų.
 No channels loaded from M3U.: Iš M3U neįkelta jokių kanalų.
 No channels loaded.: Neįkelta jokių kanalų.
 No channels mapped: Nėra susietų kanalų
 No channels selected.: Nepasirinkta jokių kanalų.
+No channels to import.: Nėra importuojamų kanalų.
 No duplicate URLs found.: Pasikartojančių URL nerasta.
 No EPG data: Nėra EPG duomenų
 No EPG information available for this channel.: Nėra šio kanalo EPG informacijos.
@@ -245,6 +264,8 @@ No favorite channels to export.: Nėra mėgstamų kanalų, kuriuos būtų galima
 No missing channels to export.: Netrūksta eksportuotinų kanalų.
 No playlist found: Grojaraščio nerasta
 No second playlist loaded.: Antras grojaraštis neįkeltas.
+No stream URL available for this channel.: Šiam kanalui nėra pasiekiamo srauto URL.
+No text to import.: Nėra teksto, kurį būtų galima importuoti.
 No updates available.: Nėra jokių atnaujinimų.
 Normal speed (1x): Normalus greitis (1x)
 Not connected to the box.: Prie dėžutės neprijungta.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Pristabdyti / tęsti tiesioginį srautą
 Paused: Pristabdyta
 PayPal: PayPal
 Picture-in-Picture mode: Vaizdas paveikslėlyje režimas
+Play/Pause: Leisti / pristabdyti
 Player Controls: Grotuvo valdikliai
+Playing: Žaidžia
 Playlist & Groups: Grojaraštis ir grupės
 Playlist Comparison: Grojaraščio palyginimas
 Playlist Editor: Grojaraščio redaktorius
@@ -272,10 +295,12 @@ Please select a program first.: Pirmiausia pasirinkite programą.
 Preview (first 5 channels): Peržiūra (pirmieji 5 kanalai)
 Preview error: {0}: Peržiūros klaida: {0}
 Program Details: Programos informacija
+Ready: Paruošta
 Ready.: Paruošta.
 Recent: Neseniai
 Recent files – quick access to last 5 opened playlists.: Naujausi failai – greita prieiga prie paskutinių 5 atidarytų grojaraščių.
 Recent playlists: Naujausi grojaraščiai
+Refresh Code: Atnaujinti kodą
 Refresh EPG: Atnaujinkite EPG
 Refresh EPG List: Atnaujinkite EPG sąrašą
 Refresh from GitHub: Atnaujinkite iš „GitHub“.
@@ -301,6 +326,7 @@ Search channels by name: Ieškokite kanalų pagal pavadinimą
 Search channels...: Ieškoti kanalų...
 sec: sek
 Second playlist loaded: {0} channels: Įkeltas antras grojaraštis: {0} kanalai
+Select a channel to play.: Pasirinkite kanalą, kurį norite leisti.
 Select a playlist first.: Pirmiausia pasirinkite grojaraštį.
 Select target group:: Pasirinkite tikslinę grupę:
 Select Theme: Pasirinkite temą
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Pradėti
 Status: Būsena
 Stop: Sustok
+Stopped: Sustojo
 Stream URL: Srauto URL
 Stream URLs: Srautinio URL
 Success: Sėkmės
@@ -342,7 +369,9 @@ TV Guide (EPG): TV vadovas (EPG)
 TvgId: TvgId
 Type channel name to filter: Norėdami filtruoti, įveskite kanalo pavadinimą
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Nepavyko automatiškai aptikti formato. Išskleidžiamajame meniu pasirinkite JSON arba M3U ir bandykite dar kartą.
 Unable to find version in remote project file.: Neįmanoma rasti versijos nuotolinio projekto faile.
+Unsupported format. Please select JSON or M3U.: Nepalaikomas formatas. Pasirinkite JSON arba M3U.
 Update: Atnaujinti
 Update complete. Restarting...: Atnaujinimas baigtas. Paleidžiama iš naujo...
 Update Error: Atnaujinimo klaida

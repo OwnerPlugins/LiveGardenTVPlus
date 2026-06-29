@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Astar ath-chluich: putanan 0.5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Deasaich colbh sam bith le bhith a' briogadh air bann-cinn; cleachd ‘Reset Order’ gus tilleadh chun òrdugh tùsail.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Gluasad ùine: stad air an t-sruth bheò; slaod sleamhnachan a shireadh air ais; brùth 'Live' gus tilleadh.
+▶ Play: ▶ Cluich
 ◀ Previous: ◀ Roimhe
 16 colour themes + Light/Dark variants.: 16 cuspairean dath + caochlaidhean aotrom / dorcha.
 A new version is available. Do you want to update now?: Tha dreach ùr ri fhaighinn. A bheil thu airson ùrachadh a-nis?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Atharraich meud bufair (1-10 diogan)
 Advanced IDs: IDan adhartach
 Application status: Inbhe an tagraidh
 Apply: Cuir a-steach
+Apply / Import: Cuir a-steach / Import
 Apply changes: Cuir atharrachaidhean an sàs
 Apply Filters: Cuir a-steach sìoltachain
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: A bheil thu cinnteach gu bheil thu airson an Enigma2 GUI ath-luchdachadh?\n\nTòisichidh an eadar-aghaidh (sgrion dubh airson beagan dhiog).
@@ -46,8 +48,10 @@ Cannot open browser: Chan urrainn dhuinn am brabhsair fhosgladh
 Category: Roinn-seòrsa
 Changelog: Clàr-atharrachaidh
 Channel Details: Mion-fhiosrachadh sianal
+Channel Down: Sianal sìos
 Channel Info: Fiosrachadh sianal
 Channel Name: Ainm seanail
+Channel Up: Sianal Suas
 channels from: sianalan bho
 channels from JSON: seanalan bho JSON
 channels from JSON URL: seanalan bho URL JSON
@@ -61,6 +65,8 @@ Clear Filters: Filters soilleir
 Clear search: Glan lorg
 Click for details: Cliog airson mion-fhiosrachadh
 Close: Dùin
+Code: Còd
+Code copied to clipboard.: Còd air a chopaigeadh gu clipboard.
 Command name:: Ainm an àithne:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Coimhearsnachd & deuchainn: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: Dèan coimeas
@@ -75,6 +81,7 @@ Confirm Reload: Dearbhaich an ath-luchdachadh
 Connect: Ceangail
 Connected: Ceangailte
 Copied: Rinn lethbhreac
+Copy: Dèan lethbhreac
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Dùthaich
 Credits: Creideasan
@@ -141,6 +148,7 @@ Export OK: Às-mhalairt OK
 Export only favorite channels to a new M3U file: Às-mhalairt dìreach na seanalan as fheàrr leat gu faidhle M3U ùr
 Export results as JSON or M3U – export missing channels or all channels.: Às-mhalairt toraidhean mar JSON no M3U - às-mhalairt seanalan a tha a dhìth no a h-uile seanal.
 Export selected: Às-mhalairt air a thaghadh
+Export Selected: Export Taghte
 Exported: Às-mhalairt
 Exported {0} channels to {1}: Às-phortaich {0} seanalan gu {1}
 Extracting update...: A’ toirt a-mach ùrachadh...
@@ -154,11 +162,14 @@ Fetch Logos: Faigh suaicheantasan
 File {0} already exists. Overwrite?: Tha faidhle {0} ann mu thràth. Sgrìobh thairis air?
 File exists: Tha faidhle ann
 Filters: Criathragan
+Format Detection: Dearbhadh cruth
+Fullscreen: Làn-sgrìn
 Fullscreen (hide UI) - press ESC to exit: Làn-sgrìn (falaich UI) - brùth air ESC gus fàgail
 Geo & Country: Geo & Dùthaich
 GeoBlocked: GeoBlocked
 GitHub Error: Mearachd GitHub
 Go back to live: Rach air ais a dh'fhuireach
+Grid: Clèithe
 Group: Buidheann
 Half speed (0.5x): Astar leth (0.5x)
 Help: Cuideachadh
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): Ath-chluich HLS: hls.js (cead MIT)
 Image: Dealbh
 Import: Import
 Import cancelled or no channels mapped.: Chaidh an in-mhalairt a chuir dheth no chan eil seanalan air am mapadh.
+Import Error: Mearachd in-mhalairt
 Import error: {0}: Mearachd in-mhalairt: {0}
 Import from URL: Ion-phortaich o URL
 Import JSON: Ion-phortaich JSON
 Import JSON from URL: Ion-phortaich JSON bhon URL
 Import Local: Cuir a-steach Ionadail
+Imported {0} channels from code.: Chaidh {0} seanalan a thoirt a-steach on chòd.
 Imported {0} channels from JSON via mapping.: Chaidh {0} seanalan a thoirt a-steach o JSON tro mhapaichean.
 Imported {0} channels from URL.: Chaidh {0} seanalan a thoirt a-steach o URL.
 In Both: Anns an dà chuid
@@ -181,6 +194,7 @@ Invalid JSON: {0}: JSON mì-dhligheach: {0}
 Invalid playlist URL.: URL liosta-cluiche mì-dhligheach.
 Invalid URL.: URL mì-dhligheach.
 Json: Seonaidh
+JSON parsing error: {0}: Mearachd parsaidh JSON: {0}
 JSON Property: JSON Seilbh
 Ko-fi: Cofaidh
 Language: Cànain
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Luchdaich faidhle playlist (M3U / JSON) bhon choimpiutair agad
 Loaded: Air a luchdachadh
 Loaded {0} channels from JSON file via mapping.: Chaidh {0} seanalan a luchdachadh o fhaidhle JSON tro mhapaichean.
-Loaded {0} channels from JSON file.: Chaidh {0} seanail a luchdachadh o fhaidhle JSON.
 Loaded {0} channels from JSON URL.: Chaidh {0} seanail a luchdachadh o URL JSON.
 Loaded {0} channels from M3U file.: Chaidh {0} seanalan a luchdachadh o fhaidhle M3U.
 Loaded {0} channels from M3U URL.: Chaidh {0} seanalan a luchdachadh o URL M3U.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Logos Matching Threshold
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Stòr suaicheantasan - tagh sealbhadair / repo / slighe (sealbhadair gnàthachPlugins / suaicheantasan).
 Logos Source: Stòr Logos
 Logos Subfolder: Fo-phasgan suaicheantasan
+M3U parsing error: {0}: Mearachd parsaidh M3U: {0}
 Map JSON properties to channel fields:: Mapa feartan JSON gu raointean seanail:
 Mapping saved for future imports of this file.: Chaidh am mapadh a shàbhaladh airson ion-phortadh an fhaidhle seo san àm ri teachd.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Ìrean maidsidh - suidhich cugallachd maidsidh fuzzy airson EPG agus suaicheantasan.
+Mini Player: Cluicheadair mini
 Move to Group: Gluais gu Buidheann
 Moved: Ghluais
 Name: Ainm
@@ -228,14 +243,18 @@ Next: Air adhart
 Next ▶: Air adhart ▶
 No .m3u files found on GitHub repository.: Cha deach faidhlichean .m3u a lorg air stòr GitHub.
 No cache folder found.: Cha deach pasgan tasgadan a lorg.
+No channel selected: Chan eil sianal air a thaghadh
 No channels could be mapped or import cancelled.: Cha b’ urrainnear seanalan sam bith a mhapadh no in-mhalairt a chuir dheth.
 No channels could be mapped. Check your mapping rules.: Cha b’ urrainnear seanalan sam bith a mhapadh. Thoir sùil air na riaghailtean mapaidh agad.
+No channels found in JSON.: Cha deach seanalan a lorg ann an JSON.
+No channels found in M3U.: Cha deach seanalan a lorg ann am M3U.
 No channels loaded from JSON URL.: Cha deach seanalan a luchdachadh o URL JSON.
 No channels loaded from M3U URL.: Cha deach seanalan a luchdachadh bho URL M3U.
 No channels loaded from M3U.: Cha deach seanalan a luchdachadh bho M3U.
 No channels loaded.: Cha deach sianalan a luchdachadh.
 No channels mapped: Chan eil sianalan air am mapadh
 No channels selected.: Chan eil seanalan air an taghadh.
+No channels to import.: Chan eil sianalan ri thoirt a-steach.
 No duplicate URLs found.: Cha deach URLan dùblaichte a lorg.
 No EPG data: Chan eil dàta EPG ann
 No EPG information available for this channel.: Chan eil fiosrachadh EPG ri fhaighinn airson an t-seanail seo.
@@ -245,6 +264,8 @@ No favorite channels to export.: Chan eil na seanalan as fheàrr leotha airson �
 No missing channels to export.: Chan eil seanalan a dhìth airson às-mhalairt.
 No playlist found: Cha deach liosta-cluiche a lorg
 No second playlist loaded.: Cha deach an dàrna liosta-cluiche a luchdachadh.
+No stream URL available for this channel.: Chan eil URL srutha ri fhaighinn airson an t-seanail seo.
+No text to import.: Gun teacsa ri thoirt a-steach.
 No updates available.: Chan eil ùrachaidhean ri fhaighinn.
 Normal speed (1x): Astar àbhaisteach (1x)
 Not connected to the box.: Gun cheangal ris a’ bhogsa.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Stad / Ath-thòisich sruth beò
 Paused: Stad
 PayPal: PayPal
 Picture-in-Picture mode: Modh dealbh-ann-Dealbh
+Play/Pause: Cluich / Stad
 Player Controls: Cluicheadairean smachd
+Playing: A' cluich
 Playlist & Groups: Liosta-cluiche & Buidhnean
 Playlist Comparison: Coimeas liosta-chluiche
 Playlist Editor: Deasaiche liosta-chluiche
@@ -272,10 +295,12 @@ Please select a program first.: Feuch an tagh thu prògram an toiseach.
 Preview (first 5 channels): Ro-shealladh (a’ chiad 5 seanalan)
 Preview error: {0}: Mearachd ro-shealladh: {0}
 Program Details: Mion-fhiosrachadh mun phrògram
+Ready: Ready
 Ready.: Ready.
 Recent: O chionn ghoirid
 Recent files – quick access to last 5 opened playlists.: Faidhlichean o chionn ghoirid - ruigsinneachd luath gu na 5 liostaichean-cluiche mu dheireadh a chaidh fhosgladh.
 Recent playlists: Clàran-ciùil o chionn ghoirid
+Refresh Code: Luchdaich a-nuas an còd
 Refresh EPG: Luchdaich a-nuas an leabhar EPG
 Refresh EPG List: Luchdaich a-nuas an clàr EPG
 Refresh from GitHub: Ùraich bho GitHub
@@ -301,6 +326,7 @@ Search channels by name: Rannsaich sianalan a rèir ainm
 Search channels...: Lorg sianalan...
 sec: diog
 Second playlist loaded: {0} channels: An dàrna liosta-cluiche air a luchdachadh: {0} seanalan
+Select a channel to play.: Tagh sianal airson a chluich.
 Select a playlist first.: Tagh liosta-cluiche an toiseach.
 Select target group:: Tagh buidheann targaid:
 Select Theme: Tagh Cuspair
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Tòisich
 Status: Inbhe
 Stop: Stad
+Stopped: Sguir
 Stream URL: Sruth URL
 Stream URLs: Sruth URLan
 Success: Soirbheachas
@@ -342,7 +369,9 @@ TV Guide (EPG): Leabhar-iùil Tbh (EPG)
 TvgId: TvgId
 Type channel name to filter: Taidhp ainm an t-seanail airson a chriathradh
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Cha b' urrainn dhuinn fòrmat a lorg gu fèin-obrachail. Tagh JSON no M3U bhon chlàr-taice is feuch ris a-rithist.
 Unable to find version in remote project file.: Cha b' urrainn dhuinn dreach a lorg ann am faidhle pròiseict iomallach.
+Unsupported format. Please select JSON or M3U.: Fòrmat gun taic. Tagh JSON no M3U.
 Update: Ùraich
 Update complete. Restarting...: Ùrachadh crìochnaichte. Ag ath-thòiseachadh...
 Update Error: Mearachd ùrachadh

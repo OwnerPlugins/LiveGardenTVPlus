@@ -1,15 +1,44 @@
-# LiveGardenTVPlus – IPTV Player for Windows
+<h1 align="center">LiveGardenTVPlus – IPTV Player for Windows</h1>
 
-![GitHub release](https://img.shields.io/badge/release-v2.7-blue)
-[![.NET](https://img.shields.io/badge/.NET-10.0-purple)](https://dotnet.microsoft.com/)
-[![WPF](https://img.shields.io/badge/UI-WPF-blue)](https://github.com/dotnet/wpf)
-[![WebView2](https://img.shields.io/badge/WebView2-hls.js-green)](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)
-[![Windows Forms](https://img.shields.io/badge/UI-Windows%20Forms-0078D4)](https://github.com/dotnet/winforms)
-[![C#](https://img.shields.io/badge/Language-C%23-239120)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+<p align="center">
+  <img src="https://img.shields.io/badge/release-v2.7-blue" alt="Release">
 
-![Visitors](https://komarev.com/ghpvc/?username=Belfagor2005&label=Repository%20Views&color=blueviolet)
-[![Donate](https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://ko-fi.com/lululla)
-[![Donate](https://img.shields.io/badge/_-Donate-green.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://paypal.me/belfagor2005)
+  <a href="https://dotnet.microsoft.com/">
+    <img src="https://img.shields.io/badge/.NET-10.0-purple" alt=".NET">
+  </a>
+
+  <a href="https://github.com/dotnet/wpf">
+    <img src="https://img.shields.io/badge/UI-WPF-blue" alt="WPF">
+  </a>
+
+  <a href="https://developer.microsoft.com/en-us/microsoft-edge/webview2/">
+    <img src="https://img.shields.io/badge/WebView2-hls.js-green" alt="WebView2">
+  </a>
+
+  <a href="https://github.com/dotnet/winforms">
+    <img src="https://img.shields.io/badge/UI-Windows%20Forms-0078D4" alt="Windows Forms">
+  </a>
+
+  <a href="https://docs.microsoft.com/en-us/dotnet/csharp/">
+    <img src="https://img.shields.io/badge/Language-C%23-239120" alt="C#">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Belfagor2005">
+    <img src="https://komarev.com/ghpvc/?username=Belfagor2005&label=Repository%20Views&color=blueviolet" alt="Visitors">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://ko-fi.com/lululla">
+    <img src="https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge" alt="Ko-fi">
+  </a>
+
+  <a href="https://paypal.me/belfagor2005">
+    <img src="https://img.shields.io/badge/_-Donate-green.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge" alt="PayPal">
+  </a>
+</p>
 
 **LiveGardenTVPlus** is a modern, feature‑rich IPTV player for Windows.
 It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, playlist editing, Telnet console for Enigma2, and much more.
@@ -22,15 +51,73 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
 - ⏱️ **Timeshift** – pause and seek back in live HLS streams
 - ✏️ **Powerful playlist editor** – edit names, groups, URLs, logos, EPG ids, favorites, etc.
 - 🧩 **JSON import** with flexible field mapping (auto‑detect, save profiles)
+- 📊 **Playlist comparison** – compare two playlists by field, export differences
+- 📝 **Code Editor tab** – view and edit playlist as raw M3U or JSON, copy/paste
+- 🎮 **Mini Player** – test streams directly from the editor (Play/Pause/Stop/Fullscreen/CH+/CH-)
 - 🔍 **Filter & search** channels, check URL status, export results
 - 🌍 **Dynamic language switching** (English, Italian, and more)
 - 🎨 **16 colour themes** + Light/Dark variants
 - 🔄 **Auto‑updater** – checks for new versions and updates seamlessly
 - ❤️ **Favorites** – star channels and export only favourites
 - 🖥️ **Modern UI** – resizable sidebar, WebView2 player, HLS.js playback
+- 📡 **Enigma2 integration** – Telnet console, send playlist to Enigma2 decoder
 
+---
 
 ## Changelog
+
+## 📋 LiveGardenTVPlus – Changelog (v2.9)
+
+### 📝 Code Editor Tab in Playlist Editor
+
+- **New "Code" Tab** – Added a second tab in the Playlist Editor alongside the existing "Grid" tab.  
+  Allows viewing and editing the playlist content as raw code (M3U or JSON).
+
+- **Two‑way synchronization** –  
+  - **Grid → Code**: Switch to the "Code" tab to see the current playlist formatted as JSON (default) or M3U.  
+  - **Code → Grid**: Paste or edit M3U/JSON code, click **"Apply / Import"**, and the playlist grid updates instantly.
+
+- **Display Format Selection** – Choose how the code is displayed in the editor:
+  - **JSON** – full structured view with all metadata.
+  - **M3U** – classic M3U format with `#EXTM3U`, `#EXTINF`, and channel URLs.
+
+- **Import Format Selection** – Choose how the pasted code should be interpreted:
+  - **Auto (recommended)** – automatically detects whether the code is JSON or M3U.
+  - **JSON** – forces JSON parsing.
+  - **M3U** – forces M3U parsing.
+
+- **Copy to Clipboard** – One‑click copy of the current code (JSON or M3U) to the system clipboard.
+
+- **Refresh Code** – Regenerates the code from the current grid state.
+
+- **Fast performance** – Handles playlists with 10,000+ channels smoothly.
+
+### 🎮 Mini Player in Playlist Editor
+
+- **"▶ Play" button** – Added to the Actions group in the playlist editor.
+- **Mini Player window** – Small, draggable, borderless window with WebView2 player.
+- **Play/Pause** – Toggle playback with icon change (▶ / ❚❚).
+- **Stop** – Stops playback and resets to beginning.
+- **Fullscreen** – Toggle fullscreen mode.
+- **Channel Up / Down** – Navigate through the playlist channels without closing the player.
+- **Status display** – Shows current state (Loading, Ready, Playing, Paused, Stopped).
+- **Themed & Translatiable** – Fully respects application themes and language settings.
+
+### 🌐 New Translations
+
+All new strings for filters, export selected, context menu, and comparison features are fully localizable via `LanguageManager`.
+
+### 🐛 Bug Fixes
+
+- Fixed auto‑detection for M3U code (now recognizes `#EXTM3U` and `#EXTINF` even with leading whitespace).
+- Added specific error messages for JSON and M3U parsing failures.
+- Prevented UI freezes when generating code for large playlists (async generation).
+
+### Need more help?
+
+Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
+
+---
 
 ## LiveGardenTVPlus – Changelog (v2.8)
 
@@ -78,15 +165,6 @@ Right‑click any channel in the left TreeView to access:
 - Fixed DataGrid row selection – text no longer white‑on‑white (or black‑on‑black) across themes.
 - Fixed URL comparison – matching now works URL‑by‑URL (any match = match).
 - Fixed JSON import for deeply nested structures (e.g., `tvg.id`, `tvg.logo`, `group.title`, `http.referrer`).
-
-### 🌐 New Translations
-
-All new strings for filters, export selected, context menu, and comparison features are fully localizable via `LanguageManager`.
-
-
-### Need more help?
-
-Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
 
 ---
 
@@ -171,10 +249,6 @@ Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) 
 - **Detailed EPG Window** – Shows current and next program (title, time, category, description). Auto‑sized layout, clean typography, channel name prominent.
 - **Performance** – Replaced slow combo box with searchable, virtualized channel list (debounced search). Built‑in EPG source selector.
 - **Translations** – All EPG related strings are fully localizable via LanguageManager.
-
-### Need more help?
-
-Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
 
 ---
 
@@ -378,7 +452,6 @@ Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) 
 - Fixed `NullReferenceException` in LogoPickerWindow and SettingsWindow (added null checks and Loaded event initialization).
 - Fixed M3U export – URLs are no longer missing; channels without a valid URL are skipped.
 - Fixed PlaylistEditorWindow constructor – removed erroneous line that caused compile errors.
-- Fixed theme colors in SettingsWindow (ComboBoxes and labels now follow the selected theme).
 - Fixed filter section colors in PlaylistEditorWindow (text boxes and labels use dynamic resources).
 
 ---

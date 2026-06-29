@@ -82,10 +82,11 @@
                     <StackPanel>
                         <TextBlock x:Name="ActionsButtons" Text="Actions" FontWeight="Bold" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" Margin="0,0,0,5"/>
                         <WrapPanel>
-                            <Button x:Name="DeleteSelectedBtn" Content="Delete Selected" Width="120" Margin="2,0" Click="DeleteSelectedBtn_Click"/>
-                            <Button x:Name="ExportSelectedBtn" Content="Export Selected" Width="120" Margin="2,0" Click="ExportSelectedBtn_Click"/>
+                            <Button x:Name="DeleteSelectedBtn" Content="Delete Selected" Width="140" Margin="2,0" Click="DeleteSelectedBtn_Click"/>
+                            <Button x:Name="ExportSelectedBtn" Content="Export Selected" Width="140" Margin="2,0" Click="ExportSelectedBtn_Click"/>
                             <Button x:Name="StopBtn" Content="Stop" Width="140" Margin="2,0" Click="StopBtn_Click" IsEnabled="False"/>
                             <Button x:Name="ResetOrderBtn" Content="Reset Order" Width="140" Margin="2,0" Click="ResetOrderBtn_Click"/>
+                            <Button x:Name="PlayBtn" Content="▶ Play" Width="140" Margin="2,0" Click="PlayBtn_Click"/>
                             <Button x:Name="SaveBtn" Content="Save as..." Width="140" Margin="2,0" Click="SaveBtn_Click"/>
                             <Button x:Name="CloseBtn" Content="Exit" Width="140" Margin="2,0" Click="CloseBtn_Click"/>
                         </WrapPanel>
@@ -200,71 +201,147 @@
                 </WrapPanel>
             </StackPanel>
         </Border>
-        <!-- DataGrid -->
-        <DataGrid x:Name="ChannelsGrid" Grid.Row="2" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Extended" SelectionUnit="FullRow" RowHeight="32" MouseDoubleClick="ChannelsGrid_MouseDoubleClick" Sorting="ChannelsGrid_Sorting">
-            <DataGrid.Columns>
-                <!-- Picons column with icon and edit button -->
-                <DataGridTemplateColumn x:Name="colPicons" Header="Image" Width="65" SortMemberPath="logo_url">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                <Image Source="{Binding logo_url, Converter={StaticResource UrlToImageConverter}}" Width="24" Height="24" Stretch="Uniform" Margin="2"/>
-                                <Button Content="✎" Width="25" Height="25" Margin="5,0,0,0" Click="EditButton_Click" Tag="{Binding}" ToolTip="Edit channel details"/>
-                            </StackPanel>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
-                <!-- Name -->
-                <DataGridTextColumn x:Name="colName" Header="Name" Binding="{Binding name}" Width="2*" IsReadOnly="False"/>
-                <!-- URL (primary) -->
-                <DataGridTemplateColumn x:Name="colUrlPrimary" Header="URL (primary)" Width="3*" SortMemberPath="stream_urls[0]">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <StackPanel Orientation="Horizontal">
-                                <Button Content="✎" Width="25" Height="25" Margin="0,0,5,0" Click="EditUrlsButton_Click" Tag="{Binding}" ToolTip="Edit multiple URLs"/>
-                                <TextBlock Text="{Binding PrimaryUrl, FallbackValue=''}" VerticalAlignment="Center" TextTrimming="CharacterEllipsis" MaxWidth="200"/>
-                            </StackPanel>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                    <DataGridTemplateColumn.CellEditingTemplate>
-                        <DataTemplate>
-                            <TextBox Text="{Binding PrimaryUrl, UpdateSourceTrigger=PropertyChanged, FallbackValue=''}"/>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellEditingTemplate>
-                </DataGridTemplateColumn>
-                <!-- Group -->
-                <DataGridTextColumn x:Name="colGroup" Header="Group" Binding="{Binding group}" Width="1.5*"/>
-                <!-- Logo -->
-                <DataGridTemplateColumn x:Name="colLogo" Header="Logo" Width="2*">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <StackPanel Orientation="Horizontal">
-                                <Button Content="..." Width="30" Margin="0,0,5,0" Click="PickLogo_Click" Tag="{Binding}" ToolTip="Choose logo from gallery"/>
-                                <TextBox Text="{Binding logo_url, UpdateSourceTrigger=PropertyChanged, FallbackValue=''}" VerticalAlignment="Center" MinWidth="150" TextWrapping="NoWrap"/>
-                            </StackPanel>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
-                <!-- TvgId -->
-                <DataGridTextColumn x:Name="colTvgId" Header="TvgId" Binding="{Binding tvg_id}" Width="2*"/>
-                <!-- Favorite -->
-                <DataGridCheckBoxColumn x:Name="colFavorite" Header="Favorite" Binding="{Binding isFavorite}" Width="Auto"/>
-                <!-- Country -->
-                <DataGridTextColumn x:Name="colCountry" Header="Country" Binding="{Binding country}" Width="Auto"/>
-                <!-- GeoBlocked -->
-                <DataGridCheckBoxColumn x:Name="colGeoBlocked" Header="GeoBlocked" Binding="{Binding isGeoBlocked}" Width="Auto"/>
-                <!-- Nanoid -->
-                <DataGridTextColumn x:Name="colNanoid" Header="Nanoid" Binding="{Binding nanoid}" Width="Auto"/>
-                <!-- Languages -->
-                <DataGridTextColumn x:Name="colLanguages" Header="Languages" Binding="{Binding LanguagesDisplay, Mode=OneWay}" IsReadOnly="True" Width="Auto"/>
-                <!-- Youtube URLs -->
-                <DataGridTextColumn x:Name="colYoutube" Header="Youtube URLs" Binding="{Binding YoutubeUrlsDisplay, Mode=OneWay}" IsReadOnly="True" Width="Auto"/>
-                <!-- Stream URLs -->
-                <DataGridTextColumn x:Name="colStreamUrls" Header="Stream URLs" Binding="{Binding StreamUrlsDisplay, Mode=OneWay}" IsReadOnly="True" Width="Auto"/>
-                <!-- Status -->
-                <DataGridTextColumn x:Name="colStatus" Header="Status" Binding="{Binding UrlStatus}" Width="Auto" IsReadOnly="True"/>
-            </DataGrid.Columns>
-        </DataGrid>
+        <!-- TabControl -->
+        <TabControl x:Name="MainTabControl" Grid.Row="2" Margin="0,0,0,0"
+                    Background="{DynamicResource ControlBackgroundBrush}"
+                    BorderBrush="{DynamicResource BorderBrush}"
+                    Foreground="{DynamicResource ForegroundBrush}"
+                    SelectionChanged="MainTabControl_SelectionChanged">
+            <TabItem x:Name="GridTab" Header="Grid">
+                <DataGrid x:Name="ChannelsGrid" 
+                          AutoGenerateColumns="False" 
+                          CanUserAddRows="False" 
+                          CanUserDeleteRows="False" 
+                          SelectionMode="Extended" 
+                          SelectionUnit="FullRow" 
+                          RowHeight="32" 
+                          MouseDoubleClick="ChannelsGrid_MouseDoubleClick" 
+                          Sorting="ChannelsGrid_Sorting"
+                          Background="{DynamicResource ControlBackgroundBrush}"
+                          Foreground="{DynamicResource ForegroundBrush}"
+                          RowBackground="{DynamicResource ControlBackgroundBrush}"
+                          AlternatingRowBackground="{DynamicResource AlternateRowBackgroundBrush}"
+                          BorderBrush="{DynamicResource BorderBrush}"
+                          GridLinesVisibility="Horizontal"
+                          VirtualizingPanel.IsVirtualizing="True" 
+                          VirtualizingPanel.VirtualizationMode="Recycling"
+                          VirtualizingPanel.ScrollUnit="Pixel">
+                    <DataGrid.Resources>
+                        <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" 
+                                         Color="{DynamicResource AccentColor}"/>
+                        <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}" Color="White"/>
+                    </DataGrid.Resources>
+                    <DataGrid.Columns>
+                        <!-- Picons column with icon and edit button -->
+                        <DataGridTemplateColumn x:Name="colPicons" Header="Image" Width="65" SortMemberPath="logo_url">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                        <Image Source="{Binding logo_url, Converter={StaticResource UrlToImageConverter}}" Width="24" Height="24" Stretch="Uniform" Margin="2"/>
+                                        <Button Content="✎" Width="25" Height="25" Margin="5,0,0,0" Click="EditButton_Click" Tag="{Binding}" ToolTip="Edit channel details"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <!-- Name -->
+                        <DataGridTextColumn x:Name="colName" Header="Name" Binding="{Binding name}" Width="2*" IsReadOnly="False"/>
+                        <!-- URL (primary) -->
+                        <DataGridTemplateColumn x:Name="colUrlPrimary" Header="URL (primary)" Width="3*" SortMemberPath="stream_urls[0]">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Button Content="✎" Width="25" Height="25" Margin="0,0,5,0" Click="EditUrlsButton_Click" Tag="{Binding}" ToolTip="Edit multiple URLs"/>
+                                        <TextBlock Text="{Binding PrimaryUrl, FallbackValue=''}" VerticalAlignment="Center" TextTrimming="CharacterEllipsis" MaxWidth="200"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                            <DataGridTemplateColumn.CellEditingTemplate>
+                                <DataTemplate>
+                                    <TextBox Text="{Binding PrimaryUrl, UpdateSourceTrigger=PropertyChanged, FallbackValue=''}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellEditingTemplate>
+                        </DataGridTemplateColumn>
+                        <!-- Group -->
+                        <DataGridTextColumn x:Name="colGroup" Header="Group" Binding="{Binding group}" Width="1.5*"/>
+                        <!-- Logo -->
+                        <DataGridTemplateColumn x:Name="colLogo" Header="Logo" Width="2*">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Button Content="..." Width="30" Margin="0,0,5,0" Click="PickLogo_Click" Tag="{Binding}" ToolTip="Choose logo from gallery"/>
+                                        <TextBox Text="{Binding logo_url, UpdateSourceTrigger=PropertyChanged, FallbackValue=''}" VerticalAlignment="Center" MinWidth="150" TextWrapping="NoWrap"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <!-- TvgId -->
+                        <DataGridTextColumn x:Name="colTvgId" Header="TvgId" Binding="{Binding tvg_id}" Width="2*"/>
+                        <!-- Favorite -->
+                        <DataGridCheckBoxColumn x:Name="colFavorite" Header="Favorite" Binding="{Binding isFavorite}" Width="Auto"/>
+                        <!-- Country -->
+                        <DataGridTextColumn x:Name="colCountry" Header="Country" Binding="{Binding country}" Width="Auto"/>
+                        <!-- GeoBlocked -->
+                        <DataGridCheckBoxColumn x:Name="colGeoBlocked" Header="GeoBlocked" Binding="{Binding isGeoBlocked}" Width="Auto"/>
+                        <!-- Nanoid -->
+                        <DataGridTextColumn x:Name="colNanoid" Header="Nanoid" Binding="{Binding nanoid}" Width="Auto"/>
+                        <!-- Languages -->
+                        <DataGridTextColumn x:Name="colLanguages" Header="Languages" Binding="{Binding LanguagesDisplay, Mode=OneWay}" IsReadOnly="True" Width="Auto"/>
+                        <!-- Youtube URLs -->
+                        <DataGridTextColumn x:Name="colYoutube" Header="Youtube URLs" Binding="{Binding YoutubeUrlsDisplay, Mode=OneWay}" IsReadOnly="True" Width="Auto"/>
+                        <!-- Stream URLs -->
+                        <DataGridTextColumn x:Name="colStreamUrls" Header="Stream URLs" Binding="{Binding StreamUrlsDisplay, Mode=OneWay}" IsReadOnly="True" Width="Auto"/>
+                        <!-- Status -->
+                        <DataGridTextColumn x:Name="colStatus" Header="Status" Binding="{Binding UrlStatus}" Width="Auto" IsReadOnly="True"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            
+            <TabItem x:Name="CodeTab" Header="Code">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="CodeTextBox" Grid.Row="0" 
+                             AcceptsReturn="True" 
+                             AcceptsTab="True" 
+                             TextWrapping="NoWrap" 
+                             VerticalScrollBarVisibility="Auto"
+                             HorizontalScrollBarVisibility="Auto"
+                             FontFamily="Consolas" 
+                             FontSize="12"
+                             Background="{DynamicResource ControlBackgroundBrush}"
+                             Foreground="{DynamicResource ForegroundBrush}"
+                             BorderBrush="{DynamicResource BorderBrush}"/>
+                    <WrapPanel Grid.Row="1" Margin="0,5,0,0" HorizontalAlignment="Right">
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,15,0">
+                            <TextBlock Text="Display as:" VerticalAlignment="Center" Margin="0,0,5,0" Foreground="{DynamicResource ForegroundBrush}"/>
+                            <ComboBox x:Name="DisplayFormatCombo" Width="Auto" VerticalAlignment="Center"
+                                      SelectedIndex="0"
+                                      Background="{DynamicResource ControlBackgroundBrush}"
+                                      Foreground="{DynamicResource ForegroundBrush}"
+                                      BorderBrush="{DynamicResource BorderBrush}"
+                                      SelectionChanged="DisplayFormatCombo_SelectionChanged">
+                                <ComboBoxItem Content="JSON" Tag="Json" IsSelected="True"/>
+                                <ComboBoxItem Content="M3U" Tag="M3u"/>
+                            </ComboBox>
+                        </StackPanel>
+                        <ComboBox x:Name="FormatCombo" Width="Auto" Margin="0,0,10,0" VerticalAlignment="Center"
+                                  SelectedIndex="0"
+                                  Background="{DynamicResource ControlBackgroundBrush}"
+                                  Foreground="{DynamicResource ForegroundBrush}"
+                                  BorderBrush="{DynamicResource BorderBrush}">
+                            <ComboBoxItem Content="Auto (recommended)" Tag="Auto" IsSelected="True"/>
+                            <ComboBoxItem Content="JSON" Tag="Json"/>
+                            <ComboBoxItem Content="M3U" Tag="M3u"/>
+                        </ComboBox>
+                        <Button x:Name="ApplyCodeBtn" Content="Apply / Import" Width="Auto" Margin="0,0,5,0" Click="ApplyCodeBtn_Click"/>
+                        <Button x:Name="CopyCodeBtn" Content="Copy" Width="Auto" Margin="0,0,5,0" Click="CopyCodeBtn_Click"/>
+                        <Button x:Name="RefreshCodeBtn" Content="Refresh Code" Width="Auto" Margin="0,0,5,0" Click="RefreshCodeBtn_Click"/>
+                    </WrapPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
         <!-- Bottom bar -->
         <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
             <ProgressBar x:Name="CheckProgressBar" Height="20" Width="200" Margin="5,0" Visibility="Collapsed" IsIndeterminate="True"/>

@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • የመልሶ ማጫወት ፍጥነት፡ 0.5x፣ 1x፣ 2x buttons።
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • ራስጌን ጠቅ በማድረግ ማንኛውንም አምድ ደርድር; ወደ መጀመሪያው ቅደም ተከተል ለመመለስ 'ትዕዛዙን ዳግም አስጀምር' ይጠቀሙ።
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • የጊዜ ሽግግር፡ የቀጥታ ዥረት ለአፍታ አቁም; መልሶ ለመፈለግ ተንሸራታች ይጎትቱ; ለመመለስ 'ቀጥታ' ን ይጫኑ።
+▶ Play: ▶ ተጫወት
 ◀ Previous: ◀ ያለፈው
 16 colour themes + Light/Dark variants.: 16 የቀለም ገጽታዎች + ብርሃን/ጨለማ ልዩነቶች።
 A new version is available. Do you want to update now?: አዲስ ስሪት አለ። አሁን ማዘመን ይፈልጋሉ?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): የቋት መጠንን ያስተካክሉ (1-
 Advanced IDs: የላቁ መታወቂያዎች
 Application status: የመተግበሪያ ሁኔታ
 Apply: ያመልክቱ
+Apply / Import: ያመልክቱ/አስመጣ
 Apply changes: ለውጦችን ይተግብሩ
 Apply Filters: ማጣሪያዎችን ተግብር
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: እርግጠኛ ነህ Enigma2 GUI ን እንደገና መጫን ትፈልጋለህ?\n\nበይነገጽ እንደገና ይጀምራል (ጥቁር ስክሪን ለጥቂት ሰከንዶች)።
@@ -46,8 +48,10 @@ Cannot open browser: አሳሽ መክፈት አልተቻለም
 Category: ምድብ
 Changelog: ለውጥ ሎግ
 Channel Details: የሰርጥ ዝርዝሮች
+Channel Down: ቻናል ዳውን
 Channel Info: የሰርጥ መረጃ
 Channel Name: የሰርጥ ስም
+Channel Up: ቻናል ወደ ላይ
 channels from: ቻናሎች ከ
 channels from JSON: ቻናሎች ከJSON
 channels from JSON URL: ቻናሎች ከJSON URL
@@ -61,6 +65,8 @@ Clear Filters: ማጣሪያዎችን አጽዳ
 Clear search: ፍለጋን አጽዳ
 Click for details: ለዝርዝሩ ጠቅ ያድርጉ
 Close: ገጠመ
+Code: ኮድ
+Code copied to clipboard.: ኮድ ወደ ቅንጥብ ሰሌዳ ተቀድቷል።
 Command name:: የትእዛዝ ስም፡-
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ማህበረሰብ እና ሙከራ፡ CorvoBoys (corvoboys.org) እና LinuxSat-Support.com
 Compare: አወዳድር
@@ -75,6 +81,7 @@ Confirm Reload: ዳግም መጫንን ያረጋግጡ
 Connect: ተገናኝ
 Connected: ተገናኝቷል።
 Copied: ተገልብጧል
+Copy: ቅዳ
 CORVOBOYS.ORG: ኮርቮቦይስ.ኦርጂ
 Country: ሀገር
 Credits: ምስጋናዎች
@@ -141,6 +148,7 @@ Export OK: እሺ ወደ ውጭ ላክ
 Export only favorite channels to a new M3U file: ተወዳጅ ሰርጦችን ብቻ ወደ አዲስ M3U ፋይል ይላኩ።
 Export results as JSON or M3U – export missing channels or all channels.: ውጤቶችን እንደ JSON ወይም M3U ወደ ውጪ ላክ - የጎደሉ ቻናሎችን ወይም ሁሉንም ሰርጦች ወደ ውጪ ላክ።
 Export selected: ወደ ውጭ መላክ ተመርጧል
+Export Selected: ወደ ውጭ መላክ ተመርጧል
 Exported: ወደ ውጭ ተልኳል።
 Exported {0} channels to {1}: {0} ቻናሎችን ወደ {1} ተልኳል
 Extracting update...: ዝማኔን በማውጣት ላይ...
@@ -154,11 +162,14 @@ Fetch Logos: ሎጎዎችን አምጣ
 File {0} already exists. Overwrite?: ፋይል {0} አስቀድሞ አለ። ይፃፉ?
 File exists: ፋይል አለ።
 Filters: ማጣሪያዎች
+Format Detection: የቅርጸት ማወቂያ
+Fullscreen: ሙሉ ስክሪን
 Fullscreen (hide UI) - press ESC to exit: ሙሉ ስክሪን (UI ደብቅ) - ለመውጣት ESC ን ይጫኑ
 Geo & Country: ጂኦ እና ሀገር
 GeoBlocked: ጂኦ ታግዷል
 GitHub Error: GitHub ስህተት
 Go back to live: ወደ መኖር ተመለስ
+Grid: ፍርግርግ
 Group: ቡድን
 Half speed (0.5x): ግማሽ ፍጥነት (0.5x)
 Help: እገዛ
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS መልሶ ማጫወት፡hls.js (MIT ፍ
 Image: ምስል
 Import: አስመጣ
 Import cancelled or no channels mapped.: ማስመጣት ተሰርዟል ወይም ምንም ካርታ አልተሰራም።
+Import Error: የማስመጣት ስህተት
 Import error: {0}: የማስመጣት ስህተት፡ {0}
 Import from URL: ከዩአርኤል አስመጣ
 Import JSON: JSON አስመጣ
 Import JSON from URL: JSON ከዩአርኤል አስመጣ
 Import Local: አካባቢያዊ አስመጣ
+Imported {0} channels from code.: {0} ሰርጦች ከኮድ መጥተዋል።
 Imported {0} channels from JSON via mapping.: {0} ቻናሎችን ከJSON በካርታ ስራ አስመጡ።
 Imported {0} channels from URL.: ከዩአርኤል የመጡ {0} ሰርጦች።
 In Both: በሁለቱም
@@ -181,6 +194,7 @@ Invalid JSON: {0}: ልክ ያልሆነ JSON፡ {0}
 Invalid playlist URL.: ልክ ያልሆነ የአጫዋች ዝርዝር URL።
 Invalid URL.: ልክ ያልሆነ URL
 Json: ጄሰን
+JSON parsing error: {0}: JSON የመተንተን ስህተት፡ {0}
 JSON Property: JSON ንብረት
 Ko-fi: ቡና
 Language: ቋንቋ
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: አጫዋች ዝርዝር ፋይል (M3U/JSON) ከኮምፒዩተርዎ ይጫኑ
 Loaded: ተጭኗል
 Loaded {0} channels from JSON file via mapping.: ከJSON ፋይል {0} ሰርጦችን በካርታ ተጭነዋል።
-Loaded {0} channels from JSON file.: ከJSON ፋይል {0} ሰርጦች ተጭነዋል።
 Loaded {0} channels from JSON URL.: ከJSON URL {0} ሰርጦች ተጭነዋል።
 Loaded {0} channels from M3U file.: ከM3U ፋይል {0} ሰርጦች ተጭነዋል።
 Loaded {0} channels from M3U URL.: ከM3U ዩአርኤል የተጫኑ {0} ሰርጦች።
@@ -215,9 +228,11 @@ Logos Matching Threshold: የሎጎስ ተዛማጅ ገደብ
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: የአርማዎች ማከማቻ - ባለቤት/repo/መንገድ ይምረጡ (ነባሪ የባለቤት ፕለጊኖች/ሎጎዎች)።
 Logos Source: የሎጎስ ምንጭ
 Logos Subfolder: የሎጎስ ንዑስ አቃፊ
+M3U parsing error: {0}: M3U የመተንተን ስህተት፡ {0}
 Map JSON properties to channel fields:: የJSON ንብረቶችን ወደ ሰርጥ መስኮች ካርታ ያውጡ፡
 Mapping saved for future imports of this file.: ለወደፊቱ የዚህ ፋይል ማስመጣት ካርታ ተቀምጧል።
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: ተዛማጅ ገደቦች - ለEP እና አርማዎች ደብዛዛ ግጥሚያ ትብነትን ያዘጋጁ።
+Mini Player: አነስተኛ ተጫዋች
 Move to Group: ወደ ቡድን አንቀሳቅስ
 Moved: ተንቀሳቅሷል
 Name: ስም
@@ -228,14 +243,18 @@ Next: ቀጥሎ
 Next ▶: ቀጣይ ▶
 No .m3u files found on GitHub repository.: በ GitHub ማከማቻ ላይ ምንም .m3u ፋይሎች አልተገኙም።
 No cache folder found.: ምንም መሸጎጫ አቃፊ አልተገኘም።
+No channel selected: ምንም ሰርጥ አልተመረጠም።
 No channels could be mapped or import cancelled.: ምንም ቻናሎች ሊቀረጹ ወይም ሊሰረዙ አይችሉም።
 No channels could be mapped. Check your mapping rules.: ምንም ቻናል ሊቀረጽ አልቻለም። የካርታ ስራ ህጎችዎን ያረጋግጡ።
+No channels found in JSON.: በJSON ውስጥ ምንም ሰርጦች አልተገኙም።
+No channels found in M3U.: በM3U ውስጥ ምንም ሰርጦች አልተገኙም።
 No channels loaded from JSON URL.: ከJSON URL የተጫኑ ቻናሎች የሉም።
 No channels loaded from M3U URL.: ከM3U URL የተጫኑ ቻናሎች የሉም።
 No channels loaded from M3U.: ከM3U ምንም ሰርጦች አልተጫኑም።
 No channels loaded.: ምንም ቻናሎች አልተጫኑም።
 No channels mapped: ምንም ካርታ አልተሰራም።
 No channels selected.: ምንም ሰርጦች አልተመረጡም።
+No channels to import.: ምንም የሚያስመጡ ቻናሎች የሉም።
 No duplicate URLs found.: ምንም የተባዙ ዩአርኤሎች አልተገኙም።
 No EPG data: ምንም የ EPG ውሂብ የለም።
 No EPG information available for this channel.: ለዚህ ቻናል ምንም የ EPG መረጃ የለም።
@@ -245,6 +264,8 @@ No favorite channels to export.: ወደ ውጭ የሚላኩ ተወዳጅ ቻና�
 No missing channels to export.: ወደ ውጭ ለመላክ ምንም የጎደሉ ቻናሎች የሉም።
 No playlist found: ምንም አጫዋች ዝርዝር አልተገኘም።
 No second playlist loaded.: ምንም ሁለተኛ አጫዋች ዝርዝር አልተጫነም።
+No stream URL available for this channel.: ለዚህ ሰርጥ ምንም የዥረት ዩአርኤል አይገኝም።
+No text to import.: የሚመጣ ጽሑፍ የለም።
 No updates available.: ምንም ዝመናዎች አይገኙም።
 Normal speed (1x): መደበኛ ፍጥነት (1x)
 Not connected to the box.: ከሳጥኑ ጋር አልተገናኘም።
@@ -261,7 +282,9 @@ Pause/Resume live stream: የቀጥታ ስርጭት ባለበት አቁም/ከ�
 Paused: ባለበት ቆሟል
 PayPal: PayPal
 Picture-in-Picture mode: የሥዕል-ውስጥ-ሥዕል ሁነታ
+Play/Pause: አጫውት/ ለአፍታ አቁም
 Player Controls: የተጫዋች መቆጣጠሪያዎች
+Playing: በመጫወት ላይ
 Playlist & Groups: አጫዋች ዝርዝር እና ቡድኖች
 Playlist Comparison: የአጫዋች ዝርዝር ንጽጽር
 Playlist Editor: የአጫዋች ዝርዝር አርታዒ
@@ -272,10 +295,12 @@ Please select a program first.: እባክዎ መጀመሪያ ፕሮግራም ይ
 Preview (first 5 channels): ቅድመ እይታ (የመጀመሪያዎቹ 5 ቻናሎች)
 Preview error: {0}: የቅድመ እይታ ስህተት፡ {0}
 Program Details: የፕሮግራም ዝርዝሮች
+Ready: ዝግጁ
 Ready.: ዝግጁ።
 Recent: የቅርብ ጊዜ
 Recent files – quick access to last 5 opened playlists.: የቅርብ ጊዜ ፋይሎች - የመጨረሻዎቹ 5 የተከፈቱ አጫዋች ዝርዝሮች ፈጣን መዳረሻ።
 Recent playlists: የቅርብ ጊዜ አጫዋች ዝርዝሮች
+Refresh Code: ኮድ አድስ
 Refresh EPG: EPG አድስ
 Refresh EPG List: የ EPG ዝርዝርን አድስ
 Refresh from GitHub: ከGitHub አድስ
@@ -301,6 +326,7 @@ Search channels by name: ቻናሎችን በስም ይፈልጉ
 Search channels...: ቻናሎችን ፈልግ...
 sec: ሰከንድ
 Second playlist loaded: {0} channels: ሁለተኛ አጫዋች ዝርዝር ተጭኗል፡ {0} ቻናሎች
+Select a channel to play.: ለማጫወት ሰርጥ ይምረጡ።
 Select a playlist first.: መጀመሪያ አጫዋች ዝርዝር ይምረጡ።
 Select target group:: ዒላማ ቡድንን ይምረጡ፡-
 Select Theme: ገጽታ ይምረጡ
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: ጀምር
 Status: ሁኔታ
 Stop: ተወ
+Stopped: ቆሟል
 Stream URL: የዥረት URL
 Stream URLs: የዥረት ዩአርኤሎች
 Success: ስኬት
@@ -342,7 +369,9 @@ TV Guide (EPG): የቲቪ መመሪያ (EPG)
 TvgId: TvgId
 Type channel name to filter: ለማጣራት የሰርጥ ስም ይተይቡ
 UI: MaterialDesignThemes.Wpf: UI፡ MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: ቅርጸቱን በራስ ሰር ማግኘት አልተቻለም። እባክዎ ከተቆልቋዩ ውስጥ JSON ወይም M3U ይምረጡ እና እንደገና ይሞክሩ።
 Unable to find version in remote project file.: በርቀት የፕሮጀክት ፋይል ውስጥ ስሪት ማግኘት አልተቻለም።
+Unsupported format. Please select JSON or M3U.: የማይደገፍ ቅርጸት። እባክዎ JSON ወይም M3U ይምረጡ።
 Update: አዘምን
 Update complete. Restarting...: ማዘመን ተጠናቅቋል። እንደገና በመጀመር ላይ...
 Update Error: የዝማኔ ስህተት

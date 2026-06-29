@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Wiedergabegeschwindigkeit: 0,5-fache, 1-fache, 2-fache Tasten.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sortieren Sie jede Spalte, indem Sie auf die Überschrift klicken. Verwenden Sie „Bestellung zurücksetzen“, um zur ursprünglichen Reihenfolge zurückzukehren.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: Live-Stream anhalten; Ziehen Sie den Schieberegler, um zurück zu suchen. Drücken Sie „Live“, um zurückzukehren.
+▶ Play: ▶ Spielen
 ◀ Previous: ◀ Zurück
 16 colour themes + Light/Dark variants.: 16 Farbthemen + Hell/Dunkel-Varianten.
 A new version is available. Do you want to update now?: Eine neue Version ist verfügbar. Möchten Sie jetzt aktualisieren?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Puffergröße anpassen (1-10 Sekunden)
 Advanced IDs: Erweiterte IDs
 Application status: Bewerbungsstatus
 Apply: Anwenden
+Apply / Import: Anwenden / Importieren
 Apply changes: Änderungen übernehmen
 Apply Filters: Filter anwenden
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Sind Sie sicher, dass Sie die Enigma2-GUI neu laden möchten?\n\nDie Benutzeroberfläche wird neu gestartet (schwarzer Bildschirm für einige Sekunden).
@@ -46,8 +48,10 @@ Cannot open browser: Der Browser kann nicht geöffnet werden
 Category: Kategorie
 Changelog: Änderungsprotokoll
 Channel Details: Kanaldetails
+Channel Down: Kanal runter
 Channel Info: Kanalinformationen
 Channel Name: Kanalname
+Channel Up: Kanal hoch
 channels from: Kanäle von
 channels from JSON: Kanäle aus JSON
 channels from JSON URL: Kanäle von JSON-URL
@@ -61,6 +65,8 @@ Clear Filters: Filter löschen
 Clear search: Suche löschen
 Click for details: Klicken Sie für Details
 Close: Schließen
+Code: Code
+Code copied to clipboard.: Code in die Zwischenablage kopiert.
 Command name:: Befehlsname:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Community & Tests: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: Vergleichen
@@ -75,6 +81,7 @@ Confirm Reload: Bestätigen Sie das Neuladen
 Connect: Verbinden
 Connected: Verbunden
 Copied: Kopiert
+Copy: Kopie
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Land
 Credits: Credits
@@ -141,6 +148,7 @@ Export OK: Exportieren OK
 Export only favorite channels to a new M3U file: Exportieren Sie nur Lieblingskanäle in eine neue M3U-Datei
 Export results as JSON or M3U – export missing channels or all channels.: Ergebnisse als JSON oder M3U exportieren – fehlende Kanäle oder alle Kanäle exportieren.
 Export selected: Exportieren ausgewählt
+Export Selected: Ausgewählte exportieren
 Exported: Exportiert
 Exported {0} channels to {1}: {0} Kanäle nach {1} exportiert
 Extracting update...: Update wird extrahiert...
@@ -154,11 +162,14 @@ Fetch Logos: Logos abrufen
 File {0} already exists. Overwrite?: Datei {0} existiert bereits. Überschreiben?
 File exists: Datei existiert
 Filters: Filter
+Format Detection: Formaterkennung
+Fullscreen: Vollbild
 Fullscreen (hide UI) - press ESC to exit: Vollbild (Benutzeroberfläche ausblenden) – Drücken Sie ESC, um den Vorgang zu beenden
 Geo & Country: Geo & Land
 GeoBlocked: Geoblockiert
 GitHub Error: GitHub-Fehler
 Go back to live: Geh zurück zum Leben
+Grid: Netz
 Group: Gruppe
 Half speed (0.5x): Halbe Geschwindigkeit (0,5x)
 Help: Helfen
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS-Wiedergabe: hls.js (MIT-Lizenz)
 Image: Bild
 Import: Import
 Import cancelled or no channels mapped.: Import abgebrochen oder keine Kanäle zugeordnet.
+Import Error: Importfehler
 Import error: {0}: Importfehler: {0}
 Import from URL: Von URL importieren
 Import JSON: JSON importieren
 Import JSON from URL: JSON von URL importieren
 Import Local: Lokal importieren
+Imported {0} channels from code.: {0} Kanäle aus Code importiert.
 Imported {0} channels from JSON via mapping.: {0} Kanäle aus JSON per Mapping importiert.
 Imported {0} channels from URL.: {0} Kanäle von URL importiert.
 In Both: In Beiden
@@ -181,6 +194,7 @@ Invalid JSON: {0}: Ungültiger JSON: {0}
 Invalid playlist URL.: Ungültige Playlist-URL.
 Invalid URL.: Ungültige URL.
 Json: Json
+JSON parsing error: {0}: JSON-Parsing-Fehler: {0}
 JSON Property: JSON-Eigenschaft
 Ko-fi: Kaffee
 Language: Sprache
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Laden Sie die Playlist-Datei (M3U/JSON) von Ihrem Computer
 Loaded: Geladen
 Loaded {0} channels from JSON file via mapping.: {0} Kanäle aus der JSON-Datei über Mapping geladen.
-Loaded {0} channels from JSON file.: {0} Kanäle aus JSON-Datei geladen.
 Loaded {0} channels from JSON URL.: {0} Kanäle von JSON-URL geladen.
 Loaded {0} channels from M3U file.: {0} Kanäle aus der M3U-Datei geladen.
 Loaded {0} channels from M3U URL.: {0} Kanäle von der M3U-URL geladen.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Logos-Übereinstimmungsschwelle
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logos-Repository – Wählen Sie Besitzer/Repository/Pfad (Standard OwnerPlugins/Logos).
 Logos Source: Logos-Quelle
 Logos Subfolder: Unterordner „Logos“.
+M3U parsing error: {0}: M3U-Parsing-Fehler: {0}
 Map JSON properties to channel fields:: Ordnen Sie JSON-Eigenschaften Kanalfeldern zu:
 Mapping saved for future imports of this file.: Zuordnung für zukünftige Importe dieser Datei gespeichert.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Übereinstimmungsschwellenwerte – Legen Sie die Fuzzy-Match-Empfindlichkeit für EPG und Logos fest.
+Mini Player: Mini-Player
 Move to Group: In die Gruppe verschieben
 Moved: Verschoben
 Name: Name
@@ -228,14 +243,18 @@ Next: Nächste
 Next ▶: Weiter ▶
 No .m3u files found on GitHub repository.: Im GitHub-Repository wurden keine .m3u-Dateien gefunden.
 No cache folder found.: Kein Cache-Ordner gefunden.
+No channel selected: Kein Kanal ausgewählt
 No channels could be mapped or import cancelled.: Es konnten keine Kanäle zugeordnet werden oder der Import wurde abgebrochen.
 No channels could be mapped. Check your mapping rules.: Es konnten keine Kanäle zugeordnet werden. Überprüfen Sie Ihre Zuordnungsregeln.
+No channels found in JSON.: Keine Kanäle in JSON gefunden.
+No channels found in M3U.: Keine Kanäle in M3U gefunden.
 No channels loaded from JSON URL.: Keine Kanäle von der JSON-URL geladen.
 No channels loaded from M3U URL.: Keine Kanäle von der M3U-URL geladen.
 No channels loaded from M3U.: Keine Kanäle von M3U geladen.
 No channels loaded.: Keine Kanäle geladen.
 No channels mapped: Keine Kanäle zugeordnet
 No channels selected.: Keine Kanäle ausgewählt.
+No channels to import.: Keine Kanäle zum Importieren.
 No duplicate URLs found.: Keine doppelten URLs gefunden.
 No EPG data: Keine EPG-Daten
 No EPG information available for this channel.: Für diesen Kanal sind keine EPG-Informationen verfügbar.
@@ -245,6 +264,8 @@ No favorite channels to export.: Keine Lieblingskanäle zum Exportieren.
 No missing channels to export.: Keine fehlenden Kanäle zum Exportieren.
 No playlist found: Keine Playlist gefunden
 No second playlist loaded.: Keine zweite Playlist geladen.
+No stream URL available for this channel.: Für diesen Kanal ist keine Stream-URL verfügbar.
+No text to import.: Kein Text zum Importieren.
 No updates available.: Keine Updates verfügbar.
 Normal speed (1x): Normale Geschwindigkeit (1x)
 Not connected to the box.: Nicht mit der Box verbunden.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Live-Stream anhalten/fortsetzen
 Paused: Angehalten
 PayPal: PayPal
 Picture-in-Picture mode: Bild-in-Bild-Modus
+Play/Pause: Wiedergabe/Pause
 Player Controls: Spielersteuerung
+Playing: Spielen
 Playlist & Groups: Playlist und Gruppen
 Playlist Comparison: Playlist-Vergleich
 Playlist Editor: Playlist-Editor
@@ -272,10 +295,12 @@ Please select a program first.: Bitte wählen Sie zunächst ein Programm aus.
 Preview (first 5 channels): Vorschau (erste 5 Kanäle)
 Preview error: {0}: Vorschaufehler: {0}
 Program Details: Programmdetails
+Ready: Bereit
 Ready.: Bereit.
 Recent: Jüngste
 Recent files – quick access to last 5 opened playlists.: Zuletzt verwendete Dateien – schneller Zugriff auf die letzten 5 geöffneten Wiedergabelisten.
 Recent playlists: Aktuelle Playlists
+Refresh Code: Code aktualisieren
 Refresh EPG: EPG aktualisieren
 Refresh EPG List: EPG-Liste aktualisieren
 Refresh from GitHub: Von GitHub aktualisieren
@@ -301,6 +326,7 @@ Search channels by name: Suchen Sie nach Kanälen nach Namen
 Search channels...: Kanäle durchsuchen...
 sec: Sek
 Second playlist loaded: {0} channels: Zweite Playlist geladen: {0} Kanäle
+Select a channel to play.: Wählen Sie einen Kanal zum Abspielen aus.
 Select a playlist first.: Wählen Sie zunächst eine Playlist aus.
 Select target group:: Zielgruppe auswählen:
 Select Theme: Wählen Sie Thema aus
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Start
 Status: Status
 Stop: Stoppen
+Stopped: Angehalten
 Stream URL: Stream-URL
 Stream URLs: Stream-URLs
 Success: Erfolg
@@ -342,7 +369,9 @@ TV Guide (EPG): TV-Guide (EPG)
 TvgId: TvgId
 Type channel name to filter: Geben Sie den zu filternden Kanalnamen ein
 UI: MaterialDesignThemes.Wpf: Benutzeroberfläche: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Format kann nicht automatisch erkannt werden. Bitte wählen Sie JSON oder M3U aus der Dropdown-Liste aus und versuchen Sie es erneut.
 Unable to find version in remote project file.: Die Version konnte in der Remote-Projektdatei nicht gefunden werden.
+Unsupported format. Please select JSON or M3U.: Nicht unterstütztes Format. Bitte wählen Sie JSON oder M3U.
 Update: Aktualisieren
 Update complete. Restarting...: Update abgeschlossen. Neustart...
 Update Error: Update-Fehler

@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Kecepatan pemutaran: tombol 0,5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Urutkan kolom mana pun dengan mengklik header; gunakan 'Reset Pesanan' untuk kembali ke pesanan awal.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: menjeda streaming langsung; seret penggeser untuk mencari kembali; tekan 'Langsung' untuk kembali.
+▶ Play: ▶ Mainkan
 ◀ Previous: ◀ Sebelumnya
 16 colour themes + Light/Dark variants.: 16 tema warna + varian Terang/Gelap.
 A new version is available. Do you want to update now?: Versi baru telah tersedia. Apakah Anda ingin memperbarui sekarang?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Sesuaikan ukuran buffer (1-10 detik)
 Advanced IDs: ID lanjutan
 Application status: Status aplikasi
 Apply: Menerapkan
+Apply / Import: Terapkan / Impor
 Apply changes: Terapkan perubahan
 Apply Filters: Terapkan Filter
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Apakah Anda yakin ingin memuat ulang GUI Enigma2?\n\nAntarmuka akan dimulai ulang (layar hitam selama beberapa detik).
@@ -46,8 +48,10 @@ Cannot open browser: Tidak dapat membuka peramban
 Category: Kategori
 Changelog: log perubahan
 Channel Details: Detail Saluran
+Channel Down: Saluran Bawah
 Channel Info: Info Saluran
 Channel Name: Nama Saluran
+Channel Up: Saluran Atas
 channels from: saluran dari
 channels from JSON: saluran dari JSON
 channels from JSON URL: saluran dari URL JSON
@@ -61,6 +65,8 @@ Clear Filters: Hapus Filter
 Clear search: Hapus pencarian
 Click for details: Klik untuk detailnya
 Close: Menutup
+Code: Kode
+Code copied to clipboard.: Kode disalin ke papan klip.
 Command name:: Nama perintah:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunitas & pengujian: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: Membandingkan
@@ -75,6 +81,7 @@ Confirm Reload: Konfirmasi Muat Ulang
 Connect: Menghubungkan
 Connected: Terhubung
 Copied: Disalin
+Copy: Menyalin
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Negara
 Credits: Kredit
@@ -141,6 +148,7 @@ Export OK: Ekspor Oke
 Export only favorite channels to a new M3U file: Ekspor hanya saluran favorit ke file M3U baru
 Export results as JSON or M3U – export missing channels or all channels.: Ekspor hasil sebagai JSON atau M3U – ekspor saluran yang hilang atau semua saluran.
 Export selected: Ekspor dipilih
+Export Selected: Ekspor yang Dipilih
 Exported: Diekspor
 Exported {0} channels to {1}: Mengekspor {0} saluran ke {1}
 Extracting update...: Mengekstrak pembaruan...
@@ -154,11 +162,14 @@ Fetch Logos: Ambil Logo
 File {0} already exists. Overwrite?: Berkas {0} sudah ada. Timpa?
 File exists: Berkas ada
 Filters: Filter
+Format Detection: Deteksi Format
+Fullscreen: Layar penuh
 Fullscreen (hide UI) - press ESC to exit: Layar penuh (sembunyikan UI) - tekan ESC untuk keluar
 Geo & Country: Geo & Negara
 GeoBlocked: Diblokir secara geografis
 GitHub Error: Kesalahan GitHub
 Go back to live: Kembali untuk hidup
+Grid: jaringan
 Group: Kelompok
 Half speed (0.5x): Setengah kecepatan (0,5x)
 Help: Membantu
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): Pemutaran HLS: hls.js (lisensi MIT)
 Image: Gambar
 Import: Impor
 Import cancelled or no channels mapped.: Impor dibatalkan atau tidak ada saluran yang dipetakan.
+Import Error: Kesalahan Impor
 Import error: {0}: Kesalahan impor: {0}
 Import from URL: Impor dari URL
 Import JSON: Impor JSON
 Import JSON from URL: Impor JSON dari URL
 Import Local: Impor Lokal
+Imported {0} channels from code.: Mengimpor {0} saluran dari kode.
 Imported {0} channels from JSON via mapping.: Mengimpor {0} saluran dari JSON melalui pemetaan.
 Imported {0} channels from URL.: Mengimpor {0} saluran dari URL.
 In Both: Di Keduanya
@@ -181,6 +194,7 @@ Invalid JSON: {0}: JSON tidak valid: {0}
 Invalid playlist URL.: URL daftar putar tidak valid.
 Invalid URL.: URL tidak valid.
 Json: Jason
+JSON parsing error: {0}: Kesalahan penguraian JSON: {0}
 JSON Property: Properti JSON
 Ko-fi: Kopi
 Language: Bahasa
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Muat file daftar putar (M3U/JSON) dari komputer Anda
 Loaded: Sarat
 Loaded {0} channels from JSON file via mapping.: Memuat {0} saluran dari file JSON melalui pemetaan.
-Loaded {0} channels from JSON file.: Memuat {0} saluran dari file JSON.
 Loaded {0} channels from JSON URL.: Memuat {0} saluran dari URL JSON.
 Loaded {0} channels from M3U file.: Memuat {0} saluran dari file M3U.
 Loaded {0} channels from M3U URL.: Memuat {0} saluran dari URL M3U.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Ambang Pencocokan Logo
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Repositori logo – pilih pemilik/repo/jalur (default OwnerPlugins/logos).
 Logos Source: Sumber Logo
 Logos Subfolder: Subfolder Logo
+M3U parsing error: {0}: Kesalahan penguraian M3U: {0}
 Map JSON properties to channel fields:: Petakan properti JSON ke bidang saluran:
 Mapping saved for future imports of this file.: Pemetaan disimpan untuk impor file ini di masa mendatang.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Ambang batas pencocokan – mengatur sensitivitas pencocokan fuzzy untuk EPG dan logo.
+Mini Player: Pemutar Mini
 Move to Group: Pindah ke Grup
 Moved: Terharu
 Name: Nama
@@ -228,14 +243,18 @@ Next: Berikutnya
 Next ▶: Selanjutnya ▶
 No .m3u files found on GitHub repository.: Tidak ada file .m3u yang ditemukan di repositori GitHub.
 No cache folder found.: Tidak ditemukan folder cache.
+No channel selected: Tidak ada saluran yang dipilih
 No channels could be mapped or import cancelled.: Tidak ada saluran yang dapat dipetakan atau impor dibatalkan.
 No channels could be mapped. Check your mapping rules.: Tidak ada saluran yang dapat dipetakan. Periksa aturan pemetaan Anda.
+No channels found in JSON.: Tidak ada saluran yang ditemukan di JSON.
+No channels found in M3U.: Tidak ada saluran yang ditemukan di M3U.
 No channels loaded from JSON URL.: Tidak ada saluran yang dimuat dari URL JSON.
 No channels loaded from M3U URL.: Tidak ada saluran yang dimuat dari URL M3U.
 No channels loaded from M3U.: Tidak ada saluran yang dimuat dari M3U.
 No channels loaded.: Tidak ada saluran yang dimuat.
 No channels mapped: Tidak ada saluran yang dipetakan
 No channels selected.: Tidak ada saluran yang dipilih.
+No channels to import.: Tidak ada saluran untuk diimpor.
 No duplicate URLs found.: Tidak ditemukan URL duplikat.
 No EPG data: Tidak ada data EPG
 No EPG information available for this channel.: Tidak ada informasi EPG yang tersedia untuk saluran ini.
@@ -245,6 +264,8 @@ No favorite channels to export.: Tidak ada saluran favorit untuk diekspor.
 No missing channels to export.: Tidak ada saluran yang hilang untuk diekspor.
 No playlist found: Daftar putar tidak ditemukan
 No second playlist loaded.: Tidak ada playlist kedua yang dimuat.
+No stream URL available for this channel.: Tidak ada URL streaming yang tersedia untuk saluran ini.
+No text to import.: Tidak ada teks untuk diimpor.
 No updates available.: Tidak ada pembaruan yang tersedia.
 Normal speed (1x): Kecepatan normal (1x)
 Not connected to the box.: Tidak terhubung ke kotak.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Jeda/Lanjutkan streaming langsung
 Paused: Dijeda
 PayPal: PayPal
 Picture-in-Picture mode: Mode Gambar-dalam-Gambar
+Play/Pause: Putar/Jeda
 Player Controls: Kontrol Pemain
+Playing: Bermain
 Playlist & Groups: Daftar Putar & Grup
 Playlist Comparison: Perbandingan Daftar Putar
 Playlist Editor: Editor Daftar Putar
@@ -272,10 +295,12 @@ Please select a program first.: Silakan pilih program terlebih dahulu.
 Preview (first 5 channels): Pratinjau (5 saluran pertama)
 Preview error: {0}: Kesalahan pratinjau: {0}
 Program Details: Detail Program
+Ready: Siap
 Ready.: Siap.
 Recent: Terkini
 Recent files – quick access to last 5 opened playlists.: File terbaru – akses cepat ke 5 playlist terakhir yang dibuka.
 Recent playlists: Daftar putar terbaru
+Refresh Code: Segarkan Kode
 Refresh EPG: Segarkan EPG
 Refresh EPG List: Segarkan Daftar EPG
 Refresh from GitHub: Segarkan dari GitHub
@@ -301,6 +326,7 @@ Search channels by name: Cari saluran berdasarkan nama
 Search channels...: Cari saluran...
 sec: detik
 Second playlist loaded: {0} channels: Daftar putar kedua dimuat: {0} saluran
+Select a channel to play.: Pilih saluran untuk diputar.
 Select a playlist first.: Pilih daftar putar terlebih dahulu.
 Select target group:: Pilih kelompok sasaran:
 Select Theme: Pilih Tema
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Awal
 Status: Status
 Stop: Berhenti
+Stopped: Berhenti
 Stream URL: URL streaming
 Stream URLs: URL streaming
 Success: Kesuksesan
@@ -342,7 +369,9 @@ TV Guide (EPG): Panduan TV (EPG)
 TvgId: TVgId
 Type channel name to filter: Ketikkan nama saluran untuk difilter
 UI: MaterialDesignThemes.Wpf: UI: Tema Desain Material.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Tidak dapat mendeteksi format secara otomatis. Silakan pilih JSON atau M3U dari dropdown dan coba lagi.
 Unable to find version in remote project file.: Tidak dapat menemukan versi dalam file proyek jarak jauh.
+Unsupported format. Please select JSON or M3U.: Formatnya tidak didukung. Silakan pilih JSON atau M3U.
 Update: Memperbarui
 Update complete. Restarting...: Pembaruan selesai. Memulai ulang...
 Update Error: Kesalahan Pembaruan

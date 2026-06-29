@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Rýchlosť prehrávania: 0,5x, 1x, 2x tlačidlá.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Zoradiť ľubovoľný stĺpec kliknutím na hlavičku; pomocou „Obnoviť objednávku“ sa vrátite k pôvodnej objednávke.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: pozastavenie živého vysielania; potiahnutím posúvača prejdete späť; pre návrat stlačte 'Live'.
+▶ Play: ▶ Hrať
 ◀ Previous: ◀ Predchádzajúce
 16 colour themes + Light/Dark variants.: 16 farebných motívov + svetlé/tmavé varianty.
 A new version is available. Do you want to update now?: K dispozícii je nová verzia. Chcete aktualizovať teraz?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Úprava veľkosti vyrovnávacej pamäte (1 �
 Advanced IDs: Rozšírené ID
 Application status: Stav aplikácie
 Apply: Použiť
+Apply / Import: Použiť / Importovať
 Apply changes: Použiť zmeny
 Apply Filters: Použiť filtre
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ste si istý, že chcete znova načítať GUI Enigmy?\n\nRozhranie sa reštartuje (na pár sekúnd čierna obrazovka).
@@ -46,8 +48,10 @@ Cannot open browser: Nedá sa otvoriť prehliadač
 Category: Kategória
 Changelog: Denník zmien
 Channel Details: Podrobnosti kanála
+Channel Down: Channel Down
 Channel Info: Informácie o kanáli
 Channel Name: Názov kanála
+Channel Up: Channel Up
 channels from: kanály z
 channels from JSON: kanály z JSON
 channels from JSON URL: kanály z adresy URL JSON
@@ -61,6 +65,8 @@ Clear Filters: Vymazať filtre
 Clear search: Vymazať vyhľadávanie
 Click for details: Kliknutím zobrazíte podrobnosti
 Close: Zavrieť
+Code: kód
+Code copied to clipboard.: Kód bol skopírovaný do schránky.
 Command name:: Názov príkazu:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunita a testovanie: CorvoBoys (corvoboys.org) a LinuxSat-Support.com
 Compare: Porovnaj
@@ -75,6 +81,7 @@ Confirm Reload: Potvrďte opätovné načítanie
 Connect: Pripojte sa
 Connected: Pripojené
 Copied: Skopírované
+Copy: Kopírovať
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Krajina
 Credits: Kredity
@@ -141,6 +148,7 @@ Export OK: Export OK
 Export only favorite channels to a new M3U file: Exportujte iba obľúbené kanály do nového súboru M3U
 Export results as JSON or M3U – export missing channels or all channels.: Exportovať výsledky ako JSON alebo M3U – exportovať chýbajúce kanály alebo všetky kanály.
 Export selected: Export je vybratý
+Export Selected: Exportovať vybraté
 Exported: Exportované
 Exported {0} channels to {1}: Počet exportovaných kanálov: {0} do {1}
 Extracting update...: Extrahuje sa aktualizácia...
@@ -154,11 +162,14 @@ Fetch Logos: Načítať logá
 File {0} already exists. Overwrite?: Súbor {0} už existuje. Prepísať?
 File exists: Súbor existuje
 Filters: Filtre
+Format Detection: Detekcia formátu
+Fullscreen: Celá obrazovka
 Fullscreen (hide UI) - press ESC to exit: Celá obrazovka (skryť používateľské rozhranie) – pre ukončenie stlačte ESC
 Geo & Country: Geografické údaje a krajina
 GeoBlocked: GeoBlocked
 GitHub Error: Chyba GitHub
 Go back to live: Vráťte sa žiť
+Grid: Mriežka
 Group: Skupina
 Half speed (0.5x): Polovičná rýchlosť (0,5x)
 Help: Pomoc
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): Prehrávanie HLS: hls.js (licencia MIT)
 Image: Obrázok
 Import: Importovať
 Import cancelled or no channels mapped.: Import bol zrušený alebo nie sú namapované žiadne kanály.
+Import Error: Chyba importu
 Import error: {0}: Chyba importu: {0}
 Import from URL: Importovať z adresy URL
 Import JSON: Importujte JSON
 Import JSON from URL: Importujte JSON z adresy URL
 Import Local: Importovať miestne
+Imported {0} channels from code.: Počet importovaných kanálov z kódu: {0}.
 Imported {0} channels from JSON via mapping.: Importované kanály ({0}) z JSON prostredníctvom mapovania.
 Imported {0} channels from URL.: Počet importovaných kanálov z adresy URL: {0}.
 In Both: V oboch
@@ -181,6 +194,7 @@ Invalid JSON: {0}: Neplatný JSON: {0}
 Invalid playlist URL.: Neplatná adresa URL zoznamu videí.
 Invalid URL.: Neplatná adresa URL.
 Json: Json
+JSON parsing error: {0}: Chyba analýzy JSON: {0}
 JSON Property: Vlastnosť JSON
 Ko-fi: Káva
 Language: Jazyk
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Načítajte súbor zoznamu skladieb (M3U/JSON) z počítača
 Loaded: Nabité
 Loaded {0} channels from JSON file via mapping.: Načítalo sa {0} kanálov zo súboru JSON prostredníctvom mapovania.
-Loaded {0} channels from JSON file.: Načítalo sa {0} kanálov zo súboru JSON.
 Loaded {0} channels from JSON URL.: Načítalo sa {0} kanálov z adresy URL JSON.
 Loaded {0} channels from M3U file.: Načítalo sa {0} kanálov zo súboru M3U.
 Loaded {0} channels from M3U URL.: Počet načítaných kanálov z adresy URL M3U: {0}.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Logos Matching Threshold
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Úložisko log – vyberte vlastníka/úložisko/cestu (predvolené OwnerPlugins/logá).
 Logos Source: Zdroj loga
 Logos Subfolder: Podpriečinok Logos
+M3U parsing error: {0}: Chyba analýzy M3U: {0}
 Map JSON properties to channel fields:: Mapujte vlastnosti JSON na polia kanála:
 Mapping saved for future imports of this file.: Mapovanie uložené pre budúce importy tohto súboru.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Prahové hodnoty zhody – nastavte citlivosť fuzzy zhody pre EPG a logá.
+Mini Player: Mini prehrávač
 Move to Group: Presunúť do skupiny
 Moved: Presunuté
 Name: Meno
@@ -228,14 +243,18 @@ Next: Ďalej
 Next ▶: Ďalej ▶
 No .m3u files found on GitHub repository.: V úložisku GitHub sa nenašli žiadne súbory .m3u.
 No cache folder found.: Nenašiel sa žiadny priečinok vyrovnávacej pamäte.
+No channel selected: Nie je vybratý žiadny kanál
 No channels could be mapped or import cancelled.: Nebolo možné zmapovať žiadne kanály alebo zrušiť import.
 No channels could be mapped. Check your mapping rules.: Nepodarilo sa namapovať žiadne kanály. Skontrolujte svoje pravidlá mapovania.
+No channels found in JSON.: V JSON sa nenašli žiadne kanály.
+No channels found in M3U.: V M3U sa nenašli žiadne kanály.
 No channels loaded from JSON URL.: Z adresy URL JSON sa nenačítali žiadne kanály.
 No channels loaded from M3U URL.: Z adresy URL M3U sa nenačítali žiadne kanály.
 No channels loaded from M3U.: Žiadne kanály načítané z M3U.
 No channels loaded.: Nie sú načítané žiadne kanály.
 No channels mapped: Nie sú namapované žiadne kanály
 No channels selected.: Nie sú vybraté žiadne kanály.
+No channels to import.: Žiadne kanály na import.
 No duplicate URLs found.: Nenašli sa žiadne duplicitné adresy URL.
 No EPG data: Žiadne údaje EPG
 No EPG information available for this channel.: Pre tento kanál nie sú k dispozícii žiadne informácie EPG.
@@ -245,6 +264,8 @@ No favorite channels to export.: Žiadne obľúbené kanály na export.
 No missing channels to export.: Žiadne chýbajúce kanály na export.
 No playlist found: Nenašli sa žiadne zoznamy skladieb
 No second playlist loaded.: Nie je načítaný žiadny druhý zoznam skladieb.
+No stream URL available for this channel.: Pre tento kanál nie je k dispozícii žiadna adresa URL streamu.
+No text to import.: Žiadny text na import.
 No updates available.: Nie sú k dispozícii žiadne aktualizácie.
 Normal speed (1x): Normálna rýchlosť (1x)
 Not connected to the box.: Nie je pripojený k boxu.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Pozastaviť/obnoviť priamy prenos
 Paused: Pozastavené
 PayPal: PayPal
 Picture-in-Picture mode: Režim obrazu v obraze
+Play/Pause: Prehrať/Pozastaviť
 Player Controls: Ovládanie prehrávača
+Playing: Prehrávanie
 Playlist & Groups: Zoznam skladieb a skupiny
 Playlist Comparison: Porovnanie zoznamov skladieb
 Playlist Editor: Editor zoznamu skladieb
@@ -272,10 +295,12 @@ Please select a program first.: Najprv vyberte program.
 Preview (first 5 channels): Ukážka (prvých 5 kanálov)
 Preview error: {0}: Chyba ukážky: {0}
 Program Details: Podrobnosti o programe
+Ready: Pripravený
 Ready.: Pripravený.
 Recent: Nedávne
 Recent files – quick access to last 5 opened playlists.: Nedávne súbory – rýchly prístup k posledným 5 otvoreným zoznamom skladieb.
 Recent playlists: Nedávne zoznamy skladieb
+Refresh Code: Obnoviť kód
 Refresh EPG: Obnoviť EPG
 Refresh EPG List: Obnoviť zoznam EPG
 Refresh from GitHub: Obnoviť z GitHub
@@ -301,6 +326,7 @@ Search channels by name: Vyhľadajte kanály podľa názvu
 Search channels...: Hľadať kanály...
 sec: sek
 Second playlist loaded: {0} channels: Druhý načítaný zoznam skladieb: {0} kanálov
+Select a channel to play.: Vyberte kanál, ktorý chcete prehrať.
 Select a playlist first.: Najprv vyberte zoznam skladieb.
 Select target group:: Vyberte cieľovú skupinu:
 Select Theme: Vyberte tému
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Štart
 Status: Stav
 Stop: Stop
+Stopped: Zastavené
 Stream URL: Webová adresa streamu
 Stream URLs: Streamovať adresy URL
 Success: Úspech
@@ -342,7 +369,9 @@ TV Guide (EPG): TV sprievodca (EPG)
 TvgId: TvgId
 Type channel name to filter: Zadajte názov kanála, ktorý chcete filtrovať
 UI: MaterialDesignThemes.Wpf: Používateľské rozhranie: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Nedá sa automaticky rozpoznať formát. V rozbaľovacej ponuke vyberte JSON alebo M3U a skúste to znova.
 Unable to find version in remote project file.: Nie je možné nájsť verziu vo vzdialenom súbore projektu.
+Unsupported format. Please select JSON or M3U.: Nepodporovaný formát. Vyberte JSON alebo M3U.
 Update: Aktualizovať
 Update complete. Restarting...: Aktualizácia dokončená. Reštartuje sa...
 Update Error: Chyba aktualizácie

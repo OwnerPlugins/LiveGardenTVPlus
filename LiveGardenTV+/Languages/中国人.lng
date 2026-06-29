@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • 播放速度：0.5x、1x、2x 按钮。
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • 通过单击标题对任何列进行排序；使用“重置订单”恢复到原始订单。
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • 时移：暂停直播；拖动滑块向后查找；按“实时”返回。
+▶ Play: ▶ 玩
 ◀ Previous: ◀ 上一页
 16 colour themes + Light/Dark variants.: 16 种颜色主题 + 浅色/深色变体。
 A new version is available. Do you want to update now?: 有新版本可用。您想现在更新吗？
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): 调整缓冲区大小（1-10秒）
 Advanced IDs: 高级 ID
 Application status: 申请状态
 Apply: 申请
+Apply / Import: 申请/导入
 Apply changes: 应用更改
 Apply Filters: 应用过滤器
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: 您确定要重新加载 Enigma2 GUI 吗？\n\n界面将重新启动（黑屏几秒钟）。
@@ -46,8 +48,10 @@ Cannot open browser: 无法打开浏览器
 Category: 类别
 Changelog: 变更日志
 Channel Details: 频道详情
+Channel Down: 向下频道
 Channel Info: 频道信息
 Channel Name: 频道名称
+Channel Up: 频道向上
 channels from: 频道来自
 channels from JSON: 来自 JSON 的通道
 channels from JSON URL: 来自 JSON URL 的频道
@@ -61,6 +65,8 @@ Clear Filters: 清除过滤器
 Clear search: 清除搜索
 Click for details: 点击查看详情
 Close: 关闭
+Code: 代码
+Code copied to clipboard.: 代码已复制到剪贴板。
 Command name:: 命令名称：
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: 社区和测试：CorvoBoys (corvoboys.org) 和 LinuxSat-Support.com
 Compare: 比较
@@ -75,6 +81,7 @@ Confirm Reload: 确认重新加载
 Connect: 连接
 Connected: 已连接
 Copied: 已复制
+Copy: 复制
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: 国家
 Credits: 制作人员
@@ -141,6 +148,7 @@ Export OK: 导出确定
 Export only favorite channels to a new M3U file: 仅将喜爱的频道导出到新的 M3U 文件
 Export results as JSON or M3U – export missing channels or all channels.: 将结果导出为 JSON 或 M3U – 导出缺失通道或所有通道。
 Export selected: 导出选定的
+Export Selected: 导出选定的内容
 Exported: 出口
 Exported {0} channels to {1}: 已将 {0} 个频道导出到 {1}
 Extracting update...: 正在提取更新...
@@ -154,11 +162,14 @@ Fetch Logos: 获取徽标
 File {0} already exists. Overwrite?: 文件 {0} 已存在。覆盖？
 File exists: 文件存在
 Filters: 过滤器
+Format Detection: 格式检测
+Fullscreen: 全屏
 Fullscreen (hide UI) - press ESC to exit: 全屏（隐藏 UI）- 按 ESC 退出
 Geo & Country: 地理和国家
 GeoBlocked: 地理封锁
 GitHub Error: GitHub 错误
 Go back to live: 回去住
+Grid: 网格
 Group: 团体
 Half speed (0.5x): 半速 (0.5x)
 Help: 帮助
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS 播放：hls.js（MIT 许可证）
 Image: 图像
 Import: 进口
 Import cancelled or no channels mapped.: 导入已取消或未映射通道。
+Import Error: 导入错误
 Import error: {0}: 导入错误：{0}
 Import from URL: 从 URL 导入
 Import JSON: 导入 JSON
 Import JSON from URL: 从 URL 导入 JSON
 Import Local: 导入本地
+Imported {0} channels from code.: 从代码导入了 {0} 个频道。
 Imported {0} channels from JSON via mapping.: 通过映射从 JSON 导入了 {0} 个频道。
 Imported {0} channels from URL.: 已从 URL 导入 {0} 个频道。
 In Both: 在两者中
@@ -181,6 +194,7 @@ Invalid JSON: {0}: JSON 无效：{0}
 Invalid playlist URL.: 播放列表 URL 无效。
 Invalid URL.: 无效网址。
 Json: 杰森
+JSON parsing error: {0}: JSON 解析错误：{0}
 JSON Property: JSON 属性
 Ko-fi: 咖啡
 Language: 语言
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: 从您的计算机加载播放列表文件 (M3U/JSON)
 Loaded: 已加载
 Loaded {0} channels from JSON file via mapping.: 已通过映射从 JSON 文件加载 {0} 个频道。
-Loaded {0} channels from JSON file.: 已从 JSON 文件加载 {0} 个频道。
 Loaded {0} channels from JSON URL.: 已从 JSON URL 加载 {0} 个频道。
 Loaded {0} channels from M3U file.: 已从 M3U 文件加载 {0} 个频道。
 Loaded {0} channels from M3U URL.: 已从 M3U URL 加载 {0} 个频道。
@@ -215,9 +228,11 @@ Logos Matching Threshold: 徽标匹配阈值
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: 徽标存储库 – 选择所有者/存储库/路径（默认 OwnerPlugins/徽标）。
 Logos Source: 标志来源
 Logos Subfolder: 徽标子文件夹
+M3U parsing error: {0}: M3U 解析错误：{0}
 Map JSON properties to channel fields:: 将 JSON 属性映射到通道字段：
 Mapping saved for future imports of this file.: 保存映射以供将来导入该文件。
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: 匹配阈值 – 设置 EPG 和徽标的模糊匹配敏感度。
+Mini Player: 迷你播放器
 Move to Group: 移至组
 Moved: 搬家了
 Name: 姓名
@@ -228,14 +243,18 @@ Next: 下一个
 Next ▶: 下一页 ▶
 No .m3u files found on GitHub repository.: 在 GitHub 存储库上找不到 .m3u 文件。
 No cache folder found.: 未找到缓存文件夹。
+No channel selected: 未选择频道
 No channels could be mapped or import cancelled.: 无法映射任何通道或取消导入。
 No channels could be mapped. Check your mapping rules.: 无法映射任何频道。检查您的映射规则。
+No channels found in JSON.: 在 JSON 中找不到频道。
+No channels found in M3U.: M3U 中找不到频道。
 No channels loaded from JSON URL.: 没有从 JSON URL 加载频道。
 No channels loaded from M3U URL.: 没有从 M3U URL 加载频道。
 No channels loaded from M3U.: 没有从 M3U 加载频道。
 No channels loaded.: 未加载频道。
 No channels mapped: 没有映射频道
 No channels selected.: 未选择频道。
+No channels to import.: 没有渠道导入。
 No duplicate URLs found.: 未发现重复的 URL。
 No EPG data: 无 EPG 数据
 No EPG information available for this channel.: 该频道没有可用的 EPG 信息。
@@ -245,6 +264,8 @@ No favorite channels to export.: 没有可导出的喜爱频道。
 No missing channels to export.: 不缺少导出渠道。
 No playlist found: 未找到播放列表
 No second playlist loaded.: 未加载第二个播放列表。
+No stream URL available for this channel.: 该频道没有可用的流 URL。
+No text to import.: 没有要导入的文本。
 No updates available.: 没有可用的更新。
 Normal speed (1x): 正常速度 (1x)
 Not connected to the box.: 未连接到盒子。
@@ -261,7 +282,9 @@ Pause/Resume live stream: 暂停/恢复直播
 Paused: 已暂停
 PayPal: 贝宝
 Picture-in-Picture mode: 画中画模式
+Play/Pause: 播放/暂停
 Player Controls: 播放器控制
+Playing: 演奏
 Playlist & Groups: 播放列表和组
 Playlist Comparison: 播放列表比较
 Playlist Editor: 播放列表编辑器
@@ -272,10 +295,12 @@ Please select a program first.: 请先选择一个程序。
 Preview (first 5 channels): 预览（前 5 个频道）
 Preview error: {0}: 预览错误：{0}
 Program Details: 计划详情
+Ready: 准备好
 Ready.: 准备好。
 Recent: 最近的
 Recent files – quick access to last 5 opened playlists.: 最近的文件 – 快速访问最近打开的 5 个播放列表。
 Recent playlists: 最近的播放列表
+Refresh Code: 刷新代码
 Refresh EPG: 刷新电子节目表
 Refresh EPG List: 刷新EPG列表
 Refresh from GitHub: 从 GitHub 刷新
@@ -301,6 +326,7 @@ Search channels by name: 按名称搜索频道
 Search channels...: 搜索频道...
 sec: 秒
 Second playlist loaded: {0} channels: 已加载第二个播放列表：{0} 个频道
+Select a channel to play.: 选择要播放的频道。
 Select a playlist first.: 首先选择一个播放列表。
 Select target group:: 选择目标群体：
 Select Theme: 选择主题
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: 开始
 Status: 地位
 Stop: 停止
+Stopped: 已停止
 Stream URL: 串流网址
 Stream URLs: 流媒体 URL
 Success: 成功
@@ -342,7 +369,9 @@ TV Guide (EPG): 电视指南 (EPG)
 TvgId: 电视标识符
 Type channel name to filter: 输入要过滤的频道名称
 UI: MaterialDesignThemes.Wpf: 用户界面：MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: 无法自动检测格式。请从下拉列表中选择 JSON 或 M3U，然后重试。
 Unable to find version in remote project file.: 无法在远程项目文件中找到版本。
+Unsupported format. Please select JSON or M3U.: 不支持的格式。请选择 JSON 或 M3U。
 Update: 更新
 Update complete. Restarting...: 更新完成。正在重新启动...
 Update Error: 更新错误

@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • د پلی بیک سرعت: 0.5x، 1x، 2x تڼۍ.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • د سرلیک په کلیک کولو سره هر کالم ترتیب کړئ؛ اصلي ترتیب ته د بیرته راستنیدو لپاره 'ری سیٹ آرډر' وکاروئ.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • مهال ویش: د ژوندی جریان مخه ونیسئ؛ د بیرته لټولو لپاره سلائیڈر کش کړئ؛ د بیرته راستنیدو لپاره 'ژوندی' فشار ورکړئ.
+▶ Play: ▶ لوبه کول
 ◀ Previous: ◀ پخوانۍ
 16 colour themes + Light/Dark variants.: د 16 رنګ موضوعات + رڼا / تیاره ډولونه.
 A new version is available. Do you want to update now?: یوه نوې نسخه شتون لري. ایا تاسو اوس تازه کول غواړئ؟
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): د بفر اندازه تنظیم کړئ (1-1
 Advanced IDs: پرمختللي IDs
 Application status: د غوښتنلیک حالت
 Apply: درخواست وکړئ
+Apply / Import: تطبیق / واردول
 Apply changes: بدلونونه پلي کړئ
 Apply Filters: فلټرونه پلي کړئ
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: ایا تاسو ډاډه یاست چې د Enigma2 GUI بیا پورته کول غواړئ؟\n\nانټرفیس به بیا پیل شي (د څو ثانیو لپاره تور سکرین).
@@ -46,8 +48,10 @@ Cannot open browser: براوزر نشي خلاصولی
 Category: کټګوري
 Changelog: بدلون
 Channel Details: د چینل تفصیلات
+Channel Down: چینل ښکته
 Channel Info: د چینل معلومات
 Channel Name: د چینل نوم
+Channel Up: چینل پورته کړئ
 channels from: له چینلونو څخه
 channels from JSON: د JSON څخه چینلونه
 channels from JSON URL: د JSON URL څخه چینلونه
@@ -61,6 +65,8 @@ Clear Filters: فلټرونه پاک کړئ
 Clear search: پاک لټون
 Click for details: د جزیاتو لپاره کلیک وکړئ
 Close: تړل
+Code: کوډ
+Code copied to clipboard.: کوډ کلپ بورډ ته کاپي شوی.
 Command name:: د قوماندې نوم:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ټولنه او ازموینه: CorvoBoys (corvoboys.org) او LinuxSat-Support.com
 Compare: پرتله کول
@@ -75,6 +81,7 @@ Confirm Reload: بیا پورته کول تایید کړئ
 Connect: نښلول
 Connected: نښلول شوی
 Copied: کاپي
+Copy: کاپي
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: هیواد
 Credits: کریډیټ
@@ -141,6 +148,7 @@ Export OK: سم صادر کړئ
 Export only favorite channels to a new M3U file: یوازې د خوښې چینلونه نوي M3U فایل ته صادر کړئ
 Export results as JSON or M3U – export missing channels or all channels.: پایلې د JSON یا M3U په توګه صادر کړئ - ورک شوي چینلونه یا ټول چینلونه صادر کړئ.
 Export selected: صادرول غوره شوي
+Export Selected: ټاکل شوی صادرات
 Exported: صادر شوي
 Exported {0} channels to {1}: صادر شوي {0} چینلونه {1} ته
 Extracting update...: تازه استخراج...
@@ -154,11 +162,14 @@ Fetch Logos: لوګو ترلاسه کړئ
 File {0} already exists. Overwrite?: دوتنې {0} لا دمخه شتون لري. بیا لیکل؟
 File exists: دوتنه شتون لري
 Filters: فلټرونه
+Format Detection: د بڼې کشف
+Fullscreen: بشپړ سکرین
 Fullscreen (hide UI) - press ESC to exit: بشپړ سکرین (UI پټ کړئ) - د وتلو لپاره ESC فشار ورکړئ
 Geo & Country: جیو او هیواد
 GeoBlocked: جیو بلاک شوی
 GitHub Error: د GitHub تېروتنه
 Go back to live: بیرته ژوند ته لاړ شه
+Grid: گرډ
 Group: ګروپ
 Half speed (0.5x): نیم سرعت (0.5x)
 Help: مرسته
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS پلے بیک: hls.js (MIT جواز)
 Image: انځور
 Import: واردول
 Import cancelled or no channels mapped.: واردات لغوه شوي یا هیڅ چینل نقشه شوی نه دی.
+Import Error: د واردولو تېروتنه
 Import error: {0}: د واردولو تېروتنه: {0}
 Import from URL: له URL څخه وارد کړئ
 Import JSON: JSON وارد کړئ
 Import JSON from URL: له URL څخه JSON وارد کړئ
 Import Local: محلي وارد کړئ
+Imported {0} channels from code.: د کوډ څخه {0} چینلونه وارد شوي.
 Imported {0} channels from JSON via mapping.: د نقشه کولو له لارې له JSON څخه {0} چینلونه وارد شوي.
 Imported {0} channels from URL.: له URL څخه {0} چینلونه وارد شوي.
 In Both: په دواړو کې
@@ -181,6 +194,7 @@ Invalid JSON: {0}: ناسم JSON: {0}
 Invalid playlist URL.: ناسم پلی لیست URL.
 Invalid URL.: ناسم URL.
 Json: Json
+JSON parsing error: {0}: د JSON تجزیه تېروتنه: {0}
 JSON Property: د JSON ملکیت
 Ko-fi: کافي
 Language: ژبه
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: د خپل کمپیوټر څخه د پلی لیست فایل (M3U/JSON) پورته کړئ
 Loaded: بار شوی
 Loaded {0} channels from JSON file via mapping.: د نقشه کولو له لارې د JSON فایل څخه {0} چینلونه پورته شوي.
-Loaded {0} channels from JSON file.: د JSON فایل څخه {0} چینلونه پورته شوي.
 Loaded {0} channels from JSON URL.: د JSON URL څخه {0} چینلونه پورته شوي.
 Loaded {0} channels from M3U file.: د M3U فایل څخه {0} چینلونه پورته شوي.
 Loaded {0} channels from M3U URL.: د M3U URL څخه {0} چینلونه پورته شوي.
@@ -215,9 +228,11 @@ Logos Matching Threshold: د لوګو سره سمون خوري
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: د لوګو ذخیره - مالک / ریپو / لاره غوره کړئ (ډیفالټ مالک پلګینز / لوګو).
 Logos Source: د لوګو سرچینه
 Logos Subfolder: د لوګو فرعي فولډر
+M3U parsing error: {0}: د M3U تجزیه تېروتنه: {0}
 Map JSON properties to channel fields:: د چینل ساحو ته د JSON ملکیتونه نقشه کړئ:
 Mapping saved for future imports of this file.: نقشه د دې فایل راتلونکي واردولو لپاره خوندي شوې.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: د میچ کولو حدونه - د EPG او لوګو لپاره فزي میچ حساسیت تنظیم کړئ.
+Mini Player: مینی پلیر
 Move to Group: ګروپ ته لاړ شئ
 Moved: حرکت وکړ
 Name: نوم
@@ -228,14 +243,18 @@ Next: بل
 Next ▶: بل ▶
 No .m3u files found on GitHub repository.: په GitHub ذخیره کې هیڅ .m3u فایلونه ندي موندل شوي.
 No cache folder found.: هیڅ کیچ فولډر ونه موندل شو.
+No channel selected: هیڅ چینل نه دی ټاکل شوی
 No channels could be mapped or import cancelled.: هیڅ چینلونه نقشه یا واردات لغوه کیدی نشي.
 No channels could be mapped. Check your mapping rules.: هیڅ چینلونه نقشه نشي کیدی. خپل د نقشه کولو قواعد چیک کړئ.
+No channels found in JSON.: په JSON کې هیڅ چینل ونه موندل شو.
+No channels found in M3U.: په M3U کې هیڅ چینل ونه موندل شو.
 No channels loaded from JSON URL.: د JSON URL څخه هیڅ چینل ندی پورته شوی.
 No channels loaded from M3U URL.: د M3U URL څخه هیڅ چینل ندی پورته شوی.
 No channels loaded from M3U.: د M3U څخه هیڅ چینل ندی پورته شوی.
 No channels loaded.: هیڅ چینل نه دی پورته شوی.
 No channels mapped: هیڅ چینل نقشه شوی نه دی
 No channels selected.: هیڅ چینل نه دی ټاکل شوی.
+No channels to import.: د واردولو لپاره هیڅ چینل نشته.
 No duplicate URLs found.: هیڅ نقل شوي URLs ونه موندل شول.
 No EPG data: د EPG ډاټا نشته
 No EPG information available for this channel.: د دې چینل لپاره د EPG هیڅ معلومات شتون نلري.
@@ -245,6 +264,8 @@ No favorite channels to export.: د صادرولو لپاره هیڅ غوره چ
 No missing channels to export.: د صادرولو لپاره هیڅ ورک چینل نشته.
 No playlist found: هیڅ پلی لیست ونه موندل شو
 No second playlist loaded.: هیڅ دوهم پلی لیست ندی پورته شوی.
+No stream URL available for this channel.: د دې چینل لپاره هیڅ جریان URL شتون نلري.
+No text to import.: د واردولو لپاره هیڅ متن نشته.
 No updates available.: هیڅ تازه معلومات شتون نلري.
 Normal speed (1x): نورمال سرعت (1x)
 Not connected to the box.: د بکس سره تړلی نه دی.
@@ -261,7 +282,9 @@ Pause/Resume live stream: ژوندی جریان ودروئ / بیا پیل کړ�
 Paused: ودریدل
 PayPal: PayPal
 Picture-in-Picture mode: په انځور کې د انځور حالت
+Play/Pause: پلی/ودرول
 Player Controls: د لوبغاړو کنټرول
+Playing: لوبې کول
 Playlist & Groups: پلی لیست او ګروپونه
 Playlist Comparison: د پلی لیست پرتله کول
 Playlist Editor: د پلی لیست مدیر
@@ -272,10 +295,12 @@ Please select a program first.: مهرباني وکړئ لومړی یو برنا
 Preview (first 5 channels): مخکتنه (لومړی 5 چینلونه)
 Preview error: {0}: د مخکتنې تېروتنه: {0}
 Program Details: د پروګرام جزئیات
+Ready: چمتو
 Ready.: چمتو.
 Recent: وروستي
 Recent files – quick access to last 5 opened playlists.: وروستي فایلونه - وروستي 5 خلاص شوي پلی لیستونو ته ګړندي لاسرسی.
 Recent playlists: وروستي پلی لیستونه
+Refresh Code: کوډ تازه کړئ
 Refresh EPG: EPG تازه کړئ
 Refresh EPG List: د EPG لیست تازه کړئ
 Refresh from GitHub: له GitHub څخه تازه کړئ
@@ -301,6 +326,7 @@ Search channels by name: د نوم په واسطه چینلونه وپلټئ
 Search channels...: چینلونه وپلټئ...
 sec: ثانیه
 Second playlist loaded: {0} channels: دوهم پلی لیست پورته شوی: {0} چینلونه
+Select a channel to play.: د لوبې کولو لپاره یو چینل غوره کړئ.
 Select a playlist first.: لومړی یو پلی لیست غوره کړئ.
 Select target group:: د هدف ګروپ وټاکئ:
 Select Theme: موضوع غوره کړئ
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: پیل
 Status: حالت
 Stop: ودریږي
+Stopped: ودرېده
 Stream URL: د جریان URL
 Stream URLs: د جریان URLs
 Success: بریالیتوب
@@ -342,7 +369,9 @@ TV Guide (EPG): د تلویزیون لارښود (EPG)
 TvgId: TvgId
 Type channel name to filter: د فلټر کولو لپاره د چینل نوم ولیکئ
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: د اتوماتیک شکل موندلو توان نلري. مهرباني وکړئ د ښکته کیدو څخه JSON یا M3U غوره کړئ او بیا هڅه وکړئ.
 Unable to find version in remote project file.: د ریموټ پروژې فایل کې نسخه موندلو توان نلري.
+Unsupported format. Please select JSON or M3U.: نه ملاتړ شوی بڼه. مهرباني وکړئ JSON یا M3U غوره کړئ.
 Update: تازه کول
 Update complete. Restarting...: تازه کول بشپړ شول. بیا پیل کول...
 Update Error: د تازه کولو تېروتنه

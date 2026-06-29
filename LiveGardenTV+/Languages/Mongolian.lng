@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Тоглуулах хурд: 0.5x, 1x, 2x товчлуурууд.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Толгой хэсэгт дарж дурын баганыг эрэмбэлэх; Анхны дараалал руу буцахын тулд "Захиалга дахин тохируулах"-г ашиглана уу.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: шууд дамжуулалтыг түр зогсоох; буцаж хайхын тулд гулсагчийг чирнэ үү; Буцахын тулд "Шууд" дээр дарна уу.
+▶ Play: ▶ Тоглох
 ◀ Previous: ◀ Өмнөх
 16 colour themes + Light/Dark variants.: 16 өнгөт загвар + Гэрэл/Харанхуй хувилбарууд.
 A new version is available. Do you want to update now?: Шинэ хувилбар гарсан байна. Та одоо шинэчлэхийг хүсч байна уу?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Буферийн хэмжээг тохиру�
 Advanced IDs: Нарийвчилсан ID
 Application status: Өргөдлийн статус
 Apply: Өргөдөл гаргах
+Apply / Import: Хэрэглэх / Импортлох
 Apply changes: Өөрчлөлтийг хэрэгжүүлэх
 Apply Filters: Шүүлтүүр хэрэглэх
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Та Enigma2 GUI-г дахин ачаалахдаа итгэлтэй байна уу?\n\nИнтерфэйс дахин асах болно (хэдхэн секундын турш хар дэлгэц).
@@ -46,8 +48,10 @@ Cannot open browser: Хөтөчийг нээж чадахгүй байна
 Category: Ангилал
 Changelog: Өөрчлөлтийн бүртгэл
 Channel Details: Сувгийн дэлгэрэнгүй мэдээлэл
+Channel Down: Суваг доош
 Channel Info: Сувгийн мэдээлэл
 Channel Name: Сувгийн нэр
+Channel Up: Дээш суваг
 channels from: сувгууд
 channels from JSON: JSON-н сувгууд
 channels from JSON URL: JSON URL-с сувгууд
@@ -61,6 +65,8 @@ Clear Filters: Шүүлтүүрийг арилгах
 Clear search: Хайлтыг арилгах
 Click for details: Дэлгэрэнгүйг дарж үзнэ үү
 Close: Хаах
+Code: Код
+Code copied to clipboard.: Кодыг санах ой руу хуулсан.
 Command name:: Тушаалын нэр:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Нийгэмлэг ба туршилт: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: Харьцуулах
@@ -75,6 +81,7 @@ Confirm Reload: Дахин ачаалахыг баталгаажуулна уу
 Connect: Холбох
 Connected: Холбогдсон
 Copied: Хуулсан
+Copy: Хуулбарлах
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Улс
 Credits: Зээл
@@ -141,6 +148,7 @@ Export OK: Экспорт OK
 Export only favorite channels to a new M3U file: Зөвхөн дуртай сувгуудыг шинэ M3U файл руу экспортлох
 Export results as JSON or M3U – export missing channels or all channels.: Үр дүнг JSON эсвэл M3U хэлбэрээр экспортлох - дутуу суваг эсвэл бүх сувгийг экспортлох.
 Export selected: Экспортыг сонгосон
+Export Selected: Сонгосон экспорт
 Exported: Экспортолсон
 Exported {0} channels to {1}: {0} сувгийг {1} руу экспорт хийсэн
 Extracting update...: Шинэчлэлтийг задалж байна...
@@ -154,11 +162,14 @@ Fetch Logos: Лого татах
 File {0} already exists. Overwrite?: {0} файл аль хэдийн байна. Дарж бичих үү?
 File exists: Файл байна
 Filters: Шүүлтүүр
+Format Detection: Формат илрүүлэх
+Fullscreen: Бүтэн дэлгэц
 Fullscreen (hide UI) - press ESC to exit: Бүтэн дэлгэц (UI нуух) - гарахын тулд ESC товчийг дарна уу
 Geo & Country: Гео ба улс
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub алдаа
 Go back to live: Буцаад амьдар
+Grid: Сүлжээ
 Group: Бүлэг
 Half speed (0.5x): Хагас хурд (0.5x)
 Help: Туслаач
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS тоглуулах: hls.js (MIT лице
 Image: Зураг
 Import: Импорт
 Import cancelled or no channels mapped.: Импортыг цуцалсан эсвэл зураглаагүй суваг.
+Import Error: Импортын алдаа
 Import error: {0}: Импортын алдаа: {0}
 Import from URL: URL-аас импортлох
 Import JSON: JSON импортлох
 Import JSON from URL: URL-аас JSON импортлох
 Import Local: Орон нутгийн импорт
+Imported {0} channels from code.: Кодоос {0} суваг импортолсон.
 Imported {0} channels from JSON via mapping.: JSON-с {0} сувгийг зураглалаар импортолсон.
 Imported {0} channels from URL.: URL-аас {0} суваг импортолсон.
 In Both: Аль алинд нь
@@ -181,6 +194,7 @@ Invalid JSON: {0}: Буруу JSON: {0}
 Invalid playlist URL.: Тоглуулах жагсаалтын URL буруу байна.
 Invalid URL.: Хүчингүй URL.
 Json: Жсон
+JSON parsing error: {0}: JSON задлан шинжлэх алдаа: {0}
 JSON Property: JSON өмч
 Ko-fi: Кофе
 Language: Хэл
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Тоглуулах жагсаалтын файлыг (M3U/JSON) компьютерээсээ ачаална уу
 Loaded: Ачаалагдсан
 Loaded {0} channels from JSON file via mapping.: JSON файлаас {0} сувгийг зураглалаар ачааллаа.
-Loaded {0} channels from JSON file.: JSON файлаас {0} сувгийг ачаалсан.
 Loaded {0} channels from JSON URL.: JSON URL-с {0} сувгийг ачаалсан.
 Loaded {0} channels from M3U file.: M3U файлаас {0} сувгийг ачаалсан.
 Loaded {0} channels from M3U URL.: M3U URL-аас {0} сувгийг ачаалсан.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Лого таарах босго
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Логоны агуулах – эзэмшигч/репо/замыг сонгоно уу (өгөгдмөл OwnerPlugins/logos).
 Logos Source: Логоны эх сурвалж
 Logos Subfolder: Логоны дэд хавтас
+M3U parsing error: {0}: M3U задлан шинжлэх алдаа: {0}
 Map JSON properties to channel fields:: JSON шинж чанарыг сувгийн талбарт буулгах:
 Mapping saved for future imports of this file.: Энэ файлын цаашдын импортын зураглалыг хадгалсан.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Тохирох босго – EPG болон логоны бүдэг бадаг тааруулах мэдрэмжийг тохируулна.
+Mini Player: Мини тоглуулагч
 Move to Group: Бүлэг рүү шилжих
 Moved: Зөөв
 Name: Нэр
@@ -228,14 +243,18 @@ Next: Дараа нь
 Next ▶: Дараагийн ▶
 No .m3u files found on GitHub repository.: GitHub репозитор дээр .m3u файл олдсонгүй.
 No cache folder found.: Кэш хавтас олдсонгүй.
+No channel selected: Сонгосон суваг алга
 No channels could be mapped or import cancelled.: Ямар ч сувгийг зураглах эсвэл импортыг цуцлах боломжгүй.
 No channels could be mapped. Check your mapping rules.: Ямар ч сувгийг зураглаж чадсангүй. Газрын зургийн дүрмээ шалгана уу.
+No channels found in JSON.: JSON-д суваг олдсонгүй.
+No channels found in M3U.: M3U-д суваг олдсонгүй.
 No channels loaded from JSON URL.: JSON URL-с ачаалагдсан суваг байхгүй.
 No channels loaded from M3U URL.: M3U URL-с ямар ч суваг ачаалагдаагүй байна.
 No channels loaded from M3U.: M3U-аас ачаалагдсан суваг алга.
 No channels loaded.: Ямар ч суваг ачаалагдсангүй.
 No channels mapped: Ямар ч суваг зураглаагүй
 No channels selected.: Сонгосон суваг алга.
+No channels to import.: Импортлох суваг алга.
 No duplicate URLs found.: Давхардсан URL олдсонгүй.
 No EPG data: EPG өгөгдөл байхгүй
 No EPG information available for this channel.: Энэ сувагт EPG мэдээлэл байхгүй байна.
@@ -245,6 +264,8 @@ No favorite channels to export.: Экспортлох дуртай суваг а
 No missing channels to export.: Экспорт хийх дутуу суваг байхгүй.
 No playlist found: Тоглуулах жагсаалт олдсонгүй
 No second playlist loaded.: Хоёрдахь тоглуулах жагсаалт ачаалагдаагүй байна.
+No stream URL available for this channel.: Энэ сувагт дамжуулах URL байхгүй байна.
+No text to import.: Импортлох текст байхгүй.
 No updates available.: Шинэчлэлт байхгүй.
 Normal speed (1x): Ердийн хурд (1x)
 Not connected to the box.: Хайрцагтай холбогдоогүй байна.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Шууд дамжуулалтыг түр зогсоо�
 Paused: Түр зогсоосон
 PayPal: PayPal
 Picture-in-Picture mode: Зураг доторх горим
+Play/Pause: Тоглуулах/түр зогсоох
 Player Controls: Тоглогчийн удирдлага
+Playing: Тоглож байна
 Playlist & Groups: Тоглуулах жагсаалт ба бүлгүүд
 Playlist Comparison: Тоглуулах жагсаалтын харьцуулалт
 Playlist Editor: Тоглуулах жагсаалт засварлагч
@@ -272,10 +295,12 @@ Please select a program first.: Эхлээд програмаа сонгоно �
 Preview (first 5 channels): Урьдчилан үзэх (эхний 5 суваг)
 Preview error: {0}: Урьдчилан үзэх алдаа: {0}
 Program Details: Хөтөлбөрийн дэлгэрэнгүй мэдээлэл
+Ready: Бэлэн
 Ready.: Бэлэн.
 Recent: Саяхан
 Recent files – quick access to last 5 opened playlists.: Сүүлийн үеийн файлууд - сүүлийн 5 нээсэн тоглуулах жагсаалт руу хурдан нэвтрэх.
 Recent playlists: Сүүлийн үеийн тоглуулах жагсаалтууд
+Refresh Code: Кодыг шинэчлэх
 Refresh EPG: EPG-г сэргээх
 Refresh EPG List: EPG жагсаалтыг шинэчлэх
 Refresh from GitHub: GitHub-с сэргээнэ үү
@@ -301,6 +326,7 @@ Search channels by name: Сувгуудыг нэрээр нь хайх
 Search channels...: Сувгууд хайх...
 sec: сек
 Second playlist loaded: {0} channels: Хоёрдахь тоглуулах жагсаалтыг ачаалсан: {0} суваг
+Select a channel to play.: Тоглуулах сувгаа сонгоно уу.
 Select a playlist first.: Эхлээд тоглуулах жагсаалтыг сонгоно уу.
 Select target group:: Зорилтот бүлгийг сонгох:
 Select Theme: Сэдвийг сонгоно уу
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Эхлэх
 Status: Статус
 Stop: Зогс
+Stopped: Зогссон
 Stream URL: Урсгал URL
 Stream URLs: Урсгал URL-ууд
 Success: Амжилт
@@ -342,7 +369,9 @@ TV Guide (EPG): ТВ хөтөч (EPG)
 TvgId: TvgId
 Type channel name to filter: Шүүлгэхийн тулд сувгийн нэрийг бичнэ үү
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Форматыг автоматаар илрүүлэх боломжгүй. Унтраах цэснээс JSON эсвэл M3U-г сонгоод дахин оролдоно уу.
 Unable to find version in remote project file.: Алсын төслийн файлаас хувилбарыг олох боломжгүй байна.
+Unsupported format. Please select JSON or M3U.: Дэмжигдээгүй формат. JSON эсвэл M3U-г сонгоно уу.
 Update: Шинэчлэх
 Update complete. Restarting...: Шинэчлэлт дууссан. Дахин эхлүүлж байна...
 Update Error: Шинэчлэлтийн алдаа

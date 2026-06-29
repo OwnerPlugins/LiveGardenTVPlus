@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • מהירות השמעה: כפתורים 0.5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • מיין כל עמודה על ידי לחיצה על הכותרת; השתמש ב'אפס הזמנה' כדי לחזור להזמנה המקורית.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • הסטת זמן: השהה שידור חי; גרור את המחוון כדי לחפש אחורה; לחץ על 'חי' כדי לחזור.
+▶ Play: ▶ לשחק
 ◀ Previous: ◀ הקודם
 16 colour themes + Light/Dark variants.: 16 ערכות נושא צבע + גרסאות בהירות/כהות.
 A new version is available. Do you want to update now?: גרסה חדשה זמינה. רוצה לעדכן עכשיו?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): התאם את גודל המאגר (1-10 שנ�
 Advanced IDs: תעודות זהות מתקדמות
 Application status: סטטוס הבקשה
 Apply: לִפְנוֹת
+Apply / Import: החל/ייבוא
 Apply changes: החל שינויים
 Apply Filters: החל מסננים
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: האם אתה בטוח שברצונך לטעון מחדש את ה-Enigma2 GUI?\n\nהממשק יופעל מחדש (מסך שחור למשך מספר שניות).
@@ -46,8 +48,10 @@ Cannot open browser: לא ניתן לפתוח את הדפדפן
 Category: קָטֵגוֹרִיָה
 Changelog: יומן שינויים
 Channel Details: פרטי הערוץ
+Channel Down: ערוץ למטה
 Channel Info: מידע על הערוץ
 Channel Name: שם הערוץ
+Channel Up: ערוץ למעלה
 channels from: ערוצים מ
 channels from JSON: ערוצים מ-JSON
 channels from JSON URL: ערוצים מ-URL של JSON
@@ -61,6 +65,8 @@ Clear Filters: נקה מסננים
 Clear search: נקה חיפוש
 Click for details: לחץ לפרטים
 Close: לִסְגוֹר
+Code: קוד
+Code copied to clipboard.: הקוד הועתק ללוח.
 Command name:: שם הפקודה:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: קהילה ובדיקות: CorvoBoys (corvoboys.org) ו-LinuxSat-Support.com
 Compare: לְהַשְׁווֹת
@@ -75,6 +81,7 @@ Confirm Reload: אשר טען מחדש
 Connect: לְחַבֵּר
 Connected: מְחוּבָּר
 Copied: מוּעֲתָק
+Copy: לְהַעְתִיק
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: מְדִינָה
 Credits: קרדיטים
@@ -141,6 +148,7 @@ Export OK: ייצוא אישור
 Export only favorite channels to a new M3U file: ייצא רק ערוצים מועדפים לקובץ M3U חדש
 Export results as JSON or M3U – export missing channels or all channels.: ייצא תוצאות כ-JSON או M3U - ייצא ערוצים חסרים או את כל הערוצים.
 Export selected: ייצוא נבחר
+Export Selected: ייצוא נבחרים
 Exported: מְיוּצָא
 Exported {0} channels to {1}: ייצאו {0} ערוצים אל {1}
 Extracting update...: מחלץ עדכון...
@@ -154,11 +162,14 @@ Fetch Logos: אחזר לוגו
 File {0} already exists. Overwrite?: הקובץ {0} כבר קיים. להחליף?
 File exists: הקובץ קיים
 Filters: מסננים
+Format Detection: זיהוי פורמטים
+Fullscreen: מסך מלא
 Fullscreen (hide UI) - press ESC to exit: מסך מלא (הסתר ממשק משתמש) - לחץ על ESC כדי לצאת
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
 GitHub Error: שגיאת GitHub
 Go back to live: תחזור לחיות
+Grid: רֶשֶׁת
 Group: קְבוּצָה
 Half speed (0.5x): חצי מהירות (0.5x)
 Help: עֶזרָה
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): השמעת HLS: hls.js (רישיון MIT)
 Image: תְמוּנָה
 Import: יְבוּא
 Import cancelled or no channels mapped.: הייבוא ​​בוטל או שלא מופו ערוצים.
+Import Error: שגיאת ייבוא
 Import error: {0}: שגיאת ייבוא: {0}
 Import from URL: ייבא מ-URL
 Import JSON: ייבוא ​​JSON
 Import JSON from URL: ייבא JSON מ-URL
 Import Local: ייבוא ​​מקומי
+Imported {0} channels from code.: ייבאו {0} ערוצים מהקוד.
 Imported {0} channels from JSON via mapping.: ייבאו {0} ערוצים מ-JSON באמצעות מיפוי.
 Imported {0} channels from URL.: ייבאו {0} ערוצים מ-URL.
 In Both: בשניהם
@@ -181,6 +194,7 @@ Invalid JSON: {0}: JSON לא חוקי: {0}
 Invalid playlist URL.: כתובת אתר לא חוקית של פלייליסט.
 Invalid URL.: כתובת אתר לא חוקית.
 Json: Json
+JSON parsing error: {0}: שגיאת ניתוח JSON: {0}
 JSON Property: נכס JSON
 Ko-fi: קָפֶה
 Language: שָׂפָה
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: טען קובץ רשימת השמעה (M3U/JSON) מהמחשב שלך
 Loaded: טָעוּן
 Loaded {0} channels from JSON file via mapping.: נטען {0} ערוצים מקובץ JSON באמצעות מיפוי.
-Loaded {0} channels from JSON file.: נטען {0} ערוצים מקובץ JSON.
 Loaded {0} channels from JSON URL.: נטען {0} ערוצים מ-URL JSON.
 Loaded {0} channels from M3U file.: נטען {0} ערוצים מקובץ M3U.
 Loaded {0} channels from M3U URL.: נטען {0} ערוצים מ-URL M3U.
@@ -215,9 +228,11 @@ Logos Matching Threshold: סף התאמת לוגו
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: מאגר לוגואים - בחר בעלים/מאגר/נתיב (ברירת מחדל OwnerPlugins/לוגו).
 Logos Source: מקור לוגו
 Logos Subfolder: תיקיית משנה לוגו
+M3U parsing error: {0}: שגיאת ניתוח M3U: {0}
 Map JSON properties to channel fields:: מיפוי מאפייני JSON לשדות ערוצים:
 Mapping saved for future imports of this file.: המיפוי נשמר עבור ייבוא ​​עתידי של קובץ זה.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: ספי התאמה - הגדר רגישות להתאמה מטושטשת עבור EPG ולוגו.
+Mini Player: מיני נגן
 Move to Group: העבר לקבוצה
 Moved: נִרגָשׁ
 Name: שֵׁם
@@ -228,14 +243,18 @@ Next: הַבָּא
 Next ▶: הבא ▶
 No .m3u files found on GitHub repository.: לא נמצאו קבצי .m3u במאגר GitHub.
 No cache folder found.: לא נמצאה תיקיית מטמון.
+No channel selected: לא נבחר ערוץ
 No channels could be mapped or import cancelled.: לא ניתן למפות ערוצים או לבטל את הייבוא.
 No channels could be mapped. Check your mapping rules.: לא ניתן היה למפות ערוצים. בדוק את כללי המיפוי שלך.
+No channels found in JSON.: לא נמצאו ערוצים ב-JSON.
+No channels found in M3U.: לא נמצאו ערוצים ב-M3U.
 No channels loaded from JSON URL.: לא נטענו ערוצים מ-URL של JSON.
 No channels loaded from M3U URL.: לא נטענו ערוצים מ-URL M3U.
 No channels loaded from M3U.: לא נטענו ערוצים מ-M3U.
 No channels loaded.: לא נטענו ערוצים.
 No channels mapped: לא מופו ערוצים
 No channels selected.: לא נבחרו ערוצים.
+No channels to import.: אין ערוצים לייבא.
 No duplicate URLs found.: לא נמצאו כתובות URL כפולות.
 No EPG data: אין נתוני EPG
 No EPG information available for this channel.: אין מידע על EPG זמין עבור ערוץ זה.
@@ -245,6 +264,8 @@ No favorite channels to export.: אין ערוצים מועדפים לייצוא
 No missing channels to export.: אין ערוצים חסרים לייצוא.
 No playlist found: לא נמצא רשימת השמעה
 No second playlist loaded.: לא נטען רשימת השמעה שנייה.
+No stream URL available for this channel.: אין כתובת אתר זמינה עבור ערוץ זה.
+No text to import.: אין טקסט לייבא.
 No updates available.: אין עדכונים זמינים.
 Normal speed (1x): מהירות רגילה (1x)
 Not connected to the box.: לא מחובר לקופסה.
@@ -261,7 +282,9 @@ Pause/Resume live stream: השהה/המשך שידור חי
 Paused: מושהה
 PayPal: PayPal
 Picture-in-Picture mode: מצב תמונה-בתמונה
+Play/Pause: הפעל/השהה
 Player Controls: בקרות נגן
+Playing: משחק
 Playlist & Groups: פלייליסט וקבוצות
 Playlist Comparison: השוואת פלייליסטים
 Playlist Editor: עורך רשימות השמעה
@@ -272,10 +295,12 @@ Please select a program first.: אנא בחר תחילה תוכנית.
 Preview (first 5 channels): תצוגה מקדימה (5 הערוצים הראשונים)
 Preview error: {0}: שגיאת תצוגה מקדימה: {0}
 Program Details: פרטי התוכנית
+Ready: מוּכָן
 Ready.: מוּכָן.
 Recent: לאחרונה
 Recent files – quick access to last 5 opened playlists.: קבצים אחרונים - גישה מהירה ל-5 הפלייליסטים האחרונים שנפתחו.
 Recent playlists: רשימות השמעה אחרונות
+Refresh Code: רענן קוד
 Refresh EPG: רענן את ה-EPG
 Refresh EPG List: רענן את רשימת ה-EPG
 Refresh from GitHub: רענן מ-GitHub
@@ -301,6 +326,7 @@ Search channels by name: חפש ערוצים לפי שם
 Search channels...: חפש ערוצים...
 sec: שניות
 Second playlist loaded: {0} channels: פלייליסט שני נטען: {0} ערוצים
+Select a channel to play.: בחר ערוץ להפעלה.
 Select a playlist first.: תחילה בחר רשימת השמעה.
 Select target group:: בחר קבוצת יעד:
 Select Theme: בחר ערכת נושא
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: הַתחָלָה
 Status: סטָטוּס
 Stop: לְהַפְסִיק
+Stopped: נֶעצָר
 Stream URL: כתובת אתר של זרם
 Stream URLs: הזרם כתובות אתרים
 Success: הַצלָחָה
@@ -342,7 +369,9 @@ TV Guide (EPG): מדריך טלוויזיה (EPG)
 TvgId: TvgId
 Type channel name to filter: הקלד את שם הערוץ לסינון
 UI: MaterialDesignThemes.Wpf: ממשק משתמש: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: לא ניתן לזהות פורמט אוטומטי. בחר JSON או M3U מהתפריט הנפתח ונסה שוב.
 Unable to find version in remote project file.: לא ניתן למצוא גרסה בקובץ הפרויקט המרוחק.
+Unsupported format. Please select JSON or M3U.: פורמט לא נתמך. אנא בחר JSON או M3U.
 Update: לְעַדְכֵּן
 Update complete. Restarting...: העדכון הושלם. מופעל מחדש...
 Update Error: שגיאת עדכון

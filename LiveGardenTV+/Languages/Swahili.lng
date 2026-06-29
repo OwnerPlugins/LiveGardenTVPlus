@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Kasi ya kucheza: vitufe 0.5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Panga safu wima yoyote kwa kubofya kichwa; tumia 'Weka Upya Agizo' ili kurejesha agizo asili.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: sitisha mtiririko wa moja kwa moja; buruta kitelezi kutafuta nyuma; bonyeza 'Live' ili urudi.
+▶ Play: ▶ Cheza
 ◀ Previous: ◀ Iliyotangulia
 16 colour themes + Light/Dark variants.: Mandhari 16 ya rangi + Nyepesi/Vibadala vya Giza.
 A new version is available. Do you want to update now?: Toleo jipya linapatikana. Je, ungependa kusasisha sasa?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Rekebisha ukubwa wa bafa (sekunde 1-10)
 Advanced IDs: Vitambulisho vya hali ya juu
 Application status: Hali ya maombi
 Apply: Omba
+Apply / Import: Tuma / Ingiza
 Apply changes: Tekeleza mabadiliko
 Apply Filters: Weka Vichujio
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Je, una uhakika unataka kupakia upya Enigma2 GUI?\n\nKiolesura kitaanza upya (skrini nyeusi kwa sekunde chache).
@@ -46,8 +48,10 @@ Cannot open browser: Haiwezi kufungua kivinjari
 Category: Kategoria
 Changelog: Changelog
 Channel Details: Maelezo ya Kituo
+Channel Down: Kituo Chini
 Channel Info: Maelezo ya Kituo
 Channel Name: Jina la Kituo
+Channel Up: Channel Juu
 channels from: njia kutoka
 channels from JSON: chaneli kutoka JSON
 channels from JSON URL: chaneli kutoka kwa JSON URL
@@ -61,6 +65,8 @@ Clear Filters: Futa Vichujio
 Clear search: Futa utafutaji
 Click for details: Bofya kwa maelezo
 Close: Funga
+Code: Kanuni
+Code copied to clipboard.: Msimbo umenakiliwa kwenye ubao wa kunakili.
 Command name:: Jina la amri:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Jumuiya na majaribio: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: Linganisha
@@ -75,6 +81,7 @@ Confirm Reload: Thibitisha Pakia Upya
 Connect: Unganisha
 Connected: Imeunganishwa
 Copied: Imenakiliwa
+Copy: Nakili
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Nchi
 Credits: Mikopo
@@ -141,6 +148,7 @@ Export OK: Hamisha Sawa
 Export only favorite channels to a new M3U file: Hamisha chaneli uzipendazo pekee kwa faili mpya ya M3U
 Export results as JSON or M3U – export missing channels or all channels.: Hamisha matokeo kama JSON au M3U - hamisha chaneli ambazo hazipo au chaneli zote.
 Export selected: Usafirishaji umechaguliwa
+Export Selected: Hamisha Imechaguliwa
 Exported: Imesafirishwa
 Exported {0} channels to {1}: Imehamisha vituo {0} kwa {1}
 Extracting update...: Inatoa sasisho...
@@ -154,11 +162,14 @@ Fetch Logos: Leta Nembo
 File {0} already exists. Overwrite?: Faili {0} tayari ipo. Ungependa kufuta?
 File exists: Faili ipo
 Filters: Vichujio
+Format Detection: Utambuzi wa Umbizo
+Fullscreen: Skrini nzima
 Fullscreen (hide UI) - press ESC to exit: Skrini nzima (ficha UI) - bonyeza ESC ili kuondoka
 Geo & Country: Jiografia na Nchi
 GeoBlocked: GeoBlocked
 GitHub Error: Hitilafu ya GitHub
 Go back to live: Rudi uishi
+Grid: Gridi
 Group: Kikundi
 Half speed (0.5x): Nusu kasi (0.5x)
 Help: Msaada
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): Uchezaji wa HLS: hls.js (leseni ya MIT)
 Image: Picha
 Import: Ingiza
 Import cancelled or no channels mapped.: Uingizaji umeghairiwa au hakuna vituo vilivyowekwa kwenye ramani.
+Import Error: Hitilafu ya Kuingiza
 Import error: {0}: Hitilafu ya kuleta: {0}
 Import from URL: Ingiza kutoka kwa URL
 Import JSON: Ingiza JSON
 Import JSON from URL: Ingiza JSON kutoka kwa URL
 Import Local: Ingiza Ndani
+Imported {0} channels from code.: Imeingiza chaneli {0} kutoka kwa msimbo.
 Imported {0} channels from JSON via mapping.: Imeingiza vituo {0} kutoka JSON kupitia ramani.
 Imported {0} channels from URL.: Imeingiza vituo {0} kutoka kwa URL.
 In Both: Katika Zote Mbili
@@ -181,6 +194,7 @@ Invalid JSON: {0}: JSON batili: {0}
 Invalid playlist URL.: URL ya orodha ya kucheza si sahihi.
 Invalid URL.: URL batili.
 Json: Json
+JSON parsing error: {0}: Hitilafu ya uchanganuzi wa JSON: {0}
 JSON Property: Mali ya JSON
 Ko-fi: Kahawa
 Language: Lugha
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Pakia faili ya orodha ya kucheza (M3U/JSON) kutoka kwa kompyuta yako
 Loaded: Imepakiwa
 Loaded {0} channels from JSON file via mapping.: Imepakia vituo {0} kutoka faili ya JSON kupitia ramani.
-Loaded {0} channels from JSON file.: Imepakia vituo {0} kutoka faili ya JSON.
 Loaded {0} channels from JSON URL.: Imepakia vituo {0} kutoka kwa JSON URL.
 Loaded {0} channels from M3U file.: Imepakia chaneli {0} kutoka faili ya M3U.
 Loaded {0} channels from M3U URL.: Imepakia chaneli {0} kutoka URL ya M3U.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Nembo Kulingana Kizingiti
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Hazina ya nembo - chagua mmiliki/repo/njia (default OwnerPlugins/nembo).
 Logos Source: Chanzo cha Nembo
 Logos Subfolder: Folda Ndogo ya Nembo
+M3U parsing error: {0}: Hitilafu ya uchanganuzi wa M3U: {0}
 Map JSON properties to channel fields:: Ramani ya sifa za JSON kwa sehemu za vituo:
 Mapping saved for future imports of this file.: Upangaji ramani umehifadhiwa kwa uagizaji wa baadaye wa faili hii.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Viwango vinavyolingana - weka hisia zisizoeleweka za mechi kwa EPG na nembo.
+Mini Player: Mchezaji Mdogo
 Move to Group: Nenda kwenye Kikundi
 Moved: Imehamishwa
 Name: Jina
@@ -228,14 +243,18 @@ Next: Inayofuata
 Next ▶: Inayofuata ▶
 No .m3u files found on GitHub repository.: Hakuna faili za .m3u zilizopatikana kwenye hazina ya GitHub.
 No cache folder found.: Hakuna folda ya akiba iliyopatikana.
+No channel selected: Hakuna kituo kilichochaguliwa
 No channels could be mapped or import cancelled.: Hakuna vituo vinavyoweza kuchorwa au kuletwa kughairiwa.
 No channels could be mapped. Check your mapping rules.: Hakuna vituo vinavyoweza kuchorwa. Angalia sheria zako za uchoraji ramani.
+No channels found in JSON.: Hakuna vituo vilivyopatikana katika JSON.
+No channels found in M3U.: Hakuna chaneli zilizopatikana katika M3U.
 No channels loaded from JSON URL.: Hakuna chaneli zilizopakiwa kutoka kwa URL ya JSON.
 No channels loaded from M3U URL.: Hakuna chaneli zilizopakiwa kutoka URL ya M3U.
 No channels loaded from M3U.: Hakuna chaneli zilizopakiwa kutoka M3U.
 No channels loaded.: Hakuna vituo vilivyopakiwa.
 No channels mapped: Hakuna vituo vilivyopangwa
 No channels selected.: Hakuna vituo vilivyochaguliwa.
+No channels to import.: Hakuna chaneli za kuleta.
 No duplicate URLs found.: Hakuna nakala za URL zilizopatikana.
 No EPG data: Hakuna data ya EPG
 No EPG information available for this channel.: Hakuna maelezo ya EPG yanayopatikana kwa kituo hiki.
@@ -245,6 +264,8 @@ No favorite channels to export.: Hakuna vituo unavyovipenda vya kusafirisha.
 No missing channels to export.: Hakuna chaneli zinazokosekana za kusafirisha.
 No playlist found: Hakuna orodha ya kucheza iliyopatikana
 No second playlist loaded.: Hakuna orodha ya kucheza ya pili iliyopakiwa.
+No stream URL available for this channel.: Hakuna URL ya mtiririko inayopatikana ya kituo hiki.
+No text to import.: Hakuna maandishi ya kuleta.
 No updates available.: Hakuna masasisho yanayopatikana.
 Normal speed (1x): Kasi ya kawaida (1x)
 Not connected to the box.: Haijaunganishwa kwenye kisanduku.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Sitisha/Rejesha mtiririko wa moja kwa moja
 Paused: Imesitishwa
 PayPal: PayPal
 Picture-in-Picture mode: Hali ya Picha-ndani-Picha
+Play/Pause: Cheza/Sitisha
 Player Controls: Vidhibiti vya Mchezaji
+Playing: Inacheza
 Playlist & Groups: Orodha ya kucheza na Vikundi
 Playlist Comparison: Ulinganisho wa Orodha ya kucheza
 Playlist Editor: Kihariri cha Orodha ya kucheza
@@ -272,10 +295,12 @@ Please select a program first.: Tafadhali chagua programu kwanza.
 Preview (first 5 channels): Hakiki (vituo 5 vya kwanza)
 Preview error: {0}: Hitilafu ya onyesho la kukagua: {0}
 Program Details: Maelezo ya Programu
+Ready: Tayari
 Ready.: Tayari.
 Recent: Hivi karibuni
 Recent files – quick access to last 5 opened playlists.: Faili za hivi majuzi - ufikiaji wa haraka wa orodha 5 za kucheza zilizofunguliwa mwisho.
 Recent playlists: Orodha za kucheza za hivi majuzi
+Refresh Code: Onyesha upya Msimbo
 Refresh EPG: Onyesha upya EPG
 Refresh EPG List: Onyesha upya Orodha ya EPG
 Refresh from GitHub: Onyesha upya kutoka GitHub
@@ -301,6 +326,7 @@ Search channels by name: Tafuta vituo kwa majina
 Search channels...: Tafuta vituo...
 sec: sekunde
 Second playlist loaded: {0} channels: Orodha ya kucheza ya pili imepakiwa: vituo {0}
+Select a channel to play.: Chagua kituo cha kucheza.
 Select a playlist first.: Chagua orodha ya kucheza kwanza.
 Select target group:: Chagua kikundi lengwa:
 Select Theme: Chagua Mandhari
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Anza
 Status: Hali
 Stop: Acha
+Stopped: Imesimamishwa
 Stream URL: Tiririsha URL
 Stream URLs: Tiririsha URL
 Success: Mafanikio
@@ -342,7 +369,9 @@ TV Guide (EPG): Mwongozo wa TV (EPG)
 TvgId: TvgId
 Type channel name to filter: Andika jina la kituo ili kuchuja
 UI: MaterialDesignThemes.Wpf: UI:MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Haiwezi kugundua umbizo kiotomatiki. Tafadhali chagua JSON au M3U kutoka kwenye menyu kunjuzi na ujaribu tena.
 Unable to find version in remote project file.: Haijaweza kupata toleo katika faili ya mradi wa mbali.
+Unsupported format. Please select JSON or M3U.: Umbizo lisilotumika. Tafadhali chagua JSON au M3U.
 Update: Sasisha
 Update complete. Restarting...: Usasishaji umekamilika. Inaanza upya...
 Update Error: Hitilafu ya Usasishaji

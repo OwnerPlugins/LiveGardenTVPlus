@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Playback speed: 0.5x, 1x, 2x buttons.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sort any column by clicking header; use 'Reset Order' to revert to original order.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.
+▶ Play: ▶ Play
 ◀ Previous: ◀ Previous
 16 colour themes + Light/Dark variants.: 16 colour themes + Light/Dark variants.
 A new version is available. Do you want to update now?: A new version is available. Do you want to update now?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Adjust buffer size (1-10 seconds)
 Advanced IDs: Advanced IDs
 Application status: Application status
 Apply: Apply
+Apply / Import: Apply / Import
 Apply changes: Apply changes
 Apply Filters: Apply Filters
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).
@@ -46,8 +48,10 @@ Cannot open browser: Cannot open browser
 Category: Category
 Changelog: Changelog
 Channel Details: Channel Details
+Channel Down: Channel Down
 Channel Info: Channel Info
 Channel Name: Channel Name
+Channel Up: Channel Up
 channels from: channels from
 channels from JSON: channels from JSON
 channels from JSON URL: channels from JSON URL
@@ -61,6 +65,8 @@ Clear Filters: Clear Filters
 Clear search: Clear search
 Click for details: Click for details
 Close: Close
+Code: Code
+Code copied to clipboard.: Code copied to clipboard.
 Command name:: Command name:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: Compare
@@ -75,6 +81,7 @@ Confirm Reload: Confirm Reload
 Connect: Connect
 Connected: Connected
 Copied: Copied
+Copy: Copy
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Country
 Credits: Credits
@@ -141,6 +148,7 @@ Export OK: Export OK
 Export only favorite channels to a new M3U file: Export only favorite channels to a new M3U file
 Export results as JSON or M3U – export missing channels or all channels.: Export results as JSON or M3U – export missing channels or all channels.
 Export selected: Export selected
+Export Selected: Export Selected
 Exported: Exported
 Exported {0} channels to {1}: Exported {0} channels to {1}
 Extracting update...: Extracting update...
@@ -154,11 +162,14 @@ Fetch Logos: Fetch Logos
 File {0} already exists. Overwrite?: File {0} already exists. Overwrite?
 File exists: File exists
 Filters: Filters
+Format Detection: Format Detection
+Fullscreen: Fullscreen
 Fullscreen (hide UI) - press ESC to exit: Fullscreen (hide UI) - press ESC to exit
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub Error
 Go back to live: Go back to live
+Grid: Grid
 Group: Group
 Half speed (0.5x): Half speed (0.5x)
 Help: Help
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS playback: hls.js (MIT license)
 Image: Image
 Import: Import
 Import cancelled or no channels mapped.: Import cancelled or no channels mapped.
+Import Error: Import Error
 Import error: {0}: Import error: {0}
 Import from URL: Import from URL
 Import JSON: Import JSON
 Import JSON from URL: Import JSON from URL
 Import Local: Import Local
+Imported {0} channels from code.: Imported {0} channels from code.
 Imported {0} channels from JSON via mapping.: Imported {0} channels from JSON via mapping.
 Imported {0} channels from URL.: Imported {0} channels from URL.
 In Both: In Both
@@ -181,6 +194,7 @@ Invalid JSON: {0}: Invalid JSON: {0}
 Invalid playlist URL.: Invalid playlist URL.
 Invalid URL.: Invalid URL.
 Json: Json
+JSON parsing error: {0}: JSON parsing error: {0}
 JSON Property: JSON Property
 Ko-fi: Coffee
 Language: Language
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Load playlist file (M3U/JSON) from your computer
 Loaded: Loaded
 Loaded {0} channels from JSON file via mapping.: Loaded {0} channels from JSON file via mapping.
-Loaded {0} channels from JSON file.: Loaded {0} channels from JSON file.
 Loaded {0} channels from JSON URL.: Loaded {0} channels from JSON URL.
 Loaded {0} channels from M3U file.: Loaded {0} channels from M3U file.
 Loaded {0} channels from M3U URL.: Loaded {0} channels from M3U URL.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Logos Matching Threshold
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logos repository – choose owner/repo/path (default OwnerPlugins/logos).
 Logos Source: Logos Source
 Logos Subfolder: Logos Subfolder
+M3U parsing error: {0}: M3U parsing error: {0}
 Map JSON properties to channel fields:: Map JSON properties to channel fields:
 Mapping saved for future imports of this file.: Mapping saved for future imports of this file.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Matching thresholds – set fuzzy match sensitivity for EPG and logos.
+Mini Player: Mini Player
 Move to Group: Move to Group
 Moved: Moved
 Name: Name
@@ -228,14 +243,18 @@ Next: Next
 Next ▶: Next ▶
 No .m3u files found on GitHub repository.: No .m3u files found on GitHub repository.
 No cache folder found.: No cache folder found.
+No channel selected: No channel selected
 No channels could be mapped or import cancelled.: No channels could be mapped or import cancelled.
 No channels could be mapped. Check your mapping rules.: No channels could be mapped. Check your mapping rules.
+No channels found in JSON.: No channels found in JSON.
+No channels found in M3U.: No channels found in M3U.
 No channels loaded from JSON URL.: No channels loaded from JSON URL.
 No channels loaded from M3U URL.: No channels loaded from M3U URL.
 No channels loaded from M3U.: No channels loaded from M3U.
 No channels loaded.: No channels loaded.
 No channels mapped: No channels mapped
 No channels selected.: No channels selected.
+No channels to import.: No channels to import.
 No duplicate URLs found.: No duplicate URLs found.
 No EPG data: No EPG data
 No EPG information available for this channel.: No EPG information available for this channel.
@@ -245,6 +264,8 @@ No favorite channels to export.: No favorite channels to export.
 No missing channels to export.: No missing channels to export.
 No playlist found: No playlist found
 No second playlist loaded.: No second playlist loaded.
+No stream URL available for this channel.: No stream URL available for this channel.
+No text to import.: No text to import.
 No updates available.: No updates available.
 Normal speed (1x): Normal speed (1x)
 Not connected to the box.: Not connected to the box.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Pause/Resume live stream
 Paused: Paused
 PayPal: PayPal
 Picture-in-Picture mode: Picture-in-Picture mode
+Play/Pause: Play/Pause
 Player Controls: Player Controls
+Playing: Playing
 Playlist & Groups: Playlist & Groups
 Playlist Comparison: Playlist Comparison
 Playlist Editor: Playlist Editor
@@ -272,10 +295,12 @@ Please select a program first.: Please select a program first.
 Preview (first 5 channels): Preview (first 5 channels)
 Preview error: {0}: Preview error: {0}
 Program Details: Program Details
+Ready: Ready
 Ready.: Ready.
 Recent: Recent
 Recent files – quick access to last 5 opened playlists.: Recent files – quick access to last 5 opened playlists.
 Recent playlists: Recent playlists
+Refresh Code: Refresh Code
 Refresh EPG: Refresh EPG
 Refresh EPG List: Refresh EPG List
 Refresh from GitHub: Refresh from GitHub
@@ -301,6 +326,7 @@ Search channels by name: Search channels by name
 Search channels...: Search channels...
 sec: sec
 Second playlist loaded: {0} channels: Second playlist loaded: {0} channels
+Select a channel to play.: Select a channel to play.
 Select a playlist first.: Select a playlist first.
 Select target group:: Select target group:
 Select Theme: Select Theme
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Start
 Status: Status
 Stop: Stop
+Stopped: Stopped
 Stream URL: Stream URL
 Stream URLs: Stream URLs
 Success: Success
@@ -342,7 +369,9 @@ TV Guide (EPG): TV Guide (EPG)
 TvgId: TvgId
 Type channel name to filter: Type channel name to filter
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.
 Unable to find version in remote project file.: Unable to find version in remote project file.
+Unsupported format. Please select JSON or M3U.: Unsupported format. Please select JSON or M3U.
 Update: Update
 Update complete. Restarting...: Update complete. Restarting...
 Update Error: Update Error

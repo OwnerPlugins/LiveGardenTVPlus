@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • قويۇش سۈرئىتى: 0.5x ، 1x ، 2x كۇنۇپكىلار.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • ماۋزۇنى چېكىپ ھەر قانداق ئىستوننى رەتلەڭ. «تەرتىپنى ئەسلىگە كەلتۈرۈش» نى ئىشلىتىپ ئەسلىدىكى تەرتىپكە قايتىڭ.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: بىۋاسىتە تارقىتىشنى توختىتىڭ. سىيرىلغۇچنى سۆرەپ كەينىگە قايتىش قايتىش ئۈچۈن «Live» نى بېسىڭ.
+▶ Play: ▶ Play
 ◀ Previous: ◀ ئالدىنقى
 16 colour themes + Light/Dark variants.: 16 خىل رەڭلىك تېما + سۇس / قېنىق رەڭلىك.
 A new version is available. Do you want to update now?: يېڭى نەشرى بار. ھازىر يېڭىلاشنى خالامسىز؟
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): بۇففېرنىڭ چوڭ-كىچىكلىكى�
 Advanced IDs: ئىلغار كىملىك
 Application status: ئىلتىماس ھالىتى
 Apply: ئىلتىماس قىلىڭ
+Apply / Import: ئىلتىماس قىلىش / ئەكىرىش
 Apply changes: ئۆزگەرتىشلەرنى ئىشلىتىڭ
 Apply Filters: سۈزگۈچ ئىشلىتىڭ
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI نى قايتا يۈكلىمەكچىمۇ؟ \ n \ n كۆرۈنمە يۈزى قايتا قوزغىتىلىدۇ (قارا ئېكران بىر نەچچە سېكۇنت).
@@ -46,8 +48,10 @@ Cannot open browser: توركۆرگۈنى ئاچقىلى بولمايدۇ
 Category: سەھىپە
 Changelog: Changelog
 Channel Details: Channel Details
+Channel Down: Channel Down
 Channel Info: Channel Info
 Channel Name: Channel Name
+Channel Up: Channel Up
 channels from: channels from
 channels from JSON: channels from JSON
 channels from JSON URL: JSON URL دىن كەلگەن قاناللار
@@ -61,6 +65,8 @@ Clear Filters: سۈزگۈچنى تازىلاش
 Clear search: ئىزدەشنى تازىلاش
 Click for details: تەپسىلاتىنى چېكىڭ
 Close: تاقاش
+Code: كود
+Code copied to clipboard.: كود چاپلاش تاختىسىغا كۆچۈرۈلدى.
 Command name:: بۇيرۇق ئىسمى:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: مەھەللە ۋە سىناق: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: سېلىشتۇرۇش
@@ -75,6 +81,7 @@ Confirm Reload: قايتا يۈكلەشنى جەزملەشتۈرۈڭ
 Connect: ئۇلاڭ
 Connected: ئۇلاندى
 Copied: كۆچۈرۈلگەن
+Copy: كۆچۈرۈڭ
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: دۆلەت
 Credits: Credits
@@ -141,6 +148,7 @@ Export OK: Export OK
 Export only favorite channels to a new M3U file: ئەڭ ياخشى كۆرىدىغان قاناللارنى يېڭى M3U ھۆججىتىگە چىقىرىڭ
 Export results as JSON or M3U – export missing channels or all channels.: نەتىجىنى JSON ياكى M3U قىلىپ چىقىرىش - يوقاپ كەتكەن قاناللارنى ياكى بارلىق قاناللارنى ئېكسپورت قىلىش.
 Export selected: ئېكسپورت تاللاندى
+Export Selected: ئېكسپورت تاللاندى
 Exported: ئېكسپورت قىلىندى
 Exported {0} channels to {1}: {0} قاناللىرىنى {1} غا چىقاردى
 Extracting update...: يېڭىلاش يېڭىلاش ...
@@ -154,11 +162,14 @@ Fetch Logos: Fetch Logos
 File {0} already exists. Overwrite?: ھۆججەت {0} مەۋجۇت. Overwrite?
 File exists: ھۆججەت مەۋجۇت
 Filters: سۈزگۈچ
+Format Detection: فورمات بايقاش
+Fullscreen: تولۇق ئېكران
 Fullscreen (hide UI) - press ESC to exit: پۈتۈن ئېكران (UI نى يوشۇرۇش) - چېكىنىش ئۈچۈن ESC نى بېسىڭ
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub خاتالىقى
 Go back to live: ياشاشقا قايتىڭ
+Grid: Grid
 Group: گۇرۇپپا
 Half speed (0.5x): يېرىم سۈرئەت (0.5x)
 Help: ياردەم
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS قويۇش: hls.js (MIT ئىجازەتن
 Image: رەسىم
 Import: ئەكىرىش
 Import cancelled or no channels mapped.: ئىمپورت ئەمەلدىن قالدۇرۇلدى ياكى خەرىتە سىزىلمىدى.
+Import Error: خاتالىق ئەكىرىش
 Import error: {0}: ئەكىرىش خاتالىقى: {0}
 Import from URL: URL دىن ئەكىرىش
 Import JSON: JSON نى ئەكىرىڭ
 Import JSON from URL: JSON نى URL دىن ئەكىرىڭ
 Import Local: يەرلىك ئىمپورت
+Imported {0} channels from code.: كودتىن {0} قاناللارنى ئىمپورت قىلدى.
 Imported {0} channels from JSON via mapping.: خەرىتە ئارقىلىق JSON دىن {0} قاناللارنى ئىمپورت قىلدى.
 Imported {0} channels from URL.: URL دىن {0} قاناللارنى ئىمپورت قىلدى.
 In Both: ھەر ئىككىسىدە
@@ -181,6 +194,7 @@ Invalid JSON: {0}: ئىناۋەتسىز JSON: {0}
 Invalid playlist URL.: ئىناۋەتسىز تىزىملىك ​​URL.
 Invalid URL.: ئىناۋەتسىز URL.
 Json: Json
+JSON parsing error: {0}: JSON تەھلىل قىلىش خاتالىقى: {0}
 JSON Property: JSON مۈلۈك
 Ko-fi: قەھۋە
 Language: تىل
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: قويۇش تىزىملىكى ھۆججىتىنى (M3U / JSON) كومپيۇتېرىڭىزدىن يۈكلەڭ
 Loaded: يۈكلەندى
 Loaded {0} channels from JSON file via mapping.: خەرىتە ئارقىلىق JSON ھۆججىتىدىن {0} قاناللىرى يۈكلەندى.
-Loaded {0} channels from JSON file.: JSON ھۆججىتىدىن {0} قاناللىرى يۈكلەندى.
 Loaded {0} channels from JSON URL.: JSON URL دىن {0} قاناللىرى يۈكلەندى.
 Loaded {0} channels from M3U file.: M3U ھۆججىتىدىن {0} قاناللىرى يۈكلەندى.
 Loaded {0} channels from M3U URL.: M3U URL دىن {0} قاناللىرى يۈكلەندى.
@@ -215,9 +228,11 @@ Logos Matching Threshold: بەلگە ماس كېلىدىغان چەك چېكى
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: بەلگە ئامبىرى - ئىگىسى / repo / path نى تاللاڭ (سۈكۈتتىكى OwnerPlugins / بەلگە).
 Logos Source: Logos Source
 Logos Subfolder: Logos Subfolder
+M3U parsing error: {0}: M3U تەھلىل قىلىش خاتالىقى: {0}
 Map JSON properties to channel fields:: خەرىتە JSON خۇسۇسىيىتىنى قانال مەيدانىغا:
 Mapping saved for future imports of this file.: خەرىتە بۇ ھۆججەتنىڭ كەلگۈسىدىكى ئىمپورت قىلىنىشى ئۈچۈن ساقلانغان.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: بوسۇغىدىن ماسلاشتۇرۇش - EPG ۋە بەلگە ئۈچۈن تۇتۇق مۇسابىقە سەزگۈرلۈكىنى بەلگىلەڭ.
+Mini Player: Mini Player
 Move to Group: گۇرۇپپىغا يۆتكىڭ
 Moved: يۆتكەلدى
 Name: ئىسمى
@@ -228,14 +243,18 @@ Next: كېيىنكى
 Next ▶: كېيىنكى ▶
 No .m3u files found on GitHub repository.: GitHub ئامبىرىدا تېپىلمىغان .m3u ھۆججىتى يوق.
 No cache folder found.: غەملەك ھۆججەت قىسقۇچى تېپىلمىدى.
+No channel selected: ھېچقانداق قانال تاللانمىدى
 No channels could be mapped or import cancelled.: ھېچقانداق قانالنى خەرىتە قىلىشقا ياكى ئىمپورت قىلىشنى ئەمەلدىن قالدۇرۇشقا بولمايدۇ.
 No channels could be mapped. Check your mapping rules.: ھېچقانداق قانالنى سىزىشقا بولمايدۇ. خەرىتە قائىدىلىرىڭىزنى تەكشۈرۈڭ.
+No channels found in JSON.: JSON دا ھېچقانداق قانال تېپىلمىدى.
+No channels found in M3U.: M3U دا ھېچقانداق قانال تېپىلمىدى.
 No channels loaded from JSON URL.: JSON URL دىن ھېچقانداق قانال يۈكلەنمىدى.
 No channels loaded from M3U URL.: M3U URL دىن يۈكلەنگەن قانال يوق.
 No channels loaded from M3U.: M3U دىن يۈكلەنگەن قانال يوق.
 No channels loaded.: ھېچقانداق قانال يۈكلەنمىدى.
 No channels mapped: ھېچقانداق قانال خەرىتىسى يوق
 No channels selected.: ھېچقانداق قانال تاللانمىدى.
+No channels to import.: ئىمپورت قىلىدىغان يول يوق.
 No duplicate URLs found.: كۆپەيتىلگەن URL تېپىلمىدى.
 No EPG data: EPG سانلىق مەلۇماتى يوق
 No EPG information available for this channel.: بۇ قانال ئۈچۈن EPG ئۇچۇرى يوق.
@@ -245,6 +264,8 @@ No favorite channels to export.: ئېكسپورت قىلىشقا ئامراق ق
 No missing channels to export.: ئېكىسپورت قىلىدىغان يوقاپ كەتكەن يول يوق.
 No playlist found: قويۇش تىزىملىكى تېپىلمىدى
 No second playlist loaded.: ئىككىنچى قويۇش تىزىملىكى يۈكلەنمىدى.
+No stream URL available for this channel.: بۇ قانال ئۈچۈن ئېقىم URL يوق.
+No text to import.: ئىمپورت قىلىدىغان تېكىست يوق.
 No updates available.: ھېچقانداق يېڭىلاش يوق.
 Normal speed (1x): نورمال سۈرئەت (1x)
 Not connected to the box.: ساندۇققا ئۇلانمىدى.
@@ -261,7 +282,9 @@ Pause/Resume live stream: ۋاقىتلىق ئېقىننى توختىتىش / ئ�
 Paused: توختاپ قالدى
 PayPal: PayPal
 Picture-in-Picture mode: رەسىمدىكى رەسىم ھالىتى
+Play/Pause: ئويناش / توختىتىش
 Player Controls: قويغۇچ كونتروللىرى
+Playing: ئويناش
 Playlist & Groups: قويۇش تىزىملىكى ۋە گۇرۇپپىلار
 Playlist Comparison: قويۇش تىزىملىكى سېلىشتۇرۇش
 Playlist Editor: قويۇش تىزىملىكى تەھرىرلىگۈچى
@@ -272,10 +295,12 @@ Please select a program first.: ئالدى بىلەن بىر پروگراممى�
 Preview (first 5 channels): ئالدىن كۆرۈش (ئالدىنقى 5 قانال)
 Preview error: {0}: ئالدىن كۆرۈش خاتالىقى: {0}
 Program Details: پروگرامما تەپسىلاتلىرى
+Ready: تەييار
 Ready.: تەييار.
 Recent: يېقىنقى
 Recent files – quick access to last 5 opened playlists.: يېقىنقى ھۆججەتلەر - ئاخىرقى 5 ئېچىلغان قويۇش تىزىملىكىنى تېز زىيارەت قىلىش.
 Recent playlists: يېقىنقى قويۇش تىزىملىكى
+Refresh Code: كودنى يېڭىلاش
 Refresh EPG: EPG نى يېڭىلاڭ
 Refresh EPG List: EPG تىزىملىكىنى يېڭىلاڭ
 Refresh from GitHub: GitHub دىن يېڭىلاڭ
@@ -301,6 +326,7 @@ Search channels by name: ئىسىملارنى ئىزدەڭ
 Search channels...: ئىزدەش قاناللىرى ...
 sec: سېكۇنت
 Second playlist loaded: {0} channels: ئىككىنچى قويۇش تىزىملىكى يۈكلەندى: {0} قانال
+Select a channel to play.: ئوينايدىغان قانالنى تاللاڭ.
 Select a playlist first.: ئالدى بىلەن قويۇش تىزىملىكىنى تاللاڭ.
 Select target group:: نىشان گۇرۇپپىسىنى تاللاڭ:
 Select Theme: باشتېمىنى تاللاڭ
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: باشلاش
 Status: ھالەت
 Stop: توختاڭ
+Stopped: توختىدى
 Stream URL: Stream URL
 Stream URLs: Stream URLs
 Success: مۇۋەپپەقىيەت
@@ -342,7 +369,9 @@ TV Guide (EPG): TV Guide (EPG)
 TvgId: TvgId
 Type channel name to filter: سۈزۈش ئۈچۈن قانال نامىنى كىرگۈزۈڭ
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: فورماتنى ئاپتوماتىك بايقاشقا ئامالسىز. چۈشۈشتىن JSON ياكى M3U نى تاللاڭ ۋە قايتا سىناڭ.
 Unable to find version in remote project file.: يىراقتىكى ھۆججەت ھۆججىتىدىن نەشرىنى تاپالمىدى.
+Unsupported format. Please select JSON or M3U.: قوللىمايدىغان فورماتى. JSON ياكى M3U نى تاللاڭ.
 Update: يېڭىلاش
 Update complete. Restarting...: يېڭىلاش تاماملاندى. قايتا قوزغىتىش ...
 Update Error: يېڭىلاش خاتالىقى

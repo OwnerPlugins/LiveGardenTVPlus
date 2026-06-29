@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • ความเร็วในการเล่น: ปุ่ม 0.5x, 1x, 2x
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • จัดเรียงคอลัมน์ใด ๆ โดยการคลิกส่วนหัว; ใช้ 'รีเซ็ตคำสั่งซื้อ' เพื่อเปลี่ยนกลับเป็นคำสั่งซื้อเดิม
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • ไทม์ชิฟท์: หยุดสตรีมสดชั่วคราว; ลากแถบเลื่อนเพื่อค้นหากลับ กด 'สด' เพื่อกลับ
+▶ Play: ▶ เล่น
 ◀ Previous: ◀ ก่อนหน้า
 16 colour themes + Light/Dark variants.: ธีมสี 16 สี + ธีมสีอ่อน/เข้ม
 A new version is available. Do you want to update now?: มีเวอร์ชันใหม่ให้ใช้งานแล้ว คุณต้องการอัปเดตตอนนี้หรือไม่?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): ปรับขนาดบัฟเฟอร
 Advanced IDs: รหัสขั้นสูง
 Application status: สถานะการสมัคร
 Apply: นำมาใช้
+Apply / Import: ใช้ / นำเข้า
 Apply changes: ใช้การเปลี่ยนแปลง
 Apply Filters: ใช้ตัวกรอง
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: คุณแน่ใจหรือไม่ว่าต้องการโหลด Enigma2 GUI ใหม่\n\nอินเทอร์เฟซจะรีสตาร์ท (หน้าจอสีดำไม่กี่วินาที)
@@ -46,8 +48,10 @@ Cannot open browser: ไม่สามารถเปิดเบราว์�
 Category: หมวดหมู่
 Changelog: บันทึกการเปลี่ยนแปลง
 Channel Details: รายละเอียดช่อง
+Channel Down: ช่องลง
 Channel Info: ข้อมูลช่อง
 Channel Name: ชื่อช่อง
+Channel Up: ช่องทางขึ้น
 channels from: ช่องทางจาก
 channels from JSON: ช่องจาก JSON
 channels from JSON URL: ช่องจาก JSON URL
@@ -61,6 +65,8 @@ Clear Filters: ล้างตัวกรอง
 Clear search: ล้างการค้นหา
 Click for details: คลิกเพื่อดูรายละเอียด
 Close: ปิด
+Code: รหัส
+Code copied to clipboard.: คัดลอกโค้ดไปยังคลิปบอร์ดแล้ว
 Command name:: ชื่อคำสั่ง:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ชุมชนและการทดสอบ: CorvoBoys (corvoboys.org) และ LinuxSat-Support.com
 Compare: เปรียบเทียบ
@@ -75,6 +81,7 @@ Confirm Reload: ยืนยันการโหลดซ้ำ
 Connect: เชื่อมต่อ
 Connected: เชื่อมต่อแล้ว
 Copied: คัดลอกแล้ว
+Copy: สำเนา
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: ประเทศ
 Credits: เครดิต
@@ -141,6 +148,7 @@ Export OK: ส่งออกตกลง
 Export only favorite channels to a new M3U file: ส่งออกเฉพาะช่องโปรดไปยังไฟล์ M3U ใหม่
 Export results as JSON or M3U – export missing channels or all channels.: ส่งออกผลลัพธ์เป็น JSON หรือ M3U – ส่งออกช่องที่ขาดหายไปหรือทุกช่อง
 Export selected: เลือกส่งออกแล้ว
+Export Selected: ส่งออกที่เลือก
 Exported: ส่งออกแล้ว
 Exported {0} channels to {1}: ส่งออก {0} ช่องไปยัง {1}
 Extracting update...: กำลังแยกการอัปเดต...
@@ -154,11 +162,14 @@ Fetch Logos: ดึงโลโก้
 File {0} already exists. Overwrite?: ไฟล์ {0} มีอยู่แล้ว เขียนทับ?
 File exists: มีไฟล์อยู่
 Filters: ตัวกรอง
+Format Detection: การตรวจจับรูปแบบ
+Fullscreen: เต็มจอ
 Fullscreen (hide UI) - press ESC to exit: เต็มหน้าจอ (ซ่อน UI) - กด ESC เพื่อออก
 Geo & Country: ภูมิศาสตร์และประเทศ
 GeoBlocked: ภูมิศาสตร์ที่ถูกบล็อก
 GitHub Error: ข้อผิดพลาด GitHub
 Go back to live: กลับไปใช้ชีวิต
+Grid: กริด
 Group: กลุ่ม
 Half speed (0.5x): ความเร็วครึ่งหนึ่ง (0.5x)
 Help: ช่วย
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): การเล่น HLS: hls.js (ใบอ
 Image: ภาพ
 Import: นำเข้า
 Import cancelled or no channels mapped.: การนำเข้าถูกยกเลิกหรือไม่มีการแมปช่องใดเลย
+Import Error: ข้อผิดพลาดในการนำเข้า
 Import error: {0}: ข้อผิดพลาดในการนำเข้า: {0}
 Import from URL: นำเข้าจาก URL
 Import JSON: นำเข้า JSON
 Import JSON from URL: นำเข้า JSON จาก URL
 Import Local: นำเข้าท้องถิ่น
+Imported {0} channels from code.: นำเข้า {0} ช่องจากรหัส
 Imported {0} channels from JSON via mapping.: นำเข้า {0} ช่องจาก JSON ผ่านการทำแผนที่
 Imported {0} channels from URL.: นำเข้า {0} ช่องจาก URL
 In Both: ในทั้งสองอย่าง
@@ -181,6 +194,7 @@ Invalid JSON: {0}: JSON ไม่ถูกต้อง: {0}
 Invalid playlist URL.: URL เพลย์ลิสต์ไม่ถูกต้อง
 Invalid URL.: URL ไม่ถูกต้อง
 Json: เจสัน
+JSON parsing error: {0}: ข้อผิดพลาดในการแยกวิเคราะห์ JSON: {0}
 JSON Property: คุณสมบัติ JSON
 Ko-fi: กาแฟ
 Language: ภาษา
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: โหลดไฟล์เพลย์ลิสต์ (M3U/JSON) จากคอมพิวเตอร์ของคุณ
 Loaded: โหลดแล้ว
 Loaded {0} channels from JSON file via mapping.: โหลด {0} ช่องจากไฟล์ JSON ผ่านการทำแผนที่
-Loaded {0} channels from JSON file.: โหลด {0} ช่องจากไฟล์ JSON
 Loaded {0} channels from JSON URL.: โหลด {0} ช่องจาก JSON URL
 Loaded {0} channels from M3U file.: โหลด {0} ช่องจากไฟล์ M3U
 Loaded {0} channels from M3U URL.: โหลด {0} ช่องจาก M3U URL
@@ -215,9 +228,11 @@ Logos Matching Threshold: เกณฑ์การจับคู่โลโก
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: พื้นที่เก็บข้อมูลโลโก้ – เลือกเจ้าของ/repo/เส้นทาง (ค่าเริ่มต้น OwnerPlugins/โลโก้)
 Logos Source: ที่มาของโลโก้
 Logos Subfolder: โฟลเดอร์ย่อยโลโก้
+M3U parsing error: {0}: ข้อผิดพลาดในการแยกวิเคราะห์ M3U: {0}
 Map JSON properties to channel fields:: แมปคุณสมบัติ JSON กับช่องช่อง:
 Mapping saved for future imports of this file.: การแมปที่บันทึกไว้สำหรับการนำเข้าไฟล์นี้ในอนาคต
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: เกณฑ์การจับคู่ - ตั้งค่าความไวของการจับคู่แบบคลุมเครือสำหรับ EPG และโลโก้
+Mini Player: มินิเพลเยอร์
 Move to Group: ย้ายไปที่กลุ่ม
 Moved: ย้ายแล้ว
 Name: ชื่อ
@@ -228,14 +243,18 @@ Next: ต่อไป
 Next ▶: ถัดไป ▶
 No .m3u files found on GitHub repository.: ไม่พบไฟล์ .m3u บนที่เก็บ GitHub
 No cache folder found.: ไม่พบโฟลเดอร์แคช
+No channel selected: ไม่ได้เลือกช่อง
 No channels could be mapped or import cancelled.: ไม่สามารถแมปช่องหรือยกเลิกการนำเข้าได้
 No channels could be mapped. Check your mapping rules.: ไม่สามารถแมปช่องได้ ตรวจสอบกฎการทำแผนที่ของคุณ
+No channels found in JSON.: ไม่พบช่องใน JSON
+No channels found in M3U.: ไม่พบช่องใน M3U
 No channels loaded from JSON URL.: ไม่มีช่องที่โหลดจาก JSON URL
 No channels loaded from M3U URL.: ไม่มีช่องที่โหลดจาก M3U URL
 No channels loaded from M3U.: ไม่มีช่องที่โหลดจาก M3U
 No channels loaded.: ไม่มีช่องโหลด
 No channels mapped: ไม่มีการแมปช่อง
 No channels selected.: ไม่ได้เลือกช่อง
+No channels to import.: ไม่มีช่องทางที่จะนำเข้า
 No duplicate URLs found.: ไม่พบ URL ที่ซ้ำกัน
 No EPG data: ไม่มีข้อมูล EPG
 No EPG information available for this channel.: ไม่มีข้อมูล EPG สำหรับช่องนี้
@@ -245,6 +264,8 @@ No favorite channels to export.: ไม่มีช่องโปรดที�
 No missing channels to export.: ไม่มีช่องทางที่ขาดหายไปในการส่งออก
 No playlist found: ไม่พบเพลย์ลิสต์
 No second playlist loaded.: ไม่มีการโหลดเพลย์ลิสต์ที่สอง
+No stream URL available for this channel.: ไม่มี URL สตรีมสำหรับช่องนี้
+No text to import.: ไม่มีข้อความที่จะนำเข้า
 No updates available.: ไม่มีการอัปเดต
 Normal speed (1x): ความเร็วปกติ (1x)
 Not connected to the box.: ไม่ได้เชื่อมต่อกับกล่อง
@@ -261,7 +282,9 @@ Pause/Resume live stream: หยุดชั่วคราว / สตรีม
 Paused: หยุดชั่วคราว
 PayPal: เพย์พาล
 Picture-in-Picture mode: โหมดภาพซ้อนภาพ
+Play/Pause: เล่น/หยุดชั่วคราว
 Player Controls: การควบคุมผู้เล่น
+Playing: กำลังเล่น
 Playlist & Groups: เพลย์ลิสต์และกลุ่ม
 Playlist Comparison: การเปรียบเทียบเพลย์ลิสต์
 Playlist Editor: ตัวแก้ไขเพลย์ลิสต์
@@ -272,10 +295,12 @@ Please select a program first.: กรุณาเลือกโปรแกร
 Preview (first 5 channels): ดูตัวอย่าง (5 ช่องแรก)
 Preview error: {0}: ข้อผิดพลาดในการดูตัวอย่าง: {0}
 Program Details: รายละเอียดโปรแกรม
+Ready: พร้อม
 Ready.: พร้อม.
 Recent: ล่าสุด
 Recent files – quick access to last 5 opened playlists.: ไฟล์ล่าสุด - เข้าถึงเพลย์ลิสต์ที่เปิดล่าสุด 5 รายการอย่างรวดเร็ว
 Recent playlists: เพลย์ลิสต์ล่าสุด
+Refresh Code: รีเฟรชโค้ด
 Refresh EPG: รีเฟรช EPG
 Refresh EPG List: รีเฟรชรายการ EPG
 Refresh from GitHub: รีเฟรชจาก GitHub
@@ -301,6 +326,7 @@ Search channels by name: ค้นหาช่องตามชื่อ
 Search channels...: ค้นหาช่อง...
 sec: วินาที
 Second playlist loaded: {0} channels: โหลดเพลย์ลิสต์ที่สองแล้ว: {0} ช่อง
+Select a channel to play.: เลือกช่องที่จะเล่น
 Select a playlist first.: เลือกเพลย์ลิสต์ก่อน
 Select target group:: เลือกกลุ่มเป้าหมาย:
 Select Theme: เลือกธีม
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: เริ่ม
 Status: สถานะ
 Stop: หยุด
+Stopped: หยุดแล้ว
 Stream URL: URL สตรีม
 Stream URLs: สตรีม URL
 Success: ความสำเร็จ
@@ -342,7 +369,9 @@ TV Guide (EPG): ทีวีไกด์ (EPG)
 TvgId: TvgId
 Type channel name to filter: พิมพ์ชื่อช่องที่จะกรอง
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: ไม่สามารถตรวจจับรูปแบบอัตโนมัติได้ โปรดเลือก JSON หรือ M3U จากเมนูแบบเลื่อนลงแล้วลองอีกครั้ง
 Unable to find version in remote project file.: ไม่พบเวอร์ชันในไฟล์โครงการระยะไกล
+Unsupported format. Please select JSON or M3U.: รูปแบบที่ไม่รองรับ โปรดเลือก JSON หรือ M3U
 Update: อัปเดต
 Update complete. Restarting...: การอัปเดตเสร็จสมบูรณ์ กำลังรีสตาร์ท...
 Update Error: ข้อผิดพลาดในการอัปเดต

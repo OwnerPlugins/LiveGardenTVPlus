@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Luas athsheinm: cnaipí 0.5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sórtáil aon cholún trí cheanntásc a chliceáil; bain úsáid as 'Ordú Athshocraigh' chun filleadh ar an mbunordú.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Athrú ama: sos sruth beo; tarraing sleamhnán a lorg ar ais; brúigh 'Live' chun filleadh.
+▶ Play: ▶ Seinn
 ◀ Previous: ◀ Roimhe seo
 16 colour themes + Light/Dark variants.: 16 théama datha + leagan Solas/Dorcha.
 A new version is available. Do you want to update now?: Tá leagan nua ar fáil. Ar mhaith leat nuashonrú anois?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Coigeartaigh méid maoláin (1-10 soicind)
 Advanced IDs: Ardaitheantais
 Application status: Stádas iarratais
 Apply: Cuir iarratas isteach
+Apply / Import: Iarratas / Iompórtáil
 Apply changes: Cuir athruithe i bhfeidhm
 Apply Filters: Cuir Scagairí i bhFeidhm
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: An bhfuil tú cinnte gur mian leat an GUI Enigma2 a athlódáil?\n\nAtosóidh an comhéadan (scáileán dubh ar feadh cúpla soicind).
@@ -46,8 +48,10 @@ Cannot open browser: Ní féidir brabhsálaí a oscailt
 Category: Catagóir
 Changelog: Loga athrú
 Channel Details: Sonraí Cainéal
+Channel Down: Channel Down
 Channel Info: Eolas Cainéal
 Channel Name: Ainm Cainéal
+Channel Up: Cainéal Suas
 channels from: cainéil ó
 channels from JSON: cainéil ó JSON
 channels from JSON URL: cainéil ó JSON URL
@@ -61,6 +65,8 @@ Clear Filters: Scagairí Glan
 Clear search: Glan cuardach
 Click for details: Cliceáil le haghaidh sonraí
 Close: Dún
+Code: Cód
+Code copied to clipboard.: Cóipeáladh an cód chuig an ngearrthaisce.
 Command name:: Ainm an ordaithe:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Pobal & tástáil: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: Déan comparáid idir
@@ -75,6 +81,7 @@ Confirm Reload: Deimhnigh Athlódáil
 Connect: Ceangail
 Connected: Ceangailte
 Copied: Cóipeáladh
+Copy: Cóip
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Tír
 Credits: Creidmheasanna
@@ -141,6 +148,7 @@ Export OK: Easpórtáil OK
 Export only favorite channels to a new M3U file: Easpórtáil ach na cainéil is fearr leat chuig comhad M3U nua
 Export results as JSON or M3U – export missing channels or all channels.: Easpórtáil torthaí mar JSON nó M3U - easpórtáil cainéil atá in easnamh nó gach cainéal.
 Export selected: Easpórtáil roghnaithe
+Export Selected: Easpórtáil Roghnaithe
 Exported: Onnmhairithe
 Exported {0} channels to {1}: Easpórtáladh {0} cainéal go {1}
 Extracting update...: Nuashonrú á bhaint...
@@ -154,11 +162,14 @@ Fetch Logos: Faigh Lógónna
 File {0} already exists. Overwrite?: Tá comhad {0} ann cheana. Forscríobh?
 File exists: Tá comhad ann
 Filters: Scagairí
+Format Detection: Brath Formáid
+Fullscreen: Lánscáileán
 Fullscreen (hide UI) - press ESC to exit: Lánscáileán (folaigh Chomhéadain) - brúigh ESC chun imeacht
 Geo & Country: Geo & Tír
 GeoBlocked: Geobhlocáilte
 GitHub Error: Earráid GitHub
 Go back to live: Téigh ar ais chun cónaí
+Grid: Greille
 Group: Grúpa
 Half speed (0.5x): Leathluas (0.5x)
 Help: Cabhrú
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): Athsheinm HLS: hls.js (ceadúnas MIT)
 Image: Íomhá
 Import: Iompórtáil
 Import cancelled or no channels mapped.: Cealaíodh an iompórtáil nó níor léarscáilíodh cainéil ar bith.
+Import Error: Earráid Iompórtála
 Import error: {0}: Earráid iompórtála: {0}
 Import from URL: Iompórtáil ó URL
 Import JSON: Iompórtáil JSON
 Import JSON from URL: Iompórtáil JSON ón URL
 Import Local: Iompórtáil Áitiúil
+Imported {0} channels from code.: Iompórtáladh {0} cainéal ón gcód.
 Imported {0} channels from JSON via mapping.: Iompórtáladh {0} cainéal ó JSON trí mhapáil.
 Imported {0} channels from URL.: Iompórtáladh {0} cainéal ó URL.
 In Both: Sa Dá
@@ -181,6 +194,7 @@ Invalid JSON: {0}: JSON neamhbhailí: {0}
 Invalid playlist URL.: URL seinmliosta neamhbhailí.
 Invalid URL.: URL neamhbhailí.
 Json: Seosamh
+JSON parsing error: {0}: Earráid pharsála JSON: {0}
 JSON Property: Maoin JSON
 Ko-fi: Caife
 Language: Teanga
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Luchtaigh comhad seinmliosta (M3U/JSON) ó do ríomhaire
 Loaded: Luchtaithe
 Loaded {0} channels from JSON file via mapping.: Lódáilte {0} cainéal ó chomhad JSON trí mhapáil.
-Loaded {0} channels from JSON file.: Lódáilte {0} cainéal ó chomhad JSON.
 Loaded {0} channels from JSON URL.: Lódáilte {0} cainéal ó JSON URL.
 Loaded {0} channels from M3U file.: Lódáilte {0} cainéal ó chomhad M3U.
 Loaded {0} channels from M3U URL.: Lódáilte {0} cainéal ó URL M3U.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Lógónna Tairseach Meaitseála
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Stór lógónna – roghnaigh úinéir/athcheannaigh/cosán (réamhshocraithe OwnerPlugins/logos).
 Logos Source: Foinse Logos
 Logos Subfolder: Fofhillteán Logos
+M3U parsing error: {0}: Earráid pharsála M3U: {0}
 Map JSON properties to channel fields:: Mapáil airíonna JSON chuig réimsí cainéil:
 Mapping saved for future imports of this file.: Sábháiltear an léarscáiliú le haghaidh iompórtáil an chomhaid seo amach anseo.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Tairseacha meaitseála – socraigh íogaireacht mheaitse doiléir le haghaidh EPG agus lógónna.
+Mini Player: Imreoir mion
 Move to Group: Bog go Grúpa
 Moved: Ar athraíodh a ionad
 Name: Ainm
@@ -228,14 +243,18 @@ Next: Ar aghaidh
 Next ▶: Ar aghaidh ▶
 No .m3u files found on GitHub repository.: Níor aimsíodh aon chomhaid .m3u ar stór GitHub.
 No cache folder found.: Níor aimsíodh aon fhillteán taisce.
+No channel selected: Níl aon chainéal roghnaithe
 No channels could be mapped or import cancelled.: Níorbh fhéidir aon chainéil a mhapáil ná iompórtáil a chealú.
 No channels could be mapped. Check your mapping rules.: Níorbh fhéidir aon chainéil a mhapáil. Seiceáil do rialacha mapála.
+No channels found in JSON.: Níor aimsíodh aon chainéil in JSON.
+No channels found in M3U.: Níor aimsíodh aon chainéil in M3U.
 No channels loaded from JSON URL.: Níor lódaíodh aon chainéil ó URL JSON.
 No channels loaded from M3U URL.: Níor luchtaíodh aon chainéil ó URL M3U.
 No channels loaded from M3U.: Níor luchtaíodh aon chainéil ó M3U.
 No channels loaded.: Níor luchtaíodh aon chainéil.
 No channels mapped: Níl aon chainéil mapáilte
 No channels selected.: Níl aon chainéil roghnaithe.
+No channels to import.: Níl aon chainéil le hiompórtáil.
 No duplicate URLs found.: Níor aimsíodh URLanna dúblacha.
 No EPG data: Gan sonraí EPG
 No EPG information available for this channel.: Níl aon fhaisnéis EPG ar fáil don chainéal seo.
@@ -245,6 +264,8 @@ No favorite channels to export.: Níl aon chainéil is fearr leat le heaspórtá
 No missing channels to export.: Níl aon chainéil in easnamh le heaspórtáil.
 No playlist found: Níor aimsíodh aon seinnliosta
 No second playlist loaded.: Níor lódaíodh an dara seinmliosta.
+No stream URL available for this channel.: Níl URL srutha ar fáil don chainéal seo.
+No text to import.: Gan téacs le hiompórtáil.
 No updates available.: Níl aon nuashonruithe ar fáil.
 Normal speed (1x): Gnáthluas (1x)
 Not connected to the box.: Gan ceangailte leis an mbosca.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Cuir ar sos/atosú sruth beo
 Paused: Sos
 PayPal: PayPal
 Picture-in-Picture mode: Mód Pictiúr-i-Phictiúr
+Play/Pause: Súgradh/Sos
 Player Controls: Rialuithe Imreoir
+Playing: Ag imirt
 Playlist & Groups: Seinmliosta & Grúpaí
 Playlist Comparison: Comparáid Seinmliosta
 Playlist Editor: Eagarthóir playlist
@@ -272,10 +295,12 @@ Please select a program first.: Roghnaigh clár ar dtús.
 Preview (first 5 channels): Réamhamharc (an chéad 5 chainéal)
 Preview error: {0}: Earráid réamhamhairc: {0}
 Program Details: Sonraí an Chláir
+Ready: Réidh
 Ready.: Réidh.
 Recent: le déanaí
 Recent files – quick access to last 5 opened playlists.: Comhaid le déanaí – rochtain thapa ar na 5 seinnliosta deiridh a osclaíodh.
 Recent playlists: Seinmliostaí le déanaí
+Refresh Code: Cód a athnuachan
 Refresh EPG: EPG a athnuachan
 Refresh EPG List: Athnuaigh an liosta EPG
 Refresh from GitHub: Athnuaigh ó GitHub
@@ -301,6 +326,7 @@ Search channels by name: Cuardaigh cainéil de réir ainm
 Search channels...: Cuardach cainéil...
 sec: soic
 Second playlist loaded: {0} channels: Lódaíodh an dara seinmliosta: {0} cainéal
+Select a channel to play.: Roghnaigh cainéal le seinnt.
 Select a playlist first.: Roghnaigh seinmliosta ar dtús.
 Select target group:: Roghnaigh spriocghrúpa:
 Select Theme: Roghnaigh Téama
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Tosaigh
 Status: Stádas
 Stop: Stop
+Stopped: Stopadh
 Stream URL: Sruth URL
 Stream URLs: Sruth URLanna
 Success: Rath
@@ -342,7 +369,9 @@ TV Guide (EPG): Treoir Teilifíse (EPG)
 TvgId: TvgId
 Type channel name to filter: Clóscríobh ainm an chainéil le scagadh
 UI: MaterialDesignThemes.Wpf: Chomhéadain: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Ní féidir an fhormáid a bhrath go huathoibríoch. Roghnaigh JSON nó M3U ón roghchlár anuas agus bain triail eile as.
 Unable to find version in remote project file.: Ní féidir an leagan a aimsiú sa chianchomhad tionscadail.
+Unsupported format. Please select JSON or M3U.: Formáid nach dtacaítear léi. Roghnaigh JSON nó M3U.
 Update: Nuashonrú
 Update complete. Restarting...: Nuashonrú críochnaithe. Á atosú...
 Update Error: Earráid Nuashonraithe

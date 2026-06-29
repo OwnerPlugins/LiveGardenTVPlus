@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Ijro qilish tezligi: 0,5x, 1x, 2x tugmalari.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sarlavhani bosish orqali istalgan ustunni saralash; asl tartibni qaytarish uchun "Buyurtmani tiklash" dan foydalaning.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: jonli translatsiyani to‘xtatib turish; orqaga qaytish uchun slayderni torting; qaytish uchun "Jonli" tugmasini bosing.
+▶ Play: ▶ O'ynang
 ◀ Previous: ◀ Oldingi
 16 colour themes + Light/Dark variants.: 16 ta rangli mavzular + Ochiq/qora variantlar.
 A new version is available. Do you want to update now?: Yangi versiya mavjud. Hozir yangilashni xohlaysizmi?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Bufer hajmini sozlash (1-10 soniya)
 Advanced IDs: Kengaytirilgan identifikatorlar
 Application status: Ilova holati
 Apply: Murojaat qiling
+Apply / Import: Qo'llash / Import qilish
 Apply changes: O'zgarishlarni qo'llash
 Apply Filters: Filtrlarni qo'llash
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Haqiqatan ham Enigma2 GUI-ni qayta yuklamoqchimisiz?\n\nInterfeys qayta ishga tushadi (bir necha soniya qora ekran).
@@ -46,8 +48,10 @@ Cannot open browser: Brauzerni ochib bo'lmadi
 Category: Turkum
 Changelog: O'zgarishlar jurnali
 Channel Details: Kanal tafsilotlari
+Channel Down: Kanal pastga
 Channel Info: Kanal haqida ma'lumot
 Channel Name: Kanal nomi
+Channel Up: Kanal yuqoriga
 channels from: dan kanallar
 channels from JSON: JSON kanallari
 channels from JSON URL: JSON URL dan kanallar
@@ -61,6 +65,8 @@ Clear Filters: Filtrlarni tozalash
 Clear search: Qidiruvni tozalash
 Click for details: Tafsilotlar uchun bosing
 Close: Yopish
+Code: Kod
+Code copied to clipboard.: Kod vaqtinchalik xotiraga nusxalandi.
 Command name:: Buyruq nomi:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Hamjamiyat va test: CorvoBoys (corvoboys.org) va LinuxSat-Support.com
 Compare: Taqqoslash
@@ -75,6 +81,7 @@ Confirm Reload: Qayta yuklashni tasdiqlang
 Connect: Ulanish
 Connected: Ulangan
 Copied: Ko‘chirildi
+Copy: Nusxalash
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Mamlakat
 Credits: Kreditlar
@@ -141,6 +148,7 @@ Export OK: Eksport OK
 Export only favorite channels to a new M3U file: Yangi M3U fayliga faqat sevimli kanallarni eksport qiling
 Export results as JSON or M3U – export missing channels or all channels.: Natijalarni JSON yoki M3U sifatida eksport qiling - etishmayotgan kanallarni yoki barcha kanallarni eksport qiling.
 Export selected: Eksport tanlangan
+Export Selected: Tanlangan eksport
 Exported: Eksport qilingan
 Exported {0} channels to {1}: {0} ta kanal {1} ​​ga eksport qilindi
 Extracting update...: Yangilanish chiqarilmoqda...
@@ -154,11 +162,14 @@ Fetch Logos: Logotiplarni olish
 File {0} already exists. Overwrite?: {0} fayli allaqachon mavjud. Ustiga yozilsinmi?
 File exists: Fayl mavjud
 Filters: Filtrlar
+Format Detection: Formatni aniqlash
+Fullscreen: Toʻliq ekran
 Fullscreen (hide UI) - press ESC to exit: To'liq ekran (UI yashirish) - chiqish uchun ESC tugmasini bosing
 Geo & Country: Geo & Country
 GeoBlocked: Geoblocked
 GitHub Error: GitHub xatosi
 Go back to live: Hayotga qayting
+Grid: To‘r
 Group: Guruh
 Half speed (0.5x): Yarim tezlik (0,5x)
 Help: Yordam
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS ijrosi: hls.js (MIT litsenziyasi)
 Image: Rasm
 Import: Import
 Import cancelled or no channels mapped.: Import bekor qilindi yoki hech qanday kanal koʻrsatilmagan.
+Import Error: Import xatosi
 Import error: {0}: Import xatosi: {0}
 Import from URL: URL manzilidan import qilish
 Import JSON: JSON-ni import qiling
 Import JSON from URL: URL manzilidan JSON-ni import qiling
 Import Local: Mahalliy import
+Imported {0} channels from code.: Koddan {0} ta kanal import qilindi.
 Imported {0} channels from JSON via mapping.: Xarita orqali JSON’dan {0} ta kanal import qilindi.
 Imported {0} channels from URL.: URL manzilidan {0} ta kanal import qilindi.
 In Both: Ikkalasida
@@ -181,6 +194,7 @@ Invalid JSON: {0}: Yaroqsiz JSON: {0}
 Invalid playlist URL.: Yaroqsiz pleylist URL.
 Invalid URL.: URL noto‘g‘ri.
 Json: Json
+JSON parsing error: {0}: JSON tahlil xatosi: {0}
 JSON Property: JSON mulki
 Ko-fi: Kofe
 Language: Til
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Pleylist faylini (M3U/JSON) kompyuteringizdan yuklang
 Loaded: Yuklangan
 Loaded {0} channels from JSON file via mapping.: JSON faylidan {0} ta kanal xaritalash orqali yuklandi.
-Loaded {0} channels from JSON file.: JSON faylidan {0} ta kanal yuklandi.
 Loaded {0} channels from JSON URL.: JSON URL manzilidan {0} ta kanal yuklandi.
 Loaded {0} channels from M3U file.: M3U faylidan {0} ta kanal yuklandi.
 Loaded {0} channels from M3U URL.: M3U URL manzilidan {0} ta kanal yuklandi.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Logotiplarning mos keladigan chegarasi
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logotiplar ombori - egasini/repo/yo'lni tanlang (standart OwnerPlugins/logotiplar).
 Logos Source: Logotiplar manbai
 Logos Subfolder: Logotiplar pastki papkasi
+M3U parsing error: {0}: M3U tahlil xatosi: {0}
 Map JSON properties to channel fields:: JSON xususiyatlarini kanal maydonlariga xaritalash:
 Mapping saved for future imports of this file.: Ushbu faylni kelajakda import qilish uchun xaritalash saqlangan.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Mos keladigan chegaralar - EPG va logotiplar uchun noaniq moslik sezgirligini o'rnating.
+Mini Player: Mini o'yinchi
 Move to Group: Guruhga o'tish
 Moved: Koʻchirildi
 Name: Ism
@@ -228,14 +243,18 @@ Next: Keyingisi
 Next ▶: Keyingi ▶
 No .m3u files found on GitHub repository.: GitHub omborida .m3u fayl topilmadi.
 No cache folder found.: Hech qanday kesh jild topilmadi.
+No channel selected: Hech qanday kanal tanlanmagan
 No channels could be mapped or import cancelled.: Hech qanday kanalni xaritalash yoki importni bekor qilish mumkin emas.
 No channels could be mapped. Check your mapping rules.: Hech qanday kanalni xaritalash mumkin emas. Xarita tuzish qoidalarini tekshiring.
+No channels found in JSON.: JSON ichida hech qanday kanal topilmadi.
+No channels found in M3U.: M3U-da hech qanday kanal topilmadi.
 No channels loaded from JSON URL.: JSON URL manzilidan hech qanday kanal yuklanmagan.
 No channels loaded from M3U URL.: M3U URL manzilidan hech qanday kanal yuklanmagan.
 No channels loaded from M3U.: M3U dan hech qanday kanal yuklanmagan.
 No channels loaded.: Hech qanday kanal yuklanmagan.
 No channels mapped: Hech qanday kanal xaritalanmagan
 No channels selected.: Hech qanday kanal tanlanmagan.
+No channels to import.: Import qilinadigan kanallar yoʻq.
 No duplicate URLs found.: Hech qanday takroriy URL topilmadi.
 No EPG data: EPG maʼlumotlari yoʻq
 No EPG information available for this channel.: Bu kanal uchun EPG maʼlumoti mavjud emas.
@@ -245,6 +264,8 @@ No favorite channels to export.: Eksport qilinadigan sevimli kanallar yoʻq.
 No missing channels to export.: Eksport qilish uchun etishmayotgan kanallar yo'q.
 No playlist found: Hech qanday pleylist topilmadi
 No second playlist loaded.: Ikkinchi pleylist yuklanmagan.
+No stream URL available for this channel.: Bu kanal uchun oqim URL manzili mavjud emas.
+No text to import.: Import qilinadigan matn yo'q.
 No updates available.: Hech qanday yangilanish mavjud emas.
 Normal speed (1x): Oddiy tezlik (1x)
 Not connected to the box.: Qutiga ulanmagan.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Jonli translatsiyani to‘xtatib turish/davom etish
 Paused: Pauza qilingan
 PayPal: PayPal
 Picture-in-Picture mode: Tasvir ichidagi rasm rejimi
+Play/Pause: Oʻynatish/toʻxtatib turish
 Player Controls: O'yinchi boshqaruvlari
+Playing: Oʻynamoqda
 Playlist & Groups: Pleylist va guruhlar
 Playlist Comparison: Pleylistni taqqoslash
 Playlist Editor: Pleylist muharriri
@@ -272,10 +295,12 @@ Please select a program first.: Iltimos, avval dasturni tanlang.
 Preview (first 5 channels): Ko‘rib chiqish (birinchi 5 ta kanal)
 Preview error: {0}: Ko‘rib chiqish xatosi: {0}
 Program Details: Dastur tafsilotlari
+Ready: Tayyor
 Ready.: Tayyor.
 Recent: Yaqinda
 Recent files – quick access to last 5 opened playlists.: Oxirgi fayllar - oxirgi 5 ochilgan pleylistga tezkor kirish.
 Recent playlists: Oxirgi pleylistlar
+Refresh Code: Kodni yangilash
 Refresh EPG: EPGni yangilang
 Refresh EPG List: EPG roʻyxatini yangilang
 Refresh from GitHub: GitHub dan yangilang
@@ -301,6 +326,7 @@ Search channels by name: Kanallarni nomi bo'yicha qidiring
 Search channels...: Kanallarni qidirish...
 sec: sek
 Second playlist loaded: {0} channels: Ikkinchi pleylist yuklandi: {0} ta kanal
+Select a channel to play.: O‘ynash uchun kanalni tanlang.
 Select a playlist first.: Avval pleylistni tanlang.
 Select target group:: Maqsadli guruhni tanlang:
 Select Theme: Mavzuni tanlang
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Boshlash
 Status: Status
 Stop: STOP
+Stopped: To'xtatildi
 Stream URL: Strim URL
 Stream URLs: Oqim URL manzillari
 Success: Muvaffaqiyat
@@ -342,7 +369,9 @@ TV Guide (EPG): Televizion qoʻllanma (EPG)
 TvgId: TvgId
 Type channel name to filter: Filtrlash uchun kanal nomini kiriting
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Formatni avtomatik aniqlash imkonsiz. Iltimos, ochiladigan menyudan JSON yoki M3U ni tanlang va qaytadan urinib ko'ring.
 Unable to find version in remote project file.: Masofaviy loyiha faylida versiya topilmadi.
+Unsupported format. Please select JSON or M3U.: Qo'llab-quvvatlanmaydigan format. JSON yoki M3U ni tanlang.
 Update: Yangilash
 Update complete. Restarting...: Yangilash tugallandi. Qayta ishga tushirilmoqda...
 Update Error: Yangilash xatosi

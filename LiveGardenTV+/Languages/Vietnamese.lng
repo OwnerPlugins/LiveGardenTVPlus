@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Tốc độ phát lại: các nút 0,5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sắp xếp bất kỳ cột nào bằng cách nhấp vào tiêu đề; sử dụng 'Đặt lại thứ tự' để trở lại thứ tự ban đầu.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: tạm dừng phát trực tiếp; kéo thanh trượt để tìm lại; nhấn 'Trực tiếp' để quay lại.
+▶ Play: chơi
 ◀ Previous: ◀ Trước đó
 16 colour themes + Light/Dark variants.: 16 chủ đề màu sắc + các biến thể Sáng/Tối.
 A new version is available. Do you want to update now?: Một phiên bản mới có sẵn. Bạn có muốn cập nhật ngay bây giờ không?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Điều chỉnh kích thước bộ đệm (1
 Advanced IDs: ID nâng cao
 Application status: Trạng thái đơn đăng ký
 Apply: Áp dụng
+Apply / Import: Áp dụng/Nhập khẩu
 Apply changes: Áp dụng thay đổi
 Apply Filters: Áp dụng bộ lọc
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Bạn có chắc chắn muốn tải lại GUI Enigma2 không?\n\nGiao diện sẽ khởi động lại (màn hình đen trong vài giây).
@@ -46,8 +48,10 @@ Cannot open browser: Không thể mở trình duyệt
 Category: Loại
 Changelog: Nhật ký thay đổi
 Channel Details: Chi tiết kênh
+Channel Down: Xuống kênh
 Channel Info: Thông tin kênh
 Channel Name: Tên kênh
+Channel Up: Lên kênh
 channels from: kênh từ
 channels from JSON: các kênh từ JSON
 channels from JSON URL: kênh từ URL JSON
@@ -61,6 +65,8 @@ Clear Filters: Xóa bộ lọc
 Clear search: Xóa tìm kiếm
 Click for details: Bấm để biết chi tiết
 Close: Đóng
+Code: Mã số
+Code copied to clipboard.: Đã sao chép mã vào clipboard.
 Command name:: Tên lệnh:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Cộng đồng và thử nghiệm: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: So sánh
@@ -75,6 +81,7 @@ Confirm Reload: Xác nhận tải lại
 Connect: Kết nối
 Connected: Đã kết nối
 Copied: Đã sao chép
+Copy: Sao chép
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Quốc gia
 Credits: Tín dụng
@@ -141,6 +148,7 @@ Export OK: Xuất được rồi
 Export only favorite channels to a new M3U file: Chỉ xuất các kênh yêu thích sang tệp M3U mới
 Export results as JSON or M3U – export missing channels or all channels.: Xuất kết quả dưới dạng JSON hoặc M3U – xuất các kênh bị thiếu hoặc tất cả các kênh.
 Export selected: Xuất đã chọn
+Export Selected: Xuất đã chọn
 Exported: Đã xuất
 Exported {0} channels to {1}: Đã xuất {0} kênh sang {1}
 Extracting update...: Đang trích xuất bản cập nhật...
@@ -154,11 +162,14 @@ Fetch Logos: Tìm nạp Logo
 File {0} already exists. Overwrite?: Tệp {0} đã tồn tại. Ghi đè?
 File exists: Tập tin tồn tại
 Filters: Bộ lọc
+Format Detection: Phát hiện định dạng
+Fullscreen: Toàn màn hình
 Fullscreen (hide UI) - press ESC to exit: Toàn màn hình (ẩn UI) - nhấn ESC để thoát
 Geo & Country: Địa lý & Quốc gia
 GeoBlocked: Bị chặn địa lý
 GitHub Error: Lỗi GitHub
 Go back to live: Quay trở lại để sống
+Grid: Lưới
 Group: Nhóm
 Half speed (0.5x): Một nửa tốc độ (0,5x)
 Help: Giúp đỡ
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): Phát lại HLS: hls.js (giấy phép MIT)
 Image: Hình ảnh
 Import: Nhập khẩu
 Import cancelled or no channels mapped.: Nhập bị hủy hoặc không có kênh nào được ánh xạ.
+Import Error: Lỗi nhập
 Import error: {0}: Lỗi nhập: {0}
 Import from URL: Nhập từ URL
 Import JSON: Nhập JSON
 Import JSON from URL: Nhập JSON từ URL
 Import Local: Nhập địa phương
+Imported {0} channels from code.: Đã nhập {0} kênh từ mã.
 Imported {0} channels from JSON via mapping.: Đã nhập {0} kênh từ JSON thông qua ánh xạ.
 Imported {0} channels from URL.: Đã nhập {0} kênh từ URL.
 In Both: trong cả hai
@@ -181,6 +194,7 @@ Invalid JSON: {0}: JSON không hợp lệ: {0}
 Invalid playlist URL.: URL danh sách phát không hợp lệ.
 Invalid URL.: URL không hợp lệ.
 Json: JSON
+JSON parsing error: {0}: Lỗi phân tích cú pháp JSON: {0}
 JSON Property: Thuộc tính JSON
 Ko-fi: Cà phê
 Language: Ngôn ngữ
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Tải tệp danh sách phát (M3U/JSON) từ máy tính của bạn
 Loaded: Đã tải
 Loaded {0} channels from JSON file via mapping.: Đã tải {0} kênh từ tệp JSON thông qua ánh xạ.
-Loaded {0} channels from JSON file.: Đã tải {0} kênh từ tệp JSON.
 Loaded {0} channels from JSON URL.: Đã tải {0} kênh từ URL JSON.
 Loaded {0} channels from M3U file.: Đã tải {0} kênh từ tệp M3U.
 Loaded {0} channels from M3U URL.: Đã tải {0} kênh từ URL M3U.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Ngưỡng phù hợp với biểu tượng
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Kho lưu trữ logo – chọn chủ sở hữu/repo/đường dẫn (mặc định OwnerPlugins/logo).
 Logos Source: Nguồn logo
 Logos Subfolder: Thư mục con Logos
+M3U parsing error: {0}: Lỗi phân tích cú pháp M3U: {0}
 Map JSON properties to channel fields:: Ánh xạ các thuộc tính JSON vào các trường kênh:
 Mapping saved for future imports of this file.: Bản đồ được lưu để nhập tệp này trong tương lai.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Ngưỡng phù hợp – đặt độ nhạy khớp mờ cho EPG và logo.
+Mini Player: Máy nghe nhạc mini
 Move to Group: Di chuyển đến nhóm
 Moved: Đã di chuyển
 Name: Tên
@@ -228,14 +243,18 @@ Next: Kế tiếp
 Next ▶: Tiếp theo ►
 No .m3u files found on GitHub repository.: Không tìm thấy tệp .m3u trên kho GitHub.
 No cache folder found.: Không tìm thấy thư mục bộ đệm.
+No channel selected: Không có kênh nào được chọn
 No channels could be mapped or import cancelled.: Không có kênh nào có thể được ánh xạ hoặc bị hủy nhập.
 No channels could be mapped. Check your mapping rules.: Không có kênh nào có thể được ánh xạ. Kiểm tra quy tắc lập bản đồ của bạn.
+No channels found in JSON.: Không tìm thấy kênh nào trong JSON.
+No channels found in M3U.: Không tìm thấy kênh nào trong M3U.
 No channels loaded from JSON URL.: Không có kênh nào được tải từ URL JSON.
 No channels loaded from M3U URL.: Không có kênh nào được tải từ URL M3U.
 No channels loaded from M3U.: Không có kênh nào được tải từ M3U.
 No channels loaded.: Không có kênh nào được tải.
 No channels mapped: Không có kênh nào được ánh xạ
 No channels selected.: Không có kênh nào được chọn.
+No channels to import.: Không có kênh để nhập.
 No duplicate URLs found.: Không tìm thấy URL trùng lặp.
 No EPG data: Không có dữ liệu EPG
 No EPG information available for this channel.: Không có thông tin EPG cho kênh này.
@@ -245,6 +264,8 @@ No favorite channels to export.: Không có kênh yêu thích nào để xuất.
 No missing channels to export.: Không thiếu kênh để xuất.
 No playlist found: Không tìm thấy danh sách phát nào
 No second playlist loaded.: Không có danh sách phát thứ hai nào được tải.
+No stream URL available for this channel.: Không có URL luồng nào cho kênh này.
+No text to import.: Không có văn bản để nhập.
 No updates available.: Không có bản cập nhật có sẵn.
 Normal speed (1x): Tốc độ bình thường (1x)
 Not connected to the box.: Không kết nối với hộp.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Tạm dừng/Tiếp tục phát trực tiếp
 Paused: Đã tạm dừng
 PayPal: PayPal
 Picture-in-Picture mode: Chế độ ảnh trong ảnh
+Play/Pause: Phát/Tạm dừng
 Player Controls: Điều khiển người chơi
+Playing: Đang chơi
 Playlist & Groups: Danh sách phát & Nhóm
 Playlist Comparison: So sánh danh sách phát
 Playlist Editor: Trình chỉnh sửa danh sách phát
@@ -272,10 +295,12 @@ Please select a program first.: Vui lòng chọn một chương trình đầu ti
 Preview (first 5 channels): Xem trước (5 kênh đầu tiên)
 Preview error: {0}: Lỗi xem trước: {0}
 Program Details: Chi tiết chương trình
+Ready: Sẵn sàng
 Ready.: Sẵn sàng.
 Recent: Gần đây
 Recent files – quick access to last 5 opened playlists.: Các tập tin gần đây - truy cập nhanh vào 5 danh sách phát đã mở gần đây nhất.
 Recent playlists: Danh sách phát gần đây
+Refresh Code: Làm mới mã
 Refresh EPG: Làm mới EPG
 Refresh EPG List: Làm mới danh sách EPG
 Refresh from GitHub: Làm mới từ GitHub
@@ -301,6 +326,7 @@ Search channels by name: Tìm kiếm kênh theo tên
 Search channels...: Tìm kiếm kênh...
 sec: giây
 Second playlist loaded: {0} channels: Đã tải danh sách phát thứ hai: {0} kênh
+Select a channel to play.: Chọn kênh để phát.
 Select a playlist first.: Chọn danh sách phát trước.
 Select target group:: Chọn nhóm mục tiêu:
 Select Theme: Chọn chủ đề
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Bắt đầu
 Status: Trạng thái
 Stop: Dừng lại
+Stopped: Đã dừng
 Stream URL: URL luồng
 Stream URLs: Truyền phát URL
 Success: Thành công
@@ -342,7 +369,9 @@ TV Guide (EPG): Hướng dẫn truyền hình (EPG)
 TvgId: Id Tvg
 Type channel name to filter: Nhập tên kênh để lọc
 UI: MaterialDesignThemes.Wpf: Giao diện người dùng: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Không thể tự động phát hiện định dạng. Vui lòng chọn JSON hoặc M3U từ danh sách thả xuống và thử lại.
 Unable to find version in remote project file.: Không thể tìm thấy phiên bản trong tệp dự án từ xa.
+Unsupported format. Please select JSON or M3U.: Định dạng không được hỗ trợ. Vui lòng chọn JSON hoặc M3U.
 Update: Cập nhật
 Update complete. Restarting...: Cập nhật hoàn tất. Đang khởi động lại...
 Update Error: Lỗi cập nhật

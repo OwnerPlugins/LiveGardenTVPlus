@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Ταχύτητα αναπαραγωγής: Κουμπιά 0,5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Ταξινομήστε οποιαδήποτε στήλη κάνοντας κλικ στην κεφαλίδα. χρησιμοποιήστε «Επαναφορά παραγγελίας» για να επιστρέψετε στην αρχική παραγγελία.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: παύση ζωντανής ροής. Σύρετε το ρυθμιστικό για να αναζητήσετε πίσω. πατήστε "Ζωντανά" για να επιστρέψετε.
+▶ Play: ▶ Παίξτε
 ◀ Previous: ◀ Προηγούμενο
 16 colour themes + Light/Dark variants.: 16 έγχρωμα θέματα + παραλλαγές ανοιχτό/σκούρο.
 A new version is available. Do you want to update now?: Μια νέα έκδοση είναι διαθέσιμη. Θέλετε να ενημερώσετε τώρα;
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Προσαρμογή μεγέθους buffer 
 Advanced IDs: Προηγμένα αναγνωριστικά
 Application status: Κατάσταση εφαρμογής
 Apply: Εφαρμόζω
+Apply / Import: Εφαρμογή / Εισαγωγή
 Apply changes: Εφαρμόστε αλλαγές
 Apply Filters: Εφαρμογή φίλτρων
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Είστε βέβαιοι ότι θέλετε να επαναφορτώσετε το Enigma2 GUI;\n\nΗ διεπαφή θα επανεκκινηθεί (μαύρη οθόνη για λίγα δευτερόλεπτα).
@@ -46,8 +48,10 @@ Cannot open browser: Δεν είναι δυνατό το άνοιγμα του �
 Category: Κατηγορία
 Changelog: Καταγραφή αλλαγών
 Channel Details: Λεπτομέρειες καναλιού
+Channel Down: Κανάλι κάτω
 Channel Info: Πληροφορίες καναλιού
 Channel Name: Όνομα καναλιού
+Channel Up: Channel Up
 channels from: κανάλια από
 channels from JSON: κανάλια από JSON
 channels from JSON URL: κανάλια από JSON URL
@@ -61,6 +65,8 @@ Clear Filters: Διαγραφή φίλτρων
 Clear search: Εκκαθάριση αναζήτησης
 Click for details: Κάντε κλικ για λεπτομέρειες
 Close: Κοντά
+Code: Κώδικας
+Code copied to clipboard.: Ο κώδικας αντιγράφηκε στο πρόχειρο.
 Command name:: Όνομα εντολής:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Κοινότητα και δοκιμές: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: Συγκρίνω
@@ -75,6 +81,7 @@ Confirm Reload: Επιβεβαίωση επαναφόρτωσης
 Connect: Συνδέω
 Connected: Συνδεδεμένος
 Copied: Αντιγράφηκε
+Copy: Αντίγραφο
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Χώρα
 Credits: Πιστώσεις
@@ -141,6 +148,7 @@ Export OK: Εξαγωγή ΟΚ
 Export only favorite channels to a new M3U file: Εξαγωγή μόνο αγαπημένων καναλιών σε νέο αρχείο M3U
 Export results as JSON or M3U – export missing channels or all channels.: Εξαγωγή αποτελεσμάτων ως JSON ή M3U – εξαγωγή καναλιών που λείπουν ή όλων των καναλιών.
 Export selected: Επιλέχθηκε η εξαγωγή
+Export Selected: Επιλέχθηκε η εξαγωγή
 Exported: Εξάγονται
 Exported {0} channels to {1}: Έγινε εξαγωγή {0} καναλιών στο {1}
 Extracting update...: Εξαγωγή ενημέρωσης...
@@ -154,11 +162,14 @@ Fetch Logos: Λήψη λογότυπων
 File {0} already exists. Overwrite?: Το αρχείο {0} υπάρχει ήδη. Αντικατάσταση;
 File exists: Το αρχείο υπάρχει
 Filters: Φίλτρα
+Format Detection: Ανίχνευση μορφής
+Fullscreen: Πλήρης οθόνη
 Fullscreen (hide UI) - press ESC to exit: Πλήρης οθόνη (απόκρυψη διεπαφής χρήστη) - πατήστε ESC για έξοδο
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
 GitHub Error: Σφάλμα GitHub
 Go back to live: Επιστρέψτε για να ζήσετε
+Grid: Πλέγμα
 Group: Ομάδα
 Half speed (0.5x): Μισή ταχύτητα (0,5x)
 Help: Βοήθεια
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): Αναπαραγωγή HLS: hls.js (άδει
 Image: Εικών
 Import: Εισαγωγή
 Import cancelled or no channels mapped.: Η εισαγωγή ακυρώθηκε ή δεν αντιστοιχίστηκαν κανάλια.
+Import Error: Σφάλμα εισαγωγής
 Import error: {0}: Σφάλμα εισαγωγής: {0}
 Import from URL: Εισαγωγή από τη διεύθυνση URL
 Import JSON: Εισαγωγή JSON
 Import JSON from URL: Εισαγωγή JSON από τη διεύθυνση URL
 Import Local: Εισαγωγή Τοπικού
+Imported {0} channels from code.: Έγινε εισαγωγή {0} καναλιών από κώδικα.
 Imported {0} channels from JSON via mapping.: Εισήχθησαν {0} κανάλια από JSON μέσω χαρτογράφησης.
 Imported {0} channels from URL.: Έγινε εισαγωγή {0} καναλιών από τη διεύθυνση URL.
 In Both: Και στα δύο
@@ -181,6 +194,7 @@ Invalid JSON: {0}: Μη έγκυρο JSON: {0}
 Invalid playlist URL.: Μη έγκυρη διεύθυνση URL λίστας αναπαραγωγής.
 Invalid URL.: Μη έγκυρη διεύθυνση URL.
 Json: Json
+JSON parsing error: {0}: Σφάλμα ανάλυσης JSON: {0}
 JSON Property: Ιδιότητα JSON
 Ko-fi: Καφές
 Language: Γλώσσα
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Φορτώστε το αρχείο λίστας αναπαραγωγής (M3U/JSON) από τον υπολογιστή σας
 Loaded: Φορτωμένος
 Loaded {0} channels from JSON file via mapping.: Φόρτωσαν {0} κανάλια από αρχείο JSON μέσω αντιστοίχισης.
-Loaded {0} channels from JSON file.: Φόρτωσαν {0} κανάλια από αρχείο JSON.
 Loaded {0} channels from JSON URL.: Φόρτωσαν {0} κανάλια από JSON URL.
 Loaded {0} channels from M3U file.: Φόρτωσαν {0} κανάλια από το αρχείο M3U.
 Loaded {0} channels from M3U URL.: Φόρτωσαν {0} κανάλια από τη διεύθυνση URL του M3U.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Όριο αντιστοίχισης λογότυπων
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Αποθετήριο λογότυπων – επιλέξτε κάτοχος/repo/διαδρομή (προεπιλεγμένα OwnerPlugins/λογότυπα).
 Logos Source: Πηγή λογότυπων
 Logos Subfolder: Υποφάκελος Logos
+M3U parsing error: {0}: Σφάλμα ανάλυσης M3U: {0}
 Map JSON properties to channel fields:: Αντιστοίχιση ιδιοτήτων JSON σε πεδία καναλιού:
 Mapping saved for future imports of this file.: Η αντιστοίχιση αποθηκεύτηκε για μελλοντικές εισαγωγές αυτού του αρχείου.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Όρια αντιστοίχισης – ορίστε ευαισθησία ασαφούς αντιστοίχισης για EPG και λογότυπα.
+Mini Player: Μίνι παίκτης
 Move to Group: Μετακίνηση στην ομάδα
 Moved: Μετακινήθηκε
 Name: Ονομα
@@ -228,14 +243,18 @@ Next: Επόμενος
 Next ▶: Επόμενο ▶
 No .m3u files found on GitHub repository.: Δεν βρέθηκαν αρχεία .m3u στο αποθετήριο GitHub.
 No cache folder found.: Δεν βρέθηκε φάκελος κρυφής μνήμης.
+No channel selected: Δεν έχει επιλεγεί κανάλι
 No channels could be mapped or import cancelled.: Δεν ήταν δυνατή η αντιστοίχιση καναλιών ή η ακύρωση της εισαγωγής.
 No channels could be mapped. Check your mapping rules.: Δεν ήταν δυνατή η χαρτογράφηση καναλιών. Ελέγξτε τους κανόνες χαρτογράφησης.
+No channels found in JSON.: Δεν βρέθηκαν κανάλια στο JSON.
+No channels found in M3U.: Δεν βρέθηκαν κανάλια στο M3U.
 No channels loaded from JSON URL.: Δεν έχουν φορτωθεί κανάλια από JSON URL.
 No channels loaded from M3U URL.: Δεν φορτώθηκαν κανάλια από τη διεύθυνση URL του M3U.
 No channels loaded from M3U.: Δεν έχουν φορτωθεί κανάλια από το M3U.
 No channels loaded.: Δεν έχουν φορτωθεί κανάλια.
 No channels mapped: Δεν έχουν χαρτογραφηθεί κανάλια
 No channels selected.: Δεν επιλέχθηκαν κανάλια.
+No channels to import.: Δεν υπάρχουν κανάλια για εισαγωγή.
 No duplicate URLs found.: Δεν βρέθηκαν διπλότυπες διευθύνσεις URL.
 No EPG data: Δεν υπάρχουν δεδομένα EPG
 No EPG information available for this channel.: Δεν υπάρχουν διαθέσιμες πληροφορίες EPG για αυτό το κανάλι.
@@ -245,6 +264,8 @@ No favorite channels to export.: Δεν υπάρχουν αγαπημένα κα
 No missing channels to export.: Δεν λείπουν κανάλια για εξαγωγή.
 No playlist found: Δεν βρέθηκε λίστα αναπαραγωγής
 No second playlist loaded.: Δεν έχει φορτωθεί δεύτερη λίστα αναπαραγωγής.
+No stream URL available for this channel.: Δεν υπάρχει διαθέσιμη διεύθυνση URL ροής για αυτό το κανάλι.
+No text to import.: Δεν υπάρχει κείμενο για εισαγωγή.
 No updates available.: Δεν υπάρχουν διαθέσιμες ενημερώσεις.
 Normal speed (1x): Κανονική ταχύτητα (1x)
 Not connected to the box.: Δεν συνδέεται με το κουτί.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Παύση/Συνέχιση ζωντανής ροής
 Paused: Σε παύση
 PayPal: PayPal
 Picture-in-Picture mode: Λειτουργία Picture-in-Picture
+Play/Pause: Αναπαραγωγή/Παύση
 Player Controls: Χειριστήρια παίκτη
+Playing: Παιχνίδι
 Playlist & Groups: Λίστα αναπαραγωγής & Ομάδες
 Playlist Comparison: Σύγκριση λιστών αναπαραγωγής
 Playlist Editor: Επεξεργαστής λίστας αναπαραγωγής
@@ -272,10 +295,12 @@ Please select a program first.: Επιλέξτε πρώτα ένα πρόγρα�
 Preview (first 5 channels): Προεπισκόπηση (πρώτα 5 κανάλια)
 Preview error: {0}: Σφάλμα προεπισκόπησης: {0}
 Program Details: Λεπτομέρειες προγράμματος
+Ready: Ετοιμος
 Ready.: Ετοιμος.
 Recent: Πρόσφατος
 Recent files – quick access to last 5 opened playlists.: Πρόσφατα αρχεία – γρήγορη πρόσβαση στις τελευταίες 5 ανοιγμένες λίστες αναπαραγωγής.
 Recent playlists: Πρόσφατες λίστες αναπαραγωγής
+Refresh Code: Ανανέωση κώδικα
 Refresh EPG: Ανανέωση EPG
 Refresh EPG List: Ανανέωση λίστας EPG
 Refresh from GitHub: Ανανέωση από το GitHub
@@ -301,6 +326,7 @@ Search channels by name: Αναζήτηση καναλιών με το όνομ�
 Search channels...: Αναζήτηση καναλιών...
 sec: δευτ
 Second playlist loaded: {0} channels: Φόρτωση δεύτερης λίστας αναπαραγωγής: {0} κανάλια
+Select a channel to play.: Επιλέξτε ένα κανάλι για αναπαραγωγή.
 Select a playlist first.: Επιλέξτε πρώτα μια λίστα αναπαραγωγής.
 Select target group:: Επιλέξτε ομάδα στόχο:
 Select Theme: Επιλέξτε Θέμα
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Αρχή
 Status: Κατάσταση
 Stop: Στάση
+Stopped: Σταμάτησε
 Stream URL: URL ροής
 Stream URLs: URL ροής
 Success: Επιτυχία
@@ -342,7 +369,9 @@ TV Guide (EPG): Οδηγός τηλεόρασης (EPG)
 TvgId: TvgId
 Type channel name to filter: Πληκτρολογήστε το όνομα του καναλιού για να φιλτράρετε
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Δεν είναι δυνατός ο αυτόματος εντοπισμός μορφής. Επιλέξτε JSON ή M3U από το αναπτυσσόμενο μενού και δοκιμάστε ξανά.
 Unable to find version in remote project file.: Δεν είναι δυνατή η εύρεση της έκδοσης σε απομακρυσμένο αρχείο έργου.
+Unsupported format. Please select JSON or M3U.: Μη υποστηριζόμενη μορφή. Επιλέξτε JSON ή M3U.
 Update: Εκσυγχρονίζω
 Update complete. Restarting...: Η ενημέρωση ολοκληρώθηκε. Επανεκκίνηση…
 Update Error: Σφάλμα ενημέρωσης

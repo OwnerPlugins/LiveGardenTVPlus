@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Erreprodukzio abiadura: 0,5x, 1x, 2x botoiak.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Ordenatu edozein zutabe goiburuan klik eginez; erabili 'Berrezarri ordena' jatorrizko ordenara itzultzeko.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: zuzeneko igorpena pausatu; arrastatu graduatzailea atzera bilatzeko; sakatu 'Zuzenean' itzultzeko.
+▶ Play: ▶ Jolastu
 ◀ Previous: ◀ Aurrekoa
 16 colour themes + Light/Dark variants.: 16 kolore-gai + Argia/Iluna aldaera.
 A new version is available. Do you want to update now?: Bertsio berri bat dago eskuragarri. Orain eguneratu nahi duzu?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Doitu buffer tamaina (1-10 segundo)
 Advanced IDs: ID aurreratuak
 Application status: Aplikazioaren egoera
 Apply: Aplikatu
+Apply / Import: Aplikatu / Inportatu
 Apply changes: Aplikatu aldaketak
 Apply Filters: Aplikatu iragazkiak
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ziur Enigma2 GUI berriro kargatu nahi duzula?\n\nInterfazea berrabiaraziko da (pantaila beltza segundo batzuetan).
@@ -46,8 +48,10 @@ Cannot open browser: Ezin da arakatzailea ireki
 Category: Kategoria
 Changelog: Aldaketen erregistroa
 Channel Details: Kanalaren xehetasunak
+Channel Down: Kanala Behera
 Channel Info: Kanalaren informazioa
 Channel Name: Kanalaren izena
+Channel Up: Kanal Gora
 channels from: kanalak
 channels from JSON: JSON-ko kanalak
 channels from JSON URL: kanalak JSON URLtik
@@ -61,6 +65,8 @@ Clear Filters: Garbitu iragazkiak
 Clear search: Garbitu bilaketa
 Click for details: Sakatu xehetasunak ikusteko
 Close: Itxi
+Code: Kodea
+Code copied to clipboard.: Kopiatu da kodea arbelean.
 Command name:: Komandoaren izena:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunitatea eta probak: CorvoBoys (corvoboys.org) eta LinuxSat-Support.com
 Compare: Konparatu
@@ -75,6 +81,7 @@ Confirm Reload: Berretsi birkargatu
 Connect: Konektatu
 Connected: Konektatuta
 Copied: Kopiatua
+Copy: Kopiatu
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Herrialdea
 Credits: Kredituak
@@ -141,6 +148,7 @@ Export OK: Esportatu OK
 Export only favorite channels to a new M3U file: Esportatu gogoko kanalak soilik M3U fitxategi berri batera
 Export results as JSON or M3U – export missing channels or all channels.: Esportatu emaitzak JSON edo M3U gisa - esportatu falta diren kanalak edo kanal guztiak.
 Export selected: Esportatu hautatuta
+Export Selected: Esportatu hautatua
 Exported: Esportatua
 Exported {0} channels to {1}: {0} kanal esportatu dira {1}ra
 Extracting update...: Eguneraketa ateratzen...
@@ -154,11 +162,14 @@ Fetch Logos: Lortu logotipoak
 File {0} already exists. Overwrite?: {0} fitxategia badago jada. Gainidatzi?
 File exists: Fitxategia existitzen da
 Filters: Iragazkiak
+Format Detection: Formatuen detekzioa
+Fullscreen: Pantaila osoa
 Fullscreen (hide UI) - press ESC to exit: Pantaila osoa (ezkutatu UI) - sakatu ESC irteteko
 Geo & Country: Geo eta Herrialdea
 GeoBlocked: Geoblokeatua
 GitHub Error: GitHub errorea
 Go back to live: Itzuli bizitzera
+Grid: Sarea
 Group: Taldea
 Half speed (0.5x): Abiadura erdia (0,5x)
 Help: Laguntza
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS erreprodukzioa: hls.js (MIT lizentzia)
 Image: Irudia
 Import: Inportatu
 Import cancelled or no channels mapped.: Inportazioa bertan behera utzi da edo ez dago kanalik mapatu.
+Import Error: Inportazio-errorea
 Import error: {0}: Inportazio-errorea: {0}
 Import from URL: Inportatu URLtik
 Import JSON: Inportatu JSON
 Import JSON from URL: Inportatu JSON URLtik
 Import Local: Inportatu lokala
+Imported {0} channels from code.: Kodetik {0} kanal inportatu dira.
 Imported {0} channels from JSON via mapping.: JSONtik {0} kanal inportatu dira mapen bidez.
 Imported {0} channels from URL.: {0} kanal inportatu dira URLtik.
 In Both: Bietan
@@ -181,6 +194,7 @@ Invalid JSON: {0}: JSON baliogabea: {0}
 Invalid playlist URL.: Erreprodukzio-zerrendaren URL baliogabea.
 Invalid URL.: URL baliogabea.
 Json: Json
+JSON parsing error: {0}: JSON analizatzean errorea: {0}
 JSON Property: JSON propietatea
 Ko-fi: Kafea
 Language: Hizkuntza
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Kargatu erreprodukzio zerrendaren fitxategia (M3U/JSON) ordenagailutik
 Loaded: Kargatu
 Loaded {0} channels from JSON file via mapping.: JSON fitxategitik {0} kanal kargatu dira mapa bidez.
-Loaded {0} channels from JSON file.: {0} kanal kargatu dira JSON fitxategitik.
 Loaded {0} channels from JSON URL.: {0} kanal kargatu dira JSON URLtik.
 Loaded {0} channels from M3U file.: {0} kanal kargatu dira M3U fitxategitik.
 Loaded {0} channels from M3U URL.: {0} kanal kargatu dira M3U URLtik.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Logotipoak bat datozen atalasea
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logotipoen biltegia - aukeratu jabea/errepo/bidea (jabe-pluginak/logotipoak lehenetsiak).
 Logos Source: Logotipoen iturria
 Logos Subfolder: Logotipoen azpikarpeta
+M3U parsing error: {0}: M3U analizatzeko errorea: {0}
 Map JSON properties to channel fields:: Mapeatu JSON propietateak kanal-eremuetara:
 Mapping saved for future imports of this file.: Fitxategi honen etorkizuneko inportazioetarako mapak gorde dira.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Bat etortzen diren atalaseak: ezarri partida lausoen sentikortasuna EPG eta logotipoetarako.
+Mini Player: Mini jokalaria
 Move to Group: Mugitu Taldera
 Moved: Mugitu
 Name: Izena
@@ -228,14 +243,18 @@ Next: Hurrengoa
 Next ▶: Hurrengoa ▶
 No .m3u files found on GitHub repository.: Ez da .m3u fitxategirik aurkitu GitHub biltegian.
 No cache folder found.: Ez da aurkitu cache karpetarik.
+No channel selected: Ez da kanalik hautatu
 No channels could be mapped or import cancelled.: Ezin izan da kanalik mapatu edo inportazioa bertan behera utzi.
 No channels could be mapped. Check your mapping rules.: Ezin izan da kanalik mapatu. Egiaztatu zure mapa-arauak.
+No channels found in JSON.: Ez da kanalik aurkitu JSON-n.
+No channels found in M3U.: Ez da kanalik aurkitu M3Un.
 No channels loaded from JSON URL.: Ez da kanalik kargatu JSON URLtik.
 No channels loaded from M3U URL.: Ez da kanalik kargatu M3U URLtik.
 No channels loaded from M3U.: Ez da kanalik kargatu M3Utik.
 No channels loaded.: Ez da kanalik kargatu.
 No channels mapped: Ez dago kanalik mapatu
 No channels selected.: Ez da kanalik hautatu.
+No channels to import.: Ez dago inportatzeko kanalik.
 No duplicate URLs found.: Ez da bikoiztutako URLrik aurkitu.
 No EPG data: Ez dago EPG daturik
 No EPG information available for this channel.: Ez dago EPG informaziorik kanal honetarako.
@@ -245,6 +264,8 @@ No favorite channels to export.: Ez dago esportatzeko gogoko kanalik.
 No missing channels to export.: Esportatzeko kanalik ez da falta.
 No playlist found: Ez da aurkitu erreprodukzio zerrenda
 No second playlist loaded.: Ez da bigarren erreprodukzio zerrenda kargatu.
+No stream URL available for this channel.: Ez dago kanal honen URLrik eskuragarri.
+No text to import.: Ez dago inportatzeko testurik.
 No updates available.: Ez dago eguneratzerik eskuragarri.
 Normal speed (1x): Abiadura normala (1x)
 Not connected to the box.: Ez dago kutxara konektatuta.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Pausatu/Berrekin zuzeneko igorpena
 Paused: Pausatuta
 PayPal: PayPal
 Picture-in-Picture mode: Irudian-Picture modua
+Play/Pause: Erreproduzitu/Pausatu
 Player Controls: Jokalari kontrolak
+Playing: Jolasean
 Playlist & Groups: Erreprodukzio zerrenda eta taldeak
 Playlist Comparison: Erreprodukzio-zerrenden konparaketa
 Playlist Editor: Erreprodukzio-zerrenden editorea
@@ -272,10 +295,12 @@ Please select a program first.: Mesedez, hautatu programa bat lehenik.
 Preview (first 5 channels): Aurrebista (lehen 5 kanalak)
 Preview error: {0}: Aurrebista-errorea: {0}
 Program Details: Programaren xehetasunak
+Ready: Prest
 Ready.: Prest.
 Recent: Duela gutxi
 Recent files – quick access to last 5 opened playlists.: Azken fitxategiak: sarbide azkarra irekitako azken 5 erreprodukzio-zerrendetara.
 Recent playlists: Azken erreprodukzio-zerrendak
+Refresh Code: Freskatu kodea
 Refresh EPG: Freskatu EPG
 Refresh EPG List: Freskatu EPG zerrenda
 Refresh from GitHub: Freskatu GitHub-etik
@@ -301,6 +326,7 @@ Search channels by name: Bilatu kanalak izenaren arabera
 Search channels...: Bilatu kanalak...
 sec: seg
 Second playlist loaded: {0} channels: Kargatu da bigarren erreprodukzio-zerrenda: {0} kanal
+Select a channel to play.: Hautatu erreproduzitzeko kanal bat.
 Select a playlist first.: Hautatu erreprodukzio-zerrenda bat lehenik.
 Select target group:: Hautatu xede-taldea:
 Select Theme: Hautatu Gaia
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Hasi
 Status: Egoera
 Stop: Gelditu
+Stopped: Gelditu
 Stream URL: Korrontearen URLa
 Stream URLs: Igorri URLak
 Success: Arrakasta
@@ -342,7 +369,9 @@ TV Guide (EPG): Telebistako Gida (EPG)
 TvgId: TvgId
 Type channel name to filter: Idatzi kanalaren izena iragazteko
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Ezin da formatua automatikoki detektatu. Mesedez, hautatu JSON edo M3U goitibeherako menuan eta saiatu berriro.
 Unable to find version in remote project file.: Ezin da bertsioa aurkitu urruneko proiektuaren fitxategian.
+Unsupported format. Please select JSON or M3U.: Onartu gabeko formatua. Mesedez, hautatu JSON edo M3U.
 Update: Eguneratu
 Update complete. Restarting...: Eguneratzea osatu da. Berrabiarazten...
 Update Error: Eguneratzeko errorea

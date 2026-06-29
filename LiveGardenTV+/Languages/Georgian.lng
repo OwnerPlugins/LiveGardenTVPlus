@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • დაკვრის სიჩქარე: ღილაკები 0.5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • ნებისმიერი სვეტის დალაგება სათაურის დაწკაპუნებით; გამოიყენეთ "გადატვირთვის შეკვეთა" თავდაპირველ შეკვეთაზე დასაბრუნებლად.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: პირდაპირი სტრიმინგის შეჩერება; გადაათრიეთ სლაიდერი უკან მოსაძებნად; დასაბრუნებლად დააჭირეთ "Live".
+▶ Play: ▶ თამაში
 ◀ Previous: ◀ წინა
 16 colour themes + Light/Dark variants.: 16 ფერადი თემა + ღია/მუქი ვარიანტები.
 A new version is available. Do you want to update now?: ხელმისაწვდომია ახალი ვერსია. გსურთ განახლება ახლა?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): ბუფერის ზომის კო�
 Advanced IDs: გაფართოებული პირადობის მოწმობები
 Application status: განაცხადის სტატუსი
 Apply: მიმართვა
+Apply / Import: მიმართვა/იმპორტი
 Apply changes: ცვლილებების გამოყენება
 Apply Filters: ფილტრების გამოყენება
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: დარწმუნებული ხართ, რომ გსურთ გადატვირთოთ Enigma2 GUI?\n\nინტერფეისი გადაიტვირთება (შავი ეკრანი რამდენიმე წამით).
@@ -46,8 +48,10 @@ Cannot open browser: ბრაუზერის გახსნა შეუძ
 Category: კატეგორია
 Changelog: ცვლილებების ჟურნალი
 Channel Details: არხის დეტალები
+Channel Down: არხი ქვემოთ
 Channel Info: არხის ინფორმაცია
 Channel Name: არხის სახელი
+Channel Up: არხი ზემოთ
 channels from: არხებიდან
 channels from JSON: არხები JSON-დან
 channels from JSON URL: არხები JSON URL-დან
@@ -61,6 +65,8 @@ Clear Filters: ფილტრების გასუფთავება
 Clear search: ძიების გასუფთავება
 Click for details: დააწკაპუნეთ დეტალებისთვის
 Close: დახურვა
+Code: კოდი
+Code copied to clipboard.: კოდი დაკოპირებულია ბუფერში.
 Command name:: ბრძანების სახელი:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: საზოგადოება და ტესტირება: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: შეადარე
@@ -75,6 +81,7 @@ Confirm Reload: დაადასტურეთ გადატვირთვ
 Connect: დაკავშირება
 Connected: დაკავშირებულია
 Copied: კოპირებულია
+Copy: კოპირება
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: ქვეყანა
 Credits: კრედიტები
@@ -141,6 +148,7 @@ Export OK: ექსპორტი OK
 Export only favorite channels to a new M3U file: მხოლოდ საყვარელი არხების ექსპორტი ახალ M3U ფაილში
 Export results as JSON or M3U – export missing channels or all channels.: შედეგების ექსპორტი JSON ან M3U სახით - დაკარგული არხების ან ყველა არხის ექსპორტი.
 Export selected: არჩეულია ექსპორტი
+Export Selected: არჩეულია ექსპორტი
 Exported: ექსპორტირებული
 Exported {0} channels to {1}: ექსპორტირებულია {0} არხი {1}-ში
 Extracting update...: მიმდინარეობს განახლების ამოღება...
@@ -154,11 +162,14 @@ Fetch Logos: ლოგოს მოტანა
 File {0} already exists. Overwrite?: ფაილი {0} უკვე არსებობს. გადაწერა?
 File exists: ფაილი არსებობს
 Filters: ფილტრები
+Format Detection: ფორმატის ამოცნობა
+Fullscreen: სრული ეკრანი
 Fullscreen (hide UI) - press ESC to exit: სრული ეკრანი (დამალე UI) - დააჭირეთ ESC გასასვლელად
 Geo & Country: გეო და ქვეყანა
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub შეცდომა
 Go back to live: დაბრუნდი საცხოვრებლად
+Grid: ბადე
 Group: ჯგუფი
 Half speed (0.5x): ნახევრად სიჩქარე (0.5x)
 Help: დახმარება
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS დაკვრა: hls.js (MIT ლი�
 Image: გამოსახულება
 Import: იმპორტი
 Import cancelled or no channels mapped.: იმპორტი გაუქმდა ან არ არის დაფიქსირებული.
+Import Error: იმპორტის შეცდომა
 Import error: {0}: იმპორტის შეცდომა: {0}
 Import from URL: URL-დან იმპორტი
 Import JSON: JSON იმპორტი
 Import JSON from URL: JSON-ის იმპორტი URL-დან
 Import Local: ადგილობრივი იმპორტი
+Imported {0} channels from code.: იმპორტირებულია {0} არხი კოდიდან.
 Imported {0} channels from JSON via mapping.: იმპორტირებულია {0} არხი JSON-დან რუკების მეშვეობით.
 Imported {0} channels from URL.: იმპორტირებულია {0} არხი URL-დან.
 In Both: ორივეში
@@ -181,6 +194,7 @@ Invalid JSON: {0}: არასწორი JSON: {0}
 Invalid playlist URL.: დასაკრავი სიის URL არასწორია.
 Invalid URL.: არასწორი URL.
 Json: ჯსონ
+JSON parsing error: {0}: JSON ანალიზების შეცდომა: {0}
 JSON Property: JSON საკუთრება
 Ko-fi: ყავა
 Language: ენა
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: ჩატვირთეთ დასაკრავი სიის ფაილი (M3U/JSON) თქვენი კომპიუტერიდან
 Loaded: დატვირთული
 Loaded {0} channels from JSON file via mapping.: ჩაიტვირთა {0} არხი JSON ფაილიდან რუკების მეშვეობით.
-Loaded {0} channels from JSON file.: ჩაიტვირთა {0} არხი JSON ფაილიდან.
 Loaded {0} channels from JSON URL.: ჩაიტვირთა {0} არხი JSON URL-დან.
 Loaded {0} channels from M3U file.: ჩაიტვირთა {0} არხი M3U ფაილიდან.
 Loaded {0} channels from M3U URL.: ჩაიტვირთა {0} არხი M3U URL-დან.
@@ -215,9 +228,11 @@ Logos Matching Threshold: ლოგოს შესატყვისი ბა�
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: ლოგოს საცავი – აირჩიეთ მფლობელი/რეპო/გზა (ნაგულისხმევი OwnerPlugins/ლოგოები).
 Logos Source: ლოგოს წყარო
 Logos Subfolder: ლოგოს ქვესაქაღალდე
+M3U parsing error: {0}: M3U ანალიზის შეცდომა: {0}
 Map JSON properties to channel fields:: JSON-ის თვისებების არხის ველებზე მორგება:
 Mapping saved for future imports of this file.: რუკა შენახულია ამ ფაილის მომავალი იმპორტისთვის.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: შესატყვისი ზღურბლები – დააყენეთ ბუნდოვანი შესატყვისობის მგრძნობელობა EPG-სთვის და ლოგოებისთვის.
+Mini Player: მინი მოთამაშე
 Move to Group: ჯგუფში გადასვლა
 Moved: გადავიდა
 Name: სახელი
@@ -228,14 +243,18 @@ Next: შემდეგი
 Next ▶: შემდეგი ▶
 No .m3u files found on GitHub repository.: GitHub საცავში .m3u ფაილები არ მოიძებნა.
 No cache folder found.: ქეშის საქაღალდე ვერ მოიძებნა.
+No channel selected: არხი არ არის არჩეული
 No channels could be mapped or import cancelled.: ვერცერთი არხი ვერ მოხერხდა ან იმპორტის გაუქმება.
 No channels could be mapped. Check your mapping rules.: ვერცერთი არხი ვერ მოხერხდა. შეამოწმეთ თქვენი რუკების წესები.
+No channels found in JSON.: JSON-ში არხები ვერ მოიძებნა.
+No channels found in M3U.: M3U-ში არხები ვერ მოიძებნა.
 No channels loaded from JSON URL.: JSON URL-დან არხი არ არის ჩატვირთული.
 No channels loaded from M3U URL.: M3U URL-დან არხი არ არის ჩატვირთული.
 No channels loaded from M3U.: M3U-დან არ არის ჩატვირთული.
 No channels loaded.: არხები არ არის ჩატვირთული.
 No channels mapped: არხები არ არის მითითებული
 No channels selected.: არხები არჩეული არ არის.
+No channels to import.: იმპორტირებული არხები არ არის.
 No duplicate URLs found.: დუბლიკატი URL ვერ მოიძებნა.
 No EPG data: EPG მონაცემები არ არის
 No EPG information available for this channel.: ამ არხისთვის EPG ინფორმაცია არ არის ხელმისაწვდომი.
@@ -245,6 +264,8 @@ No favorite channels to export.: არ არის საყვარელი
 No missing channels to export.: არ არის დაკარგული არხები ექსპორტისთვის.
 No playlist found: დასაკრავი სია ვერ მოიძებნა
 No second playlist loaded.: მეორე დასაკრავი სია არ არის ჩატვირთული.
+No stream URL available for this channel.: ამ არხისთვის ნაკადის URL ხელმისაწვდომი არ არის.
+No text to import.: იმპორტისთვის ტექსტი არ არის.
 No updates available.: განახლებები არ არის ხელმისაწვდომი.
 Normal speed (1x): ნორმალური სიჩქარე (1x)
 Not connected to the box.: არ არის დაკავშირებული ყუთთან.
@@ -261,7 +282,9 @@ Pause/Resume live stream: პირდაპირი სტრიმინგ�
 Paused: შეჩერდა
 PayPal: PayPal
 Picture-in-Picture mode: სურათის სურათის რეჟიმი
+Play/Pause: დაკვრა/პაუზა
 Player Controls: მოთამაშის კონტროლი
+Playing: უკრავს
 Playlist & Groups: დასაკრავი სია და ჯგუფები
 Playlist Comparison: დასაკრავი სიის შედარება
 Playlist Editor: დასაკრავი სიის რედაქტორი
@@ -272,10 +295,12 @@ Please select a program first.: გთხოვთ, ჯერ აირჩიო
 Preview (first 5 channels): გადახედვა (პირველი 5 არხი)
 Preview error: {0}: გადახედვის შეცდომა: {0}
 Program Details: პროგრამის დეტალები
+Ready: მზადაა
 Ready.: მზადაა.
 Recent: ბოლო
 Recent files – quick access to last 5 opened playlists.: ბოლო ფაილები – სწრაფი წვდომა ბოლო 5 გახსნილ დასაკრავ სიაზე.
 Recent playlists: ბოლო დასაკრავი სიები
+Refresh Code: განაახლეთ კოდი
 Refresh EPG: განაახლეთ EPG
 Refresh EPG List: განაახლეთ EPG სია
 Refresh from GitHub: განახლება GitHub-დან
@@ -301,6 +326,7 @@ Search channels by name: მოძებნეთ არხები სახ�
 Search channels...: არხების ძიება...
 sec: წმ
 Second playlist loaded: {0} channels: ჩაიტვირთა მეორე დასაკრავი სია: {0} არხი
+Select a channel to play.: აირჩიეთ არხი დასაკრავად.
 Select a playlist first.: ჯერ აირჩიეთ დასაკრავი სია.
 Select target group:: აირჩიეთ სამიზნე ჯგუფი:
 Select Theme: აირჩიეთ თემა
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: დაწყება
 Status: სტატუსი
 Stop: გაჩერდი
+Stopped: გაჩერდა
 Stream URL: ნაკადის URL
 Stream URLs: სტრიმინგის URL-ები
 Success: წარმატებები
@@ -342,7 +369,9 @@ TV Guide (EPG): სატელევიზიო გზამკვლევი
 TvgId: TvgId
 Type channel name to filter: ჩაწერეთ არხის სახელი გასაფილტრად
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: ფორმატის ავტომატური ამოცნობა შეუძლებელია. გთხოვთ, აირჩიოთ JSON ან M3U ჩამოსაშლელი მენიუდან და სცადოთ ხელახლა.
 Unable to find version in remote project file.: დისტანციური პროექტის ფაილში ვერსიის პოვნა შეუძლებელია.
+Unsupported format. Please select JSON or M3U.: მხარდაუჭერელი ფორმატი. გთხოვთ, აირჩიოთ JSON ან M3U.
 Update: განახლება
 Update complete. Restarting...: განახლება დასრულდა. გადატვირთვა...
 Update Error: განახლების შეცდომა

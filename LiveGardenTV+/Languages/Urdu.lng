@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: پلے بیک کی رفتار: 0.5x، 1x، 2x بٹن۔
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • ہیڈر پر کلک کرکے کسی بھی کالم کو ترتیب دیں۔ اصل ترتیب پر واپس جانے کے لیے 'ری سیٹ آرڈر' کا استعمال کریں۔
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • ٹائم شفٹ: لائیو سٹریم موقوف؛ واپس تلاش کرنے کے لیے سلائیڈر کو گھسیٹیں؛ واپس آنے کے لیے 'Live' دبائیں۔
+▶ Play: ▶ کھیلیں
 ◀ Previous: ◀ پچھلا
 16 colour themes + Light/Dark variants.: 16 رنگین تھیمز + لائٹ/ڈارک ویریئنٹس۔
 A new version is available. Do you want to update now?: ایک نیا ورژن دستیاب ہے۔ کیا آپ ابھی اپ ڈیٹ کرنا چاہتے ہیں؟
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): بفر سائز کو ایڈجسٹ کریں (1
 Advanced IDs: اعلی درجے کی IDs
 Application status: درخواست کی حیثیت
 Apply: لگائیں
+Apply / Import: لاگو کریں / درآمد کریں۔
 Apply changes: تبدیلیاں لاگو کریں۔
 Apply Filters: فلٹرز لگائیں۔
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: کیا آپ واقعی Enigma2 GUI کو دوبارہ لوڈ کرنا چاہتے ہیں؟\n\nانٹرفیس دوبارہ شروع ہو جائے گا (چند سیکنڈ کے لیے سیاہ اسکرین)۔
@@ -46,8 +48,10 @@ Cannot open browser: براؤزر نہیں کھول سکتا
 Category: زمرہ
 Changelog: چینج لاگ
 Channel Details: چینل کی تفصیلات
+Channel Down: چینل ڈاؤن
 Channel Info: چینل کی معلومات
 Channel Name: چینل کا نام
+Channel Up: چینل اپ
 channels from: چینلز سے
 channels from JSON: JSON سے چینلز
 channels from JSON URL: JSON URL سے چینلز
@@ -61,6 +65,8 @@ Clear Filters: فلٹرز صاف کریں۔
 Clear search: تلاش صاف کریں۔
 Click for details: تفصیلات کے لیے کلک کریں۔
 Close: بند
+Code: کوڈ
+Code copied to clipboard.: کوڈ کلپ بورڈ پر کاپی ہو گیا۔
 Command name:: کمانڈ کا نام:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: کمیونٹی اور ٹیسٹنگ: CorvoBoys (corvoboys.org) اور LinuxSat-Support.com
 Compare: موازنہ کریں۔
@@ -75,6 +81,7 @@ Confirm Reload: دوبارہ لوڈ کی تصدیق کریں۔
 Connect: جڑیں۔
 Connected: جڑا ہوا
 Copied: کاپی
+Copy: کاپی
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: ملک
 Credits: کریڈٹس
@@ -141,6 +148,7 @@ Export OK: ایکسپورٹ ٹھیک ہے۔
 Export only favorite channels to a new M3U file: ایک نئی M3U فائل میں صرف پسندیدہ چینلز برآمد کریں۔
 Export results as JSON or M3U – export missing channels or all channels.: JSON یا M3U کے طور پر نتائج برآمد کریں - غائب چینلز یا تمام چینلز برآمد کریں۔
 Export selected: منتخب کردہ برآمد
+Export Selected: منتخب شدہ برآمد کریں۔
 Exported: برآمد کیا گیا۔
 Exported {0} channels to {1}: {0} چینلز کو {1} میں برآمد کیا
 Extracting update...: اپ ڈیٹ نکالا جا رہا ہے...
@@ -154,11 +162,14 @@ Fetch Logos: لوگو حاصل کریں۔
 File {0} already exists. Overwrite?: فائل {0} پہلے سے موجود ہے۔ اوور رائٹ؟
 File exists: فائل موجود ہے۔
 Filters: فلٹرز
+Format Detection: فارمیٹ کا پتہ لگانا
+Fullscreen: پوری اسکرین
 Fullscreen (hide UI) - press ESC to exit: پوری اسکرین (UI چھپائیں) - باہر نکلنے کے لیے ESC دبائیں۔
 Geo & Country: جیو اور ملک
 GeoBlocked: جیو بلاک
 GitHub Error: گٹ ہب کی خرابی۔
 Go back to live: زندہ رہنے کے لیے واپس جائیں۔
+Grid: گرڈ
 Group: گروپ
 Half speed (0.5x): نصف رفتار (0.5x)
 Help: مدد
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS پلے بیک: hls.js (MIT لائسنس)
 Image: تصویر
 Import: درآمد کریں۔
 Import cancelled or no channels mapped.: درآمد منسوخ کر دیا گیا یا کوئی چینل میپ نہیں ہوا۔
+Import Error: درآمد کی خرابی۔
 Import error: {0}: درآمد کی خرابی: {0}
 Import from URL: یو آر ایل سے درآمد کریں۔
 Import JSON: JSON درآمد کریں۔
 Import JSON from URL: URL سے JSON درآمد کریں۔
 Import Local: مقامی درآمد کریں۔
+Imported {0} channels from code.: کوڈ سے {0} چینلز درآمد کیے گئے۔
 Imported {0} channels from JSON via mapping.: میپنگ کے ذریعے JSON سے {0} چینلز درآمد کیے گئے۔
 Imported {0} channels from URL.: URL سے {0} چینلز درآمد کیے گئے۔
 In Both: دونوں میں
@@ -181,6 +194,7 @@ Invalid JSON: {0}: غلط JSON: {0}
 Invalid playlist URL.: پلے لسٹ کا غلط URL۔
 Invalid URL.: غلط URL۔
 Json: جیسن
+JSON parsing error: {0}: JSON پارسنگ کی خرابی: {0}
 JSON Property: JSON پراپرٹی
 Ko-fi: کافی
 Language: زبان
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: اپنے کمپیوٹر سے پلے لسٹ فائل (M3U/JSON) لوڈ کریں۔
 Loaded: بھری ہوئی
 Loaded {0} channels from JSON file via mapping.: میپنگ کے ذریعے JSON فائل سے {0} چینلز لوڈ کیے گئے۔
-Loaded {0} channels from JSON file.: JSON فائل سے {0} چینلز لوڈ ہوئے۔
 Loaded {0} channels from JSON URL.: JSON URL سے {0} چینلز لوڈ ہوئے۔
 Loaded {0} channels from M3U file.: M3U فائل سے {0} چینلز لوڈ ہوئے۔
 Loaded {0} channels from M3U URL.: M3U URL سے {0} چینلز لوڈ ہوئے۔
@@ -215,9 +228,11 @@ Logos Matching Threshold: لوگو میچنگ تھریشولڈ
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: لوگو ریپوزٹری - مالک/ریپو/پاتھ کا انتخاب کریں (پہلے سے طے شدہ OwnerPlugins/logos)۔
 Logos Source: لوگو ماخذ
 Logos Subfolder: لوگو سب فولڈر
+M3U parsing error: {0}: M3U پارسنگ کی خرابی: {0}
 Map JSON properties to channel fields:: JSON کی خصوصیات کو چینل کے شعبوں میں نقشہ بنائیں:
 Mapping saved for future imports of this file.: نقشہ سازی اس فائل کی مستقبل کی درآمدات کے لیے محفوظ کی گئی ہے۔
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: میچنگ تھریش ہولڈز - ای پی جی اور لوگو کے لیے مبہم میچ کی حساسیت سیٹ کریں۔
+Mini Player: منی پلیئر
 Move to Group: گروپ میں منتقل کریں۔
 Moved: منتقل کر دیا گیا
 Name: نام
@@ -228,14 +243,18 @@ Next: اگلا
 Next ▶: اگلا ▶
 No .m3u files found on GitHub repository.: GitHub ریپوزٹری پر کوئی .m3u فائل نہیں ملی۔
 No cache folder found.: کوئی کیش فولڈر نہیں ملا۔
+No channel selected: کوئی چینل منتخب نہیں کیا گیا۔
 No channels could be mapped or import cancelled.: کسی چینل کو میپ نہیں کیا جا سکتا اور نہ ہی درآمد کو منسوخ کیا جا سکتا ہے۔
 No channels could be mapped. Check your mapping rules.: کوئی چینل میپ نہیں کیا جا سکا۔ اپنے نقشہ سازی کے قواعد کو چیک کریں۔
+No channels found in JSON.: JSON میں کوئی چینل نہیں ملا۔
+No channels found in M3U.: M3U میں کوئی چینل نہیں ملا۔
 No channels loaded from JSON URL.: JSON URL سے کوئی چینل لوڈ نہیں ہوا ہے۔
 No channels loaded from M3U URL.: M3U URL سے کوئی چینل لوڈ نہیں ہوا ہے۔
 No channels loaded from M3U.: M3U سے کوئی چینل لوڈ نہیں ہوا ہے۔
 No channels loaded.: کوئی چینل لوڈ نہیں ہوا۔
 No channels mapped: کوئی چینل میپ نہیں کیا گیا۔
 No channels selected.: کوئی چینل منتخب نہیں کیا گیا۔
+No channels to import.: درآمد کرنے کے لیے کوئی چینل نہیں ہے۔
 No duplicate URLs found.: کوئی ڈپلیکیٹ URLs نہیں ملے۔
 No EPG data: کوئی EPG ڈیٹا نہیں ہے۔
 No EPG information available for this channel.: اس چینل کے لیے کوئی EPG معلومات دستیاب نہیں ہے۔
@@ -245,6 +264,8 @@ No favorite channels to export.: برآمد کرنے کے لیے کوئی پسن
 No missing channels to export.: برآمد کرنے کے لیے کوئی چینل غائب نہیں ہے۔
 No playlist found: کوئی پلے لسٹ نہیں ملی
 No second playlist loaded.: کوئی دوسری پلے لسٹ لوڈ نہیں ہوئی۔
+No stream URL available for this channel.: اس چینل کے لیے کوئی اسٹریم URL دستیاب نہیں ہے۔
+No text to import.: درآمد کرنے کے لیے کوئی متن نہیں ہے۔
 No updates available.: کوئی اپ ڈیٹ دستیاب نہیں ہے۔
 Normal speed (1x): عام رفتار (1x)
 Not connected to the box.: باکس سے منسلک نہیں ہے۔
@@ -261,7 +282,9 @@ Pause/Resume live stream: لائیو سلسلہ بند/دوبارہ شروع ک�
 Paused: روک دیا گیا
 PayPal: پے پال
 Picture-in-Picture mode: تصویر میں تصویر موڈ
+Play/Pause: چلائیں/روکیں۔
 Player Controls: پلیئر کنٹرولز
+Playing: کھیلنا
 Playlist & Groups: پلے لسٹ اور گروپس
 Playlist Comparison: پلے لسٹ کا موازنہ
 Playlist Editor: پلے لسٹ ایڈیٹر
@@ -272,10 +295,12 @@ Please select a program first.: براہ کرم پہلے ایک پروگرام �
 Preview (first 5 channels): پیش نظارہ (پہلے 5 چینلز)
 Preview error: {0}: پیش نظارہ کی خرابی: {0}
 Program Details: پروگرام کی تفصیلات
+Ready: تیار
 Ready.: تیار
 Recent: حالیہ
 Recent files – quick access to last 5 opened playlists.: حالیہ فائلیں - آخری 5 کھلی ہوئی پلے لسٹس تک فوری رسائی۔
 Recent playlists: حالیہ پلے لسٹس
+Refresh Code: کوڈ ریفریش کریں۔
 Refresh EPG: EPG ریفریش کریں۔
 Refresh EPG List: EPG فہرست کو تازہ کریں۔
 Refresh from GitHub: GitHub سے ریفریش کریں۔
@@ -301,6 +326,7 @@ Search channels by name: نام سے چینلز تلاش کریں۔
 Search channels...: چینلز تلاش کریں...
 sec: سیکنڈ
 Second playlist loaded: {0} channels: دوسری پلے لسٹ لوڈ کی گئی: {0} چینلز
+Select a channel to play.: چلانے کے لیے ایک چینل منتخب کریں۔
 Select a playlist first.: پہلے پلے لسٹ منتخب کریں۔
 Select target group:: ہدف گروپ منتخب کریں:
 Select Theme: تھیم منتخب کریں۔
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: شروع کریں۔
 Status: حیثیت
 Stop: رک جاؤ
+Stopped: رک گیا۔
 Stream URL: سلسلہ یو آر ایل
 Stream URLs: سٹریم یو آر ایل
 Success: کامیابی
@@ -342,7 +369,9 @@ TV Guide (EPG): ٹی وی گائیڈ (EPG)
 TvgId: ٹی وی جی آئی ڈی
 Type channel name to filter: فلٹر کرنے کے لیے چینل کا نام ٹائپ کریں۔
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: فارمیٹ کا خود بخود پتہ لگانے سے قاصر۔ براہ کرم ڈراپ ڈاؤن سے JSON یا M3U منتخب کریں اور دوبارہ کوشش کریں۔
 Unable to find version in remote project file.: ریموٹ پروجیکٹ فائل میں ورژن تلاش کرنے سے قاصر۔
+Unsupported format. Please select JSON or M3U.: غیر تعاون یافتہ فارمیٹ۔ براہ کرم JSON یا M3U منتخب کریں۔
 Update: اپڈیٹ کریں۔
 Update complete. Restarting...: اپ ڈیٹ مکمل۔ دوبارہ شروع ہو رہا ہے...
 Update Error: اپ ڈیٹ کی خرابی۔

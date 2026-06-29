@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • פּלייבאַק גיכקייַט: 0.5קס, 1קס, 2קס קנעפּלעך.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • סאָרט קיין זייַל דורך געבן אַ קליק כעדער; ניצן 'באַשטעטיק סדר' צו צוריקקומען צו אָריגינעל סדר.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: פּויזע לעבן טייַך; שלעפּן סליידער צו זוכן צוריק; דריקן 'לעבן' צו צוריקקומען.
+▶ Play: ▶ שפּיל
 ◀ Previous: ◀ פרייַערדיק
 16 colour themes + Light/Dark variants.: 16 קאָליר טעמעס + ליכט / טונקל וועריאַנץ.
 A new version is available. Do you want to update now?: א נייַע ווערסיע איז בנימצא. צי איר ווילן צו דערהייַנטיקן איצט?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): סטרויערן באַפער גרייס (1-1
 Advanced IDs: אַוואַנסירטע IDs
 Application status: אַפּפּליקאַטיאָן סטאַטוס
 Apply: צולייגן
+Apply / Import: צולייגן / אַרייַנפיר
 Apply changes: צולייגן ענדערונגען
 Apply Filters: צולייגן פילטערס
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: זענט איר זיכער אַז איר ווילן צו רילאָוד די Enigma2 GUI?\n\nדי צובינד וועט ריסטאַרט (שוואַרץ פאַרשטעלן פֿאַר אַ ביסל סעקונדעס).
@@ -46,8 +48,10 @@ Cannot open browser: קענען ניט עפענען בלעטערער
 Category: קאַטעגאָריע
 Changelog: טשאַנגעלאָג
 Channel Details: קאַנאַל דעטאַילס
+Channel Down: קאַנאַל אַראָפּ
 Channel Info: קאַנאַל אינפֿאָרמאַציע
 Channel Name: קאַנאַל נאָמען
+Channel Up: קאַנאַל אַרויף
 channels from: טשאַנאַלז פון
 channels from JSON: טשאַנאַלז פֿון JSON
 channels from JSON URL: טשאַנאַלז פֿון JSON URL
@@ -61,6 +65,8 @@ Clear Filters: קלאָר פילטערס
 Clear search: קלאָר זוכן
 Click for details: דריקט פֿאַר פרטים
 Close: נאָענט
+Code: קאָד
+Code copied to clipboard.: קאָוד קאַפּיד צו קליפּבאָרד.
 Command name:: באַפֿעלן נאָמען:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: קהל און טעסטינג: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: פאַרגלייַכן
@@ -75,6 +81,7 @@ Confirm Reload: באַשטעטיקן רילאָוד
 Connect: פאַרבינדן
 Connected: קאָננעקטעד
 Copied: קאַפּיד
+Copy: קאָפּי
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: לאַנד
 Credits: קרעדיץ
@@ -141,6 +148,7 @@ Export OK: עקספּאָרט גוט
 Export only favorite channels to a new M3U file: עקספּאָרט בלויז באַליבסטע טשאַנאַלז צו אַ נייַע M3U טעקע
 Export results as JSON or M3U – export missing channels or all channels.: אַרויספירן רעזולטאַטן ווי JSON אָדער M3U - אַרויספירן פעלנדיק טשאַנאַלז אָדער אַלע טשאַנאַלז.
 Export selected: עקספּאָרט אויסגעקליבן
+Export Selected: עקספּאָרט אויסגעקליבן
 Exported: עקספּאָרטירט
 Exported {0} channels to {1}: עקספּאָרטירט {0} טשאַנאַלז צו {1}
 Extracting update...: עקסטראַקטינג דערהייַנטיקן ...
@@ -154,11 +162,14 @@ Fetch Logos: באַקומען לאָגאָס
 File {0} already exists. Overwrite?: טעקע {0} עקזיסטירט שוין. איבערשרייבן?
 File exists: טעקע יגזיסץ
 Filters: פילטערס
+Format Detection: פֿאָרמאַט דעטעקשאַן
+Fullscreen: פולסקרעען
 Fullscreen (hide UI) - press ESC to exit: Fullscreen (באַהאַלטן וי) - דריקן ESC צו אַרויסגאַנג
 Geo & Country: געאָ & לאַנד
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub טעות
 Go back to live: גיי צוריק צו לעבן
+Grid: גריד
 Group: גרופע
 Half speed (0.5x): האַלב גיכקייַט (0.5 קס)
 Help: הילף
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS פּלייבאַק: hls.js (MIT דערל
 Image: בילד
 Import: אַרייַנפיר
 Import cancelled or no channels mapped.: אַרייַנפיר קאַנסאַלד אָדער קיין טשאַנאַלז מאַפּט.
+Import Error: ימפּאָרט טעות
 Import error: {0}: אימפארט טעות: {0}
 Import from URL: אַרייַנפיר פֿון URL
 Import JSON: אַרייַנפיר JSON
 Import JSON from URL: אַרייַנפיר JSON פֿון URL
 Import Local: אַרייַנפיר לאקאלע
+Imported {0} channels from code.: ימפּאָרטיד {0} טשאַנאַלז פון קאָד.
 Imported {0} channels from JSON via mapping.: ימפּאָרטיד {0} טשאַנאַלז פֿון JSON דורך מאַפּינג.
 Imported {0} channels from URL.: ימפּאָרטיד {0} טשאַנאַלז פון URL.
 In Both: אין ביידע
@@ -181,6 +194,7 @@ Invalid JSON: {0}: אומגילטיק דזשסאָן: {0}
 Invalid playlist URL.: אומגילטיק URL פון פּלייַליסט.
 Invalid URL.: אומגילטיק URL.
 Json: דזשסאָן
+JSON parsing error: {0}: JSON פּאַרסינג טעות: {0}
 JSON Property: JSON פאַרמאָג
 Ko-fi: קאַווע
 Language: שפּראַך
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: לאָדן פּלייַליסט טעקע (M3U/JSON) פֿון דיין קאָמפּיוטער
 Loaded: לאָודיד
 Loaded {0} channels from JSON file via mapping.: לאָודיד {0} טשאַנאַלז פון JSON טעקע דורך מאַפּינג.
-Loaded {0} channels from JSON file.: לאָודיד {0} טשאַנאַלז פון דזשסאָן טעקע.
 Loaded {0} channels from JSON URL.: לאָודיד {0} טשאַנאַלז פֿון JSON URL.
 Loaded {0} channels from M3U file.: לאָודיד {0} טשאַנאַלז פון M3U טעקע.
 Loaded {0} channels from M3U URL.: לאָודיד {0} טשאַנאַלז פון M3U URL.
@@ -215,9 +228,11 @@ Logos Matching Threshold: לאָגאָס וואָס ריכטן שוועל
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: לאָגאָס ריפּאַזאַטאָרי - קלייַבן באַזיצער / רעפּאָ / דרך (פעליקייַט OwnerPlugins / לאָגאָס).
 Logos Source: לאָגאָס מקור
 Logos Subfolder: לאָגאָס סובפאָלדער
+M3U parsing error: {0}: M3U פּאַרסינג טעות: {0}
 Map JSON properties to channel fields:: מאַפּע JSON פּראָפּערטיעס צו קאַנאַל פעלדער:
 Mapping saved for future imports of this file.: מאַפּינג געראטעוועט פֿאַר צוקונפֿט ימפּאָרץ פון דעם טעקע.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: וואָס ריכטן טרעשכאָולדז - שטעלן פאַזי גלייַכן סענסיטיוויטי פֿאַר EPG און לאָגאָס.
+Mini Player: מיני שפּילער
 Move to Group: מאַך צו די גרופּע
 Moved: אריבערגעפארן
 Name: נאָמען
@@ -228,14 +243,18 @@ Next: ווייַטער
 Next ▶: ווייַטער ▶
 No .m3u files found on GitHub repository.: ניט קיין .מ3ו טעקעס געפֿונען אויף GitHub ריפּאַזאַטאָרי.
 No cache folder found.: קיין קאַש טעקע געפונען.
+No channel selected: קיין קאַנאַל אויסגעקליבן
 No channels could be mapped or import cancelled.: קיין טשאַנאַלז קען זיין מאַפּט אָדער אַרייַנפיר קאַנסאַלד.
 No channels could be mapped. Check your mapping rules.: קיין טשאַנאַלז קען זיין מאַפּט. קוק דיין מאַפּינג כּללים.
+No channels found in JSON.: קיין טשאַנאַלז געפֿונען אין JSON.
+No channels found in M3U.: קיין טשאַנאַלז געפֿונען אין M3U.
 No channels loaded from JSON URL.: קיין טשאַנאַלז לאָודיד פֿון JSON URL.
 No channels loaded from M3U URL.: קיין טשאַנאַלז לאָודיד פֿון M3U URL.
 No channels loaded from M3U.: קיין טשאַנאַלז לאָודיד פֿון M3U.
 No channels loaded.: קיין טשאַנאַלז לאָודיד.
 No channels mapped: קיין טשאַנאַלז מאַפּט
 No channels selected.: קיין טשאַנאַלז אויסגעקליבן.
+No channels to import.: קיין טשאַנאַלז צו אַרייַנפיר.
 No duplicate URLs found.: קיין דופּליקאַט URL ס געפֿונען.
 No EPG data: קיין EPG דאַטן
 No EPG information available for this channel.: קיין EPG אינפֿאָרמאַציע בנימצא פֿאַר דעם קאַנאַל.
@@ -245,6 +264,8 @@ No favorite channels to export.: ניט קיין באַליבסטע טשאַנא
 No missing channels to export.: קיין פעלנדיק טשאַנאַלז צו אַרויספירן.
 No playlist found: קיין פּלייַליסט געפונען
 No second playlist loaded.: קיין צווייטע פּלייַליסט לאָודיד.
+No stream URL available for this channel.: קיין סטרימינג URL בנימצא פֿאַר דעם קאַנאַל.
+No text to import.: קיין טעקסט צו אַרייַנפיר.
 No updates available.: קיין דערהייַנטיקונגען בנימצא.
 Normal speed (1x): נאָרמאַל גיכקייַט (1x)
 Not connected to the box.: ניט קאָננעקטעד צו די קעסטל.
@@ -261,7 +282,9 @@ Pause/Resume live stream: פּויזע / נעמענ זיכ ווידער לעבן
 Paused: פּאַוזד
 PayPal: PayPal
 Picture-in-Picture mode: בילד-אין-בילד מאָדע
+Play/Pause: שפּיל / פּויזע
 Player Controls: שפּילער קאָנטראָלס
+Playing: פּלייַינג
 Playlist & Groups: פּלייַליסט און גרופּעס
 Playlist Comparison: פּלייַליסט פאַרגלייַך
 Playlist Editor: פּלייַליסט עדיטאָר
@@ -272,10 +295,12 @@ Please select a program first.: ביטע אויסקלייַבן אַ פּראָ�
 Preview (first 5 channels): פאָרויסיקע ווייַזונג (ערשטער 5 טשאַנאַלז)
 Preview error: {0}: פאָרויסיקע ווייַזונג טעות: {0}
 Program Details: פּראָגראַם דעטאַילס
+Ready: גרייט
 Ready.: גרייט.
 Recent: לעצטע
 Recent files – quick access to last 5 opened playlists.: לעצטע טעקעס - שנעל אַקסעס צו די לעצטע 5 געעפנט פּלייַליסץ.
 Recent playlists: לעצטע פּלייַליסץ
+Refresh Code: דערפרישן קאָד
 Refresh EPG: דערפרישן EPG
 Refresh EPG List: דערפרישן די EPG רשימה
 Refresh from GitHub: דערפרישן פֿון GitHub
@@ -301,6 +326,7 @@ Search channels by name: זוכן טשאַנאַלז דורך נאָמען
 Search channels...: זוך טשאַנאַלז ...
 sec: סעק
 Second playlist loaded: {0} channels: צווייטע פּלייַליסט לאָודיד: {0} טשאַנאַלז
+Select a channel to play.: אויסקלייַבן אַ קאַנאַל צו שפּילן.
 Select a playlist first.: אויסקלייַבן אַ פּלייַליסט ערשטער.
 Select target group:: אויסקלייַבן ציל גרופּע:
 Select Theme: אויסקלייַבן טעמע
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: אָנהייב
 Status: סטאַטוס
 Stop: האַלטן
+Stopped: אפגעשטעלט
 Stream URL: סטרים URL
 Stream URLs: סטרים URL ס
 Success: הצלחה
@@ -342,7 +369,9 @@ TV Guide (EPG): טעלעוויזיע גייד (EPG)
 TvgId: TvgId
 Type channel name to filter: טיפּ קאַנאַל נאָמען צו פילטער
 UI: MaterialDesignThemes.Wpf: וי: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: ניט געקענט צו אַוטאָ-דעטעקט פֿאָרמאַט. ביטע אויסקלייַבן JSON אָדער M3U פון די דראָפּדאָוון און פּרובירן ווידער.
 Unable to find version in remote project file.: ניט געקענט געפֿינען ווערסיע אין ווייַט פּרויעקט טעקע.
+Unsupported format. Please select JSON or M3U.: ניט געשטיצט פֿאָרמאַט. ביטע סעלעקטירן JSON אָדער M3U.
 Update: דערהייַנטיקן
 Update complete. Restarting...: דערהייַנטיקן גאַנץ. ריסטאַרטינג ...
 Update Error: דערהייַנטיקן טעות

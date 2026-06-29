@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Cyflymder chwarae: botymau 0.5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Trefnwch unrhyw golofn trwy glicio ar y pennawd; defnyddiwch 'Archeb Ailosod' i ddychwelyd i'r archeb wreiddiol.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Newid amser: saib y llif byw; llusgo llithrydd i chwilio yn ôl; pwyswch 'Live' i ddychwelyd.
+▶ Play: ▶ Chwarae
 ◀ Previous: ◀ Blaenorol
 16 colour themes + Light/Dark variants.: 16 thema lliw + amrywiadau Golau / Tywyll.
 A new version is available. Do you want to update now?: Mae fersiwn newydd ar gael. Ydych chi eisiau diweddaru nawr?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Addasu maint byffer (1-10 eiliad)
 Advanced IDs: IDau uwch
 Application status: Statws cais
 Apply: Ymgeisiwch
+Apply / Import: Gwneud cais / Mewnforio
 Apply changes: Cymhwyso newidiadau
 Apply Filters: Cymhwyso Hidlau
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ydych chi'n siŵr eich bod am ail-lwytho GUI Enigma2?\n\nBydd y rhyngwyneb yn ailgychwyn (sgrin ddu am ychydig eiliadau).
@@ -46,8 +48,10 @@ Cannot open browser: Methu agor porwr
 Category: Categori
 Changelog: Newidlog
 Channel Details: Manylion Sianel
+Channel Down: Sianel Lawr
 Channel Info: Gwybodaeth Sianel
 Channel Name: Enw Sianel
+Channel Up: Sianel Up
 channels from: sianeli o
 channels from JSON: sianeli gan JSON
 channels from JSON URL: sianeli o URL JSON
@@ -61,6 +65,8 @@ Clear Filters: Hidlau clir
 Clear search: Chwiliad clir
 Click for details: Cliciwch am fanylion
 Close: Cau
+Code: Cod
+Code copied to clipboard.: Cod wedi'i gopïo i'r clipfwrdd.
 Command name:: Enw gorchymyn:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Cymuned a phrofi: CorvoBoys (corvoboys.org) a LinuxSat-Support.com
 Compare: Cymharer
@@ -75,6 +81,7 @@ Confirm Reload: Cadarnhau Ail-lwytho
 Connect: Cyswllt
 Connected: Wedi'i gysylltu
 Copied: Wedi'i gopïo
+Copy: Copi
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Gwlad
 Credits: Credydau
@@ -141,6 +148,7 @@ Export OK: Allforio Iawn
 Export only favorite channels to a new M3U file: Allforio hoff sianeli yn unig i ffeil M3U newydd
 Export results as JSON or M3U – export missing channels or all channels.: Allforio canlyniadau fel JSON neu M3U - allforio sianeli coll neu bob sianel.
 Export selected: Allforio wedi'i ddewis
+Export Selected: Allforio Wedi'i Ddewis
 Exported: Wedi'i allforio
 Exported {0} channels to {1}: Wedi allforio {0} sianel i {1}
 Extracting update...: Wrthi'n echdynnu diweddariad...
@@ -154,11 +162,14 @@ Fetch Logos: Nôl Logos
 File {0} already exists. Overwrite?: Mae ffeil {0} eisoes yn bodoli. Trosysgrifo?
 File exists: Ffeil yn bodoli
 Filters: Hidlau
+Format Detection: Canfod Fformat
+Fullscreen: Sgrin lawn
 Fullscreen (hide UI) - press ESC to exit: Sgrin lawn (cuddio UI) - pwyswch ESC i adael
 Geo & Country: Geo & Gwlad
 GeoBlocked: GeoBlocked
 GitHub Error: Gwall GitHub
 Go back to live: Ewch yn ôl i fyw
+Grid: Grid
 Group: Grwp
 Half speed (0.5x): Hanner cyflymder (0.5x)
 Help: Help
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): Chwarae HLS: hls.js (trwydded MIT)
 Image: Delwedd
 Import: Mewnforio
 Import cancelled or no channels mapped.: Mewnforio wedi'i ganslo neu dim sianeli wedi'u mapio.
+Import Error: Gwall Mewnforio
 Import error: {0}: Gwall mewnforio: {0}
 Import from URL: Mewnforio o URL
 Import JSON: Mewnforio JSON
 Import JSON from URL: Mewnforio JSON o URL
 Import Local: Mewnforio Lleol
+Imported {0} channels from code.: Wedi mewnforio {0} sianel o'r cod.
 Imported {0} channels from JSON via mapping.: Wedi mewnforio {0} sianel o JSON trwy fapio.
 Imported {0} channels from URL.: Wedi mewnforio {0} sianel o URL.
 In Both: Yn y Ddau
@@ -181,6 +194,7 @@ Invalid JSON: {0}: JSON annilys: {0}
 Invalid playlist URL.: URL rhestr chwarae annilys.
 Invalid URL.: URL annilys.
 Json: Json
+JSON parsing error: {0}: Gwall dosrannu JSON: {0}
 JSON Property: JSON Eiddo
 Ko-fi: Coffi
 Language: Iaith
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Llwythwch ffeil rhestr chwarae (M3U/JSON) o'ch cyfrifiadur
 Loaded: Wedi'i lwytho
 Loaded {0} channels from JSON file via mapping.: Llwythwyd {0} sianel o ffeil JSON trwy fapio.
-Loaded {0} channels from JSON file.: Llwythwyd {0} sianel o ffeil JSON.
 Loaded {0} channels from JSON URL.: Wedi llwytho {0} sianel o URL JSON.
 Loaded {0} channels from M3U file.: Wedi llwytho {0} sianel o ffeil M3U.
 Loaded {0} channels from M3U URL.: Wedi llwytho {0} sianel o URL M3U.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Trothwy Cyfatebol Logos
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Ystorfa logos – dewiswch perchennog/repo/llwybr (PerchennogPlugins/logos diofyn).
 Logos Source: Ffynhonnell Logos
 Logos Subfolder: Is-ffolder Logos
+M3U parsing error: {0}: Gwall dosrannu M3U: {0}
 Map JSON properties to channel fields:: Mapio priodweddau JSON i feysydd sianel:
 Mapping saved for future imports of this file.: Mae mapiau wedi'u cadw ar gyfer mewnforio'r ffeil hon yn y dyfodol.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Trothwyon cyfatebol – gosodwch sensitifrwydd paru niwlog ar gyfer EPG a logos.
+Mini Player: Chwaraewr Mini
 Move to Group: Symud i Grŵp
 Moved: Wedi symud
 Name: Enw
@@ -228,14 +243,18 @@ Next: Nesaf
 Next ▶: Nesaf ▶
 No .m3u files found on GitHub repository.: Ni ddarganfuwyd unrhyw ffeiliau .m3u ar ystorfa GitHub.
 No cache folder found.: Ni chanfuwyd ffolder storfa.
+No channel selected: Dim sianel wedi'i dewis
 No channels could be mapped or import cancelled.: Ni fu modd mapio unrhyw sianeli na chanslo mewnforio.
 No channels could be mapped. Check your mapping rules.: Nid oedd modd mapio unrhyw sianeli. Gwiriwch eich rheolau mapio.
+No channels found in JSON.: Ni chanfuwyd unrhyw sianeli yn JSON.
+No channels found in M3U.: Ni chanfuwyd unrhyw sianeli yn M3U.
 No channels loaded from JSON URL.: Dim sianeli wedi'u llwytho o URL JSON.
 No channels loaded from M3U URL.: Dim sianeli wedi'u llwytho o URL M3U.
 No channels loaded from M3U.: Dim sianeli wedi'u llwytho o M3U.
 No channels loaded.: Dim sianeli wedi'u llwytho.
 No channels mapped: Dim sianeli wedi'u mapio
 No channels selected.: Dim sianeli wedi'u dewis.
+No channels to import.: Dim sianeli i'w mewnforio.
 No duplicate URLs found.: Ni chanfuwyd URLau dyblyg.
 No EPG data: Dim data EPG
 No EPG information available for this channel.: Dim gwybodaeth EPG ar gael ar gyfer y sianel hon.
@@ -245,6 +264,8 @@ No favorite channels to export.: Dim hoff sianeli i'w hallforio.
 No missing channels to export.: Dim sianeli coll i'w hallforio.
 No playlist found: Heb ganfod rhestr chwarae
 No second playlist loaded.: Dim ail restr chwarae wedi'i llwytho.
+No stream URL available for this channel.: Nid oes URL ffrwd ar gael ar gyfer y sianel hon.
+No text to import.: Dim testun i'w fewnforio.
 No updates available.: Dim diweddariadau ar gael.
 Normal speed (1x): Cyflymder arferol (1x)
 Not connected to the box.: Heb ei gysylltu â'r blwch.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Saib/Ailgychwyn ffrwd fyw
 Paused: Wedi seibio
 PayPal: PayPal
 Picture-in-Picture mode: Modd Llun-mewn-Llun
+Play/Pause: Chwarae/Saib
 Player Controls: Rheolyddion Chwaraewr
+Playing: Chwarae
 Playlist & Groups: Rhestr Chwarae a Grwpiau
 Playlist Comparison: Cymhariaeth Rhestr Chwarae
 Playlist Editor: Golygydd Rhestr Chwarae
@@ -272,10 +295,12 @@ Please select a program first.: Dewiswch raglen yn gyntaf.
 Preview (first 5 channels): Rhagolwg (5 sianel gyntaf)
 Preview error: {0}: Gwall rhagolwg: {0}
 Program Details: Manylion y Rhaglen
+Ready: Yn barod
 Ready.: Yn barod.
 Recent: diweddar
 Recent files – quick access to last 5 opened playlists.: Ffeiliau diweddar - mynediad cyflym i'r 5 rhestr chwarae ddiwethaf a agorwyd.
 Recent playlists: Rhestrau chwarae diweddar
+Refresh Code: Adnewyddu'r Cod
 Refresh EPG: Adnewyddu EPG
 Refresh EPG List: Adnewyddu'r Rhestr EPG
 Refresh from GitHub: Adnewyddu o GitHub
@@ -301,6 +326,7 @@ Search channels by name: Chwilio sianeli yn ôl enw
 Search channels...: Chwilio sianeli...
 sec: eiliad
 Second playlist loaded: {0} channels: Ail restr chwarae wedi'i llwytho: {0} sianel
+Select a channel to play.: Dewiswch sianel i'w chwarae.
 Select a playlist first.: Dewiswch restr chwarae yn gyntaf.
 Select target group:: Dewiswch grŵp targed:
 Select Theme: Dewiswch Thema
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Cychwyn
 Status: Statws
 Stop: Stopio
+Stopped: Wedi stopio
 Stream URL: Ffrydio URL
 Stream URLs: Ffrydio URLs
 Success: Llwyddiant
@@ -342,7 +369,9 @@ TV Guide (EPG): Canllaw Teledu (EPG)
 TvgId: TvgId
 Type channel name to filter: Teipiwch enw sianel i hidlo
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Methu canfod fformat yn awtomatig. Dewiswch JSON neu M3U o'r gwymplen a cheisiwch eto.
 Unable to find version in remote project file.: Methu dod o hyd i fersiwn mewn ffeil prosiect anghysbell.
+Unsupported format. Please select JSON or M3U.: Fformat heb ei gefnogi. Dewiswch JSON neu M3U.
 Update: Diweddariad
 Update complete. Restarting...: Diweddariad wedi'i gwblhau. Wrthi'n ailgychwyn...
 Update Error: Gwall Diweddaru

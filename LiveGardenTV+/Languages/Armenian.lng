@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Նվագարկման արագություն՝ 0.5x, 1x, 2x կոճակներ։
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Տեսակավորել ցանկացած սյունակ՝ սեղմելով վերնագիրը; օգտագործեք «Վերականգնել պատվերը»՝ սկզբնական կարգին վերադառնալու համար:
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift. դադարեցնել ուղիղ հեռարձակումը; քաշել սահիչը հետ փնտրելու համար; սեղմեք «Live»՝ վերադառնալու համար:
+▶ Play: ▶ Խաղալ
 ◀ Previous: ◀ Նախորդ
 16 colour themes + Light/Dark variants.: 16 գունային թեմաներ + Լույս/Մութ տարբերակներ։
 A new version is available. Do you want to update now?: Հասանելի է նոր տարբերակ։ Ցանկանու՞մ եք թարմացնել հիմա:
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Կարգավորել բուֆերի չափը 
 Advanced IDs: Ընդլայնված ID-ներ
 Application status: Դիմումի կարգավիճակը
 Apply: Դիմել
+Apply / Import: Կիրառել / ներմուծել
 Apply changes: Կիրառել փոփոխությունները
 Apply Filters: Կիրառել զտիչներ
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Իսկապե՞ս ուզում եք վերաբեռնել Enigma2 GUI-ը:\n\nԻնտերֆեյսը կվերագործարկվի (սև էկրան մի քանի վայրկյանով):
@@ -46,8 +48,10 @@ Cannot open browser: Հնարավոր չէ բացել զննարկիչը
 Category: Կարգավիճակ
 Changelog: Փոփոխություններ
 Channel Details: Ալիքի մանրամասները
+Channel Down: Channel Down
 Channel Info: Channel Info
 Channel Name: Ալիքի անվանումը
+Channel Up: Channel Up
 channels from: ալիքներից
 channels from JSON: ալիքներ JSON-ից
 channels from JSON URL: ալիքներ JSON URL-ից
@@ -61,6 +65,8 @@ Clear Filters: Մաքրել զտիչները
 Clear search: Մաքրել որոնումը
 Click for details: Սեղմեք մանրամասների համար
 Close: Փակել
+Code: Կոդ
+Code copied to clipboard.: Կոդը պատճենվեց clipboard-ում:
 Command name:: Հրամանի անունը.
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Համայնք և փորձարկում՝ CorvoBoys (corvoboys.org) և LinuxSat-Support.com
 Compare: Համեմատեք
@@ -75,6 +81,7 @@ Confirm Reload: Հաստատեք վերաբեռնումը
 Connect: Միացնել
 Connected: Միացված է
 Copied: Պատճենվել է
+Copy: Պատճենել
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Երկիր
 Credits: Վարկեր
@@ -141,6 +148,7 @@ Export OK: Արտահանել OK
 Export only favorite channels to a new M3U file: Արտահանել միայն սիրելի ալիքները նոր M3U ֆայլ
 Export results as JSON or M3U – export missing channels or all channels.: Արտահանեք արդյունքները որպես JSON կամ M3U – արտահանեք բացակայող ալիքները կամ բոլոր ալիքները:
 Export selected: Արտահանումն ընտրված է
+Export Selected: Ընտրված է արտահանումը
 Exported: Արտահանվել է
 Exported {0} channels to {1}: Արտահանվել է {0} ալիք դեպի {1}
 Extracting update...: Թարմացումների արդյունահանում...
@@ -154,11 +162,14 @@ Fetch Logos: Բերել լոգոները
 File {0} already exists. Overwrite?: Ֆայլ {0} արդեն գոյություն ունի: Վերագրե՞լ
 File exists: Ֆայլը գոյություն ունի
 Filters: Զտիչներ
+Format Detection: Ձևաչափի հայտնաբերում
+Fullscreen: Ամբողջ էկրանով
 Fullscreen (hide UI) - press ESC to exit: Ամբողջ էկրանով (թաքցնել UI) - սեղմեք ESC՝ դուրս գալու համար
 Geo & Country: Geo & Country
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub-ի սխալ
 Go back to live: Վերադարձեք ապրելու
+Grid: Ցանց
 Group: Խումբ
 Half speed (0.5x): Կես արագություն (0,5x)
 Help: Օգնություն
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS նվագարկումը՝ hls.js (MIT լ�
 Image: Պատկեր
 Import: Ներմուծում
 Import cancelled or no channels mapped.: Ներմուծումը չեղարկվել է կամ ալիքները քարտեզագրված չեն:
+Import Error: Ներմուծման սխալ
 Import error: {0}: Ներմուծման սխալ՝ {0}
 Import from URL: Ներմուծում URL-ից
 Import JSON: Ներմուծեք JSON
 Import JSON from URL: Ներմուծեք JSON URL-ից
 Import Local: Ներմուծեք տեղական
+Imported {0} channels from code.: Կոդից ներմուծվել է {0} ալիք:
 Imported {0} channels from JSON via mapping.: Քարտեզագրման միջոցով ներմուծվել է {0} ալիք JSON-ից:
 Imported {0} channels from URL.: Ներմուծվել է {0} ալիք URL-ից:
 In Both: Երկուսում էլ
@@ -181,6 +194,7 @@ Invalid JSON: {0}: Անվավեր JSON՝ {0}
 Invalid playlist URL.: Անվավեր երգացանկի URL:
 Invalid URL.: Անվավեր URL:
 Json: Ջսոն
+JSON parsing error: {0}: JSON վերլուծության սխալ՝ {0}
 JSON Property: JSON սեփականություն
 Ko-fi: Սուրճ
 Language: Լեզու
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Ներբեռնեք երգացանկի ֆայլը (M3U/JSON) ձեր համակարգչից
 Loaded: Բեռնված
 Loaded {0} channels from JSON file via mapping.: Քարտեզագրման միջոցով բեռնվել է {0} ալիք JSON ֆայլից:
-Loaded {0} channels from JSON file.: Բեռնվել է {0} ալիք JSON ֆայլից:
 Loaded {0} channels from JSON URL.: Բեռնվել է {0} ալիք JSON URL-ից:
 Loaded {0} channels from M3U file.: Բեռնվել է {0} ալիք M3U ֆայլից:
 Loaded {0} channels from M3U URL.: Բեռնվել է {0} ալիք M3U URL-ից:
@@ -215,9 +228,11 @@ Logos Matching Threshold: Լոգոների համապատասխանող շեմ
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Լոգոների պահոց – ընտրեք սեփականատեր/ռեպո/ուղի (կանխադրված OwnerPlugins/լոգոները):
 Logos Source: Լոգոների աղբյուր
 Logos Subfolder: Լոգոների ենթաթղթապանակ
+M3U parsing error: {0}: M3U վերլուծության սխալ՝ {0}
 Map JSON properties to channel fields:: Քարտեզագրեք JSON-ի հատկությունները ալիքի դաշտերում.
 Mapping saved for future imports of this file.: Քարտեզագրումը պահվել է այս ֆայլի ապագա ներմուծման համար:
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Համապատասխան շեմեր – սահմանեք անորոշ համընկնումի զգայունություն EPG-ի և լոգոների համար:
+Mini Player: Մինի նվագարկիչ
 Move to Group: Տեղափոխել Խումբ
 Moved: Տեղափոխվել է
 Name: Անուն
@@ -228,14 +243,18 @@ Next: Հաջորդը
 Next ▶: Հաջորդը ▶
 No .m3u files found on GitHub repository.: GitHub պահոցում .m3u ֆայլեր չեն գտնվել:
 No cache folder found.: Քեշի թղթապանակ չի գտնվել:
+No channel selected: Ընտրված ալիք չկա
 No channels could be mapped or import cancelled.: Ոչ մի ալիք չի կարող քարտեզագրվել կամ ներմուծումը չեղարկվել:
 No channels could be mapped. Check your mapping rules.: Ոչ մի ալիք հնարավոր չէ քարտեզագրել: Ստուգեք ձեր քարտեզագրման կանոնները:
+No channels found in JSON.: JSON-ում ալիքներ չեն գտնվել:
+No channels found in M3U.: M3U-ում ալիքներ չեն գտնվել:
 No channels loaded from JSON URL.: JSON URL-ից բեռնված ալիքներ չկան:
 No channels loaded from M3U URL.: M3U URL-ից բեռնված ալիքներ չկան:
 No channels loaded from M3U.: M3U-ից բեռնված ալիքներ չկան:
 No channels loaded.: Չկան բեռնված ալիքներ:
 No channels mapped: Չկան քարտեզագրված ալիքներ
 No channels selected.: Ընտրված ալիքներ չկան:
+No channels to import.: Ներմուծման ալիքներ չկան:
 No duplicate URLs found.: Կրկնվող URL-ներ չեն գտնվել:
 No EPG data: EPG տվյալներ չկան
 No EPG information available for this channel.: Այս ալիքի համար EPG տեղեկություններ չկան:
@@ -245,6 +264,8 @@ No favorite channels to export.: Արտահանման սիրված ալիքնե�
 No missing channels to export.: Արտահանման համար բացակայող ալիքներ չկան:
 No playlist found: Երգացանկ չի գտնվել
 No second playlist loaded.: Երկրորդ երգացանկը բեռնված չէ:
+No stream URL available for this channel.: Հեռարձակման URL հասանելի չէ այս ալիքի համար:
+No text to import.: Ներմուծման համար տեքստ չկա:
 No updates available.: Թարմացումներ չկան:
 Normal speed (1x): Նորմալ արագություն (1x)
 Not connected to the box.: Միացված չէ տուփին:
@@ -261,7 +282,9 @@ Pause/Resume live stream: Դադարեցնել/Վերսկսել ուղիղ հե�
 Paused: Դադարեցված է
 PayPal: PayPal
 Picture-in-Picture mode: Նկար նկարի մեջ ռեժիմ
+Play/Pause: Նվագարկել/Դադար
 Player Controls: Խաղացողի վերահսկում
+Playing: Խաղում
 Playlist & Groups: Երգացանկ և խմբեր
 Playlist Comparison: Երգացանկի համեմատություն
 Playlist Editor: Երգացանկի խմբագիր
@@ -272,10 +295,12 @@ Please select a program first.: Խնդրում ենք նախ ընտրել ծրա
 Preview (first 5 channels): Նախադիտում (առաջին 5 ալիք)
 Preview error: {0}: Նախադիտման սխալ՝ {0}
 Program Details: Ծրագրի մանրամասները
+Ready: Պատրաստ
 Ready.: Պատրաստ.
 Recent: Վերջերս
 Recent files – quick access to last 5 opened playlists.: Վերջին ֆայլեր – արագ մուտք դեպի վերջին 5 բացված երգացանկ:
 Recent playlists: Վերջին երգացանկերը
+Refresh Code: Թարմացնել կոդը
 Refresh EPG: Թարմացրեք EPG-ն
 Refresh EPG List: Թարմացրեք EPG ցուցակը
 Refresh from GitHub: Թարմացրեք GitHub-ից
@@ -301,6 +326,7 @@ Search channels by name: Որոնեք ալիքները անունով
 Search channels...: Որոնել ալիքներ...
 sec: վրկ
 Second playlist loaded: {0} channels: Երկրորդ տեսացանկը բեռնված է՝ {0} ալիք
+Select a channel to play.: Ընտրեք ալիք՝ խաղալու համար:
 Select a playlist first.: Նախ ընտրեք երգացանկ:
 Select target group:: Ընտրեք թիրախային խումբ.
 Select Theme: Ընտրեք թեմա
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Սկսել
 Status: Կարգավիճակ
 Stop: Դադարեցրեք
+Stopped: Դադարեցվեց
 Stream URL: Հոսքի URL
 Stream URLs: Հոսքի URL-ներ
 Success: Հաջողություն
@@ -342,7 +369,9 @@ TV Guide (EPG): Հեռուստատեսային ուղեցույց (EPG)
 TvgId: TvgId
 Type channel name to filter: Մուտքագրեք ալիքի անունը զտելու համար
 UI: MaterialDesignThemes.Wpf: UI՝ MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Չհաջողվեց ավտոմատ կերպով հայտնաբերել ձևաչափը: Ընտրեք JSON կամ M3U բացվող ցանկից և նորից փորձեք:
 Unable to find version in remote project file.: Հնարավոր չէ գտնել տարբերակը հեռավոր նախագծի ֆայլում:
+Unsupported format. Please select JSON or M3U.: Չաջակցվող ձևաչափ: Խնդրում ենք ընտրել JSON կամ M3U:
 Update: Թարմացնել
 Update complete. Restarting...: Թարմացումն ավարտված է: Վերագործարկում...
 Update Error: Թարմացման սխալ

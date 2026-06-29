@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Oxutma sürəti: 0,5x, 1x, 2x düymələr.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Başlığa klikləməklə istənilən sütunu çeşidləyin; orijinal sıraya qayıtmaq üçün "Sifarişi Sıfırla" düyməsini istifadə edin.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: canlı yayımı dayandırmaq; geri axtarmaq üçün slayderi sürükləyin; qayıtmaq üçün 'Canlı' düyməsini basın.
+▶ Play: ▶ Oynayın
 ◀ Previous: ◀ Əvvəlki
 16 colour themes + Light/Dark variants.: 16 rəng mövzusu + Açıq/Qaranlıq variantları.
 A new version is available. Do you want to update now?: Yeni versiya mövcuddur. İndi yeniləmək istəyirsiniz?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Bufer ölçüsünü tənzimləyin (1-10 saniy
 Advanced IDs: Qabaqcıl identifikatorlar
 Application status: Tətbiq statusu
 Apply: Müraciət edin
+Apply / Import: Tətbiq edin / İdxal edin
 Apply changes: Dəyişiklikləri tətbiq edin
 Apply Filters: Filtrləri tətbiq edin
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI-ni yenidən yükləmək istədiyinizə əminsiniz?\n\nİnterfeys yenidən başlayacaq (bir neçə saniyə qara ekran).
@@ -46,8 +48,10 @@ Cannot open browser: Brauzeri açmaq mümkün deyil
 Category: Kateqoriya
 Changelog: Dəyişikliklər jurnalı
 Channel Details: Kanal Detalları
+Channel Down: Kanal Aşağı
 Channel Info: Kanal Məlumatı
 Channel Name: Kanal Adı
+Channel Up: Kanal Yuxarı
 channels from: -dan kanallar
 channels from JSON: JSON-dan kanallar
 channels from JSON URL: JSON URL-dən kanallar
@@ -61,6 +65,8 @@ Clear Filters: Filtrləri təmizləyin
 Clear search: Axtarışı təmizləyin
 Click for details: Ətraflı məlumat üçün klikləyin
 Close: Bağlayın
+Code: Kod
+Code copied to clipboard.: Kod buferə kopyalandı.
 Command name:: Komanda adı:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: İcma və sınaq: CorvoBoys (corvoboys.org) və LinuxSat-Support.com
 Compare: Müqayisə et
@@ -75,6 +81,7 @@ Confirm Reload: Yenidən yükləməni təsdiqləyin
 Connect: Qoşun
 Connected: Qoşuldu
 Copied: Kopyalandı
+Copy: Kopyalayın
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: ölkə
 Credits: Kreditlər
@@ -141,6 +148,7 @@ Export OK: İxrac OK
 Export only favorite channels to a new M3U file: Yeni M3U faylına yalnız sevimli kanalları ixrac edin
 Export results as JSON or M3U – export missing channels or all channels.: Nəticələri JSON və ya M3U kimi ixrac edin – çatışmayan kanalları və ya bütün kanalları ixrac edin.
 Export selected: Eksport seçildi
+Export Selected: İxrac Seçildi
 Exported: İxrac edildi
 Exported {0} channels to {1}: {0} kanal {1}-ə eksport edildi
 Extracting update...: Güncəlləmə çıxarılır...
@@ -154,11 +162,14 @@ Fetch Logos: Loqoları gətirin
 File {0} already exists. Overwrite?: {0} faylı artıq mövcuddur. Üstünə yazılsın?
 File exists: Fayl mövcuddur
 Filters: Filtrlər
+Format Detection: Format aşkarlanması
+Fullscreen: Tam ekran
 Fullscreen (hide UI) - press ESC to exit: Tam ekran (UI gizlət) - çıxmaq üçün ESC düyməsini basın
 Geo & Country: Coğrafiya və Ölkə
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub xətası
 Go back to live: Yaşamağa qayıt
+Grid: Grid
 Group: Qrup
 Half speed (0.5x): Yarım sürət (0,5x)
 Help: Kömək edin
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS oynatma: hls.js (MIT lisenziyası)
 Image: Şəkil
 Import: İdxal
 Import cancelled or no channels mapped.: İdxal ləğv edildi və ya heç bir kanal göstərilmədi.
+Import Error: İdxal xətası
 Import error: {0}: Import xətası: {0}
 Import from URL: URL-dən idxal edin
 Import JSON: JSON idxal edin
 Import JSON from URL: URL-dən JSON-u idxal edin
 Import Local: Yerli idxal
+Imported {0} channels from code.: Koddan {0} kanal import edildi.
 Imported {0} channels from JSON via mapping.: Xəritəçəkmə vasitəsilə JSON-dan {0} kanal idxal edildi.
 Imported {0} channels from URL.: URL-dən {0} kanal import edildi.
 In Both: Hər ikisində
@@ -181,6 +194,7 @@ Invalid JSON: {0}: Yanlış JSON: {0}
 Invalid playlist URL.: Yanlış pleylist URL.
 Invalid URL.: Yanlış URL.
 Json: Json
+JSON parsing error: {0}: JSON təhlil xətası: {0}
 JSON Property: JSON Mülkiyyəti
 Ko-fi: Qəhvə
 Language: Dil
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Pleylist faylını (M3U/JSON) kompüterinizdən yükləyin
 Loaded: Yükləndi
 Loaded {0} channels from JSON file via mapping.: Xəritəçəkmə vasitəsilə JSON faylından {0} kanal yükləndi.
-Loaded {0} channels from JSON file.: JSON faylından {0} kanal yükləndi.
 Loaded {0} channels from JSON URL.: JSON URL-dən {0} kanal yükləndi.
 Loaded {0} channels from M3U file.: M3U faylından {0} kanal yükləndi.
 Loaded {0} channels from M3U URL.: M3U URL-dən {0} kanal yükləndi.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Loqoların Uyğunluq Həddi
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Loqolar anbarı – sahibi/repo/yolu seçin (standart OwnerPlugins/logos).
 Logos Source: Loqolar Mənbə
 Logos Subfolder: Loqolar alt qovluğu
+M3U parsing error: {0}: M3U təhlil xətası: {0}
 Map JSON properties to channel fields:: JSON xassələrini kanal sahələrinə uyğunlaşdırın:
 Mapping saved for future imports of this file.: Xəritəçəkmə bu faylın gələcək idxalı üçün yadda saxlanıldı.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Uyğun hədlər – EPG və loqolar üçün qeyri-səlis uyğunluq həssaslığını təyin edin.
+Mini Player: Mini Oyunçu
 Move to Group: Qrupa keçin
 Moved: Köçürüldü
 Name: ad
@@ -228,14 +243,18 @@ Next: Sonrakı
 Next ▶: Növbəti ▶
 No .m3u files found on GitHub repository.: GitHub repozitoriyada heç bir .m3u faylı tapılmadı.
 No cache folder found.: Heç bir keş qovluğu tapılmadı.
+No channel selected: Kanal seçilməyib
 No channels could be mapped or import cancelled.: Heç bir kanal xəritələşdirilə və ya idxal ləğv edilə bilməz.
 No channels could be mapped. Check your mapping rules.: Heç bir kanal xəritələşdirilə bilmədi. Xəritəçəkmə qaydalarınızı yoxlayın.
+No channels found in JSON.: JSON-da heç bir kanal tapılmadı.
+No channels found in M3U.: M3U-da heç bir kanal tapılmadı.
 No channels loaded from JSON URL.: JSON URL-dən heç bir kanal yüklənməyib.
 No channels loaded from M3U URL.: M3U URL-dən heç bir kanal yüklənməmişdir.
 No channels loaded from M3U.: M3U-dan heç bir kanal yüklənməmişdir.
 No channels loaded.: Heç bir kanal yüklənmədi.
 No channels mapped: Heç bir kanal xəritələnməyib
 No channels selected.: Kanal seçilməyib.
+No channels to import.: Import etmək üçün kanal yoxdur.
 No duplicate URLs found.: Heç bir dublikat URL tapılmadı.
 No EPG data: EPG məlumatı yoxdur
 No EPG information available for this channel.: Bu kanal üçün EPG məlumatı yoxdur.
@@ -245,6 +264,8 @@ No favorite channels to export.: Eksport etmək üçün sevimli kanal yoxdur.
 No missing channels to export.: Eksport üçün çatışmayan kanal yoxdur.
 No playlist found: Heç bir pleylist tapılmadı
 No second playlist loaded.: İkinci pleylist yüklənməyib.
+No stream URL available for this channel.: Bu kanal üçün heç bir axın URL-i mövcud deyil.
+No text to import.: Import ediləcək mətn yoxdur.
 No updates available.: Heç bir yeniləmə yoxdur.
 Normal speed (1x): Normal sürət (1x)
 Not connected to the box.: Qutuya qoşulmayıb.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Canlı yayımı dayandırın/davam edin
 Paused: Fasilə verildi
 PayPal: PayPal
 Picture-in-Picture mode: Şəkil içində şəkil rejimi
+Play/Pause: Oynat/Pause
 Player Controls: Oyunçu Nəzarətləri
+Playing: Oynamaq
 Playlist & Groups: Pleylist və Qruplar
 Playlist Comparison: Pleylist müqayisəsi
 Playlist Editor: Pleylist redaktoru
@@ -272,10 +295,12 @@ Please select a program first.: Əvvəlcə proqramı seçin.
 Preview (first 5 channels): Önizləmə (ilk 5 kanal)
 Preview error: {0}: Önizləmə xətası: {0}
 Program Details: Proqram təfərrüatları
+Ready: Hazır
 Ready.: Hazır.
 Recent: Son
 Recent files – quick access to last 5 opened playlists.: Son fayllar – son 5 açılmış pleylistə sürətli giriş.
 Recent playlists: Son pleylistlər
+Refresh Code: Kodu yeniləyin
 Refresh EPG: EPG-ni yeniləyin
 Refresh EPG List: EPG Siyahısını yeniləyin
 Refresh from GitHub: GitHub-dan yeniləyin
@@ -301,6 +326,7 @@ Search channels by name: Kanalları adla axtarın
 Search channels...: Kanalları axtarın...
 sec: san
 Second playlist loaded: {0} channels: İkinci pleylist yükləndi: {0} kanal
+Select a channel to play.: Oynamaq üçün kanal seçin.
 Select a playlist first.: Əvvəlcə pleylist seçin.
 Select target group:: Hədəf qrupu seçin:
 Select Theme: Mövzu seçin
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Başlayın
 Status: Vəziyyət
 Stop: Dayan
+Stopped: Dayandı
 Stream URL: Yayım URL
 Stream URLs: Yayım URL-ləri
 Success: Uğur
@@ -342,7 +369,9 @@ TV Guide (EPG): TV Bələdçisi (EPG)
 TvgId: TvgId
 Type channel name to filter: Filtr etmək üçün kanal adını yazın
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Formatı avtomatik aşkarlamaq mümkün deyil. Lütfən, açılan menyudan JSON və ya M3U seçin və yenidən cəhd edin.
 Unable to find version in remote project file.: Uzaqdan layihə faylında versiya tapmaq mümkün deyil.
+Unsupported format. Please select JSON or M3U.: Dəstəklənməyən format. Lütfən, JSON və ya M3U seçin.
 Update: Yeniləyin
 Update complete. Restarting...: Yeniləmə tamamlandı. Yenidən başlayır...
 Update Error: Yeniləmə xətası

@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • ప్లేబ్యాక్ వేగం: 0.5x, 1x, 2x బటన్లు.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • హెడర్‌ని క్లిక్ చేయడం ద్వారా ఏదైనా నిలువు వరుసను క్రమబద్ధీకరించండి; అసలు ఆర్డర్‌కి తిరిగి రావడానికి 'రీసెట్ ఆర్డర్'ని ఉపయోగించండి.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • టైమ్‌షిఫ్ట్: ప్రత్యక్ష ప్రసారాన్ని పాజ్ చేయండి; వెనక్కి వెతకడానికి స్లయిడర్‌ని లాగండి; తిరిగి రావడానికి 'లైవ్' నొక్కండి.
+▶ Play: ▶ ఆడండి
 ◀ Previous: ◀ మునుపటి
 16 colour themes + Light/Dark variants.: 16 రంగు థీమ్‌లు + లైట్/డార్క్ వేరియంట్‌లు.
 A new version is available. Do you want to update now?: కొత్త వెర్షన్ అందుబాటులో ఉంది. మీరు ఇప్పుడు అప్‌డేట్ చేయాలనుకుంటున్నారా?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): బఫర్ పరిమాణాన్న�
 Advanced IDs: అధునాతన IDలు
 Application status: అప్లికేషన్ స్థితి
 Apply: దరఖాస్తు చేసుకోండి
+Apply / Import: దరఖాస్తు / దిగుమతి
 Apply changes: మార్పులను వర్తింపజేయండి
 Apply Filters: ఫిల్టర్‌లను వర్తింపజేయండి
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: మీరు ఖచ్చితంగా Enigma2 GUIని రీలోడ్ చేయాలనుకుంటున్నారా?\n\nఇంటర్ఫేస్ పునఃప్రారంభించబడుతుంది (కొన్ని సెకన్ల పాటు బ్లాక్ స్క్రీన్).
@@ -46,8 +48,10 @@ Cannot open browser: బ్రౌజర్‌ని తెరవడం సాధ
 Category: వర్గం
 Changelog: చేంజ్లాగ్
 Channel Details: ఛానెల్ వివరాలు
+Channel Down: ఛానెల్ డౌన్
 Channel Info: ఛానెల్ సమాచారం
 Channel Name: ఛానెల్ పేరు
+Channel Up: ఛానల్ అప్
 channels from: నుండి ఛానెల్‌లు
 channels from JSON: JSON నుండి ఛానెల్‌లు
 channels from JSON URL: JSON URL నుండి ఛానెల్‌లు
@@ -61,6 +65,8 @@ Clear Filters: ఫిల్టర్‌లను క్లియర్ చేయ
 Clear search: శోధనను క్లియర్ చేయండి
 Click for details: వివరాల కోసం క్లిక్ చేయండి
 Close: మూసివేయి
+Code: కోడ్
+Code copied to clipboard.: కోడ్ క్లిప్‌బోర్డ్‌కి కాపీ చేయబడింది.
 Command name:: కమాండ్ పేరు:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: సంఘం & పరీక్ష: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: సరిపోల్చండి
@@ -75,6 +81,7 @@ Confirm Reload: రీలోడ్‌ని నిర్ధారించండ
 Connect: కనెక్ట్ చేయండి
 Connected: కనెక్ట్ చేయబడింది
 Copied: కాపీ చేయబడింది
+Copy: కాపీ చేయండి
 CORVOBOYS.ORG: CORVOYS.ORG
 Country: దేశం
 Credits: క్రెడిట్స్
@@ -141,6 +148,7 @@ Export OK: ఎగుమతి సరే
 Export only favorite channels to a new M3U file: కొత్త M3U ఫైల్‌కి ఇష్టమైన ఛానెల్‌లను మాత్రమే ఎగుమతి చేయండి
 Export results as JSON or M3U – export missing channels or all channels.: JSON లేదా M3U వంటి ఫలితాలను ఎగుమతి చేయండి - తప్పిపోయిన ఛానెల్‌లు లేదా అన్ని ఛానెల్‌లను ఎగుమతి చేయండి.
 Export selected: ఎగుమతి ఎంచుకోబడింది
+Export Selected: ఎగుమతి ఎంచుకోబడింది
 Exported: ఎగుమతి చేయబడింది
 Exported {0} channels to {1}: {0} ఛానెల్‌లు {1}కి ఎగుమతి చేయబడ్డాయి
 Extracting update...: నవీకరణను సంగ్రహిస్తోంది...
@@ -154,11 +162,14 @@ Fetch Logos: లోగోలను పొందండి
 File {0} already exists. Overwrite?: ఫైల్ {0} ఇప్పటికే ఉంది. ఓవర్‌రైట్ చేయాలా?
 File exists: ఫైల్ ఉంది
 Filters: ఫిల్టర్లు
+Format Detection: ఫార్మాట్ డిటెక్షన్
+Fullscreen: పూర్తి స్క్రీన్
 Fullscreen (hide UI) - press ESC to exit: పూర్తి స్క్రీన్ (UIని దాచిపెట్టు) - నిష్క్రమించడానికి ESC నొక్కండి
 Geo & Country: జియో & దేశం
 GeoBlocked: జియోబ్లాక్ చేయబడింది
 GitHub Error: GitHub లోపం
 Go back to live: జీవించడానికి తిరిగి వెళ్ళు
+Grid: గ్రిడ్
 Group: సమూహం
 Half speed (0.5x): సగం వేగం (0.5x)
 Help: సహాయం
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS ప్లేబ్యాక్: hls.js (
 Image: చిత్రం
 Import: దిగుమతి
 Import cancelled or no channels mapped.: దిగుమతి రద్దు చేయబడింది లేదా ఛానెల్‌లు మ్యాప్ చేయబడలేదు.
+Import Error: దిగుమతి లోపం
 Import error: {0}: దిగుమతి లోపం: {0}
 Import from URL: URL నుండి దిగుమతి చేయండి
 Import JSON: JSONని దిగుమతి చేయండి
 Import JSON from URL: URL నుండి JSONని దిగుమతి చేయండి
 Import Local: స్థానికంగా దిగుమతి చేసుకోండి
+Imported {0} channels from code.: కోడ్ నుండి {0} ఛానెల్‌లు దిగుమతి చేయబడ్డాయి.
 Imported {0} channels from JSON via mapping.: మ్యాపింగ్ ద్వారా JSON నుండి {0} ఛానెల్‌లు దిగుమతి చేయబడ్డాయి.
 Imported {0} channels from URL.: URL నుండి {0} ఛానెల్‌లు దిగుమతి చేయబడ్డాయి.
 In Both: రెండింటిలోనూ
@@ -181,6 +194,7 @@ Invalid JSON: {0}: చెల్లని JSON: {0}
 Invalid playlist URL.: చెల్లని ప్లేజాబితా URL.
 Invalid URL.: చెల్లని URL.
 Json: Json
+JSON parsing error: {0}: JSON పార్సింగ్ లోపం: {0}
 JSON Property: JSON ఆస్తి
 Ko-fi: కాఫీ
 Language: భాష
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: మీ కంప్యూటర్ నుండి ప్లేజాబితా ఫైల్ (M3U/JSON) లోడ్ చేయండి
 Loaded: లోడ్ చేయబడింది
 Loaded {0} channels from JSON file via mapping.: మ్యాపింగ్ ద్వారా JSON ఫైల్ నుండి {0} ఛానెల్‌లు లోడ్ చేయబడ్డాయి.
-Loaded {0} channels from JSON file.: JSON ఫైల్ నుండి {0} ఛానెల్‌లు లోడ్ చేయబడ్డాయి.
 Loaded {0} channels from JSON URL.: JSON URL నుండి {0} ఛానెల్‌లు లోడ్ చేయబడ్డాయి.
 Loaded {0} channels from M3U file.: M3U ఫైల్ నుండి {0} ఛానెల్‌లు లోడ్ చేయబడ్డాయి.
 Loaded {0} channels from M3U URL.: M3U URL నుండి {0} ఛానెల్‌లు లోడ్ చేయబడ్డాయి.
@@ -215,9 +228,11 @@ Logos Matching Threshold: లోగోలు సరిపోలే థ్రె�
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: లోగోల రిపోజిటరీ - యజమాని/రెపో/మార్గాన్ని ఎంచుకోండి (డిఫాల్ట్ ఓనర్‌ప్లగిన్‌లు/లోగోలు).
 Logos Source: లోగోల మూలం
 Logos Subfolder: లోగోలు సబ్‌ఫోల్డర్
+M3U parsing error: {0}: M3U పార్సింగ్ లోపం: {0}
 Map JSON properties to channel fields:: JSON లక్షణాలను ఛానెల్ ఫీల్డ్‌లకు మ్యాప్ చేయండి:
 Mapping saved for future imports of this file.: ఈ ఫైల్ యొక్క భవిష్యత్తు దిగుమతుల కోసం మ్యాపింగ్ సేవ్ చేయబడింది.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: సరిపోలే థ్రెషోల్డ్‌లు - EPG మరియు లోగోల కోసం అస్పష్టమైన మ్యాచ్ సెన్సిటివిటీని సెట్ చేయండి.
+Mini Player: మినీ ప్లేయర్
 Move to Group: సమూహానికి తరలించండి
 Moved: తరలించబడింది
 Name: పేరు
@@ -228,14 +243,18 @@ Next: తదుపరి
 Next ▶: తదుపరి ▶
 No .m3u files found on GitHub repository.: GitHub రిపోజిటరీలో .m3u ఫైల్‌లు ఏవీ కనుగొనబడలేదు.
 No cache folder found.: కాష్ ఫోల్డర్ కనుగొనబడలేదు.
+No channel selected: ఛానెల్ ఏదీ ఎంచుకోబడలేదు
 No channels could be mapped or import cancelled.: ఛానెల్‌లు ఏవీ మ్యాప్ చేయబడవు లేదా దిగుమతి రద్దు చేయబడవు.
 No channels could be mapped. Check your mapping rules.: ఛానెల్‌లు ఏవీ మ్యాప్ చేయబడవు. మీ మ్యాపింగ్ నియమాలను తనిఖీ చేయండి.
+No channels found in JSON.: JSONలో ఛానెల్‌లు ఏవీ కనుగొనబడలేదు.
+No channels found in M3U.: M3Uలో ఛానెల్‌లు ఏవీ కనుగొనబడలేదు.
 No channels loaded from JSON URL.: JSON URL నుండి ఛానెల్‌లు ఏవీ లోడ్ చేయబడలేదు.
 No channels loaded from M3U URL.: M3U URL నుండి ఛానెల్‌లు ఏవీ లోడ్ చేయబడలేదు.
 No channels loaded from M3U.: M3U నుండి ఛానెల్‌లు ఏవీ లోడ్ చేయబడలేదు.
 No channels loaded.: ఛానెల్‌లు ఏవీ లోడ్ చేయబడలేదు.
 No channels mapped: ఛానెల్‌లు ఏవీ మ్యాప్ చేయబడలేదు
 No channels selected.: ఛానెల్‌లు ఏవీ ఎంచుకోబడలేదు.
+No channels to import.: దిగుమతి చేయడానికి ఛానెల్‌లు లేవు.
 No duplicate URLs found.: నకిలీ URLలు ఏవీ కనుగొనబడలేదు.
 No EPG data: EPG డేటా లేదు
 No EPG information available for this channel.: ఈ ఛానెల్ కోసం EPG సమాచారం అందుబాటులో లేదు.
@@ -245,6 +264,8 @@ No favorite channels to export.: ఎగుమతి చేయడానికి 
 No missing channels to export.: ఎగుమతి చేయడానికి ఛానెల్‌లు లేవు.
 No playlist found: ప్లేజాబితా ఏదీ కనుగొనబడలేదు
 No second playlist loaded.: రెండవ ప్లేజాబితా లోడ్ చేయబడలేదు.
+No stream URL available for this channel.: ఈ ఛానెల్ కోసం స్ట్రీమ్ URL అందుబాటులో లేదు.
+No text to import.: దిగుమతి చేయడానికి టెక్స్ట్ లేదు.
 No updates available.: అప్‌డేట్‌లు ఏవీ అందుబాటులో లేవు.
 Normal speed (1x): సాధారణ వేగం (1x)
 Not connected to the box.: పెట్టెకి కనెక్ట్ కాలేదు.
@@ -261,7 +282,9 @@ Pause/Resume live stream: ప్రత్యక్ష ప్రసారాన�
 Paused: పాజ్ చేయబడింది
 PayPal: పేపాల్
 Picture-in-Picture mode: పిక్చర్-ఇన్-పిక్చర్ మోడ్
+Play/Pause: ప్లే/పాజ్ చేయండి
 Player Controls: ప్లేయర్ నియంత్రణలు
+Playing: ఆడుతున్నారు
 Playlist & Groups: ప్లేజాబితా & గుంపులు
 Playlist Comparison: ప్లేజాబితా పోలిక
 Playlist Editor: ప్లేజాబితా ఎడిటర్
@@ -272,10 +295,12 @@ Please select a program first.: దయచేసి ముందుగా ఒక 
 Preview (first 5 channels): ప్రివ్యూ (మొదటి 5 ఛానెల్‌లు)
 Preview error: {0}: ప్రివ్యూ లోపం: {0}
 Program Details: ప్రోగ్రామ్ వివరాలు
+Ready: సిద్ధంగా ఉంది
 Ready.: సిద్ధంగా ఉంది.
 Recent: ఇటీవలి
 Recent files – quick access to last 5 opened playlists.: ఇటీవలి ఫైల్‌లు – చివరిగా తెరిచిన 5 ప్లేజాబితాలకు శీఘ్ర ప్రాప్యత.
 Recent playlists: ఇటీవలి ప్లేజాబితాలు
+Refresh Code: కోడ్‌ని రిఫ్రెష్ చేయండి
 Refresh EPG: EPGని రిఫ్రెష్ చేయండి
 Refresh EPG List: EPG జాబితాను రిఫ్రెష్ చేయండి
 Refresh from GitHub: GitHub నుండి రిఫ్రెష్ చేయండి
@@ -301,6 +326,7 @@ Search channels by name: పేరుతో ఛానెల్‌లను శ�
 Search channels...: ఛానెల్‌లను శోధించండి...
 sec: సెకను
 Second playlist loaded: {0} channels: రెండవ ప్లేజాబితా లోడ్ చేయబడింది: {0} ఛానెల్‌లు
+Select a channel to play.: ప్లే చేయడానికి ఛానెల్‌ని ఎంచుకోండి.
 Select a playlist first.: ముందుగా ప్లేజాబితాను ఎంచుకోండి.
 Select target group:: లక్ష్య సమూహాన్ని ఎంచుకోండి:
 Select Theme: థీమ్‌ని ఎంచుకోండి
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: ప్రారంభించండి
 Status: స్థితి
 Stop: ఆపు
+Stopped: ఆగిపోయింది
 Stream URL: స్ట్రీమ్ URL
 Stream URLs: స్ట్రీమ్ URLలు
 Success: విజయం
@@ -342,7 +369,9 @@ TV Guide (EPG): టీవీ గైడ్ (EPG)
 TvgId: TvgId
 Type channel name to filter: ఫిల్టర్ చేయడానికి ఛానెల్ పేరును టైప్ చేయండి
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: ఆకృతిని స్వయంచాలకంగా గుర్తించడం సాధ్యం కాలేదు. దయచేసి డ్రాప్‌డౌన్ నుండి JSON లేదా M3Uని ఎంచుకుని, మళ్లీ ప్రయత్నించండి.
 Unable to find version in remote project file.: రిమోట్ ప్రాజెక్ట్ ఫైల్‌లో సంస్కరణను కనుగొనడం సాధ్యపడలేదు.
+Unsupported format. Please select JSON or M3U.: మద్దతు లేని ఫార్మాట్. దయచేసి JSON లేదా M3Uని ఎంచుకోండి.
 Update: నవీకరించు
 Update complete. Restarting...: నవీకరణ పూర్తయింది. పునఃప్రారంభిస్తోంది...
 Update Error: నవీకరణ లోపం

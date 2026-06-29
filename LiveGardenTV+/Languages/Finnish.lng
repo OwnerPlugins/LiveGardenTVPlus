@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Toistonopeus: 0,5x, 1x, 2x painikkeet.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Lajittele mikä tahansa sarake napsauttamalla otsikkoa; Käytä 'Nollaa tilaus' palataksesi alkuperäiseen tilaukseen.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: keskeytä suoratoisto; vedä liukusäädintä hakeaksesi takaisin; paina 'Live' palataksesi.
+▶ Play: ▶ Pelaa
 ◀ Previous: ◀ Edellinen
 16 colour themes + Light/Dark variants.: 16 väriteemaa + vaalea/tumma versiot.
 A new version is available. Do you want to update now?: Uusi versio on saatavilla. Haluatko päivittää nyt?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Säädä puskurin kokoa (1-10 sekuntia)
 Advanced IDs: Edistyneet tunnukset
 Application status: Sovelluksen tila
 Apply: Käytä
+Apply / Import: Käytä / Tuo
 Apply changes: Ota muutokset käyttöön
 Apply Filters: Käytä suodattimia
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Haluatko varmasti ladata Enigma2 GUI:n uudelleen?\n\nKäyttöliittymä käynnistyy uudelleen (musta näyttö muutaman sekunnin ajan).
@@ -46,8 +48,10 @@ Cannot open browser: Selainta ei voi avata
 Category: Luokka
 Changelog: Muutosloki
 Channel Details: Kanavan tiedot
+Channel Down: Kanava alas
 Channel Info: Kanavan tiedot
 Channel Name: Kanavan nimi
+Channel Up: Kanava ylös
 channels from: kanavat alkaen
 channels from JSON: kanavia JSONista
 channels from JSON URL: kanavat JSON-osoitteesta
@@ -61,6 +65,8 @@ Clear Filters: Tyhjennä suodattimet
 Clear search: Tyhjennä haku
 Click for details: Napsauta saadaksesi lisätietoja
 Close: Lähellä
+Code: Koodi
+Code copied to clipboard.: Koodi kopioitu leikepöydälle.
 Command name:: Komennon nimi:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Yhteisö ja testaus: CorvoBoys (corvoboys.org) ja LinuxSat-Support.com
 Compare: Vertaa
@@ -75,6 +81,7 @@ Confirm Reload: Vahvista uudelleenlataus
 Connect: Yhdistä
 Connected: Yhdistetty
 Copied: Kopioitu
+Copy: Kopioida
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Maa
 Credits: Krediitit
@@ -141,6 +148,7 @@ Export OK: Vie OK
 Export only favorite channels to a new M3U file: Vie vain suosikkikanavat uuteen M3U-tiedostoon
 Export results as JSON or M3U – export missing channels or all channels.: Vie tulokset JSON- tai M3U-muodossa – vie puuttuvat kanavat tai kaikki kanavat.
 Export selected: Vienti valittu
+Export Selected: Vie valitut
 Exported: Vietiin
 Exported {0} channels to {1}: {0} kanavaa vietiin kansioon {1}
 Extracting update...: Poimitaan päivitystä...
@@ -154,11 +162,14 @@ Fetch Logos: Hae logot
 File {0} already exists. Overwrite?: Tiedosto {0} on jo olemassa. Korvataanko?
 File exists: Tiedosto on olemassa
 Filters: Suodattimet
+Format Detection: Muodin tunnistus
+Fullscreen: Koko näyttö
 Fullscreen (hide UI) - press ESC to exit: Koko näyttö (piilota käyttöliittymä) - paina ESC poistuaksesi
 Geo & Country: Maantieteellinen sijainti ja maa
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub-virhe
 Go back to live: Palaa asumaan
+Grid: Ruudukko
 Group: ryhmä
 Half speed (0.5x): Puolinopeus (0,5x)
 Help: Auttaa
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS-toisto: hls.js (MIT-lisenssi)
 Image: Kuva
 Import: Tuoda
 Import cancelled or no channels mapped.: Tuonti peruutettu tai kanavia ei ole kartoitettu.
+Import Error: Tuontivirhe
 Import error: {0}: Tuontivirhe: {0}
 Import from URL: Tuo URL-osoitteesta
 Import JSON: Tuo JSON
 Import JSON from URL: Tuo JSON URL-osoitteesta
 Import Local: Tuo paikallinen
+Imported {0} channels from code.: Tuotiin {0} kanavaa koodista.
 Imported {0} channels from JSON via mapping.: Tuotiin {0} kanavaa JSONista kartoituksen kautta.
 Imported {0} channels from URL.: Tuotiin {0} kanavaa URL-osoitteesta.
 In Both: Molemmissa
@@ -181,6 +194,7 @@ Invalid JSON: {0}: Virheellinen JSON: {0}
 Invalid playlist URL.: Virheellinen soittolistan URL-osoite.
 Invalid URL.: Virheellinen URL-osoite.
 Json: Json
+JSON parsing error: {0}: JSON-jäsennysvirhe: {0}
 JSON Property: JSON-omaisuus
 Ko-fi: Kahvia
 Language: Kieli
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Lataa soittolistatiedosto (M3U/JSON) tietokoneeltasi
 Loaded: Ladattu
 Loaded {0} channels from JSON file via mapping.: Ladattiin {0} kanavaa JSON-tiedostosta kartoituksen kautta.
-Loaded {0} channels from JSON file.: Ladattiin {0} kanavaa JSON-tiedostosta.
 Loaded {0} channels from JSON URL.: Ladattu {0} kanavaa JSON-URL-osoitteesta.
 Loaded {0} channels from M3U file.: Ladattu {0} kanavaa M3U-tiedostosta.
 Loaded {0} channels from M3U URL.: Ladattu {0} kanavaa M3U:n URL-osoitteesta.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Logojen vastaavuuskynnys
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logot arkisto – valitse omistaja/repo/polku (oletusOwnerPlugins/logot).
 Logos Source: Logon lähde
 Logos Subfolder: Logot-alikansio
+M3U parsing error: {0}: M3U-jäsennysvirhe: {0}
 Map JSON properties to channel fields:: Yhdistä JSON-ominaisuudet kanavakenttiin:
 Mapping saved for future imports of this file.: Kartta on tallennettu tämän tiedoston tulevaa tuontia varten.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Vastaavat kynnysarvot – määritä sumea vastaavuusherkkyys EPG:lle ja logoille.
+Mini Player: Mini-soitin
 Move to Group: Siirrä ryhmään
 Moved: Siirretty
 Name: Nimi
@@ -228,14 +243,18 @@ Next: Seuraavaksi
 Next ▶: Seuraava ▶
 No .m3u files found on GitHub repository.: GitHub-tietovarastosta ei löytynyt .m3u-tiedostoja.
 No cache folder found.: Välimuistikansiota ei löytynyt.
+No channel selected: Kanavaa ei ole valittu
 No channels could be mapped or import cancelled.: Kanavia ei voitu kartoittaa tai tuontia ei voitu peruuttaa.
 No channels could be mapped. Check your mapping rules.: Kanavia ei voitu kartoittaa. Tarkista karttasäännöt.
+No channels found in JSON.: JSONista ei löytynyt kanavia.
+No channels found in M3U.: Kanavia ei löytynyt M3U:sta.
 No channels loaded from JSON URL.: Kanavia ei ladattu JSON-URL-osoitteesta.
 No channels loaded from M3U URL.: Kanavia ei ladattu M3U:n URL-osoitteesta.
 No channels loaded from M3U.: M3U:sta ei ladattu kanavia.
 No channels loaded.: Ei ladattuja kanavia.
 No channels mapped: Ei kartoitettuja kanavia
 No channels selected.: Ei valittuja kanavia.
+No channels to import.: Ei tuottavia kanavia.
 No duplicate URLs found.: Päällekkäisiä URL-osoitteita ei löytynyt.
 No EPG data: Ei EPG-tietoja
 No EPG information available for this channel.: Tälle kanavalle ei ole saatavilla EPG-tietoja.
@@ -245,6 +264,8 @@ No favorite channels to export.: Ei suosikkikanavia vietäväksi.
 No missing channels to export.: Ei puuttuvia kanavia vietäväksi.
 No playlist found: Soittolistaa ei löydy
 No second playlist loaded.: Toista soittolistaa ei ladattu.
+No stream URL available for this channel.: Tälle kanavalle ei ole saatavilla suoratoiston URL-osoitetta.
+No text to import.: Ei tuotavaa tekstiä.
 No updates available.: Päivityksiä ei ole saatavilla.
 Normal speed (1x): Normaali nopeus (1x)
 Not connected to the box.: Ei kytketty laatikkoon.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Keskeytä/Jatka suoratoistoa
 Paused: Keskeytetty
 PayPal: PayPal
 Picture-in-Picture mode: Kuva kuvassa -tila
+Play/Pause: Toista/Tauko
 Player Controls: Soittimen säätimet
+Playing: Pelaaminen
 Playlist & Groups: Soittolistat ja ryhmät
 Playlist Comparison: Soittolistan vertailu
 Playlist Editor: Soittolistaeditori
@@ -272,10 +295,12 @@ Please select a program first.: Valitse ensin ohjelma.
 Preview (first 5 channels): Esikatselu (ensimmäiset 5 kanavaa)
 Preview error: {0}: Esikatseluvirhe: {0}
 Program Details: Ohjelman tiedot
+Ready: Valmis
 Ready.: Valmis.
 Recent: Viimeaikaiset
 Recent files – quick access to last 5 opened playlists.: Viimeisimmät tiedostot – nopea pääsy viiteen viimeiseen avattuun soittolistaan.
 Recent playlists: Viimeaikaiset soittolistat
+Refresh Code: Päivitä koodi
 Refresh EPG: Päivitä EPG
 Refresh EPG List: Päivitä EPG-luettelo
 Refresh from GitHub: Päivitä GitHubista
@@ -301,6 +326,7 @@ Search channels by name: Hae kanavia nimellä
 Search channels...: Hae kanavia...
 sec: sek
 Second playlist loaded: {0} channels: Toinen soittolista ladattu: {0} kanavaa
+Select a channel to play.: Valitse toistettava kanava.
 Select a playlist first.: Valitse ensin soittolista.
 Select target group:: Valitse kohderyhmä:
 Select Theme: Valitse Teema
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Aloita
 Status: Status
 Stop: Stop
+Stopped: Pysähtynyt
 Stream URL: Striimin URL-osoite
 Stream URLs: Striimaa URL-osoitteita
 Success: Menestys
@@ -342,7 +369,9 @@ TV Guide (EPG): TV-opas (EPG)
 TvgId: TvgId
 Type channel name to filter: Kirjoita suodattavan kanavan nimi
 UI: MaterialDesignThemes.Wpf: Käyttöliittymä: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Formaattia ei voi tunnistaa automaattisesti. Valitse JSON tai M3U avattavasta valikosta ja yritä uudelleen.
 Unable to find version in remote project file.: Versiota ei löydy etäprojektitiedostosta.
+Unsupported format. Please select JSON or M3U.: Ei tuettu muoto. Valitse JSON tai M3U.
 Update: Päivittää
 Update complete. Restarting...: Päivitys valmis. Käynnistetään uudelleen...
 Update Error: Päivitysvirhe

@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Wiedergabe snelheid: 0,5x, 1x, 2x knoppen.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sortearje elke kolom troch te klikken op koptekst; brûk 'Reset Order' om werom te gean nei de orizjinele oarder.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: live stream stopje; sleep slider om werom te sykjen; druk op 'Live' om werom te gean.
+▶ Play: ▶ Spielje
 ◀ Previous: ◀ Foarige
 16 colour themes + Light/Dark variants.: 16 kleurtema's + Ljocht / Donkere farianten.
 A new version is available. Do you want to update now?: In nije ferzje is beskikber. Wolle jo no bywurkje?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Buffergrutte oanpasse (1-10 sekonden)
 Advanced IDs: Avansearre IDs
 Application status: Applikaasje status
 Apply: Tapasse
+Apply / Import: Tapasse / ymportearje
 Apply changes: Feroarings tapasse
 Apply Filters: Filters tapasse
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Binne jo wis dat jo de Enigma2 GUI opnij laden wolle?\n\nDe ynterface sil opnij starte (swart skerm foar in pear sekonden).
@@ -46,8 +48,10 @@ Cannot open browser: Kin browser net iepenje
 Category: Kategory
 Changelog: Feroaringslog
 Channel Details: Channel Details
+Channel Down: Channel Down
 Channel Info: Channel Info
 Channel Name: Kanaal Namme
+Channel Up: Kanaal omheech
 channels from: kanalen út
 channels from JSON: kanalen fan JSON
 channels from JSON URL: kanalen fan JSON URL
@@ -61,6 +65,8 @@ Clear Filters: Filters wiskje
 Clear search: Wiskje sykjen
 Click for details: Klik foar details
 Close: Slute
+Code: Koade
+Code copied to clipboard.: Koade kopiearre nei klamboerd.
 Command name:: Kommando namme:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Mienskip en testen: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: Ferlykje
@@ -75,6 +81,7 @@ Confirm Reload: Befêstigje Reload
 Connect: Ferbine
 Connected: Ferbûn
 Copied: Kopiearre
+Copy: Kopy
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Lân
 Credits: Credits
@@ -141,6 +148,7 @@ Export OK: Eksportearje OK
 Export only favorite channels to a new M3U file: Eksportearje allinich favorite kanalen nei in nij M3U-bestân
 Export results as JSON or M3U – export missing channels or all channels.: Eksportearje resultaten as JSON of M3U - eksportearje ûntbrekkende kanalen as alle kanalen.
 Export selected: Eksportearje selektearre
+Export Selected: Eksportearje selektearre
 Exported: Eksportearre
 Exported {0} channels to {1}: Eksportearre {0} kanalen nei {1}
 Extracting update...: Update útpakke...
@@ -154,11 +162,14 @@ Fetch Logos: Logos ophelje
 File {0} already exists. Overwrite?: Triem {0} bestiet al. Oerskriuwe?
 File exists: Triem bestiet
 Filters: Filters
+Format Detection: Formaat Detection
+Fullscreen: Folslein skerm
 Fullscreen (hide UI) - press ESC to exit: Folslein skerm (ferbergje UI) - druk op ESC om út te gean
 Geo & Country: Geo & Lân
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub flater
 Go back to live: Gean werom om te libjen
+Grid: Grid
 Group: Groep
 Half speed (0.5x): Healsnelheid (0,5x)
 Help: Help
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS-ôfspieling: hls.js (MIT-lisinsje)
 Image: Byld
 Import: Ymport
 Import cancelled or no channels mapped.: Ymport annulearre of gjin kanalen yn kaart brocht.
+Import Error: Ymportearje flater
 Import error: {0}: Ymportflater: {0}
 Import from URL: Ymportearje fan URL
 Import JSON: Ymportearje JSON
 Import JSON from URL: Ymportearje JSON fan URL
 Import Local: Ymportearje Lokaal
+Imported {0} channels from code.: Ymporteare {0} kanalen út koade.
 Imported {0} channels from JSON via mapping.: Ymporteare {0} kanalen fan JSON fia mapping.
 Imported {0} channels from URL.: Ymporteare {0} kanalen fan URL.
 In Both: Yn beide
@@ -181,6 +194,7 @@ Invalid JSON: {0}: Unjildige JSON: {0}
 Invalid playlist URL.: Unjildige playlist-URL.
 Invalid URL.: Unjildige URL.
 Json: Json
+JSON parsing error: {0}: JSON-parseerfout: {0}
 JSON Property: JSON Eigenskip
 Ko-fi: Kofje
 Language: Taal
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Laad playlistbestân (M3U/JSON) fan jo kompjûter
 Loaded: Loaded
 Loaded {0} channels from JSON file via mapping.: Laad {0} kanalen út JSON triem fia mapping.
-Loaded {0} channels from JSON file.: Laad {0} kanalen út JSON triem.
 Loaded {0} channels from JSON URL.: Laad {0} kanalen fan JSON URL.
 Loaded {0} channels from M3U file.: Laad {0} kanalen út M3U triem.
 Loaded {0} channels from M3U URL.: Laad {0} kanalen fan M3U URL.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Logos Matching Threshold
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logos repository - kies eigner / repo / paad (standert OwnerPlugins / logo's).
 Logos Source: Logos Boarne
 Logos Subfolder: Logos Submap
+M3U parsing error: {0}: M3U-parseerfout: {0}
 Map JSON properties to channel fields:: Map JSON-eigenskippen oan kanaalfjilden:
 Mapping saved for future imports of this file.: Mapping bewarre foar takomstige ymporten fan dit bestân.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Matching drompels - set fuzzy wedstriid gefoelichheid foar EPG en logos.
+Mini Player: Mini Spiler
 Move to Group: Ferpleatse nei groep
 Moved: Ferpleatst
 Name: Namme
@@ -228,14 +243,18 @@ Next: Folgjende
 Next ▶: Folgjende ▶
 No .m3u files found on GitHub repository.: Gjin .m3u triemmen fûn op GitHub repository.
 No cache folder found.: Gjin cache-map fûn.
+No channel selected: Gjin kanaal selektearre
 No channels could be mapped or import cancelled.: Gjin kanalen koene wurde yn kaart brocht of ymportearjen annulearre.
 No channels could be mapped. Check your mapping rules.: Gjin kanalen koene wurde yn kaart brocht. Kontrolearje jo mapping regels.
+No channels found in JSON.: Gjin kanalen fûn yn JSON.
+No channels found in M3U.: Gjin kanalen fûn yn M3U.
 No channels loaded from JSON URL.: Gjin kanalen laden fan JSON URL.
 No channels loaded from M3U URL.: Gjin kanalen laden fan M3U URL.
 No channels loaded from M3U.: Gjin kanalen laden fan M3U.
 No channels loaded.: Gjin kanalen laden.
 No channels mapped: Gjin kanalen yn kaart brocht
 No channels selected.: Gjin kanalen selektearre.
+No channels to import.: Gjin kanalen om te ymportearjen.
 No duplicate URLs found.: Gjin dûbele URL's fûn.
 No EPG data: Gjin EPG-gegevens
 No EPG information available for this channel.: Gjin EPG-ynformaasje beskikber foar dit kanaal.
@@ -245,6 +264,8 @@ No favorite channels to export.: Gjin favorite kanalen om te eksportearjen.
 No missing channels to export.: Gjin ûntbrekkende kanalen om te eksportearjen.
 No playlist found: Gjin playlist fûn
 No second playlist loaded.: Gjin twadde playlist laden.
+No stream URL available for this channel.: Gjin stream-URL beskikber foar dit kanaal.
+No text to import.: Gjin tekst om te ymportearjen.
 No updates available.: Gjin updates beskikber.
 Normal speed (1x): Normale snelheid (1x)
 Not connected to the box.: Net ferbûn oan it fak.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Pause / Ferfetsje live stream
 Paused: Pauzearre
 PayPal: PayPal
 Picture-in-Picture mode: Picture-in-Picture modus
+Play/Pause: Play / Pause
 Player Controls: Spiler kontrôles
+Playing: Boartsjen
 Playlist & Groups: Playlist en groepen
 Playlist Comparison: Playlist Fergeliking
 Playlist Editor: Playlist Editor
@@ -272,10 +295,12 @@ Please select a program first.: Selektearje asjebleaft earst in programma.
 Preview (first 5 channels): Foarbyld (earste 5 kanalen)
 Preview error: {0}: Foarbyldflater: {0}
 Program Details: Program Details
+Ready: Klear
 Ready.: Klear.
 Recent: Resint
 Recent files – quick access to last 5 opened playlists.: Resinte bestannen - rappe tagong ta de lêste 5 iepene playlists.
 Recent playlists: Resinte playlists
+Refresh Code: Koade ferfarskje
 Refresh EPG: Ferfarskje EPG
 Refresh EPG List: Ferfarskje EPG List
 Refresh from GitHub: Ferfarskje fan GitHub
@@ -301,6 +326,7 @@ Search channels by name: Sykje kanalen op namme
 Search channels...: Sykje kanalen...
 sec: sek
 Second playlist loaded: {0} channels: Twadde playlist laden: {0} kanalen
+Select a channel to play.: Selektearje in kanaal om te spyljen.
 Select a playlist first.: Selektearje earst in playlist.
 Select target group:: Selektearje doelgroep:
 Select Theme: Selektearje Tema
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Start
 Status: Status
 Stop: Ophâlde
+Stopped: Ophâlden
 Stream URL: Stream URL
 Stream URLs: Stream URL's
 Success: Sukses
@@ -342,7 +369,9 @@ TV Guide (EPG): TV Guide (EPG)
 TvgId: TvgId
 Type channel name to filter: Typ kanaalnamme om te filterjen
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: It opmaak kin net automatysk ûntdekke. Selektearje asjebleaft JSON of M3U út it útklapmenu en besykje it nochris.
 Unable to find version in remote project file.: Ferzje kin net fûn wurde yn projektbestân op ôfstân.
+Unsupported format. Please select JSON or M3U.: Net-stipe opmaak. Selektearje asjebleaft JSON of M3U.
 Update: Update
 Update complete. Restarting...: Update klear. Op 'e nij begjinne...
 Update Error: Update flater

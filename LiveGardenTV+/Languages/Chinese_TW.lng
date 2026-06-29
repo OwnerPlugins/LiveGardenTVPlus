@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • 播放速度：0.5x、1x、2x 按鈕。
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • 透過點選標題對任何欄位進行排序；使用「重設訂單」還原到原始訂單。
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • 時移：暫停直播；拖曳滑桿向後尋找；按「即時」返回。
+▶ Play: ▶ 玩
 ◀ Previous: ◀ 上一頁
 16 colour themes + Light/Dark variants.: 16 種顏色主題 + 淺色/深色變體。
 A new version is available. Do you want to update now?: 有新版本可用。您想現在更新嗎？
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): 調整緩衝區大小（1-10秒）
 Advanced IDs: 進階 ID
 Application status: 申請狀態
 Apply: 申請
+Apply / Import: 申請/導入
 Apply changes: 應用程式變更
 Apply Filters: 應用過濾器
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: 您確定要重新載入 Enigma2 GUI 嗎？ \n\n介面將重新啟動（黑屏幾秒鐘）。
@@ -46,8 +48,10 @@ Cannot open browser: 無法開啟瀏覽器
 Category: 類別
 Changelog: 變更日誌
 Channel Details: 頻道詳情
+Channel Down: 向下頻道
 Channel Info: 頻道資訊
 Channel Name: 頻道名稱
+Channel Up: 頻道向上
 channels from: 頻道來自
 channels from JSON: 來自 JSON 的通道
 channels from JSON URL: 來自 JSON URL 的頻道
@@ -61,6 +65,8 @@ Clear Filters: 清除過濾器
 Clear search: 清除搜尋
 Click for details: 點擊看詳情
 Close: 關閉
+Code: 程式碼
+Code copied to clipboard.: 代碼已複製到剪貼簿。
 Command name:: 命令名稱：
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: 社群與測驗：CorvoBoys (corvoboys.org) 和 LinuxSat-Support.com
 Compare: 比較
@@ -75,6 +81,7 @@ Confirm Reload: 確認重新加載
 Connect: 連接
 Connected: 已連接
 Copied: 已複製
+Copy: 複製
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: 國家
 Credits: 製作人員
@@ -141,6 +148,7 @@ Export OK: 導出確定
 Export only favorite channels to a new M3U file: 僅將喜愛的頻道匯出到新的 M3U 文件
 Export results as JSON or M3U – export missing channels or all channels.: 將結果匯出為 JSON 或 M3U – 匯出缺失通道或所有通道。
 Export selected: 導出選定的
+Export Selected: 匯出選定的內容
 Exported: 出口
 Exported {0} channels to {1}: 已將 {0} 個頻道匯出到 {1}
 Extracting update...: 正在提取更新...
@@ -154,11 +162,14 @@ Fetch Logos: 取得徽標
 File {0} already exists. Overwrite?: 文件 {0} 已存在。覆蓋？
 File exists: 文件存在
 Filters: 過濾器
+Format Detection: 格式檢測
+Fullscreen: 全螢幕
 Fullscreen (hide UI) - press ESC to exit: 全螢幕（隱藏 UI）- 按 ESC 退出
 Geo & Country: 地理和國家
 GeoBlocked: 地理封鎖
 GitHub Error: GitHub 錯誤
 Go back to live: 回去住
+Grid: 網格
 Group: 團體
 Half speed (0.5x): 半速 (0.5x)
 Help: 幫助
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS 播放：hls.js（MIT 授權）
 Image: 影像
 Import: 進口
 Import cancelled or no channels mapped.: 匯入已取消或未映射通道。
+Import Error: 導入錯誤
 Import error: {0}: 導入錯誤：{0}
 Import from URL: 從 URL 匯入
 Import JSON: 導入 JSON
 Import JSON from URL: 從 URL 匯入 JSON
 Import Local: 導入本地
+Imported {0} channels from code.: 從程式碼匯入了 {0} 個頻道。
 Imported {0} channels from JSON via mapping.: 透過映射從 JSON 導入了 {0} 個頻道。
 Imported {0} channels from URL.: 已從 URL 匯入 {0} 個頻道。
 In Both: 在兩者中
@@ -181,6 +194,7 @@ Invalid JSON: {0}: JSON 無效：{0}
 Invalid playlist URL.: 播放清單 URL 無效。
 Invalid URL.: 無效網址。
 Json: 傑森
+JSON parsing error: {0}: JSON 解析錯誤：{0}
 JSON Property: JSON 屬性
 Ko-fi: 咖啡
 Language: 語言
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: 從您的電腦載入播放清單檔案 (M3U/JSON)
 Loaded: 已載入
 Loaded {0} channels from JSON file via mapping.: 已透過映射從 JSON 檔案載入 {0} 個頻道。
-Loaded {0} channels from JSON file.: 已從 JSON 檔案載入 {0} 個頻道。
 Loaded {0} channels from JSON URL.: 已從 JSON URL 載入 {0} 個頻道。
 Loaded {0} channels from M3U file.: 已從 M3U 檔案載入 {0} 個頻道。
 Loaded {0} channels from M3U URL.: 已從 M3U URL 載入 {0} 個頻道。
@@ -215,9 +228,11 @@ Logos Matching Threshold: 徽標匹配閾值
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: 標誌儲存庫 – 選擇擁有者/儲存庫/路徑（預設 OwnerPlugins/標誌）。
 Logos Source: 標誌來源
 Logos Subfolder: 標誌子資料夾
+M3U parsing error: {0}: M3U 解析錯誤：{0}
 Map JSON properties to channel fields:: 將 JSON 屬性對應到通道欄位：
 Mapping saved for future imports of this file.: 儲存映射以供將來匯入該文件。
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: 匹配閾值 – 設定 EPG 和標誌的模糊匹配敏感度。
+Mini Player: 迷你播放器
 Move to Group: 移至群組
 Moved: 搬家了
 Name: 姓名
@@ -228,14 +243,18 @@ Next: 下一個
 Next ▶: 下一頁 ▶
 No .m3u files found on GitHub repository.: 在 GitHub 儲存庫上找不到 .m3u 檔案。
 No cache folder found.: 未找到快取資料夾。
+No channel selected: 未選擇頻道
 No channels could be mapped or import cancelled.: 無法映射任何通道或取消導入。
 No channels could be mapped. Check your mapping rules.: 無法映射任何頻道。檢查您的映射規則。
+No channels found in JSON.: 在 JSON 中找不到頻道。
+No channels found in M3U.: M3U 中找不到頻道。
 No channels loaded from JSON URL.: 沒有從 JSON URL 載入頻道。
 No channels loaded from M3U URL.: 沒有從 M3U URL 載入頻道。
 No channels loaded from M3U.: 沒有從 M3U 載入頻道。
 No channels loaded.: 未加載頻道。
 No channels mapped: 沒有映射頻道
 No channels selected.: 未選擇頻道。
+No channels to import.: 沒有頻道導入。
 No duplicate URLs found.: 未發現重複的 URL。
 No EPG data: 無 EPG 數據
 No EPG information available for this channel.: 該頻道沒有可用的 EPG 資訊。
@@ -245,6 +264,8 @@ No favorite channels to export.: 沒有可匯出的喜愛頻道。
 No missing channels to export.: 不缺少導出管道。
 No playlist found: 未找到播放列表
 No second playlist loaded.: 未載入第二個播放清單。
+No stream URL available for this channel.: 該頻道沒有可用的串流 URL。
+No text to import.: 沒有要導入的文字。
 No updates available.: 沒有可用的更新。
 Normal speed (1x): 正常速度 (1x)
 Not connected to the box.: 未連接到盒子。
@@ -261,7 +282,9 @@ Pause/Resume live stream: 暫停/恢復直播
 Paused: 已暫停
 PayPal: 貝寶
 Picture-in-Picture mode: 畫中畫模式
+Play/Pause: 播放/暫停
 Player Controls: 播放器控制
+Playing: 演奏
 Playlist & Groups: 播放清單和群組
 Playlist Comparison: 播放清單比較
 Playlist Editor: 播放清單編輯器
@@ -272,10 +295,12 @@ Please select a program first.: 請先選擇一個程序。
 Preview (first 5 channels): 預覽（前 5 個頻道）
 Preview error: {0}: 預覽錯誤：{0}
 Program Details: 計劃詳情
+Ready: 準備好
 Ready.: 準備好。
 Recent: 最近的
 Recent files – quick access to last 5 opened playlists.: 最近的檔案 – 快速存取最近開啟的 5 個播放清單。
 Recent playlists: 最近的播放清單
+Refresh Code: 重新整理程式碼
 Refresh EPG: 重新整理電子節目表
 Refresh EPG List: 刷新EPG列表
 Refresh from GitHub: 從 GitHub 刷新
@@ -301,6 +326,7 @@ Search channels by name: 按名稱搜尋頻道
 Search channels...: 搜尋頻道...
 sec: 秒
 Second playlist loaded: {0} channels: 已載入第二個播放清單：{0} 個頻道
+Select a channel to play.: 選擇要播放的頻道。
 Select a playlist first.: 首先選擇一個播放清單。
 Select target group:: 選擇目標群體：
 Select Theme: 選擇主題
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: 開始
 Status: 地位
 Stop: 停止
+Stopped: 已停止
 Stream URL: 串流網址
 Stream URLs: 串流媒體 URL
 Success: 成功
@@ -342,7 +369,9 @@ TV Guide (EPG): 電視指南 (EPG)
 TvgId: 電視識別符
 Type channel name to filter: 輸入要過濾的頻道名稱
 UI: MaterialDesignThemes.Wpf: 使用者介面：MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: 無法自動檢測格式。請從下拉清單中選擇 JSON 或 M3U，然後重試。
 Unable to find version in remote project file.: 無法在遠端專案文件中找到版本。
+Unsupported format. Please select JSON or M3U.: 不支援的格式。請選擇 JSON 或 M3U。
 Update: 更新
 Update complete. Restarting...: 更新完成。正在重新啟動...
 Update Error: 更新錯誤

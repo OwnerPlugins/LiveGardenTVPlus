@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Leza lêdanê: bişkokên 0.5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Her stûnek bi tikandina sernivîsê bi rêz bike; Ji bo vegerandina fermana orîjînal 'Sirê Vegere' bikar bînin.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: weşana zindî rawestîne; slider kaş bikin to search back; ji bo vegerê 'Zindî' bitikîne.
+▶ Play: ▶ Play
 ◀ Previous: ◀ Berê
 16 colour themes + Light/Dark variants.: 16 mijarên rengîn + Guhertoyên Ronahî/Tar.
 A new version is available. Do you want to update now?: Guhertoyek nû heye. Ma hûn dixwazin niha nûve bikin?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Mezinahiya tamponê eyar bikin (1-10 çirke)
 Advanced IDs: Nasnameyên pêşketî
 Application status: Rewşa serîlêdanê
 Apply: Bikaranîn
+Apply / Import: Serlêdan / Import
 Apply changes: Guhertinan bicîh bikin
 Apply Filters: Parzûnan sepînin
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ma hûn pê bawer in ku hûn dixwazin GUI-ya Enigma2 ji nû ve bar bikin?\n\nNavber dê ji nû ve dest pê bike (ji bo çend saniyan ekrana reş).
@@ -46,8 +48,10 @@ Cannot open browser: Gerok nikare veke
 Category: Liq
 Changelog: Changelog
 Channel Details: Details Channel
+Channel Down: Channel Down
 Channel Info: Agahdariya kanalê
 Channel Name: Navê kanalê
+Channel Up: Channel Up
 channels from: kanalên ji
 channels from JSON: kanalên ji JSON
 channels from JSON URL: kanalên ji JSON URL
@@ -61,6 +65,8 @@ Clear Filters: Parzûnên Paqij bikin
 Clear search: Lêgerînê paqij bike
 Click for details: Ji bo hûragahiyan bikirtînin
 Close: Nêzîkî
+Code: Navê dizî
+Code copied to clipboard.: Kod li clipboard hate kopî kirin.
 Command name:: Navê fermanê:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Civat û ceribandin: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: Mûqayesekirin
@@ -75,6 +81,7 @@ Confirm Reload: Ji nûve barkirinê piştrast bikin
 Connect: Bihevgirêdan
 Connected: Girêdayî
 Copied: Kopî kirin
+Copy: Kopî
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Welat
 Credits: Credits
@@ -141,6 +148,7 @@ Export OK: Export OK
 Export only favorite channels to a new M3U file: Tenê kanalên bijare ji pelek nû ya M3U re derxînin
 Export results as JSON or M3U – export missing channels or all channels.: Encamên wekî JSON an M3U derxînin - kanalên winda an hemî kanalan derxînin.
 Export selected: Export hilbijartî
+Export Selected: Export Hilbijartî
 Exported: Export kirin
 Exported {0} channels to {1}: {0} kanal bo {1} hatin hinartin
 Extracting update...: Derxistina nûvekirinê...
@@ -154,11 +162,14 @@ Fetch Logos: Logoyan bistînin
 File {0} already exists. Overwrite?: Pela {0} jixwe heye. Zêde binivîsin?
 File exists: Pelê heye
 Filters: Parzûnên
+Format Detection: Format Detection
+Fullscreen: Fullscreen
 Fullscreen (hide UI) - press ESC to exit: Fullscreen (UI veşêre) - ESC bikirtînin da ku derkevin
 Geo & Country: Erdnîgarî & Welat
 GeoBlocked: GeoBlocked
 GitHub Error: Çewtiya GitHub
 Go back to live: Vegere bijî
+Grid: Grid
 Group: Kom
 Half speed (0.5x): Nîv leza (0,5x)
 Help: Alîkarî
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): Lîstika HLS: hls.js (lîsansa MIT)
 Image: Wêne
 Import: Anîn
 Import cancelled or no channels mapped.: Import hat betalkirin an jî nexşeya kanalan tune.
+Import Error: Çewtiya Import
 Import error: {0}: Çewtiya têxê: {0}
 Import from URL: Ji URL-ê derxînin
 Import JSON: JSON derxînin
 Import JSON from URL: JSON ji URL-ê derxînin
 Import Local: Import Local
+Imported {0} channels from code.: Ji kodê {0} kanal hatin importkirin.
 Imported {0} channels from JSON via mapping.: Bi rêya nexşeyê ji JSON kanalên {0} hatin importkirin.
 Imported {0} channels from URL.: Ji URL-ê {0} kanal hatin importkirin.
 In Both: Li Herduyan
@@ -181,6 +194,7 @@ Invalid JSON: {0}: JSON nederbasdar: {0}
 Invalid playlist URL.: URL lîsteya lîstikê nederbasdar e.
 Invalid URL.: URL nederbasdar.
 Json: Json
+JSON parsing error: {0}: Çewtiya parkirina JSON: {0}
 JSON Property: Taybetmendiya JSON
 Ko-fi: Qehwe
 Language: Ziman
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Pelê lîsteya lîstikê (M3U/JSON) ji komputera xwe bar bikin
 Loaded: Barkirin
 Loaded {0} channels from JSON file via mapping.: Ji pelê JSON bi nexşeyê {0} kanal bar kir.
-Loaded {0} channels from JSON file.: Ji pelê JSON {0} kanal barkirin.
 Loaded {0} channels from JSON URL.: Ji JSON URL-ê {0} kanal barkirin.
 Loaded {0} channels from M3U file.: Ji pelê M3U {0} kanal barkirin.
 Loaded {0} channels from M3U URL.: Ji URL-ya M3U {0} kanal barkirin.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Logos Match Threshold
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Depoya logos - xwedan / repo / rê hilbijêrin (XwedîPlugins / logoyên xwerû).
 Logos Source: Çavkanî Logos
 Logos Subfolder: Logos Subfolder
+M3U parsing error: {0}: Çewtiya parkirina M3U: {0}
 Map JSON properties to channel fields:: Nexşeya taybetmendiyên JSON li qadên kanalê:
 Mapping saved for future imports of this file.: Nexşe ji bo îthalata pêşerojê ya vê pelê hate tomarkirin.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Bendavên hevberdanê - ji bo EPG û logoyan hesasiyeta maça fuzzy saz bikin.
+Mini Player: Mini Player
 Move to Group: Biçe Koma
 Moved: Moved
 Name: Nav
@@ -228,14 +243,18 @@ Next: Piştî
 Next ▶: Next ▶
 No .m3u files found on GitHub repository.: Li ser depoya GitHub pelên .m3u nehatin dîtin.
 No cache folder found.: Peldanka cache nehat dîtin.
+No channel selected: Tu kanal nehat hilbijartin
 No channels could be mapped or import cancelled.: Tu kanal nekarin nexşeyê werin danîn an jî import were betal kirin.
 No channels could be mapped. Check your mapping rules.: Tu kanal nehate nexşandin. Rêgezên nexşeya xwe kontrol bikin.
+No channels found in JSON.: Di JSON de kanal nehatin dîtin.
+No channels found in M3U.: Di M3U de kanal nehatin dîtin.
 No channels loaded from JSON URL.: Tu kanal ji JSON URL nehat barkirin.
 No channels loaded from M3U URL.: Tu kanalên ji URL-ya M3U nehatine barkirin.
 No channels loaded from M3U.: Tu kanalên ji M3U barkirin.
 No channels loaded.: Tu kanal nehat barkirin.
 No channels mapped: Tu kanalên nexşeyê ne
 No channels selected.: Tu kanal nehat hilbijartin.
+No channels to import.: Tu kanalên ji bo import.
 No duplicate URLs found.: URLên dubare nehatin dîtin.
 No EPG data: Daneyên EPG tune
 No EPG information available for this channel.: Ji bo vê kanalê agahdariya EPG tune.
@@ -245,6 +264,8 @@ No favorite channels to export.: Ji bo hinardekirinê kanalên bijare tune.
 No missing channels to export.: Tu kanalên wenda ji bo hinardekirinê.
 No playlist found: Lîsteya lîstikê nehat dîtin
 No second playlist loaded.: No playlist duyemîn barkirin.
+No stream URL available for this channel.: Ji bo vê kanalê URL-ya weşanê tune.
+No text to import.: Nivîsarek ji bo import tune.
 No updates available.: Nûvekirin tune.
 Normal speed (1x): Leza normal (1x)
 Not connected to the box.: Ne girêdayî qutîkê ye.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Weşana zindî rawestîne/Dezîne
 Paused: Rawestiyan
 PayPal: PayPal
 Picture-in-Picture mode: Moda Wêne-di-Wêne
+Play/Pause: Play/Pause
 Player Controls: Player Controls
+Playing: Dilîstin
 Playlist & Groups: Lîsteya lîstikê & Kom
 Playlist Comparison: Berhevdana lîsteya lîstikê
 Playlist Editor: Edîtorê lîsteya lîstikê
@@ -272,10 +295,12 @@ Please select a program first.: Ji kerema xwe pêşî bernameyek hilbijêrin.
 Preview (first 5 channels): Pêşdîtin (5 kanalên yekem)
 Preview error: {0}: Çewtiya pêşdîtinê: {0}
 Program Details: Agahiyên Bernameyê
+Ready: Amade
 Ready.: Amade.
 Recent: Demek berê
 Recent files – quick access to last 5 opened playlists.: Pelên dawî - gihîştina bilez a 5 lîsteyên lîstokên paşîn ên vekirî.
 Recent playlists: Lîsteyên lîstikê yên dawî
+Refresh Code: Refresh Code
 Refresh EPG: EPG nûve bikin
 Refresh EPG List: Lîsteya EPG-ê nûve bikin
 Refresh from GitHub: Ji GitHub nûve bikin
@@ -301,6 +326,7 @@ Search channels by name: Li kanalan bi navê xwe bigerin
 Search channels...: Li kanalan bigerin...
 sec: sec
 Second playlist loaded: {0} channels: Lîsteya lîstika duyemîn hat barkirin: {0} kanal
+Select a channel to play.: Ji bo lîstin kanalek hilbijêrin.
 Select a playlist first.: Pêşî lîsteya lîstikê hilbijêre.
 Select target group:: Koma hedef hilbijêrin:
 Select Theme: Mijar Hilbijêre
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Destpêkirin
 Status: Cî
 Stop: Rawestan
+Stopped: Rawestiyan
 Stream URL: Stream URL
 Stream URLs: URLên Stream
 Success: Serketinî
@@ -342,7 +369,9 @@ TV Guide (EPG): Rêberê TV (EPG)
 TvgId: TvgId
 Type channel name to filter: Navê kanalê binivîse ku fîlter bike
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Nabe ku formata xwe-teşhîs bike. Ji kerema xwe JSON an M3U ji dakêşanê hilbijêrin û dîsa biceribînin.
 Unable to find version in remote project file.: Di pelê projeya dûr de guhertoya nayê dîtin.
+Unsupported format. Please select JSON or M3U.: Format nayê piştgirî kirin. Ji kerema xwe JSON an M3U hilbijêrin.
 Update: Nûvekirin
 Update complete. Restarting...: Nûvekirin qediya. Ji nû ve dest pê dike...
 Update Error: Çewtiya Nûvekirin

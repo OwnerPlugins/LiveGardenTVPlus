@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Avspillingshastighet: 0,5x, 1x, 2x knapper.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sorter hvilken som helst kolonne ved å klikke på overskriften; bruk 'Tilbakestill ordre' for å gå tilbake til opprinnelig ordre.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Tidsforskyvning: pause direktesending; dra glidebryteren for å søke tilbake; trykk "Live" for å gå tilbake.
+▶ Play: ▶ Spill
 ◀ Previous: ◀ Forrige
 16 colour themes + Light/Dark variants.: 16 fargetemaer + Lys/Mørke varianter.
 A new version is available. Do you want to update now?: En ny versjon er tilgjengelig. Vil du oppdatere nå?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Juster bufferstørrelse (1–10 sekunder)
 Advanced IDs: Avanserte IDer
 Application status: Søknadsstatus
 Apply: Søke
+Apply / Import: Bruk / Importer
 Apply changes: Bruk endringer
 Apply Filters: Bruk filtre
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Er du sikker på at du vil laste inn Enigma2 GUI på nytt?\n\nGrensesnittet vil starte på nytt (svart skjerm i noen sekunder).
@@ -46,8 +48,10 @@ Cannot open browser: Kan ikke åpne nettleseren
 Category: Kategori
 Changelog: Endringslogg
 Channel Details: Kanaldetaljer
+Channel Down: Kanal ned
 Channel Info: Kanalinfo
 Channel Name: Kanalnavn
+Channel Up: Kanal opp
 channels from: kanaler fra
 channels from JSON: kanaler fra JSON
 channels from JSON URL: kanaler fra JSON URL
@@ -61,6 +65,8 @@ Clear Filters: Tøm filtre
 Clear search: Tøm søk
 Click for details: Klikk for detaljer
 Close: Lukke
+Code: Kode
+Code copied to clipboard.: Koden er kopiert til utklippstavlen.
 Command name:: Kommandonavn:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Fellesskap og testing: CorvoBoys (corvoboys.org) og LinuxSat-Support.com
 Compare: Sammenligne
@@ -75,6 +81,7 @@ Confirm Reload: Bekreft Last på nytt
 Connect: Koble til
 Connected: Tilkoblet
 Copied: Kopiert
+Copy: Kopiere
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Land
 Credits: Studiepoeng
@@ -141,6 +148,7 @@ Export OK: Eksporter OK
 Export only favorite channels to a new M3U file: Eksporter kun favorittkanaler til en ny M3U-fil
 Export results as JSON or M3U – export missing channels or all channels.: Eksporter resultater som JSON eller M3U – eksporter manglende kanaler eller alle kanaler.
 Export selected: Eksporter valgt
+Export Selected: Eksporter valgt
 Exported: Eksportert
 Exported {0} channels to {1}: Eksporterte {0} kanaler til {1}
 Extracting update...: Trekker ut oppdatering...
@@ -154,11 +162,14 @@ Fetch Logos: Hent logoer
 File {0} already exists. Overwrite?: Filen {0} eksisterer allerede. Vil du overskrive?
 File exists: Filen finnes
 Filters: Filtre
+Format Detection: Formatgjenkjenning
+Fullscreen: Fullskjerm
 Fullscreen (hide UI) - press ESC to exit: Fullskjerm (skjul brukergrensesnitt) - trykk ESC for å avslutte
 Geo & Country: Geo og land
 GeoBlocked: Geoblokkert
 GitHub Error: GitHub-feil
 Go back to live: Gå tilbake for å leve
+Grid: Rutenett
 Group: Gruppe
 Half speed (0.5x): Halv hastighet (0,5x)
 Help: Hjelp
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS-avspilling: hls.js (MIT-lisens)
 Image: Bilde
 Import: Import
 Import cancelled or no channels mapped.: Import avbrutt eller ingen kanaler tilordnet.
+Import Error: Importfeil
 Import error: {0}: Importfeil: {0}
 Import from URL: Importer fra URL
 Import JSON: Importer JSON
 Import JSON from URL: Importer JSON fra URL
 Import Local: Importer lokalt
+Imported {0} channels from code.: Importerte {0} kanaler fra kode.
 Imported {0} channels from JSON via mapping.: Importerte {0} kanaler fra JSON via kartlegging.
 Imported {0} channels from URL.: Importerte {0} kanaler fra URL.
 In Both: I begge
@@ -181,6 +194,7 @@ Invalid JSON: {0}: Ugyldig JSON: {0}
 Invalid playlist URL.: Ugyldig nettadresse for spilleliste.
 Invalid URL.: Ugyldig URL.
 Json: Json
+JSON parsing error: {0}: JSON-parsefeil: {0}
 JSON Property: JSON-eiendom
 Ko-fi: Kaffe
 Language: Språk
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Last ned spillelistefilen (M3U/JSON) fra datamaskinen
 Loaded: Lastet
 Loaded {0} channels from JSON file via mapping.: Lastet inn {0} kanaler fra JSON-fil via kartlegging.
-Loaded {0} channels from JSON file.: Lastet inn {0} kanaler fra JSON-fil.
 Loaded {0} channels from JSON URL.: Lastet inn {0} kanaler fra JSON URL.
 Loaded {0} channels from M3U file.: Lastet inn {0} kanaler fra M3U-fil.
 Loaded {0} channels from M3U URL.: Lastet inn {0} kanaler fra M3U URL.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Matchende terskel for logoer
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logolager – velg eier/repo/bane (standard OwnerPlugins/logoer).
 Logos Source: Logoer Kilde
 Logos Subfolder: Logoer undermappe
+M3U parsing error: {0}: M3U-parsefeil: {0}
 Map JSON properties to channel fields:: Tilordne JSON-egenskaper til kanalfelt:
 Mapping saved for future imports of this file.: Kartlegging lagret for fremtidig import av denne filen.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Matchende terskler – angi uklar matchfølsomhet for EPG og logoer.
+Mini Player: Minispiller
 Move to Group: Flytt til gruppe
 Moved: Flyttet
 Name: Navn
@@ -228,14 +243,18 @@ Next: Neste
 Next ▶: Neste ▶
 No .m3u files found on GitHub repository.: Ingen .m3u-filer funnet på GitHub-depotet.
 No cache folder found.: Finner ingen cache-mappe.
+No channel selected: Ingen kanal er valgt
 No channels could be mapped or import cancelled.: Ingen kanaler kunne kartlegges eller import kanselleres.
 No channels could be mapped. Check your mapping rules.: Ingen kanaler kunne kartlegges. Sjekk kartreglene dine.
+No channels found in JSON.: Ingen kanaler funnet i JSON.
+No channels found in M3U.: Ingen kanaler funnet i M3U.
 No channels loaded from JSON URL.: Ingen kanaler lastet fra JSON URL.
 No channels loaded from M3U URL.: Ingen kanaler lastet fra M3U URL.
 No channels loaded from M3U.: Ingen kanaler lastet fra M3U.
 No channels loaded.: Ingen kanaler er lastet inn.
 No channels mapped: Ingen kanaler er kartlagt
 No channels selected.: Ingen kanaler er valgt.
+No channels to import.: Ingen kanaler å importere.
 No duplicate URLs found.: Fant ingen dupliserte nettadresser.
 No EPG data: Ingen EPG-data
 No EPG information available for this channel.: Ingen EPG-informasjon tilgjengelig for denne kanalen.
@@ -245,6 +264,8 @@ No favorite channels to export.: Ingen favorittkanaler å eksportere.
 No missing channels to export.: Ingen manglende kanaler å eksportere.
 No playlist found: Finner ingen spilleliste
 No second playlist loaded.: Ingen andre spilleliste er lastet inn.
+No stream URL available for this channel.: Ingen strømnettadresse tilgjengelig for denne kanalen.
+No text to import.: Ingen tekst å importere.
 No updates available.: Ingen tilgjengelige oppdateringer.
 Normal speed (1x): Normal hastighet (1x)
 Not connected to the box.: Ikke koblet til boksen.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Pause/gjenoppta direktesending
 Paused: Pause
 PayPal: PayPal
 Picture-in-Picture mode: Bilde-i-bilde-modus
+Play/Pause: Spill av/pause
 Player Controls: Spillerkontroller
+Playing: Spiller
 Playlist & Groups: Spilleliste og grupper
 Playlist Comparison: Sammenligning av spillelister
 Playlist Editor: Spillelisteredigering
@@ -272,10 +295,12 @@ Please select a program first.: Velg et program først.
 Preview (first 5 channels): Forhåndsvisning (de første 5 kanalene)
 Preview error: {0}: Forhåndsvisningsfeil: {0}
 Program Details: Programdetaljer
+Ready: Ferdig
 Ready.: Ferdig.
 Recent: Nylig
 Recent files – quick access to last 5 opened playlists.: Nylige filer – rask tilgang til de siste 5 åpne spillelistene.
 Recent playlists: Nylige spillelister
+Refresh Code: Oppdater kode
 Refresh EPG: Oppdater EPG
 Refresh EPG List: Oppdater EPG-listen
 Refresh from GitHub: Oppdater fra GitHub
@@ -301,6 +326,7 @@ Search channels by name: Søk etter kanaler etter navn
 Search channels...: Søk etter kanaler...
 sec: sek
 Second playlist loaded: {0} channels: Andre spilleliste lastet: {0} kanaler
+Select a channel to play.: Velg en kanal å spille av.
 Select a playlist first.: Velg en spilleliste først.
 Select target group:: Velg målgruppe:
 Select Theme: Velg Tema
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Start
 Status: Status
 Stop: Stoppe
+Stopped: Stoppet
 Stream URL: Strøm URL
 Stream URLs: Strøm nettadresser
 Success: Suksess
@@ -342,7 +369,9 @@ TV Guide (EPG): TV Guide (EPG)
 TvgId: TvgId
 Type channel name to filter: Skriv inn kanalnavnet for å filtrere
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Kan ikke oppdage format automatisk. Velg JSON eller M3U fra rullegardinmenyen og prøv igjen.
 Unable to find version in remote project file.: Kan ikke finne versjon i ekstern prosjektfil.
+Unsupported format. Please select JSON or M3U.: Ustøttet format. Velg JSON eller M3U.
 Update: Oppdater
 Update complete. Restarting...: Oppdatering fullført. Starter på nytt...
 Update Error: Oppdateringsfeil

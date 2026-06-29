@@ -1,7 +1,7 @@
 <h1 align="center">LiveGardenTVPlus – IPTV Player for Windows</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/release-v2.7-blue" alt="Release">
+  <img src="https://img.shields.io/badge/release-v2.9-blue" alt="Release">
 
   <a href="https://dotnet.microsoft.com/">
     <img src="https://img.shields.io/badge/.NET-10.0-purple" alt=".NET">
@@ -51,12 +51,16 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
 - ⏱️ **Timeshift** – pause and seek back in live HLS streams
 - ✏️ **Powerful playlist editor** – edit names, groups, URLs, logos, EPG ids, favorites, etc.
 - 🧩 **JSON import** with flexible field mapping (auto‑detect, save profiles)
+- 📊 **Playlist comparison** – compare two playlists by field, export differences
+- 📝 **Code Editor tab** – view and edit playlist as raw M3U or JSON, copy/paste
+- 🎮 **Mini Player** – test streams directly from the editor (Play/Pause/Stop/Fullscreen/CH+/CH-)
 - 🔍 **Filter & search** channels, check URL status, export results
 - 🌍 **Dynamic language switching** (English, Italian, and more)
 - 🎨 **16 colour themes** + Light/Dark variants
 - 🔄 **Auto‑updater** – checks for new versions and updates seamlessly
 - ❤️ **Favorites** – star channels and export only favourites
 - 🖥️ **Modern UI** – resizable sidebar, WebView2 player, HLS.js playback
+- 📡 **Enigma2 integration** – Telnet console, send playlist to Enigma2 decoder
 
 
 ## Screenshots
@@ -205,12 +209,86 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
       <img src="Screenshots/compare-filters_new1.jpg?sanitize=true&raw=true" title="compare-filters_new1" width="400"/><br/>
       <b>compare-filters_new1 25</b>
     </td>
-  
+
+    <td align="center">
+      <img src="Screenshots/tab-code-editor_m3u.jpg?sanitize=true&raw=true" title="tab-code-editor_m3u" width="400"/><br/>
+      <b>tab-code-editor_m3u 26</b>
+    </td>
+  </tr>
+
+  <tr>
+
+    <td align="center">
+      <img src="Screenshots/tab_code_editor_json.jpg?sanitize=true&raw=true" title="tab_code_editor_json" width="400"/><br/>
+      <b>tab_code_editor_json 27</b>
+    </td>
+
+    <td align="center">
+      <img src="Screenshots/tab_code_player.jpg?sanitize=true&raw=true" title="tab_code_player" width="400"/><br/>
+      <b>tab_code_player 28</b>
+    </td>
+
+  </tr>
+
+
 </table>
 
 ---
 
 ## Changelog
+
+## 📋 LiveGardenTVPlus – Changelog (v2.9)
+
+### 📝 Code Editor Tab in Playlist Editor
+
+- **New "Code" Tab** – Added a second tab in the Playlist Editor alongside the existing "Grid" tab.  
+  Allows viewing and editing the playlist content as raw code (M3U or JSON).
+
+- **Two‑way synchronization** –  
+  - **Grid → Code**: Switch to the "Code" tab to see the current playlist formatted as JSON (default) or M3U.  
+  - **Code → Grid**: Paste or edit M3U/JSON code, click **"Apply / Import"**, and the playlist grid updates instantly.
+
+- **Display Format Selection** – Choose how the code is displayed in the editor:
+  - **JSON** – full structured view with all metadata.
+  - **M3U** – classic M3U format with `#EXTM3U`, `#EXTINF`, and channel URLs.
+
+- **Import Format Selection** – Choose how the pasted code should be interpreted:
+  - **Auto (recommended)** – automatically detects whether the code is JSON or M3U.
+  - **JSON** – forces JSON parsing.
+  - **M3U** – forces M3U parsing.
+
+- **Copy to Clipboard** – One‑click copy of the current code (JSON or M3U) to the system clipboard.
+
+- **Refresh Code** – Regenerates the code from the current grid state.
+
+- **Fast performance** – Handles playlists with 10,000+ channels smoothly.
+
+### 🎮 Mini Player in Playlist Editor
+
+- **"▶ Play" button** – Added to the Actions group in the playlist editor.
+- **Mini Player window** – Small, draggable, borderless window with WebView2 player.
+- **Play/Pause** – Toggle playback with icon change (▶ / ❚❚).
+- **Stop** – Stops playback and resets to beginning.
+- **Fullscreen** – Toggle fullscreen mode.
+- **Channel Up / Down** – Navigate through the playlist channels without closing the player.
+- **Status display** – Shows current state (Loading, Ready, Playing, Paused, Stopped).
+- **Themed & Translatiable** – Fully respects application themes and language settings.
+
+### 🌐 New Translations
+
+All new strings for filters, export selected, context menu, and comparison features are fully localizable via `LanguageManager`.
+
+### 🐛 Bug Fixes
+
+- Fixed auto‑detection for M3U code (now recognizes `#EXTM3U` and `#EXTINF` even with leading whitespace).
+- Added specific error messages for JSON and M3U parsing failures.
+- Prevented UI freezes when generating code for large playlists (async generation).
+
+### Need more help?
+
+Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
+
+---
 
 ## LiveGardenTVPlus – Changelog (v2.8)
 
@@ -258,15 +336,6 @@ Right‑click any channel in the left TreeView to access:
 - Fixed DataGrid row selection – text no longer white‑on‑white (or black‑on‑black) across themes.
 - Fixed URL comparison – matching now works URL‑by‑URL (any match = match).
 - Fixed JSON import for deeply nested structures (e.g., `tvg.id`, `tvg.logo`, `group.title`, `http.referrer`).
-
-### 🌐 New Translations
-
-All new strings for filters, export selected, context menu, and comparison features are fully localizable via `LanguageManager`.
-
-
-### Need more help?
-
-Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
 
 ---
 
@@ -351,10 +420,6 @@ Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) 
 - **Detailed EPG Window** – Shows current and next program (title, time, category, description). Auto‑sized layout, clean typography, channel name prominent.
 - **Performance** – Replaced slow combo box with searchable, virtualized channel list (debounced search). Built‑in EPG source selector.
 - **Translations** – All EPG related strings are fully localizable via LanguageManager.
-
-### Need more help?
-
-Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
 
 ---
 
@@ -558,7 +623,6 @@ Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) 
 - Fixed `NullReferenceException` in LogoPickerWindow and SettingsWindow (added null checks and Loaded event initialization).
 - Fixed M3U export – URLs are no longer missing; channels without a valid URL are skipped.
 - Fixed PlaylistEditorWindow constructor – removed erroneous line that caused compile errors.
-- Fixed theme colors in SettingsWindow (ComboBoxes and labels now follow the selected theme).
 - Fixed filter section colors in PlaylistEditorWindow (text boxes and labels use dynamic resources).
 
 ---

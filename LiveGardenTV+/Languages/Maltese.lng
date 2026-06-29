@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Veloċità tal-qari: 0.5x, 1x, 2x buttuni.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Issortja kwalunkwe kolonna billi tikklikkja header; uża 'Reset Order' biex terġa' lura għall-ordni oriġinali.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: nieqaf live stream; drag slider biex tfittex lura; agħfas 'Live' biex tirritorna.
+▶ Play: ▶ Ilgħab
 ◀ Previous: ◀ Preċedenti
 16 colour themes + Light/Dark variants.: 16-il tema tal-kulur + varjanti Dawl/Dlam.
 A new version is available. Do you want to update now?: Verżjoni ġdida hija disponibbli. Trid taġġorna issa?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Aġġusta d-daqs tal-buffer (1-10 sekondi)
 Advanced IDs: IDs Avvanzati
 Application status: Status tal-applikazzjoni
 Apply: Applika
+Apply / Import: Applika/Importa
 Apply changes: Applika bidliet
 Apply Filters: Applika Filtri
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Int żgur li trid terġa' ttella' l-GUI ta' Enigma2?\n\nL-interface terġa' tibda (iskrin iswed għal ftit sekondi).
@@ -46,8 +48,10 @@ Cannot open browser: Ma tistax tiftaħ il-browser
 Category: Kategorija
 Changelog: Changelog
 Channel Details: Dettalji tal-Kanal
+Channel Down: Channel Down
 Channel Info: Informazzjoni dwar il-Kanal
 Channel Name: Isem tal-Kanal
+Channel Up: Channel Up
 channels from: kanali minn
 channels from JSON: kanali minn JSON
 channels from JSON URL: kanali mill-URL JSON
@@ -61,6 +65,8 @@ Clear Filters: Filtri ċari
 Clear search: Tiftix ċar
 Click for details: Ikklikkja għad-dettalji
 Close: Agħlaq
+Code: Kodiċi
+Code copied to clipboard.: Kodiċi kkupjat fil-clipboard.
 Command name:: Isem tal-kmand:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunità u ttestjar: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: Qabbel
@@ -75,6 +81,7 @@ Confirm Reload: Ikkonferma Reload
 Connect: Qabbad
 Connected: Konnessi
 Copied: Ikkopjati
+Copy: Kopja
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Pajjiż
 Credits: Krediti
@@ -141,6 +148,7 @@ Export OK: Esportazzjoni OK
 Export only favorite channels to a new M3U file: Esportazzjoni biss kanali favoriti għal fajl M3U ġdid
 Export results as JSON or M3U – export missing channels or all channels.: Esporta riżultati bħala JSON jew M3U - esporta l-kanali nieqsa jew il-kanali kollha.
 Export selected: Esportazzjoni magħżula
+Export Selected: Esportazzjoni Magħżula
 Exported: Esportati
 Exported {0} channels to {1}: Esportati {0} kanali lejn {1}
 Extracting update...: Qed jiġi estratt aġġornament...
@@ -154,11 +162,14 @@ Fetch Logos: Iġbed Logos
 File {0} already exists. Overwrite?: Il-fajl {0} diġà jeżisti. Ikteb mill-ġdid?
 File exists: Il-fajl jeżisti
 Filters: Filtri
+Format Detection: Sejbien tal-Format
+Fullscreen: Skrin sħiħ
 Fullscreen (hide UI) - press ESC to exit: Skrin sħiħ (aħbi UI) - agħfas ESC biex toħroġ
 Geo & Country: Ġeo & Pajjiż
 GeoBlocked: ĠeoBlocked
 GitHub Error: Żball GitHub
 Go back to live: Mur lura biex tgħix
+Grid: Grid
 Group: Grupp
 Half speed (0.5x): Nofs il-veloċità (0.5x)
 Help: Għajnuna
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): Daqq HLS: hls.js (liċenzja MIT)
 Image: Immaġni
 Import: Importazzjoni
 Import cancelled or no channels mapped.: Importazzjoni kkanċellata jew l-ebda kanali mmappjati.
+Import Error: Żball ta' importazzjoni
 Import error: {0}: Żball fl-importazzjoni: {0}
 Import from URL: Importa mill-URL
 Import JSON: Importa JSON
 Import JSON from URL: Importa JSON mill-URL
 Import Local: Importazzjoni Lokali
+Imported {0} channels from code.: Importati {0} kanali mill-kodiċi.
 Imported {0} channels from JSON via mapping.: Importati {0} kanali minn JSON permezz ta' mapping.
 Imported {0} channels from URL.: Importati {0} kanali mill-URL.
 In Both: Fit-tnejn
@@ -181,6 +194,7 @@ Invalid JSON: {0}: JSON mhux validu: {0}
 Invalid playlist URL.: URL tal-playlist mhux validu.
 Invalid URL.: URL invalidu.
 Json: Json
+JSON parsing error: {0}: Żball fl-analiżi JSON: {0}
 JSON Property: Proprjetà JSON
 Ko-fi: Kafè
 Language: Lingwa
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Tagħbija l-fajl tal-playlist (M3U/JSON) mill-kompjuter tiegħek
 Loaded: Mgħobbija
 Loaded {0} channels from JSON file via mapping.: {0} kanali mgħobbija minn fajl JSON permezz ta' mapping.
-Loaded {0} channels from JSON file.: {0} kanali mgħobbija minn fajl JSON.
 Loaded {0} channels from JSON URL.: {0} kanali mgħobbija mill-URL JSON.
 Loaded {0} channels from M3U file.: {0} kanali mgħobbija mill-fajl M3U.
 Loaded {0} channels from M3U URL.: {0} kanali mgħobbija mill-URL M3U.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Limitu ta' Tqabbil tal-Logos
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Repożitorju tal-logos - agħżel sid/repo/mogħdija (default OwnerPlugins/logos).
 Logos Source: Sors Logos
 Logos Subfolder: Subfolder tal-logos
+M3U parsing error: {0}: Żball ta' parsing M3U: {0}
 Map JSON properties to channel fields:: Ippjana proprjetajiet JSON għal oqsma tal-kanali:
 Mapping saved for future imports of this file.: Immappjar salvat għal importazzjonijiet futuri ta' dan il-fajl.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Limiti ta' tqabbil – issettja sensittività ta' taqbila fuzzy għal EPG u logos.
+Mini Player: Mini Player
 Move to Group: Imxi għall-Grupp
 Moved: Imċaqlaq
 Name: Isem
@@ -228,14 +243,18 @@ Next: Li jmiss
 Next ▶: Li jmiss ▶
 No .m3u files found on GitHub repository.: L-ebda fajl .m3u misjub fuq ir-repożitorju GitHub.
 No cache folder found.: Ma nstab l-ebda folder tal-cache.
+No channel selected: L-ebda kanal magħżul
 No channels could be mapped or import cancelled.: L-ebda kanali ma setgħu jiġu mmappjati jew importazzjoni kkanċellata.
 No channels could be mapped. Check your mapping rules.: L-ebda kanali ma setgħu jiġu mmappjati. Iċċekkja r-regoli tal-mapping tiegħek.
+No channels found in JSON.: L-ebda kanal ma nstab f'JSON.
+No channels found in M3U.: L-ebda kanal ma nstab f'M3U.
 No channels loaded from JSON URL.: Ebda kanali mgħobbija mill-URL JSON.
 No channels loaded from M3U URL.: Ebda kanali mgħobbija mill-URL M3U.
 No channels loaded from M3U.: Ebda kanali mgħobbija minn M3U.
 No channels loaded.: Ebda kanali mgħobbija.
 No channels mapped: Ebda kanali mmappjati
 No channels selected.: Ebda kanali magħżula.
+No channels to import.: Ebda kanali għall-importazzjoni.
 No duplicate URLs found.: Ma nstab l-ebda URL duplikat.
 No EPG data: Ebda data EPG
 No EPG information available for this channel.: L-ebda informazzjoni EPG disponibbli għal dan il-kanal.
@@ -245,6 +264,8 @@ No favorite channels to export.: Ebda kanali favoriti għall-esportazzjoni.
 No missing channels to export.: L-ebda kanali neqsin għall-esportazzjoni.
 No playlist found: Ma nstabet l-ebda playlist
 No second playlist loaded.: Ebda playlist tat-tieni mgħobbija.
+No stream URL available for this channel.: L-ebda URL tal-fluss disponibbli għal dan il-kanal.
+No text to import.: Ebda test għall-importazzjoni.
 No updates available.: Ebda aġġornamenti disponibbli.
 Normal speed (1x): Veloċità normali (1x)
 Not connected to the box.: Mhux imqabbad mal-kaxxa.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Waqfa/Ibda live stream
 Paused: Waqfa qasira
 PayPal: PayPal
 Picture-in-Picture mode: Modalità Picture-in-Picture
+Play/Pause: Play/Pawsa
 Player Controls: Kontrolli tal-Plejer
+Playing: Playing
 Playlist & Groups: Playlist u Gruppi
 Playlist Comparison: Paragun tal-Playlist
 Playlist Editor: Editur tal-Playlist
@@ -272,10 +295,12 @@ Please select a program first.: Jekk jogħġbok agħżel programm l-ewwel.
 Preview (first 5 channels): Preview (l-ewwel 5 kanali)
 Preview error: {0}: Żball ta' preview: {0}
 Program Details: Dettalji tal-Programm
+Ready: Lest
 Ready.: Lest.
 Recent: Riċenti
 Recent files – quick access to last 5 opened playlists.: Fajls riċenti - aċċess rapidu għall-aħħar 5 playlists miftuħa.
 Recent playlists: Playlists riċenti
+Refresh Code: Aġġorna l-Kodiċi
 Refresh EPG: Aġġorna l-EPG
 Refresh EPG List: Aġġorna l-Lista EPG
 Refresh from GitHub: Aġġorna minn GitHub
@@ -301,6 +326,7 @@ Search channels by name: Fittex kanali bl-isem
 Search channels...: Fittex kanali...
 sec: taqs
 Second playlist loaded: {0} channels: It-tieni playlist mgħobbija: {0} kanali
+Select a channel to play.: Agħżel kanal biex tilgħab.
 Select a playlist first.: Agħżel playlist l-ewwel.
 Select target group:: Agħżel il-grupp fil-mira:
 Select Theme: Agħżel Tema
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Ibda
 Status: Status
 Stop: Waqqaf
+Stopped: Waqqaf
 Stream URL: Stream URL
 Stream URLs: Stream URLs
 Success: Suċċess
@@ -342,7 +369,9 @@ TV Guide (EPG): Gwida tat-TV (EPG)
 TvgId: TvgId
 Type channel name to filter: Ittajpja l-isem tal-kanal biex tiffiltra
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Ma tistax tiskopri l-format awtomatikament. Jekk jogħġbok agħżel JSON jew M3U mid-dropdown u erġa' pprova.
 Unable to find version in remote project file.: Ma tistax issib verżjoni fil-fajl tal-proġett remot.
+Unsupported format. Please select JSON or M3U.: Format mhux appoġġjat. Jekk jogħġbok agħżel JSON jew M3U.
 Update: Aġġornament
 Update complete. Restarting...: Aġġornament komplut. Nibda mill-ġdid...
 Update Error: Żball ta' Aġġornament

@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Viteza de redare: butoane 0,5x, 1x, 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sortați orice coloană făcând clic pe antet; utilizați „Resetare comandă” pentru a reveni la comanda inițială.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: întrerupeți fluxul live; trageți glisorul pentru a căuta înapoi; apăsați pe „Live” pentru a reveni.
+▶ Play: ▶ Joacă
 ◀ Previous: ◀ Anterior
 16 colour themes + Light/Dark variants.: 16 teme de culoare + variante de lumină/întuneric.
 A new version is available. Do you want to update now?: Este disponibilă o nouă versiune. Doriți să actualizați acum?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Ajustați dimensiunea tamponului (1-10 secund
 Advanced IDs: ID-uri avansate
 Application status: Starea aplicației
 Apply: Aplicați
+Apply / Import: Aplica / Import
 Apply changes: Aplicați modificări
 Apply Filters: Aplicați filtre
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Sigur doriți să reîncărcați GUI Enigma2?\n\nInterfața va reporni (ecran negru pentru câteva secunde).
@@ -46,8 +48,10 @@ Cannot open browser: Nu se poate deschide browserul
 Category: Categorie
 Changelog: Jurnalul modificărilor
 Channel Details: Detalii canal
+Channel Down: Canal în jos
 Channel Info: Informații despre canal
 Channel Name: Numele canalului
+Channel Up: Canal sus
 channels from: canale de la
 channels from JSON: canale din JSON
 channels from JSON URL: canale de la adresa URL JSON
@@ -61,6 +65,8 @@ Clear Filters: Ștergeți filtrele
 Clear search: Ștergeți căutarea
 Click for details: Click pentru detalii
 Close: Aproape
+Code: Cod
+Code copied to clipboard.: Cod copiat în clipboard.
 Command name:: Nume comanda:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Comunitate și testare: CorvoBoys (corvoboys.org) și LinuxSat-Support.com
 Compare: Comparaţie
@@ -75,6 +81,7 @@ Confirm Reload: Confirmați Reîncărcarea
 Connect: Conectați-vă
 Connected: Conectat
 Copied: Copiat
+Copy: Copie
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Ţară
 Credits: Credite
@@ -141,6 +148,7 @@ Export OK: Export OK
 Export only favorite channels to a new M3U file: Exportați numai canalele favorite într-un fișier M3U nou
 Export results as JSON or M3U – export missing channels or all channels.: Exportați rezultatele ca JSON sau M3U – exportați canalele lipsă sau toate canalele.
 Export selected: Export selectat
+Export Selected: Exportați selectat
 Exported: Exportat
 Exported {0} channels to {1}: S-au exportat {0} canale în {1}
 Extracting update...: Se extrage actualizarea...
@@ -154,11 +162,14 @@ Fetch Logos: Preluați sigle
 File {0} already exists. Overwrite?: Fișierul {0} există deja. Suprascrie?
 File exists: Fișierul există
 Filters: Filtre
+Format Detection: Detectarea formatului
+Fullscreen: Ecran complet
 Fullscreen (hide UI) - press ESC to exit: Ecran complet (ascunde UI) - apăsați ESC pentru a ieși
 Geo & Country: Geo și țară
 GeoBlocked: GeoBlocked
 GitHub Error: Eroare GitHub
 Go back to live: Întoarce-te să trăiești
+Grid: Grilă
 Group: Grup
 Half speed (0.5x): Jumătate de viteză (0,5x)
 Help: Ajutor
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): Redare HLS: hls.js (licență MIT)
 Image: Imagine
 Import: Import
 Import cancelled or no channels mapped.: Importul a fost anulat sau niciun canal mapat.
+Import Error: Eroare de import
 Import error: {0}: Eroare de import: {0}
 Import from URL: Import de la URL
 Import JSON: Importați JSON
 Import JSON from URL: Importați JSON din URL
 Import Local: Import local
+Imported {0} channels from code.: S-au importat {0} canale din cod.
 Imported {0} channels from JSON via mapping.: Au importat {0} canale din JSON prin mapare.
 Imported {0} channels from URL.: S-au importat {0} canale din URL.
 In Both: În Ambele
@@ -181,6 +194,7 @@ Invalid JSON: {0}: JSON nevalid: {0}
 Invalid playlist URL.: Adresa URL a listei de redare nevalidă.
 Invalid URL.: Adresă URL nevalidă.
 Json: Json
+JSON parsing error: {0}: Eroare de analiză JSON: {0}
 JSON Property: Proprietate JSON
 Ko-fi: Cafea
 Language: Limbă
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Încărcați fișierul playlist (M3U/JSON) de pe computer
 Loaded: Încărcat
 Loaded {0} channels from JSON file via mapping.: S-au încărcat {0} canale din fișierul JSON prin mapare.
-Loaded {0} channels from JSON file.: S-au încărcat {0} canale din fișierul JSON.
 Loaded {0} channels from JSON URL.: S-au încărcat {0} canale de la adresa URL JSON.
 Loaded {0} channels from M3U file.: S-au încărcat {0} canale din fișierul M3U.
 Loaded {0} channels from M3U URL.: S-au încărcat {0} canale de la adresa URL M3U.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Pragul de potrivire a siglelor
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Depozitul de sigle – alegeți proprietar/repo/cale (OwnerPlugins/logo-uri implicite).
 Logos Source: Sursa siglelor
 Logos Subfolder: Subfolder sigle
+M3U parsing error: {0}: Eroare de analiză M3U: {0}
 Map JSON properties to channel fields:: Mapați proprietățile JSON la câmpurile de canal:
 Mapping saved for future imports of this file.: Maparea a fost salvată pentru importurile viitoare ale acestui fișier.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Praguri de potrivire – setați sensibilitatea potrivirii neclare pentru EPG și sigle.
+Mini Player: Mini Player
 Move to Group: Mutați la Grup
 Moved: Mutat
 Name: Nume
@@ -228,14 +243,18 @@ Next: Următorul
 Next ▶: Următorul ▶
 No .m3u files found on GitHub repository.: Nu s-au găsit fișiere .m3u în depozitul GitHub.
 No cache folder found.: Nu a fost găsit niciun folder cache.
+No channel selected: Niciun canal selectat
 No channels could be mapped or import cancelled.: Niciun canal nu a putut fi mapat sau importul nu a putut fi anulat.
 No channels could be mapped. Check your mapping rules.: Niciun canal nu a putut fi mapat. Verificați regulile de cartografiere.
+No channels found in JSON.: Nu s-au găsit canale în JSON.
+No channels found in M3U.: Nu s-au găsit canale în M3U.
 No channels loaded from JSON URL.: Niciun canal încărcat de la adresa URL JSON.
 No channels loaded from M3U URL.: Niciun canal încărcat de la adresa URL M3U.
 No channels loaded from M3U.: Niciun canal încărcat din M3U.
 No channels loaded.: Niciun canal încărcat.
 No channels mapped: Niciun canal mapat
 No channels selected.: Niciun canal selectat.
+No channels to import.: Nu există canale de importat.
 No duplicate URLs found.: Nu s-au găsit adrese URL duplicat.
 No EPG data: Nu există date EPG
 No EPG information available for this channel.: Nu există informații EPG disponibile pentru acest canal.
@@ -245,6 +264,8 @@ No favorite channels to export.: Nu există canale preferate de exportat.
 No missing channels to export.: Nu lipsesc canale de export.
 No playlist found: Nu a fost găsit nicio listă de redare
 No second playlist loaded.: Nu s-a încărcat un al doilea playlist.
+No stream URL available for this channel.: Nu este disponibilă nicio adresă URL a fluxului pentru acest canal.
+No text to import.: Niciun text de importat.
 No updates available.: Nu există actualizări disponibile.
 Normal speed (1x): Viteză normală (1x)
 Not connected to the box.: Nu este conectat la cutie.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Întrerupeți/Reluați fluxul live
 Paused: Întrerupt
 PayPal: PayPal
 Picture-in-Picture mode: Modul Picture-in-Picture
+Play/Pause: Redare/Pauză
 Player Controls: Comenzile jucătorului
+Playing: Joc
 Playlist & Groups: Playlist și grupuri
 Playlist Comparison: Comparația listelor de redare
 Playlist Editor: Editor de liste de redare
@@ -272,10 +295,12 @@ Please select a program first.: Vă rugăm să selectați mai întâi un program
 Preview (first 5 channels): Previzualizare (primele 5 canale)
 Preview error: {0}: Eroare de previzualizare: {0}
 Program Details: Detalii program
+Ready: Gata
 Ready.: Gata.
 Recent: Recent
 Recent files – quick access to last 5 opened playlists.: Fișiere recente – acces rapid la ultimele 5 liste de redare deschise.
 Recent playlists: Liste de redare recente
+Refresh Code: Actualizează codul
 Refresh EPG: Actualizează EPG
 Refresh EPG List: Actualizează lista EPG
 Refresh from GitHub: Actualizează din GitHub
@@ -301,6 +326,7 @@ Search channels by name: Căutați canale după nume
 Search channels...: Caută canale...
 sec: sec
 Second playlist loaded: {0} channels: Al doilea playlist încărcat: {0} canale
+Select a channel to play.: Selectați un canal pentru redare.
 Select a playlist first.: Selectați mai întâi o listă de redare.
 Select target group:: Selectați grupul țintă:
 Select Theme: Selectați Tema
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Început
 Status: Stare
 Stop: Stop
+Stopped: oprit
 Stream URL: Adresa URL a fluxului
 Stream URLs: Adrese URL în flux
 Success: Succes
@@ -342,7 +369,9 @@ TV Guide (EPG): Ghid TV (EPG)
 TvgId: TvgId
 Type channel name to filter: Introdu numele canalului pentru a filtra
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Formatul nu poate fi detectat automat. Selectați JSON sau M3U din meniul drop-down și încercați din nou.
 Unable to find version in remote project file.: Nu se poate găsi versiunea în fișierul de proiect de la distanță.
+Unsupported format. Please select JSON or M3U.: Format neacceptat. Vă rugăm să selectați JSON sau M3U.
 Update: Actualizare
 Update complete. Restarting...: Actualizare finalizată. Se repornește...
 Update Error: Eroare de actualizare

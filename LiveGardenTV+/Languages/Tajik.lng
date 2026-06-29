@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Суръати навозиш: 0,5x, 1x, 2x тугмаҳо.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Ҳар як сутунро бо зеркунии сарлавҳа ҷудо кунед; Барои баргаштан ба тартиби аслӣ аз 'Бозсозии тартибот' истифода баред.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: таваққуфи ҷараёни мустақим; слайдерро кашола кунед, то қафо ҷӯед; Барои баргаштан 'Зиндагӣ' -ро пахш кунед.
+▶ Play: ▶ Бозӣ
 ◀ Previous: ◀ Пешина
 16 colour themes + Light/Dark variants.: 16 мавзӯъҳои ранг + Вариантҳои равшанӣ / торик.
 A new version is available. Do you want to update now?: Версияи нав дастрас аст. Мехоҳед ҳоло навсозӣ кунед?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Андозаи буферро танзим к
 Advanced IDs: ID-ҳои пешрафта
 Application status: Ҳолати ариза
 Apply: Муроҷиат кунед
+Apply / Import: Муроҷиат / воридот
 Apply changes: Тағиротро татбиқ кунед
 Apply Filters: Филтрҳоро татбиқ кунед
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Оё мутмаин ҳастед, ки мехоҳед GUI-и Enigma2-ро аз нав бор кунед?\n\nИнтерфейс аз нав оғоз мешавад (экрани сиёҳ барои чанд сония).
@@ -46,8 +48,10 @@ Cannot open browser: Браузер кушода намешавад
 Category: Категория
 Changelog: Тағйирот
 Channel Details: Тафсилоти канал
+Channel Down: Канал поён
 Channel Info: Маълумот дар бораи канал
 Channel Name: Номи канал
+Channel Up: Канал боло
 channels from: каналҳо аз
 channels from JSON: каналҳо аз JSON
 channels from JSON URL: каналҳо аз URL JSON
@@ -61,6 +65,8 @@ Clear Filters: Филтрҳоро тоза кунед
 Clear search: Ҷустуҷӯро тоза кунед
 Click for details: Барои тафсилот клик кунед
 Close: Пӯшед
+Code: Кодекс
+Code copied to clipboard.: Рамз ба буфер нусхабардорӣ карда шуд.
 Command name:: Номи фармон:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Ҷомеа ва санҷиш: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: Муқоиса кунед
@@ -75,6 +81,7 @@ Confirm Reload: Боркунии дубораро тасдиқ кунед
 Connect: Пайваст кунед
 Connected: пайваст
 Copied: Нусхабардорӣ
+Copy: Нусхабардорӣ
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: кишвар
 Credits: Қарзҳо
@@ -141,6 +148,7 @@ Export OK: Содирот Хуб
 Export only favorite channels to a new M3U file: Танҳо каналҳои дӯстдоштаро ба файли нави M3U содир кунед
 Export results as JSON or M3U – export missing channels or all channels.: Натиҷаҳоро ҳамчун JSON ё M3U содир кунед - каналҳои гумшуда ё ҳама каналҳоро содир кунед.
 Export selected: Содирот интихобшуда
+Export Selected: Содирот интихобшуда
 Exported: содирот
 Exported {0} channels to {1}: {0} канал ба {1} содир карда шуд
 Extracting update...: Истихроҷи навсозӣ...
@@ -154,11 +162,14 @@ Fetch Logos: Логотипҳоро гиред
 File {0} already exists. Overwrite?: Файли {0} аллакай вуҷуд дорад. Аз нав навиштан?
 File exists: Файл вуҷуд дорад
 Filters: Филтрҳо
+Format Detection: Муайянкунии формат
+Fullscreen: Тамомсафҳа
 Fullscreen (hide UI) - press ESC to exit: Экрани пурра (пинҳон кардани UI) - барои баромадан ESC -ро пахш кунед
 Geo & Country: Гео ва кишвар
 GeoBlocked: GeoBlocked
 GitHub Error: Хатогии GitHub
 Go back to live: Ба зиндагӣ баргардед
+Grid: Шабака
 Group: Гурӯҳ
 Half speed (0.5x): Нисфи суръат (0,5х)
 Help: Кӯмак
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): Бозии HLS: hls.js (литсензияи
 Image: Тасвир
 Import: Воридот
 Import cancelled or no channels mapped.: Воридот бекор карда шуд ё ягон канал харита нашудааст.
+Import Error: Хатои воридот
 Import error: {0}: Хатои воридот: {0}
 Import from URL: Воридот аз URL
 Import JSON: JSON ворид кунед
 Import JSON from URL: JSON-ро аз URL ворид кунед
 Import Local: Воридоти маҳаллӣ
+Imported {0} channels from code.: {0} канал аз код ворид карда шуд.
 Imported {0} channels from JSON via mapping.: {0} канал аз JSON тавассути харитасозӣ ворид карда шуд.
 Imported {0} channels from URL.: {0} канал аз URL ворид карда шуд.
 In Both: Дар Ҳарду
@@ -181,6 +194,7 @@ Invalid JSON: {0}: JSON нодуруст: {0}
 Invalid playlist URL.: URL-и рӯйхати навозиш нодуруст.
 Invalid URL.: URL нодуруст.
 Json: Ҷсон
+JSON parsing error: {0}: Хатои таҳлили JSON: {0}
 JSON Property: Амволи JSON
 Ko-fi: Қаҳва
 Language: Забон
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Файли рӯйхати навозишро (M3U/JSON) аз компютери худ бор кунед
 Loaded: Бор карда шуд
 Loaded {0} channels from JSON file via mapping.: {0} канал аз файли JSON тавассути харитасозӣ бор карда шуд.
-Loaded {0} channels from JSON file.: {0} канал аз файли JSON бор карда шуд.
 Loaded {0} channels from JSON URL.: {0} канал аз URL-и JSON бор карда шуд.
 Loaded {0} channels from M3U file.: {0} канал аз файли M3U бор карда шуд.
 Loaded {0} channels from M3U URL.: {0} канал аз URL M3U бор карда шуд.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Ҳадди мувофиқати Logos
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Анбори логотипҳо – соҳиби/репо/роҳ интихоб кунед (пешфарз OwnerPlugins/logos).
 Logos Source: Манбаи Logos
 Logos Subfolder: Зерпапкаи Logos
+M3U parsing error: {0}: Хатои таҳлили M3U: {0}
 Map JSON properties to channel fields:: Харитаи хосиятҳои JSON ба майдонҳои канал:
 Mapping saved for future imports of this file.: Харитасозӣ барои воридоти ояндаи ин файл захира карда шудааст.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Ҳадди мувофиқ - ҳассосияти номуайяни мувофиқро барои EPG ва логотипҳо муқаррар кунед.
+Mini Player: Мини-плеери
 Move to Group: Гузариш ба гурӯҳ
 Moved: кӯчонида шуд
 Name: Ном
@@ -228,14 +243,18 @@ Next: Баъдӣ
 Next ▶: Оянда ▶
 No .m3u files found on GitHub repository.: Дар анбори GitHub ягон файли .m3u ёфт нашуд.
 No cache folder found.: Ягон папкаи кэш ёфт нашуд.
+No channel selected: Ягон канал интихоб нашудааст
 No channels could be mapped or import cancelled.: Ягон каналро харита кардан ё воридотро бекор кардан мумкин нест.
 No channels could be mapped. Check your mapping rules.: Ягон каналро харита кардан мумкин нест. Қоидаҳои харитасозии худро санҷед.
+No channels found in JSON.: Дар JSON ягон канал ёфт нашуд.
+No channels found in M3U.: Дар M3U ягон канал ёфт нашуд.
 No channels loaded from JSON URL.: Ягон канал аз URL-и JSON бор карда нашудааст.
 No channels loaded from M3U URL.: Аз URL-и M3U ягон канал бор карда нашудааст.
 No channels loaded from M3U.: Аз M3U ягон канал бор карда нашудааст.
 No channels loaded.: Ягон канал бор карда нашудааст.
 No channels mapped: Ягон канал харита нашудааст
 No channels selected.: Ягон канал интихоб нашудааст.
+No channels to import.: Барои воридот ягон канал вуҷуд надорад.
 No duplicate URLs found.: Ягон URL-и такрорӣ ёфт нашуд.
 No EPG data: Маълумоти EPG нест
 No EPG information available for this channel.: Маълумоти EPG барои ин канал дастрас нест.
@@ -245,6 +264,8 @@ No favorite channels to export.: Ягон каналҳои дӯстдошта б
 No missing channels to export.: Барои содирот ягон канали гумшуда нест.
 No playlist found: Ягон рӯйхати навозиш ёфт нашуд
 No second playlist loaded.: Рӯйхати дуюми навозиш бор карда нашудааст.
+No stream URL available for this channel.: Ягон URL-и ҷараён барои ин канал дастрас нест.
+No text to import.: Матн барои воридот нест.
 No updates available.: Ягон навсозиҳо дастрас нест.
 Normal speed (1x): Суръати муқаррарӣ (1х)
 Not connected to the box.: Ба қуттӣ пайваст нест.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Таваққуф/Идома додани ҷараён�
 Paused: Таваққуф карда шуд
 PayPal: PayPal
 Picture-in-Picture mode: Ҳолати тасвир дар расм
+Play/Pause: Бозӣ/Таваққуф
 Player Controls: Назорати плеер
+Playing: Бозӣ
 Playlist & Groups: Рӯйхати навозиш ва гурӯҳҳо
 Playlist Comparison: Муқоисаи рӯйхати навозиш
 Playlist Editor: Муҳаррири рӯйхати навозиш
@@ -272,10 +295,12 @@ Please select a program first.: Лутфан аввал барномаеро и�
 Preview (first 5 channels): Пешнамоиш (5 канали аввал)
 Preview error: {0}: Хатои пешнамоиш: {0}
 Program Details: Тафсилоти барнома
+Ready: Тайёр
 Ready.: Тайёр.
 Recent: Ба наздикӣ
 Recent files – quick access to last 5 opened playlists.: Файлҳои охирин - дастрасии зуд ба 5 рӯйхати охирини кушодашуда.
 Recent playlists: Рӯйхати навозишҳои охирин
+Refresh Code: Рамзи навсозӣ
 Refresh EPG: EPG-ро навсозӣ кунед
 Refresh EPG List: Рӯйхати EPG-ро нав кунед
 Refresh from GitHub: Аз GitHub навсозӣ кунед
@@ -301,6 +326,7 @@ Search channels by name: Ҷустуҷӯи каналҳо аз рӯи ном
 Search channels...: Ҷустуҷӯи каналҳо...
 sec: сек
 Second playlist loaded: {0} channels: Рӯйхати дуюми навозиш бор карда шуд: {0} канал
+Select a channel to play.: Каналеро барои бозӣ интихоб кунед.
 Select a playlist first.: Аввал рӯйхати навозишро интихоб кунед.
 Select target group:: Интихоби гурӯҳи мақсаднок:
 Select Theme: Мавзӯъро интихоб кунед
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Оғоз
 Status: Статус
 Stop: Ист
+Stopped: Истед
 Stream URL: URL-и ҷараён
 Stream URLs: URL-ҳои ҷараён
 Success: Муваффакият
@@ -342,7 +369,9 @@ TV Guide (EPG): Дастури телевизионӣ (EPG)
 TvgId: TvgId
 Type channel name to filter: Барои филтр номи каналро нависед
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Форматро худкор муайян кардан ғайриимкон аст. Лутфан аз афтанда JSON ё M3U-ро интихоб кунед ва дубора кӯшиш кунед.
 Unable to find version in remote project file.: Дар файли лоиҳаи дурдаст версия ёфтан ғайриимкон аст.
+Unsupported format. Please select JSON or M3U.: Формати дастгирнашаванда. Лутфан JSON ё M3U-ро интихоб кунед.
 Update: Навсозӣ
 Update complete. Restarting...: Навсозӣ анҷом ёфт. Аз нав оғоз карда мешавад...
 Update Error: Хатои навсозӣ

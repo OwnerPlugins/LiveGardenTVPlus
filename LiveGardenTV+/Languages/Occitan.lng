@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Velocitat de reproduccion: 0,5x, 1x, 2x botons.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Triar quina colomna que siá en clicant sus l'entèsta; utilizatz 'Reïnicializar l'òrdre' per tornar a l'òrdre original.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Cambi de temps: pausar la difusion en dirècte; arrossegar lo cursor per cercar enrè; quichatz sus 'En dirècte' per tornar.
+▶ Play: ▶ Jogar
 ◀ Previous: ◀ Anterior
 16 colour themes + Light/Dark variants.: 16 tèmas de colors + variantas Clara/Escura.
 A new version is available. Do you want to update now?: Una novèla version es disponibla. Volètz metre a jorn ara?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Ajustar la talha del tampon (1-10 segondas)
 Advanced IDs: IDs avançats
 Application status: Estat de la demanda
 Apply: Postular
+Apply / Import: Aplicar / Importar
 Apply changes: Aplicar las modificacions
 Apply Filters: Aplicar de filtres
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Sètz segur que volètz tornar cargar l'interfaci grafica d'Enigma2?\n\nL'interfàcia se reaviarà (ecran negre pendent qualques segondas).
@@ -46,8 +48,10 @@ Cannot open browser: Pòt pas dobrir lo navigador
 Category: Categoria
 Changelog: Jornal de cambiaments
 Channel Details: Detalhs del canal
+Channel Down: Canal en bas
 Channel Info: Informacions del canal
 Channel Name: Nom de canal
+Channel Up: Canal en naut
 channels from: canals de
 channels from JSON: canals dempuèi JSON
 channels from JSON URL: canals dempuèi l'URL JSON
@@ -61,6 +65,8 @@ Clear Filters: Suprimir los filtres
 Clear search: Suprimir la recèrca
 Click for details: Clicatz pels detalhs
 Close: Barrar
+Code: Còde
+Code copied to clipboard.: Còde copiat dins lo quichapapièrs.
 Command name:: Nom de comanda:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Comunautat & tèst: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: Comparar
@@ -75,6 +81,7 @@ Confirm Reload: Confirmar lo recargament
 Connect: Connectar
 Connected: Connectat
 Copied: Copiat
+Copy: Còpia
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: País
 Credits: Crèdits
@@ -141,6 +148,7 @@ Export OK: Exportar d'acòrdi
 Export only favorite channels to a new M3U file: Exportar pas que los canals favorits dins un fichièr M3U novèl
 Export results as JSON or M3U – export missing channels or all channels.: Exportar los resultats coma JSON o M3U – exportar los canals mancants o totes los canals.
 Export selected: Exportacion seleccionada
+Export Selected: Exportar seleccionat
 Exported: Exportat
 Exported {0} channels to {1}: {0} canals exportats cap a {1}
 Extracting update...: Extraire la mesa a jorn...
@@ -154,11 +162,14 @@ Fetch Logos: Recuperar de lògos
 File {0} already exists. Overwrite?: Lo fichièr {0} existís ja. Subrescriure?
 File exists: Fichièr existís
 Filters: Filtres
+Format Detection: Deteccion de format
+Fullscreen: Ecran complet
 Fullscreen (hide UI) - press ESC to exit: Ecran complet (amagar l'interfàcia utilizaire) - quichatz sus ESC per sortir
 Geo & Country: Geo & País
 GeoBlocked: GeoBlocat
 GitHub Error: Error de GitHub
 Go back to live: Torna viure
+Grid: Cleda
 Group: Grop
 Half speed (0.5x): Mièja velocitat (0,5x)
 Help: Ajudar
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): Reproduccion HLS: hls.js (licéncia MIT)
 Image: Imatge
 Import: Importar
 Import cancelled or no channels mapped.: Importacion anullada o cap de canal mapat.
+Import Error: Error d'importacion
 Import error: {0}: Error d'importacion : {0}
 Import from URL: Importar dempuèi l'URL
 Import JSON: Importar JSON
 Import JSON from URL: Importar JSON dempuèi l'URL
 Import Local: Importar Local
+Imported {0} channels from code.: {0} canals importats dempuèi lo còde.
 Imported {0} channels from JSON via mapping.: {0} canals importats dempuèi JSON via mapatge.
 Imported {0} channels from URL.: {0} canals importats dempuèi l'URL.
 In Both: Dins los dos
@@ -181,6 +194,7 @@ Invalid JSON: {0}: JSON invalid: {0}
 Invalid playlist URL.: URL de la lista de lectura invalida.
 Invalid URL.: URL invalida.
 Json: Json
+JSON parsing error: {0}: Error d'analisi JSON : {0}
 JSON Property: Proprietat JSON
 Ko-fi: Cafè
 Language: Lenga
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Cargatz lo fichièr de lista de lectura (M3U/JSON) dempuèi vòstre ordenador
 Loaded: Cargat
 Loaded {0} channels from JSON file via mapping.: {0} canals cargats dempuèi un fichièr JSON per mapatge.
-Loaded {0} channels from JSON file.: {0} canals cargats dempuèi lo fichièr JSON.
 Loaded {0} channels from JSON URL.: {0} canals cargats dempuèi l'URL JSON.
 Loaded {0} channels from M3U file.: {0} canals cargats dempuèi lo fichièr M3U.
 Loaded {0} channels from M3U URL.: {0} canals cargats dempuèi l'URL M3U.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Lindal de correspondéncia de lògos
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Depaus de logos – causissètz proprietari/depaus/camin (Plugins/logos de proprietari per defaut).
 Logos Source: Logos Font
 Logos Subfolder: Sosdorsièr de lògos
+M3U parsing error: {0}: Error d'analisi M3U : {0}
 Map JSON properties to channel fields:: Mapar las proprietats JSON als camps de canal :
 Mapping saved for future imports of this file.: Mapatge enregistrat per d'importacions futuras d'aqueste fichièr.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Lindals de correspondéncia – definir la sensibilitat de correspondéncia difusa per EPG e logos.
+Mini Player: Mini lector
 Move to Group: Desplaçar cap al grop
 Moved: Desplaçat
 Name: Nom
@@ -228,14 +243,18 @@ Next: Venent
 Next ▶: Seguent ▶
 No .m3u files found on GitHub repository.: Cap de fichièr .m3u trobat sul depaus GitHub.
 No cache folder found.: Cap de dorsièr cache pas trobat.
+No channel selected: Cap de canal seleccionat
 No channels could be mapped or import cancelled.: Cap de canal a pas pogut èsser mapat o l'importacion anullada.
 No channels could be mapped. Check your mapping rules.: Cap de canal poguèt pas èsser mapat. Verificatz vòstras règlas de mapatge.
+No channels found in JSON.: Cap de canal pas trobat dins JSON.
+No channels found in M3U.: Cap de canal pas trobat dins M3U.
 No channels loaded from JSON URL.: Cap de canal pas cargat dempuèi l'URL JSON.
 No channels loaded from M3U URL.: Cap de canal pas cargat dempuèi l'URL M3U.
 No channels loaded from M3U.: Cap de canal cargat dempuèi M3U.
 No channels loaded.: Cap de canal pas cargat.
 No channels mapped: Cap de canal mapat
 No channels selected.: Cap de canal pas seleccionat.
+No channels to import.: Cap de canal d'importar.
 No duplicate URLs found.: Cap d'URL en doble pas trobat.
 No EPG data: Pas de donadas EPG
 No EPG information available for this channel.: Cap d'informacion EPG disponibla per aqueste canal.
@@ -245,6 +264,8 @@ No favorite channels to export.: Pas de canal favorit d'exportar.
 No missing channels to export.: Cap de canal mancant a exportar.
 No playlist found: Cap de lista de lectura pas trobada
 No second playlist loaded.: Pas cap de segonda lista de lectura cargada.
+No stream URL available for this channel.: Cap d'URL de flux disponible per aqueste canal.
+No text to import.: Pas de tèxte d'importar.
 No updates available.: Cap de mesa a jorn pas disponibla.
 Normal speed (1x): Velocitat normala (1x)
 Not connected to the box.: Pas connectat a la bóstia.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Pausa/Reprene la difusion en dirècte
 Paused: Pausada
 PayPal: PayPal
 Picture-in-Picture mode: Mòde Imatge dins Imatge
+Play/Pause: Jogar/Pausa
 Player Controls: Contròls del jogaire
+Playing: Jogant
 Playlist & Groups: Lista de lectura e grops
 Playlist Comparison: Comparacion de la lista de lectura
 Playlist Editor: Editor de listas de lectura
@@ -272,10 +295,12 @@ Please select a program first.: Seleccionatz d'en primièr un programa.
 Preview (first 5 channels): Apercebut (5 primièrs canals)
 Preview error: {0}: Error d'apercebut : {0}
 Program Details: Detalhs del programa
+Ready: Prèst
 Ready.: Prèst.
 Recent: Recent
 Recent files – quick access to last 5 opened playlists.: Fichièrs recents – accès rapid a las 5 darrièras listas de lectura dobèrtas.
 Recent playlists: Listas de lectura recentas
+Refresh Code: Actualizar lo còde
 Refresh EPG: Actualizar EPG
 Refresh EPG List: Actualizar la lista EPG
 Refresh from GitHub: Actualizar dempuèi GitHub
@@ -301,6 +326,7 @@ Search channels by name: Cercar de canals per nom
 Search channels...: Cercar de canals...
 sec: segonda
 Second playlist loaded: {0} channels: Segonda lista de lectura cargada : {0} canals
+Select a channel to play.: Seleccionatz un canal per jogar.
 Select a playlist first.: Seleccionatz d'en primièr una lista de lectura.
 Select target group:: Seleccionatz lo grop cibla :
 Select Theme: Seleccionar lo tèma
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Començar
 Status: Estatut
 Stop: Arrestar
+Stopped: Arrestat
 Stream URL: URL del flux
 Stream URLs: URLs de flux
 Success: Succès
@@ -342,7 +369,9 @@ TV Guide (EPG): Guida de television (EPG)
 TvgId: TvgId
 Type channel name to filter: Picatz lo nom de canal per filtrar
 UI: MaterialDesignThemes.Wpf: UI: Temas de Dessenh de Materials.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Impossible de detectar automaticament lo format. Seleccionatz JSON o M3U dins la lista desenrotlanta e ensajatz tornarmai.
 Unable to find version in remote project file.: Impossible de trobar la version dins lo fichièr de projècte distant.
+Unsupported format. Please select JSON or M3U.: Format pas suportat. Seleccionatz JSON o M3U.
 Update: Metre al jorn
 Update complete. Restarting...: Mesa a jorn completada. Reaviada...
 Update Error: Error de mesa a jorn

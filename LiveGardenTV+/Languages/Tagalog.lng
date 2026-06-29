@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Bilis ng pag-playback: 0.5x, 1x, 2x na button.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Pagbukud-bukurin ang anumang column sa pamamagitan ng pag-click sa header; gamitin ang 'I-reset ang Order' upang bumalik sa orihinal na pagkakasunud-sunod.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: i-pause ang live stream; i-drag ang slider upang maghanap pabalik; pindutin ang 'Live' upang bumalik.
+▶ Play: ▶ Maglaro
 ◀ Previous: ◀ Nakaraan
 16 colour themes + Light/Dark variants.: 16 na tema ng kulay + Light/Dark na variant.
 A new version is available. Do you want to update now?: Available ang isang bagong bersyon. Gusto mo bang mag-update ngayon?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Ayusin ang laki ng buffer (1-10 segundo)
 Advanced IDs: Mga advanced na ID
 Application status: Katayuan ng aplikasyon
 Apply: Mag-apply
+Apply / Import: Mag-apply / Mag-import
 Apply changes: Ilapat ang mga pagbabago
 Apply Filters: Ilapat ang Mga Filter
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Sigurado ka bang gusto mong i-reload ang Enigma2 GUI?\n\nMagre-restart ang interface (itim na screen sa loob ng ilang segundo).
@@ -46,8 +48,10 @@ Cannot open browser: Hindi mabuksan ang browser
 Category: Kategorya
 Changelog: Changelog
 Channel Details: Mga Detalye ng Channel
+Channel Down: Channel Down
 Channel Info: Impormasyon ng Channel
 Channel Name: Pangalan ng Channel
+Channel Up: Channel Up
 channels from: mga channel mula sa
 channels from JSON: mga channel mula sa JSON
 channels from JSON URL: mga channel mula sa JSON URL
@@ -61,6 +65,8 @@ Clear Filters: I-clear ang Mga Filter
 Clear search: I-clear ang paghahanap
 Click for details: I-click para sa mga detalye
 Close: Isara
+Code: Code
+Code copied to clipboard.: Nakopya ang code sa clipboard.
 Command name:: Pangalan ng command:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunidad at pagsubok: CorvoBoys (corvoboys.org) at LinuxSat-Support.com
 Compare: Ikumpara
@@ -75,6 +81,7 @@ Confirm Reload: Kumpirmahin ang I-reload
 Connect: Kumonekta
 Connected: Nakakonekta
 Copied: Kinopya
+Copy: Kopyahin
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Bansa
 Credits: Mga kredito
@@ -141,6 +148,7 @@ Export OK: I-export ang OK
 Export only favorite channels to a new M3U file: I-export lamang ang mga paboritong channel sa isang bagong M3U file
 Export results as JSON or M3U – export missing channels or all channels.: I-export ang mga resulta bilang JSON o M3U – i-export ang mga nawawalang channel o lahat ng channel.
 Export selected: Napili ang pag-export
+Export Selected: I-export ang Napili
 Exported: Na-export
 Exported {0} channels to {1}: Na-export ang {0} (na) channel sa {1}
 Extracting update...: Kinukuha ang update...
@@ -154,11 +162,14 @@ Fetch Logos: Kunin ang Mga Logo
 File {0} already exists. Overwrite?: Umiiral na ang file na {0}. I-overwrite?
 File exists: May file
 Filters: Mga filter
+Format Detection: Pagtukoy sa Format
+Fullscreen: Fullscreen
 Fullscreen (hide UI) - press ESC to exit: Fullscreen (itago ang UI) - pindutin ang ESC upang lumabas
 Geo & Country: Geo at Bansa
 GeoBlocked: GeoBlocked
 GitHub Error: Error sa GitHub
 Go back to live: Bumalik upang mabuhay
+Grid: Grid
 Group: Grupo
 Half speed (0.5x): Kalahating bilis (0.5x)
 Help: Tulong
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS playback: hls.js (MIT lisensya)
 Image: Imahe
 Import: Mag-import
 Import cancelled or no channels mapped.: Kinansela ang pag-import o walang mga channel na nakamapa.
+Import Error: Error sa Pag-import
 Import error: {0}: Error sa pag-import: {0}
 Import from URL: Mag-import mula sa URL
 Import JSON: Mag-import ng JSON
 Import JSON from URL: Mag-import ng JSON mula sa URL
 Import Local: Mag-import ng Lokal
+Imported {0} channels from code.: Nag-import ng {0} (na) channel mula sa code.
 Imported {0} channels from JSON via mapping.: Nag-import ng {0} (na) channel mula sa JSON sa pamamagitan ng pagmamapa.
 Imported {0} channels from URL.: Nag-import ng {0} (na) channel mula sa URL.
 In Both: Sa Parehong
@@ -181,6 +194,7 @@ Invalid JSON: {0}: Di-wastong JSON: {0}
 Invalid playlist URL.: Di-wastong URL ng playlist.
 Invalid URL.: Di-wastong URL.
 Json: Json
+JSON parsing error: {0}: Error sa pag-parse ng JSON: {0}
 JSON Property: JSON Property
 Ko-fi: kape
 Language: Wika
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: I-load ang playlist file (M3U/JSON) mula sa iyong computer
 Loaded: Na-load
 Loaded {0} channels from JSON file via mapping.: Nag-load ng {0} (na) channel mula sa JSON file sa pamamagitan ng pagmamapa.
-Loaded {0} channels from JSON file.: Nag-load ng {0} (na) channel mula sa JSON file.
 Loaded {0} channels from JSON URL.: Nag-load ng {0} (na) channel mula sa JSON URL.
 Loaded {0} channels from M3U file.: Nag-load ng {0} (na) channel mula sa M3U file.
 Loaded {0} channels from M3U URL.: Nag-load ng {0} (na) channel mula sa M3U URL.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Mga Logo na Tugma sa Threshold
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Imbakan ng mga logo – pumili ng may-ari/repo/path (default OwnerPlugins/logo).
 Logos Source: Pinagmulan ng Logo
 Logos Subfolder: Logos Subfolder
+M3U parsing error: {0}: Error sa pag-parse ng M3U: {0}
 Map JSON properties to channel fields:: Imapa ang mga katangian ng JSON sa mga field ng channel:
 Mapping saved for future imports of this file.: Na-save ang pagmamapa para sa hinaharap na pag-import ng file na ito.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Pagtutugma ng mga threshold – magtakda ng malabo na tugma sensitivity para sa EPG at mga logo.
+Mini Player: Mini Player
 Move to Group: Ilipat sa Grupo
 Moved: Inilipat
 Name: Pangalan
@@ -228,14 +243,18 @@ Next: Susunod
 Next ▶: Susunod ▶
 No .m3u files found on GitHub repository.: Walang nakitang .m3u file sa GitHub repository.
 No cache folder found.: Walang nakitang folder ng cache.
+No channel selected: Walang napiling channel
 No channels could be mapped or import cancelled.: Walang mga channel ang maaaring imapa o kanselahin ang pag-import.
 No channels could be mapped. Check your mapping rules.: Walang mga channel ang ma-mapa. Suriin ang iyong mga panuntunan sa pagmamapa.
+No channels found in JSON.: Walang nakitang mga channel sa JSON.
+No channels found in M3U.: Walang nakitang mga channel sa M3U.
 No channels loaded from JSON URL.: Walang mga channel na na-load mula sa JSON URL.
 No channels loaded from M3U URL.: Walang mga channel na na-load mula sa M3U URL.
 No channels loaded from M3U.: Walang mga channel na na-load mula sa M3U.
 No channels loaded.: Walang na-load na mga channel.
 No channels mapped: Walang mga channel na nakamapa
 No channels selected.: Walang napiling channel.
+No channels to import.: Walang mga channel na ii-import.
 No duplicate URLs found.: Walang nakitang duplicate na URL.
 No EPG data: Walang data ng EPG
 No EPG information available for this channel.: Walang available na impormasyon sa EPG para sa channel na ito.
@@ -245,6 +264,8 @@ No favorite channels to export.: Walang paboritong channel na ie-export.
 No missing channels to export.: Walang nawawalang mga channel upang i-export.
 No playlist found: Walang nahanap na playlist
 No second playlist loaded.: Walang na-load na pangalawang playlist.
+No stream URL available for this channel.: Walang available na URL ng stream para sa channel na ito.
+No text to import.: Walang text na ii-import.
 No updates available.: Walang available na update.
 Normal speed (1x): Normal na bilis (1x)
 Not connected to the box.: Hindi konektado sa kahon.
@@ -261,7 +282,9 @@ Pause/Resume live stream: I-pause/Ipagpatuloy ang live stream
 Paused: Naka-pause
 PayPal: PayPal
 Picture-in-Picture mode: Picture-in-Picture mode
+Play/Pause: I-play/I-pause
 Player Controls: Mga Kontrol ng Manlalaro
+Playing: Naglalaro
 Playlist & Groups: Playlist at Mga Grupo
 Playlist Comparison: Paghahambing ng Playlist
 Playlist Editor: Editor ng Playlist
@@ -272,10 +295,12 @@ Please select a program first.: Mangyaring pumili muna ng isang programa.
 Preview (first 5 channels): Preview (unang 5 channel)
 Preview error: {0}: Error sa pag-preview: {0}
 Program Details: Mga Detalye ng Programa
+Ready: handa na
 Ready.: handa na.
 Recent: Kamakailan
 Recent files – quick access to last 5 opened playlists.: Kamakailang mga file – mabilis na pag-access sa huling 5 binuksang playlist.
 Recent playlists: Mga kamakailang playlist
+Refresh Code: I-refresh ang Code
 Refresh EPG: I-refresh ang EPG
 Refresh EPG List: I-refresh ang Listahan ng EPG
 Refresh from GitHub: I-refresh mula sa GitHub
@@ -301,6 +326,7 @@ Search channels by name: Maghanap ng mga channel ayon sa pangalan
 Search channels...: Maghanap ng mga channel...
 sec: sec
 Second playlist loaded: {0} channels: Na-load ang pangalawang playlist: {0} (na) channel
+Select a channel to play.: Pumili ng channel na ipe-play.
 Select a playlist first.: Pumili muna ng playlist.
 Select target group:: Pumili ng target na pangkat:
 Select Theme: Piliin ang Tema
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Magsimula
 Status: Katayuan
 Stop: Tumigil ka
+Stopped: Huminto
 Stream URL: URL ng stream
 Stream URLs: Mga URL ng stream
 Success: Tagumpay
@@ -342,7 +369,9 @@ TV Guide (EPG): Gabay sa TV (EPG)
 TvgId: TvgId
 Type channel name to filter: I-type ang pangalan ng channel upang i-filter
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Hindi ma-auto-detect ang format. Mangyaring piliin ang JSON o M3U mula sa dropdown at subukang muli.
 Unable to find version in remote project file.: Hindi mahanap ang bersyon sa malayuang file ng proyekto.
+Unsupported format. Please select JSON or M3U.: Hindi sinusuportahang format. Mangyaring piliin ang JSON o M3U.
 Update: Update
 Update complete. Restarting...: Kumpleto na ang pag-update. Nagsisimula muli...
 Update Error: Error sa Pag-update

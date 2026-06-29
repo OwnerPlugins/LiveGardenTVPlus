@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • Уйнау тизлеге: 0,5х, 1х, 2х төймәләр.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Башламга басып теләсә нинди багананы тәртипкә китерегез; Оригиналь тәртипкә кире кайту өчен 'Заказны яңадан торгызу' кулланыгыз.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: туры эфирны пауза итү; кире эзләү өчен слайдерны тарту; кайту өчен 'Live' басыгыз.
+▶ Play: ▶ Уйна
 ◀ Previous: ◀ Алдагы
 16 colour themes + Light/Dark variants.: 16 төсле тема + Якты / Караңгы вариантлар.
 A new version is available. Do you want to update now?: Яңа версия бар. Хәзер яңартасыгыз киләме?
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): Буфер зурлыгын көйләгез 
 Advanced IDs: Алга киткән таныклыклар
 Application status: Гариза статусы
 Apply: Кулланыгыз
+Apply / Import: Куллану / импортлау
 Apply changes: Changesзгәрешләр кулланыгыз
 Apply Filters: Фильтрлар кулланыгыз
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI-ны яңадан йөкләргә телисезме? \ N \ n Интерфейс яңадан башланачак (берничә секунд эчендә кара экран).
@@ -46,8 +48,10 @@ Cannot open browser: Браузерны ачып булмый
 Category: Төркем
 Changelog: Чангелог
 Channel Details: Канал детальләре
+Channel Down: Канал
 Channel Info: Канал турында мәгълүмат
 Channel Name: Канал исеме
+Channel Up: Канал
 channels from: каналлары
 channels from JSON: JSON каналлары
 channels from JSON URL: JSON URL каналлары
@@ -61,6 +65,8 @@ Clear Filters: Фильтрларны чистарту
 Clear search: Эзләү
 Click for details: Детальләр өчен басыгыз
 Close: Ябу
+Code: Код
+Code copied to clipboard.: Код буферга күчерелде.
 Command name:: Команда исеме:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Communityәмгыять һәм тест: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
 Compare: Чагыштырыгыз
@@ -75,6 +81,7 @@ Confirm Reload: Йөкләүне раслагыз
 Connect: Бәйләнегез
 Connected: Бәйләнгән
 Copied: Күчерелгән
+Copy: Күчермә
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: Ил
 Credits: Кредитлар
@@ -141,6 +148,7 @@ Export OK: Экспорт ярый
 Export only favorite channels to a new M3U file: Яңа M3U файлына яраткан каналларны гына экспортлагыз
 Export results as JSON or M3U – export missing channels or all channels.: JSON яки M3U рәвешендә экспорт нәтиҗәләре - югалган каналларны яки барлык каналларны экспортлагыз.
 Export selected: Экспорт сайланган
+Export Selected: Экспорт сайланган
 Exported: Экспорт
 Exported {0} channels to {1}: {1} каналларына {1} экспортланган
 Extracting update...: Яңартуны чыгару ...
@@ -154,11 +162,14 @@ Fetch Logos: Логотиплар
 File {0} already exists. Overwrite?: {0} файл бар. Өстәмә язу?
 File exists: Файл бар
 Filters: Фильтрлар
+Format Detection: Форматны ачыклау
+Fullscreen: Тулы экран
 Fullscreen (hide UI) - press ESC to exit: Тулы экран (UI яшерегез) - чыгу өчен ESC басыгыз
 Geo & Country: Гео & Ил
 GeoBlocked: GeoBlocked
 GitHub Error: GitHub хата
 Go back to live: Яшәгез
+Grid: Челтәр
 Group: Төркем
 Half speed (0.5x): Ярты тизлек (0,5х)
 Help: Ярдәм
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): HLS уйнау: hls.js (MIT лицензия
 Image: Рәсем
 Import: Импорт
 Import cancelled or no channels mapped.: Импорт юкка чыгарылды яки карталар ясалмады.
+Import Error: Импорт хата
 Import error: {0}: Импорт хата: {0}
 Import from URL: URL'дан импорт
 Import JSON: JSON импортлау
 Import JSON from URL: JSON-ны URL-тан импортлагыз
 Import Local: Localирле импорт
+Imported {0} channels from code.: Кодтан {0} каналлар кертелгән.
 Imported {0} channels from JSON via mapping.: JSON-дан {0} каналларны карта аша импортладылар.
 Imported {0} channels from URL.: URL'дан {0} каналлар кертелгән.
 In Both: Икесендә дә
@@ -181,6 +194,7 @@ Invalid JSON: {0}: Яраксыз JSON: {0}
 Invalid playlist URL.: Яраксыз плейлист URL.
 Invalid URL.: Яраксыз URL.
 Json: Джсон
+JSON parsing error: {0}: JSON анализлау хата: {0}
 JSON Property: JSON милеге
 Ko-fi: Кофе
 Language: Тел
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: Компьютердан плейлист файлын (M3U / JSON) йөкләгез
 Loaded: Йөкләнгән
 Loaded {0} channels from JSON file via mapping.: Карта аша JSON файлыннан {0} каналлар йөкләнде.
-Loaded {0} channels from JSON file.: JSON файлыннан {0} каналлар йөкләнде.
 Loaded {0} channels from JSON URL.: JSON URL-дан {0} каналлар йөкләнде.
 Loaded {0} channels from M3U file.: M3U файлыннан {0} каналлар йөкләнде.
 Loaded {0} channels from M3U URL.: M3U URL-дан {0} каналлар йөкләнде.
@@ -215,9 +228,11 @@ Logos Matching Threshold: Логотиплар бусагасы
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Логотиплар складлары - хуҗаны / репо / юлны сайлагыз (килешү буенча OwnerPlugins / логотиплар).
 Logos Source: Логос чыганагы
 Logos Subfolder: Логотиплар
+M3U parsing error: {0}: M3U анализлау хата: {0}
 Map JSON properties to channel fields:: JSON үзлекләрен канал кырларына карта:
 Mapping saved for future imports of this file.: Бу файлның киләчәк импортлары өчен сакланган карта.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Бусагага туры килү - EPG һәм логотипларга туры килмәгән матч сизгерлеген куегыз.
+Mini Player: Мини плеер
 Move to Group: Төркемгә күчү
 Moved: Күчерелде
 Name: Исем
@@ -228,14 +243,18 @@ Next: Киләсе
 Next ▶: Киләсе ▶
 No .m3u files found on GitHub repository.: GitHub складында .m3u файллары табылмады.
 No cache folder found.: Кэш папкасы табылмады.
+No channel selected: Канал сайланмады
 No channels could be mapped or import cancelled.: Бер каналны да ясап булмый, импорт та юкка чыгарыла алмый.
 No channels could be mapped. Check your mapping rules.: Бер каналны да ясап булмый. Карта ясау кагыйдәләрен тикшерегез.
+No channels found in JSON.: JSONда каналлар табылмады.
+No channels found in M3U.: M3U каналлары табылмады.
 No channels loaded from JSON URL.: JSON URLдан каналлар юк.
 No channels loaded from M3U URL.: M3U URL-тан йөкләнгән каналлар юк.
 No channels loaded from M3U.: M3Uдан каналлар юк.
 No channels loaded.: Каналлар юк.
 No channels mapped: Бер канал да ясалмаган
 No channels selected.: Канал сайланмаган.
+No channels to import.: Импорт өчен каналлар юк.
 No duplicate URLs found.: Бер-бер артлы URL табылмады.
 No EPG data: EPG мәгълүматлары юк
 No EPG information available for this channel.: Бу канал өчен EPG турында мәгълүмат юк.
@@ -245,6 +264,8 @@ No favorite channels to export.: Экспортка яраткан каналл�
 No missing channels to export.: Экспортка каналлар юк.
 No playlist found: Плейлист табылмады
 No second playlist loaded.: Икенче плейлист йөкләнмәде.
+No stream URL available for this channel.: Бу канал өчен агым URL юк.
+No text to import.: Импорт өчен текст юк.
 No updates available.: Яңартулар юк.
 Normal speed (1x): Нормаль тизлек (1х)
 Not connected to the box.: Рамкага тоташмаган.
@@ -261,7 +282,9 @@ Pause/Resume live stream: Пауза / Тере агымны дәвам итү
 Paused: Пауза
 PayPal: PayPal
 Picture-in-Picture mode: Рәсем-рәсем режимы
+Play/Pause: Уйна / Пауза
 Player Controls: Плеер белән идарә итү
+Playing: Уйнау
 Playlist & Groups: Плейлист һәм төркемнәр
 Playlist Comparison: Плейлист чагыштыру
 Playlist Editor: Плейлист редакторы
@@ -272,10 +295,12 @@ Please select a program first.: Зинһар, башта программаны 
 Preview (first 5 channels): Алдан карау (беренче 5 канал)
 Preview error: {0}: Алдан карау хата: {0}
 Program Details: Программа детальләре
+Ready: Әзер
 Ready.: Әзер.
 Recent: Соңгы
 Recent files – quick access to last 5 opened playlists.: Соңгы файллар - соңгы 5 ачылган плейлистка тиз керү.
 Recent playlists: Соңгы плейлистлар
+Refresh Code: Кодны яңарту
 Refresh EPG: EPG яңарту
 Refresh EPG List: EPG исемлеген яңарту
 Refresh from GitHub: GitHub'тан яңарту
@@ -301,6 +326,7 @@ Search channels by name: Каналларны исем буенча эзләү
 Search channels...: Каналларны эзләү ...
 sec: сек
 Second playlist loaded: {0} channels: Икенче плейлист йөкләнде: {0} каналлар
+Select a channel to play.: Уйнау өчен канал сайлагыз.
 Select a playlist first.: Башта плейлистны сайлагыз.
 Select target group:: Максатлы төркемне сайлагыз:
 Select Theme: Теманы сайлагыз
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: Башлау
 Status: Статус
 Stop: Тукта
+Stopped: Тукта
 Stream URL: Агым URL
 Stream URLs: Агым URLлары
 Success: Уңыш
@@ -342,7 +369,9 @@ TV Guide (EPG): Телевидение күрсәтмәсе (EPG)
 TvgId: TvgId
 Type channel name to filter: Фильтр өчен канал исемен языгыз
 UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Форматны автоматик рәвештә ачыклый алмый. Зинһар, тамчыдан JSON яки M3U сайлагыз һәм кабатлап карагыз.
 Unable to find version in remote project file.: Ерак проект файлында версия таба алмый.
+Unsupported format. Please select JSON or M3U.: Ярдәм ителмәгән формат. Зинһар, JSON яки M3U сайлагыз.
 Update: Яңарту
 Update complete. Restarting...: Яңарту тулы. Яңарту ...
 Update Error: Яңарту хата

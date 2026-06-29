@@ -16,6 +16,7 @@
 • Playback speed: 0.5x, 1x, 2x buttons.: • سرعت پخش: دکمه های 0.5x، 1x، 2x.
 • Sort any column by clicking header; use 'Reset Order' to revert to original order.: • هر ستون را با کلیک کردن روی سربرگ مرتب کنید. برای بازگشت به سفارش اصلی از «تنظیم مجدد» استفاده کنید.
 • Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: توقف پخش زنده. لغزنده را بکشید تا به عقب برگردید. برای بازگشت "زنده" را فشار دهید.
+▶ Play: ▶ پخش کنید
 ◀ Previous: ◀ قبلی
 16 colour themes + Light/Dark variants.: 16 تم رنگی + انواع روشن/تاریک.
 A new version is available. Do you want to update now?: نسخه جدید موجود است. آیا می خواهید اکنون به روز رسانی کنید؟
@@ -29,6 +30,7 @@ Adjust buffer size (1-10 seconds): تنظیم اندازه بافر (1-10 ثان
 Advanced IDs: شناسه های پیشرفته
 Application status: وضعیت برنامه
 Apply: درخواست کنید
+Apply / Import: اعمال / وارد کردن
 Apply changes: اعمال تغییرات
 Apply Filters: اعمال فیلترها
 Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: آیا مطمئن هستید که می‌خواهید رابط کاربری گرافیکی Enigma2 را مجدداً بارگیری کنید؟\n\nاینترفیس مجدداً راه‌اندازی می‌شود (صفحه سیاه برای چند ثانیه).
@@ -46,8 +48,10 @@ Cannot open browser: مرورگر باز نمیشه
 Category: دسته بندی
 Changelog: تغییرات
 Channel Details: جزئیات کانال
+Channel Down: کانال پایین
 Channel Info: اطلاعات کانال
 Channel Name: نام کانال
+Channel Up: کانال بالا
 channels from: کانال ها از
 channels from JSON: کانال های JSON
 channels from JSON URL: کانال ها از JSON URL
@@ -61,6 +65,8 @@ Clear Filters: پاک کردن فیلترها
 Clear search: جستجو را پاک کنید
 Click for details: برای جزئیات کلیک کنید
 Close: بستن
+Code: کد
+Code copied to clipboard.: کد در کلیپ بورد کپی شد.
 Command name:: نام فرمان:
 Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: انجمن و آزمایش: CorvoBoys (corvoboys.org) و LinuxSat-Support.com
 Compare: مقایسه کنید
@@ -75,6 +81,7 @@ Confirm Reload: بارگذاری مجدد را تأیید کنید
 Connect: اتصال
 Connected: متصل شد
 Copied: کپی شده است
+Copy: کپی کنید
 CORVOBOYS.ORG: CORVOBOYS.ORG
 Country: کشور
 Credits: اعتبارات
@@ -141,6 +148,7 @@ Export OK: صادرات OK
 Export only favorite channels to a new M3U file: فقط کانال های مورد علاقه را به یک فایل جدید M3U صادر کنید
 Export results as JSON or M3U – export missing channels or all channels.: نتایج را به صورت JSON یا M3U صادر کنید - کانال های گمشده یا همه کانال ها را صادر کنید.
 Export selected: صادرات انتخاب شد
+Export Selected: صادرات انتخاب شد
 Exported: صادر شد
 Exported {0} channels to {1}: {0} کانال به {1} صادر شد
 Extracting update...: در حال استخراج به روز رسانی...
@@ -154,11 +162,14 @@ Fetch Logos: واکشی لوگوها
 File {0} already exists. Overwrite?: فایل {0} از قبل وجود دارد. بازنویسی؟
 File exists: فایل موجود است
 Filters: فیلترها
+Format Detection: تشخیص فرمت
+Fullscreen: تمام صفحه
 Fullscreen (hide UI) - press ESC to exit: تمام صفحه (مخفی کردن رابط کاربری) - برای خروج ESC را فشار دهید
 Geo & Country: جغرافیا و کشور
 GeoBlocked: GeoBlocked
 GitHub Error: خطای GitHub
 Go back to live: برگرد تا زندگی کنی
+Grid: شبکه
 Group: گروه
 Half speed (0.5x): نیم سرعت (0.5x)
 Help: کمک کنید
@@ -167,11 +178,13 @@ HLS playback: hls.js (MIT license): پخش HLS: hls.js (مجوز MIT)
 Image: تصویر
 Import: واردات
 Import cancelled or no channels mapped.: واردات لغو شد یا کانالی نگاشت نشد.
+Import Error: خطای واردات
 Import error: {0}: خطای وارد کردن: {0}
 Import from URL: وارد کردن از URL
 Import JSON: JSON را وارد کنید
 Import JSON from URL: JSON را از URL وارد کنید
 Import Local: واردات محلی
+Imported {0} channels from code.: {0} کانال از کد وارد شد.
 Imported {0} channels from JSON via mapping.: {0} کانال از JSON از طریق نقشه‌برداری وارد شد.
 Imported {0} channels from URL.: {0} کانال از URL وارد شد.
 In Both: در هر دو
@@ -181,6 +194,7 @@ Invalid JSON: {0}: JSON نامعتبر: {0}
 Invalid playlist URL.: URL لیست پخش نامعتبر است.
 Invalid URL.: URL نامعتبر است.
 Json: جیسون
+JSON parsing error: {0}: خطای تجزیه JSON: {0}
 JSON Property: ویژگی JSON
 Ko-fi: قهوه
 Language: زبان
@@ -201,7 +215,6 @@ Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' i
 Load playlist file (M3U/JSON) from your computer: فایل لیست پخش (M3U/JSON) را از رایانه خود بارگیری کنید
 Loaded: بارگیری شد
 Loaded {0} channels from JSON file via mapping.: {0} کانال از فایل JSON از طریق نقشه برداری بارگیری شد.
-Loaded {0} channels from JSON file.: {0} کانال از فایل JSON بارگیری شد.
 Loaded {0} channels from JSON URL.: {0} کانال از JSON URL بارگیری شد.
 Loaded {0} channels from M3U file.: {0} کانال از فایل M3U بارگیری شد.
 Loaded {0} channels from M3U URL.: {0} کانال از URL M3U بارگیری شد.
@@ -215,9 +228,11 @@ Logos Matching Threshold: آستانه تطبیق لوگوها
 Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: مخزن لوگو – مالک/ریپو/مسیر (پیش‌فرض OwnerPlugins/Logo) را انتخاب کنید.
 Logos Source: منبع لوگوها
 Logos Subfolder: زیر پوشه لوگو
+M3U parsing error: {0}: خطای تجزیه M3U: {0}
 Map JSON properties to channel fields:: نگاشت ویژگی های JSON به فیلدهای کانال:
 Mapping saved for future imports of this file.: نقشه برداری برای واردات آینده این فایل ذخیره شد.
 Matching thresholds – set fuzzy match sensitivity for EPG and logos.: آستانه تطبیق - حساسیت تطابق فازی را برای EPG و لوگوها تنظیم کنید.
+Mini Player: مینی پلیر
 Move to Group: انتقال به گروه
 Moved: منتقل شد
 Name: نام
@@ -228,14 +243,18 @@ Next: بعدی
 Next ▶: بعدی ▶
 No .m3u files found on GitHub repository.: هیچ فایل .m3u در مخزن GitHub یافت نشد.
 No cache folder found.: پوشه کش پیدا نشد.
+No channel selected: کانالی انتخاب نشده است
 No channels could be mapped or import cancelled.: هیچ کانالی نمی تواند نقشه برداری شود یا واردات لغو شود.
 No channels could be mapped. Check your mapping rules.: هیچ کانالی نمی تواند نقشه برداری شود. قوانین نقشه برداری خود را بررسی کنید.
+No channels found in JSON.: هیچ کانالی در JSON یافت نشد.
+No channels found in M3U.: هیچ کانالی در M3U یافت نشد.
 No channels loaded from JSON URL.: هیچ کانالی از JSON URL بارگیری نشده است.
 No channels loaded from M3U URL.: هیچ کانالی از URL M3U بارگیری نشده است.
 No channels loaded from M3U.: هیچ کانالی از M3U بارگیری نشده است.
 No channels loaded.: هیچ کانالی بارگیری نشده است.
 No channels mapped: هیچ کانالی نقشه برداری نشده است
 No channels selected.: هیچ کانالی انتخاب نشده است.
+No channels to import.: کانالی برای وارد کردن وجود ندارد.
 No duplicate URLs found.: هیچ URL تکراری یافت نشد.
 No EPG data: داده های EPG وجود ندارد
 No EPG information available for this channel.: هیچ اطلاعات EPG برای این کانال موجود نیست.
@@ -245,6 +264,8 @@ No favorite channels to export.: کانال مورد علاقه برای صاد�
 No missing channels to export.: هیچ کانالی برای صادرات وجود ندارد.
 No playlist found: لیست پخشی پیدا نشد
 No second playlist loaded.: لیست پخش دومی بارگیری نشده است.
+No stream URL available for this channel.: هیچ URL جریانی برای این کانال موجود نیست.
+No text to import.: متنی برای وارد کردن وجود ندارد.
 No updates available.: به روز رسانی در دسترس نیست.
 Normal speed (1x): سرعت معمولی (1x)
 Not connected to the box.: به جعبه وصل نیست
@@ -261,7 +282,9 @@ Pause/Resume live stream: توقف/ازسرگیری پخش زنده
 Paused: مکث کرد
 PayPal: پی پال
 Picture-in-Picture mode: حالت تصویر در تصویر
+Play/Pause: پخش/مکث
 Player Controls: کنترل های پخش کننده
+Playing: در حال پخش
 Playlist & Groups: لیست پخش و گروه ها
 Playlist Comparison: مقایسه لیست پخش
 Playlist Editor: ویرایشگر لیست پخش
@@ -272,10 +295,12 @@ Please select a program first.: لطفا ابتدا یک برنامه را ان�
 Preview (first 5 channels): پیش نمایش (5 کانال اول)
 Preview error: {0}: خطای پیش نمایش: {0}
 Program Details: جزئیات برنامه
+Ready: آماده است
 Ready.: آماده است.
 Recent: اخیر
 Recent files – quick access to last 5 opened playlists.: فایل های اخیر – دسترسی سریع به آخرین 5 لیست پخش باز شده.
 Recent playlists: لیست های پخش اخیر
+Refresh Code: Refresh Code
 Refresh EPG: EPG را تازه کنید
 Refresh EPG List: فهرست EPG را بازخوانی کنید
 Refresh from GitHub: بازخوانی از GitHub
@@ -301,6 +326,7 @@ Search channels by name: کانال ها را بر اساس نام جستجو ک
 Search channels...: جستجو در کانال ها...
 sec: ثانیه
 Second playlist loaded: {0} channels: دومین لیست پخش بارگیری شد: {0} کانال
+Select a channel to play.: کانالی را برای پخش انتخاب کنید.
 Select a playlist first.: ابتدا یک لیست پخش انتخاب کنید.
 Select target group:: انتخاب گروه هدف:
 Select Theme: تم را انتخاب کنید
@@ -316,6 +342,7 @@ Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and s
 Start: شروع کنید
 Status: وضعیت
 Stop: توقف کنید
+Stopped: متوقف شد
 Stream URL: URL جریان
 Stream URLs: URL های جریانی
 Success: موفقیت
@@ -342,7 +369,9 @@ TV Guide (EPG): راهنمای تلویزیون (EPG)
 TvgId: TvgId
 Type channel name to filter: نام کانال را برای فیلتر تایپ کنید
 UI: MaterialDesignThemes.Wpf: رابط کاربری: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: امکان شناسایی خودکار قالب وجود ندارد. لطفاً JSON یا M3U را از منوی بازشو انتخاب کنید و دوباره امتحان کنید.
 Unable to find version in remote project file.: نسخه در فایل پروژه راه دور پیدا نشد.
+Unsupported format. Please select JSON or M3U.: قالب پشتیبانی نشده لطفا JSON یا M3U را انتخاب کنید.
 Update: به روز رسانی
 Update complete. Restarting...: به روز رسانی کامل شد. شروع مجدد...
 Update Error: خطای آپدیت
