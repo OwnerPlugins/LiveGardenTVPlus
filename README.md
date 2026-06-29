@@ -64,6 +64,7 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
 
 
 ## Screenshots
+---
 
 <table align="center">
   <tr>
@@ -86,7 +87,6 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
       <b>Preview 3</b>
     </td>
   </tr>
-
   <tr>
     <td align="center">
       <img src="Screenshots/preview4.jpg?sanitize=true&raw=true" title="preview4" width="400"/><br/>
@@ -97,7 +97,6 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
       <b>Preview 5</b>
     </td>
   </tr>
-
   <tr>
     <td align="center">
       <img src="Screenshots/preview6.jpg?sanitize=true&raw=true" title="preview6" width="400"/><br/>
@@ -119,7 +118,6 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
       <b>Preview 9</b>
     </td>
   </tr>
-
   <tr>
     <td align="center">
       <img src="Screenshots/preview10.jpg?sanitize=true&raw=true" title="preview10" width="400"/><br/>
@@ -130,7 +128,6 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
       <b>Preview 11</b>
     </td>
   </tr>
-
   <tr>
     <td align="center">
       <img src="Screenshots/preview12.jpg?sanitize=true&raw=true" title="preview12" width="400"/><br/>
@@ -227,10 +224,7 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
       <img src="Screenshots/tab_code_player.jpg?sanitize=true&raw=true" title="tab_code_player" width="400"/><br/>
       <b>tab_code_player 28</b>
     </td>
-
   </tr>
-
-
 </table>
 
 ---
