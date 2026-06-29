@@ -49,9 +49,12 @@ jobs:
         with:
           tag_name: v${{ steps.get_version.outputs.version }}
           name: Release v${{ steps.get_version.outputs.version }}
+          target_commitish: main
+          body: |
+            ## Changes in this release
+            - Auto version ${{ steps.get_version.outputs.version }}
           draft: false
           prerelease: false
-          generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
