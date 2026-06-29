@@ -44,17 +44,12 @@ jobs:
           git push origin "$TAG"
 
       - name: Create GitHub Release
-        if: steps.check_tag.outputs.exists == 'false'
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: v${{ steps.get_version.outputs.version }}
-          name: Release v${{ steps.get_version.outputs.version }}
-          target_commitish: main
-          body: |
-            ## Changes in this release
-            - Auto version ${{ steps.get_version.outputs.version }}
-          draft: false
-          prerelease: false
+        if: steps.check_tag.outputs.skip != 'true'
+        run: |
+          gh release create "v${{ steps.get_version.outputs.version }}" \
+            --title "Release v${{ steps.get_version.outputs.version }}" \
+            --notes "${{ steps.changelog.outputs.changelog }}" \
+            --latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
