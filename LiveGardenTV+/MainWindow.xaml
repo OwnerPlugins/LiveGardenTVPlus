@@ -312,6 +312,7 @@
                                                            Width="32" Height="32" Margin="0,0,8,0" 
                                                            Foreground="#FF88CCFF"
                                                            Visibility="Collapsed"/>
+
                                         <!-- Channel name (with ellipses if too long) -->
                                         <TextBlock x:Name="ItemText" Grid.Column="1" Text="{Binding Name}" 
                                                    ToolTip="{Binding Url}" Foreground="{DynamicResource ForegroundBrush}"
@@ -334,7 +335,6 @@
                                         <Setter TargetName="ItemBorder" Property="Background" Value="#FF555555"/>
                                         <Setter TargetName="ItemBorder" Property="Padding" Value="5,3"/>
                                         <Setter TargetName="ItemBorder" Property="Cursor" Value="Hand"/>
-                                        <Setter TargetName="ItemIcon" Property="Kind" Value="ArrowLeft"/>
                                         <Setter TargetName="ItemIcon" Property="Visibility" Value="Visible"/>
                                         <Setter TargetName="ItemText" Property="FontWeight" Value="Bold"/>
                                         <Setter TargetName="ItemText" Property="Foreground" Value="#FF88CCFF"/>
@@ -347,6 +347,7 @@
                                     <DataTrigger Binding="{Binding Logo}" Value="">
                                         <Setter TargetName="ItemIcon" Property="Visibility" Value="Visible"/>
                                     </DataTrigger>
+
                                 </DataTemplate.Triggers>
                             </DataTemplate>
                         </HierarchicalDataTemplate.ItemTemplate>
@@ -361,7 +362,13 @@
                           Cursor="SizeWE"/>
 
             <!-- WebView2 player -->
-            <wv2:WebView2 x:Name="WebPlayer" Grid.Column="2"/>
+            <Grid Grid.Column="2">
+                <Image x:Name="PlayerBackground" 
+                       Source="pack://application:,,,/Images/tv.png" 
+                       Stretch="UniformToFill" 
+                       Visibility="Visible"/>
+                <wv2:WebView2 x:Name="WebPlayer" Visibility="Collapsed"/>
+            </Grid>
         </Grid>
 
         <!-- Status bar -->

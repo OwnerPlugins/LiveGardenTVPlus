@@ -1,10 +1,10 @@
-﻿using System.IO;
+﻿using LiveGardenTVPlus.Models;
+using LiveGardenTVPlus.Services;
+using MaterialDesignThemes.Wpf;
+using Microsoft.Web.WebView2.Core;
+using System.IO;
 using System.Windows;
 using System.Windows.Input;
-using Microsoft.Web.WebView2.Core;
-using MaterialDesignThemes.Wpf;
-using LiveGardenTVPlus.Services;
-using LiveGardenTVPlus.Models;
 
 namespace LiveGardenTVPlus.Views
 {

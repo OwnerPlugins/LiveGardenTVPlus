@@ -15,6 +15,13 @@ namespace LiveGardenTVPlus.Models
         private List<string> _youtubeUrls = new List<string>();
         private List<string> _streamUrls = new List<string>();
 
+        private bool _isRadio;
+        public bool IsRadio
+        {
+            get => _isRadio;
+            set { _isRadio = value; OnPropertyChanged(); }
+        }
+
         public string Name { get => _name; set { _name = value; OnPropertyChanged(); } }
         public string Url { get => _url; set { _url = value; OnPropertyChanged(); } }
         public string Logo { get => _logo; set { _logo = value; OnPropertyChanged(); } }

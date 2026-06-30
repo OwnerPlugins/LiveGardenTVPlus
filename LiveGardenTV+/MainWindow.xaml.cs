@@ -16,6 +16,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 using System.Windows.Media;
+using System.Windows.Media.Imaging;
 
 namespace LiveGardenTVPlus
 {
@@ -30,6 +31,8 @@ namespace LiveGardenTVPlus
 
         private System.Windows.Threading.DispatcherTimer _timeshiftTimer;
         private bool _isLiveMode = true;
+
+        private bool _playerBackgroundHidden = false;
 
         private EpgService _epgService = new EpgService();
         private bool _playerReady = false;
@@ -60,6 +63,11 @@ namespace LiveGardenTVPlus
             _showFavoritesOnly = false;
 
             ChannelTreeView.ItemsSource = ChannelGroups;
+
+            PlayerBackground.Visibility = Visibility.Visible;
+            PlayerBackground.Source = new BitmapImage(new Uri("pack://application:,,,/Images/tv.png", UriKind.Absolute));
+            WebPlayer.Visibility = Visibility.Collapsed;
+
 
             LanguageManager.LanguageChanged -= OnLanguageChanged;
 
@@ -404,6 +412,20 @@ namespace LiveGardenTVPlus
         {
             if (e.NewValue is Channel selected)
             {
+                // Set player background based on channel type
+                try
+                {
+                    string bgImage = selected.IsRadio ? "pack://application:,,,/Images/radio.png" : "pack://application:,,,/Images/tv.png";
+                    PlayerBackground.Source = new BitmapImage(new Uri(bgImage, UriKind.Absolute));
+                    PlayerBackground.Visibility = Visibility.Visible;
+                    WebPlayer.Visibility = Visibility.Collapsed;
+                }
+                catch (Exception ex)
+                {
+                    Logger.Error($"Background image error: {ex.Message}");
+                    PlayerBackground.Source = new BitmapImage(new Uri("pack://application:,,,/Images/tv.png", UriKind.Absolute));
+                }
+
                 if (selected.Name == "← Back to all groups")
                 {
                     _isDrillingIntoGroup = false;
@@ -411,6 +433,7 @@ namespace LiveGardenTVPlus
                     RefreshChannelsView();
                     return;
                 }
+
                 if (selected.YoutubeUrls != null && selected.YoutubeUrls.Count > 0)
                 {
                     var youtubeUrl = selected.YoutubeUrls.First();
@@ -423,14 +446,42 @@ namespace LiveGardenTVPlus
                         Process.Start(new ProcessStartInfo { FileName = youtubeUrl, UseShellExecute = true });
                     return;
                 }
+
                 if (WebPlayer?.CoreWebView2 != null && !string.IsNullOrEmpty(selected.Url))
                 {
-                    string js = $"playStream('{selected.Url.Replace("'", "\\'")}');";
-                    await WebPlayer.CoreWebView2.ExecuteScriptAsync(js);
-                    Debug.WriteLine($"Playing URL: {selected.Url}");
-                    StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Now")}: {selected.Name}";
-                    /* StreamNameStatus.Text = selected.Name; */
-                    _currentChannelName = selected.Name;
+                    if (!_playerReady)
+                    {
+                        StatusTextBlock.Text = "Player is loading. Please wait...";
+                        Logger.Info("Playback attempted before player ready.");
+                        return;
+                    }
+
+                    try
+                    {
+                        string js = $"playStream('{selected.Url.Replace("'", "\\'")}');";
+                        await WebPlayer.CoreWebView2.ExecuteScriptAsync(js);
+                        Debug.WriteLine($"Playing URL: {selected.Url}");
+                        StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Now")}: {selected.Name}";
+                        _currentChannelName = selected.Name;
+
+                        // Hide background for TV (video) streams, keep visible for radio
+                        if (selected.IsRadio)
+                        {
+                            WebPlayer.Visibility = Visibility.Collapsed;
+                            PlayerBackground.Visibility = Visibility.Visible;
+                        }
+                        else
+                        {
+                            PlayerBackground.Visibility = Visibility.Collapsed;
+                            WebPlayer.Visibility = Visibility.Visible;
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Logger.Error($"Playback error: {ex.Message}");
+                        StatusTextBlock.Text = $"Error: {ex.Message}";
+                        MessageBox.Show($"Cannot play stream: {ex.Message}", "Playback Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
                 }
             }
             else if (e.NewValue is ChannelGroup group)
@@ -440,7 +491,7 @@ namespace LiveGardenTVPlus
                 RefreshChannelsView();
             }
 
-            // --- EPG update ---
+            // EPG update
             if (e.NewValue is Channel ch)
             {
                 var program = _epgService.GetCurrentProgram(ch.Name, ch.TvgId, DateTime.UtcNow);
@@ -649,16 +700,20 @@ namespace LiveGardenTVPlus
         private async Task InitWebView()
         {
             string htmlPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "PlayerHost", "player.html");
-            if (File.Exists(htmlPath))
+            if (!File.Exists(htmlPath))
+            {
+                StatusTextBlock.Text = LanguageManager.GetTranslation("ERROR: player.html not found.");
+                _playerReady = false;
+                return;
+            }
+
+            try
             {
                 string html = File.ReadAllText(htmlPath);
-
                 var options = new CoreWebView2EnvironmentOptions("--disable-web-security");
                 var env = await CoreWebView2Environment.CreateAsync(null, null, options);
                 await WebPlayer.EnsureCoreWebView2Async(env);
 
-                WebPlayer.CoreWebView2.NavigateToString(html);
-                StatusTextBlock.Text = LanguageManager.GetTranslation("Ready.");
                 WebPlayer.CoreWebView2.NavigationCompleted += (s, e) =>
                 {
                     var prefs = UserPreferences.Load();
@@ -667,10 +722,15 @@ namespace LiveGardenTVPlus
                     _playerReady = true;
                     _timeshiftTimer.Start();
                 };
+
+                // Navigate to the HTML string
+                WebPlayer.CoreWebView2.NavigateToString(html);
+                StatusTextBlock.Text = LanguageManager.GetTranslation("Loading player...");
             }
-            else
+            catch (Exception ex)
             {
-                StatusTextBlock.Text = LanguageManager.GetTranslation("ERROR: player.html not found.");
+                Logger.Error($"InitWebView error: {ex.Message}");
+                StatusTextBlock.Text = $"WebView2 error: {ex.Message}";
                 _playerReady = false;
             }
         }

@@ -36,18 +36,31 @@ namespace LiveGardenTVPlus.Services
                         if (string.IsNullOrEmpty(line)) continue;
                         if (line.StartsWith("#")) continue;
                         url = line;
-                        i = j; // we advance the main index
+                        i = j;
                         break;
                     }
                     if (string.IsNullOrEmpty(url)) continue;
 
+                    string name = ExtractName(extinf);
+                    string group = ExtractGroup(extinf);
+
+                    // Detect radio channel based ONLY on URL extension
+                    bool isRadio = false;
+                    if (!string.IsNullOrEmpty(url))
+                    {
+                        string ext = Path.GetExtension(url).ToLower();
+                        isRadio = ext == ".mp3" || ext == ".aac" || ext == ".ogg" || ext == ".m4a" ||
+                                  ext == ".wma" || ext == ".flac" || ext == ".opus" || ext == ".wav";
+                    }
+
                     channels.Add(new Channel
                     {
                         Url = url,
-                        Name = ExtractName(extinf),
-                        Group = ExtractGroup(extinf),
+                        Name = name,
+                        Group = group,
                         Logo = ExtractLogo(extinf),
-                        TvgId = ExtractTvgId(extinf)
+                        TvgId = ExtractTvgId(extinf),
+                        IsRadio = isRadio
                     });
                 }
             }

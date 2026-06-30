@@ -8,7 +8,6 @@ namespace LiveGardenTVPlus
         [STAThread]
         public static void Main()
         {
-            // Usa C:\temp se possibile, altrimenti la cartella dell'app
             string logDir = @"C:\temp";
             string logFile = Path.Combine(logDir, "LiveGarden_startup.log");
 
@@ -18,7 +17,6 @@ namespace LiveGardenTVPlus
             }
             catch
             {
-                // Fallback: usa la cartella dell'app
                 logDir = AppDomain.CurrentDomain.BaseDirectory;
                 logFile = Path.Combine(logDir, "startup.log");
                 Directory.CreateDirectory(logDir);
@@ -26,17 +24,17 @@ namespace LiveGardenTVPlus
 
             try
             {
-                File.WriteAllText(logFile, $"{DateTime.Now}: Avvio\n");
+                File.WriteAllText(logFile, $"{DateTime.Now}: Application started\n");
 
                 var app = new App();
                 app.Run(new MainWindow());
 
-                File.AppendAllText(logFile, $"{DateTime.Now}: Uscita normale\n");
+                File.AppendAllText(logFile, $"{DateTime.Now}: Application exited normally\n");
             }
             catch (Exception ex)
             {
                 File.AppendAllText(logFile, $"{DateTime.Now}: CRASH - {ex}\n");
-                MessageBox.Show($"Errore grave:\n{ex.Message}\n\nLog: {logFile}", "Errore", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show($"Fatal error:\n{ex.Message}\n\nLog: {logFile}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
     }

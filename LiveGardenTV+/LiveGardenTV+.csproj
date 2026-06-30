@@ -55,6 +55,8 @@
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
         </Content>
+        <None Remove="Images\radio.png" />
+        <None Remove="Images\tv.png" />
         <!-- Themes: logo and avatar (copy as content, not resource) -->
         <Content Include="Themes\logo-garden.png">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -76,6 +78,12 @@
     </ItemGroup>
     <!-- Resource files (embedded in assembly, not copied separately) -->
     <ItemGroup>
+        <Resource Include="Images\radio.png">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Resource>
+        <Resource Include="Images\tv.png">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Resource>
         <Resource Include="Views\avatar.gif" />
         <Resource Include="Views\logo-garden.png" />
         <Resource Include="Themes\avatar.gif" />
@@ -99,5 +107,6 @@
         <Resource Remove="Themes\avatar.gif"/>
         <Resource Remove="Themes\folder.png"/>
         <Resource Remove="Themes\logo-garden.png"/>
-    </ItemGroup> -->
+    </ItemGroup>
+    -->
 </Project>
