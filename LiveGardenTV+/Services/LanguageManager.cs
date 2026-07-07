@@ -36,14 +36,34 @@ namespace LiveGardenTVPlus.Services
             {
                 string trimmed = line.Trim();
                 if (string.IsNullOrEmpty(trimmed)) continue;
-                int sepIndex = trimmed.IndexOfAny(new char[] { ':', '=' });
-                if (sepIndex > 0)
+
+                string key = null;
+                string value = null;
+
+                // Support separator "::" (primary)
+                int doubleColonIndex = trimmed.IndexOf("::");
+                if (doubleColonIndex > 0)
                 {
-                    string key = trimmed.Substring(0, sepIndex).Trim();
-                    string value = trimmed.Substring(sepIndex + 1).Trim();
-                    dict[key] = value;
+                    key = trimmed.Substring(0, doubleColonIndex).Trim();
+                    value = trimmed.Substring(doubleColonIndex + 2).Trim();
+                }
+                else
+                {
+                    // Fallback: support ":" or "=" for backward compatibility
+                    int sepIndex = trimmed.IndexOfAny(new char[] { ':', '=' });
+                    if (sepIndex > 0)
+                    {
+                        key = trimmed.Substring(0, sepIndex).Trim();
+                        value = trimmed.Substring(sepIndex + 1).Trim();
+                    }
+                }
+
+                if (!string.IsNullOrEmpty(key))
+                {
+                    dict[key] = value ?? key;
                 }
             }
+
             _dict = dict;
             TranslationHelper.ResetCache();
             LanguageChanged?.Invoke();

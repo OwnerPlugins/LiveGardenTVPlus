@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): (په بشپړه توګه داوطلبانه - هیڅ ځانګړتیاوې نه دي بند شوي)
-(No description): (تفصیل نشته)
-• Add / rename / delete groups.: • ګروپونه اضافه کړئ / نوم بدل کړئ / حذف کړئ.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • د بفر سلائیڈر: د HLS بفر تنظیم کړئ (1-10 ثانیې).
-• Check URL availability (only visible channels).: • د URL موجودیت وګورئ (یوازې لیدل کیدونکي چینلونه).
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • د چینل نومونه، ګروپونه، URLs، لوګو، tvg-id، هیواد، ژبې، خوښې ایډیټ کړئ.
-• Edit multiple URLs per channel (popup window).: • په هر چینل کې ډیری URLs ایډیټ کړئ (پاپ اپ کړکۍ).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • د EPG سره بډایه کول: د مبهم میچ کولو په کارولو سره ورک شوي tvg-id اضافه کوي.
-• EPG info displayed in status bar for current channel.: • د اوسني چینل لپاره د وضعیت بار کې د EPG معلومات ښودل شوي.
-• Export OK / FAIL / filtered lists as M3U or JSON.: • OK / FAIL / فلټر شوي لیستونه د M3U یا JSON په توګه صادر کړئ.
-• Fetch logos from remote repository (OwnerPlugins/logos).: • د لرې پرتو ذخیرې څخه لوګو ترلاسه کړئ (د مالک پلګین/لوګو).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • د بشپړ سکرین UI: د اړخ بار او حالت بار پټوي (د وتلو لپاره ESC).
-• Hide/Show channel list button.: • د چینل لیست تڼۍ پټول/ښکاره.
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • د انعطاف وړ ساحې نقشه کولو سره JSON (سیمه ایز یا URL) وارد کړئ (خود کشف کول ، نقشه خوندي کول).
-• Picture‑in‑Picture (PIP) button.: • په انځور کې د انځور (PIP) تڼۍ.
-• Playback speed: 0.5x, 1x, 2x buttons.: • د پلی بیک سرعت: 0.5x، 1x، 2x تڼۍ.
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • د سرلیک په کلیک کولو سره هر کالم ترتیب کړئ؛ اصلي ترتیب ته د بیرته راستنیدو لپاره 'ری سیٹ آرډر' وکاروئ.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • مهال ویش: د ژوندی جریان مخه ونیسئ؛ د بیرته لټولو لپاره سلائیڈر کش کړئ؛ د بیرته راستنیدو لپاره 'ژوندی' فشار ورکړئ.
-▶ Play Media: ▶ رسنۍ پلی کړئ
-◀ Previous: ◀ پخوانۍ
-16 colour themes + Light/Dark variants.: د 16 رنګ موضوعات + رڼا / تیاره ډولونه.
-A new version is available. Do you want to update now?: یوه نوې نسخه شتون لري. ایا تاسو اوس تازه کول غواړئ؟
-Access via 'Compare' button in Playlist Editor or Tools menu.: د پلی لیست ایډیټر یا اوزار مینو کې د 'پرتله' تڼۍ له لارې لاسرسی.
-Access via 'Edit Playlist' button on main toolbar.: په اصلي اوزار بار کې د 'پلی لیست ترمیم' تڼۍ له لارې لاسرسی.
-Actions: کړنې
-Add Command: کمانډ اضافه کړئ
-Add Group: ګروپ اضافه کړئ
-Add Mapping: نقشه اضافه کړئ
-Adjust buffer size (1-10 seconds): د بفر اندازه تنظیم کړئ (1-10 ثانیې)
-Advanced IDs: پرمختللي IDs
-Application status: د غوښتنلیک حالت
-Apply: درخواست وکړئ
-Apply / Import: تطبیق / واردول
-Apply changes: بدلونونه پلي کړئ
-Apply Filters: فلټرونه پلي کړئ
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: ایا تاسو ډاډه یاست چې د Enigma2 GUI بیا پورته کول غواړئ؟\n\nانټرفیس به بیا پیل شي (د څو ثانیو لپاره تور سکرین).
-Auto (recommended): اتومات (سپارښتنه)
-Auto-detect: په اتوماتيک ډول کشف
-Automatic check on startup – or click 'Check for updates' in Tools menu.: په پیل کې اتوماتیک چیک - یا د وسیلو مینو کې 'د تازه معلوماتو لپاره چیک وکړئ' کلیک وکړئ.
-Bouquet Name: د ګلدان نوم
-Bouquet sent and Enigma2 channel list reloaded.: ګلدستې لیږل شوي او د Enigma2 چینل لیست بیا پورته شوی.
-Buffer (seconds): بفر (ثانوي)
-Buffer size – adjust HLS buffer seconds.: د بفر اندازه - د HLS بفر ثانیې تنظیم کړئ.
-Cache: کیچ
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: د کیچ فولډر: %TEMP%\\LiveGardenTVPlus\\epg_cache
-Cancel: لغوه کړئ
-CANCEL: فسخه کول
-Cannot open browser: براوزر نشي خلاصولی
-Category: کټګوري
-Changelog: بدلون
-Channel Details: د چینل تفصیلات
-Channel Down: چینل ښکته
-Channel Info: د چینل معلومات
-Channel Name: د چینل نوم
-Channel Up: چینل پورته کړئ
-channels from: له چینلونو څخه
-channels from JSON: د JSON څخه چینلونه
-channels from JSON URL: د JSON URL څخه چینلونه
-channels from URL: د URL څخه چینلونه
-Check Duplicates: نقلونه چیک کړئ
-Check for updates: د تازه معلوماتو لپاره وګورئ
-Check URLs: URLs چیک کړئ
-Clear: روښانه
-Clear EPG Cache: د EPG کیچ پاک کړئ
-Clear Filters: فلټرونه پاک کړئ
-Clear search: پاک لټون
-Click for details: د جزیاتو لپاره کلیک وکړئ
-Close: تړل
-Code: کوډ
-Code copied to clipboard.: کوډ کلپ بورډ ته کاپي شوی.
-Command name:: د قوماندې نوم:
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ټولنه او ازموینه: CorvoBoys (corvoboys.org) او LinuxSat-Support.com
-Compare: پرتله کول
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: د دې له مخې پرتله کول: لومړیتوب (نوم → ګروپ → tvg-id)، نوم، ګروپ (د قضیې حساس)، یا TvgId.
-Compare Playlists: د پلی لیستونو پرتله کول
-Compare two playlists – load first (current playlist) and second (from file or URL).: دوه پلی لیستونه پرتله کړئ - لومړی پورته کړئ (اوسني پلی لیست) او دوهم (د فایل یا URL څخه).
-Compare...: پرتله کول...
-Comparison results: {0} channels: د پرتله کولو پایلې: {0} چینلونه
-Configuration Missing: ترتیب ورک دی
-Confirm Delete: ړنګول تایید کړئ
-Confirm Reload: بیا پورته کول تایید کړئ
-Connect: نښلول
-Connected: نښلول شوی
-Copied: کاپي
-Copy: کاپي
-CORVOBOYS.ORG: CORVOBOYS.ORG
-Country: هیواد
-Credits: کریډیټ
-Delete channel '{0}'?: چینل '{0}' ړنګ کړئ؟
-Delete Group: ګروپ ړنګ کړئ
-Delete Selected: ټاکل شوی ړنګول
-Deleted: ړنګ شوی
-Description: تفصیل
-Details: جزیات
-Developed by Lululla: د لولولا لخوا رامینځته شوی
-Developer: Lululla: پرمخ وړونکی: لولا
-Disconnect: منحل کول
-Disconnected: منحل شوی
-Display as: : ښکاره کړئ لکه:
-Do you want to load this edited playlist now?: ایا تاسو غواړئ دا ترمیم شوی پلی لیست اوس پورته کړئ؟
-Double speed (2x): دوه برابره سرعت (2x)
-Downloading playlist...: د پلی لیست ډاونلوډ کول...
-Downloads ZIP, replaces files, restarts app – settings preserved.: زپ ډاونلوډ کوي ، فایلونه ځای په ځای کوي ، اپلیکیشن بیا پیلوي - تنظیمات خوندي شوي.
-Drag & drop – drop M3U or JSON files directly onto main window.: ډریګ او ډراپ - د M3U یا JSON فایلونه مستقیم اصلي کړکۍ ته وغورځوئ.
-Drag to seek back in buffer: په بفر کې د بیرته لټولو لپاره کش کړئ
-Duplicate URLs found:\n\n: نقل شوي URLs وموندل:\n\n
-Edit Command: د سمون امر
-Edit command name:: د قوماندې نوم سمول:
-Edit Playlist: پلی لیست سمول
-Edit telnet command:: د ټیلنټ کمانډ ایډیټ کړئ:
-Edit URLs: URLs ایډیټ کړئ
-Empty Password: خالي پټنوم
-End: پای
-Enrich with EPG: د EPG سره بډایه کړئ
-Enter bouquet name (without spaces):: د ګلدان نوم دننه کړئ (پرته له ځای څخه):
-Enter JSON URL:: د JSON URL داخل کړئ:
-Enter new group name:: د نوي ګروپ نوم دننه کړئ:
-Enter playlist URL (JSON or M3U):: د پلی لیست URL داخل کړئ (JSON یا M3U):
-Enter playlist URL (M3U or JSON):: د پلی لیست URL داخل کړئ (M3U یا JSON):
-EPG: EPG
-Epg & Favorites: Epg او د خوښې وړ
-EPG & Favorites: EPG او د خوښې وړ
-Epg & Logos: Epg & Logos
-EPG & Logos: EPG او لوګو
-EPG cache cleared successfully.: د EPG زیرمه په بریالیتوب سره پاکه شوه.
-EPG Details: د EPG توضیحات
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: د EPG لارښود - په اصلي اوزار بار کې تڼۍ د برنامه توضیحاتو سره بشپړ گرډ ښیې (د معلوماتو لپاره دوه ځله کلیک وکړئ).
-EPG Matching Threshold: د EPG میچ کولو حد
-EPG Source: : د EPG سرچینه:
-EPG source – can be set in Settings (epgshare01 or custom URL).: د EPG سرچینه - په ترتیباتو کې تنظیم کیدی شي (epgshare01 یا دودیز URL).
-EPG source – choose XMLTV file or enter custom URL.: د EPG سرچینه - د XMLTV فایل غوره کړئ یا دودیز URL داخل کړئ.
-EPG Source Missing: د EPG سرچینه ورکه ده
-Error: تېروتنه
-Error clearing cache: {0}: د زیرمې په پاکولو کې تېروتنه: {0}
-Error loading: په بارولو کې تېروتنه
-Error loading EPG list: {0}: د EPG لیست پورته کولو کې تېروتنه: {0}
-Error loading file: {0}: د دوتنې په پورته کولو کې تېروتنه: {0}
-Error loading playlists: {0}: د پلی لیستونو په پورته کولو کې تېروتنه: {0}
-Error loading URL: {0}: د URL پورته کولو تېروتنه: {0}
-ERROR: player.html not found.: تېروتنه: player.html ونه موندل شو.
-Exit: وتل
-Export all: ټول صادر کړئ
-Export Favorites: د خوښې صادرول
-Export Filtered JSON: فلټر شوي JSON صادر کړئ
-Export Filtered M3U: فلټر شوي M3U صادر کړئ
-Export JSON: JSON صادر کړئ
-Export KO: صادرات KO
-Export missing: صادرات ورک دي
-Export OK: سم صادر کړئ
-Export only favorite channels to a new M3U file: یوازې د خوښې چینلونه نوي M3U فایل ته صادر کړئ
-Export results as JSON or M3U – export missing channels or all channels.: پایلې د JSON یا M3U په توګه صادر کړئ - ورک شوي چینلونه یا ټول چینلونه صادر کړئ.
-Export selected: صادرول غوره شوي
-Export Selected: ټاکل شوی صادرات
-Exported: صادر شوي
-Exported {0} channels to {1}: صادر شوي {0} چینلونه {1} ته
-Extracting update...: تازه استخراج...
-Failed to download playlist: د پلی لیست ډاونلوډ کولو کې پاتې راغلی
-Failed to load playlist: د پلی لیست په پورته کولو کې پاتې راغلی
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: د bouquets.tv په تازه کولو کې پاتې راغلی. مهرباني وکړئ په Enigma2 وسیله کې د فایل اجازې چیک کړئ.
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: د ګلدستې په پورته کولو کې پاتې راغلی. مهرباني وکړئ خپل د ټیلنټ تنظیمات وګورئ (میزبان، پورټ، کارن نوم، پټنوم) او بیا هڅه وکړئ.
-Favorite: د خوښې وړ
-Favorites only: یوازې د خوښې وړ
-Fetch Logos: لوګو ترلاسه کړئ
-File {0} already exists. Overwrite?: دوتنې {0} لا دمخه شتون لري. بیا لیکل؟
-File exists: دوتنه شتون لري
-Filters: فلټرونه
-Format Detection: د بڼې کشف
-Fullscreen: بشپړ سکرین
-Fullscreen (hide UI) - press ESC to exit: بشپړ سکرین (UI پټ کړئ) - د وتلو لپاره ESC فشار ورکړئ
-Geo & Country: جیو او هیواد
-GeoBlocked: جیو بلاک شوی
-GitHub Error: د GitHub تېروتنه
-Go back to live: بیرته ژوند ته لاړ شه
-Grid: گرډ
-Group: ګروپ
-Half speed (0.5x): نیم سرعت (0.5x)
-Help: مرسته
-Hide List: لیست پټ کړئ
-HLS playback: hls.js (MIT license): HLS پلے بیک: hls.js (MIT جواز)
-Image: انځور
-Import: واردول
-Import cancelled or no channels mapped.: واردات لغوه شوي یا هیڅ چینل نقشه شوی نه دی.
-Import Error: د واردولو تېروتنه
-Import error: {0}: د واردولو تېروتنه: {0}
-Import from URL: له URL څخه وارد کړئ
-Import JSON: JSON وارد کړئ
-Import JSON from URL: له URL څخه JSON وارد کړئ
-Import Local: محلي وارد کړئ
-Imported {0} channels from code.: د کوډ څخه {0} چینلونه وارد شوي.
-Imported {0} channels from JSON via mapping.: د نقشه کولو له لارې له JSON څخه {0} چینلونه وارد شوي.
-Imported {0} channels from URL.: له URL څخه {0} چینلونه وارد شوي.
-In Both: په دواړو کې
-Info: معلومات
-Info on: په اړه معلومات
-Invalid JSON: {0}: ناسم JSON: {0}
-Invalid playlist URL.: ناسم پلی لیست URL.
-Invalid URL.: ناسم URL.
-Json: Json
-JSON: JSON
-JSON parsing error: {0}: د JSON تجزیه تېروتنه: {0}
-JSON Property: د JSON ملکیت
-Ko-fi: کافي
-Language: ژبه
-Language – change UI language dynamically (translations in Languages folder).: ژبه - د UI ژبه په متحرک ډول بدل کړئ (د ژبو په فولډر کې ژباړې).
-Languages: ژبې
-Languages (comma): ژبې (کوما)
-LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help: LiveGardenTVPlus مرسته
-LOAD: لوډ
-Load a playlist first.: لومړی یو پلی لیست پورته کړئ.
-Load a second playlist first.: لومړی دوهم پلی لیست پورته کړئ.
-Load File: فایل پورته کړئ
-Load from file...: له فایل څخه پورته کول...
-Load from URL: له URL څخه پورته کړئ
-Load from URL...: له URL څخه پورته کړئ...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: ځایی M3U/JSON فایل پورته کړئ - په ایډیټر کې د 'لوډ فایل' تڼۍ (تولی بار) یا 'خلاص فایل' له لارې.
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: آنلاین M3U/JSON URL لوډ کړئ - په مدیر کې 'لاډ آنلاین' تڼۍ (تولی بار) یا 'د URL څخه خلاص کړئ'.
-Load playlist file (M3U/JSON) from your computer: د خپل کمپیوټر څخه د پلی لیست فایل (M3U/JSON) پورته کړئ
-Loaded: بار شوی
-Loaded {0} channels from JSON file via mapping.: د نقشه کولو له لارې د JSON فایل څخه {0} چینلونه پورته شوي.
-Loaded {0} channels from JSON URL.: د JSON URL څخه {0} چینلونه پورته شوي.
-Loaded {0} channels from M3U file.: د M3U فایل څخه {0} چینلونه پورته شوي.
-Loaded {0} channels from M3U URL.: د M3U URL څخه {0} چینلونه پورته شوي.
-Loading...: بار کول...
-Logo: لوګو
-Logo Picker – in editor, click '...' to choose logo from gallery.: د لوګو انتخابونکی - په مدیر کې، د ګالري څخه د لوګو غوره کولو لپاره '...' کلیک وکړئ.
-Logo Preview: د لوګو مخکتنه
-Logo URL: د لوګو URL
-Logos – automatically download from GitHub repository (Settings → Logos Source).: لوګوز - په اتوماتيک ډول د GitHub ذخیره څخه ډاونلوډ کړئ (ترتیبات → د لوګو سرچینه).
-Logos Matching Threshold: د لوګو سره سمون خوري
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: د لوګو ذخیره - مالک / ریپو / لاره غوره کړئ (ډیفالټ مالک پلګینز / لوګو).
-Logos Source: د لوګو سرچینه
-Logos Subfolder: د لوګو فرعي فولډر
-M3U: M3U
-M3U parsing error: {0}: د M3U تجزیه تېروتنه: {0}
-Map JSON properties to channel fields:: د چینل ساحو ته د JSON ملکیتونه نقشه کړئ:
-Mapping saved for future imports of this file.: نقشه د دې فایل راتلونکي واردولو لپاره خوندي شوې.
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: د میچ کولو حدونه - د EPG او لوګو لپاره فزي میچ حساسیت تنظیم کړئ.
-Mini Player: مینی پلیر
-Move to Group: ګروپ ته لاړ شئ
-Moved: حرکت وکړ
-Name: نوم
-Nanoid: nanoid
-Network error: د شبکې تېروتنه
-New Playlist: نوی پلی لیست
-Next: بل
-Next ▶: بل ▶
-No .m3u files found on GitHub repository.: په GitHub ذخیره کې هیڅ .m3u فایلونه ندي موندل شوي.
-No cache folder found.: هیڅ کیچ فولډر ونه موندل شو.
-No channel selected: هیڅ چینل نه دی ټاکل شوی
-No channels could be mapped or import cancelled.: هیڅ چینلونه نقشه یا واردات لغوه کیدی نشي.
-No channels could be mapped. Check your mapping rules.: هیڅ چینلونه نقشه نشي کیدی. خپل د نقشه کولو قواعد چیک کړئ.
-No channels found in JSON.: په JSON کې هیڅ چینل ونه موندل شو.
-No channels found in M3U.: په M3U کې هیڅ چینل ونه موندل شو.
-No channels loaded from JSON URL.: د JSON URL څخه هیڅ چینل ندی پورته شوی.
-No channels loaded from M3U URL.: د M3U URL څخه هیڅ چینل ندی پورته شوی.
-No channels loaded from M3U.: د M3U څخه هیڅ چینل ندی پورته شوی.
-No channels loaded.: هیڅ چینل نه دی پورته شوی.
-No channels mapped: هیڅ چینل نقشه شوی نه دی
-No channels selected.: هیڅ چینل نه دی ټاکل شوی.
-No channels to import.: د واردولو لپاره هیڅ چینل نشته.
-No duplicate URLs found.: هیڅ نقل شوي URLs ونه موندل شول.
-No EPG data: د EPG ډاټا نشته
-No EPG information available for this channel.: د دې چینل لپاره د EPG هیڅ معلومات شتون نلري.
-No EPG source configured. Please select one from the combo or go to Settings.: د EPG سرچینه نه ده ترتیب شوې. مهرباني وکړئ له کومبو څخه یو غوره کړئ یا ترتیبات ته لاړشئ.
-No EPG source configured. Would you like to open settings to select one?: د EPG سرچینه نه ده ترتیب شوې. ایا تاسو غواړئ د یو غوره کولو لپاره تنظیمات خلاص کړئ؟
-No favorite channels to export.: د صادرولو لپاره هیڅ غوره چینل نشته.
-No missing channels to export.: د صادرولو لپاره هیڅ ورک چینل نشته.
-No playlist found: هیڅ پلی لیست ونه موندل شو
-No second playlist loaded.: هیڅ دوهم پلی لیست ندی پورته شوی.
-No stream URL available for this channel.: د دې چینل لپاره هیڅ جریان URL شتون نلري.
-No text to import.: د واردولو لپاره هیڅ متن نشته.
-No updates available.: هیڅ تازه معلومات شتون نلري.
-Normal speed (1x): نورمال سرعت (1x)
-Not connected to the box.: د بکس سره تړلی نه دی.
-Now: اوس
-OK: سمه ده
-Online Playlist: آنلاین پلی لیست
-Online playlist – select from GitHub repository (auto‑refresh).: آنلاین پلی لیست - د GitHub ذخیره څخه غوره کړئ (آټو-ریفریش).
-Only in First: یوازې په لومړي کې
-Only in Second: یوازې په دویمه برخه کې
-Open File...: فایل خلاص کړئ...
-Open from URL: د URL څخه خلاص کړئ
-Open Playlist: د پلی لیست خلاص کړئ
-Pause/Resume live stream: ژوندی جریان ودروئ / بیا پیل کړئ
-Paused: ودریدل
-PayPal: PayPal
-Picture-in-Picture mode: په انځور کې د انځور حالت
-Play/Pause: پلی/ودرول
-Player Media Controls: د پلیر میډیا کنټرولونه
-Playing Media: د رسنیو پلی کول
-Playlist & Groups: پلی لیست او ګروپونه
-Playlist Comparison: د پلی لیست پرتله کول
-Playlist Editor: د پلی لیست مدیر
-Playlist Loading: د پلی لیست بار کول
-Playlist Management: د پلی لیست مدیریت
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): د پلی لیست ذخیره: د مالک پلګین/TivuStreamList (ایټالوی او نړیوال جریانونه)
-Please select a program first.: مهرباني وکړئ لومړی یو برنامه غوره کړئ.
-Preview (first 5 channels): مخکتنه (لومړی 5 چینلونه)
-Preview error: {0}: د مخکتنې تېروتنه: {0}
-Program Details: د پروګرام جزئیات
-Ready: چمتو
-Ready.: چمتو.
-Recent: وروستي
-Recent files – quick access to last 5 opened playlists.: وروستي فایلونه - وروستي 5 خلاص شوي پلی لیستونو ته ګړندي لاسرسی.
-Recent playlists: وروستي پلی لیستونه
-Refresh Code: کوډ تازه کړئ
-Refresh EPG: EPG تازه کړئ
-Refresh EPG List: د EPG لیست تازه کړئ
-Refresh from GitHub: له GitHub څخه تازه کړئ
-Refresh List: لیست تازه کړئ
-Reload GUI: GUI بیا پورته کړئ
-Remove Command: کمانډ لرې کړئ
-Rename Group: د ګروپ نوم بدل کړئ
-Rename group '{0}' to:: د ډلې '{0}' نوم دې ته بدل کړئ:
-Repository: ذخیره
-Reset Order: ترتیب بیا تنظیم کړئ
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: پایلې: 'یوازې په لومړي کې'، 'یوازې په دویمه کې'، 'په دواړو کې' - د حالت رنګ کوډ کولو سره.
-Save: خوندي کړئ
-SAVE: خوندي کړئ
-Save – persists all settings without reloading current playlist.: خوندي کول - د اوسني پلې لیست بیا پورته کولو پرته ټول تنظیمات دوام لري.
-Save as...: په توګه خوندي کړئ...
-Save current playlist to a new M3U file: اوسنی پلی لیست په نوي M3U فایل کې خوندي کړئ
-Save Mapping: نقشه خوندي کړئ
-Save Playlist: د پلی لیست خوندي کړئ
-Save Status: د وضعیت خوندي کول
-Saved: خوندي شوی
-Search channel: : لټون چینل:
-Search channels by name: د نوم په واسطه چینلونه وپلټئ
-Search channels...: چینلونه وپلټئ...
-sec: ثانیه
-Second playlist loaded: {0} channels: دوهم پلی لیست پورته شوی: {0} چینلونه
-Select a channel to play.: د لوبې کولو لپاره یو چینل غوره کړئ.
-Select a playlist first.: لومړی یو پلی لیست غوره کړئ.
-Select target group:: د هدف ګروپ وټاکئ:
-Select Theme: موضوع غوره کړئ
-Selected theme is saved and applied on restart.: ټاکل شوې موضوع خوندي شوې او په بیا پیلولو کې پلي کیږي.
-Send: لیږل
-Send playlist to Enigma2 decoder: د پلې لیست Enigma2 ډیکوډر ته واستوئ
-Send to Enigma2: Enigma2 ته واستوئ
-Settings: ترتیبات
-Show List: لیست ښکاره کړئ
-Show only channels marked as favorites: یوازې هغه چینلونه وښایاست چې د خوښې په توګه نښه شوي
-Show or hide the channel list: د چینل لیست ښکاره یا پټ کړئ
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: د ازموینې او ملاتړ لپاره د CORVOBOYS او LinuxSat-Support ټولنو څخه ځانګړې مننه.
-Start: پیل
-Status: حالت
-Stop: ودریږي
-Stopped: ودرېده
-Stream URL: د جریان URL
-Stream URLs: د جریان URLs
-Success: بریالیتوب
-Support: ملاتړ
-Support the developer: د پراختیا کونکي ملاتړ وکړئ
-Target Field: د هدف ساحه
-Telnet command:: د Telnet قومانده:
-Telnet Commander: د ټیلنټ قوماندان
-Telnet Config: د ټیلنیټ تشکیل
-Telnet Console: د ټیلنیټ کنسول
-Telnet host not configured. Please set it in Settings.: د ټیلنیټ کوربه نه دی ترتیب شوی. مهرباني وکړئ دا په ترتیباتو کې تنظیم کړئ.
-Telnet password is empty. Do you want to continue?: د Telnet پټنوم خالي دی. ایا تاسو غواړئ دوام ورکړئ؟
-Telnet username not configured. Please set it in Settings.: د ټیلنیټ کارن نوم ترتیب شوی نه دی. مهرباني وکړئ دا په ترتیباتو کې تنظیم کړئ.
-Thanks to: مننه
-Theme picker: د موضوع غوره کوونکی
-Theme picker – accessible via Tools menu on main toolbar.: د موضوع غوره کونکی - په اصلي وسیلې بار کې د اوزار مینو له لارې د لاسرسي وړ.
-Themes: موضوعات
-Time: وخت
-Title: عنوان
-Tools: وسیلې
-Total: ټول
-Total channels in loaded playlist: په بار شوي پلی لیست کې ټول چینلونه
-TV Guide (EPG): د تلویزیون لارښود (EPG)
-TvgId: TvgId
-Type channel name to filter: د فلټر کولو لپاره د چینل نوم ولیکئ
-UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: د اتوماتیک شکل موندلو توان نلري. مهرباني وکړئ د ښکته کیدو څخه JSON یا M3U غوره کړئ او بیا هڅه وکړئ.
-Unable to find version in remote project file.: د ریموټ پروژې فایل کې نسخه موندلو توان نلري.
-Unsupported format. Please select JSON or M3U.: نه ملاتړ شوی بڼه. مهرباني وکړئ JSON یا M3U غوره کړئ.
-Update: تازه کول
-Update complete. Restarting...: تازه کول بشپړ شول. بیا پیل کول...
-Update Error: د تازه کولو تېروتنه
-Update failed: : تازه کول ناکام شول:
-Updates: تازه معلومات
-Upload Error: د پورته کولو تېروتنه
-URL: URL
-URL (primary): URL (لومړنی)
-URL Check: د URL چک
-URL list (one per line): د URL لیست (په هره کرښه کې یو)
-URLs & Status: URLs او حالت
-Version: نسخه
-Version {0}.{1}.{2}: نسخه {0}.{1}.{2}
-Version unknown: نسخه نامعلومه ده
-Waiting for LiveGardenTVPlus to close...: د LiveGardenTVPlus بندیدو ته انتظار کول ...
-Warning: خبرتیا
-WebView2: Microsoft Edge WebView2: WebView2: د مایکروسافټ څنډه WebView2
-Youtube URL: د یوټیوب URL
-Youtube URLs: د یوټیوب URLs
+(Completely voluntary – no features are blocked)::(په بشپړه توګه داوطلبانه - هیڅ ځانګړتیاوې نه دي بند شوي)
+(No description)::(تفصیل نشته)
+• Add / rename / delete groups.::• ګروپونه اضافه کړئ / نوم بدل کړئ / حذف کړئ.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• د بفر سلائیڈر: د HLS بفر تنظیم کړئ (1-10 ثانیې).
+• Check URL availability (only visible channels).::• د URL موجودیت وګورئ (یوازې لیدل کیدونکي چینلونه).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• د چینل نومونه، ګروپونه، URLs، لوګو، tvg-id، هیواد، ژبې، خوښې ایډیټ کړئ.
+• Edit multiple URLs per channel (popup window).::• په هر چینل کې ډیری URLs ایډیټ کړئ (پاپ اپ کړکۍ).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• د EPG سره بډایه کول: د مبهم میچ کولو په کارولو سره ورک شوي tvg-id اضافه کوي.
+• EPG info displayed in status bar for current channel.::• د اوسني چینل لپاره د وضعیت بار کې د EPG معلومات ښودل شوي.
+• Export OK / FAIL / filtered lists as M3U or JSON.::• OK / FAIL / فلټر شوي لیستونه د M3U یا JSON په توګه صادر کړئ.
+• Fetch logos from remote repository (OwnerPlugins/logos).::• د لرې پرتو ذخیرې څخه لوګو ترلاسه کړئ (د مالک پلګین/لوګو).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• د بشپړ سکرین UI: د اړخ بار او حالت بار پټوي (د وتلو لپاره ESC).
+• Hide/Show channel list button.::• د چینل لیست تڼۍ پټول/ښکاره.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• د انعطاف وړ ساحې نقشه کولو سره JSON (سیمه ایز یا URL) وارد کړئ (خود کشف کول ، نقشه خوندي کول).
+• Picture‑in‑Picture (PIP) button.::• په انځور کې د انځور (PIP) تڼۍ.
+• Playback speed: 0.5x, 1x, 2x buttons.::• د پلی بیک سرعت: 0.5x، 1x، 2x تڼۍ.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• د سرلیک په کلیک کولو سره هر کالم ترتیب کړئ؛ اصلي ترتیب ته د بیرته راستنیدو لپاره 'ری سیٹ آرډر' وکاروئ.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• مهال ویش: د ژوندی جریان مخه ونیسئ؛ د بیرته لټولو لپاره سلائیڈر کش کړئ؛ د بیرته راستنیدو لپاره 'ژوندی' فشار ورکړئ.
+▶ Play Media::▶ رسنۍ پلی کړئ
+◀ Previous::◀ پخوانۍ
+16 colour themes + Light/Dark variants.::د 16 رنګ موضوعات + رڼا / تیاره ډولونه.
+A new version is available. Do you want to update now?::یوه نوې نسخه شتون لري. ایا تاسو اوس تازه کول غواړئ؟
+Access via 'Compare' button in Playlist Editor or Tools menu.::د پلی لیست ایډیټر یا اوزار مینو کې د 'پرتله' تڼۍ له لارې لاسرسی.
+Access via 'Edit Playlist' button on main toolbar.::په اصلي اوزار بار کې د 'پلی لیست ترمیم' تڼۍ له لارې لاسرسی.
+Actions::کړنې
+Add Command::کمانډ اضافه کړئ
+Add Group::ګروپ اضافه کړئ
+Add Mapping::نقشه اضافه کړئ
+Adjust buffer size (1-10 seconds)::د بفر اندازه تنظیم کړئ (1-10 ثانیې)
+Advanced IDs::پرمختللي IDs
+All channels marked as favorites::ټول چینلونه د خوښې په توګه نښه شوي
+All favorites removed::ټولې خوښې لرې شوې
+Application status::د غوښتنلیک حالت
+Apply::درخواست وکړئ
+Apply / Import::تطبیق / واردول
+Apply changes::بدلونونه پلي کړئ
+Apply Filters::فلټرونه پلي کړئ
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::ایا تاسو ډاډه یاست چې د Enigma2 GUI بیا پورته کول غواړئ؟\n\nانټرفیس به بیا پیل شي (د څو ثانیو لپاره تور سکرین).
+Auto (recommended)::اتومات (سپارښتنه)
+Auto-detect::په اتوماتيک ډول کشف
+Automatic check on startup – or click 'Check for updates' in Tools menu.::په پیل کې اتوماتیک چیک - یا د وسیلو مینو کې 'د تازه معلوماتو لپاره چیک وکړئ' کلیک وکړئ.
+Bouquet Name::د ګلدان نوم
+Bouquet sent and Enigma2 channel list reloaded.::ګلدستې لیږل شوي او د Enigma2 چینل لیست بیا پورته شوی.
+Buffer (seconds)::بفر (ثانوي)
+Buffer size – adjust HLS buffer seconds.::د بفر اندازه - د HLS بفر ثانیې تنظیم کړئ.
+Cache::کیچ
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::د کیچ فولډر: %TEMP%\\LiveGardenTVPlus\\epg_cache
+Cancel::لغوه کړئ
+CANCEL::فسخه کول
+Cannot open browser::براوزر نشي خلاصولی
+Category::کټګوري
+Changelog::بدلون
+Channel Details::د چینل تفصیلات
+Channel Down::چینل ښکته
+Channel Info::د چینل معلومات
+Channel Name::د چینل نوم
+Channel Up::چینل پورته کړئ
+Channel updated successfully.::چینل په بریالیتوب سره تازه شو.
+channels from::له چینلونو څخه
+channels from JSON::د JSON څخه چینلونه
+channels from JSON URL::د JSON URL څخه چینلونه
+channels from URL::د URL څخه چینلونه
+Check Duplicates::نقلونه چیک کړئ
+Check for updates::د تازه معلوماتو لپاره وګورئ
+Check URLs::URLs چیک کړئ
+Clear::روښانه
+Clear EPG Cache::د EPG کیچ پاک کړئ
+Clear Filters::فلټرونه پاک کړئ
+Clear search::پاک لټون
+Click for details::د جزیاتو لپاره کلیک وکړئ
+Close::تړل
+Close current playlist::اوسنی پلی لیست بند کړئ
+Close Playlist::د پلی لیست بند کړئ
+Code::کوډ
+Code copied to clipboard.::کوډ کلپ بورډ ته کاپي شوی.
+Command name:::د قوماندې نوم:
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::ټولنه او ازموینه: CorvoBoys (corvoboys.org) او LinuxSat-Support.com
+Compare::پرتله کول
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::د دې له مخې پرتله کول: لومړیتوب (نوم → ګروپ → tvg-id)، نوم، ګروپ (د قضیې حساس)، یا TvgId.
+Compare Playlists::د پلی لیستونو پرتله کول
+Compare two playlists – load first (current playlist) and second (from file or URL).::دوه پلی لیستونه پرتله کړئ - لومړی پورته کړئ (اوسني پلی لیست) او دوهم (د فایل یا URL څخه).
+Compare...::پرتله کول...
+Comparison results: {0} channels::د پرتله کولو پایلې: {0} چینلونه
+Configuration Missing::ترتیب ورک دی
+Confirm Delete::ړنګول تایید کړئ
+Confirm Reload::بیا پورته کول تایید کړئ
+Connect::نښلول
+Connected::نښلول شوی
+Copied::کاپي
+Copy::کاپي
+CORVOBOYS.ORG::CORVOBOYS.ORG
+Country::هیواد
+Credits::کریډیټ
+Delete channel '{0}'?::چینل '{0}' ړنګ کړئ؟
+Delete Group::ګروپ ړنګ کړئ
+Delete Selected::ټاکل شوی ړنګول
+Deleted::ړنګ شوی
+Description::تفصیل
+Details::جزیات
+Developed by Lululla::د لولولا لخوا رامینځته شوی
+Developer: Lululla::پرمخ وړونکی: لولا
+Disconnect::منحل کول
+Disconnected::منحل شوی
+Display as::په توګه ښکاره کړئ
+Do you want to load this edited playlist now?::ایا تاسو غواړئ دا ترمیم شوی پلی لیست اوس پورته کړئ؟
+Double speed (2x)::دوه برابره سرعت (2x)
+Downloading playlist...::د پلی لیست ډاونلوډ کول...
+Downloads ZIP, replaces files, restarts app – settings preserved.::زپ ډاونلوډ کوي ، فایلونه ځای په ځای کوي ، اپلیکیشن بیا پیلوي - تنظیمات خوندي شوي.
+Drag & drop – drop M3U or JSON files directly onto main window.::ډریګ او ډراپ - د M3U یا JSON فایلونه مستقیم اصلي کړکۍ ته وغورځوئ.
+Drag to seek back in buffer::په بفر کې د بیرته لټولو لپاره کش کړئ
+Duplicate URLs found:\n\n::نقل شوي URLs وموندل:\n\n
+Edit Command::د سمون امر
+Edit command name:::د قوماندې نوم سمول:
+Edit Playlist::پلی لیست سمول
+Edit telnet command:::د ټیلنټ کمانډ ایډیټ کړئ:
+Edit URLs::URLs ایډیټ کړئ
+Empty Password::خالي پټنوم
+End::پای
+Enigma2::Enigma2
+Enrich with EPG::د EPG سره بډایه کړئ
+Enter bouquet name (without spaces):::د ګلدان نوم دننه کړئ (پرته له ځای څخه):
+Enter JSON URL:::د JSON URL داخل کړئ:
+Enter new group name:::د نوي ګروپ نوم دننه کړئ:
+Enter playlist URL (JSON or M3U):::د پلی لیست URL داخل کړئ (JSON یا M3U):
+Enter playlist URL (M3U or JSON):::د پلی لیست URL داخل کړئ (M3U یا JSON):
+EPG::EPG
+Epg & Favorites::Epg او د خوښې وړ
+EPG & Favorites::EPG او د خوښې وړ
+Epg & Logos::Epg & Logos
+EPG & Logos::EPG او لوګو
+EPG cache cleared successfully.::د EPG زیرمه په بریالیتوب سره پاکه شوه.
+EPG Details::د EPG توضیحات
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::د EPG لارښود - په اصلي اوزار بار کې تڼۍ د برنامه توضیحاتو سره بشپړ گرډ ښیې (د معلوماتو لپاره دوه ځله کلیک وکړئ).
+EPG Matching Threshold::د EPG میچ کولو حد
+EPG Source::د EPG سرچینه
+EPG source – can be set in Settings (epgshare01 or custom URL).::د EPG سرچینه - په ترتیباتو کې تنظیم کیدی شي (epgshare01 یا دودیز URL).
+EPG source – choose XMLTV file or enter custom URL.::د EPG سرچینه - د XMLTV فایل غوره کړئ یا دودیز URL داخل کړئ.
+EPG Source Missing::د EPG سرچینه ورکه ده
+Error::تېروتنه
+Error clearing cache: {0}::د زیرمې په پاکولو کې تېروتنه: {0}
+Error loading::په بارولو کې تېروتنه
+Error loading EPG list: {0}::د EPG لیست پورته کولو کې تېروتنه: {0}
+Error loading file: {0}::د دوتنې په پورته کولو کې تېروتنه: {0}
+Error loading playlists: {0}::د پلی لیستونو په پورته کولو کې تېروتنه: {0}
+Error loading URL: {0}::د URL پورته کولو تېروتنه: {0}
+ERROR: player.html not found.::تېروتنه: player.html ونه موندل شو.
+Exit::وتل
+Export all::ټول صادر کړئ
+Export Favorites::د خوښې صادرول
+Export Filtered JSON::فلټر شوي JSON صادر کړئ
+Export Filtered M3U::فلټر شوي M3U صادر کړئ
+Export JSON::JSON صادر کړئ
+Export KO::صادرات KO
+Export missing::صادرات ورک دي
+Export OK::سم صادر کړئ
+Export only favorite channels to a new M3U file::یوازې د خوښې چینلونه نوي M3U فایل ته صادر کړئ
+Export results as JSON or M3U – export missing channels or all channels.::پایلې د JSON یا M3U په توګه صادر کړئ - ورک شوي چینلونه یا ټول چینلونه صادر کړئ.
+Export selected::صادرول غوره شوي
+Export Selected::ټاکل شوی صادرات
+Exported::صادر شوي
+Exported {0} channels to {1}::صادر شوي {0} چینلونه {1} ته
+Extracting update...::تازه استخراج...
+Failed to download playlist::د پلی لیست ډاونلوډ کولو کې پاتې راغلی
+Failed to load playlist::د پلی لیست په پورته کولو کې پاتې راغلی
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::د bouquets.tv په تازه کولو کې پاتې راغلی. مهرباني وکړئ په Enigma2 وسیله کې د فایل اجازې چیک کړئ.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::د ګلدستې په پورته کولو کې پاتې راغلی. مهرباني وکړئ خپل د ټیلنټ تنظیمات وګورئ (میزبان، پورټ، کارن نوم، پټنوم) او بیا هڅه وکړئ.
+Favorite::د خوښې وړ
+Favorites::د خوښې وړ
+Favorites only::یوازې د خوښې وړ
+Fetch Logos::لوګو ترلاسه کړئ
+File::دوتنه
+File {0} already exists. Overwrite?::دوتنې {0} لا دمخه شتون لري. بیا لیکل؟
+File exists::دوتنه شتون لري
+Filters::فلټرونه
+Format Detection::د بڼې کشف
+Fullscreen::بشپړ سکرین
+Fullscreen (hide UI) - press ESC to exit::بشپړ سکرین (UI پټ کړئ) - د وتلو لپاره ESC فشار ورکړئ
+Geo & Country::جیو او هیواد
+GeoBlocked::جیو بلاک شوی
+GitHub Error::د GitHub تېروتنه
+Go back to live::بیرته ژوند ته لاړ شه
+Grid::گرډ
+Group::ګروپ
+Half speed (0.5x)::نیم سرعت (0.5x)
+Help::مرسته
+Hide List::لیست پټ کړئ
+HLS playback: hls.js (MIT license)::HLS پلے بیک: hls.js (MIT جواز)
+Image::انځور
+Import::واردول
+Import cancelled or no channels mapped.::واردات لغوه شوي یا هیڅ چینل نقشه شوی نه دی.
+Import Error::د واردولو تېروتنه
+Import error: {0}::د واردولو تېروتنه: {0}
+Import from URL::د URL څخه وارد کړئ
+Import JSON::JSON وارد کړئ
+Import JSON from URL::له URL څخه JSON وارد کړئ
+Import Local::محلي وارد کړئ
+Imported {0} channels from code.::د کوډ څخه {0} چینلونه وارد شوي.
+Imported {0} channels from JSON via mapping.::د نقشه کولو له لارې له JSON څخه {0} چینلونه وارد شوي.
+Imported {0} channels from URL.::له URL څخه {0} چینلونه وارد شوي.
+In Both::په دواړو کې
+Info::معلومات
+Info on::په اړه معلومات
+Invalid JSON: {0}::ناسم JSON: {0}
+Invalid playlist URL.::ناسم پلی لیست URL.
+Invalid URL.::ناسم URL.
+Json::Json
+JSON::JSON
+JSON parsing error: {0}::د JSON تجزیه تېروتنه: {0}
+JSON Property::د JSON ملکیت
+Ko-fi::کافي
+Language::ژبه
+Language – change UI language dynamically (translations in Languages folder).::ژبه - د UI ژبه په متحرک ډول بدل کړئ (د ژبو په فولډر کې ژباړې).
+Languages::ژبې
+Languages (comma)::ژبې (کوما)
+LINUXSAT-SUPPORT.COM::LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help::LiveGardenTVPlus مرسته
+LOAD::لوډ
+Load a playlist first.::لومړی یو پلی لیست پورته کړئ.
+Load a second playlist first.::لومړی دوهم پلی لیست پورته کړئ.
+Load File::فایل پورته کړئ
+Load from file...::له فایل څخه پورته کول...
+Load from URL::له URL څخه پورته کړئ
+Load from URL...::له URL څخه پورته کړئ...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::ځایی M3U/JSON فایل پورته کړئ - په ایډیټر کې د 'لوډ فایل' تڼۍ (ټول بار) یا 'خلاص فایل' له لارې.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::آنلاین M3U/JSON URL پورته کړئ - په ایډیټر کې 'لاډ آنلاین' تڼۍ (تولی بار) یا 'د URL څخه خلاص کړئ'.
+Load Playlist::پلی لیست پورته کړئ
+Load playlist file (M3U/JSON) from your computer::د خپل کمپیوټر څخه د پلی لیست فایل (M3U/JSON) پورته کړئ
+Loaded::بار شوی
+Loaded {0} channels from JSON file via mapping.::د نقشه کولو له لارې د JSON فایل څخه {0} چینلونه پورته شوي.
+Loaded {0} channels from JSON URL.::د JSON URL څخه {0} چینلونه پورته شوي.
+Loaded {0} channels from M3U file.::د M3U فایل څخه {0} چینلونه پورته شوي.
+Loaded {0} channels from M3U URL.::د M3U URL څخه {0} چینلونه پورته شوي.
+Loading...::بار کول...
+Logo::لوګو
+Logo Picker – in editor, click '...' to choose logo from gallery.::د لوګو انتخابونکی - په مدیر کې، د ګالري څخه د لوګو غوره کولو لپاره '...' کلیک وکړئ.
+Logo Preview::د لوګو مخکتنه
+Logo URL::د لوګو URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).::لوګوز - په اتوماتيک ډول د GitHub ذخیره څخه ډاونلوډ کړئ (ترتیبات → د لوګو سرچینه).
+Logos Matching Threshold::د لوګو سره سمون خوري
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::د لوګو ذخیره - مالک / ریپو / لاره غوره کړئ (ډیفالټ مالک پلګینز / لوګو).
+Logos Source::د لوګو سرچینه
+Logos Subfolder::د لوګو فرعي فولډر
+M3U::M3U
+M3U parsing error: {0}::د M3U تجزیه تېروتنه: {0}
+Map JSON properties to channel fields:::د چینل ساحو ته د JSON ملکیتونه نقشه کړئ:
+Mapping saved for future imports of this file.::نقشه د دې فایل راتلونکي واردولو لپاره خوندي شوې.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::د میچ کولو حدونه - د EPG او لوګو لپاره فزي میچ حساسیت تنظیم کړئ.
+Mini Player::مینی پلیر
+Move to Group::ګروپ ته لاړ شئ
+Moved::حرکت وکړ
+Name::نوم
+Nanoid::nanoid
+Network error::د شبکې تېروتنه
+New Playlist::نوی پلی لیست
+Next::بل
+Next ▶::بل ▶
+No .m3u files found on GitHub repository.::په GitHub ذخیره کې هیڅ .m3u فایلونه ندي موندل شوي.
+No cache folder found.::هیڅ کیچ فولډر ونه موندل شو.
+No channel selected::هیڅ چینل نه دی ټاکل شوی
+No channel selected.::هیڅ چینل نه دی ټاکل شوی.
+No channels could be mapped or import cancelled.::هیڅ چینلونه نقشه یا واردات لغوه کیدی نشي.
+No channels could be mapped. Check your mapping rules.::هیڅ چینلونه نقشه نشي کیدی. خپل د نقشه کولو قواعد چیک کړئ.
+No channels found in JSON.::په JSON کې هیڅ چینل ونه موندل شو.
+No channels found in M3U.::په M3U کې هیڅ چینل ونه موندل شو.
+No channels loaded from JSON URL.::د JSON URL څخه هیڅ چینل ندی پورته شوی.
+No channels loaded from M3U URL.::د M3U URL څخه هیڅ چینل ندی پورته شوی.
+No channels loaded from M3U.::د M3U څخه هیڅ چینل ندی پورته شوی.
+No channels loaded.::هیڅ چینل نه دی پورته شوی.
+No channels mapped::هیڅ چینل نقشه شوی نه دی
+No channels selected.::هیڅ چینل نه دی ټاکل شوی.
+No channels to import.::د واردولو لپاره هیڅ چینل نشته.
+No duplicate URLs found.::هیڅ نقل شوي URLs ونه موندل شول.
+No EPG data::د EPG ډاټا نشته
+No EPG information available for this channel.::د دې چینل لپاره د EPG هیڅ معلومات شتون نلري.
+No EPG source configured. Please select one from the combo or go to Settings.::د EPG سرچینه نه ده ترتیب شوې. مهرباني وکړئ له کومبو څخه یو غوره کړئ یا ترتیبات ته لاړشئ.
+No EPG source configured. Would you like to open settings to select one?::د EPG سرچینه نه ده ترتیب شوې. ایا تاسو غواړئ د یو غوره کولو لپاره تنظیمات خلاص کړئ؟
+No favorite channels found.::هیڅ د خوښې چینلونه ونه موندل شول.
+No favorite channels to export.::د صادرولو لپاره هیڅ غوره چینل نشته.
+No missing channels to export.::د صادرولو لپاره هیڅ ورک چینل نشته.
+No playlist found::هیڅ پلی لیست ونه موندل شو
+No second playlist loaded.::هیڅ دوهم پلی لیست ندی پورته شوی.
+No stream URL available for this channel.::د دې چینل لپاره هیڅ جریان URL شتون نلري.
+No text to import.::د واردولو لپاره متن نشته.
+No updates available.::هیڅ تازه معلومات شتون نلري.
+Normal speed (1x)::نورمال سرعت (1x)
+Not connected to the box.::د بکس سره تړلی نه دی.
+Now::اوس
+OK::سمه ده
+Online Playlist::آنلاین پلی لیست
+Online playlist – select from GitHub repository (auto‑refresh).::آنلاین پلی لیست - د GitHub ذخیره څخه غوره کړئ (آټو-ریفریش).
+Only in First::یوازې په لومړي کې
+Only in Second::یوازې په دویمه برخه کې
+Open File...::فایل خلاص کړئ...
+Open from URL::د URL څخه خلاص کړئ
+Open Playlist::د پلی لیست خلاص کړئ
+Pause/Resume live stream::ژوندی جریان ودروئ / بیا پیل کړئ
+Paused::ودریدل
+PayPal::PayPal
+Picture-in-Picture mode::په انځور کې د انځور حالت
+Play/Pause::پلی/ودرول
+Player Media Controls::د پلیر میډیا کنټرولونه
+Playing Media::د رسنیو پلی کول
+Playlist & Groups::پلی لیست او ګروپونه
+Playlist closed::پلی لیست بند شو
+Playlist Comparison::د پلی لیست پرتله کول
+Playlist Editor::د پلی لیست مدیر
+Playlist Loading::د پلی لیست بار کول
+Playlist Management::د پلی لیست مدیریت
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::د پلی لیست ذخیره: د مالک پلګین/TivuStreamList (ایټالوی او نړیوال جریانونه)
+Please select a program first.::مهرباني وکړئ لومړی یو برنامه غوره کړئ.
+Preview (first 5 channels)::مخکتنه (لومړی 5 چینلونه)
+Preview error: {0}::د مخکتنې تېروتنه: {0}
+Program Details::د پروګرام جزئیات
+Ready::چمتو
+Recent::وروستي
+Recent files – quick access to last 5 opened playlists.::وروستي فایلونه - وروستي 5 خلاص شوي پلی لیستونو ته ګړندي لاسرسی.
+Recent playlists::وروستي پلی لیستونه
+Refresh Code::کوډ تازه کړئ
+Refresh EPG::EPG تازه کړئ
+Refresh EPG List::د EPG لیست تازه کړئ
+Refresh from GitHub::له GitHub څخه تازه کړئ
+Refresh List::لیست تازه کړئ
+Reload GUI::GUI بیا پورته کړئ
+Remove Command::کمانډ لرې کړئ
+Rename Group::د ګروپ نوم بدل کړئ
+Rename group '{0}' to:::د ډلې '{0}' نوم دې ته بدل کړئ:
+Repository::ذخیره
+Reset Order::ترتیب بیا تنظیم کړئ
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::پایلې: 'یوازې په لومړي کې'، 'یوازې په دویمه کې'، 'په دواړو کې' - د حالت رنګ کوډ کولو سره.
+Save::خوندي کړئ
+SAVE::خوندي کړئ
+Save – persists all settings without reloading current playlist.::خوندي کول - د اوسني پلې لیست بیا پورته کولو پرته ټول تنظیمات دوام لري.
+Save as...::په توګه خوندي کړئ...
+Save current playlist to a new M3U file::اوسنی پلی لیست په نوي M3U فایل کې خوندي کړئ
+Save Favorites::د خوښې خوندي کول
+Save Mapping::نقشه خوندي کړئ
+Save Playlist::د پلی لیست خوندي کړئ
+Save Status::د وضعیت خوندي کول
+Saved::خوندي شوی
+Search channel::لټون چینل
+Search channels by name::د نوم په واسطه چینلونه وپلټئ
+Search channels...::چینلونه وپلټئ...
+sec::ثانیه
+Second playlist loaded: {0} channels::دوهم پلی لیست پورته شوی: {0} چینلونه
+Select a channel to play.::د لوبې کولو لپاره یو چینل غوره کړئ.
+Select a playlist first.::لومړی یو پلی لیست غوره کړئ.
+Select target group:::د هدف ګروپ وټاکئ:
+Select Theme::موضوع غوره کړئ
+Selected theme is saved and applied on restart.::ټاکل شوې موضوع خوندي شوې او په بیا پیلولو کې پلي کیږي.
+Send::لیږل
+Send playlist to Enigma2 decoder::د پلې لیست Enigma2 ډیکوډر ته واستوئ
+Send to Enigma2::Enigma2 ته واستوئ
+Settings::ترتیبات
+Show List::لیست ښکاره کړئ
+Show only channels marked as favorites::یوازې هغه چینلونه وښایاست چې د خوښې په توګه نښه شوي
+Show or hide the channel list::د چینل لیست ښکاره یا پټ کړئ
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::د ازموینې او ملاتړ لپاره د CORVOBOYS او LinuxSat-Support ټولنو څخه ځانګړې مننه.
+Start::پیل
+Status::حالت
+Stop::ودریږي
+Stopped::ودرېده
+Stream URL::د جریان URL
+Stream URLs::د جریان URLs
+Success::بریالیتوب
+Support::ملاتړ
+Support the developer::د پراختیا کونکي ملاتړ وکړئ
+Target Field::د هدف ساحه
+Telnet command:::د Telnet قومانده:
+Telnet Commander::د ټیلنټ قوماندان
+Telnet Config::د ټیلنیټ تشکیل
+Telnet Configuration::د ټیلنیټ ترتیب
+Telnet Console::د ټیلنیټ کنسول
+Telnet host not configured. Please set it in Settings.::د ټیلنیټ کوربه نه دی ترتیب شوی. مهرباني وکړئ دا په ترتیباتو کې تنظیم کړئ.
+Telnet password is empty. Do you want to continue?::د Telnet پټنوم خالي دی. ایا تاسو غواړئ دوام ورکړئ؟
+Telnet username not configured. Please set it in Settings.::د ټیلنیټ کارن نوم ترتیب شوی نه دی. مهرباني وکړئ دا په ترتیباتو کې تنظیم کړئ.
+Thanks to::مننه
+Theme picker::د موضوع غوره کوونکی
+Theme picker – accessible via Tools menu on main toolbar.::د موضوع غوره کونکی - په اصلي وسیلې بار کې د اوزار مینو له لارې د لاسرسي وړ.
+Themes::موضوعات
+Time::وخت
+Title::عنوان
+Tools::وسیلې
+Total::ټول
+Total channels in loaded playlist::په بار شوي پلی لیست کې ټول چینلونه
+TV Guide (EPG)::د تلویزیون لارښود (EPG)
+TvgId::TvgId
+Type channel name to filter::د فلټر کولو لپاره د چینل نوم ولیکئ
+UI: MaterialDesignThemes.Wpf::UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::د اتوماتیک شکل موندلو توان نلري. مهرباني وکړئ د ښکته کیدو څخه JSON یا M3U غوره کړئ او بیا هڅه وکړئ.
+Unable to find version in remote project file.::د ریموټ پروژې فایل کې نسخه موندلو توان نلري.
+Unsupported format. Please select JSON or M3U.::نه ملاتړ شوی بڼه. مهرباني وکړئ JSON یا M3U غوره کړئ.
+Update::تازه کول
+Update complete. Restarting...::تازه کول بشپړ شول. بیا پیل کول...
+Update Error::د تازه کولو تېروتنه
+Update failed: ::تازه کول ناکام شول:
+Updated::تازه شوی
+Updates::تازه معلومات
+Upload Error::د پورته کولو تېروتنه
+URL::URL
+URL (primary)::URL (لومړنی)
+URL Check::د URL چک
+URL list (one per line)::د URL لیست (په هره کرښه کې یو)
+URLs & Status::URLs او حالت
+Version::نسخه
+Version {0}.{1}.{2}::نسخه {0}.{1}.{2}
+Version unknown::نسخه نامعلومه ده
+Waiting for LiveGardenTVPlus to close...::د LiveGardenTVPlus بندیدو ته انتظار کول ...
+Warning::خبرتیا
+WebView2: Microsoft Edge WebView2::WebView2: د مایکروسافټ څنډه WebView2
+Youtube URL::د یوټیوب URL
+Youtube URLs::د یوټیوب URLs

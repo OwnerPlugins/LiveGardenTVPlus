@@ -74,15 +74,16 @@ namespace LiveGardenTVPlus.Services
 
         private static string GetOriginalKey(DependencyObject obj, string currentText)
         {
-            // Use Name as key if available, otherwise fallback to stored text
             if (obj is FrameworkElement fe && !string.IsNullOrEmpty(fe.Name))
                 return fe.Name;
+            if (_originalTexts.TryGetValue(obj, out string? original))
+            {
+                return original ?? string.Empty;
+            }
 
-            if (_originalTexts.TryGetValue(obj, out string original))
-                return original;
-
-            _originalTexts[obj] = currentText;
-            return currentText;
+            string nonNullText = currentText ?? string.Empty;
+            _originalTexts[obj] = nonNullText;
+            return nonNullText;
         }
     }
 }

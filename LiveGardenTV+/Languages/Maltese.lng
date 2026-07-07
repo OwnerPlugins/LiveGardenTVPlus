@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): (Completament volontarju - l-ebda karatteristika mhi mblukkata)
-(No description): (L-ebda deskrizzjoni)
-• Add / rename / delete groups.: • Żid / semmi mill-ġdid / ħassar gruppi.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Buffer slider: aġġusta l-buffer HLS (1-10 sekondi).
-• Check URL availability (only visible channels).: • Iċċekkja d-disponibbiltà tal-URL (kanali viżibbli biss).
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Editja l-ismijiet tal-kanali, gruppi, URLs, logos, tvg-id, pajjiż, lingwi, favoriti.
-• Edit multiple URLs per channel (popup window).: • Editja URLs multipli għal kull kanal (tieqa popup).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Tarrikkixxi bl-EPG: iżid tvg-id nieqes bl-użu ta' tqabbil fuzzy.
-• EPG info displayed in status bar for current channel.: • Informazzjoni EPG murija fil-bar tal-istatus għall-kanal kurrenti.
-• Export OK / FAIL / filtered lists as M3U or JSON.: • Esportazzjoni OK / FAIL / listi ffiltrati bħala M3U jew JSON.
-• Fetch logos from remote repository (OwnerPlugins/logos).: • Iġbed logos minn repożitorju remot (OwnerPlugins/logos).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Fullscreen UI: taħbi sidebar u status bar (ESC biex toħroġ).
-• Hide/Show channel list button.: • Aħbi/Uri buttuna tal-lista tal-kanali.
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Importa JSON (lokali jew URL) b'mapping tal-kamp flessibbli (awto-detect, ħlief mapping).
-• Picture‑in‑Picture (PIP) button.: • Buttuna Picture-in-Picture (PIP).
-• Playback speed: 0.5x, 1x, 2x buttons.: • Veloċità tal-qari: 0.5x, 1x, 2x buttuni.
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Issortja kwalunkwe kolonna billi tikklikkja header; uża 'Reset Order' biex terġa' lura għall-ordni oriġinali.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: nieqaf live stream; drag slider biex tfittex lura; agħfas 'Live' biex tirritorna.
-▶ Play Media: ▶ Play Media
-◀ Previous: ◀ Preċedenti
-16 colour themes + Light/Dark variants.: 16-il tema tal-kulur + varjanti Dawl/Dlam.
-A new version is available. Do you want to update now?: Verżjoni ġdida hija disponibbli. Trid taġġorna issa?
-Access via 'Compare' button in Playlist Editor or Tools menu.: Aċċess permezz tal-buttuna 'Qabbel' fl-Editur tal-Playlist jew fil-menu tal-Għodda.
-Access via 'Edit Playlist' button on main toolbar.: Aċċess permezz tal-buttuna 'Editja Playlist' fuq il-bar tal-għodda prinċipali.
-Actions: Azzjonijiet
-Add Command: Żid Kmand
-Add Group: Żid Grupp
-Add Mapping: Żid Mapping
-Adjust buffer size (1-10 seconds): Aġġusta d-daqs tal-buffer (1-10 sekondi)
-Advanced IDs: IDs Avvanzati
-Application status: Status tal-applikazzjoni
-Apply: Applika
-Apply / Import: Applika/Importa
-Apply changes: Applika bidliet
-Apply Filters: Applika Filtri
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Int żgur li trid terġa' ttella' l-GUI ta' Enigma2?\n\nL-interface terġa' tibda (iskrin iswed għal ftit sekondi).
-Auto (recommended): Awtomatiku (rakkomandat)
-Auto-detect: Issib awtomatikament
-Automatic check on startup – or click 'Check for updates' in Tools menu.: Iċċekkja awtomatika mal-istartjar – jew ikklikkja 'Iċċekkja għal aġġornamenti' fil-menu tal-Għodda.
-Bouquet Name: Isem Bukkett
-Bouquet sent and Enigma2 channel list reloaded.: Bukkett mibgħut u l-lista tal-kanali Enigma2 ikkargata mill-ġdid.
-Buffer (seconds): Buffer (sekondi)
-Buffer size – adjust HLS buffer seconds.: Daqs tal-buffer – aġġusta sekondi tal-buffer HLS.
-Cache: Cache
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Fowlder tal-cache: %TEMP%\\LiveGardenTVPlus\\epg_cache
-Cancel: Ikkanċella
-CANCEL: IKANNELLA
-Cannot open browser: Ma tistax tiftaħ il-browser
-Category: Kategorija
-Changelog: Changelog
-Channel Details: Dettalji tal-Kanal
-Channel Down: Channel Down
-Channel Info: Informazzjoni dwar il-Kanal
-Channel Name: Isem tal-Kanal
-Channel Up: Channel Up
-channels from: kanali minn
-channels from JSON: kanali minn JSON
-channels from JSON URL: kanali mill-URL JSON
-channels from URL: kanali mill-URL
-Check Duplicates: Iċċekkja Duplikati
-Check for updates: Iċċekkja għal aġġornamenti
-Check URLs: Iċċekkja l-URLs
-Clear: Ċara
-Clear EPG Cache: Ċar EPG Cache
-Clear Filters: Filtri ċari
-Clear search: Tiftix ċar
-Click for details: Ikklikkja għad-dettalji
-Close: Agħlaq
-Code: Kodiċi
-Code copied to clipboard.: Kodiċi kkupjat fil-clipboard.
-Command name:: Isem tal-kmand:
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunità u ttestjar: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
-Compare: Qabbel
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Qabbel bi: Prijorità (isem→grupp→tvg-id), Isem, Grupp (sensittiv għall-każ), jew TvgId.
-Compare Playlists: Qabbel Playlists
-Compare two playlists – load first (current playlist) and second (from file or URL).: Qabbel żewġ playlists - tagħbija l-ewwel (playlist kurrenti) u t-tieni (mill-fajl jew URL).
-Compare...: Qabbel...
-Comparison results: {0} channels: Riżultati tat-tqabbil: {0} kanali
-Configuration Missing: Konfigurazzjoni nieqsa
-Confirm Delete: Ikkonferma Ħassar
-Confirm Reload: Ikkonferma Reload
-Connect: Qabbad
-Connected: Konnessi
-Copied: Ikkopjati
-Copy: Kopja
-CORVOBOYS.ORG: CORVOBOYS.ORG
-Country: Pajjiż
-Credits: Krediti
-Delete channel '{0}'?: Ħassar il-kanal '{0}'?
-Delete Group: Ħassar Grupp
-Delete Selected: Ħassar Magħżula
-Deleted: Imħassar
-Description: Deskrizzjoni
-Details: Dettalji
-Developed by Lululla: Żviluppat minn Lululla
-Developer: Lululla: Żviluppatur: Lululla
-Disconnect: Skonnettja
-Disconnected: Skonnettjat
-Display as: : Uri bħala:
-Do you want to load this edited playlist now?: Trid tagħbija din il-playlist editjata issa?
-Double speed (2x): Veloċità doppja (2x)
-Downloading playlist...: Niżżel il-playlist...
-Downloads ZIP, replaces files, restarts app – settings preserved.: Jniżżel ZIP, jissostitwixxi l-fajls, jerġa 'jibda l-app - issettjar ippreservat.
-Drag & drop – drop M3U or JSON files directly onto main window.: Iddreggja u qatra – qiegħed fajls M3U jew JSON direttament fuq it-tieqa prinċipali.
-Drag to seek back in buffer: Iddreggja biex tfittex lura fil-buffer
-Duplicate URLs found:\n\n: URLs duplikati misjuba:\n\n
-Edit Command: Editja Kmand
-Edit command name:: Editja l-isem tal-kmand:
-Edit Playlist: Editja Playlist
-Edit telnet command:: Editja kmand Telnet:
-Edit URLs: Editja l-URLs
-Empty Password: Password vojta
-End: Tmiem
-Enrich with EPG: Tarrikkixxi bl-EPG
-Enter bouquet name (without spaces):: Daħħal l-isem tal-bukkett (mingħajr spazji):
-Enter JSON URL:: Daħħal JSON URL:
-Enter new group name:: Daħħal isem ġdid tal-grupp:
-Enter playlist URL (JSON or M3U):: Daħħal l-URL tal-playlist (JSON jew M3U):
-Enter playlist URL (M3U or JSON):: Daħħal l-URL tal-playlist (M3U jew JSON):
-EPG: EPG
-Epg & Favorites: Epg & Favoriti
-EPG & Favorites: EPG & Favoriti
-Epg & Logos: Epg & Logos
-EPG & Logos: EPG & Logos
-EPG cache cleared successfully.: Il-cache tal-EPG ikklerjat b'suċċess.
-EPG Details: Dettalji EPG
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Gwida EPG – buttuna fuq il-bar tal-għodda prinċipali turi grilja sħiħa bid-dettalji tal-programm (ikklikkja darbtejn għall-informazzjoni).
-EPG Matching Threshold: Limitu ta' Tqabbil EPG
-EPG Source: : Sors EPG:
-EPG source – can be set in Settings (epgshare01 or custom URL).: Sors EPG - jista 'jiġi ssettjat f'Settings (epgshare01 jew URL personalizzat).
-EPG source – choose XMLTV file or enter custom URL.: Sors EPG - agħżel fajl XMLTV jew daħħal URL personalizzat.
-EPG Source Missing: Sors EPG Nieqes
-Error: Żball
-Error clearing cache: {0}: Żball meta tneħħi l-cache: {0}
-Error loading: Żball fit-tagħbija
-Error loading EPG list: {0}: Żball fit-tagħbija tal-lista EPG: {0}
-Error loading file: {0}: Żball fit-tagħbija tal-fajl: {0}
-Error loading playlists: {0}: Żball fit-tagħbija tal-playlists: {0}
-Error loading URL: {0}: Żball fit-tagħbija tal-URL: {0}
-ERROR: player.html not found.: ŻBALL: player.html ma nstabx.
-Exit: Ħruġ
-Export all: Esportazzjoni kollha
-Export Favorites: Esportazzjoni Favoriti
-Export Filtered JSON: Esportazzjoni Iffiltrat JSON
-Export Filtered M3U: Esportazzjoni Iffiltrat M3U
-Export JSON: Esportazzjoni JSON
-Export KO: Esportazzjoni KO
-Export missing: Esportazzjoni nieqsa
-Export OK: Esportazzjoni OK
-Export only favorite channels to a new M3U file: Esportazzjoni biss kanali favoriti għal fajl M3U ġdid
-Export results as JSON or M3U – export missing channels or all channels.: Esporta riżultati bħala JSON jew M3U - esporta l-kanali nieqsa jew il-kanali kollha.
-Export selected: Esportazzjoni magħżula
-Export Selected: Esportazzjoni Magħżula
-Exported: Esportati
-Exported {0} channels to {1}: Esportati {0} kanali lejn {1}
-Extracting update...: Qed jiġi estratt aġġornament...
-Failed to download playlist: Naqas milli tniżżel playlist
-Failed to load playlist: Naqas milli tagħbija playlist
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Naqas milli jaġġorna bouquets.tv. Jekk jogħġbok iċċekkja l-permessi tal-fajls fuq it-tagħmir Enigma2.
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Naqas milli ttella' bukkett. Jekk jogħġbok iċċekkja s-settings tat-Telnet tiegħek (host, port, username, password) u erġa' pprova.
-Favorite: Favorit
-Favorites only: Favourites biss
-Fetch Logos: Iġbed Logos
-File {0} already exists. Overwrite?: Il-fajl {0} diġà jeżisti. Ikteb mill-ġdid?
-File exists: Il-fajl jeżisti
-Filters: Filtri
-Format Detection: Sejbien tal-Format
-Fullscreen: Skrin sħiħ
-Fullscreen (hide UI) - press ESC to exit: Skrin sħiħ (aħbi UI) - agħfas ESC biex toħroġ
-Geo & Country: Ġeo & Pajjiż
-GeoBlocked: ĠeoBlocked
-GitHub Error: Żball GitHub
-Go back to live: Mur lura biex tgħix
-Grid: Grid
-Group: Grupp
-Half speed (0.5x): Nofs il-veloċità (0.5x)
-Help: Għajnuna
-Hide List: Aħbi Lista
-HLS playback: hls.js (MIT license): Daqq HLS: hls.js (liċenzja MIT)
-Image: Immaġni
-Import: Importazzjoni
-Import cancelled or no channels mapped.: Importazzjoni kkanċellata jew l-ebda kanali mmappjati.
-Import Error: Żball ta' importazzjoni
-Import error: {0}: Żball fl-importazzjoni: {0}
-Import from URL: Importa mill-URL
-Import JSON: Importa JSON
-Import JSON from URL: Importa JSON mill-URL
-Import Local: Importazzjoni Lokali
-Imported {0} channels from code.: Importati {0} kanali mill-kodiċi.
-Imported {0} channels from JSON via mapping.: Importati {0} kanali minn JSON permezz ta' mapping.
-Imported {0} channels from URL.: Importati {0} kanali mill-URL.
-In Both: Fit-tnejn
-Info: Info
-Info on: Informazzjoni fuq
-Invalid JSON: {0}: JSON mhux validu: {0}
-Invalid playlist URL.: URL tal-playlist mhux validu.
-Invalid URL.: URL invalidu.
-Json: Json
-JSON: JSON
-JSON parsing error: {0}: Żball fl-analiżi JSON: {0}
-JSON Property: Proprjetà JSON
-Ko-fi: Kafè
-Language: Lingwa
-Language – change UI language dynamically (translations in Languages folder).: Lingwa – ibdel il-lingwa tal-UI b'mod dinamiku (traduzzjonijiet fil-folder tal-Lingwi).
-Languages: Lingwi
-Languages (comma): Lingwi (virgola)
-LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help: Għajnuna LiveGardenTVPlus
-LOAD: TAGĦBIJA
-Load a playlist first.: L-ewwel tagħbija playlist.
-Load a second playlist first.: Tagħbija t-tieni playlist l-ewwel.
-Load File: Tagħbija Fajl
-Load from file...: Tagħbija mill-fajl...
-Load from URL: Tagħbija mill-URL
-Load from URL...: Tagħbija mill-URL...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Tagħbija fajl M3U/JSON lokali – permezz tal-buttuna 'Load File' (toolbar) jew 'Open File' fl-editur.
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Tagħbija online M3U/JSON URL – buttuna 'Tagħbija Online' (toolbar) jew 'Open from URL' fl-editur.
-Load playlist file (M3U/JSON) from your computer: Tagħbija l-fajl tal-playlist (M3U/JSON) mill-kompjuter tiegħek
-Loaded: Mgħobbija
-Loaded {0} channels from JSON file via mapping.: {0} kanali mgħobbija minn fajl JSON permezz ta' mapping.
-Loaded {0} channels from JSON URL.: {0} kanali mgħobbija mill-URL JSON.
-Loaded {0} channels from M3U file.: {0} kanali mgħobbija mill-fajl M3U.
-Loaded {0} channels from M3U URL.: {0} kanali mgħobbija mill-URL M3U.
-Loading...: Tagħbija...
-Logo: Logo
-Logo Picker – in editor, click '...' to choose logo from gallery.: Logo Picker – fl-editur, ikklikkja '...' biex tagħżel il-logo mill-gallerija.
-Logo Preview: Preview tal-logo
-Logo URL: URL tal-logo
-Logos – automatically download from GitHub repository (Settings → Logos Source).: Logos – niżżel awtomatikament mir-repożitorju ta’ GitHub (Settings → Sors tal-Logos).
-Logos Matching Threshold: Limitu ta' Tqabbil tal-Logos
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Repożitorju tal-logos - agħżel sid/repo/mogħdija (default OwnerPlugins/logos).
-Logos Source: Sors Logos
-Logos Subfolder: Subfolder tal-logos
-M3U: M3U
-M3U parsing error: {0}: Żball ta' parsing M3U: {0}
-Map JSON properties to channel fields:: Ippjana proprjetajiet JSON għal oqsma tal-kanali:
-Mapping saved for future imports of this file.: Immappjar salvat għal importazzjonijiet futuri ta' dan il-fajl.
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Limiti ta' tqabbil – issettja sensittività ta' taqbila fuzzy għal EPG u logos.
-Mini Player: Mini Player
-Move to Group: Imxi għall-Grupp
-Moved: Imċaqlaq
-Name: Isem
-Nanoid: Nanojdi
-Network error: Żball tan-netwerk
-New Playlist: Playlist ġdida
-Next: Li jmiss
-Next ▶: Li jmiss ▶
-No .m3u files found on GitHub repository.: L-ebda fajl .m3u misjub fuq ir-repożitorju GitHub.
-No cache folder found.: Ma nstab l-ebda folder tal-cache.
-No channel selected: L-ebda kanal magħżul
-No channels could be mapped or import cancelled.: L-ebda kanali ma setgħu jiġu mmappjati jew importazzjoni kkanċellata.
-No channels could be mapped. Check your mapping rules.: L-ebda kanali ma setgħu jiġu mmappjati. Iċċekkja r-regoli tal-mapping tiegħek.
-No channels found in JSON.: L-ebda kanal ma nstab f'JSON.
-No channels found in M3U.: L-ebda kanal ma nstab f'M3U.
-No channels loaded from JSON URL.: Ebda kanali mgħobbija mill-URL JSON.
-No channels loaded from M3U URL.: Ebda kanali mgħobbija mill-URL M3U.
-No channels loaded from M3U.: Ebda kanali mgħobbija minn M3U.
-No channels loaded.: Ebda kanali mgħobbija.
-No channels mapped: Ebda kanali mmappjati
-No channels selected.: Ebda kanali magħżula.
-No channels to import.: Ebda kanali għall-importazzjoni.
-No duplicate URLs found.: Ma nstab l-ebda URL duplikat.
-No EPG data: Ebda data EPG
-No EPG information available for this channel.: L-ebda informazzjoni EPG disponibbli għal dan il-kanal.
-No EPG source configured. Please select one from the combo or go to Settings.: Ebda sors EPG konfigurat. Jekk jogħġbok agħżel waħda mill-combo jew mur Settings.
-No EPG source configured. Would you like to open settings to select one?: Ebda sors EPG konfigurat. Tixtieq tiftaħ settings biex tagħżel waħda?
-No favorite channels to export.: Ebda kanali favoriti għall-esportazzjoni.
-No missing channels to export.: L-ebda kanali neqsin għall-esportazzjoni.
-No playlist found: Ma nstabet l-ebda playlist
-No second playlist loaded.: Ebda playlist tat-tieni mgħobbija.
-No stream URL available for this channel.: L-ebda URL tal-fluss disponibbli għal dan il-kanal.
-No text to import.: Ebda test għall-importazzjoni.
-No updates available.: Ebda aġġornamenti disponibbli.
-Normal speed (1x): Veloċità normali (1x)
-Not connected to the box.: Mhux imqabbad mal-kaxxa.
-Now: Issa
-OK: OK
-Online Playlist: Playlist Online
-Online playlist – select from GitHub repository (auto‑refresh).: Playlist onlajn – agħżel mir-repożitorju ta' GitHub (aġġornament awtomatiku).
-Only in First: Biss fl-Ewwel
-Only in Second: Biss fit-Tieni
-Open File...: Iftaħ Fajl...
-Open from URL: Iftaħ mill-URL
-Open Playlist: Iftaħ Playlist
-Pause/Resume live stream: Waqfa/Ibda live stream
-Paused: Waqfa qasira
-PayPal: PayPal
-Picture-in-Picture mode: Modalità Picture-in-Picture
-Play/Pause: Play/Pawsa
-Player Media Controls: Kontrolli tal-Midja tal-Plejer
-Playing Media: Logħba tal-Midja
-Playlist & Groups: Playlist u Gruppi
-Playlist Comparison: Paragun tal-Playlist
-Playlist Editor: Editur tal-Playlist
-Playlist Loading: Tagħbija tal-Playlist
-Playlist Management: Ġestjoni tal-Playlist
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repożitorju tal-playlist: OwnerPlugins/TivuStreamList (flussi Taljani u internazzjonali)
-Please select a program first.: Jekk jogħġbok agħżel programm l-ewwel.
-Preview (first 5 channels): Preview (l-ewwel 5 kanali)
-Preview error: {0}: Żball ta' preview: {0}
-Program Details: Dettalji tal-Programm
-Ready: Lest
-Ready.: Lest.
-Recent: Riċenti
-Recent files – quick access to last 5 opened playlists.: Fajls riċenti - aċċess rapidu għall-aħħar 5 playlists miftuħa.
-Recent playlists: Playlists riċenti
-Refresh Code: Aġġorna l-Kodiċi
-Refresh EPG: Aġġorna l-EPG
-Refresh EPG List: Aġġorna l-Lista EPG
-Refresh from GitHub: Aġġorna minn GitHub
-Refresh List: Aġġorna l-Lista
-Reload GUI: Reload GUI
-Remove Command: Neħħi Kmand
-Rename Group: Semmi mill-ġdid tal-Grupp
-Rename group '{0}' to:: Semmi l-grupp '{0}' għal:
-Repository: Repożitorju
-Reset Order: Irrisettja l-Ordni
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Riżultati: 'Biss fl-Ewwel', 'Biss fit-Tieni', 'Fit-It-Tnejn' – b'kodifikazzjoni tal-kulur tal-istatus.
-Save: Ħlief
-SAVE: SAVE
-Save – persists all settings without reloading current playlist.: Issejvja – jippersisti l-issettjar kollha mingħajr ma terġa’ tgħabbi l-playlist attwali.
-Save as...: Ħlief bħala...
-Save current playlist to a new M3U file: Issejvja playlist attwali għal fajl M3U ġdid
-Save Mapping: Ħlief Mapping
-Save Playlist: Ħlief Playlist
-Save Status: Issejvja l-Istatus
-Saved: Salvat
-Search channel: : Fittex kanal:
-Search channels by name: Fittex kanali bl-isem
-Search channels...: Fittex kanali...
-sec: taqs
-Second playlist loaded: {0} channels: It-tieni playlist mgħobbija: {0} kanali
-Select a channel to play.: Agħżel kanal biex tilgħab.
-Select a playlist first.: Agħżel playlist l-ewwel.
-Select target group:: Agħżel il-grupp fil-mira:
-Select Theme: Agħżel Tema
-Selected theme is saved and applied on restart.: It-tema magħżula tiġi ssejvjata u applikata mal-bidu mill-ġdid.
-Send: Ibgħat
-Send playlist to Enigma2 decoder: Ibgħat playlist lid-decoder Enigma2
-Send to Enigma2: Ibgħat lil Enigma2
-Settings: Settings
-Show List: Uri Lista
-Show only channels marked as favorites: Uri biss kanali mmarkati bħala favoriti
-Show or hide the channel list: Uri jew aħbi l-lista tal-kanali
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Grazzi speċjali lill-komunitajiet CORVOBOYS & LinuxSat-Support għall-ittestjar u l-appoġġ.
-Start: Ibda
-Status: Status
-Stop: Waqqaf
-Stopped: Waqqaf
-Stream URL: Stream URL
-Stream URLs: Stream URLs
-Success: Suċċess
-Support: Appoġġ
-Support the developer: Appoġġ lill-iżviluppatur
-Target Field: Target Field
-Telnet command:: kmand Telnet:
-Telnet Commander: Kmandant Telnet
-Telnet Config: Konfigurazzjoni Telnet
-Telnet Console: Telnet Console
-Telnet host not configured. Please set it in Settings.: Il-host Telnet mhux ikkonfigurat. Jekk jogħġbok issettjaha fis-Settings.
-Telnet password is empty. Do you want to continue?: Il-password Telnet hija vojta. Trid tkompli?
-Telnet username not configured. Please set it in Settings.: L-isem tal-utent Telnet mhux ikkonfigurat. Jekk jogħġbok issettjaha fis-Settings.
-Thanks to: Grazzi lil
-Theme picker: Picker tat-tema
-Theme picker – accessible via Tools menu on main toolbar.: Picker tat-tema - aċċessibbli permezz tal-menu tal-Għodda fuq il-bar tal-għodda prinċipali.
-Themes: Temi
-Time: Ħin
-Title: Titolu
-Tools: Għodda
-Total: Total
-Total channels in loaded playlist: Stazzjonijiet totali fil-playlist mgħobbija
-TV Guide (EPG): Gwida tat-TV (EPG)
-TvgId: TvgId
-Type channel name to filter: Ittajpja l-isem tal-kanal biex tiffiltra
-UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Ma tistax tiskopri l-format awtomatikament. Jekk jogħġbok agħżel JSON jew M3U mid-dropdown u erġa' pprova.
-Unable to find version in remote project file.: Ma tistax issib verżjoni fil-fajl tal-proġett remot.
-Unsupported format. Please select JSON or M3U.: Format mhux appoġġjat. Jekk jogħġbok agħżel JSON jew M3U.
-Update: Aġġornament
-Update complete. Restarting...: Aġġornament komplut. Nibda mill-ġdid...
-Update Error: Żball ta' Aġġornament
-Update failed: : Aġġornament falla:
-Updates: Aġġornamenti
-Upload Error: Żball Upload
-URL: URL
-URL (primary): URL (primarja)
-URL Check: Iċċekkja l-URL
-URL list (one per line): Lista tal-URL (wieħed għal kull linja)
-URLs & Status: URLs & Status
-Version: Verżjoni
-Version {0}.{1}.{2}: Verżjoni {0}.{1}.{2}
-Version unknown: Verżjoni mhux magħrufa
-Waiting for LiveGardenTVPlus to close...: Nistennew li LiveGardenTVPlus jagħlaq...
-Warning: Twissija
-WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
-Youtube URL: Youtube URL
-Youtube URLs: URLs tal-Youtube
+(Completely voluntary – no features are blocked)::(Completament volontarju - l-ebda karatteristika mhi mblukkata)
+(No description)::(L-ebda deskrizzjoni)
+• Add / rename / delete groups.::• Żid / semmi mill-ġdid / ħassar gruppi.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• Buffer slider: aġġusta l-buffer HLS (1-10 sekondi).
+• Check URL availability (only visible channels).::• Iċċekkja d-disponibbiltà tal-URL (kanali viżibbli biss).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• Editja l-ismijiet tal-kanali, gruppi, URLs, logos, tvg-id, pajjiż, lingwi, favoriti.
+• Edit multiple URLs per channel (popup window).::• Editja URLs multipli għal kull kanal (tieqa popup).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• Tarrikkixxi bl-EPG: iżid tvg-id nieqes bl-użu ta' tqabbil fuzzy.
+• EPG info displayed in status bar for current channel.::• Informazzjoni EPG murija fil-bar tal-istatus għall-kanal kurrenti.
+• Export OK / FAIL / filtered lists as M3U or JSON.::• Esportazzjoni OK / FAIL / listi ffiltrati bħala M3U jew JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).::• Iġbed logos minn repożitorju remot (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• Fullscreen UI: taħbi sidebar u status bar (ESC biex toħroġ).
+• Hide/Show channel list button.::• Aħbi/Uri buttuna tal-lista tal-kanali.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• Importa JSON (lokali jew URL) b'mapping tal-kamp flessibbli (awto-detect, ħlief mapping).
+• Picture‑in‑Picture (PIP) button.::• Buttuna Picture-in-Picture (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.::• Veloċità tal-qari: 0.5x, 1x, 2x buttuni.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• Issortja kwalunkwe kolonna billi tikklikkja header; uża 'Reset Order' biex terġa' lura għall-ordni oriġinali.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• Timeshift: nieqaf live stream; drag slider biex tfittex lura; agħfas 'Live' biex tirritorna.
+▶ Play Media::▶ Play Media
+◀ Previous::◀ Preċedenti
+16 colour themes + Light/Dark variants.::16-il tema tal-kulur + varjanti Dawl/Dlam.
+A new version is available. Do you want to update now?::Verżjoni ġdida hija disponibbli. Trid taġġorna issa?
+Access via 'Compare' button in Playlist Editor or Tools menu.::Aċċess permezz tal-buttuna 'Qabbel' fl-Editur tal-Playlist jew fil-menu tal-Għodda.
+Access via 'Edit Playlist' button on main toolbar.::Aċċess permezz tal-buttuna 'Editja Playlist' fuq toolbar prinċipali.
+Actions::Azzjonijiet
+Add Command::Żid Kmand
+Add Group::Żid Grupp
+Add Mapping::Żid Mapping
+Adjust buffer size (1-10 seconds)::Aġġusta d-daqs tal-buffer (1-10 sekondi)
+Advanced IDs::IDs Avvanzati
+All channels marked as favorites::Il-kanali kollha mmarkati bħala favoriti
+All favorites removed::Il-favoriti kollha tneħħew
+Application status::Status tal-applikazzjoni
+Apply::Applika
+Apply / Import::Applika/Importa
+Apply changes::Applika bidliet
+Apply Filters::Applika Filtri
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::Int żgur li trid terġa' ttella' l-GUI ta' Enigma2?\n\nL-interface terġa' tibda (iskrin iswed għal ftit sekondi).
+Auto (recommended)::Awtomatiku (rakkomandat)
+Auto-detect::Issib awtomatikament
+Automatic check on startup – or click 'Check for updates' in Tools menu.::Iċċekkja awtomatika mal-istartjar – jew ikklikkja 'Iċċekkja għal aġġornamenti' fil-menu tal-Għodda.
+Bouquet Name::Isem Bukkett
+Bouquet sent and Enigma2 channel list reloaded.::Bukkett mibgħut u l-lista tal-kanali Enigma2 ikkargata mill-ġdid.
+Buffer (seconds)::Buffer (sekondi)
+Buffer size – adjust HLS buffer seconds.::Daqs tal-buffer – aġġusta sekondi tal-buffer HLS.
+Cache::Cache
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::Fowlder tal-cache: %TEMP%\\LiveGardenTVPlus\\epg_cache
+Cancel::Ikkanċella
+CANCEL::IKANNELLA
+Cannot open browser::Ma tistax tiftaħ il-browser
+Category::Kategorija
+Changelog::Changelog
+Channel Details::Dettalji tal-Kanal
+Channel Down::Channel Down
+Channel Info::Informazzjoni dwar il-Kanal
+Channel Name::Isem tal-Kanal
+Channel Up::Channel Up
+Channel updated successfully.::Kanal aġġornat b'suċċess.
+channels from::kanali minn
+channels from JSON::kanali minn JSON
+channels from JSON URL::kanali mill-URL JSON
+channels from URL::kanali mill-URL
+Check Duplicates::Iċċekkja Duplikati
+Check for updates::Iċċekkja għal aġġornamenti
+Check URLs::Iċċekkja l-URLs
+Clear::Ċara
+Clear EPG Cache::Ċar EPG Cache
+Clear Filters::Filtri ċari
+Clear search::Tiftix ċar
+Click for details::Ikklikkja għad-dettalji
+Close::Agħlaq
+Close current playlist::Agħlaq il-playlist attwali
+Close Playlist::Agħlaq Playlist
+Code::Kodiċi
+Code copied to clipboard.::Kodiċi kkupjat fil-clipboard.
+Command name:::Isem tal-kmand:
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::Komunità u ttestjar: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare::Qabbel
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::Qabbel bi: Prijorità (isem→grupp→tvg-id), Isem, Grupp (sensittiv għall-każ), jew TvgId.
+Compare Playlists::Qabbel Playlists
+Compare two playlists – load first (current playlist) and second (from file or URL).::Qabbel żewġ playlists - tagħbija l-ewwel (playlist kurrenti) u t-tieni (mill-fajl jew URL).
+Compare...::Qabbel...
+Comparison results: {0} channels::Riżultati tat-tqabbil: {0} kanali
+Configuration Missing::Konfigurazzjoni nieqsa
+Confirm Delete::Ikkonferma Ħassar
+Confirm Reload::Ikkonferma Reload
+Connect::Qabbad
+Connected::Konnessi
+Copied::Ikkopjati
+Copy::Kopja
+CORVOBOYS.ORG::CORVOBOYS.ORG
+Country::Pajjiż
+Credits::Krediti
+Delete channel '{0}'?::Ħassar il-kanal '{0}'?
+Delete Group::Ħassar Grupp
+Delete Selected::Ħassar Magħżula
+Deleted::Imħassar
+Description::Deskrizzjoni
+Details::Dettalji
+Developed by Lululla::Żviluppat minn Lululla
+Developer: Lululla::Żviluppatur: Lululla
+Disconnect::Skonnettja
+Disconnected::Skonnettjat
+Display as::Uri bħala
+Do you want to load this edited playlist now?::Trid tagħbija din il-playlist editjata issa?
+Double speed (2x)::Veloċità doppja (2x)
+Downloading playlist...::Niżżel il-playlist...
+Downloads ZIP, replaces files, restarts app – settings preserved.::Jniżżel ZIP, jissostitwixxi l-fajls, jerġa 'jibda l-app - issettjar ippreservat.
+Drag & drop – drop M3U or JSON files directly onto main window.::Iddreggja u qatra – qiegħed fajls M3U jew JSON direttament fuq it-tieqa prinċipali.
+Drag to seek back in buffer::Iddreggja biex tfittex lura fil-buffer
+Duplicate URLs found:\n\n::URLs duplikati misjuba:\n\n
+Edit Command::Editja Kmand
+Edit command name:::Editja l-isem tal-kmand:
+Edit Playlist::Editja Playlist
+Edit telnet command:::Editja kmand Telnet:
+Edit URLs::Editja l-URLs
+Empty Password::Password vojta
+End::Tmiem
+Enigma2::Enigma2
+Enrich with EPG::Tarrikkixxi bl-EPG
+Enter bouquet name (without spaces):::Daħħal l-isem tal-bukkett (mingħajr spazji):
+Enter JSON URL:::Daħħal JSON URL:
+Enter new group name:::Daħħal isem ġdid tal-grupp:
+Enter playlist URL (JSON or M3U):::Daħħal l-URL tal-playlist (JSON jew M3U):
+Enter playlist URL (M3U or JSON):::Daħħal l-URL tal-playlist (M3U jew JSON):
+EPG::EPG
+Epg & Favorites::Epg & Favoriti
+EPG & Favorites::EPG & Favoriti
+Epg & Logos::Epg & Logos
+EPG & Logos::EPG & Logos
+EPG cache cleared successfully.::Il-cache tal-EPG ikklerjat b'suċċess.
+EPG Details::Dettalji EPG
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::Gwida EPG – buttuna fuq il-bar tal-għodda prinċipali turi grilja sħiħa bid-dettalji tal-programm (ikklikkja darbtejn għall-informazzjoni).
+EPG Matching Threshold::Limitu ta' Tqabbil EPG
+EPG Source::Sors EPG
+EPG source – can be set in Settings (epgshare01 or custom URL).::Sors EPG - jista 'jiġi ssettjat f'Settings (epgshare01 jew URL personalizzat).
+EPG source – choose XMLTV file or enter custom URL.::Sors EPG - agħżel fajl XMLTV jew daħħal URL personalizzat.
+EPG Source Missing::Sors EPG Nieqes
+Error::Żball
+Error clearing cache: {0}::Żball meta tneħħi l-cache: {0}
+Error loading::Żball fit-tagħbija
+Error loading EPG list: {0}::Żball fit-tagħbija tal-lista EPG: {0}
+Error loading file: {0}::Żball fit-tagħbija tal-fajl: {0}
+Error loading playlists: {0}::Żball fit-tagħbija tal-playlists: {0}
+Error loading URL: {0}::Żball fit-tagħbija tal-URL: {0}
+ERROR: player.html not found.::ŻBALL: player.html ma nstabx.
+Exit::Ħruġ
+Export all::Esportazzjoni kollha
+Export Favorites::Esportazzjoni Favoriti
+Export Filtered JSON::Esportazzjoni Iffiltrat JSON
+Export Filtered M3U::Esportazzjoni Iffiltrat M3U
+Export JSON::Esportazzjoni JSON
+Export KO::Esportazzjoni KO
+Export missing::Esportazzjoni nieqsa
+Export OK::Esportazzjoni OK
+Export only favorite channels to a new M3U file::Esportazzjoni biss kanali favoriti għal fajl M3U ġdid
+Export results as JSON or M3U – export missing channels or all channels.::Esporta riżultati bħala JSON jew M3U - esporta l-kanali nieqsa jew il-kanali kollha.
+Export selected::Esportazzjoni magħżula
+Export Selected::Esportazzjoni Magħżula
+Exported::Esportati
+Exported {0} channels to {1}::Esportati {0} kanali lejn {1}
+Extracting update...::Qed jiġi estratt aġġornament...
+Failed to download playlist::Naqas milli tniżżel playlist
+Failed to load playlist::Naqas milli tagħbija playlist
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::Naqas milli jaġġorna bouquets.tv. Jekk jogħġbok iċċekkja l-permessi tal-fajls fuq it-tagħmir Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::Naqas milli ttella' bukkett. Jekk jogħġbok iċċekkja s-settings tat-Telnet tiegħek (host, port, username, password) u erġa' pprova.
+Favorite::Favorit
+Favorites::Favoriti
+Favorites only::Favourites biss
+Fetch Logos::Iġbed Logos
+File::Fajl
+File {0} already exists. Overwrite?::Il-fajl {0} diġà jeżisti. Ikteb mill-ġdid?
+File exists::Il-fajl jeżisti
+Filters::Filtri
+Format Detection::Sejbien tal-Format
+Fullscreen::Skrin sħiħ
+Fullscreen (hide UI) - press ESC to exit::Skrin sħiħ (aħbi UI) - agħfas ESC biex toħroġ
+Geo & Country::Ġeo & Pajjiż
+GeoBlocked::ĠeoBlocked
+GitHub Error::Żball GitHub
+Go back to live::Mur lura biex tgħix
+Grid::Grid
+Group::Grupp
+Half speed (0.5x)::Nofs il-veloċità (0.5x)
+Help::Għajnuna
+Hide List::Aħbi Lista
+HLS playback: hls.js (MIT license)::Daqq HLS: hls.js (liċenzja MIT)
+Image::Immaġni
+Import::Importazzjoni
+Import cancelled or no channels mapped.::Importazzjoni kkanċellata jew l-ebda kanali mmappjati.
+Import Error::Żball ta' importazzjoni
+Import error: {0}::Żball fl-importazzjoni: {0}
+Import from URL::Importa mill-URL
+Import JSON::Importa JSON
+Import JSON from URL::Importa JSON mill-URL
+Import Local::Importazzjoni Lokali
+Imported {0} channels from code.::Importati {0} kanali mill-kodiċi.
+Imported {0} channels from JSON via mapping.::Importati {0} kanali minn JSON permezz ta' mapping.
+Imported {0} channels from URL.::Importati {0} kanali mill-URL.
+In Both::Fit-Tnejn
+Info::Info
+Info on::Informazzjoni fuq
+Invalid JSON: {0}::JSON mhux validu: {0}
+Invalid playlist URL.::URL tal-playlist mhux validu.
+Invalid URL.::URL invalidu.
+Json::Json
+JSON::JSON
+JSON parsing error: {0}::Żball fl-analiżi JSON: {0}
+JSON Property::Proprjetà JSON
+Ko-fi::Kafè
+Language::Lingwa
+Language – change UI language dynamically (translations in Languages folder).::Lingwa – ibdel il-lingwa tal-UI b'mod dinamiku (traduzzjonijiet fil-folder tal-Lingwi).
+Languages::Lingwi
+Languages (comma)::Lingwi (virgola)
+LINUXSAT-SUPPORT.COM::LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help::Għajnuna LiveGardenTVPlus
+LOAD::TAGĦBIJA
+Load a playlist first.::L-ewwel tagħbija playlist.
+Load a second playlist first.::Tagħbija t-tieni playlist l-ewwel.
+Load File::Tagħbija Fajl
+Load from file...::Tagħbija mill-fajl...
+Load from URL::Tagħbija mill-URL
+Load from URL...::Tagħbija mill-URL...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::Tagħbija fajl M3U/JSON lokali – permezz tal-buttuna 'Load File' (toolbar) jew 'Open File' fl-editur.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::Tagħbija online M3U/JSON URL – buttuna 'Tagħbija Online' (toolbar) jew 'Open from URL' fl-editur.
+Load Playlist::Tagħbija Playlist
+Load playlist file (M3U/JSON) from your computer::Tagħbija l-fajl tal-playlist (M3U/JSON) mill-kompjuter tiegħek
+Loaded::Mgħobbija
+Loaded {0} channels from JSON file via mapping.::{0} kanali mgħobbija minn fajl JSON permezz ta' mapping.
+Loaded {0} channels from JSON URL.::{0} kanali mgħobbija mill-URL JSON.
+Loaded {0} channels from M3U file.::{0} kanali mgħobbija mill-fajl M3U.
+Loaded {0} channels from M3U URL.::{0} kanali mgħobbija mill-URL M3U.
+Loading...::Tagħbija...
+Logo::Logo
+Logo Picker – in editor, click '...' to choose logo from gallery.::Logo Picker – fl-editur, ikklikkja '...' biex tagħżel il-logo mill-gallerija.
+Logo Preview::Preview tal-logo
+Logo URL::URL tal-logo
+Logos – automatically download from GitHub repository (Settings → Logos Source).::Logos – niżżel awtomatikament mir-repożitorju ta’ GitHub (Settings → Sors tal-Logos).
+Logos Matching Threshold::Limitu ta' Tqabbil tal-Logos
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::Repożitorju tal-logos - agħżel sid/repo/mogħdija (default OwnerPlugins/logos).
+Logos Source::Sors Logos
+Logos Subfolder::Subfolder tal-logos
+M3U::M3U
+M3U parsing error: {0}::Żball ta' parsing M3U: {0}
+Map JSON properties to channel fields:::Ippjana proprjetajiet JSON għal oqsma tal-kanali:
+Mapping saved for future imports of this file.::Immappjar salvat għal importazzjonijiet futuri ta' dan il-fajl.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::Limiti ta' tqabbil – issettja sensittività ta' taqbila fuzzy għal EPG u logos.
+Mini Player::Mini Player
+Move to Group::Imxi għall-Grupp
+Moved::Imċaqlaq
+Name::Isem
+Nanoid::Nanojdi
+Network error::Żball tan-netwerk
+New Playlist::Playlist ġdida
+Next::Li jmiss
+Next ▶::Li jmiss ▶
+No .m3u files found on GitHub repository.::L-ebda fajl .m3u misjub fuq ir-repożitorju GitHub.
+No cache folder found.::Ma nstab l-ebda folder tal-cache.
+No channel selected::L-ebda kanal magħżul
+No channel selected.::L-ebda kanal magħżul.
+No channels could be mapped or import cancelled.::L-ebda kanali ma setgħu jiġu mmappjati jew importazzjoni kkanċellata.
+No channels could be mapped. Check your mapping rules.::L-ebda kanali ma setgħu jiġu mmappjati. Iċċekkja r-regoli tal-mapping tiegħek.
+No channels found in JSON.::L-ebda kanal ma nstab f'JSON.
+No channels found in M3U.::L-ebda kanal ma nstab f'M3U.
+No channels loaded from JSON URL.::Ebda kanali mgħobbija mill-URL JSON.
+No channels loaded from M3U URL.::Ebda kanali mgħobbija mill-URL M3U.
+No channels loaded from M3U.::Ebda kanali mgħobbija minn M3U.
+No channels loaded.::Ebda kanali mgħobbija.
+No channels mapped::Ebda kanali mmappjati
+No channels selected.::Ebda kanali magħżula.
+No channels to import.::Ebda kanali għall-importazzjoni.
+No duplicate URLs found.::Ma nstab l-ebda URL duplikat.
+No EPG data::Ebda data EPG
+No EPG information available for this channel.::L-ebda informazzjoni EPG disponibbli għal dan il-kanal.
+No EPG source configured. Please select one from the combo or go to Settings.::Ebda sors EPG konfigurat. Jekk jogħġbok agħżel waħda mill-combo jew mur Settings.
+No EPG source configured. Would you like to open settings to select one?::Ebda sors EPG konfigurat. Tixtieq tiftaħ settings biex tagħżel waħda?
+No favorite channels found.::Ma nstab l-ebda kanal favorit.
+No favorite channels to export.::Ebda kanali favoriti għall-esportazzjoni.
+No missing channels to export.::L-ebda kanali neqsin għall-esportazzjoni.
+No playlist found::Ma nstabet l-ebda playlist
+No second playlist loaded.::Ebda playlist tat-tieni mgħobbija.
+No stream URL available for this channel.::L-ebda URL tal-fluss disponibbli għal dan il-kanal.
+No text to import.::Ebda test għall-importazzjoni.
+No updates available.::Ebda aġġornamenti disponibbli.
+Normal speed (1x)::Veloċità normali (1x)
+Not connected to the box.::Mhux imqabbad mal-kaxxa.
+Now::Issa
+OK::OK
+Online Playlist::Playlist Online
+Online playlist – select from GitHub repository (auto‑refresh).::Playlist onlajn – agħżel mir-repożitorju ta' GitHub (aġġornament awtomatiku).
+Only in First::Biss fl-Ewwel
+Only in Second::Biss fit-Tieni
+Open File...::Iftaħ Fajl...
+Open from URL::Iftaħ mill-URL
+Open Playlist::Iftaħ Playlist
+Pause/Resume live stream::Waqfa/Ibda live stream
+Paused::Waqfa qasira
+PayPal::PayPal
+Picture-in-Picture mode::Modalità Picture-in-Picture
+Play/Pause::Play/Pawsa
+Player Media Controls::Kontrolli tal-Midja tal-Plejer
+Playing Media::Logħba tal-Midja
+Playlist & Groups::Playlist u Gruppi
+Playlist closed::Playlist magħluqa
+Playlist Comparison::Paragun tal-Playlist
+Playlist Editor::Editur tal-Playlist
+Playlist Loading::Tagħbija tal-Playlist
+Playlist Management::Ġestjoni tal-Playlist
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::Repożitorju tal-playlist: OwnerPlugins/TivuStreamList (flussi Taljani u internazzjonali)
+Please select a program first.::Jekk jogħġbok agħżel programm l-ewwel.
+Preview (first 5 channels)::Preview (l-ewwel 5 kanali)
+Preview error: {0}::Żball tal-previżjoni: {0}
+Program Details::Dettalji tal-Programm
+Ready::Lest
+Recent::Riċenti
+Recent files – quick access to last 5 opened playlists.::Fajls riċenti - aċċess rapidu għall-aħħar 5 playlists miftuħa.
+Recent playlists::Playlists riċenti
+Refresh Code::Aġġorna l-Kodiċi
+Refresh EPG::Aġġorna l-EPG
+Refresh EPG List::Aġġorna l-Lista EPG
+Refresh from GitHub::Aġġorna minn GitHub
+Refresh List::Aġġorna l-Lista
+Reload GUI::Reload GUI
+Remove Command::Neħħi Kmand
+Rename Group::Semmi mill-ġdid tal-Grupp
+Rename group '{0}' to:::Semmi l-grupp '{0}' għal:
+Repository::Repożitorju
+Reset Order::Irrisettja l-Ordni
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::Riżultati: 'Biss fl-Ewwel', 'Biss fit-Tieni', 'Fit-It-Tnejn' – b'kodifikazzjoni tal-kulur tal-istatus.
+Save::Ħlief
+SAVE::SAVE
+Save – persists all settings without reloading current playlist.::Issejvja – jippersisti l-issettjar kollha mingħajr ma terġa’ tgħabbi l-playlist attwali.
+Save as...::Ħlief bħala...
+Save current playlist to a new M3U file::Issejvja playlist attwali għal fajl M3U ġdid
+Save Favorites::Ħlief Favourites
+Save Mapping::Ħlief Mapping
+Save Playlist::Ħlief Playlist
+Save Status::Issejvja l-Istatus
+Saved::Salvat
+Search channel::Fittex kanal
+Search channels by name::Fittex kanali bl-isem
+Search channels...::Fittex kanali...
+sec::taqs
+Second playlist loaded: {0} channels::It-tieni playlist mgħobbija: {0} kanali
+Select a channel to play.::Agħżel kanal biex tilgħab.
+Select a playlist first.::Agħżel playlist l-ewwel.
+Select target group:::Agħżel il-grupp fil-mira:
+Select Theme::Agħżel Tema
+Selected theme is saved and applied on restart.::It-tema magħżula tiġi ssejvjata u applikata mal-bidu mill-ġdid.
+Send::Ibgħat
+Send playlist to Enigma2 decoder::Ibgħat playlist lid-decoder Enigma2
+Send to Enigma2::Ibgħat lil Enigma2
+Settings::Settings
+Show List::Uri Lista
+Show only channels marked as favorites::Uri biss kanali mmarkati bħala favoriti
+Show or hide the channel list::Uri jew aħbi l-lista tal-kanali
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::Grazzi speċjali lill-komunitajiet CORVOBOYS & LinuxSat-Support għall-ittestjar u l-appoġġ.
+Start::Ibda
+Status::Status
+Stop::Waqqaf
+Stopped::Waqqaf
+Stream URL::Stream URL
+Stream URLs::Stream URLs
+Success::Suċċess
+Support::Appoġġ
+Support the developer::Appoġġ lill-iżviluppatur
+Target Field::Target Field
+Telnet command:::kmand Telnet:
+Telnet Commander::Kmandant Telnet
+Telnet Config::Konfigurazzjoni Telnet
+Telnet Configuration::Konfigurazzjoni Telnet
+Telnet Console::Telnet Console
+Telnet host not configured. Please set it in Settings.::Il-host Telnet mhux ikkonfigurat. Jekk jogħġbok issettjaha fis-Settings.
+Telnet password is empty. Do you want to continue?::Il-password Telnet hija vojta. Trid tkompli?
+Telnet username not configured. Please set it in Settings.::L-isem tal-utent Telnet mhux ikkonfigurat. Jekk jogħġbok issettjaha fis-Settings.
+Thanks to::Grazzi lil
+Theme picker::Picker tat-tema
+Theme picker – accessible via Tools menu on main toolbar.::Picker tat-tema - aċċessibbli permezz tal-menu tal-Għodda fuq il-bar tal-għodda prinċipali.
+Themes::Temi
+Time::Ħin
+Title::Titolu
+Tools::Għodda
+Total::Total
+Total channels in loaded playlist::Stazzjonijiet totali fil-playlist mgħobbija
+TV Guide (EPG)::Gwida tat-TV (EPG)
+TvgId::TvgId
+Type channel name to filter::Ittajpja l-isem tal-kanal biex tiffiltra
+UI: MaterialDesignThemes.Wpf::UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::Ma tistax tiskopri l-format awtomatikament. Jekk jogħġbok agħżel JSON jew M3U mid-dropdown u erġa' pprova.
+Unable to find version in remote project file.::Ma tistax issib verżjoni fil-fajl tal-proġett remot.
+Unsupported format. Please select JSON or M3U.::Format mhux appoġġjat. Jekk jogħġbok agħżel JSON jew M3U.
+Update::Aġġornament
+Update complete. Restarting...::Aġġornament komplut. Nibda mill-ġdid...
+Update Error::Żball ta' Aġġornament
+Update failed: ::Aġġornament falla:
+Updated::Aġġornat
+Updates::Aġġornamenti
+Upload Error::Żball Upload
+URL::URL
+URL (primary)::URL (primarja)
+URL Check::Iċċekkja l-URL
+URL list (one per line)::Lista tal-URL (wieħed għal kull linja)
+URLs & Status::URLs & Status
+Version::Verżjoni
+Version {0}.{1}.{2}::Verżjoni {0}.{1}.{2}
+Version unknown::Verżjoni mhux magħrufa
+Waiting for LiveGardenTVPlus to close...::Nistennew li LiveGardenTVPlus jagħlaq...
+Warning::Twissija
+WebView2: Microsoft Edge WebView2::WebView2: Microsoft Edge WebView2
+Youtube URL::Youtube URL
+Youtube URLs::URLs Youtube

@@ -29,8 +29,10 @@ namespace LiveGardenTVPlus.Views
             CorvoBoysLink.Text = LanguageManager.GetTranslation("CORVOBOYS.ORG");
             LinuxSatLink.Text = LanguageManager.GetTranslation("LINUXSAT-SUPPORT.COM");
             ChangelogHeader.Text = LanguageManager.GetTranslation("Changelog");
+            /*
             PayPalLink.Text = LanguageManager.GetTranslation("PayPal");
             KoFiLink.Text = LanguageManager.GetTranslation("Ko-fi");
+            */
             DonationHeader.Text = LanguageManager.GetTranslation("Support the developer");
             DonationNote.Text = LanguageManager.GetTranslation("(Completely voluntary – no features are blocked)");
             SupportButton.Content = LanguageManager.GetTranslation("Support");
@@ -41,6 +43,8 @@ namespace LiveGardenTVPlus.Views
         private string GetVersion()
         {
             var version = Assembly.GetExecutingAssembly().GetName().Version;
+            if (version == null)
+                return "0.0.0";
             return $"{version.Major}.{version.Minor}.{version.Build}";
         }
 
@@ -64,7 +68,7 @@ namespace LiveGardenTVPlus.Views
 
         private async Task LoadChangelogAsync()
         {
-            string changelog = await FetchChangelogFromReadmeAsync();
+            string? changelog = await FetchChangelogFromReadmeAsync();
             if (string.IsNullOrEmpty(changelog))
             {
                 changelog = @"✨ Key Features
@@ -85,7 +89,7 @@ namespace LiveGardenTVPlus.Views
             ChangelogText.Text = changelog;
         }
 
-        private async Task<string> FetchChangelogFromReadmeAsync()
+        private async Task<string?> FetchChangelogFromReadmeAsync()
         {
             const string readmeUrl = "https://raw.githubusercontent.com/OwnerPlugins/LiveGardenTVPlus/refs/heads/main/README.md";
             try
@@ -102,7 +106,7 @@ namespace LiveGardenTVPlus.Views
             }
         }
 
-        private string ExtractChangelog(string readme)
+        private string? ExtractChangelog(string readme)
         {
             var match = Regex.Match(readme, @"## Changelog(.*?)(?=\n## Getting started|\z)", RegexOptions.Singleline);
             if (!match.Success) return null;

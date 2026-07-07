@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): (Потпуно добровољно – ниједна функција није блокирана)
-(No description): (без описа)
-• Add / rename / delete groups.: • Додај / преименуј / избриши групе.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Клизач бафера: подесите ХЛС бафер (1-10 секунди).
-• Check URL availability (only visible channels).: • Проверите доступност УРЛ адресе (само видљиви канали).
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Уредите називе канала, групе, УРЛ адресе, логотипе, твг-ид, земљу, језике, фаворите.
-• Edit multiple URLs per channel (popup window).: • Уредите више УРЛ адреса по каналу (искачући прозор).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Обогати ЕПГ-ом: додаје недостајући твг-ид користећи нејасно подударање.
-• EPG info displayed in status bar for current channel.: • ЕПГ информације приказане у статусној траци за тренутни канал.
-• Export OK / FAIL / filtered lists as M3U or JSON.: • Извезите ОК / ФАИЛ / филтриране листе као М3У или ЈСОН.
-• Fetch logos from remote repository (OwnerPlugins/logos).: • Преузмите логотипе из удаљеног спремишта (ОвнерПлугинс/логотипи).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • УИ преко целог екрана: сакрива бочну траку и статусну траку (ЕСЦ за излаз).
-• Hide/Show channel list button.: • Дугме Сакриј/Прикажи листу канала.
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Увезите ЈСОН (локални или УРЛ) са флексибилним мапирањем поља (аутоматско откривање, чување мапирања).
-• Picture‑in‑Picture (PIP) button.: • Дугме Слика у слици (ПИП).
-• Playback speed: 0.5x, 1x, 2x buttons.: • Брзина репродукције: 0,5к, 1к, 2к дугмад.
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Сортирајте било коју колону кликом на заглавље; користите 'Ресет Ордер' да бисте се вратили на првобитни редослед.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Тимесхифт: паузирајте пренос уживо; превуците клизач да бисте се вратили назад; притисните 'Уживо' да се вратите.
-▶ Play Media: ▶ Пусти медије
-◀ Previous: ◀ Претходно
-16 colour themes + Light/Dark variants.: 16 тема боја + светле/тамне варијанте.
-A new version is available. Do you want to update now?: Доступна је нова верзија. Да ли желите да ажурирате сада?
-Access via 'Compare' button in Playlist Editor or Tools menu.: Приступите преко дугмета 'Упореди' у уређивачу плејлисте или менију Алатке.
-Access via 'Edit Playlist' button on main toolbar.: Приступите преко дугмета „Уреди плејлисту“ на главној траци са алаткама.
-Actions: Акције
-Add Command: Додај команду
-Add Group: Додај групу
-Add Mapping: Додај мапирање
-Adjust buffer size (1-10 seconds): Подесите величину бафера (1-10 секунди)
-Advanced IDs: Напредни ИД-ови
-Application status: Статус апликације
-Apply: Пријавите се
-Apply / Import: Примени / Увези
-Apply changes: Примени промене
-Apply Filters: Примени филтере
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Да ли сте сигурни да желите да поново учитате Енигма2 ГУИ?\н\нИнтефејс ће се поново покренути (црни екран на неколико секунди).
-Auto (recommended): аутоматски (препоручено)
-Auto-detect: Ауто-детецт
-Automatic check on startup – or click 'Check for updates' in Tools menu.: Аутоматска провера при покретању – или кликните на „Провери ажурирања“ у менију Алатке.
-Bouquet Name: Име букета
-Bouquet sent and Enigma2 channel list reloaded.: Букет је послат и листа канала Енигма2 поново учитана.
-Buffer (seconds): бафер (секунде)
-Buffer size – adjust HLS buffer seconds.: Величина бафера – подесите секунде ХЛС бафера.
-Cache: Цацхе
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Кеш фолдер: %ТЕМП%\\ЛивеГарденТВПлус\\епг_цацхе
-Cancel: Откажи
-CANCEL: ЦАНЦЕЛ
-Cannot open browser: Није могуће отворити претраживач
-Category: Категорија
-Changelog: Цхангелог
-Channel Details: Детаљи о каналу
-Channel Down: Цханнел Довн
-Channel Info: Информације о каналу
-Channel Name: Назив канала
-Channel Up: Цханнел Уп
-channels from: канала из
-channels from JSON: канали из ЈСОН-а
-channels from JSON URL: канала из ЈСОН УРЛ-а
-channels from URL: канала са УРЛ-а
-Check Duplicates: Проверите дупликате
-Check for updates: Проверите ажурирања
-Check URLs: Проверите УРЛ-ове
-Clear: Јасно
-Clear EPG Cache: Обришите ЕПГ кеш меморију
-Clear Filters: Обриши филтере
-Clear search: Обриши претрагу
-Click for details: Кликните за детаље
-Close: Затвори
-Code: Код
-Code copied to clipboard.: Код је копиран у међуспремник.
-Command name:: Име команде:
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Заједница и тестирање: ЦорвоБоис (цорвобоис.орг) & ЛинукСат-Суппорт.цом
-Compare: Упоредите
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Упоредите према: Приоритету (име→група→твг-ид), Име, Група (разликује велика и мала слова) или ТвгИд.
-Compare Playlists: Упоредите плејлисте
-Compare two playlists – load first (current playlist) and second (from file or URL).: Упоредите две листе песама – учитајте прву (тренутна листа песама) и другу (из датотеке или УРЛ-а).
-Compare...: Упоредите...
-Comparison results: {0} channels: Резултати поређења: {0} канала
-Configuration Missing: Недостаје конфигурација
-Confirm Delete: Потврдите брисање
-Confirm Reload: Потврдите поновно учитавање
-Connect: Повежите се
-Connected: Повезано
-Copied: Копирано
-Copy: Копирај
-CORVOBOYS.ORG: ЦОРВОБОИС.ОРГ
-Country: Држава
-Credits: Цредитс
-Delete channel '{0}'?: Избрисати канал „{0}“?
-Delete Group: Избриши групу
-Delete Selected: Избриши изабрано
-Deleted: Избрисано
-Description: Опис
-Details: Детаљи
-Developed by Lululla: Развио Лулулла
-Developer: Lululla: Програмер: Лулулла
-Disconnect: Прекини везу
-Disconnected: Дисцоннецтед
-Display as: : Прикажи као:
-Do you want to load this edited playlist now?: Да ли желите да сада учитате ову уређену плејлисту?
-Double speed (2x): Двострука брзина (2к)
-Downloading playlist...: Преузимање плејлисте...
-Downloads ZIP, replaces files, restarts app – settings preserved.: Преузима ЗИП, замењује датотеке, поново покреће апликацију – подешавања су сачувана.
-Drag & drop – drop M3U or JSON files directly onto main window.: Превуците и испустите – испустите М3У или ЈСОН датотеке директно у главни прозор.
-Drag to seek back in buffer: Превуците да бисте тражили назад у баферу
-Duplicate URLs found:\n\n: Пронађени су дупликати УРЛ-ова:\н\н
-Edit Command: Уреди команду
-Edit command name:: Уреди име команде:
-Edit Playlist: Уреди плејлисту
-Edit telnet command:: Уреди телнет команду:
-Edit URLs: Измените УРЛ адресе
-Empty Password: Емпти Пассворд
-End: Крај
-Enrich with EPG: Обогатите ЕПГ-ом
-Enter bouquet name (without spaces):: Унесите назив букета (без размака):
-Enter JSON URL:: Унесите ЈСОН УРЛ:
-Enter new group name:: Унесите ново име групе:
-Enter playlist URL (JSON or M3U):: Унесите УРЛ плејлисте (ЈСОН или М3У):
-Enter playlist URL (M3U or JSON):: Унесите УРЛ плејлисте (М3У или ЈСОН):
-EPG: ЕПГ
-Epg & Favorites: Епг & Фаворитес
-EPG & Favorites: ЕПГ & Фаворити
-Epg & Logos: Епг & Логос
-EPG & Logos: ЕПГ & Логос
-EPG cache cleared successfully.: ЕПГ кеш је успешно обрисан.
-EPG Details: ЕПГ Детаљи
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: ЕПГ водич – дугме на главној траци са алаткама приказује пуну мрежу са детаљима програма (двапут кликните за информације).
-EPG Matching Threshold: ЕПГ Матцхинг Тхресхолд
-EPG Source: : ЕПГ Извор:
-EPG source – can be set in Settings (epgshare01 or custom URL).: ЕПГ извор – може се подесити у подешавањима (епгсхаре01 или прилагођени УРЛ).
-EPG source – choose XMLTV file or enter custom URL.: ЕПГ извор – изаберите КСМЛТВ датотеку или унесите прилагођени УРЛ.
-EPG Source Missing: ЕПГ извор недостаје
-Error: Грешка
-Error clearing cache: {0}: Грешка при чишћењу кеша: {0}
-Error loading: Грешка при учитавању
-Error loading EPG list: {0}: Грешка при учитавању ЕПГ листе: {0}
-Error loading file: {0}: Грешка при учитавању датотеке: {0}
-Error loading playlists: {0}: Грешка при учитавању плејлиста: {0}
-Error loading URL: {0}: Грешка при учитавању УРЛ адресе: {0}
-ERROR: player.html not found.: ГРЕШКА: плаиер.хтмл није пронађен.
-Exit: Изађи
-Export all: Извези све
-Export Favorites: Извези фаворите
-Export Filtered JSON: Извези филтрирани ЈСОН
-Export Filtered M3U: Експорт Филтриран М3У
-Export JSON: Извези ЈСОН
-Export KO: Извоз КО
-Export missing: Недостаје извоз
-Export OK: Извези ОК
-Export only favorite channels to a new M3U file: Извезите само омиљене канале у нову М3У датотеку
-Export results as JSON or M3U – export missing channels or all channels.: Извезите резултате као ЈСОН или М3У – извозите канале који недостају или све канале.
-Export selected: Извези изабрано
-Export Selected: Извези изабрано
-Exported: Извезено
-Exported {0} channels to {1}: Извезено {0} канала у {1}
-Extracting update...: Издвајање ажурирања...
-Failed to download playlist: Преузимање плејлисте није успело
-Failed to load playlist: Учитавање плејлисте није успело
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Ажурирање боукуетс.тв није успело. Проверите дозволе за фајлове на Енигма2 уређају.
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Отпремање букета није успело. Проверите подешавања Телнета (хост, порт, корисничко име, лозинка) и покушајте поново.
-Favorite: Фаворите
-Favorites only: Само омиљени
-Fetch Logos: Дохвати логотипе
-File {0} already exists. Overwrite?: Датотека {0} већ постоји. Заменити?
-File exists: Фајл постоји
-Filters: Филтери
-Format Detection: Формат Детецтион
-Fullscreen: Фуллсцреен
-Fullscreen (hide UI) - press ESC to exit: Цео екран (сакриј кориснички интерфејс) - притисните ЕСЦ да изађете
-Geo & Country: Гео & Цоунтри
-GeoBlocked: ГеоБлоцкед
-GitHub Error: ГитХуб грешка
-Go back to live: Врати се да живиш
-Grid: Грид
-Group: Група
-Half speed (0.5x): Пола брзине (0,5к)
-Help: Помоћ
-Hide List: Сакриј листу
-HLS playback: hls.js (MIT license): ХЛС репродукција: хлс.јс (МИТ лиценца)
-Image: Слика
-Import: Увоз
-Import cancelled or no channels mapped.: Увоз је отказан или нема мапираних канала.
-Import Error: Грешка при увозу
-Import error: {0}: Грешка при увозу: {0}
-Import from URL: Увези са УРЛ-а
-Import JSON: Увези ЈСОН
-Import JSON from URL: Увезите ЈСОН са УРЛ-а
-Import Local: Увези локално
-Imported {0} channels from code.: Увезено {0} канала из кода.
-Imported {0} channels from JSON via mapping.: Увезено {0} канала из ЈСОН-а путем мапирања.
-Imported {0} channels from URL.: Увезено {0} канала са УРЛ-а.
-In Both: У оба
-Info: Инфо
-Info on: Инфо он
-Invalid JSON: {0}: Неважећи ЈСОН: {0}
-Invalid playlist URL.: Неважећи УРЛ плејлисте.
-Invalid URL.: Неважећи УРЛ.
-Json: Јсон
-JSON: ЈСОН
-JSON parsing error: {0}: Грешка при рашчлањивању ЈСОН-а: {0}
-JSON Property: ЈСОН својство
-Ko-fi: кафу
-Language: Језик
-Language – change UI language dynamically (translations in Languages folder).: Језик – промените језик корисничког интерфејса динамички (преводи у фолдеру Језици).
-Languages: Језици
-Languages (comma): Језици (зарез)
-LINUXSAT-SUPPORT.COM: ЛИНУКССАТ-СУППОРТ.ЦОМ
-LiveGardenTVPlus Help: Помоћ за ЛивеГарденТВПлус
-LOAD: ЛОАД
-Load a playlist first.: Прво учитајте листу за репродукцију.
-Load a second playlist first.: Прво учитајте другу плејлисту.
-Load File: Учитај датотеку
-Load from file...: Учитај из датотеке...
-Load from URL: Учитај са УРЛ-а
-Load from URL...: Учитај са УРЛ-а...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Учитајте локалну М3У/ЈСОН датотеку – преко дугмета 'Учитај датотеку' (трака са алаткама) или 'Отвори датотеку' у уређивачу.
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Учитај онлајн М3У/ЈСОН УРЛ – дугме 'Учитај на мрежи' (трака са алаткама) или 'Отвори са УРЛ-а' у уређивачу.
-Load playlist file (M3U/JSON) from your computer: Учитајте датотеку листе песама (М3У/ЈСОН) са рачунара
-Loaded: Лоадед
-Loaded {0} channels from JSON file via mapping.: Учитано {0} канала из ЈСОН датотеке путем мапирања.
-Loaded {0} channels from JSON URL.: Учитано је {0} канала са ЈСОН УРЛ-а.
-Loaded {0} channels from M3U file.: Учитано {0} канала из М3У датотеке.
-Loaded {0} channels from M3U URL.: Учитано {0} канала са М3У УРЛ-а.
-Loading...: Учитавање...
-Logo: Лого
-Logo Picker – in editor, click '...' to choose logo from gallery.: Бирач логотипа – у уређивачу кликните на '...' да одаберете лого из галерије.
-Logo Preview: Преглед логотипа
-Logo URL: УРЛ логотипа
-Logos – automatically download from GitHub repository (Settings → Logos Source).: Логотипи – аутоматски се преузимају из ГитХуб спремишта (Подешавања → Извор логотипа).
-Logos Matching Threshold: Праг подударања логотипа
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Складиште логотипа – изаберите власника/репо/путању (подразумевано ОвнерПлугинс/логотипи).
-Logos Source: Логос Соурце
-Logos Subfolder: Логос Субфолдер
-M3U: М3У
-M3U parsing error: {0}: Грешка при рашчлањивању М3У: {0}
-Map JSON properties to channel fields:: Мапирајте ЈСОН својства у поља канала:
-Mapping saved for future imports of this file.: Мапирање је сачувано за будуће увозе ове датотеке.
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Прагови подударања – подесите осетљивост на нејасно подударање за ЕПГ и логотипе.
-Mini Player: Мини Плаиер
-Move to Group: Пређите у групу
-Moved: Пресељено
-Name: Име
-Nanoid: Наноид
-Network error: Мрежна грешка
-New Playlist: Нова листа за репродукцију
-Next: Следеће
-Next ▶: Следећи ▶
-No .m3u files found on GitHub repository.: У ГитХуб спремишту нису пронађене .м3у датотеке.
-No cache folder found.: Није пронађен ниједан кеш фолдер.
-No channel selected: Није изабран ниједан канал
-No channels could be mapped or import cancelled.: Ниједан канал није могао бити мапиран или увоз отказан.
-No channels could be mapped. Check your mapping rules.: Ниједан канал није могао бити мапиран. Проверите правила мапирања.
-No channels found in JSON.: Ниједан канал није пронађен у ЈСОН-у.
-No channels found in M3U.: Ниједан канал није пронађен у М3У.
-No channels loaded from JSON URL.: Нема канала учитаних са ЈСОН УРЛ-а.
-No channels loaded from M3U URL.: Нема канала учитаних са М3У УРЛ-а.
-No channels loaded from M3U.: Нема учитаних канала са М3У.
-No channels loaded.: Нема учитаних канала.
-No channels mapped: Нема мапираних канала
-No channels selected.: Није изабран ниједан канал.
-No channels to import.: Нема канала за увоз.
-No duplicate URLs found.: Није пронађен ниједан дупликат УРЛ-а.
-No EPG data: Нема ЕПГ података
-No EPG information available for this channel.: Нема доступних ЕПГ информација за овај канал.
-No EPG source configured. Please select one from the combo or go to Settings.: Није конфигурисан ЕПГ извор. Изаберите једну из комбинације или идите на Подешавања.
-No EPG source configured. Would you like to open settings to select one?: Није конфигурисан ЕПГ извор. Да ли желите да отворите подешавања да бисте изабрали једно?
-No favorite channels to export.: Нема омиљених канала за извоз.
-No missing channels to export.: Нема канала за извоз.
-No playlist found: Плејлиста није пронађена
-No second playlist loaded.: Није учитана друга плејлиста.
-No stream URL available for this channel.: УРЛ стрима није доступан за овај канал.
-No text to import.: Нема текста за увоз.
-No updates available.: Нема доступних ажурирања.
-Normal speed (1x): Нормална брзина (1к)
-Not connected to the box.: Није повезан са кутијом.
-Now: Сада
-OK: ОК
-Online Playlist: Онлине Плаилист
-Online playlist – select from GitHub repository (auto‑refresh).: Листа за репродукцију на мрежи – изаберите из ГитХуб спремишта (аутоматско освежавање).
-Only in First: Само у Првом
-Only in Second: Тек у Другом
-Open File...: Отвори датотеку...
-Open from URL: Отвори са УРЛ-а
-Open Playlist: Отворите листу за репродукцију
-Pause/Resume live stream: Паузирај/настави стрим уживо
-Paused: Паузирано
-PayPal: ПаиПал
-Picture-in-Picture mode: Режим слика у слици
-Play/Pause: Пусти/Пауза
-Player Media Controls: Контроле медија плејера
-Playing Media: Репродукција медија
-Playlist & Groups: Плејлиста и групе
-Playlist Comparison: Поређење плејлисте
-Playlist Editor: Уређивач плејлисте
-Playlist Loading: Плејлиста се учитава
-Playlist Management: Управљање плејлистом
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Складиште плејлисте: ОвнерПлугинс/ТивуСтреамЛист (италијански и међународни стримови)
-Please select a program first.: Прво изаберите програм.
-Preview (first 5 channels): Преглед (првих 5 канала)
-Preview error: {0}: Грешка прегледа: {0}
-Program Details: Детаљи програма
-Ready: Спреман
-Ready.: Спреман.
-Recent: Недавно
-Recent files – quick access to last 5 opened playlists.: Недавни фајлови – брз приступ последњих 5 отворених листа песама.
-Recent playlists: Недавне плејлисте
-Refresh Code: Освежи код
-Refresh EPG: Освежите ЕПГ
-Refresh EPG List: Освежите ЕПГ листу
-Refresh from GitHub: Освежите са ГитХуб-а
-Refresh List: Освежите листу
-Reload GUI: Поново учитај ГУИ
-Remove Command: Уклони команду
-Rename Group: Преименуј групу
-Rename group '{0}' to:: Преименујте групу „{0}“ у:
-Repository: Репозиторијум
-Reset Order: Ресетуј редослед
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Резултати: 'Само у првом', 'Само у другом', 'У оба' – са статусним кодирањем боја.
-Save: Сачувај
-SAVE: САВЕ
-Save – persists all settings without reloading current playlist.: Сачувај – задржава сва подешавања без поновног учитавања тренутне листе песама.
-Save as...: Сачувај као...
-Save current playlist to a new M3U file: Сачувајте тренутну листу песама у нову М3У датотеку
-Save Mapping: Сачувај мапирање
-Save Playlist: Сачувај листу за репродукцију
-Save Status: Сачувај статус
-Saved: Сачувано
-Search channel: : Претражи канал:
-Search channels by name: Претражујте канале по имену
-Search channels...: Претражи канале...
-sec: сец
-Second playlist loaded: {0} channels: Учитана друга плејлиста: {0} канала
-Select a channel to play.: Изаберите канал за репродукцију.
-Select a playlist first.: Прво изаберите листу песама.
-Select target group:: Изаберите циљну групу:
-Select Theme: Изаберите Тема
-Selected theme is saved and applied on restart.: Изабрана тема се чува и примењује при поновном покретању.
-Send: Пошаљи
-Send playlist to Enigma2 decoder: Пошаљите плејлисту на Енигма2 декодер
-Send to Enigma2: Пошаљи на Енигма2
-Settings: Подешавања
-Show List: Прикажи листу
-Show only channels marked as favorites: Прикажи само канале означене као омиљени
-Show or hide the channel list: Прикажите или сакријте листу канала
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Посебно захваљујемо ЦОРВОБОИС & ЛинукСат-Суппорт заједницама на тестирању и подршци.
-Start: Почни
-Status: Статус
-Stop: Стани
-Stopped: Заустављено
-Stream URL: УРЛ стрима
-Stream URLs: УРЛ-ови стрима
-Success: Успех
-Support: Подршка
-Support the developer: Подржите програмера
-Target Field: Таргет Фиелд
-Telnet command:: Телнет команда:
-Telnet Commander: Телнет Цоммандер
-Telnet Config: Телнет Цонфиг
-Telnet Console: Телнет конзола
-Telnet host not configured. Please set it in Settings.: Телнет хост није конфигурисан. Подесите га у подешавањима.
-Telnet password is empty. Do you want to continue?: Телнет лозинка је празна. Да ли желите да наставите?
-Telnet username not configured. Please set it in Settings.: Телнет корисничко име није конфигурисано. Подесите га у подешавањима.
-Thanks to: Хвала на
-Theme picker: Бирач тема
-Theme picker – accessible via Tools menu on main toolbar.: Бирач тема – доступан преко менија Алатке на главној траци са алаткама.
-Themes: Теме
-Time: Време
-Title: Наслов
-Tools: Алати
-Total: Укупно
-Total channels in loaded playlist: Укупан број канала на учитаној плејлисти
-TV Guide (EPG): ТВ водич (ЕПГ)
-TvgId: ТвгИд
-Type channel name to filter: Унесите назив канала да бисте филтрирали
-UI: MaterialDesignThemes.Wpf: УИ: МатериалДесигнТхемес.Впф
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Није могуће аутоматски открити формат. Изаберите ЈСОН или М3У из падајућег менија и покушајте поново.
-Unable to find version in remote project file.: Није могуће пронаћи верзију у датотеци удаљеног пројекта.
-Unsupported format. Please select JSON or M3U.: Неподржан формат. Изаберите ЈСОН или М3У.
-Update: Ажурирај
-Update complete. Restarting...: Ажурирање је завршено. Поновно покретање...
-Update Error: Грешка при ажурирању
-Update failed: : Ажурирање није успело:
-Updates: Ажурирања
-Upload Error: Грешка при отпремању
-URL: УРЛ
-URL (primary): УРЛ (примарни)
-URL Check: Провера УРЛ-а
-URL list (one per line): Листа УРЛ адреса (једна по реду)
-URLs & Status: УРЛ адресе и статус
-Version: Верзија
-Version {0}.{1}.{2}: Верзија {0}.{1}.{2}
-Version unknown: Верзија непозната
-Waiting for LiveGardenTVPlus to close...: Чека се да се ЛивеГарденТВПлус затвори...
-Warning: Упозорење
-WebView2: Microsoft Edge WebView2: ВебВиев2: Мицрософт Едге ВебВиев2
-Youtube URL: Иоутубе УРЛ
-Youtube URLs: Иоутубе УРЛ-ови
+(Completely voluntary – no features are blocked)::(Потпуно добровољно – ниједна функција није блокирана)
+(No description)::(без описа)
+• Add / rename / delete groups.::• Додај / преименуј / избриши групе.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• Клизач бафера: подесите ХЛС бафер (1-10 секунди).
+• Check URL availability (only visible channels).::• Проверите доступност УРЛ адресе (само видљиви канали).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• Уредите називе канала, групе, УРЛ адресе, логотипе, твг-ид, земљу, језике, фаворите.
+• Edit multiple URLs per channel (popup window).::• Уредите више УРЛ адреса по каналу (искачући прозор).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• Обогати ЕПГ-ом: додаје недостајући твг-ид користећи нејасно подударање.
+• EPG info displayed in status bar for current channel.::• ЕПГ информације приказане у статусној траци за тренутни канал.
+• Export OK / FAIL / filtered lists as M3U or JSON.::• Извезите ОК / ФАИЛ / филтриране листе као М3У или ЈСОН.
+• Fetch logos from remote repository (OwnerPlugins/logos).::• Преузмите логотипе из удаљеног спремишта (ОвнерПлугинс/логотипи).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• УИ преко целог екрана: сакрива бочну траку и статусну траку (ЕСЦ за излаз).
+• Hide/Show channel list button.::• Дугме Сакриј/Прикажи листу канала.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• Увезите ЈСОН (локални или УРЛ) са флексибилним мапирањем поља (аутоматско откривање, чување мапирања).
+• Picture‑in‑Picture (PIP) button.::• Дугме Слика у слици (ПИП).
+• Playback speed: 0.5x, 1x, 2x buttons.::• Брзина репродукције: дугмад 0,5к, 1к, 2к.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• Сортирајте било коју колону кликом на заглавље; користите 'Ресет Ордер' да бисте се вратили на првобитни редослед.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• Тимесхифт: паузирајте пренос уживо; превуците клизач да бисте се вратили назад; притисните 'Уживо' да се вратите.
+▶ Play Media::▶ Пусти медије
+◀ Previous::◀ Претходно
+16 colour themes + Light/Dark variants.::16 тема боја + светле/тамне варијанте.
+A new version is available. Do you want to update now?::Доступна је нова верзија. Да ли желите да ажурирате сада?
+Access via 'Compare' button in Playlist Editor or Tools menu.::Приступите преко дугмета 'Упореди' у уређивачу плејлисте или менију Алатке.
+Access via 'Edit Playlist' button on main toolbar.::Приступите преко дугмета „Уреди плејлисту“ на главној траци са алаткама.
+Actions::Акције
+Add Command::Додај команду
+Add Group::Додај групу
+Add Mapping::Додај мапирање
+Adjust buffer size (1-10 seconds)::Подесите величину бафера (1-10 секунди)
+Advanced IDs::Напредни ИД-ови
+All channels marked as favorites::Сви канали означени као омиљени
+All favorites removed::Сви фаворити су уклоњени
+Application status::Статус апликације
+Apply::Пријавите се
+Apply / Import::Примени / Увези
+Apply changes::Примени промене
+Apply Filters::Примени филтере
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::Да ли сте сигурни да желите да поново учитате Енигма2 ГУИ?\н\нИнтефејс ће се поново покренути (црни екран на неколико секунди).
+Auto (recommended)::аутоматски (препоручено)
+Auto-detect::Ауто-детецт
+Automatic check on startup – or click 'Check for updates' in Tools menu.::Аутоматска провера при покретању – или кликните на „Провери ажурирања“ у менију Алатке.
+Bouquet Name::Име букета
+Bouquet sent and Enigma2 channel list reloaded.::Букет је послат и листа канала Енигма2 поново учитана.
+Buffer (seconds)::бафер (секунде)
+Buffer size – adjust HLS buffer seconds.::Величина бафера – подесите секунде ХЛС бафера.
+Cache::Цацхе
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::Кеш фолдер: %ТЕМП%\\ЛивеГарденТВПлус\\епг_цацхе
+Cancel::Откажи
+CANCEL::ЦАНЦЕЛ
+Cannot open browser::Није могуће отворити претраживач
+Category::Категорија
+Changelog::Цхангелог
+Channel Details::Детаљи о каналу
+Channel Down::Цханнел Довн
+Channel Info::Информације о каналу
+Channel Name::Назив канала
+Channel Up::Цханнел Уп
+Channel updated successfully.::Канал је успешно ажуриран.
+channels from::канала из
+channels from JSON::канали из ЈСОН-а
+channels from JSON URL::канала из ЈСОН УРЛ-а
+channels from URL::канала са УРЛ-а
+Check Duplicates::Проверите дупликате
+Check for updates::Проверите ажурирања
+Check URLs::Проверите УРЛ адресе
+Clear::Јасно
+Clear EPG Cache::Обришите ЕПГ кеш меморију
+Clear Filters::Обриши филтере
+Clear search::Обриши претрагу
+Click for details::Кликните за детаље
+Close::Затвори
+Close current playlist::Затвори тренутну плејлисту
+Close Playlist::Затвори плејлисту
+Code::Код
+Code copied to clipboard.::Код је копиран у међуспремник.
+Command name:::Име команде:
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::Заједница и тестирање: ЦорвоБоис (цорвобоис.орг) & ЛинукСат-Суппорт.цом
+Compare::Упоредите
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::Упоредите према: Приоритету (име→група→твг-ид), Име, Група (разликује велика и мала слова) или ТвгИд.
+Compare Playlists::Упоредите плејлисте
+Compare two playlists – load first (current playlist) and second (from file or URL).::Упоредите две листе песама – учитајте прву (тренутна листа песама) и другу (из датотеке или УРЛ-а).
+Compare...::Упоредите...
+Comparison results: {0} channels::Резултати поређења: {0} канала
+Configuration Missing::Недостаје конфигурација
+Confirm Delete::Потврдите брисање
+Confirm Reload::Потврдите поновно учитавање
+Connect::Повежите се
+Connected::Повезано
+Copied::Копирано
+Copy::Копирај
+CORVOBOYS.ORG::ЦОРВОБОИС.ОРГ
+Country::Држава
+Credits::Цредитс
+Delete channel '{0}'?::Избрисати канал „{0}“?
+Delete Group::Избриши групу
+Delete Selected::Избриши изабрано
+Deleted::Избрисано
+Description::Опис
+Details::Детаљи
+Developed by Lululla::Развио Лулулла
+Developer: Lululla::Програмер: Лулулла
+Disconnect::Прекини везу
+Disconnected::Дисцоннецтед
+Display as::Прикажи као
+Do you want to load this edited playlist now?::Да ли желите да сада учитате ову уређену плејлисту?
+Double speed (2x)::Двострука брзина (2к)
+Downloading playlist...::Преузимање плејлисте...
+Downloads ZIP, replaces files, restarts app – settings preserved.::Преузима ЗИП, замењује датотеке, поново покреће апликацију – подешавања су сачувана.
+Drag & drop – drop M3U or JSON files directly onto main window.::Превуците и испустите – испустите М3У или ЈСОН датотеке директно у главни прозор.
+Drag to seek back in buffer::Превуците да бисте тражили назад у баферу
+Duplicate URLs found:\n\n::Пронађени дупликати УРЛ-ова:\н\н
+Edit Command::Уреди команду
+Edit command name:::Уреди име команде:
+Edit Playlist::Уреди плејлисту
+Edit telnet command:::Уреди телнет команду:
+Edit URLs::Измените УРЛ адресе
+Empty Password::Емпти Пассворд
+End::Крај
+Enigma2::Енигма2
+Enrich with EPG::Обогатите ЕПГ-ом
+Enter bouquet name (without spaces):::Унесите назив букета (без размака):
+Enter JSON URL:::Унесите ЈСОН УРЛ:
+Enter new group name:::Унесите ново име групе:
+Enter playlist URL (JSON or M3U):::Унесите УРЛ плејлисте (ЈСОН или М3У):
+Enter playlist URL (M3U or JSON):::Унесите УРЛ плејлисте (М3У или ЈСОН):
+EPG::ЕПГ
+Epg & Favorites::Епг & Фаворитес
+EPG & Favorites::ЕПГ & Фаворити
+Epg & Logos::Епг & Логос
+EPG & Logos::ЕПГ & Логос
+EPG cache cleared successfully.::ЕПГ кеш је успешно обрисан.
+EPG Details::ЕПГ Детаљи
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::ЕПГ водич – дугме на главној траци са алаткама приказује пуну мрежу са детаљима програма (двапут кликните за информације).
+EPG Matching Threshold::ЕПГ Матцхинг Тхресхолд
+EPG Source::ЕПГ Соурце
+EPG source – can be set in Settings (epgshare01 or custom URL).::ЕПГ извор – може се подесити у подешавањима (епгсхаре01 или прилагођени УРЛ).
+EPG source – choose XMLTV file or enter custom URL.::ЕПГ извор – изаберите КСМЛТВ датотеку или унесите прилагођени УРЛ.
+EPG Source Missing::ЕПГ извор недостаје
+Error::Грешка
+Error clearing cache: {0}::Грешка при чишћењу кеша: {0}
+Error loading::Грешка при учитавању
+Error loading EPG list: {0}::Грешка при учитавању ЕПГ листе: {0}
+Error loading file: {0}::Грешка при учитавању датотеке: {0}
+Error loading playlists: {0}::Грешка при учитавању плејлиста: {0}
+Error loading URL: {0}::Грешка при учитавању УРЛ адресе: {0}
+ERROR: player.html not found.::ГРЕШКА: плаиер.хтмл није пронађен.
+Exit::Изађи
+Export all::Извези све
+Export Favorites::Извези фаворите
+Export Filtered JSON::Извези филтрирани ЈСОН
+Export Filtered M3U::Експорт Филтриран М3У
+Export JSON::Извези ЈСОН
+Export KO::Извоз КО
+Export missing::Недостаје извоз
+Export OK::Извези ОК
+Export only favorite channels to a new M3U file::Извезите само омиљене канале у нову М3У датотеку
+Export results as JSON or M3U – export missing channels or all channels.::Извезите резултате као ЈСОН или М3У – извозите канале који недостају или све канале.
+Export selected::Извези изабрано
+Export Selected::Извези изабрано
+Exported::Извезено
+Exported {0} channels to {1}::Извезено {0} канала у {1}
+Extracting update...::Издвајање ажурирања...
+Failed to download playlist::Преузимање плејлисте није успело
+Failed to load playlist::Учитавање плејлисте није успело
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::Ажурирање боукуетс.тв није успело. Проверите дозволе за фајлове на Енигма2 уређају.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::Отпремање букета није успело. Проверите подешавања Телнет-а (хост, порт, корисничко име, лозинка) и покушајте поново.
+Favorite::Фаворите
+Favorites::Фаворитес
+Favorites only::Само омиљени
+Fetch Logos::Дохвати логотипе
+File::Филе
+File {0} already exists. Overwrite?::Датотека {0} већ постоји. Заменити?
+File exists::Фајл постоји
+Filters::Филтери
+Format Detection::Формат Детецтион
+Fullscreen::Фуллсцреен
+Fullscreen (hide UI) - press ESC to exit::Цео екран (сакриј кориснички интерфејс) - притисните ЕСЦ да изађете
+Geo & Country::Гео & Цоунтри
+GeoBlocked::ГеоБлоцкед
+GitHub Error::ГитХуб грешка
+Go back to live::Врати се да живиш
+Grid::Грид
+Group::Група
+Half speed (0.5x)::Пола брзине (0,5к)
+Help::Помоћ
+Hide List::Сакриј листу
+HLS playback: hls.js (MIT license)::ХЛС репродукција: хлс.јс (МИТ лиценца)
+Image::Слика
+Import::Увоз
+Import cancelled or no channels mapped.::Увоз је отказан или нема мапираних канала.
+Import Error::Грешка при увозу
+Import error: {0}::Грешка при увозу: {0}
+Import from URL::Увези са УРЛ-а
+Import JSON::Увези ЈСОН
+Import JSON from URL::Увезите ЈСОН са УРЛ-а
+Import Local::Увези локално
+Imported {0} channels from code.::Увезено {0} канала из кода.
+Imported {0} channels from JSON via mapping.::Увезено {0} канала из ЈСОН-а путем мапирања.
+Imported {0} channels from URL.::Увезено {0} канала са УРЛ-а.
+In Both::У оба
+Info::Инфо
+Info on::Инфо он
+Invalid JSON: {0}::Неважећи ЈСОН: {0}
+Invalid playlist URL.::Неважећи УРЛ плејлисте.
+Invalid URL.::Неважећи УРЛ.
+Json::Јсон
+JSON::ЈСОН
+JSON parsing error: {0}::Грешка при рашчлањивању ЈСОН-а: {0}
+JSON Property::ЈСОН својство
+Ko-fi::кафу
+Language::Језик
+Language – change UI language dynamically (translations in Languages folder).::Језик – промените језик корисничког интерфејса динамички (преводи у фолдеру Језици).
+Languages::Језици
+Languages (comma)::Језици (зарез)
+LINUXSAT-SUPPORT.COM::ЛИНУКССАТ-СУППОРТ.ЦОМ
+LiveGardenTVPlus Help::Помоћ за ЛивеГарденТВПлус
+LOAD::ЛОАД
+Load a playlist first.::Прво учитајте листу за репродукцију.
+Load a second playlist first.::Прво учитајте другу плејлисту.
+Load File::Учитај датотеку
+Load from file...::Учитај из датотеке...
+Load from URL::Учитај са УРЛ-а
+Load from URL...::Учитај са УРЛ-а...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::Учитајте локалну М3У/ЈСОН датотеку – преко дугмета 'Учитај датотеку' (трака са алаткама) или 'Отвори датотеку' у уређивачу.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::Учитај онлајн М3У/ЈСОН УРЛ – дугме 'Учитај на мрежи' (трака са алаткама) или 'Отвори са УРЛ-а' у уређивачу.
+Load Playlist::Учитај плејлисту
+Load playlist file (M3U/JSON) from your computer::Учитајте датотеку листе песама (М3У/ЈСОН) са рачунара
+Loaded::Лоадед
+Loaded {0} channels from JSON file via mapping.::Учитано {0} канала из ЈСОН датотеке путем мапирања.
+Loaded {0} channels from JSON URL.::Учитано {0} канала са ЈСОН УРЛ-а.
+Loaded {0} channels from M3U file.::Учитано {0} канала из М3У датотеке.
+Loaded {0} channels from M3U URL.::Учитано {0} канала са М3У УРЛ-а.
+Loading...::Учитавање...
+Logo::Лого
+Logo Picker – in editor, click '...' to choose logo from gallery.::Бирач логотипа – у уређивачу кликните на '...' да одаберете лого из галерије.
+Logo Preview::Преглед логотипа
+Logo URL::УРЛ логотипа
+Logos – automatically download from GitHub repository (Settings → Logos Source).::Логотипи – аутоматски се преузимају из ГитХуб спремишта (Подешавања → Извор логотипа).
+Logos Matching Threshold::Праг подударања логотипа
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::Складиште логотипа – изаберите власника/репо/путању (подразумевано ОвнерПлугинс/логотипи).
+Logos Source::Логос Соурце
+Logos Subfolder::Логос Субфолдер
+M3U::М3У
+M3U parsing error: {0}::Грешка при рашчлањивању М3У: {0}
+Map JSON properties to channel fields:::Мапирајте ЈСОН својства у поља канала:
+Mapping saved for future imports of this file.::Мапирање је сачувано за будуће увозе ове датотеке.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::Прагови подударања – подесите осетљивост на нејасно подударање за ЕПГ и логотипе.
+Mini Player::Мини Плаиер
+Move to Group::Пређите у групу
+Moved::Пресељено
+Name::Име
+Nanoid::Наноид
+Network error::Мрежна грешка
+New Playlist::Нова листа за репродукцију
+Next::Следеће
+Next ▶::Следећи ▶
+No .m3u files found on GitHub repository.::У ГитХуб спремишту нису пронађене .м3у датотеке.
+No cache folder found.::Није пронађен ниједан кеш фолдер.
+No channel selected::Није изабран ниједан канал
+No channel selected.::Није изабран ниједан канал.
+No channels could be mapped or import cancelled.::Ниједан канал није могао бити мапиран или увоз отказан.
+No channels could be mapped. Check your mapping rules.::Ниједан канал није могао бити мапиран. Проверите правила мапирања.
+No channels found in JSON.::Ниједан канал није пронађен у ЈСОН-у.
+No channels found in M3U.::Ниједан канал није пронађен у М3У.
+No channels loaded from JSON URL.::Нема канала учитаних са ЈСОН УРЛ-а.
+No channels loaded from M3U URL.::Нема канала учитаних са М3У УРЛ-а.
+No channels loaded from M3U.::Нема учитаних канала са М3У.
+No channels loaded.::Нема учитаних канала.
+No channels mapped::Нема мапираних канала
+No channels selected.::Није изабран ниједан канал.
+No channels to import.::Нема канала за увоз.
+No duplicate URLs found.::Није пронађен ниједан дупликат УРЛ-а.
+No EPG data::Нема ЕПГ података
+No EPG information available for this channel.::Нема доступних ЕПГ информација за овај канал.
+No EPG source configured. Please select one from the combo or go to Settings.::Није конфигурисан ЕПГ извор. Изаберите једну из комбинације или идите на Подешавања.
+No EPG source configured. Would you like to open settings to select one?::Није конфигурисан ЕПГ извор. Да ли желите да отворите подешавања да бисте изабрали једно?
+No favorite channels found.::Није пронађен ниједан омиљени канал.
+No favorite channels to export.::Нема омиљених канала за извоз.
+No missing channels to export.::Нема канала који недостају за извоз.
+No playlist found::Плејлиста није пронађена
+No second playlist loaded.::Није учитана друга плејлиста.
+No stream URL available for this channel.::УРЛ стрима није доступан за овај канал.
+No text to import.::Нема текста за увоз.
+No updates available.::Нема доступних ажурирања.
+Normal speed (1x)::Нормална брзина (1к)
+Not connected to the box.::Није повезан са кутијом.
+Now::Сада
+OK::ОК
+Online Playlist::Онлине Плаилист
+Online playlist – select from GitHub repository (auto‑refresh).::Листа за репродукцију на мрежи – изаберите из ГитХуб спремишта (аутоматско освежавање).
+Only in First::Само у Првом
+Only in Second::Тек у Другом
+Open File...::Отвори датотеку...
+Open from URL::Отвори са УРЛ-а
+Open Playlist::Отворите листу за репродукцију
+Pause/Resume live stream::Паузирај/настави стрим уживо
+Paused::Паузирано
+PayPal::ПаиПал
+Picture-in-Picture mode::Режим слика у слици
+Play/Pause::Пусти/Паузирај
+Player Media Controls::Контроле медија плејера
+Playing Media::Репродукција медија
+Playlist & Groups::Плејлиста и групе
+Playlist closed::Плејлиста је затворена
+Playlist Comparison::Поређење плејлисте
+Playlist Editor::Уређивач плејлисте
+Playlist Loading::Плејлиста се учитава
+Playlist Management::Управљање плејлистом
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::Складиште плејлисте: ОвнерПлугинс/ТивуСтреамЛист (италијански и међународни стримови)
+Please select a program first.::Прво изаберите програм.
+Preview (first 5 channels)::Преглед (првих 5 канала)
+Preview error: {0}::Грешка прегледа: {0}
+Program Details::Детаљи програма
+Ready::Спреман
+Recent::Недавно
+Recent files – quick access to last 5 opened playlists.::Недавни фајлови – брз приступ последњих 5 отворених листа песама.
+Recent playlists::Недавне плејлисте
+Refresh Code::Освежи код
+Refresh EPG::Освежите ЕПГ
+Refresh EPG List::Освежите ЕПГ листу
+Refresh from GitHub::Освежите са ГитХуб-а
+Refresh List::Освежите листу
+Reload GUI::Поново учитај ГУИ
+Remove Command::Уклони команду
+Rename Group::Преименуј групу
+Rename group '{0}' to:::Преименујте групу „{0}“ у:
+Repository::Репозиторијум
+Reset Order::Ресетуј редослед
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::Резултати: 'Само у првом', 'Само у другом', 'У оба' – са статусним кодирањем боја.
+Save::Сачувај
+SAVE::САВЕ
+Save – persists all settings without reloading current playlist.::Сачувај – задржава сва подешавања без поновног учитавања тренутне листе песама.
+Save as...::Сачувај као...
+Save current playlist to a new M3U file::Сачувајте тренутну листу песама у нову М3У датотеку
+Save Favorites::Сачувај фаворите
+Save Mapping::Сачувај мапирање
+Save Playlist::Сачувај листу за репродукцију
+Save Status::Сачувај статус
+Saved::Сачувано
+Search channel::Претражите канал
+Search channels by name::Претражујте канале по имену
+Search channels...::Претражи канале...
+sec::сец
+Second playlist loaded: {0} channels::Учитана друга плејлиста: {0} канала
+Select a channel to play.::Изаберите канал за репродукцију.
+Select a playlist first.::Прво изаберите листу песама.
+Select target group:::Изаберите циљну групу:
+Select Theme::Изаберите Тема
+Selected theme is saved and applied on restart.::Изабрана тема се чува и примењује при поновном покретању.
+Send::Пошаљи
+Send playlist to Enigma2 decoder::Пошаљите плејлисту на Енигма2 декодер
+Send to Enigma2::Пошаљи на Енигма2
+Settings::Подешавања
+Show List::Прикажи листу
+Show only channels marked as favorites::Прикажи само канале означене као омиљени
+Show or hide the channel list::Прикажите или сакријте листу канала
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::Посебно захваљујемо ЦОРВОБОИС & ЛинукСат-Суппорт заједницама на тестирању и подршци.
+Start::Почни
+Status::Статус
+Stop::Стани
+Stopped::Заустављено
+Stream URL::УРЛ стрима
+Stream URLs::УРЛ-ови стрима
+Success::Успех
+Support::Подршка
+Support the developer::Подржите програмера
+Target Field::Таргет Фиелд
+Telnet command:::Телнет команда:
+Telnet Commander::Телнет Цоммандер
+Telnet Config::Телнет Цонфиг
+Telnet Configuration::Телнет конфигурација
+Telnet Console::Телнет конзола
+Telnet host not configured. Please set it in Settings.::Телнет хост није конфигурисан. Подесите га у подешавањима.
+Telnet password is empty. Do you want to continue?::Телнет лозинка је празна. Да ли желите да наставите?
+Telnet username not configured. Please set it in Settings.::Телнет корисничко име није конфигурисано. Подесите га у подешавањима.
+Thanks to::Захваљујући томе
+Theme picker::Бирач тема
+Theme picker – accessible via Tools menu on main toolbar.::Бирач тема – доступан преко менија Алатке на главној траци са алаткама.
+Themes::Теме
+Time::Време
+Title::Наслов
+Tools::Алати
+Total::Укупно
+Total channels in loaded playlist::Укупан број канала на учитаној плејлисти
+TV Guide (EPG)::ТВ водич (ЕПГ)
+TvgId::ТвгИд
+Type channel name to filter::Унесите назив канала да бисте филтрирали
+UI: MaterialDesignThemes.Wpf::УИ: МатериалДесигнТхемес.Впф
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::Није могуће аутоматски открити формат. Изаберите ЈСОН или М3У из падајућег менија и покушајте поново.
+Unable to find version in remote project file.::Није могуће пронаћи верзију у датотеци удаљеног пројекта.
+Unsupported format. Please select JSON or M3U.::Неподржан формат. Изаберите ЈСОН или М3У.
+Update::Ажурирај
+Update complete. Restarting...::Ажурирање је завршено. Поновно покретање...
+Update Error::Грешка при ажурирању
+Update failed: ::Ажурирање није успело:
+Updated::Ажурирано
+Updates::Ажурирања
+Upload Error::Грешка при отпремању
+URL::УРЛ
+URL (primary)::УРЛ (примарни)
+URL Check::Провера УРЛ-а
+URL list (one per line)::Листа УРЛ адреса (једна по реду)
+URLs & Status::УРЛ адресе и статус
+Version::Версион
+Version {0}.{1}.{2}::Верзија {0}.{1}.{2}
+Version unknown::Верзија непозната
+Waiting for LiveGardenTVPlus to close...::Чека се затварање ЛивеГарденТВПлус...
+Warning::Упозорење
+WebView2: Microsoft Edge WebView2::ВебВиев2: Мицрософт Едге ВебВиев2
+Youtube URL::Иоутубе УРЛ
+Youtube URLs::Иоутубе УРЛ-ови

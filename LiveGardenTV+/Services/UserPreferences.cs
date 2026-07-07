@@ -15,7 +15,7 @@ namespace LiveGardenTVPlus.Services
         public string LogosSubFolder { get; set; } = "SNP";   // "SNP", "PROVIDER", "ALL"
         public string LogosListUrl { get; set; } = "https://raw.githubusercontent.com/OwnerPlugins/logos/main/txt/logos.txt";
         public string PlaylistUrl { get; set; } = "";
-        public string EpgUrl { get; set; }
+        public string? EpgUrl { get; set; }
         public List<string> RecentPlaylists { get; set; } = new List<string>();
         public const int MaxRecentPlaylists = 5;
         public double LogoMatchingThreshold { get; set; } = 0.75;

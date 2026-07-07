@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): (Tamamen isteğe bağlıdır – hiçbir özellik engellenmez)
-(No description): (Açıklama yok)
-• Add / rename / delete groups.: • Grupları ekleyin / yeniden adlandırın / silin.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Tampon kaydırıcısı: HLS arabelleğini ayarlayın (1‑10 saniye).
-• Check URL availability (only visible channels).: • URL kullanılabilirliğini kontrol edin (yalnızca görünür kanallar).
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Kanal adlarını, grupları, URL'leri, logoları, tvg kimliğini, ülkeyi, dilleri, favorileri düzenleyin.
-• Edit multiple URLs per channel (popup window).: • Kanal başına birden fazla URL'yi düzenleyin (açılır pencere).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG ile zenginleştirin: bulanık eşleştirmeyi kullanarak eksik tvg kimliğini ekler.
-• EPG info displayed in status bar for current channel.: • Geçerli kanal için durum çubuğunda görüntülenen EPG bilgisi.
-• Export OK / FAIL / filtered lists as M3U or JSON.: • OK / FAIL / filtrelenmiş listeleri M3U veya JSON olarak dışa aktarın.
-• Fetch logos from remote repository (OwnerPlugins/logos).: • Uzak depodan logoları alın (OwnerPlugins/logos).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Tam ekran kullanıcı arayüzü: kenar çubuğunu ve durum çubuğunu gizler (çıkış için ESC).
-• Hide/Show channel list button.: • Kanal listesini Gizle/Göster düğmesi.
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Esnek alan eşleme (otomatik algılama, eşlemeyi kaydetme) ile JSON'u (yerel veya URL) içe aktarın.
-• Picture‑in‑Picture (PIP) button.: • Resim İçinde Resim (PIP) düğmesi.
-• Playback speed: 0.5x, 1x, 2x buttons.: • Oynatma hızı: 0,5x, 1x, 2x düğmeleri.
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Başlığa tıklayarak herhangi bir sütunu sıralayın; Orijinal sıraya geri dönmek için 'Siparişi Sıfırla'yı kullanın.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: canlı akışı duraklatın; geri aramak için kaydırıcıyı sürükleyin; geri dönmek için 'Canlı'ya basın.
-▶ Play Media: ▶ Medyayı Oynat
-◀ Previous: ◀ Önceki
-16 colour themes + Light/Dark variants.: 16 renk teması + Açık/Koyu çeşitleri.
-A new version is available. Do you want to update now?: Yeni bir sürüm mevcut. Şimdi güncellemek istiyor musunuz?
-Access via 'Compare' button in Playlist Editor or Tools menu.: Çalma Listesi Düzenleyicisi veya Araçlar menüsündeki 'Karşılaştır' düğmesiyle erişin.
-Access via 'Edit Playlist' button on main toolbar.: Ana araç çubuğundaki 'Oynatma Listesini Düzenle' düğmesiyle erişim.
-Actions: Eylemler
-Add Command: Komut Ekle
-Add Group: Grup Ekle
-Add Mapping: Eşleme Ekle
-Adjust buffer size (1-10 seconds): Tampon boyutunu ayarlayın (1-10 saniye)
-Advanced IDs: Gelişmiş Kimlikler
-Application status: Başvuru durumu
-Apply: Uygula
-Apply / Import: Uygula / İçe Aktar
-Apply changes: Değişiklikleri uygula
-Apply Filters: Filtreleri Uygula
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI'sini yeniden yüklemek istediğinizden emin misiniz?\n\nArayüz yeniden başlatılacak (birkaç saniye boyunca siyah ekran).
-Auto (recommended): Otomatik (önerilen)
-Auto-detect: Otomatik algılama
-Automatic check on startup – or click 'Check for updates' in Tools menu.: Başlangıçta otomatik kontrol – veya Araçlar menüsünde 'Güncellemeleri kontrol et' seçeneğini tıklayın.
-Bouquet Name: Buket Adı
-Bouquet sent and Enigma2 channel list reloaded.: Buket gönderildi ve Enigma2 kanal listesi yeniden yüklendi.
-Buffer (seconds): Tampon (saniye)
-Buffer size – adjust HLS buffer seconds.: Arabellek boyutu – HLS arabellek saniyelerini ayarlayın.
-Cache: Önbellek
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Önbellek klasörü: %TEMP%\\LiveGardenTVPlus\\epg_cache
-Cancel: İptal etmek
-CANCEL: İPTAL ETMEK
-Cannot open browser: Tarayıcı açılamıyor
-Category: Kategori
-Changelog: Değişiklik günlüğü
-Channel Details: Kanal Detayları
-Channel Down: Kanal Aşağı
-Channel Info: Kanal Bilgisi
-Channel Name: Kanal Adı
-Channel Up: Kanal Yukarı
-channels from: gelen kanallar
-channels from JSON: JSON'dan kanallar
-channels from JSON URL: JSON URL'sinden kanallar
-channels from URL: URL'den kanallar
-Check Duplicates: Kopyaları Kontrol Et
-Check for updates: Güncellemeleri kontrol edin
-Check URLs: URL'leri kontrol edin
-Clear: Temizlemek
-Clear EPG Cache: EPG Önbelleğini Temizle
-Clear Filters: Filtreleri Temizle
-Clear search: Aramayı temizle
-Click for details: Ayrıntılar için tıklayın
-Close: Kapalı
-Code: Kod
-Code copied to clipboard.: Kod panoya kopyalandı.
-Command name:: Komut adı:
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Topluluk ve test: CorvoBoys (corvoboys.org) ve LinuxSat-Support.com
-Compare: Karşılaştırmak
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Şuna göre karşılaştır: Öncelik (ad→grup→tvg-id), Ad, Grup (büyük/küçük harfe duyarlı) veya TvgId.
-Compare Playlists: Çalma Listelerini Karşılaştırın
-Compare two playlists – load first (current playlist) and second (from file or URL).: İki çalma listesini karşılaştırın; birinciyi (geçerli çalma listesi) ve ikinciyi (dosyadan veya URL'den) yükleyin.
-Compare...: Karşılaştırmak...
-Comparison results: {0} channels: Karşılaştırma sonuçları: {0} kanal
-Configuration Missing: Yapılandırma Eksik
-Confirm Delete: Silmeyi Onayla
-Confirm Reload: Yeniden Yüklemeyi Onayla
-Connect: Bağlamak
-Connected: Bağlı
-Copied: Kopyalandı
-Copy: Kopyala
-CORVOBOYS.ORG: CORVOBOYS.ORG
-Country: Ülke
-Credits: Kredi
-Delete channel '{0}'?: '{0}' kanalı silinsin mi?
-Delete Group: Grubu Sil
-Delete Selected: Seçileni Sil
-Deleted: Silindi
-Description: Tanım
-Details: Detaylar
-Developed by Lululla: Lululla tarafından geliştirildi
-Developer: Lululla: Geliştirici: Lululla
-Disconnect: Bağlantıyı kes
-Disconnected: Bağlantı kesildi
-Display as: : Şu şekilde görüntüle:
-Do you want to load this edited playlist now?: Düzenlenen bu oynatma listesini şimdi yüklemek istiyor musunuz?
-Double speed (2x): Çift hız (2x)
-Downloading playlist...: Oynatma listesi indiriliyor...
-Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP'i indirir, dosyaları değiştirir, uygulamayı yeniden başlatır; ayarlar korunur.
-Drag & drop – drop M3U or JSON files directly onto main window.: Sürükle ve bırak – M3U veya JSON dosyalarını doğrudan ana pencereye bırakın.
-Drag to seek back in buffer: Ara bellekte geri aramak için sürükleyin
-Duplicate URLs found:\n\n: Yinelenen URL'ler bulundu:\n\n
-Edit Command: Komutu Düzenle
-Edit command name:: Komut adını düzenleyin:
-Edit Playlist: Oynatma Listesini Düzenle
-Edit telnet command:: Telnet komutunu düzenleyin:
-Edit URLs: URL'leri düzenleyin
-Empty Password: Boş Şifre
-End: Son
-Enrich with EPG: EPG ile zenginleştirin
-Enter bouquet name (without spaces):: Buket adını girin (boşluksuz):
-Enter JSON URL:: JSON URL'sini girin:
-Enter new group name:: Yeni grup adını girin:
-Enter playlist URL (JSON or M3U):: Çalma listesi URL'sini girin (JSON veya M3U):
-Enter playlist URL (M3U or JSON):: Çalma listesi URL'sini girin (M3U veya JSON):
-EPG: EPG
-Epg & Favorites: Epg ve Favoriler
-EPG & Favorites: EPG ve Favoriler
-Epg & Logos: Epg ve Logolar
-EPG & Logos: EPG ve Logolar
-EPG cache cleared successfully.: EPG önbelleği başarıyla temizlendi.
-EPG Details: EPG Ayrıntıları
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Kılavuzu – ana araç çubuğundaki düğme, program ayrıntılarını içeren tam tabloyu gösterir (bilgi için çift tıklayın).
-EPG Matching Threshold: EPG Eşleştirme Eşiği
-EPG Source: : EPG Kaynağı:
-EPG source – can be set in Settings (epgshare01 or custom URL).: EPG kaynağı – Ayarlar'da ayarlanabilir (epgshare01 veya özel URL).
-EPG source – choose XMLTV file or enter custom URL.: EPG kaynağı – XMLTV dosyasını seçin veya özel URL girin.
-EPG Source Missing: EPG Kaynağı Eksik
-Error: Hata
-Error clearing cache: {0}: Önbellek temizlenirken hata oluştu: {0}
-Error loading: Yükleme hatası
-Error loading EPG list: {0}: EPG listesi yüklenirken hata oluştu: {0}
-Error loading file: {0}: Dosya yüklenirken hata oluştu: {0}
-Error loading playlists: {0}: Oynatma listeleri yüklenirken hata oluştu: {0}
-Error loading URL: {0}: URL yüklenirken hata oluştu: {0}
-ERROR: player.html not found.: HATA: player.html bulunamadı.
-Exit: Çıkış
-Export all: Tümünü dışa aktar
-Export Favorites: Favorileri Dışa Aktar
-Export Filtered JSON: Filtrelenmiş JSON'u Dışa Aktar
-Export Filtered M3U: Dışa Aktarma Filtreli M3U
-Export JSON: JSON'u dışa aktar
-Export KO: KO'yu dışa aktar
-Export missing: Dışa aktarma eksik
-Export OK: Dışa aktar Tamam
-Export only favorite channels to a new M3U file: Yalnızca favori kanalları yeni bir M3U dosyasına aktarın
-Export results as JSON or M3U – export missing channels or all channels.: Sonuçları JSON veya M3U olarak dışa aktarın; eksik kanalları veya tüm kanalları dışa aktarın.
-Export selected: Seçileni dışa aktar
-Export Selected: Seçileni Dışa Aktar
-Exported: Dışa aktarıldı
-Exported {0} channels to {1}: {0} kanal {1} ​​kanalına aktarıldı
-Extracting update...: Güncelleme çıkarılıyor...
-Failed to download playlist: Oynatma listesi indirilemedi
-Failed to load playlist: Oynatma listesi yüklenemedi
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Buketler.tv güncellenemedi. Lütfen Enigma2 cihazındaki dosya izinlerini kontrol edin.
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Buket yüklenemedi. Lütfen Telnet ayarlarınızı (ana bilgisayar, bağlantı noktası, kullanıcı adı, şifre) kontrol edin ve tekrar deneyin.
-Favorite: Favori
-Favorites only: Yalnızca favoriler
-Fetch Logos: Logoları Getir
-File {0} already exists. Overwrite?: {0} dosyası zaten mevcut. Üzerine yazılsın mı?
-File exists: Dosya mevcut
-Filters: Filtreler
-Format Detection: Format Algılama
-Fullscreen: Tam ekran
-Fullscreen (hide UI) - press ESC to exit: Tam ekran (kullanıcı arayüzünü gizle) - çıkmak için ESC tuşuna basın
-Geo & Country: Coğrafya ve Ülke
-GeoBlocked: Coğrafi Engelleme
-GitHub Error: GitHub Hatası
-Go back to live: Yaşamaya geri dön
-Grid: Izgara
-Group: Grup
-Half speed (0.5x): Yarım hız (0,5x)
-Help: Yardım
-Hide List: Listeyi Gizle
-HLS playback: hls.js (MIT license): HLS oynatma: hls.js (MIT lisansı)
-Image: Resim
-Import: İçe aktarmak
-Import cancelled or no channels mapped.: İçe aktarma iptal edildi veya hiçbir kanal eşlenmedi.
-Import Error: İçe Aktarma Hatası
-Import error: {0}: İçe aktarma hatası: {0}
-Import from URL: URL'den içe aktar
-Import JSON: JSON'u içe aktar
-Import JSON from URL: JSON'u URL'den içe aktar
-Import Local: Yerel İçe Aktar
-Imported {0} channels from code.: {0} kanal koddan içe aktarıldı.
-Imported {0} channels from JSON via mapping.: Eşleme yoluyla JSON'dan {0} kanal içe aktarıldı.
-Imported {0} channels from URL.: {0} kanal URL'den içe aktarıldı.
-In Both: Her ikisinde de
-Info: Bilgi
-Info on: Hakkında bilgi
-Invalid JSON: {0}: Geçersiz JSON: {0}
-Invalid playlist URL.: Geçersiz oynatma listesi URL'si.
-Invalid URL.: Geçersiz URL.
-Json: Json
-JSON: JSON
-JSON parsing error: {0}: JSON ayrıştırma hatası: {0}
-JSON Property: JSON Özelliği
-Ko-fi: Kahve
-Language: Dil
-Language – change UI language dynamically (translations in Languages folder).: Dil – kullanıcı arayüzü dilini dinamik olarak değiştirin (Diller klasöründeki çeviriler).
-Languages: Diller
-Languages (comma): Diller (virgül)
-LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help: LiveGardenTVPlus Yardımı
-LOAD: YÜK
-Load a playlist first.: Önce bir çalma listesi yükleyin.
-Load a second playlist first.: Önce ikinci bir çalma listesi yükleyin.
-Load File: Dosya Yükle
-Load from file...: Dosyadan yükle...
-Load from URL: URL'den yükle
-Load from URL...: URL'den yükle...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Yerel M3U/JSON dosyasını yükleyin – 'Dosya Yükle' düğmesi (araç çubuğu) veya düzenleyicideki 'Dosyayı Aç' aracılığıyla.
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Çevrimiçi M3U/JSON URL'sini yükleyin – Düzenleyicide 'Çevrimiçi Yükle' düğmesi (araç çubuğu) veya 'URL'den aç'.
-Load playlist file (M3U/JSON) from your computer: Çalma listesi dosyasını (M3U/JSON) bilgisayarınızdan yükleyin
-Loaded: Yüklendi
-Loaded {0} channels from JSON file via mapping.: Eşleme yoluyla JSON dosyasından {0} kanal yüklendi.
-Loaded {0} channels from JSON URL.: JSON URL'sinden {0} kanal yüklendi.
-Loaded {0} channels from M3U file.: M3U dosyasından {0} kanal yüklendi.
-Loaded {0} channels from M3U URL.: M3U URL'sinden {0} kanal yüklendi.
-Loading...: Yükleniyor...
-Logo: Logo
-Logo Picker – in editor, click '...' to choose logo from gallery.: Logo Seçici – düzenleyicide, galeriden logo seçmek için '...' seçeneğini tıklayın.
-Logo Preview: Logo Önizlemesi
-Logo URL: Logo URL'si
-Logos – automatically download from GitHub repository (Settings → Logos Source).: Logolar – GitHub deposundan otomatik olarak indirilir (Ayarlar → Logo Kaynağı).
-Logos Matching Threshold: Logo Eşleştirme Eşiği
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logo deposu – sahip/repo/yolu seçin (varsayılan OwnerPlugins/logos).
-Logos Source: Logo Kaynağı
-Logos Subfolder: Logolar Alt Klasörü
-M3U: M3U
-M3U parsing error: {0}: M3U ayrıştırma hatası: {0}
-Map JSON properties to channel fields:: JSON özelliklerini kanal alanlarıyla eşleyin:
-Mapping saved for future imports of this file.: Eşleme, bu dosyanın gelecekte içe aktarılması için kaydedildi.
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Eşleştirme eşikleri – EPG ve logolar için bulanık eşleşme hassasiyetini ayarlayın.
-Mini Player: Mini Oynatıcı
-Move to Group: Gruba Taşı
-Moved: Etkilenmiş
-Name: İsim
-Nanoid: Nanoid
-Network error: Ağ hatası
-New Playlist: Yeni Oynatma Listesi
-Next: Sonraki
-Next ▶: Sonraki ▶
-No .m3u files found on GitHub repository.: GitHub deposunda .m3u dosyası bulunamadı.
-No cache folder found.: Önbellek klasörü bulunamadı.
-No channel selected: Hiçbir kanal seçilmedi
-No channels could be mapped or import cancelled.: Hiçbir kanal eşlenemedi veya içe aktarma iptal edilemedi.
-No channels could be mapped. Check your mapping rules.: Hiçbir kanal eşleştirilemedi. Eşleme kurallarınızı kontrol edin.
-No channels found in JSON.: JSON'da kanal bulunamadı.
-No channels found in M3U.: M3U'da kanal bulunamadı.
-No channels loaded from JSON URL.: JSON URL'sinden hiçbir kanal yüklenmedi.
-No channels loaded from M3U URL.: M3U URL'sinden hiçbir kanal yüklenmedi.
-No channels loaded from M3U.: M3U'dan hiçbir kanal yüklenmedi.
-No channels loaded.: Hiçbir kanal yüklenmedi.
-No channels mapped: Eşlenen kanal yok
-No channels selected.: Hiçbir kanal seçilmedi.
-No channels to import.: İçe aktarılacak kanal yok.
-No duplicate URLs found.: Yinelenen URL bulunamadı.
-No EPG data: EPG verisi yok
-No EPG information available for this channel.: Bu kanal için EPG bilgisi mevcut değil.
-No EPG source configured. Please select one from the combo or go to Settings.: Yapılandırılmış EPG kaynağı yok. Lütfen kombinasyondan birini seçin veya Ayarlar'a gidin.
-No EPG source configured. Would you like to open settings to select one?: Yapılandırılmış EPG kaynağı yok. Birini seçmek için ayarları açmak ister misiniz?
-No favorite channels to export.: Dışa aktarılacak favori kanal yok.
-No missing channels to export.: Dışa aktarılacak eksik kanal yok.
-No playlist found: Oynatma listesi bulunamadı
-No second playlist loaded.: İkinci bir oynatma listesi yüklenmedi.
-No stream URL available for this channel.: Bu kanal için akış URL'si yok.
-No text to import.: İçe aktarılacak metin yok.
-No updates available.: Güncelleme mevcut değil.
-Normal speed (1x): Normal hız (1x)
-Not connected to the box.: Kutuya bağlı değil.
-Now: Şimdi
-OK: TAMAM
-Online Playlist: Çevrimiçi Oynatma Listesi
-Online playlist – select from GitHub repository (auto‑refresh).: Çevrimiçi oynatma listesi – GitHub deposundan seçim yapın (otomatik yenileme).
-Only in First: Yalnızca İlk'te
-Only in Second: Sadece İkinci
-Open File...: Dosyayı Aç...
-Open from URL: URL'den aç
-Open Playlist: Oynatma Listesini Aç
-Pause/Resume live stream: Canlı yayını duraklatın/devam ettirin
-Paused: Duraklatıldı
-PayPal: PayPal
-Picture-in-Picture mode: Resim içinde Resim modu
-Play/Pause: Oynat/Duraklat
-Player Media Controls: Oynatıcı Medya Kontrolleri
-Playing Media: Medya Oynatma
-Playlist & Groups: Çalma Listesi ve Gruplar
-Playlist Comparison: Çalma Listesi Karşılaştırması
-Playlist Editor: Çalma Listesi Düzenleyicisi
-Playlist Loading: Çalma Listesi Yükleniyor
-Playlist Management: Oynatma Listesi Yönetimi
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Oynatma listesi deposu: OwnerPlugins/TivuStreamList (İtalyanca ve uluslararası akışlar)
-Please select a program first.: Lütfen önce bir program seçin.
-Preview (first 5 channels): Önizleme (ilk 5 kanal)
-Preview error: {0}: Önizleme hatası: {0}
-Program Details: Program Detayları
-Ready: Hazır
-Ready.: Hazır.
-Recent: Son
-Recent files – quick access to last 5 opened playlists.: Son dosyalar – açılan son 5 çalma listesine hızlı erişim.
-Recent playlists: Son oynatma listeleri
-Refresh Code: Kodu Yenile
-Refresh EPG: EPG'yi yenile
-Refresh EPG List: EPG Listesini Yenile
-Refresh from GitHub: GitHub'dan yenile
-Refresh List: Listeyi Yenile
-Reload GUI: GUI'yi yeniden yükle
-Remove Command: Komutu Kaldır
-Rename Group: Grubu Yeniden Adlandır
-Rename group '{0}' to:: '{0}' grubunu şu şekilde yeniden adlandırın:
-Repository: Depo
-Reset Order: Siparişi Sıfırla
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Sonuçlar: 'Yalnızca Birincide', 'Yalnızca İkincide', 'Her İkisinde' – durum renk kodlamasıyla.
-Save: Kaydetmek
-SAVE: KAYDETMEK
-Save – persists all settings without reloading current playlist.: Kaydet – geçerli çalma listesini yeniden yüklemeden tüm ayarları korur.
-Save as...: Farklı kaydet...
-Save current playlist to a new M3U file: Mevcut çalma listesini yeni bir M3U dosyasına kaydet
-Save Mapping: Eşlemeyi Kaydet
-Save Playlist: Oynatma Listesini Kaydet
-Save Status: Durumu Kaydet
-Saved: Kaydedildi
-Search channel: : Arama kanalı:
-Search channels by name: Kanalları ada göre arayın
-Search channels...: Kanal ara...
-sec: saniye
-Second playlist loaded: {0} channels: İkinci oynatma listesi yüklendi: {0} kanal
-Select a channel to play.: Oynatılacak kanalı seçin.
-Select a playlist first.: Önce bir çalma listesi seçin.
-Select target group:: Hedef grubu seçin:
-Select Theme: Tema Seç
-Selected theme is saved and applied on restart.: Seçilen tema kaydedilir ve yeniden başlatıldığında uygulanır.
-Send: Göndermek
-Send playlist to Enigma2 decoder: Çalma listesini Enigma2 kod çözücüye gönder
-Send to Enigma2: Enigma2'ye gönder
-Settings: Ayarlar
-Show List: Listeyi Göster
-Show only channels marked as favorites: Yalnızca favori olarak işaretlenen kanalları göster
-Show or hide the channel list: Kanal listesini göster veya gizle
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Test ve destek için CORVOBOYS ve LinuxSat-Destek topluluklarına özellikle teşekkür ederiz.
-Start: Başlangıç
-Status: Durum
-Stop: Durmak
-Stopped: Durduruldu
-Stream URL: Akış URL'si
-Stream URLs: Akış URL'leri
-Success: Başarı
-Support: Destek
-Support the developer: Geliştiriciyi destekleyin
-Target Field: Hedef Alanı
-Telnet command:: Telnet komutu:
-Telnet Commander: Telnet Komutanı
-Telnet Config: Telnet Yapılandırması
-Telnet Console: Telnet Konsolu
-Telnet host not configured. Please set it in Settings.: Telnet ana bilgisayarı yapılandırılmamış. Lütfen Ayarlar'da ayarlayın.
-Telnet password is empty. Do you want to continue?: Telnet şifresi boş. Devam etmek istiyor musun?
-Telnet username not configured. Please set it in Settings.: Telnet kullanıcı adı yapılandırılmadı. Lütfen Ayarlar'da ayarlayın.
-Thanks to: Sayesinde
-Theme picker: Tema seçici
-Theme picker – accessible via Tools menu on main toolbar.: Tema seçici – ana araç çubuğundaki Araçlar menüsünden erişilebilir.
-Themes: Temalar
-Time: Zaman
-Title: Başlık
-Tools: Aletler
-Total: Toplam
-Total channels in loaded playlist: Yüklenen oynatma listesindeki toplam kanallar
-TV Guide (EPG): TV Rehberi (EPG)
-TvgId: TvgID
-Type channel name to filter: Filtrelenecek kanal adını yazın
-UI: MaterialDesignThemes.Wpf: Kullanıcı Arayüzü: MaterialDesignThemes.Wpf
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Format otomatik olarak algılanamıyor. Lütfen açılır menüden JSON veya M3U'yu seçin ve tekrar deneyin.
-Unable to find version in remote project file.: Uzak proje dosyasında sürüm bulunamıyor.
-Unsupported format. Please select JSON or M3U.: Desteklenmeyen biçim. Lütfen JSON veya M3U'yu seçin.
-Update: Güncelleme
-Update complete. Restarting...: Güncelleme tamamlandı. Yeniden başlatılıyor...
-Update Error: Güncelleme Hatası
-Update failed: : Güncelleme başarısız oldu:
-Updates: Güncellemeler
-Upload Error: Yükleme Hatası
-URL: URL'si
-URL (primary): URL (birincil)
-URL Check: URL Kontrolü
-URL list (one per line): URL listesi (her satıra bir tane)
-URLs & Status: URL'ler ve Durum
-Version: Sürüm
-Version {0}.{1}.{2}: Sürüm {0}.{1}.{2}
-Version unknown: Sürüm bilinmiyor
-Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus'ın kapanması bekleniyor...
-Warning: Uyarı
-WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
-Youtube URL: Youtube URL'si
-Youtube URLs: Youtube URL'leri
+(Completely voluntary – no features are blocked)::(Tamamen isteğe bağlıdır – hiçbir özellik engellenmez)
+(No description)::(Açıklama yok)
+• Add / rename / delete groups.::• Grupları ekleyin / yeniden adlandırın / silin.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• Tampon kaydırıcısı: HLS arabelleğini ayarlayın (1‑10 saniye).
+• Check URL availability (only visible channels).::• URL kullanılabilirliğini kontrol edin (yalnızca görünür kanallar).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• Kanal adlarını, grupları, URL'leri, logoları, tvg kimliğini, ülkeyi, dilleri, favorileri düzenleyin.
+• Edit multiple URLs per channel (popup window).::• Kanal başına birden fazla URL'yi düzenleyin (açılır pencere).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• EPG ile zenginleştirin: bulanık eşleştirmeyi kullanarak eksik tvg kimliğini ekler.
+• EPG info displayed in status bar for current channel.::• Geçerli kanal için durum çubuğunda görüntülenen EPG bilgisi.
+• Export OK / FAIL / filtered lists as M3U or JSON.::• OK / FAIL / filtrelenmiş listeleri M3U veya JSON olarak dışa aktarın.
+• Fetch logos from remote repository (OwnerPlugins/logos).::• Uzak depodan logoları alın (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• Tam ekran kullanıcı arayüzü: kenar çubuğunu ve durum çubuğunu gizler (çıkış için ESC).
+• Hide/Show channel list button.::• Kanal listesini Gizle/Göster düğmesi.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• Esnek alan eşleme (otomatik algılama, eşlemeyi kaydetme) ile JSON'u (yerel veya URL) içe aktarın.
+• Picture‑in‑Picture (PIP) button.::• Resim İçinde Resim (PIP) düğmesi.
+• Playback speed: 0.5x, 1x, 2x buttons.::• Oynatma hızı: 0,5x, 1x, 2x düğmeleri.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• Başlığa tıklayarak herhangi bir sütunu sıralayın; Orijinal sıraya geri dönmek için 'Siparişi Sıfırla'yı kullanın.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• Timeshift: canlı akışı duraklatın; geri aramak için kaydırıcıyı sürükleyin; geri dönmek için 'Canlı'ya basın.
+▶ Play Media::▶ Medyayı Oynat
+◀ Previous::◀ Önceki
+16 colour themes + Light/Dark variants.::16 renk teması + Açık/Koyu çeşitleri.
+A new version is available. Do you want to update now?::Yeni bir sürüm mevcut. Şimdi güncellemek istiyor musunuz?
+Access via 'Compare' button in Playlist Editor or Tools menu.::Çalma Listesi Düzenleyicisi veya Araçlar menüsündeki 'Karşılaştır' düğmesiyle erişin.
+Access via 'Edit Playlist' button on main toolbar.::Ana araç çubuğundaki 'Oynatma Listesini Düzenle' düğmesiyle erişim.
+Actions::Eylemler
+Add Command::Komut Ekle
+Add Group::Grup Ekle
+Add Mapping::Eşleme Ekle
+Adjust buffer size (1-10 seconds)::Tampon boyutunu ayarlayın (1-10 saniye)
+Advanced IDs::Gelişmiş Kimlikler
+All channels marked as favorites::Favori olarak işaretlenen tüm kanallar
+All favorites removed::Tüm favoriler kaldırıldı
+Application status::Başvuru durumu
+Apply::Uygula
+Apply / Import::Uygula / İçe Aktar
+Apply changes::Değişiklikleri uygula
+Apply Filters::Filtreleri Uygula
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::Enigma2 GUI'sini yeniden yüklemek istediğinizden emin misiniz?\n\nArayüz yeniden başlatılacak (birkaç saniye boyunca siyah ekran).
+Auto (recommended)::Otomatik (önerilen)
+Auto-detect::Otomatik algılama
+Automatic check on startup – or click 'Check for updates' in Tools menu.::Başlangıçta otomatik kontrol – veya Araçlar menüsünde 'Güncellemeleri kontrol et'i tıklayın.
+Bouquet Name::Buket Adı
+Bouquet sent and Enigma2 channel list reloaded.::Buket gönderildi ve Enigma2 kanal listesi yeniden yüklendi.
+Buffer (seconds)::Tampon (saniye)
+Buffer size – adjust HLS buffer seconds.::Arabellek boyutu – HLS arabellek saniyelerini ayarlayın.
+Cache::Önbellek
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::Önbellek klasörü: %TEMP%\\LiveGardenTVPlus\\epg_cache
+Cancel::İptal etmek
+CANCEL::İPTAL ETMEK
+Cannot open browser::Tarayıcı açılamıyor
+Category::Kategori
+Changelog::Değişiklik günlüğü
+Channel Details::Kanal Detayları
+Channel Down::Kanal Aşağı
+Channel Info::Kanal Bilgisi
+Channel Name::Kanal Adı
+Channel Up::Kanal Yukarı
+Channel updated successfully.::Kanal başarıyla güncellendi.
+channels from::gelen kanallar
+channels from JSON::JSON'dan kanallar
+channels from JSON URL::JSON URL'sinden kanallar
+channels from URL::URL'den kanallar
+Check Duplicates::Kopyaları Kontrol Et
+Check for updates::Güncellemeleri kontrol edin
+Check URLs::URL'leri kontrol edin
+Clear::Temizlemek
+Clear EPG Cache::EPG Önbelleğini Temizle
+Clear Filters::Filtreleri Temizle
+Clear search::Aramayı temizle
+Click for details::Ayrıntılar için tıklayın
+Close::Kapalı
+Close current playlist::Mevcut oynatma listesini kapat
+Close Playlist::Oynatma Listesini Kapat
+Code::Kod
+Code copied to clipboard.::Kod panoya kopyalandı.
+Command name:::Komut adı:
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::Topluluk ve test: CorvoBoys (corvoboys.org) ve LinuxSat-Support.com
+Compare::Karşılaştırmak
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::Şuna göre karşılaştır: Öncelik (ad→grup→tvg-id), Ad, Grup (büyük/küçük harfe duyarlı) veya TvgId.
+Compare Playlists::Çalma Listelerini Karşılaştırın
+Compare two playlists – load first (current playlist) and second (from file or URL).::İki çalma listesini karşılaştırın; birinciyi (geçerli çalma listesi) ve ikinciyi (dosyadan veya URL'den) yükleyin.
+Compare...::Karşılaştırmak...
+Comparison results: {0} channels::Karşılaştırma sonuçları: {0} kanal
+Configuration Missing::Yapılandırma Eksik
+Confirm Delete::Silmeyi Onayla
+Confirm Reload::Yeniden Yüklemeyi Onayla
+Connect::Bağlamak
+Connected::Bağlı
+Copied::Kopyalandı
+Copy::Kopyala
+CORVOBOYS.ORG::CORVOBOYS.ORG
+Country::Ülke
+Credits::Kredi
+Delete channel '{0}'?::'{0}' kanalı silinsin mi?
+Delete Group::Grubu Sil
+Delete Selected::Seçileni Sil
+Deleted::Silindi
+Description::Tanım
+Details::Detaylar
+Developed by Lululla::Lululla tarafından geliştirildi
+Developer: Lululla::Geliştirici: Lululla
+Disconnect::Bağlantıyı kes
+Disconnected::Bağlantı kesildi
+Display as::Farklı görüntüle
+Do you want to load this edited playlist now?::Düzenlenen bu oynatma listesini şimdi yüklemek istiyor musunuz?
+Double speed (2x)::Çift hız (2x)
+Downloading playlist...::Oynatma listesi indiriliyor...
+Downloads ZIP, replaces files, restarts app – settings preserved.::ZIP'i indirir, dosyaları değiştirir, uygulamayı yeniden başlatır; ayarlar korunur.
+Drag & drop – drop M3U or JSON files directly onto main window.::Sürükle ve bırak – M3U veya JSON dosyalarını doğrudan ana pencereye bırakın.
+Drag to seek back in buffer::Ara bellekte geri aramak için sürükleyin
+Duplicate URLs found:\n\n::Yinelenen URL'ler bulundu:\n\n
+Edit Command::Komutu Düzenle
+Edit command name:::Komut adını düzenleyin:
+Edit Playlist::Oynatma Listesini Düzenle
+Edit telnet command:::Telnet komutunu düzenleyin:
+Edit URLs::URL'leri düzenleyin
+Empty Password::Boş Şifre
+End::Son
+Enigma2::Gizem2
+Enrich with EPG::EPG ile zenginleştirin
+Enter bouquet name (without spaces):::Buket adını girin (boşluksuz):
+Enter JSON URL:::JSON URL'sini girin:
+Enter new group name:::Yeni grup adını girin:
+Enter playlist URL (JSON or M3U):::Çalma listesi URL'sini girin (JSON veya M3U):
+Enter playlist URL (M3U or JSON):::Çalma listesi URL'sini girin (M3U veya JSON):
+EPG::EPG
+Epg & Favorites::Epg ve Favoriler
+EPG & Favorites::EPG ve Favoriler
+Epg & Logos::Epg ve Logolar
+EPG & Logos::EPG ve Logolar
+EPG cache cleared successfully.::EPG önbelleği başarıyla temizlendi.
+EPG Details::EPG Ayrıntıları
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::EPG Kılavuzu – ana araç çubuğundaki düğme, program ayrıntılarını içeren tam tabloyu gösterir (bilgi için çift tıklayın).
+EPG Matching Threshold::EPG Eşleştirme Eşiği
+EPG Source::EPG Kaynağı
+EPG source – can be set in Settings (epgshare01 or custom URL).::EPG kaynağı – Ayarlar'da ayarlanabilir (epgshare01 veya özel URL).
+EPG source – choose XMLTV file or enter custom URL.::EPG kaynağı – XMLTV dosyasını seçin veya özel URL girin.
+EPG Source Missing::EPG Kaynağı Eksik
+Error::Hata
+Error clearing cache: {0}::Önbellek temizlenirken hata oluştu: {0}
+Error loading::Yükleme hatası
+Error loading EPG list: {0}::EPG listesi yüklenirken hata oluştu: {0}
+Error loading file: {0}::Dosya yüklenirken hata oluştu: {0}
+Error loading playlists: {0}::Oynatma listeleri yüklenirken hata oluştu: {0}
+Error loading URL: {0}::URL yüklenirken hata oluştu: {0}
+ERROR: player.html not found.::HATA: player.html bulunamadı.
+Exit::Çıkış
+Export all::Tümünü dışa aktar
+Export Favorites::Favorileri Dışa Aktar
+Export Filtered JSON::Filtrelenmiş JSON'u Dışa Aktar
+Export Filtered M3U::Dışa Aktarma Filtreli M3U
+Export JSON::JSON'u dışa aktar
+Export KO::KO'yu dışa aktar
+Export missing::Dışa aktarma eksik
+Export OK::Dışa aktar Tamam
+Export only favorite channels to a new M3U file::Yalnızca favori kanalları yeni bir M3U dosyasına aktarın
+Export results as JSON or M3U – export missing channels or all channels.::Sonuçları JSON veya M3U olarak dışa aktarın; eksik kanalları veya tüm kanalları dışa aktarın.
+Export selected::Seçileni dışa aktar
+Export Selected::Seçileni Dışa Aktar
+Exported::Dışa aktarıldı
+Exported {0} channels to {1}::{0} kanal {1} ​​kanalına aktarıldı
+Extracting update...::Güncelleme çıkarılıyor...
+Failed to download playlist::Oynatma listesi indirilemedi
+Failed to load playlist::Oynatma listesi yüklenemedi
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::Buketler.tv güncellenemedi. Lütfen Enigma2 cihazındaki dosya izinlerini kontrol edin.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::Buket yüklenemedi. Lütfen Telnet ayarlarınızı (ana bilgisayar, bağlantı noktası, kullanıcı adı, şifre) kontrol edin ve tekrar deneyin.
+Favorite::Favori
+Favorites::Favoriler
+Favorites only::Yalnızca favoriler
+Fetch Logos::Logoları Getir
+File::Dosya
+File {0} already exists. Overwrite?::{0} dosyası zaten mevcut. Üzerine yazılsın mı?
+File exists::Dosya mevcut
+Filters::Filtreler
+Format Detection::Format Algılama
+Fullscreen::Tam ekran
+Fullscreen (hide UI) - press ESC to exit::Tam ekran (kullanıcı arayüzünü gizle) - çıkmak için ESC tuşuna basın
+Geo & Country::Coğrafya ve Ülke
+GeoBlocked::Coğrafi Engelleme
+GitHub Error::GitHub Hatası
+Go back to live::Yaşamaya geri dön
+Grid::Izgara
+Group::Grup
+Half speed (0.5x)::Yarım hız (0,5x)
+Help::Yardım
+Hide List::Listeyi Gizle
+HLS playback: hls.js (MIT license)::HLS oynatma: hls.js (MIT lisansı)
+Image::Resim
+Import::İçe aktarmak
+Import cancelled or no channels mapped.::İçe aktarma iptal edildi veya hiçbir kanal eşlenmedi.
+Import Error::İçe Aktarma Hatası
+Import error: {0}::İçe aktarma hatası: {0}
+Import from URL::URL'den içe aktar
+Import JSON::JSON'u içe aktar
+Import JSON from URL::JSON'u URL'den içe aktar
+Import Local::Yerel İçe Aktar
+Imported {0} channels from code.::{0} kanal koddan içe aktarıldı.
+Imported {0} channels from JSON via mapping.::Eşleme yoluyla JSON'dan {0} kanal içe aktarıldı.
+Imported {0} channels from URL.::{0} kanal URL'den içe aktarıldı.
+In Both::Her ikisinde de
+Info::Bilgi
+Info on::Hakkında bilgi
+Invalid JSON: {0}::Geçersiz JSON: {0}
+Invalid playlist URL.::Geçersiz oynatma listesi URL'si.
+Invalid URL.::Geçersiz URL.
+Json::Json
+JSON::JSON
+JSON parsing error: {0}::JSON ayrıştırma hatası: {0}
+JSON Property::JSON Özelliği
+Ko-fi::Kahve
+Language::Dil
+Language – change UI language dynamically (translations in Languages folder).::Dil – kullanıcı arayüzü dilini dinamik olarak değiştirin (Diller klasöründeki çeviriler).
+Languages::Diller
+Languages (comma)::Diller (virgül)
+LINUXSAT-SUPPORT.COM::LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help::LiveGardenTVPlus Yardımı
+LOAD::YÜK
+Load a playlist first.::Önce bir çalma listesi yükleyin.
+Load a second playlist first.::Önce ikinci bir çalma listesi yükleyin.
+Load File::Dosya Yükle
+Load from file...::Dosyadan yükle...
+Load from URL::URL'den yükle
+Load from URL...::URL'den yükle...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::Yerel M3U/JSON dosyasını yükleyin – 'Dosya Yükle' düğmesi (araç çubuğu) veya düzenleyicideki 'Dosyayı Aç' aracılığıyla.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::Çevrimiçi M3U/JSON URL'sini yükleyin – Düzenleyicide 'Çevrimiçi Yükle' düğmesi (araç çubuğu) veya 'URL'den aç'.
+Load Playlist::Oynatma Listesini Yükle
+Load playlist file (M3U/JSON) from your computer::Çalma listesi dosyasını (M3U/JSON) bilgisayarınızdan yükleyin
+Loaded::Yüklendi
+Loaded {0} channels from JSON file via mapping.::Eşleme yoluyla JSON dosyasından {0} kanal yüklendi.
+Loaded {0} channels from JSON URL.::JSON URL'sinden {0} kanal yüklendi.
+Loaded {0} channels from M3U file.::M3U dosyasından {0} kanal yüklendi.
+Loaded {0} channels from M3U URL.::M3U URL'sinden {0} kanal yüklendi.
+Loading...::Yükleniyor...
+Logo::Logo
+Logo Picker – in editor, click '...' to choose logo from gallery.::Logo Seçici – düzenleyicide, galeriden logo seçmek için '...' seçeneğini tıklayın.
+Logo Preview::Logo Önizlemesi
+Logo URL::Logo URL'si
+Logos – automatically download from GitHub repository (Settings → Logos Source).::Logolar – GitHub deposundan otomatik olarak indirilir (Ayarlar → Logo Kaynağı).
+Logos Matching Threshold::Logo Eşleştirme Eşiği
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::Logo deposu – sahip/repo/yolu seçin (varsayılan OwnerPlugins/logos).
+Logos Source::Logo Kaynağı
+Logos Subfolder::Logolar Alt Klasörü
+M3U::M3U
+M3U parsing error: {0}::M3U ayrıştırma hatası: {0}
+Map JSON properties to channel fields:::JSON özelliklerini kanal alanlarıyla eşleyin:
+Mapping saved for future imports of this file.::Eşleme, bu dosyanın gelecekte içe aktarılması için kaydedildi.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::Eşleştirme eşikleri – EPG ve logolar için bulanık eşleşme hassasiyetini ayarlayın.
+Mini Player::Mini Oynatıcı
+Move to Group::Gruba Taşı
+Moved::Etkilenmiş
+Name::İsim
+Nanoid::Nanoid
+Network error::Ağ hatası
+New Playlist::Yeni Oynatma Listesi
+Next::Sonraki
+Next ▶::Sonraki ▶
+No .m3u files found on GitHub repository.::GitHub deposunda .m3u dosyası bulunamadı.
+No cache folder found.::Önbellek klasörü bulunamadı.
+No channel selected::Hiçbir kanal seçilmedi
+No channel selected.::Hiçbir kanal seçilmedi.
+No channels could be mapped or import cancelled.::Hiçbir kanal eşlenemedi veya içe aktarma iptal edilemedi.
+No channels could be mapped. Check your mapping rules.::Hiçbir kanal eşleştirilemedi. Eşleme kurallarınızı kontrol edin.
+No channels found in JSON.::JSON'da kanal bulunamadı.
+No channels found in M3U.::M3U'da kanal bulunamadı.
+No channels loaded from JSON URL.::JSON URL'sinden hiçbir kanal yüklenmedi.
+No channels loaded from M3U URL.::M3U URL'sinden hiçbir kanal yüklenmedi.
+No channels loaded from M3U.::M3U'dan hiçbir kanal yüklenmedi.
+No channels loaded.::Hiçbir kanal yüklenmedi.
+No channels mapped::Eşlenen kanal yok
+No channels selected.::Hiçbir kanal seçilmedi.
+No channels to import.::İçe aktarılacak kanal yok.
+No duplicate URLs found.::Yinelenen URL bulunamadı.
+No EPG data::EPG verisi yok
+No EPG information available for this channel.::Bu kanal için EPG bilgisi mevcut değil.
+No EPG source configured. Please select one from the combo or go to Settings.::Yapılandırılmış EPG kaynağı yok. Lütfen kombinasyondan birini seçin veya Ayarlar'a gidin.
+No EPG source configured. Would you like to open settings to select one?::Yapılandırılmış EPG kaynağı yok. Birini seçmek için ayarları açmak ister misiniz?
+No favorite channels found.::Favori kanal bulunamadı.
+No favorite channels to export.::Dışa aktarılacak favori kanal yok.
+No missing channels to export.::Dışa aktarılacak eksik kanal yok.
+No playlist found::Oynatma listesi bulunamadı
+No second playlist loaded.::İkinci bir oynatma listesi yüklenmedi.
+No stream URL available for this channel.::Bu kanal için akış URL'si yok.
+No text to import.::İçe aktarılacak metin yok.
+No updates available.::Güncelleme mevcut değil.
+Normal speed (1x)::Normal hız (1x)
+Not connected to the box.::Kutuya bağlı değil.
+Now::Şimdi
+OK::TAMAM
+Online Playlist::Çevrimiçi Oynatma Listesi
+Online playlist – select from GitHub repository (auto‑refresh).::Çevrimiçi oynatma listesi – GitHub deposundan seçim yapın (otomatik yenileme).
+Only in First::Yalnızca İlk'te
+Only in Second::Sadece İkinci
+Open File...::Dosyayı Aç...
+Open from URL::URL'den aç
+Open Playlist::Oynatma Listesini Aç
+Pause/Resume live stream::Canlı yayını duraklatın/devam ettirin
+Paused::Duraklatıldı
+PayPal::PayPal
+Picture-in-Picture mode::Resim içinde Resim modu
+Play/Pause::Oynat/Duraklat
+Player Media Controls::Oynatıcı Medya Kontrolleri
+Playing Media::Medya Oynatma
+Playlist & Groups::Çalma Listesi ve Gruplar
+Playlist closed::Oynatma listesi kapatıldı
+Playlist Comparison::Çalma Listesi Karşılaştırması
+Playlist Editor::Çalma Listesi Düzenleyicisi
+Playlist Loading::Çalma Listesi Yükleniyor
+Playlist Management::Oynatma Listesi Yönetimi
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::Oynatma listesi deposu: OwnerPlugins/TivuStreamList (İtalyanca ve uluslararası akışlar)
+Please select a program first.::Lütfen önce bir program seçin.
+Preview (first 5 channels)::Önizleme (ilk 5 kanal)
+Preview error: {0}::Önizleme hatası: {0}
+Program Details::Program Detayları
+Ready::Hazır
+Recent::Son
+Recent files – quick access to last 5 opened playlists.::Son dosyalar – açılan son 5 çalma listesine hızlı erişim.
+Recent playlists::Son oynatma listeleri
+Refresh Code::Kodu Yenile
+Refresh EPG::EPG'yi yenile
+Refresh EPG List::EPG Listesini Yenile
+Refresh from GitHub::GitHub'dan yenile
+Refresh List::Listeyi Yenile
+Reload GUI::GUI'yi yeniden yükle
+Remove Command::Komutu Kaldır
+Rename Group::Grubu Yeniden Adlandır
+Rename group '{0}' to:::'{0}' grubunu şu şekilde yeniden adlandırın:
+Repository::Depo
+Reset Order::Siparişi Sıfırla
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::Sonuçlar: 'Yalnızca Birincide', 'Yalnızca İkincide', 'Her İkisinde' – durum renk kodlamasıyla.
+Save::Kaydetmek
+SAVE::KAYDETMEK
+Save – persists all settings without reloading current playlist.::Kaydet – geçerli çalma listesini yeniden yüklemeden tüm ayarları korur.
+Save as...::Farklı kaydet...
+Save current playlist to a new M3U file::Mevcut çalma listesini yeni bir M3U dosyasına kaydet
+Save Favorites::Favorileri Kaydet
+Save Mapping::Eşlemeyi Kaydet
+Save Playlist::Oynatma Listesini Kaydet
+Save Status::Durumu Kaydet
+Saved::Kaydedildi
+Search channel::Kanal ara
+Search channels by name::Kanalları ada göre arayın
+Search channels...::Kanal ara...
+sec::saniye
+Second playlist loaded: {0} channels::İkinci oynatma listesi yüklendi: {0} kanal
+Select a channel to play.::Oynatılacak kanalı seçin.
+Select a playlist first.::Önce bir çalma listesi seçin.
+Select target group:::Hedef grubu seçin:
+Select Theme::Tema Seç
+Selected theme is saved and applied on restart.::Seçilen tema kaydedilir ve yeniden başlatıldığında uygulanır.
+Send::Göndermek
+Send playlist to Enigma2 decoder::Çalma listesini Enigma2 kod çözücüye gönder
+Send to Enigma2::Enigma2'ye gönder
+Settings::Ayarlar
+Show List::Listeyi Göster
+Show only channels marked as favorites::Yalnızca favori olarak işaretlenen kanalları göster
+Show or hide the channel list::Kanal listesini göster veya gizle
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::Test ve destek için CORVOBOYS ve LinuxSat-Destek topluluklarına özellikle teşekkür ederiz.
+Start::Başlangıç
+Status::Durum
+Stop::Durmak
+Stopped::Durduruldu
+Stream URL::Akış URL'si
+Stream URLs::Akış URL'leri
+Success::Başarı
+Support::Destek
+Support the developer::Geliştiriciyi destekleyin
+Target Field::Hedef Alanı
+Telnet command:::Telnet komutu:
+Telnet Commander::Telnet Komutanı
+Telnet Config::Telnet Yapılandırması
+Telnet Configuration::Telnet Yapılandırması
+Telnet Console::Telnet Konsolu
+Telnet host not configured. Please set it in Settings.::Telnet ana bilgisayarı yapılandırılmamış. Lütfen Ayarlar'da ayarlayın.
+Telnet password is empty. Do you want to continue?::Telnet şifresi boş. Devam etmek istiyor musun?
+Telnet username not configured. Please set it in Settings.::Telnet kullanıcı adı yapılandırılmadı. Lütfen Ayarlar'da ayarlayın.
+Thanks to::Sayesinde
+Theme picker::Tema seçici
+Theme picker – accessible via Tools menu on main toolbar.::Tema seçiciye ana araç çubuğundaki Araçlar menüsünden erişilebilir.
+Themes::Temalar
+Time::Zaman
+Title::Başlık
+Tools::Aletler
+Total::Toplam
+Total channels in loaded playlist::Yüklenen oynatma listesindeki toplam kanallar
+TV Guide (EPG)::TV Rehberi (EPG)
+TvgId::TvgID
+Type channel name to filter::Filtrelenecek kanal adını yazın
+UI: MaterialDesignThemes.Wpf::Kullanıcı Arayüzü: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::Format otomatik olarak algılanamıyor. Lütfen açılır menüden JSON veya M3U'yu seçin ve tekrar deneyin.
+Unable to find version in remote project file.::Uzak proje dosyasında sürüm bulunamıyor.
+Unsupported format. Please select JSON or M3U.::Desteklenmeyen biçim. Lütfen JSON veya M3U'yu seçin.
+Update::Güncelleme
+Update complete. Restarting...::Güncelleme tamamlandı. Yeniden başlatılıyor...
+Update Error::Güncelleme Hatası
+Update failed: ::Güncelleme başarısız oldu:
+Updated::Güncellendi
+Updates::Güncellemeler
+Upload Error::Yükleme Hatası
+URL::URL'si
+URL (primary)::URL (birincil)
+URL Check::URL Kontrolü
+URL list (one per line)::URL listesi (her satıra bir tane)
+URLs & Status::URL'ler ve Durum
+Version::Sürüm
+Version {0}.{1}.{2}::Sürüm {0}.{1}.{2}
+Version unknown::Sürüm bilinmiyor
+Waiting for LiveGardenTVPlus to close...::LiveGardenTVPlus'ın kapanması bekleniyor...
+Warning::Uyarı
+WebView2: Microsoft Edge WebView2::WebView2: Microsoft Edge WebView2
+Youtube URL::Youtube URL'si
+Youtube URLs::Youtube URL'leri

@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): (To'liq ixtiyoriy - hech qanday xususiyat bloklanmagan)
-(No description): (Ta'rif yo'q)
-• Add / rename / delete groups.: • Guruhlarni qo‘shish/nomini o‘zgartirish/o‘chirish.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Bufer slayderi: HLS buferini sozlash (1‑10 soniya).
-• Check URL availability (only visible channels).: • URL mavjudligini tekshiring (faqat ko'rinadigan kanallar).
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Kanal nomlarini, guruhlarni, URL manzillarini, logotiplarni, tvg-identifikatorini, mamlakatni, tillarni, sevimlilarni tahrirlash.
-• Edit multiple URLs per channel (popup window).: • Har bir kanal uchun bir nechta URL manzillarini tahrirlash (qalqib chiquvchi oyna).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG bilan boyitish: noaniq moslik yordamida etishmayotgan tvg-identifikatorini qo'shadi.
-• EPG info displayed in status bar for current channel.: • Joriy kanal uchun holat satrida ko'rsatilgan EPG ma'lumotlari.
-• Export OK / FAIL / filtered lists as M3U or JSON.: • OK / FAIL / filtrlangan roʻyxatlarni M3U yoki JSON sifatida eksport qiling.
-• Fetch logos from remote repository (OwnerPlugins/logos).: • Logotiplarni masofaviy ombordan oling (OwnerPlugins/logos).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • To‘liq ekranli UI: yon panel va holat panelini yashiradi (chiqish uchun ESC).
-• Hide/Show channel list button.: • Kanallar ro‘yxatini yashirish/ko‘rsatish tugmasi.
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • JSON (mahalliy yoki URL)ni moslashuvchan maydon xaritasi bilan import qiling (avtomatik aniqlash, xaritani saqlash).
-• Picture‑in‑Picture (PIP) button.: • Tasvir ichidagi rasm (PIP) tugmasi.
-• Playback speed: 0.5x, 1x, 2x buttons.: • Ijro qilish tezligi: 0,5x, 1x, 2x tugmalari.
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sarlavhani bosish orqali istalgan ustunni saralash; asl tartibni qaytarish uchun "Buyurtmani tiklash" dan foydalaning.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: jonli translatsiyani to‘xtatib turish; orqaga qaytish uchun slayderni torting; qaytish uchun "Jonli" tugmasini bosing.
-▶ Play Media: ▶ Mediani ijro etish
-◀ Previous: ◀ Oldingi
-16 colour themes + Light/Dark variants.: 16 ta rangli mavzular + Ochiq/qora variantlar.
-A new version is available. Do you want to update now?: Yangi versiya mavjud. Hozir yangilashni xohlaysizmi?
-Access via 'Compare' button in Playlist Editor or Tools menu.: Pleylist muharriri yoki Asboblar menyusidagi “Taqqoslash” tugmasi orqali kiring.
-Access via 'Edit Playlist' button on main toolbar.: Asosiy asboblar panelidagi “Pleylistni tahrirlash” tugmasi orqali kiring.
-Actions: Harakatlar
-Add Command: Buyruq qo'shish
-Add Group: Guruh qo'shish
-Add Mapping: Xarita qo'shish
-Adjust buffer size (1-10 seconds): Bufer hajmini sozlash (1-10 soniya)
-Advanced IDs: Kengaytirilgan identifikatorlar
-Application status: Ilova holati
-Apply: Murojaat qiling
-Apply / Import: Qo'llash / Import qilish
-Apply changes: O'zgarishlarni qo'llash
-Apply Filters: Filtrlarni qo'llash
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Haqiqatan ham Enigma2 GUI-ni qayta yuklamoqchimisiz?\n\nInterfeys qayta ishga tushadi (bir necha soniya qora ekran).
-Auto (recommended): Avtomatik (tavsiya etiladi)
-Auto-detect: Avtomatik aniqlash
-Automatic check on startup – or click 'Check for updates' in Tools menu.: Ishga tushganda avtomatik tekshirish - yoki Asboblar menyusidagi "Yangilanishlarni tekshirish" tugmasini bosing.
-Bouquet Name: Buket nomi
-Bouquet sent and Enigma2 channel list reloaded.: Buket yuborildi va Enigma2 kanallari roʻyxati qayta yuklandi.
-Buffer (seconds): Bufer (soniyalar)
-Buffer size – adjust HLS buffer seconds.: Bufer hajmi - HLS bufer soniyalarini sozlang.
-Cache: Kesh
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Kesh jildi: %TEMP%\\LiveGardenTVPlus\\epg_cache
-Cancel: Bekor qilish
-CANCEL: BEKOR
-Cannot open browser: Brauzerni ochib bo'lmadi
-Category: Turkum
-Changelog: O'zgarishlar jurnali
-Channel Details: Kanal tafsilotlari
-Channel Down: Kanal pastga
-Channel Info: Kanal haqida ma'lumot
-Channel Name: Kanal nomi
-Channel Up: Kanal yuqoriga
-channels from: dan kanallar
-channels from JSON: JSON kanallari
-channels from JSON URL: JSON URL dan kanallar
-channels from URL: URL dan kanallar
-Check Duplicates: Dublikatlarni tekshiring
-Check for updates: Yangilanishlarni tekshiring
-Check URLs: URL manzillarini tekshiring
-Clear: Toza
-Clear EPG Cache: EPG keshini tozalang
-Clear Filters: Filtrlarni tozalash
-Clear search: Qidiruvni tozalash
-Click for details: Tafsilotlar uchun bosing
-Close: Yopish
-Code: Kod
-Code copied to clipboard.: Kod vaqtinchalik xotiraga nusxalandi.
-Command name:: Buyruq nomi:
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Hamjamiyat va test: CorvoBoys (corvoboys.org) va LinuxSat-Support.com
-Compare: Taqqoslash
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Taqqoslang: Prioritet (nom→guruh→tvg-id), Ism, Guruh (katta harf sezgir) yoki TvgId.
-Compare Playlists: Pleylistlarni solishtiring
-Compare two playlists – load first (current playlist) and second (from file or URL).: Ikkita pleylistni solishtiring - birinchi (joriy pleylist) va ikkinchi (fayl yoki URL manzilidan) yuklang.
-Compare...: Taqqoslash...
-Comparison results: {0} channels: Taqqoslash natijalari: {0} ta kanal
-Configuration Missing: Konfiguratsiya yoʻq
-Confirm Delete: Oʻchirishni tasdiqlang
-Confirm Reload: Qayta yuklashni tasdiqlang
-Connect: Ulanish
-Connected: Ulangan
-Copied: Ko‘chirildi
-Copy: Nusxalash
-CORVOBOYS.ORG: CORVOBOYS.ORG
-Country: Mamlakat
-Credits: Kreditlar
-Delete channel '{0}'?: “{0}” kanali oʻchirilsinmi?
-Delete Group: Guruhni o'chirish
-Delete Selected: Tanlanganni o'chirish
-Deleted: Oʻchirildi
-Description: Tavsif
-Details: Tafsilotlar
-Developed by Lululla: Lululla tomonidan ishlab chiqilgan
-Developer: Lululla: Tuzuvchi: Lululla
-Disconnect: Ulanishni uzing
-Disconnected: Ulangan
-Display as: : Quyidagi kabi ko'rsatish:
-Do you want to load this edited playlist now?: Ushbu tahrirlangan pleylistni hozir yuklamoqchimisiz?
-Double speed (2x): Ikki marta tezlik (2x)
-Downloading playlist...: Pleylist yuklab olinmoqda...
-Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP faylini yuklaydi, fayllarni almashtiradi, ilovani qayta ishga tushiradi – sozlamalar saqlanib qolgan.
-Drag & drop – drop M3U or JSON files directly onto main window.: Drag & drop - M3U yoki JSON fayllarini to'g'ridan-to'g'ri asosiy oynaga tashlang.
-Drag to seek back in buffer: Buferda orqaga qidirish uchun torting
-Duplicate URLs found:\n\n: Takroriy URL manzillar topildi:\n\n
-Edit Command: Buyruqni tahrirlash
-Edit command name:: Buyruq nomini tahrirlash:
-Edit Playlist: Pleylistni tahrirlash
-Edit telnet command:: Telnet buyrug'ini tahrirlash:
-Edit URLs: URL manzillarini tahrirlash
-Empty Password: Bo'sh parol
-End: Oxiri
-Enrich with EPG: EPG bilan boyiting
-Enter bouquet name (without spaces):: Guldasta nomini kiriting (bo'shliqlarsiz):
-Enter JSON URL:: JSON URL manzilini kiriting:
-Enter new group name:: Yangi guruh nomini kiriting:
-Enter playlist URL (JSON or M3U):: Pleylist URL manzilini kiriting (JSON yoki M3U):
-Enter playlist URL (M3U or JSON):: Pleylist URL manzilini kiriting (M3U yoki JSON):
-EPG: EPG
-Epg & Favorites: Epg va Sevimlilar
-EPG & Favorites: EPG va Sevimlilar
-Epg & Logos: Epg va logotiplar
-EPG & Logos: EPG va logotiplar
-EPG cache cleared successfully.: EPG keshi muvaffaqiyatli tozalandi.
-EPG Details: EPG tafsilotlari
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Guide - asosiy asboblar panelidagi tugma dastur tafsilotlari bilan to'liq panjarani ko'rsatadi (ma'lumot uchun ikki marta bosing).
-EPG Matching Threshold: EPG moslashish chegarasi
-EPG Source: : EPG manbasi:
-EPG source – can be set in Settings (epgshare01 or custom URL).: EPG manbasi - Sozlamalarda o'rnatilishi mumkin (epgshare01 yoki maxsus URL).
-EPG source – choose XMLTV file or enter custom URL.: EPG manbai - XMLTV faylini tanlang yoki maxsus URL manzilini kiriting.
-EPG Source Missing: EPG manbasi yoʻq
-Error: Xato
-Error clearing cache: {0}: Keshni tozalashda xatolik yuz berdi: {0}
-Error loading: Yuklashda xato
-Error loading EPG list: {0}: EPG roʻyxatini yuklashda xatolik yuz berdi: {0}
-Error loading file: {0}: Faylni yuklashda xatolik: {0}
-Error loading playlists: {0}: Pleylistlarni yuklashda xatolik: {0}
-Error loading URL: {0}: URLni yuklashda xatolik yuz berdi: {0}
-ERROR: player.html not found.: XATO: player.html topilmadi.
-Exit: Chiqish
-Export all: Hammasini eksport qiling
-Export Favorites: Sevimlilarni eksport qilish
-Export Filtered JSON: Filtrlangan JSONni eksport qiling
-Export Filtered M3U: Filtrlangan M3U eksporti
-Export JSON: JSON-ni eksport qiling
-Export KO: Eksport KO
-Export missing: Eksport etishmayapti
-Export OK: Eksport OK
-Export only favorite channels to a new M3U file: Yangi M3U fayliga faqat sevimli kanallarni eksport qiling
-Export results as JSON or M3U – export missing channels or all channels.: Natijalarni JSON yoki M3U sifatida eksport qiling - etishmayotgan kanallarni yoki barcha kanallarni eksport qiling.
-Export selected: Eksport tanlangan
-Export Selected: Tanlangan eksport
-Exported: Eksport qilingan
-Exported {0} channels to {1}: {0} ta kanal {1} ​​ga eksport qilindi
-Extracting update...: Yangilanish chiqarilmoqda...
-Failed to download playlist: Pleylist yuklab olinmadi
-Failed to load playlist: Pleylist yuklanmadi
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: bouquets.tv yangilanmadi. Iltimos, Enigma2 qurilmasidagi fayl ruxsatlarini tekshiring.
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Guldasta yuklanmadi. Iltimos, Telnet sozlamalarini (xost, port, foydalanuvchi nomi, parol) tekshiring va qayta urinib ko'ring.
-Favorite: Sevimli
-Favorites only: Faqat sevimlilar
-Fetch Logos: Logotiplarni olish
-File {0} already exists. Overwrite?: {0} fayli allaqachon mavjud. Ustiga yozilsinmi?
-File exists: Fayl mavjud
-Filters: Filtrlar
-Format Detection: Formatni aniqlash
-Fullscreen: Toʻliq ekran
-Fullscreen (hide UI) - press ESC to exit: To'liq ekran (UI yashirish) - chiqish uchun ESC tugmasini bosing
-Geo & Country: Geo & Country
-GeoBlocked: Geoblocked
-GitHub Error: GitHub xatosi
-Go back to live: Hayotga qayting
-Grid: To‘r
-Group: Guruh
-Half speed (0.5x): Yarim tezlik (0,5x)
-Help: Yordam
-Hide List: Roʻyxatni yashirish
-HLS playback: hls.js (MIT license): HLS ijrosi: hls.js (MIT litsenziyasi)
-Image: Rasm
-Import: Import
-Import cancelled or no channels mapped.: Import bekor qilindi yoki hech qanday kanal koʻrsatilmagan.
-Import Error: Import xatosi
-Import error: {0}: Import xatosi: {0}
-Import from URL: URL manzilidan import qilish
-Import JSON: JSON-ni import qiling
-Import JSON from URL: URL manzilidan JSON-ni import qiling
-Import Local: Mahalliy import
-Imported {0} channels from code.: Koddan {0} ta kanal import qilindi.
-Imported {0} channels from JSON via mapping.: Xarita orqali JSON’dan {0} ta kanal import qilindi.
-Imported {0} channels from URL.: URL manzilidan {0} ta kanal import qilindi.
-In Both: Ikkalasida
-Info: Ma'lumot
-Info on: Ma'lumot haqida
-Invalid JSON: {0}: Yaroqsiz JSON: {0}
-Invalid playlist URL.: Yaroqsiz pleylist URL.
-Invalid URL.: URL noto‘g‘ri.
-Json: Json
-JSON: JSON
-JSON parsing error: {0}: JSON tahlil xatosi: {0}
-JSON Property: JSON mulki
-Ko-fi: Kofe
-Language: Til
-Language – change UI language dynamically (translations in Languages folder).: Til - UI tilini dinamik ravishda o'zgartirish (Tillar papkasida tarjimalar).
-Languages: Tillar
-Languages (comma): Tillar (vergul)
-LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help: LiveGardenTVPlus yordami
-LOAD: YUKLASH
-Load a playlist first.: Avval pleylistni yuklang.
-Load a second playlist first.: Avval ikkinchi pleylistni yuklang.
-Load File: Faylni yuklash
-Load from file...: Fayldan yuklash...
-Load from URL: URL dan yuklang
-Load from URL...: URL manzilidan yuklash...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Mahalliy M3U/JSON faylini yuklang – “Faylni yuklash” tugmasi (asboblar paneli) yoki muharrirdagi “Faylni ochish” orqali.
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: M3U/JSON URL-manzilini onlayn yuklash – muharrirda “Onlayn yuklash” tugmasi (asboblar paneli) yoki “URL manzilidan ochish”.
-Load playlist file (M3U/JSON) from your computer: Pleylist faylini (M3U/JSON) kompyuteringizdan yuklang
-Loaded: Yuklangan
-Loaded {0} channels from JSON file via mapping.: JSON faylidan {0} ta kanal xaritalash orqali yuklandi.
-Loaded {0} channels from JSON URL.: JSON URL manzilidan {0} ta kanal yuklandi.
-Loaded {0} channels from M3U file.: M3U faylidan {0} ta kanal yuklandi.
-Loaded {0} channels from M3U URL.: M3U URL manzilidan {0} ta kanal yuklandi.
-Loading...: Yuklanmoqda...
-Logo: Logotip
-Logo Picker – in editor, click '...' to choose logo from gallery.: Logotip tanlash – muharrirda galereyadan logotip tanlash uchun “...” tugmasini bosing.
-Logo Preview: Logotipni ko'rib chiqish
-Logo URL: Logotip URL
-Logos – automatically download from GitHub repository (Settings → Logos Source).: Logotiplar - GitHub omboridan avtomatik ravishda yuklab oling (Sozlamalar → Logos manbasi).
-Logos Matching Threshold: Logotiplarning mos keladigan chegarasi
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logotiplar ombori - egasini/repo/yo'lni tanlang (standart OwnerPlugins/logotiplar).
-Logos Source: Logotiplar manbai
-Logos Subfolder: Logotiplar pastki papkasi
-M3U: M3U
-M3U parsing error: {0}: M3U tahlil xatosi: {0}
-Map JSON properties to channel fields:: JSON xususiyatlarini kanal maydonlariga xaritalash:
-Mapping saved for future imports of this file.: Ushbu faylni kelajakda import qilish uchun xaritalash saqlangan.
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Mos keladigan chegaralar - EPG va logotiplar uchun noaniq moslik sezgirligini o'rnating.
-Mini Player: Mini o'yinchi
-Move to Group: Guruhga o'tish
-Moved: Koʻchirildi
-Name: Ism
-Nanoid: Nanoid
-Network error: Tarmoq xatosi
-New Playlist: Yangi pleylist
-Next: Keyingisi
-Next ▶: Keyingi ▶
-No .m3u files found on GitHub repository.: GitHub omborida .m3u fayl topilmadi.
-No cache folder found.: Hech qanday kesh jild topilmadi.
-No channel selected: Hech qanday kanal tanlanmagan
-No channels could be mapped or import cancelled.: Hech qanday kanalni xaritalash yoki importni bekor qilish mumkin emas.
-No channels could be mapped. Check your mapping rules.: Hech qanday kanalni xaritalash mumkin emas. Xarita tuzish qoidalarini tekshiring.
-No channels found in JSON.: JSON ichida hech qanday kanal topilmadi.
-No channels found in M3U.: M3U-da hech qanday kanal topilmadi.
-No channels loaded from JSON URL.: JSON URL manzilidan hech qanday kanal yuklanmagan.
-No channels loaded from M3U URL.: M3U URL manzilidan hech qanday kanal yuklanmagan.
-No channels loaded from M3U.: M3U dan hech qanday kanal yuklanmagan.
-No channels loaded.: Hech qanday kanal yuklanmagan.
-No channels mapped: Hech qanday kanal xaritalanmagan
-No channels selected.: Hech qanday kanal tanlanmagan.
-No channels to import.: Import qilinadigan kanallar yoʻq.
-No duplicate URLs found.: Hech qanday takroriy URL topilmadi.
-No EPG data: EPG maʼlumotlari yoʻq
-No EPG information available for this channel.: Bu kanal uchun EPG maʼlumoti mavjud emas.
-No EPG source configured. Please select one from the combo or go to Settings.: Hech qanday EPG manbai sozlanmagan. Kombodan birini tanlang yoki Sozlamalarga o'ting.
-No EPG source configured. Would you like to open settings to select one?: Hech qanday EPG manbai sozlanmagan. Birini tanlash uchun sozlamalarni ochmoqchimisiz?
-No favorite channels to export.: Eksport qilinadigan sevimli kanallar yoʻq.
-No missing channels to export.: Eksport qilish uchun etishmayotgan kanallar yo'q.
-No playlist found: Hech qanday pleylist topilmadi
-No second playlist loaded.: Ikkinchi pleylist yuklanmagan.
-No stream URL available for this channel.: Bu kanal uchun oqim URL manzili mavjud emas.
-No text to import.: Import qilinadigan matn yo'q.
-No updates available.: Hech qanday yangilanish mavjud emas.
-Normal speed (1x): Oddiy tezlik (1x)
-Not connected to the box.: Qutiga ulanmagan.
-Now: Hozir
-OK: KELISHDIKMI
-Online Playlist: Onlayn pleylist
-Online playlist – select from GitHub repository (auto‑refresh).: Onlayn pleylist - GitHub omboridan tanlang (avtomatik yangilash).
-Only in First: Faqat Birinchisida
-Only in Second: Faqat ikkinchisida
-Open File...: Faylni ochish...
-Open from URL: URL manzilidan oching
-Open Playlist: Pleylistni oching
-Pause/Resume live stream: Jonli translatsiyani to‘xtatib turish/davom etish
-Paused: Pauza qilingan
-PayPal: PayPal
-Picture-in-Picture mode: Tasvir ichidagi rasm rejimi
-Play/Pause: Oʻynatish/toʻxtatib turish
-Player Media Controls: Player media boshqaruvlari
-Playing Media: Media ijro etilmoqda
-Playlist & Groups: Pleylist va guruhlar
-Playlist Comparison: Pleylistni taqqoslash
-Playlist Editor: Pleylist muharriri
-Playlist Loading: Pleylist yuklanmoqda
-Playlist Management: Pleylist boshqaruvi
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Pleylistlar ombori: OwnerPlugins/TivuStreamList (Italiya va xalqaro oqimlar)
-Please select a program first.: Iltimos, avval dasturni tanlang.
-Preview (first 5 channels): Ko‘rib chiqish (birinchi 5 ta kanal)
-Preview error: {0}: Ko‘rib chiqish xatosi: {0}
-Program Details: Dastur tafsilotlari
-Ready: Tayyor
-Ready.: Tayyor.
-Recent: Yaqinda
-Recent files – quick access to last 5 opened playlists.: Oxirgi fayllar - oxirgi 5 ochilgan pleylistga tezkor kirish.
-Recent playlists: Oxirgi pleylistlar
-Refresh Code: Kodni yangilash
-Refresh EPG: EPGni yangilang
-Refresh EPG List: EPG roʻyxatini yangilang
-Refresh from GitHub: GitHub dan yangilang
-Refresh List: Roʻyxatni yangilash
-Reload GUI: GUI-ni qayta yuklang
-Remove Command: Buyruqni o'chirish
-Rename Group: Guruh nomini o'zgartirish
-Rename group '{0}' to:: “{0}” guruhi nomini o‘zgartiring:
-Repository: Repozitariy
-Reset Order: Buyurtmani tiklash
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Natijalar: 'Faqat birinchisida', 'Faqat ikkinchisida', 'Ikkalasida' - holat rangini kodlash bilan.
-Save: Saqlash
-SAVE: SAQLASH
-Save – persists all settings without reloading current playlist.: Saqlash - joriy pleylistni qayta yuklamasdan barcha sozlamalarni saqlaydi.
-Save as...: Saqlash...
-Save current playlist to a new M3U file: Joriy pleylistni yangi M3U fayliga saqlang
-Save Mapping: Xaritani saqlash
-Save Playlist: Pleylistni saqlash
-Save Status: Holatni saqlash
-Saved: Saqlangan
-Search channel: : Kanalni qidirish:
-Search channels by name: Kanallarni nomi bo'yicha qidiring
-Search channels...: Kanallarni qidirish...
-sec: sek
-Second playlist loaded: {0} channels: Ikkinchi pleylist yuklandi: {0} ta kanal
-Select a channel to play.: O‘ynash uchun kanalni tanlang.
-Select a playlist first.: Avval pleylistni tanlang.
-Select target group:: Maqsadli guruhni tanlang:
-Select Theme: Mavzuni tanlang
-Selected theme is saved and applied on restart.: Tanlangan mavzu saqlanadi va qayta ishga tushirilganda qo'llaniladi.
-Send: Yuborish
-Send playlist to Enigma2 decoder: Pleylistni Enigma2 dekoderiga yuboring
-Send to Enigma2: Enigma2 ga yuboring
-Settings: Sozlamalar
-Show List: Roʻyxatni koʻrsatish
-Show only channels marked as favorites: Faqat sevimlilar sifatida belgilangan kanallarni ko'rsatish
-Show or hide the channel list: Kanallar roʻyxatini koʻrsatish yoki yashirish
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Sinov va qo'llab-quvvatlash uchun CORVOBOYS & LinuxSat-Support hamjamiyatlariga alohida rahmat.
-Start: Boshlash
-Status: Status
-Stop: STOP
-Stopped: To'xtatildi
-Stream URL: Strim URL
-Stream URLs: Oqim URL manzillari
-Success: Muvaffaqiyat
-Support: Qo'llab-quvvatlash
-Support the developer: Ishlab chiquvchini qo'llab-quvvatlang
-Target Field: Maqsadli maydon
-Telnet command:: Telnet buyrug'i:
-Telnet Commander: Telnet qo'mondoni
-Telnet Config: Telnet konfiguratsiyasi
-Telnet Console: Telnet konsoli
-Telnet host not configured. Please set it in Settings.: Telnet xosti sozlanmagan. Iltimos, uni Sozlamalar orqali sozlang.
-Telnet password is empty. Do you want to continue?: Telnet paroli bo'sh. Davom etishni xohlaysizmi?
-Telnet username not configured. Please set it in Settings.: Telnet foydalanuvchi nomi sozlanmagan. Iltimos, uni Sozlamalar orqali sozlang.
-Thanks to: rahmat
-Theme picker: Mavzu tanlash
-Theme picker – accessible via Tools menu on main toolbar.: Mavzuni tanlash vositasi - asosiy asboblar panelidagi Asboblar menyusi orqali kirish mumkin.
-Themes: Mavzular
-Time: Vaqt
-Title: Sarlavha
-Tools: Asboblar
-Total: Jami
-Total channels in loaded playlist: Yuklangan pleylistdagi jami kanallar
-TV Guide (EPG): Televizion qoʻllanma (EPG)
-TvgId: TvgId
-Type channel name to filter: Filtrlash uchun kanal nomini kiriting
-UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Formatni avtomatik aniqlash imkonsiz. Iltimos, ochiladigan menyudan JSON yoki M3U ni tanlang va qaytadan urinib ko'ring.
-Unable to find version in remote project file.: Masofaviy loyiha faylida versiya topilmadi.
-Unsupported format. Please select JSON or M3U.: Qo'llab-quvvatlanmaydigan format. JSON yoki M3U ni tanlang.
-Update: Yangilash
-Update complete. Restarting...: Yangilash tugallandi. Qayta ishga tushirilmoqda...
-Update Error: Yangilash xatosi
-Update failed: : Yangilash amalga oshmadi:
-Updates: Yangilanishlar
-Upload Error: Yuklash xatosi
-URL: URL
-URL (primary): URL (asosiy)
-URL Check: URL tekshiruvi
-URL list (one per line): URL roʻyxati (har bir satrda bittadan)
-URLs & Status: URL manzillar va holat
-Version: Versiya
-Version {0}.{1}.{2}: Versiya {0}.{1}.{2}
-Version unknown: Versiya noma'lum
-Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus yopilishini kutmoqda...
-Warning: Ogohlantirish
-WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
-Youtube URL: Youtube URL
-Youtube URLs: Youtube URL manzillari
+(Completely voluntary – no features are blocked)::(To'liq ixtiyoriy - hech qanday xususiyat bloklanmagan)
+(No description)::(Ta'rif yo'q)
+• Add / rename / delete groups.::• Guruhlarni qo‘shish/nomini o‘zgartirish/o‘chirish.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• Bufer slayderi: HLS buferini sozlash (1‑10 soniya).
+• Check URL availability (only visible channels).::• URL mavjudligini tekshiring (faqat ko'rinadigan kanallar).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• Kanal nomlari, guruhlar, URL manzillar, logotiplar, tvg-id, mamlakat, tillar, sevimlilarni tahrirlash.
+• Edit multiple URLs per channel (popup window).::• Har bir kanal uchun bir nechta URL manzillarini tahrirlash (qalqib chiquvchi oyna).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• EPG bilan boyitish: noaniq moslik yordamida etishmayotgan tvg-identifikatorini qo'shadi.
+• EPG info displayed in status bar for current channel.::• Joriy kanal uchun holat satrida ko'rsatilgan EPG ma'lumotlari.
+• Export OK / FAIL / filtered lists as M3U or JSON.::• OK / FAIL / filtrlangan roʻyxatlarni M3U yoki JSON sifatida eksport qiling.
+• Fetch logos from remote repository (OwnerPlugins/logos).::• Logotiplarni masofaviy ombordan oling (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• To‘liq ekranli UI: yon panel va holat panelini yashiradi (chiqish uchun ESC).
+• Hide/Show channel list button.::• Kanallar ro‘yxatini yashirish/ko‘rsatish tugmasi.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• JSON (mahalliy yoki URL)ni moslashuvchan maydon xaritasi bilan import qiling (avtomatik aniqlash, xaritani saqlash).
+• Picture‑in‑Picture (PIP) button.::• Tasvir ichidagi rasm (PIP) tugmasi.
+• Playback speed: 0.5x, 1x, 2x buttons.::• Ijro qilish tezligi: 0,5x, 1x, 2x tugmalari.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• Sarlavhani bosish orqali istalgan ustunni saralash; asl tartibni qaytarish uchun "Buyurtmani tiklash" dan foydalaning.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• Timeshift: jonli translatsiyani to‘xtatib turish; orqaga qaytish uchun slayderni torting; qaytish uchun "Jonli" tugmasini bosing.
+▶ Play Media::▶ Mediani ijro etish
+◀ Previous::◀ Oldingi
+16 colour themes + Light/Dark variants.::16 ta rangli mavzular + Ochiq/qora variantlar.
+A new version is available. Do you want to update now?::Yangi versiya mavjud. Hozir yangilashni xohlaysizmi?
+Access via 'Compare' button in Playlist Editor or Tools menu.::Pleylist muharriri yoki Asboblar menyusidagi “Taqqoslash” tugmasi orqali kiring.
+Access via 'Edit Playlist' button on main toolbar.::Asosiy asboblar panelidagi “Pleylistni tahrirlash” tugmasi orqali kiring.
+Actions::Harakatlar
+Add Command::Buyruq qo'shish
+Add Group::Guruh qo'shish
+Add Mapping::Xarita qo'shish
+Adjust buffer size (1-10 seconds)::Bufer hajmini sozlash (1-10 soniya)
+Advanced IDs::Kengaytirilgan identifikatorlar
+All channels marked as favorites::Barcha kanallar sevimlilar sifatida belgilangan
+All favorites removed::Barcha sevimlilar olib tashlandi
+Application status::Ilova holati
+Apply::Murojaat qiling
+Apply / Import::Qo'llash / Import qilish
+Apply changes::O'zgarishlarni qo'llash
+Apply Filters::Filtrlarni qo'llash
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::Haqiqatan ham Enigma2 GUI-ni qayta yuklamoqchimisiz?\n\nInterfeys qayta ishga tushadi (bir necha soniya qora ekran).
+Auto (recommended)::Avtomatik (tavsiya etiladi)
+Auto-detect::Avtomatik aniqlash
+Automatic check on startup – or click 'Check for updates' in Tools menu.::Ishga tushganda avtomatik tekshirish - yoki Asboblar menyusidagi "Yangilanishlarni tekshirish" tugmasini bosing.
+Bouquet Name::Buket nomi
+Bouquet sent and Enigma2 channel list reloaded.::Buket yuborildi va Enigma2 kanallari roʻyxati qayta yuklandi.
+Buffer (seconds)::Bufer (soniyalar)
+Buffer size – adjust HLS buffer seconds.::Bufer hajmi - HLS bufer soniyalarini sozlang.
+Cache::Kesh
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::Kesh jildi: %TEMP%\\LiveGardenTVPlus\\epg_cache
+Cancel::Bekor qilish
+CANCEL::BEKOR
+Cannot open browser::Brauzerni ochib bo'lmadi
+Category::Turkum
+Changelog::O'zgarishlar jurnali
+Channel Details::Kanal tafsilotlari
+Channel Down::Kanal pastga
+Channel Info::Kanal haqida ma'lumot
+Channel Name::Kanal nomi
+Channel Up::Kanal yuqoriga
+Channel updated successfully.::Kanal muvaffaqiyatli yangilandi.
+channels from::dan kanallar
+channels from JSON::JSON kanallari
+channels from JSON URL::JSON URL dan kanallar
+channels from URL::URL dan kanallar
+Check Duplicates::Dublikatlarni tekshiring
+Check for updates::Yangilanishlarni tekshiring
+Check URLs::URL manzillarini tekshiring
+Clear::Toza
+Clear EPG Cache::EPG keshini tozalang
+Clear Filters::Filtrlarni tozalash
+Clear search::Qidiruvni tozalash
+Click for details::Tafsilotlar uchun bosing
+Close::Yopish
+Close current playlist::Joriy pleylistni yoping
+Close Playlist::Pleylistni yoping
+Code::Kod
+Code copied to clipboard.::Kod vaqtinchalik xotiraga nusxalandi.
+Command name:::Buyruq nomi:
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::Hamjamiyat va test: CorvoBoys (corvoboys.org) va LinuxSat-Support.com
+Compare::Taqqoslash
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::Taqqoslang: Prioritet (nom→guruh→tvg-id), Ism, Guruh (katta harf sezgir) yoki TvgId.
+Compare Playlists::Pleylistlarni solishtiring
+Compare two playlists – load first (current playlist) and second (from file or URL).::Ikkita pleylistni solishtiring - birinchi (joriy pleylist) va ikkinchi (fayl yoki URL manzilidan) yuklang.
+Compare...::Taqqoslash...
+Comparison results: {0} channels::Taqqoslash natijalari: {0} ta kanal
+Configuration Missing::Konfiguratsiya yoʻq
+Confirm Delete::Oʻchirishni tasdiqlang
+Confirm Reload::Qayta yuklashni tasdiqlang
+Connect::Ulanish
+Connected::Ulangan
+Copied::Ko‘chirildi
+Copy::Nusxalash
+CORVOBOYS.ORG::CORVOBOYS.ORG
+Country::Mamlakat
+Credits::Kreditlar
+Delete channel '{0}'?::“{0}” kanali oʻchirilsinmi?
+Delete Group::Guruhni o'chirish
+Delete Selected::Tanlanganni o'chirish
+Deleted::Oʻchirildi
+Description::Tavsif
+Details::Tafsilotlar
+Developed by Lululla::Lululla tomonidan ishlab chiqilgan
+Developer: Lululla::Tuzuvchi: Lululla
+Disconnect::Ulanishni uzing
+Disconnected::Ulangan
+Display as::Sifatida ko'rsatish
+Do you want to load this edited playlist now?::Ushbu tahrirlangan pleylistni hozir yuklamoqchimisiz?
+Double speed (2x)::Ikki marta tezlik (2x)
+Downloading playlist...::Pleylist yuklab olinmoqda...
+Downloads ZIP, replaces files, restarts app – settings preserved.::ZIP faylini yuklaydi, fayllarni almashtiradi, ilovani qayta ishga tushiradi – sozlamalar saqlanib qolgan.
+Drag & drop – drop M3U or JSON files directly onto main window.::Drag & drop - M3U yoki JSON fayllarini to'g'ridan-to'g'ri asosiy oynaga tashlang.
+Drag to seek back in buffer::Buferda orqaga qidirish uchun torting
+Duplicate URLs found:\n\n::Takroriy URL manzillar topildi:\n\n
+Edit Command::Buyruqni tahrirlash
+Edit command name:::Buyruq nomini tahrirlash:
+Edit Playlist::Pleylistni tahrirlash
+Edit telnet command:::Telnet buyrug'ini tahrirlash:
+Edit URLs::URL manzillarini tahrirlash
+Empty Password::Bo'sh parol
+End::Oxiri
+Enigma2::Enigma 2
+Enrich with EPG::EPG bilan boyiting
+Enter bouquet name (without spaces):::Guldasta nomini kiriting (bo'shliqlarsiz):
+Enter JSON URL:::JSON URL manzilini kiriting:
+Enter new group name:::Yangi guruh nomini kiriting:
+Enter playlist URL (JSON or M3U):::Pleylist URL manzilini kiriting (JSON yoki M3U):
+Enter playlist URL (M3U or JSON):::Pleylist URL manzilini kiriting (M3U yoki JSON):
+EPG::EPG
+Epg & Favorites::Epg va Sevimlilar
+EPG & Favorites::EPG va Sevimlilar
+Epg & Logos::Epg va logotiplar
+EPG & Logos::EPG va logotiplar
+EPG cache cleared successfully.::EPG keshi muvaffaqiyatli tozalandi.
+EPG Details::EPG tafsilotlari
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::EPG Guide - asosiy asboblar panelidagi tugma dastur tafsilotlari bilan to'liq panjarani ko'rsatadi (ma'lumot uchun ikki marta bosing).
+EPG Matching Threshold::EPG moslashish chegarasi
+EPG Source::EPG manbasi
+EPG source – can be set in Settings (epgshare01 or custom URL).::EPG manbasi - Sozlamalarda o'rnatilishi mumkin (epgshare01 yoki maxsus URL).
+EPG source – choose XMLTV file or enter custom URL.::EPG manbai - XMLTV faylini tanlang yoki maxsus URL manzilini kiriting.
+EPG Source Missing::EPG manbasi yoʻq
+Error::Xato
+Error clearing cache: {0}::Keshni tozalashda xatolik yuz berdi: {0}
+Error loading::Yuklashda xato
+Error loading EPG list: {0}::EPG roʻyxatini yuklashda xatolik yuz berdi: {0}
+Error loading file: {0}::Faylni yuklashda xatolik: {0}
+Error loading playlists: {0}::Pleylistlarni yuklashda xatolik: {0}
+Error loading URL: {0}::URLni yuklashda xatolik yuz berdi: {0}
+ERROR: player.html not found.::XATO: player.html topilmadi.
+Exit::Chiqish
+Export all::Hammasini eksport qiling
+Export Favorites::Sevimlilarni eksport qilish
+Export Filtered JSON::Filtrlangan JSONni eksport qiling
+Export Filtered M3U::Filtrlangan M3U eksporti
+Export JSON::JSON-ni eksport qiling
+Export KO::Eksport KO
+Export missing::Eksport etishmayapti
+Export OK::Eksport OK
+Export only favorite channels to a new M3U file::Yangi M3U fayliga faqat sevimli kanallarni eksport qiling
+Export results as JSON or M3U – export missing channels or all channels.::Natijalarni JSON yoki M3U sifatida eksport qiling - etishmayotgan kanallarni yoki barcha kanallarni eksport qiling.
+Export selected::Eksport tanlangan
+Export Selected::Tanlangan eksport
+Exported::Eksport qilingan
+Exported {0} channels to {1}::{0} ta kanal {1} ​​ga eksport qilindi
+Extracting update...::Yangilanish chiqarilmoqda...
+Failed to download playlist::Pleylist yuklab olinmadi
+Failed to load playlist::Pleylist yuklanmadi
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::bouquets.tv yangilanmadi. Iltimos, Enigma2 qurilmasidagi fayl ruxsatlarini tekshiring.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::Guldasta yuklanmadi. Iltimos, Telnet sozlamalarini (xost, port, foydalanuvchi nomi, parol) tekshiring va qayta urinib ko'ring.
+Favorite::Sevimli
+Favorites::Sevimlilar
+Favorites only::Faqat sevimlilar
+Fetch Logos::Logotiplarni olish
+File::Fayl
+File {0} already exists. Overwrite?::{0} fayli allaqachon mavjud. Ustiga yozilsinmi?
+File exists::Fayl mavjud
+Filters::Filtrlar
+Format Detection::Formatni aniqlash
+Fullscreen::Toʻliq ekran
+Fullscreen (hide UI) - press ESC to exit::To'liq ekran (UI yashirish) - chiqish uchun ESC tugmasini bosing
+Geo & Country::Geo & Country
+GeoBlocked::Geoblocked
+GitHub Error::GitHub xatosi
+Go back to live::Hayotga qayting
+Grid::To‘r
+Group::Guruh
+Half speed (0.5x)::Yarim tezlik (0,5x)
+Help::Yordam
+Hide List::Roʻyxatni yashirish
+HLS playback: hls.js (MIT license)::HLS ijrosi: hls.js (MIT litsenziyasi)
+Image::Rasm
+Import::Import
+Import cancelled or no channels mapped.::Import bekor qilindi yoki hech qanday kanal koʻrsatilmagan.
+Import Error::Import xatosi
+Import error: {0}::Import xatosi: {0}
+Import from URL::URL dan import qilish
+Import JSON::JSON-ni import qiling
+Import JSON from URL::URL manzilidan JSON-ni import qiling
+Import Local::Mahalliy import
+Imported {0} channels from code.::Koddan {0} ta kanal import qilindi.
+Imported {0} channels from JSON via mapping.::JSON’dan {0} ta kanal xaritalash orqali import qilindi.
+Imported {0} channels from URL.::URL manzilidan {0} ta kanal import qilindi.
+In Both::Ikkalasida
+Info::Ma'lumot
+Info on::Ma'lumot haqida
+Invalid JSON: {0}::Yaroqsiz JSON: {0}
+Invalid playlist URL.::Yaroqsiz pleylist URL.
+Invalid URL.::URL noto‘g‘ri.
+Json::Json
+JSON::JSON
+JSON parsing error: {0}::JSON tahlil xatosi: {0}
+JSON Property::JSON mulki
+Ko-fi::Kofe
+Language::Til
+Language – change UI language dynamically (translations in Languages folder).::Til - UI tilini dinamik ravishda o'zgartiring (Tillar papkasida tarjimalar).
+Languages::Tillar
+Languages (comma)::Tillar (vergul)
+LINUXSAT-SUPPORT.COM::LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help::LiveGardenTVPlus yordami
+LOAD::YUKLASH
+Load a playlist first.::Avval pleylistni yuklang.
+Load a second playlist first.::Avval ikkinchi pleylistni yuklang.
+Load File::Faylni yuklash
+Load from file...::Fayldan yuklash...
+Load from URL::URL dan yuklang
+Load from URL...::URL manzilidan yuklash...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::Mahalliy M3U/JSON faylini yuklang – “Faylni yuklash” tugmasi (asboblar paneli) yoki muharrirdagi “Faylni ochish” orqali.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::M3U/JSON URL-manzilini onlayn yuklash – muharrirda “Onlayn yuklash” tugmasi (asboblar paneli) yoki “URL manzilidan ochish”.
+Load Playlist::Pleylistni yuklash
+Load playlist file (M3U/JSON) from your computer::Pleylist faylini (M3U/JSON) kompyuteringizdan yuklang
+Loaded::Yuklangan
+Loaded {0} channels from JSON file via mapping.::JSON faylidan {0} ta kanal xaritalash orqali yuklandi.
+Loaded {0} channels from JSON URL.::JSON URL manzilidan {0} ta kanal yuklandi.
+Loaded {0} channels from M3U file.::M3U faylidan {0} ta kanal yuklandi.
+Loaded {0} channels from M3U URL.::M3U URL manzilidan {0} ta kanal yuklandi.
+Loading...::Yuklanmoqda...
+Logo::Logotip
+Logo Picker – in editor, click '...' to choose logo from gallery.::Logotip tanlash – muharrirda galereyadan logotip tanlash uchun “...” tugmasini bosing.
+Logo Preview::Logotipni oldindan ko'rish
+Logo URL::Logotip URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).::Logotiplar - GitHub omboridan avtomatik ravishda yuklab oling (Sozlamalar → Logos manbasi).
+Logos Matching Threshold::Logotiplarning mos keladigan chegarasi
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::Logotiplar ombori - egasini/repo/yo'lni tanlang (standart OwnerPlugins/logotiplar).
+Logos Source::Logotiplar manbai
+Logos Subfolder::Logotiplar pastki papkasi
+M3U::M3U
+M3U parsing error: {0}::M3U tahlil xatosi: {0}
+Map JSON properties to channel fields:::JSON xususiyatlarini kanal maydonlariga xaritalash:
+Mapping saved for future imports of this file.::Bu faylni kelajakda import qilish uchun xaritalash saqlangan.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::Mos keladigan chegaralar - EPG va logotiplar uchun noaniq moslik sezgirligini o'rnating.
+Mini Player::Mini o'yinchi
+Move to Group::Guruhga o'tish
+Moved::Koʻchirildi
+Name::Ism
+Nanoid::Nanoid
+Network error::Tarmoq xatosi
+New Playlist::Yangi pleylist
+Next::Keyingisi
+Next ▶::Keyingi ▶
+No .m3u files found on GitHub repository.::GitHub omborida .m3u fayl topilmadi.
+No cache folder found.::Hech qanday kesh jild topilmadi.
+No channel selected::Hech qanday kanal tanlanmagan
+No channel selected.::Hech qanday kanal tanlanmagan.
+No channels could be mapped or import cancelled.::Hech qanday kanalni xaritalash yoki importni bekor qilish mumkin emas.
+No channels could be mapped. Check your mapping rules.::Hech qanday kanalni xaritalash mumkin emas. Xarita tuzish qoidalarini tekshiring.
+No channels found in JSON.::JSON ichida hech qanday kanal topilmadi.
+No channels found in M3U.::M3U-da hech qanday kanal topilmadi.
+No channels loaded from JSON URL.::JSON URL manzilidan hech qanday kanal yuklanmagan.
+No channels loaded from M3U URL.::M3U URL manzilidan hech qanday kanal yuklanmagan.
+No channels loaded from M3U.::M3U dan hech qanday kanal yuklanmagan.
+No channels loaded.::Hech qanday kanal yuklanmagan.
+No channels mapped::Hech qanday kanal xaritalanmagan
+No channels selected.::Hech qanday kanal tanlanmagan.
+No channels to import.::Import qilinadigan kanallar yoʻq.
+No duplicate URLs found.::Hech qanday takroriy URL topilmadi.
+No EPG data::EPG maʼlumotlari yoʻq
+No EPG information available for this channel.::Bu kanal uchun EPG maʼlumoti mavjud emas.
+No EPG source configured. Please select one from the combo or go to Settings.::Hech qanday EPG manbai sozlanmagan. Kombodan birini tanlang yoki Sozlamalarga o'ting.
+No EPG source configured. Would you like to open settings to select one?::Hech qanday EPG manbai sozlanmagan. Birini tanlash uchun sozlamalarni ochmoqchimisiz?
+No favorite channels found.::Sevimli kanallar topilmadi.
+No favorite channels to export.::Eksport qilinadigan sevimli kanallar yoʻq.
+No missing channels to export.::Eksport qilish uchun etishmayotgan kanallar yo'q.
+No playlist found::Hech qanday pleylist topilmadi
+No second playlist loaded.::Ikkinchi pleylist yuklanmagan.
+No stream URL available for this channel.::Bu kanal uchun oqim URL manzili mavjud emas.
+No text to import.::Import qilinadigan matn yo'q.
+No updates available.::Hech qanday yangilanish mavjud emas.
+Normal speed (1x)::Oddiy tezlik (1x)
+Not connected to the box.::Qutiga ulanmagan.
+Now::Hozir
+OK::KELISHDIKMI
+Online Playlist::Onlayn pleylist
+Online playlist – select from GitHub repository (auto‑refresh).::Onlayn pleylist - GitHub omboridan tanlang (avtomatik yangilash).
+Only in First::Faqat Birinchisida
+Only in Second::Faqat ikkinchisida
+Open File...::Faylni ochish...
+Open from URL::URL manzilidan oching
+Open Playlist::Pleylistni oching
+Pause/Resume live stream::Jonli translatsiyani to‘xtatib turish/davom etish
+Paused::Pauza qilingan
+PayPal::PayPal
+Picture-in-Picture mode::Tasvir ichidagi rasm rejimi
+Play/Pause::Oʻynatish/toʻxtatib turish
+Player Media Controls::Player media boshqaruvlari
+Playing Media::Media ijro etilmoqda
+Playlist & Groups::Pleylist va guruhlar
+Playlist closed::Pleylist yopildi
+Playlist Comparison::Pleylistni taqqoslash
+Playlist Editor::Pleylist muharriri
+Playlist Loading::Pleylist yuklanmoqda
+Playlist Management::Pleylist boshqaruvi
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::Pleylistlar ombori: OwnerPlugins/TivuStreamList (Italiya va xalqaro oqimlar)
+Please select a program first.::Iltimos, avval dasturni tanlang.
+Preview (first 5 channels)::Ko‘rib chiqish (birinchi 5 ta kanal)
+Preview error: {0}::Ko‘rib chiqish xatosi: {0}
+Program Details::Dastur tafsilotlari
+Ready::Tayyor
+Recent::Yaqinda
+Recent files – quick access to last 5 opened playlists.::Oxirgi fayllar - oxirgi 5 ochilgan pleylistga tezkor kirish.
+Recent playlists::Oxirgi pleylistlar
+Refresh Code::Kodni yangilash
+Refresh EPG::EPGni yangilang
+Refresh EPG List::EPG roʻyxatini yangilang
+Refresh from GitHub::GitHub dan yangilang
+Refresh List::Roʻyxatni yangilash
+Reload GUI::GUI-ni qayta yuklang
+Remove Command::Buyruqni o'chirish
+Rename Group::Guruh nomini o'zgartirish
+Rename group '{0}' to:::“{0}” guruhi nomini o‘zgartiring:
+Repository::Repozitariy
+Reset Order::Buyurtmani tiklash
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::Natijalar: 'Faqat birinchisida', 'Faqat ikkinchisida', 'Ikkalasida' - holat rangini kodlash bilan.
+Save::Saqlash
+SAVE::SAQLASH
+Save – persists all settings without reloading current playlist.::Saqlash - joriy pleylistni qayta yuklamasdan barcha sozlamalarni saqlaydi.
+Save as...::Saqlash...
+Save current playlist to a new M3U file::Joriy pleylistni yangi M3U fayliga saqlang
+Save Favorites::Sevimlilarni saqlash
+Save Mapping::Xaritalashni saqlash
+Save Playlist::Pleylistni saqlash
+Save Status::Holatni saqlash
+Saved::Saqlangan
+Search channel::Kanal qidirish
+Search channels by name::Kanallarni nomi bo'yicha qidiring
+Search channels...::Kanallarni qidirish...
+sec::sek
+Second playlist loaded: {0} channels::Ikkinchi pleylist yuklandi: {0} ta kanal
+Select a channel to play.::O'ynash uchun kanalni tanlang.
+Select a playlist first.::Avval pleylistni tanlang.
+Select target group:::Maqsadli guruhni tanlang:
+Select Theme::Mavzuni tanlang
+Selected theme is saved and applied on restart.::Tanlangan mavzu saqlanadi va qayta ishga tushirilganda qo'llaniladi.
+Send::Yuborish
+Send playlist to Enigma2 decoder::Pleylistni Enigma2 dekoderiga yuboring
+Send to Enigma2::Enigma2 ga yuboring
+Settings::Sozlamalar
+Show List::Roʻyxatni koʻrsatish
+Show only channels marked as favorites::Faqat sevimlilar sifatida belgilangan kanallarni ko'rsatish
+Show or hide the channel list::Kanallar roʻyxatini koʻrsatish yoki yashirish
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::Sinov va qo'llab-quvvatlash uchun CORVOBOYS & LinuxSat-Support hamjamiyatlariga alohida rahmat.
+Start::Boshlash
+Status::Status
+Stop::STOP
+Stopped::To'xtatildi
+Stream URL::Strim URL
+Stream URLs::Oqim URL manzillari
+Success::Muvaffaqiyat
+Support::Qo'llab-quvvatlash
+Support the developer::Ishlab chiquvchini qo'llab-quvvatlang
+Target Field::Maqsadli maydon
+Telnet command:::Telnet buyrug'i:
+Telnet Commander::Telnet qo'mondoni
+Telnet Config::Telnet konfiguratsiyasi
+Telnet Configuration::Telnet konfiguratsiyasi
+Telnet Console::Telnet konsoli
+Telnet host not configured. Please set it in Settings.::Telnet xosti sozlanmagan. Iltimos, uni Sozlamalar orqali sozlang.
+Telnet password is empty. Do you want to continue?::Telnet paroli bo'sh. Davom etishni xohlaysizmi?
+Telnet username not configured. Please set it in Settings.::Telnet foydalanuvchi nomi sozlanmagan. Iltimos, uni Sozlamalar orqali sozlang.
+Thanks to::rahmat
+Theme picker::Mavzu tanlash
+Theme picker – accessible via Tools menu on main toolbar.::Mavzuni tanlash vositasi - asosiy asboblar panelidagi Asboblar menyusi orqali kirish mumkin.
+Themes::Mavzular
+Time::Vaqt
+Title::Sarlavha
+Tools::Asboblar
+Total::Jami
+Total channels in loaded playlist::Yuklangan pleylistdagi jami kanallar
+TV Guide (EPG)::Televizion qoʻllanma (EPG)
+TvgId::TvgId
+Type channel name to filter::Filtrlash uchun kanal nomini kiriting
+UI: MaterialDesignThemes.Wpf::UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::Formatni avtomatik aniqlash imkonsiz. Iltimos, ochiladigan menyudan JSON yoki M3U ni tanlang va qaytadan urinib ko'ring.
+Unable to find version in remote project file.::Masofaviy loyiha faylida versiya topilmadi.
+Unsupported format. Please select JSON or M3U.::Qo'llab-quvvatlanmaydigan format. JSON yoki M3U ni tanlang.
+Update::Yangilash
+Update complete. Restarting...::Yangilash tugallandi. Qayta ishga tushirilmoqda...
+Update Error::Yangilash xatosi
+Update failed: ::Yangilash amalga oshmadi:
+Updated::Yangilangan
+Updates::Yangilanishlar
+Upload Error::Yuklash xatosi
+URL::URL
+URL (primary)::URL (asosiy)
+URL Check::URL tekshiruvi
+URL list (one per line)::URL roʻyxati (har bir satrda bittadan)
+URLs & Status::URL manzillar va holat
+Version::Versiya
+Version {0}.{1}.{2}::Versiya {0}.{1}.{2}
+Version unknown::Versiya noma'lum
+Waiting for LiveGardenTVPlus to close...::LiveGardenTVPlus yopilishini kutmoqda...
+Warning::Ogohlantirish
+WebView2: Microsoft Edge WebView2::WebView2: Microsoft Edge WebView2
+Youtube URL::Youtube URL
+Youtube URLs::Youtube URL manzillari

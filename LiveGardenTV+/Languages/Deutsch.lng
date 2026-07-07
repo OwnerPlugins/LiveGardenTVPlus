@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): (Völlig freiwillig – es werden keine Funktionen blockiert)
-(No description): (Keine Beschreibung)
-• Add / rename / delete groups.: • Gruppen hinzufügen/umbenennen/löschen.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Puffer-Schieberegler: Passen Sie den HLS-Puffer an (1–10 Sekunden).
-• Check URL availability (only visible channels).: • Überprüfen Sie die URL-Verfügbarkeit (nur sichtbare Kanäle).
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Bearbeiten Sie Kanalnamen, Gruppen, URLs, Logos, TVG-ID, Land, Sprachen und Favoriten.
-• Edit multiple URLs per channel (popup window).: • Bearbeiten Sie mehrere URLs pro Kanal (Popup-Fenster).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Anreichern mit EPG: Fügt fehlende TVG-ID mithilfe von Fuzzy-Matching hinzu.
-• EPG info displayed in status bar for current channel.: • EPG-Informationen werden in der Statusleiste für den aktuellen Kanal angezeigt.
-• Export OK / FAIL / filtered lists as M3U or JSON.: • OK-/FEHLER-/gefilterte Listen als M3U oder JSON exportieren.
-• Fetch logos from remote repository (OwnerPlugins/logos).: • Logos aus dem Remote-Repository abrufen (OwnerPlugins/Logos).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Vollbild-Benutzeroberfläche: Blendet Seitenleiste und Statusleiste aus (ESC zum Beenden).
-• Hide/Show channel list button.: • Schaltfläche „Senderliste ausblenden/einblenden“.
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Importieren Sie JSON (lokal oder URL) mit flexibler Feldzuordnung (automatische Erkennung, Zuordnung speichern).
-• Picture‑in‑Picture (PIP) button.: • Bild-in-Bild-Taste (PIP).
-• Playback speed: 0.5x, 1x, 2x buttons.: • Wiedergabegeschwindigkeit: 0,5-fache, 1-fache, 2-fache Tasten.
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Sortieren Sie jede Spalte, indem Sie auf die Überschrift klicken. Verwenden Sie „Bestellung zurücksetzen“, um zur ursprünglichen Reihenfolge zurückzukehren.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: Live-Stream anhalten; Ziehen Sie den Schieberegler, um zurück zu suchen. Drücken Sie „Live“, um zurückzukehren.
-▶ Play Media: ▶ Medien abspielen
-◀ Previous: ◀ Zurück
-16 colour themes + Light/Dark variants.: 16 Farbthemen + Hell/Dunkel-Varianten.
-A new version is available. Do you want to update now?: Eine neue Version ist verfügbar. Möchten Sie jetzt aktualisieren?
-Access via 'Compare' button in Playlist Editor or Tools menu.: Zugriff über die Schaltfläche „Vergleichen“ im Playlist-Editor oder im Menü „Extras“.
-Access via 'Edit Playlist' button on main toolbar.: Zugriff über die Schaltfläche „Playlist bearbeiten“ in der Hauptsymbolleiste.
-Actions: Aktionen
-Add Command: Befehl hinzufügen
-Add Group: Gruppe hinzufügen
-Add Mapping: Zuordnung hinzufügen
-Adjust buffer size (1-10 seconds): Puffergröße anpassen (1-10 Sekunden)
-Advanced IDs: Erweiterte IDs
-Application status: Bewerbungsstatus
-Apply: Anwenden
-Apply / Import: Anwenden / Importieren
-Apply changes: Änderungen übernehmen
-Apply Filters: Filter anwenden
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Sind Sie sicher, dass Sie die Enigma2-GUI neu laden möchten?\n\nDie Benutzeroberfläche wird neu gestartet (schwarzer Bildschirm für einige Sekunden).
-Auto (recommended): Automatisch (empfohlen)
-Auto-detect: Automatische Erkennung
-Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatische Prüfung beim Start – oder klicken Sie im Menü „Extras“ auf „Nach Updates suchen“.
-Bouquet Name: Blumenstraußname
-Bouquet sent and Enigma2 channel list reloaded.: Blumenstrauß gesendet und Enigma2-Kanalliste neu geladen.
-Buffer (seconds): Puffer (Sekunden)
-Buffer size – adjust HLS buffer seconds.: Puffergröße – HLS-Puffersekunden anpassen.
-Cache: Cache
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Cache-Ordner: %TEMP%\\LiveGardenTVPlus\\epg_cache
-Cancel: Stornieren
-CANCEL: STORNIEREN
-Cannot open browser: Der Browser kann nicht geöffnet werden
-Category: Kategorie
-Changelog: Änderungsprotokoll
-Channel Details: Kanaldetails
-Channel Down: Kanal runter
-Channel Info: Kanalinformationen
-Channel Name: Kanalname
-Channel Up: Kanal hoch
-channels from: Kanäle von
-channels from JSON: Kanäle aus JSON
-channels from JSON URL: Kanäle von JSON-URL
-channels from URL: Kanäle von URL
-Check Duplicates: Überprüfen Sie Duplikate
-Check for updates: Suchen Sie nach Updates
-Check URLs: Überprüfen Sie URLs
-Clear: Klar
-Clear EPG Cache: EPG-Cache löschen
-Clear Filters: Filter löschen
-Clear search: Suche löschen
-Click for details: Klicken Sie für Details
-Close: Schließen
-Code: Code
-Code copied to clipboard.: Code in die Zwischenablage kopiert.
-Command name:: Befehlsname:
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Community & Tests: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
-Compare: Vergleichen
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Vergleichen Sie nach: Priorität (Name→Gruppe→tvg-id), Name, Gruppe (Groß-/Kleinschreibung beachten) oder TvgId.
-Compare Playlists: Vergleichen Sie Playlists
-Compare two playlists – load first (current playlist) and second (from file or URL).: Vergleichen Sie zwei Playlists – laden Sie zuerst (aktuelle Playlist) und dann (aus Datei oder URL).
-Compare...: Vergleichen...
-Comparison results: {0} channels: Vergleichsergebnisse: {0} Kanäle
-Configuration Missing: Konfiguration fehlt
-Confirm Delete: Bestätigen Sie Löschen
-Confirm Reload: Bestätigen Sie das Neuladen
-Connect: Verbinden
-Connected: Verbunden
-Copied: Kopiert
-Copy: Kopie
-CORVOBOYS.ORG: CORVOBOYS.ORG
-Country: Land
-Credits: Credits
-Delete channel '{0}'?: Kanal „{0}“ löschen?
-Delete Group: Gruppe löschen
-Delete Selected: Ausgewählte löschen
-Deleted: Gelöscht
-Description: Beschreibung
-Details: Details
-Developed by Lululla: Entwickelt von Lululla
-Developer: Lululla: Entwickler: Lululla
-Disconnect: Trennen
-Disconnected: Getrennt
-Display as: : Anzeige als:
-Do you want to load this edited playlist now?: Möchten Sie diese bearbeitete Playlist jetzt laden?
-Double speed (2x): Doppelte Geschwindigkeit (2x)
-Downloading playlist...: Playlist wird heruntergeladen...
-Downloads ZIP, replaces files, restarts app – settings preserved.: Lädt ZIP herunter, ersetzt Dateien, startet die App neu – Einstellungen bleiben erhalten.
-Drag & drop – drop M3U or JSON files directly onto main window.: Drag & Drop – Legen Sie M3U- oder JSON-Dateien direkt im Hauptfenster ab.
-Drag to seek back in buffer: Ziehen Sie, um im Puffer zurückzusuchen
-Duplicate URLs found:\n\n: Doppelte URLs gefunden:\n\n
-Edit Command: Befehl bearbeiten
-Edit command name:: Befehlsnamen bearbeiten:
-Edit Playlist: Playlist bearbeiten
-Edit telnet command:: Bearbeiten Sie den Telnet-Befehl:
-Edit URLs: Bearbeiten Sie URLs
-Empty Password: Leeres Passwort
-End: Ende
-Enrich with EPG: Mit EPG anreichern
-Enter bouquet name (without spaces):: Geben Sie den Blumenstraußnamen ein (ohne Leerzeichen):
-Enter JSON URL:: Geben Sie die JSON-URL ein:
-Enter new group name:: Geben Sie einen neuen Gruppennamen ein:
-Enter playlist URL (JSON or M3U):: Geben Sie die URL der Wiedergabeliste ein (JSON oder M3U):
-Enter playlist URL (M3U or JSON):: Geben Sie die URL der Wiedergabeliste ein (M3U oder JSON):
-EPG: EPG
-Epg & Favorites: EPG & Favoriten
-EPG & Favorites: EPG & Favoriten
-Epg & Logos: EPG & Logos
-EPG & Logos: EPG und Logos
-EPG cache cleared successfully.: EPG-Cache erfolgreich geleert.
-EPG Details: EPG-Details
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG-Guide – Schaltfläche in der Hauptsymbolleiste zeigt das vollständige Raster mit Programmdetails an (für Informationen doppelklicken).
-EPG Matching Threshold: EPG-Übereinstimmungsschwelle
-EPG Source: : EPG-Quelle:
-EPG source – can be set in Settings (epgshare01 or custom URL).: EPG-Quelle – kann in den Einstellungen eingestellt werden (epgshare01 oder benutzerdefinierte URL).
-EPG source – choose XMLTV file or enter custom URL.: EPG-Quelle – wählen Sie eine XMLTV-Datei oder geben Sie eine benutzerdefinierte URL ein.
-EPG Source Missing: EPG-Quelle fehlt
-Error: Fehler
-Error clearing cache: {0}: Fehler beim Leeren des Caches: {0}
-Error loading: Fehler beim Laden
-Error loading EPG list: {0}: Fehler beim Laden der EPG-Liste: {0}
-Error loading file: {0}: Fehler beim Laden der Datei: {0}
-Error loading playlists: {0}: Fehler beim Laden der Playlists: {0}
-Error loading URL: {0}: Fehler beim Laden der URL: {0}
-ERROR: player.html not found.: FEHLER: player.html nicht gefunden.
-Exit: Ausfahrt
-Export all: Alles exportieren
-Export Favorites: Favoriten exportieren
-Export Filtered JSON: Gefiltertes JSON exportieren
-Export Filtered M3U: Gefiltertes M3U exportieren
-Export JSON: JSON exportieren
-Export KO: KO exportieren
-Export missing: Export fehlt
-Export OK: Exportieren OK
-Export only favorite channels to a new M3U file: Exportieren Sie nur Lieblingskanäle in eine neue M3U-Datei
-Export results as JSON or M3U – export missing channels or all channels.: Ergebnisse als JSON oder M3U exportieren – fehlende Kanäle oder alle Kanäle exportieren.
-Export selected: Exportieren ausgewählt
-Export Selected: Ausgewählte exportieren
-Exported: Exportiert
-Exported {0} channels to {1}: {0} Kanäle nach {1} exportiert
-Extracting update...: Update wird extrahiert...
-Failed to download playlist: Download der Playlist fehlgeschlagen
-Failed to load playlist: Playlist konnte nicht geladen werden
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Bouquets.tv konnte nicht aktualisiert werden. Bitte überprüfen Sie die Dateiberechtigungen auf dem Enigma2-Gerät.
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Blumenstrauß konnte nicht hochgeladen werden. Bitte überprüfen Sie Ihre Telnet-Einstellungen (Host, Port, Benutzername, Passwort) und versuchen Sie es erneut.
-Favorite: Favorit
-Favorites only: Nur Favoriten
-Fetch Logos: Logos abrufen
-File {0} already exists. Overwrite?: Datei {0} existiert bereits. Überschreiben?
-File exists: Datei existiert
-Filters: Filter
-Format Detection: Formaterkennung
-Fullscreen: Vollbild
-Fullscreen (hide UI) - press ESC to exit: Vollbild (Benutzeroberfläche ausblenden) – Drücken Sie ESC, um den Vorgang zu beenden
-Geo & Country: Geo & Land
-GeoBlocked: Geoblockiert
-GitHub Error: GitHub-Fehler
-Go back to live: Geh zurück zum Leben
-Grid: Netz
-Group: Gruppe
-Half speed (0.5x): Halbe Geschwindigkeit (0,5x)
-Help: Helfen
-Hide List: Liste ausblenden
-HLS playback: hls.js (MIT license): HLS-Wiedergabe: hls.js (MIT-Lizenz)
-Image: Bild
-Import: Import
-Import cancelled or no channels mapped.: Import abgebrochen oder keine Kanäle zugeordnet.
-Import Error: Importfehler
-Import error: {0}: Importfehler: {0}
-Import from URL: Von URL importieren
-Import JSON: JSON importieren
-Import JSON from URL: JSON von URL importieren
-Import Local: Lokal importieren
-Imported {0} channels from code.: {0} Kanäle aus Code importiert.
-Imported {0} channels from JSON via mapping.: {0} Kanäle aus JSON per Mapping importiert.
-Imported {0} channels from URL.: {0} Kanäle von URL importiert.
-In Both: In Beiden
-Info: Info
-Info on: Infos zu
-Invalid JSON: {0}: Ungültiger JSON: {0}
-Invalid playlist URL.: Ungültige Playlist-URL.
-Invalid URL.: Ungültige URL.
-Json: Json
-JSON: JSON
-JSON parsing error: {0}: JSON-Parsing-Fehler: {0}
-JSON Property: JSON-Eigenschaft
-Ko-fi: Kaffee
-Language: Sprache
-Language – change UI language dynamically (translations in Languages folder).: Sprache – UI-Sprache dynamisch ändern (Übersetzungen im Ordner „Sprachen“).
-Languages: Sprachen
-Languages (comma): Sprachen (Komma)
-LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help: LiveGardenTVPlus-Hilfe
-LOAD: LADEN
-Load a playlist first.: Laden Sie zunächst eine Playlist.
-Load a second playlist first.: Laden Sie zunächst eine zweite Playlist.
-Load File: Datei laden
-Load from file...: Aus Datei laden...
-Load from URL: Von URL laden
-Load from URL...: Von URL laden...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Lokale M3U/JSON-Datei laden – über die Schaltfläche „Datei laden“ (Symbolleiste) oder „Datei öffnen“ im Editor.
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Online-M3U/JSON-URL laden – Schaltfläche „Online laden“ (Symbolleiste) oder „Von URL öffnen“ im Editor.
-Load playlist file (M3U/JSON) from your computer: Laden Sie die Playlist-Datei (M3U/JSON) von Ihrem Computer
-Loaded: Geladen
-Loaded {0} channels from JSON file via mapping.: {0} Kanäle aus der JSON-Datei über Mapping geladen.
-Loaded {0} channels from JSON URL.: {0} Kanäle von JSON-URL geladen.
-Loaded {0} channels from M3U file.: {0} Kanäle aus der M3U-Datei geladen.
-Loaded {0} channels from M3U URL.: {0} Kanäle von der M3U-URL geladen.
-Loading...: Laden...
-Logo: Logo
-Logo Picker – in editor, click '...' to choose logo from gallery.: Logo-Auswahl – Klicken Sie im Editor auf „...“, um ein Logo aus der Galerie auszuwählen.
-Logo Preview: Logo-Vorschau
-Logo URL: Logo-URL
-Logos – automatically download from GitHub repository (Settings → Logos Source).: Logos – werden automatisch aus dem GitHub-Repository heruntergeladen (Einstellungen → Logos-Quelle).
-Logos Matching Threshold: Logos-Übereinstimmungsschwelle
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logos-Repository – Wählen Sie Besitzer/Repository/Pfad (Standard OwnerPlugins/Logos).
-Logos Source: Logos-Quelle
-Logos Subfolder: Unterordner „Logos“.
-M3U: M3U
-M3U parsing error: {0}: M3U-Parsing-Fehler: {0}
-Map JSON properties to channel fields:: Ordnen Sie JSON-Eigenschaften Kanalfeldern zu:
-Mapping saved for future imports of this file.: Zuordnung für zukünftige Importe dieser Datei gespeichert.
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Übereinstimmungsschwellenwerte – Legen Sie die Fuzzy-Match-Empfindlichkeit für EPG und Logos fest.
-Mini Player: Mini-Player
-Move to Group: In die Gruppe verschieben
-Moved: Verschoben
-Name: Name
-Nanoid: Nanoid
-Network error: Netzwerkfehler
-New Playlist: Neue Playlist
-Next: Nächste
-Next ▶: Weiter ▶
-No .m3u files found on GitHub repository.: Im GitHub-Repository wurden keine .m3u-Dateien gefunden.
-No cache folder found.: Kein Cache-Ordner gefunden.
-No channel selected: Kein Kanal ausgewählt
-No channels could be mapped or import cancelled.: Es konnten keine Kanäle zugeordnet werden oder der Import wurde abgebrochen.
-No channels could be mapped. Check your mapping rules.: Es konnten keine Kanäle zugeordnet werden. Überprüfen Sie Ihre Zuordnungsregeln.
-No channels found in JSON.: Keine Kanäle in JSON gefunden.
-No channels found in M3U.: Keine Kanäle in M3U gefunden.
-No channels loaded from JSON URL.: Keine Kanäle von der JSON-URL geladen.
-No channels loaded from M3U URL.: Keine Kanäle von der M3U-URL geladen.
-No channels loaded from M3U.: Keine Kanäle von M3U geladen.
-No channels loaded.: Keine Kanäle geladen.
-No channels mapped: Keine Kanäle zugeordnet
-No channels selected.: Keine Kanäle ausgewählt.
-No channels to import.: Keine Kanäle zum Importieren.
-No duplicate URLs found.: Keine doppelten URLs gefunden.
-No EPG data: Keine EPG-Daten
-No EPG information available for this channel.: Für diesen Kanal sind keine EPG-Informationen verfügbar.
-No EPG source configured. Please select one from the combo or go to Settings.: Keine EPG-Quelle konfiguriert. Bitte wählen Sie eine aus der Kombination aus oder gehen Sie zu Einstellungen.
-No EPG source configured. Would you like to open settings to select one?: Keine EPG-Quelle konfiguriert. Möchten Sie die Einstellungen öffnen, um eines auszuwählen?
-No favorite channels to export.: Keine Lieblingskanäle zum Exportieren.
-No missing channels to export.: Keine fehlenden Kanäle zum Exportieren.
-No playlist found: Keine Playlist gefunden
-No second playlist loaded.: Keine zweite Playlist geladen.
-No stream URL available for this channel.: Für diesen Kanal ist keine Stream-URL verfügbar.
-No text to import.: Kein Text zum Importieren.
-No updates available.: Keine Updates verfügbar.
-Normal speed (1x): Normale Geschwindigkeit (1x)
-Not connected to the box.: Nicht mit der Box verbunden.
-Now: Jetzt
-OK: OK
-Online Playlist: Online-Playlist
-Online playlist – select from GitHub repository (auto‑refresh).: Online-Wiedergabeliste – aus dem GitHub-Repository auswählen (automatische Aktualisierung).
-Only in First: Nur im Ersten
-Only in Second: Nur im Zweiten
-Open File...: Datei öffnen...
-Open from URL: Von URL öffnen
-Open Playlist: Playlist öffnen
-Pause/Resume live stream: Live-Stream anhalten/fortsetzen
-Paused: Angehalten
-PayPal: PayPal
-Picture-in-Picture mode: Bild-in-Bild-Modus
-Play/Pause: Wiedergabe/Pause
-Player Media Controls: Player-Mediensteuerung
-Playing Media: Medien abspielen
-Playlist & Groups: Playlist und Gruppen
-Playlist Comparison: Playlist-Vergleich
-Playlist Editor: Playlist-Editor
-Playlist Loading: Playlist wird geladen
-Playlist Management: Playlist-Verwaltung
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Playlist-Repository: OwnerPlugins/TivuStreamList (italienische und internationale Streams)
-Please select a program first.: Bitte wählen Sie zunächst ein Programm aus.
-Preview (first 5 channels): Vorschau (erste 5 Kanäle)
-Preview error: {0}: Vorschaufehler: {0}
-Program Details: Programmdetails
-Ready: Bereit
-Ready.: Bereit.
-Recent: Jüngste
-Recent files – quick access to last 5 opened playlists.: Zuletzt verwendete Dateien – schneller Zugriff auf die letzten 5 geöffneten Wiedergabelisten.
-Recent playlists: Aktuelle Playlists
-Refresh Code: Code aktualisieren
-Refresh EPG: EPG aktualisieren
-Refresh EPG List: EPG-Liste aktualisieren
-Refresh from GitHub: Von GitHub aktualisieren
-Refresh List: Liste aktualisieren
-Reload GUI: GUI neu laden
-Remove Command: Befehl entfernen
-Rename Group: Gruppe umbenennen
-Rename group '{0}' to:: Benennen Sie die Gruppe „{0}“ um in:
-Repository: Repository
-Reset Order: Reihenfolge zurücksetzen
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Ergebnisse: „Nur im Ersten“, „Nur im Zweiten“, „In Beiden“ – mit Statusfarbcodierung.
-Save: Speichern
-SAVE: SPEICHERN
-Save – persists all settings without reloading current playlist.: Speichern – behält alle Einstellungen bei, ohne die aktuelle Wiedergabeliste neu zu laden.
-Save as...: Speichern unter...
-Save current playlist to a new M3U file: Speichern Sie die aktuelle Wiedergabeliste in einer neuen M3U-Datei
-Save Mapping: Zuordnung speichern
-Save Playlist: Playlist speichern
-Save Status: Status speichern
-Saved: Gespeichert
-Search channel: : Suchkanal:
-Search channels by name: Suchen Sie nach Kanälen nach Namen
-Search channels...: Kanäle durchsuchen...
-sec: Sek
-Second playlist loaded: {0} channels: Zweite Playlist geladen: {0} Kanäle
-Select a channel to play.: Wählen Sie einen Kanal zum Abspielen aus.
-Select a playlist first.: Wählen Sie zunächst eine Playlist aus.
-Select target group:: Zielgruppe auswählen:
-Select Theme: Wählen Sie Thema aus
-Selected theme is saved and applied on restart.: Das ausgewählte Design wird gespeichert und beim Neustart angewendet.
-Send: Schicken
-Send playlist to Enigma2 decoder: Playlist an Enigma2-Decoder senden
-Send to Enigma2: An Enigma2 senden
-Settings: Einstellungen
-Show List: Liste anzeigen
-Show only channels marked as favorites: Nur als Favoriten markierte Kanäle anzeigen
-Show or hide the channel list: Senderliste ein- oder ausblenden
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Besonderer Dank geht an die CORVOBOYS- und LinuxSat-Support-Communitys für Tests und Support.
-Start: Start
-Status: Status
-Stop: Stoppen
-Stopped: Angehalten
-Stream URL: Stream-URL
-Stream URLs: Stream-URLs
-Success: Erfolg
-Support: Unterstützung
-Support the developer: Unterstützen Sie den Entwickler
-Target Field: Zielfeld
-Telnet command:: Telnet-Befehl:
-Telnet Commander: Telnet-Kommandant
-Telnet Config: Telnet-Konfiguration
-Telnet Console: Telnet-Konsole
-Telnet host not configured. Please set it in Settings.: Telnet-Host nicht konfiguriert. Bitte legen Sie es in den Einstellungen fest.
-Telnet password is empty. Do you want to continue?: Das Telnet-Passwort ist leer. Möchten Sie fortfahren?
-Telnet username not configured. Please set it in Settings.: Telnet-Benutzername nicht konfiguriert. Bitte legen Sie es in den Einstellungen fest.
-Thanks to: Dank
-Theme picker: Themenauswahl
-Theme picker – accessible via Tools menu on main toolbar.: Themenauswahl – zugänglich über das Menü „Extras“ in der Hauptsymbolleiste.
-Themes: Themen
-Time: Zeit
-Title: Titel
-Tools: Werkzeuge
-Total: Gesamt
-Total channels in loaded playlist: Gesamtzahl der Kanäle in der geladenen Playlist
-TV Guide (EPG): TV-Guide (EPG)
-TvgId: TvgId
-Type channel name to filter: Geben Sie den zu filternden Kanalnamen ein
-UI: MaterialDesignThemes.Wpf: Benutzeroberfläche: MaterialDesignThemes.Wpf
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Format kann nicht automatisch erkannt werden. Bitte wählen Sie JSON oder M3U aus der Dropdown-Liste aus und versuchen Sie es erneut.
-Unable to find version in remote project file.: Die Version konnte in der Remote-Projektdatei nicht gefunden werden.
-Unsupported format. Please select JSON or M3U.: Nicht unterstütztes Format. Bitte wählen Sie JSON oder M3U.
-Update: Aktualisieren
-Update complete. Restarting...: Update abgeschlossen. Neustart...
-Update Error: Update-Fehler
-Update failed: : Update fehlgeschlagen:
-Updates: Aktualisierungen
-Upload Error: Fehler beim Hochladen
-URL: URL
-URL (primary): URL (primär)
-URL Check: URL-Prüfung
-URL list (one per line): URL-Liste (eine pro Zeile)
-URLs & Status: URLs und Status
-Version: Version
-Version {0}.{1}.{2}: Version {0}.{1}.{2}
-Version unknown: Version unbekannt
-Waiting for LiveGardenTVPlus to close...: Warten auf das Schließen von LiveGardenTVPlus ...
-Warning: Warnung
-WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
-Youtube URL: Youtube-URL
-Youtube URLs: Youtube-URLs
+(Completely voluntary – no features are blocked)::(Völlig freiwillig – es werden keine Funktionen blockiert)
+(No description)::(Keine Beschreibung)
+• Add / rename / delete groups.::• Gruppen hinzufügen/umbenennen/löschen.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• Puffer-Schieberegler: Passen Sie den HLS-Puffer an (1–10 Sekunden).
+• Check URL availability (only visible channels).::• Überprüfen Sie die URL-Verfügbarkeit (nur sichtbare Kanäle).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• Bearbeiten Sie Kanalnamen, Gruppen, URLs, Logos, TVG-ID, Land, Sprachen und Favoriten.
+• Edit multiple URLs per channel (popup window).::• Bearbeiten Sie mehrere URLs pro Kanal (Popup-Fenster).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• Anreichern mit EPG: Fügt fehlende TVG-ID mithilfe von Fuzzy-Matching hinzu.
+• EPG info displayed in status bar for current channel.::• EPG-Informationen werden in der Statusleiste für den aktuellen Kanal angezeigt.
+• Export OK / FAIL / filtered lists as M3U or JSON.::• OK-/FEHLER-/gefilterte Listen als M3U oder JSON exportieren.
+• Fetch logos from remote repository (OwnerPlugins/logos).::• Logos aus dem Remote-Repository abrufen (OwnerPlugins/Logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• Vollbild-Benutzeroberfläche: Blendet Seitenleiste und Statusleiste aus (ESC zum Beenden).
+• Hide/Show channel list button.::• Schaltfläche „Senderliste ausblenden/einblenden“.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• Importieren Sie JSON (lokal oder URL) mit flexibler Feldzuordnung (automatische Erkennung, Zuordnung speichern).
+• Picture‑in‑Picture (PIP) button.::• Bild-in-Bild-Taste (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.::• Wiedergabegeschwindigkeit: 0,5-fache, 1-fache, 2-fache Tasten.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• Sortieren Sie jede Spalte, indem Sie auf die Überschrift klicken. Verwenden Sie „Bestellung zurücksetzen“, um zur ursprünglichen Reihenfolge zurückzukehren.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• Timeshift: Live-Stream anhalten; Ziehen Sie den Schieberegler, um zurück zu suchen. Drücken Sie „Live“, um zurückzukehren.
+▶ Play Media::▶ Medien abspielen
+◀ Previous::◀ Zurück
+16 colour themes + Light/Dark variants.::16 Farbthemen + Hell/Dunkel-Varianten.
+A new version is available. Do you want to update now?::Eine neue Version ist verfügbar. Möchten Sie jetzt aktualisieren?
+Access via 'Compare' button in Playlist Editor or Tools menu.::Zugriff über die Schaltfläche „Vergleichen“ im Playlist-Editor oder im Menü „Extras“.
+Access via 'Edit Playlist' button on main toolbar.::Zugriff über die Schaltfläche „Playlist bearbeiten“ in der Hauptsymbolleiste.
+Actions::Aktionen
+Add Command::Befehl hinzufügen
+Add Group::Gruppe hinzufügen
+Add Mapping::Zuordnung hinzufügen
+Adjust buffer size (1-10 seconds)::Puffergröße anpassen (1-10 Sekunden)
+Advanced IDs::Erweiterte IDs
+All channels marked as favorites::Alle Sender als Favoriten markiert
+All favorites removed::Alle Favoriten entfernt
+Application status::Bewerbungsstatus
+Apply::Anwenden
+Apply / Import::Anwenden / Importieren
+Apply changes::Änderungen übernehmen
+Apply Filters::Filter anwenden
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::Sind Sie sicher, dass Sie die Enigma2-GUI neu laden möchten?\n\nDie Benutzeroberfläche wird neu gestartet (schwarzer Bildschirm für einige Sekunden).
+Auto (recommended)::Automatisch (empfohlen)
+Auto-detect::Automatische Erkennung
+Automatic check on startup – or click 'Check for updates' in Tools menu.::Automatische Prüfung beim Start – oder klicken Sie im Menü „Extras“ auf „Nach Updates suchen“.
+Bouquet Name::Blumenstraußname
+Bouquet sent and Enigma2 channel list reloaded.::Blumenstrauß gesendet und Enigma2-Kanalliste neu geladen.
+Buffer (seconds)::Puffer (Sekunden)
+Buffer size – adjust HLS buffer seconds.::Puffergröße – HLS-Puffersekunden anpassen.
+Cache::Cache
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::Cache-Ordner: %TEMP%\\LiveGardenTVPlus\\epg_cache
+Cancel::Stornieren
+CANCEL::STORNIEREN
+Cannot open browser::Der Browser kann nicht geöffnet werden
+Category::Kategorie
+Changelog::Änderungsprotokoll
+Channel Details::Kanaldetails
+Channel Down::Kanal runter
+Channel Info::Kanalinformationen
+Channel Name::Kanalname
+Channel Up::Kanal hoch
+Channel updated successfully.::Kanal erfolgreich aktualisiert.
+channels from::Kanäle von
+channels from JSON::Kanäle aus JSON
+channels from JSON URL::Kanäle von JSON-URL
+channels from URL::Kanäle von URL
+Check Duplicates::Überprüfen Sie Duplikate
+Check for updates::Suchen Sie nach Updates
+Check URLs::Überprüfen Sie URLs
+Clear::Klar
+Clear EPG Cache::EPG-Cache löschen
+Clear Filters::Filter löschen
+Clear search::Suche löschen
+Click for details::Klicken Sie für Details
+Close::Schließen
+Close current playlist::Aktuelle Playlist schließen
+Close Playlist::Playlist schließen
+Code::Code
+Code copied to clipboard.::Code in die Zwischenablage kopiert.
+Command name:::Befehlsname:
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::Community & Tests: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare::Vergleichen
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::Vergleichen Sie nach: Priorität (Name→Gruppe→tvg-id), Name, Gruppe (Groß-/Kleinschreibung beachten) oder TvgId.
+Compare Playlists::Vergleichen Sie Playlists
+Compare two playlists – load first (current playlist) and second (from file or URL).::Vergleichen Sie zwei Playlists – laden Sie zuerst (aktuelle Playlist) und dann (aus Datei oder URL).
+Compare...::Vergleichen...
+Comparison results: {0} channels::Vergleichsergebnisse: {0} Kanäle
+Configuration Missing::Konfiguration fehlt
+Confirm Delete::Bestätigen Sie Löschen
+Confirm Reload::Bestätigen Sie das Neuladen
+Connect::Verbinden
+Connected::Verbunden
+Copied::Kopiert
+Copy::Kopie
+CORVOBOYS.ORG::CORVOBOYS.ORG
+Country::Land
+Credits::Credits
+Delete channel '{0}'?::Kanal „{0}“ löschen?
+Delete Group::Gruppe löschen
+Delete Selected::Ausgewählte löschen
+Deleted::Gelöscht
+Description::Beschreibung
+Details::Einzelheiten
+Developed by Lululla::Entwickelt von Lululla
+Developer: Lululla::Entwickler: Lululla
+Disconnect::Trennen
+Disconnected::Getrennt
+Display as::Anzeigen als
+Do you want to load this edited playlist now?::Möchten Sie diese bearbeitete Playlist jetzt laden?
+Double speed (2x)::Doppelte Geschwindigkeit (2x)
+Downloading playlist...::Playlist wird heruntergeladen...
+Downloads ZIP, replaces files, restarts app – settings preserved.::Lädt ZIP herunter, ersetzt Dateien, startet die App neu – Einstellungen bleiben erhalten.
+Drag & drop – drop M3U or JSON files directly onto main window.::Drag & Drop – Legen Sie M3U- oder JSON-Dateien direkt im Hauptfenster ab.
+Drag to seek back in buffer::Ziehen Sie, um im Puffer zurückzusuchen
+Duplicate URLs found:\n\n::Doppelte URLs gefunden:\n\n
+Edit Command::Befehl bearbeiten
+Edit command name:::Befehlsnamen bearbeiten:
+Edit Playlist::Playlist bearbeiten
+Edit telnet command:::Bearbeiten Sie den Telnet-Befehl:
+Edit URLs::Bearbeiten Sie URLs
+Empty Password::Leeres Passwort
+End::Ende
+Enigma2::Enigma2
+Enrich with EPG::Mit EPG anreichern
+Enter bouquet name (without spaces):::Geben Sie den Blumenstraußnamen ein (ohne Leerzeichen):
+Enter JSON URL:::Geben Sie die JSON-URL ein:
+Enter new group name:::Geben Sie einen neuen Gruppennamen ein:
+Enter playlist URL (JSON or M3U):::Geben Sie die URL der Wiedergabeliste ein (JSON oder M3U):
+Enter playlist URL (M3U or JSON):::Geben Sie die URL der Wiedergabeliste ein (M3U oder JSON):
+EPG::EPG
+Epg & Favorites::EPG & Favoriten
+EPG & Favorites::EPG & Favoriten
+Epg & Logos::EPG & Logos
+EPG & Logos::EPG und Logos
+EPG cache cleared successfully.::EPG-Cache erfolgreich geleert.
+EPG Details::EPG-Details
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::EPG-Guide – Schaltfläche in der Hauptsymbolleiste zeigt das vollständige Raster mit Programmdetails an (für Informationen doppelklicken).
+EPG Matching Threshold::EPG-Übereinstimmungsschwelle
+EPG Source::EPG-Quelle
+EPG source – can be set in Settings (epgshare01 or custom URL).::EPG-Quelle – kann in den Einstellungen eingestellt werden (epgshare01 oder benutzerdefinierte URL).
+EPG source – choose XMLTV file or enter custom URL.::EPG-Quelle – wählen Sie eine XMLTV-Datei oder geben Sie eine benutzerdefinierte URL ein.
+EPG Source Missing::EPG-Quelle fehlt
+Error::Fehler
+Error clearing cache: {0}::Fehler beim Leeren des Caches: {0}
+Error loading::Fehler beim Laden
+Error loading EPG list: {0}::Fehler beim Laden der EPG-Liste: {0}
+Error loading file: {0}::Fehler beim Laden der Datei: {0}
+Error loading playlists: {0}::Fehler beim Laden der Playlists: {0}
+Error loading URL: {0}::Fehler beim Laden der URL: {0}
+ERROR: player.html not found.::FEHLER: player.html nicht gefunden.
+Exit::Ausfahrt
+Export all::Alles exportieren
+Export Favorites::Favoriten exportieren
+Export Filtered JSON::Gefiltertes JSON exportieren
+Export Filtered M3U::Gefiltertes M3U exportieren
+Export JSON::JSON exportieren
+Export KO::KO exportieren
+Export missing::Export fehlt
+Export OK::Exportieren OK
+Export only favorite channels to a new M3U file::Exportieren Sie nur Lieblingskanäle in eine neue M3U-Datei
+Export results as JSON or M3U – export missing channels or all channels.::Ergebnisse als JSON oder M3U exportieren – fehlende Kanäle oder alle Kanäle exportieren.
+Export selected::Exportieren ausgewählt
+Export Selected::Ausgewählte exportieren
+Exported::Exportiert
+Exported {0} channels to {1}::{0} Kanäle nach {1} exportiert
+Extracting update...::Update wird extrahiert...
+Failed to download playlist::Download der Playlist fehlgeschlagen
+Failed to load playlist::Playlist konnte nicht geladen werden
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::Bouquets.tv konnte nicht aktualisiert werden. Bitte überprüfen Sie die Dateiberechtigungen auf dem Enigma2-Gerät.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::Blumenstrauß konnte nicht hochgeladen werden. Bitte überprüfen Sie Ihre Telnet-Einstellungen (Host, Port, Benutzername, Passwort) und versuchen Sie es erneut.
+Favorite::Favorit
+Favorites::Favoriten
+Favorites only::Nur Favoriten
+Fetch Logos::Logos abrufen
+File::Datei
+File {0} already exists. Overwrite?::Datei {0} existiert bereits. Überschreiben?
+File exists::Datei existiert
+Filters::Filter
+Format Detection::Formaterkennung
+Fullscreen::Vollbild
+Fullscreen (hide UI) - press ESC to exit::Vollbild (Benutzeroberfläche ausblenden) – Drücken Sie ESC, um den Vorgang zu beenden
+Geo & Country::Geo & Land
+GeoBlocked::Geoblockiert
+GitHub Error::GitHub-Fehler
+Go back to live::Geh zurück zum Leben
+Grid::Netz
+Group::Gruppe
+Half speed (0.5x)::Halbe Geschwindigkeit (0,5x)
+Help::Helfen
+Hide List::Liste ausblenden
+HLS playback: hls.js (MIT license)::HLS-Wiedergabe: hls.js (MIT-Lizenz)
+Image::Bild
+Import::Import
+Import cancelled or no channels mapped.::Import abgebrochen oder keine Kanäle zugeordnet.
+Import Error::Importfehler
+Import error: {0}::Importfehler: {0}
+Import from URL::Von URL importieren
+Import JSON::JSON importieren
+Import JSON from URL::JSON von URL importieren
+Import Local::Lokal importieren
+Imported {0} channels from code.::{0} Kanäle aus Code importiert.
+Imported {0} channels from JSON via mapping.::{0} Kanäle aus JSON per Mapping importiert.
+Imported {0} channels from URL.::{0} Kanäle von URL importiert.
+In Both::In Beiden
+Info::Info
+Info on::Infos zu
+Invalid JSON: {0}::Ungültiger JSON: {0}
+Invalid playlist URL.::Ungültige Playlist-URL.
+Invalid URL.::Ungültige URL.
+Json::Json
+JSON::JSON
+JSON parsing error: {0}::JSON-Parsing-Fehler: {0}
+JSON Property::JSON-Eigenschaft
+Ko-fi::Kaffee
+Language::Sprache
+Language – change UI language dynamically (translations in Languages folder).::Sprache – UI-Sprache dynamisch ändern (Übersetzungen im Ordner „Sprachen“).
+Languages::Sprachen
+Languages (comma)::Sprachen (Komma)
+LINUXSAT-SUPPORT.COM::LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help::LiveGardenTVPlus-Hilfe
+LOAD::LADEN
+Load a playlist first.::Laden Sie zunächst eine Playlist.
+Load a second playlist first.::Laden Sie zunächst eine zweite Playlist.
+Load File::Datei laden
+Load from file...::Aus Datei laden...
+Load from URL::Von URL laden
+Load from URL...::Von URL laden...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::Lokale M3U/JSON-Datei laden – über die Schaltfläche „Datei laden“ (Symbolleiste) oder „Datei öffnen“ im Editor.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::Online-M3U/JSON-URL laden – Schaltfläche „Online laden“ (Symbolleiste) oder „Von URL öffnen“ im Editor.
+Load Playlist::Playlist laden
+Load playlist file (M3U/JSON) from your computer::Laden Sie die Playlist-Datei (M3U/JSON) von Ihrem Computer
+Loaded::Geladen
+Loaded {0} channels from JSON file via mapping.::{0} Kanäle aus der JSON-Datei über Mapping geladen.
+Loaded {0} channels from JSON URL.::{0} Kanäle von JSON-URL geladen.
+Loaded {0} channels from M3U file.::{0} Kanäle aus der M3U-Datei geladen.
+Loaded {0} channels from M3U URL.::{0} Kanäle von der M3U-URL geladen.
+Loading...::Laden...
+Logo::Logo
+Logo Picker – in editor, click '...' to choose logo from gallery.::Logo-Auswahl – Klicken Sie im Editor auf „...“, um ein Logo aus der Galerie auszuwählen.
+Logo Preview::Logo-Vorschau
+Logo URL::Logo-URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).::Logos – werden automatisch aus dem GitHub-Repository heruntergeladen (Einstellungen → Logos-Quelle).
+Logos Matching Threshold::Logos-Übereinstimmungsschwelle
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::Logos-Repository – Wählen Sie Besitzer/Repository/Pfad (Standard OwnerPlugins/Logos).
+Logos Source::Logos-Quelle
+Logos Subfolder::Unterordner „Logos“.
+M3U::M3U
+M3U parsing error: {0}::M3U-Parsing-Fehler: {0}
+Map JSON properties to channel fields:::Ordnen Sie JSON-Eigenschaften Kanalfeldern zu:
+Mapping saved for future imports of this file.::Zuordnung für zukünftige Importe dieser Datei gespeichert.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::Übereinstimmungsschwellenwerte – Legen Sie die Fuzzy-Match-Empfindlichkeit für EPG und Logos fest.
+Mini Player::Mini-Player
+Move to Group::In die Gruppe verschieben
+Moved::Verschoben
+Name::Name
+Nanoid::Nanoid
+Network error::Netzwerkfehler
+New Playlist::Neue Playlist
+Next::Nächste
+Next ▶::Weiter ▶
+No .m3u files found on GitHub repository.::Im GitHub-Repository wurden keine .m3u-Dateien gefunden.
+No cache folder found.::Kein Cache-Ordner gefunden.
+No channel selected::Kein Kanal ausgewählt
+No channel selected.::Kein Kanal ausgewählt.
+No channels could be mapped or import cancelled.::Es konnten keine Kanäle zugeordnet werden oder der Import wurde abgebrochen.
+No channels could be mapped. Check your mapping rules.::Es konnten keine Kanäle zugeordnet werden. Überprüfen Sie Ihre Zuordnungsregeln.
+No channels found in JSON.::Keine Kanäle in JSON gefunden.
+No channels found in M3U.::Keine Kanäle in M3U gefunden.
+No channels loaded from JSON URL.::Keine Kanäle von der JSON-URL geladen.
+No channels loaded from M3U URL.::Keine Kanäle von der M3U-URL geladen.
+No channels loaded from M3U.::Keine Kanäle von M3U geladen.
+No channels loaded.::Keine Kanäle geladen.
+No channels mapped::Keine Kanäle zugeordnet
+No channels selected.::Keine Kanäle ausgewählt.
+No channels to import.::Keine Kanäle zum Importieren.
+No duplicate URLs found.::Keine doppelten URLs gefunden.
+No EPG data::Keine EPG-Daten
+No EPG information available for this channel.::Für diesen Kanal sind keine EPG-Informationen verfügbar.
+No EPG source configured. Please select one from the combo or go to Settings.::Keine EPG-Quelle konfiguriert. Bitte wählen Sie eine aus der Kombination aus oder gehen Sie zu Einstellungen.
+No EPG source configured. Would you like to open settings to select one?::Keine EPG-Quelle konfiguriert. Möchten Sie die Einstellungen öffnen, um eines auszuwählen?
+No favorite channels found.::Keine Lieblingskanäle gefunden.
+No favorite channels to export.::Keine Lieblingskanäle zum Exportieren.
+No missing channels to export.::Keine fehlenden Kanäle zum Exportieren.
+No playlist found::Keine Playlist gefunden
+No second playlist loaded.::Keine zweite Playlist geladen.
+No stream URL available for this channel.::Für diesen Kanal ist keine Stream-URL verfügbar.
+No text to import.::Kein Text zum Importieren.
+No updates available.::Keine Updates verfügbar.
+Normal speed (1x)::Normale Geschwindigkeit (1x)
+Not connected to the box.::Nicht mit der Box verbunden.
+Now::Jetzt
+OK::OK
+Online Playlist::Online-Playlist
+Online playlist – select from GitHub repository (auto‑refresh).::Online-Wiedergabeliste – aus dem GitHub-Repository auswählen (automatische Aktualisierung).
+Only in First::Nur im Ersten
+Only in Second::Nur im Zweiten
+Open File...::Datei öffnen...
+Open from URL::Von URL öffnen
+Open Playlist::Playlist öffnen
+Pause/Resume live stream::Live-Stream anhalten/fortsetzen
+Paused::Angehalten
+PayPal::PayPal
+Picture-in-Picture mode::Bild-in-Bild-Modus
+Play/Pause::Wiedergabe/Pause
+Player Media Controls::Player-Mediensteuerung
+Playing Media::Medien abspielen
+Playlist & Groups::Playlist und Gruppen
+Playlist closed::Playlist geschlossen
+Playlist Comparison::Playlist-Vergleich
+Playlist Editor::Playlist-Editor
+Playlist Loading::Playlist wird geladen
+Playlist Management::Playlist-Verwaltung
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::Playlist-Repository: OwnerPlugins/TivuStreamList (italienische und internationale Streams)
+Please select a program first.::Bitte wählen Sie zunächst ein Programm aus.
+Preview (first 5 channels)::Vorschau (erste 5 Kanäle)
+Preview error: {0}::Vorschaufehler: {0}
+Program Details::Programmdetails
+Ready::Bereit
+Recent::Jüngste
+Recent files – quick access to last 5 opened playlists.::Zuletzt verwendete Dateien – schneller Zugriff auf die letzten 5 geöffneten Wiedergabelisten.
+Recent playlists::Aktuelle Playlists
+Refresh Code::Code aktualisieren
+Refresh EPG::EPG aktualisieren
+Refresh EPG List::EPG-Liste aktualisieren
+Refresh from GitHub::Von GitHub aktualisieren
+Refresh List::Liste aktualisieren
+Reload GUI::GUI neu laden
+Remove Command::Befehl entfernen
+Rename Group::Gruppe umbenennen
+Rename group '{0}' to:::Benennen Sie die Gruppe „{0}“ um in:
+Repository::Repository
+Reset Order::Reihenfolge zurücksetzen
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::Ergebnisse: „Nur im Ersten“, „Nur im Zweiten“, „In Beiden“ – mit Statusfarbcodierung.
+Save::Speichern
+SAVE::SPEICHERN
+Save – persists all settings without reloading current playlist.::Speichern – behält alle Einstellungen bei, ohne die aktuelle Wiedergabeliste neu zu laden.
+Save as...::Speichern unter...
+Save current playlist to a new M3U file::Speichern Sie die aktuelle Wiedergabeliste in einer neuen M3U-Datei
+Save Favorites::Favoriten speichern
+Save Mapping::Zuordnung speichern
+Save Playlist::Playlist speichern
+Save Status::Status speichern
+Saved::Gespeichert
+Search channel::Kanal suchen
+Search channels by name::Suchen Sie nach Kanälen nach Namen
+Search channels...::Kanäle durchsuchen...
+sec::Sek
+Second playlist loaded: {0} channels::Zweite Playlist geladen: {0} Kanäle
+Select a channel to play.::Wählen Sie einen Kanal zum Abspielen aus.
+Select a playlist first.::Wählen Sie zunächst eine Playlist aus.
+Select target group:::Zielgruppe auswählen:
+Select Theme::Wählen Sie Thema aus
+Selected theme is saved and applied on restart.::Das ausgewählte Design wird gespeichert und beim Neustart angewendet.
+Send::Schicken
+Send playlist to Enigma2 decoder::Playlist an Enigma2-Decoder senden
+Send to Enigma2::An Enigma2 senden
+Settings::Einstellungen
+Show List::Liste anzeigen
+Show only channels marked as favorites::Nur als Favoriten markierte Kanäle anzeigen
+Show or hide the channel list::Senderliste ein- oder ausblenden
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::Besonderer Dank geht an die CORVOBOYS- und LinuxSat-Support-Communitys für Tests und Support.
+Start::Start
+Status::Status
+Stop::Stoppen
+Stopped::Angehalten
+Stream URL::Stream-URL
+Stream URLs::Stream-URLs
+Success::Erfolg
+Support::Unterstützung
+Support the developer::Unterstützen Sie den Entwickler
+Target Field::Zielfeld
+Telnet command:::Telnet-Befehl:
+Telnet Commander::Telnet-Kommandant
+Telnet Config::Telnet-Konfiguration
+Telnet Configuration::Telnet-Konfiguration
+Telnet Console::Telnet-Konsole
+Telnet host not configured. Please set it in Settings.::Telnet-Host nicht konfiguriert. Bitte legen Sie es in den Einstellungen fest.
+Telnet password is empty. Do you want to continue?::Das Telnet-Passwort ist leer. Möchten Sie fortfahren?
+Telnet username not configured. Please set it in Settings.::Telnet-Benutzername nicht konfiguriert. Bitte legen Sie es in den Einstellungen fest.
+Thanks to::Dank
+Theme picker::Themenauswahl
+Theme picker – accessible via Tools menu on main toolbar.::Themenauswahl – zugänglich über das Menü „Extras“ in der Hauptsymbolleiste.
+Themes::Themen
+Time::Zeit
+Title::Titel
+Tools::Werkzeuge
+Total::Gesamt
+Total channels in loaded playlist::Gesamtzahl der Kanäle in der geladenen Playlist
+TV Guide (EPG)::TV-Guide (EPG)
+TvgId::TvgId
+Type channel name to filter::Geben Sie den zu filternden Kanalnamen ein
+UI: MaterialDesignThemes.Wpf::Benutzeroberfläche: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::Format kann nicht automatisch erkannt werden. Bitte wählen Sie JSON oder M3U aus der Dropdown-Liste aus und versuchen Sie es erneut.
+Unable to find version in remote project file.::Die Version konnte in der Remote-Projektdatei nicht gefunden werden.
+Unsupported format. Please select JSON or M3U.::Nicht unterstütztes Format. Bitte wählen Sie JSON oder M3U.
+Update::Aktualisieren
+Update complete. Restarting...::Update abgeschlossen. Neustart...
+Update Error::Update-Fehler
+Update failed: ::Update fehlgeschlagen:
+Updated::Aktualisiert
+Updates::Aktualisierungen
+Upload Error::Fehler beim Hochladen
+URL::URL
+URL (primary)::URL (primär)
+URL Check::URL-Prüfung
+URL list (one per line)::URL-Liste (eine pro Zeile)
+URLs & Status::URLs und Status
+Version::Version
+Version {0}.{1}.{2}::Version {0}.{1}.{2}
+Version unknown::Version unbekannt
+Waiting for LiveGardenTVPlus to close...::Warten auf das Schließen von LiveGardenTVPlus ...
+Warning::Warnung
+WebView2: Microsoft Edge WebView2::WebView2: Microsoft Edge WebView2
+Youtube URL::Youtube-URL
+Youtube URLs::Youtube-URLs

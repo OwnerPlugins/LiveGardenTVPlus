@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): (Zcela dobrovolné – žádné funkce nejsou blokovány)
-(No description): (Bez popisu)
-• Add / rename / delete groups.: • Přidat / přejmenovat / odstranit skupiny.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Posuvník vyrovnávací paměti: úprava vyrovnávací paměti HLS (1–10 sekund).
-• Check URL availability (only visible channels).: • Zkontrolujte dostupnost URL (pouze viditelné kanály).
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Upravte názvy kanálů, skupiny, adresy URL, loga, tvg-id, zemi, jazyky, oblíbené položky.
-• Edit multiple URLs per channel (popup window).: • Upravit více adres URL na kanál (vyskakovací okno).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Obohacení pomocí EPG: Přidá chybějící tvg-id pomocí fuzzy párování.
-• EPG info displayed in status bar for current channel.: • Informace EPG zobrazené ve stavovém řádku pro aktuální kanál.
-• Export OK / FAIL / filtered lists as M3U or JSON.: • Export OK / FAIL / filtrované seznamy jako M3U nebo JSON.
-• Fetch logos from remote repository (OwnerPlugins/logos).: • Načítání log ze vzdáleného úložiště (OwnerPlugins/loga).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Celoobrazovkové uživatelské rozhraní: skryje postranní a stavový řádek (ukončení ESC).
-• Hide/Show channel list button.: • Tlačítko Skrýt/Zobrazit seznam kanálů.
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Importujte JSON (místní nebo URL) s flexibilním mapováním polí (automatická detekce, uložení mapování).
-• Picture‑in‑Picture (PIP) button.: • Tlačítko Picture-in-Picture (PIP).
-• Playback speed: 0.5x, 1x, 2x buttons.: • Rychlost přehrávání: 0,5x, 1x, 2x tlačítka.
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Seřaďte libovolný sloupec kliknutím na záhlaví; použijte 'Reset Order' pro návrat k původní objednávce.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: pozastavení živého přenosu; přetažením posuvníku vyhledáte zpět; pro návrat stiskněte 'Live'.
-▶ Play Media: ▶ Přehrát média
-◀ Previous: ◀ Předchozí
-16 colour themes + Light/Dark variants.: 16 barevných motivů + světlé/tmavé varianty.
-A new version is available. Do you want to update now?: K dispozici je nová verze. Chcete provést aktualizaci nyní?
-Access via 'Compare' button in Playlist Editor or Tools menu.: Přístup pomocí tlačítka „Porovnat“ v Editoru seznamu skladeb nebo v nabídce Nástroje.
-Access via 'Edit Playlist' button on main toolbar.: Přístup pomocí tlačítka „Upravit seznam skladeb“ na hlavním panelu nástrojů.
-Actions: Akce
-Add Command: Přidat příkaz
-Add Group: Přidat skupinu
-Add Mapping: Přidat mapování
-Adjust buffer size (1-10 seconds): Upravit velikost vyrovnávací paměti (1–10 sekund)
-Advanced IDs: Pokročilá ID
-Application status: Stav aplikace
-Apply: Použít
-Apply / Import: Použít / Importovat
-Apply changes: Použít změny
-Apply Filters: Použít filtry
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Jste si jisti, že chcete znovu načíst GUI Enigmy?\n\nRozhraní se restartuje (černá obrazovka na několik sekund).
-Auto (recommended): Auto (doporučeno)
-Auto-detect: Automatická detekce
-Automatic check on startup – or click 'Check for updates' in Tools menu.: Automatická kontrola při spuštění – nebo klikněte na „Zkontrolovat aktualizace“ v nabídce Nástroje.
-Bouquet Name: Název kytice
-Bouquet sent and Enigma2 channel list reloaded.: Kytice odeslána a seznam kanálů Enigma2 znovu načten.
-Buffer (seconds): Vyrovnávací paměť (sekundy)
-Buffer size – adjust HLS buffer seconds.: Velikost vyrovnávací paměti – nastavení sekund vyrovnávací paměti HLS.
-Cache: Cache
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Složka mezipaměti: %TEMP%\\LiveGardenTVPlus\\epg_cache
-Cancel: Zrušit
-CANCEL: ZRUŠIT
-Cannot open browser: Nelze otevřít prohlížeč
-Category: Kategorie
-Changelog: Seznam změn
-Channel Details: Podrobnosti kanálu
-Channel Down: Kanál dolů
-Channel Info: Informace o kanálu
-Channel Name: Název kanálu
-Channel Up: Channel Up
-channels from: kanály z
-channels from JSON: kanály z JSON
-channels from JSON URL: kanály z adresy URL JSON
-channels from URL: kanály z adresy URL
-Check Duplicates: Zaškrtněte Duplikáty
-Check for updates: Zkontrolujte aktualizace
-Check URLs: Zkontrolujte adresy URL
-Clear: Jasný
-Clear EPG Cache: Vymazat mezipaměť EPG
-Clear Filters: Vymazat filtry
-Clear search: Vymazat vyhledávání
-Click for details: Kliknutím zobrazíte podrobnosti
-Close: Blízko
-Code: Kód
-Code copied to clipboard.: Kód zkopírován do schránky.
-Command name:: Název příkazu:
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komunita a testování: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
-Compare: Porovnejte
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Porovnejte podle: Priority (název→skupina→tvg-id), Název, Skupina (rozlišují se malá a velká písmena) nebo TvgId.
-Compare Playlists: Porovnejte seznamy skladeb
-Compare two playlists – load first (current playlist) and second (from file or URL).: Porovnejte dva seznamy skladeb – načtěte první (aktuální seznam skladeb) a druhý (ze souboru nebo URL).
-Compare...: Porovnat...
-Comparison results: {0} channels: Výsledky srovnání: {0} kanálů
-Configuration Missing: Konfigurace chybí
-Confirm Delete: Potvrďte Smazat
-Confirm Reload: Potvrďte Znovu načíst
-Connect: Připojit
-Connected: Připojeno
-Copied: Zkopírováno
-Copy: Kopie
-CORVOBOYS.ORG: CORVOBOYS.ORG
-Country: Země
-Credits: Kredity
-Delete channel '{0}'?: Smazat kanál '{0}'?
-Delete Group: Smazat skupinu
-Delete Selected: Smazat vybrané
-Deleted: Smazáno
-Description: Popis
-Details: Podrobnosti
-Developed by Lululla: Vyvinutý Lulullou
-Developer: Lululla: Vývojář: Lululla
-Disconnect: Odpojit
-Disconnected: Odpojeno
-Display as: : Zobrazit jako:
-Do you want to load this edited playlist now?: Chcete nyní načíst tento upravený seznam skladeb?
-Double speed (2x): Dvojitá rychlost (2x)
-Downloading playlist...: Stahování seznamu skladeb...
-Downloads ZIP, replaces files, restarts app – settings preserved.: Stáhne ZIP, nahradí soubory, restartuje aplikaci – nastavení zachováno.
-Drag & drop – drop M3U or JSON files directly onto main window.: Drag & drop – přetáhněte soubory M3U nebo JSON přímo do hlavního okna.
-Drag to seek back in buffer: Přetažením vyhledáte zpět ve vyrovnávací paměti
-Duplicate URLs found:\n\n: Nalezeny duplicitní adresy URL:\n\n
-Edit Command: Upravit příkaz
-Edit command name:: Upravit název příkazu:
-Edit Playlist: Upravit seznam skladeb
-Edit telnet command:: Upravit příkaz telnet:
-Edit URLs: Upravit adresy URL
-Empty Password: Prázdné heslo
-End: Konec
-Enrich with EPG: Obohaťte se o EPG
-Enter bouquet name (without spaces):: Zadejte název kytice (bez mezer):
-Enter JSON URL:: Zadejte adresu URL JSON:
-Enter new group name:: Zadejte nový název skupiny:
-Enter playlist URL (JSON or M3U):: Zadejte adresu URL seznamu videí (JSON nebo M3U):
-Enter playlist URL (M3U or JSON):: Zadejte adresu URL seznamu videí (M3U nebo JSON):
-EPG: EPG
-Epg & Favorites: Epg a oblíbené
-EPG & Favorites: EPG a oblíbené
-Epg & Logos: Epg a loga
-EPG & Logos: EPG a loga
-EPG cache cleared successfully.: Mezipaměť EPG byla úspěšně vymazána.
-EPG Details: Podrobnosti EPG
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Průvodce EPG – tlačítko na hlavním panelu nástrojů zobrazí celou mřížku s podrobnostmi o programu (informace získáte dvojitým kliknutím).
-EPG Matching Threshold: EPG Matching Threshold
-EPG Source: : Zdroj EPG:
-EPG source – can be set in Settings (epgshare01 or custom URL).: Zdroj EPG – lze nastavit v Nastavení (epgshare01 nebo vlastní URL).
-EPG source – choose XMLTV file or enter custom URL.: Zdroj EPG – vyberte soubor XMLTV nebo zadejte vlastní URL.
-EPG Source Missing: Chybí zdroj EPG
-Error: Chyba
-Error clearing cache: {0}: Chyba při mazání mezipaměti: {0}
-Error loading: Chyba při načítání
-Error loading EPG list: {0}: Chyba při načítání seznamu EPG: {0}
-Error loading file: {0}: Chyba při načítání souboru: {0}
-Error loading playlists: {0}: Chyba při načítání seznamů videí: {0}
-Error loading URL: {0}: Chyba při načítání adresy URL: {0}
-ERROR: player.html not found.: CHYBA: player.html nebyl nalezen.
-Exit: Výstup
-Export all: Exportovat vše
-Export Favorites: Exportovat oblíbené
-Export Filtered JSON: Exportujte filtrovaný JSON
-Export Filtered M3U: Export filtrovaného M3U
-Export JSON: Exportujte JSON
-Export KO: Export KO
-Export missing: Export chybí
-Export OK: Export OK
-Export only favorite channels to a new M3U file: Exportujte pouze oblíbené kanály do nového souboru M3U
-Export results as JSON or M3U – export missing channels or all channels.: Export výsledků jako JSON nebo M3U – export chybějících kanálů nebo všech kanálů.
-Export selected: Export vybrán
-Export Selected: Exportovat vybrané
-Exported: Exportováno
-Exported {0} channels to {1}: Exportováno {0} kanálů do {1}
-Extracting update...: Extrahování aktualizace...
-Failed to download playlist: Stažení seznamu skladeb se nezdařilo
-Failed to load playlist: Seznam skladeb se nepodařilo načíst
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Aktualizace bouquets.tv se nezdařila. Zkontrolujte prosím oprávnění souborů na zařízení Enigma2.
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Nahrání kytice se nezdařilo. Zkontrolujte nastavení Telnetu (hostitel, port, uživatelské jméno, heslo) a zkuste to znovu.
-Favorite: Oblíbený
-Favorites only: Pouze oblíbené
-Fetch Logos: Načíst loga
-File {0} already exists. Overwrite?: Soubor {0} již existuje. Přepsat?
-File exists: Soubor existuje
-Filters: Filtry
-Format Detection: Detekce formátu
-Fullscreen: Celá obrazovka
-Fullscreen (hide UI) - press ESC to exit: Celá obrazovka (skrýt uživatelské rozhraní) – pro ukončení stiskněte ESC
-Geo & Country: Zeměpis a země
-GeoBlocked: GeoBlocked
-GitHub Error: Chyba GitHubu
-Go back to live: Vrať se žít
-Grid: Mřížka
-Group: Skupina
-Half speed (0.5x): Poloviční rychlost (0,5x)
-Help: Pomoc
-Hide List: Skrýt seznam
-HLS playback: hls.js (MIT license): Přehrávání HLS: hls.js (licence MIT)
-Image: Obraz
-Import: Importovat
-Import cancelled or no channels mapped.: Import byl zrušen nebo nejsou namapovány žádné kanály.
-Import Error: Chyba importu
-Import error: {0}: Chyba importu: {0}
-Import from URL: Importovat z URL
-Import JSON: Importujte JSON
-Import JSON from URL: Importujte JSON z adresy URL
-Import Local: Importovat místní
-Imported {0} channels from code.: Importováno {0} kanálů z kódu.
-Imported {0} channels from JSON via mapping.: Importováno {0} kanálů z JSON prostřednictvím mapování.
-Imported {0} channels from URL.: Importováno {0} kanálů z adresy URL.
-In Both: V obou
-Info: Info
-Info on: Info na
-Invalid JSON: {0}: Neplatný JSON: {0}
-Invalid playlist URL.: Neplatná adresa URL seznamu videí.
-Invalid URL.: Neplatná adresa URL.
-Json: Json
-JSON: JSON
-JSON parsing error: {0}: Chyba analýzy JSON: {0}
-JSON Property: Vlastnost JSON
-Ko-fi: Káva
-Language: Jazyk
-Language – change UI language dynamically (translations in Languages folder).: Jazyk – dynamická změna jazyka uživatelského rozhraní (překlady ve složce Jazyky).
-Languages: Jazyky
-Languages (comma): jazyky (čárka)
-LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help: Nápověda LiveGardenTVPlus
-LOAD: ZATÍŽENÍ
-Load a playlist first.: Nejprve načtěte seznam skladeb.
-Load a second playlist first.: Nejprve načtěte druhý seznam skladeb.
-Load File: Načíst soubor
-Load from file...: Načíst ze souboru...
-Load from URL: Načíst z adresy URL
-Load from URL...: Načíst z adresy URL...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Načtěte místní soubor M3U/JSON – pomocí tlačítka „Načíst soubor“ (panel nástrojů) nebo „Otevřít soubor“ v editoru.
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Načíst online M3U/JSON URL – tlačítko 'Načíst online' (panel nástrojů) nebo 'Otevřít z URL' v editoru.
-Load playlist file (M3U/JSON) from your computer: Načtěte soubor seznamu skladeb (M3U/JSON) z počítače
-Loaded: Nabito
-Loaded {0} channels from JSON file via mapping.: Načteno {0} kanálů ze souboru JSON pomocí mapování.
-Loaded {0} channels from JSON URL.: Načteno {0} kanálů z adresy URL JSON.
-Loaded {0} channels from M3U file.: Načteno {0} kanálů ze souboru M3U.
-Loaded {0} channels from M3U URL.: Načteno {0} kanálů z adresy URL M3U.
-Loading...: Načítání...
-Logo: Logo
-Logo Picker – in editor, click '...' to choose logo from gallery.: Logo Picker – v editoru klikněte na '...' pro výběr loga z galerie.
-Logo Preview: Náhled loga
-Logo URL: Adresa URL loga
-Logos – automatically download from GitHub repository (Settings → Logos Source).: Loga – automaticky se stahují z úložiště GitHub (Nastavení → Zdroj log).
-Logos Matching Threshold: Logos Matching Threshold
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Úložiště log – vyberte vlastníka/repo/cestu (výchozí OwnerPlugins/loga).
-Logos Source: Zdroj loga
-Logos Subfolder: Podsložka loga
-M3U: M3U
-M3U parsing error: {0}: Chyba analýzy M3U: {0}
-Map JSON properties to channel fields:: Mapujte vlastnosti JSON na pole kanálu:
-Mapping saved for future imports of this file.: Mapování bylo uloženo pro budoucí importy tohoto souboru.
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Párovací prahy – nastavte citlivost fuzzy shody pro EPG a loga.
-Mini Player: Mini přehrávač
-Move to Group: Přesunout do skupiny
-Moved: Přesunuto
-Name: Jméno
-Nanoid: Nanoid
-Network error: Chyba sítě
-New Playlist: Nový seznam skladeb
-Next: Další
-Next ▶: Další ▶
-No .m3u files found on GitHub repository.: V úložišti GitHub nebyly nalezeny žádné soubory .m3u.
-No cache folder found.: Nebyla nalezena žádná složka mezipaměti.
-No channel selected: Není vybrán žádný kanál
-No channels could be mapped or import cancelled.: Nelze namapovat žádné kanály nebo zrušit import.
-No channels could be mapped. Check your mapping rules.: Nebyly namapovány žádné kanály. Zkontrolujte svá pravidla mapování.
-No channels found in JSON.: V JSON nebyly nalezeny žádné kanály.
-No channels found in M3U.: V M3U nebyly nalezeny žádné kanály.
-No channels loaded from JSON URL.: Z adresy URL JSON nebyly načteny žádné kanály.
-No channels loaded from M3U URL.: Z adresy URL M3U nebyly načteny žádné kanály.
-No channels loaded from M3U.: Žádné kanály načteny z M3U.
-No channels loaded.: Nejsou načteny žádné kanály.
-No channels mapped: Nejsou namapovány žádné kanály
-No channels selected.: Nejsou vybrány žádné kanály.
-No channels to import.: Žádné kanály k importu.
-No duplicate URLs found.: Nebyly nalezeny žádné duplicitní adresy URL.
-No EPG data: Žádná data EPG
-No EPG information available for this channel.: Pro tento kanál nejsou k dispozici žádné informace EPG.
-No EPG source configured. Please select one from the combo or go to Settings.: Není nakonfigurován žádný zdroj EPG. Vyberte jednu ze seznamu nebo přejděte do Nastavení.
-No EPG source configured. Would you like to open settings to select one?: Není nakonfigurován žádný zdroj EPG. Chcete otevřít nastavení a vybrat jedno?
-No favorite channels to export.: Žádné oblíbené kanály k exportu.
-No missing channels to export.: Žádné chybějící kanály k exportu.
-No playlist found: Nebyl nalezen žádný seznam skladeb
-No second playlist loaded.: Nebyl načten žádný druhý seznam skladeb.
-No stream URL available for this channel.: Pro tento kanál není k dispozici žádná adresa URL streamu.
-No text to import.: Žádný text k importu.
-No updates available.: Nejsou k dispozici žádné aktualizace.
-Normal speed (1x): Normální rychlost (1x)
-Not connected to the box.: Není připojeno ke krabici.
-Now: Teď
-OK: OK
-Online Playlist: Online seznam skladeb
-Online playlist – select from GitHub repository (auto‑refresh).: Online playlist – vyberte z úložiště GitHub (automatické obnovení).
-Only in First: Pouze v První
-Only in Second: Pouze ve druhém
-Open File...: Otevřít soubor...
-Open from URL: Otevřít z adresy URL
-Open Playlist: Otevřete seznam skladeb
-Pause/Resume live stream: Pozastavit/obnovit živý přenos
-Paused: Pozastaveno
-PayPal: PayPal
-Picture-in-Picture mode: Režim obraz v obraze
-Play/Pause: Přehrát/Pozastavit
-Player Media Controls: Ovládání médií přehrávače
-Playing Media: Přehrávání médií
-Playlist & Groups: Seznam skladeb a skupiny
-Playlist Comparison: Porovnání playlistů
-Playlist Editor: Editor seznamu skladeb
-Playlist Loading: Načítání seznamu skladeb
-Playlist Management: Správa seznamu skladeb
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Úložiště playlistů: OwnerPlugins/TivuStreamList (italské a mezinárodní streamy)
-Please select a program first.: Nejprve prosím vyberte program.
-Preview (first 5 channels): Náhled (prvních 5 kanálů)
-Preview error: {0}: Chyba náhledu: {0}
-Program Details: Podrobnosti o programu
-Ready: Připraven
-Ready.: Připraveno.
-Recent: Nedávné
-Recent files – quick access to last 5 opened playlists.: Poslední soubory – rychlý přístup k posledním 5 otevřeným seznamům skladeb.
-Recent playlists: Nedávné seznamy skladeb
-Refresh Code: Obnovit kód
-Refresh EPG: Obnovit EPG
-Refresh EPG List: Obnovit seznam EPG
-Refresh from GitHub: Obnovit z GitHubu
-Refresh List: Obnovit seznam
-Reload GUI: Znovu načíst GUI
-Remove Command: Odebrat příkaz
-Rename Group: Přejmenovat skupinu
-Rename group '{0}' to:: Přejmenovat skupinu '{0}' na:
-Repository: Úložiště
-Reset Order: Obnovit objednávku
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Výsledky: 'Pouze v prvním', 'Pouze v druhém', 'V obou' – se stavovým barevným kódováním.
-Save: Uložit
-SAVE: ULOŽIT
-Save – persists all settings without reloading current playlist.: Uložit – zachová všechna nastavení bez opětovného načtení aktuálního seznamu skladeb.
-Save as...: Uložit jako...
-Save current playlist to a new M3U file: Uložte aktuální seznam skladeb do nového souboru M3U
-Save Mapping: Uložit mapování
-Save Playlist: Uložit seznam skladeb
-Save Status: Uložit stav
-Saved: Uloženo
-Search channel: : Vyhledat kanál:
-Search channels by name: Vyhledávejte kanály podle názvu
-Search channels...: Hledat kanály...
-sec: sek
-Second playlist loaded: {0} channels: Druhý načtený seznam videí: {0} kanálů
-Select a channel to play.: Vyberte kanál, který chcete přehrát.
-Select a playlist first.: Nejprve vyberte seznam skladeb.
-Select target group:: Vyberte cílovou skupinu:
-Select Theme: Vyberte téma
-Selected theme is saved and applied on restart.: Vybrané téma se uloží a použije při restartu.
-Send: Poslat
-Send playlist to Enigma2 decoder: Odeslat seznam skladeb do dekodéru Enigma2
-Send to Enigma2: Odeslat na Enigma2
-Settings: Nastavení
-Show List: Zobrazit seznam
-Show only channels marked as favorites: Zobrazit pouze kanály označené jako oblíbené
-Show or hide the channel list: Zobrazit nebo skrýt seznam kanálů
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Zvláštní poděkování patří komunitám CORVOBOYS & LinuxSat-Support za testování a podporu.
-Start: Start
-Status: Postavení
-Stop: Zastávka
-Stopped: Zastaveno
-Stream URL: Adresa URL streamu
-Stream URLs: Streamovat adresy URL
-Success: Úspěch
-Support: Podpora
-Support the developer: Podpořte vývojáře
-Target Field: Cílové pole
-Telnet command:: Telnet příkaz:
-Telnet Commander: Velitel Telnetu
-Telnet Config: Konfigurace Telnet
-Telnet Console: Konzole Telnet
-Telnet host not configured. Please set it in Settings.: Hostitel Telnet není nakonfigurován. Nastavte to prosím v Nastavení.
-Telnet password is empty. Do you want to continue?: Heslo Telnetu je prázdné. Chcete pokračovat?
-Telnet username not configured. Please set it in Settings.: Uživatelské jméno Telnet není nakonfigurováno. Nastavte to prosím v Nastavení.
-Thanks to: Díky
-Theme picker: Výběr motivu
-Theme picker – accessible via Tools menu on main toolbar.: Výběr motivu – přístupný přes nabídku Nástroje na hlavním panelu nástrojů.
-Themes: Témata
-Time: Čas
-Title: Titul
-Tools: Nástroje
-Total: Celkový
-Total channels in loaded playlist: Celkový počet kanálů v načteném seznamu stop
-TV Guide (EPG): TV průvodce (EPG)
-TvgId: TvgId
-Type channel name to filter: Zadejte název kanálu, který chcete filtrovat
-UI: MaterialDesignThemes.Wpf: Uživatelské rozhraní: MaterialDesignThemes.Wpf
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Nelze automaticky rozpoznat formát. Z rozbalovací nabídky vyberte JSON nebo M3U a zkuste to znovu.
-Unable to find version in remote project file.: Verzi nelze najít ve vzdáleném souboru projektu.
-Unsupported format. Please select JSON or M3U.: Nepodporovaný formát. Vyberte prosím JSON nebo M3U.
-Update: Aktualizovat
-Update complete. Restarting...: Aktualizace dokončena. Restartování...
-Update Error: Chyba aktualizace
-Update failed: : Aktualizace se nezdařila:
-Updates: Aktualizace
-Upload Error: Chyba nahrávání
-URL: URL
-URL (primary): URL (primární)
-URL Check: Kontrola URL
-URL list (one per line): Seznam adres URL (jedna na řádek)
-URLs & Status: URL a stav
-Version: Verze
-Version {0}.{1}.{2}: Verze {0}.{1}.{2}
-Version unknown: Verze neznámá
-Waiting for LiveGardenTVPlus to close...: Čekání na ukončení LiveGardenTVPlus...
-Warning: Varování
-WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
-Youtube URL: Adresa URL YouTube
-Youtube URLs: URL na YouTube
+(Completely voluntary – no features are blocked)::(Zcela dobrovolné – žádné funkce nejsou blokovány)
+(No description)::(Bez popisu)
+• Add / rename / delete groups.::• Přidat / přejmenovat / odstranit skupiny.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• Posuvník vyrovnávací paměti: úprava vyrovnávací paměti HLS (1–10 sekund).
+• Check URL availability (only visible channels).::• Zkontrolujte dostupnost URL (pouze viditelné kanály).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• Upravte názvy kanálů, skupiny, adresy URL, loga, tvg-id, zemi, jazyky, oblíbené položky.
+• Edit multiple URLs per channel (popup window).::• Upravit více adres URL na kanál (vyskakovací okno).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• Obohacení pomocí EPG: Přidá chybějící tvg-id pomocí fuzzy párování.
+• EPG info displayed in status bar for current channel.::• Informace EPG zobrazené ve stavovém řádku pro aktuální kanál.
+• Export OK / FAIL / filtered lists as M3U or JSON.::• Export OK / FAIL / filtrované seznamy jako M3U nebo JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).::• Načítání log ze vzdáleného úložiště (OwnerPlugins/loga).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• Celoobrazovkové uživatelské rozhraní: skryje postranní a stavový řádek (ukončení ESC).
+• Hide/Show channel list button.::• Tlačítko Skrýt/Zobrazit seznam kanálů.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• Importujte JSON (místní nebo URL) s flexibilním mapováním polí (automatická detekce, uložení mapování).
+• Picture‑in‑Picture (PIP) button.::• Tlačítko Picture-in-Picture (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.::• Rychlost přehrávání: 0,5x, 1x, 2x tlačítka.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• Seřaďte libovolný sloupec kliknutím na záhlaví; použijte 'Reset Order' pro návrat k původní objednávce.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• Timeshift: pozastavení živého přenosu; přetažením posuvníku vyhledáte zpět; pro návrat stiskněte 'Live'.
+▶ Play Media::▶ Přehrát média
+◀ Previous::◀ Předchozí
+16 colour themes + Light/Dark variants.::16 barevných motivů + světlé/tmavé varianty.
+A new version is available. Do you want to update now?::K dispozici je nová verze. Chcete provést aktualizaci nyní?
+Access via 'Compare' button in Playlist Editor or Tools menu.::Přístup pomocí tlačítka „Porovnat“ v Editoru seznamu skladeb nebo v nabídce Nástroje.
+Access via 'Edit Playlist' button on main toolbar.::Přístup pomocí tlačítka „Upravit seznam skladeb“ na hlavním panelu nástrojů.
+Actions::Akce
+Add Command::Přidat příkaz
+Add Group::Přidat skupinu
+Add Mapping::Přidat mapování
+Adjust buffer size (1-10 seconds)::Upravit velikost vyrovnávací paměti (1–10 sekund)
+Advanced IDs::Pokročilá ID
+All channels marked as favorites::Všechny kanály označené jako oblíbené
+All favorites removed::Všechny oblíbené položky byly odstraněny
+Application status::Stav aplikace
+Apply::Použít
+Apply / Import::Použít / Importovat
+Apply changes::Použít změny
+Apply Filters::Použít filtry
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::Jste si jisti, že chcete znovu načíst GUI Enigmy?\n\nRozhraní se restartuje (černá obrazovka na několik sekund).
+Auto (recommended)::Auto (doporučeno)
+Auto-detect::Automatická detekce
+Automatic check on startup – or click 'Check for updates' in Tools menu.::Automatická kontrola při spuštění – nebo klikněte na „Zkontrolovat aktualizace“ v nabídce Nástroje.
+Bouquet Name::Název kytice
+Bouquet sent and Enigma2 channel list reloaded.::Kytice odeslána a seznam kanálů Enigma2 znovu načten.
+Buffer (seconds)::Vyrovnávací paměť (sekundy)
+Buffer size – adjust HLS buffer seconds.::Velikost vyrovnávací paměti – nastavení sekund vyrovnávací paměti HLS.
+Cache::Cache
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::Složka mezipaměti: %TEMP%\\LiveGardenTVPlus\\epg_cache
+Cancel::Zrušit
+CANCEL::ZRUŠIT
+Cannot open browser::Nelze otevřít prohlížeč
+Category::Kategorie
+Changelog::Seznam změn
+Channel Details::Podrobnosti kanálu
+Channel Down::Kanál dolů
+Channel Info::Informace o kanálu
+Channel Name::Název kanálu
+Channel Up::Channel Up
+Channel updated successfully.::Kanál byl úspěšně aktualizován.
+channels from::kanály z
+channels from JSON::kanály z JSON
+channels from JSON URL::kanály z adresy URL JSON
+channels from URL::kanály z adresy URL
+Check Duplicates::Zaškrtněte Duplikáty
+Check for updates::Zkontrolujte aktualizace
+Check URLs::Zkontrolujte adresy URL
+Clear::Jasný
+Clear EPG Cache::Vymazat mezipaměť EPG
+Clear Filters::Vymazat filtry
+Clear search::Vymazat vyhledávání
+Click for details::Kliknutím zobrazíte podrobnosti
+Close::Blízko
+Close current playlist::Zavřít aktuální seznam skladeb
+Close Playlist::Zavřít seznam skladeb
+Code::Kód
+Code copied to clipboard.::Kód zkopírován do schránky.
+Command name:::Název příkazu:
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::Komunita a testování: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare::Porovnejte
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::Porovnejte podle: Priority (název→skupina→tvg-id), Název, Skupina (rozlišují se malá a velká písmena) nebo TvgId.
+Compare Playlists::Porovnejte seznamy skladeb
+Compare two playlists – load first (current playlist) and second (from file or URL).::Porovnejte dva seznamy skladeb – načtěte první (aktuální seznam skladeb) a druhý (ze souboru nebo URL).
+Compare...::Porovnat...
+Comparison results: {0} channels::Výsledky srovnání: {0} kanálů
+Configuration Missing::Konfigurace chybí
+Confirm Delete::Potvrďte Smazat
+Confirm Reload::Potvrďte Znovu načíst
+Connect::Připojit
+Connected::Připojeno
+Copied::Zkopírováno
+Copy::Kopie
+CORVOBOYS.ORG::CORVOBOYS.ORG
+Country::Země
+Credits::Kredity
+Delete channel '{0}'?::Smazat kanál '{0}'?
+Delete Group::Smazat skupinu
+Delete Selected::Smazat vybrané
+Deleted::Smazáno
+Description::Popis
+Details::Podrobnosti
+Developed by Lululla::Vyvinutý Lulullou
+Developer: Lululla::Vývojář: Lululla
+Disconnect::Odpojit
+Disconnected::Odpojeno
+Display as::Zobrazit jako
+Do you want to load this edited playlist now?::Chcete nyní načíst tento upravený seznam skladeb?
+Double speed (2x)::Dvojitá rychlost (2x)
+Downloading playlist...::Stahování seznamu skladeb...
+Downloads ZIP, replaces files, restarts app – settings preserved.::Stáhne ZIP, nahradí soubory, restartuje aplikaci – nastavení zachováno.
+Drag & drop – drop M3U or JSON files directly onto main window.::Drag & drop – přetáhněte soubory M3U nebo JSON přímo do hlavního okna.
+Drag to seek back in buffer::Přetažením vyhledáte zpět ve vyrovnávací paměti
+Duplicate URLs found:\n\n::Nalezeny duplicitní adresy URL:\n\n
+Edit Command::Upravit příkaz
+Edit command name:::Upravit název příkazu:
+Edit Playlist::Upravit seznam skladeb
+Edit telnet command:::Upravit příkaz telnet:
+Edit URLs::Upravit adresy URL
+Empty Password::Prázdné heslo
+End::Konec
+Enigma2::Enigma2
+Enrich with EPG::Obohaťte se o EPG
+Enter bouquet name (without spaces):::Zadejte název kytice (bez mezer):
+Enter JSON URL:::Zadejte adresu URL JSON:
+Enter new group name:::Zadejte nový název skupiny:
+Enter playlist URL (JSON or M3U):::Zadejte adresu URL seznamu videí (JSON nebo M3U):
+Enter playlist URL (M3U or JSON):::Zadejte adresu URL seznamu videí (M3U nebo JSON):
+EPG::EPG
+Epg & Favorites::Epg a oblíbené
+EPG & Favorites::EPG a oblíbené
+Epg & Logos::Epg a loga
+EPG & Logos::EPG a loga
+EPG cache cleared successfully.::Mezipaměť EPG byla úspěšně vymazána.
+EPG Details::Podrobnosti EPG
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::Průvodce EPG – tlačítko na hlavním panelu nástrojů zobrazí celou mřížku s podrobnostmi o programu (informace získáte dvojitým kliknutím).
+EPG Matching Threshold::EPG Matching Threshold
+EPG Source::Zdroj EPG
+EPG source – can be set in Settings (epgshare01 or custom URL).::Zdroj EPG – lze nastavit v Nastavení (epgshare01 nebo vlastní URL).
+EPG source – choose XMLTV file or enter custom URL.::Zdroj EPG – vyberte soubor XMLTV nebo zadejte vlastní URL.
+EPG Source Missing::Chybí zdroj EPG
+Error::Chyba
+Error clearing cache: {0}::Chyba při mazání mezipaměti: {0}
+Error loading::Chyba při načítání
+Error loading EPG list: {0}::Chyba při načítání seznamu EPG: {0}
+Error loading file: {0}::Chyba při načítání souboru: {0}
+Error loading playlists: {0}::Chyba při načítání seznamů videí: {0}
+Error loading URL: {0}::Chyba při načítání adresy URL: {0}
+ERROR: player.html not found.::CHYBA: player.html nebyl nalezen.
+Exit::Výstup
+Export all::Exportovat vše
+Export Favorites::Exportovat oblíbené
+Export Filtered JSON::Exportujte filtrovaný JSON
+Export Filtered M3U::Export filtrovaného M3U
+Export JSON::Exportujte JSON
+Export KO::Export KO
+Export missing::Export chybí
+Export OK::Export OK
+Export only favorite channels to a new M3U file::Exportujte pouze oblíbené kanály do nového souboru M3U
+Export results as JSON or M3U – export missing channels or all channels.::Export výsledků jako JSON nebo M3U – export chybějících kanálů nebo všech kanálů.
+Export selected::Export vybrán
+Export Selected::Exportovat vybrané
+Exported::Exportováno
+Exported {0} channels to {1}::Exportováno {0} kanálů do {1}
+Extracting update...::Extrahování aktualizace...
+Failed to download playlist::Stažení seznamu skladeb se nezdařilo
+Failed to load playlist::Načtení seznamu skladeb se nezdařilo
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::Aktualizace bouquets.tv se nezdařila. Zkontrolujte prosím oprávnění souborů na zařízení Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::Nahrání kytice se nezdařilo. Zkontrolujte nastavení Telnetu (hostitel, port, uživatelské jméno, heslo) a zkuste to znovu.
+Favorite::Oblíbený
+Favorites::Oblíbené
+Favorites only::Pouze oblíbené
+Fetch Logos::Načíst loga
+File::Soubor
+File {0} already exists. Overwrite?::Soubor {0} již existuje. Přepsat?
+File exists::Soubor existuje
+Filters::Filtry
+Format Detection::Detekce formátu
+Fullscreen::Celá obrazovka
+Fullscreen (hide UI) - press ESC to exit::Celá obrazovka (skrýt uživatelské rozhraní) – pro ukončení stiskněte ESC
+Geo & Country::Zeměpis a země
+GeoBlocked::GeoBlocked
+GitHub Error::Chyba GitHubu
+Go back to live::Vrať se žít
+Grid::Mřížka
+Group::Skupina
+Half speed (0.5x)::Poloviční rychlost (0,5x)
+Help::Pomoc
+Hide List::Skrýt seznam
+HLS playback: hls.js (MIT license)::Přehrávání HLS: hls.js (licence MIT)
+Image::Obraz
+Import::Importovat
+Import cancelled or no channels mapped.::Import byl zrušen nebo nejsou namapovány žádné kanály.
+Import Error::Chyba importu
+Import error: {0}::Chyba importu: {0}
+Import from URL::Importovat z URL
+Import JSON::Importujte JSON
+Import JSON from URL::Importujte JSON z adresy URL
+Import Local::Importovat místní
+Imported {0} channels from code.::Importováno {0} kanálů z kódu.
+Imported {0} channels from JSON via mapping.::Importováno {0} kanálů z JSON prostřednictvím mapování.
+Imported {0} channels from URL.::Importováno {0} kanálů z adresy URL.
+In Both::V obou
+Info::Info
+Info on::Info na
+Invalid JSON: {0}::Neplatný JSON: {0}
+Invalid playlist URL.::Neplatná adresa URL seznamu videí.
+Invalid URL.::Neplatná adresa URL.
+Json::Json
+JSON::JSON
+JSON parsing error: {0}::Chyba analýzy JSON: {0}
+JSON Property::Vlastnost JSON
+Ko-fi::Káva
+Language::Jazyk
+Language – change UI language dynamically (translations in Languages folder).::Jazyk – dynamická změna jazyka uživatelského rozhraní (překlady ve složce Jazyky).
+Languages::Jazyky
+Languages (comma)::jazyky (čárka)
+LINUXSAT-SUPPORT.COM::LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help::Nápověda LiveGardenTVPlus
+LOAD::ZATÍŽENÍ
+Load a playlist first.::Nejprve načtěte seznam skladeb.
+Load a second playlist first.::Nejprve načtěte druhý seznam skladeb.
+Load File::Načíst soubor
+Load from file...::Načíst ze souboru...
+Load from URL::Načíst z adresy URL
+Load from URL...::Načíst z adresy URL...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::Načtěte místní soubor M3U/JSON – pomocí tlačítka „Načíst soubor“ (panel nástrojů) nebo „Otevřít soubor“ v editoru.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::Načíst online M3U/JSON URL – tlačítko 'Načíst online' (panel nástrojů) nebo 'Otevřít z URL' v editoru.
+Load Playlist::Načíst seznam skladeb
+Load playlist file (M3U/JSON) from your computer::Načtěte soubor seznamu skladeb (M3U/JSON) z počítače
+Loaded::Nabito
+Loaded {0} channels from JSON file via mapping.::Načteno {0} kanálů ze souboru JSON pomocí mapování.
+Loaded {0} channels from JSON URL.::Načteno {0} kanálů z adresy URL JSON.
+Loaded {0} channels from M3U file.::Načteno {0} kanálů ze souboru M3U.
+Loaded {0} channels from M3U URL.::Načteno {0} kanálů z adresy URL M3U.
+Loading...::Načítání...
+Logo::Logo
+Logo Picker – in editor, click '...' to choose logo from gallery.::Logo Picker – v editoru klikněte na '...' pro výběr loga z galerie.
+Logo Preview::Náhled loga
+Logo URL::Adresa URL loga
+Logos – automatically download from GitHub repository (Settings → Logos Source).::Loga – automaticky se stahují z úložiště GitHub (Nastavení → Zdroj log).
+Logos Matching Threshold::Logos Matching Threshold
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::Úložiště log – vyberte vlastníka/repo/cestu (výchozí OwnerPlugins/loga).
+Logos Source::Zdroj loga
+Logos Subfolder::Podsložka loga
+M3U::M3U
+M3U parsing error: {0}::Chyba analýzy M3U: {0}
+Map JSON properties to channel fields:::Mapujte vlastnosti JSON na pole kanálu:
+Mapping saved for future imports of this file.::Mapování bylo uloženo pro budoucí importy tohoto souboru.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::Párovací prahy – nastavte citlivost fuzzy shody pro EPG a loga.
+Mini Player::Mini přehrávač
+Move to Group::Přesunout do skupiny
+Moved::Přesunuto
+Name::Jméno
+Nanoid::Nanoid
+Network error::Chyba sítě
+New Playlist::Nový seznam skladeb
+Next::Další
+Next ▶::Další ▶
+No .m3u files found on GitHub repository.::V úložišti GitHub nebyly nalezeny žádné soubory .m3u.
+No cache folder found.::Nebyla nalezena žádná složka mezipaměti.
+No channel selected::Není vybrán žádný kanál
+No channel selected.::Není vybrán žádný kanál.
+No channels could be mapped or import cancelled.::Nelze namapovat žádné kanály nebo zrušit import.
+No channels could be mapped. Check your mapping rules.::Nebyly namapovány žádné kanály. Zkontrolujte svá pravidla mapování.
+No channels found in JSON.::V JSON nebyly nalezeny žádné kanály.
+No channels found in M3U.::V M3U nebyly nalezeny žádné kanály.
+No channels loaded from JSON URL.::Z adresy URL JSON nebyly načteny žádné kanály.
+No channels loaded from M3U URL.::Z adresy URL M3U nebyly načteny žádné kanály.
+No channels loaded from M3U.::Žádné kanály načteny z M3U.
+No channels loaded.::Nejsou načteny žádné kanály.
+No channels mapped::Nejsou namapovány žádné kanály
+No channels selected.::Nejsou vybrány žádné kanály.
+No channels to import.::Žádné kanály k importu.
+No duplicate URLs found.::Nebyly nalezeny žádné duplicitní adresy URL.
+No EPG data::Žádná data EPG
+No EPG information available for this channel.::Pro tento kanál nejsou k dispozici žádné informace EPG.
+No EPG source configured. Please select one from the combo or go to Settings.::Není nakonfigurován žádný zdroj EPG. Vyberte jednu ze seznamu nebo přejděte do Nastavení.
+No EPG source configured. Would you like to open settings to select one?::Není nakonfigurován žádný zdroj EPG. Chcete otevřít nastavení a vybrat jedno?
+No favorite channels found.::Nebyly nalezeny žádné oblíbené kanály.
+No favorite channels to export.::Žádné oblíbené kanály k exportu.
+No missing channels to export.::Žádné chybějící kanály k exportu.
+No playlist found::Nebyl nalezen žádný seznam skladeb
+No second playlist loaded.::Nebyl načten žádný druhý seznam skladeb.
+No stream URL available for this channel.::Pro tento kanál není k dispozici žádná adresa URL streamu.
+No text to import.::Žádný text k importu.
+No updates available.::Nejsou k dispozici žádné aktualizace.
+Normal speed (1x)::Normální rychlost (1x)
+Not connected to the box.::Není připojeno ke krabici.
+Now::Teď
+OK::OK
+Online Playlist::Online seznam skladeb
+Online playlist – select from GitHub repository (auto‑refresh).::Online playlist – vyberte z úložiště GitHub (automatické obnovení).
+Only in First::Pouze v První
+Only in Second::Pouze ve druhém
+Open File...::Otevřít soubor...
+Open from URL::Otevřít z adresy URL
+Open Playlist::Otevřete Playlist
+Pause/Resume live stream::Pozastavit/obnovit živý přenos
+Paused::Pozastaveno
+PayPal::PayPal
+Picture-in-Picture mode::Režim obraz v obraze
+Play/Pause::Přehrát/Pozastavit
+Player Media Controls::Ovládání médií přehrávače
+Playing Media::Přehrávání médií
+Playlist & Groups::Seznam skladeb a skupiny
+Playlist closed::Playlist uzavřen
+Playlist Comparison::Porovnání playlistů
+Playlist Editor::Editor seznamu skladeb
+Playlist Loading::Načítání seznamu skladeb
+Playlist Management::Správa seznamu skladeb
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::Úložiště playlistů: OwnerPlugins/TivuStreamList (italské a mezinárodní streamy)
+Please select a program first.::Nejprve prosím vyberte program.
+Preview (first 5 channels)::Náhled (prvních 5 kanálů)
+Preview error: {0}::Chyba náhledu: {0}
+Program Details::Podrobnosti o programu
+Ready::Připraveno
+Recent::Nedávné
+Recent files – quick access to last 5 opened playlists.::Poslední soubory – rychlý přístup k posledním 5 otevřeným seznamům skladeb.
+Recent playlists::Nedávné seznamy skladeb
+Refresh Code::Obnovit kód
+Refresh EPG::Obnovit EPG
+Refresh EPG List::Obnovit seznam EPG
+Refresh from GitHub::Obnovit z GitHubu
+Refresh List::Obnovit seznam
+Reload GUI::Znovu načíst GUI
+Remove Command::Odebrat příkaz
+Rename Group::Přejmenovat skupinu
+Rename group '{0}' to:::Přejmenovat skupinu '{0}' na:
+Repository::Úložiště
+Reset Order::Obnovit objednávku
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::Výsledky: 'Pouze v prvním', 'Pouze v druhém', 'V obou' – se stavovým barevným kódováním.
+Save::Uložit
+SAVE::ULOŽIT
+Save – persists all settings without reloading current playlist.::Uložit – zachová všechna nastavení bez opětovného načtení aktuálního seznamu skladeb.
+Save as...::Uložit jako...
+Save current playlist to a new M3U file::Uložte aktuální seznam skladeb do nového souboru M3U
+Save Favorites::Uložit oblíbené
+Save Mapping::Uložit mapování
+Save Playlist::Uložit seznam skladeb
+Save Status::Uložit stav
+Saved::Uloženo
+Search channel::Vyhledat kanál
+Search channels by name::Vyhledávejte kanály podle názvu
+Search channels...::Hledat kanály...
+sec::sek
+Second playlist loaded: {0} channels::Druhý načtený seznam videí: {0} kanálů
+Select a channel to play.::Vyberte kanál, který chcete přehrát.
+Select a playlist first.::Nejprve vyberte seznam skladeb.
+Select target group:::Vyberte cílovou skupinu:
+Select Theme::Vyberte téma
+Selected theme is saved and applied on restart.::Vybraný motiv se uloží a použije při restartu.
+Send::Poslat
+Send playlist to Enigma2 decoder::Odeslat seznam skladeb do dekodéru Enigma2
+Send to Enigma2::Odeslat na Enigma2
+Settings::Nastavení
+Show List::Zobrazit seznam
+Show only channels marked as favorites::Zobrazit pouze kanály označené jako oblíbené
+Show or hide the channel list::Zobrazit nebo skrýt seznam kanálů
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::Zvláštní poděkování patří komunitám CORVOBOYS & LinuxSat-Support za testování a podporu.
+Start::Start
+Status::Postavení
+Stop::Zastávka
+Stopped::Zastaveno
+Stream URL::Adresa URL streamu
+Stream URLs::Streamovat adresy URL
+Success::Úspěch
+Support::Podpora
+Support the developer::Podpořte vývojáře
+Target Field::Cílové pole
+Telnet command:::Telnet příkaz:
+Telnet Commander::Velitel Telnetu
+Telnet Config::Konfigurace Telnet
+Telnet Configuration::Konfigurace Telnetu
+Telnet Console::Konzole Telnet
+Telnet host not configured. Please set it in Settings.::Hostitel Telnet není nakonfigurován. Nastavte to prosím v Nastavení.
+Telnet password is empty. Do you want to continue?::Heslo Telnetu je prázdné. Chcete pokračovat?
+Telnet username not configured. Please set it in Settings.::Uživatelské jméno Telnet není nakonfigurováno. Nastavte to prosím v Nastavení.
+Thanks to::Díky
+Theme picker::Výběr motivu
+Theme picker – accessible via Tools menu on main toolbar.::Výběr motivu – přístupný přes nabídku Nástroje na hlavním panelu nástrojů.
+Themes::Témata
+Time::Čas
+Title::Titul
+Tools::Nástroje
+Total::Celkový
+Total channels in loaded playlist::Celkový počet kanálů v načteném seznamu stop
+TV Guide (EPG)::TV průvodce (EPG)
+TvgId::TvgId
+Type channel name to filter::Zadejte název kanálu, který chcete filtrovat
+UI: MaterialDesignThemes.Wpf::Uživatelské rozhraní: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::Nelze automaticky rozpoznat formát. Z rozbalovací nabídky vyberte JSON nebo M3U a zkuste to znovu.
+Unable to find version in remote project file.::Verzi nelze najít ve vzdáleném souboru projektu.
+Unsupported format. Please select JSON or M3U.::Nepodporovaný formát. Vyberte prosím JSON nebo M3U.
+Update::Aktualizovat
+Update complete. Restarting...::Aktualizace dokončena. Restartování...
+Update Error::Chyba aktualizace
+Update failed: ::Aktualizace se nezdařila:
+Updated::Aktualizováno
+Updates::Aktualizace
+Upload Error::Chyba nahrávání
+URL::URL
+URL (primary)::URL (primární)
+URL Check::Kontrola URL
+URL list (one per line)::Seznam adres URL (jedna na řádek)
+URLs & Status::URL a stav
+Version::Verze
+Version {0}.{1}.{2}::Verze {0}.{1}.{2}
+Version unknown::Verze neznámá
+Waiting for LiveGardenTVPlus to close...::Čekání na ukončení LiveGardenTVPlus...
+Warning::Varování
+WebView2: Microsoft Edge WebView2::WebView2: Microsoft Edge WebView2
+Youtube URL::Adresa URL YouTube
+Youtube URLs::URL na YouTube

@@ -157,6 +157,30 @@ namespace LiveGardenTVPlus.Views
             }
         }
 
+        private void PayPalBtn_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Process.Start(new ProcessStartInfo { FileName = "https://www.paypal.me/belfagor2005", UseShellExecute = true });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Cannot open browser: {ex.Message}");
+            }
+        }
+
+        private void KoFiBtn_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Process.Start(new ProcessStartInfo { FileName = "https://ko-fi.com/lululla", UseShellExecute = true });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Cannot open browser: {ex.Message}");
+            }
+        }
+
         private void CloseBtn_Click(object sender, RoutedEventArgs e)
         {
             Close();

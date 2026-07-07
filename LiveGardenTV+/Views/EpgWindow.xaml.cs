@@ -30,7 +30,7 @@ namespace LiveGardenTVPlus.Views
             {
                 Channel = ch,
                 DisplayName = ch.Name,
-                EpgId = null
+                EpgId = null!
             }).OrderBy(x => x.DisplayName).ToList();
 
             FilterChannelList();
@@ -142,9 +142,17 @@ namespace LiveGardenTVPlus.Views
             // Update EPG IDs for all channels
             foreach (var item in _allChannelDisplays)
             {
-                var epgId = GetEpgChannelId(item.Channel);
-                item.EpgId = epgId;
-                item.DisplayName = epgId != null ? item.Channel.Name : item.Channel.Name + " (No EPG)";
+                if (item.Channel != null)
+                {
+                    var epgId = GetEpgChannelId(item.Channel);
+                    item.EpgId = epgId ?? string.Empty;
+                    item.DisplayName = epgId != null ? item.Channel.Name : item.Channel.Name + " (No EPG)";
+                }
+                else
+                {
+                    item.EpgId = string.Empty;
+                    item.DisplayName = "Unknown (No EPG)";
+                }
             }
             FilterChannelList();
         }
@@ -175,7 +183,7 @@ namespace LiveGardenTVPlus.Views
             if (catColumn != null) catColumn.Header = LanguageManager.GetTranslation("Category");
         }
 
-        private string GetEpgChannelId(Channel ch)
+        private string? GetEpgChannelId(Channel ch)
         {
             if (!string.IsNullOrEmpty(ch.TvgId) && _epgService.HasChannel(ch.TvgId))
                 return ch.TvgId;
@@ -203,11 +211,13 @@ namespace LiveGardenTVPlus.Views
         {
             string filter = SearchBox.Text?.Trim() ?? "";
             if (string.IsNullOrEmpty(filter))
+            {
                 ChannelListBox.ItemsSource = _allChannelDisplays;
+            }
             else
             {
                 var filtered = _allChannelDisplays
-                    .Where(c => c.DisplayName.IndexOf(filter, StringComparison.OrdinalIgnoreCase) >= 0)
+                    .Where(c => c.DisplayName != null && c.DisplayName.IndexOf(filter, StringComparison.OrdinalIgnoreCase) >= 0)
                     .ToList();
                 ChannelListBox.ItemsSource = filtered;
             }
@@ -295,16 +305,16 @@ namespace LiveGardenTVPlus.Views
 
         public class EpgChannelDisplay
         {
-            public Channel Channel { get; set; }
-            public string DisplayName { get; set; }
-            public string EpgId { get; set; }
+            public Channel? Channel { get; set; }
+            public string? DisplayName { get; set; }
+            public string? EpgId { get; set; }
         }
 
         public class EpgProgramDisplay
         {
-            public string Title { get; set; }
-            public string Description { get; set; }
-            public string Category { get; set; }
+            public string Title { get; set; } = string.Empty;
+            public string Description { get; set; } = string.Empty;
+            public string Category { get; set; } = string.Empty;
             public DateTime StartLocal { get; set; }
             public DateTime StopLocal { get; set; }
         }

@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): (Pilnīgi brīvprātīgi — neviena funkcija nav bloķēta)
-(No description): (Bez apraksta)
-• Add / rename / delete groups.: • Pievienot/pārdēvēt/dzēst grupas.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Bufera slīdnis: pielāgojiet HLS buferi (1–10 sekundes).
-• Check URL availability (only visible channels).: • Pārbaudiet URL pieejamību (tikai redzamiem kanāliem).
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Rediģēt kanālu nosaukumus, grupas, URL, logotipus, tvg-id, valsti, valodas, izlasi.
-• Edit multiple URLs per channel (popup window).: • Rediģēt vairākus URL vienam kanālam (uznirstošais logs).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Bagātināt ar EPG: pievieno trūkstošo tvg-id, izmantojot izplūdušo saskaņošanu.
-• EPG info displayed in status bar for current channel.: • Pašreizējā kanāla statusa joslā tiek parādīta EPG informācija.
-• Export OK / FAIL / filtered lists as M3U or JSON.: • Eksportējiet OK / FAIL / filtrētos sarakstus kā M3U vai JSON.
-• Fetch logos from remote repository (OwnerPlugins/logos).: • Ienesiet logotipus no attālās krātuves (OwnerPlugins/logos).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Pilnekrāna lietotāja interfeiss: paslēpj sānjoslu un statusa joslu (lai izietu ar ESC).
-• Hide/Show channel list button.: • Poga Slēpt/Rādīt kanālu sarakstu.
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Importējiet JSON (lokālo vai URL) ar elastīgu lauka kartēšanu (automātiska noteikšana, saglabāšanas kartēšana).
-• Picture‑in‑Picture (PIP) button.: • Poga Attēls attēlā (PIP).
-• Playback speed: 0.5x, 1x, 2x buttons.: • Atskaņošanas ātrums: 0,5x, 1x, 2x pogas.
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Kārtot jebkuru kolonnu, noklikšķinot uz galvenes; izmantojiet "Atiestatīt pasūtījumu", lai atgrieztos pie sākotnējā pasūtījuma.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: pauzējiet tiešraides straumi; velciet slīdni, lai meklētu atpakaļ; nospiediet "Tiešraide", lai atgrieztos.
-▶ Play Media: ▶ Atskaņot multividi
-◀ Previous: ◀ Iepriekšējais
-16 colour themes + Light/Dark variants.: 16 krāsu motīvi + gaiši/tumši varianti.
-A new version is available. Do you want to update now?: Ir pieejama jauna versija. Vai vēlaties atjaunināt tagad?
-Access via 'Compare' button in Playlist Editor or Tools menu.: Piekļūstiet, izmantojot pogu Salīdzināt atskaņošanas sarakstu redaktorā vai izvēlnē Rīki.
-Access via 'Edit Playlist' button on main toolbar.: Piekļūstiet galvenajā rīkjoslā, izmantojot pogu Rediģēt atskaņošanas sarakstu.
-Actions: Darbības
-Add Command: Pievienot komandu
-Add Group: Pievienot grupu
-Add Mapping: Pievienot kartēšanu
-Adjust buffer size (1-10 seconds): Pielāgojiet bufera lielumu (1–10 sekundes)
-Advanced IDs: Papildu ID
-Application status: Pieteikuma statuss
-Apply: Pieteikties
-Apply / Import: Lietot / importēt
-Apply changes: Lietot izmaiņas
-Apply Filters: Lietot filtrus
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Vai tiešām vēlaties atkārtoti ielādēt Enigma2 GUI?\n\nSaskarne tiks restartēta (dažas sekundes būs melns ekrāns).
-Auto (recommended): Automātiski (ieteicams)
-Auto-detect: Automātiska noteikšana
-Automatic check on startup – or click 'Check for updates' in Tools menu.: Automātiska palaišanas pārbaude — vai izvēlnē Rīki noklikšķiniet uz 'Pārbaudīt atjauninājumus'.
-Bouquet Name: Pušķa nosaukums
-Bouquet sent and Enigma2 channel list reloaded.: Pušķis ir nosūtīts, un Enigma2 kanālu saraksts ir atkārtoti ielādēts.
-Buffer (seconds): Buferis (sekundēs)
-Buffer size – adjust HLS buffer seconds.: Bufera lielums — pielāgojiet HLS bufera sekundes.
-Cache: Kešatmiņa
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Kešatmiņas mape: %TEMP%\\LiveGardenTVPlus\\epg_cache
-Cancel: Atcelt
-CANCEL: ATCELT
-Cannot open browser: Nevar atvērt pārlūkprogrammu
-Category: Kategorija
-Changelog: Izmaiņu žurnāls
-Channel Details: Kanāla informācija
-Channel Down: Kanāls uz leju
-Channel Info: Informācija par kanālu
-Channel Name: Kanāla nosaukums
-Channel Up: Kanāls uz augšu
-channels from: kanāli no
-channels from JSON: kanāli no JSON
-channels from JSON URL: kanāli no JSON URL
-channels from URL: kanāli no URL
-Check Duplicates: Pārbaudiet dublikātus
-Check for updates: Pārbaudiet, vai nav atjauninājumu
-Check URLs: Pārbaudiet URL
-Clear: Skaidrs
-Clear EPG Cache: Notīrīt EPG kešatmiņu
-Clear Filters: Notīrīt filtrus
-Clear search: Notīrīt meklēšanu
-Click for details: Noklikšķiniet, lai iegūtu sīkāku informāciju
-Close: Aizvērt
-Code: Kods
-Code copied to clipboard.: Kods ir kopēts starpliktuvē.
-Command name:: Komandas nosaukums:
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Kopiena un testēšana: CorvoBoys (corvoboys.org) un LinuxSat-Support.com
-Compare: Salīdziniet
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Salīdzināt pēc: Prioritāte (nosaukums → grupa → tvg-id), nosaukums, grupa (reģistrjutīgs) vai TvgId.
-Compare Playlists: Salīdziniet atskaņošanas sarakstus
-Compare two playlists – load first (current playlist) and second (from file or URL).: Salīdziniet divus atskaņošanas sarakstus — vispirms ielādējiet (pašreizējais atskaņošanas saraksts) un otro (no faila vai URL).
-Compare...: Salīdzināt...
-Comparison results: {0} channels: Salīdzinājuma rezultāti: {0} kanāli
-Configuration Missing: Trūkst konfigurācijas
-Confirm Delete: Apstipriniet dzēšanu
-Confirm Reload: Apstipriniet atkārtotu ielādi
-Connect: Savienot
-Connected: Savienots
-Copied: Kopēts
-Copy: Kopēt
-CORVOBOYS.ORG: CORVOBOYS.ORG
-Country: Valsts
-Credits: Kredīti
-Delete channel '{0}'?: Vai dzēst kanālu {0}?
-Delete Group: Dzēst grupu
-Delete Selected: Dzēst atlasītos
-Deleted: Izdzēsts
-Description: Apraksts
-Details: Sīkāka informācija
-Developed by Lululla: Izstrādāja Lululla
-Developer: Lululla: Izstrādātājs: Lululla
-Disconnect: Atvienot
-Disconnected: Atvienots
-Display as: : Parādīt kā:
-Do you want to load this edited playlist now?: Vai vēlaties ielādēt šo rediģēto atskaņošanas sarakstu tūlīt?
-Double speed (2x): Divkāršs ātrums (2x)
-Downloading playlist...: Notiek atskaņošanas saraksta lejupielāde...
-Downloads ZIP, replaces files, restarts app – settings preserved.: Lejupielādē ZIP, aizvieto failus, restartē lietotni — iestatījumi ir saglabāti.
-Drag & drop – drop M3U or JSON files directly onto main window.: Velciet un nometiet — nometiet M3U vai JSON failus tieši galvenajā logā.
-Drag to seek back in buffer: Velciet, lai atgrieztos buferī
-Duplicate URLs found:\n\n: Atrasti vietrāžu URL dublikāti:\n\n
-Edit Command: Rediģēt komandu
-Edit command name:: Rediģēt komandas nosaukumu:
-Edit Playlist: Rediģēt atskaņošanas sarakstu
-Edit telnet command:: Rediģēt telnet komandu:
-Edit URLs: Rediģēt URL
-Empty Password: Tukša parole
-End: Beigas
-Enrich with EPG: Bagātināt ar EPG
-Enter bouquet name (without spaces):: Ievadiet pušķa nosaukumu (bez atstarpēm):
-Enter JSON URL:: Ievadiet JSON URL:
-Enter new group name:: Ievadiet jauno grupas nosaukumu:
-Enter playlist URL (JSON or M3U):: Ievadiet atskaņošanas saraksta URL (JSON vai M3U):
-Enter playlist URL (M3U or JSON):: Ievadiet atskaņošanas saraksta URL (M3U vai JSON):
-EPG: EPG
-Epg & Favorites: Epg un izlase
-EPG & Favorites: EPG un izlase
-Epg & Logos: Epg un logotipi
-EPG & Logos: EPG un logotipi
-EPG cache cleared successfully.: EPG kešatmiņa ir veiksmīgi notīrīta.
-EPG Details: EPG detaļas
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG ceļvedis — poga galvenajā rīkjoslā parāda pilnu režģi ar informāciju par programmu (lai iegūtu informāciju, veiciet dubultklikšķi).
-EPG Matching Threshold: EPG atbilstības slieksnis
-EPG Source: : EPG avots:
-EPG source – can be set in Settings (epgshare01 or custom URL).: EPG avots — var iestatīt iestatījumos (epgshare01 vai pielāgots URL).
-EPG source – choose XMLTV file or enter custom URL.: EPG avots – izvēlieties XMLTV failu vai ievadiet pielāgotu URL.
-EPG Source Missing: Trūkst EPG avota
-Error: Kļūda
-Error clearing cache: {0}: Kļūda, notīrot kešatmiņu: {0}
-Error loading: Ielādējot, radās kļūda
-Error loading EPG list: {0}: Ielādējot EPG sarakstu, radās kļūda: {0}
-Error loading file: {0}: Kļūda, ielādējot failu: {0}
-Error loading playlists: {0}: Ielādējot atskaņošanas sarakstus, radās kļūda: {0}
-Error loading URL: {0}: Ielādējot URL, radās kļūda: {0}
-ERROR: player.html not found.: KĻŪDA: player.html nav atrasts.
-Exit: Iziet
-Export all: Eksportēt visu
-Export Favorites: Eksportēt izlasi
-Export Filtered JSON: Eksportēt filtrēto JSON
-Export Filtered M3U: Eksportēt filtrēto M3U
-Export JSON: Eksportēt JSON
-Export KO: Eksportēt KO
-Export missing: Trūkst eksporta
-Export OK: Eksportēt OK
-Export only favorite channels to a new M3U file: Eksportējiet tikai iecienītākos kanālus uz jaunu M3U failu
-Export results as JSON or M3U – export missing channels or all channels.: Eksportējiet rezultātus kā JSON vai M3U — eksportējiet trūkstošos kanālus vai visus kanālus.
-Export selected: Atlasīts eksports
-Export Selected: Eksportēt atlasītos
-Exported: Eksportēts
-Exported {0} channels to {1}: Eksportēti {0} kanāli uz {1}
-Extracting update...: Notiek atjauninājuma izvilkšana...
-Failed to download playlist: Neizdevās lejupielādēt atskaņošanas sarakstu
-Failed to load playlist: Neizdevās ielādēt atskaņošanas sarakstu
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Neizdevās atjaunināt bouquets.tv. Lūdzu, pārbaudiet failu atļaujas Enigma2 ierīcē.
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Neizdevās augšupielādēt pušķi. Lūdzu, pārbaudiet savus Telnet iestatījumus (resursdators, ports, lietotājvārds, parole) un mēģiniet vēlreiz.
-Favorite: Mīļākais
-Favorites only: Tikai izlasei
-Fetch Logos: Ielādēt logotipus
-File {0} already exists. Overwrite?: Fails {0} jau pastāv. Vai pārrakstīt?
-File exists: Fails pastāv
-Filters: Filtri
-Format Detection: Formāta noteikšana
-Fullscreen: Pilnekrāna režīms
-Fullscreen (hide UI) - press ESC to exit: Pilnekrāna režīms (slēpt lietotāja interfeisu) — nospiediet ESC, lai izietu
-Geo & Country: Geo & Country
-GeoBlocked: GeoBlocked
-GitHub Error: GitHub kļūda
-Go back to live: Atgriezieties dzīvot
-Grid: Režģis
-Group: Grupa
-Half speed (0.5x): Pusātrums (0,5x)
-Help: Palīdzība
-Hide List: Slēpt sarakstu
-HLS playback: hls.js (MIT license): HLS atskaņošana: hls.js (MIT licence)
-Image: Attēls
-Import: Importēt
-Import cancelled or no channels mapped.: Importēšana ir atcelta vai nav kartētu kanālu.
-Import Error: Importēšanas kļūda
-Import error: {0}: Importēšanas kļūda: {0}
-Import from URL: Importēt no URL
-Import JSON: Importēt JSON
-Import JSON from URL: Importējiet JSON no URL
-Import Local: Importēt vietējos
-Imported {0} channels from code.: Importēti {0} kanāli no koda.
-Imported {0} channels from JSON via mapping.: Importēti {0} kanāli no JSON, izmantojot kartēšanu.
-Imported {0} channels from URL.: Importēti {0} kanāli no URL.
-In Both: Abos
-Info: Informācija
-Info on: Informācija par
-Invalid JSON: {0}: Nederīgs JSON: {0}
-Invalid playlist URL.: Nederīgs atskaņošanas saraksta URL.
-Invalid URL.: Nederīgs URL.
-Json: Json
-JSON: JSON
-JSON parsing error: {0}: JSON parsēšanas kļūda: {0}
-JSON Property: JSON īpašums
-Ko-fi: Kafija
-Language: Valoda
-Language – change UI language dynamically (translations in Languages folder).: Valoda – dinamiski mainiet lietotāja interfeisa valodu (tulkojumi mapē Valodas).
-Languages: Valodas
-Languages (comma): Valodas (komats)
-LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help: LiveGardenTVPlus palīdzība
-LOAD: LOAD
-Load a playlist first.: Vispirms ielādējiet atskaņošanas sarakstu.
-Load a second playlist first.: Vispirms ielādējiet otru atskaņošanas sarakstu.
-Load File: Ielādēt failu
-Load from file...: Ielādēt no faila...
-Load from URL: Ielādēt no URL
-Load from URL...: Ielādēt no URL...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Ielādējiet vietējo M3U/JSON failu — izmantojot pogu Ielādēt failu (rīkjoslā) vai redaktorā atveriet failu.
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Ielādēt tiešsaistē M3U/JSON URL — poga “Ielādēt tiešsaistē” (rīkjoslā) vai “Atvērt no URL” redaktorā.
-Load playlist file (M3U/JSON) from your computer: Ielādējiet atskaņošanas saraksta failu (M3U/JSON) no sava datora
-Loaded: Ielādēts
-Loaded {0} channels from JSON file via mapping.: Ielādēti {0} kanāli no JSON faila, izmantojot kartēšanu.
-Loaded {0} channels from JSON URL.: Ielādēti {0} kanāli no JSON URL.
-Loaded {0} channels from M3U file.: Ielādēti {0} kanāli no M3U faila.
-Loaded {0} channels from M3U URL.: Ielādēti {0} kanāli no M3U URL.
-Loading...: Notiek ielāde...
-Logo: Logotips
-Logo Picker – in editor, click '...' to choose logo from gallery.: Logotipa atlasītājs — redaktorā noklikšķiniet uz '...', lai izvēlētos logotipu no galerijas.
-Logo Preview: Logotipa priekšskatījums
-Logo URL: Logotipa URL
-Logos – automatically download from GitHub repository (Settings → Logos Source).: Logotipi — automātiski lejupielādējiet no GitHub repozitorija (Iestatījumi → Logotipu avots).
-Logos Matching Threshold: Logotipu atbilstības slieksnis
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logotipu repozitorijs — izvēlieties īpašnieku/repo/ceļu (noklusējuma OwnerPlugins/logos).
-Logos Source: Logotipu avots
-Logos Subfolder: Logotipu apakšmape
-M3U: M3U
-M3U parsing error: {0}: M3U parsēšanas kļūda: {0}
-Map JSON properties to channel fields:: Kartēt JSON rekvizītus ar kanāla laukiem:
-Mapping saved for future imports of this file.: Kartēšana saglabāta turpmākai šī faila importēšanai.
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Atbilstības sliekšņi — iestatiet neskaidras atbilstības jutīgumu EPG un logotipiem.
-Mini Player: Mini atskaņotājs
-Move to Group: Pāriet uz grupu
-Moved: Pārvietots
-Name: Vārds
-Nanoid: Nanoīds
-Network error: Tīkla kļūda
-New Playlist: Jauns atskaņošanas saraksts
-Next: Tālāk
-Next ▶: Nākamais ▶
-No .m3u files found on GitHub repository.: GitHub repozitorijā netika atrasts neviens .m3u fails.
-No cache folder found.: Kešatmiņas mape nav atrasta.
-No channel selected: Nav atlasīts neviens kanāls
-No channels could be mapped or import cancelled.: Nevarēja kartēt kanālu vai atcelt importēšanu.
-No channels could be mapped. Check your mapping rules.: Nevarēja kartēt nevienu kanālu. Pārbaudiet savus kartēšanas noteikumus.
-No channels found in JSON.: JSON nav atrasts neviens kanāls.
-No channels found in M3U.: M3U nav atrasts neviens kanāls.
-No channels loaded from JSON URL.: No JSON URL nav ielādēts neviens kanāls.
-No channels loaded from M3U URL.: No M3U URL nav ielādēts neviens kanāls.
-No channels loaded from M3U.: No M3U nav ielādēts neviens kanāls.
-No channels loaded.: Nav ielādēts neviens kanāls.
-No channels mapped: Nav kartētu kanālu
-No channels selected.: Nav atlasīts neviens kanāls.
-No channels to import.: Nav importējamu kanālu.
-No duplicate URLs found.: Nav atrasti dublikāti URL.
-No EPG data: Nav EPG datu
-No EPG information available for this channel.: Šim kanālam nav pieejama EPG informācija.
-No EPG source configured. Please select one from the combo or go to Settings.: Nav konfigurēts neviens EPG avots. Lūdzu, atlasiet vienu no kombinācijas vai atveriet sadaļu Iestatījumi.
-No EPG source configured. Would you like to open settings to select one?: Nav konfigurēts neviens EPG avots. Vai vēlaties atvērt iestatījumus, lai atlasītu vienu?
-No favorite channels to export.: Nav iecienītu kanālu, ko eksportēt.
-No missing channels to export.: Eksportējamo kanālu trūkst.
-No playlist found: Nav atrasts neviens atskaņošanas saraksts
-No second playlist loaded.: Nav ielādēts otrs atskaņošanas saraksts.
-No stream URL available for this channel.: Šim kanālam nav pieejams neviens straumes URL.
-No text to import.: Nav teksta, ko importēt.
-No updates available.: Nav pieejami atjauninājumi.
-Normal speed (1x): Normāls ātrums (1x)
-Not connected to the box.: Nav savienots ar kasti.
-Now: Tagad
-OK: Labi
-Online Playlist: Tiešsaistes atskaņošanas saraksts
-Online playlist – select from GitHub repository (auto‑refresh).: Tiešsaistes atskaņošanas saraksts — atlasiet no GitHub repozitorijas (automātiskā atsvaidzināšana).
-Only in First: Tikai pirmajā
-Only in Second: Tikai otrajā
-Open File...: Atvērt failu...
-Open from URL: Atvērt no URL
-Open Playlist: Atveriet atskaņošanas sarakstu
-Pause/Resume live stream: Apturēt/atsākt tiešraides straumi
-Paused: Pauzēts
-PayPal: PayPal
-Picture-in-Picture mode: Attēls attēlā režīms
-Play/Pause: Atskaņot/Pauzēt
-Player Media Controls: Atskaņotāja multivides vadīklas
-Playing Media: Multivides atskaņošana
-Playlist & Groups: Atskaņošanas saraksts un grupas
-Playlist Comparison: Atskaņošanas sarakstu salīdzinājums
-Playlist Editor: Atskaņošanas sarakstu redaktors
-Playlist Loading: Notiek atskaņošanas saraksta ielāde
-Playlist Management: Atskaņošanas sarakstu pārvaldība
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Atskaņošanas sarakstu krātuve: OwnerPlugins/TivuStreamList (itāļu un starptautiskās straumes)
-Please select a program first.: Lūdzu, vispirms atlasiet programmu.
-Preview (first 5 channels): Priekšskatījums (pirmie 5 kanāli)
-Preview error: {0}: Priekšskatījuma kļūda: {0}
-Program Details: Programmas informācija
-Ready: Gatavs
-Ready.: Gatavs.
-Recent: Nesen
-Recent files – quick access to last 5 opened playlists.: Jaunākie faili — ātra piekļuve pēdējiem 5 atvērtajiem atskaņošanas sarakstiem.
-Recent playlists: Jaunākie atskaņošanas saraksti
-Refresh Code: Atsvaidzināt kodu
-Refresh EPG: Atsvaidziniet EPG
-Refresh EPG List: Atsvaidziniet EPG sarakstu
-Refresh from GitHub: Atsvaidziniet no GitHub
-Refresh List: Atsvaidzināt sarakstu
-Reload GUI: Pārlādēt GUI
-Remove Command: Noņemt komandu
-Rename Group: Pārdēvēt grupu
-Rename group '{0}' to:: Pārdēvēt grupu “{0}” uz:
-Repository: Repozitorijs
-Reset Order: Atiestatīt pasūtījumu
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Rezultāti: 'Tikai pirmajā', 'Tikai otrajā', 'Abās' – ar statusa krāsu kodējumu.
-Save: Saglabāt
-SAVE: SAGLABĀT
-Save – persists all settings without reloading current playlist.: Saglabāt — saglabā visus iestatījumus, nepārlādējot pašreizējo atskaņošanas sarakstu.
-Save as...: Saglabāt kā...
-Save current playlist to a new M3U file: Saglabājiet pašreizējo atskaņošanas sarakstu jaunā M3U failā
-Save Mapping: Saglabāt kartēšanu
-Save Playlist: Saglabāt atskaņošanas sarakstu
-Save Status: Saglabāt statusu
-Saved: Saglabāts
-Search channel: : Meklēt kanālu:
-Search channels by name: Meklējiet kanālus pēc nosaukuma
-Search channels...: Meklēt kanālus...
-sec: sek
-Second playlist loaded: {0} channels: Otrais ielādēts atskaņošanas saraksts: {0} kanāli
-Select a channel to play.: Atlasiet atskaņojamo kanālu.
-Select a playlist first.: Vispirms atlasiet atskaņošanas sarakstu.
-Select target group:: Izvēlieties mērķa grupu:
-Select Theme: Izvēlieties Motīvu
-Selected theme is saved and applied on restart.: Atlasītais motīvs tiek saglabāts un lietots restartējot.
-Send: Sūtīt
-Send playlist to Enigma2 decoder: Nosūtiet atskaņošanas sarakstu uz Enigma2 dekodētāju
-Send to Enigma2: Nosūtiet uz Enigma2
-Settings: Iestatījumi
-Show List: Rādīt sarakstu
-Show only channels marked as favorites: Rādīt tikai kanālus, kas atzīmēti kā iecienītākie
-Show or hide the channel list: Rādīt vai paslēpt kanālu sarakstu
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Īpašs paldies CORVOBOYS un LinuxSat-Support kopienām par testēšanu un atbalstu.
-Start: Sākt
-Status: Statuss
-Stop: Stop
-Stopped: Apstājās
-Stream URL: Straumes URL
-Stream URLs: Straumējiet URL
-Success: Panākumi
-Support: Atbalsts
-Support the developer: Atbalstiet izstrādātāju
-Target Field: Mērķa lauks
-Telnet command:: Telnet komanda:
-Telnet Commander: Telnet komandieris
-Telnet Config: Telnet konfigurācija
-Telnet Console: Telnet konsole
-Telnet host not configured. Please set it in Settings.: Telnet resursdators nav konfigurēts. Lūdzu, iestatiet to sadaļā Iestatījumi.
-Telnet password is empty. Do you want to continue?: Telnet parole ir tukša. Vai vēlaties turpināt?
-Telnet username not configured. Please set it in Settings.: Telnet lietotājvārds nav konfigurēts. Lūdzu, iestatiet to sadaļā Iestatījumi.
-Thanks to: Pateicoties
-Theme picker: Motīvu atlasītājs
-Theme picker – accessible via Tools menu on main toolbar.: Motīvu atlasītājs — pieejams galvenās rīkjoslas izvēlnē Rīki.
-Themes: Tēmas
-Time: Laiks
-Title: Nosaukums
-Tools: Rīki
-Total: Kopā
-Total channels in loaded playlist: Kopējais kanālu skaits ielādētajā atskaņošanas sarakstā
-TV Guide (EPG): TV ceļvedis (EPG)
-TvgId: TvgId
-Type channel name to filter: Ievadiet filtrējamā kanāla nosaukumu
-UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Nevar automātiski noteikt formātu. Lūdzu, nolaižamajā izvēlnē atlasiet JSON vai M3U un mēģiniet vēlreiz.
-Unable to find version in remote project file.: Attālā projekta failā nevar atrast versiju.
-Unsupported format. Please select JSON or M3U.: Neatbalstīts formāts. Lūdzu, atlasiet JSON vai M3U.
-Update: Atjaunināt
-Update complete. Restarting...: Atjaunināšana pabeigta. Notiek restartēšana...
-Update Error: Atjaunināšanas kļūda
-Update failed: : Atjaunināšana neizdevās:
-Updates: Atjauninājumi
-Upload Error: Augšupielādes kļūda
-URL: URL
-URL (primary): URL (galvenais)
-URL Check: URL pārbaude
-URL list (one per line): URL saraksts (viens katrā rindā)
-URLs & Status: URL un statuss
-Version: Versija
-Version {0}.{1}.{2}: Versija {0}.{1}.{2}
-Version unknown: Versija nav zināma
-Waiting for LiveGardenTVPlus to close...: Gaida LiveGardenTVPlus aizvēršanu...
-Warning: Brīdinājums
-WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
-Youtube URL: Youtube URL
-Youtube URLs: Youtube vietrāži URL
+(Completely voluntary – no features are blocked)::(Pilnīgi brīvprātīgi — neviena funkcija nav bloķēta)
+(No description)::(Bez apraksta)
+• Add / rename / delete groups.::• Pievienot/pārdēvēt/dzēst grupas.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• Bufera slīdnis: pielāgojiet HLS buferi (1–10 sekundes).
+• Check URL availability (only visible channels).::• Pārbaudiet URL pieejamību (tikai redzamiem kanāliem).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• Rediģēt kanālu nosaukumus, grupas, URL, logotipus, tvg-id, valsti, valodas, izlasi.
+• Edit multiple URLs per channel (popup window).::• Rediģēt vairākus URL vienam kanālam (uznirstošais logs).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• Bagātināt ar EPG: pievieno trūkstošo tvg-id, izmantojot izplūdušo saskaņošanu.
+• EPG info displayed in status bar for current channel.::• Pašreizējā kanāla statusa joslā tiek parādīta EPG informācija.
+• Export OK / FAIL / filtered lists as M3U or JSON.::• Eksportējiet OK / FAIL / filtrētos sarakstus kā M3U vai JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).::• Ienesiet logotipus no attālās krātuves (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• Pilnekrāna lietotāja interfeiss: paslēpj sānjoslu un statusa joslu (lai izietu ar ESC).
+• Hide/Show channel list button.::• Poga Slēpt/Rādīt kanālu sarakstu.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• Importējiet JSON (lokālo vai URL) ar elastīgu lauka kartēšanu (automātiska noteikšana, saglabāšanas kartēšana).
+• Picture‑in‑Picture (PIP) button.::• Poga Attēls attēlā (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.::• Atskaņošanas ātrums: 0,5x, 1x, 2x pogas.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• Kārtot jebkuru kolonnu, noklikšķinot uz galvenes; izmantojiet "Atiestatīt pasūtījumu", lai atgrieztos pie sākotnējā pasūtījuma.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• Timeshift: pauzējiet tiešraides straumi; velciet slīdni, lai meklētu atpakaļ; nospiediet "Tiešraide", lai atgrieztos.
+▶ Play Media::▶ Atskaņot multividi
+◀ Previous::◀ Iepriekšējais
+16 colour themes + Light/Dark variants.::16 krāsu motīvi + gaiši/tumši varianti.
+A new version is available. Do you want to update now?::Ir pieejama jauna versija. Vai vēlaties atjaunināt tūlīt?
+Access via 'Compare' button in Playlist Editor or Tools menu.::Piekļūstiet, izmantojot pogu Salīdzināt atskaņošanas sarakstu redaktorā vai izvēlnē Rīki.
+Access via 'Edit Playlist' button on main toolbar.::Piekļūstiet galvenajā rīkjoslā, izmantojot pogu Rediģēt atskaņošanas sarakstu.
+Actions::Darbības
+Add Command::Pievienot komandu
+Add Group::Pievienot grupu
+Add Mapping::Pievienot kartēšanu
+Adjust buffer size (1-10 seconds)::Pielāgojiet bufera lielumu (1–10 sekundes)
+Advanced IDs::Papildu ID
+All channels marked as favorites::Visi kanāli atzīmēti kā iecienītākie
+All favorites removed::Visas izlases ir noņemtas
+Application status::Pieteikuma statuss
+Apply::Pieteikties
+Apply / Import::Lietot / importēt
+Apply changes::Lietot izmaiņas
+Apply Filters::Lietot filtrus
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::Vai tiešām vēlaties atkārtoti ielādēt Enigma2 GUI?\n\nSaskarne tiks restartēta (dažas sekundes būs melns ekrāns).
+Auto (recommended)::Automātiski (ieteicams)
+Auto-detect::Automātiska noteikšana
+Automatic check on startup – or click 'Check for updates' in Tools menu.::Automātiska palaišanas pārbaude — vai izvēlnē Rīki noklikšķiniet uz 'Pārbaudīt atjauninājumus'.
+Bouquet Name::Pušķa nosaukums
+Bouquet sent and Enigma2 channel list reloaded.::Pušķis ir nosūtīts, un Enigma2 kanālu saraksts ir atkārtoti ielādēts.
+Buffer (seconds)::Buferis (sekundēs)
+Buffer size – adjust HLS buffer seconds.::Bufera lielums — pielāgojiet HLS bufera sekundes.
+Cache::Kešatmiņa
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::Kešatmiņas mape: %TEMP%\\LiveGardenTVPlus\\epg_cache
+Cancel::Atcelt
+CANCEL::ATCELT
+Cannot open browser::Nevar atvērt pārlūkprogrammu
+Category::Kategorija
+Changelog::Izmaiņu žurnāls
+Channel Details::Kanāla informācija
+Channel Down::Kanāls uz leju
+Channel Info::Informācija par kanālu
+Channel Name::Kanāla nosaukums
+Channel Up::Kanāls uz augšu
+Channel updated successfully.::Kanāls ir veiksmīgi atjaunināts.
+channels from::kanāli no
+channels from JSON::kanāli no JSON
+channels from JSON URL::kanāli no JSON URL
+channels from URL::kanāli no URL
+Check Duplicates::Pārbaudiet dublikātus
+Check for updates::Pārbaudiet, vai nav atjauninājumu
+Check URLs::Pārbaudiet URL
+Clear::Skaidrs
+Clear EPG Cache::Notīrīt EPG kešatmiņu
+Clear Filters::Notīrīt filtrus
+Clear search::Notīrīt meklēšanu
+Click for details::Noklikšķiniet, lai iegūtu sīkāku informāciju
+Close::Aizvērt
+Close current playlist::Aizvērt pašreizējo atskaņošanas sarakstu
+Close Playlist::Aizvērt atskaņošanas sarakstu
+Code::Kods
+Code copied to clipboard.::Kods ir kopēts starpliktuvē.
+Command name:::Komandas nosaukums:
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::Kopiena un testēšana: CorvoBoys (corvoboys.org) un LinuxSat-Support.com
+Compare::Salīdziniet
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::Salīdzināt pēc: Prioritāte (nosaukums → grupa → tvg-id), nosaukums, grupa (reģistrjutīgs) vai TvgId.
+Compare Playlists::Salīdziniet atskaņošanas sarakstus
+Compare two playlists – load first (current playlist) and second (from file or URL).::Salīdziniet divus atskaņošanas sarakstus — vispirms ielādējiet (pašreizējais atskaņošanas saraksts) un otro (no faila vai URL).
+Compare...::Salīdzināt...
+Comparison results: {0} channels::Salīdzinājuma rezultāti: {0} kanāli
+Configuration Missing::Trūkst konfigurācijas
+Confirm Delete::Apstipriniet dzēšanu
+Confirm Reload::Apstipriniet atkārtotu ielādi
+Connect::Savienot
+Connected::Savienots
+Copied::Kopēts
+Copy::Kopēt
+CORVOBOYS.ORG::CORVOBOYS.ORG
+Country::Valsts
+Credits::Kredīti
+Delete channel '{0}'?::Vai dzēst kanālu {0}?
+Delete Group::Dzēst grupu
+Delete Selected::Dzēst atlasītos
+Deleted::Izdzēsts
+Description::Apraksts
+Details::Sīkāka informācija
+Developed by Lululla::Izstrādāja Lululla
+Developer: Lululla::Izstrādātājs: Lululla
+Disconnect::Atvienot
+Disconnected::Atvienots
+Display as::Parādīt kā
+Do you want to load this edited playlist now?::Vai vēlaties ielādēt šo rediģēto atskaņošanas sarakstu tūlīt?
+Double speed (2x)::Divkāršs ātrums (2x)
+Downloading playlist...::Notiek atskaņošanas saraksta lejupielāde...
+Downloads ZIP, replaces files, restarts app – settings preserved.::Lejupielādē ZIP, aizvieto failus, restartē lietotni — iestatījumi ir saglabāti.
+Drag & drop – drop M3U or JSON files directly onto main window.::Velciet un nometiet — nometiet M3U vai JSON failus tieši galvenajā logā.
+Drag to seek back in buffer::Velciet, lai atgrieztos buferī
+Duplicate URLs found:\n\n::Atrasti vietrāžu URL dublikāti:\n\n
+Edit Command::Rediģēt komandu
+Edit command name:::Rediģēt komandas nosaukumu:
+Edit Playlist::Rediģēt atskaņošanas sarakstu
+Edit telnet command:::Rediģēt telnet komandu:
+Edit URLs::Rediģēt URL
+Empty Password::Tukša parole
+End::Beigas
+Enigma2::Enigma2
+Enrich with EPG::Bagātināt ar EPG
+Enter bouquet name (without spaces):::Ievadiet pušķa nosaukumu (bez atstarpēm):
+Enter JSON URL:::Ievadiet JSON URL:
+Enter new group name:::Ievadiet jauno grupas nosaukumu:
+Enter playlist URL (JSON or M3U):::Ievadiet atskaņošanas saraksta URL (JSON vai M3U):
+Enter playlist URL (M3U or JSON):::Ievadiet atskaņošanas saraksta URL (M3U vai JSON):
+EPG::EPG
+Epg & Favorites::Epg un izlase
+EPG & Favorites::EPG un izlase
+Epg & Logos::Epg un logotipi
+EPG & Logos::EPG un logotipi
+EPG cache cleared successfully.::EPG kešatmiņa ir veiksmīgi notīrīta.
+EPG Details::EPG detaļas
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::EPG ceļvedis — poga galvenajā rīkjoslā parāda pilnu režģi ar informāciju par programmu (lai iegūtu informāciju, veiciet dubultklikšķi).
+EPG Matching Threshold::EPG atbilstības slieksnis
+EPG Source::EPG avots
+EPG source – can be set in Settings (epgshare01 or custom URL).::EPG avots — var iestatīt iestatījumos (epgshare01 vai pielāgots URL).
+EPG source – choose XMLTV file or enter custom URL.::EPG avots – izvēlieties XMLTV failu vai ievadiet pielāgotu URL.
+EPG Source Missing::Trūkst EPG avota
+Error::Kļūda
+Error clearing cache: {0}::Kļūda, notīrot kešatmiņu: {0}
+Error loading::Ielādējot, radās kļūda
+Error loading EPG list: {0}::Ielādējot EPG sarakstu, radās kļūda: {0}
+Error loading file: {0}::Kļūda, ielādējot failu: {0}
+Error loading playlists: {0}::Ielādējot atskaņošanas sarakstus, radās kļūda: {0}
+Error loading URL: {0}::Ielādējot URL, radās kļūda: {0}
+ERROR: player.html not found.::KĻŪDA: player.html nav atrasts.
+Exit::Iziet
+Export all::Eksportēt visu
+Export Favorites::Eksportēt izlasi
+Export Filtered JSON::Eksportēt filtrēto JSON
+Export Filtered M3U::Eksportēt filtrēto M3U
+Export JSON::Eksportēt JSON
+Export KO::Eksportēt KO
+Export missing::Trūkst eksporta
+Export OK::Eksportēt OK
+Export only favorite channels to a new M3U file::Eksportējiet tikai iecienītākos kanālus uz jaunu M3U failu
+Export results as JSON or M3U – export missing channels or all channels.::Eksportējiet rezultātus kā JSON vai M3U — eksportējiet trūkstošos kanālus vai visus kanālus.
+Export selected::Atlasīts eksports
+Export Selected::Eksportēt atlasītos
+Exported::Eksportēts
+Exported {0} channels to {1}::Eksportēti {0} kanāli uz {1}
+Extracting update...::Notiek atjauninājuma izvilkšana...
+Failed to download playlist::Neizdevās lejupielādēt atskaņošanas sarakstu
+Failed to load playlist::Neizdevās ielādēt atskaņošanas sarakstu
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::Neizdevās atjaunināt bouquets.tv. Lūdzu, pārbaudiet failu atļaujas Enigma2 ierīcē.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::Neizdevās augšupielādēt pušķi. Lūdzu, pārbaudiet savus Telnet iestatījumus (resursdators, ports, lietotājvārds, parole) un mēģiniet vēlreiz.
+Favorite::Mīļākais
+Favorites::Izlase
+Favorites only::Tikai izlasei
+Fetch Logos::Ielādēt logotipus
+File::Fails
+File {0} already exists. Overwrite?::Fails {0} jau pastāv. Vai pārrakstīt?
+File exists::Fails pastāv
+Filters::Filtri
+Format Detection::Formāta noteikšana
+Fullscreen::Pilnekrāna režīms
+Fullscreen (hide UI) - press ESC to exit::Pilnekrāna režīms (slēpt lietotāja interfeisu) — nospiediet ESC, lai izietu
+Geo & Country::Geo & Country
+GeoBlocked::GeoBlocked
+GitHub Error::GitHub kļūda
+Go back to live::Atgriezieties dzīvot
+Grid::Režģis
+Group::Grupa
+Half speed (0.5x)::Pusātrums (0,5x)
+Help::Palīdzība
+Hide List::Slēpt sarakstu
+HLS playback: hls.js (MIT license)::HLS atskaņošana: hls.js (MIT licence)
+Image::Attēls
+Import::Importēt
+Import cancelled or no channels mapped.::Importēšana ir atcelta vai nav kartētu kanālu.
+Import Error::Importēšanas kļūda
+Import error: {0}::Importēšanas kļūda: {0}
+Import from URL::Importēt no URL
+Import JSON::Importēt JSON
+Import JSON from URL::Importējiet JSON no URL
+Import Local::Importēt vietējos
+Imported {0} channels from code.::Importēti {0} kanāli no koda.
+Imported {0} channels from JSON via mapping.::Importēti {0} kanāli no JSON, izmantojot kartēšanu.
+Imported {0} channels from URL.::Importēti {0} kanāli no URL.
+In Both::Abos
+Info::Informācija
+Info on::Informācija par
+Invalid JSON: {0}::Nederīgs JSON: {0}
+Invalid playlist URL.::Nederīgs atskaņošanas saraksta URL.
+Invalid URL.::Nederīgs URL.
+Json::Json
+JSON::JSON
+JSON parsing error: {0}::JSON parsēšanas kļūda: {0}
+JSON Property::JSON īpašums
+Ko-fi::Kafija
+Language::Valoda
+Language – change UI language dynamically (translations in Languages folder).::Valoda – dinamiski mainiet lietotāja interfeisa valodu (tulkojumi mapē Languages).
+Languages::Valodas
+Languages (comma)::Valodas (komats)
+LINUXSAT-SUPPORT.COM::LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help::LiveGardenTVPlus palīdzība
+LOAD::LOAD
+Load a playlist first.::Vispirms ielādējiet atskaņošanas sarakstu.
+Load a second playlist first.::Vispirms ielādējiet otru atskaņošanas sarakstu.
+Load File::Ielādēt failu
+Load from file...::Ielādēt no faila...
+Load from URL::Ielādēt no URL
+Load from URL...::Ielādēt no URL...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::Ielādējiet lokālo M3U/JSON failu — izmantojot pogu Ielādēt failu (rīkjoslu) vai redaktorā Atvērt failu.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::Ielādēt tiešsaistē M3U/JSON URL — poga “Ielādēt tiešsaistē” (rīkjoslā) vai “Atvērt no URL” redaktorā.
+Load Playlist::Ielādēt atskaņošanas sarakstu
+Load playlist file (M3U/JSON) from your computer::Ielādējiet atskaņošanas saraksta failu (M3U/JSON) no sava datora
+Loaded::Ielādēts
+Loaded {0} channels from JSON file via mapping.::Ielādēti {0} kanāli no JSON faila, izmantojot kartēšanu.
+Loaded {0} channels from JSON URL.::Ielādēti {0} kanāli no JSON URL.
+Loaded {0} channels from M3U file.::Ielādēti {0} kanāli no M3U faila.
+Loaded {0} channels from M3U URL.::Ielādēti {0} kanāli no M3U URL.
+Loading...::Notiek ielāde...
+Logo::Logotips
+Logo Picker – in editor, click '...' to choose logo from gallery.::Logotipa atlasītājs — redaktorā noklikšķiniet uz '...', lai izvēlētos logotipu no galerijas.
+Logo Preview::Logotipa priekšskatījums
+Logo URL::Logotipa URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).::Logotipi — automātiski lejupielādējiet no GitHub krātuves (Iestatījumi → Logotipu avots).
+Logos Matching Threshold::Logotipu atbilstības slieksnis
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::Logotipu repozitorijs — izvēlieties īpašnieku/repo/ceļu (noklusējuma OwnerPlugins/logos).
+Logos Source::Logotipu avots
+Logos Subfolder::Logotipu apakšmape
+M3U::M3U
+M3U parsing error: {0}::M3U parsēšanas kļūda: {0}
+Map JSON properties to channel fields:::Kartēt JSON rekvizītus ar kanāla laukiem:
+Mapping saved for future imports of this file.::Kartēšana saglabāta turpmākai šī faila importēšanai.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::Atbilstības sliekšņi — iestatiet neskaidras atbilstības jutīgumu EPG un logotipiem.
+Mini Player::Mini atskaņotājs
+Move to Group::Pāriet uz grupu
+Moved::Pārvietots
+Name::Vārds
+Nanoid::Nanoīds
+Network error::Tīkla kļūda
+New Playlist::Jauns atskaņošanas saraksts
+Next::Tālāk
+Next ▶::Nākamais ▶
+No .m3u files found on GitHub repository.::GitHub repozitorijā netika atrasts neviens .m3u fails.
+No cache folder found.::Kešatmiņas mape nav atrasta.
+No channel selected::Nav atlasīts neviens kanāls
+No channel selected.::Nav atlasīts neviens kanāls.
+No channels could be mapped or import cancelled.::Nevarēja kartēt kanālu vai atcelt importēšanu.
+No channels could be mapped. Check your mapping rules.::Nevarēja kartēt nevienu kanālu. Pārbaudiet savus kartēšanas noteikumus.
+No channels found in JSON.::JSON nav atrasts neviens kanāls.
+No channels found in M3U.::M3U nav atrasts neviens kanāls.
+No channels loaded from JSON URL.::No JSON URL nav ielādēts neviens kanāls.
+No channels loaded from M3U URL.::No M3U URL nav ielādēts neviens kanāls.
+No channels loaded from M3U.::No M3U nav ielādēts neviens kanāls.
+No channels loaded.::Nav ielādēts neviens kanāls.
+No channels mapped::Nav kartētu kanālu
+No channels selected.::Nav atlasīts neviens kanāls.
+No channels to import.::Nav importējamu kanālu.
+No duplicate URLs found.::Nav atrasti dublikāti URL.
+No EPG data::Nav EPG datu
+No EPG information available for this channel.::Šim kanālam nav pieejama EPG informācija.
+No EPG source configured. Please select one from the combo or go to Settings.::Nav konfigurēts neviens EPG avots. Lūdzu, atlasiet vienu no kombinācijas vai atveriet sadaļu Iestatījumi.
+No EPG source configured. Would you like to open settings to select one?::Nav konfigurēts neviens EPG avots. Vai vēlaties atvērt iestatījumus, lai atlasītu vienu?
+No favorite channels found.::Nav atrasts neviens iecienītākais kanāls.
+No favorite channels to export.::Nav iecienītu kanālu, ko eksportēt.
+No missing channels to export.::Eksportējamo kanālu trūkst.
+No playlist found::Nav atrasts neviens atskaņošanas saraksts
+No second playlist loaded.::Nav ielādēts otrs atskaņošanas saraksts.
+No stream URL available for this channel.::Šim kanālam nav pieejams neviens straumes URL.
+No text to import.::Nav teksta, ko importēt.
+No updates available.::Nav pieejami atjauninājumi.
+Normal speed (1x)::Normāls ātrums (1x)
+Not connected to the box.::Nav savienots ar kasti.
+Now::Tagad
+OK::Labi
+Online Playlist::Tiešsaistes atskaņošanas saraksts
+Online playlist – select from GitHub repository (auto‑refresh).::Tiešsaistes atskaņošanas saraksts — atlasiet no GitHub repozitorijas (automātiskā atsvaidzināšana).
+Only in First::Tikai pirmajā
+Only in Second::Tikai otrajā
+Open File...::Atvērt failu...
+Open from URL::Atvērt no URL
+Open Playlist::Atveriet atskaņošanas sarakstu
+Pause/Resume live stream::Apturēt/atsākt tiešraides straumi
+Paused::Pauzēts
+PayPal::PayPal
+Picture-in-Picture mode::Attēls attēlā režīms
+Play/Pause::Atskaņot/Pauzēt
+Player Media Controls::Atskaņotāja multivides vadīklas
+Playing Media::Multivides atskaņošana
+Playlist & Groups::Atskaņošanas saraksts un grupas
+Playlist closed::Atskaņošanas saraksts ir aizvērts
+Playlist Comparison::Atskaņošanas sarakstu salīdzinājums
+Playlist Editor::Atskaņošanas sarakstu redaktors
+Playlist Loading::Notiek atskaņošanas saraksta ielāde
+Playlist Management::Atskaņošanas sarakstu pārvaldība
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::Atskaņošanas sarakstu krātuve: OwnerPlugins/TivuStreamList (itāļu un starptautiskās straumes)
+Please select a program first.::Lūdzu, vispirms atlasiet programmu.
+Preview (first 5 channels)::Priekšskatījums (pirmie 5 kanāli)
+Preview error: {0}::Priekšskatījuma kļūda: {0}
+Program Details::Programmas informācija
+Ready::Gatavs
+Recent::Nesen
+Recent files – quick access to last 5 opened playlists.::Jaunākie faili — ātra piekļuve pēdējiem 5 atvērtajiem atskaņošanas sarakstiem.
+Recent playlists::Jaunākie atskaņošanas saraksti
+Refresh Code::Atsvaidzināt kodu
+Refresh EPG::Atsvaidziniet EPG
+Refresh EPG List::Atsvaidziniet EPG sarakstu
+Refresh from GitHub::Atsvaidziniet no GitHub
+Refresh List::Atsvaidzināt sarakstu
+Reload GUI::Pārlādēt GUI
+Remove Command::Noņemt komandu
+Rename Group::Pārdēvēt grupu
+Rename group '{0}' to:::Pārdēvēt grupu “{0}” uz:
+Repository::Repozitorijs
+Reset Order::Atiestatīt pasūtījumu
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::Rezultāti: 'Tikai pirmajā', 'Tikai otrajā', 'Abās' – ar statusa krāsu kodējumu.
+Save::Saglabāt
+SAVE::SAGLABĀT
+Save – persists all settings without reloading current playlist.::Saglabāt — saglabā visus iestatījumus, nepārlādējot pašreizējo atskaņošanas sarakstu.
+Save as...::Saglabāt kā...
+Save current playlist to a new M3U file::Saglabājiet pašreizējo atskaņošanas sarakstu jaunā M3U failā
+Save Favorites::Saglabāt izlasi
+Save Mapping::Saglabāt kartēšanu
+Save Playlist::Saglabāt atskaņošanas sarakstu
+Save Status::Saglabāt statusu
+Saved::Saglabāts
+Search channel::Meklēt kanālu
+Search channels by name::Meklējiet kanālus pēc nosaukuma
+Search channels...::Meklēt kanālus...
+sec::sek
+Second playlist loaded: {0} channels::Otrais ielādēts atskaņošanas saraksts: {0} kanāli
+Select a channel to play.::Atlasiet atskaņojamo kanālu.
+Select a playlist first.::Vispirms atlasiet atskaņošanas sarakstu.
+Select target group:::Izvēlieties mērķa grupu:
+Select Theme::Izvēlieties Motīvu
+Selected theme is saved and applied on restart.::Atlasītais motīvs tiek saglabāts un lietots restartējot.
+Send::Sūtīt
+Send playlist to Enigma2 decoder::Nosūtiet atskaņošanas sarakstu uz Enigma2 dekodētāju
+Send to Enigma2::Nosūtiet uz Enigma2
+Settings::Iestatījumi
+Show List::Rādīt sarakstu
+Show only channels marked as favorites::Rādīt tikai kanālus, kas atzīmēti kā iecienītākie
+Show or hide the channel list::Rādīt vai paslēpt kanālu sarakstu
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::Īpašs paldies CORVOBOYS un LinuxSat-Support kopienām par testēšanu un atbalstu.
+Start::Sākt
+Status::Statuss
+Stop::Stop
+Stopped::Apstājās
+Stream URL::Straumes URL
+Stream URLs::Straumējiet URL
+Success::Panākumi
+Support::Atbalsts
+Support the developer::Atbalstiet izstrādātāju
+Target Field::Mērķa lauks
+Telnet command:::Telnet komanda:
+Telnet Commander::Telnet komandieris
+Telnet Config::Telnet konfigurācija
+Telnet Configuration::Telnet konfigurācija
+Telnet Console::Telnet konsole
+Telnet host not configured. Please set it in Settings.::Telnet resursdators nav konfigurēts. Lūdzu, iestatiet to sadaļā Iestatījumi.
+Telnet password is empty. Do you want to continue?::Telnet parole ir tukša. Vai vēlaties turpināt?
+Telnet username not configured. Please set it in Settings.::Telnet lietotājvārds nav konfigurēts. Lūdzu, iestatiet to sadaļā Iestatījumi.
+Thanks to::Pateicoties
+Theme picker::Motīvu atlasītājs
+Theme picker – accessible via Tools menu on main toolbar.::Motīvu atlasītājs — pieejams galvenās rīkjoslas izvēlnē Rīki.
+Themes::Tēmas
+Time::Laiks
+Title::Nosaukums
+Tools::Rīki
+Total::Kopā
+Total channels in loaded playlist::Kopējais kanālu skaits ielādētajā atskaņošanas sarakstā
+TV Guide (EPG)::TV ceļvedis (EPG)
+TvgId::TvgId
+Type channel name to filter::Ievadiet filtrējamā kanāla nosaukumu
+UI: MaterialDesignThemes.Wpf::UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::Nevar automātiski noteikt formātu. Lūdzu, nolaižamajā izvēlnē atlasiet JSON vai M3U un mēģiniet vēlreiz.
+Unable to find version in remote project file.::Attālā projekta failā nevar atrast versiju.
+Unsupported format. Please select JSON or M3U.::Neatbalstīts formāts. Lūdzu, atlasiet JSON vai M3U.
+Update::Atjaunināt
+Update complete. Restarting...::Atjaunināšana pabeigta. Notiek restartēšana...
+Update Error::Atjaunināšanas kļūda
+Update failed: ::Atjaunināšana neizdevās:
+Updated::Atjaunināts
+Updates::Atjauninājumi
+Upload Error::Augšupielādes kļūda
+URL::URL
+URL (primary)::URL (galvenais)
+URL Check::URL pārbaude
+URL list (one per line)::URL saraksts (viens katrā rindā)
+URLs & Status::URL un statuss
+Version::Versija
+Version {0}.{1}.{2}::Versija {0}.{1}.{2}
+Version unknown::Versija nav zināma
+Waiting for LiveGardenTVPlus to close...::Gaida LiveGardenTVPlus aizvēršanu...
+Warning::Brīdinājums
+WebView2: Microsoft Edge WebView2::WebView2: Microsoft Edge WebView2
+Youtube URL::Youtube URL
+Youtube URLs::Youtube vietrāži URL

@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): (Popolnoma prostovoljno – nobena funkcija ni blokirana)
-(No description): (brez opisa)
-• Add / rename / delete groups.: • Dodajanje/preimenovanje/brisanje skupin.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Drsnik medpomnilnika: prilagodite medpomnilnik HLS (1–10 sekund).
-• Check URL availability (only visible channels).: • Preverite razpoložljivost URL (samo vidni kanali).
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Uredite imena kanalov, skupine, URL-je, logotipe, tvg-id, državo, jezike, priljubljene.
-• Edit multiple URLs per channel (popup window).: • Uredite več URL-jev na kanal (pojavno okno).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Obogati z EPG: doda manjkajoči tvg-id z uporabo mehkega ujemanja.
-• EPG info displayed in status bar for current channel.: • EPG informacije, prikazane v vrstici stanja za trenutni kanal.
-• Export OK / FAIL / filtered lists as M3U or JSON.: • Izvoz OK / FAIL / filtriranih seznamov kot M3U ali JSON.
-• Fetch logos from remote repository (OwnerPlugins/logos).: • Pridobite logotipe iz oddaljenega repozitorija (OwnerPlugins/logotipi).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Celozaslonski uporabniški vmesnik: skrije stransko vrstico in vrstico stanja (ESC za izhod).
-• Hide/Show channel list button.: • Gumb Skrij/prikaži seznam kanalov.
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Uvoz JSON (lokalni ali URL) s prilagodljivim preslikavo polj (samodejno zaznavanje, shranjevanje preslikave).
-• Picture‑in‑Picture (PIP) button.: • Gumb za sliko v sliki (PIP).
-• Playback speed: 0.5x, 1x, 2x buttons.: • Hitrost predvajanja: gumbi 0,5x, 1x, 2x.
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Razvrstite poljuben stolpec s klikom na glavo; uporabite 'Ponastavi vrstni red', da se vrnete na prvotni vrstni red.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Časovni zamik: začasno ustavite pretakanje v živo; povlecite drsnik za iskanje nazaj; pritisnite 'V živo' za vrnitev.
-▶ Play Media: ▶ Predvajaj medije
-◀ Previous: ◀ Prejšnji
-16 colour themes + Light/Dark variants.: 16 barvnih tem + svetle/temne različice.
-A new version is available. Do you want to update now?: Na voljo je nova različica. Ali želite posodobiti zdaj?
-Access via 'Compare' button in Playlist Editor or Tools menu.: Dostop prek gumba »Primerjaj« v urejevalniku seznama predvajanja ali v meniju Orodja.
-Access via 'Edit Playlist' button on main toolbar.: Dostop prek gumba 'Uredi seznam predvajanja' v glavni orodni vrstici.
-Actions: Dejanja
-Add Command: Dodaj ukaz
-Add Group: Dodaj skupino
-Add Mapping: Dodaj preslikavo
-Adjust buffer size (1-10 seconds): Prilagodite velikost medpomnilnika (1–10 sekund)
-Advanced IDs: Napredni ID-ji
-Application status: Stanje aplikacije
-Apply: Prijavite se
-Apply / Import: Uporabi / uvozi
-Apply changes: Uporabi spremembe
-Apply Filters: Uporabi filtre
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Ali ste prepričani, da želite znova naložiti Enigma2 GUI?\n\nVmesnik se bo znova zagnal (črn zaslon za nekaj sekund).
-Auto (recommended): Samodejno (priporočeno)
-Auto-detect: Samodejno zaznaj
-Automatic check on startup – or click 'Check for updates' in Tools menu.: Samodejno preverjanje ob zagonu – ali kliknite »Preveri posodobitve« v meniju Orodja.
-Bouquet Name: Ime šopka
-Bouquet sent and Enigma2 channel list reloaded.: Šopek poslan in seznam kanalov Enigma2 ponovno naložen.
-Buffer (seconds): Medpomnilnik (sekunde)
-Buffer size – adjust HLS buffer seconds.: Velikost medpomnilnika – prilagodite sekunde medpomnilnika HLS.
-Cache: Predpomnilnik
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Mapa predpomnilnika: %TEMP%\\LiveGardenTVPlus\\epg_cache
-Cancel: Prekliči
-CANCEL: PREKLIC
-Cannot open browser: Brskalnika ni mogoče odpreti
-Category: Kategorija
-Changelog: Dnevnik sprememb
-Channel Details: Podrobnosti kanala
-Channel Down: Channel Down
-Channel Info: Informacije o kanalu
-Channel Name: Ime kanala
-Channel Up: Kanal gor
-channels from: kanali iz
-channels from JSON: kanalov iz JSON
-channels from JSON URL: kanalov iz JSON URL
-channels from URL: kanalov iz naslova URL
-Check Duplicates: Preverite dvojnike
-Check for updates: Preverite posodobitve
-Check URLs: Preverite URL-je
-Clear: jasno
-Clear EPG Cache: Počisti predpomnilnik EPG
-Clear Filters: Počisti filtre
-Clear search: Počisti iskanje
-Click for details: Kliknite za podrobnosti
-Close: Zapri
-Code: Koda
-Code copied to clipboard.: Koda je bila kopirana v odložišče.
-Command name:: Ime ukaza:
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Skupnost in testiranje: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
-Compare: Primerjaj
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Primerjajte po: Priority (ime→group→tvg-id), Name, Group (razlikuje med velikimi in malimi črkami) ali TvgId.
-Compare Playlists: Primerjajte sezname predvajanja
-Compare two playlists – load first (current playlist) and second (from file or URL).: Primerjajte dva seznama predvajanja – naložite prvega (trenutni seznam predvajanja) in drugega (iz datoteke ali URL-ja).
-Compare...: Primerjaj...
-Comparison results: {0} channels: Rezultati primerjave: {0} kanalov
-Configuration Missing: Manjka konfiguracija
-Confirm Delete: Potrdite Izbriši
-Confirm Reload: Potrdite ponovno nalaganje
-Connect: Povežite se
-Connected: Povezan
-Copied: Kopirano
-Copy: Kopiraj
-CORVOBOYS.ORG: CORVOBOYS.ORG
-Country: Država
-Credits: Krediti
-Delete channel '{0}'?: Želite izbrisati kanal '{0}'?
-Delete Group: Izbriši skupino
-Delete Selected: Izbriši izbrano
-Deleted: Izbrisano
-Description: Opis
-Details: Podrobnosti
-Developed by Lululla: Razvil Lululla
-Developer: Lululla: Razvijalec: Lululla
-Disconnect: Prekini povezavo
-Disconnected: Prekinjena povezava
-Display as: : Prikaži kot:
-Do you want to load this edited playlist now?: Ali želite zdaj naložiti ta urejeni seznam predvajanja?
-Double speed (2x): Dvojna hitrost (2x)
-Downloading playlist...: Prenašanje seznama predvajanja ...
-Downloads ZIP, replaces files, restarts app – settings preserved.: Prenese ZIP, zamenja datoteke, znova zažene aplikacijo – nastavitve ohranjene.
-Drag & drop – drop M3U or JSON files directly onto main window.: Povleci in spusti – datoteke M3U ali JSON spustite neposredno v glavno okno.
-Drag to seek back in buffer: Povlecite za iskanje nazaj v medpomnilniku
-Duplicate URLs found:\n\n: Najdeni podvojeni URL-ji:\n\n
-Edit Command: Uredi ukaz
-Edit command name:: Uredi ime ukaza:
-Edit Playlist: Uredi seznam predvajanja
-Edit telnet command:: Uredi ukaz telnet:
-Edit URLs: Uredite URL-je
-Empty Password: Prazno geslo
-End: Konec
-Enrich with EPG: Obogatite z EPG
-Enter bouquet name (without spaces):: Vnesite ime šopka (brez presledkov):
-Enter JSON URL:: Vnesite JSON URL:
-Enter new group name:: Vnesite novo ime skupine:
-Enter playlist URL (JSON or M3U):: Vnesite URL seznama predvajanja (JSON ali M3U):
-Enter playlist URL (M3U or JSON):: Vnesite URL seznama predvajanja (M3U ali JSON):
-EPG: EPG
-Epg & Favorites: EPG & Priljubljene
-EPG & Favorites: EPG & Priljubljene
-Epg & Logos: EPG in logotipi
-EPG & Logos: EPG in logotipi
-EPG cache cleared successfully.: Predpomnilnik EPG je bil uspešno počiščen.
-EPG Details: EPG Podrobnosti
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Guide – gumb v glavni orodni vrstici prikazuje celotno mrežo s podrobnostmi o programu (dvokliknite za informacije).
-EPG Matching Threshold: Prag ujemanja EPG
-EPG Source: : Vir EPG:
-EPG source – can be set in Settings (epgshare01 or custom URL).: Vir EPG – lahko nastavite v nastavitvah (epgshare01 ali URL po meri).
-EPG source – choose XMLTV file or enter custom URL.: Vir EPG – izberite datoteko XMLTV ali vnesite URL po meri.
-EPG Source Missing: Manjka vir EPG
-Error: Napaka
-Error clearing cache: {0}: Napaka pri čiščenju predpomnilnika: {0}
-Error loading: Napaka pri nalaganju
-Error loading EPG list: {0}: Napaka pri nalaganju seznama EPG: {0}
-Error loading file: {0}: Napaka pri nalaganju datoteke: {0}
-Error loading playlists: {0}: Napaka pri nalaganju seznamov predvajanja: {0}
-Error loading URL: {0}: Napaka pri nalaganju URL-ja: {0}
-ERROR: player.html not found.: NAPAKA: player.html ni najden.
-Exit: Izhod
-Export all: Izvozi vse
-Export Favorites: Izvoz priljubljenih
-Export Filtered JSON: Izvozi filtriran JSON
-Export Filtered M3U: Izvoz filtriranega M3U
-Export JSON: Izvoz JSON
-Export KO: Izvoz KO
-Export missing: Manjka izvoz
-Export OK: Izvoz OK
-Export only favorite channels to a new M3U file: Izvozite samo priljubljene kanale v novo datoteko M3U
-Export results as JSON or M3U – export missing channels or all channels.: Izvoz rezultatov kot JSON ali M3U – izvoz manjkajočih kanalov ali vseh kanalov.
-Export selected: Izvoz izbran
-Export Selected: Izvozi izbrano
-Exported: Izvoženo
-Exported {0} channels to {1}: Izvoženih {0} kanalov v {1}
-Extracting update...: Ekstrahiranje posodobitve ...
-Failed to download playlist: Prenos seznama predvajanja ni uspel
-Failed to load playlist: Seznama predvajanja ni bilo mogoče naložiti
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Posodobitev bouquets.tv ni uspela. Preverite dovoljenja za datoteke v napravi Enigma2.
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Nalaganje šopka ni uspelo. Preverite nastavitve Telneta (gostitelj, vrata, uporabniško ime, geslo) in poskusite znova.
-Favorite: Najljubša
-Favorites only: Samo priljubljene
-Fetch Logos: Pridobi logotipe
-File {0} already exists. Overwrite?: Datoteka {0} že obstaja. Prepisati?
-File exists: Datoteka obstaja
-Filters: Filtri
-Format Detection: Zaznavanje formata
-Fullscreen: Cel zaslon
-Fullscreen (hide UI) - press ESC to exit: Celozaslonski način (skrij uporabniški vmesnik) - pritisnite ESC za izhod
-Geo & Country: Geo in država
-GeoBlocked: GeoBlocked
-GitHub Error: Napaka GitHub
-Go back to live: Pojdi nazaj v življenje
-Grid: Mreža
-Group: skupina
-Half speed (0.5x): Polovična hitrost (0,5x)
-Help: pomoč
-Hide List: Skrij seznam
-HLS playback: hls.js (MIT license): HLS predvajanje: hls.js (licenca MIT)
-Image: Slika
-Import: Uvozi
-Import cancelled or no channels mapped.: Uvoz je bil preklican ali noben kanal ni preslikan.
-Import Error: Napaka pri uvozu
-Import error: {0}: Napaka pri uvozu: {0}
-Import from URL: Uvoz iz URL-ja
-Import JSON: Uvoz JSON
-Import JSON from URL: Uvozi JSON iz URL-ja
-Import Local: Uvozi lokalno
-Imported {0} channels from code.: Uvoženih {0} kanalov iz kode.
-Imported {0} channels from JSON via mapping.: Uvoženih {0} kanalov iz JSON prek preslikave.
-Imported {0} channels from URL.: Uvoženih {0} kanalov iz naslova URL.
-In Both: V obeh
-Info: Informacije
-Info on: Informacije o
-Invalid JSON: {0}: Neveljaven JSON: {0}
-Invalid playlist URL.: Neveljaven URL seznama predvajanja.
-Invalid URL.: Neveljaven URL.
-Json: Json
-JSON: JSON
-JSON parsing error: {0}: Napaka pri razčlenjevanju JSON: {0}
-JSON Property: Lastnost JSON
-Ko-fi: kava
-Language: Jezik
-Language – change UI language dynamically (translations in Languages folder).: Jezik – dinamično spreminjanje jezika uporabniškega vmesnika (prevodi v mapi Jeziki).
-Languages: Jeziki
-Languages (comma): Jeziki (vejica)
-LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help: Pomoč LiveGardenTVPlus
-LOAD: NALOŽITEV
-Load a playlist first.: Najprej naložite seznam predvajanja.
-Load a second playlist first.: Najprej naložite drugi seznam predvajanja.
-Load File: Naloži datoteko
-Load from file...: Naloži iz datoteke ...
-Load from URL: Naloži iz URL-ja
-Load from URL...: Naloži iz URL-ja ...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Naloži lokalno datoteko M3U/JSON – prek gumba »Naloži datoteko« (orodna vrstica) ali »Odpri datoteko« v urejevalniku.
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Spletno nalaganje URL-ja M3U/JSON – gumb »Naloži prek spleta« (orodna vrstica) ali »Odpri iz URL-ja« v urejevalniku.
-Load playlist file (M3U/JSON) from your computer: Naložite datoteko seznama predvajanja (M3U/JSON) iz računalnika
-Loaded: Naloženo
-Loaded {0} channels from JSON file via mapping.: Naloženih {0} kanalov iz datoteke JSON prek preslikave.
-Loaded {0} channels from JSON URL.: Naloženih {0} kanalov iz URL-ja JSON.
-Loaded {0} channels from M3U file.: Naloženih {0} kanalov iz datoteke M3U.
-Loaded {0} channels from M3U URL.: Naloženih {0} kanalov z URL-ja M3U.
-Loading...: Nalaganje...
-Logo: Logotip
-Logo Picker – in editor, click '...' to choose logo from gallery.: Izbirnik logotipa – v urejevalniku kliknite "...", da izberete logotip iz galerije.
-Logo Preview: Predogled logotipa
-Logo URL: URL logotipa
-Logos – automatically download from GitHub repository (Settings → Logos Source).: Logotipi – samodejni prenos iz repozitorija GitHub (Nastavitve → Izvor logotipov).
-Logos Matching Threshold: Prag ujemanja logotipov
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Repozitorij logotipov – izberite lastnika/repo/pot (privzeti OwnerPlugins/logotipi).
-Logos Source: Izvor logotipov
-Logos Subfolder: Podmapa Logotipi
-M3U: M3U
-M3U parsing error: {0}: Napaka pri razčlenjevanju M3U: {0}
-Map JSON properties to channel fields:: Preslikaj lastnosti JSON v polja kanala:
-Mapping saved for future imports of this file.: Preslikava je shranjena za prihodnje uvoze te datoteke.
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Pragovi ujemanja – nastavite občutljivost mehkega ujemanja za EPG in logotipe.
-Mini Player: Mini predvajalnik
-Move to Group: Premakni se v skupino
-Moved: Premaknjen
-Name: Ime
-Nanoid: Nanoid
-Network error: Omrežna napaka
-New Playlist: Nov seznam predvajanja
-Next: Naprej
-Next ▶: Naprej ▶
-No .m3u files found on GitHub repository.: V repozitoriju GitHub ni bilo mogoče najti datotek .m3u.
-No cache folder found.: Nobena predpomnilniška mapa ni bila najdena.
-No channel selected: Izbran ni noben kanal
-No channels could be mapped or import cancelled.: Nobenega kanala ni bilo mogoče preslikati ali uvoza preklicati.
-No channels could be mapped. Check your mapping rules.: Nobenega kanala ni bilo mogoče preslikati. Preverite svoja pravila za preslikavo.
-No channels found in JSON.: V JSON ni bilo mogoče najti nobenih kanalov.
-No channels found in M3U.: V M3U ni bilo mogoče najti nobenega kanala.
-No channels loaded from JSON URL.: Iz URL-ja JSON ni naložen noben kanal.
-No channels loaded from M3U URL.: Z URL-ja M3U ni naložen noben kanal.
-No channels loaded from M3U.: Iz M3U ni naložen noben kanal.
-No channels loaded.: Ni naloženih kanalov.
-No channels mapped: Ni preslikanih kanalov
-No channels selected.: Ni izbranih kanalov.
-No channels to import.: Ni kanalov za uvoz.
-No duplicate URLs found.: Ni podvojenih URL-jev.
-No EPG data: Ni podatkov EPG
-No EPG information available for this channel.: Za ta kanal ni na voljo nobenih informacij EPG.
-No EPG source configured. Please select one from the combo or go to Settings.: Vir EPG ni konfiguriran. Izberite eno iz kombinacije ali pojdite v Nastavitve.
-No EPG source configured. Would you like to open settings to select one?: Vir EPG ni konfiguriran. Ali želite odpreti nastavitve in izbrati enega?
-No favorite channels to export.: Ni priljubljenih kanalov za izvoz.
-No missing channels to export.: Ni manjkajočih kanalov za izvoz.
-No playlist found: Ni seznama predvajanja
-No second playlist loaded.: Drugi seznam predvajanja ni naložen.
-No stream URL available for this channel.: Za ta kanal ni na voljo URL-ja toka.
-No text to import.: Ni besedila za uvoz.
-No updates available.: Na voljo ni nobenih posodobitev.
-Normal speed (1x): Normalna hitrost (1x)
-Not connected to the box.: Ni povezan s škatlo.
-Now: zdaj
-OK: OK
-Online Playlist: Spletni seznam predvajanja
-Online playlist – select from GitHub repository (auto‑refresh).: Spletni seznam predvajanja – izberite iz repozitorija GitHub (samodejno osveževanje).
-Only in First: Samo v Prvi
-Only in Second: Samo v drugem
-Open File...: Odpri datoteko ...
-Open from URL: Odpri iz URL-ja
-Open Playlist: Odpri seznam predvajanja
-Pause/Resume live stream: Začasno ustavi/nadaljuj pretočno predvajanje v živo
-Paused: Zaustavljeno
-PayPal: PayPal
-Picture-in-Picture mode: Način slika v sliki
-Play/Pause: Predvajaj/Premor
-Player Media Controls: Kontrolniki predstavnosti predvajalnika
-Playing Media: Predvajanje medijev
-Playlist & Groups: Seznam predvajanja in skupine
-Playlist Comparison: Primerjava seznama predvajanja
-Playlist Editor: Urejevalnik seznamov predvajanja
-Playlist Loading: Seznam predvajanja se nalaga
-Playlist Management: Upravljanje seznama predvajanja
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Repozitorij seznamov predvajanja: OwnerPlugins/TivuStreamList (italijanski in mednarodni tokovi)
-Please select a program first.: Najprej izberite program.
-Preview (first 5 channels): Predogled (prvih 5 kanalov)
-Preview error: {0}: Napaka predogleda: {0}
-Program Details: Podrobnosti programa
-Ready: pripravljena
-Ready.: pripravljena
-Recent: Nedavno
-Recent files – quick access to last 5 opened playlists.: Nedavne datoteke – hiter dostop do zadnjih 5 odprtih seznamov predvajanja.
-Recent playlists: Nedavni seznami predvajanja
-Refresh Code: Osveži kodo
-Refresh EPG: Osveži EPG
-Refresh EPG List: Osveži seznam EPG
-Refresh from GitHub: Osveži iz GitHub
-Refresh List: Osveži seznam
-Reload GUI: Ponovno naloži GUI
-Remove Command: Odstrani ukaz
-Rename Group: Preimenuj skupino
-Rename group '{0}' to:: Preimenuj skupino '{0}' v:
-Repository: Repozitorij
-Reset Order: Ponastavi naročilo
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Rezultati: 'Samo v prvem', 'Samo v drugem', 'V obeh' – z barvnim kodiranjem stanja.
-Save: Shrani
-SAVE: SHRANI
-Save – persists all settings without reloading current playlist.: Shrani – ohrani vse nastavitve brez ponovnega nalaganja trenutnega seznama predvajanja.
-Save as...: Shrani kot...
-Save current playlist to a new M3U file: Shranite trenutni seznam predvajanja v novo datoteko M3U
-Save Mapping: Shrani preslikavo
-Save Playlist: Shrani seznam predvajanja
-Save Status: Shrani stanje
-Saved: Shranjeno
-Search channel: : Išči kanal:
-Search channels by name: Iskanje kanalov po imenu
-Search channels...: Iskanje kanalov ...
-sec: sek
-Second playlist loaded: {0} channels: Naložen drugi seznam predvajanja: {0} kanalov
-Select a channel to play.: Izberite kanal za predvajanje.
-Select a playlist first.: Najprej izberite seznam predvajanja.
-Select target group:: Izberite ciljno skupino:
-Select Theme: Izberite Tema
-Selected theme is saved and applied on restart.: Izbrana tema se shrani in uporabi ob ponovnem zagonu.
-Send: Pošlji
-Send playlist to Enigma2 decoder: Pošlji seznam predvajanja v dekoder Enigma2
-Send to Enigma2: Pošlji na Enigmo2
-Settings: nastavitve
-Show List: Pokaži seznam
-Show only channels marked as favorites: Prikaži samo kanale, označene kot priljubljene
-Show or hide the channel list: Prikaži ali skrij seznam kanalov
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Posebna zahvala skupnostim CORVOBOYS & LinuxSat-Support za testiranje in podporo.
-Start: Začetek
-Status: Stanje
-Stop: Stop
-Stopped: ustavil
-Stream URL: URL toka
-Stream URLs: Pretočni URL-ji
-Success: Uspeh
-Support: Podpora
-Support the developer: Podprite razvijalca
-Target Field: Ciljno polje
-Telnet command:: Telnet ukaz:
-Telnet Commander: Telnet Commander
-Telnet Config: Telnet Config
-Telnet Console: Konzola Telnet
-Telnet host not configured. Please set it in Settings.: Telnet gostitelj ni konfiguriran. Nastavite ga v nastavitvah.
-Telnet password is empty. Do you want to continue?: Geslo Telnet je prazno. Želite nadaljevati?
-Telnet username not configured. Please set it in Settings.: Telnet uporabniško ime ni konfigurirano. Nastavite ga v nastavitvah.
-Thanks to: Hvala za
-Theme picker: Izbirnik tem
-Theme picker – accessible via Tools menu on main toolbar.: Izbirnik tem – dostopen prek menija Orodja v glavni orodni vrstici.
-Themes: Teme
-Time: Čas
-Title: Naslov
-Tools: Orodja
-Total: Skupaj
-Total channels in loaded playlist: Skupno število kanalov na naloženem seznamu predvajanja
-TV Guide (EPG): TV-vodnik (EPG)
-TvgId: TvgId
-Type channel name to filter: Vnesite ime kanala za filtriranje
-UI: MaterialDesignThemes.Wpf: Uporabniški vmesnik: MaterialDesignThemes.Wpf
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Formata ni mogoče samodejno zaznati. V spustnem meniju izberite JSON ali M3U in poskusite znova.
-Unable to find version in remote project file.: Ni mogoče najti različice v datoteki oddaljenega projekta.
-Unsupported format. Please select JSON or M3U.: Nepodprta oblika. Izberite JSON ali M3U.
-Update: posodobitev
-Update complete. Restarting...: Posodobitev končana. Ponovni zagon ...
-Update Error: Napaka posodobitve
-Update failed: : Posodobitev ni uspela:
-Updates: Posodobitve
-Upload Error: Napaka pri nalaganju
-URL: URL
-URL (primary): URL (primarni)
-URL Check: Preveri URL
-URL list (one per line): Seznam URL-jev (eden na vrstico)
-URLs & Status: URL-ji in stanje
-Version: Različica
-Version {0}.{1}.{2}: Različica {0}.{1}.{2}
-Version unknown: Različica neznana
-Waiting for LiveGardenTVPlus to close...: Čakam, da se LiveGardenTVPlus zapre ...
-Warning: Opozorilo
-WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
-Youtube URL: Youtube URL
-Youtube URLs: Youtube URL-ji
+(Completely voluntary – no features are blocked)::(Popolnoma prostovoljno – nobena funkcija ni blokirana)
+(No description)::(brez opisa)
+• Add / rename / delete groups.::• Dodajanje/preimenovanje/brisanje skupin.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• Drsnik medpomnilnika: prilagodite medpomnilnik HLS (1–10 sekund).
+• Check URL availability (only visible channels).::• Preverite razpoložljivost URL (samo vidni kanali).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• Uredite imena kanalov, skupine, URL-je, logotipe, tvg-id, državo, jezike, priljubljene.
+• Edit multiple URLs per channel (popup window).::• Uredite več URL-jev na kanal (pojavno okno).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• Obogati z EPG: doda manjkajoči tvg-id z uporabo mehkega ujemanja.
+• EPG info displayed in status bar for current channel.::• EPG informacije, prikazane v vrstici stanja za trenutni kanal.
+• Export OK / FAIL / filtered lists as M3U or JSON.::• Izvoz OK / FAIL / filtriranih seznamov kot M3U ali JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).::• Pridobite logotipe iz oddaljenega repozitorija (OwnerPlugins/logotipi).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• Celozaslonski uporabniški vmesnik: skrije stransko vrstico in vrstico stanja (ESC za izhod).
+• Hide/Show channel list button.::• Gumb Skrij/prikaži seznam kanalov.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• Uvoz JSON (lokalni ali URL) s prilagodljivim preslikavo polj (samodejno zaznavanje, shranjevanje preslikave).
+• Picture‑in‑Picture (PIP) button.::• Gumb za sliko v sliki (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.::• Hitrost predvajanja: gumbi 0,5x, 1x, 2x.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• Razvrstite poljuben stolpec s klikom na glavo; uporabite 'Ponastavi vrstni red', da se vrnete na prvotni vrstni red.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• Časovni zamik: začasno ustavite pretakanje v živo; povlecite drsnik za iskanje nazaj; pritisnite 'V živo' za vrnitev.
+▶ Play Media::▶ Predvajaj medije
+◀ Previous::◀ Prejšnji
+16 colour themes + Light/Dark variants.::16 barvnih tem + svetle/temne različice.
+A new version is available. Do you want to update now?::Na voljo je nova različica. Ali želite posodobiti zdaj?
+Access via 'Compare' button in Playlist Editor or Tools menu.::Dostop prek gumba »Primerjaj« v urejevalniku seznama predvajanja ali v meniju Orodja.
+Access via 'Edit Playlist' button on main toolbar.::Dostop prek gumba 'Uredi seznam predvajanja' v glavni orodni vrstici.
+Actions::Dejanja
+Add Command::Dodaj ukaz
+Add Group::Dodaj skupino
+Add Mapping::Dodaj preslikavo
+Adjust buffer size (1-10 seconds)::Prilagodite velikost medpomnilnika (1–10 sekund)
+Advanced IDs::Napredni ID-ji
+All channels marked as favorites::Vsi kanali so označeni kot priljubljeni
+All favorites removed::Vse priljubljene odstranjene
+Application status::Stanje aplikacije
+Apply::Prijavite se
+Apply / Import::Uporabi / uvozi
+Apply changes::Uporabi spremembe
+Apply Filters::Uporabi filtre
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::Ali ste prepričani, da želite znova naložiti Enigma2 GUI?\n\nVmesnik se bo znova zagnal (črn zaslon za nekaj sekund).
+Auto (recommended)::Samodejno (priporočeno)
+Auto-detect::Samodejno zaznaj
+Automatic check on startup – or click 'Check for updates' in Tools menu.::Samodejno preverjanje ob zagonu – ali kliknite »Preveri posodobitve« v meniju Orodja.
+Bouquet Name::Ime šopka
+Bouquet sent and Enigma2 channel list reloaded.::Šopek poslan in seznam kanalov Enigma2 ponovno naložen.
+Buffer (seconds)::Medpomnilnik (sekunde)
+Buffer size – adjust HLS buffer seconds.::Velikost medpomnilnika – prilagodite sekunde medpomnilnika HLS.
+Cache::Predpomnilnik
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::Mapa predpomnilnika: %TEMP%\\LiveGardenTVPlus\\epg_cache
+Cancel::Prekliči
+CANCEL::PREKLIC
+Cannot open browser::Brskalnika ni mogoče odpreti
+Category::Kategorija
+Changelog::Dnevnik sprememb
+Channel Details::Podrobnosti kanala
+Channel Down::Channel Down
+Channel Info::Informacije o kanalu
+Channel Name::Ime kanala
+Channel Up::Kanal gor
+Channel updated successfully.::Kanal je bil uspešno posodobljen.
+channels from::kanali iz
+channels from JSON::kanalov iz JSON
+channels from JSON URL::kanalov iz JSON URL
+channels from URL::kanalov iz naslova URL
+Check Duplicates::Preverite dvojnike
+Check for updates::Preverite posodobitve
+Check URLs::Preverite URL-je
+Clear::jasno
+Clear EPG Cache::Počisti predpomnilnik EPG
+Clear Filters::Počisti filtre
+Clear search::Počisti iskanje
+Click for details::Kliknite za podrobnosti
+Close::Zapri
+Close current playlist::Zapri trenutni seznam predvajanja
+Close Playlist::Zapri seznam predvajanja
+Code::Koda
+Code copied to clipboard.::Koda je bila kopirana v odložišče.
+Command name:::Ime ukaza:
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::Skupnost in testiranje: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare::Primerjaj
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::Primerjajte po: Priority (ime→group→tvg-id), Name, Group (razlikuje med velikimi in malimi črkami) ali TvgId.
+Compare Playlists::Primerjajte sezname predvajanja
+Compare two playlists – load first (current playlist) and second (from file or URL).::Primerjajte dva seznama predvajanja – naložite prvega (trenutni seznam predvajanja) in drugega (iz datoteke ali URL-ja).
+Compare...::Primerjaj...
+Comparison results: {0} channels::Rezultati primerjave: {0} kanalov
+Configuration Missing::Manjka konfiguracija
+Confirm Delete::Potrdite Izbriši
+Confirm Reload::Potrdite ponovno nalaganje
+Connect::Povežite se
+Connected::Povezan
+Copied::Kopirano
+Copy::Kopiraj
+CORVOBOYS.ORG::CORVOBOYS.ORG
+Country::Država
+Credits::Krediti
+Delete channel '{0}'?::Želite izbrisati kanal '{0}'?
+Delete Group::Izbriši skupino
+Delete Selected::Izbriši izbrano
+Deleted::Izbrisano
+Description::Opis
+Details::Podrobnosti
+Developed by Lululla::Razvil Lululla
+Developer: Lululla::Razvijalec: Lululla
+Disconnect::Prekini povezavo
+Disconnected::Prekinjena povezava
+Display as::Prikaži kot
+Do you want to load this edited playlist now?::Ali želite zdaj naložiti ta urejeni seznam predvajanja?
+Double speed (2x)::Dvojna hitrost (2x)
+Downloading playlist...::Prenašanje seznama predvajanja ...
+Downloads ZIP, replaces files, restarts app – settings preserved.::Prenese ZIP, zamenja datoteke, znova zažene aplikacijo – nastavitve so ohranjene.
+Drag & drop – drop M3U or JSON files directly onto main window.::Povleci in spusti – datoteke M3U ali JSON spustite neposredno v glavno okno.
+Drag to seek back in buffer::Povlecite za iskanje nazaj v medpomnilniku
+Duplicate URLs found:\n\n::Najdeni podvojeni URL-ji:\n\n
+Edit Command::Uredi ukaz
+Edit command name:::Uredi ime ukaza:
+Edit Playlist::Uredi seznam predvajanja
+Edit telnet command:::Uredi ukaz telnet:
+Edit URLs::Uredite URL-je
+Empty Password::Prazno geslo
+End::Konec
+Enigma2::Enigma2
+Enrich with EPG::Obogatite z EPG
+Enter bouquet name (without spaces):::Vnesite ime šopka (brez presledkov):
+Enter JSON URL:::Vnesite JSON URL:
+Enter new group name:::Vnesite novo ime skupine:
+Enter playlist URL (JSON or M3U):::Vnesite URL seznama predvajanja (JSON ali M3U):
+Enter playlist URL (M3U or JSON):::Vnesite URL seznama predvajanja (M3U ali JSON):
+EPG::EPG
+Epg & Favorites::EPG & Priljubljene
+EPG & Favorites::EPG & Priljubljene
+Epg & Logos::EPG in logotipi
+EPG & Logos::EPG in logotipi
+EPG cache cleared successfully.::Predpomnilnik EPG je bil uspešno počiščen.
+EPG Details::EPG Podrobnosti
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::EPG Guide – gumb v glavni orodni vrstici prikazuje celotno mrežo s podrobnostmi o programu (dvokliknite za informacije).
+EPG Matching Threshold::Prag ujemanja EPG
+EPG Source::Vir EPG
+EPG source – can be set in Settings (epgshare01 or custom URL).::Vir EPG – lahko nastavite v nastavitvah (epgshare01 ali URL po meri).
+EPG source – choose XMLTV file or enter custom URL.::Vir EPG – izberite datoteko XMLTV ali vnesite URL po meri.
+EPG Source Missing::Manjka vir EPG
+Error::Napaka
+Error clearing cache: {0}::Napaka pri čiščenju predpomnilnika: {0}
+Error loading::Napaka pri nalaganju
+Error loading EPG list: {0}::Napaka pri nalaganju seznama EPG: {0}
+Error loading file: {0}::Napaka pri nalaganju datoteke: {0}
+Error loading playlists: {0}::Napaka pri nalaganju seznamov predvajanja: {0}
+Error loading URL: {0}::Napaka pri nalaganju URL-ja: {0}
+ERROR: player.html not found.::NAPAKA: player.html ni najden.
+Exit::Izhod
+Export all::Izvozi vse
+Export Favorites::Izvoz priljubljenih
+Export Filtered JSON::Izvozi filtrirani JSON
+Export Filtered M3U::Izvoz filtriranega M3U
+Export JSON::Izvoz JSON
+Export KO::Izvoz KO
+Export missing::Manjka izvoz
+Export OK::Izvoz OK
+Export only favorite channels to a new M3U file::Izvozite samo priljubljene kanale v novo datoteko M3U
+Export results as JSON or M3U – export missing channels or all channels.::Izvozi rezultate kot JSON ali M3U – izvoz manjkajočih kanalov ali vseh kanalov.
+Export selected::Izvoz izbran
+Export Selected::Izvozi izbrano
+Exported::Izvoženo
+Exported {0} channels to {1}::Izvoženih {0} kanalov v {1}
+Extracting update...::Ekstrahiranje posodobitve ...
+Failed to download playlist::Prenos seznama predvajanja ni uspel
+Failed to load playlist::Seznama predvajanja ni bilo mogoče naložiti
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::Posodobitev bouquets.tv ni uspela. Preverite dovoljenja za datoteke v napravi Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::Nalaganje šopka ni uspelo. Preverite nastavitve Telneta (gostitelj, vrata, uporabniško ime, geslo) in poskusite znova.
+Favorite::Najljubša
+Favorites::Priljubljene
+Favorites only::Samo priljubljene
+Fetch Logos::Pridobi logotipe
+File::Datoteka
+File {0} already exists. Overwrite?::Datoteka {0} že obstaja. Prepisati?
+File exists::Datoteka obstaja
+Filters::Filtri
+Format Detection::Zaznavanje formata
+Fullscreen::Cel zaslon
+Fullscreen (hide UI) - press ESC to exit::Celozaslonski način (skrij uporabniški vmesnik) - pritisnite ESC za izhod
+Geo & Country::Geo in država
+GeoBlocked::GeoBlocked
+GitHub Error::Napaka GitHub
+Go back to live::Pojdi nazaj v življenje
+Grid::Mreža
+Group::skupina
+Half speed (0.5x)::Polovična hitrost (0,5x)
+Help::pomoč
+Hide List::Skrij seznam
+HLS playback: hls.js (MIT license)::HLS predvajanje: hls.js (licenca MIT)
+Image::Slika
+Import::Uvozi
+Import cancelled or no channels mapped.::Uvoz je bil preklican ali noben kanal ni preslikan.
+Import Error::Napaka pri uvozu
+Import error: {0}::Napaka pri uvozu: {0}
+Import from URL::Uvoz iz URL-ja
+Import JSON::Uvoz JSON
+Import JSON from URL::Uvozi JSON iz URL-ja
+Import Local::Uvozi lokalno
+Imported {0} channels from code.::Uvoženih {0} kanalov iz kode.
+Imported {0} channels from JSON via mapping.::Uvoženih {0} kanalov iz JSON prek preslikave.
+Imported {0} channels from URL.::Uvoženih {0} kanalov iz naslova URL.
+In Both::V obeh
+Info::Informacije
+Info on::Informacije o
+Invalid JSON: {0}::Neveljaven JSON: {0}
+Invalid playlist URL.::Neveljaven URL seznama predvajanja.
+Invalid URL.::Neveljaven URL.
+Json::Json
+JSON::JSON
+JSON parsing error: {0}::Napaka pri razčlenjevanju JSON: {0}
+JSON Property::Lastnost JSON
+Ko-fi::kava
+Language::Jezik
+Language – change UI language dynamically (translations in Languages folder).::Jezik – dinamično spreminjanje jezika uporabniškega vmesnika (prevodi v mapi Jeziki).
+Languages::Jeziki
+Languages (comma)::Jeziki (vejica)
+LINUXSAT-SUPPORT.COM::LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help::Pomoč LiveGardenTVPlus
+LOAD::NALOŽITEV
+Load a playlist first.::Najprej naložite seznam predvajanja.
+Load a second playlist first.::Najprej naložite drugi seznam predvajanja.
+Load File::Naloži datoteko
+Load from file...::Naloži iz datoteke ...
+Load from URL::Naloži iz URL-ja
+Load from URL...::Naloži iz URL-ja ...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::Naloži lokalno datoteko M3U/JSON – prek gumba »Naloži datoteko« (orodna vrstica) ali »Odpri datoteko« v urejevalniku.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::Spletno nalaganje URL-ja M3U/JSON – gumb »Naloži prek spleta« (orodna vrstica) ali »Odpri iz URL-ja« v urejevalniku.
+Load Playlist::Naloži seznam predvajanja
+Load playlist file (M3U/JSON) from your computer::Naložite datoteko seznama predvajanja (M3U/JSON) iz računalnika
+Loaded::Naloženo
+Loaded {0} channels from JSON file via mapping.::Naloženih {0} kanalov iz datoteke JSON prek preslikave.
+Loaded {0} channels from JSON URL.::Naloženih {0} kanalov iz URL-ja JSON.
+Loaded {0} channels from M3U file.::Naloženih {0} kanalov iz datoteke M3U.
+Loaded {0} channels from M3U URL.::Naloženih {0} kanalov z URL-ja M3U.
+Loading...::Nalaganje...
+Logo::Logotip
+Logo Picker – in editor, click '...' to choose logo from gallery.::Izbirnik logotipa – v urejevalniku kliknite "...", da izberete logotip iz galerije.
+Logo Preview::Predogled logotipa
+Logo URL::URL logotipa
+Logos – automatically download from GitHub repository (Settings → Logos Source).::Logotipi – samodejni prenos iz repozitorija GitHub (Nastavitve → Izvor logotipov).
+Logos Matching Threshold::Prag ujemanja logotipov
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::Repozitorij logotipov – izberite lastnika/repo/pot (privzeti OwnerPlugins/logotipi).
+Logos Source::Izvor logotipov
+Logos Subfolder::Podmapa Logotipi
+M3U::M3U
+M3U parsing error: {0}::Napaka pri razčlenjevanju M3U: {0}
+Map JSON properties to channel fields:::Preslikaj lastnosti JSON v polja kanala:
+Mapping saved for future imports of this file.::Preslikava je shranjena za prihodnje uvoze te datoteke.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::Pragovi ujemanja – nastavite občutljivost mehkega ujemanja za EPG in logotipe.
+Mini Player::Mini predvajalnik
+Move to Group::Premakni se v skupino
+Moved::Premaknjen
+Name::Ime
+Nanoid::Nanoid
+Network error::Omrežna napaka
+New Playlist::Nov seznam predvajanja
+Next::Naprej
+Next ▶::Naprej ▶
+No .m3u files found on GitHub repository.::V repozitoriju GitHub ni bilo mogoče najti datotek .m3u.
+No cache folder found.::Nobena predpomnilniška mapa ni bila najdena.
+No channel selected::Izbran ni noben kanal
+No channel selected.::Izbran ni noben kanal.
+No channels could be mapped or import cancelled.::Nobenega kanala ni bilo mogoče preslikati ali uvoza preklicati.
+No channels could be mapped. Check your mapping rules.::Nobenega kanala ni bilo mogoče preslikati. Preverite svoja pravila za preslikavo.
+No channels found in JSON.::V JSON ni bilo mogoče najti nobenih kanalov.
+No channels found in M3U.::V M3U ni bilo mogoče najti nobenega kanala.
+No channels loaded from JSON URL.::Iz URL-ja JSON ni naložen noben kanal.
+No channels loaded from M3U URL.::Z URL-ja M3U ni naložen noben kanal.
+No channels loaded from M3U.::Iz M3U ni naložen noben kanal.
+No channels loaded.::Ni naloženih kanalov.
+No channels mapped::Ni preslikanih kanalov
+No channels selected.::Ni izbranih kanalov.
+No channels to import.::Ni kanalov za uvoz.
+No duplicate URLs found.::Ni podvojenih URL-jev.
+No EPG data::Ni podatkov EPG
+No EPG information available for this channel.::Za ta kanal ni na voljo nobenih informacij EPG.
+No EPG source configured. Please select one from the combo or go to Settings.::Ni konfiguriranega vira EPG. Izberite eno iz kombinacije ali pojdite v Nastavitve.
+No EPG source configured. Would you like to open settings to select one?::Ni konfiguriranega vira EPG. Ali želite odpreti nastavitve in izbrati enega?
+No favorite channels found.::Ni priljubljenih kanalov.
+No favorite channels to export.::Ni priljubljenih kanalov za izvoz.
+No missing channels to export.::Ni manjkajočih kanalov za izvoz.
+No playlist found::Ni seznama predvajanja
+No second playlist loaded.::Drugi seznam predvajanja ni naložen.
+No stream URL available for this channel.::Za ta kanal ni na voljo URL-ja toka.
+No text to import.::Ni besedila za uvoz.
+No updates available.::Na voljo ni nobenih posodobitev.
+Normal speed (1x)::Normalna hitrost (1x)
+Not connected to the box.::Ni povezan s škatlo.
+Now::zdaj
+OK::OK
+Online Playlist::Spletni seznam predvajanja
+Online playlist – select from GitHub repository (auto‑refresh).::Spletni seznam predvajanja – izberite iz repozitorija GitHub (samodejno osveževanje).
+Only in First::Samo v Prvi
+Only in Second::Samo v drugem
+Open File...::Odpri datoteko ...
+Open from URL::Odpri iz URL-ja
+Open Playlist::Odpri seznam predvajanja
+Pause/Resume live stream::Zaustavi/nadaljuj pretočno predvajanje v živo
+Paused::Zaustavljeno
+PayPal::PayPal
+Picture-in-Picture mode::Način slika v sliki
+Play/Pause::Predvajaj/Premor
+Player Media Controls::Kontrolniki predstavnosti predvajalnika
+Playing Media::Predvajanje medijev
+Playlist & Groups::Seznam predvajanja in skupine
+Playlist closed::Seznam predvajanja zaprt
+Playlist Comparison::Primerjava seznama predvajanja
+Playlist Editor::Urejevalnik seznamov predvajanja
+Playlist Loading::Seznam predvajanja se nalaga
+Playlist Management::Upravljanje seznama predvajanja
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::Repozitorij seznamov predvajanja: OwnerPlugins/TivuStreamList (italijanski in mednarodni tokovi)
+Please select a program first.::Najprej izberite program.
+Preview (first 5 channels)::Predogled (prvih 5 kanalov)
+Preview error: {0}::Napaka predogleda: {0}
+Program Details::Podrobnosti programa
+Ready::pripravljena
+Recent::Nedavno
+Recent files – quick access to last 5 opened playlists.::Nedavne datoteke – hiter dostop do zadnjih 5 odprtih seznamov predvajanja.
+Recent playlists::Nedavni seznami predvajanja
+Refresh Code::Osveži kodo
+Refresh EPG::Osveži EPG
+Refresh EPG List::Osveži seznam EPG
+Refresh from GitHub::Osveži iz GitHub
+Refresh List::Osveži seznam
+Reload GUI::Ponovno naloži GUI
+Remove Command::Odstrani ukaz
+Rename Group::Preimenuj skupino
+Rename group '{0}' to:::Preimenuj skupino '{0}' v:
+Repository::Repozitorij
+Reset Order::Ponastavi naročilo
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::Rezultati: 'Samo v prvem', 'Samo v drugem', 'V obeh' – z barvnim kodiranjem stanja.
+Save::Shrani
+SAVE::SHRANI
+Save – persists all settings without reloading current playlist.::Shrani – ohrani vse nastavitve brez ponovnega nalaganja trenutnega seznama predvajanja.
+Save as...::Shrani kot...
+Save current playlist to a new M3U file::Shranite trenutni seznam predvajanja v novo datoteko M3U
+Save Favorites::Shrani priljubljene
+Save Mapping::Shrani preslikavo
+Save Playlist::Shrani seznam predvajanja
+Save Status::Shrani stanje
+Saved::Shranjeno
+Search channel::Iskanje kanala
+Search channels by name::Iskanje kanalov po imenu
+Search channels...::Iskanje kanalov ...
+sec::sek
+Second playlist loaded: {0} channels::Naložen drugi seznam predvajanja: {0} kanalov
+Select a channel to play.::Izberite kanal za predvajanje.
+Select a playlist first.::Najprej izberite seznam predvajanja.
+Select target group:::Izberite ciljno skupino:
+Select Theme::Izberite Tema
+Selected theme is saved and applied on restart.::Izbrana tema se shrani in uporabi ob ponovnem zagonu.
+Send::Pošlji
+Send playlist to Enigma2 decoder::Pošlji seznam predvajanja v dekoder Enigma2
+Send to Enigma2::Pošlji na Enigmo2
+Settings::nastavitve
+Show List::Pokaži seznam
+Show only channels marked as favorites::Prikaži samo kanale, označene kot priljubljene
+Show or hide the channel list::Prikaži ali skrij seznam kanalov
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::Posebna zahvala skupnostim CORVOBOYS & LinuxSat-Support za testiranje in podporo.
+Start::Začetek
+Status::Stanje
+Stop::Stop
+Stopped::ustavil
+Stream URL::URL toka
+Stream URLs::Pretočni URL-ji
+Success::Uspeh
+Support::Podpora
+Support the developer::Podprite razvijalca
+Target Field::Ciljno polje
+Telnet command:::Telnet ukaz:
+Telnet Commander::Telnet Commander
+Telnet Config::Telnet Config
+Telnet Configuration::Konfiguracija Telnet
+Telnet Console::Konzola Telnet
+Telnet host not configured. Please set it in Settings.::Telnet gostitelj ni konfiguriran. Nastavite ga v nastavitvah.
+Telnet password is empty. Do you want to continue?::Geslo Telnet je prazno. Želite nadaljevati?
+Telnet username not configured. Please set it in Settings.::Telnet uporabniško ime ni konfigurirano. Nastavite ga v nastavitvah.
+Thanks to::Hvala za
+Theme picker::Izbirnik tem
+Theme picker – accessible via Tools menu on main toolbar.::Izbirnik tem – dostopen prek menija Orodja v glavni orodni vrstici.
+Themes::Teme
+Time::Čas
+Title::Naslov
+Tools::Orodja
+Total::Skupaj
+Total channels in loaded playlist::Skupno število kanalov na naloženem seznamu predvajanja
+TV Guide (EPG)::TV-vodnik (EPG)
+TvgId::TvgId
+Type channel name to filter::Vnesite ime kanala za filtriranje
+UI: MaterialDesignThemes.Wpf::Uporabniški vmesnik: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::Formata ni mogoče samodejno zaznati. V spustnem meniju izberite JSON ali M3U in poskusite znova.
+Unable to find version in remote project file.::Ni mogoče najti različice v datoteki oddaljenega projekta.
+Unsupported format. Please select JSON or M3U.::Nepodprta oblika. Izberite JSON ali M3U.
+Update::posodobitev
+Update complete. Restarting...::Posodobitev končana. Ponovni zagon ...
+Update Error::Napaka posodobitve
+Update failed: ::Posodobitev ni uspela:
+Updated::Posodobljeno
+Updates::Posodobitve
+Upload Error::Napaka pri nalaganju
+URL::URL
+URL (primary)::URL (primarni)
+URL Check::Preveri URL
+URL list (one per line)::Seznam URL-jev (eden na vrstico)
+URLs & Status::URL-ji in stanje
+Version::Različica
+Version {0}.{1}.{2}::Različica {0}.{1}.{2}
+Version unknown::Različica neznana
+Waiting for LiveGardenTVPlus to close...::Čakam, da se LiveGardenTVPlus zapre ...
+Warning::Opozorilo
+WebView2: Microsoft Edge WebView2::WebView2: Microsoft Edge WebView2
+Youtube URL::Youtube URL
+Youtube URLs::Youtube URL-ji

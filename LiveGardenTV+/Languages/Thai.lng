@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): (สมัครใจโดยสมบูรณ์ – ไม่มีการปิดกั้นคุณสมบัติ)
-(No description): (ไม่มีคำอธิบาย)
-• Add / rename / delete groups.: • เพิ่ม / เปลี่ยนชื่อ / ลบกลุ่ม
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • ตัวเลื่อนบัฟเฟอร์: ปรับบัฟเฟอร์ HLS (1-10 วินาที)
-• Check URL availability (only visible channels).: • ตรวจสอบความพร้อมของ URL (เฉพาะช่องทางที่มองเห็นได้)
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • แก้ไขชื่อช่อง กลุ่ม URL โลโก้ tvg-id ประเทศ ภาษา รายการโปรด
-• Edit multiple URLs per channel (popup window).: • แก้ไข URL หลายรายการต่อช่อง (หน้าต่างป๊อปอัป)
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • เติมเต็มด้วย EPG: เพิ่ม tvg-id ที่ขาดหายไปโดยใช้การจับคู่แบบคลุมเครือ
-• EPG info displayed in status bar for current channel.: • ข้อมูล EPG แสดงในแถบสถานะสำหรับช่องปัจจุบัน
-• Export OK / FAIL / filtered lists as M3U or JSON.: • ส่งออกรายการตกลง / ล้มเหลว / กรองเป็น M3U หรือ JSON
-• Fetch logos from remote repository (OwnerPlugins/logos).: • ดึงโลโก้จากพื้นที่เก็บข้อมูลระยะไกล (OwnerPlugins/โลโก้)
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • UI แบบเต็มหน้าจอ: ซ่อนแถบด้านข้างและแถบสถานะ (ESC เพื่อออก)
-• Hide/Show channel list button.: • ปุ่มซ่อน/แสดงรายการช่อง
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • นำเข้า JSON (ท้องถิ่นหรือ URL) ด้วยการแมปฟิลด์ที่ยืดหยุ่น (ตรวจจับอัตโนมัติ บันทึกการแมป)
-• Picture‑in‑Picture (PIP) button.: • ปุ่มภาพซ้อนภาพ (PIP)
-• Playback speed: 0.5x, 1x, 2x buttons.: • ความเร็วในการเล่น: ปุ่ม 0.5x, 1x, 2x
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • จัดเรียงคอลัมน์ใด ๆ โดยการคลิกส่วนหัว; ใช้ 'รีเซ็ตคำสั่งซื้อ' เพื่อเปลี่ยนกลับเป็นคำสั่งซื้อเดิม
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • ไทม์ชิฟท์: หยุดสตรีมสดชั่วคราว; ลากแถบเลื่อนเพื่อค้นหากลับ กด 'สด' เพื่อกลับ
-▶ Play Media: ▶ เล่นสื่อ
-◀ Previous: ◀ ก่อนหน้า
-16 colour themes + Light/Dark variants.: ธีมสี 16 สี + ธีมสีอ่อน/เข้ม
-A new version is available. Do you want to update now?: มีเวอร์ชันใหม่ให้ใช้งานแล้ว คุณต้องการอัปเดตตอนนี้หรือไม่?
-Access via 'Compare' button in Playlist Editor or Tools menu.: เข้าถึงได้ผ่านปุ่ม "เปรียบเทียบ" ในตัวแก้ไขเพลย์ลิสต์หรือเมนูเครื่องมือ
-Access via 'Edit Playlist' button on main toolbar.: เข้าถึงได้ผ่านปุ่ม 'แก้ไขเพลย์ลิสต์' บนแถบเครื่องมือหลัก
-Actions: การดำเนินการ
-Add Command: เพิ่มคำสั่ง
-Add Group: เพิ่มกลุ่ม
-Add Mapping: เพิ่มการทำแผนที่
-Adjust buffer size (1-10 seconds): ปรับขนาดบัฟเฟอร์ (1-10 วินาที)
-Advanced IDs: รหัสขั้นสูง
-Application status: สถานะการสมัคร
-Apply: นำมาใช้
-Apply / Import: ใช้ / นำเข้า
-Apply changes: ใช้การเปลี่ยนแปลง
-Apply Filters: ใช้ตัวกรอง
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: คุณแน่ใจหรือไม่ว่าต้องการโหลด Enigma2 GUI ใหม่\n\nอินเทอร์เฟซจะรีสตาร์ท (หน้าจอสีดำไม่กี่วินาที)
-Auto (recommended): อัตโนมัติ (แนะนำ)
-Auto-detect: ตรวจจับอัตโนมัติ
-Automatic check on startup – or click 'Check for updates' in Tools menu.: ตรวจสอบอัตโนมัติเมื่อเริ่มต้น – หรือคลิก 'ตรวจสอบการอัปเดต' ในเมนูเครื่องมือ
-Bouquet Name: ชื่อช่อดอกไม้
-Bouquet sent and Enigma2 channel list reloaded.: Bouquet ส่งไปแล้วและรายการช่อง Enigma2 รีโหลดแล้ว
-Buffer (seconds): บัฟเฟอร์ (วินาที)
-Buffer size – adjust HLS buffer seconds.: ขนาดบัฟเฟอร์ - ปรับวินาทีบัฟเฟอร์ HLS
-Cache: แคช
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: โฟลเดอร์แคช: %TEMP%\\LiveGardenTVPlus\\epg_cache
-Cancel: ยกเลิก
-CANCEL: ยกเลิก
-Cannot open browser: ไม่สามารถเปิดเบราว์เซอร์ได้
-Category: หมวดหมู่
-Changelog: บันทึกการเปลี่ยนแปลง
-Channel Details: รายละเอียดช่อง
-Channel Down: ช่องลง
-Channel Info: ข้อมูลช่อง
-Channel Name: ชื่อช่อง
-Channel Up: ช่องทางขึ้น
-channels from: ช่องทางจาก
-channels from JSON: ช่องจาก JSON
-channels from JSON URL: ช่องจาก JSON URL
-channels from URL: ช่องทางจาก URL
-Check Duplicates: ตรวจสอบรายการที่ซ้ำกัน
-Check for updates: ตรวจสอบการอัปเดต
-Check URLs: ตรวจสอบ URL
-Clear: ชัดเจน
-Clear EPG Cache: ล้างแคช EPG
-Clear Filters: ล้างตัวกรอง
-Clear search: ล้างการค้นหา
-Click for details: คลิกเพื่อดูรายละเอียด
-Close: ปิด
-Code: รหัส
-Code copied to clipboard.: คัดลอกโค้ดไปยังคลิปบอร์ดแล้ว
-Command name:: ชื่อคำสั่ง:
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ชุมชนและการทดสอบ: CorvoBoys (corvoboys.org) และ LinuxSat-Support.com
-Compare: เปรียบเทียบ
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: เปรียบเทียบตาม: ลำดับความสำคัญ (ชื่อ→กลุ่ม→tvg-id), ชื่อ, กลุ่ม (คำนึงถึงตัวพิมพ์เล็กและใหญ่) หรือ TvgId
-Compare Playlists: เปรียบเทียบเพลย์ลิสต์
-Compare two playlists – load first (current playlist) and second (from file or URL).: เปรียบเทียบสองเพลย์ลิสต์ – โหลดอันแรก (เพลย์ลิสต์ปัจจุบัน) และอันที่สอง (จากไฟล์หรือ URL)
-Compare...: เปรียบเทียบ...
-Comparison results: {0} channels: ผลการเปรียบเทียบ: {0} ช่อง
-Configuration Missing: การกำหนดค่าหายไป
-Confirm Delete: ยืนยันการลบ
-Confirm Reload: ยืนยันการโหลดซ้ำ
-Connect: เชื่อมต่อ
-Connected: เชื่อมต่อแล้ว
-Copied: คัดลอกแล้ว
-Copy: สำเนา
-CORVOBOYS.ORG: CORVOBOYS.ORG
-Country: ประเทศ
-Credits: เครดิต
-Delete channel '{0}'?: ลบช่อง '{0}' หรือไม่
-Delete Group: ลบกลุ่ม
-Delete Selected: ลบที่เลือก
-Deleted: ลบแล้ว
-Description: คำอธิบาย
-Details: รายละเอียด
-Developed by Lululla: พัฒนาโดย Lululla
-Developer: Lululla: ผู้พัฒนา: Lululla
-Disconnect: ตัดการเชื่อมต่อ
-Disconnected: ตัดการเชื่อมต่อแล้ว
-Display as: : แสดงเป็น:
-Do you want to load this edited playlist now?: คุณต้องการโหลดเพลย์ลิสต์ที่แก้ไขนี้ตอนนี้หรือไม่
-Double speed (2x): ความเร็วสองเท่า (2x)
-Downloading playlist...: กำลังดาวน์โหลดเพลย์ลิสต์...
-Downloads ZIP, replaces files, restarts app – settings preserved.: ดาวน์โหลด ZIP แทนที่ไฟล์ รีสตาร์ทแอป – การตั้งค่ายังคงอยู่
-Drag & drop – drop M3U or JSON files directly onto main window.: ลากและวาง – วางไฟล์ M3U หรือ JSON ลงบนหน้าต่างหลักโดยตรง
-Drag to seek back in buffer: ลากเพื่อค้นหากลับในบัฟเฟอร์
-Duplicate URLs found:\n\n: พบ URL ที่ซ้ำกัน:\n\n
-Edit Command: แก้ไขคำสั่ง
-Edit command name:: แก้ไขชื่อคำสั่ง:
-Edit Playlist: แก้ไขเพลย์ลิสต์
-Edit telnet command:: แก้ไขคำสั่ง telnet:
-Edit URLs: แก้ไข URL
-Empty Password: รหัสผ่านว่างเปล่า
-End: จบ
-Enrich with EPG: เติมเต็มด้วย EPG
-Enter bouquet name (without spaces):: ใส่ชื่อช่อดอกไม้ (ไม่ต้องเว้นวรรค):
-Enter JSON URL:: ป้อน URL JSON:
-Enter new group name:: ป้อนชื่อกลุ่มใหม่:
-Enter playlist URL (JSON or M3U):: ป้อน URL เพลย์ลิสต์ (JSON หรือ M3U):
-Enter playlist URL (M3U or JSON):: ป้อน URL เพลย์ลิสต์ (M3U หรือ JSON):
-EPG: อีพีจี
-Epg & Favorites: Epg และรายการโปรด
-EPG & Favorites: EPG และรายการโปรด
-Epg & Logos: Epg และโลโก้
-EPG & Logos: EPG และโลโก้
-EPG cache cleared successfully.: ล้างแคช EPG เรียบร้อยแล้ว
-EPG Details: รายละเอียดอีพีจี
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: คู่มือ EPG – ปุ่มบนแถบเครื่องมือหลักจะแสดงตารางทั้งหมดพร้อมรายละเอียดของโปรแกรม (ดับเบิลคลิกเพื่อดูข้อมูล)
-EPG Matching Threshold: เกณฑ์การจับคู่ EPG
-EPG Source: : EPG ที่มา:
-EPG source – can be set in Settings (epgshare01 or custom URL).: แหล่งที่มา EPG – สามารถตั้งค่าได้ในการตั้งค่า (epgshare01 หรือ URL ที่กำหนดเอง)
-EPG source – choose XMLTV file or enter custom URL.: แหล่งที่มา EPG – เลือกไฟล์ XMLTV หรือป้อน URL ที่กำหนดเอง
-EPG Source Missing: แหล่งที่มา EPG หายไป
-Error: ข้อผิดพลาด
-Error clearing cache: {0}: เกิดข้อผิดพลาดในการล้างแคช: {0}
-Error loading: เกิดข้อผิดพลาดในการโหลด
-Error loading EPG list: {0}: เกิดข้อผิดพลาดในการโหลดรายการ EPG: {0}
-Error loading file: {0}: เกิดข้อผิดพลาดในการโหลดไฟล์: {0}
-Error loading playlists: {0}: เกิดข้อผิดพลาดในการโหลดเพลย์ลิสต์: {0}
-Error loading URL: {0}: เกิดข้อผิดพลาดในการโหลด URL: {0}
-ERROR: player.html not found.: ข้อผิดพลาด: ไม่พบ player.html
-Exit: ออก
-Export all: ส่งออกทั้งหมด
-Export Favorites: ส่งออกรายการโปรด
-Export Filtered JSON: ส่งออก JSON ที่กรองแล้ว
-Export Filtered M3U: ส่งออก M3U ที่กรองแล้ว
-Export JSON: ส่งออก JSON
-Export KO: ส่งออกเกาะ
-Export missing: การส่งออกหายไป
-Export OK: ส่งออกตกลง
-Export only favorite channels to a new M3U file: ส่งออกเฉพาะช่องโปรดไปยังไฟล์ M3U ใหม่
-Export results as JSON or M3U – export missing channels or all channels.: ส่งออกผลลัพธ์เป็น JSON หรือ M3U – ส่งออกช่องที่ขาดหายไปหรือทุกช่อง
-Export selected: เลือกส่งออกแล้ว
-Export Selected: ส่งออกที่เลือก
-Exported: ส่งออกแล้ว
-Exported {0} channels to {1}: ส่งออก {0} ช่องไปยัง {1}
-Extracting update...: กำลังแยกการอัปเดต...
-Failed to download playlist: ดาวน์โหลดเพลย์ลิสต์ไม่สำเร็จ
-Failed to load playlist: ไม่สามารถโหลดเพลย์ลิสต์
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: อัปเดต Bouquets.tv ไม่สำเร็จ โปรดตรวจสอบการอนุญาตไฟล์บนอุปกรณ์ Enigma2
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: อัปโหลดช่อดอกไม้ไม่สำเร็จ โปรดตรวจสอบการตั้งค่า Telnet ของคุณ (โฮสต์ พอร์ต ชื่อผู้ใช้ รหัสผ่าน) แล้วลองอีกครั้ง
-Favorite: ที่ชื่นชอบ
-Favorites only: รายการโปรดเท่านั้น
-Fetch Logos: ดึงโลโก้
-File {0} already exists. Overwrite?: ไฟล์ {0} มีอยู่แล้ว เขียนทับ?
-File exists: มีไฟล์อยู่
-Filters: ตัวกรอง
-Format Detection: การตรวจจับรูปแบบ
-Fullscreen: เต็มจอ
-Fullscreen (hide UI) - press ESC to exit: เต็มหน้าจอ (ซ่อน UI) - กด ESC เพื่อออก
-Geo & Country: ภูมิศาสตร์และประเทศ
-GeoBlocked: ภูมิศาสตร์ที่ถูกบล็อก
-GitHub Error: ข้อผิดพลาด GitHub
-Go back to live: กลับไปใช้ชีวิต
-Grid: กริด
-Group: กลุ่ม
-Half speed (0.5x): ความเร็วครึ่งหนึ่ง (0.5x)
-Help: ช่วย
-Hide List: ซ่อนรายการ
-HLS playback: hls.js (MIT license): การเล่น HLS: hls.js (ใบอนุญาต MIT)
-Image: ภาพ
-Import: นำเข้า
-Import cancelled or no channels mapped.: การนำเข้าถูกยกเลิกหรือไม่มีการแมปช่องใดเลย
-Import Error: ข้อผิดพลาดในการนำเข้า
-Import error: {0}: ข้อผิดพลาดในการนำเข้า: {0}
-Import from URL: นำเข้าจาก URL
-Import JSON: นำเข้า JSON
-Import JSON from URL: นำเข้า JSON จาก URL
-Import Local: นำเข้าท้องถิ่น
-Imported {0} channels from code.: นำเข้า {0} ช่องจากรหัส
-Imported {0} channels from JSON via mapping.: นำเข้า {0} ช่องจาก JSON ผ่านการทำแผนที่
-Imported {0} channels from URL.: นำเข้า {0} ช่องจาก URL
-In Both: ในทั้งสองอย่าง
-Info: ข้อมูล
-Info on: ข้อมูลบน
-Invalid JSON: {0}: JSON ไม่ถูกต้อง: {0}
-Invalid playlist URL.: URL เพลย์ลิสต์ไม่ถูกต้อง
-Invalid URL.: URL ไม่ถูกต้อง
-Json: เจสัน
-JSON: เจสัน
-JSON parsing error: {0}: ข้อผิดพลาดในการแยกวิเคราะห์ JSON: {0}
-JSON Property: คุณสมบัติ JSON
-Ko-fi: กาแฟ
-Language: ภาษา
-Language – change UI language dynamically (translations in Languages folder).: ภาษา – เปลี่ยนภาษา UI แบบไดนามิก (การแปลในโฟลเดอร์ภาษา)
-Languages: ภาษา
-Languages (comma): ภาษา (ลูกน้ำ)
-LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help: ช่วยเหลือ LiveGardenTVPlus
-LOAD: โหลด
-Load a playlist first.: โหลดเพลย์ลิสต์ก่อน
-Load a second playlist first.: โหลดเพลย์ลิสต์ที่สองก่อน
-Load File: โหลดไฟล์
-Load from file...: โหลดจากไฟล์...
-Load from URL: โหลดจาก URL
-Load from URL...: โหลดจาก URL...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: โหลดไฟล์ M3U/JSON ในเครื่อง – ผ่านปุ่ม 'โหลดไฟล์' (แถบเครื่องมือ) หรือ 'เปิดไฟล์' ในตัวแก้ไข
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: โหลด URL M3U/JSON ออนไลน์ – ปุ่ม 'โหลดออนไลน์' (แถบเครื่องมือ) หรือ 'เปิดจาก URL' ในตัวแก้ไข
-Load playlist file (M3U/JSON) from your computer: โหลดไฟล์เพลย์ลิสต์ (M3U/JSON) จากคอมพิวเตอร์ของคุณ
-Loaded: โหลดแล้ว
-Loaded {0} channels from JSON file via mapping.: โหลด {0} ช่องจากไฟล์ JSON ผ่านการทำแผนที่
-Loaded {0} channels from JSON URL.: โหลด {0} ช่องจาก JSON URL
-Loaded {0} channels from M3U file.: โหลด {0} ช่องจากไฟล์ M3U
-Loaded {0} channels from M3U URL.: โหลด {0} ช่องจาก M3U URL
-Loading...: กำลังโหลด...
-Logo: โลโก้
-Logo Picker – in editor, click '...' to choose logo from gallery.: เครื่องมือเลือกโลโก้ – ในเครื่องมือแก้ไข คลิก '...' เพื่อเลือกโลโก้จากแกลเลอรี
-Logo Preview: ดูตัวอย่างโลโก้
-Logo URL: URL โลโก้
-Logos – automatically download from GitHub repository (Settings → Logos Source).: โลโก้ – ดาวน์โหลดโดยอัตโนมัติจากพื้นที่เก็บข้อมูล GitHub (การตั้งค่า → แหล่งที่มาของโลโก้)
-Logos Matching Threshold: เกณฑ์การจับคู่โลโก้
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: พื้นที่เก็บข้อมูลโลโก้ – เลือกเจ้าของ/repo/เส้นทาง (ค่าเริ่มต้น OwnerPlugins/โลโก้)
-Logos Source: ที่มาของโลโก้
-Logos Subfolder: โฟลเดอร์ย่อยโลโก้
-M3U: เอ็ม3ยู
-M3U parsing error: {0}: ข้อผิดพลาดในการแยกวิเคราะห์ M3U: {0}
-Map JSON properties to channel fields:: แมปคุณสมบัติ JSON กับช่องช่อง:
-Mapping saved for future imports of this file.: การแมปที่บันทึกไว้สำหรับการนำเข้าไฟล์นี้ในอนาคต
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: เกณฑ์การจับคู่ - ตั้งค่าความไวของการจับคู่แบบคลุมเครือสำหรับ EPG และโลโก้
-Mini Player: มินิเพลเยอร์
-Move to Group: ย้ายไปที่กลุ่ม
-Moved: ย้ายแล้ว
-Name: ชื่อ
-Nanoid: นาโนอยด์
-Network error: ข้อผิดพลาดของเครือข่าย
-New Playlist: เพลย์ลิสต์ใหม่
-Next: ต่อไป
-Next ▶: ถัดไป ▶
-No .m3u files found on GitHub repository.: ไม่พบไฟล์ .m3u บนที่เก็บ GitHub
-No cache folder found.: ไม่พบโฟลเดอร์แคช
-No channel selected: ไม่ได้เลือกช่อง
-No channels could be mapped or import cancelled.: ไม่สามารถแมปช่องหรือยกเลิกการนำเข้าได้
-No channels could be mapped. Check your mapping rules.: ไม่สามารถแมปช่องได้ ตรวจสอบกฎการทำแผนที่ของคุณ
-No channels found in JSON.: ไม่พบช่องใน JSON
-No channels found in M3U.: ไม่พบช่องใน M3U
-No channels loaded from JSON URL.: ไม่มีช่องที่โหลดจาก JSON URL
-No channels loaded from M3U URL.: ไม่มีช่องที่โหลดจาก M3U URL
-No channels loaded from M3U.: ไม่มีช่องที่โหลดจาก M3U
-No channels loaded.: ไม่มีช่องโหลด
-No channels mapped: ไม่มีการแมปช่อง
-No channels selected.: ไม่ได้เลือกช่อง
-No channels to import.: ไม่มีช่องทางที่จะนำเข้า
-No duplicate URLs found.: ไม่พบ URL ที่ซ้ำกัน
-No EPG data: ไม่มีข้อมูล EPG
-No EPG information available for this channel.: ไม่มีข้อมูล EPG สำหรับช่องนี้
-No EPG source configured. Please select one from the combo or go to Settings.: ไม่มีการกำหนดค่าแหล่งที่มา EPG โปรดเลือกหนึ่งรายการจากคอมโบหรือไปที่การตั้งค่า
-No EPG source configured. Would you like to open settings to select one?: ไม่มีการกำหนดค่าแหล่งที่มา EPG คุณต้องการเปิดการตั้งค่าเพื่อเลือกหนึ่งรายการหรือไม่
-No favorite channels to export.: ไม่มีช่องโปรดที่จะส่งออก
-No missing channels to export.: ไม่มีช่องทางที่ขาดหายไปในการส่งออก
-No playlist found: ไม่พบเพลย์ลิสต์
-No second playlist loaded.: ไม่มีการโหลดเพลย์ลิสต์ที่สอง
-No stream URL available for this channel.: ไม่มี URL สตรีมสำหรับช่องนี้
-No text to import.: ไม่มีข้อความที่จะนำเข้า
-No updates available.: ไม่มีการอัปเดต
-Normal speed (1x): ความเร็วปกติ (1x)
-Not connected to the box.: ไม่ได้เชื่อมต่อกับกล่อง
-Now: ตอนนี้
-OK: ตกลง
-Online Playlist: เพลย์ลิสต์ออนไลน์
-Online playlist – select from GitHub repository (auto‑refresh).: เพลย์ลิสต์ออนไลน์ – เลือกจากพื้นที่เก็บข้อมูล GitHub (รีเฟรชอัตโนมัติ)
-Only in First: เฉพาะในเฟิร์สเท่านั้น
-Only in Second: เฉพาะในวินาทีเท่านั้น
-Open File...: เปิดไฟล์...
-Open from URL: เปิดจาก URL
-Open Playlist: เปิดเพลย์ลิสต์
-Pause/Resume live stream: หยุดชั่วคราว / สตรีมสดต่อ
-Paused: หยุดชั่วคราว
-PayPal: เพย์พาล
-Picture-in-Picture mode: โหมดภาพซ้อนภาพ
-Play/Pause: เล่น/หยุดชั่วคราว
-Player Media Controls: การควบคุมสื่อของเครื่องเล่น
-Playing Media: กำลังเล่นสื่อ
-Playlist & Groups: เพลย์ลิสต์และกลุ่ม
-Playlist Comparison: การเปรียบเทียบเพลย์ลิสต์
-Playlist Editor: ตัวแก้ไขเพลย์ลิสต์
-Playlist Loading: กำลังโหลดเพลย์ลิสต์
-Playlist Management: การจัดการเพลย์ลิสต์
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): พื้นที่เก็บข้อมูลเพลย์ลิสต์: OwnerPlugins/TivuStreamList (สตรีมภาษาอิตาลีและต่างประเทศ)
-Please select a program first.: กรุณาเลือกโปรแกรมก่อน
-Preview (first 5 channels): ดูตัวอย่าง (5 ช่องแรก)
-Preview error: {0}: ข้อผิดพลาดในการดูตัวอย่าง: {0}
-Program Details: รายละเอียดโปรแกรม
-Ready: พร้อม
-Ready.: พร้อม.
-Recent: ล่าสุด
-Recent files – quick access to last 5 opened playlists.: ไฟล์ล่าสุด - เข้าถึงเพลย์ลิสต์ที่เปิดล่าสุด 5 รายการอย่างรวดเร็ว
-Recent playlists: เพลย์ลิสต์ล่าสุด
-Refresh Code: รีเฟรชโค้ด
-Refresh EPG: รีเฟรช EPG
-Refresh EPG List: รีเฟรชรายการ EPG
-Refresh from GitHub: รีเฟรชจาก GitHub
-Refresh List: รีเฟรชรายการ
-Reload GUI: โหลด GUI อีกครั้ง
-Remove Command: ลบคำสั่ง
-Rename Group: เปลี่ยนชื่อกลุ่ม
-Rename group '{0}' to:: เปลี่ยนชื่อกลุ่ม '{0}' เป็น:
-Repository: พื้นที่เก็บข้อมูล
-Reset Order: รีเซ็ตคำสั่งซื้อ
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: ผลลัพธ์: 'เฉพาะในครั้งแรก', 'เฉพาะในวินาที', 'ทั้งสองอย่าง' – พร้อมรหัสสีสถานะ
-Save: บันทึก
-SAVE: บันทึก
-Save – persists all settings without reloading current playlist.: บันทึก – คงการตั้งค่าทั้งหมดไว้โดยไม่ต้องโหลดเพลย์ลิสต์ปัจจุบันซ้ำ
-Save as...: บันทึกเป็น...
-Save current playlist to a new M3U file: บันทึกเพลย์ลิสต์ปัจจุบันเป็นไฟล์ M3U ใหม่
-Save Mapping: บันทึกการทำแผนที่
-Save Playlist: บันทึกเพลย์ลิสต์
-Save Status: บันทึกสถานะ
-Saved: บันทึกแล้ว
-Search channel: : ช่องทางการค้นหา:
-Search channels by name: ค้นหาช่องตามชื่อ
-Search channels...: ค้นหาช่อง...
-sec: วินาที
-Second playlist loaded: {0} channels: โหลดเพลย์ลิสต์ที่สองแล้ว: {0} ช่อง
-Select a channel to play.: เลือกช่องที่จะเล่น
-Select a playlist first.: เลือกเพลย์ลิสต์ก่อน
-Select target group:: เลือกกลุ่มเป้าหมาย:
-Select Theme: เลือกธีม
-Selected theme is saved and applied on restart.: ธีมที่เลือกจะถูกบันทึกและนำไปใช้เมื่อรีสตาร์ท
-Send: ส่ง
-Send playlist to Enigma2 decoder: ส่งเพลย์ลิสต์ไปยังตัวถอดรหัส Enigma2
-Send to Enigma2: ส่งไปที่ Enigma2
-Settings: การตั้งค่า
-Show List: แสดงรายการ
-Show only channels marked as favorites: แสดงเฉพาะช่องที่ทำเครื่องหมายว่าเป็นรายการโปรด
-Show or hide the channel list: แสดงหรือซ่อนรายการช่อง
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: ขอขอบคุณเป็นพิเศษสำหรับชุมชน CORVOBOYS & LinuxSat-Support สำหรับการทดสอบและการสนับสนุน
-Start: เริ่ม
-Status: สถานะ
-Stop: หยุด
-Stopped: หยุดแล้ว
-Stream URL: URL สตรีม
-Stream URLs: สตรีม URL
-Success: ความสำเร็จ
-Support: สนับสนุน
-Support the developer: สนับสนุนนักพัฒนา
-Target Field: สนามเป้าหมาย
-Telnet command:: คำสั่งเทลเน็ต:
-Telnet Commander: ผู้บัญชาการเทลเน็ต
-Telnet Config: การกำหนดค่าเทลเน็ต
-Telnet Console: คอนโซลเทลเน็ต
-Telnet host not configured. Please set it in Settings.: ไม่ได้กำหนดค่าโฮสต์ Telnet กรุณาตั้งค่าในการตั้งค่า
-Telnet password is empty. Do you want to continue?: รหัสผ่าน Telnet ว่างเปล่า คุณต้องการดำเนินการต่อหรือไม่?
-Telnet username not configured. Please set it in Settings.: ไม่ได้กำหนดค่าชื่อผู้ใช้ Telnet กรุณาตั้งค่าในการตั้งค่า
-Thanks to: ขอบคุณ
-Theme picker: เครื่องมือเลือกธีม
-Theme picker – accessible via Tools menu on main toolbar.: ตัวเลือกธีม – เข้าถึงได้จากเมนูเครื่องมือบนแถบเครื่องมือหลัก
-Themes: ธีมส์
-Time: เวลา
-Title: ชื่อ
-Tools: เครื่องมือ
-Total: ทั้งหมด
-Total channels in loaded playlist: ช่องทั้งหมดในเพลย์ลิสต์ที่โหลด
-TV Guide (EPG): ทีวีไกด์ (EPG)
-TvgId: TvgId
-Type channel name to filter: พิมพ์ชื่อช่องที่จะกรอง
-UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: ไม่สามารถตรวจจับรูปแบบอัตโนมัติได้ โปรดเลือก JSON หรือ M3U จากเมนูแบบเลื่อนลงแล้วลองอีกครั้ง
-Unable to find version in remote project file.: ไม่พบเวอร์ชันในไฟล์โครงการระยะไกล
-Unsupported format. Please select JSON or M3U.: รูปแบบที่ไม่รองรับ โปรดเลือก JSON หรือ M3U
-Update: อัปเดต
-Update complete. Restarting...: การอัปเดตเสร็จสมบูรณ์ กำลังรีสตาร์ท...
-Update Error: ข้อผิดพลาดในการอัปเดต
-Update failed: : การอัปเดตล้มเหลว:
-Updates: อัพเดท
-Upload Error: ข้อผิดพลาดในการอัปโหลด
-URL: URL
-URL (primary): URL (หลัก)
-URL Check: ตรวจสอบ URL
-URL list (one per line): รายการ URL (หนึ่งรายการต่อบรรทัด)
-URLs & Status: URL และสถานะ
-Version: เวอร์ชัน
-Version {0}.{1}.{2}: เวอร์ชัน {0}.{1}.{2}
-Version unknown: ไม่ทราบเวอร์ชัน
-Waiting for LiveGardenTVPlus to close...: กำลังรอ LiveGardenTVPlus ปิด...
-Warning: คำเตือน
-WebView2: Microsoft Edge WebView2: WebView2: ไมโครซอฟต์ขอบ WebView2
-Youtube URL: URL ยูทูป
-Youtube URLs: URL ของ YouTube
+(Completely voluntary – no features are blocked)::(สมัครใจโดยสมบูรณ์ – ไม่มีการปิดกั้นคุณสมบัติ)
+(No description)::(ไม่มีคำอธิบาย)
+• Add / rename / delete groups.::• เพิ่ม / เปลี่ยนชื่อ / ลบกลุ่ม
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• ตัวเลื่อนบัฟเฟอร์: ปรับบัฟเฟอร์ HLS (1-10 วินาที)
+• Check URL availability (only visible channels).::• ตรวจสอบความพร้อมของ URL (เฉพาะช่องทางที่มองเห็นได้)
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• แก้ไขชื่อช่อง กลุ่ม URL โลโก้ tvg-id ประเทศ ภาษา รายการโปรด
+• Edit multiple URLs per channel (popup window).::• แก้ไข URL หลายรายการต่อช่อง (หน้าต่างป๊อปอัป)
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• เติมเต็มด้วย EPG: เพิ่ม tvg-id ที่ขาดหายไปโดยใช้การจับคู่แบบคลุมเครือ
+• EPG info displayed in status bar for current channel.::• ข้อมูล EPG แสดงในแถบสถานะสำหรับช่องปัจจุบัน
+• Export OK / FAIL / filtered lists as M3U or JSON.::• ส่งออกรายการตกลง / ล้มเหลว / กรองเป็น M3U หรือ JSON
+• Fetch logos from remote repository (OwnerPlugins/logos).::• ดึงโลโก้จากพื้นที่เก็บข้อมูลระยะไกล (OwnerPlugins/โลโก้)
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• UI แบบเต็มหน้าจอ: ซ่อนแถบด้านข้างและแถบสถานะ (ESC เพื่อออก)
+• Hide/Show channel list button.::• ปุ่มซ่อน/แสดงรายการช่อง
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• นำเข้า JSON (ท้องถิ่นหรือ URL) ด้วยการแมปฟิลด์ที่ยืดหยุ่น (ตรวจจับอัตโนมัติ บันทึกการแมป)
+• Picture‑in‑Picture (PIP) button.::• ปุ่มภาพซ้อนภาพ (PIP)
+• Playback speed: 0.5x, 1x, 2x buttons.::• ความเร็วในการเล่น: ปุ่ม 0.5x, 1x, 2x
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• จัดเรียงคอลัมน์ใด ๆ โดยการคลิกส่วนหัว; ใช้ 'รีเซ็ตคำสั่งซื้อ' เพื่อเปลี่ยนกลับเป็นคำสั่งซื้อเดิม
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• ไทม์ชิฟท์: หยุดสตรีมสดชั่วคราว; ลากแถบเลื่อนเพื่อค้นหากลับ กด 'สด' เพื่อย้อนกลับ
+▶ Play Media::▶ เล่นสื่อ
+◀ Previous::◀ ก่อนหน้า
+16 colour themes + Light/Dark variants.::ธีมสี 16 สี + ธีมสีอ่อน/เข้ม
+A new version is available. Do you want to update now?::มีเวอร์ชันใหม่ให้ใช้งานแล้ว คุณต้องการอัปเดตตอนนี้หรือไม่?
+Access via 'Compare' button in Playlist Editor or Tools menu.::เข้าถึงได้ผ่านปุ่ม "เปรียบเทียบ" ในตัวแก้ไขเพลย์ลิสต์หรือเมนูเครื่องมือ
+Access via 'Edit Playlist' button on main toolbar.::เข้าถึงได้ผ่านปุ่ม 'แก้ไขเพลย์ลิสต์' บนแถบเครื่องมือหลัก
+Actions::การดำเนินการ
+Add Command::เพิ่มคำสั่ง
+Add Group::เพิ่มกลุ่ม
+Add Mapping::เพิ่มการทำแผนที่
+Adjust buffer size (1-10 seconds)::ปรับขนาดบัฟเฟอร์ (1-10 วินาที)
+Advanced IDs::รหัสขั้นสูง
+All channels marked as favorites::ทุกช่องทำเครื่องหมายเป็นรายการโปรด
+All favorites removed::ลบรายการโปรดทั้งหมดแล้ว
+Application status::สถานะการสมัคร
+Apply::นำมาใช้
+Apply / Import::ใช้ / นำเข้า
+Apply changes::ใช้การเปลี่ยนแปลง
+Apply Filters::ใช้ตัวกรอง
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::คุณแน่ใจหรือไม่ว่าต้องการโหลด Enigma2 GUI ใหม่\n\nอินเทอร์เฟซจะรีสตาร์ท (หน้าจอสีดำไม่กี่วินาที)
+Auto (recommended)::อัตโนมัติ (แนะนำ)
+Auto-detect::ตรวจจับอัตโนมัติ
+Automatic check on startup – or click 'Check for updates' in Tools menu.::ตรวจสอบอัตโนมัติเมื่อเริ่มต้น – หรือคลิก 'ตรวจสอบการอัปเดต' ในเมนูเครื่องมือ
+Bouquet Name::ชื่อช่อดอกไม้
+Bouquet sent and Enigma2 channel list reloaded.::Bouquet ส่งไปแล้วและรายการช่อง Enigma2 รีโหลดแล้ว
+Buffer (seconds)::บัฟเฟอร์ (วินาที)
+Buffer size – adjust HLS buffer seconds.::ขนาดบัฟเฟอร์ - ปรับวินาทีบัฟเฟอร์ HLS
+Cache::แคช
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::โฟลเดอร์แคช: %TEMP%\\LiveGardenTVPlus\\epg_cache
+Cancel::ยกเลิก
+CANCEL::ยกเลิก
+Cannot open browser::ไม่สามารถเปิดเบราว์เซอร์ได้
+Category::หมวดหมู่
+Changelog::บันทึกการเปลี่ยนแปลง
+Channel Details::รายละเอียดช่อง
+Channel Down::ช่องลง
+Channel Info::ข้อมูลช่อง
+Channel Name::ชื่อช่อง
+Channel Up::ช่องทางขึ้น
+Channel updated successfully.::อัปเดตช่องเรียบร้อยแล้ว
+channels from::ช่องทางจาก
+channels from JSON::ช่องจาก JSON
+channels from JSON URL::ช่องจาก JSON URL
+channels from URL::ช่องทางจาก URL
+Check Duplicates::ตรวจสอบรายการที่ซ้ำกัน
+Check for updates::ตรวจสอบการอัปเดต
+Check URLs::ตรวจสอบ URL
+Clear::ชัดเจน
+Clear EPG Cache::ล้างแคช EPG
+Clear Filters::ล้างตัวกรอง
+Clear search::ล้างการค้นหา
+Click for details::คลิกเพื่อดูรายละเอียด
+Close::ปิด
+Close current playlist::ปิดเพลย์ลิสต์ปัจจุบัน
+Close Playlist::ปิดเพลย์ลิสต์
+Code::รหัส
+Code copied to clipboard.::คัดลอกโค้ดไปยังคลิปบอร์ดแล้ว
+Command name:::ชื่อคำสั่ง:
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::ชุมชนและการทดสอบ: CorvoBoys (corvoboys.org) และ LinuxSat-Support.com
+Compare::เปรียบเทียบ
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::เปรียบเทียบตาม: ลำดับความสำคัญ (ชื่อ→กลุ่ม→tvg-id), ชื่อ, กลุ่ม (คำนึงถึงตัวพิมพ์เล็กและใหญ่) หรือ TvgId
+Compare Playlists::เปรียบเทียบเพลย์ลิสต์
+Compare two playlists – load first (current playlist) and second (from file or URL).::เปรียบเทียบสองเพลย์ลิสต์ – โหลดอันแรก (เพลย์ลิสต์ปัจจุบัน) และอันที่สอง (จากไฟล์หรือ URL)
+Compare...::เปรียบเทียบ...
+Comparison results: {0} channels::ผลการเปรียบเทียบ: {0} ช่อง
+Configuration Missing::การกำหนดค่าหายไป
+Confirm Delete::ยืนยันการลบ
+Confirm Reload::ยืนยันการโหลดซ้ำ
+Connect::เชื่อมต่อ
+Connected::เชื่อมต่อแล้ว
+Copied::คัดลอกแล้ว
+Copy::สำเนา
+CORVOBOYS.ORG::CORVOBOYS.ORG
+Country::ประเทศ
+Credits::เครดิต
+Delete channel '{0}'?::ลบช่อง '{0}' หรือไม่
+Delete Group::ลบกลุ่ม
+Delete Selected::ลบที่เลือก
+Deleted::ลบแล้ว
+Description::คำอธิบาย
+Details::รายละเอียด
+Developed by Lululla::พัฒนาโดย Lululla
+Developer: Lululla::ผู้พัฒนา: Lululla
+Disconnect::ตัดการเชื่อมต่อ
+Disconnected::ตัดการเชื่อมต่อแล้ว
+Display as::แสดงเป็น
+Do you want to load this edited playlist now?::คุณต้องการโหลดเพลย์ลิสต์ที่แก้ไขนี้ตอนนี้หรือไม่
+Double speed (2x)::ความเร็วสองเท่า (2x)
+Downloading playlist...::กำลังดาวน์โหลดเพลย์ลิสต์...
+Downloads ZIP, replaces files, restarts app – settings preserved.::ดาวน์โหลด ZIP แทนที่ไฟล์ รีสตาร์ทแอป – การตั้งค่ายังคงอยู่
+Drag & drop – drop M3U or JSON files directly onto main window.::ลากและวาง – วางไฟล์ M3U หรือ JSON ลงบนหน้าต่างหลักโดยตรง
+Drag to seek back in buffer::ลากเพื่อค้นหากลับในบัฟเฟอร์
+Duplicate URLs found:\n\n::พบ URL ที่ซ้ำกัน:\n\n
+Edit Command::แก้ไขคำสั่ง
+Edit command name:::แก้ไขชื่อคำสั่ง:
+Edit Playlist::แก้ไขเพลย์ลิสต์
+Edit telnet command:::แก้ไขคำสั่ง telnet:
+Edit URLs::แก้ไข URL
+Empty Password::รหัสผ่านว่างเปล่า
+End::จบ
+Enigma2::ปริศนา2
+Enrich with EPG::เติมเต็มด้วย EPG
+Enter bouquet name (without spaces):::ใส่ชื่อช่อดอกไม้ (ไม่ต้องเว้นวรรค):
+Enter JSON URL:::ป้อน URL JSON:
+Enter new group name:::ป้อนชื่อกลุ่มใหม่:
+Enter playlist URL (JSON or M3U):::ป้อน URL ของเพลย์ลิสต์ (JSON หรือ M3U):
+Enter playlist URL (M3U or JSON):::ป้อน URL เพลย์ลิสต์ (M3U หรือ JSON):
+EPG::อีพีจี
+Epg & Favorites::Epg และรายการโปรด
+EPG & Favorites::EPG และรายการโปรด
+Epg & Logos::Epg และโลโก้
+EPG & Logos::EPG และโลโก้
+EPG cache cleared successfully.::ล้างแคช EPG เรียบร้อยแล้ว
+EPG Details::รายละเอียดอีพีจี
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::คู่มือ EPG – ปุ่มบนแถบเครื่องมือหลักจะแสดงตารางทั้งหมดพร้อมรายละเอียดของโปรแกรม (ดับเบิลคลิกเพื่อดูข้อมูล)
+EPG Matching Threshold::เกณฑ์การจับคู่ EPG
+EPG Source::ที่มา อีพีจี
+EPG source – can be set in Settings (epgshare01 or custom URL).::แหล่งที่มา EPG – สามารถตั้งค่าได้ในการตั้งค่า (epgshare01 หรือ URL ที่กำหนดเอง)
+EPG source – choose XMLTV file or enter custom URL.::แหล่งที่มา EPG – เลือกไฟล์ XMLTV หรือป้อน URL ที่กำหนดเอง
+EPG Source Missing::แหล่งที่มา EPG หายไป
+Error::ข้อผิดพลาด
+Error clearing cache: {0}::เกิดข้อผิดพลาดในการล้างแคช: {0}
+Error loading::เกิดข้อผิดพลาดในการโหลด
+Error loading EPG list: {0}::เกิดข้อผิดพลาดในการโหลดรายการ EPG: {0}
+Error loading file: {0}::เกิดข้อผิดพลาดในการโหลดไฟล์: {0}
+Error loading playlists: {0}::เกิดข้อผิดพลาดในการโหลดเพลย์ลิสต์: {0}
+Error loading URL: {0}::เกิดข้อผิดพลาดในการโหลด URL: {0}
+ERROR: player.html not found.::ข้อผิดพลาด: ไม่พบ player.html
+Exit::ออก
+Export all::ส่งออกทั้งหมด
+Export Favorites::ส่งออกรายการโปรด
+Export Filtered JSON::ส่งออก JSON ที่กรองแล้ว
+Export Filtered M3U::ส่งออก M3U ที่กรองแล้ว
+Export JSON::ส่งออก JSON
+Export KO::ส่งออกเกาะ
+Export missing::การส่งออกหายไป
+Export OK::ส่งออกตกลง
+Export only favorite channels to a new M3U file::ส่งออกเฉพาะช่องโปรดไปยังไฟล์ M3U ใหม่
+Export results as JSON or M3U – export missing channels or all channels.::ส่งออกผลลัพธ์เป็น JSON หรือ M3U – ส่งออกช่องที่ขาดหายไปหรือทุกช่อง
+Export selected::เลือกส่งออกแล้ว
+Export Selected::ส่งออกที่เลือก
+Exported::ส่งออกแล้ว
+Exported {0} channels to {1}::ส่งออก {0} ช่องไปยัง {1}
+Extracting update...::กำลังแยกการอัปเดต...
+Failed to download playlist::ดาวน์โหลดเพลย์ลิสต์ไม่สำเร็จ
+Failed to load playlist::ไม่สามารถโหลดเพลย์ลิสต์
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::อัปเดต Bouquets.tv ไม่สำเร็จ โปรดตรวจสอบการอนุญาตไฟล์บนอุปกรณ์ Enigma2
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::อัปโหลดช่อดอกไม้ไม่สำเร็จ โปรดตรวจสอบการตั้งค่า Telnet ของคุณ (โฮสต์ พอร์ต ชื่อผู้ใช้ รหัสผ่าน) แล้วลองอีกครั้ง
+Favorite::ที่ชื่นชอบ
+Favorites::รายการโปรด
+Favorites only::รายการโปรดเท่านั้น
+Fetch Logos::ดึงโลโก้
+File::ไฟล์
+File {0} already exists. Overwrite?::ไฟล์ {0} มีอยู่แล้ว เขียนทับ?
+File exists::มีไฟล์อยู่
+Filters::ตัวกรอง
+Format Detection::การตรวจจับรูปแบบ
+Fullscreen::เต็มจอ
+Fullscreen (hide UI) - press ESC to exit::เต็มหน้าจอ (ซ่อน UI) - กด ESC เพื่อออก
+Geo & Country::ภูมิศาสตร์และประเทศ
+GeoBlocked::ภูมิศาสตร์ที่ถูกบล็อก
+GitHub Error::ข้อผิดพลาด GitHub
+Go back to live::กลับไปใช้ชีวิต
+Grid::กริด
+Group::กลุ่ม
+Half speed (0.5x)::ความเร็วครึ่งหนึ่ง (0.5x)
+Help::ช่วย
+Hide List::ซ่อนรายการ
+HLS playback: hls.js (MIT license)::การเล่น HLS: hls.js (ใบอนุญาต MIT)
+Image::ภาพ
+Import::นำเข้า
+Import cancelled or no channels mapped.::การนำเข้าถูกยกเลิกหรือไม่มีการแมปช่องใดเลย
+Import Error::ข้อผิดพลาดในการนำเข้า
+Import error: {0}::ข้อผิดพลาดในการนำเข้า: {0}
+Import from URL::นำเข้าจาก URL
+Import JSON::นำเข้า JSON
+Import JSON from URL::นำเข้า JSON จาก URL
+Import Local::นำเข้าท้องถิ่น
+Imported {0} channels from code.::นำเข้า {0} ช่องจากรหัส
+Imported {0} channels from JSON via mapping.::นำเข้า {0} ช่องจาก JSON ผ่านการทำแผนที่
+Imported {0} channels from URL.::นำเข้า {0} ช่องจาก URL
+In Both::ในทั้งสองอย่าง
+Info::ข้อมูล
+Info on::ข้อมูลบน
+Invalid JSON: {0}::JSON ไม่ถูกต้อง: {0}
+Invalid playlist URL.::URL เพลย์ลิสต์ไม่ถูกต้อง
+Invalid URL.::URL ไม่ถูกต้อง
+Json::เจสัน
+JSON::เจสัน
+JSON parsing error: {0}::ข้อผิดพลาดในการแยกวิเคราะห์ JSON: {0}
+JSON Property::คุณสมบัติ JSON
+Ko-fi::กาแฟ
+Language::ภาษา
+Language – change UI language dynamically (translations in Languages folder).::ภาษา – เปลี่ยนภาษา UI แบบไดนามิก (การแปลในโฟลเดอร์ภาษา)
+Languages::ภาษา
+Languages (comma)::ภาษา (ลูกน้ำ)
+LINUXSAT-SUPPORT.COM::LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help::ช่วยเหลือ LiveGardenTVPlus
+LOAD::โหลด
+Load a playlist first.::โหลดเพลย์ลิสต์ก่อน
+Load a second playlist first.::โหลดเพลย์ลิสต์ที่สองก่อน
+Load File::โหลดไฟล์
+Load from file...::โหลดจากไฟล์...
+Load from URL::โหลดจาก URL
+Load from URL...::โหลดจาก URL...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::โหลดไฟล์ M3U/JSON ในเครื่อง – ผ่านปุ่ม 'โหลดไฟล์' (แถบเครื่องมือ) หรือ 'เปิดไฟล์' ในตัวแก้ไข
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::โหลด URL M3U/JSON ออนไลน์ – ปุ่ม 'โหลดออนไลน์' (แถบเครื่องมือ) หรือ 'เปิดจาก URL' ในตัวแก้ไข
+Load Playlist::โหลดเพลย์ลิสต์
+Load playlist file (M3U/JSON) from your computer::โหลดไฟล์เพลย์ลิสต์ (M3U/JSON) จากคอมพิวเตอร์ของคุณ
+Loaded::โหลดแล้ว
+Loaded {0} channels from JSON file via mapping.::โหลด {0} ช่องจากไฟล์ JSON ผ่านการทำแผนที่
+Loaded {0} channels from JSON URL.::โหลด {0} ช่องจาก JSON URL
+Loaded {0} channels from M3U file.::โหลด {0} ช่องจากไฟล์ M3U
+Loaded {0} channels from M3U URL.::โหลด {0} ช่องจาก M3U URL
+Loading...::กำลังโหลด...
+Logo::โลโก้
+Logo Picker – in editor, click '...' to choose logo from gallery.::เครื่องมือเลือกโลโก้ – ในเครื่องมือแก้ไข คลิก '...' เพื่อเลือกโลโก้จากแกลเลอรี
+Logo Preview::ดูตัวอย่างโลโก้
+Logo URL::URL โลโก้
+Logos – automatically download from GitHub repository (Settings → Logos Source).::โลโก้ – ดาวน์โหลดโดยอัตโนมัติจากพื้นที่เก็บข้อมูล GitHub (การตั้งค่า → แหล่งที่มาของโลโก้)
+Logos Matching Threshold::เกณฑ์การจับคู่โลโก้
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::พื้นที่เก็บข้อมูลโลโก้ – เลือกเจ้าของ/repo/เส้นทาง (ค่าเริ่มต้น OwnerPlugins/โลโก้)
+Logos Source::ที่มาของโลโก้
+Logos Subfolder::โฟลเดอร์ย่อยโลโก้
+M3U::เอ็ม3ยู
+M3U parsing error: {0}::ข้อผิดพลาดในการแยกวิเคราะห์ M3U: {0}
+Map JSON properties to channel fields:::แมปคุณสมบัติ JSON กับช่องช่อง:
+Mapping saved for future imports of this file.::การแมปที่บันทึกไว้สำหรับการนำเข้าไฟล์นี้ในอนาคต
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::เกณฑ์การจับคู่ - ตั้งค่าความไวของการจับคู่แบบคลุมเครือสำหรับ EPG และโลโก้
+Mini Player::มินิเพลเยอร์
+Move to Group::ย้ายไปที่กลุ่ม
+Moved::ย้ายแล้ว
+Name::ชื่อ
+Nanoid::นาโนอยด์
+Network error::ข้อผิดพลาดของเครือข่าย
+New Playlist::เพลย์ลิสต์ใหม่
+Next::ต่อไป
+Next ▶::ถัดไป ▶
+No .m3u files found on GitHub repository.::ไม่พบไฟล์ .m3u บนที่เก็บ GitHub
+No cache folder found.::ไม่พบโฟลเดอร์แคช
+No channel selected::ไม่ได้เลือกช่อง
+No channel selected.::ไม่ได้เลือกช่อง
+No channels could be mapped or import cancelled.::ไม่สามารถแมปช่องหรือยกเลิกการนำเข้าได้
+No channels could be mapped. Check your mapping rules.::ไม่สามารถแมปช่องได้ ตรวจสอบกฎการทำแผนที่ของคุณ
+No channels found in JSON.::ไม่พบช่องใน JSON
+No channels found in M3U.::ไม่พบช่องใน M3U
+No channels loaded from JSON URL.::ไม่มีช่องที่โหลดจาก JSON URL
+No channels loaded from M3U URL.::ไม่มีช่องที่โหลดจาก M3U URL
+No channels loaded from M3U.::ไม่มีช่องที่โหลดจาก M3U
+No channels loaded.::ไม่มีช่องโหลด
+No channels mapped::ไม่มีการแมปช่อง
+No channels selected.::ไม่ได้เลือกช่อง
+No channels to import.::ไม่มีช่องทางที่จะนำเข้า
+No duplicate URLs found.::ไม่พบ URL ที่ซ้ำกัน
+No EPG data::ไม่มีข้อมูล EPG
+No EPG information available for this channel.::ไม่มีข้อมูล EPG สำหรับช่องนี้
+No EPG source configured. Please select one from the combo or go to Settings.::ไม่มีการกำหนดค่าแหล่งที่มา EPG โปรดเลือกหนึ่งรายการจากคอมโบหรือไปที่การตั้งค่า
+No EPG source configured. Would you like to open settings to select one?::ไม่มีการกำหนดค่าแหล่งที่มา EPG คุณต้องการเปิดการตั้งค่าเพื่อเลือกหนึ่งรายการหรือไม่
+No favorite channels found.::ไม่พบช่องโปรด
+No favorite channels to export.::ไม่มีช่องโปรดที่จะส่งออก
+No missing channels to export.::ไม่มีช่องทางที่ขาดหายไปในการส่งออก
+No playlist found::ไม่พบเพลย์ลิสต์
+No second playlist loaded.::ไม่มีการโหลดเพลย์ลิสต์ที่สอง
+No stream URL available for this channel.::ไม่มี URL สตรีมสำหรับช่องนี้
+No text to import.::ไม่มีข้อความที่จะนำเข้า
+No updates available.::ไม่มีการอัปเดต
+Normal speed (1x)::ความเร็วปกติ (1x)
+Not connected to the box.::ไม่ได้เชื่อมต่อกับกล่อง
+Now::ตอนนี้
+OK::ตกลง
+Online Playlist::เพลย์ลิสต์ออนไลน์
+Online playlist – select from GitHub repository (auto‑refresh).::เพลย์ลิสต์ออนไลน์ – เลือกจากพื้นที่เก็บข้อมูล GitHub (รีเฟรชอัตโนมัติ)
+Only in First::เฉพาะในเฟิร์สเท่านั้น
+Only in Second::เฉพาะในวินาทีเท่านั้น
+Open File...::เปิดไฟล์...
+Open from URL::เปิดจาก URL
+Open Playlist::เปิดเพลย์ลิสต์
+Pause/Resume live stream::หยุดชั่วคราว / สตรีมสดต่อ
+Paused::หยุดชั่วคราว
+PayPal::เพย์พาล
+Picture-in-Picture mode::โหมดภาพซ้อนภาพ
+Play/Pause::เล่น/หยุดชั่วคราว
+Player Media Controls::การควบคุมสื่อของเครื่องเล่น
+Playing Media::กำลังเล่นสื่อ
+Playlist & Groups::เพลย์ลิสต์และกลุ่ม
+Playlist closed::เพลย์ลิสต์ปิดแล้ว
+Playlist Comparison::การเปรียบเทียบเพลย์ลิสต์
+Playlist Editor::ตัวแก้ไขเพลย์ลิสต์
+Playlist Loading::กำลังโหลดเพลย์ลิสต์
+Playlist Management::การจัดการเพลย์ลิสต์
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::พื้นที่เก็บข้อมูลเพลย์ลิสต์: OwnerPlugins/TivuStreamList (สตรีมภาษาอิตาลีและต่างประเทศ)
+Please select a program first.::กรุณาเลือกโปรแกรมก่อน
+Preview (first 5 channels)::ดูตัวอย่าง (5 ช่องแรก)
+Preview error: {0}::ข้อผิดพลาดในการดูตัวอย่าง: {0}
+Program Details::รายละเอียดโปรแกรม
+Ready::พร้อม
+Recent::ล่าสุด
+Recent files – quick access to last 5 opened playlists.::ไฟล์ล่าสุด - เข้าถึงเพลย์ลิสต์ที่เปิดล่าสุด 5 รายการอย่างรวดเร็ว
+Recent playlists::เพลย์ลิสต์ล่าสุด
+Refresh Code::รีเฟรชโค้ด
+Refresh EPG::รีเฟรช EPG
+Refresh EPG List::รีเฟรชรายการ EPG
+Refresh from GitHub::รีเฟรชจาก GitHub
+Refresh List::รีเฟรชรายการ
+Reload GUI::โหลด GUI อีกครั้ง
+Remove Command::ลบคำสั่ง
+Rename Group::เปลี่ยนชื่อกลุ่ม
+Rename group '{0}' to:::เปลี่ยนชื่อกลุ่ม '{0}' เป็น:
+Repository::พื้นที่เก็บข้อมูล
+Reset Order::รีเซ็ตคำสั่งซื้อ
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::ผลลัพธ์: 'เฉพาะในครั้งแรก', 'เฉพาะในวินาที', 'ทั้งสองอย่าง' – พร้อมรหัสสีสถานะ
+Save::บันทึก
+SAVE::บันทึก
+Save – persists all settings without reloading current playlist.::บันทึก – คงการตั้งค่าทั้งหมดไว้โดยไม่ต้องโหลดเพลย์ลิสต์ปัจจุบันซ้ำ
+Save as...::บันทึกเป็น...
+Save current playlist to a new M3U file::บันทึกเพลย์ลิสต์ปัจจุบันเป็นไฟล์ M3U ใหม่
+Save Favorites::บันทึกรายการโปรด
+Save Mapping::บันทึกการทำแผนที่
+Save Playlist::บันทึกเพลย์ลิสต์
+Save Status::บันทึกสถานะ
+Saved::บันทึกแล้ว
+Search channel::ช่องทางการค้นหา
+Search channels by name::ค้นหาช่องตามชื่อ
+Search channels...::ค้นหาช่อง...
+sec::วินาที
+Second playlist loaded: {0} channels::โหลดเพลย์ลิสต์ที่สองแล้ว: {0} ช่อง
+Select a channel to play.::เลือกช่องที่จะเล่น
+Select a playlist first.::เลือกเพลย์ลิสต์ก่อน
+Select target group:::เลือกกลุ่มเป้าหมาย:
+Select Theme::เลือกธีม
+Selected theme is saved and applied on restart.::ธีมที่เลือกจะถูกบันทึกและนำไปใช้เมื่อรีสตาร์ท
+Send::ส่ง
+Send playlist to Enigma2 decoder::ส่งเพลย์ลิสต์ไปยังตัวถอดรหัส Enigma2
+Send to Enigma2::ส่งไปที่ Enigma2
+Settings::การตั้งค่า
+Show List::แสดงรายการ
+Show only channels marked as favorites::แสดงเฉพาะช่องที่ทำเครื่องหมายว่าเป็นรายการโปรด
+Show or hide the channel list::แสดงหรือซ่อนรายการช่อง
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::ขอขอบคุณเป็นพิเศษสำหรับชุมชน CORVOBOYS & LinuxSat-Support สำหรับการทดสอบและการสนับสนุน
+Start::เริ่ม
+Status::สถานะ
+Stop::หยุด
+Stopped::หยุดแล้ว
+Stream URL::URL สตรีม
+Stream URLs::สตรีม URL
+Success::ความสำเร็จ
+Support::สนับสนุน
+Support the developer::สนับสนุนนักพัฒนา
+Target Field::สนามเป้าหมาย
+Telnet command:::คำสั่งเทลเน็ต:
+Telnet Commander::ผู้บัญชาการเทลเน็ต
+Telnet Config::การกำหนดค่าเทลเน็ต
+Telnet Configuration::การกำหนดค่าเทลเน็ต
+Telnet Console::คอนโซลเทลเน็ต
+Telnet host not configured. Please set it in Settings.::ไม่ได้กำหนดค่าโฮสต์ Telnet กรุณาตั้งค่าในการตั้งค่า
+Telnet password is empty. Do you want to continue?::รหัสผ่าน Telnet ว่างเปล่า คุณต้องการดำเนินการต่อหรือไม่?
+Telnet username not configured. Please set it in Settings.::ไม่ได้กำหนดค่าชื่อผู้ใช้ Telnet กรุณาตั้งค่าในการตั้งค่า
+Thanks to::ขอบคุณ
+Theme picker::เครื่องมือเลือกธีม
+Theme picker – accessible via Tools menu on main toolbar.::ตัวเลือกธีม – เข้าถึงได้จากเมนูเครื่องมือบนแถบเครื่องมือหลัก
+Themes::ธีมส์
+Time::เวลา
+Title::ชื่อ
+Tools::เครื่องมือ
+Total::ทั้งหมด
+Total channels in loaded playlist::ช่องทั้งหมดในเพลย์ลิสต์ที่โหลด
+TV Guide (EPG)::ทีวีไกด์ (EPG)
+TvgId::TvgId
+Type channel name to filter::พิมพ์ชื่อช่องที่จะกรอง
+UI: MaterialDesignThemes.Wpf::UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::ไม่สามารถตรวจจับรูปแบบอัตโนมัติได้ โปรดเลือก JSON หรือ M3U จากเมนูแบบเลื่อนลงแล้วลองอีกครั้ง
+Unable to find version in remote project file.::ไม่พบเวอร์ชันในไฟล์โครงการระยะไกล
+Unsupported format. Please select JSON or M3U.::รูปแบบที่ไม่รองรับ โปรดเลือก JSON หรือ M3U
+Update::อัปเดต
+Update complete. Restarting...::การอัปเดตเสร็จสมบูรณ์ กำลังรีสตาร์ท...
+Update Error::ข้อผิดพลาดในการอัปเดต
+Update failed: ::การอัปเดตล้มเหลว:
+Updated::อัปเดตแล้ว
+Updates::อัพเดท
+Upload Error::ข้อผิดพลาดในการอัปโหลด
+URL::URL
+URL (primary)::URL (หลัก)
+URL Check::ตรวจสอบ URL
+URL list (one per line)::รายการ URL (หนึ่งรายการต่อบรรทัด)
+URLs & Status::URL และสถานะ
+Version::เวอร์ชัน
+Version {0}.{1}.{2}::เวอร์ชัน {0}.{1}.{2}
+Version unknown::ไม่ทราบเวอร์ชัน
+Waiting for LiveGardenTVPlus to close...::กำลังรอ LiveGardenTVPlus ปิด...
+Warning::คำเตือน
+WebView2: Microsoft Edge WebView2::WebView2: ไมโครซอฟต์ขอบ WebView2
+Youtube URL::URL ยูทูป
+Youtube URLs::URL ของ YouTube

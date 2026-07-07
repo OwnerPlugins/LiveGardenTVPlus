@@ -80,6 +80,7 @@ namespace LiveGardenTVPlus.Views
                 EpgCombo.SelectedValuePath = "Value";
 
                 var prefs = UserPreferences.Load();
+
                 if (!string.IsNullOrEmpty(prefs.EpgUrl))
                 {
                     var existing = _epgSources.Find(x => x.Value == prefs.EpgUrl);
@@ -87,6 +88,22 @@ namespace LiveGardenTVPlus.Views
                         EpgCombo.SelectedItem = existing;
                     else
                         EpgCombo.Text = prefs.EpgUrl;
+                }
+                else
+                {
+                    var defaultItem = _epgSources.FirstOrDefault(x => x.Key == "IT1");
+                    if (defaultItem.Key != null)
+                    {
+                        EpgCombo.SelectedItem = defaultItem;
+                        prefs.EpgUrl = defaultItem.Value;
+                        prefs.Save();
+                    }
+                    else if (_epgSources.Count > 0)
+                    {
+                        EpgCombo.SelectedItem = _epgSources.First();
+                        prefs.EpgUrl = _epgSources.First().Value;
+                        prefs.Save();
+                    }
                 }
             }
             catch (Exception ex)

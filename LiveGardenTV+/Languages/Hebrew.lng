@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): (התנדבותית לחלוטין - אין תכונות חסומות)
-(No description): (אין תיאור)
-• Add / rename / delete groups.: • הוסף / שנה שם / מחק קבוצות.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • מחוון מאגר: כוונן מאגר HLS (1-10 שניות).
-• Check URL availability (only visible channels).: • בדוק את זמינות כתובת האתר (רק ערוצים גלויים).
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • ערוך שמות ערוצים, קבוצות, כתובות אתרים, לוגואים, tvg-id, מדינה, שפות, מועדפים.
-• Edit multiple URLs per channel (popup window).: • ערוך מספר כתובות אתרים לכל ערוץ (חלון קופץ).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • העשרה ב-EPG: מוסיף tvg-id חסר באמצעות התאמה מטושטשת.
-• EPG info displayed in status bar for current channel.: • מידע EPG מוצג בשורת המצב עבור הערוץ הנוכחי.
-• Export OK / FAIL / filtered lists as M3U or JSON.: • ייצא רשימות אישור / נכשל / מסוננות כ-M3U או JSON.
-• Fetch logos from remote repository (OwnerPlugins/logos).: • אחזר סמלי לוגו ממאגר מרוחק (OwnerPlugins/לוגו).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • ממשק משתמש במסך מלא: מסתיר את סרגל הצד ואת שורת המצב (ESC ליציאה).
-• Hide/Show channel list button.: • לחצן הסתר/הצג רשימת ערוצים.
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • ייבוא ​​JSON (מקומי או כתובת URL) עם מיפוי שדות גמיש (זיהוי אוטומטי, שמור מיפוי).
-• Picture‑in‑Picture (PIP) button.: • לחצן תמונה-בתמונה (PIP).
-• Playback speed: 0.5x, 1x, 2x buttons.: • מהירות השמעה: כפתורים 0.5x, 1x, 2x.
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • מיין כל עמודה על ידי לחיצה על הכותרת; השתמש ב'אפס הזמנה' כדי לחזור להזמנה המקורית.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • הסטת זמן: השהה שידור חי; גרור את המחוון כדי לחפש אחורה; לחץ על 'חי' כדי לחזור.
-▶ Play Media: ▶ הפעל מדיה
-◀ Previous: ◀ הקודם
-16 colour themes + Light/Dark variants.: 16 ערכות נושא צבע + גרסאות בהירות/כהות.
-A new version is available. Do you want to update now?: גרסה חדשה זמינה. רוצה לעדכן עכשיו?
-Access via 'Compare' button in Playlist Editor or Tools menu.: גישה דרך כפתור 'השוואה' בעורך רשימות השמעה או בתפריט כלים.
-Access via 'Edit Playlist' button on main toolbar.: גישה דרך כפתור 'ערוך רשימת השמעה' בסרגל הכלים הראשי.
-Actions: פעולות
-Add Command: הוסף פקודה
-Add Group: הוסף קבוצה
-Add Mapping: הוסף מיפוי
-Adjust buffer size (1-10 seconds): התאם את גודל המאגר (1-10 שניות)
-Advanced IDs: תעודות זהות מתקדמות
-Application status: סטטוס הבקשה
-Apply: לִפְנוֹת
-Apply / Import: החל/ייבוא
-Apply changes: החל שינויים
-Apply Filters: החל מסננים
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: האם אתה בטוח שברצונך לטעון מחדש את ה-Enigma2 GUI?\n\nהממשק יופעל מחדש (מסך שחור למשך מספר שניות).
-Auto (recommended): אוטומטי (מומלץ)
-Auto-detect: זיהוי אוטומטי
-Automatic check on startup – or click 'Check for updates' in Tools menu.: בדיקה אוטומטית בעת האתחול - או לחץ על 'חפש עדכונים' בתפריט כלים.
-Bouquet Name: שם זר
-Bouquet sent and Enigma2 channel list reloaded.: זר נשלח ורשימת הערוצים של Enigma2 נטענה מחדש.
-Buffer (seconds): מאגר (שניות)
-Buffer size – adjust HLS buffer seconds.: גודל מאגר - התאם שניות חיץ של HLS.
-Cache: מטמון
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: תיקיית מטמון: %TEMP%\\LiveGardenTVPlus\\epg_cache
-Cancel: לְבַטֵל
-CANCEL: לְבַטֵל
-Cannot open browser: לא ניתן לפתוח את הדפדפן
-Category: קָטֵגוֹרִיָה
-Changelog: יומן שינויים
-Channel Details: פרטי הערוץ
-Channel Down: ערוץ למטה
-Channel Info: מידע על הערוץ
-Channel Name: שם הערוץ
-Channel Up: ערוץ למעלה
-channels from: ערוצים מ
-channels from JSON: ערוצים מ-JSON
-channels from JSON URL: ערוצים מ-URL של JSON
-channels from URL: ערוצים מ-URL
-Check Duplicates: סמן כפילויות
-Check for updates: בדוק אם יש עדכונים
-Check URLs: בדוק כתובות אתרים
-Clear: בָּרוּר
-Clear EPG Cache: נקה מטמון EPG
-Clear Filters: נקה מסננים
-Clear search: נקה חיפוש
-Click for details: לחץ לפרטים
-Close: לִסְגוֹר
-Code: קוד
-Code copied to clipboard.: הקוד הועתק ללוח.
-Command name:: שם הפקודה:
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: קהילה ובדיקות: CorvoBoys (corvoboys.org) ו-LinuxSat-Support.com
-Compare: לְהַשְׁווֹת
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: השווה לפי: עדיפות (שם → קבוצה →tvg-id), שם, קבוצה (תלוי רישיות) או TvgId.
-Compare Playlists: השווה רשימות השמעה
-Compare two playlists – load first (current playlist) and second (from file or URL).: השווה בין שני רשימות השמעה - טען ראשון (רשימת השמעה נוכחית) והשני (מהקובץ או כתובת האתר).
-Compare...: לְהַשְׁווֹת...
-Comparison results: {0} channels: תוצאות השוואה: {0} ערוצים
-Configuration Missing: תצורה חסרה
-Confirm Delete: אשר את המחיקה
-Confirm Reload: אשר טען מחדש
-Connect: לְחַבֵּר
-Connected: מְחוּבָּר
-Copied: מוּעֲתָק
-Copy: לְהַעְתִיק
-CORVOBOYS.ORG: CORVOBOYS.ORG
-Country: מְדִינָה
-Credits: קרדיטים
-Delete channel '{0}'?: למחוק את הערוץ '{0}'?
-Delete Group: מחק קבוצה
-Delete Selected: מחק את נבחרות
-Deleted: נמחק
-Description: תֵאוּר
-Details: פרטים
-Developed by Lululla: פותח על ידי Lululla
-Developer: Lululla: מפתח: Lululla
-Disconnect: לְנַתֵק
-Disconnected: מְנוּתָק
-Display as: : הצג כ:
-Do you want to load this edited playlist now?: האם אתה רוצה לטעון את הפלייליסט הערוך הזה עכשיו?
-Double speed (2x): מהירות כפולה (2x)
-Downloading playlist...: מוריד רשימת השמעה...
-Downloads ZIP, replaces files, restarts app – settings preserved.: מוריד ZIP, מחליף קבצים, מפעיל מחדש את האפליקציה - ההגדרות נשמרות.
-Drag & drop – drop M3U or JSON files directly onto main window.: גרור ושחרר - שחרר קבצי M3U או JSON ישירות לחלון הראשי.
-Drag to seek back in buffer: גרור כדי לחפש בחזרה במאגר
-Duplicate URLs found:\n\n: נמצאו כתובות אתרים כפולות:\n\n
-Edit Command: ערוך פקודה
-Edit command name:: ערוך שם פקודה:
-Edit Playlist: ערוך רשימת השמעה
-Edit telnet command:: ערוך פקודת telnet:
-Edit URLs: ערוך כתובות אתרים
-Empty Password: סיסמה ריקה
-End: סוֹף
-Enrich with EPG: העשרה ב-EPG
-Enter bouquet name (without spaces):: הזן שם זר (ללא רווחים):
-Enter JSON URL:: הזן כתובת URL של JSON:
-Enter new group name:: הזן שם קבוצה חדש:
-Enter playlist URL (JSON or M3U):: הזן כתובת אתר של רשימת השמעה (JSON או M3U):
-Enter playlist URL (M3U or JSON):: הזן כתובת אתר של רשימת השמעה (M3U או JSON):
-EPG: EPG
-Epg & Favorites: EPG ומועדפים
-EPG & Favorites: EPG ומועדפים
-Epg & Logos: EPG ולוגו
-EPG & Logos: EPG ולוגו
-EPG cache cleared successfully.: מטמון ה-EPG נוקה בהצלחה.
-EPG Details: פרטי EPG
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: מדריך EPG - כפתור בסרגל הכלים הראשי מציג רשת מלאה עם פרטי תוכנית (לחץ פעמיים למידע).
-EPG Matching Threshold: סף התאמת EPG
-EPG Source: : מקור EPG:
-EPG source – can be set in Settings (epgshare01 or custom URL).: מקור EPG - ניתן להגדיר בהגדרות (epgshare01 או כתובת URL מותאמת אישית).
-EPG source – choose XMLTV file or enter custom URL.: מקור EPG - בחר קובץ XMLTV או הזן כתובת אתר מותאמת אישית.
-EPG Source Missing: חסר מקור EPG
-Error: שְׁגִיאָה
-Error clearing cache: {0}: שגיאה בניקוי המטמון: {0}
-Error loading: שגיאה בטעינה
-Error loading EPG list: {0}: שגיאה בטעינת רשימת EPG: {0}
-Error loading file: {0}: שגיאה בטעינת הקובץ: {0}
-Error loading playlists: {0}: שגיאה בטעינת רשימות השמעה: {0}
-Error loading URL: {0}: שגיאה בטעינת כתובת אתר: {0}
-ERROR: player.html not found.: שגיאה: player.html לא נמצא.
-Exit: יְצִיאָה
-Export all: ייצא הכל
-Export Favorites: ייצא מועדפים
-Export Filtered JSON: ייצא JSON מסונן
-Export Filtered M3U: ייצוא מסונן M3U
-Export JSON: ייצא JSON
-Export KO: ייצוא KO
-Export missing: יצוא חסר
-Export OK: ייצוא אישור
-Export only favorite channels to a new M3U file: ייצא רק ערוצים מועדפים לקובץ M3U חדש
-Export results as JSON or M3U – export missing channels or all channels.: ייצא תוצאות כ-JSON או M3U - ייצא ערוצים חסרים או את כל הערוצים.
-Export selected: ייצוא נבחר
-Export Selected: ייצוא נבחרים
-Exported: מְיוּצָא
-Exported {0} channels to {1}: ייצאו {0} ערוצים אל {1}
-Extracting update...: מחלץ עדכון...
-Failed to download playlist: הורדת הפלייליסט נכשלה
-Failed to load playlist: טעינת הפלייליסט נכשלה
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: עדכון bouquets.tv נכשל. אנא בדוק את הרשאות הקובץ במכשיר Enigma2.
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: העלאת זר פרחים נכשלה. אנא בדוק את הגדרות ה-Telnet שלך (מארח, יציאה, שם משתמש, סיסמה) ונסה שוב.
-Favorite: מוּעֲדָף
-Favorites only: מועדפים בלבד
-Fetch Logos: אחזר לוגו
-File {0} already exists. Overwrite?: הקובץ {0} כבר קיים. להחליף?
-File exists: הקובץ קיים
-Filters: מסננים
-Format Detection: זיהוי פורמטים
-Fullscreen: מסך מלא
-Fullscreen (hide UI) - press ESC to exit: מסך מלא (הסתר ממשק משתמש) - לחץ על ESC כדי לצאת
-Geo & Country: Geo & Country
-GeoBlocked: GeoBlocked
-GitHub Error: שגיאת GitHub
-Go back to live: תחזור לחיות
-Grid: רֶשֶׁת
-Group: קְבוּצָה
-Half speed (0.5x): חצי מהירות (0.5x)
-Help: עֶזרָה
-Hide List: הסתר רשימה
-HLS playback: hls.js (MIT license): השמעת HLS: hls.js (רישיון MIT)
-Image: תְמוּנָה
-Import: יְבוּא
-Import cancelled or no channels mapped.: הייבוא ​​בוטל או שלא מופו ערוצים.
-Import Error: שגיאת ייבוא
-Import error: {0}: שגיאת ייבוא: {0}
-Import from URL: ייבא מ-URL
-Import JSON: ייבוא ​​JSON
-Import JSON from URL: ייבא JSON מ-URL
-Import Local: ייבוא ​​מקומי
-Imported {0} channels from code.: ייבאו {0} ערוצים מהקוד.
-Imported {0} channels from JSON via mapping.: ייבאו {0} ערוצים מ-JSON באמצעות מיפוי.
-Imported {0} channels from URL.: ייבאו {0} ערוצים מ-URL.
-In Both: בשניהם
-Info: מידע
-Info on: מידע על
-Invalid JSON: {0}: JSON לא חוקי: {0}
-Invalid playlist URL.: כתובת אתר לא חוקית של פלייליסט.
-Invalid URL.: כתובת אתר לא חוקית.
-Json: Json
-JSON: JSON
-JSON parsing error: {0}: שגיאת ניתוח JSON: {0}
-JSON Property: נכס JSON
-Ko-fi: קָפֶה
-Language: שָׂפָה
-Language – change UI language dynamically (translations in Languages folder).: שפה - שנה את שפת המשתמש באופן דינמי (תרגומים בתיקיית שפות).
-Languages: שפות
-Languages (comma): שפות (פסיק)
-LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help: עזרה של LiveGardenTVPlus
-LOAD: לִטעוֹן
-Load a playlist first.: טען תחילה רשימת השמעה.
-Load a second playlist first.: טען תחילה רשימת השמעה שנייה.
-Load File: טען קובץ
-Load from file...: טען מהקובץ...
-Load from URL: טען מ-URL
-Load from URL...: טען מכתובת האתר...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: טען קובץ M3U/JSON מקומי - באמצעות כפתור 'טען קובץ' (סרגל כלים) או 'פתח קובץ' בעורך.
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: טען כתובת URL מקוונת של M3U/JSON - כפתור 'טען באינטרנט' (סרגל כלים) או 'פתח מכתובת אתר' בעורך.
-Load playlist file (M3U/JSON) from your computer: טען קובץ רשימת השמעה (M3U/JSON) מהמחשב שלך
-Loaded: טָעוּן
-Loaded {0} channels from JSON file via mapping.: נטען {0} ערוצים מקובץ JSON באמצעות מיפוי.
-Loaded {0} channels from JSON URL.: נטען {0} ערוצים מ-URL JSON.
-Loaded {0} channels from M3U file.: נטען {0} ערוצים מקובץ M3U.
-Loaded {0} channels from M3U URL.: נטען {0} ערוצים מ-URL M3U.
-Loading...: טְעִינָה...
-Logo: סֵמֶל
-Logo Picker – in editor, click '...' to choose logo from gallery.: בוחר לוגו - בעורך, לחץ על '...' כדי לבחור לוגו מהגלריה.
-Logo Preview: תצוגה מקדימה של לוגו
-Logo URL: כתובת אתר של לוגו
-Logos – automatically download from GitHub repository (Settings → Logos Source).: לוגו - הורדה אוטומטית ממאגר GitHub (הגדרות → מקור לוגו).
-Logos Matching Threshold: סף התאמת לוגו
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: מאגר לוגואים - בחר בעלים/מאגר/נתיב (ברירת מחדל OwnerPlugins/לוגו).
-Logos Source: מקור לוגו
-Logos Subfolder: תיקיית משנה לוגו
-M3U: M3U
-M3U parsing error: {0}: שגיאת ניתוח M3U: {0}
-Map JSON properties to channel fields:: מיפוי מאפייני JSON לשדות ערוצים:
-Mapping saved for future imports of this file.: המיפוי נשמר עבור ייבוא ​​עתידי של קובץ זה.
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: ספי התאמה - הגדר רגישות להתאמה מטושטשת עבור EPG ולוגו.
-Mini Player: מיני נגן
-Move to Group: העבר לקבוצה
-Moved: נִרגָשׁ
-Name: שֵׁם
-Nanoid: ננואיד
-Network error: שגיאת רשת
-New Playlist: רשימת השמעה חדשה
-Next: הַבָּא
-Next ▶: הבא ▶
-No .m3u files found on GitHub repository.: לא נמצאו קבצי .m3u במאגר GitHub.
-No cache folder found.: לא נמצאה תיקיית מטמון.
-No channel selected: לא נבחר ערוץ
-No channels could be mapped or import cancelled.: לא ניתן למפות ערוצים או לבטל את הייבוא.
-No channels could be mapped. Check your mapping rules.: לא ניתן היה למפות ערוצים. בדוק את כללי המיפוי שלך.
-No channels found in JSON.: לא נמצאו ערוצים ב-JSON.
-No channels found in M3U.: לא נמצאו ערוצים ב-M3U.
-No channels loaded from JSON URL.: לא נטענו ערוצים מ-URL של JSON.
-No channels loaded from M3U URL.: לא נטענו ערוצים מ-URL M3U.
-No channels loaded from M3U.: לא נטענו ערוצים מ-M3U.
-No channels loaded.: לא נטענו ערוצים.
-No channels mapped: לא מופו ערוצים
-No channels selected.: לא נבחרו ערוצים.
-No channels to import.: אין ערוצים לייבא.
-No duplicate URLs found.: לא נמצאו כתובות URL כפולות.
-No EPG data: אין נתוני EPG
-No EPG information available for this channel.: אין מידע על EPG זמין עבור ערוץ זה.
-No EPG source configured. Please select one from the combo or go to Settings.: לא הוגדר מקור EPG. אנא בחר אחד מהשילוב או עבור אל הגדרות.
-No EPG source configured. Would you like to open settings to select one?: לא הוגדר מקור EPG. האם תרצה לפתוח הגדרות כדי לבחור אחת?
-No favorite channels to export.: אין ערוצים מועדפים לייצוא.
-No missing channels to export.: אין ערוצים חסרים לייצוא.
-No playlist found: לא נמצא רשימת השמעה
-No second playlist loaded.: לא נטען רשימת השמעה שנייה.
-No stream URL available for this channel.: אין כתובת אתר זמינה עבור ערוץ זה.
-No text to import.: אין טקסט לייבא.
-No updates available.: אין עדכונים זמינים.
-Normal speed (1x): מהירות רגילה (1x)
-Not connected to the box.: לא מחובר לקופסה.
-Now: עַכשָׁיו
-OK: בְּסֵדֶר
-Online Playlist: רשימת השמעה מקוונת
-Online playlist – select from GitHub repository (auto‑refresh).: רשימת השמעה מקוונת - בחר מתוך מאגר GitHub (רענון אוטומטי).
-Only in First: רק ב-First
-Only in Second: רק בשנייה
-Open File...: פתח קובץ...
-Open from URL: פתח מ-URL
-Open Playlist: פתח את רשימת ההשמעה
-Pause/Resume live stream: השהה/המשך שידור חי
-Paused: מושהה
-PayPal: PayPal
-Picture-in-Picture mode: מצב תמונה-בתמונה
-Play/Pause: הפעל/השהה
-Player Media Controls: בקרות מדיה של נגן
-Playing Media: משחק מדיה
-Playlist & Groups: פלייליסט וקבוצות
-Playlist Comparison: השוואת פלייליסטים
-Playlist Editor: עורך רשימות השמעה
-Playlist Loading: פלייליסט טוען
-Playlist Management: ניהול רשימת השמעה
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): מאגר רשימות השמעה: OwnerPlugins/TivuStreamList (זרמים איטלקיים ובינלאומיים)
-Please select a program first.: אנא בחר תחילה תוכנית.
-Preview (first 5 channels): תצוגה מקדימה (5 הערוצים הראשונים)
-Preview error: {0}: שגיאת תצוגה מקדימה: {0}
-Program Details: פרטי התוכנית
-Ready: מוּכָן
-Ready.: מוּכָן.
-Recent: לאחרונה
-Recent files – quick access to last 5 opened playlists.: קבצים אחרונים - גישה מהירה ל-5 הפלייליסטים האחרונים שנפתחו.
-Recent playlists: רשימות השמעה אחרונות
-Refresh Code: רענן קוד
-Refresh EPG: רענן את ה-EPG
-Refresh EPG List: רענן את רשימת ה-EPG
-Refresh from GitHub: רענן מ-GitHub
-Refresh List: רענן רשימה
-Reload GUI: טען מחדש את ה-GUI
-Remove Command: הסר פקודה
-Rename Group: שנה את שם הקבוצה
-Rename group '{0}' to:: שנה את שם הקבוצה '{0}' ל:
-Repository: מאגר
-Reset Order: אפס סדר
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: תוצאות: 'רק במקום הראשון', 'רק בשני', 'בשניהם' - עם קידוד צבעי סטטוס.
-Save: לְהַצִיל
-SAVE: לְהַצִיל
-Save – persists all settings without reloading current playlist.: שמור - ממשיך את כל ההגדרות מבלי לטעון מחדש את רשימת ההשמעה הנוכחית.
-Save as...: שמור בשם...
-Save current playlist to a new M3U file: שמור את רשימת ההשמעה הנוכחית לקובץ M3U חדש
-Save Mapping: שמור מיפוי
-Save Playlist: שמור רשימת השמעה
-Save Status: שמור סטטוס
-Saved: נשמר
-Search channel: : חיפוש ערוץ:
-Search channels by name: חפש ערוצים לפי שם
-Search channels...: חפש ערוצים...
-sec: שניות
-Second playlist loaded: {0} channels: פלייליסט שני נטען: {0} ערוצים
-Select a channel to play.: בחר ערוץ להפעלה.
-Select a playlist first.: תחילה בחר רשימת השמעה.
-Select target group:: בחר קבוצת יעד:
-Select Theme: בחר ערכת נושא
-Selected theme is saved and applied on restart.: ערכת הנושא שנבחרה נשמרת ומוחלת בהפעלה מחדש.
-Send: לִשְׁלוֹחַ
-Send playlist to Enigma2 decoder: שלח רשימת השמעה למפענח Enigma2
-Send to Enigma2: שלח לאניגמה2
-Settings: הגדרות
-Show List: הצג רשימה
-Show only channels marked as favorites: הצג רק ערוצים המסומנים כמועדפים
-Show or hide the channel list: הצג או הסתר את רשימת הערוצים
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: תודה מיוחדת לקהילות התמיכה של CORVOBOYS ו-LinuxSat על הבדיקות והתמיכה.
-Start: הַתחָלָה
-Status: סטָטוּס
-Stop: לְהַפְסִיק
-Stopped: נֶעצָר
-Stream URL: כתובת אתר של זרם
-Stream URLs: הזרם כתובות אתרים
-Success: הַצלָחָה
-Support: תְמִיכָה
-Support the developer: תמכו במפתח
-Target Field: שדה היעד
-Telnet command:: פקודת Telnet:
-Telnet Commander: מפקד טלנט
-Telnet Config: תצורת Telnet
-Telnet Console: קונסולת Telnet
-Telnet host not configured. Please set it in Settings.: מארח Telnet לא מוגדר. נא להגדיר זאת בהגדרות.
-Telnet password is empty. Do you want to continue?: סיסמת Telnet ריקה. האם אתה רוצה להמשיך?
-Telnet username not configured. Please set it in Settings.: שם המשתמש של Telnet לא הוגדר. נא להגדיר זאת בהגדרות.
-Thanks to: בזכות
-Theme picker: בוחר נושאים
-Theme picker – accessible via Tools menu on main toolbar.: בוחר ערכות נושא - נגיש דרך תפריט כלים בסרגל הכלים הראשי.
-Themes: ערכות נושא
-Time: זְמַן
-Title: כּוֹתֶרֶת
-Tools: כְּלֵי עֲבוֹדָה
-Total: סַך הַכֹּל
-Total channels in loaded playlist: סה"כ ערוצים בפלייליסט שנטען
-TV Guide (EPG): מדריך טלוויזיה (EPG)
-TvgId: TvgId
-Type channel name to filter: הקלד את שם הערוץ לסינון
-UI: MaterialDesignThemes.Wpf: ממשק משתמש: MaterialDesignThemes.Wpf
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: לא ניתן לזהות פורמט אוטומטי. בחר JSON או M3U מהתפריט הנפתח ונסה שוב.
-Unable to find version in remote project file.: לא ניתן למצוא גרסה בקובץ הפרויקט המרוחק.
-Unsupported format. Please select JSON or M3U.: פורמט לא נתמך. אנא בחר JSON או M3U.
-Update: לְעַדְכֵּן
-Update complete. Restarting...: העדכון הושלם. מופעל מחדש...
-Update Error: שגיאת עדכון
-Update failed: : העדכון נכשל:
-Updates: עדכונים
-Upload Error: שגיאת העלאה
-URL: כתובת אתר
-URL (primary): כתובת אתר (ראשי)
-URL Check: בדיקת כתובת URL
-URL list (one per line): רשימת כתובות אתרים (אחת בכל שורה)
-URLs & Status: כתובות אתרים וסטטוס
-Version: גִרְסָה
-Version {0}.{1}.{2}: גרסה {0}.{1}.{2}
-Version unknown: גרסה לא ידועה
-Waiting for LiveGardenTVPlus to close...: מחכה לסגירת LiveGardenTVPlus...
-Warning: אַזהָרָה
-WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
-Youtube URL: כתובת האתר של YouTube
-Youtube URLs: כתובות אתרים של YouTube
+(Completely voluntary – no features are blocked)::(התנדבותית לחלוטין - אין תכונות חסומות)
+(No description)::(אין תיאור)
+• Add / rename / delete groups.::• הוסף/שנה שם/מחיקת קבוצות.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• מחוון מאגר: כוונן מאגר HLS (1-10 שניות).
+• Check URL availability (only visible channels).::• בדוק את זמינות כתובת האתר (רק ערוצים גלויים).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• ערוך שמות ערוצים, קבוצות, כתובות אתרים, לוגואים, tvg-id, מדינה, שפות, מועדפים.
+• Edit multiple URLs per channel (popup window).::• ערוך מספר כתובות אתרים לכל ערוץ (חלון קופץ).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• העשרה ב-EPG: מוסיף tvg-id חסר באמצעות התאמה מטושטשת.
+• EPG info displayed in status bar for current channel.::• מידע EPG מוצג בשורת המצב עבור הערוץ הנוכחי.
+• Export OK / FAIL / filtered lists as M3U or JSON.::• ייצא רשימות אישור / נכשל / מסוננות כ-M3U או JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).::• אחזר סמלי לוגו ממאגר מרוחק (OwnerPlugins/לוגו).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• ממשק משתמש במסך מלא: מסתיר את סרגל הצד ואת שורת המצב (ESC ליציאה).
+• Hide/Show channel list button.::• לחצן הסתר/הצג רשימת ערוצים.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• ייבוא ​​JSON (מקומי או כתובת URL) עם מיפוי שדות גמיש (זיהוי אוטומטי, שמור מיפוי).
+• Picture‑in‑Picture (PIP) button.::• לחצן תמונה-בתמונה (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.::• מהירות השמעה: כפתורים 0.5x, 1x, 2x.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• מיין כל עמודה על ידי לחיצה על הכותרת; השתמש ב'אפס הזמנה' כדי לחזור להזמנה המקורית.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• הסטת זמן: השהה שידור חי; גרור את המחוון כדי לחפש אחורה; לחץ על 'חי' כדי לחזור.
+▶ Play Media::▶ הפעל מדיה
+◀ Previous::◀ הקודם
+16 colour themes + Light/Dark variants.::16 ערכות נושא צבע + גרסאות בהירות/כהות.
+A new version is available. Do you want to update now?::גרסה חדשה זמינה. רוצה לעדכן עכשיו?
+Access via 'Compare' button in Playlist Editor or Tools menu.::גישה דרך כפתור 'השוואה' בעורך רשימות השמעה או בתפריט כלים.
+Access via 'Edit Playlist' button on main toolbar.::גישה דרך כפתור 'ערוך רשימת השמעה' בסרגל הכלים הראשי.
+Actions::פעולות
+Add Command::הוסף פקודה
+Add Group::הוסף קבוצה
+Add Mapping::הוסף מיפוי
+Adjust buffer size (1-10 seconds)::התאם את גודל המאגר (1-10 שניות)
+Advanced IDs::תעודות זהות מתקדמות
+All channels marked as favorites::כל הערוצים מסומנים כמועדפים
+All favorites removed::כל המועדפים הוסרו
+Application status::סטטוס הבקשה
+Apply::לִפְנוֹת
+Apply / Import::החל/ייבוא
+Apply changes::החל שינויים
+Apply Filters::החל מסננים
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::האם אתה בטוח שברצונך לטעון מחדש את ה-Enigma2 GUI?\n\nהממשק יופעל מחדש (מסך שחור למשך מספר שניות).
+Auto (recommended)::אוטומטי (מומלץ)
+Auto-detect::זיהוי אוטומטי
+Automatic check on startup – or click 'Check for updates' in Tools menu.::בדיקה אוטומטית בעת האתחול - או לחץ על 'חפש עדכונים' בתפריט כלים.
+Bouquet Name::שם זר
+Bouquet sent and Enigma2 channel list reloaded.::זר נשלח ורשימת הערוצים של Enigma2 נטענה מחדש.
+Buffer (seconds)::מאגר (שניות)
+Buffer size – adjust HLS buffer seconds.::גודל מאגר - התאם שניות חיץ של HLS.
+Cache::מטמון
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::תיקיית מטמון: %TEMP%\\LiveGardenTVPlus\\epg_cache
+Cancel::לְבַטֵל
+CANCEL::לְבַטֵל
+Cannot open browser::לא ניתן לפתוח את הדפדפן
+Category::קָטֵגוֹרִיָה
+Changelog::יומן שינויים
+Channel Details::פרטי הערוץ
+Channel Down::ערוץ למטה
+Channel Info::מידע על הערוץ
+Channel Name::שם הערוץ
+Channel Up::ערוץ למעלה
+Channel updated successfully.::הערוץ עודכן בהצלחה.
+channels from::ערוצים מ
+channels from JSON::ערוצים מ-JSON
+channels from JSON URL::ערוצים מ-URL של JSON
+channels from URL::ערוצים מ-URL
+Check Duplicates::סמן כפילויות
+Check for updates::בדוק אם יש עדכונים
+Check URLs::בדוק כתובות אתרים
+Clear::בָּרוּר
+Clear EPG Cache::נקה מטמון EPG
+Clear Filters::נקה מסננים
+Clear search::נקה חיפוש
+Click for details::לחץ לפרטים
+Close::לִסְגוֹר
+Close current playlist::סגור את רשימת ההשמעה הנוכחית
+Close Playlist::סגור רשימת השמעה
+Code::קוד
+Code copied to clipboard.::הקוד הועתק ללוח.
+Command name:::שם הפקודה:
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::קהילה ובדיקות: CorvoBoys (corvoboys.org) ו-LinuxSat-Support.com
+Compare::לְהַשְׁווֹת
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::השווה לפי: עדיפות (שם → קבוצה →tvg-id), שם, קבוצה (תלוי רישיות) או TvgId.
+Compare Playlists::השווה רשימות השמעה
+Compare two playlists – load first (current playlist) and second (from file or URL).::השווה בין שני רשימות השמעה - טען ראשון (רשימת השמעה נוכחית) והשני (מהקובץ או כתובת האתר).
+Compare...::לְהַשְׁווֹת...
+Comparison results: {0} channels::תוצאות השוואה: {0} ערוצים
+Configuration Missing::תצורה חסרה
+Confirm Delete::אשר את המחיקה
+Confirm Reload::אשר טען מחדש
+Connect::לְחַבֵּר
+Connected::מְחוּבָּר
+Copied::מוּעֲתָק
+Copy::לְהַעְתִיק
+CORVOBOYS.ORG::CORVOBOYS.ORG
+Country::מְדִינָה
+Credits::קרדיטים
+Delete channel '{0}'?::למחוק את הערוץ '{0}'?
+Delete Group::מחק קבוצה
+Delete Selected::מחק את נבחרות
+Deleted::נמחק
+Description::תֵאוּר
+Details::פרטים
+Developed by Lululla::פותח על ידי Lululla
+Developer: Lululla::מפתח: Lululla
+Disconnect::לְנַתֵק
+Disconnected::מְנוּתָק
+Display as::הצג כ
+Do you want to load this edited playlist now?::האם אתה רוצה לטעון את הפלייליסט הערוך הזה עכשיו?
+Double speed (2x)::מהירות כפולה (2x)
+Downloading playlist...::מוריד רשימת השמעה...
+Downloads ZIP, replaces files, restarts app – settings preserved.::מוריד ZIP, מחליף קבצים, מפעיל מחדש את האפליקציה - ההגדרות נשמרות.
+Drag & drop – drop M3U or JSON files directly onto main window.::גרור ושחרר - שחרר קבצי M3U או JSON ישירות לחלון הראשי.
+Drag to seek back in buffer::גרור כדי לחפש בחזרה במאגר
+Duplicate URLs found:\n\n::נמצאו כתובות אתרים כפולות:\n\n
+Edit Command::ערוך פקודה
+Edit command name:::ערוך שם פקודה:
+Edit Playlist::ערוך רשימת השמעה
+Edit telnet command:::ערוך פקודת telnet:
+Edit URLs::ערוך כתובות אתרים
+Empty Password::סיסמה ריקה
+End::סוֹף
+Enigma2::אניגמה2
+Enrich with EPG::העשרה ב-EPG
+Enter bouquet name (without spaces):::הזן שם זר (ללא רווחים):
+Enter JSON URL:::הזן כתובת URL של JSON:
+Enter new group name:::הזן שם קבוצה חדש:
+Enter playlist URL (JSON or M3U):::הזן כתובת אתר של רשימת השמעה (JSON או M3U):
+Enter playlist URL (M3U or JSON):::הזן כתובת אתר של רשימת השמעה (M3U או JSON):
+EPG::EPG
+Epg & Favorites::EPG ומועדפים
+EPG & Favorites::EPG ומועדפים
+Epg & Logos::EPG ולוגו
+EPG & Logos::EPG ולוגו
+EPG cache cleared successfully.::מטמון ה-EPG נוקה בהצלחה.
+EPG Details::פרטי EPG
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::מדריך EPG - כפתור בסרגל הכלים הראשי מציג רשת מלאה עם פרטי תוכנית (לחץ פעמיים למידע).
+EPG Matching Threshold::סף התאמת EPG
+EPG Source::מקור EPG
+EPG source – can be set in Settings (epgshare01 or custom URL).::מקור EPG - ניתן להגדיר בהגדרות (epgshare01 או כתובת URL מותאמת אישית).
+EPG source – choose XMLTV file or enter custom URL.::מקור EPG - בחר קובץ XMLTV או הזן כתובת אתר מותאמת אישית.
+EPG Source Missing::חסר מקור EPG
+Error::שְׁגִיאָה
+Error clearing cache: {0}::שגיאה בניקוי המטמון: {0}
+Error loading::שגיאה בטעינה
+Error loading EPG list: {0}::שגיאה בטעינת רשימת EPG: {0}
+Error loading file: {0}::שגיאה בטעינת הקובץ: {0}
+Error loading playlists: {0}::שגיאה בטעינת רשימות השמעה: {0}
+Error loading URL: {0}::שגיאה בטעינת כתובת אתר: {0}
+ERROR: player.html not found.::שגיאה: player.html לא נמצא.
+Exit::יְצִיאָה
+Export all::ייצא הכל
+Export Favorites::ייצא מועדפים
+Export Filtered JSON::ייצא JSON מסונן
+Export Filtered M3U::ייצוא מסונן M3U
+Export JSON::ייצא JSON
+Export KO::ייצוא KO
+Export missing::יצוא חסר
+Export OK::ייצוא אישור
+Export only favorite channels to a new M3U file::ייצא רק ערוצים מועדפים לקובץ M3U חדש
+Export results as JSON or M3U – export missing channels or all channels.::ייצא תוצאות כ-JSON או M3U - ייצא ערוצים חסרים או את כל הערוצים.
+Export selected::ייצוא נבחר
+Export Selected::ייצא נבחרים
+Exported::מְיוּצָא
+Exported {0} channels to {1}::ייצאו {0} ערוצים אל {1}
+Extracting update...::מחלץ עדכון...
+Failed to download playlist::הורדת הפלייליסט נכשלה
+Failed to load playlist::טעינת הפלייליסט נכשלה
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::עדכון bouquets.tv נכשל. אנא בדוק את הרשאות הקובץ במכשיר Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::העלאת זר פרחים נכשלה. אנא בדוק את הגדרות ה-Telnet שלך (מארח, יציאה, שם משתמש, סיסמה) ונסה שוב.
+Favorite::מוּעֲדָף
+Favorites::מועדפים
+Favorites only::מועדפים בלבד
+Fetch Logos::אחזר לוגו
+File::קוֹבֶץ
+File {0} already exists. Overwrite?::הקובץ {0} כבר קיים. להחליף?
+File exists::הקובץ קיים
+Filters::מסננים
+Format Detection::זיהוי פורמטים
+Fullscreen::מסך מלא
+Fullscreen (hide UI) - press ESC to exit::מסך מלא (הסתר ממשק משתמש) - לחץ על ESC כדי לצאת
+Geo & Country::Geo & Country
+GeoBlocked::GeoBlocked
+GitHub Error::שגיאת GitHub
+Go back to live::תחזור לחיות
+Grid::רֶשֶׁת
+Group::קְבוּצָה
+Half speed (0.5x)::חצי מהירות (0.5x)
+Help::עֶזרָה
+Hide List::הסתר רשימה
+HLS playback: hls.js (MIT license)::השמעת HLS: hls.js (רישיון MIT)
+Image::תְמוּנָה
+Import::יְבוּא
+Import cancelled or no channels mapped.::הייבוא ​​בוטל או שלא מופו ערוצים.
+Import Error::שגיאת ייבוא
+Import error: {0}::שגיאת ייבוא: {0}
+Import from URL::ייבא מ-URL
+Import JSON::ייבוא ​​JSON
+Import JSON from URL::ייבא JSON מ-URL
+Import Local::ייבוא ​​מקומי
+Imported {0} channels from code.::ייבאו {0} ערוצים מהקוד.
+Imported {0} channels from JSON via mapping.::ייבאו {0} ערוצים מ-JSON באמצעות מיפוי.
+Imported {0} channels from URL.::ייבאו {0} ערוצים מ-URL.
+In Both::בשניהם
+Info::מידע
+Info on::מידע על
+Invalid JSON: {0}::JSON לא חוקי: {0}
+Invalid playlist URL.::כתובת אתר לא חוקית של פלייליסט.
+Invalid URL.::כתובת אתר לא חוקית.
+Json::Json
+JSON::JSON
+JSON parsing error: {0}::שגיאת ניתוח JSON: {0}
+JSON Property::נכס JSON
+Ko-fi::קָפֶה
+Language::שָׂפָה
+Language – change UI language dynamically (translations in Languages folder).::שפה - שנה את שפת המשתמש באופן דינמי (תרגומים בתיקיית שפות).
+Languages::שפות
+Languages (comma)::שפות (פסיק)
+LINUXSAT-SUPPORT.COM::LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help::עזרה של LiveGardenTVPlus
+LOAD::לִטעוֹן
+Load a playlist first.::טען תחילה רשימת השמעה.
+Load a second playlist first.::טען תחילה רשימת השמעה שנייה.
+Load File::טען קובץ
+Load from file...::טען מהקובץ...
+Load from URL::טען מ-URL
+Load from URL...::טען מכתובת האתר...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::טען קובץ M3U/JSON מקומי - באמצעות כפתור 'טען קובץ' (סרגל כלים) או 'פתח קובץ' בעורך.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::טען כתובת URL מקוונת של M3U/JSON - כפתור 'טען באינטרנט' (סרגל כלים) או 'פתח מכתובת אתר' בעורך.
+Load Playlist::טען רשימת השמעה
+Load playlist file (M3U/JSON) from your computer::טען קובץ רשימת השמעה (M3U/JSON) מהמחשב שלך
+Loaded::טָעוּן
+Loaded {0} channels from JSON file via mapping.::נטען {0} ערוצים מקובץ JSON באמצעות מיפוי.
+Loaded {0} channels from JSON URL.::נטען {0} ערוצים מ-URL JSON.
+Loaded {0} channels from M3U file.::נטען {0} ערוצים מקובץ M3U.
+Loaded {0} channels from M3U URL.::נטען {0} ערוצים מ-URL M3U.
+Loading...::טְעִינָה...
+Logo::סֵמֶל
+Logo Picker – in editor, click '...' to choose logo from gallery.::בוחר לוגו - בעורך, לחץ על '...' כדי לבחור לוגו מהגלריה.
+Logo Preview::תצוגה מקדימה של לוגו
+Logo URL::כתובת אתר של לוגו
+Logos – automatically download from GitHub repository (Settings → Logos Source).::לוגו - הורדה אוטומטית ממאגר GitHub (הגדרות → מקור לוגו).
+Logos Matching Threshold::סף התאמת לוגו
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::מאגר לוגואים - בחר בעלים/מאגר/נתיב (ברירת מחדל OwnerPlugins/לוגו).
+Logos Source::מקור לוגו
+Logos Subfolder::תיקיית משנה לוגו
+M3U::M3U
+M3U parsing error: {0}::שגיאת ניתוח M3U: {0}
+Map JSON properties to channel fields:::מיפוי מאפייני JSON לשדות ערוצים:
+Mapping saved for future imports of this file.::המיפוי נשמר עבור ייבוא ​​עתידי של קובץ זה.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::ספי התאמה - הגדר רגישות להתאמה מטושטשת עבור EPG ולוגו.
+Mini Player::מיני נגן
+Move to Group::העבר לקבוצה
+Moved::נִרגָשׁ
+Name::שֵׁם
+Nanoid::ננואיד
+Network error::שגיאת רשת
+New Playlist::רשימת השמעה חדשה
+Next::הַבָּא
+Next ▶::הבא ▶
+No .m3u files found on GitHub repository.::לא נמצאו קבצי .m3u במאגר GitHub.
+No cache folder found.::לא נמצאה תיקיית מטמון.
+No channel selected::לא נבחר ערוץ
+No channel selected.::לא נבחר ערוץ.
+No channels could be mapped or import cancelled.::לא ניתן למפות ערוצים או לבטל את הייבוא.
+No channels could be mapped. Check your mapping rules.::לא ניתן היה למפות ערוצים. בדוק את כללי המיפוי שלך.
+No channels found in JSON.::לא נמצאו ערוצים ב-JSON.
+No channels found in M3U.::לא נמצאו ערוצים ב-M3U.
+No channels loaded from JSON URL.::לא נטענו ערוצים מ-URL של JSON.
+No channels loaded from M3U URL.::לא נטענו ערוצים מ-URL M3U.
+No channels loaded from M3U.::לא נטענו ערוצים מ-M3U.
+No channels loaded.::לא נטענו ערוצים.
+No channels mapped::לא מופו ערוצים
+No channels selected.::לא נבחרו ערוצים.
+No channels to import.::אין ערוצים לייבא.
+No duplicate URLs found.::לא נמצאו כתובות אתרים כפולות.
+No EPG data::אין נתוני EPG
+No EPG information available for this channel.::אין מידע על EPG זמין עבור ערוץ זה.
+No EPG source configured. Please select one from the combo or go to Settings.::לא הוגדר מקור EPG. אנא בחר אחד מהשילוב או עבור אל הגדרות.
+No EPG source configured. Would you like to open settings to select one?::לא הוגדר מקור EPG. האם תרצה לפתוח הגדרות כדי לבחור אחת?
+No favorite channels found.::לא נמצאו ערוצים מועדפים.
+No favorite channels to export.::אין ערוצים מועדפים לייצוא.
+No missing channels to export.::אין ערוצים חסרים לייצוא.
+No playlist found::לא נמצא רשימת השמעה
+No second playlist loaded.::לא נטען רשימת השמעה שנייה.
+No stream URL available for this channel.::אין כתובת אתר זמינה עבור ערוץ זה.
+No text to import.::אין טקסט לייבא.
+No updates available.::אין עדכונים זמינים.
+Normal speed (1x)::מהירות רגילה (1x)
+Not connected to the box.::לא מחובר לקופסה.
+Now::עַכשָׁיו
+OK::בְּסֵדֶר
+Online Playlist::רשימת השמעה מקוונת
+Online playlist – select from GitHub repository (auto‑refresh).::רשימת השמעה מקוונת - בחר מתוך מאגר GitHub (רענון אוטומטי).
+Only in First::רק ב-First
+Only in Second::רק בשנייה
+Open File...::פתח קובץ...
+Open from URL::פתח מ-URL
+Open Playlist::פתח את רשימת ההשמעה
+Pause/Resume live stream::השהה/המשך שידור חי
+Paused::מושהה
+PayPal::PayPal
+Picture-in-Picture mode::מצב תמונה-בתמונה
+Play/Pause::הפעל/השהה
+Player Media Controls::בקרות מדיה של נגן
+Playing Media::משחק מדיה
+Playlist & Groups::פלייליסט וקבוצות
+Playlist closed::הפלייליסט נסגר
+Playlist Comparison::השוואת פלייליסטים
+Playlist Editor::עורך רשימות השמעה
+Playlist Loading::פלייליסט טוען
+Playlist Management::ניהול רשימת השמעה
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::מאגר רשימות השמעה: OwnerPlugins/TivuStreamList (זרמים איטלקיים ובינלאומיים)
+Please select a program first.::אנא בחר תחילה תוכנית.
+Preview (first 5 channels)::תצוגה מקדימה (5 הערוצים הראשונים)
+Preview error: {0}::שגיאת תצוגה מקדימה: {0}
+Program Details::פרטי התוכנית
+Ready::מוּכָן
+Recent::לאחרונה
+Recent files – quick access to last 5 opened playlists.::קבצים אחרונים - גישה מהירה ל-5 הפלייליסטים האחרונים שנפתחו.
+Recent playlists::רשימות השמעה אחרונות
+Refresh Code::רענן קוד
+Refresh EPG::רענן את ה-EPG
+Refresh EPG List::רענן את רשימת ה-EPG
+Refresh from GitHub::רענן מ-GitHub
+Refresh List::רענן רשימה
+Reload GUI::טען מחדש את ה-GUI
+Remove Command::הסר פקודה
+Rename Group::שנה את שם הקבוצה
+Rename group '{0}' to:::שנה את שם הקבוצה '{0}' ל:
+Repository::מאגר
+Reset Order::אפס סדר
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::תוצאות: 'רק במקום הראשון', 'רק בשני', 'בשניהם' - עם קידוד צבעי סטטוס.
+Save::לְהַצִיל
+SAVE::לְהַצִיל
+Save – persists all settings without reloading current playlist.::שמור - ממשיך את כל ההגדרות מבלי לטעון מחדש את רשימת ההשמעה הנוכחית.
+Save as...::שמור בשם...
+Save current playlist to a new M3U file::שמור את רשימת ההשמעה הנוכחית לקובץ M3U חדש
+Save Favorites::שמור מועדפים
+Save Mapping::שמור מיפוי
+Save Playlist::שמור רשימת השמעה
+Save Status::שמור סטטוס
+Saved::נשמר
+Search channel::חפש בערוץ
+Search channels by name::חפש ערוצים לפי שם
+Search channels...::חפש ערוצים...
+sec::שניות
+Second playlist loaded: {0} channels::פלייליסט שני נטען: {0} ערוצים
+Select a channel to play.::בחר ערוץ להפעלה.
+Select a playlist first.::תחילה בחר רשימת השמעה.
+Select target group:::בחר קבוצת יעד:
+Select Theme::בחר ערכת נושא
+Selected theme is saved and applied on restart.::ערכת הנושא שנבחרה נשמרת ומוחלת בהפעלה מחדש.
+Send::לִשְׁלוֹחַ
+Send playlist to Enigma2 decoder::שלח רשימת השמעה למפענח Enigma2
+Send to Enigma2::שלח לאניגמה2
+Settings::הגדרות
+Show List::הצג רשימה
+Show only channels marked as favorites::הצג רק ערוצים המסומנים כמועדפים
+Show or hide the channel list::הצג או הסתר את רשימת הערוצים
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::תודה מיוחדת לקהילות התמיכה של CORVOBOYS ו-LinuxSat על הבדיקות והתמיכה.
+Start::הַתחָלָה
+Status::סטָטוּס
+Stop::לְהַפְסִיק
+Stopped::נֶעצָר
+Stream URL::כתובת אתר של זרם
+Stream URLs::הזרם כתובות אתרים
+Success::הַצלָחָה
+Support::תְמִיכָה
+Support the developer::תמכו במפתח
+Target Field::שדה יעד
+Telnet command:::פקודת Telnet:
+Telnet Commander::מפקד טלנט
+Telnet Config::תצורת Telnet
+Telnet Configuration::תצורת Telnet
+Telnet Console::קונסולת Telnet
+Telnet host not configured. Please set it in Settings.::מארח Telnet לא מוגדר. נא להגדיר זאת בהגדרות.
+Telnet password is empty. Do you want to continue?::סיסמת Telnet ריקה. האם אתה רוצה להמשיך?
+Telnet username not configured. Please set it in Settings.::שם המשתמש של Telnet לא הוגדר. נא להגדיר זאת בהגדרות.
+Thanks to::בזכות
+Theme picker::בוחר נושאים
+Theme picker – accessible via Tools menu on main toolbar.::בוחר ערכות נושא - נגיש דרך תפריט כלים בסרגל הכלים הראשי.
+Themes::ערכות נושא
+Time::זְמַן
+Title::כּוֹתֶרֶת
+Tools::כְּלֵי עֲבוֹדָה
+Total::סַך הַכֹּל
+Total channels in loaded playlist::סה"כ ערוצים בפלייליסט שנטען
+TV Guide (EPG)::מדריך טלוויזיה (EPG)
+TvgId::TvgId
+Type channel name to filter::הקלד את שם הערוץ לסינון
+UI: MaterialDesignThemes.Wpf::ממשק משתמש: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::לא ניתן לזהות פורמט אוטומטי. בחר JSON או M3U מהתפריט הנפתח ונסה שוב.
+Unable to find version in remote project file.::לא ניתן למצוא גרסה בקובץ הפרויקט המרוחק.
+Unsupported format. Please select JSON or M3U.::פורמט לא נתמך. אנא בחר JSON או M3U.
+Update::לְעַדְכֵּן
+Update complete. Restarting...::העדכון הושלם. מופעל מחדש...
+Update Error::שגיאת עדכון
+Update failed: ::עדכון נכשל:
+Updated::מְעוּדכָּן
+Updates::עדכונים
+Upload Error::שגיאת העלאה
+URL::כתובת אתר
+URL (primary)::כתובת אתר (ראשי)
+URL Check::בדיקת כתובת URL
+URL list (one per line)::רשימת כתובות אתרים (אחת בכל שורה)
+URLs & Status::כתובות אתרים וסטטוס
+Version::גִרְסָה
+Version {0}.{1}.{2}::גרסה {0}.{1}.{2}
+Version unknown::גרסה לא ידועה
+Waiting for LiveGardenTVPlus to close...::מחכה לסגירת LiveGardenTVPlus...
+Warning::אַזהָרָה
+WebView2: Microsoft Edge WebView2::WebView2: Microsoft Edge WebView2
+Youtube URL::כתובת האתר של YouTube
+Youtube URLs::כתובות אתרים של YouTube

@@ -4,7 +4,7 @@
         xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
         xmlns:material="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
         xmlns:converters="clr-namespace:LiveGardenTVPlus.Converters"
-        Title="TVGarden+ by Lululla" Height="720" Width="1350"
+        Title="TVGarden+ by Lululla" Height="720" Width="1400"
         WindowStartupLocation="CenterScreen"
         AllowDrop="True" Drop="Window_Drop">
 
@@ -34,208 +34,311 @@
             <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
             <Setter Property="VerticalContentAlignment" Value="Center"/>
         </Style>
+
+        <Style x:Key="MenuItemButtonStyle" TargetType="Button">
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="Padding" Value="8,6"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Foreground" Value="{DynamicResource ForegroundBrush}"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="{DynamicResource AccentBrush}"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
     </Window.Resources>
 
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <!-- ToolBar -->
+
             <RowDefinition Height="*"/>
-            <!-- Player + Channels -->
+
             <RowDefinition Height="Auto"/>
-            <!-- StatusBar -->
+
         </Grid.RowDefinitions>
 
-        <!-- Toolbar -->
-        <ToolBar x:Name="MainToolBar" Grid.Row="0">
-        <Button x:Name="LoadPlaylistBtn" Click="LoadPlaylistBtn_Click" ToolTip="Load playlist file (M3U/JSON) from your computer">
-            <StackPanel Orientation="Horizontal">
-                <material:PackIcon Kind="Folder" Width="20" Height="20" Margin="0,0,5,0"/>
-                <TextBlock x:Name="LoadPlaylistBtnText"/>
-            </StackPanel>
-        </Button>
-            <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
-            <!-- Button Recent with popup -->
-            <Button x:Name="RecentBtn" ToolTip="Recent playlists" Click="RecentBtn_Click">
+        <!-- ============================================================ -->
+        <!-- TOOLBAR                                                       -->
+        <!-- ============================================================ -->
+        <ToolBar x:Name="MainToolBar" Grid.Row="0" Height="45" OverflowMode="AsNeeded">
+
+            <!-- ========== MENU FILE ========== -->
+
+            <Button x:Name="FileMenuBtn" Click="FileMenuBtn_Click" ToolTip="File menu" Margin="2,0">
                 <StackPanel Orientation="Horizontal">
-                    <material:PackIcon Kind="ClockOutline" Width="20" Height="20" Margin="0,0,5,0"/>
-                    <TextBlock x:Name="RecentTextBlock" Text="Recent"/>
+                    <material:PackIcon Kind="File" Width="20" Height="20" Margin="0,0,5,0"/>
+                    <TextBlock x:Name="FileMenuText" Text="File"/>
                     <material:PackIcon Kind="MenuDown" Width="16" Height="16" Margin="5,0,0,0"/>
                 </StackPanel>
             </Button>
-            <Popup x:Name="RecentPopup" Placement="Absolute" StaysOpen="False" AllowsTransparency="True">
-                <Border Background="{DynamicResource ControlBackgroundBrush}" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1" Padding="4">
-                    <ListBox x:Name="RecentListBox" MinWidth="200" MaxHeight="200" SelectionChanged="RecentListBox_SelectionChanged"
-                             DisplayMemberPath="DisplayName" Tag="FilePath"/>
+
+            <Popup x:Name="FilePopup" Placement="Absolute" StaysOpen="False" AllowsTransparency="True">
+                <Border Background="{DynamicResource ControlBackgroundBrush}"
+                        BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1"
+                        Padding="4,2" MinWidth="200">
+                    <StackPanel>
+                        <!-- Load Playlist -->
+                        <Button x:Name="LoadMenuItem" Click="LoadPlaylistBtn_Click" Style="{StaticResource MenuItemButtonStyle}">
+                            <StackPanel Orientation="Horizontal">
+                                <material:PackIcon Kind="Folder" Width="20" Height="20" Margin="0,0,8,0"/>
+                                <TextBlock x:Name="FileLoadText" Text="Load Playlist"/>
+                            </StackPanel>
+                        </Button>
+
+                        <Separator Margin="4,0" Height="1" Background="{DynamicResource BorderBrush}"/>
+
+                        <!-- Save Playlist -->
+                        <Button Click="SavePlaylistBtn_Click" Style="{StaticResource MenuItemButtonStyle}">
+
+                            <StackPanel Orientation="Horizontal">
+                                <material:PackIcon Kind="ContentSave" Width="20" Height="20" Margin="0,0,8,0"/>
+                                <TextBlock x:Name="FileSaveText" Text="Save Playlist"/>
+                            </StackPanel>
+                        </Button>
+
+                        <Separator Margin="4,0" Height="1" Background="{DynamicResource BorderBrush}"/>
+
+                        <!-- Close Playlist -->
+                        <Button Click="ClosePlaylistBtn_Click" Style="{StaticResource MenuItemButtonStyle}">
+
+                            <StackPanel Orientation="Horizontal">
+                                <material:PackIcon Kind="CloseBox" Width="20" Height="20" Margin="0,0,8,0"/>
+                                <TextBlock x:Name="FileCloseText" Text="Close Playlist"/>
+                            </StackPanel>
+                        </Button>
+
+                        <Separator Margin="4,0" Height="1" Background="{DynamicResource BorderBrush}"/>
+
+                        <!-- RECENT (opens submenu on hover) -->
+                        <Button x:Name="RecentMenuItem"
+                                MouseEnter="RecentMenuItem_MouseEnter"
+                                MouseLeave="RecentMenuItem_MouseLeave"
+                                Click="RecentMenuItem_Click"
+                                Style="{StaticResource MenuItemButtonStyle}">
+
+
+                            <StackPanel Orientation="Horizontal">
+                                <material:PackIcon Kind="ClockOutline" Width="20" Height="20" Margin="0,0,8,0"/>
+                                <TextBlock x:Name="FileRecentText" Text="Recent"/>
+                                <material:PackIcon Kind="MenuRight" Width="16" Height="16" Margin="20,0,0,0"/>
+                            </StackPanel>
+                        </Button>
+
+                    </StackPanel>
                 </Border>
             </Popup>
-            <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
-            <Button x:Name="SavePlaylistBtn" Click="SavePlaylistBtn_Click" ToolTip="Save current playlist to a new M3U file">
-                <StackPanel Orientation="Horizontal">
-                    <material:PackIcon Kind="ContentSave" Width="20" Height="20" Margin="0,0,5,0"/>
-                    <TextBlock x:Name="SavePlaylistBtnText"/>
-                </StackPanel>
-            </Button>
-            <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
-            <ToggleButton x:Name="ShowFavoritesOnlyToggle" 
-                          Click="ShowFavoritesOnly_Click" 
-                          ToolTip="Show only channels marked as favorites" 
+
+            <Separator Margin="2,0" Background="{DynamicResource BorderBrush}"/>
+
+            <!-- ========== FAVORITES TOGGLE ========== -->
+            <ToggleButton x:Name="ShowFavoritesOnlyToggle"
+                          Click="ShowFavoritesOnly_Click"
+                          ToolTip="Show only channels marked as favorites"
                           Margin="5,0">
                 <StackPanel Orientation="Horizontal">
-                    <material:PackIcon Kind="Star" 
-                                       Width="20" Height="20" 
-                                       Margin="0,0,5,0"/>
+                    <material:PackIcon Kind="Star" Width="20" Height="20" Margin="0,0,5,0"/>
                     <TextBlock x:Name="FavoritesOnlyText" Text="Favorites only"/>
                 </StackPanel>
             </ToggleButton>
-            <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
-            <Button x:Name="ExportFavoritesBtn" Click="ExportFavoritesBtn_Click" ToolTip="Export only favorite channels to a new M3U file">
+
+            <Separator Margin="2,0" Background="{DynamicResource BorderBrush}"/>
+
+            <!-- ========== FAVORITES MENU ========== -->
+            <Button x:Name="FavoritesBtn" Click="FavoritesBtn_Click" ToolTip="Favorites menu" Margin="2,0">
                 <StackPanel Orientation="Horizontal">
                     <material:PackIcon Kind="Star" Width="20" Height="20" Margin="0,0,5,0"/>
-                    <TextBlock x:Name="ExportFavoritesBtnText"/>
+                    <TextBlock x:Name="FavoritesMenuText" Text="Favorites"/>
+                    <material:PackIcon Kind="MenuDown" Width="16" Height="16" Margin="5,0,0,0"/>
                 </StackPanel>
             </Button>
 
-            <Button x:Name="SendToEnigmaBtn" Click="SendToEnigmaBtn_Click" ToolTip="Send playlist to Enigma2 decoder">
-                <StackPanel Orientation="Horizontal">
-                    <material:PackIcon Kind="TelevisionClassic" Width="20" Height="20" Margin="0,0,5,0"/>
-                    <TextBlock x:Name="SendToEnigmaText" Text="Send to Enigma2"/>
-                </StackPanel>
-            </Button>
-
-            <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
-            <Button x:Name="EpgBtn" Click="EpgBtn_Click" ToolTip="TV Guide (EPG)">
-                <StackPanel Orientation="Horizontal">
-                    <material:PackIcon Kind="TelevisionGuide" Width="20" Height="20" Margin="0,0,5,0"/>
-                    <TextBlock x:Name="EpgTextBlock" Text="EPG"/>
-                </StackPanel>
-            </Button>
-            
-            <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
-            <Button x:Name="EditPlaylistBtn" Click="EditPlaylistBtn_Click" ToolTip="Playlist Managment">
-                <StackPanel Orientation="Horizontal">
-                    <material:PackIcon Kind="PlaylistEdit" Width="20" Height="20" Margin="0,0,5,0"/>
-                    <TextBlock x:Name="EditPlaylistBtnText"/>
-                </StackPanel>
-            </Button>
-            <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
-            <Button x:Name="ToolsBtn" Click="ToolsBtn_Click" ToolTip="Tools">
-                <StackPanel Orientation="Horizontal">
-                    <material:PackIcon Kind="DotsVertical" Width="20" Height="20" Margin="0,0,5,0"/>
-                    <TextBlock x:Name="ToolsBtnText" Text="Tools"/>
-                </StackPanel>
-            </Button>
-            <Popup x:Name="ToolsPopup" Placement="Absolute" StaysOpen="False" AllowsTransparency="True">
-                <Border Background="{DynamicResource ControlBackgroundBrush}" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1" Padding="4,2" MinWidth="160">
+            <Popup x:Name="FavoritesPopup" Placement="Absolute" StaysOpen="False" AllowsTransparency="True">
+                <Border Background="{DynamicResource ControlBackgroundBrush}"
+                        BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1"
+                        Padding="4,2" MinWidth="180">
                     <StackPanel>
-                        <Button x:Name="PopupSettingsBtn" Click="PopupSettingsBtn_Click" 
-                                Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" 
-                                BorderThickness="0" Background="Transparent" Margin="0" Padding="8,6" 
-                                HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">
+
+                        <Button Click="SaveFavoritesBtn_Click" Style="{StaticResource MenuItemButtonStyle}">
+
+
+
                             <StackPanel Orientation="Horizontal">
-                                <material:PackIcon Kind="Settings" Width="20" Height="20" Margin="0,0,8,0" Foreground="{DynamicResource ForegroundBrush}"/>
-                                <TextBlock x:Name="PopupSettingsText" Text="Settings" Foreground="{DynamicResource ForegroundBrush}"/>
+                                <material:PackIcon Kind="Star" Width="20" Height="20" Margin="0,0,8,0"/>
+                                <TextBlock x:Name="FavoritesSaveText" Text="Save Favorites"/>
                             </StackPanel>
                         </Button>
-                        <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
-                        <Button x:Name="PopupThemeBtn" Click="PopupThemeBtn_Click" 
-                                Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" 
-                                BorderThickness="0" Background="Transparent" Margin="0" Padding="8,6" 
-                                HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">
+                        <Separator Margin="4,0" Height="1" Background="{DynamicResource BorderBrush}"/>
+
+                        <Button Click="ExportFavoritesBtn_Click" Style="{StaticResource MenuItemButtonStyle}">
+
+
+
                             <StackPanel Orientation="Horizontal">
-                                <material:PackIcon Kind="Palette" Width="20" Height="20" Margin="0,0,8,0" Foreground="{DynamicResource ForegroundBrush}"/>
-                                <TextBlock x:Name="PopupThemeText" Text="Theme picker" Foreground="{DynamicResource ForegroundBrush}"/>
-                            </StackPanel>
-                        </Button>
-                        <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
-                        <Button x:Name="PopupHelpBtn" Click="PopupHelpBtn_Click" 
-                                Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" 
-                                BorderThickness="0" Background="Transparent" Margin="0" Padding="8,6" 
-                                HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">
-                            <StackPanel Orientation="Horizontal">
-                                <material:PackIcon Kind="HelpCircle" Width="20" Height="20" Margin="0,0,8,0" Foreground="{DynamicResource ForegroundBrush}"/>
-                                <TextBlock x:Name="PopupHelpText" Text="Help" Foreground="{DynamicResource ForegroundBrush}"/>
-                            </StackPanel>
-                        </Button>
-                        <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
-                        <Button x:Name="PopupTelnetConsoleBtn" Click="PopupTelnetConsoleBtn_Click" 
-                                Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" 
-                                BorderThickness="0" Background="Transparent" Margin="0" Padding="8,6" 
-                                HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">
-                            <StackPanel Orientation="Horizontal">
-                                <material:PackIcon Kind="Console" Width="20" Height="20" Margin="0,0,8,0" Foreground="{DynamicResource ForegroundBrush}"/>
-                                <TextBlock x:Name="PopupTelnetConsoleText" Text="Telnet Console" Foreground="{DynamicResource ForegroundBrush}"/>
-                            </StackPanel>
-                        </Button>
-                        <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
-                        <Button x:Name="PopupAboutBtn" Click="PopupAboutBtn_Click" 
-                                Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" 
-                                BorderThickness="0" Background="Transparent" Margin="0" Padding="8,6" 
-                                HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">
-                            <StackPanel Orientation="Horizontal">
-                                <material:PackIcon Kind="Information" Width="20" Height="20" Margin="0,0,8,0" Foreground="{DynamicResource ForegroundBrush}"/>
-                                <TextBlock x:Name="PopupAboutText" Text="Info on" Foreground="{DynamicResource ForegroundBrush}"/>
-                            </StackPanel>
-                        </Button>
-                        <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
-                        <Button x:Name="PopupUpdateBtn" Click="PopupUpdateBtn_Click" 
-                                Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" 
-                                BorderThickness="0" Background="Transparent" Margin="0" Padding="8,6" 
-                                HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">
-                            <StackPanel Orientation="Horizontal">
-                                <material:PackIcon Kind="Update" Width="20" Height="20" Margin="0,0,8,0" Foreground="{DynamicResource ForegroundBrush}"/>
-                                <TextBlock x:Name="PopupUpdateText" Text="Check for updates" Foreground="{DynamicResource ForegroundBrush}"/>
+                                <material:PackIcon Kind="Export" Width="20" Height="20" Margin="0,0,8,0"/>
+                                <TextBlock x:Name="FavoritesExportText" Text="Export Favorites"/>
                             </StackPanel>
                         </Button>
                     </StackPanel>
                 </Border>
             </Popup>
-            <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
-            <Button x:Name="AboutBtn" Click="AboutBtn_Click" ToolTip="Info on">
+
+            <Separator Margin="2,0" Background="{DynamicResource BorderBrush}"/>
+
+            <!-- ========== ENIGMA2 MENU ========== -->
+            <Button x:Name="Enigma2Btn" Click="Enigma2Btn_Click" ToolTip="Enigma2 menu" Margin="2,0">
                 <StackPanel Orientation="Horizontal">
-                    <material:PackIcon Kind="Information" Width="20" Height="20" Margin="0,0,5,0"/>
-                    <TextBlock x:Name="AboutBtnText"/>
+                    <material:PackIcon Kind="TelevisionClassic" Width="20" Height="20" Margin="0,0,5,0"/>
+                    <TextBlock x:Name="Enigma2MenuText" Text="Enigma2"/>
+                    <material:PackIcon Kind="MenuDown" Width="16" Height="16" Margin="5,0,0,0"/>
                 </StackPanel>
             </Button>
-            <Separator/>
-            <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
 
-            <Button x:Name="HelpBtn" Click="HelpBtn_Click" ToolTip="Help">
+            <Popup x:Name="Enigma2Popup" Placement="Absolute" StaysOpen="False" AllowsTransparency="True">
+                <Border Background="{DynamicResource ControlBackgroundBrush}"
+                        BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1"
+                        Padding="4,2" MinWidth="180">
+                    <StackPanel>
+
+                        <Button Click="SendToEnigmaBtn_Click" Style="{StaticResource MenuItemButtonStyle}">
+                            <StackPanel Orientation="Horizontal">
+                                <material:PackIcon Kind="Send" Width="20" Height="20" Margin="0,0,8,0"/>
+                                <TextBlock x:Name="Enigma2SendText" Text="Send to Enigma2"/>
+                            </StackPanel>
+                        </Button>
+                        <Separator Margin="4,0" Height="1" Background="{DynamicResource BorderBrush}"/>
+
+                        <Button Click="PopupTelnetConsoleBtn_Click" Style="{StaticResource MenuItemButtonStyle}">
+                            <StackPanel Orientation="Horizontal">
+                                <material:PackIcon Kind="Console" Width="20" Height="20" Margin="0,0,8,0"/>
+                                <TextBlock x:Name="Enigma2TelnetText" Text="Telnet Console"/>
+                            </StackPanel>
+                        </Button>
+                        
+                        <Separator Margin="4,0" Height="1" Background="{DynamicResource BorderBrush}"/>
+                        <Button Click="Enigma2TelnetConfig_Click" Style="{StaticResource MenuItemButtonStyle}">
+                            <StackPanel Orientation="Horizontal">
+                                <material:PackIcon Kind="Settings" Width="20" Height="20" Margin="0,0,8,0"/>
+                                <TextBlock x:Name="Enigma2TelnetConfigText" Text="Telnet Configuration"/>
+                            </StackPanel>
+                        </Button>
+
+                    </StackPanel>
+                </Border>
+            </Popup>
+
+            <Separator Margin="2,0" Background="{DynamicResource BorderBrush}"/>
+
+            <!-- ========== EPG ========== -->
+            <Button x:Name="EpgBtn" Click="EpgBtn_Click" ToolTip="TV Guide (EPG)" Margin="2,0">
                 <StackPanel Orientation="Horizontal">
-                    <material:PackIcon Kind="Help" Width="20" Height="20" Margin="0,0,5,0"/>
-                    <TextBlock x:Name="HelpBtnText" Text="Help"/>
+                    <material:PackIcon Kind="TelevisionGuide" Width="20" Height="20" Margin="0,0,5,0"/>
+                    <TextBlock x:Name="EpgTextBlock" Text="EPG"/>
                 </StackPanel>
             </Button>
-            <Separator Margin="0" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
 
-            <Button x:Name="ToggleSidebarBtn" Click="ToggleSidebarBtn_Click" ToolTip="Show or hide the channel list">
+            <Separator Margin="2,0" Background="{DynamicResource BorderBrush}"/>
+
+            <!-- ========== EDIT PLAYLIST ========== -->
+            <Button x:Name="EditPlaylistBtn" Click="EditPlaylistBtn_Click" ToolTip="Playlist Management" Margin="2,0">
+                <StackPanel Orientation="Horizontal">
+                    <material:PackIcon Kind="PlaylistEdit" Width="20" Height="20" Margin="0,0,5,0"/>
+                    <TextBlock x:Name="EditPlaylistBtnText" Text="Edit Playlist"/>
+                </StackPanel>
+            </Button>
+
+            <Separator Margin="2,0" Background="{DynamicResource BorderBrush}"/>
+
+            <!-- ========== TOOLS ========== -->
+            <Button x:Name="ToolsBtn" Click="ToolsBtn_Click" ToolTip="Tools" Margin="2,0">
+                <StackPanel Orientation="Horizontal">
+                    <material:PackIcon Kind="DotsVertical" Width="20" Height="20" Margin="0,0,5,0"/>
+                    <TextBlock x:Name="ToolsBtnText" Text="Tools"/>
+                    <material:PackIcon Kind="MenuDown" Width="16" Height="16" Margin="5,0,0,0"/>
+                </StackPanel>
+            </Button>
+
+            <Popup x:Name="ToolsPopup" Placement="Absolute" StaysOpen="False" AllowsTransparency="True">
+                <Border Background="{DynamicResource ControlBackgroundBrush}"
+                        BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1"
+                        Padding="4,2" MinWidth="180">
+                    <StackPanel>
+                        <Button x:Name="PopupSettingsBtn" Click="PopupSettingsBtn_Click" Style="{StaticResource MenuItemButtonStyle}">
+                            <StackPanel Orientation="Horizontal">
+                                <material:PackIcon Kind="Settings" Width="20" Height="20" Margin="0,0,8,0"/>
+                                <TextBlock x:Name="PopupSettingsText" Text="Settings"/>
+                            </StackPanel>
+                        </Button>
+                        <Separator Margin="4,0" Height="1" Background="{DynamicResource BorderBrush}"/>
+                        <Button x:Name="PopupThemeBtn" Click="PopupThemeBtn_Click" Style="{StaticResource MenuItemButtonStyle}">
+                            <StackPanel Orientation="Horizontal">
+                                <material:PackIcon Kind="Palette" Width="20" Height="20" Margin="0,0,8,0"/>
+                                <TextBlock x:Name="PopupThemeText" Text="Theme picker"/>
+                            </StackPanel>
+                        </Button>
+                        <Separator Margin="4,0" Height="1" Background="{DynamicResource BorderBrush}"/>
+                        <Button x:Name="PopupHelpBtn" Click="PopupHelpBtn_Click" Style="{StaticResource MenuItemButtonStyle}">
+                            <StackPanel Orientation="Horizontal">
+                                <material:PackIcon Kind="HelpCircle" Width="20" Height="20" Margin="0,0,8,0"/>
+                                <TextBlock x:Name="PopupHelpText" Text="Help"/>
+                            </StackPanel>
+                        </Button>
+                        <Separator Margin="4,0" Height="1" Background="{DynamicResource BorderBrush}"/>
+                        <Button x:Name="PopupAboutBtn" Click="PopupAboutBtn_Click" Style="{StaticResource MenuItemButtonStyle}">
+                            <StackPanel Orientation="Horizontal">
+                                <material:PackIcon Kind="Information" Width="20" Height="20" Margin="0,0,8,0"/>
+                                <TextBlock x:Name="PopupAboutText" Text="Info"/>
+                            </StackPanel>
+                        </Button>
+                        <Separator Margin="4,0" Height="1" Background="{DynamicResource BorderBrush}"/>
+                        <Button x:Name="PopupUpdateBtn" Click="PopupUpdateBtn_Click" Style="{StaticResource MenuItemButtonStyle}">
+                            <StackPanel Orientation="Horizontal">
+                                <material:PackIcon Kind="Update" Width="20" Height="20" Margin="0,0,8,0"/>
+                                <TextBlock x:Name="PopupUpdateText" Text="Check for updates"/>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                </Border>
+            </Popup>
+
+            <Separator Margin="2,0" Background="{DynamicResource BorderBrush}"/>
+
+            <!-- ========== TOGGLE SIDEBAR ========== -->
+            <Button x:Name="ToggleSidebarBtn" Click="ToggleSidebarBtn_Click" ToolTip="Show or hide channel list" Margin="2,0">
                 <StackPanel Orientation="Horizontal">
                     <material:PackIcon x:Name="ToggleIcon" Kind="ArrowCollapseLeft" Width="20" Height="20" Margin="0,0,5,0"/>
-                    <TextBlock x:Name="ToggleText"/>
+                    <TextBlock x:Name="ToggleText" Text="Hide List"/>
                 </StackPanel>
             </Button>
 
-            <Separator Margin="10" Height="1" Background="{DynamicResource BorderBrush}" HorizontalAlignment="Stretch"/>
+            <Separator Margin="10,0" Background="{DynamicResource BorderBrush}"/>
+
+            <!-- ========== SEARCH ========== -->
             <StackPanel Orientation="Horizontal">
-                <TextBox x:Name="SearchBox" Width="170" 
-                         GotFocus="SearchBox_GotFocus" 
-                         TextChanged="SearchBox_TextChanged" 
-                         LostFocus="SearchBox_LostFocus" 
+                <TextBox x:Name="SearchBox" Width="170"
+                         GotFocus="SearchBox_GotFocus"
+                         TextChanged="SearchBox_TextChanged"
+                         LostFocus="SearchBox_LostFocus"
                          ToolTip="Search channels by name"
                          VerticalAlignment="Center"/>
-                <Button x:Name="ClearSearchBtn" Width="Auto" Height="Auto" 
-                        Margin="4,0,0,0" 
-                        Click="ClearSearchBtn_Click" 
-                        ToolTip="Clear search" 
-                        Background="Transparent" 
+                <Button x:Name="ClearSearchBtn" Width="Auto" Height="Auto"
+                        Margin="4,0,0,0"
+                        Click="ClearSearchBtn_Click"
+                        ToolTip="Clear search"
+                        Background="Transparent"
                         BorderThickness="0"
                         Cursor="Hand"
                         Visibility="Visible">
                     <Border Width="20" Height="20" CornerRadius="10" Background="{DynamicResource BorderBrush}">
-                        <TextBlock Text="✕" 
-                                   FontSize="12" 
-                                   Foreground="{DynamicResource ForegroundBrush}" 
-                                   HorizontalAlignment="Center" 
+                        <TextBlock Text="✕"
+                                   FontSize="12"
+                                   Foreground="{DynamicResource ForegroundBrush}"
+                                   HorizontalAlignment="Center"
                                    VerticalAlignment="Center"
                                    FontWeight="Bold"/>
                     </Border>
@@ -243,7 +346,29 @@
             </StackPanel>
         </ToolBar>
 
-        <!-- Main content: Channel list + GridSplitter + WebPlayer -->
+        <!-- ============================================================ -->
+        <!-- RECENT POPUP (opens on hover over Recent menu item)          -->
+        <!-- ============================================================ -->
+        <Popup x:Name="RecentPopup"
+               Placement="Right"
+               StaysOpen="False"
+               AllowsTransparency="True">
+            <Border Background="{DynamicResource ControlBackgroundBrush}"
+                    BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1"
+                    Padding="4" MinWidth="220">
+                <ListBox x:Name="RecentListBox"
+                         MinWidth="220" MaxHeight="300"
+                         SelectionChanged="RecentListBox_SelectionChanged"
+                         DisplayMemberPath="DisplayName" Tag="FilePath"
+                         Background="{DynamicResource ControlBackgroundBrush}"
+                         Foreground="{DynamicResource ForegroundBrush}"
+                         BorderThickness="0"/>
+            </Border>
+        </Popup>
+
+        <!-- ============================================================ -->
+        <!-- MAIN CONTENT (Channel list + Player)                        -->
+        <!-- ============================================================ -->
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition x:Name="ChannelColumn" Width="320"/>
@@ -251,12 +376,12 @@
                 <ColumnDefinition x:Name="PlayerColumn" Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <!-- Channel TreeView with logos -->
-            <TreeView x:Name="ChannelTreeView" Grid.Column="0" 
-                      Background="{DynamicResource ControlBackgroundBrush}" 
-                      Foreground="{DynamicResource ForegroundBrush}" 
+            <!-- Channel TreeView -->
+            <TreeView x:Name="ChannelTreeView" Grid.Column="0"
+                      Background="{DynamicResource ControlBackgroundBrush}"
+                      Foreground="{DynamicResource ForegroundBrush}"
                       SelectedItemChanged="ChannelTreeView_SelectedItemChanged"
-                      VirtualizingPanel.IsVirtualizing="True" 
+                      VirtualizingPanel.IsVirtualizing="True"
                       VirtualizingPanel.VirtualizationMode="Recycling"
                       VirtualizingPanel.ScrollUnit="Pixel">
                 <TreeView.ContextMenu>
@@ -266,11 +391,12 @@
                         <MenuItem x:Name="MoveToGroupMenuItem" Header="Move to Group" Click="MoveToGroupMenuItem_Click"/>
                         <MenuItem x:Name="DeleteChannelMenuItem" Header="Delete" Click="DeleteChannelMenuItem_Click"/>
                         <MenuItem x:Name="ExportChannelMenuItem" Header="Export" Click="ExportChannelMenuItem_Click"/>
+                        <MenuItem x:Name="InfoMenuItem" Header="Info" Click="InfoMenuItem_Click"/>
                     </ContextMenu>
                 </TreeView.ContextMenu>
                 <TreeView.ItemTemplate>
                     <HierarchicalDataTemplate ItemsSource="{Binding Channels}">
-                        <!-- Group header (folder + name) -->
+
                         <StackPanel Orientation="Horizontal">
                             <StackPanel.Style>
                                 <Style TargetType="StackPanel">
@@ -289,48 +415,37 @@
                             <TextBlock Text="{Binding GroupName}" FontWeight="Bold" Foreground="#FF88CCFF" FontSize="16"/>
                         </StackPanel>
 
-                        <!-- Individual channel template -->
                         <HierarchicalDataTemplate.ItemTemplate>
                             <DataTemplate>
                                 <Border x:Name="ItemBorder" Margin="0,2" Background="Transparent" CornerRadius="3">
                                     <Grid>
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="Auto"/>
-                                            <!-- Logo/Fallback -->
                                             <ColumnDefinition Width="*"/>
-                                            <!-- Nome canale -->
                                             <ColumnDefinition Width="Auto"/>
-                                            <!-- Stella -->
                                         </Grid.ColumnDefinitions>
+                                        <Image Grid.Column="0" Source="{Binding Logo, Converter={StaticResource UrlToImageConverter}}"
+                                               Width="32" Height="32" Margin="0,0,8,0" VerticalAlignment="Center"/>
+                                        <material:PackIcon x:Name="ItemIcon" Grid.Column="0" Kind="Television"
+                                                           Width="32" Height="32" Margin="0,0,8,0"
 
-                                        <!-- Logo image -->
-                                        <Image Grid.Column="0" Source="{Binding Logo, Converter={StaticResource UrlToImageConverter}}" 
-                                               Width="32" Height="32" Margin="0,0,8,0" 
-                                               VerticalAlignment="Center" />
-                                        <!-- Fallback icon (shown if Logo is null) -->
-                                        <material:PackIcon x:Name="ItemIcon" Grid.Column="0" Kind="Television" 
-                                                           Width="32" Height="32" Margin="0,0,8,0" 
-                                                           Foreground="#FF88CCFF"
-                                                           Visibility="Collapsed"/>
-
-                                        <!-- Channel name (with ellipses if too long) -->
-                                        <TextBlock x:Name="ItemText" Grid.Column="1" Text="{Binding Name}" 
+                                                           Foreground="#FF88CCFF" Visibility="Collapsed"/>
+                                        <TextBlock x:Name="ItemText" Grid.Column="1" Text="{Binding Name}"
                                                    ToolTip="{Binding Url}" Foreground="{DynamicResource ForegroundBrush}"
                                                    FontSize="16" VerticalAlignment="Center"
                                                    TextTrimming="CharacterEllipsis"/>
-                                        <Button x:Name="FavoriteStar" Grid.Column="2" Width="32" Height="32" 
-                                                Click="FavoriteStar_Click" Background="Transparent" 
+                                        <Button x:Name="FavoriteStar" Grid.Column="2" Width="32" Height="32"
+                                                Click="FavoriteStar_Click" Background="Transparent"
                                                 BorderThickness="0" Cursor="Hand" Margin="4,0,0,0"
                                                 VerticalAlignment="Center" HorizontalAlignment="Right">
-                                            <material:PackIcon Kind="{Binding IsFavorite, Converter={StaticResource BoolToStarKindConverter}}" 
-                                                               Width="20" Height="20" 
+                                            <material:PackIcon Kind="{Binding IsFavorite, Converter={StaticResource BoolToStarKindConverter}}"
+                                                               Width="20" Height="20"
                                                                Foreground="{Binding IsFavorite, Converter={StaticResource BoolToStarColorConverter}}"/>
                                         </Button>
                                     </Grid>
                                 </Border>
 
                                 <DataTemplate.Triggers>
-                                    <!-- Special line "← Back to all groups" -->
                                     <DataTrigger Binding="{Binding Name}" Value="← Back to all groups">
                                         <Setter TargetName="ItemBorder" Property="Background" Value="#FF555555"/>
                                         <Setter TargetName="ItemBorder" Property="Padding" Value="5,3"/>
@@ -340,7 +455,7 @@
                                         <Setter TargetName="ItemText" Property="Foreground" Value="#FF88CCFF"/>
                                         <Setter TargetName="ItemText" Property="FontSize" Value="18"/>
                                     </DataTrigger>
-                                    <!-- Show fallback icon if Logo is null or empty -->
+
                                     <DataTrigger Binding="{Binding Logo}" Value="{x:Null}">
                                         <Setter TargetName="ItemIcon" Property="Visibility" Value="Visible"/>
                                     </DataTrigger>
@@ -356,22 +471,24 @@
             </TreeView>
 
             <!-- GridSplitter -->
-            <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch" 
-                          Background="{DynamicResource AccentBrush}" 
+            <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch"
+                          Background="{DynamicResource AccentBrush}"
                           ResizeBehavior="PreviousAndNext" ResizeDirection="Columns"
                           Cursor="SizeWE"/>
 
-            <!-- WebView2 player -->
+            <!-- Player -->
             <Grid Grid.Column="2">
-                <Image x:Name="PlayerBackground" 
-                       Source="pack://application:,,,/Images/tv.png" 
-                       Stretch="UniformToFill" 
+                <Image x:Name="PlayerBackground"
+                       Source="pack://application:,,,/Themes/tv.png"
+                       Stretch="UniformToFill"
                        Visibility="Visible"/>
                 <wv2:WebView2 x:Name="WebPlayer" Visibility="Collapsed"/>
             </Grid>
         </Grid>
 
-        <!-- Status bar -->
+        <!-- ============================================================ -->
+        <!-- STATUS BAR                                                    -->
+        <!-- ============================================================ -->
         <StatusBar x:Name="MainStatusBar" Grid.Row="2" Height="55" Padding="5,0">
             <StatusBar.ItemsPanel>
                 <ItemsPanelTemplate>
@@ -425,18 +542,13 @@
                 </Button>
             </StatusBarItem>
             <StatusBarItem>
-                <Slider x:Name="TimeshiftSlider" Width="200" Minimum="0" Maximum="100" 
+                <Slider x:Name="TimeshiftSlider" Width="200" Minimum="0" Maximum="100"
                         PreviewMouseLeftButtonUp="TimeshiftSlider_PreviewMouseLeftButtonUp"
                         IsEnabled="True" ToolTip="Drag to seek back in buffer" Visibility="Collapsed"/>
             </StatusBarItem>
             <StatusBarItem>
                 <ProgressBar x:Name="LoadingProgressBar" Width="120" Height="16" IsIndeterminate="True" Visibility="Collapsed" Margin="5,0"/>
             </StatusBarItem>
-            <!--
-            <StatusBarItem DockPanel.Dock="Right">
-                <TextBlock x:Name="StreamNameStatus" Margin="5,0" ToolTip="Currently playing channel" FontSize="14"/>
-            </StatusBarItem>
-            -->
             <StatusBarItem DockPanel.Dock="Right">
                 <Separator Style="{StaticResource {x:Static StatusBar.SeparatorStyleKey}}" Margin="2,0"/>
             </StatusBarItem>

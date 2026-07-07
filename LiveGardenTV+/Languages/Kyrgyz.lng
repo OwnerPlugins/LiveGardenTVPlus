@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): (Толугу менен ыктыярдуу – эч кандай функция бөгөттөлгөн эмес)
-(No description): (Сыпаттама жок)
-• Add / rename / delete groups.: • Топторду кошуу / атын өзгөртүү / жок кылуу.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Буфер сыдыргычы: HLS буферин тууралоо (1‑10 секунд).
-• Check URL availability (only visible channels).: • URL жеткиликтүүлүгүн текшерүү (көрүнүүчү каналдар гана).
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Канал аттарын, топторду, URL'дерди, логотиптерди, tvg-идентификаторлорун, өлкөнү, тилдерди, сүйүктүүлөрдү түзөтүңүз.
-• Edit multiple URLs per channel (popup window).: • Ар бир каналга бир нече URL'ди түзөтүңүз (калкып чыкма терезе).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG менен байытуу: бүдөмүк дал келүү аркылуу жок tvg-id кошот.
-• EPG info displayed in status bar for current channel.: • Учурдагы канал үчүн абал тилкесинде көрсөтүлгөн EPG маалыматы.
-• Export OK / FAIL / filtered lists as M3U or JSON.: • OK / FAIL / чыпкаланган тизмелерди M3U же JSON катары экспорттоо.
-• Fetch logos from remote repository (OwnerPlugins/logos).: • Алыскы репозиторийден логотиптерди алуу (OwnerPlugins/logos).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Толук экран UI: каптал тилкесин жана абал тилкесин жашырат (чыгуу үчүн ESC).
-• Hide/Show channel list button.: • Канал тизмесин жашыруу/көрсөтүү баскычы.
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • JSON (жергиликтүү же URL) ийкемдүү талаа картасы менен импорттоо (автоматтык аныктоо, картаны сактоо).
-• Picture‑in‑Picture (PIP) button.: • Сүрөттөгү сүрөт (PIP) баскычы.
-• Playback speed: 0.5x, 1x, 2x buttons.: • Ойнотуу ылдамдыгы: 0,5x, 1x, 2x баскычтары.
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Башты чыкылдатуу менен каалаган тилкени сорттоо; баштапкы тартипке кайтуу үчүн "Тартипти калыбына келтирүү" дегенди колдонуңуз.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: түз агымды тындыруу; артка издөө үчүн сыдырманы сүйрөңүз; кайтып келүү үчүн 'Live' баскычын басыңыз.
-▶ Play Media: ▶ Play Media
-◀ Previous: ◀ Мурунку
-16 colour themes + Light/Dark variants.: 16 түс темасы + Ачык/Кара варианттар.
-A new version is available. Do you want to update now?: Жаңы версиясы бар. Азыр жаңырткыңыз келеби?
-Access via 'Compare' button in Playlist Editor or Tools menu.: Playlist Editor же Tools менюсундагы "Салыштыруу" баскычы аркылуу кириңиз.
-Access via 'Edit Playlist' button on main toolbar.: Негизги куралдар тилкесиндеги "Ойнотмо тизмесин түзөтүү" баскычы аркылуу кириңиз.
-Actions: Аракеттер
-Add Command: Команда кошуу
-Add Group: Топ кошуу
-Add Mapping: Карталарды кошуу
-Adjust buffer size (1-10 seconds): Буфер өлчөмүн тууралоо (1-10 секунд)
-Advanced IDs: Өркүндөтүлгөн ID'лер
-Application status: Колдонмо статусу
-Apply: Колдонуу
-Apply / Import: Колдонуу / Импорттоо
-Apply changes: Өзгөртүүлөрдү колдонуу
-Apply Filters: Чыпкаларды колдонуу
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Чын эле Enigma2 GUIди кайра жүктөгүңүз келеби?\n\nИнтерфейс кайра башталат (бир нече секундага кара экран).
-Auto (recommended): Авто (сунушталат)
-Auto-detect: Автоматтык аныктоо
-Automatic check on startup – or click 'Check for updates' in Tools menu.: Ишке киргенде автоматтык түрдө текшерүү – же Куралдар менюсунан "Жаңыртууну текшерүү" баскычын чыкылдатыңыз.
-Bouquet Name: Букет аты
-Bouquet sent and Enigma2 channel list reloaded.: Букет жөнөтүлдү жана Enigma2 каналдарынын тизмеси кайра жүктөлдү.
-Buffer (seconds): Буфер (секунд)
-Buffer size – adjust HLS buffer seconds.: Буфер өлчөмү – HLS буферинин секундасын тууралаңыз.
-Cache: Кэш
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Кэш папкасы: %TEMP%\\LiveGardenTVPlus\\epg_cache
-Cancel: Жокко чыгаруу
-CANCEL: ЖОК КАЛУУ
-Cannot open browser: Браузерди ачуу мүмкүн эмес
-Category: Категория
-Changelog: Changelog
-Channel Details: Канал чоо-жайы
-Channel Down: Канал ылдый
-Channel Info: Канал маалыматы
-Channel Name: Канал аты
-Channel Up: Channel Up
-channels from: каналдарынан
-channels from JSON: JSON каналдары
-channels from JSON URL: каналдар JSON URL
-channels from URL: URL'ден каналдар
-Check Duplicates: Дубликаттарды текшерүү
-Check for updates: Жаңыртууларды текшериңиз
-Check URLs: URL'дерди текшерүү
-Clear: Таза
-Clear EPG Cache: EPG кэшин тазалоо
-Clear Filters: Чыпкаларды тазалоо
-Clear search: Издөөнү тазалоо
-Click for details: чоо-жайын билүү үчүн басыңыз
-Close: Жабуу
-Code: Code
-Code copied to clipboard.: Код алмашуу буферине көчүрүлдү.
-Command name:: Буйрук аты:
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Коомчулук жана тестирлөө: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
-Compare: Салыштыруу
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Салыштыруу: Приоритет (аты→топ→tvg-идентификатор), Аты-жөнү, Топ (кичине тамга сезгич) же TvgId.
-Compare Playlists: Ойнотмо тизмелерди салыштырыңыз
-Compare two playlists – load first (current playlist) and second (from file or URL).: Эки ойнотмо тизмени салыштырыңыз - биринчи (учурдагы ойнотмо тизме) жана экинчи (файлдан же URL'ден) жүктөңүз.
-Compare...: Салыштыруу...
-Comparison results: {0} channels: Салыштыруу натыйжалары: {0} канал
-Configuration Missing: Конфигурация жок
-Confirm Delete: Жок кылууну ырастоо
-Confirm Reload: Кайра жүктөөнү ырастоо
-Connect: Туташуу
-Connected: Туташкан
-Copied: Көчүрүлгөн
-Copy: Көчүрүү
-CORVOBOYS.ORG: CORVOBOYS.ORG
-Country: Өлкө
-Credits: Кредиттер
-Delete channel '{0}'?: '{0}' каналы жок кылынсынбы?
-Delete Group: Топту жок кылуу
-Delete Selected: Тандалганды жок кылуу
-Deleted: Жок кылынды
-Description: Description
-Details: Толук маалымат
-Developed by Lululla: Лулулла тарабынан иштелип чыккан
-Developer: Lululla: Иштеп чыгуучу: Лулулла
-Disconnect: Ажыратуу
-Disconnected: Ажыратылды
-Display as: : Төмөнкүдөй көрсөтүү:
-Do you want to load this edited playlist now?: Бул түзөтүлгөн ойнотмо тизмени азыр жүктөгүңүз келеби?
-Double speed (2x): Кош ылдамдык (2x)
-Downloading playlist...: Ойнотмо тизме жүктөлүүдө...
-Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP жүктөө, файлдарды алмаштыруу, колдонмону өчүрүү – жөндөөлөр сакталган.
-Drag & drop – drop M3U or JSON files directly onto main window.: Сүйрөп жана таштоо – M3U же JSON файлдарын түздөн-түз негизги терезеге таштаңыз.
-Drag to seek back in buffer: Буферде кайра издөө үчүн сүйрөңүз
-Duplicate URLs found:\n\n: Кайталанма URL'дер табылды:\n\n
-Edit Command: Edit Command
-Edit command name:: Команданын атын түзөтүү:
-Edit Playlist: Ойнотмо тизмени түзөтүү
-Edit telnet command:: Telnet буйругун түзөтүү:
-Edit URLs: URL'дерди түзөтүү
-Empty Password: Бош сырсөз
-End: Аягы
-Enrich with EPG: EPG менен байытуу
-Enter bouquet name (without spaces):: Букеттин атын киргизиңиз (боштуксуз):
-Enter JSON URL:: JSON URL киргизиңиз:
-Enter new group name:: Жаңы топтун атын киргизиңиз:
-Enter playlist URL (JSON or M3U):: Ойнотмо тизменин URL'ин киргизиңиз (JSON же M3U):
-Enter playlist URL (M3U or JSON):: Ойнотмо тизменин URL'ин киргизиңиз (M3U же JSON):
-EPG: EPG
-Epg & Favorites: Epg & Favorites
-EPG & Favorites: EPG & Favorites
-Epg & Logos: Epg & Logos
-EPG & Logos: EPG & Логотиптер
-EPG cache cleared successfully.: EPG кэши ийгиликтүү тазаланды.
-EPG Details: EPG чоо-жайы
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Guide – негизги куралдар панелиндеги баскыч программанын чоо-жайы менен толук торду көрсөтөт (маалымат үчүн эки жолу чыкылдатыңыз).
-EPG Matching Threshold: EPG дал келүү босогосу
-EPG Source: : EPG булагы:
-EPG source – can be set in Settings (epgshare01 or custom URL).: EPG булагы – Жөндөөлөрдөн (epgshare01 же ыңгайлаштырылган URL) орнотсо болот.
-EPG source – choose XMLTV file or enter custom URL.: EPG булагы – XMLTV файлын тандаңыз же жеке URL киргизиңиз.
-EPG Source Missing: EPG булагы жок
-Error: Ката
-Error clearing cache: {0}: Кэшти тазалоо катасы: {0}
-Error loading: Жүктөө катасы
-Error loading EPG list: {0}: EPG тизмесин жүктөө катасы: {0}
-Error loading file: {0}: Файлды жүктөө катасы: {0}
-Error loading playlists: {0}: Ойнотмо тизмелерди жүктөө катасы: {0}
-Error loading URL: {0}: URL жүктөө катасы: {0}
-ERROR: player.html not found.: КАТА: player.html табылган жок.
-Exit: Чыгыңыз
-Export all: Баарын экспорттоо
-Export Favorites: Сүйүктүүлөрдү экспорттоо
-Export Filtered JSON: Чыпкаланган JSON экспорту
-Export Filtered M3U: Экспорт чыпкаланган M3U
-Export JSON: JSON экспорттоо
-Export KO: Экспорт KO
-Export missing: Экспорт жок
-Export OK: Экспорт ОК
-Export only favorite channels to a new M3U file: Жаңы M3U файлына сүйүктүү каналдарды гана экспорттоо
-Export results as JSON or M3U – export missing channels or all channels.: Натыйжаларды JSON же M3U катары экспорттоо – жетишпеген каналдарды же бардык каналдарды экспорттоо.
-Export selected: Экспорт тандалды
-Export Selected: Экспорт тандалды
-Exported: Экспорттолду
-Exported {0} channels to {1}: {0} канал {1}ге экспорттолду
-Extracting update...: Жаңыртуу чыгарылууда...
-Failed to download playlist: Ойнотмо тизме жүктөлбөй калды
-Failed to load playlist: Ойнотмо тизме жүктөлгөн жок
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: bouquets.tv жаңыртылган жок. Сураныч, Enigma2 түзмөгүндөгү файл уруксаттарын текшериңиз.
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Букет жүктөлгөн жок. Telnet жөндөөлөрүңүздү (хост, порт, колдонуучу аты, сырсөз) текшерип, кайра аракет кылыңыз.
-Favorite: Сүйүктүү
-Favorites only: Сүйүктүүлөр гана
-Fetch Logos: Логотиптерди алуу
-File {0} already exists. Overwrite?: {0} файлы мурунтан эле бар. Жазылсынбы?
-File exists: Файл бар
-Filters: Чыпкалар
-Format Detection: Форматты аныктоо
-Fullscreen: Толук экран
-Fullscreen (hide UI) - press ESC to exit: Толук экран (UI жашыруу) - чыгуу үчүн ESC баскычын басыңыз
-Geo & Country: Гео жана өлкө
-GeoBlocked: GeoBlocked
-GitHub Error: GitHub катасы
-Go back to live: Жашоого кайтып барыңыз
-Grid: Тор
-Group: Топ
-Half speed (0.5x): Жарым ылдамдык (0,5x)
-Help: Жардам
-Hide List: Тизмени жашыруу
-HLS playback: hls.js (MIT license): HLS ойнотуу: hls.js (MIT лицензиясы)
-Image: Сүрөт
-Import: Импорттоо
-Import cancelled or no channels mapped.: Импорттоо жокко чыгарылды же эч кандай канал көрсөтүлбөйт.
-Import Error: Импорттоо катасы
-Import error: {0}: Импорттоо катасы: {0}
-Import from URL: URL'ден импорттоо
-Import JSON: JSON импорттоо
-Import JSON from URL: URL'ден JSON импорттоо
-Import Local: Жергиликтүү импорттоо
-Imported {0} channels from code.: Коддон {0} канал импорттолду.
-Imported {0} channels from JSON via mapping.: Карталоо аркылуу JSONден {0} канал импорттолду.
-Imported {0} channels from URL.: URL'ден {0} канал импорттолду.
-In Both: Экөөндө
-Info: Маалымат
-Info on: Маалымат боюнча
-Invalid JSON: {0}: Жараксыз JSON: {0}
-Invalid playlist URL.: Жараксыз ойнотмо тизме URL.
-Invalid URL.: Жараксыз URL.
-Json: Json
-JSON: JSON
-JSON parsing error: {0}: JSON талдоо катасы: {0}
-JSON Property: JSON мүлкү
-Ko-fi: Кофе
-Language: Тил
-Language – change UI language dynamically (translations in Languages folder).: Тил – UI тилин динамикалык түрдө өзгөртүү (Тилдер папкасындагы котормолор).
-Languages: Тилдер
-Languages (comma): Тилдер (үтүр)
-LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help: LiveGardenTVPlus Жардам
-LOAD: LOAD
-Load a playlist first.: Алгач ойнотмо тизмени жүктөңүз.
-Load a second playlist first.: Алгач экинчи ойнотмо тизмесин жүктөңүз.
-Load File: Файлды жүктөө
-Load from file...: Файлдан жүктөө...
-Load from URL: URL'ден жүктөө
-Load from URL...: URL'ден жүктөө...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Жергиликтүү M3U/JSON файлын жүктөө – "Файлды жүктөө" баскычы (куралдар тилкеси) же редактордогу "Файлды ачуу" аркылуу.
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: M3U/JSON URL дарегин онлайн жүктөө – "Онлайн жүктөө" баскычы (куралдар тилкеси) же редактордо "URLден ачуу".
-Load playlist file (M3U/JSON) from your computer: Ойнотмо тизме файлын (M3U/JSON) компьютериңизден жүктөңүз
-Loaded: Жүктөлдү
-Loaded {0} channels from JSON file via mapping.: Карталоо аркылуу JSON файлынан {0} канал жүктөлдү.
-Loaded {0} channels from JSON URL.: JSON URL'инен {0} канал жүктөлдү.
-Loaded {0} channels from M3U file.: M3U файлынан {0} канал жүктөлдү.
-Loaded {0} channels from M3U URL.: M3U URL'инен {0} канал жүктөлдү.
-Loading...: Жүктөлүүдө...
-Logo: Логотип
-Logo Picker – in editor, click '...' to choose logo from gallery.: Логотип тандоочу – редактордо, галереядан логотипти тандоо үчүн '...' чыкылдатыңыз.
-Logo Preview: Логотипти алдын ала көрүү
-Logo URL: Логотип URL
-Logos – automatically download from GitHub repository (Settings → Logos Source).: Логотиптер – GitHub репозиторийинен автоматтык түрдө жүктөө (Орнотуулар → Logos Source).
-Logos Matching Threshold: Логотиптердин дал келүүчү босогосу
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Логотиптердин репозиторийси – ээсин/репо/жолду тандаңыз (демейки OwnerPlugins/logos).
-Logos Source: Logos Source
-Logos Subfolder: Логотиптердин ички папкасы
-M3U: M3U
-M3U parsing error: {0}: M3U талдоо катасы: {0}
-Map JSON properties to channel fields:: JSON касиеттерин канал талааларына картаңыз:
-Mapping saved for future imports of this file.: Карталоо бул файлды келечекте импорттоо үчүн сакталды.
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Дал келген босого – EPG жана логотиптер үчүн бүдөмүк дал келүү сезгичтигин орнотуңуз.
-Mini Player: Mini Player
-Move to Group: Топко жылдыруу
-Moved: Жылдырылды
-Name: аты
-Nanoid: Наноид
-Network error: Тармак катасы
-New Playlist: Жаңы ойнотмо тизме
-Next: Кийинки
-Next ▶: Кийинки ▶
-No .m3u files found on GitHub repository.: GitHub репозиторийинде .m3u файлдары табылган жок.
-No cache folder found.: Кэш папка табылган жок.
-No channel selected: Канал тандалган жок
-No channels could be mapped or import cancelled.: Бир дагы каналды картага түшүрүү же импортту жокко чыгаруу мүмкүн эмес.
-No channels could be mapped. Check your mapping rules.: Бир дагы каналды картага түшүрүү мүмкүн эмес. Карта түзүү эрежелериңизди текшериңиз.
-No channels found in JSON.: JSONде каналдар табылган жок.
-No channels found in M3U.: M3Uде каналдар табылган жок.
-No channels loaded from JSON URL.: JSON URL'ден каналдар жүктөлгөн жок.
-No channels loaded from M3U URL.: M3U URL'ден каналдар жүктөлгөн жок.
-No channels loaded from M3U.: M3Uден каналдар жүктөлгөн жок.
-No channels loaded.: Каналдар жүктөлгөн жок.
-No channels mapped: Эч канал картага түшүрүлгөн
-No channels selected.: Каналдар тандалган жок.
-No channels to import.: Импорттоо үчүн каналдар жок.
-No duplicate URLs found.: Кайталанма URL'дер табылган жок.
-No EPG data: EPG дайындары жок
-No EPG information available for this channel.: Бул канал үчүн EPG маалымат жок.
-No EPG source configured. Please select one from the combo or go to Settings.: Конфигурацияланган EPG булагы жок. Сураныч, айкалыштыруудан бирин тандаңыз же Жөндөөлөргө өтүңүз.
-No EPG source configured. Would you like to open settings to select one?: Конфигурацияланган EPG булагы жок. Бирөөнү тандоо үчүн жөндөөлөрдү ачкыңыз келеби?
-No favorite channels to export.: Экспорттоо үчүн сүйүктүү каналдар жок.
-No missing channels to export.: Экспорттоо үчүн жетишпеген каналдар жок.
-No playlist found: Ойнотмо тизме табылган жок
-No second playlist loaded.: Экинчи ойнотмо тизме жүктөлгөн жок.
-No stream URL available for this channel.: Бул канал үчүн агым URL жок.
-No text to import.: Импорттоо үчүн текст жок.
-No updates available.: Жаңыртуулар жок.
-Normal speed (1x): Кадимки ылдамдык (1x)
-Not connected to the box.: Кутуга туташкан эмес.
-Now: Азыр
-OK: макул
-Online Playlist: Онлайн ойноо тизмеси
-Online playlist – select from GitHub repository (auto‑refresh).: Онлайн ойнотмо тизме – GitHub репозиторийинен тандаңыз (автоматтык түрдө жаңылоо).
-Only in First: Биринчисинде гана
-Only in Second: Экинчиден гана
-Open File...: Файлды ачуу...
-Open from URL: URL'ден ачуу
-Open Playlist: Ойнотмо тизмесин ачуу
-Pause/Resume live stream: Түз агымды тындыруу/Улантуу
-Paused: Тындырылды
-PayPal: PayPal
-Picture-in-Picture mode: Сүрөттөгү сүрөт режими
-Play/Pause: Ойнотуу/Тыныгуу
-Player Media Controls: Player Media Controls
-Playing Media: Медиа ойнотуу
-Playlist & Groups: Ойнотмо тизме жана топтор
-Playlist Comparison: Ойнотмо тизмени салыштыруу
-Playlist Editor: Ойнотмо тизме редактору
-Playlist Loading: Ойнотмо тизме жүктөлүүдө
-Playlist Management: Ойнотмо тизмени башкаруу
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Ойнотмо тизменин репозиторийи: OwnerPlugins/TivuStreamList (италиялык жана эл аралык агымдар)
-Please select a program first.: Адегенде программаны тандаңыз.
-Preview (first 5 channels): Алдын ала көрүү (биринчи 5 канал)
-Preview error: {0}: Алдын ала көрүү катасы: {0}
-Program Details: Программанын чоо-жайы
-Ready: Даяр
-Ready.: Даяр.
-Recent: Акыркы
-Recent files – quick access to last 5 opened playlists.: Акыркы файлдар – акыркы 5 ачылган ойнотмо тизмеге тез жетүү.
-Recent playlists: Акыркы ойнотмо тизмелер
-Refresh Code: Кодду жаңыртуу
-Refresh EPG: EPG жаңыртуу
-Refresh EPG List: EPG тизмесин жаңыртуу
-Refresh from GitHub: GitHub'дан жаңыртуу
-Refresh List: Тизмени жаңыртуу
-Reload GUI: GUI кайра жүктөө
-Remove Command: Команданы алып салуу
-Rename Group: Топтун атын өзгөртүү
-Rename group '{0}' to:: '{0}' тобунун атын өзгөртүү:
-Repository: Репозиторий
-Reset Order: Тартипти калыбына келтирүү
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Натыйжалар: 'Биринчиде гана', 'Экинчиде гана', 'Экөөдө' – статустун түсүн коддоо менен.
-Save: Сактоо
-SAVE: САКТОО
-Save – persists all settings without reloading current playlist.: Сактоо – учурдагы ойнотмо тизмени кайра жүктөөсүз бардык орнотууларды сактайт.
-Save as...: Төмөнкү катары сактоо...
-Save current playlist to a new M3U file: Учурдагы ойнотмо тизмени жаңы M3U файлына сактаңыз
-Save Mapping: Карталарды сактоо
-Save Playlist: Ойнотмо тизмени сактоо
-Save Status: Статусту сактоо
-Saved: Сакталган
-Search channel: : Канал издөө:
-Search channels by name: Каналдарды аты боюнча издөө
-Search channels...: Каналдарды издөө...
-sec: сек
-Second playlist loaded: {0} channels: Экинчи ойнотмо тизме жүктөлдү: {0} канал
-Select a channel to play.: Ойнотуу үчүн каналды тандаңыз.
-Select a playlist first.: Биринчи ойнотмо тизмесин тандаңыз.
-Select target group:: Максаттуу топту тандоо:
-Select Theme: Теманы тандаңыз
-Selected theme is saved and applied on restart.: Тандалган тема сакталып, кайра күйгүзгөндө колдонулат.
-Send: Жөнөтүү
-Send playlist to Enigma2 decoder: Ойнотмо тизмени Enigma2 декодерине жөнөтүңүз
-Send to Enigma2: Enigma2ге жөнөтүү
-Settings: Орнотуулар
-Show List: Тизмени көрсөтүү
-Show only channels marked as favorites: Сүйүктүү катары белгиленген каналдарды гана көрсөтүү
-Show or hide the channel list: Канал тизмесин көрсөтүү же жашыруу
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Сыноо жана колдоо үчүн CORVOBOYS & LinuxSat-колдоо жамааттарына өзгөчө ыраазычылык билдиребиз.
-Start: Баштоо
-Status: Статус
-Stop: Токто
-Stopped: Токтотту
-Stream URL: Агым URL
-Stream URLs: Агым URL'дери
-Success: Ийгилик
-Support: Колдоо
-Support the developer: Иштеп чыгуучуну колдоо
-Target Field: Максаттуу талаа
-Telnet command:: Telnet буйругу:
-Telnet Commander: Telnet Commander
-Telnet Config: Telnet Config
-Telnet Console: Telnet консолу
-Telnet host not configured. Please set it in Settings.: Telnet хосту конфигурацияланган эмес. Сураныч, аны Жөндөөлөрдөн орнотуңуз.
-Telnet password is empty. Do you want to continue?: Telnet сырсөзү бош. Улангыңыз келеби?
-Telnet username not configured. Please set it in Settings.: Telnet колдонуучу аты конфигурацияланган эмес. Сураныч, аны Жөндөөлөрдөн орнотуңуз.
-Thanks to: рахмат
-Theme picker: Тема тандагыч
-Theme picker – accessible via Tools menu on main toolbar.: Тема тандоочу – негизги куралдар панелиндеги Куралдар менюсу аркылуу жеткиликтүү.
-Themes: Темалар
-Time: Убакыт
-Title: Title
-Tools: Куралдар
-Total: Бардыгы
-Total channels in loaded playlist: Жүктөлгөн ойнотмо тизмедеги жалпы каналдар
-TV Guide (EPG): TV гид (EPG)
-TvgId: TvgId
-Type channel name to filter: Чыпкалоо үчүн каналдын атын териңиз
-UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Форматты автоматтык түрдө аныктоо мүмкүн эмес. Please select JSON or M3U from the dropdown and try again.
-Unable to find version in remote project file.: Алыскы долбоордун файлында версия табылбай жатат.
-Unsupported format. Please select JSON or M3U.: Колдоого алынбаган формат. Сураныч, JSON же M3U тандаңыз.
-Update: Жаңыртуу
-Update complete. Restarting...: Жаңыртуу аяктады. Кайра иштетилүүдө...
-Update Error: Жаңыртуу катасы
-Update failed: : Жаңыртылган жок:
-Updates: Жаңыртуулар
-Upload Error: Жүктөө катасы
-URL: URL
-URL (primary): URL (негизги)
-URL Check: URL текшерүү
-URL list (one per line): URL тизмеси (ар бир сапка бирден)
-URLs & Status: URL'дер жана Статус
-Version: Версия
-Version {0}.{1}.{2}: Версия {0}.{1}.{2}
-Version unknown: Версия белгисиз
-Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus жабылышын күтүүдө...
-Warning: Эскертүү
-WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
-Youtube URL: Youtube URL
-Youtube URLs: Youtube URL'дери
+(Completely voluntary – no features are blocked)::(Толугу менен ыктыярдуу – эч кандай функция бөгөттөлгөн эмес)
+(No description)::(Сыпаттама жок)
+• Add / rename / delete groups.::• Топторду кошуу / атын өзгөртүү / жок кылуу.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• Буфер сыдыргычы: HLS буферин тууралоо (1‑10 секунд).
+• Check URL availability (only visible channels).::• URL жеткиликтүүлүгүн текшерүү (көрүнүүчү каналдар гана).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• Канал аттарын, топторду, URL'дерди, логотиптерди, tvg-идентификаторун, өлкөнү, тилдерди, сүйүктүүлөрдү түзөтүңүз.
+• Edit multiple URLs per channel (popup window).::• Ар бир каналга бир нече URL'ди түзөтүңүз (калкып чыкма терезе).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• EPG менен байытуу: бүдөмүк дал келүү аркылуу жок tvg-id кошот.
+• EPG info displayed in status bar for current channel.::• Учурдагы канал үчүн абал тилкесинде көрсөтүлгөн EPG маалыматы.
+• Export OK / FAIL / filtered lists as M3U or JSON.::• OK / FAIL / чыпкаланган тизмелерди M3U же JSON катары экспорттоо.
+• Fetch logos from remote repository (OwnerPlugins/logos).::• Алыскы репозиторийден логотиптерди алуу (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• Толук экран UI: каптал тилкесин жана абал тилкесин жашырат (чыгуу үчүн ESC).
+• Hide/Show channel list button.::• Канал тизмесин жашыруу/көрсөтүү баскычы.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• JSON (жергиликтүү же URL) ийкемдүү талаа картасы менен импорттоо (автоматтык түрдө аныктоо, картаны сактоо).
+• Picture‑in‑Picture (PIP) button.::• Сүрөттөгү сүрөт (PIP) баскычы.
+• Playback speed: 0.5x, 1x, 2x buttons.::• Ойнотуу ылдамдыгы: 0,5x, 1x, 2x баскычтары.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• Башты чыкылдатуу менен каалаган мамычаны сорттоо; баштапкы тартипке кайтуу үчүн "Тартипти калыбына келтирүү" дегенди колдонуңуз.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• Timeshift: түз агымды тындыруу; артка издөө үчүн сыдырманы сүйрөңүз; кайтып келүү үчүн 'Live' баскычын басыңыз.
+▶ Play Media::▶ Play Media
+◀ Previous::◀ Мурунку
+16 colour themes + Light/Dark variants.::16 түс темасы + Ачык/Кара варианттар.
+A new version is available. Do you want to update now?::Жаңы версиясы бар. Азыр жаңырткыңыз келеби?
+Access via 'Compare' button in Playlist Editor or Tools menu.::Playlist Editor же Tools менюсундагы "Салыштыруу" баскычы аркылуу кириңиз.
+Access via 'Edit Playlist' button on main toolbar.::Негизги куралдар тилкесиндеги "Ойнотуу тизмесин түзөтүү" баскычы аркылуу кириңиз.
+Actions::Аракеттер
+Add Command::Команда кошуу
+Add Group::Топ кошуу
+Add Mapping::Карталарды кошуу
+Adjust buffer size (1-10 seconds)::Буфер өлчөмүн тууралоо (1-10 секунд)
+Advanced IDs::Өркүндөтүлгөн ID'лер
+All channels marked as favorites::Бардык каналдар сүйүктүү катары белгиленген
+All favorites removed::Бардык сүйүктүүлөр өчүрүлдү
+Application status::Колдонмо статусу
+Apply::Колдонуу
+Apply / Import::Колдонуу / Импорттоо
+Apply changes::Өзгөртүүлөрдү колдонуу
+Apply Filters::Чыпкаларды колдонуу
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::Чын эле Enigma2 GUIди кайра жүктөгүңүз келеби?\n\nИнтерфейс кайра башталат (бир нече секундага кара экран).
+Auto (recommended)::Авто (сунушталат)
+Auto-detect::Автоматтык аныктоо
+Automatic check on startup – or click 'Check for updates' in Tools menu.::Ишке киргенде автоматтык түрдө текшерүү – же Куралдар менюсунан "Жаңыртууну текшерүү" баскычын чыкылдатыңыз.
+Bouquet Name::Букет аты
+Bouquet sent and Enigma2 channel list reloaded.::Букет жөнөтүлдү жана Enigma2 каналдарынын тизмеси кайра жүктөлдү.
+Buffer (seconds)::Буфер (секунд)
+Buffer size – adjust HLS buffer seconds.::Буфер өлчөмү – HLS буферинин секундасын тууралаңыз.
+Cache::Кэш
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::Кэш папкасы: %TEMP%\\LiveGardenTVPlus\\epg_cache
+Cancel::Жокко чыгаруу
+CANCEL::ЖОК КЫЛУУ
+Cannot open browser::Браузерди ачуу мүмкүн эмес
+Category::Категория
+Changelog::Changelog
+Channel Details::Канал чоо-жайы
+Channel Down::Канал ылдый
+Channel Info::Канал маалыматы
+Channel Name::Канал аты
+Channel Up::Channel Up
+Channel updated successfully.::Канал ийгиликтүү жаңыртылды.
+channels from::каналдарынан
+channels from JSON::JSON каналдары
+channels from JSON URL::каналдар JSON URL
+channels from URL::URL'ден каналдар
+Check Duplicates::Дубликаттарды текшерүү
+Check for updates::Жаңыртууларды текшериңиз
+Check URLs::URL'дерди текшерүү
+Clear::Таза
+Clear EPG Cache::EPG кэшин тазалоо
+Clear Filters::Чыпкаларды тазалоо
+Clear search::Издөөнү тазалоо
+Click for details::чоо-жайын билүү үчүн басыңыз
+Close::Жабуу
+Close current playlist::Учурдагы ойнотмо тизмесин жабуу
+Close Playlist::Ойнотмо тизмени жабуу
+Code::Code
+Code copied to clipboard.::Код алмашуу буферине көчүрүлдү.
+Command name:::Буйрук аты:
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::Коомчулук жана тестирлөө: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare::Салыштыруу
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::Салыштырыңыз: Приоритет (аты→топ→tvg-id), Аты, Топ (жагдай-жагдайга сезимтал) же TvgId.
+Compare Playlists::Ойнотмо тизмелерди салыштырыңыз
+Compare two playlists – load first (current playlist) and second (from file or URL).::Эки ойнотмо тизмени салыштырыңыз - биринчи (учурдагы ойнотмо тизме) жана экинчи (файлдан же URL'ден) жүктөңүз.
+Compare...::Салыштыруу...
+Comparison results: {0} channels::Салыштыруу натыйжалары: {0} канал
+Configuration Missing::Конфигурация жок
+Confirm Delete::Жок кылууну ырастоо
+Confirm Reload::Кайра жүктөөнү ырастоо
+Connect::Туташуу
+Connected::Туташкан
+Copied::Көчүрүлгөн
+Copy::Көчүрмө
+CORVOBOYS.ORG::CORVOBOYS.ORG
+Country::Өлкө
+Credits::Кредиттер
+Delete channel '{0}'?::'{0}' каналы жок кылынсынбы?
+Delete Group::Топту жок кылуу
+Delete Selected::Тандалганды жок кылуу
+Deleted::Жок кылынды
+Description::Description
+Details::Толук маалымат
+Developed by Lululla::Лулулла тарабынан иштелип чыккан
+Developer: Lululla::Иштеп чыгуучу: Лулулла
+Disconnect::Ажыратуу
+Disconnected::Ажыратылды
+Display as::катары көрсөтүү
+Do you want to load this edited playlist now?::Бул түзөтүлгөн ойнотмо тизмени азыр жүктөгүңүз келеби?
+Double speed (2x)::Кош ылдамдык (2x)
+Downloading playlist...::Ойнотмо тизме жүктөлүүдө...
+Downloads ZIP, replaces files, restarts app – settings preserved.::ZIP жүктөө, файлдарды алмаштыруу, колдонмону өчүрүү – жөндөөлөр сакталган.
+Drag & drop – drop M3U or JSON files directly onto main window.::Сүйрөп жана таштоо – M3U же JSON файлдарын түздөн-түз негизги терезеге таштаңыз.
+Drag to seek back in buffer::Буферде кайра издөө үчүн сүйрөңүз
+Duplicate URLs found:\n\n::Кайталанма URL'дер табылды:\n\n
+Edit Command::Edit Command
+Edit command name:::Команданын атын түзөтүү:
+Edit Playlist::Ойнотмо тизмени түзөтүү
+Edit telnet command:::Telnet буйругун түзөтүү:
+Edit URLs::URL'дерди түзөтүү
+Empty Password::Бош сырсөз
+End::Аягы
+Enigma2::Enigma2
+Enrich with EPG::EPG менен байытуу
+Enter bouquet name (without spaces):::Букеттин атын киргизиңиз (боштуксуз):
+Enter JSON URL:::JSON URL киргизиңиз:
+Enter new group name:::Жаңы топтун атын киргизиңиз:
+Enter playlist URL (JSON or M3U):::Ойнотмо тизменин URL'ин киргизиңиз (JSON же M3U):
+Enter playlist URL (M3U or JSON):::Ойнотмо тизменин URL'ин киргизиңиз (M3U же JSON):
+EPG::EPG
+Epg & Favorites::Epg & Favorites
+EPG & Favorites::EPG & Favorites
+Epg & Logos::Epg & Logos
+EPG & Logos::EPG & Логотиптер
+EPG cache cleared successfully.::EPG кэши ийгиликтүү тазаланды.
+EPG Details::EPG чоо-жайы
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::EPG Guide – негизги куралдар панелиндеги баскыч программанын чоо-жайы менен толук торду көрсөтөт (маалымат үчүн эки жолу чыкылдатыңыз).
+EPG Matching Threshold::EPG дал келүү босогосу
+EPG Source::EPG булагы
+EPG source – can be set in Settings (epgshare01 or custom URL).::EPG булагы – Жөндөөлөрдөн (epgshare01 же ыңгайлаштырылган URL) орнотсо болот.
+EPG source – choose XMLTV file or enter custom URL.::EPG булагы – XMLTV файлын тандаңыз же жеке URL киргизиңиз.
+EPG Source Missing::EPG булагы жок
+Error::Ката
+Error clearing cache: {0}::Кэшти тазалоо катасы: {0}
+Error loading::Жүктөө катасы
+Error loading EPG list: {0}::EPG тизмесин жүктөө катасы: {0}
+Error loading file: {0}::Файлды жүктөө катасы: {0}
+Error loading playlists: {0}::Ойнотмо тизмелерди жүктөө катасы: {0}
+Error loading URL: {0}::URL жүктөө катасы: {0}
+ERROR: player.html not found.::КАТА: player.html табылган жок.
+Exit::Чыгыңыз
+Export all::Баарын экспорттоо
+Export Favorites::Сүйүктүүлөрдү экспорттоо
+Export Filtered JSON::Чыпкаланган JSON экспорту
+Export Filtered M3U::Экспорт чыпкаланган M3U
+Export JSON::JSON экспорттоо
+Export KO::Экспорт KO
+Export missing::Экспорт жок
+Export OK::Экспорт ОК
+Export only favorite channels to a new M3U file::Жаңы M3U файлына сүйүктүү каналдарды гана экспорттоо
+Export results as JSON or M3U – export missing channels or all channels.::Натыйжаларды JSON же M3U катары экспорттоо – жетишпеген каналдарды же бардык каналдарды экспорттоо.
+Export selected::Экспорт тандалды
+Export Selected::Экспорт тандалды
+Exported::Экспорттолду
+Exported {0} channels to {1}::{0} канал {1}ге экспорттолду
+Extracting update...::Жаңыртуу чыгарылууда...
+Failed to download playlist::Ойнотмо тизме жүктөлбөй калды
+Failed to load playlist::Ойнотмо тизме жүктөлбөй калды
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::bouquets.tv жаңыртылган жок. Сураныч, Enigma2 түзмөгүндөгү файл уруксаттарын текшериңиз.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::Букет жүктөлгөн жок. Telnet жөндөөлөрүңүздү (хост, порт, колдонуучу аты, сырсөз) текшерип, кайра аракет кылыңыз.
+Favorite::Сүйүктүү
+Favorites::Сүйүктүүлөр
+Favorites only::Сүйүктүүлөр гана
+Fetch Logos::Логотиптерди алуу
+File::Файл
+File {0} already exists. Overwrite?::{0} файлы мурунтан эле бар. Жазылсынбы?
+File exists::Файл бар
+Filters::Чыпкалар
+Format Detection::Форматты аныктоо
+Fullscreen::Толук экран
+Fullscreen (hide UI) - press ESC to exit::Толук экран (UI жашыруу) - чыгуу үчүн ESC баскычын басыңыз
+Geo & Country::Гео жана өлкө
+GeoBlocked::GeoBlocked
+GitHub Error::GitHub катасы
+Go back to live::Жашоого кайтып барыңыз
+Grid::Тор
+Group::Топ
+Half speed (0.5x)::Жарым ылдамдык (0,5x)
+Help::Жардам
+Hide List::Тизмени жашыруу
+HLS playback: hls.js (MIT license)::HLS ойнотуу: hls.js (MIT лицензиясы)
+Image::Сүрөт
+Import::Импорттоо
+Import cancelled or no channels mapped.::Импорттоо жокко чыгарылды же эч кандай канал көрсөтүлбөйт.
+Import Error::Импорттоо катасы
+Import error: {0}::Импорттоо катасы: {0}
+Import from URL::URL'ден импорттоо
+Import JSON::JSON импорттоо
+Import JSON from URL::URL'ден JSON импорттоо
+Import Local::Жергиликтүү импорттоо
+Imported {0} channels from code.::Коддон {0} канал импорттолду.
+Imported {0} channels from JSON via mapping.::Карталоо аркылуу JSONден {0} канал импорттолду.
+Imported {0} channels from URL.::URL'ден {0} канал импорттолду.
+In Both::Экөөндө
+Info::Маалымат
+Info on::Маалымат боюнча
+Invalid JSON: {0}::Жараксыз JSON: {0}
+Invalid playlist URL.::Жараксыз ойнотмо тизменин URL.
+Invalid URL.::Жараксыз URL.
+Json::Json
+JSON::JSON
+JSON parsing error: {0}::JSON талдоо катасы: {0}
+JSON Property::JSON мүлкү
+Ko-fi::Кофе
+Language::Тил
+Language – change UI language dynamically (translations in Languages folder).::Тил – UI тилин динамикалык түрдө өзгөртүү (Тилдер папкасындагы котормолор).
+Languages::Тилдер
+Languages (comma)::Тилдер (үтүр)
+LINUXSAT-SUPPORT.COM::LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help::LiveGardenTVPlus Жардам
+LOAD::LOAD
+Load a playlist first.::Алгач ойнотмо тизмени жүктөңүз.
+Load a second playlist first.::Алгач экинчи ойнотмо тизмесин жүктөңүз.
+Load File::Файлды жүктөө
+Load from file...::Файлдан жүктөө...
+Load from URL::URL'ден жүктөө
+Load from URL...::URL'ден жүктөө...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::Жергиликтүү M3U/JSON файлын жүктөңүз – "Файлды жүктөө" баскычы (куралдар тилкеси) же редактордогу "Файлды ачуу" аркылуу.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::M3U/JSON URL дарегин онлайн жүктөө – "Онлайн жүктөө" баскычы (куралдар тилкеси) же редактордо "URLден ачуу".
+Load Playlist::Ойнотмо тизмени жүктөө
+Load playlist file (M3U/JSON) from your computer::Ойнотмо тизме файлын (M3U/JSON) компьютериңизден жүктөңүз
+Loaded::Жүктөлдү
+Loaded {0} channels from JSON file via mapping.::Карталоо аркылуу JSON файлынан {0} канал жүктөлдү.
+Loaded {0} channels from JSON URL.::JSON URL'инен {0} канал жүктөлдү.
+Loaded {0} channels from M3U file.::M3U файлынан {0} канал жүктөлдү.
+Loaded {0} channels from M3U URL.::M3U URL'инен {0} канал жүктөлдү.
+Loading...::Жүктөлүүдө...
+Logo::Логотип
+Logo Picker – in editor, click '...' to choose logo from gallery.::Логотип тандоочу – редактордо, галереядан логотипти тандоо үчүн '...' чыкылдатыңыз.
+Logo Preview::Логотипти алдын ала көрүү
+Logo URL::Логотип URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).::Логотиптер – GitHub репозиторийинен автоматтык түрдө жүктөө (Орнотуулар → Logos Source).
+Logos Matching Threshold::Логотиптердин дал келүүчү босогосу
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::Логотиптердин репозиторийи – ээсин/репо/жолду тандаңыз (демейки OwnerPlugins/logos).
+Logos Source::Logos Source
+Logos Subfolder::Логотиптердин ички папкасы
+M3U::M3U
+M3U parsing error: {0}::M3U талдоо катасы: {0}
+Map JSON properties to channel fields:::JSON касиеттерин канал талааларына картаңыз:
+Mapping saved for future imports of this file.::Карталоо бул файлды келечекте импорттоо үчүн сакталды.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::Дал келген босого – EPG жана логотиптер үчүн бүдөмүк дал келүү сезгичтигин орнотуңуз.
+Mini Player::Mini Player
+Move to Group::Топко жылдыруу
+Moved::Жылдырылды
+Name::аты
+Nanoid::Наноид
+Network error::Тармак катасы
+New Playlist::Жаңы ойнотмо тизме
+Next::Кийинки
+Next ▶::Кийинки ▶
+No .m3u files found on GitHub repository.::GitHub репозиторийинде .m3u файлдары табылган жок.
+No cache folder found.::Кэш папка табылган жок.
+No channel selected::Канал тандалган жок
+No channel selected.::Канал тандалган жок.
+No channels could be mapped or import cancelled.::Эч бир каналды картага түшүрүү же импортту жокко чыгаруу мүмкүн эмес.
+No channels could be mapped. Check your mapping rules.::Бир дагы каналды картага түшүрүү мүмкүн эмес. Карта түзүү эрежелериңизди текшериңиз.
+No channels found in JSON.::JSONде каналдар табылган жок.
+No channels found in M3U.::M3Uде каналдар табылган жок.
+No channels loaded from JSON URL.::JSON URL'ден каналдар жүктөлгөн жок.
+No channels loaded from M3U URL.::M3U URL'ден каналдар жүктөлгөн жок.
+No channels loaded from M3U.::M3Uден каналдар жүктөлгөн жок.
+No channels loaded.::Каналдар жүктөлгөн жок.
+No channels mapped::Эч канал картада жок
+No channels selected.::Эч канал тандалган жок.
+No channels to import.::Импорттоо үчүн каналдар жок.
+No duplicate URLs found.::Кайталанма URL'дер табылган жок.
+No EPG data::EPG дайындары жок
+No EPG information available for this channel.::Бул канал үчүн EPG маалымат жок.
+No EPG source configured. Please select one from the combo or go to Settings.::Конфигурацияланган EPG булагы жок. Сураныч, айкалыштыруудан бирин тандаңыз же Жөндөөлөргө өтүңүз.
+No EPG source configured. Would you like to open settings to select one?::Конфигурацияланган EPG булагы жок. Бирөөнү тандоо үчүн жөндөөлөрдү ачкыңыз келеби?
+No favorite channels found.::Сүйүктүү каналдар табылган жок.
+No favorite channels to export.::Экспорттоо үчүн сүйүктүү каналдар жок.
+No missing channels to export.::Экспорттоо үчүн жетишпеген каналдар жок.
+No playlist found::Ойнотмо тизме табылган жок
+No second playlist loaded.::Экинчи ойнотмо тизме жүктөлгөн жок.
+No stream URL available for this channel.::Бул канал үчүн агым URL жок.
+No text to import.::Импорттоо үчүн текст жок.
+No updates available.::Жаңыртуулар жок.
+Normal speed (1x)::Кадимки ылдамдык (1x)
+Not connected to the box.::Кутуга туташкан эмес.
+Now::Азыр
+OK::макул
+Online Playlist::Онлайн ойноо тизмеси
+Online playlist – select from GitHub repository (auto‑refresh).::Онлайн ойнотмо тизме – GitHub репозиторийинен тандаңыз (автоматтык түрдө жаңылоо).
+Only in First::Биринчисинде гана
+Only in Second::Экинчиде гана
+Open File...::Файлды ачуу...
+Open from URL::URL'ден ачуу
+Open Playlist::Ойнотмо тизмесин ачуу
+Pause/Resume live stream::Түз агымды тындыруу/Улантуу
+Paused::Тындырылды
+PayPal::PayPal
+Picture-in-Picture mode::Сүрөттөгү сүрөт режими
+Play/Pause::Ойнотуу/Тыныгуу
+Player Media Controls::Player Media Controls
+Playing Media::Медиа ойнотуу
+Playlist & Groups::Ойнотмо тизме жана топтор
+Playlist closed::Ойнотмо тизме жабылды
+Playlist Comparison::Ойнотмо тизмени салыштыруу
+Playlist Editor::Ойнотмо тизме редактору
+Playlist Loading::Ойнотмо тизме жүктөлүүдө
+Playlist Management::Ойнотмо тизмени башкаруу
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::Ойнотмо тизменин репозиторийи: OwnerPlugins/TivuStreamList (италиялык жана эл аралык агымдар)
+Please select a program first.::Адегенде программаны тандаңыз.
+Preview (first 5 channels)::Алдын ала көрүү (биринчи 5 канал)
+Preview error: {0}::Алдын ала көрүү катасы: {0}
+Program Details::Программанын чоо-жайы
+Ready::Даяр
+Recent::Акыркы
+Recent files – quick access to last 5 opened playlists.::Акыркы файлдар – акыркы 5 ачылган ойнотмо тизмеге тез жетүү.
+Recent playlists::Акыркы ойнотмо тизмелер
+Refresh Code::Кодду жаңыртуу
+Refresh EPG::EPG жаңыртуу
+Refresh EPG List::EPG тизмесин жаңыртуу
+Refresh from GitHub::GitHub'дан жаңыртуу
+Refresh List::Тизмени жаңыртуу
+Reload GUI::GUI кайра жүктөө
+Remove Command::Команданы алып салуу
+Rename Group::Топтун атын өзгөртүү
+Rename group '{0}' to:::'{0}' тобунун атын өзгөртүү:
+Repository::Репозиторий
+Reset Order::Тартипти калыбына келтирүү
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::Натыйжалар: 'Биринчиде гана', 'Экинчиде гана', 'Экөөдө' – статустун түсүн коддоо менен.
+Save::Сактоо
+SAVE::САКТОО
+Save – persists all settings without reloading current playlist.::Сактоо – учурдагы ойнотмо тизмени кайра жүктөөсүз бардык орнотууларды сактайт.
+Save as...::Башкача сактоо...
+Save current playlist to a new M3U file::Учурдагы ойнотмо тизмени жаңы M3U файлына сактаңыз
+Save Favorites::Сүйүктүүлөрдү сактоо
+Save Mapping::Карталарды сактоо
+Save Playlist::Ойнотмо тизмени сактоо
+Save Status::Статусту сактоо
+Saved::Сакталган
+Search channel::Канал издөө
+Search channels by name::Каналдарды аты боюнча издөө
+Search channels...::Каналдарды издөө...
+sec::сек
+Second playlist loaded: {0} channels::Экинчи ойнотмо тизме жүктөлдү: {0} канал
+Select a channel to play.::Ойнотуу үчүн каналды тандаңыз.
+Select a playlist first.::Алгач ойнотмо тизмесин тандаңыз.
+Select target group:::Максаттуу топту тандоо:
+Select Theme::Теманы тандаңыз
+Selected theme is saved and applied on restart.::Тандалган тема сакталып, кайра иштетилгенде колдонулат.
+Send::Жөнөтүү
+Send playlist to Enigma2 decoder::Ойнотмо тизмени Enigma2 декодерине жөнөтүңүз
+Send to Enigma2::Enigma2ге жөнөтүү
+Settings::Орнотуулар
+Show List::Тизмени көрсөтүү
+Show only channels marked as favorites::Сүйүктүү катары белгиленген каналдарды гана көрсөтүү
+Show or hide the channel list::Канал тизмесин көрсөтүү же жашыруу
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::Сыноо жана колдоо үчүн CORVOBOYS & LinuxSat-колдоо жамааттарына өзгөчө ыраазычылык билдиребиз.
+Start::Баштоо
+Status::Статус
+Stop::Токто
+Stopped::Токтотту
+Stream URL::Агым URL
+Stream URLs::Агым URL'дери
+Success::Ийгилик
+Support::Колдоо
+Support the developer::Иштеп чыгуучуну колдоо
+Target Field::Максаттуу талаа
+Telnet command:::Telnet буйругу:
+Telnet Commander::Telnet Commander
+Telnet Config::Telnet Config
+Telnet Configuration::Telnet конфигурациясы
+Telnet Console::Telnet консолу
+Telnet host not configured. Please set it in Settings.::Telnet хосту конфигурацияланган эмес. Сураныч, аны Жөндөөлөрдөн орнотуңуз.
+Telnet password is empty. Do you want to continue?::Telnet сырсөзү бош. Улангыңыз келеби?
+Telnet username not configured. Please set it in Settings.::Telnet колдонуучу аты конфигурацияланган эмес. Сураныч, аны Жөндөөлөрдөн орнотуңуз.
+Thanks to::рахмат
+Theme picker::Тема тандагыч
+Theme picker – accessible via Tools menu on main toolbar.::Тема тандагыч – негизги куралдар панелиндеги Куралдар менюсу аркылуу жеткиликтүү.
+Themes::Темалар
+Time::Убакыт
+Title::Title
+Tools::Куралдар
+Total::Бардыгы
+Total channels in loaded playlist::Жүктөлгөн ойнотмо тизмедеги жалпы каналдар
+TV Guide (EPG)::TV гид (EPG)
+TvgId::TvgId
+Type channel name to filter::Чыпкалоо үчүн каналдын атын териңиз
+UI: MaterialDesignThemes.Wpf::UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::Форматты автоматтык түрдө аныктоо мүмкүн эмес. Сураныч, ачылуучу тизмеден JSON же M3U тандап, кайра аракет кылыңыз.
+Unable to find version in remote project file.::Алыскы долбоордун файлында версия табылбай жатат.
+Unsupported format. Please select JSON or M3U.::Колдоого алынбаган формат. Сураныч, JSON же M3U тандаңыз.
+Update::Жаңыртуу
+Update complete. Restarting...::Жаңыртуу аяктады. Кайра иштетилүүдө...
+Update Error::Жаңыртуу катасы
+Update failed: ::Жаңыртылган жок:
+Updated::Жаңыртылган
+Updates::Жаңыртуулар
+Upload Error::Жүктөө катасы
+URL::URL
+URL (primary)::URL (негизги)
+URL Check::URL текшерүү
+URL list (one per line)::URL тизмеси (ар бир сапка бирден)
+URLs & Status::URL'дер жана Статус
+Version::Версия
+Version {0}.{1}.{2}::Версия {0}.{1}.{2}
+Version unknown::Версия белгисиз
+Waiting for LiveGardenTVPlus to close...::LiveGardenTVPlus жабылышын күтүүдө...
+Warning::Эскертүү
+WebView2: Microsoft Edge WebView2::WebView2: Microsoft Edge WebView2
+Youtube URL::Youtube URL
+Youtube URLs::Youtube URL'дери

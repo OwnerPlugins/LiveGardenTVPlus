@@ -3,17 +3,12 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:material="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:gif="https://github.com/XamlAnimatedGif/XamlAnimatedGif"
-        Title="Info on TVGarden+ by Lululla" Height="Auto" Width="Auto"
+        Title="Info on TVGarden+ by Lululla" Height="900" Width="Auto"
         Background="{DynamicResource WindowBackgroundBrush}"
         Foreground="{DynamicResource ForegroundBrush}"
         WindowStartupLocation="CenterOwner">
-        <!-- ResizeMode="NoResize" -->
 
-    <Window.Resources>
-        <!-- FALLBACK BRUSHES: These are used only if the theme does not define them. -->
-    </Window.Resources>
-
-    <Grid Margin="20">
+    <Grid Margin="20,20,20,20">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="*"/>
@@ -21,45 +16,105 @@
         <!-- Left column: logo and avatar -->
         <StackPanel Grid.Column="0" VerticalAlignment="Top" Margin="0,0,20,0">
             <Image Source="pack://application:,,,/Themes/logo-garden.png" Width="96" Height="96"/>
-            <Image gif:AnimationBehavior.SourceUri="pack://application:,,,/Themes/avatar.gif" Width="80" Height="80" Margin="0,10,0,0"/>
-            <TextBlock x:Name="AppTitleText" Text="TVGarden+" FontSize="28" FontWeight="Bold" Margin="0,10,0,0"/>
+            <Image gif:AnimationBehavior.SourceUri="pack://application:,,,/Views/avatar.gif" Width="80" Height="80" Margin="0,10,0,0" Source="/Views/avatar.gif"/>
+            <TextBlock x:Name="AppTitleText" Text="TVGarden+" FontSize="28" FontWeight="Bold" Margin="0,10,0,0">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF8ADE97" Offset="0"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="2"/>
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+            </TextBlock>
+
             <TextBlock x:Name="VersionText" Text="Version 1.6" FontSize="14" Foreground="Gray" HorizontalAlignment="Center"/>
         </StackPanel>
+
         <!-- Right column: contents -->
-        <StackPanel Grid.Column="1">
-            <TextBlock x:Name="ThanksHeader" Text="Thanks to" FontWeight="Bold" Margin="0,0,0,5"/>
-            <TextBlock x:Name="ThanksText" TextWrapping="Wrap" Margin="0,0,0,15">
-                Special thanks to the CORVOBOYS &amp; LinuxSat-Support communities
-                for testing and support.
+        <StackPanel Grid.Column="1" VerticalAlignment="Top" Margin="10,10,10,10" Grid.RowSpan="1">
+            <TextBlock x:Name="ThanksHeader" Text="Thanks to" FontWeight="Bold" Margin="0,0,0,5" FontSize="18">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF80B8D0"/>
+                        <GradientStop Color="White" Offset="2"/>
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
             </TextBlock>
+
+            <TextBlock x:Name="ThanksText" TextWrapping="Wrap" Margin="0,0,0,15" FontSize="14" RenderTransformOrigin="0.5,0.5">
+                Special thanks to the CORVOBOYS &amp; LinuxSat-Support communities for testing and support.
+            </TextBlock>
+
             <Separator Margin="0,10,0,10"/>
-            <TextBlock x:Name="CreditsHeader" Text="Credits" FontWeight="Bold" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+
+            <TextBlock x:Name="CreditsHeader" Text="Credits" FontWeight="Bold" Margin="0,0,0,5" HorizontalAlignment="Center" FontSize="20">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFB080D0" Offset="0"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="2"/>
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+            </TextBlock>
+
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,5">
-                <TextBlock x:Name="DevelopedByText" Text="Developed by Lululla" Foreground="{DynamicResource ForegroundBrush}" Margin="0,0,10,0"/>
-                <TextBlock x:Name="GitHubProfileLink" Text="Repository" Foreground="{DynamicResource AccentBrush}" Cursor="Hand" MouseLeftButtonUp="GitHubProfileLink_Click" ToolTip="Open GitHub profile"/>
+                <TextBlock x:Name="DevelopedByText" Text="Developed by Lululla" Foreground="{DynamicResource ForegroundBrush}" Margin="0,0,10,0" FontSize="14"/>
+                <TextBlock x:Name="GitHubProfileLink" Text="Repository" Foreground="{DynamicResource AccentBrush}" Cursor="Hand" MouseLeftButtonUp="GitHubProfileLink_Click" ToolTip="Open GitHub profile" FontSize="14"/>
             </StackPanel>
+
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <TextBlock x:Name="CorvoBoysLink" Text="CORVOBOYS.ORG" Foreground="{DynamicResource AccentBrush}" Cursor="Hand" MouseLeftButtonUp="CorvoBoysLink_Click" Margin="0,0,15,0"/>
                 <TextBlock x:Name="LinuxSatLink" Text="LINUXSAT-SUPPORT.COM" Foreground="{DynamicResource AccentBrush}" Cursor="Hand" MouseLeftButtonUp="LinuxSatLink_Click"/>
             </StackPanel>
+
             <!-- Donation section -->
             <Separator Margin="0,10,0,10"/>
+
             <StackPanel HorizontalAlignment="Center" Margin="0,0,0,10">
-                <TextBlock x:Name="DonationHeader" Text="Support the developer" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,8"/>
-                <WrapPanel HorizontalAlignment="Center">
-                    <TextBlock x:Name="PayPalLink" Text="PayPal" Foreground="{DynamicResource AccentBrush}" Cursor="Hand" MouseLeftButtonUp="PayPalBtn_Click" Margin="0,0,15,0"/>
-                    <TextBlock x:Name="KoFiLink" Text="Ko-fi" Foreground="{DynamicResource AccentBrush}" Cursor="Hand" MouseLeftButtonUp="KoFiBtn_Click"/>
+                <TextBlock x:Name="DonationHeader" Text="Support the developer" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,8" FontSize="18">
+                    <TextBlock.Foreground>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFD700" Offset="0"/>
+                            <GradientStop Color="#FFD87725" Offset="2"/>
+                        </LinearGradientBrush>
+                    </TextBlock.Foreground>
+                </TextBlock>
+
+
+                <WrapPanel HorizontalAlignment="Center" Margin="1,0,0,0" Width="226" VerticalAlignment="Center">
+                    <TextBlock x:Name="PayPalLink" Text="PayPal" Foreground="{DynamicResource AccentBrush}" Cursor="Hand" MouseLeftButtonUp="PayPalBtn_Click" Margin="20,0,30,0" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBlock x:Name="KoFiLink" Text="Ko-fi" Foreground="{DynamicResource AccentBrush}" Cursor="Hand" MouseLeftButtonUp="KoFiBtn_Click" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="70,0,0,0"/>
                 </WrapPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,8,0,8" Cursor="">
+                    <Button Click="PayPalBtn_Click" Background="Transparent" BorderThickness="0" Cursor="Hand" Margin="0,0,10,0" ToolTip="Donate via PayPal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Image Source="pack://application:,,,/Themes/paypal.png" Width="120" Height="120" Stretch="Uniform" Cursor="Hand"/>
+                    </Button>
+                    <Button Click="KoFiBtn_Click" Background="Transparent" BorderThickness="0" Cursor="Hand" ToolTip="Buy me a coffee">
+                        <Image Source="pack://application:,,,/Themes/kofi.png" Width="120" Height="120" Cursor="Hand"/>
+                    </Button>
+                </StackPanel>
+
                 <TextBlock x:Name="DonationNote" Text="(Completely voluntary – no features are blocked)" FontSize="11" Foreground="Gray" HorizontalAlignment="Center" Margin="0,8,0,0"/>
             </StackPanel>
+
             <Separator Margin="0,5,0,10"/>
-            <TextBlock x:Name="ChangelogHeader" Text="Changelog" FontWeight="Bold" Margin="0,0,0,5"/>
+
+            <TextBlock x:Name="ChangelogHeader" Text="Changelog" FontWeight="Bold" Margin="0,0,0,5" FontSize="18">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF80B8D0" Offset="0"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="2"/>
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+            </TextBlock>
+
             <ScrollViewer MaxHeight="280" VerticalScrollBarVisibility="Auto">
                 <TextBlock x:Name="ChangelogText" TextWrapping="Wrap" Margin="0,0,0,90"/>
             </ScrollViewer>
-            <Separator Margin="0,10,0,10"/>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                <Button x:Name="SupportButton" Content="Support" Width="80" Height="30" Margin="0,0,10,0" Click="SupportButton_Click"/>
+
+            <Separator Margin="0,5,0,10"/>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,0,10">
+                <Button x:Name="SupportButton" Content="Support" Width="80" Height="30" Margin="5,0,10,0" Click="SupportButton_Click"/>
                 <Button x:Name="GitHubButton" Content="Repository" Width="80" Height="30" Margin="0,0,10,0" Click="GitHubButton_Click"/>
                 <Button x:Name="CloseButton" Content="Exit" Width="80" Height="30" Margin="0,0,10,0" Click="CloseButton_Click" IsDefault="True"/>
             </StackPanel>

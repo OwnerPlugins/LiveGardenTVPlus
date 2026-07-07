@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): (Täysin vapaaehtoista – mitään ominaisuuksia ei ole estetty)
-(No description): (Ei kuvausta)
-• Add / rename / delete groups.: • Lisää/nimeä uudelleen/poista ryhmiä.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Puskurin liukusäädin: säädä HLS-puskuria (1–10 sekuntia).
-• Check URL availability (only visible channels).: • Tarkista URL-osoitteen saatavuus (vain näkyvät kanavat).
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Muokkaa kanavien nimiä, ryhmiä, URL-osoitteita, logoja, tvg-id:tä, maata, kieliä, suosikkeja.
-• Edit multiple URLs per channel (popup window).: • Muokkaa useita URL-osoitteita kanavaa kohden (ponnahdusikkuna).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Rikastuta EPG:llä: lisää puuttuvan tvg-id:n käyttämällä sumeaa hakua.
-• EPG info displayed in status bar for current channel.: • Nykyisen kanavan tilapalkissa näkyvät EPG-tiedot.
-• Export OK / FAIL / filtered lists as M3U or JSON.: • Vie OK / FAIL / suodatetut luettelot M3U- tai JSON-muodossa.
-• Fetch logos from remote repository (OwnerPlugins/logos).: • Hae logot etävarastosta (OwnerPlugins/logot).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Koko näytön käyttöliittymä: piilottaa sivupalkin ja tilapalkin (ESC sulkee).
-• Hide/Show channel list button.: • Piilota/Näytä kanavaluettelo -painike.
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Tuo JSON (paikallinen tai URL) joustavalla kenttäkartoituksella (automaattinen tunnistus, tallenna kartoitus).
-• Picture‑in‑Picture (PIP) button.: • Kuva kuvassa (PIP) -painike.
-• Playback speed: 0.5x, 1x, 2x buttons.: • Toistonopeus: 0,5x, 1x, 2x painikkeet.
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Lajittele mikä tahansa sarake napsauttamalla otsikkoa; Käytä 'Nollaa tilaus' palataksesi alkuperäiseen tilaukseen.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: keskeytä suoratoisto; vedä liukusäädintä hakeaksesi takaisin; paina 'Live' palataksesi.
-▶ Play Media: ▶ Toista mediaa
-◀ Previous: ◀ Edellinen
-16 colour themes + Light/Dark variants.: 16 väriteemaa + vaalea/tumma versiot.
-A new version is available. Do you want to update now?: Uusi versio on saatavilla. Haluatko päivittää nyt?
-Access via 'Compare' button in Playlist Editor or Tools menu.: Pääset soittolistaeditorin tai Työkalut-valikon Vertaa-painikkeen kautta.
-Access via 'Edit Playlist' button on main toolbar.: Käytä päätyökalupalkin Muokkaa soittolistaa -painiketta.
-Actions: Toiminnot
-Add Command: Lisää komento
-Add Group: Lisää ryhmä
-Add Mapping: Lisää kartoitus
-Adjust buffer size (1-10 seconds): Säädä puskurin kokoa (1-10 sekuntia)
-Advanced IDs: Edistyneet tunnukset
-Application status: Sovelluksen tila
-Apply: Käytä
-Apply / Import: Käytä / Tuo
-Apply changes: Ota muutokset käyttöön
-Apply Filters: Käytä suodattimia
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Haluatko varmasti ladata Enigma2 GUI:n uudelleen?\n\nKäyttöliittymä käynnistyy uudelleen (musta näyttö muutaman sekunnin ajan).
-Auto (recommended): Automaattinen (suositus)
-Auto-detect: Automaattinen tunnistus
-Automatic check on startup – or click 'Check for updates' in Tools menu.: Automaattinen tarkistus käynnistyksen yhteydessä – tai napsauta "Tarkista päivitykset" Työkalut-valikosta.
-Bouquet Name: Kimpun nimi
-Bouquet sent and Enigma2 channel list reloaded.: Kimppu lähetetty ja Enigma2-kanavaluettelo ladattu uudelleen.
-Buffer (seconds): Puskuri (sekuntia)
-Buffer size – adjust HLS buffer seconds.: Puskurin koko – säädä HLS-puskurin sekunteja.
-Cache: Välimuisti
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Välimuistikansio: %TEMP%\\LiveGardenTVPlus\\epg_cache
-Cancel: Peruuttaa
-CANCEL: PERUUTTAA
-Cannot open browser: Selainta ei voi avata
-Category: Luokka
-Changelog: Muutosloki
-Channel Details: Kanavan tiedot
-Channel Down: Kanava alas
-Channel Info: Kanavan tiedot
-Channel Name: Kanavan nimi
-Channel Up: Kanava ylös
-channels from: kanavat alkaen
-channels from JSON: kanavia JSONista
-channels from JSON URL: kanavat JSON-osoitteesta
-channels from URL: kanavia URL-osoitteesta
-Check Duplicates: Tarkista kaksoiskappaleet
-Check for updates: Tarkista päivitykset
-Check URLs: Tarkista URL-osoitteet
-Clear: Selkeä
-Clear EPG Cache: Tyhjennä EPG-välimuisti
-Clear Filters: Tyhjennä suodattimet
-Clear search: Tyhjennä haku
-Click for details: Napsauta saadaksesi lisätietoja
-Close: Lähellä
-Code: Koodi
-Code copied to clipboard.: Koodi kopioitu leikepöydälle.
-Command name:: Komennon nimi:
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Yhteisö ja testaus: CorvoBoys (corvoboys.org) ja LinuxSat-Support.com
-Compare: Vertaa
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Vertaa seuraavilla tavoilla: Prioriteetti (nimi→ryhmä→tvg-id), nimi, ryhmä (kirjainkoolla on merkitystä) tai TvgId.
-Compare Playlists: Vertaa soittolistoja
-Compare two playlists – load first (current playlist) and second (from file or URL).: Vertaa kahta soittolistaa – lataa ensimmäinen (nykyinen soittolista) ja toinen (tiedostosta tai URL-osoitteesta).
-Compare...: Vertaa...
-Comparison results: {0} channels: Vertailutulokset: {0} kanavaa
-Configuration Missing: Kokoonpano puuttuu
-Confirm Delete: Vahvista Poista
-Confirm Reload: Vahvista uudelleenlataus
-Connect: Yhdistä
-Connected: Yhdistetty
-Copied: Kopioitu
-Copy: Kopioida
-CORVOBOYS.ORG: CORVOBOYS.ORG
-Country: Maa
-Credits: Krediitit
-Delete channel '{0}'?: Poistetaanko kanava {0}?
-Delete Group: Poista ryhmä
-Delete Selected: Poista valitut
-Deleted: Poistettu
-Description: Kuvaus
-Details: Yksityiskohdat
-Developed by Lululla: Kehittäjä Lululla
-Developer: Lululla: Kehittäjä: Lululla
-Disconnect: Katkaise yhteys
-Disconnected: Yhteys katkaistu
-Display as: : Näytä muodossa:
-Do you want to load this edited playlist now?: Haluatko ladata tämän muokatun soittolistan nyt?
-Double speed (2x): Tuplanopeus (2x)
-Downloading playlist...: Ladataan soittolistaa...
-Downloads ZIP, replaces files, restarts app – settings preserved.: Lataa ZIP, korvaa tiedostoja, käynnistää sovelluksen uudelleen – asetukset säilytetään.
-Drag & drop – drop M3U or JSON files directly onto main window.: Vedä ja pudota – pudota M3U- tai JSON-tiedostot suoraan pääikkunaan.
-Drag to seek back in buffer: Vedä hakeaksesi takaisin puskuriin
-Duplicate URLs found:\n\n: Päällekkäisiä URL-osoitteita löydetty:\n\n
-Edit Command: Muokkaa komentoa
-Edit command name:: Muokkaa komennon nimeä:
-Edit Playlist: Muokkaa soittolistaa
-Edit telnet command:: Muokkaa telnet-komentoa:
-Edit URLs: Muokkaa URL-osoitteita
-Empty Password: Tyhjä salasana
-End: Loppu
-Enrich with EPG: Rikastuta EPG:llä
-Enter bouquet name (without spaces):: Anna kimpun nimi (ilman välilyöntejä):
-Enter JSON URL:: Anna JSON-URL-osoite:
-Enter new group name:: Anna uusi ryhmän nimi:
-Enter playlist URL (JSON or M3U):: Anna soittolistan URL-osoite (JSON tai M3U):
-Enter playlist URL (M3U or JSON):: Anna soittolistan URL-osoite (M3U tai JSON):
-EPG: EPG
-Epg & Favorites: Epg ja suosikit
-EPG & Favorites: EPG ja suosikit
-Epg & Logos: Epg ja logot
-EPG & Logos: EPG ja logot
-EPG cache cleared successfully.: EPG-välimuisti tyhjennetty onnistuneesti.
-EPG Details: EPG:n tiedot
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG-opas – päätyökalurivin painike näyttää koko ruudukon ohjelman tiedoineen (kaksoisnapsauta lisätietoja).
-EPG Matching Threshold: EPG-vastaavuuskynnys
-EPG Source: : EPG lähde:
-EPG source – can be set in Settings (epgshare01 or custom URL).: EPG-lähde – voidaan asettaa asetuksista (epgshare01 tai mukautettu URL-osoite).
-EPG source – choose XMLTV file or enter custom URL.: EPG-lähde – valitse XMLTV-tiedosto tai anna mukautettu URL-osoite.
-EPG Source Missing: EPG-lähde puuttuu
-Error: Virhe
-Error clearing cache: {0}: Virhe välimuistin tyhjentämisessä: {0}
-Error loading: Virhe latauksessa
-Error loading EPG list: {0}: Virhe ladattaessa EPG-luetteloa: {0}
-Error loading file: {0}: Virhe ladattaessa tiedostoa: {0}
-Error loading playlists: {0}: Virhe soittolistojen lataamisessa: {0}
-Error loading URL: {0}: Virhe ladattaessa URL-osoitetta: {0}
-ERROR: player.html not found.: VIRHE: player.html ei löydy.
-Exit: Poistu
-Export all: Vie kaikki
-Export Favorites: Vie suosikit
-Export Filtered JSON: Vie suodatettu JSON
-Export Filtered M3U: Vie suodatettu M3U
-Export JSON: Vie JSON
-Export KO: Vie KO
-Export missing: Vienti puuttuu
-Export OK: Vie OK
-Export only favorite channels to a new M3U file: Vie vain suosikkikanavat uuteen M3U-tiedostoon
-Export results as JSON or M3U – export missing channels or all channels.: Vie tulokset JSON- tai M3U-muodossa – vie puuttuvat kanavat tai kaikki kanavat.
-Export selected: Vienti valittu
-Export Selected: Vie valitut
-Exported: Vietiin
-Exported {0} channels to {1}: {0} kanavaa vietiin kansioon {1}
-Extracting update...: Poimitaan päivitystä...
-Failed to download playlist: Soittolistan lataaminen epäonnistui
-Failed to load playlist: Soittolistan lataaminen epäonnistui
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: bouquets.tv:n päivitys epäonnistui. Tarkista tiedostojen käyttöoikeudet Enigma2-laitteella.
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Kimpun lataaminen epäonnistui. Tarkista Telnet-asetukset (isäntä, portti, käyttäjätunnus, salasana) ja yritä uudelleen.
-Favorite: Suosikki
-Favorites only: Vain suosikit
-Fetch Logos: Hae logot
-File {0} already exists. Overwrite?: Tiedosto {0} on jo olemassa. Korvataanko?
-File exists: Tiedosto on olemassa
-Filters: Suodattimet
-Format Detection: Muodin tunnistus
-Fullscreen: Koko näyttö
-Fullscreen (hide UI) - press ESC to exit: Koko näyttö (piilota käyttöliittymä) - paina ESC poistuaksesi
-Geo & Country: Maantieteellinen sijainti ja maa
-GeoBlocked: GeoBlocked
-GitHub Error: GitHub-virhe
-Go back to live: Palaa asumaan
-Grid: Ruudukko
-Group: ryhmä
-Half speed (0.5x): Puolinopeus (0,5x)
-Help: Auttaa
-Hide List: Piilota luettelo
-HLS playback: hls.js (MIT license): HLS-toisto: hls.js (MIT-lisenssi)
-Image: Kuva
-Import: Tuoda
-Import cancelled or no channels mapped.: Tuonti peruutettu tai kanavia ei ole kartoitettu.
-Import Error: Tuontivirhe
-Import error: {0}: Tuontivirhe: {0}
-Import from URL: Tuo URL-osoitteesta
-Import JSON: Tuo JSON
-Import JSON from URL: Tuo JSON URL-osoitteesta
-Import Local: Tuo paikallinen
-Imported {0} channels from code.: Tuotiin {0} kanavaa koodista.
-Imported {0} channels from JSON via mapping.: Tuotiin {0} kanavaa JSONista kartoituksen kautta.
-Imported {0} channels from URL.: Tuotiin {0} kanavaa URL-osoitteesta.
-In Both: Molemmissa
-Info: Tiedot
-Info on: Tietoja päällä
-Invalid JSON: {0}: Virheellinen JSON: {0}
-Invalid playlist URL.: Virheellinen soittolistan URL-osoite.
-Invalid URL.: Virheellinen URL-osoite.
-Json: Json
-JSON: JSON
-JSON parsing error: {0}: JSON-jäsennysvirhe: {0}
-JSON Property: JSON-omaisuus
-Ko-fi: Kahvia
-Language: Kieli
-Language – change UI language dynamically (translations in Languages folder).: Kieli – vaihda käyttöliittymän kieltä dynaamisesti (käännökset Languages-kansiossa).
-Languages: Kielet
-Languages (comma): Kielet (pilkku)
-LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help: LiveGardenTVPlus-ohje
-LOAD: LADATA
-Load a playlist first.: Lataa ensin soittolista.
-Load a second playlist first.: Lataa ensin toinen soittolista.
-Load File: Lataa tiedosto
-Load from file...: Lataa tiedostosta...
-Load from URL: Lataa URL-osoitteesta
-Load from URL...: Lataa URL-osoitteesta...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Lataa paikallinen M3U/JSON-tiedosto – 'Lataa tiedosto' -painikkeen (työkalurivin) tai 'Avaa tiedosto' editorin kautta.
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Lataa online-M3U/JSON-URL-osoite – 'Lataa online' -painike (työkalupalkki) tai 'Avaa URL-osoitteesta' editorissa.
-Load playlist file (M3U/JSON) from your computer: Lataa soittolistatiedosto (M3U/JSON) tietokoneeltasi
-Loaded: Ladattu
-Loaded {0} channels from JSON file via mapping.: Ladattiin {0} kanavaa JSON-tiedostosta kartoituksen kautta.
-Loaded {0} channels from JSON URL.: Ladattu {0} kanavaa JSON-URL-osoitteesta.
-Loaded {0} channels from M3U file.: Ladattu {0} kanavaa M3U-tiedostosta.
-Loaded {0} channels from M3U URL.: Ladattu {0} kanavaa M3U:n URL-osoitteesta.
-Loading...: Ladataan...
-Logo: Logo
-Logo Picker – in editor, click '...' to choose logo from gallery.: Logonvalitsin – napsauta editorissa '...' valitaksesi logon galleriasta.
-Logo Preview: Logon esikatselu
-Logo URL: Logon URL-osoite
-Logos – automatically download from GitHub repository (Settings → Logos Source).: Logot – lataa automaattisesti GitHub-arkistosta (Asetukset → Logon lähde).
-Logos Matching Threshold: Logojen vastaavuuskynnys
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Logot arkisto – valitse omistaja/repo/polku (oletusOwnerPlugins/logot).
-Logos Source: Logon lähde
-Logos Subfolder: Logot-alikansio
-M3U: M3U
-M3U parsing error: {0}: M3U-jäsennysvirhe: {0}
-Map JSON properties to channel fields:: Yhdistä JSON-ominaisuudet kanavakenttiin:
-Mapping saved for future imports of this file.: Kartta on tallennettu tämän tiedoston tulevaa tuontia varten.
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Vastaavat kynnysarvot – määritä sumea vastaavuusherkkyys EPG:lle ja logoille.
-Mini Player: Mini-soitin
-Move to Group: Siirrä ryhmään
-Moved: Siirretty
-Name: Nimi
-Nanoid: Nanoidi
-Network error: Verkkovirhe
-New Playlist: Uusi soittolista
-Next: Seuraavaksi
-Next ▶: Seuraava ▶
-No .m3u files found on GitHub repository.: GitHub-tietovarastosta ei löytynyt .m3u-tiedostoja.
-No cache folder found.: Välimuistikansiota ei löytynyt.
-No channel selected: Kanavaa ei ole valittu
-No channels could be mapped or import cancelled.: Kanavia ei voitu kartoittaa tai tuontia ei voitu peruuttaa.
-No channels could be mapped. Check your mapping rules.: Kanavia ei voitu kartoittaa. Tarkista karttasäännöt.
-No channels found in JSON.: JSONista ei löytynyt kanavia.
-No channels found in M3U.: Kanavia ei löytynyt M3U:sta.
-No channels loaded from JSON URL.: Kanavia ei ladattu JSON-URL-osoitteesta.
-No channels loaded from M3U URL.: Kanavia ei ladattu M3U:n URL-osoitteesta.
-No channels loaded from M3U.: M3U:sta ei ladattu kanavia.
-No channels loaded.: Ei ladattuja kanavia.
-No channels mapped: Ei kartoitettuja kanavia
-No channels selected.: Ei valittuja kanavia.
-No channels to import.: Ei tuottavia kanavia.
-No duplicate URLs found.: Päällekkäisiä URL-osoitteita ei löytynyt.
-No EPG data: Ei EPG-tietoja
-No EPG information available for this channel.: Tälle kanavalle ei ole saatavilla EPG-tietoja.
-No EPG source configured. Please select one from the combo or go to Settings.: EPG-lähdettä ei ole määritetty. Valitse jokin yhdistelmästä tai mene Asetuksiin.
-No EPG source configured. Would you like to open settings to select one?: EPG-lähdettä ei ole määritetty. Haluatko avata asetukset valitaksesi yhden?
-No favorite channels to export.: Ei suosikkikanavia vietäväksi.
-No missing channels to export.: Ei puuttuvia kanavia vietäväksi.
-No playlist found: Soittolistaa ei löydy
-No second playlist loaded.: Toista soittolistaa ei ladattu.
-No stream URL available for this channel.: Tälle kanavalle ei ole saatavilla suoratoiston URL-osoitetta.
-No text to import.: Ei tuotavaa tekstiä.
-No updates available.: Päivityksiä ei ole saatavilla.
-Normal speed (1x): Normaali nopeus (1x)
-Not connected to the box.: Ei kytketty laatikkoon.
-Now: Nyt
-OK: OK
-Online Playlist: Online-soittolista
-Online playlist – select from GitHub repository (auto‑refresh).: Online-soittolista – valitse GitHub-arkistosta (automaattinen päivitys).
-Only in First: Vain ensimmäisessä
-Only in Second: Vain toisessa
-Open File...: Avaa tiedosto...
-Open from URL: Avaa URL-osoitteesta
-Open Playlist: Avaa soittolista
-Pause/Resume live stream: Keskeytä/Jatka suoratoistoa
-Paused: Keskeytetty
-PayPal: PayPal
-Picture-in-Picture mode: Kuva kuvassa -tila
-Play/Pause: Toista/Tauko
-Player Media Controls: Playerin mediaohjaimet
-Playing Media: Median toistaminen
-Playlist & Groups: Soittolistat ja ryhmät
-Playlist Comparison: Soittolistan vertailu
-Playlist Editor: Soittolistaeditori
-Playlist Loading: Soittolistaa ladataan
-Playlist Management: Soittolistan hallinta
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Soittolistavarasto: OwnerPlugins/TivuStreamList (italialaiset ja kansainväliset streamit)
-Please select a program first.: Valitse ensin ohjelma.
-Preview (first 5 channels): Esikatselu (ensimmäiset 5 kanavaa)
-Preview error: {0}: Esikatseluvirhe: {0}
-Program Details: Ohjelman tiedot
-Ready: Valmis
-Ready.: Valmis.
-Recent: Viimeaikaiset
-Recent files – quick access to last 5 opened playlists.: Viimeisimmät tiedostot – nopea pääsy viiteen viimeiseen avattuun soittolistaan.
-Recent playlists: Viimeaikaiset soittolistat
-Refresh Code: Päivitä koodi
-Refresh EPG: Päivitä EPG
-Refresh EPG List: Päivitä EPG-luettelo
-Refresh from GitHub: Päivitä GitHubista
-Refresh List: Päivitä luettelo
-Reload GUI: Lataa GUI uudelleen
-Remove Command: Poista komento
-Rename Group: Nimeä ryhmä uudelleen
-Rename group '{0}' to:: Nimeä ryhmä '{0}' uudelleen muotoon:
-Repository: Arkisto
-Reset Order: Nollaa tilaus
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Tulokset: 'Vain ensimmäisessä', 'Vain toisessa', 'Molemmissa' – tilavärikoodauksella.
-Save: Tallentaa
-SAVE: TALLENTAA
-Save – persists all settings without reloading current playlist.: Tallenna – säilyttää kaikki asetukset lataamatta uudelleen nykyistä soittolistaa.
-Save as...: Tallenna nimellä...
-Save current playlist to a new M3U file: Tallenna nykyinen soittolista uuteen M3U-tiedostoon
-Save Mapping: Tallenna kartoitus
-Save Playlist: Tallenna soittolista
-Save Status: Tallenna tila
-Saved: Tallennettu
-Search channel: : Hae kanavaa:
-Search channels by name: Hae kanavia nimellä
-Search channels...: Hae kanavia...
-sec: sek
-Second playlist loaded: {0} channels: Toinen soittolista ladattu: {0} kanavaa
-Select a channel to play.: Valitse toistettava kanava.
-Select a playlist first.: Valitse ensin soittolista.
-Select target group:: Valitse kohderyhmä:
-Select Theme: Valitse Teema
-Selected theme is saved and applied on restart.: Valittu teema tallennetaan ja otetaan käyttöön uudelleenkäynnistyksen yhteydessä.
-Send: Lähetä
-Send playlist to Enigma2 decoder: Lähetä soittolista Enigma2-dekooderiin
-Send to Enigma2: Lähetä Enigma2:een
-Settings: Asetukset
-Show List: Näytä luettelo
-Show only channels marked as favorites: Näytä vain suosikeiksi merkityt kanavat
-Show or hide the channel list: Näytä tai piilota kanavaluettelo
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Erityiset kiitokset CORVOBOYS & LinuxSat-Support -yhteisöille testauksesta ja tuesta.
-Start: Aloita
-Status: Status
-Stop: Stop
-Stopped: Pysähtynyt
-Stream URL: Striimin URL-osoite
-Stream URLs: Striimaa URL-osoitteita
-Success: Menestys
-Support: Tukea
-Support the developer: Tue kehittäjää
-Target Field: Kohdekenttä
-Telnet command:: Telnet-komento:
-Telnet Commander: Telnetin komentaja
-Telnet Config: Telnet Config
-Telnet Console: Telnet-konsoli
-Telnet host not configured. Please set it in Settings.: Telnet-isäntä ei ole määritetty. Aseta se asetuksissa.
-Telnet password is empty. Do you want to continue?: Telnet-salasana on tyhjä. Haluatko jatkaa?
-Telnet username not configured. Please set it in Settings.: Telnet-käyttäjänimeä ei ole määritetty. Aseta se asetuksissa.
-Thanks to: Ansiosta
-Theme picker: Teemanvalitsin
-Theme picker – accessible via Tools menu on main toolbar.: Teemanvalitsin – käytettävissä päätyökalupalkin Työkalut-valikon kautta.
-Themes: Teemat
-Time: Aika
-Title: Otsikko
-Tools: Työkalut
-Total: Kokonais
-Total channels in loaded playlist: Kanavien kokonaismäärä ladatussa soittolistassa
-TV Guide (EPG): TV-opas (EPG)
-TvgId: TvgId
-Type channel name to filter: Kirjoita suodattavan kanavan nimi
-UI: MaterialDesignThemes.Wpf: Käyttöliittymä: MaterialDesignThemes.Wpf
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Formaattia ei voi tunnistaa automaattisesti. Valitse JSON tai M3U avattavasta valikosta ja yritä uudelleen.
-Unable to find version in remote project file.: Versiota ei löydy etäprojektitiedostosta.
-Unsupported format. Please select JSON or M3U.: Ei tuettu muoto. Valitse JSON tai M3U.
-Update: Päivittää
-Update complete. Restarting...: Päivitys valmis. Käynnistetään uudelleen...
-Update Error: Päivitysvirhe
-Update failed: : Päivitys epäonnistui:
-Updates: Päivitykset
-Upload Error: Latausvirhe
-URL: URL-osoite
-URL (primary): URL (ensisijainen)
-URL Check: URL-osoitteen tarkistus
-URL list (one per line): URL-luettelo (yksi per rivi)
-URLs & Status: URL-osoitteet ja tila
-Version: Versio
-Version {0}.{1}.{2}: Versio {0}.{1}.{2}
-Version unknown: Versio tuntematon
-Waiting for LiveGardenTVPlus to close...: Odotetaan, että LiveGardenTVPlus sulkeutuu...
-Warning: Varoitus
-WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
-Youtube URL: Youtuben URL-osoite
-Youtube URLs: Youtuben URL-osoitteet
+(Completely voluntary – no features are blocked)::(Täysin vapaaehtoista – mitään ominaisuuksia ei ole estetty)
+(No description)::(Ei kuvausta)
+• Add / rename / delete groups.::• Lisää/nimeä uudelleen/poista ryhmiä.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• Puskurin liukusäädin: säädä HLS-puskuria (1–10 sekuntia).
+• Check URL availability (only visible channels).::• Tarkista URL-osoitteen saatavuus (vain näkyvät kanavat).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• Muokkaa kanavien nimiä, ryhmiä, URL-osoitteita, logoja, tvg-id:tä, maata, kieliä, suosikkeja.
+• Edit multiple URLs per channel (popup window).::• Muokkaa useita URL-osoitteita kanavaa kohden (ponnahdusikkuna).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• Rikastuta EPG:llä: lisää puuttuvan tvg-id:n käyttämällä sumeaa hakua.
+• EPG info displayed in status bar for current channel.::• Nykyisen kanavan tilapalkissa näkyvät EPG-tiedot.
+• Export OK / FAIL / filtered lists as M3U or JSON.::• Vie OK / FAIL / suodatetut luettelot M3U- tai JSON-muodossa.
+• Fetch logos from remote repository (OwnerPlugins/logos).::• Hae logot etävarastosta (OwnerPlugins/logot).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• Koko näytön käyttöliittymä: piilottaa sivupalkin ja tilapalkin (ESC sulkee).
+• Hide/Show channel list button.::• Piilota/Näytä kanavaluettelo -painike.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• Tuo JSON (paikallinen tai URL) joustavalla kenttäkartoituksella (automaattinen tunnistus, tallenna kartoitus).
+• Picture‑in‑Picture (PIP) button.::• Kuva kuvassa (PIP) -painike.
+• Playback speed: 0.5x, 1x, 2x buttons.::• Toistonopeus: 0,5x, 1x, 2x painikkeet.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• Lajittele mikä tahansa sarake napsauttamalla otsikkoa; Käytä 'Nollaa tilaus' palataksesi alkuperäiseen tilaukseen.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• Timeshift: keskeytä suoratoisto; vedä liukusäädintä hakeaksesi takaisin; paina 'Live' palataksesi.
+▶ Play Media::▶ Toista mediaa
+◀ Previous::◀ Edellinen
+16 colour themes + Light/Dark variants.::16 väriteemaa + vaalea/tumma versiot.
+A new version is available. Do you want to update now?::Uusi versio on saatavilla. Haluatko päivittää nyt?
+Access via 'Compare' button in Playlist Editor or Tools menu.::Pääsy soittolistaeditorin tai Työkalut-valikon Vertaa-painikkeella.
+Access via 'Edit Playlist' button on main toolbar.::Käytä päätyökalupalkin Muokkaa soittolistaa -painiketta.
+Actions::Toiminnot
+Add Command::Lisää komento
+Add Group::Lisää ryhmä
+Add Mapping::Lisää kartoitus
+Adjust buffer size (1-10 seconds)::Säädä puskurin kokoa (1-10 sekuntia)
+Advanced IDs::Edistyneet tunnukset
+All channels marked as favorites::Kaikki kanavat on merkitty suosikeiksi
+All favorites removed::Kaikki suosikit poistettu
+Application status::Sovelluksen tila
+Apply::Käytä
+Apply / Import::Käytä / Tuo
+Apply changes::Ota muutokset käyttöön
+Apply Filters::Käytä suodattimia
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::Haluatko varmasti ladata Enigma2 GUI:n uudelleen?\n\nKäyttöliittymä käynnistyy uudelleen (musta näyttö muutaman sekunnin ajan).
+Auto (recommended)::Automaattinen (suositus)
+Auto-detect::Automaattinen tunnistus
+Automatic check on startup – or click 'Check for updates' in Tools menu.::Automaattinen tarkistus käynnistettäessä – tai napsauta 'Tarkista päivitykset' Työkalut-valikosta.
+Bouquet Name::Kimpun nimi
+Bouquet sent and Enigma2 channel list reloaded.::Kimppu lähetetty ja Enigma2-kanavaluettelo ladattu uudelleen.
+Buffer (seconds)::Puskuri (sekuntia)
+Buffer size – adjust HLS buffer seconds.::Puskurin koko – säädä HLS-puskurin sekunteja.
+Cache::Välimuisti
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::Välimuistikansio: %TEMP%\\LiveGardenTVPlus\\epg_cache
+Cancel::Peruuttaa
+CANCEL::PERUUTTAA
+Cannot open browser::Selainta ei voi avata
+Category::Luokka
+Changelog::Muutosloki
+Channel Details::Kanavan tiedot
+Channel Down::Kanava alas
+Channel Info::Kanavan tiedot
+Channel Name::Kanavan nimi
+Channel Up::Kanava ylös
+Channel updated successfully.::Kanavan päivitys onnistui.
+channels from::kanavat alkaen
+channels from JSON::kanavia JSONista
+channels from JSON URL::kanavat JSON-osoitteesta
+channels from URL::kanavia URL-osoitteesta
+Check Duplicates::Tarkista kaksoiskappaleet
+Check for updates::Tarkista päivitykset
+Check URLs::Tarkista URL-osoitteet
+Clear::Selkeä
+Clear EPG Cache::Tyhjennä EPG-välimuisti
+Clear Filters::Tyhjennä suodattimet
+Clear search::Tyhjennä haku
+Click for details::Napsauta saadaksesi lisätietoja
+Close::Lähellä
+Close current playlist::Sulje nykyinen soittolista
+Close Playlist::Sulje soittolista
+Code::Koodi
+Code copied to clipboard.::Koodi kopioitu leikepöydälle.
+Command name:::Komennon nimi:
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::Yhteisö ja testaus: CorvoBoys (corvoboys.org) ja LinuxSat-Support.com
+Compare::Vertaa
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::Vertaa seuraavilla tavoilla: Prioriteetti (nimi→ryhmä→tvg-id), nimi, ryhmä (kirjainkoolla on merkitystä) tai TvgId.
+Compare Playlists::Vertaa soittolistoja
+Compare two playlists – load first (current playlist) and second (from file or URL).::Vertaa kahta soittolistaa – lataa ensimmäinen (nykyinen soittolista) ja toinen (tiedostosta tai URL-osoitteesta).
+Compare...::Vertaa...
+Comparison results: {0} channels::Vertailutulokset: {0} kanavaa
+Configuration Missing::Kokoonpano puuttuu
+Confirm Delete::Vahvista Poista
+Confirm Reload::Vahvista uudelleenlataus
+Connect::Yhdistä
+Connected::Yhdistetty
+Copied::Kopioitu
+Copy::Kopioida
+CORVOBOYS.ORG::CORVOBOYS.ORG
+Country::Maa
+Credits::Krediitit
+Delete channel '{0}'?::Poistetaanko kanava {0}?
+Delete Group::Poista ryhmä
+Delete Selected::Poista valitut
+Deleted::Poistettu
+Description::Kuvaus
+Details::Yksityiskohdat
+Developed by Lululla::Kehittäjä Lululla
+Developer: Lululla::Kehittäjä: Lululla
+Disconnect::Katkaise yhteys
+Disconnected::Yhteys katkaistu
+Display as::Näytä muodossa
+Do you want to load this edited playlist now?::Haluatko ladata tämän muokatun soittolistan nyt?
+Double speed (2x)::Tuplanopeus (2x)
+Downloading playlist...::Ladataan soittolistaa...
+Downloads ZIP, replaces files, restarts app – settings preserved.::Lataa ZIP, korvaa tiedostoja, käynnistää sovelluksen uudelleen – asetukset säilytetään.
+Drag & drop – drop M3U or JSON files directly onto main window.::Vedä ja pudota – pudota M3U- tai JSON-tiedostot suoraan pääikkunaan.
+Drag to seek back in buffer::Vedä hakeaksesi takaisin puskuriin
+Duplicate URLs found:\n\n::Päällekkäisiä URL-osoitteita löydetty:\n\n
+Edit Command::Muokkaa komentoa
+Edit command name:::Muokkaa komennon nimeä:
+Edit Playlist::Muokkaa soittolistaa
+Edit telnet command:::Muokkaa telnet-komentoa:
+Edit URLs::Muokkaa URL-osoitteita
+Empty Password::Tyhjä salasana
+End::Loppu
+Enigma2::Enigma 2
+Enrich with EPG::Rikastuta EPG:llä
+Enter bouquet name (without spaces):::Anna kimpun nimi (ilman välilyöntejä):
+Enter JSON URL:::Anna JSON-URL-osoite:
+Enter new group name:::Anna uusi ryhmän nimi:
+Enter playlist URL (JSON or M3U):::Anna soittolistan URL-osoite (JSON tai M3U):
+Enter playlist URL (M3U or JSON):::Anna soittolistan URL-osoite (M3U tai JSON):
+EPG::EPG
+Epg & Favorites::Epg ja suosikit
+EPG & Favorites::EPG ja suosikit
+Epg & Logos::Epg ja logot
+EPG & Logos::EPG ja logot
+EPG cache cleared successfully.::EPG-välimuisti tyhjennetty onnistuneesti.
+EPG Details::EPG:n tiedot
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::EPG-opas – päätyökalurivin painike näyttää täydellisen ruudukon ohjelmatiedoilla (kaksoisnapsauta lisätietoja).
+EPG Matching Threshold::EPG-vastaavuuskynnys
+EPG Source::EPG lähde
+EPG source – can be set in Settings (epgshare01 or custom URL).::EPG-lähde – voidaan asettaa asetuksista (epgshare01 tai mukautettu URL-osoite).
+EPG source – choose XMLTV file or enter custom URL.::EPG-lähde – valitse XMLTV-tiedosto tai anna mukautettu URL-osoite.
+EPG Source Missing::EPG-lähde puuttuu
+Error::Virhe
+Error clearing cache: {0}::Virhe välimuistin tyhjentämisessä: {0}
+Error loading::Virhe latauksessa
+Error loading EPG list: {0}::Virhe ladattaessa EPG-luetteloa: {0}
+Error loading file: {0}::Virhe ladattaessa tiedostoa: {0}
+Error loading playlists: {0}::Virhe soittolistojen lataamisessa: {0}
+Error loading URL: {0}::Virhe ladattaessa URL-osoitetta: {0}
+ERROR: player.html not found.::VIRHE: player.html ei löydy.
+Exit::Poistu
+Export all::Vie kaikki
+Export Favorites::Vie suosikit
+Export Filtered JSON::Vie suodatettu JSON
+Export Filtered M3U::Vie suodatettu M3U
+Export JSON::Vie JSON
+Export KO::Vie KO
+Export missing::Vienti puuttuu
+Export OK::Vie OK
+Export only favorite channels to a new M3U file::Vie vain suosikkikanavat uuteen M3U-tiedostoon
+Export results as JSON or M3U – export missing channels or all channels.::Vie tulokset JSON- tai M3U-muodossa – vie puuttuvat kanavat tai kaikki kanavat.
+Export selected::Vienti valittu
+Export Selected::Vie valitut
+Exported::Vietiin
+Exported {0} channels to {1}::{0} kanavaa vietiin kansioon {1}
+Extracting update...::Poimitaan päivitystä...
+Failed to download playlist::Soittolistan lataaminen epäonnistui
+Failed to load playlist::Soittolistan lataaminen epäonnistui
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::bouquets.tv:n päivitys epäonnistui. Tarkista tiedostojen käyttöoikeudet Enigma2-laitteella.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::Kimpun lataaminen epäonnistui. Tarkista Telnet-asetukset (isäntä, portti, käyttäjätunnus, salasana) ja yritä uudelleen.
+Favorite::Suosikki
+Favorites::Suosikit
+Favorites only::Vain suosikit
+Fetch Logos::Hae logot
+File::Tiedosto
+File {0} already exists. Overwrite?::Tiedosto {0} on jo olemassa. Korvataanko?
+File exists::Tiedosto on olemassa
+Filters::Suodattimet
+Format Detection::Muodin tunnistus
+Fullscreen::Koko näyttö
+Fullscreen (hide UI) - press ESC to exit::Koko näyttö (piilota käyttöliittymä) - paina ESC poistuaksesi
+Geo & Country::Maantieteellinen sijainti ja maa
+GeoBlocked::GeoBlocked
+GitHub Error::GitHub-virhe
+Go back to live::Palaa asumaan
+Grid::Ruudukko
+Group::ryhmä
+Half speed (0.5x)::Puolinopeus (0,5x)
+Help::Auttaa
+Hide List::Piilota luettelo
+HLS playback: hls.js (MIT license)::HLS-toisto: hls.js (MIT-lisenssi)
+Image::Kuva
+Import::Tuoda
+Import cancelled or no channels mapped.::Tuonti peruutettu tai kanavia ei ole kartoitettu.
+Import Error::Tuontivirhe
+Import error: {0}::Tuontivirhe: {0}
+Import from URL::Tuo URL-osoitteesta
+Import JSON::Tuo JSON
+Import JSON from URL::Tuo JSON URL-osoitteesta
+Import Local::Tuo paikallinen
+Imported {0} channels from code.::Tuotiin {0} kanavaa koodista.
+Imported {0} channels from JSON via mapping.::Tuotiin {0} kanavaa JSONista kartoituksen kautta.
+Imported {0} channels from URL.::Tuotu {0} kanavaa URL-osoitteesta.
+In Both::Molemmissa
+Info::Tiedot
+Info on::Tietoja päällä
+Invalid JSON: {0}::Virheellinen JSON: {0}
+Invalid playlist URL.::Virheellinen soittolistan URL-osoite.
+Invalid URL.::Virheellinen URL-osoite.
+Json::Json
+JSON::JSON
+JSON parsing error: {0}::JSON-jäsennysvirhe: {0}
+JSON Property::JSON-omaisuus
+Ko-fi::Kahvi
+Language::Kieli
+Language – change UI language dynamically (translations in Languages folder).::Kieli – vaihda käyttöliittymän kieltä dynaamisesti (käännökset Languages-kansiossa).
+Languages::Kielet
+Languages (comma)::Kielet (pilkku)
+LINUXSAT-SUPPORT.COM::LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help::LiveGardenTVPlus-ohje
+LOAD::LADATA
+Load a playlist first.::Lataa ensin soittolista.
+Load a second playlist first.::Lataa ensin toinen soittolista.
+Load File::Lataa tiedosto
+Load from file...::Lataa tiedostosta...
+Load from URL::Lataa URL-osoitteesta
+Load from URL...::Lataa URL-osoitteesta...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::Lataa paikallinen M3U/JSON-tiedosto – 'Lataa tiedosto' -painikkeen (työkalurivin) tai editorin 'Avaa tiedosto' kautta.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::Lataa online-M3U/JSON-URL - 'Lataa online' -painike (työkalupalkki) tai 'Avaa URL-osoitteesta' editorissa.
+Load Playlist::Lataa soittolista
+Load playlist file (M3U/JSON) from your computer::Lataa soittolistatiedosto (M3U/JSON) tietokoneeltasi
+Loaded::Ladattu
+Loaded {0} channels from JSON file via mapping.::Ladattiin {0} kanavaa JSON-tiedostosta yhdistämisen kautta.
+Loaded {0} channels from JSON URL.::Ladattu {0} kanavaa JSON-URL-osoitteesta.
+Loaded {0} channels from M3U file.::Ladattu {0} kanavaa M3U-tiedostosta.
+Loaded {0} channels from M3U URL.::Ladattu {0} kanavaa M3U:n URL-osoitteesta.
+Loading...::Ladataan...
+Logo::Logo
+Logo Picker – in editor, click '...' to choose logo from gallery.::Logonvalitsin – napsauta editorissa '...' valitaksesi logon galleriasta.
+Logo Preview::Logon esikatselu
+Logo URL::Logon URL-osoite
+Logos – automatically download from GitHub repository (Settings → Logos Source).::Logot – lataa automaattisesti GitHub-arkistosta (Asetukset → Logon lähde).
+Logos Matching Threshold::Logojen vastaavuuskynnys
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::Logot arkisto – valitse omistaja/repo/polku (oletusOwnerPlugins/logot).
+Logos Source::Logon lähde
+Logos Subfolder::Logot-alikansio
+M3U::M3U
+M3U parsing error: {0}::M3U:n jäsennysvirhe: {0}
+Map JSON properties to channel fields:::Yhdistä JSON-ominaisuudet kanavakenttiin:
+Mapping saved for future imports of this file.::Kartta on tallennettu tämän tiedoston tulevaa tuontia varten.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::Vastaavat kynnysarvot – aseta sumea vastaavuusherkkyys EPG:lle ja logoille.
+Mini Player::Mini-soitin
+Move to Group::Siirrä ryhmään
+Moved::Siirretty
+Name::Nimi
+Nanoid::Nanoidi
+Network error::Verkkovirhe
+New Playlist::Uusi soittolista
+Next::Seuraavaksi
+Next ▶::Seuraava ▶
+No .m3u files found on GitHub repository.::GitHub-tietovarastosta ei löytynyt .m3u-tiedostoja.
+No cache folder found.::Välimuistikansiota ei löytynyt.
+No channel selected::Kanavaa ei ole valittu
+No channel selected.::Kanavaa ei ole valittu.
+No channels could be mapped or import cancelled.::Kanavia ei voitu kartoittaa tai tuontia ei voitu peruuttaa.
+No channels could be mapped. Check your mapping rules.::Kanavia ei voitu kartoittaa. Tarkista karttasäännöt.
+No channels found in JSON.::JSONista ei löytynyt kanavia.
+No channels found in M3U.::Kanavia ei löytynyt M3U:sta.
+No channels loaded from JSON URL.::Kanavia ei ladattu JSON-URL-osoitteesta.
+No channels loaded from M3U URL.::Kanavia ei ladattu M3U:n URL-osoitteesta.
+No channels loaded from M3U.::M3U:sta ei ladattu kanavia.
+No channels loaded.::Ei ladattuja kanavia.
+No channels mapped::Ei kartoitettuja kanavia
+No channels selected.::Ei valittuja kanavia.
+No channels to import.::Ei tuottavia kanavia.
+No duplicate URLs found.::Päällekkäisiä URL-osoitteita ei löytynyt.
+No EPG data::Ei EPG-tietoja
+No EPG information available for this channel.::Tälle kanavalle ei ole saatavilla EPG-tietoja.
+No EPG source configured. Please select one from the combo or go to Settings.::EPG-lähdettä ei ole määritetty. Valitse jokin yhdistelmästä tai mene Asetuksiin.
+No EPG source configured. Would you like to open settings to select one?::EPG-lähdettä ei ole määritetty. Haluatko avata asetukset valitaksesi yhden?
+No favorite channels found.::Suosikkikanavia ei löytynyt.
+No favorite channels to export.::Ei suosikkikanavia vietäväksi.
+No missing channels to export.::Ei puuttuvia kanavia vietäväksi.
+No playlist found::Soittolistaa ei löydy
+No second playlist loaded.::Toista soittolistaa ei ladattu.
+No stream URL available for this channel.::Tälle kanavalle ei ole saatavilla suoratoiston URL-osoitetta.
+No text to import.::Ei tuotavaa tekstiä.
+No updates available.::Päivityksiä ei ole saatavilla.
+Normal speed (1x)::Normaali nopeus (1x)
+Not connected to the box.::Ei kytketty laatikkoon.
+Now::Nyt
+OK::OK
+Online Playlist::Online-soittolista
+Online playlist – select from GitHub repository (auto‑refresh).::Online-soittolista – valitse GitHub-arkistosta (automaattinen päivitys).
+Only in First::Vain ensimmäisessä
+Only in Second::Vain toisessa
+Open File...::Avaa tiedosto...
+Open from URL::Avaa URL-osoitteesta
+Open Playlist::Avaa soittolista
+Pause/Resume live stream::Keskeytä/Jatka suoratoistoa
+Paused::Keskeytetty
+PayPal::PayPal
+Picture-in-Picture mode::Kuva kuvassa -tila
+Play/Pause::Toista/Tauko
+Player Media Controls::Playerin mediaohjaimet
+Playing Media::Median toistaminen
+Playlist & Groups::Soittolistat ja ryhmät
+Playlist closed::Soittolista suljettu
+Playlist Comparison::Soittolistan vertailu
+Playlist Editor::Soittolistaeditori
+Playlist Loading::Soittolistaa ladataan
+Playlist Management::Soittolistan hallinta
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::Soittolistavarasto: OwnerPlugins/TivuStreamList (italialaiset ja kansainväliset streamit)
+Please select a program first.::Valitse ensin ohjelma.
+Preview (first 5 channels)::Esikatselu (ensimmäiset 5 kanavaa)
+Preview error: {0}::Esikatseluvirhe: {0}
+Program Details::Ohjelman tiedot
+Ready::Valmis
+Recent::Viimeaikaiset
+Recent files – quick access to last 5 opened playlists.::Viimeisimmät tiedostot – nopea pääsy viiteen viimeiseen avattuun soittolistaan.
+Recent playlists::Viimeaikaiset soittolistat
+Refresh Code::Päivitä koodi
+Refresh EPG::Päivitä EPG
+Refresh EPG List::Päivitä EPG-luettelo
+Refresh from GitHub::Päivitä GitHubista
+Refresh List::Päivitä luettelo
+Reload GUI::Lataa GUI uudelleen
+Remove Command::Poista komento
+Rename Group::Nimeä ryhmä uudelleen
+Rename group '{0}' to:::Nimeä ryhmä '{0}' uudelleen muotoon:
+Repository::Arkisto
+Reset Order::Nollaa tilaus
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::Tulokset: 'Vain ensimmäisessä', 'Vain toisessa', 'Molemmissa' – tilavärikoodauksella.
+Save::Tallentaa
+SAVE::TALLENTAA
+Save – persists all settings without reloading current playlist.::Tallenna – säilyttää kaikki asetukset lataamatta uudelleen nykyistä soittolistaa.
+Save as...::Tallenna nimellä...
+Save current playlist to a new M3U file::Tallenna nykyinen soittolista uuteen M3U-tiedostoon
+Save Favorites::Tallenna suosikit
+Save Mapping::Tallenna kartoitus
+Save Playlist::Tallenna soittolista
+Save Status::Tallenna tila
+Saved::Tallennettu
+Search channel::Hae kanavaa
+Search channels by name::Hae kanavia nimellä
+Search channels...::Hae kanavia...
+sec::sek
+Second playlist loaded: {0} channels::Toinen soittolista ladattu: {0} kanavaa
+Select a channel to play.::Valitse toistettava kanava.
+Select a playlist first.::Valitse ensin soittolista.
+Select target group:::Valitse kohderyhmä:
+Select Theme::Valitse Teema
+Selected theme is saved and applied on restart.::Valittu teema tallennetaan ja otetaan käyttöön uudelleenkäynnistyksen yhteydessä.
+Send::Lähetä
+Send playlist to Enigma2 decoder::Lähetä soittolista Enigma2-dekooderille
+Send to Enigma2::Lähetä Enigma2:een
+Settings::Asetukset
+Show List::Näytä luettelo
+Show only channels marked as favorites::Näytä vain suosikeiksi merkityt kanavat
+Show or hide the channel list::Näytä tai piilota kanavaluettelo
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::Erityiset kiitokset CORVOBOYS & LinuxSat-Support -yhteisöille testauksesta ja tuesta.
+Start::Aloita
+Status::Status
+Stop::Stop
+Stopped::Pysähtynyt
+Stream URL::Striimin URL-osoite
+Stream URLs::Striimaa URL-osoitteita
+Success::Menestys
+Support::Tukea
+Support the developer::Tue kehittäjää
+Target Field::Kohdekenttä
+Telnet command:::Telnet-komento:
+Telnet Commander::Telnetin komentaja
+Telnet Config::Telnet Config
+Telnet Configuration::Telnet-määritykset
+Telnet Console::Telnet-konsoli
+Telnet host not configured. Please set it in Settings.::Telnet-isäntä ei ole määritetty. Aseta se asetuksissa.
+Telnet password is empty. Do you want to continue?::Telnet-salasana on tyhjä. Haluatko jatkaa?
+Telnet username not configured. Please set it in Settings.::Telnet-käyttäjänimeä ei ole määritetty. Aseta se asetuksissa.
+Thanks to::Ansiosta
+Theme picker::Teemanvalitsin
+Theme picker – accessible via Tools menu on main toolbar.::Teemanvalitsin – käytettävissä päätyökalupalkin Työkalut-valikon kautta.
+Themes::Teemat
+Time::Aika
+Title::Otsikko
+Tools::Työkalut
+Total::Kokonais
+Total channels in loaded playlist::Kanavien kokonaismäärä ladatussa soittolistassa
+TV Guide (EPG)::TV-opas (EPG)
+TvgId::TvgId
+Type channel name to filter::Kirjoita suodatettavan kanavan nimi
+UI: MaterialDesignThemes.Wpf::Käyttöliittymä: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::Formaattia ei voi tunnistaa automaattisesti. Valitse JSON tai M3U avattavasta valikosta ja yritä uudelleen.
+Unable to find version in remote project file.::Versiota ei löydy etäprojektitiedostosta.
+Unsupported format. Please select JSON or M3U.::Ei tuettu muoto. Valitse JSON tai M3U.
+Update::Päivittää
+Update complete. Restarting...::Päivitys valmis. Käynnistetään uudelleen...
+Update Error::Päivitysvirhe
+Update failed: ::Päivitys epäonnistui:
+Updated::Päivitetty
+Updates::Päivitykset
+Upload Error::Latausvirhe
+URL::URL-osoite
+URL (primary)::URL (ensisijainen)
+URL Check::URL-osoitteen tarkistus
+URL list (one per line)::URL-luettelo (yksi per rivi)
+URLs & Status::URL-osoitteet ja tila
+Version::Versio
+Version {0}.{1}.{2}::Versio {0}.{1}.{2}
+Version unknown::Versio tuntematon
+Waiting for LiveGardenTVPlus to close...::Odotetaan, että LiveGardenTVPlus sulkeutuu...
+Warning::Varoitus
+WebView2: Microsoft Edge WebView2::WebView2: Microsoft Edge WebView2
+Youtube URL::Youtuben URL-osoite
+Youtube URLs::Youtuben URL-osoitteet

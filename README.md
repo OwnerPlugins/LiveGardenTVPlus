@@ -1,7 +1,7 @@
 <h1 align="center">LiveGardenTVPlus – IPTV Player for Windows</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/release-v2.9-blue" alt="Release">
+  <img src="https://img.shields.io/badge/release-v3.0-blue" alt="Release">
 
   <a href="https://dotnet.microsoft.com/">
     <img src="https://img.shields.io/badge/.NET-10.0-purple" alt=".NET">
@@ -67,6 +67,11 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
 ---
 
 <table align="center">
+
+  <tr>
+      <img src="Screenshots/preview00.jpg?sanitize=true&raw=true" title="preview00" width="400"/><br/>
+      <b>Preview 0</b>
+  </tr>
   <tr>
     <td align="center">
       <img src="Screenshots/preview0.jpg?sanitize=true&raw=true" title="preview0" width="400"/><br/>
@@ -228,6 +233,83 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
 
 ## Changelog
 
+## 📋 LiveGardenTVPlus – Changelog (v3.0)
+
+**Added:**
+- New **Enigma2** menu in toolbar with:
+  - Send to Enigma2
+  - Telnet Console
+  - Telnet Configuration (direct access to Telnet settings)
+- New **Favorites** menu in toolbar:
+  - Save Favorites (toggle all channels as favorite/unfavorite)
+  - Export Favorites (export favorite channels to M3U)
+- Recent files now open on hover (mouse over "Recent" in File menu)
+- Images for PayPal and Ko-fi in About window (clickable)
+- Default EPG source set to "it1" in Settings
+- Gradient colors for titles in About window
+
+**Improved:**
+- File menu now closes automatically after actions (Close Playlist, Recent selection)
+- "Favorites only" toggle is now disabled when no playlist is loaded
+- Toggle shows message "No favorite channels found" when no favorites exist
+- Centralized all images in `/Themes/` folder (removed `/Images/` duplication)
+- `tv.png` and `radio.png` now properly copied to output directory
+
+### 📋 Channel Info Window (Context Menu)
+- **New "Info" menu item** – Added to the right‑click context menu on channels in the main TreeView.
+- **Channel Info window** – Displays all channel fields in an editable window:
+  - Name, URL, Group, TvgId, Favorite, Radio, Status.
+  - Logo preview with live update (URL → image preview).
+- **Live editing** – Modify any field, click **Save** to update the channel in the current playlist.
+- **Refresh after save** – TreeView and favorites are automatically refreshed.
+
+### 🖱️ Right‑Click Selection without Playback
+
+- **Right‑click now selects the channel** without starting the stream.
+- EPG info is still updated, but playback is skipped.
+- Context menu appears without interrupting the current stream.
+
+### 📁 Sidebar Visibility
+
+- **Sidebar hidden at startup** – The channel list (left panel) is now hidden when the application starts.
+- **Auto‑show on playlist load** – When a playlist is loaded (M3U or JSON), the sidebar automatically opens.
+- **Toggle button** – The existing "Show List / Hide List" button works as before (manual toggle).
+
+### 🎨 TV / Radio Background
+
+- **Player background** – When no stream is playing or for radio channels:
+  - `tv.png` is shown for TV channels.
+  - `radio.png` is shown for radio channels.
+- **Auto‑detection** – Radio channels are detected based on URL extensions (`.mp3`, `.aac`, `.ogg`, `.m4a`, `.wma`, `.flac`, `.opus`, `.wav`) and keywords (Radio, FM, Audio).
+- **Background hides when video starts** – For TV channels, the background is hidden when the stream begins.
+
+### 🔧 Language Manager Improvements
+
+- **Separator support** – Fixed `LanguageManager` to correctly parse `.lng` files using `::` (double colon) as the primary separator, with fallback to `:` and `=`.
+- **Keys with spaces** – Keys containing spaces (e.g., `"Language: "`) are now correctly matched and translated.
+
+### 🌐 New Translations
+
+All new strings for the Channel Info window and right‑click menu are fully localizable via `LanguageManager`.
+
+### 🐛 Bug Fixes
+
+**Fixed:**
+- Images not loading in About window (paypal.png, kofi.png)
+- Recent popup not opening correctly on hover
+- Menu File not closing after selecting a recent file
+- Playlist not refreshing after closing playlist
+- EPG combo not setting default value
+- right‑click selection – no longer starts playback accidentally.
+- `LanguageManager` parsing for `.lng` files with `::` separator.
+- sidebar visibility – now shows correctly after playlist load (both JSON and M3U).
+
+### Need more help?
+
+Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
+
+---
+
 ## 📋 LiveGardenTVPlus – Changelog (v2.9)
 
 ### 📝 Code Editor Tab in Playlist Editor
@@ -274,10 +356,6 @@ All new strings for filters, export selected, context menu, and comparison featu
 - Fixed auto‑detection for M3U code (now recognizes `#EXTM3U` and `#EXTINF` even with leading whitespace).
 - Added specific error messages for JSON and M3U parsing failures.
 - Prevented UI freezes when generating code for large playlists (async generation).
-
-### Need more help?
-
-Visit the [GitHub repository](https://github.com/OwnerPlugins/LiveGardenTVPlus) for updates and support.
 
 ---
 

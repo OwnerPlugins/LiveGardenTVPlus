@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): (Plotësisht vullnetare - asnjë veçori nuk është e bllokuar)
-(No description): (Pa përshkrim)
-• Add / rename / delete groups.: • Shtoni / riemërtoni / fshini grupet.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Rrëshqitësi i tamponit: rregulloni buferin HLS (1-10 sekonda).
-• Check URL availability (only visible channels).: • Kontrolloni disponueshmërinë e URL-së (vetëm kanalet e dukshme).
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Redaktoni emrat e kanaleve, grupet, URL-të, logot, tvg-id, shtetin, gjuhët, të preferuarat.
-• Edit multiple URLs per channel (popup window).: • Redaktoni URL të shumta për kanal (dritare kërcyese).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • Pasuroje me EPG: shton tvg-id që mungon duke përdorur përputhjen fuzzy.
-• EPG info displayed in status bar for current channel.: • Informacioni EPG shfaqet në shiritin e statusit për kanalin aktual.
-• Export OK / FAIL / filtered lists as M3U or JSON.: • Eksporto OK / FAIL / listat e filtruara si M3U ose JSON.
-• Fetch logos from remote repository (OwnerPlugins/logos).: • Merr logot nga depoja në distancë (OwnerPlugins/logot).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Ndërfaqja e përdoruesit me ekran të plotë: fsheh shiritin anësor dhe shiritin e statusit (ESC për të dalë).
-• Hide/Show channel list button.: • Butoni Fshih/Shfaq listën e kanaleve.
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Importoni JSON (lokal ose URL) me hartën fleksibël të fushës (zbuloni automatikisht, ruani hartën).
-• Picture‑in‑Picture (PIP) button.: • Butoni Picture-in-Picture (PIP).
-• Playback speed: 0.5x, 1x, 2x buttons.: • Shpejtësia e luajtjes: butona 0.5x, 1x, 2x.
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Rendit çdo kolonë duke klikuar kokën; përdorni "Reset Order" për t'u kthyer në porosinë origjinale.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: ndaloni transmetimin e drejtpërdrejtë; tërhiq rrëshqitësin për të kërkuar prapa; shtypni 'Live' për t'u kthyer.
-▶ Play Media: ▶ Luaj Media
-◀ Previous: ◀ E mëparshme
-16 colour themes + Light/Dark variants.: 16 tema ngjyrash + variante të lehta/të errëta.
-A new version is available. Do you want to update now?: Një version i ri është në dispozicion. Dëshiron ta përditësosh tani?
-Access via 'Compare' button in Playlist Editor or Tools menu.: Qasja përmes butonit "Krahaso" në menunë "Redaktori i listës së luajtjes" ose "Vegla".
-Access via 'Edit Playlist' button on main toolbar.: Qasja nëpërmjet butonit "Ndrysho listën e luajtjes" në shiritin kryesor të veglave.
-Actions: Veprimet
-Add Command: Shto komandën
-Add Group: Shto grup
-Add Mapping: Shto hartën
-Adjust buffer size (1-10 seconds): Rregullo madhësinë e tamponit (1-10 sekonda)
-Advanced IDs: ID të avancuara
-Application status: Statusi i aplikimit
-Apply: Aplikoni
-Apply / Import: Aplikoni / Importoni
-Apply changes: Aplikoni ndryshimet
-Apply Filters: Aplikoni filtrat
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Jeni i sigurt që dëshironi të ringarkoni GUI-në Enigma2?\n\nNdërfaqja do të riniset (ekrani i zi për disa sekonda).
-Auto (recommended): Auto (rekomandohet)
-Auto-detect: Zbulimi automatik
-Automatic check on startup – or click 'Check for updates' in Tools menu.: Kontroll automatik gjatë nisjes – ose kliko 'Kontrollo për përditësime' në menynë e Veglave.
-Bouquet Name: Emri i buqetës
-Bouquet sent and Enigma2 channel list reloaded.: Buqeta u dërgua dhe lista e kanaleve Enigma2 u ringarkua.
-Buffer (seconds): Buffer (sekonda)
-Buffer size – adjust HLS buffer seconds.: Madhësia e tamponit – rregulloni sekondat e tamponit HLS.
-Cache: Cache
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Dosja e memories: %TEMP%\\LiveGardenTVPlus\\epg_cache
-Cancel: Anulo
-CANCEL: ANULON
-Cannot open browser: Shfletuesi nuk mund të hapet
-Category: Kategoria
-Changelog: Ndryshim
-Channel Details: Detajet e kanalit
-Channel Down: Kanali poshtë
-Channel Info: Informacioni i kanalit
-Channel Name: Emri i kanalit
-Channel Up: Kanali lart
-channels from: kanale nga
-channels from JSON: kanale nga JSON
-channels from JSON URL: kanale nga JSON URL
-channels from URL: kanale nga URL
-Check Duplicates: Kontrolloni Dublikatat
-Check for updates: Kontrolloni për përditësime
-Check URLs: Kontrolloni URL-të
-Clear: E qartë
-Clear EPG Cache: Pastro cache EPG
-Clear Filters: Pastro filtrat
-Clear search: Pastro kërkimin
-Click for details: Klikoni për detaje
-Close: Mbylle
-Code: Kodi
-Code copied to clipboard.: Kodi u kopjua në kujtesën e fragmenteve.
-Command name:: Emri i komandës:
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Komuniteti dhe testimi: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
-Compare: Krahasoni
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Krahasoni sipas: Prioritetit (emri→ grupi→tvg-id), Emri, Grupi (i ndjeshëm ndaj shkronjave të vogla) ose TvgId.
-Compare Playlists: Krahasoni listat e luajtjes
-Compare two playlists – load first (current playlist) and second (from file or URL).: Krahasoni dy lista për luajtje – ngarkoni së pari (listën aktuale të luajtjes) dhe së dyti (nga skedari ose URL-ja).
-Compare...: Krahaso...
-Comparison results: {0} channels: Rezultatet e krahasimit: {0} kanale
-Configuration Missing: Mungon konfigurimi
-Confirm Delete: Konfirmo Fshij
-Confirm Reload: Konfirmo ringarkimin
-Connect: Lidheni
-Connected: Lidhur
-Copied: E kopjuar
-Copy: Kopjo
-CORVOBOYS.ORG: CORVOBOYS.ORG
-Country: Vendi
-Credits: Kreditë
-Delete channel '{0}'?: Të fshihet kanali '{0}'?
-Delete Group: Fshi grupin
-Delete Selected: Fshi të zgjedhurit
-Deleted: Fshirë
-Description: Përshkrimi
-Details: Detajet
-Developed by Lululla: Zhvilluar nga Lululla
-Developer: Lululla: Zhvilluesi: Lululla
-Disconnect: Shkëputeni
-Disconnected: E shkëputur
-Display as: : Shfaq si:
-Do you want to load this edited playlist now?: Dëshiron ta ngarkosh këtë listë luajtjeje të modifikuar tani?
-Double speed (2x): Shpejtësia e dyfishtë (2x)
-Downloading playlist...: Lista e luajtjes po shkarkohet...
-Downloads ZIP, replaces files, restarts app – settings preserved.: Shkarkon ZIP, zëvendëson skedarët, rinis aplikacionin – cilësimet janë ruajtur.
-Drag & drop – drop M3U or JSON files directly onto main window.: Zvarrit dhe lësho – lësho skedarët M3U ose JSON direkt në dritaren kryesore.
-Drag to seek back in buffer: Zvarriteni për të kërkuar përsëri në tampon
-Duplicate URLs found:\n\n: U gjetën URL dublikate:\n\n
-Edit Command: Komanda e modifikimit
-Edit command name:: Redakto emrin e komandës:
-Edit Playlist: Redakto listën e luajtjes
-Edit telnet command:: Redakto komandën telnet:
-Edit URLs: Redakto URL-të
-Empty Password: Fjalëkalimi bosh
-End: fund
-Enrich with EPG: Pasurohuni me EPG
-Enter bouquet name (without spaces):: Fut emrin e buqetës (pa hapësira):
-Enter JSON URL:: Fut URL-në JSON:
-Enter new group name:: Futni emrin e grupit të ri:
-Enter playlist URL (JSON or M3U):: Fut URL-në e listës së luajtjes (JSON ose M3U):
-Enter playlist URL (M3U or JSON):: Fut URL-në e listës së luajtjes (M3U ose JSON):
-EPG: EPG
-Epg & Favorites: Epg & Favoritet
-EPG & Favorites: EPG dhe të preferuarat
-Epg & Logos: EPG & logot
-EPG & Logos: EPG & logot
-EPG cache cleared successfully.: Cache EPG u pastrua me sukses.
-EPG Details: Detajet EPG
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: Udhëzuesi EPG – butoni në shiritin kryesor të veglave tregon rrjetin e plotë me detajet e programit (kliko dy herë për informacion).
-EPG Matching Threshold: Pragu i përputhjes së EPG
-EPG Source: : Burimi EPG:
-EPG source – can be set in Settings (epgshare01 or custom URL).: Burimi EPG – mund të vendoset te Cilësimet (epgshare01 ose URL e personalizuar).
-EPG source – choose XMLTV file or enter custom URL.: Burimi EPG – zgjidhni skedarin XMLTV ose futni URL-në e personalizuar.
-EPG Source Missing: Mungon burimi EPG
-Error: Gabim
-Error clearing cache: {0}: Gabim gjatë pastrimit të memories: {0}
-Error loading: Gabim në ngarkim
-Error loading EPG list: {0}: Gabim gjatë ngarkimit të listës EPG: {0}
-Error loading file: {0}: Gabim gjatë ngarkimit të skedarit: {0}
-Error loading playlists: {0}: Gabim gjatë ngarkimit të listave për luajtje: {0}
-Error loading URL: {0}: Gabim gjatë ngarkimit të URL-së: {0}
-ERROR: player.html not found.: GABIM: lojtari.html nuk u gjet.
-Exit: Dilni
-Export all: Eksporto të gjitha
-Export Favorites: Eksporto të preferuarat
-Export Filtered JSON: Eksporto JSON të filtruar
-Export Filtered M3U: Eksporto M3U të filtruar
-Export JSON: Eksporto JSON
-Export KO: Eksporti KO
-Export missing: Mungon eksporti
-Export OK: Eksporto OK
-Export only favorite channels to a new M3U file: Eksportoni vetëm kanalet e preferuara në një skedar të ri M3U
-Export results as JSON or M3U – export missing channels or all channels.: Eksporto rezultatet si JSON ose M3U – eksporto kanalet që mungojnë ose të gjitha kanalet.
-Export selected: Eksporto u zgjodh
-Export Selected: Eksporti i zgjedhur
-Exported: Eksportohet
-Exported {0} channels to {1}: U eksportuan {0} kanale në {1}
-Extracting update...: Po nxirret përditësimi...
-Failed to download playlist: Shkarkimi i listës së luajtjes dështoi
-Failed to load playlist: Ngarkimi i listës së luajtjes dështoi
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Përditësimi i bouquets.tv dështoi. Ju lutemi kontrolloni lejet e skedarëve në pajisjen Enigma2.
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Ngarkimi i buqetës dështoi. Ju lutemi kontrolloni cilësimet tuaja Telnet (host, port, emri i përdoruesit, fjalëkalimi) dhe provoni përsëri.
-Favorite: E preferuara
-Favorites only: Vetëm të preferuarat
-Fetch Logos: Merr logot
-File {0} already exists. Overwrite?: Skedari {0} ekziston tashmë. Mbivendosni?
-File exists: Skedari ekziston
-Filters: Filtrat
-Format Detection: Zbulimi i formatit
-Fullscreen: Ekrani i plotë
-Fullscreen (hide UI) - press ESC to exit: Ekrani i plotë (fshih UI) - shtyp ESC për të dalë
-Geo & Country: Gjeo & Vendi
-GeoBlocked: GeoBlocked
-GitHub Error: Gabim GitHub
-Go back to live: Kthehu për të jetuar
-Grid: Rrjeti
-Group: Grupi
-Half speed (0.5x): Gjysmë shpejtësi (0,5x)
-Help: Ndihmë
-Hide List: Fshih listën
-HLS playback: hls.js (MIT license): Riprodhimi HLS: hls.js (licencë MIT)
-Image: Imazhi
-Import: Importi
-Import cancelled or no channels mapped.: Importi u anulua ose nuk u shënua asnjë kanal.
-Import Error: Gabim importi
-Import error: {0}: Gabim importi: {0}
-Import from URL: Importo nga URL
-Import JSON: Importo JSON
-Import JSON from URL: Importo JSON nga URL
-Import Local: Import Local
-Imported {0} channels from code.: U importuan {0} kanale nga kodi.
-Imported {0} channels from JSON via mapping.: U importuan {0} kanale nga JSON përmes hartës.
-Imported {0} channels from URL.: U importuan {0} kanale nga URL.
-In Both: Në të dyja
-Info: Informacion
-Info on: Informacion mbi
-Invalid JSON: {0}: JSON i pavlefshëm: {0}
-Invalid playlist URL.: URL e pavlefshme e listës për luajtje.
-Invalid URL.: URL e pavlefshme.
-Json: Json
-JSON: JSON
-JSON parsing error: {0}: Gabim analizimi JSON: {0}
-JSON Property: Pronë JSON
-Ko-fi: Kafe
-Language: Gjuha
-Language – change UI language dynamically (translations in Languages folder).: Gjuha – ndryshoni gjuhën e UI në mënyrë dinamike (përkthimet në dosjen Gjuhët).
-Languages: Gjuhët
-Languages (comma): Gjuhët (presje)
-LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help: Ndihmë LiveGardenTVPlus
-LOAD: NGARKOJE
-Load a playlist first.: Ngarkoni së pari një listë për luajtje.
-Load a second playlist first.: Ngarkoni së pari një listë të dytë për luajtje.
-Load File: Ngarko skedarin
-Load from file...: Ngarko nga skedari...
-Load from URL: Ngarko nga URL
-Load from URL...: Ngarko nga URL...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Ngarko skedarin lokal M3U/JSON – nëpërmjet butonit "Ngarko skedarin" (bari i veglave) ose "Hap skedarin" në redaktues.
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: Ngarko URL M3U/JSON në linjë – butoni 'Ngarko në linjë' (bari i veglave) ose 'Hap nga URL' në redaktues.
-Load playlist file (M3U/JSON) from your computer: Ngarko skedarin e listës së luajtjes (M3U/JSON) nga kompjuteri juaj
-Loaded: Ngarkuar
-Loaded {0} channels from JSON file via mapping.: U ngarkuan {0} kanale nga skedari JSON nëpërmjet hartës.
-Loaded {0} channels from JSON URL.: U ngarkuan {0} kanale nga JSON URL.
-Loaded {0} channels from M3U file.: U ngarkuan {0} kanale nga skedari M3U.
-Loaded {0} channels from M3U URL.: U ngarkuan {0} kanale nga URL M3U.
-Loading...: Po ngarkohet...
-Logo: Logo
-Logo Picker – in editor, click '...' to choose logo from gallery.: Zgjedhësi i logos – në redaktues, klikoni '...' për të zgjedhur logon nga galeria.
-Logo Preview: Pamja paraprake e logos
-Logo URL: URL e logos
-Logos – automatically download from GitHub repository (Settings → Logos Source).: Logot – shkarkohen automatikisht nga depoja e GitHub (Cilësimet → Burimi i logos).
-Logos Matching Threshold: Pragu i përputhjes së logove
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Depoja e logove – zgjidhni pronarin/repo/shtegun (OwnerPlugins/logot e parazgjedhura).
-Logos Source: Burimi i logos
-Logos Subfolder: Nëndosja e logos
-M3U: M3U
-M3U parsing error: {0}: Gabim analizimi M3U: {0}
-Map JSON properties to channel fields:: Harto vetitë JSON në fushat e kanalit:
-Mapping saved for future imports of this file.: Harta u ruajt për importet e ardhshme të këtij skedari.
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Pragjet e përputhjes – vendosni ndjeshmërinë e paqartë të përputhjes për EPG dhe logot.
-Mini Player: Mini Lojtar
-Move to Group: Kaloni te Grupi
-Moved: Lëvizur
-Name: Emri
-Nanoid: Nanoide
-Network error: Gabim rrjeti
-New Playlist: Lista e re e luajtjes
-Next: Tjetra
-Next ▶: Tjetra ▶
-No .m3u files found on GitHub repository.: Nuk u gjet asnjë skedar .m3u në depon e GitHub.
-No cache folder found.: Nuk u gjet asnjë dosje memorie.
-No channel selected: Nuk është zgjedhur asnjë kanal
-No channels could be mapped or import cancelled.: Asnjë kanal nuk mund të hartohej ose importi të anulohej.
-No channels could be mapped. Check your mapping rules.: Asnjë kanal nuk mund të hartohej. Kontrolloni rregullat tuaja të hartës.
-No channels found in JSON.: Nuk u gjet asnjë kanal në JSON.
-No channels found in M3U.: Nuk u gjet asnjë kanal në M3U.
-No channels loaded from JSON URL.: Asnjë kanal i ngarkuar nga JSON URL.
-No channels loaded from M3U URL.: Asnjë kanal i ngarkuar nga URL M3U.
-No channels loaded from M3U.: Nuk ka kanale të ngarkuara nga M3U.
-No channels loaded.: Asnjë kanal i ngarkuar.
-No channels mapped: Nuk ka kanale të hartuara
-No channels selected.: Asnjë kanal i zgjedhur.
-No channels to import.: Nuk ka kanale për të importuar.
-No duplicate URLs found.: Nuk u gjetën URL dublikate.
-No EPG data: Nuk ka të dhëna EPG
-No EPG information available for this channel.: Nuk disponohet asnjë informacion EPG për këtë kanal.
-No EPG source configured. Please select one from the combo or go to Settings.: Nuk është konfiguruar asnjë burim EPG. Ju lutemi zgjidhni një nga kombinimi ose shkoni te "Cilësimet".
-No EPG source configured. Would you like to open settings to select one?: Nuk është konfiguruar asnjë burim EPG. Dëshironi të hapni cilësimet për të zgjedhur një?
-No favorite channels to export.: Nuk ka kanale të preferuara për eksport.
-No missing channels to export.: Nuk mungojnë kanale për eksport.
-No playlist found: Nuk u gjet asnjë listë për luajtje
-No second playlist loaded.: Asnjë listë e dytë për luajtje nuk është ngarkuar.
-No stream URL available for this channel.: Nuk disponohet URL e transmetimit për këtë kanal.
-No text to import.: Nuk ka tekst për të importuar.
-No updates available.: Nuk ka përditësime të disponueshme.
-Normal speed (1x): Shpejtësia normale (1x)
-Not connected to the box.: Nuk është i lidhur me kutinë.
-Now: Tani
-OK: OK
-Online Playlist: Lista e luajtjes në internet
-Online playlist – select from GitHub repository (auto‑refresh).: Lista e luajtjes në internet – zgjidhni nga depoja e GitHub (refresh automatikisht).
-Only in First: Vetëm në të Parë
-Only in Second: Vetëm në të dytën
-Open File...: Hap skedarin...
-Open from URL: Hape nga URL
-Open Playlist: Hapni listën e luajtjes
-Pause/Resume live stream: Ndalo/Rifill transmetimin e drejtpërdrejtë
-Paused: Në pauzë
-PayPal: PayPal
-Picture-in-Picture mode: Modaliteti Picture-në-Picture
-Play/Pause: Luaj/Puzë
-Player Media Controls: Kontrollet e medias së luajtësit
-Playing Media: Luajtja e mediave
-Playlist & Groups: Lista e luajtjes dhe Grupet
-Playlist Comparison: Krahasimi i listës së luajtjes
-Playlist Editor: Redaktori i listës së luajtjes
-Playlist Loading: Lista e luajtjes po ngarkohet
-Playlist Management: Menaxhimi i listës së luajtjes
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Depoja e listës për luajtje: OwnerPlugins/TivuStreamList (transmetime italiane dhe ndërkombëtare)
-Please select a program first.: Ju lutemi së pari zgjidhni një program.
-Preview (first 5 channels): Pamja paraprake (5 kanalet e para)
-Preview error: {0}: Gabim paraprak: {0}
-Program Details: Detajet e programit
-Ready: Gati
-Ready.: Gati.
-Recent: E fundit
-Recent files – quick access to last 5 opened playlists.: Skedarët e fundit – qasje e shpejtë në 5 listat e fundit të dëgjimit të hapura.
-Recent playlists: Listat e fundit të luajtjes
-Refresh Code: Rifresko kodin
-Refresh EPG: Rifresko EPG
-Refresh EPG List: Rifresko listën EPG
-Refresh from GitHub: Rifresko nga GitHub
-Refresh List: Rifresko listën
-Reload GUI: Ringarko GUI
-Remove Command: Hiq komandën
-Rename Group: Riemërto grupin
-Rename group '{0}' to:: Riemërto grupin '{0}' në:
-Repository: Depoja
-Reset Order: Rivendos porosinë
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Rezultatet: 'Vetëm në të parën', 'Vetëm në të dytën', 'Në të dyja' – me kodim të ngjyrës së statusit.
-Save: Ruaj
-SAVE: RUAJ
-Save – persists all settings without reloading current playlist.: Ruaj – vazhdon të gjitha cilësimet pa ringarkuar listën aktuale të luajtjes.
-Save as...: Ruaje si...
-Save current playlist to a new M3U file: Ruani listën aktuale të luajtjes në një skedar të ri M3U
-Save Mapping: Ruaj hartën
-Save Playlist: Ruaj listën e luajtjes
-Save Status: Ruaj statusin
-Saved: U ruajt
-Search channel: : Kërko kanal:
-Search channels by name: Kërkoni kanale sipas emrit
-Search channels...: Kërko kanale...
-sec: sek
-Second playlist loaded: {0} channels: Lista e dytë e luajtjes e ngarkuar: {0} kanale
-Select a channel to play.: Zgjidhni një kanal për të luajtur.
-Select a playlist first.: Së pari zgjidhni një listë dëgjimi.
-Select target group:: Zgjidhni grupin e synuar:
-Select Theme: Zgjidhni Temë
-Selected theme is saved and applied on restart.: Tema e zgjedhur ruhet dhe aplikohet në rinisje.
-Send: Dërgo
-Send playlist to Enigma2 decoder: Dërgo listën e luajtjes te dekoderi Enigma2
-Send to Enigma2: Dërgo te Enigma2
-Settings: Cilësimet
-Show List: Shfaq listën
-Show only channels marked as favorites: Shfaq vetëm kanalet e shënuara si të preferuara
-Show or hide the channel list: Shfaq ose fshih listën e kanaleve
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Falënderime të veçanta për komunitetet CORVOBOYS & LinuxSat-Support për testimin dhe mbështetjen.
-Start: Filloni
-Status: Statusi
-Stop: Ndalo
-Stopped: Ndaloi
-Stream URL: URL-ja e transmetimit
-Stream URLs: Transmetoni URL-të
-Success: Suksese
-Support: Mbështetje
-Support the developer: Mbështetni zhvilluesin
-Target Field: Fusha e synuar
-Telnet command:: Komanda Telnet:
-Telnet Commander: Komandant Telnet
-Telnet Config: Konfigurimi i Telnet
-Telnet Console: Konsola Telnet
-Telnet host not configured. Please set it in Settings.: Pritësi i Telnet nuk është konfiguruar. Ju lutemi vendoseni te Cilësimet.
-Telnet password is empty. Do you want to continue?: Fjalëkalimi i Telnet është bosh. Dëshironi të vazhdoni?
-Telnet username not configured. Please set it in Settings.: Emri i përdoruesit Telnet nuk është konfiguruar. Ju lutemi vendoseni te Cilësimet.
-Thanks to: Falë
-Theme picker: Zgjedhësi i temës
-Theme picker – accessible via Tools menu on main toolbar.: Zgjedhësi i temës – i aksesueshëm nëpërmjet menysë "Vegla" në shiritin kryesor të veglave.
-Themes: Temat
-Time: Koha
-Title: Titulli
-Tools: Mjetet
-Total: Gjithsej
-Total channels in loaded playlist: Totali i kanaleve në listën e ngarkuar të luajtjes
-TV Guide (EPG): Udhëzues TV (EPG)
-TvgId: TvgId
-Type channel name to filter: Shkruani emrin e kanalit për të filtruar
-UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Formati nuk mund të zbulohet automatikisht. Ju lutemi, zgjidhni JSON ose M3U nga menyja rënëse dhe provoni përsëri.
-Unable to find version in remote project file.: Nuk mund të gjendet versioni në skedarin e projektit në distancë.
-Unsupported format. Please select JSON or M3U.: Format i pambështetur. Ju lutemi zgjidhni JSON ose M3U.
-Update: Përditëso
-Update complete. Restarting...: Përditësimi përfundoi. Po riniset...
-Update Error: Gabim i përditësimit
-Update failed: : Përditësimi dështoi:
-Updates: Përditësimet
-Upload Error: Gabim ngarkimi
-URL: URL
-URL (primary): URL (primare)
-URL Check: Kontrolli i URL-së
-URL list (one per line): Lista e URL-ve (një për rresht)
-URLs & Status: URL-të dhe statusi
-Version: Versioni
-Version {0}.{1}.{2}: Versioni {0}.{1}.{2}
-Version unknown: Versioni i panjohur
-Waiting for LiveGardenTVPlus to close...: Në pritje të mbylljes së LiveGardenTVPlus...
-Warning: Paralajmërim
-WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
-Youtube URL: URL në Youtube
-Youtube URLs: URL-të në Youtube
+(Completely voluntary – no features are blocked)::(Plotësisht vullnetare - asnjë veçori nuk është e bllokuar)
+(No description)::(Pa përshkrim)
+• Add / rename / delete groups.::• Shtoni / riemërtoni / fshini grupet.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• Rrëshqitësi i tamponit: rregulloni buferin HLS (1-10 sekonda).
+• Check URL availability (only visible channels).::• Kontrolloni disponueshmërinë e URL-së (vetëm kanalet e dukshme).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• Redaktoni emrat e kanaleve, grupet, URL-të, logot, tvg-id, shtetin, gjuhët, të preferuarat.
+• Edit multiple URLs per channel (popup window).::• Redaktoni URL të shumta për kanal (dritare kërcyese).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• Pasuroje me EPG: shton tvg-id që mungon duke përdorur përputhjen fuzzy.
+• EPG info displayed in status bar for current channel.::• Informacioni EPG shfaqet në shiritin e statusit për kanalin aktual.
+• Export OK / FAIL / filtered lists as M3U or JSON.::• Eksporto OK / FAIL / listat e filtruara si M3U ose JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).::• Merr logot nga depoja në distancë (OwnerPlugins/logot).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• Ndërfaqja e përdoruesit me ekran të plotë: fsheh shiritin anësor dhe shiritin e statusit (ESC për të dalë).
+• Hide/Show channel list button.::• Butoni Fshih/Shfaq listën e kanaleve.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• Importoni JSON (lokal ose URL) me hartën fleksibël të fushës (zbuloni automatikisht, ruani hartën).
+• Picture‑in‑Picture (PIP) button.::• Butoni Picture-in-Picture (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.::• Shpejtësia e luajtjes: butona 0.5x, 1x, 2x.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• Rendit çdo kolonë duke klikuar kokën; përdorni "Reset Order" për t'u kthyer në porosinë origjinale.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• Timeshift: ndaloni transmetimin e drejtpërdrejtë; tërhiq rrëshqitësin për të kërkuar prapa; shtypni 'Live' për t'u kthyer.
+▶ Play Media::▶ Luaj Media
+◀ Previous::◀ E mëparshme
+16 colour themes + Light/Dark variants.::16 tema ngjyrash + variante të lehta/të errëta.
+A new version is available. Do you want to update now?::Një version i ri është në dispozicion. Dëshiron ta përditësosh tani?
+Access via 'Compare' button in Playlist Editor or Tools menu.::Qasja përmes butonit "Krahaso" në menunë "Redaktori i listës së luajtjes" ose "Vegla".
+Access via 'Edit Playlist' button on main toolbar.::Qasja nëpërmjet butonit "Ndrysho listën e luajtjes" në shiritin kryesor të veglave.
+Actions::Veprimet
+Add Command::Shto komandën
+Add Group::Shto grup
+Add Mapping::Shto hartën
+Adjust buffer size (1-10 seconds)::Rregullo madhësinë e tamponit (1-10 sekonda)
+Advanced IDs::ID të avancuara
+All channels marked as favorites::Të gjitha kanalet janë shënuar si të preferuara
+All favorites removed::Të gjitha të preferuarat u hoqën
+Application status::Statusi i aplikimit
+Apply::Aplikoni
+Apply / Import::Aplikoni / Importoni
+Apply changes::Aplikoni ndryshimet
+Apply Filters::Aplikoni filtrat
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::Jeni i sigurt që dëshironi të ringarkoni GUI-në Enigma2?\n\nNdërfaqja do të riniset (ekrani i zi për disa sekonda).
+Auto (recommended)::Auto (rekomandohet)
+Auto-detect::Zbulimi automatik
+Automatic check on startup – or click 'Check for updates' in Tools menu.::Kontroll automatik gjatë nisjes – ose kliko 'Kontrollo për përditësime' në menynë e Veglave.
+Bouquet Name::Emri i buqetës
+Bouquet sent and Enigma2 channel list reloaded.::Buqeta u dërgua dhe lista e kanaleve Enigma2 u ringarkua.
+Buffer (seconds)::Buffer (sekonda)
+Buffer size – adjust HLS buffer seconds.::Madhësia e tamponit – rregulloni sekondat e tamponit HLS.
+Cache::Cache
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::Dosja e memories: %TEMP%\\LiveGardenTVPlus\\epg_cache
+Cancel::Anulo
+CANCEL::ANULON
+Cannot open browser::Shfletuesi nuk mund të hapet
+Category::Kategoria
+Changelog::Ndryshim
+Channel Details::Detajet e kanalit
+Channel Down::Kanali poshtë
+Channel Info::Informacioni i kanalit
+Channel Name::Emri i kanalit
+Channel Up::Kanali lart
+Channel updated successfully.::Kanali u përditësua me sukses.
+channels from::kanale nga
+channels from JSON::kanale nga JSON
+channels from JSON URL::kanale nga JSON URL
+channels from URL::kanale nga URL
+Check Duplicates::Kontrolloni Dublikatat
+Check for updates::Kontrolloni për përditësime
+Check URLs::Kontrolloni URL-të
+Clear::E qartë
+Clear EPG Cache::Pastro cache EPG
+Clear Filters::Pastro filtrat
+Clear search::Pastro kërkimin
+Click for details::Klikoni për detaje
+Close::Mbylle
+Close current playlist::Mbyll listën aktuale të luajtjes
+Close Playlist::Mbyll listën e luajtjes
+Code::Kodi
+Code copied to clipboard.::Kodi u kopjua në kujtesën e fragmenteve.
+Command name:::Emri i komandës:
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::Komuniteti dhe testimi: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare::Krahasoni
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::Krahasoni sipas: Prioritetit (emri→ grupi→tvg-id), Emri, Grupi (i ndjeshëm ndaj shkronjave të vogla) ose TvgId.
+Compare Playlists::Krahasoni listat e luajtjes
+Compare two playlists – load first (current playlist) and second (from file or URL).::Krahasoni dy lista për luajtje – ngarkoni së pari (listën aktuale të luajtjes) dhe së dyti (nga skedari ose URL-ja).
+Compare...::Krahaso...
+Comparison results: {0} channels::Rezultatet e krahasimit: {0} kanale
+Configuration Missing::Mungon konfigurimi
+Confirm Delete::Konfirmo Fshij
+Confirm Reload::Konfirmo ringarkimin
+Connect::Lidheni
+Connected::Lidhur
+Copied::E kopjuar
+Copy::Kopjo
+CORVOBOYS.ORG::CORVOBOYS.ORG
+Country::Vendi
+Credits::Kreditë
+Delete channel '{0}'?::Të fshihet kanali '{0}'?
+Delete Group::Fshi grupin
+Delete Selected::Fshi të zgjedhurit
+Deleted::Fshirë
+Description::Përshkrimi
+Details::Detajet
+Developed by Lululla::Zhvilluar nga Lululla
+Developer: Lululla::Zhvilluesi: Lululla
+Disconnect::Shkëputeni
+Disconnected::E shkëputur
+Display as::Shfaq si
+Do you want to load this edited playlist now?::Dëshiron ta ngarkosh këtë listë luajtjeje të modifikuar tani?
+Double speed (2x)::Shpejtësia e dyfishtë (2x)
+Downloading playlist...::Lista e luajtjes po shkarkohet...
+Downloads ZIP, replaces files, restarts app – settings preserved.::Shkarkon ZIP, zëvendëson skedarët, rinis aplikacionin – cilësimet janë ruajtur.
+Drag & drop – drop M3U or JSON files directly onto main window.::Zvarrit dhe lësho – lësho skedarët M3U ose JSON direkt në dritaren kryesore.
+Drag to seek back in buffer::Zvarriteni për të kërkuar përsëri në tampon
+Duplicate URLs found:\n\n::U gjetën URL dublikate:\n\n
+Edit Command::Komanda e modifikimit
+Edit command name:::Redakto emrin e komandës:
+Edit Playlist::Redakto listën e luajtjes
+Edit telnet command:::Redakto komandën telnet:
+Edit URLs::Redakto URL-të
+Empty Password::Fjalëkalimi bosh
+End::fund
+Enigma2::Enigma2
+Enrich with EPG::Pasurohuni me EPG
+Enter bouquet name (without spaces):::Fut emrin e buqetës (pa hapësira):
+Enter JSON URL:::Fut URL-në JSON:
+Enter new group name:::Futni emrin e grupit të ri:
+Enter playlist URL (JSON or M3U):::Fut URL-në e listës së luajtjes (JSON ose M3U):
+Enter playlist URL (M3U or JSON):::Fut URL-në e listës së luajtjes (M3U ose JSON):
+EPG::EPG
+Epg & Favorites::Epg & Favoritet
+EPG & Favorites::EPG dhe të preferuarat
+Epg & Logos::EPG & logot
+EPG & Logos::EPG & logot
+EPG cache cleared successfully.::Cache EPG u pastrua me sukses.
+EPG Details::Detajet EPG
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::Udhëzuesi EPG – butoni në shiritin kryesor të veglave tregon rrjetin e plotë me detajet e programit (kliko dy herë për informacion).
+EPG Matching Threshold::Pragu i përputhjes së EPG
+EPG Source::Burimi EPG
+EPG source – can be set in Settings (epgshare01 or custom URL).::Burimi EPG – mund të vendoset te Cilësimet (epgshare01 ose URL e personalizuar).
+EPG source – choose XMLTV file or enter custom URL.::Burimi EPG – zgjidhni skedarin XMLTV ose futni URL-në e personalizuar.
+EPG Source Missing::Mungon burimi EPG
+Error::Gabim
+Error clearing cache: {0}::Gabim gjatë pastrimit të memories: {0}
+Error loading::Gabim në ngarkim
+Error loading EPG list: {0}::Gabim gjatë ngarkimit të listës EPG: {0}
+Error loading file: {0}::Gabim gjatë ngarkimit të skedarit: {0}
+Error loading playlists: {0}::Gabim gjatë ngarkimit të listave për luajtje: {0}
+Error loading URL: {0}::Gabim gjatë ngarkimit të URL-së: {0}
+ERROR: player.html not found.::GABIM: lojtari.html nuk u gjet.
+Exit::Dilni
+Export all::Eksporto të gjitha
+Export Favorites::Eksporto të preferuarat
+Export Filtered JSON::Eksporto JSON të filtruar
+Export Filtered M3U::Eksporto M3U të filtruar
+Export JSON::Eksporto JSON
+Export KO::Eksporti KO
+Export missing::Mungon eksporti
+Export OK::Eksporto OK
+Export only favorite channels to a new M3U file::Eksportoni vetëm kanalet e preferuara në një skedar të ri M3U
+Export results as JSON or M3U – export missing channels or all channels.::Eksporto rezultatet si JSON ose M3U – eksporto kanalet që mungojnë ose të gjitha kanalet.
+Export selected::Eksporto u zgjodh
+Export Selected::Eksporti i zgjedhur
+Exported::Eksportohet
+Exported {0} channels to {1}::U eksportuan {0} kanale në {1}
+Extracting update...::Po nxjerr përditësimin...
+Failed to download playlist::Shkarkimi i listës së luajtjes dështoi
+Failed to load playlist::Ngarkimi i listës së luajtjes dështoi
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::Përditësimi i bouquets.tv dështoi. Ju lutemi kontrolloni lejet e skedarëve në pajisjen Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::Ngarkimi i buqetës dështoi. Ju lutemi kontrolloni cilësimet tuaja Telnet (host, port, emri i përdoruesit, fjalëkalimi) dhe provoni përsëri.
+Favorite::E preferuara
+Favorites::Të preferuarat
+Favorites only::Vetëm të preferuarat
+Fetch Logos::Merr logot
+File::Skedari
+File {0} already exists. Overwrite?::Skedari {0} ekziston tashmë. Mbivendosni?
+File exists::Skedari ekziston
+Filters::Filtrat
+Format Detection::Zbulimi i formatit
+Fullscreen::Ekrani i plotë
+Fullscreen (hide UI) - press ESC to exit::Ekrani i plotë (fshih UI) - shtyp ESC për të dalë
+Geo & Country::Gjeo & Vendi
+GeoBlocked::GeoBlocked
+GitHub Error::Gabim GitHub
+Go back to live::Kthehu për të jetuar
+Grid::Rrjeti
+Group::Grupi
+Half speed (0.5x)::Gjysmë shpejtësi (0,5x)
+Help::Ndihmë
+Hide List::Fshih listën
+HLS playback: hls.js (MIT license)::Riprodhimi HLS: hls.js (licencë MIT)
+Image::Imazhi
+Import::Importi
+Import cancelled or no channels mapped.::Importi u anulua ose nuk u shënua asnjë kanal.
+Import Error::Gabim importi
+Import error: {0}::Gabim importi: {0}
+Import from URL::Importo nga URL
+Import JSON::Importo JSON
+Import JSON from URL::Importo JSON nga URL
+Import Local::Import Local
+Imported {0} channels from code.::U importuan {0} kanale nga kodi.
+Imported {0} channels from JSON via mapping.::U importuan {0} kanale nga JSON përmes hartës.
+Imported {0} channels from URL.::U importuan {0} kanale nga URL.
+In Both::Në të dyja
+Info::Informacion
+Info on::Informacion mbi
+Invalid JSON: {0}::JSON i pavlefshëm: {0}
+Invalid playlist URL.::URL e pavlefshme e listës për luajtje.
+Invalid URL.::URL e pavlefshme.
+Json::Json
+JSON::JSON
+JSON parsing error: {0}::Gabim analizimi JSON: {0}
+JSON Property::Pronë JSON
+Ko-fi::Kafe
+Language::Gjuha
+Language – change UI language dynamically (translations in Languages folder).::Gjuha – ndryshoni gjuhën e UI në mënyrë dinamike (përkthimet në dosjen Gjuhët).
+Languages::Gjuhët
+Languages (comma)::Gjuhët (presje)
+LINUXSAT-SUPPORT.COM::LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help::Ndihmë LiveGardenTVPlus
+LOAD::NGARKOJE
+Load a playlist first.::Ngarkoni së pari një listë për luajtje.
+Load a second playlist first.::Ngarkoni së pari një listë të dytë për luajtje.
+Load File::Ngarko skedarin
+Load from file...::Ngarko nga skedari...
+Load from URL::Ngarko nga URL
+Load from URL...::Ngarko nga URL...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::Ngarko skedarin lokal M3U/JSON – nëpërmjet butonit "Ngarko skedarin" (bari i veglave) ose "Hap skedarin" në redaktues.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::Ngarko URL M3U/JSON në linjë – butoni 'Ngarko në linjë' (bari i veglave) ose 'Hap nga URL' në redaktues.
+Load Playlist::Ngarko listën e luajtjes
+Load playlist file (M3U/JSON) from your computer::Ngarko skedarin e listës së luajtjes (M3U/JSON) nga kompjuteri juaj
+Loaded::Ngarkuar
+Loaded {0} channels from JSON file via mapping.::U ngarkuan {0} kanale nga skedari JSON nëpërmjet hartës.
+Loaded {0} channels from JSON URL.::U ngarkuan {0} kanale nga JSON URL.
+Loaded {0} channels from M3U file.::U ngarkuan {0} kanale nga skedari M3U.
+Loaded {0} channels from M3U URL.::U ngarkuan {0} kanale nga URL M3U.
+Loading...::Po ngarkohet...
+Logo::Logo
+Logo Picker – in editor, click '...' to choose logo from gallery.::Zgjedhësi i logos – në redaktues, klikoni '...' për të zgjedhur logon nga galeria.
+Logo Preview::Pamja paraprake e logos
+Logo URL::URL e logos
+Logos – automatically download from GitHub repository (Settings → Logos Source).::Logot – shkarkohen automatikisht nga depoja e GitHub (Cilësimet → Burimi i logos).
+Logos Matching Threshold::Pragu i përputhjes së logove
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::Depoja e logove – zgjidhni pronarin/repo/shtegun (OwnerPlugins/logot e parazgjedhura).
+Logos Source::Burimi i logos
+Logos Subfolder::Nëndosja e logos
+M3U::M3U
+M3U parsing error: {0}::Gabim analizimi M3U: {0}
+Map JSON properties to channel fields:::Harto vetitë JSON në fushat e kanalit:
+Mapping saved for future imports of this file.::Harta u ruajt për importet e ardhshme të këtij skedari.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::Pragjet e përputhjes – vendosni ndjeshmërinë e paqartë të përputhjes për EPG dhe logot.
+Mini Player::Mini Lojtar
+Move to Group::Kaloni te Grupi
+Moved::Lëvizur
+Name::Emri
+Nanoid::Nanoide
+Network error::Gabim rrjeti
+New Playlist::Lista e re e luajtjes
+Next::Tjetra
+Next ▶::Tjetra ▶
+No .m3u files found on GitHub repository.::Nuk u gjet asnjë skedar .m3u në depon e GitHub.
+No cache folder found.::Nuk u gjet asnjë dosje memorie.
+No channel selected::Nuk është zgjedhur asnjë kanal
+No channel selected.::Nuk është zgjedhur asnjë kanal.
+No channels could be mapped or import cancelled.::Asnjë kanal nuk mund të hartohej ose importi të anulohej.
+No channels could be mapped. Check your mapping rules.::Asnjë kanal nuk mund të hartohej. Kontrolloni rregullat tuaja të hartës.
+No channels found in JSON.::Nuk u gjet asnjë kanal në JSON.
+No channels found in M3U.::Nuk u gjet asnjë kanal në M3U.
+No channels loaded from JSON URL.::Asnjë kanal i ngarkuar nga JSON URL.
+No channels loaded from M3U URL.::Asnjë kanal i ngarkuar nga URL M3U.
+No channels loaded from M3U.::Nuk ka kanale të ngarkuara nga M3U.
+No channels loaded.::Asnjë kanal i ngarkuar.
+No channels mapped::Asnjë kanal i hartuar
+No channels selected.::Asnjë kanal i zgjedhur.
+No channels to import.::Nuk ka kanale për të importuar.
+No duplicate URLs found.::Nuk u gjetën URL dublikate.
+No EPG data::Nuk ka të dhëna EPG
+No EPG information available for this channel.::Nuk disponohet asnjë informacion EPG për këtë kanal.
+No EPG source configured. Please select one from the combo or go to Settings.::Nuk është konfiguruar asnjë burim EPG. Ju lutemi zgjidhni një nga kombinimi ose shkoni te "Cilësimet".
+No EPG source configured. Would you like to open settings to select one?::Nuk është konfiguruar asnjë burim EPG. Dëshironi të hapni cilësimet për të zgjedhur një?
+No favorite channels found.::Nuk u gjet asnjë kanal i preferuar.
+No favorite channels to export.::Nuk ka kanale të preferuara për eksport.
+No missing channels to export.::Nuk mungojnë kanale për eksport.
+No playlist found::Nuk u gjet asnjë listë për luajtje
+No second playlist loaded.::Asnjë listë e dytë për luajtje nuk është ngarkuar.
+No stream URL available for this channel.::Nuk disponohet URL e transmetimit për këtë kanal.
+No text to import.::Nuk ka tekst për të importuar.
+No updates available.::Nuk ka përditësime të disponueshme.
+Normal speed (1x)::Shpejtësia normale (1x)
+Not connected to the box.::Nuk është i lidhur me kutinë.
+Now::Tani
+OK::OK
+Online Playlist::Lista e luajtjes në internet
+Online playlist – select from GitHub repository (auto‑refresh).::Lista e luajtjes në internet – zgjidhni nga depoja e GitHub (refresh automatikisht).
+Only in First::Vetëm në të Parë
+Only in Second::Vetëm në të dytën
+Open File...::Hap skedarin...
+Open from URL::Hape nga URL
+Open Playlist::Hapni listën e luajtjes
+Pause/Resume live stream::Ndalo/Rifill transmetimin e drejtpërdrejtë
+Paused::Në pauzë
+PayPal::PayPal
+Picture-in-Picture mode::Modaliteti Picture-në-Picture
+Play/Pause::Luaj/Puzë
+Player Media Controls::Kontrollet e medias së luajtësit
+Playing Media::Luajtja e mediave
+Playlist & Groups::Lista e luajtjes dhe Grupet
+Playlist closed::Lista e luajtjes u mbyll
+Playlist Comparison::Krahasimi i listës së luajtjes
+Playlist Editor::Redaktori i listës së luajtjes
+Playlist Loading::Lista e luajtjes po ngarkohet
+Playlist Management::Menaxhimi i listës së luajtjes
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::Depoja e listës për luajtje: OwnerPlugins/TivuStreamList (transmetime italiane dhe ndërkombëtare)
+Please select a program first.::Ju lutemi së pari zgjidhni një program.
+Preview (first 5 channels)::Pamja paraprake (5 kanalet e para)
+Preview error: {0}::Gabim paraprak: {0}
+Program Details::Detajet e programit
+Ready::Gati
+Recent::E fundit
+Recent files – quick access to last 5 opened playlists.::Skedarët e fundit – qasje e shpejtë në 5 listat e fundit të dëgjimit të hapura.
+Recent playlists::Listat e fundit të luajtjes
+Refresh Code::Rifresko kodin
+Refresh EPG::Rifresko EPG
+Refresh EPG List::Rifresko listën EPG
+Refresh from GitHub::Rifresko nga GitHub
+Refresh List::Rifresko listën
+Reload GUI::Ringarko GUI
+Remove Command::Hiq komandën
+Rename Group::Riemërto grupin
+Rename group '{0}' to:::Riemërto grupin '{0}' në:
+Repository::Depoja
+Reset Order::Rivendos porosinë
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::Rezultatet: 'Vetëm në të parën', 'Vetëm në të dytën', 'Në të dyja' – me kodim të ngjyrës së statusit.
+Save::Ruaj
+SAVE::RUAJ
+Save – persists all settings without reloading current playlist.::Ruaj – vazhdon të gjitha cilësimet pa ringarkuar listën aktuale të luajtjes.
+Save as...::Ruaje si...
+Save current playlist to a new M3U file::Ruani listën aktuale të luajtjes në një skedar të ri M3U
+Save Favorites::Ruaj të preferuarat
+Save Mapping::Ruaj hartën
+Save Playlist::Ruaj listën e luajtjes
+Save Status::Ruaj statusin
+Saved::U ruajt
+Search channel::Kërko kanal
+Search channels by name::Kërkoni kanale sipas emrit
+Search channels...::Kërko kanale...
+sec::sek
+Second playlist loaded: {0} channels::Lista e dytë e luajtjes e ngarkuar: {0} kanale
+Select a channel to play.::Zgjidhni një kanal për të luajtur.
+Select a playlist first.::Së pari zgjidhni një listë dëgjimi.
+Select target group:::Zgjidhni grupin e synuar:
+Select Theme::Zgjidhni Temë
+Selected theme is saved and applied on restart.::Tema e zgjedhur ruhet dhe aplikohet në rinisje.
+Send::Dërgo
+Send playlist to Enigma2 decoder::Dërgo listën e luajtjes te dekoderi Enigma2
+Send to Enigma2::Dërgo te Enigma2
+Settings::Cilësimet
+Show List::Shfaq listën
+Show only channels marked as favorites::Shfaq vetëm kanalet e shënuara si të preferuara
+Show or hide the channel list::Shfaq ose fshih listën e kanaleve
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::Falënderime të veçanta për komunitetet CORVOBOYS & LinuxSat-Support për testimin dhe mbështetjen.
+Start::Filloni
+Status::Statusi
+Stop::Ndalo
+Stopped::Ndaloi
+Stream URL::URL-ja e transmetimit
+Stream URLs::Transmetoni URL-të
+Success::Suksese
+Support::Mbështetje
+Support the developer::Mbështetni zhvilluesin
+Target Field::Fusha e synuar
+Telnet command:::Komanda Telnet:
+Telnet Commander::Komandant Telnet
+Telnet Config::Konfigurimi i Telnet
+Telnet Configuration::Konfigurimi Telnet
+Telnet Console::Konsola Telnet
+Telnet host not configured. Please set it in Settings.::Pritësi i Telnet nuk është konfiguruar. Ju lutemi vendoseni te Cilësimet.
+Telnet password is empty. Do you want to continue?::Fjalëkalimi i Telnet është bosh. Dëshironi të vazhdoni?
+Telnet username not configured. Please set it in Settings.::Emri i përdoruesit Telnet nuk është konfiguruar. Ju lutemi vendoseni te Cilësimet.
+Thanks to::Falë
+Theme picker::Zgjedhësi i temës
+Theme picker – accessible via Tools menu on main toolbar.::Zgjedhësi i temës – i aksesueshëm nëpërmjet menysë "Vegla" në shiritin kryesor të veglave.
+Themes::Temat
+Time::Koha
+Title::Titulli
+Tools::Mjetet
+Total::Gjithsej
+Total channels in loaded playlist::Totali i kanaleve në listën e ngarkuar të luajtjes
+TV Guide (EPG)::Udhëzues TV (EPG)
+TvgId::TvgId
+Type channel name to filter::Shkruani emrin e kanalit për të filtruar
+UI: MaterialDesignThemes.Wpf::UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::Formati nuk mund të zbulohet automatikisht. Ju lutemi, zgjidhni JSON ose M3U nga menyja rënëse dhe provoni përsëri.
+Unable to find version in remote project file.::Nuk mund të gjendet versioni në skedarin e projektit në distancë.
+Unsupported format. Please select JSON or M3U.::Format i pambështetur. Ju lutemi zgjidhni JSON ose M3U.
+Update::Përditëso
+Update complete. Restarting...::Përditësimi përfundoi. Po riniset...
+Update Error::Gabim i përditësimit
+Update failed: ::Përditësimi dështoi:
+Updated::Përditësuar
+Updates::Përditësimet
+Upload Error::Gabim ngarkimi
+URL::URL
+URL (primary)::URL (primare)
+URL Check::Kontrolli i URL-së
+URL list (one per line)::Lista e URL-ve (një për rresht)
+URLs & Status::URL-të dhe statusi
+Version::Versioni
+Version {0}.{1}.{2}::Versioni {0}.{1}.{2}
+Version unknown::Versioni i panjohur
+Waiting for LiveGardenTVPlus to close...::Në pritje të mbylljes së LiveGardenTVPlus...
+Warning::Paralajmërim
+WebView2: Microsoft Edge WebView2::WebView2: Microsoft Edge WebView2
+Youtube URL::URL në Youtube
+Youtube URLs::URL-të në Youtube

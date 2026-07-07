@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): (සම්පූර්ණයෙන්ම ස්වේච්ඡාවෙන් - විශේෂාංග කිසිවක් අවහිර කර නැත)
-(No description): (විස්තරයක් නැත)
-• Add / rename / delete groups.: • කණ්ඩායම් එකතු කරන්න / නැවත නම් කරන්න / මකන්න.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • බෆර් ස්ලයිඩරය: HLS බෆරය සකසන්න (තත්පර 1-10).
-• Check URL availability (only visible channels).: • URL තිබේද යන්න පරීක්ෂා කරන්න (දෘශ්‍ය නාලිකා පමණි).
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • නාලිකා නම්, කණ්ඩායම්, URL, ලාංඡන, tvg-id, රට, භාෂා, ප්‍රියතමයන් සංස්කරණය කරන්න.
-• Edit multiple URLs per channel (popup window).: • නාලිකාවකට බහුවිධ URL සංස්කරණය කරන්න (උත්පතන කවුළුව).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG සමඟ පොහොසත් කරන්න: නොපැහැදිලි ගැලපීම භාවිතයෙන් අතුරුදහන් වූ tvg-id එක් කරයි.
-• EPG info displayed in status bar for current channel.: • වත්මන් නාලිකාව සඳහා තත්ත්‍ව තීරුවේ EPG තොරතුරු සංදර්ශන කෙරේ.
-• Export OK / FAIL / filtered lists as M3U or JSON.: • OK / FAIL / පෙරන ලද ලැයිස්තු M3U හෝ JSON ලෙස අපනයනය කරන්න.
-• Fetch logos from remote repository (OwnerPlugins/logos).: • දුරස්ථ ගබඩාවෙන් ලාංඡන ලබා ගන්න (OwnerPlugins/logo).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • සම්පූර්ණ තිර UI: පැති තීරුව සහ තත්ව තීරුව සඟවයි (පිටවීමට ESC).
-• Hide/Show channel list button.: • නාලිකා ලැයිස්තු බොත්තම සඟවන්න/පෙන්වන්න.
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • නම්‍යශීලී ක්ෂේත්‍ර සිතියම්කරණය සමඟින් JSON (දේශීය හෝ URL) ආයාත කරන්න (ස්වයං-අනාවරණය, සිතියම්කරණය සුරකින්න).
-• Picture‑in‑Picture (PIP) button.: • Picture-in-Picture (PIP) බොත්තම.
-• Playback speed: 0.5x, 1x, 2x buttons.: • පසුධාවන වේගය: 0.5x, 1x, 2x බොත්තම්.
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • ශීර්ෂය ක්ලික් කිරීමෙන් ඕනෑම තීරුවක් වර්ග කරන්න; මුල් අනුපිළිවෙලට ආපසු යාමට 'Reset Order' භාවිතා කරන්න.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: සජීවී ප්‍රවාහය විරාම කරන්න; ආපසු සෙවීමට ස්ලයිඩරය ඇද දමන්න; ආපසු යාමට 'Live' ඔබන්න.
-▶ Play Media: ▶ Play Media
-◀ Previous: ◀ පෙර
-16 colour themes + Light/Dark variants.: වර්ණ තේමා 16ක් + ආලෝකය/අඳුරු ප්‍රභේද.
-A new version is available. Do you want to update now?: නව අනුවාදයක් තිබේ. ඔබට දැන් යාවත්කාලීන කිරීමට අවශ්‍යද?
-Access via 'Compare' button in Playlist Editor or Tools menu.: ධාවන ලැයිස්තු සංස්කාරකයේ හෝ මෙවලම් මෙනුවේ 'සසඳන්න' බොත්තම හරහා ප්‍රවේශ වන්න.
-Access via 'Edit Playlist' button on main toolbar.: ප්‍රධාන මෙවලම් තීරුවේ 'Edit Playlist' බොත්තම හරහා ප්‍රවේශ වන්න.
-Actions: ක්රියාවන්
-Add Command: විධානය එක් කරන්න
-Add Group: කණ්ඩායම එකතු කරන්න
-Add Mapping: සිතියම්කරණය එකතු කරන්න
-Adjust buffer size (1-10 seconds): බෆර ප්‍රමාණය සීරුමාරු කරන්න (තත්පර 1-10)
-Advanced IDs: උසස් හැඳුනුම්පත්
-Application status: අයදුම්පත් තත්ත්වය
-Apply: අයදුම් කරන්න
-Apply / Import: අයදුම් කරන්න / ආනයනය කරන්න
-Apply changes: වෙනස්කම් යොදන්න
-Apply Filters: පෙරහන් යොදන්න
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: ඔබට Enigma2 GUI නැවත පූරණය කිරීමට අවශ්‍ය බව විශ්වාසද?\n\nඅතුරු මුහුණත නැවත ආරම්භ වනු ඇත (තත්පර කිහිපයක් සඳහා කළු තිරය).
-Auto (recommended): ස්වයංක්‍රීය (නිර්දේශිත)
-Auto-detect: ස්වයං-අනාවරණය
-Automatic check on startup – or click 'Check for updates' in Tools menu.: ආරම්භයේදී ස්වයංක්‍රීයව පරීක්ෂා කරන්න - නැතහොත් මෙවලම් මෙනුවේ 'යාවත්කාලීන කිරීම් සඳහා පරීක්ෂා කරන්න' ක්ලික් කරන්න.
-Bouquet Name: මල් කළඹේ නම
-Bouquet sent and Enigma2 channel list reloaded.: මල් කළඹ යවා Enigma2 නාලිකා ලැයිස්තුව නැවත පූරණය කරන ලදී.
-Buffer (seconds): බෆරය (තත්පර)
-Buffer size – adjust HLS buffer seconds.: බෆර ප්‍රමාණය - HLS බෆර තත්පර සකසන්න.
-Cache: හැඹිලිය
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: හැඹිලි ෆෝල්ඩරය: %TEMP% \\ LiveGardenTVPlus \\epg_cache
-Cancel: අවලංගු කරන්න
-CANCEL: අවලංගු කරන්න
-Cannot open browser: බ්රවුසරය විවෘත කළ නොහැක
-Category: ප්රවර්ගය
-Changelog: චේන්ජ්ලොග්
-Channel Details: නාලිකා විස්තර
-Channel Down: චැනල් ඩවුන්
-Channel Info: නාලිකා තොරතුරු
-Channel Name: නාලිකාවේ නම
-Channel Up: නාලිකාව ඉහළට
-channels from: සිට නාලිකා
-channels from JSON: JSON වෙතින් නාලිකා
-channels from JSON URL: JSON URL වෙතින් නාලිකා
-channels from URL: URL වෙතින් නාලිකා
-Check Duplicates: අනුපිටපත් පරීක්ෂා කරන්න
-Check for updates: යාවත්කාලීන සඳහා පරීක්ෂා කරන්න
-Check URLs: URL පරීක්ෂා කරන්න
-Clear: පැහැදිලියි
-Clear EPG Cache: EPG හැඹිලිය හිස් කරන්න
-Clear Filters: පෙරහන් හිස් කරන්න
-Clear search: සෙවීම පැහැදිලි කරන්න
-Click for details: විස්තර සඳහා ක්ලික් කරන්න
-Close: වසන්න
-Code: කේතය
-Code copied to clipboard.: කේතය පසුරු පුවරුවට පිටපත් කරන ලදී.
-Command name:: විධාන නාමය:
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ප්‍රජා සහ පරීක්ෂණ: CorvoBoys (corvoboys.org) සහ LinuxSat-Support.com
-Compare: සසඳන්න
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: සංසන්දනය කරන්න: ප්‍රමුඛතාවය (නම→group→tvg-id), නම, කණ්ඩායම (අවස්ථා සංවේදී) හෝ TvgId.
-Compare Playlists: ධාවන ලැයිස්තු සසඳන්න
-Compare two playlists – load first (current playlist) and second (from file or URL).: ධාවන ලැයිස්තු දෙකක් සසඳන්න - පළමු (වත්මන් ධාවන ලැයිස්තුව) සහ දෙවන (ගොනුව හෝ URL වෙතින්) පූරණය කරන්න.
-Compare...: සසඳන්න...
-Comparison results: {0} channels: සංසන්දනාත්මක ප්රතිඵල: {0} නාලිකා
-Configuration Missing: වින්‍යාසය අතුරුදහන්
-Confirm Delete: මකා දැමීම තහවුරු කරන්න
-Confirm Reload: නැවත පූරණය තහවුරු කරන්න
-Connect: සම්බන්ධ කරන්න
-Connected: සම්බන්ධයි
-Copied: පිටපත් කර ඇත
-Copy: පිටපත් කරන්න
-CORVOBOYS.ORG: CORVOYS.ORG
-Country: රට
-Credits: ණය
-Delete channel '{0}'?: '{0}' නාලිකාව මකන්නද?
-Delete Group: සමූහය මකන්න
-Delete Selected: තෝරාගත් මකන්න
-Deleted: මකා දමන ලදී
-Description: විස්තරය
-Details: විස්තර
-Developed by Lululla: ලුලුල්ලා විසින් වැඩි දියුණු කරන ලදී
-Developer: Lululla: සංවර්ධක: ලුලුල්ලා
-Disconnect: විසන්ධි කරන්න
-Disconnected: විසන්ධි විය
-Display as: : ලෙස පෙන්වන්න:
-Do you want to load this edited playlist now?: ඔබට මෙම සංස්කරණය කළ ධාවන ලැයිස්තුව දැන් පූරණය කිරීමට අවශ්‍යද?
-Double speed (2x): ද්විත්ව වේගය (2x)
-Downloading playlist...: ධාවන ලැයිස්තුව බාගත කරමින්...
-Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP බාගත කරයි, ගොනු ප්‍රතිස්ථාපනය කරයි, යෙදුම නැවත ආරම්භ කරයි - සැකසුම් සංරක්ෂණය කර ඇත.
-Drag & drop – drop M3U or JSON files directly onto main window.: ඇද දමන්න - M3U හෝ JSON ගොනු සෘජුවම ප්‍රධාන කවුළුව වෙතට දමන්න.
-Drag to seek back in buffer: බෆරයේ ආපසු සෙවීමට අදින්න
-Duplicate URLs found:\n\n: අනුපිටපත් URL හමු විය:\n\n
-Edit Command: විධානය සංස්කරණය කරන්න
-Edit command name:: විධාන නාමය සංස්කරණය කරන්න:
-Edit Playlist: ධාවන ලැයිස්තුව සංස්කරණය කරන්න
-Edit telnet command:: telnet විධානය සංස්කරණය කරන්න:
-Edit URLs: URL සංස්කරණය කරන්න
-Empty Password: හිස් මුරපදය
-End: අවසානය
-Enrich with EPG: EPG සමඟ පොහොසත් කරන්න
-Enter bouquet name (without spaces):: මල් කළඹේ නම ඇතුළත් කරන්න (හිස්තැන් නොමැතිව):
-Enter JSON URL:: JSON URL ඇතුලත් කරන්න:
-Enter new group name:: නව කණ්ඩායම් නම ඇතුළත් කරන්න:
-Enter playlist URL (JSON or M3U):: ධාවන ලැයිස්තු URL ඇතුලත් කරන්න (JSON හෝ M3U):
-Enter playlist URL (M3U or JSON):: ධාවන ලැයිස්තු URL ඇතුලත් කරන්න (M3U හෝ JSON):
-EPG: ඊ.පී.ජී
-Epg & Favorites: බිත්තර සහ ප්රියතම
-EPG & Favorites: EPG සහ ප්රියතම
-Epg & Logos: Epg සහ ලාංඡන
-EPG & Logos: EPG සහ ලාංඡන
-EPG cache cleared successfully.: EPG හැඹිලිය සාර්ථකව හිස් කරන ලදී.
-EPG Details: EPG විස්තර
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG මාර්ගෝපදේශය - ප්‍රධාන මෙවලම් තීරුවේ බොත්තම වැඩසටහන් විස්තර සහිත සම්පූර්ණ ජාලකය පෙන්වයි (තොරතුරු සඳහා ද්වි-ක්ලික් කරන්න).
-EPG Matching Threshold: EPG ගැළපෙන සීමාව
-EPG Source: : EPG මූලාශ්රය:
-EPG source – can be set in Settings (epgshare01 or custom URL).: EPG මූලාශ්‍රය - සැකසීම් (epgshare01 හෝ අභිරුචි URL) තුළ සැකසිය හැක.
-EPG source – choose XMLTV file or enter custom URL.: EPG මූලාශ්‍රය - XMLTV ගොනුව තෝරන්න හෝ අභිරුචි URL ඇතුළත් කරන්න.
-EPG Source Missing: EPG මූලාශ්‍රය අතුරුදහන්
-Error: දෝෂයකි
-Error clearing cache: {0}: හැඹිලිය හිස් කිරීමේ දෝෂයකි: {0}
-Error loading: පූරණය කිරීමේ දෝෂයකි
-Error loading EPG list: {0}: EPG ලැයිස්තුව පූරණය කිරීමේ දෝෂයකි: {0}
-Error loading file: {0}: ගොනුව පූරණය කිරීමේ දෝෂයකි: {0}
-Error loading playlists: {0}: ධාවන ලැයිස්තු පූරණය කිරීමේ දෝෂයකි: {0}
-Error loading URL: {0}: URL පූරණය කිරීමේ දෝෂයකි: {0}
-ERROR: player.html not found.: දෝෂය: player.html හමු නොවීය.
-Exit: පිටවීම
-Export all: සියල්ල අපනයනය කරන්න
-Export Favorites: ප්‍රියතමයන් අපනයනය කරන්න
-Export Filtered JSON: පෙරූ JSON අපනයනය කරන්න
-Export Filtered M3U: පෙරූ M3U අපනයනය කරන්න
-Export JSON: JSON අපනයනය කරන්න
-Export KO: KO අපනයනය කරන්න
-Export missing: අපනයනය අතුරුදහන්
-Export OK: අපනයනය හරි
-Export only favorite channels to a new M3U file: නව M3U ගොනුවකට ප්‍රියතම නාලිකා පමණක් නිර්යාත කරන්න
-Export results as JSON or M3U – export missing channels or all channels.: JSON හෝ M3U ලෙස ප්‍රතිඵල අපනයනය කරන්න - නැතිවූ නාලිකා හෝ සියලුම නාලිකා අපනයනය කරන්න.
-Export selected: අපනයනය තෝරා ඇත
-Export Selected: අපනයනය තෝරා ඇත
-Exported: අපනයනය කරන ලදී
-Exported {0} channels to {1}: නාලිකා {0}ක් {1} වෙත නිර්යාත කරන ලදී
-Extracting update...: යාවත්කාලීනය උපුටා ගනිමින්...
-Failed to download playlist: ධාවන ලැයිස්තුව බාගැනීම අසාර්ථක විය
-Failed to load playlist: ධාවන ලැයිස්තුව පූරණය කිරීමට අසමත් විය
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: bouquets.tv යාවත්කාලීන කිරීමට අසමත් විය. කරුණාකර Enigma2 උපාංගයේ ගොනු අවසර පරීක්ෂා කරන්න.
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: මල් කළඹ උඩුගත කිරීමට අසමත් විය. කරුණාකර ඔබගේ Telnet සැකසීම් (ධාරක, තොට, පරිශීලක නාමය, මුරපදය) පරීක්ෂා කර නැවත උත්සාහ කරන්න.
-Favorite: ප්රියතම
-Favorites only: ප්‍රියතමයන් පමණි
-Fetch Logos: ලාංඡන ලබා ගන්න
-File {0} already exists. Overwrite?: {0} ගොනුව දැනටමත් පවතී. උඩින් ලියන්නද?
-File exists: ගොනුව පවතී
-Filters: පෙරහන්
-Format Detection: ආකෘති හඳුනාගැනීම
-Fullscreen: පුන් තිරය
-Fullscreen (hide UI) - press ESC to exit: සම්පූර්ණ තිරය (UI සඟවන්න) - පිටවීමට ESC ඔබන්න
-Geo & Country: භූ සහ රට
-GeoBlocked: GeoBlocked
-GitHub Error: GitHub දෝෂය
-Go back to live: ජීවත් වීමට ආපසු යන්න
-Grid: ජාලකය
-Group: කණ්ඩායම
-Half speed (0.5x): අර්ධ වේගය (0.5x)
-Help: උදව්
-Hide List: ලැයිස්තුව සඟවන්න
-HLS playback: hls.js (MIT license): HLS නැවත ධාවනය: hls.js (MIT බලපත්‍රය)
-Image: රූපය
-Import: ආනයනය කරන්න
-Import cancelled or no channels mapped.: ආයාත කිරීම අවලංගු කර හෝ සිතියම්ගත කර නැති නාලිකා.
-Import Error: ආනයන දෝෂයකි
-Import error: {0}: ආයාත දෝෂය: {0}
-Import from URL: URL වෙතින් ආයාත කරන්න
-Import JSON: JSON ආයාත කරන්න
-Import JSON from URL: URL වෙතින් JSON ආයාත කරන්න
-Import Local: දේශීය ආනයනය කරන්න
-Imported {0} channels from code.: කේතයෙන් නාලිකා {0}ක් ආයාත කරන ලදී.
-Imported {0} channels from JSON via mapping.: සිතියම්කරණය හරහා JSON වෙතින් නාලිකා {0}ක් ආයාත කරන ලදී.
-Imported {0} channels from URL.: URL වෙතින් නාලිකා {0}ක් ආයාත කරන ලදී.
-In Both: දෙකම තුළ
-Info: තොරතුරු
-Info on: පිළිබඳ තොරතුරු
-Invalid JSON: {0}: වලංගු නොවන JSON: {0}
-Invalid playlist URL.: වලංගු නොවන ධාවන ලැයිස්තු URL.
-Invalid URL.: වලංගු නොවන URL.
-Json: ජේසන්
-JSON: JSON
-JSON parsing error: {0}: JSON විග්‍රහ කිරීමේ දෝෂය: {0}
-JSON Property: JSON දේපල
-Ko-fi: කෝපි
-Language: භාෂාව
-Language – change UI language dynamically (translations in Languages folder).: භාෂාව - UI භාෂාව ගතිකව වෙනස් කරන්න (භාෂා ෆෝල්ඩරයේ පරිවර්තන).
-Languages: භාෂා
-Languages (comma): භාෂා (කොමාව)
-LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help: LiveGardenTVPlus උදව්
-LOAD: පැටවීම
-Load a playlist first.: පළමුව ධාවන ලැයිස්තුවක් පූරණය කරන්න.
-Load a second playlist first.: පළමුව දෙවන ධාවන ලැයිස්තුවක් පූරණය කරන්න.
-Load File: ගොනුව පූරණය කරන්න
-Load from file...: ගොනුවෙන් පූරණය කරන්න...
-Load from URL: URL වෙතින් පූරණය කරන්න
-Load from URL...: URL වෙතින් පූරණය කරන්න...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: දේශීය M3U/JSON ගොනුව පූරණය කරන්න - 'ගොනුව පූරණය කරන්න' බොත්තම (මෙවලම් තීරුව) හෝ සංස්කාරකයේ 'ගොනුව විවෘත කරන්න' හරහා.
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: සබැඳි M3U/JSON URL පූරණය කරන්න – සංස්කාරකයේ 'ඔන්ලයින් පූරණය කරන්න' බොත්තම (මෙවලම් තීරුව) හෝ 'URL වෙතින් විවෘත කරන්න'.
-Load playlist file (M3U/JSON) from your computer: ඔබගේ පරිගණකයෙන් ධාවන ලැයිස්තු ගොනුව (M3U/JSON) පූරණය කරන්න
-Loaded: පටවා ඇත
-Loaded {0} channels from JSON file via mapping.: සිතියම්ගත කිරීම හරහා JSON ගොනුවෙන් නාලිකා {0}ක් පූරණය කරන ලදී.
-Loaded {0} channels from JSON URL.: JSON URL වෙතින් නාලිකා {0}ක් පූරණය කරන ලදී.
-Loaded {0} channels from M3U file.: M3U ගොනුවෙන් නාලිකා {0}ක් පූරණය කරන ලදී.
-Loaded {0} channels from M3U URL.: M3U URL වෙතින් නාලිකා {0}ක් පූරණය කරන ලදී.
-Loading...: පූරණය වෙමින්...
-Logo: ලාංඡනය
-Logo Picker – in editor, click '...' to choose logo from gallery.: Logo Picker – සංස්කාරකයේ, ගැලරියෙන් ලාංඡනය තේරීමට '...' ක්ලික් කරන්න.
-Logo Preview: ලාංඡන පෙරදසුන
-Logo URL: ලාංඡනය URL
-Logos – automatically download from GitHub repository (Settings → Logos Source).: ලාංඡන - GitHub ගබඩාවෙන් ස්වයංක්‍රීයව බාගන්න (සැකසීම් → Logos මූලාශ්‍රය).
-Logos Matching Threshold: ලාංඡන ගැළපෙන එළිපත්ත
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: ලාංඡන ගබඩාව - හිමිකරු/repo/path තෝරන්න (පෙරනිමි OwnerPlugins/ලාංඡන).
-Logos Source: ලාංඡන මූලාශ්රය
-Logos Subfolder: ලාංඡන උප ෆෝල්ඩරය
-M3U: M3U
-M3U parsing error: {0}: M3U විග්‍රහ කිරීමේ දෝෂය: {0}
-Map JSON properties to channel fields:: JSON ගුණාංග නාලිකා ක්ෂේත්‍ර වෙත සිතියම්ගත කරන්න:
-Mapping saved for future imports of this file.: මෙම ගොනුවේ අනාගත ආයාත කිරීම් සඳහා සිතියම්ගත කිරීම සුරකින ලදී.
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: ගැළපෙන එළිපත්ත - EPG සහ ලාංඡන සඳහා නොපැහැදිලි ගැලපුම් සංවේදීතාව සකසන්න.
-Mini Player: Mini Player
-Move to Group: කණ්ඩායම වෙත යන්න
-Moved: මාරු කළා
-Name: නම
-Nanoid: නැනොයිඩ්
-Network error: ජාල දෝෂයකි
-New Playlist: නව ධාවන ලැයිස්තුව
-Next: ඊළඟ
-Next ▶: ඊළඟ ▶
-No .m3u files found on GitHub repository.: GitHub ගබඩාවේ .m3u ගොනු හමු නොවීය.
-No cache folder found.: හැඹිලි ෆෝල්ඩරයක් හමු නොවීය.
-No channel selected: නාලිකාවක් තෝරා නැත
-No channels could be mapped or import cancelled.: කිසිදු නාලිකා සිතියම්ගත කිරීමට හෝ ආනයනය අවලංගු කිරීමට නොහැකි විය.
-No channels could be mapped. Check your mapping rules.: නාලිකා සිතියම්ගත කළ නොහැක. ඔබගේ සිතියම්කරණ රීති පරීක්ෂා කරන්න.
-No channels found in JSON.: JSON හි නාලිකා හමු නොවීය.
-No channels found in M3U.: M3U හි නාලිකා හමු නොවීය.
-No channels loaded from JSON URL.: JSON URL වෙතින් නාලිකා පූරණය කර නැත.
-No channels loaded from M3U URL.: M3U URL වෙතින් නාලිකා පූරණය කර නැත.
-No channels loaded from M3U.: M3U වෙතින් නාලිකා පූරණය කර නැත.
-No channels loaded.: නාලිකා පූරණය කර නැත.
-No channels mapped: සිතියම්ගත කළ නාලිකා නොමැත
-No channels selected.: නාලිකා කිසිවක් තෝරා නැත.
-No channels to import.: ආයාත කිරීමට නාලිකා නැත.
-No duplicate URLs found.: අනුපිටපත් URL හමු නොවීය.
-No EPG data: EPG දත්ත නැත
-No EPG information available for this channel.: මෙම නාලිකාව සඳහා EPG තොරතුරු නොමැත.
-No EPG source configured. Please select one from the combo or go to Settings.: EPG මූලාශ්‍රයක් වින්‍යාස කර නැත. කරුණාකර සංයෝජනයෙන් එකක් තෝරන්න නැතහොත් සැකසීම් වෙත යන්න.
-No EPG source configured. Would you like to open settings to select one?: EPG මූලාශ්‍රයක් වින්‍යාස කර නැත. එකක් තේරීමට සැකසීම් විවෘත කිරීමට ඔබ කැමතිද?
-No favorite channels to export.: නිර්යාත කිරීමට ප්‍රියතම නාලිකා නැත.
-No missing channels to export.: නිර්යාත කිරීමට නැතිවූ නාලිකා නොමැත.
-No playlist found: ධාවන ලැයිස්තුවක් හමු නොවීය
-No second playlist loaded.: දෙවන ධාවන ලැයිස්තුවක් පූරණය කර නැත.
-No stream URL available for this channel.: මෙම නාලිකාව සඳහා ප්‍රවාහ URL නොමැත.
-No text to import.: ආයාත කිරීමට පෙළ නැත.
-No updates available.: යාවත්කාලීන නොමැත.
-Normal speed (1x): සාමාන්‍ය වේගය (1x)
-Not connected to the box.: කොටුවට සම්බන්ධ නොවේ.
-Now: දැන්
-OK: හරි
-Online Playlist: සබැඳි ධාවන ලැයිස්තුව
-Online playlist – select from GitHub repository (auto‑refresh).: මාර්ගගත ධාවන ලැයිස්තුව - GitHub ගබඩාවෙන් තෝරන්න (ස්වයං-නැවුම්).
-Only in First: පළමුවෙන් පමණි
-Only in Second: දෙවනුව පමණි
-Open File...: ගොනුව විවෘත කරන්න...
-Open from URL: URL වෙතින් විවෘත කරන්න
-Open Playlist: ධාවන ලැයිස්තුව විවෘත කරන්න
-Pause/Resume live stream: සජීවී ප්‍රවාහය විරාම කරන්න/නැවත ආරම්භ කරන්න
-Paused: විරාම කළා
-PayPal: PayPal
-Picture-in-Picture mode: Picture-in-Picture මාදිලිය
-Play/Pause: වාදනය / විරාමය
-Player Media Controls: Player මාධ්‍ය පාලන
-Playing Media: මාධ්‍ය වාදනය කිරීම
-Playlist & Groups: ධාවන ලැයිස්තුව සහ කණ්ඩායම්
-Playlist Comparison: ධාවන ලැයිස්තු සංසන්දනය
-Playlist Editor: ධාවන ලැයිස්තු සංස්කාරකය
-Playlist Loading: ධාවන ලැයිස්තුව පූරණය වේ
-Playlist Management: ධාවන ලැයිස්තු කළමනාකරණය
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): ධාවන ලැයිස්තු ගබඩාව: OwnerPlugins/TivuStreamList (ඉතාලි සහ ජාත්‍යන්තර ප්‍රවාහ)
-Please select a program first.: කරුණාකර පළමුව වැඩසටහනක් තෝරන්න.
-Preview (first 5 channels): පෙරදසුන (පළමු නාලිකා 5)
-Preview error: {0}: පෙරදසුන් දෝෂය: {0}
-Program Details: වැඩසටහන් විස්තර
-Ready: සූදානම්
-Ready.: සූදානම්.
-Recent: මෑත
-Recent files – quick access to last 5 opened playlists.: මෑත ගොනු - අවසන් විවෘත ධාවන ලැයිස්තු 5 වෙත ඉක්මන් ප්‍රවේශය.
-Recent playlists: මෑත ධාවන ලැයිස්තු
-Refresh Code: කේතය නැවුම් කරන්න
-Refresh EPG: EPG නැවුම් කරන්න
-Refresh EPG List: EPG ලැයිස්තුව නැවුම් කරන්න
-Refresh from GitHub: GitHub වෙතින් නැවුම් කරන්න
-Refresh List: ලැයිස්තුව නැවුම් කරන්න
-Reload GUI: GUI නැවත පූරණය කරන්න
-Remove Command: විධානය ඉවත් කරන්න
-Rename Group: සමූහය නැවත නම් කරන්න
-Rename group '{0}' to:: '{0}' කණ්ඩායම නැවත නම් කරන්න:
-Repository: ගබඩාව
-Reset Order: ඇණවුම නැවත සකසන්න
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: ප්‍රතිඵල: 'පළමුවෙන් පමණි', 'දෙවනෙන් පමණක්', 'දෙකමෙහි' - තත්ත්‍ව වර්ණ කේතීකරණය සමඟ.
-Save: සුරකින්න
-SAVE: සුරකින්න
-Save – persists all settings without reloading current playlist.: සුරකින්න - වත්මන් ධාවන ලැයිස්තුව නැවත පූරණය නොකර සියලු සැකසුම් දිගටම පවතී.
-Save as...: ලෙස සුරකින්න...
-Save current playlist to a new M3U file: වත්මන් ධාවන ලැයිස්තුව නව M3U ගොනුවකට සුරකින්න
-Save Mapping: සිතියම්කරණය සුරකින්න
-Save Playlist: ධාවන ලැයිස්තුව සුරකින්න
-Save Status: තත්ත්වය සුරකින්න
-Saved: සුරකින ලදී
-Search channel: : නාලිකාව සොයන්න:
-Search channels by name: නමින් නාලිකා සොයන්න
-Search channels...: නාලිකා සොයන්න...
-sec: තත්පර
-Second playlist loaded: {0} channels: දෙවන ධාවන ලැයිස්තුව පූරණය කරන ලදී: {0} නාලිකා
-Select a channel to play.: සෙල්ලම් කිරීමට නාලිකාවක් තෝරන්න.
-Select a playlist first.: පළමුව ධාවන ලැයිස්තුවක් තෝරන්න.
-Select target group:: ඉලක්ක කණ්ඩායම තෝරන්න:
-Select Theme: තේමාව තෝරන්න
-Selected theme is saved and applied on restart.: තෝරාගත් තේමාව සුරකින අතර නැවත ආරම්භ කිරීමේදී යොදනු ලැබේ.
-Send: යවන්න
-Send playlist to Enigma2 decoder: ධාවන ලැයිස්තුව Enigma2 විකේතකය වෙත යවන්න
-Send to Enigma2: Enigma2 වෙත යවන්න
-Settings: සැකසීම්
-Show List: ලැයිස්තුව පෙන්වන්න
-Show only channels marked as favorites: ප්‍රියතමයන් ලෙස සලකුණු කර ඇති නාලිකා පමණක් පෙන්වන්න
-Show or hide the channel list: නාලිකා ලැයිස්තුව පෙන්වන්න හෝ සඟවන්න
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: පරීක්ෂණ සහ සහාය සඳහා CORVOBOYS සහ LinuxSat-සහාය ප්‍රජාවන්ට විශේෂ ස්තුතිය.
-Start: ආරම්භ කරන්න
-Status: තත්ත්වය
-Stop: නවත්වන්න
-Stopped: නැවැත්තුවා
-Stream URL: ප්‍රවාහ URL
-Stream URLs: ප්‍රවාහ URL
-Success: සාර්ථකත්වය
-Support: සහාය
-Support the developer: සංවර්ධකයාට සහාය වන්න
-Target Field: ඉලක්ක ක්ෂේත්රය
-Telnet command:: Telnet විධානය:
-Telnet Commander: ටෙල්නෙට් කමාන්ඩර්
-Telnet Config: ටෙල්නෙට් වින්‍යාසය
-Telnet Console: ටෙල්නෙට් කොන්සෝලය
-Telnet host not configured. Please set it in Settings.: Telnet සත්කාරක වින්‍යාස කර නැත. කරුණාකර එය සැකසීම් තුළ සකසන්න.
-Telnet password is empty. Do you want to continue?: Telnet මුරපදය හිස්ය. ඔබට දිගටම කරගෙන යාමට අවශ්‍යද?
-Telnet username not configured. Please set it in Settings.: Telnet පරිශීලක නාමය වින්‍යාස කර නැත. කරුණාකර එය සැකසීම් තුළ සකසන්න.
-Thanks to: ස්තුතියි
-Theme picker: තේමා තේරීම
-Theme picker – accessible via Tools menu on main toolbar.: තේමා පිකර් - ප්‍රධාන මෙවලම් තීරුවේ ඇති මෙවලම් මෙනුව හරහා ප්‍රවේශ විය හැක.
-Themes: තේමා
-Time: කාලය
-Title: මාතෘකාව
-Tools: මෙවලම්
-Total: මුළු
-Total channels in loaded playlist: පූරණය කළ ධාවන ලැයිස්තුවේ මුළු නාලිකා
-TV Guide (EPG): රූපවාහිනී මාර්ගෝපදේශය (EPG)
-TvgId: TvgId
-Type channel name to filter: පෙරීමට නාලිකා නම ටයිප් කරන්න
-UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: ආකෘතිය ස්වයංක්‍රීයව හඳුනා ගැනීමට නොහැක. කරුණාකර පතනයෙන් JSON හෝ M3U තෝරා නැවත උත්සාහ කරන්න.
-Unable to find version in remote project file.: දුරස්ථ ව්‍යාපෘති ගොනුවේ අනුවාදය සොයා ගැනීමට නොහැක.
-Unsupported format. Please select JSON or M3U.: සහාය නොදක්වන ආකෘතිය. කරුණාකර JSON හෝ M3U තෝරන්න.
-Update: යාවත්කාලීන කරන්න
-Update complete. Restarting...: යාවත්කාලීන කිරීම සම්පූර්ණයි. නැවත ආරම්භ කරමින්...
-Update Error: යාවත්කාලීන දෝෂයකි
-Update failed: : යාවත්කාලීන කිරීම අසාර්ථක විය:
-Updates: යාවත්කාලීන
-Upload Error: උඩුගත කිරීමේ දෝෂයකි
-URL: URL
-URL (primary): URL (ප්‍රාථමික)
-URL Check: URL පරීක්ෂාව
-URL list (one per line): URL ලැයිස්තුව (පේළියකට එකක්)
-URLs & Status: URL සහ තත්ත්වය
-Version: අනුවාදය
-Version {0}.{1}.{2}: අනුවාදය {0}.{1}.{2}
-Version unknown: අනුවාදය නොදන්නා
-Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus වැසීමට රැඳී සිටිමින්...
-Warning: අවවාදයයි
-WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
-Youtube URL: Youtube URL
-Youtube URLs: Youtube URL
+(Completely voluntary – no features are blocked)::(සම්පූර්ණයෙන්ම ස්වේච්ඡාවෙන් - විශේෂාංග කිසිවක් අවහිර කර නැත)
+(No description)::(විස්තරයක් නැත)
+• Add / rename / delete groups.::• කණ්ඩායම් එකතු කරන්න / නැවත නම් කරන්න / මකන්න.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• බෆර් ස්ලයිඩරය: HLS බෆරය සකසන්න (තත්පර 1-10).
+• Check URL availability (only visible channels).::• URL තිබේද යන්න පරීක්ෂා කරන්න (දෘශ්‍ය නාලිකා පමණි).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• නාලිකා නම්, කණ්ඩායම්, URL, ලාංඡන, tvg-id, රට, භාෂා, ප්‍රියතමයන් සංස්කරණය කරන්න.
+• Edit multiple URLs per channel (popup window).::• නාලිකාවකට බහුවිධ URL සංස්කරණය කරන්න (උත්පතන කවුළුව).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• EPG සමඟ පොහොසත් කරන්න: නොපැහැදිලි ගැලපීම භාවිතයෙන් අතුරුදහන් වූ tvg-id එක් කරයි.
+• EPG info displayed in status bar for current channel.::• වත්මන් නාලිකාව සඳහා තත්ත්‍ව තීරුවේ EPG තොරතුරු සංදර්ශන කෙරේ.
+• Export OK / FAIL / filtered lists as M3U or JSON.::• OK / FAIL / පෙරන ලද ලැයිස්තු M3U හෝ JSON ලෙස අපනයනය කරන්න.
+• Fetch logos from remote repository (OwnerPlugins/logos).::• දුරස්ථ ගබඩාවෙන් ලාංඡන ලබා ගන්න (OwnerPlugins/logo).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• සම්පූර්ණ තිර UI: පැති තීරුව සහ තත්ව තීරුව සඟවයි (පිටවීමට ESC).
+• Hide/Show channel list button.::• නාලිකා ලැයිස්තු බොත්තම සඟවන්න/පෙන්වන්න.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• නම්‍යශීලී ක්ෂේත්‍ර සිතියම්කරණය සමඟින් JSON (දේශීය හෝ URL) ආයාත කරන්න (ස්වයං-අනාවරණය, සිතියම්කරණය සුරකින්න).
+• Picture‑in‑Picture (PIP) button.::• Picture-in-Picture (PIP) බොත්තම.
+• Playback speed: 0.5x, 1x, 2x buttons.::• පසුධාවන වේගය: 0.5x, 1x, 2x බොත්තම්.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• ශීර්ෂය ක්ලික් කිරීමෙන් ඕනෑම තීරුවක් වර්ග කරන්න; මුල් අනුපිළිවෙලට ආපසු යාමට 'Reset Order' භාවිතා කරන්න.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• Timeshift: සජීවී ප්‍රවාහය විරාම කරන්න; ආපසු සෙවීමට ස්ලයිඩරය ඇද දමන්න; ආපසු යාමට 'Live' ඔබන්න.
+▶ Play Media::▶ Play Media
+◀ Previous::◀ පෙර
+16 colour themes + Light/Dark variants.::වර්ණ තේමා 16ක් + ආලෝකය/අඳුරු ප්‍රභේද.
+A new version is available. Do you want to update now?::නව අනුවාදයක් තිබේ. ඔබට දැන් යාවත්කාලීන කිරීමට අවශ්‍යද?
+Access via 'Compare' button in Playlist Editor or Tools menu.::ධාවන ලැයිස්තු සංස්කාරකයේ හෝ මෙවලම් මෙනුවේ 'සසඳන්න' බොත්තම හරහා ප්‍රවේශ වන්න.
+Access via 'Edit Playlist' button on main toolbar.::ප්‍රධාන මෙවලම් තීරුවේ 'Edit Playlist' බොත්තම හරහා ප්‍රවේශ වන්න.
+Actions::ක්රියාවන්
+Add Command::විධානය එක් කරන්න
+Add Group::කණ්ඩායම එකතු කරන්න
+Add Mapping::සිතියම්කරණය එකතු කරන්න
+Adjust buffer size (1-10 seconds)::බෆර ප්‍රමාණය සීරුමාරු කරන්න (තත්පර 1-10)
+Advanced IDs::උසස් හැඳුනුම්පත්
+All channels marked as favorites::සියලුම නාලිකා ප්‍රියතමයන් ලෙස ලකුණු කර ඇත
+All favorites removed::සියලුම ප්‍රියතමයන් ඉවත් කර ඇත
+Application status::අයදුම්පත් තත්ත්වය
+Apply::අයදුම් කරන්න
+Apply / Import::අයදුම් කරන්න / ආනයනය කරන්න
+Apply changes::වෙනස්කම් යොදන්න
+Apply Filters::පෙරහන් යොදන්න
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::ඔබට Enigma2 GUI නැවත පූරණය කිරීමට අවශ්‍ය බව විශ්වාසද?\n\nඅතුරු මුහුණත නැවත ආරම්භ වනු ඇත (තත්පර කිහිපයක් සඳහා කළු තිරය).
+Auto (recommended)::ස්වයංක්‍රීය (නිර්දේශිත)
+Auto-detect::ස්වයං-අනාවරණය
+Automatic check on startup – or click 'Check for updates' in Tools menu.::ආරම්භයේදී ස්වයංක්‍රීයව පරීක්ෂා කරන්න - නැතහොත් මෙවලම් මෙනුවේ 'යාවත්කාලීන කිරීම් සඳහා පරීක්ෂා කරන්න' ක්ලික් කරන්න.
+Bouquet Name::මල් කළඹේ නම
+Bouquet sent and Enigma2 channel list reloaded.::මල් කළඹ යවා Enigma2 නාලිකා ලැයිස්තුව නැවත පූරණය කරන ලදී.
+Buffer (seconds)::බෆරය (තත්පර)
+Buffer size – adjust HLS buffer seconds.::බෆර ප්‍රමාණය - HLS බෆර තත්පර සකසන්න.
+Cache::හැඹිලිය
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::හැඹිලි ෆෝල්ඩරය: %TEMP% \\ LiveGardenTVPlus \\epg_cache
+Cancel::අවලංගු කරන්න
+CANCEL::අවලංගු කරන්න
+Cannot open browser::බ්රවුසරය විවෘත කළ නොහැක
+Category::ප්රවර්ගය
+Changelog::චේන්ජ්ලොග්
+Channel Details::නාලිකා විස්තර
+Channel Down::චැනල් ඩවුන්
+Channel Info::නාලිකා තොරතුරු
+Channel Name::නාලිකාවේ නම
+Channel Up::නාලිකාව ඉහළට
+Channel updated successfully.::නාලිකාව සාර්ථකව යාවත්කාලීන කරන ලදී.
+channels from::සිට නාලිකා
+channels from JSON::JSON වෙතින් නාලිකා
+channels from JSON URL::JSON URL වෙතින් නාලිකා
+channels from URL::URL වෙතින් නාලිකා
+Check Duplicates::අනුපිටපත් පරීක්ෂා කරන්න
+Check for updates::යාවත්කාලීන සඳහා පරීක්ෂා කරන්න
+Check URLs::URL පරීක්ෂා කරන්න
+Clear::පැහැදිලියි
+Clear EPG Cache::EPG හැඹිලිය හිස් කරන්න
+Clear Filters::පෙරහන් හිස් කරන්න
+Clear search::සෙවීම පැහැදිලි කරන්න
+Click for details::විස්තර සඳහා ක්ලික් කරන්න
+Close::වසන්න
+Close current playlist::වත්මන් ධාවන ලැයිස්තුව වසන්න
+Close Playlist::ධාවන ලැයිස්තුව වසන්න
+Code::කේතය
+Code copied to clipboard.::කේතය පසුරු පුවරුවට පිටපත් කරන ලදී.
+Command name:::විධාන නාමය:
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::ප්‍රජා සහ පරීක්ෂණ: CorvoBoys (corvoboys.org) සහ LinuxSat-Support.com
+Compare::සසඳන්න
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::සංසන්දනය කරන්න: ප්‍රමුඛතාවය (නම→group→tvg-id), නම, කණ්ඩායම (අවස්ථා සංවේදී) හෝ TvgId.
+Compare Playlists::ධාවන ලැයිස්තු සසඳන්න
+Compare two playlists – load first (current playlist) and second (from file or URL).::ධාවන ලැයිස්තු දෙකක් සසඳන්න - පළමු (වත්මන් ධාවන ලැයිස්තුව) සහ දෙවන (ගොනුව හෝ URL වෙතින්) පූරණය කරන්න.
+Compare...::සසඳන්න...
+Comparison results: {0} channels::සංසන්දනාත්මක ප්රතිඵල: {0} නාලිකා
+Configuration Missing::වින්‍යාසය අතුරුදහන්
+Confirm Delete::මකා දැමීම තහවුරු කරන්න
+Confirm Reload::නැවත පූරණය තහවුරු කරන්න
+Connect::සම්බන්ධ කරන්න
+Connected::සම්බන්ධයි
+Copied::පිටපත් කර ඇත
+Copy::පිටපත් කරන්න
+CORVOBOYS.ORG::CORVOYS.ORG
+Country::රට
+Credits::ණය
+Delete channel '{0}'?::'{0}' නාලිකාව මකන්නද?
+Delete Group::සමූහය මකන්න
+Delete Selected::තෝරාගත් මකන්න
+Deleted::මකා දමන ලදී
+Description::විස්තරය
+Details::විස්තර
+Developed by Lululla::ලුලුල්ලා විසින් වැඩි දියුණු කරන ලදී
+Developer: Lululla::සංවර්ධක: ලුලුල්ලා
+Disconnect::විසන්ධි කරන්න
+Disconnected::විසන්ධි විය
+Display as::ලෙස පෙන්වන්න
+Do you want to load this edited playlist now?::ඔබට මෙම සංස්කරණය කළ ධාවන ලැයිස්තුව දැන් පූරණය කිරීමට අවශ්‍යද?
+Double speed (2x)::ද්විත්ව වේගය (2x)
+Downloading playlist...::ධාවන ලැයිස්තුව බාගත කරමින්...
+Downloads ZIP, replaces files, restarts app – settings preserved.::ZIP බාගත කරයි, ගොනු ප්‍රතිස්ථාපනය කරයි, යෙදුම නැවත ආරම්භ කරයි - සැකසුම් සංරක්ෂණය කර ඇත.
+Drag & drop – drop M3U or JSON files directly onto main window.::ඇද දමන්න - M3U හෝ JSON ගොනු සෘජුවම ප්‍රධාන කවුළුව වෙතට දමන්න.
+Drag to seek back in buffer::බෆරයේ ආපසු සෙවීමට අදින්න
+Duplicate URLs found:\n\n::අනුපිටපත් URL හමු විය:\n\n
+Edit Command::විධානය සංස්කරණය කරන්න
+Edit command name:::විධාන නාමය සංස්කරණය කරන්න:
+Edit Playlist::ධාවන ලැයිස්තුව සංස්කරණය කරන්න
+Edit telnet command:::telnet විධානය සංස්කරණය කරන්න:
+Edit URLs::URL සංස්කරණය කරන්න
+Empty Password::හිස් මුරපදය
+End::අවසානය
+Enigma2::Enigma2
+Enrich with EPG::EPG සමඟ පොහොසත් කරන්න
+Enter bouquet name (without spaces):::මල් කළඹේ නම ඇතුළත් කරන්න (හිස්තැන් නොමැතිව):
+Enter JSON URL:::JSON URL ඇතුලත් කරන්න:
+Enter new group name:::නව කණ්ඩායම් නම ඇතුළත් කරන්න:
+Enter playlist URL (JSON or M3U):::ධාවන ලැයිස්තු URL ඇතුලත් කරන්න (JSON හෝ M3U):
+Enter playlist URL (M3U or JSON):::ධාවන ලැයිස්තු URL ඇතුලත් කරන්න (M3U හෝ JSON):
+EPG::ඊ.පී.ජී
+Epg & Favorites::බිත්තර සහ ප්රියතම
+EPG & Favorites::EPG සහ ප්‍රියතමයන්
+Epg & Logos::Epg සහ ලාංඡන
+EPG & Logos::EPG සහ ලාංඡන
+EPG cache cleared successfully.::EPG හැඹිලිය සාර්ථකව හිස් කරන ලදී.
+EPG Details::EPG විස්තර
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::EPG මාර්ගෝපදේශය - ප්‍රධාන මෙවලම් තීරුවේ බොත්තම වැඩසටහන් විස්තර සහිත සම්පූර්ණ ජාලකය පෙන්වයි (තොරතුරු සඳහා ද්වි-ක්ලික් කරන්න).
+EPG Matching Threshold::EPG ගැළපෙන සීමාව
+EPG Source::EPG මූලාශ්රය
+EPG source – can be set in Settings (epgshare01 or custom URL).::EPG මූලාශ්‍රය - සැකසීම් (epgshare01 හෝ අභිරුචි URL) තුළ සැකසිය හැක.
+EPG source – choose XMLTV file or enter custom URL.::EPG මූලාශ්‍රය - XMLTV ගොනුව තෝරන්න හෝ අභිරුචි URL ඇතුළත් කරන්න.
+EPG Source Missing::EPG මූලාශ්‍රය අතුරුදහන්
+Error::දෝෂයකි
+Error clearing cache: {0}::හැඹිලිය හිස් කිරීමේ දෝෂයකි: {0}
+Error loading::පූරණය කිරීමේ දෝෂයකි
+Error loading EPG list: {0}::EPG ලැයිස්තුව පූරණය කිරීමේ දෝෂයකි: {0}
+Error loading file: {0}::ගොනුව පූරණය කිරීමේ දෝෂයකි: {0}
+Error loading playlists: {0}::ධාවන ලැයිස්තු පූරණය කිරීමේ දෝෂයකි: {0}
+Error loading URL: {0}::URL පූරණය කිරීමේ දෝෂයකි: {0}
+ERROR: player.html not found.::දෝෂය: player.html හමු නොවීය.
+Exit::පිටවෙන්න
+Export all::සියල්ල අපනයනය කරන්න
+Export Favorites::ප්‍රියතමයන් අපනයනය කරන්න
+Export Filtered JSON::පෙරූ JSON අපනයනය කරන්න
+Export Filtered M3U::පෙරූ M3U අපනයනය කරන්න
+Export JSON::JSON අපනයනය කරන්න
+Export KO::KO අපනයනය කරන්න
+Export missing::අපනයනය අතුරුදහන්
+Export OK::අපනයනය හරි
+Export only favorite channels to a new M3U file::නව M3U ගොනුවකට ප්‍රියතම නාලිකා පමණක් නිර්යාත කරන්න
+Export results as JSON or M3U – export missing channels or all channels.::JSON හෝ M3U ලෙස ප්‍රතිඵල අපනයනය කරන්න - නැතිවූ නාලිකා හෝ සියලුම නාලිකා අපනයනය කරන්න.
+Export selected::අපනයනය තෝරා ඇත
+Export Selected::අපනයනය තෝරා ඇත
+Exported::අපනයනය කරන ලදී
+Exported {0} channels to {1}::නාලිකා {0}ක් {1} වෙත නිර්යාත කරන ලදී
+Extracting update...::යාවත්කාලීනය උපුටා ගනිමින්...
+Failed to download playlist::ධාවන ලැයිස්තුව බාගැනීම අසාර්ථක විය
+Failed to load playlist::ධාවන ලැයිස්තුව පූරණය කිරීමට අසමත් විය
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::bouquets.tv යාවත්කාලීන කිරීමට අසමත් විය. කරුණාකර Enigma2 උපාංගයේ ගොනු අවසර පරීක්ෂා කරන්න.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::මල් කළඹ උඩුගත කිරීමට අසමත් විය. කරුණාකර ඔබගේ Telnet සැකසීම් (ධාරක, තොට, පරිශීලක නාමය, මුරපදය) පරීක්ෂා කර නැවත උත්සාහ කරන්න.
+Favorite::ප්රියතම
+Favorites::ප්රියතම
+Favorites only::ප්‍රියතමයන් පමණි
+Fetch Logos::ලාංඡන ලබා ගන්න
+File::ගොනුව
+File {0} already exists. Overwrite?::{0} ගොනුව දැනටමත් පවතී. උඩින් ලියන්නද?
+File exists::ගොනුව පවතී
+Filters::පෙරහන්
+Format Detection::ආකෘති හඳුනාගැනීම
+Fullscreen::පුන් තිරය
+Fullscreen (hide UI) - press ESC to exit::සම්පූර්ණ තිරය (UI සඟවන්න) - පිටවීමට ESC ඔබන්න
+Geo & Country::භූ සහ රට
+GeoBlocked::GeoBlocked
+GitHub Error::GitHub දෝෂය
+Go back to live::ජීවත් වීමට ආපසු යන්න
+Grid::ජාලකය
+Group::කණ්ඩායම
+Half speed (0.5x)::අර්ධ වේගය (0.5x)
+Help::උදව්
+Hide List::ලැයිස්තුව සඟවන්න
+HLS playback: hls.js (MIT license)::HLS නැවත ධාවනය: hls.js (MIT බලපත්‍රය)
+Image::රූපය
+Import::ආනයනය කරන්න
+Import cancelled or no channels mapped.::ආයාත කිරීම අවලංගු කර හෝ සිතියම්ගත කර නැති නාලිකා.
+Import Error::ආනයන දෝෂයකි
+Import error: {0}::ආයාත දෝෂය: {0}
+Import from URL::URL වෙතින් ආයාත කරන්න
+Import JSON::JSON ආයාත කරන්න
+Import JSON from URL::URL වෙතින් JSON ආයාත කරන්න
+Import Local::දේශීය ආනයනය කරන්න
+Imported {0} channels from code.::කේතයෙන් නාලිකා {0}ක් ආයාත කරන ලදී.
+Imported {0} channels from JSON via mapping.::සිතියම්කරණය හරහා JSON වෙතින් නාලිකා {0}ක් ආයාත කරන ලදී.
+Imported {0} channels from URL.::URL වෙතින් නාලිකා {0}ක් ආයාත කරන ලදී.
+In Both::දෙකම තුළ
+Info::තොරතුරු
+Info on::පිළිබඳ තොරතුරු
+Invalid JSON: {0}::වලංගු නොවන JSON: {0}
+Invalid playlist URL.::වලංගු නොවන ධාවන ලැයිස්තු URL.
+Invalid URL.::වලංගු නොවන URL.
+Json::ජේසන්
+JSON::JSON
+JSON parsing error: {0}::JSON විග්‍රහ කිරීමේ දෝෂය: {0}
+JSON Property::JSON දේපල
+Ko-fi::කෝපි
+Language::භාෂාව
+Language – change UI language dynamically (translations in Languages folder).::භාෂාව - UI භාෂාව ගතිකව වෙනස් කරන්න (භාෂා ෆෝල්ඩරයේ පරිවර්තන).
+Languages::භාෂා
+Languages (comma)::භාෂා (කොමාව)
+LINUXSAT-SUPPORT.COM::LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help::LiveGardenTVPlus උදව්
+LOAD::පැටවීම
+Load a playlist first.::පළමුව ධාවන ලැයිස්තුවක් පූරණය කරන්න.
+Load a second playlist first.::පළමුව දෙවන ධාවන ලැයිස්තුවක් පූරණය කරන්න.
+Load File::ගොනුව පූරණය කරන්න
+Load from file...::ගොනුවෙන් පූරණය කරන්න...
+Load from URL::URL වෙතින් පූරණය කරන්න
+Load from URL...::URL වෙතින් පූරණය කරන්න...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::දේශීය M3U/JSON ගොනුව පූරණය කරන්න - 'ගොනුව පූරණය කරන්න' බොත්තම (මෙවලම් තීරුව) හෝ සංස්කාරකයේ 'ගොනුව විවෘත කරන්න' හරහා.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::සබැඳි M3U/JSON URL පූරණය කරන්න – සංස්කාරකයේ 'ඔන්ලයින් පූරණය කරන්න' බොත්තම (මෙවලම් තීරුව) හෝ 'URL වෙතින් විවෘත කරන්න'.
+Load Playlist::ධාවන ලැයිස්තුව පූරණය කරන්න
+Load playlist file (M3U/JSON) from your computer::ඔබගේ පරිගණකයෙන් ධාවන ලැයිස්තු ගොනුව (M3U/JSON) පූරණය කරන්න
+Loaded::පටවා ඇත
+Loaded {0} channels from JSON file via mapping.::සිතියම්ගත කිරීම හරහා JSON ගොනුවෙන් නාලිකා {0}ක් පූරණය කරන ලදී.
+Loaded {0} channels from JSON URL.::JSON URL වෙතින් නාලිකා {0}ක් පූරණය කරන ලදී.
+Loaded {0} channels from M3U file.::M3U ගොනුවෙන් නාලිකා {0}ක් පූරණය කරන ලදී.
+Loaded {0} channels from M3U URL.::M3U URL වෙතින් නාලිකා {0}ක් පූරණය කරන ලදී.
+Loading...::පූරණය වෙමින්...
+Logo::ලාංඡනය
+Logo Picker – in editor, click '...' to choose logo from gallery.::Logo Picker – සංස්කාරකයේ, ගැලරියෙන් ලාංඡනය තේරීමට '...' ක්ලික් කරන්න.
+Logo Preview::ලාංඡන පෙරදසුන
+Logo URL::ලාංඡනය URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).::ලාංඡන - GitHub ගබඩාවෙන් ස්වයංක්‍රීයව බාගන්න (සැකසීම් → Logos මූලාශ්‍රය).
+Logos Matching Threshold::ලාංඡන ගැළපෙන එළිපත්ත
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::ලාංඡන ගබඩාව - හිමිකරු/repo/path තෝරන්න (පෙරනිමි OwnerPlugins/ලාංඡන).
+Logos Source::ලාංඡන මූලාශ්රය
+Logos Subfolder::ලාංඡන උප ෆෝල්ඩරය
+M3U::M3U
+M3U parsing error: {0}::M3U විග්‍රහ කිරීමේ දෝෂය: {0}
+Map JSON properties to channel fields:::JSON ගුණාංග නාලිකා ක්ෂේත්‍ර වෙත සිතියම්ගත කරන්න:
+Mapping saved for future imports of this file.::මෙම ගොනුවේ අනාගත ආයාත කිරීම් සඳහා සිතියම්ගත කිරීම සුරකින ලදී.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::ගැළපෙන එළිපත්ත - EPG සහ ලාංඡන සඳහා නොපැහැදිලි ගැලපුම් සංවේදීතාව සකසන්න.
+Mini Player::Mini Player
+Move to Group::කණ්ඩායම වෙත යන්න
+Moved::මාරු කළා
+Name::නම
+Nanoid::නැනොයිඩ්
+Network error::ජාල දෝෂයකි
+New Playlist::නව ධාවන ලැයිස්තුව
+Next::ඊළඟ
+Next ▶::ඊළඟ ▶
+No .m3u files found on GitHub repository.::GitHub ගබඩාවේ .m3u ගොනු හමු නොවීය.
+No cache folder found.::හැඹිලි ෆෝල්ඩරයක් හමු නොවීය.
+No channel selected::නාලිකාවක් තෝරා නැත
+No channel selected.::නාලිකාවක් තෝරා නැත.
+No channels could be mapped or import cancelled.::කිසිදු නාලිකා සිතියම්ගත කිරීමට හෝ ආනයනය අවලංගු කිරීමට නොහැකි විය.
+No channels could be mapped. Check your mapping rules.::නාලිකා සිතියම්ගත කළ නොහැක. ඔබගේ සිතියම්කරණ රීති පරීක්ෂා කරන්න.
+No channels found in JSON.::JSON හි නාලිකා හමු නොවීය.
+No channels found in M3U.::M3U හි නාලිකා හමු නොවීය.
+No channels loaded from JSON URL.::JSON URL වෙතින් නාලිකා පූරණය කර නැත.
+No channels loaded from M3U URL.::M3U URL වෙතින් නාලිකා පූරණය කර නැත.
+No channels loaded from M3U.::M3U වෙතින් නාලිකා පූරණය කර නැත.
+No channels loaded.::නාලිකා පූරණය කර නැත.
+No channels mapped::සිතියම්ගත කළ නාලිකා නොමැත
+No channels selected.::නාලිකා කිසිවක් තෝරා නැත.
+No channels to import.::ආයාත කිරීමට නාලිකා නැත.
+No duplicate URLs found.::අනුපිටපත් URL හමු නොවීය.
+No EPG data::EPG දත්ත නැත
+No EPG information available for this channel.::මෙම නාලිකාව සඳහා EPG තොරතුරු නොමැත.
+No EPG source configured. Please select one from the combo or go to Settings.::EPG මූලාශ්‍රයක් වින්‍යාස කර නැත. කරුණාකර සංයෝජනයෙන් එකක් තෝරන්න නැතහොත් සැකසීම් වෙත යන්න.
+No EPG source configured. Would you like to open settings to select one?::EPG මූලාශ්‍රයක් වින්‍යාස කර නැත. එකක් තේරීමට සැකසීම් විවෘත කිරීමට ඔබ කැමතිද?
+No favorite channels found.::ප්‍රියතම නාලිකා හමු නොවීය.
+No favorite channels to export.::නිර්යාත කිරීමට ප්‍රියතම නාලිකා නැත.
+No missing channels to export.::නිර්යාත කිරීමට නැතිවූ නාලිකා නොමැත.
+No playlist found::ධාවන ලැයිස්තුවක් හමු නොවීය
+No second playlist loaded.::දෙවන ධාවන ලැයිස්තුවක් පූරණය කර නැත.
+No stream URL available for this channel.::මෙම නාලිකාව සඳහා ප්‍රවාහ URL නොමැත.
+No text to import.::ආයාත කිරීමට පෙළ නැත.
+No updates available.::යාවත්කාලීන නොමැත.
+Normal speed (1x)::සාමාන්‍ය වේගය (1x)
+Not connected to the box.::කොටුවට සම්බන්ධ නොවේ.
+Now::දැන්
+OK::හරි
+Online Playlist::සබැඳි ධාවන ලැයිස්තුව
+Online playlist – select from GitHub repository (auto‑refresh).::මාර්ගගත ධාවන ලැයිස්තුව - GitHub ගබඩාවෙන් තෝරන්න (ස්වයං-නැවුම්).
+Only in First::පළමුවෙන් පමණි
+Only in Second::දෙවනුව පමණි
+Open File...::ගොනුව විවෘත කරන්න...
+Open from URL::URL වෙතින් විවෘත කරන්න
+Open Playlist::ධාවන ලැයිස්තුව විවෘත කරන්න
+Pause/Resume live stream::සජීවී ප්‍රවාහය විරාම කරන්න/නැවත ආරම්භ කරන්න
+Paused::විරාම කළා
+PayPal::PayPal
+Picture-in-Picture mode::Picture-in-Picture මාදිලිය
+Play/Pause::වාදනය / විරාමය
+Player Media Controls::Player මාධ්‍ය පාලන
+Playing Media::මාධ්‍ය වාදනය කිරීම
+Playlist & Groups::ධාවන ලැයිස්තුව සහ කණ්ඩායම්
+Playlist closed::ධාවන ලැයිස්තුව වසා ඇත
+Playlist Comparison::ධාවන ලැයිස්තු සංසන්දනය
+Playlist Editor::ධාවන ලැයිස්තු සංස්කාරකය
+Playlist Loading::ධාවන ලැයිස්තුව පූරණය වේ
+Playlist Management::ධාවන ලැයිස්තු කළමනාකරණය
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::ධාවන ලැයිස්තු ගබඩාව: OwnerPlugins/TivuStreamList (ඉතාලි සහ ජාත්‍යන්තර ප්‍රවාහ)
+Please select a program first.::කරුණාකර පළමුව වැඩසටහනක් තෝරන්න.
+Preview (first 5 channels)::පෙරදසුන (පළමු නාලිකා 5)
+Preview error: {0}::පෙරදසුන් දෝෂය: {0}
+Program Details::වැඩසටහන් විස්තර
+Ready::සූදානම්
+Recent::මෑත
+Recent files – quick access to last 5 opened playlists.::මෑත ගොනු - අවසන් විවෘත ධාවන ලැයිස්තු 5 වෙත ඉක්මන් ප්‍රවේශය.
+Recent playlists::මෑත ධාවන ලැයිස්තු
+Refresh Code::කේතය නැවුම් කරන්න
+Refresh EPG::EPG නැවුම් කරන්න
+Refresh EPG List::EPG ලැයිස්තුව නැවුම් කරන්න
+Refresh from GitHub::GitHub වෙතින් නැවුම් කරන්න
+Refresh List::ලැයිස්තුව නැවුම් කරන්න
+Reload GUI::GUI නැවත පූරණය කරන්න
+Remove Command::විධානය ඉවත් කරන්න
+Rename Group::සමූහය නැවත නම් කරන්න
+Rename group '{0}' to:::'{0}' කණ්ඩායම නැවත නම් කරන්න:
+Repository::ගබඩාව
+Reset Order::ඇණවුම නැවත සකසන්න
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::ප්‍රතිඵල: 'පළමුවෙන් පමණි', 'දෙවනෙන් පමණක්', 'දෙකමෙහි' - තත්ත්‍ව වර්ණ කේතීකරණය සමඟ.
+Save::සුරකින්න
+SAVE::සුරකින්න
+Save – persists all settings without reloading current playlist.::සුරකින්න - වත්මන් ධාවන ලැයිස්තුව නැවත පූරණය නොකර සියලු සැකසුම් දිගටම පවතී.
+Save as...::ලෙස සුරකින්න...
+Save current playlist to a new M3U file::වත්මන් ධාවන ලැයිස්තුව නව M3U ගොනුවකට සුරකින්න
+Save Favorites::ප්‍රියතමයන් සුරකින්න
+Save Mapping::සිතියම්කරණය සුරකින්න
+Save Playlist::ධාවන ලැයිස්තුව සුරකින්න
+Save Status::තත්ත්වය සුරකින්න
+Saved::සුරකින ලදී
+Search channel::නාලිකාව සොයන්න
+Search channels by name::නමින් නාලිකා සොයන්න
+Search channels...::නාලිකා සොයන්න...
+sec::තත්පර
+Second playlist loaded: {0} channels::දෙවන ධාවන ලැයිස්තුව පූරණය කරන ලදී: {0} නාලිකා
+Select a channel to play.::සෙල්ලම් කිරීමට නාලිකාවක් තෝරන්න.
+Select a playlist first.::පළමුව ධාවන ලැයිස්තුවක් තෝරන්න.
+Select target group:::ඉලක්ක කණ්ඩායම තෝරන්න:
+Select Theme::තේමාව තෝරන්න
+Selected theme is saved and applied on restart.::තෝරාගත් තේමාව සුරකින අතර නැවත ආරම්භ කිරීමේදී යොදනු ලැබේ.
+Send::යවන්න
+Send playlist to Enigma2 decoder::ධාවන ලැයිස්තුව Enigma2 විකේතකය වෙත යවන්න
+Send to Enigma2::Enigma2 වෙත යවන්න
+Settings::සැකසීම්
+Show List::ලැයිස්තුව පෙන්වන්න
+Show only channels marked as favorites::ප්‍රියතමයන් ලෙස සලකුණු කර ඇති නාලිකා පමණක් පෙන්වන්න
+Show or hide the channel list::නාලිකා ලැයිස්තුව පෙන්වන්න හෝ සඟවන්න
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::පරීක්ෂණ සහ සහාය සඳහා CORVOBOYS සහ LinuxSat-සහාය ප්‍රජාවන්ට විශේෂ ස්තුතිය.
+Start::ආරම්භ කරන්න
+Status::තත්ත්වය
+Stop::නවත්වන්න
+Stopped::නැවැත්තුවා
+Stream URL::ප්‍රවාහ URL
+Stream URLs::ප්‍රවාහ URL
+Success::සාර්ථකත්වය
+Support::සහාය
+Support the developer::සංවර්ධකයාට සහාය වන්න
+Target Field::ඉලක්ක ක්ෂේත්රය
+Telnet command:::Telnet විධානය:
+Telnet Commander::ටෙල්නෙට් කමාන්ඩර්
+Telnet Config::ටෙල්නෙට් වින්‍යාසය
+Telnet Configuration::ටෙල්නෙට් වින්‍යාසය
+Telnet Console::ටෙල්නෙට් කොන්සෝලය
+Telnet host not configured. Please set it in Settings.::Telnet සත්කාරක වින්‍යාස කර නැත. කරුණාකර එය සැකසීම් තුළ සකසන්න.
+Telnet password is empty. Do you want to continue?::Telnet මුරපදය හිස්ය. ඔබට දිගටම කරගෙන යාමට අවශ්‍යද?
+Telnet username not configured. Please set it in Settings.::Telnet පරිශීලක නාමය වින්‍යාස කර නැත. කරුණාකර එය සැකසීම් තුළ සකසන්න.
+Thanks to::ස්තුතියි
+Theme picker::තේමා තේරීම
+Theme picker – accessible via Tools menu on main toolbar.::තේමා පිකර් - ප්‍රධාන මෙවලම් තීරුවේ ඇති මෙවලම් මෙනුව හරහා ප්‍රවේශ විය හැක.
+Themes::තේමා
+Time::කාලය
+Title::මාතෘකාව
+Tools::මෙවලම්
+Total::මුළු
+Total channels in loaded playlist::පූරණය කළ ධාවන ලැයිස්තුවේ මුළු නාලිකා
+TV Guide (EPG)::රූපවාහිනී මාර්ගෝපදේශය (EPG)
+TvgId::TvgId
+Type channel name to filter::පෙරීමට නාලිකා නම ටයිප් කරන්න
+UI: MaterialDesignThemes.Wpf::UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::ආකෘතිය ස්වයංක්‍රීයව හඳුනා ගැනීමට නොහැක. කරුණාකර පතනයෙන් JSON හෝ M3U තෝරා නැවත උත්සාහ කරන්න.
+Unable to find version in remote project file.::දුරස්ථ ව්‍යාපෘති ගොනුවේ අනුවාදය සොයා ගැනීමට නොහැක.
+Unsupported format. Please select JSON or M3U.::සහාය නොදක්වන ආකෘතිය. කරුණාකර JSON හෝ M3U තෝරන්න.
+Update::යාවත්කාලීන කරන්න
+Update complete. Restarting...::යාවත්කාලීන කිරීම සම්පූර්ණයි. නැවත ආරම්භ කරමින්...
+Update Error::යාවත්කාලීන දෝෂයකි
+Update failed: ::යාවත්කාලීන කිරීම අසාර්ථක විය:
+Updated::යාවත්කාලීන කරන ලදී
+Updates::යාවත්කාලීන
+Upload Error::උඩුගත කිරීමේ දෝෂයකි
+URL::URL
+URL (primary)::URL (ප්‍රාථමික)
+URL Check::URL පරීක්ෂාව
+URL list (one per line)::URL ලැයිස්තුව (පේළියකට එකක්)
+URLs & Status::URL සහ තත්ත්වය
+Version::අනුවාදය
+Version {0}.{1}.{2}::අනුවාදය {0}.{1}.{2}
+Version unknown::අනුවාදය නොදන්නා
+Waiting for LiveGardenTVPlus to close...::LiveGardenTVPlus වැසීමට රැඳී සිටිමින්...
+Warning::අවවාදයයි
+WebView2: Microsoft Edge WebView2::WebView2: Microsoft Edge WebView2
+Youtube URL::Youtube URL
+Youtube URLs::Youtube URL

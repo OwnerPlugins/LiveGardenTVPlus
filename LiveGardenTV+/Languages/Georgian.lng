@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): (სრულიად ნებაყოფლობითი - არცერთი ფუნქცია არ არის დაბლოკილი)
-(No description): (აღწერის გარეშე)
-• Add / rename / delete groups.: • ჯგუფების დამატება / გადარქმევა / წაშლა.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • ბუფერული სლაიდერი: HLS ბუფერის კორექტირება (1-10 წამი).
-• Check URL availability (only visible channels).: • შეამოწმეთ URL ხელმისაწვდომობა (მხოლოდ ხილული არხები).
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • შეცვალეთ არხის სახელები, ჯგუფები, URL-ები, ლოგოები, tvg-id, ქვეყანა, ენები, ფავორიტები.
-• Edit multiple URLs per channel (popup window).: • თითო არხზე მრავალი URL-ის რედაქტირება (გამოსაშლელი ფანჯარა).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • გაამდიდრეთ EPG: ამატებს გამოტოვებულ tvg-id-ს ბუნდოვანი შესატყვისების გამოყენებით.
-• EPG info displayed in status bar for current channel.: • EPG ინფორმაცია ნაჩვენებია სტატუსის ზოლში მიმდინარე არხისთვის.
-• Export OK / FAIL / filtered lists as M3U or JSON.: • OK / FAIL / გაფილტრული სიების ექსპორტი M3U ან JSON სახით.
-• Fetch logos from remote repository (OwnerPlugins/logos).: • ლოგოების მოძიება დისტანციური საცავიდან (OwnerPlugins/logos).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • სრული ეკრანის UI: მალავს გვერდითა ზოლს და სტატუსის ზოლს (ESC გასასვლელად).
-• Hide/Show channel list button.: • არხების სიის დამალვა/ჩვენება ღილაკი.
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • JSON (ლოკალური ან URL) იმპორტი მოქნილი ველის რუკებით (ავტომატური ამოცნობა, რუკების შენახვა).
-• Picture‑in‑Picture (PIP) button.: • ღილაკი Picture-in-Picture (PIP).
-• Playback speed: 0.5x, 1x, 2x buttons.: • დაკვრის სიჩქარე: ღილაკები 0.5x, 1x, 2x.
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • ნებისმიერი სვეტის დალაგება სათაურის დაწკაპუნებით; გამოიყენეთ "გადატვირთვის შეკვეთა" თავდაპირველ შეკვეთაზე დასაბრუნებლად.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: პირდაპირი სტრიმინგის შეჩერება; გადაათრიეთ სლაიდერი უკან მოსაძებნად; დასაბრუნებლად დააჭირეთ "Live".
-▶ Play Media: ▶ Play Media
-◀ Previous: ◀ წინა
-16 colour themes + Light/Dark variants.: 16 ფერადი თემა + ღია/მუქი ვარიანტები.
-A new version is available. Do you want to update now?: ხელმისაწვდომია ახალი ვერსია. გსურთ განახლება ახლა?
-Access via 'Compare' button in Playlist Editor or Tools menu.: წვდომა ღილაკზე „შედარება“ დასაკრავი სიის რედაქტორის ან ინსტრუმენტების მენიუში.
-Access via 'Edit Playlist' button on main toolbar.: წვდომა მთავარ ინსტრუმენტთა პანელზე "რედაქტირება დასაკრავი სიის" ღილაკით.
-Actions: მოქმედებები
-Add Command: დაამატეთ ბრძანება
-Add Group: ჯგუფის დამატება
-Add Mapping: რუკების დამატება
-Adjust buffer size (1-10 seconds): ბუფერის ზომის კორექტირება (1-10 წამი)
-Advanced IDs: გაფართოებული პირადობის მოწმობები
-Application status: განაცხადის სტატუსი
-Apply: მიმართვა
-Apply / Import: მიმართვა/იმპორტი
-Apply changes: ცვლილებების გამოყენება
-Apply Filters: ფილტრების გამოყენება
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: დარწმუნებული ხართ, რომ გსურთ გადატვირთოთ Enigma2 GUI?\n\nინტერფეისი გადაიტვირთება (შავი ეკრანი რამდენიმე წამით).
-Auto (recommended): ავტომატური (რეკომენდირებულია)
-Auto-detect: ავტომატური ამოცნობა
-Automatic check on startup – or click 'Check for updates' in Tools menu.: ავტომატური შემოწმება გაშვებისას – ან დააწკაპუნეთ „განახლებების შემოწმება“ Tools მენიუში.
-Bouquet Name: თაიგულის სახელი
-Bouquet sent and Enigma2 channel list reloaded.: თაიგული გაიგზავნა და Enigma2 არხების სია ხელახლა ჩაიტვირთა.
-Buffer (seconds): ბუფერი (წამი)
-Buffer size – adjust HLS buffer seconds.: ბუფერის ზომა – HLS ბუფერული წამების კორექტირება.
-Cache: ქეში
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: ქეშის საქაღალდე: %TEMP%\\LiveGardenTVPlus\\epg_cache
-Cancel: გაუქმება
-CANCEL: გაუქმება
-Cannot open browser: ბრაუზერის გახსნა შეუძლებელია
-Category: კატეგორია
-Changelog: ცვლილებების ჟურნალი
-Channel Details: არხის დეტალები
-Channel Down: არხი ქვემოთ
-Channel Info: არხის ინფორმაცია
-Channel Name: არხის სახელი
-Channel Up: არხი ზემოთ
-channels from: არხებიდან
-channels from JSON: არხები JSON-დან
-channels from JSON URL: არხები JSON URL-დან
-channels from URL: არხები URL-დან
-Check Duplicates: შეამოწმეთ დუბლიკატები
-Check for updates: შეამოწმეთ განახლებები
-Check URLs: შეამოწმეთ URL-ები
-Clear: წმინდა
-Clear EPG Cache: EPG ქეშის გასუფთავება
-Clear Filters: ფილტრების გასუფთავება
-Clear search: ძიების გასუფთავება
-Click for details: დააწკაპუნეთ დეტალებისთვის
-Close: დახურვა
-Code: კოდი
-Code copied to clipboard.: კოდი დაკოპირებულია ბუფერში.
-Command name:: ბრძანების სახელი:
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: საზოგადოება და ტესტირება: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
-Compare: შეადარე
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: შედარება მიხედვით: პრიორიტეტი (სახელი→ ჯგუფი→tvg-id), სახელი, ჯგუფი (საქმეზე მგრძნობიარე) ან TvgId.
-Compare Playlists: შეადარეთ დასაკრავი სიები
-Compare two playlists – load first (current playlist) and second (from file or URL).: შეადარეთ ორი დასაკრავი სია – ჩატვირთეთ პირველი (მიმდინარე დასაკრავი სია) და მეორე (ფაილიდან ან URL-დან).
-Compare...: შეადარე...
-Comparison results: {0} channels: შედარების შედეგები: {0} არხი
-Configuration Missing: კონფიგურაცია აკლია
-Confirm Delete: დაადასტურეთ წაშლა
-Confirm Reload: დაადასტურეთ გადატვირთვა
-Connect: დაკავშირება
-Connected: დაკავშირებულია
-Copied: კოპირებულია
-Copy: კოპირება
-CORVOBOYS.ORG: CORVOBOYS.ORG
-Country: ქვეყანა
-Credits: კრედიტები
-Delete channel '{0}'?: წაშალოთ არხი „{0}“?
-Delete Group: ჯგუფის წაშლა
-Delete Selected: არჩეული წაშლა
-Deleted: წაშლილია
-Description: აღწერა
-Details: დეტალები
-Developed by Lululla: შემუშავებული Lululla-ს მიერ
-Developer: Lululla: შემქმნელი: Lululla
-Disconnect: გათიშვა
-Disconnected: გათიშულია
-Display as: : ჩვენება როგორც:
-Do you want to load this edited playlist now?: გსურთ ახლავე ჩატვირთოთ ეს რედაქტირებული დასაკრავი სია?
-Double speed (2x): ორმაგი სიჩქარე (2x)
-Downloading playlist...: მიმდინარეობს დასაკრავი სიის ჩამოტვირთვა...
-Downloads ZIP, replaces files, restarts app – settings preserved.: ჩამოტვირთავს ZIP, ცვლის ფაილებს, გადატვირთავს აპს - პარამეტრები შენახულია.
-Drag & drop – drop M3U or JSON files directly onto main window.: გადაათრიეთ და ჩამოაგდეთ – ჩამოაგდეთ M3U ან JSON ფაილები პირდაპირ მთავარ ფანჯარაში.
-Drag to seek back in buffer: გადაიტანეთ ბუფერში უკან მოსაძებნად
-Duplicate URLs found:\n\n: ნაპოვნია დუბლიკატი URL:\n\n
-Edit Command: ბრძანების რედაქტირება
-Edit command name:: ბრძანების სახელის რედაქტირება:
-Edit Playlist: დასაკრავი სიის რედაქტირება
-Edit telnet command:: telnet ბრძანების რედაქტირება:
-Edit URLs: URL-ების რედაქტირება
-Empty Password: ცარიელი პაროლი
-End: დასასრული
-Enrich with EPG: გამდიდრდით EPG-ით
-Enter bouquet name (without spaces):: შეიყვანეთ თაიგულის სახელი (სივრცის გარეშე):
-Enter JSON URL:: შეიყვანეთ JSON URL:
-Enter new group name:: შეიყვანეთ ახალი ჯგუფის სახელი:
-Enter playlist URL (JSON or M3U):: შეიყვანეთ დასაკრავი სიის URL (JSON ან M3U):
-Enter playlist URL (M3U or JSON):: შეიყვანეთ დასაკრავი სიის URL (M3U ან JSON):
-EPG: EPG
-Epg & Favorites: Epg & Favorites
-EPG & Favorites: EPG და ფავორიტები
-Epg & Logos: EPG & ლოგოები
-EPG & Logos: EPG და ლოგოები
-EPG cache cleared successfully.: EPG ქეში წარმატებით გაიწმინდა.
-EPG Details: EPG დეტალები
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG გზამკვლევი – მთავარ ინსტრუმენტთა პანელზე ღილაკი აჩვენებს სრულ ბადეს პროგრამის დეტალებით (დააწკაპუნეთ ორჯერ ინფორმაციისთვის).
-EPG Matching Threshold: EPG შესატყვისი ბარიერი
-EPG Source: : EPG წყარო:
-EPG source – can be set in Settings (epgshare01 or custom URL).: EPG წყარო – შეიძლება დაყენდეს პარამეტრებში (epgshare01 ან მორგებული URL).
-EPG source – choose XMLTV file or enter custom URL.: EPG წყარო – აირჩიეთ XMLTV ფაილი ან შეიყვანეთ მორგებული URL.
-EPG Source Missing: EPG წყარო დაკარგულია
-Error: შეცდომა
-Error clearing cache: {0}: შეცდომა ქეშის გასუფთავებისას: {0}
-Error loading: შეცდომა ჩატვირთვისას
-Error loading EPG list: {0}: შეცდომა EPG სიის ჩატვირთვისას: {0}
-Error loading file: {0}: შეცდომა ფაილის ჩატვირთვისას: {0}
-Error loading playlists: {0}: შეცდომა დასაკრავი სიების ჩატვირთვისას: {0}
-Error loading URL: {0}: შეცდომა URL-ის ჩატვირთვისას: {0}
-ERROR: player.html not found.: შეცდომა: player.html ვერ მოიძებნა.
-Exit: გასვლა
-Export all: ექსპორტი ყველა
-Export Favorites: რჩეულების ექსპორტი
-Export Filtered JSON: გაფილტრული JSON ექსპორტი
-Export Filtered M3U: გაფილტრული M3U ექსპორტი
-Export JSON: JSON-ის ექსპორტი
-Export KO: ექსპორტი KO
-Export missing: ექსპორტი აკლია
-Export OK: ექსპორტი OK
-Export only favorite channels to a new M3U file: მხოლოდ საყვარელი არხების ექსპორტი ახალ M3U ფაილში
-Export results as JSON or M3U – export missing channels or all channels.: შედეგების ექსპორტი JSON ან M3U სახით - დაკარგული არხების ან ყველა არხის ექსპორტი.
-Export selected: არჩეულია ექსპორტი
-Export Selected: არჩეულია ექსპორტი
-Exported: ექსპორტირებული
-Exported {0} channels to {1}: ექსპორტირებულია {0} არხი {1}-ში
-Extracting update...: მიმდინარეობს განახლების ამოღება...
-Failed to download playlist: დასაკრავი სიის ჩამოტვირთვა ვერ მოხერხდა
-Failed to load playlist: დასაკრავი სიის ჩატვირთვა ვერ მოხერხდა
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: bouquets.tv ვერ განახლდა. გთხოვთ, შეამოწმოთ ფაილის ნებართვები Enigma2 მოწყობილობაზე.
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: თაიგულის ატვირთვა ვერ მოხერხდა. გთხოვთ, შეამოწმოთ თქვენი Telnet პარამეტრები (ჰოსტი, პორტი, მომხმარებლის სახელი, პაროლი) და სცადოთ ხელახლა.
-Favorite: საყვარელი
-Favorites only: მხოლოდ რჩეულები
-Fetch Logos: ლოგოს მოტანა
-File {0} already exists. Overwrite?: ფაილი {0} უკვე არსებობს. გადაწერა?
-File exists: ფაილი არსებობს
-Filters: ფილტრები
-Format Detection: ფორმატის ამოცნობა
-Fullscreen: სრული ეკრანი
-Fullscreen (hide UI) - press ESC to exit: სრული ეკრანი (დამალე UI) - დააჭირეთ ESC გასასვლელად
-Geo & Country: გეო და ქვეყანა
-GeoBlocked: GeoBlocked
-GitHub Error: GitHub შეცდომა
-Go back to live: დაბრუნდი საცხოვრებლად
-Grid: ბადე
-Group: ჯგუფი
-Half speed (0.5x): ნახევრად სიჩქარე (0.5x)
-Help: დახმარება
-Hide List: სიის დამალვა
-HLS playback: hls.js (MIT license): HLS დაკვრა: hls.js (MIT ლიცენზია)
-Image: გამოსახულება
-Import: იმპორტი
-Import cancelled or no channels mapped.: იმპორტი გაუქმდა ან არ არის დაფიქსირებული.
-Import Error: იმპორტის შეცდომა
-Import error: {0}: იმპორტის შეცდომა: {0}
-Import from URL: URL-დან იმპორტი
-Import JSON: JSON იმპორტი
-Import JSON from URL: JSON-ის იმპორტი URL-დან
-Import Local: ადგილობრივი იმპორტი
-Imported {0} channels from code.: იმპორტირებულია {0} არხი კოდიდან.
-Imported {0} channels from JSON via mapping.: იმპორტირებულია {0} არხი JSON-დან რუკების მეშვეობით.
-Imported {0} channels from URL.: იმპორტირებულია {0} არხი URL-დან.
-In Both: ორივეში
-Info: ინფორმაცია
-Info on: ინფორმაცია
-Invalid JSON: {0}: არასწორი JSON: {0}
-Invalid playlist URL.: დასაკრავი სიის URL არასწორია.
-Invalid URL.: არასწორი URL.
-Json: ჯსონ
-JSON: JSON
-JSON parsing error: {0}: JSON ანალიზების შეცდომა: {0}
-JSON Property: JSON საკუთრება
-Ko-fi: ყავა
-Language: ენა
-Language – change UI language dynamically (translations in Languages folder).: ენა – შეცვალეთ UI ენა დინამიურად (თარგმანი ენების საქაღალდეში).
-Languages: ენები
-Languages (comma): ენები (მძიმით)
-LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help: LiveGardenTVPlus დახმარება
-LOAD: LOAD
-Load a playlist first.: ჯერ ჩატვირთეთ დასაკრავი სია.
-Load a second playlist first.: ჯერ ჩატვირთეთ მეორე დასაკრავი სია.
-Load File: ფაილის ჩატვირთვა
-Load from file...: ფაილიდან ჩატვირთვა...
-Load from URL: ჩატვირთვა URL-დან
-Load from URL...: URL-დან ჩატვირთვა...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: ჩატვირთეთ ადგილობრივი M3U/JSON ფაილი – ღილაკის „ჩატვირთვა ფაილის“ (ინსტრუმენტთა პანელი) ან „ფაილის გახსნა“ რედაქტორში.
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: ჩატვირთეთ ონლაინ M3U/JSON URL – ღილაკი „ჩატვირთვა ონლაინ“ (ინსტრუმენტთა პანელი) ან „გახსნა URL-დან“ რედაქტორში.
-Load playlist file (M3U/JSON) from your computer: ჩატვირთეთ დასაკრავი სიის ფაილი (M3U/JSON) თქვენი კომპიუტერიდან
-Loaded: დატვირთული
-Loaded {0} channels from JSON file via mapping.: ჩაიტვირთა {0} არხი JSON ფაილიდან რუკების მეშვეობით.
-Loaded {0} channels from JSON URL.: ჩაიტვირთა {0} არხი JSON URL-დან.
-Loaded {0} channels from M3U file.: ჩაიტვირთა {0} არხი M3U ფაილიდან.
-Loaded {0} channels from M3U URL.: ჩაიტვირთა {0} არხი M3U URL-დან.
-Loading...: იტვირთება...
-Logo: ლოგო
-Logo Picker – in editor, click '...' to choose logo from gallery.: ლოგოს ამომრჩევი – რედაქტორში დააწკაპუნეთ „...“ გალერეიდან ლოგოს ასარჩევად.
-Logo Preview: ლოგოს გადახედვა
-Logo URL: ლოგოს URL
-Logos – automatically download from GitHub repository (Settings → Logos Source).: ლოგოები – ავტომატურად ჩამოტვირთეთ GitHub საცავიდან (პარამეტრები → ლოგოს წყარო).
-Logos Matching Threshold: ლოგოს შესატყვისი ბარიერი
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: ლოგოს საცავი – აირჩიეთ მფლობელი/რეპო/გზა (ნაგულისხმევი OwnerPlugins/ლოგოები).
-Logos Source: ლოგოს წყარო
-Logos Subfolder: ლოგოს ქვესაქაღალდე
-M3U: M3U
-M3U parsing error: {0}: M3U ანალიზის შეცდომა: {0}
-Map JSON properties to channel fields:: JSON-ის თვისებების არხის ველებზე მორგება:
-Mapping saved for future imports of this file.: რუკა შენახულია ამ ფაილის მომავალი იმპორტისთვის.
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: შესატყვისი ზღურბლები – დააყენეთ ბუნდოვანი შესატყვისობის მგრძნობელობა EPG-სთვის და ლოგოებისთვის.
-Mini Player: მინი მოთამაშე
-Move to Group: ჯგუფში გადასვლა
-Moved: გადავიდა
-Name: სახელი
-Nanoid: ნანოიდი
-Network error: ქსელის შეცდომა
-New Playlist: ახალი დასაკრავი სია
-Next: შემდეგი
-Next ▶: შემდეგი ▶
-No .m3u files found on GitHub repository.: GitHub საცავში .m3u ფაილები არ მოიძებნა.
-No cache folder found.: ქეშის საქაღალდე ვერ მოიძებნა.
-No channel selected: არხი არ არის არჩეული
-No channels could be mapped or import cancelled.: ვერცერთი არხი ვერ მოხერხდა ან იმპორტის გაუქმება.
-No channels could be mapped. Check your mapping rules.: ვერცერთი არხი ვერ მოხერხდა. შეამოწმეთ თქვენი რუკების წესები.
-No channels found in JSON.: JSON-ში არხები ვერ მოიძებნა.
-No channels found in M3U.: M3U-ში არხები ვერ მოიძებნა.
-No channels loaded from JSON URL.: JSON URL-დან არხი არ არის ჩატვირთული.
-No channels loaded from M3U URL.: M3U URL-დან არხი არ არის ჩატვირთული.
-No channels loaded from M3U.: M3U-დან არ არის ჩატვირთული.
-No channels loaded.: არხები არ არის ჩატვირთული.
-No channels mapped: არხები არ არის მითითებული
-No channels selected.: არხები არჩეული არ არის.
-No channels to import.: იმპორტირებული არხები არ არის.
-No duplicate URLs found.: დუბლიკატი URL ვერ მოიძებნა.
-No EPG data: EPG მონაცემები არ არის
-No EPG information available for this channel.: ამ არხისთვის EPG ინფორმაცია არ არის ხელმისაწვდომი.
-No EPG source configured. Please select one from the combo or go to Settings.: EPG წყარო არ არის კონფიგურირებული. გთხოვთ, აირჩიოთ ერთი კომბინაციიდან ან გადადით პარამეტრებში.
-No EPG source configured. Would you like to open settings to select one?: EPG წყარო არ არის კონფიგურირებული. გსურთ გახსნათ პარამეტრები ერთის ასარჩევად?
-No favorite channels to export.: არ არის საყვარელი არხები ექსპორტისთვის.
-No missing channels to export.: არ არის დაკარგული არხები ექსპორტისთვის.
-No playlist found: დასაკრავი სია ვერ მოიძებნა
-No second playlist loaded.: მეორე დასაკრავი სია არ არის ჩატვირთული.
-No stream URL available for this channel.: ამ არხისთვის ნაკადის URL ხელმისაწვდომი არ არის.
-No text to import.: იმპორტისთვის ტექსტი არ არის.
-No updates available.: განახლებები არ არის ხელმისაწვდომი.
-Normal speed (1x): ნორმალური სიჩქარე (1x)
-Not connected to the box.: არ არის დაკავშირებული ყუთთან.
-Now: ახლა
-OK: OK
-Online Playlist: ონლაინ დასაკრავი სია
-Online playlist – select from GitHub repository (auto‑refresh).: ონლაინ დასაკრავი სია – აირჩიეთ GitHub საცავიდან (ავტომატური განახლება).
-Only in First: მხოლოდ პირველში
-Only in Second: მხოლოდ მეორეში
-Open File...: გახსენით ფაილი...
-Open from URL: გახსენით URL-დან
-Open Playlist: გახსენით დასაკრავი სია
-Pause/Resume live stream: პირდაპირი სტრიმინგის შეჩერება/განახლება
-Paused: შეჩერდა
-PayPal: PayPal
-Picture-in-Picture mode: სურათის სურათის რეჟიმი
-Play/Pause: დაკვრა/პაუზა
-Player Media Controls: მოთამაშის მედია კონტროლი
-Playing Media: მედიის დაკვრა
-Playlist & Groups: დასაკრავი სია და ჯგუფები
-Playlist Comparison: დასაკრავი სიის შედარება
-Playlist Editor: დასაკრავი სიის რედაქტორი
-Playlist Loading: დასაკრავი სიის ჩატვირთვა
-Playlist Management: დასაკრავი სიის მართვა
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): დასაკრავი სიის საცავი: OwnerPlugins/TivuStreamList (იტალიური და საერთაშორისო ნაკადები)
-Please select a program first.: გთხოვთ, ჯერ აირჩიოთ პროგრამა.
-Preview (first 5 channels): გადახედვა (პირველი 5 არხი)
-Preview error: {0}: გადახედვის შეცდომა: {0}
-Program Details: პროგრამის დეტალები
-Ready: მზადაა
-Ready.: მზადაა.
-Recent: ბოლო
-Recent files – quick access to last 5 opened playlists.: ბოლო ფაილები – სწრაფი წვდომა ბოლო 5 გახსნილ დასაკრავ სიაზე.
-Recent playlists: ბოლო დასაკრავი სიები
-Refresh Code: განაახლეთ კოდი
-Refresh EPG: განაახლეთ EPG
-Refresh EPG List: განაახლეთ EPG სია
-Refresh from GitHub: განახლება GitHub-დან
-Refresh List: სიის განახლება
-Reload GUI: გადატვირთეთ GUI
-Remove Command: ამოიღეთ ბრძანება
-Rename Group: ჯგუფის გადარქმევა
-Rename group '{0}' to:: ჯგუფის „{0}“ სახელის გადარქმევა:
-Repository: საცავი
-Reset Order: შეკვეთის გადატვირთვა
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: შედეგები: 'მხოლოდ პირველში', 'მხოლოდ მეორეში', 'ორივეში' - სტატუსის ფერის კოდირებით.
-Save: შენახვა
-SAVE: შენახვა
-Save – persists all settings without reloading current playlist.: შენახვა – შენარჩუნებულია ყველა პარამეტრი მიმდინარე დასაკრავი სიის გადატვირთვის გარეშე.
-Save as...: შენახვა როგორც...
-Save current playlist to a new M3U file: შეინახეთ მიმდინარე დასაკრავი სია ახალ M3U ფაილში
-Save Mapping: რუკების შენახვა
-Save Playlist: დასაკრავი სიის შენახვა
-Save Status: სტატუსის შენახვა
-Saved: შენახულია
-Search channel: : არხის ძიება:
-Search channels by name: მოძებნეთ არხები სახელით
-Search channels...: არხების ძიება...
-sec: წმ
-Second playlist loaded: {0} channels: ჩაიტვირთა მეორე დასაკრავი სია: {0} არხი
-Select a channel to play.: აირჩიეთ არხი დასაკრავად.
-Select a playlist first.: ჯერ აირჩიეთ დასაკრავი სია.
-Select target group:: აირჩიეთ სამიზნე ჯგუფი:
-Select Theme: აირჩიეთ თემა
-Selected theme is saved and applied on restart.: არჩეული თემა ინახება და გამოიყენება გადატვირთვისას.
-Send: გაგზავნა
-Send playlist to Enigma2 decoder: გააგზავნეთ დასაკრავი სია Enigma2 დეკოდერში
-Send to Enigma2: გაგზავნეთ Enigma2-ზე
-Settings: პარამეტრები
-Show List: სიის ჩვენება
-Show only channels marked as favorites: აჩვენეთ მხოლოდ ფავორიტად მონიშნული არხები
-Show or hide the channel list: არხების სიის ჩვენება ან დამალვა
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: განსაკუთრებული მადლობა CORVOBOYS & LinuxSat-Support საზოგადოებებს ტესტირებისა და მხარდაჭერისთვის.
-Start: დაწყება
-Status: სტატუსი
-Stop: გაჩერდი
-Stopped: გაჩერდა
-Stream URL: ნაკადის URL
-Stream URLs: სტრიმინგის URL-ები
-Success: წარმატებები
-Support: მხარდაჭერა
-Support the developer: მხარი დაუჭირეთ დეველოპერს
-Target Field: სამიზნე ველი
-Telnet command:: Telnet ბრძანება:
-Telnet Commander: ტელნეტის მეთაური
-Telnet Config: ტელნეტის კონფიგურაცია
-Telnet Console: Telnet კონსოლი
-Telnet host not configured. Please set it in Settings.: Telnet ჰოსტი არ არის კონფიგურირებული. გთხოვთ, დააყენოთ ის პარამეტრებში.
-Telnet password is empty. Do you want to continue?: Telnet პაროლი ცარიელია. გსურთ გაგრძელება?
-Telnet username not configured. Please set it in Settings.: Telnet მომხმარებლის სახელი არ არის კონფიგურირებული. გთხოვთ, დააყენოთ ის პარამეტრებში.
-Thanks to: მადლობა
-Theme picker: თემის ამომრჩევი
-Theme picker – accessible via Tools menu on main toolbar.: თემის ამომრჩევი – ხელმისაწვდომია ინსტრუმენტების მენიუდან მთავარ პანელზე.
-Themes: თემები
-Time: დრო
-Title: სათაური
-Tools: ხელსაწყოები
-Total: სულ
-Total channels in loaded playlist: სულ არხები ჩატვირთულ დასაკრავ სიაში
-TV Guide (EPG): სატელევიზიო გზამკვლევი (EPG)
-TvgId: TvgId
-Type channel name to filter: ჩაწერეთ არხის სახელი გასაფილტრად
-UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: ფორმატის ავტომატური ამოცნობა შეუძლებელია. გთხოვთ, აირჩიოთ JSON ან M3U ჩამოსაშლელი მენიუდან და სცადოთ ხელახლა.
-Unable to find version in remote project file.: დისტანციური პროექტის ფაილში ვერსიის პოვნა შეუძლებელია.
-Unsupported format. Please select JSON or M3U.: მხარდაუჭერელი ფორმატი. გთხოვთ, აირჩიოთ JSON ან M3U.
-Update: განახლება
-Update complete. Restarting...: განახლება დასრულდა. გადატვირთვა...
-Update Error: განახლების შეცდომა
-Update failed: : განახლება ვერ მოხერხდა:
-Updates: განახლებები
-Upload Error: ატვირთვის შეცდომა
-URL: URL
-URL (primary): URL (ძირითადი)
-URL Check: URL შემოწმება
-URL list (one per line): URL სია (თითო სტრიქონზე)
-URLs & Status: URL და სტატუსი
-Version: ვერსია
-Version {0}.{1}.{2}: ვერსია {0}.{1}.{2}
-Version unknown: ვერსია უცნობია
-Waiting for LiveGardenTVPlus to close...: ველოდები LiveGardenTVPlus-ის დახურვას...
-Warning: გაფრთხილება
-WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
-Youtube URL: Youtube URL
-Youtube URLs: Youtube URL-ები
+(Completely voluntary – no features are blocked)::(სრულიად ნებაყოფლობითი - არცერთი ფუნქცია არ არის დაბლოკილი)
+(No description)::(აღწერილობის გარეშე)
+• Add / rename / delete groups.::• ჯგუფების დამატება / გადარქმევა / წაშლა.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• ბუფერული სლაიდერი: HLS ბუფერის კორექტირება (1-10 წამი).
+• Check URL availability (only visible channels).::• შეამოწმეთ URL ხელმისაწვდომობა (მხოლოდ ხილული არხები).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• შეცვალეთ არხის სახელები, ჯგუფები, URL-ები, ლოგოები, tvg-id, ქვეყანა, ენები, ფავორიტები.
+• Edit multiple URLs per channel (popup window).::• თითო არხზე მრავალი URL-ის რედაქტირება (გამოსაშლელი ფანჯარა).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• გაამდიდრეთ EPG: ამატებს გამოტოვებულ tvg-id-ს ბუნდოვანი შესატყვისების გამოყენებით.
+• EPG info displayed in status bar for current channel.::• EPG ინფორმაცია ნაჩვენებია სტატუსის ზოლში მიმდინარე არხისთვის.
+• Export OK / FAIL / filtered lists as M3U or JSON.::• OK / FAIL / გაფილტრული სიების ექსპორტი M3U ან JSON სახით.
+• Fetch logos from remote repository (OwnerPlugins/logos).::• ლოგოების მოძიება დისტანციური საცავიდან (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• სრული ეკრანის UI: მალავს გვერდითა ზოლს და სტატუსის ზოლს (ESC გასასვლელად).
+• Hide/Show channel list button.::• არხების სიის დამალვა/ჩვენება ღილაკი.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• JSON (ლოკალური ან URL) იმპორტი მოქნილი ველის რუკებით (ავტომატური ამოცნობა, რუკების შენახვა).
+• Picture‑in‑Picture (PIP) button.::• ღილაკი Picture-in-Picture (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.::• დაკვრის სიჩქარე: ღილაკები 0.5x, 1x, 2x.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• ნებისმიერი სვეტის დალაგება სათაურის დაწკაპუნებით; გამოიყენეთ "გადატვირთვის შეკვეთა" თავდაპირველ შეკვეთაზე დასაბრუნებლად.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• Timeshift: პირდაპირი სტრიმინგის შეჩერება; გადაათრიეთ სლაიდერი უკან მოსაძებნად; დასაბრუნებლად დააჭირეთ "Live".
+▶ Play Media::▶ Play Media
+◀ Previous::◀ წინა
+16 colour themes + Light/Dark variants.::16 ფერადი თემა + ღია/მუქი ვარიანტები.
+A new version is available. Do you want to update now?::ხელმისაწვდომია ახალი ვერსია. გსურთ განახლება ახლა?
+Access via 'Compare' button in Playlist Editor or Tools menu.::წვდომა ღილაკზე „შედარება“ დასაკრავი სიის რედაქტორის ან ინსტრუმენტების მენიუში.
+Access via 'Edit Playlist' button on main toolbar.::წვდომა მთავარ ინსტრუმენტთა პანელზე "რედაქტირება დასაკრავი სიის" ღილაკით.
+Actions::მოქმედებები
+Add Command::დაამატეთ ბრძანება
+Add Group::ჯგუფის დამატება
+Add Mapping::რუკების დამატება
+Adjust buffer size (1-10 seconds)::ბუფერის ზომის კორექტირება (1-10 წამი)
+Advanced IDs::გაფართოებული პირადობის მოწმობები
+All channels marked as favorites::ყველა არხი მონიშნულია ფავორიტად
+All favorites removed::ყველა რჩეული წაშლილია
+Application status::განაცხადის სტატუსი
+Apply::მიმართეთ
+Apply / Import::მიმართვა/იმპორტი
+Apply changes::ცვლილებების გამოყენება
+Apply Filters::ფილტრების გამოყენება
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::დარწმუნებული ხართ, რომ გსურთ გადატვირთოთ Enigma2 GUI?\n\nინტერფეისი გადაიტვირთება (შავი ეკრანი რამდენიმე წამით).
+Auto (recommended)::ავტომატური (რეკომენდირებულია)
+Auto-detect::ავტომატური ამოცნობა
+Automatic check on startup – or click 'Check for updates' in Tools menu.::ავტომატური შემოწმება გაშვებისას – ან დააწკაპუნეთ „განახლებების შემოწმება“ Tools მენიუში.
+Bouquet Name::თაიგულის სახელი
+Bouquet sent and Enigma2 channel list reloaded.::თაიგული გაიგზავნა და Enigma2 არხების სია ხელახლა ჩაიტვირთა.
+Buffer (seconds)::ბუფერი (წამი)
+Buffer size – adjust HLS buffer seconds.::ბუფერის ზომა – HLS ბუფერული წამების კორექტირება.
+Cache::ქეში
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::ქეშის საქაღალდე: %TEMP%\\LiveGardenTVPlus\\epg_cache
+Cancel::გაუქმება
+CANCEL::გაუქმება
+Cannot open browser::ბრაუზერის გახსნა შეუძლებელია
+Category::კატეგორია
+Changelog::ცვლილებების ჟურნალი
+Channel Details::არხის დეტალები
+Channel Down::არხი ქვემოთ
+Channel Info::არხის ინფორმაცია
+Channel Name::არხის სახელი
+Channel Up::არხი ზემოთ
+Channel updated successfully.::არხი წარმატებით განახლდა.
+channels from::არხებიდან
+channels from JSON::არხები JSON-დან
+channels from JSON URL::არხები JSON URL-დან
+channels from URL::არხები URL-დან
+Check Duplicates::შეამოწმეთ დუბლიკატები
+Check for updates::შეამოწმეთ განახლებები
+Check URLs::შეამოწმეთ URL-ები
+Clear::წმინდა
+Clear EPG Cache::EPG ქეშის გასუფთავება
+Clear Filters::ფილტრების გასუფთავება
+Clear search::ძიების გასუფთავება
+Click for details::დააწკაპუნეთ დეტალებისთვის
+Close::დახურვა
+Close current playlist::მიმდინარე დასაკრავი სიის დახურვა
+Close Playlist::დასაკრავი სიის დახურვა
+Code::კოდი
+Code copied to clipboard.::კოდი დაკოპირებულია ბუფერში.
+Command name:::ბრძანების სახელი:
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::საზოგადოება და ტესტირება: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare::შეადარე
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::შედარება მიხედვით: პრიორიტეტი (სახელი→ ჯგუფი→tvg-id), სახელი, ჯგუფი (საქმეზე მგრძნობიარე) ან TvgId.
+Compare Playlists::შეადარეთ დასაკრავი სიები
+Compare two playlists – load first (current playlist) and second (from file or URL).::შეადარეთ ორი დასაკრავი სია – ჩატვირთეთ პირველი (მიმდინარე დასაკრავი სია) და მეორე (ფაილიდან ან URL-დან).
+Compare...::შეადარე...
+Comparison results: {0} channels::შედარების შედეგები: {0} არხი
+Configuration Missing::კონფიგურაცია აკლია
+Confirm Delete::დაადასტურეთ წაშლა
+Confirm Reload::დაადასტურეთ გადატვირთვა
+Connect::დაკავშირება
+Connected::დაკავშირებულია
+Copied::კოპირებულია
+Copy::კოპირება
+CORVOBOYS.ORG::CORVOBOYS.ORG
+Country::ქვეყანა
+Credits::კრედიტები
+Delete channel '{0}'?::წაშალოთ არხი „{0}“?
+Delete Group::ჯგუფის წაშლა
+Delete Selected::არჩეული წაშლა
+Deleted::წაშლილია
+Description::აღწერა
+Details::დეტალები
+Developed by Lululla::შემუშავებული Lululla-ს მიერ
+Developer: Lululla::შემქმნელი: Lululla
+Disconnect::გათიშვა
+Disconnected::გათიშულია
+Display as::ჩვენება როგორც
+Do you want to load this edited playlist now?::გსურთ ახლავე ჩატვირთოთ ეს რედაქტირებული დასაკრავი სია?
+Double speed (2x)::ორმაგი სიჩქარე (2x)
+Downloading playlist...::მიმდინარეობს დასაკრავი სიის ჩამოტვირთვა...
+Downloads ZIP, replaces files, restarts app – settings preserved.::ჩამოტვირთავს ZIP, ცვლის ფაილებს, გადატვირთავს აპს - პარამეტრები შენახულია.
+Drag & drop – drop M3U or JSON files directly onto main window.::გადაათრიეთ და ჩამოაგდეთ – ჩამოაგდეთ M3U ან JSON ფაილები პირდაპირ მთავარ ფანჯარაში.
+Drag to seek back in buffer::გადაიტანეთ ბუფერში უკან მოსაძებნად
+Duplicate URLs found:\n\n::ნაპოვნია დუბლიკატი URL:\n\n
+Edit Command::რედაქტირების ბრძანება
+Edit command name:::ბრძანების სახელის რედაქტირება:
+Edit Playlist::დასაკრავი სიის რედაქტირება
+Edit telnet command:::telnet ბრძანების რედაქტირება:
+Edit URLs::URL-ების რედაქტირება
+Empty Password::ცარიელი პაროლი
+End::დასასრული
+Enigma2::ენიგმა2
+Enrich with EPG::გამდიდრდით EPG-ით
+Enter bouquet name (without spaces):::შეიყვანეთ თაიგულის სახელი (სივრცის გარეშე):
+Enter JSON URL:::შეიყვანეთ JSON URL:
+Enter new group name:::შეიყვანეთ ახალი ჯგუფის სახელი:
+Enter playlist URL (JSON or M3U):::შეიყვანეთ დასაკრავი სიის URL (JSON ან M3U):
+Enter playlist URL (M3U or JSON):::შეიყვანეთ დასაკრავი სიის URL (M3U ან JSON):
+EPG::EPG
+Epg & Favorites::Epg & ფავორიტები
+EPG & Favorites::EPG და ფავორიტები
+Epg & Logos::EPG & ლოგოები
+EPG & Logos::EPG და ლოგოები
+EPG cache cleared successfully.::EPG ქეში წარმატებით გაიწმინდა.
+EPG Details::EPG დეტალები
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::EPG გზამკვლევი – მთავარ ინსტრუმენტთა პანელზე ღილაკი აჩვენებს სრულ ბადეს პროგრამის დეტალებით (დააწკაპუნეთ ორჯერ ინფორმაციისთვის).
+EPG Matching Threshold::EPG შესატყვისი ბარიერი
+EPG Source::EPG წყარო
+EPG source – can be set in Settings (epgshare01 or custom URL).::EPG წყარო – შეიძლება დაყენდეს პარამეტრებში (epgshare01 ან მორგებული URL).
+EPG source – choose XMLTV file or enter custom URL.::EPG წყარო – აირჩიეთ XMLTV ფაილი ან შეიყვანეთ მორგებული URL.
+EPG Source Missing::EPG წყარო დაკარგულია
+Error::შეცდომა
+Error clearing cache: {0}::შეცდომა ქეშის გასუფთავებისას: {0}
+Error loading::შეცდომა ჩატვირთვისას
+Error loading EPG list: {0}::შეცდომა EPG სიის ჩატვირთვისას: {0}
+Error loading file: {0}::შეცდომა ფაილის ჩატვირთვისას: {0}
+Error loading playlists: {0}::შეცდომა დასაკრავი სიების ჩატვირთვისას: {0}
+Error loading URL: {0}::შეცდომა URL-ის ჩატვირთვისას: {0}
+ERROR: player.html not found.::შეცდომა: player.html ვერ მოიძებნა.
+Exit::გასვლა
+Export all::ექსპორტი ყველა
+Export Favorites::რჩეულების ექსპორტი
+Export Filtered JSON::გაფილტრული JSON ექსპორტი
+Export Filtered M3U::გაფილტრული M3U ექსპორტი
+Export JSON::JSON-ის ექსპორტი
+Export KO::ექსპორტი KO
+Export missing::ექსპორტი აკლია
+Export OK::ექსპორტი OK
+Export only favorite channels to a new M3U file::მხოლოდ საყვარელი არხების ექსპორტი ახალ M3U ფაილში
+Export results as JSON or M3U – export missing channels or all channels.::შედეგების ექსპორტი JSON ან M3U სახით - დაკარგული არხების ან ყველა არხის ექსპორტი.
+Export selected::არჩეულია ექსპორტი
+Export Selected::არჩეულია ექსპორტი
+Exported::ექსპორტირებული
+Exported {0} channels to {1}::ექსპორტირებულია {0} არხი {1}-ში
+Extracting update...::მიმდინარეობს განახლების ამოღება...
+Failed to download playlist::დასაკრავი სიის ჩამოტვირთვა ვერ მოხერხდა
+Failed to load playlist::დასაკრავი სიის ჩატვირთვა ვერ მოხერხდა
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::bouquets.tv ვერ განახლდა. გთხოვთ, შეამოწმოთ ფაილის ნებართვები Enigma2 მოწყობილობაზე.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::თაიგულის ატვირთვა ვერ მოხერხდა. გთხოვთ, შეამოწმოთ თქვენი Telnet პარამეტრები (ჰოსტი, პორტი, მომხმარებლის სახელი, პაროლი) და სცადოთ ხელახლა.
+Favorite::საყვარელი
+Favorites::რჩეულები
+Favorites only::მხოლოდ რჩეულები
+Fetch Logos::ლოგოს მოტანა
+File::ფაილი
+File {0} already exists. Overwrite?::ფაილი {0} უკვე არსებობს. გადაწერა?
+File exists::ფაილი არსებობს
+Filters::ფილტრები
+Format Detection::ფორმატის ამოცნობა
+Fullscreen::სრული ეკრანი
+Fullscreen (hide UI) - press ESC to exit::სრული ეკრანი (დამალე UI) - დააჭირეთ ESC გასასვლელად
+Geo & Country::გეო და ქვეყანა
+GeoBlocked::GeoBlocked
+GitHub Error::GitHub შეცდომა
+Go back to live::დაბრუნდი საცხოვრებლად
+Grid::ბადე
+Group::ჯგუფი
+Half speed (0.5x)::ნახევრად სიჩქარე (0.5x)
+Help::დახმარება
+Hide List::სიის დამალვა
+HLS playback: hls.js (MIT license)::HLS დაკვრა: hls.js (MIT ლიცენზია)
+Image::გამოსახულება
+Import::იმპორტი
+Import cancelled or no channels mapped.::იმპორტი გაუქმდა ან არ არის დაფიქსირებული.
+Import Error::იმპორტის შეცდომა
+Import error: {0}::იმპორტის შეცდომა: {0}
+Import from URL::URL-დან იმპორტი
+Import JSON::JSON იმპორტი
+Import JSON from URL::JSON-ის იმპორტი URL-დან
+Import Local::ადგილობრივი იმპორტი
+Imported {0} channels from code.::იმპორტირებულია {0} არხი კოდიდან.
+Imported {0} channels from JSON via mapping.::იმპორტირებულია {0} არხი JSON-დან რუკების მეშვეობით.
+Imported {0} channels from URL.::იმპორტირებულია {0} არხი URL-დან.
+In Both::ორივეში
+Info::ინფორმაცია
+Info on::ინფორმაცია
+Invalid JSON: {0}::არასწორი JSON: {0}
+Invalid playlist URL.::დასაკრავი სიის URL არასწორია.
+Invalid URL.::არასწორი URL.
+Json::ჯსონ
+JSON::JSON
+JSON parsing error: {0}::JSON ანალიზების შეცდომა: {0}
+JSON Property::JSON საკუთრება
+Ko-fi::ყავა
+Language::ენა
+Language – change UI language dynamically (translations in Languages folder).::ენა – შეცვალეთ UI ენა დინამიურად (თარგმანი ენების საქაღალდეში).
+Languages::ენები
+Languages (comma)::ენები (მძიმით)
+LINUXSAT-SUPPORT.COM::LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help::LiveGardenTVPlus დახმარება
+LOAD::LOAD
+Load a playlist first.::ჯერ ჩატვირთეთ დასაკრავი სია.
+Load a second playlist first.::ჯერ ჩატვირთეთ მეორე დასაკრავი სია.
+Load File::ფაილის ჩატვირთვა
+Load from file...::ფაილიდან ჩატვირთვა...
+Load from URL::ჩატვირთვა URL-დან
+Load from URL...::URL-დან ჩატვირთვა...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::ჩატვირთეთ ადგილობრივი M3U/JSON ფაილი – ღილაკის „ჩატვირთვა ფაილის“ (ინსტრუმენტთა პანელი) ან „ფაილის გახსნა“ რედაქტორში.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::ჩატვირთეთ ონლაინ M3U/JSON URL – ღილაკი „ჩატვირთვა ონლაინ“ (ინსტრუმენტთა პანელი) ან „გახსნა URL-დან“ რედაქტორში.
+Load Playlist::დასაკრავი სიის ჩატვირთვა
+Load playlist file (M3U/JSON) from your computer::ჩატვირთეთ დასაკრავი სიის ფაილი (M3U/JSON) თქვენი კომპიუტერიდან
+Loaded::დატვირთული
+Loaded {0} channels from JSON file via mapping.::ჩაიტვირთა {0} არხი JSON ფაილიდან რუკების მეშვეობით.
+Loaded {0} channels from JSON URL.::ჩაიტვირთა {0} არხი JSON URL-დან.
+Loaded {0} channels from M3U file.::ჩაიტვირთა {0} არხი M3U ფაილიდან.
+Loaded {0} channels from M3U URL.::ჩაიტვირთა {0} არხი M3U URL-დან.
+Loading...::იტვირთება...
+Logo::ლოგო
+Logo Picker – in editor, click '...' to choose logo from gallery.::ლოგოს ამომრჩევი – რედაქტორში დააწკაპუნეთ „...“ გალერეიდან ლოგოს ასარჩევად.
+Logo Preview::ლოგოს გადახედვა
+Logo URL::ლოგოს URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).::ლოგოები – ავტომატურად ჩამოტვირთეთ GitHub საცავიდან (პარამეტრები → ლოგოს წყარო).
+Logos Matching Threshold::ლოგოს შესატყვისი ბარიერი
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::ლოგოს საცავი – აირჩიეთ მფლობელი/რეპო/გზა (ნაგულისხმევი OwnerPlugins/ლოგოები).
+Logos Source::ლოგოს წყარო
+Logos Subfolder::ლოგოს ქვესაქაღალდე
+M3U::M3U
+M3U parsing error: {0}::M3U ანალიზის შეცდომა: {0}
+Map JSON properties to channel fields:::JSON-ის თვისებების არხის ველებზე მორგება:
+Mapping saved for future imports of this file.::რუკა შენახულია ამ ფაილის მომავალი იმპორტისთვის.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::შესატყვისი ზღურბლები – დააყენეთ ბუნდოვანი შესატყვისობის მგრძნობელობა EPG-სთვის და ლოგოებისთვის.
+Mini Player::მინი მოთამაშე
+Move to Group::ჯგუფში გადასვლა
+Moved::გადავიდა
+Name::სახელი
+Nanoid::ნანოიდი
+Network error::ქსელის შეცდომა
+New Playlist::ახალი დასაკრავი სია
+Next::შემდეგი
+Next ▶::შემდეგი ▶
+No .m3u files found on GitHub repository.::GitHub საცავში .m3u ფაილები არ მოიძებნა.
+No cache folder found.::ქეშის საქაღალდე ვერ მოიძებნა.
+No channel selected::არხი არ არის არჩეული
+No channel selected.::არხი არ არის არჩეული.
+No channels could be mapped or import cancelled.::ვერცერთი არხი ვერ მოხერხდა ან იმპორტის გაუქმება.
+No channels could be mapped. Check your mapping rules.::ვერცერთი არხი ვერ მოხერხდა. შეამოწმეთ თქვენი რუკების წესები.
+No channels found in JSON.::JSON-ში არხები ვერ მოიძებნა.
+No channels found in M3U.::M3U-ში არხები ვერ მოიძებნა.
+No channels loaded from JSON URL.::JSON URL-დან არხი არ არის ჩატვირთული.
+No channels loaded from M3U URL.::M3U URL-დან არხი არ არის ჩატვირთული.
+No channels loaded from M3U.::M3U-დან არ არის ჩატვირთული.
+No channels loaded.::არხები არ არის ჩატვირთული.
+No channels mapped::არხები არ არის მითითებული
+No channels selected.::არ არის არჩეული.
+No channels to import.::იმპორტირებული არხები არ არის.
+No duplicate URLs found.::დუბლიკატი URL ვერ მოიძებნა.
+No EPG data::EPG მონაცემები არ არის
+No EPG information available for this channel.::ამ არხისთვის EPG ინფორმაცია არ არის ხელმისაწვდომი.
+No EPG source configured. Please select one from the combo or go to Settings.::EPG წყარო არ არის კონფიგურირებული. გთხოვთ, აირჩიოთ ერთი კომბინაციიდან ან გადადით პარამეტრებში.
+No EPG source configured. Would you like to open settings to select one?::EPG წყარო არ არის კონფიგურირებული. გსურთ გახსნათ პარამეტრები ერთის ასარჩევად?
+No favorite channels found.::საყვარელი არხები ვერ მოიძებნა.
+No favorite channels to export.::არ არის საყვარელი არხები ექსპორტისთვის.
+No missing channels to export.::არ არის დაკარგული არხები ექსპორტისთვის.
+No playlist found::დასაკრავი სია ვერ მოიძებნა
+No second playlist loaded.::მეორე დასაკრავი სია არ არის ჩატვირთული.
+No stream URL available for this channel.::ამ არხისთვის ნაკადის URL ხელმისაწვდომი არ არის.
+No text to import.::იმპორტისთვის ტექსტი არ არის.
+No updates available.::განახლებები არ არის ხელმისაწვდომი.
+Normal speed (1x)::ნორმალური სიჩქარე (1x)
+Not connected to the box.::არ არის დაკავშირებული ყუთთან.
+Now::ახლა
+OK::OK
+Online Playlist::ონლაინ დასაკრავი სია
+Online playlist – select from GitHub repository (auto‑refresh).::ონლაინ დასაკრავი სია – აირჩიეთ GitHub საცავიდან (ავტომატური განახლება).
+Only in First::მხოლოდ პირველში
+Only in Second::მხოლოდ მეორეში
+Open File...::გახსენით ფაილი...
+Open from URL::გახსენით URL-დან
+Open Playlist::გახსენით დასაკრავი სია
+Pause/Resume live stream::პირდაპირი სტრიმინგის შეჩერება/განახლება
+Paused::შეჩერდა
+PayPal::PayPal
+Picture-in-Picture mode::სურათის სურათის რეჟიმი
+Play/Pause::დაკვრა/პაუზა
+Player Media Controls::მოთამაშის მედია კონტროლი
+Playing Media::მედიის დაკვრა
+Playlist & Groups::დასაკრავი სია და ჯგუფები
+Playlist closed::დასაკრავი სია დაიხურა
+Playlist Comparison::დასაკრავი სიის შედარება
+Playlist Editor::დასაკრავი სიის რედაქტორი
+Playlist Loading::დასაკრავი სიის ჩატვირთვა
+Playlist Management::დასაკრავი სიის მართვა
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::დასაკრავი სიის საცავი: OwnerPlugins/TivuStreamList (იტალიური და საერთაშორისო ნაკადები)
+Please select a program first.::გთხოვთ, ჯერ აირჩიოთ პროგრამა.
+Preview (first 5 channels)::გადახედვა (პირველი 5 არხი)
+Preview error: {0}::გადახედვის შეცდომა: {0}
+Program Details::პროგრამის დეტალები
+Ready::მზადაა
+Recent::ბოლო
+Recent files – quick access to last 5 opened playlists.::ბოლო ფაილები – სწრაფი წვდომა ბოლო 5 გახსნილ დასაკრავ სიაზე.
+Recent playlists::ბოლო დასაკრავი სიები
+Refresh Code::განაახლეთ კოდი
+Refresh EPG::განაახლეთ EPG
+Refresh EPG List::განაახლეთ EPG სია
+Refresh from GitHub::განახლება GitHub-დან
+Refresh List::სიის განახლება
+Reload GUI::გადატვირთეთ GUI
+Remove Command::ამოიღეთ ბრძანება
+Rename Group::ჯგუფის გადარქმევა
+Rename group '{0}' to:::ჯგუფის „{0}“ სახელის გადარქმევა:
+Repository::საცავი
+Reset Order::შეკვეთის გადატვირთვა
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::შედეგები: 'მხოლოდ პირველში', 'მხოლოდ მეორეში', 'ორივეში' - სტატუსის ფერის კოდირებით.
+Save::შენახვა
+SAVE::შენახვა
+Save – persists all settings without reloading current playlist.::შენახვა – შენარჩუნებულია ყველა პარამეტრი მიმდინარე დასაკრავი სიის გადატვირთვის გარეშე.
+Save as...::შენახვა როგორც...
+Save current playlist to a new M3U file::შეინახეთ მიმდინარე დასაკრავი სია ახალ M3U ფაილში
+Save Favorites::რჩეულების შენახვა
+Save Mapping::რუკების შენახვა
+Save Playlist::დასაკრავი სიის შენახვა
+Save Status::სტატუსის შენახვა
+Saved::შენახულია
+Search channel::არხის ძიება
+Search channels by name::მოძებნეთ არხები სახელით
+Search channels...::არხების ძიება...
+sec::წმ
+Second playlist loaded: {0} channels::ჩაიტვირთა მეორე დასაკრავი სია: {0} არხი
+Select a channel to play.::აირჩიეთ არხი დასაკრავად.
+Select a playlist first.::ჯერ აირჩიეთ დასაკრავი სია.
+Select target group:::აირჩიეთ სამიზნე ჯგუფი:
+Select Theme::აირჩიეთ თემა
+Selected theme is saved and applied on restart.::არჩეული თემა ინახება და გამოიყენება გადატვირთვისას.
+Send::გაგზავნა
+Send playlist to Enigma2 decoder::გააგზავნეთ დასაკრავი სია Enigma2 დეკოდერში
+Send to Enigma2::გაგზავნეთ Enigma2-ზე
+Settings::პარამეტრები
+Show List::სიის ჩვენება
+Show only channels marked as favorites::აჩვენეთ მხოლოდ ფავორიტად მონიშნული არხები
+Show or hide the channel list::არხების სიის ჩვენება ან დამალვა
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::განსაკუთრებული მადლობა CORVOBOYS & LinuxSat-Support საზოგადოებებს ტესტირებისა და მხარდაჭერისთვის.
+Start::დაწყება
+Status::სტატუსი
+Stop::გაჩერდი
+Stopped::გაჩერდა
+Stream URL::ნაკადის URL
+Stream URLs::სტრიმინგის URL-ები
+Success::წარმატებები
+Support::მხარდაჭერა
+Support the developer::მხარი დაუჭირეთ დეველოპერს
+Target Field::სამიზნე ველი
+Telnet command:::Telnet ბრძანება:
+Telnet Commander::ტელნეტის მეთაური
+Telnet Config::ტელნეტის კონფიგურაცია
+Telnet Configuration::ტელნეტის კონფიგურაცია
+Telnet Console::Telnet კონსოლი
+Telnet host not configured. Please set it in Settings.::Telnet ჰოსტი არ არის კონფიგურირებული. გთხოვთ, დააყენოთ ის პარამეტრებში.
+Telnet password is empty. Do you want to continue?::Telnet პაროლი ცარიელია. გსურთ გაგრძელება?
+Telnet username not configured. Please set it in Settings.::Telnet მომხმარებლის სახელი არ არის კონფიგურირებული. გთხოვთ, დააყენოთ ის პარამეტრებში.
+Thanks to::მადლობა
+Theme picker::თემის ამომრჩევი
+Theme picker – accessible via Tools menu on main toolbar.::თემის ამომრჩევი – ხელმისაწვდომია ინსტრუმენტების მენიუდან მთავარ პანელზე.
+Themes::თემები
+Time::დრო
+Title::სათაური
+Tools::ხელსაწყოები
+Total::სულ
+Total channels in loaded playlist::სულ არხები ჩატვირთულ დასაკრავ სიაში
+TV Guide (EPG)::სატელევიზიო გზამკვლევი (EPG)
+TvgId::TvgId
+Type channel name to filter::ჩაწერეთ არხის სახელი გასაფილტრად
+UI: MaterialDesignThemes.Wpf::UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::ფორმატის ავტომატური ამოცნობა შეუძლებელია. გთხოვთ, აირჩიოთ JSON ან M3U ჩამოსაშლელი მენიუდან და სცადოთ ხელახლა.
+Unable to find version in remote project file.::დისტანციური პროექტის ფაილში ვერსიის პოვნა შეუძლებელია.
+Unsupported format. Please select JSON or M3U.::მხარდაუჭერელი ფორმატი. გთხოვთ, აირჩიოთ JSON ან M3U.
+Update::განახლება
+Update complete. Restarting...::განახლება დასრულდა. გადატვირთვა...
+Update Error::განახლების შეცდომა
+Update failed: ::განახლება ვერ მოხერხდა:
+Updated::განახლებულია
+Updates::განახლებები
+Upload Error::ატვირთვის შეცდომა
+URL::URL
+URL (primary)::URL (ძირითადი)
+URL Check::URL შემოწმება
+URL list (one per line)::URL სია (თითო სტრიქონზე)
+URLs & Status::URL და სტატუსი
+Version::ვერსია
+Version {0}.{1}.{2}::ვერსია {0}.{1}.{2}
+Version unknown::ვერსია უცნობია
+Waiting for LiveGardenTVPlus to close...::ველოდები LiveGardenTVPlus-ის დახურვას...
+Warning::გაფრთხილება
+WebView2: Microsoft Edge WebView2::WebView2: Microsoft Edge WebView2
+Youtube URL::Youtube URL
+Youtube URLs::Youtube URL-ები

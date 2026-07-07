@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): （完全自願 - 沒有任何功能被阻止）
-(No description): （無描述）
-• Add / rename / delete groups.: • 新增/重新命名/刪除群組。
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • 緩衝區滑桿：調整HLS 緩衝區（1-10 秒）。
-• Check URL availability (only visible channels).: • 檢查URL 可用性（僅限可見頻道）。
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • 編輯頻道名稱、群組、URL、標誌、tvg-id、國家/地區、語言、收藏。
-• Edit multiple URLs per channel (popup window).: • 編輯每個頻道的多個URL（彈出視窗）。
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • 豐富EPG：使用模糊配對加入缺少的tvg-id。
-• EPG info displayed in status bar for current channel.: • 在目前頻道的狀態列中顯示EPG 資訊。
-• Export OK / FAIL / filtered lists as M3U or JSON.: • 將OK/FAIL/過濾清單匯出為M3U 或JSON。
-• Fetch logos from remote repository (OwnerPlugins/logos).: • 從遠端儲存庫取得標誌（OwnerPlugins/logos）。
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • 全螢幕UI：隱藏側邊欄和狀態列（ESC 退出）。
-• Hide/Show channel list button.: • 隱藏/顯示頻道清單按鈕。
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • 透過靈活的欄位對應（自動偵測、儲存對應）匯入JSON（本地或URL）。
-• Picture‑in‑Picture (PIP) button.: • 畫中畫(PIP) 按鈕。
-• Playback speed: 0.5x, 1x, 2x buttons.: • 播放速度：0.5x、1x、2x 按鈕。
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • 透過點選標題對任何欄位進行排序；使用「重設訂單」還原到原始訂單。
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • 時移：暫停直播；拖曳滑桿向後尋找；按「即時」返回。
-▶ Play Media: ▶ 播放媒體
-◀ Previous: ◀ 上一頁
-16 colour themes + Light/Dark variants.: 16 種顏色主題 + 淺色/深色變體。
-A new version is available. Do you want to update now?: 有新版本可用。您想現在更新嗎？
-Access via 'Compare' button in Playlist Editor or Tools menu.: 透過播放清單編輯器或工具選單中的「比較」按鈕進行存取。
-Access via 'Edit Playlist' button on main toolbar.: 透過主工具列上的「編輯播放清單」按鈕存取。
-Actions: 行動
-Add Command: 新增命令
-Add Group: 新增群組
-Add Mapping: 新增映射
-Adjust buffer size (1-10 seconds): 調整緩衝區大小（1-10秒）
-Advanced IDs: 進階 ID
-Application status: 申請狀態
-Apply: 申請
-Apply / Import: 申請/導入
-Apply changes: 應用程式變更
-Apply Filters: 應用過濾器
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: 您確定要重新載入 Enigma2 GUI 嗎？ \n\n介面將重新啟動（黑屏幾秒鐘）。
-Auto (recommended): 自動（建議）
-Auto-detect: 自動偵測
-Automatic check on startup – or click 'Check for updates' in Tools menu.: 啟動時自動檢查 – 或點選「工具」選單中的「檢查更新」。
-Bouquet Name: 花束名稱
-Bouquet sent and Enigma2 channel list reloaded.: 花束已發送，Enigma2 頻道清單已重新載入。
-Buffer (seconds): 緩衝區（秒）
-Buffer size – adjust HLS buffer seconds.: 緩衝區大小 – 調整 HLS 緩衝區秒數。
-Cache: 快取
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: 快取資料夾：%TEMP%\\LiveGardenTVPlus\\epg_cache
-Cancel: 取消
-CANCEL: 取消
-Cannot open browser: 無法開啟瀏覽器
-Category: 類別
-Changelog: 變更日誌
-Channel Details: 頻道詳情
-Channel Down: 向下頻道
-Channel Info: 頻道資訊
-Channel Name: 頻道名稱
-Channel Up: 頻道向上
-channels from: 頻道來自
-channels from JSON: 來自 JSON 的通道
-channels from JSON URL: 來自 JSON URL 的頻道
-channels from URL: 來自 URL 的頻道
-Check Duplicates: 檢查重複項
-Check for updates: 檢查更新
-Check URLs: 檢查網址
-Clear: 清除
-Clear EPG Cache: 清除 EPG 緩存
-Clear Filters: 清除過濾器
-Clear search: 清除搜尋
-Click for details: 點擊看詳情
-Close: 關閉
-Code: 程式碼
-Code copied to clipboard.: 代碼已複製到剪貼簿。
-Command name:: 命令名稱：
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: 社群與測驗：CorvoBoys (corvoboys.org) 和 LinuxSat-Support.com
-Compare: 比較
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: 比較依據：優先權（名稱→群組→tvg-id）、名稱、群組（區分大小寫）或 TvgId。
-Compare Playlists: 比較播放列表
-Compare two playlists – load first (current playlist) and second (from file or URL).: 比較兩個播放清單 – 載入第一個（目前播放清單）和第二個（從檔案或 URL）。
-Compare...: 比較...
-Comparison results: {0} channels: 比較結果：{0} 個通道
-Configuration Missing: 配置缺失
-Confirm Delete: 確認刪除
-Confirm Reload: 確認重新加載
-Connect: 連接
-Connected: 已連接
-Copied: 已複製
-Copy: 複製
-CORVOBOYS.ORG: CORVOBOYS.ORG
-Country: 國家
-Credits: 製作人員
-Delete channel '{0}'?: 刪除頻道“{0}”？
-Delete Group: 刪除群組
-Delete Selected: 刪除所選內容
-Deleted: 已刪除
-Description: 描述
-Details: 細節
-Developed by Lululla: 由 盧魯拉 開發
-Developer: Lululla: 開發商： 露露拉
-Disconnect: 斷開
-Disconnected: 已斷開連接
-Display as: : 顯示為：
-Do you want to load this edited playlist now?: 您想立即載入這個編輯過的播放清單嗎？
-Double speed (2x): 雙倍速度 (2x)
-Downloading playlist...: 正在下載播放清單...
-Downloads ZIP, replaces files, restarts app – settings preserved.: 下載 ZIP、替換檔案、重新啟動應用程式 – 保留設定。
-Drag & drop – drop M3U or JSON files directly onto main window.: 拖放 – 將 M3U 或 JSON 檔案直接拖曳到主視窗上。
-Drag to seek back in buffer: 拖曳以在緩衝區中向後查找
-Duplicate URLs found:\n\n: 發現重複的 URL:\n\n
-Edit Command: 編輯命令
-Edit command name:: 編輯命令名稱：
-Edit Playlist: 編輯播放列表
-Edit telnet command:: 編輯telnet指令：
-Edit URLs: 編輯網址
-Empty Password: 密碼為空
-End: 結尾
-Enrich with EPG: 透過 EPG 豐富內容
-Enter bouquet name (without spaces):: 輸入花束名稱（不含空格）：
-Enter JSON URL:: 輸入 JSON 網址：
-Enter new group name:: 輸入新群組名稱：
-Enter playlist URL (JSON or M3U):: 輸入播放清單 URL（JSON 或 M3U）：
-Enter playlist URL (M3U or JSON):: 輸入播放清單 URL（M3U 或 JSON）：
-EPG: 電子節目指南
-Epg & Favorites: EPG 和收藏夾
-EPG & Favorites: 電子節目指南和收藏夾
-Epg & Logos: EPG 和標誌
-EPG & Logos: 電子節目指南和徽標
-EPG cache cleared successfully.: EPG 快取清除成功。
-EPG Details: 電子節目指南詳情
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG 指南 – 主工具列上的按鈕顯示包含節目詳細資訊的完整網格（雙擊檢視資訊）。
-EPG Matching Threshold: EPG匹配閾值
-EPG Source: : 電子節目指南來源：
-EPG source – can be set in Settings (epgshare01 or custom URL).: EPG 來源 – 可以在「設定」中設定（epgshare01 或自訂 URL）。
-EPG source – choose XMLTV file or enter custom URL.: EPG 來源 – 選擇 XMLTV 檔案或輸入自訂 URL。
-EPG Source Missing: EPG 來源遺失
-Error: 錯誤
-Error clearing cache: {0}: 清除快取時出錯：{0}
-Error loading: 載入錯誤
-Error loading EPG list: {0}: 載入 EPG 清單時發生錯誤：{0}
-Error loading file: {0}: 載入檔案時發生錯誤：{0}
-Error loading playlists: {0}: 載入播放清單時發生錯誤：{0}
-Error loading URL: {0}: 載入網址時發生錯誤：{0}
-ERROR: player.html not found.: 錯誤：找不到player.html。
-Exit: 出口
-Export all: 全部導出
-Export Favorites: 匯出收藏夾
-Export Filtered JSON: 匯出過濾後的 JSON
-Export Filtered M3U: 匯出過濾後的 M3U
-Export JSON: 導出 JSON
-Export KO: 出口KO
-Export missing: 導出缺失
-Export OK: 導出確定
-Export only favorite channels to a new M3U file: 僅將喜愛的頻道匯出到新的 M3U 文件
-Export results as JSON or M3U – export missing channels or all channels.: 將結果匯出為 JSON 或 M3U – 匯出缺失通道或所有通道。
-Export selected: 導出選定的
-Export Selected: 匯出選定的內容
-Exported: 出口
-Exported {0} channels to {1}: 已將 {0} 個頻道匯出到 {1}
-Extracting update...: 正在提取更新...
-Failed to download playlist: 下載播放清單失敗
-Failed to load playlist: 無法載入播放列表
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: 無法更新 bouquets.tv。請檢查 Enigma2 設備上的檔案權限。
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: 上傳花束失敗。請檢查您的 Telnet 設定（主機、連接埠、使用者名稱、密碼），然後重試。
-Favorite: 最喜歡的
-Favorites only: 僅限收藏夾
-Fetch Logos: 取得徽標
-File {0} already exists. Overwrite?: 文件 {0} 已存在。覆蓋？
-File exists: 文件存在
-Filters: 過濾器
-Format Detection: 格式檢測
-Fullscreen: 全螢幕
-Fullscreen (hide UI) - press ESC to exit: 全螢幕（隱藏 UI）- 按 ESC 退出
-Geo & Country: 地理和國家
-GeoBlocked: 地理封鎖
-GitHub Error: GitHub 錯誤
-Go back to live: 回去住
-Grid: 網格
-Group: 團體
-Half speed (0.5x): 半速 (0.5x)
-Help: 幫助
-Hide List: 隱藏清單
-HLS playback: hls.js (MIT license): HLS 播放：hls.js（MIT 授權）
-Image: 影像
-Import: 進口
-Import cancelled or no channels mapped.: 匯入已取消或未映射通道。
-Import Error: 導入錯誤
-Import error: {0}: 導入錯誤：{0}
-Import from URL: 從 URL 匯入
-Import JSON: 導入 JSON
-Import JSON from URL: 從 URL 匯入 JSON
-Import Local: 導入本地
-Imported {0} channels from code.: 從程式碼匯入了 {0} 個頻道。
-Imported {0} channels from JSON via mapping.: 透過映射從 JSON 導入了 {0} 個頻道。
-Imported {0} channels from URL.: 已從 URL 匯入 {0} 個頻道。
-In Both: 在兩者中
-Info: 資訊
-Info on: 資訊關於
-Invalid JSON: {0}: JSON 無效：{0}
-Invalid playlist URL.: 播放清單 URL 無效。
-Invalid URL.: 無效網址。
-Json: 傑森
-JSON: JSON
-JSON parsing error: {0}: JSON 解析錯誤：{0}
-JSON Property: JSON 屬性
-Ko-fi: 咖啡
-Language: 語言
-Language – change UI language dynamically (translations in Languages folder).: 語言 – 動態變更 UI 語言（語言資料夾中的翻譯）。
-Languages: 語言
-Languages (comma): 語言（逗號）
-LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help: LiveGardenTVPlus 幫助
-LOAD: 載入
-Load a playlist first.: 首先載入播放清單。
-Load a second playlist first.: 首先載入第二個播放清單。
-Load File: 載入文件
-Load from file...: 從檔案加載...
-Load from URL: 從 URL 載入
-Load from URL...: 從 URL 載入...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: 載入本機 M3U/JSON 檔案 - 透過編輯器中的「載入檔案」按鈕（工具列）或「開啟檔案」。
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: 載入線上 M3U/JSON URL – 編輯器中的「載入線上」按鈕（工具列）或「從 URL 開啟」。
-Load playlist file (M3U/JSON) from your computer: 從您的電腦載入播放清單檔案 (M3U/JSON)
-Loaded: 已載入
-Loaded {0} channels from JSON file via mapping.: 已透過映射從 JSON 檔案載入 {0} 個頻道。
-Loaded {0} channels from JSON URL.: 已從 JSON URL 載入 {0} 個頻道。
-Loaded {0} channels from M3U file.: 已從 M3U 檔案載入 {0} 個頻道。
-Loaded {0} channels from M3U URL.: 已從 M3U URL 載入 {0} 個頻道。
-Loading...: 載入中...
-Logo: 標識
-Logo Picker – in editor, click '...' to choose logo from gallery.: 標誌選擇器 - 在編輯器中，按一下「...」從圖庫中選擇徽標。
-Logo Preview: 標誌預覽
-Logo URL: 標誌網址
-Logos – automatically download from GitHub repository (Settings → Logos Source).: 標誌 – 自動從 GitHub 儲存庫下載（設定 → 標誌來源）。
-Logos Matching Threshold: 徽標匹配閾值
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: 標誌儲存庫 – 選擇擁有者/儲存庫/路徑（預設 OwnerPlugins/標誌）。
-Logos Source: 標誌來源
-Logos Subfolder: 標誌子資料夾
-M3U: M3U
-M3U parsing error: {0}: M3U 解析錯誤：{0}
-Map JSON properties to channel fields:: 將 JSON 屬性對應到通道欄位：
-Mapping saved for future imports of this file.: 儲存映射以供將來匯入該文件。
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: 匹配閾值 – 設定 EPG 和標誌的模糊匹配敏感度。
-Mini Player: 迷你播放器
-Move to Group: 移至群組
-Moved: 搬家了
-Name: 姓名
-Nanoid: 奈米機器人
-Network error: 網路錯誤
-New Playlist: 新播放列表
-Next: 下一個
-Next ▶: 下一頁 ▶
-No .m3u files found on GitHub repository.: 在 GitHub 儲存庫上找不到 .m3u 檔案。
-No cache folder found.: 未找到快取資料夾。
-No channel selected: 未選擇頻道
-No channels could be mapped or import cancelled.: 無法映射任何通道或取消導入。
-No channels could be mapped. Check your mapping rules.: 無法映射任何頻道。檢查您的映射規則。
-No channels found in JSON.: 在 JSON 中找不到頻道。
-No channels found in M3U.: M3U 中找不到頻道。
-No channels loaded from JSON URL.: 沒有從 JSON URL 載入頻道。
-No channels loaded from M3U URL.: 沒有從 M3U URL 載入頻道。
-No channels loaded from M3U.: 沒有從 M3U 載入頻道。
-No channels loaded.: 未加載頻道。
-No channels mapped: 沒有映射頻道
-No channels selected.: 未選擇頻道。
-No channels to import.: 沒有頻道導入。
-No duplicate URLs found.: 未發現重複的 URL。
-No EPG data: 無 EPG 數據
-No EPG information available for this channel.: 該頻道沒有可用的 EPG 資訊。
-No EPG source configured. Please select one from the combo or go to Settings.: 未配置 EPG 源。請從組合中選擇一項或前往「設定」。
-No EPG source configured. Would you like to open settings to select one?: 未配置 EPG 源。您想開啟設定來選擇一項嗎？
-No favorite channels to export.: 沒有可匯出的喜愛頻道。
-No missing channels to export.: 不缺少導出管道。
-No playlist found: 未找到播放列表
-No second playlist loaded.: 未載入第二個播放清單。
-No stream URL available for this channel.: 該頻道沒有可用的串流 URL。
-No text to import.: 沒有要導入的文字。
-No updates available.: 沒有可用的更新。
-Normal speed (1x): 正常速度 (1x)
-Not connected to the box.: 未連接到盒子。
-Now: 現在
-OK: 好的
-Online Playlist: 線上播放列表
-Online playlist – select from GitHub repository (auto‑refresh).: 線上播放清單 – 從 GitHub 儲存庫中選擇（自動刷新）。
-Only in First: 僅在第一
-Only in Second: 僅在第二個
-Open File...: 開啟檔案...
-Open from URL: 從網址開啟
-Open Playlist: 開啟播放清單
-Pause/Resume live stream: 暫停/恢復直播
-Paused: 已暫停
-PayPal: 貝寶
-Picture-in-Picture mode: 畫中畫模式
-Play/Pause: 播放/暫停
-Player Media Controls: 播放器媒體控制
-Playing Media: 播放媒體
-Playlist & Groups: 播放清單和群組
-Playlist Comparison: 播放清單比較
-Playlist Editor: 播放清單編輯器
-Playlist Loading: 播放清單載入
-Playlist Management: 播放清單管理
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): 播放清單儲存庫：OwnerPlugins/TivuStreamList（義大利和國際串流）
-Please select a program first.: 請先選擇一個程序。
-Preview (first 5 channels): 預覽（前 5 個頻道）
-Preview error: {0}: 預覽錯誤：{0}
-Program Details: 計劃詳情
-Ready: 準備好
-Ready.: 準備好。
-Recent: 最近的
-Recent files – quick access to last 5 opened playlists.: 最近的檔案 – 快速存取最近開啟的 5 個播放清單。
-Recent playlists: 最近的播放清單
-Refresh Code: 重新整理程式碼
-Refresh EPG: 重新整理電子節目表
-Refresh EPG List: 刷新EPG列表
-Refresh from GitHub: 從 GitHub 刷新
-Refresh List: 重新整理清單
-Reload GUI: 重新載入圖形使用者介面
-Remove Command: 刪除命令
-Rename Group: 重新命名群組
-Rename group '{0}' to:: 將群組「{0}」重新命名為：
-Repository: 儲存庫
-Reset Order: 重置訂單
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: 結果：「僅在第一個」、「僅在第二個」、「在兩個」－帶有狀態顏色編碼。
-Save: 節省
-SAVE: 節省
-Save – persists all settings without reloading current playlist.: 儲存 – 保留所有設定而不重新載入目前播放清單。
-Save as...: 另存為...
-Save current playlist to a new M3U file: 將目前播放清單儲存到新的 M3U 文件
-Save Mapping: 儲存映射
-Save Playlist: 儲存播放列表
-Save Status: 保存狀態
-Saved: 已儲存
-Search channel: : 搜尋頻道：
-Search channels by name: 按名稱搜尋頻道
-Search channels...: 搜尋頻道...
-sec: 秒
-Second playlist loaded: {0} channels: 已載入第二個播放清單：{0} 個頻道
-Select a channel to play.: 選擇要播放的頻道。
-Select a playlist first.: 首先選擇一個播放清單。
-Select target group:: 選擇目標群體：
-Select Theme: 選擇主題
-Selected theme is saved and applied on restart.: 所選主題將被儲存並在重新啟動時套用。
-Send: 傳送
-Send playlist to Enigma2 decoder: 將播放清單傳送至 Enigma2 解碼器
-Send to Enigma2: 發送至 Enigma2
-Settings: 設定
-Show List: 顯示清單
-Show only channels marked as favorites: 僅顯示標記為收藏的頻道
-Show or hide the channel list: 顯示或隱藏頻道列表
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: 特別感謝 CORVOBOYS 和 LinuxSat 支援社群的測試和支援。
-Start: 開始
-Status: 地位
-Stop: 停止
-Stopped: 已停止
-Stream URL: 串流網址
-Stream URLs: 串流媒體 URL
-Success: 成功
-Support: 支援
-Support the developer: 支持開發商
-Target Field: 目標領域
-Telnet command:: 遠端登入命令：
-Telnet Commander: 遠端登入指揮官
-Telnet Config: 遠端登入配置
-Telnet Console: 遠端登入控制台
-Telnet host not configured. Please set it in Settings.: Telnet 主機未配置。請在“設定”中進行設定。
-Telnet password is empty. Do you want to continue?: Telnet 密碼為空。您想繼續嗎？
-Telnet username not configured. Please set it in Settings.: Telnet 使用者名稱未配置。請在“設定”中進行設定。
-Thanks to: 由於
-Theme picker: 主題選擇器
-Theme picker – accessible via Tools menu on main toolbar.: 主題選擇器 - 可透過主工具列上的「工具」功能表存取。
-Themes: 主題
-Time: 時間
-Title: 標題
-Tools: 工具
-Total: 全部的
-Total channels in loaded playlist: 載入的播放清單中的頻道總數
-TV Guide (EPG): 電視指南 (EPG)
-TvgId: 電視識別符
-Type channel name to filter: 輸入要過濾的頻道名稱
-UI: MaterialDesignThemes.Wpf: 使用者介面：MaterialDesignThemes.Wpf
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: 無法自動檢測格式。請從下拉清單中選擇 JSON 或 M3U，然後重試。
-Unable to find version in remote project file.: 無法在遠端專案文件中找到版本。
-Unsupported format. Please select JSON or M3U.: 不支援的格式。請選擇 JSON 或 M3U。
-Update: 更新
-Update complete. Restarting...: 更新完成。正在重新啟動...
-Update Error: 更新錯誤
-Update failed: : 更新失敗：
-Updates: 更新
-Upload Error: 上傳錯誤
-URL: 網址
-URL (primary): 網址（主要）
-URL Check: 網址檢查
-URL list (one per line): URL 清單（每行一個）
-URLs & Status: URL 和狀態
-Version: 版本
-Version {0}.{1}.{2}: 版本 {0}.{1}.{2}
-Version unknown: 版本未知
-Waiting for LiveGardenTVPlus to close...: 正在等待 LiveGardenTVPlus 關閉...
-Warning: 警告
-WebView2: Microsoft Edge WebView2: WebView2：Microsoft Edge WebView2
-Youtube URL: Youtube 網址
-Youtube URLs: Youtube 網址
+(Completely voluntary – no features are blocked)::（完全自願 - 沒有任何功能被阻止）
+(No description)::（無描述）
+• Add / rename / delete groups.::• 新增/重新命名/刪除群組。
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• 緩衝區滑桿：調整HLS 緩衝區（1-10 秒）。
+• Check URL availability (only visible channels).::• 檢查URL 可用性（僅限可見頻道）。
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• 編輯頻道名稱、群組、URL、標誌、tvg-id、國家/地區、語言、收藏。
+• Edit multiple URLs per channel (popup window).::• 編輯每個頻道的多個URL（彈出視窗）。
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• 豐富EPG：使用模糊配對加入缺少的tvg-id。
+• EPG info displayed in status bar for current channel.::• 在目前頻道的狀態列中顯示EPG 資訊。
+• Export OK / FAIL / filtered lists as M3U or JSON.::• 將OK/FAIL/過濾清單匯出為M3U 或JSON。
+• Fetch logos from remote repository (OwnerPlugins/logos).::• 從遠端儲存庫取得標誌（OwnerPlugins/logos）。
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• 全螢幕UI：隱藏側邊欄和狀態列（ESC 退出）。
+• Hide/Show channel list button.::• 隱藏/顯示頻道清單按鈕。
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• 透過靈活的欄位對應（自動偵測、儲存對應）匯入JSON（本地或URL）。
+• Picture‑in‑Picture (PIP) button.::• 畫中畫(PIP) 按鈕。
+• Playback speed: 0.5x, 1x, 2x buttons.::• 播放速度：0.5x、1x、2x 按鈕。
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• 透過點選標題對任何欄位進行排序；使用「重設訂單」還原到原始訂單。
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• 時移：暫停直播；拖曳滑桿向後尋找；按「即時」返回。
+▶ Play Media::▶ 播放媒體
+◀ Previous::◀ 上一頁
+16 colour themes + Light/Dark variants.::16 種顏色主題 + 淺色/深色變體。
+A new version is available. Do you want to update now?::有新版本可用。您想現在更新嗎？
+Access via 'Compare' button in Playlist Editor or Tools menu.::透過播放清單編輯器或工具選單中的「比較」按鈕進行存取。
+Access via 'Edit Playlist' button on main toolbar.::透過主工具列上的「編輯播放清單」按鈕存取。
+Actions::行動
+Add Command::新增命令
+Add Group::新增群組
+Add Mapping::新增映射
+Adjust buffer size (1-10 seconds)::調整緩衝區大小（1-10秒）
+Advanced IDs::進階 ID
+All channels marked as favorites::所有頻道都標記為收藏夾
+All favorites removed::所有收藏夾均已刪除
+Application status::申請狀態
+Apply::申請
+Apply / Import::申請/導入
+Apply changes::應用程式變更
+Apply Filters::應用過濾器
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::您確定要重新載入 Enigma2 GUI 嗎？ \n\n介面將重新啟動（黑屏幾秒鐘）。
+Auto (recommended)::自動（建議）
+Auto-detect::自動偵測
+Automatic check on startup – or click 'Check for updates' in Tools menu.::啟動時自動檢查 – 或點選「工具」選單中的「檢查更新」。
+Bouquet Name::花束名稱
+Bouquet sent and Enigma2 channel list reloaded.::花束已發送，Enigma2 頻道清單已重新載入。
+Buffer (seconds)::緩衝區（秒）
+Buffer size – adjust HLS buffer seconds.::緩衝區大小 – 調整 HLS 緩衝區秒數。
+Cache::快取
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::快取資料夾：%TEMP%\\LiveGardenTVPlus\\epg_cache
+Cancel::取消
+CANCEL::取消
+Cannot open browser::無法開啟瀏覽器
+Category::類別
+Changelog::變更日誌
+Channel Details::頻道詳情
+Channel Down::向下頻道
+Channel Info::頻道資訊
+Channel Name::頻道名稱
+Channel Up::頻道向上
+Channel updated successfully.::頻道更新成功。
+channels from::頻道來自
+channels from JSON::來自 JSON 的通道
+channels from JSON URL::來自 JSON URL 的頻道
+channels from URL::來自 URL 的頻道
+Check Duplicates::檢查重複項
+Check for updates::檢查更新
+Check URLs::檢查網址
+Clear::清除
+Clear EPG Cache::清除 EPG 緩存
+Clear Filters::清除過濾器
+Clear search::清除搜尋
+Click for details::點擊看詳情
+Close::關閉
+Close current playlist::關閉目前播放列表
+Close Playlist::關閉播放清單
+Code::程式碼
+Code copied to clipboard.::代碼已複製到剪貼簿。
+Command name:::命令名稱：
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::社群與測驗：CorvoBoys (corvoboys.org) 和 LinuxSat-Support.com
+Compare::比較
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::比較依據：優先權（名稱→群組→tvg-id）、名稱、群組（區分大小寫）或 TvgId。
+Compare Playlists::比較播放列表
+Compare two playlists – load first (current playlist) and second (from file or URL).::比較兩個播放清單 – 載入第一個（目前播放清單）和第二個（從檔案或 URL）。
+Compare...::比較...
+Comparison results: {0} channels::比較結果：{0} 個通道
+Configuration Missing::配置缺失
+Confirm Delete::確認刪除
+Confirm Reload::確認重新加載
+Connect::連接
+Connected::已連接
+Copied::已複製
+Copy::複製
+CORVOBOYS.ORG::CORVOBOYS.ORG
+Country::國家
+Credits::製作人員
+Delete channel '{0}'?::刪除頻道“{0}”？
+Delete Group::刪除群組
+Delete Selected::刪除所選內容
+Deleted::已刪除
+Description::描述
+Details::細節
+Developed by Lululla::由 盧魯拉 開發
+Developer: Lululla::開發商： 露露拉
+Disconnect::斷開
+Disconnected::已斷開連接
+Display as::顯示為
+Do you want to load this edited playlist now?::您想立即載入這個編輯過的播放清單嗎？
+Double speed (2x)::雙倍速度 (2x)
+Downloading playlist...::正在下載播放清單...
+Downloads ZIP, replaces files, restarts app – settings preserved.::下載 ZIP、替換檔案、重新啟動應用程式 – 保留設定。
+Drag & drop – drop M3U or JSON files directly onto main window.::拖放 – 將 M3U 或 JSON 檔案直接拖曳到主視窗上。
+Drag to seek back in buffer::拖曳以在緩衝區中向後查找
+Duplicate URLs found:\n\n::發現重複的 URL:\n\n
+Edit Command::編輯命令
+Edit command name:::編輯指令名稱：
+Edit Playlist::編輯播放清單
+Edit telnet command:::編輯telnet指令：
+Edit URLs::編輯網址
+Empty Password::密碼為空
+End::結尾
+Enigma2::謎2
+Enrich with EPG::透過 EPG 豐富內容
+Enter bouquet name (without spaces):::輸入花束名稱（不含空格）：
+Enter JSON URL:::輸入 JSON 網址：
+Enter new group name:::輸入新群組名稱：
+Enter playlist URL (JSON or M3U):::輸入播放清單 URL（JSON 或 M3U）：
+Enter playlist URL (M3U or JSON):::輸入播放清單 URL（M3U 或 JSON）：
+EPG::電子節目指南
+Epg & Favorites::EPG 和收藏夾
+EPG & Favorites::電子節目指南和收藏夾
+Epg & Logos::EPG 和標誌
+EPG & Logos::電子節目指南和徽標
+EPG cache cleared successfully.::EPG 快取清除成功。
+EPG Details::電子節目指南詳情
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::EPG 指南 – 主工具列上的按鈕顯示包含節目詳細資訊的完整網格（雙擊檢視資訊）。
+EPG Matching Threshold::EPG匹配閾值
+EPG Source::電子節目指南來源
+EPG source – can be set in Settings (epgshare01 or custom URL).::EPG 來源 – 可以在「設定」中設定（epgshare01 或自訂 URL）。
+EPG source – choose XMLTV file or enter custom URL.::EPG 來源 – 選擇 XMLTV 檔案或輸入自訂 URL。
+EPG Source Missing::EPG 來源遺失
+Error::錯誤
+Error clearing cache: {0}::清除快取時出錯：{0}
+Error loading::載入錯誤
+Error loading EPG list: {0}::載入 EPG 清單時發生錯誤：{0}
+Error loading file: {0}::載入檔案時發生錯誤：{0}
+Error loading playlists: {0}::載入播放清單時發生錯誤：{0}
+Error loading URL: {0}::載入網址時發生錯誤：{0}
+ERROR: player.html not found.::錯誤：找不到player.html。
+Exit::出口
+Export all::全部導出
+Export Favorites::匯出收藏夾
+Export Filtered JSON::匯出過濾後的 JSON
+Export Filtered M3U::匯出過濾後的 M3U
+Export JSON::導出 JSON
+Export KO::出口KO
+Export missing::導出缺失
+Export OK::導出確定
+Export only favorite channels to a new M3U file::僅將喜愛的頻道匯出到新的 M3U 文件
+Export results as JSON or M3U – export missing channels or all channels.::將結果匯出為 JSON 或 M3U – 匯出缺失通道或所有通道。
+Export selected::導出選定的
+Export Selected::匯出選定的內容
+Exported::出口
+Exported {0} channels to {1}::已將 {0} 個頻道匯出到 {1}
+Extracting update...::正在提取更新...
+Failed to download playlist::下載播放清單失敗
+Failed to load playlist::無法載入播放列表
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::無法更新 bouquets.tv。請檢查 Enigma2 設備上的檔案權限。
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::上傳花束失敗。請檢查您的 Telnet 設定（主機、連接埠、使用者名稱、密碼），然後重試。
+Favorite::最喜歡的
+Favorites::收藏夾
+Favorites only::僅限收藏夾
+Fetch Logos::取得徽標
+File::文件
+File {0} already exists. Overwrite?::文件 {0} 已存在。覆蓋？
+File exists::文件存在
+Filters::過濾器
+Format Detection::格式檢測
+Fullscreen::全螢幕
+Fullscreen (hide UI) - press ESC to exit::全螢幕（隱藏 UI）- 按 ESC 退出
+Geo & Country::地理和國家
+GeoBlocked::地理封鎖
+GitHub Error::GitHub 錯誤
+Go back to live::回去住
+Grid::網格
+Group::團體
+Half speed (0.5x)::半速 (0.5x)
+Help::幫助
+Hide List::隱藏清單
+HLS playback: hls.js (MIT license)::HLS 播放：hls.js（MIT 授權）
+Image::影像
+Import::進口
+Import cancelled or no channels mapped.::匯入已取消或未映射通道。
+Import Error::導入錯誤
+Import error: {0}::導入錯誤：{0}
+Import from URL::從 URL 匯入
+Import JSON::導入 JSON
+Import JSON from URL::從 URL 匯入 JSON
+Import Local::導入本地
+Imported {0} channels from code.::從程式碼匯入了 {0} 個頻道。
+Imported {0} channels from JSON via mapping.::透過映射從 JSON 導入了 {0} 個頻道。
+Imported {0} channels from URL.::已從 URL 匯入 {0} 個頻道。
+In Both::在兩者中
+Info::資訊
+Info on::資訊關於
+Invalid JSON: {0}::JSON 無效：{0}
+Invalid playlist URL.::播放清單 URL 無效。
+Invalid URL.::無效網址。
+Json::傑森
+JSON::JSON
+JSON parsing error: {0}::JSON 解析錯誤：{0}
+JSON Property::JSON 屬性
+Ko-fi::咖啡
+Language::語言
+Language – change UI language dynamically (translations in Languages folder).::語言 – 動態變更 UI 語言（語言資料夾中的翻譯）。
+Languages::語言
+Languages (comma)::語言（逗號）
+LINUXSAT-SUPPORT.COM::LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help::LiveGardenTVPlus 幫助
+LOAD::載入
+Load a playlist first.::首先載入播放清單。
+Load a second playlist first.::首先載入第二個播放清單。
+Load File::載入文件
+Load from file...::從檔案載入...
+Load from URL::從 URL 載入
+Load from URL...::從 URL 載入...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::載入本機 M3U/JSON 檔案 - 透過編輯器中的「載入檔案」按鈕（工具列）或「開啟檔案」。
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::載入線上 M3U/JSON URL – 編輯器中的「載入線上」按鈕（工具列）或「從 URL 開啟」。
+Load Playlist::載入播放列表
+Load playlist file (M3U/JSON) from your computer::從您的電腦載入播放清單檔案 (M3U/JSON)
+Loaded::已載入
+Loaded {0} channels from JSON file via mapping.::已透過映射從 JSON 檔案載入 {0} 個頻道。
+Loaded {0} channels from JSON URL.::已從 JSON URL 載入 {0} 個頻道。
+Loaded {0} channels from M3U file.::已從 M3U 檔案載入 {0} 個頻道。
+Loaded {0} channels from M3U URL.::已從 M3U URL 載入 {0} 個頻道。
+Loading...::載入中...
+Logo::標識
+Logo Picker – in editor, click '...' to choose logo from gallery.::標誌選擇器 - 在編輯器中，按一下「...」從圖庫中選擇徽標。
+Logo Preview::標誌預覽
+Logo URL::標誌網址
+Logos – automatically download from GitHub repository (Settings → Logos Source).::標誌 – 自動從 GitHub 儲存庫下載（設定 → 標誌來源）。
+Logos Matching Threshold::徽標匹配閾值
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::標誌儲存庫 – 選擇擁有者/儲存庫/路徑（預設 OwnerPlugins/標誌）。
+Logos Source::標誌來源
+Logos Subfolder::標誌子資料夾
+M3U::M3U
+M3U parsing error: {0}::M3U 解析錯誤：{0}
+Map JSON properties to channel fields:::將 JSON 屬性對應到通道欄位：
+Mapping saved for future imports of this file.::儲存映射以供將來匯入該文件。
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::匹配閾值 – 設定 EPG 和標誌的模糊匹配敏感度。
+Mini Player::迷你播放器
+Move to Group::移至群組
+Moved::搬家了
+Name::姓名
+Nanoid::奈米機器人
+Network error::網路錯誤
+New Playlist::新播放列表
+Next::下一個
+Next ▶::下一頁 ▶
+No .m3u files found on GitHub repository.::在 GitHub 儲存庫上找不到 .m3u 檔案。
+No cache folder found.::未找到快取資料夾。
+No channel selected::未選擇頻道
+No channel selected.::未選擇頻道。
+No channels could be mapped or import cancelled.::無法映射任何通道或取消導入。
+No channels could be mapped. Check your mapping rules.::無法映射任何頻道。檢查您的映射規則。
+No channels found in JSON.::在 JSON 中找不到頻道。
+No channels found in M3U.::M3U 中找不到頻道。
+No channels loaded from JSON URL.::沒有從 JSON URL 載入頻道。
+No channels loaded from M3U URL.::沒有從 M3U URL 載入頻道。
+No channels loaded from M3U.::沒有從 M3U 載入頻道。
+No channels loaded.::未加載頻道。
+No channels mapped::沒有映射頻道
+No channels selected.::未選擇頻道。
+No channels to import.::沒有頻道導入。
+No duplicate URLs found.::未發現重複的 URL。
+No EPG data::無 EPG 數據
+No EPG information available for this channel.::該頻道沒有可用的 EPG 資訊。
+No EPG source configured. Please select one from the combo or go to Settings.::未配置 EPG 源。請從組合中選擇一項或前往「設定」。
+No EPG source configured. Would you like to open settings to select one?::未配置 EPG 源。您想開啟設定來選擇一項嗎？
+No favorite channels found.::未找到喜愛的頻道。
+No favorite channels to export.::沒有可匯出的喜愛頻道。
+No missing channels to export.::不缺少導出管道。
+No playlist found::未找到播放列表
+No second playlist loaded.::未載入第二個播放清單。
+No stream URL available for this channel.::該頻道沒有可用的串流 URL。
+No text to import.::沒有要導入的文字。
+No updates available.::沒有可用的更新。
+Normal speed (1x)::正常速度 (1x)
+Not connected to the box.::未連接到盒子。
+Now::現在
+OK::好的
+Online Playlist::線上播放列表
+Online playlist – select from GitHub repository (auto‑refresh).::線上播放清單 – 從 GitHub 儲存庫中選擇（自動刷新）。
+Only in First::僅在第一
+Only in Second::僅在第二個
+Open File...::開啟檔案...
+Open from URL::從網址開啟
+Open Playlist::開啟播放清單
+Pause/Resume live stream::暫停/恢復直播
+Paused::已暫停
+PayPal::貝寶
+Picture-in-Picture mode::畫中畫模式
+Play/Pause::播放/暫停
+Player Media Controls::播放器媒體控制
+Playing Media::播放媒體
+Playlist & Groups::播放清單和群組
+Playlist closed::播放清單已關閉
+Playlist Comparison::播放清單比較
+Playlist Editor::播放清單編輯器
+Playlist Loading::播放清單載入
+Playlist Management::播放清單管理
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::播放清單儲存庫：OwnerPlugins/TivuStreamList（義大利和國際串流）
+Please select a program first.::請先選擇一個程序。
+Preview (first 5 channels)::預覽（前 5 個頻道）
+Preview error: {0}::預覽錯誤：{0}
+Program Details::計劃詳情
+Ready::準備好
+Recent::最近的
+Recent files – quick access to last 5 opened playlists.::最近的檔案 – 快速存取最近開啟的 5 個播放清單。
+Recent playlists::最近的播放清單
+Refresh Code::重新整理程式碼
+Refresh EPG::重新整理電子節目表
+Refresh EPG List::刷新EPG列表
+Refresh from GitHub::從 GitHub 刷新
+Refresh List::重新整理清單
+Reload GUI::重新載入圖形使用者介面
+Remove Command::刪除命令
+Rename Group::重新命名群組
+Rename group '{0}' to:::將群組“{0}”重新命名為：
+Repository::儲存庫
+Reset Order::重置訂單
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::結果：「僅在第一個」、「僅在第二個」、「在兩個」－帶有狀態顏色編碼。
+Save::節省
+SAVE::節省
+Save – persists all settings without reloading current playlist.::儲存 – 保留所有設定而不重新載入目前播放清單。
+Save as...::另存為...
+Save current playlist to a new M3U file::將目前播放清單儲存到新的 M3U 文件
+Save Favorites::保存收藏夾
+Save Mapping::儲存映射
+Save Playlist::儲存播放列表
+Save Status::保存狀態
+Saved::已儲存
+Search channel::搜尋頻道
+Search channels by name::按名稱搜尋頻道
+Search channels...::搜尋頻道...
+sec::秒
+Second playlist loaded: {0} channels::已載入第二個播放清單：{0} 個頻道
+Select a channel to play.::選擇要播放的頻道。
+Select a playlist first.::首先選擇一個播放清單。
+Select target group:::選擇目標群體：
+Select Theme::選擇主題
+Selected theme is saved and applied on restart.::所選主題將被儲存並在重新啟動時套用。
+Send::傳送
+Send playlist to Enigma2 decoder::將播放清單傳送至 Enigma2 解碼器
+Send to Enigma2::發送至 Enigma2
+Settings::設定
+Show List::顯示清單
+Show only channels marked as favorites::僅顯示標記為收藏的頻道
+Show or hide the channel list::顯示或隱藏頻道列表
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::特別感謝 CORVOBOYS 和 LinuxSat 支援社群的測試和支援。
+Start::開始
+Status::地位
+Stop::停止
+Stopped::已停止
+Stream URL::串流網址
+Stream URLs::串流媒體 URL
+Success::成功
+Support::支援
+Support the developer::支持開發商
+Target Field::目標領域
+Telnet command:::遠端登入命令：
+Telnet Commander::遠端登入指揮官
+Telnet Config::遠端登入配置
+Telnet Configuration::遠端登入配置
+Telnet Console::遠端登入控制台
+Telnet host not configured. Please set it in Settings.::Telnet 主機未配置。請在“設定”中進行設定。
+Telnet password is empty. Do you want to continue?::Telnet 密碼為空。您想繼續嗎？
+Telnet username not configured. Please set it in Settings.::Telnet 使用者名稱未配置。請在“設定”中進行設定。
+Thanks to::由於
+Theme picker::主題選擇器
+Theme picker – accessible via Tools menu on main toolbar.::主題選擇器 - 可透過主工具列上的「工具」功能表存取。
+Themes::主題
+Time::時間
+Title::標題
+Tools::工具
+Total::全部的
+Total channels in loaded playlist::載入的播放清單中的頻道總數
+TV Guide (EPG)::電視指南 (EPG)
+TvgId::電視識別符
+Type channel name to filter::輸入要過濾的頻道名稱
+UI: MaterialDesignThemes.Wpf::使用者介面：MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::無法自動檢測格式。請從下拉清單中選擇 JSON 或 M3U，然後重試。
+Unable to find version in remote project file.::無法在遠端專案文件中找到版本。
+Unsupported format. Please select JSON or M3U.::不支援的格式。請選擇 JSON 或 M3U。
+Update::更新
+Update complete. Restarting...::更新完成。正在重新啟動...
+Update Error::更新錯誤
+Update failed: ::更新失敗：
+Updated::已更新
+Updates::更新
+Upload Error::上傳錯誤
+URL::網址
+URL (primary)::網址（主要）
+URL Check::網址檢查
+URL list (one per line)::URL 清單（每行一個）
+URLs & Status::URL 和狀態
+Version::版本
+Version {0}.{1}.{2}::版本 {0}.{1}.{2}
+Version unknown::版本未知
+Waiting for LiveGardenTVPlus to close...::正在等待 LiveGardenTVPlus 關閉...
+Warning::警告
+WebView2: Microsoft Edge WebView2::WebView2：Microsoft Edge WebView2
+Youtube URL::Youtube 網址
+Youtube URLs::Youtube 網址

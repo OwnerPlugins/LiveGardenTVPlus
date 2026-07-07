@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): (ಸಂಪೂರ್ಣವಾಗಿ ಸ್ವಯಂಪ್ರೇರಿತ - ಯಾವುದೇ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿಲ್ಲ)
-(No description): (ವಿವರಣೆ ಇಲ್ಲ)
-• Add / rename / delete groups.: • ಗುಂಪುಗಳನ್ನು ಸೇರಿಸಿ / ಮರುಹೆಸರಿಸಿ / ಅಳಿಸಿ.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • ಬಫರ್ ಸ್ಲೈಡರ್: HLS ಬಫರ್ ಅನ್ನು ಹೊಂದಿಸಿ (1-10 ಸೆಕೆಂಡುಗಳು).
-• Check URL availability (only visible channels).: • URL ಲಭ್ಯತೆಯನ್ನು ಪರಿಶೀಲಿಸಿ (ಕೇವಲ ಗೋಚರಿಸುವ ಚಾನಲ್‌ಗಳು).
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • ಚಾನಲ್ ಹೆಸರುಗಳು, ಗುಂಪುಗಳು, URL ಗಳು, ಲೋಗೋಗಳು, ಟಿವಿಜಿ-ಐಡಿ, ದೇಶ, ಭಾಷೆಗಳು, ಮೆಚ್ಚಿನವುಗಳನ್ನು ಸಂಪಾದಿಸಿ.
-• Edit multiple URLs per channel (popup window).: • ಪ್ರತಿ ಚಾನಲ್‌ಗೆ ಬಹು URL ಗಳನ್ನು ಎಡಿಟ್ ಮಾಡಿ (ಪಾಪ್‌ಅಪ್ ವಿಂಡೋ).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG ಯೊಂದಿಗೆ ಪುಷ್ಟೀಕರಿಸಿ: ಅಸ್ಪಷ್ಟ ಹೊಂದಾಣಿಕೆಯನ್ನು ಬಳಸಿಕೊಂಡು ಕಾಣೆಯಾದ tvg-id ಅನ್ನು ಸೇರಿಸುತ್ತದೆ.
-• EPG info displayed in status bar for current channel.: • ಪ್ರಸ್ತುತ ಚಾನಲ್‌ಗಾಗಿ ಸ್ಥಿತಿ ಪಟ್ಟಿಯಲ್ಲಿ EPG ಮಾಹಿತಿಯನ್ನು ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆ.
-• Export OK / FAIL / filtered lists as M3U or JSON.: • OK / FAIL / ಫಿಲ್ಟರ್ ಮಾಡಿದ ಪಟ್ಟಿಗಳನ್ನು M3U ಅಥವಾ JSON ಆಗಿ ರಫ್ತು ಮಾಡಿ.
-• Fetch logos from remote repository (OwnerPlugins/logos).: • ರಿಮೋಟ್ ರೆಪೊಸಿಟರಿಯಿಂದ ಲೋಗೋಗಳನ್ನು ಪಡೆದುಕೊಳ್ಳಿ (ಮಾಲೀಕರು/ಲೋಗೋಗಳು).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • ಪೂರ್ಣಪರದೆ UI: ಸೈಡ್‌ಬಾರ್ ಮತ್ತು ಸ್ಥಿತಿ ಪಟ್ಟಿಯನ್ನು ಮರೆಮಾಡುತ್ತದೆ (ನಿರ್ಗಮಿಸಲು ESC).
-• Hide/Show channel list button.: • ಚಾನಲ್ ಪಟ್ಟಿ ಬಟನ್ ಅನ್ನು ಮರೆಮಾಡಿ/ತೋರಿಸು.
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • ಹೊಂದಿಕೊಳ್ಳುವ ಫೀಲ್ಡ್ ಮ್ಯಾಪಿಂಗ್‌ನೊಂದಿಗೆ JSON (ಸ್ಥಳೀಯ ಅಥವಾ URL) ಆಮದು ಮಾಡಿ (ಸ್ವಯಂ-ಪತ್ತೆ, ಮ್ಯಾಪಿಂಗ್ ಉಳಿಸಿ).
-• Picture‑in‑Picture (PIP) button.: • ಪಿಕ್ಚರ್-ಇನ್-ಪಿಕ್ಚರ್ (ಪಿಐಪಿ) ಬಟನ್.
-• Playback speed: 0.5x, 1x, 2x buttons.: • ಪ್ಲೇಬ್ಯಾಕ್ ವೇಗ: 0.5x, 1x, 2x ಬಟನ್‌ಗಳು.
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • ಹೆಡರ್ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ಯಾವುದೇ ಕಾಲಮ್ ಅನ್ನು ವಿಂಗಡಿಸಿ; ಮೂಲ ಕ್ರಮಕ್ಕೆ ಹಿಂತಿರುಗಲು 'ರೀಸೆಟ್ ಆರ್ಡರ್' ಅನ್ನು ಬಳಸಿ.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • ಟೈಮ್‌ಶಿಫ್ಟ್: ಲೈವ್ ಸ್ಟ್ರೀಮ್ ಅನ್ನು ವಿರಾಮಗೊಳಿಸಿ; ಹಿಂದಕ್ಕೆ ಹುಡುಕಲು ಸ್ಲೈಡರ್ ಅನ್ನು ಎಳೆಯಿರಿ; ಹಿಂತಿರುಗಲು 'ಲೈವ್' ಒತ್ತಿರಿ.
-▶ Play Media: ▶ ಪ್ಲೇ ಮೀಡಿಯಾ
-◀ Previous: ◀ ಹಿಂದಿನ
-16 colour themes + Light/Dark variants.: 16 ಬಣ್ಣದ ಥೀಮ್‌ಗಳು + ಲೈಟ್/ಡಾರ್ಕ್ ರೂಪಾಂತರಗಳು.
-A new version is available. Do you want to update now?: ಹೊಸ ಆವೃತ್ತಿ ಲಭ್ಯವಿದೆ. ನೀವು ಇದೀಗ ನವೀಕರಿಸಲು ಬಯಸುವಿರಾ?
-Access via 'Compare' button in Playlist Editor or Tools menu.: ಪ್ಲೇಪಟ್ಟಿ ಸಂಪಾದಕ ಅಥವಾ ಪರಿಕರಗಳ ಮೆನುವಿನಲ್ಲಿ 'ಹೋಲಿಸು' ಬಟನ್ ಮೂಲಕ ಪ್ರವೇಶ.
-Access via 'Edit Playlist' button on main toolbar.: ಮುಖ್ಯ ಟೂಲ್‌ಬಾರ್‌ನಲ್ಲಿ 'ಪ್ಲೇಲಿಸ್ಟ್ ಸಂಪಾದಿಸು' ಬಟನ್ ಮೂಲಕ ಪ್ರವೇಶ.
-Actions: ಕ್ರಿಯೆಗಳು
-Add Command: ಆಜ್ಞೆಯನ್ನು ಸೇರಿಸಿ
-Add Group: ಗುಂಪು ಸೇರಿಸಿ
-Add Mapping: ಮ್ಯಾಪಿಂಗ್ ಸೇರಿಸಿ
-Adjust buffer size (1-10 seconds): ಬಫರ್ ಗಾತ್ರವನ್ನು ಹೊಂದಿಸಿ (1-10 ಸೆಕೆಂಡುಗಳು)
-Advanced IDs: ಸುಧಾರಿತ ಐಡಿಗಳು
-Application status: ಅಪ್ಲಿಕೇಶನ್ ಸ್ಥಿತಿ
-Apply: ಅನ್ವಯಿಸು
-Apply / Import: ಅನ್ವಯಿಸು / ಆಮದು ಮಾಡಿ
-Apply changes: ಬದಲಾವಣೆಗಳನ್ನು ಅನ್ವಯಿಸಿ
-Apply Filters: ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಅನ್ವಯಿಸಿ
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Enigma2 GUI ಅನ್ನು ಮರುಲೋಡ್ ಮಾಡಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?\n\nಇಂಟರ್ಫೇಸ್ ಮರುಪ್ರಾರಂಭಗೊಳ್ಳುತ್ತದೆ (ಕೆಲವು ಸೆಕೆಂಡುಗಳ ಕಾಲ ಕಪ್ಪು ಪರದೆ).
-Auto (recommended): ಸ್ವಯಂ (ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ)
-Auto-detect: ಸ್ವಯಂ ಪತ್ತೆ
-Automatic check on startup – or click 'Check for updates' in Tools menu.: ಪ್ರಾರಂಭದಲ್ಲಿ ಸ್ವಯಂಚಾಲಿತ ಪರಿಶೀಲನೆ - ಅಥವಾ ಪರಿಕರಗಳ ಮೆನುವಿನಲ್ಲಿ 'ನವೀಕರಣಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಿ' ಕ್ಲಿಕ್ ಮಾಡಿ.
-Bouquet Name: ಪುಷ್ಪಗುಚ್ಛ ಹೆಸರು
-Bouquet sent and Enigma2 channel list reloaded.: ಬೊಕೆ ಕಳುಹಿಸಲಾಗಿದೆ ಮತ್ತು Enigma2 ಚಾನಲ್ ಪಟ್ಟಿಯನ್ನು ಮರುಲೋಡ್ ಮಾಡಲಾಗಿದೆ.
-Buffer (seconds): ಬಫರ್ (ಸೆಕೆಂಡ್‌ಗಳು)
-Buffer size – adjust HLS buffer seconds.: ಬಫರ್ ಗಾತ್ರ - HLS ಬಫರ್ ಸೆಕೆಂಡುಗಳನ್ನು ಹೊಂದಿಸಿ.
-Cache: ಸಂಗ್ರಹ
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: ಸಂಗ್ರಹ ಫೋಲ್ಡರ್: %TEMP%\\LiveGardenTVPlus\\epg_cache
-Cancel: ರದ್ದುಮಾಡು
-CANCEL: ರದ್ದುಮಾಡು
-Cannot open browser: ಬ್ರೌಸರ್ ತೆರೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ
-Category: ವರ್ಗ
-Changelog: ಚೇಂಜ್ಲಾಗ್
-Channel Details: ಚಾನಲ್ ವಿವರಗಳು
-Channel Down: ಚಾನಲ್ ಡೌನ್
-Channel Info: ಚಾನಲ್ ಮಾಹಿತಿ
-Channel Name: ಚಾನಲ್ ಹೆಸರು
-Channel Up: ಚಾನೆಲ್ ಅಪ್
-channels from: ನಿಂದ ಚಾನಲ್‌ಗಳು
-channels from JSON: JSON ನಿಂದ ಚಾನಲ್‌ಗಳು
-channels from JSON URL: JSON URL ನಿಂದ ಚಾನಲ್‌ಗಳು
-channels from URL: URL ನಿಂದ ಚಾನಲ್‌ಗಳು
-Check Duplicates: ನಕಲುಗಳನ್ನು ಪರಿಶೀಲಿಸಿ
-Check for updates: ನವೀಕರಣಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಿ
-Check URLs: URL ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ
-Clear: ತೆರವುಗೊಳಿಸಿ
-Clear EPG Cache: EPG ಸಂಗ್ರಹವನ್ನು ತೆರವುಗೊಳಿಸಿ
-Clear Filters: ಫಿಲ್ಟರ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ
-Clear search: ಹುಡುಕಾಟವನ್ನು ತೆರವುಗೊಳಿಸಿ
-Click for details: ವಿವರಗಳಿಗಾಗಿ ಕ್ಲಿಕ್ ಮಾಡಿ
-Close: ಮುಚ್ಚಿ
-Code: ಕೋಡ್
-Code copied to clipboard.: ಕೋಡ್ ಅನ್ನು ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾಗಿದೆ.
-Command name:: ಆಜ್ಞೆಯ ಹೆಸರು:
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: ಸಮುದಾಯ ಮತ್ತು ಪರೀಕ್ಷೆ: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
-Compare: ಹೋಲಿಸಿ
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: ಇವರಿಂದ ಹೋಲಿಕೆ ಮಾಡಿ: ಆದ್ಯತೆ (ಹೆಸರು→ಗುಂಪು→tvg-id), ಹೆಸರು, ಗುಂಪು (ಕೇಸ್-ಸೆನ್ಸಿಟಿವ್), ಅಥವಾ TvgId.
-Compare Playlists: ಪ್ಲೇಪಟ್ಟಿಗಳನ್ನು ಹೋಲಿಕೆ ಮಾಡಿ
-Compare two playlists – load first (current playlist) and second (from file or URL).: ಎರಡು ಪ್ಲೇಪಟ್ಟಿಗಳನ್ನು ಹೋಲಿಕೆ ಮಾಡಿ - ಮೊದಲು ಲೋಡ್ ಮಾಡಿ (ಪ್ರಸ್ತುತ ಪ್ಲೇಪಟ್ಟಿ) ಮತ್ತು ಎರಡನೆಯದು (ಫೈಲ್ ಅಥವಾ URL ನಿಂದ).
-Compare...: ಹೋಲಿಸಿ...
-Comparison results: {0} channels: ಹೋಲಿಕೆ ಫಲಿತಾಂಶಗಳು: {0} ಚಾನಲ್‌ಗಳು
-Configuration Missing: ಕಾನ್ಫಿಗರೇಶನ್ ಕಾಣೆಯಾಗಿದೆ
-Confirm Delete: ಅಳಿಸುವುದನ್ನು ದೃಢೀಕರಿಸಿ
-Confirm Reload: ಮರುಲೋಡ್ ದೃಢೀಕರಿಸಿ
-Connect: ಸಂಪರ್ಕಿಸಿ
-Connected: ಸಂಪರ್ಕಗೊಂಡಿದೆ
-Copied: ನಕಲು ಮಾಡಲಾಗಿದೆ
-Copy: ನಕಲು ಮಾಡಿ
-CORVOBOYS.ORG: CORVOYS.ORG
-Country: ದೇಶ
-Credits: ಕ್ರೆಡಿಟ್‌ಗಳು
-Delete channel '{0}'?: ಚಾನಲ್ '{0}' ಅಳಿಸುವುದೇ?
-Delete Group: ಗುಂಪನ್ನು ಅಳಿಸಿ
-Delete Selected: ಆಯ್ಕೆ ಮಾಡಿರುವುದನ್ನು ಅಳಿಸಿ
-Deleted: ಅಳಿಸಲಾಗಿದೆ
-Description: ವಿವರಣೆ
-Details: ವಿವರಗಳು
-Developed by Lululla: ಲುಲುಲ್ಲಾ ಅಭಿವೃದ್ಧಿಪಡಿಸಿದ್ದಾರೆ
-Developer: Lululla: ಡೆವಲಪರ್: ಲುಲುಲ್ಲಾ
-Disconnect: ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಿ
-Disconnected: ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ
-Display as: : ಹೀಗೆ ಪ್ರದರ್ಶಿಸಿ:
-Do you want to load this edited playlist now?: ನೀವು ಈಗ ಈ ಎಡಿಟ್ ಮಾಡಿದ ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಲು ಬಯಸುವಿರಾ?
-Double speed (2x): ಡಬಲ್ ವೇಗ (2x)
-Downloading playlist...: ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...
-Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡುತ್ತದೆ, ಫೈಲ್‌ಗಳನ್ನು ಬದಲಾಯಿಸುತ್ತದೆ, ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸುತ್ತದೆ - ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಸಂರಕ್ಷಿಸಲಾಗಿದೆ.
-Drag & drop – drop M3U or JSON files directly onto main window.: ಎಳೆಯಿರಿ ಮತ್ತು ಬಿಡಿ - M3U ಅಥವಾ JSON ಫೈಲ್‌ಗಳನ್ನು ನೇರವಾಗಿ ಮುಖ್ಯ ವಿಂಡೋಗೆ ಬಿಡಿ.
-Drag to seek back in buffer: ಬಫರ್‌ನಲ್ಲಿ ಹಿಂತಿರುಗಲು ಎಳೆಯಿರಿ
-Duplicate URLs found:\n\n: ನಕಲಿ URL ಗಳು ಕಂಡುಬಂದಿವೆ:\n\n
-Edit Command: ಆಜ್ಞೆಯನ್ನು ಸಂಪಾದಿಸಿ
-Edit command name:: ಆಜ್ಞೆಯ ಹೆಸರನ್ನು ಸಂಪಾದಿಸಿ:
-Edit Playlist: ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಸಂಪಾದಿಸಿ
-Edit telnet command:: ಟೆಲ್ನೆಟ್ ಆಜ್ಞೆಯನ್ನು ಸಂಪಾದಿಸಿ:
-Edit URLs: URL ಗಳನ್ನು ಸಂಪಾದಿಸಿ
-Empty Password: ಖಾಲಿ ಪಾಸ್ವರ್ಡ್
-End: ಅಂತ್ಯ
-Enrich with EPG: EPG ಯೊಂದಿಗೆ ಸಮೃದ್ಧಗೊಳಿಸಿ
-Enter bouquet name (without spaces):: ಪುಷ್ಪಗುಚ್ಛದ ಹೆಸರನ್ನು ನಮೂದಿಸಿ (ಸ್ಥಳಗಳಿಲ್ಲದೆ):
-Enter JSON URL:: JSON URL ನಮೂದಿಸಿ:
-Enter new group name:: ಹೊಸ ಗುಂಪಿನ ಹೆಸರನ್ನು ನಮೂದಿಸಿ:
-Enter playlist URL (JSON or M3U):: ಪ್ಲೇಪಟ್ಟಿ URL ಅನ್ನು ನಮೂದಿಸಿ (JSON ಅಥವಾ M3U):
-Enter playlist URL (M3U or JSON):: ಪ್ಲೇಪಟ್ಟಿ URL ನಮೂದಿಸಿ (M3U ಅಥವಾ JSON):
-EPG: EPG
-Epg & Favorites: ಎಪಿಜಿ ಮತ್ತು ಮೆಚ್ಚಿನವುಗಳು
-EPG & Favorites: EPG ಮತ್ತು ಮೆಚ್ಚಿನವುಗಳು
-Epg & Logos: ಎಪಿಜಿ ಮತ್ತು ಲೋಗೋಗಳು
-EPG & Logos: EPG ಮತ್ತು ಲೋಗೋಗಳು
-EPG cache cleared successfully.: EPG ಸಂಗ್ರಹವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ತೆರವುಗೊಳಿಸಲಾಗಿದೆ.
-EPG Details: EPG ವಿವರಗಳು
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG ಗೈಡ್ - ಮುಖ್ಯ ಟೂಲ್‌ಬಾರ್‌ನಲ್ಲಿರುವ ಬಟನ್ ಪ್ರೋಗ್ರಾಂ ವಿವರಗಳೊಂದಿಗೆ ಪೂರ್ಣ ಗ್ರಿಡ್ ಅನ್ನು ತೋರಿಸುತ್ತದೆ (ಮಾಹಿತಿಗಾಗಿ ಡಬಲ್-ಕ್ಲಿಕ್ ಮಾಡಿ).
-EPG Matching Threshold: EPG ಹೊಂದಾಣಿಕೆಯ ಮಿತಿ
-EPG Source: : EPG ಮೂಲ:
-EPG source – can be set in Settings (epgshare01 or custom URL).: EPG ಮೂಲ - ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಹೊಂದಿಸಬಹುದು (epgshare01 ಅಥವಾ ಕಸ್ಟಮ್ URL).
-EPG source – choose XMLTV file or enter custom URL.: EPG ಮೂಲ - XMLTV ಫೈಲ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ ಅಥವಾ ಕಸ್ಟಮ್ URL ಅನ್ನು ನಮೂದಿಸಿ.
-EPG Source Missing: EPG ಮೂಲ ಕಾಣೆಯಾಗಿದೆ
-Error: ದೋಷ
-Error clearing cache: {0}: ಸಂಗ್ರಹವನ್ನು ತೆರವುಗೊಳಿಸುವಲ್ಲಿ ದೋಷ: {0}
-Error loading: ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ
-Error loading EPG list: {0}: EPG ಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ: {0}
-Error loading file: {0}: ಫೈಲ್ ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ: {0}
-Error loading playlists: {0}: ಪ್ಲೇಪಟ್ಟಿಗಳನ್ನು ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ: {0}
-Error loading URL: {0}: URL ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ: {0}
-ERROR: player.html not found.: ದೋಷ: player.html ಕಂಡುಬಂದಿಲ್ಲ.
-Exit: ನಿರ್ಗಮಿಸಿ
-Export all: ಎಲ್ಲವನ್ನೂ ರಫ್ತು ಮಾಡಿ
-Export Favorites: ಮೆಚ್ಚಿನವುಗಳನ್ನು ರಫ್ತು ಮಾಡಿ
-Export Filtered JSON: ಫಿಲ್ಟರ್ ಮಾಡಿದ JSON ಅನ್ನು ರಫ್ತು ಮಾಡಿ
-Export Filtered M3U: ಫಿಲ್ಟರ್ ಮಾಡಿದ M3U ಅನ್ನು ರಫ್ತು ಮಾಡಿ
-Export JSON: JSON ರಫ್ತು ಮಾಡಿ
-Export KO: KO ರಫ್ತು ಮಾಡಿ
-Export missing: ರಫ್ತು ಕಾಣೆಯಾಗಿದೆ
-Export OK: ರಫ್ತು ಸರಿ
-Export only favorite channels to a new M3U file: ಹೊಸ M3U ಫೈಲ್‌ಗೆ ಮೆಚ್ಚಿನ ಚಾನಲ್‌ಗಳನ್ನು ಮಾತ್ರ ರಫ್ತು ಮಾಡಿ
-Export results as JSON or M3U – export missing channels or all channels.: JSON ಅಥವಾ M3U ನಂತೆ ಫಲಿತಾಂಶಗಳನ್ನು ರಫ್ತು ಮಾಡಿ - ಕಾಣೆಯಾದ ಚಾನಲ್‌ಗಳು ಅಥವಾ ಎಲ್ಲಾ ಚಾನಲ್‌ಗಳನ್ನು ರಫ್ತು ಮಾಡಿ.
-Export selected: ರಫ್ತು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ
-Export Selected: ರಫ್ತು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ
-Exported: ರಫ್ತು ಮಾಡಲಾಗಿದೆ
-Exported {0} channels to {1}: {0} ಚಾನಲ್‌ಗಳನ್ನು {1} ಗೆ ರಫ್ತು ಮಾಡಲಾಗಿದೆ
-Extracting update...: ನವೀಕರಣವನ್ನು ಹೊರತೆಗೆಯಲಾಗುತ್ತಿದೆ...
-Failed to download playlist: ಪ್ಲೇಪಟ್ಟಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ
-Failed to load playlist: ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: Bouquets.tv ಅನ್ನು ನವೀಕರಿಸಲು ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು Enigma2 ಸಾಧನದಲ್ಲಿ ಫೈಲ್ ಅನುಮತಿಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: ಪುಷ್ಪಗುಚ್ಛವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಟೆಲ್ನೆಟ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು (ಹೋಸ್ಟ್, ಪೋರ್ಟ್, ಬಳಕೆದಾರಹೆಸರು, ಪಾಸ್‌ವರ್ಡ್) ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.
-Favorite: ಮೆಚ್ಚಿನ
-Favorites only: ಮೆಚ್ಚಿನವುಗಳು ಮಾತ್ರ
-Fetch Logos: ಲೋಗೋಗಳನ್ನು ಪಡೆದುಕೊಳ್ಳಿ
-File {0} already exists. Overwrite?: ಫೈಲ್ {0} ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ. ತಿದ್ದಿ ಬರೆಯುವುದೇ?
-File exists: ಫೈಲ್ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ
-Filters: ಶೋಧಕಗಳು
-Format Detection: ಸ್ವರೂಪ ಪತ್ತೆ
-Fullscreen: ಪೂರ್ಣಪರದೆ
-Fullscreen (hide UI) - press ESC to exit: ಪೂರ್ಣಪರದೆ (UI ಮರೆಮಾಡಿ) - ನಿರ್ಗಮಿಸಲು ESC ಒತ್ತಿರಿ
-Geo & Country: ಜಿಯೋ ಮತ್ತು ದೇಶ
-GeoBlocked: ಜಿಯೋಬ್ಲಾಕ್ ಮಾಡಲಾಗಿದೆ
-GitHub Error: GitHub ದೋಷ
-Go back to live: ಬದುಕಲು ಹಿಂತಿರುಗಿ
-Grid: ಗ್ರಿಡ್
-Group: ಗುಂಪು
-Half speed (0.5x): ಅರ್ಧ ವೇಗ (0.5x)
-Help: ಸಹಾಯ
-Hide List: ಪಟ್ಟಿಯನ್ನು ಮರೆಮಾಡಿ
-HLS playback: hls.js (MIT license): HLS ಪ್ಲೇಬ್ಯಾಕ್: hls.js (MIT ಪರವಾನಗಿ)
-Image: ಚಿತ್ರ
-Import: ಆಮದು ಮಾಡಿಕೊಳ್ಳಿ
-Import cancelled or no channels mapped.: ಆಮದು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ ಅಥವಾ ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಮ್ಯಾಪ್ ಮಾಡಲಾಗಿಲ್ಲ.
-Import Error: ಆಮದು ದೋಷ
-Import error: {0}: ಆಮದು ದೋಷ: {0}
-Import from URL: URL ನಿಂದ ಆಮದು ಮಾಡಿ
-Import JSON: JSON ಆಮದು ಮಾಡಿ
-Import JSON from URL: URL ನಿಂದ JSON ಅನ್ನು ಆಮದು ಮಾಡಿ
-Import Local: ಸ್ಥಳೀಯವನ್ನು ಆಮದು ಮಾಡಿ
-Imported {0} channels from code.: ಕೋಡ್‌ನಿಂದ {0} ಚಾನಲ್‌ಗಳನ್ನು ಆಮದು ಮಾಡಲಾಗಿದೆ.
-Imported {0} channels from JSON via mapping.: ಮ್ಯಾಪಿಂಗ್ ಮೂಲಕ JSON ನಿಂದ {0} ಚಾನಲ್‌ಗಳನ್ನು ಆಮದು ಮಾಡಲಾಗಿದೆ.
-Imported {0} channels from URL.: URL ನಿಂದ {0} ಚಾನಲ್‌ಗಳನ್ನು ಆಮದು ಮಾಡಲಾಗಿದೆ.
-In Both: ಎರಡರಲ್ಲೂ
-Info: ಮಾಹಿತಿ
-Info on: ಬಗ್ಗೆ ಮಾಹಿತಿ
-Invalid JSON: {0}: ಅಮಾನ್ಯ JSON: {0}
-Invalid playlist URL.: ಅಮಾನ್ಯ ಪ್ಲೇಪಟ್ಟಿ URL.
-Invalid URL.: ಅಮಾನ್ಯ URL.
-Json: ಜೆಸನ್
-JSON: JSON
-JSON parsing error: {0}: JSON ಪಾರ್ಸಿಂಗ್ ದೋಷ: {0}
-JSON Property: JSON ಆಸ್ತಿ
-Ko-fi: ಕಾಫಿ
-Language: ಭಾಷೆ
-Language – change UI language dynamically (translations in Languages folder).: ಭಾಷೆ - UI ಭಾಷೆಯನ್ನು ಕ್ರಿಯಾತ್ಮಕವಾಗಿ ಬದಲಾಯಿಸಿ (ಭಾಷೆಗಳ ಫೋಲ್ಡರ್‌ನಲ್ಲಿನ ಅನುವಾದಗಳು).
-Languages: ಭಾಷೆಗಳು
-Languages (comma): ಭಾಷೆಗಳು (ಅಲ್ಪವಿರಾಮ)
-LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help: LiveGardenTVPlus ಸಹಾಯ
-LOAD: ಲೋಡ್ ಮಾಡಿ
-Load a playlist first.: ಮೊದಲು ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಿ.
-Load a second playlist first.: ಮೊದಲು ಎರಡನೇ ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಿ.
-Load File: ಫೈಲ್ ಅನ್ನು ಲೋಡ್ ಮಾಡಿ
-Load from file...: ಫೈಲ್‌ನಿಂದ ಲೋಡ್ ಮಾಡಿ...
-Load from URL: URL ನಿಂದ ಲೋಡ್ ಮಾಡಿ
-Load from URL...: URL ನಿಂದ ಲೋಡ್ ಮಾಡಿ...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: ಸ್ಥಳೀಯ M3U/JSON ಫೈಲ್ ಅನ್ನು ಲೋಡ್ ಮಾಡಿ - ಎಡಿಟರ್‌ನಲ್ಲಿ 'ಲೋಡ್ ಫೈಲ್' ಬಟನ್ (ಟೂಲ್‌ಬಾರ್) ಅಥವಾ 'ಫೈಲ್ ತೆರೆಯಿರಿ' ಮೂಲಕ.
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ M3U/JSON URL ಅನ್ನು ಲೋಡ್ ಮಾಡಿ – ಎಡಿಟರ್‌ನಲ್ಲಿ 'ಲೋಡ್ ಆನ್‌ಲೈನ್' ಬಟನ್ (ಟೂಲ್‌ಬಾರ್) ಅಥವಾ 'URL ನಿಂದ ತೆರೆಯಿರಿ'.
-Load playlist file (M3U/JSON) from your computer: ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್‌ನಿಂದ ಪ್ಲೇಪಟ್ಟಿ ಫೈಲ್ (M3U/JSON) ಲೋಡ್ ಮಾಡಿ
-Loaded: ಲೋಡ್ ಮಾಡಲಾಗಿದೆ
-Loaded {0} channels from JSON file via mapping.: ಮ್ಯಾಪಿಂಗ್ ಮೂಲಕ JSON ಫೈಲ್‌ನಿಂದ {0} ಚಾನಲ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿದೆ.
-Loaded {0} channels from JSON URL.: JSON URL ನಿಂದ {0} ಚಾನಲ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿದೆ.
-Loaded {0} channels from M3U file.: M3U ಫೈಲ್‌ನಿಂದ {0} ಚಾನಲ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿದೆ.
-Loaded {0} channels from M3U URL.: M3U URL ನಿಂದ {0} ಚಾನಲ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿದೆ.
-Loading...: ಲೋಡ್ ಆಗುತ್ತಿದೆ...
-Logo: ಲೋಗೋ
-Logo Picker – in editor, click '...' to choose logo from gallery.: ಲೋಗೋ ಪಿಕ್ಕರ್ - ಎಡಿಟರ್‌ನಲ್ಲಿ, ಗ್ಯಾಲರಿಯಿಂದ ಲೋಗೋವನ್ನು ಆಯ್ಕೆ ಮಾಡಲು '...' ಕ್ಲಿಕ್ ಮಾಡಿ.
-Logo Preview: ಲೋಗೋ ಪೂರ್ವವೀಕ್ಷಣೆ
-Logo URL: ಲೋಗೋ URL
-Logos – automatically download from GitHub repository (Settings → Logos Source).: ಲೋಗೋಗಳು - GitHub ರೆಪೊಸಿಟರಿಯಿಂದ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ (ಸೆಟ್ಟಿಂಗ್‌ಗಳು → ಲೋಗೋಸ್ ಮೂಲ).
-Logos Matching Threshold: ಲೋಗೋಗಳ ಹೊಂದಾಣಿಕೆಯ ಮಿತಿ
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: ಲೋಗೋಸ್ ರೆಪೊಸಿಟರಿ - ಮಾಲೀಕರು/ರೆಪೊ/ಪಾತ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ (ಡೀಫಾಲ್ಟ್ ಓನರ್ ಪ್ಲಗಿನ್‌ಗಳು/ಲೋಗೊಗಳು).
-Logos Source: ಲೋಗೋಗಳ ಮೂಲ
-Logos Subfolder: ಲೋಗೋಗಳ ಉಪಫೋಲ್ಡರ್
-M3U: M3U
-M3U parsing error: {0}: M3U ಪಾರ್ಸಿಂಗ್ ದೋಷ: {0}
-Map JSON properties to channel fields:: ಚಾನಲ್ ಕ್ಷೇತ್ರಗಳಿಗೆ JSON ಗುಣಲಕ್ಷಣಗಳನ್ನು ನಕ್ಷೆ ಮಾಡಿ:
-Mapping saved for future imports of this file.: ಈ ಫೈಲ್‌ನ ಭವಿಷ್ಯದ ಆಮದುಗಳಿಗಾಗಿ ಮ್ಯಾಪಿಂಗ್ ಅನ್ನು ಉಳಿಸಲಾಗಿದೆ.
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: ಹೊಂದಾಣಿಕೆಯ ಮಿತಿಗಳು - EPG ಮತ್ತು ಲೋಗೋಗಳಿಗಾಗಿ ಅಸ್ಪಷ್ಟ ಹೊಂದಾಣಿಕೆಯ ಸೂಕ್ಷ್ಮತೆಯನ್ನು ಹೊಂದಿಸಿ.
-Mini Player: ಮಿನಿ ಪ್ಲೇಯರ್
-Move to Group: ಗುಂಪಿಗೆ ಸರಿಸಿ
-Moved: ಸ್ಥಳಾಂತರಿಸಲಾಗಿದೆ
-Name: ಹೆಸರು
-Nanoid: ನ್ಯಾನಾಯ್ಡ್
-Network error: ನೆಟ್‌ವರ್ಕ್ ದೋಷ
-New Playlist: ಹೊಸ ಪ್ಲೇಪಟ್ಟಿ
-Next: ಮುಂದೆ
-Next ▶: ಮುಂದೆ ▶
-No .m3u files found on GitHub repository.: GitHub ರೆಪೊಸಿಟರಿಯಲ್ಲಿ ಯಾವುದೇ .m3u ಫೈಲ್‌ಗಳು ಕಂಡುಬಂದಿಲ್ಲ.
-No cache folder found.: ಯಾವುದೇ ಸಂಗ್ರಹ ಫೋಲ್ಡರ್ ಕಂಡುಬಂದಿಲ್ಲ.
-No channel selected: ಯಾವುದೇ ಚಾನಲ್ ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ
-No channels could be mapped or import cancelled.: ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಮ್ಯಾಪ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ ಅಥವಾ ಆಮದು ರದ್ದುಗೊಳಿಸಲಾಗುವುದಿಲ್ಲ.
-No channels could be mapped. Check your mapping rules.: ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಮ್ಯಾಪ್ ಮಾಡಲಾಗಲಿಲ್ಲ. ನಿಮ್ಮ ಮ್ಯಾಪಿಂಗ್ ನಿಯಮಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.
-No channels found in JSON.: JSON ನಲ್ಲಿ ಯಾವುದೇ ಚಾನಲ್‌ಗಳು ಕಂಡುಬಂದಿಲ್ಲ.
-No channels found in M3U.: M3U ನಲ್ಲಿ ಯಾವುದೇ ಚಾನಲ್‌ಗಳು ಕಂಡುಬಂದಿಲ್ಲ.
-No channels loaded from JSON URL.: JSON URL ನಿಂದ ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿಲ್ಲ.
-No channels loaded from M3U URL.: M3U URL ನಿಂದ ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿಲ್ಲ.
-No channels loaded from M3U.: M3U ನಿಂದ ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿಲ್ಲ.
-No channels loaded.: ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿಲ್ಲ.
-No channels mapped: ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಮ್ಯಾಪ್ ಮಾಡಲಾಗಿಲ್ಲ
-No channels selected.: ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಲಾಗಿಲ್ಲ.
-No channels to import.: ಆಮದು ಮಾಡಲು ಯಾವುದೇ ಚಾನಲ್‌ಗಳಿಲ್ಲ.
-No duplicate URLs found.: ಯಾವುದೇ ನಕಲಿ URL ಗಳು ಕಂಡುಬಂದಿಲ್ಲ.
-No EPG data: ಇಪಿಜಿ ಡೇಟಾ ಇಲ್ಲ
-No EPG information available for this channel.: ಈ ಚಾನಲ್‌ಗೆ ಯಾವುದೇ EPG ಮಾಹಿತಿ ಲಭ್ಯವಿಲ್ಲ.
-No EPG source configured. Please select one from the combo or go to Settings.: ಯಾವುದೇ EPG ಮೂಲವನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿಲ್ಲ. ಕಾಂಬೊದಿಂದ ಒಂದನ್ನು ಆಯ್ಕೆಮಾಡಿ ಅಥವಾ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಹೋಗಿ.
-No EPG source configured. Would you like to open settings to select one?: ಯಾವುದೇ EPG ಮೂಲವನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿಲ್ಲ. ಒಂದನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೀವು ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಲು ಬಯಸುವಿರಾ?
-No favorite channels to export.: ರಫ್ತು ಮಾಡಲು ಯಾವುದೇ ನೆಚ್ಚಿನ ಚಾನಲ್‌ಗಳಿಲ್ಲ.
-No missing channels to export.: ರಫ್ತು ಮಾಡಲು ಕಾಣೆಯಾದ ಚಾನಲ್‌ಗಳಿಲ್ಲ.
-No playlist found: ಯಾವುದೇ ಪ್ಲೇಪಟ್ಟಿ ಕಂಡುಬಂದಿಲ್ಲ
-No second playlist loaded.: ಯಾವುದೇ ಎರಡನೇ ಪ್ಲೇಪಟ್ಟಿ ಲೋಡ್ ಆಗಿಲ್ಲ.
-No stream URL available for this channel.: ಈ ಚಾನಲ್‌ಗೆ ಯಾವುದೇ ಸ್ಟ್ರೀಮ್ URL ಲಭ್ಯವಿಲ್ಲ.
-No text to import.: ಆಮದು ಮಾಡಲು ಯಾವುದೇ ಪಠ್ಯವಿಲ್ಲ.
-No updates available.: ಯಾವುದೇ ನವೀಕರಣಗಳು ಲಭ್ಯವಿಲ್ಲ.
-Normal speed (1x): ಸಾಮಾನ್ಯ ವೇಗ (1x)
-Not connected to the box.: ಬಾಕ್ಸ್‌ಗೆ ಸಂಪರ್ಕಗೊಂಡಿಲ್ಲ.
-Now: ಈಗ
-OK: ಸರಿ
-Online Playlist: ಆನ್‌ಲೈನ್ ಪ್ಲೇಪಟ್ಟಿ
-Online playlist – select from GitHub repository (auto‑refresh).: ಆನ್‌ಲೈನ್ ಪ್ಲೇಪಟ್ಟಿ - GitHub ರೆಪೊಸಿಟರಿಯಿಂದ ಆಯ್ಕೆಮಾಡಿ (ಸ್ವಯಂ-ರಿಫ್ರೆಶ್).
-Only in First: ಮೊದಲಲ್ಲಿ ಮಾತ್ರ
-Only in Second: ಎರಡನೇಯಲ್ಲಿ ಮಾತ್ರ
-Open File...: ಫೈಲ್ ತೆರೆಯಿರಿ...
-Open from URL: URL ನಿಂದ ತೆರೆಯಿರಿ
-Open Playlist: ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ತೆರೆಯಿರಿ
-Pause/Resume live stream: ಲೈವ್ ಸ್ಟ್ರೀಮ್ ಅನ್ನು ವಿರಾಮಗೊಳಿಸಿ/ಪುನರಾರಂಭಿಸು
-Paused: ವಿರಾಮಗೊಳಿಸಲಾಗಿದೆ
-PayPal: ಪೇಪಾಲ್
-Picture-in-Picture mode: ಪಿಕ್ಚರ್-ಇನ್-ಪಿಕ್ಚರ್ ಮೋಡ್
-Play/Pause: ಪ್ಲೇ/ವಿರಾಮ
-Player Media Controls: ಪ್ಲೇಯರ್ ಮಾಧ್ಯಮ ನಿಯಂತ್ರಣಗಳು
-Playing Media: ಮಾಧ್ಯಮವನ್ನು ಪ್ಲೇ ಮಾಡಲಾಗುತ್ತಿದೆ
-Playlist & Groups: ಪ್ಲೇಪಟ್ಟಿ ಮತ್ತು ಗುಂಪುಗಳು
-Playlist Comparison: ಪ್ಲೇಪಟ್ಟಿ ಹೋಲಿಕೆ
-Playlist Editor: ಪ್ಲೇಪಟ್ಟಿ ಸಂಪಾದಕ
-Playlist Loading: ಪ್ಲೇಪಟ್ಟಿ ಲೋಡ್ ಆಗುತ್ತಿದೆ
-Playlist Management: ಪ್ಲೇಪಟ್ಟಿ ನಿರ್ವಹಣೆ
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): ಪ್ಲೇಪಟ್ಟಿ ರೆಪೊಸಿಟರಿ: ಓನರ್‌ಪ್ಲಗಿನ್‌ಗಳು/ಟಿವುಸ್ಟ್ರೀಮ್‌ಲಿಸ್ಟ್ (ಇಟಾಲಿಯನ್ ಮತ್ತು ಅಂತರರಾಷ್ಟ್ರೀಯ ಸ್ಟ್ರೀಮ್‌ಗಳು)
-Please select a program first.: ದಯವಿಟ್ಟು ಮೊದಲು ಪ್ರೋಗ್ರಾಂ ಆಯ್ಕೆಮಾಡಿ.
-Preview (first 5 channels): ಪೂರ್ವವೀಕ್ಷಣೆ (ಮೊದಲ 5 ಚಾನಲ್‌ಗಳು)
-Preview error: {0}: ಪೂರ್ವವೀಕ್ಷಣೆ ದೋಷ: {0}
-Program Details: ಕಾರ್ಯಕ್ರಮದ ವಿವರಗಳು
-Ready: ಸಿದ್ಧವಾಗಿದೆ
-Ready.: ಸಿದ್ಧವಾಗಿದೆ.
-Recent: ಇತ್ತೀಚಿನ
-Recent files – quick access to last 5 opened playlists.: ಇತ್ತೀಚಿನ ಫೈಲ್‌ಗಳು - ಕೊನೆಯ 5 ತೆರೆದ ಪ್ಲೇಪಟ್ಟಿಗಳಿಗೆ ತ್ವರಿತ ಪ್ರವೇಶ.
-Recent playlists: ಇತ್ತೀಚಿನ ಪ್ಲೇಪಟ್ಟಿಗಳು
-Refresh Code: ರಿಫ್ರೆಶ್ ಕೋಡ್
-Refresh EPG: EPG ಅನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ
-Refresh EPG List: EPG ಪಟ್ಟಿಯನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ
-Refresh from GitHub: GitHub ನಿಂದ ರಿಫ್ರೆಶ್ ಮಾಡಿ
-Refresh List: ಪಟ್ಟಿಯನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ
-Reload GUI: GUI ಅನ್ನು ಮರುಲೋಡ್ ಮಾಡಿ
-Remove Command: ಆಜ್ಞೆಯನ್ನು ತೆಗೆದುಹಾಕಿ
-Rename Group: ಗುಂಪನ್ನು ಮರುಹೆಸರಿಸಿ
-Rename group '{0}' to:: ಗುಂಪಿಗೆ '{0}' ಅನ್ನು ಮರುಹೆಸರಿಸಿ:
-Repository: ಭಂಡಾರ
-Reset Order: ಆದೇಶವನ್ನು ಮರುಹೊಂದಿಸಿ
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: ಫಲಿತಾಂಶಗಳು: ಸ್ಟೇಟಸ್ ಕಲರ್ ಕೋಡಿಂಗ್‌ನೊಂದಿಗೆ 'ಮೊದಲಿಗೆ ಮಾತ್ರ', 'ಸೆಕೆಂಡ್‌ನಲ್ಲಿ ಮಾತ್ರ', 'ಎರಡರಲ್ಲಿ'.
-Save: ಉಳಿಸಿ
-SAVE: ಉಳಿಸಿ
-Save – persists all settings without reloading current playlist.: ಉಳಿಸು - ಪ್ರಸ್ತುತ ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಮರುಲೋಡ್ ಮಾಡದೆಯೇ ಎಲ್ಲಾ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಮುಂದುವರಿಸುತ್ತದೆ.
-Save as...: ಹೀಗೆ ಉಳಿಸಿ...
-Save current playlist to a new M3U file: ಪ್ರಸ್ತುತ ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಹೊಸ M3U ಫೈಲ್‌ಗೆ ಉಳಿಸಿ
-Save Mapping: ಮ್ಯಾಪಿಂಗ್ ಅನ್ನು ಉಳಿಸಿ
-Save Playlist: ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಉಳಿಸಿ
-Save Status: ಸ್ಥಿತಿಯನ್ನು ಉಳಿಸಿ
-Saved: ಉಳಿಸಲಾಗಿದೆ
-Search channel: : ಹುಡುಕಾಟ ಚಾನಲ್:
-Search channels by name: ಹೆಸರಿನ ಮೂಲಕ ಚಾನಲ್‌ಗಳನ್ನು ಹುಡುಕಿ
-Search channels...: ಚಾನಲ್‌ಗಳನ್ನು ಹುಡುಕಿ...
-sec: ಸೆಕೆಂಡ್
-Second playlist loaded: {0} channels: ಎರಡನೇ ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿದೆ: {0} ಚಾನಲ್‌ಗಳು
-Select a channel to play.: ಪ್ಲೇ ಮಾಡಲು ಚಾನಲ್ ಆಯ್ಕೆಮಾಡಿ.
-Select a playlist first.: ಮೊದಲು ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.
-Select target group:: ಗುರಿ ಗುಂಪನ್ನು ಆಯ್ಕೆಮಾಡಿ:
-Select Theme: ಥೀಮ್ ಆಯ್ಕೆಮಾಡಿ
-Selected theme is saved and applied on restart.: ಆಯ್ಕೆಮಾಡಿದ ಥೀಮ್ ಅನ್ನು ಉಳಿಸಲಾಗಿದೆ ಮತ್ತು ಮರುಪ್ರಾರಂಭಿಸಿದಾಗ ಅನ್ವಯಿಸಲಾಗುತ್ತದೆ.
-Send: ಕಳುಹಿಸು
-Send playlist to Enigma2 decoder: Enigma2 ಡಿಕೋಡರ್‌ಗೆ ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಕಳುಹಿಸಿ
-Send to Enigma2: Enigma2 ಗೆ ಕಳುಹಿಸಿ
-Settings: ಸೆಟ್ಟಿಂಗ್‌ಗಳು
-Show List: ಪಟ್ಟಿಯನ್ನು ತೋರಿಸು
-Show only channels marked as favorites: ಮೆಚ್ಚಿನವುಗಳೆಂದು ಗುರುತಿಸಲಾದ ಚಾನಲ್‌ಗಳನ್ನು ಮಾತ್ರ ತೋರಿಸಿ
-Show or hide the channel list: ಚಾನಲ್ ಪಟ್ಟಿಯನ್ನು ತೋರಿಸಿ ಅಥವಾ ಮರೆಮಾಡಿ
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: ಪರೀಕ್ಷೆ ಮತ್ತು ಬೆಂಬಲಕ್ಕಾಗಿ CORVOBOYS ಮತ್ತು LinuxSat-ಬೆಂಬಲ ಸಮುದಾಯಗಳಿಗೆ ವಿಶೇಷ ಧನ್ಯವಾದಗಳು.
-Start: ಪ್ರಾರಂಭಿಸಿ
-Status: ಸ್ಥಿತಿ
-Stop: ನಿಲ್ಲಿಸು
-Stopped: ನಿಲ್ಲಿಸಿದೆ
-Stream URL: ಸ್ಟ್ರೀಮ್ URL
-Stream URLs: ಸ್ಟ್ರೀಮ್ URL ಗಳು
-Success: ಯಶಸ್ಸು
-Support: ಬೆಂಬಲ
-Support the developer: ಡೆವಲಪರ್ ಅನ್ನು ಬೆಂಬಲಿಸಿ
-Target Field: ಟಾರ್ಗೆಟ್ ಫೀಲ್ಡ್
-Telnet command:: ಟೆಲ್ನೆಟ್ ಆದೇಶ:
-Telnet Commander: ಟೆಲ್ನೆಟ್ ಕಮಾಂಡರ್
-Telnet Config: ಟೆಲ್ನೆಟ್ ಕಾನ್ಫಿಗರ್
-Telnet Console: ಟೆಲ್ನೆಟ್ ಕನ್ಸೋಲ್
-Telnet host not configured. Please set it in Settings.: ಟೆಲ್ನೆಟ್ ಹೋಸ್ಟ್ ಅನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿಲ್ಲ. ದಯವಿಟ್ಟು ಅದನ್ನು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಹೊಂದಿಸಿ.
-Telnet password is empty. Do you want to continue?: ಟೆಲ್ನೆಟ್ ಪಾಸ್‌ವರ್ಡ್ ಖಾಲಿಯಾಗಿದೆ. ನೀವು ಮುಂದುವರಿಸಲು ಬಯಸುವಿರಾ?
-Telnet username not configured. Please set it in Settings.: ಟೆಲ್ನೆಟ್ ಬಳಕೆದಾರ ಹೆಸರನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿಲ್ಲ. ದಯವಿಟ್ಟು ಅದನ್ನು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಹೊಂದಿಸಿ.
-Thanks to: ಧನ್ಯವಾದಗಳು
-Theme picker: ಥೀಮ್ ಪಿಕ್ಕರ್
-Theme picker – accessible via Tools menu on main toolbar.: ಥೀಮ್ ಪಿಕ್ಕರ್ - ಮುಖ್ಯ ಟೂಲ್‌ಬಾರ್‌ನಲ್ಲಿ ಪರಿಕರಗಳ ಮೆನು ಮೂಲಕ ಪ್ರವೇಶಿಸಬಹುದು.
-Themes: ಥೀಮ್ಗಳು
-Time: ಸಮಯ
-Title: ಶೀರ್ಷಿಕೆ
-Tools: ಪರಿಕರಗಳು
-Total: ಒಟ್ಟು
-Total channels in loaded playlist: ಲೋಡ್ ಮಾಡಲಾದ ಪ್ಲೇಪಟ್ಟಿಯಲ್ಲಿ ಒಟ್ಟು ಚಾನಲ್‌ಗಳು
-TV Guide (EPG): ಟಿವಿ ಮಾರ್ಗದರ್ಶಿ (EPG)
-TvgId: ಟಿವಿಜಿಐಡಿ
-Type channel name to filter: ಫಿಲ್ಟರ್ ಮಾಡಲು ಚಾನಲ್ ಹೆಸರನ್ನು ಟೈಪ್ ಮಾಡಿ
-UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: ಸ್ವರೂಪವನ್ನು ಸ್ವಯಂ-ಪತ್ತೆಹಚ್ಚಲು ಸಾಧ್ಯವಿಲ್ಲ. ದಯವಿಟ್ಟು ಡ್ರಾಪ್‌ಡೌನ್‌ನಿಂದ JSON ಅಥವಾ M3U ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.
-Unable to find version in remote project file.: ರಿಮೋಟ್ ಪ್ರಾಜೆಕ್ಟ್ ಫೈಲ್‌ನಲ್ಲಿ ಆವೃತ್ತಿಯನ್ನು ಹುಡುಕಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.
-Unsupported format. Please select JSON or M3U.: ಬೆಂಬಲವಿಲ್ಲದ ಸ್ವರೂಪ. ದಯವಿಟ್ಟು JSON ಅಥವಾ M3U ಆಯ್ಕೆಮಾಡಿ.
-Update: ನವೀಕರಿಸಿ
-Update complete. Restarting...: ನವೀಕರಣ ಪೂರ್ಣಗೊಂಡಿದೆ. ಮರುಪ್ರಾರಂಭಿಸಲಾಗುತ್ತಿದೆ...
-Update Error: ನವೀಕರಣ ದೋಷ
-Update failed: : ನವೀಕರಣ ವಿಫಲವಾಗಿದೆ:
-Updates: ನವೀಕರಣಗಳು
-Upload Error: ಅಪ್ಲೋಡ್ ದೋಷ
-URL: URL
-URL (primary): URL (ಪ್ರಾಥಮಿಕ)
-URL Check: URL ಚೆಕ್
-URL list (one per line): URL ಪಟ್ಟಿ (ಪ್ರತಿ ಸಾಲಿಗೆ ಒಂದು)
-URLs & Status: URL ಗಳು ಮತ್ತು ಸ್ಥಿತಿ
-Version: ಆವೃತ್ತಿ
-Version {0}.{1}.{2}: ಆವೃತ್ತಿ {0}.{1}.{2}
-Version unknown: ಆವೃತ್ತಿ ತಿಳಿದಿಲ್ಲ
-Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus ಮುಚ್ಚಲು ನಿರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ...
-Warning: ಎಚ್ಚರಿಕೆ
-WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
-Youtube URL: Youtube URL
-Youtube URLs: Youtube URL ಗಳು
+(Completely voluntary – no features are blocked)::(ಸಂಪೂರ್ಣವಾಗಿ ಸ್ವಯಂಪ್ರೇರಿತ - ಯಾವುದೇ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿಲ್ಲ)
+(No description)::(ವಿವರಣೆ ಇಲ್ಲ)
+• Add / rename / delete groups.::• ಗುಂಪುಗಳನ್ನು ಸೇರಿಸಿ / ಮರುಹೆಸರಿಸಿ / ಅಳಿಸಿ.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• ಬಫರ್ ಸ್ಲೈಡರ್: HLS ಬಫರ್ ಅನ್ನು ಹೊಂದಿಸಿ (1-10 ಸೆಕೆಂಡುಗಳು).
+• Check URL availability (only visible channels).::• URL ಲಭ್ಯತೆಯನ್ನು ಪರಿಶೀಲಿಸಿ (ಕೇವಲ ಗೋಚರಿಸುವ ಚಾನಲ್‌ಗಳು).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• ಚಾನಲ್ ಹೆಸರುಗಳು, ಗುಂಪುಗಳು, URL ಗಳು, ಲೋಗೋಗಳು, ಟಿವಿಜಿ-ಐಡಿ, ದೇಶ, ಭಾಷೆಗಳು, ಮೆಚ್ಚಿನವುಗಳನ್ನು ಸಂಪಾದಿಸಿ.
+• Edit multiple URLs per channel (popup window).::• ಪ್ರತಿ ಚಾನಲ್‌ಗೆ ಬಹು URL ಗಳನ್ನು ಎಡಿಟ್ ಮಾಡಿ (ಪಾಪ್‌ಅಪ್ ವಿಂಡೋ).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• EPG ಯೊಂದಿಗೆ ಪುಷ್ಟೀಕರಿಸಿ: ಅಸ್ಪಷ್ಟ ಹೊಂದಾಣಿಕೆಯನ್ನು ಬಳಸಿಕೊಂಡು ಕಾಣೆಯಾದ tvg-id ಅನ್ನು ಸೇರಿಸುತ್ತದೆ.
+• EPG info displayed in status bar for current channel.::• ಪ್ರಸ್ತುತ ಚಾನಲ್‌ಗಾಗಿ ಸ್ಥಿತಿ ಪಟ್ಟಿಯಲ್ಲಿ EPG ಮಾಹಿತಿಯನ್ನು ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆ.
+• Export OK / FAIL / filtered lists as M3U or JSON.::• OK / FAIL / ಫಿಲ್ಟರ್ ಮಾಡಿದ ಪಟ್ಟಿಗಳನ್ನು M3U ಅಥವಾ JSON ಆಗಿ ರಫ್ತು ಮಾಡಿ.
+• Fetch logos from remote repository (OwnerPlugins/logos).::• ರಿಮೋಟ್ ರೆಪೊಸಿಟರಿಯಿಂದ ಲೋಗೋಗಳನ್ನು ಪಡೆದುಕೊಳ್ಳಿ (ಮಾಲೀಕ ಪ್ಲಗಿನ್‌ಗಳು/ಲೋಗೋಗಳು).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• ಪೂರ್ಣಪರದೆ UI: ಸೈಡ್‌ಬಾರ್ ಮತ್ತು ಸ್ಥಿತಿ ಪಟ್ಟಿಯನ್ನು ಮರೆಮಾಡುತ್ತದೆ (ನಿರ್ಗಮಿಸಲು ESC).
+• Hide/Show channel list button.::• ಚಾನಲ್ ಪಟ್ಟಿ ಬಟನ್ ಅನ್ನು ಮರೆಮಾಡಿ/ತೋರಿಸು.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• ಹೊಂದಿಕೊಳ್ಳುವ ಫೀಲ್ಡ್ ಮ್ಯಾಪಿಂಗ್‌ನೊಂದಿಗೆ JSON (ಸ್ಥಳೀಯ ಅಥವಾ URL) ಆಮದು ಮಾಡಿ (ಸ್ವಯಂ-ಪತ್ತೆಹಚ್ಚಲು, ಮ್ಯಾಪಿಂಗ್ ಉಳಿಸಿ).
+• Picture‑in‑Picture (PIP) button.::• ಪಿಕ್ಚರ್-ಇನ್-ಪಿಕ್ಚರ್ (ಪಿಐಪಿ) ಬಟನ್.
+• Playback speed: 0.5x, 1x, 2x buttons.::• ಪ್ಲೇಬ್ಯಾಕ್ ವೇಗ: 0.5x, 1x, 2x ಬಟನ್‌ಗಳು.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• ಹೆಡರ್ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ಯಾವುದೇ ಕಾಲಮ್ ಅನ್ನು ವಿಂಗಡಿಸಿ; ಮೂಲ ಕ್ರಮಕ್ಕೆ ಹಿಂತಿರುಗಲು 'ರೀಸೆಟ್ ಆರ್ಡರ್' ಅನ್ನು ಬಳಸಿ.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• ಟೈಮ್‌ಶಿಫ್ಟ್: ಲೈವ್ ಸ್ಟ್ರೀಮ್ ಅನ್ನು ವಿರಾಮಗೊಳಿಸಿ; ಹಿಂದಕ್ಕೆ ಹುಡುಕಲು ಸ್ಲೈಡರ್ ಅನ್ನು ಎಳೆಯಿರಿ; ಹಿಂತಿರುಗಲು 'ಲೈವ್' ಒತ್ತಿರಿ.
+▶ Play Media::▶ ಪ್ಲೇ ಮೀಡಿಯಾ
+◀ Previous::◀ ಹಿಂದಿನ
+16 colour themes + Light/Dark variants.::16 ಬಣ್ಣದ ಥೀಮ್‌ಗಳು + ಲೈಟ್/ಡಾರ್ಕ್ ರೂಪಾಂತರಗಳು.
+A new version is available. Do you want to update now?::ಹೊಸ ಆವೃತ್ತಿ ಲಭ್ಯವಿದೆ. ನೀವು ಇದೀಗ ನವೀಕರಿಸಲು ಬಯಸುವಿರಾ?
+Access via 'Compare' button in Playlist Editor or Tools menu.::ಪ್ಲೇಪಟ್ಟಿ ಸಂಪಾದಕ ಅಥವಾ ಪರಿಕರಗಳ ಮೆನುವಿನಲ್ಲಿ 'ಹೋಲಿಸು' ಬಟನ್ ಮೂಲಕ ಪ್ರವೇಶ.
+Access via 'Edit Playlist' button on main toolbar.::ಮುಖ್ಯ ಟೂಲ್‌ಬಾರ್‌ನಲ್ಲಿ 'ಪ್ಲೇಲಿಸ್ಟ್ ಸಂಪಾದಿಸು' ಬಟನ್ ಮೂಲಕ ಪ್ರವೇಶ.
+Actions::ಕ್ರಿಯೆಗಳು
+Add Command::ಆಜ್ಞೆಯನ್ನು ಸೇರಿಸಿ
+Add Group::ಗುಂಪು ಸೇರಿಸಿ
+Add Mapping::ಮ್ಯಾಪಿಂಗ್ ಸೇರಿಸಿ
+Adjust buffer size (1-10 seconds)::ಬಫರ್ ಗಾತ್ರವನ್ನು ಹೊಂದಿಸಿ (1-10 ಸೆಕೆಂಡುಗಳು)
+Advanced IDs::ಸುಧಾರಿತ ಐಡಿಗಳು
+All channels marked as favorites::ಎಲ್ಲಾ ಚಾನಲ್‌ಗಳನ್ನು ಮೆಚ್ಚಿನವುಗಳೆಂದು ಗುರುತಿಸಲಾಗಿದೆ
+All favorites removed::ಎಲ್ಲಾ ಮೆಚ್ಚಿನವುಗಳನ್ನು ತೆಗೆದುಹಾಕಲಾಗಿದೆ
+Application status::ಅಪ್ಲಿಕೇಶನ್ ಸ್ಥಿತಿ
+Apply::ಅನ್ವಯಿಸು
+Apply / Import::ಅನ್ವಯಿಸು / ಆಮದು ಮಾಡಿ
+Apply changes::ಬದಲಾವಣೆಗಳನ್ನು ಅನ್ವಯಿಸಿ
+Apply Filters::ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಅನ್ವಯಿಸಿ
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::Enigma2 GUI ಅನ್ನು ಮರುಲೋಡ್ ಮಾಡಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?\n\nಇಂಟರ್ಫೇಸ್ ಮರುಪ್ರಾರಂಭಗೊಳ್ಳುತ್ತದೆ (ಕೆಲವು ಸೆಕೆಂಡುಗಳ ಕಾಲ ಕಪ್ಪು ಪರದೆ).
+Auto (recommended)::ಸ್ವಯಂ (ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ)
+Auto-detect::ಸ್ವಯಂ ಪತ್ತೆ
+Automatic check on startup – or click 'Check for updates' in Tools menu.::ಪ್ರಾರಂಭದಲ್ಲಿ ಸ್ವಯಂಚಾಲಿತ ಪರಿಶೀಲನೆ - ಅಥವಾ ಪರಿಕರಗಳ ಮೆನುವಿನಲ್ಲಿ 'ನವೀಕರಣಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಿ' ಕ್ಲಿಕ್ ಮಾಡಿ.
+Bouquet Name::ಪುಷ್ಪಗುಚ್ಛ ಹೆಸರು
+Bouquet sent and Enigma2 channel list reloaded.::ಬೊಕೆ ಕಳುಹಿಸಲಾಗಿದೆ ಮತ್ತು Enigma2 ಚಾನಲ್ ಪಟ್ಟಿಯನ್ನು ಮರುಲೋಡ್ ಮಾಡಲಾಗಿದೆ.
+Buffer (seconds)::ಬಫರ್ (ಸೆಕೆಂಡ್‌ಗಳು)
+Buffer size – adjust HLS buffer seconds.::ಬಫರ್ ಗಾತ್ರ - HLS ಬಫರ್ ಸೆಕೆಂಡುಗಳನ್ನು ಹೊಂದಿಸಿ.
+Cache::ಸಂಗ್ರಹ
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::ಸಂಗ್ರಹ ಫೋಲ್ಡರ್: %TEMP%\\LiveGardenTVPlus\\epg_cache
+Cancel::ರದ್ದುಮಾಡು
+CANCEL::ರದ್ದುಮಾಡು
+Cannot open browser::ಬ್ರೌಸರ್ ತೆರೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ
+Category::ವರ್ಗ
+Changelog::ಚೇಂಜ್ಲಾಗ್
+Channel Details::ಚಾನಲ್ ವಿವರಗಳು
+Channel Down::ಚಾನಲ್ ಡೌನ್
+Channel Info::ಚಾನಲ್ ಮಾಹಿತಿ
+Channel Name::ಚಾನಲ್ ಹೆಸರು
+Channel Up::ಚಾನೆಲ್ ಅಪ್
+Channel updated successfully.::ಚಾನಲ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ.
+channels from::ನಿಂದ ಚಾನಲ್‌ಗಳು
+channels from JSON::JSON ನಿಂದ ಚಾನಲ್‌ಗಳು
+channels from JSON URL::JSON URL ನಿಂದ ಚಾನಲ್‌ಗಳು
+channels from URL::URL ನಿಂದ ಚಾನಲ್‌ಗಳು
+Check Duplicates::ನಕಲುಗಳನ್ನು ಪರಿಶೀಲಿಸಿ
+Check for updates::ನವೀಕರಣಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಿ
+Check URLs::URL ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ
+Clear::ತೆರವುಗೊಳಿಸಿ
+Clear EPG Cache::EPG ಸಂಗ್ರಹವನ್ನು ತೆರವುಗೊಳಿಸಿ
+Clear Filters::ಫಿಲ್ಟರ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ
+Clear search::ಹುಡುಕಾಟವನ್ನು ತೆರವುಗೊಳಿಸಿ
+Click for details::ವಿವರಗಳಿಗಾಗಿ ಕ್ಲಿಕ್ ಮಾಡಿ
+Close::ಮುಚ್ಚಿ
+Close current playlist::ಪ್ರಸ್ತುತ ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಮುಚ್ಚಿ
+Close Playlist::ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಮುಚ್ಚಿ
+Code::ಕೋಡ್
+Code copied to clipboard.::ಕೋಡ್ ಅನ್ನು ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾಗಿದೆ.
+Command name:::ಆಜ್ಞೆಯ ಹೆಸರು:
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::ಸಮುದಾಯ ಮತ್ತು ಪರೀಕ್ಷೆ: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare::ಹೋಲಿಸಿ
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::ಇವರಿಂದ ಹೋಲಿಕೆ ಮಾಡಿ: ಆದ್ಯತೆ (ಹೆಸರು→ಗುಂಪು→tvg-id), ಹೆಸರು, ಗುಂಪು (ಕೇಸ್-ಸೆನ್ಸಿಟಿವ್), ಅಥವಾ TvgId.
+Compare Playlists::ಪ್ಲೇಪಟ್ಟಿಗಳನ್ನು ಹೋಲಿಕೆ ಮಾಡಿ
+Compare two playlists – load first (current playlist) and second (from file or URL).::ಎರಡು ಪ್ಲೇಪಟ್ಟಿಗಳನ್ನು ಹೋಲಿಕೆ ಮಾಡಿ - ಮೊದಲು ಲೋಡ್ ಮಾಡಿ (ಪ್ರಸ್ತುತ ಪ್ಲೇಪಟ್ಟಿ) ಮತ್ತು ಎರಡನೆಯದು (ಫೈಲ್ ಅಥವಾ URL ನಿಂದ).
+Compare...::ಹೋಲಿಸಿ...
+Comparison results: {0} channels::ಹೋಲಿಕೆ ಫಲಿತಾಂಶಗಳು: {0} ಚಾನಲ್‌ಗಳು
+Configuration Missing::ಕಾನ್ಫಿಗರೇಶನ್ ಕಾಣೆಯಾಗಿದೆ
+Confirm Delete::ಅಳಿಸುವುದನ್ನು ದೃಢೀಕರಿಸಿ
+Confirm Reload::ಮರುಲೋಡ್ ದೃಢೀಕರಿಸಿ
+Connect::ಸಂಪರ್ಕಿಸಿ
+Connected::ಸಂಪರ್ಕಗೊಂಡಿದೆ
+Copied::ನಕಲು ಮಾಡಲಾಗಿದೆ
+Copy::ನಕಲು ಮಾಡಿ
+CORVOBOYS.ORG::CORVOYS.ORG
+Country::ದೇಶ
+Credits::ಕ್ರೆಡಿಟ್‌ಗಳು
+Delete channel '{0}'?::ಚಾನಲ್ '{0}' ಅಳಿಸುವುದೇ?
+Delete Group::ಗುಂಪನ್ನು ಅಳಿಸಿ
+Delete Selected::ಆಯ್ಕೆ ಮಾಡಿರುವುದನ್ನು ಅಳಿಸಿ
+Deleted::ಅಳಿಸಲಾಗಿದೆ
+Description::ವಿವರಣೆ
+Details::ವಿವರಗಳು
+Developed by Lululla::ಲುಲುಲ್ಲಾ ಅಭಿವೃದ್ಧಿಪಡಿಸಿದ್ದಾರೆ
+Developer: Lululla::ಡೆವಲಪರ್: ಲುಲುಲ್ಲಾ
+Disconnect::ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಿ
+Disconnected::ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ
+Display as::ಎಂದು ಪ್ರದರ್ಶಿಸಿ
+Do you want to load this edited playlist now?::ನೀವು ಈಗ ಈ ಎಡಿಟ್ ಮಾಡಿದ ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಲು ಬಯಸುವಿರಾ?
+Double speed (2x)::ಡಬಲ್ ವೇಗ (2x)
+Downloading playlist...::ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...
+Downloads ZIP, replaces files, restarts app – settings preserved.::ZIP ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡುತ್ತದೆ, ಫೈಲ್‌ಗಳನ್ನು ಬದಲಾಯಿಸುತ್ತದೆ, ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸುತ್ತದೆ - ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಸಂರಕ್ಷಿಸಲಾಗಿದೆ.
+Drag & drop – drop M3U or JSON files directly onto main window.::ಎಳೆಯಿರಿ ಮತ್ತು ಬಿಡಿ - M3U ಅಥವಾ JSON ಫೈಲ್‌ಗಳನ್ನು ನೇರವಾಗಿ ಮುಖ್ಯ ವಿಂಡೋಗೆ ಬಿಡಿ.
+Drag to seek back in buffer::ಬಫರ್‌ನಲ್ಲಿ ಹಿಂತಿರುಗಲು ಎಳೆಯಿರಿ
+Duplicate URLs found:\n\n::ನಕಲಿ URL ಗಳು ಕಂಡುಬಂದಿವೆ:\n\n
+Edit Command::ಆಜ್ಞೆಯನ್ನು ಸಂಪಾದಿಸಿ
+Edit command name:::ಆಜ್ಞೆಯ ಹೆಸರನ್ನು ಸಂಪಾದಿಸಿ:
+Edit Playlist::ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಸಂಪಾದಿಸಿ
+Edit telnet command:::ಟೆಲ್ನೆಟ್ ಆಜ್ಞೆಯನ್ನು ಸಂಪಾದಿಸಿ:
+Edit URLs::URL ಗಳನ್ನು ಸಂಪಾದಿಸಿ
+Empty Password::ಖಾಲಿ ಪಾಸ್ವರ್ಡ್
+End::ಅಂತ್ಯ
+Enigma2::ಎನಿಗ್ಮಾ2
+Enrich with EPG::EPG ಯೊಂದಿಗೆ ಸಮೃದ್ಧಗೊಳಿಸಿ
+Enter bouquet name (without spaces):::ಪುಷ್ಪಗುಚ್ಛದ ಹೆಸರನ್ನು ನಮೂದಿಸಿ (ಸ್ಥಳಗಳಿಲ್ಲದೆ):
+Enter JSON URL:::JSON URL ನಮೂದಿಸಿ:
+Enter new group name:::ಹೊಸ ಗುಂಪಿನ ಹೆಸರನ್ನು ನಮೂದಿಸಿ:
+Enter playlist URL (JSON or M3U):::ಪ್ಲೇಪಟ್ಟಿ URL ಅನ್ನು ನಮೂದಿಸಿ (JSON ಅಥವಾ M3U):
+Enter playlist URL (M3U or JSON):::ಪ್ಲೇಪಟ್ಟಿ URL ನಮೂದಿಸಿ (M3U ಅಥವಾ JSON):
+EPG::EPG
+Epg & Favorites::ಎಪಿಜಿ ಮತ್ತು ಮೆಚ್ಚಿನವುಗಳು
+EPG & Favorites::EPG ಮತ್ತು ಮೆಚ್ಚಿನವುಗಳು
+Epg & Logos::Epg & ಲೋಗೋಗಳು
+EPG & Logos::EPG ಮತ್ತು ಲೋಗೋಗಳು
+EPG cache cleared successfully.::EPG ಸಂಗ್ರಹವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ತೆರವುಗೊಳಿಸಲಾಗಿದೆ.
+EPG Details::EPG ವಿವರಗಳು
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::EPG ಗೈಡ್ - ಮುಖ್ಯ ಟೂಲ್‌ಬಾರ್‌ನಲ್ಲಿರುವ ಬಟನ್ ಪ್ರೋಗ್ರಾಂ ವಿವರಗಳೊಂದಿಗೆ ಪೂರ್ಣ ಗ್ರಿಡ್ ಅನ್ನು ತೋರಿಸುತ್ತದೆ (ಮಾಹಿತಿಗಾಗಿ ಡಬಲ್-ಕ್ಲಿಕ್ ಮಾಡಿ).
+EPG Matching Threshold::EPG ಹೊಂದಾಣಿಕೆಯ ಮಿತಿ
+EPG Source::EPG ಮೂಲ
+EPG source – can be set in Settings (epgshare01 or custom URL).::EPG ಮೂಲ - ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಹೊಂದಿಸಬಹುದು (epgshare01 ಅಥವಾ ಕಸ್ಟಮ್ URL).
+EPG source – choose XMLTV file or enter custom URL.::EPG ಮೂಲ - XMLTV ಫೈಲ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ ಅಥವಾ ಕಸ್ಟಮ್ URL ಅನ್ನು ನಮೂದಿಸಿ.
+EPG Source Missing::EPG ಮೂಲ ಕಾಣೆಯಾಗಿದೆ
+Error::ದೋಷ
+Error clearing cache: {0}::ಸಂಗ್ರಹವನ್ನು ತೆರವುಗೊಳಿಸುವಲ್ಲಿ ದೋಷ: {0}
+Error loading::ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ
+Error loading EPG list: {0}::EPG ಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ: {0}
+Error loading file: {0}::ಫೈಲ್ ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ: {0}
+Error loading playlists: {0}::ಪ್ಲೇಪಟ್ಟಿಗಳನ್ನು ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ: {0}
+Error loading URL: {0}::URL ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ: {0}
+ERROR: player.html not found.::ದೋಷ: player.html ಕಂಡುಬಂದಿಲ್ಲ.
+Exit::ನಿರ್ಗಮಿಸಿ
+Export all::ಎಲ್ಲವನ್ನೂ ರಫ್ತು ಮಾಡಿ
+Export Favorites::ಮೆಚ್ಚಿನವುಗಳನ್ನು ರಫ್ತು ಮಾಡಿ
+Export Filtered JSON::ಫಿಲ್ಟರ್ ಮಾಡಿದ JSON ಅನ್ನು ರಫ್ತು ಮಾಡಿ
+Export Filtered M3U::ಫಿಲ್ಟರ್ ಮಾಡಿದ M3U ಅನ್ನು ರಫ್ತು ಮಾಡಿ
+Export JSON::JSON ರಫ್ತು ಮಾಡಿ
+Export KO::KO ರಫ್ತು ಮಾಡಿ
+Export missing::ರಫ್ತು ಕಾಣೆಯಾಗಿದೆ
+Export OK::ರಫ್ತು ಸರಿ
+Export only favorite channels to a new M3U file::ಹೊಸ M3U ಫೈಲ್‌ಗೆ ಮೆಚ್ಚಿನ ಚಾನಲ್‌ಗಳನ್ನು ಮಾತ್ರ ರಫ್ತು ಮಾಡಿ
+Export results as JSON or M3U – export missing channels or all channels.::JSON ಅಥವಾ M3U ನಂತೆ ಫಲಿತಾಂಶಗಳನ್ನು ರಫ್ತು ಮಾಡಿ - ಕಾಣೆಯಾದ ಚಾನಲ್‌ಗಳು ಅಥವಾ ಎಲ್ಲಾ ಚಾನಲ್‌ಗಳನ್ನು ರಫ್ತು ಮಾಡಿ.
+Export selected::ರಫ್ತು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ
+Export Selected::ರಫ್ತು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ
+Exported::ರಫ್ತು ಮಾಡಲಾಗಿದೆ
+Exported {0} channels to {1}::{0} ಚಾನಲ್‌ಗಳನ್ನು {1} ಗೆ ರಫ್ತು ಮಾಡಲಾಗಿದೆ
+Extracting update...::ನವೀಕರಣವನ್ನು ಹೊರತೆಗೆಯಲಾಗುತ್ತಿದೆ...
+Failed to download playlist::ಪ್ಲೇಪಟ್ಟಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ
+Failed to load playlist::ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::Bouquets.tv ಅನ್ನು ನವೀಕರಿಸಲು ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು Enigma2 ಸಾಧನದಲ್ಲಿ ಫೈಲ್ ಅನುಮತಿಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::ಪುಷ್ಪಗುಚ್ಛವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಟೆಲ್ನೆಟ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು (ಹೋಸ್ಟ್, ಪೋರ್ಟ್, ಬಳಕೆದಾರಹೆಸರು, ಪಾಸ್‌ವರ್ಡ್) ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.
+Favorite::ಮೆಚ್ಚಿನ
+Favorites::ಮೆಚ್ಚಿನವುಗಳು
+Favorites only::ಮೆಚ್ಚಿನವುಗಳು ಮಾತ್ರ
+Fetch Logos::ಲೋಗೋಗಳನ್ನು ಪಡೆದುಕೊಳ್ಳಿ
+File::ಫೈಲ್
+File {0} already exists. Overwrite?::ಫೈಲ್ {0} ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ. ತಿದ್ದಿ ಬರೆಯುವುದೇ?
+File exists::ಫೈಲ್ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ
+Filters::ಶೋಧಕಗಳು
+Format Detection::ಸ್ವರೂಪ ಪತ್ತೆ
+Fullscreen::ಪೂರ್ಣಪರದೆ
+Fullscreen (hide UI) - press ESC to exit::ಪೂರ್ಣಪರದೆ (UI ಮರೆಮಾಡಿ) - ನಿರ್ಗಮಿಸಲು ESC ಒತ್ತಿರಿ
+Geo & Country::ಜಿಯೋ ಮತ್ತು ದೇಶ
+GeoBlocked::ಜಿಯೋಬ್ಲಾಕ್ ಮಾಡಲಾಗಿದೆ
+GitHub Error::GitHub ದೋಷ
+Go back to live::ಬದುಕಲು ಹಿಂತಿರುಗಿ
+Grid::ಗ್ರಿಡ್
+Group::ಗುಂಪು
+Half speed (0.5x)::ಅರ್ಧ ವೇಗ (0.5x)
+Help::ಸಹಾಯ
+Hide List::ಪಟ್ಟಿಯನ್ನು ಮರೆಮಾಡಿ
+HLS playback: hls.js (MIT license)::HLS ಪ್ಲೇಬ್ಯಾಕ್: hls.js (MIT ಪರವಾನಗಿ)
+Image::ಚಿತ್ರ
+Import::ಆಮದು ಮಾಡಿಕೊಳ್ಳಿ
+Import cancelled or no channels mapped.::ಆಮದು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ ಅಥವಾ ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಮ್ಯಾಪ್ ಮಾಡಲಾಗಿಲ್ಲ.
+Import Error::ಆಮದು ದೋಷ
+Import error: {0}::ಆಮದು ದೋಷ: {0}
+Import from URL::URL ನಿಂದ ಆಮದು ಮಾಡಿ
+Import JSON::JSON ಆಮದು ಮಾಡಿ
+Import JSON from URL::URL ನಿಂದ JSON ಅನ್ನು ಆಮದು ಮಾಡಿ
+Import Local::ಸ್ಥಳೀಯವನ್ನು ಆಮದು ಮಾಡಿ
+Imported {0} channels from code.::ಕೋಡ್‌ನಿಂದ {0} ಚಾನಲ್‌ಗಳನ್ನು ಆಮದು ಮಾಡಲಾಗಿದೆ.
+Imported {0} channels from JSON via mapping.::ಮ್ಯಾಪಿಂಗ್ ಮೂಲಕ JSON ನಿಂದ {0} ಚಾನಲ್‌ಗಳನ್ನು ಆಮದು ಮಾಡಲಾಗಿದೆ.
+Imported {0} channels from URL.::URL ನಿಂದ {0} ಚಾನಲ್‌ಗಳನ್ನು ಆಮದು ಮಾಡಲಾಗಿದೆ.
+In Both::ಎರಡರಲ್ಲೂ
+Info::ಮಾಹಿತಿ
+Info on::ಬಗ್ಗೆ ಮಾಹಿತಿ
+Invalid JSON: {0}::ಅಮಾನ್ಯ JSON: {0}
+Invalid playlist URL.::ಅಮಾನ್ಯ ಪ್ಲೇಪಟ್ಟಿ URL.
+Invalid URL.::ಅಮಾನ್ಯ URL.
+Json::ಜೆಸನ್
+JSON::JSON
+JSON parsing error: {0}::JSON ಪಾರ್ಸಿಂಗ್ ದೋಷ: {0}
+JSON Property::JSON ಆಸ್ತಿ
+Ko-fi::ಕಾಫಿ
+Language::ಭಾಷೆ
+Language – change UI language dynamically (translations in Languages folder).::ಭಾಷೆ - UI ಭಾಷೆಯನ್ನು ಕ್ರಿಯಾತ್ಮಕವಾಗಿ ಬದಲಾಯಿಸಿ (ಭಾಷೆಗಳ ಫೋಲ್ಡರ್‌ನಲ್ಲಿ ಅನುವಾದಗಳು).
+Languages::ಭಾಷೆಗಳು
+Languages (comma)::ಭಾಷೆಗಳು (ಅಲ್ಪವಿರಾಮ)
+LINUXSAT-SUPPORT.COM::LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help::LiveGardenTVPlus ಸಹಾಯ
+LOAD::ಲೋಡ್ ಮಾಡಿ
+Load a playlist first.::ಮೊದಲು ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಿ.
+Load a second playlist first.::ಮೊದಲು ಎರಡನೇ ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಿ.
+Load File::ಫೈಲ್ ಅನ್ನು ಲೋಡ್ ಮಾಡಿ
+Load from file...::ಫೈಲ್‌ನಿಂದ ಲೋಡ್ ಮಾಡಿ...
+Load from URL::URL ನಿಂದ ಲೋಡ್ ಮಾಡಿ
+Load from URL...::URL ನಿಂದ ಲೋಡ್ ಮಾಡಿ...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::ಸ್ಥಳೀಯ M3U/JSON ಫೈಲ್ ಅನ್ನು ಲೋಡ್ ಮಾಡಿ - ಎಡಿಟರ್‌ನಲ್ಲಿ 'ಲೋಡ್ ಫೈಲ್' ಬಟನ್ (ಟೂಲ್‌ಬಾರ್) ಅಥವಾ 'ಫೈಲ್ ತೆರೆಯಿರಿ' ಮೂಲಕ.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ M3U/JSON URL ಅನ್ನು ಲೋಡ್ ಮಾಡಿ - 'ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಲೋಡ್ ಮಾಡಿ' ಬಟನ್ (ಟೂಲ್‌ಬಾರ್) ಅಥವಾ ಸಂಪಾದಕದಲ್ಲಿ 'URL ನಿಂದ ತೆರೆಯಿರಿ'.
+Load Playlist::ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಿ
+Load playlist file (M3U/JSON) from your computer::ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್‌ನಿಂದ ಪ್ಲೇಪಟ್ಟಿ ಫೈಲ್ (M3U/JSON) ಲೋಡ್ ಮಾಡಿ
+Loaded::ಲೋಡ್ ಮಾಡಲಾಗಿದೆ
+Loaded {0} channels from JSON file via mapping.::ಮ್ಯಾಪಿಂಗ್ ಮೂಲಕ JSON ಫೈಲ್‌ನಿಂದ {0} ಚಾನಲ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿದೆ.
+Loaded {0} channels from JSON URL.::JSON URL ನಿಂದ {0} ಚಾನಲ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿದೆ.
+Loaded {0} channels from M3U file.::M3U ಫೈಲ್‌ನಿಂದ {0} ಚಾನಲ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿದೆ.
+Loaded {0} channels from M3U URL.::M3U URL ನಿಂದ {0} ಚಾನಲ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿದೆ.
+Loading...::ಲೋಡ್ ಆಗುತ್ತಿದೆ...
+Logo::ಲೋಗೋ
+Logo Picker – in editor, click '...' to choose logo from gallery.::ಲೋಗೋ ಪಿಕ್ಕರ್ - ಎಡಿಟರ್‌ನಲ್ಲಿ, ಗ್ಯಾಲರಿಯಿಂದ ಲೋಗೋ ಆಯ್ಕೆ ಮಾಡಲು '...' ಕ್ಲಿಕ್ ಮಾಡಿ.
+Logo Preview::ಲೋಗೋ ಪೂರ್ವವೀಕ್ಷಣೆ
+Logo URL::ಲೋಗೋ URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).::ಲೋಗೋಗಳು - GitHub ರೆಪೊಸಿಟರಿಯಿಂದ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ (ಸೆಟ್ಟಿಂಗ್‌ಗಳು → ಲೋಗೋಸ್ ಮೂಲ).
+Logos Matching Threshold::ಲೋಗೋಗಳ ಹೊಂದಾಣಿಕೆಯ ಮಿತಿ
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::ಲೋಗೋಸ್ ರೆಪೊಸಿಟರಿ - ಮಾಲೀಕರು/ರೆಪೊ/ಪಾತ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ (ಡೀಫಾಲ್ಟ್ ಓನರ್ ಪ್ಲಗಿನ್‌ಗಳು/ಲೋಗೊಗಳು).
+Logos Source::ಲೋಗೋಗಳ ಮೂಲ
+Logos Subfolder::ಲೋಗೋಗಳ ಉಪಫೋಲ್ಡರ್
+M3U::M3U
+M3U parsing error: {0}::M3U ಪಾರ್ಸಿಂಗ್ ದೋಷ: {0}
+Map JSON properties to channel fields:::ಚಾನಲ್ ಕ್ಷೇತ್ರಗಳಿಗೆ JSON ಗುಣಲಕ್ಷಣಗಳನ್ನು ನಕ್ಷೆ ಮಾಡಿ:
+Mapping saved for future imports of this file.::ಈ ಫೈಲ್‌ನ ಭವಿಷ್ಯದ ಆಮದುಗಳಿಗಾಗಿ ಮ್ಯಾಪಿಂಗ್ ಅನ್ನು ಉಳಿಸಲಾಗಿದೆ.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::ಹೊಂದಾಣಿಕೆಯ ಮಿತಿಗಳು - EPG ಮತ್ತು ಲೋಗೋಗಳಿಗಾಗಿ ಅಸ್ಪಷ್ಟ ಹೊಂದಾಣಿಕೆಯ ಸೂಕ್ಷ್ಮತೆಯನ್ನು ಹೊಂದಿಸಿ.
+Mini Player::ಮಿನಿ ಪ್ಲೇಯರ್
+Move to Group::ಗುಂಪಿಗೆ ಸರಿಸಿ
+Moved::ಸ್ಥಳಾಂತರಿಸಲಾಗಿದೆ
+Name::ಹೆಸರು
+Nanoid::ನ್ಯಾನಾಯ್ಡ್
+Network error::ನೆಟ್‌ವರ್ಕ್ ದೋಷ
+New Playlist::ಹೊಸ ಪ್ಲೇಪಟ್ಟಿ
+Next::ಮುಂದೆ
+Next ▶::ಮುಂದೆ ▶
+No .m3u files found on GitHub repository.::GitHub ರೆಪೊಸಿಟರಿಯಲ್ಲಿ ಯಾವುದೇ .m3u ಫೈಲ್‌ಗಳು ಕಂಡುಬಂದಿಲ್ಲ.
+No cache folder found.::ಯಾವುದೇ ಸಂಗ್ರಹ ಫೋಲ್ಡರ್ ಕಂಡುಬಂದಿಲ್ಲ.
+No channel selected::ಯಾವುದೇ ಚಾನಲ್ ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ
+No channel selected.::ಯಾವುದೇ ಚಾನಲ್ ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ.
+No channels could be mapped or import cancelled.::ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಮ್ಯಾಪ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ ಅಥವಾ ಆಮದು ರದ್ದುಗೊಳಿಸಲಾಗುವುದಿಲ್ಲ.
+No channels could be mapped. Check your mapping rules.::ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಮ್ಯಾಪ್ ಮಾಡಲಾಗಲಿಲ್ಲ. ನಿಮ್ಮ ಮ್ಯಾಪಿಂಗ್ ನಿಯಮಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.
+No channels found in JSON.::JSON ನಲ್ಲಿ ಯಾವುದೇ ಚಾನಲ್‌ಗಳು ಕಂಡುಬಂದಿಲ್ಲ.
+No channels found in M3U.::M3U ನಲ್ಲಿ ಯಾವುದೇ ಚಾನಲ್‌ಗಳು ಕಂಡುಬಂದಿಲ್ಲ.
+No channels loaded from JSON URL.::JSON URL ನಿಂದ ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿಲ್ಲ.
+No channels loaded from M3U URL.::M3U URL ನಿಂದ ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿಲ್ಲ.
+No channels loaded from M3U.::M3U ನಿಂದ ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿಲ್ಲ.
+No channels loaded.::ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿಲ್ಲ.
+No channels mapped::ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಮ್ಯಾಪ್ ಮಾಡಲಾಗಿಲ್ಲ
+No channels selected.::ಯಾವುದೇ ಚಾನಲ್‌ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಲಾಗಿಲ್ಲ.
+No channels to import.::ಆಮದು ಮಾಡಲು ಯಾವುದೇ ಚಾನಲ್‌ಗಳಿಲ್ಲ.
+No duplicate URLs found.::ಯಾವುದೇ ನಕಲಿ URL ಗಳು ಕಂಡುಬಂದಿಲ್ಲ.
+No EPG data::ಇಪಿಜಿ ಡೇಟಾ ಇಲ್ಲ
+No EPG information available for this channel.::ಈ ಚಾನಲ್‌ಗೆ ಯಾವುದೇ EPG ಮಾಹಿತಿ ಲಭ್ಯವಿಲ್ಲ.
+No EPG source configured. Please select one from the combo or go to Settings.::ಯಾವುದೇ EPG ಮೂಲವನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿಲ್ಲ. ಕಾಂಬೊದಿಂದ ಒಂದನ್ನು ಆಯ್ಕೆಮಾಡಿ ಅಥವಾ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಹೋಗಿ.
+No EPG source configured. Would you like to open settings to select one?::ಯಾವುದೇ EPG ಮೂಲವನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿಲ್ಲ. ಒಂದನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೀವು ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಲು ಬಯಸುವಿರಾ?
+No favorite channels found.::ಯಾವುದೇ ಮೆಚ್ಚಿನ ಚಾನಲ್‌ಗಳು ಕಂಡುಬಂದಿಲ್ಲ.
+No favorite channels to export.::ರಫ್ತು ಮಾಡಲು ಯಾವುದೇ ನೆಚ್ಚಿನ ಚಾನಲ್‌ಗಳಿಲ್ಲ.
+No missing channels to export.::ರಫ್ತು ಮಾಡಲು ಕಾಣೆಯಾದ ಚಾನಲ್‌ಗಳಿಲ್ಲ.
+No playlist found::ಯಾವುದೇ ಪ್ಲೇಪಟ್ಟಿ ಕಂಡುಬಂದಿಲ್ಲ
+No second playlist loaded.::ಯಾವುದೇ ಎರಡನೇ ಪ್ಲೇಪಟ್ಟಿ ಲೋಡ್ ಆಗಿಲ್ಲ.
+No stream URL available for this channel.::ಈ ಚಾನಲ್‌ಗೆ ಯಾವುದೇ ಸ್ಟ್ರೀಮ್ URL ಲಭ್ಯವಿಲ್ಲ.
+No text to import.::ಆಮದು ಮಾಡಲು ಯಾವುದೇ ಪಠ್ಯವಿಲ್ಲ.
+No updates available.::ಯಾವುದೇ ನವೀಕರಣಗಳು ಲಭ್ಯವಿಲ್ಲ.
+Normal speed (1x)::ಸಾಮಾನ್ಯ ವೇಗ (1x)
+Not connected to the box.::ಬಾಕ್ಸ್‌ಗೆ ಸಂಪರ್ಕಗೊಂಡಿಲ್ಲ.
+Now::ಈಗ
+OK::ಸರಿ
+Online Playlist::ಆನ್‌ಲೈನ್ ಪ್ಲೇಪಟ್ಟಿ
+Online playlist – select from GitHub repository (auto‑refresh).::ಆನ್‌ಲೈನ್ ಪ್ಲೇಪಟ್ಟಿ - GitHub ರೆಪೊಸಿಟರಿಯಿಂದ ಆಯ್ಕೆಮಾಡಿ (ಸ್ವಯಂ-ರಿಫ್ರೆಶ್).
+Only in First::ಮೊದಲಿನಲ್ಲಿ ಮಾತ್ರ
+Only in Second::ಎರಡನೇಯಲ್ಲಿ ಮಾತ್ರ
+Open File...::ಫೈಲ್ ತೆರೆಯಿರಿ...
+Open from URL::URL ನಿಂದ ತೆರೆಯಿರಿ
+Open Playlist::ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ತೆರೆಯಿರಿ
+Pause/Resume live stream::ಲೈವ್ ಸ್ಟ್ರೀಮ್ ಅನ್ನು ವಿರಾಮಗೊಳಿಸಿ/ಪುನರಾರಂಭಿಸು
+Paused::ವಿರಾಮಗೊಳಿಸಲಾಗಿದೆ
+PayPal::ಪೇಪಾಲ್
+Picture-in-Picture mode::ಪಿಕ್ಚರ್-ಇನ್-ಪಿಕ್ಚರ್ ಮೋಡ್
+Play/Pause::ಪ್ಲೇ/ವಿರಾಮ
+Player Media Controls::ಪ್ಲೇಯರ್ ಮಾಧ್ಯಮ ನಿಯಂತ್ರಣಗಳು
+Playing Media::ಮಾಧ್ಯಮವನ್ನು ಪ್ಲೇ ಮಾಡಲಾಗುತ್ತಿದೆ
+Playlist & Groups::ಪ್ಲೇಪಟ್ಟಿ ಮತ್ತು ಗುಂಪುಗಳು
+Playlist closed::ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಮುಚ್ಚಲಾಗಿದೆ
+Playlist Comparison::ಪ್ಲೇಪಟ್ಟಿ ಹೋಲಿಕೆ
+Playlist Editor::ಪ್ಲೇಪಟ್ಟಿ ಸಂಪಾದಕ
+Playlist Loading::ಪ್ಲೇಪಟ್ಟಿ ಲೋಡ್ ಆಗುತ್ತಿದೆ
+Playlist Management::ಪ್ಲೇಪಟ್ಟಿ ನಿರ್ವಹಣೆ
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::ಪ್ಲೇಪಟ್ಟಿ ರೆಪೊಸಿಟರಿ: ಓನರ್‌ಪ್ಲಗಿನ್‌ಗಳು/ಟಿವುಸ್ಟ್ರೀಮ್‌ಲಿಸ್ಟ್ (ಇಟಾಲಿಯನ್ ಮತ್ತು ಅಂತರರಾಷ್ಟ್ರೀಯ ಸ್ಟ್ರೀಮ್‌ಗಳು)
+Please select a program first.::ದಯವಿಟ್ಟು ಮೊದಲು ಪ್ರೋಗ್ರಾಂ ಆಯ್ಕೆಮಾಡಿ.
+Preview (first 5 channels)::ಪೂರ್ವವೀಕ್ಷಣೆ (ಮೊದಲ 5 ಚಾನಲ್‌ಗಳು)
+Preview error: {0}::ಪೂರ್ವವೀಕ್ಷಣೆ ದೋಷ: {0}
+Program Details::ಕಾರ್ಯಕ್ರಮದ ವಿವರಗಳು
+Ready::ಸಿದ್ಧವಾಗಿದೆ
+Recent::ಇತ್ತೀಚಿನ
+Recent files – quick access to last 5 opened playlists.::ಇತ್ತೀಚಿನ ಫೈಲ್‌ಗಳು - ಕೊನೆಯ 5 ತೆರೆದ ಪ್ಲೇಪಟ್ಟಿಗಳಿಗೆ ತ್ವರಿತ ಪ್ರವೇಶ.
+Recent playlists::ಇತ್ತೀಚಿನ ಪ್ಲೇಪಟ್ಟಿಗಳು
+Refresh Code::ರಿಫ್ರೆಶ್ ಕೋಡ್
+Refresh EPG::EPG ಅನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ
+Refresh EPG List::EPG ಪಟ್ಟಿಯನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ
+Refresh from GitHub::GitHub ನಿಂದ ರಿಫ್ರೆಶ್ ಮಾಡಿ
+Refresh List::ಪಟ್ಟಿಯನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ
+Reload GUI::GUI ಅನ್ನು ಮರುಲೋಡ್ ಮಾಡಿ
+Remove Command::ಆಜ್ಞೆಯನ್ನು ತೆಗೆದುಹಾಕಿ
+Rename Group::ಗುಂಪನ್ನು ಮರುಹೆಸರಿಸಿ
+Rename group '{0}' to:::ಗುಂಪಿಗೆ '{0}' ಅನ್ನು ಮರುಹೆಸರಿಸಿ:
+Repository::ಭಂಡಾರ
+Reset Order::ಆದೇಶವನ್ನು ಮರುಹೊಂದಿಸಿ
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::ಫಲಿತಾಂಶಗಳು: ಸ್ಟೇಟಸ್ ಕಲರ್ ಕೋಡಿಂಗ್‌ನೊಂದಿಗೆ 'ಮೊದಲಿಗೆ ಮಾತ್ರ', 'ಸೆಕೆಂಡ್‌ನಲ್ಲಿ ಮಾತ್ರ', 'ಎರಡರಲ್ಲಿ'.
+Save::ಉಳಿಸಿ
+SAVE::ಉಳಿಸಿ
+Save – persists all settings without reloading current playlist.::ಉಳಿಸು - ಪ್ರಸ್ತುತ ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಮರುಲೋಡ್ ಮಾಡದೆಯೇ ಎಲ್ಲಾ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಮುಂದುವರಿಸುತ್ತದೆ.
+Save as...::ಹೀಗೆ ಉಳಿಸಿ...
+Save current playlist to a new M3U file::ಪ್ರಸ್ತುತ ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಹೊಸ M3U ಫೈಲ್‌ಗೆ ಉಳಿಸಿ
+Save Favorites::ಮೆಚ್ಚಿನವುಗಳನ್ನು ಉಳಿಸಿ
+Save Mapping::ಮ್ಯಾಪಿಂಗ್ ಅನ್ನು ಉಳಿಸಿ
+Save Playlist::ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಉಳಿಸಿ
+Save Status::ಸ್ಥಿತಿಯನ್ನು ಉಳಿಸಿ
+Saved::ಉಳಿಸಲಾಗಿದೆ
+Search channel::ಚಾನಲ್ ಹುಡುಕಿ
+Search channels by name::ಹೆಸರಿನ ಮೂಲಕ ಚಾನಲ್‌ಗಳನ್ನು ಹುಡುಕಿ
+Search channels...::ಚಾನಲ್‌ಗಳನ್ನು ಹುಡುಕಿ...
+sec::ಸೆಕೆಂಡ್
+Second playlist loaded: {0} channels::ಎರಡನೇ ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿದೆ: {0} ಚಾನಲ್‌ಗಳು
+Select a channel to play.::ಪ್ಲೇ ಮಾಡಲು ಚಾನಲ್ ಆಯ್ಕೆಮಾಡಿ.
+Select a playlist first.::ಮೊದಲು ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.
+Select target group:::ಗುರಿ ಗುಂಪನ್ನು ಆಯ್ಕೆಮಾಡಿ:
+Select Theme::ಥೀಮ್ ಆಯ್ಕೆಮಾಡಿ
+Selected theme is saved and applied on restart.::ಆಯ್ಕೆಮಾಡಿದ ಥೀಮ್ ಅನ್ನು ಉಳಿಸಲಾಗಿದೆ ಮತ್ತು ಮರುಪ್ರಾರಂಭಿಸಿದಾಗ ಅನ್ವಯಿಸಲಾಗುತ್ತದೆ.
+Send::ಕಳುಹಿಸು
+Send playlist to Enigma2 decoder::Enigma2 ಡಿಕೋಡರ್‌ಗೆ ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಕಳುಹಿಸಿ
+Send to Enigma2::Enigma2 ಗೆ ಕಳುಹಿಸಿ
+Settings::ಸೆಟ್ಟಿಂಗ್‌ಗಳು
+Show List::ಪಟ್ಟಿಯನ್ನು ತೋರಿಸು
+Show only channels marked as favorites::ಮೆಚ್ಚಿನವುಗಳೆಂದು ಗುರುತಿಸಲಾದ ಚಾನಲ್‌ಗಳನ್ನು ಮಾತ್ರ ತೋರಿಸಿ
+Show or hide the channel list::ಚಾನಲ್ ಪಟ್ಟಿಯನ್ನು ತೋರಿಸಿ ಅಥವಾ ಮರೆಮಾಡಿ
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::ಪರೀಕ್ಷೆ ಮತ್ತು ಬೆಂಬಲಕ್ಕಾಗಿ CORVOBOYS ಮತ್ತು LinuxSat-ಬೆಂಬಲ ಸಮುದಾಯಗಳಿಗೆ ವಿಶೇಷ ಧನ್ಯವಾದಗಳು.
+Start::ಪ್ರಾರಂಭಿಸಿ
+Status::ಸ್ಥಿತಿ
+Stop::ನಿಲ್ಲಿಸು
+Stopped::ನಿಲ್ಲಿಸಿದೆ
+Stream URL::ಸ್ಟ್ರೀಮ್ URL
+Stream URLs::ಸ್ಟ್ರೀಮ್ URL ಗಳು
+Success::ಯಶಸ್ಸು
+Support::ಬೆಂಬಲ
+Support the developer::ಡೆವಲಪರ್ ಅನ್ನು ಬೆಂಬಲಿಸಿ
+Target Field::ಟಾರ್ಗೆಟ್ ಫೀಲ್ಡ್
+Telnet command:::ಟೆಲ್ನೆಟ್ ಆದೇಶ:
+Telnet Commander::ಟೆಲ್ನೆಟ್ ಕಮಾಂಡರ್
+Telnet Config::ಟೆಲ್ನೆಟ್ ಕಾನ್ಫಿಗರ್
+Telnet Configuration::ಟೆಲ್ನೆಟ್ ಕಾನ್ಫಿಗರೇಶನ್
+Telnet Console::ಟೆಲ್ನೆಟ್ ಕನ್ಸೋಲ್
+Telnet host not configured. Please set it in Settings.::ಟೆಲ್ನೆಟ್ ಹೋಸ್ಟ್ ಅನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿಲ್ಲ. ದಯವಿಟ್ಟು ಅದನ್ನು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಹೊಂದಿಸಿ.
+Telnet password is empty. Do you want to continue?::ಟೆಲ್ನೆಟ್ ಪಾಸ್‌ವರ್ಡ್ ಖಾಲಿಯಾಗಿದೆ. ನೀವು ಮುಂದುವರಿಸಲು ಬಯಸುವಿರಾ?
+Telnet username not configured. Please set it in Settings.::ಟೆಲ್ನೆಟ್ ಬಳಕೆದಾರ ಹೆಸರನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿಲ್ಲ. ದಯವಿಟ್ಟು ಅದನ್ನು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಹೊಂದಿಸಿ.
+Thanks to::ಧನ್ಯವಾದಗಳು
+Theme picker::ಥೀಮ್ ಪಿಕರ್
+Theme picker – accessible via Tools menu on main toolbar.::ಥೀಮ್ ಪಿಕ್ಕರ್ - ಮುಖ್ಯ ಟೂಲ್‌ಬಾರ್‌ನಲ್ಲಿ ಪರಿಕರಗಳ ಮೆನು ಮೂಲಕ ಪ್ರವೇಶಿಸಬಹುದು.
+Themes::ಥೀಮ್ಗಳು
+Time::ಸಮಯ
+Title::ಶೀರ್ಷಿಕೆ
+Tools::ಪರಿಕರಗಳು
+Total::ಒಟ್ಟು
+Total channels in loaded playlist::ಲೋಡ್ ಮಾಡಲಾದ ಪ್ಲೇಪಟ್ಟಿಯಲ್ಲಿ ಒಟ್ಟು ಚಾನಲ್‌ಗಳು
+TV Guide (EPG)::ಟಿವಿ ಮಾರ್ಗದರ್ಶಿ (EPG)
+TvgId::ಟಿವಿಜಿಐಡಿ
+Type channel name to filter::ಫಿಲ್ಟರ್ ಮಾಡಲು ಚಾನಲ್ ಹೆಸರನ್ನು ಟೈಪ್ ಮಾಡಿ
+UI: MaterialDesignThemes.Wpf::UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::ಸ್ವರೂಪವನ್ನು ಸ್ವಯಂ-ಪತ್ತೆಹಚ್ಚಲು ಸಾಧ್ಯವಿಲ್ಲ. ದಯವಿಟ್ಟು ಡ್ರಾಪ್‌ಡೌನ್‌ನಿಂದ JSON ಅಥವಾ M3U ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.
+Unable to find version in remote project file.::ರಿಮೋಟ್ ಪ್ರಾಜೆಕ್ಟ್ ಫೈಲ್‌ನಲ್ಲಿ ಆವೃತ್ತಿಯನ್ನು ಹುಡುಕಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.
+Unsupported format. Please select JSON or M3U.::ಬೆಂಬಲವಿಲ್ಲದ ಸ್ವರೂಪ. ದಯವಿಟ್ಟು JSON ಅಥವಾ M3U ಆಯ್ಕೆಮಾಡಿ.
+Update::ನವೀಕರಿಸಿ
+Update complete. Restarting...::ನವೀಕರಣ ಪೂರ್ಣಗೊಂಡಿದೆ. ಮರುಪ್ರಾರಂಭಿಸಲಾಗುತ್ತಿದೆ...
+Update Error::ನವೀಕರಣ ದೋಷ
+Update failed: ::ನವೀಕರಣ ವಿಫಲವಾಗಿದೆ:
+Updated::ನವೀಕರಿಸಲಾಗಿದೆ
+Updates::ನವೀಕರಣಗಳು
+Upload Error::ಅಪ್‌ಲೋಡ್ ದೋಷ
+URL::URL
+URL (primary)::URL (ಪ್ರಾಥಮಿಕ)
+URL Check::URL ಚೆಕ್
+URL list (one per line)::URL ಪಟ್ಟಿ (ಪ್ರತಿ ಸಾಲಿಗೆ ಒಂದು)
+URLs & Status::URL ಗಳು ಮತ್ತು ಸ್ಥಿತಿ
+Version::ಆವೃತ್ತಿ
+Version {0}.{1}.{2}::ಆವೃತ್ತಿ {0}.{1}.{2}
+Version unknown::ಆವೃತ್ತಿ ತಿಳಿದಿಲ್ಲ
+Waiting for LiveGardenTVPlus to close...::LiveGardenTVPlus ಮುಚ್ಚಲು ನಿರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ...
+Warning::ಎಚ್ಚರಿಕೆ
+WebView2: Microsoft Edge WebView2::WebView2: Microsoft Edge WebView2
+Youtube URL::Youtube URL
+Youtube URLs::Youtube URL ಗಳು

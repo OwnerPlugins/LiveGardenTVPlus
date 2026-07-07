@@ -30,17 +30,6 @@ namespace LiveGardenTVPlus
                 File.AppendAllText(@"C:\temp\theme_error.txt", $"Theme load error: {ex}\n");
             }
 
-            // ---- CATCH UI EXCEPTIONS (this prevents Program.cs from opening) ----
-            /*
-            DispatcherUnhandledException += (s, args) =>
-            {
-                Logger.WriteException(args.Exception, "DispatcherUnhandledException");
-                MessageBox.Show($"An error occurred:\n{args.Exception.Message}\n\nCheck the log for details.",
-                                "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                args.Handled = true; // Prevent application crash
-            };
-            */
-
             // Catch background thread exceptions
             AppDomain.CurrentDomain.UnhandledException += (s, args) =>
             {

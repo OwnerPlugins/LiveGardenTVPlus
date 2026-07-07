@@ -15,6 +15,7 @@ using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
+using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
@@ -32,12 +33,14 @@ namespace LiveGardenTVPlus
         private System.Windows.Threading.DispatcherTimer _timeshiftTimer;
         private bool _isLiveMode = true;
 
-        private bool _playerBackgroundHidden = false;
+        private bool _isRightClickSelection = false;
+
+        private bool _isRefreshing = false;
 
         private EpgService _epgService = new EpgService();
         private bool _playerReady = false;
 
-        private Window _currentEpgDetailsWindow = null;
+        private Window? _currentEpgDetailsWindow = null;
 
         public ObservableCollection<ChannelGroup> ChannelGroups { get; set; } = new ObservableCollection<ChannelGroup>();
         public List<string> YoutubeUrls { get; set; } = new List<string>();
@@ -56,16 +59,26 @@ namespace LiveGardenTVPlus
             UpdateRecentPopup();
 
             var version = Assembly.GetExecutingAssembly().GetName().Version;
-            string shortVersion = $"{version.Major}.{version.Minor}";
+            string shortVersion = version != null ? $"{version.Major}.{version.Minor}" : "0.0";
             this.Title = $"TVGarden+ v{shortVersion}";
+
+            // Hide sidebar at startup
+
+            ChannelColumn.Width = new GridLength(0);
+            ToggleText.Text = LanguageManager.GetTranslation("Show List");
+            ToggleIcon.Kind = PackIconKind.ArrowExpandRight;
 
             ShowFavoritesOnlyToggle.IsChecked = false;
             _showFavoritesOnly = false;
 
             ChannelTreeView.ItemsSource = ChannelGroups;
+            ChannelTreeView.MouseRightButtonDown += ChannelTreeView_MouseRightButtonDown;
+            if (PlayerBackground != null)
+            {
+                PlayerBackground.Visibility = Visibility.Visible;
+                PlayerBackground.Source = new BitmapImage(new Uri("pack://application:,,,/Themes/tv.png", UriKind.Absolute));
+            }
 
-            PlayerBackground.Visibility = Visibility.Visible;
-            PlayerBackground.Source = new BitmapImage(new Uri("pack://application:,,,/Images/tv.png", UriKind.Absolute));
             WebPlayer.Visibility = Visibility.Collapsed;
 
 
@@ -102,7 +115,7 @@ namespace LiveGardenTVPlus
             };
             _timeshiftTimer = new System.Windows.Threading.DispatcherTimer();
             _timeshiftTimer.Interval = TimeSpan.FromSeconds(1);
-            _timeshiftTimer.Tick += OnTimeshiftTimerTick;
+            _timeshiftTimer.Tick += OnTimeshiftTimerTick!;
         }
 
         protected override void OnClosing(System.ComponentModel.CancelEventArgs e)
@@ -135,6 +148,29 @@ namespace LiveGardenTVPlus
                 }
 
                 // Toolbar buttons and tooltips
+
+                // File menu
+                FileMenuText.Text = LanguageManager.GetTranslation("File");
+                FileLoadText.Text = LanguageManager.GetTranslation("Load Playlist");
+                FileSaveText.Text = LanguageManager.GetTranslation("Save Playlist");
+                FileCloseText.Text = LanguageManager.GetTranslation("Close Playlist");
+                FileRecentText.Text = LanguageManager.GetTranslation("Recent");
+
+                // Favorites menu
+                FavoritesMenuText.Text = LanguageManager.GetTranslation("Favorites");
+                FavoritesSaveText.Text = LanguageManager.GetTranslation("Save Favorites");
+                FavoritesExportText.Text = LanguageManager.GetTranslation("Export Favorites");
+
+                // Enigma2 menu
+                Enigma2MenuText.Text = LanguageManager.GetTranslation("Enigma2");
+                Enigma2SendText.Text = LanguageManager.GetTranslation("Send to Enigma2");
+                Enigma2TelnetText.Text = LanguageManager.GetTranslation("Telnet Console");
+                Enigma2TelnetConfigText.Text = LanguageManager.GetTranslation("Telnet Configuration");
+
+                /*
+                ClosePlaylistText.Text = LanguageManager.GetTranslation("Close Playlist");
+                ClosePlaylistBtn.ToolTip = LanguageManager.GetTranslation("Close current playlist");
+
                 LoadPlaylistBtnText.Text = LanguageManager.GetTranslation("Load File");
                 LoadPlaylistBtn.ToolTip = LanguageManager.GetTranslation("Load playlist file (M3U/JSON) from your computer");
 
@@ -144,12 +180,16 @@ namespace LiveGardenTVPlus
                 SavePlaylistBtnText.Text = LanguageManager.GetTranslation("Save Playlist");
                 SavePlaylistBtn.ToolTip = LanguageManager.GetTranslation("Save current playlist to a new M3U file");
 
+                FavoritesOnlyText.Text = LanguageManager.GetTranslation("Favorites only");
+                ShowFavoritesOnlyToggle.ToolTip = LanguageManager.GetTranslation("Show only channels marked as favorites");
+
                 ExportFavoritesBtnText.Text = LanguageManager.GetTranslation("Export Favorites");
                 ExportFavoritesBtn.ToolTip = LanguageManager.GetTranslation("Export only favorite channels to a new M3U file");
 
                 SendToEnigmaText.Text = LanguageManager.GetTranslation("Send to Enigma2");
                 SendToEnigmaBtn.ToolTip = LanguageManager.GetTranslation("Send playlist to Enigma2 decoder");
                 PopupTelnetConsoleText.Text = LanguageManager.GetTranslation("Telnet Console");
+                */
 
                 EditPlaylistBtnText.Text = LanguageManager.GetTranslation("Edit Playlist");
                 EditPlaylistBtn.ToolTip = LanguageManager.GetTranslation("Playlist Management");
@@ -159,18 +199,18 @@ namespace LiveGardenTVPlus
 
                 ToolsBtnText.Text = LanguageManager.GetTranslation("Tools");
                 ToolsBtn.ToolTip = LanguageManager.GetTranslation("Tools");
-
+                /*
                 AboutBtnText.Text = LanguageManager.GetTranslation("Info");
                 AboutBtn.ToolTip = LanguageManager.GetTranslation("Info on");
 
                 HelpBtnText.Text = LanguageManager.GetTranslation("Help");
                 HelpBtn.ToolTip = LanguageManager.GetTranslation("Help");
-
-                FavoritesOnlyText.Text = LanguageManager.GetTranslation("Favorites only");
-                ShowFavoritesOnlyToggle.ToolTip = LanguageManager.GetTranslation("Show only channels marked as favorites");
-
-                ToggleText.Text = (ChannelColumn.Width.Value > 0) ? LanguageManager.GetTranslation("Hide List") : LanguageManager.GetTranslation("Show List");
+                */
+                ToggleText.Text = (ChannelColumn.Width.Value > 0) ?
+                    LanguageManager.GetTranslation("Hide List") :
+                    LanguageManager.GetTranslation("Show List");
                 ToggleSidebarBtn.ToolTip = LanguageManager.GetTranslation("Show or hide the channel list");
+
 
                 SearchBox.ToolTip = LanguageManager.GetTranslation("Search channels by name");
                 ClearSearchBtn.ToolTip = LanguageManager.GetTranslation("Clear search");
@@ -200,7 +240,7 @@ namespace LiveGardenTVPlus
 
                 // Window title
                 var version = Assembly.GetExecutingAssembly().GetName().Version;
-                string shortVersion = $"{version.Major}.{version.Minor}";
+                string shortVersion = version != null ? $"{version.Major}.{version.Minor}" : "0.0";
                 this.Title = $"TVGarden+ v{shortVersion} - by Lululla | CORVOBOYS.ORG | LINUXSAT-SUPPORT.COM";
             }
             finally
@@ -217,6 +257,99 @@ namespace LiveGardenTVPlus
                 return;
             }
             ApplyLanguage();
+        }
+
+        private void FileMenuBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (FilePopup.IsOpen)
+            {
+                FilePopup.IsOpen = false;
+                return;
+            }
+            var btn = FileMenuBtn;
+            var point = btn.PointToScreen(new Point(0, btn.ActualHeight));
+            FilePopup.HorizontalOffset = point.X;
+            FilePopup.VerticalOffset = point.Y;
+            FilePopup.IsOpen = true;
+        }
+
+        private void FileLoadBtn_Click(object sender, RoutedEventArgs e)
+        {
+            FilePopup.IsOpen = false;
+            LoadPlaylistBtn_Click(sender, e);
+        }
+
+        private void RecentMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            UpdateRecentPopup();
+            if (RecentListBox.Items.Count == 0)
+                return;
+            RecentPopup.PlacementTarget = RecentMenuItem;
+            RecentPopup.Placement = System.Windows.Controls.Primitives.PlacementMode.Right;
+            RecentPopup.IsOpen = true;
+        }
+
+        private void FileSaveBtn_Click(object sender, RoutedEventArgs e)
+        {
+            FilePopup.IsOpen = false;
+            SavePlaylistBtn_Click(sender, e);
+        }
+
+        private void FileCloseBtn_Click(object sender, RoutedEventArgs e)
+        {
+            FilePopup.IsOpen = false;
+            ClosePlaylistBtn_Click(sender, e);
+        }
+
+        // ---- Favorites menu ----
+        private void FavoritesBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (FavoritesPopup.IsOpen)
+            {
+                FavoritesPopup.IsOpen = false;
+                return;
+            }
+            var btn = FavoritesBtn;
+            var point = btn.PointToScreen(new Point(0, btn.ActualHeight));
+            FavoritesPopup.HorizontalOffset = point.X;
+            FavoritesPopup.VerticalOffset = point.Y;
+            FavoritesPopup.IsOpen = true;
+        }
+
+        // Save Favorites (mark all as favorite? or save to current playlist? For now, just a placeholder)
+        private void SaveFavoritesBtn_Click(object sender, RoutedEventArgs e)
+        {
+            FavoritesPopup.IsOpen = false;
+            if (_allChannelsOriginal == null || _allChannelsOriginal.Count == 0)
+            {
+                MessageBox.Show(LanguageManager.GetTranslation("Load a playlist first."),
+                                LanguageManager.GetTranslation("Info"),
+                                MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+            bool allFav = _allChannelsOriginal.All(c => c.IsFavorite);
+            foreach (var ch in _allChannelsOriginal)
+                ch.IsFavorite = !allFav;
+            FavoritesManager.SaveFavorites(_allChannelsOriginal);
+            RefreshChannelsView();
+            StatusTextBlock.Text = allFav ?
+                LanguageManager.GetTranslation("All favorites removed") :
+                LanguageManager.GetTranslation("All channels marked as favorites");
+        }
+
+        // ---- Enigma2 menu ----
+        private void Enigma2Btn_Click(object sender, RoutedEventArgs e)
+        {
+            if (Enigma2Popup.IsOpen)
+            {
+                Enigma2Popup.IsOpen = false;
+                return;
+            }
+            var btn = Enigma2Btn;
+            var point = btn.PointToScreen(new Point(0, btn.ActualHeight));
+            Enigma2Popup.HorizontalOffset = point.X;
+            Enigma2Popup.VerticalOffset = point.Y;
+            Enigma2Popup.IsOpen = true;
         }
 
         private void ToolsBtn_Click(object sender, RoutedEventArgs e)
@@ -265,7 +398,7 @@ namespace LiveGardenTVPlus
 
         private async void CheckUpdatesBtn_Click(object sender, RoutedEventArgs e)
         {
-            CheckForUpdates();
+            await CheckForUpdates().ConfigureAwait(false);
         }
 
         private async Task CheckForUpdates()
@@ -276,10 +409,12 @@ namespace LiveGardenTVPlus
             string appDir = AppDomain.CurrentDomain.BaseDirectory;
             string currentExe = Path.Combine(appDir, "LiveGardenTV+.exe");
 
+            Version currentVersion = new Version(1, 0);
             try
             {
-                Version currentVersion = Assembly.GetExecutingAssembly().GetName().Version;
-                if (currentVersion == null) currentVersion = new Version(1, 0);
+                var assemblyVersion = Assembly.GetExecutingAssembly().GetName().Version;
+                if (assemblyVersion != null)
+                    currentVersion = assemblyVersion;
 
                 using var client = new HttpClient();
                 client.DefaultRequestHeaders.UserAgent.ParseAdd("LiveGardenTVPlus");
@@ -364,7 +499,7 @@ namespace LiveGardenTVPlus
         {
             if (e.Key == System.Windows.Input.Key.Escape && _isFullscreenUIActive)
             {
-                FullscreenUIBtn_Click(null, null);
+                FullscreenUIBtn_Click(null!, null!);
                 e.Handled = true;
             }
             base.OnPreviewKeyDown(e);
@@ -408,14 +543,63 @@ namespace LiveGardenTVPlus
             }).ToList();
         }
 
+        private T? FindAncestor<T>(DependencyObject current) where T : DependencyObject
+        {
+            while (current != null)
+            {
+                if (current is T ancestor)
+                    return ancestor;
+                current = VisualTreeHelper.GetParent(current);
+            }
+            return null;
+        }
+
+        private void ChannelTreeView_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            var hitTestResult = VisualTreeHelper.HitTest(ChannelTreeView, e.GetPosition(ChannelTreeView));
+            if (hitTestResult != null)
+            {
+                var treeViewItem = FindAncestor<TreeViewItem>(hitTestResult.VisualHit);
+                if (treeViewItem != null)
+                {
+                    _isRightClickSelection = true;
+                    treeViewItem.IsSelected = true;
+                }
+            }
+        }
+
         private async void ChannelTreeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
         {
+            // If selection change was triggered by right-click, skip playback
+            if (_isRightClickSelection)
+            {
+                _isRightClickSelection = false;
+                if (e.NewValue is Channel rightClickChannel)
+                {
+                    var program = _epgService.GetCurrentProgram(rightClickChannel.Name, rightClickChannel.TvgId, DateTime.UtcNow);
+                    if (program != null)
+                    {
+                        var startLocal = program.Start.ToLocalTime();
+                        var stopLocal = program.Stop.ToLocalTime();
+                        EpgInfoTextBlock.Text = $"{program.Title} | {startLocal:HH:mm} - {stopLocal:HH:mm}";
+                        EpgInfoTextBlock.Foreground = (Brush)FindResource("ForegroundBrush");
+                        EpgIcon.Foreground = Brushes.LightGreen;
+                    }
+                    else
+                    {
+                        EpgInfoTextBlock.Text = LanguageManager.GetTranslation("No EPG data");
+                        EpgInfoTextBlock.Foreground = Brushes.Gray;
+                        EpgIcon.Foreground = Brushes.Gray;
+                    }
+                }
+                return;
+            }
+
             if (e.NewValue is Channel selected)
             {
-                // Set player background based on channel type
                 try
                 {
-                    string bgImage = selected.IsRadio ? "pack://application:,,,/Images/radio.png" : "pack://application:,,,/Images/tv.png";
+                    string bgImage = selected.IsRadio ? "pack://application:,,,/Themes/radio.png" : "pack://application:,,,/Themes/tv.png";
                     PlayerBackground.Source = new BitmapImage(new Uri(bgImage, UriKind.Absolute));
                     PlayerBackground.Visibility = Visibility.Visible;
                     WebPlayer.Visibility = Visibility.Collapsed;
@@ -423,7 +607,7 @@ namespace LiveGardenTVPlus
                 catch (Exception ex)
                 {
                     Logger.Error($"Background image error: {ex.Message}");
-                    PlayerBackground.Source = new BitmapImage(new Uri("pack://application:,,,/Images/tv.png", UriKind.Absolute));
+                    PlayerBackground.Source = new BitmapImage(new Uri("pack://application:,,,/Themes/tv.png", UriKind.Absolute));
                 }
 
                 if (selected.Name == "← Back to all groups")
@@ -464,7 +648,6 @@ namespace LiveGardenTVPlus
                         StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Now")}: {selected.Name}";
                         _currentChannelName = selected.Name;
 
-                        // Hide background for TV (video) streams, keep visible for radio
                         if (selected.IsRadio)
                         {
                             WebPlayer.Visibility = Visibility.Collapsed;
@@ -491,10 +674,10 @@ namespace LiveGardenTVPlus
                 RefreshChannelsView();
             }
 
-            // EPG update
-            if (e.NewValue is Channel ch)
+            // EPG update for any channel (if it's not a group and not already handled by right-click)
+            if (e.NewValue is Channel epgChannel && !_isRightClickSelection)
             {
-                var program = _epgService.GetCurrentProgram(ch.Name, ch.TvgId, DateTime.UtcNow);
+                var program = _epgService.GetCurrentProgram(epgChannel.Name, epgChannel.TvgId, DateTime.UtcNow);
                 if (program != null)
                 {
                     var startLocal = program.Start.ToLocalTime();
@@ -531,10 +714,9 @@ namespace LiveGardenTVPlus
                 return;
             }
 
-            // Trova il programma successivo
-            string epgChannelId = currentChannel.TvgId ?? _epgService.GetMappedEpgId(currentChannel.Name);
-            var epgChannel = _epgService.GetChannelById(epgChannelId);
-            EpgProgramme nextProgram = null;
+            string? epgChannelId = currentChannel.TvgId ?? _epgService.GetMappedEpgId(currentChannel.Name);
+            var epgChannel = !string.IsNullOrEmpty(epgChannelId) ? _epgService.GetChannelById(epgChannelId) : null;
+            EpgProgramme? nextProgram = null;
             if (epgChannel != null)
             {
                 nextProgram = epgChannel.Programmes
@@ -546,7 +728,7 @@ namespace LiveGardenTVPlus
             ShowEpgDetailsWindow(currentChannel, currentProgram, nextProgram);
         }
 
-        private void ShowEpgDetailsWindow(Channel channel, EpgProgramme current, EpgProgramme next)
+        private void ShowEpgDetailsWindow(Channel channel, EpgProgramme current, EpgProgramme? next)
         {
             // Prevent multiple windows
             if (_currentEpgDetailsWindow != null && _currentEpgDetailsWindow.IsVisible)
@@ -725,7 +907,7 @@ namespace LiveGardenTVPlus
 
                 // Navigate to the HTML string
                 WebPlayer.CoreWebView2.NavigateToString(html);
-                StatusTextBlock.Text = LanguageManager.GetTranslation("Loading player...");
+                StatusTextBlock.Text = LanguageManager.GetTranslation("Ready");
             }
             catch (Exception ex)
             {
@@ -764,12 +946,39 @@ namespace LiveGardenTVPlus
 
         private void RefreshChannelsView()
         {
+            UpdateFavoritesToggleState();
+
             ChannelGroups.Clear();
 
             if (_allChannelsOriginal == null || _allChannelsOriginal.Count == 0)
             {
                 TotalChannelsText.Text = $"{LanguageManager.GetTranslation("Total")}: 0";
                 return;
+            }
+
+            // Check if showing favorites only and no favorites exist
+            if (_showFavoritesOnly)
+            {
+                bool hasFavorites = _allChannelsOriginal.Any(c => c.IsFavorite);
+                if (!hasFavorites)
+                {
+                    Dispatcher.Invoke(() =>
+                    {
+                        MessageBox.Show(
+                            LanguageManager.GetTranslation("No favorite channels found."),
+                            LanguageManager.GetTranslation("Info"),
+                            MessageBoxButton.OK,
+                            MessageBoxImage.Information);
+                    });
+
+                    // Reset the toggle
+                    _showFavoritesOnly = false;
+                    ShowFavoritesOnlyToggle.IsChecked = false;
+
+                    // Refresh without filter
+                    RefreshChannelsView();
+                    return;
+                }
             }
 
             var query = _allChannelsOriginal.AsEnumerable();
@@ -807,14 +1016,13 @@ namespace LiveGardenTVPlus
                 fakeGroup.Channels.Add(new Channel
                 {
                     Name = "← Back to all groups",
-                    Url = null,
+                    Url = null!,
                     Group = _drilledGroupName
                 });
                 foreach (var ch in groupChannels)
                     fakeGroup.Channels.Add(ch);
                 ChannelGroups.Add(fakeGroup);
                 ExpandRootNode();
-                // Total = only the actual channels in the group, excluding the navigation row
                 TotalChannelsText.Text = $"{LanguageManager.GetTranslation("Total")}: {groupChannels.Count}";
                 return;
             }
@@ -831,9 +1039,30 @@ namespace LiveGardenTVPlus
             foreach (var group in groups)
                 ChannelGroups.Add(group);
 
-            // Total = sum of channels of all groups (no dummy elements)
             int total = groups.Sum(g => g.Channels.Count);
             TotalChannelsText.Text = $"{LanguageManager.GetTranslation("Total")}: {total}";
+
+            EnsureSidebarVisibility();
+        }
+
+        private void ShowSidebarIfNeeded()
+        {
+            if (_allChannelsOriginal != null && _allChannelsOriginal.Count > 0)
+            {
+                ChannelColumn.Width = new GridLength(280);
+                ToggleText.Text = LanguageManager.GetTranslation("Hide List");
+                ToggleIcon.Kind = PackIconKind.ArrowCollapseLeft;
+            }
+        }
+
+        private void EnsureSidebarVisibility()
+        {
+            if (_allChannelsOriginal != null && _allChannelsOriginal.Count > 0 && ChannelColumn.Width.Value == 0)
+            {
+                ChannelColumn.Width = new GridLength(280);
+                ToggleText.Text = LanguageManager.GetTranslation("Hide List");
+                ToggleIcon.Kind = PackIconKind.ArrowCollapseLeft;
+            }
         }
 
         private void LoadPlaylist(string filePath)
@@ -866,6 +1095,7 @@ namespace LiveGardenTVPlus
 
                         StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Loaded")} {channels.Count} {LanguageManager.GetTranslation("channels from")} {Path.GetFileName(filePath)}";
                         AddToRecent(filePath);
+
                     }
                     else
                     {
@@ -905,8 +1135,12 @@ namespace LiveGardenTVPlus
                     StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Loaded")} {channels.Count} {LanguageManager.GetTranslation("channels from")} {Path.GetFileName(filePath)}";
                 }
 
+                UpdateFavoritesToggleState();
+
                 AddToRecent(filePath);
+
             }
+
             catch (Exception ex)
             {
                 MessageBox.Show($"{LanguageManager.GetTranslation("Error")}: {ex.Message}");
@@ -1002,11 +1236,15 @@ namespace LiveGardenTVPlus
                         await Dispatcher.InvokeAsync(() =>
                         {
                             RefreshChannelsView();
+
                             StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Loaded")} {channels.Count} {LanguageManager.GetTranslation("channels from URL")}";
                         });
                     }
                 }
+
+                UpdateFavoritesToggleState();
             }
+
             catch (HttpRequestException ex)
             {
                 StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Network error")}: {ex.Message}";
@@ -1114,16 +1352,13 @@ namespace LiveGardenTVPlus
             okBtn.Click += (s, args) => { dialog.DialogResult = true; dialog.Close(); };
             cancelBtn.Click += (s, args) => { dialog.DialogResult = false; dialog.Close(); };
 
-            if (dialog.ShowDialog() == true)
+            string? newGroup = combo.SelectedItem as string;
+            if (!string.IsNullOrEmpty(newGroup))
             {
-                string newGroup = combo.SelectedItem as string;
-                if (!string.IsNullOrEmpty(newGroup))
-                {
-                    selected.Group = newGroup;
-                    FavoritesManager.SaveFavorites(_allChannelsOriginal);
-                    RefreshChannelsView();
-                    StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Moved")} {selected.Name} → {newGroup}";
-                }
+                selected.Group = newGroup;
+                FavoritesManager.SaveFavorites(_allChannelsOriginal);
+                RefreshChannelsView();
+                StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Moved")} {selected.Name} → {newGroup}";
             }
         }
 
@@ -1186,15 +1421,36 @@ namespace LiveGardenTVPlus
             }
         }
 
+        private void InfoMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            var selected = ChannelTreeView.SelectedItem as Channel;
+            if (selected == null)
+            {
+                MessageBox.Show(LanguageManager.GetTranslation("No channel selected."),
+                                LanguageManager.GetTranslation("Info"),
+                                MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+
+            var infoWindow = new Views.ChannelInfoWindow(selected, () =>
+            {
+                RefreshChannelsView();
+                FavoritesManager.SaveFavorites(_allChannelsOriginal);
+                StatusTextBlock.Text = $"{LanguageManager.GetTranslation("Updated")}: {selected.Name}";
+            });
+            infoWindow.Owner = this;
+            infoWindow.ShowDialog();
+        }
+
         public void ShowLoading(bool show)
         {
             Dispatcher.Invoke(() =>
             {
                 LoadingProgressBar.Visibility = show ? Visibility.Visible : Visibility.Collapsed;
-                LoadPlaylistBtn.IsEnabled = !show;
+                //LoadPlaylistBtn.IsEnabled = !show;
                 EditPlaylistBtn.IsEnabled = !show;
-                SavePlaylistBtn.IsEnabled = !show;
-                ExportFavoritesBtn.IsEnabled = !show;
+                //SavePlaylistBtn.IsEnabled = !show;
+                //ExportFavoritesBtn.IsEnabled = !show;
                 ToggleSidebarBtn.IsEnabled = !show;
                 ToolsBtn.IsEnabled = !show;
                 SearchBox.IsEnabled = !show;
@@ -1204,7 +1460,7 @@ namespace LiveGardenTVPlus
                 SpeedFasterBtn.IsEnabled = !show;
                 PipBtn.IsEnabled = !show;
                 FullscreenUIBtn.IsEnabled = !show;
-                AboutBtn.IsEnabled = !show;
+                //AboutBtn.IsEnabled = !show;
             });
         }
 
@@ -1291,6 +1547,51 @@ namespace LiveGardenTVPlus
             }
         }
 
+        private void ClosePlaylistBtn_Click(object sender, RoutedEventArgs e)
+        {
+            FilePopup.IsOpen = false;
+
+            // Clear channel list
+            _allChannelsOriginal?.Clear();
+            ChannelGroups?.Clear();
+            RefreshChannelsView();
+
+            // Stop playback
+            if (WebPlayer?.CoreWebView2 != null)
+            {
+                try
+                {
+                    WebPlayer.CoreWebView2.ExecuteScriptAsync("video.pause(); video.currentTime = 0;");
+                }
+                catch { }
+            }
+
+            // Reset UI - use only existing controls
+            StatusTextBlock.Text = LanguageManager.GetTranslation("Playlist closed");
+            _currentChannelName = "";
+            TotalChannelsText.Text = $"{LanguageManager.GetTranslation("Total")}: 0";
+
+            // Reset player background
+            PlayerBackground.Visibility = Visibility.Visible;
+            PlayerBackground.Source = new BitmapImage(new Uri("pack://application:,,,/Themes/tv.png", UriKind.Absolute));
+            WebPlayer.Visibility = Visibility.Collapsed;
+
+            // Reset search
+            SearchBox.Text = LanguageManager.GetTranslation("Search channels...");
+            SearchBox.Foreground = Brushes.Gray;
+            ClearSearchBtn.Visibility = Visibility.Collapsed;
+            _searchFilter = "";
+
+            // Reset EPG info
+            EpgInfoTextBlock.Text = "";
+            EpgIcon.Foreground = Brushes.Gray;
+
+            // Hide slidebar
+            ChannelColumn.Width = new GridLength(0);
+            ToggleText.Text = LanguageManager.GetTranslation("Show List");
+            ToggleIcon.Kind = PackIconKind.ArrowExpandRight;
+        }
+
         private void LoadPlaylistBtn_Click(object sender, RoutedEventArgs e)
         {
             var dlg = new Microsoft.Win32.OpenFileDialog
@@ -1364,26 +1665,57 @@ namespace LiveGardenTVPlus
             UpdateRecentPopup();
         }
 
-        private void RecentBtn_Click(object sender, RoutedEventArgs e)
+        private void RecentMenuItem_MouseEnter(object sender, MouseEventArgs e)
         {
             UpdateRecentPopup();
-            var btn = RecentBtn;
-            var point = btn.PointToScreen(new Point(0, btn.ActualHeight));
-            RecentPopup.HorizontalOffset = point.X;
-            RecentPopup.VerticalOffset = point.Y;
+
+            if (RecentListBox.Items.Count == 0)
+                return;
+
+            // ✅ CORRETTO: usa RecentPopup (non RecentSubPopup)
+            RecentPopup.PlacementTarget = RecentMenuItem;
+            RecentPopup.Placement = System.Windows.Controls.Primitives.PlacementMode.Right;
             RecentPopup.IsOpen = true;
+        }
+
+        private void RecentMenuItem_MouseLeave(object sender, MouseEventArgs e)
+        {
+            /*             // Don't close immediately – let the user move to the submenu
+                        // The popup will close when the mouse leaves it (StaysOpen="False" handles it)
+                        // But we need to check if the mouse is over the submenu
+                        var timer = new System.Windows.Threading.DispatcherTimer();
+                        timer.Interval = TimeSpan.FromMilliseconds(150);
+                        timer.Tick += (s, args) =>
+                        {
+                            timer.Stop();
+                            // Check if mouse is over the submenu or the menu item
+                            var mousePos = Mouse.GetPosition(RecentSubPopup);
+                            bool isOverPopup = mousePos.X >= 0 && mousePos.Y >= 0 &&
+                                               mousePos.X <= RecentSubPopup.ActualWidth &&
+                                               mousePos.Y <= RecentSubPopup.ActualHeight;
+                            if (!isOverPopup && !RecentMenuItem.IsMouseOver && !RecentSubPopup.IsMouseOver)
+                            {
+                                RecentSubPopup.IsOpen = false;
+                            }
+                        };
+                        timer.Start(); */
         }
 
         private void RecentListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (RecentListBox.SelectedItem == null) return;
+
             dynamic selected = RecentListBox.SelectedItem;
             string path = selected.FilePath;
+
             RecentPopup.IsOpen = false;
+            FilePopup.IsOpen = false;
+
             if (File.Exists(path))
                 LoadPlaylist(path);
             else
                 MessageBox.Show("File not found.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+
             RecentListBox.SelectedItem = null;
         }
 
@@ -1444,6 +1776,18 @@ namespace LiveGardenTVPlus
                 {
                     LoadPlaylist(editor.SavedFilePath);
                 }
+            }
+        }
+
+        private void UpdateFavoritesToggleState()
+        {
+            bool hasChannels = _allChannelsOriginal != null && _allChannelsOriginal.Count > 0;
+            ShowFavoritesOnlyToggle.IsEnabled = hasChannels;
+
+            if (!hasChannels)
+            {
+                ShowFavoritesOnlyToggle.IsChecked = false;
+                _showFavoritesOnly = false;
             }
         }
 
@@ -1721,33 +2065,6 @@ namespace LiveGardenTVPlus
             }
         }
 
-        /*
-        private async Task ReloadEnigma2Channels()
-        {
-            var prefs = UserPreferences.Load();
-            string url = $"http://{prefs.TelnetHost}/web/servicelistreload?mode=0";
-            try
-            {
-                using (var client = new HttpClient())
-                {
-                    client.Timeout = TimeSpan.FromSeconds(5);
-                    var response = await client.GetAsync(url);
-                    if (response.IsSuccessStatusCode)
-                    {
-                        Debug.WriteLine($"Reload HTTP OK: {response.StatusCode}");
-                    }
-                    else
-                    {
-                        Debug.WriteLine($"Reload HTTP failed: {response.StatusCode}");
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine($"Reload HTTP exception: {ex.Message}");
-            }
-        }*/
-
         private async Task ReloadEnigma2Channels()
         {
             try
@@ -1816,6 +2133,14 @@ namespace LiveGardenTVPlus
             var telnetConsole = new TelnetConsoleWindow();
             telnetConsole.Owner = this;
             telnetConsole.ShowDialog();
+        }
+
+        private void Enigma2TelnetConfig_Click(object sender, RoutedEventArgs e)
+        {
+            Enigma2Popup.IsOpen = false;
+            var win = new LiveGardenTVPlus.Views.TelnetConfigWindow();
+            win.Owner = this;
+            win.ShowDialog();
         }
 
         private void SearchBox_GotFocus(object sender, RoutedEventArgs e)
@@ -1905,7 +2230,7 @@ namespace LiveGardenTVPlus
                 if (string.IsNullOrEmpty(currentTimeStr) || string.IsNullOrEmpty(bufferInfoStr)) return;
 
                 double current = double.Parse(currentTimeStr.Trim('"'), System.Globalization.CultureInfo.InvariantCulture);
-                dynamic buffer = Newtonsoft.Json.JsonConvert.DeserializeObject(bufferInfoStr);
+                dynamic buffer = Newtonsoft.Json.JsonConvert.DeserializeObject(bufferInfoStr) ?? new { start = 0.0, end = 0.0 };
                 double bufStart = (double)buffer.start;
                 double bufEnd = (double)buffer.end;
 

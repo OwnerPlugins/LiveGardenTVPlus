@@ -144,10 +144,10 @@ namespace LiveGardenTVPlus.Views
 
             var statusField = FindName("StatusFieldLabel") as TextBlock;
             if (statusField != null) statusField.Text = LanguageManager.GetTranslation("Status");
-            
+
             var displayLabel = FindName("DisplayLabel") as TextBlock;
             if (displayLabel != null) displayLabel.Text = LanguageManager.GetTranslation("Display as");
-            
+
 
             // Buttons
             NewPlaylistBtn.Content = LanguageManager.GetTranslation("New Playlist");

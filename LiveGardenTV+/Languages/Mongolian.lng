@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): (Бүрэн сайн дурын - ямар ч функцийг хориглоогүй)
-(No description): (Тодорхойлолт байхгүй)
-• Add / rename / delete groups.: • Бүлгүүдийг нэмэх / нэрийг өөрчлөх / устгах.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • Буфер гулсагч: HLS буферийг тохируулах (1‑10 секунд).
-• Check URL availability (only visible channels).: • URL байгаа эсэхийг шалгах (зөвхөн харагдах сувгууд).
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • Сувгийн нэр, бүлгэм, URL, лого, tvg-id, улс, хэл, дуртай зүйлсийг засварлана.
-• Edit multiple URLs per channel (popup window).: • Нэг суваг бүрт олон URL засварлах (попап цонх).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • EPG-ээр баяжуулах: тодорхой бус тохирохыг ашиглан алга болсон tvg-id-г нэмнэ.
-• EPG info displayed in status bar for current channel.: • Одоогийн сувгийн статус талбарт EPG-ийн мэдээлэл харагдана.
-• Export OK / FAIL / filtered lists as M3U or JSON.: • OK / FAIL / шүүсэн жагсаалтыг M3U эсвэл JSON болгон экспортлох.
-• Fetch logos from remote repository (OwnerPlugins/logos).: • Алсын агуулахаас лого татах (OwnerPlugins/logos).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • Бүтэн дэлгэцийн UI: хажуугийн самбар болон төлөвийн мөрийг нууна (гарахын тулд ESC).
-• Hide/Show channel list button.: • Сувгийн жагсаалтыг нуух/ харуулах товч.
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • Хээрийн уян хатан зураглал бүхий JSON (орон нутгийн эсвэл URL) импортлох (автоматаар илрүүлэх, зураглалыг хадгалах).
-• Picture‑in‑Picture (PIP) button.: • Зураг доторх зураг (PIP) товчлуур.
-• Playback speed: 0.5x, 1x, 2x buttons.: • Тоглуулах хурд: 0.5x, 1x, 2x товчлуурууд.
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • Толгой хэсэгт дарж дурын баганыг эрэмбэлэх; Анхны дараалал руу буцахын тулд "Захиалга дахин тохируулах"-г ашиглана уу.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: шууд дамжуулалтыг түр зогсоох; буцаж хайхын тулд гулсагчийг чирнэ үү; Буцахын тулд "Шууд" дээр дарна уу.
-▶ Play Media: ▶ Медиа тоглуулах
-◀ Previous: ◀ Өмнөх
-16 colour themes + Light/Dark variants.: 16 өнгөт загвар + Гэрэл/Харанхуй хувилбарууд.
-A new version is available. Do you want to update now?: Шинэ хувилбар гарсан байна. Та одоо шинэчлэхийг хүсч байна уу?
-Access via 'Compare' button in Playlist Editor or Tools menu.: Тоглуулах жагсаалт засварлагч эсвэл Хэрэгслийн цэсэн дэх "Харьцуулах" товчоор хандана уу.
-Access via 'Edit Playlist' button on main toolbar.: Үндсэн хэрэгслийн самбар дээрх 'Тоглуулах жагсаалтыг засах' товчоор хандана уу.
-Actions: Үйлдлүүд
-Add Command: Тушаал нэмэх
-Add Group: Бүлэг нэмэх
-Add Mapping: Газрын зураг нэмэх
-Adjust buffer size (1-10 seconds): Буферийн хэмжээг тохируулах (1-10 секунд)
-Advanced IDs: Нарийвчилсан ID
-Application status: Өргөдлийн статус
-Apply: Өргөдөл гаргах
-Apply / Import: Хэрэглэх / Импортлох
-Apply changes: Өөрчлөлтийг хэрэгжүүлэх
-Apply Filters: Шүүлтүүр хэрэглэх
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: Та Enigma2 GUI-г дахин ачаалахдаа итгэлтэй байна уу?\n\nИнтерфэйс дахин асах болно (хэдхэн секундын турш хар дэлгэц).
-Auto (recommended): Автомат (санал болгосон)
-Auto-detect: Автоматаар илрүүлэх
-Automatic check on startup – or click 'Check for updates' in Tools menu.: Ачаалах үед автоматаар шалгах - эсвэл Tools цэсний "Шинэчлэлтүүдийг шалгах" дээр дарна уу.
-Bouquet Name: Bouquet нэр
-Bouquet sent and Enigma2 channel list reloaded.: Bouquet илгээж, Enigma2 сувгийн жагсаалтыг дахин ачааллаа.
-Buffer (seconds): Буфер (секунд)
-Buffer size – adjust HLS buffer seconds.: Буферийн хэмжээ – HLS буфер секундийг тохируулна уу.
-Cache: Кэш
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: Кэш фолдер: %TEMP%\\LiveGardenTVPlus\\epg_cache
-Cancel: Цуцлах
-CANCEL: Цуцлах
-Cannot open browser: Хөтөчийг нээж чадахгүй байна
-Category: Ангилал
-Changelog: Өөрчлөлтийн бүртгэл
-Channel Details: Сувгийн дэлгэрэнгүй мэдээлэл
-Channel Down: Суваг доош
-Channel Info: Сувгийн мэдээлэл
-Channel Name: Сувгийн нэр
-Channel Up: Дээш суваг
-channels from: сувгууд
-channels from JSON: JSON-н сувгууд
-channels from JSON URL: JSON URL-с сувгууд
-channels from URL: URL-аас суваг
-Check Duplicates: Давхардсан зүйлсийг шалгана уу
-Check for updates: Шинэчлэлт байгаа эсэхийг шалгана уу
-Check URLs: URL хаягуудыг шалгана уу
-Clear: Тодорхой
-Clear EPG Cache: EPG кэшийг цэвэрлэх
-Clear Filters: Шүүлтүүрийг арилгах
-Clear search: Хайлтыг арилгах
-Click for details: Дэлгэрэнгүйг дарж үзнэ үү
-Close: Хаах
-Code: Код
-Code copied to clipboard.: Кодыг санах ой руу хуулсан.
-Command name:: Тушаалын нэр:
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: Нийгэмлэг ба туршилт: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
-Compare: Харьцуулах
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: Харьцуул: Тэргүүлэх (нэр→бүлэг→tvg-id), Нэр, Бүлэг (үсгийн том үсгээр) эсвэл TvgId.
-Compare Playlists: Тоглуулах жагсаалтыг харьцуулах
-Compare two playlists – load first (current playlist) and second (from file or URL).: Хоёр тоглуулах жагсаалтыг харьцуулах - эхлээд (одоогийн тоглуулах жагсаалт) болон хоёр дахь (файл эсвэл URL-аас) ачаалах.
-Compare...: Харьцуулах...
-Comparison results: {0} channels: Харьцуулалтын үр дүн: {0} суваг
-Configuration Missing: Тохиргоо дутуу
-Confirm Delete: Устгахаа баталгаажуулна уу
-Confirm Reload: Дахин ачаалахыг баталгаажуулна уу
-Connect: Холбох
-Connected: Холбогдсон
-Copied: Хуулсан
-Copy: Хуулбарлах
-CORVOBOYS.ORG: CORVOBOYS.ORG
-Country: Улс
-Credits: Зээл
-Delete channel '{0}'?: '{0}' сувгийг устгах уу?
-Delete Group: Бүлгийг устгах
-Delete Selected: Сонгосоныг устгах
-Deleted: Устгасан
-Description: Тодорхойлолт
-Details: Дэлгэрэнгүй мэдээлэл
-Developed by Lululla: Лулулла боловсруулсан
-Developer: Lululla: Хөгжүүлэгч: Лулулла
-Disconnect: Салга
-Disconnected: Салгасан
-Display as: : Дараах байдлаар харуулах:
-Do you want to load this edited playlist now?: Та энэ засварласан тоглуулах жагсаалтыг одоо ачаалмаар байна уу?
-Double speed (2x): Давхар хурд (2x)
-Downloading playlist...: Тоглуулах жагсаалтыг татаж байна...
-Downloads ZIP, replaces files, restarts app – settings preserved.: ZIP файлыг татаж, файлыг сольж, програмыг дахин эхлүүлж - тохиргоог хадгалсан.
-Drag & drop – drop M3U or JSON files directly onto main window.: Чирэх, буулгах - M3U эсвэл JSON файлуудыг үндсэн цонх руу шууд буулгана.
-Drag to seek back in buffer: Буфер дотроос буцаж хайхын тулд чирнэ үү
-Duplicate URLs found:\n\n: Давхардсан URL олдсон:\n\n
-Edit Command: Засварлах тушаал
-Edit command name:: Командын нэрийг засах:
-Edit Playlist: Тоглуулах жагсаалтыг засах
-Edit telnet command:: Telnet командыг засах:
-Edit URLs: URL-уудыг засах
-Empty Password: Хоосон нууц үг
-End: Төгсгөл
-Enrich with EPG: EPG-ээр баяжуулна
-Enter bouquet name (without spaces):: Баглааны нэрийг оруулна уу (хоосон зайгүй):
-Enter JSON URL:: JSON URL-г оруулна уу:
-Enter new group name:: Шинэ бүлгийн нэрийг оруулна уу:
-Enter playlist URL (JSON or M3U):: Тоглуулах жагсаалтын URL (JSON эсвэл M3U) оруулна уу:
-Enter playlist URL (M3U or JSON):: Тоглуулах жагсаалтын URL (M3U эсвэл JSON) оруулна уу:
-EPG: EPG
-Epg & Favorites: Epg & Дуртай
-EPG & Favorites: EPG ба дуртай зүйлс
-Epg & Logos: Epg ба лого
-EPG & Logos: EPG ба лого
-EPG cache cleared successfully.: EPG кэш амжилттай арилсан.
-EPG Details: EPG-ийн дэлгэрэнгүй мэдээлэл
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: EPG Guide – үндсэн хэрэгслийн самбар дээрх товчлуур нь програмын дэлгэрэнгүй мэдээлэл бүхий бүтэн сүлжээг харуулдаг (мэдээлэл авахыг хүсвэл давхар товшино уу).
-EPG Matching Threshold: EPG тохирох босго
-EPG Source: : EPG Эх сурвалж:
-EPG source – can be set in Settings (epgshare01 or custom URL).: EPG эх үүсвэрийг Тохиргоо дотроос (epgshare01 эсвэл захиалгат URL) тохируулж болно.
-EPG source – choose XMLTV file or enter custom URL.: EPG эх сурвалж - XMLTV файлыг сонгох эсвэл тусгай URL оруулна уу.
-EPG Source Missing: EPG эх үүсвэр алга
-Error: Алдаа
-Error clearing cache: {0}: Кэшийг цэвэрлэхэд алдаа гарлаа: {0}
-Error loading: Ачаалахад алдаа гарлаа
-Error loading EPG list: {0}: EPG жагсаалтыг ачаалахад алдаа гарлаа: {0}
-Error loading file: {0}: Файлыг ачаалахад алдаа гарсан: {0}
-Error loading playlists: {0}: Тоглуулах жагсаалтыг ачаалахад алдаа гарсан: {0}
-Error loading URL: {0}: URL ачаалахад алдаа гарлаа: {0}
-ERROR: player.html not found.: АЛДАА: player.html олдсонгүй.
-Exit: Гарах
-Export all: Бүгдийг экспортлох
-Export Favorites: Дуртай зүйлсийг экспортлох
-Export Filtered JSON: Шүүгдсэн JSON-г экспортлох
-Export Filtered M3U: Экспорт шүүсэн M3U
-Export JSON: JSON экспортлох
-Export KO: КО экспортлох
-Export missing: Экспорт дутуу байна
-Export OK: Экспорт OK
-Export only favorite channels to a new M3U file: Зөвхөн дуртай сувгуудыг шинэ M3U файл руу экспортлох
-Export results as JSON or M3U – export missing channels or all channels.: Үр дүнг JSON эсвэл M3U хэлбэрээр экспортлох - дутуу суваг эсвэл бүх сувгийг экспортлох.
-Export selected: Экспортыг сонгосон
-Export Selected: Сонгосон экспорт
-Exported: Экспортолсон
-Exported {0} channels to {1}: {0} сувгийг {1} руу экспорт хийсэн
-Extracting update...: Шинэчлэлтийг задалж байна...
-Failed to download playlist: Тоглуулах жагсаалтыг татаж авч чадсангүй
-Failed to load playlist: Тоглуулах жагсаалтыг ачаалж чадсангүй
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: bouquets.tv-г шинэчилж чадсангүй. Enigma2 төхөөрөмж дээрх файлын зөвшөөрлийг шалгана уу.
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: Баглаа байршуулж чадсангүй. Telnet тохиргоогоо (хост, порт, хэрэглэгчийн нэр, нууц үг) шалгаад дахин оролдоно уу.
-Favorite: Дуртай
-Favorites only: Зөвхөн дуртай
-Fetch Logos: Лого татах
-File {0} already exists. Overwrite?: {0} файл аль хэдийн байна. Дарж бичих үү?
-File exists: Файл байна
-Filters: Шүүлтүүр
-Format Detection: Формат илрүүлэх
-Fullscreen: Бүтэн дэлгэц
-Fullscreen (hide UI) - press ESC to exit: Бүтэн дэлгэц (UI нуух) - гарахын тулд ESC товчийг дарна уу
-Geo & Country: Гео ба улс
-GeoBlocked: GeoBlocked
-GitHub Error: GitHub алдаа
-Go back to live: Буцаад амьдар
-Grid: Сүлжээ
-Group: Бүлэг
-Half speed (0.5x): Хагас хурд (0.5x)
-Help: Туслаач
-Hide List: Жагсаалтыг нуух
-HLS playback: hls.js (MIT license): HLS тоглуулах: hls.js (MIT лиценз)
-Image: Зураг
-Import: Импорт
-Import cancelled or no channels mapped.: Импортыг цуцалсан эсвэл зураглаагүй суваг.
-Import Error: Импортын алдаа
-Import error: {0}: Импортын алдаа: {0}
-Import from URL: URL-аас импортлох
-Import JSON: JSON импортлох
-Import JSON from URL: URL-аас JSON импортлох
-Import Local: Орон нутгийн импорт
-Imported {0} channels from code.: Кодоос {0} суваг импортолсон.
-Imported {0} channels from JSON via mapping.: JSON-с {0} сувгийг зураглалаар импортолсон.
-Imported {0} channels from URL.: URL-аас {0} суваг импортолсон.
-In Both: Аль алинд нь
-Info: Мэдээлэл
-Info on: Мэдээлэл
-Invalid JSON: {0}: Буруу JSON: {0}
-Invalid playlist URL.: Тоглуулах жагсаалтын URL буруу байна.
-Invalid URL.: Хүчингүй URL.
-Json: Жсон
-JSON: JSON
-JSON parsing error: {0}: JSON задлан шинжлэх алдаа: {0}
-JSON Property: JSON өмч
-Ko-fi: Кофе
-Language: Хэл
-Language – change UI language dynamically (translations in Languages folder).: Хэл – UI хэлийг динамикаар өөрчлөх (хэлний хавтсанд байгаа орчуулгууд).
-Languages: Хэлнүүд
-Languages (comma): Хэл (таслал)
-LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help: LiveGardenTVPlus тусламж
-LOAD: Ачаалах
-Load a playlist first.: Эхлээд тоглуулах жагсаалтыг ачаална уу.
-Load a second playlist first.: Эхлээд хоёр дахь тоглуулах жагсаалтыг ачаална уу.
-Load File: Файл ачаалах
-Load from file...: Файлаас ачаалах...
-Load from URL: URL-аас ачаалах
-Load from URL...: URL-аас ачаалах...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: Орон нутгийн M3U/JSON файлыг 'Файл ачаалах' товчлуур (хэрэгслийн самбар) эсвэл засварлагчийн 'Файлыг нээх'-ээр ачаална уу.
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: M3U/JSON URL-г онлайнаар ачаалах – "Онлайнаар ачаалах" товч (хэрэгслийн самбар) эсвэл "URL-аас нээх".
-Load playlist file (M3U/JSON) from your computer: Тоглуулах жагсаалтын файлыг (M3U/JSON) компьютерээсээ ачаална уу
-Loaded: Ачаалагдсан
-Loaded {0} channels from JSON file via mapping.: JSON файлаас {0} сувгийг зураглалаар ачааллаа.
-Loaded {0} channels from JSON URL.: JSON URL-с {0} сувгийг ачаалсан.
-Loaded {0} channels from M3U file.: M3U файлаас {0} сувгийг ачаалсан.
-Loaded {0} channels from M3U URL.: M3U URL-аас {0} сувгийг ачаалсан.
-Loading...: Ачааж байна...
-Logo: Лого
-Logo Picker – in editor, click '...' to choose logo from gallery.: Лого сонгогч – засварлагчийн '...' дээр дарж галерейгаас логог сонгоно уу.
-Logo Preview: Логог урьдчилан харах
-Logo URL: Лого URL
-Logos – automatically download from GitHub repository (Settings → Logos Source).: Лого – GitHub репозитороос автоматаар татаж авах (Тохиргоо → Логоны эх сурвалж).
-Logos Matching Threshold: Лого таарах босго
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: Логоны агуулах – эзэмшигч/репо/замыг сонгоно уу (өгөгдмөл OwnerPlugins/logos).
-Logos Source: Логоны эх сурвалж
-Logos Subfolder: Логоны дэд хавтас
-M3U: M3U
-M3U parsing error: {0}: M3U задлан шинжлэх алдаа: {0}
-Map JSON properties to channel fields:: JSON шинж чанарыг сувгийн талбарт буулгах:
-Mapping saved for future imports of this file.: Энэ файлын цаашдын импортын зураглалыг хадгалсан.
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: Тохирох босго – EPG болон логоны бүдэг бадаг тааруулах мэдрэмжийг тохируулна.
-Mini Player: Мини тоглуулагч
-Move to Group: Бүлэг рүү шилжих
-Moved: Зөөв
-Name: Нэр
-Nanoid: Наноид
-Network error: Сүлжээний алдаа
-New Playlist: Шинэ тоглуулах жагсаалт
-Next: Дараа нь
-Next ▶: Дараагийн ▶
-No .m3u files found on GitHub repository.: GitHub репозитор дээр .m3u файл олдсонгүй.
-No cache folder found.: Кэш хавтас олдсонгүй.
-No channel selected: Сонгосон суваг алга
-No channels could be mapped or import cancelled.: Ямар ч сувгийг зураглах эсвэл импортыг цуцлах боломжгүй.
-No channels could be mapped. Check your mapping rules.: Ямар ч сувгийг зураглаж чадсангүй. Газрын зургийн дүрмээ шалгана уу.
-No channels found in JSON.: JSON-д суваг олдсонгүй.
-No channels found in M3U.: M3U-д суваг олдсонгүй.
-No channels loaded from JSON URL.: JSON URL-с ачаалагдсан суваг байхгүй.
-No channels loaded from M3U URL.: M3U URL-с ямар ч суваг ачаалагдаагүй байна.
-No channels loaded from M3U.: M3U-аас ачаалагдсан суваг алга.
-No channels loaded.: Ямар ч суваг ачаалагдсангүй.
-No channels mapped: Ямар ч суваг зураглаагүй
-No channels selected.: Сонгосон суваг алга.
-No channels to import.: Импортлох суваг алга.
-No duplicate URLs found.: Давхардсан URL олдсонгүй.
-No EPG data: EPG өгөгдөл байхгүй
-No EPG information available for this channel.: Энэ сувагт EPG мэдээлэл байхгүй байна.
-No EPG source configured. Please select one from the combo or go to Settings.: EPG эх үүсвэрийг тохируулаагүй байна. Комбоноос нэгийг нь сонгох эсвэл Тохиргоо руу очно уу.
-No EPG source configured. Would you like to open settings to select one?: EPG эх үүсвэрийг тохируулаагүй байна. Та нэгийг сонгохын тулд тохиргоог нээхийг хүсэж байна уу?
-No favorite channels to export.: Экспортлох дуртай суваг алга.
-No missing channels to export.: Экспорт хийх дутуу суваг байхгүй.
-No playlist found: Тоглуулах жагсаалт олдсонгүй
-No second playlist loaded.: Хоёрдахь тоглуулах жагсаалт ачаалагдаагүй байна.
-No stream URL available for this channel.: Энэ сувагт дамжуулах URL байхгүй байна.
-No text to import.: Импортлох текст байхгүй.
-No updates available.: Шинэчлэлт байхгүй.
-Normal speed (1x): Ердийн хурд (1x)
-Not connected to the box.: Хайрцагтай холбогдоогүй байна.
-Now: Одоо
-OK: OK
-Online Playlist: Онлайн тоглуулах жагсаалт
-Online playlist – select from GitHub repository (auto‑refresh).: Онлайн тоглуулах жагсаалт – GitHub репозитороос сонгоно уу (автоматаар шинэчлэх).
-Only in First: Зөвхөн нэгдүгээрт
-Only in Second: Зөвхөн хоёрдугаарт
-Open File...: Файл нээх...
-Open from URL: URL-аас нээх
-Open Playlist: Тоглуулах жагсаалтыг нээх
-Pause/Resume live stream: Шууд дамжуулалтыг түр зогсоох/үргэлжлүүлэх
-Paused: Түр зогсоосон
-PayPal: PayPal
-Picture-in-Picture mode: Зураг доторх горим
-Play/Pause: Тоглуулах/түр зогсоох
-Player Media Controls: Тоглогчийн медиа удирдлага
-Playing Media: Медиа тоглуулж байна
-Playlist & Groups: Тоглуулах жагсаалт ба бүлгүүд
-Playlist Comparison: Тоглуулах жагсаалтын харьцуулалт
-Playlist Editor: Тоглуулах жагсаалт засварлагч
-Playlist Loading: Тоглуулах жагсаалтыг ачаалж байна
-Playlist Management: Тоглуулах жагсаалтын менежмент
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): Тоглуулах жагсаалтын хадгалах газар: OwnerPlugins/TivuStreamList (Итали ба олон улсын дамжуулалт)
-Please select a program first.: Эхлээд програмаа сонгоно уу.
-Preview (first 5 channels): Урьдчилан үзэх (эхний 5 суваг)
-Preview error: {0}: Урьдчилан үзэх алдаа: {0}
-Program Details: Хөтөлбөрийн дэлгэрэнгүй мэдээлэл
-Ready: Бэлэн
-Ready.: Бэлэн.
-Recent: Саяхан
-Recent files – quick access to last 5 opened playlists.: Сүүлийн үеийн файлууд - сүүлийн 5 нээсэн тоглуулах жагсаалт руу хурдан нэвтрэх.
-Recent playlists: Сүүлийн үеийн тоглуулах жагсаалтууд
-Refresh Code: Кодыг шинэчлэх
-Refresh EPG: EPG-г сэргээх
-Refresh EPG List: EPG жагсаалтыг шинэчлэх
-Refresh from GitHub: GitHub-с сэргээнэ үү
-Refresh List: Жагсаалтыг шинэчлэх
-Reload GUI: GUI-г дахин ачаална уу
-Remove Command: Командыг устгах
-Rename Group: Бүлгийн нэрийг өөрчлөх
-Rename group '{0}' to:: '{0}' бүлгийн нэрийг өөрчлөх:
-Repository: Хадгалах газар
-Reset Order: Захиалгыг дахин тохируулах
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: Үр дүн: 'Зөвхөн нэгдүгээрт', 'Зөвхөн хоёрдугаарт', 'Хоёуланд' – төлөвийн өнгө кодлолтой.
-Save: Хадгалах
-SAVE: ХАДГАЛАХ
-Save – persists all settings without reloading current playlist.: Хадгалах - одоогийн тоглуулах жагсаалтыг дахин ачаалахгүйгээр бүх тохиргоог хадгалах.
-Save as...: Хадгалах...
-Save current playlist to a new M3U file: Одоогийн тоглуулах жагсаалтыг шинэ M3U файлд хадгална уу
-Save Mapping: Газрын зураг хадгалах
-Save Playlist: Тоглуулах жагсаалтыг хадгалах
-Save Status: Статусыг хадгалах
-Saved: Хадгалсан
-Search channel: : Хайлтын суваг:
-Search channels by name: Сувгуудыг нэрээр нь хайх
-Search channels...: Сувгууд хайх...
-sec: сек
-Second playlist loaded: {0} channels: Хоёрдахь тоглуулах жагсаалтыг ачаалсан: {0} суваг
-Select a channel to play.: Тоглуулах сувгаа сонгоно уу.
-Select a playlist first.: Эхлээд тоглуулах жагсаалтыг сонгоно уу.
-Select target group:: Зорилтот бүлгийг сонгох:
-Select Theme: Сэдвийг сонгоно уу
-Selected theme is saved and applied on restart.: Сонгосон загвар хадгалагдаж, дахин эхлүүлэх үед хэрэгжинэ.
-Send: Илгээх
-Send playlist to Enigma2 decoder: Enigma2 декодер руу тоглуулах жагсаалтыг илгээнэ үү
-Send to Enigma2: Enigma2 руу илгээнэ үү
-Settings: Тохиргоо
-Show List: Жагсаалтыг харуулах
-Show only channels marked as favorites: Зөвхөн дуртай гэж тэмдэглэсэн сувгуудыг харуулах
-Show or hide the channel list: Сувгийн жагсаалтыг харуулах эсвэл нуух
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: Туршилт, дэмжлэг үзүүлсэн CORVOBOYS & LinuxSat-Дэмжлэгийн нийгэмлэгүүдэд онцгой талархал илэрхийлье.
-Start: Эхлэх
-Status: Статус
-Stop: Зогс
-Stopped: Зогссон
-Stream URL: Урсгал URL
-Stream URLs: Урсгал URL-ууд
-Success: Амжилт
-Support: Дэмжлэг
-Support the developer: Хөгжүүлэгчийг дэмжинэ үү
-Target Field: Зорилтот талбар
-Telnet command:: Telnet тушаал:
-Telnet Commander: Telnet командлагч
-Telnet Config: Telnet тохиргоо
-Telnet Console: Telnet консол
-Telnet host not configured. Please set it in Settings.: Telnet хостыг тохируулаагүй байна. Үүнийг Тохиргоо хэсэгт тохируулна уу.
-Telnet password is empty. Do you want to continue?: Telnet нууц үг хоосон байна. Та үргэлжлүүлэхийг хүсч байна уу?
-Telnet username not configured. Please set it in Settings.: Telnet хэрэглэгчийн нэрийг тохируулаагүй байна. Үүнийг Тохиргоо хэсэгт тохируулна уу.
-Thanks to: -д баярлалаа
-Theme picker: Сэдэв сонгогч
-Theme picker – accessible via Tools menu on main toolbar.: Загвар сонгогч – үндсэн хэрэгслийн самбар дээрх Tools цэсээр дамжуулан хандах боломжтой.
-Themes: Сэдвүүд
-Time: Цаг хугацаа
-Title: Гарчиг
-Tools: Багаж хэрэгсэл
-Total: Нийт
-Total channels in loaded playlist: Ачаалагдсан тоглуулах жагсаалт дахь нийт сувгууд
-TV Guide (EPG): ТВ хөтөч (EPG)
-TvgId: TvgId
-Type channel name to filter: Шүүлгэхийн тулд сувгийн нэрийг бичнэ үү
-UI: MaterialDesignThemes.Wpf: UI: MaterialDesignThemes.Wpf
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: Форматыг автоматаар илрүүлэх боломжгүй. Унтраах цэснээс JSON эсвэл M3U-г сонгоод дахин оролдоно уу.
-Unable to find version in remote project file.: Алсын төслийн файлаас хувилбарыг олох боломжгүй байна.
-Unsupported format. Please select JSON or M3U.: Дэмжигдээгүй формат. JSON эсвэл M3U-г сонгоно уу.
-Update: Шинэчлэх
-Update complete. Restarting...: Шинэчлэлт дууссан. Дахин эхлүүлж байна...
-Update Error: Шинэчлэлтийн алдаа
-Update failed: : Шинэчлэлт амжилтгүй болсон:
-Updates: Шинэчлэлтүүд
-Upload Error: Байршуулах алдаа
-URL: URL
-URL (primary): URL (үндсэн)
-URL Check: URL шалгах
-URL list (one per line): URL жагсаалт (мөр тутамд нэг)
-URLs & Status: URL болон статус
-Version: Хувилбар
-Version {0}.{1}.{2}: Хувилбар {0}.{1}.{2}
-Version unknown: Хувилбар тодорхойгүй
-Waiting for LiveGardenTVPlus to close...: LiveGardenTVPlus хаагдахыг хүлээж байна...
-Warning: Анхааруулга
-WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
-Youtube URL: Youtube URL
-Youtube URLs: Youtube URL-ууд
+(Completely voluntary – no features are blocked)::(Бүрэн сайн дурын - ямар ч функцийг хориглоогүй)
+(No description)::(Тодорхойлолт байхгүй)
+• Add / rename / delete groups.::• Бүлгүүдийг нэмэх / нэрийг өөрчлөх / устгах.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• Буфер гулсагч: HLS буферийг тохируулах (1‑10 секунд).
+• Check URL availability (only visible channels).::• URL байгаа эсэхийг шалгах (зөвхөн харагдах сувгууд).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• Сувгийн нэр, бүлгэм, URL, лого, tvg-id, улс, хэл, дуртай зүйлсийг засварлана.
+• Edit multiple URLs per channel (popup window).::• Нэг суваг бүрт олон URL-г засварлах (попап цонх).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• EPG-ээр баяжуулах: тодорхой бус тохирохыг ашиглан алга болсон tvg-id-г нэмнэ.
+• EPG info displayed in status bar for current channel.::• Одоогийн сувгийн статус талбарт EPG-ийн мэдээлэл харагдана.
+• Export OK / FAIL / filtered lists as M3U or JSON.::• OK / FAIL / шүүсэн жагсаалтыг M3U эсвэл JSON болгон экспортлох.
+• Fetch logos from remote repository (OwnerPlugins/logos).::• Алсын агуулахаас лого татах (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• Бүтэн дэлгэцийн UI: хажуугийн хэсэг болон төлөвийн мөрийг нууна (гарахын тулд ESC).
+• Hide/Show channel list button.::• Сувгийн жагсаалтыг нуух/ харуулах товч.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• Хээрийн уян хатан зураглал бүхий JSON (орон нутгийн эсвэл URL) импортлох (автоматаар илрүүлэх, зураглалыг хадгалах).
+• Picture‑in‑Picture (PIP) button.::• Зураг доторх зураг (PIP) товчлуур.
+• Playback speed: 0.5x, 1x, 2x buttons.::• Тоглуулах хурд: 0.5x, 1x, 2x товчлуурууд.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• Толгой хэсэгт дарж дурын баганыг эрэмбэлэх; Анхны дараалал руу буцахын тулд "Захиалга дахин тохируулах"-г ашиглана уу.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• Timeshift: шууд дамжуулалтыг түр зогсоох; буцаж хайхын тулд гулсагчийг чирнэ үү; Буцахын тулд "Шууд" дээр дарна уу.
+▶ Play Media::▶ Media Play
+◀ Previous::◀ Өмнөх
+16 colour themes + Light/Dark variants.::16 өнгөт загвар + Гэрэл/Харанхуй хувилбарууд.
+A new version is available. Do you want to update now?::Шинэ хувилбар гарсан байна. Та одоо шинэчлэхийг хүсэж байна уу?
+Access via 'Compare' button in Playlist Editor or Tools menu.::Тоглуулах жагсаалт засварлагч эсвэл Хэрэгслийн цэсэн дэх "Харьцуулах" товчоор хандана уу.
+Access via 'Edit Playlist' button on main toolbar.::Үндсэн хэрэгслийн самбар дээрх 'Тоглуулах жагсаалтыг засах' товчоор хандана уу.
+Actions::Үйлдлүүд
+Add Command::Тушаал нэмэх
+Add Group::Бүлэг нэмэх
+Add Mapping::Газрын зураг нэмэх
+Adjust buffer size (1-10 seconds)::Буферийн хэмжээг тохируулах (1-10 секунд)
+Advanced IDs::Нарийвчилсан ID
+All channels marked as favorites::Бүх сувгийг дуртай гэж тэмдэглэсэн
+All favorites removed::Бүх дуртай зүйлсийг хассан
+Application status::Өргөдлийн статус
+Apply::Өргөдөл гаргах
+Apply / Import::Хэрэглэх / Импортлох
+Apply changes::Өөрчлөлтийг хэрэгжүүлэх
+Apply Filters::Шүүлтүүр хэрэглэх
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::Та Enigma2 GUI-г дахин ачаалахдаа итгэлтэй байна уу?\n\nИнтерфэйс дахин асах болно (хэдхэн секундын турш хар дэлгэц).
+Auto (recommended)::Автомат (санал болгосон)
+Auto-detect::Автоматаар илрүүлэх
+Automatic check on startup – or click 'Check for updates' in Tools menu.::Ачаалах үед автоматаар шалгах - эсвэл Tools цэсний "Шинэчлэлтүүдийг шалгах" дээр дарна уу.
+Bouquet Name::Bouquet нэр
+Bouquet sent and Enigma2 channel list reloaded.::Bouquet илгээж, Enigma2 сувгийн жагсаалтыг дахин ачааллаа.
+Buffer (seconds)::Буфер (секунд)
+Buffer size – adjust HLS buffer seconds.::Буферийн хэмжээ – HLS буфер секундийг тохируулна уу.
+Cache::Кэш
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::Кэш фолдер: %TEMP%\\LiveGardenTVPlus\\epg_cache
+Cancel::Цуцлах
+CANCEL::Цуцлах
+Cannot open browser::Хөтөчийг нээж чадахгүй байна
+Category::Ангилал
+Changelog::Өөрчлөлтийн бүртгэл
+Channel Details::Сувгийн дэлгэрэнгүй мэдээлэл
+Channel Down::Суваг доош
+Channel Info::Сувгийн мэдээлэл
+Channel Name::Сувгийн нэр
+Channel Up::Дээш суваг
+Channel updated successfully.::Сувгийг амжилттай шинэчилсэн.
+channels from::сувгууд
+channels from JSON::JSON-н сувгууд
+channels from JSON URL::JSON URL-с сувгууд
+channels from URL::URL-аас суваг
+Check Duplicates::Давхардсан зүйлсийг шалгана уу
+Check for updates::Шинэчлэлт байгаа эсэхийг шалгана уу
+Check URLs::URL хаягуудыг шалгана уу
+Clear::Тодорхой
+Clear EPG Cache::EPG кэшийг цэвэрлэх
+Clear Filters::Шүүлтүүрийг арилгах
+Clear search::Хайлтыг арилгах
+Click for details::Дэлгэрэнгүйг дарж үзнэ үү
+Close::Хаах
+Close current playlist::Одоогийн тоглуулах жагсаалтыг хаах
+Close Playlist::Тоглуулах жагсаалтыг хаах
+Code::Код
+Code copied to clipboard.::Кодыг санах ой руу хуулсан.
+Command name:::Тушаалын нэр:
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::Нийгэмлэг ба туршилт: CorvoBoys (corvoboys.org) & LinuxSat-Support.com
+Compare::Харьцуулах
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::Харьцуул: Тэргүүлэх (нэр→бүлэг→tvg-id), Нэр, Бүлэг (үсгийн том үсгээр) эсвэл TvgId.
+Compare Playlists::Тоглуулах жагсаалтыг харьцуулах
+Compare two playlists – load first (current playlist) and second (from file or URL).::Хоёр тоглуулах жагсаалтыг харьцуулах - эхлээд (одоогийн тоглуулах жагсаалт) болон хоёр дахь (файл эсвэл URL-аас) ачаалах.
+Compare...::Харьцуулах...
+Comparison results: {0} channels::Харьцуулалтын үр дүн: {0} суваг
+Configuration Missing::Тохиргоо дутуу
+Confirm Delete::Устгахаа баталгаажуулна уу
+Confirm Reload::Дахин ачаалахыг баталгаажуулна уу
+Connect::Холбох
+Connected::Холбогдсон
+Copied::Хуулсан
+Copy::Хуулбарлах
+CORVOBOYS.ORG::CORVOBOYS.ORG
+Country::Улс
+Credits::Зээл
+Delete channel '{0}'?::'{0}' сувгийг устгах уу?
+Delete Group::Бүлгийг устгах
+Delete Selected::Сонгосоныг устгах
+Deleted::Устгасан
+Description::Тодорхойлолт
+Details::Дэлгэрэнгүй мэдээлэл
+Developed by Lululla::Лулулла боловсруулсан
+Developer: Lululla::Хөгжүүлэгч: Лулулла
+Disconnect::Салгах
+Disconnected::Салгасан
+Display as::байдлаар харуулах
+Do you want to load this edited playlist now?::Та энэ засварласан тоглуулах жагсаалтыг одоо ачаалмаар байна уу?
+Double speed (2x)::Давхар хурд (2x)
+Downloading playlist...::Тоглуулах жагсаалтыг татаж байна...
+Downloads ZIP, replaces files, restarts app – settings preserved.::ZIP файлыг татаж, файлыг сольж, програмыг дахин эхлүүлж - тохиргоог хадгалсан.
+Drag & drop – drop M3U or JSON files directly onto main window.::Чирэх, буулгах - M3U эсвэл JSON файлуудыг үндсэн цонх руу шууд буулгана.
+Drag to seek back in buffer::Буфер дотроос буцаж хайхын тулд чирнэ үү
+Duplicate URLs found:\n\n::Давхардсан URL олдсон:\n\n
+Edit Command::Засварлах тушаал
+Edit command name:::Командын нэрийг засах:
+Edit Playlist::Тоглуулах жагсаалтыг засах
+Edit telnet command:::Telnet командыг засах:
+Edit URLs::URL-уудыг засах
+Empty Password::Хоосон нууц үг
+End::Төгсгөл
+Enigma2::Оньсого 2
+Enrich with EPG::EPG-ээр баяжуулна
+Enter bouquet name (without spaces):::Баглааны нэрийг оруулна уу (хоосон зайгүй):
+Enter JSON URL:::JSON URL-г оруулна уу:
+Enter new group name:::Шинэ бүлгийн нэрийг оруулна уу:
+Enter playlist URL (JSON or M3U):::Тоглуулах жагсаалтын URL (JSON эсвэл M3U) оруулна уу:
+Enter playlist URL (M3U or JSON):::Тоглуулах жагсаалтын URL (M3U эсвэл JSON) оруулна уу:
+EPG::EPG
+Epg & Favorites::Epg & Дуртай
+EPG & Favorites::EPG ба дуртай зүйлс
+Epg & Logos::Epg ба лого
+EPG & Logos::EPG ба лого
+EPG cache cleared successfully.::EPG кэш амжилттай арилсан.
+EPG Details::EPG-ийн дэлгэрэнгүй мэдээлэл
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::EPG Guide – үндсэн хэрэгслийн самбар дээрх товчлуур нь програмын дэлгэрэнгүй мэдээлэл бүхий бүтэн сүлжээг харуулдаг (мэдээлэл авахыг хүсвэл давхар товшино уу).
+EPG Matching Threshold::EPG тохирох босго
+EPG Source::EPG эх сурвалж
+EPG source – can be set in Settings (epgshare01 or custom URL).::EPG эх үүсвэрийг Тохиргоо дотроос тохируулж болно (epgshare01 эсвэл захиалгат URL).
+EPG source – choose XMLTV file or enter custom URL.::EPG эх сурвалж - XMLTV файлыг сонгох эсвэл тусгай URL оруулна уу.
+EPG Source Missing::EPG эх үүсвэр алга
+Error::Алдаа
+Error clearing cache: {0}::Кэшийг цэвэрлэхэд алдаа гарлаа: {0}
+Error loading::Ачаалахад алдаа гарлаа
+Error loading EPG list: {0}::EPG жагсаалтыг ачаалахад алдаа гарлаа: {0}
+Error loading file: {0}::Файлыг ачаалахад алдаа гарсан: {0}
+Error loading playlists: {0}::Тоглуулах жагсаалтыг ачаалахад алдаа гарсан: {0}
+Error loading URL: {0}::URL ачаалахад алдаа гарлаа: {0}
+ERROR: player.html not found.::АЛДАА: player.html олдсонгүй.
+Exit::Гарах
+Export all::Бүгдийг экспортлох
+Export Favorites::Дуртай зүйлсийг экспортлох
+Export Filtered JSON::Шүүгдсэн JSON-г экспортлох
+Export Filtered M3U::Шүүлтүүртэй M3U экспортлох
+Export JSON::JSON экспортлох
+Export KO::КО экспортлох
+Export missing::Экспорт дутуу байна
+Export OK::Экспорт OK
+Export only favorite channels to a new M3U file::Зөвхөн дуртай сувгуудыг шинэ M3U файл руу экспортлох
+Export results as JSON or M3U – export missing channels or all channels.::Үр дүнг JSON эсвэл M3U хэлбэрээр экспортлох - дутуу суваг эсвэл бүх сувгийг экспортлох.
+Export selected::Экспортыг сонгосон
+Export Selected::Сонгосон экспорт
+Exported::Экспортолсон
+Exported {0} channels to {1}::{0} сувгийг {1} руу экспорт хийсэн
+Extracting update...::Шинэчлэлтийг задалж байна...
+Failed to download playlist::Тоглуулах жагсаалтыг татаж авч чадсангүй
+Failed to load playlist::Тоглуулах жагсаалтыг ачаалж чадсангүй
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::bouquets.tv-г шинэчилж чадсангүй. Enigma2 төхөөрөмж дээрх файлын зөвшөөрлийг шалгана уу.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::Баглаа байршуулж чадсангүй. Telnet тохиргоогоо (хост, порт, хэрэглэгчийн нэр, нууц үг) шалгаад дахин оролдоно уу.
+Favorite::Дуртай
+Favorites::Дуртай
+Favorites only::Зөвхөн дуртай
+Fetch Logos::Лого татах
+File::Файл
+File {0} already exists. Overwrite?::{0} файл аль хэдийн байна. Дарж бичих үү?
+File exists::Файл байна
+Filters::Шүүлтүүр
+Format Detection::Формат илрүүлэх
+Fullscreen::Бүтэн дэлгэц
+Fullscreen (hide UI) - press ESC to exit::Бүтэн дэлгэц (UI нуух) - гарахын тулд ESC товчийг дарна уу
+Geo & Country::Гео ба улс
+GeoBlocked::GeoBlocked
+GitHub Error::GitHub алдаа
+Go back to live::Буцаад амьдар
+Grid::Сүлжээ
+Group::Бүлэг
+Half speed (0.5x)::Хагас хурд (0.5x)
+Help::Туслаач
+Hide List::Жагсаалтыг нуух
+HLS playback: hls.js (MIT license)::HLS тоглуулах: hls.js (MIT лиценз)
+Image::Зураг
+Import::Импорт
+Import cancelled or no channels mapped.::Импортыг цуцалсан эсвэл зураглаагүй суваг.
+Import Error::Импортын алдаа
+Import error: {0}::Импортын алдаа: {0}
+Import from URL::URL-аас импортлох
+Import JSON::JSON импортлох
+Import JSON from URL::URL-аас JSON импортлох
+Import Local::Орон нутгийн импорт
+Imported {0} channels from code.::Кодоос {0} суваг импортолсон.
+Imported {0} channels from JSON via mapping.::JSON-с {0} сувгийг зураглалаар импортолсон.
+Imported {0} channels from URL.::URL-аас {0} суваг импортолсон.
+In Both::Аль алинд нь
+Info::Мэдээлэл
+Info on::Мэдээлэл
+Invalid JSON: {0}::Буруу JSON: {0}
+Invalid playlist URL.::Тоглуулах жагсаалтын URL буруу байна.
+Invalid URL.::Хүчингүй URL.
+Json::Жсон
+JSON::JSON
+JSON parsing error: {0}::JSON задлан шинжлэх алдаа: {0}
+JSON Property::JSON өмч
+Ko-fi::Кофе
+Language::Хэл
+Language – change UI language dynamically (translations in Languages folder).::Хэл – UI хэлийг динамикаар өөрчлөх (хэлний хавтсанд байгаа орчуулгууд).
+Languages::Хэлнүүд
+Languages (comma)::Хэл (таслал)
+LINUXSAT-SUPPORT.COM::LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help::LiveGardenTVPlus тусламж
+LOAD::Ачаалах
+Load a playlist first.::Эхлээд тоглуулах жагсаалтыг ачаална уу.
+Load a second playlist first.::Эхлээд хоёр дахь тоглуулах жагсаалтыг ачаална уу.
+Load File::Файл ачаалах
+Load from file...::Файлаас ачаалах...
+Load from URL::URL-аас ачаалах
+Load from URL...::URL-аас ачаалах...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::Орон нутгийн M3U/JSON файлыг 'Файл ачаалах' товчлуур (хэрэгслийн самбар) эсвэл засварлагчийн 'Файлыг нээх'-ээр ачаална уу.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::M3U/JSON URL-г онлайнаар ачаалах – "Онлайнаар ачаалах" товч (хэрэгслийн самбар) эсвэл "URL-аас нээх".
+Load Playlist::Тоглуулах жагсаалтыг ачаалах
+Load playlist file (M3U/JSON) from your computer::Тоглуулах жагсаалтын файлыг (M3U/JSON) компьютерээсээ ачаална уу
+Loaded::Ачаалагдсан
+Loaded {0} channels from JSON file via mapping.::JSON файлаас {0} сувгийг зураглалаар ачааллаа.
+Loaded {0} channels from JSON URL.::JSON URL-с {0} сувгийг ачаалсан.
+Loaded {0} channels from M3U file.::M3U файлаас {0} сувгийг ачаалсан.
+Loaded {0} channels from M3U URL.::M3U URL-аас {0} сувгийг ачаалсан.
+Loading...::Ачааж байна...
+Logo::Лого
+Logo Picker – in editor, click '...' to choose logo from gallery.::Лого сонгогч – засварлагчийн '...' дээр дарж галерейгаас логог сонгоно уу.
+Logo Preview::Лого урьдчилан харах
+Logo URL::Лого URL
+Logos – automatically download from GitHub repository (Settings → Logos Source).::Лого – GitHub репозитороос автоматаар татаж авах (Тохиргоо → Логоны эх сурвалж).
+Logos Matching Threshold::Лого тохирох босго
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::Логоны агуулах – эзэмшигч/репо/замыг сонгоно уу (өгөгдмөл OwnerPlugins/logos).
+Logos Source::Логоны эх сурвалж
+Logos Subfolder::Логоны дэд хавтас
+M3U::M3U
+M3U parsing error: {0}::M3U задлан шинжлэх алдаа: {0}
+Map JSON properties to channel fields:::JSON шинж чанарыг сувгийн талбарт буулгах:
+Mapping saved for future imports of this file.::Энэ файлын цаашдын импортын зураглалыг хадгалсан.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::Тохиромжтой босго – EPG болон логоны бүдэг бадаг тааруулах мэдрэмжийг тохируулна.
+Mini Player::Мини тоглуулагч
+Move to Group::Бүлэг рүү шилжих
+Moved::Зөөв
+Name::Нэр
+Nanoid::Наноид
+Network error::Сүлжээний алдаа
+New Playlist::Шинэ тоглуулах жагсаалт
+Next::Дараа нь
+Next ▶::Дараагийн ▶
+No .m3u files found on GitHub repository.::GitHub репозитор дээр .m3u файл олдсонгүй.
+No cache folder found.::Кэш хавтас олдсонгүй.
+No channel selected::Сонгосон суваг алга
+No channel selected.::Сонгосон суваг алга.
+No channels could be mapped or import cancelled.::Ямар ч сувгийг зураглах эсвэл импортыг цуцлах боломжгүй.
+No channels could be mapped. Check your mapping rules.::Ямар ч сувгийг зураглаж чадсангүй. Газрын зургийн дүрмээ шалгана уу.
+No channels found in JSON.::JSON-д суваг олдсонгүй.
+No channels found in M3U.::M3U-д суваг олдсонгүй.
+No channels loaded from JSON URL.::JSON URL-с ачаалагдсан суваг байхгүй.
+No channels loaded from M3U URL.::M3U URL-с ямар ч суваг ачаалагдаагүй байна.
+No channels loaded from M3U.::M3U-аас ачаалагдсан суваг алга.
+No channels loaded.::Ачаалагдсан суваг алга.
+No channels mapped::Ямар ч суваг зураглаагүй
+No channels selected.::Сонгосон суваг алга.
+No channels to import.::Импортлох суваг алга.
+No duplicate URLs found.::Давхардсан URL олдсонгүй.
+No EPG data::EPG өгөгдөл байхгүй
+No EPG information available for this channel.::Энэ сувагт EPG мэдээлэл байхгүй байна.
+No EPG source configured. Please select one from the combo or go to Settings.::EPG эх үүсвэрийг тохируулаагүй байна. Комбоноос нэгийг нь сонгох эсвэл Тохиргоо руу очно уу.
+No EPG source configured. Would you like to open settings to select one?::EPG эх үүсвэрийг тохируулаагүй байна. Нэгийг нь сонгохын тулд тохиргоог нээхийг хүсэж байна уу?
+No favorite channels found.::Дуртай суваг олдсонгүй.
+No favorite channels to export.::Экспортлох дуртай суваг алга.
+No missing channels to export.::Экспорт хийх дутуу суваг байхгүй.
+No playlist found::Тоглуулах жагсаалт олдсонгүй
+No second playlist loaded.::Хоёрдахь тоглуулах жагсаалт ачаалагдаагүй байна.
+No stream URL available for this channel.::Энэ сувагт дамжуулах URL байхгүй байна.
+No text to import.::Импортлох текст байхгүй.
+No updates available.::Шинэчлэлт байхгүй.
+Normal speed (1x)::Ердийн хурд (1x)
+Not connected to the box.::Хайрцагтай холбогдоогүй байна.
+Now::Одоо
+OK::OK
+Online Playlist::Онлайн тоглуулах жагсаалт
+Online playlist – select from GitHub repository (auto‑refresh).::Онлайн тоглуулах жагсаалт – GitHub репозитороос сонгоно уу (автоматаар шинэчлэх).
+Only in First::Зөвхөн нэгдүгээрт
+Only in Second::Зөвхөн хоёрдугаарт
+Open File...::Файл нээх...
+Open from URL::URL-аас нээх
+Open Playlist::Тоглуулах жагсаалтыг нээх
+Pause/Resume live stream::Шууд дамжуулалтыг түр зогсоох/үргэлжлүүлэх
+Paused::Түр зогсоосон
+PayPal::PayPal
+Picture-in-Picture mode::Зураг доторх горим
+Play/Pause::Тоглуулах/түр зогсоох
+Player Media Controls::Тоглогчийн медиа удирдлага
+Playing Media::Медиа тоглуулж байна
+Playlist & Groups::Тоглуулах жагсаалт ба бүлгүүд
+Playlist closed::Тоглуулах жагсаалт хаагдсан
+Playlist Comparison::Тоглуулах жагсаалтын харьцуулалт
+Playlist Editor::Тоглуулах жагсаалт засварлагч
+Playlist Loading::Тоглуулах жагсаалтыг ачаалж байна
+Playlist Management::Тоглуулах жагсаалтын менежмент
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::Тоглуулах жагсаалтын хадгалах газар: OwnerPlugins/TivuStreamList (Итали ба олон улсын дамжуулалт)
+Please select a program first.::Эхлээд програмаа сонгоно уу.
+Preview (first 5 channels)::Урьдчилан үзэх (эхний 5 суваг)
+Preview error: {0}::Урьдчилан үзэх алдаа: {0}
+Program Details::Хөтөлбөрийн дэлгэрэнгүй мэдээлэл
+Ready::Бэлэн
+Recent::Саяхан
+Recent files – quick access to last 5 opened playlists.::Сүүлийн үеийн файлууд - сүүлийн 5 нээсэн тоглуулах жагсаалт руу хурдан нэвтрэх.
+Recent playlists::Сүүлийн үеийн тоглуулах жагсаалтууд
+Refresh Code::Кодыг шинэчлэх
+Refresh EPG::EPG-г сэргээх
+Refresh EPG List::EPG жагсаалтыг шинэчлэх
+Refresh from GitHub::GitHub-с сэргээнэ үү
+Refresh List::Жагсаалтыг шинэчлэх
+Reload GUI::GUI-г дахин ачаална уу
+Remove Command::Командыг устгах
+Rename Group::Бүлгийн нэрийг өөрчлөх
+Rename group '{0}' to:::'{0}' бүлгийн нэрийг өөрчлөх:
+Repository::Хадгалах газар
+Reset Order::Захиалгыг дахин тохируулах
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::Үр дүн: 'Зөвхөн нэгдүгээрт', 'Зөвхөн хоёр дахь нь', 'Хоёуланд нь' – төлөвийн өнгө кодлолтой.
+Save::Хадгалах
+SAVE::ХАДГАЛАХ
+Save – persists all settings without reloading current playlist.::Хадгалах - одоогийн тоглуулах жагсаалтыг дахин ачаалахгүйгээр бүх тохиргоог хадгалах.
+Save as...::Хадгалах...
+Save current playlist to a new M3U file::Одоогийн тоглуулах жагсаалтыг шинэ M3U файлд хадгална уу
+Save Favorites::Дуртай зүйлсийг хадгалах
+Save Mapping::Газрын зураг хадгалах
+Save Playlist::Тоглуулах жагсаалтыг хадгалах
+Save Status::Статусыг хадгалах
+Saved::Хадгалсан
+Search channel::Суваг хайх
+Search channels by name::Сувгуудыг нэрээр нь хайх
+Search channels...::Сувгууд хайх...
+sec::сек
+Second playlist loaded: {0} channels::Хоёрдахь тоглуулах жагсаалтыг ачаалсан: {0} суваг
+Select a channel to play.::Тоглуулах сувгаа сонгоно уу.
+Select a playlist first.::Эхлээд тоглуулах жагсаалтыг сонгоно уу.
+Select target group:::Зорилтот бүлгийг сонгох:
+Select Theme::Сэдвийг сонгоно уу
+Selected theme is saved and applied on restart.::Сонгосон загвар хадгалагдаж, дахин эхлүүлэх үед хэрэгжинэ.
+Send::Илгээх
+Send playlist to Enigma2 decoder::Enigma2 декодер руу тоглуулах жагсаалтыг илгээнэ үү
+Send to Enigma2::Enigma2 руу илгээнэ үү
+Settings::Тохиргоо
+Show List::Жагсаалтыг харуулах
+Show only channels marked as favorites::Зөвхөн дуртай гэж тэмдэглэсэн сувгуудыг харуулах
+Show or hide the channel list::Сувгийн жагсаалтыг харуулах эсвэл нуух
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::Туршилт, дэмжлэг үзүүлсэн CORVOBOYS & LinuxSat-Дэмжлэгийн нийгэмлэгүүдэд онцгой талархал илэрхийлье.
+Start::Эхлэх
+Status::Статус
+Stop::Зогс
+Stopped::Зогссон
+Stream URL::Урсгал URL
+Stream URLs::Урсгал URL-ууд
+Success::Амжилт
+Support::Дэмжлэг
+Support the developer::Хөгжүүлэгчийг дэмжинэ үү
+Target Field::Зорилтот талбар
+Telnet command:::Telnet тушаал:
+Telnet Commander::Telnet командлагч
+Telnet Config::Telnet тохиргоо
+Telnet Configuration::Telnet тохиргоо
+Telnet Console::Telnet консол
+Telnet host not configured. Please set it in Settings.::Telnet хостыг тохируулаагүй байна. Үүнийг Тохиргоо хэсэгт тохируулна уу.
+Telnet password is empty. Do you want to continue?::Telnet нууц үг хоосон байна. Та үргэлжлүүлэхийг хүсч байна уу?
+Telnet username not configured. Please set it in Settings.::Telnet хэрэглэгчийн нэрийг тохируулаагүй байна. Үүнийг Тохиргоо хэсэгт тохируулна уу.
+Thanks to::-д баярлалаа
+Theme picker::Сэдэв сонгогч
+Theme picker – accessible via Tools menu on main toolbar.::Загвар сонгогч – үндсэн хэрэгслийн самбар дээрх Tools цэсээр дамжуулан хандах боломжтой.
+Themes::Сэдвүүд
+Time::Цаг хугацаа
+Title::Гарчиг
+Tools::Багаж хэрэгсэл
+Total::Нийт
+Total channels in loaded playlist::Ачаалагдсан тоглуулах жагсаалт дахь нийт сувгууд
+TV Guide (EPG)::ТВ хөтөч (EPG)
+TvgId::TvgId
+Type channel name to filter::Шүүлгэхийн тулд сувгийн нэрийг бичнэ үү
+UI: MaterialDesignThemes.Wpf::UI: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::Форматыг автоматаар илрүүлэх боломжгүй. Унждаг цэснээс JSON эсвэл M3U-г сонгоод дахин оролдоно уу.
+Unable to find version in remote project file.::Алсын төслийн файлаас хувилбарыг олох боломжгүй байна.
+Unsupported format. Please select JSON or M3U.::Дэмжигдээгүй формат. JSON эсвэл M3U-г сонгоно уу.
+Update::Шинэчлэх
+Update complete. Restarting...::Шинэчлэлт дууссан. Дахин эхлүүлж байна...
+Update Error::Шинэчлэлтийн алдаа
+Update failed: ::Шинэчлэлт амжилтгүй болсон:
+Updated::Шинэчлэгдсэн
+Updates::Шинэчлэлтүүд
+Upload Error::Байршуулах алдаа
+URL::URL
+URL (primary)::URL (үндсэн)
+URL Check::URL шалгах
+URL list (one per line)::URL жагсаалт (мөр тутамд нэг)
+URLs & Status::URL болон статус
+Version::Хувилбар
+Version {0}.{1}.{2}::Хувилбар {0}.{1}.{2}
+Version unknown::Хувилбар тодорхойгүй
+Waiting for LiveGardenTVPlus to close...::LiveGardenTVPlus хаагдахыг хүлээж байна...
+Warning::Анхааруулга
+WebView2: Microsoft Edge WebView2::WebView2: Microsoft Edge WebView2
+Youtube URL::Youtube URL
+Youtube URLs::Youtube URL-ууд

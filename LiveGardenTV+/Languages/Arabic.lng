@@ -1,397 +1,411 @@
-(Completely voluntary – no features are blocked): (طوعي تمامًا - لا توجد ميزات محظورة)
-(No description): (بدون وصف)
-• Add / rename / delete groups.: • إضافة / إعادة تسمية / حذف المجموعات.
-• Buffer slider: adjust HLS buffer (1‑10 seconds).: • منزلق المخزن المؤقت: اضبط المخزن المؤقت HLS (من 1 إلى 10 ثوانٍ).
-• Check URL availability (only visible channels).: • التحقق من توفر URL (القنوات المرئية فقط).
-• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.: • تحرير أسماء القنوات، والمجموعات، وعناوين URL، والشعارات، ومعرف TVG، والبلد، واللغات، والمفضلة.
-• Edit multiple URLs per channel (popup window).: • تحرير عناوين URL متعددة لكل قناة (نافذة منبثقة).
-• Enrich with EPG: adds missing tvg-id using fuzzy matching.: • الإثراء باستخدام EPG: يضيف معرف tvg المفقود باستخدام المطابقة الغامضة.
-• EPG info displayed in status bar for current channel.: • معلومات EPG المعروضة في شريط الحالة للقناة الحالية.
-• Export OK / FAIL / filtered lists as M3U or JSON.: • تصدير موافق / فشل / القوائم التي تمت تصفيتها مثل M3U أو JSON.
-• Fetch logos from remote repository (OwnerPlugins/logos).: • جلب الشعارات من المستودع البعيد (OwnerPlugins/logos).
-• Fullscreen UI: hides sidebar and status bar (ESC to exit).: • واجهة المستخدم بملء الشاشة: يخفي الشريط الجانبي وشريط الحالة (ESC للخروج).
-• Hide/Show channel list button.: • إخفاء/إظهار زر قائمة القنوات.
-• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).: • استيراد JSON (محلي أو URL) مع تعيين مرن للمجال (الاكتشاف التلقائي وحفظ الخرائط).
-• Picture‑in‑Picture (PIP) button.: • زر صورة داخل صورة (PIP).
-• Playback speed: 0.5x, 1x, 2x buttons.: • سرعة التشغيل: 0.5x، 1x، 2x أزرار.
-• Sort any column by clicking header; use 'Reset Order' to revert to original order.: • فرز أي عمود عن طريق النقر على رأس. استخدم "إعادة تعيين الطلب" للعودة إلى الطلب الأصلي.
-• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.: • Timeshift: إيقاف البث المباشر مؤقتًا. اسحب شريط التمرير للبحث مرة أخرى؛ اضغط على "مباشر" للعودة.
-▶ Play Media: ◀ تشغيل الوسائط
-◀ Previous: ◀ السابق
-16 colour themes + Light/Dark variants.: 16 سمة لونية + متغيرات فاتحة/داكنة.
-A new version is available. Do you want to update now?: نسخة جديدة متاحة. هل تريد التحديث الآن؟
-Access via 'Compare' button in Playlist Editor or Tools menu.: الوصول عبر زر "مقارنة" في محرر قائمة التشغيل أو قائمة الأدوات.
-Access via 'Edit Playlist' button on main toolbar.: الوصول عبر زر "تحرير قائمة التشغيل" الموجود على شريط الأدوات الرئيسي.
-Actions: الإجراءات
-Add Command: إضافة أمر
-Add Group: أضف مجموعة
-Add Mapping: إضافة رسم الخرائط
-Adjust buffer size (1-10 seconds): ضبط حجم المخزن المؤقت (1-10 ثواني)
-Advanced IDs: معرفات متقدمة
-Application status: حالة التطبيق
-Apply: يتقدم
-Apply / Import: تطبيق / استيراد
-Apply changes: تطبيق التغييرات
-Apply Filters: تطبيق المرشحات
-Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).: هل أنت متأكد أنك تريد إعادة تحميل واجهة المستخدم الرسومية Enigma2؟\n\nستتم إعادة تشغيل الواجهة (شاشة سوداء لبضع ثوان).
-Auto (recommended): تلقائي (مستحسن)
-Auto-detect: الكشف التلقائي
-Automatic check on startup – or click 'Check for updates' in Tools menu.: التحقق التلقائي عند بدء التشغيل - أو انقر فوق "التحقق من وجود تحديثات" في قائمة "الأدوات".
-Bouquet Name: اسم الباقة
-Bouquet sent and Enigma2 channel list reloaded.: تم إرسال الباقة وتم إعادة تحميل قائمة قنوات Enigma2.
-Buffer (seconds): المخزن المؤقت (ثواني)
-Buffer size – adjust HLS buffer seconds.: حجم المخزن المؤقت - ضبط ثواني المخزن المؤقت لـ HLS.
-Cache: مخبأ
-Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache: مجلد ذاكرة التخزين المؤقت: %TEMP%\\LiveGardenTVPlus\\epg_cache
-Cancel: يلغي
-CANCEL: يلغي
-Cannot open browser: لا يمكن فتح المتصفح
-Category: فئة
-Changelog: سجل التغيير
-Channel Details: تفاصيل القناة
-Channel Down: قناة أسفل
-Channel Info: معلومات القناة
-Channel Name: اسم القناة
-Channel Up: قناة لأعلى
-channels from: القنوات من
-channels from JSON: القنوات من JSON
-channels from JSON URL: القنوات من JSON URL
-channels from URL: القنوات من URL
-Check Duplicates: التحقق من التكرارات
-Check for updates: التحقق من وجود تحديثات
-Check URLs: تحقق من عناوين URL
-Clear: واضح
-Clear EPG Cache: مسح ذاكرة التخزين المؤقت لـ EPG
-Clear Filters: مسح المرشحات
-Clear search: مسح البحث
-Click for details: انقر للحصول على التفاصيل
-Close: يغلق
-Code: شفرة
-Code copied to clipboard.: تم نسخ الرمز إلى الحافظة.
-Command name:: اسم الأمر:
-Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com: المجتمع والاختبار: CorvoBoys (corvoboys.org) وLinuxSat-Support.com
-Compare: يقارن
-Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.: قارن حسب: الأولوية (الاسم ← المجموعة ← معرف التلفزيون)، الاسم، المجموعة (حساسة لحالة الأحرف)، أو TvgId.
-Compare Playlists: قارن قوائم التشغيل
-Compare two playlists – load first (current playlist) and second (from file or URL).: قارن بين قائمتي تشغيل - قم بتحميل الأولى (قائمة التشغيل الحالية) والثانية (من ملف أو عنوان URL).
-Compare...: يقارن...
-Comparison results: {0} channels: نتائج المقارنة: {0} قناة
-Configuration Missing: التكوين مفقود
-Confirm Delete: تأكيد الحذف
-Confirm Reload: تأكيد إعادة التحميل
-Connect: يتصل
-Connected: متصل
-Copied: منقول
-Copy: ينسخ
-CORVOBOYS.ORG: CORVOBOYS.ORG
-Country: دولة
-Credits: الاعتمادات
-Delete channel '{0}'?: هل تريد حذف القناة '{0}'؟
-Delete Group: حذف المجموعة
-Delete Selected: حذف المحدد
-Deleted: تم الحذف
-Description: وصف
-Details: تفاصيل
-Developed by Lululla: تم تطويره بواسطة Lululla
-Developer: Lululla: المطور: Lululla
-Disconnect: قطع الاتصال
-Disconnected: غير متصل
-Display as: : عرض كـ:
-Do you want to load this edited playlist now?: هل تريد تحميل قائمة التشغيل المعدلة هذه الآن؟
-Double speed (2x): سرعة مزدوجة (2x)
-Downloading playlist...: جارٍ تنزيل قائمة التشغيل...
-Downloads ZIP, replaces files, restarts app – settings preserved.: يقوم بتنزيل ZIP واستبدال الملفات وإعادة تشغيل التطبيق - يتم الاحتفاظ بالإعدادات.
-Drag & drop – drop M3U or JSON files directly onto main window.: السحب والإسقاط – قم بإسقاط ملفات M3U أو JSON مباشرة على النافذة الرئيسية.
-Drag to seek back in buffer: اسحب للبحث مرة أخرى في المخزن المؤقت
-Duplicate URLs found:\n\n: تم العثور على عناوين URL مكررة:\n\n
-Edit Command: تحرير الأمر
-Edit command name:: تعديل اسم الأمر:
-Edit Playlist: تحرير قائمة التشغيل
-Edit telnet command:: تحرير أمر التلنت:
-Edit URLs: تحرير عناوين URL
-Empty Password: كلمة المرور فارغة
-End: نهاية
-Enrich with EPG: إثراء مع دليل البرامج الإلكتروني
-Enter bouquet name (without spaces):: أدخل اسم الباقة (بدون مسافات):
-Enter JSON URL:: أدخل عنوان URL لـ JSON:
-Enter new group name:: أدخل اسم المجموعة الجديد:
-Enter playlist URL (JSON or M3U):: أدخل عنوان URL لقائمة التشغيل (JSON أو M3U):
-Enter playlist URL (M3U or JSON):: أدخل عنوان URL لقائمة التشغيل (M3U أو JSON):
-EPG: دليل البرامج الإلكتروني
-Epg & Favorites: Epg والمفضلة
-EPG & Favorites: دليل البرامج الإلكتروني والمفضلة
-Epg & Logos: Epg والشعارات
-EPG & Logos: دليل البرامج الإلكتروني والشعارات
-EPG cache cleared successfully.: تم مسح ذاكرة التخزين المؤقت لـ EPG بنجاح.
-EPG Details: تفاصيل دليل البرامج الإلكتروني
-EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).: دليل EPG - يعرض الزر الموجود على شريط الأدوات الرئيسي شبكة كاملة مع تفاصيل البرنامج (انقر نقرًا مزدوجًا للحصول على معلومات).
-EPG Matching Threshold: عتبة مطابقة EPG
-EPG Source: : مصدر دليل البرامج الإلكتروني:
-EPG source – can be set in Settings (epgshare01 or custom URL).: مصدر EPG - يمكن ضبطه في الإعدادات (epgshare01 أو عنوان URL المخصص).
-EPG source – choose XMLTV file or enter custom URL.: مصدر EPG - اختر ملف XMLTV أو أدخل عنوان URL المخصص.
-EPG Source Missing: مصدر دليل البرامج الإلكتروني مفقود
-Error: خطأ
-Error clearing cache: {0}: خطأ في مسح ذاكرة التخزين المؤقت: {0}
-Error loading: حدث خطأ أثناء التحميل
-Error loading EPG list: {0}: خطأ في تحميل قائمة دليل البرامج الإلكتروني: {0}
-Error loading file: {0}: خطأ في تحميل الملف: {0}
-Error loading playlists: {0}: حدث خطأ أثناء تحميل قوائم التشغيل: {0}
-Error loading URL: {0}: خطأ في تحميل عنوان URL: {0}
-ERROR: player.html not found.: خطأ: لم يتم العثور على player.html.
-Exit: مخرج
-Export all: تصدير الكل
-Export Favorites: تصدير المفضلة
-Export Filtered JSON: تصدير JSON التي تمت تصفيتها
-Export Filtered M3U: تصدير M3U التي تمت تصفيتها
-Export JSON: تصدير JSON
-Export KO: تصدير كو
-Export missing: التصدير مفقود
-Export OK: تصدير موافق
-Export only favorite channels to a new M3U file: قم بتصدير القنوات المفضلة فقط إلى ملف M3U جديد
-Export results as JSON or M3U – export missing channels or all channels.: تصدير النتائج بتنسيق JSON أو M3U – تصدير القنوات المفقودة أو جميع القنوات.
-Export selected: تم تحديد التصدير
-Export Selected: تصدير المحدد
-Exported: تصدير
-Exported {0} channels to {1}: تم تصدير {0} قناة إلى {1}
-Extracting update...: جارٍ استخراج التحديث...
-Failed to download playlist: فشل تنزيل قائمة التشغيل
-Failed to load playlist: فشل تحميل قائمة التشغيل
-Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.: فشل تحديث باقات.tv. الرجاء التحقق من أذونات الملف على جهاز Enigma2.
-Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.: فشل تحميل الباقة. يرجى التحقق من إعدادات Telnet (المضيف والمنفذ واسم المستخدم وكلمة المرور) والمحاولة مرة أخرى.
-Favorite: مفضل
-Favorites only: المفضلة فقط
-Fetch Logos: جلب الشعارات
-File {0} already exists. Overwrite?: الملف {0} موجود بالفعل. الكتابة الفوقية؟
-File exists: الملف موجود
-Filters: المرشحات
-Format Detection: كشف التنسيق
-Fullscreen: ملء الشاشة
-Fullscreen (hide UI) - press ESC to exit: ملء الشاشة (إخفاء واجهة المستخدم) - اضغط على ESC للخروج
-Geo & Country: الجغرافيا والبلد
-GeoBlocked: محظور جغرافيًا
-GitHub Error: خطأ جيثب
-Go back to live: العودة للعيش
-Grid: شبكة
-Group: مجموعة
-Half speed (0.5x): نصف السرعة (0.5x)
-Help: يساعد
-Hide List: إخفاء القائمة
-HLS playback: hls.js (MIT license): تشغيل HLS: hls.js (ترخيص MIT)
-Image: صورة
-Import: يستورد
-Import cancelled or no channels mapped.: تم إلغاء الاستيراد أو لم يتم تعيين أي قنوات.
-Import Error: خطأ في الاستيراد
-Import error: {0}: خطأ في الاستيراد: {0}
-Import from URL: استيراد من URL
-Import JSON: استيراد جسون
-Import JSON from URL: استيراد JSON من URL
-Import Local: استيراد محلي
-Imported {0} channels from code.: تم استيراد {0} قناة من الكود.
-Imported {0} channels from JSON via mapping.: تم استيراد {0} قناة من JSON عبر التعيين.
-Imported {0} channels from URL.: تم استيراد {0} قناة من عنوان URL.
-In Both: في كلا
-Info: معلومات
-Info on: معلومات عن
-Invalid JSON: {0}: JSON غير صالح: {0}
-Invalid playlist URL.: عنوان URL لقائمة التشغيل غير صالح.
-Invalid URL.: عنوان URL غير صالح.
-Json: جسون
-JSON: JSON
-JSON parsing error: {0}: خطأ في تحليل JSON: {0}
-JSON Property: خاصية جيسون
-Ko-fi: قهوة
-Language: لغة
-Language – change UI language dynamically (translations in Languages folder).: اللغة - تغيير لغة واجهة المستخدم ديناميكيًا (الترجمات في مجلد اللغات).
-Languages: اللغات
-Languages (comma): اللغات (فاصلة)
-LINUXSAT-SUPPORT.COM: LINUXSAT-SUPPORT.COM
-LiveGardenTVPlus Help: مساعدة LiveGardenTVPlus
-LOAD: حمولة
-Load a playlist first.: قم بتحميل قائمة التشغيل أولاً.
-Load a second playlist first.: قم بتحميل قائمة تشغيل ثانية أولاً.
-Load File: تحميل الملف
-Load from file...: تحميل من الملف...
-Load from URL: تحميل من URL
-Load from URL...: تحميل من URL...
-Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.: قم بتحميل ملف M3U/JSON المحلي - عبر زر "تحميل ملف" (شريط الأدوات) أو "فتح ملف" في المحرر.
-Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.: تحميل عنوان URL لـ M3U/JSON عبر الإنترنت - زر "تحميل عبر الإنترنت" (شريط الأدوات) أو "فتح من URL" في المحرر.
-Load playlist file (M3U/JSON) from your computer: قم بتحميل ملف قائمة التشغيل (M3U/JSON) من جهاز الكمبيوتر الخاص بك
-Loaded: محملة
-Loaded {0} channels from JSON file via mapping.: تم تحميل {0} قناة من ملف JSON عبر التعيين.
-Loaded {0} channels from JSON URL.: تم تحميل {0} قناة من عنوان URL لـ JSON.
-Loaded {0} channels from M3U file.: تم تحميل {0} قناة من ملف M3U.
-Loaded {0} channels from M3U URL.: تم تحميل {0} قناة من عنوان URL لـ M3U.
-Loading...: تحميل...
-Logo: الشعار
-Logo Picker – in editor, click '...' to choose logo from gallery.: منتقي الشعار – في المحرر، انقر فوق "..." لاختيار شعار من المعرض.
-Logo Preview: معاينة الشعار
-Logo URL: عنوان URL للشعار
-Logos – automatically download from GitHub repository (Settings → Logos Source).: الشعارات – يتم تنزيلها تلقائيًا من مستودع GitHub (الإعدادات → مصدر الشعارات).
-Logos Matching Threshold: عتبة مطابقة الشعارات
-Logos repository – choose owner/repo/path (default OwnerPlugins/logos).: مستودع الشعارات - اختر المالك/الريبو/المسار (المكونات الإضافية/الشعارات الافتراضية للمالك).
-Logos Source: مصدر الشعارات
-Logos Subfolder: الشعارات المجلد الفرعي
-M3U: M3U
-M3U parsing error: {0}: خطأ في تحليل M3U: {0}
-Map JSON properties to channel fields:: قم بتعيين خصائص JSON لحقول القناة:
-Mapping saved for future imports of this file.: تم حفظ التعيين لعمليات الاستيراد المستقبلية لهذا الملف.
-Matching thresholds – set fuzzy match sensitivity for EPG and logos.: عتبات المطابقة - ضبط حساسية المطابقة الغامضة لدليل البرامج الإلكتروني والشعارات.
-Mini Player: مشغل صغير
-Move to Group: الانتقال إلى المجموعة
-Moved: انتقل
-Name: اسم
-Nanoid: نانويد
-Network error: خطأ في الشبكة
-New Playlist: قائمة تشغيل جديدة
-Next: التالي
-Next ▶: التالي ◀
-No .m3u files found on GitHub repository.: لم يتم العثور على ملفات .m3u في مستودع GitHub.
-No cache folder found.: لم يتم العثور على مجلد ذاكرة التخزين المؤقت.
-No channel selected: لم يتم تحديد أي قناة
-No channels could be mapped or import cancelled.: لا يمكن تعيين أي قنوات أو إلغاء الاستيراد.
-No channels could be mapped. Check your mapping rules.: لا يمكن تعيين أي قنوات. تحقق من قواعد رسم الخرائط الخاصة بك.
-No channels found in JSON.: لم يتم العثور على قنوات في JSON.
-No channels found in M3U.: لم يتم العثور على قنوات في M3U.
-No channels loaded from JSON URL.: لم يتم تحميل أي قنوات من عنوان URL لـ JSON.
-No channels loaded from M3U URL.: لم يتم تحميل أي قنوات من عنوان URL M3U.
-No channels loaded from M3U.: لا توجد قنوات محملة من M3U.
-No channels loaded.: لم يتم تحميل أي قنوات.
-No channels mapped: لم يتم تعيين أي قنوات
-No channels selected.: لم يتم تحديد أي قنوات.
-No channels to import.: لا توجد قنوات للاستيراد.
-No duplicate URLs found.: لم يتم العثور على عناوين URL مكررة.
-No EPG data: لا توجد بيانات دليل البرامج الإلكتروني
-No EPG information available for this channel.: لا تتوفر معلومات EPG لهذه القناة.
-No EPG source configured. Please select one from the combo or go to Settings.: لم يتم تكوين مصدر EPG. الرجاء اختيار واحد من التحرير والسرد أو الذهاب إلى الإعدادات.
-No EPG source configured. Would you like to open settings to select one?: لم يتم تكوين مصدر EPG. هل ترغب في فتح الإعدادات لاختيار واحد؟
-No favorite channels to export.: لا توجد قنوات مفضلة للتصدير.
-No missing channels to export.: لا توجد قنوات مفقودة للتصدير.
-No playlist found: لم يتم العثور على قائمة تشغيل
-No second playlist loaded.: لم يتم تحميل قائمة تشغيل ثانية.
-No stream URL available for this channel.: لا يوجد عنوان URL للبث متاح لهذه القناة.
-No text to import.: لا يوجد نص لاستيراده.
-No updates available.: لا توجد تحديثات متاحة.
-Normal speed (1x): السرعة العادية (1x)
-Not connected to the box.: غير متصل بالمربع.
-Now: الآن
-OK: نعم
-Online Playlist: قائمة التشغيل على الانترنت
-Online playlist – select from GitHub repository (auto‑refresh).: قائمة التشغيل عبر الإنترنت - اختر من مستودع GitHub (التحديث التلقائي).
-Only in First: فقط في الأول
-Only in Second: فقط في الثانية
-Open File...: فتح الملف...
-Open from URL: فتح من URL
-Open Playlist: افتح قائمة التشغيل
-Pause/Resume live stream: إيقاف مؤقت/استئناف البث المباشر
-Paused: متوقف مؤقتًا
-PayPal: باي بال
-Picture-in-Picture mode: وضع صورة داخل صورة
-Play/Pause: تشغيل/إيقاف مؤقت
-Player Media Controls: عناصر التحكم في وسائط المشغل
-Playing Media: تشغيل الوسائط
-Playlist & Groups: قائمة التشغيل والمجموعات
-Playlist Comparison: مقارنة قائمة التشغيل
-Playlist Editor: محرر قائمة التشغيل
-Playlist Loading: تحميل قائمة التشغيل
-Playlist Management: إدارة قائمة التشغيل
-Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams): مستودع قائمة التشغيل: OwnerPlugins/TivuStreamList (التدفقات الإيطالية والدولية)
-Please select a program first.: الرجاء تحديد البرنامج أولاً.
-Preview (first 5 channels): معاينة (أول 5 قنوات)
-Preview error: {0}: خطأ في المعاينة: {0}
-Program Details: تفاصيل البرنامج
-Ready: مستعد
-Ready.: مستعد.
-Recent: مؤخرًا
-Recent files – quick access to last 5 opened playlists.: الملفات الأخيرة - الوصول السريع إلى آخر 5 قوائم تشغيل مفتوحة.
-Recent playlists: قوائم التشغيل الأخيرة
-Refresh Code: تحديث الكود
-Refresh EPG: قم بتحديث دليل البرامج الإلكتروني
-Refresh EPG List: قم بتحديث قائمة EPG
-Refresh from GitHub: قم بالتحديث من جيثب
-Refresh List: تحديث القائمة
-Reload GUI: إعادة تحميل واجهة المستخدم الرسومية
-Remove Command: إزالة الأمر
-Rename Group: إعادة تسمية المجموعة
-Rename group '{0}' to:: إعادة تسمية المجموعة '{0}' إلى:
-Repository: مستودع
-Reset Order: إعادة تعيين الطلب
-Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.: النتائج: "في الأول فقط"، "في الثانية فقط"، "في كليهما" - مع ترميز لون الحالة.
-Save: يحفظ
-SAVE: يحفظ
-Save – persists all settings without reloading current playlist.: حفظ - يستمر في جميع الإعدادات دون إعادة تحميل قائمة التشغيل الحالية.
-Save as...: حفظ باسم...
-Save current playlist to a new M3U file: احفظ قائمة التشغيل الحالية في ملف M3U جديد
-Save Mapping: حفظ رسم الخرائط
-Save Playlist: حفظ قائمة التشغيل
-Save Status: حفظ الحالة
-Saved: أنقذ
-Search channel: : قناة البحث:
-Search channels by name: البحث عن القنوات بالاسم
-Search channels...: بحث في القنوات...
-sec: ثانية
-Second playlist loaded: {0} channels: تم تحميل قائمة التشغيل الثانية: {0} قناة
-Select a channel to play.: حدد قناة للعب.
-Select a playlist first.: حدد قائمة التشغيل أولاً.
-Select target group:: حدد المجموعة المستهدفة:
-Select Theme: حدد الموضوع
-Selected theme is saved and applied on restart.: يتم حفظ السمة المحددة وتطبيقها عند إعادة التشغيل.
-Send: يرسل
-Send playlist to Enigma2 decoder: إرسال قائمة التشغيل إلى وحدة فك ترميز Enigma2
-Send to Enigma2: أرسل إلى Enigma2
-Settings: إعدادات
-Show List: عرض القائمة
-Show only channels marked as favorites: عرض القنوات التي تم وضع علامة عليها كمفضلة فقط
-Show or hide the channel list: إظهار أو إخفاء قائمة القنوات
-Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.: شكر خاص لمجتمعات CORVOBOYS وLinuxSat-Support على الاختبار والدعم.
-Start: يبدأ
-Status: حالة
-Stop: قف
-Stopped: توقف
-Stream URL: عنوان URL للدفق
-Stream URLs: دفق عناوين URL
-Success: نجاح
-Support: يدعم
-Support the developer: دعم المطور
-Target Field: مجال الهدف
-Telnet command:: أمر التلنت:
-Telnet Commander: قائد التلنت
-Telnet Config: تكوين التلنت
-Telnet Console: وحدة تحكم التلنت
-Telnet host not configured. Please set it in Settings.: لم يتم تكوين مضيف Telnet. يرجى ضبطه في الإعدادات.
-Telnet password is empty. Do you want to continue?: كلمة مرور Telnet فارغة. هل تريد الاستمرار؟
-Telnet username not configured. Please set it in Settings.: لم يتم تكوين اسم مستخدم Telnet. يرجى ضبطه في الإعدادات.
-Thanks to: شكرا ل
-Theme picker: منتقي الموضوع
-Theme picker – accessible via Tools menu on main toolbar.: منتقي السمات – يمكن الوصول إليه عبر قائمة الأدوات على شريط الأدوات الرئيسي.
-Themes: المواضيع
-Time: وقت
-Title: عنوان
-Tools: أدوات
-Total: المجموع
-Total channels in loaded playlist: إجمالي القنوات في قائمة التشغيل المحملة
-TV Guide (EPG): دليل التلفاز (EPG)
-TvgId: معرف التلفزيون
-Type channel name to filter: اكتب اسم القناة للتصفية
-UI: MaterialDesignThemes.Wpf: واجهة المستخدم: MaterialDesignThemes.Wpf
-Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.: غير قادر على الكشف التلقائي عن التنسيق. يرجى تحديد JSON أو M3U من القائمة المنسدلة والمحاولة مرة أخرى.
-Unable to find version in remote project file.: غير قادر على العثور على الإصدار في ملف المشروع البعيد.
-Unsupported format. Please select JSON or M3U.: تنسيق غير معتمد. الرجاء تحديد JSON أو M3U.
-Update: تحديث
-Update complete. Restarting...: اكتمل التحديث. جارٍ إعادة التشغيل...
-Update Error: خطأ في التحديث
-Update failed: : فشل التحديث:
-Updates: التحديثات
-Upload Error: خطأ في التحميل
-URL: عنوان URL
-URL (primary): عنوان URL (أساسي)
-URL Check: التحقق من عنوان URL
-URL list (one per line): قائمة عناوين URL (واحدة لكل سطر)
-URLs & Status: عناوين URL والحالة
-Version: إصدار
-Version {0}.{1}.{2}: الإصدار {0}.{1}.{2}
-Version unknown: الإصدار غير معروف
-Waiting for LiveGardenTVPlus to close...: في انتظار إغلاق LiveGardenTVPlus...
-Warning: تحذير
-WebView2: Microsoft Edge WebView2: WebView2: Microsoft Edge WebView2
-Youtube URL: عنوان URL على يوتيوب
-Youtube URLs: عناوين URL على يوتيوب
+(Completely voluntary – no features are blocked)::(طوعي تمامًا - لا توجد ميزات محظورة)
+(No description)::(بدون وصف)
+• Add / rename / delete groups.::• إضافة / إعادة تسمية / حذف المجموعات.
+• Buffer slider: adjust HLS buffer (1‑10 seconds).::• منزلق المخزن المؤقت: اضبط المخزن المؤقت HLS (من 1 إلى 10 ثوانٍ).
+• Check URL availability (only visible channels).::• التحقق من توفر URL (القنوات المرئية فقط).
+• Edit channel names, groups, URLs, logos, tvg-id, country, languages, favorites.::• تحرير أسماء القنوات، والمجموعات، وعناوين URL، والشعارات، ومعرف TVG، والبلد، واللغات، والمفضلة.
+• Edit multiple URLs per channel (popup window).::• تحرير عناوين URL متعددة لكل قناة (نافذة منبثقة).
+• Enrich with EPG: adds missing tvg-id using fuzzy matching.::• الإثراء باستخدام EPG: يضيف معرف tvg المفقود باستخدام المطابقة الغامضة.
+• EPG info displayed in status bar for current channel.::• معلومات EPG المعروضة في شريط الحالة للقناة الحالية.
+• Export OK / FAIL / filtered lists as M3U or JSON.::• تصدير موافق / فشل / القوائم التي تمت تصفيتها مثل M3U أو JSON.
+• Fetch logos from remote repository (OwnerPlugins/logos).::• جلب الشعارات من المستودع البعيد (OwnerPlugins/logos).
+• Fullscreen UI: hides sidebar and status bar (ESC to exit).::• واجهة المستخدم بملء الشاشة: يخفي الشريط الجانبي وشريط الحالة (ESC للخروج).
+• Hide/Show channel list button.::• إخفاء/إظهار زر قائمة القنوات.
+• Import JSON (local or URL) with flexible field mapping (auto-detect, save mapping).::• استيراد JSON (محلي أو URL) مع تعيين مرن للمجال (الاكتشاف التلقائي وحفظ الخرائط).
+• Picture‑in‑Picture (PIP) button.::• زر صورة داخل صورة (PIP).
+• Playback speed: 0.5x, 1x, 2x buttons.::• سرعة التشغيل: 0.5x، 1x، 2x أزرار.
+• Sort any column by clicking header; use 'Reset Order' to revert to original order.::• فرز أي عمود عن طريق النقر على رأس. استخدم "إعادة تعيين الطلب" للعودة إلى الطلب الأصلي.
+• Timeshift: pause live stream; drag slider to seek back; press 'Live' to return.::• Timeshift: إيقاف البث المباشر مؤقتًا. اسحب شريط التمرير للبحث مرة أخرى؛ اضغط على "مباشر" للعودة.
+▶ Play Media::◀ تشغيل الوسائط
+◀ Previous::◀ السابق
+16 colour themes + Light/Dark variants.::16 سمة لونية + متغيرات فاتحة/داكنة.
+A new version is available. Do you want to update now?::نسخة جديدة متاحة. هل تريد التحديث الآن؟
+Access via 'Compare' button in Playlist Editor or Tools menu.::الوصول عبر زر "مقارنة" في محرر قائمة التشغيل أو قائمة الأدوات.
+Access via 'Edit Playlist' button on main toolbar.::الوصول عبر زر "تحرير قائمة التشغيل" الموجود على شريط الأدوات الرئيسي.
+Actions::الإجراءات
+Add Command::إضافة أمر
+Add Group::أضف مجموعة
+Add Mapping::إضافة رسم الخرائط
+Adjust buffer size (1-10 seconds)::ضبط حجم المخزن المؤقت (1-10 ثواني)
+Advanced IDs::معرفات متقدمة
+All channels marked as favorites::تم وضع علامة على جميع القنوات كمفضلة
+All favorites removed::تمت إزالة كافة المفضلة
+Application status::حالة التطبيق
+Apply::يتقدم
+Apply / Import::تطبيق / استيراد
+Apply changes::تطبيق التغييرات
+Apply Filters::تطبيق المرشحات
+Are you sure you want to reload the Enigma2 GUI?\n\nThe interface will restart (black screen for a few seconds).::هل أنت متأكد أنك تريد إعادة تحميل واجهة المستخدم الرسومية Enigma2؟\n\nستتم إعادة تشغيل الواجهة (شاشة سوداء لبضع ثوان).
+Auto (recommended)::تلقائي (مستحسن)
+Auto-detect::الكشف التلقائي
+Automatic check on startup – or click 'Check for updates' in Tools menu.::التحقق التلقائي عند بدء التشغيل - أو انقر فوق "التحقق من وجود تحديثات" في قائمة "الأدوات".
+Bouquet Name::اسم الباقة
+Bouquet sent and Enigma2 channel list reloaded.::تم إرسال الباقة وتم إعادة تحميل قائمة قنوات Enigma2.
+Buffer (seconds)::المخزن المؤقت (ثواني)
+Buffer size – adjust HLS buffer seconds.::حجم المخزن المؤقت - ضبط ثواني المخزن المؤقت لـ HLS.
+Cache::مخبأ
+Cache folder: %TEMP%\\LiveGardenTVPlus\\epg_cache::مجلد ذاكرة التخزين المؤقت: %TEMP%\\LiveGardenTVPlus\\epg_cache
+Cancel::يلغي
+CANCEL::يلغي
+Cannot open browser::لا يمكن فتح المتصفح
+Category::فئة
+Changelog::سجل التغيير
+Channel Details::تفاصيل القناة
+Channel Down::قناة أسفل
+Channel Info::معلومات القناة
+Channel Name::اسم القناة
+Channel Up::قناة لأعلى
+Channel updated successfully.::تم تحديث القناة بنجاح.
+channels from::القنوات من
+channels from JSON::القنوات من JSON
+channels from JSON URL::القنوات من JSON URL
+channels from URL::القنوات من URL
+Check Duplicates::التحقق من التكرارات
+Check for updates::التحقق من وجود تحديثات
+Check URLs::تحقق من عناوين URL
+Clear::واضح
+Clear EPG Cache::مسح ذاكرة التخزين المؤقت لـ EPG
+Clear Filters::مسح المرشحات
+Clear search::مسح البحث
+Click for details::انقر للحصول على التفاصيل
+Close::يغلق
+Close current playlist::إغلاق قائمة التشغيل الحالية
+Close Playlist::إغلاق قائمة التشغيل
+Code::شفرة
+Code copied to clipboard.::تم نسخ الرمز إلى الحافظة.
+Command name:::اسم الأمر:
+Community & testing: CorvoBoys (corvoboys.org) & LinuxSat-Support.com::المجتمع والاختبار: CorvoBoys (corvoboys.org) وLinuxSat-Support.com
+Compare::يقارن
+Compare by: Priority (name→group→tvg-id), Name, Group (case‑sensitive), or TvgId.::قارن حسب: الأولوية (الاسم ← المجموعة ← معرف التلفزيون)، الاسم، المجموعة (حساسة لحالة الأحرف)، أو TvgId.
+Compare Playlists::قارن قوائم التشغيل
+Compare two playlists – load first (current playlist) and second (from file or URL).::قارن بين قائمتي تشغيل - قم بتحميل الأولى (قائمة التشغيل الحالية) والثانية (من ملف أو عنوان URL).
+Compare...::يقارن...
+Comparison results: {0} channels::نتائج المقارنة: {0} قناة
+Configuration Missing::التكوين مفقود
+Confirm Delete::تأكيد الحذف
+Confirm Reload::تأكيد إعادة التحميل
+Connect::يتصل
+Connected::متصل
+Copied::منقول
+Copy::ينسخ
+CORVOBOYS.ORG::CORVOBOYS.ORG
+Country::دولة
+Credits::الاعتمادات
+Delete channel '{0}'?::هل تريد حذف القناة '{0}'؟
+Delete Group::حذف المجموعة
+Delete Selected::حذف المحدد
+Deleted::تم الحذف
+Description::وصف
+Details::تفاصيل
+Developed by Lululla::تم تطويره بواسطة Lululla
+Developer: Lululla::المطور: Lululla
+Disconnect::قطع الاتصال
+Disconnected::غير متصل
+Display as::عرض باسم
+Do you want to load this edited playlist now?::هل تريد تحميل قائمة التشغيل المعدلة هذه الآن؟
+Double speed (2x)::سرعة مزدوجة (2x)
+Downloading playlist...::جارٍ تنزيل قائمة التشغيل...
+Downloads ZIP, replaces files, restarts app – settings preserved.::يقوم بتنزيل ZIP واستبدال الملفات وإعادة تشغيل التطبيق - يتم الاحتفاظ بالإعدادات.
+Drag & drop – drop M3U or JSON files directly onto main window.::السحب والإسقاط – قم بإسقاط ملفات M3U أو JSON مباشرة على النافذة الرئيسية.
+Drag to seek back in buffer::اسحب للبحث مرة أخرى في المخزن المؤقت
+Duplicate URLs found:\n\n::تم العثور على عناوين URL مكررة:\n\n
+Edit Command::تحرير الأمر
+Edit command name:::تعديل اسم الأمر:
+Edit Playlist::تحرير قائمة التشغيل
+Edit telnet command:::تحرير أمر التلنت:
+Edit URLs::تحرير عناوين URL
+Empty Password::كلمة المرور فارغة
+End::نهاية
+Enigma2::لغز2
+Enrich with EPG::إثراء مع دليل البرامج الإلكتروني
+Enter bouquet name (without spaces):::أدخل اسم الباقة (بدون مسافات):
+Enter JSON URL:::أدخل عنوان URL لـ JSON:
+Enter new group name:::أدخل اسم المجموعة الجديد:
+Enter playlist URL (JSON or M3U):::أدخل عنوان URL لقائمة التشغيل (JSON أو M3U):
+Enter playlist URL (M3U or JSON):::أدخل عنوان URL لقائمة التشغيل (M3U أو JSON):
+EPG::دليل البرامج الإلكتروني
+Epg & Favorites::Epg والمفضلة
+EPG & Favorites::دليل البرامج الإلكتروني والمفضلة
+Epg & Logos::Epg والشعارات
+EPG & Logos::دليل البرامج الإلكتروني والشعارات
+EPG cache cleared successfully.::تم مسح ذاكرة التخزين المؤقت لـ EPG بنجاح.
+EPG Details::تفاصيل دليل البرامج الإلكتروني
+EPG Guide – button on main toolbar shows full grid with program details (double‑click for info).::دليل EPG - يعرض الزر الموجود على شريط الأدوات الرئيسي شبكة كاملة مع تفاصيل البرنامج (انقر نقرًا مزدوجًا للحصول على معلومات).
+EPG Matching Threshold::عتبة مطابقة EPG
+EPG Source::مصدر دليل البرامج الإلكتروني
+EPG source – can be set in Settings (epgshare01 or custom URL).::مصدر EPG - يمكن ضبطه في الإعدادات (epgshare01 أو عنوان URL المخصص).
+EPG source – choose XMLTV file or enter custom URL.::مصدر EPG - اختر ملف XMLTV أو أدخل عنوان URL المخصص.
+EPG Source Missing::مصدر دليل البرامج الإلكتروني مفقود
+Error::خطأ
+Error clearing cache: {0}::خطأ في مسح ذاكرة التخزين المؤقت: {0}
+Error loading::حدث خطأ أثناء التحميل
+Error loading EPG list: {0}::خطأ في تحميل قائمة دليل البرامج الإلكتروني: {0}
+Error loading file: {0}::خطأ في تحميل الملف: {0}
+Error loading playlists: {0}::حدث خطأ أثناء تحميل قوائم التشغيل: {0}
+Error loading URL: {0}::خطأ في تحميل عنوان URL: {0}
+ERROR: player.html not found.::خطأ: لم يتم العثور على player.html.
+Exit::مخرج
+Export all::تصدير الكل
+Export Favorites::تصدير المفضلة
+Export Filtered JSON::تصدير JSON التي تمت تصفيتها
+Export Filtered M3U::تصدير M3U التي تمت تصفيتها
+Export JSON::تصدير JSON
+Export KO::تصدير كو
+Export missing::التصدير مفقود
+Export OK::تصدير موافق
+Export only favorite channels to a new M3U file::قم بتصدير القنوات المفضلة فقط إلى ملف M3U جديد
+Export results as JSON or M3U – export missing channels or all channels.::تصدير النتائج بتنسيق JSON أو M3U – تصدير القنوات المفقودة أو جميع القنوات.
+Export selected::تم تحديد التصدير
+Export Selected::تصدير المحدد
+Exported::تصدير
+Exported {0} channels to {1}::تم تصدير {0} قناة إلى {1}
+Extracting update...::جارٍ استخراج التحديث...
+Failed to download playlist::فشل تنزيل قائمة التشغيل
+Failed to load playlist::فشل تحميل قائمة التشغيل
+Failed to update bouquets.tv. Please check file permissions on the Enigma2 device.::فشل تحديث باقات.tv. الرجاء التحقق من أذونات الملف على جهاز Enigma2.
+Failed to upload bouquet. Please check your Telnet settings (host, port, username, password) and try again.::فشل تحميل الباقة. يرجى التحقق من إعدادات Telnet (المضيف والمنفذ واسم المستخدم وكلمة المرور) والمحاولة مرة أخرى.
+Favorite::مفضل
+Favorites::المفضلة
+Favorites only::المفضلة فقط
+Fetch Logos::جلب الشعارات
+File::ملف
+File {0} already exists. Overwrite?::الملف {0} موجود بالفعل. الكتابة الفوقية؟
+File exists::الملف موجود
+Filters::المرشحات
+Format Detection::كشف التنسيق
+Fullscreen::ملء الشاشة
+Fullscreen (hide UI) - press ESC to exit::ملء الشاشة (إخفاء واجهة المستخدم) - اضغط على ESC للخروج
+Geo & Country::الجغرافيا والبلد
+GeoBlocked::محظور جغرافيًا
+GitHub Error::خطأ جيثب
+Go back to live::العودة للعيش
+Grid::شبكة
+Group::مجموعة
+Half speed (0.5x)::نصف السرعة (0.5x)
+Help::يساعد
+Hide List::إخفاء القائمة
+HLS playback: hls.js (MIT license)::تشغيل HLS: hls.js (ترخيص MIT)
+Image::صورة
+Import::يستورد
+Import cancelled or no channels mapped.::تم إلغاء الاستيراد أو لم يتم تعيين أي قنوات.
+Import Error::خطأ في الاستيراد
+Import error: {0}::خطأ في الاستيراد: {0}
+Import from URL::استيراد من URL
+Import JSON::استيراد جسون
+Import JSON from URL::استيراد JSON من URL
+Import Local::استيراد محلي
+Imported {0} channels from code.::تم استيراد {0} قناة من الكود.
+Imported {0} channels from JSON via mapping.::تم استيراد {0} قناة من JSON عبر التعيين.
+Imported {0} channels from URL.::تم استيراد {0} قناة من عنوان URL.
+In Both::في كلا
+Info::معلومات
+Info on::معلومات عن
+Invalid JSON: {0}::JSON غير صالح: {0}
+Invalid playlist URL.::عنوان URL لقائمة التشغيل غير صالح.
+Invalid URL.::عنوان URL غير صالح.
+Json::جسون
+JSON::JSON
+JSON parsing error: {0}::خطأ في تحليل JSON: {0}
+JSON Property::خاصية جيسون
+Ko-fi::قهوة
+Language::لغة
+Language – change UI language dynamically (translations in Languages folder).::اللغة - تغيير لغة واجهة المستخدم ديناميكيًا (الترجمات في مجلد اللغات).
+Languages::اللغات
+Languages (comma)::اللغات (فاصلة)
+LINUXSAT-SUPPORT.COM::LINUXSAT-SUPPORT.COM
+LiveGardenTVPlus Help::مساعدة LiveGardenTVPlus
+LOAD::حمولة
+Load a playlist first.::قم بتحميل قائمة التشغيل أولاً.
+Load a second playlist first.::قم بتحميل قائمة تشغيل ثانية أولاً.
+Load File::تحميل الملف
+Load from file...::تحميل من الملف...
+Load from URL::تحميل من URL
+Load from URL...::تحميل من URL...
+Load local M3U/JSON file – via 'Load File' button (toolbar) or 'Open File' in editor.::قم بتحميل ملف M3U/JSON المحلي - عبر زر "تحميل ملف" (شريط الأدوات) أو "فتح ملف" في المحرر.
+Load online M3U/JSON URL – 'Load Online' button (toolbar) or 'Open from URL' in editor.::تحميل عنوان URL لـ M3U/JSON عبر الإنترنت - زر "تحميل عبر الإنترنت" (شريط الأدوات) أو "فتح من URL" في المحرر.
+Load Playlist::تحميل قائمة التشغيل
+Load playlist file (M3U/JSON) from your computer::قم بتحميل ملف قائمة التشغيل (M3U/JSON) من جهاز الكمبيوتر الخاص بك
+Loaded::محملة
+Loaded {0} channels from JSON file via mapping.::تم تحميل {0} قناة من ملف JSON عبر التعيين.
+Loaded {0} channels from JSON URL.::تم تحميل {0} قناة من عنوان URL لـ JSON.
+Loaded {0} channels from M3U file.::تم تحميل {0} قناة من ملف M3U.
+Loaded {0} channels from M3U URL.::تم تحميل {0} قناة من عنوان URL لـ M3U.
+Loading...::تحميل...
+Logo::الشعار
+Logo Picker – in editor, click '...' to choose logo from gallery.::منتقي الشعار – في المحرر، انقر فوق "..." لاختيار شعار من المعرض.
+Logo Preview::معاينة الشعار
+Logo URL::عنوان URL للشعار
+Logos – automatically download from GitHub repository (Settings → Logos Source).::الشعارات – يتم تنزيلها تلقائيًا من مستودع GitHub (الإعدادات → مصدر الشعارات).
+Logos Matching Threshold::عتبة مطابقة الشعارات
+Logos repository – choose owner/repo/path (default OwnerPlugins/logos).::مستودع الشعارات – اختر المالك/الريبو/المسار (المكونات الإضافية/الشعارات الافتراضية للمالك).
+Logos Source::مصدر الشعارات
+Logos Subfolder::الشعارات المجلد الفرعي
+M3U::M3U
+M3U parsing error: {0}::خطأ في تحليل M3U: {0}
+Map JSON properties to channel fields:::قم بتعيين خصائص JSON لحقول القناة:
+Mapping saved for future imports of this file.::تم حفظ التعيين لعمليات الاستيراد المستقبلية لهذا الملف.
+Matching thresholds – set fuzzy match sensitivity for EPG and logos.::عتبات المطابقة - ضبط حساسية المطابقة الغامضة لدليل البرامج الإلكتروني والشعارات.
+Mini Player::مشغل صغير
+Move to Group::الانتقال إلى المجموعة
+Moved::انتقل
+Name::اسم
+Nanoid::نانويد
+Network error::خطأ في الشبكة
+New Playlist::قائمة تشغيل جديدة
+Next::التالي
+Next ▶::التالي ◀
+No .m3u files found on GitHub repository.::لم يتم العثور على ملفات .m3u في مستودع GitHub.
+No cache folder found.::لم يتم العثور على مجلد ذاكرة التخزين المؤقت.
+No channel selected::لم يتم تحديد أي قناة
+No channel selected.::لم يتم تحديد أي قناة.
+No channels could be mapped or import cancelled.::لا يمكن تعيين أي قنوات أو إلغاء الاستيراد.
+No channels could be mapped. Check your mapping rules.::لا يمكن تعيين أي قنوات. تحقق من قواعد رسم الخرائط الخاصة بك.
+No channels found in JSON.::لم يتم العثور على قنوات في JSON.
+No channels found in M3U.::لم يتم العثور على قنوات في M3U.
+No channels loaded from JSON URL.::لم يتم تحميل أي قنوات من عنوان URL لـ JSON.
+No channels loaded from M3U URL.::لم يتم تحميل أي قنوات من عنوان URL M3U.
+No channels loaded from M3U.::لا توجد قنوات محملة من M3U.
+No channels loaded.::لم يتم تحميل أي قنوات.
+No channels mapped::لم يتم تعيين أي قنوات
+No channels selected.::لم يتم تحديد أي قنوات.
+No channels to import.::لا توجد قنوات للاستيراد.
+No duplicate URLs found.::لم يتم العثور على عناوين URL مكررة.
+No EPG data::لا توجد بيانات دليل البرامج الإلكتروني
+No EPG information available for this channel.::لا تتوفر معلومات EPG لهذه القناة.
+No EPG source configured. Please select one from the combo or go to Settings.::لم يتم تكوين مصدر EPG. الرجاء اختيار واحد من التحرير والسرد أو الذهاب إلى الإعدادات.
+No EPG source configured. Would you like to open settings to select one?::لم يتم تكوين مصدر EPG. هل ترغب في فتح الإعدادات لاختيار واحد؟
+No favorite channels found.::لم يتم العثور على قنوات مفضلة.
+No favorite channels to export.::لا توجد قنوات مفضلة للتصدير.
+No missing channels to export.::لا توجد قنوات مفقودة للتصدير.
+No playlist found::لم يتم العثور على قائمة تشغيل
+No second playlist loaded.::لم يتم تحميل قائمة تشغيل ثانية.
+No stream URL available for this channel.::لا يوجد عنوان URL للبث متاح لهذه القناة.
+No text to import.::لا يوجد نص لاستيراده.
+No updates available.::لا توجد تحديثات متاحة.
+Normal speed (1x)::السرعة العادية (1x)
+Not connected to the box.::غير متصل بالمربع.
+Now::الآن
+OK::نعم
+Online Playlist::قائمة التشغيل على الانترنت
+Online playlist – select from GitHub repository (auto‑refresh).::قائمة التشغيل عبر الإنترنت - اختر من مستودع GitHub (التحديث التلقائي).
+Only in First::فقط في الأول
+Only in Second::فقط في الثانية
+Open File...::فتح الملف...
+Open from URL::فتح من URL
+Open Playlist::افتح قائمة التشغيل
+Pause/Resume live stream::إيقاف مؤقت/استئناف البث المباشر
+Paused::متوقف مؤقتًا
+PayPal::باي بال
+Picture-in-Picture mode::وضع صورة داخل صورة
+Play/Pause::تشغيل/إيقاف مؤقت
+Player Media Controls::عناصر التحكم في وسائط المشغل
+Playing Media::تشغيل الوسائط
+Playlist & Groups::قائمة التشغيل والمجموعات
+Playlist closed::تم إغلاق قائمة التشغيل
+Playlist Comparison::مقارنة قائمة التشغيل
+Playlist Editor::محرر قائمة التشغيل
+Playlist Loading::تحميل قائمة التشغيل
+Playlist Management::إدارة قائمة التشغيل
+Playlist repository: OwnerPlugins/TivuStreamList (Italian & international streams)::مستودع قائمة التشغيل: OwnerPlugins/TivuStreamList (التدفقات الإيطالية والدولية)
+Please select a program first.::الرجاء تحديد البرنامج أولاً.
+Preview (first 5 channels)::معاينة (أول 5 قنوات)
+Preview error: {0}::خطأ في المعاينة: {0}
+Program Details::تفاصيل البرنامج
+Ready::مستعد
+Recent::مؤخرًا
+Recent files – quick access to last 5 opened playlists.::الملفات الأخيرة - الوصول السريع إلى آخر 5 قوائم تشغيل مفتوحة.
+Recent playlists::قوائم التشغيل الأخيرة
+Refresh Code::تحديث الكود
+Refresh EPG::قم بتحديث دليل البرامج الإلكتروني
+Refresh EPG List::قم بتحديث قائمة EPG
+Refresh from GitHub::قم بالتحديث من جيثب
+Refresh List::تحديث القائمة
+Reload GUI::إعادة تحميل واجهة المستخدم الرسومية
+Remove Command::إزالة الأمر
+Rename Group::إعادة تسمية المجموعة
+Rename group '{0}' to:::إعادة تسمية المجموعة '{0}' إلى:
+Repository::مستودع
+Reset Order::إعادة تعيين الطلب
+Results: 'Only in First', 'Only in Second', 'In Both' – with status color coding.::النتائج: "في الأول فقط"، "في الثانية فقط"، "في كليهما" - مع ترميز لون الحالة.
+Save::يحفظ
+SAVE::يحفظ
+Save – persists all settings without reloading current playlist.::حفظ - يستمر في جميع الإعدادات دون إعادة تحميل قائمة التشغيل الحالية.
+Save as...::حفظ باسم...
+Save current playlist to a new M3U file::احفظ قائمة التشغيل الحالية في ملف M3U جديد
+Save Favorites::حفظ المفضلة
+Save Mapping::حفظ رسم الخرائط
+Save Playlist::حفظ قائمة التشغيل
+Save Status::حفظ الحالة
+Saved::أنقذ
+Search channel::قناة البحث
+Search channels by name::البحث عن القنوات بالاسم
+Search channels...::بحث في القنوات...
+sec::ثانية
+Second playlist loaded: {0} channels::تم تحميل قائمة التشغيل الثانية: {0} قناة
+Select a channel to play.::حدد قناة للعب.
+Select a playlist first.::حدد قائمة التشغيل أولاً.
+Select target group:::حدد المجموعة المستهدفة:
+Select Theme::حدد الموضوع
+Selected theme is saved and applied on restart.::يتم حفظ السمة المحددة وتطبيقها عند إعادة التشغيل.
+Send::يرسل
+Send playlist to Enigma2 decoder::إرسال قائمة التشغيل إلى وحدة فك ترميز Enigma2
+Send to Enigma2::أرسل إلى Enigma2
+Settings::إعدادات
+Show List::عرض القائمة
+Show only channels marked as favorites::عرض القنوات التي تم وضع علامة عليها كمفضلة فقط
+Show or hide the channel list::إظهار أو إخفاء قائمة القنوات
+Special thanks to the CORVOBOYS & LinuxSat-Support communities for testing and support.::شكر خاص لمجتمعات CORVOBOYS وLinuxSat-Support على الاختبار والدعم.
+Start::يبدأ
+Status::حالة
+Stop::قف
+Stopped::توقف
+Stream URL::عنوان URL للدفق
+Stream URLs::دفق عناوين URL
+Success::نجاح
+Support::يدعم
+Support the developer::دعم المطور
+Target Field::مجال الهدف
+Telnet command:::أمر التلنت:
+Telnet Commander::قائد التلنت
+Telnet Config::تكوين التلنت
+Telnet Configuration::تكوين التلنت
+Telnet Console::وحدة تحكم التلنت
+Telnet host not configured. Please set it in Settings.::لم يتم تكوين مضيف Telnet. يرجى ضبطه في الإعدادات.
+Telnet password is empty. Do you want to continue?::كلمة مرور Telnet فارغة. هل تريد الاستمرار؟
+Telnet username not configured. Please set it in Settings.::لم يتم تكوين اسم مستخدم Telnet. يرجى ضبطه في الإعدادات.
+Thanks to::شكرا ل
+Theme picker::منتقي الموضوع
+Theme picker – accessible via Tools menu on main toolbar.::منتقي السمات – يمكن الوصول إليه عبر قائمة الأدوات على شريط الأدوات الرئيسي.
+Themes::المواضيع
+Time::وقت
+Title::عنوان
+Tools::أدوات
+Total::المجموع
+Total channels in loaded playlist::إجمالي القنوات في قائمة التشغيل المحملة
+TV Guide (EPG)::دليل التلفاز (EPG)
+TvgId::معرف التلفزيون
+Type channel name to filter::اكتب اسم القناة للتصفية
+UI: MaterialDesignThemes.Wpf::واجهة المستخدم: MaterialDesignThemes.Wpf
+Unable to auto-detect format. Please select JSON or M3U from the dropdown and try again.::غير قادر على الكشف التلقائي عن التنسيق. يرجى تحديد JSON أو M3U من القائمة المنسدلة والمحاولة مرة أخرى.
+Unable to find version in remote project file.::غير قادر على العثور على الإصدار في ملف المشروع البعيد.
+Unsupported format. Please select JSON or M3U.::تنسيق غير معتمد. الرجاء تحديد JSON أو M3U.
+Update::تحديث
+Update complete. Restarting...::اكتمل التحديث. جارٍ إعادة التشغيل...
+Update Error::خطأ في التحديث
+Update failed: ::فشل التحديث:
+Updated::تم التحديث
+Updates::التحديثات
+Upload Error::خطأ في التحميل
+URL::عنوان URL
+URL (primary)::عنوان URL (أساسي)
+URL Check::التحقق من عنوان URL
+URL list (one per line)::قائمة عناوين URL (واحدة لكل سطر)
+URLs & Status::عناوين URL والحالة
+Version::إصدار
+Version {0}.{1}.{2}::الإصدار {0}.{1}.{2}
+Version unknown::الإصدار غير معروف
+Waiting for LiveGardenTVPlus to close...::في انتظار إغلاق LiveGardenTVPlus...
+Warning::تحذير
+WebView2: Microsoft Edge WebView2::WebView2: Microsoft Edge WebView2
+Youtube URL::عنوان URL على يوتيوب
+Youtube URLs::عناوين URL على يوتيوب
