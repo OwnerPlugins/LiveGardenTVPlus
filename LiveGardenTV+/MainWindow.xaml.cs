@@ -50,12 +50,16 @@ namespace LiveGardenTVPlus
         private GridLength _savedChannelColumnWidth;
         private double _savedWindowHeight, _savedWindowWidth;
         private WindowState _savedWindowState;
+        
+        private bool _isMuted = false;
+        private double _lastVolume = 0.8;
 
         private bool _isFirstLoad = true;
         private bool _isApplyingLanguage = false;
         public MainWindow()
         {
             InitializeComponent();
+            
             UpdateRecentPopup();
 
             var version = Assembly.GetExecutingAssembly().GetName().Version;
@@ -81,7 +85,6 @@ namespace LiveGardenTVPlus
 
             WebPlayer.Visibility = Visibility.Collapsed;
 
-
             LanguageManager.LanguageChanged -= OnLanguageChanged;
 
             ApplyLanguage();
@@ -96,6 +99,14 @@ namespace LiveGardenTVPlus
             {
                 ApplyLanguage();
             }
+
+            var prefsVolume = UserPreferences.Load();
+            double savedVolume = prefsVolume.Volume;
+            if (savedVolume < 0) savedVolume = 0;
+            if (savedVolume > 1) savedVolume = 1;
+            VolumeSlider.Value = savedVolume;
+            VolumeText.Text = $"{(int)(savedVolume * 100)}%";
+            _lastVolume = savedVolume;
 
             Loaded += async (s, e) =>
             {
@@ -2266,6 +2277,47 @@ namespace LiveGardenTVPlus
                 double newTime = TimeshiftSlider.Value;
                 await WebPlayer.CoreWebView2.ExecuteScriptAsync($"seekToTime({newTime})");
                 _isLiveMode = false;
+            }
+        }
+
+        private async void VolumeSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (VolumeText != null)
+                VolumeText.Text = $"{(int)(e.NewValue * 100)}%";
+
+            if (e.NewValue == 0)
+            {
+                _isMuted = true;
+                MuteIcon.Kind = PackIconKind.VolumeOff;
+            }
+            else if (_isMuted)
+            {
+                _isMuted = false;
+                MuteIcon.Kind = PackIconKind.VolumeHigh;
+            }
+
+            if (WebPlayer?.CoreWebView2 != null)
+            {
+                await WebPlayer.CoreWebView2.ExecuteScriptAsync($"setVolume({e.NewValue});");
+            }
+        }
+
+        private async void MuteBtn_Click(object sender, RoutedEventArgs e)
+        {
+            _isMuted = !_isMuted;
+            if (_isMuted)
+            {
+                MuteIcon.Kind = PackIconKind.VolumeOff;
+                VolumeSlider.Value = 0;
+                if (WebPlayer?.CoreWebView2 != null)
+                    await WebPlayer.CoreWebView2.ExecuteScriptAsync("video.muted = true;");
+            }
+            else
+            {
+                MuteIcon.Kind = PackIconKind.VolumeHigh;
+                VolumeSlider.Value = 0.8;
+                if (WebPlayer?.CoreWebView2 != null)
+                    await WebPlayer.CoreWebView2.ExecuteScriptAsync("video.muted = false; setVolume(0.8);");
             }
         }
 

@@ -546,6 +546,19 @@
                         PreviewMouseLeftButtonUp="TimeshiftSlider_PreviewMouseLeftButtonUp"
                         IsEnabled="True" ToolTip="Drag to seek back in buffer" Visibility="Collapsed"/>
             </StatusBarItem>
+            
+            <!-- ========== VOLUME ========== -->
+            <Separator Margin="2,0" Background="{DynamicResource BorderBrush}"/>
+
+            <StackPanel Orientation="Horizontal" Margin="5,0" VerticalAlignment="Center">
+                <Button x:Name="MuteBtn" Click="MuteBtn_Click" Background="Transparent" BorderThickness="0" Cursor="Hand" ToolTip="Mute" Margin="0,0,5,0">
+                    <material:PackIcon x:Name="MuteIcon" Kind="VolumeHigh" Width="20" Height="20"/>
+                </Button>
+                <Slider x:Name="VolumeSlider" Width="80" Minimum="0" Maximum="1" Value="0.8" 
+                        ValueChanged="VolumeSlider_ValueChanged" ToolTip="Volume"/>
+                <TextBlock x:Name="VolumeText" Text="80%" Margin="5,0,0,0" Width="30" VerticalAlignment="Center"/>
+            </StackPanel>
+            
             <StatusBarItem>
                 <ProgressBar x:Name="LoadingProgressBar" Width="120" Height="16" IsIndeterminate="True" Visibility="Collapsed" Margin="5,0"/>
             </StatusBarItem>

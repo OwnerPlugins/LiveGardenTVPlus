@@ -29,5 +29,6 @@ namespace LiveGardenTVPlus.Services
         public int TelnetPort { get; set; } = 23;
         public string TelnetUser { get; set; } = "root";
         public string TelnetPass { get; set; } = "";
+        public double Volume { get; set; } = 0.8;
     }
 }
