@@ -67,8 +67,8 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
 ---
 
 <table align="center">
-
   <tr>
+    <td align="center">
       <img src="Screenshots/preview00.jpg?sanitize=true&raw=true" title="preview00" width="400"/><br/>
       <b>Preview TV</b>
     </td>
@@ -76,8 +76,7 @@ It supports M3U playlists, JSON channel lists, EPG, channel logos, timeshift, pl
       <img src="Screenshots/preview01.jpg?sanitize=true&raw=true" title="preview01" width="400"/><br/>
       <b>Preview RADIO</b>
     </td>  
-    </tr>
-
+  </tr>
   <tr>
     <td align="center">
       <img src="Screenshots/preview0.jpg?sanitize=true&raw=true" title="preview0" width="400"/><br/>
